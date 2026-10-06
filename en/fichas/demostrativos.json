@@ -88,7 +88,19 @@
    "respuestas": [
     "These"
    ],
-   "explicacion": "Apples es plural y está cerca: these."
+   "explicacion": "Se aplica la tabla de la ficha: para lo cercano, this en singular y these en plural. La pista es apples, en plural (y el verbo are lo confirma). Por eso These apples, «estas manzanas».",
+   "explicacion_breve": "Apples es plural y está cerca: these.",
+   "traduccion": "Estas manzanas son muy dulces.",
+   "errores_previstos": [
+    {
+     "respuesta": "This",
+     "explicacion": "This es singular; con apples, que es plural, hace falta these."
+    },
+    {
+     "respuesta": "Those",
+     "explicacion": "Those es plural pero para lo lejano; el enunciado pide la forma de cerca."
+    }
+   ]
   },
   {
    "id": "e02",
@@ -98,7 +110,19 @@
    "respuestas": [
     "that"
    ],
-   "explicacion": "Mountain es singular y está lejos: that."
+   "explicacion": "La tabla da that para lo lejano en singular. Las pistas son over there (allí), que indica distancia, y mountain, en singular. En inglés that sirve tanto para «esa» como para «aquella».",
+   "explicacion_breve": "Mountain es singular y está lejos: that.",
+   "traduccion": "¡Mira aquella montaña de allí!",
+   "errores_previstos": [
+    {
+     "respuesta": "those",
+     "explicacion": "Those es plural; mountain es singular, así que that."
+    },
+    {
+     "respuesta": "this",
+     "explicacion": "This es para lo cercano; over there indica lejanía."
+    }
+   ]
   },
   {
    "id": "e03",
@@ -108,7 +132,19 @@
    "respuestas": [
     "those"
    ],
-   "explicacion": "Birds es plural y está lejos: those."
+   "explicacion": "Se aplica la fila de lejos en plural de la tabla: those. La pista es birds, en plural, y on the roof, que está a cierta distancia. Those equivale a «esos» o «aquellos».",
+   "explicacion_breve": "Birds es plural y está lejos: those.",
+   "traduccion": "¿Ves esos pájaros del tejado?",
+   "errores_previstos": [
+    {
+     "respuesta": "that",
+     "explicacion": "That es singular; birds es plural y pide those."
+    },
+    {
+     "respuesta": "these",
+     "explicacion": "These es para lo cercano; el enunciado pide la forma de lejos."
+    }
+   ]
   },
   {
    "id": "e04",
@@ -118,7 +154,19 @@
    "respuestas": [
     "this"
    ],
-   "explicacion": "Seat es singular y está cerca: this."
+   "explicacion": "La tabla da this para lo cercano en singular. La pista es seat, en singular, y el contexto: preguntamos por el asiento que tenemos al lado. Por eso Is this seat free?",
+   "explicacion_breve": "Seat es singular y está cerca: this.",
+   "traduccion": "¿Está libre este asiento?",
+   "errores_previstos": [
+    {
+     "respuesta": "these",
+     "explicacion": "These es plural; seat es singular, así que this."
+    },
+    {
+     "respuesta": "that",
+     "explicacion": "That es para lo lejano; quien pregunta por un asiento libre suele tenerlo al lado."
+    }
+   ]
   },
   {
    "id": "e05",
@@ -133,7 +181,14 @@
    "respuestas": [
     "this"
    ],
-   "explicacion": "La semana actual: this week."
+   "explicacion": "La lista de la ficha recuerda que los demostrativos también se usan en el tiempo: this week es la semana actual. La pista es week, en singular, y el presente I'm busy, que sitúa la frase ahora.",
+   "explicacion_breve": "La semana actual: this week.",
+   "traduccion": "Estoy muy ocupado esta semana.",
+   "por_opcion": {
+    "this": "Correcta: this week = esta semana, la actual.",
+    "these": "Incorrecta: these es plural; con week sería these weeks.",
+    "those": "Incorrecta: those es plural y lejano; no encaja con un singular ni con el presente."
+   }
   },
   {
    "id": "e06",
@@ -148,7 +203,14 @@
    "respuestas": [
     "These"
    ],
-   "explicacion": "Jeans es plural: these."
+   "explicacion": "Se aplica la concordancia en número de la ficha: el demostrativo va en plural si el sustantivo es plural. Jeans es siempre plural en inglés (como trousers o glasses), y el verbo are lo confirma. Por eso These jeans.",
+   "explicacion_breve": "Jeans es plural: these.",
+   "traduccion": "Estos vaqueros me quedan demasiado pequeños.",
+   "por_opcion": {
+    "This": "Incorrecta: this es singular, y jeans es plural en inglés aunque sea una sola prenda.",
+    "These": "Correcta: plural y cercano, concuerda con jeans.",
+    "That": "Incorrecta: that es singular y lejano."
+   }
   },
   {
    "id": "e07",
@@ -163,7 +225,14 @@
    "respuestas": [
     "This"
    ],
-   "explicacion": "Para presentar a una persona: This is…"
+   "explicacion": "La lista de la ficha indica que para presentar a alguien se usa This is… La pista es que se presenta a una sola persona (my cousin), por lo que el singular this es el adecuado.",
+   "explicacion_breve": "Para presentar a una persona: This is…",
+   "traduccion": "Hola, Paul. Esta es mi prima, Elena.",
+   "por_opcion": {
+    "This": "Correcta: This is… es la fórmula para presentar a una persona.",
+    "These": "Incorrecta: these es plural; se usaría para presentar a varias personas (These are my cousins).",
+    "Those": "Incorrecta: those es plural y lejano; no se usa para presentar."
+   }
   },
   {
    "id": "e08",
@@ -178,7 +247,14 @@
    "respuestas": [
     "that"
    ],
-   "explicacion": "Un momento lejano en el pasado: that."
+   "explicacion": "La ficha señala que that se usa también para lo lejano en el tiempo: that day = aquel día. La pista es in 2010, un momento pasado y lejano. This day se referiría al día de hoy.",
+   "explicacion_breve": "Un momento lejano en el pasado: that.",
+   "traduccion": "Nunca olvidaré aquel día de 2010.",
+   "por_opcion": {
+    "this": "Incorrecta: this day remite al presente; el día de 2010 es lejano.",
+    "that": "Correcta: that para un momento lejano en el pasado.",
+    "these": "Incorrecta: these es plural; day es singular."
+   }
   },
   {
    "id": "e09",
@@ -188,7 +264,23 @@
    "respuestas": [
     "These are my pens."
    ],
-   "explicacion": "This is pasa a these are y pen a pens."
+   "explicacion": "Se aplica la concordancia de la ficha: al pasar a plural, this se convierte en these, el verbo is en are y pen en pens. Todos los elementos cambian a la vez.",
+   "explicacion_breve": "This is pasa a these are y pen a pens.",
+   "traduccion": "Estos son mis bolígrafos.",
+   "errores_previstos": [
+    {
+     "respuesta": "This are my pens.",
+     "explicacion": "This es singular; con are y pens hace falta these."
+    },
+    {
+     "respuesta": "These are my pen.",
+     "explicacion": "El sustantivo también pasa a plural: pens."
+    },
+    {
+     "respuesta": "These is my pens.",
+     "explicacion": "Con these el verbo va en plural: are."
+    }
+   ]
   },
   {
    "id": "e10",
@@ -198,7 +290,23 @@
    "respuestas": [
     "That house is old."
    ],
-   "explicacion": "Those pasa a that y are a is."
+   "explicacion": "Al pasar a singular, those se convierte en that, houses en house y are en is. Es la misma concordancia de número de la ficha, en sentido contrario: cuando cambia el número del sustantivo, cambian con él el demostrativo y el verbo.",
+   "explicacion_breve": "Those pasa a that y are a is.",
+   "traduccion": "Esa casa es vieja.",
+   "errores_previstos": [
+    {
+     "respuesta": "That houses are old.",
+     "explicacion": "Hay que pasar también el sustantivo y el verbo a singular: That house is old."
+    },
+    {
+     "respuesta": "This house is old.",
+     "explicacion": "This es para lo cercano; el singular de those es that."
+    },
+    {
+     "respuesta": "That house are old.",
+     "explicacion": "Con un sujeto singular el verbo es is."
+    }
+   ]
   },
   {
    "id": "e11",
@@ -208,7 +316,19 @@
    "respuestas": [
     "These shoes are comfortable."
    ],
-   "explicacion": "Shoes es plural: these."
+   "explicacion": "Es el primer error típico de la ficha: this con un plural. Shoes es plural (y el verbo are lo confirma), por lo que el demostrativo debe ser these. El resto de la frase ya está bien.",
+   "explicacion_breve": "Shoes es plural: these.",
+   "traduccion": "Estos zapatos son cómodos.",
+   "errores_previstos": [
+    {
+     "respuesta": "This shoes are comfortable.",
+     "explicacion": "Es la frase sin corregir: this es singular y shoes plural."
+    },
+    {
+     "respuesta": "This shoe are comfortable.",
+     "explicacion": "Pasar shoe a singular deja el verbo are sin concordar; basta cambiar this por these."
+    }
+   ]
   },
   {
    "id": "e12",
@@ -218,7 +338,19 @@
    "respuestas": [
     "Who is that man?"
    ],
-   "explicacion": "Man es singular: that."
+   "explicacion": "La tabla da that para el singular lejano y those para el plural. Man es singular (el plural es men) y el verbo is también, así que hay que decir that man.",
+   "explicacion_breve": "Man es singular: that.",
+   "traduccion": "¿Quién es aquel hombre?",
+   "errores_previstos": [
+    {
+     "respuesta": "Who is those man?",
+     "explicacion": "Es la frase sin corregir: those es plural y man singular."
+    },
+    {
+     "respuesta": "Who are those man?",
+     "explicacion": "Man sigue en singular; lo correcto es Who is that man?"
+    }
+   ]
   },
   {
    "id": "e13",
@@ -234,7 +366,19 @@
    "respuestas": [
     "How much are those glasses"
    ],
-   "explicacion": "How much + are + those + sustantivo plural."
+   "explicacion": "Para preguntar un precio se usa How much + be + objeto. Glasses (gafas) es siempre plural en inglés, por eso va con those y el verbo are. Those indica que las gafas están a cierta distancia, por ejemplo en el escaparate.",
+   "explicacion_breve": "How much + are + those + sustantivo plural.",
+   "traduccion": "¿Cuánto cuestan esas gafas?",
+   "errores_previstos": [
+    {
+     "respuesta": "How much those glasses are",
+     "explicacion": "Ese orden es de pregunta indirecta; en la directa el verbo va delante: How much are those glasses?"
+    },
+    {
+     "respuesta": "How much are glasses those",
+     "explicacion": "El demostrativo va delante del sustantivo: those glasses."
+    }
+   ]
   },
   {
    "id": "e14",
@@ -249,13 +393,34 @@
    ],
    "respuestas": [
     "This is my favourite room",
-    "This room is my favourite",
-    "Is this my favourite room"
+    "This room is my favourite"
    ],
-   "explicacion": "This + is + complemento."
+   "explicacion": "This es aquí un pronombre seguido de is y de un complemento: This is my favourite room. También vale This room is my favourite, con this como determinante de room. En ambos casos this concuerda en singular con room.",
+   "explicacion_breve": "This + is + complemento.",
+   "traduccion": "Esta es mi habitación favorita.",
+   "errores_previstos": [
+    {
+     "respuesta": "This is room my favourite",
+     "explicacion": "El posesivo y el adjetivo van delante del sustantivo: my favourite room."
+    },
+    {
+     "respuesta": "Room this is my favourite",
+     "explicacion": "El demostrativo va delante del sustantivo: this room, no room this."
+    },
+    {
+     "respuesta": "Is this my favourite room",
+     "explicacion": "Es una pregunta («¿es esta mi habitación favorita?»), que no tiene sentido sobre los gustos de uno mismo; el ejercicio pide la afirmación: This is my favourite room."
+    }
+   ]
   }
  ],
  "fuente": {
   "nombre": "propia"
+ },
+ "descripcion_larga_es": "Los demostrativos this, that, these y those señalan personas o cosas según estén cerca o lejos y según sean una o varias. Son de las primeras palabras que se aprenden y se usan en todo momento. Al hispanohablante le cuesta porque el inglés solo distingue dos distancias (no hay «ese» y «aquel») y porque el demostrativo cambia en plural, cosa que se olvida con facilidad.",
+ "contexto": {
+  "que_es": "Son palabras que señalan algo por su distancia respecto al hablante. This (singular) y these (plural) para lo cercano; that (singular) y those (plural) para lo lejano. Pueden ir delante de un sustantivo (this book) o solos, como pronombres (This is my book).",
+  "por_que_importa": "Se usan constantemente en tiendas, presentaciones, al teléfono y para referirse a lo que se acaba de decir (That's right). Equivocar singular y plural (this books) es un error muy visible, aunque no impida entender. En un examen de nivel básico aparece casi siempre.",
+  "cuando_se_usa": "Al señalar objetos o personas, al presentar a alguien (This is my friend), al identificarse por teléfono (This is Marta) y en expresiones de tiempo (this week, that day). La pista es la distancia y el número del sustantivo. El hispanohablante tiende a dejar this con un plural y a traducir «soy Marta» por I am Marta al teléfono."
  }
 }

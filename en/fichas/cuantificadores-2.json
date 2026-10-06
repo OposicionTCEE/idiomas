@@ -6,53 +6,492 @@
  "nivel": "B2",
  "resumen": "Each y every van con singular; both, either y neither se refieren a dos cosas o personas; none, all y los demás llevan of delante de un determinante o pronombre (none of the, all of them).",
  "explicacion": [
-  {"tipo": "tabla", "cabecera": ["Cuantificador", "Uso", "Ejemplo"], "filas": [
-   ["every + singular", "todos, vistos como grupo (3 o más)", "Every student has a laptop."],
-   ["each + singular / each of + plural", "cada uno por separado (2 o más)", "Each of the rooms has a balcony."],
-   ["both (of) + plural", "los dos", "Both (of) my parents are teachers."],
-   ["either (of)", "uno u otro / cualquiera de los dos", "You can sit in either chair."],
-   ["neither (of)", "ninguno de los dos", "Neither of them called."],
-   ["none of + plural/incontable", "ninguno (3 o más) / nada de", "None of the guests arrived on time."],
-   ["all (of) + plural/incontable", "todos / todo", "All (of) the tickets were sold."]
-  ]},
-  {"tipo": "texto", "texto": "Neither of / either of / none of + plural: en registro formal el verbo va en singular (Neither of them is ready); en el habla también se oye plural. Con each of y every el verbo siempre va en singular."},
-  {"tipo": "lista", "items": [
-   "Every nunca lleva of: every one of them, no «every of them».",
-   "Ante pronombre hace falta of: all of us, both of them, each of you (no «all us»).",
-   "Neither ya es negativo: Neither of us knew (no «didn't know»). Con negación se usa either: I don't like either of them.",
-   "Both … and, either … or, neither … nor: Neither Ana nor Luis came.",
-   "Every con expresiones de frecuencia: every two weeks (cada dos semanas)."
-  ]}
+  {
+   "tipo": "tabla",
+   "cabecera": [
+    "Cuantificador",
+    "Uso",
+    "Ejemplo"
+   ],
+   "filas": [
+    [
+     "every + singular",
+     "todos, vistos como grupo (3 o más)",
+     "Every student has a laptop."
+    ],
+    [
+     "each + singular / each of + plural",
+     "cada uno por separado (2 o más)",
+     "Each of the rooms has a balcony."
+    ],
+    [
+     "both (of) + plural",
+     "los dos",
+     "Both (of) my parents are teachers."
+    ],
+    [
+     "either (of)",
+     "uno u otro / cualquiera de los dos",
+     "You can sit in either chair."
+    ],
+    [
+     "neither (of)",
+     "ninguno de los dos",
+     "Neither of them called."
+    ],
+    [
+     "none of + plural/incontable",
+     "ninguno (3 o más) / nada de",
+     "None of the guests arrived on time."
+    ],
+    [
+     "all (of) + plural/incontable",
+     "todos / todo",
+     "All (of) the tickets were sold."
+    ]
+   ]
+  },
+  {
+   "tipo": "texto",
+   "texto": "Neither of / either of / none of + plural: en registro formal el verbo va en singular (Neither of them is ready); en el habla también se oye plural. Con each of y every el verbo siempre va en singular."
+  },
+  {
+   "tipo": "lista",
+   "items": [
+    "Every nunca lleva of: every one of them, no «every of them».",
+    "Ante pronombre hace falta of: all of us, both of them, each of you (no «all us»).",
+    "Neither ya es negativo: Neither of us knew (no «didn't know»). Con negación se usa either: I don't like either of them.",
+    "Both … and, either … or, neither … nor: Neither Ana nor Luis came.",
+    "Every con expresiones de frecuencia: every two weeks (cada dos semanas)."
+   ]
+  }
  ],
  "ejemplos": [
-  {"frase": "Each candidate has ten minutes to present their project.", "traduccion": "Cada candidato tiene diez minutos para presentar su proyecto."},
-  {"frase": "The bus leaves every twenty minutes.", "traduccion": "El autobús sale cada veinte minutos."},
-  {"frase": "Both restaurants were full, so we had a sandwich.", "traduccion": "Los dos restaurantes estaban llenos, así que comimos un bocadillo."},
-  {"frase": "You can pay either in cash or by card.", "traduccion": "Puede pagar en efectivo o con tarjeta."},
-  {"frase": "Neither of my brothers lives in Spain.", "traduccion": "Ninguno de mis dos hermanos vive en España."},
-  {"frase": "None of the proposals was accepted.", "traduccion": "No se aceptó ninguna de las propuestas."}
+  {
+   "frase": "Each candidate has ten minutes to present their project.",
+   "traduccion": "Cada candidato tiene diez minutos para presentar su proyecto."
+  },
+  {
+   "frase": "The bus leaves every twenty minutes.",
+   "traduccion": "El autobús sale cada veinte minutos."
+  },
+  {
+   "frase": "Both restaurants were full, so we had a sandwich.",
+   "traduccion": "Los dos restaurantes estaban llenos, así que comimos un bocadillo."
+  },
+  {
+   "frase": "You can pay either in cash or by card.",
+   "traduccion": "Puede pagar en efectivo o con tarjeta."
+  },
+  {
+   "frase": "Neither of my brothers lives in Spain.",
+   "traduccion": "Ninguno de mis dos hermanos vive en España."
+  },
+  {
+   "frase": "None of the proposals was accepted.",
+   "traduccion": "No se aceptó ninguna de las propuestas."
+  }
  ],
  "errores_hispanohablantes": [
-  {"mal": "Every of the students passed.", "bien": "Every one of the students passed.", "nota": "Every no admite of; se usa every one of o each of."},
-  {"mal": "Neither of them didn't come.", "bien": "Neither of them came.", "nota": "Neither ya es negativo: no se añade otra negación."},
-  {"mal": "All the people was happy.", "bien": "All the people were happy.", "nota": "People es plural; all con plural lleva verbo en plural."}
+  {
+   "mal": "Every of the students passed.",
+   "bien": "Every one of the students passed.",
+   "nota": "Every no admite of; se usa every one of o each of."
+  },
+  {
+   "mal": "Neither of them didn't come.",
+   "bien": "Neither of them came.",
+   "nota": "Neither ya es negativo: no se añade otra negación."
+  },
+  {
+   "mal": "All the people was happy.",
+   "bien": "All the people were happy.",
+   "nota": "People es plural; all con plural lleva verbo en plural."
+  }
  ],
  "ejercicios": [
-  {"id": "e01", "tipo": "hueco", "enunciado": "Completa con both, either o neither.", "frase": "___ of my sisters can drive, so we always take the train.", "respuestas": ["Neither"], "explicacion": "Ninguna de las dos: neither (ya es negativo)."},
-  {"id": "e02", "tipo": "hueco", "enunciado": "Completa con both, either o neither.", "frase": "I don't mind which film we see. ___ is fine with me.", "respuestas": ["Either"], "explicacion": "Cualquiera de los dos: either."},
-  {"id": "e03", "tipo": "hueco", "enunciado": "Completa con una palabra.", "frase": "The doctor checks the patients ___ two hours.", "respuestas": ["every"], "explicacion": "Frecuencia: every + número + periodo."},
-  {"id": "e04", "tipo": "hueco", "enunciado": "Completa con una palabra.", "frase": "Neither Paula ___ her husband wanted to move abroad.", "respuestas": ["nor"], "explicacion": "Neither … nor."},
-  {"id": "e05", "tipo": "eleccion", "enunciado": "Elige la opción correcta.", "frase": "___ of the three hotels had a free room.", "opciones": ["None", "Neither", "No", "Either"], "respuestas": ["None"], "explicacion": "Ninguno entre tres o más: none of."},
-  {"id": "e06", "tipo": "eleccion", "enunciado": "Elige la opción correcta.", "frase": "___ child in the class received a small gift.", "opciones": ["Each", "All", "Both", "None"], "respuestas": ["Each"], "explicacion": "Each + nombre singular."},
-  {"id": "e07", "tipo": "eleccion", "enunciado": "Elige la opción correcta.", "frase": "I phoned Ana and Luis, but I couldn't reach ___ of them.", "opciones": ["either", "neither", "both", "none"], "respuestas": ["either"], "explicacion": "Con verbo negativo se usa either."},
-  {"id": "e08", "tipo": "eleccion", "enunciado": "Elige la opción correcta en registro formal.", "frase": "Neither of the answers ___ correct.", "opciones": ["is", "are", "be"], "respuestas": ["is"], "explicacion": "En registro formal, neither of + plural lleva verbo en singular."},
-  {"id": "e09", "tipo": "corregir", "enunciado": "Corrige el error.", "frase": "Every of my friends came to the wedding.", "respuestas": ["Every one of my friends came to the wedding.", "Each of my friends came to the wedding.", "All of my friends came to the wedding.", "All my friends came to the wedding."], "explicacion": "Every no va seguido de of."},
-  {"id": "e10", "tipo": "corregir", "enunciado": "Corrige el error.", "frase": "Neither of us didn't know the answer.", "respuestas": ["Neither of us knew the answer."], "explicacion": "Doble negación incorrecta: neither ya niega."},
-  {"id": "e11", "tipo": "corregir", "enunciado": "Corrige el error.", "frase": "Both of they work in a bank.", "respuestas": ["Both of them work in a bank.", "They both work in a bank."], "explicacion": "Tras of va el pronombre objeto: both of them."},
-  {"id": "e12", "tipo": "corregir", "enunciado": "Corrige el error.", "frase": "Each of the players have a different number.", "respuestas": ["Each of the players has a different number."], "explicacion": "Each of + plural lleva verbo en singular."},
-  {"id": "e13", "tipo": "transformar", "enunciado": "Reescribe la frase con neither of.", "frase": "My two cousins don't eat meat.", "respuestas": ["Neither of my cousins eats meat.", "Neither of my two cousins eats meat.", "Neither of my cousins eat meat.", "Neither of my two cousins eat meat."], "explicacion": "Neither of + plural, sin otra negación."},
-  {"id": "e14", "tipo": "ordenar", "enunciado": "Ordena las palabras.", "palabras": ["of", "us", "were", "all", "tired"], "respuestas": ["all of us were tired"], "explicacion": "Ante pronombre hace falta of: all of us."},
-  {"id": "e15", "tipo": "ordenar", "enunciado": "Ordena las palabras.", "palabras": ["can", "either", "you", "or", "come", "today", "tomorrow"], "respuestas": ["you can come either today or tomorrow", "you can either come today or tomorrow"], "explicacion": "Either … or para dos alternativas."}
+  {
+   "id": "e01",
+   "tipo": "hueco",
+   "enunciado": "Completa con both, either o neither.",
+   "frase": "___ of my sisters can drive, so we always take the train.",
+   "respuestas": [
+    "Neither"
+   ],
+   "explicacion": "Se aplica la regla de la tabla para dos elementos: neither (of) significa «ninguno de los dos». La pista es la consecuencia: siempre cogemos el tren, luego ninguna conduce. Además el verbo can está en afirmativa, y la ficha recuerda que neither ya es negativo y no necesita otra negación. Por eso Neither of my sisters can drive.",
+   "explicacion_breve": "Ninguna de las dos: neither (ya es negativo).",
+   "traduccion": "Ninguna de mis dos hermanas sabe conducir, así que siempre cogemos el tren.",
+   "errores_previstos": [
+    {
+     "respuesta": "Either",
+     "explicacion": "Either significa «cualquiera de las dos»; para negar con either haría falta un verbo negativo (can't), y la frase tiene can."
+    },
+    {
+     "respuesta": "None",
+     "explicacion": "None of se usa con tres o más; si son dos hermanas, lo correcto es neither."
+    },
+    {
+     "respuesta": "Both",
+     "explicacion": "Both of my sisters can drive diría que las dos conducen, lo contrario de lo que indica el contexto."
+    }
+   ]
+  },
+  {
+   "id": "e02",
+   "tipo": "hueco",
+   "enunciado": "Completa con both, either o neither.",
+   "frase": "I don't mind which film we see. ___ is fine with me.",
+   "respuestas": [
+    "Either"
+   ],
+   "explicacion": "La regla de la tabla es either = «uno u otro / cualquiera de los dos». La pista es I don't mind which film: hay dos opciones y ambas valen. Either funciona aquí como pronombre y lleva el verbo en singular (Either is fine).",
+   "explicacion_breve": "Cualquiera de los dos: either.",
+   "traduccion": "Me da igual qué película veamos. Cualquiera de las dos me parece bien.",
+   "errores_previstos": [
+    {
+     "respuesta": "Neither",
+     "explicacion": "Neither is fine diría que ninguna está bien, lo contrario de I don't mind."
+    },
+    {
+     "respuesta": "Both",
+     "explicacion": "Both exigiría verbo en plural (Both are fine) y significa «las dos a la vez», no «cualquiera»."
+    }
+   ]
+  },
+  {
+   "id": "e03",
+   "tipo": "hueco",
+   "enunciado": "Completa con una palabra.",
+   "frase": "The doctor checks the patients ___ two hours.",
+   "respuestas": [
+    "every"
+   ],
+   "explicacion": "Se aplica la regla de la lista: every con expresiones de frecuencia, every + número + periodo (every two weeks, every twenty minutes). La pista es two hours, que indica un intervalo que se repite. Each no se usa en esta construcción de frecuencia.",
+   "explicacion_breve": "Frecuencia: every + número + periodo.",
+   "traduccion": "El médico revisa a los pacientes cada dos horas.",
+   "errores_previstos": [
+    {
+     "respuesta": "each",
+     "explicacion": "Para la frecuencia con número (cada dos horas) el inglés usa every, no each."
+    },
+    {
+     "respuesta": "all",
+     "explicacion": "All two hours no existe; all the time sí, pero para un intervalo repetido se usa every."
+    }
+   ]
+  },
+  {
+   "id": "e04",
+   "tipo": "hueco",
+   "enunciado": "Completa con una palabra.",
+   "frase": "Neither Paula ___ her husband wanted to move abroad.",
+   "respuestas": [
+    "nor"
+   ],
+   "explicacion": "La ficha recoge las parejas fijas both… and, either… or y neither… nor. Al empezar con Neither, el segundo elemento se introduce con nor. El verbo wanted va en afirmativa porque neither ya aporta la negación.",
+   "explicacion_breve": "Neither … nor.",
+   "traduccion": "Ni Paula ni su marido querían irse a vivir al extranjero.",
+   "errores_previstos": [
+    {
+     "respuesta": "or",
+     "explicacion": "Or forma pareja con either; con neither la pareja correcta es nor."
+    },
+    {
+     "respuesta": "and",
+     "explicacion": "And forma pareja con both (Both Paula and her husband), que tendría el sentido contrario."
+    }
+   ]
+  },
+  {
+   "id": "e05",
+   "tipo": "eleccion",
+   "enunciado": "Elige la opción correcta.",
+   "frase": "___ of the three hotels had a free room.",
+   "opciones": [
+    "None",
+    "Neither",
+    "No",
+    "Either"
+   ],
+   "respuestas": [
+    "None"
+   ],
+   "explicacion": "La tabla distingue neither (ninguno de dos) de none of (ninguno entre tres o más). La pista decisiva es the three hotels: son tres, así que solo vale None of. El verbo had va en afirmativa porque none ya niega.",
+   "explicacion_breve": "Ninguno entre tres o más: none of.",
+   "traduccion": "Ninguno de los tres hoteles tenía una habitación libre.",
+   "por_opcion": {
+    "None": "Correcta: none of + plural para negar entre tres o más elementos.",
+    "Neither": "Incorrecta: neither se refiere solo a dos; con three hotels no encaja.",
+    "No": "Incorrecta: no va directamente ante el sustantivo (No hotel had…), pero no puede ir seguido de of.",
+    "Either": "Incorrecta: either también se limita a dos y además significaría «cualquiera», no «ninguno»."
+   }
+  },
+  {
+   "id": "e06",
+   "tipo": "eleccion",
+   "enunciado": "Elige la opción correcta.",
+   "frase": "___ child in the class received a small gift.",
+   "opciones": [
+    "Each",
+    "All",
+    "Both",
+    "None"
+   ],
+   "respuestas": [
+    "Each"
+   ],
+   "explicacion": "Se aplica la regla de que each y every van con sustantivo singular. La pista es child, en singular. Each subraya que se piensa en los niños uno a uno, idea natural al repartir regalos. All necesitaría plural (all the children) y both se limita a dos.",
+   "explicacion_breve": "Each + nombre singular.",
+   "traduccion": "Cada niño de la clase recibió un pequeño regalo.",
+   "por_opcion": {
+    "Each": "Correcta: each + nombre singular, cada uno por separado.",
+    "All": "Incorrecta: all va con plural o incontable (All the children received…), no con child.",
+    "Both": "Incorrecta: both se refiere a dos y va con plural (both children).",
+    "None": "Incorrecta: none no va delante de un sustantivo; haría falta None of the children."
+   }
+  },
+  {
+   "id": "e07",
+   "tipo": "eleccion",
+   "enunciado": "Elige la opción correcta.",
+   "frase": "I phoned Ana and Luis, but I couldn't reach ___ of them.",
+   "opciones": [
+    "either",
+    "neither",
+    "both",
+    "none"
+   ],
+   "respuestas": [
+    "either"
+   ],
+   "explicacion": "La ficha indica que con un verbo ya negativo se usa either, no neither, para evitar la doble negación. La pista es couldn't, que ya niega, y que son dos personas (Ana y Luis). Por eso couldn't reach either of them = no localicé a ninguno de los dos.",
+   "explicacion_breve": "Con verbo negativo se usa either.",
+   "traduccion": "Llamé a Ana y a Luis, pero no pude localizar a ninguno de los dos.",
+   "por_opcion": {
+    "either": "Correcta: verbo negativo + either of = ninguno de los dos.",
+    "neither": "Incorrecta: neither ya es negativo; con couldn't habría doble negación.",
+    "both": "Incorrecta en este sentido: couldn't reach both of them significaría que no localicé a los dos a la vez (quizá a uno sí).",
+    "none": "Incorrecta: none es para tres o más y además añadiría una segunda negación a couldn't."
+   }
+  },
+  {
+   "id": "e08",
+   "tipo": "eleccion",
+   "enunciado": "Elige la opción correcta en registro formal.",
+   "frase": "Neither of the answers ___ correct.",
+   "opciones": [
+    "is",
+    "are",
+    "be"
+   ],
+   "respuestas": [
+    "is"
+   ],
+   "explicacion": "Se aplica la nota de la ficha sobre concordancia: neither of + plural lleva verbo en singular en registro formal, porque el núcleo es neither (ninguna). El enunciado pide expresamente registro formal, así que la respuesta es is. En el habla también se oye are, pero en un examen formal se espera el singular.",
+   "explicacion_breve": "En registro formal, neither of + plural lleva verbo en singular.",
+   "traduccion": "Ninguna de las dos respuestas es correcta.",
+   "por_opcion": {
+    "is": "Correcta: en registro formal, neither of + plural concuerda en singular.",
+    "are": "Se oye en el inglés hablado, pero no responde a lo que pide el enunciado (registro formal).",
+    "be": "Incorrecta: be es la forma base y no puede funcionar como verbo conjugado de la frase."
+   }
+  },
+  {
+   "id": "e09",
+   "tipo": "corregir",
+   "enunciado": "Corrige el error.",
+   "frase": "Every of my friends came to the wedding.",
+   "respuestas": [
+    "Every one of my friends came to the wedding.",
+    "Each of my friends came to the wedding.",
+    "All of my friends came to the wedding.",
+    "All my friends came to the wedding."
+   ],
+   "explicacion": "La lista de la ficha avisa de que every nunca lleva of. Para mantener la idea de «todos y cada uno» se dice every one of, each of o, más sencillamente, all (of) my friends. Las cuatro respuestas aceptadas son correctas: cambian el matiz (individual con each, global con all), pero no la gramática.",
+   "explicacion_breve": "Every no va seguido de of.",
+   "traduccion": "Todos mis amigos vinieron a la boda.",
+   "errores_previstos": [
+    {
+     "respuesta": "Every of my friends came to the wedding.",
+     "explicacion": "Es la frase sin corregir: every no puede ir seguido de of."
+    },
+    {
+     "respuesta": "Every my friends came to the wedding.",
+     "explicacion": "Every no va con posesivo ni con plural; exige un nombre singular sin determinante (every friend)."
+    },
+    {
+     "respuesta": "Everyone of my friends came to the wedding.",
+     "explicacion": "Everyone (todo el mundo) no admite of; la expresión es every one of, en dos palabras."
+    }
+   ]
+  },
+  {
+   "id": "e10",
+   "tipo": "corregir",
+   "enunciado": "Corrige el error.",
+   "frase": "Neither of us didn't know the answer.",
+   "respuestas": [
+    "Neither of us knew the answer."
+   ],
+   "explicacion": "Se aplica la regla de que neither ya es negativo: no se añade didn't. La pista es Neither of us al principio: la negación ya está hecha, así que el verbo va en afirmativa, en pasado simple (knew). El español sí admite «no» redundante, y de ahí el error.",
+   "explicacion_breve": "Doble negación incorrecta: neither ya niega.",
+   "traduccion": "Ninguno de los dos sabíamos la respuesta.",
+   "errores_previstos": [
+    {
+     "respuesta": "Neither of us didn't know the answer.",
+     "explicacion": "Es la frase sin corregir: doble negación, neither y didn't."
+    },
+    {
+     "respuesta": "Neither of us know the answer.",
+     "explicacion": "Quita la negación pero cambia el tiempo: el original está en pasado y debe ser knew."
+    },
+    {
+     "respuesta": "Either of us didn't know the answer.",
+     "explicacion": "Either no puede ser sujeto de un verbo negativo con este sentido; se dice Neither of us knew."
+    }
+   ]
+  },
+  {
+   "id": "e11",
+   "tipo": "corregir",
+   "enunciado": "Corrige el error.",
+   "frase": "Both of they work in a bank.",
+   "respuestas": [
+    "Both of them work in a bank.",
+    "They both work in a bank."
+   ],
+   "explicacion": "La lista de la ficha indica que ante un pronombre hace falta of, y tras una preposición el pronombre va en forma de objeto: them, no they. Por eso Both of them work. También es correcto They both work, con both detrás del sujeto, como recoge la segunda respuesta.",
+   "explicacion_breve": "Tras of va el pronombre objeto: both of them.",
+   "traduccion": "Los dos trabajan en un banco.",
+   "errores_previstos": [
+    {
+     "respuesta": "Both of they work in a bank.",
+     "explicacion": "Es la frase sin corregir: tras of no puede ir el pronombre sujeto they."
+    },
+    {
+     "respuesta": "Both they work in a bank.",
+     "explicacion": "Ante pronombre both necesita of: both of them; o bien they both."
+    }
+   ]
+  },
+  {
+   "id": "e12",
+   "tipo": "corregir",
+   "enunciado": "Corrige el error.",
+   "frase": "Each of the players have a different number.",
+   "respuestas": [
+    "Each of the players has a different number."
+   ],
+   "explicacion": "La ficha dice que con each of y every el verbo va siempre en singular. Aunque players esté en plural, el sujeto es each (cada uno), así que el verbo es has. La atracción del plural más cercano lleva a muchos alumnos a escribir have.",
+   "explicacion_breve": "Each of + plural lleva verbo en singular.",
+   "traduccion": "Cada uno de los jugadores tiene un número distinto.",
+   "errores_previstos": [
+    {
+     "respuesta": "Each of the players have a different number.",
+     "explicacion": "Es la frase sin corregir: el núcleo es each y pide singular, has."
+    },
+    {
+     "respuesta": "Each of the player has a different number.",
+     "explicacion": "Tras each of el sustantivo va en plural (the players); lo que va en singular es el verbo."
+    }
+   ]
+  },
+  {
+   "id": "e13",
+   "tipo": "transformar",
+   "enunciado": "Reescribe la frase con neither of.",
+   "frase": "My two cousins don't eat meat.",
+   "respuestas": [
+    "Neither of my cousins eats meat.",
+    "Neither of my two cousins eats meat.",
+    "Neither of my cousins eat meat.",
+    "Neither of my two cousins eat meat."
+   ],
+   "explicacion": "Se aplica la regla de neither of + plural para dos personas, sin otra negación en el verbo. La pista es My two cousins: son dos. Neither of my cousins sustituye a don't, y el verbo queda en afirmativa: eats en registro formal (singular) o eat, que también se acepta porque en el habla se oye el plural, como indica la ficha.",
+   "explicacion_breve": "Neither of + plural, sin otra negación.",
+   "traduccion": "Ninguno de mis (dos) primos come carne.",
+   "errores_previstos": [
+    {
+     "respuesta": "Neither of my cousins doesn't eat meat.",
+     "explicacion": "Doble negación: neither ya niega, el verbo debe ir en afirmativa."
+    },
+    {
+     "respuesta": "Neither my cousins eat meat.",
+     "explicacion": "Ante un determinante (my) neither necesita of: neither of my cousins."
+    },
+    {
+     "respuesta": "None of my cousins eats meat.",
+     "explicacion": "El enunciado pide neither of, y none se usa con tres o más; aquí son dos primos."
+    }
+   ]
+  },
+  {
+   "id": "e14",
+   "tipo": "ordenar",
+   "enunciado": "Ordena las palabras.",
+   "palabras": [
+    "of",
+    "us",
+    "were",
+    "all",
+    "tired"
+   ],
+   "respuestas": [
+    "all of us were tired"
+   ],
+   "explicacion": "La ficha indica que ante pronombre hace falta of: all of us, no all us. El orden es all of us como sujeto, seguido del verbo were y el adjetivo tired. Otra forma correcta sería We were all tired, pero aquí las palabras dadas obligan a all of us.",
+   "explicacion_breve": "Ante pronombre hace falta of: all of us.",
+   "traduccion": "Todos estábamos cansados.",
+   "errores_previstos": [
+    {
+     "respuesta": "us all of were tired",
+     "explicacion": "Orden imposible: la estructura fija es all of us."
+    },
+    {
+     "respuesta": "all us of were tired",
+     "explicacion": "Of va entre all y el pronombre: all of us."
+    }
+   ]
+  },
+  {
+   "id": "e15",
+   "tipo": "ordenar",
+   "enunciado": "Ordena las palabras.",
+   "palabras": [
+    "can",
+    "either",
+    "you",
+    "or",
+    "come",
+    "today",
+    "tomorrow"
+   ],
+   "respuestas": [
+    "you can come either today or tomorrow",
+    "you can either come today or tomorrow"
+   ],
+   "explicacion": "Se aplica la pareja either… or de la lista para presentar dos alternativas. Either se coloca delante de la primera alternativa (today) y or delante de la segunda (tomorrow). La versión con either delante de come también se acepta y es muy frecuente, aunque la más cuidada pone either justo antes de los elementos que se contraponen.",
+   "explicacion_breve": "Either … or para dos alternativas.",
+   "traduccion": "Puedes venir hoy o mañana.",
+   "errores_previstos": [
+    {
+     "respuesta": "you can come today either or tomorrow",
+     "explicacion": "Either debe ir delante de la primera alternativa, no entre las dos."
+    },
+    {
+     "respuesta": "either you can come today or tomorrow",
+     "explicacion": "Either al principio introduciría dos oraciones completas (Either you come today or…); aquí la segunda parte solo es tomorrow, así que either va delante de today."
+    }
+   ]
+  }
  ],
- "fuente": {"nombre": "propia"}
+ "fuente": {
+  "nombre": "propia"
+ },
+ "descripcion_larga_es": "Esta ficha trata los cuantificadores que distinguen entre dos y más de dos elementos (both, either, neither frente a all, none) y entre verlos en grupo o uno a uno (every frente a each). Importa porque el español usa «ambos», «ninguno» o «cada» sin esas distinciones, y porque el inglés exige concordancias y estructuras fijas (of ante pronombre, una sola negación) que se fallan con facilidad.",
+ "contexto": {
+  "que_es": "Son determinantes y pronombres que indican a cuántos miembros de un grupo afecta lo que se dice: todos (all, every, each), los dos (both), uno u otro (either), ninguno de los dos (neither) o ninguno (none). Cada uno impone su estructura: singular o plural, con of o sin él, con o sin negación en el verbo.",
+  "por_que_importa": "Aparecen en cualquier exposición precisa: comparar dos alternativas, hablar de todos los miembros de un grupo o negar que alguno cumpla algo. Confundir neither con none, o añadir una segunda negación, produce frases que un nativo percibe como errores claros, y en un registro formal la concordancia singular con each of o neither of se valora.",
+  "cuando_se_usa": "Se usan al describir alternativas (either… or), coincidencias (both… and), ausencia total (neither… nor, none of) y frecuencias (every two weeks). La pista principal es el número de elementos: si son dos, both, either o neither; si son tres o más, all o none. El hispanohablante tiende a poner doble negación (Neither… didn't) y a decir every of, por calco de «cada uno de»."
+ }
 }

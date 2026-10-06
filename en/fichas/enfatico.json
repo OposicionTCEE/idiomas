@@ -108,7 +108,23 @@
    "respuestas": [
     "do"
    ],
-   "explicacion": "Presente simple, primera persona: do + infinitivo."
+   "explicacion": "Se aplica la regla de la tabla de Reglas y claves: en presente simple el énfasis se forma con do + infinitivo. La pista es la contradicción: el otro hablante afirma que no le gusta el jazz y la respuesta lo desmiente, con actually reforzándolo. El sujeto es I, por lo que el auxiliar es do (no does), seguido de like en infinitivo: I do like it.",
+   "explicacion_breve": "Presente simple, primera persona: do + infinitivo.",
+   "traduccion": "«No te gusta el jazz, ¿verdad?» «¡Pues sí que me gusta, la verdad!»",
+   "errores_previstos": [
+    {
+     "respuesta": "does",
+     "explicacion": "Does es para la tercera persona del singular; con I se usa do."
+    },
+    {
+     "respuesta": "yes",
+     "explicacion": "Es el calco del «sí que me gusta» español; en inglés yes no puede ir ante el verbo, el énfasis se hace con do."
+    },
+    {
+     "respuesta": "did",
+     "explicacion": "Did marcaría pasado; la conversación es sobre gustos actuales, en presente."
+    }
+   ]
   },
   {
    "id": "e02",
@@ -118,7 +134,19 @@
    "respuestas": [
     "did"
    ],
-   "explicacion": "Pasado simple: did + infinitivo."
+   "explicacion": "Es la regla del pasado simple de la tabla: did + infinitivo. La pista es la pregunta en pasado (Did she phone you?) y la concesión con but que sigue: la respuesta insiste en que la llamada se produjo. El auxiliar did ya marca el pasado, por eso phone va en infinitivo (she did phone, no «she did phoned»).",
+   "explicacion_breve": "Pasado simple: did + infinitivo.",
+   "traduccion": "«¿Te llamó?» «Sí, sí que llamó, pero yo no estaba.»",
+   "errores_previstos": [
+    {
+     "respuesta": "does",
+     "explicacion": "Does es presente; la pregunta y el contexto (I was out) están en pasado, así que corresponde did."
+    },
+    {
+     "respuesta": "do",
+     "explicacion": "Do es presente y además no concuerda con she; el pasado se marca con did."
+    }
+   ]
   },
   {
    "id": "e03",
@@ -128,7 +156,19 @@
    "respuestas": [
     "does"
    ],
-   "explicacion": "Tercera persona del presente: does + infinitivo."
+   "explicacion": "Se aplica la regla de la tabla para la tercera persona del presente: does + infinitivo. La pista es el sujeto this soup, tercera persona del singular, y el tono de entusiasmo marcado por la exclamación. Con does, smell va en infinitivo sin -s: This soup does smell good! En español se traduce con una exclamación o con «de verdad».",
+   "explicacion_breve": "Tercera persona del presente: does + infinitivo.",
+   "traduccion": "¡Qué bien huele esta sopa!",
+   "errores_previstos": [
+    {
+     "respuesta": "do",
+     "explicacion": "Con un sujeto de tercera persona del singular (this soup) el auxiliar es does, no do."
+    },
+    {
+     "respuesta": "is",
+     "explicacion": "«This soup is smell good» mezcla be con un verbo en infinitivo; el énfasis del presente simple se hace con does."
+    }
+   ]
   },
   {
    "id": "e04",
@@ -138,7 +178,23 @@
    "respuestas": [
     "try"
    ],
-   "explicacion": "Tras did, infinitivo sin to."
+   "explicacion": "Es la regla de Reglas y claves: tras do/does/did enfático el verbo va en infinitivo sin to. La pista es did delante del hueco: el pasado ya está marcado en el auxiliar, de modo que try no puede llevar -ed. La frase concede el esfuerzo antes del contraste con even if he lost, uno de los usos típicos del do enfático.",
+   "explicacion_breve": "Tras did, infinitivo sin to.",
+   "traduccion": "Sí que lo intentó de verdad, aunque perdiera.",
+   "errores_previstos": [
+    {
+     "respuesta": "tried",
+     "explicacion": "Did ya expresa el pasado; repetirlo en el verbo (did tried) es una doble conjugación incorrecta."
+    },
+    {
+     "respuesta": "to try",
+     "explicacion": "Tras do, does o did el infinitivo va sin to."
+    },
+    {
+     "respuesta": "trying",
+     "explicacion": "Did no va seguido de la forma en -ing, sino del infinitivo sin to."
+    }
+   ]
   },
   {
    "id": "e05",
@@ -154,7 +210,15 @@
    "respuestas": [
     "do"
    ],
-   "explicacion": "Énfasis en presente con I: do."
+   "explicacion": "Se aplica el uso de la lista de Reglas y claves «expresar entusiasmo o sinceridad: I do hope you can come». La pista es el sujeto I con un verbo de deseo en presente: el auxiliar enfático es do. Es la manera natural de decir «espero de verdad que…» o «ojalá puedas venir».",
+   "explicacion_breve": "Énfasis en presente con I: do.",
+   "traduccion": "Espero de verdad que puedas venir a la boda.",
+   "por_opcion": {
+    "do": "Correcta: I do hope expresa un deseo sincero en presente; do concuerda con I.",
+    "am": "Incorrecta: «I am hope» mezcla be con un verbo en forma base; be no sirve para el énfasis de un verbo léxico.",
+    "does": "Incorrecta: does es para la tercera persona del singular; con I se usa do.",
+    "did": "Incorrecta: did situaría el deseo en el pasado, pero se habla de una esperanza actual sobre una boda futura."
+   }
   },
   {
    "id": "e06",
@@ -170,7 +234,15 @@
    "respuestas": [
     "earn"
    ],
-   "explicacion": "Does + infinitivo sin -s."
+   "explicacion": "Es la regla según la cual tras does el verbo va en infinitivo sin -s. La pista es does, que ya lleva la marca de tercera persona del presente: por eso el verbo principal queda en forma base (earn). La frase es una concesión antes de but, otro uso típico: se admite que gana mucho para luego contrastarlo.",
+   "explicacion_breve": "Does + infinitivo sin -s.",
+   "traduccion": "Gana mucho dinero, la verdad, pero siempre está sin blanca.",
+   "por_opcion": {
+    "earn": "Correcta: does + infinitivo sin -s; la tercera persona ya la marca does.",
+    "earns": "Incorrecta: repetir la -s tras does es el error clásico de doble concordancia (does earns).",
+    "earned": "Incorrecta: tras does no puede ir un pasado ni un participio.",
+    "to earn": "Incorrecta: el infinitivo tras do, does o did va sin to."
+   }
   },
   {
    "id": "e07",
@@ -185,7 +257,14 @@
    "respuestas": [
     "did"
    ],
-   "explicacion": "Contradicción sobre un hecho pasado: did + infinitivo."
+   "explicacion": "Se aplica el uso de la lista «contradecir»: did + infinitivo para desmentir un hecho pasado. La pista es la acusación en pasado simple (You didn't send) y la réplica que la niega. Did send equivale a «¡que sí lo envié!». Have sent también sería un tiempo posible en otros contextos, pero aquí la frase original está en pasado simple y have send no es gramatical.",
+   "explicacion_breve": "Contradicción sobre un hecho pasado: did + infinitivo.",
+   "traduccion": "«No enviaste el correo.» «¡Que sí lo envié! Mira en la carpeta de spam.»",
+   "por_opcion": {
+    "did": "Correcta: did send contradice un hecho del pasado expresado en pasado simple.",
+    "do": "Incorrecta: do es presente; el envío es un hecho pasado que el otro hablante ha negado en pasado.",
+    "have": "Incorrecta: con have haría falta el participio (I have sent it); «I have send it» no es gramatical."
+   }
   },
   {
    "id": "e08",
@@ -195,7 +274,23 @@
    "respuestas": [
     "My brother does play the guitar very well."
    ],
-   "explicacion": "Tras does, infinitivo sin -s."
+   "explicacion": "Es la regla de Reglas y claves: tras does el verbo va en infinitivo, sin -s. La pista es does, que ya marca la tercera persona del presente; por eso plays debe quedar como play. Es el mismo error que recoge la ficha en «He does knows the answer».",
+   "explicacion_breve": "Tras does, infinitivo sin -s.",
+   "traduccion": "Mi hermano toca muy bien la guitarra, de verdad.",
+   "errores_previstos": [
+    {
+     "respuesta": "My brother does plays the guitar very well.",
+     "explicacion": "Es la frase sin corregir: tras does el verbo no lleva -s."
+    },
+    {
+     "respuesta": "My brother do play the guitar very well.",
+     "explicacion": "Se ha quitado la -s del verbo, pero también la de does: con my brother el auxiliar debe ser does."
+    },
+    {
+     "respuesta": "My brother does playing the guitar very well.",
+     "explicacion": "Tras does va el infinitivo sin to, no la forma en -ing."
+    }
+   ]
   },
   {
    "id": "e09",
@@ -205,7 +300,23 @@
    "respuestas": [
     "We did enjoy the concert."
    ],
-   "explicacion": "Tras did, infinitivo; el pasado ya lo marca did."
+   "explicacion": "Se aplica la regla de que tras did el verbo va en infinitivo: el pasado ya lo marca did. La pista es did delante de enjoyed; mantener la terminación -ed supone marcar el pasado dos veces. La forma correcta es did enjoy.",
+   "explicacion_breve": "Tras did, infinitivo; el pasado ya lo marca did.",
+   "traduccion": "Disfrutamos mucho del concierto, de verdad.",
+   "errores_previstos": [
+    {
+     "respuesta": "We did enjoyed the concert.",
+     "explicacion": "Es la frase sin corregir: tras did el verbo no lleva -ed."
+    },
+    {
+     "respuesta": "We do enjoyed the concert.",
+     "explicacion": "Mezcla un auxiliar de presente con un pasado; para el énfasis en pasado se usa did + enjoy."
+    },
+    {
+     "respuesta": "We did enjoying the concert.",
+     "explicacion": "Tras did va el infinitivo sin to, no la forma en -ing."
+    }
+   ]
   },
   {
    "id": "e10",
@@ -215,7 +326,23 @@
    "respuestas": [
     "I don't speak German, but I do understand it."
    ],
-   "explicacion": "Tras do, infinitivo sin -ing."
+   "explicacion": "Es la regla de Reglas y claves: tras do el verbo va en infinitivo sin -ing. La pista es el contraste con but: se niega una cosa (no lo habla) y se afirma con énfasis la otra (sí lo entiende), el equivalente al «pero sí» español. Do understand es la forma correcta; understanding tras do no es posible.",
+   "explicacion_breve": "Tras do, infinitivo sin -ing.",
+   "traduccion": "No hablo alemán, pero sí lo entiendo.",
+   "errores_previstos": [
+    {
+     "respuesta": "I don't speak German, but I do understanding it.",
+     "explicacion": "Es la frase sin corregir: tras do va el infinitivo, no la forma en -ing."
+    },
+    {
+     "respuesta": "I don't speak German, but I yes understand it.",
+     "explicacion": "Es el calco de «pero sí lo entiendo»; yes no puede ir ante el verbo, el énfasis se hace con do."
+    },
+    {
+     "respuesta": "I don't speak German, but I do understands it.",
+     "explicacion": "Con I no hay -s; tras do el verbo va en forma base: understand."
+    }
+   ]
   },
   {
    "id": "e11",
@@ -225,7 +352,23 @@
    "respuestas": [
     "She does look like her mother."
    ],
-   "explicacion": "Tercera persona: does + infinitivo (look)."
+   "explicacion": "Se aplica la regla de la tabla para la tercera persona del presente: does + infinitivo. La pista es el sujeto she y el verbo looks, en presente simple: al añadir does la -s pasa al auxiliar y el verbo queda en forma base (look). Así, She does look like her mother insiste en el parecido.",
+   "explicacion_breve": "Tercera persona: does + infinitivo (look).",
+   "traduccion": "Sí que se parece a su madre.",
+   "errores_previstos": [
+    {
+     "respuesta": "She does looks like her mother.",
+     "explicacion": "Doble marca de tercera persona: la -s ya la lleva does, así que el verbo va como look."
+    },
+    {
+     "respuesta": "She do look like her mother.",
+     "explicacion": "Con she el auxiliar es does, no do."
+    },
+    {
+     "respuesta": "She is look like her mother.",
+     "explicacion": "Be no sirve para dar énfasis a un verbo léxico; la forma es does look."
+    }
+   ]
   },
   {
    "id": "e12",
@@ -235,7 +378,19 @@
    "respuestas": [
     "I did warn you about the traffic."
    ],
-   "explicacion": "Pasado simple: did + infinitivo (warn)."
+   "explicacion": "Es la regla de la tabla para el pasado simple: did + infinitivo. La pista es warned, pasado simple: al añadir did, el verbo vuelve a su forma base (warn). La frase tiene el matiz de reproche «¡te lo advertí!», un uso muy frecuente del did enfático.",
+   "explicacion_breve": "Pasado simple: did + infinitivo (warn).",
+   "traduccion": "Ya te avisé del tráfico.",
+   "errores_previstos": [
+    {
+     "respuesta": "I did warned you about the traffic.",
+     "explicacion": "Doble marca de pasado: did ya expresa el pasado, el verbo va en forma base (warn)."
+    },
+    {
+     "respuesta": "I do warn you about the traffic.",
+     "explicacion": "Do es presente; la frase original está en pasado (warned), así que el auxiliar debe ser did."
+    }
+   ]
   },
   {
    "id": "e13",
@@ -245,7 +400,23 @@
    "respuestas": [
     "They do need more staff."
    ],
-   "explicacion": "Presente con they: do + infinitivo."
+   "explicacion": "Se aplica la regla del presente simple: do + infinitivo. La pista es el sujeto they y el verbo need en presente: el auxiliar enfático es do y need ya está en forma base. They do need more staff refuerza la necesidad, como en un informe que insiste en un dato.",
+   "explicacion_breve": "Presente con they: do + infinitivo.",
+   "traduccion": "Sí que necesitan más personal.",
+   "errores_previstos": [
+    {
+     "respuesta": "They does need more staff.",
+     "explicacion": "Does es solo para la tercera persona del singular; con they se usa do."
+    },
+    {
+     "respuesta": "They do needs more staff.",
+     "explicacion": "Tras do el verbo va en forma base, sin -s."
+    },
+    {
+     "respuesta": "They really need more staff.",
+     "explicacion": "Really también refuerza, pero el ejercicio pide expresamente do enfático."
+    }
+   ]
   },
   {
    "id": "e14",
@@ -262,7 +433,19 @@
    "respuestas": [
     "I do agree with your point"
    ],
-   "explicacion": "Do enfático delante del verbo principal."
+   "explicacion": "Se aplica la regla general de la ficha: el do enfático va delante del verbo principal. El orden es sujeto (I), do, verbo (agree) y su complemento con with (with your point). Es una fórmula muy útil en debates, a menudo seguida de una concesión («I do agree with your point, but…»).",
+   "explicacion_breve": "Do enfático delante del verbo principal.",
+   "traduccion": "Estoy totalmente de acuerdo con lo que planteas.",
+   "errores_previstos": [
+    {
+     "respuesta": "I agree do with your point",
+     "explicacion": "Do enfático va siempre delante del verbo principal, no detrás."
+    },
+    {
+     "respuesta": "Do I agree with your point",
+     "explicacion": "Con do delante del sujeto se convierte en una pregunta; el énfasis exige el orden sujeto + do + verbo."
+    }
+   ]
   },
   {
    "id": "e15",
@@ -279,10 +462,28 @@
     "please do sit down",
     "do please sit down"
    ],
-   "explicacion": "Imperativo enfático y cortés: Do + verbo."
+   "explicacion": "Es el uso de la tabla «Imperativo: Do sit down (invitación cortés)». La pista es please y la forma imperativa sit down: añadir do delante del verbo convierte la orden en una invitación amable e insistente. Please puede ir al principio, al final o entre do y el verbo, por eso se aceptan tres órdenes.",
+   "explicacion_breve": "Imperativo enfático y cortés: Do + verbo.",
+   "traduccion": "Siéntese, por favor.",
+   "errores_previstos": [
+    {
+     "respuesta": "sit do down please",
+     "explicacion": "Do no puede separar el verbo de su partícula; va delante de sit."
+    },
+    {
+     "respuesta": "please sit down do",
+     "explicacion": "Do enfático va antes del verbo, no al final de la frase."
+    }
+   ]
   }
  ],
  "fuente": {
   "nombre": "propia"
+ },
+ "descripcion_larga_es": "El do enfático (do, does, did ante el verbo) y el acento sobre el auxiliar sirven en inglés para insistir, contradecir, conceder antes de un «pero» o mostrar entusiasmo. Equivale a nuestro «sí que», «claro que» o «de verdad». Es frecuente en la conversación y útil en la argumentación formal, y al hispanohablante le cuesta porque tiende a decir «yes» o a conjugar dos veces el verbo.",
+ "contexto": {
+  "que_es": "Es el uso de do, does o did delante del verbo principal en frases afirmativas de presente o pasado simple, no para formar preguntas o negaciones, sino para reforzar lo que se dice. Tras el auxiliar el verbo va en infinitivo sin to. Si la frase ya tiene otro auxiliar (be, have, can, will), el énfasis se logra acentuándolo en la pronunciación.",
+  "por_que_importa": "Permite expresar matices que en español se marcan con «sí que», «claro que» o «la verdad es que», y que en inglés no pueden traducirse con yes. Es habitual al contradecir («I did lock it!») y muy útil en un debate o una exposición para conceder un argumento antes de rebatirlo (I do understand your point, but…). Usarlo mal, con doble conjugación (did told), es un error muy visible.",
+  "cuando_se_usa": "Se usa al responder a una afirmación o pregunta que se quiere desmentir, al insistir en algo que el otro duda, al conceder antes de but o although, para mostrar sinceridad o entusiasmo (I do hope…) y en invitaciones corteses con el imperativo (Do sit down). Las señales son una contradicción previa, un «actually» o un contraste. Donde el hispanohablante diría «yo sí que…», el inglés pone do."
  }
 }

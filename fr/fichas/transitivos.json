@@ -161,8 +161,24 @@
    "respuestas": [
     "à"
    ],
-   "explicacion": "Penser à quelqu'un = pensar en alguien.",
-   "origen": "tatoeba:4594663"
+   "explicacion": "La ficha recoge penser à entre los verbos que en francés llevan una preposición distinta del español: «pensar en alguien» es penser à quelqu'un. La pista es el verbo pense seguido de una persona (vous). Por eso la preposición es à: «Je pense à vous». Con un pronombre tónico como vous, la preposición se mantiene delante.",
+   "origen": "tatoeba:4594663",
+   "explicacion_breve": "Penser à quelqu'un = pensar en alguien.",
+   "traduccion": "Pienso en ustedes (en vosotros).",
+   "errores_previstos": [
+    {
+     "respuesta": "en",
+     "explicacion": "Es el calco de «pensar en». En francés se dice penser à."
+    },
+    {
+     "respuesta": "de",
+     "explicacion": "Penser de significa «opinar de» (qu'est-ce que tu penses de lui ?). «Pensar en alguien» es penser à."
+    },
+    {
+     "respuesta": "a",
+     "explicacion": "Sin acento es el verbo avoir. La preposición es à."
+    }
+   ]
   },
   {
    "id": "e02",
@@ -172,8 +188,24 @@
    "respuestas": [
     "de la"
    ],
-   "explicacion": "Jouer de + instrumento (de + la guitare).",
-   "origen": "tatoeba:6779692"
+   "explicacion": "La ficha distingue jouer à (juegos y deportes) de jouer de (instrumentos). La guitare es un instrumento, así que se usa jouer de. Como guitare es femenino y lleva artículo la, de + la no se contrae: de la guitare. Por eso la respuesta es de la: «Tom joue de la guitare».",
+   "origen": "tatoeba:6779692",
+   "explicacion_breve": "Jouer de + instrumento (de + la guitare).",
+   "traduccion": "Tom toca la guitarra.",
+   "errores_previstos": [
+    {
+     "respuesta": "la",
+     "explicacion": "Es el calco de «tocar la guitarra». Jouer necesita la preposición de ante un instrumento: de la guitare."
+    },
+    {
+     "respuesta": "à la",
+     "explicacion": "Jouer à se usa con juegos y deportes. Para instrumentos es jouer de."
+    },
+    {
+     "respuesta": "du",
+     "explicacion": "Du es de + le, para masculinos (du piano). Guitare es femenino: de la."
+    }
+   ]
   },
   {
    "id": "e03",
@@ -183,7 +215,29 @@
    "respuestas": [
     "au"
    ],
-   "explicacion": "Jouer à + deporte o juego (à + le football = au football)."
+   "explicacion": "Según la ficha, jouer à se usa con juegos y deportes, y jouer de con instrumentos. El fútbol es un deporte, así que se usa à. Como football es masculino y lleva artículo le, se produce la contracción obligatoria à + le = au. Por eso la respuesta es au: «Les enfants jouent au football».",
+   "explicacion_breve": "Jouer à + deporte o juego (à + le football = au football).",
+   "traduccion": "Los niños juegan al fútbol en el patio.",
+   "errores_previstos": [
+    {
+     "respuesta": "à le",
+     "explicacion": "À + le se contrae obligatoriamente en au."
+    },
+    {
+     "respuesta": "du",
+     "explicacion": "Jouer de se usa con instrumentos. Para deportes es jouer à: au football."
+    },
+    {
+     "respuesta": "le",
+     "explicacion": "Falta la preposición: jouer à + deporte. Con le, au football."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "la cour",
+     "significado": "el patio (de colegio o de un edificio)"
+    }
+   ]
   },
   {
    "id": "e04",
@@ -198,8 +252,15 @@
    "respuestas": [
     "mon chat"
    ],
-   "explicacion": "Chercher es transitivo directo y en francés no hay «a» personal.",
-   "origen": "tatoeba:8833866"
+   "explicacion": "La ficha explica que chercher es transitivo directo y que en francés no existe la «a» personal: el complemento directo va sin preposición, aunque sea una persona o un animal. La pista es el verbo chercher, que significa «buscar» y ya incluye la idea de «para». Por eso la opción correcta es mon chat, sin nada delante.",
+   "origen": "tatoeba:8833866",
+   "explicacion_breve": "Chercher es transitivo directo y en francés no hay «a» personal.",
+   "traduccion": "Busco a mi gato.",
+   "por_opcion": {
+    "mon chat": "Correcta: chercher lleva complemento directo, sin preposición.",
+    "à mon chat": "Incorrecta: calca la «a» personal del español, que no existe en francés.",
+    "pour mon chat": "Incorrecta: calca el inglés look for; chercher ya significa «buscar» y no lleva preposición."
+   }
   },
   {
    "id": "e05",
@@ -209,7 +270,19 @@
    "respuestas": [
     "à"
    ],
-   "explicacion": "Ressembler à quelqu'un = parecerse a alguien."
+   "explicacion": "La ficha recoge ressembler à entre los verbos transitivos indirectos: «parecerse a alguien» es ressembler à quelqu'un. Aquí coincide con el español, que también usa «a». La pista es el verbo ressemble seguido de una persona (son grand-père). Por eso la preposición es à. Si se sustituye por un pronombre, es indirecto: il lui ressemble.",
+   "explicacion_breve": "Ressembler à quelqu'un = parecerse a alguien.",
+   "traduccion": "Se parece a su abuelo.",
+   "errores_previstos": [
+    {
+     "respuesta": "de",
+     "explicacion": "Ressembler no se construye con de. La preposición es à."
+    },
+    {
+     "respuesta": "a",
+     "explicacion": "Sin acento es una forma del verbo avoir. La preposición es à."
+    }
+   ]
   },
   {
    "id": "e06",
@@ -219,7 +292,19 @@
    "respuestas": [
     "de"
    ],
-   "explicacion": "Changer de + nombre sin artículo = cambiar de."
+   "explicacion": "La ficha recoge changer de entre los verbos con de: changer de + nombre sin artículo significa «cambiar de» algo por otro de la misma clase. Aquí coincide con el español. La pista es el nombre train sin artículo detrás del hueco. Por eso la preposición es de, sin contracción: «il faut changer de train».",
+   "explicacion_breve": "Changer de + nombre sin artículo = cambiar de.",
+   "traduccion": "Para ir a Lyon hay que cambiar de tren en París.",
+   "errores_previstos": [
+    {
+     "respuesta": "du",
+     "explicacion": "Du supondría el artículo le (changer le train), que no se usa. Changer de va con el nombre sin artículo: de train."
+    },
+    {
+     "respuesta": "le",
+     "explicacion": "Changer le train significaría modificar el tren mismo. Para pasar a otro tren se dice changer de train."
+    }
+   ]
   },
   {
    "id": "e07",
@@ -235,8 +320,16 @@
    "respuestas": [
     "t'attend"
    ],
-   "explicacion": "Attendre es transitivo directo: pronombre CD te, apostrofado ante vocal.",
-   "origen": "tatoeba:338891"
+   "explicacion": "La ficha recoge attendre entre los verbos transitivos directos: «esperar a alguien» es attendre quelqu'un, sin preposición. Por eso el pronombre es de complemento directo, te, que se apostrofa ante vocal (t') y va delante del verbo. Además, tout le monde es singular, así que el verbo va en tercera persona: «Tout le monde t'attend».",
+   "origen": "tatoeba:338891",
+   "explicacion_breve": "Attendre es transitivo directo: pronombre CD te, apostrofado ante vocal.",
+   "traduccion": "Todo el mundo te espera.",
+   "por_opcion": {
+    "t'attend": "Correcta: pronombre CD te apostrofado ante vocal, delante del verbo.",
+    "attend à toi": "Incorrecta: calca la «a» personal; attendre no lleva preposición.",
+    "te attend": "Incorrecta: te debe apostrofarse ante vocal: t'attend.",
+    "attend toi": "Incorrecta: el pronombre complemento va delante del verbo, y la forma átona es te, no toi."
+   }
   },
   {
    "id": "e08",
@@ -251,8 +344,15 @@
    "respuestas": [
     "m'écoute"
    ],
-   "explicacion": "Écouter es transitivo directo: pronombre CD me (m' ante vocal).",
-   "origen": "tatoeba:2226530"
+   "explicacion": "Écouter es transitivo directo, según la ficha: «escuchar a alguien» es écouter quelqu'un, sin preposición. El pronombre es, por tanto, de complemento directo: me, que se apostrofa ante vocal y va delante del verbo, dentro de la negación ne… pas. Resultado: «Elle ne m'écoute pas».",
+   "origen": "tatoeba:2226530",
+   "explicacion_breve": "Écouter es transitivo directo: pronombre CD me (m' ante vocal).",
+   "traduccion": "Ella no me escucha.",
+   "por_opcion": {
+    "m'écoute": "Correcta: pronombre CD me apostrofado ante vocal, delante del verbo.",
+    "écoute à moi": "Incorrecta: calca la «a» personal y además coloca el pronombre detrás del verbo.",
+    "me écoute": "Incorrecta: me se apostrofa ante vocal: m'écoute."
+   }
   },
   {
    "id": "e09",
@@ -267,7 +367,14 @@
    "respuestas": [
     "téléphoné"
    ],
-   "explicacion": "Téléphoner lleva à; appeler es directo (j'ai appelé ma grand-mère)."
+   "explicacion": "La pista es la preposición à que sigue al hueco. La ficha explica que téléphoner se construye con à (téléphoner à quelqu'un), mientras que appeler es transitivo directo y no admite à (j'ai appelé ma grand-mère). Rendre à pide además un complemento directo (rendre quelque chose à quelqu'un). Por eso solo encaja téléphoné.",
+   "explicacion_breve": "Téléphoner lleva à; appeler es directo (j'ai appelé ma grand-mère).",
+   "traduccion": "Ayer llamé por teléfono a mi abuela.",
+   "por_opcion": {
+    "téléphoné": "Correcta: téléphoner à quelqu'un, la preposición à que ya aparece en la frase.",
+    "appelé": "Incorrecta en esta frase: appeler es transitivo directo (j'ai appelé ma grand-mère) y no lleva à.",
+    "rendu": "Incorrecta: rendre à exige un complemento directo (rendre un livre à quelqu'un); solo, no significa «llamar»."
+   }
   },
   {
    "id": "e10",
@@ -282,7 +389,20 @@
    "respuestas": [
     "a sorti"
    ],
-   "explicacion": "Sortir con CD (la poubelle) es transitivo y usa avoir."
+   "explicacion": "La ficha explica que sortir es intransitivo con être (elle est sortie, «ha salido»), pero transitivo con avoir cuando lleva complemento directo (elle a sorti la poubelle, «ha sacado la basura»). Aquí la pista es la poubelle, un complemento directo. Por tanto el auxiliar es avoir y el participio no concuerda con el sujeto: a sorti.",
+   "explicacion_breve": "Sortir con CD (la poubelle) es transitivo y usa avoir.",
+   "traduccion": "Esta noche ella ha sacado la basura.",
+   "por_opcion": {
+    "a sorti": "Correcta: sortir con complemento directo es transitivo y usa avoir, sin concordancia con el sujeto.",
+    "est sortie": "Incorrecta: sería «ha salido»; con un complemento directo (la poubelle) hay que usar avoir.",
+    "est sorti": "Incorrecta: auxiliar equivocado y, además, sin concordancia con elle."
+   },
+   "glosario": [
+    {
+     "palabra": "sortir la poubelle",
+     "significado": "sacar la basura"
+    }
+   ]
   },
   {
    "id": "e11",
@@ -292,8 +412,24 @@
    "respuestas": [
     "Je cherche mon frère."
    ],
-   "explicacion": "Sin «a» personal: chercher + CD directo.",
-   "origen": "tatoeba:441828"
+   "explicacion": "La ficha insiste en que el francés no tiene la «a» personal: el complemento directo de persona va sin preposición. Chercher es transitivo directo, así que hay que eliminar à: «Je cherche mon frère». En español decimos «busco a mi hermano», pero en francés esa a desaparece.",
+   "origen": "tatoeba:441828",
+   "explicacion_breve": "Sin «a» personal: chercher + CD directo.",
+   "traduccion": "Busco a mi hermano.",
+   "errores_previstos": [
+    {
+     "respuesta": "Je cherche à mon frère.",
+     "explicacion": "Es la frase sin corregir: en francés no existe la «a» personal."
+    },
+    {
+     "respuesta": "Je cherche pour mon frère.",
+     "explicacion": "Calca el inglés look for; chercher no lleva preposición."
+    },
+    {
+     "respuesta": "Je cherche au mon frère.",
+     "explicacion": "Además de la preposición, au no puede ir delante de un posesivo. Se dice je cherche mon frère."
+    }
+   ]
   },
   {
    "id": "e12",
@@ -303,7 +439,23 @@
    "respuestas": [
     "J'ai besoin d'un nouveau téléphone."
    ],
-   "explicacion": "Avoir besoin de + nombre."
+   "explicacion": "La ficha advierte de que «necesitar» es transitivo directo en español, pero avoir besoin se construye con de. La frase omite esa preposición. Como el complemento lleva un artículo indefinido (un), de se apostrofa ante vocal: d'un. La frase corregida es «J'ai besoin d'un nouveau téléphone».",
+   "explicacion_breve": "Avoir besoin de + nombre.",
+   "traduccion": "Necesito un teléfono nuevo.",
+   "errores_previstos": [
+    {
+     "respuesta": "J'ai besoin un nouveau téléphone.",
+     "explicacion": "Es la frase sin corregir: avoir besoin exige de."
+    },
+    {
+     "respuesta": "J'ai besoin de un nouveau téléphone.",
+     "explicacion": "De se apostrofa ante vocal: d'un."
+    },
+    {
+     "respuesta": "J'ai besoin du nouveau téléphone.",
+     "explicacion": "Cambia el sentido: du (de + le) designaría un teléfono concreto ya conocido. Se necesita uno nuevo cualquiera: d'un."
+    }
+   ]
   },
   {
    "id": "e13",
@@ -313,8 +465,24 @@
    "respuestas": [
     "Il cherche du travail."
    ],
-   "explicacion": "Chercher no lleva preposición (calco del inglés look for).",
-   "origen": "tatoeba:936093"
+   "explicacion": "Chercher es transitivo directo, como indica la ficha, y ya significa «buscar»: no necesita preposición. La frase añade pour, que es un calco del inglés look for. Hay que suprimirlo y dejar el partitivo du delante de travail, porque se busca una cantidad indeterminada de trabajo: «Il cherche du travail».",
+   "origen": "tatoeba:936093",
+   "explicacion_breve": "Chercher no lleva preposición (calco del inglés look for).",
+   "traduccion": "Busca trabajo.",
+   "errores_previstos": [
+    {
+     "respuesta": "Il cherche pour du travail.",
+     "explicacion": "Es la frase sin corregir: chercher no lleva pour."
+    },
+    {
+     "respuesta": "Il cherche travail.",
+     "explicacion": "Falta el partitivo: un nombre no contable como travail necesita du delante."
+    },
+    {
+     "respuesta": "Il cherche à du travail.",
+     "explicacion": "Chercher à significa «intentar» y va con infinitivo. Para «buscar algo», sin preposición."
+    }
+   ]
   },
   {
    "id": "e14",
@@ -324,7 +492,23 @@
    "respuestas": [
     "Je lui téléphone."
    ],
-   "explicacion": "Téléphoner à + persona → pronombre CI lui."
+   "explicacion": "La ficha explica que el tipo de complemento decide el pronombre: téléphoner lleva à + persona, así que su complemento es indirecto y se sustituye por lui (singular, masculino o femenino). El pronombre va delante del verbo. Resultado: «Je lui téléphone». No se usa la, porque no es un complemento directo.",
+   "explicacion_breve": "Téléphoner à + persona → pronombre CI lui.",
+   "traduccion": "Le llamo por teléfono.",
+   "errores_previstos": [
+    {
+     "respuesta": "Je la téléphone.",
+     "explicacion": "La es pronombre de complemento directo. Téléphoner à exige el pronombre indirecto lui."
+    },
+    {
+     "respuesta": "Je téléphone à elle.",
+     "explicacion": "Con téléphoner à, la persona se sustituye por el pronombre átono lui delante del verbo."
+    },
+    {
+     "respuesta": "Je lui téléphone à Marie.",
+     "explicacion": "Duplica el complemento: en francés el pronombre sustituye al complemento, no lo acompaña."
+    }
+   ]
   },
   {
    "id": "e15",
@@ -334,7 +518,23 @@
    "respuestas": [
     "Je l'attends."
    ],
-   "explicacion": "Attendre es transitivo directo → pronombre CD le (l')."
+   "explicacion": "Attendre es transitivo directo, según la ficha: «esperar algo o a alguien» es attendre sin preposición. Por eso le bus se sustituye por el pronombre de complemento directo le, que se apostrofa ante vocal (l') y va delante del verbo. Resultado: «Je l'attends». Sería un error usar lui, que es indirecto.",
+   "explicacion_breve": "Attendre es transitivo directo → pronombre CD le (l').",
+   "traduccion": "Lo espero.",
+   "errores_previstos": [
+    {
+     "respuesta": "Je lui attends.",
+     "explicacion": "Lui es pronombre indirecto. Attendre es transitivo directo: je l'attends."
+    },
+    {
+     "respuesta": "Je le attends.",
+     "explicacion": "Le se apostrofa ante vocal: l'attends."
+    },
+    {
+     "respuesta": "J'attends le.",
+     "explicacion": "En francés el pronombre complemento va delante del verbo conjugado: je l'attends."
+    }
+   ]
   },
   {
    "id": "e16",
@@ -349,8 +549,20 @@
    "respuestas": [
     "Je regarde cette fleur"
    ],
-   "explicacion": "Regarder + CD directo, sin preposición.",
-   "origen": "tatoeba:1233982"
+   "explicacion": "Regarder es transitivo directo, según la ficha: «mirar algo o a alguien» es regarder sin preposición. El orden es el normal de una oración afirmativa: sujeto + verbo + complemento directo. Por eso la frase es «Je regarde cette fleur», sin ninguna preposición entre el verbo y el complemento.",
+   "origen": "tatoeba:1233982",
+   "explicacion_breve": "Regarder + CD directo, sin preposición.",
+   "traduccion": "Miro esta flor.",
+   "errores_previstos": [
+    {
+     "respuesta": "Je cette fleur regarde",
+     "explicacion": "El complemento directo nominal va detrás del verbo: je regarde cette fleur."
+    },
+    {
+     "respuesta": "Cette fleur regarde je",
+     "explicacion": "El sujeto debe ir delante: je regarde cette fleur."
+    }
+   ]
   }
  ],
  "fuente": {
@@ -361,5 +573,11 @@
   "otras": [
    "Frases de Tatoeba (CC BY 2.0 FR)"
   ]
+ },
+ "descripcion_larga_es": "Esta ficha trata de cómo se construye el complemento de cada verbo: directo, sin preposición (regarder la télé), indirecto, con preposición (téléphoner à Paul), o sin complemento (dormir). Muchos verbos frecuentes no coinciden con el español, y el francés no tiene la «a» personal: se dice j'attends Jean, no «à Jean». Del tipo de complemento depende además el pronombre (le, lui, en) y, en algunos verbos, el auxiliar.",
+ "contexto": {
+  "que_es": "Es la diferencia entre verbos transitivos directos (con complemento sin preposición), transitivos indirectos (con complemento introducido por à o de) e intransitivos (sin complemento). En francés y en español un mismo verbo puede tener construcciones distintas: penser à frente a «pensar en», avoir besoin de frente a «necesitar», chercher sin preposición frente a «buscar a alguien».",
+  "por_que_importa": "Equivocarse de construcción es uno de los errores más frecuentes de los hispanohablantes, sobre todo con la «a» personal (j'attends à mon ami) y con verbos como penser à o jouer de. Además, el tipo de complemento decide el pronombre: si el verbo es directo, le, la, les; si lleva à, lui, leur; si lleva de, en. Un error en la construcción se arrastra a los pronombres y a la concordancia del participio.",
+  "cuando_se_usa": "La duda surge cada vez que un verbo lleva complemento, especialmente de persona. Las señales son el propio verbo, que hay que aprender con su construcción (attendre qqn, téléphoner à qqn, avoir besoin de qqch), y los verbos de movimiento como sortir o monter, que cambian de auxiliar según lleven o no complemento directo. El hispanohablante tiende a añadir la «a» personal y a copiar la preposición española."
  }
 }

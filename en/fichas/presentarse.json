@@ -197,7 +197,25 @@
    "respuestas": [
     "name"
    ],
-   "explicacion": "My name is… es la fórmula para decir cómo te llamas."
+   "explicacion": "Es la fórmula básica de la ficha para decir cómo te llamas: My name is… (o, más informal, I'm…). La pista es el posesivo my, que exige un sustantivo detrás: my name. Name significa «nombre» en general; si se quiere precisar, first name es el nombre de pila y surname o last name el apellido.",
+   "explicacion_breve": "My name is… es la fórmula para decir cómo te llamas.",
+   "traduccion": "Hola, me llamo David.",
+   "errores_previstos": [
+    {
+     "respuesta": "called",
+     "explicacion": "Calco de «me llamo»: My called is David no existe. Se dice My name is… o I'm called…"
+    },
+    {
+     "respuesta": "surname",
+     "explicacion": "Surname es el apellido; David es un nombre de pila, así que va name."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "name",
+     "significado": "nombre"
+    }
+   ]
   },
   {
    "id": "e02",
@@ -207,7 +225,25 @@
    "respuestas": [
     "an"
    ],
-   "explicacion": "Architect empieza por sonido vocálico, así que lleva an."
+   "explicacion": "La ficha indica que las profesiones en singular llevan artículo indefinido: She's an architect, I'm a doctor. Entre a y an decide el sonido inicial de la palabra siguiente, no la letra: architect empieza por sonido vocálico /ɑː/, así que va an. En español decimos «es arquitecta» sin artículo, por eso el hispanohablante tiende a omitirlo.",
+   "explicacion_breve": "Architect empieza por sonido vocálico, así que lleva an.",
+   "traduccion": "Ella es arquitecta.",
+   "errores_previstos": [
+    {
+     "respuesta": "a",
+     "explicacion": "Architect empieza por sonido vocálico: an architect."
+    },
+    {
+     "respuesta": "the",
+     "explicacion": "The indicaría un arquitecto concreto ya conocido; para decir la profesión se usa a/an."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "architect",
+     "significado": "arquitecto, arquitecta"
+    }
+   ]
   },
   {
    "id": "e03",
@@ -217,7 +253,25 @@
    "respuestas": [
     "from"
    ],
-   "explicacion": "Where are you from? pregunta por el origen."
+   "explicacion": "Where are you from? es la pregunta fija de la ficha para preguntar por el origen. La preposición from («de», en el sentido de procedencia) se queda al final de la pregunta, algo habitual en inglés. La respuesta lo confirma: I'm from Bilbao. En español la preposición va al principio («¿de dónde?»), y de ahí viene el error de omitirla o adelantarla.",
+   "explicacion_breve": "Where are you from? pregunta por el origen.",
+   "traduccion": "¿De dónde eres? – Soy de Bilbao.",
+   "errores_previstos": [
+    {
+     "respuesta": "of",
+     "explicacion": "Of no expresa procedencia; para el origen se usa from."
+    },
+    {
+     "respuesta": "come",
+     "explicacion": "Where are you come es agramatical; con are la preposición es from (o bien Where do you come from?)."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "Where are you from?",
+     "significado": "¿De dónde eres?"
+    }
+   ]
   },
   {
    "id": "e04",
@@ -232,7 +286,24 @@
    "respuestas": [
     "Good morning"
    ],
-   "explicacion": "Por la mañana se saluda con Good morning."
+   "explicacion": "La tabla de la ficha reparte los saludos por horas: Good morning hasta las doce, Good afternoon de doce a seis y Good evening al llegar por la tarde-noche. La pista es 9 a.m., que es por la mañana, de modo que corresponde Good morning. Everyone significa «todo el mundo, todos» y se usa para dirigirse a un grupo.",
+   "explicacion_breve": "Por la mañana se saluda con Good morning.",
+   "traduccion": "Son las 9 de la mañana. Llegas a la oficina y dices: «¡Buenos días a todos!»",
+   "por_opcion": {
+    "Good morning": "Correcta: es el saludo de la mañana, hasta mediodía.",
+    "Good night": "No es un saludo de llegada: se usa al despedirse por la noche o al irse a dormir.",
+    "Good evening": "Es un saludo de llegada, pero de la última hora de la tarde o la noche, no de las nueve de la mañana."
+   },
+   "glosario": [
+    {
+     "palabra": "Good morning",
+     "significado": "buenos días"
+    },
+    {
+     "palabra": "everyone",
+     "significado": "todos, todo el mundo"
+    }
+   ]
   },
   {
    "id": "e05",
@@ -247,7 +318,24 @@
    "respuestas": [
     "Nice to meet you too."
    ],
-   "explicacion": "Se responde devolviendo la fórmula con too."
+   "explicacion": "La ficha explica que a Nice to meet you se responde devolviendo la misma fórmula con too: Nice to meet you too. Too, al final, significa «también» y equivale a nuestro «igualmente». Meet, en este contexto, es «conocer a alguien por primera vez». Las otras opciones responden a preguntas distintas.",
+   "explicacion_breve": "Se responde devolviendo la fórmula con too.",
+   "traduccion": "Encantado de conocerte. – Igualmente, encantado.",
+   "por_opcion": {
+    "Nice to meet you too.": "Correcta: devuelve la fórmula con too, como pide la ficha.",
+    "I'm fine.": "Es respuesta a How are you? (¿cómo estás?), no a una presentación.",
+    "Goodbye.": "Es una despedida; no tiene sentido justo cuando te acaban de presentar a alguien."
+   },
+   "glosario": [
+    {
+     "palabra": "Nice to meet you",
+     "significado": "encantado de conocerte"
+    },
+    {
+     "palabra": "too",
+     "significado": "también (al final de la frase)"
+    }
+   ]
   },
   {
    "id": "e06",
@@ -262,7 +350,24 @@
    "respuestas": [
     "do"
    ],
-   "explicacion": "What do you do? pregunta por la profesión."
+   "explicacion": "What do you do? es la pregunta fija de la ficha para preguntar por la profesión. El primer do es el auxiliar de la pregunta y el segundo es el verbo «hacer». Literalmente es «¿qué haces?», pero se entiende como «¿a qué te dedicas?», y la respuesta I'm a lawyer lo confirma. Lawyer significa «abogado».",
+   "explicacion_breve": "What do you do? pregunta por la profesión.",
+   "traduccion": "¿A qué te dedicas? – Soy abogado.",
+   "por_opcion": {
+    "do": "Correcta: What do you do? es la fórmula para preguntar por la profesión.",
+    "make": "Make significa «fabricar, hacer algo material»; What do you make? preguntaría qué produces, no tu profesión.",
+    "work": "What do you work? es agramatical; se diría Where do you work? o What do you work as?."
+   },
+   "glosario": [
+    {
+     "palabra": "What do you do?",
+     "significado": "¿A qué te dedicas?"
+    },
+    {
+     "palabra": "lawyer",
+     "significado": "abogado, abogada"
+    }
+   ]
   },
   {
    "id": "e07",
@@ -277,7 +382,28 @@
    "respuestas": [
     "Good night"
    ],
-   "explicacion": "Good night es una despedida nocturna."
+   "explicacion": "La ficha distingue entre Good evening, que se usa al llegar, y Good night, que se usa al despedirse por la noche o al irse a dormir. La pista es leave (irse, marcharse) y midnight (medianoche): es una despedida nocturna, de modo que corresponde Good night. En español «buenas noches» sirve para las dos cosas, y de ahí la confusión.",
+   "explicacion_breve": "Good night es una despedida nocturna.",
+   "traduccion": "Te vas de una fiesta a medianoche y dices: «¡Buenas noches!»",
+   "por_opcion": {
+    "Good night": "Correcta: es la despedida nocturna.",
+    "Good evening": "Es un saludo al llegar por la tarde-noche, no una despedida.",
+    "Good afternoon": "Es un saludo de la tarde (de doce a seis aproximadamente), no corresponde a medianoche ni a una despedida."
+   },
+   "glosario": [
+    {
+     "palabra": "Good night",
+     "significado": "buenas noches (al despedirse)"
+    },
+    {
+     "palabra": "leave",
+     "significado": "irse, marcharse"
+    },
+    {
+     "palabra": "midnight",
+     "significado": "medianoche"
+    }
+   ]
   },
   {
    "id": "e08",
@@ -290,7 +416,29 @@
     "I am 40 years old.",
     "I'm 40 years old."
    ],
-   "explicacion": "La edad se dice con be."
+   "explicacion": "La ficha advierte que la edad se dice con el verbo be, no con have: I am 40 (literalmente «soy 40»). Puede añadirse years old al final (I'm 40 years old), pero nunca years solo. El calco del español «tengo 40 años» es uno de los errores más típicos del hispanohablante.",
+   "explicacion_breve": "La edad se dice con be.",
+   "traduccion": "Tengo 40 años.",
+   "errores_previstos": [
+    {
+     "respuesta": "I have 40 years.",
+     "explicacion": "Es la frase sin corregir: la edad se expresa con be, I'm 40."
+    },
+    {
+     "respuesta": "I am 40 years.",
+     "explicacion": "Years necesita old detrás: I'm 40 years old, o simplemente I'm 40."
+    },
+    {
+     "respuesta": "I have 40 years old.",
+     "explicacion": "Sigue usando have: con la edad el verbo es be."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "years old",
+     "significado": "años (de edad)"
+    }
+   ]
   },
   {
    "id": "e09",
@@ -300,7 +448,29 @@
    "respuestas": [
     "My brother is a doctor."
    ],
-   "explicacion": "Las profesiones en singular llevan artículo a/an."
+   "explicacion": "Según la ficha, las profesiones en singular llevan a/an: My brother is a doctor. Doctor empieza por sonido consonántico, de modo que va a. En español la profesión no lleva artículo («es médico») y por eso se omite por calco. Doctor significa «médico» y también se usa como tratamiento.",
+   "explicacion_breve": "Las profesiones en singular llevan artículo a/an.",
+   "traduccion": "Mi hermano es médico.",
+   "errores_previstos": [
+    {
+     "respuesta": "My brother is doctor.",
+     "explicacion": "Es la frase sin corregir: falta el artículo a delante de la profesión."
+    },
+    {
+     "respuesta": "My brother is an doctor.",
+     "explicacion": "Doctor empieza por sonido consonántico: a doctor."
+    },
+    {
+     "respuesta": "My brother is the doctor.",
+     "explicacion": "The indicaría un médico concreto; para decir la profesión se usa a."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "doctor",
+     "significado": "médico, médica"
+    }
+   ]
   },
   {
    "id": "e10",
@@ -310,7 +480,29 @@
    "respuestas": [
     "Where do you come from? – I come from Chile."
    ],
-   "explicacion": "Preguntar el origen con come exige from al final: Where do you come from?"
+   "explicacion": "La ficha recoge dos formas de preguntar el origen: Where are you from? y Where do you come from?. Con el verbo come, la preposición from es obligatoria y va al final de la pregunta. La respuesta ya lo usa correctamente (I come from Chile), así que solo hay que añadir from en la pregunta.",
+   "explicacion_breve": "Preguntar el origen con come exige from al final: Where do you come from?",
+   "traduccion": "¿De dónde eres? – Soy de Chile.",
+   "errores_previstos": [
+    {
+     "respuesta": "Where do you come? – I come from Chile.",
+     "explicacion": "Es la frase sin corregir: falta from al final de la pregunta."
+    },
+    {
+     "respuesta": "From where do you come? – I come from Chile.",
+     "explicacion": "Calco del español «¿de dónde…?»: en inglés from va al final, Where do you come from?"
+    },
+    {
+     "respuesta": "Where are you come from? – I come from Chile.",
+     "explicacion": "Mezcla de dos fórmulas: o Where are you from? o Where do you come from?"
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "come from",
+     "significado": "ser de, proceder de"
+    }
+   ]
   },
   {
    "id": "e11",
@@ -325,7 +517,25 @@
    "respuestas": [
     "Where are you from"
    ],
-   "explicacion": "En las preguntas el verbo be va delante del sujeto y la preposición al final."
+   "explicacion": "La ficha explica que en las preguntas el verbo be va delante del sujeto y que la preposición queda al final. El orden es Where + are + you + from. El hispanohablante tiende a empezar por la preposición, como en «¿de dónde…?», o a dejar el sujeto delante del verbo.",
+   "explicacion_breve": "En las preguntas el verbo be va delante del sujeto y la preposición al final.",
+   "traduccion": "¿De dónde eres?",
+   "errores_previstos": [
+    {
+     "respuesta": "From where are you",
+     "explicacion": "Calco del español: from se coloca al final de la pregunta."
+    },
+    {
+     "respuesta": "Where you are from",
+     "explicacion": "En la pregunta directa are va delante de you."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "from",
+     "significado": "de (procedencia)"
+    }
+   ]
   },
   {
    "id": "e12",
@@ -341,7 +551,29 @@
    "respuestas": [
     "This is my friend Paul"
    ],
-   "explicacion": "This is… sirve para presentar a otra persona."
+   "explicacion": "Para presentar a otra persona la ficha da la fórmula This is…, que equivale a «te presento a…» o «este es…». Detrás va la persona: my friend Paul. En inglés se usa this aunque la persona esté delante, y no he is, que suena a descripción y no a presentación.",
+   "explicacion_breve": "This is… sirve para presentar a otra persona.",
+   "traduccion": "Este es mi amigo Paul.",
+   "errores_previstos": [
+    {
+     "respuesta": "This my friend is Paul",
+     "explicacion": "Is va justo después de this: This is my friend Paul."
+    },
+    {
+     "respuesta": "Is this my friend Paul",
+     "explicacion": "Sería una pregunta (¿es este mi amigo Paul?), no una presentación."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "This is…",
+     "significado": "Este es… / Te presento a…"
+    },
+    {
+     "palabra": "friend",
+     "significado": "amigo, amiga"
+    }
+   ]
   },
   {
    "id": "e13",
@@ -351,7 +583,25 @@
    "respuestas": [
     "is"
    ],
-   "explicacion": "Para presentar a alguien se usa This is…"
+   "explicacion": "La ficha da This is… como fórmula para presentar a alguien. El hueco necesita el verbo be en tercera persona: is. Colleague significa «compañero de trabajo» (no «colega» en el sentido de amigo, que en inglés coloquial sería mate o buddy). No se usa he/she is para presentar, sino this is.",
+   "explicacion_breve": "Para presentar a alguien se usa This is…",
+   "traduccion": "Esta es mi compañera de trabajo, Sarah.",
+   "errores_previstos": [
+    {
+     "respuesta": "are",
+     "explicacion": "This es singular: This is."
+    },
+    {
+     "respuesta": "it's",
+     "explicacion": "This it's es agramatical: this ya es el sujeto y solo falta el verbo, is."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "colleague",
+     "significado": "compañero o compañera de trabajo"
+    }
+   ]
   },
   {
    "id": "e14",
@@ -366,7 +616,24 @@
    "respuestas": [
     "Fine, thanks. And you?"
    ],
-   "explicacion": "How are you? pregunta por el estado, no por la identidad."
+   "explicacion": "Según la ficha, How are you? pregunta por el estado de la persona, no por su identidad ni su origen. La respuesta habitual es breve y amable: Fine, thanks. And you?, devolviendo la pregunta. Fine significa «bien»; también valdrían Very well o Not bad.",
+   "explicacion_breve": "How are you? pregunta por el estado, no por la identidad.",
+   "traduccion": "¿Cómo estás? – Bien, gracias. ¿Y tú?",
+   "por_opcion": {
+    "Fine, thanks. And you?": "Correcta: responde cómo estás y devuelve la pregunta, como es costumbre.",
+    "I'm a student.": "Responde a What do you do? (a qué te dedicas), no a cómo estás.",
+    "I'm from Spain.": "Responde a Where are you from? (de dónde eres), no a cómo estás."
+   },
+   "glosario": [
+    {
+     "palabra": "How are you?",
+     "significado": "¿Cómo estás?"
+    },
+    {
+     "palabra": "fine",
+     "significado": "bien"
+    }
+   ]
   },
   {
    "id": "e15",
@@ -377,10 +644,42 @@
     "surname",
     "last name"
    ],
-   "explicacion": "Surname o last name es el apellido."
+   "explicacion": "La ficha explica que first name es el nombre de pila y surname o last name el apellido; ambas formas se aceptan. Surname es más británico y last name más americano. Ojo con no traducir «apellido» por name, que es el nombre en general, ni por second name, que suele ser el segundo nombre de pila.",
+   "explicacion_breve": "Surname o last name es el apellido.",
+   "traduccion": "Mi nombre es Elena y mi apellido es Ruiz.",
+   "errores_previstos": [
+    {
+     "respuesta": "second name",
+     "explicacion": "Second name suele entenderse como el segundo nombre de pila; el apellido es surname o last name."
+    },
+    {
+     "respuesta": "name",
+     "explicacion": "Name es el nombre en general; para el apellido se usa surname o last name."
+    },
+    {
+     "respuesta": "family",
+     "explicacion": "Se dice family name (apellido), pero family solo significa «familia»."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "surname / last name",
+     "significado": "apellido"
+    },
+    {
+     "palabra": "first name",
+     "significado": "nombre de pila"
+    }
+   ]
   }
  ],
  "fuente": {
   "nombre": "propia"
+ },
+ "descripcion_larga_es": "Saludar, despedirse y presentarse son las primeras frases de cualquier conversación y de cualquier examen oral. El inglés distingue los saludos por la hora y el grado de confianza, y tiene fórmulas fijas que no se traducen palabra por palabra. Al hispanohablante le traicionan los calcos: «I have 40 years», «I am doctor» o confundir Good evening (saludo) con Good night (despedida).",
+ "contexto": {
+  "que_es": "Es el conjunto de fórmulas para saludar, despedirse, preguntar por el estado de alguien y dar datos personales básicos: nombre, origen, edad, profesión y lugar de residencia. También incluye cómo presentar a otra persona (This is…).",
+  "por_que_importa": "Es la primera impresión en una reunión, una entrevista o el comienzo de una prueba oral, y un fallo aquí se nota enseguida. Calcos como «I have 40 years» o un «How do you do?» respondido contando cómo estás pueden resultar cómicos o poco profesionales. Elegir el saludo adecuado a la hora y al registro muestra soltura desde la primera frase.",
+  "cuando_se_usa": "Al llegar a un sitio, al conocer a alguien, al empezar una llamada o un correo y al despedirse. Las señales son la hora del día (morning, afternoon, evening), el grado de formalidad (Hi frente a Good morning, How do you do?) y el tipo de pregunta (How are you? pregunta por el estado; What do you do? por la profesión). El hispanohablante tiende a traducir «buenas noches» siempre como Good night, aunque al llegar se dice Good evening."
  }
 }

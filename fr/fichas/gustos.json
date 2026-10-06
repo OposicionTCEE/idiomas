@@ -6,66 +6,706 @@
  "nivel": "A2",
  "resumen": "Verbos y fórmulas para expresar gustos y preferencias (aimer, adorer, préférer, détester) y para dar una opinión sencilla (je pense que, je trouve que, à mon avis).",
  "explicacion": [
-  {"tipo": "texto", "texto": "A diferencia de gustar, aimer funciona como love/like en inglés: el sujeto es quien siente el gusto: j'aime le cinéma (me gusta el cine). Tras los verbos de gusto se usa el artículo definido (le, la, les) porque se habla en general: j'aime le chocolat, je déteste les épinards. Pueden ir seguidos de infinitivo: j'adore voyager."},
-  {"tipo": "tabla", "cabecera": ["Expresión", "Significado", "Ejemplo"], "filas": [
-   ["adorer", "encantar", "J'adore la musique classique."],
-   ["aimer beaucoup", "gustar mucho", "J'aime beaucoup ce quartier."],
-   ["aimer bien", "gustar (bastante)", "J'aime bien les films policiers."],
-   ["ne pas aimer / ne pas trop aimer", "no gustar / no gustar mucho", "Je n'aime pas trop le football."],
-   ["détester", "odiar", "Je déteste attendre."],
-   ["préférer… à…", "preferir… a…", "Je préfère le thé au café."],
-   ["avoir horreur de", "no soportar", "J'ai horreur du bruit."],
-   ["être fan de / passionné(e) de", "ser fan de / apasionado/a de", "Elle est passionnée de photo."],
-   ["s'intéresser à", "interesarse por", "Je m'intéresse à l'histoire."],
-   ["ça me plaît / ça ne me plaît pas", "me gusta / no me gusta", "Ce film m'a beaucoup plu."],
-   ["avoir envie de", "tener ganas de", "J'ai envie d'aller au cinéma."],
-   ["ça m'est égal", "me da igual", "Pizza ou pâtes ? Ça m'est égal."]
-  ]},
-  {"tipo": "tabla", "cabecera": ["Opinar", "Significado", "Ejemplo"], "filas": [
-   ["je pense que / je crois que", "pienso que / creo que", "Je pense que c'est une bonne idée."],
-   ["je trouve que / je trouve ça + adj.", "me parece que / me parece + adj.", "Je trouve ça génial."],
-   ["à mon avis / pour moi", "en mi opinión / para mí", "À mon avis, ce livre est trop long."],
-   ["c'est génial / super / nul / ennuyeux", "es genial / estupendo / malísimo / aburrido", "Ce spectacle était nul."],
-   ["c'est intéressant / amusant / bizarre", "es interesante / divertido / raro", "C'est un musée très intéressant."],
-   ["moi aussi / moi non plus", "yo también / yo tampoco", "— Je n'aime pas le jazz. — Moi non plus."],
-   ["moi si / moi non", "yo sí / yo no", "— Je n'aime pas les huîtres. — Moi si !"]
-  ]},
-  {"tipo": "lista", "items": [
-   "Préférer A à B: je préfère la montagne à la mer (à + le = au).",
-   "En la negación con aimer se mantiene el artículo definido: je n'aime pas le café.",
-   "Para responder a una frase negativa con «yo sí» se usa moi si, no moi oui."
-  ]}
+  {
+   "tipo": "texto",
+   "texto": "A diferencia de gustar, aimer funciona como love/like en inglés: el sujeto es quien siente el gusto: j'aime le cinéma (me gusta el cine). Tras los verbos de gusto se usa el artículo definido (le, la, les) porque se habla en general: j'aime le chocolat, je déteste les épinards. Pueden ir seguidos de infinitivo: j'adore voyager."
+  },
+  {
+   "tipo": "tabla",
+   "cabecera": [
+    "Expresión",
+    "Significado",
+    "Ejemplo"
+   ],
+   "filas": [
+    [
+     "adorer",
+     "encantar",
+     "J'adore la musique classique."
+    ],
+    [
+     "aimer beaucoup",
+     "gustar mucho",
+     "J'aime beaucoup ce quartier."
+    ],
+    [
+     "aimer bien",
+     "gustar (bastante)",
+     "J'aime bien les films policiers."
+    ],
+    [
+     "ne pas aimer / ne pas trop aimer",
+     "no gustar / no gustar mucho",
+     "Je n'aime pas trop le football."
+    ],
+    [
+     "détester",
+     "odiar",
+     "Je déteste attendre."
+    ],
+    [
+     "préférer… à…",
+     "preferir… a…",
+     "Je préfère le thé au café."
+    ],
+    [
+     "avoir horreur de",
+     "no soportar",
+     "J'ai horreur du bruit."
+    ],
+    [
+     "être fan de / passionné(e) de",
+     "ser fan de / apasionado/a de",
+     "Elle est passionnée de photo."
+    ],
+    [
+     "s'intéresser à",
+     "interesarse por",
+     "Je m'intéresse à l'histoire."
+    ],
+    [
+     "ça me plaît / ça ne me plaît pas",
+     "me gusta / no me gusta",
+     "Ce film m'a beaucoup plu."
+    ],
+    [
+     "avoir envie de",
+     "tener ganas de",
+     "J'ai envie d'aller au cinéma."
+    ],
+    [
+     "ça m'est égal",
+     "me da igual",
+     "Pizza ou pâtes ? Ça m'est égal."
+    ]
+   ]
+  },
+  {
+   "tipo": "tabla",
+   "cabecera": [
+    "Opinar",
+    "Significado",
+    "Ejemplo"
+   ],
+   "filas": [
+    [
+     "je pense que / je crois que",
+     "pienso que / creo que",
+     "Je pense que c'est une bonne idée."
+    ],
+    [
+     "je trouve que / je trouve ça + adj.",
+     "me parece que / me parece + adj.",
+     "Je trouve ça génial."
+    ],
+    [
+     "à mon avis / pour moi",
+     "en mi opinión / para mí",
+     "À mon avis, ce livre est trop long."
+    ],
+    [
+     "c'est génial / super / nul / ennuyeux",
+     "es genial / estupendo / malísimo / aburrido",
+     "Ce spectacle était nul."
+    ],
+    [
+     "c'est intéressant / amusant / bizarre",
+     "es interesante / divertido / raro",
+     "C'est un musée très intéressant."
+    ],
+    [
+     "moi aussi / moi non plus",
+     "yo también / yo tampoco",
+     "— Je n'aime pas le jazz. — Moi non plus."
+    ],
+    [
+     "moi si / moi non",
+     "yo sí / yo no",
+     "— Je n'aime pas les huîtres. — Moi si !"
+    ]
+   ]
+  },
+  {
+   "tipo": "lista",
+   "items": [
+    "Préférer A à B: je préfère la montagne à la mer (à + le = au).",
+    "En la negación con aimer se mantiene el artículo definido: je n'aime pas le café.",
+    "Para responder a una frase negativa con «yo sí» se usa moi si, no moi oui."
+   ]
+  }
  ],
  "ejemplos": [
-  {"frase": "J'adore lire le soir avant de dormir.", "traduccion": "Me encanta leer por la noche antes de dormir."},
-  {"frase": "Je préfère le train à l'avion, c'est plus confortable.", "traduccion": "Prefiero el tren al avión, es más cómodo."},
-  {"frase": "Mes enfants détestent les légumes verts.", "traduccion": "Mis hijos odian la verdura."},
-  {"frase": "À mon avis, cette série est un peu ennuyeuse.", "traduccion": "En mi opinión, esta serie es un poco aburrida."},
-  {"frase": "— Je n'aime pas le froid. — Moi non plus.", "traduccion": "— No me gusta el frío. — A mí tampoco."},
-  {"frase": "Tu as aimé l'exposition ? — Oui, elle m'a beaucoup plu.", "traduccion": "¿Te gustó la exposición? — Sí, me gustó mucho."}
+  {
+   "frase": "J'adore lire le soir avant de dormir.",
+   "traduccion": "Me encanta leer por la noche antes de dormir."
+  },
+  {
+   "frase": "Je préfère le train à l'avion, c'est plus confortable.",
+   "traduccion": "Prefiero el tren al avión, es más cómodo."
+  },
+  {
+   "frase": "Mes enfants détestent les légumes verts.",
+   "traduccion": "Mis hijos odian la verdura."
+  },
+  {
+   "frase": "À mon avis, cette série est un peu ennuyeuse.",
+   "traduccion": "En mi opinión, esta serie es un poco aburrida."
+  },
+  {
+   "frase": "— Je n'aime pas le froid. — Moi non plus.",
+   "traduccion": "— No me gusta el frío. — A mí tampoco."
+  },
+  {
+   "frase": "Tu as aimé l'exposition ? — Oui, elle m'a beaucoup plu.",
+   "traduccion": "¿Te gustó la exposición? — Sí, me gustó mucho."
+  }
  ],
  "errores_hispanohablantes": [
-  {"mal": "Me plaît le cinéma.", "bien": "J'aime le cinéma.", "nota": "Lo normal es aimer, con la persona como sujeto."},
-  {"mal": "J'aime chocolat.", "bien": "J'aime le chocolat.", "nota": "Con verbos de gusto se usa el artículo definido."},
-  {"mal": "Je préfère le thé que le café.", "bien": "Je préfère le thé au café.", "nota": "Préférer A à B."},
-  {"mal": "— Je n'aime pas ça. — Moi aussi.", "bien": "— Je n'aime pas ça. — Moi non plus.", "nota": "Para estar de acuerdo con una negación: moi non plus."}
+  {
+   "mal": "Me plaît le cinéma.",
+   "bien": "J'aime le cinéma.",
+   "nota": "Lo normal es aimer, con la persona como sujeto."
+  },
+  {
+   "mal": "J'aime chocolat.",
+   "bien": "J'aime le chocolat.",
+   "nota": "Con verbos de gusto se usa el artículo definido."
+  },
+  {
+   "mal": "Je préfère le thé que le café.",
+   "bien": "Je préfère le thé au café.",
+   "nota": "Préférer A à B."
+  },
+  {
+   "mal": "— Je n'aime pas ça. — Moi aussi.",
+   "bien": "— Je n'aime pas ça. — Moi non plus.",
+   "nota": "Para estar de acuerdo con una negación: moi non plus."
+  }
  ],
  "ejercicios": [
-  {"id": "e01", "tipo": "hueco", "enunciado": "Completa con el artículo.", "frase": "J'adore ___ musique.", "respuestas": ["la"], "explicacion": "Con verbos de gusto, artículo definido."},
-  {"id": "e02", "tipo": "hueco", "enunciado": "Completa con la preposición contraída.", "frase": "Je préfère la mer ___ montagne.", "respuestas": ["à la"], "explicacion": "Préférer A à B: à la montagne."},
-  {"id": "e03", "tipo": "hueco", "enunciado": "Completa con la preposición contraída.", "frase": "Elle préfère le vin ___ cidre.", "respuestas": ["au"], "explicacion": "À + le = au."},
-  {"id": "e04", "tipo": "eleccion", "enunciado": "Elige la respuesta adecuada.", "frase": "— Je n'aime pas les films d'horreur. — ___", "opciones": ["Moi non plus.", "Moi aussi.", "Moi oui."], "respuestas": ["Moi non plus."], "explicacion": "Coincidir con una negación: moi non plus."},
-  {"id": "e05", "tipo": "eleccion", "enunciado": "Elige la respuesta adecuada para llevar la contraria.", "frase": "— Je n'aime pas le chocolat. — ___ ! J'adore ça.", "opciones": ["Moi si", "Moi oui", "Moi aussi"], "respuestas": ["Moi si"], "explicacion": "Contradecir una negación: moi si."},
-  {"id": "e06", "tipo": "eleccion", "enunciado": "Elige la opción correcta.", "frase": "Je m'intéresse ___ politique internationale.", "opciones": ["à la", "de la", "par la"], "respuestas": ["à la"], "explicacion": "S'intéresser à."},
-  {"id": "e07", "tipo": "eleccion", "enunciado": "Elige la opción correcta.", "frase": "Ce concert ne m'a pas ___.", "opciones": ["plu", "plaît", "aimé"], "respuestas": ["plu"], "explicacion": "Participio de plaire: plu."},
-  {"id": "e08", "tipo": "hueco", "enunciado": "Completa: «me da igual».", "frase": "Thé ou café ? Ça m'est ___.", "respuestas": ["égal"], "explicacion": "Ça m'est égal = me da igual."},
-  {"id": "e09", "tipo": "hueco", "enunciado": "Completa: «tener ganas de».", "frase": "J'ai ___ de partir en vacances.", "respuestas": ["envie"], "explicacion": "Avoir envie de."},
-  {"id": "e10", "tipo": "hueco", "enunciado": "Completa: «en mi opinión».", "frase": "À mon ___, c'est le meilleur restaurant du quartier.", "respuestas": ["avis"], "explicacion": "À mon avis."},
-  {"id": "e11", "tipo": "corregir", "enunciado": "Corrige el error.", "frase": "Je préfère le cinéma que le théâtre.", "respuestas": ["Je préfère le cinéma au théâtre."], "explicacion": "Préférer A à B."},
-  {"id": "e12", "tipo": "corregir", "enunciado": "Corrige el error.", "frase": "Mon père aime football.", "respuestas": ["Mon père aime le football.", "Mon père aime le foot."], "explicacion": "Falta el artículo definido."},
-  {"id": "e13", "tipo": "ordenar", "enunciado": "Ordena las palabras.", "palabras": ["ça", "trouve", "Je", "génial"], "respuestas": ["Je trouve ça génial"], "explicacion": "Trouver ça + adjetivo."},
-  {"id": "e14", "tipo": "ordenar", "enunciado": "Ordena las palabras.", "palabras": ["pas", "Je", "attendre", "n'aime"], "respuestas": ["Je n'aime pas attendre"], "explicacion": "Ne… pas rodea al verbo conjugado; el infinitivo va después."},
-  {"id": "e15", "tipo": "transformar", "enunciado": "Pasa la frase a la negativa.", "frase": "J'aime le café.", "respuestas": ["Je n'aime pas le café."], "explicacion": "Con aimer, la negación conserva el artículo definido."}
+  {
+   "id": "e01",
+   "tipo": "hueco",
+   "enunciado": "Completa con el artículo adecuado (definido, indefinido o partitivo).",
+   "frase": "J'adore ___ musique.",
+   "respuestas": [
+    "la"
+   ],
+   "explicacion": "Se aplica la regla de la ficha: tras los verbos de gusto (aimer, adorer, détester…) se usa el artículo definido, porque se habla de algo en general. La pista es el verbo «adore» y el sustantivo femenino «musique». Por eso «la musique». El español también pone aquí el artículo, pero el hispanohablante suele dudar en francés entre omitirlo y usar el partitivo «de la».",
+   "explicacion_breve": "Con verbos de gusto, artículo definido.",
+   "traduccion": "Me encanta la música.",
+   "errores_previstos": [
+    {
+     "respuesta": "de la",
+     "explicacion": "El partitivo indica una cantidad indeterminada («je bois de l'eau»); con verbos de gusto se habla en general y va el artículo definido: «la musique»."
+    },
+    {
+     "respuesta": "le",
+     "explicacion": "«Musique» es femenino: «la musique»."
+    },
+    {
+     "respuesta": "une",
+     "explicacion": "Con «adorer» en sentido general se usa el artículo definido; «une musique» se referiría a una música concreta."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "adorer",
+     "significado": "encantar, adorar"
+    },
+    {
+     "palabra": "la musique",
+     "significado": "la música"
+    }
+   ]
+  },
+  {
+   "id": "e02",
+   "tipo": "hueco",
+   "enunciado": "Completa con la preposición contraída.",
+   "frase": "Je préfère la mer ___ montagne.",
+   "respuestas": [
+    "à la"
+   ],
+   "explicacion": "La ficha da la estructura «préférer A à B»: el segundo término va introducido por «à». La pista es el verbo «préfère» seguido de «la mer». Como «montagne» es femenino, «à la» no se contrae: «à la montagne». El error típico es calcar el «que» del español «prefiero… que…».",
+   "explicacion_breve": "Préférer A à B: à la montagne.",
+   "traduccion": "Prefiero el mar a la montaña.",
+   "errores_previstos": [
+    {
+     "respuesta": "que la",
+     "explicacion": "Es el calco del español; «préférer» introduce el segundo término con «à»: «à la montagne»."
+    },
+    {
+     "respuesta": "au",
+     "explicacion": "«Au» es «à + le» y «montagne» es femenino: «à la»."
+    },
+    {
+     "respuesta": "à",
+     "explicacion": "Falta el artículo definido: «à la montagne»."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "préférer A à B",
+     "significado": "preferir A a B"
+    },
+    {
+     "palabra": "la montagne",
+     "significado": "la montaña"
+    }
+   ]
+  },
+  {
+   "id": "e03",
+   "tipo": "hueco",
+   "enunciado": "Completa con la preposición contraída.",
+   "frase": "Elle préfère le vin ___ cidre.",
+   "respuestas": [
+    "au"
+   ],
+   "explicacion": "Se aplica «préférer A à B» con un sustantivo masculino: «cidre» es masculino, y «à + le» se contrae obligatoriamente en «au». La pista es la palabra «cidre», que es masculina en francés; cuidado, porque «sidra» es femenina en español y empuja a decir «à la».",
+   "explicacion_breve": "À + le = au.",
+   "traduccion": "Ella prefiere el vino a la sidra.",
+   "errores_previstos": [
+    {
+     "respuesta": "à le",
+     "explicacion": "«À + le» se contrae siempre en «au»."
+    },
+    {
+     "respuesta": "que le",
+     "explicacion": "«Préférer» no usa «que» para el segundo término, sino «à»: «au cidre»."
+    },
+    {
+     "respuesta": "à la",
+     "explicacion": "«Cidre» es masculino en francés, aunque «sidra» sea femenino: «au cidre»."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "le cidre",
+     "significado": "la sidra"
+    },
+    {
+     "palabra": "le vin",
+     "significado": "el vino"
+    }
+   ]
+  },
+  {
+   "id": "e04",
+   "tipo": "eleccion",
+   "enunciado": "Elige la respuesta adecuada.",
+   "frase": "— Je n'aime pas les films d'horreur. — ___",
+   "opciones": [
+    "Moi non plus.",
+    "Moi aussi.",
+    "Moi oui."
+   ],
+   "respuestas": [
+    "Moi non plus."
+   ],
+   "explicacion": "La tabla de opinión recoge «moi aussi / moi non plus»: para coincidir con una frase negativa se dice «moi non plus», igual que el español «yo tampoco». La pista es la negación «je n'aime pas». «Moi aussi» sirve para coincidir con una frase afirmativa.",
+   "explicacion_breve": "Coincidir con una negación: moi non plus.",
+   "traduccion": "—No me gustan las películas de terror. —A mí tampoco.",
+   "por_opcion": {
+    "Moi non plus.": "Correcta: coincide con una negación, «yo tampoco».",
+    "Moi aussi.": "Incorrecta: se usa para coincidir con una afirmación («j'aime le jazz — moi aussi»); aquí daría a entender lo contrario de lo que se quiere.",
+    "Moi oui.": "Incorrecta: no es la forma francesa; para contradecir una negación se dice «moi si», y además aquí se quiere coincidir, no contradecir."
+   },
+   "glosario": [
+    {
+     "palabra": "moi non plus",
+     "significado": "yo tampoco"
+    },
+    {
+     "palabra": "un film d'horreur",
+     "significado": "una película de terror"
+    }
+   ]
+  },
+  {
+   "id": "e05",
+   "tipo": "eleccion",
+   "enunciado": "Elige la respuesta adecuada para llevar la contraria.",
+   "frase": "— Je n'aime pas le chocolat. — ___ ! J'adore ça.",
+   "opciones": [
+    "Moi si",
+    "Moi oui",
+    "Moi aussi"
+   ],
+   "respuestas": [
+    "Moi si"
+   ],
+   "explicacion": "Para contradecir una frase negativa con «yo sí», el francés usa «moi si», como explica la ficha. La pista es la negación de la primera frase y la reacción opuesta «J'adore ça». «Si» es la forma de decir «sí» para llevar la contraria a algo negativo.",
+   "explicacion_breve": "Contradecir una negación: moi si.",
+   "traduccion": "—No me gusta el chocolate. —¡A mí sí! Me encanta.",
+   "por_opcion": {
+    "Moi si": "Correcta: contradice una negación, «yo sí».",
+    "Moi oui": "Incorrecta: es el calco del español; en francés la réplica a una negación es «moi si».",
+    "Moi aussi": "Incorrecta: «moi aussi» es coincidir con una afirmación; tras «je n'aime pas» resulta contradictorio con «J'adore ça»."
+   },
+   "glosario": [
+    {
+     "palabra": "moi si",
+     "significado": "yo sí (respondiendo a una negación)"
+    },
+    {
+     "palabra": "le chocolat",
+     "significado": "el chocolate"
+    }
+   ]
+  },
+  {
+   "id": "e06",
+   "tipo": "eleccion",
+   "enunciado": "Elige la opción correcta.",
+   "frase": "Je m'intéresse ___ politique internationale.",
+   "opciones": [
+    "à la",
+    "de la",
+    "par la"
+   ],
+   "respuestas": [
+    "à la"
+   ],
+   "explicacion": "La tabla da la construcción «s'intéresser à»: interesarse por algo se dice con «à», no con «par» ni «de». La pista es el verbo pronominal «je m'intéresse». Como «politique» es femenino, «à la» no se contrae.",
+   "explicacion_breve": "S'intéresser à.",
+   "traduccion": "Me intereso por la política internacional.",
+   "por_opcion": {
+    "à la": "Correcta: «s'intéresser à» + artículo femenino.",
+    "de la": "Incorrecta: «s'intéresser» no rige «de»; «de la politique» sería un partitivo o un complemento de origen.",
+    "par la": "Incorrecta: es el calco del español «interesarse por»; en francés la preposición es «à»."
+   },
+   "glosario": [
+    {
+     "palabra": "s'intéresser à",
+     "significado": "interesarse por"
+    },
+    {
+     "palabra": "la politique internationale",
+     "significado": "la política internacional"
+    }
+   ]
+  },
+  {
+   "id": "e07",
+   "tipo": "eleccion",
+   "enunciado": "Elige la opción correcta.",
+   "frase": "Ce concert ne m'a pas ___.",
+   "opciones": [
+    "plu",
+    "plaît",
+    "aimé"
+   ],
+   "respuestas": [
+    "plu"
+   ],
+   "explicacion": "La tabla recoge «ça me plaît / ce film m'a beaucoup plu»: «plaire» funciona como «gustar», con la cosa como sujeto y la persona como complemento indirecto. La pista es el auxiliar «a» del passé composé, que exige un participio. El participio de «plaire» es «plu».",
+   "explicacion_breve": "Participio de plaire: plu.",
+   "traduccion": "Este concierto no me gustó.",
+   "por_opcion": {
+    "plu": "Correcta: participio de «plaire», gustar.",
+    "plaît": "Incorrecta: es el presente; tras el auxiliar «a» hace falta el participio.",
+    "aimé": "Incorrecta: con «aimer» el sujeto es la persona; «ce concert ne m'a pas aimé» significaría que el concierto no me quiso a mí."
+   },
+   "glosario": [
+    {
+     "palabra": "plaire (participio: plu)",
+     "significado": "gustar, agradar"
+    },
+    {
+     "palabra": "le concert",
+     "significado": "el concierto"
+    }
+   ]
+  },
+  {
+   "id": "e08",
+   "tipo": "hueco",
+   "enunciado": "Completa: «me da igual».",
+   "frase": "Thé ou café ? Ça m'est ___.",
+   "respuestas": [
+    "égal"
+   ],
+   "explicacion": "Es la expresión de la tabla «ça m'est égal», me da igual. La pista es la alternativa planteada («Thé ou café ?») y el inicio de la fórmula «Ça m'est». «Égal» va en masculino singular, sin concordar con nada, y lleva acento agudo.",
+   "explicacion_breve": "Ça m'est égal = me da igual.",
+   "traduccion": "¿Té o café? Me da igual.",
+   "errores_previstos": [
+    {
+     "respuesta": "egal",
+     "explicacion": "Falta el acento: se escribe «égal»."
+    },
+    {
+     "respuesta": "igual",
+     "explicacion": "Es la palabra española; en francés «égal»."
+    },
+    {
+     "respuesta": "pareil",
+     "explicacion": "«C'est pareil» significa «es lo mismo», pero la fórmula fija con «ça m'est» es «ça m'est égal»."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "ça m'est égal",
+     "significado": "me da igual"
+    },
+    {
+     "palabra": "le thé",
+     "significado": "el té"
+    }
+   ]
+  },
+  {
+   "id": "e09",
+   "tipo": "hueco",
+   "enunciado": "Completa: «tener ganas de».",
+   "frase": "J'ai ___ de partir en vacances.",
+   "respuestas": [
+    "envie"
+   ],
+   "explicacion": "La tabla recoge «avoir envie de», tener ganas de. La pista es el verbo «J'ai» delante del hueco y la preposición «de» detrás, seguida de infinitivo. «Envie» es un sustantivo femenino y no lleva artículo en esta locución.",
+   "explicacion_breve": "Avoir envie de.",
+   "traduccion": "Tengo ganas de irme de vacaciones.",
+   "errores_previstos": [
+    {
+     "respuesta": "envies",
+     "explicacion": "En la locución «avoir envie de» el sustantivo va en singular."
+    },
+    {
+     "respuesta": "ganas",
+     "explicacion": "Es la palabra española; en francés la expresión es «avoir envie de»."
+    },
+    {
+     "respuesta": "l'envie",
+     "explicacion": "La locución no lleva artículo: «j'ai envie de»."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "avoir envie de",
+     "significado": "tener ganas de, apetecer"
+    },
+    {
+     "palabra": "partir en vacances",
+     "significado": "irse de vacaciones"
+    }
+   ]
+  },
+  {
+   "id": "e10",
+   "tipo": "hueco",
+   "enunciado": "Completa: «en mi opinión».",
+   "frase": "À mon ___, c'est le meilleur restaurant du quartier.",
+   "respuestas": [
+    "avis"
+   ],
+   "explicacion": "Es la fórmula de opinión de la tabla «à mon avis», en mi opinión. La pista es «À mon» al principio, seguido de coma. «Avis» es masculino y termina en -s también en singular. Equivale a «pour moi» o «selon moi».",
+   "explicacion_breve": "À mon avis.",
+   "traduccion": "En mi opinión, es el mejor restaurante del barrio.",
+   "errores_previstos": [
+    {
+     "respuesta": "opinion",
+     "explicacion": "«Opinion» existe, pero es femenino y no forma esta locución; se diría «à mon avis» o «selon moi»."
+    },
+    {
+     "respuesta": "avi",
+     "explicacion": "«Avis» se escribe con -s final incluso en singular."
+    },
+    {
+     "respuesta": "idée",
+     "explicacion": "«À mon idée» se oye en registro familiar, pero la fórmula estándar es «à mon avis»."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "à mon avis",
+     "significado": "en mi opinión, a mi parecer"
+    },
+    {
+     "palabra": "le quartier",
+     "significado": "el barrio"
+    }
+   ]
+  },
+  {
+   "id": "e11",
+   "tipo": "corregir",
+   "enunciado": "Corrige el error.",
+   "frase": "Je préfère le cinéma que le théâtre.",
+   "respuestas": [
+    "Je préfère le cinéma au théâtre."
+   ],
+   "explicacion": "Es el error típico de la ficha: «préférer» no introduce el segundo término con «que», sino con «à». La pista es «théâtre», masculino, por lo que «à + le» se contrae en «au»: «au théâtre». El español dice «prefiero el cine al teatro», con «a», aunque en la lengua coloquial se oye «que».",
+   "explicacion_breve": "Préférer A à B.",
+   "traduccion": "Prefiero el cine al teatro.",
+   "errores_previstos": [
+    {
+     "respuesta": "Je préfère le cinéma que le théâtre.",
+     "explicacion": "Es dejar la frase sin corregir: «préférer A à B»."
+    },
+    {
+     "respuesta": "Je préfère le cinéma à le théâtre.",
+     "explicacion": "«À + le» se contrae en «au»."
+    },
+    {
+     "respuesta": "Je préfère le cinéma plus que le théâtre.",
+     "explicacion": "«Préférer» ya expresa la comparación; no lleva «plus que». La estructura es «préférer A à B»."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "préférer A à B",
+     "significado": "preferir A a B"
+    },
+    {
+     "palabra": "le théâtre",
+     "significado": "el teatro"
+    }
+   ]
+  },
+  {
+   "id": "e12",
+   "tipo": "corregir",
+   "enunciado": "Corrige el error.",
+   "frase": "Mon père aime football.",
+   "respuestas": [
+    "Mon père aime le football.",
+    "Mon père aime le foot."
+   ],
+   "explicacion": "La regla es que tras los verbos de gusto va el artículo definido. La pista es «aime» seguido de un sustantivo sin determinante. Hay que añadir «le»: «aime le football». También se acepta «le foot», la forma coloquial más frecuente. Fíjate en que el sujeto es «mon père», la persona que siente el gusto.",
+   "explicacion_breve": "Falta el artículo definido.",
+   "traduccion": "A mi padre le gusta el fútbol.",
+   "errores_previstos": [
+    {
+     "respuesta": "Mon père aime football.",
+     "explicacion": "Es dejar la frase sin corregir: falta el artículo definido."
+    },
+    {
+     "respuesta": "Mon père aime du football.",
+     "explicacion": "El partitivo no se usa con verbos de gusto: «aime le football»."
+    },
+    {
+     "respuesta": "À mon père plaît le football.",
+     "explicacion": "Es el calco de «a mi padre le gusta»; en francés lo natural es «aimer» con la persona como sujeto."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "le football (le foot)",
+     "significado": "el fútbol"
+    }
+   ]
+  },
+  {
+   "id": "e13",
+   "tipo": "ordenar",
+   "enunciado": "Ordena las palabras.",
+   "palabras": [
+    "ça",
+    "trouve",
+    "Je",
+    "génial"
+   ],
+   "respuestas": [
+    "Je trouve ça génial"
+   ],
+   "explicacion": "La tabla de opinión recoge «je trouve ça + adjetivo», me parece + adjetivo. El orden es sujeto «Je», verbo «trouve», pronombre «ça» y adjetivo «génial». A diferencia de los pronombres átonos, «ça» va detrás del verbo.",
+   "explicacion_breve": "Trouver ça + adjetivo.",
+   "traduccion": "Me parece genial.",
+   "errores_previstos": [
+    {
+     "respuesta": "Je ça trouve génial",
+     "explicacion": "«Ça» no es un pronombre átono y no se coloca delante del verbo: «je trouve ça génial»."
+    },
+    {
+     "respuesta": "Ça je trouve génial",
+     "explicacion": "Calco de un orden enfático; la fórmula neutra es «je trouve ça génial»."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "trouver ça + adjetivo",
+     "significado": "parecerle a uno algo + adjetivo"
+    },
+    {
+     "palabra": "génial",
+     "significado": "genial, estupendo"
+    }
+   ]
+  },
+  {
+   "id": "e14",
+   "tipo": "ordenar",
+   "enunciado": "Ordena las palabras.",
+   "palabras": [
+    "pas",
+    "Je",
+    "attendre",
+    "n'aime"
+   ],
+   "respuestas": [
+    "Je n'aime pas attendre"
+   ],
+   "explicacion": "La regla es que «ne… pas» rodea al verbo conjugado y el infinitivo va después, como indica la ficha. El orden es «Je n'aime pas attendre»: «ne» se elide en «n'» ante la vocal de «aime». Los verbos de gusto pueden ir seguidos directamente de infinitivo, sin preposición.",
+   "explicacion_breve": "Ne… pas rodea al verbo conjugado; el infinitivo va después.",
+   "traduccion": "No me gusta esperar.",
+   "errores_previstos": [
+    {
+     "respuesta": "Je n'aime attendre pas",
+     "explicacion": "«Pas» va justo detrás del verbo conjugado, antes del infinitivo."
+    },
+    {
+     "respuesta": "Je pas n'aime attendre",
+     "explicacion": "Calco del orden «no me gusta»: la negación rodea al verbo, «n'aime pas»."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "attendre",
+     "significado": "esperar"
+    }
+   ]
+  },
+  {
+   "id": "e15",
+   "tipo": "transformar",
+   "enunciado": "Pasa la frase a la negativa.",
+   "frase": "J'aime le café.",
+   "respuestas": [
+    "Je n'aime pas le café."
+   ],
+   "explicacion": "La ficha insiste en que con «aimer» la negación conserva el artículo definido: «je n'aime pas le café». La pista es que se habla del café en general. Con otros verbos el artículo pasa a «de» en negación («je ne bois pas de café»), pero no con los verbos de gusto.",
+   "explicacion_breve": "Con aimer, la negación conserva el artículo definido.",
+   "traduccion": "No me gusta el café.",
+   "errores_previstos": [
+    {
+     "respuesta": "Je n'aime pas de café.",
+     "explicacion": "Con verbos de gusto la negación no cambia el artículo a «de»: «je n'aime pas le café»."
+    },
+    {
+     "respuesta": "Je ne aime pas le café.",
+     "explicacion": "Ante vocal, «ne» se elide: «je n'aime pas»."
+    },
+    {
+     "respuesta": "Je n'aime le café pas.",
+     "explicacion": "«Pas» va justo detrás del verbo conjugado."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "le café",
+     "significado": "el café"
+    }
+   ]
+  }
  ],
- "fuente": {"nombre": "propia"}
+ "fuente": {
+  "nombre": "propia"
+ },
+ "descripcion_larga_es": "Verbos y fórmulas para expresar gustos y preferencias (aimer, adorer, préférer, détester, avoir horreur de) y para dar una opinión sencilla (je pense que, je trouve que, à mon avis), además de las réplicas «moi aussi», «moi non plus» y «moi si». Al hispanohablante le cuesta porque «aimer» no funciona como «gustar»: el sujeto es quien siente el gusto, y tras estos verbos se usa el artículo definido.",
+ "contexto": {
+  "que_es": "Es el léxico y las estructuras que sirven para decir lo que nos gusta, lo que preferimos y lo que pensamos de algo. Incluye verbos de gusto con su construcción (aimer + artículo definido, préférer A à B, s'intéresser à), fórmulas de opinión y las réplicas breves para mostrar acuerdo o desacuerdo.",
+  "por_que_importa": "Hablar de gustos y opinar es una de las tareas básicas de cualquier conversación y de las pruebas orales de nivel inicial e intermedio. Los errores típicos se notan mucho: calcar «gustar» («me plaît le cinéma»), omitir el artículo («j'aime chocolat»), usar «que» con «préférer» o responder «moi aussi» a una negación, lo que cambia el sentido de lo que se quiere decir.",
+  "cuando_se_usa": "Se usa al presentarse, al hablar del tiempo libre, al valorar una película, un libro o una propuesta, y al reaccionar a lo que dice otra persona. Las señales son preguntas como «Tu aimes… ?», «Qu'est-ce que tu en penses ?» o «Tu préfères… ou… ?». El hispanohablante tiende a construir con el patrón de «gustar» y a decir «moi oui» o «moi aussi» donde el francés exige «moi si» o «moi non plus»."
+ }
 }

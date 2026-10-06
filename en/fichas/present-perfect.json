@@ -6,56 +6,525 @@
  "nivel": "A2",
  "resumen": "El present perfect (have / has + participio) conecta el pasado con el presente: experiencias vividas sin decir cuándo, acciones recientes con resultado actual y situaciones que continúan hasta hoy.",
  "explicacion": [
-  {"tipo": "tabla", "cabecera": ["Tipo de frase", "Estructura", "Ejemplo"], "filas": [
-   ["Afirmativa", "sujeto + have / has + participio", "She has finished."],
-   ["Negativa", "sujeto + haven't / hasn't + participio", "I haven't eaten."],
-   ["Pregunta", "Have / Has + sujeto + participio?", "Have you seen it?"]
-  ]},
-  {"tipo": "lista", "items": [
-   "Experiencia (en la vida, sin fecha): I've been to Japan twice.",
-   "Acción reciente con resultado ahora: I've lost my keys (y no las tengo).",
-   "Situación que empezó en el pasado y sigue: We've lived here for ten years / since 2016."
-  ]},
-  {"tipo": "tabla", "cabecera": ["Palabra", "Uso", "Ejemplo"], "filas": [
-   ["ever", "¿alguna vez? (preguntas)", "Have you ever tried sushi?"],
-   ["never", "nunca (frase afirmativa en forma)", "I've never driven a truck."],
-   ["just", "acabar de (entre have y participio)", "He's just left."],
-   ["already", "ya (antes de lo esperado)", "I've already paid."],
-   ["yet", "ya (preguntas) / todavía (negativas), al final", "Have you finished yet? / Not yet."]
-  ]},
-  {"tipo": "texto", "texto": "Si se dice cuándo ocurrió (yesterday, last week, in 2019, ago) se usa past simple: I saw that film last year. Con since va un punto de partida (since Monday) y con for una duración (for three days)."},
-  {"tipo": "texto", "texto": "Been y gone: She has been to Paris (fue y volvió) frente a She has gone to Paris (está allí ahora)."}
+  {
+   "tipo": "tabla",
+   "cabecera": [
+    "Tipo de frase",
+    "Estructura",
+    "Ejemplo"
+   ],
+   "filas": [
+    [
+     "Afirmativa",
+     "sujeto + have / has + participio",
+     "She has finished."
+    ],
+    [
+     "Negativa",
+     "sujeto + haven't / hasn't + participio",
+     "I haven't eaten."
+    ],
+    [
+     "Pregunta",
+     "Have / Has + sujeto + participio?",
+     "Have you seen it?"
+    ]
+   ]
+  },
+  {
+   "tipo": "lista",
+   "items": [
+    "Experiencia (en la vida, sin fecha): I've been to Japan twice.",
+    "Acción reciente con resultado ahora: I've lost my keys (y no las tengo).",
+    "Situación que empezó en el pasado y sigue: We've lived here for ten years / since 2016."
+   ]
+  },
+  {
+   "tipo": "tabla",
+   "cabecera": [
+    "Palabra",
+    "Uso",
+    "Ejemplo"
+   ],
+   "filas": [
+    [
+     "ever",
+     "¿alguna vez? (preguntas)",
+     "Have you ever tried sushi?"
+    ],
+    [
+     "never",
+     "nunca (frase afirmativa en forma)",
+     "I've never driven a truck."
+    ],
+    [
+     "just",
+     "acabar de (entre have y participio)",
+     "He's just left."
+    ],
+    [
+     "already",
+     "ya (antes de lo esperado)",
+     "I've already paid."
+    ],
+    [
+     "yet",
+     "ya (preguntas) / todavía (negativas), al final",
+     "Have you finished yet? / Not yet."
+    ]
+   ]
+  },
+  {
+   "tipo": "texto",
+   "texto": "Si se dice cuándo ocurrió (yesterday, last week, in 2019, ago) se usa past simple: I saw that film last year. Con since va un punto de partida (since Monday) y con for una duración (for three days)."
+  },
+  {
+   "tipo": "texto",
+   "texto": "Been y gone: She has been to Paris (fue y volvió) frente a She has gone to Paris (está allí ahora)."
+  }
  ],
  "ejemplos": [
-  {"frase": "I have lived here since 2015.", "traduccion": "Vivo aquí desde 2015."},
-  {"frase": "Have you ever eaten octopus?", "traduccion": "¿Has comido pulpo alguna vez?"},
-  {"frase": "We've just arrived.", "traduccion": "Acabamos de llegar."},
-  {"frase": "She hasn't replied to my email yet.", "traduccion": "Todavía no ha contestado a mi correo."},
-  {"frase": "I've already seen this episode.", "traduccion": "Ya he visto este episodio."},
-  {"frase": "They've known each other for twenty years.", "traduccion": "Se conocen desde hace veinte años."}
+  {
+   "frase": "I have lived here since 2015.",
+   "traduccion": "Vivo aquí desde 2015."
+  },
+  {
+   "frase": "Have you ever eaten octopus?",
+   "traduccion": "¿Has comido pulpo alguna vez?"
+  },
+  {
+   "frase": "We've just arrived.",
+   "traduccion": "Acabamos de llegar."
+  },
+  {
+   "frase": "She hasn't replied to my email yet.",
+   "traduccion": "Todavía no ha contestado a mi correo."
+  },
+  {
+   "frase": "I've already seen this episode.",
+   "traduccion": "Ya he visto este episodio."
+  },
+  {
+   "frase": "They've known each other for twenty years.",
+   "traduccion": "Se conocen desde hace veinte años."
+  }
  ],
  "errores_hispanohablantes": [
-  {"mal": "I live here since 2015.", "bien": "I have lived here since 2015.", "nota": "Con since/for, para algo que sigue, se usa present perfect, no presente."},
-  {"mal": "I have visited London last year.", "bien": "I visited London last year.", "nota": "Con un tiempo pasado terminado se usa past simple."},
-  {"mal": "Have you finished yet the report?", "bien": "Have you finished the report yet?", "nota": "Yet va al final de la frase."},
-  {"mal": "I haven't never seen snow.", "bien": "I have never seen snow.", "nota": "En inglés no hay doble negación."}
+  {
+   "mal": "I live here since 2015.",
+   "bien": "I have lived here since 2015.",
+   "nota": "Con since/for, para algo que sigue, se usa present perfect, no presente."
+  },
+  {
+   "mal": "I have visited London last year.",
+   "bien": "I visited London last year.",
+   "nota": "Con un tiempo pasado terminado se usa past simple."
+  },
+  {
+   "mal": "Have you finished yet the report?",
+   "bien": "Have you finished the report yet?",
+   "nota": "Yet va al final de la frase."
+  },
+  {
+   "mal": "I haven't never seen snow.",
+   "bien": "I have never seen snow.",
+   "nota": "En inglés no hay doble negación."
+  }
  ],
  "ejercicios": [
-  {"id": "e01", "tipo": "hueco", "enunciado": "Completa con el verbo en present perfect.", "frase": "She ___ (live) in Paris since 2019.", "respuestas": ["has lived", "'s lived"], "explicacion": "Situación que sigue con since: has + participio."},
-  {"id": "e02", "tipo": "hueco", "enunciado": "Completa con el verbo en present perfect.", "frase": "I ___ (never / ride) a horse.", "respuestas": ["have never ridden", "'ve never ridden"], "explicacion": "Experiencia: have never + participio (ride → ridden)."},
-  {"id": "e03", "tipo": "hueco", "enunciado": "Completa con since o for.", "frase": "We have worked together ___ six months.", "respuestas": ["for"], "explicacion": "For + duración."},
-  {"id": "e04", "tipo": "hueco", "enunciado": "Completa con just, already o yet.", "frase": "Have you booked the hotel ___?", "respuestas": ["yet", "already"], "explicacion": "En preguntas, al final de la frase, lo normal es yet; already también es posible si sorprende que ya esté hecho."},
-  {"id": "e05", "tipo": "hueco", "enunciado": "Completa con el verbo en present perfect.", "frase": "Oh no! Someone ___ (take) my bike.", "respuestas": ["has taken", "'s taken"], "explicacion": "Acción reciente con resultado presente: has + participio."},
-  {"id": "e06", "tipo": "eleccion", "enunciado": "Elige la opción correcta.", "frase": "I ___ him yesterday.", "opciones": ["have seen", "saw", "see"], "respuestas": ["saw"], "explicacion": "Yesterday indica tiempo terminado: past simple."},
-  {"id": "e07", "tipo": "eleccion", "enunciado": "Elige la opción correcta.", "frase": "___ you ever been to Ireland?", "opciones": ["Did", "Have", "Are"], "respuestas": ["Have"], "explicacion": "Experiencia con ever: Have + sujeto + participio."},
-  {"id": "e08", "tipo": "eleccion", "enunciado": "Elige la opción correcta.", "frase": "Mark isn't here. He has ___ to the bank.", "opciones": ["been", "gone", "went"], "respuestas": ["gone"], "explicacion": "Ha ido y todavía está allí: gone."},
-  {"id": "e09", "tipo": "eleccion", "enunciado": "Elige la opción correcta.", "frase": "I've known Lucía ___ we were at school.", "opciones": ["for", "since", "ago"], "respuestas": ["since"], "explicacion": "Since + punto de partida."},
-  {"id": "e10", "tipo": "transformar", "enunciado": "Convierte la frase en pregunta.", "frase": "They have finished the project.", "respuestas": ["Have they finished the project?"], "explicacion": "Se invierte have y el sujeto."},
-  {"id": "e11", "tipo": "corregir", "enunciado": "Corrige el error.", "frase": "I know her since 2010.", "respuestas": ["I have known her since 2010.", "I've known her since 2010."], "explicacion": "Situación que continúa con since: present perfect."},
-  {"id": "e12", "tipo": "corregir", "enunciado": "Corrige el error.", "frase": "Have you went to the new museum?", "respuestas": ["Have you been to the new museum?", "Have you gone to the new museum?"], "explicacion": "Hace falta el participio (been / gone), no el pasado went."},
-  {"id": "e13", "tipo": "corregir", "enunciado": "Corrige el error.", "frase": "She has bought a car two weeks ago.", "respuestas": ["She bought a car two weeks ago."], "explicacion": "Con ago se usa past simple."},
-  {"id": "e14", "tipo": "ordenar", "enunciado": "Ordena las palabras.", "palabras": ["never", "I", "have", "been", "to", "Japan"], "respuestas": ["I have never been to Japan"], "explicacion": "Never va entre have y el participio."},
-  {"id": "e15", "tipo": "ordenar", "enunciado": "Ordena las palabras.", "palabras": ["just", "has", "the", "started", "film"], "respuestas": ["The film has just started", "Has the film just started"], "explicacion": "Just va entre has y el participio."}
+  {
+   "id": "e01",
+   "tipo": "hueco",
+   "enunciado": "Completa con el verbo en present perfect.",
+   "frase": "She ___ (live) in Paris since 2019.",
+   "respuestas": [
+    "has lived",
+    "'s lived"
+   ],
+   "explicacion": "Se aplica el tercer uso de la ficha: una situación que empezó en el pasado y sigue ahora va en present perfect. La pista es since 2019, que marca el punto de partida. El sujeto she pide has, y el participio de live es lived. Por eso la respuesta es has lived ('s lived). En español decimos «vive desde», en presente, pero el inglés no admite She lives here since 2019.",
+   "explicacion_breve": "Situación que sigue con since: has + participio.",
+   "traduccion": "Ella vive en París desde 2019.",
+   "errores_previstos": [
+    {
+     "respuesta": "lives",
+     "explicacion": "Calco del presente español: con since para una situación que continúa hace falta has lived."
+    },
+    {
+     "respuesta": "have lived",
+     "explicacion": "Con she, tercera persona del singular, el auxiliar es has."
+    },
+    {
+     "respuesta": "lived",
+     "explicacion": "El past simple presenta algo terminado; aquí la situación sigue: has lived."
+    }
+   ]
+  },
+  {
+   "id": "e02",
+   "tipo": "hueco",
+   "enunciado": "Completa con el verbo en present perfect.",
+   "frase": "I ___ (never / ride) a horse.",
+   "respuestas": [
+    "have never ridden",
+    "'ve never ridden"
+   ],
+   "explicacion": "Es el uso de experiencia de la ficha: algo que (no) ha ocurrido en tu vida, sin decir cuándo. La tabla indica que never va entre have y el participio. El sujeto I pide have, y ride es irregular: ride, rode, ridden. Así queda have never ridden o 've never ridden. Ojo a no usar rode, que es el pasado simple, no el participio.",
+   "explicacion_breve": "Experiencia: have never + participio (ride → ridden).",
+   "traduccion": "Nunca he montado a caballo.",
+   "errores_previstos": [
+    {
+     "respuesta": "have never rode",
+     "explicacion": "Rode es el pasado simple; el present perfect necesita el participio ridden."
+    },
+    {
+     "respuesta": "never have ridden",
+     "explicacion": "En una frase neutra never va entre have y el participio: have never ridden."
+    },
+    {
+     "respuesta": "have never ride",
+     "explicacion": "Tras have va el participio, no la forma base: ridden."
+    }
+   ]
+  },
+  {
+   "id": "e03",
+   "tipo": "hueco",
+   "enunciado": "Completa con since o for.",
+   "frase": "We have worked together ___ six months.",
+   "respuestas": [
+    "for"
+   ],
+   "explicacion": "La ficha explica que for va con una duración (cuánto tiempo) y since con un punto de partida (desde cuándo). Six months es una duración, así que va for. Si dijéramos since, necesitaríamos una fecha o un momento: since March. La frase en su conjunto es un present perfect de situación que continúa.",
+   "explicacion_breve": "For + duración.",
+   "traduccion": "Llevamos seis meses trabajando juntos.",
+   "errores_previstos": [
+    {
+     "respuesta": "since",
+     "explicacion": "Since necesita un punto de partida (since March); six months es una duración y pide for."
+    },
+    {
+     "respuesta": "during",
+     "explicacion": "During indica cuándo ocurre algo dentro de un periodo, no cuánto dura hasta ahora; aquí va for."
+    },
+    {
+     "respuesta": "from",
+     "explicacion": "Calco de «desde hace»: en inglés la duración hasta hoy se expresa con for."
+    }
+   ]
+  },
+  {
+   "id": "e04",
+   "tipo": "hueco",
+   "enunciado": "Completa con just, already o yet.",
+   "frase": "Have you booked the hotel ___?",
+   "respuestas": [
+    "yet",
+    "already"
+   ],
+   "explicacion": "La tabla de la ficha recoge que yet significa «ya» en preguntas y «todavía» en negativas, y va al final de la frase. Por eso lo normal aquí es yet. La ficha admite también already: en una pregunta expresa sorpresa porque algo parece hecho antes de lo esperado («¿ya lo has reservado?»). Just no encaja, porque significaría «acabas de», y en preguntas suele ir entre have y el participio.",
+   "explicacion_breve": "En preguntas, al final de la frase, lo normal es yet; already también es posible si sorprende que ya esté hecho.",
+   "traduccion": "¿Has reservado ya el hotel?",
+   "errores_previstos": [
+    {
+     "respuesta": "just",
+     "explicacion": "Just significa «acabar de» y va entre have y el participio; no encaja al final de esta pregunta."
+    },
+    {
+     "respuesta": "still",
+     "explicacion": "Still («todavía») no se usa así al final de una pregunta en present perfect; aquí va yet."
+    }
+   ]
+  },
+  {
+   "id": "e05",
+   "tipo": "hueco",
+   "enunciado": "Completa con el verbo en present perfect.",
+   "frase": "Oh no! Someone ___ (take) my bike.",
+   "respuestas": [
+    "has taken",
+    "'s taken"
+   ],
+   "explicacion": "Se aplica el segundo uso de la ficha: una acción reciente cuyo resultado se nota ahora (la bici no está). La pista es la reacción Oh no!, que muestra que lo importante es la consecuencia presente, no cuándo ocurrió. Someone es singular y pide has; take es irregular: take, took, taken. La respuesta es has taken o 's taken.",
+   "explicacion_breve": "Acción reciente con resultado presente: has + participio.",
+   "traduccion": "¡Oh, no! Alguien se ha llevado mi bici.",
+   "errores_previstos": [
+    {
+     "respuesta": "has took",
+     "explicacion": "Took es el pasado simple; el participio de take es taken."
+    },
+    {
+     "respuesta": "have taken",
+     "explicacion": "Someone es tercera persona del singular: has taken."
+    },
+    {
+     "respuesta": "took",
+     "explicacion": "Sin momento concreto y con resultado presente, lo natural en inglés británico es has taken (en inglés americano se oye took, pero la ficha pide present perfect)."
+    }
+   ]
+  },
+  {
+   "id": "e06",
+   "tipo": "eleccion",
+   "enunciado": "Elige la opción correcta.",
+   "frase": "I ___ him yesterday.",
+   "opciones": [
+    "have seen",
+    "saw",
+    "see"
+   ],
+   "respuestas": [
+    "saw"
+   ],
+   "explicacion": "La ficha es clara: si se dice cuándo ocurrió con una expresión de tiempo terminado (yesterday, last week, ago), se usa past simple. Yesterday es esa pista, por lo que la respuesta es saw, pasado de see. En español peninsular a veces se oye «lo he visto ayer», pero en inglés I have seen him yesterday es siempre incorrecto.",
+   "explicacion_breve": "Yesterday indica tiempo terminado: past simple.",
+   "traduccion": "Lo vi ayer.",
+   "por_opcion": {
+    "have seen": "Incorrecta: el present perfect no puede ir con un momento terminado como yesterday.",
+    "saw": "Correcta: past simple de see, obligatorio con yesterday.",
+    "see": "Es presente; no corresponde a una acción de ayer."
+   }
+  },
+  {
+   "id": "e07",
+   "tipo": "eleccion",
+   "enunciado": "Elige la opción correcta.",
+   "frase": "___ you ever been to Ireland?",
+   "opciones": [
+    "Did",
+    "Have",
+    "Are"
+   ],
+   "respuestas": [
+    "Have"
+   ],
+   "explicacion": "Es el uso de experiencia de la ficha, con ever («alguna vez») en la pregunta. La pista es el participio been, que solo puede ir con have/has. La pregunta se forma con Have + sujeto + participio: Have you ever been…?. Been to significa «haber estado en (un lugar) y haber vuelto».",
+   "explicacion_breve": "Experiencia con ever: Have + sujeto + participio.",
+   "traduccion": "¿Has estado alguna vez en Irlanda?",
+   "por_opcion": {
+    "Did": "Did forma preguntas en past simple y va seguido de la forma base (Did you go?), nunca de un participio como been.",
+    "Have": "Correcta: Have + you + ever + been forma la pregunta de experiencia en present perfect.",
+    "Are": "Are no forma tiempos con el participio been en preguntas de este tipo; Are you ever been es agramatical."
+   }
+  },
+  {
+   "id": "e08",
+   "tipo": "eleccion",
+   "enunciado": "Elige la opción correcta.",
+   "frase": "Mark isn't here. He has ___ to the bank.",
+   "opciones": [
+    "been",
+    "gone",
+    "went"
+   ],
+   "respuestas": [
+    "gone"
+   ],
+   "explicacion": "La ficha distingue been y gone: has been to = fue y ya volvió; has gone to = se ha ido y todavía está allí. La pista es Mark isn't here: si no está, es que sigue en el banco, así que va gone. Went no sirve porque es el pasado simple y tras has hace falta el participio.",
+   "explicacion_breve": "Ha ido y todavía está allí: gone.",
+   "traduccion": "Mark no está aquí. Ha ido al banco.",
+   "por_opcion": {
+    "been": "Has been to the bank significaría que fue y ya volvió; no encaja con que Mark no esté aquí.",
+    "gone": "Correcta: has gone to indica que se ha ido y todavía está allí.",
+    "went": "Went es pasado simple; después de has se necesita un participio."
+   }
+  },
+  {
+   "id": "e09",
+   "tipo": "eleccion",
+   "enunciado": "Elige la opción correcta.",
+   "frase": "I've known Lucía ___ we were at school.",
+   "opciones": [
+    "for",
+    "since",
+    "ago"
+   ],
+   "respuestas": [
+    "since"
+   ],
+   "explicacion": "Se aplica la regla de since y for de la ficha: since va con un punto de partida y for con una duración. Aquí el punto de partida es una oración, we were at school, que marca cuándo empezó la relación. Por eso va since. Ago no puede usarse con present perfect y además va detrás de una cantidad de tiempo (ten years ago).",
+   "explicacion_breve": "Since + punto de partida.",
+   "traduccion": "Conozco a Lucía desde que íbamos al colegio.",
+   "por_opcion": {
+    "for": "For va con duraciones (for ten years), no con un momento de inicio como we were at school.",
+    "since": "Correcta: since introduce el punto de partida de una situación que continúa.",
+    "ago": "Ago va detrás de un periodo (two years ago) y pide past simple, no present perfect."
+   }
+  },
+  {
+   "id": "e10",
+   "tipo": "transformar",
+   "enunciado": "Convierte la frase en pregunta.",
+   "frase": "They have finished the project.",
+   "respuestas": [
+    "Have they finished the project?"
+   ],
+   "explicacion": "Según la tabla de la ficha, la pregunta en present perfect se forma con Have/Has + sujeto + participio. Basta con invertir have y they; el participio finished no cambia. No se añade do, porque el present perfect ya tiene su auxiliar (have). Resultado: Have they finished the project?.",
+   "explicacion_breve": "Se invierte have y el sujeto.",
+   "traduccion": "¿Han terminado el proyecto?",
+   "errores_previstos": [
+    {
+     "respuesta": "Do they have finished the project?",
+     "explicacion": "No se usa do: el auxiliar have pasa delante del sujeto."
+    },
+    {
+     "respuesta": "They have finished the project?",
+     "explicacion": "Falta la inversión: Have they finished…?"
+    },
+    {
+     "respuesta": "Have they finish the project?",
+     "explicacion": "Tras have va el participio finished, no la forma base."
+    }
+   ]
+  },
+  {
+   "id": "e11",
+   "tipo": "corregir",
+   "enunciado": "Corrige el error.",
+   "frase": "I know her since 2010.",
+   "respuestas": [
+    "I have known her since 2010.",
+    "I've known her since 2010."
+   ],
+   "explicacion": "Es el error clásico que señala la ficha: para una situación que empezó en el pasado y continúa, con since, el inglés usa present perfect, no presente. En español decimos «la conozco desde 2010», pero en inglés es I have known her since 2010 (o I've known). Know es un verbo de estado, por eso va en present perfect simple y no en continuo.",
+   "explicacion_breve": "Situación que continúa con since: present perfect.",
+   "traduccion": "La conozco desde 2010.",
+   "errores_previstos": [
+    {
+     "respuesta": "I know her since 2010.",
+     "explicacion": "Es la frase sin corregir: con since para algo que continúa hace falta have known."
+    },
+    {
+     "respuesta": "I have know her since 2010.",
+     "explicacion": "Tras have va el participio known, no la forma base."
+    },
+    {
+     "respuesta": "I knew her since 2010.",
+     "explicacion": "El past simple presenta la relación como terminada; aquí sigue: have known."
+    }
+   ]
+  },
+  {
+   "id": "e12",
+   "tipo": "corregir",
+   "enunciado": "Corrige el error.",
+   "frase": "Have you went to the new museum?",
+   "respuestas": [
+    "Have you been to the new museum?"
+   ],
+   "explicacion": "La regla de la ficha dice que el present perfect se forma con have + participio, no con el pasado simple. Went es el pasado de go; su participio es gone, pero para la experiencia de haber visitado un lugar se usa been (fue y volvió). La respuesta es Have you been to the new museum?",
+   "explicacion_breve": "Hace falta el participio been (haber estado y vuelto), no el pasado went.",
+   "traduccion": "¿Has estado en el museo nuevo?",
+   "errores_previstos": [
+    {
+     "respuesta": "Have you went to the new museum?",
+     "explicacion": "Es la frase sin corregir: went es pasado simple y no puede ir tras have."
+    },
+    {
+     "respuesta": "Have you go to the new museum?",
+     "explicacion": "Tras have va el participio (been o gone), no la forma base."
+    },
+    {
+     "respuesta": "Did you went to the new museum?",
+     "explicacion": "Tras did va la forma base (go), y para una experiencia sin fecha lo natural es have been."
+    },
+    {
+     "respuesta": "Have you gone to the new museum?",
+     "explicacion": "Have gone significa que alguien se ha ido y sigue allí; preguntado a quien tienes delante no tiene sentido. Para la experiencia de visitar un lugar se usa been."
+    }
+   ]
+  },
+  {
+   "id": "e13",
+   "tipo": "corregir",
+   "enunciado": "Corrige el error.",
+   "frase": "She has bought a car two weeks ago.",
+   "respuestas": [
+    "She bought a car two weeks ago."
+   ],
+   "explicacion": "La ficha establece que con expresiones de tiempo terminado, y ago es una de ellas, se usa past simple. Two weeks ago fija un momento concreto en el pasado, así que hay que quitar has y poner el pasado de buy: bought. El participio y el pasado coinciden (bought), pero sin has la forma pasa a ser past simple.",
+   "explicacion_breve": "Con ago se usa past simple.",
+   "traduccion": "Ella se compró un coche hace dos semanas.",
+   "errores_previstos": [
+    {
+     "respuesta": "She has bought a car two weeks ago.",
+     "explicacion": "Es la frase sin corregir: ago pide past simple."
+    },
+    {
+     "respuesta": "She buyed a car two weeks ago.",
+     "explicacion": "Buy es irregular: su pasado es bought."
+    },
+    {
+     "respuesta": "She has bought a car since two weeks.",
+     "explicacion": "Since necesita un punto de partida, y comprar es puntual; con ago va bought."
+    }
+   ]
+  },
+  {
+   "id": "e14",
+   "tipo": "ordenar",
+   "enunciado": "Ordena las palabras.",
+   "palabras": [
+    "never",
+    "I",
+    "have",
+    "been",
+    "to",
+    "Japan"
+   ],
+   "respuestas": [
+    "I have never been to Japan"
+   ],
+   "explicacion": "Es el uso de experiencia, y la tabla de la ficha indica que never va entre have y el participio. El orden queda: sujeto (I) + have + never + been + to Japan. Been to es la forma de decir que se ha visitado un lugar. El calco del español «nunca he estado» llevaría never al principio, lo cual en inglés solo se hace con inversión enfática.",
+   "explicacion_breve": "Never va entre have y el participio.",
+   "traduccion": "Nunca he estado en Japón.",
+   "errores_previstos": [
+    {
+     "respuesta": "Never I have been to Japan",
+     "explicacion": "Calco de «Nunca he estado»: never va entre have y el participio."
+    },
+    {
+     "respuesta": "I have been never to Japan",
+     "explicacion": "Never no va detrás del participio, sino antes: have never been."
+    }
+   ]
+  },
+  {
+   "id": "e15",
+   "tipo": "ordenar",
+   "enunciado": "Ordena las palabras.",
+   "palabras": [
+    "just",
+    "has",
+    "the",
+    "started",
+    "film"
+   ],
+   "respuestas": [
+    "The film has just started",
+    "Has the film just started"
+   ],
+   "explicacion": "La ficha explica que just significa «acabar de» y se coloca entre has y el participio. El sujeto es the film, en tercera persona, por lo que va has: The film has just started. Como las palabras no llevan puntuación, también vale la pregunta con inversión, Has the film just started. En ningún caso just va al final ni al principio.",
+   "explicacion_breve": "Just va entre has y el participio.",
+   "traduccion": "La película acaba de empezar. (También: ¿Acaba de empezar la película?)",
+   "errores_previstos": [
+    {
+     "respuesta": "The film just has started",
+     "explicacion": "Just va entre has y el participio: has just started."
+    },
+    {
+     "respuesta": "The film has started just",
+     "explicacion": "Just no va al final; su lugar es entre has y started."
+    }
+   ]
+  }
  ],
- "fuente": {"nombre": "propia"}
+ "fuente": {
+  "nombre": "propia"
+ },
+ "descripcion_larga_es": "El present perfect (have/has + participio) une el pasado con el presente: experiencias sin fecha, acciones recientes con efecto actual y situaciones que siguen hasta hoy. Se parece al pretérito perfecto español, pero no coincide: con una fecha terminada (yesterday, ago) el inglés exige past simple, y para «llevo diez años aquí» usa present perfect, no presente. Ahí fallan casi todos los hispanohablantes.",
+ "contexto": {
+  "que_es": "Es un tiempo compuesto por have o has y el participio pasado del verbo: She has finished, I've seen it. Presenta un hecho pasado desde el punto de vista del presente, sin situarlo en un momento terminado.",
+  "por_que_importa": "Es uno de los tiempos más usados para hablar de experiencia, de noticias recientes y de duración, por ejemplo al presentarse en una entrevista (I've worked in trade policy for five years). Confundirlo con el past simple o con el presente produce errores muy visibles: I know her since 2010 o I have seen him yesterday suenan claramente a extranjero. En los exámenes es un punto clásico de evaluación.",
+  "cuando_se_usa": "Lo piden ever, never, just, already, yet, since y for, y preguntas como How long…?. Se evita con expresiones de tiempo terminado (yesterday, last week, in 2019, ago), que piden past simple. El hispanohablante tiende a usar el presente para lo que continúa («vivo aquí desde 2016» → I live here since 2016) y el present perfect con fechas, por calco del «he visto» peninsular."
+ }
 }

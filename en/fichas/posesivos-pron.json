@@ -6,49 +6,523 @@
  "nivel": "A2",
  "resumen": "Los pronombres posesivos (mine, yours, hers...) sustituyen a «posesivo + sustantivo» y van solos, sin sustantivo detrás. Para preguntar de quién es algo se usa whose.",
  "explicacion": [
-  {"tipo": "tabla", "cabecera": ["Pronombre sujeto", "Determinante (+ sustantivo)", "Pronombre posesivo (solo)"], "filas": [
-   ["I", "my book", "mine"], ["you", "your book", "yours"], ["he", "his book", "his"],
-   ["she", "her book", "hers"], ["we", "our book", "ours"], ["they", "their book", "theirs"]
-  ]},
-  {"tipo": "texto", "texto": "El determinante va delante de un sustantivo (This is my bag); el pronombre lo sustituye (This bag is mine). En español equivale a «mi» frente a «(el) mío». En inglés nunca se pone the delante: the mine es incorrecto."},
-  {"tipo": "lista", "items": [
-   "Los posesivos no cambian según el género o el número de lo poseído: my brother, my sisters; it's mine, they're mine.",
-   "Sí cambian según el poseedor: his (de él), hers (de ella), theirs (de ellos/ellas).",
-   "Hers, ours, yours y theirs no llevan apóstrofo.",
-   "Its existe como determinante (its tail) pero casi nunca se usa como pronombre."
-  ]},
-  {"tipo": "texto", "texto": "Whose = ¿de quién? Puede ir con sustantivo (Whose car is this?) o solo (Whose is this?). No confundir con who's (= who is)."},
-  {"tipo": "texto", "texto": "Expresión útil: a friend of mine = un amigo mío; a cousin of hers = un primo suyo (de ella)."}
+  {
+   "tipo": "tabla",
+   "cabecera": [
+    "Pronombre sujeto",
+    "Determinante (+ sustantivo)",
+    "Pronombre posesivo (solo)"
+   ],
+   "filas": [
+    [
+     "I",
+     "my book",
+     "mine"
+    ],
+    [
+     "you",
+     "your book",
+     "yours"
+    ],
+    [
+     "he",
+     "his book",
+     "his"
+    ],
+    [
+     "she",
+     "her book",
+     "hers"
+    ],
+    [
+     "we",
+     "our book",
+     "ours"
+    ],
+    [
+     "they",
+     "their book",
+     "theirs"
+    ]
+   ]
+  },
+  {
+   "tipo": "texto",
+   "texto": "El determinante va delante de un sustantivo (This is my bag); el pronombre lo sustituye (This bag is mine). En español equivale a «mi» frente a «(el) mío». En inglés nunca se pone the delante: the mine es incorrecto."
+  },
+  {
+   "tipo": "lista",
+   "items": [
+    "Los posesivos no cambian según el género o el número de lo poseído: my brother, my sisters; it's mine, they're mine.",
+    "Sí cambian según el poseedor: his (de él), hers (de ella), theirs (de ellos/ellas).",
+    "Hers, ours, yours y theirs no llevan apóstrofo.",
+    "Its existe como determinante (its tail) pero casi nunca se usa como pronombre."
+   ]
+  },
+  {
+   "tipo": "texto",
+   "texto": "Whose = ¿de quién? Puede ir con sustantivo (Whose car is this?) o solo (Whose is this?). No confundir con who's (= who is)."
+  },
+  {
+   "tipo": "texto",
+   "texto": "Expresión útil: a friend of mine = un amigo mío; a cousin of hers = un primo suyo (de ella)."
+  }
  ],
  "ejemplos": [
-  {"frase": "Is this umbrella yours?", "traduccion": "¿Es tuyo este paraguas?"},
-  {"frase": "Their garden is bigger than ours.", "traduccion": "Su jardín es más grande que el nuestro."},
-  {"frase": "Whose keys are these?", "traduccion": "¿De quién son estas llaves?"},
-  {"frase": "That's not my phone. Mine is black.", "traduccion": "Ese no es mi móvil. El mío es negro."},
-  {"frase": "A friend of mine works in Brussels.", "traduccion": "Un amigo mío trabaja en Bruselas."}
+  {
+   "frase": "Is this umbrella yours?",
+   "traduccion": "¿Es tuyo este paraguas?"
+  },
+  {
+   "frase": "Their garden is bigger than ours.",
+   "traduccion": "Su jardín es más grande que el nuestro."
+  },
+  {
+   "frase": "Whose keys are these?",
+   "traduccion": "¿De quién son estas llaves?"
+  },
+  {
+   "frase": "That's not my phone. Mine is black.",
+   "traduccion": "Ese no es mi móvil. El mío es negro."
+  },
+  {
+   "frase": "A friend of mine works in Brussels.",
+   "traduccion": "Un amigo mío trabaja en Bruselas."
+  }
  ],
  "errores_hispanohablantes": [
-  {"mal": "This coat is the mine.", "bien": "This coat is mine.", "nota": "Los pronombres posesivos no llevan the."},
-  {"mal": "Maria lost his passport.", "bien": "Maria lost her passport.", "nota": "El posesivo concuerda con el poseedor (Maria → her), no con lo poseído."},
-  {"mal": "Who's bag is this?", "bien": "Whose bag is this?", "nota": "Who's = who is; ¿de quién? es whose."},
-  {"mal": "These seats are your's.", "bien": "These seats are yours.", "nota": "Yours no lleva apóstrofo."}
+  {
+   "mal": "This coat is the mine.",
+   "bien": "This coat is mine.",
+   "nota": "Los pronombres posesivos no llevan the."
+  },
+  {
+   "mal": "Maria lost his passport.",
+   "bien": "Maria lost her passport.",
+   "nota": "El posesivo concuerda con el poseedor (Maria → her), no con lo poseído."
+  },
+  {
+   "mal": "Who's bag is this?",
+   "bien": "Whose bag is this?",
+   "nota": "Who's = who is; ¿de quién? es whose."
+  },
+  {
+   "mal": "These seats are your's.",
+   "bien": "These seats are yours.",
+   "nota": "Yours no lleva apóstrofo."
+  }
  ],
  "ejercicios": [
-  {"id": "e01", "tipo": "hueco", "enunciado": "Completa con el pronombre posesivo.", "frase": "That bike belongs to Peter. It's ___.", "respuestas": ["his"], "explicacion": "Poseedor masculino singular: his."},
-  {"id": "e02", "tipo": "hueco", "enunciado": "Completa con el pronombre posesivo.", "frase": "This is our car, not ___ (they).", "respuestas": ["theirs"], "explicacion": "Pronombre posesivo de they: theirs."},
-  {"id": "e03", "tipo": "hueco", "enunciado": "Completa con el pronombre posesivo.", "frase": "Lucy, is this jacket ___?", "respuestas": ["yours"], "explicacion": "Se pregunta a Lucy (you): yours."},
-  {"id": "e04", "tipo": "hueco", "enunciado": "Completa con el pronombre posesivo.", "frase": "We can't use your printer because ___ is broken. (we)", "respuestas": ["ours"], "explicacion": "Pronombre posesivo de we: ours."},
-  {"id": "e05", "tipo": "hueco", "enunciado": "Completa con whose o who's.", "frase": "___ shoes are these?", "respuestas": ["Whose"], "explicacion": "¿De quién? = whose."},
-  {"id": "e06", "tipo": "eleccion", "enunciado": "Elige la opción correcta.", "frase": "Anna says the blue suitcase is ___.", "opciones": ["her", "hers", "her's"], "respuestas": ["hers"], "explicacion": "Va solo, sin sustantivo: hers."},
-  {"id": "e07", "tipo": "eleccion", "enunciado": "Elige la opción correcta.", "frase": "I forgot my pen. Can I borrow ___?", "opciones": ["your", "yours", "the yours"], "respuestas": ["yours"], "explicacion": "Sustituye a your pen: yours."},
-  {"id": "e08", "tipo": "eleccion", "enunciado": "Elige la opción correcta.", "frase": "Carlos is a colleague of ___.", "opciones": ["me", "my", "mine"], "respuestas": ["mine"], "explicacion": "Estructura a colleague of mine."},
-  {"id": "e09", "tipo": "eleccion", "enunciado": "Elige la opción correcta.", "frase": "The children are playing with ___ toys.", "opciones": ["theirs", "their", "they"], "respuestas": ["their"], "explicacion": "Va delante de un sustantivo: determinante their."},
-  {"id": "e10", "tipo": "transformar", "enunciado": "Reescribe la frase con un pronombre posesivo.", "frase": "This is my seat.", "respuestas": ["This seat is mine."], "explicacion": "My seat → mine, al final y sin sustantivo."},
-  {"id": "e11", "tipo": "transformar", "enunciado": "Haz la pregunta con whose para averiguar el dueño.", "frase": "This is somebody's phone.", "respuestas": ["Whose phone is this?", "Whose is this phone?", "Whose is this?"], "explicacion": "Whose (+ sustantivo) + is this?"},
-  {"id": "e12", "tipo": "corregir", "enunciado": "Corrige el error.", "frase": "Those books aren't the ours.", "respuestas": ["Those books aren't ours.", "Those books are not ours."], "explicacion": "Sin the delante del pronombre posesivo."},
-  {"id": "e13", "tipo": "corregir", "enunciado": "Corrige el error.", "frase": "My sister lives with his husband in Bilbao.", "respuestas": ["My sister lives with her husband in Bilbao."], "explicacion": "Poseedora femenina: her."},
-  {"id": "e14", "tipo": "ordenar", "enunciado": "Ordena las palabras para formar una pregunta.", "palabras": ["is", "this", "whose", "coat"], "respuestas": ["Whose coat is this", "Whose is this coat"], "explicacion": "Whose + sustantivo + is this."},
-  {"id": "e15", "tipo": "ordenar", "enunciado": "Ordena las palabras.", "palabras": ["the", "is", "mine", "one", "red"], "respuestas": ["The red one is mine", "Mine is the red one"], "explicacion": "El pronombre posesivo va sin sustantivo."}
+  {
+   "id": "e01",
+   "tipo": "hueco",
+   "enunciado": "Completa con el pronombre posesivo.",
+   "frase": "That bike belongs to Peter. It's ___.",
+   "respuestas": [
+    "his"
+   ],
+   "explicacion": "Se aplica la columna de pronombres posesivos de la tabla: he tiene como pronombre his, que en este caso coincide con el adjetivo. La pista es el poseedor, Peter (un hombre, he), y que el hueco va al final, sin sustantivo detrás. Por eso «es suya» se dice It's his. Recuerda que el pronombre concuerda con el poseedor, no con la bici.",
+   "explicacion_breve": "Poseedor masculino singular: his.",
+   "traduccion": "Esa bici es de Peter. Es suya.",
+   "errores_previstos": [
+    {
+     "respuesta": "her",
+     "explicacion": "Calco del género de «bici» («suya»): en inglés el posesivo depende del poseedor, Peter, que es masculino."
+    },
+    {
+     "respuesta": "him",
+     "explicacion": "Him es el pronombre objeto («a él»); para «suya» hace falta el posesivo his."
+    },
+    {
+     "respuesta": "his's",
+     "explicacion": "His ya funciona como pronombre posesivo y no lleva añadidos."
+    }
+   ]
+  },
+  {
+   "id": "e02",
+   "tipo": "hueco",
+   "enunciado": "Completa con el pronombre posesivo.",
+   "frase": "This is our car, not ___ (they).",
+   "respuestas": [
+    "theirs"
+   ],
+   "explicacion": "Se aplica la tabla de pronombres posesivos: they tiene como pronombre theirs. La pista es la indicación (they) y que el hueco va al final, sustituyendo a their car, que no se repite. Por eso es theirs, sin artículo delante (aunque en español digamos «el suyo») y sin apóstrofo.",
+   "explicacion_breve": "Pronombre posesivo de they: theirs.",
+   "traduccion": "Este es nuestro coche, no el suyo (de ellos).",
+   "errores_previstos": [
+    {
+     "respuesta": "their",
+     "explicacion": "Their es el adjetivo y necesita sustantivo detrás (their car); solo, va theirs."
+    },
+    {
+     "respuesta": "the theirs",
+     "explicacion": "Calco de «el suyo»: el pronombre posesivo inglés nunca lleva artículo."
+    },
+    {
+     "respuesta": "their's",
+     "explicacion": "Theirs no lleva apóstrofo."
+    }
+   ]
+  },
+  {
+   "id": "e03",
+   "tipo": "hueco",
+   "enunciado": "Completa con el pronombre posesivo.",
+   "frase": "Lucy, is this jacket ___?",
+   "respuestas": [
+    "yours"
+   ],
+   "explicacion": "Se aplica la tabla de pronombres posesivos: you tiene como pronombre yours. La pista es que se habla directamente a Lucy (el vocativo al principio), así que la poseedora es «tú», you; y que el hueco va al final, sin sustantivo. Por eso es yours. Aunque Lucy sea mujer, no se usa hers, porque se le está hablando a ella.",
+   "explicacion_breve": "Se pregunta a Lucy (you): yours.",
+   "traduccion": "Lucy, ¿esta chaqueta es tuya?",
+   "errores_previstos": [
+    {
+     "respuesta": "hers",
+     "explicacion": "Se habla a Lucy, no de Lucy: la segunda persona es yours."
+    },
+    {
+     "respuesta": "your",
+     "explicacion": "Your va con sustantivo (your jacket); al final de la frase hace falta yours."
+    },
+    {
+     "respuesta": "your's",
+     "explicacion": "Yours no lleva apóstrofo."
+    }
+   ]
+  },
+  {
+   "id": "e04",
+   "tipo": "hueco",
+   "enunciado": "Completa con el pronombre posesivo.",
+   "frase": "We can't use your printer because ___ is broken. (we)",
+   "respuestas": [
+    "ours"
+   ],
+   "explicacion": "Se aplica la tabla de pronombres posesivos: we tiene como pronombre ours. La pista es la indicación (we) y que el hueco va antes del verbo is, como sujeto, sustituyendo a our printer. Por eso es ours, sin artículo, a diferencia del español «la nuestra».",
+   "explicacion_breve": "Pronombre posesivo de we: ours.",
+   "traduccion": "No podemos usar tu impresora porque la nuestra está rota.",
+   "errores_previstos": [
+    {
+     "respuesta": "our",
+     "explicacion": "Our necesita sustantivo detrás (our printer); para sustituirlo, ours."
+    },
+    {
+     "respuesta": "the ours",
+     "explicacion": "Calco de «la nuestra»: el pronombre posesivo no lleva artículo."
+    },
+    {
+     "respuesta": "our's",
+     "explicacion": "Ours no lleva apóstrofo."
+    }
+   ]
+  },
+  {
+   "id": "e05",
+   "tipo": "hueco",
+   "enunciado": "Completa con whose o who's.",
+   "frase": "___ shoes are these?",
+   "respuestas": [
+    "Whose"
+   ],
+   "explicacion": "Se aplica la parte de la ficha sobre whose, que significa «¿de quién?». La pista es que detrás del hueco viene un sustantivo (shoes) y la frase pregunta por el dueño. Whose puede ir seguido de sustantivo, como aquí. Who's es la contracción de who is y no tendría sentido: «who is shoes are these» no es una frase.",
+   "explicacion_breve": "¿De quién? = whose.",
+   "traduccion": "¿De quién son estos zapatos?",
+   "errores_previstos": [
+    {
+     "respuesta": "Who's",
+     "explicacion": "Who's = who is; para preguntar «de quién» se usa whose, que suena igual pero se escribe distinto."
+    },
+    {
+     "respuesta": "Who",
+     "explicacion": "Who pregunta «quién»; para «de quién» hace falta whose."
+    },
+    {
+     "respuesta": "Of who",
+     "explicacion": "Calco de «¿de quién?»: en inglés se dice whose, sin preposición."
+    }
+   ]
+  },
+  {
+   "id": "e06",
+   "tipo": "eleccion",
+   "enunciado": "Elige la opción correcta.",
+   "frase": "Anna says the blue suitcase is ___.",
+   "opciones": [
+    "her",
+    "hers",
+    "her's"
+   ],
+   "respuestas": [
+    "hers"
+   ],
+   "explicacion": "Se aplica la diferencia entre el adjetivo her y el pronombre hers. La pista es que el hueco va al final, sin sustantivo detrás, y que la poseedora es Anna, una mujer. Por eso hace falta el pronombre femenino hers, que no lleva apóstrofo.",
+   "explicacion_breve": "Va solo, sin sustantivo: hers.",
+   "traduccion": "Anna dice que la maleta azul es suya.",
+   "por_opcion": {
+    "her": "Incorrecta: her es adjetivo (her suitcase) o pronombre objeto; al final de la frase, sustituyendo al sustantivo, va hers.",
+    "hers": "Correcta: pronombre posesivo de she, solo y sin apóstrofo.",
+    "her's": "Incorrecta: los pronombres posesivos no llevan apóstrofo."
+   }
+  },
+  {
+   "id": "e07",
+   "tipo": "eleccion",
+   "enunciado": "Elige la opción correcta.",
+   "frase": "I forgot my pen. Can I borrow ___?",
+   "opciones": [
+    "your",
+    "yours",
+    "the yours"
+   ],
+   "respuestas": [
+    "yours"
+   ],
+   "explicacion": "Se aplica la regla de que el pronombre posesivo sustituye a «posesivo + sustantivo» y nunca lleva artículo. La pista es que tras el hueco no hay sustantivo: pen ya se ha dicho en la frase anterior. Por eso your pen se convierte en yours. Borrow significa «tomar prestado»: Can I borrow yours? equivale a «¿me prestas el tuyo?».",
+   "explicacion_breve": "Sustituye a your pen: yours.",
+   "traduccion": "Se me ha olvidado el boli. ¿Me dejas el tuyo?",
+   "por_opcion": {
+    "your": "Incorrecta: your necesita un sustantivo detrás (your pen).",
+    "yours": "Correcta: sustituye a your pen sin repetir el sustantivo.",
+    "the yours": "Incorrecta: calco de «el tuyo»; en inglés el pronombre posesivo nunca lleva the."
+   },
+   "glosario": [
+    {
+     "palabra": "to borrow",
+     "significado": "tomar prestado (pedir prestado)"
+    }
+   ]
+  },
+  {
+   "id": "e08",
+   "tipo": "eleccion",
+   "enunciado": "Elige la opción correcta.",
+   "frase": "Carlos is a colleague of ___.",
+   "opciones": [
+    "me",
+    "my",
+    "mine"
+   ],
+   "respuestas": [
+    "mine"
+   ],
+   "explicacion": "Se aplica la expresión útil de la ficha: a friend of mine, «un amigo mío». La estructura es a + sustantivo + of + pronombre posesivo. La pista es la preposición of, que en esta construcción va seguida del pronombre posesivo, no del pronombre objeto. Por eso es a colleague of mine. «A colleague of me» es un error frecuente por calco de «de mí».",
+   "explicacion_breve": "Estructura a colleague of mine.",
+   "traduccion": "Carlos es un compañero mío.",
+   "por_opcion": {
+    "me": "Incorrecta: tras of en esta estructura va el pronombre posesivo, no el objeto: of mine.",
+    "my": "Incorrecta: my necesita un sustantivo detrás.",
+    "mine": "Correcta: estructura fija a colleague of mine, «un compañero mío»."
+   },
+   "glosario": [
+    {
+     "palabra": "colleague",
+     "significado": "compañero de trabajo, colega"
+    }
+   ]
+  },
+  {
+   "id": "e09",
+   "tipo": "eleccion",
+   "enunciado": "Elige la opción correcta.",
+   "frase": "The children are playing with ___ toys.",
+   "opciones": [
+    "theirs",
+    "their",
+    "they"
+   ],
+   "respuestas": [
+    "their"
+   ],
+   "explicacion": "Se aplica la diferencia entre determinante y pronombre que explica la ficha: el determinante va delante de un sustantivo y el pronombre lo sustituye. La pista es que detrás del hueco aparece el sustantivo toys, así que hace falta el determinante their. Theirs solo sería posible sin sustantivo detrás (The toys are theirs).",
+   "explicacion_breve": "Va delante de un sustantivo: determinante their.",
+   "traduccion": "Los niños están jugando con sus juguetes.",
+   "por_opcion": {
+    "theirs": "Incorrecta: theirs va solo; con toys detrás hace falta el determinante their.",
+    "their": "Correcta: determinante posesivo de they delante del sustantivo toys.",
+    "they": "Incorrecta: they es el pronombre sujeto y no expresa posesión."
+   }
+  },
+  {
+   "id": "e10",
+   "tipo": "transformar",
+   "enunciado": "Reescribe la frase con un pronombre posesivo.",
+   "frase": "This is my seat.",
+   "respuestas": [
+    "This seat is mine."
+   ],
+   "explicacion": "Se aplica la regla de la ficha según la cual el pronombre sustituye a «posesivo + sustantivo»: my seat pasa a mine. Para transformar, el sustantivo seat pasa a acompañar a this (This seat) y el pronombre mine se coloca al final, solo. La pista es la instrucción de usar un pronombre posesivo, que obliga a sacar el sustantivo de detrás del posesivo.",
+   "explicacion_breve": "My seat → mine, al final y sin sustantivo.",
+   "traduccion": "Este asiento es mío.",
+   "errores_previstos": [
+    {
+     "respuesta": "This seat is my.",
+     "explicacion": "My necesita un sustantivo detrás; al final de la frase va mine."
+    },
+    {
+     "respuesta": "This seat is the mine.",
+     "explicacion": "Calco de «el mío»: mine no lleva artículo."
+    },
+    {
+     "respuesta": "This seat is me.",
+     "explicacion": "Me es el pronombre objeto y cambia el sentido («este asiento soy yo»); para la posesión, mine."
+    }
+   ]
+  },
+  {
+   "id": "e11",
+   "tipo": "transformar",
+   "enunciado": "Haz la pregunta con whose para averiguar el dueño.",
+   "frase": "This is somebody's phone.",
+   "respuestas": [
+    "Whose phone is this?",
+    "Whose is this phone?",
+    "Whose is this?"
+   ],
+   "explicacion": "Se aplica la parte de la ficha sobre whose: puede ir con sustantivo (Whose phone is this?) o solo (Whose is this?). La pista es la instrucción de averiguar el dueño de somebody's phone: preguntamos por el poseedor, «¿de quién?». La forma más natural es Whose phone is this?; también se aceptan Whose is this phone? y Whose is this?, con whose solo como pronombre.",
+   "explicacion_breve": "Whose (+ sustantivo) + is this?",
+   "traduccion": "¿De quién es este teléfono?",
+   "errores_previstos": [
+    {
+     "respuesta": "Who's phone is this?",
+     "explicacion": "Who's = who is; para «de quién» se escribe whose."
+    },
+    {
+     "respuesta": "Of whom is this phone?",
+     "explicacion": "Calco de «¿de quién es este teléfono?»: en inglés se usa whose, sin preposición."
+    },
+    {
+     "respuesta": "Whose phone this is?",
+     "explicacion": "En la pregunta el verbo va antes del sujeto: Whose phone is this?"
+    }
+   ]
+  },
+  {
+   "id": "e12",
+   "tipo": "corregir",
+   "enunciado": "Corrige el error.",
+   "frase": "Those books aren't the ours.",
+   "respuestas": [
+    "Those books aren't ours.",
+    "Those books are not ours."
+   ],
+   "explicacion": "Se aplica la regla de la ficha según la cual en inglés nunca se pone the delante del pronombre posesivo. El error es un calco de «los nuestros». La pista es que ours ya es un pronombre completo, que no necesita artículo. Basta con quitar the: Those books aren't ours, o con la negación sin contraer, are not ours.",
+   "explicacion_breve": "Sin the delante del pronombre posesivo.",
+   "traduccion": "Esos libros no son nuestros.",
+   "errores_previstos": [
+    {
+     "respuesta": "Those books aren't the ours.",
+     "explicacion": "Es la frase sin corregir: el pronombre posesivo no lleva artículo."
+    },
+    {
+     "respuesta": "Those books aren't our.",
+     "explicacion": "Se ha quitado el artículo pero se ha cambiado el pronombre por el determinante: our necesita sustantivo; solo, ours."
+    },
+    {
+     "respuesta": "Those books aren't the our.",
+     "explicacion": "Mantiene el artículo y usa el determinante: hacen falta los dos cambios contrarios, sin the y con ours."
+    }
+   ]
+  },
+  {
+   "id": "e13",
+   "tipo": "corregir",
+   "enunciado": "Corrige el error.",
+   "frase": "My sister lives with his husband in Bilbao.",
+   "respuestas": [
+    "My sister lives with her husband in Bilbao."
+   ],
+   "explicacion": "Se aplica la regla de la ficha según la cual los posesivos cambian según el poseedor: his (de él), her (de ella). La poseedora del marido es my sister, una mujer, así que va her. El error viene de pensar en lo poseído (husband, masculino), como haría el español con el género. La pista es preguntarse de quién es el marido: de mi hermana, luego her.",
+   "explicacion_breve": "Poseedora femenina: her.",
+   "traduccion": "Mi hermana vive con su marido en Bilbao.",
+   "errores_previstos": [
+    {
+     "respuesta": "My sister lives with his husband in Bilbao.",
+     "explicacion": "Es la frase sin corregir: his indicaría que el marido es de un hombre; la poseedora es mi hermana, her."
+    },
+    {
+     "respuesta": "My sister lives with hers husband in Bilbao.",
+     "explicacion": "Hers va solo; delante de un sustantivo va her."
+    },
+    {
+     "respuesta": "My sister lives with the her husband in Bilbao.",
+     "explicacion": "El posesivo no se combina con el artículo."
+    }
+   ]
+  },
+  {
+   "id": "e14",
+   "tipo": "ordenar",
+   "enunciado": "Ordena las palabras para formar una pregunta.",
+   "palabras": [
+    "is",
+    "this",
+    "whose",
+    "coat"
+   ],
+   "respuestas": [
+    "Whose coat is this",
+    "Whose is this coat"
+   ],
+   "explicacion": "Se aplica la estructura de la ficha para whose: Whose + sustantivo + is this? La pista es que whose significa «de quién» y, cuando va con sustantivo, forman un bloque inseparable al principio de la pregunta (whose coat); después va el verbo is y luego el sujeto this. También se acepta Whose is this coat?, con whose solo.",
+   "explicacion_breve": "Whose + sustantivo + is this.",
+   "traduccion": "¿De quién es este abrigo?",
+   "errores_previstos": [
+    {
+     "respuesta": "Whose coat this is",
+     "explicacion": "En una pregunta el verbo va antes del sujeto: is this, no this is."
+    },
+    {
+     "respuesta": "Is this coat whose",
+     "explicacion": "Las palabras interrogativas van al principio de la pregunta en inglés."
+    },
+    {
+     "respuesta": "This coat is whose",
+     "explicacion": "Orden de frase afirmativa: whose debe ir al principio y el verbo antes de this."
+    }
+   ]
+  },
+  {
+   "id": "e15",
+   "tipo": "ordenar",
+   "enunciado": "Ordena las palabras.",
+   "palabras": [
+    "the",
+    "is",
+    "mine",
+    "one",
+    "red"
+   ],
+   "respuestas": [
+    "The red one is mine",
+    "Mine is the red one"
+   ],
+   "explicacion": "Se aplica la regla de que el pronombre posesivo va sin sustantivo. La pista es la palabra one, que sustituye al objeto del que se habla (the red one, «el rojo»): así el adjetivo red no queda solo. Se puede ordenar como The red one is mine o como Mine is the red one, porque mine funciona como un sustantivo y puede ser sujeto o atributo.",
+   "explicacion_breve": "El pronombre posesivo va sin sustantivo.",
+   "traduccion": "El rojo es el mío.",
+   "errores_previstos": [
+    {
+     "respuesta": "The one red is mine",
+     "explicacion": "Calco del español «el rojo» con el adjetivo detrás: en inglés el adjetivo va delante de one, the red one."
+    },
+    {
+     "respuesta": "The mine is red one",
+     "explicacion": "Mine no lleva artículo y the debe acompañar a red one."
+    },
+    {
+     "respuesta": "Red the one is mine",
+     "explicacion": "El artículo va al principio del grupo: the red one. El adjetivo no puede ir delante de the."
+    }
+   ]
+  }
  ],
- "fuente": {"nombre": "propia"}
+ "fuente": {
+  "nombre": "propia"
+ },
+ "descripcion_larga_es": "Los pronombres posesivos (mine, yours, his, hers, ours, theirs) sustituyen a «posesivo + sustantivo» y van solos: This bag is mine. Con ellos se aprende también whose, para preguntar de quién es algo, y la expresión a friend of mine. Al hispanohablante le cuesta no poner artículo («the mine», calco de «el mío») y distinguir whose de who's.",
+ "contexto": {
+  "que_es": "Son las palabras que sustituyen a un adjetivo posesivo más su sustantivo: my book pasa a mine, her bag a hers, their car a theirs. Van siempre solas, sin sustantivo detrás y sin artículo delante. Se completan con whose, que pregunta por el poseedor, y con la estructura a friend of mine (un amigo mío).",
+  "por_que_importa": "Permiten no repetir el sustantivo, algo muy frecuente al comparar o aclarar de quién es algo (Is this yours? No, mine is black). Los errores típicos («the mine», «her's», «a friend of me») son muy llamativos. Además, confundir whose y who's es un fallo ortográfico frecuente que se penaliza en la expresión escrita.",
+  "cuando_se_usa": "Cuando el sustantivo ya se ha mencionado o se sobreentiende: al devolver objetos, comparar pertenencias o responder a whose. La señal es que tras el hueco no hay sustantivo (va al final de la frase o antes del verbo). El hispanohablante tiende a añadir artículo, como en «el mío», y a confundir el adjetivo y el pronombre."
+ }
 }

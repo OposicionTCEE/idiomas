@@ -6,51 +6,497 @@
  "nivel": "A2",
  "resumen": "Will + infinitivo se usa para predicciones basadas en opinión, decisiones tomadas en el momento de hablar, ofrecimientos y promesas. Su forma es igual para todas las personas.",
  "explicacion": [
-  {"tipo": "tabla", "cabecera": ["Tipo de frase", "Estructura", "Ejemplo"], "filas": [
-   ["Afirmativa", "sujeto + will ('ll) + infinitivo", "I'll help you."],
-   ["Negativa", "sujeto + won't (will not) + infinitivo", "It won't take long."],
-   ["Pregunta", "Will + sujeto + infinitivo?", "Will you be at home?"],
-   ["Ofrecimiento o sugerencia", "Shall I / Shall we + infinitivo?", "Shall I open the window?"]
-  ]},
-  {"tipo": "lista", "items": [
-   "Predicción u opinión sobre el futuro, a menudo con I think, probably, I'm sure: I think Spain will win.",
-   "Decisión espontánea: The phone's ringing. I'll answer it.",
-   "Ofrecimiento: I'll carry that bag for you.",
-   "Promesa: I won't tell anyone.",
-   "Petición: Will you close the door, please?"
-  ]},
-  {"tipo": "texto", "texto": "Diferencia con going to: si la decisión ya estaba tomada antes de hablar se usa going to (I'm going to buy a bike; I've seen one I like). Si se decide en el momento, will (Oh, it's cheap. I'll buy it)."},
-  {"tipo": "texto", "texto": "Tras will va el infinitivo sin to y sin -s: She will come, no She will comes ni She will to come."},
-  {"tipo": "texto", "texto": "Con I think, la negación suele ir en think: I don't think it will rain (mejor que I think it won't rain)."}
+  {
+   "tipo": "tabla",
+   "cabecera": [
+    "Tipo de frase",
+    "Estructura",
+    "Ejemplo"
+   ],
+   "filas": [
+    [
+     "Afirmativa",
+     "sujeto + will ('ll) + infinitivo",
+     "I'll help you."
+    ],
+    [
+     "Negativa",
+     "sujeto + won't (will not) + infinitivo",
+     "It won't take long."
+    ],
+    [
+     "Pregunta",
+     "Will + sujeto + infinitivo?",
+     "Will you be at home?"
+    ],
+    [
+     "Ofrecimiento o sugerencia",
+     "Shall I / Shall we + infinitivo?",
+     "Shall I open the window?"
+    ]
+   ]
+  },
+  {
+   "tipo": "lista",
+   "items": [
+    "Predicción u opinión sobre el futuro, a menudo con I think, probably, I'm sure: I think Spain will win.",
+    "Decisión espontánea: The phone's ringing. I'll answer it.",
+    "Ofrecimiento: I'll carry that bag for you.",
+    "Promesa: I won't tell anyone.",
+    "Petición: Will you close the door, please?"
+   ]
+  },
+  {
+   "tipo": "texto",
+   "texto": "Diferencia con going to: si la decisión ya estaba tomada antes de hablar se usa going to (I'm going to buy a bike; I've seen one I like). Si se decide en el momento, will (Oh, it's cheap. I'll buy it)."
+  },
+  {
+   "tipo": "texto",
+   "texto": "Tras will va el infinitivo sin to y sin -s: She will come, no She will comes ni She will to come."
+  },
+  {
+   "tipo": "texto",
+   "texto": "Con I think, la negación suele ir en think: I don't think it will rain (mejor que I think it won't rain)."
+  }
  ],
  "ejemplos": [
-  {"frase": "Don't worry, I'll pay for the coffee.", "traduccion": "No te preocupes, yo pago los cafés."},
-  {"frase": "I'm sure you'll pass the exam.", "traduccion": "Seguro que apruebas el examen."},
-  {"frase": "Prices will probably go up next year.", "traduccion": "Probablemente los precios subirán el año que viene."},
-  {"frase": "I promise I won't be late.", "traduccion": "Te prometo que no llegaré tarde."},
-  {"frase": "Shall we go for a walk?", "traduccion": "¿Damos un paseo?"},
-  {"frase": "Will you marry me?", "traduccion": "¿Quieres casarte conmigo?"}
+  {
+   "frase": "Don't worry, I'll pay for the coffee.",
+   "traduccion": "No te preocupes, yo pago los cafés."
+  },
+  {
+   "frase": "I'm sure you'll pass the exam.",
+   "traduccion": "Seguro que apruebas el examen."
+  },
+  {
+   "frase": "Prices will probably go up next year.",
+   "traduccion": "Probablemente los precios subirán el año que viene."
+  },
+  {
+   "frase": "I promise I won't be late.",
+   "traduccion": "Te prometo que no llegaré tarde."
+  },
+  {
+   "frase": "Shall we go for a walk?",
+   "traduccion": "¿Damos un paseo?"
+  },
+  {
+   "frase": "Will you marry me?",
+   "traduccion": "¿Quieres casarte conmigo?"
+  }
  ],
  "errores_hispanohablantes": [
-  {"mal": "I help you with that box.", "bien": "I'll help you with that box.", "nota": "En español se ofrece con presente («te ayudo»); en inglés, con will."},
-  {"mal": "She will to arrive at six.", "bien": "She will arrive at six.", "nota": "Will va seguido de infinitivo sin to."},
-  {"mal": "I think it won't rain.", "bien": "I don't think it will rain.", "nota": "Es más natural negar think."}
+  {
+   "mal": "I help you with that box.",
+   "bien": "I'll help you with that box.",
+   "nota": "En español se ofrece con presente («te ayudo»); en inglés, con will."
+  },
+  {
+   "mal": "She will to arrive at six.",
+   "bien": "She will arrive at six.",
+   "nota": "Will va seguido de infinitivo sin to."
+  },
+  {
+   "mal": "I think it won't rain.",
+   "bien": "I don't think it will rain.",
+   "nota": "Es más natural negar think."
+  }
  ],
  "ejercicios": [
-  {"id": "e01", "tipo": "hueco", "enunciado": "Completa con will o won't y el verbo.", "frase": "Take an umbrella or you ___ (get) wet.", "respuestas": ["will get", "'ll get"], "explicacion": "Predicción: will + infinitivo."},
-  {"id": "e02", "tipo": "hueco", "enunciado": "Completa con la forma negativa de will.", "frase": "Don't worry, the injection ___ (not / hurt).", "respuestas": ["won't hurt", "will not hurt"], "explicacion": "Negativa: won't + infinitivo."},
-  {"id": "e03", "tipo": "hueco", "enunciado": "Completa con will y el verbo.", "frase": "A: I'm thirsty. B: Wait, I ___ (get) you some water.", "respuestas": ["will get", "'ll get"], "explicacion": "Ofrecimiento decidido en el momento: will."},
-  {"id": "e04", "tipo": "hueco", "enunciado": "Completa con shall o will.", "frase": "___ I turn on the heating?", "respuestas": ["Shall"], "explicacion": "Para ofrecerse con I se usa Shall I...?"},
-  {"id": "e05", "tipo": "eleccion", "enunciado": "Elige la opción correcta.", "frase": "A: There's no milk. B: OK, I ___ some.", "opciones": ["'ll buy", "'m going to buy", "buy"], "respuestas": ["'ll buy"], "explicacion": "Decisión tomada al oír la información: will."},
-  {"id": "e06", "tipo": "eleccion", "enunciado": "Elige la opción correcta.", "frase": "I don't think they ___ the contract.", "opciones": ["will sign", "won't sign", "signing"], "respuestas": ["will sign"], "explicacion": "Con I don't think la negación ya está en think."},
-  {"id": "e07", "tipo": "eleccion", "enunciado": "Elige la opción correcta.", "frase": "I've already decided: I ___ a new laptop next week.", "opciones": ["will buy", "am going to buy", "buy"], "respuestas": ["am going to buy"], "explicacion": "Plan decidido de antemano: going to, no will."},
-  {"id": "e08", "tipo": "eleccion", "enunciado": "Elige la opción correcta.", "frase": "Maybe she ___ us tomorrow.", "opciones": ["will call", "will calls", "will to call"], "respuestas": ["will call"], "explicacion": "Will + infinitivo sin to ni -s."},
-  {"id": "e09", "tipo": "transformar", "enunciado": "Convierte la frase en pregunta.", "frase": "The train will be on time.", "respuestas": ["Will the train be on time?"], "explicacion": "Pregunta: Will + sujeto + infinitivo."},
-  {"id": "e10", "tipo": "transformar", "enunciado": "Pasa la frase a negativa con won't.", "frase": "We will finish before Friday.", "respuestas": ["We won't finish before Friday."], "explicacion": "Negativa: won't + infinitivo."},
-  {"id": "e11", "tipo": "corregir", "enunciado": "Corrige el error.", "frase": "He will comes back soon.", "respuestas": ["He will come back soon.", "He'll come back soon."], "explicacion": "Tras will, infinitivo sin -s."},
-  {"id": "e12", "tipo": "corregir", "enunciado": "Corrige el error.", "frase": "I promise I don't forget your birthday.", "respuestas": ["I promise I won't forget your birthday.", "I promise I will not forget your birthday."], "explicacion": "Las promesas sobre el futuro se expresan con will / won't."},
-  {"id": "e13", "tipo": "ordenar", "enunciado": "Ordena las palabras.", "palabras": ["will", "it", "think", "I", "be", "sunny"], "respuestas": ["I think it will be sunny"], "explicacion": "I think + predicción con will."},
-  {"id": "e14", "tipo": "ordenar", "enunciado": "Ordena las palabras para formar una pregunta.", "palabras": ["you", "will", "me", "help"], "respuestas": ["Will you help me"], "explicacion": "Petición: Will + sujeto + infinitivo."}
+  {
+   "id": "e01",
+   "tipo": "hueco",
+   "enunciado": "Completa con will o won't y el verbo.",
+   "frase": "Take an umbrella or you ___ (get) wet.",
+   "respuestas": [
+    "will get",
+    "'ll get"
+   ],
+   "explicacion": "Se aplica el uso de will para predicciones de la ficha. La pista es la estructura «Take an umbrella or…»: se anuncia lo que ocurrirá si no se hace caso, una predicción sobre el futuro. Por eso you will get wet o, en contracción, you'll get wet. Tras will va el infinitivo sin to ni -s.",
+   "explicacion_breve": "Predicción: will + infinitivo.",
+   "traduccion": "Llévate un paraguas o te mojarás.",
+   "errores_previstos": [
+    {
+     "respuesta": "gets",
+     "explicacion": "Con you el presente no lleva -s, y además aquí hace falta will para la predicción: will get."
+    },
+    {
+     "respuesta": "will to get",
+     "explicacion": "Will va seguido de infinitivo sin to."
+    },
+    {
+     "respuesta": "will gets",
+     "explicacion": "Tras will el verbo no lleva -s."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "get wet",
+     "significado": "mojarse"
+    }
+   ]
+  },
+  {
+   "id": "e02",
+   "tipo": "hueco",
+   "enunciado": "Completa con la forma negativa de will.",
+   "frase": "Don't worry, the injection ___ (not / hurt).",
+   "respuestas": [
+    "won't hurt",
+    "will not hurt"
+   ],
+   "explicacion": "Es la negativa de la tabla de la ficha: won't (will not) + infinitivo. La pista es «Don't worry»: se tranquiliza a alguien con una predicción negativa. El verbo hurt va en infinitivo sin -s, aunque el sujeto sea the injection. Se aceptan la forma contraída y la completa.",
+   "explicacion_breve": "Negativa: won't + infinitivo.",
+   "traduccion": "Tranquilo, la inyección no te va a doler.",
+   "errores_previstos": [
+    {
+     "respuesta": "won't hurts",
+     "explicacion": "Tras won't el verbo va sin -s."
+    },
+    {
+     "respuesta": "doesn't hurt",
+     "explicacion": "El presente describe una verdad general; para tranquilizar sobre lo que va a pasar se usa won't."
+    },
+    {
+     "respuesta": "will not to hurt",
+     "explicacion": "Will not va seguido de infinitivo sin to."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "injection",
+     "significado": "inyección"
+    },
+    {
+     "palabra": "hurt",
+     "significado": "doler, hacer daño"
+    }
+   ]
+  },
+  {
+   "id": "e03",
+   "tipo": "hueco",
+   "enunciado": "Completa con will y el verbo.",
+   "frase": "A: I'm thirsty. B: Wait, I ___ (get) you some water.",
+   "respuestas": [
+    "will get",
+    "'ll get"
+   ],
+   "explicacion": "Se aplica el uso de will para ofrecimientos y decisiones espontáneas. La pista es que B reacciona a lo que acaba de oír («I'm thirsty»): decide en ese momento y se ofrece. Por eso I'll get you some water. En español usamos el presente («te traigo»), pero en inglés el presente aquí suena incompleto.",
+   "explicacion_breve": "Ofrecimiento decidido en el momento: will.",
+   "traduccion": "A: Tengo sed. B: Espera, te traigo agua.",
+   "errores_previstos": [
+    {
+     "respuesta": "get",
+     "explicacion": "Calco del presente español «te traigo»; en inglés un ofrecimiento decidido al momento va con will."
+    },
+    {
+     "respuesta": "am going to get",
+     "explicacion": "Going to indica un plan decidido antes; aquí la decisión surge al oír que tiene sed."
+    },
+    {
+     "respuesta": "will to get",
+     "explicacion": "Will va seguido de infinitivo sin to."
+    }
+   ]
+  },
+  {
+   "id": "e04",
+   "tipo": "hueco",
+   "enunciado": "Completa con shall o will.",
+   "frase": "___ I turn on the heating?",
+   "respuestas": [
+    "Shall"
+   ],
+   "explicacion": "La tabla de la ficha recoge Shall I / Shall we + infinitivo para ofrecerse o sugerir. La pista es la primera persona I en una pregunta con la que el hablante se ofrece a hacer algo. En ese caso se usa shall, no will. «Will I turn on the heating?» preguntaría por una predicción, no por un ofrecimiento.",
+   "explicacion_breve": "Para ofrecerse con I se usa Shall I...?",
+   "traduccion": "¿Pongo la calefacción?",
+   "errores_previstos": [
+    {
+     "respuesta": "Will",
+     "explicacion": "Will I…? pregunta por lo que pasará, no ofrece ayuda; para ofrecerse se usa Shall I…?"
+    },
+    {
+     "respuesta": "Do",
+     "explicacion": "Calco del presente español «¿pongo?»; en inglés el ofrecimiento es Shall I…?"
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "turn on the heating",
+     "significado": "encender la calefacción"
+    }
+   ]
+  },
+  {
+   "id": "e05",
+   "tipo": "eleccion",
+   "enunciado": "Elige la opción correcta.",
+   "frase": "A: There's no milk. B: OK, I ___ some.",
+   "opciones": [
+    "'ll buy",
+    "'m going to buy",
+    "buy"
+   ],
+   "respuestas": [
+    "'ll buy"
+   ],
+   "explicacion": "La ficha contrasta will, para decisiones tomadas en el momento, con going to, para decisiones previas. La pista es que B se entera ahora de que no hay leche y reacciona con «OK»: la decisión es espontánea. Por eso I'll buy some.",
+   "explicacion_breve": "Decisión tomada al oír la información: will.",
+   "traduccion": "A: No hay leche. B: Vale, compro.",
+   "por_opcion": {
+    "'ll buy": "Correcta: will para una decisión tomada al oír la información.",
+    "'m going to buy": "Incorrecta aquí: going to indica que ya lo había decidido antes, lo que no encaja con enterarse en ese momento.",
+    "buy": "Incorrecta: el presente simple no expresa una decisión inmediata sobre el futuro (calco del «compro» español)."
+   }
+  },
+  {
+   "id": "e06",
+   "tipo": "eleccion",
+   "enunciado": "Elige la opción correcta.",
+   "frase": "I don't think they ___ the contract.",
+   "opciones": [
+    "will sign",
+    "won't sign",
+    "signing"
+   ],
+   "respuestas": [
+    "will sign"
+   ],
+   "explicacion": "La ficha explica que con I think la negación suele ir en think: I don't think + will. La pista es que la frase ya empieza por I don't think, así que la negación ya está expresada y el verbo de la subordinada va en afirmativa: will sign. Repetir la negación sería una doble negación.",
+   "explicacion_breve": "Con I don't think la negación ya está en think.",
+   "traduccion": "No creo que firmen el contrato.",
+   "por_opcion": {
+    "will sign": "Correcta: la negación va en don't think y la predicción queda en afirmativa.",
+    "won't sign": "Incorrecta: con I don't think sería una doble negación y cambiaría el sentido («no creo que no firmen»).",
+    "signing": "Incorrecta: falta el verbo conjugado; tras I don't think va una oración completa."
+   },
+   "glosario": [
+    {
+     "palabra": "sign a contract",
+     "significado": "firmar un contrato"
+    }
+   ]
+  },
+  {
+   "id": "e07",
+   "tipo": "hueco",
+   "enunciado": "Completa con la forma de futuro adecuada.",
+   "frase": "I've already decided: I ___ (buy) a new laptop next week.",
+   "respuestas": [
+    "am going to buy",
+    "'m going to buy"
+   ],
+   "explicacion": "La ficha señala que, si la decisión ya estaba tomada antes de hablar, se usa going to y no will. La pista es «I've already decided»: es un plan previo. Por eso I am going to buy, o con contracción I'm going to buy. Will transmitiría que se decide en ese momento, lo que contradice la primera parte de la frase.",
+   "explicacion_breve": "Plan decidido de antemano: going to, no will.",
+   "traduccion": "Ya lo he decidido: la semana que viene me voy a comprar un portátil nuevo.",
+   "errores_previstos": [
+    {
+     "respuesta": "will buy",
+     "explicacion": "Will expresa una decisión tomada en el momento de hablar, y la frase dice que ya estaba decidido: am going to buy."
+    },
+    {
+     "respuesta": "buy",
+     "explicacion": "El presente simple no se usa para planes personales futuros (salvo horarios fijos)."
+    },
+    {
+     "respuesta": "going to buy",
+     "explicacion": "Falta el verbo be: I am going to buy (o I'm going to buy)."
+    }
+   ]
+  },
+  {
+   "id": "e08",
+   "tipo": "eleccion",
+   "enunciado": "Elige la opción correcta.",
+   "frase": "Maybe she ___ us tomorrow.",
+   "opciones": [
+    "will call",
+    "will calls",
+    "will to call"
+   ],
+   "respuestas": [
+    "will call"
+   ],
+   "explicacion": "La ficha insiste en que tras will va el infinitivo sin to y sin -s, para todas las personas. La pista es la tercera persona she, que en presente llevaría -s, pero con will no. Maybe introduce una predicción poco segura. Por eso will call.",
+   "explicacion_breve": "Will + infinitivo sin to ni -s.",
+   "traduccion": "Quizá nos llame mañana.",
+   "por_opcion": {
+    "will call": "Correcta: will + infinitivo sin to ni -s.",
+    "will calls": "Incorrecta: tras will el verbo no lleva -s, aunque el sujeto sea she.",
+    "will to call": "Incorrecta: will no va seguido de to."
+   }
+  },
+  {
+   "id": "e09",
+   "tipo": "transformar",
+   "enunciado": "Convierte la frase en pregunta.",
+   "frase": "The train will be on time.",
+   "respuestas": [
+    "Will the train be on time?"
+   ],
+   "explicacion": "La tabla de la ficha da la pregunta: Will + sujeto + infinitivo. Para transformar la afirmativa basta con poner will delante del sujeto the train; el resto de la frase no cambia. No se usa do ni does, porque will ya es auxiliar.",
+   "explicacion_breve": "Pregunta: Will + sujeto + infinitivo.",
+   "traduccion": "¿Llegará el tren a su hora?",
+   "errores_previstos": [
+    {
+     "respuesta": "Does the train will be on time?",
+     "explicacion": "Will ya es auxiliar; no se combina con does."
+    },
+    {
+     "respuesta": "Will the train is on time?",
+     "explicacion": "Tras will va el infinitivo be, no la forma conjugada is."
+    },
+    {
+     "respuesta": "Will be the train on time?",
+     "explicacion": "El sujeto va inmediatamente después de will, antes del verbo be."
+    }
+   ]
+  },
+  {
+   "id": "e10",
+   "tipo": "transformar",
+   "enunciado": "Pasa la frase a negativa con won't.",
+   "frase": "We will finish before Friday.",
+   "respuestas": [
+    "We won't finish before Friday."
+   ],
+   "explicacion": "Es la negativa de la ficha: won't + infinitivo. La consigna pide usar won't, la contracción de will not. Se sustituye will por won't y el infinitivo finish queda igual. No se usa don't, porque will es auxiliar.",
+   "explicacion_breve": "Negativa: won't + infinitivo.",
+   "traduccion": "No terminaremos antes del viernes.",
+   "errores_previstos": [
+    {
+     "respuesta": "We don't will finish before Friday.",
+     "explicacion": "Will es auxiliar y se niega él mismo; no lleva don't."
+    },
+    {
+     "respuesta": "We won't to finish before Friday.",
+     "explicacion": "Won't va seguido de infinitivo sin to."
+    },
+    {
+     "respuesta": "We won't finished before Friday.",
+     "explicacion": "Tras won't va el infinitivo, finish, no el pasado."
+    }
+   ]
+  },
+  {
+   "id": "e11",
+   "tipo": "corregir",
+   "enunciado": "Corrige el error.",
+   "frase": "He will comes back soon.",
+   "respuestas": [
+    "He will come back soon.",
+    "He'll come back soon."
+   ],
+   "explicacion": "La ficha indica que tras will el infinitivo no lleva -s. La pista es la tercera persona he, que tienta a añadir -s como en presente. Pero el verbo que va con will es invariable: He will come back, o en contracción He'll come back.",
+   "explicacion_breve": "Tras will, infinitivo sin -s.",
+   "traduccion": "Volverá pronto.",
+   "errores_previstos": [
+    {
+     "respuesta": "He will comes back soon.",
+     "explicacion": "Es la frase sin corregir: tras will no se pone -s."
+    },
+    {
+     "respuesta": "He will to come back soon.",
+     "explicacion": "Will no va seguido de to."
+    },
+    {
+     "respuesta": "He'll comes back soon.",
+     "explicacion": "La contracción no cambia la regla: tras 'll el verbo va sin -s."
+    }
+   ]
+  },
+  {
+   "id": "e12",
+   "tipo": "corregir",
+   "enunciado": "Corrige el error.",
+   "frase": "I promise I don't forget your birthday.",
+   "respuestas": [
+    "I promise I won't forget your birthday.",
+    "I promise I will not forget your birthday."
+   ],
+   "explicacion": "La ficha incluye la promesa entre los usos de will: I won't tell anyone. La pista es I promise: lo prometido es futuro y en inglés se expresa con will o won't. En español podemos decir «te prometo que no me olvido», en presente, pero en inglés don't forget suena a una verdad general. Por eso won't forget.",
+   "explicacion_breve": "Las promesas sobre el futuro se expresan con will / won't.",
+   "traduccion": "Te prometo que no me olvidaré de tu cumpleaños.",
+   "errores_previstos": [
+    {
+     "respuesta": "I promise I don't forget your birthday.",
+     "explicacion": "Es la frase sin corregir: la promesa sobre el futuro va con won't."
+    },
+    {
+     "respuesta": "I promise I won't to forget your birthday.",
+     "explicacion": "Won't va seguido de infinitivo sin to."
+    },
+    {
+     "respuesta": "I promise I won't forgot your birthday.",
+     "explicacion": "Tras won't va el infinitivo, forget, no el pasado."
+    }
+   ]
+  },
+  {
+   "id": "e13",
+   "tipo": "ordenar",
+   "enunciado": "Ordena las palabras.",
+   "palabras": [
+    "will",
+    "it",
+    "think",
+    "I",
+    "be",
+    "sunny"
+   ],
+   "respuestas": [
+    "I think it will be sunny"
+   ],
+   "explicacion": "La ficha da I think + will como forma típica de predicción basada en opinión. El orden es I think, y después la oración predicha con su propio sujeto it, will y el infinitivo be con el adjetivo sunny. En inglés el sujeto it es obligatorio aunque en español «hará sol» no lo tenga.",
+   "explicacion_breve": "I think + predicción con will.",
+   "traduccion": "Creo que hará sol.",
+   "errores_previstos": [
+    {
+     "respuesta": "I think will be it sunny",
+     "explicacion": "El sujeto it va antes de will, no después."
+    },
+    {
+     "respuesta": "I will think it be sunny",
+     "explicacion": "Will acompaña a la predicción (it will be), no a think."
+    }
+   ]
+  },
+  {
+   "id": "e14",
+   "tipo": "ordenar",
+   "enunciado": "Ordena las palabras para formar una pregunta.",
+   "palabras": [
+    "you",
+    "will",
+    "me",
+    "help"
+   ],
+   "respuestas": [
+    "Will you help me"
+   ],
+   "explicacion": "La ficha recoge will para peticiones: Will you…, please? La pregunta se forma con will delante del sujeto you, seguida del infinitivo help y del objeto me. Es una petición directa; con would o could sonaría más cortés.",
+   "explicacion_breve": "Petición: Will + sujeto + infinitivo.",
+   "traduccion": "¿Me ayudas?",
+   "errores_previstos": [
+    {
+     "respuesta": "Will help you me",
+     "explicacion": "El sujeto you va justo después de will y antes del verbo help."
+    },
+    {
+     "respuesta": "Will me help you",
+     "explicacion": "Se invierten los papeles: quien ayuda (you) es el sujeto y me es el objeto."
+    }
+   ]
+  }
  ],
- "fuente": {"nombre": "propia"}
+ "fuente": {
+  "nombre": "propia"
+ },
+ "descripcion_larga_es": "Will + infinitivo es el llamado futuro simple, pero en inglés no es el futuro «por defecto»: se usa para predicciones basadas en opinión, decisiones tomadas en el momento, ofrecimientos, promesas y peticiones. Su forma es igual para todas las personas. Cuesta a un hispanohablante porque el español ofrece y promete en presente («te ayudo», «no se lo digo a nadie») y porque los planes ya decididos van con going to.",
+ "contexto": {
+  "que_es": "Will es un verbo modal que, seguido de infinitivo sin to, expresa futuro con matices concretos: predicción u opinión, decisión espontánea, ofrecimiento, promesa y petición. Su negativa es won't (will not) y en preguntas se invierte con el sujeto. Para ofrecerse o sugerir con I o we se usa shall.",
+  "por_que_importa": "Es imprescindible para ofrecer ayuda, prometer, pedir algo o dar una opinión sobre el futuro, situaciones constantes en la conversación. Usar el presente donde el inglés pide will («I help you») suena raro o incluso descortés, y usar will para un plan ya decidido transmite que la decisión es improvisada. En los exámenes se evalúa mucho el contraste entre will y going to.",
+  "cuando_se_usa": "Cuando decides algo al momento (The phone's ringing. I'll get it), ofreces (I'll carry that), prometes (I won't be late) o predices con I think, probably o I'm sure. Señales: reacción a algo que se acaba de oír, verbos de opinión, fórmulas de promesa. El hispanohablante tiende a usar presente en ofrecimientos y promesas, y a añadir to o -s tras will."
+ }
 }

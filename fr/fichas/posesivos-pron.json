@@ -6,52 +6,565 @@
  "nivel": "B1",
  "resumen": "Los pronombres posesivos (le mien, la tienne, les nôtres…) sustituyen a un nombre con posesivo para no repetirlo: C'est ton béret ? — Oui, c'est le mien. Siempre llevan artículo y concuerdan en género y número con la cosa poseída, no con el poseedor.",
  "explicacion": [
-  {"tipo": "tabla", "cabecera": ["Poseedor", "Masc. sing.", "Fem. sing.", "Masc. pl.", "Fem. pl."], "filas": [
-   ["je", "le mien", "la mienne", "les miens", "les miennes"],
-   ["tu", "le tien", "la tienne", "les tiens", "les tiennes"],
-   ["il / elle", "le sien", "la sienne", "les siens", "les siennes"],
-   ["nous", "le nôtre", "la nôtre", "les nôtres", "les nôtres"],
-   ["vous", "le vôtre", "la vôtre", "les vôtres", "les vôtres"],
-   ["ils / elles", "le leur", "la leur", "les leurs", "les leurs"]
-  ]},
-  {"tipo": "texto", "texto": "El género lo decide lo poseído en francés: ma maison → la mienne, mon vélo → le mien, aunque en español sean «la bicicleta» y «la mía». Le sien sirve para «de él» y «de ella»; le leur, para «de ellos»."},
-  {"tipo": "lista", "items": [
-   "Nôtre y vôtre llevan acento circunflejo y o cerrada; los determinantes notre, votre no: notre maison / la nôtre.",
-   "El artículo se contrae con à y de: Je pense à mes neveux. — Moi, je pense rarement aux miens. Je parle du mien.",
-   "Otra forma de expresar posesión: être à + pronombre tónico: Cette photo est à moi (es mía). En la respuesta corta es lo más natural.",
-   "Expresiones: les miens (los míos, mi familia); être des nôtres (venir con nosotros); y mettre du sien (poner de su parte); faire des siennes (hacer de las suyas); À la tienne ! (¡a tu salud!)."
-  ]}
+  {
+   "tipo": "tabla",
+   "cabecera": [
+    "Poseedor",
+    "Masc. sing.",
+    "Fem. sing.",
+    "Masc. pl.",
+    "Fem. pl."
+   ],
+   "filas": [
+    [
+     "je",
+     "le mien",
+     "la mienne",
+     "les miens",
+     "les miennes"
+    ],
+    [
+     "tu",
+     "le tien",
+     "la tienne",
+     "les tiens",
+     "les tiennes"
+    ],
+    [
+     "il / elle",
+     "le sien",
+     "la sienne",
+     "les siens",
+     "les siennes"
+    ],
+    [
+     "nous",
+     "le nôtre",
+     "la nôtre",
+     "les nôtres",
+     "les nôtres"
+    ],
+    [
+     "vous",
+     "le vôtre",
+     "la vôtre",
+     "les vôtres",
+     "les vôtres"
+    ],
+    [
+     "ils / elles",
+     "le leur",
+     "la leur",
+     "les leurs",
+     "les leurs"
+    ]
+   ]
+  },
+  {
+   "tipo": "texto",
+   "texto": "El género lo decide lo poseído en francés: ma maison → la mienne, mon vélo → le mien, aunque en español sean «la bicicleta» y «la mía». Le sien sirve para «de él» y «de ella»; le leur, para «de ellos»."
+  },
+  {
+   "tipo": "lista",
+   "items": [
+    "Nôtre y vôtre llevan acento circunflejo y o cerrada; los determinantes notre, votre no: notre maison / la nôtre.",
+    "El artículo se contrae con à y de: Je pense à mes neveux. — Moi, je pense rarement aux miens. Je parle du mien.",
+    "Otra forma de expresar posesión: être à + pronombre tónico: Cette photo est à moi (es mía). En la respuesta corta es lo más natural.",
+    "Expresiones: les miens (los míos, mi familia); être des nôtres (venir con nosotros); y mettre du sien (poner de su parte); faire des siennes (hacer de las suyas); À la tienne ! (¡a tu salud!)."
+   ]
+  }
  ],
  "ejemplos": [
-  {"frase": "C'est ton béret ? — Oui, c'est le mien.", "traduccion": "¿Es tu boina? — Sí, es la mía."},
-  {"frase": "Mon frère est musicien. — Le mien est professeur.", "traduccion": "Mi hermano es músico. — El mío es profesor."},
-  {"frase": "Ma maison est la vôtre.", "traduccion": "Mi casa es la suya (de usted)."},
-  {"frase": "C'est ma faute, pas la tienne.", "traduccion": "Es culpa mía, no tuya."},
-  {"frase": "Tu es des nôtres ce soir ?", "traduccion": "¿Te vienes con nosotros esta noche?"},
-  {"frase": "J'espère que tu vas y mettre du tien.", "traduccion": "Espero que pongas de tu parte."}
+  {
+   "frase": "C'est ton béret ? — Oui, c'est le mien.",
+   "traduccion": "¿Es tu boina? — Sí, es la mía."
+  },
+  {
+   "frase": "Mon frère est musicien. — Le mien est professeur.",
+   "traduccion": "Mi hermano es músico. — El mío es profesor."
+  },
+  {
+   "frase": "Ma maison est la vôtre.",
+   "traduccion": "Mi casa es la suya (de usted)."
+  },
+  {
+   "frase": "C'est ma faute, pas la tienne.",
+   "traduccion": "Es culpa mía, no tuya."
+  },
+  {
+   "frase": "Tu es des nôtres ce soir ?",
+   "traduccion": "¿Te vienes con nosotros esta noche?"
+  },
+  {
+   "frase": "J'espère que tu vas y mettre du tien.",
+   "traduccion": "Espero que pongas de tu parte."
+  }
  ],
  "errores_hispanohablantes": [
-  {"mal": "Ta voiture est plus grande que la mien.", "bien": "Ta voiture est plus grande que la mienne.", "nota": "Concuerda con lo poseído (la voiture, femenino): la mienne."},
-  {"mal": "C'est notre maison, pas la votre.", "bien": "C'est notre maison, pas la vôtre.", "nota": "El pronombre lleva acento: la vôtre."},
-  {"mal": "Ce livre est mien.", "bien": "Ce livre est à moi.", "nota": "Para decir «es mío» se usa être à moi o c'est le mien, no mien solo."}
+  {
+   "mal": "Ta voiture est plus grande que la mien.",
+   "bien": "Ta voiture est plus grande que la mienne.",
+   "nota": "Concuerda con lo poseído (la voiture, femenino): la mienne."
+  },
+  {
+   "mal": "C'est notre maison, pas la votre.",
+   "bien": "C'est notre maison, pas la vôtre.",
+   "nota": "El pronombre lleva acento: la vôtre."
+  },
+  {
+   "mal": "Ce livre est mien.",
+   "bien": "Ce livre est à moi.",
+   "nota": "Para decir «es mío» se usa être à moi o c'est le mien, no mien solo."
+  }
  ],
  "ejercicios": [
-  {"id": "e01", "tipo": "hueco", "enunciado": "Completa con el pronombre posesivo (mío).", "frase": "Oui, c'est le ___.", "respuestas": ["mien"], "explicacion": "Masculino singular, poseedor je: le mien.", "origen": "tatoeba:5175018"},
-  {"id": "e02", "tipo": "eleccion", "enunciado": "Elige el pronombre correcto (ma valise).", "frase": "Ce n'est pas ___.", "opciones": ["la mienne", "le mien", "les miennes"], "respuestas": ["la mienne"], "explicacion": "Valise es femenino singular: la mienne.", "origen": "tatoeba:1895007"},
-  {"id": "e03", "tipo": "hueco", "enunciado": "Completa con el pronombre posesivo (de vous).", "frase": "Ma maison est la ___.", "respuestas": ["vôtre"], "explicacion": "Poseedor vous, lo poseído femenino: la vôtre, con acento.", "origen": "tatoeba:1015332"},
-  {"id": "e04", "tipo": "corregir", "enunciado": "Corrige el error.", "frase": "Cette maison est le sien.", "respuestas": ["Cette maison est la sienne."], "explicacion": "Maison es femenino: la sienne.", "origen": "tatoeba:557872"},
-  {"id": "e05", "tipo": "eleccion", "enunciado": "Elige el pronombre correcto.", "frase": "Ton vélo est meilleur que ___.", "opciones": ["le mien", "la mienne", "les miens"], "respuestas": ["le mien"], "explicacion": "Vélo es masculino en francés: le mien, aunque en español sea «la mía».", "origen": "tatoeba:481837"},
-  {"id": "e06", "tipo": "hueco", "enunciado": "Completa con el pronombre posesivo (tuya).", "frase": "C'est ma faute, pas la ___.", "respuestas": ["tienne"], "explicacion": "Faute es femenino, poseedor tu: la tienne.", "origen": "tatoeba:899286"},
-  {"id": "e07", "tipo": "corregir", "enunciado": "Corrige el error.", "frase": "C'est ton problème, pas la mienne.", "respuestas": ["C'est ton problème, pas le mien."], "explicacion": "Problème es masculino: le mien.", "origen": "tatoeba:1903121"},
-  {"id": "e08", "tipo": "transformar", "enunciado": "Evita repetir el nombre con un pronombre posesivo.", "frase": "Sa maison est en face de ma maison.", "respuestas": ["Sa maison est en face de la mienne."], "explicacion": "Ma maison → la mienne.", "origen": "tatoeba:524996"},
-  {"id": "e09", "tipo": "ordenar", "enunciado": "Ordena las palabras.", "palabras": ["le", "du", "est", "Celui", "mien", "milieu"], "respuestas": ["Celui du milieu est le mien", "Le mien est celui du milieu"], "explicacion": "Sujeto (celui du milieu) + est + posesivo.", "origen": "tatoeba:6287745"},
-  {"id": "e10", "tipo": "eleccion", "enunciado": "Elige la forma correcta (notre parasol).", "frase": "Pourquoi as-tu pris ___ ?", "opciones": ["le nôtre", "le notre", "la nôtre"], "respuestas": ["le nôtre"], "explicacion": "Parasol es masculino y el pronombre lleva acento: le nôtre.", "origen": "tatoeba:8836443"},
-  {"id": "e11", "tipo": "corregir", "enunciado": "Corrige el error.", "frase": "Notre maison est la votre.", "respuestas": ["Notre maison est la vôtre."], "explicacion": "El pronombre posesivo se escribe con acento: la vôtre.", "origen": "tatoeba:1283264"},
-  {"id": "e12", "tipo": "hueco", "enunciado": "Completa con la preposición y el artículo contraídos.", "frase": "Je pense souvent à mes neveux. — Moi, je pense rarement ___ miens.", "respuestas": ["aux"], "explicacion": "Penser à + les miens: à + les = aux."},
-  {"id": "e13", "tipo": "transformar", "enunciado": "Evita repetir el nombre con un pronombre posesivo.", "frase": "Tes parents sont américains ; mes parents sont français.", "respuestas": ["Tes parents sont américains ; les miens sont français."], "explicacion": "Mes parents → les miens."},
-  {"id": "e14", "tipo": "eleccion", "enunciado": "Elige el pronombre correcto (sus libros, de ellos).", "frase": "J'ai acheté mes livres. Joe et Ed ont-ils acheté ___ ?", "opciones": ["les leurs", "les siens", "leurs"], "respuestas": ["les leurs"], "explicacion": "Varios poseedores (ellos) y varios objetos: les leurs."},
-  {"id": "e15", "tipo": "hueco", "enunciado": "Completa el brindis.", "frase": "À ta santé ! — À la ___ !", "respuestas": ["tienne"], "explicacion": "La santé es femenino, y se responde al tú: à la tienne."},
-  {"id": "e16", "tipo": "eleccion", "enunciado": "Elige el pronombre correcto.", "frase": "Paul a perdu sa clé, et Marie a perdu ___.", "opciones": ["la sienne", "le sien", "la leur"], "respuestas": ["la sienne"], "explicacion": "Clé es femenino, poseedora una sola persona: la sienne."}
+  {
+   "id": "e01",
+   "tipo": "hueco",
+   "enunciado": "Completa con el pronombre posesivo (mío).",
+   "frase": "Oui, c'est le ___.",
+   "respuestas": [
+    "mien"
+   ],
+   "explicacion": "Se pide el pronombre posesivo de je en masculino singular. El artículo le ya está escrito, lo que indica que el objeto es masculino singular, y según la tabla la forma es le mien. El pronombre retoma un nombre anterior con su posesivo (por ejemplo, c'est ton sac ? — Oui, c'est le mien).",
+   "origen": "tatoeba:5175018",
+   "explicacion_breve": "Masculino singular, poseedor je: le mien.",
+   "traduccion": "Sí, es el mío.",
+   "errores_previstos": [
+    {
+     "respuesta": "mienne",
+     "explicacion": "Mienne es femenino y no concuerda con el artículo le: le mien."
+    },
+    {
+     "respuesta": "mon",
+     "explicacion": "Mon es determinante y necesita un nombre detrás; tras le va el pronombre mien."
+    },
+    {
+     "respuesta": "mío",
+     "explicacion": "Es la palabra española; en francés, le mien."
+    }
+   ]
+  },
+  {
+   "id": "e02",
+   "tipo": "eleccion",
+   "enunciado": "Elige el pronombre correcto (ma valise).",
+   "frase": "Ce n'est pas ___.",
+   "opciones": [
+    "la mienne",
+    "le mien",
+    "les miennes"
+   ],
+   "respuestas": [
+    "la mienne"
+   ],
+   "explicacion": "El pronombre sustituye a ma valise. Según la regla de la ficha, concuerda con la cosa poseída: valise es femenino singular, así que la mienne. El poseedor, je, fija la raíz mien-, y el género del objeto añade la terminación -ne y el artículo la.",
+   "origen": "tatoeba:1895007",
+   "explicacion_breve": "Valise es femenino singular: la mienne.",
+   "traduccion": "No es la mía (mi maleta).",
+   "por_opcion": {
+    "la mienne": "Correcta: femenino singular, como valise, con el poseedor je.",
+    "le mien": "Incorrecta: es masculino; valise es femenino.",
+    "les miennes": "Incorrecta: es plural; se habla de una sola maleta."
+   },
+   "glosario": [
+    {
+     "palabra": "la valise",
+     "significado": "la maleta"
+    }
+   ]
+  },
+  {
+   "id": "e03",
+   "tipo": "hueco",
+   "enunciado": "Completa con el pronombre posesivo (de vous).",
+   "frase": "Ma maison est la ___.",
+   "respuestas": [
+    "vôtre"
+   ],
+   "explicacion": "El poseedor es vous y el objeto, maison, es femenino singular: la vôtre. La ficha subraya que nôtre y vôtre, como pronombres, llevan acento circunflejo y se pronuncian con o cerrada, a diferencia de los determinantes notre y votre. La frase es la fórmula hospitalaria «mi casa es su casa».",
+   "origen": "tatoeba:1015332",
+   "explicacion_breve": "Poseedor vous, lo poseído femenino: la vôtre, con acento.",
+   "traduccion": "Mi casa es la suya (de usted). / Mi casa es la vuestra.",
+   "errores_previstos": [
+    {
+     "respuesta": "votre",
+     "explicacion": "Sin acento es el determinante (votre maison). El pronombre lleva circunflejo: la vôtre."
+    },
+    {
+     "respuesta": "vôtres",
+     "explicacion": "Vôtres es plural; se habla de una sola casa: la vôtre."
+    },
+    {
+     "respuesta": "sienne",
+     "explicacion": "La sienne es de il o elle. Para el «suyo» de usted se usa vous: la vôtre."
+    }
+   ]
+  },
+  {
+   "id": "e04",
+   "tipo": "corregir",
+   "enunciado": "Corrige el error.",
+   "frase": "Cette maison est le sien.",
+   "respuestas": [
+    "Cette maison est la sienne."
+   ],
+   "explicacion": "El pronombre concuerda con el objeto, que es maison, femenino singular: por la tabla, la sienne. Le sien sería para un objeto masculino. Igual que con son y sa, la forma no dice si el poseedor es hombre o mujer; eso lo aclara el contexto.",
+   "origen": "tatoeba:557872",
+   "explicacion_breve": "Maison es femenino: la sienne.",
+   "traduccion": "Esta casa es la suya (de él o de ella).",
+   "errores_previstos": [
+    {
+     "respuesta": "Cette maison est le sien.",
+     "explicacion": "Es la frase sin corregir: maison es femenino, la sienne."
+    },
+    {
+     "respuesta": "Cette maison est la sien.",
+     "explicacion": "El artículo ya concuerda, pero la forma también: sienne, con -ne."
+    },
+    {
+     "respuesta": "Cette maison est la siennes.",
+     "explicacion": "La -s marca plural; se habla de una sola casa: la sienne."
+    }
+   ]
+  },
+  {
+   "id": "e05",
+   "tipo": "eleccion",
+   "enunciado": "Elige el pronombre correcto.",
+   "frase": "Ton vélo est meilleur que ___.",
+   "opciones": [
+    "le mien",
+    "la mienne",
+    "les miens"
+   ],
+   "respuestas": [
+    "le mien"
+   ],
+   "explicacion": "Es el caso de la ficha en que el género francés no coincide con el español: vélo es masculino en francés, aunque «bici» o «bicicleta» sean femeninos. El pronombre concuerda con vélo: le mien. Es una de las trampas más habituales para un hispanohablante.",
+   "origen": "tatoeba:481837",
+   "explicacion_breve": "Vélo es masculino en francés: le mien, aunque en español sea «la mía».",
+   "traduccion": "Tu bici es mejor que la mía.",
+   "por_opcion": {
+    "le mien": "Correcta: vélo es masculino en francés, así que el pronombre va en masculino singular.",
+    "la mienne": "Incorrecta: concuerda con el español «la bici», pero en francés vélo es masculino.",
+    "les miens": "Incorrecta: es plural; se compara una sola bici."
+   }
+  },
+  {
+   "id": "e06",
+   "tipo": "hueco",
+   "enunciado": "Completa con el pronombre posesivo (tuya).",
+   "frase": "C'est ma faute, pas la ___.",
+   "respuestas": [
+    "tienne"
+   ],
+   "explicacion": "El pronombre sustituye a ta faute. Faute es femenino singular y el poseedor es tu, así que según la tabla la tienne, con doble n y -e. El artículo la ya está escrito en la frase, lo que confirma el femenino.",
+   "origen": "tatoeba:899286",
+   "explicacion_breve": "Faute es femenino, poseedor tu: la tienne.",
+   "traduccion": "Es culpa mía, no tuya.",
+   "errores_previstos": [
+    {
+     "respuesta": "tien",
+     "explicacion": "Tien es masculino; faute es femenino: la tienne."
+    },
+    {
+     "respuesta": "tiene",
+     "explicacion": "El femenino de tien dobla la n: tienne."
+    },
+    {
+     "respuesta": "tienne faute",
+     "explicacion": "El pronombre ya sustituye al nombre; no se repite faute: la tienne."
+    }
+   ]
+  },
+  {
+   "id": "e07",
+   "tipo": "corregir",
+   "enunciado": "Corrige el error.",
+   "frase": "C'est ton problème, pas la mienne.",
+   "respuestas": [
+    "C'est ton problème, pas le mien."
+   ],
+   "explicacion": "El pronombre concuerda con problème, que es masculino en francés (igual que en español). Por eso le mien, no la mienne. La trampa está en la terminación -e de problème, que puede hacer pensar en un femenino, pero el artículo le problème no deja dudas.",
+   "origen": "tatoeba:1903121",
+   "explicacion_breve": "Problème es masculino: le mien.",
+   "traduccion": "Es tu problema, no el mío.",
+   "errores_previstos": [
+    {
+     "respuesta": "C'est ton problème, pas la mienne.",
+     "explicacion": "Es la frase sin corregir: problème es masculino, le mien."
+    },
+    {
+     "respuesta": "C'est ton problème, pas le mienne.",
+     "explicacion": "El artículo es correcto, pero la forma también debe ir en masculino: mien."
+    },
+    {
+     "respuesta": "C'est ton problème, pas mon.",
+     "explicacion": "Mon es determinante y necesita un nombre; sin nombre hace falta el pronombre le mien."
+    }
+   ]
+  },
+  {
+   "id": "e08",
+   "tipo": "transformar",
+   "enunciado": "Evita repetir el nombre con un pronombre posesivo.",
+   "frase": "Sa maison est en face de ma maison.",
+   "respuestas": [
+    "Sa maison est en face de la mienne."
+   ],
+   "explicacion": "Para no repetir ma maison se usa el pronombre posesivo, que concuerda con maison (femenino singular) y con el poseedor je: la mienne. La preposición de de en face de se mantiene, y como el artículo es la, no hay contracción: de la mienne.",
+   "origen": "tatoeba:524996",
+   "explicacion_breve": "Ma maison → la mienne.",
+   "traduccion": "Su casa está enfrente de la mía.",
+   "errores_previstos": [
+    {
+     "respuesta": "Sa maison est en face du mien.",
+     "explicacion": "Maison es femenino: de la mienne. Du mien sería para un objeto masculino."
+    },
+    {
+     "respuesta": "Sa maison est en face de mienne.",
+     "explicacion": "El pronombre necesita artículo: de la mienne."
+    },
+    {
+     "respuesta": "Sa maison est en face de la mien.",
+     "explicacion": "La forma también debe ir en femenino: mienne."
+    }
+   ]
+  },
+  {
+   "id": "e09",
+   "tipo": "ordenar",
+   "enunciado": "Ordena las palabras.",
+   "palabras": [
+    "le",
+    "du",
+    "est",
+    "Celui",
+    "mien",
+    "milieu"
+   ],
+   "respuestas": [
+    "Celui du milieu est le mien",
+    "Le mien est celui du milieu"
+   ],
+   "explicacion": "La frase tiene la estructura sujeto + est + pronombre posesivo. Celui du milieu (el del medio) es el sujeto, y le mien el atributo; también se acepta el orden inverso, le mien est celui du milieu. Du es la contracción de + le, obligatoria ante milieu.",
+   "origen": "tatoeba:6287745",
+   "explicacion_breve": "Sujeto (celui du milieu) + est + posesivo.",
+   "traduccion": "El del medio es el mío.",
+   "errores_previstos": [
+    {
+     "respuesta": "Celui est du milieu le mien",
+     "explicacion": "Celui du milieu forma un bloque: el verbo est va detrás, celui du milieu est le mien."
+    },
+    {
+     "respuesta": "Celui du milieu le mien est",
+     "explicacion": "El verbo va entre el sujeto y el atributo: celui du milieu est le mien."
+    },
+    {
+     "respuesta": "Celui du milieu est mien le",
+     "explicacion": "El artículo va delante de la forma posesiva: le mien."
+    }
+   ]
+  },
+  {
+   "id": "e10",
+   "tipo": "eleccion",
+   "enunciado": "Elige la forma correcta (notre parasol).",
+   "frase": "Pourquoi as-tu pris ___ ?",
+   "opciones": [
+    "le nôtre",
+    "le notre",
+    "la nôtre"
+   ],
+   "respuestas": [
+    "le nôtre"
+   ],
+   "explicacion": "El pronombre sustituye a notre parasol, masculino singular, con el poseedor nous: le nôtre. La ficha insiste en que el pronombre lleva acento circunflejo, a diferencia del determinante notre. Así se distinguen por escrito, y también al oído, porque nôtre tiene una o cerrada.",
+   "origen": "tatoeba:8836443",
+   "explicacion_breve": "Parasol es masculino y el pronombre lleva acento: le nôtre.",
+   "traduccion": "¿Por qué has cogido el nuestro (nuestro parasol)?",
+   "por_opcion": {
+    "le nôtre": "Correcta: masculino singular con el acento circunflejo propio del pronombre.",
+    "le notre": "Incorrecta: falta el acento; notre sin acento es el determinante.",
+    "la nôtre": "Incorrecta: parasol es masculino, así que el artículo es le."
+   },
+   "glosario": [
+    {
+     "palabra": "le parasol",
+     "significado": "la sombrilla"
+    }
+   ]
+  },
+  {
+   "id": "e11",
+   "tipo": "corregir",
+   "enunciado": "Corrige el error.",
+   "frase": "Notre maison est la votre.",
+   "respuestas": [
+    "Notre maison est la vôtre."
+   ],
+   "explicacion": "Votre sin acento es el determinante y necesita un nombre detrás; como aquí funciona como pronombre (sustituye a votre maison), debe llevar circunflejo: la vôtre. La regla está en la lista de la ficha sobre nôtre y vôtre. Notre al principio sí va sin acento, porque es determinante de maison.",
+   "origen": "tatoeba:1283264",
+   "explicacion_breve": "El pronombre posesivo se escribe con acento: la vôtre.",
+   "traduccion": "Nuestra casa es la suya (de usted). / Nuestra casa es la vuestra.",
+   "errores_previstos": [
+    {
+     "respuesta": "Notre maison est la votre.",
+     "explicacion": "Es la frase sin corregir: el pronombre lleva acento, la vôtre."
+    },
+    {
+     "respuesta": "Nôtre maison est la vôtre.",
+     "explicacion": "Se ha añadido un acento indebido: notre delante de un nombre es determinante y va sin acento."
+    },
+    {
+     "respuesta": "Notre maison est le vôtre.",
+     "explicacion": "Maison es femenino: la vôtre."
+    }
+   ]
+  },
+  {
+   "id": "e12",
+   "tipo": "hueco",
+   "enunciado": "Completa con la preposición y el artículo contraídos.",
+   "frase": "Je pense souvent à mes neveux. — Moi, je pense rarement ___ miens.",
+   "respuestas": [
+    "aux"
+   ],
+   "explicacion": "La ficha recuerda que el artículo del pronombre posesivo se contrae con à y de, igual que el artículo normal. Penser à exige à, y el pronombre es les miens (por mes neveux): à + les = aux. Por eso, je pense rarement aux miens.",
+   "explicacion_breve": "Penser à + les miens: à + les = aux.",
+   "traduccion": "Pienso a menudo en mis sobrinos. — Yo pienso pocas veces en los míos.",
+   "errores_previstos": [
+    {
+     "respuesta": "à les",
+     "explicacion": "À y les se contraen siempre: aux."
+    },
+    {
+     "respuesta": "au",
+     "explicacion": "Au es à + le (singular); con les miens, plural, es aux."
+    },
+    {
+     "respuesta": "des",
+     "explicacion": "Des es de + les; el verbo penser rige à: aux miens."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "un neveu, des neveux",
+     "significado": "un sobrino, unos sobrinos"
+    }
+   ]
+  },
+  {
+   "id": "e13",
+   "tipo": "transformar",
+   "enunciado": "Evita repetir el nombre con un pronombre posesivo.",
+   "frase": "Tes parents sont américains ; mes parents sont français.",
+   "respuestas": [
+    "Tes parents sont américains ; les miens sont français."
+   ],
+   "explicacion": "Para no repetir mes parents se usa el pronombre posesivo de je en masculino plural, que concuerda con parents: les miens. Es el uso básico de la ficha: el pronombre sustituye al grupo posesivo + nombre ya mencionado, en una comparación o contraste.",
+   "explicacion_breve": "Mes parents → les miens.",
+   "traduccion": "Tus padres son estadounidenses; los míos son franceses.",
+   "errores_previstos": [
+    {
+     "respuesta": "Tes parents sont américains ; les miennes sont français.",
+     "explicacion": "Miennes es femenino; parents es masculino: les miens."
+    },
+    {
+     "respuesta": "Tes parents sont américains ; mes sont français.",
+     "explicacion": "Mes es determinante y necesita un nombre; sin él hace falta el pronombre les miens."
+    },
+    {
+     "respuesta": "Tes parents sont américains ; les mien sont français.",
+     "explicacion": "El pronombre concuerda en plural: miens, con s."
+    }
+   ]
+  },
+  {
+   "id": "e14",
+   "tipo": "eleccion",
+   "enunciado": "Elige el pronombre correcto (sus libros, de ellos).",
+   "frase": "J'ai acheté mes livres. Joe et Ed ont-ils acheté ___ ?",
+   "opciones": [
+    "les leurs",
+    "les siens",
+    "leurs"
+   ],
+   "respuestas": [
+    "les leurs"
+   ],
+   "explicacion": "Para «los suyos» de ellos, la tabla da le leur, la leur, les leurs. Joe y Ed son varios poseedores y los libros, varios objetos, así que les leurs. Les siens sería para un solo poseedor. La pregunta usa la inversión con nombre sujeto: Joe et Ed ont-ils acheté.",
+   "explicacion_breve": "Varios poseedores (ellos) y varios objetos: les leurs.",
+   "traduccion": "He comprado mis libros. ¿Han comprado Joe y Ed los suyos?",
+   "por_opcion": {
+    "les leurs": "Correcta: pronombre de varios poseedores (ellos) para varios objetos.",
+    "les siens": "Incorrecta: les siens es para un solo poseedor (él o ella).",
+    "leurs": "Incorrecta: leurs sin artículo es determinante y necesita un nombre detrás (leurs livres)."
+   }
+  },
+  {
+   "id": "e15",
+   "tipo": "hueco",
+   "enunciado": "Completa el brindis.",
+   "frase": "À ta santé ! — À la ___ !",
+   "respuestas": [
+    "tienne"
+   ],
+   "explicacion": "Es una de las expresiones fijas de la lista: À la tienne ! responde a un brindis tuteando. Sustituye a ta santé, y santé es femenino singular, de ahí la tienne. Si se brinda de usted o a varios, se dice À la vôtre !",
+   "explicacion_breve": "La santé es femenino, y se responde al tú: à la tienne.",
+   "traduccion": "¡A tu salud! — ¡A la tuya!",
+   "errores_previstos": [
+    {
+     "respuesta": "tien",
+     "explicacion": "Santé es femenino: la tienne."
+    },
+    {
+     "respuesta": "tiene",
+     "explicacion": "El femenino lleva doble n: tienne."
+    },
+    {
+     "respuesta": "mienne",
+     "explicacion": "Se responde a la salud del otro, al que se tutea: à la tienne."
+    }
+   ]
+  },
+  {
+   "id": "e16",
+   "tipo": "eleccion",
+   "enunciado": "Elige el pronombre correcto.",
+   "frase": "Paul a perdu sa clé, et Marie a perdu ___.",
+   "opciones": [
+    "la sienne",
+    "le sien",
+    "la leur"
+   ],
+   "respuestas": [
+    "la sienne"
+   ],
+   "explicacion": "El pronombre sustituye a sa clé de Marie. Clé es femenino singular, y la poseedora es una sola persona, así que la sienne. Le sien sería para un objeto masculino y la leur para varios poseedores. Como siempre, el género del pronombre no depende de que Marie sea mujer, sino de clé.",
+   "explicacion_breve": "Clé es femenino, poseedora una sola persona: la sienne.",
+   "traduccion": "Paul ha perdido su llave, y Marie ha perdido la suya.",
+   "por_opcion": {
+    "la sienne": "Correcta: femenino singular como clé, con un solo poseedor.",
+    "le sien": "Incorrecta: es masculino; clé es femenino.",
+    "la leur": "Incorrecta: la leur es para varios poseedores, y Marie es una sola."
+   }
+  }
  ],
- "fuente": {"nombre": "Tex's French Grammar", "autores": "COERLL, Universidad de Texas en Austin", "licencia": "CC BY 3.0", "url": "https://laits.utexas.edu/tex/gr/pro12.html", "otras": ["Frases de Tatoeba (CC BY 2.0 FR)"]}
+ "fuente": {
+  "nombre": "Tex's French Grammar",
+  "autores": "COERLL, Universidad de Texas en Austin",
+  "licencia": "CC BY 3.0",
+  "url": "https://laits.utexas.edu/tex/gr/pro12.html",
+  "otras": [
+   "Frases de Tatoeba (CC BY 2.0 FR)"
+  ]
+ },
+ "descripcion_larga_es": "Los pronombres posesivos (le mien, la tienne, les nôtres…) sustituyen a un nombre con posesivo para no repetirlo: C'est ton béret ? — Oui, c'est le mien. Siempre llevan artículo y concuerdan con la cosa poseída, no con el poseedor. Al hispanohablante le cuestan cuando el género no coincide con el español (le vélo, «la bici»), por el acento de nôtre y vôtre y por las contracciones aux miens, du sien.",
+ "contexto": {
+  "que_es": "Son formas que reemplazan a un grupo «posesivo + nombre» ya mencionado: le mien (el mío), la tienne (la tuya), les siens (los suyos), le nôtre, le vôtre, le leur… Se componen de un artículo definido y una forma posesiva que concuerdan en género y número con el objeto, no con quien lo posee.",
+  "por_que_importa": "Evitan repeticiones pesadas en comparaciones y respuestas (ta voiture est plus grande que la mienne), algo constante en la conversación y en la argumentación escrita. Un error de género (la mien) o la falta de acento en la vôtre se nota y se penaliza. Además aparecen en expresiones muy idiomáticas: à la tienne, les miens, y mettre du sien.",
+  "cuando_se_usa": "Cuando el nombre ya se ha dicho y quieres retomarlo con su poseedor: en comparaciones, réplicas y contrastes (pas le mien, mais le tien). Para la forma, primero mira el poseedor (je → mien, nous → nôtre) y después el género y número del objeto en francés. El hispanohablante debe desconfiar del género español y recordar que, para decir simplemente «es mío», lo natural es c'est à moi."
+ }
 }

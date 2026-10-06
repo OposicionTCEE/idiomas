@@ -148,8 +148,24 @@
    "respuestas": [
     "sais"
    ],
-   "explicacion": "Seguido de où: savoir.",
-   "origen": "tatoeba:7467"
+   "explicacion": "Se aplica la regla sintáctica de la tabla de Reglas y claves: savoir puede ir seguido de que, où, si, qui…, y connaître nunca. Aquí detrás del hueco viene «où tu habites», una subordinada introducida por «où», así que el verbo es savoir. En presente con «je» la forma es «sais».",
+   "origen": "tatoeba:7467",
+   "explicacion_breve": "Seguido de où: savoir.",
+   "traduccion": "Sé dónde vives.",
+   "errores_previstos": [
+    {
+     "respuesta": "connais",
+     "explicacion": "Connaître va siempre seguido de un nombre; delante de «où» y una subordinada se usa savoir."
+    },
+    {
+     "respuesta": "sait",
+     "explicacion": "Es la forma de la tercera persona; con «je» se escribe «sais»."
+    },
+    {
+     "respuesta": "sé",
+     "explicacion": "Es la forma española; en francés, con «je», es «sais»."
+    }
+   ]
   },
   {
    "id": "e02",
@@ -159,8 +175,24 @@
    "respuestas": [
     "connais"
    ],
-   "explicacion": "Persona: connaître.",
-   "origen": "tatoeba:6616"
+   "explicacion": "El complemento es una persona, «ton père», y según la tabla de construcciones de Reglas y claves, con personas se usa connaître. En presente con «je» la forma es «connais». Observa que, a diferencia del español «conozco a», en francés no hay preposición delante de la persona.",
+   "origen": "tatoeba:6616",
+   "explicacion_breve": "Persona: connaître.",
+   "traduccion": "Conozco a tu padre.",
+   "errores_previstos": [
+    {
+     "respuesta": "sais",
+     "explicacion": "Savoir no se usa con personas; para conocer a alguien se usa connaître."
+    },
+    {
+     "respuesta": "connaît",
+     "explicacion": "Es la forma de la tercera persona (il connaît); con «je» es «connais»."
+    },
+    {
+     "respuesta": "connais à",
+     "explicacion": "Calco de «conozco a»: el complemento de persona no lleva preposición en francés."
+    }
+   ]
   },
   {
    "id": "e03",
@@ -171,8 +203,24 @@
     "connaît",
     "connait"
    ],
-   "explicacion": "Conocer a alguien: connaître (il connaît).",
-   "origen": "tatoeba:431892"
+   "explicacion": "El complemento es una persona, el pronombre «me» (a mí), así que corresponde connaître: conocer a alguien. Con el sujeto «il» la forma es «connaît», con acento circunflejo en la i delante de la t. La lista de Reglas y claves recuerda que la ortografía reformada de 1990 admite también «connait» sin acento, por eso se aceptan ambas.",
+   "origen": "tatoeba:431892",
+   "explicacion_breve": "Conocer a alguien: connaître (il connaît).",
+   "traduccion": "No me conoce.",
+   "errores_previstos": [
+    {
+     "respuesta": "sait",
+     "explicacion": "«Il ne me sait pas» no tiene sentido: no se «sabe» a una persona; se la conoce, connaître."
+    },
+    {
+     "respuesta": "connais",
+     "explicacion": "Es la forma de je o tu; con «il» es «connaît»."
+    },
+    {
+     "respuesta": "connaîs",
+     "explicacion": "La tercera persona no lleva -s: il connaît."
+    }
+   ]
   },
   {
    "id": "e04",
@@ -182,8 +230,24 @@
    "respuestas": [
     "sait"
    ],
-   "explicacion": "Habilidad + infinitivo: savoir.",
-   "origen": "tatoeba:7699319"
+   "explicacion": "Detrás del hueco viene un infinitivo, «lire», que expresa una habilidad. La tabla de construcciones de Reglas y claves indica que savoir + infinitivo expresa lo que se sabe hacer. Con el sujeto Tom, tercera persona del singular, la forma es «sait».",
+   "origen": "tatoeba:7699319",
+   "explicacion_breve": "Habilidad + infinitivo: savoir.",
+   "traduccion": "Tom ya sabe leer.",
+   "errores_previstos": [
+    {
+     "respuesta": "connaît",
+     "explicacion": "Connaître no puede ir seguido de un infinitivo; la habilidad se expresa con savoir."
+    },
+    {
+     "respuesta": "sais",
+     "explicacion": "Es la forma de je o tu; con un sujeto de tercera persona es «sait»."
+    },
+    {
+     "respuesta": "peut",
+     "explicacion": "«Pouvoir» indica posibilidad o permiso; para una habilidad aprendida (saber leer) se usa savoir."
+    }
+   ]
   },
   {
    "id": "e05",
@@ -193,8 +257,24 @@
    "respuestas": [
     "savent"
    ],
-   "explicacion": "Savoir: ils savent.",
-   "origen": "tatoeba:6997603"
+   "explicacion": "La consigna pide conjugar savoir en presente con «ils». En la tabla de conjugación de Reglas y claves la forma es «savent», con la raíz «sav-» del plural (nous savons, vous savez, ils savent). «Ne… rien» es la negación «no… nada».",
+   "origen": "tatoeba:6997603",
+   "explicacion_breve": "Savoir: ils savent.",
+   "traduccion": "No saben nada.",
+   "errores_previstos": [
+    {
+     "respuesta": "saient",
+     "explicacion": "Es una forma inventada a partir de «sais»; el plural usa la raíz sav-: ils savent."
+    },
+    {
+     "respuesta": "sait",
+     "explicacion": "Es la forma del singular (il sait); con «ils» es «savent»."
+    },
+    {
+     "respuesta": "savont",
+     "explicacion": "La terminación de ils en presente es -ent, no -ont: ils savent."
+    }
+   ]
   },
   {
    "id": "e06",
@@ -204,8 +284,20 @@
    "respuestas": [
     "sais"
    ],
-   "explicacion": "Seguido de que: savoir.",
-   "origen": "tatoeba:6931124"
+   "explicacion": "Detrás del hueco viene «que tu mens», una subordinada completiva. La regla sintáctica de Reglas y claves dice que savoir puede ir seguido de que y connaître nunca. Por tanto se usa savoir, y con «je» la forma es «sais».",
+   "origen": "tatoeba:6931124",
+   "explicacion_breve": "Seguido de que: savoir.",
+   "traduccion": "Sé que mientes.",
+   "errores_previstos": [
+    {
+     "respuesta": "connais",
+     "explicacion": "Connaître no admite una subordinada con que; es el error que señala la ficha."
+    },
+    {
+     "respuesta": "sait",
+     "explicacion": "Con «je» la forma es «sais», con -s."
+    }
+   ]
   },
   {
    "id": "e07",
@@ -215,7 +307,23 @@
    "respuestas": [
     "connaissez"
    ],
-   "explicacion": "Un lugar: connaître; vous connaissez."
+   "explicacion": "El complemento es un lugar, «un bon restaurant», y la tabla de construcciones indica que con lugares se usa connaître. La consigna pide conjugarlo en presente con «vous»: «vous connaissez», con la raíz «connaiss-» del plural.",
+   "explicacion_breve": "Un lugar: connaître; vous connaissez.",
+   "traduccion": "¿Conocen ustedes un buen restaurante cerca de aquí?",
+   "errores_previstos": [
+    {
+     "respuesta": "savez",
+     "explicacion": "Un lugar se conoce: connaître. Savoir no va seguido de un nombre de lugar."
+    },
+    {
+     "respuesta": "connaîtez",
+     "explicacion": "El plural usa la raíz connaiss-: vous connaissez."
+    },
+    {
+     "respuesta": "conaissez",
+     "explicacion": "Error de escritura: connaître lleva dos n."
+    }
+   ]
   },
   {
    "id": "e08",
@@ -229,7 +337,13 @@
    "respuestas": [
     "connais"
    ],
-   "explicacion": "Un lugar: connaître."
+   "explicacion": "El complemento es un lugar, «Paris», y según la tabla de construcciones de Reglas y claves los lugares se conocen: connaître. «Tu connais Paris ?» pregunta si se ha estado allí o se tiene familiaridad con la ciudad, igual que en español.",
+   "explicacion_breve": "Un lugar: connaître.",
+   "traduccion": "¿Conoces París?",
+   "por_opcion": {
+    "connais": "Correcta: connaître con un lugar, segunda persona del singular.",
+    "sais": "Incorrecta: savoir no puede ir seguido directamente de un nombre de lugar; se usaría en «tu sais où est Paris ?»."
+   }
   },
   {
    "id": "e09",
@@ -243,7 +357,13 @@
    "respuestas": [
     "savez"
    ],
-   "explicacion": "Seguido de si: savoir."
+   "explicacion": "Detrás del hueco viene «si le musée est ouvert», una pregunta indirecta introducida por «si». La regla sintáctica de Reglas y claves dice que savoir puede ir seguido de si y connaître no. Aunque se hable de un museo, lo que se pregunta es una información, no si se conoce el lugar.",
+   "explicacion_breve": "Seguido de si: savoir.",
+   "traduccion": "¿Saben ustedes si el museo está abierto?",
+   "por_opcion": {
+    "savez": "Correcta: savoir + si, pedir una información.",
+    "connaissez": "Incorrecta: connaître no admite una subordinada con si; se diría «vous connaissez ce musée ?» para preguntar si lo han visitado."
+   }
   },
   {
    "id": "e10",
@@ -257,8 +377,14 @@
    "respuestas": [
     "connais"
    ],
-   "explicacion": "Personas: connaître.",
-   "origen": "tatoeba:1473553"
+   "explicacion": "El complemento son personas, «ces femmes», y con personas se usa connaître, según la tabla de construcciones. Con «je» la forma es «connais». No hay preposición delante de las personas, a diferencia del español «conozco a».",
+   "origen": "tatoeba:1473553",
+   "explicacion_breve": "Personas: connaître.",
+   "traduccion": "Conozco a estas mujeres.",
+   "por_opcion": {
+    "connais": "Correcta: connaître con personas.",
+    "sais": "Incorrecta: a las personas no se las «sabe»; savoir no se usa con un complemento de persona."
+   }
   },
   {
    "id": "e11",
@@ -272,7 +398,13 @@
    "respuestas": [
     "sait"
    ],
-   "explicacion": "Saber hacer algo (+ infinitivo): savoir."
+   "explicacion": "Detrás del hueco viene un infinitivo, «jouer», que expresa una habilidad aprendida. Según la tabla de construcciones, savoir + infinitivo es «saber hacer algo», así que la forma con «elle» es «sait». Observa además «jouer du piano»: con instrumentos, «jouer de».",
+   "explicacion_breve": "Saber hacer algo (+ infinitivo): savoir.",
+   "traduccion": "Sabe tocar el piano.",
+   "por_opcion": {
+    "sait": "Correcta: savoir + infinitivo para una habilidad.",
+    "connaît": "Incorrecta: connaître nunca va seguido de un infinitivo; «elle connaît le piano» significaría que está familiarizada con el instrumento, no que sepa tocarlo."
+   }
   },
   {
    "id": "e12",
@@ -286,7 +418,13 @@
    "respuestas": [
     "connaissent"
    ],
-   "explicacion": "Se connaître = conocerse."
+   "explicacion": "La lista de Reglas y claves recoge «se connaître = conocerse», con el ejemplo exacto de esta frase. Es un verbo pronominal recíproco: cada uno conoce al otro. Con «ils» la forma es «se connaissent». «Depuis l'enfance» indica que la relación dura hasta hoy, por eso va en presente.",
+   "explicacion_breve": "Se connaître = conocerse.",
+   "traduccion": "Se conocen desde la infancia.",
+   "por_opcion": {
+    "connaissent": "Correcta: «se connaître», conocerse mutuamente.",
+    "savent": "Incorrecta: «se savoir» existe pero significa «saberse» algo de uno mismo («il se sait malade») o «saberse» en impersonal («ça se sait»); no expresa conocerse."
+   }
   },
   {
    "id": "e13",
@@ -296,7 +434,23 @@
    "respuestas": [
     "Je sais qu'il est malade."
    ],
-   "explicacion": "Connaître no admite una subordinada con que."
+   "explicacion": "Es el primer error de la lista de la ficha. «Connaître» no admite una subordinada con que, porque solo lleva nombres como complemento. Lo que se sabe es un hecho (que está enfermo), así que el verbo es savoir: «Je sais qu'il est malade».",
+   "explicacion_breve": "Connaître no admite una subordinada con que.",
+   "traduccion": "Sé que está enfermo.",
+   "errores_previstos": [
+    {
+     "respuesta": "Je connais qu'il est malade.",
+     "explicacion": "Es la frase sin corregir: connaître no puede ir seguido de que."
+    },
+    {
+     "respuesta": "Je sait qu'il est malade.",
+     "explicacion": "Con «je» la forma es «sais»; «sait» es de la tercera persona."
+    },
+    {
+     "respuesta": "Je sais que il est malade.",
+     "explicacion": "Que se apostrofa ante vocal: qu'il."
+    }
+   ]
   },
   {
    "id": "e14",
@@ -306,7 +460,23 @@
    "respuestas": [
     "Tu connais Marie ?"
    ],
-   "explicacion": "Persona: connaître."
+   "explicacion": "Marie es una persona, y a las personas se las conoce: connaître. La lista de errores de la ficha recoge exactamente este fallo. Además, no hay que añadir preposición: «Tu connais Marie ?», no «connais à Marie».",
+   "explicacion_breve": "Persona: connaître.",
+   "traduccion": "¿Conoces a Marie?",
+   "errores_previstos": [
+    {
+     "respuesta": "Tu sais Marie ?",
+     "explicacion": "Es la frase sin corregir: savoir no se usa con un complemento de persona."
+    },
+    {
+     "respuesta": "Tu connais à Marie ?",
+     "explicacion": "Calco de «conocer a»: en francés el complemento de persona no lleva preposición."
+    },
+    {
+     "respuesta": "Tu connaît Marie ?",
+     "explicacion": "Con «tu» la forma es «connais»; «connaît» es de la tercera persona."
+    }
+   ]
   },
   {
    "id": "e15",
@@ -316,7 +486,23 @@
    "respuestas": [
     "Je ne sais pas nager."
    ],
-   "explicacion": "Habilidad + infinitivo: savoir."
+   "explicacion": "Detrás del verbo viene un infinitivo, «nager», que expresa una habilidad. Según la tabla de construcciones, la habilidad se expresa con savoir + infinitivo; connaître no puede ir seguido de infinitivo. Con «je» y en negativo: «Je ne sais pas nager».",
+   "explicacion_breve": "Habilidad + infinitivo: savoir.",
+   "traduccion": "No sé nadar.",
+   "errores_previstos": [
+    {
+     "respuesta": "Je ne connais pas nager.",
+     "explicacion": "Es la frase sin corregir: connaître no admite infinitivo."
+    },
+    {
+     "respuesta": "Je ne peux pas nager.",
+     "explicacion": "«Pouvoir» indica posibilidad (no puedo nadar ahora, por ejemplo por una lesión); la habilidad aprendida es savoir."
+    },
+    {
+     "respuesta": "Je ne sais nager pas.",
+     "explicacion": "El «pas» va justo después del verbo conjugado, antes del infinitivo: je ne sais pas nager."
+    }
+   ]
   },
   {
    "id": "e16",
@@ -332,8 +518,20 @@
    "respuestas": [
     "Je sais qui tu es"
    ],
-   "explicacion": "Savoir + qui + subordinada.",
-   "origen": "tatoeba:1521168"
+   "explicacion": "Savoir va seguido de una subordinada introducida por «qui» (quién), algo que la tabla de construcciones solo permite a savoir. El orden es sujeto + verbo + qui + sujeto + verbo: «Je sais qui tu es». En la pregunta indirecta no hay inversión, a diferencia de la directa «Qui es-tu ?».",
+   "origen": "tatoeba:1521168",
+   "explicacion_breve": "Savoir + qui + subordinada.",
+   "traduccion": "Sé quién eres.",
+   "errores_previstos": [
+    {
+     "respuesta": "Je sais qui es tu",
+     "explicacion": "En la pregunta indirecta no se invierte el sujeto: qui tu es."
+    },
+    {
+     "respuesta": "Tu sais qui je es",
+     "explicacion": "«Je» exige «suis», no «es»; con estas palabras el único orden posible es Je sais qui tu es."
+    }
+   ]
   }
  ],
  "fuente": {
@@ -344,5 +542,11 @@
   "otras": [
    "Frases de Tatoeba (CC BY 2.0 FR)"
   ]
+ },
+ "descripcion_larga_es": "Savoir y connaître reparten casi igual que saber y conocer: savoir para datos, información y habilidades; connaître para personas, lugares y obras. La regla práctica es sintáctica: savoir puede ir seguido de que, où, si o de un infinitivo; connaître siempre de un nombre. Al hispanohablante le cuesta sobre todo la conjugación irregular y el calco «connaître à» con personas.",
+ "contexto": {
+  "que_es": "Son dos verbos irregulares que expresan conocimiento. Savoir indica que se tiene una información o se domina una habilidad; connaître, que se tiene trato o familiaridad con una persona, un lugar o una obra. Sintácticamente, savoir admite subordinadas e infinitivos, y connaître solo complementos nominales directos.",
+  "por_que_importa": "Son verbos de uso constante en cualquier conversación («je ne sais pas», «tu connais ?»). Confundirlos produce frases que suenan claramente extranjeras, como «je connais qu'il est malade». Además, su conjugación irregular (je sais, ils savent, il connaît) se evalúa con frecuencia en los exámenes de nivel básico e intermedio.",
+  "cuando_se_usa": "Savoir cuando detrás viene que, où, si, qui, comment o un infinitivo (saber hacer algo), o un dato concreto aprendido. Connaître cuando detrás viene una persona, un lugar, una obra o un ámbito. A diferencia del español «conocer a alguien», connaître no lleva preposición delante de la persona: «je connais ton frère»."
  }
 }

@@ -187,9 +187,9 @@
  ],
  "errores_hispanohablantes": [
   {
-   "mal": "J'ai passé l'examen, j'ai un 8 !",
-   "bien": "J'ai réussi l'examen, j'ai un 8 !",
-   "nota": "Passer un examen es presentarse; aprobar es réussir."
+   "mal": "Bonne nouvelle : j'ai passé l'examen, j'ai eu 15 sur 20 !",
+   "bien": "Bonne nouvelle : j'ai réussi l'examen, j'ai eu 15 sur 20 !",
+   "nota": "Passer un examen es presentarse; aprobar es réussir. En Francia las notas van sobre 20 (15 sur 20 es una buena nota)."
   },
   {
    "mal": "Je fais une carrière d'économie.",
@@ -216,7 +216,33 @@
    "respuestas": [
     "réussi"
    ],
-   "explicacion": "Aprobar un examen es réussir."
+   "explicacion": "La ficha insiste en que passer un examen significa presentarse a él y que aprobar es réussir un examen. La pista es Bravo, una felicitación, que solo tiene sentido si el examen ha salido bien. Por eso falta el participio de réussir, réussi: «tu as réussi ton examen». Réussir se construye con complemento directo, sin preposición, en este uso.",
+   "explicacion_breve": "Aprobar un examen es réussir.",
+   "traduccion": "¡Enhorabuena, has aprobado el examen!",
+   "errores_previstos": [
+    {
+     "respuesta": "passé",
+     "explicacion": "Passer un examen es presentarse a él, no aprobarlo. Para felicitar por un aprobado se dice réussir."
+    },
+    {
+     "respuesta": "aprouvé",
+     "explicacion": "Es un calco del español. Approuver significa «dar el visto bueno» a algo, no aprobar un examen."
+    },
+    {
+     "respuesta": "réussit",
+     "explicacion": "Réussit es el presente o el passé simple. Tras as hace falta el participio: réussi."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "réussir un examen",
+     "significado": "aprobar un examen"
+    },
+    {
+     "palabra": "bravo",
+     "significado": "¡enhorabuena!, ¡bien hecho!"
+    }
+   ]
   },
   {
    "id": "e02",
@@ -226,7 +252,37 @@
    "respuestas": [
     "chômage"
    ],
-   "explicacion": "Être au chômage = estar en paro."
+   "explicacion": "La ficha recoge être au chômage como equivalente de «estar en paro». Le chômage es el desempleo, y la locución se construye con au (à + le). La frase ya incluye au, así que solo falta el sustantivo: chômage. La pista es la fermeture de l'usine, que explica por qué ha perdido el trabajo.",
+   "explicacion_breve": "Être au chômage = estar en paro.",
+   "traduccion": "Desde el cierre de la fábrica, está en paro.",
+   "errores_previstos": [
+    {
+     "respuesta": "paro",
+     "explicacion": "Es la palabra española. En francés, estar en paro es être au chômage."
+    },
+    {
+     "respuesta": "chomage",
+     "explicacion": "Falta el acento circunflejo: chômage."
+    },
+    {
+     "respuesta": "chômeur",
+     "explicacion": "Un chômeur es un parado, la persona. La locución es être au chômage."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "être au chômage",
+     "significado": "estar en paro"
+    },
+    {
+     "palabra": "la fermeture",
+     "significado": "el cierre"
+    },
+    {
+     "palabra": "une usine",
+     "significado": "una fábrica"
+    }
+   ]
   },
   {
    "id": "e03",
@@ -236,7 +292,33 @@
    "respuestas": [
     "stage"
    ],
-   "explicacion": "Las prácticas son un stage."
+   "explicacion": "Según la ficha, las prácticas profesionales se llaman un stage, y la colocación es faire un stage. En francés va en singular, aunque en español digamos «unas prácticas». La frase ya contiene je fais un, de modo que solo falta stage. Es una palabra frecuente en currículos y entrevistas, y la persona que lo hace es un stagiaire.",
+   "explicacion_breve": "Las prácticas son un stage.",
+   "traduccion": "Este verano hago unas prácticas en un ministerio.",
+   "errores_previstos": [
+    {
+     "respuesta": "pratiques",
+     "explicacion": "Es un calco del español. Las prácticas profesionales son un stage."
+    },
+    {
+     "respuesta": "stages",
+     "explicacion": "El artículo un exige singular: un stage."
+    },
+    {
+     "respuesta": "practique",
+     "explicacion": "La palabra no existe con ese sentido; las prácticas en una empresa o institución son un stage."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "faire un stage",
+     "significado": "hacer unas prácticas"
+    },
+    {
+     "palabra": "un ministère",
+     "significado": "un ministerio"
+    }
+   ]
   },
   {
    "id": "e04",
@@ -246,7 +328,33 @@
    "respuestas": [
     "concours"
    ],
-   "explicacion": "Una oposición es un concours."
+   "explicacion": "La ficha indica que una oposición, en Francia, es un concours: una prueba competitiva con un número limitado de plazas. La pista es el verbo préparer y la institución pública mencionada, la École nationale de la magistrature, que forma a los jueces. Por eso la palabra es concours, que en singular ya termina en s: le concours.",
+   "explicacion_breve": "Una oposición es un concours.",
+   "traduccion": "Prepara la oposición de la Escuela Nacional de la Magistratura.",
+   "errores_previstos": [
+    {
+     "respuesta": "opposition",
+     "explicacion": "Es un falso amigo: opposition significa oposición política o resistencia, no un proceso selectivo."
+    },
+    {
+     "respuesta": "concour",
+     "explicacion": "Concours termina siempre en s, también en singular."
+    },
+    {
+     "respuesta": "examen",
+     "explicacion": "Un examen no implica competir por plazas. Para un proceso selectivo de la función pública se dice concours."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "un concours",
+     "significado": "una oposición, un concurso selectivo"
+    },
+    {
+     "palabra": "la magistrature",
+     "significado": "la judicatura, la magistratura"
+    }
+   ]
   },
   {
    "id": "e05",
@@ -261,7 +369,28 @@
    "respuestas": [
     "CV"
    ],
-   "explicacion": "Se envía el currículum: le CV."
+   "explicacion": "La ficha recoge un CV (curriculum vitae) entre las palabras de la búsqueda de empleo, junto a poser sa candidature y un entretien. La pista es el verbo envoyer y el destinatario, varias empresas: lo que se envía al buscar trabajo es el currículum. Por eso la respuesta es CV: «J'ai envoyé mon CV à plusieurs entreprises».",
+   "explicacion_breve": "Se envía el currículum: le CV.",
+   "traduccion": "He enviado mi currículum a varias empresas.",
+   "por_opcion": {
+    "CV": "Correcta: le CV es el currículum, el documento que se envía al solicitar un empleo.",
+    "CDI": "Incorrecta: un CDI es un contrato indefinido (contrat à durée indéterminée); se firma, no se envía a varias empresas.",
+    "congé": "Incorrecta: un congé es un permiso o unas vacaciones laborales; no se envía."
+   },
+   "glosario": [
+    {
+     "palabra": "un CV",
+     "significado": "un currículum"
+    },
+    {
+     "palabra": "envoyer",
+     "significado": "enviar"
+    },
+    {
+     "palabra": "plusieurs",
+     "significado": "varios, varias"
+    }
+   ]
   },
   {
    "id": "e06",
@@ -276,7 +405,28 @@
    "respuestas": [
     "CDD"
    ],
-   "explicacion": "Un contrato con fecha de fin es un CDD (contrat à durée déterminée)."
+   "explicacion": "La ficha distingue un CDI, contrato indefinido, de un CDD, contrat à durée déterminée, contrato temporal. La pista es «se termine en juin»: el contrato tiene fecha de fin, así que es un CDD. Un stage no es un contrato de trabajo en sentido estricto, sino unas prácticas.",
+   "explicacion_breve": "Un contrato con fecha de fin es un CDD (contrat à durée déterminée).",
+   "traduccion": "Mi contrato termina en junio: es un contrato temporal.",
+   "por_opcion": {
+    "CDD": "Correcta: contrat à durée déterminée, contrato temporal con fecha de fin.",
+    "CDI": "Incorrecta: contrat à durée indéterminée, contrato indefinido; no termina en una fecha fijada.",
+    "stage": "Incorrecta: un stage son unas prácticas, no un tipo de contrato de trabajo."
+   },
+   "glosario": [
+    {
+     "palabra": "un CDD",
+     "significado": "un contrato temporal"
+    },
+    {
+     "palabra": "un CDI",
+     "significado": "un contrato indefinido"
+    },
+    {
+     "palabra": "se terminer",
+     "significado": "terminar, acabar"
+    }
+   ]
   },
   {
    "id": "e07",
@@ -291,7 +441,24 @@
    "respuestas": [
     "collège"
    ],
-   "explicacion": "De 11 a 15 años se va al collège."
+   "explicacion": "La ficha advierte de que collège no es «colegio» en general, sino el tramo de enseñanza de los 11 a los 15 años, equivalente aproximado a la ESO. La pista es la edad: catorce años. El lycée viene después (15-18, bachillerato) y la université más tarde. Por eso la respuesta es collège: «elle est au collège».",
+   "explicacion_breve": "De 11 a 15 años se va al collège.",
+   "traduccion": "Mi hija tiene catorce años, está en secundaria (en el collège).",
+   "por_opcion": {
+    "collège": "Correcta: centro de secundaria para alumnos de 11 a 15 años; a los 14 se está en él.",
+    "lycée": "Incorrecta: el lycée es para los 15-18 años, el bachillerato.",
+    "université": "Incorrecta: con catorce años no se va a la universidad."
+   },
+   "glosario": [
+    {
+     "palabra": "le collège",
+     "significado": "centro de secundaria (11-15 años)"
+    },
+    {
+     "palabra": "le lycée",
+     "significado": "instituto de bachillerato (15-18 años)"
+    }
+   ]
   },
   {
    "id": "e08",
@@ -306,7 +473,28 @@
    "respuestas": [
     "embaucher"
    ],
-   "explicacion": "Contratar = embaucher; la frase habla de puestos nuevos."
+   "explicacion": "La ficha recoge el par embaucher (contratar) y licencier (despedir). La pista es «manque de personnel»: si falta personal, la empresa va a incorporar gente, no a despedirla. Por eso el verbo es embaucher: «elle va embaucher trois ingénieurs». Observa que embaucher es transitivo directo, sin «a» personal.",
+   "explicacion_breve": "Contratar = embaucher; la frase habla de puestos nuevos.",
+   "traduccion": "A la empresa le falta personal: va a contratar a tres ingenieros.",
+   "por_opcion": {
+    "embaucher": "Correcta: contratar a alguien; lógico si a la empresa le falta personal.",
+    "licencier": "Incorrecta: significa despedir, lo contrario de lo que pide la frase.",
+    "retirer": "Incorrecta: significa retirar o sacar (dinero, un objeto); no se usa para personas en este sentido."
+   },
+   "glosario": [
+    {
+     "palabra": "embaucher",
+     "significado": "contratar"
+    },
+    {
+     "palabra": "licencier",
+     "significado": "despedir"
+    },
+    {
+     "palabra": "manquer de",
+     "significado": "faltar, carecer de"
+    }
+   ]
   },
   {
    "id": "e09",
@@ -321,7 +509,28 @@
    "respuestas": [
     "comme"
    ],
-   "explicacion": "Trabajar de = travailler comme."
+   "explicacion": "La ficha indica que «trabajar de» + profesión se dice travailler comme + profesión, sin artículo. La pista es comptable, un nombre de profesión, justo detrás del hueco. Las preposiciones calcadas del español (de) no sirven. Por eso la respuesta es comme: «Il travaille comme comptable dans une PME».",
+   "explicacion_breve": "Trabajar de = travailler comme.",
+   "traduccion": "Trabaja de contable en una pyme.",
+   "por_opcion": {
+    "comme": "Correcta: travailler comme + profesión equivale a «trabajar de».",
+    "de": "Incorrecta: es el calco de «trabajar de»; en francés no se usa de para la profesión.",
+    "en": "Incorrecta: en introduce un ámbito o un sector (travailler en usine), no una profesión."
+   },
+   "glosario": [
+    {
+     "palabra": "travailler comme",
+     "significado": "trabajar de, trabajar como"
+    },
+    {
+     "palabra": "un comptable",
+     "significado": "un contable"
+    },
+    {
+     "palabra": "une PME",
+     "significado": "una pyme (pequeña y mediana empresa)"
+    }
+   ]
   },
   {
    "id": "e10",
@@ -331,7 +540,33 @@
    "respuestas": [
     "retraite"
    ],
-   "explicacion": "Prendre sa retraite = jubilarse."
+   "explicacion": "La ficha recoge prendre sa retraite como equivalente de «jubilarse». La retraite es la jubilación, y la colocación es fija con prendre y un posesivo. La frase ya incluye prend sa, de modo que falta el sustantivo: retraite. La pista temporal l'année prochaine encaja con este cambio de etapa.",
+   "explicacion_breve": "Prendre sa retraite = jubilarse.",
+   "traduccion": "Mi madre se jubila el año que viene.",
+   "errores_previstos": [
+    {
+     "respuesta": "jubilation",
+     "explicacion": "Es un falso amigo: jubilation significa júbilo, gran alegría. Jubilarse es prendre sa retraite."
+    },
+    {
+     "respuesta": "retrait",
+     "explicacion": "Un retrait es una retirada (de dinero, por ejemplo). La jubilación es la retraite, con e final."
+    },
+    {
+     "respuesta": "retraité",
+     "explicacion": "Retraité es el jubilado, la persona. La expresión es prendre sa retraite."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "prendre sa retraite",
+     "significado": "jubilarse"
+    },
+    {
+     "palabra": "la retraite",
+     "significado": "la jubilación"
+    }
+   ]
   },
   {
    "id": "e11",
@@ -341,7 +576,37 @@
    "respuestas": [
     "Elle fait des études de droit à la Sorbonne."
    ],
-   "explicacion": "Estudiar una carrera = faire des études de."
+   "explicacion": "La ficha advierte de que carrière es un falso amigo: significa la trayectoria profesional, no los estudios universitarios. «Estudiar la carrera de» se dice faire des études de + disciplina. Por eso hay que sustituir une carrière de por des études de: «Elle fait des études de droit à la Sorbonne».",
+   "explicacion_breve": "Estudiar una carrera = faire des études de.",
+   "traduccion": "Estudia Derecho (hace la carrera de Derecho) en la Sorbona.",
+   "errores_previstos": [
+    {
+     "respuesta": "Elle fait une carrière de droit à la Sorbonne.",
+     "explicacion": "Es la frase sin corregir: carrière es la trayectoria profesional, no una carrera universitaria."
+    },
+    {
+     "respuesta": "Elle fait des études du droit à la Sorbonne.",
+     "explicacion": "Tras études de, la disciplina va sin artículo: des études de droit."
+    },
+    {
+     "respuesta": "Elle fait une étude de droit à la Sorbonne.",
+     "explicacion": "En singular, une étude es un estudio o un análisis concreto. La carrera es des études, en plural."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "faire des études de",
+     "significado": "estudiar (una carrera)"
+    },
+    {
+     "palabra": "le droit",
+     "significado": "el Derecho"
+    },
+    {
+     "palabra": "une carrière",
+     "significado": "una trayectoria profesional"
+    }
+   ]
   },
   {
    "id": "e12",
@@ -351,7 +616,33 @@
    "respuestas": [
     "Il travaille comme professeur dans un lycée."
    ],
-   "explicacion": "Travailler comme + profesión."
+   "explicacion": "La ficha indica que la profesión se introduce con travailler comme, no con de. La frase calca el español «trabajar de», así que hay que sustituir de por comme. La profesión va sin artículo: «Il travaille comme professeur dans un lycée». Lycée confirma que se trata de un instituto de bachillerato.",
+   "explicacion_breve": "Travailler comme + profesión.",
+   "traduccion": "Trabaja de profesor en un instituto.",
+   "errores_previstos": [
+    {
+     "respuesta": "Il travaille de professeur dans un lycée.",
+     "explicacion": "Es la frase sin corregir: «trabajar de» es travailler comme."
+    },
+    {
+     "respuesta": "Il travaille comme un professeur dans un lycée.",
+     "explicacion": "Con el artículo, comme un professeur significa «como si fuera un profesor». Para la profesión, sin artículo."
+    },
+    {
+     "respuesta": "Il travaille en professeur dans un lycée.",
+     "explicacion": "En no introduce la profesión. Se dice travailler comme professeur."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "travailler comme",
+     "significado": "trabajar de, trabajar como"
+    },
+    {
+     "palabra": "un lycée",
+     "significado": "un instituto de bachillerato"
+    }
+   ]
   },
   {
    "id": "e13",
@@ -368,7 +659,29 @@
     "J'ai un entretien d'embauche demain",
     "Demain j'ai un entretien d'embauche"
    ],
-   "explicacion": "Entretien d'embauche = entrevista de trabajo."
+   "explicacion": "La ficha recoge un entretien entre las palabras de la búsqueda de empleo; la colocación completa es un entretien d'embauche, «entrevista de trabajo». El complemento d'embauche va siempre detrás de entretien. El adverbio demain puede ir al final o al principio de la frase, y por eso se aceptan los dos órdenes.",
+   "explicacion_breve": "Entretien d'embauche = entrevista de trabajo.",
+   "traduccion": "Mañana tengo una entrevista de trabajo.",
+   "errores_previstos": [
+    {
+     "respuesta": "J'ai un d'embauche entretien demain",
+     "explicacion": "El complemento d'embauche va detrás del nombre: un entretien d'embauche."
+    },
+    {
+     "respuesta": "J'ai demain un d'embauche entretien",
+     "explicacion": "Además de separar el verbo de su complemento, invierte entretien y d'embauche."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "un entretien d'embauche",
+     "significado": "una entrevista de trabajo"
+    },
+    {
+     "palabra": "embaucher",
+     "significado": "contratar"
+    }
+   ]
   },
   {
    "id": "e14",
@@ -384,10 +697,38 @@
    "respuestas": [
     "Elle travaille à temps partiel"
    ],
-   "explicacion": "À temps partiel = a tiempo parcial."
+   "explicacion": "La ficha recoge travailler à temps partiel, «trabajar a tiempo parcial», y su contrario à temps plein, «a jornada completa». La locución lleva la preposición à y el adjetivo partiel detrás de temps. El orden es sujeto + verbo + locución: «Elle travaille à temps partiel», igual que en español.",
+   "explicacion_breve": "À temps partiel = a tiempo parcial.",
+   "traduccion": "Trabaja a tiempo parcial.",
+   "errores_previstos": [
+    {
+     "respuesta": "Elle travaille à partiel temps",
+     "explicacion": "Calca un orden con el adjetivo delante; en francés partiel va detrás del nombre: à temps partiel."
+    },
+    {
+     "respuesta": "Elle à temps partiel travaille",
+     "explicacion": "La locución va detrás del verbo conjugado: elle travaille à temps partiel."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "à temps partiel",
+     "significado": "a tiempo parcial"
+    },
+    {
+     "palabra": "à temps plein",
+     "significado": "a jornada completa"
+    }
+   ]
   }
  ],
  "fuente": {
   "nombre": "propia"
+ },
+ "descripcion_larga_es": "Vocabulario básico para hablar del trabajo (empleo, sueldo, contrato, horario, paro, jubilación) y de los estudios (colegio, universidad, exámenes, prácticas, oposiciones). Aparece en cualquier presentación personal y en entrevistas. Al hispanohablante le juegan malas pasadas varios falsos amigos: passer un examen no es aprobarlo, carrière no es una carrera universitaria, collège no es cualquier colegio y una oposición francesa es un concours.",
+ "contexto": {
+  "que_es": "Es el léxico del mundo laboral y académico: profesiones, empresas, contratos (CDI, CDD), condiciones de trabajo, búsqueda de empleo, y las etapas y pruebas del sistema educativo francés. Incluye colocaciones fijas como faire un stage, passer un examen, prendre sa retraite o travailler comme.",
+  "por_que_importa": "Hablar de lo que uno estudia o en qué trabaja es de lo primero que se pide en una conversación o en un examen oral. Muchas palabras parecen transparentes y no lo son, así que un error puede cambiar el mensaje: decir que se ha «passé» un examen no informa de si se ha aprobado. Para un opositor, conocer concours y fonction publique permite explicar su propia situación.",
+  "cuando_se_usa": "Se usa al presentarse, al redactar un CV o una carta de motivación, en entrevistas de trabajo y al hablar de la vida diaria. Las señales son los contextos de empleo y formación. El hispanohablante tiende a calcar «carrera», «prácticas», «estar en paro» o «trabajar de», y a confundir collège con «colegio»; en francés son des études, un stage, être au chômage, travailler comme y le collège solo para los 11-15 años."
  }
 }

@@ -121,7 +121,23 @@
    "respuestas": [
     "Je n'ai pas compris."
    ],
-   "explicacion": "El escrito exige ne… pas."
+   "explicacion": "El rasgo oral es la negación sin ne, primera fila de la tabla de Reglas y claves («J'ai rien vu» frente a «Je n'ai rien vu»). En el escrito hay que restituir el ne delante del verbo conjugado, que aquí es el auxiliar «ai». Como «ai» empieza por vocal, ne se apostrofa: «Je n'ai pas compris». Al deshacerse la contracción oral «j'ai», el sujeto vuelve a ser «Je».",
+   "explicacion_breve": "El escrito exige ne… pas.",
+   "traduccion": "No lo he entendido.",
+   "errores_previstos": [
+    {
+     "respuesta": "J'ai pas compris.",
+     "explicacion": "Es la frase de partida: sigue faltando el ne."
+    },
+    {
+     "respuesta": "Je ne ai pas compris.",
+     "explicacion": "Ne se apostrofa ante vocal: je n'ai."
+    },
+    {
+     "respuesta": "Je n'ai compris pas.",
+     "explicacion": "En los tiempos compuestos pas va entre el auxiliar y el participio: je n'ai pas compris."
+    }
+   ]
   },
   {
    "id": "e02",
@@ -131,7 +147,23 @@
    "respuestas": [
     "Nous sommes arrivés hier."
    ],
-   "explicacion": "On = nous en el oral; el escrito formal usa nous."
+   "explicacion": "La tabla de Reglas y claves recoge el on oral como equivalente de nous («On est contents» frente a «Nous sommes contents»). Para el registro escrito se sustituye por nous y se conjuga el verbo en primera persona del plural: «nous sommes arrivés». El participio ya estaba en plural porque con on = nous se suele concordar con el grupo real, así que se mantiene «arrivés».",
+   "explicacion_breve": "On = nous en el oral; el escrito formal usa nous.",
+   "traduccion": "Llegamos ayer.",
+   "errores_previstos": [
+    {
+     "respuesta": "Nous est arrivés hier.",
+     "explicacion": "Al cambiar on por nous hay que conjugar el verbo con nous: sommes."
+    },
+    {
+     "respuesta": "Nous sommes arrivé hier.",
+     "explicacion": "Con être el participio concuerda con el sujeto plural: arrivés."
+    },
+    {
+     "respuesta": "Nous avons arrivés hier.",
+     "explicacion": "«Arriver» forma los tiempos compuestos con être, no con avoir."
+    }
+   ]
   },
   {
    "id": "e03",
@@ -142,7 +174,23 @@
     "Où habitez-vous ?",
     "Où habitez-vous?"
    ],
-   "explicacion": "Registro formal: interrogativo al principio e inversión."
+   "explicacion": "La tabla de Reglas y claves muestra que la pregunta parcial oral deja el interrogativo al final («Tu vas où ?»), mientras que la escrita lo pone al principio con inversión («Où vas-tu ?»). Aquí se lleva «où» al inicio y se invierten verbo y sujeto unidos por un guion: «Où habitez-vous ?». Se acepta con o sin espacio ante el signo de interrogación.",
+   "explicacion_breve": "Registro formal: interrogativo al principio e inversión.",
+   "traduccion": "¿Dónde vive usted?",
+   "errores_previstos": [
+    {
+     "respuesta": "Vous habitez où ?",
+     "explicacion": "Es la pregunta de partida, con el interrogativo al final y sin inversión."
+    },
+    {
+     "respuesta": "Où vous habitez ?",
+     "explicacion": "El interrogativo está al principio, pero falta la inversión; es otra forma coloquial."
+    },
+    {
+     "respuesta": "Où habitez vous ?",
+     "explicacion": "En la inversión el verbo y el pronombre van unidos con un guion: habitez-vous."
+    }
+   ]
   },
   {
    "id": "e04",
@@ -152,7 +200,29 @@
    "respuestas": [
     "Ma voisine travaille à la mairie."
    ],
-   "explicacion": "En el escrito se suprime el pronombre de retoma."
+   "explicacion": "La dislocación, que recoge la tabla de Reglas y claves («Mon frère, il habite à Nantes»), consiste en adelantar el sujeto y retomarlo con un pronombre. En el escrito neutro se suprime el pronombre de retoma «elle» y la coma: «Ma voisine travaille à la mairie». Es una estructura que el español hablado también tiene en parte, pero en francés es mucho más frecuente y se nota más en un escrito.",
+   "explicacion_breve": "En el escrito se suprime el pronombre de retoma.",
+   "traduccion": "Mi vecina trabaja en el ayuntamiento.",
+   "errores_previstos": [
+    {
+     "respuesta": "Ma voisine, elle travaille à la mairie.",
+     "explicacion": "Es la frase de partida: mantiene la dislocación con el pronombre «elle»."
+    },
+    {
+     "respuesta": "Elle travaille à la mairie, ma voisine.",
+     "explicacion": "Es otra dislocación, esta vez a la derecha; sigue siendo un rasgo oral."
+    },
+    {
+     "respuesta": "Ma voisine elle travaille à la mairie.",
+     "explicacion": "Quitar la coma no basta: hay que suprimir el pronombre de retoma."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "la mairie",
+     "significado": "el ayuntamiento"
+    }
+   ]
   },
   {
    "id": "e05",
@@ -162,7 +232,23 @@
    "respuestas": [
     "Il ne faut pas exagérer."
    ],
-   "explicacion": "Se restituyen il y ne."
+   "explicacion": "La frase acumula dos rasgos orales: la elipsis del sujeto impersonal il en «il faut», que la lista de Reglas y claves señala (faut partir, y a du monde), y la negación sin ne. En el escrito se restituyen ambos: «Il ne faut pas exagérer». El ne va delante del verbo conjugado «faut» y el pas detrás.",
+   "explicacion_breve": "Se restituyen il y ne.",
+   "traduccion": "No hay que exagerar.",
+   "errores_previstos": [
+    {
+     "respuesta": "Il faut pas exagérer.",
+     "explicacion": "Se ha restituido il, pero sigue faltando el ne de la negación."
+    },
+    {
+     "respuesta": "Ne faut pas exagérer.",
+     "explicacion": "Se ha restituido el ne, pero falta el sujeto impersonal il, obligatorio en el escrito."
+    },
+    {
+     "respuesta": "Faut pas exagérer.",
+     "explicacion": "Es la frase de partida, con los dos rasgos orales."
+    }
+   ]
   },
   {
    "id": "e06",
@@ -177,7 +263,20 @@
    "respuestas": [
     "Cela montre que la politique est efficace."
    ],
-   "explicacion": "Cela y sin dislocaciones en el escrito."
+   "explicacion": "La lista de Reglas y claves indica que ça es oral y cela es escrito, con el ejemplo «Cela montre que… en un informe». Además, la dislocación (sujeto adelantado y retomado por un pronombre) es otro rasgo oral. La única versión adecuada para un informe es la que usa cela y no tiene dislocaciones.",
+   "explicacion_breve": "Cela y sin dislocaciones en el escrito.",
+   "traduccion": "Esto muestra que la política es eficaz.",
+   "por_opcion": {
+    "Ça montre que la politique est efficace.": "Inadecuada para un informe: la estructura es correcta, pero ça es propio del oral; en el escrito se usa cela.",
+    "Cela montre que la politique est efficace.": "Correcta: cela, sin dislocaciones; es la forma propia de un texto escrito.",
+    "Ça, ça montre que la politique, elle est efficace.": "Inadecuada: acumula ça y dos dislocaciones (Ça, ça… y la politique, elle…), típicas de la conversación espontánea."
+   },
+   "glosario": [
+    {
+     "palabra": "cela",
+     "significado": "eso, esto (registro escrito; ça en el oral)"
+    }
+   ]
   },
   {
    "id": "e07",
@@ -192,7 +291,14 @@
    "respuestas": [
     "Pourriez-vous m'envoyer le document ?"
    ],
-   "explicacion": "Inversión, vous y condicional de cortesía."
+   "explicacion": "Para una carta formal, la explicación de Reglas y claves pide preguntas con est-ce que o inversión, y el tratamiento de vous. Además, el condicional de cortesía («pourriez») suaviza la petición, como nuestro «¿podría…?». Solo la segunda opción reúne inversión, vous y condicional.",
+   "explicacion_breve": "Inversión, vous y condicional de cortesía.",
+   "traduccion": "¿Podría enviarme el documento?",
+   "por_opcion": {
+    "Vous pouvez m'envoyer le document ?": "Inadecuada: usa vous, pero pregunta solo con la entonación y en presente, algo propio del oral o de un correo informal.",
+    "Pourriez-vous m'envoyer le document ?": "Correcta: inversión, vous y condicional de cortesía, la fórmula estándar de una carta formal.",
+    "Tu peux m'envoyer le document ?": "Inadecuada: tutea y pregunta por entonación; solo sirve con alguien de confianza."
+   }
   },
   {
    "id": "e08",
@@ -207,7 +313,14 @@
    "respuestas": [
     "omisión de il y de ne"
    ],
-   "explicacion": "Escrito: Il n'y a personne."
+   "explicacion": "«Y a personne» es la versión oral de «Il n'y a personne». Según la lista de Reglas y claves, en el oral se pierde el il de «il y a», y según la tabla también se pierde el ne de la negación. Por eso la frase contiene la omisión de il y de ne. No hay inversión (no es una pregunta) ni dislocación (no se retoma ningún elemento con un pronombre).",
+   "explicacion_breve": "Escrito: Il n'y a personne.",
+   "traduccion": "No hay nadie.",
+   "por_opcion": {
+    "omisión de il y de ne": "Correcta: faltan el sujeto impersonal il y el ne de la negación (escrito: Il n'y a personne).",
+    "inversión": "Incorrecta: la inversión es un rasgo del registro formal en preguntas, y esta frase no es una pregunta.",
+    "dislocación": "Incorrecta: no hay ningún elemento adelantado y retomado por un pronombre."
+   }
   },
   {
    "id": "e09",
@@ -217,7 +330,23 @@
    "respuestas": [
     "est"
    ],
-   "explicacion": "Quel est le problème ? es la forma estándar."
+   "explicacion": "«C'est quoi, le problème ?» es una pregunta oral con el interrogativo al final y una dislocación. La tabla de Reglas y claves da como equivalente escrito de «C'est quoi, ça ?» la pregunta con el interrogativo delante. Con un nombre se usa «quel» + être + nombre: «Quel est le problème ?». Falta solo el verbo, «est».",
+   "explicacion_breve": "Quel est le problème ? es la forma estándar.",
+   "traduccion": "¿Cuál es el problema?",
+   "errores_previstos": [
+    {
+     "respuesta": "c'est",
+     "explicacion": "«Quel c'est le problème» mezcla las dos estructuras; tras quel va directamente el verbo être: quel est."
+    },
+    {
+     "respuesta": "sont",
+     "explicacion": "El sujeto «le problème» es singular: quel est."
+    },
+    {
+     "respuesta": "et",
+     "explicacion": "«Et» es la conjunción «y»; el verbo «es» se escribe «est»."
+    }
+   ]
   },
   {
    "id": "e10",
@@ -227,7 +356,23 @@
    "respuestas": [
     "pas"
    ],
-   "explicacion": "Se restituye la negación completa ne… pas."
+   "explicacion": "«J'en ai pas besoin» es oral porque falta el ne. En el escrito se restituye la negación completa ne… pas, como indica la tabla de Reglas y claves. El ne ya está escrito delante del pronombre «en» («Je n'en ai»), así que falta el pas, que va detrás del verbo conjugado «ai».",
+   "explicacion_breve": "Se restituye la negación completa ne… pas.",
+   "traduccion": "No lo necesito.",
+   "errores_previstos": [
+    {
+     "respuesta": "point",
+     "explicacion": "«Ne… point» existe pero es literario o arcaico; en el escrito estándar se usa ne… pas."
+    },
+    {
+     "respuesta": "rien",
+     "explicacion": "«Je n'en ai rien besoin» no es correcto: la expresión «avoir besoin» se niega con ne… pas."
+    },
+    {
+     "respuesta": "plus",
+     "explicacion": "«Ne… plus» significa «ya no»; cambia el sentido (ya no lo necesito)."
+    }
+   ]
   },
   {
    "id": "e11",
@@ -238,7 +383,23 @@
     "Le rapport ne dit rien sur les causes, c'est dommage.",
     "Le rapport ne dit rien sur les causes, ce qui est dommage."
    ],
-   "explicacion": "La dislocación ça c'est es propia del oral."
+   "explicacion": "«Ça c'est dommage» es una dislocación con ça, doble rasgo oral según la tabla y la lista de Reglas y claves. En el escrito se elimina la retoma y queda «c'est dommage», o se usa un relativo que retoma toda la frase, «ce qui est dommage», más elegante. Ambas correcciones se aceptan.",
+   "explicacion_breve": "La dislocación ça c'est es propia del oral.",
+   "traduccion": "El informe no dice nada sobre las causas, lo cual es una pena.",
+   "errores_previstos": [
+    {
+     "respuesta": "Le rapport ne dit rien sur les causes, ça c'est dommage.",
+     "explicacion": "Es la frase sin corregir: «ça c'est» es una dislocación oral."
+    },
+    {
+     "respuesta": "Le rapport ne dit rien sur les causes, ça est dommage.",
+     "explicacion": "Ça no se combina con est en francés: la forma es c'est, y en el escrito se evita ça."
+    },
+    {
+     "respuesta": "Le rapport ne dit rien sur les causes, ce que est dommage.",
+     "explicacion": "La frase retomada es sujeto de «est», así que el relativo es ce qui."
+    }
+   ]
   },
   {
    "id": "e12",
@@ -248,7 +409,29 @@
    "respuestas": [
     "Voilà l'outil dont j'ai besoin."
    ],
-   "explicacion": "Avoir besoin de exige dont; que es un uso oral incorrecto."
+   "explicacion": "La última fila de la tabla de Reglas y claves recoge el que «comodín» del habla popular, que se considera incorrecto. «Avoir besoin de» rige la preposición de, y en las relativas ese de lo recoge dont: «l'outil dont j'ai besoin». Es el mismo fenómeno que el español coloquial «el libro que te hablé» en lugar de «del que te hablé».",
+   "explicacion_breve": "Avoir besoin de exige dont; que es un uso oral incorrecto.",
+   "traduccion": "Aquí está la herramienta que necesito.",
+   "errores_previstos": [
+    {
+     "respuesta": "Voilà l'outil que j'ai besoin.",
+     "explicacion": "Es la frase sin corregir: avoir besoin de exige dont."
+    },
+    {
+     "respuesta": "Voilà l'outil de que j'ai besoin.",
+     "explicacion": "En francés no se dice «de que» en una relativa: el de se integra en dont."
+    },
+    {
+     "respuesta": "Voilà l'outil dont j'en ai besoin.",
+     "explicacion": "Dont ya recoge el complemento; añadir en es redundante."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "un outil",
+     "significado": "una herramienta"
+    }
+   ]
   },
   {
    "id": "e13",
@@ -263,7 +446,19 @@
    "respuestas": [
     "Quand partez-vous pour Lyon"
    ],
-   "explicacion": "Interrogativo + verbo + pronombre invertido."
+   "explicacion": "La consigna pide una pregunta formal. Según la tabla de Reglas y claves, la pregunta parcial formal pone el interrogativo al principio y luego el verbo con el pronombre invertido: «Quand partez-vous». El complemento de destino «pour Lyon» va al final. «Partir pour» indica la dirección del viaje.",
+   "explicacion_breve": "Interrogativo + verbo + pronombre invertido.",
+   "traduccion": "¿Cuándo sale usted para Lyon?",
+   "errores_previstos": [
+    {
+     "respuesta": "Partez-vous pour Lyon quand",
+     "explicacion": "El interrogativo al final es propio del oral; en la pregunta formal va al principio."
+    },
+    {
+     "respuesta": "Quand pour Lyon partez-vous",
+     "explicacion": "El complemento de destino no se intercala entre el interrogativo y el verbo; va al final."
+    }
+   ]
   },
   {
    "id": "e14",
@@ -279,10 +474,28 @@
    "respuestas": [
     "Nous ne savons pas encore"
    ],
-   "explicacion": "Nous en lugar de on y negación completa."
+   "explicacion": "La frase reúne los dos rasgos escritos que señala la tabla de Reglas y claves: nous en lugar de on y la negación completa ne… pas. El orden es sujeto + ne + verbo + pas + adverbio: «Nous ne savons pas encore». «Pas encore» significa «todavía no».",
+   "explicacion_breve": "Nous en lugar de on y negación completa.",
+   "traduccion": "Todavía no lo sabemos.",
+   "errores_previstos": [
+    {
+     "respuesta": "Nous ne savons encore pas",
+     "explicacion": "En el francés estándar el orden es «pas encore» (todavía no); «encore pas» es regional o coloquial."
+    },
+    {
+     "respuesta": "Nous savons ne pas encore",
+     "explicacion": "El ne va delante del verbo conjugado: nous ne savons pas."
+    }
+   ]
   }
  ],
  "fuente": {
   "nombre": "propia"
+ },
+ "descripcion_larga_es": "El francés hablado espontáneo tiene una sintaxis propia: suprime el ne de la negación, usa on por nous, disloca los elementos («mon frère, il…»), pregunta por entonación y elimina el il de «il faut» o «il y a». Esta ficha enseña a reconocer esos rasgos y a pasarlos al registro escrito o formal. Importa porque un hispanohablante que aprende de series o conversaciones los traslada sin darse cuenta a exámenes y escritos.",
+ "contexto": {
+  "que_es": "Es el conjunto de diferencias gramaticales entre el francés oral espontáneo y el escrito o formal: la negación sin ne, el on por nous, la dislocación con pronombre de retoma, la pregunta por entonación, la elipsis de il en il faut o il y a, el uso de ça frente a cela y el que «comodín» del habla popular.",
+  "por_que_importa": "Entender estos rasgos es imprescindible para seguir a hablantes nativos, porque en la conversación real aparecen constantemente. Pero en un escrito o en una exposición formal cada uno de ellos es una falta de registro, y en un examen se penalizan aunque el contenido sea bueno. Dominar ambas sintaxis permite adaptarse a la situación con naturalidad.",
+  "cuando_se_usa": "La sintaxis oral aparece en la conversación espontánea, mensajes informales y diálogos de series. La escrita se exige en informes, cartas, correos profesionales, redacciones de examen y exposiciones orales formales, donde se espera el ne, el nous (o un on de valor general) y preguntas con est-ce que o inversión. El hispanohablante, cuyo español hablado y escrito difieren menos en sintaxis, tiende a no percibir el salto."
  }
 }

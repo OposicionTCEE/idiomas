@@ -6,54 +6,520 @@
  "nivel": "A2",
  "resumen": "El superlativo relativo se forma con el artículo definido + plus o moins + adjetivo, que concuerda con el nombre. Si el adjetivo va detrás del nombre, el artículo se repite: la ville la plus belle. El complemento («de la clase», «del mundo») se introduce con de.",
  "explicacion": [
-  {"tipo": "tabla", "cabecera": ["Posición del adjetivo", "Superlativo", "Español"], "filas": [
-   ["detrás del nombre", "la chatte la plus rusée du monde", "la gata más astuta del mundo"],
-   ["delante del nombre", "la plus belle ville du pays", "la ciudad más bonita del país"],
-   ["sin nombre", "Tom est le plus jeune.", "Tom es el más joven."]
-  ]},
-  {"tipo": "texto", "texto": "Diferencia con el español: cuando el adjetivo va detrás, el francés repite el artículo (le restaurant le plus cher), mientras que en español no (el restaurante más caro). Con un posesivo, el artículo del superlativo se mantiene: mon ami le plus fidèle."},
-  {"tipo": "tabla", "cabecera": ["Base", "Superlativo", "Ejemplo"], "filas": [
-   ["bon (adjetivo)", "le meilleur, la meilleure, les meilleur(e)s", "la meilleure solution"],
-   ["mauvais (adjetivo)", "le pire / le plus mauvais", "la pire idée"],
-   ["bien (adverbio)", "le mieux", "C'est elle qui chante le mieux."],
-   ["adverbio cualquiera", "le plus / le moins + adverbio", "Il court le plus vite."]
-  ]},
-  {"tipo": "lista", "items": [
-   "El ámbito («de», «en») se expresa con de: le plus grand du monde, la meilleure élève de la classe, le plus âgé des trois.",
-   "Con adverbios y verbos el artículo es siempre le, invariable: C'est Marie qui travaille le plus. Elle parle le moins vite.",
-   "«Lo antes posible» = le plus tôt possible; «lo más rápido posible» = le plus vite possible.",
-   "Pire se usa sobre todo con nombres ya negativos: les pires catastrophes."
-  ]}
+  {
+   "tipo": "tabla",
+   "cabecera": [
+    "Posición del adjetivo",
+    "Superlativo",
+    "Español"
+   ],
+   "filas": [
+    [
+     "detrás del nombre",
+     "la chatte la plus rusée du monde",
+     "la gata más astuta del mundo"
+    ],
+    [
+     "delante del nombre",
+     "la plus belle ville du pays",
+     "la ciudad más bonita del país"
+    ],
+    [
+     "sin nombre",
+     "Tom est le plus jeune.",
+     "Tom es el más joven."
+    ]
+   ]
+  },
+  {
+   "tipo": "texto",
+   "texto": "Diferencia con el español: cuando el adjetivo va detrás, el francés repite el artículo (le restaurant le plus cher), mientras que en español no (el restaurante más caro). Con un posesivo, el artículo del superlativo se mantiene: mon ami le plus fidèle."
+  },
+  {
+   "tipo": "tabla",
+   "cabecera": [
+    "Base",
+    "Superlativo",
+    "Ejemplo"
+   ],
+   "filas": [
+    [
+     "bon (adjetivo)",
+     "le meilleur, la meilleure, les meilleur(e)s",
+     "la meilleure solution"
+    ],
+    [
+     "mauvais (adjetivo)",
+     "le pire / le plus mauvais",
+     "la pire idée"
+    ],
+    [
+     "bien (adverbio)",
+     "le mieux",
+     "C'est elle qui chante le mieux."
+    ],
+    [
+     "adverbio cualquiera",
+     "le plus / le moins + adverbio",
+     "Il court le plus vite."
+    ]
+   ]
+  },
+  {
+   "tipo": "lista",
+   "items": [
+    "El ámbito («de», «en») se expresa con de: le plus grand du monde, la meilleure élève de la classe, le plus âgé des trois.",
+    "Con adverbios y verbos el artículo es siempre le, invariable: C'est Marie qui travaille le plus. Elle parle le moins vite.",
+    "«Lo antes posible» = le plus tôt possible; «lo más rápido posible» = le plus vite possible.",
+    "Pire se usa sobre todo con nombres ya negativos: les pires catastrophes."
+   ]
+  }
  ],
  "ejemplos": [
-  {"frase": "J'ai la meilleure mère du monde !", "traduccion": "¡Tengo la mejor madre del mundo!"},
-  {"frase": "Où est la banque la plus proche ?", "traduccion": "¿Dónde está el banco más cercano?"},
-  {"frase": "Il est le plus grand de la classe.", "traduccion": "Es el más alto de la clase."},
-  {"frase": "Venez le plus tôt possible.", "traduccion": "Venga lo antes posible."},
-  {"frase": "Je voudrais la moins chère.", "traduccion": "Querría la más barata."},
-  {"frase": "C'est Bette qui cuisine le mieux.", "traduccion": "Bette es la que mejor cocina."}
+  {
+   "frase": "J'ai la meilleure mère du monde !",
+   "traduccion": "¡Tengo la mejor madre del mundo!"
+  },
+  {
+   "frase": "Où est la banque la plus proche ?",
+   "traduccion": "¿Dónde está el banco más cercano?"
+  },
+  {
+   "frase": "Il est le plus grand de la classe.",
+   "traduccion": "Es el más alto de la clase."
+  },
+  {
+   "frase": "Venez le plus tôt possible.",
+   "traduccion": "Venga lo antes posible."
+  },
+  {
+   "frase": "Je voudrais la moins chère.",
+   "traduccion": "Querría la más barata."
+  },
+  {
+   "frase": "C'est Bette qui cuisine le mieux.",
+   "traduccion": "Bette es la que mejor cocina."
+  }
  ],
  "errores_hispanohablantes": [
-  {"mal": "C'est le restaurant plus cher de la ville.", "bien": "C'est le restaurant le plus cher de la ville.", "nota": "Con el adjetivo detrás se repite el artículo."},
-  {"mal": "C'est la plus haute montagne en Europe.", "bien": "C'est la plus haute montagne d'Europe.", "nota": "El ámbito del superlativo se introduce con de, como «de Europa»."},
-  {"mal": "C'est elle qui danse la mieux.", "bien": "C'est elle qui danse le mieux.", "nota": "Con verbos, el superlativo del adverbio es siempre le mieux, invariable."}
+  {
+   "mal": "C'est le restaurant plus cher de la ville.",
+   "bien": "C'est le restaurant le plus cher de la ville.",
+   "nota": "Con el adjetivo detrás se repite el artículo."
+  },
+  {
+   "mal": "C'est la plus haute montagne en Europe.",
+   "bien": "C'est la plus haute montagne d'Europe.",
+   "nota": "El ámbito del superlativo se introduce con de, como «de Europa»."
+  },
+  {
+   "mal": "C'est elle qui danse la mieux.",
+   "bien": "C'est elle qui danse le mieux.",
+   "nota": "Con verbos, el superlativo del adverbio es siempre le mieux, invariable."
+  }
  ],
  "ejercicios": [
-  {"id": "e01", "tipo": "hueco", "enunciado": "Completa con la preposición adecuada (del).", "frase": "C'est le plus grand ___ monde.", "respuestas": ["du"], "explicacion": "El ámbito del superlativo va con de: de + le = du.", "origen": "tatoeba:1673302"},
-  {"id": "e02", "tipo": "hueco", "enunciado": "Completa con la preposición adecuada.", "frase": "Il est le plus grand ___ la classe.", "respuestas": ["de"], "explicacion": "El ámbito del superlativo se introduce con de.", "origen": "tatoeba:876643"},
-  {"id": "e03", "tipo": "hueco", "enunciado": "Completa el superlativo (la más cercana).", "frase": "Où est la banque la ___ proche ?", "respuestas": ["plus"], "explicacion": "Adjetivo detrás del nombre: la banque la plus proche.", "origen": "tatoeba:378054"},
-  {"id": "e04", "tipo": "eleccion", "enunciado": "Elige la opción correcta.", "frase": "J'ai la ___ mère du monde !", "opciones": ["meilleure", "plus bonne", "mieux"], "respuestas": ["meilleure"], "explicacion": "Superlativo de bon con un nombre femenino: la meilleure.", "origen": "tatoeba:1194628"},
-  {"id": "e05", "tipo": "eleccion", "enunciado": "Elige la opción correcta (la más barata).", "frase": "Je voudrais la ___ chère.", "opciones": ["moins", "moins de", "plus moins"], "respuestas": ["moins"], "explicacion": "La moins chère = la menos cara, la más barata.", "origen": "tatoeba:1187078"},
-  {"id": "e06", "tipo": "hueco", "enunciado": "Completa (lo más rápido posible).", "frase": "Marche le ___ vite possible.", "respuestas": ["plus"], "explicacion": "Superlativo de adverbio: le plus vite possible.", "origen": "tatoeba:486765"},
-  {"id": "e07", "tipo": "eleccion", "enunciado": "Elige la opción correcta.", "frase": "C'est Julie qui chante ___.", "opciones": ["le mieux", "la mieux", "la meilleure"], "respuestas": ["le mieux"], "explicacion": "Se refiere al verbo chanter: superlativo del adverbio, le mieux, invariable."},
-  {"id": "e08", "tipo": "hueco", "enunciado": "Completa con la preposición adecuada.", "frase": "Il est le meilleur ___ nous tous.", "respuestas": ["de"], "explicacion": "El grupo de referencia va con de: le meilleur de nous tous.", "origen": "tatoeba:507987"},
-  {"id": "e09", "tipo": "hueco", "enunciado": "Completa la expresión (lo antes posible).", "frase": "Venez le plus tôt ___.", "respuestas": ["possible"], "explicacion": "Le plus tôt possible = lo antes posible.", "origen": "tatoeba:2008376"},
-  {"id": "e10", "tipo": "corregir", "enunciado": "Corrige el error.", "frase": "C'est la ville plus belle du pays.", "respuestas": ["C'est la ville la plus belle du pays.", "C'est la plus belle ville du pays."], "explicacion": "Si el adjetivo va detrás del nombre, hay que repetir el artículo."},
-  {"id": "e11", "tipo": "corregir", "enunciado": "Corrige el error.", "frase": "Ce sont les plus bons gâteaux.", "respuestas": ["Ce sont les meilleurs gâteaux."], "explicacion": "El superlativo de bon es le meilleur, no le plus bon."},
-  {"id": "e12", "tipo": "transformar", "enunciado": "Pasa a superlativo de superioridad (el más).", "frase": "C'est un beau jardin.", "respuestas": ["C'est le plus beau jardin."], "explicacion": "Beau va delante del nombre: le plus beau jardin."},
-  {"id": "e13", "tipo": "transformar", "enunciado": "Pasa a superlativo de superioridad (la más).", "frase": "C'est une ville intéressante.", "respuestas": ["C'est la ville la plus intéressante."], "explicacion": "Intéressant va detrás del nombre, así que se repite el artículo."},
-  {"id": "e14", "tipo": "ordenar", "enunciado": "Ordena las palabras (es la chica más guapa).", "palabras": ["est", "la", "Elle", "plus", "fille", "belle"], "respuestas": ["Elle est la plus belle fille"], "explicacion": "Belle va delante del nombre: la plus belle fille.", "origen": "tatoeba:4827167"},
-  {"id": "e15", "tipo": "eleccion", "enunciado": "Elige la opción correcta.", "frase": "Ne fais pas ça, c'est la ___ solution !", "opciones": ["pire", "plus pire", "plus mal"], "respuestas": ["pire"], "explicacion": "Pire ya es superlativo con el artículo: la pire solution. «Plus pire» es incorrecto."}
+  {
+   "id": "e01",
+   "tipo": "hueco",
+   "enunciado": "Completa con la preposición adecuada (del).",
+   "frase": "C'est le plus grand ___ monde.",
+   "respuestas": [
+    "du"
+   ],
+   "explicacion": "La ficha indica que el ámbito del superlativo («del mundo», «de la clase») se introduce con de. Como monde es masculino y lleva artículo le, se produce la contracción obligatoria de + le = du. Por eso la forma es du: «C'est le plus grand du monde». Es exactamente el «del» español.",
+   "origen": "tatoeba:1673302",
+   "explicacion_breve": "El ámbito del superlativo va con de: de + le = du.",
+   "traduccion": "Es el más grande del mundo.",
+   "errores_previstos": [
+    {
+     "respuesta": "de le",
+     "explicacion": "De + le se contrae obligatoriamente en du."
+    },
+    {
+     "respuesta": "dans le",
+     "explicacion": "Es un calco de «en el mundo». En francés el ámbito del superlativo se expresa con de: du monde."
+    },
+    {
+     "respuesta": "au",
+     "explicacion": "Au es à + le. El superlativo no se construye con à sino con de: du."
+    }
+   ]
+  },
+  {
+   "id": "e02",
+   "tipo": "hueco",
+   "enunciado": "Completa con la preposición adecuada.",
+   "frase": "Il est le plus grand ___ la classe.",
+   "respuestas": [
+    "de"
+   ],
+   "explicacion": "Según la ficha, el grupo dentro del cual se destaca a alguien se introduce con de. Classe es femenino y lleva artículo la, que no se contrae con de. Por eso solo hay que escribir de: «Il est le plus grand de la classe». En español también decimos «de la clase».",
+   "origen": "tatoeba:876643",
+   "explicacion_breve": "El ámbito del superlativo se introduce con de.",
+   "traduccion": "Es el más alto de la clase.",
+   "errores_previstos": [
+    {
+     "respuesta": "dans",
+     "explicacion": "Es un calco de «en la clase». El ámbito del superlativo va con de: de la classe."
+    },
+    {
+     "respuesta": "du",
+     "explicacion": "Du es de + le, para masculinos. Classe es femenino y ya lleva la: de la classe."
+    },
+    {
+     "respuesta": "en",
+     "explicacion": "En no introduce el ámbito del superlativo en francés: le plus grand de la classe."
+    }
+   ]
+  },
+  {
+   "id": "e03",
+   "tipo": "hueco",
+   "enunciado": "Completa el superlativo (la más cercana).",
+   "frase": "Où est la banque la ___ proche ?",
+   "respuestas": [
+    "plus"
+   ],
+   "explicacion": "La ficha explica que, cuando el adjetivo va detrás del nombre, el francés repite el artículo: la banque la plus proche. En la frase ya están los dos artículos, así que solo falta el adverbio que marca la superioridad: plus. La pista del enunciado («la más cercana») indica superioridad y no inferioridad, por lo que no vale moins.",
+   "origen": "tatoeba:378054",
+   "explicacion_breve": "Adjetivo detrás del nombre: la banque la plus proche.",
+   "traduccion": "¿Dónde está el banco más cercano?",
+   "errores_previstos": [
+    {
+     "respuesta": "moins",
+     "explicacion": "Moins forma el superlativo de inferioridad («la menos cercana»). El enunciado pide «la más cercana»: plus."
+    },
+    {
+     "respuesta": "plus de",
+     "explicacion": "Plus de va delante de nombres o cifras («más de»). Ante un adjetivo, solo plus."
+    },
+    {
+     "respuesta": "très",
+     "explicacion": "Très significa «muy»: no es superlativo relativo. Hace falta plus."
+    }
+   ]
+  },
+  {
+   "id": "e04",
+   "tipo": "eleccion",
+   "enunciado": "Elige la opción correcta.",
+   "frase": "J'ai la ___ mère du monde !",
+   "opciones": [
+    "meilleure",
+    "plus bonne",
+    "mieux"
+   ],
+   "respuestas": [
+    "meilleure"
+   ],
+   "explicacion": "La tabla de la ficha recoge que el superlativo de bon es irregular: le meilleur, la meilleure, les meilleur(e)s. Aquí se habla de una madre, nombre femenino, así que el adjetivo concuerda: la meilleure. Igual que en español no se dice «la más buena» en este sentido, en francés no existe «plus bonne» como superlativo de bon.",
+   "origen": "tatoeba:1194628",
+   "explicacion_breve": "Superlativo de bon con un nombre femenino: la meilleure.",
+   "traduccion": "¡Tengo la mejor madre del mundo!",
+   "por_opcion": {
+    "meilleure": "Correcta: superlativo irregular de bon, en femenino singular para concordar con mère.",
+    "plus bonne": "Incorrecta: bon no forma el superlativo con plus; su forma es meilleur(e).",
+    "mieux": "Incorrecta: mieux es el superlativo del adverbio bien y no acompaña a un nombre (no se dice «la mieux mère»)."
+   }
+  },
+  {
+   "id": "e05",
+   "tipo": "eleccion",
+   "enunciado": "Elige la opción correcta (la más barata).",
+   "frase": "Je voudrais la ___ chère.",
+   "opciones": [
+    "moins",
+    "moins de",
+    "plus moins"
+   ],
+   "respuestas": [
+    "moins"
+   ],
+   "explicacion": "La ficha explica que el superlativo de inferioridad se forma con le, la, les + moins + adjetivo. «La más barata» se expresa en francés como la moins chère, literalmente «la menos cara», y es la forma más natural. El adjetivo cher concuerda en femenino (chère) con el nombre sobrentendido. Solo moins encaja delante del adjetivo.",
+   "origen": "tatoeba:1187078",
+   "explicacion_breve": "La moins chère = la menos cara, la más barata.",
+   "traduccion": "Quisiera la más barata (la menos cara).",
+   "por_opcion": {
+    "moins": "Correcta: la moins chère, superlativo de inferioridad = la más barata.",
+    "moins de": "Incorrecta: moins de va delante de nombres o cantidades («moins de pain»), no de adjetivos.",
+    "plus moins": "Incorrecta: combina dos adverbios contradictorios; la forma no existe."
+   }
+  },
+  {
+   "id": "e06",
+   "tipo": "hueco",
+   "enunciado": "Completa (lo más rápido posible).",
+   "frase": "Marche le ___ vite possible.",
+   "respuestas": [
+    "plus"
+   ],
+   "explicacion": "La ficha indica que con adverbios el superlativo se forma con le plus o le moins, con el artículo le siempre invariable, y que «lo más rápido posible» se dice le plus vite possible. La pista es vite, un adverbio («rápido»), y la coletilla possible. Por eso falta plus: «Marche le plus vite possible».",
+   "origen": "tatoeba:486765",
+   "explicacion_breve": "Superlativo de adverbio: le plus vite possible.",
+   "traduccion": "Camina lo más rápido posible.",
+   "errores_previstos": [
+    {
+     "respuesta": "plus de",
+     "explicacion": "Plus de va delante de nombres. Ante un adverbio como vite, solo plus."
+    },
+    {
+     "respuesta": "moins",
+     "explicacion": "Le moins vite possible significaría «lo más despacio posible»: contradice el sentido."
+    },
+    {
+     "respuesta": "mieux",
+     "explicacion": "Mieux es el superlativo de bien, no de vite: le plus vite possible."
+    }
+   ]
+  },
+  {
+   "id": "e07",
+   "tipo": "eleccion",
+   "enunciado": "Elige la opción correcta.",
+   "frase": "C'est Julie qui chante ___.",
+   "opciones": [
+    "le mieux",
+    "la mieux",
+    "la meilleure"
+   ],
+   "respuestas": [
+    "le mieux"
+   ],
+   "explicacion": "La regla de la ficha dice que con verbos y adverbios el artículo del superlativo es siempre le, invariable. Aquí el superlativo no califica a Julie, sino a cómo canta (al verbo chanter), así que se usa el superlativo del adverbio bien: le mieux. Aunque el sujeto sea femenino, no se escribe la mieux. «C'est Julie qui chante le mieux».",
+   "explicacion_breve": "Se refiere al verbo chanter: superlativo del adverbio, le mieux, invariable.",
+   "traduccion": "Es Julie la que mejor canta.",
+   "por_opcion": {
+    "le mieux": "Correcta: superlativo del adverbio bien, invariable porque modifica al verbo chanter.",
+    "la mieux": "Incorrecta: el artículo no concuerda con Julie, porque el superlativo se refiere al verbo, no a la persona.",
+    "la meilleure": "Incorrecta: meilleure es adjetivo y califica a un nombre (la meilleure chanteuse); con un verbo hace falta el adverbio mieux."
+   }
+  },
+  {
+   "id": "e08",
+   "tipo": "hueco",
+   "enunciado": "Completa con la preposición adecuada.",
+   "frase": "Il est le meilleur ___ nous tous.",
+   "respuestas": [
+    "de"
+   ],
+   "explicacion": "La ficha indica que el grupo de referencia del superlativo se introduce con de: le plus âgé des trois, la meilleure élève de la classe. Aquí el grupo es nous tous, un pronombre, así que no hay artículo con el que contraer: basta con de. Resultado: «Il est le meilleur de nous tous», igual que «el mejor de todos nosotros».",
+   "origen": "tatoeba:507987",
+   "explicacion_breve": "El grupo de referencia va con de: le meilleur de nous tous.",
+   "traduccion": "Es el mejor de todos nosotros.",
+   "errores_previstos": [
+    {
+     "respuesta": "entre",
+     "explicacion": "Calca «el mejor entre todos». En francés, el grupo de referencia del superlativo va con de."
+    },
+    {
+     "respuesta": "des",
+     "explicacion": "Des es de + les, y ante un pronombre como nous no hay artículo: de nous tous."
+    },
+    {
+     "respuesta": "que",
+     "explicacion": "Que introduce el segundo término de una comparación (meilleur que moi), no el grupo de un superlativo: de."
+    }
+   ]
+  },
+  {
+   "id": "e09",
+   "tipo": "hueco",
+   "enunciado": "Completa la expresión (lo antes posible).",
+   "frase": "Venez le plus tôt ___.",
+   "respuestas": [
+    "possible"
+   ],
+   "explicacion": "La ficha recoge la expresión fija le plus tôt possible, «lo antes posible». El superlativo del adverbio tôt va con le invariable, y el adjetivo possible cierra la expresión, como en le plus vite possible. Por eso la palabra que falta es possible: «Venez le plus tôt possible».",
+   "origen": "tatoeba:2008376",
+   "explicacion_breve": "Le plus tôt possible = lo antes posible.",
+   "traduccion": "Venga (venid) lo antes posible.",
+   "errores_previstos": [
+    {
+     "respuesta": "possibles",
+     "explicacion": "Possible es invariable en esta expresión, porque se refiere al adverbio tôt y no a un nombre plural."
+    },
+    {
+     "respuesta": "que possible",
+     "explicacion": "Calca otras estructuras; en francés la expresión es simplemente le plus tôt possible, sin que."
+    },
+    {
+     "respuesta": "posible",
+     "explicacion": "Ortografía: en francés se escribe con doble s, possible."
+    }
+   ]
+  },
+  {
+   "id": "e10",
+   "tipo": "corregir",
+   "enunciado": "Corrige el error.",
+   "frase": "C'est la ville plus belle du pays.",
+   "respuestas": [
+    "C'est la ville la plus belle du pays.",
+    "C'est la plus belle ville du pays."
+   ],
+   "explicacion": "La ficha explica que si el adjetivo va detrás del nombre, el francés repite el artículo: la ville la plus belle. La frase propuesta lo omite, como en español. Hay dos maneras de corregirla: repetir el artículo (la ville la plus belle du pays) o colocar belle delante del nombre, su posición habitual (la plus belle ville du pays). Por eso se aceptan ambas.",
+   "explicacion_breve": "Si el adjetivo va detrás del nombre, hay que repetir el artículo.",
+   "traduccion": "Es la ciudad más bonita del país.",
+   "errores_previstos": [
+    {
+     "respuesta": "C'est la ville plus belle du pays.",
+     "explicacion": "Es la frase sin corregir: falta el segundo artículo, obligatorio cuando el adjetivo va detrás del nombre."
+    },
+    {
+     "respuesta": "C'est la ville la plus belle en pays.",
+     "explicacion": "Repite bien el artículo, pero cambia el ámbito: debe ir con de + artículo, du pays."
+    },
+    {
+     "respuesta": "C'est la plus belle ville de le pays.",
+     "explicacion": "De + le se contrae obligatoriamente en du: du pays."
+    }
+   ]
+  },
+  {
+   "id": "e11",
+   "tipo": "corregir",
+   "enunciado": "Corrige el error.",
+   "frase": "Ce sont les plus bons gâteaux.",
+   "respuestas": [
+    "Ce sont les meilleurs gâteaux."
+   ],
+   "explicacion": "La tabla de la ficha muestra que bon tiene superlativo irregular: le meilleur, y en plural les meilleurs. Plus bons es un calco que no existe en francés estándar como superlativo. Como gâteaux es masculino plural, el adjetivo lleva -s: «Ce sont les meilleurs gâteaux».",
+   "explicacion_breve": "El superlativo de bon es le meilleur, no le plus bon.",
+   "traduccion": "Son los mejores pasteles.",
+   "errores_previstos": [
+    {
+     "respuesta": "Ce sont les plus bons gâteaux.",
+     "explicacion": "Es la frase sin corregir: el superlativo de bon no se forma con plus."
+    },
+    {
+     "respuesta": "Ce sont les meilleur gâteaux.",
+     "explicacion": "Falta la concordancia: gâteaux es plural, así que meilleurs lleva -s."
+    },
+    {
+     "respuesta": "Ce sont les mieux gâteaux.",
+     "explicacion": "Mieux es adverbio y no acompaña a nombres. Con un nombre se usa el adjetivo meilleurs."
+    }
+   ]
+  },
+  {
+   "id": "e12",
+   "tipo": "transformar",
+   "enunciado": "Pasa a superlativo de superioridad (el más).",
+   "frase": "C'est un beau jardin.",
+   "respuestas": [
+    "C'est le plus beau jardin."
+   ],
+   "explicacion": "Beau es uno de los adjetivos que suelen ir delante del nombre, así que, según la tabla de la ficha, el superlativo también va delante: le plus beau jardin. El artículo indefinido un se sustituye por el definido le, porque el superlativo destaca un elemento concreto. No hace falta repetir el artículo, ya que el adjetivo no va detrás.",
+   "explicacion_breve": "Beau va delante del nombre: le plus beau jardin.",
+   "traduccion": "Es el jardín más bonito.",
+   "errores_previstos": [
+    {
+     "respuesta": "C'est un plus beau jardin.",
+     "explicacion": "El superlativo exige artículo definido: le plus beau. Un plus beau sería un comparativo («un jardín más bonito»)."
+    },
+    {
+     "respuesta": "C'est le jardin plus beau.",
+     "explicacion": "Calca el orden español y omite el segundo artículo. Lo natural es le plus beau jardin."
+    },
+    {
+     "respuesta": "C'est le plus bel jardin.",
+     "explicacion": "Bel solo se usa ante palabra que empieza por vocal o h muda; jardin empieza por consonante: beau."
+    }
+   ]
+  },
+  {
+   "id": "e13",
+   "tipo": "transformar",
+   "enunciado": "Pasa a superlativo de superioridad (la más).",
+   "frase": "C'est une ville intéressante.",
+   "respuestas": [
+    "C'est la ville la plus intéressante."
+   ],
+   "explicacion": "Intéressant es un adjetivo que normalmente va detrás del nombre. Según la ficha, en ese caso el superlativo repite el artículo: la ville la plus intéressante. Además, une pasa a la, porque el superlativo necesita artículo definido, y el adjetivo concuerda en femenino. Resultado: «C'est la ville la plus intéressante».",
+   "explicacion_breve": "Intéressant va detrás del nombre, así que se repite el artículo.",
+   "traduccion": "Es la ciudad más interesante.",
+   "errores_previstos": [
+    {
+     "respuesta": "C'est la ville plus intéressante.",
+     "explicacion": "Calca el español: falta el segundo artículo, obligatorio con el adjetivo detrás del nombre."
+    },
+    {
+     "respuesta": "C'est une ville la plus intéressante.",
+     "explicacion": "El superlativo exige artículo definido también delante del nombre: la ville."
+    },
+    {
+     "respuesta": "C'est la ville la plus intéressant.",
+     "explicacion": "Falta la concordancia: ville es femenino, intéressante."
+    }
+   ]
+  },
+  {
+   "id": "e14",
+   "tipo": "ordenar",
+   "enunciado": "Ordena las palabras (es la chica más guapa).",
+   "palabras": [
+    "est",
+    "la",
+    "Elle",
+    "plus",
+    "fille",
+    "belle"
+   ],
+   "respuestas": [
+    "Elle est la plus belle fille"
+   ],
+   "explicacion": "Belle es un adjetivo que va delante del nombre, así que el superlativo también: la plus belle fille, sin repetir el artículo. La estructura completa es sujeto + verbo + artículo + plus + adjetivo + nombre. El orden español («la chica más guapa») no sirve, porque en francés obligaría a repetir el artículo y no hay un segundo la entre las palabras.",
+   "origen": "tatoeba:4827167",
+   "explicacion_breve": "Belle va delante del nombre: la plus belle fille.",
+   "traduccion": "Es la chica más guapa.",
+   "errores_previstos": [
+    {
+     "respuesta": "Elle est la fille plus belle",
+     "explicacion": "Calca el orden español y deja el superlativo sin su artículo. Con belle delante: la plus belle fille."
+    },
+    {
+     "respuesta": "Elle est plus la belle fille",
+     "explicacion": "El artículo va delante de plus: la plus belle."
+    }
+   ]
+  },
+  {
+   "id": "e15",
+   "tipo": "eleccion",
+   "enunciado": "Elige la opción correcta.",
+   "frase": "Ne fais pas ça, c'est la ___ solution !",
+   "opciones": [
+    "pire",
+    "plus pire",
+    "plus mal"
+   ],
+   "respuestas": [
+    "pire"
+   ],
+   "explicacion": "La ficha recoge que el superlativo de mauvais puede ser le pire o le plus mauvais. Pire ya contiene la idea de superioridad, como «peor» en español, así que con el artículo forma por sí solo el superlativo: la pire solution. Añadir plus es tan incorrecto como decir «la más peor». Plus mal es el comparativo del adverbio mal, no de un adjetivo.",
+   "explicacion_breve": "Pire ya es superlativo con el artículo: la pire solution. «Plus pire» es incorrecto.",
+   "traduccion": "No hagas eso, ¡es la peor solución!",
+   "por_opcion": {
+    "pire": "Correcta: la pire solution, superlativo de mauvais con un nombre negativo.",
+    "plus pire": "Incorrecta: pire ya es comparativo; «plus pire» es un pleonasmo que se oye en la lengua popular pero es incorrecto.",
+    "plus mal": "Incorrecta: mal es adverbio; no puede calificar a un nombre como solution."
+   }
+  }
  ],
- "fuente": {"nombre": "Tex's French Grammar", "autores": "COERLL, Universidad de Texas en Austin", "licencia": "CC BY 3.0", "url": "https://laits.utexas.edu/tex/gr/adj7.html", "otras": ["Frases de Tatoeba (CC BY 2.0 FR)"]}
+ "fuente": {
+  "nombre": "Tex's French Grammar",
+  "autores": "COERLL, Universidad de Texas en Austin",
+  "licencia": "CC BY 3.0",
+  "url": "https://laits.utexas.edu/tex/gr/adj7.html",
+  "otras": [
+   "Frases de Tatoeba (CC BY 2.0 FR)"
+  ]
+ },
+ "descripcion_larga_es": "El superlativo sirve para decir que algo es «el más» o «el menos» de un grupo: le plus grand, la moins chère, le meilleur. Se forma con el artículo definido más plus o moins y el adjetivo, que concuerda. Al hispanohablante le cuestan tres cosas: repetir el artículo cuando el adjetivo va detrás (la ville la plus belle), usar de para el ámbito (du monde) y las formas irregulares meilleur, mieux y pire.",
+ "contexto": {
+  "que_es": "El superlativo relativo destaca un elemento dentro de un grupo: el más alto, la menos cara, el mejor. En francés se construye con le, la o les + plus o moins + adjetivo o adverbio, y el grupo de referencia se introduce con de. Bon, mauvais y bien tienen formas propias: le meilleur, le pire y le mieux.",
+  "por_que_importa": "Se usa a diario para valorar, recomendar o comparar: el mejor restaurante, la ruta más rápida, lo antes posible. Los errores más visibles (le restaurant plus cher, la plus haute montagne en Europe, le plus bon) delatan enseguida el calco del español. En un examen oral aparece en descripciones y opiniones, y en una redacción en cualquier comparación de datos.",
+  "cuando_se_usa": "Aparece cuando se compara un elemento con todos los demás de su grupo, a menudo con un complemento del tipo du monde, de la classe o de nous tous, o con la coletilla possible (le plus vite possible). La señal para repetir el artículo es que el adjetivo vaya detrás del nombre. El hispanohablante tiende a omitir ese segundo artículo y a usar «en» para el ámbito, como en «la montaña más alta en Europa»."
+ }
 }

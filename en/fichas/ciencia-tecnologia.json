@@ -6,66 +6,734 @@
  "nivel": "B2",
  "resumen": "Vocabulario para hablar de investigación científica, innovación, internet e inteligencia artificial. Útil para noticias, debates sobre regulación tecnológica y productividad.",
  "explicacion": [
-  {"tipo": "texto", "texto": "Muchas palabras son internacionales, pero cambian las colocaciones: se «carry out / conduct research» (no «make research») y «research» es incontable: no se dice «a research» ni «researches», sino «a study» o «research projects»."},
-  {"tipo": "tabla", "cabecera": ["Expresión", "Significado", "Ejemplo"], "filas": [
-   ["research (incontable)", "investigación", "They carried out research on vaccines."],
-   ["researcher / scientist", "investigador / científico", "Researchers found a new gene."],
-   ["to conduct an experiment", "realizar un experimento", "The team conducted several experiments."],
-   ["findings", "resultados, hallazgos", "The findings were published in Nature."],
-   ["breakthrough", "avance decisivo", "It was a major breakthrough in cancer research."],
-   ["evidence (incontable)", "pruebas, datos empíricos", "There is little evidence that it works."],
-   ["peer review", "revisión por pares", "The paper is under peer review."],
-   ["R&D (research and development)", "I+D", "Firms should spend more on R&D."],
-   ["patent", "patente", "They filed a patent for the device."],
-   ["innovation / cutting-edge", "innovación / de vanguardia", "It uses cutting-edge technology."],
-   ["to develop / to launch", "desarrollar / lanzar", "The company launched a new app."]
-  ]},
-  {"tipo": "tabla", "cabecera": ["Expresión", "Significado", "Ejemplo"], "filas": [
-   ["artificial intelligence (AI)", "inteligencia artificial (IA)", "AI is changing many jobs."],
-   ["machine learning", "aprendizaje automático", "Machine learning needs large datasets."],
-   ["algorithm", "algoritmo", "The algorithm decides what you see."],
-   ["data (incontable o plural)", "datos", "The data shows a clear trend."],
-   ["device", "dispositivo", "Turn off all electronic devices."],
-   ["software / hardware", "programas / equipos", "We need to update the software."],
-   ["to download / to upload", "descargar / subir", "Upload the file to the cloud."],
-   ["cybersecurity / data breach", "ciberseguridad / filtración de datos", "The bank suffered a data breach."],
-   ["privacy", "privacidad, intimidad", "Users are worried about their privacy."],
-   ["digital divide", "brecha digital", "The digital divide affects older people."],
-   ["automation", "automatización", "Automation may replace routine jobs."],
-   ["user-friendly", "fácil de usar", "The new website is very user-friendly."]
-  ]},
-  {"tipo": "lista", "items": ["«Technique» es una técnica (un método); «technology» es la tecnología; «technician» es el técnico.", "«Computer science» = informática (la disciplina); «computing» = informática (el campo en general)."]}
+  {
+   "tipo": "texto",
+   "texto": "Muchas palabras son internacionales, pero cambian las colocaciones: se «carry out / conduct research» (no «make research») y «research» es incontable: no se dice «a research» ni «researches», sino «a study» o «research projects»."
+  },
+  {
+   "tipo": "tabla",
+   "cabecera": [
+    "Expresión",
+    "Significado",
+    "Ejemplo"
+   ],
+   "filas": [
+    [
+     "research (incontable)",
+     "investigación",
+     "They carried out research on vaccines."
+    ],
+    [
+     "researcher / scientist",
+     "investigador / científico",
+     "Researchers found a new gene."
+    ],
+    [
+     "to conduct an experiment",
+     "realizar un experimento",
+     "The team conducted several experiments."
+    ],
+    [
+     "findings",
+     "resultados, hallazgos",
+     "The findings were published in Nature."
+    ],
+    [
+     "breakthrough",
+     "avance decisivo",
+     "It was a major breakthrough in cancer research."
+    ],
+    [
+     "evidence (incontable)",
+     "pruebas, datos empíricos",
+     "There is little evidence that it works."
+    ],
+    [
+     "peer review",
+     "revisión por pares",
+     "The paper is under peer review."
+    ],
+    [
+     "R&D (research and development)",
+     "I+D",
+     "Firms should spend more on R&D."
+    ],
+    [
+     "patent",
+     "patente",
+     "They filed a patent for the device."
+    ],
+    [
+     "innovation / cutting-edge",
+     "innovación / de vanguardia",
+     "It uses cutting-edge technology."
+    ],
+    [
+     "to develop / to launch",
+     "desarrollar / lanzar",
+     "The company launched a new app."
+    ]
+   ]
+  },
+  {
+   "tipo": "tabla",
+   "cabecera": [
+    "Expresión",
+    "Significado",
+    "Ejemplo"
+   ],
+   "filas": [
+    [
+     "artificial intelligence (AI)",
+     "inteligencia artificial (IA)",
+     "AI is changing many jobs."
+    ],
+    [
+     "machine learning",
+     "aprendizaje automático",
+     "Machine learning needs large datasets."
+    ],
+    [
+     "algorithm",
+     "algoritmo",
+     "The algorithm decides what you see."
+    ],
+    [
+     "data (incontable o plural)",
+     "datos",
+     "The data shows a clear trend."
+    ],
+    [
+     "device",
+     "dispositivo",
+     "Turn off all electronic devices."
+    ],
+    [
+     "software / hardware",
+     "programas / equipos",
+     "We need to update the software."
+    ],
+    [
+     "to download / to upload",
+     "descargar / subir",
+     "Upload the file to the cloud."
+    ],
+    [
+     "cybersecurity / data breach",
+     "ciberseguridad / filtración de datos",
+     "The bank suffered a data breach."
+    ],
+    [
+     "privacy",
+     "privacidad, intimidad",
+     "Users are worried about their privacy."
+    ],
+    [
+     "digital divide",
+     "brecha digital",
+     "The digital divide affects older people."
+    ],
+    [
+     "automation",
+     "automatización",
+     "Automation may replace routine jobs."
+    ],
+    [
+     "user-friendly",
+     "fácil de usar",
+     "The new website is very user-friendly."
+    ]
+   ]
+  },
+  {
+   "tipo": "lista",
+   "items": [
+    "«Technique» es una técnica (un método); «technology» es la tecnología; «technician» es el técnico.",
+    "«Computer science» = informática (la disciplina); «computing» = informática (el campo en general)."
+   ]
+  }
  ],
  "ejemplos": [
-  {"frase": "Scientists have made a breakthrough in battery technology.", "traduccion": "Los científicos han logrado un avance decisivo en la tecnología de baterías."},
-  {"frase": "There is growing evidence that social media affects teenagers' sleep.", "traduccion": "Hay cada vez más datos de que las redes sociales afectan al sueño de los adolescentes."},
-  {"frase": "Spain spends less on R&D than the EU average.", "traduccion": "España gasta menos en I+D que la media de la UE."},
-  {"frase": "The hospital uses AI to detect tumours earlier.", "traduccion": "El hospital usa IA para detectar tumores antes."},
-  {"frase": "Millions of customers were affected by the data breach.", "traduccion": "Millones de clientes se vieron afectados por la filtración de datos."},
-  {"frase": "My grandmother finds her new phone surprisingly user-friendly.", "traduccion": "A mi abuela su móvil nuevo le resulta sorprendentemente fácil de usar."}
+  {
+   "frase": "Scientists have made a breakthrough in battery technology.",
+   "traduccion": "Los científicos han logrado un avance decisivo en la tecnología de baterías."
+  },
+  {
+   "frase": "There is growing evidence that social media affects teenagers' sleep.",
+   "traduccion": "Hay cada vez más datos de que las redes sociales afectan al sueño de los adolescentes."
+  },
+  {
+   "frase": "Spain spends less on R&D than the EU average.",
+   "traduccion": "España gasta menos en I+D que la media de la UE."
+  },
+  {
+   "frase": "The hospital uses AI to detect tumours earlier.",
+   "traduccion": "El hospital usa IA para detectar tumores antes."
+  },
+  {
+   "frase": "Millions of customers were affected by the data breach.",
+   "traduccion": "Millones de clientes se vieron afectados por la filtración de datos."
+  },
+  {
+   "frase": "My grandmother finds her new phone surprisingly user-friendly.",
+   "traduccion": "A mi abuela su móvil nuevo le resulta sorprendentemente fácil de usar."
+  }
  ],
  "errores_hispanohablantes": [
-  {"mal": "They are making a research on climate.", "bien": "They are doing research on climate.", "nota": "«Research» es incontable y se usa con do, carry out o conduct."},
-  {"mal": "There are many evidences.", "bien": "There is a lot of evidence.", "nota": "«Evidence» es incontable; para una prueba concreta: «a piece of evidence»."},
-  {"mal": "He works in the technology of the company.", "bien": "He works in the company's IT department.", "nota": "El departamento de informática es «IT (department)»."},
-  {"mal": "I have to actualize the software.", "bien": "I have to update the software.", "nota": "«Actualizar» es «update»; «actualize» significa hacer realidad."}
+  {
+   "mal": "They are making a research on climate.",
+   "bien": "They are doing research on climate.",
+   "nota": "«Research» es incontable y se usa con do, carry out o conduct."
+  },
+  {
+   "mal": "There are many evidences.",
+   "bien": "There is a lot of evidence.",
+   "nota": "«Evidence» es incontable; para una prueba concreta: «a piece of evidence»."
+  },
+  {
+   "mal": "He works in the technology of the company.",
+   "bien": "He works in the company's IT department.",
+   "nota": "El departamento de informática es «IT (department)»."
+  },
+  {
+   "mal": "I have to actualize the software.",
+   "bien": "I have to update the software.",
+   "nota": "«Actualizar» es «update»; «actualize» significa hacer realidad."
+  }
  ],
  "ejercicios": [
-  {"id": "e01", "tipo": "eleccion", "enunciado": "Elige la opción correcta.", "frase": "The university is ___ research into renewable energy.", "opciones": ["carrying out", "making", "putting", "taking"], "respuestas": ["carrying out"], "explicacion": "Se dice «carry out / conduct research», no «make»."},
-  {"id": "e02", "tipo": "corregir", "enunciado": "Corrige el error.", "frase": "She published three researches last year.", "respuestas": ["She published three studies last year.", "She published three papers last year.", "She published three research papers last year.", "She published three pieces of research last year."], "explicacion": "«Research» es incontable: se habla de «studies» o «papers»."},
-  {"id": "e03", "tipo": "hueco", "enunciado": "Completa con una palabra (avance decisivo).", "frase": "The new vaccine is a major ___ in medicine.", "respuestas": ["breakthrough"], "explicacion": "Un gran avance es «breakthrough»."},
-  {"id": "e04", "tipo": "eleccion", "enunciado": "Elige la opción correcta.", "frase": "There isn't enough ___ to prove the theory.", "opciones": ["evidence", "evidences", "evidents"], "respuestas": ["evidence"], "explicacion": "«Evidence» es incontable y no lleva -s."},
-  {"id": "e05", "tipo": "corregir", "enunciado": "Corrige el error (falso amigo).", "frase": "Remember to actualize the app before Monday.", "respuestas": ["Remember to update the app before Monday."], "explicacion": "Actualizar un programa es «update»."},
-  {"id": "e06", "tipo": "hueco", "enunciado": "Completa con una palabra (I+D).", "frase": "Companies that invest in ___ tend to be more productive.", "respuestas": ["R&D", "R and D", "research and development"], "explicacion": "I+D se dice «R&D»."},
-  {"id": "e07", "tipo": "eleccion", "enunciado": "Elige la opción correcta.", "frase": "Please ___ your CV to our website.", "opciones": ["upload", "download", "load up"], "respuestas": ["upload"], "explicacion": "Subir un archivo a la red es «upload»."},
-  {"id": "e08", "tipo": "hueco", "enunciado": "Completa con una palabra (brecha).", "frase": "Rural areas suffer from the digital ___.", "respuestas": ["divide", "gap"], "explicacion": "La brecha digital es «digital divide» (también «digital gap»)."},
-  {"id": "e09", "tipo": "eleccion", "enunciado": "Elige la opción correcta.", "frase": "The study's ___ were published in a leading journal.", "opciones": ["findings", "foundings", "finds"], "respuestas": ["findings"], "explicacion": "Los resultados de un estudio son «findings»."},
-  {"id": "e10", "tipo": "hueco", "enunciado": "Completa con una palabra (dispositivos).", "frase": "Children spend hours a day on their electronic ___.", "respuestas": ["devices"], "explicacion": "Dispositivo es «device»."},
-  {"id": "e11", "tipo": "eleccion", "enunciado": "Elige la opción correcta.", "frase": "She learned a new painting ___ at the workshop.", "opciones": ["technique", "technology", "technic"], "respuestas": ["technique"], "explicacion": "Un método concreto es «technique»."},
-  {"id": "e12", "tipo": "hueco", "enunciado": "Completa con una palabra (filtración).", "frase": "The hackers caused a massive data ___.", "respuestas": ["breach", "leak"], "explicacion": "Filtración de datos: «data breach» o «data leak»."},
-  {"id": "e13", "tipo": "ordenar", "enunciado": "Ordena las palabras.", "palabras": ["could", "Automation", "jobs", "replace", "routine", "many"], "respuestas": ["Automation could replace many routine jobs"], "explicacion": "Sujeto + modal + verbo + objeto con sus adjetivos delante."},
-  {"id": "e14", "tipo": "eleccion", "enunciado": "Elige la opción correcta.", "frase": "The paper was rejected after ___ review.", "opciones": ["peer", "pair", "partner"], "respuestas": ["peer"], "explicacion": "La revisión por pares es «peer review»."},
-  {"id": "e15", "tipo": "hueco", "enunciado": "Completa con una palabra (patente).", "frase": "The inventor filed a ___ for his new engine.", "respuestas": ["patent"], "explicacion": "Registrar una patente: «file a patent»."}
+  {
+   "id": "e01",
+   "tipo": "eleccion",
+   "enunciado": "Elige la opción correcta.",
+   "frase": "The university is ___ research into renewable energy.",
+   "opciones": [
+    "carrying out",
+    "making",
+    "putting",
+    "taking"
+   ],
+   "respuestas": [
+    "carrying out"
+   ],
+   "explicacion": "La ficha insiste en que lo que cambia son las colocaciones: se dice «carry out» o «conduct research», nunca «make research». La pista es el sustantivo «research», que en inglés se combina con «carry out», «conduct» o «do». Por eso «is carrying out research into renewable energy», en continuo porque la investigación está en marcha. Fíjate también en que «research» va con «into» u «on».",
+   "explicacion_breve": "Se dice «carry out / conduct research», no «make».",
+   "traduccion": "La universidad está llevando a cabo investigaciones sobre energías renovables.",
+   "por_opcion": {
+    "carrying out": "Correcta: «carry out research» es la colocación estándar (llevar a cabo una investigación).",
+    "making": "Incorrecta: es el calco de «hacer una investigación»; «make research» no se usa.",
+    "putting": "Incorrecta: «put» no se combina con «research»; aparece en otras expresiones como «put forward a theory».",
+    "taking": "Incorrecta: «take» se combina con «a test» o «measures», pero no con «research»."
+   },
+   "glosario": [
+    {
+     "palabra": "to carry out research",
+     "significado": "llevar a cabo una investigación, investigar"
+    },
+    {
+     "palabra": "renewable energy",
+     "significado": "energía renovable"
+    }
+   ]
+  },
+  {
+   "id": "e02",
+   "tipo": "corregir",
+   "enunciado": "Corrige el error.",
+   "frase": "She published three researches last year.",
+   "respuestas": [
+    "She published three studies last year.",
+    "She published three papers last year.",
+    "She published three research papers last year.",
+    "She published three pieces of research last year."
+   ],
+   "explicacion": "La ficha explica que «research» es incontable: no admite «a» ni plural. La pista es «three researches», que intenta contarla. Para contar trabajos de investigación hay que usar un sustantivo contable: «studies», «papers» (artículos científicos), «research papers» o la fórmula «pieces of research». Cualquiera de ellas corrige la frase.",
+   "explicacion_breve": "«Research» es incontable: se habla de «studies» o «papers».",
+   "traduccion": "Publicó tres estudios el año pasado.",
+   "errores_previstos": [
+    {
+     "respuesta": "She published three researches last year.",
+     "explicacion": "Es la frase sin corregir: «research» es incontable y no tiene plural."
+    },
+    {
+     "respuesta": "She published three research last year.",
+     "explicacion": "Quitar la -s no basta: «research» sigue siendo incontable y no puede ir con un número."
+    },
+    {
+     "respuesta": "She published three investigations last year.",
+     "explicacion": "«Investigation» es sobre todo una investigación policial o judicial; los trabajos científicos son «studies» o «papers»."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "research",
+     "significado": "investigación (incontable)"
+    },
+    {
+     "palabra": "paper",
+     "significado": "artículo científico"
+    },
+    {
+     "palabra": "study",
+     "significado": "estudio (contable)"
+    }
+   ]
+  },
+  {
+   "id": "e03",
+   "tipo": "hueco",
+   "enunciado": "Completa con una palabra (avance decisivo).",
+   "frase": "The new vaccine is a major ___ in medicine.",
+   "respuestas": [
+    "breakthrough"
+   ],
+   "explicacion": "La palabra de la tabla es «breakthrough», avance decisivo, un descubrimiento que abre un camino nuevo. La pista es «a major ___ in medicine»: se busca un sustantivo contable que exprese un salto importante, y «major breakthrough» es una colocación muy frecuente. Viene de «break through», atravesar una barrera. «Advance» también existe, pero es más general.",
+   "explicacion_breve": "Un gran avance es «breakthrough».",
+   "traduccion": "La nueva vacuna es un gran avance en medicina.",
+   "errores_previstos": [
+    {
+     "respuesta": "advance",
+     "explicacion": "«Advance» es un avance cualquiera; para un hallazgo decisivo la palabra pedida es «breakthrough»."
+    },
+    {
+     "respuesta": "break-through",
+     "explicacion": "El sustantivo se escribe en una sola palabra: «breakthrough»."
+    },
+    {
+     "respuesta": "progress",
+     "explicacion": "«Progress» es incontable y no admite «a major»."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "breakthrough",
+     "significado": "avance decisivo, gran descubrimiento"
+    },
+    {
+     "palabra": "vaccine",
+     "significado": "vacuna"
+    }
+   ]
+  },
+  {
+   "id": "e04",
+   "tipo": "eleccion",
+   "enunciado": "Elige la opción correcta.",
+   "frase": "There isn't enough ___ to prove the theory.",
+   "opciones": [
+    "evidence",
+    "evidences",
+    "evidents"
+   ],
+   "respuestas": [
+    "evidence"
+   ],
+   "explicacion": "La tabla marca «evidence» como incontable: significa pruebas o datos empíricos, y nunca lleva -s ni «an». La pista es «There isn't enough», en singular, que encaja con un incontable. Por eso «enough evidence». Si se necesita contar, se dice «a piece of evidence». No hay que confundirlo con «evident», que es un adjetivo.",
+   "explicacion_breve": "«Evidence» es incontable y no lleva -s.",
+   "traduccion": "No hay pruebas suficientes para demostrar la teoría.",
+   "por_opcion": {
+    "evidence": "Correcta: sustantivo incontable, pruebas o datos.",
+    "evidences": "Incorrecta: «evidence» no tiene plural; es el error típico de la ficha («many evidences»).",
+    "evidents": "Incorrecta: «evident» es un adjetivo (evidente) y en inglés los adjetivos no tienen plural."
+   },
+   "glosario": [
+    {
+     "palabra": "evidence",
+     "significado": "pruebas, datos empíricos (incontable)"
+    },
+    {
+     "palabra": "to prove",
+     "significado": "demostrar"
+    }
+   ]
+  },
+  {
+   "id": "e05",
+   "tipo": "corregir",
+   "enunciado": "Corrige el error (falso amigo).",
+   "frase": "Remember to actualize the app before Monday.",
+   "respuestas": [
+    "Remember to update the app before Monday."
+   ],
+   "explicacion": "Es un falso amigo de los errores típicos de la ficha: «actualizar» un programa es «update», mientras que «actualize» significa hacer realidad algo (por ejemplo, el propio potencial) y es raro. La pista es «the app»: se habla de instalar la última versión. La frase correcta es «Remember to update the app before Monday». El sustantivo es igual: «an update», una actualización.",
+   "explicacion_breve": "Actualizar un programa es «update».",
+   "traduccion": "Acuérdate de actualizar la aplicación antes del lunes.",
+   "errores_previstos": [
+    {
+     "respuesta": "Remember to actualize the app before Monday.",
+     "explicacion": "Es la frase sin corregir: «actualize» no significa actualizar un programa."
+    },
+    {
+     "respuesta": "Remember to actualise the app before Monday.",
+     "explicacion": "Cambiar la grafía británica no arregla nada: el verbo correcto es «update»."
+    },
+    {
+     "respuesta": "Remember to upload the app before Monday.",
+     "explicacion": "«Upload» es subir un archivo a la red; actualizar es «update»."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "to update",
+     "significado": "actualizar"
+    },
+    {
+     "palabra": "app",
+     "significado": "aplicación (de móvil u ordenador)"
+    }
+   ]
+  },
+  {
+   "id": "e06",
+   "tipo": "hueco",
+   "enunciado": "Completa (I+D).",
+   "frase": "Companies that invest in ___ tend to be more productive.",
+   "respuestas": [
+    "R&D",
+    "R and D",
+    "research and development"
+   ],
+   "explicacion": "La tabla da «R&D (research and development)» como equivalente de I+D. La pista es «invest in ___» y el tema de la productividad: es el término estándar en economía. Se aceptan la sigla «R&D», la forma «R and D» y la expresión completa «research and development». El orden de las letras es el inverso al de las palabras españolas, pero la sigla corresponde a investigación y desarrollo.",
+   "explicacion_breve": "I+D se dice «R&D».",
+   "traduccion": "Las empresas que invierten en I+D tienden a ser más productivas.",
+   "errores_previstos": [
+    {
+     "respuesta": "I+D",
+     "explicacion": "Es la sigla española; en inglés se dice «R&D»."
+    },
+    {
+     "respuesta": "D&R",
+     "explicacion": "El orden es «R&D»: primero research (investigación) y después development (desarrollo)."
+    },
+    {
+     "respuesta": "investigation and development",
+     "explicacion": "«Investigation» no es investigación científica; la forma fija es «research and development»."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "R&D",
+     "significado": "I+D, investigación y desarrollo"
+    },
+    {
+     "palabra": "productive",
+     "significado": "productivo"
+    }
+   ]
+  },
+  {
+   "id": "e07",
+   "tipo": "eleccion",
+   "enunciado": "Elige la opción correcta.",
+   "frase": "Please ___ your CV to our website.",
+   "opciones": [
+    "upload",
+    "download",
+    "load up"
+   ],
+   "respuestas": [
+    "upload"
+   ],
+   "explicacion": "La tabla distingue «to download» (descargar, de la red a tu ordenador) y «to upload» (subir, de tu ordenador a la red). La pista es «to our website»: el currículum va desde el candidato hacia la web de la empresa. Por eso «upload your CV». Si fuera al revés, «download a form from our website».",
+   "explicacion_breve": "Subir un archivo a la red es «upload».",
+   "traduccion": "Por favor, suba su currículum a nuestra web.",
+   "por_opcion": {
+    "upload": "Correcta: subir un archivo desde tu dispositivo a la red.",
+    "download": "Incorrecta: «download» es descargar, traer un archivo desde la red a tu dispositivo; la dirección es la contraria.",
+    "load up": "Incorrecta: «load up» es cargar algo hasta llenarlo (un coche, un camión), no subir archivos."
+   },
+   "glosario": [
+    {
+     "palabra": "to upload",
+     "significado": "subir (un archivo a la red)"
+    },
+    {
+     "palabra": "CV",
+     "significado": "currículum (en EE. UU., résumé)"
+    }
+   ]
+  },
+  {
+   "id": "e08",
+   "tipo": "hueco",
+   "enunciado": "Completa con una palabra (brecha).",
+   "frase": "Rural areas suffer from the digital ___.",
+   "respuestas": [
+    "divide",
+    "gap"
+   ],
+   "explicacion": "La tabla recoge «digital divide», la brecha digital: la diferencia de acceso a internet y a las tecnologías entre grupos o territorios. La pista es «Rural areas» y «digital ___»: las zonas rurales suelen tener peor conexión. Se acepta también «digital gap», menos habitual pero correcto. «Divide» aquí es un sustantivo: división, separación.",
+   "explicacion_breve": "La brecha digital es «digital divide» (también «digital gap»).",
+   "traduccion": "Las zonas rurales sufren la brecha digital.",
+   "errores_previstos": [
+    {
+     "respuesta": "breach",
+     "explicacion": "«Breach» es una brecha de seguridad (data breach), no una desigualdad de acceso."
+    },
+    {
+     "respuesta": "division",
+     "explicacion": "La colocación fija es «digital divide»; «digital division» no se usa con este sentido."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "digital divide",
+     "significado": "brecha digital"
+    },
+    {
+     "palabra": "rural areas",
+     "significado": "zonas rurales"
+    }
+   ]
+  },
+  {
+   "id": "e09",
+   "tipo": "eleccion",
+   "enunciado": "Elige la opción correcta.",
+   "frase": "The study's ___ were published in a leading journal.",
+   "opciones": [
+    "findings",
+    "foundings",
+    "finds"
+   ],
+   "respuestas": [
+    "findings"
+   ],
+   "explicacion": "La tabla da «findings» como resultados o hallazgos de una investigación; casi siempre va en plural. La pista es «The study's ___ were published», que pide un sustantivo plural relacionado con un estudio. Viene del verbo «find» (encontrar, descubrir). «Journal» es una revista científica, no un periódico.",
+   "explicacion_breve": "Los resultados de un estudio son «findings».",
+   "traduccion": "Los resultados del estudio se publicaron en una revista de referencia.",
+   "por_opcion": {
+    "findings": "Correcta: resultados o hallazgos de un estudio.",
+    "foundings": "Incorrecta: «founding» es la fundación de algo (una ciudad, una empresa); además no se usa en plural así.",
+    "finds": "Incorrecta: «a find» es un hallazgo físico (un objeto encontrado, por ejemplo en arqueología) o una ganga; no son los resultados de un estudio."
+   },
+   "glosario": [
+    {
+     "palabra": "findings",
+     "significado": "resultados, hallazgos"
+    },
+    {
+     "palabra": "journal",
+     "significado": "revista científica o especializada"
+    },
+    {
+     "palabra": "leading",
+     "significado": "principal, de referencia"
+    }
+   ]
+  },
+  {
+   "id": "e10",
+   "tipo": "hueco",
+   "enunciado": "Completa con una palabra (dispositivos).",
+   "frase": "Children spend hours a day on their electronic ___.",
+   "respuestas": [
+    "devices"
+   ],
+   "explicacion": "La tabla da «device» como dispositivo: móvil, tableta, consola… La pista es «electronic ___» y el posesivo plural «their»: hace falta un sustantivo contable en plural. Por eso «devices», con -s. Es la palabra genérica para cualquier aparato electrónico.",
+   "explicacion_breve": "Dispositivo es «device».",
+   "traduccion": "Los niños pasan horas al día con sus dispositivos electrónicos.",
+   "errores_previstos": [
+    {
+     "respuesta": "device",
+     "explicacion": "Los niños tienen varios aparatos y el sentido es plural: «devices»."
+    },
+    {
+     "respuesta": "dispositives",
+     "explicacion": "Es un calco del español; la palabra inglesa es «devices»."
+    },
+    {
+     "respuesta": "devises",
+     "explicacion": "«Devise» es un verbo (idear); el sustantivo se escribe con c: «devices»."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "device",
+     "significado": "dispositivo, aparato"
+    }
+   ]
+  },
+  {
+   "id": "e11",
+   "tipo": "eleccion",
+   "enunciado": "Elige la opción correcta.",
+   "frase": "She learned a new painting ___ at the workshop.",
+   "opciones": [
+    "technique",
+    "technology",
+    "technic"
+   ],
+   "respuestas": [
+    "technique"
+   ],
+   "explicacion": "La ficha distingue «technique» (una técnica, un método concreto), «technology» (la tecnología) y «technician» (el técnico). La pista es «a new painting ___»: se aprende un método para pintar. Por eso «technique», con el artículo «a» porque es contable. «Workshop» aquí es un taller o curso práctico.",
+   "explicacion_breve": "Un método concreto es «technique».",
+   "traduccion": "Aprendió una nueva técnica de pintura en el taller.",
+   "por_opcion": {
+    "technique": "Correcta: método o procedimiento concreto para hacer algo.",
+    "technology": "Incorrecta: «technology» es la tecnología (aparatos, sistemas), no un método de pintura.",
+    "technic": "Incorrecta: «technic» es una forma rara y anticuada; la palabra normal es «technique»."
+   },
+   "glosario": [
+    {
+     "palabra": "technique",
+     "significado": "técnica (método)"
+    },
+    {
+     "palabra": "workshop",
+     "significado": "taller (curso práctico o lugar de trabajo)"
+    }
+   ]
+  },
+  {
+   "id": "e12",
+   "tipo": "hueco",
+   "enunciado": "Completa con una palabra (filtración).",
+   "frase": "The hackers caused a massive data ___.",
+   "respuestas": [
+    "breach",
+    "leak"
+   ],
+   "explicacion": "La tabla da «data breach», filtración de datos o brecha de seguridad, cuando terceros acceden a datos protegidos. La pista es «hackers», que atacan sistemas, y «data ___». Se acepta también «data leak», muy parecido, aunque «leak» se usa sobre todo cuando la información se escapa o se divulga. Ambos son sustantivos contables.",
+   "explicacion_breve": "Filtración de datos: «data breach» o «data leak».",
+   "traduccion": "Los piratas informáticos provocaron una filtración de datos masiva.",
+   "errores_previstos": [
+    {
+     "respuesta": "filtration",
+     "explicacion": "«Filtration» es la filtración de un líquido a través de un filtro; la de datos es «breach» o «leak»."
+    },
+    {
+     "respuesta": "divide",
+     "explicacion": "«Divide» se usa en «digital divide» (brecha digital, desigualdad de acceso), no para un ataque informático."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "data breach",
+     "significado": "filtración de datos, brecha de seguridad"
+    },
+    {
+     "palabra": "hacker",
+     "significado": "pirata informático"
+    }
+   ]
+  },
+  {
+   "id": "e13",
+   "tipo": "ordenar",
+   "enunciado": "Ordena las palabras.",
+   "palabras": [
+    "could",
+    "Automation",
+    "jobs",
+    "replace",
+    "routine",
+    "many"
+   ],
+   "respuestas": [
+    "Automation could replace many routine jobs"
+   ],
+   "explicacion": "La palabra clave es «automation», automatización, que la tabla asocia a la sustitución de trabajos rutinarios. El orden es el de cualquier oración inglesa: sujeto («Automation», con la mayúscula de inicio) + modal «could» + verbo «replace» + objeto. En el objeto, los adjetivos van delante del sustantivo: «many routine jobs», con «many» primero y «routine» justo antes de «jobs».",
+   "explicacion_breve": "Sujeto + modal + verbo + objeto con sus adjetivos delante.",
+   "traduccion": "La automatización podría sustituir muchos empleos rutinarios.",
+   "errores_previstos": [
+    {
+     "respuesta": "Automation could replace many jobs routine",
+     "explicacion": "Es el orden del español («empleos rutinarios»); en inglés el modificador «routine» va delante de «jobs»."
+    },
+    {
+     "respuesta": "Automation could replace routine many jobs",
+     "explicacion": "«Many» va antes que el resto de modificadores: «many routine jobs»."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "automation",
+     "significado": "automatización"
+    },
+    {
+     "palabra": "routine jobs",
+     "significado": "empleos rutinarios"
+    }
+   ]
+  },
+  {
+   "id": "e14",
+   "tipo": "eleccion",
+   "enunciado": "Elige la opción correcta.",
+   "frase": "The paper was rejected after ___ review.",
+   "opciones": [
+    "peer",
+    "pair",
+    "partner"
+   ],
+   "respuestas": [
+    "peer"
+   ],
+   "explicacion": "La tabla da «peer review», revisión por pares: otros expertos del mismo campo evalúan un trabajo antes de publicarlo. La pista es «The paper was rejected after ___ review», el proceso de selección de las revistas científicas. «Peer» significa igual o par (alguien de tu mismo nivel). Se pronuncia igual que «pier», y la trampa de la opción «pair» es fonética.",
+   "explicacion_breve": "La revisión por pares es «peer review».",
+   "traduccion": "El artículo fue rechazado tras la revisión por pares.",
+   "por_opcion": {
+    "peer": "Correcta: «peer review» es la revisión por otros especialistas del mismo nivel.",
+    "pair": "Incorrecta: «pair» es un par (dos cosas); es la traducción literal de «pares», pero no forma la expresión.",
+    "partner": "Incorrecta: «partner» es socio o pareja; no forma ninguna expresión con «review» en este sentido."
+   },
+   "glosario": [
+    {
+     "palabra": "peer review",
+     "significado": "revisión por pares"
+    },
+    {
+     "palabra": "peer",
+     "significado": "igual, colega del mismo nivel"
+    },
+    {
+     "palabra": "to reject",
+     "significado": "rechazar"
+    }
+   ]
+  },
+  {
+   "id": "e15",
+   "tipo": "hueco",
+   "enunciado": "Completa con una palabra (patente).",
+   "frase": "The inventor filed a ___ for his new engine.",
+   "respuestas": [
+    "patent"
+   ],
+   "explicacion": "La tabla da «patent», patente, con el ejemplo «They filed a patent». La pista es el verbo «filed», que en este contexto significa presentar o registrar una solicitud ante la oficina de patentes, y «The inventor». Por eso «filed a patent». Es contable y se escribe con t final, sin e.",
+   "explicacion_breve": "Registrar una patente: «file a patent».",
+   "traduccion": "El inventor registró una patente para su nuevo motor.",
+   "errores_previstos": [
+    {
+     "respuesta": "patente",
+     "explicacion": "Es la palabra española; en inglés se escribe «patent», sin e final."
+    },
+    {
+     "respuesta": "license",
+     "explicacion": "Una licencia permite a otros usar algo; lo que protege un invento y se registra es la «patent»."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "to file a patent",
+     "significado": "registrar una patente, presentar la solicitud"
+    },
+    {
+     "palabra": "engine",
+     "significado": "motor"
+    }
+   ]
+  }
  ],
- "fuente": {"nombre": "propia"}
+ "fuente": {
+  "nombre": "propia"
+ },
+ "descripcion_larga_es": "Vocabulario para hablar de investigación, innovación, internet e inteligencia artificial: research, findings, breakthrough, R&D, device, data breach, digital divide… Es imprescindible para entender noticias y debatir sobre regulación tecnológica o productividad. Muchas palabras parecen internacionales, pero cambian las colocaciones (carry out research, no make research) y hay incontables y falsos amigos (research, evidence, actualize) que delatan al hispanohablante.",
+ "contexto": {
+  "que_es": "Es el léxico de la ciencia (research, experiment, findings, evidence, peer review), de la innovación (R&D, patent, breakthrough) y de la tecnología digital (AI, algorithm, device, data breach, digital divide). Lo importante no es solo la palabra, sino con qué verbo se combina y si es contable o incontable.",
+  "por_que_importa": "Son temas omnipresentes en la prensa y en los debates sobre economía, productividad y regulación. Errores como «a research», «many evidences» o «make research» son muy frecuentes entre hispanohablantes y llaman la atención de inmediato. Usar las colocaciones correctas (carry out research, file a patent) da precisión y naturalidad.",
+  "cuando_se_usa": "Al comentar noticias científicas o tecnológicas, hablar de políticas de innovación, de la digitalización o de la privacidad. Las señales son verbos como publish, conduct, launch, download o file. El hispanohablante tiende a calcar «hacer una investigación» (make a research) o «actualizar» (actualize), y a poner plural a sustantivos que en inglés son incontables."
+ }
 }

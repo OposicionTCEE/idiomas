@@ -6,57 +6,546 @@
  "nivel": "B1",
  "resumen": "Además de ne… pas, el francés tiene negaciones en dos piezas para decir nada (ne… rien), nadie (ne… personne), nunca (ne… jamais), ya no (ne… plus), todavía no (ne… pas encore), ningún (ne… aucun) y ni… ni. Ne… que no es una negación, sino que significa «solo». Al contrario que en español, nunca se añade pas.",
  "explicacion": [
-  {"tipo": "tabla", "cabecera": ["Negación", "Significado", "Ejemplo"], "filas": [
-   ["ne… jamais", "nunca", "Je ne mens jamais."],
-   ["ne… plus", "ya no", "Il ne vit plus ici."],
-   ["ne… pas encore", "todavía no", "Je n'ai pas encore fini."],
-   ["ne… rien", "nada", "Elle ne sait rien."],
-   ["ne… personne", "nadie", "Il ne veut voir personne."],
-   ["ne… aucun / aucune + nombre", "ningún, ninguna", "Je n'ai aucun doute."],
-   ["ne… ni… ni", "ni… ni", "Je n'aime ni le thé ni le café."],
-   ["ne… que", "solo, únicamente", "Il ne mange que des légumes."],
-   ["ne… pas du tout", "en absoluto", "Je n'ai pas du tout faim."]
-  ]},
-  {"tipo": "texto", "texto": "Colocación: el segundo elemento va detrás del verbo conjugado. En tiempos compuestos, jamais, plus, rien y pas encore van entre el auxiliar y el participio (Je n'ai rien vu), pero personne, aucun, que y ni van detrás del participio (Je n'ai vu personne, Je n'ai reçu aucune nouvelle)."},
-  {"tipo": "texto", "texto": "Personne, rien, aucun y ni… ni pueden ser sujeto: van al principio y siguen llevando ne, pero nunca pas: Personne n'est venu. Rien n'est pire. Aucun étudiant n'a répondu. Ni moi ni Fiona n'avons vu Tammy."},
-  {"tipo": "lista", "items": [
-   "Se pueden combinar: Je ne te ferai plus jamais le petit-déjeuner. Je ne prends jamais rien.",
-   "Aucun concuerda en género con el nombre: aucun doute, aucune idée; casi siempre va en singular.",
-   "En respuestas de una palabra: Rien ! Personne ! Jamais ! Pas vraiment.",
-   "En la lengua oral se suele omitir ne (J'ai rien vu), pero por escrito es obligatorio."
-  ]}
+  {
+   "tipo": "tabla",
+   "cabecera": [
+    "Negación",
+    "Significado",
+    "Ejemplo"
+   ],
+   "filas": [
+    [
+     "ne… jamais",
+     "nunca",
+     "Je ne mens jamais."
+    ],
+    [
+     "ne… plus",
+     "ya no",
+     "Il ne vit plus ici."
+    ],
+    [
+     "ne… pas encore",
+     "todavía no",
+     "Je n'ai pas encore fini."
+    ],
+    [
+     "ne… rien",
+     "nada",
+     "Elle ne sait rien."
+    ],
+    [
+     "ne… personne",
+     "nadie",
+     "Il ne veut voir personne."
+    ],
+    [
+     "ne… aucun / aucune + nombre",
+     "ningún, ninguna",
+     "Je n'ai aucun doute."
+    ],
+    [
+     "ne… ni… ni",
+     "ni… ni",
+     "Je n'aime ni le thé ni le café."
+    ],
+    [
+     "ne… que",
+     "solo, únicamente",
+     "Il ne mange que des légumes."
+    ],
+    [
+     "ne… pas du tout",
+     "en absoluto",
+     "Je n'ai pas du tout faim."
+    ]
+   ]
+  },
+  {
+   "tipo": "texto",
+   "texto": "Colocación: el segundo elemento va detrás del verbo conjugado. En tiempos compuestos, jamais, plus, rien y pas encore van entre el auxiliar y el participio (Je n'ai rien vu), pero personne, aucun, que y ni van detrás del participio (Je n'ai vu personne, Je n'ai reçu aucune nouvelle)."
+  },
+  {
+   "tipo": "texto",
+   "texto": "Personne, rien, aucun y ni… ni pueden ser sujeto: van al principio y siguen llevando ne, pero nunca pas: Personne n'est venu. Rien n'est pire. Aucun étudiant n'a répondu. Ni moi ni Fiona n'avons vu Tammy."
+  },
+  {
+   "tipo": "lista",
+   "items": [
+    "Se pueden combinar: Je ne te ferai plus jamais le petit-déjeuner. Je ne prends jamais rien.",
+    "Aucun concuerda en género con el nombre: aucun doute, aucune idée; casi siempre va en singular.",
+    "En respuestas de una palabra: Rien ! Personne ! Jamais ! Pas vraiment.",
+    "En la lengua oral se suele omitir ne (J'ai rien vu), pero por escrito es obligatorio."
+   ]
+  }
  ],
  "ejemplos": [
-  {"frase": "Je ne peux jamais faire la grasse matinée avec toi !", "traduccion": "¡Contigo nunca puedo quedarme en la cama hasta tarde!"},
-  {"frase": "Il ne veut parler à personne.", "traduccion": "No quiere hablar con nadie."},
-  {"frase": "Personne n'aime se lever tôt un dimanche.", "traduccion": "A nadie le gusta levantarse temprano un domingo."},
-  {"frase": "Je n'ai reçu aucun coup de téléphone.", "traduccion": "No he recibido ninguna llamada."},
-  {"frase": "Je n'ai vu Tammy ni hier ni aujourd'hui.", "traduccion": "No he visto a Tammy ni ayer ni hoy."},
-  {"frase": "Je n'ai plus un sou.", "traduccion": "Ya no me queda ni un céntimo."}
+  {
+   "frase": "Je ne peux jamais faire la grasse matinée avec toi !",
+   "traduccion": "¡Contigo nunca puedo quedarme en la cama hasta tarde!"
+  },
+  {
+   "frase": "Il ne veut parler à personne.",
+   "traduccion": "No quiere hablar con nadie."
+  },
+  {
+   "frase": "Personne n'aime se lever tôt un dimanche.",
+   "traduccion": "A nadie le gusta levantarse temprano un domingo."
+  },
+  {
+   "frase": "Je n'ai reçu aucun coup de téléphone.",
+   "traduccion": "No he recibido ninguna llamada."
+  },
+  {
+   "frase": "Je n'ai vu Tammy ni hier ni aujourd'hui.",
+   "traduccion": "No he visto a Tammy ni ayer ni hoy."
+  },
+  {
+   "frase": "Je n'ai plus un sou.",
+   "traduccion": "Ya no me queda ni un céntimo."
+  }
  ],
  "errores_hispanohablantes": [
-  {"mal": "Je n'ai pas rien vu.", "bien": "Je n'ai rien vu.", "nota": "Rien sustituye a pas; no se acumulan como en «no he visto nada»."},
-  {"mal": "Personne ne m'a pas appelé.", "bien": "Personne ne m'a appelé.", "nota": "Con personne sujeto basta ne."},
-  {"mal": "Je n'ai vu rien.", "bien": "Je n'ai rien vu.", "nota": "Rien va entre el auxiliar y el participio; personne, en cambio, va detrás: je n'ai vu personne."},
-  {"mal": "Il mange que des légumes.", "bien": "Il ne mange que des légumes.", "nota": "Por escrito, ne… que necesita el ne."}
+  {
+   "mal": "Je n'ai pas rien vu.",
+   "bien": "Je n'ai rien vu.",
+   "nota": "Rien sustituye a pas; no se acumulan como en «no he visto nada»."
+  },
+  {
+   "mal": "Personne ne m'a pas appelé.",
+   "bien": "Personne ne m'a appelé.",
+   "nota": "Con personne sujeto basta ne."
+  },
+  {
+   "mal": "Je n'ai vu rien.",
+   "bien": "Je n'ai rien vu.",
+   "nota": "Rien va entre el auxiliar y el participio; personne, en cambio, va detrás: je n'ai vu personne."
+  },
+  {
+   "mal": "Il mange que des légumes.",
+   "bien": "Il ne mange que des légumes.",
+   "nota": "Por escrito, ne… que necesita el ne."
+  }
  ],
  "ejercicios": [
-  {"id": "e01", "tipo": "transformar", "enunciado": "Pon la frase en negativa con ne… rien.", "frase": "Ils ont vu quelque chose.", "respuestas": ["Ils n'ont rien vu."], "explicacion": "Quelque chose pasa a rien, entre el auxiliar y el participio.", "origen": "tatoeba:3445319"},
-  {"id": "e02", "tipo": "transformar", "enunciado": "Pon la frase en negativa con ne… plus.", "frase": "Il vit encore ici.", "respuestas": ["Il ne vit plus ici."], "explicacion": "Lo contrario de encore (todavía) es ne… plus (ya no).", "origen": "tatoeba:131436"},
-  {"id": "e03", "tipo": "hueco", "enunciado": "Completa con la palabra negativa adecuada.", "frase": "Je n'ai ___ doute.", "respuestas": ["aucun"], "explicacion": "Ne… aucun + nombre masculino: ninguna duda (doute es masculino).", "origen": "tatoeba:620185"},
-  {"id": "e04", "tipo": "eleccion", "enunciado": "Elige la opción correcta.", "frase": "Ça n'a ___ sens.", "opciones": ["aucun", "aucune", "rien"], "respuestas": ["aucun"], "explicacion": "Sens es masculino: aucun sens.", "origen": "tatoeba:331644"},
-  {"id": "e05", "tipo": "transformar", "enunciado": "Di lo contrario con ne… jamais.", "frase": "Je mens souvent.", "respuestas": ["Je ne mens jamais."], "explicacion": "Lo contrario de souvent o toujours es ne… jamais.", "origen": "tatoeba:818284"},
-  {"id": "e06", "tipo": "corregir", "enunciado": "Corrige el error.", "frase": "Je n'ai entendu rien.", "respuestas": ["Je n'ai rien entendu."], "explicacion": "En tiempos compuestos rien va entre el auxiliar y el participio.", "origen": "tatoeba:1410213"},
-  {"id": "e07", "tipo": "corregir", "enunciado": "Corrige el error.", "frase": "Je n'ai aucune crayon.", "respuestas": ["Je n'ai aucun crayon."], "explicacion": "Crayon es masculino: aucun.", "origen": "tatoeba:1461590"},
-  {"id": "e08", "tipo": "hueco", "enunciado": "Completa con la palabra negativa adecuada.", "frase": "Tom n'est ___ marié : il a divorcé l'an dernier.", "respuestas": ["plus"], "explicacion": "Una situación que ha dejado de ser: ne… plus (ya no).", "origen": "tatoeba:3417818"},
-  {"id": "e09", "tipo": "ordenar", "enunciado": "Ordena las palabras.", "palabras": ["faire", "rien", "Je", "à", "n'ai"], "respuestas": ["Je n'ai rien à faire"], "explicacion": "Ne… rien rodea el verbo; à faire completa a rien.", "origen": "tatoeba:1624970"},
-  {"id": "e10", "tipo": "eleccion", "enunciado": "Elige la opción correcta.", "frase": "Susan ne fume ___ : elle n'a jamais touché à une cigarette.", "opciones": ["jamais", "rien", "personne"], "respuestas": ["jamais"], "explicacion": "Nunca: ne… jamais.", "origen": "tatoeba:719212"},
-  {"id": "e11", "tipo": "transformar", "enunciado": "Pon la frase en negativa empezando por Personne.", "frase": "Quelqu'un est venu.", "respuestas": ["Personne n'est venu."], "explicacion": "Personne como sujeto + ne, sin pas."},
-  {"id": "e12", "tipo": "transformar", "enunciado": "Pon la frase en negativa con ne… ni… ni.", "frase": "J'aime le thé et le café.", "respuestas": ["Je n'aime ni le thé ni le café."], "explicacion": "Ne delante del verbo y ni delante de cada elemento; desaparece et."},
-  {"id": "e13", "tipo": "hueco", "enunciado": "Completa con la palabra negativa adecuada (nadie).", "frase": "Je n'ai vu ___ dans la rue.", "respuestas": ["personne"], "explicacion": "Personne como complemento va detrás del participio."},
-  {"id": "e14", "tipo": "transformar", "enunciado": "Expresa la misma idea con ne… que.", "frase": "Il mange seulement des légumes.", "respuestas": ["Il ne mange que des légumes."], "explicacion": "Ne… que = seulement; que va delante de lo que se restringe."},
-  {"id": "e15", "tipo": "eleccion", "enunciado": "Elige la opción correcta.", "frase": "Je ne te ferai ___ jamais le petit-déjeuner !", "opciones": ["plus", "rien", "aucun"], "respuestas": ["plus"], "explicacion": "Plus jamais = nunca más."},
-  {"id": "e16", "tipo": "corregir", "enunciado": "Corrige el error.", "frase": "Personne ne m'a pas appelé.", "respuestas": ["Personne ne m'a appelé."], "explicacion": "Personne ya es negativo: solo ne, sin pas."}
+  {
+   "id": "e01",
+   "tipo": "transformar",
+   "enunciado": "Pon la frase en negativa con ne… rien.",
+   "frase": "Ils ont vu quelque chose.",
+   "respuestas": [
+    "Ils n'ont rien vu."
+   ],
+   "explicacion": "Se aplica ne… rien, la negación de quelque chose. La ficha indica que en tiempos compuestos rien va entre el auxiliar y el participio: ils n'ont rien vu. Ne se apostrofa ante ont, y no se añade pas porque rien ya ocupa su lugar. El español dice «no han visto nada» con dos negaciones, pero en francés solo hay ne y rien.",
+   "origen": "tatoeba:3445319",
+   "explicacion_breve": "Quelque chose pasa a rien, entre el auxiliar y el participio.",
+   "traduccion": "No han visto nada.",
+   "errores_previstos": [
+    {
+     "respuesta": "Ils n'ont vu rien.",
+     "explicacion": "En tiempos compuestos rien va entre el auxiliar y el participio: n'ont rien vu."
+    },
+    {
+     "respuesta": "Ils n'ont pas rien vu.",
+     "explicacion": "Rien sustituye a pas; no se acumulan como en español."
+    },
+    {
+     "respuesta": "Ils n'ont pas vu quelque chose.",
+     "explicacion": "Quelque chose debe pasar a rien en la negación."
+    }
+   ]
+  },
+  {
+   "id": "e02",
+   "tipo": "transformar",
+   "enunciado": "Pon la frase en negativa con ne… plus.",
+   "frase": "Il vit encore ici.",
+   "respuestas": [
+    "Il ne vit plus ici."
+   ],
+   "explicacion": "La ficha da ne… plus para «ya no», lo contrario de encore («todavía»). La pista es encore en la frase afirmativa, que desaparece al negar. Plus va detrás del verbo conjugado, en el lugar de pas. Vit empieza por consonante, así que ne no se apostrofa.",
+   "origen": "tatoeba:131436",
+   "explicacion_breve": "Lo contrario de encore (todavía) es ne… plus (ya no).",
+   "traduccion": "Ya no vive aquí.",
+   "errores_previstos": [
+    {
+     "respuesta": "Il ne vit pas encore ici.",
+     "explicacion": "Ne… pas encore significa «todavía no»; lo contrario de encore en este sentido es ne… plus."
+    },
+    {
+     "respuesta": "Il ne vit encore plus ici.",
+     "explicacion": "Encore debe desaparecer: plus ya expresa el cambio."
+    },
+    {
+     "respuesta": "Il ne vit pas plus ici.",
+     "explicacion": "Plus sustituye a pas; no se acumulan."
+    }
+   ]
+  },
+  {
+   "id": "e03",
+   "tipo": "hueco",
+   "enunciado": "Completa con la palabra negativa adecuada.",
+   "frase": "Je n'ai ___ doute.",
+   "respuestas": [
+    "aucun"
+   ],
+   "explicacion": "La tabla de la ficha da ne… aucun + nombre para «ningún, ninguna». Aucun concuerda en género con el nombre, y doute es masculino en francés, aunque «duda» sea femenino en español. Por eso aucun y no aucune. Se usa en singular, como en español.",
+   "origen": "tatoeba:620185",
+   "explicacion_breve": "Ne… aucun + nombre masculino: ninguna duda (doute es masculino).",
+   "traduccion": "No tengo ninguna duda.",
+   "errores_previstos": [
+    {
+     "respuesta": "aucune",
+     "explicacion": "Doute es masculino en francés: aucun (el femenino de «duda» lleva al error)."
+    },
+    {
+     "respuesta": "aucuns",
+     "explicacion": "Aucun va casi siempre en singular, como recuerda la ficha; con doute, singular, es aucun."
+    },
+    {
+     "respuesta": "pas aucun",
+     "explicacion": "Aucun sustituye a pas; no se acumulan."
+    }
+   ]
+  },
+  {
+   "id": "e04",
+   "tipo": "eleccion",
+   "enunciado": "Elige la opción correcta.",
+   "frase": "Ça n'a ___ sens.",
+   "opciones": [
+    "aucun",
+    "aucune",
+    "rien"
+   ],
+   "respuestas": [
+    "aucun"
+   ],
+   "explicacion": "Se aplica la regla de concordancia de aucun: concuerda en género con el nombre que acompaña. Sens es masculino, así que la forma es aucun. Rien no puede ir delante de un nombre como determinante. La expresión ça n'a aucun sens equivale a «no tiene ningún sentido».",
+   "origen": "tatoeba:331644",
+   "explicacion_breve": "Sens es masculino: aucun sens.",
+   "traduccion": "Eso no tiene ningún sentido.",
+   "por_opcion": {
+    "aucun": "Correcta: masculino singular, concordando con sens.",
+    "aucune": "Incorrecta: es la forma femenina, y sens es masculino.",
+    "rien": "Incorrecta: rien es un pronombre («nada») y no puede acompañar a un nombre."
+   }
+  },
+  {
+   "id": "e05",
+   "tipo": "transformar",
+   "enunciado": "Di lo contrario con ne… jamais.",
+   "frase": "Je mens souvent.",
+   "respuestas": [
+    "Je ne mens jamais."
+   ],
+   "explicacion": "La ficha da ne… jamais como lo contrario de souvent o toujours. La pista es souvent, que desaparece al invertir el sentido. Jamais se coloca detrás del verbo conjugado, en el lugar de pas. Mens empieza por consonante, así que ne no se apostrofa.",
+   "origen": "tatoeba:818284",
+   "explicacion_breve": "Lo contrario de souvent o toujours es ne… jamais.",
+   "traduccion": "Nunca miento.",
+   "errores_previstos": [
+    {
+     "respuesta": "Je ne mens pas souvent.",
+     "explicacion": "Significa «no miento a menudo», que no es lo contrario; lo contrario es ne… jamais."
+    },
+    {
+     "respuesta": "Je jamais mens.",
+     "explicacion": "Calco de «nunca miento»: jamais va detrás del verbo y por escrito hace falta ne."
+    },
+    {
+     "respuesta": "Je ne mens pas jamais.",
+     "explicacion": "Jamais sustituye a pas; no se acumulan."
+    }
+   ]
+  },
+  {
+   "id": "e06",
+   "tipo": "corregir",
+   "enunciado": "Corrige el error.",
+   "frase": "Je n'ai entendu rien.",
+   "respuestas": [
+    "Je n'ai rien entendu."
+   ],
+   "explicacion": "Es el error de colocación que la ficha señala: en tiempos compuestos rien va entre el auxiliar y el participio. Por eso je n'ai rien entendu y no je n'ai entendu rien. Personne, en cambio, sí iría detrás del participio (je n'ai entendu personne). El hispanohablante tiende a seguir el orden del español «no he oído nada».",
+   "origen": "tatoeba:1410213",
+   "explicacion_breve": "En tiempos compuestos rien va entre el auxiliar y el participio.",
+   "traduccion": "No he oído nada.",
+   "errores_previstos": [
+    {
+     "respuesta": "Je n'ai entendu rien.",
+     "explicacion": "Es la frase sin corregir: rien va entre el auxiliar y el participio."
+    },
+    {
+     "respuesta": "Je n'ai pas rien entendu.",
+     "explicacion": "Rien sustituye a pas; no se acumulan."
+    }
+   ]
+  },
+  {
+   "id": "e07",
+   "tipo": "corregir",
+   "enunciado": "Corrige el error.",
+   "frase": "Je n'ai aucune crayon.",
+   "respuestas": [
+    "Je n'ai aucun crayon."
+   ],
+   "explicacion": "La ficha indica que aucun concuerda en género con el nombre. Crayon es masculino, de modo que aucune es incorrecto y debe ser aucun. Solo hay que cambiar esa palabra. La frase significa «no tengo ningún lápiz».",
+   "origen": "tatoeba:1461590",
+   "explicacion_breve": "Crayon es masculino: aucun.",
+   "traduccion": "No tengo ningún lápiz.",
+   "errores_previstos": [
+    {
+     "respuesta": "Je n'ai aucune crayon.",
+     "explicacion": "Es la frase sin corregir: crayon es masculino y exige aucun."
+    },
+    {
+     "respuesta": "Je n'ai pas aucun crayon.",
+     "explicacion": "Aucun sustituye a pas; no se acumulan."
+    }
+   ]
+  },
+  {
+   "id": "e08",
+   "tipo": "hueco",
+   "enunciado": "Completa con la palabra negativa adecuada.",
+   "frase": "Tom n'est ___ marié : il a divorcé l'an dernier.",
+   "respuestas": [
+    "plus"
+   ],
+   "explicacion": "La ficha da ne… plus para una situación que ha dejado de ser: «ya no». La pista es «il a divorcé l'an dernier», que muestra que antes estaba casado. Plus va detrás del verbo conjugado est. Pas solo negaría, sin indicar el cambio.",
+   "origen": "tatoeba:3417818",
+   "explicacion_breve": "Una situación que ha dejado de ser: ne… plus (ya no).",
+   "traduccion": "Tom ya no está casado: se divorció el año pasado.",
+   "errores_previstos": [
+    {
+     "respuesta": "pas",
+     "explicacion": "Ne… pas solo niega; para decir que algo ha dejado de ser hace falta ne… plus."
+    },
+    {
+     "respuesta": "jamais",
+     "explicacion": "Ne… jamais significaría que nunca estuvo casado, lo que contradice que se haya divorciado."
+    },
+    {
+     "respuesta": "déjà",
+     "explicacion": "Calco de «ya no»: déjà es «ya» afirmativo."
+    }
+   ]
+  },
+  {
+   "id": "e09",
+   "tipo": "ordenar",
+   "enunciado": "Ordena las palabras.",
+   "palabras": [
+    "faire",
+    "rien",
+    "Je",
+    "à",
+    "n'ai"
+   ],
+   "respuestas": [
+    "Je n'ai rien à faire"
+   ],
+   "explicacion": "Se aplica ne… rien: ne delante del verbo conjugado (apostrofado en n'ai) y rien detrás. El complemento à faire depende de rien: rien à faire, «nada que hacer». El español dice «nada que hacer», pero en francés la preposición es à, no que. El orden es je n'ai rien à faire.",
+   "origen": "tatoeba:1624970",
+   "explicacion_breve": "Ne… rien rodea el verbo; à faire completa a rien.",
+   "traduccion": "No tengo nada que hacer.",
+   "errores_previstos": [
+    {
+     "respuesta": "Je n'ai à faire rien",
+     "explicacion": "Rien va justo detrás del verbo conjugado, y à faire lo complementa después."
+    },
+    {
+     "respuesta": "Je n'ai rien faire à",
+     "explicacion": "La preposición à precede al infinitivo: rien à faire."
+    }
+   ]
+  },
+  {
+   "id": "e10",
+   "tipo": "eleccion",
+   "enunciado": "Elige la opción correcta.",
+   "frase": "Susan ne fume ___ : elle n'a jamais touché à une cigarette.",
+   "opciones": [
+    "jamais",
+    "rien",
+    "personne"
+   ],
+   "respuestas": [
+    "jamais"
+   ],
+   "explicacion": "La ficha da ne… jamais para «nunca». La pista es la segunda parte de la frase, elle n'a jamais touché à une cigarette, que confirma que se trata de una costumbre que nunca ha tenido. Rien y personne no encajan con fumer en este sentido. Jamais va detrás del verbo conjugado fume.",
+   "origen": "tatoeba:719212",
+   "explicacion_breve": "Nunca: ne… jamais.",
+   "traduccion": "Susan no fuma nunca: no ha tocado un cigarrillo en su vida.",
+   "por_opcion": {
+    "jamais": "Correcta: ne… jamais expresa «nunca».",
+    "rien": "Incorrecta: ne fume rien significaría «no fuma nada»; posible, pero no es el sentido que pide la segunda parte de la frase.",
+    "personne": "Incorrecta: personne significa «nadie» y no tiene sentido como complemento de fumer."
+   }
+  },
+  {
+   "id": "e11",
+   "tipo": "transformar",
+   "enunciado": "Pon la frase en negativa empezando por Personne.",
+   "frase": "Quelqu'un est venu.",
+   "respuestas": [
+    "Personne n'est venu."
+   ],
+   "explicacion": "La ficha explica que personne puede ser sujeto: va al principio, sigue llevando ne y nunca pas. Por eso quelqu'un est venu se convierte en personne n'est venu. Ne se apostrofa ante est. El participio venu queda en masculino singular, porque personne como pronombre es masculino.",
+   "explicacion_breve": "Personne como sujeto + ne, sin pas.",
+   "traduccion": "No vino nadie.",
+   "errores_previstos": [
+    {
+     "respuesta": "Personne n'est pas venu.",
+     "explicacion": "Con personne como sujeto basta ne; no se añade pas."
+    },
+    {
+     "respuesta": "Personne est venu.",
+     "explicacion": "Es la forma oral; por escrito personne sujeto va con ne."
+    },
+    {
+     "respuesta": "Personne n'est venue.",
+     "explicacion": "El pronombre personne es masculino: el participio queda en venu."
+    }
+   ]
+  },
+  {
+   "id": "e12",
+   "tipo": "transformar",
+   "enunciado": "Pon la frase en negativa con ne… ni… ni.",
+   "frase": "J'aime le thé et le café.",
+   "respuestas": [
+    "Je n'aime ni le thé ni le café."
+   ],
+   "explicacion": "La ficha da ne… ni… ni: ne delante del verbo conjugado y ni delante de cada elemento negado. La conjunción et desaparece. Ne se apostrofa ante aime, y no se añade pas. Los artículos definidos le se mantienen, porque con aimer se habla en general.",
+   "explicacion_breve": "Ne delante del verbo y ni delante de cada elemento; desaparece et.",
+   "traduccion": "No me gusta ni el té ni el café.",
+   "errores_previstos": [
+    {
+     "respuesta": "Je n'aime pas ni le thé ni le café.",
+     "explicacion": "Ni… ni sustituye a pas; no se acumulan."
+    },
+    {
+     "respuesta": "Je n'aime ni le thé et le café.",
+     "explicacion": "Hace falta ni delante de cada elemento, y et desaparece."
+    },
+    {
+     "respuesta": "Je n'aime ni de thé ni de café.",
+     "explicacion": "Con ni… ni los artículos definidos se mantienen: ni le thé ni le café."
+    }
+   ]
+  },
+  {
+   "id": "e13",
+   "tipo": "hueco",
+   "enunciado": "Completa con la palabra negativa adecuada (nadie).",
+   "frase": "Je n'ai vu ___ dans la rue.",
+   "respuestas": [
+    "personne"
+   ],
+   "explicacion": "La ficha indica que personne como complemento va detrás del participio, a diferencia de rien. La pista es el participio vu ya colocado delante del hueco. El español «no he visto a nadie» lleva la preposición «a», que el francés no usa con el complemento directo. Por eso se escribe solo personne.",
+   "explicacion_breve": "Personne como complemento va detrás del participio.",
+   "traduccion": "No he visto a nadie en la calle.",
+   "errores_previstos": [
+    {
+     "respuesta": "à personne",
+     "explicacion": "Calco de «a nadie»: el complemento directo de voir no lleva preposición."
+    },
+    {
+     "respuesta": "rien",
+     "explicacion": "Rien significa «nada»; además iría entre auxiliar y participio. El enunciado pide «nadie»."
+    },
+    {
+     "respuesta": "pas personne",
+     "explicacion": "Personne sustituye a pas; no se acumulan."
+    }
+   ]
+  },
+  {
+   "id": "e14",
+   "tipo": "transformar",
+   "enunciado": "Expresa la misma idea con ne… que.",
+   "frase": "Il mange seulement des légumes.",
+   "respuestas": [
+    "Il ne mange que des légumes."
+   ],
+   "explicacion": "La ficha explica que ne… que no es una negación sino una restricción que equivale a seulement. Ne va delante del verbo y que justo delante de lo que se restringe, des légumes. Seulement desaparece. El artículo des se mantiene, porque ne… que no es una negación y no provoca el cambio a de.",
+   "explicacion_breve": "Ne… que = seulement; que va delante de lo que se restringe.",
+   "traduccion": "Solo come verduras.",
+   "errores_previstos": [
+    {
+     "respuesta": "Il ne mange que de légumes.",
+     "explicacion": "Ne… que no es negativa: el artículo des se mantiene."
+    },
+    {
+     "respuesta": "Il mange que des légumes.",
+     "explicacion": "Es la forma oral; por escrito hace falta ne."
+    },
+    {
+     "respuesta": "Il ne mange pas que des légumes.",
+     "explicacion": "Ne… pas que significa «no solo»: el sentido es el contrario."
+    }
+   ]
+  },
+  {
+   "id": "e15",
+   "tipo": "eleccion",
+   "enunciado": "Elige la opción correcta.",
+   "frase": "Je ne te ferai ___ jamais le petit-déjeuner !",
+   "opciones": [
+    "plus",
+    "rien",
+    "aucun"
+   ],
+   "respuestas": [
+    "plus"
+   ],
+   "explicacion": "La ficha indica que las negaciones se pueden combinar: plus jamais significa «nunca más». La pista es jamais ya presente detrás del hueco. Rien jamais o aucun jamais no forman combinaciones con sentido aquí, porque el complemento le petit-déjeuner ya ocupa ese lugar. El ejemplo procede de la propia ficha.",
+   "explicacion_breve": "Plus jamais = nunca más.",
+   "traduccion": "¡No volveré a prepararte nunca más el desayuno!",
+   "por_opcion": {
+    "plus": "Correcta: plus jamais significa «nunca más»; ne… plus jamais es una combinación habitual.",
+    "rien": "Incorrecta: rien sería el complemento («nada»), pero el complemento ya es le petit-déjeuner.",
+    "aucun": "Incorrecta: aucun debe acompañar a un nombre o sustituirlo, y aquí no lo hace."
+   }
+  },
+  {
+   "id": "e16",
+   "tipo": "corregir",
+   "enunciado": "Corrige el error.",
+   "frase": "Personne ne m'a pas appelé.",
+   "respuestas": [
+    "Personne ne m'a appelé."
+   ],
+   "explicacion": "Es el error de acumulación que recoge la ficha: con personne como sujeto, basta ne y no se añade pas. Personne ya es negativo, igual que el español «nadie». Hay que suprimir pas: personne ne m'a appelé. El pronombre m' queda entre ne y el auxiliar.",
+   "explicacion_breve": "Personne ya es negativo: solo ne, sin pas.",
+   "traduccion": "Nadie me ha llamado.",
+   "errores_previstos": [
+    {
+     "respuesta": "Personne ne m'a pas appelé.",
+     "explicacion": "Es la frase sin corregir: personne sujeto no admite pas."
+    },
+    {
+     "respuesta": "Personne m'a appelé.",
+     "explicacion": "Al quitar pas también se ha quitado ne; por escrito personne sujeto lleva ne."
+    }
+   ]
+  }
  ],
- "fuente": {"nombre": "Tex's French Grammar", "autores": "COERLL, Universidad de Texas en Austin", "licencia": "CC BY 3.0", "url": "https://laits.utexas.edu/tex/gr/neg3.html", "otras": ["Frases de Tatoeba (CC BY 2.0 FR)"]}
+ "fuente": {
+  "nombre": "Tex's French Grammar",
+  "autores": "COERLL, Universidad de Texas en Austin",
+  "licencia": "CC BY 3.0",
+  "url": "https://laits.utexas.edu/tex/gr/neg3.html",
+  "otras": [
+   "Frases de Tatoeba (CC BY 2.0 FR)"
+  ]
+ },
+ "descripcion_larga_es": "Además de ne… pas, el francés niega con ne… rien (nada), ne… personne (nadie), ne… jamais, ne… plus, ne… pas encore, ne… aucun y ne… ni… ni, y restringe con ne… que (solo). Son esenciales para expresarse con precisión. Al hispanohablante le cuesta porque en español se acumulan negaciones («no he visto nada») y en francés nunca se añade pas, y porque cada palabra tiene su sitio en los tiempos compuestos.",
+ "contexto": {
+  "que_es": "Son las negaciones en dos piezas que sustituyen a pas por una palabra con significado propio: rien (nada), personne (nadie), jamais (nunca), plus (ya no), pas encore (todavía no), aucun (ningún) y ni… ni. Ne… que, con la misma forma, no niega sino que restringe: significa «solo». Rien, personne, aucun y ni pueden además funcionar como sujeto.",
+  "por_que_importa": "Sirven para decir con exactitud qué se niega, y son muy frecuentes en cualquier texto. Los errores de acumulación (je n'ai pas rien vu, personne ne m'a pas appelé) y de colocación (je n'ai vu rien) son típicos del hispanohablante y muy visibles. Además, confundir ne… que con una negación lleva a entender lo contrario.",
+  "cuando_se_usa": "Siempre que haya que decir «nada», «nadie», «nunca», «ya no», «todavía no», «ningún», «ni… ni» o «solo». En tiempos compuestos, rien, jamais, plus y pas encore van entre auxiliar y participio, mientras que personne, aucun, que y ni van detrás del participio. El hispanohablante debe resistir la tentación de añadir pas, como haría con el «no» español."
+ }
 }

@@ -171,8 +171,24 @@
    "respuestas": [
     "sois"
    ],
-   "explicacion": "Être es irregular: que tu sois.",
-   "origen": "tatoeba:1009196"
+   "explicacion": "Se aplica la tabla de verbos irregulares de la ficha: être no sigue la regla general de la raíz de ils, sino que tiene formas propias (sois, sois, soit, soyons, soyez, soient). La pista es il faut que, una expresión de obligación que siempre exige subjuntivo en la subordinada. Con el sujeto tu la forma es sois, que se escribe con s final como todas las segundas personas. Por eso la frase correcta es «Il faut que tu sois poli».",
+   "origen": "tatoeba:1009196",
+   "explicacion_breve": "Être es irregular: que tu sois.",
+   "traduccion": "Tienes que ser educado (literalmente: hace falta que seas educado).",
+   "errores_previstos": [
+    {
+     "respuesta": "es",
+     "explicacion": "«Es» es el presente de indicativo de être. Tras il faut que no puede ir indicativo: hace falta el subjuntivo sois."
+    },
+    {
+     "respuesta": "soit",
+     "explicacion": "«Soit» es la forma de il o elle. Con tu la terminación es -s: que tu sois."
+    },
+    {
+     "respuesta": "soies",
+     "explicacion": "Esta forma no existe: aplica por error las terminaciones regulares a una raíz inventada. El subjuntivo de être con tu es sois."
+    }
+   ]
   },
   {
    "id": "e02",
@@ -182,8 +198,24 @@
    "respuestas": [
     "sache"
    ],
-   "explicacion": "Savoir tiene la raíz irregular sach-: que je sache.",
-   "origen": "tatoeba:1790566"
+   "explicacion": "La ficha incluye savoir entre los verbos irregulares de raíz única: en subjuntivo toma la raíz sach- en todas las personas (sache, saches, sache, sachions, sachiez, sachent). La pista vuelve a ser il faut que, que obliga a usar subjuntivo. Con je la terminación es -e, así que la forma correcta es sache: «Il faut que je sache la vérité». No sirve la regla general (ils savent → sav-), porque savoir es una de las excepciones que hay que memorizar.",
+   "origen": "tatoeba:1790566",
+   "explicacion_breve": "Savoir tiene la raíz irregular sach-: que je sache.",
+   "traduccion": "Tengo que saber la verdad (hace falta que yo sepa la verdad).",
+   "errores_previstos": [
+    {
+     "respuesta": "sais",
+     "explicacion": "«Sais» es el presente de indicativo. Il faut que exige subjuntivo, y el de savoir es irregular: que je sache."
+    },
+    {
+     "respuesta": "save",
+     "explicacion": "Es la regla general mal aplicada (ils savent → sav- + e). Savoir es irregular y usa la raíz sach-: que je sache."
+    },
+    {
+     "respuesta": "sache que",
+     "explicacion": "Sobra el que: el hueco ya va precedido de il faut que je. Solo hay que escribir el verbo, sache."
+    }
+   ]
   },
   {
    "id": "e03",
@@ -193,8 +225,24 @@
    "respuestas": [
     "partiez"
    ],
-   "explicacion": "Ils partent → part- + -iez.",
-   "origen": "tatoeba:9033"
+   "explicacion": "Se aplica la regla general de la ficha: se toma la forma ils del presente (ils partent), se quita -ent y queda la raíz part-, a la que se añade la terminación de vous, -iez. La pista es je veux que con dos sujetos distintos (je y vous), que pide subjuntivo. El resultado es partiez: «Je veux que vous partiez». Observa que la forma de vous coincide con el imperfecto de indicativo, como indica la ficha para nous y vous.",
+   "origen": "tatoeba:9033",
+   "explicacion_breve": "Ils partent → part- + -iez.",
+   "traduccion": "Quiero que os vayáis (que usted se vaya).",
+   "errores_previstos": [
+    {
+     "respuesta": "partez",
+     "explicacion": "«Partez» es presente de indicativo (o imperativo). Tras vouloir que hace falta subjuntivo, que con vous termina en -iez: partiez."
+    },
+    {
+     "respuesta": "partissiez",
+     "explicacion": "Es una mezcla con la conjugación de finir (finissiez). Partir no tiene el infijo -iss-: ils partent → que vous partiez."
+    },
+    {
+     "respuesta": "partiéz",
+     "explicacion": "La terminación -iez no lleva acento. La forma correcta es partiez."
+    }
+   ]
   },
   {
    "id": "e04",
@@ -204,8 +252,24 @@
    "respuestas": [
     "ailles"
    ],
-   "explicacion": "Aller: que tu ailles (raíz aill- en las personas del singular y en ils).",
-   "origen": "tatoeba:1066774"
+   "explicacion": "Aller figura en la tabla de irregulares: en subjuntivo tiene la raíz aill- para je, tu, il e ils (aille, ailles, aille, aillent) y la raíz regular all- para nous y vous (allions, alliez). La pista es où que, una locución concesiva («dondequiera que») que siempre va con subjuntivo. Con tu se añade -es a la raíz aill-, de modo que la respuesta es ailles: «Où que tu ailles, je te suivrai».",
+   "origen": "tatoeba:1066774",
+   "explicacion_breve": "Aller: que tu ailles (raíz aill- en las personas del singular y en ils).",
+   "traduccion": "Vayas donde vayas, te seguiré.",
+   "errores_previstos": [
+    {
+     "respuesta": "vas",
+     "explicacion": "Es el presente de indicativo de aller. Où que exige subjuntivo, y el de aller es irregular: que tu ailles."
+    },
+    {
+     "respuesta": "alles",
+     "explicacion": "Aplica la raíz all-, que solo vale para nous y vous (allions, alliez). Con tu la raíz es aill-: ailles."
+    },
+    {
+     "respuesta": "aille",
+     "explicacion": "«Aille» es la forma de je o il. Con tu hace falta la s final: ailles."
+    }
+   ]
   },
   {
    "id": "e05",
@@ -215,7 +279,23 @@
    "respuestas": [
     "finisse"
    ],
-   "explicacion": "Ils finissent → finiss- + -e."
+   "explicacion": "Es un caso de la regla general de la ficha con un verbo del segundo grupo: ils finissent → raíz finiss- + -e. El sujeto on se conjuga como il, por lo que lleva la terminación -e. La pista es il faut que, que impone subjuntivo. La forma correcta es finisse: «Il faut qu'on finisse avant midi». En la lengua hablada, on equivale aquí a «nosotros», pero el verbo sigue en tercera persona del singular.",
+   "explicacion_breve": "Ils finissent → finiss- + -e.",
+   "traduccion": "Tenemos que terminar antes de mediodía.",
+   "errores_previstos": [
+    {
+     "respuesta": "finit",
+     "explicacion": "«Finit» es el presente de indicativo. En subjuntivo aparece el infijo -iss- de ils finissent: qu'on finisse."
+    },
+    {
+     "respuesta": "finissions",
+     "explicacion": "Es la forma de nous. Aunque on signifique «nosotros», el verbo se conjuga en tercera persona del singular: finisse."
+    },
+    {
+     "respuesta": "finise",
+     "explicacion": "Falta una s: la raíz es finiss-, con doble s, como en ils finissent."
+    }
+   ]
   },
   {
    "id": "e06",
@@ -225,7 +305,23 @@
    "respuestas": [
     "fassions"
    ],
-   "explicacion": "Faire tiene una sola raíz irregular, fass-, también con nous."
+   "explicacion": "Según la ficha, faire es uno de los verbos con una sola raíz irregular, fass-, para todas las personas del subjuntivo. La pista es il faut que, expresión de obligación que exige subjuntivo. Con nous se añade la terminación -ions a fass-, lo que da fassions: «Il faut que nous fassions un petit voyage». No hay que caer en la raíz de nous en presente (faisons), porque faire no es un verbo de dos raíces.",
+   "explicacion_breve": "Faire tiene una sola raíz irregular, fass-, también con nous.",
+   "traduccion": "Tenemos que hacer un pequeño viaje.",
+   "errores_previstos": [
+    {
+     "respuesta": "faisions",
+     "explicacion": "Es el imperfecto de indicativo de faire. En subjuntivo faire usa la raíz fass- en todas las personas: fassions."
+    },
+    {
+     "respuesta": "faisons",
+     "explicacion": "Es el presente de indicativo. Il faut que exige subjuntivo: que nous fassions."
+    },
+    {
+     "respuesta": "fassons",
+     "explicacion": "Falta la i de la terminación -ions. Solo être y avoir prescinden de ella; faire da fassions."
+    }
+   ]
   },
   {
    "id": "e07",
@@ -235,7 +331,19 @@
    "respuestas": [
     "boive"
    ],
-   "explicacion": "Boire tiene dos raíces: ils boivent → qu'il boive (nous buvions)."
+   "explicacion": "Boire aparece en la ficha entre los verbos de dos raíces: la raíz de ils (boivent → boiv-) sirve para je, tu, il e ils, y la de nous (buvons → buv-) para nous y vous. El sujeto Tex equivale a il, así que se usa la raíz boiv- con la terminación -e. La pista es il faut que, que pide subjuntivo. Resultado: «Il faut que Tex boive moins».",
+   "explicacion_breve": "Boire tiene dos raíces: ils boivent → qu'il boive (nous buvions).",
+   "traduccion": "Tex tiene que beber menos.",
+   "errores_previstos": [
+    {
+     "respuesta": "boit",
+     "explicacion": "«Boit» es el presente de indicativo. Tras il faut que se necesita subjuntivo: qu'il boive."
+    },
+    {
+     "respuesta": "buve",
+     "explicacion": "La raíz buv- solo se usa con nous y vous (buvions, buviez). Con un sujeto en tercera persona del singular es boive."
+    }
+   ]
   },
   {
    "id": "e08",
@@ -245,7 +353,23 @@
    "respuestas": [
     "aient"
    ],
-   "explicacion": "Avoir es irregular: qu'ils aient."
+   "explicacion": "Avoir es irregular, como recoge la tabla de la ficha: aie, aies, ait, ayons, ayez, aient. La pista es je ne crois pas que: la creencia negada introduce duda y exige subjuntivo. Con ils la forma es aient, que se pronuncia [ɛ], igual que j'ai, y no como el indicativo ils ont. La frase correcta es «Je ne crois pas qu'ils aient raison».",
+   "explicacion_breve": "Avoir es irregular: qu'ils aient.",
+   "traduccion": "No creo que tengan razón.",
+   "errores_previstos": [
+    {
+     "respuesta": "ont",
+     "explicacion": "«Ont» es indicativo. Con je ne crois pas que, la negación expresa duda y exige subjuntivo: qu'ils aient."
+    },
+    {
+     "respuesta": "ayent",
+     "explicacion": "La y solo aparece en nous y vous (ayons, ayez). Con ils la forma es aient."
+    },
+    {
+     "respuesta": "aie",
+     "explicacion": "«Aie» es la forma de je. Con ils hace falta la terminación -ent: aient."
+    }
+   ]
   },
   {
    "id": "e09",
@@ -261,8 +385,16 @@
    "respuestas": [
     "puisse"
    ],
-   "explicacion": "Pouvoir en subjuntivo: que je puisse.",
-   "origen": "tatoeba:824301"
+   "explicacion": "Pouvoir tiene una sola raíz irregular en subjuntivo, puiss-, como indica la ficha. La pista es la relativa tras il n'y a rien que: cuando el antecedente es negativo o inexistente («nada que»), la relativa va en subjuntivo, igual que en español «no hay nada que pueda hacer». Con je se añade -e: puisse. La frase correcta es «Il n'y a rien que je puisse faire».",
+   "origen": "tatoeba:824301",
+   "explicacion_breve": "Pouvoir en subjuntivo: que je puisse.",
+   "traduccion": "No hay nada que yo pueda hacer.",
+   "por_opcion": {
+    "puisse": "Correcta: subjuntivo presente de pouvoir en primera persona del singular (raíz puiss- + -e), exigido por la relativa con antecedente negativo.",
+    "peux": "Es el presente de indicativo de pouvoir. Se usaría en una afirmación de hecho («je peux le faire»), pero aquí la relativa tras rien que pide subjuntivo.",
+    "pouvais": "Es el imperfecto de indicativo («podía»). Ni el modo ni el tiempo encajan con il n'y a rien que en presente.",
+    "puisses": "Es subjuntivo, pero de la segunda persona (tu). Con je la forma no lleva s: puisse."
+   }
   },
   {
    "id": "e10",
@@ -278,8 +410,16 @@
    "respuestas": [
     "fasse"
    ],
-   "explicacion": "Vouloir que exige subjuntivo; el de faire es fasse.",
-   "origen": "tatoeba:1749011"
+   "explicacion": "Vouloir que con dos sujetos distintos (vous y je) exige subjuntivo en la subordinada, según la regla de uso que recuerda la ficha. Faire es irregular y en subjuntivo usa la raíz fass- en todas las personas: con je, fasse. La forma correcta es por tanto «Voulez-vous que je fasse du café ?». El resto de opciones son indicativos o formas inexistentes.",
+   "origen": "tatoeba:1749011",
+   "explicacion_breve": "Vouloir que exige subjuntivo; el de faire es fasse.",
+   "traduccion": "¿Queréis (quiere usted) que haga café?",
+   "por_opcion": {
+    "fais": "Presente de indicativo de faire. Tras vouloir que no puede ir indicativo.",
+    "fasse": "Correcta: subjuntivo presente de faire con je, formado con la raíz irregular fass- y la terminación -e.",
+    "ferai": "Futuro de indicativo («haré»). El francés no usa futuro tras vouloir que; el presente de subjuntivo cubre también la idea de futuro.",
+    "faise": "Forma inexistente: aplica la regla general a la raíz de nous (faisons). Faire es irregular: fasse."
+   }
   },
   {
    "id": "e11",
@@ -295,7 +435,15 @@
    "respuestas": [
     "soyez"
    ],
-   "explicacion": "Être con vous: que vous soyez, sin i después de la y."
+   "explicacion": "La ficha advierte de que être y avoir llevan y, y no i, en nous y vous: que nous soyons, que vous soyez. La pista es il faut que, que impone subjuntivo. Por tanto la única forma correcta es soyez: «Il faut que vous soyez à l'heure». Las demás opciones o son indicativo o añaden una i que no existe en este verbo.",
+   "explicacion_breve": "Être con vous: que vous soyez, sin i después de la y.",
+   "traduccion": "Tenéis que llegar a la hora (ser puntuales).",
+   "por_opcion": {
+    "soyez": "Correcta: subjuntivo presente de être con vous, sin la i de las terminaciones regulares.",
+    "soyiez": "Incorrecta: añade la i de -iez, pero être (igual que avoir) no la lleva. Es un error muy frecuente por analogía con parliez o finissiez.",
+    "êtes": "Presente de indicativo de être. Il faut que exige subjuntivo.",
+    "soiez": "Forma inexistente: mezcla la raíz de sois con -iez. Con vous es soyez, con y."
+   }
   },
   {
    "id": "e12",
@@ -311,7 +459,15 @@
    "respuestas": [
     "appelions"
    ],
-   "explicacion": "Appeler dobla la l solo en las formas de raíz fuerte (j'appelle); con nous: appelions."
+   "explicacion": "Appeler es, según la ficha, un verbo de dos raíces: dobla la l en las formas de raíz fuerte (j'appelle, ils appellent) y la mantiene sencilla en nous y vous (nous appelons). En subjuntivo ocurre lo mismo: que j'appelle, pero que nous appelions. La pista il faut que exige subjuntivo, y el sujeto nous lleva -ions sobre la raíz appel-, con una sola l. La respuesta es appelions.",
+   "explicacion_breve": "Appeler dobla la l solo en las formas de raíz fuerte (j'appelle); con nous: appelions.",
+   "traduccion": "Tenemos que llamar a Paul esta noche.",
+   "por_opcion": {
+    "appelions": "Correcta: subjuntivo de appeler con nous, raíz débil appel- (una l) + -ions.",
+    "appellions": "Incorrecta: dobla la l, cosa que solo ocurre en je, tu, il e ils (que j'appelle). Con nous la raíz es appel-.",
+    "appelons": "Es el presente de indicativo. Falta la i del subjuntivo: appelions.",
+    "appellons": "Doble error: indicativo y además con doble l, que no corresponde a nous."
+   }
   },
   {
    "id": "e13",
@@ -321,8 +477,24 @@
    "respuestas": [
     "Je suis content que vous soyez là."
    ],
-   "explicacion": "Être content que expresa emoción y exige subjuntivo: soyez.",
-   "origen": "tatoeba:2053719"
+   "explicacion": "La regla de uso que recuerda la ficha dice que una emoción (être content que) seguida de que y otro sujeto exige subjuntivo, igual que en español «me alegro de que estéis». El error de la frase es el indicativo êtes. Hay que sustituirlo por el subjuntivo irregular de être con vous, soyez, sin i. La frase corregida es «Je suis content que vous soyez là».",
+   "origen": "tatoeba:2053719",
+   "explicacion_breve": "Être content que expresa emoción y exige subjuntivo: soyez.",
+   "traduccion": "Me alegro de que estéis (de que esté usted) aquí.",
+   "errores_previstos": [
+    {
+     "respuesta": "Je suis content que vous êtes là.",
+     "explicacion": "Es la frase sin corregir: tras être content que no puede ir el indicativo êtes."
+    },
+    {
+     "respuesta": "Je suis content que vous soyiez là.",
+     "explicacion": "Pone subjuntivo, pero con una i que être no lleva. La forma es soyez."
+    },
+    {
+     "respuesta": "Je suis content de vous être là.",
+     "explicacion": "La construcción con de + infinitivo solo vale cuando el sujeto es el mismo. Aquí hay dos sujetos (je y vous), así que se necesita que + subjuntivo."
+    }
+   ]
   },
   {
    "id": "e14",
@@ -332,8 +504,24 @@
    "respuestas": [
     "Il faut que nous parlions."
    ],
-   "explicacion": "Con nous el subjuntivo termina en -ions: parlions.",
-   "origen": "tatoeba:1421792"
+   "explicacion": "En los verbos en -er, el subjuntivo de je, tu, il e ils coincide con el presente, pero, como dice la ficha, el de nous y vous coincide con el imperfecto y termina en -ions, -iez. La frase usa el indicativo parlons tras il faut que, que exige subjuntivo. La corrección es parlions: «Il faut que nous parlions». La diferencia es solo una i, pero cambia el modo.",
+   "origen": "tatoeba:1421792",
+   "explicacion_breve": "Con nous el subjuntivo termina en -ions: parlions.",
+   "traduccion": "Tenemos que hablar.",
+   "errores_previstos": [
+    {
+     "respuesta": "Il faut que nous parlons.",
+     "explicacion": "Es la frase sin corregir: parlons es indicativo y il faut que pide subjuntivo."
+    },
+    {
+     "respuesta": "Il faut que nous parlerions.",
+     "explicacion": "Parlerions es condicional, no subjuntivo. El subjuntivo de nous es parlions."
+    },
+    {
+     "respuesta": "Il faut que nous parliions.",
+     "explicacion": "Duplica la i: la raíz es parl- y la terminación -ions, así que solo hay una i: parlions."
+    }
+   ]
   },
   {
    "id": "e15",
@@ -343,7 +531,23 @@
    "respuestas": [
     "Il faut que tu prennes le train."
    ],
-   "explicacion": "Prendre: ils prennent → que tu prennes."
+   "explicacion": "Al anteponer il faut que, el verbo de la subordinada debe ir en subjuntivo. Prendre es un verbo de dos raíces según la ficha: la de ils (prennent → prenn-) para je, tu, il e ils, y la de nous (prenons → pren-) para nous y vous. Con tu se toma prenn- y se añade -es: prennes, con doble n. La frase transformada es «Il faut que tu prennes le train».",
+   "explicacion_breve": "Prendre: ils prennent → que tu prennes.",
+   "traduccion": "Tienes que coger el tren.",
+   "errores_previstos": [
+    {
+     "respuesta": "Il faut que tu prends le train.",
+     "explicacion": "Mantiene el indicativo prends. Il faut que exige subjuntivo: que tu prennes."
+    },
+    {
+     "respuesta": "Il faut que tu prenes le train.",
+     "explicacion": "Falta la segunda n: la raíz de ils prennent lleva nn, y se conserva en el subjuntivo."
+    },
+    {
+     "respuesta": "Il faut prendre le train.",
+     "explicacion": "Es correcto en francés, pero pierde el sujeto tu y no cumple el enunciado, que pide la construcción il faut que + subjuntivo."
+    }
+   ]
   },
   {
    "id": "e16",
@@ -361,8 +565,20 @@
    "respuestas": [
     "Je veux que tu ailles à Boston"
    ],
-   "explicacion": "Verbo de voluntad + que + sujeto + subjuntivo + complemento.",
-   "origen": "tatoeba:5399536"
+   "explicacion": "La estructura es la que muestra la ficha: verbo de voluntad (je veux) + que + nuevo sujeto (tu) + verbo en subjuntivo (ailles) + complemento (à Boston). Aller es irregular y con tu da ailles. El orden coincide con el español, así que lo importante es no separar que del sujeto ni colocar el complemento antes del verbo. La frase es «Je veux que tu ailles à Boston».",
+   "origen": "tatoeba:5399536",
+   "explicacion_breve": "Verbo de voluntad + que + sujeto + subjuntivo + complemento.",
+   "traduccion": "Quiero que vayas a Boston.",
+   "errores_previstos": [
+    {
+     "respuesta": "Je veux que à Boston tu ailles",
+     "explicacion": "El complemento de lugar no puede ir entre que y el sujeto: en francés el orden es que + sujeto + verbo + complemento."
+    },
+    {
+     "respuesta": "Tu veux que je ailles à Boston",
+     "explicacion": "Intercambia los sujetos: ailles es la forma de tu, no de je, y la frase cambia de sentido."
+    }
+   ]
   }
  ],
  "fuente": {
@@ -373,5 +589,11 @@
   "otras": [
    "Frases de Tatoeba (CC BY 2.0 FR)"
   ]
+ },
+ "descripcion_larga_es": "El subjuntivo presente francés se forma casi siempre a partir de la forma ils del presente de indicativo, quitando -ent y añadiendo -e, -es, -e, -ions, -iez, -ent. Un puñado de verbos muy frecuentes (être, avoir, aller, faire, pouvoir, savoir, vouloir) son irregulares y hay que memorizarlos. Dominar estas formas es imprescindible, porque el subjuntivo aparece tras il faut que, je veux que y muchas expresiones cotidianas.",
+ "contexto": {
+  "que_es": "Es la conjugación del modo subjuntivo en presente, el equivalente formal de «que yo hable, que tú vengas». Casi todos los verbos se construyen con una regla única: raíz de ils en presente más las terminaciones -e, -es, -e, -ions, -iez, -ent. Algunos verbos tienen dos raíces (una para nous y vous) y otros son plenamente irregulares.",
+  "por_que_importa": "El subjuntivo es obligatorio tras expresiones muy frecuentes como il faut que, je veux que o je suis content que, de modo que aparece constantemente en la conversación y en cualquier redacción. Usar el indicativo en su lugar («il faut que je fais») es un error que un examinador detecta de inmediato y que delata un nivel bajo. Además, como muchas formas suenan igual que el indicativo, los errores se notan sobre todo en los verbos irregulares, que son justo los más usados.",
+  "cuando_se_usa": "La forma se necesita siempre que la frase pida subjuntivo: después de que en subordinadas de obligación, voluntad, emoción o duda, y tras conjunciones como pour que o bien que. La señal típica es una expresión principal del tipo il faut que, vouloir que o être content que. El hispanohablante tiende a conjugar el francés como el español o a copiar el presente de indicativo; conviene memorizar las formas con que delante (que je sois, que tu ailles, que nous fassions)."
  }
 }

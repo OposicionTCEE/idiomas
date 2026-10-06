@@ -179,7 +179,23 @@
    "respuestas": [
     "ou"
    ],
-   "explicacion": "Alternativa entre dos elementos: ou."
+   "explicacion": "Se aplica la conjunción coordinante de alternativa de la ficha, ou, que equivale a «o». La pista es el verbo préférer y los dos nombres propios: se pide elegir entre dos opciones. Ou une dos elementos del mismo tipo, aquí dos personas. No debe confundirse con où, con acento grave, que es el adverbio «dónde».",
+   "explicacion_breve": "Alternativa entre dos elementos: ou.",
+   "traduccion": "¿Prefieres a Tammy o a Bette?",
+   "errores_previstos": [
+    {
+     "respuesta": "où",
+     "explicacion": "Où con acento significa «dónde»; la conjunción de alternativa se escribe sin acento: ou."
+    },
+    {
+     "respuesta": "et",
+     "explicacion": "Et suma los dos elementos («Tammy y Bette»); con préférer hace falta una alternativa: ou."
+    },
+    {
+     "respuesta": "o",
+     "explicacion": "Calco del español: la conjunción francesa es ou."
+    }
+   ]
   },
   {
    "id": "e02",
@@ -189,7 +205,33 @@
    "respuestas": [
     "donc"
    ],
-   "explicacion": "Consecuencia: donc (así que)."
+   "explicacion": "Se aplica la coordinante de consecuencia de la ficha, donc, «así que, por tanto». La pista es la relación entre las dos partes: haber crecido en Francia es la causa y hablar francés con soltura, la consecuencia. Una particularidad de donc es que puede colocarse detrás del verbo, como aquí (il parle donc français), algo que el español hace menos con «así que».",
+   "explicacion_breve": "Consecuencia: donc (así que).",
+   "traduccion": "Tex creció en Francia, así que habla francés con fluidez.",
+   "errores_previstos": [
+    {
+     "respuesta": "car",
+     "explicacion": "Car introduce una causa; diría que creció en Francia porque habla francés, invirtiendo la lógica."
+    },
+    {
+     "respuesta": "mais",
+     "explicacion": "Mais expresa oposición, pero no hay contraste entre crecer en Francia y hablar francés."
+    },
+    {
+     "respuesta": "alors",
+     "explicacion": "Alors también expresa consecuencia, pero no puede ir intercalado entre el verbo y su complemento como donc; además no está en la lista del enunciado."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "grandir",
+     "significado": "crecer, criarse"
+    },
+    {
+     "palabra": "couramment",
+     "significado": "con fluidez, de corrido"
+    }
+   ]
   },
   {
    "id": "e03",
@@ -199,8 +241,24 @@
    "respuestas": [
     "car"
    ],
-   "explicacion": "Car introduce la justificación en la segunda parte de la frase.",
-   "origen": "tatoeba:429339"
+   "explicacion": "Se aplica la coordinante car de la ficha, «pues, ya que», que introduce una justificación. La pista es la coma y la posición del hueco en la segunda parte de la frase: tras una orden (ne sortez pas) se da la razón (il pleut). Car es más formal que parce que y, según la ficha, no puede ir al principio de la frase, pero aquí está justamente donde debe.",
+   "origen": "tatoeba:429339",
+   "explicacion_breve": "Car introduce la justificación en la segunda parte de la frase.",
+   "traduccion": "No salgan, que está lloviendo.",
+   "errores_previstos": [
+    {
+     "respuesta": "donc",
+     "explicacion": "Donc introduce la consecuencia; diría que llueve como resultado de no salir."
+    },
+    {
+     "respuesta": "mais",
+     "explicacion": "Mais introduce una oposición, que no existe entre la orden y su motivo."
+    },
+    {
+     "respuesta": "et",
+     "explicacion": "Et solo suma; pierde la relación de justificación que exige la frase."
+    }
+   ]
   },
   {
    "id": "e04",
@@ -210,20 +268,52 @@
    "respuestas": [
     "mais"
    ],
-   "explicacion": "Oposición: mais."
+   "explicacion": "Se aplica la coordinante de oposición de la ficha, mais. La pista es el contraste entre aimer la France y pas les Français: se afirma una cosa y se niega otra. Mais introduce la segunda parte, que restringe lo dicho, y equivale a «pero». Recuerda que mais traduce también «sino» tras una negación (ce n'est pas rouge mais bleu).",
+   "explicacion_breve": "Oposición: mais.",
+   "traduccion": "¡Le gusta Francia, pero no los franceses!",
+   "errores_previstos": [
+    {
+     "respuesta": "donc",
+     "explicacion": "Donc expresaría que no le gustan los franceses como consecuencia de que le guste Francia, lo que no tiene sentido."
+    },
+    {
+     "respuesta": "ni",
+     "explicacion": "Ni funciona en negaciones dobles con ne (ni… ni); aquí la primera parte es afirmativa."
+    },
+    {
+     "respuesta": "mai",
+     "explicacion": "Mai es el mes de mayo; la conjunción se escribe mais."
+    }
+   ]
   },
   {
    "id": "e05",
    "tipo": "hueco",
-   "enunciado": "Completa con la conjunción subordinante adecuada.",
+   "enunciado": "Completa con una conjunción de causa.",
    "frase": "Je mange ___ j'ai faim.",
    "respuestas": [
     "parce que",
     "car",
     "puisque"
    ],
-   "explicacion": "Causa: parce que (también car o puisque).",
-   "origen": "tatoeba:1148119"
+   "explicacion": "Se aplica el grupo de conjunciones causales de la ficha. La pista es la relación de causa entre comer y tener hambre, con la causa en segundo lugar. Parce que es la opción neutra, la que responde a pourquoi. Se aceptan también puisque, que presenta la causa como evidente («ya que tengo hambre»), y car, que es una conjunción coordinante (no subordinante) de registro más formal; por eso el enunciado pide simplemente una conjunción de causa: las tres pueden ocupar esa posición.",
+   "origen": "tatoeba:1148119",
+   "explicacion_breve": "Causa: parce que (también car o puisque).",
+   "traduccion": "Como porque tengo hambre.",
+   "errores_previstos": [
+    {
+     "respuesta": "comme",
+     "explicacion": "Comme causal solo va al principio de la frase (comme j'ai faim, je mange); detrás de la principal no se usa."
+    },
+    {
+     "respuesta": "à cause de",
+     "explicacion": "À cause de va con un sustantivo, no con una oración como j'ai faim."
+    },
+    {
+     "respuesta": "porque",
+     "explicacion": "Calco del español: en francés se dice parce que."
+    }
+   ]
   },
   {
    "id": "e06",
@@ -234,8 +324,24 @@
     "quand",
     "lorsque"
    ],
-   "explicacion": "Tiempo: quand o lorsque (cuando).",
-   "origen": "tatoeba:6359"
+   "explicacion": "Se aplica la subordinante temporal de la ficha quand / lorsque, «cuando». La pista es que la segunda parte (j'étais jeune) sitúa en el tiempo la primera (je fumais), las dos en imperfecto porque describen una etapa pasada. Quand es la forma corriente y lorsque, la algo más cuidada; ambas se aceptan.",
+   "origen": "tatoeba:6359",
+   "explicacion_breve": "Tiempo: quand o lorsque (cuando).",
+   "traduccion": "Fumaba cuando era joven.",
+   "errores_previstos": [
+    {
+     "respuesta": "pendant que",
+     "explicacion": "Pendant que subraya dos acciones simultáneas concretas; para situar en una etapa de la vida se usa quand."
+    },
+    {
+     "respuesta": "dès que",
+     "explicacion": "Dès que significa «en cuanto», un momento puntual de arranque; no encaja con una etapa como la juventud."
+    },
+    {
+     "respuesta": "quant",
+     "explicacion": "Quant (con t) solo existe en quant à, «en cuanto a»; la conjunción temporal es quand."
+    }
+   ]
   },
   {
    "id": "e07",
@@ -247,7 +353,23 @@
     "tandis que",
     "alors que"
    ],
-   "explicacion": "Simultaneidad: pendant que (tandis que añade contraste)."
+   "explicacion": "Se aplica la distinción de la ficha entre pendant que, que expresa simultaneidad, y tandis que o alors que, que añaden contraste. La pista es que las dos acciones (trabajar y dormir) ocurren a la vez. Pendant que es la respuesta más neutra; tandis que y alors que se aceptan porque además subrayan la oposición entre quien trabaja y quien duerme.",
+   "explicacion_breve": "Simultaneidad: pendant que (tandis que añade contraste).",
+   "traduccion": "Él trabaja mientras Tex duerme.",
+   "errores_previstos": [
+    {
+     "respuesta": "pendant",
+     "explicacion": "Pendant solo es preposición y va con sustantivo (pendant la nuit); ante una oración hace falta pendant que."
+    },
+    {
+     "respuesta": "quand",
+     "explicacion": "Quand sitúa una acción en el tiempo, pero no expresa duración simultánea ni contraste; para «mientras» se usa pendant que."
+    },
+    {
+     "respuesta": "mientras que",
+     "explicacion": "Calco del español; las formas francesas son pendant que, tandis que o alors que."
+    }
+   ]
   },
   {
    "id": "e08",
@@ -263,7 +385,15 @@
    "respuestas": [
     "Comme"
    ],
-   "explicacion": "Causa al principio de la frase: comme (car, donc y puis no pueden encabezar una subordinada)."
+   "explicacion": "Se aplica la regla de la ficha según la cual comme introduce una causa y va al principio de la frase. La pista es la posición inicial del hueco y la mayúscula, con la consecuencia (nous sommes restés) después de la coma. Car, donc y puis, en cambio, son coordinantes: unen la segunda parte con la primera y no pueden abrir una subordinada.",
+   "explicacion_breve": "Causa al principio de la frase: comme (car, donc y puis no pueden encabezar una subordinada).",
+   "traduccion": "Como llovía, nos quedamos en casa.",
+   "por_opcion": {
+    "Comme": "Correcta: como (causal); abre la frase y presenta la causa antes de la consecuencia.",
+    "Car": "Pues, ya que: introduce la causa, pero solo en segunda posición; no puede iniciar la frase.",
+    "Donc": "Así que: expresa consecuencia, no causa, y une con algo que ya se ha dicho.",
+    "Puis": "Luego, después: expresa sucesión temporal; no indica causa ni puede encabezar una subordinada."
+   }
   },
   {
    "id": "e09",
@@ -279,7 +409,15 @@
    "respuestas": [
     "Depuis que"
    ],
-   "explicacion": "Punto de partida en el tiempo: depuis que (desde que)."
+   "explicacion": "Se aplica la subordinante temporal de la ficha depuis que, «desde que», que marca el punto de partida de una situación que continúa. La pista es el cambio de vida que arranca con el hecho de conocer a Bette y sigue vigente. Por eso depuis que va con presente (je connais), como en español «desde que conozco».",
+   "explicacion_breve": "Punto de partida en el tiempo: depuis que (desde que).",
+   "traduccion": "Desde que conozco a Bette, mi vida ha cambiado.",
+   "por_opcion": {
+    "Depuis que": "Correcta: desde que; marca el inicio de una situación que dura hasta hoy.",
+    "Pendant que": "Mientras: indica simultaneidad de dos acciones, no el punto de partida de un cambio.",
+    "Dès que": "En cuanto: marca inmediatez («en cuanto conozco a Bette»), no el origen de un estado duradero.",
+    "Car": "Pues: es coordinante causal y no puede encabezar la frase ni expresar tiempo."
+   }
   },
   {
    "id": "e10",
@@ -295,7 +433,15 @@
    "respuestas": [
     "seras"
    ],
-   "explicacion": "Quand referido al futuro va con futuro, no con subjuntivo como en español."
+   "explicacion": "Se aplica la regla de la ficha: con quand, lorsque o dès que referidos al futuro, el francés usa futuro donde el español usa subjuntivo. La pista es la principal je te le dirai, en futuro, y quand, que remite a un momento todavía no alcanzado. El futuro de être para tu es seras: quand tu seras plus grand.",
+   "explicacion_breve": "Quand referido al futuro va con futuro, no con subjuntivo como en español.",
+   "traduccion": "Te lo diré cuando seas mayor.",
+   "por_opcion": {
+    "seras": "Correcta: futuro de être; tras quand con valor de futuro el francés usa futuro.",
+    "es": "Presente: en francés no sirve para un quand futuro si la principal está en futuro; se usa seras.",
+    "sois": "Subjuntivo: es el calco del español «cuando seas»; quand nunca va con subjuntivo.",
+    "serais": "Condicional: introduciría una hipótesis; no corresponde a un hecho futuro esperado."
+   }
   },
   {
    "id": "e11",
@@ -311,8 +457,16 @@
    "respuestas": [
     "donc"
    ],
-   "explicacion": "Conclusión lógica: donc (luego).",
-   "origen": "tatoeba:331611"
+   "explicacion": "Se aplica la coordinante donc de la ficha, que expresa consecuencia o conclusión lógica y aquí traduce el «luego» de la célebre frase de DESCARTES. La pista es la estructura de razonamiento: de pensar se deduce existir. Donc introduce la conclusión; las otras opciones expresan causa o un paso intermedio del razonamiento.",
+   "origen": "tatoeba:331611",
+   "explicacion_breve": "Conclusión lógica: donc (luego).",
+   "traduccion": "Pienso, luego existo.",
+   "por_opcion": {
+    "donc": "Correcta: luego, por tanto; introduce la conclusión que se deduce de lo anterior.",
+    "car": "Pues: introduce una causa; diría «pienso porque existo», invirtiendo el razonamiento.",
+    "or": "Ahora bien: introduce la premisa menor de un razonamiento, no su conclusión.",
+    "puisque": "Ya que: presenta una causa conocida y además es subordinante; daría «pienso puesto que existo»."
+   }
   },
   {
    "id": "e12",
@@ -322,7 +476,23 @@
    "respuestas": [
     "Il n'aime ni le rap ni le jazz."
    ],
-   "explicacion": "Ni… ni sustituye a pas en la negación doble."
+   "explicacion": "Se aplica la correlación negativa de la ficha ni… ni, que va con ne y sustituye a pas. La pista es la negación de dos elementos coordinados, le rap y le jazz. En francés no se combinan pas y ni: la estructura correcta es ne + verbo + ni… ni. El calco del español «no le gusta el rap ni el jazz» produce el error.",
+   "explicacion_breve": "Ni… ni sustituye a pas en la negación doble.",
+   "traduccion": "No le gustan ni el rap ni el jazz.",
+   "errores_previstos": [
+    {
+     "respuesta": "Il n'aime pas le rap ni le jazz.",
+     "explicacion": "Es la frase sin corregir: pas y ni no se combinan; ni… ni ocupa el lugar de pas."
+    },
+    {
+     "respuesta": "Il n'aime pas ni le rap ni le jazz.",
+     "explicacion": "Sigue sobrando pas: con ni… ni la negación es solo ne."
+    },
+    {
+     "respuesta": "Il aime ni le rap ni le jazz.",
+     "explicacion": "Falta el ne, obligatorio en la escritura con ni… ni."
+    }
+   ]
   },
   {
    "id": "e13",
@@ -332,8 +502,24 @@
    "respuestas": [
     "Je ne sais pas quand il viendra demain."
    ],
-   "explicacion": "Pregunta indirecta sobre el futuro con verbo principal en presente: futuro simple.",
-   "origen": "tatoeba:1151864"
+   "explicacion": "Se aplica la regla de los tiempos con quand: aquí quand introduce una pregunta indirecta («cuándo») y, como el verbo principal je ne sais pas está en presente y demain señala el futuro, el verbo va en futuro simple, viendra. El condicional viendrait solo sería correcto si la principal estuviera en pasado (je ne savais pas quand il viendrait).",
+   "origen": "tatoeba:1151864",
+   "explicacion_breve": "Pregunta indirecta sobre el futuro con verbo principal en presente: futuro simple.",
+   "traduccion": "No sé cuándo vendrá mañana.",
+   "errores_previstos": [
+    {
+     "respuesta": "Je ne sais pas quand il viendrait demain.",
+     "explicacion": "Es la frase sin corregir: con la principal en presente, el futuro se expresa con futuro, no con condicional."
+    },
+    {
+     "respuesta": "Je ne sais pas quand il vienne demain.",
+     "explicacion": "El subjuntivo no va tras quand, ni en pregunta indirecta ni temporal."
+    },
+    {
+     "respuesta": "Je ne sais pas quand il venira demain.",
+     "explicacion": "Futuro mal formado: el de venir es irregular, viendra."
+    }
+   ]
   },
   {
    "id": "e14",
@@ -343,8 +529,30 @@
    "respuestas": [
     "Je le fais parce que j'en ai envie."
    ],
-   "explicacion": "Parce que introduce la causa.",
-   "origen": "tatoeba:388615"
+   "explicacion": "Se aplica la subordinante causal de la ficha parce que, que responde a pourquoi. La pista es que la segunda frase (j'en ai envie) explica el motivo de la primera. Basta con unirlas: la causa va detrás, sin cambiar los verbos, y con la elisión que la ficha señala si la siguiente palabra empieza por vocal; aquí sigue je, que no lo exige.",
+   "origen": "tatoeba:388615",
+   "explicacion_breve": "Parce que introduce la causa.",
+   "traduccion": "Lo hago porque me apetece.",
+   "errores_previstos": [
+    {
+     "respuesta": "Parce que j'en ai envie je le fais.",
+     "explicacion": "Parce que no suele encabezar la frase cuando la causa se antepone; además falta la coma. La forma pedida es la causa detrás."
+    },
+    {
+     "respuesta": "Je le fais parce que je en ai envie.",
+     "explicacion": "Je se elide ante vocal: j'en ai envie."
+    },
+    {
+     "respuesta": "Je le fais parce j'en ai envie.",
+     "explicacion": "Falta que: la conjunción es parce que, en dos palabras."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "avoir envie de",
+     "significado": "tener ganas de, apetecer"
+    }
+   ]
   },
   {
    "id": "e15",
@@ -359,8 +567,24 @@
    "respuestas": [
     "Passe quand tu veux"
    ],
-   "explicacion": "Imperativo + quand + sujeto + verbo.",
-   "origen": "tatoeba:585458"
+   "explicacion": "Se aplica la subordinante temporal quand. La pista es Passe con mayúscula, un imperativo que abre la frase, seguido de la subordinada quand tu veux. Fíjate en el modo: en español decimos «cuando quieras», en subjuntivo, pero en francés quand nunca lleva subjuntivo y aquí basta el presente de indicativo, tu veux.",
+   "origen": "tatoeba:585458",
+   "explicacion_breve": "Imperativo + quand + sujeto + verbo.",
+   "traduccion": "Pásate cuando quieras.",
+   "errores_previstos": [
+    {
+     "respuesta": "Quand tu veux passe",
+     "explicacion": "Es posible en el habla, pero el orden natural y el que pide el ejercicio pone el imperativo primero: passe quand tu veux."
+    },
+    {
+     "respuesta": "Passe quand veux tu",
+     "explicacion": "En una subordinada no se invierte el sujeto: quand tu veux."
+    },
+    {
+     "respuesta": "Passe tu quand veux",
+     "explicacion": "El imperativo francés va sin sujeto; tu pertenece a la subordinada, tras quand."
+    }
+   ]
   },
   {
    "id": "e16",
@@ -376,8 +600,24 @@
    "respuestas": [
     "Mangez car vous avez faim"
    ],
-   "explicacion": "Car une la orden con su justificación.",
-   "origen": "tatoeba:531311"
+   "explicacion": "Se aplica la coordinante car de la ficha, que une una orden con su justificación y no puede abrir la frase. La pista es Mangez con mayúscula, un imperativo de vous que va primero, y car, que introduce el motivo en segundo lugar: vous avez faim. El orden de la causa es el normal del francés, sujeto + verbo + complemento.",
+   "origen": "tatoeba:531311",
+   "explicacion_breve": "Car une la orden con su justificación.",
+   "traduccion": "Coman, que tienen hambre.",
+   "errores_previstos": [
+    {
+     "respuesta": "Car vous avez faim mangez",
+     "explicacion": "Car nunca encabeza la frase: la justificación va detrás de la orden."
+    },
+    {
+     "respuesta": "Mangez car avez vous faim",
+     "explicacion": "Tras car no hay inversión: vous avez faim."
+    },
+    {
+     "respuesta": "Mangez vous car avez faim",
+     "explicacion": "El imperativo no lleva sujeto; vous es el sujeto de avez."
+    }
+   ]
   }
  ],
  "fuente": {
@@ -388,5 +628,11 @@
   "otras": [
    "Frases de Tatoeba (CC BY 2.0 FR)"
   ]
+ },
+ "descripcion_larga_es": "Las conjunciones son las palabras que unen: las coordinantes (et, ou, mais, donc, car, ni, or) enlazan elementos del mismo nivel y las subordinantes (que, quand, parce que, puisque, comme, depuis que, dès que) introducen una oración dependiente. Al hispanohablante le cuestan car frente a parce que, el uso de comme causal y, sobre todo, el futuro tras quand donde el español pone subjuntivo.",
+ "contexto": {
+  "que_es": "Son palabras invariables que unen elementos. Las coordinantes enlazan dos palabras u oraciones del mismo rango (et, ou, mais, donc, car, ni… ni, or). Las subordinantes introducen una oración que depende de otra y expresan tiempo (quand, lorsque, dès que, depuis que, pendant que), causa (parce que, puisque, comme) o contraste (tandis que, alors que). Las de esta ficha van con indicativo.",
+  "por_que_importa": "Sin conjunciones solo se pueden decir frases simples, lo que suena infantil en una conversación o en un examen. Cada una tiene un matiz: car justifica, parce que explica, puisque da una causa ya conocida, comme abre la frase. Usar mal el modo tras quand (subjuntivo en lugar de futuro) es uno de los errores más característicos del hispanohablante.",
+  "cuando_se_usa": "Constantemente, en cualquier texto que vaya más allá de la frase simple. Las señales son la relación que se quiere expresar y la posición: comme va al principio, car nunca. Al hablar del futuro con quand, lorsque o dès que, el francés usa futuro (quand tu seras grand) donde el español usa subjuntivo («cuando seas mayor»)."
  }
 }

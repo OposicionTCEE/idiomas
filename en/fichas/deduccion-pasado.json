@@ -6,49 +6,507 @@
  "nivel": "B2",
  "resumen": "Para deducir lo que probablemente pasó usamos modal + have + participio: must have (seguro que sí), might/may/could have (quizá), can't/couldn't have (seguro que no).",
  "explicacion": [
-  {"tipo": "tabla", "cabecera": ["Grado de certeza", "Forma", "Ejemplo"], "filas": [
-   ["Casi seguro que sí", "must have + participio", "The streets are wet. It must have rained."],
-   ["Posible", "might / may / could have + participio", "She might have missed the bus."],
-   ["Posible que no", "might not / may not have + participio", "He may not have received my email."],
-   ["Casi seguro que no", "can't / couldn't have + participio", "You can't have seen Juan; he's in Peru."]
-  ]},
-  {"tipo": "texto", "texto": "El español suele usar «debe de haber», «habrá + participio» o «seguro que»: Habrá perdido el tren = He must have missed the train. No ha podido verte = He can't have seen you."},
-  {"tipo": "texto", "texto": "Cuidado: el contrario de must have NO es mustn't have, sino can't have / couldn't have. Y couldn't have (no pudo ser) no es lo mismo que might not have (puede que no)."},
-  {"tipo": "lista", "items": [
-   "Forma continua para acciones en curso: She must have been sleeping when I called.",
-   "Could have también expresa una posibilidad no realizada: You could have been killed! (podrías haberte matado).",
-   "Should have + participio no es deducción sino crítica o expectativa: You should have told me."
-  ]}
+  {
+   "tipo": "tabla",
+   "cabecera": [
+    "Grado de certeza",
+    "Forma",
+    "Ejemplo"
+   ],
+   "filas": [
+    [
+     "Casi seguro que sí",
+     "must have + participio",
+     "The streets are wet. It must have rained."
+    ],
+    [
+     "Posible",
+     "might / may / could have + participio",
+     "She might have missed the bus."
+    ],
+    [
+     "Posible que no",
+     "might not / may not have + participio",
+     "He may not have received my email."
+    ],
+    [
+     "Casi seguro que no",
+     "can't / couldn't have + participio",
+     "You can't have seen Juan; he's in Peru."
+    ]
+   ]
+  },
+  {
+   "tipo": "texto",
+   "texto": "El español suele usar «debe de haber», «habrá + participio» o «seguro que»: Habrá perdido el tren = He must have missed the train. No ha podido verte = He can't have seen you."
+  },
+  {
+   "tipo": "texto",
+   "texto": "Cuidado: el contrario de must have NO es mustn't have, sino can't have / couldn't have. Y couldn't have (no pudo ser) no es lo mismo que might not have (puede que no)."
+  },
+  {
+   "tipo": "lista",
+   "items": [
+    "Forma continua para acciones en curso: She must have been sleeping when I called.",
+    "Could have también expresa una posibilidad no realizada: You could have been killed! (podrías haberte matado).",
+    "Should have + participio no es deducción sino crítica o expectativa: You should have told me."
+   ]
+  }
  ],
  "ejemplos": [
-  {"frase": "The lights are off. They must have gone out.", "traduccion": "Las luces están apagadas. Habrán salido."},
-  {"frase": "I can't find my keys. I might have left them at the office.", "traduccion": "No encuentro las llaves. Puede que me las haya dejado en la oficina."},
-  {"frase": "She can't have written this report; she was on holiday all month.", "traduccion": "Ella no puede haber escrito este informe; estuvo de vacaciones todo el mes."},
-  {"frase": "He looks exhausted. He must have been working all night.", "traduccion": "Parece agotado. Debe de haber estado trabajando toda la noche."},
-  {"frase": "The parcel may not have arrived yet because of the strike.", "traduccion": "Puede que el paquete no haya llegado todavía por la huelga."},
-  {"frase": "Who could have sent me these flowers?", "traduccion": "¿Quién me habrá mandado estas flores?"}
+  {
+   "frase": "The lights are off. They must have gone out.",
+   "traduccion": "Las luces están apagadas. Habrán salido."
+  },
+  {
+   "frase": "I can't find my keys. I might have left them at the office.",
+   "traduccion": "No encuentro las llaves. Puede que me las haya dejado en la oficina."
+  },
+  {
+   "frase": "She can't have written this report; she was on holiday all month.",
+   "traduccion": "Ella no puede haber escrito este informe; estuvo de vacaciones todo el mes."
+  },
+  {
+   "frase": "He looks exhausted. He must have been working all night.",
+   "traduccion": "Parece agotado. Debe de haber estado trabajando toda la noche."
+  },
+  {
+   "frase": "The parcel may not have arrived yet because of the strike.",
+   "traduccion": "Puede que el paquete no haya llegado todavía por la huelga."
+  },
+  {
+   "frase": "Who could have sent me these flowers?",
+   "traduccion": "¿Quién me habrá mandado estas flores?"
+  }
  ],
  "errores_hispanohablantes": [
-  {"mal": "He mustn't have heard the phone.", "bien": "He can't have heard the phone.", "nota": "Para la deducción negativa segura se usa can't/couldn't have."},
-  {"mal": "She must had forgotten.", "bien": "She must have forgotten.", "nota": "Tras el modal siempre va have (infinitivo), nunca had."},
-  {"mal": "They must lose the match yesterday.", "bien": "They must have lost the match yesterday.", "nota": "Para una deducción sobre el pasado hace falta have + participio."}
+  {
+   "mal": "He mustn't have heard the phone.",
+   "bien": "He can't have heard the phone.",
+   "nota": "Para la deducción negativa segura se usa can't/couldn't have."
+  },
+  {
+   "mal": "She must had forgotten.",
+   "bien": "She must have forgotten.",
+   "nota": "Tras el modal siempre va have (infinitivo), nunca had."
+  },
+  {
+   "mal": "They must lose the match yesterday.",
+   "bien": "They must have lost the match yesterday.",
+   "nota": "Para una deducción sobre el pasado hace falta have + participio."
+  }
  ],
  "ejercicios": [
-  {"id": "e01", "tipo": "hueco", "enunciado": "Completa con must have, might have o can't have + participio.", "frase": "Laura's car isn't outside. She ___ (leave) already.", "respuestas": ["must have left", "must've left"], "explicacion": "Deducción casi segura: must have."},
-  {"id": "e02", "tipo": "hueco", "enunciado": "Completa con must have, might have o can't have + participio.", "frase": "You ___ (see) Peter at the party. He was in hospital that night.", "respuestas": ["can't have seen", "cannot have seen", "couldn't have seen", "could not have seen"], "explicacion": "Es imposible por una razón clara: can't/couldn't have."},
-  {"id": "e03", "tipo": "hueco", "enunciado": "Completa con la forma continua.", "frase": "The phone was busy for an hour. She ___ (talk) to her mother.", "respuestas": ["must have been talking", "might have been talking", "may have been talking", "could have been talking", "must've been talking"], "explicacion": "Acción en curso en el pasado: modal + have been + -ing."},
-  {"id": "e04", "tipo": "hueco", "enunciado": "Completa con el modal adecuado.", "frase": "I'm not sure why he's late. He ___ have got lost.", "respuestas": ["might", "may", "could"], "explicacion": "No estamos seguros: might/may/could have."},
-  {"id": "e05", "tipo": "eleccion", "enunciado": "Elige la opción correcta.", "frase": "The window is broken and the TV has gone. Someone ___ into the house.", "opciones": ["must have broken", "can't have broken", "should have broken", "must break"], "respuestas": ["must have broken"], "explicacion": "Las pruebas llevan a una conclusión casi segura."},
-  {"id": "e06", "tipo": "eleccion", "enunciado": "Elige la opción correcta.", "frase": "He ___ the exam; he never studies and yet he got an A! Maybe he cheated.", "opciones": ["can't have prepared for", "must have prepared for", "should have prepared for"], "respuestas": ["can't have prepared for"], "explicacion": "Sabemos que nunca estudia: es imposible que se preparara."},
-  {"id": "e07", "tipo": "eleccion", "enunciado": "Elige la opción correcta.", "frase": "I don't know where Ana is. She ___ to the gym, but I'm not sure.", "opciones": ["may have gone", "must have gone", "can't have gone"], "respuestas": ["may have gone"], "explicacion": "Posibilidad sin certeza: may have."},
-  {"id": "e08", "tipo": "corregir", "enunciado": "Corrige el error.", "frase": "They mustn't have received the invitation, because they didn't reply.", "respuestas": ["They can't have received the invitation, because they didn't reply.", "They couldn't have received the invitation, because they didn't reply.", "They might not have received the invitation, because they didn't reply.", "They may not have received the invitation, because they didn't reply."], "explicacion": "Mustn't have no se usa para deducir; se usa can't/couldn't have (o might not have si es una posibilidad)."},
-  {"id": "e09", "tipo": "corregir", "enunciado": "Corrige el error.", "frase": "She must has forgotten our appointment.", "respuestas": ["She must have forgotten our appointment.", "She must've forgotten our appointment."], "explicacion": "Tras un modal va have, no has."},
-  {"id": "e10", "tipo": "corregir", "enunciado": "Corrige el error.", "frase": "The road is wet; it must rain during the night.", "respuestas": ["The road is wet; it must have rained during the night."], "explicacion": "Deducción sobre el pasado: must have + participio."},
-  {"id": "e11", "tipo": "transformar", "enunciado": "Reescribe la frase con must have.", "frase": "I'm sure Tom forgot about the meeting.", "respuestas": ["Tom must have forgotten about the meeting.", "Tom must've forgotten about the meeting."], "explicacion": "I'm sure + pasado = must have + participio."},
-  {"id": "e12", "tipo": "transformar", "enunciado": "Reescribe la frase con can't have.", "frase": "It's impossible that they finished the job so quickly.", "respuestas": ["They can't have finished the job so quickly.", "They cannot have finished the job so quickly."], "explicacion": "It's impossible that + pasado = can't have + participio."},
-  {"id": "e13", "tipo": "transformar", "enunciado": "Reescribe la frase con might have.", "frase": "Perhaps she took the wrong train.", "respuestas": ["She might have taken the wrong train.", "She might've taken the wrong train."], "explicacion": "Perhaps + pasado = might have + participio."},
-  {"id": "e14", "tipo": "ordenar", "enunciado": "Ordena las palabras.", "palabras": ["have", "must", "he", "overslept"], "respuestas": ["he must have overslept"], "explicacion": "Sujeto + must have + participio."},
-  {"id": "e15", "tipo": "ordenar", "enunciado": "Ordena las palabras.", "palabras": ["been", "they", "joking", "have", "must"], "respuestas": ["they must have been joking"], "explicacion": "Forma continua: must have been + -ing."}
+  {
+   "id": "e01",
+   "tipo": "hueco",
+   "enunciado": "Completa con must have, might have o can't have + participio.",
+   "frase": "Laura's car isn't outside. She ___ (leave) already.",
+   "respuestas": [
+    "must have left",
+    "must've left"
+   ],
+   "explicacion": "Se aplica la primera fila de la tabla: casi seguro que sí = must have + participio. La pista es el indicio presente (su coche no está) que lleva a una conclusión firme sobre el pasado. El participio de leave es left, así que must have left (o la contracción must've left).",
+   "explicacion_breve": "Deducción casi segura: must have.",
+   "traduccion": "El coche de Laura no está fuera. Ya se habrá ido.",
+   "errores_previstos": [
+    {
+     "respuesta": "must leave",
+     "explicacion": "Sin have + participio la deducción se refiere al presente o es una obligación; para el pasado hace falta must have left."
+    },
+    {
+     "respuesta": "must have leaved",
+     "explicacion": "Leave es irregular: el participio es left."
+    },
+    {
+     "respuesta": "must had left",
+     "explicacion": "Tras un modal siempre va have en infinitivo, nunca had."
+    }
+   ]
+  },
+  {
+   "id": "e02",
+   "tipo": "hueco",
+   "enunciado": "Completa con must have, might have o can't have + participio.",
+   "frase": "You ___ (see) Peter at the party. He was in hospital that night.",
+   "respuestas": [
+    "can't have seen",
+    "cannot have seen",
+    "couldn't have seen",
+    "could not have seen"
+   ],
+   "explicacion": "La regla de la tabla para casi seguro que no es can't / couldn't have + participio. La pista es la segunda frase: estaba en el hospital, así que es imposible que estuviera en la fiesta. La ficha subraya que lo contrario de must have es can't have, no mustn't have; se aceptan las formas plenas cannot y could not.",
+   "explicacion_breve": "Es imposible por una razón clara: can't/couldn't have.",
+   "traduccion": "No puedes haber visto a Peter en la fiesta. Estaba en el hospital esa noche.",
+   "errores_previstos": [
+    {
+     "respuesta": "mustn't have seen",
+     "explicacion": "Mustn't have no se usa para deducir: la deducción negativa segura es can't have."
+    },
+    {
+     "respuesta": "might not have seen",
+     "explicacion": "Might not have expresa solo una posibilidad; aquí hay una prueba que lo hace imposible: can't have."
+    },
+    {
+     "respuesta": "can't have saw",
+     "explicacion": "Tras have va el participio (seen), no el pasado simple (saw)."
+    }
+   ]
+  },
+  {
+   "id": "e03",
+   "tipo": "hueco",
+   "enunciado": "Completa con la forma continua.",
+   "frase": "The phone was busy for an hour. She ___ (talk) to her mother.",
+   "respuestas": [
+    "must have been talking",
+    "might have been talking",
+    "may have been talking",
+    "could have been talking",
+    "must've been talking"
+   ],
+   "explicacion": "La lista de la ficha explica la forma continua para acciones en curso: modal + have been + -ing. La pista es was busy for an hour: la acción duró un tiempo. Must have been talking expresa casi certeza; might, may o could have been talking expresan posibilidad, y todas se aceptan porque el enunciado solo pide la forma continua.",
+   "explicacion_breve": "Acción en curso en el pasado: modal + have been + -ing.",
+   "traduccion": "El teléfono estuvo comunicando una hora. Debía de estar hablando con su madre.",
+   "errores_previstos": [
+    {
+     "respuesta": "must have talked",
+     "explicacion": "Es correcta como deducción, pero el enunciado pide la forma continua, que subraya la duración: must have been talking."
+    },
+    {
+     "respuesta": "must be talking",
+     "explicacion": "Must be talking se refiere al presente; la acción es pasada y requiere have been."
+    },
+    {
+     "respuesta": "must have been talk",
+     "explicacion": "Tras have been va el verbo en -ing: talking."
+    }
+   ]
+  },
+  {
+   "id": "e04",
+   "tipo": "hueco",
+   "enunciado": "Completa con el modal adecuado.",
+   "frase": "I'm not sure why he's late. He ___ have got lost.",
+   "respuestas": [
+    "might",
+    "may",
+    "could"
+   ],
+   "explicacion": "La segunda fila de la tabla, posible, usa might / may / could have + participio. La pista es I'm not sure: no hay certeza, solo una hipótesis. Por eso valen las tres formas: might, may o could have got lost.",
+   "explicacion_breve": "No estamos seguros: might/may/could have.",
+   "traduccion": "No estoy seguro de por qué llega tarde. Puede que se haya perdido.",
+   "errores_previstos": [
+    {
+     "respuesta": "must",
+     "explicacion": "Must indica casi certeza, y la frase dice I'm not sure."
+    },
+    {
+     "respuesta": "can",
+     "explicacion": "Can have no se usa para posibilidad en afirmativa; se dice might, may o could have."
+    }
+   ]
+  },
+  {
+   "id": "e05",
+   "tipo": "eleccion",
+   "enunciado": "Elige la opción correcta.",
+   "frase": "The window is broken and the TV has gone. Someone ___ into the house.",
+   "opciones": [
+    "must have broken",
+    "can't have broken",
+    "should have broken",
+    "must break"
+   ],
+   "respuestas": [
+    "must have broken"
+   ],
+   "explicacion": "Se aplica la regla de must have + participio para deducciones casi seguras. Las pruebas (ventana rota, tele desaparecida) llevan a una conclusión firme sobre algo ya ocurrido. Break into es entrar a robar, y su participio es broken.",
+   "explicacion_breve": "Las pruebas llevan a una conclusión casi segura.",
+   "traduccion": "La ventana está rota y la tele ha desaparecido. Alguien ha debido de entrar en la casa.",
+   "por_opcion": {
+    "must have broken": "Correcta: deducción casi segura sobre el pasado.",
+    "can't have broken": "Incorrecta: diría que es imposible, lo contrario de lo que indican las pruebas.",
+    "should have broken": "Incorrecta: should have expresa crítica o expectativa no cumplida, no deducción.",
+    "must break": "Incorrecta: sin have + participio no se refiere al pasado; sonaría a obligación."
+   }
+  },
+  {
+   "id": "e06",
+   "tipo": "eleccion",
+   "enunciado": "Elige la opción correcta.",
+   "frase": "He ___ the exam; he never studies and yet he got an A! Maybe he cheated.",
+   "opciones": [
+    "can't have prepared for",
+    "must have prepared for",
+    "should have prepared for"
+   ],
+   "respuestas": [
+    "can't have prepared for"
+   ],
+   "explicacion": "La tabla da can't have + participio para casi seguro que no. La pista es he never studies: sabemos que no estudia, así que es imposible que se preparara, y por eso se sospecha que copió (maybe he cheated).",
+   "explicacion_breve": "Sabemos que nunca estudia: es imposible que se preparara.",
+   "traduccion": "No puede haberse preparado el examen; nunca estudia ¡y aun así ha sacado un sobresaliente! Quizá copió.",
+   "por_opcion": {
+    "can't have prepared for": "Correcta: imposibilidad deducida de lo que sabemos de él.",
+    "must have prepared for": "Incorrecta: contradice he never studies y la sospecha de que copió.",
+    "should have prepared for": "Incorrecta: should have es una crítica (debería haberse preparado), no una deducción; no explica el «maybe he cheated»."
+   }
+  },
+  {
+   "id": "e07",
+   "tipo": "eleccion",
+   "enunciado": "Elige la opción correcta.",
+   "frase": "I don't know where Ana is. She ___ to the gym, but I'm not sure.",
+   "opciones": [
+    "may have gone",
+    "must have gone",
+    "can't have gone"
+   ],
+   "respuestas": [
+    "may have gone"
+   ],
+   "explicacion": "Se aplica la fila de posible: may / might / could have + participio. La pista es I don't know y I'm not sure: solo hay una hipótesis. May have gone es la única opción que expresa posibilidad sin certeza.",
+   "explicacion_breve": "Posibilidad sin certeza: may have.",
+   "traduccion": "No sé dónde está Ana. Puede que haya ido al gimnasio, pero no estoy seguro.",
+   "por_opcion": {
+    "may have gone": "Correcta: posibilidad sobre el pasado.",
+    "must have gone": "Incorrecta: indica casi certeza, incompatible con I'm not sure.",
+    "can't have gone": "Incorrecta: niega la posibilidad, cuando la frase la está planteando."
+   }
+  },
+  {
+   "id": "e08",
+   "tipo": "corregir",
+   "enunciado": "Corrige el error.",
+   "frase": "They mustn't have received the invitation, because they didn't reply.",
+   "respuestas": [
+    "They can't have received the invitation, because they didn't reply.",
+    "They couldn't have received the invitation, because they didn't reply.",
+    "They might not have received the invitation, because they didn't reply.",
+    "They may not have received the invitation, because they didn't reply."
+   ],
+   "explicacion": "La ficha explica que mustn't have no se usa para deducir: la deducción negativa segura es can't have o couldn't have. Si el hablante solo quiere sugerirlo como posibilidad, valen might not have o may not have. Por eso se aceptan las cuatro formas.",
+   "explicacion_breve": "Mustn't have no se usa para deducir; se usa can't/couldn't have (o might not have si es una posibilidad).",
+   "traduccion": "No pueden haber recibido la invitación, porque no han contestado.",
+   "errores_previstos": [
+    {
+     "respuesta": "They mustn't have received the invitation, because they didn't reply.",
+     "explicacion": "Es la frase sin corregir: mustn't have no expresa deducción."
+    },
+    {
+     "respuesta": "They mustn't receive the invitation, because they didn't reply.",
+     "explicacion": "Mustn't receive es una prohibición en presente; para deducir sobre el pasado hace falta can't have received."
+    },
+    {
+     "respuesta": "They can't have receive the invitation, because they didn't reply.",
+     "explicacion": "Tras have va el participio: received."
+    }
+   ]
+  },
+  {
+   "id": "e09",
+   "tipo": "corregir",
+   "enunciado": "Corrige el error.",
+   "frase": "She must has forgotten our appointment.",
+   "respuestas": [
+    "She must have forgotten our appointment.",
+    "She must've forgotten our appointment."
+   ],
+   "explicacion": "El segundo error típico de la ficha: tras el modal siempre va have en infinitivo, nunca has ni had, aunque el sujeto sea she. Los modales no se conjugan, y el verbo que los sigue va en forma base. La contracción must've también se acepta.",
+   "explicacion_breve": "Tras un modal va have, no has.",
+   "traduccion": "Ha debido de olvidarse de nuestra cita.",
+   "errores_previstos": [
+    {
+     "respuesta": "She must has forgotten our appointment.",
+     "explicacion": "Es la frase sin corregir: tras must va have, no has."
+    },
+    {
+     "respuesta": "She must had forgotten our appointment.",
+     "explicacion": "Tampoco had: tras un modal, have en forma base."
+    },
+    {
+     "respuesta": "She must have forgot our appointment.",
+     "explicacion": "El participio de forget es forgotten; forgot es el pasado simple."
+    }
+   ]
+  },
+  {
+   "id": "e10",
+   "tipo": "corregir",
+   "enunciado": "Corrige el error.",
+   "frase": "The road is wet; it must rain during the night.",
+   "respuestas": [
+    "The road is wet; it must have rained during the night."
+   ],
+   "explicacion": "Se aplica la regla general de la ficha: para una deducción sobre el pasado hace falta have + participio. La pista es during the night (pasado) frente al indicio presente (la carretera está mojada). Must rain sin have se referiría al presente o a una obligación.",
+   "explicacion_breve": "Deducción sobre el pasado: must have + participio.",
+   "traduccion": "La carretera está mojada; ha debido de llover durante la noche.",
+   "errores_previstos": [
+    {
+     "respuesta": "The road is wet; it must rain during the night.",
+     "explicacion": "Es la frase sin corregir: falta have + participio para el pasado."
+    },
+    {
+     "respuesta": "The road is wet; it must rained during the night.",
+     "explicacion": "Tras un modal no puede ir un pasado simple; hace falta have rained."
+    },
+    {
+     "respuesta": "The road is wet; it must have rain during the night.",
+     "explicacion": "Tras have va el participio: rained."
+    }
+   ]
+  },
+  {
+   "id": "e11",
+   "tipo": "transformar",
+   "enunciado": "Reescribe la frase con must have.",
+   "frase": "I'm sure Tom forgot about the meeting.",
+   "respuestas": [
+    "Tom must have forgotten about the meeting.",
+    "Tom must've forgotten about the meeting."
+   ],
+   "explicacion": "La ficha equipara I'm sure + pasado a must have + participio. El sujeto pasa a ser Tom, y forgot (pasado simple) se convierte en have forgotten (participio). About the meeting se mantiene.",
+   "explicacion_breve": "I'm sure + pasado = must have + participio.",
+   "traduccion": "Tom ha debido de olvidarse de la reunión.",
+   "errores_previstos": [
+    {
+     "respuesta": "Tom must forget about the meeting.",
+     "explicacion": "Sin have + participio no se refiere al pasado; sonaría a obligación."
+    },
+    {
+     "respuesta": "Tom must have forgot about the meeting.",
+     "explicacion": "El participio de forget es forgotten."
+    },
+    {
+     "respuesta": "Tom must had forgotten about the meeting.",
+     "explicacion": "Tras must va have, nunca had."
+    }
+   ]
+  },
+  {
+   "id": "e12",
+   "tipo": "transformar",
+   "enunciado": "Reescribe la frase con can't have.",
+   "frase": "It's impossible that they finished the job so quickly.",
+   "respuestas": [
+    "They can't have finished the job so quickly.",
+    "They cannot have finished the job so quickly."
+   ],
+   "explicacion": "La ficha establece que It's impossible that + pasado equivale a can't have + participio. Finished ya es participio regular, así que queda can't have finished. Cannot have finished, la forma plena, también se acepta.",
+   "explicacion_breve": "It's impossible that + pasado = can't have + participio.",
+   "traduccion": "No pueden haber terminado el trabajo tan deprisa.",
+   "errores_previstos": [
+    {
+     "respuesta": "They mustn't have finished the job so quickly.",
+     "explicacion": "Mustn't have no expresa imposibilidad; se usa can't have."
+    },
+    {
+     "respuesta": "They can't finish the job so quickly.",
+     "explicacion": "Sin have + participio la frase habla del presente o de la capacidad, no de un hecho pasado."
+    },
+    {
+     "respuesta": "They couldn't finish the job so quickly.",
+     "explicacion": "Couldn't finish significa que no fueron capaces; la deducción de imposibilidad requiere have: can't have finished."
+    }
+   ]
+  },
+  {
+   "id": "e13",
+   "tipo": "transformar",
+   "enunciado": "Reescribe la frase con might have.",
+   "frase": "Perhaps she took the wrong train.",
+   "respuestas": [
+    "She might have taken the wrong train.",
+    "She might've taken the wrong train."
+   ],
+   "explicacion": "La ficha equipara perhaps + pasado a might have + participio. Took, pasado simple de take, pasa a participio: taken. Perhaps desaparece porque might ya expresa la posibilidad, y el resto de la frase (the wrong train) se mantiene sin cambios.",
+   "explicacion_breve": "Perhaps + pasado = might have + participio.",
+   "traduccion": "Puede que haya cogido el tren equivocado.",
+   "errores_previstos": [
+    {
+     "respuesta": "She might have took the wrong train.",
+     "explicacion": "Tras have va el participio taken, no el pasado took."
+    },
+    {
+     "respuesta": "Perhaps she might have taken the wrong train.",
+     "explicacion": "Perhaps y might expresan lo mismo; mantener los dos es redundante y la transformación pide sustituirlo."
+    },
+    {
+     "respuesta": "She might take the wrong train.",
+     "explicacion": "Sin have + participio se refiere al futuro o al presente, no al pasado."
+    }
+   ]
+  },
+  {
+   "id": "e14",
+   "tipo": "ordenar",
+   "enunciado": "Ordena las palabras.",
+   "palabras": [
+    "have",
+    "must",
+    "he",
+    "overslept"
+   ],
+   "respuestas": [
+    "he must have overslept"
+   ],
+   "explicacion": "La estructura es sujeto + must have + participio, para una deducción casi segura sobre el pasado. Overslept es el participio de oversleep (quedarse dormido y no despertarse a tiempo). Must va siempre delante de have.",
+   "explicacion_breve": "Sujeto + must have + participio.",
+   "traduccion": "Se habrá quedado dormido.",
+   "errores_previstos": [
+    {
+     "respuesta": "he have must overslept",
+     "explicacion": "El modal va primero y luego have: must have."
+    },
+    {
+     "respuesta": "must he have overslept",
+     "explicacion": "Ese orden forma una pregunta; se pide una afirmación."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "to oversleep",
+     "significado": "quedarse dormido (no despertarse a tiempo)"
+    }
+   ]
+  },
+  {
+   "id": "e15",
+   "tipo": "ordenar",
+   "enunciado": "Ordena las palabras.",
+   "palabras": [
+    "been",
+    "they",
+    "joking",
+    "have",
+    "must"
+   ],
+   "respuestas": [
+    "they must have been joking"
+   ],
+   "explicacion": "Es la forma continua de la ficha: must have been + -ing, para una acción en curso en el pasado. El orden fijo es sujeto, must, have, been y el verbo en -ing. Joking es estar de broma.",
+   "explicacion_breve": "Forma continua: must have been + -ing.",
+   "traduccion": "Debían de estar de broma.",
+   "errores_previstos": [
+    {
+     "respuesta": "they must been have joking",
+     "explicacion": "El orden es must have been, nunca been have."
+    },
+    {
+     "respuesta": "they have must been joking",
+     "explicacion": "El modal va delante de have."
+    }
+   ]
+  }
  ],
- "fuente": {"nombre": "propia"}
+ "fuente": {
+  "nombre": "propia"
+ },
+ "descripcion_larga_es": "Los modales de deducción en pasado (must have, might/may/could have, can't/couldn't have + participio) sirven para sacar conclusiones sobre lo que probablemente ocurrió a partir de indicios. Importan porque el español lo expresa con «habrá + participio» o «debe de haber», sin un paralelo exacto, y porque el hispanohablante suele usar mustn't have donde el inglés exige can't have.",
+ "contexto": {
+  "que_es": "Es la combinación de un modal con have + participio para expresar el grado de certeza sobre un hecho pasado: casi seguro que sí (must have), posible (might, may, could have), posible que no (might not, may not have) y casi seguro que no (can't, couldn't have).",
+  "por_que_importa": "Permite razonar en voz alta sobre causas y explicaciones, algo frecuente al comentar noticias, datos o situaciones. Usar el modal equivocado cambia el grado de certeza: mustn't have no se entiende como deducción, y might not have no equivale a couldn't have. En exámenes B2 es un punto clásico de transformaciones.",
+  "cuando_se_usa": "Cuando hay un indicio presente sobre algo pasado (el suelo está mojado, ha llovido) o cuando se reformula I'm sure, perhaps o it's impossible that + pasado. El español suele usar el futuro perfecto de conjetura («habrá salido»), que el hispanohablante no sabe trasladar, y tiende a decir must lose en lugar de must have lost."
+ }
 }

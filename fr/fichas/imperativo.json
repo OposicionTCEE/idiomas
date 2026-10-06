@@ -6,58 +6,558 @@
  "nivel": "A2",
  "resumen": "El imperativo sirve para dar órdenes, consejos o hacer propuestas; tiene tres formas (tu, nous, vous) que se toman del presente sin el pronombre sujeto.",
  "explicacion": [
-  {"tipo": "tabla", "cabecera": ["Presente", "Imperativo", "Traducción"], "filas": [
-   ["tu finis", "Finis !", "¡Termina!"],
-   ["nous finissons", "Finissons !", "¡Terminemos!"],
-   ["vous finissez", "Finissez !", "¡Terminad! / ¡Termine usted!"],
-   ["tu regardes", "Regarde !", "¡Mira!"],
-   ["tu vas", "Va !", "¡Ve!"]
-  ]},
-  {"tipo": "texto", "texto": "En la forma tu, los verbos en -er (también aller) y los que se conjugan como ellos (ouvrir, offrir) pierden la -s: tu regardes → Regarde ! La -s vuelve ante y o en para poder enlazar: Vas-y ! Achètes-en ! La forma nous equivale a «vamos a…» o «-emos» (Allons à la plage ! = ¡Vamos a la playa!)."},
-  {"tipo": "tabla", "cabecera": ["Verbo", "tu", "nous", "vous"], "filas": [
-   ["avoir", "aie", "ayons", "ayez"],
-   ["être", "sois", "soyons", "soyez"],
-   ["savoir", "sache", "sachons", "sachez"],
-   ["vouloir", "veuille", "veuillons", "veuillez"]
-  ]},
-  {"tipo": "lista", "items": [
-   "Afirmativo: los pronombres van detrás, unidos con guion, y me / te pasan a moi / toi: Aidez-moi ! Dépêche-toi ! Regarde-le !",
-   "Negativo: los pronombres vuelven delante del verbo, igual que en español («no lo hagas»): Ne le fais pas ! Ne te moque pas de moi !",
-   "Verbos pronominales: Lève-toi ! Asseyez-vous ! Ne nous disputons pas !",
-   "Veuillez + infinitivo es una fórmula muy cortés de los textos formales: Veuillez patienter (tenga la bondad de esperar)."
-  ]}
+  {
+   "tipo": "tabla",
+   "cabecera": [
+    "Presente",
+    "Imperativo",
+    "Traducción"
+   ],
+   "filas": [
+    [
+     "tu finis",
+     "Finis !",
+     "¡Termina!"
+    ],
+    [
+     "nous finissons",
+     "Finissons !",
+     "¡Terminemos!"
+    ],
+    [
+     "vous finissez",
+     "Finissez !",
+     "¡Terminad! / ¡Termine usted!"
+    ],
+    [
+     "tu regardes",
+     "Regarde !",
+     "¡Mira!"
+    ],
+    [
+     "tu vas",
+     "Va !",
+     "¡Ve!"
+    ]
+   ]
+  },
+  {
+   "tipo": "texto",
+   "texto": "En la forma tu, los verbos en -er (también aller) y los que se conjugan como ellos (ouvrir, offrir) pierden la -s: tu regardes → Regarde ! La -s vuelve ante y o en para poder enlazar: Vas-y ! Achètes-en ! La forma nous equivale a «vamos a…» o «-emos» (Allons à la plage ! = ¡Vamos a la playa!)."
+  },
+  {
+   "tipo": "tabla",
+   "cabecera": [
+    "Verbo",
+    "tu",
+    "nous",
+    "vous"
+   ],
+   "filas": [
+    [
+     "avoir",
+     "aie",
+     "ayons",
+     "ayez"
+    ],
+    [
+     "être",
+     "sois",
+     "soyons",
+     "soyez"
+    ],
+    [
+     "savoir",
+     "sache",
+     "sachons",
+     "sachez"
+    ],
+    [
+     "vouloir",
+     "veuille",
+     "veuillons",
+     "veuillez"
+    ]
+   ]
+  },
+  {
+   "tipo": "lista",
+   "items": [
+    "Afirmativo: los pronombres van detrás, unidos con guion, y me / te pasan a moi / toi: Aidez-moi ! Dépêche-toi ! Regarde-le !",
+    "Negativo: los pronombres vuelven delante del verbo, igual que en español («no lo hagas»): Ne le fais pas ! Ne te moque pas de moi !",
+    "Verbos pronominales: Lève-toi ! Asseyez-vous ! Ne nous disputons pas !",
+    "Veuillez + infinitivo es una fórmula muy cortés de los textos formales: Veuillez patienter (tenga la bondad de esperar)."
+   ]
+  }
  ],
  "ejemplos": [
-  {"frase": "Ouvrez la bouche !", "traduccion": "¡Abra la boca!"},
-  {"frase": "Allons à la plage !", "traduccion": "¡Vamos a la playa!"},
-  {"frase": "Bette, va au supermarché ! Vas-y !", "traduccion": "Bette, ¡ve al supermercado! ¡Ve!"},
-  {"frase": "Ne te moque pas de moi !", "traduccion": "¡No te burles de mí!"},
-  {"frase": "Soyez prudents sur la route.", "traduccion": "Tened cuidado en la carretera."},
-  {"frase": "Laissez-moi y aller !", "traduccion": "¡Déjeme ir!"}
+  {
+   "frase": "Ouvrez la bouche !",
+   "traduccion": "¡Abra la boca!"
+  },
+  {
+   "frase": "Allons à la plage !",
+   "traduccion": "¡Vamos a la playa!"
+  },
+  {
+   "frase": "Bette, va au supermarché ! Vas-y !",
+   "traduccion": "Bette, ¡ve al supermercado! ¡Ve!"
+  },
+  {
+   "frase": "Ne te moque pas de moi !",
+   "traduccion": "¡No te burles de mí!"
+  },
+  {
+   "frase": "Soyez prudents sur la route.",
+   "traduccion": "Tened cuidado en la carretera."
+  },
+  {
+   "frase": "Laissez-moi y aller !",
+   "traduccion": "¡Déjeme ir!"
+  }
  ],
  "errores_hispanohablantes": [
-  {"mal": "Regardes !", "bien": "Regarde !", "nota": "En la forma tu de los verbos en -er se pierde la -s."},
-  {"mal": "Me donnez le livre !", "bien": "Donnez-moi le livre !", "nota": "En afirmativo el pronombre va detrás y me pasa a moi."},
-  {"mal": "Ne fais-le pas !", "bien": "Ne le fais pas !", "nota": "En negativo el pronombre va delante del verbo y sin guion, como en «no lo hagas»."},
-  {"mal": "Es sage !", "bien": "Sois sage !", "nota": "Être tiene imperativo irregular: sois, soyons, soyez."}
+  {
+   "mal": "Regardes !",
+   "bien": "Regarde !",
+   "nota": "En la forma tu de los verbos en -er se pierde la -s."
+  },
+  {
+   "mal": "Me donnez le livre !",
+   "bien": "Donnez-moi le livre !",
+   "nota": "En afirmativo el pronombre va detrás y me pasa a moi."
+  },
+  {
+   "mal": "Ne fais-le pas !",
+   "bien": "Ne le fais pas !",
+   "nota": "En negativo el pronombre va delante del verbo y sin guion, como en «no lo hagas»."
+  },
+  {
+   "mal": "Es sage !",
+   "bien": "Sois sage !",
+   "nota": "Être tiene imperativo irregular: sois, soyons, soyez."
+  }
  ],
  "ejercicios": [
-  {"id": "e01", "tipo": "hueco", "enunciado": "Completa con el imperativo (ouvrir, vous).", "frase": "___ la bouche !", "respuestas": ["Ouvrez"], "explicacion": "Vous ouvrez → Ouvrez !", "origen": "tatoeba:3483"},
-  {"id": "e02", "tipo": "hueco", "enunciado": "Completa con el imperativo (aller, nous).", "frase": "___ à la plage !", "respuestas": ["Allons"], "explicacion": "Nous allons → Allons ! (¡Vamos!)", "origen": "tatoeba:628165"},
-  {"id": "e03", "tipo": "transformar", "enunciado": "Convierte en una orden.", "frase": "Tu écoutes la radio.", "respuestas": ["Écoute la radio !"], "explicacion": "Verbo en -er: la forma tu pierde la -s."},
-  {"id": "e04", "tipo": "transformar", "enunciado": "Convierte en una orden.", "frase": "Vous suivez mon conseil.", "respuestas": ["Suivez mon conseil !"], "explicacion": "Se quita el pronombre sujeto: Suivez !", "origen": "tatoeba:1042499"},
-  {"id": "e05", "tipo": "corregir", "enunciado": "Corrige el error.", "frase": "Vas à la boulangerie !", "respuestas": ["Va à la boulangerie !"], "explicacion": "El imperativo de aller (tu) es va; solo recupera la -s ante y o en."},
-  {"id": "e06", "tipo": "corregir", "enunciado": "Corrige el error.", "frase": "Me donnez le vôtre !", "respuestas": ["Donnez-moi le vôtre !"], "explicacion": "En afirmativo el pronombre va detrás con guion y me pasa a moi.", "origen": "tatoeba:9472592"},
-  {"id": "e07", "tipo": "eleccion", "enunciado": "Elige la forma correcta.", "frase": "___ sage, mon fils !", "opciones": ["Sois", "Es", "Soit"], "respuestas": ["Sois"], "explicacion": "Imperativo irregular de être en la forma tu: sois."},
-  {"id": "e08", "tipo": "eleccion", "enunciado": "Elige la forma correcta (dirigiéndote a Marie, de tú).", "frase": "___ pas peur, Marie !", "opciones": ["N'aie", "N'as", "N'ai"], "respuestas": ["N'aie"], "explicacion": "Imperativo irregular de avoir en la forma tu: aie."},
-  {"id": "e09", "tipo": "transformar", "enunciado": "Convierte en una orden.", "frase": "Tu te dépêches.", "respuestas": ["Dépêche-toi !"], "explicacion": "Pronominal en afirmativo: el pronombre va detrás y te pasa a toi."},
-  {"id": "e10", "tipo": "transformar", "enunciado": "Pasa la orden a negativa.", "frase": "Lève-toi !", "respuestas": ["Ne te lève pas !"], "explicacion": "En negativo el pronombre vuelve delante y recupera la forma te."},
-  {"id": "e11", "tipo": "ordenar", "enunciado": "Ordena las palabras (Démonos la mano).", "palabras": ["main", "Serrons-nous", "la"], "respuestas": ["Serrons-nous la main"], "explicacion": "Imperativo de nous de un verbo pronominal: Serrons-nous.", "origen": "tatoeba:1192905"},
-  {"id": "e12", "tipo": "ordenar", "enunciado": "Ordena las palabras (Deje de seguirme).", "palabras": ["suivre", "me", "Arrêtez", "de"], "respuestas": ["Arrêtez de me suivre"], "explicacion": "Imperativo + de + infinitivo con su pronombre delante.", "origen": "tatoeba:1798936"},
-  {"id": "e13", "tipo": "hueco", "enunciado": "Completa con el imperativo (laisser, vous).", "frase": "___ la valise là !", "respuestas": ["Laissez"], "explicacion": "Vous laissez → Laissez !", "origen": "tatoeba:7553015"},
-  {"id": "e14", "tipo": "hueco", "enunciado": "Completa con el imperativo de aller (tu).", "frase": "___-y tout de suite !", "respuestas": ["Vas"], "explicacion": "Ante y, la forma va recupera la -s: Vas-y !"},
-  {"id": "e15", "tipo": "eleccion", "enunciado": "Elige la forma que significa «abramos».", "frase": "___ la fenêtre !", "opciones": ["Ouvrons", "Ouvrez", "Ouvre"], "respuestas": ["Ouvrons"], "explicacion": "La forma nous expresa una propuesta: ¡abramos!", "origen": "tatoeba:129044"},
-  {"id": "e16", "tipo": "transformar", "enunciado": "Convierte en una orden.", "frase": "Tu me téléphones ce soir.", "respuestas": ["Téléphone-moi ce soir !"], "explicacion": "Verbo en -er sin -s y pronombre detrás: me pasa a moi."}
+  {
+   "id": "e01",
+   "tipo": "hueco",
+   "enunciado": "Completa con el imperativo (ouvrir, vous).",
+   "frase": "___ la bouche !",
+   "respuestas": [
+    "Ouvrez"
+   ],
+   "explicacion": "Se aplica la regla general de la ficha: el imperativo se forma con el presente sin el pronombre sujeto. Vous ouvrez pasa a Ouvrez !, sin ningún cambio en la terminación. La pista es la persona que indica el enunciado, vous, que puede ser un plural o el trato de cortesía (por ejemplo, un dentista a su paciente).",
+   "origen": "tatoeba:3483",
+   "explicacion_breve": "Vous ouvrez → Ouvrez !",
+   "traduccion": "¡Abrid (abra usted) la boca!",
+   "errores_previstos": [
+    {
+     "respuesta": "Vous ouvrez",
+     "explicacion": "El imperativo no lleva pronombre sujeto: se dice simplemente Ouvrez !"
+    },
+    {
+     "respuesta": "Ouvre",
+     "explicacion": "Es la forma de tu; el enunciado pide vous: Ouvrez."
+    },
+    {
+     "respuesta": "Ouvrir",
+     "explicacion": "El infinitivo solo se usa como orden en instrucciones impersonales escritas (recetas, carteles); aquí se pide el imperativo de vous."
+    }
+   ]
+  },
+  {
+   "id": "e02",
+   "tipo": "hueco",
+   "enunciado": "Completa con el imperativo (aller, nous).",
+   "frase": "___ à la plage !",
+   "respuestas": [
+    "Allons"
+   ],
+   "explicacion": "Se aplica la regla de la forma nous, que según la ficha equivale a «vamos a…» o a la terminación «-emos»: es una propuesta en la que se incluye el hablante. Nous allons pasa a Allons ! al quitar el sujeto. Es un caso claro en que el español usa «vamos» y el francés el imperativo de nous.",
+   "origen": "tatoeba:628165",
+   "explicacion_breve": "Nous allons → Allons ! (¡Vamos!)",
+   "traduccion": "¡Vamos a la playa!",
+   "errores_previstos": [
+    {
+     "respuesta": "Nous allons",
+     "explicacion": "Con el sujeto nous es una afirmación («vamos a la playa»), no una propuesta; el imperativo va sin pronombre: Allons !"
+    },
+    {
+     "respuesta": "Allez",
+     "explicacion": "Es la forma de vous («¡id!»), que excluye al hablante; para «vamos» se usa Allons."
+    },
+    {
+     "respuesta": "On va",
+     "explicacion": "On va à la plage ? es una propuesta coloquial válida en la lengua hablada, pero el ejercicio pide el imperativo de nous: Allons."
+    }
+   ]
+  },
+  {
+   "id": "e03",
+   "tipo": "transformar",
+   "enunciado": "Convierte en una orden.",
+   "frase": "Tu écoutes la radio.",
+   "respuestas": [
+    "Écoute la radio !"
+   ],
+   "explicacion": "Se aplica la regla de la forma tu de los verbos en -er: pierden la -s del presente. Tu écoutes pasa a Écoute !, sin pronombre sujeto y sin -s. La frase termina con signo de exclamación, que marca la orden. Es el error típico que recoge la ficha (Regardes ! en lugar de Regarde !).",
+   "explicacion_breve": "Verbo en -er: la forma tu pierde la -s.",
+   "traduccion": "¡Escucha la radio!",
+   "errores_previstos": [
+    {
+     "respuesta": "Écoutes la radio !",
+     "explicacion": "En la forma tu de los verbos en -er se pierde la -s del presente: Écoute !"
+    },
+    {
+     "respuesta": "Tu écoute la radio !",
+     "explicacion": "El imperativo no lleva pronombre sujeto; además con tu en presente haría falta -s. La orden es Écoute la radio !"
+    }
+   ]
+  },
+  {
+   "id": "e04",
+   "tipo": "transformar",
+   "enunciado": "Convierte en una orden.",
+   "frase": "Vous suivez mon conseil.",
+   "respuestas": [
+    "Suivez mon conseil !"
+   ],
+   "explicacion": "Se aplica la regla general: se quita el pronombre sujeto y se conserva la forma del presente. Vous suivez pasa a Suivez !, de modo que la orden es Suivez mon conseil ! Suivre es irregular en presente, pero su imperativo no tiene ninguna dificultad añadida porque copia esa forma.",
+   "origen": "tatoeba:1042499",
+   "explicacion_breve": "Se quita el pronombre sujeto: Suivez !",
+   "traduccion": "¡Siga usted mi consejo! (¡Seguid mi consejo!)",
+   "errores_previstos": [
+    {
+     "respuesta": "Suivre mon conseil !",
+     "explicacion": "Es el infinitivo; para la orden con vous se usa la forma del presente sin sujeto: Suivez."
+    },
+    {
+     "respuesta": "Vous suivez mon conseil !",
+     "explicacion": "Se ha mantenido el pronombre sujeto; el imperativo no lo lleva."
+    }
+   ]
+  },
+  {
+   "id": "e05",
+   "tipo": "corregir",
+   "enunciado": "Corrige el error.",
+   "frase": "Vas à la boulangerie !",
+   "respuestas": [
+    "Va à la boulangerie !"
+   ],
+   "explicacion": "El error está en vas: aller se comporta como los verbos en -er y en la forma tu del imperativo pierde la -s, así que es Va ! La ficha precisa que la -s solo reaparece ante y o en para enlazar (Vas-y !), y aquí sigue la preposición à, no y. Por eso la forma correcta es Va à la boulangerie !",
+   "explicacion_breve": "El imperativo de aller (tu) es va; solo recupera la -s ante y o en.",
+   "traduccion": "¡Ve a la panadería!",
+   "errores_previstos": [
+    {
+     "respuesta": "Vas à la boulangerie !",
+     "explicacion": "Es dejar la frase sin corregir: la -s de vas solo vuelve ante y o en; delante de à es va."
+    },
+    {
+     "respuesta": "Allez à la boulangerie !",
+     "explicacion": "Es una forma correcta en sí, pero cambia de tu a vous; la corrección consiste en quitar la -s: Va."
+    }
+   ]
+  },
+  {
+   "id": "e06",
+   "tipo": "corregir",
+   "enunciado": "Corrige el error.",
+   "frase": "Me donnez le vôtre !",
+   "respuestas": [
+    "Donnez-moi le vôtre !"
+   ],
+   "explicacion": "El error es la posición y la forma del pronombre. La ficha indica que en el imperativo afirmativo los pronombres van detrás del verbo, unidos con guion, y que me pasa a moi. Por eso Me donnez se convierte en Donnez-moi, como en español «deme», donde el pronombre también va detrás. Le vôtre, «el suyo» de usted, no cambia.",
+   "origen": "tatoeba:9472592",
+   "explicacion_breve": "En afirmativo el pronombre va detrás con guion y me pasa a moi.",
+   "traduccion": "¡Deme el suyo!",
+   "errores_previstos": [
+    {
+     "respuesta": "Me donnez le vôtre !",
+     "explicacion": "Es dejar la frase sin corregir: en el imperativo afirmativo el pronombre va detrás."
+    },
+    {
+     "respuesta": "Donnez-me le vôtre !",
+     "explicacion": "Se ha movido el pronombre, pero en posición final me pasa a moi: Donnez-moi."
+    },
+    {
+     "respuesta": "Donnez moi le vôtre !",
+     "explicacion": "Falta el guion obligatorio entre el verbo y el pronombre pospuesto: Donnez-moi."
+    }
+   ]
+  },
+  {
+   "id": "e07",
+   "tipo": "eleccion",
+   "enunciado": "Elige la forma correcta.",
+   "frase": "___ sage, mon fils !",
+   "opciones": [
+    "Sois",
+    "Es",
+    "Soit"
+   ],
+   "respuestas": [
+    "Sois"
+   ],
+   "explicacion": "Se aplica la tabla de imperativos irregulares: être tiene las formas sois, soyons, soyez, que no salen del presente sino del subjuntivo. La pista es el vocativo mon fils, que indica tuteo, así que se usa sois. La expresión être sage es la manera habitual de decir a un niño que se porte bien.",
+   "explicacion_breve": "Imperativo irregular de être en la forma tu: sois.",
+   "traduccion": "¡Sé bueno, hijo mío! (¡Pórtate bien!)",
+   "por_opcion": {
+    "Sois": "Correcta: imperativo de être en la forma tu.",
+    "Es": "Incorrecta: es el presente (tu es); el imperativo de être es irregular. Es el error típico de la ficha.",
+    "Soit": "Incorrecta: suena igual, pero es el subjuntivo de tercera persona (qu'il soit); el imperativo de tu se escribe con -s: sois."
+   },
+   "glosario": [
+    {
+     "palabra": "être sage",
+     "significado": "portarse bien (dicho de un niño)"
+    }
+   ]
+  },
+  {
+   "id": "e08",
+   "tipo": "eleccion",
+   "enunciado": "Elige la forma correcta (dirigiéndote a Marie, de tú).",
+   "frase": "___ pas peur, Marie !",
+   "opciones": [
+    "N'aie",
+    "N'as",
+    "N'ai"
+   ],
+   "respuestas": [
+    "N'aie"
+   ],
+   "explicacion": "Se aplica la tabla de imperativos irregulares: avoir hace aie, ayons, ayez. La pista es el tuteo a Marie que indica el enunciado. En negativo, ne se coloca delante del verbo y se apostrofa ante vocal: N'aie pas peur. La expresión avoir peur equivale a «tener miedo».",
+   "explicacion_breve": "Imperativo irregular de avoir en la forma tu: aie.",
+   "traduccion": "¡No tengas miedo, Marie!",
+   "por_opcion": {
+    "N'aie": "Correcta: imperativo irregular de avoir con tu, aie, precedido de ne apostrofado.",
+    "N'as": "Incorrecta: as es el presente (tu as); el imperativo de avoir es aie.",
+    "N'ai": "Incorrecta: ai es la forma de je en presente (j'ai), no un imperativo."
+   }
+  },
+  {
+   "id": "e09",
+   "tipo": "transformar",
+   "enunciado": "Convierte en una orden.",
+   "frase": "Tu te dépêches.",
+   "respuestas": [
+    "Dépêche-toi !"
+   ],
+   "explicacion": "Se aplica la regla de los verbos pronominales en afirmativo: el pronombre va detrás, con guion, y te pasa a toi. Además se dépêcher es un verbo en -er, así que la forma tu pierde la -s: tu te dépêches pasa a Dépêche-toi ! Es exactamente el ejemplo de la ficha.",
+   "explicacion_breve": "Pronominal en afirmativo: el pronombre va detrás y te pasa a toi.",
+   "traduccion": "¡Date prisa!",
+   "errores_previstos": [
+    {
+     "respuesta": "Te dépêche !",
+     "explicacion": "En afirmativo el pronombre no puede ir delante; va detrás y en la forma toi: Dépêche-toi !"
+    },
+    {
+     "respuesta": "Dépêches-toi !",
+     "explicacion": "Los verbos en -er pierden la -s en la forma tu del imperativo: Dépêche-toi."
+    },
+    {
+     "respuesta": "Dépêche-te !",
+     "explicacion": "Tras el verbo, te pasa a toi."
+    }
+   ]
+  },
+  {
+   "id": "e10",
+   "tipo": "transformar",
+   "enunciado": "Pasa la orden a negativa.",
+   "frase": "Lève-toi !",
+   "respuestas": [
+    "Ne te lève pas !"
+   ],
+   "explicacion": "Se aplica la regla del imperativo negativo: los pronombres vuelven delante del verbo, sin guion, y recuperan su forma normal, de modo que toi pasa a te. La negación ne… pas rodea el bloque pronombre + verbo: Ne te lève pas ! Igual que en español, donde «levántate» pasa a «no te levantes».",
+   "explicacion_breve": "En negativo el pronombre vuelve delante y recupera la forma te.",
+   "traduccion": "¡No te levantes!",
+   "errores_previstos": [
+    {
+     "respuesta": "Ne lève-toi pas !",
+     "explicacion": "Es el error típico de la ficha (Ne fais-le pas): en negativo el pronombre va delante y sin guion."
+    },
+    {
+     "respuesta": "Ne toi lève pas !",
+     "explicacion": "Al pasar delante del verbo, toi recupera la forma te: Ne te lève pas."
+    },
+    {
+     "respuesta": "Ne te lèves pas !",
+     "explicacion": "La forma tu del imperativo de un verbo en -er no lleva -s: lève."
+    }
+   ]
+  },
+  {
+   "id": "e11",
+   "tipo": "ordenar",
+   "enunciado": "Ordena las palabras (Démonos la mano).",
+   "palabras": [
+    "main",
+    "Serrons-nous",
+    "la"
+   ],
+   "respuestas": [
+    "Serrons-nous la main"
+   ],
+   "explicacion": "Se aplica la regla de los verbos pronominales en el imperativo afirmativo con nous: el pronombre nous va detrás del verbo, unido con guion (Serrons-nous). Después va el complemento la main. La expresión se serrer la main significa «darse la mano», con el valor recíproco que da el pronombre.",
+   "origen": "tatoeba:1192905",
+   "explicacion_breve": "Imperativo de nous de un verbo pronominal: Serrons-nous.",
+   "traduccion": "¡Démonos la mano!",
+   "errores_previstos": [
+    {
+     "respuesta": "La main serrons-nous",
+     "explicacion": "El imperativo va al principio de la frase y el complemento la main detrás: Serrons-nous la main."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "se serrer la main",
+     "significado": "darse la mano (estrecharse la mano)"
+    }
+   ]
+  },
+  {
+   "id": "e12",
+   "tipo": "ordenar",
+   "enunciado": "Ordena las palabras (Deje de seguirme).",
+   "palabras": [
+    "suivre",
+    "me",
+    "Arrêtez",
+    "de"
+   ],
+   "respuestas": [
+    "Arrêtez de me suivre"
+   ],
+   "explicacion": "La orden se construye con el imperativo de vous, Arrêtez, seguido de de + infinitivo, que es la construcción de arrêter de faire quelque chose (dejar de hacer algo). El pronombre me no depende del imperativo sino del infinitivo, así que va delante de suivre, como en todas las construcciones con infinitivo: de me suivre. Por eso no hace falta la forma moi ni el guion.",
+   "origen": "tatoeba:1798936",
+   "explicacion_breve": "Imperativo + de + infinitivo con su pronombre delante.",
+   "traduccion": "¡Deje de seguirme!",
+   "errores_previstos": [
+    {
+     "respuesta": "Arrêtez de suivre me",
+     "explicacion": "Ante un infinitivo el pronombre va delante: de me suivre."
+    },
+    {
+     "respuesta": "Arrêtez me de suivre",
+     "explicacion": "Me es complemento de suivre, no de arrêtez; va justo delante del infinitivo."
+    }
+   ]
+  },
+  {
+   "id": "e13",
+   "tipo": "hueco",
+   "enunciado": "Completa con el imperativo (laisser, vous).",
+   "frase": "___ la valise là !",
+   "respuestas": [
+    "Laissez"
+   ],
+   "explicacion": "Se aplica la regla general: vous laissez pasa a Laissez !, sin pronombre sujeto y sin cambio de terminación. La persona la fija el enunciado (vous). Laisser significa aquí «dejar» en el sentido de poner algo en un sitio y no llevárselo.",
+   "origen": "tatoeba:7553015",
+   "explicacion_breve": "Vous laissez → Laissez !",
+   "traduccion": "¡Deje (dejad) la maleta ahí!",
+   "errores_previstos": [
+    {
+     "respuesta": "Laisse",
+     "explicacion": "Es la forma de tu; el enunciado pide vous: Laissez."
+    },
+    {
+     "respuesta": "Vous laissez",
+     "explicacion": "El imperativo no lleva pronombre sujeto."
+    },
+    {
+     "respuesta": "Laisser",
+     "explicacion": "El infinitivo no es la orden que se pide con vous; la forma correcta es Laissez."
+    }
+   ]
+  },
+  {
+   "id": "e14",
+   "tipo": "hueco",
+   "enunciado": "Completa con el imperativo de aller (tu).",
+   "frase": "___-y tout de suite !",
+   "respuestas": [
+    "Vas"
+   ],
+   "explicacion": "Se aplica la excepción que explica la ficha: la forma tu de aller es va, pero delante de y o en recupera la -s para poder enlazar el sonido, y se pronuncia «va-zi». Por eso se escribe Vas-y !, con guion entre el verbo y el pronombre y, que sustituye al lugar adonde se va. Tout de suite significa «enseguida, ahora mismo».",
+   "explicacion_breve": "Ante y, la forma va recupera la -s: Vas-y !",
+   "traduccion": "¡Ve inmediatamente!",
+   "errores_previstos": [
+    {
+     "respuesta": "Va",
+     "explicacion": "Ante y la forma va recupera la -s para el enlace: Vas-y."
+    },
+    {
+     "respuesta": "Allez",
+     "explicacion": "Es la forma de vous; el enunciado pide tu: Vas."
+    }
+   ]
+  },
+  {
+   "id": "e15",
+   "tipo": "eleccion",
+   "enunciado": "Elige la forma que significa «abramos».",
+   "frase": "___ la fenêtre !",
+   "opciones": [
+    "Ouvrons",
+    "Ouvrez",
+    "Ouvre"
+   ],
+   "respuestas": [
+    "Ouvrons"
+   ],
+   "explicacion": "Se aplica la regla de la forma nous, que expresa una propuesta en la que participa el hablante y equivale a la terminación española «-emos». El enunciado pide «abramos», así que de nous ouvrons sale Ouvrons ! Las otras dos formas son imperativos correctos, pero de otras personas.",
+   "origen": "tatoeba:129044",
+   "explicacion_breve": "La forma nous expresa una propuesta: ¡abramos!",
+   "traduccion": "¡Abramos la ventana!",
+   "por_opcion": {
+    "Ouvrons": "Correcta: forma nous del imperativo, «abramos».",
+    "Ouvrez": "Incorrecta: es la forma vous, «abrid» o «abra usted»; no incluye al hablante.",
+    "Ouvre": "Incorrecta: es la forma tu, «abre»."
+   }
+  },
+  {
+   "id": "e16",
+   "tipo": "transformar",
+   "enunciado": "Convierte en una orden.",
+   "frase": "Tu me téléphones ce soir.",
+   "respuestas": [
+    "Téléphone-moi ce soir !"
+   ],
+   "explicacion": "Se combinan dos reglas de la ficha. Téléphoner es un verbo en -er, así que la forma tu pierde la -s: tu téléphones pasa a Téléphone. Y como la orden es afirmativa, el pronombre va detrás con guion y me pasa a moi: Téléphone-moi. El complemento de tiempo ce soir se queda al final.",
+   "explicacion_breve": "Verbo en -er sin -s y pronombre detrás: me pasa a moi.",
+   "traduccion": "¡Llámame esta noche!",
+   "errores_previstos": [
+    {
+     "respuesta": "Me téléphone ce soir !",
+     "explicacion": "Es el calco del orden del presente; en el imperativo afirmativo el pronombre va detrás: Téléphone-moi."
+    },
+    {
+     "respuesta": "Téléphones-moi ce soir !",
+     "explicacion": "En la forma tu de los verbos en -er se pierde la -s: Téléphone-moi."
+    },
+    {
+     "respuesta": "Téléphone-me ce soir !",
+     "explicacion": "Detrás del verbo, me pasa a moi."
+    }
+   ]
+  }
  ],
- "fuente": {"nombre": "Tex's French Grammar", "autores": "COERLL, Universidad de Texas en Austin", "licencia": "CC BY 3.0", "url": "https://laits.utexas.edu/tex/gr/tai1.html", "otras": ["Frases de Tatoeba (CC BY 2.0 FR)"]}
+ "fuente": {
+  "nombre": "Tex's French Grammar",
+  "autores": "COERLL, Universidad de Texas en Austin",
+  "licencia": "CC BY 3.0",
+  "url": "https://laits.utexas.edu/tex/gr/tai1.html",
+  "otras": [
+   "Frases de Tatoeba (CC BY 2.0 FR)"
+  ]
+ },
+ "descripcion_larga_es": "El imperativo sirve para dar órdenes, instrucciones y consejos, y también para proponer algo a un grupo («vamos a…»). Tiene solo tres formas (tu, nous, vous), que se toman del presente quitando el pronombre sujeto. Cuesta al hispanohablante por la -s que pierden los verbos en -er, por la posición de los pronombres (Donnez-moi, pero Ne le fais pas) y por los irregulares sois, aie, sache.",
+ "contexto": {
+  "que_es": "Es el modo verbal de las órdenes, los ruegos y las propuestas. Solo tiene tres personas: tu (¡mira!), nous (¡miremos!, ¡vamos a mirar!) y vous (¡mirad!, ¡mire usted!), y se forma con el presente de indicativo sin el pronombre sujeto. Avoir, être, savoir y vouloir tienen formas propias, tomadas del subjuntivo.",
+  "por_que_importa": "Es imprescindible para dar indicaciones, instrucciones de uso, recetas, consejos o avisos, y aparece constantemente en carteles, formularios y correos formales (Veuillez patienter, Veuillez trouver ci-joint…). Los errores de forma (Regardes !, Es sage !) o de posición del pronombre (Me donnez le livre) se notan enseguida y suenan a principiante. Elegir entre tu y vous marca además la relación de confianza o de respeto con el interlocutor.",
+  "cuando_se_usa": "Se usa al ordenar, aconsejar, invitar o proponer: Ouvrez vos livres, Fais attention, Allons-y. La pista es la ausencia de pronombre sujeto y, a menudo, el signo de exclamación. A diferencia del español, que tiene formas propias («haz», «haced»), el francés reutiliza el presente; y donde el español dice «vamos a la playa» para proponer, el francés usa la forma nous: Allons à la plage."
+ }
 }

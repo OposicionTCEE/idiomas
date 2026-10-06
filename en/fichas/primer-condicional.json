@@ -6,47 +6,466 @@
  "nivel": "A2",
  "resumen": "El primer condicional expresa una situación futura posible y su consecuencia: If it rains, we'll stay at home. En la parte con if va el presente, nunca will.",
  "explicacion": [
-  {"tipo": "tabla", "cabecera": ["Condición", "Consecuencia", "Ejemplo"], "filas": [
-   ["If + present simple", "will / won't + infinitivo", "If you study, you'll pass."],
-   ["If + present simple", "imperativo", "If you see Ana, say hello."],
-   ["If + present simple", "can / may / might + infinitivo", "If we hurry, we can catch the bus."]
-  ]},
-  {"tipo": "texto", "texto": "Las dos partes pueden ir en cualquier orden. Si empieza la condición, se separa con coma: If I have time, I'll call you. Si va primero la consecuencia, normalmente sin coma: I'll call you if I have time."},
-  {"tipo": "texto", "texto": "Igual que en español («si llueve, nos quedaremos»), tras if va el presente: If it rains, no If it will rain."},
-  {"tipo": "lista", "items": [
-   "Unless = if not: Unless you hurry, you'll miss the train (= If you don't hurry...).",
-   "When se usa para algo que seguro ocurrirá: When I get home, I'll call you. If, para algo posible: If I get the job, I'll celebrate.",
-   "La misma regla vale tras when, as soon as, before y after con sentido futuro: I'll tell you as soon as I know."
-  ]}
+  {
+   "tipo": "tabla",
+   "cabecera": [
+    "Condición",
+    "Consecuencia",
+    "Ejemplo"
+   ],
+   "filas": [
+    [
+     "If + present simple",
+     "will / won't + infinitivo",
+     "If you study, you'll pass."
+    ],
+    [
+     "If + present simple",
+     "imperativo",
+     "If you see Ana, say hello."
+    ],
+    [
+     "If + present simple",
+     "can / may / might + infinitivo",
+     "If we hurry, we can catch the bus."
+    ]
+   ]
+  },
+  {
+   "tipo": "texto",
+   "texto": "Las dos partes pueden ir en cualquier orden. Si empieza la condición, se separa con coma: If I have time, I'll call you. Si va primero la consecuencia, normalmente sin coma: I'll call you if I have time."
+  },
+  {
+   "tipo": "texto",
+   "texto": "Igual que en español («si llueve, nos quedaremos»), tras if va el presente: If it rains, no If it will rain."
+  },
+  {
+   "tipo": "lista",
+   "items": [
+    "Unless = if not: Unless you hurry, you'll miss the train (= If you don't hurry...).",
+    "When se usa para algo que seguro ocurrirá: When I get home, I'll call you. If, para algo posible: If I get the job, I'll celebrate.",
+    "La misma regla vale tras when, as soon as, before y after con sentido futuro: I'll tell you as soon as I know."
+   ]
+  }
  ],
  "ejemplos": [
-  {"frase": "If you need anything, I'll be in my office.", "traduccion": "Si necesitas algo, estaré en mi despacho."},
-  {"frase": "If we leave now, we'll arrive on time.", "traduccion": "Si salimos ya, llegaremos a tiempo."},
-  {"frase": "She won't come if you don't invite her.", "traduccion": "No vendrá si no la invitas."},
-  {"frase": "What will you do if you lose your job?", "traduccion": "¿Qué harás si pierdes el trabajo?"},
-  {"frase": "If you're cold, close the window.", "traduccion": "Si tienes frío, cierra la ventana."},
-  {"frase": "Unless it stops raining, the match will be cancelled.", "traduccion": "Si no deja de llover, se suspenderá el partido."}
+  {
+   "frase": "If you need anything, I'll be in my office.",
+   "traduccion": "Si necesitas algo, estaré en mi despacho."
+  },
+  {
+   "frase": "If we leave now, we'll arrive on time.",
+   "traduccion": "Si salimos ya, llegaremos a tiempo."
+  },
+  {
+   "frase": "She won't come if you don't invite her.",
+   "traduccion": "No vendrá si no la invitas."
+  },
+  {
+   "frase": "What will you do if you lose your job?",
+   "traduccion": "¿Qué harás si pierdes el trabajo?"
+  },
+  {
+   "frase": "If you're cold, close the window.",
+   "traduccion": "Si tienes frío, cierra la ventana."
+  },
+  {
+   "frase": "Unless it stops raining, the match will be cancelled.",
+   "traduccion": "Si no deja de llover, se suspenderá el partido."
+  }
  ],
  "errores_hispanohablantes": [
-  {"mal": "If it will rain, we'll stay at home.", "bien": "If it rains, we'll stay at home.", "nota": "Tras if va el presente, no will."},
-  {"mal": "If you will help me, I finish early.", "bien": "If you help me, I'll finish early.", "nota": "Will va en la consecuencia, no en la condición."},
-  {"mal": "I'll text you when I will arrive.", "bien": "I'll text you when I arrive.", "nota": "Tras when con sentido futuro también va el presente."}
+  {
+   "mal": "If it will rain, we'll stay at home.",
+   "bien": "If it rains, we'll stay at home.",
+   "nota": "Tras if va el presente, no will."
+  },
+  {
+   "mal": "If you will help me, I finish early.",
+   "bien": "If you help me, I'll finish early.",
+   "nota": "Will va en la consecuencia, no en la condición."
+  },
+  {
+   "mal": "I'll text you when I will arrive.",
+   "bien": "I'll text you when I arrive.",
+   "nota": "Tras when con sentido futuro también va el presente."
+  }
  ],
  "ejercicios": [
-  {"id": "e01", "tipo": "hueco", "enunciado": "Completa con el verbo en la forma correcta.", "frase": "If you ___ (eat) all that cake, you'll feel sick.", "respuestas": ["eat"], "explicacion": "Tras if, present simple."},
-  {"id": "e02", "tipo": "hueco", "enunciado": "Completa con el verbo en la forma correcta.", "frase": "If she misses the bus, she ___ (be) late.", "respuestas": ["will be", "'ll be"], "explicacion": "Consecuencia: will + infinitivo."},
-  {"id": "e03", "tipo": "hueco", "enunciado": "Completa con el verbo en la forma correcta.", "frase": "We ___ (not / go) to the beach if the weather is bad.", "respuestas": ["won't go", "will not go"], "explicacion": "Consecuencia negativa: won't + infinitivo."},
-  {"id": "e04", "tipo": "hueco", "enunciado": "Completa con el verbo en la forma correcta.", "frase": "If my brother ___ (get) the job, he'll move to Barcelona.", "respuestas": ["gets"], "explicacion": "Tras if, present simple; tercera persona con -s."},
-  {"id": "e05", "tipo": "hueco", "enunciado": "Completa con el verbo en la forma correcta.", "frase": "I'll phone you as soon as I ___ (land).", "respuestas": ["land"], "explicacion": "Tras as soon as con sentido futuro, presente."},
-  {"id": "e06", "tipo": "eleccion", "enunciado": "Elige la opción correcta.", "frase": "If you ___ me, I'll help you.", "opciones": ["ask", "will ask", "asked"], "respuestas": ["ask"], "explicacion": "La condición va en presente."},
-  {"id": "e07", "tipo": "eleccion", "enunciado": "Elige la opción correcta.", "frase": "You'll fail the exam ___ you study.", "opciones": ["if", "unless", "when"], "respuestas": ["unless"], "explicacion": "Unless = if not: suspenderás si no estudias."},
-  {"id": "e08", "tipo": "eleccion", "enunciado": "Elige la opción correcta.", "frase": "If they don't hurry, they ___ the train.", "opciones": ["miss", "will miss", "missed"], "respuestas": ["will miss"], "explicacion": "Consecuencia futura: will + infinitivo."},
-  {"id": "e09", "tipo": "eleccion", "enunciado": "Elige la opción correcta.", "frase": "What will you do if it ___ tomorrow?", "opciones": ["snows", "will snow", "snow"], "respuestas": ["snows"], "explicacion": "Tras if, present simple (tercera persona: snows)."},
-  {"id": "e10", "tipo": "transformar", "enunciado": "Une las dos frases con if, empezando por If.", "frase": "You water the plants. They will grow.", "respuestas": ["If you water the plants, they will grow.", "If you water the plants, they'll grow."], "explicacion": "If + presente, will + infinitivo; coma tras la condición."},
-  {"id": "e11", "tipo": "transformar", "enunciado": "Reescribe la frase con unless.", "frase": "If you don't leave now, you'll be late.", "respuestas": ["Unless you leave now, you'll be late.", "Unless you leave now, you will be late.", "You'll be late unless you leave now.", "You will be late unless you leave now."], "explicacion": "Unless = if not; el verbo va en afirmativa."},
-  {"id": "e12", "tipo": "corregir", "enunciado": "Corrige el error.", "frase": "If I will see Tom, I'll give him the message.", "respuestas": ["If I see Tom, I'll give him the message.", "If I see Tom, I will give him the message."], "explicacion": "Tras if, presente."},
-  {"id": "e13", "tipo": "corregir", "enunciado": "Corrige el error.", "frase": "If you don't hurry, you miss the flight.", "respuestas": ["If you don't hurry, you'll miss the flight.", "If you don't hurry, you will miss the flight."], "explicacion": "La consecuencia futura lleva will."},
-  {"id": "e14", "tipo": "ordenar", "enunciado": "Ordena las palabras.", "palabras": ["I'll", "if", "buy", "it's", "cheap", "it"], "respuestas": ["I'll buy it if it's cheap", "If it's cheap I'll buy it"], "explicacion": "Consecuencia con will + if + presente, o al revés."}
+  {
+   "id": "e01",
+   "tipo": "hueco",
+   "enunciado": "Completa con el verbo en la forma correcta.",
+   "frase": "If you ___ (eat) all that cake, you'll feel sick.",
+   "respuestas": [
+    "eat"
+   ],
+   "explicacion": "Se aplica la regla principal de la ficha: en la parte con if va el present simple, nunca will. La pista es if, que introduce la condición, mientras la consecuencia ya lleva will (you'll feel sick). Con you el present simple es la forma base: eat. Es igual que en español, donde decimos «si te comes», no «si te comerás».",
+   "explicacion_breve": "Tras if, present simple.",
+   "traduccion": "Si te comes toda esa tarta, te sentirás mal.",
+   "errores_previstos": [
+    {
+     "respuesta": "will eat",
+     "explicacion": "Tras if no se usa will: la condición va en presente, eat."
+    },
+    {
+     "respuesta": "eats",
+     "explicacion": "Con you el verbo no lleva -s: eat."
+    },
+    {
+     "respuesta": "ate",
+     "explicacion": "El pasado convertiría la frase en un segundo condicional (If you ate…, you would…); con you'll la condición va en presente."
+    }
+   ]
+  },
+  {
+   "id": "e02",
+   "tipo": "hueco",
+   "enunciado": "Completa con el verbo en la forma correcta.",
+   "frase": "If she misses the bus, she ___ (be) late.",
+   "respuestas": [
+    "will be",
+    "'ll be"
+   ],
+   "explicacion": "La tabla de la ficha indica que la consecuencia se forma con will + infinitivo sin to. La condición (If she misses the bus) ya está en presente, así que el hueco es la consecuencia futura: will be o la contracción 'll be. Will es igual para todas las personas, sin -s.",
+   "explicacion_breve": "Consecuencia: will + infinitivo.",
+   "traduccion": "Si pierde el autobús, llegará tarde.",
+   "errores_previstos": [
+    {
+     "respuesta": "is",
+     "explicacion": "La consecuencia futura necesita will: she will be late."
+    },
+    {
+     "respuesta": "will is",
+     "explicacion": "Tras will va el infinitivo sin to: will be."
+    },
+    {
+     "respuesta": "will to be",
+     "explicacion": "Will no va seguido de to: will be."
+    }
+   ]
+  },
+  {
+   "id": "e03",
+   "tipo": "hueco",
+   "enunciado": "Completa con el verbo en la forma correcta.",
+   "frase": "We ___ (not / go) to the beach if the weather is bad.",
+   "respuestas": [
+    "won't go",
+    "will not go"
+   ],
+   "explicacion": "Según la ficha, una consecuencia negativa se forma con won't (will not) + infinitivo. La condición if the weather is bad va al final y en presente, lo cual es correcto: la ficha recuerda que el orden puede invertirse y que entonces no suele llevar coma. Por eso el hueco es won't go o will not go.",
+   "explicacion_breve": "Consecuencia negativa: won't + infinitivo.",
+   "traduccion": "No iremos a la playa si hace mal tiempo.",
+   "errores_previstos": [
+    {
+     "respuesta": "don't go",
+     "explicacion": "Expresa un hábito; para la consecuencia futura hace falta won't go."
+    },
+    {
+     "respuesta": "won't to go",
+     "explicacion": "Tras won't va el infinitivo sin to: won't go."
+    },
+    {
+     "respuesta": "will not going",
+     "explicacion": "Tras will not va la forma base, no -ing: will not go."
+    }
+   ]
+  },
+  {
+   "id": "e04",
+   "tipo": "hueco",
+   "enunciado": "Completa con el verbo en la forma correcta.",
+   "frase": "If my brother ___ (get) the job, he'll move to Barcelona.",
+   "respuestas": [
+    "gets"
+   ],
+   "explicacion": "La ficha dice que tras if va el present simple. My brother es tercera persona del singular, por lo que el verbo lleva -s: gets. La consecuencia ya está en futuro (he'll move). Get the job significa «conseguir el puesto». El hispanohablante a veces olvida la -s porque piensa en la condición como algo hipotético.",
+   "explicacion_breve": "Tras if, present simple; tercera persona con -s.",
+   "traduccion": "Si mi hermano consigue el trabajo, se mudará a Barcelona.",
+   "errores_previstos": [
+    {
+     "respuesta": "get",
+     "explicacion": "Falta la -s de tercera persona: my brother gets."
+    },
+    {
+     "respuesta": "will get",
+     "explicacion": "Tras if no se usa will: gets."
+    },
+    {
+     "respuesta": "got",
+     "explicacion": "El pasado corresponde al segundo condicional; con he'll en la consecuencia va el presente gets."
+    }
+   ]
+  },
+  {
+   "id": "e05",
+   "tipo": "hueco",
+   "enunciado": "Completa con el verbo en la forma correcta.",
+   "frase": "I'll phone you as soon as I ___ (land).",
+   "respuestas": [
+    "land"
+   ],
+   "explicacion": "La ficha amplía la regla del if: tras when, as soon as, before y after con sentido futuro también va el presente. As soon as («en cuanto») introduce un momento futuro, pero el verbo va en present simple: land. Con I no lleva -s. En español aquí usamos subjuntivo («aterrice») y eso empuja a poner will, que es incorrecto.",
+   "explicacion_breve": "Tras as soon as con sentido futuro, presente.",
+   "traduccion": "Te llamaré en cuanto aterrice.",
+   "errores_previstos": [
+    {
+     "respuesta": "will land",
+     "explicacion": "Tras as soon as con sentido futuro va el presente, no will."
+    },
+    {
+     "respuesta": "landed",
+     "explicacion": "El aterrizaje es futuro: el presente land es lo correcto tras as soon as."
+    },
+    {
+     "respuesta": "am landing",
+     "explicacion": "Para una acción puntual tras as soon as se usa el present simple: land."
+    }
+   ]
+  },
+  {
+   "id": "e06",
+   "tipo": "eleccion",
+   "enunciado": "Elige la opción correcta.",
+   "frase": "If you ___ me, I'll help you.",
+   "opciones": [
+    "ask",
+    "will ask",
+    "asked"
+   ],
+   "respuestas": [
+    "ask"
+   ],
+   "explicacion": "Se aplica la regla central: la condición va en present simple y la consecuencia con will. La pista es if, que introduce la condición, y I'll help, que marca un primer condicional. Con you la forma es ask, sin -s. Es la estructura típica de una oferta o promesa.",
+   "explicacion_breve": "La condición va en presente.",
+   "traduccion": "Si me lo pides, te ayudaré.",
+   "por_opcion": {
+    "ask": "Correcta: present simple en la condición del primer condicional.",
+    "will ask": "Incorrecta: tras if no se usa will en un condicional normal.",
+    "asked": "Es pasado y correspondería al segundo condicional (If you asked me, I'd help you), que no encaja con I'll."
+   }
+  },
+  {
+   "id": "e07",
+   "tipo": "eleccion",
+   "enunciado": "Elige la opción correcta.",
+   "frase": "You'll fail the exam ___ you study.",
+   "opciones": [
+    "if",
+    "unless",
+    "when"
+   ],
+   "respuestas": [
+    "unless"
+   ],
+   "explicacion": "La ficha explica que unless equivale a if not. La frase quiere decir «suspenderás si no estudias», pero el verbo study va en afirmativa, así que el «no» tiene que estar en la conjunción: unless. Con if diría lo contrario de lo lógico, «suspenderás si estudias».",
+   "explicacion_breve": "Unless = if not: suspenderás si no estudias.",
+   "traduccion": "Suspenderás el examen a menos que estudies.",
+   "por_opcion": {
+    "if": "Daría un sentido absurdo: «suspenderás si estudias». Para mantenerla con if habría que decir if you don't study.",
+    "unless": "Correcta: unless = if not, «a menos que estudies».",
+    "when": "When presenta el estudio como algo seguro y el resultado sería absurdo: «suspenderás cuando estudies»."
+   }
+  },
+  {
+   "id": "e08",
+   "tipo": "eleccion",
+   "enunciado": "Elige la opción correcta.",
+   "frase": "If they don't hurry, they ___ the train.",
+   "opciones": [
+    "miss",
+    "will miss",
+    "missed"
+   ],
+   "respuestas": [
+    "will miss"
+   ],
+   "explicacion": "La condición ya está en presente (If they don't hurry), así que la consecuencia futura debe llevar will + infinitivo: will miss. La pista es que miss the train es un resultado que todavía no ha ocurrido. Miss significa aquí «perder» un medio de transporte.",
+   "explicacion_breve": "Consecuencia futura: will + infinitivo.",
+   "traduccion": "Si no se dan prisa, perderán el tren.",
+   "por_opcion": {
+    "miss": "El presente expresaría una verdad general (condicional cero); para una consecuencia futura concreta hace falta will.",
+    "will miss": "Correcta: will + infinitivo para la consecuencia futura.",
+    "missed": "El pasado no expresa una consecuencia futura y no combina con don't hurry."
+   }
+  },
+  {
+   "id": "e09",
+   "tipo": "eleccion",
+   "enunciado": "Elige la opción correcta.",
+   "frase": "What will you do if it ___ tomorrow?",
+   "opciones": [
+    "snows",
+    "will snow",
+    "snow"
+   ],
+   "respuestas": [
+    "snows"
+   ],
+   "explicacion": "La regla de la ficha se mantiene aunque la frase empiece por la consecuencia: tras if, present simple. Tomorrow indica futuro, pero eso no cambia el verbo de la condición. El sujeto it es tercera persona, por lo que snow añade -s: snows. Will ya está en la otra parte (What will you do).",
+   "explicacion_breve": "Tras if, present simple (tercera persona: snows).",
+   "traduccion": "¿Qué harás si nieva mañana?",
+   "por_opcion": {
+    "snows": "Correcta: present simple con -s de tercera persona tras if.",
+    "will snow": "Incorrecta: aunque se hable de mañana, tras if va el presente.",
+    "snow": "Le falta la -s de tercera persona que exige it."
+   }
+  },
+  {
+   "id": "e10",
+   "tipo": "transformar",
+   "enunciado": "Une las dos frases con if, empezando por If.",
+   "frase": "You water the plants. They will grow.",
+   "respuestas": [
+    "If you water the plants, they will grow.",
+    "If you water the plants, they'll grow."
+   ],
+   "explicacion": "La ficha recoge el patrón If + presente, will + infinitivo, y añade que cuando la condición va primero se separa con coma. La primera frase (You water the plants) pasa a ser la condición, en presente, y la segunda la consecuencia con will. Se admite la contracción they'll. Water como verbo significa «regar».",
+   "explicacion_breve": "If + presente, will + infinitivo; coma tras la condición.",
+   "traduccion": "Si riegas las plantas, crecerán.",
+   "errores_previstos": [
+    {
+     "respuesta": "If you will water the plants, they will grow.",
+     "explicacion": "Tras if no se usa will: If you water…"
+    },
+    {
+     "respuesta": "If you water the plants, they grow.",
+     "explicacion": "Se ha perdido el will de la consecuencia, que la frase de partida sí tenía."
+    },
+    {
+     "respuesta": "If you water the plants, they will to grow.",
+     "explicacion": "Tras will va el infinitivo sin to."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "water (verbo)",
+     "significado": "regar"
+    }
+   ]
+  },
+  {
+   "id": "e11",
+   "tipo": "transformar",
+   "enunciado": "Reescribe la frase con unless.",
+   "frase": "If you don't leave now, you'll be late.",
+   "respuestas": [
+    "Unless you leave now, you'll be late.",
+    "Unless you leave now, you will be late.",
+    "You'll be late unless you leave now.",
+    "You will be late unless you leave now."
+   ],
+   "explicacion": "Según la ficha, unless significa if not, así que sustituye a if… don't. Al cambiar, el verbo pasa a afirmativa: if you don't leave → unless you leave. La consecuencia no cambia. También valen las versiones con la consecuencia delante, que normalmente van sin coma.",
+   "explicacion_breve": "Unless = if not; el verbo va en afirmativa.",
+   "traduccion": "A menos que te vayas ya, llegarás tarde.",
+   "errores_previstos": [
+    {
+     "respuesta": "Unless you don't leave now, you'll be late.",
+     "explicacion": "Doble negación: unless ya incluye el not, así que el verbo va en afirmativa."
+    },
+    {
+     "respuesta": "Unless you will leave now, you'll be late.",
+     "explicacion": "Tras unless, igual que tras if, va el presente."
+    },
+    {
+     "respuesta": "Unless you leave now, you are late.",
+     "explicacion": "La consecuencia futura necesita will: you'll be late."
+    }
+   ]
+  },
+  {
+   "id": "e12",
+   "tipo": "corregir",
+   "enunciado": "Corrige el error.",
+   "frase": "If I will see Tom, I'll give him the message.",
+   "respuestas": [
+    "If I see Tom, I'll give him the message.",
+    "If I see Tom, I will give him the message."
+   ],
+   "explicacion": "Es el error que más destaca la ficha: tras if va el present simple, nunca will. Hay que quitar will de la condición: If I see Tom. La consecuencia, I'll give him the message, es correcta. En español tampoco diríamos «si veré a Tom».",
+   "explicacion_breve": "Tras if, presente.",
+   "traduccion": "Si veo a Tom, le daré el mensaje.",
+   "errores_previstos": [
+    {
+     "respuesta": "If I will see Tom, I'll give him the message.",
+     "explicacion": "Es la frase sin corregir: tras if no se usa will."
+    },
+    {
+     "respuesta": "If I see Tom, I give him the message.",
+     "explicacion": "Se ha quitado el will equivocado: la consecuencia futura sí lo necesita."
+    },
+    {
+     "respuesta": "If I will see Tom, I give him the message.",
+     "explicacion": "Se ha movido el error: will debe estar en la consecuencia, no tras if."
+    }
+   ]
+  },
+  {
+   "id": "e13",
+   "tipo": "corregir",
+   "enunciado": "Corrige el error.",
+   "frase": "If you don't hurry, you miss the flight.",
+   "respuestas": [
+    "If you don't hurry, you'll miss the flight.",
+    "If you don't hurry, you will miss the flight."
+   ],
+   "explicacion": "La tabla de la ficha muestra que la consecuencia futura se expresa con will + infinitivo. En la frase original falta will: you miss suena a una verdad general, no a una consecuencia concreta de esta situación. Hay que decir you'll miss o you will miss. La condición ya es correcta.",
+   "explicacion_breve": "La consecuencia futura lleva will.",
+   "traduccion": "Si no te das prisa, perderás el vuelo.",
+   "errores_previstos": [
+    {
+     "respuesta": "If you don't hurry, you miss the flight.",
+     "explicacion": "Es la frase sin corregir: la consecuencia futura necesita will."
+    },
+    {
+     "respuesta": "If you won't hurry, you'll miss the flight.",
+     "explicacion": "Se ha puesto will en la condición: tras if va el presente, don't hurry."
+    },
+    {
+     "respuesta": "If you don't hurry, you'll missing the flight.",
+     "explicacion": "Tras will va el infinitivo sin -ing: miss."
+    }
+   ]
+  },
+  {
+   "id": "e14",
+   "tipo": "ordenar",
+   "enunciado": "Ordena las palabras.",
+   "palabras": [
+    "I'll",
+    "if",
+    "buy",
+    "it's",
+    "cheap",
+    "it"
+   ],
+   "respuestas": [
+    "I'll buy it if it's cheap",
+    "If it's cheap I'll buy it"
+   ],
+   "explicacion": "La ficha explica que las dos partes pueden ir en cualquier orden: consecuencia + if + condición, o if + condición + consecuencia. I'll buy it lleva will y it's cheap va en presente tras if. Ambas ordenaciones se aceptan; en la escrita, con la condición delante, se pondría coma.",
+   "explicacion_breve": "Consecuencia con will + if + presente, o al revés.",
+   "traduccion": "Lo compraré si es barato. (También: Si es barato, lo compraré.)",
+   "errores_previstos": [
+    {
+     "respuesta": "If I'll buy it it's cheap",
+     "explicacion": "If debe introducir la condición (it's cheap), no la consecuencia con will."
+    },
+    {
+     "respuesta": "It's cheap if I'll buy it",
+     "explicacion": "Se ha invertido el sentido: la condición es que sea barato, y tras if no va will."
+    }
+   ]
+  }
  ],
- "fuente": {"nombre": "propia"}
+ "fuente": {
+  "nombre": "propia"
+ },
+ "descripcion_larga_es": "El primer condicional expresa una condición futura posible y su consecuencia: If it rains, we'll stay at home. Funciona casi igual que en español («si llueve, nos quedaremos»): presente tras if y futuro en la consecuencia. Por eso el error típico no es de lógica sino de forma: meter will detrás de if o tras when y as soon as, y confundir unless con «a menos que no».",
+ "contexto": {
+  "que_es": "Es una estructura de dos partes: la condición, introducida por if y con el verbo en present simple, y la consecuencia, normalmente con will + infinitivo, un imperativo o un modal. Describe algo que puede ocurrir de verdad en el futuro.",
+  "por_que_importa": "Sirve para avisar, prometer, negociar, amenazar o planificar, funciones muy frecuentes en una conversación o en una exposición sobre medidas y efectos (If the central bank raises rates, inflation will fall). Poner will tras if es uno de los errores más visibles a nivel intermedio. Confundir if con when o unless cambia el grado de certeza o invierte el sentido.",
+  "cuando_se_usa": "Cuando se habla de un resultado probable de una situación futura real. Las señales son if, unless, when, as soon as, before y after con sentido futuro. El hispanohablante acierta con el presente tras «si», pero con «cuando» usaría subjuntivo y tiende a traducirlo por will (when I will arrive), y a veces omite will en la consecuencia (you miss the flight)."
+ }
 }

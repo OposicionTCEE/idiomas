@@ -126,7 +126,29 @@
    "respuestas": [
     "ait"
    ],
-   "explicacion": "Bien que + subjuntivo."
+   "explicacion": "La primera fila de la tabla indica que bien que y quoique van siempre con subjuntivo, aunque el hecho sea real. La pista es bien que al principio de la frase. El subjuntivo presente de avoir con elle es ait, una forma irregular: qu'elle ait. Es justo el error típico de la ficha: el español «aunque tiene» con indicativo no se traslada al francés.",
+   "explicacion_breve": "Bien que + subjuntivo.",
+   "traduccion": "Aunque tiene poca experiencia, la han contratado.",
+   "errores_previstos": [
+    {
+     "respuesta": "a",
+     "explicacion": "Es el indicativo, calcado del español «aunque tiene». Bien que exige subjuntivo: ait."
+    },
+    {
+     "respuesta": "aie",
+     "explicacion": "Aie es el subjuntivo de primera persona (que j'aie). Con elle es ait."
+    },
+    {
+     "respuesta": "avait",
+     "explicacion": "Es el imperfecto de indicativo; tras bien que se necesita subjuntivo: ait."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "recruter",
+     "significado": "contratar, reclutar"
+    }
+   ]
   },
   {
    "id": "e02",
@@ -136,7 +158,23 @@
    "respuestas": [
     "fasse"
    ],
-   "explicacion": "Quoi que + subjuntivo."
+   "explicacion": "La ficha distingue quoi que, en dos palabras, que significa «sea lo que sea que», de quoique, que equivale a bien que. Ambos piden subjuntivo. Aquí quoi qu'il equivale a «haga lo que haga», y el subjuntivo de faire con il es fasse, irregular.",
+   "explicacion_breve": "Quoi que + subjuntivo.",
+   "traduccion": "Haga lo que haga, nunca llega a la hora.",
+   "errores_previstos": [
+    {
+     "respuesta": "fait",
+     "explicacion": "Es el indicativo. Quoi que exige siempre subjuntivo: fasse."
+    },
+    {
+     "respuesta": "fasses",
+     "explicacion": "Fasses es la segunda persona (que tu fasses). Con il es fasse."
+    },
+    {
+     "respuesta": "fera",
+     "explicacion": "Es el futuro de indicativo; tras quoi que se usa el subjuntivo presente: fasse."
+    }
+   ]
   },
   {
    "id": "e03",
@@ -147,7 +185,23 @@
     "Quelles que",
     "quelles que"
    ],
-   "explicacion": "Quel concuerda con el sujeto de être: les difficultés, femenino plural."
+   "explicacion": "La tabla de la ficha indica que quel que + être lleva subjuntivo y que quel concuerda con el sujeto de être. Aquí ese sujeto es les difficultés, femenino plural, así que quel toma -les: quelles que soient. Se escribe en dos palabras; quelque, junto, es otra cosa, como advierte el texto de la ficha. El corrector acepta la mayúscula y la minúscula.",
+   "explicacion_breve": "Quel concuerda con el sujeto de être: les difficultés, femenino plural.",
+   "traduccion": "Sean cuales sean las dificultades, continuaremos.",
+   "errores_previstos": [
+    {
+     "respuesta": "Quelque",
+     "explicacion": "Es el error clásico. Quelque, en una palabra, es adverbio o determinante; ante être se usa quel que, en dos palabras y concordado."
+    },
+    {
+     "respuesta": "Quels que",
+     "explicacion": "Está en masculino plural; difficultés es femenino: quelles que."
+    },
+    {
+     "respuesta": "Quelle que",
+     "explicacion": "Falta el plural: les difficultés son varias, quelles que."
+    }
+   ]
   },
   {
    "id": "e04",
@@ -157,7 +211,23 @@
    "respuestas": [
     "insisterais"
    ],
-   "explicacion": "Quand bien même + condicional."
+   "explicacion": "La tabla indica que quand bien même va seguido de condicional, a diferencia de même si. Expresa una hipótesis extrema («aun en el caso de que»), y la principal también va en condicional: je ne viendrais pas. El condicional de insister con tu es insisterais, con -s final.",
+   "explicacion_breve": "Quand bien même + condicional.",
+   "traduccion": "Aunque insistieras, no vendría.",
+   "errores_previstos": [
+    {
+     "respuesta": "insistais",
+     "explicacion": "El imperfecto es lo que pediría même si (même si tu insistais). Quand bien même va con condicional: insisterais."
+    },
+    {
+     "respuesta": "insistes",
+     "explicacion": "El presente no encaja con la hipótesis ni con la principal en condicional; tras quand bien même va el condicional."
+    },
+    {
+     "respuesta": "insiste",
+     "explicacion": "Es una forma de subjuntivo o de presente de otra persona; quand bien même pide condicional: insisterais."
+    }
+   ]
   },
   {
    "id": "e05",
@@ -172,7 +242,14 @@
    "respuestas": [
     "avons"
    ],
-   "explicacion": "La locución es avoir beau + infinitivo."
+   "explicacion": "La locución es avoir beau + infinitivo, que significa «por mucho que» o «por más que». Se conjuga avoir con el sujeto (nous avons) y beau queda invariable, seguido del infinitivo expliquer. Según la lista de la ficha, avoir beau va en la primera parte y la segunda presenta lo que no cambia.",
+   "explicacion_breve": "La locución es avoir beau + infinitivo.",
+   "traduccion": "Por mucho que se lo expliquemos, no lo entiende.",
+   "por_opcion": {
+    "avons": "Correcta: la locución se construye con avoir: nous avons beau expliquer.",
+    "sommes": "Incorrecta: être beau existe, pero significa «ser guapo»; no tiene valor concesivo.",
+    "faisons": "Incorrecta: faire beau es impersonal y describe el buen tiempo (il fait beau); no forma la concesión."
+   }
   },
   {
    "id": "e06",
@@ -187,7 +264,14 @@
    "respuestas": [
     "Malgré"
    ],
-   "explicacion": "Ante un nombre se usa malgré; bien que y même si introducen oraciones."
+   "explicacion": "La última fila de la tabla indica que malgré y en dépit de van seguidos de un sustantivo. Aquí detrás del hueco viene la pluie, un sustantivo sin verbo, así que solo encaja malgré. Bien que y même si introducen oraciones completas con verbo conjugado.",
+   "explicacion_breve": "Ante un nombre se usa malgré; bien que y même si introducen oraciones.",
+   "traduccion": "A pesar de la lluvia, el partido se celebró.",
+   "por_opcion": {
+    "Malgré": "Correcta: malgré + sustantivo, «a pesar de la lluvia».",
+    "Bien que": "Incorrecta: bien que necesita una oración con verbo en subjuntivo (bien qu'il pleuve), no un sustantivo solo.",
+    "Même si": "Incorrecta: même si introduce una oración con verbo en indicativo (même s'il pleut), no un sustantivo."
+   }
   },
   {
    "id": "e07",
@@ -202,7 +286,14 @@
    "respuestas": [
     "est"
    ],
-   "explicacion": "Même si va con indicativo."
+   "explicacion": "La tabla y la lista de la ficha son claras: même si va con indicativo y nunca con condicional ni subjuntivo, porque es una forma de si. Aquí el hecho se presenta como real en presente, así que est. Fíjate en que el español puede decir «aunque sea caro» con subjuntivo, pero el francés mantiene el indicativo tras même si.",
+   "explicacion_breve": "Même si va con indicativo.",
+   "traduccion": "Aunque el proyecto sea caro, merece la pena.",
+   "por_opcion": {
+    "est": "Correcta: même si va siempre con indicativo.",
+    "soit": "Incorrecta: el subjuntivo lo piden bien que y quoique, no même si; es un calco del español «aunque sea».",
+    "serait": "Incorrecta: tras si, también en même si, nunca va condicional."
+   }
   },
   {
    "id": "e08",
@@ -217,7 +308,20 @@
    "respuestas": [
     "tandis que"
    ],
-   "explicacion": "Se contrastan dos hechos (oposición): tandis que + indicativo."
+   "explicacion": "La ficha distingue concesión de oposición. Aquí no hay obstáculo: se contrastan dos gustos, uno frente a otro, así que es oposición y corresponde tandis que o alors que, con indicativo. La pista es el verbo est en indicativo, que descarta bien que y quoique, que pedirían soit.",
+   "explicacion_breve": "Se contrastan dos hechos (oposición): tandis que + indicativo.",
+   "traduccion": "Le encanta el mar, mientras que a su mujer le apasiona la montaña.",
+   "por_opcion": {
+    "tandis que": "Correcta: expresa oposición entre dos hechos y va con indicativo, como est.",
+    "bien que": "Incorrecta: es concesivo y exigiría subjuntivo (soit); además no hay idea de obstáculo.",
+    "quoique": "Incorrecta: equivale a bien que, es concesivo y pide subjuntivo."
+   },
+   "glosario": [
+    {
+     "palabra": "un passionné de",
+     "significado": "un apasionado de"
+    }
+   ]
   },
   {
    "id": "e09",
@@ -227,7 +331,29 @@
    "respuestas": [
     "Il a beau travailler beaucoup, il n'obtient pas de promotion."
    ],
-   "explicacion": "Avoir beau + infinitivo sustituye a bien que + subjuntivo."
+   "explicacion": "Avoir beau + infinitivo sustituye a bien que + subjuntivo cuando ambas partes comparten sujeto. Se conjuga avoir en el mismo tiempo que tenía travaille (presente): il a beau, seguido del infinitivo travailler, y beaucoup se mantiene. La segunda parte no cambia.",
+   "explicacion_breve": "Avoir beau + infinitivo sustituye a bien que + subjuntivo.",
+   "traduccion": "Por mucho que trabaje, no consigue un ascenso.",
+   "errores_previstos": [
+    {
+     "respuesta": "Il a beau travaille beaucoup, il n'obtient pas de promotion.",
+     "explicacion": "Tras avoir beau el verbo va en infinitivo: travailler."
+    },
+    {
+     "respuesta": "Il est beau travailler beaucoup, il n'obtient pas de promotion.",
+     "explicacion": "La locución se construye con avoir, no con être: il a beau."
+    },
+    {
+     "respuesta": "Il a beau qu'il travaille beaucoup, il n'obtient pas de promotion.",
+     "explicacion": "Avoir beau no introduce una oración con que; va seguido directamente del infinitivo."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "une promotion",
+     "significado": "un ascenso (también una oferta comercial)"
+    }
+   ]
   },
   {
    "id": "e10",
@@ -239,7 +365,23 @@
     "Bien qu'elle fût fatiguée, elle a fini le marathon.",
     "Bien qu'elle ait été fatiguée, elle a fini le marathon."
    ],
-   "explicacion": "Malgré + nombre → bien que + subjuntivo."
+   "explicacion": "Malgré + sustantivo se convierte en bien que + oración en subjuntivo. Sa fatigue pasa a elle soit fatiguée, con el adjetivo concordando en femenino. Se aceptan tres tiempos: el subjuntivo presente soit, el más habitual en la lengua actual; el imperfecto de subjuntivo fût, propio de un registro literario, y el pasado ait été, que sitúa el cansancio como anterior o simultáneo al hecho ya cumplido.",
+   "explicacion_breve": "Malgré + nombre → bien que + subjuntivo.",
+   "traduccion": "Aunque estaba cansada, terminó el maratón.",
+   "errores_previstos": [
+    {
+     "respuesta": "Bien qu'elle était fatiguée, elle a fini le marathon.",
+     "explicacion": "Calco del español «aunque estaba» con indicativo. Bien que exige subjuntivo: soit."
+    },
+    {
+     "respuesta": "Bien qu'elle soit fatigué, elle a fini le marathon.",
+     "explicacion": "Falta la concordancia: el sujeto es elle, así que fatiguée."
+    },
+    {
+     "respuesta": "Bien que sa fatigue, elle a fini le marathon.",
+     "explicacion": "Bien que no puede ir seguido de un sustantivo; necesita una oración con verbo en subjuntivo."
+    }
+   ]
   },
   {
    "id": "e11",
@@ -249,7 +391,23 @@
    "respuestas": [
     "Quoique la situation soit difficile, nous restons optimistes."
    ],
-   "explicacion": "Quoique exige subjuntivo."
+   "explicacion": "Quoique, en una palabra, equivale a bien que y, como indica la tabla, exige subjuntivo aunque el hecho sea real. Est debe pasar a soit, el subjuntivo de être. Es el mismo error que la ficha recoge con bien qu'il est malade.",
+   "explicacion_breve": "Quoique exige subjuntivo.",
+   "traduccion": "Aunque la situación es difícil, seguimos siendo optimistas.",
+   "errores_previstos": [
+    {
+     "respuesta": "Quoique la situation est difficile, nous restons optimistes.",
+     "explicacion": "Es la frase sin corregir: quoique no admite indicativo."
+    },
+    {
+     "respuesta": "Quoi que la situation soit difficile, nous restons optimistes.",
+     "explicacion": "Se ha puesto el subjuntivo, pero quoi que en dos palabras significa «sea lo que sea que»; aquí el sentido es «aunque»: quoique."
+    },
+    {
+     "respuesta": "Quoique la situation serait difficile, nous restons optimistes.",
+     "explicacion": "El condicional no es posible tras quoique; se usa el subjuntivo soit."
+    }
+   ]
   },
   {
    "id": "e12",
@@ -259,7 +417,23 @@
    "respuestas": [
     "Quels que soient vos arguments, la décision est prise."
    ],
-   "explicacion": "Ante être se usa quel que, concordado con vos arguments (masculino plural)."
+   "explicacion": "Delante de être se usa quel que, en dos palabras, y quel concuerda con el sujeto de être, como explica el texto de la ficha. El sujeto es vos arguments, masculino plural, así que quels que soient. Quelque, en una palabra, solo va delante de un adjetivo o de un sustantivo.",
+   "explicacion_breve": "Ante être se usa quel que, concordado con vos arguments (masculino plural).",
+   "traduccion": "Sean cuales sean sus argumentos, la decisión está tomada.",
+   "errores_previstos": [
+    {
+     "respuesta": "Quelque soient vos arguments, la décision est prise.",
+     "explicacion": "Es la frase sin corregir: delante de être se escribe quel que en dos palabras y concordado."
+    },
+    {
+     "respuesta": "Quelques soient vos arguments, la décision est prise.",
+     "explicacion": "Añadir -s a quelque no lo arregla; la forma es quels que, en dos palabras."
+    },
+    {
+     "respuesta": "Quelles que soient vos arguments, la décision est prise.",
+     "explicacion": "Arguments es masculino: quels que, no quelles que."
+    }
+   ]
   },
   {
    "id": "e13",
@@ -269,7 +443,23 @@
    "respuestas": [
     "Même si j'étais riche, je continuerais à travailler."
    ],
-   "explicacion": "Tras même si no puede ir condicional: imperfecto."
+   "explicacion": "La lista y los errores típicos de la ficha insisten en que tras même si, como tras si, nunca va condicional. Para una hipótesis irreal en el presente se usa el imperfecto de indicativo: même si j'étais riche, y la principal sí va en condicional. Je se apostrofa ante la vocal de étais.",
+   "explicacion_breve": "Tras même si no puede ir condicional: imperfecto.",
+   "traduccion": "Aunque fuera rico, seguiría trabajando.",
+   "errores_previstos": [
+    {
+     "respuesta": "Même si je serais riche, je continuerais à travailler.",
+     "explicacion": "Es la frase sin corregir: el condicional no puede ir tras si."
+    },
+    {
+     "respuesta": "Même si je sois riche, je continuerais à travailler.",
+     "explicacion": "Calco del español «aunque fuera». Même si no admite subjuntivo; se usa el imperfecto de indicativo."
+    },
+    {
+     "respuesta": "Même si je étais riche, je continuerais à travailler.",
+     "explicacion": "El modo es correcto, pero je se apostrofa ante vocal: j'étais."
+    }
+   ]
   },
   {
    "id": "e14",
@@ -289,10 +479,28 @@
     "Si intelligent qu'il soit il se trompe parfois",
     "Il se trompe parfois si intelligent qu'il soit"
    ],
-   "explicacion": "Si + adjetivo + que + subjuntivo."
+   "explicacion": "La tabla da la construcción si + adjetivo + que + subjuntivo, equivalente al español «por… que». Si intelligent qu'il soit forma un bloque que puede ir al principio o al final de la frase, así que ambas ordenaciones son correctas. La principal, il se trompe parfois, va en indicativo.",
+   "explicacion_breve": "Si + adjetivo + que + subjuntivo.",
+   "traduccion": "Por inteligente que sea, a veces se equivoca.",
+   "errores_previstos": [
+    {
+     "respuesta": "Si qu'il soit intelligent il se trompe parfois",
+     "explicacion": "El adjetivo debe ir entre si y que: si intelligent qu'il soit."
+    },
+    {
+     "respuesta": "Si intelligent qu'il soit il trompe se parfois",
+     "explicacion": "El pronombre reflexivo se va delante del verbo: il se trompe."
+    }
+   ]
   }
  ],
  "fuente": {
   "nombre": "propia"
+ },
+ "descripcion_larga_es": "Esta ficha reúne los conectores de concesión (admitir un hecho que no impide otro: aunque llueve, salgo) y de oposición (contrastar dos hechos: él ahorra, mientras que ella gasta). Son clave en la argumentación de nivel C1. La dificultad para el hispanohablante es que cada conector exige un modo distinto: bien que y quoique piden subjuntivo, même si indicativo, quand bien même condicional y avoir beau infinitivo.",
+ "contexto": {
+  "que_es": "La concesión presenta un hecho que podría impedir otro, pero no lo impide (bien qu'il soit tard, le magasin est ouvert). La oposición pone dos hechos en contraste sin relación de obstáculo (il dépense, alors que sa sœur économise). Cada conector tiene una construcción fija: subjuntivo, indicativo, condicional, infinitivo o sustantivo.",
+  "por_que_importa": "En un ensayo, un comentario o una exposición oral de nivel avanzado, matizar con concesiones es lo que da solidez al razonamiento. Los errores de modo tras estos conectores (bien qu'il est, même si j'aurais) son de los más penalizados porque revelan un calco del español. Confundir quoique y quoi que, o quel que y quelque, es además un error ortográfico muy visible.",
+  "cuando_se_usa": "Se usan en textos argumentativos, periodísticos y administrativos, y en la conversación cuidada. La señal en español es «aunque», «por mucho que», «por más… que», «sea cual sea», «a pesar de» o «mientras que». El hispanohablante tiende a usar el modo del español (aunque está, indicativo) y a poner condicional tras si; en francés el modo lo decide el conector."
  }
 }

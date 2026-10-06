@@ -6,50 +6,455 @@
  "nivel": "B1",
  "resumen": "Las question tags son coletillas que equivalen a «¿verdad?» o «¿no?» y se forman con el auxiliar de la frase. Las preguntas indirectas suavizan una pregunta y mantienen el orden de frase afirmativa.",
  "explicacion": [
-  {"tipo": "tabla", "cabecera": ["Frase", "Tag"], "filas": [
-   ["Afirmativa con be: It's cold,", "isn't it?"],
-   ["Negativa con be: You aren't tired,", "are you?"],
-   ["Presente simple: She lives here,", "doesn't she?"],
-   ["Pasado simple: They didn't call,", "did they?"],
-   ["Present perfect: You've seen it,", "haven't you?"],
-   ["Modal: He can swim,", "can't he?"]
-  ]},
-  {"tipo": "lista", "items": [
-   "Frase afirmativa → tag negativo; frase negativa → tag positivo.",
-   "Se repite el auxiliar (o do/does/did si no lo hay) y un pronombre: Your sister works in Lyon, doesn't she?",
-   "Casos especiales: I'm late, aren't I? / Let's go, shall we? / Open the door, will you?",
-   "Palabras negativas como never o nobody llevan tag positivo: She never cooks, does she?"
-  ]},
-  {"tipo": "texto", "texto": "Preguntas indirectas: tras Could you tell me…, Do you know…, I wonder… la pregunta pierde la inversión y el do/does/did. Where is the station? → Could you tell me where the station is? What time does it open? → Do you know what time it opens? Si no hay palabra interrogativa, se usa if o whether: Is he coming? → Do you know if he's coming?"}
+  {
+   "tipo": "tabla",
+   "cabecera": [
+    "Frase",
+    "Tag"
+   ],
+   "filas": [
+    [
+     "Afirmativa con be: It's cold,",
+     "isn't it?"
+    ],
+    [
+     "Negativa con be: You aren't tired,",
+     "are you?"
+    ],
+    [
+     "Presente simple: She lives here,",
+     "doesn't she?"
+    ],
+    [
+     "Pasado simple: They didn't call,",
+     "did they?"
+    ],
+    [
+     "Present perfect: You've seen it,",
+     "haven't you?"
+    ],
+    [
+     "Modal: He can swim,",
+     "can't he?"
+    ]
+   ]
+  },
+  {
+   "tipo": "lista",
+   "items": [
+    "Frase afirmativa → tag negativo; frase negativa → tag positivo.",
+    "Se repite el auxiliar (o do/does/did si no lo hay) y un pronombre: Your sister works in Lyon, doesn't she?",
+    "Casos especiales: I'm late, aren't I? / Let's go, shall we? / Open the door, will you?",
+    "Palabras negativas como never o nobody llevan tag positivo: She never cooks, does she?"
+   ]
+  },
+  {
+   "tipo": "texto",
+   "texto": "Preguntas indirectas: tras Could you tell me…, Do you know…, I wonder… la pregunta pierde la inversión y el do/does/did. Where is the station? → Could you tell me where the station is? What time does it open? → Do you know what time it opens? Si no hay palabra interrogativa, se usa if o whether: Is he coming? → Do you know if he's coming?"
+  }
  ],
  "ejemplos": [
-  {"frase": "It's a lovely day, isn't it?", "traduccion": "Hace un día precioso, ¿verdad?"},
-  {"frase": "You didn't forget the tickets, did you?", "traduccion": "No te habrás olvidado de las entradas, ¿no?"},
-  {"frase": "Let's order a pizza, shall we?", "traduccion": "Pedimos una pizza, ¿vale?"},
-  {"frase": "Could you tell me where the nearest pharmacy is?", "traduccion": "¿Podría decirme dónde está la farmacia más cercana?"},
-  {"frase": "Do you know if the museum is open on Mondays?", "traduccion": "¿Sabes si el museo abre los lunes?"},
-  {"frase": "I wonder what time the train arrives.", "traduccion": "Me pregunto a qué hora llega el tren."}
+  {
+   "frase": "It's a lovely day, isn't it?",
+   "traduccion": "Hace un día precioso, ¿verdad?"
+  },
+  {
+   "frase": "You didn't forget the tickets, did you?",
+   "traduccion": "No te habrás olvidado de las entradas, ¿no?"
+  },
+  {
+   "frase": "Let's order a pizza, shall we?",
+   "traduccion": "Pedimos una pizza, ¿vale?"
+  },
+  {
+   "frase": "Could you tell me where the nearest pharmacy is?",
+   "traduccion": "¿Podría decirme dónde está la farmacia más cercana?"
+  },
+  {
+   "frase": "Do you know if the museum is open on Mondays?",
+   "traduccion": "¿Sabes si el museo abre los lunes?"
+  },
+  {
+   "frase": "I wonder what time the train arrives.",
+   "traduccion": "Me pregunto a qué hora llega el tren."
+  }
  ],
  "errores_hispanohablantes": [
-  {"mal": "You are Spanish, no?", "bien": "You are Spanish, aren't you?", "nota": "En inglés no se usa «no?» como coletilla; se forma un tag con el auxiliar."},
-  {"mal": "Could you tell me where is the bank?", "bien": "Could you tell me where the bank is?", "nota": "En la pregunta indirecta el verbo va después del sujeto."},
-  {"mal": "Do you know what time does the film start?", "bien": "Do you know what time the film starts?", "nota": "La pregunta indirecta no lleva does: el verbo toma la -s."}
+  {
+   "mal": "You are Spanish, no?",
+   "bien": "You are Spanish, aren't you?",
+   "nota": "En inglés no se usa «no?» como coletilla; se forma un tag con el auxiliar."
+  },
+  {
+   "mal": "Could you tell me where is the bank?",
+   "bien": "Could you tell me where the bank is?",
+   "nota": "En la pregunta indirecta el verbo va después del sujeto."
+  },
+  {
+   "mal": "Do you know what time does the film start?",
+   "bien": "Do you know what time the film starts?",
+   "nota": "La pregunta indirecta no lleva does: el verbo toma la -s."
+  }
  ],
  "ejercicios": [
-  {"id": "e01", "tipo": "hueco", "enunciado": "Completa con la question tag.", "frase": "You're coming to the party, ___?", "respuestas": ["aren't you"], "explicacion": "Afirmativa con are → tag negativo aren't you."},
-  {"id": "e02", "tipo": "hueco", "enunciado": "Completa con la question tag.", "frase": "She works in a bank, ___?", "respuestas": ["doesn't she"], "explicacion": "Presente simple sin auxiliar → doesn't."},
-  {"id": "e03", "tipo": "hueco", "enunciado": "Completa con la question tag.", "frase": "They didn't win the match, ___?", "respuestas": ["did they"], "explicacion": "Negativa en pasado → tag positivo did they."},
-  {"id": "e04", "tipo": "hueco", "enunciado": "Completa con la question tag.", "frase": "You've been to Lisbon, ___?", "respuestas": ["haven't you"], "explicacion": "Present perfect: se repite have en negativa."},
-  {"id": "e05", "tipo": "hueco", "enunciado": "Completa con la question tag.", "frase": "Let's take a break, ___?", "respuestas": ["shall we"], "explicacion": "Let's… lleva siempre shall we?"},
-  {"id": "e06", "tipo": "eleccion", "enunciado": "Elige la opción correcta.", "frase": "I'm right about this, ___?", "opciones": ["amn't I", "aren't I", "isn't it"], "respuestas": ["aren't I"], "explicacion": "Caso especial: I'm… → aren't I?"},
-  {"id": "e07", "tipo": "eleccion", "enunciado": "Elige la opción correcta.", "frase": "He can't drive, ___?", "opciones": ["can't he", "can he", "does he"], "respuestas": ["can he"], "explicacion": "Negativa con can → tag positivo can he."},
-  {"id": "e08", "tipo": "eleccion", "enunciado": "Elige la opción correcta.", "frase": "Nobody called, ___?", "opciones": ["did they", "didn't they", "did he"], "respuestas": ["did they"], "explicacion": "Nobody es negativo → tag positivo; se usa they."},
-  {"id": "e09", "tipo": "eleccion", "enunciado": "Elige la opción correcta.", "frase": "Do you know ___?", "opciones": ["where does she live", "where she lives", "where lives she"], "respuestas": ["where she lives"], "explicacion": "Pregunta indirecta: sujeto + verbo, sin does."},
-  {"id": "e10", "tipo": "corregir", "enunciado": "Corrige el error.", "frase": "Can you tell me where is the post office?", "respuestas": ["Can you tell me where the post office is?"], "explicacion": "En la pregunta indirecta el verbo va al final: where the post office is."},
-  {"id": "e11", "tipo": "corregir", "enunciado": "Corrige el error.", "frase": "Your parents live in Granada, don't you?", "respuestas": ["Your parents live in Granada, don't they?"], "explicacion": "El pronombre del tag debe referirse al sujeto (your parents → they)."},
-  {"id": "e12", "tipo": "transformar", "enunciado": "Convierte en pregunta indirecta empezando por «Could you tell me».", "frase": "What time does the shop close?", "respuestas": ["Could you tell me what time the shop closes?"], "explicacion": "Se quita does y el verbo toma la -s: the shop closes."},
-  {"id": "e13", "tipo": "transformar", "enunciado": "Convierte en pregunta indirecta empezando por «Do you know».", "frase": "Is the bus late?", "respuestas": ["Do you know if the bus is late?", "Do you know whether the bus is late?"], "explicacion": "Sin palabra interrogativa se usa if o whether + orden afirmativo."},
-  {"id": "e14", "tipo": "ordenar", "enunciado": "Ordena las palabras.", "palabras": ["tell", "is", "could", "you", "the", "me", "station", "where"], "respuestas": ["could you tell me where the station is"], "explicacion": "Could you tell me + palabra interrogativa + sujeto + verbo."}
+  {
+   "id": "e01",
+   "tipo": "hueco",
+   "enunciado": "Completa con la question tag.",
+   "frase": "You're coming to the party, ___?",
+   "respuestas": [
+    "aren't you"
+   ],
+   "explicacion": "Se aplican dos reglas de la ficha: se repite el auxiliar de la frase con un pronombre, y si la frase es afirmativa el tag es negativo. La frase usa are (You're coming), así que el tag es aren't you. El pronombre es you porque el sujeto es you. En español diríamos simplemente «¿no?», pero en inglés el tag tiene que concordar.",
+   "explicacion_breve": "Afirmativa con are → tag negativo aren't you.",
+   "traduccion": "Vienes a la fiesta, ¿verdad?",
+   "errores_previstos": [
+    {
+     "respuesta": "are you",
+     "explicacion": "La frase es afirmativa: el tag debe ser negativo, aren't you."
+    },
+    {
+     "respuesta": "isn't it",
+     "explicacion": "Tag invariable calcado: hay que repetir el auxiliar (are) y el sujeto (you)."
+    },
+    {
+     "respuesta": "don't you",
+     "explicacion": "La frase lleva are como auxiliar, no do: aren't you."
+    }
+   ]
+  },
+  {
+   "id": "e02",
+   "tipo": "hueco",
+   "enunciado": "Completa con la question tag.",
+   "frase": "She works in a bank, ___?",
+   "respuestas": [
+    "doesn't she"
+   ],
+   "explicacion": "La ficha explica que, si la frase no tiene auxiliar, el tag usa do, does o did. She works está en present simple, tercera persona del singular, así que el auxiliar es does. Como la frase es afirmativa, el tag es negativo: doesn't she. El pronombre es she porque el sujeto es she.",
+   "explicacion_breve": "Presente simple sin auxiliar → doesn't.",
+   "traduccion": "Trabaja en un banco, ¿verdad?",
+   "errores_previstos": [
+    {
+     "respuesta": "isn't she",
+     "explicacion": "La frase no usa be: el auxiliar del present simple es does, doesn't she."
+    },
+    {
+     "respuesta": "don't she",
+     "explicacion": "Con she, tercera persona, el auxiliar es does: doesn't she."
+    },
+    {
+     "respuesta": "does she",
+     "explicacion": "La frase es afirmativa, así que el tag tiene que ser negativo: doesn't she."
+    }
+   ]
+  },
+  {
+   "id": "e03",
+   "tipo": "hueco",
+   "enunciado": "Completa con la question tag.",
+   "frase": "They didn't win the match, ___?",
+   "respuestas": [
+    "did they"
+   ],
+   "explicacion": "Según la ficha, a frase negativa le corresponde tag positivo. La frase usa didn't (pasado simple), así que el tag repite did en positivo, con el pronombre they, que es el sujeto. Resultado: did they. Un tag negativo aquí duplicaría la negación.",
+   "explicacion_breve": "Negativa en pasado → tag positivo did they.",
+   "traduccion": "No ganaron el partido, ¿verdad?",
+   "errores_previstos": [
+    {
+     "respuesta": "didn't they",
+     "explicacion": "La frase ya es negativa: el tag debe ser positivo, did they."
+    },
+    {
+     "respuesta": "do they",
+     "explicacion": "La frase está en pasado (didn't): el tag usa did."
+    },
+    {
+     "respuesta": "did them",
+     "explicacion": "En el tag va el pronombre de sujeto: they."
+    }
+   ]
+  },
+  {
+   "id": "e04",
+   "tipo": "hueco",
+   "enunciado": "Completa con la question tag.",
+   "frase": "You've been to Lisbon, ___?",
+   "respuestas": [
+    "haven't you"
+   ],
+   "explicacion": "La tabla de la ficha indica que con present perfect se repite have. You've es you have, y como la frase es afirmativa el tag es negativo: haven't you. No se usa do, porque la frase ya tiene auxiliar.",
+   "explicacion_breve": "Present perfect: se repite have en negativa.",
+   "traduccion": "Has estado en Lisboa, ¿verdad?",
+   "errores_previstos": [
+    {
+     "respuesta": "don't you",
+     "explicacion": "La frase tiene el auxiliar have: el tag es haven't you."
+    },
+    {
+     "respuesta": "have you",
+     "explicacion": "La frase es afirmativa: el tag tiene que ser negativo, haven't you."
+    },
+    {
+     "respuesta": "hasn't you",
+     "explicacion": "Con you el auxiliar es have, no has: haven't you."
+    }
+   ]
+  },
+  {
+   "id": "e05",
+   "tipo": "hueco",
+   "enunciado": "Completa con la question tag.",
+   "frase": "Let's take a break, ___?",
+   "respuestas": [
+    "shall we"
+   ],
+   "explicacion": "La ficha incluye Let's… entre los casos especiales: siempre lleva shall we?. Let's es una propuesta que incluye al hablante (let us), y shall we? equivale a «¿te parece?» o «¿vale?». Aquí no se aplica la regla general del auxiliar, porque let's no tiene un auxiliar que repetir.",
+   "explicacion_breve": "Let's… lleva siempre shall we?",
+   "traduccion": "Hagamos un descanso, ¿te parece?",
+   "errores_previstos": [
+    {
+     "respuesta": "don't we",
+     "explicacion": "Let's no se construye con do: su tag fijo es shall we."
+    },
+    {
+     "respuesta": "let's we",
+     "explicacion": "El tag de Let's es shall we, no se repite let."
+    },
+    {
+     "respuesta": "will you",
+     "explicacion": "Will you sirve tras un imperativo dirigido a otro (Open the door, will you?); Let's incluye al hablante y pide shall we."
+    }
+   ]
+  },
+  {
+   "id": "e06",
+   "tipo": "eleccion",
+   "enunciado": "Elige la opción correcta.",
+   "frase": "I'm right about this, ___?",
+   "opciones": [
+    "amn't I",
+    "aren't I",
+    "isn't it"
+   ],
+   "respuestas": [
+    "aren't I"
+   ],
+   "explicacion": "Es un caso especial de la ficha: tras I'm… el tag negativo es aren't I?. La forma esperable «amn't I» no se usa en inglés estándar, y por eso se toma prestado aren't. El pronombre se mantiene: I. Be right significa «tener razón», otro calco que conviene recordar (no have reason).",
+   "explicacion_breve": "Caso especial: I'm… → aren't I?",
+   "traduccion": "Tengo razón en esto, ¿no?",
+   "por_opcion": {
+    "amn't I": "Lógica en teoría, pero no se usa en inglés estándar (solo en algunos dialectos de Escocia e Irlanda).",
+    "aren't I": "Correcta: es la forma especial que la ficha da para I'm…",
+    "isn't it": "El sujeto es I, no it; el tag debe repetir el pronombre del sujeto."
+   }
+  },
+  {
+   "id": "e07",
+   "tipo": "eleccion",
+   "enunciado": "Elige la opción correcta.",
+   "frase": "He can't drive, ___?",
+   "opciones": [
+    "can't he",
+    "can he",
+    "does he"
+   ],
+   "respuestas": [
+    "can he"
+   ],
+   "explicacion": "Según la ficha, con un modal se repite el modal, y si la frase es negativa el tag es positivo. La frase tiene can't, así que el tag es can he. Does no sirve porque la frase ya tiene auxiliar (can).",
+   "explicacion_breve": "Negativa con can → tag positivo can he.",
+   "traduccion": "No sabe conducir, ¿verdad?",
+   "por_opcion": {
+    "can't he": "Duplicaría la negación: la frase ya es negativa, así que el tag tiene que ser positivo.",
+    "can he": "Correcta: repite el modal can en positivo con el pronombre he.",
+    "does he": "La frase tiene el modal can como auxiliar; no se usa does."
+   }
+  },
+  {
+   "id": "e08",
+   "tipo": "eleccion",
+   "enunciado": "Elige la opción correcta.",
+   "frase": "Nobody called, ___?",
+   "opciones": [
+    "did they",
+    "didn't they",
+    "did he"
+   ],
+   "respuestas": [
+    "did they"
+   ],
+   "explicacion": "La ficha explica que palabras negativas como never o nobody hacen que la frase sea negativa, aunque el verbo esté en afirmativa, y por eso llevan tag positivo. Called está en pasado, así que el auxiliar es did. Con nobody, somebody o everyone el pronombre del tag es they, aunque el verbo vaya en singular.",
+   "explicacion_breve": "Nobody es negativo → tag positivo; se usa they.",
+   "traduccion": "No llamó nadie, ¿verdad?",
+   "por_opcion": {
+    "did they": "Correcta: tag positivo porque nobody es negativo, y they es el pronombre que se usa con nobody.",
+    "didn't they": "Nobody ya hace negativa la frase; un tag negativo sería incorrecto.",
+    "did he": "Con nobody, everybody o someone el pronombre del tag es they, no he."
+   }
+  },
+  {
+   "id": "e09",
+   "tipo": "eleccion",
+   "enunciado": "Elige la opción correcta.",
+   "frase": "Do you know ___?",
+   "opciones": [
+    "where does she live",
+    "where she lives",
+    "where lives she"
+   ],
+   "respuestas": [
+    "where she lives"
+   ],
+   "explicacion": "La ficha explica que en las preguntas indirectas, tras Do you know…, la pregunta pierde la inversión y el auxiliar do/does. La pregunta directa Where does she live? pasa a where she lives: sujeto + verbo, y el verbo recupera la -s de tercera persona porque does desaparece.",
+   "explicacion_breve": "Pregunta indirecta: sujeto + verbo, sin does.",
+   "traduccion": "¿Sabes dónde vive ella?",
+   "por_opcion": {
+    "where does she live": "Mantiene el orden de la pregunta directa; en una indirecta desaparece does.",
+    "where she lives": "Correcta: orden afirmativo, sujeto + verbo con -s.",
+    "where lives she": "Invierte el verbo léxico, algo que el inglés moderno no hace en ningún tipo de pregunta."
+   }
+  },
+  {
+   "id": "e10",
+   "tipo": "corregir",
+   "enunciado": "Corrige el error.",
+   "frase": "Can you tell me where is the post office?",
+   "respuestas": [
+    "Can you tell me where the post office is?"
+   ],
+   "explicacion": "La regla de la ficha para las preguntas indirectas es que pierden la inversión: tras Can you tell me… el orden es palabra interrogativa + sujeto + verbo. El sujeto es the post office y el verbo is, que pasa al final: where the post office is. El signo de interrogación se mantiene porque la frase principal (Can you tell me) sí es una pregunta.",
+   "explicacion_breve": "En la pregunta indirecta el verbo va al final: where the post office is.",
+   "traduccion": "¿Me puedes decir dónde está la oficina de correos?",
+   "errores_previstos": [
+    {
+     "respuesta": "Can you tell me where is the post office?",
+     "explicacion": "Es la frase sin corregir: en la indirecta el verbo va detrás del sujeto."
+    },
+    {
+     "respuesta": "Can you tell me where does the post office is?",
+     "explicacion": "No se añade does, y menos con is: where the post office is."
+    }
+   ]
+  },
+  {
+   "id": "e11",
+   "tipo": "corregir",
+   "enunciado": "Corrige el error.",
+   "frase": "Your parents live in Granada, don't you?",
+   "respuestas": [
+    "Your parents live in Granada, don't they?"
+   ],
+   "explicacion": "La ficha dice que el tag repite el auxiliar y un pronombre que se refiere al sujeto. El auxiliar don't es correcto (present simple afirmativo con sujeto plural), pero el pronombre debe ser they, porque el sujeto es your parents. You sería el interlocutor, no sus padres.",
+   "explicacion_breve": "El pronombre del tag debe referirse al sujeto (your parents → they).",
+   "traduccion": "Tus padres viven en Granada, ¿verdad?",
+   "errores_previstos": [
+    {
+     "respuesta": "Your parents live in Granada, don't you?",
+     "explicacion": "Es la frase sin corregir: el pronombre debe referirse a your parents, they."
+    },
+    {
+     "respuesta": "Your parents live in Granada, doesn't they?",
+     "explicacion": "Your parents es plural: don't, no doesn't."
+    },
+    {
+     "respuesta": "Your parents live in Granada, do they?",
+     "explicacion": "La frase es afirmativa: el tag debe ser negativo, don't they."
+    }
+   ]
+  },
+  {
+   "id": "e12",
+   "tipo": "transformar",
+   "enunciado": "Convierte en pregunta indirecta empezando por «Could you tell me».",
+   "frase": "What time does the shop close?",
+   "respuestas": [
+    "Could you tell me what time the shop closes?"
+   ],
+   "explicacion": "Según la ficha, al pasar a pregunta indirecta desaparecen la inversión y el auxiliar do/does. What time does the shop close? pierde does, el sujeto the shop va delante del verbo y close recupera la -s de tercera persona: what time the shop closes. Could you tell me es una fórmula cortés muy útil.",
+   "explicacion_breve": "Se quita does y el verbo toma la -s: the shop closes.",
+   "traduccion": "¿Me podría decir a qué hora cierra la tienda?",
+   "errores_previstos": [
+    {
+     "respuesta": "Could you tell me what time does the shop close?",
+     "explicacion": "Se mantiene el does de la pregunta directa; en la indirecta desaparece."
+    },
+    {
+     "respuesta": "Could you tell me what time the shop close?",
+     "explicacion": "Al quitar does, el verbo debe recuperar la -s: the shop closes."
+    },
+    {
+     "respuesta": "Could you tell me what time closes the shop?",
+     "explicacion": "El sujeto va delante del verbo: the shop closes."
+    }
+   ]
+  },
+  {
+   "id": "e13",
+   "tipo": "transformar",
+   "enunciado": "Convierte en pregunta indirecta empezando por «Do you know».",
+   "frase": "Is the bus late?",
+   "respuestas": [
+    "Do you know if the bus is late?",
+    "Do you know whether the bus is late?"
+   ],
+   "explicacion": "La ficha explica que, cuando la pregunta directa no tiene palabra interrogativa (preguntas de sí o no), la indirecta se introduce con if o whether («si»). Después va el orden afirmativo: the bus is late. Ambas conjunciones son válidas; whether es algo más formal.",
+   "explicacion_breve": "Sin palabra interrogativa se usa if o whether + orden afirmativo.",
+   "traduccion": "¿Sabes si el autobús viene con retraso?",
+   "errores_previstos": [
+    {
+     "respuesta": "Do you know is the bus late?",
+     "explicacion": "Falta if o whether y se mantiene la inversión: Do you know if the bus is late?"
+    },
+    {
+     "respuesta": "Do you know if is the bus late?",
+     "explicacion": "Tras if va el orden afirmativo: the bus is late."
+    },
+    {
+     "respuesta": "Do you know that the bus is late?",
+     "explicacion": "That afirma algo; para preguntar si algo es cierto hace falta if o whether."
+    }
+   ]
+  },
+  {
+   "id": "e14",
+   "tipo": "ordenar",
+   "enunciado": "Ordena las palabras.",
+   "palabras": [
+    "tell",
+    "is",
+    "Could",
+    "you",
+    "the",
+    "me",
+    "station",
+    "where"
+   ],
+   "respuestas": [
+    "Could you tell me where the station is"
+   ],
+   "explicacion": "La ficha da el patrón Could you tell me + palabra interrogativa + sujeto + verbo. La frase principal (could you tell me) es una pregunta y por eso tiene inversión; la indirecta no: where the station is. El hispanohablante suele trasladar el orden de la pregunta directa y escribir where is the station.",
+   "explicacion_breve": "Could you tell me + palabra interrogativa + sujeto + verbo.",
+   "traduccion": "¿Me podrías decir dónde está la estación?",
+   "errores_previstos": [
+    {
+     "respuesta": "Could you tell me where is the station",
+     "explicacion": "En la pregunta indirecta el verbo va detrás del sujeto: where the station is."
+    },
+    {
+     "respuesta": "You could tell me where the station is",
+     "explicacion": "La frase principal es una petición y necesita la inversión: could you tell me."
+    }
+   ]
+  }
  ],
- "fuente": {"nombre": "propia"}
+ "fuente": {
+  "nombre": "propia"
+ },
+ "descripcion_larga_es": "Las question tags son coletillas como «¿verdad?» o «¿no?» que en inglés se construyen con el auxiliar de la frase y un pronombre, con la polaridad invertida. Las preguntas indirectas (Could you tell me where…?) suavizan una pregunta y recuperan el orden afirmativo. Para el hispanohablante, que usa una única coletilla invariable, ambas cosas exigen fijarse en el verbo y el sujeto en cada frase.",
+ "contexto": {
+  "que_es": "Las question tags son preguntas cortas añadidas al final de una frase (It's cold, isn't it?) que piden confirmación o buscan acuerdo. Las preguntas indirectas son preguntas incrustadas en otra frase (Do you know what time it opens?), que pierden la inversión y el auxiliar do.",
+  "por_que_importa": "Ambas estructuras son muy frecuentes en la conversación y aportan naturalidad y cortesía: una pregunta directa puede sonar brusca, y la indirecta la suaviza. En una entrevista o un examen oral, usarlas bien demuestra un nivel B1 sólido. Un tag mal formado o una indirecta con inversión (where is the station) son errores muy reconocibles.",
+  "cuando_se_usa": "Las tags se usan para confirmar algo que se cree cierto o para invitar al otro a hablar; las indirectas, al pedir información a desconocidos, en contextos formales o al dudar (I wonder…). El hispanohablante tiende a usar una tag fija («…, no?» o is it?), a no ajustar el pronombre al sujeto y a mantener el orden de la pregunta directa dentro de la indirecta."
+ }
 }

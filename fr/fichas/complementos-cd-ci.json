@@ -6,55 +6,534 @@
  "nivel": "A2",
  "resumen": "Le, la, les sustituyen al complemento directo (lo, la, los, las) y lui, leur al indirecto con à + persona (le, les); van delante del verbo conjugado, del auxiliar o del infinitivo del que dependen.",
  "explicacion": [
-  {"tipo": "tabla", "cabecera": ["Persona", "Directo", "Indirecto"], "filas": [
-   ["1.ª sing.", "me (m')", "me (m')"],
-   ["2.ª sing.", "te (t')", "te (t')"],
-   ["3.ª sing.", "le, la (l')", "lui"],
-   ["1.ª pl.", "nous", "nous"],
-   ["2.ª pl.", "vous", "vous"],
-   ["3.ª pl.", "les", "leur"]
-  ]},
-  {"tipo": "texto", "texto": "Directo: responde a «¿qué?» o «¿a quién?» sin preposición: Tex cherche le numéro → il le cherche. Indirecto: sustituye a à + persona: Tex offre des fleurs à Tammy → Tex lui offre des fleurs. Lui vale para «a él» y «a ella»; leur (sin -s) para «a ellos, a ellas». Ojo: muchos verbos que en español llevan «a» de persona son directos en francés (aimer, voir, appeler, attendre), y algunos que en español son directos son indirectos en francés (téléphoner à, répondre à, demander à)."},
-  {"tipo": "lista", "items": [
-   "Delante del verbo conjugado: Je la vois. Je ne la vois pas.",
-   "En los tiempos compuestos, delante del auxiliar: Je l'ai rencontré. Je ne lui ai pas parlé.",
-   "Con verbo + infinitivo, delante del infinitivo: Je vais l'appeler. Tu peux leur écrire.",
-   "En el imperativo afirmativo, detrás con guion (me y te pasan a moi y toi): Explique-moi ! Regarde-les ! En negativo, vuelven delante: Ne lui parle pas !",
-   "Le, la, me, te se apostrofan ante vocal o h muda: Je t'aime. Il l'attend."
-  ]},
-  {"tipo": "texto", "texto": "En los tiempos compuestos, el participio concuerda con un complemento directo colocado delante: Tu as vu Marie ? — Oui, je l'ai vue. Con el indirecto no hay concordancia: Je leur ai parlé."}
+  {
+   "tipo": "tabla",
+   "cabecera": [
+    "Persona",
+    "Directo",
+    "Indirecto"
+   ],
+   "filas": [
+    [
+     "1.ª sing.",
+     "me (m')",
+     "me (m')"
+    ],
+    [
+     "2.ª sing.",
+     "te (t')",
+     "te (t')"
+    ],
+    [
+     "3.ª sing.",
+     "le, la (l')",
+     "lui"
+    ],
+    [
+     "1.ª pl.",
+     "nous",
+     "nous"
+    ],
+    [
+     "2.ª pl.",
+     "vous",
+     "vous"
+    ],
+    [
+     "3.ª pl.",
+     "les",
+     "leur"
+    ]
+   ]
+  },
+  {
+   "tipo": "texto",
+   "texto": "Directo: responde a «¿qué?» o «¿a quién?» sin preposición: Tex cherche le numéro → il le cherche. Indirecto: sustituye a à + persona: Tex offre des fleurs à Tammy → Tex lui offre des fleurs. Lui vale para «a él» y «a ella»; leur (sin -s) para «a ellos, a ellas». Ojo: muchos verbos que en español llevan «a» de persona son directos en francés (aimer, voir, appeler, attendre), y algunos que en español son directos son indirectos en francés (téléphoner à, répondre à, demander à)."
+  },
+  {
+   "tipo": "lista",
+   "items": [
+    "Delante del verbo conjugado: Je la vois. Je ne la vois pas.",
+    "En los tiempos compuestos, delante del auxiliar: Je l'ai rencontré. Je ne lui ai pas parlé.",
+    "Con verbo + infinitivo, delante del infinitivo: Je vais l'appeler. Tu peux leur écrire.",
+    "En el imperativo afirmativo, detrás con guion (me y te pasan a moi y toi): Explique-moi ! Regarde-les ! En negativo, vuelven delante: Ne lui parle pas !",
+    "Le, la, me, te se apostrofan ante vocal o h muda: Je t'aime. Il l'attend."
+   ]
+  },
+  {
+   "tipo": "texto",
+   "texto": "En los tiempos compuestos, el participio concuerda con un complemento directo colocado delante: Tu as vu Marie ? — Oui, je l'ai vue. Con el indirecto no hay concordancia: Je leur ai parlé."
+  }
  ],
  "ejemplos": [
-  {"frase": "Enfin il trouve le numéro et il l'appelle.", "traduccion": "Por fin encuentra el número y la llama."},
-  {"frase": "Tex ne veut pas t'épouser.", "traduccion": "Tex no quiere casarse contigo."},
-  {"frase": "Tu leur as offert des fleurs, à toutes les deux !", "traduccion": "¡Les has regalado flores a las dos!"},
-  {"frase": "Je vais aller lui parler.", "traduccion": "Voy a ir a hablar con ella."},
-  {"frase": "Ne lui parle pas !", "traduccion": "¡No le hables!"},
-  {"frase": "Je ne l'ai pas embrassée.", "traduccion": "No la he besado."}
+  {
+   "frase": "Enfin il trouve le numéro et il l'appelle.",
+   "traduccion": "Por fin encuentra el número y la llama."
+  },
+  {
+   "frase": "Tex ne veut pas t'épouser.",
+   "traduccion": "Tex no quiere casarse contigo."
+  },
+  {
+   "frase": "Tu leur as offert des fleurs, à toutes les deux !",
+   "traduccion": "¡Les has regalado flores a las dos!"
+  },
+  {
+   "frase": "Je vais aller lui parler.",
+   "traduccion": "Voy a ir a hablar con ella."
+  },
+  {
+   "frase": "Ne lui parle pas !",
+   "traduccion": "¡No le hables!"
+  },
+  {
+   "frase": "Je ne l'ai pas embrassée.",
+   "traduccion": "No la he besado."
+  }
  ],
  "errores_hispanohablantes": [
-  {"mal": "Je lui aime.", "bien": "Je l'aime.", "nota": "Aimer lleva complemento directo; el «le quiero» del español no se traduce con lui."},
-  {"mal": "Je la téléphone ce soir.", "bien": "Je lui téléphone ce soir.", "nota": "Téléphoner à lleva complemento indirecto: lui."},
-  {"mal": "Je leurs écris.", "bien": "Je leur écris.", "nota": "El pronombre leur nunca lleva -s."},
-  {"mal": "Je la vais appeler.", "bien": "Je vais l'appeler.", "nota": "El pronombre va delante del infinitivo del que depende."}
+  {
+   "mal": "Je lui aime.",
+   "bien": "Je l'aime.",
+   "nota": "Aimer lleva complemento directo; el «le quiero» del español no se traduce con lui."
+  },
+  {
+   "mal": "Je la téléphone ce soir.",
+   "bien": "Je lui téléphone ce soir.",
+   "nota": "Téléphoner à lleva complemento indirecto: lui."
+  },
+  {
+   "mal": "Je leurs écris.",
+   "bien": "Je leur écris.",
+   "nota": "El pronombre leur nunca lleva -s."
+  },
+  {
+   "mal": "Je la vais appeler.",
+   "bien": "Je vais l'appeler.",
+   "nota": "El pronombre va delante del infinitivo del que depende."
+  }
  ],
  "ejercicios": [
-  {"id": "e01", "tipo": "hueco", "enunciado": "Sustituye «la clé» por un pronombre.", "frase": "Peux-tu ___ trouver ?", "respuestas": ["la"], "explicacion": "Complemento directo femenino singular: la, delante del infinitivo.", "origen": "tatoeba:482320"},
-  {"id": "e02", "tipo": "hueco", "enunciado": "Sustituye «tes livres» por un pronombre.", "frase": "Veux-tu ___ vendre ?", "respuestas": ["les"], "explicacion": "Complemento directo plural: les.", "origen": "tatoeba:8666757"},
-  {"id": "e03", "tipo": "hueco", "enunciado": "Sustituye «à Marc» por un pronombre.", "frase": "Vas-tu ___ parler ?", "respuestas": ["lui"], "explicacion": "Parler à + persona: complemento indirecto lui.", "origen": "tatoeba:6555424"},
-  {"id": "e04", "tipo": "eleccion", "enunciado": "Elige el pronombre que sustituye a «à ma mère».", "frase": "Devrais-je ___ dire ?", "opciones": ["la", "lui", "leur"], "respuestas": ["lui"], "explicacion": "Dire à quelqu'un: indirecto singular lui.", "origen": "tatoeba:12042"},
-  {"id": "e05", "tipo": "eleccion", "enunciado": "Elige el pronombre que sustituye a «Julie».", "frase": "Aimerais-tu ___ voir ?", "opciones": ["la", "lui", "le"], "respuestas": ["la"], "explicacion": "Voir quelqu'un: complemento directo femenino la.", "origen": "tatoeba:1921995"},
-  {"id": "e06", "tipo": "transformar", "enunciado": "Sustituye «à Tammy» por un pronombre.", "frase": "Tex offre des fleurs à Tammy.", "respuestas": ["Tex lui offre des fleurs."], "explicacion": "À + persona en singular → lui, delante del verbo."},
-  {"id": "e07", "tipo": "transformar", "enunciado": "Sustituye «à mes parents» por un pronombre.", "frase": "Je téléphone à mes parents.", "respuestas": ["Je leur téléphone."], "explicacion": "Téléphoner à + persona en plural → leur."},
-  {"id": "e08", "tipo": "transformar", "enunciado": "Sustituye «le bus» por un pronombre.", "frase": "J'attends le bus.", "respuestas": ["Je l'attends."], "explicacion": "Attendre lleva complemento directo; le se apostrofa ante vocal."},
-  {"id": "e09", "tipo": "transformar", "enunciado": "Sustituye «ce travail» por un pronombre.", "frase": "Peux-tu faire ce travail ?", "respuestas": ["Peux-tu le faire ?"], "explicacion": "El pronombre va delante del infinitivo del que depende.", "origen": "tatoeba:2353266"},
-  {"id": "e10", "tipo": "corregir", "enunciado": "Corrige el error.", "frase": "Je lui aime.", "respuestas": ["Je l'aime."], "explicacion": "Aimer lleva complemento directo: l'."},
-  {"id": "e11", "tipo": "corregir", "enunciado": "Corrige el error.", "frase": "Je ne le ai pas vu.", "respuestas": ["Je ne l'ai pas vu."], "explicacion": "Le se apostrofa ante vocal: l'ai."},
-  {"id": "e12", "tipo": "corregir", "enunciado": "Corrige el error.", "frase": "Je la vais appeler.", "respuestas": ["Je vais l'appeler."], "explicacion": "El pronombre va delante del infinitivo, no de aller."},
-  {"id": "e13", "tipo": "ordenar", "enunciado": "Ordena las palabras (Danos paz).", "palabras": ["paix", "Donne-nous", "la"], "respuestas": ["Donne-nous la paix"], "explicacion": "En el imperativo afirmativo el pronombre va detrás con guion.", "origen": "tatoeba:1119821"},
-  {"id": "e14", "tipo": "ordenar", "enunciado": "Ordena las palabras (¿Puedo hablar con ella?).", "palabras": ["parler", "lui", "Puis-je"], "respuestas": ["Puis-je lui parler"], "explicacion": "Lui va delante del infinitivo parler.", "origen": "tatoeba:1977614"},
-  {"id": "e15", "tipo": "hueco", "enunciado": "Completa con el participio de voir.", "frase": "Tu as vu Marie ? — Oui, je l'ai ___ hier.", "respuestas": ["vue"], "explicacion": "El complemento directo l' (Marie) va delante: el participio concuerda en femenino."},
-  {"id": "e16", "tipo": "eleccion", "enunciado": "Elige el pronombre correcto (escribo a mis amigos).", "frase": "Mes amis ? Je ___ écris souvent.", "opciones": ["les", "leur", "leurs"], "respuestas": ["leur"], "explicacion": "Écrire à + personas en plural: leur, sin -s."}
+  {
+   "id": "e01",
+   "tipo": "hueco",
+   "enunciado": "Sustituye «la clé» por un pronombre.",
+   "frase": "Peux-tu ___ trouver ?",
+   "respuestas": [
+    "la"
+   ],
+   "explicacion": "La clé es un complemento directo (trouver quelque chose, sin preposición) femenino singular, así que se sustituye por la. Según la lista de la ficha, con verbo + infinitivo el pronombre va delante del infinitivo del que depende: peux-tu la trouver. La pista es que la clé no lleva preposición y es femenino.",
+   "origen": "tatoeba:482320",
+   "explicacion_breve": "Complemento directo femenino singular: la, delante del infinitivo.",
+   "traduccion": "¿Puedes encontrarla?",
+   "errores_previstos": [
+    {
+     "respuesta": "le",
+     "explicacion": "Le es masculino; clé es femenino, así que el pronombre es la."
+    },
+    {
+     "respuesta": "lui",
+     "explicacion": "Lui sustituye a à + persona. Trouver la clé es un complemento directo sin preposición: la."
+    }
+   ]
+  },
+  {
+   "id": "e02",
+   "tipo": "hueco",
+   "enunciado": "Sustituye «tes livres» por un pronombre.",
+   "frase": "Veux-tu ___ vendre ?",
+   "respuestas": [
+    "les"
+   ],
+   "explicacion": "Tes livres es complemento directo plural de vendre (vendre quelque chose), así que se sustituye por les, que vale para masculino y femenino plural. Va delante del infinitivo vendre, del que depende, no delante de veux. La pista es el plural livres sin preposición.",
+   "origen": "tatoeba:8666757",
+   "explicacion_breve": "Complemento directo plural: les.",
+   "traduccion": "¿Quieres venderlos?",
+   "errores_previstos": [
+    {
+     "respuesta": "leur",
+     "explicacion": "Leur es indirecto y sustituye a à + personas. Los libros son complemento directo: les."
+    },
+    {
+     "respuesta": "le",
+     "explicacion": "Le es singular; tes livres es plural: les."
+    }
+   ]
+  },
+  {
+   "id": "e03",
+   "tipo": "hueco",
+   "enunciado": "Sustituye «à Marc» por un pronombre.",
+   "frase": "Vas-tu ___ parler ?",
+   "respuestas": [
+    "lui"
+   ],
+   "explicacion": "Parler se construye con à + persona (parler à Marc), es decir, con complemento indirecto, que en tercera persona singular es lui. Va delante del infinitivo parler, que es el verbo del que depende. Fíjate en que el español dice «hablar con él», pero el francés usa à y por tanto lui.",
+   "origen": "tatoeba:6555424",
+   "explicacion_breve": "Parler à + persona: complemento indirecto lui.",
+   "traduccion": "¿Vas a hablar con él?",
+   "errores_previstos": [
+    {
+     "respuesta": "le",
+     "explicacion": "Le sustituiría un complemento directo. Parler se construye con à + persona, así que el pronombre es indirecto: lui."
+    },
+    {
+     "respuesta": "avec lui",
+     "explicacion": "Parler avec lui existe, pero entonces iría detrás del verbo (parler avec lui). El hueco está delante del infinitivo y pide el pronombre átono lui."
+    }
+   ]
+  },
+  {
+   "id": "e04",
+   "tipo": "eleccion",
+   "enunciado": "Elige el pronombre que sustituye a «à ma mère».",
+   "frase": "Devrais-je ___ dire ?",
+   "opciones": [
+    "la",
+    "lui",
+    "leur"
+   ],
+   "respuestas": [
+    "lui"
+   ],
+   "explicacion": "Dire se construye con à + persona (dire quelque chose à quelqu'un), por lo que à ma mère es un complemento indirecto singular: lui, que vale para él y para ella. Va delante del infinitivo dire. La pista es la preposición à delante de la persona.",
+   "origen": "tatoeba:12042",
+   "explicacion_breve": "Dire à quelqu'un: indirecto singular lui.",
+   "traduccion": "¿Debería decírselo (a mi madre)?",
+   "por_opcion": {
+    "la": "Incorrecta: la sustituye a un complemento directo femenino. Ma mère va con à, así que es indirecto.",
+    "lui": "Correcta: lui sustituye a à + una persona, sea hombre o mujer.",
+    "leur": "Incorrecta: leur es el indirecto plural (à mes parents); aquí se trata de una sola persona."
+   }
+  },
+  {
+   "id": "e05",
+   "tipo": "eleccion",
+   "enunciado": "Elige el pronombre que sustituye a «Julie».",
+   "frase": "Aimerais-tu ___ voir ?",
+   "opciones": [
+    "la",
+    "lui",
+    "le"
+   ],
+   "respuestas": [
+    "la"
+   ],
+   "explicacion": "Voir se construye sin preposición (voir quelqu'un), así que Julie es complemento directo femenino singular: la. El texto de la ficha advierte que muchos verbos que en español llevan «a» de persona son directos en francés, y voir es uno de ellos. Va delante del infinitivo voir.",
+   "origen": "tatoeba:1921995",
+   "explicacion_breve": "Voir quelqu'un: complemento directo femenino la.",
+   "traduccion": "¿Te gustaría verla?",
+   "por_opcion": {
+    "la": "Correcta: complemento directo femenino singular, delante del infinitivo voir.",
+    "lui": "Incorrecta: es el error del hispanohablante que piensa en «ver a Julie». Voir no lleva à en francés, así que no se usa el indirecto.",
+    "le": "Incorrecta: le es masculino, y Julie es femenino."
+   }
+  },
+  {
+   "id": "e06",
+   "tipo": "transformar",
+   "enunciado": "Sustituye «à Tammy» por un pronombre.",
+   "frase": "Tex offre des fleurs à Tammy.",
+   "respuestas": [
+    "Tex lui offre des fleurs."
+   ],
+   "explicacion": "Es el ejemplo de la ficha: offrir quelque chose à quelqu'un. À Tammy es indirecto singular, que se sustituye por lui. El pronombre va delante del verbo conjugado offre, y el complemento directo des fleurs se queda en su sitio.",
+   "explicacion_breve": "À + persona en singular → lui, delante del verbo.",
+   "traduccion": "Tex le regala flores (a Tammy).",
+   "errores_previstos": [
+    {
+     "respuesta": "Tex la offre des fleurs.",
+     "explicacion": "La es complemento directo; Tammy va con à, así que es indirecto: lui. Además la debería apostrofarse ante vocal."
+    },
+    {
+     "respuesta": "Tex offre lui des fleurs.",
+     "explicacion": "El pronombre átono va delante del verbo conjugado, no detrás: Tex lui offre."
+    },
+    {
+     "respuesta": "Tex offre des fleurs à lui.",
+     "explicacion": "Se ha cambiado la persona y no se ha usado el pronombre átono; además Tammy es una mujer, aunque el átono lui valga para ambos géneros."
+    }
+   ]
+  },
+  {
+   "id": "e07",
+   "tipo": "transformar",
+   "enunciado": "Sustituye «à mes parents» por un pronombre.",
+   "frase": "Je téléphone à mes parents.",
+   "respuestas": [
+    "Je leur téléphone."
+   ],
+   "explicacion": "La ficha cita téléphoner à entre los verbos que en francés llevan complemento indirecto. À mes parents es plural, así que se sustituye por leur, sin -s, delante del verbo. En español decimos «los llamo», con directo, y de ahí el error típico je les téléphone.",
+   "explicacion_breve": "Téléphoner à + persona en plural → leur.",
+   "traduccion": "Los llamo por teléfono.",
+   "errores_previstos": [
+    {
+     "respuesta": "Je les téléphone.",
+     "explicacion": "Calco del español «los llamo». Téléphoner se construye con à, así que el pronombre es indirecto: leur."
+    },
+    {
+     "respuesta": "Je leurs téléphone.",
+     "explicacion": "El pronombre leur nunca lleva -s; leurs con -s es el posesivo (leurs parents)."
+    },
+    {
+     "respuesta": "Je lui téléphone.",
+     "explicacion": "Lui es singular; mes parents son varios: leur."
+    }
+   ]
+  },
+  {
+   "id": "e08",
+   "tipo": "transformar",
+   "enunciado": "Sustituye «le bus» por un pronombre.",
+   "frase": "J'attends le bus.",
+   "respuestas": [
+    "Je l'attends."
+   ],
+   "explicacion": "Attendre es uno de los verbos que la ficha señala como directos en francés: attendre quelqu'un o quelque chose, sin preposición. Le bus se sustituye por le, que se apostrofa ante la vocal de attends: je l'attends. La pista es la vocal inicial del verbo.",
+   "explicacion_breve": "Attendre lleva complemento directo; le se apostrofa ante vocal.",
+   "traduccion": "Lo espero.",
+   "errores_previstos": [
+    {
+     "respuesta": "Je le attends.",
+     "explicacion": "Le se apostrofa obligatoriamente ante vocal: je l'attends."
+    },
+    {
+     "respuesta": "Je lui attends.",
+     "explicacion": "Attendre no lleva à; el complemento es directo, por eso le (l')."
+    },
+    {
+     "respuesta": "J'attends le.",
+     "explicacion": "El pronombre átono va delante del verbo conjugado, no detrás."
+    }
+   ]
+  },
+  {
+   "id": "e09",
+   "tipo": "transformar",
+   "enunciado": "Sustituye «ce travail» por un pronombre.",
+   "frase": "Peux-tu faire ce travail ?",
+   "respuestas": [
+    "Peux-tu le faire ?"
+   ],
+   "explicacion": "Ce travail es complemento directo masculino singular de faire, así que se sustituye por le. Con verbo + infinitivo, el pronombre va delante del infinitivo del que depende (faire), no delante de peux: peux-tu le faire ?",
+   "origen": "tatoeba:2353266",
+   "explicacion_breve": "El pronombre va delante del infinitivo del que depende.",
+   "traduccion": "¿Puedes hacerlo?",
+   "errores_previstos": [
+    {
+     "respuesta": "Le peux-tu faire ?",
+     "explicacion": "Calca la posición del español «¿lo puedes hacer?». En francés moderno el pronombre va delante del infinitivo: peux-tu le faire."
+    },
+    {
+     "respuesta": "Peux-tu faire le ?",
+     "explicacion": "El pronombre átono no va detrás del infinitivo, sino delante: le faire."
+    },
+    {
+     "respuesta": "Peux-tu lui faire ?",
+     "explicacion": "Lui sustituye a à + persona; ce travail es complemento directo: le."
+    }
+   ]
+  },
+  {
+   "id": "e10",
+   "tipo": "corregir",
+   "enunciado": "Corrige el error.",
+   "frase": "Je lui aime.",
+   "respuestas": [
+    "Je l'aime."
+   ],
+   "explicacion": "Es el primer error típico de la ficha: aimer lleva complemento directo, así que el pronombre es le o la, y se apostrofa ante vocal: je l'aime. El español «le quiero», con leísmo, empuja a usar lui, pero en francés lui solo sustituye a à + persona.",
+   "explicacion_breve": "Aimer lleva complemento directo: l'.",
+   "traduccion": "Lo quiero (la quiero).",
+   "errores_previstos": [
+    {
+     "respuesta": "Je lui aime.",
+     "explicacion": "Es la frase sin corregir: aimer no lleva à, así que no se usa el indirecto lui."
+    },
+    {
+     "respuesta": "Je le aime.",
+     "explicacion": "Pronombre correcto, pero le se apostrofa ante vocal: je l'aime."
+    },
+    {
+     "respuesta": "J'aime lui.",
+     "explicacion": "El pronombre átono va delante del verbo y debe ser directo: je l'aime."
+    }
+   ]
+  },
+  {
+   "id": "e11",
+   "tipo": "corregir",
+   "enunciado": "Corrige el error.",
+   "frase": "Je ne le ai pas vu.",
+   "respuestas": [
+    "Je ne l'ai pas vu."
+   ],
+   "explicacion": "La lista de la ficha recuerda que le, la, me y te se apostrofan ante vocal o h muda. Aquí le va delante del auxiliar ai, que empieza por vocal, así que se convierte en l'. La negación rodea el bloque pronombre + auxiliar: je ne l'ai pas vu.",
+   "explicacion_breve": "Le se apostrofa ante vocal: l'ai.",
+   "traduccion": "No lo he visto.",
+   "errores_previstos": [
+    {
+     "respuesta": "Je ne le ai pas vu.",
+     "explicacion": "Es la frase sin corregir: le debe apostrofarse ante ai."
+    },
+    {
+     "respuesta": "Je ne l'ai vu pas.",
+     "explicacion": "En los tiempos compuestos pas va entre el auxiliar y el participio: je ne l'ai pas vu."
+    },
+    {
+     "respuesta": "Je l'ai ne pas vu.",
+     "explicacion": "Ne va delante del pronombre y del auxiliar, y pas detrás del auxiliar."
+    }
+   ]
+  },
+  {
+   "id": "e12",
+   "tipo": "corregir",
+   "enunciado": "Corrige el error.",
+   "frase": "Je la vais appeler.",
+   "respuestas": [
+    "Je vais l'appeler."
+   ],
+   "explicacion": "La ficha lo recoge como error típico: con verbo + infinitivo, el pronombre va delante del infinitivo del que depende, no delante de aller. Se llama a la persona (appeler), no se «va» a ella, así que la va delante de appeler y se apostrofa ante vocal: je vais l'appeler.",
+   "explicacion_breve": "El pronombre va delante del infinitivo, no de aller.",
+   "traduccion": "Voy a llamarla (la voy a llamar).",
+   "errores_previstos": [
+    {
+     "respuesta": "Je la vais appeler.",
+     "explicacion": "Es la frase sin corregir: es la posición del español «la voy a llamar», que en francés actual no se usa."
+    },
+    {
+     "respuesta": "Je vais la appeler.",
+     "explicacion": "La posición es correcta, pero la se apostrofa ante la vocal de appeler: l'appeler."
+    },
+    {
+     "respuesta": "Je vais lui appeler.",
+     "explicacion": "Appeler es directo en francés (appeler quelqu'un), así que se usa la, no lui."
+    }
+   ]
+  },
+  {
+   "id": "e13",
+   "tipo": "ordenar",
+   "enunciado": "Ordena las palabras (Danos paz).",
+   "palabras": [
+    "paix",
+    "Donne-nous",
+    "la"
+   ],
+   "respuestas": [
+    "Donne-nous la paix"
+   ],
+   "explicacion": "La ficha explica que en el imperativo afirmativo el pronombre va detrás del verbo, unido con guion: donne-nous. Después viene el complemento directo la paix. Aquí el bloque Donne-nous ya está formado y solo hay que colocar la paix detrás.",
+   "origen": "tatoeba:1119821",
+   "explicacion_breve": "En el imperativo afirmativo el pronombre va detrás con guion.",
+   "traduccion": "Danos la paz.",
+   "errores_previstos": [
+    {
+     "respuesta": "La paix donne-nous",
+     "explicacion": "El complemento directo la paix va detrás del verbo en una orden, no delante."
+    },
+    {
+     "respuesta": "Donne-nous paix la",
+     "explicacion": "El artículo la debe ir delante del sustantivo paix."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "la paix",
+     "significado": "la paz"
+    }
+   ]
+  },
+  {
+   "id": "e14",
+   "tipo": "ordenar",
+   "enunciado": "Ordena las palabras (¿Puedo hablar con ella?).",
+   "palabras": [
+    "parler",
+    "lui",
+    "Puis-je"
+   ],
+   "respuestas": [
+    "Puis-je lui parler"
+   ],
+   "explicacion": "Parler se construye con à + persona, así que el pronombre es indirecto: lui. Con verbo + infinitivo va delante del infinitivo parler, no de puis. Puis-je es la forma interrogativa formal de pouvoir con inversión, muy usada en peticiones educadas.",
+   "origen": "tatoeba:1977614",
+   "explicacion_breve": "Lui va delante del infinitivo parler.",
+   "traduccion": "¿Puedo hablar con él / con ella?",
+   "errores_previstos": [
+    {
+     "respuesta": "Puis-je parler lui",
+     "explicacion": "El pronombre átono no va detrás del infinitivo; va delante: lui parler."
+    },
+    {
+     "respuesta": "Lui puis-je parler",
+     "explicacion": "Calca «¿le puedo hablar?». El pronombre se coloca delante del infinitivo del que depende: puis-je lui parler."
+    }
+   ]
+  },
+  {
+   "id": "e15",
+   "tipo": "hueco",
+   "enunciado": "Completa con el participio de voir.",
+   "frase": "Tu as vu Marie ? — Oui, je l'ai ___ hier.",
+   "respuestas": [
+    "vue"
+   ],
+   "explicacion": "Se aplica la regla del último texto de la ficha: en los tiempos compuestos con avoir, el participio concuerda con el complemento directo si va colocado delante. Aquí l' sustituye a Marie, femenino singular, y está delante del auxiliar, así que vu toma -e: vue. La concordancia solo se ve en la escritura.",
+   "explicacion_breve": "El complemento directo l' (Marie) va delante: el participio concuerda en femenino.",
+   "traduccion": "¿Has visto a Marie? Sí, la vi ayer.",
+   "errores_previstos": [
+    {
+     "respuesta": "vu",
+     "explicacion": "Falta la concordancia: el complemento directo l' (Marie) va delante del auxiliar y es femenino, así que vue."
+    },
+    {
+     "respuesta": "vues",
+     "explicacion": "Marie es una sola persona: femenino singular, vue."
+    },
+    {
+     "respuesta": "voir",
+     "explicacion": "Tras el auxiliar ai se necesita el participio, no el infinitivo."
+    }
+   ]
+  },
+  {
+   "id": "e16",
+   "tipo": "eleccion",
+   "enunciado": "Elige el pronombre correcto (escribo a mis amigos).",
+   "frase": "Mes amis ? Je ___ écris souvent.",
+   "opciones": [
+    "les",
+    "leur",
+    "leurs"
+   ],
+   "respuestas": [
+    "leur"
+   ],
+   "explicacion": "Écrire se construye con à + persona (écrire à ses amis), así que el complemento es indirecto. En plural es leur, que como pronombre nunca lleva -s, tal como subraya la ficha. Va delante del verbo écris y no se apostrofa ante vocal.",
+   "explicacion_breve": "Écrire à + personas en plural: leur, sin -s.",
+   "traduccion": "¿Mis amigos? Les escribo a menudo.",
+   "por_opcion": {
+    "les": "Incorrecta: les sustituye a un complemento directo; écrire lleva à + persona, así que es indirecto.",
+    "leur": "Correcta: indirecto plural, para à mes amis.",
+    "leurs": "Incorrecta: leurs con -s es el determinante posesivo (leurs amis); el pronombre leur es invariable."
+   }
+  }
  ],
- "fuente": {"nombre": "Tex's French Grammar", "autores": "COERLL, Universidad de Texas en Austin", "licencia": "CC BY 3.0", "url": "https://laits.utexas.edu/tex/gr/pro5.html", "otras": ["Frases de Tatoeba (CC BY 2.0 FR)"]}
+ "fuente": {
+  "nombre": "Tex's French Grammar",
+  "autores": "COERLL, Universidad de Texas en Austin",
+  "licencia": "CC BY 3.0",
+  "url": "https://laits.utexas.edu/tex/gr/pro5.html",
+  "otras": [
+   "Frases de Tatoeba (CC BY 2.0 FR)"
+  ]
+ },
+ "descripcion_larga_es": "Los pronombres de complemento directo (le, la, les) e indirecto (lui, leur) sustituyen a un objeto ya mencionado y evitan repetirlo. Son imprescindibles para hablar con fluidez. Al hispanohablante le cuestan por dos razones: la posición (delante del verbo, del auxiliar o del infinitivo) y que muchos verbos no rigen igual que en español: aimer o appeler son directos, y téléphoner à o répondre à, indirectos.",
+ "contexto": {
+  "que_es": "Son los pronombres átonos que sustituyen al complemento directo (le, la, les, l', además de me, te, nous, vous) o al complemento indirecto introducido por à + persona (lui, leur, y también me, te, nous, vous). Se colocan delante del verbo del que dependen, salvo en el imperativo afirmativo, donde van detrás con guion.",
+  "por_que_importa": "Sin pronombres el discurso se vuelve repetitivo y artificial; con ellos mal elegidos se producen errores muy visibles como je lui aime o je la téléphone. Son un contenido central del nivel A2 y aparecen en casi cualquier respuesta oral. Además, condicionan la concordancia del participio en los tiempos compuestos (je l'ai vue).",
+  "cuando_se_usa": "Se usan cuando el complemento ya se ha mencionado o es evidente por el contexto. Para elegir hay que mirar la construcción del verbo francés, no la española: si lleva à + persona (parler à, dire à, téléphoner à) se usa lui o leur; si no lleva preposición (voir, aimer, attendre, appeler), le, la o les. El hispanohablante suele colocar el pronombre delante de aller o pouvoir, como en «lo voy a llamar», pero en francés va delante del infinitivo."
+ }
 }

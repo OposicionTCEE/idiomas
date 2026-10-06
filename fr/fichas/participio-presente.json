@@ -1,58 +1,583 @@
 {
-  "id": "fr.g.participio-presente",
-  "titulo": "Participio presente y gerundio",
-  "titulo_es": "Participio presente y gerundio (participe présent et gérondif)",
-  "descripcion_es": "Formación en -ant; el gerundio en + -ant para simultaneidad, modo, medio o causa; tout en; diferencias con el gerundio español.",
-  "nivel": "B1",
-  "resumen": "La forma en -ant (parlant, finissant) sirve como participio presente, sobre todo en lengua escrita (= qui + verbo o puisque…), y precedida de en forma el gerundio (en parlant), que expresa una acción simultánea del mismo sujeto. Es invariable.",
-  "explicacion": [
-    {"tipo": "texto", "texto": "Formación: toma la forma nous del presente, quita -ons y añade -ant: nous parlons → parlant, nous finissons → finissant, nous faisons → faisant, nous prenons → prenant. Solo tres verbos son irregulares: être → étant, avoir → ayant, savoir → sachant."},
-    {"tipo": "tabla", "cabecera": ["Forma", "Uso", "Ejemplo"], "filas": [
-      ["Participio presente (sin en)", "Equivale a una relativa con qui (registro escrito)", "Les étudiants ayant une bourse ne paient pas (= qui ont une bourse)."],
-      ["Participio presente (sin en)", "Causa, como puisque / comme", "Tammy étant absente, je peux t'emmener (= puisque Tammy est absente)."],
-      ["Gerundio: en + -ant", "Simultaneidad (mientras, al)", "Il conduit en écoutant la radio."],
-      ["Gerundio: en + -ant", "Modo o medio (cómo)", "Il gagne sa vie en jouant du piano."],
-      ["Gerundio: en + -ant", "Condición o causa", "En partant maintenant, tu arriveras à l'heure."],
-      ["Gerundio: tout en + -ant", "Simultaneidad subrayada u oposición", "Il drague Bette tout en pensant à Tammy."]
-    ]},
-    {"tipo": "lista", "items": [
-      "El sujeto del gerundio debe ser el mismo que el del verbo principal: Je l'ai vu en sortant = yo salía.",
-      "El gerundio y el participio presente son invariables: Elles sont parties en courant.",
-      "La perífrasis española estar + gerundio no se traduce con -ant: estoy comiendo = je mange o je suis en train de manger.",
-      "Muchos gerundios españoles se traducen con infinitivo: seguir haciendo = continuer à faire; pasar el día leyendo = passer la journée à lire.",
-      "No confundir con el adjetivo verbal, que sí concuerda: des enfants obéissants (adjetivo) / des enfants obéissant à leurs parents (participio)."
-    ]}
-  ],
-  "ejemplos": [
-    {"frase": "Elle répondit en pleurant.", "traduccion": "Respondió llorando."},
-    {"frase": "Lucia apprend beaucoup en lisant.", "traduccion": "Lucía aprende mucho leyendo."},
-    {"frase": "J'ai rencontré Tom en allant à l'école.", "traduccion": "Me encontré con Tom yendo al colegio."},
-    {"frase": "Il sifflait tout en marchant.", "traduccion": "Silbaba mientras andaba."},
-    {"frase": "Ne sachant pas quoi dire, il s'est tu.", "traduccion": "Como no sabía qué decir, se calló."},
-    {"frase": "Je me suis cassé la jambe en skiant.", "traduccion": "Me rompí la pierna esquiando."}
-  ],
-  "errores_hispanohablantes": [
-    {"mal": "Je suis mangeant.", "bien": "Je suis en train de manger.", "nota": "La forma progresiva española (estoy comiendo) no existe con -ant: presente simple o être en train de + infinitivo."},
-    {"mal": "Il continue lisant.", "bien": "Il continue à lire.", "nota": "Seguir + gerundio se traduce con continuer à + infinitivo."},
-    {"mal": "En sortant du cinéma, la pluie a commencé.", "bien": "En sortant du cinéma, nous avons vu qu'il pleuvait.", "nota": "El gerundio debe tener el mismo sujeto que el verbo principal (la lluvia no sale del cine)."}
-  ],
-  "ejercicios": [
-    {"id": "e01", "tipo": "hueco", "enunciado": "Completa con el gerundio (en + -ant) del verbo entre paréntesis.", "frase": "Il parle ___ (dormir).", "respuestas": ["en dormant"], "explicacion": "Nous dormons → dorm- + -ant.", "origen": "tatoeba:1411417"},
-    {"id": "e02", "tipo": "hueco", "enunciado": "Completa con el gerundio (en + -ant) del verbo entre paréntesis.", "frase": "Tom dit bonjour ___ (sourire).", "respuestas": ["en souriant"], "explicacion": "Nous sourions → souri- + -ant; expresa el modo.", "origen": "tatoeba:7700576"},
-    {"id": "e03", "tipo": "hueco", "enunciado": "Completa con el gerundio (en + -ant) del verbo entre paréntesis.", "frase": "Elle rougit ___ (voir) cela.", "respuestas": ["en voyant"], "explicacion": "Nous voyons → voy- + -ant: «al ver eso».", "origen": "tatoeba:139237"},
-    {"id": "e04", "tipo": "hueco", "enunciado": "Completa con el gerundio (en + -ant) del verbo entre paréntesis.", "frase": "On ne lit pas ___ (manger).", "respuestas": ["en mangeant"], "explicacion": "Nous mangeons conserva la e: mangeant.", "origen": "tatoeba:7767"},
-    {"id": "e05", "tipo": "hueco", "enunciado": "Completa con el gerundio (en + -ant) del verbo entre paréntesis.", "frase": "Fiona écoute de la musique ___ (faire) ses devoirs.", "respuestas": ["en faisant"], "explicacion": "Nous faisons → fais- + -ant."},
-    {"id": "e06", "tipo": "hueco", "enunciado": "Completa con el gerundio (en + -ant) del verbo entre paréntesis.", "frase": "Le chien vint vers moi ___ (courir).", "respuestas": ["en courant"], "explicacion": "Nous courons → cour- + -ant: modo del movimiento.", "origen": "tatoeba:333958"},
-    {"id": "e07", "tipo": "hueco", "enunciado": "Completa con el participio presente (sin en).", "frase": "___ (être) malade, il n'est pas venu au bureau.", "respuestas": ["Étant", "étant", "Etant"], "explicacion": "Être tiene participio irregular: étant (causa: como estaba enfermo)."},
-    {"id": "e08", "tipo": "eleccion", "enunciado": "Elige la forma correcta.", "frase": "Il gagne sa vie ___ du piano.", "opciones": ["en jouant", "jouer", "à jouant", "en jouer"], "respuestas": ["en jouant"], "explicacion": "Medio por el que se consigue algo: en + gerundio.", "origen": "tatoeba:131317"},
-    {"id": "e09", "tipo": "eleccion", "enunciado": "Elige la forma correcta.", "frase": "Je me suis fait mal ___.", "opciones": ["en courant", "en courir", "courant", "à courir"], "respuestas": ["en courant"], "explicacion": "Simultaneidad/circunstancia: me hice daño corriendo.", "origen": "tatoeba:1091894"},
-    {"id": "e10", "tipo": "eleccion", "enunciado": "Elige la forma correcta.", "frase": "Les personnes ___ un billet peuvent entrer.", "opciones": ["ayant", "en ayant", "avant", "aient"], "respuestas": ["ayant"], "explicacion": "Participio presente con valor de relativa (= qui ont); avoir → ayant."},
-    {"id": "e11", "tipo": "eleccion", "enunciado": "Elige la forma correcta.", "frase": "Ne ___ pas la réponse, j'ai préféré me taire.", "opciones": ["sachant", "savant", "en sachant", "savoir"], "respuestas": ["sachant"], "explicacion": "Savoir tiene participio irregular sachant; aquí indica causa."},
-    {"id": "e12", "tipo": "corregir", "enunciado": "Corrige el error.", "frase": "Je suis lisant un roman policier.", "respuestas": ["Je suis en train de lire un roman policier.", "Je lis un roman policier."], "explicacion": "La forma progresiva española se traduce con presente o être en train de + infinitivo."},
-    {"id": "e13", "tipo": "corregir", "enunciado": "Corrige el error.", "frase": "Ne lis pas en marchent !", "respuestas": ["Ne lis pas en marchant !"], "explicacion": "El gerundio termina siempre en -ant.", "origen": "tatoeba:135020"},
-    {"id": "e14", "tipo": "transformar", "enunciado": "Une las dos frases con un gerundio.", "frase": "Elle lisait la lettre. Elle pleurait.", "respuestas": ["Elle pleurait en lisant la lettre.", "En lisant la lettre, elle pleurait."], "explicacion": "Dos acciones simultáneas del mismo sujeto: en + gerundio.", "origen": "tatoeba:494220"},
-    {"id": "e15", "tipo": "transformar", "enunciado": "Sustituye la relativa por un participio presente.", "frase": "Les touristes qui parlent français ont un guide gratuit.", "respuestas": ["Les touristes parlant français ont un guide gratuit."], "explicacion": "Qui + verbo puede sustituirse por el participio presente (registro escrito)."},
-    {"id": "e16", "tipo": "ordenar", "enunciado": "Ordena las palabras.", "palabras": ["traversé", "J'ai", "en", "parc", "le", "marchant"], "respuestas": ["J'ai traversé le parc en marchant"], "explicacion": "Verbo principal + complemento + gerundio de modo.", "origen": "tatoeba:8666"}
-  ],
-  "fuente": {"nombre": "Tex's French Grammar", "autores": "COERLL, Universidad de Texas en Austin", "licencia": "CC BY 3.0", "url": "https://laits.utexas.edu/tex/gr/vpp1.html", "otras": ["Frases de Tatoeba (CC BY 2.0 FR)"]}
+ "id": "fr.g.participio-presente",
+ "titulo": "Participio presente y gerundio",
+ "titulo_es": "Participio presente y gerundio (participe présent et gérondif)",
+ "descripcion_es": "Formación en -ant; el gerundio en + -ant para simultaneidad, modo, medio o causa; tout en; diferencias con el gerundio español.",
+ "nivel": "B1",
+ "resumen": "La forma en -ant (parlant, finissant) sirve como participio presente, sobre todo en lengua escrita (= qui + verbo o puisque…), y precedida de en forma el gerundio (en parlant), que expresa una acción simultánea del mismo sujeto. Es invariable.",
+ "explicacion": [
+  {
+   "tipo": "texto",
+   "texto": "Formación: toma la forma nous del presente, quita -ons y añade -ant: nous parlons → parlant, nous finissons → finissant, nous faisons → faisant, nous prenons → prenant. Solo tres verbos son irregulares: être → étant, avoir → ayant, savoir → sachant."
+  },
+  {
+   "tipo": "tabla",
+   "cabecera": [
+    "Forma",
+    "Uso",
+    "Ejemplo"
+   ],
+   "filas": [
+    [
+     "Participio presente (sin en)",
+     "Equivale a una relativa con qui (registro escrito)",
+     "Les étudiants ayant une bourse ne paient pas (= qui ont une bourse)."
+    ],
+    [
+     "Participio presente (sin en)",
+     "Causa, como puisque / comme",
+     "Tammy étant absente, je peux t'emmener (= puisque Tammy est absente)."
+    ],
+    [
+     "Gerundio: en + -ant",
+     "Simultaneidad (mientras, al)",
+     "Il conduit en écoutant la radio."
+    ],
+    [
+     "Gerundio: en + -ant",
+     "Modo o medio (cómo)",
+     "Il gagne sa vie en jouant du piano."
+    ],
+    [
+     "Gerundio: en + -ant",
+     "Condición o causa",
+     "En partant maintenant, tu arriveras à l'heure."
+    ],
+    [
+     "Gerundio: tout en + -ant",
+     "Simultaneidad subrayada u oposición",
+     "Il drague Bette tout en pensant à Tammy."
+    ]
+   ]
+  },
+  {
+   "tipo": "lista",
+   "items": [
+    "El sujeto del gerundio debe ser el mismo que el del verbo principal: Je l'ai vu en sortant = yo salía.",
+    "El gerundio y el participio presente son invariables: Elles sont parties en courant.",
+    "La perífrasis española estar + gerundio no se traduce con -ant: estoy comiendo = je mange o je suis en train de manger.",
+    "Muchos gerundios españoles se traducen con infinitivo: seguir haciendo = continuer à faire; pasar el día leyendo = passer la journée à lire.",
+    "No confundir con el adjetivo verbal, que sí concuerda: des enfants obéissants (adjetivo) / des enfants obéissant à leurs parents (participio)."
+   ]
+  }
+ ],
+ "ejemplos": [
+  {
+   "frase": "Elle répondit en pleurant.",
+   "traduccion": "Respondió llorando."
+  },
+  {
+   "frase": "Lucia apprend beaucoup en lisant.",
+   "traduccion": "Lucía aprende mucho leyendo."
+  },
+  {
+   "frase": "J'ai rencontré Tom en allant à l'école.",
+   "traduccion": "Me encontré con Tom yendo al colegio."
+  },
+  {
+   "frase": "Il sifflait tout en marchant.",
+   "traduccion": "Silbaba mientras andaba."
+  },
+  {
+   "frase": "Ne sachant pas quoi dire, il s'est tu.",
+   "traduccion": "Como no sabía qué decir, se calló."
+  },
+  {
+   "frase": "Je me suis cassé la jambe en skiant.",
+   "traduccion": "Me rompí la pierna esquiando."
+  }
+ ],
+ "errores_hispanohablantes": [
+  {
+   "mal": "Je suis mangeant.",
+   "bien": "Je suis en train de manger.",
+   "nota": "La forma progresiva española (estoy comiendo) no existe con -ant: presente simple o être en train de + infinitivo."
+  },
+  {
+   "mal": "Il continue lisant.",
+   "bien": "Il continue à lire.",
+   "nota": "Seguir + gerundio se traduce con continuer à + infinitivo."
+  },
+  {
+   "mal": "En sortant du cinéma, la pluie a commencé.",
+   "bien": "En sortant du cinéma, nous avons vu qu'il pleuvait.",
+   "nota": "El gerundio debe tener el mismo sujeto que el verbo principal (la lluvia no sale del cine)."
+  }
+ ],
+ "ejercicios": [
+  {
+   "id": "e01",
+   "tipo": "hueco",
+   "enunciado": "Completa con el gerundio (en + -ant) del verbo entre paréntesis.",
+   "frase": "Il parle ___ (dormir).",
+   "respuestas": [
+    "en dormant"
+   ],
+   "explicacion": "Se aplica la regla de formación de la ficha: se toma la forma nous del presente, nous dormons, se quita -ons y se añade -ant: dormant. El enunciado pide el gerundio, que se forma con en + -ant y expresa una acción simultánea del mismo sujeto: habla mientras duerme. La pista es que el sujeto (il) hace las dos cosas a la vez.",
+   "origen": "tatoeba:1411417",
+   "explicacion_breve": "Nous dormons → dorm- + -ant.",
+   "traduccion": "Habla dormido (en sueños).",
+   "errores_previstos": [
+    {
+     "respuesta": "dormant",
+     "explicacion": "Falta en: el enunciado pide el gerundio, en + -ant."
+    },
+    {
+     "respuesta": "en dormiant",
+     "explicacion": "La base es la forma nous, dormons: dorm- + -ant, sin i."
+    },
+    {
+     "respuesta": "en dormir",
+     "explicacion": "Tras en va la forma en -ant, no el infinitivo."
+    }
+   ]
+  },
+  {
+   "id": "e02",
+   "tipo": "hueco",
+   "enunciado": "Completa con el gerundio (en + -ant) del verbo entre paréntesis.",
+   "frase": "Tom dit bonjour ___ (sourire).",
+   "respuestas": [
+    "en souriant"
+   ],
+   "explicacion": "Se aplica la regla de formación: nous sourions, se quita -ons y queda souri-, al que se añade -ant: souriant. Con en delante es un gerundio de modo: dice cómo saluda Tom. Es el mismo uso que la tabla llama «modo o medio». La i de souri- se conserva porque forma parte de la raíz del verbo sourire.",
+   "origen": "tatoeba:7700576",
+   "explicacion_breve": "Nous sourions → souri- + -ant; expresa el modo.",
+   "traduccion": "Tom saluda sonriendo.",
+   "errores_previstos": [
+    {
+     "respuesta": "en sourant",
+     "explicacion": "Falta la i de la raíz: nous sourions → souriant."
+    },
+    {
+     "respuesta": "souriant",
+     "explicacion": "Sin en es participio presente o adjetivo («sonriente»); el enunciado pide el gerundio, en souriant."
+    },
+    {
+     "respuesta": "en sourire",
+     "explicacion": "Tras en va la forma en -ant, no el infinitivo."
+    }
+   ]
+  },
+  {
+   "id": "e03",
+   "tipo": "hueco",
+   "enunciado": "Completa con el gerundio (en + -ant) del verbo entre paréntesis.",
+   "frase": "Elle rougit ___ (voir) cela.",
+   "respuestas": [
+    "en voyant"
+   ],
+   "explicacion": "La regla de formación da nous voyons → voy- + -ant: voyant. El gerundio en voyant expresa aquí el momento o la causa, equivalente al español «al ver». La pista es que el sujeto elle se sonroja en el momento en que ve algo. En español usamos «al + infinitivo», pero en francés no se dice «au voir»: se usa el gerundio.",
+   "origen": "tatoeba:139237",
+   "explicacion_breve": "Nous voyons → voy- + -ant: «al ver eso».",
+   "traduccion": "Se sonroja al ver eso.",
+   "errores_previstos": [
+    {
+     "respuesta": "au voir",
+     "explicacion": "Calco de «al ver»: en francés esa idea se expresa con el gerundio, en voyant."
+    },
+    {
+     "respuesta": "en voiant",
+     "explicacion": "La forma nous es voyons, con y: voyant."
+    },
+    {
+     "respuesta": "en voir",
+     "explicacion": "Tras en va la forma en -ant: en voyant."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "rougir",
+     "significado": "sonrojarse, ponerse colorado"
+    }
+   ]
+  },
+  {
+   "id": "e04",
+   "tipo": "hueco",
+   "enunciado": "Completa con el gerundio (en + -ant) del verbo entre paréntesis.",
+   "frase": "On ne lit pas ___ (manger).",
+   "respuestas": [
+    "en mangeant"
+   ],
+   "explicacion": "La regla de formación parte de nous mangeons; esa e se conserva para que la g siga sonando suave delante de a: mangeant. El gerundio expresa simultaneidad: leer mientras se come. On es el sujeto de las dos acciones, como exige la ficha para el gerundio.",
+   "origen": "tatoeba:7767",
+   "explicacion_breve": "Nous mangeons conserva la e: mangeant.",
+   "traduccion": "No se lee comiendo.",
+   "errores_previstos": [
+    {
+     "respuesta": "en mangant",
+     "explicacion": "Sin la e, la g sonaría dura delante de a; la forma nous es mangeons, de ahí mangeant."
+    },
+    {
+     "respuesta": "mangeant",
+     "explicacion": "Falta en: el enunciado pide el gerundio."
+    },
+    {
+     "respuesta": "en comiendo",
+     "explicacion": "Es el gerundio español; en francés: en mangeant."
+    }
+   ]
+  },
+  {
+   "id": "e05",
+   "tipo": "hueco",
+   "enunciado": "Completa con el gerundio (en + -ant) del verbo entre paréntesis.",
+   "frase": "Fiona écoute de la musique ___ (faire) ses devoirs.",
+   "respuestas": [
+    "en faisant"
+   ],
+   "explicacion": "Se forma desde nous faisons: fais- + -ant, faisant. Aunque faire es irregular en otras formas, su participio presente sigue la regla general (solo être, avoir y savoir son irregulares). El gerundio en faisant indica que Fiona hace dos cosas a la vez, el uso de simultaneidad de la tabla.",
+   "explicacion_breve": "Nous faisons → fais- + -ant.",
+   "traduccion": "Fiona escucha música mientras hace los deberes.",
+   "errores_previstos": [
+    {
+     "respuesta": "en fesant",
+     "explicacion": "Se pronuncia parecido, pero se escribe faisant, como nous faisons."
+    },
+    {
+     "respuesta": "en faisand",
+     "explicacion": "La terminación es siempre -ant, con t."
+    },
+    {
+     "respuesta": "faisant",
+     "explicacion": "Falta en: el enunciado pide el gerundio."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "devoirs",
+     "significado": "deberes (tareas escolares)"
+    }
+   ]
+  },
+  {
+   "id": "e06",
+   "tipo": "hueco",
+   "enunciado": "Completa con el gerundio (en + -ant) del verbo entre paréntesis.",
+   "frase": "Le chien vint vers moi ___ (courir).",
+   "respuestas": [
+    "en courant"
+   ],
+   "explicacion": "La regla de formación da nous courons → cour- + -ant: courant. Con en es un gerundio de modo, que describe cómo se mueve el perro. Es invariable, como recuerda la ficha. Vint es el passé simple de venir, propio de la narración escrita, pero no afecta a la forma del gerundio.",
+   "origen": "tatoeba:333958",
+   "explicacion_breve": "Nous courons → cour- + -ant: modo del movimiento.",
+   "traduccion": "El perro vino hacia mí corriendo.",
+   "errores_previstos": [
+    {
+     "respuesta": "en courrant",
+     "explicacion": "Courir se escribe con una sola r en el gerundio: courant."
+    },
+    {
+     "respuesta": "en courir",
+     "explicacion": "Tras en va la forma en -ant."
+    },
+    {
+     "respuesta": "courant",
+     "explicacion": "Falta en: el enunciado pide el gerundio."
+    }
+   ]
+  },
+  {
+   "id": "e07",
+   "tipo": "hueco",
+   "enunciado": "Completa con el participio presente (sin en).",
+   "frase": "___ (être) malade, il n'est pas venu au bureau.",
+   "respuestas": [
+    "Étant",
+    "étant",
+    "Etant"
+   ],
+   "explicacion": "Être es uno de los tres verbos con participio presente irregular que recoge la ficha: étant. Sin en, el participio presente tiene aquí valor causal, como «como estaba enfermo» o «puisqu'il était malade» (uso de la tabla «Causa»). El sujeto implícito es il, el mismo de la principal. Se acepta Etant sin acento porque en mayúscula el acento a veces se omite, aunque lo recomendable es escribirlo.",
+   "explicacion_breve": "Être tiene participio irregular: étant (causa: como estaba enfermo).",
+   "traduccion": "Como estaba enfermo, no vino a la oficina.",
+   "errores_previstos": [
+    {
+     "respuesta": "En étant",
+     "explicacion": "El enunciado pide el participio presente sin en; con valor causal en registro escrito basta étant."
+    },
+    {
+     "respuesta": "Étant été",
+     "explicacion": "La forma simple es étant; étant été no existe."
+    },
+    {
+     "respuesta": "Ayant",
+     "explicacion": "Ayant es de avoir; aquí el verbo es être: étant malade."
+    }
+   ]
+  },
+  {
+   "id": "e08",
+   "tipo": "eleccion",
+   "enunciado": "Elige la forma correcta.",
+   "frase": "Il gagne sa vie ___ du piano.",
+   "opciones": [
+    "en jouant",
+    "jouer",
+    "à jouant",
+    "en jouer"
+   ],
+   "respuestas": [
+    "en jouant"
+   ],
+   "explicacion": "Se aplica el uso del gerundio de «modo o medio» de la tabla: en jouant indica cómo se gana la vida. La pista es la pregunta implícita «¿cómo?», y que el sujeto (il) es el mismo en las dos acciones. Es exactamente el ejemplo de la ficha. Jouer du piano lleva du porque se trata de tocar un instrumento.",
+   "origen": "tatoeba:131317",
+   "explicacion_breve": "Medio por el que se consigue algo: en + gerundio.",
+   "traduccion": "Se gana la vida tocando el piano.",
+   "por_opcion": {
+    "en jouant": "Correcta: gerundio de medio, en + -ant.",
+    "jouer": "Incorrecta: un infinitivo no puede unirse así al verbo principal para expresar el medio.",
+    "à jouant": "Incorrecta: la preposición del gerundio es en, nunca à.",
+    "en jouer": "Incorrecta: tras en va la forma en -ant, no el infinitivo."
+   }
+  },
+  {
+   "id": "e09",
+   "tipo": "eleccion",
+   "enunciado": "Elige la forma correcta.",
+   "frase": "Je me suis fait mal ___.",
+   "opciones": [
+    "en courant",
+    "en courir",
+    "courant",
+    "à courir"
+   ],
+   "respuestas": [
+    "en courant"
+   ],
+   "explicacion": "Es el gerundio de circunstancia o simultaneidad de la tabla: me hice daño mientras corría. El sujeto je es el mismo en las dos acciones. Courir da courant (nous courons) y en lo convierte en gerundio. En la lengua hablada también se oye «je me suis fait mal à courir», pero tiene más bien sentido de «a fuerza de correr»; la ficha pide el gerundio.",
+   "origen": "tatoeba:1091894",
+   "explicacion_breve": "Simultaneidad/circunstancia: me hice daño corriendo.",
+   "traduccion": "Me hice daño corriendo.",
+   "por_opcion": {
+    "en courant": "Correcta: gerundio que indica en qué circunstancia ocurrió el daño.",
+    "en courir": "Incorrecta: tras en va la forma en -ant.",
+    "courant": "Incorrecta: sin en sería participio presente, propio de relativas o causas en registro escrito, y aquí no encaja.",
+    "à courir": "Incorrecta para lo que trabaja la ficha: à + infinitivo se oye en la lengua hablada con matiz de «a fuerza de correr», pero para la circunstancia la forma normal es el gerundio en courant."
+   }
+  },
+  {
+   "id": "e10",
+   "tipo": "eleccion",
+   "enunciado": "Elige la forma correcta.",
+   "frase": "Les personnes ___ un billet peuvent entrer.",
+   "opciones": [
+    "ayant",
+    "en ayant",
+    "avant",
+    "aient"
+   ],
+   "respuestas": [
+    "ayant"
+   ],
+   "explicacion": "Es el uso del participio presente que la tabla describe como equivalente a una relativa con qui, propio del registro escrito: les personnes ayant un billet = les personnes qui ont un billet. Avoir es uno de los tres verbos irregulares: ayant. No lleva en, porque no es un gerundio: no describe cómo entran, sino a quién se refiere.",
+   "explicacion_breve": "Participio presente con valor de relativa (= qui ont); avoir → ayant.",
+   "traduccion": "Las personas que tengan entrada pueden entrar.",
+   "por_opcion": {
+    "ayant": "Correcta: participio presente irregular de avoir, con valor de relativa.",
+    "en ayant": "Incorrecta: el gerundio expresaría el modo o la condición del verbo principal, no una característica de las personas.",
+    "avant": "Incorrecta: avant significa «antes»; se parece a ayant, pero no es una forma de avoir.",
+    "aient": "Incorrecta: es subjuntivo y necesitaría qui delante y un contexto que lo pida."
+   },
+   "glosario": [
+    {
+     "palabra": "billet",
+     "significado": "entrada, billete"
+    }
+   ]
+  },
+  {
+   "id": "e11",
+   "tipo": "eleccion",
+   "enunciado": "Elige la forma correcta.",
+   "frase": "Ne ___ pas la réponse, j'ai préféré me taire.",
+   "opciones": [
+    "sachant",
+    "savant",
+    "en sachant",
+    "savoir"
+   ],
+   "respuestas": [
+    "sachant"
+   ],
+   "explicacion": "Savoir es uno de los tres verbos irregulares de la ficha: su participio presente es sachant (no savant). Sin en tiene valor causal, «como no sabía», el mismo uso que el ejemplo Ne sachant pas quoi dire, il s'est tu. La negación ne… pas rodea el participio, como rodea a cualquier verbo.",
+   "explicacion_breve": "Savoir tiene participio irregular sachant; aquí indica causa.",
+   "traduccion": "Como no sabía la respuesta, preferí callarme.",
+   "por_opcion": {
+    "sachant": "Correcta: participio presente irregular de savoir, con valor causal.",
+    "savant": "Incorrecta: savant es un adjetivo o sustantivo, «sabio, erudito»; no es la forma verbal.",
+    "en sachant": "Incorrecta: con valor causal y la negación ne… pas se usa el participio sin en.",
+    "savoir": "Incorrecta: el infinitivo no puede llevar ne… pas alrededor de esta forma ni funcionar como causa aquí."
+   },
+   "glosario": [
+    {
+     "palabra": "se taire",
+     "significado": "callarse"
+    }
+   ]
+  },
+  {
+   "id": "e12",
+   "tipo": "corregir",
+   "enunciado": "Corrige el error.",
+   "frase": "Je suis lisant un roman policier.",
+   "respuestas": [
+    "Je suis en train de lire un roman policier.",
+    "Je lis un roman policier."
+   ],
+   "explicacion": "Es el primer error típico de la ficha: la perífrasis española «estar + gerundio» no se traduce con -ant. En francés se usa el presente simple (je lis) o, para subrayar que la acción está en curso, être en train de + infinitivo. Por eso se aceptan las dos correcciones. Je suis lisant no existe en francés.",
+   "explicacion_breve": "La forma progresiva española se traduce con presente o être en train de + infinitivo.",
+   "traduccion": "Estoy leyendo una novela policíaca.",
+   "errores_previstos": [
+    {
+     "respuesta": "Je suis lisant un roman policier.",
+     "explicacion": "Es la frase sin corregir: el francés no tiene forma progresiva con -ant."
+    },
+    {
+     "respuesta": "Je suis en lisant un roman policier.",
+     "explicacion": "El gerundio no puede ir tras être; la perífrasis es être en train de lire."
+    },
+    {
+     "respuesta": "Je suis en train de lisant un roman policier.",
+     "explicacion": "Être en train de va seguido de infinitivo: de lire."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "roman policier",
+     "significado": "novela policíaca"
+    },
+    {
+     "palabra": "être en train de",
+     "significado": "estar (haciendo algo)"
+    }
+   ]
+  },
+  {
+   "id": "e13",
+   "tipo": "corregir",
+   "enunciado": "Corrige el error.",
+   "frase": "Ne lis pas en marchent !",
+   "respuestas": [
+    "Ne lis pas en marchant !"
+   ],
+   "explicacion": "Según la regla de formación de la ficha, el gerundio termina siempre en -ant: nous marchons → marchant. Marchent es la tercera persona del plural del presente (ils marchent), que suena igual. La pista es la preposición en, que solo puede ir seguida de la forma en -ant.",
+   "origen": "tatoeba:135020",
+   "explicacion_breve": "El gerundio termina siempre en -ant.",
+   "traduccion": "¡No leas mientras andas!",
+   "errores_previstos": [
+    {
+     "respuesta": "Ne lis pas en marchent !",
+     "explicacion": "Es la frase sin corregir: marchent es presente; el gerundio es marchant."
+    },
+    {
+     "respuesta": "Ne lis pas en marcher !",
+     "explicacion": "Tras en va la forma en -ant, no el infinitivo."
+    },
+    {
+     "respuesta": "Ne lis pas en marchand !",
+     "explicacion": "Marchand es un sustantivo, «comerciante»; el gerundio termina en -ant."
+    }
+   ]
+  },
+  {
+   "id": "e14",
+   "tipo": "transformar",
+   "enunciado": "Une las dos frases con un gerundio.",
+   "frase": "Elle lisait la lettre. Elle pleurait.",
+   "respuestas": [
+    "Elle pleurait en lisant la lettre.",
+    "En lisant la lettre, elle pleurait."
+   ],
+   "explicacion": "Se aplica la regla de que el gerundio une dos acciones simultáneas del mismo sujeto. Una de las dos frases se mantiene como principal (elle pleurait) y la otra pasa a gerundio (en lisant la lettre). La ficha acepta el gerundio detrás o delante de la principal. Lire da lisant, a partir de nous lisons.",
+   "origen": "tatoeba:494220",
+   "explicacion_breve": "Dos acciones simultáneas del mismo sujeto: en + gerundio.",
+   "traduccion": "Lloraba mientras leía la carta.",
+   "errores_previstos": [
+    {
+     "respuesta": "Elle pleurait en lisait la lettre.",
+     "explicacion": "Tras en va la forma en -ant: lisant."
+    },
+    {
+     "respuesta": "Elle pleurait lisant la lettre.",
+     "explicacion": "Falta en: sin él no hay gerundio de simultaneidad."
+    },
+    {
+     "respuesta": "Elle pleurait en lirant la lettre.",
+     "explicacion": "La base es nous lisons: lisant."
+    }
+   ]
+  },
+  {
+   "id": "e15",
+   "tipo": "transformar",
+   "enunciado": "Sustituye la relativa por un participio presente.",
+   "frase": "Les touristes qui parlent français ont un guide gratuit.",
+   "respuestas": [
+    "Les touristes parlant français ont un guide gratuit."
+   ],
+   "explicacion": "Es el uso del participio presente equivalente a una relativa con qui de la tabla: qui parlent se sustituye por parlant. Es propio del registro escrito, como en un folleto. El participio es invariable, así que no concuerda con touristes. No lleva en, porque describe a los turistas, no el modo de una acción.",
+   "explicacion_breve": "Qui + verbo puede sustituirse por el participio presente (registro escrito).",
+   "traduccion": "Los turistas que hablan francés tienen un guía gratuito.",
+   "errores_previstos": [
+    {
+     "respuesta": "Les touristes parlants français ont un guide gratuit.",
+     "explicacion": "El participio presente con complemento es invariable: parlant."
+    },
+    {
+     "respuesta": "Les touristes en parlant français ont un guide gratuit.",
+     "explicacion": "Con en sería un gerundio («al hablar francés») y cambiaría el sentido."
+    },
+    {
+     "respuesta": "Les touristes qui parlant français ont un guide gratuit.",
+     "explicacion": "El participio sustituye a qui + verbo: hay que quitar qui."
+    }
+   ]
+  },
+  {
+   "id": "e16",
+   "tipo": "ordenar",
+   "enunciado": "Ordena las palabras.",
+   "palabras": [
+    "traversé",
+    "J'ai",
+    "en",
+    "parc",
+    "le",
+    "marchant"
+   ],
+   "respuestas": [
+    "J'ai traversé le parc en marchant"
+   ],
+   "explicacion": "La estructura es verbo principal + complemento + gerundio de modo: j'ai traversé le parc + en marchant. El gerundio va al final porque indica cómo se cruzó el parque. El sujeto (je) es el mismo para ambas acciones, como exige la ficha.",
+   "origen": "tatoeba:8666",
+   "explicacion_breve": "Verbo principal + complemento + gerundio de modo.",
+   "traduccion": "Crucé el parque andando.",
+   "errores_previstos": [
+    {
+     "respuesta": "J'ai traversé en le parc marchant",
+     "explicacion": "En y la forma en -ant van juntos: en marchant."
+    },
+    {
+     "respuesta": "J'ai en marchant traversé le parc",
+     "explicacion": "El gerundio no puede ir entre el auxiliar y el participio; va al final o al principio de la frase."
+    }
+   ]
+  }
+ ],
+ "fuente": {
+  "nombre": "Tex's French Grammar",
+  "autores": "COERLL, Universidad de Texas en Austin",
+  "licencia": "CC BY 3.0",
+  "url": "https://laits.utexas.edu/tex/gr/vpp1.html",
+  "otras": [
+   "Frases de Tatoeba (CC BY 2.0 FR)"
+  ]
+ },
+ "descripcion_larga_es": "La forma en -ant tiene dos usos: sola es el participio presente, propio del registro escrito, que equivale a una relativa (qui + verbo) o a una causa; precedida de en es el gerundio, que expresa cómo, cuándo o por qué se hace algo. Es muy frecuente y sustituye a muchos gerundios españoles, pero no a todos: «estoy comiendo» o «sigo leyendo» se dicen de otra manera en francés.",
+ "contexto": {
+  "que_es": "Es la forma verbal en -ant, que se obtiene de la forma nous del presente quitando -ons (parlons → parlant); solo être, avoir y savoir son irregulares (étant, ayant, sachant). Sin preposición es el participio presente; con en delante es el gerundio. Ambas formas son invariables, a diferencia del adjetivo verbal (des enfants obéissants), que sí concuerda.",
+  "por_que_importa": "El gerundio es muy frecuente en la lengua oral y escrita para expresar simultaneidad, modo, medio o condición (j'ai appris le français en lisant). El participio presente es típico de textos formales, administrativos y de prensa. Usar -ant donde el español usa gerundio sin pensar lleva a errores muy visibles (je suis mangeant, il continue lisant) y a frases ambiguas si el sujeto no coincide.",
+  "cuando_se_usa": "El gerundio se usa cuando dos acciones del mismo sujeto ocurren a la vez o una explica cómo se hace la otra; las señales son «mientras», «al», «haciendo algo». El participio presente aparece en lugar de qui + verbo o de comme/puisque en la lengua escrita. El hispanohablante tiende a traducir todo gerundio español por -ant; pero «estar + gerundio» es presente o être en train de, y «seguir + gerundio» es continuer à + infinitivo."
+ }
 }

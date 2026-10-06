@@ -6,49 +6,521 @@
  "nivel": "B2",
  "resumen": "El tercer condicional imagina un pasado distinto y su consecuencia en el pasado (si hubiera… habría…). Los condicionales mixtos combinan una condición pasada con un resultado presente, o una situación presente con un resultado pasado.",
  "explicacion": [
-  {"tipo": "tabla", "cabecera": ["Tipo", "Condición (if)", "Resultado", "Ejemplo"], "filas": [
-   ["Tercer condicional", "had + participio", "would/could/might have + participio", "If I had left earlier, I would have caught the train."],
-   ["Mixto: pasado → presente", "had + participio", "would + infinitivo", "If I had taken the job, I would live in London now."],
-   ["Mixto: presente → pasado", "pasado simple", "would have + participio", "If I spoke French, I would have understood the guide."]
-  ]},
-  {"tipo": "texto", "texto": "El tercer condicional habla de algo que no ocurrió: la condición y el resultado son ambos pasados e imposibles de cambiar. Equivale a «si hubiera hecho, habría hecho»."},
-  {"tipo": "texto", "texto": "Nunca va would en la parte con if: If I had known (no If I would have known). En el habla, 'd puede ser had o would: If I'd known, I'd have told you."},
-  {"tipo": "lista", "items": [
-   "Could have / might have en el resultado expresan posibilidad: If you had asked, I might have helped.",
-   "Inversión formal sin if: Had I known, I would have told you (= If I had known).",
-   "But for + nombre / If it hadn't been for + nombre: «de no ser por».",
-   "Pista para los mixtos: fíjate en las marcas temporales (now, today, yesterday, last year)."
-  ]}
+  {
+   "tipo": "tabla",
+   "cabecera": [
+    "Tipo",
+    "Condición (if)",
+    "Resultado",
+    "Ejemplo"
+   ],
+   "filas": [
+    [
+     "Tercer condicional",
+     "had + participio",
+     "would/could/might have + participio",
+     "If I had left earlier, I would have caught the train."
+    ],
+    [
+     "Mixto: pasado → presente",
+     "had + participio",
+     "would + infinitivo",
+     "If I had taken the job, I would live in London now."
+    ],
+    [
+     "Mixto: presente → pasado",
+     "pasado simple",
+     "would have + participio",
+     "If I spoke French, I would have understood the guide."
+    ]
+   ]
+  },
+  {
+   "tipo": "texto",
+   "texto": "El tercer condicional habla de algo que no ocurrió: la condición y el resultado son ambos pasados e imposibles de cambiar. Equivale a «si hubiera hecho, habría hecho»."
+  },
+  {
+   "tipo": "texto",
+   "texto": "Nunca va would en la parte con if: If I had known (no If I would have known). En el habla, 'd puede ser had o would: If I'd known, I'd have told you."
+  },
+  {
+   "tipo": "lista",
+   "items": [
+    "Could have / might have en el resultado expresan posibilidad: If you had asked, I might have helped.",
+    "Inversión formal sin if: Had I known, I would have told you (= If I had known).",
+    "But for + nombre / If it hadn't been for + nombre: «de no ser por».",
+    "Pista para los mixtos: fíjate en las marcas temporales (now, today, yesterday, last year)."
+   ]
+  }
  ],
  "ejemplos": [
-  {"frase": "If we had booked earlier, we would have got better seats.", "traduccion": "Si hubiéramos reservado antes, habríamos conseguido mejores asientos."},
-  {"frase": "She wouldn't have missed the flight if the taxi had arrived on time.", "traduccion": "No habría perdido el vuelo si el taxi hubiera llegado a tiempo."},
-  {"frase": "If I hadn't broken my leg, I would be playing in the final today.", "traduccion": "Si no me hubiera roto la pierna, hoy estaría jugando la final."},
-  {"frase": "If he were more careful, he wouldn't have crashed the car.", "traduccion": "Si fuera más cuidadoso, no habría estrellado el coche."},
-  {"frase": "Had the bank lowered rates sooner, the recession might have been shorter.", "traduccion": "Si el banco hubiera bajado los tipos antes, la recesión podría haber sido más corta."},
-  {"frase": "If it hadn't been for your help, I would never have finished the thesis.", "traduccion": "De no ser por tu ayuda, nunca habría terminado la tesis."}
+  {
+   "frase": "If we had booked earlier, we would have got better seats.",
+   "traduccion": "Si hubiéramos reservado antes, habríamos conseguido mejores asientos."
+  },
+  {
+   "frase": "She wouldn't have missed the flight if the taxi had arrived on time.",
+   "traduccion": "No habría perdido el vuelo si el taxi hubiera llegado a tiempo."
+  },
+  {
+   "frase": "If I hadn't broken my leg, I would be playing in the final today.",
+   "traduccion": "Si no me hubiera roto la pierna, hoy estaría jugando la final."
+  },
+  {
+   "frase": "If he were more careful, he wouldn't have crashed the car.",
+   "traduccion": "Si fuera más cuidadoso, no habría estrellado el coche."
+  },
+  {
+   "frase": "Had the bank lowered rates sooner, the recession might have been shorter.",
+   "traduccion": "Si el banco hubiera bajado los tipos antes, la recesión podría haber sido más corta."
+  },
+  {
+   "frase": "If it hadn't been for your help, I would never have finished the thesis.",
+   "traduccion": "De no ser por tu ayuda, nunca habría terminado la tesis."
+  }
  ],
  "errores_hispanohablantes": [
-  {"mal": "If I would have known, I would have come.", "bien": "If I had known, I would have come.", "nota": "En la parte con if se usa had + participio, nunca would."},
-  {"mal": "If I had studied medicine, I would have been a doctor now.", "bien": "If I had studied medicine, I would be a doctor now.", "nota": "Con now el resultado es presente: condicional mixto con would + infinitivo."},
-  {"mal": "If you would have told me, I had helped you.", "bien": "If you had told me, I would have helped you.", "nota": "Se invierte el orden típico del calco: had va con if y would have en el resultado."}
+  {
+   "mal": "If I would have known, I would have come.",
+   "bien": "If I had known, I would have come.",
+   "nota": "En la parte con if se usa had + participio, nunca would."
+  },
+  {
+   "mal": "If I had studied medicine, I would have been a doctor now.",
+   "bien": "If I had studied medicine, I would be a doctor now.",
+   "nota": "Con now el resultado es presente: condicional mixto con would + infinitivo."
+  },
+  {
+   "mal": "If you would have told me, I had helped you.",
+   "bien": "If you had told me, I would have helped you.",
+   "nota": "Se invierte el orden típico del calco: had va con if y would have en el resultado."
+  }
  ],
  "ejercicios": [
-  {"id": "e01", "tipo": "hueco", "enunciado": "Completa con la forma correcta (tercer condicional).", "frase": "If she ___ (not / forget) her passport, she would have flown to Lisbon.", "respuestas": ["hadn't forgotten", "had not forgotten"], "explicacion": "La condición irreal pasada va en past perfect."},
-  {"id": "e02", "tipo": "hueco", "enunciado": "Completa con la forma correcta (tercer condicional).", "frase": "If you had asked me, I ___ (lend) you the money.", "respuestas": ["would have lent", "'d have lent"], "explicacion": "El resultado del tercer condicional es would have + participio (lend → lent)."},
-  {"id": "e03", "tipo": "hueco", "enunciado": "Completa el condicional mixto.", "frase": "If I had saved more when I was young, I ___ (be) rich now.", "respuestas": ["would be", "'d be"], "explicacion": "Causa pasada con resultado presente (now): would + infinitivo."},
-  {"id": "e04", "tipo": "hueco", "enunciado": "Completa el condicional mixto.", "frase": "If he ___ (be) a better swimmer, he would have crossed the river easily.", "respuestas": ["were", "was"], "explicacion": "Rasgo presente y permanente (no es buen nadador) con resultado pasado: pasado simple en la condición."},
-  {"id": "e05", "tipo": "eleccion", "enunciado": "Elige la opción correcta.", "frase": "If they ___ the warning signs, the accident wouldn't have happened.", "opciones": ["had noticed", "would have noticed", "noticed", "have noticed"], "respuestas": ["had noticed"], "explicacion": "Tercer condicional: if + past perfect."},
-  {"id": "e06", "tipo": "eleccion", "enunciado": "Elige la opción correcta.", "frase": "If I hadn't missed the bus this morning, I ___ late for work now.", "opciones": ["wouldn't have been", "wouldn't be", "won't be"], "respuestas": ["wouldn't be"], "explicacion": "Causa pasada, resultado presente (now): condicional mixto."},
-  {"id": "e07", "tipo": "eleccion", "enunciado": "Elige la opción correcta.", "frase": "___ for the rain, we would have finished the match.", "opciones": ["If it hadn't been", "Had not been", "If it wasn't", "Unless it had been"], "respuestas": ["If it hadn't been"], "explicacion": "If it hadn't been for = de no ser por (en pasado)."},
-  {"id": "e08", "tipo": "corregir", "enunciado": "Corrige el error.", "frase": "If we would have left earlier, we would have avoided the traffic.", "respuestas": ["If we had left earlier, we would have avoided the traffic.", "If we'd left earlier, we would have avoided the traffic.", "If we had left earlier, we'd have avoided the traffic."], "explicacion": "No se usa would en la parte con if."},
-  {"id": "e09", "tipo": "corregir", "enunciado": "Corrige el error.", "frase": "If I had accepted that offer, I would have lived in Canada now.", "respuestas": ["If I had accepted that offer, I would live in Canada now.", "If I had accepted that offer, I'd live in Canada now.", "If I'd accepted that offer, I would live in Canada now."], "explicacion": "Con now el resultado es presente: would + infinitivo."},
-  {"id": "e10", "tipo": "corregir", "enunciado": "Corrige el error.", "frase": "If she had studied harder, she would pass the exam last June.", "respuestas": ["If she had studied harder, she would have passed the exam last June.", "If she had studied harder, she'd have passed the exam last June."], "explicacion": "El resultado se refiere al pasado (last June): would have + participio."},
-  {"id": "e11", "tipo": "transformar", "enunciado": "Une las ideas en una frase con tercer condicional que empiece por If.", "frase": "I didn't know you were ill, so I didn't visit you.", "respuestas": ["If I had known you were ill, I would have visited you.", "If I'd known you were ill, I would have visited you.", "If I had known you were ill, I'd have visited you.", "If I'd known you were ill, I'd have visited you."], "explicacion": "Se invierten las dos realidades negativas en hipótesis afirmativas."},
-  {"id": "e12", "tipo": "transformar", "enunciado": "Reescribe la frase con inversión, sin if.", "frase": "If I had known about the strike, I would have taken the car.", "respuestas": ["Had I known about the strike, I would have taken the car.", "Had I known about the strike, I'd have taken the car."], "explicacion": "En registro formal, had pasa delante del sujeto y desaparece if."},
-  {"id": "e13", "tipo": "transformar", "enunciado": "Une las ideas en un condicional mixto que empiece por If.", "frase": "He didn't take the medicine, so he is ill now.", "respuestas": ["If he had taken the medicine, he wouldn't be ill now.", "If he had taken the medicine, he would not be ill now.", "If he'd taken the medicine, he wouldn't be ill now."], "explicacion": "Causa pasada (past perfect) y resultado presente (would + infinitivo)."},
-  {"id": "e14", "tipo": "ordenar", "enunciado": "Ordena las palabras.", "palabras": ["have", "if", "called", "you", "had", "I", "would", "come"], "respuestas": ["if you had called I would have come", "I would have come if you had called"], "explicacion": "If + past perfect, would have + participio."},
-  {"id": "e15", "tipo": "ordenar", "enunciado": "Ordena las palabras.", "palabras": ["might", "they", "won", "have", "the", "game"], "respuestas": ["they might have won the game"], "explicacion": "Might have + participio expresa un resultado posible, no seguro."}
+  {
+   "id": "e01",
+   "tipo": "hueco",
+   "enunciado": "Completa con la forma correcta (tercer condicional).",
+   "frase": "If she ___ (not / forget) her passport, she would have flown to Lisbon.",
+   "respuestas": [
+    "hadn't forgotten",
+    "had not forgotten"
+   ],
+   "explicacion": "Se aplica la primera fila de la tabla: en el tercer condicional la parte con if va en past perfect (had + participio). La pista es el resultado, would have flown, que sitúa todo en un pasado irreal: en realidad se olvidó el pasaporte y no voló. La negación se forma con hadn't o had not + forgotten, participio irregular de forget; valen las dos formas.",
+   "explicacion_breve": "La condición irreal pasada va en past perfect.",
+   "traduccion": "Si no se hubiera olvidado el pasaporte, habría volado a Lisboa.",
+   "errores_previstos": [
+    {
+     "respuesta": "wouldn't have forgotten",
+     "explicacion": "Nunca va would en la parte con if; la condición va en past perfect: hadn't forgotten."
+    },
+    {
+     "respuesta": "didn't forget",
+     "explicacion": "Pasado simple: sería segundo condicional y no encaja con el resultado would have flown."
+    },
+    {
+     "respuesta": "hadn't forgot",
+     "explicacion": "El participio de forget es forgotten; forgot es el pasado simple."
+    }
+   ]
+  },
+  {
+   "id": "e02",
+   "tipo": "hueco",
+   "enunciado": "Completa con la forma correcta (tercer condicional).",
+   "frase": "If you had asked me, I ___ (lend) you the money.",
+   "respuestas": [
+    "would have lent",
+    "'d have lent",
+    "would've lent"
+   ],
+   "explicacion": "Se aplica la tabla del tercer condicional: la condición en past perfect (had asked) pide en el resultado would have + participio. La pista es had asked en la parte con if. Lend es irregular (lend, lent, lent), así que el participio es lent. Se aceptan también las contracciones 'd have lent y would've lent.",
+   "explicacion_breve": "El resultado del tercer condicional es would have + participio (lend → lent).",
+   "traduccion": "Si me lo hubieras pedido, te habría prestado el dinero.",
+   "errores_previstos": [
+    {
+     "respuesta": "would have lend",
+     "explicacion": "Tras have va el participio: lent, no el infinitivo lend."
+    },
+    {
+     "respuesta": "would lend",
+     "explicacion": "Would + infinitivo es resultado presente; con had asked y sin now el resultado es pasado: would have lent."
+    },
+    {
+     "respuesta": "would have lended",
+     "explicacion": "Lend es irregular: el participio es lent."
+    }
+   ]
+  },
+  {
+   "id": "e03",
+   "tipo": "hueco",
+   "enunciado": "Completa el condicional mixto.",
+   "frase": "If I had saved more when I was young, I ___ (be) rich now.",
+   "respuestas": [
+    "would be",
+    "'d be"
+   ],
+   "explicacion": "Se aplica el condicional mixto de pasado a presente de la tabla: condición en past perfect y resultado con would + infinitivo. La pista decisiva es now al final: la consecuencia de no haber ahorrado se nota en el presente. Por eso se dice would be, no would have been. Vale también la contracción 'd be.",
+   "explicacion_breve": "Causa pasada con resultado presente (now): would + infinitivo.",
+   "traduccion": "Si hubiera ahorrado más de joven, ahora sería rico.",
+   "errores_previstos": [
+    {
+     "respuesta": "would have been",
+     "explicacion": "Es el error típico que recoge la ficha: con now el resultado es presente, would be."
+    },
+    {
+     "respuesta": "will be",
+     "explicacion": "Will expresa un resultado real; aquí la situación es irreal: would be."
+    },
+    {
+     "respuesta": "am",
+     "explicacion": "El presente indicaría un hecho, no una hipótesis; hace falta would be."
+    }
+   ]
+  },
+  {
+   "id": "e04",
+   "tipo": "hueco",
+   "enunciado": "Completa el condicional mixto.",
+   "frase": "If he ___ (be) a better swimmer, he would have crossed the river easily.",
+   "respuestas": [
+    "were",
+    "was"
+   ],
+   "explicacion": "Se aplica el condicional mixto de presente a pasado de la tabla: pasado simple en la condición y would have + participio en el resultado. La pista es que ser buen nadador es un rasgo permanente (no lo es, ni ahora ni antes), mientras que cruzar el río fue un hecho concreto del pasado. Se acepta were, forma cuidada para todas las personas, y was, más coloquial.",
+   "explicacion_breve": "Rasgo presente y permanente (no es buen nadador) con resultado pasado: pasado simple en la condición.",
+   "traduccion": "Si fuera mejor nadador, habría cruzado el río fácilmente.",
+   "errores_previstos": [
+    {
+     "respuesta": "had been",
+     "explicacion": "Se entendería como algo puntual del pasado; el rasgo permanente se expresa con pasado simple: were o was. La ficha presenta este caso como mixto."
+    },
+    {
+     "respuesta": "would be",
+     "explicacion": "Nunca va would en la parte con if."
+    },
+    {
+     "respuesta": "is",
+     "explicacion": "El presente indicaría una condición real; aquí es irreal: were o was."
+    }
+   ]
+  },
+  {
+   "id": "e05",
+   "tipo": "eleccion",
+   "enunciado": "Elige la opción correcta.",
+   "frase": "If they ___ the warning signs, the accident wouldn't have happened.",
+   "opciones": [
+    "had noticed",
+    "would have noticed",
+    "noticed",
+    "have noticed"
+   ],
+   "respuestas": [
+    "had noticed"
+   ],
+   "explicacion": "Se aplica la regla del tercer condicional: if + past perfect, con resultado would have + participio. La pista es wouldn't have happened en la oración principal, que exige una condición en past perfect. La ficha insiste en que nunca va would en la parte con if.",
+   "explicacion_breve": "Tercer condicional: if + past perfect.",
+   "traduccion": "Si hubieran visto las señales de aviso, el accidente no habría ocurrido.",
+   "por_opcion": {
+    "had noticed": "Correcta: past perfect en la condición del tercer condicional.",
+    "would have noticed": "Incorrecta: es el calco de «si habrían visto»; would no va en la parte con if.",
+    "noticed": "Incorrecta: el pasado simple corresponde al segundo condicional y no casa con wouldn't have happened.",
+    "have noticed": "Incorrecta: el present perfect no se usa en condicionales irreales."
+   }
+  },
+  {
+   "id": "e06",
+   "tipo": "eleccion",
+   "enunciado": "Elige la opción correcta.",
+   "frase": "If I hadn't missed the bus this morning, I ___ late for work now.",
+   "opciones": [
+    "wouldn't have been",
+    "wouldn't be",
+    "won't be"
+   ],
+   "respuestas": [
+    "wouldn't be"
+   ],
+   "explicacion": "Se aplica el condicional mixto de pasado a presente y la pista para los mixtos de la ficha: fíjate en las marcas temporales. This morning sitúa la causa en el pasado y now pide un resultado presente. Por eso el resultado es wouldn't + infinitivo: wouldn't be.",
+   "explicacion_breve": "Causa pasada, resultado presente (now): condicional mixto.",
+   "traduccion": "Si no hubiera perdido el autobús esta mañana, ahora no llegaría tarde al trabajo.",
+   "por_opcion": {
+    "wouldn't have been": "Incorrecta: sería un resultado pasado, incompatible con now.",
+    "wouldn't be": "Correcta: resultado presente de una causa pasada (condicional mixto).",
+    "won't be": "Incorrecta: will indica algo real y futuro; aquí la situación es hipotética."
+   }
+  },
+  {
+   "id": "e07",
+   "tipo": "eleccion",
+   "enunciado": "Elige la opción correcta.",
+   "frase": "___ for the rain, we would have finished the match.",
+   "opciones": [
+    "If it hadn't been",
+    "Had not been",
+    "If it wasn't",
+    "Unless it had been"
+   ],
+   "respuestas": [
+    "If it hadn't been"
+   ],
+   "explicacion": "Se aplica la estructura de Reglas y claves If it hadn't been for + nombre, «de no ser por», en pasado. La pista es for the rain detrás del hueco y el resultado would have finished, que sitúa todo en el pasado. El sujeto it es obligatorio, aunque en español no se exprese.",
+   "explicacion_breve": "If it hadn't been for = de no ser por (en pasado).",
+   "traduccion": "De no haber sido por la lluvia, habríamos terminado el partido.",
+   "por_opcion": {
+    "If it hadn't been": "Correcta: If it hadn't been for, de no haber sido por.",
+    "Had not been": "Incorrecta: la inversión formal necesita el sujeto it: Had it not been for the rain.",
+    "If it wasn't": "Incorrecta: es la versión de presente (If it wasn't for), que no casa con would have finished.",
+    "Unless it had been": "Incorrecta: unless no se combina con for en esta estructura y cambiaría el sentido."
+   }
+  },
+  {
+   "id": "e08",
+   "tipo": "corregir",
+   "enunciado": "Corrige el error.",
+   "frase": "If we would have left earlier, we would have avoided the traffic.",
+   "respuestas": [
+    "If we had left earlier, we would have avoided the traffic.",
+    "If we'd left earlier, we would have avoided the traffic.",
+    "If we had left earlier, we'd have avoided the traffic.",
+    "If we had left earlier, we would've avoided the traffic.",
+    "If we'd left earlier, we'd have avoided the traffic.",
+    "If we'd left earlier, we would've avoided the traffic."
+   ],
+   "explicacion": "Se aplica la regla de Reglas y claves: nunca va would en la parte con if. La frase original repite would have en las dos partes, que es el calco del español coloquial «si habríamos salido». La condición debe ir en past perfect: had left (o 'd left). Se aceptan todas las combinaciones con contracción (we'd left, we'd have, would've).",
+   "explicacion_breve": "No se usa would en la parte con if.",
+   "traduccion": "Si hubiéramos salido antes, habríamos evitado el tráfico.",
+   "errores_previstos": [
+    {
+     "respuesta": "If we would have left earlier, we would have avoided the traffic.",
+     "explicacion": "Es la frase sin corregir: would no va en la parte con if."
+    },
+    {
+     "respuesta": "If we left earlier, we would have avoided the traffic.",
+     "explicacion": "La condición pasada irreal va en past perfect, had left, no en pasado simple."
+    },
+    {
+     "respuesta": "If we had left earlier, we had avoided the traffic.",
+     "explicacion": "Calco del español «hubiéramos evitado»: el resultado va con would have."
+    }
+   ]
+  },
+  {
+   "id": "e09",
+   "tipo": "corregir",
+   "enunciado": "Corrige el error.",
+   "frase": "If I had accepted that offer, I would have lived in Canada now.",
+   "respuestas": [
+    "If I had accepted that offer, I would live in Canada now.",
+    "If I had accepted that offer, I'd live in Canada now.",
+    "If I'd accepted that offer, I would live in Canada now.",
+    "If I'd accepted that offer, I'd live in Canada now."
+   ],
+   "explicacion": "Se aplica el condicional mixto de pasado a presente y el error típico recogido en la ficha: con now el resultado es presente. La condición (had accepted) es pasada, pero la consecuencia se vive ahora, así que va would + infinitivo: would live. Se aceptan todas las combinaciones con contracción (I'd accepted, I'd live).",
+   "explicacion_breve": "Con now el resultado es presente: would + infinitivo.",
+   "traduccion": "Si hubiera aceptado aquella oferta, ahora viviría en Canadá.",
+   "errores_previstos": [
+    {
+     "respuesta": "If I had accepted that offer, I would have lived in Canada now.",
+     "explicacion": "Es la frase sin corregir: would have lived es pasado y choca con now."
+    },
+    {
+     "respuesta": "If I would have accepted that offer, I would live in Canada now.",
+     "explicacion": "Introduce un error nuevo: would no puede ir en la parte con if."
+    },
+    {
+     "respuesta": "If I had accepted that offer, I will live in Canada now.",
+     "explicacion": "Will expresa algo real; para un resultado hipotético se usa would live."
+    }
+   ]
+  },
+  {
+   "id": "e10",
+   "tipo": "corregir",
+   "enunciado": "Corrige el error.",
+   "frase": "If she had studied harder, she would pass the exam last June.",
+   "respuestas": [
+    "If she had studied harder, she would have passed the exam last June.",
+    "If she had studied harder, she'd have passed the exam last June.",
+    "If she had studied harder, she would've passed the exam last June.",
+    "If she'd studied harder, she would have passed the exam last June.",
+    "If she'd studied harder, she'd have passed the exam last June.",
+    "If she'd studied harder, she would've passed the exam last June."
+   ],
+   "explicacion": "Se aplica el tercer condicional completo: condición y resultado en el pasado. La pista es last June, que sitúa el resultado en el pasado. La frase original usa would pass, propio de un resultado presente, que no casa con esa marca temporal; hay que usar would have + participio: would have passed. Se aceptan todas las combinaciones con contracción.",
+   "explicacion_breve": "El resultado se refiere al pasado (last June): would have + participio.",
+   "traduccion": "Si hubiera estudiado más, habría aprobado el examen el pasado junio.",
+   "errores_previstos": [
+    {
+     "respuesta": "If she had studied harder, she would pass the exam last June.",
+     "explicacion": "Es la frase sin corregir: con last June el resultado es pasado, would have passed."
+    },
+    {
+     "respuesta": "If she had studied harder, she would have pass the exam last June.",
+     "explicacion": "Tras have va el participio: passed."
+    },
+    {
+     "respuesta": "If she would have studied harder, she would have passed the exam last June.",
+     "explicacion": "Corrige el resultado pero introduce would en la parte con if, que nunca lleva would."
+    }
+   ]
+  },
+  {
+   "id": "e11",
+   "tipo": "transformar",
+   "enunciado": "Une las ideas en una frase con tercer condicional que empiece por If.",
+   "frase": "I didn't know you were ill, so I didn't visit you.",
+   "respuestas": [
+    "If I had known you were ill, I would have visited you.",
+    "If I'd known you were ill, I would have visited you.",
+    "If I had known you were ill, I'd have visited you.",
+    "If I'd known you were ill, I'd have visited you."
+   ],
+   "explicacion": "Se aplica el tercer condicional: dos hechos reales y negativos del pasado (no lo sabía, no te visité) se convierten en una hipótesis afirmativa. La condición va en past perfect (had known) y el resultado en would have + participio (would have visited). La oración you were ill no cambia. Se aceptan todas las combinaciones de contracciones.",
+   "explicacion_breve": "Se invierten las dos realidades negativas en hipótesis afirmativas.",
+   "traduccion": "Si hubiera sabido que estabas enfermo, te habría visitado.",
+   "errores_previstos": [
+    {
+     "respuesta": "If I knew you were ill, I would have visited you.",
+     "explicacion": "La condición también es pasada: had known, no knew."
+    },
+    {
+     "respuesta": "If I would have known you were ill, I would have visited you.",
+     "explicacion": "Would no va en la parte con if: had known."
+    },
+    {
+     "respuesta": "If I hadn't known you were ill, I wouldn't have visited you.",
+     "explicacion": "Mantiene las negaciones y describe casi la realidad; hay que invertirlas en afirmativas."
+    }
+   ]
+  },
+  {
+   "id": "e12",
+   "tipo": "transformar",
+   "enunciado": "Reescribe la frase con inversión, sin if.",
+   "frase": "If I had known about the strike, I would have taken the car.",
+   "respuestas": [
+    "Had I known about the strike, I would have taken the car.",
+    "Had I known about the strike, I'd have taken the car."
+   ],
+   "explicacion": "Se aplica la inversión formal sin if de Reglas y claves: had pasa delante del sujeto y desaparece if. «Had I known» equivale a «If I had known» y es propio del registro formal o escrito. El resultado no cambia. También vale la contracción I'd have.",
+   "explicacion_breve": "En registro formal, had pasa delante del sujeto y desaparece if.",
+   "traduccion": "De haber sabido lo de la huelga, habría cogido el coche.",
+   "errores_previstos": [
+    {
+     "respuesta": "If had I known about the strike, I would have taken the car.",
+     "explicacion": "Con la inversión desaparece if: Had I known."
+    },
+    {
+     "respuesta": "I had known about the strike, I would have taken the car.",
+     "explicacion": "Sin if y sin inversión es una afirmación, no una condición; had debe ir delante del sujeto."
+    },
+    {
+     "respuesta": "Had I knew about the strike, I would have taken the car.",
+     "explicacion": "Tras had va el participio: known."
+    }
+   ]
+  },
+  {
+   "id": "e13",
+   "tipo": "transformar",
+   "enunciado": "Une las ideas en un condicional mixto que empiece por If.",
+   "frase": "He didn't take the medicine, so he is ill now.",
+   "respuestas": [
+    "If he had taken the medicine, he wouldn't be ill now.",
+    "If he had taken the medicine, he would not be ill now.",
+    "If he'd taken the medicine, he wouldn't be ill now.",
+    "If he'd taken the medicine, he would not be ill now."
+   ],
+   "explicacion": "Se aplica el condicional mixto de pasado a presente. La causa es pasada (no se tomó la medicina) y el efecto es presente (now está enfermo). Por eso la condición va en past perfect (had taken) y el resultado en would + infinitivo, en negativa: wouldn't be ill now. Las dos realidades se invierten. Se aceptan todas las combinaciones con contracción.",
+   "explicacion_breve": "Causa pasada (past perfect) y resultado presente (would + infinitivo).",
+   "traduccion": "Si se hubiera tomado la medicina, ahora no estaría enfermo.",
+   "errores_previstos": [
+    {
+     "respuesta": "If he had taken the medicine, he wouldn't have been ill now.",
+     "explicacion": "Con now el resultado es presente: wouldn't be."
+    },
+    {
+     "respuesta": "If he took the medicine, he wouldn't be ill now.",
+     "explicacion": "La condición es un hecho pasado: had taken."
+    },
+    {
+     "respuesta": "If he had taken the medicine, he would be ill now.",
+     "explicacion": "No se ha invertido el resultado: si se la hubiera tomado, ahora no estaría enfermo."
+    }
+   ]
+  },
+  {
+   "id": "e14",
+   "tipo": "ordenar",
+   "enunciado": "Ordena las palabras.",
+   "palabras": [
+    "have",
+    "if",
+    "called",
+    "you",
+    "had",
+    "I",
+    "would",
+    "come"
+   ],
+   "respuestas": [
+    "if you had called I would have come",
+    "I would have come if you had called"
+   ],
+   "explicacion": "Se aplica la estructura del tercer condicional: if + past perfect (had called) y would have + participio (would have come). Se aceptan los dos órdenes porque la oración con if puede ir delante o detrás de la principal. Come tiene participio igual al infinitivo: come.",
+   "explicacion_breve": "If + past perfect, would have + participio.",
+   "traduccion": "Si me hubieras llamado, habría venido. (También: Habría venido si me hubieras llamado.)",
+   "errores_previstos": [
+    {
+     "respuesta": "if you would have called I had come",
+     "explicacion": "Invierte los tiempos, el calco típico que señala la ficha: had va con if y would have en el resultado."
+    },
+    {
+     "respuesta": "if had you called I would have come",
+     "explicacion": "Mezcla if con la inversión; o bien if you had called, o bien had you called (sin if)."
+    }
+   ]
+  },
+  {
+   "id": "e15",
+   "tipo": "ordenar",
+   "enunciado": "Ordena las palabras.",
+   "palabras": [
+    "might",
+    "they",
+    "won",
+    "have",
+    "the",
+    "game"
+   ],
+   "respuestas": [
+    "they might have won the game"
+   ],
+   "explicacion": "Se aplica la nota de Reglas y claves: could have o might have en el resultado expresan posibilidad, no certeza. Might have + participio indica que ganar era posible, pero no seguro. El orden es sujeto + might + have + participio (won) + complemento.",
+   "explicacion_breve": "Might have + participio expresa un resultado posible, no seguro.",
+   "traduccion": "Podrían haber ganado el partido.",
+   "errores_previstos": [
+    {
+     "respuesta": "they might won have the game",
+     "explicacion": "Tras might va have y luego el participio: might have won."
+    },
+    {
+     "respuesta": "they have might won the game",
+     "explicacion": "El modal va primero: might have, no have might."
+    }
+   ]
+  }
  ],
- "fuente": {"nombre": "propia"}
+ "fuente": {
+  "nombre": "propia"
+ },
+ "descripcion_larga_es": "El tercer condicional imagina un pasado distinto del real y su consecuencia también pasada («si hubiera salido antes, habría cogido el tren»). Los condicionales mixtos cruzan los tiempos: una condición pasada con un resultado presente, o al revés. Sirven para lamentar, reprochar y analizar decisiones. Cuestan al hispanohablante porque el calco «si habría» lleva a poner would en la parte con if.",
+ "contexto": {
+  "que_es": "El tercer condicional une una condición irreal en el pasado (if + had + participio) con un resultado también pasado e imposible (would/could/might have + participio). Los condicionales mixtos combinan esa condición pasada con un resultado presente (would + infinitivo), o una situación presente permanente (pasado simple) con un resultado pasado (would have + participio).",
+  "por_que_importa": "Es la herramienta para hablar de lo que pudo haber sido: lamentos, reproches, análisis de errores y de decisiones de política económica («si se hubieran subido los tipos antes…»). Mezclar mal los tiempos produce frases agramaticales o confusas sobre cuándo ocurre cada cosa. En exámenes de nivel B2 y C1 es un punto clásico, sobre todo el error de would en la parte con if.",
+  "cuando_se_usa": "Cuando se habla de hechos pasados que ya no se pueden cambiar y se imagina una alternativa. Las señales son las marcas temporales: yesterday, last June o this morning para el pasado; now o today para un resultado presente, que pide un condicional mixto. El hispanohablante tiende a escribir If I would have… por el calco de «si habría», y a usar would have con now."
+ }
 }

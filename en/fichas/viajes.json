@@ -6,67 +6,692 @@
  "nivel": "A2",
  "resumen": "Palabras y fórmulas para reservar, moverse por un aeropuerto o estación, alojarse en un hotel y resolver problemas de viaje.",
  "explicacion": [
-  {"tipo": "texto", "texto": "Travel es el verbo (viajar) y el concepto general; trip es un viaje concreto (a business trip); journey es el trayecto (the journey takes two hours). No se dice «a travel»."},
-  {"tipo": "tabla", "cabecera": ["Expresión", "Significado", "Ejemplo"], "filas": [
-   ["book", "reservar", "I booked a room for three nights."],
-   ["single / return ticket", "billete de ida / de ida y vuelta", "A return ticket to York, please."],
-   ["check in / check out", "registrarse / dejar el hotel", "Check-out is at 11 a.m."],
-   ["boarding pass", "tarjeta de embarque", "Show your boarding pass at the gate."],
-   ["gate", "puerta de embarque", "The flight leaves from gate 12."],
-   ["luggage / baggage", "equipaje (incontable)", "How much luggage do you have?"],
-   ["hand luggage", "equipaje de mano", "Only one piece of hand luggage."],
-   ["delayed / cancelled", "retrasado / cancelado", "Our flight was delayed by two hours."],
-   ["miss a flight / train", "perder un vuelo / tren", "We missed the last train."],
-   ["take off / land", "despegar / aterrizar", "The plane landed on time."],
-   ["platform", "andén", "The train leaves from platform 4."],
-   ["passport / ID card", "pasaporte / DNI", "Have your passport ready."]
-  ]},
-  {"tipo": "tabla", "cabecera": ["Expresión", "Significado", "Ejemplo"], "filas": [
-   ["double / single / twin room", "habitación doble / individual / con dos camas", "We'd like a twin room."],
-   ["I have a reservation", "Tengo una reserva", "I have a reservation under the name Pérez."],
-   ["Is breakfast included?", "¿Está incluido el desayuno?", "Is breakfast included in the price?"],
-   ["fully booked", "completo", "Sorry, the hotel is fully booked."],
-   ["The … doesn't work", "El/la … no funciona", "The air conditioning doesn't work."],
-   ["lose / lost luggage", "perder / equipaje perdido", "The airline lost my suitcase."],
-   ["sightseeing", "turismo, visitar monumentos", "We went sightseeing in Rome."],
-   ["guided tour", "visita guiada", "Is there a guided tour in Spanish?"]
-  ]},
-  {"tipo": "lista", "items": [
-   "Luggage y baggage son incontables: a suitcase / a piece of luggage.",
-   "Perder un medio de transporte es miss; perder un objeto es lose.",
-   "Go on holiday (británico) = go on vacation (americano)."
-  ]}
+  {
+   "tipo": "texto",
+   "texto": "Travel es el verbo (viajar) y el concepto general; trip es un viaje concreto (a business trip); journey es el trayecto (the journey takes two hours). No se dice «a travel»."
+  },
+  {
+   "tipo": "tabla",
+   "cabecera": [
+    "Expresión",
+    "Significado",
+    "Ejemplo"
+   ],
+   "filas": [
+    [
+     "book",
+     "reservar",
+     "I booked a room for three nights."
+    ],
+    [
+     "single / return ticket",
+     "billete de ida / de ida y vuelta",
+     "A return ticket to York, please."
+    ],
+    [
+     "check in / check out",
+     "registrarse / dejar el hotel",
+     "Check-out is at 11 a.m."
+    ],
+    [
+     "boarding pass",
+     "tarjeta de embarque",
+     "Show your boarding pass at the gate."
+    ],
+    [
+     "gate",
+     "puerta de embarque",
+     "The flight leaves from gate 12."
+    ],
+    [
+     "luggage / baggage",
+     "equipaje (incontable)",
+     "How much luggage do you have?"
+    ],
+    [
+     "hand luggage",
+     "equipaje de mano",
+     "Only one piece of hand luggage."
+    ],
+    [
+     "delayed / cancelled",
+     "retrasado / cancelado",
+     "Our flight was delayed by two hours."
+    ],
+    [
+     "miss a flight / train",
+     "perder un vuelo / tren",
+     "We missed the last train."
+    ],
+    [
+     "take off / land",
+     "despegar / aterrizar",
+     "The plane landed on time."
+    ],
+    [
+     "platform",
+     "andén",
+     "The train leaves from platform 4."
+    ],
+    [
+     "passport / ID card",
+     "pasaporte / DNI",
+     "Have your passport ready."
+    ]
+   ]
+  },
+  {
+   "tipo": "tabla",
+   "cabecera": [
+    "Expresión",
+    "Significado",
+    "Ejemplo"
+   ],
+   "filas": [
+    [
+     "double / single / twin room",
+     "habitación doble / individual / con dos camas",
+     "We'd like a twin room."
+    ],
+    [
+     "I have a reservation",
+     "Tengo una reserva",
+     "I have a reservation under the name Pérez."
+    ],
+    [
+     "Is breakfast included?",
+     "¿Está incluido el desayuno?",
+     "Is breakfast included in the price?"
+    ],
+    [
+     "fully booked",
+     "completo",
+     "Sorry, the hotel is fully booked."
+    ],
+    [
+     "The … doesn't work",
+     "El/la … no funciona",
+     "The air conditioning doesn't work."
+    ],
+    [
+     "lose / lost luggage",
+     "perder / equipaje perdido",
+     "The airline lost my suitcase."
+    ],
+    [
+     "sightseeing",
+     "turismo, visitar monumentos",
+     "We went sightseeing in Rome."
+    ],
+    [
+     "guided tour",
+     "visita guiada",
+     "Is there a guided tour in Spanish?"
+    ]
+   ]
+  },
+  {
+   "tipo": "lista",
+   "items": [
+    "Luggage y baggage son incontables: a suitcase / a piece of luggage.",
+    "Perder un medio de transporte es miss; perder un objeto es lose.",
+    "Go on holiday (británico) = go on vacation (americano)."
+   ]
+  }
  ],
  "ejemplos": [
-  {"frase": "I'd like to book a double room for the weekend.", "traduccion": "Querría reservar una habitación doble para el fin de semana."},
-  {"frase": "Our flight was cancelled because of the storm.", "traduccion": "Nos cancelaron el vuelo por la tormenta."},
-  {"frase": "We missed the bus and had to take a taxi.", "traduccion": "Perdimos el autobús y tuvimos que coger un taxi."},
-  {"frase": "The journey from Madrid to Barcelona takes about three hours.", "traduccion": "El trayecto de Madrid a Barcelona dura unas tres horas."},
-  {"frase": "Excuse me, the shower in my room doesn't work.", "traduccion": "Perdone, la ducha de mi habitación no funciona."},
-  {"frase": "She went on a business trip to Singapore.", "traduccion": "Fue a Singapur en viaje de negocios."}
+  {
+   "frase": "I'd like to book a double room for the weekend.",
+   "traduccion": "Querría reservar una habitación doble para el fin de semana."
+  },
+  {
+   "frase": "Our flight was cancelled because of the storm.",
+   "traduccion": "Nos cancelaron el vuelo por la tormenta."
+  },
+  {
+   "frase": "We missed the bus and had to take a taxi.",
+   "traduccion": "Perdimos el autobús y tuvimos que coger un taxi."
+  },
+  {
+   "frase": "The journey from Madrid to Barcelona takes about three hours.",
+   "traduccion": "El trayecto de Madrid a Barcelona dura unas tres horas."
+  },
+  {
+   "frase": "Excuse me, the shower in my room doesn't work.",
+   "traduccion": "Perdone, la ducha de mi habitación no funciona."
+  },
+  {
+   "frase": "She went on a business trip to Singapore.",
+   "traduccion": "Fue a Singapur en viaje de negocios."
+  }
  ],
  "errores_hispanohablantes": [
-  {"mal": "We had a wonderful travel to Peru.", "bien": "We had a wonderful trip to Peru.", "nota": "Un viaje concreto es trip; travel es sobre todo verbo."},
-  {"mal": "I lost the train.", "bien": "I missed the train.", "nota": "Perder un transporte es miss."},
-  {"mal": "I have three luggages.", "bien": "I have three suitcases / pieces of luggage.", "nota": "Luggage es incontable."},
-  {"mal": "I want to reserve a habitation.", "bien": "I want to book a room.", "nota": "Habitación es room; habitation es la acción de habitar."}
+  {
+   "mal": "We had a wonderful travel to Peru.",
+   "bien": "We had a wonderful trip to Peru.",
+   "nota": "Un viaje concreto es trip; travel es sobre todo verbo."
+  },
+  {
+   "mal": "I lost the train.",
+   "bien": "I missed the train.",
+   "nota": "Perder un transporte es miss."
+  },
+  {
+   "mal": "I have three luggages.",
+   "bien": "I have three suitcases / pieces of luggage.",
+   "nota": "Luggage es incontable."
+  },
+  {
+   "mal": "I want to reserve a habitation.",
+   "bien": "I want to book a room.",
+   "nota": "Habitación es room; habitation es la acción de habitar."
+  }
  ],
  "ejercicios": [
-  {"id": "e01", "tipo": "hueco", "enunciado": "Completa con el verbo adecuado.", "frase": "Hurry up or we'll ___ the plane!", "respuestas": ["miss"], "explicacion": "Perder un transporte es miss."},
-  {"id": "e02", "tipo": "hueco", "enunciado": "Completa: «andén».", "frase": "The train to Leeds leaves from ___ 6.", "respuestas": ["platform"], "explicacion": "Andén es platform."},
-  {"id": "e03", "tipo": "hueco", "enunciado": "Completa el verbo frasal.", "frase": "You must check ___ before 11 o'clock on the day you leave.", "respuestas": ["out"], "explicacion": "Dejar el hotel es check out."},
-  {"id": "e04", "tipo": "hueco", "enunciado": "Completa: «ida y vuelta».", "frase": "A ___ ticket to Bristol, please. I'm coming back tonight.", "respuestas": ["return", "round-trip", "round trip"], "explicacion": "Ida y vuelta es return (británico) o round-trip (americano)."},
-  {"id": "e05", "tipo": "eleccion", "enunciado": "Elige la opción correcta.", "frase": "How was your ___ to Japan?", "opciones": ["trip", "travel", "voyage"], "respuestas": ["trip"], "explicacion": "Un viaje concreto es trip."},
-  {"id": "e06", "tipo": "eleccion", "enunciado": "Elige la opción correcta.", "frase": "The plane can't ___ off because of the fog.", "opciones": ["take", "get", "go"], "respuestas": ["take"], "explicacion": "Despegar es take off."},
-  {"id": "e07", "tipo": "eleccion", "enunciado": "Elige la opción correcta.", "frase": "Sorry, we have no rooms left. The hotel is fully ___.", "opciones": ["booked", "complete", "busy"], "respuestas": ["booked"], "explicacion": "Completo se dice fully booked."},
-  {"id": "e08", "tipo": "eleccion", "enunciado": "Elige la opción correcta.", "frase": "The airline ___ my suitcase and I had no clothes.", "opciones": ["lost", "missed", "forgot"], "respuestas": ["lost"], "explicacion": "Perder un objeto es lose (lost)."},
-  {"id": "e09", "tipo": "corregir", "enunciado": "Corrige el error.", "frase": "How many luggages are you taking?", "respuestas": ["How much luggage are you taking?"], "explicacion": "Luggage es incontable: how much luggage."},
-  {"id": "e10", "tipo": "corregir", "enunciado": "Corrige el error.", "frase": "We lost the last bus and walked home.", "respuestas": ["We missed the last bus and walked home."], "explicacion": "Perder un autobús es miss."},
-  {"id": "e11", "tipo": "corregir", "enunciado": "Corrige el falso amigo.", "frase": "I'd like a habitation with a sea view.", "respuestas": ["I'd like a room with a sea view."], "explicacion": "Habitación de hotel es room."},
-  {"id": "e12", "tipo": "ordenar", "enunciado": "Ordena las palabras.", "palabras": ["breakfast", "included", "is"], "respuestas": ["Is breakfast included", "Breakfast is included"], "explicacion": "Pregunta con be invertido."},
-  {"id": "e13", "tipo": "ordenar", "enunciado": "Ordena las palabras.", "palabras": ["have", "reservation", "I", "a"], "respuestas": ["I have a reservation"], "explicacion": "Fórmula al llegar al hotel."},
-  {"id": "e14", "tipo": "hueco", "enunciado": "Completa: «retrasado».", "frase": "Our flight is ___ by forty minutes.", "respuestas": ["delayed"], "explicacion": "Retrasado es delayed."},
-  {"id": "e15", "tipo": "eleccion", "enunciado": "Elige la opción correcta.", "frase": "My sister ___ a lot for work; she's always at airports.", "opciones": ["travels", "trips", "journeys"], "respuestas": ["travels"], "explicacion": "El verbo viajar es travel; trip y journey se usan como sustantivos."}
+  {
+   "id": "e01",
+   "tipo": "hueco",
+   "enunciado": "Completa con el verbo adecuado.",
+   "frase": "Hurry up or we'll ___ the plane!",
+   "respuestas": [
+    "miss"
+   ],
+   "explicacion": "La ficha explica que «perder» un medio de transporte es miss y «perder» un objeto es lose. La pista es «the plane»: se trata de no llegar a tiempo a un transporte. Por eso we'll miss the plane. Tras will va el infinitivo sin to ni -s.",
+   "explicacion_breve": "Perder un transporte es miss.",
+   "traduccion": "¡Date prisa o perderemos el avión!",
+   "errores_previstos": [
+    {
+     "respuesta": "lose",
+     "explicacion": "Lose es perder un objeto (perder las llaves); no llegar a tiempo a un transporte es miss."
+    },
+    {
+     "respuesta": "loose",
+     "explicacion": "Loose es un adjetivo («suelto, holgado»); además, para un transporte el verbo es miss."
+    },
+    {
+     "respuesta": "missed",
+     "explicacion": "Tras will ('ll) va el infinitivo, miss, no el pasado."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "miss",
+     "significado": "perder (un transporte), no llegar a tiempo"
+    },
+    {
+     "palabra": "hurry up",
+     "significado": "darse prisa"
+    }
+   ]
+  },
+  {
+   "id": "e02",
+   "tipo": "hueco",
+   "enunciado": "Completa: «andén».",
+   "frase": "The train to Leeds leaves from ___ 6.",
+   "respuestas": [
+    "platform"
+   ],
+   "explicacion": "La ficha da platform como «andén». La pista es the train junto al número 6: en una estación los trenes salen de un andén numerado. En el aeropuerto el equivalente sería gate, la puerta de embarque; son palabras que no se intercambian.",
+   "explicacion_breve": "Andén es platform.",
+   "traduccion": "El tren a Leeds sale del andén 6.",
+   "errores_previstos": [
+    {
+     "respuesta": "gate",
+     "explicacion": "Gate es la puerta de embarque de un aeropuerto; en la estación es platform."
+    },
+    {
+     "respuesta": "andén",
+     "explicacion": "Se pide la palabra inglesa: platform."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "platform",
+     "significado": "andén"
+    },
+    {
+     "palabra": "leave from",
+     "significado": "salir de (un lugar)"
+    }
+   ]
+  },
+  {
+   "id": "e03",
+   "tipo": "hueco",
+   "enunciado": "Completa el verbo frasal.",
+   "frase": "You must check ___ before 11 o'clock on the day you leave.",
+   "respuestas": [
+    "out"
+   ],
+   "explicacion": "La ficha recoge check in, «registrarse», y check out, «dejar el hotel». La pista es «on the day you leave»: se habla de marcharse del hotel, así que es check out. Fíjate en que el verbo frasal se escribe separado (check out) y el nombre con guion (check-out).",
+   "explicacion_breve": "Dejar el hotel es check out.",
+   "traduccion": "Tiene que dejar la habitación antes de las 11 el día que se vaya.",
+   "errores_previstos": [
+    {
+     "respuesta": "in",
+     "explicacion": "Check in es registrarse al llegar; al marcharse es check out."
+    },
+    {
+     "respuesta": "off",
+     "explicacion": "Check off es marcar en una lista; para dejar el hotel se usa out."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "check out",
+     "significado": "dejar la habitación, pagar y salir del hotel"
+    },
+    {
+     "palabra": "check in",
+     "significado": "registrarse (hotel, aeropuerto)"
+    }
+   ]
+  },
+  {
+   "id": "e04",
+   "tipo": "hueco",
+   "enunciado": "Completa: «ida y vuelta».",
+   "frase": "A ___ ticket to Bristol, please. I'm coming back tonight.",
+   "respuestas": [
+    "return",
+    "round-trip",
+    "round trip"
+   ],
+   "explicacion": "La ficha distingue single ticket, «de ida», y return ticket, «de ida y vuelta». La pista es «I'm coming back tonight»: la persona va y vuelve. En inglés británico se dice return; en americano, round-trip (también sin guion). Por eso se aceptan las tres formas.",
+   "explicacion_breve": "Ida y vuelta es return (británico) o round-trip (americano).",
+   "traduccion": "Un billete de ida y vuelta a Bristol, por favor. Vuelvo esta noche.",
+   "errores_previstos": [
+    {
+     "respuesta": "single",
+     "explicacion": "Single ticket es solo de ida; la persona vuelve esa noche."
+    },
+    {
+     "respuesta": "go and back",
+     "explicacion": "Calco de «ida y vuelta»; se dice return o round-trip."
+    },
+    {
+     "respuesta": "double",
+     "explicacion": "Double se usa para habitaciones, no para billetes de ida y vuelta."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "return ticket",
+     "significado": "billete de ida y vuelta (británico)"
+    },
+    {
+     "palabra": "round-trip ticket",
+     "significado": "billete de ida y vuelta (americano)"
+    }
+   ]
+  },
+  {
+   "id": "e05",
+   "tipo": "eleccion",
+   "enunciado": "Elige la opción correcta.",
+   "frase": "How was your ___ to Japan?",
+   "opciones": [
+    "trip",
+    "travel",
+    "voyage"
+   ],
+   "respuestas": [
+    "trip"
+   ],
+   "explicacion": "La ficha explica que trip es un viaje concreto, mientras que travel es sobre todo el verbo o el concepto general y no se dice «a travel». La pista es your … to Japan: un viaje determinado, con destino. Por eso How was your trip?",
+   "explicacion_breve": "Un viaje concreto es trip.",
+   "traduccion": "¿Qué tal tu viaje a Japón?",
+   "por_opcion": {
+    "trip": "Correcta: trip es un viaje concreto, de ida a un sitio y vuelta (a trip to Japan).",
+    "travel": "Incorrecta: travel es el verbo o el concepto general (I love travel); no se usa para un viaje concreto.",
+    "voyage": "Incorrecta en este contexto: voyage es un viaje largo por mar o por el espacio, con tono literario."
+   },
+   "glosario": [
+    {
+     "palabra": "trip",
+     "significado": "viaje (concreto)"
+    },
+    {
+     "palabra": "voyage",
+     "significado": "travesía, viaje largo por mar"
+    }
+   ]
+  },
+  {
+   "id": "e06",
+   "tipo": "eleccion",
+   "enunciado": "Elige la opción correcta.",
+   "frase": "The plane can't ___ off because of the fog.",
+   "opciones": [
+    "take",
+    "get",
+    "go"
+   ],
+   "respuestas": [
+    "take"
+   ],
+   "explicacion": "La ficha da take off, «despegar», y land, «aterrizar». La pista es the plane con la partícula off ya escrita: el verbo frasal fijo para despegar es take off. Ni get off ni go off tienen ese significado.",
+   "explicacion_breve": "Despegar es take off.",
+   "traduccion": "El avión no puede despegar por la niebla.",
+   "por_opcion": {
+    "take": "Correcta: take off es despegar (un avión).",
+    "get": "Incorrecta: get off es bajarse de un transporte (get off the bus), no despegar.",
+    "go": "Incorrecta: go off significa sonar una alarma, estropearse la comida o explotar; no despegar."
+   },
+   "glosario": [
+    {
+     "palabra": "take off",
+     "significado": "despegar"
+    },
+    {
+     "palabra": "fog",
+     "significado": "niebla"
+    }
+   ]
+  },
+  {
+   "id": "e07",
+   "tipo": "eleccion",
+   "enunciado": "Elige la opción correcta.",
+   "frase": "Sorry, we have no rooms left. The hotel is fully ___.",
+   "opciones": [
+    "booked",
+    "complete",
+    "busy"
+   ],
+   "respuestas": [
+    "booked"
+   ],
+   "explicacion": "La ficha recoge fully booked como «completo». La pista es «we have no rooms left»: todas las habitaciones están reservadas. Fully booked significa literalmente «totalmente reservado». Complete es un falso amigo en este contexto.",
+   "explicacion_breve": "Completo se dice fully booked.",
+   "traduccion": "Lo siento, no nos quedan habitaciones. El hotel está completo.",
+   "por_opcion": {
+    "booked": "Correcta: fully booked es «completo, sin plazas».",
+    "complete": "Incorrecta: complete significa terminado o entero; no se dice fully complete para un hotel lleno.",
+    "busy": "Incorrecta: busy es «concurrido, ajetreado»; un hotel puede estar busy y tener habitaciones libres."
+   },
+   "glosario": [
+    {
+     "palabra": "fully booked",
+     "significado": "completo, sin plazas"
+    },
+    {
+     "palabra": "busy",
+     "significado": "ocupado, concurrido"
+    }
+   ]
+  },
+  {
+   "id": "e08",
+   "tipo": "eleccion",
+   "enunciado": "Elige la opción correcta.",
+   "frase": "The airline ___ my suitcase and I had no clothes.",
+   "opciones": [
+    "lost",
+    "missed",
+    "forgot"
+   ],
+   "respuestas": [
+    "lost"
+   ],
+   "explicacion": "La ficha explica que perder un objeto es lose (pasado lost), mientras que miss se reserva para los transportes. La pista es my suitcase: una maleta es un objeto que se extravía. Por eso The airline lost my suitcase.",
+   "explicacion_breve": "Perder un objeto es lose (lost).",
+   "traduccion": "La aerolínea me perdió la maleta y me quedé sin ropa.",
+   "por_opcion": {
+    "lost": "Correcta: lose (lost) es perder un objeto, extraviarlo.",
+    "missed": "Incorrecta: miss es perder un transporte o echar de menos; la maleta no se «missed».",
+    "forgot": "Incorrecta: forget es olvidar; la aerolínea no se olvidó la maleta, la extravió."
+   },
+   "glosario": [
+    {
+     "palabra": "lose",
+     "significado": "perder (un objeto)"
+    },
+    {
+     "palabra": "airline",
+     "significado": "aerolínea, compañía aérea"
+    },
+    {
+     "palabra": "suitcase",
+     "significado": "maleta"
+    }
+   ]
+  },
+  {
+   "id": "e09",
+   "tipo": "corregir",
+   "enunciado": "Corrige el error.",
+   "frase": "How many luggages are you taking?",
+   "respuestas": [
+    "How much luggage are you taking?"
+   ],
+   "explicacion": "La ficha advierte que luggage y baggage son incontables. La pista es «How many luggages»: many y el plural solo funcionan con contables. Con un incontable se pregunta how much y el nombre queda en singular: How much luggage are you taking? Para contar bultos se dice suitcases o pieces of luggage.",
+   "explicacion_breve": "Luggage es incontable: how much luggage.",
+   "traduccion": "¿Cuánto equipaje llevas?",
+   "errores_previstos": [
+    {
+     "respuesta": "How many luggages are you taking?",
+     "explicacion": "Es la frase sin corregir: luggage es incontable."
+    },
+    {
+     "respuesta": "How many luggage are you taking?",
+     "explicacion": "Se quita el plural, pero many sigue siendo de contables; hace falta much."
+    },
+    {
+     "respuesta": "How much luggages are you taking?",
+     "explicacion": "Luggage no tiene plural."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "luggage",
+     "significado": "equipaje (incontable)"
+    }
+   ]
+  },
+  {
+   "id": "e10",
+   "tipo": "corregir",
+   "enunciado": "Corrige el error.",
+   "frase": "We lost the last bus and walked home.",
+   "respuestas": [
+    "We missed the last bus and walked home."
+   ],
+   "explicacion": "Se aplica la regla de la ficha: perder un medio de transporte es miss. La pista es the last bus: no llegaron a tiempo al autobús, no lo extraviaron. Por eso We missed the last bus. Lose solo se usa para objetos (lose your keys) o para partidos (lose a match).",
+   "explicacion_breve": "Perder un autobús es miss.",
+   "traduccion": "Perdimos el último autobús y volvimos a casa andando.",
+   "errores_previstos": [
+    {
+     "respuesta": "We lost the last bus and walked home.",
+     "explicacion": "Es la frase sin corregir: un transporte se miss, no se lose."
+    },
+    {
+     "respuesta": "We miss the last bus and walked home.",
+     "explicacion": "El verbo correcto es miss, pero falta el pasado: missed."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "miss the bus",
+     "significado": "perder el autobús"
+    }
+   ]
+  },
+  {
+   "id": "e11",
+   "tipo": "corregir",
+   "enunciado": "Corrige el falso amigo.",
+   "frase": "I'd like a habitation with a sea view.",
+   "respuestas": [
+    "I'd like a room with a sea view."
+   ],
+   "explicacion": "Es el falso amigo de la ficha: habitation no es «habitación», sino la acción de habitar o un lugar habitado (formal). La pista es el contexto de hotel: «a … with a sea view». La habitación de un hotel o de una casa es room.",
+   "explicacion_breve": "Habitación de hotel es room.",
+   "traduccion": "Querría una habitación con vistas al mar.",
+   "errores_previstos": [
+    {
+     "respuesta": "I'd like a habitation with a sea view.",
+     "explicacion": "Es la frase sin corregir: habitation no significa habitación."
+    },
+    {
+     "respuesta": "I'd like a bedroom with a sea view.",
+     "explicacion": "Bedroom es el dormitorio de una casa; en un hotel se pide a room."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "room",
+     "significado": "habitación"
+    },
+    {
+     "palabra": "sea view",
+     "significado": "vistas al mar"
+    }
+   ]
+  },
+  {
+   "id": "e12",
+   "tipo": "ordenar",
+   "enunciado": "Ordena las palabras.",
+   "palabras": [
+    "breakfast",
+    "included",
+    "is"
+   ],
+   "respuestas": [
+    "Is breakfast included",
+    "Breakfast is included"
+   ],
+   "explicacion": "Es la fórmula de la ficha «Is breakfast included?». En una pregunta con be, el verbo se coloca delante del sujeto: Is + breakfast + included. Como el corrector no tiene en cuenta los signos de puntuación, también se acepta el orden afirmativo, Breakfast is included, que es la respuesta que daría el recepcionista.",
+   "explicacion_breve": "Pregunta con be invertido (Is breakfast included?); como no se puntúa, también vale la afirmativa.",
+   "traduccion": "¿Está incluido el desayuno? / El desayuno está incluido.",
+   "errores_previstos": [
+    {
+     "respuesta": "Is included breakfast",
+     "explicacion": "El sujeto breakfast va entre is y el participio included."
+    },
+    {
+     "respuesta": "Included is breakfast",
+     "explicacion": "Orden imposible en una pregunta normal; is va primero y luego el sujeto."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "included",
+     "significado": "incluido"
+    }
+   ]
+  },
+  {
+   "id": "e13",
+   "tipo": "ordenar",
+   "enunciado": "Ordena las palabras.",
+   "palabras": [
+    "have",
+    "reservation",
+    "I",
+    "a"
+   ],
+   "respuestas": [
+    "I have a reservation"
+   ],
+   "explicacion": "Es la fórmula fija de la ficha para presentarse en la recepción de un hotel. El orden es el normal de una afirmativa: sujeto (I), verbo (have), artículo y nombre (a reservation). Fíjate en que «reserva» es reservation cuando es el nombre; el verbo es book.",
+   "explicacion_breve": "Fórmula al llegar al hotel.",
+   "traduccion": "Tengo una reserva.",
+   "errores_previstos": [
+    {
+     "respuesta": "I a reservation have",
+     "explicacion": "En inglés el verbo va detrás del sujeto y antes del objeto."
+    },
+    {
+     "respuesta": "Have I a reservation",
+     "explicacion": "Así sería una pregunta anticuada; además, la fórmula al llegar es la afirmativa."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "reservation",
+     "significado": "reserva"
+    }
+   ]
+  },
+  {
+   "id": "e14",
+   "tipo": "hueco",
+   "enunciado": "Completa: «retrasado».",
+   "frase": "Our flight is ___ by forty minutes.",
+   "respuestas": [
+    "delayed"
+   ],
+   "explicacion": "La ficha da delayed como «retrasado». La pista es «by forty minutes»: la preposición by indica la cantidad de retraso (delayed by two hours). Delayed es un participio que funciona como adjetivo tras be. También se oye «forty minutes late», pero la palabra que trabaja la ficha y la más habitual en los paneles es delayed.",
+   "explicacion_breve": "Retrasado es delayed.",
+   "traduccion": "Nuestro vuelo lleva cuarenta minutos de retraso.",
+   "errores_previstos": [
+    {
+     "respuesta": "retarded",
+     "explicacion": "Calco de «retrasado»: es una palabra ofensiva para referirse a personas y nunca se usa para vuelos."
+    },
+    {
+     "respuesta": "delay",
+     "explicacion": "Delay es el nombre o el verbo; tras is hace falta el participio, delayed."
+    },
+    {
+     "respuesta": "cancelled",
+     "explicacion": "Cancelled es «cancelado»; un vuelo cancelado no tiene minutos de retraso."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "delayed",
+     "significado": "retrasado"
+    },
+    {
+     "palabra": "flight",
+     "significado": "vuelo"
+    }
+   ]
+  },
+  {
+   "id": "e15",
+   "tipo": "eleccion",
+   "enunciado": "Elige la opción correcta.",
+   "frase": "My sister ___ a lot for work; she's always at airports.",
+   "opciones": [
+    "travels",
+    "trips",
+    "journeys"
+   ],
+   "respuestas": [
+    "travels"
+   ],
+   "explicacion": "La ficha explica que travel es el verbo «viajar», y que trip y journey son sustantivos. La pista es que el hueco sigue al sujeto my sister y necesita un verbo conjugado en presente con -s: travels. Ninguna de las otras dos palabras funciona como verbo con este sentido.",
+   "explicacion_breve": "El verbo viajar es travel; trip y journey se usan como sustantivos.",
+   "traduccion": "Mi hermana viaja mucho por trabajo; siempre está en aeropuertos.",
+   "por_opcion": {
+    "travels": "Correcta: travel es el verbo viajar; en presente con she lleva -s.",
+    "trips": "Incorrecta: trip es un nombre (un viaje); como verbo significa «tropezar», que no encaja.",
+    "journeys": "Incorrecta: journey es un nombre (el trayecto); como verbo es muy literario y no se usa así."
+   },
+   "glosario": [
+    {
+     "palabra": "travel",
+     "significado": "viajar"
+    },
+    {
+     "palabra": "journey",
+     "significado": "trayecto, viaje (el desplazamiento)"
+    }
+   ]
+  }
  ],
- "fuente": {"nombre": "propia"}
+ "fuente": {
+  "nombre": "propia"
+ },
+ "descripcion_larga_es": "Esta ficha reúne las palabras y fórmulas para viajar: reservar (book), moverse por aeropuertos y estaciones (gate, platform, boarding pass), alojarse en un hotel (check in, fully booked) y resolver incidencias (delayed, lost luggage). Es léxico de supervivencia muy rentable. Cuesta a un hispanohablante porque «perder» se dice miss o lose, «viaje» puede ser trip, journey o travel y luggage es incontable.",
+ "contexto": {
+  "que_es": "Es el vocabulario práctico de los viajes y el alojamiento: billetes y reservas, aeropuerto y tren, hotel e incidencias. Incluye verbos frasales fijos (check in, check out, take off), nombres incontables como luggage y la distinción entre travel (verbo y concepto), trip (viaje concreto) y journey (trayecto).",
+  "por_que_importa": "Son situaciones reales en las que hay que entender y hacerse entender rápido: un cambio de puerta, un vuelo cancelado, una habitación que falla. Un error de léxico aquí tiene consecuencias prácticas («I lost the train» confunde). Además, los temas de viajes son habituales en las pruebas orales y en los textos de comprensión.",
+  "cuando_se_usa": "Al reservar por teléfono o por correo, al llegar a un hotel, en el aeropuerto o la estación y al contar un viaje. Las señales son el contexto (gate, flight, room, ticket). El hispanohablante tiende a decir «a travel», a usar lose para los transportes, a pluralizar luggage y a decir habitation por «habitación»."
+ }
 }

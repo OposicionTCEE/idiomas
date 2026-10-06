@@ -6,53 +6,511 @@
  "nivel": "B1",
  "resumen": "Para personas se usa qui; para cosas, que o qu'est-ce que si es complemento, qu'est-ce qui si es sujeto, y quoi detrás de preposición. Para «¿cuál?» entre varias opciones se usa lequel, laquelle, lesquels, lesquelles.",
  "explicacion": [
-  {"tipo": "tabla", "cabecera": ["Función", "Personas (¿quién?)", "Cosas (¿qué?)"], "filas": [
-   ["Sujeto", "Qui… ? / Qui est-ce qui… ?", "Qu'est-ce qui… ? (no hay forma corta)"],
-   ["Complemento directo", "Qui + inversión / Qui est-ce que… ?", "Que + inversión / Qu'est-ce que… ?"],
-   ["Tras preposición", "à qui, avec qui, pour qui…", "de quoi, à quoi, avec quoi…"]
-  ]},
-  {"tipo": "texto", "texto": "Cómo elegir en la forma larga: la primera parte dice si preguntas por persona (qui) o cosa (qu'), y la segunda la función: …qui si lo que sigue es el verbo (sujeto), …que si lo que sigue es un sujeto. Qu'est-ce qui se passe ? (sujeto: lo que pasa). Qu'est-ce que tu fais ? (complemento: tu haces algo)."},
-  {"tipo": "lista", "items": [
-   "Que va con inversión: Que fais-tu ? Que veux-tu dire ? En lengua hablada se oye Tu fais quoi ?, pero no se dice «Quoi fais-tu ?».",
-   "Quoi se usa tras preposición o solo: De quoi tu parles ? À quoi penses-tu ? Quoi de neuf ?",
-   "En español «¿a quién?» lleva a; en francés el complemento directo no: Qui cherches-tu ? (¿A quién buscas?)."
-  ]},
-  {"tipo": "tabla", "cabecera": ["", "Masculino", "Femenino"], "filas": [
-   ["Singular", "lequel (auquel, duquel)", "laquelle (à laquelle, de laquelle)"],
-   ["Plural", "lesquels (auxquels, desquels)", "lesquelles (auxquelles, desquelles)"]
-  ]},
-  {"tipo": "texto", "texto": "Lequel pregunta «¿cuál?» y concuerda con el nombre al que se refiere: Entre ces deux cravates, laquelle dois-je porter ? Con à y de se contrae: Tu veux voir un film ? Auquel penses-tu ? (penser à)."}
+  {
+   "tipo": "tabla",
+   "cabecera": [
+    "Función",
+    "Personas (¿quién?)",
+    "Cosas (¿qué?)"
+   ],
+   "filas": [
+    [
+     "Sujeto",
+     "Qui… ? / Qui est-ce qui… ?",
+     "Qu'est-ce qui… ? (no hay forma corta)"
+    ],
+    [
+     "Complemento directo",
+     "Qui + inversión / Qui est-ce que… ?",
+     "Que + inversión / Qu'est-ce que… ?"
+    ],
+    [
+     "Tras preposición",
+     "à qui, avec qui, pour qui…",
+     "de quoi, à quoi, avec quoi…"
+    ]
+   ]
+  },
+  {
+   "tipo": "texto",
+   "texto": "Cómo elegir en la forma larga: la primera parte dice si preguntas por persona (qui) o cosa (qu'), y la segunda la función: …qui si lo que sigue es el verbo (sujeto), …que si lo que sigue es un sujeto. Qu'est-ce qui se passe ? (sujeto: lo que pasa). Qu'est-ce que tu fais ? (complemento: tu haces algo)."
+  },
+  {
+   "tipo": "lista",
+   "items": [
+    "Que va con inversión: Que fais-tu ? Que veux-tu dire ? En lengua hablada se oye Tu fais quoi ?, pero no se dice «Quoi fais-tu ?».",
+    "Quoi se usa tras preposición o solo: De quoi tu parles ? À quoi penses-tu ? Quoi de neuf ?",
+    "En español «¿a quién?» lleva a; en francés el complemento directo no: Qui cherches-tu ? (¿A quién buscas?)."
+   ]
+  },
+  {
+   "tipo": "tabla",
+   "cabecera": [
+    "",
+    "Masculino",
+    "Femenino"
+   ],
+   "filas": [
+    [
+     "Singular",
+     "lequel (auquel, duquel)",
+     "laquelle (à laquelle, de laquelle)"
+    ],
+    [
+     "Plural",
+     "lesquels (auxquels, desquels)",
+     "lesquelles (auxquelles, desquelles)"
+    ]
+   ]
+  },
+  {
+   "tipo": "texto",
+   "texto": "Lequel pregunta «¿cuál?» y concuerda con el nombre al que se refiere: Entre ces deux cravates, laquelle dois-je porter ? Con à y de se contrae: Tu veux voir un film ? Auquel penses-tu ? (penser à)."
+  }
  ],
  "ejemplos": [
-  {"frase": "Qui est là ?", "traduccion": "¿Quién está ahí?"},
-  {"frase": "Qui cherches-tu ?", "traduccion": "¿A quién buscas?"},
-  {"frase": "Qu'est-ce qui se passe ?", "traduccion": "¿Qué pasa?"},
-  {"frase": "Qu'est-ce que tu fais avec elle ?", "traduccion": "¿Qué haces con ella?"},
-  {"frase": "De quoi ris-tu ?", "traduccion": "¿De qué te ríes?"},
-  {"frase": "J'adore les films sur les insectes. — Lesquels aimes-tu ?", "traduccion": "Me encantan las películas de insectos. — ¿Cuáles te gustan?"}
+  {
+   "frase": "Qui est là ?",
+   "traduccion": "¿Quién está ahí?"
+  },
+  {
+   "frase": "Qui cherches-tu ?",
+   "traduccion": "¿A quién buscas?"
+  },
+  {
+   "frase": "Qu'est-ce qui se passe ?",
+   "traduccion": "¿Qué pasa?"
+  },
+  {
+   "frase": "Qu'est-ce que tu fais avec elle ?",
+   "traduccion": "¿Qué haces con ella?"
+  },
+  {
+   "frase": "De quoi ris-tu ?",
+   "traduccion": "¿De qué te ríes?"
+  },
+  {
+   "frase": "J'adore les films sur les insectes. — Lesquels aimes-tu ?",
+   "traduccion": "Me encantan las películas de insectos. — ¿Cuáles te gustan?"
+  }
  ],
  "errores_hispanohablantes": [
-  {"mal": "Qu'est-ce que se passe ?", "bien": "Qu'est-ce qui se passe ?", "nota": "Lo que pasa es el sujeto de se passe: qu'est-ce qui."},
-  {"mal": "À qui cherches-tu ?", "bien": "Qui cherches-tu ?", "nota": "El complemento directo de persona no lleva preposición en francés."},
-  {"mal": "De que parles-tu ?", "bien": "De quoi parles-tu ?", "nota": "Tras preposición, «qué» es quoi."}
+  {
+   "mal": "Qu'est-ce que se passe ?",
+   "bien": "Qu'est-ce qui se passe ?",
+   "nota": "Lo que pasa es el sujeto de se passe: qu'est-ce qui."
+  },
+  {
+   "mal": "À qui cherches-tu ?",
+   "bien": "Qui cherches-tu ?",
+   "nota": "El complemento directo de persona no lleva preposición en francés."
+  },
+  {
+   "mal": "De que parles-tu ?",
+   "bien": "De quoi parles-tu ?",
+   "nota": "Tras preposición, «qué» es quoi."
+  }
  ],
  "ejercicios": [
-  {"id": "e01", "tipo": "hueco", "enunciado": "Completa con el pronombre interrogativo.", "frase": "___ est là ?", "respuestas": ["Qui", "Qui est-ce qui"], "explicacion": "Pregunta por una persona sujeto: qui.", "origen": "tatoeba:1158571"},
-  {"id": "e02", "tipo": "eleccion", "enunciado": "Elige el pronombre correcto.", "frase": "___ fait Ken ?", "opciones": ["Que", "Qui", "Quoi"], "respuestas": ["Que"], "explicacion": "Cosa como complemento directo, con inversión: que.", "origen": "tatoeba:584632"},
-  {"id": "e03", "tipo": "hueco", "enunciado": "Completa con el pronombre interrogativo.", "frase": "De ___ ris-tu ?", "respuestas": ["quoi"], "explicacion": "Cosa tras preposición: quoi.", "origen": "tatoeba:845535"},
-  {"id": "e04", "tipo": "eleccion", "enunciado": "Elige el pronombre correcto (se pregunta por una persona).", "frase": "___ avez-vous vu ?", "opciones": ["Qui", "Que", "Quoi"], "respuestas": ["Qui"], "explicacion": "Persona como complemento directo: qui, sin preposición.", "origen": "tatoeba:1941707"},
-  {"id": "e05", "tipo": "transformar", "enunciado": "Reformula la pregunta con est-ce que, sin inversión.", "frase": "Que veux-tu boire ?", "respuestas": ["Qu'est-ce que tu veux boire ?"], "explicacion": "Que + inversión equivale a qu'est-ce que + orden normal.", "origen": "tatoeba:400185"},
-  {"id": "e06", "tipo": "transformar", "enunciado": "Reformula la pregunta con la forma larga.", "frase": "Qui a écrit cela ?", "respuestas": ["Qui est-ce qui a écrit cela ?"], "explicacion": "Persona sujeto: qui = qui est-ce qui.", "origen": "tatoeba:2354753"},
-  {"id": "e07", "tipo": "corregir", "enunciado": "Corrige el error.", "frase": "Qu'est-ce que se passe ?", "respuestas": ["Qu'est-ce qui se passe ?"], "explicacion": "La cosa es sujeto de se passe: qu'est-ce qui."},
-  {"id": "e08", "tipo": "corregir", "enunciado": "Corrige el error.", "frase": "Quoi vas-tu faire ?", "respuestas": ["Que vas-tu faire ?", "Qu'est-ce que tu vas faire ?"], "explicacion": "Con inversión, «qué» complemento es que, no quoi.", "origen": "tatoeba:332312"},
-  {"id": "e09", "tipo": "ordenar", "enunciado": "Ordena las palabras.", "palabras": ["mère", "dit", "ta", "Qu'a"], "respuestas": ["Qu'a dit ta mère"], "explicacion": "Que + inversión con el sujeto nominal detrás: qu'a dit ta mère ?", "origen": "tatoeba:3582510"},
-  {"id": "e10", "tipo": "eleccion", "enunciado": "Elige el pronombre correcto.", "frase": "À ___ es-tu bon ?", "opciones": ["quoi", "que", "qu'est-ce que"], "respuestas": ["quoi"], "explicacion": "Tras preposición (à), cosa: quoi.", "origen": "tatoeba:2036129"},
-  {"id": "e11", "tipo": "hueco", "enunciado": "Completa con el pronombre interrogativo.", "frase": "___ t'a donné ça ?", "respuestas": ["Qui", "Qui est-ce qui"], "explicacion": "Persona sujeto: qui.", "origen": "tatoeba:1847473"},
-  {"id": "e12", "tipo": "eleccion", "enunciado": "Elige la forma de lequel.", "frase": "Entre ces deux cravates, ___ dois-je porter ?", "opciones": ["laquelle", "lequel", "lesquelles"], "respuestas": ["laquelle"], "explicacion": "Una sola de las corbatas (femenino): laquelle."},
-  {"id": "e13", "tipo": "hueco", "enunciado": "Completa con la forma de lequel (parler de).", "frase": "Mon poème ? ___ parles-tu ?", "respuestas": ["Duquel", "duquel"], "explicacion": "Parler de + masculino singular: de + lequel = duquel."},
-  {"id": "e14", "tipo": "eleccion", "enunciado": "Elige la forma de lequel.", "frase": "Tu veux voir un film ? ___ penses-tu ?", "opciones": ["Auquel", "Lequel", "Duquel"], "respuestas": ["Auquel"], "explicacion": "Penser à + masculino singular: à + lequel = auquel."},
-  {"id": "e15", "tipo": "hueco", "enunciado": "Completa con el pronombre interrogativo.", "frase": "Avec ___ est-ce qu'elle est partie ?", "respuestas": ["qui"], "explicacion": "Persona tras preposición: qui."},
-  {"id": "e16", "tipo": "eleccion", "enunciado": "Elige el pronombre correcto.", "frase": "___ te rend si triste ?", "opciones": ["Qu'est-ce qui", "Qu'est-ce que", "Qui est-ce que"], "respuestas": ["Qu'est-ce qui"], "explicacion": "Cosa sujeto de rend: qu'est-ce qui."}
+  {
+   "id": "e01",
+   "tipo": "hueco",
+   "enunciado": "Completa con el pronombre interrogativo.",
+   "frase": "___ est là ?",
+   "respuestas": [
+    "Qui",
+    "Qui est-ce qui"
+   ],
+   "explicacion": "Se aplica la fila del sujeto de persona: qui o su forma larga qui est-ce qui. La pista es que detrás del hueco viene directamente el verbo est, sin otro sujeto, así que el pronombre es el sujeto. Las dos respuestas son válidas porque ambas preguntan por una persona sujeto; qui es la forma más corriente.",
+   "origen": "tatoeba:1158571",
+   "explicacion_breve": "Pregunta por una persona sujeto: qui.",
+   "traduccion": "¿Quién está ahí?",
+   "errores_previstos": [
+    {
+     "respuesta": "Qui est-ce que",
+     "explicacion": "Qui est-ce que se usa cuando la persona es complemento y sigue otro sujeto; aquí sigue el verbo, así que sería qui est-ce qui."
+    },
+    {
+     "respuesta": "Qu'est-ce qui",
+     "explicacion": "Qu'est-ce qui pregunta por una cosa sujeto («¿qué hay ahí?»); para una persona se usa qui."
+    }
+   ]
+  },
+  {
+   "id": "e02",
+   "tipo": "eleccion",
+   "enunciado": "Elige el pronombre correcto.",
+   "frase": "___ fait Ken ?",
+   "opciones": [
+    "Que",
+    "Qui",
+    "Quoi"
+   ],
+   "respuestas": [
+    "Que"
+   ],
+   "explicacion": "Se aplica la fila del complemento directo de cosa: que + inversión. La pista es el orden verbo + sujeto (fait Ken), que indica inversión, y que el sujeto es Ken: lo que se pregunta es el complemento de faire. La ficha recuerda que con inversión se usa que, nunca quoi.",
+   "origen": "tatoeba:584632",
+   "explicacion_breve": "Cosa como complemento directo, con inversión: que.",
+   "traduccion": "¿Qué hace Ken?",
+   "por_opcion": {
+    "Que": "Correcta: cosa como complemento directo, con inversión del verbo y el sujeto.",
+    "Qui": "Incorrecta: qui fait Ken ? preguntaría por una persona («¿quién hace a Ken?») y no tiene sentido aquí.",
+    "Quoi": "Incorrecta: quoi no se usa al principio con inversión; solo tras preposición, solo o al final en lengua hablada (Ken fait quoi ?)."
+   }
+  },
+  {
+   "id": "e03",
+   "tipo": "hueco",
+   "enunciado": "Completa con el pronombre interrogativo.",
+   "frase": "De ___ ris-tu ?",
+   "respuestas": [
+    "quoi"
+   ],
+   "explicacion": "Se aplica la fila «tras preposición»: para cosas se usa quoi. La pista es la preposición de, que rige el verbo rire de (reírse de). El español dice «de qué», pero en francés que no puede ir tras preposición: de quoi.",
+   "origen": "tatoeba:845535",
+   "explicacion_breve": "Cosa tras preposición: quoi.",
+   "traduccion": "¿De qué te ríes?",
+   "errores_previstos": [
+    {
+     "respuesta": "que",
+     "explicacion": "Es el calco de «de qué». Tras preposición, el «qué» de cosa es quoi: de quoi."
+    },
+    {
+     "respuesta": "qui",
+     "explicacion": "De qui preguntaría por una persona («¿de quién te ríes?»); aquí se pregunta por una cosa."
+    }
+   ]
+  },
+  {
+   "id": "e04",
+   "tipo": "eleccion",
+   "enunciado": "Elige el pronombre correcto (se pregunta por una persona).",
+   "frase": "___ avez-vous vu ?",
+   "opciones": [
+    "Qui",
+    "Que",
+    "Quoi"
+   ],
+   "respuestas": [
+    "Qui"
+   ],
+   "explicacion": "Se aplica la fila del complemento directo de persona: qui con inversión. La pista es el enunciado (se pregunta por una persona) y el orden avez-vous, en el que vous es el sujeto. La lista de la ficha recuerda que, aunque en español digamos «¿a quién?», en francés el complemento directo de persona no lleva preposición.",
+   "origen": "tatoeba:1941707",
+   "explicacion_breve": "Persona como complemento directo: qui, sin preposición.",
+   "traduccion": "¿A quién habéis visto? (¿A quién ha visto usted?)",
+   "por_opcion": {
+    "Qui": "Correcta: persona como complemento directo, sin preposición.",
+    "Que": "Incorrecta: que pregunta por una cosa («¿qué habéis visto?»), no por una persona.",
+    "Quoi": "Incorrecta: quoi es para cosas y no va al principio con inversión."
+   }
+  },
+  {
+   "id": "e05",
+   "tipo": "transformar",
+   "enunciado": "Reformula la pregunta con est-ce que, sin inversión.",
+   "frase": "Que veux-tu boire ?",
+   "respuestas": [
+    "Qu'est-ce que tu veux boire ?"
+   ],
+   "explicacion": "Se aplica la equivalencia de la tabla entre que + inversión y qu'est-ce que + orden normal. Al reformular, qu'est-ce que va delante y luego el sujeto y el verbo en orden normal: tu veux boire. Que se apostrofa ante est: qu'est-ce que. Es la forma más habitual en la lengua hablada cuidada.",
+   "origen": "tatoeba:400185",
+   "explicacion_breve": "Que + inversión equivale a qu'est-ce que + orden normal.",
+   "traduccion": "¿Qué quieres beber?",
+   "errores_previstos": [
+    {
+     "respuesta": "Qu'est-ce que veux-tu boire ?",
+     "explicacion": "Con est-ce que no hay inversión: qu'est-ce que tu veux boire ?"
+    },
+    {
+     "respuesta": "Qu'est-ce qui tu veux boire ?",
+     "explicacion": "Qu'est-ce qui se usa cuando la cosa es sujeto; aquí tu es el sujeto y la cosa es complemento: qu'est-ce que."
+    },
+    {
+     "respuesta": "Quoi est-ce que tu veux boire ?",
+     "explicacion": "Ante est-ce que se usa la forma átona que (qu'est-ce que), no quoi."
+    }
+   ]
+  },
+  {
+   "id": "e06",
+   "tipo": "transformar",
+   "enunciado": "Reformula la pregunta con la forma larga.",
+   "frase": "Qui a écrit cela ?",
+   "respuestas": [
+    "Qui est-ce qui a écrit cela ?"
+   ],
+   "explicacion": "Se aplica la fila del sujeto de persona: qui equivale a la forma larga qui est-ce qui. La pista es que tras qui viene directamente el verbo (a écrit), así que qui es sujeto. En la forma larga, la primera parte (qui) dice que es persona y la segunda (qui) que es sujeto.",
+   "origen": "tatoeba:2354753",
+   "explicacion_breve": "Persona sujeto: qui = qui est-ce qui.",
+   "traduccion": "¿Quién ha escrito eso?",
+   "errores_previstos": [
+    {
+     "respuesta": "Qui est-ce que a écrit cela ?",
+     "explicacion": "La segunda parte debe ser qui porque el pronombre es sujeto (sigue el verbo): qui est-ce qui."
+    },
+    {
+     "respuesta": "Qu'est-ce qui a écrit cela ?",
+     "explicacion": "La primera parte qu' pregunta por una cosa; para una persona es qui est-ce qui."
+    }
+   ]
+  },
+  {
+   "id": "e07",
+   "tipo": "corregir",
+   "enunciado": "Corrige el error.",
+   "frase": "Qu'est-ce que se passe ?",
+   "respuestas": [
+    "Qu'est-ce qui se passe ?"
+   ],
+   "explicacion": "El error es la segunda parte de la forma larga. Según la regla de la ficha, se termina en qui si lo que sigue es el verbo (el pronombre es sujeto) y en que si sigue un sujeto. Aquí sigue directamente se passe, cuyo sujeto es la cosa que pasa, así que la forma correcta es qu'est-ce qui. Es el ejemplo de error típico que da la ficha.",
+   "explicacion_breve": "La cosa es sujeto de se passe: qu'est-ce qui.",
+   "traduccion": "¿Qué pasa?",
+   "errores_previstos": [
+    {
+     "respuesta": "Qu'est-ce que se passe ?",
+     "explicacion": "Es dejar la frase sin corregir: la cosa es sujeto de se passe, así que hace falta qu'est-ce qui."
+    },
+    {
+     "respuesta": "Qui est-ce qui se passe ?",
+     "explicacion": "La primera parte qui preguntaría por una persona; para una cosa es qu'est-ce qui."
+    }
+   ]
+  },
+  {
+   "id": "e08",
+   "tipo": "corregir",
+   "enunciado": "Corrige el error.",
+   "frase": "Quoi vas-tu faire ?",
+   "respuestas": [
+    "Que vas-tu faire ?",
+    "Qu'est-ce que tu vas faire ?"
+   ],
+   "explicacion": "El error es quoi al principio con inversión. La ficha explica que con inversión el «qué» complemento es que: que vas-tu faire ? También vale la forma sin inversión con qu'est-ce que: qu'est-ce que tu vas faire ? En la lengua hablada se oye tu vas faire quoi ?, con quoi al final, pero nunca quoi delante con inversión.",
+   "origen": "tatoeba:332312",
+   "explicacion_breve": "Con inversión, «qué» complemento es que, no quoi.",
+   "traduccion": "¿Qué vas a hacer?",
+   "errores_previstos": [
+    {
+     "respuesta": "Quoi vas-tu faire ?",
+     "explicacion": "Es dejar la frase sin corregir: con inversión se usa que, no quoi."
+    },
+    {
+     "respuesta": "Qu'est-ce que vas-tu faire ?",
+     "explicacion": "Mezcla dos tipos de pregunta: con qu'est-ce que no hay inversión (tu vas faire)."
+    }
+   ]
+  },
+  {
+   "id": "e09",
+   "tipo": "ordenar",
+   "enunciado": "Ordena las palabras.",
+   "palabras": [
+    "mère",
+    "dit",
+    "ta",
+    "Qu'a"
+   ],
+   "respuestas": [
+    "Qu'a dit ta mère"
+   ],
+   "explicacion": "Se aplica la regla de que + inversión. Cuando el sujeto es un nombre (ta mère), con que la inversión es simple: el verbo pasa delante del sujeto y no se añade pronombre. Que se apostrofa ante a: qu'a dit ta mère ? El orden es pronombre interrogativo, verbo compuesto completo y sujeto al final.",
+   "origen": "tatoeba:3582510",
+   "explicacion_breve": "Que + inversión con el sujeto nominal detrás: qu'a dit ta mère ?",
+   "traduccion": "¿Qué ha dicho tu madre?",
+   "errores_previstos": [
+    {
+     "respuesta": "Qu'a ta mère dit",
+     "explicacion": "Con que y sujeto nominal, el sujeto va detrás del verbo completo (auxiliar y participio): qu'a dit ta mère."
+    },
+    {
+     "respuesta": "Ta mère qu'a dit",
+     "explicacion": "El pronombre interrogativo con inversión va al principio de la pregunta."
+    }
+   ]
+  },
+  {
+   "id": "e10",
+   "tipo": "eleccion",
+   "enunciado": "Elige el pronombre correcto.",
+   "frase": "À ___ es-tu bon ?",
+   "opciones": [
+    "quoi",
+    "que",
+    "qu'est-ce que"
+   ],
+   "respuestas": [
+    "quoi"
+   ],
+   "explicacion": "Se aplica la fila «tras preposición»: la cosa por la que se pregunta tras à es quoi. La pista es la preposición à que rige être bon à (servir para, ser bueno en). Que y qu'est-ce que no pueden ir detrás de una preposición.",
+   "origen": "tatoeba:2036129",
+   "explicacion_breve": "Tras preposición (à), cosa: quoi.",
+   "traduccion": "¿Para qué vales? (¿En qué eres bueno?)",
+   "por_opcion": {
+    "quoi": "Correcta: tras preposición, el pronombre de cosa es quoi.",
+    "que": "Incorrecta: que es átono y no puede ir tras preposición (calco de «a qué»).",
+    "qu'est-ce que": "Incorrecta: la forma larga no va tras preposición en la lengua escrita; además pediría orden sin inversión."
+   }
+  },
+  {
+   "id": "e11",
+   "tipo": "hueco",
+   "enunciado": "Completa con el pronombre interrogativo.",
+   "frase": "___ t'a donné ça ?",
+   "respuestas": [
+    "Qui",
+    "Qui est-ce qui"
+   ],
+   "explicacion": "Se aplica la fila del sujeto de persona: qui o qui est-ce qui. La pista es que tras el hueco viene el bloque pronombre + verbo (t'a donné) sin otro sujeto, de modo que lo que se pregunta es quién realizó la acción. Las dos respuestas son válidas porque ambas preguntan por una persona sujeto.",
+   "origen": "tatoeba:1847473",
+   "explicacion_breve": "Persona sujeto: qui.",
+   "traduccion": "¿Quién te ha dado eso?",
+   "errores_previstos": [
+    {
+     "respuesta": "Qu'est-ce qui",
+     "explicacion": "Qu'est-ce qui pregunta por una cosa sujeto; quien da algo es una persona: qui."
+    },
+    {
+     "respuesta": "Qui est-ce que",
+     "explicacion": "Qui est-ce que se usa para el complemento; aquí el pronombre es sujeto: qui est-ce qui."
+    }
+   ]
+  },
+  {
+   "id": "e12",
+   "tipo": "eleccion",
+   "enunciado": "Elige la forma de lequel.",
+   "frase": "Entre ces deux cravates, ___ dois-je porter ?",
+   "opciones": [
+    "laquelle",
+    "lequel",
+    "lesquelles"
+   ],
+   "respuestas": [
+    "laquelle"
+   ],
+   "explicacion": "Se aplica la tabla de lequel, que pregunta «¿cuál?» entre elementos ya mencionados y concuerda con el nombre al que se refiere. La pista es cravates, femenino, y que se elige una sola. Por eso se usa laquelle, femenino singular.",
+   "explicacion_breve": "Una sola de las corbatas (femenino): laquelle.",
+   "traduccion": "Entre estas dos corbatas, ¿cuál debo ponerme?",
+   "por_opcion": {
+    "laquelle": "Correcta: femenino singular, una de las corbatas.",
+    "lequel": "Incorrecta: es masculino; cravate es femenino.",
+    "lesquelles": "Incorrecta: es plural; se elige una sola corbata."
+   },
+   "glosario": [
+    {
+     "palabra": "une cravate",
+     "significado": "una corbata"
+    }
+   ]
+  },
+  {
+   "id": "e13",
+   "tipo": "hueco",
+   "enunciado": "Completa con la forma de lequel (parler de).",
+   "frase": "J'ai écrit deux poèmes. ___ parles-tu ?",
+   "respuestas": [
+    "Duquel",
+    "duquel"
+   ],
+   "explicacion": "Se aplica la tabla de lequel con la contracción de de: parler de + lequel da duquel, igual que de + le da du. Lequel sirve para elegir entre varios elementos ya mencionados, aquí los deux poèmes. La pista es el verbo parler, que rige de, y el nombre poème, masculino; como se pregunta por uno solo de los dos poemas, va en singular: duquel. La respuesta se acepta con mayúscula o minúscula porque abre la pregunta.",
+   "explicacion_breve": "Parler de + masculino singular: de + lequel = duquel.",
+   "traduccion": "He escrito dos poemas. ¿De cuál hablas?",
+   "errores_previstos": [
+    {
+     "respuesta": "De lequel",
+     "explicacion": "De + lequel se contrae obligatoriamente: duquel."
+    },
+    {
+     "respuesta": "Lequel",
+     "explicacion": "Falta la preposición de que exige parler de: duquel."
+    },
+    {
+     "respuesta": "Desquels",
+     "explicacion": "Desquels preguntaría por varios poemas a la vez; parles-tu de uno de los dos pide el singular duquel."
+    }
+   ]
+  },
+  {
+   "id": "e14",
+   "tipo": "eleccion",
+   "enunciado": "Elige la forma de lequel.",
+   "frase": "Tu veux voir un film ? ___ penses-tu ?",
+   "opciones": [
+    "Auquel",
+    "Lequel",
+    "Duquel"
+   ],
+   "respuestas": [
+    "Auquel"
+   ],
+   "explicacion": "Se aplica la contracción de à con lequel: penser à + lequel da auquel, igual que à + le da au. La pista es el verbo penser, que rige à, y el nombre film, masculino singular. Es exactamente el ejemplo de la ficha.",
+   "explicacion_breve": "Penser à + masculino singular: à + lequel = auquel.",
+   "traduccion": "¿Quieres ver una película? ¿En cuál estás pensando?",
+   "por_opcion": {
+    "Auquel": "Correcta: à + lequel, exigido por penser à.",
+    "Lequel": "Incorrecta: falta la preposición à de penser à.",
+    "Duquel": "Incorrecta: contiene de, que corresponde a verbos como parler de, no a penser à."
+   }
+  },
+  {
+   "id": "e15",
+   "tipo": "hueco",
+   "enunciado": "Completa con el pronombre interrogativo.",
+   "frase": "Avec ___ est-ce qu'elle est partie ?",
+   "respuestas": [
+    "qui"
+   ],
+   "explicacion": "Se aplica la fila «tras preposición» para personas: avec qui. La pista es la preposición avec y que se pregunta por una persona (con quién se fue). Tras una preposición, qui no cambia, y la pregunta sigue con est-ce que y orden normal.",
+   "explicacion_breve": "Persona tras preposición: qui.",
+   "traduccion": "¿Con quién se ha ido?",
+   "errores_previstos": [
+    {
+     "respuesta": "quoi",
+     "explicacion": "Avec quoi preguntaría por una cosa («¿con qué?»); para una persona es avec qui."
+    },
+    {
+     "respuesta": "qui est-ce qui",
+     "explicacion": "Tras la preposición basta qui; además la frase ya lleva est-ce que."
+    }
+   ]
+  },
+  {
+   "id": "e16",
+   "tipo": "eleccion",
+   "enunciado": "Elige el pronombre correcto.",
+   "frase": "___ te rend si triste ?",
+   "opciones": [
+    "Qu'est-ce qui",
+    "Qu'est-ce que",
+    "Qui est-ce que"
+   ],
+   "respuestas": [
+    "Qu'est-ce qui"
+   ],
+   "explicacion": "Se aplica la regla de la forma larga: qu' para cosa y qui porque la cosa es sujeto. La pista es que tras el hueco viene el verbo rend (con su pronombre te), sin otro sujeto: lo que te pone triste es el sujeto de rendre. La ficha recuerda que para cosa sujeto no hay forma corta, así que la única posibilidad es qu'est-ce qui.",
+   "explicacion_breve": "Cosa sujeto de rend: qu'est-ce qui.",
+   "traduccion": "¿Qué te pone tan triste?",
+   "por_opcion": {
+    "Qu'est-ce qui": "Correcta: cosa sujeto de rend.",
+    "Qu'est-ce que": "Incorrecta: se usa cuando la cosa es complemento y sigue otro sujeto (qu'est-ce que tu fais).",
+    "Qui est-ce que": "Incorrecta: pregunta por una persona complemento; aquí se pregunta por una cosa sujeto."
+   }
+  }
  ],
- "fuente": {"nombre": "Tex's French Grammar", "autores": "COERLL, Universidad de Texas en Austin", "licencia": "CC BY 3.0", "url": "https://laits.utexas.edu/tex/gr/int5.html", "otras": ["Frases de Tatoeba (CC BY 2.0 FR)"]}
+ "fuente": {
+  "nombre": "Tex's French Grammar",
+  "autores": "COERLL, Universidad de Texas en Austin",
+  "licencia": "CC BY 3.0",
+  "url": "https://laits.utexas.edu/tex/gr/int5.html",
+  "otras": [
+   "Frases de Tatoeba (CC BY 2.0 FR)"
+  ]
+ },
+ "descripcion_larga_es": "Los pronombres interrogativos sirven para preguntar «¿quién?», «¿qué?» y «¿cuál?». En francés la forma depende de dos cosas: si se pregunta por una persona o por una cosa, y de la función en la frase (sujeto, complemento directo o detrás de preposición). Por eso «¿qué?» puede ser que, qu'est-ce que, qu'est-ce qui o quoi, una distinción que el español no hace y que causa muchos errores.",
+ "contexto": {
+  "que_es": "Son los pronombres que introducen preguntas sobre personas (qui, qui est-ce qui, qui est-ce que), sobre cosas (que, qu'est-ce que, qu'est-ce qui, quoi) o sobre una elección entre varios elementos (lequel y sus formas, contraídas con à y de: auquel, duquel). Cada forma corresponde a una función: sujeto, complemento directo o término de preposición.",
+  "por_que_importa": "Preguntar es esencial en cualquier conversación y en cualquier entrevista o prueba oral. Errores como qu'est-ce que se passe, à qui cherches-tu o de que parles-tu son muy frecuentes en hispanohablantes porque el español usa «qué» y «a quién» para todo. Una pregunta mal formada puede no entenderse o sonar claramente extranjera, y el registro (que + inversión frente a quoi al final) indica también el grado de formalidad.",
+  "cuando_se_usa": "Se elige preguntándose primero si se habla de persona o de cosa, y después qué función tiene la palabra interrogativa: si lo que sigue es directamente el verbo, es sujeto (qui, qu'est-ce qui); si sigue otro sujeto, es complemento (qui, que, qu'est-ce que); si va tras preposición, es qui para personas y quoi para cosas. Lequel se usa cuando se elige entre varios elementos ya mencionados."
+ }
 }

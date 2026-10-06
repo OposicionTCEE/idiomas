@@ -6,61 +6,696 @@
  "nivel": "B2",
  "resumen": "Conectores para construir un argumento: conceder, contrastar, reformular, poner ejemplos, añadir y concluir. Lo que da cohesión a una exposición o un resumen.",
  "explicacion": [
-  {"tipo": "texto", "texto": "Fíjate en la gramática de cada conector: unos van seguidos de una oración (although, whereas), otros de un sustantivo o -ing (despite, in spite of) y otros son adverbios que abren frase y van con coma (however, nevertheless)."},
-  {"tipo": "tabla", "cabecera": ["Expresión", "Significado", "Ejemplo"], "filas": [
-   ["although / even though + oración", "aunque / aun cuando", "Although it was late, we kept working."],
-   ["despite / in spite of + sustantivo o -ing", "a pesar de", "Despite the rain, the match went ahead."],
-   ["however, / nevertheless,", "sin embargo, / no obstante,", "Prices rose. However, demand held up."],
-   ["whereas / while", "mientras que (contraste)", "Exports rose, whereas imports fell."],
-   ["admittedly", "hay que reconocer que", "Admittedly, the plan has some flaws."],
-   ["even so", "aun así", "It was expensive. Even so, we bought it."],
-   ["on the other hand", "por otro lado", "On the other hand, it would create jobs."],
-   ["on the contrary", "al contrario (niega lo anterior)", "It isn't cheap; on the contrary, it's very expensive."]
-  ]},
-  {"tipo": "tabla", "cabecera": ["Expresión", "Significado", "Ejemplo"], "filas": [
-   ["in other words", "en otras palabras", "In other words, the plan failed."],
-   ["that is (to say) / i.e.", "es decir", "The core rate, that is, excluding energy, rose."],
-   ["for instance / for example / e.g.", "por ejemplo", "Some cities, for instance Bilbao, have changed a lot."],
-   ["such as", "como (para enumerar ejemplos)", "Countries such as Italy and Greece..."],
-   ["in particular / notably", "en particular / especialmente", "Prices rose, notably in food."],
-   ["moreover / furthermore / in addition", "además (formal)", "Moreover, the costs are too high."],
-   ["as a result / consequently", "como resultado / en consecuencia", "As a result, the factory closed."],
-   ["therefore / thus", "por lo tanto / así pues", "Therefore, we need a new approach."],
-   ["in conclusion / to sum up", "en conclusión / en resumen", "To sum up, the risks outweigh the benefits."],
-   ["all in all / on the whole", "en general, a fin de cuentas", "All in all, it was a good year."]
-  ]},
-  {"tipo": "lista", "items": ["«Actually» no significa «actualmente» sino «en realidad»; «actualmente» es «currently» o «at present».", "«Eventually» significa «finalmente, al final», no «eventualmente».", "Despite nunca lleva «of»: se dice «despite the rain» o «in spite of the rain»."]}
+  {
+   "tipo": "texto",
+   "texto": "Fíjate en la gramática de cada conector: unos van seguidos de una oración (although, whereas), otros de un sustantivo o -ing (despite, in spite of) y otros son adverbios que abren frase y van con coma (however, nevertheless)."
+  },
+  {
+   "tipo": "tabla",
+   "cabecera": [
+    "Expresión",
+    "Significado",
+    "Ejemplo"
+   ],
+   "filas": [
+    [
+     "although / even though + oración",
+     "aunque / aun cuando",
+     "Although it was late, we kept working."
+    ],
+    [
+     "despite / in spite of + sustantivo o -ing",
+     "a pesar de",
+     "Despite the rain, the match went ahead."
+    ],
+    [
+     "however, / nevertheless,",
+     "sin embargo, / no obstante,",
+     "Prices rose. However, demand held up."
+    ],
+    [
+     "whereas / while",
+     "mientras que (contraste)",
+     "Exports rose, whereas imports fell."
+    ],
+    [
+     "admittedly",
+     "hay que reconocer que",
+     "Admittedly, the plan has some flaws."
+    ],
+    [
+     "even so",
+     "aun así",
+     "It was expensive. Even so, we bought it."
+    ],
+    [
+     "on the other hand",
+     "por otro lado",
+     "On the other hand, it would create jobs."
+    ],
+    [
+     "on the contrary",
+     "al contrario (niega lo anterior)",
+     "It isn't cheap; on the contrary, it's very expensive."
+    ]
+   ]
+  },
+  {
+   "tipo": "tabla",
+   "cabecera": [
+    "Expresión",
+    "Significado",
+    "Ejemplo"
+   ],
+   "filas": [
+    [
+     "in other words",
+     "en otras palabras",
+     "In other words, the plan failed."
+    ],
+    [
+     "that is (to say) / i.e.",
+     "es decir",
+     "The core rate, that is, excluding energy, rose."
+    ],
+    [
+     "for instance / for example / e.g.",
+     "por ejemplo",
+     "Some cities, for instance Bilbao, have changed a lot."
+    ],
+    [
+     "such as",
+     "como (para enumerar ejemplos)",
+     "Countries such as Italy and Greece..."
+    ],
+    [
+     "in particular / notably",
+     "en particular / especialmente",
+     "Prices rose, notably in food."
+    ],
+    [
+     "moreover / furthermore / in addition",
+     "además (formal)",
+     "Moreover, the costs are too high."
+    ],
+    [
+     "as a result / consequently",
+     "como resultado / en consecuencia",
+     "As a result, the factory closed."
+    ],
+    [
+     "therefore / thus",
+     "por lo tanto / así pues",
+     "Therefore, we need a new approach."
+    ],
+    [
+     "in conclusion / to sum up",
+     "en conclusión / en resumen",
+     "To sum up, the risks outweigh the benefits."
+    ],
+    [
+     "all in all / on the whole",
+     "en general, a fin de cuentas",
+     "All in all, it was a good year."
+    ]
+   ]
+  },
+  {
+   "tipo": "lista",
+   "items": [
+    "«Actually» no significa «actualmente» sino «en realidad»; «actualmente» es «currently» o «at present».",
+    "«Eventually» significa «finalmente, al final», no «eventualmente».",
+    "Despite nunca lleva «of»: se dice «despite the rain» o «in spite of the rain»."
+   ]
+  }
  ],
  "ejemplos": [
-  {"frase": "Although the plan is expensive, it will pay off in the long run.", "traduccion": "Aunque el plan es caro, saldrá rentable a largo plazo."},
-  {"frase": "Despite having little money, they travelled all over Asia.", "traduccion": "A pesar de tener poco dinero, viajaron por toda Asia."},
-  {"frase": "Some sports, such as cycling and swimming, are easy on the knees.", "traduccion": "Algunos deportes, como el ciclismo y la natación, cuidan las rodillas."},
-  {"frase": "The northern regions are growing, whereas the south is stagnating.", "traduccion": "Las regiones del norte crecen, mientras que el sur está estancado."},
-  {"frase": "The film is long. Even so, it never feels boring.", "traduccion": "La película es larga. Aun así, en ningún momento resulta aburrida."},
-  {"frase": "He actually lives in Toledo, not in Madrid.", "traduccion": "En realidad vive en Toledo, no en Madrid."}
+  {
+   "frase": "Although the plan is expensive, it will pay off in the long run.",
+   "traduccion": "Aunque el plan es caro, saldrá rentable a largo plazo."
+  },
+  {
+   "frase": "Despite having little money, they travelled all over Asia.",
+   "traduccion": "A pesar de tener poco dinero, viajaron por toda Asia."
+  },
+  {
+   "frase": "Some sports, such as cycling and swimming, are easy on the knees.",
+   "traduccion": "Algunos deportes, como el ciclismo y la natación, cuidan las rodillas."
+  },
+  {
+   "frase": "The northern regions are growing, whereas the south is stagnating.",
+   "traduccion": "Las regiones del norte crecen, mientras que el sur está estancado."
+  },
+  {
+   "frase": "The film is long. Even so, it never feels boring.",
+   "traduccion": "La película es larga. Aun así, en ningún momento resulta aburrida."
+  },
+  {
+   "frase": "He actually lives in Toledo, not in Madrid.",
+   "traduccion": "En realidad vive en Toledo, no en Madrid."
+  }
  ],
  "errores_hispanohablantes": [
-  {"mal": "Despite of the crisis, sales grew.", "bien": "Despite the crisis, sales grew.", "nota": "«Despite» no lleva «of»; «in spite of» sí."},
-  {"mal": "Actually, the unemployment rate is 11%.", "bien": "Currently, the unemployment rate is 11%.", "nota": "«Actualmente» es «currently / at present»; «actually» es «en realidad»."},
-  {"mal": "Although the rain, we went out.", "bien": "Despite the rain, we went out.", "nota": "«Although» necesita una oración con verbo; con un sustantivo se usa «despite»."},
-  {"mal": "However the results were good.", "bien": "However, the results were good.", "nota": "«However» al principio de frase va seguido de coma."}
+  {
+   "mal": "Despite of the crisis, sales grew.",
+   "bien": "Despite the crisis, sales grew.",
+   "nota": "«Despite» no lleva «of»; «in spite of» sí."
+  },
+  {
+   "mal": "Actually, the unemployment rate is 11%.",
+   "bien": "Currently, the unemployment rate is 11%.",
+   "nota": "«Actualmente» es «currently / at present»; «actually» es «en realidad»."
+  },
+  {
+   "mal": "Although the rain, we went out.",
+   "bien": "Despite the rain, we went out.",
+   "nota": "«Although» necesita una oración con verbo; con un sustantivo se usa «despite»."
+  },
+  {
+   "mal": "However the results were good.",
+   "bien": "However, the results were good.",
+   "nota": "«However» al principio de frase va seguido de coma."
+  }
  ],
  "ejercicios": [
-  {"id": "e01", "tipo": "eleccion", "enunciado": "Elige la opción correcta.", "frase": "___ the bad weather, the concert was a success.", "opciones": ["Despite", "Although", "Despite of", "However"], "respuestas": ["Despite"], "explicacion": "Ante un sustantivo se usa «despite» (sin «of»)."},
-  {"id": "e02", "tipo": "eleccion", "enunciado": "Elige la opción correcta.", "frase": "___ she was tired, she finished the report.", "opciones": ["Although", "Despite", "In spite of", "Nevertheless"], "respuestas": ["Although"], "explicacion": "Ante una oración con verbo se usa «although»."},
-  {"id": "e03", "tipo": "corregir", "enunciado": "Corrige el error.", "frase": "Despite of the strike, the trains ran normally.", "respuestas": ["Despite the strike, the trains ran normally.", "In spite of the strike, the trains ran normally."], "explicacion": "«Despite» no lleva «of»."},
-  {"id": "e04", "tipo": "hueco", "enunciado": "Completa con un conector de dos palabras (por ejemplo).", "frase": "Some fruits, for ___, oranges and kiwis, are rich in vitamin C.", "respuestas": ["instance", "example"], "explicacion": "«For instance» o «for example» = por ejemplo."},
-  {"id": "e05", "tipo": "eleccion", "enunciado": "Elige la opción correcta.", "frase": "Madrid has grown a lot, ___ many rural areas have lost population.", "opciones": ["whereas", "therefore", "moreover", "despite"], "respuestas": ["whereas"], "explicacion": "«Whereas» expresa contraste entre dos hechos."},
-  {"id": "e06", "tipo": "corregir", "enunciado": "Corrige el error (falso amigo).", "frase": "Actually, she works as a teacher in Murcia, but before she was a nurse.", "respuestas": ["Currently, she works as a teacher in Murcia, but before she was a nurse.", "At present, she works as a teacher in Murcia, but before she was a nurse.", "Now, she works as a teacher in Murcia, but before she was a nurse.", "At the moment, she works as a teacher in Murcia, but before she was a nurse."], "explicacion": "Para «actualmente» se usa «currently» o «at present»."},
-  {"id": "e07", "tipo": "hueco", "enunciado": "Completa con una palabra (en otras palabras).", "frase": "The project is over budget and behind schedule. In other ___, it is a failure.", "respuestas": ["words"], "explicacion": "«In other words» reformula lo dicho."},
-  {"id": "e08", "tipo": "eleccion", "enunciado": "Elige la opción correcta.", "frase": "The house is not small; ___, it has six bedrooms.", "opciones": ["on the contrary", "on the other hand", "in addition", "for instance"], "respuestas": ["on the contrary"], "explicacion": "«On the contrary» niega lo anterior y afirma lo opuesto."},
-  {"id": "e09", "tipo": "hueco", "enunciado": "Completa con un conector (en consecuencia).", "frase": "Demand fell sharply. As a ___, the company cut production.", "respuestas": ["result", "consequence"], "explicacion": "«As a result / as a consequence» introduce el efecto."},
-  {"id": "e10", "tipo": "eleccion", "enunciado": "Elige la opción correcta.", "frase": "Countries ___ Portugal and Ireland received EU assistance.", "opciones": ["such as", "for instance", "like as", "as such"], "respuestas": ["such as"], "explicacion": "«Such as» introduce ejemplos dentro de la frase."},
-  {"id": "e11", "tipo": "hueco", "enunciado": "Completa con una palabra (aun así).", "frase": "The hotel was far from the beach. Even ___, we loved it.", "respuestas": ["so"], "explicacion": "«Even so» = aun así."},
-  {"id": "e12", "tipo": "eleccion", "enunciado": "Elige la opción correcta.", "frase": "The proposal is cheap and fast. ___, it is popular with voters.", "opciones": ["Moreover", "Whereas", "Although", "Despite"], "respuestas": ["Moreover"], "explicacion": "«Moreover» añade un argumento en la misma dirección."},
-  {"id": "e13", "tipo": "transformar", "enunciado": "Reescribe la frase empezando por «Despite».", "frase": "Although it was raining, they played tennis.", "respuestas": ["Despite the rain, they played tennis.", "Despite it raining, they played tennis.", "Despite the fact that it was raining, they played tennis."], "explicacion": "«Despite» va con sustantivo, -ing o «the fact that» + oración."},
-  {"id": "e14", "tipo": "ordenar", "enunciado": "Ordena las palabras.", "palabras": ["sum", "reform", "To", "has", "up", "the", "failed"], "respuestas": ["To sum up the reform has failed"], "explicacion": "«To sum up» abre la conclusión; luego sujeto + verbo + objeto."},
-  {"id": "e15", "tipo": "eleccion", "enunciado": "Elige la opción correcta.", "frase": "After hours of negotiation, they ___ reached an agreement.", "opciones": ["eventually", "possibly", "actually", "occasionally"], "respuestas": ["eventually"], "explicacion": "«Eventually» = finalmente, al cabo del tiempo."}
+  {
+   "id": "e01",
+   "tipo": "eleccion",
+   "enunciado": "Elige la opción correcta.",
+   "frase": "___ the bad weather, the concert was a success.",
+   "opciones": [
+    "Despite",
+    "Although",
+    "Despite of",
+    "However"
+   ],
+   "respuestas": [
+    "Despite"
+   ],
+   "explicacion": "Se aplica la regla de la ficha: despite va seguido de un sustantivo o -ing, y nunca lleva of. La pista es the bad weather, un sustantivo sin verbo, y el contraste entre el mal tiempo y el éxito. Por eso solo vale Despite.",
+   "explicacion_breve": "Ante un sustantivo se usa «despite» (sin «of»).",
+   "traduccion": "A pesar del mal tiempo, el concierto fue un éxito.",
+   "por_opcion": {
+    "Despite": "Correcta: a pesar de, seguido de un sustantivo y sin of.",
+    "Although": "Incorrecta: although necesita una oración con verbo (although the weather was bad).",
+    "Despite of": "Incorrecta: es el error típico de la ficha; despite nunca lleva of.",
+    "However": "Incorrecta: however es un adverbio que abre frase con coma; no puede ir seguido de un sustantivo."
+   },
+   "glosario": [
+    {
+     "palabra": "despite",
+     "significado": "a pesar de"
+    }
+   ]
+  },
+  {
+   "id": "e02",
+   "tipo": "eleccion",
+   "enunciado": "Elige la opción correcta.",
+   "frase": "___ she was tired, she finished the report.",
+   "opciones": [
+    "Although",
+    "Despite",
+    "In spite of",
+    "Nevertheless"
+   ],
+   "respuestas": [
+    "Although"
+   ],
+   "explicacion": "Es la otra mitad de la regla: although va seguido de una oración con sujeto y verbo. La pista es she was tired, oración completa. Despite e in spite of necesitarían un sustantivo o -ing (despite being tired), y nevertheless iría tras la oración del obstáculo.",
+   "explicacion_breve": "Ante una oración con verbo se usa «although».",
+   "traduccion": "Aunque estaba cansada, terminó el informe.",
+   "por_opcion": {
+    "Although": "Correcta: aunque, seguido de una oración con verbo.",
+    "Despite": "Incorrecta: no puede ir con una oración; habría que decir despite being tired.",
+    "In spite of": "Incorrecta: igual que despite, necesita sustantivo o -ing.",
+    "Nevertheless": "Incorrecta: no obstante; es un adverbio que introduce lo que ocurre pese al obstáculo, no el obstáculo mismo."
+   },
+   "glosario": [
+    {
+     "palabra": "although",
+     "significado": "aunque"
+    },
+    {
+     "palabra": "report",
+     "significado": "informe"
+    }
+   ]
+  },
+  {
+   "id": "e03",
+   "tipo": "corregir",
+   "enunciado": "Corrige el error.",
+   "frase": "Despite of the strike, the trains ran normally.",
+   "respuestas": [
+    "Despite the strike, the trains ran normally.",
+    "In spite of the strike, the trains ran normally."
+   ],
+   "explicacion": "Es el error que la ficha recoge en primer lugar: despite no lleva of; in spite of sí. La pista es «Despite of», calco de «a pesar de». Se corrige quitando of o completando la otra expresión con in spite of.",
+   "explicacion_breve": "«Despite» no lleva «of».",
+   "traduccion": "A pesar de la huelga, los trenes circularon con normalidad.",
+   "errores_previstos": [
+    {
+     "respuesta": "Despite of the strike, the trains ran normally.",
+     "explicacion": "Es dejar la frase sin corregir: despite nunca lleva of."
+    },
+    {
+     "respuesta": "In spite the strike, the trains ran normally.",
+     "explicacion": "In spite necesita of: in spite of the strike."
+    },
+    {
+     "respuesta": "Although the strike, the trains ran normally.",
+     "explicacion": "Although necesita una oración con verbo, no un sustantivo."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "strike",
+     "significado": "huelga"
+    },
+    {
+     "palabra": "run normally",
+     "significado": "funcionar o circular con normalidad"
+    }
+   ]
+  },
+  {
+   "id": "e04",
+   "tipo": "hueco",
+   "enunciado": "Completa con un conector de dos palabras (por ejemplo).",
+   "frase": "Some fruits, for ___, oranges and kiwis, are rich in vitamin C.",
+   "respuestas": [
+    "instance",
+    "example"
+   ],
+   "explicacion": "Es for instance o for example, «por ejemplo», de la segunda tabla. La pista es for ante el hueco y la enumeración entre comas de dos frutas. Las dos expresiones son equivalentes, por eso se aceptan ambas; for instance es algo más formal.",
+   "explicacion_breve": "«For instance» o «for example» = por ejemplo.",
+   "traduccion": "Algunas frutas, por ejemplo las naranjas y los kiwis, son ricas en vitamina C.",
+   "errores_previstos": [
+    {
+     "respuesta": "exemple",
+     "explicacion": "Ortografía francesa o calcada; en inglés es example."
+    },
+    {
+     "respuesta": "such",
+     "explicacion": "For such no existe; such va con as (such as) y sin for."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "for instance",
+     "significado": "por ejemplo"
+    }
+   ]
+  },
+  {
+   "id": "e05",
+   "tipo": "eleccion",
+   "enunciado": "Elige la opción correcta.",
+   "frase": "Madrid has grown a lot, ___ many rural areas have lost population.",
+   "opciones": [
+    "whereas",
+    "therefore",
+    "moreover",
+    "despite"
+   ],
+   "respuestas": [
+    "whereas"
+   ],
+   "explicacion": "Es whereas, «mientras que», de la primera tabla: contrasta dos hechos opuestos en una sola frase. La pista es la oposición entre crecer y perder población, y que lo que sigue es una oración completa. Therefore y moreover abrirían frase con coma y despite pediría un sustantivo.",
+   "explicacion_breve": "«Whereas» expresa contraste entre dos hechos.",
+   "traduccion": "Madrid ha crecido mucho, mientras que muchas zonas rurales han perdido población.",
+   "por_opcion": {
+    "whereas": "Correcta: contrasta dos hechos y va seguido de una oración.",
+    "therefore": "Incorrecta: indica consecuencia; la despoblación no se presenta como efecto del crecimiento de Madrid.",
+    "moreover": "Incorrecta: añade algo en la misma dirección, no un contraste.",
+    "despite": "Incorrecta: necesita un sustantivo o -ing, no una oración."
+   },
+   "glosario": [
+    {
+     "palabra": "whereas",
+     "significado": "mientras que"
+    },
+    {
+     "palabra": "rural areas",
+     "significado": "zonas rurales"
+    }
+   ]
+  },
+  {
+   "id": "e06",
+   "tipo": "corregir",
+   "enunciado": "Corrige el error (falso amigo).",
+   "frase": "Actually, she works as a teacher in Murcia, but before she was a nurse.",
+   "respuestas": [
+    "Currently, she works as a teacher in Murcia, but before she was a nurse.",
+    "At present, she works as a teacher in Murcia, but before she was a nurse.",
+    "Now, she works as a teacher in Murcia, but before she was a nurse.",
+    "At the moment, she works as a teacher in Murcia, but before she was a nurse."
+   ],
+   "explicacion": "Es el falso amigo de la lista de la ficha: actually significa «en realidad», no «actualmente». La pista es el contraste temporal con before she was a nurse, que pide un adverbio de tiempo presente. Hay que poner currently, at present, at the moment o now; todos se aceptan.",
+   "explicacion_breve": "Para «actualmente» se usa «currently» o «at present».",
+   "traduccion": "Actualmente trabaja como profesora en Murcia, pero antes era enfermera.",
+   "errores_previstos": [
+    {
+     "respuesta": "Actually, she works as a teacher in Murcia, but before she was a nurse.",
+     "explicacion": "Es dejar la frase sin corregir: actually es «en realidad»."
+    },
+    {
+     "respuesta": "Actual, she works as a teacher in Murcia, but before she was a nurse.",
+     "explicacion": "Actual es adjetivo y significa «real, verdadero», no «actual»."
+    },
+    {
+     "respuesta": "Eventually, she works as a teacher in Murcia, but before she was a nurse.",
+     "explicacion": "Eventually es otro falso amigo: significa «al final, con el tiempo», no «actualmente»."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "currently",
+     "significado": "actualmente"
+    },
+    {
+     "palabra": "nurse",
+     "significado": "enfermero, enfermera"
+    }
+   ]
+  },
+  {
+   "id": "e07",
+   "tipo": "hueco",
+   "enunciado": "Completa con una palabra (en otras palabras).",
+   "frase": "The project is over budget and behind schedule. In other ___, it is a failure.",
+   "respuestas": [
+    "words"
+   ],
+   "explicacion": "Es in other words, «en otras palabras», de la segunda tabla de reformulación. La pista es In other ___ y que la frase resume lo anterior con una idea más directa. La palabra es words, siempre en plural en esta expresión.",
+   "explicacion_breve": "«In other words» reformula lo dicho.",
+   "traduccion": "El proyecto supera el presupuesto y va con retraso. En otras palabras, es un fracaso.",
+   "errores_previstos": [
+    {
+     "respuesta": "word",
+     "explicacion": "La expresión fija va en plural: in other words."
+    },
+    {
+     "respuesta": "terms",
+     "explicacion": "In other terms es un calco poco natural; la expresión es in other words."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "in other words",
+     "significado": "en otras palabras, es decir"
+    },
+    {
+     "palabra": "over budget",
+     "significado": "por encima del presupuesto"
+    },
+    {
+     "palabra": "behind schedule",
+     "significado": "con retraso"
+    }
+   ]
+  },
+  {
+   "id": "e08",
+   "tipo": "eleccion",
+   "enunciado": "Elige la opción correcta.",
+   "frase": "The house is not small; ___, it has six bedrooms.",
+   "opciones": [
+    "on the contrary",
+    "on the other hand",
+    "in addition",
+    "for instance"
+   ],
+   "respuestas": [
+    "on the contrary"
+   ],
+   "explicacion": "Es on the contrary de la primera tabla: niega lo anterior y afirma lo opuesto. La pista es la frase negativa is not small seguida de un dato que demuestra lo contrario. On the other hand, en cambio, presenta otro aspecto sin negar el primero; es la confusión típica.",
+   "explicacion_breve": "«On the contrary» niega lo anterior y afirma lo opuesto.",
+   "traduccion": "La casa no es pequeña; al contrario, tiene seis dormitorios.",
+   "por_opcion": {
+    "on the contrary": "Correcta: niega que sea pequeña y afirma lo opuesto.",
+    "on the other hand": "Incorrecta: por otro lado; añade otro aspecto, pero no niega lo anterior.",
+    "in addition": "Incorrecta: además; no encaja tras una negación que se va a rebatir.",
+    "for instance": "Incorrecta: por ejemplo; seis dormitorios no es un ejemplo de que no sea pequeña, sino la prueba de lo contrario."
+   },
+   "glosario": [
+    {
+     "palabra": "on the contrary",
+     "significado": "al contrario"
+    },
+    {
+     "palabra": "bedrooms",
+     "significado": "dormitorios"
+    }
+   ]
+  },
+  {
+   "id": "e09",
+   "tipo": "hueco",
+   "enunciado": "Completa con un conector (en consecuencia).",
+   "frase": "Demand fell sharply. As a ___, the company cut production.",
+   "respuestas": [
+    "result",
+    "consequence"
+   ],
+   "explicacion": "Es as a result, de la segunda tabla de consecuencia; as a consequence es equivalente y también se acepta. La pista es As a ___ y la relación causa-efecto entre la caída de la demanda y el recorte. Ambas expresiones abren frase y van seguidas de coma.",
+   "explicacion_breve": "«As a result / as a consequence» introduce el efecto.",
+   "traduccion": "La demanda cayó bruscamente. En consecuencia, la empresa recortó la producción.",
+   "errores_previstos": [
+    {
+     "respuesta": "consequently",
+     "explicacion": "Consequently es un conector completo; tras As a hace falta un sustantivo: result o consequence."
+    },
+    {
+     "respuesta": "results",
+     "explicacion": "La expresión va en singular: as a result."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "as a result",
+     "significado": "como resultado, en consecuencia"
+    },
+    {
+     "palabra": "cut production",
+     "significado": "recortar la producción"
+    }
+   ]
+  },
+  {
+   "id": "e10",
+   "tipo": "eleccion",
+   "enunciado": "Elige la opción correcta.",
+   "frase": "Countries ___ Portugal and Ireland received EU assistance.",
+   "opciones": [
+    "such as",
+    "for instance",
+    "like as",
+    "as such"
+   ],
+   "respuestas": [
+    "such as"
+   ],
+   "explicacion": "Es such as de la segunda tabla: «como», para enumerar ejemplos dentro de la frase, sin pausa. La pista es que los ejemplos van pegados al sustantivo countries, sin comas. For instance necesitaría comas o ir en otra posición, y like as y as such no tienen este sentido.",
+   "explicacion_breve": "«Such as» introduce ejemplos dentro de la frase.",
+   "traduccion": "Países como Portugal e Irlanda recibieron ayuda de la UE.",
+   "por_opcion": {
+    "such as": "Correcta: introduce ejemplos dentro de la frase, sin comas.",
+    "for instance": "Incorrecta aquí: necesitaría ir entre comas (Some countries, for instance Portugal, …).",
+    "like as": "Incorrecta: no existe; se dice like o such as, pero no ambos.",
+    "as such": "Incorrecta: significa «como tal», no «como por ejemplo»."
+   },
+   "glosario": [
+    {
+     "palabra": "such as",
+     "significado": "como, tales como"
+    },
+    {
+     "palabra": "EU assistance",
+     "significado": "ayuda de la UE"
+    }
+   ]
+  },
+  {
+   "id": "e11",
+   "tipo": "hueco",
+   "enunciado": "Completa con una palabra (aun así).",
+   "frase": "The hotel was far from the beach. Even ___, we loved it.",
+   "respuestas": [
+    "so"
+   ],
+   "explicacion": "Es even so, «aun así», de la primera tabla: introduce algo que ocurre a pesar de lo dicho antes. La pista es Even ___ y el contraste entre un inconveniente y que el hotel les encantara. Abre frase y va seguido de coma, como however.",
+   "explicacion_breve": "«Even so» = aun así.",
+   "traduccion": "El hotel estaba lejos de la playa. Aun así, nos encantó.",
+   "errores_previstos": [
+    {
+     "respuesta": "though",
+     "explicacion": "Even though significa «aunque» y necesita una oración detrás; no puede ir seguido de coma así."
+    },
+    {
+     "respuesta": "if",
+     "explicacion": "Even if significa «aunque, incluso si» y también exige una oración."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "even so",
+     "significado": "aun así"
+    }
+   ]
+  },
+  {
+   "id": "e12",
+   "tipo": "eleccion",
+   "enunciado": "Elige la opción correcta.",
+   "frase": "The proposal is cheap and fast. ___, it is popular with voters.",
+   "opciones": [
+    "Moreover",
+    "Whereas",
+    "Although",
+    "Despite"
+   ],
+   "respuestas": [
+    "Moreover"
+   ],
+   "explicacion": "Es moreover, «además», de la segunda tabla: añade un argumento en la misma dirección. La pista es que la segunda frase suma otra ventaja a las anteriores y que el hueco abre frase seguido de coma. Whereas, although y despite expresan oposición y tienen otra gramática.",
+   "explicacion_breve": "«Moreover» añade un argumento en la misma dirección.",
+   "traduccion": "La propuesta es barata y rápida. Además, es popular entre los votantes.",
+   "por_opcion": {
+    "Moreover": "Correcta: añade un argumento a favor, además.",
+    "Whereas": "Incorrecta: contrasta dos hechos dentro de una frase y no va seguido de coma.",
+    "Although": "Incorrecta: introduce una concesión, no una ventaja más.",
+    "Despite": "Incorrecta: necesita un sustantivo y expresa oposición."
+   },
+   "glosario": [
+    {
+     "palabra": "moreover",
+     "significado": "además (formal)"
+    },
+    {
+     "palabra": "voters",
+     "significado": "votantes"
+    }
+   ]
+  },
+  {
+   "id": "e13",
+   "tipo": "transformar",
+   "enunciado": "Reescribe la frase empezando por «Despite».",
+   "frase": "Although it was raining, they played tennis.",
+   "respuestas": [
+    "Despite the rain, they played tennis.",
+    "Despite it raining, they played tennis.",
+    "Despite the fact that it was raining, they played tennis."
+   ],
+   "explicacion": "Se aplica la regla de despite: va con un sustantivo, con -ing o con the fact that + oración. La oración it was raining puede convertirse en el sustantivo the rain, en la forma -ing it raining o mantenerse con the fact that. Las tres opciones son correctas; lo que no se puede es poner la oración directamente tras despite.",
+   "explicacion_breve": "«Despite» va con sustantivo, -ing o «the fact that» + oración.",
+   "traduccion": "A pesar de la lluvia, jugaron al tenis.",
+   "errores_previstos": [
+    {
+     "respuesta": "Despite it was raining, they played tennis.",
+     "explicacion": "Despite no puede ir seguido de una oración con verbo conjugado."
+    },
+    {
+     "respuesta": "Despite of the rain, they played tennis.",
+     "explicacion": "Despite nunca lleva of."
+    },
+    {
+     "respuesta": "Despite that it was raining, they played tennis.",
+     "explicacion": "Falta the fact: la fórmula es despite the fact that."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "despite the fact that",
+     "significado": "a pesar de que"
+    }
+   ]
+  },
+  {
+   "id": "e14",
+   "tipo": "ordenar",
+   "enunciado": "Ordena las palabras.",
+   "palabras": [
+    "sum",
+    "reform",
+    "To",
+    "has",
+    "up",
+    "the",
+    "failed"
+   ],
+   "respuestas": [
+    "To sum up the reform has failed"
+   ],
+   "explicacion": "Es to sum up, «en resumen», de la segunda tabla de conclusión: abre la frase y luego va la oración principal, sujeto (the reform) + verbo (has failed). La mayúscula de To indica que la frase empieza por él. Es una forma clara de cerrar una exposición.",
+   "explicacion_breve": "«To sum up» abre la conclusión; luego sujeto + verbo + objeto.",
+   "traduccion": "En resumen, la reforma ha fracasado.",
+   "errores_previstos": [
+    {
+     "respuesta": "To up sum the reform has failed",
+     "explicacion": "La expresión fija es to sum up, con up al final."
+    },
+    {
+     "respuesta": "To sum up has the reform failed",
+     "explicacion": "Ese orden es de pregunta; tras el conector va sujeto + verbo: the reform has failed."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "to sum up",
+     "significado": "en resumen"
+    },
+    {
+     "palabra": "reform",
+     "significado": "reforma"
+    }
+   ]
+  },
+  {
+   "id": "e15",
+   "tipo": "eleccion",
+   "enunciado": "Elige la opción correcta.",
+   "frase": "After hours of negotiation, they ___ reached an agreement.",
+   "opciones": [
+    "eventually",
+    "possibly",
+    "actually",
+    "occasionally"
+   ],
+   "respuestas": [
+    "eventually"
+   ],
+   "explicacion": "Es el falso amigo eventually de la lista de la ficha: significa «finalmente, al cabo del tiempo», no «eventualmente». La pista es after hours of negotiation, que indica un resultado alcanzado tras un proceso largo. Actually e occasionally son otros falsos amigos o no encajan.",
+   "explicacion_breve": "«Eventually» = finalmente, al cabo del tiempo.",
+   "traduccion": "Tras horas de negociación, finalmente llegaron a un acuerdo.",
+   "por_opcion": {
+    "eventually": "Correcta: finalmente, al cabo de un largo proceso.",
+    "possibly": "Incorrecta: posiblemente; no encaja con un hecho consumado como reached.",
+    "actually": "Incorrecta: significa «en realidad»; no expresa que el acuerdo llegara tras mucho tiempo.",
+    "occasionally": "Incorrecta: de vez en cuando; no tiene sentido con un único acuerdo alcanzado."
+   },
+   "glosario": [
+    {
+     "palabra": "eventually",
+     "significado": "finalmente, al final (falso amigo)"
+    },
+    {
+     "palabra": "reach an agreement",
+     "significado": "llegar a un acuerdo"
+    }
+   ]
+  }
  ],
- "fuente": {"nombre": "propia"}
+ "fuente": {
+  "nombre": "propia"
+ },
+ "descripcion_larga_es": "Conectores para construir un argumento de nivel avanzado: conceder (admittedly, even so), contrastar (whereas, on the contrary), reformular (in other words, that is), poner ejemplos (for instance, such as), añadir (moreover) y concluir (to sum up, all in all). Dan cohesión a una exposición, un resumen o un informe. Al hispanohablante le cuestan la gramática de cada uno y los falsos amigos actually y eventually.",
+ "contexto": {
+  "que_es": "Son los conectores propios de la argumentación. Unos van seguidos de una oración (although, whereas), otros de un sustantivo o -ing (despite, in spite of) y otros son adverbios que abren frase con coma (however, nevertheless, moreover, as a result). Cada uno marca una relación lógica concreta: concesión, contraste, reformulación, ejemplo, adición, consecuencia o conclusión.",
+  "por_que_importa": "En una exposición oral o un resumen escrito de nivel B2, la cohesión depende de ellos: el tribunal o el examinador sigue el argumento gracias a estas señales. Confundir on the contrary con on the other hand, o usar actually por «actualmente», cambia el sentido. Son también imprescindibles para leer prensa económica e informes institucionales.",
+  "cuando_se_usa": "Al defender una postura, comparar datos, resumir un texto o cerrar una intervención. La señal es la función de la frase en el argumento: si concede, contrasta, aclara, ejemplifica o concluye. El hispanohablante suele abusar de but y and, decir despite of y olvidar la coma tras however."
+ }
 }

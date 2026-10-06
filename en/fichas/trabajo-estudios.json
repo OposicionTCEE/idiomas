@@ -6,69 +6,732 @@
  "nivel": "A2",
  "resumen": "Vocabulario para hablar de tu empleo, tus tareas y condiciones, y de tus estudios y titulaciones.",
  "explicacion": [
-  {"tipo": "texto", "texto": "Work es incontable (I have a lot of work); job es contable (I have a new job). Career es la trayectoria profesional, no la carrera universitaria, que es degree. Estos falsos amigos son muy frecuentes."},
-  {"tipo": "tabla", "cabecera": ["Expresión", "Significado", "Ejemplo"], "filas": [
-   ["job / work", "empleo (contable) / trabajo (incontable)", "She has a good job."],
-   ["colleague", "compañero de trabajo", "My colleagues are very helpful."],
-   ["boss / manager", "jefe / director, responsable", "My manager is on holiday."],
-   ["full-time / part-time", "a jornada completa / parcial", "I work part-time in a shop."],
-   ["salary / wages", "sueldo (anual) / salario (por horas o semanal)", "The salary is good."],
-   ["apply for a job", "solicitar un empleo", "I applied for a job in a bank."],
-   ["CV / résumé", "currículum", "Send your CV by email."],
-   ["job interview", "entrevista de trabajo", "I have a job interview tomorrow."],
-   ["be in charge of", "estar a cargo de", "She's in charge of sales."],
-   ["deal with", "ocuparse de, tratar con", "I deal with customer complaints."],
-   ["work from home", "teletrabajar", "I work from home on Fridays."],
-   ["get a promotion", "ascender", "He got a promotion last year."],
-   ["be unemployed", "estar en paro", "He's been unemployed for months."],
-   ["retire", "jubilarse", "My father retired at sixty-five."]
-  ]},
-  {"tipo": "tabla", "cabecera": ["Expresión", "Significado", "Ejemplo"], "filas": [
-   ["degree", "carrera, título universitario", "I have a degree in Economics."],
-   ["master's (degree)", "máster", "She's doing a master's in Law."],
-   ["take / pass / fail an exam", "hacer / aprobar / suspender un examen", "I passed all my exams."],
-   ["study for an exam", "estudiar para un examen", "I'm studying for a public exam."],
-   ["subject", "asignatura", "My favourite subject was History."],
-   ["teacher / lecturer", "profesor / profesor universitario", "Our lecturer is very clear."],
-   ["mark / grade", "nota", "I got a good mark in maths."],
-   ["course", "curso (de formación)", "I'm doing an English course."]
-  ]},
-  {"tipo": "lista", "items": [
-   "Take an exam es presentarse al examen; pass es aprobarlo (no confundir con «pasar»).",
-   "Profesión con a/an: I'm an engineer; work as a/an: I work as a nurse.",
-   "Una oposición puede explicarse como a competitive public exam (for the civil service)."
-  ]}
+  {
+   "tipo": "texto",
+   "texto": "Work es incontable (I have a lot of work); job es contable (I have a new job). Career es la trayectoria profesional, no la carrera universitaria, que es degree. Estos falsos amigos son muy frecuentes."
+  },
+  {
+   "tipo": "tabla",
+   "cabecera": [
+    "Expresión",
+    "Significado",
+    "Ejemplo"
+   ],
+   "filas": [
+    [
+     "job / work",
+     "empleo (contable) / trabajo (incontable)",
+     "She has a good job."
+    ],
+    [
+     "colleague",
+     "compañero de trabajo",
+     "My colleagues are very helpful."
+    ],
+    [
+     "boss / manager",
+     "jefe / director, responsable",
+     "My manager is on holiday."
+    ],
+    [
+     "full-time / part-time",
+     "a jornada completa / parcial",
+     "I work part-time in a shop."
+    ],
+    [
+     "salary / wages",
+     "sueldo (anual) / salario (por horas o semanal)",
+     "The salary is good."
+    ],
+    [
+     "apply for a job",
+     "solicitar un empleo",
+     "I applied for a job in a bank."
+    ],
+    [
+     "CV / résumé",
+     "currículum",
+     "Send your CV by email."
+    ],
+    [
+     "job interview",
+     "entrevista de trabajo",
+     "I have a job interview tomorrow."
+    ],
+    [
+     "be in charge of",
+     "estar a cargo de",
+     "She's in charge of sales."
+    ],
+    [
+     "deal with",
+     "ocuparse de, tratar con",
+     "I deal with customer complaints."
+    ],
+    [
+     "work from home",
+     "teletrabajar",
+     "I work from home on Fridays."
+    ],
+    [
+     "get a promotion",
+     "ascender",
+     "He got a promotion last year."
+    ],
+    [
+     "be unemployed",
+     "estar en paro",
+     "He's been unemployed for months."
+    ],
+    [
+     "retire",
+     "jubilarse",
+     "My father retired at sixty-five."
+    ]
+   ]
+  },
+  {
+   "tipo": "tabla",
+   "cabecera": [
+    "Expresión",
+    "Significado",
+    "Ejemplo"
+   ],
+   "filas": [
+    [
+     "degree",
+     "carrera, título universitario",
+     "I have a degree in Economics."
+    ],
+    [
+     "master's (degree)",
+     "máster",
+     "She's doing a master's in Law."
+    ],
+    [
+     "take / pass / fail an exam",
+     "hacer / aprobar / suspender un examen",
+     "I passed all my exams."
+    ],
+    [
+     "study for an exam",
+     "estudiar para un examen",
+     "I'm studying for a public exam."
+    ],
+    [
+     "subject",
+     "asignatura",
+     "My favourite subject was History."
+    ],
+    [
+     "teacher / lecturer",
+     "profesor / profesor universitario",
+     "Our lecturer is very clear."
+    ],
+    [
+     "mark / grade",
+     "nota",
+     "I got a good mark in maths."
+    ],
+    [
+     "course",
+     "curso (de formación)",
+     "I'm doing an English course."
+    ]
+   ]
+  },
+  {
+   "tipo": "lista",
+   "items": [
+    "Take an exam es presentarse al examen; pass es aprobarlo (no confundir con «pasar»).",
+    "Profesión con a/an: I'm an engineer; work as a/an: I work as a nurse.",
+    "Una oposición puede explicarse como a competitive public exam (for the civil service)."
+   ]
+  }
  ],
  "ejemplos": [
-  {"frase": "I work full-time for an engineering company.", "traduccion": "Trabajo a jornada completa para una empresa de ingeniería."},
-  {"frase": "She's in charge of a team of ten people.", "traduccion": "Está a cargo de un equipo de diez personas."},
-  {"frase": "I'm preparing for a competitive exam to join the civil service.", "traduccion": "Estoy preparando una oposición para entrar en la Administración."},
-  {"frase": "He has a degree in Biology from the University of Granada.", "traduccion": "Es licenciado en Biología por la Universidad de Granada."},
-  {"frase": "If you don't study, you'll fail the exam.", "traduccion": "Si no estudias, suspenderás el examen."},
-  {"frase": "We have a meeting with the new manager at ten.", "traduccion": "Tenemos una reunión con el nuevo director a las diez."}
+  {
+   "frase": "I work full-time for an engineering company.",
+   "traduccion": "Trabajo a jornada completa para una empresa de ingeniería."
+  },
+  {
+   "frase": "She's in charge of a team of ten people.",
+   "traduccion": "Está a cargo de un equipo de diez personas."
+  },
+  {
+   "frase": "I'm preparing for a competitive exam to join the civil service.",
+   "traduccion": "Estoy preparando una oposición para entrar en la Administración."
+  },
+  {
+   "frase": "He has a degree in Biology from the University of Granada.",
+   "traduccion": "Es licenciado en Biología por la Universidad de Granada."
+  },
+  {
+   "frase": "If you don't study, you'll fail the exam.",
+   "traduccion": "Si no estudias, suspenderás el examen."
+  },
+  {
+   "frase": "We have a meeting with the new manager at ten.",
+   "traduccion": "Tenemos una reunión con el nuevo director a las diez."
+  }
  ],
  "errores_hispanohablantes": [
-  {"mal": "I finished my career in 2018.", "bien": "I finished my degree in 2018.", "nota": "La carrera universitaria es degree; career es la trayectoria profesional."},
-  {"mal": "I have a lot of works today.", "bien": "I have a lot of work today.", "nota": "Work en el sentido de tarea es incontable."},
-  {"mal": "I passed the exam but I failed it.", "bien": "I took the exam but I failed it.", "nota": "Pass significa aprobar, no «hacer» o «pasar» un examen."},
-  {"mal": "My companions at work are nice.", "bien": "My colleagues are nice.", "nota": "Compañero de trabajo es colleague."}
+  {
+   "mal": "I finished my career in 2018.",
+   "bien": "I finished my degree in 2018.",
+   "nota": "La carrera universitaria es degree; career es la trayectoria profesional."
+  },
+  {
+   "mal": "I have a lot of works today.",
+   "bien": "I have a lot of work today.",
+   "nota": "Work en el sentido de tarea es incontable."
+  },
+  {
+   "mal": "I passed the exam yesterday, but I don't know the result yet.",
+   "bien": "I took the exam yesterday, but I don't know the result yet.",
+   "nota": "Pass significa aprobar; presentarse a un examen es take (o sit) an exam."
+  },
+  {
+   "mal": "My companions at work are nice.",
+   "bien": "My colleagues are nice.",
+   "nota": "Compañero de trabajo es colleague."
+  }
  ],
  "ejercicios": [
-  {"id": "e01", "tipo": "hueco", "enunciado": "Completa con job o work.", "frase": "I have a new ___ in a hotel.", "respuestas": ["job"], "explicacion": "Un empleo concreto es a job (contable)."},
-  {"id": "e02", "tipo": "hueco", "enunciado": "Completa con la preposición.", "frase": "She's in charge ___ the marketing department.", "respuestas": ["of"], "explicacion": "Estar a cargo de es be in charge of."},
-  {"id": "e03", "tipo": "hueco", "enunciado": "Completa con la preposición.", "frase": "I'd like to apply ___ the position of assistant.", "respuestas": ["for"], "explicacion": "Solicitar un puesto es apply for."},
-  {"id": "e04", "tipo": "hueco", "enunciado": "Completa: «jubilarse».", "frase": "My grandfather ___ when he was sixty-five.", "respuestas": ["retired"], "explicacion": "Jubilarse es retire; en pasado, retired."},
-  {"id": "e05", "tipo": "eleccion", "enunciado": "Elige la opción correcta.", "frase": "I studied hard and ___ all my exams.", "opciones": ["passed", "approved", "took"], "respuestas": ["passed"], "explicacion": "Aprobar un examen es pass; approve es dar el visto bueno."},
-  {"id": "e06", "tipo": "eleccion", "enunciado": "Elige la opción correcta.", "frase": "He has a ___ in Chemistry from Salamanca.", "opciones": ["degree", "career", "title"], "respuestas": ["degree"], "explicacion": "El título universitario es degree."},
-  {"id": "e07", "tipo": "eleccion", "enunciado": "Elige la opción correcta.", "frase": "I only work four hours a day. It's a ___ job.", "opciones": ["part-time", "full-time", "half-time"], "respuestas": ["part-time"], "explicacion": "Media jornada es part-time."},
-  {"id": "e08", "tipo": "eleccion", "enunciado": "Elige la opción correcta.", "frase": "My ___ and I have lunch together every day at the office.", "opciones": ["colleagues", "companions", "partners"], "respuestas": ["colleagues"], "explicacion": "Los compañeros de trabajo son colleagues."},
-  {"id": "e09", "tipo": "corregir", "enunciado": "Corrige el falso amigo.", "frase": "I studied the career of Law in Madrid.", "respuestas": ["I studied Law in Madrid.", "I did a degree in Law in Madrid.", "I studied for a degree in Law in Madrid."], "explicacion": "Career no es la carrera universitaria; se dice degree o simplemente study Law."},
-  {"id": "e10", "tipo": "corregir", "enunciado": "Corrige el error.", "frase": "I have too many works this week.", "respuestas": ["I have too much work this week."], "explicacion": "Work es incontable: too much work."},
-  {"id": "e11", "tipo": "corregir", "enunciado": "Corrige el error.", "frase": "She works of a nurse in a hospital.", "respuestas": ["She works as a nurse in a hospital."], "explicacion": "Trabajar de es work as."},
-  {"id": "e12", "tipo": "ordenar", "enunciado": "Ordena las palabras.", "palabras": ["home", "from", "work", "I", "Fridays", "on"], "respuestas": ["I work from home on Fridays", "On Fridays I work from home"], "explicacion": "Work from home es teletrabajar."},
-  {"id": "e13", "tipo": "ordenar", "enunciado": "Ordena las palabras.", "palabras": ["got", "she", "last", "a", "promotion", "year"], "respuestas": ["She got a promotion last year", "Last year she got a promotion"], "explicacion": "Get a promotion es ascender."},
-  {"id": "e14", "tipo": "hueco", "enunciado": "Completa: «asignatura».", "frase": "History was my favourite ___ at school.", "respuestas": ["subject"], "explicacion": "Asignatura es subject."},
-  {"id": "e15", "tipo": "eleccion", "enunciado": "Elige la opción correcta.", "frase": "Part of my job is to deal ___ complaints from customers.", "opciones": ["with", "about", "of"], "respuestas": ["with"], "explicacion": "Ocuparse de es deal with."}
+  {
+   "id": "e01",
+   "tipo": "hueco",
+   "enunciado": "Completa con job o work.",
+   "frase": "I have a new ___ in a hotel.",
+   "respuestas": [
+    "job"
+   ],
+   "explicacion": "Se aplica la distinción de la ficha entre job, contable, y work, incontable. La pista es el artículo «a» y el adjetivo «new»: se habla de un puesto concreto que se puede contar, y con un artículo indefinido solo cabe un nombre contable. Por eso la respuesta es «a new job». Work designa la actividad de trabajar en general y no admite «a» delante.",
+   "explicacion_breve": "Un empleo concreto es a job (contable).",
+   "traduccion": "Tengo un trabajo nuevo en un hotel.",
+   "errores_previstos": [
+    {
+     "respuesta": "work",
+     "explicacion": "Work es incontable y no puede ir detrás de «a»; para un empleo concreto se dice a job."
+    },
+    {
+     "respuesta": "employ",
+     "explicacion": "Employ es el verbo «emplear»; el sustantivo para «empleo» en una conversación normal es job (employment es formal e incontable)."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "job",
+     "significado": "empleo, puesto de trabajo (contable)"
+    },
+    {
+     "palabra": "work",
+     "significado": "trabajo como actividad (incontable)"
+    }
+   ]
+  },
+  {
+   "id": "e02",
+   "tipo": "hueco",
+   "enunciado": "Completa con la preposición.",
+   "frase": "She's in charge ___ the marketing department.",
+   "respuestas": [
+    "of"
+   ],
+   "explicacion": "Es la expresión fija be in charge of, «estar a cargo de», de la tabla de la ficha. La pista es «in charge» seguido del complemento que indica qué se dirige: el departamento. En inglés esta expresión siempre lleva of, igual que el «de» español, así que la frase correcta es «She's in charge of the marketing department».",
+   "explicacion_breve": "Estar a cargo de es be in charge of.",
+   "traduccion": "Está a cargo del departamento de marketing.",
+   "errores_previstos": [
+    {
+     "respuesta": "for",
+     "explicacion": "Responsible for sí lleva for, pero in charge exige of; se mezclan dos expresiones."
+    },
+    {
+     "respuesta": "on",
+     "explicacion": "In charge no se construye con on; la preposición fija es of."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "be in charge of",
+     "significado": "estar a cargo de, ser responsable de"
+    },
+    {
+     "palabra": "department",
+     "significado": "departamento"
+    }
+   ]
+  },
+  {
+   "id": "e03",
+   "tipo": "hueco",
+   "enunciado": "Completa con la preposición.",
+   "frase": "I'd like to apply ___ the position of assistant.",
+   "respuestas": [
+    "for"
+   ],
+   "explicacion": "La ficha recoge apply for a job, «solicitar un empleo». La pista es el verbo apply seguido de lo que se pide: un puesto. Cuando apply significa «pedir o presentarse a algo» lleva siempre for (apply for a job, a grant, a visa). El español no usa preposición («solicitar el puesto»), por eso es fácil olvidarla.",
+   "explicacion_breve": "Solicitar un puesto es apply for.",
+   "traduccion": "Me gustaría solicitar el puesto de auxiliar.",
+   "errores_previstos": [
+    {
+     "respuesta": "to",
+     "explicacion": "Apply to se usa para la empresa o institución a la que escribes (apply to a university), no para el puesto que pides."
+    },
+    {
+     "respuesta": "at",
+     "explicacion": "Apply no se construye con at; para el puesto solicitado la preposición es for."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "apply for",
+     "significado": "solicitar, presentarse a (un puesto, una beca)"
+    },
+    {
+     "palabra": "position",
+     "significado": "puesto, cargo"
+    },
+    {
+     "palabra": "assistant",
+     "significado": "auxiliar, ayudante"
+    }
+   ]
+  },
+  {
+   "id": "e04",
+   "tipo": "hueco",
+   "enunciado": "Completa: «jubilarse».",
+   "frase": "My grandfather ___ when he was sixty-five.",
+   "respuestas": [
+    "retired"
+   ],
+   "explicacion": "Se trabaja el verbo retire, «jubilarse», de la tabla de la ficha. La pista temporal es «when he was sixty-five»: un momento cerrado del pasado, por lo que el verbo va en pasado simple. Retire es regular, así que el pasado se forma con -d: retired. No necesita pronombre reflexivo, a diferencia del español «se jubiló».",
+   "explicacion_breve": "Jubilarse es retire; en pasado, retired.",
+   "traduccion": "Mi abuelo se jubiló cuando tenía sesenta y cinco años.",
+   "errores_previstos": [
+    {
+     "respuesta": "retire",
+     "explicacion": "Falta el pasado: la frase habla de un momento terminado (when he was sixty-five), así que es retired."
+    },
+    {
+     "respuesta": "retired himself",
+     "explicacion": "Calco del reflexivo español; retire no lleva himself."
+    },
+    {
+     "respuesta": "jubilated",
+     "explicacion": "Jubilate existe pero significa «alegrarse mucho»; jubilarse es retire."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "retire",
+     "significado": "jubilarse"
+    },
+    {
+     "palabra": "grandfather",
+     "significado": "abuelo"
+    }
+   ]
+  },
+  {
+   "id": "e05",
+   "tipo": "eleccion",
+   "enunciado": "Elige la opción correcta.",
+   "frase": "I studied hard and ___ all my exams.",
+   "opciones": [
+    "passed",
+    "approved",
+    "took"
+   ],
+   "respuestas": [
+    "passed"
+   ],
+   "explicacion": "Se aplica la nota de la ficha sobre take, pass y fail an exam. La pista es «I studied hard and…»: el esfuerzo lleva a un resultado positivo, es decir, aprobar. Aprobar un examen es pass, en pasado passed. El error típico es usar approve, que parece el «aprobar» español pero significa dar el visto bueno a algo.",
+   "explicacion_breve": "Aprobar un examen es pass; approve es dar el visto bueno.",
+   "traduccion": "Estudié mucho y aprobé todos los exámenes.",
+   "por_opcion": {
+    "passed": "Correcta: pass an exam es «aprobar un examen», y passed es su pasado.",
+    "approved": "Incorrecta: approve significa aprobar una propuesta, un presupuesto o una ley (dar el visto bueno), no superar un examen.",
+    "took": "Gramaticalmente posible, porque take an exam es «presentarse a un examen», pero no encaja con la lógica de la frase: estudiar mucho se relaciona con el resultado, aprobar."
+   },
+   "glosario": [
+    {
+     "palabra": "pass an exam",
+     "significado": "aprobar un examen"
+    },
+    {
+     "palabra": "approve",
+     "significado": "aprobar una propuesta, dar el visto bueno"
+    },
+    {
+     "palabra": "take an exam",
+     "significado": "presentarse a un examen, hacerlo"
+    }
+   ]
+  },
+  {
+   "id": "e06",
+   "tipo": "eleccion",
+   "enunciado": "Elige la opción correcta.",
+   "frase": "He has a ___ in Chemistry from Salamanca.",
+   "opciones": [
+    "degree",
+    "career",
+    "title"
+   ],
+   "respuestas": [
+    "degree"
+   ],
+   "explicacion": "La ficha explica que la carrera universitaria y el título que se obtiene se dicen degree, mientras que career es la trayectoria profesional. La pista es «in Chemistry from Salamanca»: una disciplina y una universidad, es decir, un título académico. La construcción fija es a degree in + materia (from + universidad).",
+   "explicacion_breve": "El título universitario es degree.",
+   "traduccion": "Es licenciado en Química por la Universidad de Salamanca.",
+   "por_opcion": {
+    "degree": "Correcta: degree es el título universitario o la carrera que se estudia (a degree in Chemistry).",
+    "career": "Incorrecta: career es la trayectoria profesional de una persona (a long career in politics), un falso amigo de «carrera».",
+    "title": "Incorrecta: title es el título de un libro o película, o un tratamiento como Dr. o Mr.; no el título académico."
+   },
+   "glosario": [
+    {
+     "palabra": "degree",
+     "significado": "título universitario, carrera"
+    },
+    {
+     "palabra": "career",
+     "significado": "trayectoria profesional"
+    },
+    {
+     "palabra": "Chemistry",
+     "significado": "Química"
+    }
+   ]
+  },
+  {
+   "id": "e07",
+   "tipo": "eleccion",
+   "enunciado": "Elige la opción correcta.",
+   "frase": "I only work four hours a day. It's a ___ job.",
+   "opciones": [
+    "part-time",
+    "full-time",
+    "half-time"
+   ],
+   "respuestas": [
+    "part-time"
+   ],
+   "explicacion": "Se aplica el par full-time / part-time de la ficha. La pista es «only four hours a day», bastante menos que una jornada completa. El adjetivo para cualquier jornada reducida es part-time, que va con guion delante del nombre: a part-time job. Inglés no usa una expresión equivalente a «media» para esto.",
+   "explicacion_breve": "Media jornada es part-time.",
+   "traduccion": "Solo trabajo cuatro horas al día. Es un trabajo a media jornada.",
+   "por_opcion": {
+    "part-time": "Correcta: part-time es «a tiempo parcial, media jornada», cualquier jornada inferior a la completa.",
+    "full-time": "Incorrecta: full-time es «a jornada completa», lo contrario de lo que dice la frase.",
+    "half-time": "Incorrecta: half-time es el descanso de un partido (el medio tiempo), no un tipo de jornada laboral; es un calco de «media jornada»."
+   },
+   "glosario": [
+    {
+     "palabra": "part-time",
+     "significado": "a tiempo parcial, media jornada"
+    },
+    {
+     "palabra": "full-time",
+     "significado": "a jornada completa"
+    }
+   ]
+  },
+  {
+   "id": "e08",
+   "tipo": "eleccion",
+   "enunciado": "Elige la opción correcta.",
+   "frase": "My ___ and I have lunch together every day at the office.",
+   "opciones": [
+    "colleagues",
+    "companions",
+    "partners"
+   ],
+   "respuestas": [
+    "colleagues"
+   ],
+   "explicacion": "La ficha da colleague como «compañero de trabajo» y lo señala entre los errores típicos. La pista es «at the office»: son personas con las que trabajas. Colleague es la palabra neutra y habitual; companion suena literario o se refiere a quien te acompaña, y partner tiene otros sentidos (socio, pareja).",
+   "explicacion_breve": "Los compañeros de trabajo son colleagues.",
+   "traduccion": "Mis compañeros de trabajo y yo comemos juntos todos los días en la oficina.",
+   "por_opcion": {
+    "colleagues": "Correcta: colleagues son los compañeros de trabajo, la palabra normal en cualquier oficina.",
+    "companions": "Incorrecta: companion es «acompañante» o compañero de viaje, con tono literario; no se usa para los compañeros de trabajo.",
+    "partners": "Incorrecta aquí: partner es socio de una empresa o pareja sentimental; solo valdría si fueran socios del negocio, no simples compañeros."
+   },
+   "glosario": [
+    {
+     "palabra": "colleague",
+     "significado": "compañero de trabajo"
+    },
+    {
+     "palabra": "companion",
+     "significado": "acompañante, compañero (literario)"
+    },
+    {
+     "palabra": "partner",
+     "significado": "socio; pareja"
+    }
+   ]
+  },
+  {
+   "id": "e09",
+   "tipo": "corregir",
+   "enunciado": "Corrige el falso amigo.",
+   "frase": "I studied the career of Law in Madrid.",
+   "respuestas": [
+    "I studied Law in Madrid.",
+    "I did a degree in Law in Madrid.",
+    "I studied for a degree in Law in Madrid."
+   ],
+   "explicacion": "Es el falso amigo que destaca la ficha: career no es la carrera universitaria. La pista es «studied … of Law», que calca «estudié la carrera de Derecho». En inglés basta con study Law, o bien se usa degree: do a degree in Law, study for a degree in Law. Las tres versiones aceptadas son correctas porque todas sustituyen career por la construcción natural.",
+   "explicacion_breve": "Career no es la carrera universitaria; se dice degree o simplemente study Law.",
+   "traduccion": "Estudié Derecho en Madrid.",
+   "errores_previstos": [
+    {
+     "respuesta": "I studied the career of Law in Madrid.",
+     "explicacion": "Es la frase sin corregir: career es la trayectoria profesional, no la carrera universitaria."
+    },
+    {
+     "respuesta": "I studied the degree of Law in Madrid.",
+     "explicacion": "Se cambia la palabra pero se mantiene el calco «the … of»; se dice a degree in Law o simplemente study Law."
+    },
+    {
+     "respuesta": "I studied a career in Law in Madrid.",
+     "explicacion": "Sigue usando career, que no significa carrera universitaria; además no se «estudia» una career."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "Law",
+     "significado": "Derecho"
+    },
+    {
+     "palabra": "do a degree in",
+     "significado": "estudiar la carrera de"
+    }
+   ]
+  },
+  {
+   "id": "e10",
+   "tipo": "corregir",
+   "enunciado": "Corrige el error.",
+   "frase": "I have too many works this week.",
+   "respuestas": [
+    "I have too much work this week."
+   ],
+   "explicacion": "Se aplica la regla de la ficha: work, en el sentido de tarea o carga de trabajo, es incontable. La pista es «too many works»: many solo acompaña a nombres contables en plural. Con un incontable, work va en singular y el cuantificador es much: too much work. Es el mismo caso que information o advice.",
+   "explicacion_breve": "Work es incontable: too much work.",
+   "traduccion": "Tengo demasiado trabajo esta semana.",
+   "errores_previstos": [
+    {
+     "respuesta": "I have too many works this week.",
+     "explicacion": "Es la frase sin corregir: work no tiene plural en este sentido y no va con many."
+    },
+    {
+     "respuesta": "I have too many work this week.",
+     "explicacion": "Se quita la -s pero se mantiene many, que solo va con contables; hace falta much."
+    },
+    {
+     "respuesta": "I have too much works this week.",
+     "explicacion": "Much está bien, pero work sigue en plural; debe ir en singular."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "too much",
+     "significado": "demasiado (con incontables)"
+    }
+   ]
+  },
+  {
+   "id": "e11",
+   "tipo": "corregir",
+   "enunciado": "Corrige el error.",
+   "frase": "She works of a nurse in a hospital.",
+   "respuestas": [
+    "She works as a nurse in a hospital."
+   ],
+   "explicacion": "La ficha indica que la profesión se expresa con work as a/an: «trabajar de» o «trabajar como». La pista es la preposición que sigue a works delante de una profesión. Of es un calco de «de» y no sirve; la preposición correcta es as, y el nombre de la profesión conserva el artículo a: works as a nurse.",
+   "explicacion_breve": "Trabajar de es work as.",
+   "traduccion": "Trabaja de enfermera en un hospital.",
+   "errores_previstos": [
+    {
+     "respuesta": "She works of a nurse in a hospital.",
+     "explicacion": "Es la frase sin corregir: «trabajar de» no se traduce con of."
+    },
+    {
+     "respuesta": "She works as nurse in a hospital.",
+     "explicacion": "La preposición ya es correcta, pero falta el artículo: en inglés la profesión lleva a/an (as a nurse)."
+    },
+    {
+     "respuesta": "She works like a nurse in a hospital.",
+     "explicacion": "Like significa «parecido a»: diría que trabaja como si fuera enfermera, sin serlo."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "work as",
+     "significado": "trabajar de, trabajar como"
+    },
+    {
+     "palabra": "nurse",
+     "significado": "enfermero, enfermera"
+    }
+   ]
+  },
+  {
+   "id": "e12",
+   "tipo": "ordenar",
+   "enunciado": "Ordena las palabras.",
+   "palabras": [
+    "home",
+    "from",
+    "work",
+    "I",
+    "Fridays",
+    "on"
+   ],
+   "respuestas": [
+    "I work from home on Fridays",
+    "On Fridays I work from home"
+   ],
+   "explicacion": "Se trabaja la expresión work from home, «teletrabajar», de la tabla de la ficha. La pista es que las palabras from y home deben ir juntas detrás de work: es una unidad fija. La expresión de tiempo on Fridays puede ir al final, que es lo más neutro, o al principio para destacarla; por eso se aceptan las dos posiciones.",
+   "explicacion_breve": "Work from home es teletrabajar.",
+   "traduccion": "Teletrabajo los viernes.",
+   "errores_previstos": [
+    {
+     "respuesta": "I work home from on Fridays",
+     "explicacion": "La expresión fija es work from home: from va delante de home, como en español «desde casa»."
+    },
+    {
+     "respuesta": "I from home work on Fridays",
+     "explicacion": "El complemento from home no puede ir entre el sujeto y el verbo."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "work from home",
+     "significado": "teletrabajar, trabajar desde casa"
+    }
+   ]
+  },
+  {
+   "id": "e13",
+   "tipo": "ordenar",
+   "enunciado": "Ordena las palabras.",
+   "palabras": [
+    "got",
+    "she",
+    "last",
+    "a",
+    "promotion",
+    "year"
+   ],
+   "respuestas": [
+    "She got a promotion last year",
+    "Last year she got a promotion"
+   ],
+   "explicacion": "Se trabaja get a promotion, «ascender», de la ficha. Lo importante es que el español usa un verbo («ascender», «la ascendieron») y el inglés una combinación de verbo y nombre: got a promotion. La expresión temporal last year puede ir al final o al principio sin cambiar el sentido, por lo que valen los dos órdenes.",
+   "explicacion_breve": "Get a promotion es ascender.",
+   "traduccion": "El año pasado la ascendieron.",
+   "errores_previstos": [
+    {
+     "respuesta": "She last year got a promotion",
+     "explicacion": "Last year no puede ir entre el sujeto y el verbo; va al principio o al final."
+    },
+    {
+     "respuesta": "She got last year a promotion",
+     "explicacion": "El complemento de tiempo no se mete entre el verbo y su objeto; a promotion va pegado a got."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "get a promotion",
+     "significado": "ascender, conseguir un ascenso"
+    }
+   ]
+  },
+  {
+   "id": "e14",
+   "tipo": "hueco",
+   "enunciado": "Completa: «asignatura».",
+   "frase": "History was my favourite ___ at school.",
+   "respuestas": [
+    "subject"
+   ],
+   "explicacion": "La ficha da subject como «asignatura». La pista es «at school» junto a una materia (History): se habla de las materias que se estudian. Subject es la palabra general en colegio y universidad; matter es «asunto» o materia física y signature es la firma, un falso amigo frecuente.",
+   "explicacion_breve": "Asignatura es subject.",
+   "traduccion": "Historia era mi asignatura favorita en el colegio.",
+   "errores_previstos": [
+    {
+     "respuesta": "signature",
+     "explicacion": "Signature es la firma, no la asignatura; es un falso amigo."
+    },
+    {
+     "respuesta": "assignment",
+     "explicacion": "Assignment es un trabajo o tarea que manda el profesor, no la materia."
+    },
+    {
+     "respuesta": "matter",
+     "explicacion": "Matter es «asunto, cuestión» o «materia» en el sentido físico; la materia escolar es subject."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "subject",
+     "significado": "asignatura, materia"
+    },
+    {
+     "palabra": "favourite",
+     "significado": "favorito (ortografía británica)"
+    }
+   ]
+  },
+  {
+   "id": "e15",
+   "tipo": "eleccion",
+   "enunciado": "Elige la opción correcta.",
+   "frase": "Part of my job is to deal ___ complaints from customers.",
+   "opciones": [
+    "with",
+    "about",
+    "of"
+   ],
+   "respuestas": [
+    "with"
+   ],
+   "explicacion": "Se aplica el verbo deal with, «ocuparse de, tratar con», de la ficha. La pista es el contexto: atender quejas de clientes es una tarea que hay que gestionar. Deal tiene preposición fija with en este sentido, aunque el español diga «de»: deal with complaints. Deal with sirve para problemas, personas, asuntos o encargos.",
+   "explicacion_breve": "Ocuparse de es deal with.",
+   "traduccion": "Parte de mi trabajo es ocuparme de las quejas de los clientes.",
+   "por_opcion": {
+    "with": "Correcta: deal with significa ocuparse de algo o gestionarlo, y es la preposición fija.",
+    "about": "Incorrecta: deal about no existe; about se usaría con talk o complain (complain about).",
+    "of": "Incorrecta: es el calco de «ocuparse de»; deal no se construye con of en este sentido."
+   },
+   "glosario": [
+    {
+     "palabra": "deal with",
+     "significado": "ocuparse de, gestionar, tratar con"
+    },
+    {
+     "palabra": "complaint",
+     "significado": "queja, reclamación"
+    },
+    {
+     "palabra": "customer",
+     "significado": "cliente"
+    }
+   ]
+  }
  ],
- "fuente": {"nombre": "propia"}
+ "fuente": {
+  "nombre": "propia"
+ },
+ "descripcion_larga_es": "Esta ficha reúne el vocabulario para hablar de tu empleo, tus tareas, tus condiciones laborales y tu formación: job y work, colleague, degree, pass an exam, apply for. Es imprescindible para presentarte en una entrevista o en un examen oral. Cuesta a un hispanohablante porque abundan los falsos amigos (career no es «carrera», approve no es «aprobar») y porque work es incontable.",
+ "contexto": {
+  "que_es": "Es el léxico básico del mundo laboral y académico: nombres de puestos y personas (manager, colleague), condiciones (full-time, part-time, salary), acciones (apply for, deal with, retire) y formación (degree, subject, mark). Incluye también la diferencia gramatical entre job, que es contable, y work, que es incontable.",
+  "por_que_importa": "Hablar de lo que haces y de lo que has estudiado es casi siempre la primera parte de cualquier conversación o examen oral. Los falsos amigos de este campo producen malentendidos reales: decir que «terminaste tu career» suena a que te has jubilado, y «approved the exam» no lo entiende un nativo. Un opositor debe además saber explicar qué es una oposición en inglés.",
+  "cuando_se_usa": "En presentaciones personales, entrevistas de trabajo, correos formales y conversaciones sobre la vida profesional. Las señales son preguntas como «What do you do?» o «What did you study?». El hispanohablante tiende a traducir palabra por palabra («career», «companions», «works»); hay que pensar en la expresión inglesa fija (degree, colleagues, work)."
+ }
 }

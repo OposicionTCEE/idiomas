@@ -121,7 +121,15 @@
    "respuestas": [
     "que"
    ],
-   "explicacion": "Tras c'est + complemento de lugar se usa que, no où."
+   "explicacion": "Se aplica la regla de c'est… que de la ficha: cuando se destaca cualquier elemento que no sea el sujeto, incluido un complemento de lugar, la estructura es siempre c'est + elemento con su preposición + que. La pista es «à Bruxelles», un complemento de lugar ya introducido por à. El español diría «donde», pero el francés no usa où, quand ni comment en esta estructura. Qui solo vale si se destaca el sujeto.",
+   "explicacion_breve": "Tras c'est + complemento de lugar se usa que, no où.",
+   "traduccion": "Es en Bruselas donde se negocia el acuerdo.",
+   "por_opcion": {
+    "que": "Correcta: tras c'est + complemento (aquí de lugar), el francés usa siempre que.",
+    "où": "Calco de «es en Bruselas donde»; se oye en el habla (c'est là où…), pero tras un complemento con preposición la norma exige que.",
+    "qui": "Solo se usa cuando el elemento destacado es el sujeto del verbo; à Bruxelles es un complemento de lugar.",
+    "quand": "Calco de «fue… cuando»; además aquí se habla de lugar, no de tiempo, y la estructura siempre lleva que."
+   }
   },
   {
    "id": "e02",
@@ -136,7 +144,14 @@
    "respuestas": [
     "Ce qui"
    ],
-   "explicacion": "Son silence m'étonne: es sujeto, luego ce qui."
+   "explicacion": "La ficha explica que ce qui anticipa un sujeto, ce que un complemento directo y ce dont un complemento con de. Para elegir, se reconstruye la frase simple: son silence m'étonne, «su silencio me sorprende». Son silence es el sujeto de étonner, así que se anticipa con ce qui. La ficha recuerda que verbos como étonner, plaire o intéresser van con ce qui.",
+   "explicacion_breve": "Son silence m'étonne: es sujeto, luego ce qui.",
+   "traduccion": "Lo que me sorprende es su silencio.",
+   "por_opcion": {
+    "Ce que": "Incorrecta: ce que anticiparía un complemento directo; aquí el elemento es sujeto de étonne (y me ya es el complemento).",
+    "Ce qui": "Correcta: son silence es el sujeto de étonner, y un sujeto se anticipa con ce qui.",
+    "Ce dont": "Incorrecta: ce dont sustituye a un complemento con de (avoir besoin de, parler de); étonner no lo rige."
+   }
   },
   {
    "id": "e03",
@@ -151,7 +166,14 @@
    "respuestas": [
     "Ce dont"
    ],
-   "explicacion": "Avoir besoin de: complemento con de, luego ce dont."
+   "explicacion": "Se aplica la regla de ce dont… c'est de la tabla: ce dont anticipa un complemento introducido por de. La pista es el verbo avoir besoin de, «necesitar», y la repetición de la preposición tras c'est (c'est d'un peu de repos). La frase simple sería il a besoin d'un peu de repos. Ni ce qui ni ce que pueden sustituir a un complemento con de.",
+   "explicacion_breve": "Avoir besoin de: complemento con de, luego ce dont.",
+   "traduccion": "Lo que necesita es un poco de descanso.",
+   "por_opcion": {
+    "Ce que": "Incorrecta: ce que anticipa un complemento directo, y avoir besoin no lleva complemento directo sino de.",
+    "Ce qui": "Incorrecta: el elemento no es sujeto; el sujeto de a besoin es il.",
+    "Ce dont": "Correcta: avoir besoin de rige de, y dont es el relativo que sustituye a de + complemento."
+   }
   },
   {
    "id": "e04",
@@ -166,7 +188,14 @@
    "respuestas": [
     "avons"
    ],
-   "explicacion": "El verbo concuerda con nous."
+   "explicacion": "Es la regla de concordancia con c'est… qui: el verbo concuerda con el elemento destacado, no con una tercera persona. La pista es nous delante de qui: el sujeto real de organiser es nous. Por eso el auxiliar es avons, primera persona del plural. El hispanohablante tiende a usar la tercera persona porque en español se oye «somos nosotros los que han…», pero en francés no hay vacilación.",
+   "explicacion_breve": "El verbo concuerda con nous.",
+   "traduccion": "Somos nosotros quienes hemos organizado la fiesta.",
+   "por_opcion": {
+    "avons": "Correcta: concuerda con nous, el elemento destacado y sujeto del verbo.",
+    "ont": "Incorrecta: tercera persona del plural; con c'est nous qui el verbo va en primera del plural.",
+    "a": "Incorrecta: tercera persona del singular, como si qui fuera un sujeto de tercera persona; debe concordar con nous."
+   }
   },
   {
    "id": "e05",
@@ -177,7 +206,23 @@
     "Ce que",
     "ce que"
    ],
-   "explicacion": "Je préfère quelque chose: CD, luego ce que."
+   "explicacion": "Se aplica la regla de ce que… c'est de la ficha: ce que anticipa un complemento directo. La pista es el verbo préférer, que lleva complemento directo (je préfère quelque chose) y ya tiene sujeto propio, je. Por eso no puede ser ce qui. Se aceptan las dos grafías porque el hueco está al principio de la frase y la mayúscula es indiferente para la respuesta.",
+   "explicacion_breve": "Je préfère quelque chose: CD, luego ce que.",
+   "traduccion": "Lo que prefiero es viajar en tren.",
+   "errores_previstos": [
+    {
+     "respuesta": "Ce qui",
+     "explicacion": "Ce qui sería sujeto, pero préfère ya tiene sujeto (je); el elemento anticipado es complemento directo: ce que."
+    },
+    {
+     "respuesta": "Ce dont",
+     "explicacion": "Préférer no rige la preposición de; ce dont solo sustituye complementos con de."
+    },
+    {
+     "respuesta": "Lo que",
+     "explicacion": "Calco del español; en francés se dice ce que."
+    }
+   ]
   },
   {
    "id": "e06",
@@ -187,7 +232,19 @@
    "respuestas": [
     "en"
    ],
-   "explicacion": "Un partitivo (du chocolat) se retoma con en."
+   "explicacion": "Es la regla de la dislocación de la ficha: el tema anunciado al principio se retoma con el pronombre que corresponde a su función. Du chocolat es un partitivo (una cantidad indeterminada), y los partitivos se retoman con en, como en du café, j'en bois peu. Le sería para un complemento determinado (le chocolat, les enfants le mangent). La pista es precisamente el artículo du.",
+   "explicacion_breve": "Un partitivo (du chocolat) se retoma con en.",
+   "traduccion": "Chocolate, los niños comen demasiado.",
+   "errores_previstos": [
+    {
+     "respuesta": "le",
+     "explicacion": "Le retoma un complemento directo determinado; du chocolat es partitivo y se retoma con en."
+    },
+    {
+     "respuesta": "y",
+     "explicacion": "Y retoma complementos de lugar o con à; para un partitivo se usa en."
+    }
+   ]
   },
   {
    "id": "e07",
@@ -197,7 +254,19 @@
    "respuestas": [
     "y"
    ],
-   "explicacion": "Un complemento de lugar con à se retoma con y."
+   "explicacion": "Se aplica la regla de la dislocación: el pronombre de retoma depende de la función. Au Portugal es un complemento de lugar introducido por à (au = à le), y la ficha da como modelo Paris, j'y vais souvent: el lugar se retoma con y. La pista es la preposición au y el verbo de movimiento aller. El pronombre va delante del verbo conjugado: nous y allons.",
+   "explicacion_breve": "Un complemento de lugar con à se retoma con y.",
+   "traduccion": "A Portugal vamos cada verano.",
+   "errores_previstos": [
+    {
+     "respuesta": "en",
+     "explicacion": "En retomaría un complemento con de o un partitivo (en venir de un lugar); au Portugal lleva à, así que se usa y."
+    },
+    {
+     "respuesta": "le",
+     "explicacion": "Le es complemento directo; aller no lleva complemento directo y el lugar se retoma con y."
+    }
+   ]
   },
   {
    "id": "e08",
@@ -207,7 +276,23 @@
    "respuestas": [
     "êtes"
    ],
-   "explicacion": "Concordancia con vous."
+   "explicacion": "Es la regla de concordancia con c'est… qui que destaca la ficha: el verbo concuerda con el elemento destacado. La pista es vous delante de qui; por tanto, être va en segunda persona del plural: êtes. El adjetivo responsables, en plural, lo confirma. El error típico es poner est, como si qui fuera de tercera persona.",
+   "explicacion_breve": "Concordancia con vous.",
+   "traduccion": "Son ustedes quienes son responsables del proyecto.",
+   "errores_previstos": [
+    {
+     "respuesta": "est",
+     "explicacion": "Tercera persona del singular; con c'est vous qui el verbo concuerda con vous: êtes."
+    },
+    {
+     "respuesta": "sont",
+     "explicacion": "Tercera persona del plural, como en el español «los que son»; en francés hay que concordar con vous."
+    },
+    {
+     "respuesta": "etes",
+     "explicacion": "Falta el acento circunflejo: êtes."
+    }
+   ]
   },
   {
    "id": "e09",
@@ -217,7 +302,23 @@
    "respuestas": [
     "C'est Paul qui a cassé le vase."
    ],
-   "explicacion": "C'est + sujeto + qui + resto de la frase."
+   "explicacion": "La ficha da c'est… qui para destacar el sujeto. Se coloca c'est delante del sujeto Paul, después qui, y el resto de la frase queda igual: a cassé le vase. El verbo sigue en tercera persona del singular porque concuerda con Paul. Aunque el hecho sea pasado, se mantiene c'est en presente, que es lo habitual.",
+   "explicacion_breve": "C'est + sujeto + qui + resto de la frase.",
+   "traduccion": "Fue Paul quien rompió el jarrón.",
+   "errores_previstos": [
+    {
+     "respuesta": "C'est Paul que a cassé le vase.",
+     "explicacion": "Paul es sujeto de a cassé, así que la estructura es c'est… qui; que se usa para los demás elementos."
+    },
+    {
+     "respuesta": "C'est Paul celui qui a cassé le vase.",
+     "explicacion": "Calco de «es Paul el que»; en francés basta c'est Paul qui."
+    },
+    {
+     "respuesta": "Ce fut Paul qui a cassé le vase.",
+     "explicacion": "Se oye en registro literario, pero mezcla passé simple y passé composé; lo habitual es c'est Paul qui."
+    }
+   ]
   },
   {
    "id": "e10",
@@ -227,7 +328,23 @@
    "respuestas": [
     "C'est à neuf heures que le magasin ouvre."
    ],
-   "explicacion": "C'est + complemento con su preposición + que."
+   "explicacion": "Se aplica c'est… que para destacar un complemento que no es sujeto, aquí de tiempo. La ficha insiste en que la preposición se mantiene con el elemento destacado: c'est à neuf heures. Después va que y el resto de la frase, le magasin ouvre. El español diría «cuando», pero en francés nunca se usa quand en esta estructura.",
+   "explicacion_breve": "C'est + complemento con su preposición + que.",
+   "traduccion": "Es a las nueve cuando abre la tienda.",
+   "errores_previstos": [
+    {
+     "respuesta": "C'est à neuf heures quand le magasin ouvre.",
+     "explicacion": "Calco de «es a las nueve cuando»; la estructura francesa es siempre c'est… que."
+    },
+    {
+     "respuesta": "C'est neuf heures que le magasin ouvre.",
+     "explicacion": "Se ha perdido la preposición à, que debe conservarse delante del elemento destacado."
+    },
+    {
+     "respuesta": "C'est à neuf heures qui le magasin ouvre.",
+     "explicacion": "Qui solo se usa para destacar el sujeto; aquí se destaca un complemento de tiempo: que."
+    }
+   ]
   },
   {
    "id": "e11",
@@ -238,7 +355,19 @@
     "Ce qui me dérange, c'est le manque de transparence.",
     "Ce qui me dérange c'est le manque de transparence."
    ],
-   "explicacion": "Le manque de transparence es sujeto: se anticipa con ce qui."
+   "explicacion": "La ficha da ce qui… c'est para anticipar un sujeto. En la frase de partida, le manque de transparence es el sujeto de dérange, así que se anticipa con ce qui y luego se presenta con c'est. La coma delante de c'est es la puntuación recomendada, aunque se acepta sin ella. El pronombre me sigue junto al verbo: ce qui me dérange.",
+   "explicacion_breve": "Le manque de transparence es sujeto: se anticipa con ce qui.",
+   "traduccion": "Lo que me molesta es la falta de transparencia.",
+   "errores_previstos": [
+    {
+     "respuesta": "Ce que me dérange, c'est le manque de transparence.",
+     "explicacion": "El elemento anticipado es sujeto de dérange, así que hace falta ce qui; es el error típico que recoge la ficha."
+    },
+    {
+     "respuesta": "Ce qui me dérange, est le manque de transparence.",
+     "explicacion": "Falta ce delante de est: la estructura completa es ce qui…, c'est…"
+    }
+   ]
   },
   {
    "id": "e12",
@@ -248,7 +377,23 @@
    "respuestas": [
     "C'est pour cette raison qu'il est parti."
    ],
-   "explicacion": "La estructura es siempre c'est… que, nunca pourquoi (con elisión ante il)."
+   "explicacion": "El error es usar pourquoi, calcado del español «por lo que» o «por qué». La ficha explica que la estructura es siempre c'est + elemento + que, sea cual sea el complemento destacado, aquí uno de causa. Además, que se elide ante il: qu'il est parti. La preposición pour se mantiene delante de cette raison.",
+   "explicacion_breve": "La estructura es siempre c'est… que, nunca pourquoi (con elisión ante il).",
+   "traduccion": "Es por esta razón por la que se fue.",
+   "errores_previstos": [
+    {
+     "respuesta": "C'est pour cette raison pourquoi il est parti.",
+     "explicacion": "Es la frase sin corregir: tras c'est + complemento siempre va que, nunca pourquoi."
+    },
+    {
+     "respuesta": "C'est pour cette raison que il est parti.",
+     "explicacion": "Que debe elidirse ante vocal: qu'il."
+    },
+    {
+     "respuesta": "C'est pour cette raison pour laquelle il est parti.",
+     "explicacion": "Calco de «por la que»; la estructura de realce no usa relativos con preposición: qu'il."
+    }
+   ]
   },
   {
    "id": "e13",
@@ -258,7 +403,19 @@
    "respuestas": [
     "C'est toi qui as oublié les clés."
    ],
-   "explicacion": "Toi → tu as: el verbo concuerda con el pronombre destacado."
+   "explicacion": "Se aplica la regla de concordancia con c'est… qui: el verbo concuerda con el pronombre destacado. La pista es toi, que corresponde a tu, segunda persona del singular. Por eso el auxiliar es as y no a. Es el mismo error que la ficha recoge con c'est moi qui a raison.",
+   "explicacion_breve": "Toi → tu as: el verbo concuerda con el pronombre destacado.",
+   "traduccion": "Fuiste tú quien olvidó las llaves.",
+   "errores_previstos": [
+    {
+     "respuesta": "C'est toi qui a oublié les clés.",
+     "explicacion": "Es la frase sin corregir: con toi el verbo va en segunda persona, as."
+    },
+    {
+     "respuesta": "C'est tu qui as oublié les clés.",
+     "explicacion": "Tras c'est se usa el pronombre tónico toi, no tu."
+    }
+   ]
   },
   {
    "id": "e14",
@@ -275,10 +432,28 @@
    "respuestas": [
     "Ce qui compte c'est le résultat"
    ],
-   "explicacion": "Ce qui anticipa el sujeto y c'est lo presenta."
+   "explicacion": "La ficha da ce qui… c'est para anticipar un sujeto. En la frase simple, le résultat compte, «el resultado cuenta», le résultat es el sujeto de compter, de ahí ce qui. El orden es ce qui + verbo, después c'est y el elemento destacado. Al escribirlo, conviene poner coma delante de c'est.",
+   "explicacion_breve": "Ce qui anticipa el sujeto y c'est lo presenta.",
+   "traduccion": "Lo que cuenta es el resultado.",
+   "errores_previstos": [
+    {
+     "respuesta": "C'est le résultat ce qui compte",
+     "explicacion": "Calco de «es el resultado lo que cuenta»; con c'est delante, la forma correcta sería c'est le résultat qui compte, que no se puede formar con estas palabras."
+    },
+    {
+     "respuesta": "Ce qui c'est compte le résultat",
+     "explicacion": "El verbo compte va justo detrás de ce qui; c'est introduce después el elemento destacado."
+    }
+   ]
   }
  ],
  "fuente": {
   "nombre": "propia"
+ },
+ "descripcion_larga_es": "La puesta de relieve agrupa las estructuras con que el francés destaca un elemento de la frase: c'est… qui, c'est… que, ce qui (ce que, ce dont)… c'est y la dislocación con pronombre. El español enfatiza moviendo palabras o con la entonación; el francés casi no puede, así que necesita estas fórmulas fijas. Son clave en una exposición oral para subrayar ideas y estructurar el discurso.",
+ "contexto": {
+  "que_es": "Es el conjunto de construcciones que sirven para poner de relieve una parte de la frase. C'est… qui destaca el sujeto; c'est… que, cualquier otro complemento; ce qui, ce que y ce dont anticipan un elemento que luego presenta c'est; y la dislocación anuncia el tema al principio o al final y lo retoma con un pronombre (le, en, y, moi…).",
+  "por_que_importa": "Sin estas estructuras, un hispanohablante no puede reproducir en francés el énfasis que en español consigue con el orden o la entonación («fue Marie quien…», «lo que me preocupa es…»). Son muy frecuentes en la lengua oral y en la argumentación, y los errores típicos (c'est moi qui a, c'est en 2008 quand) se notan mucho. En un examen permiten jerarquizar ideas y concluir con claridad.",
+  "cuando_se_usa": "Cuando se quiere contrastar o subrayar un dato (C'est la dette qui inquiète, pas le déficit), presentar la idea central (Ce qu'il faut retenir, c'est que…) o retomar un tema en una conversación (Ce livre, je l'ai adoré). Las señales son el deseo de corregir, insistir o concluir. Donde el español dice «fue en… cuando» o «es aquí donde», el francés dice siempre c'est… que."
  }
 }

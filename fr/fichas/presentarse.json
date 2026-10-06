@@ -226,7 +226,29 @@
    "respuestas": [
     "ai"
    ],
-   "explicacion": "La edad se dice con avoir: j'ai."
+   "explicacion": "La lista de la ficha recuerda que la edad se dice con avoir, igual que el español «tengo», y nunca con être. La pista es «vingt ans» detrás del hueco. Como je se apostrofa ante vocal, la forma es «j'ai». En la frase el apóstrofo ya está escrito, así que basta con «ai».",
+   "explicacion_breve": "La edad se dice con avoir: j'ai.",
+   "traduccion": "Tengo veinte años.",
+   "errores_previstos": [
+    {
+     "respuesta": "suis",
+     "explicacion": "Es el error típico de la ficha: la edad no se expresa con être, sino con avoir: «j'ai vingt ans»."
+    },
+    {
+     "respuesta": "a",
+     "explicacion": "«A» es la forma de il o elle; con je el presente de avoir es «ai»."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "avoir … ans",
+     "significado": "tener … años"
+    },
+    {
+     "palabra": "vingt",
+     "significado": "veinte"
+    }
+   ]
   },
   {
    "id": "e02",
@@ -236,7 +258,29 @@
    "respuestas": [
     "appelle"
    ],
-   "explicacion": "S'appeler: je m'appelle, con doble l."
+   "explicacion": "La fórmula de la tabla es «Je m'appelle…», del verbo pronominal s'appeler. Como recoge la ficha, este verbo dobla la l en las formas cuya terminación no se pronuncia: je m'appelle, tu t'appelles, il s'appelle, ils s'appellent, pero nous nous appelons. La pista es el pronombre «m'» ya escrito ante el hueco.",
+   "explicacion_breve": "S'appeler: je m'appelle, con doble l.",
+   "traduccion": "Me llamo Pedro.",
+   "errores_previstos": [
+    {
+     "respuesta": "apelle",
+     "explicacion": "Falta una p: el verbo es appeler, con doble p y, en esta persona, también doble l."
+    },
+    {
+     "respuesta": "appele",
+     "explicacion": "Con je la l se dobla: «je m'appelle»; con una sola l se pronunciaría distinto."
+    },
+    {
+     "respuesta": "llame",
+     "explicacion": "Es un calco del español «me llamo»; en francés el verbo es s'appeler: «je m'appelle»."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "s'appeler",
+     "significado": "llamarse"
+    }
+   ]
   },
   {
    "id": "e03",
@@ -246,7 +290,29 @@
    "respuestas": [
     "à"
    ],
-   "explicacion": "Ante nombres de ciudad se usa à."
+   "explicacion": "La tabla da la fórmula «J'habite à…» para el lugar de residencia. Ante el nombre de una ciudad se usa siempre à, tanto para «vivir en» como para «ir a». La pista es Barcelone, que es una ciudad. El hispanohablante tiende a calcar «en Barcelona», pero en con nombres de lugar se reserva para países femeninos.",
+   "explicacion_breve": "Ante nombres de ciudad se usa à.",
+   "traduccion": "Vivo en Barcelona.",
+   "errores_previstos": [
+    {
+     "respuesta": "en",
+     "explicacion": "Calco de «en Barcelona». Con ciudades se usa à: «j'habite à Barcelone»."
+    },
+    {
+     "respuesta": "dans",
+     "explicacion": "Dans se usa con espacios con artículo («dans un appartement»); ante el nombre de una ciudad va à."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "habiter à",
+     "significado": "vivir en (una ciudad)"
+    },
+    {
+     "palabra": "Barcelone",
+     "significado": "Barcelona"
+    }
+   ]
   },
   {
    "id": "e04",
@@ -261,7 +327,24 @@
    "respuestas": [
     "Bonsoir"
    ],
-   "explicacion": "Al llegar por la tarde-noche se dice bonsoir; bonne nuit es para irse a dormir."
+   "explicacion": "Según la tabla, «Bonsoir» es el saludo al llegar por la tarde-noche, mientras que «Bonne nuit» solo se dice al despedirse para ir a dormir. La pista es el enunciado: se llega a una cena a las nueve de la noche, y además el interlocutor es «madame», lo que pide un registro cortés. Por eso la única fórmula adecuada es «Bonsoir, madame !».",
+   "explicacion_breve": "Al llegar por la tarde-noche se dice bonsoir; bonne nuit es para irse a dormir.",
+   "traduccion": "¡Buenas noches, señora!",
+   "por_opcion": {
+    "Bonsoir": "Correcta: es el saludo de llegada a partir de la caída de la tarde, válido en registro formal con «madame».",
+    "Bonne nuit": "Incorrecta: equivale a desear buenas noches al irse a dormir; dicho al llegar a una cena suena muy raro. Es el error que la ficha señala.",
+    "Salut": "Incorrecta aquí: «Salut» es un saludo informal entre amigos; con «madame» y en una cena resulta demasiado familiar."
+   },
+   "glosario": [
+    {
+     "palabra": "bonsoir",
+     "significado": "buenas tardes o buenas noches (al llegar, por la tarde-noche)"
+    },
+    {
+     "palabra": "bonne nuit",
+     "significado": "buenas noches (al irse a dormir)"
+    }
+   ]
   },
   {
    "id": "e05",
@@ -276,7 +359,24 @@
    "respuestas": [
     "avocate"
    ],
-   "explicacion": "La profesión tras être va sin artículo."
+   "explicacion": "La ficha establece que, tras être, las profesiones van sin artículo: «Je suis médecin», no «Je suis un médecin». Aquí el sujeto es femenino («ma sœur»), así que la profesión va en femenino, «avocate», y sin artículo. Es exactamente lo mismo que en español: «es abogada», no «es una abogada».",
+   "explicacion_breve": "La profesión tras être va sin artículo.",
+   "traduccion": "Mi hermana es abogada.",
+   "por_opcion": {
+    "avocate": "Correcta: profesión en femenino, sin artículo, tras el verbo être.",
+    "une avocate": "Incorrecta aquí: tras être y sin adjetivo, la profesión no lleva artículo. Solo se diría «c'est une avocate» o «elle est une avocate brillante» con un adjetivo que la califique (y aun así es más natural «c'est une avocate brillante»).",
+    "l'avocate": "Incorrecta: con artículo determinado significaría «es la abogada» (una concreta, ya mencionada), no que su profesión sea la abogacía."
+   },
+   "glosario": [
+    {
+     "palabra": "une avocate",
+     "significado": "una abogada"
+    },
+    {
+     "palabra": "la sœur",
+     "significado": "la hermana"
+    }
+   ]
   },
   {
    "id": "e06",
@@ -291,7 +391,24 @@
    "respuestas": [
     "Comment"
    ],
-   "explicacion": "Para preguntar el nombre: Comment vous appelez-vous ?"
+   "explicacion": "La tabla recoge la pregunta formal «Comment vous appelez-vous ?». En francés no se pregunta «qué» te llamas, sino «cómo», igual que en español. La pista es la estructura con inversión «vous appelez-vous», propia del registro formal. Comment es el interrogativo de modo y es el único que encaja con s'appeler.",
+   "explicacion_breve": "Para preguntar el nombre: Comment vous appelez-vous ?",
+   "traduccion": "¿Cómo se llama usted?",
+   "por_opcion": {
+    "Comment": "Correcta: «comment» significa «cómo» y es el interrogativo que va con s'appeler.",
+    "Quoi": "Incorrecta: «quoi» significa «qué» y no se usa con s'appeler; además no se coloca así al principio de una pregunta con inversión.",
+    "Qui": "Incorrecta: «qui» significa «quién»; «Qui vous appelez-vous ?» no tiene sentido. Para preguntar por una persona se diría «Qui êtes-vous ?»."
+   },
+   "glosario": [
+    {
+     "palabra": "comment",
+     "significado": "cómo"
+    },
+    {
+     "palabra": "Comment vous appelez-vous ?",
+     "significado": "¿Cómo se llama usted?"
+    }
+   ]
   },
   {
    "id": "e07",
@@ -306,7 +423,24 @@
    "respuestas": [
     "Très bien, merci."
    ],
-   "explicacion": "Comment allez-vous pregunta por el estado de la persona, no por su edad ni su nombre."
+   "explicacion": "Según la tabla, «Comment allez-vous ?» significa «¿Cómo está usted?», es decir, pregunta por el estado de la persona. La pista es el verbo aller, que en esta fórmula expresa cómo se encuentra uno. La respuesta natural es «Très bien, merci», a la que en una conversación real se suele añadir «et vous ?».",
+   "explicacion_breve": "Comment allez-vous pregunta por el estado de la persona, no por su edad ni su nombre.",
+   "traduccion": "—¿Cómo está usted? —Muy bien, gracias.",
+   "por_opcion": {
+    "Très bien, merci.": "Correcta: responde a cómo se encuentra uno: «muy bien, gracias».",
+    "J'ai trente ans.": "Incorrecta: «tengo treinta años» respondería a «Quel âge avez-vous ?», no a cómo está.",
+    "Je m'appelle Anne.": "Incorrecta: «me llamo Anne» respondería a «Comment vous appelez-vous ?»; no confundas aller (estar) con s'appeler (llamarse)."
+   },
+   "glosario": [
+    {
+     "palabra": "Comment allez-vous ?",
+     "significado": "¿Cómo está usted?"
+    },
+    {
+     "palabra": "très bien",
+     "significado": "muy bien"
+    }
+   ]
   },
   {
    "id": "e08",
@@ -316,7 +450,29 @@
    "respuestas": [
     "espagnole"
    ],
-   "explicacion": "El femenino de espagnol añade -e."
+   "explicacion": "La tabla da «Je suis espagnol(e)»: las nacionalidades concuerdan en género con el sujeto. El sujeto es «elle», así que se añade -e: «espagnole». Como recuerda la ficha, como adjetivo la nacionalidad se escribe con minúscula; solo el sustantivo lleva mayúscula (une Espagnole). Al añadir la -e se pronuncia la l final.",
+   "explicacion_breve": "El femenino de espagnol añade -e.",
+   "traduccion": "Ella es española.",
+   "errores_previstos": [
+    {
+     "respuesta": "espagnol",
+     "explicacion": "Falta la concordancia: con elle la nacionalidad va en femenino, «espagnole»."
+    },
+    {
+     "respuesta": "espagnolle",
+     "explicacion": "No se dobla la l: el femenino de espagnol es «espagnole», con una sola l (a diferencia de «cruel, cruelle»)."
+    },
+    {
+     "respuesta": "española",
+     "explicacion": "Es la palabra española; en francés el femenino es «espagnole»."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "espagnol, espagnole",
+     "significado": "español, española"
+    }
+   ]
   },
   {
    "id": "e09",
@@ -327,7 +483,33 @@
     "viens",
     "suis"
    ],
-   "explicacion": "Venir de: je viens de…, para el origen."
+   "explicacion": "La tabla propone «Je viens de…» para indicar el origen, con el verbo venir. La pista es la preposición «de» seguida de una ciudad. También se acepta «je suis de Salamanque», porque «être de» + lugar es igual de correcto para decir de dónde es uno, como en español «soy de». Ambas respuestas valen; «je viens de» insiste algo más en la procedencia.",
+   "explicacion_breve": "Venir de: je viens de…, para el origen.",
+   "traduccion": "Soy de Salamanca. (o: Vengo de Salamanca.)",
+   "errores_previstos": [
+    {
+     "respuesta": "vient",
+     "explicacion": "«Vient» es la forma de il o elle; con je es «viens», con -s."
+    },
+    {
+     "respuesta": "venir",
+     "explicacion": "Hace falta conjugar el verbo: con je, «je viens»."
+    },
+    {
+     "respuesta": "habite",
+     "explicacion": "«J'habite» indica dónde vives y pide à («j'habite à Salamanque»); con de el verbo adecuado es venir (o être)."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "venir de",
+     "significado": "venir de, ser de (origen)"
+    },
+    {
+     "palabra": "Salamanque",
+     "significado": "Salamanca"
+    }
+   ]
   },
   {
    "id": "e10",
@@ -337,7 +519,25 @@
    "respuestas": [
     "Je suis ingénieur."
    ],
-   "explicacion": "Sin artículo ante la profesión tras être."
+   "explicacion": "Es el primer error típico de la ficha: tras être, la profesión va sin artículo. «Je suis un ingénieur» es un calco que suena extraño; lo correcto es «Je suis ingénieur», igual que en español «soy ingeniero». Solo aparece el artículo si se añade un adjetivo o con c'est: «c'est un ingénieur».",
+   "explicacion_breve": "Sin artículo ante la profesión tras être.",
+   "traduccion": "Soy ingeniero.",
+   "errores_previstos": [
+    {
+     "respuesta": "Je suis un ingénieur.",
+     "explicacion": "Es dejar la frase sin corregir: tras être la profesión no lleva artículo."
+    },
+    {
+     "respuesta": "Je suis l'ingénieur.",
+     "explicacion": "Con artículo determinado significaría «soy el ingeniero» (uno concreto), no la profesión."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "un ingénieur",
+     "significado": "un ingeniero"
+    }
+   ]
   },
   {
    "id": "e11",
@@ -347,7 +547,29 @@
    "respuestas": [
     "J'ai vingt-cinq ans."
    ],
-   "explicacion": "La edad va con avoir."
+   "explicacion": "La ficha insiste en que la edad se dice con avoir: «J'ai 30 ans». La frase usa être, probablemente por influencia de «soy», pero «je suis vingt-cinq ans» no tiene sentido en francés. Hay que cambiar el verbo y, como avoir empieza por vocal, apostrofar je: «J'ai».",
+   "explicacion_breve": "La edad va con avoir.",
+   "traduccion": "Tengo veinticinco años.",
+   "errores_previstos": [
+    {
+     "respuesta": "Je suis vingt-cinq ans.",
+     "explicacion": "Es dejar la frase sin corregir: la edad no va con être, sino con avoir."
+    },
+    {
+     "respuesta": "Je ai vingt-cinq ans.",
+     "explicacion": "Ante vocal, je se apostrofa obligatoriamente: «J'ai»."
+    },
+    {
+     "respuesta": "J'ai vingt-cinq années.",
+     "explicacion": "Para la edad se usa «ans», no «années»: «J'ai vingt-cinq ans»."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "vingt-cinq",
+     "significado": "veinticinco"
+    }
+   ]
   },
   {
    "id": "e12",
@@ -363,7 +585,29 @@
    "respuestas": [
     "Je vous présente mon collègue"
    ],
-   "explicacion": "El pronombre complemento vous va delante del verbo."
+   "explicacion": "La tabla recoge la fórmula «Je vous présente…» para presentar a alguien. El pronombre complemento vous (a usted) va delante del verbo, a diferencia de lo que pasa con el infinitivo o el imperativo en español. El orden es sujeto, pronombre, verbo y la persona presentada: «Je vous présente mon collègue».",
+   "explicacion_breve": "El pronombre complemento vous va delante del verbo.",
+   "traduccion": "Le presento a mi colega.",
+   "errores_previstos": [
+    {
+     "respuesta": "Je présente vous mon collègue",
+     "explicacion": "El pronombre complemento va delante del verbo conjugado: «je vous présente»."
+    },
+    {
+     "respuesta": "Je présente mon collègue vous",
+     "explicacion": "Vous no puede ir al final como complemento; se coloca antes del verbo."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "présenter",
+     "significado": "presentar"
+    },
+    {
+     "palabra": "un collègue",
+     "significado": "un colega, un compañero de trabajo"
+    }
+   ]
   },
   {
    "id": "e13",
@@ -382,7 +626,29 @@
     "J'habite et je travaille à Paris",
     "Je travaille et j'habite à Paris"
    ],
-   "explicacion": "Dos oraciones simples unidas por et."
+   "explicacion": "Se trata de unir dos oraciones simples con et, usando la fórmula «J'habite à…» de la tabla. Se aceptan varios órdenes: «J'habite à Paris et je travaille», «J'habite et je travaille à Paris» o «Je travaille et j'habite à Paris». En todos, cada verbo va detrás de su sujeto y «à Paris» forma bloque. La versión con «à Paris» al final es la más natural para decir que vives y trabajas allí.",
+   "explicacion_breve": "Dos oraciones simples unidas por et.",
+   "traduccion": "Vivo en París y trabajo (o: Vivo y trabajo en París).",
+   "errores_previstos": [
+    {
+     "respuesta": "J'habite je travaille à Paris et",
+     "explicacion": "La conjunción et va entre las dos oraciones, no al final."
+    },
+    {
+     "respuesta": "J'habite Paris à et je travaille",
+     "explicacion": "La preposición va delante del nombre de la ciudad: «à Paris»."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "travailler",
+     "significado": "trabajar"
+    },
+    {
+     "palabra": "habiter",
+     "significado": "vivir, residir"
+    }
+   ]
   },
   {
    "id": "e14",
@@ -394,10 +660,38 @@
     "Comment est-ce que vous vous appelez ?",
     "Vous vous appelez comment ?"
    ],
-   "explicacion": "Con vous el reflexivo también es vous: vous vous appelez."
+   "explicacion": "Al pasar de tu a vous cambian el sujeto y también el pronombre reflexivo: «tu t'appelles» se convierte en «vous vous appelez», con vous repetido y la terminación -ez. Se aceptan las tres formas de preguntar: con inversión («Comment vous appelez-vous ?», la más formal), con est-ce que, o en orden directo con comment al final, más oral. Fíjate en que appeler pierde la doble l con vous.",
+   "explicacion_breve": "Con vous el reflexivo también es vous: vous vous appelez.",
+   "traduccion": "¿Cómo se llama usted?",
+   "errores_previstos": [
+    {
+     "respuesta": "Comment vous t'appelez ?",
+     "explicacion": "El reflexivo debe concordar con el sujeto: con vous es vous, «vous vous appelez»."
+    },
+    {
+     "respuesta": "Comment vous appellez-vous ?",
+     "explicacion": "Con vous la l no se dobla, porque la terminación -ez sí se pronuncia: «appelez»."
+    },
+    {
+     "respuesta": "Comment vous vous appelles ?",
+     "explicacion": "La terminación de vous es -ez, no -es: «vous vous appelez»."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "s'appeler",
+     "significado": "llamarse"
+    }
+   ]
   }
  ],
  "fuente": {
   "nombre": "propia"
+ },
+ "descripcion_larga_es": "Fórmulas para saludar, despedirse y presentarse: decir el nombre, la edad, la nacionalidad, la profesión y dónde se vive. Es lo primero que se necesita en cualquier contacto con un francófono y lo primero que se pide en un examen oral. Importa elegir bien el registro (vous o tu) y evitar calcos del español como «je suis trente ans» o «je suis un médecin».",
+ "contexto": {
+  "que_es": "Es el vocabulario y las estructuras básicas del primer contacto: saludos y despedidas (bonjour, bonsoir, salut, au revoir), preguntas por el estado y el nombre (comment allez-vous, comment vous appelez-vous) y frases para dar los datos personales. Incluye algunas construcciones que no coinciden con el español, como la edad con avoir o la profesión sin artículo.",
+  "por_que_importa": "Toda conversación y casi todo examen oral empiezan con una presentación, así que es la primera impresión que se da. En Francia el saludo tiene peso social: no decir «Bonjour» al entrar en una tienda o confundir tu y vous resulta descortés. Errores como «je suis 25 ans» o «bonne nuit» al llegar delatan enseguida un nivel muy inicial.",
+  "cuando_se_usa": "Al conocer a alguien, al empezar una entrevista, una reunión o un examen, al entrar en un comercio o al escribir un correo de presentación. La señal para elegir registro es la relación: desconocidos, superiores y tribunales piden vous y «Bonjour, madame / monsieur»; amigos y familia, tu y «Salut». El hispanohablante debe vigilar sobre todo avoir para la edad y la ausencia de artículo ante profesiones."
  }
 }

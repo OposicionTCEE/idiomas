@@ -122,7 +122,23 @@
    "respuestas": [
     "her"
    ],
-   "explicacion": "Lucía es she: her."
+   "explicacion": "Se aplica la regla de la tabla según la cual el posesivo concuerda con el poseedor, no con lo poseído. La pista es el sujeto, Lucía, que es una mujer, es decir, she, cuyo adjetivo posesivo es her. Da igual que grandparents sea plural: el posesivo no cambia según lo poseído. Por eso «sus abuelos» de Lucía es her grandparents.",
+   "explicacion_breve": "Lucía es she: her.",
+   "traduccion": "Lucía vive con sus abuelos.",
+   "errores_previstos": [
+    {
+     "respuesta": "his",
+     "explicacion": "His es el posesivo de un poseedor masculino; Lucía es mujer, así que va her."
+    },
+    {
+     "respuesta": "their",
+     "explicacion": "Calco de «sus» por el plural de abuelos: en inglés el posesivo depende del poseedor (Lucía, she), no de lo poseído."
+    },
+    {
+     "respuesta": "hers",
+     "explicacion": "Hers es el pronombre que va solo; delante de un sustantivo va el adjetivo her."
+    }
+   ]
   },
   {
    "id": "e02",
@@ -132,7 +148,23 @@
    "respuestas": [
     "his"
    ],
-   "explicacion": "Carlos es he: his."
+   "explicacion": "Se aplica la regla de que his y her dependen del poseedor. La pista es Carlos, un hombre, es decir, he, cuyo posesivo es his. Que keys esté en plural no influye: en inglés los posesivos no tienen plural según lo poseído. Por eso «sus llaves» de Carlos es his keys.",
+   "explicacion_breve": "Carlos es he: his.",
+   "traduccion": "Carlos no encuentra sus llaves.",
+   "errores_previstos": [
+    {
+     "respuesta": "her",
+     "explicacion": "Her se refiere a una poseedora femenina; Carlos es masculino: his."
+    },
+    {
+     "respuesta": "their",
+     "explicacion": "El plural de keys no afecta al posesivo, que concuerda con Carlos (he): his."
+    },
+    {
+     "respuesta": "he",
+     "explicacion": "He es el pronombre sujeto; para indicar posesión hace falta el adjetivo his."
+    }
+   ]
   },
   {
    "id": "e03",
@@ -142,7 +174,23 @@
    "respuestas": [
     "our"
    ],
-   "explicacion": "We: our."
+   "explicacion": "Se aplica la tabla de adjetivos posesivos: el sujeto we tiene como posesivo our. La pista es el sujeto de la frase, we, que es también el poseedor del piso. Our no cambia aunque el poseedor sea plural ni según el género de lo poseído; en español diríamos «nuestro» o «nuestra», pero en inglés siempre es our.",
+   "explicacion_breve": "We: our.",
+   "traduccion": "Nos encanta nuestro piso nuevo.",
+   "errores_previstos": [
+    {
+     "respuesta": "ours",
+     "explicacion": "Ours es el pronombre que va solo (The flat is ours); delante de un sustantivo va our."
+    },
+    {
+     "respuesta": "us",
+     "explicacion": "Us es el pronombre objeto (They called us); para la posesión se usa our."
+    },
+    {
+     "respuesta": "their",
+     "explicacion": "Their corresponde a they; el poseedor aquí es we: our."
+    }
+   ]
   },
   {
    "id": "e04",
@@ -152,7 +200,23 @@
    "respuestas": [
     "Mine"
    ],
-   "explicacion": "Sustituye a my coat: mine."
+   "explicacion": "Se aplica la diferencia que explica la ficha entre adjetivo y pronombre: el adjetivo va con sustantivo (my coat) y el pronombre lo sustituye (mine). La pista es que después del hueco no hay sustantivo, sino directamente el verbo is: hace falta una palabra que valga por sí sola por «my coat». Por eso es Mine, con mayúscula por ir al principio de la oración, y sin artículo delante, a diferencia del español «el mío».",
+   "explicacion_breve": "Sustituye a my coat: mine.",
+   "traduccion": "Ese no es mi abrigo. El mío es negro.",
+   "errores_previstos": [
+    {
+     "respuesta": "My",
+     "explicacion": "My necesita un sustantivo detrás (My coat is black); solo, hace falta el pronombre mine."
+    },
+    {
+     "respuesta": "The mine",
+     "explicacion": "Calco de «el mío»: en inglés el pronombre posesivo nunca lleva artículo."
+    },
+    {
+     "respuesta": "Me",
+     "explicacion": "Me es el pronombre objeto; para «el mío» se usa mine."
+    }
+   ]
   },
   {
    "id": "e05",
@@ -162,7 +226,23 @@
    "respuestas": [
     "theirs"
    ],
-   "explicacion": "De ellos: theirs."
+   "explicacion": "Se aplica la columna de pronombres posesivos de la tabla: they tiene como pronombre theirs. La pista es el poseedor, my parents, es decir, they, y el hecho de que el hueco va al final, sin sustantivo detrás. Por eso «son suyas» se dice They're theirs. Fíjate en que theirs, como hers u ours, no lleva apóstrofo.",
+   "explicacion_breve": "De ellos: theirs.",
+   "traduccion": "Esas son las bicis de mis padres. Son suyas.",
+   "errores_previstos": [
+    {
+     "respuesta": "their",
+     "explicacion": "Their es el adjetivo y necesita un sustantivo detrás (their bikes); solo, va theirs."
+    },
+    {
+     "respuesta": "their's",
+     "explicacion": "Los pronombres posesivos no llevan apóstrofo: theirs."
+    },
+    {
+     "respuesta": "them",
+     "explicacion": "Them es el pronombre objeto; para «suyas» hace falta el posesivo theirs."
+    }
+   ]
   },
   {
    "id": "e06",
@@ -177,7 +257,14 @@
    "respuestas": [
     "its"
    ],
-   "explicacion": "Posesivo de it: its, sin apóstrofo."
+   "explicacion": "Se aplica la nota de la ficha según la cual its, el posesivo de it, no lleva apóstrofo, mientras que it's significa it is. La pista es el poseedor, the cat, un animal al que se refiere normalmente con it, y el sustantivo ball detrás del hueco, que pide un adjetivo posesivo. Por eso es its ball. Con una mascota a la que se conoce el sexo, a veces se usa his o her, pero la forma neutra y esperada aquí es its.",
+   "explicacion_breve": "Posesivo de it: its, sin apóstrofo.",
+   "traduccion": "El gato está jugando con su pelota.",
+   "por_opcion": {
+    "it's": "Incorrecta: it's es la contracción de it is (o it has); «the cat is playing with it is ball» no tiene sentido.",
+    "its": "Correcta: posesivo de it, sin apóstrofo, delante del sustantivo ball.",
+    "his": "Incorrecta en la frase neutra: his es para un poseedor masculino. Solo se usaría si el hablante trata al gato como «él» por ser su mascota."
+   }
   },
   {
    "id": "e07",
@@ -192,7 +279,14 @@
    "respuestas": [
     "your"
    ],
-   "explicacion": "Delante de un sustantivo va el adjetivo your."
+   "explicacion": "Se aplica la diferencia entre adjetivo y pronombre de la ficha: el adjetivo va con sustantivo y el pronombre lo sustituye. La pista es que detrás del hueco aparece el sustantivo phone, así que hace falta el adjetivo your. Si la frase fuera «Is this phone ___?», entonces sí valdría yours.",
+   "explicacion_breve": "Delante de un sustantivo va el adjetivo your.",
+   "traduccion": "¿Es este tu teléfono?",
+   "por_opcion": {
+    "yours": "Incorrecta aquí: yours va solo, sin sustantivo (Is this yours?). Con phone detrás hace falta your.",
+    "your": "Correcta: adjetivo posesivo delante del sustantivo phone.",
+    "you": "Incorrecta: you es pronombre personal y no indica posesión."
+   }
   },
   {
    "id": "e08",
@@ -207,7 +301,14 @@
    "respuestas": [
     "children's"
    ],
-   "explicacion": "Plural irregular: children + 's."
+   "explicacion": "Se aplica la regla del genitivo sajón con plurales irregulares: cuando el plural no acaba en -s, como children, se añade 's igual que en singular. La pista es que children ya es plural y no termina en -s, así que el apóstrofo va antes de la s: children's room. Solo los plurales que acaban en -s (parents) llevan el apóstrofo detrás.",
+   "explicacion_breve": "Plural irregular: children + 's.",
+   "traduccion": "La habitación de los niños está a la izquierda.",
+   "por_opcion": {
+    "children's": "Correcta: plural irregular sin -s final, así que se añade 's.",
+    "childrens'": "Incorrecta: «childrens» no existe; children ya es plural y lleva 's.",
+    "childs'": "Incorrecta: «childs» no es el plural de child; además el apóstrofo detrás solo se usa con plurales regulares en -s."
+   }
   },
   {
    "id": "e09",
@@ -217,7 +318,23 @@
    "respuestas": [
     "my grandmother's house"
    ],
-   "explicacion": "Poseedor persona: genitivo sajón."
+   "explicacion": "Se aplica la regla del genitivo sajón: poseedor + 's + cosa. La pista es que el poseedor es una persona, my grandmother, y la ficha indica que con personas se usa normalmente 's en lugar de of. Para transformar, el poseedor pasa delante con 's y el artículo the desaparece, porque su función la cumple ahora my grandmother's: my grandmother's house.",
+   "explicacion_breve": "Poseedor persona: genitivo sajón.",
+   "traduccion": "la casa de mi abuela",
+   "errores_previstos": [
+    {
+     "respuesta": "the my grandmother's house",
+     "explicacion": "Al usar el genitivo sajón desaparece el artículo the de la cosa poseída."
+    },
+    {
+     "respuesta": "my grandmothers house",
+     "explicacion": "Falta el apóstrofo: sin él, grandmothers parece un plural."
+    },
+    {
+     "respuesta": "my grandmother house",
+     "explicacion": "Falta la 's que marca la posesión: my grandmother's house."
+    }
+   ]
   },
   {
    "id": "e10",
@@ -228,7 +345,23 @@
     "This bag is hers.",
     "This is hers."
    ],
-   "explicacion": "Her bag se sustituye por hers."
+   "explicacion": "Se aplica la diferencia entre el adjetivo her, que va con sustantivo, y el pronombre hers, que lo sustituye. La pista es la instrucción de usar un pronombre posesivo: el sustantivo bag tiene que salir de detrás del posesivo. Por eso her bag se convierte en hers, ya sea en This bag is hers (este bolso es suyo) o en This is hers (este es el suyo). Hers no lleva apóstrofo.",
+   "explicacion_breve": "Her bag se sustituye por hers.",
+   "traduccion": "Este bolso es suyo (de ella).",
+   "errores_previstos": [
+    {
+     "respuesta": "This bag is her.",
+     "explicacion": "Her es adjetivo u objeto; para «suyo» al final de la frase hace falta hers."
+    },
+    {
+     "respuesta": "This bag is her's.",
+     "explicacion": "Los pronombres posesivos no llevan apóstrofo: hers."
+    },
+    {
+     "respuesta": "This is the hers.",
+     "explicacion": "Calco de «el suyo»: el pronombre posesivo inglés no lleva artículo."
+    }
+   ]
   },
   {
    "id": "e11",
@@ -238,7 +371,23 @@
    "respuestas": [
     "Ana is talking to her mother."
    ],
-   "explicacion": "Ana es femenino: her."
+   "explicacion": "Se aplica la regla clave de la ficha: his y her dependen del poseedor. Ana es mujer, así que su posesivo es her: her mother. El error es típico del hispanohablante, que, como «su» vale para todo, elige his al azar o lo asocia con lo poseído. Pregúntate siempre de quién es la madre: de Ana, una mujer, luego her.",
+   "explicacion_breve": "Ana es femenino: her.",
+   "traduccion": "Ana está hablando con su madre.",
+   "errores_previstos": [
+    {
+     "respuesta": "Ana is talking to his mother.",
+     "explicacion": "Es la frase sin corregir: his indicaría que la madre es de un hombre; Ana es mujer, así que her."
+    },
+    {
+     "respuesta": "Ana is talking to hers mother.",
+     "explicacion": "Hers va solo; delante del sustantivo va el adjetivo her."
+    },
+    {
+     "respuesta": "Ana is talking to the her mother.",
+     "explicacion": "El posesivo ya cumple la función del artículo: no se ponen los dos."
+    }
+   ]
   },
   {
    "id": "e12",
@@ -248,7 +397,23 @@
    "respuestas": [
     "This is Peter's car."
    ],
-   "explicacion": "Con personas se usa 's."
+   "explicacion": "Se aplica la regla de la ficha según la cual con personas se usa normalmente el genitivo sajón: poseedor + 's + cosa. La pista es que el poseedor es Peter, una persona. «The car of Peter» es un calco de «el coche de Peter»: se entiende, pero no es natural. Al pasar a Peter's car desaparece el artículo the.",
+   "explicacion_breve": "Con personas se usa 's.",
+   "traduccion": "Este es el coche de Peter.",
+   "errores_previstos": [
+    {
+     "respuesta": "This is the car of Peter.",
+     "explicacion": "Es la frase sin corregir: con personas se usa 's, Peter's car."
+    },
+    {
+     "respuesta": "This is the Peter's car.",
+     "explicacion": "Con el genitivo sajón no se pone the delante del poseedor."
+    },
+    {
+     "respuesta": "This is Peters car.",
+     "explicacion": "Falta el apóstrofo: Peter's."
+    }
+   ]
   },
   {
    "id": "e13",
@@ -258,7 +423,23 @@
    "respuestas": [
     "My parents' house is very old."
    ],
-   "explicacion": "Parents es plural en -s: el apóstrofo va detrás."
+   "explicacion": "Se aplica la regla de la ficha según la cual los plurales acabados en -s solo añaden el apóstrofo: my parents' house. La pista es el sentido: la casa es de los dos padres, así que el poseedor es plural, parents, y ya termina en -s. «My parent's house» sería la casa de uno solo de los padres, lo que no tiene sentido en este contexto.",
+   "explicacion_breve": "Parents es plural en -s: el apóstrofo va detrás.",
+   "traduccion": "La casa de mis padres es muy antigua.",
+   "errores_previstos": [
+    {
+     "respuesta": "My parent's house is very old.",
+     "explicacion": "Es la frase sin corregir: parent's se refiere a un solo progenitor; con el plural parents el apóstrofo va detrás."
+    },
+    {
+     "respuesta": "My parents's house is very old.",
+     "explicacion": "Con los plurales en -s no se añade otra s: solo el apóstrofo, parents'."
+    },
+    {
+     "respuesta": "My parents house is very old.",
+     "explicacion": "Falta el apóstrofo que marca la posesión: parents'."
+    }
+   ]
   },
   {
    "id": "e14",
@@ -275,10 +456,32 @@
     "This is my brother's computer",
     "Is this my brother's computer"
    ],
-   "explicacion": "Poseedor + 's + cosa."
+   "explicacion": "Se aplica la regla del genitivo sajón: poseedor + 's + cosa. La pista es la palabra brother's, que ya lleva la 's y por tanto debe ir inmediatamente delante de la cosa poseída, computer, precedida de my. La frase sigue el orden sujeto + verbo + complemento: This is my brother's computer. Con el verbo delante se forma la pregunta, que también se acepta.",
+   "explicacion_breve": "Poseedor + 's + cosa.",
+   "traduccion": "Este es el ordenador de mi hermano.",
+   "errores_previstos": [
+    {
+     "respuesta": "This is computer my brother's",
+     "explicacion": "Calco del orden español («el ordenador de mi hermano»): en el genitivo sajón el poseedor va delante de la cosa."
+    },
+    {
+     "respuesta": "This is brother's my computer",
+     "explicacion": "My acompaña a brother y va delante de él: my brother's computer."
+    },
+    {
+     "respuesta": "This my brother's computer is",
+     "explicacion": "El verbo is va detrás del sujeto this, no al final."
+    }
+   ]
   }
  ],
  "fuente": {
   "nombre": "propia"
+ },
+ "descripcion_larga_es": "Los posesivos indican de quién es algo: adjetivos como my, your, his o her delante del sustantivo, y el genitivo sajón ('s) para decir «de» con personas (Ana's car). Son imprescindibles desde el primer día. Al hispanohablante le cuesta que his y her dependan del poseedor y no de lo poseído, porque en español «su» vale para todo, y colocar bien el apóstrofo.",
+ "contexto": {
+  "que_es": "Son las formas que expresan posesión o pertenencia: los adjetivos posesivos (my, your, his, her, its, our, their), que van delante del sustantivo; los pronombres posesivos (mine, yours, hers…), que lo sustituyen; y el genitivo sajón, poseedor + 's + cosa (my brother's car), alternativa habitual a la construcción con of.",
+  "por_que_importa": "Se usan en casi cualquier conversación: familia, objetos, trabajo. Confundir his y her cambia el sentido de la frase (de quién es la madre) y es uno de los errores más visibles del hispanohablante. El genitivo sajón es la forma natural de decir «de» con personas; «the car of Peter» se entiende, pero suena claramente extranjero.",
+  "cuando_se_usa": "Cuando hablamos de lo que pertenece a alguien o de relaciones (my sister, her boss, Peter's car). La señal es el poseedor: si es un hombre, his; si es una mujer, her; si es una cosa o un animal, its. Donde el español diría «el coche de Pedro», el inglés prefiere Peter's car; con cosas se mantiene of (the end of the film)."
  }
 }

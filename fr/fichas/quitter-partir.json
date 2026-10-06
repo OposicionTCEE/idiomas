@@ -6,50 +6,514 @@
  "nivel": "A2",
  "resumen": "Partir y sortir no llevan complemento directo (se construyen con preposición) y forman el passé composé con être; quitter y laisser llevan complemento directo y usan avoir. Partir es irse con un destino, sortir es salir de un lugar cerrado o salir de ocio, quitter es dejar un lugar o a una persona y laisser es dejar algo o a alguien en un sitio, o dejar hacer.",
  "explicacion": [
-  {"tipo": "tabla", "cabecera": ["Verbo", "Sentido", "Construcción", "Ejemplo"], "filas": [
-   ["partir", "irse, marcharse (con un destino)", "partir pour / à / en + destino; partir de + origen", "Je pars pour Lyon demain."],
-   ["sortir", "salir de un espacio cerrado; salir de fiesta; salir con alguien", "sortir de + lugar; sortir avec quelqu'un", "Il sort du cinéma. Tom sort avec Mary."],
-   ["quitter", "dejar, abandonar un lugar o a una persona", "quitter + complemento directo", "Elle quitte la maison à 8 h."],
-   ["laisser", "dejar algo o a alguien en un sitio; permitir", "laisser + complemento directo; laisser + infinitivo", "J'ai laissé mes clés ici. Laisse-moi entrer."]
-  ]},
-  {"tipo": "texto", "texto": "La clave es si hay complemento directo. «Salgo de casa a las ocho» puede decirse Je sors de la maison o Je quitte la maison, pero nunca «je quitte à huit heures» sin complemento: si no hay lugar ni persona, se dice Je pars à huit heures."},
-  {"tipo": "lista", "items": [
-   "Passé composé: je suis parti(e), je suis sorti(e) con être y concordancia; j'ai quitté, j'ai laissé con avoir.",
-   "Sortir con complemento directo significa sacar y usa avoir: J'ai sorti la poubelle (he sacado la basura).",
-   "Expresiones: Ne quittez pas ! (no cuelgue, al teléfono); laisser tomber (dejar caer, abandonar); Laisse-moi tranquille (déjame en paz).",
-   "Presente: je pars, tu pars, il part, nous partons, vous partez, ils partent; sortir sigue el mismo modelo (je sors, nous sortons)."
-  ]}
+  {
+   "tipo": "tabla",
+   "cabecera": [
+    "Verbo",
+    "Sentido",
+    "Construcción",
+    "Ejemplo"
+   ],
+   "filas": [
+    [
+     "partir",
+     "irse, marcharse (con un destino)",
+     "partir pour / à / en + destino; partir de + origen",
+     "Je pars pour Lyon demain."
+    ],
+    [
+     "sortir",
+     "salir de un espacio cerrado; salir de fiesta; salir con alguien",
+     "sortir de + lugar; sortir avec quelqu'un",
+     "Il sort du cinéma. Tom sort avec Mary."
+    ],
+    [
+     "quitter",
+     "dejar, abandonar un lugar o a una persona",
+     "quitter + complemento directo",
+     "Elle quitte la maison à 8 h."
+    ],
+    [
+     "laisser",
+     "dejar algo o a alguien en un sitio; permitir",
+     "laisser + complemento directo; laisser + infinitivo",
+     "J'ai laissé mes clés ici. Laisse-moi entrer."
+    ]
+   ]
+  },
+  {
+   "tipo": "texto",
+   "texto": "La clave es si hay complemento directo. «Salgo de casa a las ocho» puede decirse Je sors de la maison o Je quitte la maison, pero nunca «je quitte à huit heures» sin complemento: si no hay lugar ni persona, se dice Je pars à huit heures."
+  },
+  {
+   "tipo": "lista",
+   "items": [
+    "Passé composé: je suis parti(e), je suis sorti(e) con être y concordancia; j'ai quitté, j'ai laissé con avoir.",
+    "Sortir con complemento directo significa sacar y usa avoir: J'ai sorti la poubelle (he sacado la basura).",
+    "Expresiones: Ne quittez pas ! (no cuelgue, al teléfono); laisser tomber (dejar caer, abandonar); Laisse-moi tranquille (déjame en paz).",
+    "Presente: je pars, tu pars, il part, nous partons, vous partez, ils partent; sortir sigue el mismo modelo (je sors, nous sortons)."
+   ]
+  }
  ],
  "ejemplos": [
-  {"frase": "Tu pars déjà ?", "traduccion": "¿Ya te vas?"},
-  {"frase": "Je sors du cinéma.", "traduccion": "Salgo del cine."},
-  {"frase": "Il a quitté sa famille.", "traduccion": "Dejó a su familia."},
-  {"frase": "Ne les laisse pas seuls.", "traduccion": "No los dejes solos."},
-  {"frase": "Je pars au travail à huit heures.", "traduccion": "Me voy al trabajo a las ocho."},
-  {"frase": "Les enfants laissent leurs jouets partout.", "traduccion": "Los niños dejan sus juguetes por todas partes."}
+  {
+   "frase": "Tu pars déjà ?",
+   "traduccion": "¿Ya te vas?"
+  },
+  {
+   "frase": "Je sors du cinéma.",
+   "traduccion": "Salgo del cine."
+  },
+  {
+   "frase": "Il a quitté sa famille.",
+   "traduccion": "Dejó a su familia."
+  },
+  {
+   "frase": "Ne les laisse pas seuls.",
+   "traduccion": "No los dejes solos."
+  },
+  {
+   "frase": "Je pars au travail à huit heures.",
+   "traduccion": "Me voy al trabajo a las ocho."
+  },
+  {
+   "frase": "Les enfants laissent leurs jouets partout.",
+   "traduccion": "Los niños dejan sus juguetes por todas partes."
+  }
  ],
  "errores_hispanohablantes": [
-  {"mal": "Je quitte à huit heures.", "bien": "Je pars à huit heures.", "nota": "Quitter necesita complemento directo; sin él, se usa partir."},
-  {"mal": "J'ai quitté mes lunettes sur la table.", "bien": "J'ai laissé mes lunettes sur la table.", "nota": "Dejar algo en un sitio es laisser."},
-  {"mal": "J'ai sorti avec mes amis hier.", "bien": "Je suis sorti avec mes amis hier.", "nota": "Sortir sin complemento directo forma el passé composé con être."}
+  {
+   "mal": "Je quitte à huit heures.",
+   "bien": "Je pars à huit heures.",
+   "nota": "Quitter necesita complemento directo; sin él, se usa partir."
+  },
+  {
+   "mal": "J'ai quitté mes lunettes sur la table.",
+   "bien": "J'ai laissé mes lunettes sur la table.",
+   "nota": "Dejar algo en un sitio es laisser."
+  },
+  {
+   "mal": "J'ai sorti avec mes amis hier.",
+   "bien": "Je suis sorti avec mes amis hier.",
+   "nota": "Sortir sin complemento directo forma el passé composé con être."
+  }
  ],
  "ejercicios": [
-  {"id": "e01", "tipo": "eleccion", "enunciado": "Elige el verbo adecuado (¿ya te vas?).", "frase": "Tu ___ déjà ?", "opciones": ["pars", "quittes", "laisses"], "respuestas": ["pars"], "explicacion": "Irse sin complemento directo: partir.", "origen": "tatoeba:1531818"},
-  {"id": "e02", "tipo": "eleccion", "enunciado": "Elige el verbo adecuado.", "frase": "Il a ___ sa famille.", "opciones": ["quitté", "parti", "sorti"], "respuestas": ["quitté"], "explicacion": "Dejar a una persona (complemento directo): quitter, con avoir.", "origen": "tatoeba:1317083"},
-  {"id": "e03", "tipo": "eleccion", "enunciado": "Elige el verbo adecuado (¡no me dejes!).", "frase": "Ne me ___ pas !", "opciones": ["quitte", "pars", "sors"], "respuestas": ["quitte"], "explicacion": "Me es complemento directo: solo quitter lo admite.", "origen": "tatoeba:1725200"},
-  {"id": "e04", "tipo": "eleccion", "enunciado": "Elige el verbo adecuado.", "frase": "Je ___ entrer le chat.", "opciones": ["laisse", "quitte", "sors"], "respuestas": ["laisse"], "explicacion": "Dejar hacer algo: laisser + infinitivo.", "origen": "tatoeba:1257237"},
-  {"id": "e05", "tipo": "hueco", "enunciado": "Completa con partir, sortir, quitter o laisser en presente.", "frase": "Je ___ du cinéma.", "respuestas": ["sors"], "explicacion": "Salir de un lugar cerrado: sortir de.", "origen": "tatoeba:728383"},
-  {"id": "e06", "tipo": "hueco", "enunciado": "Completa con partir, sortir, quitter o laisser en presente.", "frase": "Je ___ pour Lyon dans une heure.", "respuestas": ["pars"], "explicacion": "Irse (sin complemento): partir; je pars.", "origen": "tatoeba:553771"},
-  {"id": "e07", "tipo": "hueco", "enunciado": "Completa con partir, sortir, quitter o laisser en presente.", "frase": "Tom ___ avec Mary.", "respuestas": ["sort"], "explicacion": "Salir con alguien (relación): sortir avec.", "origen": "tatoeba:7696110"},
-  {"id": "e08", "tipo": "hueco", "enunciado": "Completa con el infinitivo adecuado (dejar la ciudad).", "frase": "Tu dois ___ Boston.", "respuestas": ["quitter"], "explicacion": "Dejar un lugar (complemento directo): quitter.", "origen": "tatoeba:7128341"},
-  {"id": "e09", "tipo": "hueco", "enunciado": "Completa con el participio adecuado.", "frase": "J'ai ___ mes clés dans la voiture.", "respuestas": ["laissé"], "explicacion": "Dejar algo en un sitio: laisser."},
-  {"id": "e10", "tipo": "hueco", "enunciado": "Completa con el participio de partir.", "frase": "Elle est ___ pour Madrid hier soir.", "respuestas": ["partie"], "explicacion": "Partir va con être y el participio concuerda con elle: partie."},
-  {"id": "e11", "tipo": "corregir", "enunciado": "Corrige el error.", "frase": "Je quitte à huit heures.", "respuestas": ["Je pars à huit heures."], "explicacion": "Sin complemento directo no se puede usar quitter: partir."},
-  {"id": "e12", "tipo": "corregir", "enunciado": "Corrige el error.", "frase": "Il est sorti la maison sans parler.", "respuestas": ["Il est sorti de la maison sans parler.", "Il a quitté la maison sans parler."], "explicacion": "Sortir necesita de antes del lugar (o bien quitter + complemento directo)."},
-  {"id": "e13", "tipo": "corregir", "enunciado": "Corrige el error.", "frase": "J'ai parti hier.", "respuestas": ["Je suis parti hier.", "Je suis partie hier."], "explicacion": "Partir forma el passé composé con être."},
-  {"id": "e14", "tipo": "transformar", "enunciado": "Pasa la frase al passé composé.", "frase": "Elle quitte son travail.", "respuestas": ["Elle a quitté son travail."], "explicacion": "Quitter es transitivo: auxiliar avoir."},
-  {"id": "e15", "tipo": "transformar", "enunciado": "Pasa la frase al passé composé (hablan dos hombres).", "frase": "Nous sortons du bureau.", "respuestas": ["Nous sommes sortis du bureau."], "explicacion": "Sortir de + lugar: auxiliar être y concordancia en plural."},
-  {"id": "e16", "tipo": "ordenar", "enunciado": "Ordena las palabras (no salgo mucho).", "palabras": ["ne", "beaucoup", "pas", "Je", "sors"], "respuestas": ["Je ne sors pas beaucoup"], "explicacion": "Sortir sin complemento = salir (de ocio).", "origen": "tatoeba:2421288"}
+  {
+   "id": "e01",
+   "tipo": "eleccion",
+   "enunciado": "Elige el verbo adecuado (¿ya te vas?).",
+   "frase": "Tu ___ déjà ?",
+   "opciones": [
+    "pars",
+    "quittes",
+    "laisses"
+   ],
+   "respuestas": [
+    "pars"
+   ],
+   "explicacion": "La tabla de la ficha indica que partir significa irse o marcharse y no lleva complemento directo. En la frase no hay lugar ni persona tras el verbo, solo el adverbio déjà, así que el único verbo posible es partir: «tu pars». La pista es precisamente la falta de complemento.",
+   "origen": "tatoeba:1531818",
+   "explicacion_breve": "Irse sin complemento directo: partir.",
+   "traduccion": "¿Ya te vas?",
+   "por_opcion": {
+    "pars": "Correcta: partir es irse y funciona sin complemento directo; con tu, «tu pars».",
+    "quittes": "Incorrecta: quitter exige complemento directo («tu quittes la fête ?»); sin él la frase está incompleta.",
+    "laisses": "Incorrecta: laisser significa dejar algo o a alguien, o dejar hacer; también necesita complemento."
+   }
+  },
+  {
+   "id": "e02",
+   "tipo": "eleccion",
+   "enunciado": "Elige el verbo adecuado.",
+   "frase": "Il a ___ sa famille.",
+   "opciones": [
+    "quitté",
+    "parti",
+    "sorti"
+   ],
+   "respuestas": [
+    "quitté"
+   ],
+   "explicacion": "La tabla de la ficha indica que quitter es dejar o abandonar a una persona o un lugar y lleva complemento directo. «Sa famille» es ese complemento directo, y además el auxiliar avoir de la frase («Il a») confirma un verbo transitivo. Por eso la forma es «quitté».",
+   "origen": "tatoeba:1317083",
+   "explicacion_breve": "Dejar a una persona (complemento directo): quitter, con avoir.",
+   "traduccion": "Dejó a su familia.",
+   "por_opcion": {
+    "quitté": "Correcta: quitter + complemento directo de persona, con auxiliar avoir.",
+    "parti": "Incorrecta: partir no lleva complemento directo y forma el passé composé con être («il est parti»).",
+    "sorti": "Incorrecta: sortir con este sentido iría con être y con de («il est sorti de…»); «il a sorti» significaría «ha sacado»."
+   }
+  },
+  {
+   "id": "e03",
+   "tipo": "eleccion",
+   "enunciado": "Elige el verbo adecuado (¡no me dejes!).",
+   "frase": "Ne me ___ pas !",
+   "opciones": [
+    "quitte",
+    "pars",
+    "sors"
+   ],
+   "respuestas": [
+    "quitte"
+   ],
+   "explicacion": "Me es aquí un complemento directo de persona: «no me abandones». De los tres verbos, solo quitter admite complemento directo, como explica la ficha. La forma es el imperativo negativo de tu, «ne me quitte pas», sin -s final como todos los verbos en -er en imperativo. Es además el título de una canción muy famosa de Jacques Brel.",
+   "origen": "tatoeba:1725200",
+   "explicacion_breve": "Me es complemento directo: solo quitter lo admite.",
+   "traduccion": "¡No me dejes!",
+   "por_opcion": {
+    "quitte": "Correcta: quitter admite complemento directo de persona (me) y significa dejar, abandonar.",
+    "pars": "Incorrecta: partir no lleva complemento directo; «ne me pars pas» no existe.",
+    "sors": "Incorrecta: sortir con este sentido no lleva complemento directo; tampoco expresa abandonar a alguien."
+   }
+  },
+  {
+   "id": "e04",
+   "tipo": "eleccion",
+   "enunciado": "Elige el verbo adecuado.",
+   "frase": "Je ___ entrer le chat.",
+   "opciones": [
+    "laisse",
+    "quitte",
+    "sors"
+   ],
+   "respuestas": [
+    "laisse"
+   ],
+   "explicacion": "La tabla de la ficha recoge laisser + infinitivo con el sentido de permitir, dejar hacer. «Dejar entrar al gato» es exactamente eso. La pista es el infinitivo «entrer» que sigue al hueco. Quitter y sortir no se construyen con infinitivo en este sentido.",
+   "origen": "tatoeba:1257237",
+   "explicacion_breve": "Dejar hacer algo: laisser + infinitivo.",
+   "traduccion": "Dejo entrar al gato.",
+   "por_opcion": {
+    "laisse": "Correcta: laisser + infinitivo significa dejar hacer algo, permitir.",
+    "quitte": "Incorrecta: quitter es abandonar un lugar o a alguien; no admite un infinitivo detrás.",
+    "sors": "Incorrecta: sortir es salir; «je sors entrer» no tiene sentido. «Je sors le chat» significaría «saco al gato»."
+   }
+  },
+  {
+   "id": "e05",
+   "tipo": "hueco",
+   "enunciado": "Completa con partir, sortir, quitter o laisser en presente.",
+   "frase": "Je ___ du cinéma.",
+   "respuestas": [
+    "sors"
+   ],
+   "explicacion": "Según la tabla de la ficha, sortir de + lugar significa salir de un espacio cerrado. La pista es «du cinéma» (de + le), que indica el lugar del que se sale. Sortir se conjuga como partir: je sors, sin la t de la raíz en singular.",
+   "origen": "tatoeba:728383",
+   "explicacion_breve": "Salir de un lugar cerrado: sortir de.",
+   "traduccion": "Salgo del cine.",
+   "errores_previstos": [
+    {
+     "respuesta": "quitte",
+     "explicacion": "Quitter no lleva de: «je quitte le cinéma». Con «du cinéma» el verbo es sortir."
+    },
+    {
+     "respuesta": "sort",
+     "explicacion": "Es la forma de il; con je es «sors»."
+    },
+    {
+     "respuesta": "salis",
+     "explicacion": "Calco del español «salir»; en francés el verbo es sortir: «je sors»."
+    }
+   ]
+  },
+  {
+   "id": "e06",
+   "tipo": "hueco",
+   "enunciado": "Completa con partir, sortir, quitter o laisser en presente.",
+   "frase": "Je ___ pour Lyon dans une heure.",
+   "respuestas": [
+    "pars"
+   ],
+   "explicacion": "La tabla indica que partir pour + destino es irse hacia un lugar. La pista es «pour Lyon», que marca el destino, y la ausencia de complemento directo. Con je, partir pierde la t en singular: «je pars». Quitter aquí no funcionaría, porque no hay lugar que se abandone como complemento directo.",
+   "origen": "tatoeba:553771",
+   "explicacion_breve": "Irse (sin complemento): partir; je pars.",
+   "traduccion": "Me voy a Lyon dentro de una hora.",
+   "errores_previstos": [
+    {
+     "respuesta": "quitte",
+     "explicacion": "Quitter necesita complemento directo; con «pour Lyon» (destino) se usa partir."
+    },
+    {
+     "respuesta": "part",
+     "explicacion": "Es la forma de il; con je es «pars»."
+    }
+   ]
+  },
+  {
+   "id": "e07",
+   "tipo": "hueco",
+   "enunciado": "Completa con partir, sortir, quitter o laisser en presente.",
+   "frase": "Tom ___ avec Mary.",
+   "respuestas": [
+    "sort"
+   ],
+   "explicacion": "La tabla recoge «sortir avec quelqu'un» con el sentido de salir con alguien, tener una relación. La pista es la preposición avec seguida de una persona. Con el sujeto Tom (il), la forma de sortir es «sort», con la t final.",
+   "origen": "tatoeba:7696110",
+   "explicacion_breve": "Salir con alguien (relación): sortir avec.",
+   "traduccion": "Tom sale con Mary.",
+   "errores_previstos": [
+    {
+     "respuesta": "sors",
+     "explicacion": "Es la forma de je y tu; con Tom (il) es «sort»."
+    },
+    {
+     "respuesta": "part",
+     "explicacion": "«Partir avec Mary» significaría irse de viaje o marcharse con ella, no tener una relación."
+    }
+   ]
+  },
+  {
+   "id": "e08",
+   "tipo": "hueco",
+   "enunciado": "Completa con el infinitivo adecuado (dejar la ciudad).",
+   "frase": "Tu dois ___ Boston.",
+   "respuestas": [
+    "quitter"
+   ],
+   "explicacion": "Según la tabla, quitter + complemento directo es dejar un lugar. «Boston» es el complemento directo, sin preposición, así que el verbo es quitter. Al ir detrás de devoir, va en infinitivo. La pista es el lugar sin preposición tras el hueco.",
+   "origen": "tatoeba:7128341",
+   "explicacion_breve": "Dejar un lugar (complemento directo): quitter.",
+   "traduccion": "Tienes que dejar Boston.",
+   "errores_previstos": [
+    {
+     "respuesta": "partir",
+     "explicacion": "Partir no lleva complemento directo; habría que decir «partir de Boston». Sin preposición se usa quitter."
+    },
+    {
+     "respuesta": "laisser",
+     "explicacion": "Laisser es dejar algo en un sitio o dejar hacer; para abandonar una ciudad se usa quitter."
+    },
+    {
+     "respuesta": "sortir",
+     "explicacion": "Sortir es salir de un espacio cerrado y llevaría de; no se usa para irse de una ciudad."
+    }
+   ]
+  },
+  {
+   "id": "e09",
+   "tipo": "hueco",
+   "enunciado": "Completa con el participio adecuado.",
+   "frase": "J'ai ___ mes clés dans la voiture.",
+   "respuestas": [
+    "laissé"
+   ],
+   "explicacion": "La tabla indica que laisser es dejar algo o a alguien en un sitio. Aquí se dejan las llaves dentro del coche, así que el verbo es laisser, con avoir y participio «laissé». Es justo el error típico de la ficha: usar quitter, que significaría abandonar, en lugar de laisser.",
+   "explicacion_breve": "Dejar algo en un sitio: laisser.",
+   "traduccion": "He dejado las llaves en el coche.",
+   "errores_previstos": [
+    {
+     "respuesta": "quitté",
+     "explicacion": "Es el error típico de la ficha: dejar algo en un sitio es laisser; quitter es abandonar un lugar o a una persona."
+    },
+    {
+     "respuesta": "laissées",
+     "explicacion": "Con avoir, el participio no concuerda con un complemento directo que va detrás: «j'ai laissé mes clés»."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "les clés",
+     "significado": "las llaves"
+    }
+   ]
+  },
+  {
+   "id": "e10",
+   "tipo": "hueco",
+   "enunciado": "Completa con el participio de partir.",
+   "frase": "Elle est ___ pour Madrid hier soir.",
+   "respuestas": [
+    "partie"
+   ],
+   "explicacion": "La ficha indica que partir forma el passé composé con être y que el participio concuerda con el sujeto. El sujeto es elle, femenino singular, así que «partie». La pista es el auxiliar «est» ya escrito y el pronombre elle.",
+   "explicacion_breve": "Partir va con être y el participio concuerda con elle: partie.",
+   "traduccion": "Se fue a Madrid anoche.",
+   "errores_previstos": [
+    {
+     "respuesta": "parti",
+     "explicacion": "Con être el participio concuerda con el sujeto: elle, así que «partie»."
+    },
+    {
+     "respuesta": "partée",
+     "explicacion": "El participio de partir es «parti», no se forma con -é; en femenino, «partie»."
+    }
+   ]
+  },
+  {
+   "id": "e11",
+   "tipo": "corregir",
+   "enunciado": "Corrige el error.",
+   "frase": "Je quitte à huit heures.",
+   "respuestas": [
+    "Je pars à huit heures."
+   ],
+   "explicacion": "Es el primer error típico de la ficha: quitter necesita complemento directo, y aquí solo hay una hora. Sin lugar ni persona, «irse» se dice partir: «je pars à huit heures». Otra opción sería añadir el complemento («je quitte la maison à huit heures»), pero la corrección esperada cambia el verbo.",
+   "explicacion_breve": "Sin complemento directo no se puede usar quitter: partir.",
+   "traduccion": "Me voy a las ocho.",
+   "errores_previstos": [
+    {
+     "respuesta": "Je quitte à huit heures.",
+     "explicacion": "Es dejar la frase sin corregir: quitter no puede ir sin complemento directo."
+    },
+    {
+     "respuesta": "Je part à huit heures.",
+     "explicacion": "El verbo es el correcto, pero con je la forma es «pars», con -s."
+    },
+    {
+     "respuesta": "Je sors à huit heures.",
+     "explicacion": "Sortir sin complemento sugiere salir de ocio o salir a la calle; para «me voy» la ficha propone partir."
+    }
+   ]
+  },
+  {
+   "id": "e12",
+   "tipo": "corregir",
+   "enunciado": "Corrige el error.",
+   "frase": "Il est sorti la maison sans parler.",
+   "respuestas": [
+    "Il est sorti de la maison sans parler.",
+    "Il a quitté la maison sans parler."
+   ],
+   "explicacion": "La tabla indica que sortir se construye con de + lugar: falta la preposición, «sortir de la maison». La otra opción, también aceptada, es cambiar a quitter, que sí lleva complemento directo pero exige el auxiliar avoir: «il a quitté la maison». Las dos correcciones expresan el mismo hecho.",
+   "explicacion_breve": "Sortir necesita de antes del lugar (o bien quitter + complemento directo).",
+   "traduccion": "Salió de la casa sin hablar.",
+   "errores_previstos": [
+    {
+     "respuesta": "Il est sorti la maison sans parler.",
+     "explicacion": "Es dejar la frase sin corregir: sortir necesita de antes del lugar."
+    },
+    {
+     "respuesta": "Il est quitté la maison sans parler.",
+     "explicacion": "Quitter es transitivo y forma el passé composé con avoir: «il a quitté»."
+    },
+    {
+     "respuesta": "Il a sorti la maison sans parler.",
+     "explicacion": "Sortir con avoir y complemento directo significa «sacar»: «ha sacado la casa» no tiene sentido."
+    }
+   ]
+  },
+  {
+   "id": "e13",
+   "tipo": "corregir",
+   "enunciado": "Corrige el error.",
+   "frase": "J'ai parti hier.",
+   "respuestas": [
+    "Je suis parti hier.",
+    "Je suis partie hier."
+   ],
+   "explicacion": "La ficha indica que partir forma el passé composé con être, como los verbos de movimiento sin complemento directo. Por eso «je suis parti», con el participio concordado con el sujeto: parti si habla un hombre, partie si habla una mujer. Ambas respuestas son correctas porque je no indica género.",
+   "explicacion_breve": "Partir forma el passé composé con être.",
+   "traduccion": "Me fui ayer.",
+   "errores_previstos": [
+    {
+     "respuesta": "J'ai parti hier.",
+     "explicacion": "Es dejar la frase sin corregir: partir lleva auxiliar être."
+    },
+    {
+     "respuesta": "Je suis partis hier.",
+     "explicacion": "Con je el participio va en singular: parti o partie."
+    }
+   ]
+  },
+  {
+   "id": "e14",
+   "tipo": "transformar",
+   "enunciado": "Pasa la frase al passé composé.",
+   "frase": "Elle quitte son travail.",
+   "respuestas": [
+    "Elle a quitté son travail."
+   ],
+   "explicacion": "Quitter es transitivo (lleva complemento directo, «son travail»), así que la ficha indica que su passé composé se forma con avoir: «elle a quitté». Con avoir el participio no concuerda con el sujeto, de modo que no se añade -e. La pista es el complemento directo tras el verbo.",
+   "explicacion_breve": "Quitter es transitivo: auxiliar avoir.",
+   "traduccion": "Ha dejado su trabajo.",
+   "errores_previstos": [
+    {
+     "respuesta": "Elle est quittée son travail.",
+     "explicacion": "Quitter lleva auxiliar avoir y el participio no concuerda con el sujeto: «elle a quitté»."
+    },
+    {
+     "respuesta": "Elle a quittée son travail.",
+     "explicacion": "Con avoir el participio no concuerda con el sujeto: «quitté», sin -e."
+    }
+   ]
+  },
+  {
+   "id": "e15",
+   "tipo": "transformar",
+   "enunciado": "Pasa la frase al passé composé (hablan dos hombres).",
+   "frase": "Nous sortons du bureau.",
+   "respuestas": [
+    "Nous sommes sortis du bureau."
+   ],
+   "explicacion": "Sortir de + lugar, sin complemento directo, forma el passé composé con être, como indica la ficha. El participio concuerda con el sujeto nous, que el enunciado dice que son dos hombres: masculino plural, «sortis». La pista es la preposición de («du bureau») y la indicación del género.",
+   "explicacion_breve": "Sortir de + lugar: auxiliar être y concordancia en plural.",
+   "traduccion": "Hemos salido de la oficina.",
+   "errores_previstos": [
+    {
+     "respuesta": "Nous avons sorti du bureau.",
+     "explicacion": "Sortir de + lugar va con être: «nous sommes sortis»."
+    },
+    {
+     "respuesta": "Nous sommes sorti du bureau.",
+     "explicacion": "Falta la concordancia: con nous (dos hombres) el participio va en plural, «sortis»."
+    },
+    {
+     "respuesta": "Nous sommes sorties du bureau.",
+     "explicacion": "El enunciado indica que hablan dos hombres: masculino plural, «sortis»."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "le bureau",
+     "significado": "la oficina; también el escritorio"
+    }
+   ]
+  },
+  {
+   "id": "e16",
+   "tipo": "ordenar",
+   "enunciado": "Ordena las palabras (no salgo mucho).",
+   "palabras": [
+    "ne",
+    "beaucoup",
+    "pas",
+    "Je",
+    "sors"
+   ],
+   "respuestas": [
+    "Je ne sors pas beaucoup"
+   ],
+   "explicacion": "Sortir sin complemento significa salir de ocio, como recoge la tabla. El orden de la negación es sujeto, ne, verbo, pas y después el adverbio: «Je ne sors pas beaucoup». La pista es que beaucoup va detrás de pas, porque pas se pega al verbo conjugado.",
+   "origen": "tatoeba:2421288",
+   "explicacion_breve": "Sortir sin complemento = salir (de ocio).",
+   "traduccion": "No salgo mucho.",
+   "errores_previstos": [
+    {
+     "respuesta": "Je ne sors beaucoup pas",
+     "explicacion": "Pas va inmediatamente detrás del verbo conjugado, antes del adverbio beaucoup."
+    },
+    {
+     "respuesta": "Je ne pas sors beaucoup",
+     "explicacion": "Con un verbo conjugado, ne va delante y pas detrás: «je ne sors pas»."
+    }
+   ]
+  }
  ],
- "fuente": {"nombre": "Tex's French Grammar", "autores": "COERLL, Universidad de Texas en Austin", "licencia": "CC BY 3.0", "url": "https://laits.utexas.edu/tex/gr/vl1.html", "otras": ["Frases de Tatoeba (CC BY 2.0 FR)"]}
+ "fuente": {
+  "nombre": "Tex's French Grammar",
+  "autores": "COERLL, Universidad de Texas en Austin",
+  "licencia": "CC BY 3.0",
+  "url": "https://laits.utexas.edu/tex/gr/vl1.html",
+  "otras": [
+   "Frases de Tatoeba (CC BY 2.0 FR)"
+  ]
+ },
+ "descripcion_larga_es": "Cuatro verbos que el español resume en «irse», «salir» y «dejar»: partir (irse hacia un destino), sortir (salir de un lugar cerrado o de ocio), quitter (dejar un lugar o a una persona, siempre con complemento directo) y laisser (dejar algo en un sitio o dejar hacer). La clave es si hay complemento directo, que además decide el auxiliar del passé composé: être o avoir.",
+ "contexto": {
+  "que_es": "Es la distinción entre cuatro verbos de movimiento o abandono. Partir significa irse o marcharse, con un destino (partir pour Lyon). Sortir es salir de un espacio cerrado, salir de fiesta o salir con alguien. Quitter es dejar un lugar o a una persona y exige complemento directo. Laisser es dejar algo o a alguien en un sitio, o permitir algo (laisser entrer).",
+  "por_que_importa": "Son verbos de uso diario y el español no los distingue: «dejar» puede ser quitter o laisser, y «salir» puede ser sortir o quitter. Elegir mal produce frases agramaticales («je quitte à huit heures») o con otro sentido («j'ai quitté mes clés» suena a abandonarlas para siempre). El error de auxiliar («j'ai parti») es además de los más penalizados en un examen.",
+  "cuando_se_usa": "Partir se usa para salidas de viaje o del lugar donde se está, sin complemento directo. Sortir, para salir de un edificio (sortir de) o para el ocio. Quitter, cuando hay un lugar o una persona como complemento directo. Laisser, cuando se deja un objeto en un sitio o se permite algo. La señal es la presencia o ausencia de complemento directo; el hispanohablante tiende a usar quitter para cualquier «irse» y quitter en lugar de laisser."
+ }
 }

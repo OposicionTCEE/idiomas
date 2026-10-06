@@ -206,7 +206,33 @@
    "respuestas": [
     "au"
    ],
-   "explicacion": "Dos es masculino: au dos."
+   "explicacion": "Se aplica la estructura de Reglas y claves: el dolor se expresa con «avoir mal à» + artículo + parte del cuerpo, con las contracciones habituales. «Dos» (espalda) es masculino singular: «le dos». La preposición «à» se contrae con «le» y da «au»: «j'ai mal au dos». Ojo con el género, que no coincide con el español: la espalda es femenina, pero «le dos» es masculino.",
+   "explicacion_breve": "Dos es masculino: au dos.",
+   "traduccion": "Me duele la espalda.",
+   "errores_previstos": [
+    {
+     "respuesta": "à la",
+     "explicacion": "Calco del género español (la espalda): «dos» es masculino, así que à + le = au."
+    },
+    {
+     "respuesta": "à le",
+     "explicacion": "La preposición «à» y el artículo «le» se contraen obligatoriamente en «au»."
+    },
+    {
+     "respuesta": "aux",
+     "explicacion": "«Aux» es para el plural; «le dos» es singular."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "avoir mal à",
+     "significado": "doler (j'ai mal à = me duele)"
+    },
+    {
+     "palabra": "le dos",
+     "significado": "la espalda"
+    }
+   ]
   },
   {
    "id": "e02",
@@ -216,7 +242,29 @@
    "respuestas": [
     "aux"
    ],
-   "explicacion": "Plural: aux dents."
+   "explicacion": "La estructura es «avoir mal à» + artículo + parte del cuerpo. «Les dents» es plural, y «à» + «les» se contrae en «aux»: «elle a mal aux dents». Es una de las contracciones que recoge Reglas y claves.",
+   "explicacion_breve": "Plural: aux dents.",
+   "traduccion": "Le duelen los dientes.",
+   "errores_previstos": [
+    {
+     "respuesta": "à les",
+     "explicacion": "«À» + «les» se contraen siempre en «aux»."
+    },
+    {
+     "respuesta": "à la",
+     "explicacion": "«Dents» está en plural (les dents), así que la forma es «aux»."
+    },
+    {
+     "respuesta": "au",
+     "explicacion": "«Au» es la contracción con el masculino singular; con plural es «aux»."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "les dents",
+     "significado": "los dientes (une dent es femenino)"
+    }
+   ]
   },
   {
    "id": "e03",
@@ -226,7 +274,29 @@
    "respuestas": [
     "à l'"
    ],
-   "explicacion": "Ante vocal: à l'oreille."
+   "explicacion": "«Oreille» empieza por vocal, de modo que el artículo se elide: «l'oreille». Con «à» no hay contracción, sino «à l'». Por eso la estructura «avoir mal à» da «tu as mal à l'oreille». En francés «avoir mal à l'oreille» es la forma habitual de decir «me duele el oído», aunque «oreille» sea literalmente la oreja.",
+   "explicacion_breve": "Ante vocal: à l'oreille.",
+   "traduccion": "¿Te duele el oído?",
+   "errores_previstos": [
+    {
+     "respuesta": "à la",
+     "explicacion": "Ante una vocal el artículo se elide: no «à la oreille», sino «à l'oreille»."
+    },
+    {
+     "respuesta": "au",
+     "explicacion": "«Oreille» es femenino y empieza por vocal: la forma es «à l'»."
+    },
+    {
+     "respuesta": "aux",
+     "explicacion": "Sería correcto con el plural (aux oreilles), pero aquí «oreille» está en singular."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "l'oreille",
+     "significado": "la oreja; el oído"
+    }
+   ]
   },
   {
    "id": "e04",
@@ -236,7 +306,37 @@
    "respuestas": [
     "ordonnance"
    ],
-   "explicacion": "La receta médica es une ordonnance."
+   "explicacion": "La segunda tabla de Reglas y claves da «une ordonnance» como la receta médica, y la lista de errores advierte que «recette» es solo la receta de cocina. El contexto (farmacéutico, medicamento) no deja dudas: se trata del documento firmado por el médico. Tras «sans» no hace falta artículo.",
+   "explicacion_breve": "La receta médica es une ordonnance.",
+   "traduccion": "Sin receta, el farmacéutico no puede darle este medicamento.",
+   "errores_previstos": [
+    {
+     "respuesta": "recette",
+     "explicacion": "Falso amigo: «une recette» es una receta de cocina (o la recaudación de un negocio); la receta médica es «une ordonnance»."
+    },
+    {
+     "respuesta": "une ordonnance",
+     "explicacion": "Tras «sans» en sentido general no se pone artículo: sans ordonnance."
+    },
+    {
+     "respuesta": "ordonance",
+     "explicacion": "Error de escritura: se escribe con dos n, «ordonnance»."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "une ordonnance",
+     "significado": "una receta médica"
+    },
+    {
+     "palabra": "le pharmacien",
+     "significado": "el farmacéutico"
+    },
+    {
+     "palabra": "un médicament",
+     "significado": "un medicamento"
+    }
+   ]
   },
   {
    "id": "e05",
@@ -251,7 +351,32 @@
    "respuestas": [
     "enrhumé"
    ],
-   "explicacion": "Resfriado = enrhumé; constipé es estreñido y embarrassé, incómodo."
+   "explicacion": "La pista es «j'ai le nez qui coule» (me gotea la nariz), síntoma típico del resfriado. Según la tabla de expresiones de Reglas y claves, «estar resfriado» es «être enrhumé». La lista de la ficha advierte del falso amigo «constipé», que significa estreñido, y del parecido engañoso de «embarrassé» con «embarazada».",
+   "explicacion_breve": "Resfriado = enrhumé; constipé es estreñido y embarrassé, incómodo.",
+   "traduccion": "Me gotea la nariz, estoy resfriado.",
+   "por_opcion": {
+    "enrhumé": "Correcta: «resfriado», de «un rhume» (resfriado).",
+    "constipé": "Incorrecta: falso amigo, significa «estreñido». Se usaría en una consulta por problemas digestivos.",
+    "embarrassé": "Incorrecta: significa «incómodo, apurado» (también «cargado de cosas»); no tiene que ver con la salud ni con «embarazada», que es «enceinte»."
+   },
+   "glosario": [
+    {
+     "palabra": "enrhumé",
+     "significado": "resfriado"
+    },
+    {
+     "palabra": "constipé",
+     "significado": "estreñido"
+    },
+    {
+     "palabra": "embarrassé",
+     "significado": "incómodo, en un apuro"
+    },
+    {
+     "palabra": "avoir le nez qui coule",
+     "significado": "tener mocos, gotearle a uno la nariz"
+    }
+   ]
   },
   {
    "id": "e06",
@@ -266,7 +391,24 @@
    "respuestas": [
     "la"
    ],
-   "explicacion": "Con verbo pronominal y parte del cuerpo se usa el artículo."
+   "explicacion": "La lista de Reglas y claves indica que con partes del cuerpo y verbos pronominales se usa el artículo, no el posesivo: «je me suis cassé le bras». Es igual que en español («se rompió la pierna», no «su pierna»). El pronombre reflexivo «s'» ya indica de quién es la pierna, y «jambe» es femenino: «la jambe».",
+   "explicacion_breve": "Con verbo pronominal y parte del cuerpo se usa el artículo.",
+   "traduccion": "Se rompió la pierna.",
+   "por_opcion": {
+    "la": "Correcta: artículo definido con la parte del cuerpo, como en español.",
+    "sa": "Incorrecta: el posesivo es redundante porque «s'» ya indica a quién pertenece la pierna; es un error típico de aprendiz.",
+    "une": "Incorrecta: «une jambe» sugiere que tiene varias y se rompió una cualquiera; con el cuerpo se usa el artículo definido."
+   },
+   "glosario": [
+    {
+     "palabra": "se casser",
+     "significado": "romperse (un hueso)"
+    },
+    {
+     "palabra": "la jambe",
+     "significado": "la pierna"
+    }
+   ]
   },
   {
    "id": "e07",
@@ -281,7 +423,24 @@
    "respuestas": [
     "me sens"
    ],
-   "explicacion": "Se sentir es pronominal: je me sens."
+   "explicacion": "La tabla de expresiones de Reglas y claves recoge «se sentir bien / mal / mieux» (encontrarse bien, mal, mejor). Es un verbo pronominal, como «encontrarse» en español, así que en presente es «je me sens». La pista es «depuis hier», que pide presente, no pasado compuesto.",
+   "explicacion_breve": "Se sentir es pronominal: je me sens.",
+   "traduccion": "Me encuentro mejor desde ayer.",
+   "por_opcion": {
+    "me sens": "Correcta: presente del pronominal «se sentir», «me encuentro».",
+    "sens": "Incorrecta: sin el pronombre «me», «sentir» significa «oler» o «notar» algo («je sens une odeur»).",
+    "suis senti": "Incorrecta: le falta el pronombre (sería «je me suis senti») y además está en pasado, cuando «depuis hier» pide presente."
+   },
+   "glosario": [
+    {
+     "palabra": "se sentir mieux",
+     "significado": "encontrarse mejor"
+    },
+    {
+     "palabra": "depuis hier",
+     "significado": "desde ayer"
+    }
+   ]
   },
   {
    "id": "e08",
@@ -296,7 +455,28 @@
    "respuestas": [
     "urgences"
    ],
-   "explicacion": "Urgencias = les urgences."
+   "explicacion": "La tabla de expresiones de Reglas y claves da «les urgences» como el servicio de urgencias del hospital. Es un sustantivo femenino plural, por eso va precedido de «aux» (à + les). La pista del contexto es «après l'accident» y «on l'a emmené»: se habla de un lugar al que se lleva a un herido.",
+   "explicacion_breve": "Urgencias = les urgences.",
+   "traduccion": "Tras el accidente, lo llevaron a urgencias.",
+   "por_opcion": {
+    "urgences": "Correcta: «les urgences», el servicio de urgencias.",
+    "urgents": "Incorrecta: es el adjetivo «urgentes» en masculino plural, no un lugar.",
+    "secours": "Incorrecta: «les secours» son los servicios de socorro o rescate (bomberos, ambulancias) que acuden al lugar; no son un sitio adonde se lleva a alguien. «Au secours !» significa «¡socorro!»."
+   },
+   "glosario": [
+    {
+     "palabra": "les urgences",
+     "significado": "urgencias (servicio hospitalario)"
+    },
+    {
+     "palabra": "emmener",
+     "significado": "llevar (a alguien a un sitio)"
+    },
+    {
+     "palabra": "les secours",
+     "significado": "los servicios de socorro, la ayuda"
+    }
+   ]
   },
   {
    "id": "e09",
@@ -306,7 +486,33 @@
    "respuestas": [
     "fièvre"
    ],
-   "explicacion": "Avoir de la fièvre = tener fiebre."
+   "explicacion": "La tabla de Reglas y claves recoge «avoir de la fièvre», con partitivo: en francés la fiebre se trata como una cantidad no contable, por eso «de la». El hueco ya tiene «de la», así que falta el sustantivo «fièvre», con acento grave en la e.",
+   "explicacion_breve": "Avoir de la fièvre = tener fiebre.",
+   "traduccion": "El pequeño tiene fiebre: 39 grados.",
+   "errores_previstos": [
+    {
+     "respuesta": "fiebre",
+     "explicacion": "Es la palabra española; en francés es «fièvre», con v y acento grave."
+    },
+    {
+     "respuesta": "fievre",
+     "explicacion": "Falta el acento grave: «fièvre»."
+    },
+    {
+     "respuesta": "fiévre",
+     "explicacion": "El acento es grave, no agudo: «fièvre» (la e va seguida de una sílaba con e muda)."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "la fièvre",
+     "significado": "la fiebre"
+    },
+    {
+     "palabra": "le petit",
+     "significado": "el pequeño, el niño"
+    }
+   ]
   },
   {
    "id": "e10",
@@ -316,7 +522,33 @@
    "respuestas": [
     "rendez-vous"
    ],
-   "explicacion": "Prendre rendez-vous = pedir cita."
+   "explicacion": "La tabla de expresiones da «prendre rendez-vous chez le médecin» (pedir cita con el médico). La expresión usa «prendre», no «demander», y «rendez-vous» va sin artículo y con guion. Con profesionales se usa «chez»: chez le dentiste.",
+   "explicacion_breve": "Prendre rendez-vous = pedir cita.",
+   "traduccion": "Tengo que pedir cita en el dentista.",
+   "errores_previstos": [
+    {
+     "respuesta": "un rendez-vous",
+     "explicacion": "En la expresión fija «prendre rendez-vous» no se pone artículo."
+    },
+    {
+     "respuesta": "rendez vous",
+     "explicacion": "Se escribe con guion: «rendez-vous»."
+    },
+    {
+     "respuesta": "cite",
+     "explicacion": "Calco de «cita»: en francés la cita es «rendez-vous»."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "prendre rendez-vous",
+     "significado": "pedir cita"
+    },
+    {
+     "palabra": "le dentiste",
+     "significado": "el dentista"
+    }
+   ]
   },
   {
    "id": "e11",
@@ -325,9 +557,44 @@
    "frase": "Je tousse et j'ai de la fièvre : je suis constipé.",
    "respuestas": [
     "Je tousse et j'ai de la fièvre : je suis enrhumé.",
-    "Je tousse et j'ai de la fièvre : je suis malade."
+    "Je tousse et j'ai de la fièvre : je suis malade.",
+    "Je tousse et j'ai de la fièvre : je suis grippé."
    ],
-   "explicacion": "Constipé significa estreñido."
+   "explicacion": "La frase contiene el falso amigo «constipé», que según la lista de Reglas y claves significa «estreñido». Los síntomas (toser, fiebre) piden «enrhumé» (resfriado), «grippé» (con gripe) o, de forma más general, «malade» (enfermo); por eso se aceptan las tres correcciones. Es uno de los errores más frecuentes y más embarazosos de los hispanohablantes.",
+   "explicacion_breve": "Constipé significa estreñido.",
+   "traduccion": "Toso y tengo fiebre: estoy resfriado.",
+   "errores_previstos": [
+    {
+     "respuesta": "Je tousse et j'ai de la fièvre : je suis constipé.",
+     "explicacion": "Es la frase sin corregir: «constipé» significa estreñido."
+    },
+    {
+     "respuesta": "Je tousse et j'ai de la fièvre : je suis resfrié.",
+     "explicacion": "«Resfrié» no existe en francés; resfriado es «enrhumé»."
+    },
+    {
+     "respuesta": "Je tousse et j'ai de la fièvre : je suis embarrassé.",
+     "explicacion": "«Embarrassé» significa incómodo o apurado, no enfermo."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "tousser",
+     "significado": "toser"
+    },
+    {
+     "palabra": "constipé",
+     "significado": "estreñido"
+    },
+    {
+     "palabra": "enrhumé",
+     "significado": "resfriado"
+    },
+    {
+     "palabra": "grippé",
+     "significado": "con gripe, griposo"
+    }
+   ]
   },
   {
    "id": "e12",
@@ -337,7 +604,29 @@
    "respuestas": [
     "J'ai mal à la tête."
    ],
-   "explicacion": "Avoir mal à, no être."
+   "explicacion": "El dolor se expresa con «avoir mal à», no con «être». La explicación de Reglas y claves distingue: para el dolor localizado, «avoir mal à»; para un estado general, «être» (je suis malade, je suis fatigué). Por eso la frase correcta es «J'ai mal à la tête».",
+   "explicacion_breve": "Avoir mal à, no être.",
+   "traduccion": "Me duele la cabeza.",
+   "errores_previstos": [
+    {
+     "respuesta": "Je suis mal à la tête.",
+     "explicacion": "Es la frase sin corregir: el dolor se expresa con «avoir», no con «être»."
+    },
+    {
+     "respuesta": "Me fait mal la tête.",
+     "explicacion": "Calco de «me duele la cabeza»: en francés se dice «j'ai mal à la tête» (también existe «la tête me fait mal», con sujeto delante)."
+    },
+    {
+     "respuesta": "J'ai mal à ma tête.",
+     "explicacion": "Con las partes del cuerpo se usa el artículo, no el posesivo."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "la tête",
+     "significado": "la cabeza"
+    }
+   ]
   },
   {
    "id": "e13",
@@ -353,7 +642,29 @@
    "respuestas": [
     "Il a arrêté de fumer"
    ],
-   "explicacion": "Arrêter de + infinitivo."
+   "explicacion": "La tabla de expresiones de Reglas y claves recoge «arrêter de fumer» (dejar de fumar). El verbo «arrêter» va seguido de «de» + infinitivo. En passé composé el orden es sujeto + auxiliar + participio + de + infinitivo: «Il a arrêté de fumer».",
+   "explicacion_breve": "Arrêter de + infinitivo.",
+   "traduccion": "Ha dejado de fumar.",
+   "errores_previstos": [
+    {
+     "respuesta": "Il a de arrêté fumer",
+     "explicacion": "La preposición «de» va entre el participio y el infinitivo: a arrêté de fumer."
+    },
+    {
+     "respuesta": "Il arrêté a de fumer",
+     "explicacion": "El auxiliar «a» va delante del participio en el passé composé."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "arrêter de",
+     "significado": "dejar de (hacer algo)"
+    },
+    {
+     "palabra": "fumer",
+     "significado": "fumar"
+    }
+   ]
   },
   {
    "id": "e14",
@@ -372,10 +683,38 @@
     "Prenez un comprimé trois fois par jour",
     "Trois fois par jour prenez un comprimé"
    ],
-   "explicacion": "Trois fois par jour = tres veces al día."
+   "explicacion": "Es la fórmula típica de una posología, recogida en la tabla de expresiones: «Prenez un comprimé trois fois par jour». «Prenez» es el imperativo de cortesía de «prendre»; «trois fois par jour» equivale a «tres veces al día» (con «par», no «al»). El complemento de frecuencia puede ir al final, que es lo normal, o al principio, por eso se aceptan los dos órdenes.",
+   "explicacion_breve": "Trois fois par jour = tres veces al día.",
+   "traduccion": "Tome un comprimido tres veces al día.",
+   "errores_previstos": [
+    {
+     "respuesta": "Prenez un comprimé trois par fois jour",
+     "explicacion": "La expresión es «trois fois par jour»: número + fois + par + jour."
+    },
+    {
+     "respuesta": "Prenez trois un comprimé fois par jour",
+     "explicacion": "«Un comprimé» es el complemento directo y va justo detrás del verbo; «trois fois» forma un bloque."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "un comprimé",
+     "significado": "un comprimido, una pastilla"
+    },
+    {
+     "palabra": "trois fois par jour",
+     "significado": "tres veces al día"
+    }
+   ]
   }
  ],
  "fuente": {
   "nombre": "propia"
+ },
+ "descripcion_larga_es": "Vocabulario para decir cómo te encuentras, describir síntomas al médico o en la farmacia y hablar de hábitos saludables. La estructura central es «avoir mal à» + parte del cuerpo, con sus contracciones (au, à la, à l', aux). Al hispanohablante le cuesta porque calca «me duele» y cae en falsos amigos traicioneros como «constipé» (estreñido) o «recette» (receta de cocina).",
+ "contexto": {
+  "que_es": "Es el léxico básico del cuerpo humano, de los síntomas y enfermedades comunes, de la consulta médica y de la farmacia. Incluye estructuras fijas como «avoir mal à», «avoir de la fièvre», «se sentir bien o mal» y «prendre rendez-vous», además del uso del artículo, y no del posesivo, con las partes del cuerpo.",
+  "por_que_importa": "Es vocabulario de supervivencia: en un viaje o una estancia hay que poder explicar qué te pasa con precisión. Los falsos amigos pueden provocar malentendidos embarazosos (decir «je suis constipé» cuando se está resfriado) o impedir conseguir un medicamento. Además, la salud pública es tema frecuente de conversación y de debate en un examen oral.",
+  "cuando_se_usa": "En la consulta del médico, en la farmacia, en urgencias, al justificar una ausencia o simplemente al responder a «Comment ça va ?». La señal es cualquier mención a una parte del cuerpo o a un síntoma. El hispanohablante tiende a decir «me fait mal la tête» o «je suis mal à…» en lugar de «j'ai mal à», y a usar el posesivo con el cuerpo («mon bras»)."
  }
 }

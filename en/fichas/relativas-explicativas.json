@@ -6,51 +6,494 @@
  "nivel": "B2",
  "resumen": "Las relativas explicativas añaden información extra sobre algo ya identificado y van entre comas. En ellas no se puede usar that ni omitir el pronombre.",
  "explicacion": [
-  {"tipo": "texto", "texto": "Especificativa (sin comas): identifica de quién o de qué hablamos. The students who failed must repeat the exam (solo los que suspendieron). Explicativa (con comas): añade un dato. The students, who were tired, went home (todos los alumnos)."},
-  {"tipo": "tabla", "cabecera": ["Pronombre", "Uso", "Ejemplo"], "filas": [
-   ["who", "personas (sujeto u objeto)", "My aunt, who lives in Bilbao, is a judge."],
-   ["whom", "personas como objeto, formal", "Mr Patel, whom I met in Delhi, sent me a book."],
-   ["which", "cosas, animales o toda la oración anterior", "The museum, which opened in 1900, is free."],
-   ["whose", "posesión", "Ana, whose husband is a pilot, travels a lot."],
-   ["where / when", "lugar / tiempo", "Toledo, where I grew up, is beautiful."]
-  ]},
-  {"tipo": "lista", "items": [
-   "Nunca that en una explicativa: My car, which is red… (no «, that is red»).",
-   "El pronombre no se puede omitir, aunque sea objeto.",
-   "Which puede referirse a toda la oración anterior: He passed the exam, which surprised everyone (lo cual / lo que).",
-   "Preposición + whom/which (formal): The director, to whom I wrote, never replied. Informal: The director, who I wrote to, never replied.",
-   "Cuantificador + of whom / of which: I have three brothers, two of whom live abroad."
-  ]}
+  {
+   "tipo": "texto",
+   "texto": "Especificativa (sin comas): identifica de quién o de qué hablamos. The students who failed must repeat the exam (solo los que suspendieron). Explicativa (con comas): añade un dato. The students, who were tired, went home (todos los alumnos)."
+  },
+  {
+   "tipo": "tabla",
+   "cabecera": [
+    "Pronombre",
+    "Uso",
+    "Ejemplo"
+   ],
+   "filas": [
+    [
+     "who",
+     "personas (sujeto u objeto)",
+     "My aunt, who lives in Bilbao, is a judge."
+    ],
+    [
+     "whom",
+     "personas como objeto, formal",
+     "Mr Patel, whom I met in Delhi, sent me a book."
+    ],
+    [
+     "which",
+     "cosas, animales o toda la oración anterior",
+     "The museum, which opened in 1900, is free."
+    ],
+    [
+     "whose",
+     "posesión",
+     "Ana, whose husband is a pilot, travels a lot."
+    ],
+    [
+     "where / when",
+     "lugar / tiempo",
+     "Toledo, where I grew up, is beautiful."
+    ]
+   ]
+  },
+  {
+   "tipo": "lista",
+   "items": [
+    "Nunca that en una explicativa: My car, which is red… (no «, that is red»).",
+    "El pronombre no se puede omitir, aunque sea objeto.",
+    "Which puede referirse a toda la oración anterior: He passed the exam, which surprised everyone (lo cual / lo que).",
+    "Preposición + whom/which (formal): The director, to whom I wrote, never replied. Informal: The director, who I wrote to, never replied.",
+    "Cuantificador + of whom / of which: I have three brothers, two of whom live abroad."
+   ]
+  }
  ],
  "ejemplos": [
-  {"frase": "Lisbon, which is built on seven hills, is great for walking.", "traduccion": "Lisboa, que está construida sobre siete colinas, es ideal para pasear."},
-  {"frase": "The train was cancelled, which meant we had to take a taxi.", "traduccion": "Cancelaron el tren, lo que significó que tuvimos que coger un taxi."},
-  {"frase": "My neighbour, whose dog barks all night, has finally moved.", "traduccion": "Mi vecino, cuyo perro ladra toda la noche, por fin se ha mudado."},
-  {"frase": "The minister, with whom I had a brief conversation, seemed optimistic.", "traduccion": "El ministro, con quien tuve una breve conversación, parecía optimista."},
-  {"frase": "She bought twenty books, most of which she has never read.", "traduccion": "Compró veinte libros, la mayoría de los cuales no ha leído nunca."},
-  {"frase": "In 1992, when the Olympics took place, the city changed completely.", "traduccion": "En 1992, cuando se celebraron los Juegos Olímpicos, la ciudad cambió por completo."}
+  {
+   "frase": "Lisbon, which is built on seven hills, is great for walking.",
+   "traduccion": "Lisboa, que está construida sobre siete colinas, es ideal para pasear."
+  },
+  {
+   "frase": "The train was cancelled, which meant we had to take a taxi.",
+   "traduccion": "Cancelaron el tren, lo que significó que tuvimos que coger un taxi."
+  },
+  {
+   "frase": "My neighbour, whose dog barks all night, has finally moved.",
+   "traduccion": "Mi vecino, cuyo perro ladra toda la noche, por fin se ha mudado."
+  },
+  {
+   "frase": "The minister, with whom I had a brief conversation, seemed optimistic.",
+   "traduccion": "El ministro, con quien tuve una breve conversación, parecía optimista."
+  },
+  {
+   "frase": "She bought twenty books, most of which she has never read.",
+   "traduccion": "Compró veinte libros, la mayoría de los cuales no ha leído nunca."
+  },
+  {
+   "frase": "In 1992, when the Olympics took place, the city changed completely.",
+   "traduccion": "En 1992, cuando se celebraron los Juegos Olímpicos, la ciudad cambió por completo."
+  }
  ],
  "errores_hispanohablantes": [
-  {"mal": "He lost his keys, what was annoying.", "bien": "He lost his keys, which was annoying.", "nota": "«Lo que» referido a la oración anterior es which, no what."},
-  {"mal": "My brother, that is a doctor, lives in Leeds.", "bien": "My brother, who is a doctor, lives in Leeds.", "nota": "That no se usa en relativas explicativas."},
-  {"mal": "I have two sisters, both of them are teachers.", "bien": "I have two sisters, both of whom are teachers.", "nota": "Para unir las oraciones hace falta el relativo: of whom / of which."}
+  {
+   "mal": "He lost his keys, what was annoying.",
+   "bien": "He lost his keys, which was annoying.",
+   "nota": "«Lo que» referido a la oración anterior es which, no what."
+  },
+  {
+   "mal": "My brother, that is a doctor, lives in Leeds.",
+   "bien": "My brother, who is a doctor, lives in Leeds.",
+   "nota": "That no se usa en relativas explicativas."
+  },
+  {
+   "mal": "I have two sisters, both of them are teachers.",
+   "bien": "I have two sisters, both of whom are teachers.",
+   "nota": "Para unir las oraciones hace falta el relativo: of whom / of which."
+  }
  ],
  "ejercicios": [
-  {"id": "e01", "tipo": "hueco", "enunciado": "Completa con el pronombre relativo adecuado.", "frase": "Our teacher, ___ wife is Italian, speaks four languages.", "respuestas": ["whose"], "explicacion": "Posesión (su mujer): whose."},
-  {"id": "e02", "tipo": "hueco", "enunciado": "Completa con el pronombre relativo adecuado.", "frase": "She didn't answer my messages, ___ made me worried.", "respuestas": ["which"], "explicacion": "Which se refiere a toda la oración anterior."},
-  {"id": "e03", "tipo": "hueco", "enunciado": "Completa con el pronombre relativo adecuado (registro formal).", "frase": "The candidates, most of ___ had no experience, were all rejected.", "respuestas": ["whom"], "explicacion": "Tras most of con personas se usa whom."},
-  {"id": "e04", "tipo": "hueco", "enunciado": "Completa con el relativo adecuado.", "frase": "Seville, ___ my parents met, is my favourite city.", "respuestas": ["where"], "explicacion": "Lugar: where (= in which)."},
-  {"id": "e05", "tipo": "eleccion", "enunciado": "Elige la opción correcta.", "frase": "The Prado, ___ attracts millions of visitors, is in Madrid.", "opciones": ["which", "that", "what", "who"], "respuestas": ["which"], "explicacion": "Explicativa referida a una cosa: which, nunca that."},
-  {"id": "e06", "tipo": "eleccion", "enunciado": "Elige la opción correcta.", "frase": "The hotel, in ___ we stayed for a week, was right on the beach.", "opciones": ["whom", "which", "who", "that"], "respuestas": ["which"], "explicacion": "Cosa tras preposición: which (that nunca va tras preposición)."},
-  {"id": "e07", "tipo": "eleccion", "enunciado": "Elige la opción correcta.", "frase": "He kept interrupting, ___ was very rude.", "opciones": ["which", "what", "that"], "respuestas": ["which"], "explicacion": "«Lo cual» = which."},
-  {"id": "e08", "tipo": "corregir", "enunciado": "Corrige el error.", "frase": "My best friend, that lives in Paris, is coming to visit.", "respuestas": ["My best friend, who lives in Paris, is coming to visit."], "explicacion": "En explicativas no se usa that; para personas, who."},
-  {"id": "e09", "tipo": "corregir", "enunciado": "Corrige el error.", "frase": "The flight was delayed, what meant we missed our connection.", "respuestas": ["The flight was delayed, which meant we missed our connection."], "explicacion": "Which, no what, para referirse a la oración anterior."},
-  {"id": "e10", "tipo": "corregir", "enunciado": "Corrige el error.", "frase": "I interviewed ten people, three of them had been unemployed for years.", "respuestas": ["I interviewed ten people, three of whom had been unemployed for years."], "explicacion": "Hace falta el relativo: three of whom."},
-  {"id": "e11", "tipo": "transformar", "enunciado": "Une las dos frases con una relativa explicativa (usa who).", "frase": "Marie Curie won two Nobel prizes. She was born in Warsaw.", "respuestas": ["Marie Curie, who was born in Warsaw, won two Nobel prizes.", "Marie Curie, who won two Nobel prizes, was born in Warsaw."], "explicacion": "La información extra va entre comas tras el nombre."},
-  {"id": "e12", "tipo": "transformar", "enunciado": "Reescribe la frase en registro formal con preposición + whom.", "frase": "The lawyer, who I spoke to yesterday, was very helpful.", "respuestas": ["The lawyer, to whom I spoke yesterday, was very helpful."], "explicacion": "En registro formal la preposición se coloca delante de whom."},
-  {"id": "e13", "tipo": "transformar", "enunciado": "Une las dos frases con which referido a toda la primera oración.", "frase": "Prices went up again. This annoyed consumers.", "respuestas": ["Prices went up again, which annoyed consumers."], "explicacion": "Which recoge la idea completa de la oración anterior."},
-  {"id": "e14", "tipo": "ordenar", "enunciado": "Ordena las palabras.", "palabras": ["which", "of", "none", "worked"], "respuestas": ["none of which worked"], "explicacion": "Cuantificador + of which para cosas."},
-  {"id": "e15", "tipo": "ordenar", "enunciado": "Ordena las palabras.", "palabras": ["whom", "with", "I", "work"], "respuestas": ["with whom I work"], "explicacion": "Preposición + whom en registro formal."}
+  {
+   "id": "e01",
+   "tipo": "hueco",
+   "enunciado": "Completa con el pronombre relativo adecuado.",
+   "frase": "Our teacher, ___ wife is Italian, speaks four languages.",
+   "respuestas": [
+    "whose"
+   ],
+   "explicacion": "Se aplica la fila de whose de la tabla de pronombres: whose expresa posesión, como el español «cuyo». La pista es que tras el hueco aparece directamente un sustantivo, wife, que pertenece al antecedente (la mujer del profesor). Whose va seguido del sustantivo poseído sin artículo: «whose wife». Ninguna otra forma relativa puede ir delante de un sustantivo con ese valor posesivo.",
+   "explicacion_breve": "Posesión (su mujer): whose.",
+   "traduccion": "Nuestro profesor, cuya mujer es italiana, habla cuatro idiomas.",
+   "errores_previstos": [
+    {
+     "respuesta": "who",
+     "explicacion": "Who es sujeto u objeto, no indica posesión; «who wife» no tiene sentido. Hace falta whose, equivalente a «cuya»."
+    },
+    {
+     "respuesta": "who's",
+     "explicacion": "Who's es la contracción de who is o who has y suena igual que whose, pero «who is wife» no tiene sentido. El posesivo se escribe whose."
+    },
+    {
+     "respuesta": "that",
+     "explicacion": "That nunca se usa en una relativa explicativa (la frase va entre comas) y además no expresa posesión."
+    }
+   ]
+  },
+  {
+   "id": "e02",
+   "tipo": "hueco",
+   "enunciado": "Completa con el pronombre relativo adecuado.",
+   "frase": "She didn't answer my messages, ___ made me worried.",
+   "respuestas": [
+    "which"
+   ],
+   "explicacion": "Se aplica la regla de Reglas y claves según la cual which puede referirse a toda la oración anterior, con el sentido de «lo cual» o «lo que». La pista es que lo que me preocupó no son los mensajes, sino el hecho completo de que ella no contestara. Por eso el relativo va tras la coma y retoma toda la idea: «, which made me worried». Ni what ni that pueden cumplir esta función.",
+   "explicacion_breve": "Which se refiere a toda la oración anterior.",
+   "traduccion": "No contestó a mis mensajes, lo cual me preocupó.",
+   "errores_previstos": [
+    {
+     "respuesta": "what",
+     "explicacion": "Es el calco de «lo que». What no tiene antecedente y no puede retomar una oración anterior; para eso se usa which."
+    },
+    {
+     "respuesta": "that",
+     "explicacion": "That no se usa nunca tras coma en una relativa explicativa, y tampoco puede referirse a una oración entera."
+    },
+    {
+     "respuesta": "it",
+     "explicacion": "It convertiría la frase en dos oraciones unidas solo por una coma (comma splice), algo incorrecto en inglés escrito; hace falta el relativo which."
+    }
+   ]
+  },
+  {
+   "id": "e03",
+   "tipo": "hueco",
+   "enunciado": "Completa con el pronombre relativo adecuado (registro formal).",
+   "frase": "The candidates, most of ___ had no experience, were all rejected.",
+   "respuestas": [
+    "whom"
+   ],
+   "explicacion": "Se aplica la regla de cuantificador + of whom / of which de Reglas y claves. La pista es la estructura «most of ___» dentro de un inciso entre comas, referida a personas (the candidates). Tras una preposición, para personas se usa whom, la forma de objeto: «most of whom». En registro formal y escrito es la única opción correcta.",
+   "explicacion_breve": "Tras most of con personas se usa whom.",
+   "traduccion": "Los candidatos, la mayoría de los cuales no tenía experiencia, fueron rechazados todos.",
+   "errores_previstos": [
+    {
+     "respuesta": "who",
+     "explicacion": "Tras una preposición (of) no se usa who, sino la forma de objeto whom: «most of whom»."
+    },
+    {
+     "respuesta": "them",
+     "explicacion": "«Most of them» une dos oraciones sin nexo; es el error típico del hispanohablante. Para que sea una relativa hace falta el pronombre relativo whom."
+    },
+    {
+     "respuesta": "which",
+     "explicacion": "Which se usa para cosas; los candidatos son personas, así que corresponde whom."
+    }
+   ]
+  },
+  {
+   "id": "e04",
+   "tipo": "hueco",
+   "enunciado": "Completa con el relativo adecuado.",
+   "frase": "Seville, ___ my parents met, is my favourite city.",
+   "respuestas": [
+    "where"
+   ],
+   "explicacion": "Se aplica la fila de where / when de la tabla: where introduce una relativa de lugar y equivale a «in which». La pista es que el antecedente es un lugar (Seville) y que en la relativa falta un complemento de lugar: mis padres se conocieron allí. Fíjate en que la relativa ya tiene sujeto (my parents) y verbo (met), así que no hace falta un pronombre sujeto como which.",
+   "explicacion_breve": "Lugar: where (= in which).",
+   "traduccion": "Sevilla, donde se conocieron mis padres, es mi ciudad favorita.",
+   "errores_previstos": [
+    {
+     "respuesta": "which",
+     "explicacion": "Which solo valdría con preposición («in which my parents met»); solo, dejaría la relativa sin el complemento de lugar."
+    },
+    {
+     "respuesta": "that",
+     "explicacion": "That nunca va en una explicativa entre comas y además no expresa lugar."
+    },
+    {
+     "respuesta": "in where",
+     "explicacion": "Where ya incluye la idea de «en»; añadir in es redundante. O bien where, o bien in which."
+    }
+   ]
+  },
+  {
+   "id": "e05",
+   "tipo": "eleccion",
+   "enunciado": "Elige la opción correcta.",
+   "frase": "The Prado, ___ attracts millions of visitors, is in Madrid.",
+   "opciones": [
+    "which",
+    "that",
+    "what",
+    "who"
+   ],
+   "respuestas": [
+    "which"
+   ],
+   "explicacion": "Se aplica la primera regla de Reglas y claves: nunca that en una explicativa. La pista son las comas y el antecedente, el Prado, un lugar único ya identificado: el inciso solo añade un dato. Como el antecedente es una cosa y el relativo funciona como sujeto de attracts, la forma correcta es which.",
+   "explicacion_breve": "Explicativa referida a una cosa: which, nunca that.",
+   "traduccion": "El Prado, que atrae a millones de visitantes, está en Madrid.",
+   "por_opcion": {
+    "which": "Correcta: relativo para cosas, admitido en explicativas, que funciona aquí como sujeto de attracts.",
+    "that": "Incorrecta: that sirve en especificativas, pero nunca tras coma en una explicativa.",
+    "what": "Incorrecta: what significa «lo que» y no lleva antecedente; aquí el antecedente es The Prado.",
+    "who": "Incorrecta: who es para personas y el Prado es un museo."
+   }
+  },
+  {
+   "id": "e06",
+   "tipo": "eleccion",
+   "enunciado": "Elige la opción correcta.",
+   "frase": "The hotel, in ___ we stayed for a week, was right on the beach.",
+   "opciones": [
+    "whom",
+    "which",
+    "who",
+    "that"
+   ],
+   "respuestas": [
+    "which"
+   ],
+   "explicacion": "Se aplica la regla de preposición + whom/which en registro formal. La pista es la preposición in delante del hueco y el antecedente, the hotel, que es una cosa. Tras preposición, para cosas solo cabe which: «in which we stayed». That nunca puede ir detrás de una preposición, y whom o who son para personas.",
+   "explicacion_breve": "Cosa tras preposición: which (that nunca va tras preposición).",
+   "traduccion": "El hotel, en el que nos alojamos una semana, estaba justo en la playa.",
+   "por_opcion": {
+    "whom": "Incorrecta: whom sí va tras preposición, pero solo para personas, y un hotel es una cosa.",
+    "which": "Correcta: cosa tras preposición, «in which» (en el que, en el cual).",
+    "who": "Incorrecta: es para personas y además no se coloca tras preposición en registro formal.",
+    "that": "Incorrecta por partida doble: no va tras preposición ni en explicativas."
+   }
+  },
+  {
+   "id": "e07",
+   "tipo": "eleccion",
+   "enunciado": "Elige la opción correcta.",
+   "frase": "He kept interrupting, ___ was very rude.",
+   "opciones": [
+    "which",
+    "what",
+    "that"
+   ],
+   "respuestas": [
+    "which"
+   ],
+   "explicacion": "Se aplica la regla de which referido a toda la oración anterior, con el sentido de «lo cual». La pista es que lo maleducado no es una persona ni un objeto, sino el hecho de interrumpir una y otra vez. Para retomar esa idea completa tras la coma se usa which. Es un caso en el que el español «lo que» tienta a escribir what.",
+   "explicacion_breve": "«Lo cual» = which.",
+   "traduccion": "No paraba de interrumpir, lo cual fue muy maleducado.",
+   "por_opcion": {
+    "which": "Correcta: retoma toda la oración anterior («lo cual»).",
+    "what": "Incorrecta: calco de «lo que»; what no puede referirse a algo ya dicho.",
+    "that": "Incorrecta: no se usa tras coma en una explicativa ni puede recoger una oración entera."
+   }
+  },
+  {
+   "id": "e08",
+   "tipo": "corregir",
+   "enunciado": "Corrige el error.",
+   "frase": "My best friend, that lives in Paris, is coming to visit.",
+   "respuestas": [
+    "My best friend, who lives in Paris, is coming to visit."
+   ],
+   "explicacion": "Se aplica la regla «nunca that en una explicativa». La pista son las comas: «my best friend» ya está identificado (solo hay uno) y el inciso añade un dato. Como el antecedente es una persona y el relativo es sujeto de lives, la forma correcta es who: «My best friend, who lives in Paris, is coming to visit».",
+   "explicacion_breve": "En explicativas no se usa that; para personas, who.",
+   "traduccion": "Mi mejor amigo, que vive en París, viene de visita.",
+   "errores_previstos": [
+    {
+     "respuesta": "My best friend, that lives in Paris, is coming to visit.",
+     "explicacion": "Es la frase sin corregir: that no puede ir en una relativa explicativa entre comas."
+    },
+    {
+     "respuesta": "My best friend, which lives in Paris, is coming to visit.",
+     "explicacion": "Which es para cosas; para una persona se usa who."
+    },
+    {
+     "respuesta": "My best friend that lives in Paris is coming to visit.",
+     "explicacion": "Quitar las comas convierte la relativa en especificativa y sugiere que tienes varios «mejores amigos»; el error real es that, que debe cambiarse por who manteniendo las comas."
+    }
+   ]
+  },
+  {
+   "id": "e09",
+   "tipo": "corregir",
+   "enunciado": "Corrige el error.",
+   "frase": "The flight was delayed, what meant we missed our connection.",
+   "respuestas": [
+    "The flight was delayed, which meant we missed our connection."
+   ],
+   "explicacion": "Se aplica la regla de which referido a toda la oración anterior. Lo que provocó la pérdida de la conexión no es el vuelo en sí, sino el hecho de que se retrasara, así que hay que retomar la oración completa. El error es usar what, calcado de «lo que»; la forma correcta es «, which meant we missed our connection».",
+   "explicacion_breve": "Which, no what, para referirse a la oración anterior.",
+   "traduccion": "El vuelo se retrasó, lo que hizo que perdiéramos la conexión.",
+   "errores_previstos": [
+    {
+     "respuesta": "The flight was delayed, what meant we missed our connection.",
+     "explicacion": "Es la frase sin corregir: what no puede retomar una oración anterior; hace falta which."
+    },
+    {
+     "respuesta": "The flight was delayed, that meant we missed our connection.",
+     "explicacion": "That no se usa en relativas explicativas tras coma; tampoco puede referirse a toda la oración."
+    },
+    {
+     "respuesta": "The flight was delayed, it meant we missed our connection.",
+     "explicacion": "Unir dos oraciones independientes solo con coma es incorrecto en inglés (comma splice); se necesita el relativo which."
+    }
+   ]
+  },
+  {
+   "id": "e10",
+   "tipo": "corregir",
+   "enunciado": "Corrige el error.",
+   "frase": "I interviewed ten people, three of them had been unemployed for years.",
+   "respuestas": [
+    "I interviewed ten people, three of whom had been unemployed for years."
+   ],
+   "explicacion": "Se aplica la regla de cuantificador + of whom / of which. La frase original une dos oraciones con una simple coma usando «three of them», que es un calco del español hablado. Para que el segundo fragmento sea una relativa hay que cambiar el pronombre personal por el relativo de objeto para personas: «three of whom».",
+   "explicacion_breve": "Hace falta el relativo: three of whom.",
+   "traduccion": "Entrevisté a diez personas, tres de las cuales llevaban años en paro.",
+   "errores_previstos": [
+    {
+     "respuesta": "I interviewed ten people, three of them had been unemployed for years.",
+     "explicacion": "Es la frase sin corregir: dos oraciones unidas solo por una coma; hace falta el relativo whom."
+    },
+    {
+     "respuesta": "I interviewed ten people, three of who had been unemployed for years.",
+     "explicacion": "Tras la preposición of se usa la forma de objeto whom, no who."
+    },
+    {
+     "respuesta": "I interviewed ten people, three of which had been unemployed for years.",
+     "explicacion": "Which es para cosas; para personas el cuantificador va con of whom."
+    }
+   ]
+  },
+  {
+   "id": "e11",
+   "tipo": "transformar",
+   "enunciado": "Une las dos frases con una relativa explicativa (usa who).",
+   "frase": "Marie Curie won two Nobel prizes. She was born in Warsaw.",
+   "respuestas": [
+    "Marie Curie, who was born in Warsaw, won two Nobel prizes.",
+    "Marie Curie, who won two Nobel prizes, was born in Warsaw."
+   ],
+   "explicacion": "Se aplica la idea central de la ficha: la relativa explicativa añade un dato sobre un antecedente ya identificado y va entre comas, justo detrás de él. Marie Curie es un nombre propio, así que cualquier información adicional es explicativa. Se sustituye el pronombre she por who y el inciso se coloca tras el nombre. Valen las dos soluciones porque cualquiera de los dos datos puede quedar como información principal y el otro como inciso.",
+   "explicacion_breve": "La información extra va entre comas tras el nombre.",
+   "traduccion": "Marie Curie, que nació en Varsovia, ganó dos premios Nobel. (También: Marie Curie, que ganó dos premios Nobel, nació en Varsovia.)",
+   "errores_previstos": [
+    {
+     "respuesta": "Marie Curie, which was born in Warsaw, won two Nobel prizes.",
+     "explicacion": "Which es para cosas; para una persona como Marie Curie se usa who."
+    },
+    {
+     "respuesta": "Marie Curie, that was born in Warsaw, won two Nobel prizes.",
+     "explicacion": "That no se usa en relativas explicativas; con personas, who."
+    },
+    {
+     "respuesta": "Marie Curie, who she was born in Warsaw, won two Nobel prizes.",
+     "explicacion": "Who ya es el sujeto de la relativa; repetir she es un error de calco que duplica el sujeto."
+    }
+   ]
+  },
+  {
+   "id": "e12",
+   "tipo": "transformar",
+   "enunciado": "Reescribe la frase en registro formal con preposición + whom.",
+   "frase": "The lawyer, who I spoke to yesterday, was very helpful.",
+   "respuestas": [
+    "The lawyer, to whom I spoke yesterday, was very helpful."
+   ],
+   "explicacion": "Se aplica la regla de preposición + whom/which de Reglas y claves. En registro informal la preposición queda al final («who I spoke to»), pero en registro formal se adelanta y se coloca delante del relativo. Tras preposición, para personas se usa la forma de objeto whom: «to whom I spoke». La preposición no se repite al final.",
+   "explicacion_breve": "En registro formal la preposición se coloca delante de whom.",
+   "traduccion": "El abogado, con quien hablé ayer, fue muy útil.",
+   "errores_previstos": [
+    {
+     "respuesta": "The lawyer, to who I spoke yesterday, was very helpful.",
+     "explicacion": "Tras preposición se exige la forma de objeto whom, no who."
+    },
+    {
+     "respuesta": "The lawyer, to whom I spoke to yesterday, was very helpful.",
+     "explicacion": "La preposición se ha duplicado: si se adelanta delante de whom, desaparece del final."
+    },
+    {
+     "respuesta": "The lawyer, to which I spoke yesterday, was very helpful.",
+     "explicacion": "Which es para cosas; tras preposición, para personas, se usa whom."
+    }
+   ]
+  },
+  {
+   "id": "e13",
+   "tipo": "transformar",
+   "enunciado": "Une las dos frases con which referido a toda la primera oración.",
+   "frase": "Prices went up again. This annoyed consumers.",
+   "respuestas": [
+    "Prices went up again, which annoyed consumers."
+   ],
+   "explicacion": "Se aplica la regla de which referido a toda la oración anterior. Lo que molestó a los consumidores no son «los precios», sino que subieran otra vez; por eso el demostrativo this de la segunda frase, que resume la idea anterior, se sustituye por which. Se une con coma: «Prices went up again, which annoyed consumers».",
+   "explicacion_breve": "Which recoge la idea completa de la oración anterior.",
+   "traduccion": "Los precios volvieron a subir, lo cual molestó a los consumidores.",
+   "errores_previstos": [
+    {
+     "respuesta": "Prices went up again, what annoyed consumers.",
+     "explicacion": "Calco de «lo que»: what no puede retomar una oración anterior; se usa which."
+    },
+    {
+     "respuesta": "Prices went up again, this annoyed consumers.",
+     "explicacion": "Dos oraciones unidas solo por coma (comma splice); hay que sustituir this por which."
+    },
+    {
+     "respuesta": "Prices went up again, that annoyed consumers.",
+     "explicacion": "That no se usa tras coma en una explicativa ni puede recoger toda una oración."
+    }
+   ]
+  },
+  {
+   "id": "e14",
+   "tipo": "ordenar",
+   "enunciado": "Ordena las palabras.",
+   "palabras": [
+    "which",
+    "of",
+    "none",
+    "worked"
+   ],
+   "respuestas": [
+    "none of which worked"
+   ],
+   "explicacion": "Se aplica la regla de cuantificador + of whom / of which: el cuantificador (none) va primero, después of y por último el relativo. Como no se dice a qué se refiere, el uso de which indica que el antecedente son cosas (por ejemplo, «I tried three solutions, none of which worked»). El verbo worked cierra la relativa. El orden es fijo: cuantificador + of + which + verbo.",
+   "explicacion_breve": "Cuantificador + of which para cosas.",
+   "traduccion": "ninguno de los cuales funcionó",
+   "errores_previstos": [
+    {
+     "respuesta": "of which none worked",
+     "explicacion": "Calca el orden español «de las cuales ninguna»; en inglés el cuantificador va delante: none of which."
+    },
+    {
+     "respuesta": "which none of worked",
+     "explicacion": "Separa of de su relativo; la secuencia fija es none of which."
+    }
+   ]
+  },
+  {
+   "id": "e15",
+   "tipo": "ordenar",
+   "enunciado": "Ordena las palabras.",
+   "palabras": [
+    "whom",
+    "with",
+    "I",
+    "work"
+   ],
+   "respuestas": [
+    "with whom I work",
+    "whom I work with"
+   ],
+   "explicacion": "Se aplica la regla de preposición + whom en registro formal: la preposición se adelanta y se coloca delante del relativo. Whom, forma de objeto, es la única válida tras preposición para personas. Después viene la relativa con su sujeto y verbo: «with whom I work» (por ejemplo, «my colleagues, with whom I work»). También se acepta whom I work with, con la preposición al final: es correcto, aunque algo menos formal; lo que no se admite es with who.",
+   "explicacion_breve": "Preposición + whom en registro formal; también vale con la preposición al final (whom I work with).",
+   "traduccion": "con quien trabajo",
+   "errores_previstos": [
+    {
+     "respuesta": "I work with whom",
+     "explicacion": "Es el orden de una oración principal; en una relativa el relativo (con su preposición) va al principio: with whom I work."
+    },
+    {
+     "respuesta": "with I whom work",
+     "explicacion": "El relativo debe ir inmediatamente tras la preposición: with whom, y luego el sujeto I y el verbo."
+    }
+   ]
+  }
  ],
- "fuente": {"nombre": "propia"}
+ "fuente": {
+  "nombre": "propia"
+ },
+ "descripcion_larga_es": "Las relativas explicativas añaden un dato adicional sobre algo que ya está identificado y van entre comas. En inglés tienen reglas estrictas: nunca admiten that, el pronombre no puede omitirse y which puede recoger toda una oración («lo cual»). Al hispanohablante le cuestan porque en español «que» sirve para todo y en inglés hay que elegir entre who, whom, which, whose o where.",
+ "contexto": {
+  "que_es": "Una relativa explicativa es una oración subordinada que añade información sobre un antecedente que ya sabemos cuál es, como un inciso. Va entre comas y, si la quitas, la frase principal sigue teniendo sentido completo. Se introduce con who, whom, which, whose, where o when, nunca con that.",
+  "por_que_importa": "Son muy frecuentes en la lengua escrita (prensa, informes, biografías) porque permiten condensar dos ideas en una frase. Confundirlas con las especificativas cambia el significado: «the students, who were tired, went home» habla de todos los alumnos, mientras que sin comas habla solo de algunos. En un examen escrito, usar that tras coma u omitir el pronombre son errores que el corrector detecta enseguida.",
+  "cuando_se_usa": "Se usan cuando el antecedente es un nombre propio, algo único o algo ya identificado (my mother, the Prado, Seville) y queremos añadir un dato. También para comentar toda una oración anterior con which («lo cual, lo que»). El hispanohablante tiende a traducir «que» por that en todos los casos y «lo que» por what; en las explicativas ambas opciones son incorrectas."
+ }
 }

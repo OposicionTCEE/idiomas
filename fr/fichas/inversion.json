@@ -122,7 +122,14 @@
    "respuestas": [
     "a-t-il"
    ],
-   "explicacion": "Peut-être inicial: inversión simple con -t- entre vocales."
+   "explicacion": "Se aplica la regla de la inversión simple tras peut-être inicial: el sujeto pronominal pasa detrás del verbo, unido con guion. Como el verbo a termina en vocal y el pronombre il empieza por vocal, se intercala -t-: a-t-il. La pista es peut-être en primera posición sin que. Si se quiere evitar la inversión, hay que decir peut-être qu'il a raison.",
+   "explicacion_breve": "Peut-être inicial: inversión simple con -t- entre vocales.",
+   "traduccion": "Quizá tenga razón.",
+   "por_opcion": {
+    "a-t-il": "Correcta: inversión simple con la t de enlace entre vocales.",
+    "il a": "Incorrecta en registro cuidado: tras peut-être inicial sin que, el orden normal suena oral o descuidado; habría que decir peut-être qu'il a raison.",
+    "a il": "Incorrecta: falta el guion y la t de enlace obligatoria entre dos vocales: a-t-il."
+   }
   },
   {
    "id": "e02",
@@ -137,7 +144,14 @@
    "respuestas": [
     "le train est-il"
    ],
-   "explicacion": "Sujeto nominal: inversión compleja (nombre + verbo + pronombre)."
+   "explicacion": "Se aplica la inversión compleja: cuando el sujeto es un nombre (le train), no se pospone, sino que se mantiene delante del verbo y se repite con un pronombre detrás (est-il). La pista es sans doute inicial, que exige inversión, y un sujeto nominal. Recuerda que sans doute significa «probablemente», no «sin duda».",
+   "explicacion_breve": "Sujeto nominal: inversión compleja (nombre + verbo + pronombre).",
+   "traduccion": "Probablemente el tren llegue tarde.",
+   "por_opcion": {
+    "le train est-il": "Correcta: inversión compleja, nombre + verbo + pronombre de retoma.",
+    "est le train": "Incorrecta: con sujeto nominal no se pospone el nombre, es el error típico de la ficha (calco del español «está el tren»).",
+    "le train il est": "Incorrecta: es una dislocación oral (le train, il est en retard) y no invierte; tras sans doute el pronombre va detrás del verbo con guion."
+   }
   },
   {
    "id": "e03",
@@ -152,7 +166,14 @@
    "respuestas": [
     "étais-je"
    ],
-   "explicacion": "À peine inicial provoca inversión."
+   "explicacion": "Se aplica la fila de à peine… que: à peine al principio provoca inversión y que introduce la segunda acción. La pista es à peine inicial y el que posterior (qu'il s'est mis). El auxiliar étais se pone delante del pronombre je, unido con guion: étais-je sorti. No hace falta -t- porque étais termina en consonante.",
+   "explicacion_breve": "À peine inicial provoca inversión.",
+   "traduccion": "Apenas había salido cuando empezó a llover.",
+   "por_opcion": {
+    "étais-je": "Correcta: inversión simple del auxiliar y el pronombre tras à peine inicial.",
+    "j'étais": "Incorrecta en registro cuidado: à peine inicial exige inversión; sin ella la construcción suena oral.",
+    "je étais": "Incorrecta: además de no invertir, falta la elisión obligatoria (j'étais)."
+   }
   },
   {
    "id": "e04",
@@ -167,7 +188,20 @@
    "respuestas": [
     "por eso"
    ],
-   "explicacion": "Aussi inicial con inversión tiene valor consecutivo."
+   "explicacion": "Se aplica la regla de la ficha sobre aussi: al principio de la frase y con inversión significa «por eso, en consecuencia»; en medio de la frase significa «también». La pista es la posición inicial tras el punto y coma y la inversión est-il. La relación de causa y efecto (estaba agotado, así que se acostó pronto) lo confirma.",
+   "explicacion_breve": "Aussi inicial con inversión tiene valor consecutivo.",
+   "traduccion": "Estaba agotado; por eso se fue a dormir pronto.",
+   "por_opcion": {
+    "por eso": "Correcta: aussi inicial con inversión tiene valor consecutivo.",
+    "también": "Incorrecta: ese es el sentido de aussi en medio de la frase y sin inversión (il est aussi allé…).",
+    "incluso": "Incorrecta: «incluso» es même; aussi no tiene ese valor."
+   },
+   "glosario": [
+    {
+     "palabra": "épuisé",
+     "significado": "agotado"
+    }
+   ]
   },
   {
    "id": "e05",
@@ -177,7 +211,23 @@
    "respuestas": [
     "ils"
    ],
-   "explicacion": "Les deux pays → ils."
+   "explicacion": "Se aplica la inversión compleja: con sujeto nominal (les deux pays) tras ainsi inicial, el nombre se queda delante y se repite con un pronombre tras el auxiliar. El pronombre concuerda con el nombre: pays es masculino plural, así que el pronombre es ils, y no hace falta -t- porque ont termina en consonante. Ojo: aquí pays es plural aunque su forma no cambie.",
+   "explicacion_breve": "Les deux pays → ils.",
+   "traduccion": "Así, los dos países firmaron el acuerdo.",
+   "errores_previstos": [
+    {
+     "respuesta": "il",
+     "explicacion": "Pays tiene la misma forma en singular y plural, pero aquí es plural (les deux pays): el pronombre es ils."
+    },
+    {
+     "respuesta": "t-ils",
+     "explicacion": "La t de enlace solo se intercala entre dos vocales; ont termina en t sonora y no la necesita."
+    },
+    {
+     "respuesta": "elles",
+     "explicacion": "Pays es masculino: el pronombre de retoma es ils."
+    }
+   ]
   },
   {
    "id": "e06",
@@ -187,7 +237,19 @@
    "respuestas": [
     "t"
    ],
-   "explicacion": "Entre dos vocales se intercala -t-."
+   "explicacion": "Se aplica la regla de la t de enlace: entre un verbo terminado en vocal (viendra) y un pronombre que empieza por vocal (elle) se intercala -t- para evitar el hiato. La pista es la inversión tras sans doute inicial. Esta t no tiene significado y solo aparece en la inversión: viendra-t-elle, a-t-il, parle-t-on.",
+   "explicacion_breve": "Entre dos vocales se intercala -t-.",
+   "traduccion": "Probablemente vendrá más tarde.",
+   "errores_previstos": [
+    {
+     "respuesta": "l",
+     "explicacion": "La letra de enlace es siempre t, nunca otra consonante."
+    },
+    {
+     "respuesta": "t'",
+     "explicacion": "Se escribe entre dos guiones, sin apóstrofo: viendra-t-elle (t' sería el pronombre te elidido)."
+    }
+   ]
   },
   {
    "id": "e07",
@@ -197,7 +259,23 @@
    "respuestas": [
     "ajouta-t-il"
    ],
-   "explicacion": "En los incisos del estilo directo el sujeto va invertido."
+   "explicacion": "Se aplica la regla de la inversión obligatoria en los incisos del estilo directo: el verbo de lengua va delante del sujeto. El passé simple de ajouter con il es ajouta; como termina en vocal y il empieza por vocal, se intercala -t-: ajouta-t-il. La pista es la cita entre comillas seguida de coma, que anuncia el inciso.",
+   "explicacion_breve": "En los incisos del estilo directo el sujeto va invertido.",
+   "traduccion": "«Ya veremos», añadió.",
+   "errores_previstos": [
+    {
+     "respuesta": "il ajouta",
+     "explicacion": "En los incisos de estilo directo el sujeto pronominal se pospone obligatoriamente: ajouta-t-il."
+    },
+    {
+     "respuesta": "ajouta-il",
+     "explicacion": "Falta la t de enlace entre dos vocales: ajouta-t-il."
+    },
+    {
+     "respuesta": "a ajouté-t-il",
+     "explicacion": "En un tiempo compuesto se invierte solo el auxiliar (a-t-il ajouté), y además el enunciado pide el passé simple: ajouta-t-il."
+    }
+   ]
   },
   {
    "id": "e08",
@@ -207,7 +285,29 @@
    "respuestas": [
     "Peut-être a-t-elle raté son train."
    ],
-   "explicacion": "Se elimina que y se invierte el pronombre."
+   "explicacion": "Se aplica la regla de la ficha según la cual peut-être admite dos construcciones: con que y orden normal (más oral) o sin que y con inversión (más cuidada). Al transformar, se suprime que y el pronombre elle pasa detrás del auxiliar, con -t- de enlace porque a termina en vocal: a-t-elle raté. El participio queda detrás.",
+   "explicacion_breve": "Se elimina que y se invierte el pronombre.",
+   "traduccion": "Quizá ha perdido el tren.",
+   "errores_previstos": [
+    {
+     "respuesta": "Peut-être qu'a-t-elle raté son train.",
+     "explicacion": "Se mezclan las dos construcciones: con que no hay inversión; sin que, sí. Hay que suprimir que."
+    },
+    {
+     "respuesta": "Peut-être a-elle raté son train.",
+     "explicacion": "Falta la t de enlace entre dos vocales: a-t-elle."
+    },
+    {
+     "respuesta": "Peut-être elle a raté son train.",
+     "explicacion": "Se ha suprimido que pero no se ha invertido; es el error típico que señala la ficha."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "rater son train",
+     "significado": "perder el tren"
+    }
+   ]
   },
   {
    "id": "e09",
@@ -217,7 +317,23 @@
    "respuestas": [
     "Sans doute les marchés réagiront-ils favorablement."
    ],
-   "explicacion": "Sujeto nominal + verbo + pronombre de retoma."
+   "explicacion": "Se aplica la inversión compleja tras sans doute inicial: el sujeto nominal les marchés se mantiene delante y se retoma con ils detrás del verbo, unido con guion: réagiront-ils. No hace falta -t- porque réagiront termina en consonante. Es una frase típica de un informe económico.",
+   "explicacion_breve": "Sujeto nominal + verbo + pronombre de retoma.",
+   "traduccion": "Probablemente los mercados reaccionarán favorablemente.",
+   "errores_previstos": [
+    {
+     "respuesta": "Sans doute réagiront les marchés favorablement.",
+     "explicacion": "Con sujeto nominal no se pospone el nombre; se usa la inversión compleja: les marchés réagiront-ils."
+    },
+    {
+     "respuesta": "Sans doute les marchés réagiront favorablement.",
+     "explicacion": "Falta el pronombre de retoma; en registro cuidado sans doute inicial exige réagiront-ils."
+    },
+    {
+     "respuesta": "Sans doute les marchés réagiront-t-ils favorablement.",
+     "explicacion": "La t de enlace solo se pone entre vocales; réagiront ya termina en t."
+    }
+   ]
   },
   {
    "id": "e10",
@@ -225,10 +341,29 @@
    "enunciado": "Reescribe empezando por «À peine… que».",
    "frase": "Dès qu'il fut arrivé, il dut repartir.",
    "respuestas": [
-    "À peine fut-il arrivé qu'il dut repartir.",
-    "À peine était-il arrivé qu'il dut repartir."
+    "À peine fut-il arrivé qu'il dut repartir."
    ],
-   "explicacion": "À peine + inversión + que introduce la segunda acción."
+   "explicacion": "Se aplica la construcción à peine… que: à peine inicial con inversión del pronombre y que delante de la segunda acción. La subordinada dès qu'il fut arrivé desaparece y queda à peine fut-il arrivé qu'il dut repartir. Se conserva el pasado anterior de la frase de partida (fut-il arrivé), que es el tiempo que pide la norma cuando la principal está en passé simple (dut): expresa una acción inmediatamente anterior a otra del pasado narrativo.",
+   "explicacion_breve": "À peine + inversión + que introduce la segunda acción; con passé simple en la principal se mantiene el pasado anterior (fut-il arrivé).",
+   "traduccion": "Apenas había llegado, tuvo que volver a marcharse.",
+   "errores_previstos": [
+    {
+     "respuesta": "À peine il fut arrivé qu'il dut repartir.",
+     "explicacion": "Tras à peine inicial hace falta la inversión: fut-il arrivé."
+    },
+    {
+     "respuesta": "À peine fut-il arrivé, il dut repartir.",
+     "explicacion": "Falta que, que en esta construcción introduce la segunda acción: qu'il dut repartir."
+    },
+    {
+     "respuesta": "Dès qu'à peine fut-il arrivé qu'il dut repartir.",
+     "explicacion": "À peine sustituye a dès que; no se acumulan las dos conjunciones."
+    },
+    {
+     "respuesta": "À peine était-il arrivé qu'il dut repartir.",
+     "explicacion": "El pluscuamperfecto aparece a veces en esta construcción, pero con passé simple en la principal la norma pide el pasado anterior, y además la transformación debe conservar el tiempo de la frase dada: fut-il arrivé."
+    }
+   ]
   },
   {
    "id": "e11",
@@ -239,7 +374,19 @@
     "Peut-être devrions-nous partir plus tôt.",
     "Peut-être que nous devrions partir plus tôt."
    ],
-   "explicacion": "Peut-être inicial sin que exige inversión."
+   "explicacion": "El error es usar peut-être inicial sin que y sin inversión. Hay dos correcciones válidas, como indica la ficha: invertir el sujeto (peut-être devrions-nous) en registro cuidado, o añadir que y mantener el orden normal (peut-être que nous devrions) en registro más oral. No hace falta -t- porque devrions termina en consonante.",
+   "explicacion_breve": "Peut-être inicial sin que exige inversión.",
+   "traduccion": "Quizá deberíamos salir antes.",
+   "errores_previstos": [
+    {
+     "respuesta": "Peut-être nous devrions partir plus tôt.",
+     "explicacion": "Es dejar la frase sin corregir: sin que, peut-être inicial exige inversión."
+    },
+    {
+     "respuesta": "Peut-être devrions-t-nous partir plus tôt.",
+     "explicacion": "La t de enlace solo va entre dos vocales; devrions termina en consonante y nous empieza por consonante."
+    }
+   ]
   },
   {
    "id": "e12",
@@ -249,7 +396,29 @@
    "respuestas": [
     "Ainsi la commission a-t-elle rendu son avis."
    ],
-   "explicacion": "Con sujeto nominal, inversión compleja: la commission a-t-elle."
+   "explicacion": "El error es haber pospuesto el nombre sujeto (a la commission), que es el calco del orden español. La ficha indica que con sujeto nominal se usa la inversión compleja: el nombre se queda delante y se retoma con un pronombre detrás del auxiliar. Commission es femenino, así que el pronombre es elle, y como a termina en vocal se intercala -t-: la commission a-t-elle rendu son avis.",
+   "explicacion_breve": "Con sujeto nominal, inversión compleja: la commission a-t-elle.",
+   "traduccion": "Así, la comisión emitió su dictamen.",
+   "errores_previstos": [
+    {
+     "respuesta": "Ainsi a la commission rendu son avis.",
+     "explicacion": "Es dejar la frase sin corregir: con sujeto nominal no se pospone el nombre."
+    },
+    {
+     "respuesta": "Ainsi la commission a-t-il rendu son avis.",
+     "explicacion": "El pronombre de retoma concuerda con el nombre: commission es femenino, a-t-elle."
+    },
+    {
+     "respuesta": "Ainsi la commission a-elle rendu son avis.",
+     "explicacion": "Falta la t de enlace entre dos vocales: a-t-elle."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "rendre un avis",
+     "significado": "emitir un dictamen o informe"
+    }
+   ]
   },
   {
    "id": "e13",
@@ -264,7 +433,25 @@
    "respuestas": [
     "Encore faut-il le démontrer"
    ],
-   "explicacion": "Encore inicial (= aun así hace falta) provoca inversión."
+   "explicacion": "Se aplica la fila de encore inicial, que significa «aun así hace falta, todavía falta que» y provoca inversión: encore faut-il. Después va el infinitivo con su pronombre delante, le démontrer. La frase se usa para relativizar una afirmación: puede ser cierto, pero falta probarlo.",
+   "explicacion_breve": "Encore inicial (= aun así hace falta) provoca inversión.",
+   "traduccion": "Aun así, hay que demostrarlo.",
+   "errores_previstos": [
+    {
+     "respuesta": "Encore faut-il démontrer le",
+     "explicacion": "El pronombre complemento va delante del infinitivo: le démontrer."
+    },
+    {
+     "respuesta": "Faut-il encore le démontrer",
+     "explicacion": "Con encore en medio la frase se convierte en una pregunta (¿hay que demostrarlo todavía?); el sentido de «aun así hace falta» exige encore al principio."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "démontrer",
+     "significado": "demostrar"
+    }
+   ]
   },
   {
    "id": "e14",
@@ -281,10 +468,34 @@
    "respuestas": [
     "Rarement a-t-on vu une telle affluence"
    ],
-   "explicacion": "Rarement inicial en registro culto provoca inversión."
+   "explicacion": "Se aplica la última fila de la tabla: rarement inicial, en registro culto, provoca inversión. El pronombre on se pospone al auxiliar a con -t- de enlace: a-t-on vu. Después va el complemento une telle affluence, donde tel concuerda en femenino con affluence.",
+   "explicacion_breve": "Rarement inicial en registro culto provoca inversión.",
+   "traduccion": "Rara vez se ha visto semejante afluencia.",
+   "errores_previstos": [
+    {
+     "respuesta": "Rarement on a vu une telle affluence",
+     "explicacion": "En registro culto rarement inicial exige inversión: a-t-on vu."
+    },
+    {
+     "respuesta": "Rarement a-t-on vu une affluence telle",
+     "explicacion": "Telle va delante del nombre en esta expresión: une telle affluence."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "une affluence",
+     "significado": "una afluencia, gran concurrencia de gente"
+    }
+   ]
   }
  ],
  "fuente": {
   "nombre": "propia"
+ },
+ "descripcion_larga_es": "En el francés escrito y cuidado, algunos adverbios colocados al principio de la frase (peut-être, sans doute, ainsi, aussi, à peine, encore, rarement) obligan a invertir el sujeto: Peut-être viendra-t-il. Si el sujeto es un nombre, se mantiene delante y se repite con un pronombre (Sans doute le ministre a-t-il raison). Es un rasgo de estilo muy valorado en redacciones y resúmenes formales, y el español no tiene nada equivalente.",
+ "contexto": {
+  "que_es": "Es la colocación del sujeto pronominal detrás del verbo, unido con guion, fuera de las preguntas. Se da tras ciertos adverbios iniciales (peut-être, sans doute, ainsi, aussi consecutivo, à peine… que, encore, rarement, du moins), en los incisos de estilo directo (déclara-t-il) y, sin pronombre, en algunas relativas y comparativas. Con sujeto nominal se usa la inversión compleja: nombre + verbo + pronombre de retoma.",
+  "por_que_importa": "En un examen escrito de nivel C1, en un resumen o en una nota de síntesis, estas inversiones dan al texto un registro cuidado que los correctores valoran. No invertir tras peut-être o aussi inicial suena oral o descuidado, y aussi sin inversión puede leerse como «también» en lugar de «por eso». Además es imprescindible reconocer la construcción para entender textos periodísticos y administrativos.",
+  "cuando_se_usa": "En textos formales, informes, artículos y discursos, cuando la frase empieza por uno de estos adverbios. La pista es siempre el adverbio inicial; si aparece en medio de la frase, no hay inversión. En la lengua hablada se prefieren alternativas sin inversión (peut-être qu'il viendra). El hispanohablante tiende a calcar el orden español (quizá él vendrá) o a posponer el nombre sujeto como en español («así firmaron los dos países»), lo que en francés es incorrecto."
  }
 }

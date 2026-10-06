@@ -6,53 +6,526 @@
  "nivel": "B1",
  "resumen": "Los indefinidos hablan de personas, cosas o cantidades sin precisar: alguien, algo, cada, cada uno, varios, algunos, ninguno. Algunos acompañan a un nombre (determinantes: chaque jour, plusieurs livres) y otros lo sustituyen (pronombres: chacun, quelqu'un).",
  "explicacion": [
-  {"tipo": "tabla", "cabecera": ["Determinante (+ nombre)", "Pronombre (sin nombre)", "Significado"], "filas": [
-   ["chaque (chaque jour)", "chacun, chacune", "cada / cada uno"],
-   ["quelques (quelques livres)", "quelques-uns, quelques-unes", "unos cuantos, algunos"],
-   ["plusieurs", "plusieurs", "varios"],
-   ["certains, certaines", "certains, certaines", "algunos, ciertos"],
-   ["aucun, aucune (+ ne)", "aucun, aucune (+ ne)", "ningún / ninguno"],
-   ["un autre, d'autres", "un autre, les autres", "otro, otros"]
-  ]},
-  {"tipo": "texto", "texto": "Quelqu'un (alguien) y quelque chose (algo) son invariables. Si llevan adjetivo, se intercala de: quelqu'un de légendaire, quelque chose d'extraordinaire, rien d'autre. Sus negativos son personne y rien, con ne: Je n'ai vu personne. Il n'y a rien ici."},
-  {"tipo": "lista", "items": [
-   "Chaque va siempre con nombre y en singular; chacun lo sustituye: chaque étudiant / chacun a son livre.",
-   "Autre siempre lleva determinante: un autre café (otro café, nunca «autre café» solo), d'autres questions (otras preguntas).",
-   "N'importe qui (cualquiera), n'importe quoi (cualquier cosa, tonterías), n'importe où (en cualquier sitio).",
-   "Quiconque (quienquiera que), tel / telle (tal): Tel père, tel fils."
-  ]},
-  {"tipo": "texto", "texto": "Para el hispanohablante: «algunos» se dice quelques (pocos, unos cuantos) o certains (unos sí, otros no). «Varios» es plusieurs, invariable en género: plusieurs amis, plusieurs amies."}
+  {
+   "tipo": "tabla",
+   "cabecera": [
+    "Determinante (+ nombre)",
+    "Pronombre (sin nombre)",
+    "Significado"
+   ],
+   "filas": [
+    [
+     "chaque (chaque jour)",
+     "chacun, chacune",
+     "cada / cada uno"
+    ],
+    [
+     "quelques (quelques livres)",
+     "quelques-uns, quelques-unes",
+     "unos cuantos, algunos"
+    ],
+    [
+     "plusieurs",
+     "plusieurs",
+     "varios"
+    ],
+    [
+     "certains, certaines",
+     "certains, certaines",
+     "algunos, ciertos"
+    ],
+    [
+     "aucun, aucune (+ ne)",
+     "aucun, aucune (+ ne)",
+     "ningún / ninguno"
+    ],
+    [
+     "un autre, d'autres",
+     "un autre, les autres",
+     "otro, otros"
+    ]
+   ]
+  },
+  {
+   "tipo": "texto",
+   "texto": "Quelqu'un (alguien) y quelque chose (algo) son invariables. Si llevan adjetivo, se intercala de: quelqu'un de légendaire, quelque chose d'extraordinaire, rien d'autre. Sus negativos son personne y rien, con ne: Je n'ai vu personne. Il n'y a rien ici."
+  },
+  {
+   "tipo": "lista",
+   "items": [
+    "Chaque va siempre con nombre y en singular; chacun lo sustituye: chaque étudiant / chacun a son livre.",
+    "Autre siempre lleva determinante: un autre café (otro café, nunca «autre café» solo), d'autres questions (otras preguntas).",
+    "N'importe qui (cualquiera), n'importe quoi (cualquier cosa, tonterías), n'importe où (en cualquier sitio).",
+    "Quiconque (quienquiera que), tel / telle (tal): Tel père, tel fils."
+   ]
+  },
+  {
+   "tipo": "texto",
+   "texto": "Para el hispanohablante: «algunos» se dice quelques (pocos, unos cuantos) o certains (unos sí, otros no). «Varios» es plusieurs, invariable en género: plusieurs amis, plusieurs amies."
+  }
  ],
  "ejemplos": [
-  {"frase": "Quelque chose d'extraordinaire est arrivé aujourd'hui.", "traduccion": "Hoy ha pasado algo extraordinario."},
-  {"frase": "Chaque jour, tu trouves une méchanceté à dire.", "traduccion": "Cada día encuentras alguna maldad que decir."},
-  {"frase": "Certains éditeurs pensent qu'il aura le prix Goncourt.", "traduccion": "Algunos editores creen que ganará el premio Goncourt."},
-  {"frase": "Ils ont chacun un vélo.", "traduccion": "Cada uno tiene una bicicleta."},
-  {"frase": "J'ai rencontré beaucoup de joueurs, mais aucun ne me plaît.", "traduccion": "He conocido a muchos jugadores, pero ninguno me gusta."},
-  {"frase": "Tu racontes n'importe quoi !", "traduccion": "¡Dices tonterías!"}
+  {
+   "frase": "Quelque chose d'extraordinaire est arrivé aujourd'hui.",
+   "traduccion": "Hoy ha pasado algo extraordinario."
+  },
+  {
+   "frase": "Chaque jour, tu trouves une méchanceté à dire.",
+   "traduccion": "Cada día encuentras alguna maldad que decir."
+  },
+  {
+   "frase": "Certains éditeurs pensent qu'il aura le prix Goncourt.",
+   "traduccion": "Algunos editores creen que ganará el premio Goncourt."
+  },
+  {
+   "frase": "Ils ont chacun un vélo.",
+   "traduccion": "Cada uno tiene una bicicleta."
+  },
+  {
+   "frase": "J'ai rencontré beaucoup de joueurs, mais aucun ne me plaît.",
+   "traduccion": "He conocido a muchos jugadores, pero ninguno me gusta."
+  },
+  {
+   "frase": "Tu racontes n'importe quoi !",
+   "traduccion": "¡Dices tonterías!"
+  }
  ],
  "errores_hispanohablantes": [
-  {"mal": "J'ai vu quelque chose intéressant.", "bien": "J'ai vu quelque chose d'intéressant.", "nota": "Quelque chose / quelqu'un / rien + de + adjetivo."},
-  {"mal": "Chaque a son opinion.", "bien": "Chacun a son opinion.", "nota": "Chaque necesita un nombre; sin nombre se usa chacun."},
-  {"mal": "Tu veux autre café ?", "bien": "Tu veux un autre café ?", "nota": "Autre necesita determinante: «otro» es un autre."}
+  {
+   "mal": "J'ai vu quelque chose intéressant.",
+   "bien": "J'ai vu quelque chose d'intéressant.",
+   "nota": "Quelque chose / quelqu'un / rien + de + adjetivo."
+  },
+  {
+   "mal": "Chaque a son opinion.",
+   "bien": "Chacun a son opinion.",
+   "nota": "Chaque necesita un nombre; sin nombre se usa chacun."
+  },
+  {
+   "mal": "Tu veux autre café ?",
+   "bien": "Tu veux un autre café ?",
+   "nota": "Autre necesita determinante: «otro» es un autre."
+  }
  ],
  "ejercicios": [
-  {"id": "e01", "tipo": "hueco", "enunciado": "Completa con el indefinido adecuado (algo).", "frase": "Dis ___ !", "respuestas": ["quelque chose"], "explicacion": "«Algo» se dice quelque chose.", "origen": "tatoeba:1658129"},
-  {"id": "e02", "tipo": "hueco", "enunciado": "Completa con el indefinido adecuado (cada uno).", "frase": "Ils ont ___ un vélo.", "respuestas": ["chacun"], "explicacion": "Pronombre sin nombre: chacun.", "origen": "tatoeba:133582"},
-  {"id": "e03", "tipo": "eleccion", "enunciado": "Elige la opción correcta.", "frase": "Je viens ici ___ jour.", "opciones": ["chaque", "chacun", "plusieurs"], "respuestas": ["chaque"], "explicacion": "Delante de un nombre singular: chaque (determinante).", "origen": "tatoeba:2069634"},
-  {"id": "e04", "tipo": "eleccion", "enunciado": "Elige la opción correcta.", "frase": "Je parle ___ langues.", "opciones": ["plusieurs", "chaque", "aucune"], "respuestas": ["plusieurs"], "explicacion": "Varios + plural: plusieurs.", "origen": "tatoeba:12316099"},
-  {"id": "e05", "tipo": "corregir", "enunciado": "Corrige el error.", "frase": "J'ai quelque chose urgent.", "respuestas": ["J'ai quelque chose d'urgent."], "explicacion": "Quelque chose + de + adjetivo: quelque chose d'urgent.", "origen": "tatoeba:395616"},
-  {"id": "e06", "tipo": "transformar", "enunciado": "Pon la frase en negativa (quelque chose → rien).", "frase": "Il y a quelque chose ici.", "respuestas": ["Il n'y a rien ici."], "explicacion": "El negativo de quelque chose es ne… rien.", "origen": "tatoeba:7695726"},
-  {"id": "e07", "tipo": "transformar", "enunciado": "Pon la frase en negativa (quelque chose → rien).", "frase": "Elle a dit quelque chose.", "respuestas": ["Elle n'a rien dit."], "explicacion": "Rien va entre el auxiliar y el participio.", "origen": "tatoeba:2927147"},
-  {"id": "e08", "tipo": "ordenar", "enunciado": "Ordena las palabras.", "palabras": ["dire", "quelque", "J'ai", "à", "chose"], "respuestas": ["J'ai quelque chose à dire"], "explicacion": "Quelque chose à + infinitivo: algo que hacer.", "origen": "tatoeba:7157498"},
-  {"id": "e09", "tipo": "hueco", "enunciado": "Completa con el indefinido adecuado (unas pocas).", "frase": "Elle a dormi ___ heures.", "respuestas": ["quelques"], "explicacion": "Determinante plural: quelques heures (unas horas).", "origen": "tatoeba:1530235"},
-  {"id": "e10", "tipo": "eleccion", "enunciado": "Elige la opción correcta.", "frase": "À ___ la sienne.", "opciones": ["chacun", "chaque", "quelqu'un"], "respuestas": ["chacun"], "explicacion": "Sin nombre detrás: pronombre chacun (a cada uno la suya).", "origen": "tatoeba:962229"},
-  {"id": "e11", "tipo": "eleccion", "enunciado": "Elige la opción correcta.", "frase": "J'ai rencontré beaucoup de joueurs, mais ___ ne me plaît.", "opciones": ["aucun", "chacun", "quelques-uns"], "respuestas": ["aucun"], "explicacion": "Ninguno (de ellos) + ne: aucun, en singular."},
-  {"id": "e12", "tipo": "eleccion", "enunciado": "Elige la opción correcta.", "frase": "Mes amies ? ___ adorent le jazz, d'autres préfèrent le rock.", "opciones": ["Certaines", "Chacune", "Aucune"], "respuestas": ["Certaines"], "explicacion": "Algunas (frente a otras): certaines, femenino plural."},
-  {"id": "e13", "tipo": "corregir", "enunciado": "Corrige el error.", "frase": "Chaque a son opinion.", "respuestas": ["Chacun a son opinion."], "explicacion": "Sin nombre, «cada uno» es chacun."},
-  {"id": "e14", "tipo": "hueco", "enunciado": "Completa la expresión.", "frase": "Tu racontes n'importe ___ !", "respuestas": ["quoi"], "explicacion": "N'importe quoi: cualquier cosa, tonterías."},
-  {"id": "e15", "tipo": "eleccion", "enunciado": "Elige la opción correcta.", "frase": "Tu veux un ___ café ?", "opciones": ["autre", "autres", "d'autre"], "respuestas": ["autre"], "explicacion": "Un autre + nombre singular: otro café."},
-  {"id": "e16", "tipo": "hueco", "enunciado": "Completa con el indefinido adecuado (alguien).", "frase": "Il y a ___ à la porte.", "respuestas": ["quelqu'un"], "explicacion": "«Alguien» se dice quelqu'un."}
+  {
+   "id": "e01",
+   "tipo": "hueco",
+   "enunciado": "Completa con el indefinido adecuado (algo).",
+   "frase": "Dis ___ !",
+   "respuestas": [
+    "quelque chose"
+   ],
+   "explicacion": "Se aplica la regla de la ficha según la cual «algo» se dice quelque chose, un pronombre indefinido invariable formado por dos palabras. La pista es el imperativo dis, que pide un complemento directo indeterminado. Aunque chose es femenino como nombre, quelque chose se comporta como masculino: quelque chose de beau.",
+   "origen": "tatoeba:1658129",
+   "explicacion_breve": "«Algo» se dice quelque chose.",
+   "traduccion": "¡Di algo!",
+   "errores_previstos": [
+    {
+     "respuesta": "quelquechose",
+     "explicacion": "Se escribe en dos palabras separadas: quelque chose."
+    },
+    {
+     "respuesta": "quelques choses",
+     "explicacion": "Quelques choses significa «algunas cosas»; el pronombre «algo» es invariable y en singular: quelque chose."
+    },
+    {
+     "respuesta": "rien",
+     "explicacion": "Rien es «nada», el negativo de quelque chose, y además necesitaría ne."
+    }
+   ]
+  },
+  {
+   "id": "e02",
+   "tipo": "hueco",
+   "enunciado": "Completa con el indefinido adecuado (cada uno).",
+   "frase": "Ils ont ___ un vélo.",
+   "respuestas": [
+    "chacun"
+   ],
+   "explicacion": "Se aplica la distinción de la tabla entre determinante y pronombre: chaque necesita un nombre detrás, mientras que chacun lo sustituye. Aquí no hay nombre después del hueco (sigue un vélo, que es el complemento), así que hace falta el pronombre chacun, «cada uno». Va en masculino porque el sujeto ils es masculino o mixto.",
+   "origen": "tatoeba:133582",
+   "explicacion_breve": "Pronombre sin nombre: chacun.",
+   "traduccion": "Cada uno de ellos tiene una bicicleta.",
+   "errores_previstos": [
+    {
+     "respuesta": "chaque",
+     "explicacion": "Chaque es determinante y necesita un nombre detrás (chaque élève); sin nombre se usa el pronombre chacun."
+    },
+    {
+     "respuesta": "chacune",
+     "explicacion": "Chacune es la forma femenina; con el sujeto ils se usa chacun."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "un vélo",
+     "significado": "una bicicleta"
+    }
+   ]
+  },
+  {
+   "id": "e03",
+   "tipo": "eleccion",
+   "enunciado": "Elige la opción correcta.",
+   "frase": "Je viens ici ___ jour.",
+   "opciones": [
+    "chaque",
+    "chacun",
+    "plusieurs"
+   ],
+   "respuestas": [
+    "chaque"
+   ],
+   "explicacion": "Se aplica la regla de la ficha: chaque va siempre con un nombre y en singular. La pista es el sustantivo jour, singular, justo después del hueco. Chacun no puede ir delante de un nombre y plusieurs exige un plural.",
+   "origen": "tatoeba:2069634",
+   "explicacion_breve": "Delante de un nombre singular: chaque (determinante).",
+   "traduccion": "Vengo aquí cada día.",
+   "por_opcion": {
+    "chaque": "Correcta: determinante que acompaña a un nombre singular, «cada día».",
+    "chacun": "Incorrecta: es pronombre y sustituye al nombre; no puede ir delante de jour.",
+    "plusieurs": "Incorrecta: significa «varios» y exige un nombre plural (plusieurs jours)."
+   }
+  },
+  {
+   "id": "e04",
+   "tipo": "eleccion",
+   "enunciado": "Elige la opción correcta.",
+   "frase": "Je parle ___ langues.",
+   "opciones": [
+    "plusieurs",
+    "chaque",
+    "aucune"
+   ],
+   "respuestas": [
+    "plusieurs"
+   ],
+   "explicacion": "Se aplica la regla de plusieurs, «varios», invariable en género y siempre con nombre plural. La pista es langues, en plural. Chaque exige singular y aucune necesitaría ne y significaría lo contrario.",
+   "origen": "tatoeba:12316099",
+   "explicacion_breve": "Varios + plural: plusieurs.",
+   "traduccion": "Hablo varios idiomas.",
+   "por_opcion": {
+    "plusieurs": "Correcta: «varios», con nombre plural.",
+    "chaque": "Incorrecta: «cada» va con nombre singular (chaque langue).",
+    "aucune": "Incorrecta: «ninguna» necesita ne y nombre singular (je ne parle aucune langue)."
+   }
+  },
+  {
+   "id": "e05",
+   "tipo": "corregir",
+   "enunciado": "Corrige el error.",
+   "frase": "J'ai quelque chose urgent.",
+   "respuestas": [
+    "J'ai quelque chose d'urgent."
+   ],
+   "explicacion": "El error es la falta de de entre quelque chose y el adjetivo. La ficha indica que quelqu'un, quelque chose y rien intercalan de antes de un adjetivo, y como urgent empieza por vocal, de se apostrofa: quelque chose d'urgent. El adjetivo va en masculino singular.",
+   "origen": "tatoeba:395616",
+   "explicacion_breve": "Quelque chose + de + adjetivo: quelque chose d'urgent.",
+   "traduccion": "Tengo algo urgente.",
+   "errores_previstos": [
+    {
+     "respuesta": "J'ai quelque chose urgent.",
+     "explicacion": "Es dejar la frase sin corregir: entre quelque chose y el adjetivo hace falta de."
+    },
+    {
+     "respuesta": "J'ai quelque chose de urgent.",
+     "explicacion": "Se ha añadido de, pero ante vocal se apostrofa: d'urgent."
+    },
+    {
+     "respuesta": "J'ai quelque chose d'urgente.",
+     "explicacion": "Quelque chose se comporta como masculino: el adjetivo va en masculino, d'urgent."
+    }
+   ]
+  },
+  {
+   "id": "e06",
+   "tipo": "transformar",
+   "enunciado": "Pon la frase en negativa (quelque chose → rien).",
+   "frase": "Il y a quelque chose ici.",
+   "respuestas": [
+    "Il n'y a rien ici."
+   ],
+   "explicacion": "Se aplica la regla de la ficha según la cual el negativo de quelque chose es ne… rien. Rien sustituye a pas, de modo que no se dice ne… pas rien. Con il y a, ne se apostrofa ante y: il n'y a rien ici.",
+   "origen": "tatoeba:7695726",
+   "explicacion_breve": "El negativo de quelque chose es ne… rien.",
+   "traduccion": "No hay nada aquí.",
+   "errores_previstos": [
+    {
+     "respuesta": "Il n'y a pas rien ici.",
+     "explicacion": "Rien ocupa el lugar de pas; no se usan los dos a la vez."
+    },
+    {
+     "respuesta": "Il y a rien ici.",
+     "explicacion": "Así se oye en la lengua hablada, pero por escrito la negación necesita ne: il n'y a rien."
+    },
+    {
+     "respuesta": "Il n'y a pas quelque chose ici.",
+     "explicacion": "Quelque chose no se niega con pas; su negativo es rien."
+    }
+   ]
+  },
+  {
+   "id": "e07",
+   "tipo": "transformar",
+   "enunciado": "Pon la frase en negativa (quelque chose → rien).",
+   "frase": "Elle a dit quelque chose.",
+   "respuestas": [
+    "Elle n'a rien dit."
+   ],
+   "explicacion": "Se aplica de nuevo el paso de quelque chose a ne… rien, con una precisión de posición: en los tiempos compuestos rien va entre el auxiliar y el participio, igual que pas. Por eso se dice elle n'a rien dit, y no elle n'a dit rien. El orden del español («no dijo nada») engaña aquí.",
+   "origen": "tatoeba:2927147",
+   "explicacion_breve": "Rien va entre el auxiliar y el participio.",
+   "traduccion": "Ella no dijo nada.",
+   "errores_previstos": [
+    {
+     "respuesta": "Elle n'a dit rien.",
+     "explicacion": "Es el calco del orden español; en los tiempos compuestos rien va antes del participio: n'a rien dit."
+    },
+    {
+     "respuesta": "Elle n'a pas rien dit.",
+     "explicacion": "Rien sustituye a pas; no se acumulan."
+    },
+    {
+     "respuesta": "Elle a rien dit.",
+     "explicacion": "Falta ne; en la lengua escrita es obligatorio: elle n'a rien dit."
+    }
+   ]
+  },
+  {
+   "id": "e08",
+   "tipo": "ordenar",
+   "enunciado": "Ordena las palabras.",
+   "palabras": [
+    "dire",
+    "quelque",
+    "J'ai",
+    "à",
+    "chose"
+   ],
+   "respuestas": [
+    "J'ai quelque chose à dire"
+   ],
+   "explicacion": "La ficha explica que quelque chose es un pronombre invariable; seguido de à + infinitivo expresa algo pendiente de hacer, como el español «algo que decir». El orden es sujeto y verbo (j'ai), el pronombre quelque chose y después à dire. En español usamos «que», pero en francés la preposición es à.",
+   "origen": "tatoeba:7157498",
+   "explicacion_breve": "Quelque chose à + infinitivo: algo que hacer.",
+   "traduccion": "Tengo algo que decir.",
+   "errores_previstos": [
+    {
+     "respuesta": "J'ai chose quelque à dire",
+     "explicacion": "El pronombre es quelque chose, en este orden."
+    },
+    {
+     "respuesta": "J'ai à dire quelque chose",
+     "explicacion": "Esta frase existe pero cambia el sentido («tengo que decir algo»); la construcción pedida es quelque chose à dire, con à detrás del pronombre."
+    }
+   ]
+  },
+  {
+   "id": "e09",
+   "tipo": "hueco",
+   "enunciado": "Completa con el indefinido adecuado (unas pocas).",
+   "frase": "Elle a dormi ___ heures.",
+   "respuestas": [
+    "quelques"
+   ],
+   "explicacion": "Se aplica la regla de quelques, determinante plural que significa «unos cuantos, unos pocos». La pista es el nombre plural heures y el enunciado («unas pocas»). La ficha recuerda que quelques expresa una cantidad pequeña, mientras certains contrapone unos a otros.",
+   "origen": "tatoeba:1530235",
+   "explicacion_breve": "Determinante plural: quelques heures (unas horas).",
+   "traduccion": "Ha dormido unas pocas horas.",
+   "errores_previstos": [
+    {
+     "respuesta": "quelque",
+     "explicacion": "Ante un nombre plural, quelques lleva -s."
+    },
+    {
+     "respuesta": "certaines",
+     "explicacion": "Certaines significa «ciertas», en contraste con otras; para «unas pocas horas» se usa quelques."
+    },
+    {
+     "respuesta": "quelques-unes",
+     "explicacion": "Es el pronombre y va sin nombre; delante de heures hace falta el determinante quelques."
+    }
+   ]
+  },
+  {
+   "id": "e10",
+   "tipo": "eleccion",
+   "enunciado": "Elige la opción correcta.",
+   "frase": "À ___ la sienne.",
+   "opciones": [
+    "chacun",
+    "chaque",
+    "quelqu'un"
+   ],
+   "respuestas": [
+    "chacun"
+   ],
+   "explicacion": "Se aplica la distinción entre determinante y pronombre: después del hueco no hay nombre, sino el pronombre posesivo la sienne, así que hace falta el pronombre chacun, «cada uno». La expresión à chacun le sien (o la sienne) es una frase hecha que significa que cada persona tiene lo suyo, sus gustos o su opinión.",
+   "origen": "tatoeba:962229",
+   "explicacion_breve": "Sin nombre detrás: pronombre chacun (a cada uno la suya).",
+   "traduccion": "A cada uno la suya. (Cada cual con lo suyo.)",
+   "por_opcion": {
+    "chacun": "Correcta: pronombre, «a cada uno»; no necesita nombre detrás.",
+    "chaque": "Incorrecta: es determinante y necesita un nombre detrás (à chaque personne).",
+    "quelqu'un": "Incorrecta: significa «alguien»; à quelqu'un la sienne no tiene sentido."
+   }
+  },
+  {
+   "id": "e11",
+   "tipo": "eleccion",
+   "enunciado": "Elige la opción correcta.",
+   "frase": "J'ai rencontré beaucoup de joueurs, mais ___ ne me plaît.",
+   "opciones": [
+    "aucun",
+    "chacun",
+    "quelques-uns"
+   ],
+   "respuestas": [
+    "aucun"
+   ],
+   "explicacion": "Se aplica la fila de aucun, «ninguno», que va acompañado de ne y en singular. La pista es el ne que aparece ya en la frase (ne me plaît) y el verbo plaît, en singular. Aucun retoma joueurs, masculino; si fueran mujeres sería aucune.",
+   "explicacion_breve": "Ninguno (de ellos) + ne: aucun, en singular.",
+   "traduccion": "He conocido a muchos jugadores, pero no me gusta ninguno.",
+   "por_opcion": {
+    "aucun": "Correcta: «ninguno», con ne y verbo en singular.",
+    "chacun": "Incorrecta: «cada uno» no se usa con ne en este sentido; chacun ne me plaît diría algo incoherente.",
+    "quelques-uns": "Incorrecta: es plural, no concuerda con plaît, y significa «algunos», no «ninguno»."
+   }
+  },
+  {
+   "id": "e12",
+   "tipo": "eleccion",
+   "enunciado": "Elige la opción correcta.",
+   "frase": "Mes amies ? ___ adorent le jazz, d'autres préfèrent le rock.",
+   "opciones": [
+    "Certaines",
+    "Chacune",
+    "Aucune"
+   ],
+   "respuestas": [
+    "Certaines"
+   ],
+   "explicacion": "Se aplica la regla de certains, certaines: «algunos» en el sentido de «unos sí, otros no», como explica el apunte para hispanohablantes de la ficha. La pista es la oposición con d'autres préfèrent, y el femenino plural de amies y adorent. Chacune y aucune no encajan con el contraste ni con el verbo en plural.",
+   "explicacion_breve": "Algunas (frente a otras): certaines, femenino plural.",
+   "traduccion": "¿Mis amigas? Algunas adoran el jazz, otras prefieren el rock.",
+   "por_opcion": {
+    "Certaines": "Correcta: «algunas», en contraste con d'autres; femenino plural como amies.",
+    "Chacune": "Incorrecta: es singular (exigiría adore) y significa «cada una», sin contraste con otras.",
+    "Aucune": "Incorrecta: «ninguna» exige ne y verbo en singular, y contradice la frase."
+   }
+  },
+  {
+   "id": "e13",
+   "tipo": "corregir",
+   "enunciado": "Corrige el error.",
+   "frase": "Chaque a son opinion.",
+   "respuestas": [
+    "Chacun a son opinion."
+   ],
+   "explicacion": "El error es usar el determinante chaque sin nombre detrás. La ficha lo recoge como error típico: chaque necesita un nombre (chaque personne) y, si va solo, se usa el pronombre chacun. Como sujeto genérico, chacun va en masculino.",
+   "explicacion_breve": "Sin nombre, «cada uno» es chacun.",
+   "traduccion": "Cada uno tiene su opinión.",
+   "errores_previstos": [
+    {
+     "respuesta": "Chaque a son opinion.",
+     "explicacion": "Es dejar la frase sin corregir: chaque no puede ir sin nombre."
+    },
+    {
+     "respuesta": "Chaque un a son opinion.",
+     "explicacion": "Es un calco de «cada uno»; en francés es una sola palabra: chacun."
+    }
+   ]
+  },
+  {
+   "id": "e14",
+   "tipo": "hueco",
+   "enunciado": "Completa la expresión.",
+   "frase": "Tu racontes n'importe ___ !",
+   "respuestas": [
+    "quoi"
+   ],
+   "explicacion": "Se aplica la lista de la ficha: n'importe quoi significa «cualquier cosa» y, con verbos como dire o raconter, «tonterías». La pista es el verbo raconter, que remite a cosas dichas. N'importe qui sería «cualquiera» (persona) y n'importe où, «en cualquier sitio».",
+   "explicacion_breve": "N'importe quoi: cualquier cosa, tonterías.",
+   "traduccion": "¡Estás diciendo tonterías! (¡Dices cualquier cosa!)",
+   "errores_previstos": [
+    {
+     "respuesta": "qui",
+     "explicacion": "N'importe qui significa «cualquiera» referido a personas; para «cualquier cosa, tonterías» es n'importe quoi."
+    },
+    {
+     "respuesta": "que",
+     "explicacion": "N'importe que no existe como locución; la forma tónica de «qué» aquí es quoi."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "raconter n'importe quoi",
+     "significado": "decir tonterías, hablar sin fundamento"
+    }
+   ]
+  },
+  {
+   "id": "e15",
+   "tipo": "eleccion",
+   "enunciado": "Elige la opción correcta.",
+   "frase": "Tu veux un ___ café ?",
+   "opciones": [
+    "autre",
+    "autres",
+    "d'autre"
+   ],
+   "respuestas": [
+    "autre"
+   ],
+   "explicacion": "Se aplica la regla de la ficha según la cual autre siempre lleva determinante: «otro café» es un autre café. Aquí el determinante un ya está en la frase, así que solo falta autre en singular, concordando con café. Es el error típico que recoge la ficha (tu veux autre café, sin un).",
+   "explicacion_breve": "Un autre + nombre singular: otro café.",
+   "traduccion": "¿Quieres otro café?",
+   "por_opcion": {
+    "autre": "Correcta: singular, tras el determinante un y antes de café.",
+    "autres": "Incorrecta: el plural no concuerda con un café.",
+    "d'autre": "Incorrecta: d'autres es el plural sin artículo (d'autres cafés); un d'autre no existe."
+   }
+  },
+  {
+   "id": "e16",
+   "tipo": "hueco",
+   "enunciado": "Completa con el indefinido adecuado (alguien).",
+   "frase": "Il y a ___ à la porte.",
+   "respuestas": [
+    "quelqu'un"
+   ],
+   "explicacion": "Se aplica la regla de quelqu'un, «alguien», pronombre invariable que se escribe con apóstrofo. La pista es il y a seguido de un ser indeterminado que llama a la puerta. Su negativo sería personne: il n'y a personne à la porte.",
+   "explicacion_breve": "«Alguien» se dice quelqu'un.",
+   "traduccion": "Hay alguien en la puerta.",
+   "errores_previstos": [
+    {
+     "respuesta": "quelque un",
+     "explicacion": "Se escribe en una sola palabra con apóstrofo: quelqu'un."
+    },
+    {
+     "respuesta": "personne",
+     "explicacion": "Personne es «nadie» y necesita ne; en afirmativo «alguien» es quelqu'un."
+    },
+    {
+     "respuesta": "quelqu'une",
+     "explicacion": "Quelqu'un es invariable cuando significa «alguien», aunque sea una mujer."
+    }
+   ]
+  }
  ],
- "fuente": {"nombre": "Tex's French Grammar", "autores": "COERLL, Universidad de Texas en Austin", "licencia": "CC BY 3.0", "url": "https://laits.utexas.edu/tex/gr/det10.html", "otras": ["Frases de Tatoeba (CC BY 2.0 FR)"]}
+ "fuente": {
+  "nombre": "Tex's French Grammar",
+  "autores": "COERLL, Universidad de Texas en Austin",
+  "licencia": "CC BY 3.0",
+  "url": "https://laits.utexas.edu/tex/gr/det10.html",
+  "otras": [
+   "Frases de Tatoeba (CC BY 2.0 FR)"
+  ]
+ },
+ "descripcion_larga_es": "Los indefinidos hablan de personas, cosas o cantidades sin precisarlas: alguien, algo, cada, cada uno, varios, algunos, ninguno, otro. En francés hay que distinguir entre los que acompañan a un nombre (chaque, quelques) y los que lo sustituyen (chacun, quelques-uns), y aplicar reglas que el español no tiene, como quelque chose de + adjetivo o un autre con determinante obligatorio.",
+ "contexto": {
+  "que_es": "Son determinantes y pronombres que designan de forma vaga a personas, cosas o cantidades. Los determinantes van delante de un nombre (chaque jour, plusieurs langues, quelques heures) y los pronombres ocupan su lugar (chacun, quelqu'un, quelque chose, aucun). Algunos tienen negativo propio: quelqu'un → personne, quelque chose → rien.",
+  "por_que_importa": "Aparecen en casi cualquier frase de la vida diaria (alguien llama, algo pasa, cada día, varios amigos) y en la argumentación (certains pensent que…, d'autres…). Errores como chaque a son opinion, quelque chose intéressant o tu veux autre café se notan enseguida y suenan a calco del español. Distinguir quelques (unos pocos) de certains (unos sí, otros no) permite además matizar con precisión.",
+  "cuando_se_usa": "Se eligen según dos preguntas: ¿hay un nombre detrás? (chaque, quelques, plusieurs) o ¿el indefinido va solo? (chacun, quelques-uns, quelqu'un); y ¿la frase es afirmativa o negativa? (quelque chose / rien, quelqu'un / personne). El hispanohablante debe vigilar la preposición de ante adjetivo (quelque chose d'urgent) y el artículo de autre (un autre), que el español no necesita."
+ }
 }

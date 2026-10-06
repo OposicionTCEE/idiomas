@@ -207,7 +207,33 @@
     "Ma",
     "ma"
    ],
-   "explicacion": "Sœur es femenino y empieza por consonante: ma."
+   "explicacion": "Se aplica la regla de los posesivos de la ficha: «ma» con sustantivo femenino singular que empieza por consonante. La pista es «sœur», que es femenino y empieza por s. Como va a principio de frase se escribe con mayúscula, aunque se acepta también en minúscula.",
+   "explicacion_breve": "Sœur es femenino y empieza por consonante: ma.",
+   "traduccion": "Mi hermana vive en Lyon.",
+   "errores_previstos": [
+    {
+     "respuesta": "Mon",
+     "explicacion": "«Mon» se usa con masculinos o con femeninos que empiezan por vocal; «sœur» empieza por consonante, así que es «ma»."
+    },
+    {
+     "respuesta": "Mes",
+     "explicacion": "«Mes» es plural y el verbo «habite» indica una sola hermana."
+    },
+    {
+     "respuesta": "Sa",
+     "explicacion": "«Sa» significa su (de él o de ella); el enunciado habla de la propia hermana: «ma»."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "la sœur",
+     "significado": "la hermana"
+    },
+    {
+     "palabra": "habiter",
+     "significado": "vivir, residir"
+    }
+   ]
   },
   {
    "id": "e02",
@@ -217,7 +243,25 @@
    "respuestas": [
     "mon"
    ],
-   "explicacion": "Ante vocal se usa mon, aunque amie sea femenino."
+   "explicacion": "Es la excepción que destaca la ficha: ante un sustantivo femenino que empieza por vocal se usa «mon», no «ma», para evitar el choque de dos vocales. La pista es «amie», que empieza por a. Se escribe «mon amie» y se pronuncia con enlace: «mo-na-mi».",
+   "explicacion_breve": "Ante vocal se usa mon, aunque amie sea femenino.",
+   "traduccion": "Es mi amiga Julie.",
+   "errores_previstos": [
+    {
+     "respuesta": "ma",
+     "explicacion": "Es el error típico del hispanohablante: aunque «amie» sea femenino, empieza por vocal y el posesivo es «mon»."
+    },
+    {
+     "respuesta": "m'",
+     "explicacion": "El posesivo no se apostrofa en francés: «mon amie», no «m'amie» (forma antigua)."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "l'amie",
+     "significado": "la amiga"
+    }
+   ]
   },
   {
    "id": "e03",
@@ -228,7 +272,33 @@
     "Mes",
     "mes"
    ],
-   "explicacion": "Plural: mes."
+   "explicacion": "Se aplica la regla del posesivo plural: «mes» para cualquier sustantivo en plural, masculino o femenino. La pista es «parents» y el verbo «sont». Recuerda que «les parents» son los padres (padre y madre) y que «à la retraite» significa jubilado.",
+   "explicacion_breve": "Plural: mes.",
+   "traduccion": "Mis padres están jubilados.",
+   "errores_previstos": [
+    {
+     "respuesta": "Mis",
+     "explicacion": "Es el posesivo español; en francés es «mes»."
+    },
+    {
+     "respuesta": "Mon",
+     "explicacion": "«Mon» es singular; con «parents» en plural va «mes»."
+    },
+    {
+     "respuesta": "Les miens",
+     "explicacion": "«Les miens» es pronombre (los míos) y no puede ir delante de un sustantivo."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "les parents",
+     "significado": "los padres; también los parientes"
+    },
+    {
+     "palabra": "être à la retraite",
+     "significado": "estar jubilado"
+    }
+   ]
   },
   {
    "id": "e04",
@@ -243,7 +313,28 @@
    "respuestas": [
     "grand-mère"
    ],
-   "explicacion": "La madre del padre es la abuela."
+   "explicacion": "Es una cuestión de parentesco de la tabla: la madre del padre es la abuela, «la grand-mère». La pista es la relación «la mère de mon père». Hay que distinguirla de «belle-mère», que es la suegra o la madrastra, y de «tante», la tía.",
+   "explicacion_breve": "La madre del padre es la abuela.",
+   "traduccion": "La madre de mi padre es mi abuela.",
+   "por_opcion": {
+    "grand-mère": "Correcta: la abuela, madre del padre o de la madre.",
+    "belle-mère": "Incorrecta: es la suegra (madre del cónyuge) o la madrastra (mujer del padre).",
+    "tante": "Incorrecta: es la tía, hermana del padre o de la madre."
+   },
+   "glosario": [
+    {
+     "palabra": "la grand-mère",
+     "significado": "la abuela"
+    },
+    {
+     "palabra": "la belle-mère",
+     "significado": "la suegra; la madrastra"
+    },
+    {
+     "palabra": "la tante",
+     "significado": "la tía"
+    }
+   ]
   },
   {
    "id": "e05",
@@ -258,7 +349,28 @@
    "respuestas": [
     "neveu"
    ],
-   "explicacion": "El hijo de un hermano es el sobrino."
+   "explicacion": "La tabla recoge «le neveu / la nièce»: el hijo de un hermano o hermana es el sobrino. La pista es «le fils de ma sœur». No hay que confundirlo con «cousin» (primo, hijo de un tío) ni con «petit-fils» (nieto).",
+   "explicacion_breve": "El hijo de un hermano es el sobrino.",
+   "traduccion": "El hijo de mi hermana es mi sobrino.",
+   "por_opcion": {
+    "neveu": "Correcta: sobrino, hijo del hermano o de la hermana.",
+    "cousin": "Incorrecta: es el primo, hijo de un tío o una tía.",
+    "petit-fils": "Incorrecta: es el nieto, hijo de un hijo o una hija."
+   },
+   "glosario": [
+    {
+     "palabra": "le neveu",
+     "significado": "el sobrino"
+    },
+    {
+     "palabra": "le fils",
+     "significado": "el hijo"
+    },
+    {
+     "palabra": "le petit-fils",
+     "significado": "el nieto"
+    }
+   ]
   },
   {
    "id": "e06",
@@ -273,7 +385,28 @@
    "respuestas": [
     "cousine"
    ],
-   "explicacion": "La hija del tío es la prima."
+   "explicacion": "Según la tabla, la hija de un tío es la prima, «la cousine». La pista es «la fille de mon oncle» y el posesivo «ma», que exige femenino. «Nièce» sería la sobrina, y «sœur», la hermana.",
+   "explicacion_breve": "La hija del tío es la prima.",
+   "traduccion": "La hija de mi tío es mi prima.",
+   "por_opcion": {
+    "cousine": "Correcta: la prima, hija del tío o de la tía.",
+    "nièce": "Incorrecta: es la sobrina, hija del hermano o la hermana.",
+    "sœur": "Incorrecta: es la hermana; la hija del tío no lo es."
+   },
+   "glosario": [
+    {
+     "palabra": "la cousine",
+     "significado": "la prima"
+    },
+    {
+     "palabra": "l'oncle",
+     "significado": "el tío"
+    },
+    {
+     "palabra": "la fille",
+     "significado": "la hija; también la chica"
+    }
+   ]
   },
   {
    "id": "e07",
@@ -288,7 +421,24 @@
    "respuestas": [
     "a"
    ],
-   "explicacion": "El pelo se describe con avoir."
+   "explicacion": "Es la regla de la lista de la ficha: el pelo y los ojos se describen con «avoir» + artículo definido. La pista es «les cheveux longs» después del hueco. Con el sujeto «ma fille» (tercera persona), «avoir» toma la forma «a». El español también dice «tiene el pelo largo», pero el hispanohablante a veces calca «es rubia» y pasa a «être».",
+   "explicacion_breve": "El pelo se describe con avoir.",
+   "traduccion": "Mi hija tiene el pelo largo.",
+   "por_opcion": {
+    "a": "Correcta: «avoir les cheveux longs», tener el pelo largo.",
+    "est": "Incorrecta: «être» se usa con adjetivos sueltos («elle est blonde»), no con «les cheveux».",
+    "fait": "Incorrecta: «faire» no sirve para describir rasgos físicos."
+   },
+   "glosario": [
+    {
+     "palabra": "avoir les cheveux longs",
+     "significado": "tener el pelo largo"
+    },
+    {
+     "palabra": "les cheveux",
+     "significado": "el pelo (de la cabeza)"
+    }
+   ]
   },
   {
    "id": "e08",
@@ -298,7 +448,33 @@
    "respuestas": [
     "gentille"
    ],
-   "explicacion": "Gentil → gentille."
+   "explicacion": "Se aplica la concordancia del adjetivo, recogida en la tabla como «gentil(le)»: el femenino de «gentil» dobla la l y añade -e, «gentille». La pista es el sujeto «ma tante», femenino. Ojo: «gentil» no significa gentil en el sentido español de elegante, sino amable, bueno.",
+   "explicacion_breve": "Gentil → gentille.",
+   "traduccion": "Mi tía es muy amable.",
+   "errores_previstos": [
+    {
+     "respuesta": "gentile",
+     "explicacion": "El femenino dobla la consonante: «gentille», con dos l."
+    },
+    {
+     "respuesta": "gentil",
+     "explicacion": "Falta la concordancia: «tante» es femenino y pide «gentille»."
+    },
+    {
+     "respuesta": "gentiles",
+     "explicacion": "Es plural y con una sola l; el sujeto es singular: «gentille»."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "gentil, gentille",
+     "significado": "amable, bueno, simpático"
+    },
+    {
+     "palabra": "la tante",
+     "significado": "la tía"
+    }
+   ]
   },
   {
    "id": "e09",
@@ -308,7 +484,33 @@
    "respuestas": [
     "unique"
    ],
-   "explicacion": "Fils unique = hijo único."
+   "explicacion": "La tabla recoge «fils unique / fille unique», hijo o hija único. La pista es la explicación previa: no tener hermanos. «Unique» es invariable en género (sirve para «fils» y «fille»), así que basta con añadir la palabra «unique».",
+   "explicacion_breve": "Fils unique = hijo único.",
+   "traduccion": "No tengo hermanos ni hermanas: soy hijo único.",
+   "errores_previstos": [
+    {
+     "respuesta": "seul",
+     "explicacion": "«Fils seul» no es la expresión; «seul» significa solo, sin compañía. Hijo único es «fils unique»."
+    },
+    {
+     "respuesta": "unico",
+     "explicacion": "Es la forma española; en francés es «unique»."
+    },
+    {
+     "respuesta": "uniques",
+     "explicacion": "Es singular, un solo hijo: «unique», sin -s."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "fils unique",
+     "significado": "hijo único"
+    },
+    {
+     "palabra": "les frères et sœurs",
+     "significado": "los hermanos (de ambos sexos)"
+    }
+   ]
   },
   {
    "id": "e10",
@@ -318,7 +520,33 @@
    "respuestas": [
     "célibataire"
    ],
-   "explicacion": "Célibataire = soltero."
+   "explicacion": "La tabla recoge los estados civiles: «marié(e)», «célibataire», «divorcé(e)». La pista es la oposición con «il n'est pas marié». Soltero se dice «célibataire», palabra que no significa célibe en sentido religioso sino simplemente no casado, y que tiene la misma forma en masculino y femenino.",
+   "explicacion_breve": "Célibataire = soltero.",
+   "traduccion": "No está casado, está soltero.",
+   "errores_previstos": [
+    {
+     "respuesta": "soltero",
+     "explicacion": "Es la palabra española; en francés es «célibataire»."
+    },
+    {
+     "respuesta": "celibataire",
+     "explicacion": "Falta el acento agudo: «célibataire»."
+    },
+    {
+     "respuesta": "seul",
+     "explicacion": "«Seul» significa solo; el estado civil de soltero es «célibataire»."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "célibataire",
+     "significado": "soltero, soltera"
+    },
+    {
+     "palabra": "marié",
+     "significado": "casado"
+    }
+   ]
   },
   {
    "id": "e11",
@@ -328,7 +556,29 @@
    "respuestas": [
     "Mon amie est très sympa."
    ],
-   "explicacion": "Ante vocal, mon."
+   "explicacion": "Es la regla del posesivo ante vocal: con un sustantivo femenino que empieza por vocal se usa «mon». La pista es «amie», que empieza por a. Hay que corregir «ma» por «mon»; el adjetivo «sympa» no cambia porque es invariable en género.",
+   "explicacion_breve": "Ante vocal, mon.",
+   "traduccion": "Mi amiga es muy maja.",
+   "errores_previstos": [
+    {
+     "respuesta": "Ma amie est très sympa.",
+     "explicacion": "Es dejar la frase sin corregir: ante vocal, «mon»."
+    },
+    {
+     "respuesta": "M'amie est très sympa.",
+     "explicacion": "En francés actual el posesivo no se apostrofa: «mon amie»."
+    },
+    {
+     "respuesta": "Mon ami est très sympa.",
+     "explicacion": "Se ha cambiado el posesivo, pero también el sustantivo: «ami» es masculino. La frase hablaba de una amiga: «mon amie»."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "sympa",
+     "significado": "majo, simpático (coloquial)"
+    }
+   ]
   },
   {
    "id": "e12",
@@ -338,7 +588,33 @@
    "respuestas": [
     "Mon frère a les cheveux bruns."
    ],
-   "explicacion": "Avoir les cheveux…"
+   "explicacion": "Es la regla de la lista: el pelo se describe con «avoir les cheveux + color». La pista es «les cheveux bruns»: con artículo y sustantivo, el verbo no puede ser «être». Por eso «est» pasa a «a». Fíjate en que «brun» se traduce por castaño u oscuro, no por marrón.",
+   "explicacion_breve": "Avoir les cheveux…",
+   "traduccion": "Mi hermano tiene el pelo castaño.",
+   "errores_previstos": [
+    {
+     "respuesta": "Mon frère est les cheveux bruns.",
+     "explicacion": "Es dejar la frase sin corregir: con «les cheveux» se usa «avoir»."
+    },
+    {
+     "respuesta": "Mon frère a des cheveux bruns.",
+     "explicacion": "Para describir el pelo de alguien se usa el artículo definido: «il a les cheveux bruns»."
+    },
+    {
+     "respuesta": "Mon frère est brun les cheveux.",
+     "explicacion": "Mezcla dos construcciones; o «il est brun» o «il a les cheveux bruns»."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "brun",
+     "significado": "castaño, moreno (de pelo)"
+    },
+    {
+     "palabra": "le frère",
+     "significado": "el hermano"
+    }
+   ]
   },
   {
    "id": "e13",
@@ -354,7 +630,29 @@
    "respuestas": [
     "Elle a les yeux bleus"
    ],
-   "explicacion": "Avoir + les yeux + color."
+   "explicacion": "Es la estructura «avoir + les yeux + color» de la ficha. El orden es sujeto «Elle», verbo «a», artículo definido «les», sustantivo «yeux» y adjetivo de color «bleus» detrás, concordando en masculino plural. En francés el color va detrás del sustantivo, como en español.",
+   "explicacion_breve": "Avoir + les yeux + color.",
+   "traduccion": "Tiene los ojos azules.",
+   "errores_previstos": [
+    {
+     "respuesta": "Elle a les bleus yeux",
+     "explicacion": "Los adjetivos de color van detrás del sustantivo: «les yeux bleus»."
+    },
+    {
+     "respuesta": "Elle les a yeux bleus",
+     "explicacion": "«Les» aquí es artículo, no pronombre: va delante de «yeux», no delante del verbo."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "les yeux",
+     "significado": "los ojos (plural de «l'œil»)"
+    },
+    {
+     "palabra": "bleu",
+     "significado": "azul"
+    }
+   ]
   },
   {
    "id": "e14",
@@ -369,7 +667,29 @@
    "respuestas": [
     "Ce sont mes grands-parents"
    ],
-   "explicacion": "En plural se presenta con ce sont."
+   "explicacion": "La ficha explica que para presentar a alguien se usa «c'est» en singular y «ce sont» en plural. La pista es «grands-parents», plural. El orden es «Ce sont» + posesivo plural «mes» + sustantivo. Ambos componentes de «grands-parents» llevan marca de plural.",
+   "explicacion_breve": "En plural se presenta con ce sont.",
+   "traduccion": "Son mis abuelos.",
+   "errores_previstos": [
+    {
+     "respuesta": "Mes grands-parents ce sont",
+     "explicacion": "Es un orden calcado de una frase enfática; la presentación neutra empieza por «Ce sont»."
+    },
+    {
+     "respuesta": "Ce mes sont grands-parents",
+     "explicacion": "«Ce sont» va junto: el posesivo se coloca después del verbo, delante del sustantivo."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "les grands-parents",
+     "significado": "los abuelos"
+    },
+    {
+     "palabra": "ce sont",
+     "significado": "son (para presentar en plural)"
+    }
+   ]
   },
   {
    "id": "e15",
@@ -384,10 +704,37 @@
    "respuestas": [
     "gendre"
    ],
-   "explicacion": "El marido de la hija es el yerno: le gendre (también le beau-fils)."
+   "explicacion": "Se trata de la familia política. El marido de la hija es el yerno, «le gendre» (también se dice «le beau-fils», que además puede significar hijastro). La pista es «le mari de ma fille». «Beau-frère» es el cuñado y «neveu», el sobrino.",
+   "explicacion_breve": "El marido de la hija es el yerno: le gendre (también le beau-fils).",
+   "traduccion": "El marido de mi hija es mi yerno.",
+   "por_opcion": {
+    "gendre": "Correcta: el yerno, marido de la hija.",
+    "beau-frère": "Incorrecta: es el cuñado, hermano del cónyuge o marido de la hermana.",
+    "neveu": "Incorrecta: es el sobrino, hijo de un hermano."
+   },
+   "glosario": [
+    {
+     "palabra": "le gendre",
+     "significado": "el yerno"
+    },
+    {
+     "palabra": "le beau-frère",
+     "significado": "el cuñado"
+    },
+    {
+     "palabra": "le mari",
+     "significado": "el marido"
+    }
+   ]
   }
  ],
  "fuente": {
   "nombre": "propia"
+ },
+ "descripcion_larga_es": "Vocabulario básico para hablar de la familia (padres, hermanos, abuelos, tíos, primos, sobrinos, parejas y familia política), del estado civil y para describir a una persona por su aspecto y su carácter, con los posesivos «mon», «ma», «mes». Es de lo primero que se usa al presentarse y cuesta por detalles como «mon amie» ante vocal o «avoir les yeux bleus», distintos del español.",
+ "contexto": {
+  "que_es": "Es el léxico de las relaciones familiares y de la descripción física y de carácter, junto con las estructuras básicas que lo acompañan: los posesivos «mon, ma, mes», las presentaciones con «c'est» y «ce sont» y la descripción con «avoir» para el pelo y los ojos.",
+  "por_que_importa": "Hablar de uno mismo y de los suyos es una de las situaciones más frecuentes en una conversación y en cualquier prueba oral de nivel inicial. Confundir parentescos (neveu y cousin, belle-mère y grand-mère) o usar «être» en lugar de «avoir» para describir produce errores muy visibles. Además, palabras como «parents» o «femme» tienen más de un sentido y conviene conocerlos.",
+  "cuando_se_usa": "Se usa al presentarse, al enseñar fotos, al hablar de planes familiares o al describir a alguien. Las señales son los posesivos y los nombres de parentesco. El hispanohablante tiende a decir «ma amie» (por concordancia con el femenino) y «il est les cheveux…» (calco de «es moreno»), y a llamar «fils» a hijos de ambos sexos."
  }
 }

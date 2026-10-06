@@ -6,53 +6,558 @@
  "nivel": "B2",
  "resumen": "faire + infinitivo indica que el sujeto no hace la acción él mismo sino que la provoca o la encarga: Tex fait réparer sa voiture (lleva el coche a arreglar). Con se faire + infinitivo, la acción recae sobre el propio sujeto, buscada o sufrida.",
  "explicacion": [
-  {"tipo": "texto", "texto": "Contraste: Tex répare sa voiture (la arregla él) / Tex fait réparer sa voiture (la manda arreglar al taller). faire puede ir en cualquier tiempo: Tex va faire réparer sa voiture; Tex a fait réparer sa voiture."},
-  {"tipo": "texto", "texto": "Complementos: con un solo complemento, es directo (Tex fait chanter Tammy). Si hay dos, lo que se hace es el COD y la persona que lo hace pasa a COI con à (o par): Tex fait chanter la Marseillaise à Tammy."},
-  {"tipo": "tabla", "cabecera": ["Frase", "Con pronombres", "Nota"], "filas": [
-   ["Tex fait réparer sa voiture.", "Tex la fait réparer.", "El pronombre va delante de faire, no del infinitivo."],
-   ["Tex fait chanter Tammy.", "Tex la fait chanter.", "Un complemento: directo."],
-   ["Tex fait chanter la Marseillaise à Tammy.", "Tex la lui fait chanter.", "Dos complementos: COD + COI."],
-   ["Fais chanter Tammy !", "Fais-la chanter !", "Imperativo afirmativo: pronombre detrás de faire."],
-   ["Ne fais pas chanter Tammy !", "Ne la fais pas chanter !", "Imperativo negativo: pronombre delante."]
-  ]},
-  {"tipo": "texto", "texto": "se faire + infinitivo: lo que alguien se hace hacer (Je me fais couper les cheveux = me corto el pelo en la peluquería; Rita s'est fait faire une robe) o lo que le ocurre sin quererlo (Il s'est fait voler son portefeuille = le robaron la cartera; se faire arrêter, se faire écraser)."},
-  {"tipo": "lista", "items": [
-   "El participio fait es invariable en esta construcción: Elle s'est fait couper les cheveux; Je les ai fait construire.",
-   "faire faire = mandar hacer: Je fais faire une robe.",
-   "Ojo con el español: «me corto el pelo» en la peluquería es Je me fais couper les cheveux; Je me coupe les cheveux significa que te lo cortas tú."
-  ]}
+  {
+   "tipo": "texto",
+   "texto": "Contraste: Tex répare sa voiture (la arregla él) / Tex fait réparer sa voiture (la manda arreglar al taller). faire puede ir en cualquier tiempo: Tex va faire réparer sa voiture; Tex a fait réparer sa voiture."
+  },
+  {
+   "tipo": "texto",
+   "texto": "Complementos: con un solo complemento, es directo (Tex fait chanter Tammy). Si hay dos, lo que se hace es el COD y la persona que lo hace pasa a COI con à (o par): Tex fait chanter la Marseillaise à Tammy."
+  },
+  {
+   "tipo": "tabla",
+   "cabecera": [
+    "Frase",
+    "Con pronombres",
+    "Nota"
+   ],
+   "filas": [
+    [
+     "Tex fait réparer sa voiture.",
+     "Tex la fait réparer.",
+     "El pronombre va delante de faire, no del infinitivo."
+    ],
+    [
+     "Tex fait chanter Tammy.",
+     "Tex la fait chanter.",
+     "Un complemento: directo."
+    ],
+    [
+     "Tex fait chanter la Marseillaise à Tammy.",
+     "Tex la lui fait chanter.",
+     "Dos complementos: COD + COI."
+    ],
+    [
+     "Fais chanter Tammy !",
+     "Fais-la chanter !",
+     "Imperativo afirmativo: pronombre detrás de faire."
+    ],
+    [
+     "Ne fais pas chanter Tammy !",
+     "Ne la fais pas chanter !",
+     "Imperativo negativo: pronombre delante."
+    ]
+   ]
+  },
+  {
+   "tipo": "texto",
+   "texto": "se faire + infinitivo: lo que alguien se hace hacer (Je me fais couper les cheveux = me corto el pelo en la peluquería; Rita s'est fait faire une robe) o lo que le ocurre sin quererlo (Il s'est fait voler son portefeuille = le robaron la cartera; se faire arrêter, se faire écraser)."
+  },
+  {
+   "tipo": "lista",
+   "items": [
+    "El participio fait es invariable en esta construcción: Elle s'est fait couper les cheveux; Je les ai fait construire.",
+    "faire faire = mandar hacer: Je fais faire une robe.",
+    "Ojo con el español: «me corto el pelo» en la peluquería es Je me fais couper les cheveux; Je me coupe les cheveux significa que te lo cortas tú."
+   ]
+  }
  ],
  "ejemplos": [
-  {"frase": "Je dois faire réparer mon vélo.", "traduccion": "Tengo que llevar la bici a arreglar."},
-  {"frase": "Je me fais couper les cheveux tous les mois.", "traduccion": "Me corto el pelo (en la peluquería) todos los meses."},
-  {"frase": "L'empereur Hadrien a fait construire le mur d'Hadrien.", "traduccion": "El emperador Adriano mandó construir el Muro de Adriano."},
-  {"frase": "Il nous a fait attendre longtemps.", "traduccion": "Nos hizo esperar mucho tiempo."},
-  {"frase": "Tex fait chanter la Marseillaise à Tammy.", "traduccion": "Tex hace cantar La Marsellesa a Tammy."},
-  {"frase": "Elle s'est fait voler son portefeuille dans le métro.", "traduccion": "Le robaron la cartera en el metro."}
+  {
+   "frase": "Je dois faire réparer mon vélo.",
+   "traduccion": "Tengo que llevar la bici a arreglar."
+  },
+  {
+   "frase": "Je me fais couper les cheveux tous les mois.",
+   "traduccion": "Me corto el pelo (en la peluquería) todos los meses."
+  },
+  {
+   "frase": "L'empereur Hadrien a fait construire le mur d'Hadrien.",
+   "traduccion": "El emperador Adriano mandó construir el Muro de Adriano."
+  },
+  {
+   "frase": "Il nous a fait attendre longtemps.",
+   "traduccion": "Nos hizo esperar mucho tiempo."
+  },
+  {
+   "frase": "Tex fait chanter la Marseillaise à Tammy.",
+   "traduccion": "Tex hace cantar La Marsellesa a Tammy."
+  },
+  {
+   "frase": "Elle s'est fait voler son portefeuille dans le métro.",
+   "traduccion": "Le robaron la cartera en el metro."
+  }
  ],
  "errores_hispanohablantes": [
-  {"mal": "Il a fait sa voiture réparer.", "bien": "Il a fait réparer sa voiture.", "nota": "faire y el infinitivo van juntos; el complemento va detrás."},
-  {"mal": "Je fais la chanter.", "bien": "Je la fais chanter.", "nota": "El pronombre va delante de faire, no del infinitivo (en español, «la hago cantar»)."},
-  {"mal": "Elle s'est faite couper les cheveux.", "bien": "Elle s'est fait couper les cheveux.", "nota": "fait seguido de infinitivo no concuerda nunca."},
-  {"mal": "Je me coupe les cheveux chez le coiffeur.", "bien": "Je me fais couper les cheveux chez le coiffeur.", "nota": "Si lo hace otra persona, se faire + infinitivo."}
+  {
+   "mal": "Il a fait sa voiture réparer.",
+   "bien": "Il a fait réparer sa voiture.",
+   "nota": "faire y el infinitivo van juntos; el complemento va detrás."
+  },
+  {
+   "mal": "Je fais la chanter.",
+   "bien": "Je la fais chanter.",
+   "nota": "El pronombre va delante de faire, no del infinitivo (en español, «la hago cantar»)."
+  },
+  {
+   "mal": "Elle s'est faite couper les cheveux.",
+   "bien": "Elle s'est fait couper les cheveux.",
+   "nota": "fait seguido de infinitivo no concuerda nunca."
+  },
+  {
+   "mal": "Je me coupe les cheveux chez le coiffeur.",
+   "bien": "Je me fais couper les cheveux chez le coiffeur.",
+   "nota": "Si lo hace otra persona, se faire + infinitivo."
+  }
  ],
  "ejercicios": [
-  {"id": "e01", "tipo": "hueco", "enunciado": "Completa con el verbo que falta.", "frase": "Je dois ___ réparer mon vélo.", "respuestas": ["faire"], "explicacion": "No lo arreglo yo: faire + infinitivo.", "origen": "tatoeba:181652"},
-  {"id": "e02", "tipo": "hueco", "enunciado": "Completa con faire en passé composé.", "frase": "Il nous ___ attendre longtemps.", "respuestas": ["a fait"], "explicacion": "faire attendre quelqu'un = hacer esperar a alguien.", "origen": "tatoeba:181010"},
-  {"id": "e03", "tipo": "eleccion", "enunciado": "Elige la forma correcta.", "frase": "Je dois me faire ___ les cheveux.", "opciones": ["couper", "coupé", "coupés"], "respuestas": ["couper"], "explicacion": "Tras faire va siempre infinitivo.", "origen": "tatoeba:3258415"},
-  {"id": "e04", "tipo": "corregir", "enunciado": "Corrige el error.", "frase": "Elle m'a faite attendre une demi-heure.", "respuestas": ["Elle m'a fait attendre une demi-heure."], "explicacion": "fait seguido de infinitivo es invariable.", "origen": "tatoeba:134397"},
-  {"id": "e05", "tipo": "corregir", "enunciado": "Corrige el error.", "frase": "Je suis désolé de vous avoir faits attendre.", "respuestas": ["Je suis désolé de vous avoir fait attendre."], "explicacion": "fait + infinitivo no concuerda con el COD.", "origen": "tatoeba:10907"},
-  {"id": "e06", "tipo": "transformar", "enunciado": "Sustituye el complemento por un pronombre.", "frase": "Je dois faire réparer ma voiture.", "respuestas": ["Je dois la faire réparer."], "explicacion": "El pronombre va delante de faire (aquí, tras devoir)."},
-  {"id": "e07", "tipo": "transformar", "enunciado": "Sustituye Tammy por un pronombre.", "frase": "Tex fait chanter Tammy.", "respuestas": ["Tex la fait chanter."], "explicacion": "Un solo complemento: directo (la), delante de faire."},
-  {"id": "e08", "tipo": "transformar", "enunciado": "Sustituye los dos complementos por pronombres.", "frase": "Tex fait chanter la Marseillaise à Tammy.", "respuestas": ["Tex la lui fait chanter."], "explicacion": "COD (la) + COI (lui), ambos delante de faire."},
-  {"id": "e09", "tipo": "transformar", "enunciado": "Sustituye Tammy por un pronombre.", "frase": "Fais chanter Tammy !", "respuestas": ["Fais-la chanter !"], "explicacion": "En imperativo afirmativo el pronombre va detrás de faire, con guion."},
-  {"id": "e10", "tipo": "eleccion", "enunciado": "Elige la forma correcta.", "frase": "L'empereur Hadrien a fait ___ le mur d'Hadrien.", "opciones": ["construire", "construit", "construisant"], "respuestas": ["construire"], "explicacion": "faire + infinitivo: mandó construir.", "origen": "tatoeba:748485"},
-  {"id": "e11", "tipo": "eleccion", "enunciado": "Elige la forma correcta.", "frase": "Vous devriez ___ votre voiture.", "opciones": ["faire réparer", "réparer faire", "vous faire réparer"], "respuestas": ["faire réparer"], "explicacion": "Orden fijo: faire + infinitivo + complemento.", "origen": "tatoeba:713336"},
-  {"id": "e12", "tipo": "hueco", "enunciado": "Completa con faire venir en presente.", "frase": "Corey est très malade : il ___ le médecin.", "respuestas": ["fait venir"], "explicacion": "faire venir quelqu'un = llamar a alguien para que venga."},
-  {"id": "e13", "tipo": "hueco", "enunciado": "Completa con se faire arrêter en passé composé.", "frase": "Pauvre Tex, il ___ en France.", "respuestas": ["s'est fait arrêter"], "explicacion": "se faire + infinitivo para algo sufrido; fait invariable."},
-  {"id": "e14", "tipo": "hueco", "enunciado": "Completa con la preposición (con artículo si hace falta).", "frase": "Rita a fait ranger la chambre ___ enfants.", "respuestas": ["aux"], "explicacion": "Con dos complementos, quien hace la acción va con à: à + les = aux."},
-  {"id": "e15", "tipo": "ordenar", "enunciado": "Ordena las palabras.", "palabras": ["Marie", "attendre", "Tom", "longtemps", "fait", "a"], "respuestas": ["Tom a fait attendre Marie longtemps", "Tom a fait attendre longtemps Marie", "Tom a fait longtemps attendre Marie", "Tom a longtemps fait attendre Marie", "Marie a fait attendre Tom longtemps", "Marie a fait attendre longtemps Tom", "Marie a longtemps fait attendre Tom"], "explicacion": "faire + infinitivo seguidos; el complemento detrás.", "origen": "tatoeba:3655758"},
-  {"id": "e16", "tipo": "ordenar", "enunciado": "Ordena las palabras.", "palabras": ["les", "fais", "mois", "couper", "Je", "tous", "cheveux", "me", "les"], "respuestas": ["Je me fais couper les cheveux tous les mois", "Tous les mois je me fais couper les cheveux"], "explicacion": "se faire + infinitivo: me lo corta el peluquero.", "origen": "tatoeba:127929"}
+  {
+   "id": "e01",
+   "tipo": "hueco",
+   "enunciado": "Completa con el verbo que falta.",
+   "frase": "Je dois ___ réparer mon vélo.",
+   "respuestas": [
+    "faire"
+   ],
+   "explicacion": "Se aplica la regla básica de la ficha: «faire» + infinitivo indica que el sujeto no hace la acción, sino que la encarga. La pista es el infinitivo «réparer» y el sentido: quien arregla la bici es el taller, no yo. Como «faire» depende del modal «dois», va también en infinitivo: «je dois faire réparer». Sin «faire», la frase significaría que la arreglo yo mismo.",
+   "origen": "tatoeba:181652",
+   "explicacion_breve": "No lo arreglo yo: faire + infinitivo.",
+   "traduccion": "Tengo que llevar la bici a arreglar.",
+   "errores_previstos": [
+    {
+     "respuesta": "fais",
+     "explicacion": "Tras el modal «devoir» el verbo siguiente va en infinitivo: «je dois faire», no «je dois fais»."
+    },
+    {
+     "respuesta": "me faire",
+     "explicacion": "«Se faire» + infinitivo se usa cuando la acción recae sobre el sujeto; aquí el objeto es «mon vélo», así que basta «faire réparer»."
+    },
+    {
+     "respuesta": "laisser",
+     "explicacion": "«Laisser réparer» significa «dejar que lo arreglen», no «mandar arreglar»; el causativo es «faire»."
+    }
+   ]
+  },
+  {
+   "id": "e02",
+   "tipo": "hueco",
+   "enunciado": "Completa con faire en passé composé.",
+   "frase": "Il nous ___ attendre longtemps.",
+   "respuestas": [
+    "a fait"
+   ],
+   "explicacion": "La regla es «faire» + infinitivo para provocar una acción en otra persona: «faire attendre quelqu'un», hacer esperar a alguien. El enunciado pide passé composé, así que se usa el auxiliar «avoir» + participio «fait»: «il a fait». El pronombre «nous» va delante del auxiliar, como dice la ficha (el pronombre va delante de «faire», no del infinitivo). El participio «fait» no concuerda porque va seguido de infinitivo.",
+   "origen": "tatoeba:181010",
+   "explicacion_breve": "faire attendre quelqu'un = hacer esperar a alguien.",
+   "traduccion": "Nos hizo esperar mucho tiempo.",
+   "errores_previstos": [
+    {
+     "respuesta": "a faits",
+     "explicacion": "«Fait» seguido de infinitivo es invariable: no concuerda con «nous» aunque vaya delante."
+    },
+    {
+     "respuesta": "est fait",
+     "explicacion": "«Faire» se conjuga con «avoir» en passé composé: «il a fait»."
+    },
+    {
+     "respuesta": "fait",
+     "explicacion": "Es el presente («il nous fait attendre»); el enunciado pide passé composé: «a fait»."
+    }
+   ]
+  },
+  {
+   "id": "e03",
+   "tipo": "eleccion",
+   "enunciado": "Elige la forma correcta.",
+   "frase": "Je dois me faire ___ les cheveux.",
+   "opciones": [
+    "couper",
+    "coupé",
+    "coupés"
+   ],
+   "respuestas": [
+    "couper"
+   ],
+   "explicacion": "Se aplica la regla de «se faire» + infinitivo: lo que alguien se hace hacer por otro. La pista es «me faire»: tras «faire» va siempre un infinitivo, nunca un participio. Por eso es «couper». La frase significa que el peluquero me cortará el pelo; «je dois me couper les cheveux» indicaría que lo hago yo.",
+   "origen": "tatoeba:3258415",
+   "explicacion_breve": "Tras faire va siempre infinitivo.",
+   "traduccion": "Tengo que cortarme el pelo (en la peluquería).",
+   "por_opcion": {
+    "couper": "Correcta: infinitivo, que es lo único que puede seguir a «faire» en el causativo.",
+    "coupé": "Incorrecta: es el participio; suena igual que el infinitivo, pero tras «faire» no puede ir participio.",
+    "coupés": "Incorrecta: además de ser participio, concuerda con «cheveux»; tras «faire» va infinitivo, que nunca concuerda."
+   }
+  },
+  {
+   "id": "e04",
+   "tipo": "corregir",
+   "enunciado": "Corrige el error.",
+   "frase": "Elle m'a faite attendre une demi-heure.",
+   "respuestas": [
+    "Elle m'a fait attendre une demi-heure."
+   ],
+   "explicacion": "La regla de la lista de la ficha es clara: el participio «fait» es invariable cuando va seguido de infinitivo. La pista es «attendre» inmediatamente después del participio: aunque el complemento «m'» vaya delante y pueda ser femenino, «fait» no concuerda. Por eso hay que quitar la -e de «faite».",
+   "origen": "tatoeba:134397",
+   "explicacion_breve": "fait seguido de infinitivo es invariable.",
+   "traduccion": "Me hizo esperar media hora.",
+   "errores_previstos": [
+    {
+     "respuesta": "Elle m'a faite attendre une demi-heure.",
+     "explicacion": "Es dejar la frase sin corregir: «fait» + infinitivo nunca concuerda."
+    },
+    {
+     "respuesta": "Elle m'a fait attendu une demi-heure.",
+     "explicacion": "Tras «fait» va infinitivo, «attendre», no participio."
+    },
+    {
+     "respuesta": "Elle m'est faite attendre une demi-heure.",
+     "explicacion": "«Faire» lleva el auxiliar «avoir» y el participio no concuerda: «m'a fait»."
+    }
+   ]
+  },
+  {
+   "id": "e05",
+   "tipo": "corregir",
+   "enunciado": "Corrige el error.",
+   "frase": "Je suis désolé de vous avoir faits attendre.",
+   "respuestas": [
+    "Je suis désolé de vous avoir fait attendre."
+   ],
+   "explicacion": "Es la misma regla: «fait» seguido de infinitivo es invariable y no concuerda con el complemento directo antepuesto. La pista es el infinitivo «attendre» justo detrás. Aunque «vous» sea plural y vaya delante de «avoir», el participio queda en «fait», sin -s.",
+   "origen": "tatoeba:10907",
+   "explicacion_breve": "fait + infinitivo no concuerda con el COD.",
+   "traduccion": "Siento haberles hecho esperar.",
+   "errores_previstos": [
+    {
+     "respuesta": "Je suis désolé de vous avoir faits attendre.",
+     "explicacion": "Es dejar la frase sin corregir: el participio «fait» + infinitivo no lleva marca de plural."
+    },
+    {
+     "respuesta": "Je suis désolé de vous avoir faites attendre.",
+     "explicacion": "Tampoco concuerda en femenino plural: «fait» queda invariable."
+    },
+    {
+     "respuesta": "Je suis désolé de vous faire attendu.",
+     "explicacion": "Se ha cambiado la estructura: el infinitivo pasado es «avoir fait» + infinitivo «attendre»."
+    }
+   ]
+  },
+  {
+   "id": "e06",
+   "tipo": "transformar",
+   "enunciado": "Sustituye el complemento por un pronombre.",
+   "frase": "Je dois faire réparer ma voiture.",
+   "respuestas": [
+    "Je dois la faire réparer."
+   ],
+   "explicacion": "La regla de la tabla «Con pronombres» indica que el pronombre complemento va delante de «faire», no del infinitivo, porque «faire» y el infinitivo forman un bloque. La pista es «ma voiture», femenino singular, que se sustituye por «la». Como «faire» está en infinitivo tras «devoir», el pronombre queda entre «dois» y «faire»: «je dois la faire réparer».",
+   "explicacion_breve": "El pronombre va delante de faire (aquí, tras devoir).",
+   "traduccion": "Tengo que llevarla a arreglar.",
+   "errores_previstos": [
+    {
+     "respuesta": "Je dois faire la réparer.",
+     "explicacion": "Es el error típico: el pronombre no puede ir entre «faire» y el infinitivo; va delante de «faire»."
+    },
+    {
+     "respuesta": "Je la dois faire réparer.",
+     "explicacion": "Esa colocación es arcaica; en francés actual el pronombre se pone delante del infinitivo del que depende, aquí «faire»."
+    },
+    {
+     "respuesta": "Je dois le faire réparer.",
+     "explicacion": "«Voiture» es femenino: el pronombre es «la»."
+    }
+   ]
+  },
+  {
+   "id": "e07",
+   "tipo": "transformar",
+   "enunciado": "Sustituye Tammy por un pronombre.",
+   "frase": "Tex fait chanter Tammy.",
+   "respuestas": [
+    "Tex la fait chanter."
+   ],
+   "explicacion": "Con un solo complemento, la persona que hace la acción es complemento directo (regla de la ficha: un complemento, directo). La pista es que no hay ningún otro complemento: «Tammy» es directo y femenino, y se sustituye por «la». El pronombre se coloca delante de «faire»: «Tex la fait chanter».",
+   "explicacion_breve": "Un solo complemento: directo (la), delante de faire.",
+   "traduccion": "Tex la hace cantar.",
+   "errores_previstos": [
+    {
+     "respuesta": "Tex lui fait chanter.",
+     "explicacion": "Con un solo complemento la persona es complemento directo: «la», no el indirecto «lui»."
+    },
+    {
+     "respuesta": "Tex fait la chanter.",
+     "explicacion": "El pronombre va delante de «faire», no del infinitivo."
+    },
+    {
+     "respuesta": "Tex fait chanter la.",
+     "explicacion": "En francés el pronombre átono nunca va detrás del verbo en una frase enunciativa; va delante de «fait»."
+    }
+   ]
+  },
+  {
+   "id": "e08",
+   "tipo": "transformar",
+   "enunciado": "Sustituye los dos complementos por pronombres.",
+   "frase": "Tex fait chanter la Marseillaise à Tammy.",
+   "respuestas": [
+    "Tex la lui fait chanter."
+   ],
+   "explicacion": "Con dos complementos, explica la ficha, lo que se hace es complemento directo y la persona que lo hace pasa a indirecto con «à». La pista es «à Tammy», que se sustituye por «lui», y «la Marseillaise», directo femenino, por «la». El orden de pronombres es directo de tercera persona antes que indirecto («la lui»), y ambos delante de «faire».",
+   "explicacion_breve": "COD (la) + COI (lui), ambos delante de faire.",
+   "traduccion": "Tex se la hace cantar.",
+   "errores_previstos": [
+    {
+     "respuesta": "Tex lui la fait chanter.",
+     "explicacion": "Con dos pronombres de tercera persona el orden es directo + indirecto: «la lui»."
+    },
+    {
+     "respuesta": "Tex la la fait chanter.",
+     "explicacion": "«À Tammy» es complemento indirecto (lleva «à»): el pronombre es «lui», no «la»."
+    },
+    {
+     "respuesta": "Tex se la fait chanter.",
+     "explicacion": "Es el calco del español «se la hace cantar»: el «se» español sustituye a «le», pero en francés el indirecto es «lui»."
+    }
+   ]
+  },
+  {
+   "id": "e09",
+   "tipo": "transformar",
+   "enunciado": "Sustituye Tammy por un pronombre.",
+   "frase": "Fais chanter Tammy !",
+   "respuestas": [
+    "Fais-la chanter !"
+   ],
+   "explicacion": "Según la tabla, en imperativo afirmativo el pronombre se coloca detrás de «faire» y se une con guion: «Fais-la chanter !». La pista es el imperativo «Fais» al principio de la frase. Igual que en los otros casos, el pronombre se apoya en «faire», no en el infinitivo, y «Tammy» es complemento directo: «la».",
+   "explicacion_breve": "En imperativo afirmativo el pronombre va detrás de faire, con guion.",
+   "traduccion": "¡Hazla cantar!",
+   "errores_previstos": [
+    {
+     "respuesta": "La fais chanter !",
+     "explicacion": "En imperativo afirmativo el pronombre va detrás del verbo: «Fais-la». Solo en negativo va delante."
+    },
+    {
+     "respuesta": "Fais chanter-la !",
+     "explicacion": "El pronombre se une a «faire», no al infinitivo."
+    },
+    {
+     "respuesta": "Fais-lui chanter !",
+     "explicacion": "Con un solo complemento la persona es directa: «la»."
+    }
+   ]
+  },
+  {
+   "id": "e10",
+   "tipo": "eleccion",
+   "enunciado": "Elige la forma correcta.",
+   "frase": "L'empereur Hadrien a fait ___ le mur d'Hadrien.",
+   "opciones": [
+    "construire",
+    "construit",
+    "construisant"
+   ],
+   "respuestas": [
+    "construire"
+   ],
+   "explicacion": "Se aplica la regla de «faire» + infinitivo con el valor de «mandar hacer»: el emperador no construyó el muro con sus manos. La pista es «a fait», tras el cual solo puede ir un infinitivo. Por eso «construire». En español traducimos con «mandó construir» o «hizo construir».",
+   "origen": "tatoeba:748485",
+   "explicacion_breve": "faire + infinitivo: mandó construir.",
+   "traduccion": "El emperador Adriano mandó construir el Muro de Adriano.",
+   "por_opcion": {
+    "construire": "Correcta: infinitivo tras «faire», con el sentido de «mandar construir».",
+    "construit": "Incorrecta: es el participio; «a fait construit» junta dos participios y no es gramatical.",
+    "construisant": "Incorrecta: es el gerundio; el causativo exige infinitivo."
+   }
+  },
+  {
+   "id": "e11",
+   "tipo": "eleccion",
+   "enunciado": "Elige la forma correcta.",
+   "frase": "Vous devriez ___ votre voiture.",
+   "opciones": [
+    "faire réparer",
+    "réparer faire",
+    "vous faire réparer"
+   ],
+   "respuestas": [
+    "faire réparer"
+   ],
+   "explicacion": "La regla es que «faire» y el infinitivo van juntos y el complemento va detrás del bloque: «faire réparer votre voiture». La pista es el complemento «votre voiture» tras el hueco y el modal «devriez», que pide infinitivo. No hace falta el pronombre reflexivo porque la acción recae sobre el coche, no sobre «vous».",
+   "origen": "tatoeba:713336",
+   "explicacion_breve": "Orden fijo: faire + infinitivo + complemento.",
+   "traduccion": "Debería llevar su coche a arreglar.",
+   "por_opcion": {
+    "faire réparer": "Correcta: «faire» + infinitivo, en el orden fijo, seguidos del complemento.",
+    "réparer faire": "Incorrecta: el orden es siempre «faire» delante del infinitivo.",
+    "vous faire réparer": "Incorrecta: «se faire réparer» supondría que la reparación recae sobre la persona; aquí el objeto es el coche."
+   }
+  },
+  {
+   "id": "e12",
+   "tipo": "hueco",
+   "enunciado": "Completa con faire venir en presente.",
+   "frase": "Corey est très malade : il ___ le médecin.",
+   "respuestas": [
+    "fait venir"
+   ],
+   "explicacion": "Se aplica «faire» + infinitivo con el verbo «venir»: «faire venir quelqu'un», hacer venir a alguien, llamarlo para que acuda. La pista es el contexto (está enfermo y no puede ir él) y el enunciado, que pide presente: «il fait venir». El complemento «le médecin» va detrás del bloque «fait venir».",
+   "explicacion_breve": "faire venir quelqu'un = llamar a alguien para que venga.",
+   "traduccion": "Corey está muy enfermo: llama al médico (para que venga).",
+   "errores_previstos": [
+    {
+     "respuesta": "appelle",
+     "explicacion": "«Il appelle le médecin» significa que le telefonea; el enunciado pide el causativo «faire venir»."
+    },
+    {
+     "respuesta": "fait venu",
+     "explicacion": "Tras «faire» va infinitivo: «venir», no el participio «venu»."
+    },
+    {
+     "respuesta": "fais venir",
+     "explicacion": "Con el sujeto «il» la forma es «fait», con -t."
+    }
+   ]
+  },
+  {
+   "id": "e13",
+   "tipo": "hueco",
+   "enunciado": "Completa con se faire arrêter en passé composé.",
+   "frase": "Pauvre Tex, il ___ en France.",
+   "respuestas": [
+    "s'est fait arrêter"
+   ],
+   "explicacion": "Es «se faire» + infinitivo con el valor de algo sufrido, como recoge la ficha («se faire arrêter»). En passé composé, al ser pronominal, el auxiliar es «être»: «il s'est fait». El participio «fait» no concuerda porque va seguido de infinitivo. Se traduce con una pasiva o impersonal: «lo detuvieron».",
+   "explicacion_breve": "se faire + infinitivo para algo sufrido; fait invariable.",
+   "traduccion": "Pobre Tex, lo han detenido en Francia.",
+   "errores_previstos": [
+    {
+     "respuesta": "s'a fait arrêter",
+     "explicacion": "Los verbos pronominales usan «être» en passé composé: «s'est fait»."
+    },
+    {
+     "respuesta": "a été arrêté",
+     "explicacion": "Es una pasiva correcta en francés, pero el enunciado pide la construcción «se faire arrêter»."
+    },
+    {
+     "respuesta": "s'est faite arrêter",
+     "explicacion": "«Fait» + infinitivo es invariable; además el sujeto es masculino."
+    }
+   ]
+  },
+  {
+   "id": "e14",
+   "tipo": "hueco",
+   "enunciado": "Completa con la preposición (con artículo si hace falta).",
+   "frase": "Rita a fait ranger la chambre ___ enfants.",
+   "respuestas": [
+    "aux",
+    "par les"
+   ],
+   "explicacion": "Con dos complementos, la cosa que se hace («la chambre») es directo y la persona que lo hace pasa a indirecto con «à». La pista es que ya hay un complemento directo detrás de «ranger», así que «les enfants» necesita «à». Como el artículo es «les», «à + les» se contrae en «aux». La ficha recuerda que también es posible «par» («par les enfants»), que se acepta igualmente; «par» es preferible cuando «à» podría entenderse como destinatario («ordenar la habitación para los niños»).",
+   "explicacion_breve": "Con dos complementos, quien hace la acción va con à (à + les = aux) o con par: par les.",
+   "traduccion": "Rita hizo ordenar la habitación a los niños.",
+   "errores_previstos": [
+    {
+     "respuesta": "à les",
+     "explicacion": "«À + les» se contrae siempre en «aux»."
+    },
+    {
+     "respuesta": "les",
+     "explicacion": "Con dos complementos la persona no puede ser directa: necesita «à» (aux)."
+    },
+    {
+     "respuesta": "des",
+     "explicacion": "«Des» es «de + les»; la persona que realiza la acción va con «à», no con «de»."
+    }
+   ]
+  },
+  {
+   "id": "e15",
+   "tipo": "ordenar",
+   "enunciado": "Ordena las palabras.",
+   "palabras": [
+    "Marie",
+    "attendre",
+    "Tom",
+    "longtemps",
+    "fait",
+    "a"
+   ],
+   "respuestas": [
+    "Tom a fait attendre Marie longtemps",
+    "Tom a fait attendre longtemps Marie",
+    "Tom a longtemps fait attendre Marie",
+    "Marie a fait attendre Tom longtemps",
+    "Marie a fait attendre longtemps Tom",
+    "Marie a longtemps fait attendre Tom"
+   ],
+   "explicacion": "La regla es que «faire» y el infinitivo van seguidos y el complemento va detrás: «a fait attendre Marie». La pista es el auxiliar «a» junto a «fait», que forman el passé composé. El adverbio «longtemps» puede ir al final, tras el infinitivo, o entre el auxiliar y el participio («a longtemps fait attendre»). Las palabras no indican quién espera, por eso valen también las versiones con Marie como sujeto.",
+   "origen": "tatoeba:3655758",
+   "explicacion_breve": "faire + infinitivo seguidos; el complemento detrás.",
+   "traduccion": "Tom hizo esperar mucho tiempo a Marie.",
+   "errores_previstos": [
+    {
+     "respuesta": "Tom a fait Marie attendre longtemps",
+     "explicacion": "El complemento no puede separar «faire» del infinitivo: «a fait attendre Marie»."
+    },
+    {
+     "respuesta": "Tom Marie a fait attendre longtemps",
+     "explicacion": "Un nombre propio no se antepone al verbo como un pronombre; va detrás del bloque «fait attendre»."
+    },
+    {
+     "respuesta": "Tom a fait longtemps attendre Marie",
+     "explicacion": "El adverbio no debe separar «fait» del infinitivo: el bloque «fait attendre» va unido. «Longtemps» va tras el infinitivo o entre el auxiliar y el participio («a longtemps fait attendre»)."
+    }
+   ]
+  },
+  {
+   "id": "e16",
+   "tipo": "ordenar",
+   "enunciado": "Ordena las palabras.",
+   "palabras": [
+    "les",
+    "fais",
+    "mois",
+    "couper",
+    "Je",
+    "tous",
+    "cheveux",
+    "me",
+    "les"
+   ],
+   "respuestas": [
+    "Je me fais couper les cheveux tous les mois",
+    "Tous les mois je me fais couper les cheveux"
+   ],
+   "explicacion": "Es «se faire» + infinitivo para algo que alguien se hace hacer por otro, como en el ejemplo de la ficha. El orden es sujeto «je», pronombre reflexivo «me», «fais», infinitivo «couper», complemento «les cheveux» y el complemento de tiempo «tous les mois», que puede ir al final o al principio. La traducción española habitual omite el matiz («me corto el pelo»), pero el francés lo exige.",
+   "origen": "tatoeba:127929",
+   "explicacion_breve": "se faire + infinitivo: me lo corta el peluquero.",
+   "traduccion": "Me corto el pelo (en la peluquería) todos los meses.",
+   "errores_previstos": [
+    {
+     "respuesta": "Je me couper fais les cheveux tous les mois",
+     "explicacion": "«Faire» va delante del infinitivo: «me fais couper»."
+    },
+    {
+     "respuesta": "Je fais me couper les cheveux tous les mois",
+     "explicacion": "El pronombre se coloca delante de «faire», no del infinitivo: «je me fais couper»."
+    }
+   ]
+  }
  ],
- "fuente": {"nombre": "Tex's French Grammar", "autores": "COERLL, Universidad de Texas en Austin", "licencia": "CC BY 3.0", "url": "https://laits.utexas.edu/tex/gr/virr7.html", "otras": ["Frases de Tatoeba (CC BY 2.0 FR)"]}
+ "fuente": {
+  "nombre": "Tex's French Grammar",
+  "autores": "COERLL, Universidad de Texas en Austin",
+  "licencia": "CC BY 3.0",
+  "url": "https://laits.utexas.edu/tex/gr/virr7.html",
+  "otras": [
+   "Frases de Tatoeba (CC BY 2.0 FR)"
+  ]
+ },
+ "descripcion_larga_es": "El causativo con «faire» + infinitivo expresa que el sujeto no realiza la acción, sino que la provoca o la encarga a otro: «je fais réparer ma voiture» (llevo el coche a arreglar). Con «se faire» + infinitivo la acción recae sobre el propio sujeto. Cuesta al hispanohablante porque el español suele omitir el matiz («me corto el pelo») y porque los pronombres y la concordancia siguen reglas propias.",
+ "contexto": {
+  "que_es": "Es una construcción formada por el verbo «faire» conjugado y un infinitivo, que indica que el sujeto hace que otra persona realice la acción. Su variante pronominal, «se faire» + infinitivo, indica que la acción la sufre o la encarga el propio sujeto. «Faire» funciona aquí como un auxiliar: forma un bloque con el infinitivo.",
+  "por_que_importa": "Es muy frecuente en la vida diaria (llevar algo a reparar, cortarse el pelo, hacer esperar a alguien, mandar construir) y en la prensa («il s'est fait arrêter», «se faire voler»). Si se omite, el mensaje cambia: «je me coupe les cheveux» significa que te los cortas tú mismo. Además, la colocación de los pronombres y la invariabilidad de «fait» son puntos típicos de examen.",
+  "cuando_se_usa": "Se usa siempre que la acción la ejecuta otra persona por encargo o influencia del sujeto: talleres, peluquerías, obras, médicos que se hacen venir. La señal es la presencia de alguien que hace el trabajo por nosotros, o de algo que nos ocurre (robos, detenciones, atropellos). El hispanohablante tiende a usar el verbo simple («je répare ma voiture») o a separar «faire» del infinitivo, cuando en francés van siempre juntos."
+ }
 }

@@ -6,64 +6,614 @@
  "nivel": "C1",
  "resumen": "El passé simple es el pasado de la narración escrita (novela, historia, cuentos, crónica culta) y de discursos muy formales; en la lengua oral lo sustituye el passé composé. Equivale al indefinido español («habló») y, como él, narra hechos, mientras el imparfait sigue describiendo.",
  "explicacion": [
-  {"tipo": "texto", "texto": "Es un tiempo de una sola palabra, sin auxiliar. Lo esencial es reconocerlo al leer (sobre todo en tercera persona) y saber a qué passé composé corresponde; producirlo solo hace falta en textos muy formales."},
-  {"tipo": "tabla", "cabecera": ["Persona", "-er: parler", "-ir / -re: finir, perdre", "en -u-: avoir"], "filas": [
-   ["je", "parlai", "finis, perdis", "eus"],
-   ["tu", "parlas", "finis, perdis", "eus"],
-   ["il / elle / on", "parla", "finit, perdit", "eut"],
-   ["nous", "parlâmes", "finîmes, perdîmes", "eûmes"],
-   ["vous", "parlâtes", "finîtes, perdîtes", "eûtes"],
-   ["ils / elles", "parlèrent", "finirent, perdirent", "eurent"]
-  ]},
-  {"tipo": "tabla", "cabecera": ["Infinitivo", "il / elle", "ils / elles"], "filas": [
-   ["être", "fut", "furent"],
-   ["faire", "fit", "firent"],
-   ["venir / tenir", "vint / tint", "vinrent / tinrent"],
-   ["prendre / mettre / dire", "prit / mit / dit", "prirent / mirent / dirent"],
-   ["voir", "vit", "virent"],
-   ["naître / mourir", "naquit / mourut", "naquirent / moururent"],
-   ["pouvoir / vouloir / savoir", "put / voulut / sut", "purent / voulurent / surent"],
-   ["vivre / écrire / boire", "vécut / écrivit / but", "vécurent / écrivirent / burent"]
-  ]},
-  {"tipo": "lista", "items": [
-   "Muchos irregulares toman la raíz del participio: bu → il but, lu → il lut, pris → il prit.",
-   "fut es pasado de être, no futuro (el futuro es sera).",
-   "Formas que coinciden con el presente: il finit, il dit, il rit; el contexto lo aclara.",
-   "il vit puede ser «vio» (voir, passé simple) o «vive» (vivre, presente).",
-   "nous y vous llevan acento circunflejo (-âmes, -îtes, -ûmes); ils de -er lleva grave: -èrent."
-  ]},
-  {"tipo": "texto", "texto": "Reparto de papeles en la narración: passé simple para los hechos que hacen avanzar la historia, imparfait para el decorado y las situaciones (Il pleuvait. Soudain, la porte s'ouvrit). Para el opositor importa al leer prensa culta, historia económica y citas literarias."}
+  {
+   "tipo": "texto",
+   "texto": "Es un tiempo de una sola palabra, sin auxiliar. Lo esencial es reconocerlo al leer (sobre todo en tercera persona) y saber a qué passé composé corresponde; producirlo solo hace falta en textos muy formales."
+  },
+  {
+   "tipo": "tabla",
+   "cabecera": [
+    "Persona",
+    "-er: parler",
+    "-ir / -re: finir, perdre",
+    "en -u-: avoir"
+   ],
+   "filas": [
+    [
+     "je",
+     "parlai",
+     "finis, perdis",
+     "eus"
+    ],
+    [
+     "tu",
+     "parlas",
+     "finis, perdis",
+     "eus"
+    ],
+    [
+     "il / elle / on",
+     "parla",
+     "finit, perdit",
+     "eut"
+    ],
+    [
+     "nous",
+     "parlâmes",
+     "finîmes, perdîmes",
+     "eûmes"
+    ],
+    [
+     "vous",
+     "parlâtes",
+     "finîtes, perdîtes",
+     "eûtes"
+    ],
+    [
+     "ils / elles",
+     "parlèrent",
+     "finirent, perdirent",
+     "eurent"
+    ]
+   ]
+  },
+  {
+   "tipo": "tabla",
+   "cabecera": [
+    "Infinitivo",
+    "il / elle",
+    "ils / elles"
+   ],
+   "filas": [
+    [
+     "être",
+     "fut",
+     "furent"
+    ],
+    [
+     "faire",
+     "fit",
+     "firent"
+    ],
+    [
+     "venir / tenir",
+     "vint / tint",
+     "vinrent / tinrent"
+    ],
+    [
+     "prendre / mettre / dire",
+     "prit / mit / dit",
+     "prirent / mirent / dirent"
+    ],
+    [
+     "voir",
+     "vit",
+     "virent"
+    ],
+    [
+     "naître / mourir",
+     "naquit / mourut",
+     "naquirent / moururent"
+    ],
+    [
+     "pouvoir / vouloir / savoir",
+     "put / voulut / sut",
+     "purent / voulurent / surent"
+    ],
+    [
+     "vivre / écrire / boire",
+     "vécut / écrivit / but",
+     "vécurent / écrivirent / burent"
+    ]
+   ]
+  },
+  {
+   "tipo": "lista",
+   "items": [
+    "Muchos irregulares toman la raíz del participio: bu → il but, lu → il lut, pris → il prit.",
+    "fut es pasado de être, no futuro (el futuro es sera).",
+    "Formas que coinciden con el presente: il finit, il dit, il rit; el contexto lo aclara.",
+    "il vit puede ser «vio» (voir, passé simple) o «vive» (vivre, presente).",
+    "nous y vous llevan acento circunflejo (-âmes, -îtes, -ûmes); ils de -er lleva grave: -èrent."
+   ]
+  },
+  {
+   "tipo": "texto",
+   "texto": "Reparto de papeles en la narración: passé simple para los hechos que hacen avanzar la historia, imparfait para el decorado y las situaciones (Il pleuvait. Soudain, la porte s'ouvrit). Para el opositor importa al leer prensa culta, historia económica y citas literarias."
+  }
  ],
  "ejemplos": [
-  {"frase": "Il regarda le ciel.", "traduccion": "Miró al cielo."},
-  {"frase": "Elle prit ma main.", "traduccion": "Me cogió la mano."},
-  {"frase": "Ils manquèrent le train.", "traduccion": "Perdieron el tren."},
-  {"frase": "Le peintre mourut jeune.", "traduccion": "El pintor murió joven."},
-  {"frase": "Personne ne vint m'aider.", "traduccion": "No vino nadie a ayudarme."},
-  {"frase": "Il fit rire les enfants.", "traduccion": "Hizo reír a los niños."}
+  {
+   "frase": "Il regarda le ciel.",
+   "traduccion": "Miró al cielo."
+  },
+  {
+   "frase": "Elle prit ma main.",
+   "traduccion": "Me cogió la mano."
+  },
+  {
+   "frase": "Ils manquèrent le train.",
+   "traduccion": "Perdieron el tren."
+  },
+  {
+   "frase": "Le peintre mourut jeune.",
+   "traduccion": "El pintor murió joven."
+  },
+  {
+   "frase": "Personne ne vint m'aider.",
+   "traduccion": "No vino nadie a ayudarme."
+  },
+  {
+   "frase": "Il fit rire les enfants.",
+   "traduccion": "Hizo reír a los niños."
+  }
  ],
  "errores_hispanohablantes": [
-  {"mal": "Hier, j'allai au cinéma avec des amis.", "bien": "Hier, je suis allé au cinéma avec des amis.", "nota": "En la conversación el indefinido español se traduce por passé composé; el passé simple sonaría libresco."},
-  {"mal": "Ils parlérent longtemps.", "bien": "Ils parlèrent longtemps.", "nota": "La terminación -èrent lleva acento grave."},
-  {"mal": "Il venit chez moi.", "bien": "Il vint chez moi.", "nota": "venir y tenir tienen un passé simple irregular: vint, tint."}
+  {
+   "mal": "Hier, j'allai au cinéma avec des amis.",
+   "bien": "Hier, je suis allé au cinéma avec des amis.",
+   "nota": "En la conversación el indefinido español se traduce por passé composé; el passé simple sonaría libresco."
+  },
+  {
+   "mal": "Ils parlérent longtemps.",
+   "bien": "Ils parlèrent longtemps.",
+   "nota": "La terminación -èrent lleva acento grave."
+  },
+  {
+   "mal": "Il venit chez moi.",
+   "bien": "Il vint chez moi.",
+   "nota": "venir y tenir tienen un passé simple irregular: vint, tint."
+  }
  ],
  "ejercicios": [
-  {"id": "e01", "tipo": "eleccion", "enunciado": "Elige la forma correcta del passé simple.", "frase": "Il ___ chez moi.", "opciones": ["vint", "venit", "venut"], "respuestas": ["vint"], "explicacion": "venir → il vint (raíz irregular vin-).", "origen": "tatoeba:1121472"},
-  {"id": "e02", "tipo": "transformar", "enunciado": "Pasa del passé composé al passé simple.", "frase": "Elle a pris ma main.", "respuestas": ["Elle prit ma main."], "explicacion": "prendre → elle prit (raíz del participio pris).", "origen": "tatoeba:1107368"},
-  {"id": "e03", "tipo": "transformar", "enunciado": "Pasa del passé composé al passé simple.", "frase": "Ils ont manqué le train.", "respuestas": ["Ils manquèrent le train."], "explicacion": "Verbo en -er: ils manquèrent.", "origen": "tatoeba:564915"},
-  {"id": "e04", "tipo": "transformar", "enunciado": "Pasa del passé composé al passé simple.", "frase": "Le peintre est mort jeune.", "respuestas": ["Le peintre mourut jeune."], "explicacion": "mourir → il mourut, sin auxiliar.", "origen": "tatoeba:614243"},
-  {"id": "e05", "tipo": "transformar", "enunciado": "Pasa la frase al registro oral (passé composé).", "frase": "Il fit rire les enfants.", "respuestas": ["Il a fait rire les enfants."], "explicacion": "fit es el passé simple de faire: il a fait.", "origen": "tatoeba:906588"},
-  {"id": "e06", "tipo": "transformar", "enunciado": "Pasa la frase al registro oral (passé composé).", "frase": "Ils se serrèrent la main.", "respuestas": ["Ils se sont serré la main."], "explicacion": "Pronominal con être; serré no concuerda porque el COD (la main) va detrás.", "origen": "tatoeba:1260994"},
-  {"id": "e07", "tipo": "hueco", "enunciado": "Completa con el passé simple del verbo.", "frase": "Personne ne ___ (venir) m'aider.", "respuestas": ["vint"], "explicacion": "venir → il vint.", "origen": "tatoeba:1502119"},
-  {"id": "e08", "tipo": "hueco", "enunciado": "Completa con el passé simple del verbo.", "frase": "Elle ___ (mourir) en 1960.", "respuestas": ["mourut"], "explicacion": "mourir tiene raíz irregular: elle mourut.", "origen": "tatoeba:451551"},
-  {"id": "e09", "tipo": "hueco", "enunciado": "Completa con el passé simple del verbo.", "frase": "Ils ___ (avoir) un bébé.", "respuestas": ["eurent"], "explicacion": "avoir → ils eurent.", "origen": "tatoeba:647193"},
-  {"id": "e10", "tipo": "corregir", "enunciado": "Corrige el error de ortografía.", "frase": "Nous mangeames des œufs.", "respuestas": ["Nous mangeâmes des œufs."], "explicacion": "La terminación de nous en -er es -âmes, con circunflejo.", "origen": "tatoeba:9558606"},
-  {"id": "e11", "tipo": "corregir", "enunciado": "Corrige el error.", "frase": "Il regardat le ciel.", "respuestas": ["Il regarda le ciel."], "explicacion": "La tercera persona de -er termina en -a, sin t.", "origen": "tatoeba:131893"},
-  {"id": "e12", "tipo": "eleccion", "enunciado": "¿De qué verbo es «naquit»?", "frase": "Il naquit à Lyon en 1900.", "opciones": ["naître", "nager", "nier"], "respuestas": ["naître"], "explicacion": "naître tiene un passé simple irregular: il naquit (nació)."},
-  {"id": "e13", "tipo": "eleccion", "enunciado": "¿Qué forma es «fut»?", "frase": "Ce fut un beau mariage.", "opciones": ["passé simple de être", "futur de être", "imparfait de être"], "respuestas": ["passé simple de être"], "explicacion": "fut = fue; el futuro sería sera.", "origen": "tatoeba:2491083"},
-  {"id": "e14", "tipo": "eleccion", "enunciado": "¿Qué passé composé corresponde a «prit»?", "frase": "Il me prit pour ma mère.", "opciones": ["a pris", "a prit", "prend"], "respuestas": ["a pris"], "explicacion": "prit es el passé simple de prendre; en el oral: il m'a pris pour ma mère.", "origen": "tatoeba:343290"},
-  {"id": "e15", "tipo": "eleccion", "enunciado": "Elige el tiempo adecuado.", "frase": "Il pleuvait depuis des heures. Soudain, la porte ___ .", "opciones": ["s'ouvrit", "s'ouvrait", "s'ouvrira"], "respuestas": ["s'ouvrit"], "explicacion": "Hecho puntual que hace avanzar el relato (soudain): passé simple; el decorado va en imparfait."},
-  {"id": "e16", "tipo": "ordenar", "enunciado": "Ordena las palabras.", "palabras": ["moi", "moquèrent", "Ils", "de", "se"], "respuestas": ["Ils se moquèrent de moi"], "explicacion": "Pronominal en passé simple: ils se moquèrent (se burlaron).", "origen": "tatoeba:1526079"}
+  {
+   "id": "e01",
+   "tipo": "eleccion",
+   "enunciado": "Elige la forma correcta del passé simple.",
+   "frase": "Il ___ chez moi.",
+   "opciones": [
+    "vint",
+    "venit",
+    "venut"
+   ],
+   "respuestas": [
+    "vint"
+   ],
+   "explicacion": "La ficha incluye venir en la tabla de irregulares: en passé simple su raíz es vin- y la tercera persona del singular es il vint (y ils vinrent). No sigue el modelo regular de finir ni el de los verbos en -u, por eso hay que aprenderla aparte. La frase es una narración de un hecho puntual, el contexto típico del passé simple.",
+   "origen": "tatoeba:1121472",
+   "explicacion_breve": "venir → il vint (raíz irregular vin-).",
+   "traduccion": "Vino a mi casa.",
+   "por_opcion": {
+    "vint": "Correcta: es el passé simple irregular de venir en tercera persona del singular.",
+    "venit": "Incorrecta: es una regularización falsa con el modelo de finir (il finit). Venir no la sigue; es el error típico que señala la ficha.",
+    "venut": "Incorrecta: imita los passé simple en -u a partir del participio venu, pero esa forma no existe; la correcta es vint."
+   }
+  },
+  {
+   "id": "e02",
+   "tipo": "transformar",
+   "enunciado": "Pasa del passé composé al passé simple.",
+   "frase": "Elle a pris ma main.",
+   "respuestas": [
+    "Elle prit ma main."
+   ],
+   "explicacion": "Se aplica la observación de la ficha de que muchos irregulares toman la raíz del participio: prendre tiene el participio pris y su passé simple es elle prit. Hay que eliminar el auxiliar a, porque el passé simple es un tiempo de una sola palabra. La terminación de la tercera persona en esta familia es -it.",
+   "origen": "tatoeba:1107368",
+   "explicacion_breve": "prendre → elle prit (raíz del participio pris).",
+   "traduccion": "Me cogió la mano (tomó mi mano).",
+   "errores_previstos": [
+    {
+     "respuesta": "Elle prenda ma main.",
+     "explicacion": "Aplica la terminación -a de los verbos en -er, pero prendre es irregular: elle prit."
+    },
+    {
+     "respuesta": "Elle prendit ma main.",
+     "explicacion": "Regulariza a partir del infinitivo; el passé simple de prendre toma la raíz del participio pris: prit."
+    },
+    {
+     "respuesta": "Elle a prit ma main.",
+     "explicacion": "Mezcla los dos tiempos: el passé simple no lleva auxiliar, y con auxiliar haría falta el participio pris."
+    }
+   ]
+  },
+  {
+   "id": "e03",
+   "tipo": "transformar",
+   "enunciado": "Pasa del passé composé al passé simple.",
+   "frase": "Ils ont manqué le train.",
+   "respuestas": [
+    "Ils manquèrent le train."
+   ],
+   "explicacion": "Manquer es un verbo regular en -er, así que sigue la columna de parler de la tabla: en ils la terminación es -èrent, con acento grave. Se suprime el auxiliar ont y se añade la terminación a la raíz manqu-: ils manquèrent. La ficha advierte que ese acento grave es obligatorio, como en parlèrent.",
+   "origen": "tatoeba:564915",
+   "explicacion_breve": "Verbo en -er: ils manquèrent.",
+   "traduccion": "Perdieron el tren.",
+   "errores_previstos": [
+    {
+     "respuesta": "Ils manquérent le train.",
+     "explicacion": "El acento de -èrent es grave, no agudo: manquèrent."
+    },
+    {
+     "respuesta": "Ils manquirent le train.",
+     "explicacion": "La terminación -irent es de los verbos en -ir y -re; los verbos en -er hacen -èrent."
+    },
+    {
+     "respuesta": "Ils manquèrent la train.",
+     "explicacion": "Train es masculino: le train, como en la frase original."
+    }
+   ]
+  },
+  {
+   "id": "e04",
+   "tipo": "transformar",
+   "enunciado": "Pasa del passé composé al passé simple.",
+   "frase": "Le peintre est mort jeune.",
+   "respuestas": [
+    "Le peintre mourut jeune."
+   ],
+   "explicacion": "Mourir aparece en la tabla de irregulares junto a naître: su passé simple es il mourut, con la terminación en -u. Al pasar del passé composé (est mort) al passé simple desaparece el auxiliar être, porque el passé simple nunca lleva auxiliar, aunque el verbo forme sus tiempos compuestos con être.",
+   "origen": "tatoeba:614243",
+   "explicacion_breve": "mourir → il mourut, sin auxiliar.",
+   "traduccion": "El pintor murió joven.",
+   "errores_previstos": [
+    {
+     "respuesta": "Le peintre est mourut jeune.",
+     "explicacion": "El passé simple no lleva auxiliar: le peintre mourut jeune."
+    },
+    {
+     "respuesta": "Le peintre mourit jeune.",
+     "explicacion": "Mourir no sigue el modelo de finir; es irregular y hace mourut."
+    },
+    {
+     "respuesta": "Le peintre mortit jeune.",
+     "explicacion": "Parte del participio mort, pero mourir no se forma así: su passé simple es mourut."
+    }
+   ]
+  },
+  {
+   "id": "e05",
+   "tipo": "transformar",
+   "enunciado": "Pasa la frase al registro oral (passé composé).",
+   "frase": "Il fit rire les enfants.",
+   "respuestas": [
+    "Il a fait rire les enfants."
+   ],
+   "explicacion": "Se trata de reconocer la forma: fit es el passé simple de faire (tabla de irregulares: il fit, ils firent). Para pasar al registro oral se usa el passé composé, que la ficha presenta como su equivalente en la lengua hablada: il a fait. La construcción faire + infinitivo (faire rire, hacer reír) no cambia.",
+   "origen": "tatoeba:906588",
+   "explicacion_breve": "fit es el passé simple de faire: il a fait.",
+   "traduccion": "Hizo reír a los niños.",
+   "errores_previstos": [
+    {
+     "respuesta": "Il a fit rire les enfants.",
+     "explicacion": "Tras el auxiliar va el participio fait, no la forma de passé simple fit."
+    },
+    {
+     "respuesta": "Il faisait rire les enfants.",
+     "explicacion": "Es el imparfait, que expresa costumbre o descripción. El equivalente oral del passé simple es el passé composé: il a fait."
+    },
+    {
+     "respuesta": "Il est fait rire les enfants.",
+     "explicacion": "Faire se conjuga con avoir: il a fait."
+    }
+   ]
+  },
+  {
+   "id": "e06",
+   "tipo": "transformar",
+   "enunciado": "Pasa la frase al registro oral (passé composé).",
+   "frase": "Ils se serrèrent la main.",
+   "respuestas": [
+    "Ils se sont serré la main."
+   ],
+   "explicacion": "Hay que reconocer serrèrent como passé simple de se serrer (verbo en -er, ils) y pasarlo al passé composé. Como es pronominal, el auxiliar es être: ils se sont serré. La concordancia es la delicada: se no es complemento directo sino indirecto (se dieron la mano «el uno al otro»), y el directo, la main, va detrás, así que el participio no concuerda.",
+   "origen": "tatoeba:1260994",
+   "explicacion_breve": "Pronominal con être; serré no concuerda porque el COD (la main) va detrás.",
+   "traduccion": "Se dieron la mano.",
+   "errores_previstos": [
+    {
+     "respuesta": "Ils se sont serrés la main.",
+     "explicacion": "Con el complemento directo la main detrás del verbo, el participio no concuerda con el sujeto: serré."
+    },
+    {
+     "respuesta": "Ils se ont serré la main.",
+     "explicacion": "Los verbos pronominales forman el passé composé con être: ils se sont serré."
+    },
+    {
+     "respuesta": "Ils ont serré la main.",
+     "explicacion": "Se pierde el pronombre se y con él el sentido recíproco: se dieron la mano entre ellos."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "se serrer la main",
+     "significado": "darse la mano"
+    }
+   ]
+  },
+  {
+   "id": "e07",
+   "tipo": "hueco",
+   "enunciado": "Completa con el passé simple del verbo.",
+   "frase": "Personne ne ___ (venir) m'aider.",
+   "respuestas": [
+    "vint"
+   ],
+   "explicacion": "El sujeto personne funciona como tercera persona del singular, así que se necesita il vint, la forma irregular de venir de la tabla. La negación personne ne… ya está escrita y el verbo va entre ne y el infinitivo aider. Es un buen ejemplo de narración escrita donde el passé simple cuenta un hecho.",
+   "origen": "tatoeba:1502119",
+   "explicacion_breve": "venir → il vint.",
+   "traduccion": "Nadie vino a ayudarme.",
+   "errores_previstos": [
+    {
+     "respuesta": "venit",
+     "explicacion": "Es la regularización falsa con el modelo de finir; venir hace vint."
+    },
+    {
+     "respuesta": "vinrent",
+     "explicacion": "Vinrent es plural; personne concuerda en singular: vint."
+    },
+    {
+     "respuesta": "vient",
+     "explicacion": "Vient es el presente (viene). El passé simple de venir es vint."
+    }
+   ]
+  },
+  {
+   "id": "e08",
+   "tipo": "hueco",
+   "enunciado": "Completa con el passé simple del verbo.",
+   "frase": "Elle ___ (mourir) en 1960.",
+   "respuestas": [
+    "mourut"
+   ],
+   "explicacion": "La tabla de irregulares de la ficha da para mourir la forma il / elle mourut. No se forma a partir del infinitivo ni del participio mort, sino con la raíz mour- y la terminación en -ut. Elle concuerda en tercera persona del singular y la fecha en 1960 sitúa un hecho puntual del relato.",
+   "origen": "tatoeba:451551",
+   "explicacion_breve": "mourir tiene raíz irregular: elle mourut.",
+   "traduccion": "Murió en 1960.",
+   "errores_previstos": [
+    {
+     "respuesta": "mourit",
+     "explicacion": "Mourir no sigue el modelo de finir: su passé simple es mourut."
+    },
+    {
+     "respuesta": "mourra",
+     "explicacion": "Mourra es futuro (morirá). El passé simple es mourut."
+    },
+    {
+     "respuesta": "est morte",
+     "explicacion": "Es el passé composé, correcto en el oral, pero el enunciado pide el passé simple: mourut."
+    }
+   ]
+  },
+  {
+   "id": "e09",
+   "tipo": "hueco",
+   "enunciado": "Completa con el passé simple del verbo.",
+   "frase": "Ils ___ (avoir) un bébé.",
+   "respuestas": [
+    "eurent"
+   ],
+   "explicacion": "Avoir es el modelo de la columna en -u de la tabla: ils eurent. La raíz es eu-, la misma del participio eu, y la terminación de ils en esta familia es -rent. Es una forma frecuente en los textos narrativos y conviene reconocerla porque no se parece al presente (ils ont).",
+   "origen": "tatoeba:647193",
+   "explicacion_breve": "avoir → ils eurent.",
+   "traduccion": "Tuvieron un bebé.",
+   "errores_previstos": [
+    {
+     "respuesta": "eut",
+     "explicacion": "Eut es la tercera persona del singular; con ils hace falta el plural eurent."
+    },
+    {
+     "respuesta": "avèrent",
+     "explicacion": "Avoir no sigue el modelo de los verbos en -er; su passé simple es irregular: eurent."
+    },
+    {
+     "respuesta": "auront",
+     "explicacion": "Auront es futuro (tendrán); el passé simple es eurent."
+    }
+   ]
+  },
+  {
+   "id": "e10",
+   "tipo": "corregir",
+   "enunciado": "Corrige el error de ortografía.",
+   "frase": "Nous mangeames des œufs.",
+   "respuestas": [
+    "Nous mangeâmes des œufs."
+   ],
+   "explicacion": "La ficha recuerda que las formas de nous y vous llevan acento circunflejo: en los verbos en -er, nous -âmes. Manger, además, conserva la e tras la g para mantener el sonido suave delante de a: mange-âmes. Por tanto, la forma correcta es nous mangeâmes, con e y con â.",
+   "origen": "tatoeba:9558606",
+   "explicacion_breve": "La terminación de nous en -er es -âmes, con circunflejo.",
+   "traduccion": "Comimos huevos.",
+   "errores_previstos": [
+    {
+     "respuesta": "Nous mangeames des œufs.",
+     "explicacion": "Es la frase sin corregir: la terminación -âmes lleva acento circunflejo."
+    },
+    {
+     "respuesta": "Nous mangâmes des œufs.",
+     "explicacion": "Sin la e, la g sonaría dura ante a. Manger conserva la e: mangeâmes."
+    },
+    {
+     "respuesta": "Nous mangeàmes des œufs.",
+     "explicacion": "El acento de -âmes es circunflejo, no grave."
+    }
+   ]
+  },
+  {
+   "id": "e11",
+   "tipo": "corregir",
+   "enunciado": "Corrige el error.",
+   "frase": "Il regardat le ciel.",
+   "respuestas": [
+    "Il regarda le ciel."
+   ],
+   "explicacion": "En la tabla de la ficha, la tercera persona del singular de los verbos en -er termina en -a, sin ninguna consonante: il parla, il regarda. La t aparece en las otras familias (il finit, il eut), y de ahí viene la confusión. Por eso, il regarda le ciel.",
+   "origen": "tatoeba:131893",
+   "explicacion_breve": "La tercera persona de -er termina en -a, sin t.",
+   "traduccion": "Miró al cielo.",
+   "errores_previstos": [
+    {
+     "respuesta": "Il regardat le ciel.",
+     "explicacion": "Es la frase sin corregir: los verbos en -er hacen la tercera persona en -a, sin t."
+    },
+    {
+     "respuesta": "Il regardà le ciel.",
+     "explicacion": "La terminación -a no lleva acento; à con acento es la preposición."
+    },
+    {
+     "respuesta": "Il regardit le ciel.",
+     "explicacion": "La terminación -it es de los verbos en -ir y -re; regarder hace regarda."
+    }
+   ]
+  },
+  {
+   "id": "e12",
+   "tipo": "eleccion",
+   "enunciado": "¿De qué verbo es «naquit»?",
+   "frase": "Il naquit à Lyon en 1900.",
+   "opciones": [
+    "naître",
+    "nager",
+    "nier"
+   ],
+   "respuestas": [
+    "naître"
+   ],
+   "explicacion": "Naquit es una de las formas más irreconocibles del passé simple: pertenece a naître, como indica la tabla de irregulares (naître / mourir: naquit / mourut). La raíz naqu- no se parece ni al infinitivo ni al participio né, por eso hay que memorizarla. El contexto, una fecha y un lugar, también apunta a «nacer».",
+   "explicacion_breve": "naître tiene un passé simple irregular: il naquit (nació).",
+   "traduccion": "Nació en Lyon en 1900.",
+   "por_opcion": {
+    "naître": "Correcta: naquit es el passé simple irregular de naître (nació).",
+    "nager": "Incorrecta: nager (nadar) es regular en -er y haría il nagea.",
+    "nier": "Incorrecta: nier (negar) es regular en -er y haría il nia."
+   }
+  },
+  {
+   "id": "e13",
+   "tipo": "eleccion",
+   "enunciado": "¿Qué forma es «fut»?",
+   "frase": "Ce fut un beau mariage.",
+   "opciones": [
+    "passé simple de être",
+    "futur de être",
+    "imparfait de être"
+   ],
+   "respuestas": [
+    "passé simple de être"
+   ],
+   "explicacion": "La ficha advierte expresamente que fut es pasado de être, no futuro: il fut, ils furent. El futuro de être es sera. La confusión viene del parecido con «future» y con el español «fue», que precisamente es su traducción. Ce fut equivale a c'était o c'a été en un relato escrito.",
+   "origen": "tatoeba:2491083",
+   "explicacion_breve": "fut = fue; el futuro sería sera.",
+   "traduccion": "Fue una bonita boda.",
+   "por_opcion": {
+    "passé simple de être": "Correcta: fut es la tercera persona del singular del passé simple de être (fue).",
+    "futur de être": "Incorrecta: el futuro de être es sera (será); fut solo se parece por la grafía.",
+    "imparfait de être": "Incorrecta: el imparfait de être es était (era)."
+   },
+   "glosario": [
+    {
+     "palabra": "le mariage",
+     "significado": "la boda; también el matrimonio"
+    }
+   ]
+  },
+  {
+   "id": "e14",
+   "tipo": "eleccion",
+   "enunciado": "¿Qué passé composé corresponde a «prit»?",
+   "frase": "Il me prit pour ma mère.",
+   "opciones": [
+    "a pris",
+    "a prit",
+    "prend"
+   ],
+   "respuestas": [
+    "a pris"
+   ],
+   "explicacion": "Prit es el passé simple de prendre, formado sobre la raíz del participio pris, como explica la ficha. Su equivalente en el passé composé lleva el auxiliar avoir y el participio: il a pris. La expresión prendre quelqu'un pour significa «tomar a alguien por», confundirlo con otra persona.",
+   "origen": "tatoeba:343290",
+   "explicacion_breve": "prit es el passé simple de prendre; en el oral: il m'a pris pour ma mère.",
+   "traduccion": "Me tomó por mi madre (me confundió con mi madre).",
+   "por_opcion": {
+    "a pris": "Correcta: auxiliar avoir + participio pris, el passé composé equivalente al oral.",
+    "a prit": "Incorrecta: tras el auxiliar va el participio pris, no la forma de passé simple prit.",
+    "prend": "Incorrecta: prend es presente (toma), no un tiempo pasado."
+   }
+  },
+  {
+   "id": "e15",
+   "tipo": "eleccion",
+   "enunciado": "Elige el tiempo adecuado.",
+   "frase": "Il pleuvait depuis des heures. Soudain, la porte ___ .",
+   "opciones": [
+    "s'ouvrit",
+    "s'ouvrait",
+    "s'ouvrira"
+   ],
+   "respuestas": [
+    "s'ouvrit"
+   ],
+   "explicacion": "Es el reparto de papeles de la ficha: el imparfait pinta el decorado (il pleuvait depuis des heures) y el passé simple narra el hecho que hace avanzar la historia. La pista es soudain (de repente), que introduce una acción puntual. Por eso la puerta se abrió va en passé simple: s'ouvrit, de s'ouvrir, que sigue el modelo en -it.",
+   "explicacion_breve": "Hecho puntual que hace avanzar el relato (soudain): passé simple; el decorado va en imparfait.",
+   "traduccion": "Llovía desde hacía horas. De repente, la puerta se abrió.",
+   "por_opcion": {
+    "s'ouvrit": "Correcta: passé simple de s'ouvrir, acción puntual introducida por soudain.",
+    "s'ouvrait": "Incorrecta aquí: el imparfait describiría una acción en curso o de fondo, pero soudain marca un hecho repentino.",
+    "s'ouvrira": "Incorrecta: es futuro (se abrirá), incompatible con un relato en pasado."
+   }
+  },
+  {
+   "id": "e16",
+   "tipo": "ordenar",
+   "enunciado": "Ordena las palabras.",
+   "palabras": [
+    "moi",
+    "moquèrent",
+    "Ils",
+    "de",
+    "se"
+   ],
+   "respuestas": [
+    "Ils se moquèrent de moi"
+   ],
+   "explicacion": "El verbo se moquer de (burlarse de) es pronominal y regular en -er, así que en ils toma -èrent, como recoge la tabla. En passé simple el pronombre se va delante del verbo y no hay auxiliar: ils se moquèrent. Después va de moi, el complemento que exige el verbo.",
+   "origen": "tatoeba:1526079",
+   "explicacion_breve": "Pronominal en passé simple: ils se moquèrent (se burlaron).",
+   "traduccion": "Se burlaron de mí.",
+   "errores_previstos": [
+    {
+     "respuesta": "Ils moquèrent se de moi",
+     "explicacion": "El pronombre reflexivo va delante del verbo conjugado: ils se moquèrent."
+    },
+    {
+     "respuesta": "Se ils moquèrent de moi",
+     "explicacion": "El sujeto va primero y el pronombre se justo delante del verbo."
+    },
+    {
+     "respuesta": "Ils se moquèrent moi de",
+     "explicacion": "La preposición de va delante de su complemento: de moi."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "se moquer de",
+     "significado": "burlarse de"
+    }
+   ]
+  }
  ],
- "fuente": {"nombre": "Tex's French Grammar", "autores": "COERLL, Universidad de Texas en Austin", "licencia": "CC BY 3.0", "url": "https://laits.utexas.edu/tex/gr/tap10.html", "otras": ["Frases de Tatoeba (CC BY 2.0 FR)"]}
+ "fuente": {
+  "nombre": "Tex's French Grammar",
+  "autores": "COERLL, Universidad de Texas en Austin",
+  "licencia": "CC BY 3.0",
+  "url": "https://laits.utexas.edu/tex/gr/tap10.html",
+  "otras": [
+   "Frases de Tatoeba (CC BY 2.0 FR)"
+  ]
+ },
+ "descripcion_larga_es": "El passé simple es el pasado de la narración escrita: novelas, cuentos, libros de historia y crónica culta. En la conversación lo sustituye el passé composé. Equivale a nuestro indefinido («habló», «tomó») y, como él, cuenta los hechos mientras el imparfait describe. Lo esencial es reconocerlo al leer, sobre todo en tercera persona, porque sus formas irregulares (fut, vint, naquit) despistan mucho al hispanohablante.",
+ "contexto": {
+  "que_es": "Es un tiempo simple, de una sola palabra y sin auxiliar, que expresa hechos pasados terminados en la narración escrita. Tiene tres familias de terminaciones (en -a, en -i y en -u) y muchos irregulares que toman la raíz del participio (pris → il prit, bu → il but).",
+  "por_que_importa": "Aparece en toda la literatura, en la historia y en el periodismo cultivado, así que hay que reconocerlo para entender un texto escrito; confundir fut (fue) con un futuro, o il vit (vio) con «vive», cambia el sentido de la frase. Usarlo en la conversación, en cambio, suena libresco o incluso cómico. En un examen escrito sirve sobre todo para comprender textos y, en registros muy formales, para narrar.",
+  "cuando_se_usa": "En relatos escritos en tercera persona: novelas, cuentos, biografías, crónicas históricas, discursos solemnes. La señal es el tipo de texto y el reparto de papeles con el imparfait: el passé simple lleva los hechos que hacen avanzar la historia (soudain, la porte s'ouvrit). El hispanohablante tiende a usarlo en la conversación porque se parece a nuestro indefinido, pero en el oral corresponde al passé composé."
+ }
 }

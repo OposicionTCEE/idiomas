@@ -118,7 +118,19 @@
    "respuestas": [
     "si"
    ],
-   "explicacion": "Pregunta de sí o no → si."
+   "explicacion": "Se aplica la fila de la tabla «Est-ce que tu viens ? → si»: una pregunta de sí o no se introduce con si en el estilo indirecto. La pista es la pregunta directa, que no lleva ninguna palabra interrogativa y se contesta con oui o non. El orden de la subordinada es el de una afirmación: si + sujeto + verbo (si tu vas).",
+   "explicacion_breve": "Pregunta de sí o no → si.",
+   "traduccion": "«¿Vas al cine?» → Tammy pregunta si vas al cine.",
+   "errores_previstos": [
+    {
+     "respuesta": "que",
+     "explicacion": "Que introduce afirmaciones (il dit que…); tras demander y una pregunta de sí o no se usa si."
+    },
+    {
+     "respuesta": "est-ce que",
+     "explicacion": "En la pregunta indirecta desaparece est-ce que; se sustituye por si."
+    }
+   ]
   },
   {
    "id": "e02",
@@ -128,7 +140,23 @@
    "respuestas": [
     "ce que"
    ],
-   "explicacion": "Qu'est-ce que (complemento) → ce que."
+   "explicacion": "La tabla indica que qu'est-ce que (complemento directo) pasa a ce que en la pregunta indirecta. La pista es la pregunta directa: qu'est-ce que tu fais pregunta por la cosa que se hace, que es el complemento de faire. En español decimos «pregunta qué haces», pero en francés el nexo es ce que, nunca qu'est-ce que ni quoi.",
+   "explicacion_breve": "Qu'est-ce que (complemento) → ce que.",
+   "traduccion": "«¿Qué haces este fin de semana?» → Tammy pregunta qué haces este fin de semana.",
+   "errores_previstos": [
+    {
+     "respuesta": "qu'est-ce que",
+     "explicacion": "Es el calco de la pregunta directa; en estilo indirecto qu'est-ce que se convierte en ce que."
+    },
+    {
+     "respuesta": "quoi",
+     "explicacion": "Quoi no introduce una subordinada interrogativa con verbo conjugado; el nexo es ce que."
+    },
+    {
+     "respuesta": "ce qui",
+     "explicacion": "Ce qui sustituye a qu'est-ce qui (sujeto); aquí el sujeto es tu y lo que se pregunta es el complemento."
+    }
+   ]
   },
   {
    "id": "e03",
@@ -138,7 +166,19 @@
    "respuestas": [
     "ce qui"
    ],
-   "explicacion": "Qu'est-ce qui (sujeto) → ce qui."
+   "explicacion": "La tabla da qu'est-ce qui (sujeto) → ce qui. La pista es que en la frase subordinada no hay otro sujeto antes del verbo se passe: el nexo tiene que hacer de sujeto, y para cosas el francés usa ce qui. Se distingue de ce que porque ce que es complemento y siempre va seguido de un sujeto propio.",
+   "explicacion_breve": "Qu'est-ce qui (sujeto) → ce qui.",
+   "traduccion": "«¿Qué pasa?» → No entiende qué pasa (lo que pasa).",
+   "errores_previstos": [
+    {
+     "respuesta": "ce que",
+     "explicacion": "Ce que es complemento y necesita otro sujeto detrás; aquí falta, así que se necesita ce qui."
+    },
+    {
+     "respuesta": "qu'est-ce qui",
+     "explicacion": "Es la forma de la pregunta directa; en estilo indirecto pasa a ce qui."
+    }
+   ]
   },
   {
    "id": "e04",
@@ -148,7 +188,19 @@
    "respuestas": [
     "de"
    ],
-   "explicacion": "Orden → dire de + infinitivo (negativo: de ne pas + infinitivo)."
+   "explicacion": "La tabla y la lista explican que una orden se transmite con dire de + infinitivo, y en negativa con de ne pas + infinitivo. La pista es el imperativo negativo de la frase directa y lo que ya está escrito tras el hueco (ne pas faire). El español usa que + subjuntivo («que no haga»), pero el francés exige de + infinitivo.",
+   "explicacion_breve": "Orden → dire de + infinitivo (negativo: de ne pas + infinitivo).",
+   "traduccion": "«¡No hagas el tonto!» → Tammy le dice a Tex que no haga el tonto.",
+   "errores_previstos": [
+    {
+     "respuesta": "que",
+     "explicacion": "Calco del español «le dice que no haga»; tras dire, la orden se construye con de + infinitivo."
+    },
+    {
+     "respuesta": "à",
+     "explicacion": "Dire rige de delante del infinitivo; à ya aparece delante de la persona (à Tex)."
+    }
+   ]
   },
   {
    "id": "e05",
@@ -158,7 +210,19 @@
    "respuestas": [
     "quand"
    ],
-   "explicacion": "Pregunta parcial: se conserva el interrogativo quand."
+   "explicacion": "Se aplica la fila de las preguntas parciales: el interrogativo (où, quand, comment, pourquoi…) se conserva en el estilo indirecto. La pista es quand est-ce que en la pregunta directa: est-ce que desaparece y queda solo quand, seguido del orden sujeto + verbo (quand Tex rentre).",
+   "explicacion_breve": "Pregunta parcial: se conserva el interrogativo quand.",
+   "traduccion": "«¿Cuándo vuelves?» → Tammy quiere saber cuándo vuelve Tex.",
+   "errores_previstos": [
+    {
+     "respuesta": "quand est-ce que",
+     "explicacion": "Est-ce que no aparece en la pregunta indirecta."
+    },
+    {
+     "respuesta": "si",
+     "explicacion": "Si es para preguntas de sí o no; aquí se pregunta por el momento, así que se mantiene quand."
+    }
+   ]
   },
   {
    "id": "e06",
@@ -168,8 +232,20 @@
    "respuestas": [
     "il"
    ],
-   "explicacion": "El je del hablante pasa a tercera persona.",
-   "origen": "tatoeba:6818151"
+   "explicacion": "La lista de reglas recuerda que en el estilo indirecto cambian los pronombres según quién habla. La pista es que el que habla es il: su je pasa a tercera persona y, como el narrador habla de él, se dice il dit qu'il est innocent. El apóstrofo de qu' ya está escrito porque que se elide ante vocal.",
+   "origen": "tatoeba:6818151",
+   "explicacion_breve": "El je del hablante pasa a tercera persona.",
+   "traduccion": "«Soy inocente», dice. → Dice que es inocente.",
+   "errores_previstos": [
+    {
+     "respuesta": "je",
+     "explicacion": "Mantener je haría hablar al narrador en primera persona: diría que el narrador es inocente."
+    },
+    {
+     "respuesta": "lui",
+     "explicacion": "Lui es pronombre tónico o de complemento; el sujeto del verbo est debe ser il."
+    }
+   ]
   },
   {
    "id": "e07",
@@ -185,8 +261,16 @@
    "respuestas": [
     "s'il"
    ],
-   "explicacion": "Pregunta de sí o no → si, que se apostrofa ante il.",
-   "origen": "tatoeba:132360"
+   "explicacion": "Es una pregunta de sí o no, así que se introduce con si; además, la lista de reglas indica que si se apostrofa solo ante il e ils. La pista es il en la pregunta original (est-ce qu'il m'aime). Por eso la forma es s'il, nunca si il; en cambio si elle y si on se escriben enteros.",
+   "origen": "tatoeba:132360",
+   "explicacion_breve": "Pregunta de sí o no → si, que se apostrofa ante il.",
+   "traduccion": "«¿Me quiere?» → Me pregunto si me quiere.",
+   "por_opcion": {
+    "s'il": "Correcta: si + il se contrae obligatoriamente en s'il.",
+    "si il": "Incorrecta: es el nexo correcto, pero la elisión ante il es obligatoria; si il es una falta de ortografía.",
+    "qu'il": "Incorrecta: que introduce afirmaciones; con se demander y una pregunta de sí o no se usa si.",
+    "ce qu'il": "Incorrecta: ce que sustituye a qu'est-ce que; aquí no se pregunta qué cosa, sino si es cierto o no."
+   }
   },
   {
    "id": "e08",
@@ -202,7 +286,15 @@
    "respuestas": [
     "qui"
    ],
-   "explicacion": "« Qui vient dîner ? » conserva qui en el estilo indirecto (es una persona)."
+   "explicacion": "Se aplica la regla de las preguntas parciales: el interrogativo se conserva. La pregunta directa es «Qui vient dîner ?», sobre una persona, y qui se mantiene igual en el estilo indirecto. Ce qui solo sustituye a qu'est-ce qui, que pregunta por cosas; con personas no hay cambio.",
+   "explicacion_breve": "« Qui vient dîner ? » conserva qui en el estilo indirecto (es una persona).",
+   "traduccion": "Quiere saber quién viene a cenar esta noche.",
+   "por_opcion": {
+    "qui": "Correcta: qui pregunta por una persona y no cambia en el estilo indirecto.",
+    "ce qui": "Incorrecta: ce qui se refiere a una cosa (lo que); «ce qui vient dîner» trataría al invitado como un objeto.",
+    "ce que": "Incorrecta: ce que es complemento y exigiría otro sujeto; además se refiere a cosas.",
+    "si qui": "Incorrecta: si y qui nunca se combinan; si es solo para preguntas de sí o no."
+   }
   },
   {
    "id": "e09",
@@ -218,7 +310,15 @@
    "respuestas": [
     "où il habite"
    ],
-   "explicacion": "En la pregunta indirecta: sin inversión, sin est-ce que y sin que añadido: interrogativo + sujeto + verbo."
+   "explicacion": "La lista de reglas explica que en la pregunta indirecta desaparecen la inversión y est-ce que: queda interrogativo + sujeto + verbo. La pista es el verbo introductor demande, que convierte la pregunta en subordinada. Por eso la única forma correcta en la norma es où il habite.",
+   "explicacion_breve": "En la pregunta indirecta: sin inversión, sin est-ce que y sin que añadido: interrogativo + sujeto + verbo.",
+   "traduccion": "Le pregunta dónde vive.",
+   "por_opcion": {
+    "où il habite": "Correcta: interrogativo + sujeto + verbo, sin inversión.",
+    "où habite-t-il": "Incorrecta: la inversión con -t- es propia de la pregunta directa; en la indirecta no se usa.",
+    "où est-ce qu'il habite": "Incorrecta según la norma: est-ce que desaparece en la pregunta indirecta, aunque en la lengua hablada muy informal se oye a veces.",
+    "où qu'il habite": "Incorrecta: no se añade que tras el interrogativo; où qu'il habite significaría «dondequiera que viva»."
+   }
   },
   {
    "id": "e10",
@@ -228,8 +328,24 @@
    "respuestas": [
     "Elle dit qu'elle viendra."
    ],
-   "explicacion": "Con el verbo introductor en presente el tiempo no cambia; solo el pronombre.",
-   "origen": "tatoeba:15569"
+   "explicacion": "El resumen de la ficha recuerda que, con el verbo introductor en presente, los tiempos no cambian. La pista es Elle dit, en presente: el futuro je viendrai se mantiene en futuro. Solo cambian el pronombre (je pasa a elle) y la forma del verbo, que concuerda con la tercera persona: qu'elle viendra.",
+   "origen": "tatoeba:15569",
+   "explicacion_breve": "Con el verbo introductor en presente el tiempo no cambia; solo el pronombre.",
+   "traduccion": "Dice que vendrá.",
+   "errores_previstos": [
+    {
+     "respuesta": "Elle dit qu'elle viendrait.",
+     "explicacion": "El condicional solo aparece cuando el introductor está en pasado; con elle dit el futuro se mantiene."
+    },
+    {
+     "respuesta": "Elle dit que je viendrai.",
+     "explicacion": "No cambia el pronombre: la que habla es ella, así que je pasa a elle."
+    },
+    {
+     "respuesta": "Elle dit qu'elle vienne.",
+     "explicacion": "Calco del subjuntivo español; tras dire que, con una afirmación, va indicativo."
+    }
+   ]
   },
   {
    "id": "e11",
@@ -239,7 +355,23 @@
    "respuestas": [
     "Il me demande si j'ai faim."
    ],
-   "explicacion": "Pregunta de sí o no → si; tu pasa a je."
+   "explicacion": "Es una pregunta de sí o no, así que se usa si, y cambian los pronombres: el tu de quien pregunta se refiere a mí, de modo que pasa a je (j'ai faim). La pista es Il me demande: el destinatario de la pregunta es el narrador. El tiempo no cambia porque demande está en presente.",
+   "explicacion_breve": "Pregunta de sí o no → si; tu pasa a je.",
+   "traduccion": "Me pregunta si tengo hambre.",
+   "errores_previstos": [
+    {
+     "respuesta": "Il me demande si tu as faim.",
+     "explicacion": "No adapta el pronombre: la pregunta va dirigida a mí, así que tu pasa a je."
+    },
+    {
+     "respuesta": "Il me demande est-ce que j'ai faim.",
+     "explicacion": "Est-ce que desaparece en la pregunta indirecta y se sustituye por si."
+    },
+    {
+     "respuesta": "Il me demande que j'ai faim.",
+     "explicacion": "Que introduce afirmaciones; una pregunta de sí o no lleva si."
+    }
+   ]
   },
   {
    "id": "e12",
@@ -249,7 +381,23 @@
    "respuestas": [
     "Elle te dit de l'écouter."
    ],
-   "explicacion": "Imperativo → de + infinitivo; moi pasa a la (= ella), apostrofado delante de écouter."
+   "explicacion": "La orden se transmite con dire de + infinitivo, y cambia el pronombre: moi (la que habla) pasa a la, complemento directo femenino, colocado delante del infinitivo. La pista es Elle te dit: la que da la orden es ella, así que «escúchame» se convierte en «escucharla». Como écouter empieza por vocal, la se apostrofa: de l'écouter.",
+   "explicacion_breve": "Imperativo → de + infinitivo; moi pasa a la (= ella), apostrofado delante de écouter.",
+   "traduccion": "Te dice que la escuches.",
+   "errores_previstos": [
+    {
+     "respuesta": "Elle te dit que tu l'écoutes.",
+     "explicacion": "Calco del español «te dice que la escuches»; el francés usa de + infinitivo para las órdenes."
+    },
+    {
+     "respuesta": "Elle te dit de l'écoute.",
+     "explicacion": "Tras de va el infinitivo écouter, no la forma conjugada."
+    },
+    {
+     "respuesta": "Elle te dit de écouter moi.",
+     "explicacion": "Mantiene moi y no lo coloca delante del verbo: el pronombre complemento va antes del infinitivo y debe ser la."
+    }
+   ]
   },
   {
    "id": "e13",
@@ -259,7 +407,23 @@
    "respuestas": [
     "Il me demande ce que je veux."
    ],
-   "explicacion": "Qu'est-ce que pasa a ce que en la pregunta indirecta."
+   "explicacion": "La ficha recoge este error típico: qu'est-ce que pasa a ce que en la pregunta indirecta. La pista es el verbo demande y la pregunta sobre una cosa que se quiere (complemento de vouloir). La corrección es Il me demande ce que je veux.",
+   "explicacion_breve": "Qu'est-ce que pasa a ce que en la pregunta indirecta.",
+   "traduccion": "Me pregunta qué quiero.",
+   "errores_previstos": [
+    {
+     "respuesta": "Il me demande qu'est-ce que je veux.",
+     "explicacion": "Es la frase sin corregir: qu'est-ce que no se usa en la pregunta indirecta."
+    },
+    {
+     "respuesta": "Il me demande quoi je veux.",
+     "explicacion": "Quoi no introduce una subordinada con verbo conjugado; el nexo es ce que."
+    },
+    {
+     "respuesta": "Il me demande ce qui je veux.",
+     "explicacion": "Ce qui es sujeto; aquí el sujeto es je y hace falta el complemento ce que."
+    }
+   ]
   },
   {
    "id": "e14",
@@ -269,8 +433,20 @@
    "respuestas": [
     "On dit qu'il est riche."
    ],
-   "explicacion": "Que se apostrofa ante vocal: qu'il.",
-   "origen": "tatoeba:131872"
+   "explicacion": "La lista de reglas indica que que se apostrofa ante cualquier vocal. La pista es il, que empieza por vocal: que + il se escribe qu'il. La elisión de que es obligatoria, a diferencia de si, que solo se elide ante il e ils.",
+   "origen": "tatoeba:131872",
+   "explicacion_breve": "Que se apostrofa ante vocal: qu'il.",
+   "traduccion": "Dicen que es rico.",
+   "errores_previstos": [
+    {
+     "respuesta": "On dit que il est riche.",
+     "explicacion": "Es la frase sin corregir: que debe elidirse ante il."
+    },
+    {
+     "respuesta": "On dit qu il est riche.",
+     "explicacion": "Falta el apóstrofo: qu'il."
+    }
+   ]
   },
   {
    "id": "e15",
@@ -286,8 +462,20 @@
    "respuestas": [
     "On dit qu'elle est malade"
    ],
-   "explicacion": "On dit que + oración: «dicen que está enferma».",
-   "origen": "tatoeba:1190096"
+   "explicacion": "Es la estructura on dit que + oración, con que elidido ante elle. El orden es sujeto impersonal On + verbo dit + nexo qu'elle + verbo est + atributo malade. On dit que equivale al español «dicen que», con el verbo en singular porque on es tercera persona del singular.",
+   "origen": "tatoeba:1190096",
+   "explicacion_breve": "On dit que + oración: «dicen que está enferma».",
+   "traduccion": "Dicen que está enferma.",
+   "errores_previstos": [
+    {
+     "respuesta": "On dit qu'elle malade est",
+     "explicacion": "El atributo va detrás del verbo être: qu'elle est malade."
+    },
+    {
+     "respuesta": "Dit on qu'elle est malade",
+     "explicacion": "La inversión convierte la frase en pregunta; la afirmación mantiene el orden sujeto + verbo."
+    }
+   ]
   },
   {
    "id": "e16",
@@ -305,7 +493,19 @@
    "respuestas": [
     "Elle te demande où tu étais hier"
    ],
-   "explicacion": "Verbo introductor + interrogativo + sujeto + verbo, sin inversión."
+   "explicacion": "La ficha resume el orden de la pregunta indirecta: verbo introductor + interrogativo + sujeto + verbo, sin inversión. Aquí: Elle te demande (introductor con el pronombre te delante del verbo) + où + tu étais + hier. El tiempo étais se conserva porque el introductor está en presente.",
+   "explicacion_breve": "Verbo introductor + interrogativo + sujeto + verbo, sin inversión.",
+   "traduccion": "Te pregunta dónde estabas ayer.",
+   "errores_previstos": [
+    {
+     "respuesta": "Elle te demande où étais tu hier",
+     "explicacion": "Conserva la inversión de la pregunta directa; en la indirecta va sujeto + verbo: où tu étais."
+    },
+    {
+     "respuesta": "Elle demande te où tu étais hier",
+     "explicacion": "El pronombre complemento te va delante del verbo demande."
+    }
+   ]
   }
  ],
  "fuente": {
@@ -316,5 +516,11 @@
   "otras": [
    "Frases de Tatoeba (CC BY 2.0 FR)"
   ]
+ },
+ "descripcion_larga_es": "Esta ficha enseña a contar lo que alguien dice, pregunta u ordena cuando el verbo introductor está en presente (il dit, elle demande). Los tiempos no cambian, pero sí los pronombres y el nexo: que, si, el interrogativo, ce que, ce qui o de + infinitivo. Al hispanohablante le cuesta porque el español usa «qué» y «lo que» indistintamente y expresa las órdenes con que + subjuntivo.",
+ "contexto": {
+  "que_es": "El estilo indirecto es la forma de reproducir palabras ajenas integrándolas en nuestra frase, sin comillas. Con el verbo introductor en presente solo cambian los pronombres y posesivos según quién habla, y se elige un nexo: que para afirmaciones, si para preguntas de sí o no, el interrogativo para preguntas parciales, ce que y ce qui para qu'est-ce que y qu'est-ce qui, y de + infinitivo para órdenes.",
+  "por_que_importa": "Se usa constantemente para transmitir mensajes, contar conversaciones o resumir lo que dice un texto. Los errores típicos (il demande qu'est-ce que tu fais, elle me dit que je ferme la porte) se entienden, pero suenan claramente extranjeros y penalizan en un examen escrito. Es además la base del estilo indirecto en pasado, que añade la concordancia de tiempos.",
+  "cuando_se_usa": "Aparece tras verbos como dire, demander, vouloir savoir, se demander, expliquer o répondre, sobre todo cuando se transmite un mensaje (Il dit qu'il arrive) o se pregunta algo de manera indirecta y cortés (Je voudrais savoir si…). El hispanohablante tiende a conservar el orden de la pregunta directa, a usar qu'est-ce que tras demander y a traducir «dile que cierre» con que + subjuntivo."
  }
 }

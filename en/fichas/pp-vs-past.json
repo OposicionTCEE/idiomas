@@ -102,7 +102,14 @@
    "respuestas": [
     "watched"
    ],
-   "explicacion": "Last night es un tiempo terminado: past simple."
+   "explicacion": "Se aplica la regla de la tabla según la cual con expresiones de tiempo terminado (yesterday, last week, two days ago) se usa el past simple. La pista es last night: la noche de ayer ya está cerrada, así que la acción queda situada en un momento pasado concreto. Por eso es watched. El present perfect no puede combinarse con una expresión de tiempo terminado.",
+   "explicacion_breve": "Last night es un tiempo terminado: past simple.",
+   "traduccion": "Anoche vi esa película.",
+   "por_opcion": {
+    "have watched": "Incorrecta: el present perfect no se combina con un tiempo terminado como last night.",
+    "watched": "Correcta: past simple para una acción en un momento pasado concreto y cerrado.",
+    "have been watching": "Incorrecta: el present perfect continuous indica algo que llega hasta ahora; no encaja con last night."
+   }
   },
   {
    "id": "e02",
@@ -117,7 +124,14 @@
    "respuestas": [
     "Have"
    ],
-   "explicacion": "Experiencia en la vida (ever): present perfect."
+   "explicacion": "Se aplica la regla de la ficha sobre la experiencia sin fecha: se pregunta por toda la vida de la persona hasta ahora, un periodo que no ha terminado. La pista es ever, que la tabla incluye entre las palabras del present perfect. Por eso la pregunta empieza con el auxiliar Have: Have you ever been to Canada? Fíjate en que been to equivale a «haber estado en», haber ido y vuelto.",
+   "explicacion_breve": "Experiencia en la vida (ever): present perfect.",
+   "traduccion": "¿Has estado alguna vez en Canadá?",
+   "por_opcion": {
+    "Did": "Incorrecta: did you ever been mezcla dos tiempos; además, para una experiencia en toda la vida se usa el present perfect. Did you ever go…? existe en inglés americano, pero con go, no con been.",
+    "Have": "Correcta: auxiliar del present perfect; con ever y been forma la pregunta típica de experiencia.",
+    "Were": "Incorrecta: were you ever been no es una forma posible; were no forma tiempos con el participio been."
+   }
   },
   {
    "id": "e03",
@@ -132,7 +146,14 @@
    "respuestas": [
     "painted"
    ],
-   "explicacion": "Picasso ya murió: su vida es un tiempo terminado."
+   "explicacion": "Se aplica la nota de la ficha sobre la persona viva o muerta: cuando el sujeto ha muerto, el periodo de su vida está terminado y se usa el past simple (Shakespeare wrote many plays). La pista es el sujeto, Picasso, que ya no puede pintar más obras. Por eso es painted. Si se hablara de un pintor vivo, el present perfect (has painted) indicaría que su obra sigue abierta.",
+   "explicacion_breve": "Picasso ya murió: su vida es un tiempo terminado.",
+   "traduccion": "Picasso pintó miles de obras.",
+   "por_opcion": {
+    "has painted": "Incorrecta: el present perfect implicaría que Picasso aún puede seguir pintando; su vida es un periodo terminado.",
+    "painted": "Correcta: past simple porque la vida de Picasso es un tiempo cerrado.",
+    "has been painting": "Incorrecta: el continuo indicaría que sigue pintando hasta ahora, lo cual es imposible."
+   }
   },
   {
    "id": "e04",
@@ -147,7 +168,14 @@
    "respuestas": [
     "have lived"
    ],
-   "explicacion": "Since + situación que sigue hoy: present perfect."
+   "explicacion": "Se aplica la regla de la tabla según la cual since va con present perfect porque el periodo llega hasta ahora. La pista es since 2010: la situación empezó entonces y sigue hoy. Por eso es have lived, aunque el español use el presente «vivimos desde». El past simple indicaría que ya no viven allí, y el presente simple no puede ir con since.",
+   "explicacion_breve": "Since + situación que sigue hoy: present perfect.",
+   "traduccion": "Vivimos en esta casa desde 2010.",
+   "por_opcion": {
+    "lived": "Incorrecta: el past simple daría a entender una etapa cerrada, y since 2010 indica que sigue hasta hoy.",
+    "have lived": "Correcta: present perfect para una situación que empezó en 2010 y continúa.",
+    "live": "Incorrecta: calco del presente español; con since el inglés exige present perfect."
+   }
   },
   {
    "id": "e05",
@@ -157,7 +185,23 @@
    "respuestas": [
     "bought"
    ],
-   "explicacion": "Ago indica un momento terminado: past simple."
+   "explicacion": "Se aplica la tabla del past simple: two days ago es uno de sus ejemplos. La pista es ago, que siempre señala un momento terminado contado hacia atrás desde ahora. Por eso el verbo va en past simple, y como buy es irregular, su pasado es bought. Con ago nunca se usa el present perfect.",
+   "explicacion_breve": "Ago indica un momento terminado: past simple.",
+   "traduccion": "Se compró un coche nuevo hace dos semanas.",
+   "errores_previstos": [
+    {
+     "respuesta": "has bought",
+     "explicacion": "Ago marca un momento pasado concreto; el present perfect no se combina con él."
+    },
+    {
+     "respuesta": "buyed",
+     "explicacion": "Buy es irregular: su pasado es bought."
+    },
+    {
+     "respuesta": "bought ago",
+     "explicacion": "Ago ya está en la frase, detrás de two weeks; en el hueco solo va el verbo."
+    }
+   ]
   },
   {
    "id": "e06",
@@ -168,7 +212,23 @@
     "haven't finished",
     "have not finished"
    ],
-   "explicacion": "Yet en negativa va con present perfect."
+   "explicacion": "Se aplica la tabla del present perfect: yet está entre sus palabras típicas. La pista es yet al final de la frase negativa: significa «todavía no» y se refiere a un periodo que sigue abierto, ya que aún puedo terminarlo. Por eso es haven't finished (o have not finished). El inglés americano admite a veces I didn't finish it yet, pero la norma y el británico prefieren el present perfect.",
+   "explicacion_breve": "Yet en negativa va con present perfect.",
+   "traduccion": "Todavía no he terminado el informe.",
+   "errores_previstos": [
+    {
+     "respuesta": "didn't finish",
+     "explicacion": "Con yet la norma pide present perfect; el past simple con yet solo se oye en inglés americano coloquial."
+    },
+    {
+     "respuesta": "don't finish",
+     "explicacion": "El presente simple no expresa que algo esté pendiente hasta ahora: haven't finished."
+    },
+    {
+     "respuesta": "haven't finish",
+     "explicacion": "Tras have hace falta el participio: finished."
+    }
+   ]
   },
   {
    "id": "e07",
@@ -178,7 +238,23 @@
    "respuestas": [
     "did you start"
    ],
-   "explicacion": "When pide past simple: did + infinitivo."
+   "explicacion": "Se aplica la nota de la ficha según la cual las preguntas con When o What time van siempre en past simple, porque preguntan por un momento concreto. La pista es When al principio. Por eso la pregunta lleva did + sujeto + infinitivo: When did you start? El verbo vuelve a la forma base start, ya que el pasado lo marca did.",
+   "explicacion_breve": "When pide past simple: did + infinitivo.",
+   "traduccion": "¿Cuándo empezaste en tu nuevo trabajo?",
+   "errores_previstos": [
+    {
+     "respuesta": "have you started",
+     "explicacion": "When pregunta por un momento concreto y no admite present perfect."
+    },
+    {
+     "respuesta": "did you started",
+     "explicacion": "Tras did el verbo va en infinitivo: did you start."
+    },
+    {
+     "respuesta": "you started",
+     "explicacion": "Falta el auxiliar did y la inversión: When did you start?"
+    }
+   ]
   },
   {
    "id": "e08",
@@ -189,7 +265,23 @@
     "has just called",
     "'s just called"
    ],
-   "explicacion": "Just con resultado presente: present perfect."
+   "explicacion": "Se aplica la tabla del present perfect: just es una de sus palabras típicas y expresa algo que acaba de ocurrir con efecto en el presente. La pista es just junto con la segunda frase, He's on his way, que muestra el resultado actual de la llamada. Por eso es has just called, con just entre el auxiliar y el participio. En inglés americano también se oye My brother just called me, en past simple, pero la ficha trabaja la norma británica.",
+   "explicacion_breve": "Just con resultado presente: present perfect.",
+   "traduccion": "Mi hermano me acaba de llamar. Está de camino.",
+   "errores_previstos": [
+    {
+     "respuesta": "has called just",
+     "explicacion": "Just va entre el auxiliar y el participio: has just called."
+    },
+    {
+     "respuesta": "have just called",
+     "explicacion": "Con my brother (he) el auxiliar es has."
+    },
+    {
+     "respuesta": "just has called",
+     "explicacion": "Just no va delante del auxiliar sino detrás: has just called."
+    }
+   ]
   },
   {
    "id": "e09",
@@ -199,7 +291,23 @@
    "respuestas": [
     "I met Tom in 2019."
    ],
-   "explicacion": "In 2019 es un tiempo terminado: past simple."
+   "explicacion": "Se aplica la regla de la tabla según la cual una fecha del pasado (in 2019) pide past simple. La pista es in 2019, un año ya terminado. El error es típico de quien traduce «he conocido» con present perfect: en inglés, en cuanto aparece la fecha, el tiempo es past simple. Met es el pasado irregular de meet, que aquí significa «conocer a alguien por primera vez».",
+   "explicacion_breve": "In 2019 es un tiempo terminado: past simple.",
+   "traduccion": "Conocí a Tom en 2019.",
+   "errores_previstos": [
+    {
+     "respuesta": "I have met Tom in 2019.",
+     "explicacion": "Es la frase sin corregir: el present perfect no se combina con una fecha pasada como in 2019."
+    },
+    {
+     "respuesta": "I meet Tom in 2019.",
+     "explicacion": "Se ha quitado have pero el verbo ha quedado en presente; el pasado de meet es met."
+    },
+    {
+     "respuesta": "I have meet Tom in 2019.",
+     "explicacion": "Además de usar el tiempo equivocado, tras have iría el participio met."
+    }
+   ]
   },
   {
    "id": "e10",
@@ -209,7 +317,23 @@
    "respuestas": [
     "What time did you get up this morning?"
    ],
-   "explicacion": "What time pregunta por un momento concreto: past simple."
+   "explicacion": "Se aplica la nota de la ficha sobre las preguntas con What time, que siempre van en past simple porque preguntan por un momento concreto. La pista es What time, reforzado por this morning: si la mañana ya ha pasado, se trata de un momento terminado. Por eso la forma es did you get up, con el verbo get up en infinitivo tras did. En español de España decimos «¿a qué hora te has levantado?», y de ahí viene el error.",
+   "explicacion_breve": "What time pregunta por un momento concreto: past simple.",
+   "traduccion": "¿A qué hora te levantaste esta mañana?",
+   "errores_previstos": [
+    {
+     "respuesta": "What time have you got up this morning?",
+     "explicacion": "Es la frase sin corregir: What time pide past simple."
+    },
+    {
+     "respuesta": "What time did you got up this morning?",
+     "explicacion": "Tras did el verbo va en infinitivo: get up."
+    },
+    {
+     "respuesta": "What time you got up this morning?",
+     "explicacion": "En la pregunta hace falta el auxiliar did antes del sujeto."
+    }
+   ]
   },
   {
    "id": "e11",
@@ -219,7 +343,23 @@
    "respuestas": [
     "She left the office an hour ago."
    ],
-   "explicacion": "Con ago se usa past simple, no present perfect."
+   "explicacion": "Se aplica la regla de la tabla según la cual ago va con past simple. La pista es an hour ago: aunque haya pasado muy poco tiempo, ago lo convierte en un momento concreto y terminado. Por eso has left pasa a left, el pasado de leave. Este caso muestra la idea central de la ficha: no importa si es reciente, sino si el momento está cerrado.",
+   "explicacion_breve": "Con ago se usa past simple, no present perfect.",
+   "traduccion": "Salió de la oficina hace una hora.",
+   "errores_previstos": [
+    {
+     "respuesta": "She has left the office an hour ago.",
+     "explicacion": "Es la frase sin corregir: con ago no se usa present perfect."
+    },
+    {
+     "respuesta": "She leaved the office an hour ago.",
+     "explicacion": "Leave es irregular: su pasado es left."
+    },
+    {
+     "respuesta": "She has left the office since an hour.",
+     "explicacion": "Since necesita un punto de inicio, no una duración, y además el sentido cambia; basta con usar left con ago."
+    }
+   ]
   },
   {
    "id": "e12",
@@ -227,9 +367,26 @@
    "enunciado": "Reescribe la frase añadiendo «last summer» al final y cambiando el tiempo verbal.",
    "frase": "I have been to Lisbon.",
    "respuestas": [
-    "I went to Lisbon last summer."
+    "I went to Lisbon last summer.",
+    "I was in Lisbon last summer."
    ],
-   "explicacion": "Al añadir un momento terminado, el present perfect pasa a past simple (have been → went)."
+   "explicacion": "Se aplica la primera nota de la lista: experiencia sin fecha en present perfect (I've visited Japan twice), pero con fecha en past simple (I visited Japan in 2018). Al añadir last summer, un tiempo terminado, el present perfect tiene que pasar a past simple. La pista está en la forma: have been to (haber estado en) se convierte en went to (fui a), el pasado de go, que es lo natural para un viaje. También vale I was in Lisbon last summer: was in (estuve en) es el pasado de be in, y equivale al have been de la frase original.",
+   "explicacion_breve": "Al añadir un momento terminado, el present perfect pasa a past simple (have been → went / was).",
+   "traduccion": "Fui a Lisboa el verano pasado.",
+   "errores_previstos": [
+    {
+     "respuesta": "I have been to Lisbon last summer.",
+     "explicacion": "Se ha añadido last summer pero no se ha cambiado el tiempo: con un tiempo terminado hace falta past simple."
+    },
+    {
+     "respuesta": "I was been to Lisbon last summer.",
+     "explicacion": "Mezcla de formas: el pasado de have been to un lugar es went to (o was in)."
+    },
+    {
+     "respuesta": "I went in Lisbon last summer.",
+     "explicacion": "Con verbos de movimiento como go el destino se introduce con to: went to Lisbon."
+    }
+   ]
   },
   {
    "id": "e13",
@@ -245,7 +402,23 @@
    "respuestas": [
     "I have never tried sushi"
    ],
-   "explicacion": "Experiencia (never): have + never + participio."
+   "explicacion": "Se aplica la tabla del present perfect: never expresa una experiencia en toda la vida hasta ahora. La pista para el orden es que never se coloca entre el auxiliar y el participio: have + never + tried. Por eso el orden es I have never tried sushi. Try aquí significa «probar» (una comida).",
+   "explicacion_breve": "Experiencia (never): have + never + participio.",
+   "traduccion": "Nunca he probado el sushi.",
+   "errores_previstos": [
+    {
+     "respuesta": "I have sushi never tried",
+     "explicacion": "Calco de un orden con el objeto en medio: en inglés el objeto sushi va detrás del participio, y never entre have y tried."
+    },
+    {
+     "respuesta": "I have tried never sushi",
+     "explicacion": "Never no puede ir detrás del participio; va entre have y tried."
+    },
+    {
+     "respuesta": "Never I have tried sushi",
+     "explicacion": "Si never va al principio, el inglés exige invertir el orden (Never have I tried…), una construcción enfática y formal; con este orden la frase es incorrecta."
+    }
+   ]
   },
   {
    "id": "e14",
@@ -260,10 +433,32 @@
    "respuestas": [
     "when did they arrive"
    ],
-   "explicacion": "When + did + sujeto + infinitivo."
+   "explicacion": "Se aplica la nota de la ficha según la cual las preguntas con When van siempre en past simple. La pista es la palabra when, que va al principio, y el auxiliar did, que marca el pasado. El orden es When + did + sujeto + infinitivo: when did they arrive. El verbo arrive queda en forma base, sin -ed, porque el pasado ya lo indica did.",
+   "explicacion_breve": "When + did + sujeto + infinitivo.",
+   "traduccion": "¿Cuándo llegaron?",
+   "errores_previstos": [
+    {
+     "respuesta": "when they did arrive",
+     "explicacion": "En la pregunta el auxiliar did va antes del sujeto: when did they."
+    },
+    {
+     "respuesta": "when did arrive they",
+     "explicacion": "El sujeto va entre did y el verbo: did they arrive."
+    },
+    {
+     "respuesta": "did they arrive when",
+     "explicacion": "La palabra interrogativa when va al principio de la pregunta en inglés."
+    }
+   ]
   }
  ],
  "fuente": {
   "nombre": "propia"
+ },
+ "descripcion_larga_es": "Elegir entre present perfect y past simple depende de si el tiempo del que hablamos está terminado (yesterday, in 2019, ago) o llega hasta ahora o no se precisa (ever, yet, since). Es una de las decisiones más frecuentes al hablar del pasado. Al hispanohablante de España le cuesta porque usa el pretérito perfecto para lo reciente («esta mañana he ido»), y el inglés no sigue ese criterio.",
+ "contexto": {
+  "que_es": "Es el contraste entre dos tiempos que el español no reparte igual. El past simple (I went, did you go?) sitúa la acción en un tiempo pasado terminado; el present perfect (I have gone, have you been?) la conecta con el presente: experiencias sin fecha, periodos que siguen abiertos o resultados actuales. La clave no es si fue hace poco, sino si el periodo está cerrado.",
+  "por_que_importa": "Al contar experiencias o noticias hay que elegir uno de los dos en casi cada frase. Usar present perfect con una fecha («I have met him in 2019») es un error muy típico del español de España que el nativo nota enseguida. Además, la elección cambia el sentido: Shakespeare wrote frente a My sister has written indica si la persona puede seguir escribiendo.",
+  "cuando_se_usa": "Past simple con yesterday, last week, ago, in 2019, when I was a child y en preguntas con When o What time. Present perfect con ever, never, already, yet, just, so far, since y for, y para experiencias sin fecha. Es habitual empezar en present perfect (Have you seen it?) y pasar al past simple al dar detalles (Yes, I saw it on Saturday)."
  }
 }

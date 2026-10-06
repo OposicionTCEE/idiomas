@@ -6,69 +6,691 @@
  "nivel": "A1",
  "resumen": "Nombres de lugares y medios de transporte, y las fórmulas básicas para preguntar por un sitio y explicar cómo llegar.",
  "explicacion": [
-  {"tipo": "texto", "texto": "Para pedir direcciones se empieza con Excuse me y se pregunta Where is…? o How do I get to…? Para darlas se usa el imperativo: go straight on, turn left, take the second street on the right."},
-  {"tipo": "tabla", "cabecera": ["Expresión", "Significado", "Ejemplo"], "filas": [
-   ["bank / post office", "banco / oficina de correos", "The post office is next to the bank."],
-   ["chemist's / pharmacy", "farmacia", "Is there a chemist's near here?"],
-   ["town hall", "ayuntamiento", "The town hall is in the main square."],
-   ["square", "plaza", "Meet me in the square."],
-   ["shopping centre", "centro comercial", "The new shopping centre is huge."],
-   ["library", "biblioteca", "I study at the library."],
-   ["bookshop", "librería", "There's a great bookshop on this street."],
-   ["underground / tube / subway", "metro (británico / Londres / americano)", "Take the underground to the station."],
-   ["bus stop", "parada de autobús", "The bus stop is opposite the park."],
-   ["traffic lights", "semáforo", "Turn right at the traffic lights."],
-   ["roundabout", "rotonda", "Go round the roundabout."],
-   ["crossroads", "cruce", "Turn left at the crossroads."]
-  ]},
-  {"tipo": "tabla", "cabecera": ["Expresión", "Significado", "Ejemplo"], "filas": [
-   ["Excuse me, where is…?", "Perdone, ¿dónde está…?", "Excuse me, where is the museum?"],
-   ["How do I get to…?", "¿Cómo llego a…?", "How do I get to the station?"],
-   ["go straight on / ahead", "seguir todo recto", "Go straight on for two blocks."],
-   ["turn left / right", "girar a la izquierda / derecha", "Turn left after the church."],
-   ["take the first on the right", "coger la primera a la derecha", "Take the second on the left."],
-   ["next to / opposite", "al lado de / enfrente de", "The café is opposite the cinema."],
-   ["between / behind / in front of", "entre / detrás de / delante de", "The car park is behind the hotel."],
-   ["on the corner", "en la esquina", "There's a bakery on the corner."],
-   ["It's a five-minute walk.", "Está a cinco minutos andando.", "The beach is a ten-minute walk."],
-   ["by bus / on foot", "en autobús / a pie", "I go to work on foot."]
-  ]},
-  {"tipo": "lista", "items": [
-   "Library es biblioteca; la tienda de libros es bookshop (falso amigo).",
-   "Medios de transporte con by: by car, by train; pero on foot.",
-   "Opposite no lleva of: opposite the bank."
-  ]}
+  {
+   "tipo": "texto",
+   "texto": "Para pedir direcciones se empieza con Excuse me y se pregunta Where is…? o How do I get to…? Para darlas se usa el imperativo: go straight on, turn left, take the second street on the right."
+  },
+  {
+   "tipo": "tabla",
+   "cabecera": [
+    "Expresión",
+    "Significado",
+    "Ejemplo"
+   ],
+   "filas": [
+    [
+     "bank / post office",
+     "banco / oficina de correos",
+     "The post office is next to the bank."
+    ],
+    [
+     "chemist's / pharmacy",
+     "farmacia",
+     "Is there a chemist's near here?"
+    ],
+    [
+     "town hall",
+     "ayuntamiento",
+     "The town hall is in the main square."
+    ],
+    [
+     "square",
+     "plaza",
+     "Meet me in the square."
+    ],
+    [
+     "shopping centre",
+     "centro comercial",
+     "The new shopping centre is huge."
+    ],
+    [
+     "library",
+     "biblioteca",
+     "I study at the library."
+    ],
+    [
+     "bookshop",
+     "librería",
+     "There's a great bookshop on this street."
+    ],
+    [
+     "underground / tube / subway",
+     "metro (británico / Londres / americano)",
+     "Take the underground to the station."
+    ],
+    [
+     "bus stop",
+     "parada de autobús",
+     "The bus stop is opposite the park."
+    ],
+    [
+     "traffic lights",
+     "semáforo",
+     "Turn right at the traffic lights."
+    ],
+    [
+     "roundabout",
+     "rotonda",
+     "Go round the roundabout."
+    ],
+    [
+     "crossroads",
+     "cruce",
+     "Turn left at the crossroads."
+    ]
+   ]
+  },
+  {
+   "tipo": "tabla",
+   "cabecera": [
+    "Expresión",
+    "Significado",
+    "Ejemplo"
+   ],
+   "filas": [
+    [
+     "Excuse me, where is…?",
+     "Perdone, ¿dónde está…?",
+     "Excuse me, where is the museum?"
+    ],
+    [
+     "How do I get to…?",
+     "¿Cómo llego a…?",
+     "How do I get to the station?"
+    ],
+    [
+     "go straight on / ahead",
+     "seguir todo recto",
+     "Go straight on for two blocks."
+    ],
+    [
+     "turn left / right",
+     "girar a la izquierda / derecha",
+     "Turn left after the church."
+    ],
+    [
+     "take the first on the right",
+     "coger la primera a la derecha",
+     "Take the second on the left."
+    ],
+    [
+     "next to / opposite",
+     "al lado de / enfrente de",
+     "The café is opposite the cinema."
+    ],
+    [
+     "between / behind / in front of",
+     "entre / detrás de / delante de",
+     "The car park is behind the hotel."
+    ],
+    [
+     "on the corner",
+     "en la esquina",
+     "There's a bakery on the corner."
+    ],
+    [
+     "It's a five-minute walk.",
+     "Está a cinco minutos andando.",
+     "The beach is a ten-minute walk."
+    ],
+    [
+     "by bus / on foot",
+     "en autobús / a pie",
+     "I go to work on foot."
+    ]
+   ]
+  },
+  {
+   "tipo": "lista",
+   "items": [
+    "Library es biblioteca; la tienda de libros es bookshop (falso amigo).",
+    "Medios de transporte con by: by car, by train; pero on foot.",
+    "Opposite no lleva of: opposite the bank."
+   ]
+  }
  ],
  "ejemplos": [
-  {"frase": "Excuse me, how do I get to the train station?", "traduccion": "Perdone, ¿cómo llego a la estación de tren?"},
-  {"frase": "Go straight on and turn right at the traffic lights.", "traduccion": "Siga todo recto y gire a la derecha en el semáforo."},
-  {"frase": "The pharmacy is between the bank and the supermarket.", "traduccion": "La farmacia está entre el banco y el supermercado."},
-  {"frase": "It's about a fifteen-minute walk from here.", "traduccion": "Está a unos quince minutos andando desde aquí."},
-  {"frase": "Is there a bus stop near the hospital?", "traduccion": "¿Hay una parada de autobús cerca del hospital?"},
-  {"frase": "We usually go to the city centre by underground.", "traduccion": "Normalmente vamos al centro en metro."}
+  {
+   "frase": "Excuse me, how do I get to the train station?",
+   "traduccion": "Perdone, ¿cómo llego a la estación de tren?"
+  },
+  {
+   "frase": "Go straight on and turn right at the traffic lights.",
+   "traduccion": "Siga todo recto y gire a la derecha en el semáforo."
+  },
+  {
+   "frase": "The pharmacy is between the bank and the supermarket.",
+   "traduccion": "La farmacia está entre el banco y el supermercado."
+  },
+  {
+   "frase": "It's about a fifteen-minute walk from here.",
+   "traduccion": "Está a unos quince minutos andando desde aquí."
+  },
+  {
+   "frase": "Is there a bus stop near the hospital?",
+   "traduccion": "¿Hay una parada de autobús cerca del hospital?"
+  },
+  {
+   "frase": "We usually go to the city centre by underground.",
+   "traduccion": "Normalmente vamos al centro en metro."
+  }
  ],
  "errores_hispanohablantes": [
-  {"mal": "I'm going to the library to buy a novel.", "bien": "I'm going to the bookshop to buy a novel.", "nota": "Library es biblioteca; para comprar libros, bookshop."},
-  {"mal": "The bank is in front of the park.", "bien": "The bank is opposite the park.", "nota": "Enfrente (al otro lado de la calle) es opposite; in front of es delante de."},
-  {"mal": "I go to work by foot.", "bien": "I go to work on foot.", "nota": "A pie es on foot."},
-  {"mal": "Turn to the left in the second street.", "bien": "Take the second street on the left.", "nota": "Fórmula fija: take the first/second on the left/right."}
+  {
+   "mal": "I'm going to the library to buy a novel.",
+   "bien": "I'm going to the bookshop to buy a novel.",
+   "nota": "Library es biblioteca; para comprar libros, bookshop."
+  },
+  {
+   "mal": "The bank is in front of the park.",
+   "bien": "The bank is opposite the park.",
+   "nota": "Enfrente (al otro lado de la calle) es opposite; in front of es delante de."
+  },
+  {
+   "mal": "I go to work by foot.",
+   "bien": "I go to work on foot.",
+   "nota": "A pie es on foot."
+  },
+  {
+   "mal": "Turn to the left in the second street.",
+   "bien": "Take the second street on the left.",
+   "nota": "Fórmula fija: take the first/second on the left/right."
+  }
  ],
  "ejercicios": [
-  {"id": "e01", "tipo": "hueco", "enunciado": "Completa la pregunta.", "frase": "Excuse me, how do I ___ to the museum?", "respuestas": ["get"], "explicacion": "How do I get to…? es la pregunta para llegar a un sitio."},
-  {"id": "e02", "tipo": "hueco", "enunciado": "Completa la indicación.", "frase": "Go straight ___ until you see the church.", "respuestas": ["on", "ahead"], "explicacion": "Todo recto es go straight on o go straight ahead."},
-  {"id": "e03", "tipo": "hueco", "enunciado": "Completa con la preposición.", "frase": "The café is ___ the corner of Oxford Street.", "respuestas": ["on", "at"], "explicacion": "En la esquina es on the corner (también at the corner)."},
-  {"id": "e04", "tipo": "eleccion", "enunciado": "Elige la opción correcta.", "frase": "I want to borrow some books. Where's the ___?", "opciones": ["library", "bookshop", "bookstore"], "respuestas": ["library"], "explicacion": "Los libros se toman prestados en la biblioteca: library."},
-  {"id": "e05", "tipo": "eleccion", "enunciado": "Elige la opción correcta.", "frase": "Stop! The traffic ___ are red.", "opciones": ["lights", "signs", "lamps"], "respuestas": ["lights"], "explicacion": "El semáforo es traffic lights."},
-  {"id": "e06", "tipo": "eleccion", "enunciado": "Elige la opción correcta.", "frase": "I don't have a car, so I go everywhere ___ foot.", "opciones": ["on", "by", "with"], "respuestas": ["on"], "explicacion": "A pie es on foot."},
-  {"id": "e07", "tipo": "eleccion", "enunciado": "Elige la opción correcta.", "frase": "The hotel is ___ the station, just across the road.", "opciones": ["opposite", "opposite of", "in front"], "respuestas": ["opposite"], "explicacion": "Opposite no lleva preposición detrás."},
-  {"id": "e08", "tipo": "eleccion", "enunciado": "Elige la opción correcta.", "frase": "You need medicine? There's a ___ next to the bank.", "opciones": ["chemist's", "butcher's", "baker's"], "respuestas": ["chemist's"], "explicacion": "Las medicinas se compran en el chemist's (farmacia)."},
-  {"id": "e09", "tipo": "corregir", "enunciado": "Corrige el error.", "frase": "We went to the city centre by foot.", "respuestas": ["We went to the city centre on foot."], "explicacion": "A pie es on foot, no by foot."},
-  {"id": "e10", "tipo": "corregir", "enunciado": "Corrige el error.", "frase": "The cinema is next of the bank.", "respuestas": ["The cinema is next to the bank."], "explicacion": "Al lado de es next to."},
-  {"id": "e11", "tipo": "corregir", "enunciado": "Corrige el falso amigo.", "frase": "I bought this dictionary at the library on the corner.", "respuestas": ["I bought this dictionary at the bookshop on the corner.", "I bought this dictionary at the bookstore on the corner."], "explicacion": "En la biblioteca no se compran libros: bookshop o bookstore."},
-  {"id": "e12", "tipo": "ordenar", "enunciado": "Ordena las palabras.", "palabras": ["left", "first", "take", "the", "on", "the"], "respuestas": ["Take the first on the left"], "explicacion": "Fórmula fija para indicar una calle."},
-  {"id": "e13", "tipo": "ordenar", "enunciado": "Ordena las palabras.", "palabras": ["here", "is", "a", "near", "there", "bank"], "respuestas": ["Is there a bank near here"], "explicacion": "Is there…? pregunta si existe algo cerca."},
-  {"id": "e14", "tipo": "hueco", "enunciado": "Completa: «rotonda».", "frase": "Go round the ___ and take the third exit.", "respuestas": ["roundabout"], "explicacion": "Rotonda es roundabout."},
-  {"id": "e15", "tipo": "hueco", "enunciado": "Completa: «ayuntamiento».", "frase": "You can get the form at the town ___.", "respuestas": ["hall"], "explicacion": "El ayuntamiento es the town hall."}
+  {
+   "id": "e01",
+   "tipo": "hueco",
+   "enunciado": "Completa la pregunta.",
+   "frase": "Excuse me, how do I ___ to the museum?",
+   "respuestas": [
+    "get"
+   ],
+   "explicacion": "La tabla da la fórmula fija «How do I get to…?», ¿cómo llego a…?, para pedir indicaciones. La pista es la estructura «how do I ___ to the museum»: el verbo que se combina con «to» para expresar llegar a un sitio es «get». Por eso «How do I get to the museum?». «Arrive» no sirve aquí, porque se construye con «at» o «in» y no se usa en esta fórmula.",
+   "explicacion_breve": "How do I get to…? es la pregunta para llegar a un sitio.",
+   "traduccion": "Perdone, ¿cómo llego al museo?",
+   "errores_previstos": [
+    {
+     "respuesta": "arrive",
+     "explicacion": "«Arrive» va con «at» o «in», no con «to», y no forma esta fórmula; para pedir el camino se dice «How do I get to…?»."
+    },
+    {
+     "respuesta": "go",
+     "explicacion": "«How do I go to…?» se entiende, pero la fórmula habitual para pedir el camino es «How do I get to…?»."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "How do I get to…?",
+     "significado": "¿Cómo llego a…?"
+    },
+    {
+     "palabra": "Excuse me",
+     "significado": "Perdone, disculpe (para llamar la atención de alguien)"
+    }
+   ]
+  },
+  {
+   "id": "e02",
+   "tipo": "hueco",
+   "enunciado": "Completa la indicación.",
+   "frase": "Go straight ___ until you see the church.",
+   "respuestas": [
+    "on",
+    "ahead"
+   ],
+   "explicacion": "La tabla da «go straight on / ahead», seguir todo recto. La pista es «Go straight ___ until you see the church»: se pide seguir en la misma dirección sin girar. Valen «on» (más británico) y «ahead» (más general). «Straight» aquí significa «recto», no «derecho» como lado: la derecha es «right».",
+   "explicacion_breve": "Todo recto es go straight on o go straight ahead.",
+   "traduccion": "Siga todo recto hasta que vea la iglesia.",
+   "errores_previstos": [
+    {
+     "respuesta": "right",
+     "explicacion": "«Go straight right» no existe; «right» es la derecha, y «todo recto» es «straight on» o «straight ahead»."
+    },
+    {
+     "respuesta": "forward",
+     "explicacion": "«Forward» indica hacia delante en general, pero la fórmula fija para indicaciones es «straight on» o «straight ahead»."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "go straight on",
+     "significado": "seguir todo recto"
+    },
+    {
+     "palabra": "until",
+     "significado": "hasta que"
+    }
+   ]
+  },
+  {
+   "id": "e03",
+   "tipo": "hueco",
+   "enunciado": "Completa con la preposición.",
+   "frase": "The café is ___ the corner of Oxford Street.",
+   "respuestas": [
+    "on",
+    "at"
+   ],
+   "explicacion": "La tabla da «on the corner», en la esquina. La pista es «___ the corner of Oxford Street», que sitúa un local en el cruce de calles. Se aceptan «on the corner» y «at the corner», las dos usadas para indicar el lugar donde algo está. «In the corner» sería otra cosa: en el rincón de una habitación.",
+   "explicacion_breve": "En la esquina es on the corner (también at the corner).",
+   "traduccion": "La cafetería está en la esquina de Oxford Street.",
+   "errores_previstos": [
+    {
+     "respuesta": "in",
+     "explicacion": "«In the corner» es el rincón dentro de una habitación; una esquina de la calle es «on» o «at the corner»."
+    },
+    {
+     "respuesta": "en",
+     "explicacion": "Es la preposición española; en inglés se dice «on the corner»."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "on the corner",
+     "significado": "en la esquina"
+    }
+   ]
+  },
+  {
+   "id": "e04",
+   "tipo": "eleccion",
+   "enunciado": "Elige la opción correcta.",
+   "frase": "I want to borrow some books. Where's the ___?",
+   "opciones": [
+    "library",
+    "bookshop",
+    "bookstore"
+   ],
+   "respuestas": [
+    "library"
+   ],
+   "explicacion": "Es el falso amigo que la ficha destaca: «library» es la biblioteca y «bookshop» la librería. La pista es el verbo «borrow», tomar prestado: los libros se piden prestados en una biblioteca, no en una tienda. Por eso «library». Si se quisieran comprar, la palabra sería «bookshop».",
+   "explicacion_breve": "Los libros se toman prestados en la biblioteca: library.",
+   "traduccion": "Quiero tomar prestados unos libros. ¿Dónde está la biblioteca?",
+   "por_opcion": {
+    "library": "Correcta: biblioteca, donde se toman libros prestados.",
+    "bookshop": "Incorrecta aquí: «bookshop» es la librería, una tienda donde los libros se compran, no se prestan.",
+    "bookstore": "Incorrecta aquí: es la forma americana de «bookshop», es decir, también una tienda."
+   },
+   "glosario": [
+    {
+     "palabra": "library",
+     "significado": "biblioteca"
+    },
+    {
+     "palabra": "to borrow",
+     "significado": "tomar prestado"
+    }
+   ]
+  },
+  {
+   "id": "e05",
+   "tipo": "eleccion",
+   "enunciado": "Elige la opción correcta.",
+   "frase": "Stop! The traffic ___ are red.",
+   "opciones": [
+    "lights",
+    "signs",
+    "lamps"
+   ],
+   "respuestas": [
+    "lights"
+   ],
+   "explicacion": "La tabla da «traffic lights», el semáforo, siempre en plural porque son varias luces. La pista es «are red», con el verbo en plural, y la orden «Stop!». Por eso «traffic lights». En español hablamos de «el semáforo» en singular, pero en inglés lo normal es el plural.",
+   "explicacion_breve": "El semáforo es traffic lights.",
+   "traduccion": "¡Para! El semáforo está en rojo.",
+   "por_opcion": {
+    "lights": "Correcta: «traffic lights» es el semáforo.",
+    "signs": "Incorrecta: «traffic signs» son las señales de tráfico, que no se ponen rojas.",
+    "lamps": "Incorrecta: «lamps» son lámparas; no forman la expresión del semáforo."
+   },
+   "glosario": [
+    {
+     "palabra": "traffic lights",
+     "significado": "semáforo"
+    }
+   ]
+  },
+  {
+   "id": "e06",
+   "tipo": "eleccion",
+   "enunciado": "Elige la opción correcta.",
+   "frase": "I don't have a car, so I go everywhere ___ foot.",
+   "opciones": [
+    "on",
+    "by",
+    "with"
+   ],
+   "respuestas": [
+    "on"
+   ],
+   "explicacion": "La ficha explica que los medios de transporte van con «by» (by car, by bus), con una excepción: «on foot», a pie. La pista es «___ foot» y «I don't have a car». Por eso «on foot». Es uno de los errores típicos de la ficha: «by foot» suena lógico, pero no es la forma normal.",
+   "explicacion_breve": "A pie es on foot.",
+   "traduccion": "No tengo coche, así que voy a todas partes a pie.",
+   "por_opcion": {
+    "on": "Correcta: «on foot» es la expresión fija para ir a pie.",
+    "by": "Incorrecta: «by» va con vehículos (by car, by train), pero «a pie» es «on foot».",
+    "with": "Incorrecta: «with foot» no existe; «with» indica compañía o instrumento."
+   },
+   "glosario": [
+    {
+     "palabra": "on foot",
+     "significado": "a pie"
+    }
+   ]
+  },
+  {
+   "id": "e07",
+   "tipo": "eleccion",
+   "enunciado": "Elige la opción correcta.",
+   "frase": "The hotel is ___ the station, just across the road.",
+   "opciones": [
+    "opposite",
+    "opposite of",
+    "in front"
+   ],
+   "respuestas": [
+    "opposite"
+   ],
+   "explicacion": "La ficha recuerda que «opposite» (enfrente de) no lleva «of»: opposite the bank. La pista es «just across the road», que describe dos edificios uno frente a otro con la calle en medio. Por eso «opposite the station». «In front of» significa delante de, en el mismo lado, y además le faltaría el «of».",
+   "explicacion_breve": "Opposite no lleva preposición detrás.",
+   "traduccion": "El hotel está enfrente de la estación, justo al otro lado de la calle.",
+   "por_opcion": {
+    "opposite": "Correcta: «opposite» funciona directamente como preposición, sin «of».",
+    "opposite of": "Incorrecta: es el calco de «enfrente de». «The opposite of» solo existe como sustantivo (lo contrario de).",
+    "in front": "Incorrecta: le falta «of» («in front of»), y además significa delante, no al otro lado de la calle."
+   },
+   "glosario": [
+    {
+     "palabra": "opposite",
+     "significado": "enfrente de"
+    },
+    {
+     "palabra": "across the road",
+     "significado": "al otro lado de la calle"
+    }
+   ]
+  },
+  {
+   "id": "e08",
+   "tipo": "eleccion",
+   "enunciado": "Elige la opción correcta.",
+   "frase": "You need medicine? There's a ___ next to the bank.",
+   "opciones": [
+    "chemist's",
+    "butcher's",
+    "baker's"
+   ],
+   "respuestas": [
+    "chemist's"
+   ],
+   "explicacion": "La tabla da «chemist's» (británico) o «pharmacy» como farmacia. La pista es «You need medicine?»: las medicinas se compran en la farmacia. Como otras tiendas británicas, se forma con el nombre del profesional + 's: chemist's, butcher's, baker's (la tienda del farmacéutico, del carnicero, del panadero).",
+   "explicacion_breve": "Las medicinas se compran en el chemist's (farmacia).",
+   "traduccion": "¿Necesitas medicinas? Hay una farmacia al lado del banco.",
+   "por_opcion": {
+    "chemist's": "Correcta: farmacia (inglés británico).",
+    "butcher's": "Incorrecta: «butcher's» es la carnicería.",
+    "baker's": "Incorrecta: «baker's» es la panadería."
+   },
+   "glosario": [
+    {
+     "palabra": "chemist's",
+     "significado": "farmacia (inglés británico)"
+    },
+    {
+     "palabra": "medicine",
+     "significado": "medicina, medicamento"
+    }
+   ]
+  },
+  {
+   "id": "e09",
+   "tipo": "corregir",
+   "enunciado": "Corrige el error.",
+   "frase": "We went to the city centre by foot.",
+   "respuestas": [
+    "We went to the city centre on foot."
+   ],
+   "explicacion": "Es la excepción de la ficha a la regla de «by» con medios de transporte: «a pie» es «on foot», no «by foot». La pista es «by foot», que generaliza «by car» o «by bus». La frase correcta es «We went to the city centre on foot». En inglés coloquial también se dice «We walked to the city centre».",
+   "explicacion_breve": "A pie es on foot, no by foot.",
+   "traduccion": "Fuimos al centro de la ciudad a pie.",
+   "errores_previstos": [
+    {
+     "respuesta": "We went to the city centre by foot.",
+     "explicacion": "Es la frase sin corregir: «a pie» es «on foot»."
+    },
+    {
+     "respuesta": "We went to the city centre with foot.",
+     "explicacion": "«With» no forma esta expresión; la correcta es «on foot»."
+    },
+    {
+     "respuesta": "We went to the city centre on feet.",
+     "explicacion": "La expresión fija va en singular: «on foot»."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "city centre",
+     "significado": "centro de la ciudad"
+    },
+    {
+     "palabra": "on foot",
+     "significado": "a pie"
+    }
+   ]
+  },
+  {
+   "id": "e10",
+   "tipo": "corregir",
+   "enunciado": "Corrige el error.",
+   "frase": "The cinema is next of the bank.",
+   "respuestas": [
+    "The cinema is next to the bank."
+   ],
+   "explicacion": "La tabla da «next to», al lado de. La pista es «next of», calco del español «al lado de»: el «de» se traduce aquí por «to». La frase correcta es «The cinema is next to the bank». Es una preposición compuesta fija: «next to».",
+   "explicacion_breve": "Al lado de es next to.",
+   "traduccion": "El cine está al lado del banco.",
+   "errores_previstos": [
+    {
+     "respuesta": "The cinema is next of the bank.",
+     "explicacion": "Es la frase sin corregir: «al lado de» es «next to»."
+    },
+    {
+     "respuesta": "The cinema is next the bank.",
+     "explicacion": "Falta «to»: la preposición completa es «next to»."
+    },
+    {
+     "respuesta": "The cinema is beside of the bank.",
+     "explicacion": "«Beside» significa lo mismo, pero no lleva «of»; además, la forma pedida es «next to»."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "next to",
+     "significado": "al lado de"
+    }
+   ]
+  },
+  {
+   "id": "e11",
+   "tipo": "corregir",
+   "enunciado": "Corrige el falso amigo.",
+   "frase": "I bought this dictionary at the library on the corner.",
+   "respuestas": [
+    "I bought this dictionary at the bookshop on the corner.",
+    "I bought this dictionary at the bookstore on the corner."
+   ],
+   "explicacion": "Es el falso amigo de la ficha: «library» es la biblioteca, y en ella no se compran libros. La pista es el verbo «bought»: si se ha comprado, el sitio es una tienda, «bookshop» en inglés británico o «bookstore» en americano. Las dos se aceptan. El resto de la frase no cambia.",
+   "explicacion_breve": "En la biblioteca no se compran libros: bookshop o bookstore.",
+   "traduccion": "Compré este diccionario en la librería de la esquina.",
+   "errores_previstos": [
+    {
+     "respuesta": "I bought this dictionary at the library on the corner.",
+     "explicacion": "Es la frase sin corregir: «library» es la biblioteca; la tienda es «bookshop»."
+    },
+    {
+     "respuesta": "I bought this dictionary at the librery on the corner.",
+     "explicacion": "Cambiar la ortografía no arregla el falso amigo; la palabra correcta es «bookshop»."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "bookshop / bookstore",
+     "significado": "librería (británico / americano)"
+    },
+    {
+     "palabra": "library",
+     "significado": "biblioteca"
+    }
+   ]
+  },
+  {
+   "id": "e12",
+   "tipo": "ordenar",
+   "enunciado": "Ordena las palabras.",
+   "palabras": [
+    "left",
+    "first",
+    "take",
+    "the",
+    "on",
+    "the"
+   ],
+   "respuestas": [
+    "Take the first on the left"
+   ],
+   "explicacion": "Es la fórmula fija de la tabla «take the first on the right/left» para indicar qué calle hay que tomar. Empieza por el imperativo «Take», con mayúscula; sigue el ordinal con artículo, «the first»; y termina con «on the left». La palabra «street» se sobrentiende. Los dos «the» van uno delante de «first» y otro delante de «left».",
+   "explicacion_breve": "Fórmula fija para indicar una calle.",
+   "traduccion": "Coja la primera a la izquierda.",
+   "errores_previstos": [
+    {
+     "respuesta": "Take the left on the first",
+     "explicacion": "Se intercambian los papeles: el ordinal «first» va primero y la dirección, «on the left», al final."
+    },
+    {
+     "respuesta": "Take on the left the first",
+     "explicacion": "Es un orden calcado del español «coja a la izquierda la primera»; en inglés va «the first on the left»."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "take the first on the left",
+     "significado": "coja la primera a la izquierda"
+    }
+   ]
+  },
+  {
+   "id": "e13",
+   "tipo": "ordenar",
+   "enunciado": "Ordena las palabras.",
+   "palabras": [
+    "here",
+    "is",
+    "a",
+    "near",
+    "there",
+    "bank"
+   ],
+   "respuestas": [
+    "Is there a bank near here"
+   ],
+   "explicacion": "La ficha usa «Is there…?» para preguntar si existe algo cerca. La pista es que hay que formar una pregunta con «is» y «there»: en la pregunta el verbo va primero, «Is there». Después va «a bank» y al final la expresión de lugar «near here». Es la pregunta básica para buscar un servicio.",
+   "explicacion_breve": "Is there…? pregunta si existe algo cerca.",
+   "traduccion": "¿Hay algún banco por aquí cerca?",
+   "errores_previstos": [
+    {
+     "respuesta": "There is a bank near here",
+     "explicacion": "Es una afirmación (hay un banco cerca), no una pregunta; para preguntar se invierte: «Is there…»."
+    },
+    {
+     "respuesta": "Is there near here a bank",
+     "explicacion": "Es el orden del español «¿hay por aquí cerca un banco?»; en inglés la expresión de lugar va al final."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "Is there… near here?",
+     "significado": "¿Hay… por aquí cerca?"
+    }
+   ]
+  },
+  {
+   "id": "e14",
+   "tipo": "hueco",
+   "enunciado": "Completa: «rotonda».",
+   "frase": "Go round the ___ and take the third exit.",
+   "respuestas": [
+    "roundabout"
+   ],
+   "explicacion": "La tabla da «roundabout», rotonda, con el ejemplo «Go round the roundabout». La pista es «Go round the ___» y «take the third exit»: describe la forma típica de indicar en una rotonda británica. Es una palabra compuesta escrita junta, de «round» (alrededor) y «about».",
+   "explicacion_breve": "Rotonda es roundabout.",
+   "traduccion": "Dé la vuelta a la rotonda y tome la tercera salida.",
+   "errores_previstos": [
+    {
+     "respuesta": "rotonda",
+     "explicacion": "Es la palabra española; en inglés es «roundabout»."
+    },
+    {
+     "respuesta": "round about",
+     "explicacion": "El sustantivo se escribe en una sola palabra: «roundabout»."
+    },
+    {
+     "respuesta": "crossroads",
+     "explicacion": "«Crossroads» es un cruce de calles, sin glorieta; de él no se toman salidas numeradas."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "roundabout",
+     "significado": "rotonda, glorieta"
+    },
+    {
+     "palabra": "exit",
+     "significado": "salida"
+    }
+   ]
+  },
+  {
+   "id": "e15",
+   "tipo": "hueco",
+   "enunciado": "Completa: «ayuntamiento».",
+   "frase": "You can get the form at the town ___.",
+   "respuestas": [
+    "hall"
+   ],
+   "explicacion": "La tabla da «town hall», el ayuntamiento como edificio. La pista es «the town ___»: la palabra que completa el compuesto es «hall», que significa sala o edificio público. Por eso «the town hall». En ciudades grandes también se oye «city hall».",
+   "explicacion_breve": "El ayuntamiento es the town hall.",
+   "traduccion": "Puede recoger el formulario en el ayuntamiento.",
+   "errores_previstos": [
+    {
+     "respuesta": "council",
+     "explicacion": "«Town council» es el ayuntamiento como institución (los concejales); el edificio donde se recoge un formulario es el «town hall»."
+    },
+    {
+     "respuesta": "house",
+     "explicacion": "«Town house» es una casa adosada urbana, no el ayuntamiento."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "town hall",
+     "significado": "ayuntamiento (edificio)"
+    },
+    {
+     "palabra": "form",
+     "significado": "formulario, impreso"
+    }
+   ]
+  }
  ],
- "fuente": {"nombre": "propia"}
+ "fuente": {
+  "nombre": "propia"
+ },
+ "descripcion_larga_es": "Nombres de lugares de la ciudad (bank, chemist's, town hall, library), medios de transporte y las fórmulas para preguntar por un sitio y explicar cómo llegar (How do I get to…?, turn left, opposite the bank). Es vocabulario de supervivencia en cualquier viaje. Cuesta por falsos amigos como library (biblioteca, no librería) y por preposiciones que no coinciden con el español (on foot, opposite sin «of»).",
+ "contexto": {
+  "que_es": "Es el vocabulario básico para moverse por una ciudad: nombres de lugares y servicios, medios de transporte, preposiciones de lugar (next to, opposite, between, on the corner) y las fórmulas para pedir y dar indicaciones con el imperativo (go straight on, turn right, take the first on the left).",
+  "por_que_importa": "Es de lo primero que se necesita al viajar o al atender a un visitante, y aparece en todos los exámenes de nivel inicial. Un error de preposición o un falso amigo puede mandar a alguien al sitio equivocado: si pides una «library» para comprar un libro, te enviarán a una biblioteca.",
+  "cuando_se_usa": "Para preguntar por un lugar (Excuse me, where is…?, Is there a… near here?), para explicar un camino y para situar cosas en un plano. Las señales son Excuse me, How do I get to…? y los verbos go, turn y take. El hispanohablante tiende a traducir «a pie» por «by foot», «enfrente de» por «opposite of» y «librería» por «library»."
+ }
 }

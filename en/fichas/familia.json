@@ -6,71 +6,771 @@
  "nivel": "A1",
  "resumen": "Palabras para hablar de los miembros de la familia, el estado civil y para describir el aspecto y el carácter de una persona.",
  "explicacion": [
-  {"tipo": "texto", "texto": "En inglés hay palabras distintas para el masculino y el femenino, y a veces una palabra común: parents (padres = padre y madre), siblings (hermanos en general), grandparents (abuelos). «Relatives» son los parientes; «relations» también, pero es menos frecuente."},
-  {"tipo": "tabla", "cabecera": ["Expresión", "Significado", "Ejemplo"], "filas": [
-   ["father / mother", "padre / madre", "My mother is a nurse."],
-   ["parents", "padres (padre y madre)", "My parents live in Toledo."],
-   ["brother / sister", "hermano / hermana", "I have two sisters."],
-   ["siblings", "hermanos (sin distinguir sexo)", "Do you have any siblings?"],
-   ["son / daughter", "hijo / hija", "Their daughter is ten."],
-   ["children / kids", "hijos, niños", "They have three children."],
-   ["grandfather / grandmother", "abuelo / abuela", "My grandmother is ninety."],
-   ["uncle / aunt", "tío / tía", "My aunt lives in Mexico."],
-   ["cousin", "primo / prima", "My cousin Pablo is a pilot."],
-   ["nephew / niece", "sobrino / sobrina", "My niece is a baby."],
-   ["husband / wife", "marido / mujer", "Her husband is Irish."],
-   ["partner", "pareja", "I live with my partner."],
-   ["boyfriend / girlfriend", "novio / novia", "His girlfriend is a singer."],
-   ["father-in-law / sister-in-law", "suegro / cuñada", "My sister-in-law is very kind."],
-   ["only child", "hijo único", "I'm an only child."]
-  ]},
-  {"tipo": "tabla", "cabecera": ["Expresión", "Significado", "Ejemplo"], "filas": [
-   ["tall / short", "alto / bajo", "My brother is very tall."],
-   ["fair / dark hair", "pelo rubio / moreno", "She has long dark hair."],
-   ["slim / overweight", "delgado / con sobrepeso", "He's slim and fit."],
-   ["friendly", "simpático, amable", "Our neighbours are very friendly."],
-   ["shy", "tímido", "My son is a bit shy."],
-   ["funny", "gracioso", "My uncle is really funny."],
-   ["hard-working / lazy", "trabajador / vago", "She's very hard-working."],
-   ["look like", "parecerse (físicamente)", "You look like your father."],
-   ["get on well with", "llevarse bien con", "I get on well with my cousins."]
-  ]},
-  {"tipo": "lista", "items": [
-   "Para el pelo se usa have: She has got blue eyes and curly hair.",
-   "What is he like? pregunta por el carácter; What does he look like?, por el físico.",
-   "Las palabras con -in-law forman el plural en la primera palabra: sisters-in-law."
-  ]}
+  {
+   "tipo": "texto",
+   "texto": "En inglés hay palabras distintas para el masculino y el femenino, y a veces una palabra común: parents (padres = padre y madre), siblings (hermanos en general), grandparents (abuelos). «Relatives» son los parientes; «relations» también, pero es menos frecuente."
+  },
+  {
+   "tipo": "tabla",
+   "cabecera": [
+    "Expresión",
+    "Significado",
+    "Ejemplo"
+   ],
+   "filas": [
+    [
+     "father / mother",
+     "padre / madre",
+     "My mother is a nurse."
+    ],
+    [
+     "parents",
+     "padres (padre y madre)",
+     "My parents live in Toledo."
+    ],
+    [
+     "brother / sister",
+     "hermano / hermana",
+     "I have two sisters."
+    ],
+    [
+     "siblings",
+     "hermanos (sin distinguir sexo)",
+     "Do you have any siblings?"
+    ],
+    [
+     "son / daughter",
+     "hijo / hija",
+     "Their daughter is ten."
+    ],
+    [
+     "children / kids",
+     "hijos, niños",
+     "They have three children."
+    ],
+    [
+     "grandfather / grandmother",
+     "abuelo / abuela",
+     "My grandmother is ninety."
+    ],
+    [
+     "uncle / aunt",
+     "tío / tía",
+     "My aunt lives in Mexico."
+    ],
+    [
+     "cousin",
+     "primo / prima",
+     "My cousin Pablo is a pilot."
+    ],
+    [
+     "nephew / niece",
+     "sobrino / sobrina",
+     "My niece is a baby."
+    ],
+    [
+     "husband / wife",
+     "marido / mujer",
+     "Her husband is Irish."
+    ],
+    [
+     "partner",
+     "pareja",
+     "I live with my partner."
+    ],
+    [
+     "boyfriend / girlfriend",
+     "novio / novia",
+     "His girlfriend is a singer."
+    ],
+    [
+     "father-in-law / sister-in-law",
+     "suegro / cuñada",
+     "My sister-in-law is very kind."
+    ],
+    [
+     "only child",
+     "hijo único",
+     "I'm an only child."
+    ]
+   ]
+  },
+  {
+   "tipo": "tabla",
+   "cabecera": [
+    "Expresión",
+    "Significado",
+    "Ejemplo"
+   ],
+   "filas": [
+    [
+     "tall / short",
+     "alto / bajo",
+     "My brother is very tall."
+    ],
+    [
+     "fair / dark hair",
+     "pelo rubio / moreno",
+     "She has long dark hair."
+    ],
+    [
+     "slim / overweight",
+     "delgado / con sobrepeso",
+     "He's slim and fit."
+    ],
+    [
+     "friendly",
+     "simpático, amable",
+     "Our neighbours are very friendly."
+    ],
+    [
+     "shy",
+     "tímido",
+     "My son is a bit shy."
+    ],
+    [
+     "funny",
+     "gracioso",
+     "My uncle is really funny."
+    ],
+    [
+     "hard-working / lazy",
+     "trabajador / vago",
+     "She's very hard-working."
+    ],
+    [
+     "look like",
+     "parecerse (físicamente)",
+     "You look like your father."
+    ],
+    [
+     "get on well with",
+     "llevarse bien con",
+     "I get on well with my cousins."
+    ]
+   ]
+  },
+  {
+   "tipo": "lista",
+   "items": [
+    "Para el pelo se usa have: She has got blue eyes and curly hair.",
+    "What is he like? pregunta por el carácter; What does he look like?, por el físico.",
+    "Las palabras con -in-law forman el plural en la primera palabra: sisters-in-law."
+   ]
+  }
  ],
  "ejemplos": [
-  {"frase": "I have one brother and no sisters.", "traduccion": "Tengo un hermano y ninguna hermana."},
-  {"frase": "My grandparents live in a small village.", "traduccion": "Mis abuelos viven en un pueblo pequeño."},
-  {"frase": "What's your sister like? – She's friendly and very funny.", "traduccion": "¿Cómo es tu hermana? – Es simpática y muy graciosa."},
-  {"frase": "Everyone says I look like my mother.", "traduccion": "Todo el mundo dice que me parezco a mi madre."},
-  {"frase": "My nephew has got red hair and green eyes.", "traduccion": "Mi sobrino tiene el pelo pelirrojo y los ojos verdes."},
-  {"frase": "We get on very well with our neighbours.", "traduccion": "Nos llevamos muy bien con nuestros vecinos."}
+  {
+   "frase": "I have one brother and no sisters.",
+   "traduccion": "Tengo un hermano y ninguna hermana."
+  },
+  {
+   "frase": "My grandparents live in a small village.",
+   "traduccion": "Mis abuelos viven en un pueblo pequeño."
+  },
+  {
+   "frase": "What's your sister like? – She's friendly and very funny.",
+   "traduccion": "¿Cómo es tu hermana? – Es simpática y muy graciosa."
+  },
+  {
+   "frase": "Everyone says I look like my mother.",
+   "traduccion": "Todo el mundo dice que me parezco a mi madre."
+  },
+  {
+   "frase": "My nephew has got red hair and green eyes.",
+   "traduccion": "Mi sobrino tiene el pelo pelirrojo y los ojos verdes."
+  },
+  {
+   "frase": "We get on very well with our neighbours.",
+   "traduccion": "Nos llevamos muy bien con nuestros vecinos."
+  }
  ],
  "errores_hispanohablantes": [
-  {"mal": "My fathers live in Cádiz.", "bien": "My parents live in Cádiz.", "nota": "Padre y madre juntos son parents; fathers son varios padres."},
-  {"mal": "I have two brothers: Ana and Luis.", "bien": "I have a sister and a brother: Ana and Luis.", "nota": "Brothers son solo hermanos varones; en general, siblings."},
-  {"mal": "My relatives are very sympathetic.", "bien": "My relatives are very friendly.", "nota": "Sympathetic significa comprensivo, no simpático (falso amigo)."},
-  {"mal": "She is very educated with everybody.", "bien": "She is very polite to everybody.", "nota": "Educado (cortés) es polite; educated es culto, con estudios."}
+  {
+   "mal": "My fathers live in Cádiz.",
+   "bien": "My parents live in Cádiz.",
+   "nota": "Padre y madre juntos son parents; fathers son varios padres."
+  },
+  {
+   "mal": "I have two brothers: Ana and Luis.",
+   "bien": "I have a sister and a brother: Ana and Luis.",
+   "nota": "Brothers son solo hermanos varones; en general, siblings."
+  },
+  {
+   "mal": "My relatives are very sympathetic.",
+   "bien": "My relatives are very friendly.",
+   "nota": "Sympathetic significa comprensivo, no simpático (falso amigo)."
+  },
+  {
+   "mal": "She is very educated with everybody.",
+   "bien": "She is very polite to everybody.",
+   "nota": "Educado (cortés) es polite; educated es culto, con estudios."
+  }
  ],
  "ejercicios": [
-  {"id": "e01", "tipo": "hueco", "enunciado": "Completa con la palabra de parentesco.", "frase": "My mother's sister is my ___.", "respuestas": ["aunt"], "explicacion": "La hermana de tu madre es tu tía: aunt."},
-  {"id": "e02", "tipo": "hueco", "enunciado": "Completa con la palabra de parentesco.", "frase": "My uncle's son is my ___.", "respuestas": ["cousin"], "explicacion": "El hijo de tu tío es tu primo: cousin."},
-  {"id": "e03", "tipo": "hueco", "enunciado": "Completa con la palabra de parentesco.", "frase": "My brother's daughter is my ___.", "respuestas": ["niece"], "explicacion": "La hija de tu hermano es tu sobrina: niece."},
-  {"id": "e04", "tipo": "hueco", "enunciado": "Completa con la palabra de parentesco.", "frase": "My wife's father is my ___.", "respuestas": ["father-in-law"], "explicacion": "El padre del cónyuge es el suegro: father-in-law."},
-  {"id": "e05", "tipo": "eleccion", "enunciado": "Elige la opción correcta.", "frase": "My ___ are both doctors: my father and my mother.", "opciones": ["parents", "fathers", "relatives"], "respuestas": ["parents"], "explicacion": "Padre y madre juntos son parents."},
-  {"id": "e06", "tipo": "eleccion", "enunciado": "Elige la opción correcta.", "frase": "I don't have any brothers or sisters. I'm an ___ child.", "opciones": ["only", "alone", "unique"], "respuestas": ["only"], "explicacion": "Hijo único es only child."},
-  {"id": "e07", "tipo": "eleccion", "enunciado": "Elige la pregunta adecuada para pedir una descripción física.", "frase": "___ – He's tall with short grey hair.", "opciones": ["What does he look like?", "What is he like?", "How is he?"], "respuestas": ["What does he look like?"], "explicacion": "What does he look like? pregunta por el aspecto físico."},
-  {"id": "e08", "tipo": "eleccion", "enunciado": "Elige la opción correcta.", "frase": "She never speaks in class. She's very ___.", "opciones": ["shy", "funny", "lazy"], "respuestas": ["shy"], "explicacion": "Shy significa tímido."},
-  {"id": "e09", "tipo": "corregir", "enunciado": "Corrige el falso amigo.", "frase": "My new boss is very sympathetic and always smiles.", "respuestas": ["My new boss is very friendly and always smiles.", "My new boss is very nice and always smiles."], "explicacion": "Simpático es friendly o nice; sympathetic es comprensivo."},
-  {"id": "e10", "tipo": "corregir", "enunciado": "Corrige el error.", "frase": "She looks like to her grandmother.", "respuestas": ["She looks like her grandmother."], "explicacion": "Look like va directamente seguido del complemento, sin to."},
-  {"id": "e11", "tipo": "corregir", "enunciado": "Corrige el error.", "frase": "My sister has a long hair.", "respuestas": ["My sister has long hair.", "My sister's got long hair.", "My sister has got long hair."], "explicacion": "Hair es incontable cuando se refiere al pelo de la cabeza: no lleva a."},
-  {"id": "e12", "tipo": "ordenar", "enunciado": "Ordena las palabras.", "palabras": ["well", "get", "my", "on", "I", "with", "brother"], "respuestas": ["I get on well with my brother"], "explicacion": "Get on well with significa llevarse bien con alguien."},
-  {"id": "e13", "tipo": "ordenar", "enunciado": "Ordena las palabras.", "palabras": ["any", "you", "have", "siblings", "do"], "respuestas": ["Do you have any siblings"], "explicacion": "Pregunta con do + sujeto + have + any."},
-  {"id": "e14", "tipo": "hueco", "enunciado": "Completa: «pareja» (sin estar casados).", "frase": "I live with my ___, but we aren't married.", "respuestas": ["partner", "boyfriend", "girlfriend"], "explicacion": "Partner es la pareja estable."},
-  {"id": "e15", "tipo": "eleccion", "enunciado": "Elige la opción correcta.", "frase": "My grandmother's husband is my ___.", "opciones": ["grandfather", "uncle", "father-in-law"], "respuestas": ["grandfather"], "explicacion": "El marido de la abuela es el abuelo."}
+  {
+   "id": "e01",
+   "tipo": "hueco",
+   "enunciado": "Completa con la palabra de parentesco.",
+   "frase": "My mother's sister is my ___.",
+   "respuestas": [
+    "aunt"
+   ],
+   "explicacion": "Según la tabla de parentescos de la ficha, uncle / aunt son «tío / tía». La pista es que se trata de una mujer (sister) de la generación de los padres: es la tía, aunt. La forma posesiva my mother's sister significa «la hermana de mi madre» (el 's indica pertenencia).",
+   "explicacion_breve": "La hermana de tu madre es tu tía: aunt.",
+   "traduccion": "La hermana de mi madre es mi tía.",
+   "errores_previstos": [
+    {
+     "respuesta": "uncle",
+     "explicacion": "Uncle es el tío; la hermana de tu madre es una mujer: aunt."
+    },
+    {
+     "respuesta": "tia",
+     "explicacion": "Es la palabra española; en inglés es aunt."
+    },
+    {
+     "respuesta": "ant",
+     "explicacion": "Ant es «hormiga»; aunque en inglés americano a veces suenan igual, la tía se escribe aunt."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "aunt",
+     "significado": "tía"
+    },
+    {
+     "palabra": "uncle",
+     "significado": "tío"
+    },
+    {
+     "palabra": "mother's",
+     "significado": "de mi madre (posesivo con 's)"
+    }
+   ]
+  },
+  {
+   "id": "e02",
+   "tipo": "hueco",
+   "enunciado": "Completa con la palabra de parentesco.",
+   "frase": "My uncle's son is my ___.",
+   "respuestas": [
+    "cousin"
+   ],
+   "explicacion": "La tabla de la ficha recoge cousin como «primo / prima»: la misma palabra sirve para ambos sexos. La pista es el parentesco: el hijo (son) del tío (uncle) es el primo. A diferencia del español, no hace falta cambiar la palabra si es una prima.",
+   "explicacion_breve": "El hijo de tu tío es tu primo: cousin.",
+   "traduccion": "El hijo de mi tío es mi primo.",
+   "errores_previstos": [
+    {
+     "respuesta": "nephew",
+     "explicacion": "Nephew es el sobrino, el hijo de tu hermano o hermana; el hijo de tu tío es cousin."
+    },
+    {
+     "respuesta": "primo",
+     "explicacion": "Es la palabra española; en inglés es cousin."
+    },
+    {
+     "respuesta": "cosin",
+     "explicacion": "La ortografía correcta es cousin, con -ou-."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "cousin",
+     "significado": "primo, prima"
+    },
+    {
+     "palabra": "son",
+     "significado": "hijo"
+    }
+   ]
+  },
+  {
+   "id": "e03",
+   "tipo": "hueco",
+   "enunciado": "Completa con la palabra de parentesco.",
+   "frase": "My brother's daughter is my ___.",
+   "respuestas": [
+    "niece"
+   ],
+   "explicacion": "La tabla de la ficha recoge nephew / niece como «sobrino / sobrina». La pista es que se trata de una niña (daughter) de la generación siguiente, hija de un hermano: es la sobrina, niece. Conviene no confundirla con nephew, el sobrino.",
+   "explicacion_breve": "La hija de tu hermano es tu sobrina: niece.",
+   "traduccion": "La hija de mi hermano es mi sobrina.",
+   "errores_previstos": [
+    {
+     "respuesta": "nephew",
+     "explicacion": "Nephew es el sobrino (varón); la hija de tu hermano es niece."
+    },
+    {
+     "respuesta": "cousin",
+     "explicacion": "Cousin es el primo o la prima; la hija de tu hermano es tu sobrina, niece."
+    },
+    {
+     "respuesta": "neice",
+     "explicacion": "Error de ortografía frecuente: se escribe niece (i antes de e)."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "niece",
+     "significado": "sobrina"
+    },
+    {
+     "palabra": "nephew",
+     "significado": "sobrino"
+    },
+    {
+     "palabra": "daughter",
+     "significado": "hija"
+    }
+   ]
+  },
+  {
+   "id": "e04",
+   "tipo": "hueco",
+   "enunciado": "Completa con la palabra de parentesco.",
+   "frase": "My wife's father is my ___.",
+   "respuestas": [
+    "father-in-law"
+   ],
+   "explicacion": "La tabla de la ficha recoge father-in-law como «suegro»: los parentescos políticos se forman añadiendo -in-law (sister-in-law, cuñada). La pista es wife's father, el padre del cónyuge. Se escribe con guiones y, según la ficha, el plural se hace en la primera palabra (fathers-in-law).",
+   "explicacion_breve": "El padre del cónyuge es el suegro: father-in-law.",
+   "traduccion": "El padre de mi mujer es mi suegro.",
+   "errores_previstos": [
+    {
+     "respuesta": "father in law",
+     "explicacion": "Se escribe con guiones: father-in-law."
+    },
+    {
+     "respuesta": "stepfather",
+     "explicacion": "Stepfather es el padrastro (el marido de tu madre), no el padre de tu mujer."
+    },
+    {
+     "respuesta": "grandfather",
+     "explicacion": "Grandfather es el abuelo; el padre de tu mujer es el suegro, father-in-law."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "father-in-law",
+     "significado": "suegro"
+    },
+    {
+     "palabra": "wife",
+     "significado": "mujer, esposa"
+    }
+   ]
+  },
+  {
+   "id": "e05",
+   "tipo": "eleccion",
+   "enunciado": "Elige la opción correcta.",
+   "frase": "My ___ are both doctors: my father and my mother.",
+   "opciones": [
+    "parents",
+    "fathers",
+    "relatives"
+   ],
+   "respuestas": [
+    "parents"
+   ],
+   "explicacion": "La tabla de la ficha recoge parents como «padres (padre y madre)». La pista es la aclaración final, my father and my mother: se habla de los dos progenitores juntos. Es uno de los errores típicos de la ficha: fathers serían varios padres varones.",
+   "explicacion_breve": "Padre y madre juntos son parents.",
+   "traduccion": "Mis padres son médicos los dos: mi padre y mi madre.",
+   "por_opcion": {
+    "parents": "Correcta: parents = padre y madre juntos.",
+    "fathers": "Incorrecta: fathers es el plural de father, varios padres varones; no incluye a la madre.",
+    "relatives": "Incorrecta: relatives son los parientes en general (tíos, primos…), no específicamente los padres."
+   },
+   "glosario": [
+    {
+     "palabra": "parents",
+     "significado": "padres (padre y madre)"
+    },
+    {
+     "palabra": "relatives",
+     "significado": "parientes, familiares"
+    },
+    {
+     "palabra": "both",
+     "significado": "los dos, ambos"
+    }
+   ]
+  },
+  {
+   "id": "e06",
+   "tipo": "eleccion",
+   "enunciado": "Elige la opción correcta.",
+   "frase": "I don't have any brothers or sisters. I'm an ___ child.",
+   "opciones": [
+    "only",
+    "alone",
+    "unique"
+   ],
+   "respuestas": [
+    "only"
+   ],
+   "explicacion": "La tabla recoge only child como «hijo único». La pista es la primera frase: no tiene hermanos ni hermanas. Only significa aquí «único» y va delante del sustantivo; unique existe, pero significa «excepcional, singular» y no forma esta expresión. Observa que se dice an only child, con an porque only empieza por vocal.",
+   "explicacion_breve": "Hijo único es only child.",
+   "traduccion": "No tengo hermanos. Soy hijo único.",
+   "por_opcion": {
+    "only": "Correcta: only child = hijo único.",
+    "alone": "Incorrecta: alone significa «solo» (sin compañía) y no se pone delante de un sustantivo.",
+    "unique": "Incorrecta: unique es «único» en el sentido de excepcional, singular; además iría con a, no con an."
+   },
+   "glosario": [
+    {
+     "palabra": "only child",
+     "significado": "hijo único, hija única"
+    },
+    {
+     "palabra": "alone",
+     "significado": "solo (sin compañía)"
+    },
+    {
+     "palabra": "unique",
+     "significado": "único, excepcional"
+    }
+   ]
+  },
+  {
+   "id": "e07",
+   "tipo": "eleccion",
+   "enunciado": "Elige la pregunta adecuada para pedir una descripción física.",
+   "frase": "___ – He's tall with short grey hair.",
+   "opciones": [
+    "What does he look like?",
+    "What is he like?",
+    "How is he?"
+   ],
+   "respuestas": [
+    "What does he look like?"
+   ],
+   "explicacion": "La lista de Reglas y claves explica que What does he look like? pregunta por el físico y What is he like?, por el carácter. La pista es la respuesta: tall with short grey hair describe el aspecto físico. How is he? pregunta por la salud o el estado de ánimo.",
+   "explicacion_breve": "What does he look like? pregunta por el aspecto físico.",
+   "traduccion": "¿Cómo es (físicamente)? – Es alto y tiene el pelo corto y canoso.",
+   "por_opcion": {
+    "What does he look like?": "Correcta: pregunta por el aspecto físico, que es lo que describe la respuesta.",
+    "What is he like?": "Incorrecta: pregunta por el carácter o la personalidad; se respondería con friendly, shy, funny…",
+    "How is he?": "Incorrecta: pregunta cómo está (de salud o de ánimo); se respondería He's fine, thanks."
+   },
+   "glosario": [
+    {
+     "palabra": "look like",
+     "significado": "parecerse; tener tal aspecto"
+    },
+    {
+     "palabra": "grey hair",
+     "significado": "pelo canoso, gris"
+    }
+   ]
+  },
+  {
+   "id": "e08",
+   "tipo": "eleccion",
+   "enunciado": "Elige la opción correcta.",
+   "frase": "She never speaks in class. She's very ___.",
+   "opciones": [
+    "shy",
+    "funny",
+    "lazy"
+   ],
+   "respuestas": [
+    "shy"
+   ],
+   "explicacion": "La segunda tabla de la ficha recoge shy como «tímido». La pista es la descripción previa: alguien que nunca habla en clase es tímido. Funny y lazy describen otros rasgos que no se deducen de la frase.",
+   "explicacion_breve": "Shy significa tímido.",
+   "traduccion": "Nunca habla en clase. Es muy tímida.",
+   "por_opcion": {
+    "shy": "Correcta: shy = tímido.",
+    "funny": "Incorrecta: funny es «gracioso, divertido»; alguien que no habla difícilmente lo parece.",
+    "lazy": "Incorrecta: lazy es «vago, perezoso»; no tiene que ver con no hablar en clase."
+   },
+   "glosario": [
+    {
+     "palabra": "shy",
+     "significado": "tímido"
+    },
+    {
+     "palabra": "funny",
+     "significado": "gracioso"
+    },
+    {
+     "palabra": "lazy",
+     "significado": "vago, perezoso"
+    }
+   ]
+  },
+  {
+   "id": "e09",
+   "tipo": "corregir",
+   "enunciado": "Corrige el falso amigo.",
+   "frase": "My new boss is very sympathetic and always smiles.",
+   "respuestas": [
+    "My new boss is very friendly and always smiles.",
+    "My new boss is very nice and always smiles."
+   ],
+   "explicacion": "Es el falso amigo recogido en los errores típicos de la ficha: sympathetic significa «comprensivo, compasivo», no «simpático». La pista es always smiles: se describe a alguien amable y agradable, que en inglés es friendly o nice. Ambas correcciones son válidas.",
+   "explicacion_breve": "Simpático es friendly o nice; sympathetic es comprensivo.",
+   "traduccion": "Mi nuevo jefe es muy simpático y siempre sonríe.",
+   "errores_previstos": [
+    {
+     "respuesta": "My new boss is very sympathetic and always smiles.",
+     "explicacion": "Es la frase sin corregir: sympathetic es comprensivo; simpático es friendly o nice."
+    },
+    {
+     "respuesta": "My new boss is very simpathetic and always smiles.",
+     "explicacion": "Además del falso amigo, está mal escrito; la corrección es friendly o nice."
+    },
+    {
+     "respuesta": "My new boss is very funny and always smiles.",
+     "explicacion": "Funny es «gracioso», no «simpático»; la palabra adecuada es friendly o nice."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "friendly / nice",
+     "significado": "simpático, amable"
+    },
+    {
+     "palabra": "sympathetic",
+     "significado": "comprensivo, compasivo (falso amigo)"
+    },
+    {
+     "palabra": "boss",
+     "significado": "jefe"
+    }
+   ]
+  },
+  {
+   "id": "e10",
+   "tipo": "corregir",
+   "enunciado": "Corrige el error.",
+   "frase": "She looks like to her grandmother.",
+   "respuestas": [
+    "She looks like her grandmother."
+   ],
+   "explicacion": "La segunda tabla recoge look like como «parecerse (físicamente)». La clave es que look like va seguido directamente de la persona, sin preposición: like ya hace de «a». La pista es la secuencia like to, calco del «parecerse a» español.",
+   "explicacion_breve": "Look like va directamente seguido del complemento, sin to.",
+   "traduccion": "Se parece a su abuela.",
+   "errores_previstos": [
+    {
+     "respuesta": "She looks like to her grandmother.",
+     "explicacion": "Es la frase sin corregir: look like no lleva to."
+    },
+    {
+     "respuesta": "She looks to her grandmother.",
+     "explicacion": "Sin like cambia el sentido (look to = recurrir a); parecerse es look like."
+    },
+    {
+     "respuesta": "She look like her grandmother.",
+     "explicacion": "Con she el presente simple lleva -s: looks."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "to look like",
+     "significado": "parecerse a (físicamente)"
+    },
+    {
+     "palabra": "grandmother",
+     "significado": "abuela"
+    }
+   ]
+  },
+  {
+   "id": "e11",
+   "tipo": "corregir",
+   "enunciado": "Corrige el error.",
+   "frase": "My sister has a long hair.",
+   "respuestas": [
+    "My sister has long hair.",
+    "My sister's got long hair.",
+    "My sister has got long hair."
+   ],
+   "explicacion": "La lista de Reglas y claves indica que para el pelo se usa have. La clave es que hair, cuando se refiere al pelo de la cabeza, es incontable y no lleva a. La pista es a long hair: a long hair sería «un pelo largo», uno solo. Se aceptan has, 's got y has got.",
+   "explicacion_breve": "Hair es incontable cuando se refiere al pelo de la cabeza: no lleva a.",
+   "traduccion": "Mi hermana tiene el pelo largo.",
+   "errores_previstos": [
+    {
+     "respuesta": "My sister has a long hair.",
+     "explicacion": "Es la frase sin corregir: hair (pelo de la cabeza) es incontable y no lleva a."
+    },
+    {
+     "respuesta": "My sister has long hairs.",
+     "explicacion": "Hairs son pelos sueltos y contables; el pelo de la cabeza es hair, sin plural."
+    },
+    {
+     "respuesta": "My sister is long hair.",
+     "explicacion": "Para el pelo se usa have, no be: She has long hair."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "hair",
+     "significado": "pelo (incontable cuando es el de la cabeza)"
+    },
+    {
+     "palabra": "long",
+     "significado": "largo"
+    }
+   ]
+  },
+  {
+   "id": "e12",
+   "tipo": "ordenar",
+   "enunciado": "Ordena las palabras.",
+   "palabras": [
+    "well",
+    "get",
+    "my",
+    "on",
+    "I",
+    "with",
+    "brother"
+   ],
+   "respuestas": [
+    "I get on well with my brother"
+   ],
+   "explicacion": "La segunda tabla recoge get on well with como «llevarse bien con». La clave es el orden del verbo frasal: get on, después el adverbio well y la preposición with con la persona. El sujeto I va delante. Es una expresión muy frecuente para hablar de relaciones familiares.",
+   "explicacion_breve": "Get on well with significa llevarse bien con alguien.",
+   "traduccion": "Me llevo bien con mi hermano.",
+   "errores_previstos": [
+    {
+     "respuesta": "I get well on with my brother",
+     "explicacion": "Well va detrás de la partícula on: get on well with."
+    },
+    {
+     "respuesta": "I well get on with my brother",
+     "explicacion": "Well no va delante del verbo; la expresión fija es get on well with."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "to get on well with",
+     "significado": "llevarse bien con"
+    },
+    {
+     "palabra": "brother",
+     "significado": "hermano"
+    }
+   ]
+  },
+  {
+   "id": "e13",
+   "tipo": "ordenar",
+   "enunciado": "Ordena las palabras.",
+   "palabras": [
+    "any",
+    "you",
+    "have",
+    "siblings",
+    "do"
+   ],
+   "respuestas": [
+    "Do you have any siblings"
+   ],
+   "explicacion": "La tabla recoge siblings como «hermanos» sin distinguir sexo. La clave gramatical es la pregunta en presente simple: Do + sujeto (you) + have + any + sustantivo plural. La pista es do entre las palabras, que va al principio para formar la pregunta.",
+   "explicacion_breve": "Pregunta con do + sujeto + have + any.",
+   "traduccion": "¿Tienes hermanos?",
+   "errores_previstos": [
+    {
+     "respuesta": "You do have any siblings",
+     "explicacion": "Así es una afirmación enfática, no una pregunta; do va delante del sujeto."
+    },
+    {
+     "respuesta": "Do you any siblings have",
+     "explicacion": "Have va justo después del sujeto, antes de any siblings."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "siblings",
+     "significado": "hermanos (sin distinguir sexo)"
+    }
+   ]
+  },
+  {
+   "id": "e14",
+   "tipo": "hueco",
+   "enunciado": "Completa: «pareja» (sin estar casados).",
+   "frase": "I live with my ___, but we aren't married.",
+   "respuestas": [
+    "partner",
+    "boyfriend",
+    "girlfriend"
+   ],
+   "explicacion": "La tabla de la ficha recoge partner como «pareja» y boyfriend / girlfriend como «novio / novia». La pista es «but we aren't married»: se trata de una pareja sin vínculo matrimonial. Partner es la forma neutra y la que pide el enunciado; boyfriend y girlfriend también se aceptan porque encajan en la frase.",
+   "explicacion_breve": "Partner es la pareja estable.",
+   "traduccion": "Vivo con mi pareja, pero no estamos casados.",
+   "errores_previstos": [
+    {
+     "respuesta": "couple",
+     "explicacion": "Couple es «la pareja» como conjunto de dos personas (they are a couple); la persona con la que vives es tu partner."
+    },
+    {
+     "respuesta": "husband",
+     "explicacion": "Husband es «marido»; contradice we aren't married."
+    },
+    {
+     "respuesta": "pair",
+     "explicacion": "Pair es «par» de objetos (a pair of shoes); no se usa para personas."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "partner",
+     "significado": "pareja (la persona)"
+    },
+    {
+     "palabra": "couple",
+     "significado": "pareja (las dos personas juntas)"
+    },
+    {
+     "palabra": "married",
+     "significado": "casado"
+    }
+   ]
+  },
+  {
+   "id": "e15",
+   "tipo": "eleccion",
+   "enunciado": "Elige la opción correcta.",
+   "frase": "My grandmother's husband is my ___.",
+   "opciones": [
+    "grandfather",
+    "uncle",
+    "father-in-law"
+   ],
+   "respuestas": [
+    "grandfather"
+   ],
+   "explicacion": "La tabla recoge grandfather / grandmother como «abuelo / abuela». La pista es el parentesco: el marido (husband) de la abuela es el abuelo. Uncle y father-in-law son parentescos distintos.",
+   "explicacion_breve": "El marido de la abuela es el abuelo.",
+   "traduccion": "El marido de mi abuela es mi abuelo.",
+   "por_opcion": {
+    "grandfather": "Correcta: grandfather = abuelo, marido de la abuela.",
+    "uncle": "Incorrecta: uncle es el tío, hermano de tu padre o tu madre.",
+    "father-in-law": "Incorrecta: father-in-law es el suegro, padre de tu cónyuge."
+   },
+   "glosario": [
+    {
+     "palabra": "grandfather",
+     "significado": "abuelo"
+    },
+    {
+     "palabra": "husband",
+     "significado": "marido"
+    }
+   ]
+  }
  ],
- "fuente": {"nombre": "propia"}
+ "fuente": {
+  "nombre": "propia"
+ },
+ "descripcion_larga_es": "Esta ficha reúne las palabras básicas para hablar de la familia (parents, siblings, aunt, cousin, father-in-law), de la pareja y del estado civil, y para describir a una persona por su aspecto y su carácter. Es de lo primero que se necesita para presentarse o conversar, y tiene trampas para el hispanohablante: parents no son «parientes», sympathetic no es «simpático» y brothers no incluye a las hermanas.",
+ "contexto": {
+  "que_es": "Es el vocabulario de los parentescos (padres, hermanos, abuelos, tíos, primos, sobrinos, familia política), de la pareja y del estado civil, junto con los adjetivos y expresiones básicas para describir el físico y el carácter de una persona: tall, fair hair, shy, look like, get on well with.",
+  "por_que_importa": "Hablar de uno mismo y de su entorno es una de las primeras tareas en cualquier lengua: presentarse, contar con quién se vive o describir a alguien. Algunos errores cambian el sentido sin que el hablante lo note (my fathers en lugar de my parents, brothers para hermano y hermana), y otros son falsos amigos (sympathetic, educated) que pueden producir malentendidos.",
+  "cuando_se_usa": "Se usa al presentarse, en conversaciones informales, al describir a alguien o al rellenar formularios (estado civil, parentesco). Las señales son preguntas como Do you have any siblings?, What is he like? o What does he look like? El hispanohablante tiende a usar el masculino plural para ambos sexos («hermanos», «padres») y a calcar «simpático» o «educado»; en inglés hay palabras propias para eso."
+ }
 }

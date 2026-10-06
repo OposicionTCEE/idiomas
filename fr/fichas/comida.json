@@ -191,7 +191,33 @@
    "respuestas": [
     "de l'"
    ],
-   "explicacion": "Eau es femenino y empieza por vocal: de l'eau."
+   "explicacion": "Se aplica la regla del partitivo de la ficha: para una cantidad indeterminada se usa du, de la, de l' o des. Eau es femenino y empieza por vocal, así que de la se apostrofa en de l': de l'eau. La pista es que no se habla de una cantidad concreta, sino de agua en general, que en español va sin artículo.",
+   "explicacion_breve": "Eau es femenino y empieza por vocal: de l'eau.",
+   "traduccion": "Bebo agua.",
+   "errores_previstos": [
+    {
+     "respuesta": "de la",
+     "explicacion": "Delante de vocal o h muda la se elide: de l'eau, no de la eau."
+    },
+    {
+     "respuesta": "du",
+     "explicacion": "Du es el partitivo masculino; eau es femenino y además empieza por vocal: de l'."
+    },
+    {
+     "respuesta": "de",
+     "explicacion": "De solo se usa tras una cantidad o una negación. En una afirmación sin cantidad hace falta el partitivo completo: de l'eau."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "boire",
+     "significado": "beber"
+    },
+    {
+     "palabra": "l'eau",
+     "significado": "el agua"
+    }
+   ]
   },
   {
    "id": "e02",
@@ -201,7 +227,29 @@
    "respuestas": [
     "du"
    ],
-   "explicacion": "Fromage es masculino: du fromage."
+   "explicacion": "Es el partitivo para una cantidad indeterminada. Fromage es masculino y empieza por consonante, así que de + le se funde en du: du fromage. La pista es que se ofrece queso sin precisar cuánto; en español la frase va sin artículo, pero en francés no puede quedar vacía.",
+   "explicacion_breve": "Fromage es masculino: du fromage.",
+   "traduccion": "¿Quieres queso?",
+   "errores_previstos": [
+    {
+     "respuesta": "de le",
+     "explicacion": "De + le se contrae obligatoriamente en du."
+    },
+    {
+     "respuesta": "le",
+     "explicacion": "Le fromage sería el queso en concreto o en general (j'aime le fromage). Para ofrecer una cantidad indeterminada se usa el partitivo du."
+    },
+    {
+     "respuesta": "de",
+     "explicacion": "De solo aparece tras una cantidad o una negación; en una pregunta afirmativa se usa du."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "le fromage",
+     "significado": "el queso"
+    }
+   ]
   },
   {
    "id": "e03",
@@ -211,7 +259,29 @@
    "respuestas": [
     "de la"
    ],
-   "explicacion": "Viande es femenino: de la viande."
+   "explicacion": "Se aplica el partitivo femenino de la ficha: viande es femenino y empieza por consonante, así que de la viande. La pista es la ausencia de cantidad precisa: compramos carne, sin decir cuánta. En español no se pone artículo, pero en francés es obligatorio.",
+   "explicacion_breve": "Viande es femenino: de la viande.",
+   "traduccion": "Compramos carne.",
+   "errores_previstos": [
+    {
+     "respuesta": "du",
+     "explicacion": "Du es masculino; viande es femenino: de la viande."
+    },
+    {
+     "respuesta": "la",
+     "explicacion": "La viande se refiere a una carne concreta ya conocida. Para una cantidad indeterminada se usa el partitivo de la."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "acheter",
+     "significado": "comprar"
+    },
+    {
+     "palabra": "la viande",
+     "significado": "la carne"
+    }
+   ]
   },
   {
    "id": "e04",
@@ -221,7 +291,33 @@
    "respuestas": [
     "d'"
    ],
-   "explicacion": "Tras una cantidad se usa de, que se apostrofa ante vocal."
+   "explicacion": "La ficha lo explica en el primer texto y en la lista: tras una cantidad precisa (un kilo, une bouteille) se usa solo de, sin artículo. Como oranges empieza por vocal, de se apostrofa en d'. La pista es un kilo, una medida exacta.",
+   "explicacion_breve": "Tras una cantidad se usa de, que se apostrofa ante vocal.",
+   "traduccion": "Querría un kilo de naranjas.",
+   "errores_previstos": [
+    {
+     "respuesta": "des",
+     "explicacion": "Es el error típico de la ficha (un kilo des pommes). Tras una cantidad no se pone artículo: un kilo d'oranges."
+    },
+    {
+     "respuesta": "de",
+     "explicacion": "La preposición es correcta, pero delante de vocal se elide: d'oranges."
+    },
+    {
+     "respuesta": "de les",
+     "explicacion": "De les no existe (se contraería en des) y, además, tras una cantidad no va artículo."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "un kilo de",
+     "significado": "un kilo de"
+    },
+    {
+     "palabra": "une orange",
+     "significado": "una naranja"
+    }
+   ]
   },
   {
    "id": "e05",
@@ -236,7 +332,20 @@
    "respuestas": [
     "de"
    ],
-   "explicacion": "Tras la negación: pas de."
+   "explicacion": "La ficha establece que tras una negación el partitivo se reduce a de: il mange du poisson, pero il ne mange pas de poisson. La pista es ne… pas. Aunque poisson sea masculino, la negación anula el partitivo du.",
+   "explicacion_breve": "Tras la negación: pas de.",
+   "traduccion": "No come pescado.",
+   "por_opcion": {
+    "de": "Correcta: tras la negación ne… pas el partitivo se reduce a de.",
+    "du": "Incorrecta: du es el partitivo de la frase afirmativa (il mange du poisson); en la negativa se convierte en de.",
+    "le": "Gramaticalmente posible con otro sentido: il ne mange pas le poisson se referiría a un pescado concreto. Para decir que no come pescado en general se usa pas de."
+   },
+   "glosario": [
+    {
+     "palabra": "le poisson",
+     "significado": "el pescado"
+    }
+   ]
   },
   {
    "id": "e06",
@@ -251,7 +360,20 @@
    "respuestas": [
     "l'addition"
    ],
-   "explicacion": "En el restaurante se dice l'addition."
+   "explicacion": "Es un error típico de la ficha: en el restaurante la cuenta es l'addition. Le compte es una cuenta bancaria o un recuento, y la carte es la carta de platos. La pista es la situación: se llama al camarero (Monsieur) al final de la comida para pagar.",
+   "explicacion_breve": "En el restaurante se dice l'addition.",
+   "traduccion": "¡Señor, la cuenta, por favor!",
+   "por_opcion": {
+    "l'addition": "Correcta: l'addition es la cuenta que se pide en el restaurante para pagar.",
+    "le compte": "Incorrecta: le compte es una cuenta bancaria (un compte en banque) o un cálculo; no se usa para pagar en el restaurante.",
+    "la carte": "Incorrecta: la carte es la carta con los platos; se pide al principio, no para pagar."
+   },
+   "glosario": [
+    {
+     "palabra": "l'addition",
+     "significado": "la cuenta (en el restaurante)"
+    }
+   ]
   },
   {
    "id": "e07",
@@ -266,7 +388,28 @@
    "respuestas": [
     "boulangerie"
    ],
-   "explicacion": "El pan se compra en la boulangerie."
+   "explicacion": "Es léxico de las tiendas de la ficha: el pan se compra en la boulangerie, la carne en la boucherie. La pista es une baguette, la barra de pan francesa. Las tres palabras se parecen en su terminación -erie, típica de los nombres de comercios.",
+   "explicacion_breve": "El pan se compra en la boulangerie.",
+   "traduccion": "Compro una barra de pan en la panadería.",
+   "por_opcion": {
+    "boulangerie": "Correcta: la boulangerie es la panadería, donde se compra la baguette.",
+    "boucherie": "Incorrecta: la boucherie es la carnicería; se parece por el sonido inicial pero vende carne.",
+    "pharmacie": "Incorrecta: la pharmacie es la farmacia, donde se compran medicamentos."
+   },
+   "glosario": [
+    {
+     "palabra": "la baguette",
+     "significado": "la barra de pan"
+    },
+    {
+     "palabra": "la boulangerie",
+     "significado": "la panadería"
+    },
+    {
+     "palabra": "la boucherie",
+     "significado": "la carnicería"
+    }
+   ]
   },
   {
    "id": "e08",
@@ -281,7 +424,24 @@
    "respuestas": [
     "Je voudrais"
    ],
-   "explicacion": "El condicional voudrais es la fórmula cortés."
+   "explicacion": "La ficha aconseja pedir con je voudrais, el condicional de vouloir, que suaviza la petición igual que el español «querría» o «quisiera». Je veux es gramaticalmente correcto pero suena exigente en una tienda o un café. El enunciado pide la forma más cortés, y la pista es el s'il vous plaît final, propio de una petición educada.",
+   "explicacion_breve": "El condicional voudrais es la fórmula cortés.",
+   "traduccion": "Querría un té, por favor.",
+   "por_opcion": {
+    "Je voudrais": "Correcta: el condicional voudrais es la fórmula de cortesía habitual para pedir.",
+    "Je veux": "Correcta gramaticalmente, pero suena brusca y exigente; no es la opción más cortés que pide el enunciado.",
+    "Donnez-moi": "Imperativo, gramaticalmente correcto y se oye en la calle, pero es directo y poco cortés; no es la fórmula recomendada."
+   },
+   "glosario": [
+    {
+     "palabra": "un thé",
+     "significado": "un té"
+    },
+    {
+     "palabra": "je voudrais",
+     "significado": "querría, quisiera"
+    }
+   ]
   },
   {
    "id": "e09",
@@ -291,7 +451,37 @@
    "respuestas": [
     "dessert"
    ],
-   "explicacion": "Le dessert = el postre."
+   "explicacion": "Es léxico de la tabla de la ficha: l'entrée (el entrante), le plat (el plato principal) y le dessert (el postre). La fórmula comme + plato, sin artículo, equivale a «de» en español: comme dessert, de postre. La pista es une glace, un helado, típico del postre.",
+   "explicacion_breve": "Le dessert = el postre.",
+   "traduccion": "De postre, tomo un helado.",
+   "errores_previstos": [
+    {
+     "respuesta": "désert",
+     "explicacion": "Désert, con una s, es el desierto. El postre se escribe con doble s: dessert."
+    },
+    {
+     "respuesta": "postre",
+     "explicacion": "Es la palabra española; en francés el postre es le dessert."
+    },
+    {
+     "respuesta": "le dessert",
+     "explicacion": "Tras comme en esta fórmula no se pone artículo: comme dessert."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "le dessert",
+     "significado": "el postre"
+    },
+    {
+     "palabra": "une glace",
+     "significado": "un helado"
+    },
+    {
+     "palabra": "comme",
+     "significado": "como, de (en comme dessert)"
+    }
+   ]
   },
   {
    "id": "e10",
@@ -301,7 +491,29 @@
    "respuestas": [
     "bouteille"
    ],
-   "explicacion": "Une bouteille de = una botella de."
+   "explicacion": "Es una expresión de cantidad de la ficha: une bouteille de, «una botella de». Detrás va de sin artículo, como en toda cantidad precisa. La pista es el artículo femenino une y la preposición de que ya están en la frase.",
+   "explicacion_breve": "Une bouteille de = una botella de.",
+   "traduccion": "Una botella de vino tinto, por favor.",
+   "errores_previstos": [
+    {
+     "respuesta": "botella",
+     "explicacion": "Es la palabra española; en francés es une bouteille."
+    },
+    {
+     "respuesta": "boutelle",
+     "explicacion": "Error de ortografía: se escribe bouteille, con -eille."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "une bouteille de",
+     "significado": "una botella de"
+    },
+    {
+     "palabra": "le vin rouge",
+     "significado": "el vino tinto"
+    }
+   ]
   },
   {
    "id": "e11",
@@ -311,7 +523,29 @@
    "respuestas": [
     "Je ne bois pas de lait."
    ],
-   "explicacion": "Tras la negación se usa de."
+   "explicacion": "Es un error típico de la ficha: tras la negación ne… pas, el partitivo du (de la, des) se reduce a de. En afirmativa diríamos je bois du lait; en negativa, je ne bois pas de lait. La pista es la negación.",
+   "explicacion_breve": "Tras la negación se usa de.",
+   "traduccion": "No bebo leche.",
+   "errores_previstos": [
+    {
+     "respuesta": "Je ne bois pas du lait.",
+     "explicacion": "Es la frase sin corregir: tras ne… pas no se mantiene el partitivo du."
+    },
+    {
+     "respuesta": "Je ne bois pas le lait.",
+     "explicacion": "Le lait se referiría a una leche concreta; para decir que no se bebe leche en general se usa pas de lait."
+    },
+    {
+     "respuesta": "Je bois pas de lait.",
+     "explicacion": "En la lengua hablada se oye sin ne, pero en la norma escrita la negación lleva las dos partes: je ne bois pas."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "le lait",
+     "significado": "la leche"
+    }
+   ]
   },
   {
    "id": "e12",
@@ -321,7 +555,33 @@
    "respuestas": [
     "Il y a beaucoup de touristes au marché."
    ],
-   "explicacion": "Beaucoup va seguido de de, sin artículo."
+   "explicacion": "La lista de la ficha recuerda que tras beaucoup, peu, assez y las medidas se usa de sin artículo. Beaucoup des touristes es un calco erróneo; lo correcto es beaucoup de touristes. La pista es el adverbio de cantidad beaucoup.",
+   "explicacion_breve": "Beaucoup va seguido de de, sin artículo.",
+   "traduccion": "Hay muchos turistas en el mercado.",
+   "errores_previstos": [
+    {
+     "respuesta": "Il y a beaucoup des touristes au marché.",
+     "explicacion": "Es la frase sin corregir: detrás de beaucoup no va des, sino de."
+    },
+    {
+     "respuesta": "Il y a beaucoup touristes au marché.",
+     "explicacion": "Calco de «muchos turistas». En francés beaucoup necesita de para introducir el sustantivo."
+    },
+    {
+     "respuesta": "Il y a beaucoup de les touristes au marché.",
+     "explicacion": "De les no existe y, además, tras beaucoup no se pone artículo."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "beaucoup de",
+     "significado": "mucho, muchos"
+    },
+    {
+     "palabra": "le marché",
+     "significado": "el mercado"
+    }
+   ]
   },
   {
    "id": "e13",
@@ -339,7 +599,25 @@
    "respuestas": [
     "Je voudrais un café s'il vous plaît"
    ],
-   "explicacion": "Petición cortés seguida de s'il vous plaît."
+   "explicacion": "Es la petición cortés de la ficha: je voudrais + lo que se pide, y al final s'il vous plaît. El orden es el habitual de sujeto, verbo y complemento, y la fórmula de cortesía cierra la frase. S'il vous plaît se mantiene como bloque fijo.",
+   "explicacion_breve": "Petición cortés seguida de s'il vous plaît.",
+   "traduccion": "Querría un café, por favor.",
+   "errores_previstos": [
+    {
+     "respuesta": "S'il vous plaît je voudrais un café",
+     "explicacion": "Poner la fórmula de cortesía al principio no es imposible en la lengua oral, pero la respuesta esperada sigue el esquema de la ficha: petición y luego s'il vous plaît."
+    },
+    {
+     "respuesta": "Je voudrais un café s'il plaît vous",
+     "explicacion": "La fórmula s'il vous plaît es fija: el pronombre vous va antes del verbo plaît."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "s'il vous plaît",
+     "significado": "por favor"
+    }
+   ]
   },
   {
    "id": "e14",
@@ -355,7 +633,25 @@
    "respuestas": [
     "Elle mange beaucoup de légumes"
    ],
-   "explicacion": "Beaucoup de + sustantivo, tras el verbo."
+   "explicacion": "Se aplica la regla de cantidad de la ficha: tras beaucoup se usa de sin artículo. Beaucoup de légumes forma un bloque que va detrás del verbo conjugado, en la posición de complemento directo: elle mange beaucoup de légumes.",
+   "explicacion_breve": "Beaucoup de + sustantivo, tras el verbo.",
+   "traduccion": "Come muchas verduras.",
+   "errores_previstos": [
+    {
+     "respuesta": "Elle beaucoup mange de légumes",
+     "explicacion": "Beaucoup no puede ir entre el sujeto y el verbo en un tiempo simple; va detrás del verbo."
+    },
+    {
+     "respuesta": "Elle mange de beaucoup légumes",
+     "explicacion": "El orden es beaucoup + de + sustantivo; de va siempre detrás de beaucoup."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "les légumes",
+     "significado": "las verduras, las hortalizas"
+    }
+   ]
   },
   {
    "id": "e15",
@@ -365,10 +661,38 @@
    "respuestas": [
     "Un kilo de pommes, s'il vous plaît."
    ],
-   "explicacion": "Tras una cantidad se usa de sin artículo."
+   "explicacion": "Es otro error típico de la ficha: tras una cantidad precisa (un kilo) se usa solo de, nunca des. Un kilo des pommes significaría, como mucho, un kilo de unas manzanas concretas, y no es lo que se dice al comprar. Lo correcto es un kilo de pommes.",
+   "explicacion_breve": "Tras una cantidad se usa de sin artículo.",
+   "traduccion": "Un kilo de manzanas, por favor.",
+   "errores_previstos": [
+    {
+     "respuesta": "Un kilo des pommes, s'il vous plaît.",
+     "explicacion": "Es la frase sin corregir: tras un kilo no se pone artículo, solo de."
+    },
+    {
+     "respuesta": "Un kilo d'pommes, s'il vous plaît.",
+     "explicacion": "De solo se apostrofa delante de vocal o h muda; pommes empieza por consonante: de pommes."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "une pomme",
+     "significado": "una manzana"
+    },
+    {
+     "palabra": "un kilo de",
+     "significado": "un kilo de"
+    }
+   ]
   }
  ],
  "fuente": {
   "nombre": "propia"
+ },
+ "descripcion_larga_es": "Esta ficha reúne el vocabulario de alimentos, tiendas y restaurante, y la gramática que lo acompaña: los partitivos du, de la, de l', des para cantidades indeterminadas y de solo tras una cantidad o una negación. Es imprescindible para comprar y comer fuera. Al hispanohablante le cuesta porque en español decimos «como pan» sin artículo, mientras que el francés exige je mange du pain.",
+ "contexto": {
+  "que_es": "Es el léxico básico de la comida y de las compras (alimentos, bebidas, platos, tiendas, envases y medidas) junto con el uso de los artículos partitivos, que indican una cantidad no precisa de algo que no se cuenta. Incluye las fórmulas de cortesía para pedir en un restaurante o en una tienda.",
+  "por_que_importa": "Pedir comida y comprar son situaciones diarias y tareas habituales de los exámenes orales de nivel A1. El partitivo es una de las primeras dificultades gramaticales del francés para un hispanohablante: omitirlo (je mange pain) o mantenerlo tras la negación (pas de la viande) es un error muy visible. Usar je veux en lugar de je voudrais puede sonar brusco.",
+  "cuando_se_usa": "El partitivo aparece cada vez que se habla de una cantidad indeterminada de algo (du pain, de l'eau). Las señales que piden de solo son las cantidades (un kilo, une bouteille, beaucoup, assez) y la negación (ne… pas). Donde el español no pone artículo, el francés suele poner partitivo."
  }
 }

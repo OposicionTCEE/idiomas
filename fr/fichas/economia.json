@@ -6,75 +6,727 @@
  "nivel": "B2",
  "resumen": "Vocabulario básico para hablar de la coyuntura económica y de la empresa: crecimiento, paro, precios, mercados y comercio. Es el léxico que aparece en cualquier noticia económica y en una exposición oral sobre economía.",
  "explicacion": [
-  {"tipo": "texto", "texto": "El francés económico usa muchos sustantivos de origen latino parecidos al español, pero cuidado con el género (la croissance, le chômage, la dette) y con algunas palabras que no se parecen nada: «le chômage» (el paro), «l'emploi» (el empleo), «le PIB» (el PIB, produit intérieur brut)."},
-  {"tipo": "tabla", "cabecera": ["Expresión", "Significado", "Ejemplo"], "filas": [
-   ["la croissance", "el crecimiento", "La croissance a ralenti cette année."],
-   ["la récession", "la recesión", "Le pays est entré en récession."],
-   ["la conjoncture", "la coyuntura", "La conjoncture reste fragile."],
-   ["le PIB (produit intérieur brut)", "el PIB", "Le PIB a progressé de 1 %."],
-   ["le chômage", "el paro, el desempleo", "Le chômage des jeunes reste élevé."],
-   ["le taux de chômage", "la tasa de paro", "Le taux de chômage est passé sous les 8 %."],
-   ["un chômeur, une chômeuse", "un parado, una parada", "Le nombre de chômeurs a baissé."],
-   ["l'emploi (m.)", "el empleo", "Le secteur a créé des milliers d'emplois."],
-   ["le marché du travail", "el mercado laboral", "Le marché du travail se tend."],
-   ["le salaire, la rémunération", "el salario, la retribución", "Les salaires ont augmenté de 3 %."],
-   ["le pouvoir d'achat", "el poder adquisitivo", "L'inflation réduit le pouvoir d'achat."],
-   ["l'inflation (f.)", "la inflación", "L'inflation a atteint 5 % sur un an."],
-   ["la hausse / la baisse des prix", "la subida / la bajada de los precios", "La hausse des prix de l'énergie inquiète."],
-   ["le taux d'intérêt", "el tipo de interés", "La banque centrale a relevé ses taux d'intérêt."]
-  ]},
-  {"tipo": "tabla", "cabecera": ["Expresión", "Significado", "Ejemplo"], "filas": [
-   ["une entreprise, une société", "una empresa, una sociedad", "C'est une entreprise familiale."],
-   ["une PME", "una pyme", "Les PME emploient la moitié des salariés."],
-   ["le chiffre d'affaires", "la facturación, la cifra de negocio", "Son chiffre d'affaires a doublé."],
-   ["le bénéfice / la perte", "el beneficio / la pérdida", "Le groupe a enregistré une perte nette."],
-   ["un actionnaire", "un accionista", "Les actionnaires recevront un dividende."],
-   ["la concurrence", "la competencia", "La concurrence est rude dans ce secteur."],
-   ["un concurrent", "un competidor", "Notre principal concurrent est allemand."],
-   ["investir, l'investissement", "invertir, la inversión", "L'entreprise investit dans la recherche."],
-   ["les exportations / les importations", "las exportaciones / las importaciones", "Les exportations ont reculé."],
-   ["la balance commerciale", "la balanza comercial", "La balance commerciale est déficitaire."],
-   ["un excédent / un déficit", "un superávit / un déficit", "L'Allemagne affiche un excédent."],
-   ["la dette publique", "la deuda pública", "La dette publique dépasse 100 % du PIB."],
-   ["les impôts, la fiscalité", "los impuestos, la fiscalidad", "Le gouvernement veut baisser les impôts."],
-   ["la Bourse", "la Bolsa", "La Bourse de Paris a clôturé en hausse."]
-  ]},
-  {"tipo": "lista", "items": [
-   "«Le chômage» es el fenómeno; «un chômeur» la persona. «Être au chômage» = estar en paro.",
-   "«Société» en economía significa empresa o sociedad mercantil, además de sociedad en general.",
-   "«Le bénéfice» es masculino; «la perte» es femenino.",
-   "Los tipos de interés son «les taux» (no «les types»)."
-  ]}
+  {
+   "tipo": "texto",
+   "texto": "El francés económico usa muchos sustantivos de origen latino parecidos al español, pero cuidado con el género (la croissance, le chômage, la dette) y con algunas palabras que no se parecen nada: «le chômage» (el paro), «l'emploi» (el empleo), «le PIB» (el PIB, produit intérieur brut)."
+  },
+  {
+   "tipo": "tabla",
+   "cabecera": [
+    "Expresión",
+    "Significado",
+    "Ejemplo"
+   ],
+   "filas": [
+    [
+     "la croissance",
+     "el crecimiento",
+     "La croissance a ralenti cette année."
+    ],
+    [
+     "la récession",
+     "la recesión",
+     "Le pays est entré en récession."
+    ],
+    [
+     "la conjoncture",
+     "la coyuntura",
+     "La conjoncture reste fragile."
+    ],
+    [
+     "le PIB (produit intérieur brut)",
+     "el PIB",
+     "Le PIB a progressé de 1 %."
+    ],
+    [
+     "le chômage",
+     "el paro, el desempleo",
+     "Le chômage des jeunes reste élevé."
+    ],
+    [
+     "le taux de chômage",
+     "la tasa de paro",
+     "Le taux de chômage est passé sous les 8 %."
+    ],
+    [
+     "un chômeur, une chômeuse",
+     "un parado, una parada",
+     "Le nombre de chômeurs a baissé."
+    ],
+    [
+     "l'emploi (m.)",
+     "el empleo",
+     "Le secteur a créé des milliers d'emplois."
+    ],
+    [
+     "le marché du travail",
+     "el mercado laboral",
+     "Le marché du travail se tend."
+    ],
+    [
+     "le salaire, la rémunération",
+     "el salario, la retribución",
+     "Les salaires ont augmenté de 3 %."
+    ],
+    [
+     "le pouvoir d'achat",
+     "el poder adquisitivo",
+     "L'inflation réduit le pouvoir d'achat."
+    ],
+    [
+     "l'inflation (f.)",
+     "la inflación",
+     "L'inflation a atteint 5 % sur un an."
+    ],
+    [
+     "la hausse / la baisse des prix",
+     "la subida / la bajada de los precios",
+     "La hausse des prix de l'énergie inquiète."
+    ],
+    [
+     "le taux d'intérêt",
+     "el tipo de interés",
+     "La banque centrale a relevé ses taux d'intérêt."
+    ]
+   ]
+  },
+  {
+   "tipo": "tabla",
+   "cabecera": [
+    "Expresión",
+    "Significado",
+    "Ejemplo"
+   ],
+   "filas": [
+    [
+     "une entreprise, une société",
+     "una empresa, una sociedad",
+     "C'est une entreprise familiale."
+    ],
+    [
+     "une PME",
+     "una pyme",
+     "Les PME emploient la moitié des salariés."
+    ],
+    [
+     "le chiffre d'affaires",
+     "la facturación, la cifra de negocio",
+     "Son chiffre d'affaires a doublé."
+    ],
+    [
+     "le bénéfice / la perte",
+     "el beneficio / la pérdida",
+     "Le groupe a enregistré une perte nette."
+    ],
+    [
+     "un actionnaire",
+     "un accionista",
+     "Les actionnaires recevront un dividende."
+    ],
+    [
+     "la concurrence",
+     "la competencia",
+     "La concurrence est rude dans ce secteur."
+    ],
+    [
+     "un concurrent",
+     "un competidor",
+     "Notre principal concurrent est allemand."
+    ],
+    [
+     "investir, l'investissement",
+     "invertir, la inversión",
+     "L'entreprise investit dans la recherche."
+    ],
+    [
+     "les exportations / les importations",
+     "las exportaciones / las importaciones",
+     "Les exportations ont reculé."
+    ],
+    [
+     "la balance commerciale",
+     "la balanza comercial",
+     "La balance commerciale est déficitaire."
+    ],
+    [
+     "un excédent / un déficit",
+     "un superávit / un déficit",
+     "L'Allemagne affiche un excédent."
+    ],
+    [
+     "la dette publique",
+     "la deuda pública",
+     "La dette publique dépasse 100 % du PIB."
+    ],
+    [
+     "les impôts, la fiscalité",
+     "los impuestos, la fiscalidad",
+     "Le gouvernement veut baisser les impôts."
+    ],
+    [
+     "la Bourse",
+     "la Bolsa",
+     "La Bourse de Paris a clôturé en hausse."
+    ]
+   ]
+  },
+  {
+   "tipo": "lista",
+   "items": [
+    "«Le chômage» es el fenómeno; «un chômeur» la persona. «Être au chômage» = estar en paro.",
+    "«Société» en economía significa empresa o sociedad mercantil, además de sociedad en general.",
+    "«Le bénéfice» es masculino; «la perte» es femenino.",
+    "Los tipos de interés son «les taux» (no «les types»)."
+   ]
+  }
  ],
  "ejemplos": [
-  {"frase": "Après deux années difficiles, la croissance repart enfin.", "traduccion": "Tras dos años difíciles, el crecimiento por fin se reactiva."},
-  {"frase": "Mon frère est au chômage depuis trois mois.", "traduccion": "Mi hermano está en paro desde hace tres meses."},
-  {"frase": "La hausse des loyers pèse sur le pouvoir d'achat des familles.", "traduccion": "La subida de los alquileres lastra el poder adquisitivo de las familias."},
-  {"frase": "Cette PME réalise la moitié de son chiffre d'affaires à l'étranger.", "traduccion": "Esta pyme obtiene la mitad de su facturación en el extranjero."},
-  {"frase": "La banque centrale a décidé de maintenir ses taux d'intérêt.", "traduccion": "El banco central ha decidido mantener sus tipos de interés."},
-  {"frase": "Le café du coin subit la concurrence des grandes chaînes.", "traduccion": "El bar de la esquina sufre la competencia de las grandes cadenas."}
+  {
+   "frase": "Après deux années difficiles, la croissance repart enfin.",
+   "traduccion": "Tras dos años difíciles, el crecimiento por fin se reactiva."
+  },
+  {
+   "frase": "Mon frère est au chômage depuis trois mois.",
+   "traduccion": "Mi hermano está en paro desde hace tres meses."
+  },
+  {
+   "frase": "La hausse des loyers pèse sur le pouvoir d'achat des familles.",
+   "traduccion": "La subida de los alquileres lastra el poder adquisitivo de las familias."
+  },
+  {
+   "frase": "Cette PME réalise la moitié de son chiffre d'affaires à l'étranger.",
+   "traduccion": "Esta pyme obtiene la mitad de su facturación en el extranjero."
+  },
+  {
+   "frase": "La banque centrale a décidé de maintenir ses taux d'intérêt.",
+   "traduccion": "El banco central ha decidido mantener sus tipos de interés."
+  },
+  {
+   "frase": "Le café du coin subit la concurrence des grandes chaînes.",
+   "traduccion": "El bar de la esquina sufre la competencia de las grandes cadenas."
+  }
  ],
  "errores_hispanohablantes": [
-  {"mal": "Le paro a augmenté.", "bien": "Le chômage a augmenté.", "nota": "En francés el paro es «le chômage»; «paro» no existe."},
-  {"mal": "Les types d'intérêt ont baissé.", "bien": "Les taux d'intérêt ont baissé.", "nota": "Tipo de interés se dice «taux d'intérêt»."},
-  {"mal": "La compétence entre les entreprises est forte.", "bien": "La concurrence entre les entreprises est forte.", "nota": "La competencia entre empresas es «la concurrence»; «la compétence» es la aptitud o la atribución."},
-  {"mal": "Le croissance est faible.", "bien": "La croissance est faible.", "nota": "«Croissance» es femenino."}
+  {
+   "mal": "Le paro a augmenté.",
+   "bien": "Le chômage a augmenté.",
+   "nota": "En francés el paro es «le chômage»; «paro» no existe."
+  },
+  {
+   "mal": "Les types d'intérêt ont baissé.",
+   "bien": "Les taux d'intérêt ont baissé.",
+   "nota": "Tipo de interés se dice «taux d'intérêt»."
+  },
+  {
+   "mal": "La compétence entre les entreprises est forte.",
+   "bien": "La concurrence entre les entreprises est forte.",
+   "nota": "La competencia entre empresas es «la concurrence»; «la compétence» es la aptitud o la atribución."
+  },
+  {
+   "mal": "Le croissance est faible.",
+   "bien": "La croissance est faible.",
+   "nota": "«Croissance» es femenino."
+  }
  ],
  "ejercicios": [
-  {"id": "e01", "tipo": "hueco", "enunciado": "Completa con la palabra adecuada.", "frase": "Le taux de ___ a baissé : il y a moins de personnes sans emploi.", "respuestas": ["chômage"], "explicacion": "El paro es «le chômage»; la tasa de paro, «le taux de chômage»."},
-  {"id": "e02", "tipo": "hueco", "enunciado": "Completa con la palabra adecuada.", "frase": "L'inflation réduit le pouvoir d'___ des ménages.", "respuestas": ["achat"], "explicacion": "Poder adquisitivo se dice «pouvoir d'achat»."},
-  {"id": "e03", "tipo": "hueco", "enunciado": "Completa con la palabra adecuada (empresa pequeña o mediana, sigla).", "frase": "Les ___ sont souvent les premières victimes d'une crise.", "respuestas": ["PME"], "explicacion": "Pyme = PME (petites et moyennes entreprises)."},
-  {"id": "e04", "tipo": "hueco", "enunciado": "Completa con la palabra adecuada.", "frase": "Le chiffre d'___ de l'entreprise a augmenté de 10 %.", "respuestas": ["affaires"], "explicacion": "Facturación = «chiffre d'affaires», siempre en plural."},
-  {"id": "e05", "tipo": "eleccion", "enunciado": "Elige la opción correcta.", "frase": "La banque centrale a relevé ses ___ directeurs.", "opciones": ["types", "taux", "tarifs"], "respuestas": ["taux"], "explicacion": "Los tipos de interés oficiales son «les taux directeurs»."},
-  {"id": "e06", "tipo": "eleccion", "enunciado": "Elige la opción correcta.", "frase": "Le pays importe plus qu'il n'exporte : sa balance commerciale est ___.", "opciones": ["excédentaire", "déficitaire", "équilibrée"], "respuestas": ["déficitaire"], "explicacion": "Si se importa más de lo que se exporta, hay déficit comercial."},
-  {"id": "e07", "tipo": "eleccion", "enunciado": "Elige la opción correcta.", "frase": "Après deux trimestres de baisse du PIB, le pays est en ___.", "opciones": ["récession", "croissance", "reprise"], "respuestas": ["récession"], "explicacion": "Dos trimestres seguidos de caída del PIB definen la recesión técnica."},
-  {"id": "e08", "tipo": "eleccion", "enunciado": "Elige la opción correcta.", "frase": "Les ___ toucheront un dividende de deux euros par action.", "opciones": ["actionnaires", "chômeurs", "concurrents"], "respuestas": ["actionnaires"], "explicacion": "Quien cobra dividendos es el accionista, «l'actionnaire»."},
-  {"id": "e09", "tipo": "corregir", "enunciado": "Corrige el error.", "frase": "La compétence entre les deux opérateurs fait baisser les prix.", "respuestas": ["La concurrence entre les deux opérateurs fait baisser les prix."], "explicacion": "La competencia comercial es «la concurrence»."},
-  {"id": "e10", "tipo": "corregir", "enunciado": "Corrige el error.", "frase": "Elle est au paro depuis janvier.", "respuestas": ["Elle est au chômage depuis janvier."], "explicacion": "Estar en paro = «être au chômage»."},
-  {"id": "e11", "tipo": "corregir", "enunciado": "Corrige el error de género.", "frase": "Le croissance a été plus forte que prévu.", "respuestas": ["La croissance a été plus forte que prévu."], "explicacion": "«Croissance» es femenino: «la croissance»."},
-  {"id": "e12", "tipo": "ordenar", "enunciado": "Ordena las palabras.", "palabras": ["publique", "la", "dette", "augmente", "encore"], "respuestas": ["la dette publique augmente encore"], "explicacion": "El adjetivo «publique» va detrás del sustantivo."},
-  {"id": "e13", "tipo": "hueco", "enunciado": "Completa con la palabra adecuada.", "frase": "L'entreprise a enregistré une ___ de deux millions d'euros : elle a perdu de l'argent.", "respuestas": ["perte"], "explicacion": "Pérdida = «une perte» (lo contrario de «un bénéfice»)."},
-  {"id": "e14", "tipo": "eleccion", "enunciado": "Elige la opción correcta.", "frase": "La Bourse de Paris a clôturé en ___ de 2 %.", "opciones": ["hausse", "haute", "montée"], "respuestas": ["hausse"], "explicacion": "Cerrar al alza = «clôturer en hausse»."}
+  {
+   "id": "e01",
+   "tipo": "hueco",
+   "enunciado": "Completa con la palabra adecuada.",
+   "frase": "Le taux de ___ a baissé : il y a moins de personnes sans emploi.",
+   "respuestas": [
+    "chômage"
+   ],
+   "explicacion": "La ficha explica que el paro es «le chômage» y la tasa de paro, «le taux de chômage». La pista es la explicación que sigue a los dos puntos, il y a moins de personnes sans emploi: se habla del desempleo. En francés no existe paro con este sentido; la palabra es chômage, con acento circunflejo en la o.",
+   "explicacion_breve": "El paro es «le chômage»; la tasa de paro, «le taux de chômage».",
+   "traduccion": "La tasa de paro ha bajado: hay menos personas sin empleo.",
+   "errores_previstos": [
+    {
+     "respuesta": "paro",
+     "explicacion": "Es la palabra española; en francés el desempleo es le chômage."
+    },
+    {
+     "respuesta": "chomage",
+     "explicacion": "Falta el acento circunflejo: chômage."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "le taux de chômage",
+     "significado": "la tasa de paro"
+    },
+    {
+     "palabra": "sans emploi",
+     "significado": "sin empleo, desempleado"
+    }
+   ]
+  },
+  {
+   "id": "e02",
+   "tipo": "hueco",
+   "enunciado": "Completa con la palabra adecuada.",
+   "frase": "L'inflation réduit le pouvoir d'___ des ménages.",
+   "respuestas": [
+    "achat"
+   ],
+   "explicacion": "Se aplica la entrada «le pouvoir d'achat = el poder adquisitivo» de la primera tabla. La pista es la relación de causa con l'inflation: cuando suben los precios, con el mismo dinero se compra menos. El francés lo expresa literalmente como «poder de compra», con el sustantivo achat (compra).",
+   "explicacion_breve": "Poder adquisitivo se dice «pouvoir d'achat».",
+   "traduccion": "La inflación reduce el poder adquisitivo de los hogares.",
+   "errores_previstos": [
+    {
+     "respuesta": "acquisition",
+     "explicacion": "Es un calco de «adquisitivo»; la expresión fija francesa es pouvoir d'achat."
+    },
+    {
+     "respuesta": "achats",
+     "explicacion": "La locución va en singular: pouvoir d'achat."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "le pouvoir d'achat",
+     "significado": "el poder adquisitivo"
+    },
+    {
+     "palabra": "les ménages",
+     "significado": "los hogares (en sentido económico)"
+    },
+    {
+     "palabra": "réduire",
+     "significado": "reducir"
+    }
+   ]
+  },
+  {
+   "id": "e03",
+   "tipo": "hueco",
+   "enunciado": "Completa con la palabra adecuada (empresa pequeña o mediana, sigla).",
+   "frase": "Les ___ sont souvent les premières victimes d'une crise.",
+   "respuestas": [
+    "PME"
+   ],
+   "explicacion": "La segunda tabla da «une PME = una pyme», sigla de petites et moyennes entreprises. La pista está en el enunciado (empresa pequeña o mediana, sigla) y en el artículo les. Las siglas francesas no añaden s en plural: les PME, como en español «las pymes» se pronuncia en plural pero la sigla no cambia.",
+   "explicacion_breve": "Pyme = PME (petites et moyennes entreprises).",
+   "traduccion": "Las pymes suelen ser las primeras víctimas de una crisis.",
+   "errores_previstos": [
+    {
+     "respuesta": "PMEs",
+     "explicacion": "En francés las siglas son invariables: les PME, sin s."
+    },
+    {
+     "respuesta": "PYME",
+     "explicacion": "Es la sigla española; la francesa es PME."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "une PME",
+     "significado": "una pyme (petite et moyenne entreprise)"
+    },
+    {
+     "palabra": "une victime",
+     "significado": "una víctima"
+    }
+   ]
+  },
+  {
+   "id": "e04",
+   "tipo": "hueco",
+   "enunciado": "Completa con la palabra adecuada.",
+   "frase": "Le chiffre d'___ de l'entreprise a augmenté de 10 %.",
+   "respuestas": [
+    "affaires"
+   ],
+   "explicacion": "Es la entrada «le chiffre d'affaires = la facturación, la cifra de negocio». La pista es le chiffre d' y el porcentaje de aumento: se habla de los ingresos por ventas de la empresa. Affaires va siempre en plural en esta expresión, porque se refiere al conjunto de los negocios.",
+   "explicacion_breve": "Facturación = «chiffre d'affaires», siempre en plural.",
+   "traduccion": "La facturación de la empresa ha aumentado un 10 %.",
+   "errores_previstos": [
+    {
+     "respuesta": "affaire",
+     "explicacion": "La locución exige el plural: chiffre d'affaires."
+    },
+    {
+     "respuesta": "facturation",
+     "explicacion": "La facturation es la acción de facturar; la cifra de ventas es le chiffre d'affaires, y «chiffre de facturation» no es la expresión fija."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "le chiffre d'affaires",
+     "significado": "la facturación, la cifra de negocio"
+    },
+    {
+     "palabra": "augmenter de 10 %",
+     "significado": "aumentar un 10 %"
+    }
+   ]
+  },
+  {
+   "id": "e05",
+   "tipo": "eleccion",
+   "enunciado": "Elige la opción correcta.",
+   "frase": "La banque centrale a relevé ses ___ directeurs.",
+   "opciones": [
+    "types",
+    "taux",
+    "tarifs"
+   ],
+   "respuestas": [
+    "taux"
+   ],
+   "explicacion": "La ficha advierte que los tipos de interés son «les taux», no les types. La pista es la banque centrale y directeurs: los tipos oficiales que fija un banco central se llaman les taux directeurs. Relever significa subir, aumentar un nivel.",
+   "explicacion_breve": "Los tipos de interés oficiales son «les taux directeurs».",
+   "traduccion": "El banco central ha subido sus tipos oficiales.",
+   "por_opcion": {
+    "types": "Incorrecta: es el falso amigo; un type es un tipo en el sentido de clase o modelo, nunca un tipo de interés.",
+    "taux": "Correcta: les taux directeurs son los tipos de interés oficiales de un banco central.",
+    "tarifs": "Incorrecta: les tarifs son las tarifas o los precios de un servicio; un banco central no fija tarifas."
+   },
+   "glosario": [
+    {
+     "palabra": "les taux directeurs",
+     "significado": "los tipos (de interés) oficiales"
+    },
+    {
+     "palabra": "relever",
+     "significado": "subir, elevar"
+    },
+    {
+     "palabra": "la banque centrale",
+     "significado": "el banco central"
+    }
+   ]
+  },
+  {
+   "id": "e06",
+   "tipo": "eleccion",
+   "enunciado": "Elige la opción correcta.",
+   "frase": "Le pays importe plus qu'il n'exporte : sa balance commerciale est ___.",
+   "opciones": [
+    "excédentaire",
+    "déficitaire",
+    "équilibrée"
+   ],
+   "respuestas": [
+    "déficitaire"
+   ],
+   "explicacion": "La segunda tabla da «la balance commerciale» y «un excédent / un déficit». La pista es la primera parte de la frase: si se importa más que se exporta, el saldo comercial es negativo, es decir, deficitario. Fíjate también en el ne explétif de qu'il n'exporte, propio de las comparaciones en francés cuidado, que no tiene valor negativo.",
+   "explicacion_breve": "Si se importa más de lo que se exporta, hay déficit comercial.",
+   "traduccion": "El país importa más de lo que exporta: su balanza comercial es deficitaria.",
+   "por_opcion": {
+    "excédentaire": "Incorrecta: excédentaire significa con superávit, cuando las exportaciones superan a las importaciones.",
+    "déficitaire": "Correcta: si las importaciones superan a las exportaciones, la balanza es deficitaria.",
+    "équilibrée": "Incorrecta: équilibrée significa equilibrada, con importaciones y exportaciones iguales."
+   },
+   "glosario": [
+    {
+     "palabra": "la balance commerciale",
+     "significado": "la balanza comercial"
+    },
+    {
+     "palabra": "déficitaire",
+     "significado": "deficitario"
+    },
+    {
+     "palabra": "excédentaire",
+     "significado": "con superávit, excedentario"
+    }
+   ]
+  },
+  {
+   "id": "e07",
+   "tipo": "eleccion",
+   "enunciado": "Elige la opción correcta.",
+   "frase": "Après deux trimestres de baisse du PIB, le pays est en ___.",
+   "opciones": [
+    "récession",
+    "croissance",
+    "reprise"
+   ],
+   "respuestas": [
+    "récession"
+   ],
+   "explicacion": "Se aplica la entrada «la récession = la recesión». La pista es deux trimestres de baisse du PIB: es la definición convencional de recesión técnica. Être en récession es la colocación habitual, igual que en español «estar en recesión».",
+   "explicacion_breve": "Dos trimestres seguidos de caída del PIB definen la recesión técnica.",
+   "traduccion": "Tras dos trimestres de caída del PIB, el país está en recesión.",
+   "por_opcion": {
+    "récession": "Correcta: dos trimestres seguidos de caída del PIB definen la recesión técnica.",
+    "croissance": "Incorrecta: la croissance es el crecimiento, justo lo contrario de una caída del PIB.",
+    "reprise": "Incorrecta: la reprise es la recuperación, que llega después de una recesión, no durante la caída."
+   },
+   "glosario": [
+    {
+     "palabra": "la récession",
+     "significado": "la recesión"
+    },
+    {
+     "palabra": "la reprise",
+     "significado": "la recuperación (económica)"
+    },
+    {
+     "palabra": "un trimestre",
+     "significado": "un trimestre"
+    },
+    {
+     "palabra": "la baisse",
+     "significado": "la caída, la bajada"
+    }
+   ]
+  },
+  {
+   "id": "e08",
+   "tipo": "eleccion",
+   "enunciado": "Elige la opción correcta.",
+   "frase": "Les ___ toucheront un dividende de deux euros par action.",
+   "opciones": [
+    "actionnaires",
+    "chômeurs",
+    "concurrents"
+   ],
+   "respuestas": [
+    "actionnaires"
+   ],
+   "explicacion": "Es la entrada «un actionnaire = un accionista» de la tabla de la empresa. La pista es un dividende y par action: quien posee acciones y cobra dividendos es el accionista. Toucher, en este contexto, significa cobrar o percibir dinero.",
+   "explicacion_breve": "Quien cobra dividendos es el accionista, «l'actionnaire».",
+   "traduccion": "Los accionistas cobrarán un dividendo de dos euros por acción.",
+   "por_opcion": {
+    "actionnaires": "Correcta: los accionistas son los propietarios de las acciones y cobran el dividendo.",
+    "chômeurs": "Incorrecta: les chômeurs son los parados; cobran una prestación por desempleo, no dividendos.",
+    "concurrents": "Incorrecta: les concurrents son los competidores de una empresa, que no reciben sus dividendos."
+   },
+   "glosario": [
+    {
+     "palabra": "un actionnaire",
+     "significado": "un accionista"
+    },
+    {
+     "palabra": "toucher",
+     "significado": "cobrar, percibir (dinero)"
+    },
+    {
+     "palabra": "un dividende",
+     "significado": "un dividendo"
+    },
+    {
+     "palabra": "une action",
+     "significado": "una acción (bursátil)"
+    }
+   ]
+  },
+  {
+   "id": "e09",
+   "tipo": "corregir",
+   "enunciado": "Corrige el error.",
+   "frase": "La compétence entre les deux opérateurs fait baisser les prix.",
+   "respuestas": [
+    "La concurrence entre les deux opérateurs fait baisser les prix."
+   ],
+   "explicacion": "Es el falso amigo que la ficha recoge entre los errores: la competencia entre empresas es «la concurrence»; «la compétence» es la aptitud de una persona o la atribución legal de un órgano. La pista es entre les deux opérateurs y fait baisser les prix: se habla de rivalidad comercial. La corrección es La concurrence entre les deux opérateurs fait baisser les prix.",
+   "explicacion_breve": "La competencia comercial es «la concurrence».",
+   "traduccion": "La competencia entre los dos operadores hace bajar los precios.",
+   "errores_previstos": [
+    {
+     "respuesta": "La compétence entre les deux opérateurs fait baisser les prix.",
+     "explicacion": "Es la frase sin corregir: compétence no significa rivalidad comercial."
+    },
+    {
+     "respuesta": "La compétition entre les deux opérateurs fait baisser les prix.",
+     "explicacion": "La compétition se usa sobre todo en el deporte o los concursos; en economía la palabra propia es la concurrence."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "la concurrence",
+     "significado": "la competencia (entre empresas)"
+    },
+    {
+     "palabra": "la compétence",
+     "significado": "la competencia (aptitud, atribución)"
+    },
+    {
+     "palabra": "un opérateur",
+     "significado": "un operador (de telefonía, de transporte…)"
+    }
+   ]
+  },
+  {
+   "id": "e10",
+   "tipo": "corregir",
+   "enunciado": "Corrige el error.",
+   "frase": "Elle est au paro depuis janvier.",
+   "respuestas": [
+    "Elle est au chômage depuis janvier."
+   ],
+   "explicacion": "La ficha lo explica en la lista final: «être au chômage» significa estar en paro. La pista es la estructura être au + sustantivo: la palabra española paro no existe en francés con este sentido. La forma correcta es Elle est au chômage depuis janvier.",
+   "explicacion_breve": "Estar en paro = «être au chômage».",
+   "traduccion": "Está en paro desde enero.",
+   "errores_previstos": [
+    {
+     "respuesta": "Elle est au paro depuis janvier.",
+     "explicacion": "Es la frase sin corregir: paro es español."
+    },
+    {
+     "respuesta": "Elle est en chômage depuis janvier.",
+     "explicacion": "La locución fija lleva au: être au chômage."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "être au chômage",
+     "significado": "estar en paro"
+    },
+    {
+     "palabra": "depuis janvier",
+     "significado": "desde enero"
+    }
+   ]
+  },
+  {
+   "id": "e11",
+   "tipo": "corregir",
+   "enunciado": "Corrige el error de género.",
+   "frase": "Le croissance a été plus forte que prévu.",
+   "respuestas": [
+    "La croissance a été plus forte que prévu."
+   ],
+   "explicacion": "La ficha advierte que croissance es femenino. La pista es la terminación -ance, que en francés es casi siempre femenina (la croissance, la concurrence, la balance). Además, el adjetivo plus forte ya está en femenino, lo que confirma que el artículo debe ser la.",
+   "explicacion_breve": "«Croissance» es femenino: «la croissance».",
+   "traduccion": "El crecimiento ha sido más fuerte de lo previsto.",
+   "errores_previstos": [
+    {
+     "respuesta": "Le croissance a été plus forte que prévu.",
+     "explicacion": "Es la frase sin corregir: croissance es femenino."
+    },
+    {
+     "respuesta": "Le croissance a été plus fort que prévu.",
+     "explicacion": "Cambia el adjetivo para concordar con el error en lugar de corregir el artículo."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "la croissance",
+     "significado": "el crecimiento"
+    },
+    {
+     "palabra": "que prévu",
+     "significado": "de lo previsto"
+    }
+   ]
+  },
+  {
+   "id": "e12",
+   "tipo": "ordenar",
+   "enunciado": "Ordena las palabras.",
+   "palabras": [
+    "publique",
+    "la",
+    "dette",
+    "augmente",
+    "encore"
+   ],
+   "respuestas": [
+    "la dette publique augmente encore"
+   ],
+   "explicacion": "La ficha recoge «la dette publique = la deuda pública». El orden es artículo + sustantivo + adjetivo (la dette publique), porque en francés, como en español, los adjetivos de clasificación van detrás del sustantivo. Después vienen el verbo augmente y el adverbio encore, que aquí significa «todavía, una vez más».",
+   "explicacion_breve": "El adjetivo «publique» va detrás del sustantivo.",
+   "traduccion": "La deuda pública sigue aumentando.",
+   "errores_previstos": [
+    {
+     "respuesta": "la publique dette augmente encore",
+     "explicacion": "Publique es un adjetivo de clasificación y va detrás del sustantivo."
+    },
+    {
+     "respuesta": "la dette publique encore augmente",
+     "explicacion": "El adverbio encore va detrás del verbo conjugado, no delante."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "la dette publique",
+     "significado": "la deuda pública"
+    },
+    {
+     "palabra": "encore",
+     "significado": "todavía, aún más"
+    }
+   ]
+  },
+  {
+   "id": "e13",
+   "tipo": "hueco",
+   "enunciado": "Completa con la palabra adecuada.",
+   "frase": "L'entreprise a enregistré une ___ de deux millions d'euros : elle a perdu de l'argent.",
+   "respuestas": [
+    "perte"
+   ],
+   "explicacion": "Es la entrada «le bénéfice / la perte = el beneficio / la pérdida». La pista es la explicación tras los dos puntos, elle a perdu de l'argent, y el artículo une, que pide un femenino. Perte es el sustantivo de perdre; enregistrer une perte es la colocación habitual en los resultados empresariales.",
+   "explicacion_breve": "Pérdida = «une perte» (lo contrario de «un bénéfice»).",
+   "traduccion": "La empresa registró una pérdida de dos millones de euros: perdió dinero.",
+   "errores_previstos": [
+    {
+     "respuesta": "pérdida",
+     "explicacion": "Es la palabra española; en francés se dice une perte."
+    },
+    {
+     "respuesta": "perdue",
+     "explicacion": "Es el participio femenino de perdre, no el sustantivo; el sustantivo es perte."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "une perte",
+     "significado": "una pérdida"
+    },
+    {
+     "palabra": "enregistrer",
+     "significado": "registrar, anotar (resultados)"
+    }
+   ]
+  },
+  {
+   "id": "e14",
+   "tipo": "eleccion",
+   "enunciado": "Elige la opción correcta.",
+   "frase": "La Bourse de Paris a clôturé en ___ de 2 %.",
+   "opciones": [
+    "hausse",
+    "haute",
+    "montée"
+   ],
+   "respuestas": [
+    "hausse"
+   ],
+   "explicacion": "La primera tabla recoge «la hausse = la subida». La pista es la construcción clôturer en + sustantivo + de + porcentaje: la Bolsa cierra en hausse (al alza) o en baisse (a la baja). Son colocaciones fijas de la prensa financiera.",
+   "explicacion_breve": "Cerrar al alza = «clôturer en hausse».",
+   "traduccion": "La Bolsa de París cerró con una subida del 2 %.",
+   "por_opcion": {
+    "hausse": "Correcta: clôturer en hausse significa cerrar al alza.",
+    "haute": "Incorrecta: haute es el adjetivo femenino de haut (alto), no un sustantivo; «en haute de 2 %» no es francés.",
+    "montée": "Incorrecta: la montée es la subida en sentido general (de las aguas, de una cuesta); en Bolsa no se combina con clôturer en."
+   },
+   "glosario": [
+    {
+     "palabra": "la Bourse",
+     "significado": "la Bolsa"
+    },
+    {
+     "palabra": "clôturer",
+     "significado": "cerrar (una sesión bursátil)"
+    },
+    {
+     "palabra": "en hausse",
+     "significado": "al alza"
+    }
+   ]
+  }
  ],
- "fuente": {"nombre": "propia"}
+ "fuente": {
+  "nombre": "propia"
+ },
+ "descripcion_larga_es": "Esta ficha recoge el vocabulario esencial de la coyuntura económica y de la empresa: crecimiento, paro, inflación, tipos de interés, facturación, competencia y comercio exterior. Es el léxico de cualquier noticia económica y de una exposición oral sobre economía. Al hispanohablante le cuesta por los géneros distintos (la croissance) y por falsos amigos como compétence o types d'intérêt.",
+ "contexto": {
+  "que_es": "Es el léxico básico para describir la situación económica de un país (croissance, récession, chômage, inflation, dette publique, balance commerciale) y la vida de una empresa (chiffre d'affaires, bénéfice, perte, actionnaire, concurrence, investissement).",
+  "por_que_importa": "Para un futuro Técnico Comercial y Economista del Estado es el vocabulario profesional mínimo en francés. Aparece en cualquier artículo de Le Monde o Les Échos y en las preguntas de una prueba oral sobre actualidad. Errores como le paro, les types d'intérêt o la compétence entre entreprises delatan enseguida un calco del español y restan credibilidad.",
+  "cuando_se_usa": "Se usa al comentar datos macroeconómicos, resultados empresariales o noticias de mercados. Las señales son cifras, porcentajes y verbos como augmenter, baisser, ralentir o progresser. El hispanohablante tiende a calcar palabras españolas (paro, tipo, competencia) y a equivocar el género de sustantivos como croissance o bénéfice."
+ }
 }

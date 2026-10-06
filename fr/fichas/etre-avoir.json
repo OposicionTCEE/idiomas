@@ -6,65 +6,582 @@
  "nivel": "A1",
  "resumen": "Être y avoir son los dos verbos más frecuentes y los dos auxiliares del francés. Être equivale a ser y a estar; avoir equivale a tener y forma muchas expresiones parecidas a las españolas con tener.",
  "explicacion": [
-  {"tipo": "tabla", "cabecera": ["Persona", "être", "avoir"], "filas": [
-   ["je / j'", "je suis", "j'ai"],
-   ["tu", "tu es", "tu as"],
-   ["il, elle, on", "il est", "il a"],
-   ["nous", "nous sommes", "nous‿avons"],
-   ["vous", "vous‿êtes", "vous‿avez"],
-   ["ils, elles", "ils sont", "ils‿ont"]
-  ]},
-  {"tipo": "texto", "texto": "Ojo con ils sont /ilsɔ̃/ (son, están) frente a ils ont /ilzɔ̃/ (tienen): solo los distingue la liaison con sonido /z/. Être no distingue entre ser y estar: Je suis médecin (soy médico), Je suis fatigué (estoy cansado), Je suis à Madrid (estoy en Madrid)."},
-  {"tipo": "tabla", "cabecera": ["Expresión con avoir", "Español"], "filas": [
-   ["avoir 20 ans", "tener 20 años"],
-   ["avoir faim / soif / sommeil", "tener hambre / sed / sueño"],
-   ["avoir chaud / froid", "tener calor / frío"],
-   ["avoir peur de", "tener miedo de"],
-   ["avoir raison / tort", "tener razón / estar equivocado"],
-   ["avoir besoin de", "necesitar"],
-   ["avoir envie de", "tener ganas de, apetecer"],
-   ["avoir mal à (la tête, au dos, aux dents)", "doler (la cabeza, la espalda, las muelas)"],
-   ["avoir l'air (fatigué)", "parecer (cansado)"],
-   ["avoir l'intention de", "tener la intención de"]
-  ]},
-  {"tipo": "lista", "items": [
-   "Estas expresiones van sin artículo, como en español: j'ai faim, nunca j'ai la faim.",
-   "Avoir mal à se construye con à + artículo y sus contracciones: j'ai mal à la gorge, au dos, aux yeux.",
-   "Avoir chaud / froid se refiere a la persona; para el tiempo se usa faire: il fait froid (hace frío).",
-   "Avoir aparece también en il y a (hay), que se estudia en otra ficha."
-  ]}
+  {
+   "tipo": "tabla",
+   "cabecera": [
+    "Persona",
+    "être",
+    "avoir"
+   ],
+   "filas": [
+    [
+     "je / j'",
+     "je suis",
+     "j'ai"
+    ],
+    [
+     "tu",
+     "tu es",
+     "tu as"
+    ],
+    [
+     "il, elle, on",
+     "il est",
+     "il a"
+    ],
+    [
+     "nous",
+     "nous sommes",
+     "nous‿avons"
+    ],
+    [
+     "vous",
+     "vous‿êtes",
+     "vous‿avez"
+    ],
+    [
+     "ils, elles",
+     "ils sont",
+     "ils‿ont"
+    ]
+   ]
+  },
+  {
+   "tipo": "texto",
+   "texto": "Ojo con ils sont /ilsɔ̃/ (son, están) frente a ils ont /ilzɔ̃/ (tienen): solo los distingue la liaison con sonido /z/. Être no distingue entre ser y estar: Je suis médecin (soy médico), Je suis fatigué (estoy cansado), Je suis à Madrid (estoy en Madrid)."
+  },
+  {
+   "tipo": "tabla",
+   "cabecera": [
+    "Expresión con avoir",
+    "Español"
+   ],
+   "filas": [
+    [
+     "avoir 20 ans",
+     "tener 20 años"
+    ],
+    [
+     "avoir faim / soif / sommeil",
+     "tener hambre / sed / sueño"
+    ],
+    [
+     "avoir chaud / froid",
+     "tener calor / frío"
+    ],
+    [
+     "avoir peur de",
+     "tener miedo de"
+    ],
+    [
+     "avoir raison / tort",
+     "tener razón / estar equivocado"
+    ],
+    [
+     "avoir besoin de",
+     "necesitar"
+    ],
+    [
+     "avoir envie de",
+     "tener ganas de, apetecer"
+    ],
+    [
+     "avoir mal à (la tête, au dos, aux dents)",
+     "doler (la cabeza, la espalda, las muelas)"
+    ],
+    [
+     "avoir l'air (fatigué)",
+     "parecer (cansado)"
+    ],
+    [
+     "avoir l'intention de",
+     "tener la intención de"
+    ]
+   ]
+  },
+  {
+   "tipo": "lista",
+   "items": [
+    "Estas expresiones van sin artículo, como en español: j'ai faim, nunca j'ai la faim.",
+    "Avoir mal à se construye con à + artículo y sus contracciones: j'ai mal à la gorge, au dos, aux yeux.",
+    "Avoir chaud / froid se refiere a la persona; para el tiempo se usa faire: il fait froid (hace frío).",
+    "Avoir aparece también en il y a (hay), que se estudia en otra ficha."
+   ]
+  }
  ],
  "ejemplos": [
-  {"frase": "Toi, tu es un écureuil et moi, je suis un escargot.", "traduccion": "Tú eres una ardilla y yo soy un caracol."},
-  {"frase": "Ma sœur Rita a trente ans et mon frère Trey a seize ans.", "traduccion": "Mi hermana Rita tiene treinta años y mi hermano Trey tiene dieciséis."},
-  {"frase": "Nous avons un examen demain et nous avons besoin d'étudier.", "traduccion": "Tenemos un examen mañana y necesitamos estudiar."},
-  {"frase": "J'ai toujours froid dans ce café.", "traduccion": "Siempre tengo frío en esta cafetería."},
-  {"frase": "Tu as raison, Tammy.", "traduccion": "Tienes razón, Tammy."},
-  {"frase": "Ils sont à la maison parce qu'ils ont sommeil.", "traduccion": "Están en casa porque tienen sueño."}
+  {
+   "frase": "Toi, tu es un écureuil et moi, je suis un escargot.",
+   "traduccion": "Tú eres una ardilla y yo soy un caracol."
+  },
+  {
+   "frase": "Ma sœur Rita a trente ans et mon frère Trey a seize ans.",
+   "traduccion": "Mi hermana Rita tiene treinta años y mi hermano Trey tiene dieciséis."
+  },
+  {
+   "frase": "Nous avons un examen demain et nous avons besoin d'étudier.",
+   "traduccion": "Tenemos un examen mañana y necesitamos estudiar."
+  },
+  {
+   "frase": "J'ai toujours froid dans ce café.",
+   "traduccion": "Siempre tengo frío en esta cafetería."
+  },
+  {
+   "frase": "Tu as raison, Tammy.",
+   "traduccion": "Tienes razón, Tammy."
+  },
+  {
+   "frase": "Ils sont à la maison parce qu'ils ont sommeil.",
+   "traduccion": "Están en casa porque tienen sueño."
+  }
  ],
  "errores_hispanohablantes": [
-  {"mal": "Je suis 30 ans.", "bien": "J'ai 30 ans.", "nota": "La edad se expresa con avoir, como en español con tener."},
-  {"mal": "Je suis faim.", "bien": "J'ai faim.", "nota": "Hambre, sed, frío, calor, miedo y sueño van con avoir."},
-  {"mal": "Il fait mal à la tête.", "bien": "Il a mal à la tête.", "nota": "Doler se dice avoir mal à."},
-  {"mal": "Je nécessite de l'aide.", "bien": "J'ai besoin d'aide.", "nota": "En la lengua corriente «necesitar» es avoir besoin de; nécessiter se usa para cosas («requerir»)."}
+  {
+   "mal": "Je suis 30 ans.",
+   "bien": "J'ai 30 ans.",
+   "nota": "La edad se expresa con avoir, como en español con tener."
+  },
+  {
+   "mal": "Je suis faim.",
+   "bien": "J'ai faim.",
+   "nota": "Hambre, sed, frío, calor, miedo y sueño van con avoir."
+  },
+  {
+   "mal": "Il fait mal à la tête.",
+   "bien": "Il a mal à la tête.",
+   "nota": "Doler se dice avoir mal à."
+  },
+  {
+   "mal": "Je nécessite de l'aide.",
+   "bien": "J'ai besoin d'aide.",
+   "nota": "En la lengua corriente «necesitar» es avoir besoin de; nécessiter se usa para cosas («requerir»)."
+  }
  ],
  "ejercicios": [
-  {"id": "e01", "tipo": "hueco", "enunciado": "Completa con avoir en presente.", "frase": "Tom ___ faim !", "respuestas": ["a"], "explicacion": "Avoir faim; con un sujeto en 3.ª persona del singular, il a.", "origen": "tatoeba:10123665"},
-  {"id": "e02", "tipo": "hueco", "enunciado": "Completa con avoir en presente.", "frase": "Les garçons ___ soif.", "respuestas": ["ont"], "explicacion": "Sujeto plural: ils ont.", "origen": "tatoeba:2041990"},
-  {"id": "e03", "tipo": "hueco", "enunciado": "Completa con avoir en presente.", "frase": "Tu ___ besoin d'aide.", "respuestas": ["as"], "explicacion": "Avoir besoin de (necesitar); con tu, tu as.", "origen": "tatoeba:4636134"},
-  {"id": "e04", "tipo": "eleccion", "enunciado": "Elige la opción correcta.", "frase": "Il a mal ___ tête.", "opciones": ["à la", "au", "aux"], "respuestas": ["à la"], "explicacion": "Tête es femenino: avoir mal à la tête.", "origen": "tatoeba:477902"},
-  {"id": "e05", "tipo": "eleccion", "enunciado": "Elige la opción correcta.", "frase": "J'ai mal ___ dos.", "opciones": ["au", "à la", "à le"], "respuestas": ["au"], "explicacion": "Dos es masculino: à + le = au.", "origen": "tatoeba:881872"},
-  {"id": "e06", "tipo": "transformar", "enunciado": "Cambia el sujeto por nous.", "frase": "J'ai peur des chiens.", "respuestas": ["Nous avons peur des chiens."], "explicacion": "Avoir con nous: nous avons.", "origen": "tatoeba:6580"},
-  {"id": "e07", "tipo": "transformar", "enunciado": "Cambia el sujeto por ils.", "frase": "J'ai faim et soif.", "respuestas": ["Ils ont faim et soif."], "explicacion": "Avoir con ils: ils ont, con liaison /z/.", "origen": "tatoeba:1710298"},
-  {"id": "e08", "tipo": "ordenar", "enunciado": "Ordena las palabras.", "palabras": ["temps", "de", "besoin", "J'ai"], "respuestas": ["J'ai besoin de temps"], "explicacion": "Avoir besoin de + nombre; ante una cantidad indeterminada no se añade partitivo: besoin de temps.", "origen": "tatoeba:2482627"},
-  {"id": "e09", "tipo": "hueco", "enunciado": "Completa con avoir en presente.", "frase": "J'___ raison, non ?", "respuestas": ["ai"], "explicacion": "Je se apostrofa ante ai: j'ai raison.", "origen": "tatoeba:4610255"},
-  {"id": "e10", "tipo": "hueco", "enunciado": "Completa con être en presente.", "frase": "Nous ___ étudiants à Madrid.", "respuestas": ["sommes"], "explicacion": "Être con nous: nous sommes."},
-  {"id": "e11", "tipo": "hueco", "enunciado": "Completa con être en presente.", "frase": "Vous ___ d'où ?", "respuestas": ["êtes"], "explicacion": "Être con vous: vous êtes."},
-  {"id": "e12", "tipo": "eleccion", "enunciado": "Elige la forma correcta.", "frase": "Mes parents ___ en vacances en Bretagne.", "opciones": ["sont", "ont", "sommes"], "respuestas": ["sont"], "explicacion": "Estar de vacaciones es être en vacances; ils sont."},
-  {"id": "e13", "tipo": "eleccion", "enunciado": "Elige la forma correcta.", "frase": "Mon frère ___ vingt ans.", "opciones": ["a", "est", "as"], "respuestas": ["a"], "explicacion": "La edad se expresa con avoir: il a vingt ans."},
-  {"id": "e14", "tipo": "corregir", "enunciado": "Corrige el error.", "frase": "Je suis vingt-cinq ans.", "respuestas": ["J'ai vingt-cinq ans."], "explicacion": "La edad va con avoir."},
-  {"id": "e15", "tipo": "corregir", "enunciado": "Corrige el error.", "frase": "Elle est faim.", "respuestas": ["Elle a faim."], "explicacion": "Tener hambre es avoir faim."},
-  {"id": "e16", "tipo": "corregir", "enunciado": "Corrige el error.", "frase": "Tu est fatigué ?", "respuestas": ["Tu es fatigué ?"], "explicacion": "Con tu, être hace tu es; est es la forma de il, elle."}
+  {
+   "id": "e01",
+   "tipo": "hueco",
+   "enunciado": "Completa con avoir en presente.",
+   "frase": "Tom ___ faim !",
+   "respuestas": [
+    "a"
+   ],
+   "explicacion": "Se aplica la tabla de expresiones con avoir: tener hambre es avoir faim, sin artículo. La pista es el sustantivo faim detrás del hueco y el sujeto Tom, un nombre propio que equivale a il. Por eso la forma es la tercera persona del singular de avoir: a (sin acento, porque es verbo).",
+   "origen": "tatoeba:10123665",
+   "explicacion_breve": "Avoir faim; con un sujeto en 3.ª persona del singular, il a.",
+   "traduccion": "¡Tom tiene hambre!",
+   "errores_previstos": [
+    {
+     "respuesta": "est",
+     "explicacion": "Calco imposible: el hambre se expresa con avoir, no con être (no se dice il est faim)."
+    },
+    {
+     "respuesta": "à",
+     "explicacion": "Con acento es la preposición; el verbo avoir en tercera persona se escribe a, sin acento."
+    },
+    {
+     "respuesta": "as",
+     "explicacion": "As es la forma de tu; con un sujeto en tercera persona la forma es a."
+    }
+   ]
+  },
+  {
+   "id": "e02",
+   "tipo": "hueco",
+   "enunciado": "Completa con avoir en presente.",
+   "frase": "Les garçons ___ soif.",
+   "respuestas": [
+    "ont"
+   ],
+   "explicacion": "Es la expresión avoir soif de la tabla. La pista es el sujeto plural les garçons, que equivale a ils: la tercera persona del plural de avoir es ont. Se pronuncia con el sonido nasal /ɔ̃/ y, tras ils, con liaison /z/ (ils‿ont).",
+   "origen": "tatoeba:2041990",
+   "explicacion_breve": "Sujeto plural: ils ont.",
+   "traduccion": "Los chicos tienen sed.",
+   "errores_previstos": [
+    {
+     "respuesta": "sont",
+     "explicacion": "Sont es être; tener sed se dice avoir soif. Ojo: ils sont e ils ont solo se distinguen por la liaison."
+    },
+    {
+     "respuesta": "a",
+     "explicacion": "A es la forma del singular; con un sujeto plural la forma es ont."
+    },
+    {
+     "respuesta": "avons",
+     "explicacion": "Avons corresponde a nous; con les garçons (ils) la forma es ont."
+    }
+   ]
+  },
+  {
+   "id": "e03",
+   "tipo": "hueco",
+   "enunciado": "Completa con avoir en presente.",
+   "frase": "Tu ___ besoin d'aide.",
+   "respuestas": [
+    "as"
+   ],
+   "explicacion": "La tabla de expresiones recoge avoir besoin de = necesitar. La pista es besoin d'aide detrás del hueco y el sujeto tu: la segunda persona de avoir es as. El francés no usa un verbo como «necesitar» en este contexto cotidiano, sino la locución con avoir.",
+   "origen": "tatoeba:4636134",
+   "explicacion_breve": "Avoir besoin de (necesitar); con tu, tu as.",
+   "traduccion": "Necesitas ayuda.",
+   "errores_previstos": [
+    {
+     "respuesta": "a",
+     "explicacion": "A es la forma de il, elle; con tu la forma es as, con s."
+    },
+    {
+     "respuesta": "es",
+     "explicacion": "Es es être; avoir besoin de exige avoir."
+    },
+    {
+     "respuesta": "ai",
+     "explicacion": "Ai es la forma de je; con tu se escribe as."
+    }
+   ]
+  },
+  {
+   "id": "e04",
+   "tipo": "eleccion",
+   "enunciado": "Elige la opción correcta.",
+   "frase": "Il a mal ___ tête.",
+   "opciones": [
+    "à la",
+    "au",
+    "aux"
+   ],
+   "respuestas": [
+    "à la"
+   ],
+   "explicacion": "La lista de reglas explica que avoir mal à se construye con à + artículo y sus contracciones. La pista es tête, sustantivo femenino: à + la no se contrae, así que se dice avoir mal à la tête. Es la forma francesa de «doler»: el dolor se tiene, no duele.",
+   "origen": "tatoeba:477902",
+   "explicacion_breve": "Tête es femenino: avoir mal à la tête.",
+   "traduccion": "Le duele la cabeza.",
+   "por_opcion": {
+    "à la": "Correcta: tête es femenino y à la no se contrae.",
+    "au": "Incorrecta: au es à + le y solo va con sustantivos masculinos, como dos o ventre.",
+    "aux": "Incorrecta: aux es à + les, para plurales como dents o yeux."
+   }
+  },
+  {
+   "id": "e05",
+   "tipo": "eleccion",
+   "enunciado": "Elige la opción correcta.",
+   "frase": "J'ai mal ___ dos.",
+   "opciones": [
+    "au",
+    "à la",
+    "à le"
+   ],
+   "respuestas": [
+    "au"
+   ],
+   "explicacion": "Se aplica la misma regla de avoir mal à con las contracciones del artículo. La pista es dos, sustantivo masculino: à + le se contrae obligatoriamente en au. Por eso se dice j'ai mal au dos, igual que au ventre o au genou.",
+   "origen": "tatoeba:881872",
+   "explicacion_breve": "Dos es masculino: à + le = au.",
+   "traduccion": "Me duele la espalda.",
+   "por_opcion": {
+    "au": "Correcta: à + le se contrae siempre en au delante de un masculino.",
+    "à la": "Incorrecta: à la va con sustantivos femeninos; dos es masculino.",
+    "à le": "Incorrecta: la secuencia à le no existe en francés; se contrae obligatoriamente en au."
+   }
+  },
+  {
+   "id": "e06",
+   "tipo": "transformar",
+   "enunciado": "Cambia el sujeto por nous.",
+   "frase": "J'ai peur des chiens.",
+   "respuestas": [
+    "Nous avons peur des chiens."
+   ],
+   "explicacion": "La expresión es avoir peur de (tener miedo de), de la tabla de expresiones. La pista es el nuevo sujeto nous: la primera persona del plural de avoir es avons, con liaison /z/ tras nous (nous‿avons). El resto de la frase no cambia.",
+   "origen": "tatoeba:6580",
+   "explicacion_breve": "Avoir con nous: nous avons.",
+   "traduccion": "Tenemos miedo de los perros.",
+   "errores_previstos": [
+    {
+     "respuesta": "Nous sommes peur des chiens.",
+     "explicacion": "El miedo se expresa con avoir, no con être."
+    },
+    {
+     "respuesta": "Nous avez peur des chiens.",
+     "explicacion": "Avez es la forma de vous; con nous es avons."
+    },
+    {
+     "respuesta": "Nous avons la peur des chiens.",
+     "explicacion": "Estas expresiones van sin artículo: avoir peur."
+    }
+   ]
+  },
+  {
+   "id": "e07",
+   "tipo": "transformar",
+   "enunciado": "Cambia el sujeto por ils.",
+   "frase": "J'ai faim et soif.",
+   "respuestas": [
+    "Ils ont faim et soif."
+   ],
+   "explicacion": "Son las expresiones avoir faim y avoir soif, que comparten el verbo. La pista es el nuevo sujeto ils: la tercera persona del plural es ont, pronunciada con liaison /z/ (ils‿ont), lo que la distingue de ils sont. Faim y soif siguen sin artículo.",
+   "origen": "tatoeba:1710298",
+   "explicacion_breve": "Avoir con ils: ils ont, con liaison /z/.",
+   "traduccion": "Tienen hambre y sed.",
+   "errores_previstos": [
+    {
+     "respuesta": "Ils sont faim et soif.",
+     "explicacion": "Sont es être; el hambre y la sed se tienen: ils ont."
+    },
+    {
+     "respuesta": "Ils a faim et soif.",
+     "explicacion": "A es singular; con ils la forma es ont."
+    },
+    {
+     "respuesta": "Ils ont la faim et la soif.",
+     "explicacion": "Las expresiones con avoir van sin artículo."
+    }
+   ]
+  },
+  {
+   "id": "e08",
+   "tipo": "ordenar",
+   "enunciado": "Ordena las palabras.",
+   "palabras": [
+    "temps",
+    "de",
+    "besoin",
+    "J'ai"
+   ],
+   "respuestas": [
+    "J'ai besoin de temps"
+   ],
+   "explicacion": "Se aplica avoir besoin de + nombre. El orden es J'ai + besoin + de + temps. Ante una cantidad indeterminada (tiempo, en general) no se añade partitivo: se dice besoin de temps, no besoin du temps, porque de ya cumple esa función.",
+   "origen": "tatoeba:2482627",
+   "explicacion_breve": "Avoir besoin de + nombre; ante una cantidad indeterminada no se añade partitivo: besoin de temps.",
+   "traduccion": "Necesito tiempo.",
+   "errores_previstos": [
+    {
+     "respuesta": "J'ai de besoin temps",
+     "explicacion": "La preposición de va entre besoin y el complemento: besoin de temps."
+    },
+    {
+     "respuesta": "J'ai temps de besoin",
+     "explicacion": "Besoin forma parte de la locución y va inmediatamente después del verbo."
+    }
+   ]
+  },
+  {
+   "id": "e09",
+   "tipo": "hueco",
+   "enunciado": "Completa con avoir en presente.",
+   "frase": "J'___ raison, non ?",
+   "respuestas": [
+    "ai"
+   ],
+   "explicacion": "La expresión es avoir raison (tener razón), de la tabla. La pista es el apóstrofo ya escrito: je se elide ante vocal, y la primera persona de avoir es ai, por lo que se escribe j'ai. Solo hay que completar ai.",
+   "origen": "tatoeba:4610255",
+   "explicacion_breve": "Je se apostrofa ante ai: j'ai raison.",
+   "traduccion": "Tengo razón, ¿no?",
+   "errores_previstos": [
+    {
+     "respuesta": "a",
+     "explicacion": "A es la forma de il, elle; con je la forma es ai."
+    },
+    {
+     "respuesta": "suis",
+     "explicacion": "Tener razón es avoir raison, no être; además, j' no se pone delante de una consonante."
+    },
+    {
+     "respuesta": "es",
+     "explicacion": "Es es être en segunda persona; aquí se necesita avoir con je: ai."
+    }
+   ]
+  },
+  {
+   "id": "e10",
+   "tipo": "hueco",
+   "enunciado": "Completa con être en presente.",
+   "frase": "Nous ___ étudiants à Madrid.",
+   "respuestas": [
+    "sommes"
+   ],
+   "explicacion": "Se aplica la tabla de conjugación de être, que expresa identidad o profesión (ser estudiante). La pista es el sujeto nous: la forma es sommes. En francés la profesión o la condición tras être va sin artículo, como en español: nous sommes étudiants.",
+   "explicacion_breve": "Être con nous: nous sommes.",
+   "traduccion": "Somos estudiantes en Madrid.",
+   "errores_previstos": [
+    {
+     "respuesta": "sont",
+     "explicacion": "Sont es la forma de ils, elles; con nous es sommes."
+    },
+    {
+     "respuesta": "avons",
+     "explicacion": "Avons es avoir; para decir qué somos se usa être."
+    },
+    {
+     "respuesta": "êtes",
+     "explicacion": "Êtes corresponde a vous; con nous es sommes."
+    }
+   ]
+  },
+  {
+   "id": "e11",
+   "tipo": "hueco",
+   "enunciado": "Completa con être en presente.",
+   "frase": "Vous ___ d'où ?",
+   "respuestas": [
+    "êtes"
+   ],
+   "explicacion": "Se aplica la conjugación de être, que también expresa el origen (être de). La pista es el sujeto vous: la forma es êtes, con acento circunflejo y liaison /z/ tras vous (vous‿êtes). La pregunta coloquial con d'où al final es muy frecuente en la lengua hablada.",
+   "explicacion_breve": "Être con vous: vous êtes.",
+   "traduccion": "¿De dónde es usted? (¿De dónde sois?)",
+   "errores_previstos": [
+    {
+     "respuesta": "etes",
+     "explicacion": "Falta el acento circunflejo: êtes."
+    },
+    {
+     "respuesta": "avez",
+     "explicacion": "Avez es avoir; el origen se expresa con être de."
+    },
+    {
+     "respuesta": "sont",
+     "explicacion": "Sont corresponde a ils, elles; con vous la forma es êtes."
+    }
+   ]
+  },
+  {
+   "id": "e12",
+   "tipo": "eleccion",
+   "enunciado": "Elige la forma correcta.",
+   "frase": "Mes parents ___ en vacances en Bretagne.",
+   "opciones": [
+    "sont",
+    "ont",
+    "sommes"
+   ],
+   "respuestas": [
+    "sont"
+   ],
+   "explicacion": "Se aplica la idea de la ficha de que être equivale también a estar: estar de vacaciones es être en vacances. La pista es el sujeto mes parents, que equivale a ils, y la expresión en vacances. La tercera del plural de être es sont, sin liaison /z/, a diferencia de ont.",
+   "explicacion_breve": "Estar de vacaciones es être en vacances; ils sont.",
+   "traduccion": "Mis padres están de vacaciones en Bretaña.",
+   "por_opcion": {
+    "sont": "Correcta: être en tercera persona del plural; estar de vacaciones es être en vacances.",
+    "ont": "Incorrecta: ont es avoir; «ils ont en vacances» no tiene sentido.",
+    "sommes": "Incorrecta: sommes es la forma de nous, no de mes parents."
+   }
+  },
+  {
+   "id": "e13",
+   "tipo": "eleccion",
+   "enunciado": "Elige la forma correcta.",
+   "frase": "Mon frère ___ vingt ans.",
+   "opciones": [
+    "a",
+    "est",
+    "as"
+   ],
+   "respuestas": [
+    "a"
+   ],
+   "explicacion": "La tabla de expresiones y los errores típicos de la ficha insisten en que la edad se expresa con avoir: avoir 20 ans. La pista es vingt ans detrás del hueco y el sujeto mon frère (il). La forma es a, como en español «tiene veinte años».",
+   "explicacion_breve": "La edad se expresa con avoir: il a vingt ans.",
+   "traduccion": "Mi hermano tiene veinte años.",
+   "por_opcion": {
+    "a": "Correcta: avoir en tercera persona del singular; la edad se tiene.",
+    "est": "Incorrecta: es el calco de otras lenguas como el inglés; en francés nunca se dice il est vingt ans.",
+    "as": "Incorrecta: as es la forma de tu, no de il."
+   }
+  },
+  {
+   "id": "e14",
+   "tipo": "corregir",
+   "enunciado": "Corrige el error.",
+   "frase": "Je suis vingt-cinq ans.",
+   "respuestas": [
+    "J'ai vingt-cinq ans."
+   ],
+   "explicacion": "Es el primer error típico de la ficha: la edad va con avoir. La pista es vingt-cinq ans, una edad. Al cambiar suis por ai, je se apostrofa ante la vocal: j'ai vingt-cinq ans.",
+   "explicacion_breve": "La edad va con avoir.",
+   "traduccion": "Tengo veinticinco años.",
+   "errores_previstos": [
+    {
+     "respuesta": "Je suis vingt-cinq ans.",
+     "explicacion": "Es la frase sin corregir: la edad no se expresa con être."
+    },
+    {
+     "respuesta": "Je ai vingt-cinq ans.",
+     "explicacion": "Cambia bien el verbo, pero je debe elidirse ante ai: j'ai."
+    },
+    {
+     "respuesta": "J'ai vingt-cinq années.",
+     "explicacion": "Para la edad se usa ans, no années."
+    }
+   ]
+  },
+  {
+   "id": "e15",
+   "tipo": "corregir",
+   "enunciado": "Corrige el error.",
+   "frase": "Elle est faim.",
+   "respuestas": [
+    "Elle a faim."
+   ],
+   "explicacion": "La tabla de expresiones da avoir faim = tener hambre. La pista es faim: es una sensación física y se tiene, no se es. Con elle, la forma de avoir es a: elle a faim.",
+   "explicacion_breve": "Tener hambre es avoir faim.",
+   "traduccion": "Tiene hambre.",
+   "errores_previstos": [
+    {
+     "respuesta": "Elle est faim.",
+     "explicacion": "Es la frase sin corregir: el hambre va con avoir."
+    },
+    {
+     "respuesta": "Elle a la faim.",
+     "explicacion": "Estas expresiones van sin artículo: avoir faim."
+    },
+    {
+     "respuesta": "Elle à faim.",
+     "explicacion": "El verbo a se escribe sin acento; à es la preposición."
+    }
+   ]
+  },
+  {
+   "id": "e16",
+   "tipo": "corregir",
+   "enunciado": "Corrige el error.",
+   "frase": "Tu est fatigué ?",
+   "respuestas": [
+    "Tu es fatigué ?"
+   ],
+   "explicacion": "Se aplica la conjugación de être: con tu la forma es es, mientras que est corresponde a il, elle, on. La pista es el sujeto tu al principio. Ambas formas se pronuncian igual (/ɛ/), por eso el error es solo ortográfico, pero en la escritura es inaceptable.",
+   "explicacion_breve": "Con tu, être hace tu es; est es la forma de il, elle.",
+   "traduccion": "¿Estás cansado?",
+   "errores_previstos": [
+    {
+     "respuesta": "Tu est fatigué ?",
+     "explicacion": "Es la frase sin corregir: est es la forma de la tercera persona."
+    },
+    {
+     "respuesta": "Tu as fatigué ?",
+     "explicacion": "As es avoir; estar cansado es être fatigué."
+    },
+    {
+     "respuesta": "Tu ès fatigué ?",
+     "explicacion": "La forma de être con tu no lleva acento: es."
+    }
+   ]
+  }
  ],
- "fuente": {"nombre": "Tex's French Grammar", "autores": "COERLL, Universidad de Texas en Austin", "licencia": "CC BY 3.0", "url": "https://laits.utexas.edu/tex/gr/virr1.html", "otras": ["Frases de Tatoeba (CC BY 2.0 FR)"]}
+ "fuente": {
+  "nombre": "Tex's French Grammar",
+  "autores": "COERLL, Universidad de Texas en Austin",
+  "licencia": "CC BY 3.0",
+  "url": "https://laits.utexas.edu/tex/gr/virr1.html",
+  "otras": [
+   "Frases de Tatoeba (CC BY 2.0 FR)"
+  ]
+ },
+ "descripcion_larga_es": "Esta ficha presenta los dos verbos más frecuentes del francés: être, que equivale a ser y a estar, y avoir, que equivale a tener y sirve de auxiliar. Son la base de casi cualquier frase y de los tiempos compuestos. Al hispanohablante le cuesta que être no distinga entre ser y estar y que la edad, el hambre o el frío se expresen con avoir, no con être.",
+ "contexto": {
+  "que_es": "Être y avoir son dos verbos irregulares que se conjugan de memoria. Être corresponde a los dos verbos españoles ser y estar (je suis médecin, je suis fatigué, je suis à Madrid). Avoir corresponde a tener y forma muchas expresiones fijas sin artículo: avoir faim, avoir froid, avoir 20 ans, avoir besoin de, avoir mal à.",
+  "por_que_importa": "Aparecen en casi todas las frases y son los auxiliares del passé composé, así que un error con ellos se repite constantemente. Decir je suis 30 ans o je suis faim es uno de los fallos más reconocibles del hispanohablante principiante. Además, ils sont e ils ont solo se distinguen por la liaison /z/, y confundirlos al oído cambia el sentido de la frase.",
+  "cuando_se_usa": "Être se usa para la identidad, la profesión, la nacionalidad, los estados y la localización; avoir, para la posesión, la edad y las sensaciones físicas (hambre, sed, sueño, calor, frío, miedo, dolor). La señal útil es pensar en el español: si dirías «tener» (tengo hambre, tengo veinte años), en francés va avoir; si dirías «ser» o «estar», va être."
+ }
 }

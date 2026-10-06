@@ -6,53 +6,492 @@
  "nivel": "A2",
  "resumen": "Pouvoir, vouloir y devoir se construyen directamente con un infinitivo, sin preposición: Je dois partir (tengo que irme). Son irregulares y su raíz cambia en todas las personas salvo nous y vous.",
  "explicacion": [
-  {"tipo": "tabla", "cabecera": ["Persona", "pouvoir", "vouloir", "devoir"], "filas": [
-   ["je", "peux", "veux", "dois"],
-   ["tu", "peux", "veux", "dois"],
-   ["il, elle, on", "peut", "veut", "doit"],
-   ["nous", "pouvons", "voulons", "devons"],
-   ["vous", "pouvez", "voulez", "devez"],
-   ["ils, elles", "peuvent", "veulent", "doivent"],
-   ["participio", "pu", "voulu", "dû"]
-  ]},
-  {"tipo": "lista", "items": [
-   "pouvoir: posibilidad o permiso. Je peux entrer ? (¿Puedo entrar?)",
-   "vouloir: deseo o voluntad. Je veux partir. Vouloir bien = aceptar de buen grado: Oui, je veux bien (sí, con mucho gusto).",
-   "devoir + infinitivo: obligación (Je dois travailler = tengo que trabajar) o probabilidad (Il doit être malade = debe de estar enfermo).",
-   "devoir + nombre: deber dinero o algo. Je te dois dix euros."
-  ]},
-  {"tipo": "texto", "texto": "Diferencias con el español: nunca se pone preposición entre el modal y el infinitivo (je dois partir, no «je dois de partir» ni «à partir»). «Tener que» se dice devoir o il faut, no «avoir que». Y la capacidad aprendida se expresa con savoir, no con pouvoir: Je sais nager (sé nadar) frente a Je ne peux pas nager aujourd'hui (hoy no puedo nadar)."},
-  {"tipo": "texto", "texto": "Los pronombres complemento van delante del infinitivo, no del modal: Je peux le faire (puedo hacerlo / lo puedo hacer). La negación rodea al modal: Je ne peux pas venir. En condicional suenan más corteses: Je voudrais un café, Pourriez-vous m'aider ?, Tu devrais te reposer (deberías descansar)."}
+  {
+   "tipo": "tabla",
+   "cabecera": [
+    "Persona",
+    "pouvoir",
+    "vouloir",
+    "devoir"
+   ],
+   "filas": [
+    [
+     "je",
+     "peux",
+     "veux",
+     "dois"
+    ],
+    [
+     "tu",
+     "peux",
+     "veux",
+     "dois"
+    ],
+    [
+     "il, elle, on",
+     "peut",
+     "veut",
+     "doit"
+    ],
+    [
+     "nous",
+     "pouvons",
+     "voulons",
+     "devons"
+    ],
+    [
+     "vous",
+     "pouvez",
+     "voulez",
+     "devez"
+    ],
+    [
+     "ils, elles",
+     "peuvent",
+     "veulent",
+     "doivent"
+    ],
+    [
+     "participio",
+     "pu",
+     "voulu",
+     "dû"
+    ]
+   ]
+  },
+  {
+   "tipo": "lista",
+   "items": [
+    "pouvoir: posibilidad o permiso. Je peux entrer ? (¿Puedo entrar?)",
+    "vouloir: deseo o voluntad. Je veux partir. Vouloir bien = aceptar de buen grado: Oui, je veux bien (sí, con mucho gusto).",
+    "devoir + infinitivo: obligación (Je dois travailler = tengo que trabajar) o probabilidad (Il doit être malade = debe de estar enfermo).",
+    "devoir + nombre: deber dinero o algo. Je te dois dix euros."
+   ]
+  },
+  {
+   "tipo": "texto",
+   "texto": "Diferencias con el español: nunca se pone preposición entre el modal y el infinitivo (je dois partir, no «je dois de partir» ni «à partir»). «Tener que» se dice devoir o il faut, no «avoir que». Y la capacidad aprendida se expresa con savoir, no con pouvoir: Je sais nager (sé nadar) frente a Je ne peux pas nager aujourd'hui (hoy no puedo nadar)."
+  },
+  {
+   "tipo": "texto",
+   "texto": "Los pronombres complemento van delante del infinitivo, no del modal: Je peux le faire (puedo hacerlo / lo puedo hacer). La negación rodea al modal: Je ne peux pas venir. En condicional suenan más corteses: Je voudrais un café, Pourriez-vous m'aider ?, Tu devrais te reposer (deberías descansar)."
+  }
  ],
  "ejemplos": [
-  {"frase": "Je peux avoir un reçu ?", "traduccion": "¿Me puede dar un recibo?"},
-  {"frase": "Nous devons partir tôt.", "traduccion": "Tenemos que salir temprano."},
-  {"frase": "Je veux aller à Paris.", "traduccion": "Quiero ir a París."},
-  {"frase": "Le dîner peut attendre.", "traduccion": "La cena puede esperar."},
-  {"frase": "Tu dois cesser de fumer.", "traduccion": "Tienes que dejar de fumar."},
-  {"frase": "Il n'est pas là ? Il doit être malade.", "traduccion": "¿No está? Debe de estar enfermo."}
+  {
+   "frase": "Je peux avoir un reçu ?",
+   "traduccion": "¿Me puede dar un recibo?"
+  },
+  {
+   "frase": "Nous devons partir tôt.",
+   "traduccion": "Tenemos que salir temprano."
+  },
+  {
+   "frase": "Je veux aller à Paris.",
+   "traduccion": "Quiero ir a París."
+  },
+  {
+   "frase": "Le dîner peut attendre.",
+   "traduccion": "La cena puede esperar."
+  },
+  {
+   "frase": "Tu dois cesser de fumer.",
+   "traduccion": "Tienes que dejar de fumar."
+  },
+  {
+   "frase": "Il n'est pas là ? Il doit être malade.",
+   "traduccion": "¿No está? Debe de estar enfermo."
+  }
  ],
  "errores_hispanohablantes": [
-  {"mal": "J'ai que partir.", "bien": "Je dois partir.", "nota": "«Tener que» no se calca: se dice devoir (o il faut partir)."},
-  {"mal": "Je le peux faire.", "bien": "Je peux le faire.", "nota": "El pronombre va delante del infinitivo del que es complemento."},
-  {"mal": "Je ne peux pas nager, je n'ai jamais appris.", "bien": "Je ne sais pas nager, je n'ai jamais appris.", "nota": "Una habilidad aprendida se expresa con savoir."}
+  {
+   "mal": "J'ai que partir.",
+   "bien": "Je dois partir.",
+   "nota": "«Tener que» no se calca: se dice devoir (o il faut partir)."
+  },
+  {
+   "mal": "Je le peux faire.",
+   "bien": "Je peux le faire.",
+   "nota": "El pronombre va delante del infinitivo del que es complemento."
+  },
+  {
+   "mal": "Je ne peux pas nager, je n'ai jamais appris.",
+   "bien": "Je ne sais pas nager, je n'ai jamais appris.",
+   "nota": "Una habilidad aprendida se expresa con savoir."
+  }
  ],
  "ejercicios": [
-  {"id": "e01", "tipo": "hueco", "enunciado": "Conjuga el verbo en presente.", "frase": "Je ___ entrer ? (pouvoir)", "respuestas": ["peux"], "explicacion": "Pouvoir: je peux.", "origen": "tatoeba:431328"},
-  {"id": "e02", "tipo": "hueco", "enunciado": "Conjuga el verbo en presente.", "frase": "Nous ___ partir tôt. (devoir)", "respuestas": ["devons"], "explicacion": "Devoir: nous devons (la raíz no cambia con nous).", "origen": "tatoeba:5344163"},
-  {"id": "e03", "tipo": "hueco", "enunciado": "Conjuga el verbo en presente.", "frase": "Tom ___ être célèbre. (vouloir)", "respuestas": ["veut"], "explicacion": "Vouloir: il veut.", "origen": "tatoeba:13023314"},
-  {"id": "e04", "tipo": "hueco", "enunciado": "Conjuga el verbo en presente.", "frase": "Ils ne ___ pas venir demain. (pouvoir)", "respuestas": ["peuvent"], "explicacion": "Pouvoir: ils peuvent."},
-  {"id": "e05", "tipo": "hueco", "enunciado": "Conjuga el verbo en presente.", "frase": "Vous ___ remplir ce formulaire. (devoir)", "respuestas": ["devez"], "explicacion": "Devoir: vous devez."},
-  {"id": "e06", "tipo": "eleccion", "enunciado": "Elige la forma correcta.", "frase": "Tu ___ cesser de fumer.", "opciones": ["dois", "doit", "devez"], "respuestas": ["dois"], "explicacion": "Devoir: tu dois.", "origen": "tatoeba:427375"},
-  {"id": "e07", "tipo": "eleccion", "enunciado": "Elige la forma correcta.", "frase": "Mes parents ___ acheter une maison.", "opciones": ["veulent", "voulent", "veut"], "respuestas": ["veulent"], "explicacion": "Vouloir: ils veulent (raíz veul- en la 3.ª persona del plural)."},
-  {"id": "e08", "tipo": "eleccion", "enunciado": "Elige el verbo adecuado.", "frase": "Je ne ___ pas nager : je n'ai jamais appris.", "opciones": ["sais", "peux"], "respuestas": ["sais"], "explicacion": "Una habilidad aprendida se expresa con savoir."},
-  {"id": "e09", "tipo": "eleccion", "enunciado": "Elige el verbo adecuado.", "frase": "Je ne ___ pas sortir ce soir : j'ai trop de travail.", "opciones": ["peux", "sais"], "respuestas": ["peux"], "explicacion": "Se trata de posibilidad, no de habilidad: pouvoir."},
-  {"id": "e10", "tipo": "hueco", "enunciado": "Completa con devoir (probabilidad).", "frase": "Le ciel est très gris : il ___ pleuvoir demain.", "respuestas": ["doit"], "explicacion": "Devoir + infinitivo puede expresar probabilidad: debe de llover.", "origen": "tatoeba:7556750"},
-  {"id": "e11", "tipo": "corregir", "enunciado": "Corrige el error.", "frase": "Je veux de aller à Paris.", "respuestas": ["Je veux aller à Paris."], "explicacion": "Vouloir + infinitivo, sin preposición.", "origen": "tatoeba:7960202"},
-  {"id": "e12", "tipo": "corregir", "enunciado": "Corrige el error.", "frase": "Je le peux faire.", "respuestas": ["Je peux le faire."], "explicacion": "El pronombre complemento va delante del infinitivo."},
-  {"id": "e13", "tipo": "transformar", "enunciado": "Haz la petición más cortés usando el condicional.", "frase": "Je veux un café.", "respuestas": ["Je voudrais un café."], "explicacion": "Je voudrais es la forma cortés de pedir."},
-  {"id": "e14", "tipo": "transformar", "enunciado": "Pon la frase en negativa.", "frase": "Je peux venir demain.", "respuestas": ["Je ne peux pas venir demain."], "explicacion": "Ne… pas rodea al verbo conjugado (el modal).", "origen": "tatoeba:421763"},
-  {"id": "e15", "tipo": "ordenar", "enunciado": "Ordena las palabras (tengo que encontrar la llave).", "palabras": ["dois", "trouver", "Je", "clé", "la"], "respuestas": ["Je dois trouver la clé"], "explicacion": "Devoir + infinitivo directamente.", "origen": "tatoeba:5452342"}
+  {
+   "id": "e01",
+   "tipo": "hueco",
+   "enunciado": "Conjuga el verbo en presente.",
+   "frase": "Je ___ entrer ? (pouvoir)",
+   "respuestas": [
+    "peux"
+   ],
+   "explicacion": "Se aplica la tabla de conjugación de pouvoir: en presente, je peux. La pista es el sujeto je y la idea de pedir permiso, que la ficha asigna a pouvoir. La forma termina en -x, igual que tu peux. Pouvoir va seguido directamente del infinitivo entrer, sin preposición.",
+   "origen": "tatoeba:431328",
+   "explicacion_breve": "Pouvoir: je peux.",
+   "traduccion": "¿Puedo entrar?",
+   "errores_previstos": [
+    {
+     "respuesta": "peut",
+     "explicacion": "Es la forma de il, elle, on; con je es peux."
+    },
+    {
+     "respuesta": "puis",
+     "explicacion": "Puis-je existe, pero solo en la pregunta con inversión y registro formal; con je delante, el presente es peux."
+    },
+    {
+     "respuesta": "pouve",
+     "explicacion": "No existe; se ha regularizado el verbo. La forma es peux."
+    }
+   ]
+  },
+  {
+   "id": "e02",
+   "tipo": "hueco",
+   "enunciado": "Conjuga el verbo en presente.",
+   "frase": "Nous ___ partir tôt. (devoir)",
+   "respuestas": [
+    "devons"
+   ],
+   "explicacion": "La ficha recuerda que la raíz de los modales cambia en todas las personas salvo nous y vous. Con nous, devoir conserva la raíz del infinitivo: nous devons. La pista es el sujeto nous y el infinitivo partir, que sigue sin preposición. Expresa obligación, como «tener que».",
+   "origen": "tatoeba:5344163",
+   "explicacion_breve": "Devoir: nous devons (la raíz no cambia con nous).",
+   "traduccion": "Tenemos que salir pronto.",
+   "errores_previstos": [
+    {
+     "respuesta": "doivons",
+     "explicacion": "Se ha usado la raíz doiv- de ils doivent; con nous la raíz es dev-: devons."
+    },
+    {
+     "respuesta": "devez",
+     "explicacion": "Es la forma de vous; con nous la terminación es -ons."
+    }
+   ]
+  },
+  {
+   "id": "e03",
+   "tipo": "hueco",
+   "enunciado": "Conjuga el verbo en presente.",
+   "frase": "Tom ___ être célèbre. (vouloir)",
+   "respuestas": [
+    "veut"
+   ],
+   "explicacion": "Se aplica la tabla de vouloir: con un sujeto de tercera persona del singular, il veut. La pista es el sujeto Tom, equivalente a il. Vouloir expresa deseo o voluntad y va seguido directamente del infinitivo être. La forma termina en -t, frente a je veux y tu veux, que terminan en -x.",
+   "origen": "tatoeba:13023314",
+   "explicacion_breve": "Vouloir: il veut.",
+   "traduccion": "Tom quiere ser famoso.",
+   "errores_previstos": [
+    {
+     "respuesta": "veux",
+     "explicacion": "Es la forma de je y tu; con un sujeto de tercera persona es veut."
+    },
+    {
+     "respuesta": "voule",
+     "explicacion": "No existe; vouloir es irregular y en tercera persona del singular es veut."
+    }
+   ]
+  },
+  {
+   "id": "e04",
+   "tipo": "hueco",
+   "enunciado": "Conjuga el verbo en presente.",
+   "frase": "Ils ne ___ pas venir demain. (pouvoir)",
+   "respuestas": [
+    "peuvent"
+   ],
+   "explicacion": "Se aplica la tabla de pouvoir: con ils, la raíz es peuv- y la terminación -ent, ils peuvent. La pista es el sujeto plural ils. La negación ne… pas rodea al modal, que es el verbo conjugado, como indica la ficha. El infinitivo venir queda detrás de pas.",
+   "explicacion_breve": "Pouvoir: ils peuvent.",
+   "traduccion": "No pueden venir mañana.",
+   "errores_previstos": [
+    {
+     "respuesta": "peut",
+     "explicacion": "Es la forma singular; con ils hace falta el plural: peuvent."
+    },
+    {
+     "respuesta": "pouvent",
+     "explicacion": "En la tercera persona del plural la raíz es peuv-, no pouv-: peuvent."
+    }
+   ]
+  },
+  {
+   "id": "e05",
+   "tipo": "hueco",
+   "enunciado": "Conjuga el verbo en presente.",
+   "frase": "Vous ___ remplir ce formulaire. (devoir)",
+   "respuestas": [
+    "devez"
+   ],
+   "explicacion": "Con vous, devoir mantiene la raíz del infinitivo, como con nous: vous devez. La pista es el sujeto vous. El verbo expresa obligación y va seguido del infinitivo remplir sin preposición. La terminación -ez es la de casi todos los verbos con vous.",
+   "explicacion_breve": "Devoir: vous devez.",
+   "traduccion": "Tienen que rellenar este formulario.",
+   "errores_previstos": [
+    {
+     "respuesta": "doivez",
+     "explicacion": "Con vous la raíz no cambia: devez, no doivez."
+    },
+    {
+     "respuesta": "devons",
+     "explicacion": "Es la forma de nous; con vous termina en -ez."
+    }
+   ]
+  },
+  {
+   "id": "e06",
+   "tipo": "eleccion",
+   "enunciado": "Elige la forma correcta.",
+   "frase": "Tu ___ cesser de fumer.",
+   "opciones": [
+    "dois",
+    "doit",
+    "devez"
+   ],
+   "respuestas": [
+    "dois"
+   ],
+   "explicacion": "Se aplica la tabla de devoir: con tu, la forma es dois, terminada en -s, igual que je dois. La pista es el sujeto tu. Doit corresponde a il y devez a vous. El sentido es de obligación o consejo firme: «tienes que».",
+   "origen": "tatoeba:427375",
+   "explicacion_breve": "Devoir: tu dois.",
+   "traduccion": "Tienes que dejar de fumar.",
+   "por_opcion": {
+    "dois": "Correcta: segunda persona del singular de devoir en presente.",
+    "doit": "Es la forma de il, elle, on; con tu termina en -s.",
+    "devez": "Es la forma de vous; no concuerda con tu."
+   }
+  },
+  {
+   "id": "e07",
+   "tipo": "eleccion",
+   "enunciado": "Elige la forma correcta.",
+   "frase": "Mes parents ___ acheter une maison.",
+   "opciones": [
+    "veulent",
+    "voulent",
+    "veut"
+   ],
+   "respuestas": [
+    "veulent"
+   ],
+   "explicacion": "Se aplica la tabla de vouloir: en la tercera persona del plural la raíz es veul-, ils veulent. La pista es el sujeto plural mes parents, equivalente a ils. Voulent no existe porque la raíz voul- solo aparece con nous y vous. Veut sería singular.",
+   "explicacion_breve": "Vouloir: ils veulent (raíz veul- en la 3.ª persona del plural).",
+   "traduccion": "Mis padres quieren comprar una casa.",
+   "por_opcion": {
+    "veulent": "Correcta: tercera persona del plural, con la raíz veul-.",
+    "voulent": "No existe: mezcla la raíz de nous y vous (voul-) con la terminación de ils; es un error de regularización.",
+    "veut": "Es la tercera persona del singular; no concuerda con mes parents."
+   }
+  },
+  {
+   "id": "e08",
+   "tipo": "eleccion",
+   "enunciado": "Elige el verbo adecuado.",
+   "frase": "Je ne ___ pas nager : je n'ai jamais appris.",
+   "opciones": [
+    "sais",
+    "peux"
+   ],
+   "respuestas": [
+    "sais"
+   ],
+   "explicacion": "La ficha distingue entre pouvoir, posibilidad, y savoir, capacidad aprendida. La pista es «je n'ai jamais appris», que indica que se trata de una habilidad que no se ha adquirido. Por eso se usa savoir: je ne sais pas nager. Je ne peux pas nager significaría que hoy no es posible, por ejemplo por una lesión.",
+   "explicacion_breve": "Una habilidad aprendida se expresa con savoir.",
+   "traduccion": "No sé nadar: nunca he aprendido.",
+   "por_opcion": {
+    "sais": "Correcta: savoir + infinitivo expresa una habilidad aprendida, como «saber nadar».",
+    "peux": "Expresaría imposibilidad circunstancial (estoy lesionado, la piscina está cerrada), no falta de aprendizaje."
+   }
+  },
+  {
+   "id": "e09",
+   "tipo": "eleccion",
+   "enunciado": "Elige el verbo adecuado.",
+   "frase": "Je ne ___ pas sortir ce soir : j'ai trop de travail.",
+   "opciones": [
+    "peux",
+    "sais"
+   ],
+   "respuestas": [
+    "peux"
+   ],
+   "explicacion": "Es el caso contrario al anterior: la ficha reserva pouvoir para la posibilidad y savoir para la habilidad. La pista es «j'ai trop de travail», una circunstancia que impide salir. Salir no es una habilidad que se aprenda, así que savoir no tiene sentido. Je ne peux pas sortir equivale a «no puedo salir».",
+   "explicacion_breve": "Se trata de posibilidad, no de habilidad: pouvoir.",
+   "traduccion": "No puedo salir esta noche: tengo demasiado trabajo.",
+   "por_opcion": {
+    "peux": "Correcta: expresa que una circunstancia impide hacer algo.",
+    "sais": "Indicaría que no se sabe salir, como si fuera una habilidad aprendida; no tiene sentido aquí."
+   }
+  },
+  {
+   "id": "e10",
+   "tipo": "hueco",
+   "enunciado": "Completa con devoir (probabilidad).",
+   "frase": "Le ciel est très gris : il ___ pleuvoir demain.",
+   "respuestas": [
+    "doit",
+    "devrait"
+   ],
+   "explicacion": "La ficha explica que devoir + infinitivo expresa obligación o probabilidad. La pista es «le ciel est très gris», un indicio que permite suponer: il doit pleuvoir, «debe de llover». Con un verbo impersonal como pleuvoir, el sujeto es il y la forma es doit. Con un marcador de futuro como demain, la frase se entiende también como «está previsto que llueva». También se acepta il devrait pleuvoir, en condicional, que expresa la misma probabilidad con más prudencia («debería llover»).",
+   "origen": "tatoeba:7556750",
+   "explicacion_breve": "Devoir + infinitivo puede expresar probabilidad: debe de llover (devrait, más prudente: debería llover).",
+   "traduccion": "El cielo está muy gris: mañana debe de llover.",
+   "errores_previstos": [
+    {
+     "respuesta": "va",
+     "explicacion": "Il va pleuvoir es correcto en francés, pero el enunciado pide devoir para expresar probabilidad: doit."
+    },
+    {
+     "respuesta": "dois",
+     "explicacion": "Es la forma de je y tu; con il es doit."
+    }
+   ]
+  },
+  {
+   "id": "e11",
+   "tipo": "corregir",
+   "enunciado": "Corrige el error.",
+   "frase": "Je veux de aller à Paris.",
+   "respuestas": [
+    "Je veux aller à Paris."
+   ],
+   "explicacion": "La ficha insiste en que nunca se pone preposición entre el modal y el infinitivo. El error es de, calcado quizá de estructuras como «tener ganas de». Basta con suprimirla: je veux aller. Lo mismo vale para pouvoir y devoir.",
+   "origen": "tatoeba:7960202",
+   "explicacion_breve": "Vouloir + infinitivo, sin preposición.",
+   "traduccion": "Quiero ir a París.",
+   "errores_previstos": [
+    {
+     "respuesta": "Je veux de aller à Paris.",
+     "explicacion": "Es la frase sin corregir: vouloir va seguido directamente del infinitivo."
+    },
+    {
+     "respuesta": "Je veux d'aller à Paris.",
+     "explicacion": "Elidir la preposición no la arregla: vouloir no lleva preposición."
+    },
+    {
+     "respuesta": "Je veux à aller à Paris.",
+     "explicacion": "Vouloir tampoco lleva à; el infinitivo va directamente detrás."
+    }
+   ]
+  },
+  {
+   "id": "e12",
+   "tipo": "corregir",
+   "enunciado": "Corrige el error.",
+   "frase": "Je le peux faire.",
+   "respuestas": [
+    "Je peux le faire."
+   ],
+   "explicacion": "La ficha indica que los pronombres complemento van delante del infinitivo del que dependen, no del modal. Le es complemento de faire, así que se coloca entre peux y faire: je peux le faire. El español admite «lo puedo hacer» y «puedo hacerlo», pero el francés moderno solo la segunda posición. La pista es que le no depende de pouvoir.",
+   "explicacion_breve": "El pronombre complemento va delante del infinitivo.",
+   "traduccion": "Puedo hacerlo.",
+   "errores_previstos": [
+    {
+     "respuesta": "Je le peux faire.",
+     "explicacion": "Es la frase sin corregir: calca «lo puedo hacer»; el pronombre va delante del infinitivo."
+    },
+    {
+     "respuesta": "Je peux faire le.",
+     "explicacion": "El pronombre complemento va delante del infinitivo, no detrás."
+    }
+   ]
+  },
+  {
+   "id": "e13",
+   "tipo": "transformar",
+   "enunciado": "Haz la petición más cortés usando el condicional.",
+   "frase": "Je veux un café.",
+   "respuestas": [
+    "Je voudrais un café."
+   ],
+   "explicacion": "La ficha señala que los modales en condicional suenan más corteses: je voudrais es la fórmula habitual para pedir. Se forma con la raíz del futuro, voudr-, y la terminación -ais. La pista es el enunciado, que pide cortesía. En una tienda o cafetería, je veux suena brusco.",
+   "explicacion_breve": "Je voudrais es la forma cortés de pedir.",
+   "traduccion": "Querría un café.",
+   "errores_previstos": [
+    {
+     "respuesta": "Je voudrai un café.",
+     "explicacion": "Voudrai es futuro; el condicional de je termina en -ais: voudrais."
+    },
+    {
+     "respuesta": "Je voulais un café.",
+     "explicacion": "Es el imperfecto; se usa a veces como atenuación, pero la fórmula cortés que pide el ejercicio es el condicional voudrais."
+    },
+    {
+     "respuesta": "Je vouldrais un café.",
+     "explicacion": "La raíz del condicional es voudr-, sin l."
+    }
+   ]
+  },
+  {
+   "id": "e14",
+   "tipo": "transformar",
+   "enunciado": "Pon la frase en negativa.",
+   "frase": "Je peux venir demain.",
+   "respuestas": [
+    "Je ne peux pas venir demain."
+   ],
+   "explicacion": "La ficha indica que la negación rodea al modal, que es el verbo conjugado: ne delante de peux y pas detrás. El infinitivo venir queda fuera de la negación. Ne no se elide aquí porque peux empieza por consonante. Por escrito ne es obligatorio, aunque en el habla se omita.",
+   "origen": "tatoeba:421763",
+   "explicacion_breve": "Ne… pas rodea al verbo conjugado (el modal).",
+   "traduccion": "No puedo venir mañana.",
+   "errores_previstos": [
+    {
+     "respuesta": "Je peux ne pas venir demain.",
+     "explicacion": "Así se niega el infinitivo y cambia el sentido: «puedo no venir». La negación debe rodear al modal."
+    },
+    {
+     "respuesta": "Je ne peux venir pas demain.",
+     "explicacion": "Pas va justo detrás del verbo conjugado, antes del infinitivo."
+    },
+    {
+     "respuesta": "Je peux pas venir demain.",
+     "explicacion": "Es la forma oral; por escrito hay que poner ne: je ne peux pas."
+    }
+   ]
+  },
+  {
+   "id": "e15",
+   "tipo": "ordenar",
+   "enunciado": "Ordena las palabras (tengo que encontrar la llave).",
+   "palabras": [
+    "dois",
+    "trouver",
+    "Je",
+    "clé",
+    "la"
+   ],
+   "respuestas": [
+    "Je dois trouver la clé"
+   ],
+   "explicacion": "Se aplica la regla de devoir + infinitivo sin preposición para expresar obligación, el equivalente de «tener que». El orden es sujeto, modal conjugado, infinitivo y complemento: je dois trouver la clé. La ficha advierte que «tener que» nunca se calca con avoir que. La clé es femenino, de ahí la.",
+   "origen": "tatoeba:5452342",
+   "explicacion_breve": "Devoir + infinitivo directamente.",
+   "traduccion": "Tengo que encontrar la llave.",
+   "errores_previstos": [
+    {
+     "respuesta": "Je trouver dois la clé",
+     "explicacion": "El verbo conjugado dois va antes que el infinitivo."
+    },
+    {
+     "respuesta": "Je dois la clé trouver",
+     "explicacion": "El complemento va detrás del infinitivo, no entre el modal y el infinitivo."
+    }
+   ]
+  }
  ],
- "fuente": {"nombre": "Tex's French Grammar", "autores": "COERLL, Universidad de Texas en Austin", "licencia": "CC BY 3.0", "url": "https://laits.utexas.edu/tex/gr/vm1.html", "otras": ["Frases de Tatoeba (CC BY 2.0 FR)"]}
+ "fuente": {
+  "nombre": "Tex's French Grammar",
+  "autores": "COERLL, Universidad de Texas en Austin",
+  "licencia": "CC BY 3.0",
+  "url": "https://laits.utexas.edu/tex/gr/vm1.html",
+  "otras": [
+   "Frases de Tatoeba (CC BY 2.0 FR)"
+  ]
+ },
+ "descripcion_larga_es": "Pouvoir, vouloir y devoir son los verbos modales del francés: expresan posibilidad o permiso, deseo y obligación o probabilidad, y van seguidos directamente de un infinitivo. Son de los verbos más frecuentes y muy irregulares. Al hispanohablante le cuestan porque tiende a calcar «tener que», a poner preposiciones y a usar pouvoir donde el francés exige savoir.",
+ "contexto": {
+  "que_es": "Los modales son verbos que matizan la acción de otro verbo en infinitivo: pouvoir indica posibilidad o permiso, vouloir deseo o voluntad, y devoir obligación o probabilidad. Se construyen sin preposición (je peux venir) y su raíz cambia en casi todas las personas salvo nous y vous.",
+  "por_que_importa": "Aparecen en casi cualquier conversación: pedir permiso, expresar un deseo, decir lo que hay que hacer o suponer algo. Su forma condicional (je voudrais, pourriez-vous, tu devrais) es la base de la cortesía en francés. Confundir pouvoir y savoir o calcar «tener que» produce errores muy visibles en un examen.",
+  "cuando_se_usa": "Cada vez que se pide algo, se ofrece ayuda, se pide permiso, se expresa una obligación o una suposición. La señal es un infinitivo que depende de un verbo conjugado con idea de poder, querer o deber. El hispanohablante debe recordar que «tener que» es devoir o il faut, y que una habilidad aprendida («sé nadar») se dice con savoir."
+ }
 }

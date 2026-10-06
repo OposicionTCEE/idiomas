@@ -6,49 +6,467 @@
  "nivel": "A1",
  "resumen": "El present simple expresa hábitos, rutinas, gustos y hechos que son siempre verdad. En tercera persona del singular el verbo añade -s, y las preguntas y negaciones se forman con do o does.",
  "explicacion": [
-  {"tipo": "texto", "texto": "Se usa para lo que hacemos habitualmente (I work from nine to five), para gustos y opiniones (She likes jazz) y para hechos generales (Water boils at 100 degrees). Suele ir con adverbios de frecuencia: always, usually, often, sometimes, never."},
-  {"tipo": "tabla", "cabecera": ["Forma", "I / you / we / they", "he / she / it"], "filas": [
-   ["Afirmativa", "I play tennis.", "She plays tennis."],
-   ["Negativa", "I don't play tennis.", "She doesn't play tennis."],
-   ["Pregunta", "Do you play tennis?", "Does she play tennis?"],
-   ["Respuesta corta", "Yes, I do. / No, I don't.", "Yes, she does. / No, she doesn't."]
-  ]},
-  {"tipo": "lista", "items": [
-   "Ortografía de la -s: la mayoría añade -s (works); tras -s, -sh, -ch, -x, -o se añade -es (watches, goes); consonante + y cambia a -ies (studies).",
-   "Have es irregular: he has.",
-   "Con does y doesn't el verbo vuelve a la forma base: Does he work? (no «Does he works?»).",
-   "Los adverbios de frecuencia van antes del verbo principal (I often walk) pero después de to be (I am often late)."
-  ]}
+  {
+   "tipo": "texto",
+   "texto": "Se usa para lo que hacemos habitualmente (I work from nine to five), para gustos y opiniones (She likes jazz) y para hechos generales (Water boils at 100 degrees). Suele ir con adverbios de frecuencia: always, usually, often, sometimes, never."
+  },
+  {
+   "tipo": "tabla",
+   "cabecera": [
+    "Forma",
+    "I / you / we / they",
+    "he / she / it"
+   ],
+   "filas": [
+    [
+     "Afirmativa",
+     "I play tennis.",
+     "She plays tennis."
+    ],
+    [
+     "Negativa",
+     "I don't play tennis.",
+     "She doesn't play tennis."
+    ],
+    [
+     "Pregunta",
+     "Do you play tennis?",
+     "Does she play tennis?"
+    ],
+    [
+     "Respuesta corta",
+     "Yes, I do. / No, I don't.",
+     "Yes, she does. / No, she doesn't."
+    ]
+   ]
+  },
+  {
+   "tipo": "lista",
+   "items": [
+    "Ortografía de la -s: la mayoría añade -s (works); tras -s, -sh, -ch, -x, -o se añade -es (watches, goes); consonante + y cambia a -ies (studies).",
+    "Have es irregular: he has.",
+    "Con does y doesn't el verbo vuelve a la forma base: Does he work? (no «Does he works?»).",
+    "Los adverbios de frecuencia van antes del verbo principal (I often walk) pero después de to be (I am often late)."
+   ]
+  }
  ],
  "ejemplos": [
-  {"frase": "I get up at seven every day.", "traduccion": "Me levanto a las siete todos los días."},
-  {"frase": "My sister lives in Bilbao.", "traduccion": "Mi hermana vive en Bilbao."},
-  {"frase": "We don't eat meat.", "traduccion": "No comemos carne."},
-  {"frase": "Does the bus stop here?", "traduccion": "¿Para aquí el autobús?"},
-  {"frase": "He usually watches the news after dinner.", "traduccion": "Normalmente ve las noticias después de cenar."},
-  {"frase": "The shop opens at nine.", "traduccion": "La tienda abre a las nueve."}
+  {
+   "frase": "I get up at seven every day.",
+   "traduccion": "Me levanto a las siete todos los días."
+  },
+  {
+   "frase": "My sister lives in Bilbao.",
+   "traduccion": "Mi hermana vive en Bilbao."
+  },
+  {
+   "frase": "We don't eat meat.",
+   "traduccion": "No comemos carne."
+  },
+  {
+   "frase": "Does the bus stop here?",
+   "traduccion": "¿Para aquí el autobús?"
+  },
+  {
+   "frase": "He usually watches the news after dinner.",
+   "traduccion": "Normalmente ve las noticias después de cenar."
+  },
+  {
+   "frase": "The shop opens at nine.",
+   "traduccion": "La tienda abre a las nueve."
+  }
  ],
  "errores_hispanohablantes": [
-  {"mal": "She work in a bank.", "bien": "She works in a bank.", "nota": "En tercera persona del singular el verbo lleva -s."},
-  {"mal": "Does he speaks French?", "bien": "Does he speak French?", "nota": "Con does el verbo va en forma base: la -s ya está en does."},
-  {"mal": "I no like coffee.", "bien": "I don't like coffee.", "nota": "La negación se forma con don't o doesn't, no con no."},
-  {"mal": "Where you live?", "bien": "Where do you live?", "nota": "Las preguntas necesitan el auxiliar do/does."}
+  {
+   "mal": "She work in a bank.",
+   "bien": "She works in a bank.",
+   "nota": "En tercera persona del singular el verbo lleva -s."
+  },
+  {
+   "mal": "Does he speaks French?",
+   "bien": "Does he speak French?",
+   "nota": "Con does el verbo va en forma base: la -s ya está en does."
+  },
+  {
+   "mal": "I no like coffee.",
+   "bien": "I don't like coffee.",
+   "nota": "La negación se forma con don't o doesn't, no con no."
+  },
+  {
+   "mal": "Where you live?",
+   "bien": "Where do you live?",
+   "nota": "Las preguntas necesitan el auxiliar do/does."
+  }
  ],
  "ejercicios": [
-  {"id": "e01", "tipo": "hueco", "enunciado": "Completa con el verbo en present simple.", "frase": "My father ___ (work) in a hospital.", "respuestas": ["works"], "explicacion": "Tercera persona del singular: work + s."},
-  {"id": "e02", "tipo": "hueco", "enunciado": "Completa con el verbo en present simple.", "frase": "She ___ (watch) TV every evening.", "respuestas": ["watches"], "explicacion": "Los verbos acabados en -ch añaden -es."},
-  {"id": "e03", "tipo": "hueco", "enunciado": "Completa con el verbo en present simple.", "frase": "Tom ___ (study) English at night.", "respuestas": ["studies"], "explicacion": "Consonante + y cambia a -ies."},
-  {"id": "e04", "tipo": "hueco", "enunciado": "Completa con do, does, don't o doesn't.", "frase": "___ your children like vegetables?", "respuestas": ["Do"], "explicacion": "Your children equivale a they: la pregunta lleva do."},
-  {"id": "e05", "tipo": "hueco", "enunciado": "Completa con la forma negativa (contraída).", "frase": "My cat ___ (not / like) water.", "respuestas": ["doesn't like", "does not like"], "explicacion": "Tercera persona: doesn't + forma base."},
-  {"id": "e06", "tipo": "eleccion", "enunciado": "Elige la opción correcta.", "frase": "He ___ to the gym on Mondays.", "opciones": ["go", "goes", "going"], "respuestas": ["goes"], "explicacion": "Go en tercera persona es goes."},
-  {"id": "e07", "tipo": "eleccion", "enunciado": "Elige la opción correcta.", "frase": "Does she ___ a car?", "opciones": ["have", "has", "having"], "respuestas": ["have"], "explicacion": "Después de does se usa la forma base."},
-  {"id": "e08", "tipo": "eleccion", "enunciado": "Elige la opción correcta.", "frase": "We ___ in the city centre.", "opciones": ["lives", "live", "are live"], "respuestas": ["live"], "explicacion": "Con we el verbo no lleva -s."},
-  {"id": "e09", "tipo": "transformar", "enunciado": "Pasa la frase a pregunta.", "frase": "She plays the guitar.", "respuestas": ["Does she play the guitar?"], "explicacion": "Pregunta con does y verbo en forma base."},
-  {"id": "e10", "tipo": "transformar", "enunciado": "Pasa la frase a negativa.", "frase": "They drink coffee.", "respuestas": ["They don't drink coffee.", "They do not drink coffee."], "explicacion": "Con they la negativa es don't + verbo."},
-  {"id": "e11", "tipo": "corregir", "enunciado": "Corrige el error.", "frase": "My brother don't eat fish.", "respuestas": ["My brother doesn't eat fish.", "My brother does not eat fish."], "explicacion": "My brother es tercera persona: doesn't."},
-  {"id": "e12", "tipo": "corregir", "enunciado": "Corrige el error.", "frase": "Where does she lives?", "respuestas": ["Where does she live?"], "explicacion": "Después de does el verbo no lleva -s."},
-  {"id": "e13", "tipo": "ordenar", "enunciado": "Ordena las palabras.", "palabras": ["always", "breakfast", "I", "have", "at", "eight"], "respuestas": ["I always have breakfast at eight", "At eight I always have breakfast"], "explicacion": "El adverbio de frecuencia va antes del verbo principal."},
-  {"id": "e14", "tipo": "ordenar", "enunciado": "Ordena las palabras para formar una pregunta.", "palabras": ["you", "do", "where", "work"], "respuestas": ["Where do you work"], "explicacion": "Partícula interrogativa + do + sujeto + verbo."}
+  {
+   "id": "e01",
+   "tipo": "hueco",
+   "enunciado": "Completa con el verbo en present simple.",
+   "frase": "My father ___ (work) in a hospital.",
+   "respuestas": [
+    "works"
+   ],
+   "explicacion": "Se aplica la regla central de la ficha: en tercera persona del singular (he, she, it o un sujeto equivalente) el verbo añade -s. My father equivale a he, así que work pasa a works. La frase describe una situación habitual y estable, por eso va en present simple y no en continuo.",
+   "explicacion_breve": "Tercera persona del singular: work + s.",
+   "traduccion": "Mi padre trabaja en un hospital.",
+   "errores_previstos": [
+    {
+     "respuesta": "work",
+     "explicacion": "Falta la -s de tercera persona: my father equivale a he y pide works."
+    },
+    {
+     "respuesta": "is working",
+     "explicacion": "El continuo sugeriría algo temporal; para su trabajo habitual se usa works."
+    },
+    {
+     "respuesta": "workes",
+     "explicacion": "Work solo añade -s; la terminación -es es para verbos acabados en -s, -sh, -ch, -x u -o."
+    }
+   ]
+  },
+  {
+   "id": "e02",
+   "tipo": "hueco",
+   "enunciado": "Completa con el verbo en present simple.",
+   "frase": "She ___ (watch) TV every evening.",
+   "respuestas": [
+    "watches"
+   ],
+   "explicacion": "La ficha explica la ortografía de la -s: los verbos que acaban en -s, -sh, -ch, -x u -o añaden -es. Watch acaba en -ch, así que da watches. La pista para el tiempo es every evening, que indica un hábito, y el sujeto she exige la forma de tercera persona.",
+   "explicacion_breve": "Los verbos acabados en -ch añaden -es.",
+   "traduccion": "Ella ve la tele todas las noches.",
+   "errores_previstos": [
+    {
+     "respuesta": "watchs",
+     "explicacion": "Tras -ch se añade -es, no solo -s: watches."
+    },
+    {
+     "respuesta": "watch",
+     "explicacion": "Falta la terminación de tercera persona: she watches."
+    },
+    {
+     "respuesta": "is watching",
+     "explicacion": "Every evening indica un hábito: present simple, watches."
+    }
+   ]
+  },
+  {
+   "id": "e03",
+   "tipo": "hueco",
+   "enunciado": "Completa con el verbo en present simple.",
+   "frase": "Tom ___ (study) English at night.",
+   "respuestas": [
+    "studies"
+   ],
+   "explicacion": "Es otra regla ortográfica de la ficha: cuando el verbo acaba en consonante + y, la y se convierte en -ies en tercera persona. Study termina en d + y, así que da studies. Si la y fuera precedida de vocal (play), solo se añadiría -s: plays. El sujeto Tom equivale a he y la frase expresa un hábito.",
+   "explicacion_breve": "Consonante + y cambia a -ies.",
+   "traduccion": "Tom estudia inglés por la noche.",
+   "errores_previstos": [
+    {
+     "respuesta": "studys",
+     "explicacion": "Con consonante + y, la y cambia a -ies: studies."
+    },
+    {
+     "respuesta": "study",
+     "explicacion": "Falta la marca de tercera persona: Tom studies."
+    },
+    {
+     "respuesta": "studyes",
+     "explicacion": "La y no se conserva: se convierte en i y se añade -es, studies."
+    }
+   ]
+  },
+  {
+   "id": "e04",
+   "tipo": "hueco",
+   "enunciado": "Completa con do, does, don't o doesn't.",
+   "frase": "___ your children like vegetables?",
+   "respuestas": [
+    "Do"
+   ],
+   "explicacion": "La ficha indica que las preguntas en present simple se forman con do o does + sujeto + verbo en forma base. Do se usa con I, you, we, they; does con he, she, it. El sujeto your children es plural y equivale a they, así que va Do. Es una pregunta afirmativa, por eso no se usa don't.",
+   "explicacion_breve": "Your children equivale a they: la pregunta lleva do.",
+   "traduccion": "¿A tus hijos les gustan las verduras?",
+   "errores_previstos": [
+    {
+     "respuesta": "Does",
+     "explicacion": "Your children es plural (they): la pregunta lleva do, no does."
+    },
+    {
+     "respuesta": "Are",
+     "explicacion": "Like es un verbo léxico, no be: la pregunta se forma con do."
+    },
+    {
+     "respuesta": "Don't",
+     "explicacion": "La frase no es negativa ni muestra sorpresa; basta con Do."
+    }
+   ]
+  },
+  {
+   "id": "e05",
+   "tipo": "hueco",
+   "enunciado": "Completa con la forma negativa (contraída).",
+   "frase": "My cat ___ (not / like) water.",
+   "respuestas": [
+    "doesn't like",
+    "does not like"
+   ],
+   "explicacion": "Según la ficha, la negativa en tercera persona se forma con doesn't (does not) + verbo en forma base. My cat equivale a it, por lo que va doesn't, y like queda sin -s, porque la marca de tercera persona ya la lleva does. La respuesta es doesn't like o does not like.",
+   "explicacion_breve": "Tercera persona: doesn't + forma base.",
+   "traduccion": "A mi gato no le gusta el agua.",
+   "errores_previstos": [
+    {
+     "respuesta": "doesn't likes",
+     "explicacion": "Después de doesn't el verbo vuelve a la forma base: like, sin -s."
+    },
+    {
+     "respuesta": "don't like",
+     "explicacion": "My cat es tercera persona del singular (it): doesn't like."
+    },
+    {
+     "respuesta": "not likes",
+     "explicacion": "La negativa necesita el auxiliar: doesn't like."
+    }
+   ]
+  },
+  {
+   "id": "e06",
+   "tipo": "eleccion",
+   "enunciado": "Elige la opción correcta.",
+   "frase": "He ___ to the gym on Mondays.",
+   "opciones": [
+    "go",
+    "goes",
+    "going"
+   ],
+   "respuestas": [
+    "goes"
+   ],
+   "explicacion": "La ficha recoge que los verbos acabados en -o añaden -es en tercera persona: go → goes. La pista temporal es on Mondays, que indica una rutina, y el sujeto he pide la forma de tercera persona. Por eso la respuesta es goes.",
+   "explicacion_breve": "Go en tercera persona es goes.",
+   "traduccion": "Él va al gimnasio los lunes.",
+   "por_opcion": {
+    "go": "Le falta la -es de tercera persona; serviría con I, you, we o they.",
+    "goes": "Correcta: tercera persona de go (acaba en -o, añade -es) para un hábito semanal.",
+    "going": "Un -ing sin be no forma tiempo verbal, y además una rutina pide present simple."
+   }
+  },
+  {
+   "id": "e07",
+   "tipo": "eleccion",
+   "enunciado": "Elige la opción correcta.",
+   "frase": "Does she ___ a car?",
+   "opciones": [
+    "have",
+    "has",
+    "having"
+   ],
+   "respuestas": [
+    "have"
+   ],
+   "explicacion": "La ficha insiste en que, con does y doesn't, el verbo vuelve a la forma base: Does he work? (no Does he works?). La pista es Does al principio, que ya lleva la marca de tercera persona. Por eso el verbo queda en have, aunque en una afirmación diríamos she has.",
+   "explicacion_breve": "Después de does se usa la forma base.",
+   "traduccion": "¿Tiene ella coche?",
+   "por_opcion": {
+    "have": "Correcta: forma base tras does.",
+    "has": "Has es la forma de tercera persona, pero tras does el verbo vuelve a la forma base: have.",
+    "having": "El -ing no puede ir detrás de does."
+   }
+  },
+  {
+   "id": "e08",
+   "tipo": "eleccion",
+   "enunciado": "Elige la opción correcta.",
+   "frase": "We ___ in the city centre.",
+   "opciones": [
+    "lives",
+    "live",
+    "are live"
+   ],
+   "respuestas": [
+    "live"
+   ],
+   "explicacion": "Según la tabla de la ficha, con I, you, we y they el verbo va en forma base, sin -s. El sujeto we pide live. La -s solo aparece con he, she, it. La opción con are mezcla el verbo be con otro verbo, error frecuente en hispanohablantes que traducen «estamos viviendo» o confunden estructuras.",
+   "explicacion_breve": "Con we el verbo no lleva -s.",
+   "traduccion": "Vivimos en el centro de la ciudad.",
+   "por_opcion": {
+    "lives": "Lives es la forma de tercera persona del singular; con we no lleva -s.",
+    "live": "Correcta: forma base con we.",
+    "are live": "No se combinan be y un verbo en forma base; el present simple de live es simplemente we live."
+   }
+  },
+  {
+   "id": "e09",
+   "tipo": "transformar",
+   "enunciado": "Pasa la frase a pregunta.",
+   "frase": "She plays the guitar.",
+   "respuestas": [
+    "Does she play the guitar?"
+   ],
+   "explicacion": "La ficha muestra que la pregunta se forma con Does + sujeto + verbo en forma base cuando el sujeto es he, she o it. She plays pasa a Does she play: la -s de plays desaparece porque ahora la lleva does. El resto de la frase (the guitar) no cambia.",
+   "explicacion_breve": "Pregunta con does y verbo en forma base.",
+   "traduccion": "¿Toca ella la guitarra?",
+   "errores_previstos": [
+    {
+     "respuesta": "Does she plays the guitar?",
+     "explicacion": "Tras does el verbo va en forma base: play, sin -s."
+    },
+    {
+     "respuesta": "Plays she the guitar?",
+     "explicacion": "En inglés moderno los verbos léxicos no se invierten: hace falta does."
+    },
+    {
+     "respuesta": "Do she play the guitar?",
+     "explicacion": "Con she el auxiliar es does, no do."
+    }
+   ]
+  },
+  {
+   "id": "e10",
+   "tipo": "transformar",
+   "enunciado": "Pasa la frase a negativa.",
+   "frase": "They drink coffee.",
+   "respuestas": [
+    "They don't drink coffee.",
+    "They do not drink coffee."
+   ],
+   "explicacion": "Según la tabla de la ficha, con I, you, we y they la negativa se forma con don't (do not) + verbo en forma base. They drink pasa a They don't drink. Se aceptan la contracción y la forma completa do not, que es más formal o enfática.",
+   "explicacion_breve": "Con they la negativa es don't + verbo.",
+   "traduccion": "No beben café.",
+   "errores_previstos": [
+    {
+     "respuesta": "They doesn't drink coffee.",
+     "explicacion": "Con they el auxiliar es don't; doesn't es solo para he, she, it."
+    },
+    {
+     "respuesta": "They not drink coffee.",
+     "explicacion": "Calco del español «no beben»: el inglés necesita el auxiliar, don't drink."
+    },
+    {
+     "respuesta": "They don't drinks coffee.",
+     "explicacion": "Tras don't el verbo va en forma base, y con they nunca lleva -s."
+    }
+   ]
+  },
+  {
+   "id": "e11",
+   "tipo": "corregir",
+   "enunciado": "Corrige el error.",
+   "frase": "My brother don't eat fish.",
+   "respuestas": [
+    "My brother doesn't eat fish.",
+    "My brother does not eat fish."
+   ],
+   "explicacion": "La ficha explica que la negativa de tercera persona del singular usa doesn't. My brother equivale a he, así que don't es incorrecto y debe cambiarse por doesn't (o does not). El verbo eat queda en forma base. Es un error muy frecuente en la lengua hablada, pero no es la norma estándar.",
+   "explicacion_breve": "My brother es tercera persona: doesn't.",
+   "traduccion": "Mi hermano no come pescado.",
+   "errores_previstos": [
+    {
+     "respuesta": "My brother don't eat fish.",
+     "explicacion": "Es la frase sin corregir: con my brother (he) va doesn't."
+    },
+    {
+     "respuesta": "My brother doesn't eats fish.",
+     "explicacion": "Tras doesn't el verbo vuelve a la forma base: eat."
+    },
+    {
+     "respuesta": "My brother not eat fish.",
+     "explicacion": "Falta el auxiliar: doesn't eat."
+    }
+   ]
+  },
+  {
+   "id": "e12",
+   "tipo": "corregir",
+   "enunciado": "Corrige el error.",
+   "frase": "Where does she lives?",
+   "respuestas": [
+    "Where does she live?"
+   ],
+   "explicacion": "Se aplica la regla de la ficha: con does el verbo vuelve a la forma base. La marca de tercera persona la lleva el auxiliar, de modo que lives debe quedar en live. El orden de la pregunta (Where + does + she + verbo) es correcto; solo sobra la -s.",
+   "explicacion_breve": "Después de does el verbo no lleva -s.",
+   "traduccion": "¿Dónde vive ella?",
+   "errores_previstos": [
+    {
+     "respuesta": "Where does she lives?",
+     "explicacion": "Es la frase sin corregir: tras does el verbo no lleva -s."
+    },
+    {
+     "respuesta": "Where she lives?",
+     "explicacion": "Falta el auxiliar does: en una pregunta directa no basta con el orden afirmativo."
+    },
+    {
+     "respuesta": "Where do she live?",
+     "explicacion": "Con she el auxiliar es does, no do."
+    }
+   ]
+  },
+  {
+   "id": "e13",
+   "tipo": "ordenar",
+   "enunciado": "Ordena las palabras.",
+   "palabras": [
+    "always",
+    "breakfast",
+    "I",
+    "have",
+    "at",
+    "eight"
+   ],
+   "respuestas": [
+    "I always have breakfast at eight",
+    "At eight I always have breakfast"
+   ],
+   "explicacion": "La ficha dice que los adverbios de frecuencia van antes del verbo principal (I often walk). Por eso always se coloca entre I y have: I always have breakfast at eight. La expresión de tiempo at eight puede ir al final o, con algo de énfasis, al principio. Have breakfast significa «desayunar».",
+   "explicacion_breve": "El adverbio de frecuencia va antes del verbo principal.",
+   "traduccion": "Siempre desayuno a las ocho. (También: A las ocho siempre desayuno.)",
+   "errores_previstos": [
+    {
+     "respuesta": "I have always breakfast at eight",
+     "explicacion": "Calco del español: always va antes del verbo principal, no detrás."
+    },
+    {
+     "respuesta": "Always I have breakfast at eight",
+     "explicacion": "En una frase neutra el adverbio de frecuencia va entre el sujeto y el verbo."
+    }
+   ]
+  },
+  {
+   "id": "e14",
+   "tipo": "ordenar",
+   "enunciado": "Ordena las palabras para formar una pregunta.",
+   "palabras": [
+    "you",
+    "do",
+    "where",
+    "work"
+   ],
+   "respuestas": [
+    "Where do you work"
+   ],
+   "explicacion": "La ficha recoge el orden de las preguntas con palabra interrogativa: palabra interrogativa + do/does + sujeto + verbo en forma base. Con you se usa do, de modo que queda Where do you work. No se puede omitir do, aunque en español la pregunta no tenga auxiliar.",
+   "explicacion_breve": "Partícula interrogativa + do + sujeto + verbo.",
+   "traduccion": "¿Dónde trabajas?",
+   "errores_previstos": [
+    {
+     "respuesta": "Where you do work",
+     "explicacion": "El auxiliar do va antes del sujeto: Where do you work."
+    },
+    {
+     "respuesta": "Do you where work",
+     "explicacion": "La palabra interrogativa va siempre al principio de la pregunta."
+    }
+   ]
+  }
  ],
- "fuente": {"nombre": "propia"}
+ "fuente": {
+  "nombre": "propia"
+ },
+ "descripcion_larga_es": "El present simple es el tiempo de los hábitos, las rutinas, los gustos y las verdades generales. Parece sencillo, pero esconde dos trampas para el hispanohablante: la -s de la tercera persona del singular, que se olvida con mucha facilidad, y el auxiliar do/does en preguntas y negaciones, que no existe en español. Dominarlo es la base de todo lo demás.",
+ "contexto": {
+  "que_es": "Es la forma más básica del presente en inglés: el verbo en forma base (I work) o con -s en tercera persona del singular (she works). Las preguntas y negaciones se construyen con el auxiliar do/does seguido del verbo en forma base.",
+  "por_que_importa": "Es el tiempo con el que se describe la vida diaria, el trabajo, los gustos y los hechos generales, así que aparece en cualquier presentación o exposición. Olvidar la -s (he work) o mezclar does con -s (Does she works?) son errores muy visibles que delatan un nivel bajo. Además, usarlo en lugar del continuo, o al revés, puede cambiar el sentido de lo que dices.",
+  "cuando_se_usa": "Lo señalan los adverbios de frecuencia (always, usually, often, sometimes, never) y expresiones como every day, on Mondays, at night. También se usa con verbos de estado (know, like, want). El hispanohablante tiende a olvidar la -s, a preguntar sin do (Where you work?) y a colocar el adverbio de frecuencia detrás del verbo, como en español."
+ }
 }

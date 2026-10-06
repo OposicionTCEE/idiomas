@@ -198,7 +198,28 @@
    "respuestas": [
     "enrhumé"
    ],
-   "explicacion": "Resfriado = «enrhumé»."
+   "explicacion": "Es uno de los falsos amigos más célebres de la tabla: «constipé» significa estreñido, y el constipado español (resfriado) se dice «enrhumé». La pista es «j'ai pris froid» (me he enfriado), que remite al resfriado. Por eso la respuesta es «enrhumé», de «le rhume» (el resfriado).",
+   "explicacion_breve": "Resfriado = «enrhumé».",
+   "traduccion": "Me he enfriado: estoy constipado (resfriado) desde ayer.",
+   "por_opcion": {
+    "enrhumé": "Correcta: «enrhumé» significa resfriado, constipado en el sentido español.",
+    "constipé": "Incorrecta: «constipé» significa estreñido; se usaría hablando de problemas digestivos, no de un catarro.",
+    "embarrassé": "Incorrecta: «embarrassé» significa incómodo, apurado o cohibido; se usaría ante una situación violenta."
+   },
+   "glosario": [
+    {
+     "palabra": "enrhumé",
+     "significado": "resfriado, constipado"
+    },
+    {
+     "palabra": "prendre froid",
+     "significado": "enfriarse, coger frío"
+    },
+    {
+     "palabra": "constipé",
+     "significado": "estreñido (falso amigo)"
+    }
+   ]
   },
   {
    "id": "e02",
@@ -213,7 +234,28 @@
    "respuestas": [
     "bibliothèque"
    ],
-   "explicacion": "Se toman prestados libros en la biblioteca, «bibliothèque»."
+   "explicacion": "La tabla distingue «la librairie» (la librería, tienda donde se compran libros) de «la bibliothèque» (la biblioteca, donde se prestan). La pista está en «emprunter… gratuitement»: tomar prestado sin pagar solo es posible en una biblioteca. Por eso «bibliothèque».",
+   "explicacion_breve": "Se toman prestados libros en la biblioteca, «bibliothèque».",
+   "traduccion": "Para tomar prestados libros gratis, ve a la biblioteca.",
+   "por_opcion": {
+    "bibliothèque": "Correcta: es la biblioteca, donde se toman libros en préstamo; también significa estantería.",
+    "librairie": "Incorrecta: es la librería, la tienda donde se compran libros; allí no se presta nada.",
+    "bureau": "Incorrecta: «le bureau» es la oficina o el escritorio; además es masculino y no concuerda con «la»."
+   },
+   "glosario": [
+    {
+     "palabra": "la bibliothèque",
+     "significado": "la biblioteca; también la estantería"
+    },
+    {
+     "palabra": "emprunter",
+     "significado": "tomar prestado"
+    },
+    {
+     "palabra": "gratuitement",
+     "significado": "gratis, gratuitamente"
+    }
+   ]
   },
   {
    "id": "e03",
@@ -228,7 +270,28 @@
    "respuestas": [
     "enceinte"
    ],
-   "explicacion": "Embarazada = «enceinte»."
+   "explicacion": "Es el falso amigo más peligroso de la tabla: «embarrassée» no significa embarazada, sino apurada o incómoda; embarazada se dice «enceinte». La pista es «attend un bébé». «Enceinte» es invariable en la práctica porque solo se aplica a mujeres.",
+   "explicacion_breve": "Embarazada = «enceinte».",
+   "traduccion": "Mi prima espera un bebé: está embarazada.",
+   "por_opcion": {
+    "enceinte": "Correcta: significa embarazada.",
+    "embarrassée": "Incorrecta: significa apurada, incómoda, avergonzada; se usaría en «elle était embarrassée de refuser».",
+    "embarquée": "Incorrecta: significa embarcada (en un barco, en un proyecto); no tiene relación con el embarazo."
+   },
+   "glosario": [
+    {
+     "palabra": "enceinte",
+     "significado": "embarazada"
+    },
+    {
+     "palabra": "attendre un bébé",
+     "significado": "esperar un bebé"
+    },
+    {
+     "palabra": "embarrassée",
+     "significado": "apurada, incómoda (falso amigo)"
+    }
+   ]
   },
   {
    "id": "e04",
@@ -243,7 +306,28 @@
    "respuestas": [
     "comprends"
    ],
-   "explicacion": "Entender un significado = «comprendre»."
+   "explicacion": "La tabla recoge «entendre» como falso amigo: significa oír, y entender un significado se dice «comprendre». La pista es la petición de explicación («tu peux me l'expliquer ?»): el problema no es de audición sino de comprensión. Por eso «je ne comprends pas».",
+   "explicacion_breve": "Entender un significado = «comprendre».",
+   "traduccion": "No entiendo esta palabra, ¿me la puedes explicar?",
+   "por_opcion": {
+    "comprends": "Correcta: «comprendre» es entender el sentido de algo.",
+    "entends": "Incorrecta: «entendre» es oír; «je n'entends pas ce mot» significaría que no oyes la palabra.",
+    "attends": "Incorrecta: «attendre» es esperar, otro falso amigo (no es atender)."
+   },
+   "glosario": [
+    {
+     "palabra": "comprendre",
+     "significado": "entender, comprender"
+    },
+    {
+     "palabra": "entendre",
+     "significado": "oír (falso amigo)"
+    },
+    {
+     "palabra": "un mot",
+     "significado": "una palabra"
+    }
+   ]
   },
   {
    "id": "e05",
@@ -254,27 +338,113 @@
     "sommes restés",
     "sommes restées"
    ],
-   "explicacion": "Quedarse = «rester», con auxiliar «être»."
+   "explicacion": "La tabla indica que «rester» significa quedarse, no restar. Es un verbo de movimiento-estado que forma el passé composé con «être», y el participio concuerda con el sujeto «nous»: «sommes restés» si el grupo es masculino o mixto, «sommes restées» si son todas mujeres. Por eso se aceptan las dos formas.",
+   "explicacion_breve": "Quedarse = «rester», con auxiliar «être».",
+   "traduccion": "Llovía, así que nos quedamos en casa.",
+   "errores_previstos": [
+    {
+     "respuesta": "avons resté",
+     "explicacion": "«Rester» se conjuga con «être» en passé composé: «nous sommes restés»."
+    },
+    {
+     "respuesta": "sommes resté",
+     "explicacion": "Con «être» el participio concuerda con el sujeto plural: «restés» o «restées»."
+    },
+    {
+     "respuesta": "nous sommes quedés",
+     "explicacion": "«Quedarse» no se calca: el verbo francés es «rester»."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "rester",
+     "significado": "quedarse, permanecer"
+    },
+    {
+     "palabra": "alors",
+     "significado": "así que, entonces"
+    }
+   ]
   },
   {
    "id": "e06",
    "tipo": "hueco",
-   "enunciado": "Completa con la palabra que significa «oficina».",
-   "frase": "Elle part au ___ tous les jours à huit heures.",
+   "enunciado": "Completa con la palabra que significa «número» (cantidad).",
+   "frase": "Le ___ d'étudiants augmente chaque année.",
    "respuestas": [
-    "bureau"
+    "nombre"
    ],
-   "explicacion": "Oficina = «le bureau»."
+   "explicacion": "La segunda tabla recoge el falso amigo «le nombre», que en francés significa el número, la cantidad, mientras que el nombre de una persona o cosa es «le nom». La pista es el complemento d'étudiants y el verbo augmente: se habla de una cantidad que crece. Por eso le nombre d'étudiants. Ojo también con «le numéro», que es el número de orden o de identificación (le numéro de téléphone), no una cantidad.",
+   "explicacion_breve": "Número (cantidad) = «le nombre»; el nombre de una persona es «le nom».",
+   "traduccion": "El número de estudiantes aumenta cada año.",
+   "errores_previstos": [
+    {
+     "respuesta": "numéro",
+     "explicacion": "«Le numéro» es un número de orden o de identificación (de teléfono, de una casa, de una revista); una cantidad se expresa con «le nombre»."
+    },
+    {
+     "respuesta": "nom",
+     "explicacion": "«Le nom» es el nombre (de una persona o cosa), justo el sentido que el español da a «nombre»; aquí se habla de una cantidad: le nombre."
+    },
+    {
+     "respuesta": "chiffre",
+     "explicacion": "«Le chiffre» es la cifra, el dígito o un dato numérico (le chiffre d'affaires); para la cantidad de personas se dice le nombre."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "le nombre",
+     "significado": "el número, la cantidad"
+    },
+    {
+     "palabra": "le nom",
+     "significado": "el nombre"
+    },
+    {
+     "palabra": "augmenter",
+     "significado": "aumentar"
+    }
+   ]
   },
   {
    "id": "e07",
    "tipo": "hueco",
-   "enunciado": "Completa con la palabra que significa «fecha».",
-   "frase": "Quelle est la ___ de ton anniversaire ?",
+   "enunciado": "Completa con la palabra que significa «tasa».",
+   "frase": "Le ___ de chômage a baissé cette année.",
    "respuestas": [
-    "date"
+    "taux"
    ],
-   "explicacion": "Fecha = «la date»."
+   "explicacion": "La segunda tabla recoge que «la tasse» es la taza y que la tasa, en el sentido de porcentaje o índice, se dice «le taux». La pista es de chômage: la tasa de paro es le taux de chômage, igual que le taux d'intérêt (el tipo de interés) o le taux de natalité. El artículo le confirma que buscamos un sustantivo masculino. Taux se escribe con -x final y es invariable.",
+   "explicacion_breve": "Tasa (porcentaje) = «le taux»; «la tasse» es la taza.",
+   "traduccion": "La tasa de paro ha bajado este año.",
+   "errores_previstos": [
+    {
+     "respuesta": "tasse",
+     "explicacion": "«La tasse» es la taza; además es femenino y no concuerda con le. La tasa es le taux."
+    },
+    {
+     "respuesta": "taxe",
+     "explicacion": "«La taxe» es un impuesto o una tasa que se paga (la taxe de séjour); un porcentaje como el paro es le taux."
+    },
+    {
+     "respuesta": "tau",
+     "explicacion": "Error de ortografía: taux lleva -x final."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "le taux",
+     "significado": "la tasa, el tipo, el índice"
+    },
+    {
+     "palabra": "le chômage",
+     "significado": "el paro, el desempleo"
+    },
+    {
+     "palabra": "la tasse",
+     "significado": "la taza"
+    }
+   ]
   },
   {
    "id": "e08",
@@ -284,7 +454,33 @@
    "respuestas": [
     "carte"
    ],
-   "explicacion": "Tarjeta bancaria = «carte bancaire»."
+   "explicacion": "La tabla explica que «la carte» es un falso amigo parcial: significa tarjeta, mapa o carta del menú, pero no carta postal («la lettre»). Aquí la pista es «bancaire»: «la carte bancaire» es la tarjeta del banco. La preposición es «par carte» (pagar con tarjeta), sin artículo.",
+   "explicacion_breve": "Tarjeta bancaria = «carte bancaire».",
+   "traduccion": "¿Puedo pagar con tarjeta bancaria?",
+   "errores_previstos": [
+    {
+     "respuesta": "tarjette",
+     "explicacion": "Es un calco inventado del español; tarjeta se dice «carte»."
+    },
+    {
+     "respuesta": "lettre",
+     "explicacion": "«La lettre» es la carta postal; la tarjeta bancaria es «la carte bancaire»."
+    },
+    {
+     "respuesta": "carta",
+     "explicacion": "Es la palabra española (y además significaría carta); en francés la tarjeta es «carte», con -e final."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "la carte bancaire",
+     "significado": "la tarjeta bancaria"
+    },
+    {
+     "palabra": "payer par carte",
+     "significado": "pagar con tarjeta"
+    }
+   ]
   },
   {
    "id": "e09",
@@ -294,7 +490,33 @@
    "respuestas": [
     "Je dois écrire une lettre de motivation pour ce poste."
    ],
-   "explicacion": "Carta de presentación = «lettre de motivation»."
+   "explicacion": "Es el caso inverso de «carte»: la carta que se escribe y se envía es «la lettre», no «la carte». La pista es «écrire… pour ce poste»: se trata de la carta que acompaña al currículum, que en francés se llama «lettre de motivation». Por eso se sustituye «carte» por «lettre».",
+   "explicacion_breve": "Carta de presentación = «lettre de motivation».",
+   "traduccion": "Tengo que escribir una carta de presentación para este puesto.",
+   "errores_previstos": [
+    {
+     "respuesta": "Je dois écrire une carte de motivation pour ce poste.",
+     "explicacion": "Es dejar la frase sin corregir: «carte» no es carta postal; se dice «lettre»."
+    },
+    {
+     "respuesta": "Je dois écrire une lettre de présentation pour ce poste.",
+     "explicacion": "Se ha corregido «carte», pero la expresión fija para una candidatura es «lettre de motivation»."
+    },
+    {
+     "respuesta": "Je dois écrire un lettre de motivation pour ce poste.",
+     "explicacion": "«Lettre» es femenino: «une lettre»."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "la lettre de motivation",
+     "significado": "la carta de presentación (para un empleo)"
+    },
+    {
+     "palabra": "le poste",
+     "significado": "el puesto (de trabajo)"
+    }
+   ]
   },
   {
    "id": "e10",
@@ -304,7 +526,37 @@
    "respuestas": [
     "Il y a beaucoup de concurrence entre les supermarchés."
    ],
-   "explicacion": "Competencia comercial = «concurrence»."
+   "explicacion": "La tabla distingue «la compétence» (la aptitud, la atribución de un órgano) de «la concurrence» (la competencia comercial entre empresas). La pista es «entre les supermarchés»: se habla de rivalidad de mercado, así que hay que usar «concurrence». Es un falso amigo muy importante en economía: el derecho de la competencia es «le droit de la concurrence».",
+   "explicacion_breve": "Competencia comercial = «concurrence».",
+   "traduccion": "Hay mucha competencia entre los supermercados.",
+   "errores_previstos": [
+    {
+     "respuesta": "Il y a beaucoup de compétence entre les supermarchés.",
+     "explicacion": "Es dejar la frase sin corregir: «compétence» significa aptitud o atribución, no rivalidad comercial."
+    },
+    {
+     "respuesta": "Il y a beaucoup de compétition entre les supermarchés.",
+     "explicacion": "«Compétition» se usa sobre todo en deporte; para la rivalidad entre empresas el término propio es «concurrence»."
+    },
+    {
+     "respuesta": "Il y a beaucoup de concurrance entre les supermarchés.",
+     "explicacion": "La palabra se escribe con -ence: «concurrence»."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "la concurrence",
+     "significado": "la competencia (comercial)"
+    },
+    {
+     "palabra": "la compétence",
+     "significado": "la aptitud; la atribución, la competencia de un órgano (falso amigo parcial)"
+    },
+    {
+     "palabra": "le supermarché",
+     "significado": "el supermercado"
+    }
+   ]
   },
   {
    "id": "e11",
@@ -314,7 +566,37 @@
    "respuestas": [
     "Quand j'ai froid, je suis souvent enrhumé et je tousse."
    ],
-   "explicacion": "Resfriado = «enrhumé»."
+   "explicacion": "De nuevo la pareja «constipé»/«enrhumé»: el contexto (frío y tos) indica resfriado, que se dice «enrhumé»; «constipé» significa estreñido. La pista es «je tousse» (toso), síntoma de catarro. Corregir este falso amigo evita un malentendido bastante incómodo.",
+   "explicacion_breve": "Resfriado = «enrhumé».",
+   "traduccion": "Cuando paso frío, a menudo estoy resfriado y toso.",
+   "errores_previstos": [
+    {
+     "respuesta": "Quand j'ai froid, je suis souvent constipé et je tousse.",
+     "explicacion": "Es dejar la frase sin corregir: «constipé» significa estreñido."
+    },
+    {
+     "respuesta": "Quand j'ai froid, je suis souvent resfrié et je tousse.",
+     "explicacion": "Es un calco inventado; resfriado se dice «enrhumé»."
+    },
+    {
+     "respuesta": "Quand j'ai froid, je suis souvent enrumé et je tousse.",
+     "explicacion": "Falta la h: se escribe «enrhumé», de «rhume»."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "enrhumé",
+     "significado": "resfriado"
+    },
+    {
+     "palabra": "tousser",
+     "significado": "toser"
+    },
+    {
+     "palabra": "avoir froid",
+     "significado": "tener frío"
+    }
+   ]
   },
   {
    "id": "e12",
@@ -324,7 +606,37 @@
    "respuestas": [
     "Ce garçon est très sensé : il prend toujours des décisions raisonnables et réfléchies."
    ],
-   "explicacion": "Sensato = «sensé»; «sensible» significa sensible."
+   "explicacion": "La tabla explica que «sensible» significa sensible (emotivo, que se afecta con facilidad), y que sensato se dice «sensé». La pista es la segunda parte de la frase, «des décisions raisonnables et réfléchies», que describe a alguien juicioso, no emotivo. Por eso «sensé».",
+   "explicacion_breve": "Sensato = «sensé»; «sensible» significa sensible.",
+   "traduccion": "Este chico es muy sensato: siempre toma decisiones razonables y meditadas.",
+   "errores_previstos": [
+    {
+     "respuesta": "Ce garçon est très sensible : il prend toujours des décisions raisonnables et réfléchies.",
+     "explicacion": "Es dejar la frase sin corregir: «sensible» describe a alguien emotivo, no juicioso."
+    },
+    {
+     "respuesta": "Ce garçon est très sensato : il prend toujours des décisions raisonnables et réfléchies.",
+     "explicacion": "«Sensato» es español; en francés es «sensé»."
+    },
+    {
+     "respuesta": "Ce garçon est très sensée : il prend toujours des décisions raisonnables et réfléchies.",
+     "explicacion": "«Garçon» es masculino: «sensé», sin la -e del femenino."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "sensé",
+     "significado": "sensato"
+    },
+    {
+     "palabra": "sensible",
+     "significado": "sensible, emotivo (falso amigo)"
+    },
+    {
+     "palabra": "réfléchi",
+     "significado": "meditado, reflexivo"
+    }
+   ]
   },
   {
    "id": "e13",
@@ -340,7 +652,25 @@
    "respuestas": [
     "je ne t'entends pas bien"
    ],
-   "explicacion": "«Entendre» = oír."
+   "explicacion": "«Entendre» significa oír, como recoge la tabla. El orden es sujeto «je», primera parte de la negación «ne», pronombre complemento «t'» delante del verbo, verbo «entends», segunda parte de la negación «pas» y por último el adverbio «bien». La negación francesa rodea al verbo conjugado junto con su pronombre.",
+   "explicacion_breve": "«Entendre» = oír.",
+   "traduccion": "No te oigo bien.",
+   "errores_previstos": [
+    {
+     "respuesta": "je ne pas t'entends bien",
+     "explicacion": "Calco del español «no te oigo»: en francés «pas» va detrás del verbo conjugado."
+    },
+    {
+     "respuesta": "je ne t'entends bien pas",
+     "explicacion": "«Pas» va inmediatamente detrás del verbo; «bien» se coloca después."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "entendre",
+     "significado": "oír"
+    }
+   ]
   },
   {
    "id": "e14",
@@ -355,10 +685,33 @@
    "respuestas": [
     "assisté"
    ],
-   "explicacion": "Estar presente = «assister à», como en español."
+   "explicacion": "Aquí el parecido no engaña: la tabla indica que «assister à» significa asistir a, estar presente en un acto, igual que en español. La pista es la preposición «à» detrás del hueco y el complemento «un concert». Lo que no significa es asistir en el sentido de ayudar, que es «aider».",
+   "explicacion_breve": "Estar presente = «assister à», como en español.",
+   "traduccion": "Ayer asistimos a un concierto magnífico.",
+   "por_opcion": {
+    "assisté": "Correcta: «assister à un concert» es estar presente en él.",
+    "aidé": "Incorrecta: «aider» es ayudar y se construye con complemento directo («aider quelqu'un»); no cuadra con un concierto.",
+    "visité": "Incorrecta: «visiter» se usa para lugares (un museo, una ciudad) y no lleva «à»; un concierto no se visita."
+   },
+   "glosario": [
+    {
+     "palabra": "assister à",
+     "significado": "asistir a, estar presente en"
+    },
+    {
+     "palabra": "magnifique",
+     "significado": "magnífico"
+    }
+   ]
   }
  ],
  "fuente": {
   "nombre": "propia"
+ },
+ "descripcion_larga_es": "Los falsos amigos son palabras francesas que se parecen a otras españolas pero significan otra cosa: «constipé» es estreñido, «embarrassée» es apurada, «la librairie» es la librería. Son la principal trampa de un hispanohablante, porque el parecido invita a usarlas sin pensar. Aprenderlos por parejas evita malentendidos embarazosos y errores que un examinador detecta al instante.",
+ "contexto": {
+  "que_es": "Un falso amigo es una palabra de una lengua que se parece por su forma a otra de una lengua distinta, pero cuyo significado es diferente. Pueden ser totales (nunca coinciden, como «la salade» y «la sal») o parciales (coinciden en un sentido y no en otro, como «la carte», que es tarjeta, mapa o carta de restaurante, pero no carta postal).",
+  "por_que_importa": "Son la fuente más frecuente de malentendidos entre francés y español, y algunos producen situaciones cómicas o embarazosas (decir que una amiga está «embarrassée» por «embarazada»). En un examen escrito u oral, un falso amigo revela que se traduce mentalmente desde el español y resta credibilidad aunque la gramática sea correcta.",
+  "cuando_se_usa": "Hay que pensar en ellos siempre que una palabra francesa «suene» igual que una española, sobre todo en salud (constipé, enrhumé), estudios (librairie, bibliothèque, collège), trabajo (bureau, cadre) y economía (compétence, concurrence, balance, taux). La estrategia es preguntarse si el parecido es real o solo aparente y comprobar en la ficha qué palabra francesa corresponde al término español."
  }
 }

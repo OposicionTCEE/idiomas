@@ -216,7 +216,37 @@
     "I bought three novels at the bookshop on the corner.",
     "I bought three novels at the bookstore on the corner."
    ],
-   "explicacion": "Donde se compran libros es «bookshop / bookstore»; «library» es biblioteca."
+   "explicacion": "La tabla de la ficha indica que library es «biblioteca» y que «librería» se dice bookshop (británico) o bookstore (americano). La pista de esta frase es el verbo bought: en una biblioteca se toman libros prestados (borrow), no se compran. Por eso hay que sustituir library por bookshop o bookstore; ambas versiones son correctas.",
+   "explicacion_breve": "Donde se compran libros es «bookshop / bookstore»; «library» es biblioteca.",
+   "traduccion": "Compré tres novelas en la librería de la esquina.",
+   "errores_previstos": [
+    {
+     "respuesta": "I bought three novels at the library on the corner.",
+     "explicacion": "Es la frase sin corregir: library es biblioteca, donde no se compran libros."
+    },
+    {
+     "respuesta": "I bought three novels at the bookshelf on the corner.",
+     "explicacion": "Bookshelf es una estantería, no una tienda."
+    },
+    {
+     "respuesta": "I bought three novels at the librery on the corner.",
+     "explicacion": "Además de ser una errata, sigue siendo el falso amigo; la tienda es bookshop o bookstore."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "library",
+     "significado": "biblioteca"
+    },
+    {
+     "palabra": "bookshop / bookstore",
+     "significado": "librería"
+    },
+    {
+     "palabra": "novel",
+     "significado": "novela"
+    }
+   ]
   },
   {
    "id": "e02",
@@ -226,7 +256,37 @@
    "respuestas": [
     "More than 200 people attended the conference."
    ],
-   "explicacion": "«Asistir a» un acto es «attend»."
+   "explicacion": "La tabla indica que to assist es «ayudar» y que «asistir a un acto» se dice to attend. La pista es el complemento the conference y el número de personas: se habla de presencia, no de ayuda. Attend es transitivo, así que no lleva preposición: attended the conference, sin to.",
+   "explicacion_breve": "«Asistir a» un acto es «attend».",
+   "traduccion": "Más de 200 personas asistieron a la conferencia.",
+   "errores_previstos": [
+    {
+     "respuesta": "More than 200 people assisted the conference.",
+     "explicacion": "Es la frase sin corregir: assist significa ayudar, no estar presente."
+    },
+    {
+     "respuesta": "More than 200 people attended to the conference.",
+     "explicacion": "Attend to significa «ocuparse de, atender»; para asistir a un acto attend va sin preposición."
+    },
+    {
+     "respuesta": "More than 200 people assisted to the conference.",
+     "explicacion": "Calco completo de «asistieron a»; el verbo correcto es attend y sin to."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "to attend",
+     "significado": "asistir a (un acto)"
+    },
+    {
+     "palabra": "to assist",
+     "significado": "ayudar"
+    },
+    {
+     "palabra": "to attend to",
+     "significado": "ocuparse de, atender"
+    }
+   ]
   },
   {
    "id": "e03",
@@ -242,7 +302,29 @@
    "respuestas": [
     "pretended"
    ],
-   "explicacion": "«Pretend» = fingir."
+   "explicacion": "La tabla recoge to pretend como «fingir», mientras que «pretender» se dice to intend o to aim. La pista es la finalidad so he could miss the exam: hacerse pasar por enfermo para no ir es fingir. Pretend to be ill es exactamente «fingir estar enfermo».",
+   "explicacion_breve": "«Pretend» = fingir.",
+   "traduccion": "Fingió estar enfermo para poder faltar al examen.",
+   "por_opcion": {
+    "pretended": "Correcta: pretend = fingir; pretended to be ill = fingió estar enfermo.",
+    "intended": "Incorrecta: intend es «tener la intención de, pretender»; intended to be ill no tiene sentido aquí.",
+    "realised": "Incorrecta: realise es «darse cuenta», no «realizar» ni «fingir».",
+    "assisted": "Incorrecta: assist es «ayudar» y no va seguido de to be."
+   },
+   "glosario": [
+    {
+     "palabra": "to pretend",
+     "significado": "fingir"
+    },
+    {
+     "palabra": "to intend",
+     "significado": "tener la intención de, pretender"
+    },
+    {
+     "palabra": "to miss (an exam)",
+     "significado": "faltar a, perderse (un examen)"
+    }
+   ]
   },
   {
    "id": "e04",
@@ -258,7 +340,29 @@
    "respuestas": [
     "success"
    ],
-   "explicacion": "«Éxito» es «success»; «exit» es salida."
+   "explicacion": "La tabla indica que exit es «salida» y que «éxito» se dice success. La pista es la explicación tras los dos puntos: batir récords de taquilla es un triunfo. Success es el sustantivo; succession y successor se parecen en la forma pero significan otra cosa.",
+   "explicacion_breve": "«Éxito» es «success»; «exit» es salida.",
+   "traduccion": "La nueva película fue un éxito enorme: batió récords de taquilla.",
+   "por_opcion": {
+    "success": "Correcta: success = éxito.",
+    "exit": "Incorrecta: exit es «salida» (emergency exit); es el falso amigo de «éxito».",
+    "succession": "Incorrecta: succession es «sucesión» (una serie o la sucesión en un cargo).",
+    "successor": "Incorrecta: successor es «sucesor», la persona que sucede a otra."
+   },
+   "glosario": [
+    {
+     "palabra": "success",
+     "significado": "éxito"
+    },
+    {
+     "palabra": "exit",
+     "significado": "salida"
+    },
+    {
+     "palabra": "box office",
+     "significado": "taquilla"
+    }
+   ]
   },
   {
    "id": "e05",
@@ -274,7 +378,29 @@
    "respuestas": [
     "sensitive"
    ],
-   "explicacion": "«Sensible» en español es «sensitive»; «sensible» en inglés es «sensato»."
+   "explicacion": "La tabla indica que sensible en inglés es «sensato» y que el «sensible» español es sensitive. La pista es la piel y el sol: se habla de reaccionar fácilmente a un estímulo, el sentido de sensitive. Además, sensitive se construye con to (sensitive to the sun).",
+   "explicacion_breve": "«Sensible» en español es «sensitive»; «sensible» en inglés es «sensato».",
+   "traduccion": "Tengo la piel muy sensible al sol, así que siempre me pongo protector solar.",
+   "por_opcion": {
+    "sensitive": "Correcta: sensitive = sensible, que reacciona fácilmente a algo.",
+    "sensible": "Incorrecta: sensible en inglés es «sensato» (a sensible decision).",
+    "sensory": "Incorrecta: sensory es «sensorial» (sensory organs).",
+    "sensual": "Incorrecta: sensual es «sensual», relacionado con el placer físico."
+   },
+   "glosario": [
+    {
+     "palabra": "sensitive",
+     "significado": "sensible"
+    },
+    {
+     "palabra": "sensible",
+     "significado": "sensato"
+    },
+    {
+     "palabra": "sunscreen",
+     "significado": "protector solar"
+    }
+   ]
   },
   {
    "id": "e06",
@@ -285,7 +411,33 @@
     "realised",
     "realized"
    ],
-   "explicacion": "«Realise» = darse cuenta."
+   "explicacion": "La tabla recoge to realise como «darse cuenta», mientras que «realizar» se dice to carry out. La pista es la oración que sigue (I had forgotten my ticket): es un descubrimiento repentino. Se acepta la grafía británica realised y la americana realized.",
+   "explicacion_breve": "«Realise» = darse cuenta.",
+   "traduccion": "Cuando llegué a la estación, me di cuenta de que me había olvidado el billete.",
+   "errores_previstos": [
+    {
+     "respuesta": "noticed of",
+     "explicacion": "Calco de «darse cuenta de»; notice no lleva of y el enunciado pide una palabra: realised."
+    },
+    {
+     "respuesta": "realise",
+     "explicacion": "El enunciado pide el pasado: realised."
+    },
+    {
+     "respuesta": "knew",
+     "explicacion": "Knew es «sabía»; no expresa el momento de darse cuenta, que es realised."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "to realise / realize",
+     "significado": "darse cuenta"
+    },
+    {
+     "palabra": "to carry out",
+     "significado": "realizar, llevar a cabo"
+    }
+   ]
   },
   {
    "id": "e07",
@@ -297,7 +449,37 @@
     "At present, the company employs 300 people, but last year it had 500.",
     "Now the company employs 300 people, but last year it had 500."
    ],
-   "explicacion": "«Actualmente» es «currently / at present»."
+   "explicacion": "La tabla indica que actually es «en realidad» y que «actualmente» se dice currently o at present. La pista es el contraste temporal con last year: se opone el momento presente al año pasado, que es el sentido de «actualmente». Se aceptan currently, at present y now.",
+   "explicacion_breve": "«Actualmente» es «currently / at present».",
+   "traduccion": "Actualmente, la empresa tiene 300 empleados, pero el año pasado tenía 500.",
+   "errores_previstos": [
+    {
+     "respuesta": "Actually, the company employs 300 people, but last year it had 500.",
+     "explicacion": "Es la frase sin corregir: actually significa «en realidad», no «actualmente»."
+    },
+    {
+     "respuesta": "Actualy, the company employs 300 people, but last year it had 500.",
+     "explicacion": "Además de la errata, sigue siendo el falso amigo; se dice currently o at present."
+    },
+    {
+     "respuesta": "In actuality, the company employs 300 people, but last year it had 500.",
+     "explicacion": "In actuality significa «en realidad», igual que actually; no expresa el momento presente."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "actually",
+     "significado": "en realidad"
+    },
+    {
+     "palabra": "currently / at present",
+     "significado": "actualmente"
+    },
+    {
+     "palabra": "to employ",
+     "significado": "emplear, dar trabajo a"
+    }
+   ]
   },
   {
    "id": "e08",
@@ -312,7 +494,28 @@
    "respuestas": [
     "argument"
    ],
-   "explicacion": "Una discusión con enfado es «argument»."
+   "explicacion": "La tabla recoge que discussion es una conversación o debate no hostil y que la «discusión» como pelea es argument. La pista es el adjetivo terrible y el motivo (el ruido entre vecinos): es una pelea con enfado. Por eso solo argument encaja; have an argument es la colocación habitual.",
+   "explicacion_breve": "Una discusión con enfado es «argument».",
+   "traduccion": "Los dos vecinos tuvieron una discusión terrible por el ruido.",
+   "por_opcion": {
+    "argument": "Correcta: argument = discusión acalorada, pelea verbal.",
+    "discussion": "Incorrecta: discussion es un intercambio de ideas tranquilo (a discussion about the budget); no transmite enfado.",
+    "debate": "Incorrecta: debate es un debate organizado o público, no una riña entre vecinos."
+   },
+   "glosario": [
+    {
+     "palabra": "argument",
+     "significado": "discusión, pelea (también argumento lógico)"
+    },
+    {
+     "palabra": "discussion",
+     "significado": "conversación, debate tranquilo"
+    },
+    {
+     "palabra": "neighbour",
+     "significado": "vecino"
+    }
+   ]
   },
   {
    "id": "e09",
@@ -324,7 +527,33 @@
     "restart",
     "continue"
    ],
-   "explicacion": "«Resume» = reanudar."
+   "explicacion": "La tabla recoge to resume como «reanudar» (y advierte de que «resumir» es to summarise). La pista es as soon as the rain stops: el partido se ha interrumpido y volverá a empezar. Se aceptan también restart y continue, que expresan la misma idea con menos formalidad.",
+   "explicacion_breve": "«Resume» = reanudar.",
+   "traduccion": "El partido se reanudará en cuanto deje de llover.",
+   "errores_previstos": [
+    {
+     "respuesta": "summarise",
+     "explicacion": "Summarise es «resumir»; aquí se trata de volver a empezar: resume."
+    },
+    {
+     "respuesta": "renew",
+     "explicacion": "Renew es «renovar» (un contrato, un pasaporte), no reanudar."
+    },
+    {
+     "respuesta": "resumes",
+     "explicacion": "Tras will el verbo va en infinitivo sin -s: resume."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "to resume",
+     "significado": "reanudar"
+    },
+    {
+     "palabra": "to summarise",
+     "significado": "resumir"
+    }
+   ]
   },
   {
    "id": "e10",
@@ -336,7 +565,41 @@
     "I have a cold: I keep sneezing and my nose is running.",
     "I've caught a cold: I keep sneezing and my nose is running."
    ],
-   "explicacion": "«Estar constipado» es «have a cold»; «constipated» es «estreñido»."
+   "explicacion": "La tabla indica que constipated es «estreñido» y que «estar constipado» es to have a cold. La pista son los síntomas (sneezing, my nose is running), que son de un resfriado. Se aceptan have a cold, have got a cold y have caught a cold.",
+   "explicacion_breve": "«Estar constipado» es «have a cold»; «constipated» es «estreñido».",
+   "traduccion": "Estoy constipado: no paro de estornudar y me moquea la nariz.",
+   "errores_previstos": [
+    {
+     "respuesta": "I'm constipated: I keep sneezing and my nose is running.",
+     "explicacion": "Es la frase sin corregir: constipated significa estreñido."
+    },
+    {
+     "respuesta": "I'm cold: I keep sneezing and my nose is running.",
+     "explicacion": "I'm cold es «tengo frío»; el resfriado es I have a cold."
+    },
+    {
+     "respuesta": "I have cold: I keep sneezing and my nose is running.",
+     "explicacion": "Falta el artículo: have a cold."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "to have a cold",
+     "significado": "estar resfriado, constipado"
+    },
+    {
+     "palabra": "constipated",
+     "significado": "estreñido"
+    },
+    {
+     "palabra": "to sneeze",
+     "significado": "estornudar"
+    },
+    {
+     "palabra": "my nose is running",
+     "significado": "me moquea la nariz"
+    }
+   ]
   },
   {
    "id": "e11",
@@ -351,7 +614,32 @@
    "respuestas": [
     "folder"
    ],
-   "explicacion": "«Carpeta» es «folder»; «carpet» es alfombra."
+   "explicacion": "La tabla indica que carpet es «alfombra, moqueta» y que «carpeta» es folder. La pista es el contenido (las facturas) y el lugar (el escritorio): se necesita un objeto para guardar papeles. Folder es la palabra; briefcase sirve para llevar documentos, pero es un maletín.",
+   "explicacion_breve": "«Carpeta» es «folder»; «carpet» es alfombra.",
+   "traduccion": "Mete todas las facturas en la carpeta azul que hay en mi mesa.",
+   "por_opcion": {
+    "folder": "Correcta: folder = carpeta para guardar papeles.",
+    "carpet": "Incorrecta: carpet es alfombra o moqueta; es el falso amigo de «carpeta».",
+    "briefcase": "Incorrecta: briefcase es un maletín; se podrían meter papeles en él, pero no es una carpeta ni suele estar «on my desk» como archivador."
+   },
+   "glosario": [
+    {
+     "palabra": "folder",
+     "significado": "carpeta"
+    },
+    {
+     "palabra": "carpet",
+     "significado": "alfombra, moqueta"
+    },
+    {
+     "palabra": "invoice",
+     "significado": "factura"
+    },
+    {
+     "palabra": "briefcase",
+     "significado": "maletín"
+    }
+   ]
   },
   {
    "id": "e12",
@@ -366,7 +654,28 @@
    "respuestas": [
     "chance"
    ],
-   "explicacion": "«Casualidad» es «chance» o «coincidence»; «casualty» es víctima."
+   "explicacion": "La tabla indica que casualty es «víctima, herido» y que «casualidad» se dice chance o coincidence. La pista es la expresión pure ___: un encuentro por azar. Pure chance es la colocación habitual para «pura casualidad».",
+   "explicacion_breve": "«Casualidad» es «chance» o «coincidence»; «casualty» es víctima.",
+   "traduccion": "Fue pura casualidad que nos conociéramos en Roma.",
+   "por_opcion": {
+    "chance": "Correcta: chance = casualidad, azar; pure chance = pura casualidad.",
+    "casualty": "Incorrecta: casualty es una víctima o un herido (de un accidente o una guerra).",
+    "casualness": "Incorrecta: casualness es «despreocupación, informalidad», no azar."
+   },
+   "glosario": [
+    {
+     "palabra": "chance",
+     "significado": "casualidad, azar"
+    },
+    {
+     "palabra": "casualty",
+     "significado": "víctima, herido"
+    },
+    {
+     "palabra": "coincidence",
+     "significado": "coincidencia, casualidad"
+    }
+   ]
   },
   {
    "id": "e13",
@@ -378,7 +687,37 @@
     "wise",
     "good"
    ],
-   "explicacion": "«Sensible» en inglés = sensato."
+   "explicacion": "La tabla indica que sensible en inglés significa «sensato». La pista es el contenido de la idea (ahorrar cada mes), que es prudente y razonable. Es el reverso del ejercicio 5: aquí sí se usa sensible porque el sentido es «sensato». También se aceptan wise y good, que expresan una valoración parecida.",
+   "explicacion_breve": "«Sensible» en inglés = sensato.",
+   "traduccion": "Ahorrar una parte del sueldo cada mes es una idea muy sensata.",
+   "errores_previstos": [
+    {
+     "respuesta": "sensitive",
+     "explicacion": "Sensitive es «sensible» en el sentido de delicado; una idea sensata es sensible."
+    },
+    {
+     "respuesta": "sensate",
+     "explicacion": "Sensate es una palabra rara («que percibe por los sentidos»); no es «sensato»."
+    },
+    {
+     "respuesta": "sensibly",
+     "explicacion": "Sensibly es el adverbio («sensatamente»); delante de idea hace falta el adjetivo sensible."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "sensible",
+     "significado": "sensato"
+    },
+    {
+     "palabra": "salary",
+     "significado": "sueldo"
+    },
+    {
+     "palabra": "to save",
+     "significado": "ahorrar"
+    }
+   ]
   },
   {
    "id": "e14",
@@ -388,7 +727,37 @@
    "respuestas": [
     "The bus driver drove too fast on the motorway."
    ],
-   "explicacion": "El que conduce es «driver»."
+   "explicacion": "La tabla indica que conductor es «director de orquesta» o «revisor» (en el autobús o el tren, el que cobra o revisa los billetes) y que «conductor» se dice driver. La pista es el verbo drove: quien conduce es el driver.",
+   "explicacion_breve": "El que conduce es «driver».",
+   "traduccion": "El conductor del autobús conducía demasiado rápido por la autopista.",
+   "errores_previstos": [
+    {
+     "respuesta": "The bus conductor drove too fast on the motorway.",
+     "explicacion": "Es la frase sin corregir: conductor es el revisor o el director de orquesta, no quien conduce."
+    },
+    {
+     "respuesta": "The bus pilot drove too fast on the motorway.",
+     "explicacion": "Pilot es el piloto de un avión o de carreras; para autobuses se dice driver."
+    },
+    {
+     "respuesta": "The bus chauffeur drove too fast on the motorway.",
+     "explicacion": "Chauffeur es el chófer privado de un coche; el de un autobús es driver."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "driver",
+     "significado": "conductor"
+    },
+    {
+     "palabra": "conductor",
+     "significado": "director de orquesta; revisor"
+    },
+    {
+     "palabra": "motorway",
+     "significado": "autopista (británico)"
+    }
+   ]
   },
   {
    "id": "e15",
@@ -403,10 +772,37 @@
    "respuestas": [
     "countryside"
    ],
-   "explicacion": "«El campo» (frente a la ciudad) es «the countryside»."
+   "explicacion": "La tabla indica que camp es «campamento» y que «campo» (frente a la ciudad) es countryside, mientras que field es un campo concreto de cultivo o de deporte. La pista es far from any town: se habla del medio rural en general. The countryside, con artículo, es la expresión natural para «vivir en el campo».",
+   "explicacion_breve": "«El campo» (frente a la ciudad) es «the countryside».",
+   "traduccion": "Mis abuelos viven en el campo, lejos de cualquier pueblo.",
+   "por_opcion": {
+    "countryside": "Correcta: the countryside = el campo, el medio rural.",
+    "camp": "Incorrecta: camp es un campamento (summer camp), no el medio rural.",
+    "field": "Incorrecta: field es un campo concreto (de trigo, de fútbol); no se dice live in the field para vivir en el campo."
+   },
+   "glosario": [
+    {
+     "palabra": "countryside",
+     "significado": "campo (medio rural)"
+    },
+    {
+     "palabra": "field",
+     "significado": "campo (terreno concreto, de cultivo o deporte)"
+    },
+    {
+     "palabra": "camp",
+     "significado": "campamento"
+    }
+   ]
   }
  ],
  "fuente": {
   "nombre": "propia"
+ },
+ "descripcion_larga_es": "Los falsos amigos son palabras inglesas que se parecen a una española pero significan otra cosa: actually no es «actualmente», sensible no es «sensible», library no es «librería». Por su parecido, el hispanohablante las usa sin dudar y el error pasa inadvertido para él, pero no para el oyente. Aprender cada uno con su equivalente correcto evita malentendidos, a veces cómicos y a veces graves, incluso en niveles avanzados.",
+ "contexto": {
+  "que_es": "Son pares de palabras de forma parecida en inglés y en español, normalmente de origen latino común, cuyo significado se ha separado con el tiempo. Algunos son totales (embarrassed y «embarazada» no comparten nada) y otros parciales (argument es pelea, pero también argumento lógico; compromise es acuerdo, no obligación).",
+  "por_que_importa": "Son errores invisibles para quien los comete, porque la frase parece correcta, y pueden cambiar por completo el mensaje: decir que alguien está embarrassed cuando se quiere decir pregnant o que se asistió (assisted) a una conferencia en lugar de que se acudió (attended). En un texto profesional o en un examen, un falso amigo resta credibilidad y puede dar lugar a malentendidos serios.",
+  "cuando_se_usa": "Aparecen en cualquier situación, pero sobre todo al traducir mentalmente desde el español, en palabras cultas o técnicas que parecen transparentes (actually, eventually, realise, resume, contest). La señal de alarma es precisamente que una palabra inglesa se parezca mucho a la española: conviene comprobarla. La tabla de la ficha da para cada una la palabra inglesa que corresponde al sentido español."
  }
 }

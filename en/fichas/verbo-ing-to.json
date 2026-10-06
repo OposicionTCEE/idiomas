@@ -6,48 +6,498 @@
  "nivel": "A2",
  "resumen": "Cuando un verbo va seguido de otro, el segundo puede ir en -ing (enjoy reading) o en infinitivo con to (want to read). Depende del primer verbo y hay que aprenderlo con él.",
  "explicacion": [
-  {"tipo": "tabla", "cabecera": ["Verbo + -ing", "Ejemplo"], "filas": [
-   ["enjoy", "I enjoy cooking."], ["finish", "Have you finished eating?"], ["mind", "Do you mind waiting?"],
-   ["stop", "He stopped talking."], ["avoid", "Try to avoid driving at night."], ["can't stand", "I can't stand queuing."]
-  ]},
-  {"tipo": "tabla", "cabecera": ["Verbo + to + infinitivo", "Ejemplo"], "filas": [
-   ["want", "I want to leave."], ["decide", "We decided to stay."], ["hope", "She hopes to win."],
-   ["need", "You need to rest."], ["learn", "He's learning to swim."], ["would like", "I'd like to see it."],
-   ["plan", "They're planning to move."], ["promise", "He promised to help."]
-  ]},
-  {"tipo": "texto", "texto": "Like, love y hate admiten las dos formas casi sin diferencia: I like swimming / I like to swim. Pero would like, would love y would prefer siempre llevan to: I'd like to go."},
-  {"tipo": "texto", "texto": "Tras una preposición (about, of, at, in, without...) el verbo va siempre en -ing: I'm good at drawing; She left without saying goodbye."},
-  {"tipo": "texto", "texto": "Go + -ing se usa para actividades: go shopping, go swimming, go running."}
+  {
+   "tipo": "tabla",
+   "cabecera": [
+    "Verbo + -ing",
+    "Ejemplo"
+   ],
+   "filas": [
+    [
+     "enjoy",
+     "I enjoy cooking."
+    ],
+    [
+     "finish",
+     "Have you finished eating?"
+    ],
+    [
+     "mind",
+     "Do you mind waiting?"
+    ],
+    [
+     "stop",
+     "He stopped talking."
+    ],
+    [
+     "avoid",
+     "Try to avoid driving at night."
+    ],
+    [
+     "can't stand",
+     "I can't stand queuing."
+    ]
+   ]
+  },
+  {
+   "tipo": "tabla",
+   "cabecera": [
+    "Verbo + to + infinitivo",
+    "Ejemplo"
+   ],
+   "filas": [
+    [
+     "want",
+     "I want to leave."
+    ],
+    [
+     "decide",
+     "We decided to stay."
+    ],
+    [
+     "hope",
+     "She hopes to win."
+    ],
+    [
+     "need",
+     "You need to rest."
+    ],
+    [
+     "learn",
+     "He's learning to swim."
+    ],
+    [
+     "would like",
+     "I'd like to see it."
+    ],
+    [
+     "plan",
+     "They're planning to move."
+    ],
+    [
+     "promise",
+     "He promised to help."
+    ],
+    [
+     "afford (can't afford)",
+     "We can't afford to travel this year."
+    ]
+   ]
+  },
+  {
+   "tipo": "texto",
+   "texto": "Like, love y hate admiten las dos formas casi sin diferencia: I like swimming / I like to swim. Pero would like, would love y would prefer siempre llevan to: I'd like to go."
+  },
+  {
+   "tipo": "texto",
+   "texto": "Tras una preposición (about, of, at, in, without...) el verbo va siempre en -ing: I'm good at drawing; She left without saying goodbye."
+  },
+  {
+   "tipo": "texto",
+   "texto": "Go + -ing se usa para actividades: go shopping, go swimming, go running."
+  }
  ],
  "ejemplos": [
-  {"frase": "I enjoy walking by the sea.", "traduccion": "Disfruto paseando junto al mar."},
-  {"frase": "She decided to change jobs.", "traduccion": "Decidió cambiar de trabajo."},
-  {"frase": "Would you like to come for dinner?", "traduccion": "¿Te apetece venir a cenar?"},
-  {"frase": "Do you mind opening the window?", "traduccion": "¿Te importa abrir la ventana?"},
-  {"frase": "We need to talk.", "traduccion": "Tenemos que hablar."},
-  {"frase": "He's thinking of buying a flat.", "traduccion": "Está pensando en comprarse un piso."}
+  {
+   "frase": "I enjoy walking by the sea.",
+   "traduccion": "Disfruto paseando junto al mar."
+  },
+  {
+   "frase": "She decided to change jobs.",
+   "traduccion": "Decidió cambiar de trabajo."
+  },
+  {
+   "frase": "Would you like to come for dinner?",
+   "traduccion": "¿Te apetece venir a cenar?"
+  },
+  {
+   "frase": "Do you mind opening the window?",
+   "traduccion": "¿Te importa abrir la ventana?"
+  },
+  {
+   "frase": "We need to talk.",
+   "traduccion": "Tenemos que hablar."
+  },
+  {
+   "frase": "He's thinking of buying a flat.",
+   "traduccion": "Está pensando en comprarse un piso."
+  }
  ],
  "errores_hispanohablantes": [
-  {"mal": "I want go home.", "bien": "I want to go home.", "nota": "Want va seguido de to + infinitivo."},
-  {"mal": "I enjoy to dance.", "bien": "I enjoy dancing.", "nota": "Enjoy va seguido de -ing."},
-  {"mal": "Thank you for help me.", "bien": "Thank you for helping me.", "nota": "Después de preposición, -ing."},
-  {"mal": "I'd like going to the beach.", "bien": "I'd like to go to the beach.", "nota": "Would like va siempre con to."}
+  {
+   "mal": "I want go home.",
+   "bien": "I want to go home.",
+   "nota": "Want va seguido de to + infinitivo."
+  },
+  {
+   "mal": "I enjoy to dance.",
+   "bien": "I enjoy dancing.",
+   "nota": "Enjoy va seguido de -ing."
+  },
+  {
+   "mal": "Thank you for help me.",
+   "bien": "Thank you for helping me.",
+   "nota": "Después de preposición, -ing."
+  },
+  {
+   "mal": "I'd like going to the beach.",
+   "bien": "I'd like to go to the beach.",
+   "nota": "Would like va siempre con to."
+  }
  ],
  "ejercicios": [
-  {"id": "e01", "tipo": "hueco", "enunciado": "Completa con la forma correcta del verbo (-ing o to + infinitivo).", "frase": "Have you finished ___ (clean) the kitchen?", "respuestas": ["cleaning"], "explicacion": "Finish va seguido de -ing."},
-  {"id": "e02", "tipo": "hueco", "enunciado": "Completa con la forma correcta del verbo (-ing o to + infinitivo).", "frase": "We hope ___ (visit) Scotland next summer.", "respuestas": ["to visit"], "explicacion": "Hope va seguido de to + infinitivo."},
-  {"id": "e03", "tipo": "hueco", "enunciado": "Completa con la forma correcta del verbo (-ing o to + infinitivo).", "frase": "I'd like ___ (book) a table for two.", "respuestas": ["to book"], "explicacion": "Would like + to + infinitivo."},
-  {"id": "e04", "tipo": "hueco", "enunciado": "Completa con la forma correcta del verbo (-ing o to + infinitivo).", "frase": "My grandfather stopped ___ (smoke) twenty years ago.", "respuestas": ["smoking"], "explicacion": "Stop + -ing = dejar de hacer algo."},
-  {"id": "e05", "tipo": "hueco", "enunciado": "Completa con la forma correcta del verbo (-ing o to + infinitivo).", "frase": "She is very good at ___ (solve) problems.", "respuestas": ["solving"], "explicacion": "Tras la preposición at, -ing."},
-  {"id": "e06", "tipo": "eleccion", "enunciado": "Elige la opción correcta.", "frase": "They promised ___ us.", "opciones": ["calling", "to call", "call"], "respuestas": ["to call"], "explicacion": "Promise + to + infinitivo."},
-  {"id": "e07", "tipo": "eleccion", "enunciado": "Elige la opción correcta.", "frase": "Do you mind ___ the door?", "opciones": ["closing", "to close", "close"], "respuestas": ["closing"], "explicacion": "Mind + -ing."},
-  {"id": "e08", "tipo": "eleccion", "enunciado": "Elige la opción correcta.", "frase": "Let's go ___ this afternoon.", "opciones": ["to shop", "shopping", "shop"], "respuestas": ["shopping"], "explicacion": "Go + -ing para actividades: go shopping."},
-  {"id": "e09", "tipo": "eleccion", "enunciado": "Elige la opción correcta.", "frase": "I can't afford ___ a new car.", "opciones": ["buying", "to buy", "buy"], "respuestas": ["to buy"], "explicacion": "Afford + to + infinitivo."},
-  {"id": "e10", "tipo": "corregir", "enunciado": "Corrige el error.", "frase": "He decided studying engineering.", "respuestas": ["He decided to study engineering."], "explicacion": "Decide + to + infinitivo."},
-  {"id": "e11", "tipo": "corregir", "enunciado": "Corrige el error.", "frase": "I really enjoy to travel by train.", "respuestas": ["I really enjoy travelling by train.", "I really enjoy traveling by train."], "explicacion": "Enjoy + -ing."},
-  {"id": "e12", "tipo": "corregir", "enunciado": "Corrige el error.", "frase": "She left without say goodbye.", "respuestas": ["She left without saying goodbye."], "explicacion": "Tras la preposición without, -ing."},
-  {"id": "e13", "tipo": "ordenar", "enunciado": "Ordena las palabras.", "palabras": ["learn", "want", "I", "to", "drive", "to"], "respuestas": ["I want to learn to drive"], "explicacion": "Want + to + infinitivo; learn + to + infinitivo."},
-  {"id": "e14", "tipo": "ordenar", "enunciado": "Ordena las palabras.", "palabras": ["avoid", "please", "noise", "making"], "respuestas": ["Please avoid making noise", "Avoid making noise please"], "explicacion": "Avoid + -ing."}
+  {
+   "id": "e01",
+   "tipo": "hueco",
+   "enunciado": "Completa con la forma correcta del verbo (-ing o to + infinitivo).",
+   "frase": "Have you finished ___ (clean) the kitchen?",
+   "respuestas": [
+    "cleaning"
+   ],
+   "explicacion": "Finish está en la tabla de verbos que van seguidos de -ing. La pista es el verbo finished, justo antes del hueco. Aunque en español se diga «terminar de limpiar», con infinitivo, en inglés finish no admite to: el segundo verbo va en -ing, cleaning.",
+   "explicacion_breve": "Finish va seguido de -ing.",
+   "traduccion": "¿Has terminado de limpiar la cocina?",
+   "errores_previstos": [
+    {
+     "respuesta": "to clean",
+     "explicacion": "Finish no va con to + infinitivo; la ficha lo coloca entre los verbos que exigen -ing."
+    },
+    {
+     "respuesta": "of cleaning",
+     "explicacion": "Calco de «terminar de»: finish va directamente seguido del verbo en -ing, sin preposición."
+    },
+    {
+     "respuesta": "clean",
+     "explicacion": "Tras finish no puede ir el infinitivo sin to; hace falta la forma -ing."
+    }
+   ]
+  },
+  {
+   "id": "e02",
+   "tipo": "hueco",
+   "enunciado": "Completa con la forma correcta del verbo (-ing o to + infinitivo).",
+   "frase": "We hope ___ (visit) Scotland next summer.",
+   "respuestas": [
+    "to visit"
+   ],
+   "explicacion": "Hope está en la tabla de verbos seguidos de to + infinitivo. La pista es hope delante del hueco: cuando hope va seguido directamente de otro verbo, siempre lleva to. La forma correcta es to visit. Es lógico: hope, igual que want o plan, mira hacia algo que aún no ha ocurrido.",
+   "explicacion_breve": "Hope va seguido de to + infinitivo.",
+   "traduccion": "Esperamos visitar Escocia el próximo verano.",
+   "errores_previstos": [
+    {
+     "respuesta": "visiting",
+     "explicacion": "Hope no se construye con -ing; pide to + infinitivo."
+    },
+    {
+     "respuesta": "visit",
+     "explicacion": "Falta to: tras hope el verbo va en infinitivo con to."
+    },
+    {
+     "respuesta": "to visiting",
+     "explicacion": "Mezcla los dos patrones; tras to va el infinitivo, visit."
+    }
+   ]
+  },
+  {
+   "id": "e03",
+   "tipo": "hueco",
+   "enunciado": "Completa con la forma correcta del verbo (-ing o to + infinitivo).",
+   "frase": "I'd like ___ (book) a table for two.",
+   "respuestas": [
+    "to book"
+   ],
+   "explicacion": "La ficha insiste en que would like, would love y would prefer llevan siempre to + infinitivo, a diferencia de like solo. La pista es la contracción I'd like, que es would like. Por eso, aunque I like cooking sea correcto, aquí solo vale to book.",
+   "explicacion_breve": "Would like + to + infinitivo.",
+   "traduccion": "Querría reservar una mesa para dos.",
+   "errores_previstos": [
+    {
+     "respuesta": "booking",
+     "explicacion": "Like admite -ing, pero would like no: siempre va con to + infinitivo."
+    },
+    {
+     "respuesta": "book",
+     "explicacion": "Falta to: would like + to + infinitivo."
+    }
+   ]
+  },
+  {
+   "id": "e04",
+   "tipo": "hueco",
+   "enunciado": "Completa con la forma correcta del verbo (-ing o to + infinitivo).",
+   "frase": "My grandfather stopped ___ (smoke) twenty years ago.",
+   "respuestas": [
+    "smoking"
+   ],
+   "explicacion": "Stop figura en la tabla de verbos seguidos de -ing, con el sentido de «dejar de hacer algo». La pista es el sentido de la frase: el abuelo abandonó el hábito de fumar hace veinte años. Por eso stopped smoking. Si se usara to smoke, cambiaría el significado: pararse para fumar.",
+   "explicacion_breve": "Stop + -ing = dejar de hacer algo.",
+   "traduccion": "Mi abuelo dejó de fumar hace veinte años.",
+   "errores_previstos": [
+    {
+     "respuesta": "to smoke",
+     "explicacion": "Stop + to significa pararse para hacer otra cosa: diría que paró para fumarse un cigarro."
+    },
+    {
+     "respuesta": "of smoking",
+     "explicacion": "Calco de «dejar de»: stop va seguido directamente del verbo en -ing."
+    },
+    {
+     "respuesta": "smoke",
+     "explicacion": "Tras stop no va el infinitivo sin to; para «dejar de» se usa -ing."
+    }
+   ]
+  },
+  {
+   "id": "e05",
+   "tipo": "hueco",
+   "enunciado": "Completa con la forma correcta del verbo (-ing o to + infinitivo).",
+   "frase": "She is very good at ___ (solve) problems.",
+   "respuestas": [
+    "solving"
+   ],
+   "explicacion": "Se aplica la regla de la ficha: tras una preposición el verbo va siempre en -ing. La pista es good at, donde at es preposición. Aunque en español usemos el infinitivo («resolver»), en inglés lo que sigue a una preposición debe ser un nombre o un verbo en -ing: solving.",
+   "explicacion_breve": "Tras la preposición at, -ing.",
+   "traduccion": "Se le da muy bien resolver problemas.",
+   "errores_previstos": [
+    {
+     "respuesta": "solve",
+     "explicacion": "Tras la preposición at no puede ir el infinitivo; hace falta -ing."
+    },
+    {
+     "respuesta": "to solve",
+     "explicacion": "Preposición más to + infinitivo no es posible en inglés; se usa -ing."
+    }
+   ]
+  },
+  {
+   "id": "e06",
+   "tipo": "eleccion",
+   "enunciado": "Elige la opción correcta.",
+   "frase": "They promised ___ us.",
+   "opciones": [
+    "calling",
+    "to call",
+    "call"
+   ],
+   "respuestas": [
+    "to call"
+   ],
+   "explicacion": "Promise está en la tabla de verbos seguidos de to + infinitivo. La pista es promised: prometer siempre se refiere a una acción futura respecto al momento de la promesa, y estos verbos «de futuro» suelen llevar to. Por eso promised to call us.",
+   "explicacion_breve": "Promise + to + infinitivo.",
+   "traduccion": "Prometieron llamarnos.",
+   "por_opcion": {
+    "calling": "Incorrecta: promise no se construye con -ing.",
+    "to call": "Correcta: promise + to + infinitivo.",
+    "call": "Incorrecta: falta to; tras promise el verbo va en infinitivo con to."
+   }
+  },
+  {
+   "id": "e07",
+   "tipo": "eleccion",
+   "enunciado": "Elige la opción correcta.",
+   "frase": "Do you mind ___ the door?",
+   "opciones": [
+    "closing",
+    "to close",
+    "close"
+   ],
+   "respuestas": [
+    "closing"
+   ],
+   "explicacion": "Mind figura entre los verbos seguidos de -ing. La pista es la fórmula de petición cortés Do you mind…?, que siempre continúa con -ing: Do you mind closing the door? En español decimos «¿te importa cerrar?», con infinitivo, lo que lleva a errores.",
+   "explicacion_breve": "Mind + -ing.",
+   "traduccion": "¿Te importa cerrar la puerta?",
+   "por_opcion": {
+    "closing": "Correcta: mind + -ing, también en la fórmula Do you mind…?",
+    "to close": "Incorrecta: mind no admite to + infinitivo.",
+    "close": "Incorrecta: tras mind no va el infinitivo sin to."
+   }
+  },
+  {
+   "id": "e08",
+   "tipo": "eleccion",
+   "enunciado": "Elige la opción correcta.",
+   "frase": "Let's go ___ this afternoon.",
+   "opciones": [
+    "to shop",
+    "shopping",
+    "shop"
+   ],
+   "respuestas": [
+    "shopping"
+   ],
+   "explicacion": "La ficha recoge go + -ing para actividades: go shopping, go swimming, go running. La pista es go seguido del hueco con el sentido de realizar una actividad de ocio. No se usa la preposición to ni el infinitivo: el patrón fijo es go shopping.",
+   "explicacion_breve": "Go + -ing para actividades: go shopping.",
+   "traduccion": "Vamos de compras esta tarde.",
+   "por_opcion": {
+    "to shop": "Incorrecta aquí: go to shop significaría «ir para comprar» con un propósito concreto; la actividad de ir de compras es go shopping.",
+    "shopping": "Correcta: go + -ing para actividades, go shopping.",
+    "shop": "Incorrecta: go shop no es correcto en inglés estándar (sí aparece en inglés americano coloquial, pero no es la forma que se pide)."
+   }
+  },
+  {
+   "id": "e09",
+   "tipo": "eleccion",
+   "enunciado": "Elige la opción correcta.",
+   "frase": "I can't afford ___ a new car.",
+   "opciones": [
+    "buying",
+    "to buy",
+    "buy"
+   ],
+   "respuestas": [
+    "to buy"
+   ],
+   "explicacion": "Afford, «permitirse (económicamente)», va seguido de to + infinitivo, como otros verbos de la ficha que miran a una acción posible (want, need, plan). La pista es can't afford. Aunque no está en la tabla de la ficha, sigue el mismo patrón que decide o hope: can't afford to buy.",
+   "explicacion_breve": "Afford + to + infinitivo.",
+   "traduccion": "No me puedo permitir comprar un coche nuevo.",
+   "por_opcion": {
+    "buying": "Incorrecta: afford no se construye con -ing.",
+    "to buy": "Correcta: afford + to + infinitivo.",
+    "buy": "Incorrecta: falta to."
+   },
+   "glosario": [
+    {
+     "palabra": "afford",
+     "significado": "permitirse (pagar algo)"
+    }
+   ]
+  },
+  {
+   "id": "e10",
+   "tipo": "corregir",
+   "enunciado": "Corrige el error.",
+   "frase": "He decided studying engineering.",
+   "respuestas": [
+    "He decided to study engineering."
+   ],
+   "explicacion": "Decide está en la tabla de verbos seguidos de to + infinitivo. La pista es decided: tras él, el verbo que expresa lo decidido va con to. El error de la frase es usar -ing, quizá por analogía con otros verbos; la corrección es decided to study.",
+   "explicacion_breve": "Decide + to + infinitivo.",
+   "traduccion": "Decidió estudiar ingeniería.",
+   "errores_previstos": [
+    {
+     "respuesta": "He decided studying engineering.",
+     "explicacion": "Es la frase sin corregir: decide no va con -ing."
+    },
+    {
+     "respuesta": "He decided study engineering.",
+     "explicacion": "Falta to: decide + to + infinitivo."
+    },
+    {
+     "respuesta": "He decided to studying engineering.",
+     "explicacion": "Tras to va el infinitivo, study, no la forma -ing."
+    }
+   ]
+  },
+  {
+   "id": "e11",
+   "tipo": "corregir",
+   "enunciado": "Corrige el error.",
+   "frase": "I really enjoy to travel by train.",
+   "respuestas": [
+    "I really enjoy travelling by train.",
+    "I really enjoy traveling by train."
+   ],
+   "explicacion": "Enjoy está en la tabla de verbos seguidos de -ing. La pista es enjoy, que nunca admite to + infinitivo. Se aceptan las dos ortografías: travelling, británica, con doble l, y traveling, americana. La traducción natural es «me encanta» o «disfruto», aunque el inglés no use like.",
+   "explicacion_breve": "Enjoy + -ing.",
+   "traduccion": "Me encanta viajar en tren.",
+   "errores_previstos": [
+    {
+     "respuesta": "I really enjoy to travel by train.",
+     "explicacion": "Es la frase sin corregir: enjoy no va con to + infinitivo."
+    },
+    {
+     "respuesta": "I really enjoy travel by train.",
+     "explicacion": "Travel aquí sería un nombre o un infinitivo sin to; tras enjoy hace falta -ing."
+    }
+   ]
+  },
+  {
+   "id": "e12",
+   "tipo": "corregir",
+   "enunciado": "Corrige el error.",
+   "frase": "She left without say goodbye.",
+   "respuestas": [
+    "She left without saying goodbye."
+   ],
+   "explicacion": "Se aplica la regla de la ficha: tras una preposición el verbo va en -ing. Without es preposición, por lo que el verbo que la sigue no puede ir en infinitivo como en español («sin decir»): without saying goodbye.",
+   "explicacion_breve": "Tras la preposición without, -ing.",
+   "traduccion": "Se fue sin despedirse.",
+   "errores_previstos": [
+    {
+     "respuesta": "She left without say goodbye.",
+     "explicacion": "Es la frase sin corregir: tras without no puede ir el infinitivo."
+    },
+    {
+     "respuesta": "She left without to say goodbye.",
+     "explicacion": "Preposición más to + infinitivo no es posible; hace falta -ing."
+    }
+   ]
+  },
+  {
+   "id": "e13",
+   "tipo": "ordenar",
+   "enunciado": "Ordena las palabras.",
+   "palabras": [
+    "learn",
+    "want",
+    "I",
+    "to",
+    "drive",
+    "to"
+   ],
+   "respuestas": [
+    "I want to learn to drive"
+   ],
+   "explicacion": "La frase encadena dos verbos de la tabla de to + infinitivo: want y learn. La pista es que hay dos to entre las palabras: uno tras want y otro tras learn. El orden es sujeto + want + to + learn + to + drive. Fíjate en que «aprender a» no lleva preposición en inglés, sino to + infinitivo.",
+   "explicacion_breve": "Want + to + infinitivo; learn + to + infinitivo.",
+   "traduccion": "Quiero aprender a conducir.",
+   "errores_previstos": [
+    {
+     "respuesta": "I want learn to to drive",
+     "explicacion": "Cada to va inmediatamente antes de su infinitivo: want to learn, learn to drive."
+    },
+    {
+     "respuesta": "I to want to learn drive",
+     "explicacion": "To no puede ir delante del verbo conjugado want; va tras él."
+    }
+   ]
+  },
+  {
+   "id": "e14",
+   "tipo": "ordenar",
+   "enunciado": "Ordena las palabras.",
+   "palabras": [
+    "avoid",
+    "please",
+    "noise",
+    "making"
+   ],
+   "respuestas": [
+    "Please avoid making noise",
+    "Avoid making noise please"
+   ],
+   "explicacion": "Avoid está en la tabla de verbos seguidos de -ing. La pista es avoid junto a making entre las palabras: evitar hacer algo es avoid + -ing. Please puede ir al principio o al final de una orden, por eso se aceptan los dos órdenes; lo fijo es avoid making noise.",
+   "explicacion_breve": "Avoid + -ing.",
+   "traduccion": "Por favor, evitad hacer ruido.",
+   "errores_previstos": [
+    {
+     "respuesta": "Please making avoid noise",
+     "explicacion": "El verbo principal de la orden es avoid, y making va detrás de él."
+    },
+    {
+     "respuesta": "Please avoid noise making",
+     "explicacion": "El objeto noise va tras making, no delante (make noise, hacer ruido)."
+    }
+   ]
+  }
  ],
- "fuente": {"nombre": "propia"}
+ "fuente": {
+  "nombre": "propia"
+ },
+ "descripcion_larga_es": "Cuando un verbo inglés va seguido de otro, el segundo puede ir en -ing (enjoy reading) o en infinitivo con to (want to read), y cuál toca depende del primer verbo. Es una de las fuentes de error más frecuentes, porque el español usa casi siempre el infinitivo sin más («quiero ir», «disfruto leyendo»). La solución es aprender cada verbo con su patrón.",
+ "contexto": {
+  "que_es": "Es el patrón que sigue un verbo cuando le acompaña otro verbo. Unos verbos piden -ing (enjoy, finish, mind, stop, avoid, can't stand), otros to + infinitivo (want, decide, hope, need, learn, would like, plan, promise) y algunos admiten ambos casi sin diferencia (like, love, hate). Además, después de cualquier preposición el verbo va en -ing.",
+  "por_que_importa": "Estas combinaciones aparecen en casi todas las frases en que se habla de gustos, planes y decisiones, así que un error aquí se repite constantemente. Frases como «I want go» o «I enjoy to dance» se entienden, pero suenan claramente extranjeras y en un examen restan puntos de corrección gramatical en cada aparición.",
+  "cuando_se_usa": "Siempre que encadenas dos verbos: hablar de lo que te gusta, lo que quieres, lo que decides o lo que evitas. La señal es el primer verbo: si es enjoy, mind, finish o avoid, -ing; si es want, decide, hope o would like, to. El hispanohablante tiende a poner infinitivo en todos los casos y a olvidar el to, o a usar infinitivo tras preposición («without say»)."
+ }
 }

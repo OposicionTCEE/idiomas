@@ -121,7 +121,23 @@
    "respuestas": [
     "quitterait"
    ],
-   "explicacion": "Dato no confirmado atribuido a una fuente: condicional."
+   "explicacion": "Se aplica el condicional periodístico que abre la ficha: un dato atribuido a una fuente y no confirmado va en condicional. La pista es «selon nos informations», que marca que la noticia no está verificada. Quitter en condicional se forma con el infinitivo y la terminación -ait: quitterait. El español de prensa usaría también el condicional o «al parecer».",
+   "explicacion_breve": "Dato no confirmado atribuido a una fuente: condicional.",
+   "traduccion": "Según nuestras informaciones, el presidente dejaría la empresa en junio.",
+   "errores_previstos": [
+    {
+     "respuesta": "quittera",
+     "explicacion": "Es el futuro: presenta el hecho como seguro; un dato no confirmado exige el condicional quitterait."
+    },
+    {
+     "respuesta": "quitte",
+     "explicacion": "El presente afirma el hecho sin reserva; con selon nos informations la prensa usa el condicional."
+    },
+    {
+     "respuesta": "quitterais",
+     "explicacion": "Es la forma de je y tu; con le PDG la terminación es -ait."
+    }
+   ]
   },
   {
    "id": "e02",
@@ -131,7 +147,23 @@
    "respuestas": [
     "aurait fait"
    ],
-   "explicacion": "Hecho pasado no confirmado: condicional pasado."
+   "explicacion": "Para un hecho pasado no confirmado, la ficha pide el condicional pasado: avoir en condicional + participio. La pista es «selon les pompiers», una fuente externa, y el hecho ya ocurrido. Faire se conjuga con avoir, así que la forma es aurait fait. En español periodístico también se dice «habría causado».",
+   "explicacion_breve": "Hecho pasado no confirmado: condicional pasado.",
+   "traduccion": "El accidente habría causado tres heridos, según los bomberos.",
+   "errores_previstos": [
+    {
+     "respuesta": "a fait",
+     "explicacion": "El passé composé presenta el dato como confirmado; si procede de una fuente sin verificar, va en condicional pasado: aurait fait."
+    },
+    {
+     "respuesta": "ferait",
+     "explicacion": "Es el condicional presente; el hecho ya ha ocurrido, así que hace falta el condicional pasado aurait fait."
+    },
+    {
+     "respuesta": "aurait faits",
+     "explicacion": "El participio no concuerda: el complemento trois blessés va detrás del verbo."
+    }
+   ]
   },
   {
    "id": "e03",
@@ -141,7 +173,23 @@
    "respuestas": [
     "soit"
    ],
-   "explicacion": "Il est possible que + subjuntivo."
+   "explicacion": "La tabla de la ficha indica que il est possible que va seguido de subjuntivo. La pista es la expresión de posibilidad, que introduce un hecho incierto. Être en subjuntivo presente es soit con un sujeto de tercera persona. Igual que en español («es posible que se aplace»), la posibilidad exige subjuntivo.",
+   "explicacion_breve": "Il est possible que + subjuntivo.",
+   "traduccion": "Es posible que la reunión se aplace.",
+   "errores_previstos": [
+    {
+     "respuesta": "est",
+     "explicacion": "Es indicativo; il est possible que exige subjuntivo, como recoge la ficha entre sus errores típicos."
+    },
+    {
+     "respuesta": "sera",
+     "explicacion": "El futuro de indicativo no vale tras il est possible que; hace falta el subjuntivo soit."
+    },
+    {
+     "respuesta": "sois",
+     "explicacion": "Es el subjuntivo de je y tu; con la réunion es soit."
+    }
+   ]
   },
   {
    "id": "e04",
@@ -151,7 +199,19 @@
    "respuestas": [
     "as"
    ],
-   "explicacion": "Il me semble que + indicativo."
+   "explicacion": "La ficha distingue il semble que, que pide subjuntivo, de il me semble que, que pide indicativo, porque con el complemento de persona el hablante asume la opinión. La pista es me en il me semble. Por eso se usa el indicativo del passé composé: tu as maigri. El español coincide: «me parece que has adelgazado».",
+   "explicacion_breve": "Il me semble que + indicativo.",
+   "traduccion": "Me parece que has adelgazado.",
+   "errores_previstos": [
+    {
+     "respuesta": "aies",
+     "explicacion": "Subjuntivo; sería la forma para il semble que sin complemento de persona. Con il me semble que va indicativo: as."
+    },
+    {
+     "respuesta": "a",
+     "explicacion": "Es la forma de il; con tu el auxiliar es as."
+    }
+   ]
   },
   {
    "id": "e05",
@@ -166,7 +226,14 @@
    "respuestas": [
     "augmenteront"
    ],
-   "explicacion": "Il est probable que va con indicativo."
+   "explicacion": "La tabla de la ficha indica que il est probable que va con indicativo, a diferencia de il est possible que. La razón es que la probabilidad se percibe como casi cierta. La pista es «l'an prochain», que pide un tiempo futuro: augmenteront. Aquí el francés difiere del español, que usa subjuntivo («es probable que suban»).",
+   "explicacion_breve": "Il est probable que va con indicativo.",
+   "traduccion": "Es probable que los precios suban el año que viene.",
+   "por_opcion": {
+    "augmenteront": "Correcta: futuro de indicativo, el modo que pide il est probable que, y concordante con l'an prochain.",
+    "augmentaient": "Es el imperfecto de indicativo; el modo sería válido, pero el tiempo choca con l'an prochain.",
+    "augmentassent": "Es el subjuntivo imperfecto, forma literaria casi en desuso; además il est probable que no pide subjuntivo."
+   }
   },
   {
    "id": "e06",
@@ -181,7 +248,14 @@
    "respuestas": [
     "Sans aucun doute"
    ],
-   "explicacion": "Solo sans aucun doute expresa certeza; sans doute = probablemente."
+   "explicacion": "La ficha destaca el falso amigo sans doute, que significa «probablemente» y no «sin duda». Para expresar certeza hay que decir sans aucun doute. La pista es el enunciado, que pide certeza. Peut-être expresa todavía menos seguridad: «quizá».",
+   "explicacion_breve": "Solo sans aucun doute expresa certeza; sans doute = probablemente.",
+   "traduccion": "Sin ninguna duda, es la mejor novela del año.",
+   "por_opcion": {
+    "Sans aucun doute": "Correcta: expresa certeza total, «sin ninguna duda».",
+    "Sans doute": "Falso amigo: significa «probablemente», así que atenúa la afirmación en lugar de reforzarla.",
+    "Peut-être": "Significa «quizá»; expresa duda, no certeza."
+   }
   },
   {
    "id": "e07",
@@ -196,7 +270,14 @@
    "respuestas": [
     "dise"
    ],
-   "explicacion": "Douter que + subjuntivo."
+   "explicacion": "La tabla de la ficha incluye je doute que entre las expresiones que piden subjuntivo. La pista es el verbo douter, que pone en cuestión la subordinada. Dire en subjuntivo presente es qu'il dise. El español coincide: «dudo que diga».",
+   "explicacion_breve": "Douter que + subjuntivo.",
+   "traduccion": "Dudo que diga la verdad.",
+   "por_opcion": {
+    "dise": "Correcta: subjuntivo presente de dire, exigido por douter que.",
+    "dit": "Es indicativo; douter que exige subjuntivo.",
+    "dira": "Es futuro de indicativo; tras douter que no se usa el indicativo."
+   }
   },
   {
    "id": "e08",
@@ -211,7 +292,14 @@
    "respuestas": [
     "prétend"
    ],
-   "explicacion": "Prétendre indica una afirmación que el hablante pone en duda."
+   "explicacion": "La ficha señala que prétendre, entre los verbos de opinión, sugiere que lo afirmado es falso. La pista es «mais personne ne le croit», que muestra la desconfianza del hablante. Ojo: prétendre significa «afirmar, alegar», no «pretender» en el sentido de «aspirar a». Constater y démontrer, en cambio, dan el hecho por cierto.",
+   "explicacion_breve": "Prétendre indica una afirmación que el hablante pone en duda.",
+   "traduccion": "Pretende haber estado enfermo, pero nadie le cree.",
+   "por_opcion": {
+    "prétend": "Correcta: afirma algo que el hablante pone en duda; equivale a «asegura» o «alega».",
+    "constate": "Significa «constata», es decir, comprueba un hecho; contradice «personne ne le croit».",
+    "démontre": "Significa «demuestra»: presenta el hecho como probado, lo contrario de lo que pide la frase."
+   }
   },
   {
    "id": "e09",
@@ -221,17 +309,45 @@
    "respuestas": [
     "Le gouvernement préparerait une nouvelle taxe."
    ],
-   "explicacion": "El condicional marca que la información no está confirmada."
+   "explicacion": "Se aplica el condicional periodístico para convertir una afirmación en un dato no confirmado. Préparer en condicional es préparerait: infinitivo + -ait. El resto de la frase queda igual. En español suena más natural «el Gobierno estaría preparando» o «al parecer, el Gobierno prepara».",
+   "explicacion_breve": "El condicional marca que la información no está confirmada.",
+   "traduccion": "El Gobierno estaría preparando un nuevo impuesto.",
+   "errores_previstos": [
+    {
+     "respuesta": "Le gouvernement préparera une nouvelle taxe.",
+     "explicacion": "Es el futuro: anuncia el hecho como seguro; el condicional lleva -ait: préparerait."
+    },
+    {
+     "respuesta": "Le gouvernement préparait une nouvelle taxe.",
+     "explicacion": "Es el imperfecto, no el condicional: falta la r del infinitivo (préparerait). Cambia el tiempo y no marca que el dato esté sin confirmar."
+    }
+   ]
   },
   {
    "id": "e10",
    "tipo": "transformar",
-   "enunciado": "Reescribe empezando por «Il semble que».",
+   "enunciado": "Reescribe empezando por «Il semble que», con el modo que pide la norma (subjuntivo).",
    "frase": "Les électeurs sont fatigués.",
    "respuestas": [
     "Il semble que les électeurs soient fatigués."
    ],
-   "explicacion": "Il semble que + subjuntivo."
+   "explicacion": "La ficha explica que il semble que, sin complemento de persona, va seguido de subjuntivo según la norma (el indicativo solo aparece cuando el hecho se presenta como casi seguro); por eso el enunciado pide expresamente el subjuntivo. Être en subjuntivo con un sujeto plural es soient. La pista es que hay que empezar por il semble que, sin me ni te. El español usaría indicativo («parece que están»), lo que explica el error frecuente.",
+   "explicacion_breve": "Il semble que + subjuntivo.",
+   "traduccion": "Parece que los votantes están cansados.",
+   "errores_previstos": [
+    {
+     "respuesta": "Il me semble que les électeurs soient fatigués.",
+     "explicacion": "Se ha añadido me: il me semble que va con indicativo, y el enunciado pide empezar por il semble que, que según la norma lleva subjuntivo (soient). En el uso se oye el indicativo tras il semble que cuando el hecho parece casi seguro, como señala la ficha."
+    },
+    {
+     "respuesta": "Il semble que les électeurs soit fatigués.",
+     "explicacion": "El verbo concuerda con les électeurs, plural: soient."
+    },
+    {
+     "respuesta": "Il semble que les électeurs sont fatigués.",
+     "explicacion": "El indicativo se oye tras il semble que cuando el hecho parece casi seguro, pero el enunciado pide el modo de la norma, el subjuntivo: soient."
+    }
+   ]
   },
   {
    "id": "e11",
@@ -241,7 +357,23 @@
    "respuestas": [
     "Il est peu probable qu'elle vienne ce soir."
    ],
-   "explicacion": "Peu probable expresa duda: subjuntivo."
+   "explicacion": "La tabla de la ficha distingue il est probable que, con indicativo, de il est peu probable que, con subjuntivo, porque esta última expresa duda. El error es vient, indicativo. Venir en subjuntivo es qu'elle vienne. La pista es peu, que convierte la probabilidad en improbabilidad.",
+   "explicacion_breve": "Peu probable expresa duda: subjuntivo.",
+   "traduccion": "Es poco probable que venga esta noche.",
+   "errores_previstos": [
+    {
+     "respuesta": "Il est peu probable qu'elle vient ce soir.",
+     "explicacion": "Es la frase sin corregir: la improbabilidad exige subjuntivo."
+    },
+    {
+     "respuesta": "Il est peu probable qu'elle viendra ce soir.",
+     "explicacion": "El futuro de indicativo tampoco vale; hace falta el subjuntivo vienne."
+    },
+    {
+     "respuesta": "Il est peu probable qu'elle viene ce soir.",
+     "explicacion": "Viene no es una forma francesa; el subjuntivo de venir es vienne."
+    }
+   ]
   },
   {
    "id": "e12",
@@ -251,7 +383,19 @@
    "respuestas": [
     "Selon la police, le suspect aurait fui à l'étranger, mais rien n'est confirmé."
    ],
-   "explicacion": "Si nada está confirmado, la prensa usa el condicional pasado."
+   "explicacion": "La pista decisiva es «mais rien n'est confirmé»: el dato no está verificado, así que la ficha exige el condicional periodístico. Como el hecho es pasado, va en condicional pasado: aurait fui. El auxiliar es avoir, que pasa de a a aurait. Mantener el passé composé presentaría la huida como un hecho comprobado y contradiría el final de la frase.",
+   "explicacion_breve": "Si nada está confirmado, la prensa usa el condicional pasado.",
+   "traduccion": "Según la policía, el sospechoso habría huido al extranjero, pero no hay nada confirmado.",
+   "errores_previstos": [
+    {
+     "respuesta": "Selon la police, le suspect a fui à l'étranger, mais rien n'est confirmé.",
+     "explicacion": "Es la frase sin corregir: un hecho no confirmado no puede ir en passé composé."
+    },
+    {
+     "respuesta": "Selon la police, le suspect fuirait à l'étranger, mais rien n'est confirmé.",
+     "explicacion": "Es el condicional presente; el hecho es pasado, así que hace falta aurait fui."
+    }
+   ]
   },
   {
    "id": "e13",
@@ -269,7 +413,19 @@
    "respuestas": [
     "Tout porte à croire qu'il a menti"
    ],
-   "explicacion": "Tout porte à croire que + indicativo: fórmula de probabilidad alta."
+   "explicacion": "La ficha recoge tout porte à croire que entre las fórmulas prudentes: expresa una probabilidad alta y va seguida de indicativo. El orden es fijo: tout porte à croire, después que (aquí elidido en qu'il) y la subordinada a menti. La preposición à va entre porte y croire. En español equivale a «todo hace pensar que» o «todo indica que».",
+   "explicacion_breve": "Tout porte à croire que + indicativo: fórmula de probabilidad alta.",
+   "traduccion": "Todo hace pensar que ha mentido.",
+   "errores_previstos": [
+    {
+     "respuesta": "Tout porte croire à qu'il a menti",
+     "explicacion": "La preposición à va entre porter y croire: porte à croire."
+    },
+    {
+     "respuesta": "Tout à croire porte qu'il a menti",
+     "explicacion": "El verbo conjugado porte va detrás de tout; la locución es tout porte à croire."
+    }
+   ]
   },
   {
    "id": "e14",
@@ -289,10 +445,28 @@
    "respuestas": [
     "Force est de constater que l'objectif n'est pas atteint"
    ],
-   "explicacion": "Force est de constater que = hay que reconocer que."
+   "explicacion": "La ficha da force est de constater que como fórmula de registro culto equivalente a «hay que reconocer que». El orden es fijo y sin artículo: force est de constater. Después va la subordinada en indicativo con la negación ne… pas rodeando el verbo n'est. Es muy útil para concluir con un dato poco favorable en un comentario.",
+   "explicacion_breve": "Force est de constater que = hay que reconocer que.",
+   "traduccion": "Hay que reconocer que el objetivo no se ha alcanzado.",
+   "errores_previstos": [
+    {
+     "respuesta": "Est force de constater que l'objectif n'est pas atteint",
+     "explicacion": "La locución empieza por force: force est de constater."
+    },
+    {
+     "respuesta": "Force est de constater que l'objectif pas n'est atteint",
+     "explicacion": "Ne y pas rodean el verbo conjugado: n'est pas."
+    }
+   ]
   }
  ],
  "fuente": {
   "nombre": "propia"
+ },
+ "descripcion_larga_es": "Modalizar es indicar el grado de certeza o de compromiso con lo que se dice: condicional periodístico, expresiones como il semble que o il est probable que, adverbios de duda o certeza y verbos de opinión. Es imprescindible para resumir textos, informar de datos no confirmados y opinar con prudencia. Al hispanohablante le cuesta elegir modo tras cada expresión y no confundir sans doute con «sin duda».",
+ "contexto": {
+  "que_es": "La modalización es el conjunto de recursos con que el hablante matiza su compromiso con la información: el condicional periodístico para lo no confirmado, las construcciones impersonales de probabilidad o duda (il semble que, il est possible que), los adverbios de certeza o duda y los verbos de opinión (estimer, prétendre). Cada construcción exige un modo concreto, indicativo o subjuntivo.",
+  "por_que_importa": "En un resumen o comentario de texto hay que distinguir lo que afirma el autor de lo que se rumorea, y en un debate conviene opinar con prudencia. Usar el indicativo donde hace falta subjuntivo, o presentar como cierto un dato no confirmado, resta precisión y credibilidad. A nivel C1, el examinador espera ver estos matices bien manejados.",
+  "cuando_se_usa": "Al informar de datos atribuidos a otros (selon la presse, le projet coûterait…), al expresar una hipótesis (il est probable que…), al dudar (je doute que…) o al concluir con prudencia (tout porte à croire que…). Las señales son fuentes citadas, verbos de opinión y expresiones de probabilidad. El hispanohablante debe vigilar el modo, que no siempre coincide con el español, y el falso amigo sans doute."
  }
 }

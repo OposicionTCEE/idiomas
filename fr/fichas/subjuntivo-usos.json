@@ -117,8 +117,24 @@
    "respuestas": [
     "viennes"
    ],
-   "explicacion": "Vouloir que + dos sujetos → subjuntivo.",
-   "origen": "tatoeba:568087"
+   "explicacion": "Se aplica el truco de la boda de la ficha: hay dos sujetos distintos (je y tu), un que que los une y un verbo de voluntad (vouloir). Las tres condiciones exigen subjuntivo. Venir es un verbo de dos raíces: la de ils viennent da que tu viennes, con doble n. La frase correcta es «Je veux que tu viennes ici».",
+   "origen": "tatoeba:568087",
+   "explicacion_breve": "Vouloir que + dos sujetos → subjuntivo.",
+   "traduccion": "Quiero que vengas aquí.",
+   "errores_previstos": [
+    {
+     "respuesta": "viens",
+     "explicacion": "Es el presente de indicativo. Vouloir que con otro sujeto exige subjuntivo: viennes."
+    },
+    {
+     "respuesta": "venes",
+     "explicacion": "Aplica una raíz inexistente. El subjuntivo de venir toma la raíz de ils viennent: que tu viennes."
+    },
+    {
+     "respuesta": "viènes",
+     "explicacion": "Falta una n y sobra el acento: la forma es viennes."
+    }
+   ]
   },
   {
    "id": "e02",
@@ -128,8 +144,20 @@
    "respuestas": [
     "fonctionne"
    ],
-   "explicacion": "Douter que expresa duda → subjuntivo.",
-   "origen": "tatoeba:683261"
+   "explicacion": "La tabla de la ficha sitúa douter que entre las expresiones de duda y posibilidad, que exigen subjuntivo, como «dudo que» en español. Fonctionner es un verbo regular en -er: ils fonctionnent → fonctionn- + -e. Con el sujeto cela (tercera persona del singular), la forma es fonctionne, que coincide con el presente de indicativo. La frase es «Je doute que cela fonctionne».",
+   "origen": "tatoeba:683261",
+   "explicacion_breve": "Douter que expresa duda → subjuntivo.",
+   "traduccion": "Dudo que esto funcione.",
+   "errores_previstos": [
+    {
+     "respuesta": "fonctionnera",
+     "explicacion": "Es el futuro de indicativo. Douter que exige subjuntivo, y el subjuntivo presente cubre también la idea de futuro."
+    },
+    {
+     "respuesta": "fonctione",
+     "explicacion": "Falta una n: fonctionner se escribe con doble n."
+    }
+   ]
   },
   {
    "id": "e03",
@@ -139,8 +167,20 @@
    "respuestas": [
     "lises"
    ],
-   "explicacion": "Voluntad → subjuntivo; ils lisent → que tu lises.",
-   "origen": "tatoeba:477115"
+   "explicacion": "Hay voluntad (je veux) y dos sujetos distintos, así que la subordinada va en subjuntivo según la regla de la ficha. Lire forma el subjuntivo con la raíz de ils lisent, lis-, más la terminación -es para tu. La forma correcta es lises: «Je veux que tu lises ce livre». La s de la raíz se pronuncia [z].",
+   "origen": "tatoeba:477115",
+   "explicacion_breve": "Voluntad → subjuntivo; ils lisent → que tu lises.",
+   "traduccion": "Quiero que leas este libro.",
+   "errores_previstos": [
+    {
+     "respuesta": "lis",
+     "explicacion": "Es el presente de indicativo. Tras vouloir que con otro sujeto se necesita subjuntivo: lises."
+    },
+    {
+     "respuesta": "lires",
+     "explicacion": "Construye el subjuntivo sobre el infinitivo. Hay que partir de ils lisent: que tu lises."
+    }
+   ]
   },
   {
    "id": "e04",
@@ -150,7 +190,19 @@
    "respuestas": [
     "est"
    ],
-   "explicacion": "Savoir que expresa certeza → indicativo."
+   "explicacion": "Este ejercicio comprueba el caso contrario. La ficha explica que los verbos de certeza llevan indicativo, y savoir que («saber que») es el ejemplo más claro: lo que se sabe se presenta como un hecho. Por eso el verbo être va en presente de indicativo: Tex est un génie. Es igual que en español: «sé que es», no «sé que sea».",
+   "explicacion_breve": "Savoir que expresa certeza → indicativo.",
+   "traduccion": "Sé que Tex es un genio.",
+   "errores_previstos": [
+    {
+     "respuesta": "soit",
+     "explicacion": "Es subjuntivo. Savoir que expresa certeza y lleva indicativo: est."
+    },
+    {
+     "respuesta": "es",
+     "explicacion": "Es la forma de tu. Con el sujeto Tex (tercera persona) es est."
+    }
+   ]
   },
   {
    "id": "e05",
@@ -160,8 +212,30 @@
    "respuestas": [
     "quittes"
    ],
-   "explicacion": "Avoir peur que (temor) → subjuntivo; en lengua actual se usa el presente de subjuntivo aunque el verbo principal esté en pasado.",
-   "origen": "tatoeba:491995"
+   "explicacion": "Avoir peur que figura en la tabla de la ficha entre las expresiones de emoción, que exigen subjuntivo. La ficha también recuerda que el francés actual no usa el imperfecto de subjuntivo: aunque la principal esté en pasado (j'avais peur), se emplea el presente de subjuntivo. Quitter es regular en -er; con tu, quittes. En español diríamos «dejaras», pero en francés es que tu me quittes.",
+   "origen": "tatoeba:491995",
+   "explicacion_breve": "Avoir peur que (temor) → subjuntivo; en lengua actual se usa el presente de subjuntivo aunque el verbo principal esté en pasado.",
+   "traduccion": "Tenía miedo de que me dejaras.",
+   "errores_previstos": [
+    {
+     "respuesta": "quittais",
+     "explicacion": "Es imperfecto de indicativo, calco del español «dejabas» o de la concordancia de tiempos. Avoir peur que exige subjuntivo: quittes."
+    },
+    {
+     "respuesta": "quittasses",
+     "explicacion": "Es el imperfecto de subjuntivo literario, hoy en desuso. En francés actual se usa el presente: quittes."
+    },
+    {
+     "respuesta": "quitte",
+     "explicacion": "Es la forma de je o il. Con tu el subjuntivo lleva -s: quittes."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "quitter quelqu'un",
+     "significado": "dejar a alguien (romper una relación)"
+    }
+   ]
   },
   {
    "id": "e06",
@@ -173,7 +247,23 @@
     "prépare",
     "va préparer"
    ],
-   "explicacion": "Espérer que va con indicativo (normalmente futuro)."
+   "explicacion": "La ficha subraya una de las diferencias más importantes con el español: espérer que va con indicativo, aunque «espero que» lleve subjuntivo. Como la acción es futura (ce soir), lo más habitual es el futuro préparera, pero también valen el presente prépare, que en indicativo puede tener valor de futuro próximo, y el futuro perifrástico va préparer. Las tres son indicativo, y por eso se aceptan todas.",
+   "explicacion_breve": "Espérer que va con indicativo (normalmente futuro).",
+   "traduccion": "Tex espera que Edouard prepare un cuscús esta noche.",
+   "errores_previstos": [
+    {
+     "respuesta": "prépares",
+     "explicacion": "Es la forma de tu; con el sujeto Edouard hace falta tercera persona: prépare o préparera."
+    },
+    {
+     "respuesta": "préparerait",
+     "explicacion": "Es condicional. Tras espérer que en presente se usa indicativo presente o futuro: préparera."
+    },
+    {
+     "respuesta": "prépara",
+     "explicacion": "Es passé simple, un pasado literario. La acción es futura (ce soir): préparera."
+    }
+   ]
   },
   {
    "id": "e07",
@@ -183,7 +273,23 @@
    "respuestas": [
     "ait"
    ],
-   "explicacion": "Penser en negativa introduce duda → subjuntivo."
+   "explicacion": "La ficha incluye la opinión negada entre los contextos de subjuntivo: je pense que en afirmativa lleva indicativo, pero je ne pense pas que introduce duda y pide subjuntivo. Avoir es irregular y con tercera persona del singular su subjuntivo es ait. La frase correcta es «Je ne pense pas que Bette ait beaucoup d'amis», igual que en español «no creo que tenga».",
+   "explicacion_breve": "Penser en negativa introduce duda → subjuntivo.",
+   "traduccion": "No creo que Bette tenga muchos amigos.",
+   "errores_previstos": [
+    {
+     "respuesta": "a",
+     "explicacion": "Es indicativo. Penser en negativa expresa duda y exige subjuntivo: ait."
+    },
+    {
+     "respuesta": "aie",
+     "explicacion": "Es la forma de je. Con Bette, tercera persona, es ait."
+    },
+    {
+     "respuesta": "est",
+     "explicacion": "Cambia el verbo: avoir beaucoup d'amis no se construye con être. Además, hace falta subjuntivo: ait."
+    }
+   ]
   },
   {
    "id": "e08",
@@ -199,8 +305,16 @@
    "respuestas": [
     "aidions"
    ],
-   "explicacion": "Vouloir que con otro sujeto (nous) → subjuntivo aidions.",
-   "origen": "tatoeba:9771720"
+   "explicacion": "Vouloir que, con un sujeto distinto en la subordinada (nous), exige subjuntivo según la regla de la ficha. Aider es regular en -er y, con nous, el subjuntivo termina en -ions, igual que el imperfecto de indicativo: aidions. La forma l' es el pronombre de complemento directo (a Tom), que en francés va delante del verbo. Resultado: «Tom veut que nous l'aidions».",
+   "origen": "tatoeba:9771720",
+   "explicacion_breve": "Vouloir que con otro sujeto (nous) → subjuntivo aidions.",
+   "traduccion": "Tom quiere que lo ayudemos.",
+   "por_opcion": {
+    "aidions": "Correcta: subjuntivo presente de aider con nous (-ions), exigido por vouloir que con otro sujeto.",
+    "aidons": "Incorrecta: es presente de indicativo. Le falta la i característica del subjuntivo de nous.",
+    "aider": "Incorrecta: el infinitivo solo se usa cuando el sujeto es el mismo (Tom veut l'aider). Aquí el sujeto cambia.",
+    "aiderons": "Incorrecta: es futuro de indicativo. Tras vouloir que no se usa futuro; el subjuntivo presente ya cubre el valor futuro."
+   }
   },
   {
    "id": "e09",
@@ -215,7 +329,14 @@
    "respuestas": [
     "as"
    ],
-   "explicacion": "Il est clair que expresa certeza → indicativo."
+   "explicacion": "La ficha recoge il est clair que entre las expresiones de certeza, que van con indicativo. Lo que está claro se presenta como un hecho, no como una duda ni un deseo. Por eso avoir va en presente de indicativo con tu: as. Igual que en español: «está claro que tienes razón», no «que tengas».",
+   "explicacion_breve": "Il est clair que expresa certeza → indicativo.",
+   "traduccion": "Está claro que tienes razón.",
+   "por_opcion": {
+    "as": "Correcta: presente de indicativo de avoir; il est clair que expresa certeza.",
+    "aies": "Incorrecta: es subjuntivo, que solo correspondería a una duda o negación (il n'est pas clair que tu aies raison).",
+    "avoir": "Incorrecta: el infinitivo no puede ir detrás de que con un sujeto conjugado (tu)."
+   }
   },
   {
    "id": "e10",
@@ -230,7 +351,14 @@
    "respuestas": [
     "soit"
    ],
-   "explicacion": "El antecedente puede no existir (no lo encuentra): subjuntivo en la relativa."
+   "explicacion": "La ficha explica que en las relativas el subjuntivo indica que no se sabe si el antecedente existe. Aquí la pista es «mais je n'en trouve pas»: el piso buscado es hipotético. Por eso se usa el subjuntivo de être, soit, igual que en español «que esté». Si se tratara de un piso concreto y conocido, iría indicativo: qui est.",
+   "explicacion_breve": "El antecedente puede no existir (no lo encuentra): subjuntivo en la relativa.",
+   "traduccion": "Busco un piso que esté cerca del centro, pero no encuentro ninguno.",
+   "por_opcion": {
+    "soit": "Correcta: subjuntivo en una relativa con antecedente hipotético (no se sabe si existe).",
+    "est": "Incorrecta en esta frase: el indicativo supondría que el piso existe y se conoce, lo que contradice «je n'en trouve pas».",
+    "sera": "Incorrecta: el futuro no expresa la hipótesis sobre la existencia del antecedente; además el piso estaría cerca ahora, no en el futuro."
+   }
   },
   {
    "id": "e11",
@@ -245,7 +373,14 @@
    "respuestas": [
     "d'être ici"
    ],
-   "explicacion": "Mismo sujeto: emoción + de + infinitivo, no que + subjuntivo."
+   "explicacion": "La ficha indica que, cuando el sujeto es el mismo, la emoción se construye con de + infinitivo: je suis content de partir. Aquí quien está contento y quien está aquí es la misma persona, así que no hay boda: falta el segundo sujeto. Por eso se dice «Je suis content d'être ici», con de elidido ante vocal, igual que en español «contento de estar».",
+   "explicacion_breve": "Mismo sujeto: emoción + de + infinitivo, no que + subjuntivo.",
+   "traduccion": "Estoy contento de estar aquí.",
+   "por_opcion": {
+    "d'être ici": "Correcta: mismo sujeto, emoción + de + infinitivo (de se elide en d' ante être).",
+    "que je sois ici": "Incorrecta: con el mismo sujeto no se usa que + subjuntivo, aunque el modo sea el adecuado para una emoción.",
+    "que je suis ici": "Incorrecta por partida doble: mismo sujeto (debería ser infinitivo) y además indicativo tras una emoción."
+   }
   },
   {
    "id": "e12",
@@ -256,7 +391,23 @@
     "J'espère que tu es heureux.",
     "J'espère que tu seras heureux."
    ],
-   "explicacion": "Espérer que rige indicativo."
+   "explicacion": "Es el error típico que recoge la ficha: espérer que va con indicativo, aunque en español «espero que» lleve subjuntivo. Hay que sustituir sois por un indicativo: el presente es (si se espera que ya sea feliz) o el futuro seras (si se espera para el futuro). Las dos correcciones son válidas, por eso se aceptan ambas.",
+   "explicacion_breve": "Espérer que rige indicativo.",
+   "traduccion": "Espero que seas feliz.",
+   "errores_previstos": [
+    {
+     "respuesta": "J'espère que tu sois heureux.",
+     "explicacion": "Es la frase sin corregir: tras espérer que no se usa subjuntivo."
+    },
+    {
+     "respuesta": "J'espère que tu serais heureux.",
+     "explicacion": "Serais es condicional. Tras espérer que en presente se usa presente o futuro de indicativo."
+    },
+    {
+     "respuesta": "J'espère que tu sois heureuse.",
+     "explicacion": "Cambiar el género no corrige el error: el problema es el subjuntivo sois tras espérer que."
+    }
+   ]
   },
   {
    "id": "e13",
@@ -266,8 +417,24 @@
    "respuestas": [
     "Il faut qu'on commence maintenant et que tu viennes avec nous."
    ],
-   "explicacion": "Il faut que rige también el segundo que: subjuntivo viennes.",
-   "origen": "tatoeba:7686413"
+   "explicacion": "Cuando una expresión que exige subjuntivo (il faut que) introduce dos subordinadas coordinadas, el segundo que también depende de ella. La primera está bien (qu'on commence), pero la segunda pone el indicativo viens. Hay que corregirlo a subjuntivo: venir, a partir de ils viennent, da que tu viennes. La frase es «Il faut qu'on commence maintenant et que tu viennes avec nous».",
+   "origen": "tatoeba:7686413",
+   "explicacion_breve": "Il faut que rige también el segundo que: subjuntivo viennes.",
+   "traduccion": "Hay que empezar ahora y tienes que venir con nosotros.",
+   "errores_previstos": [
+    {
+     "respuesta": "Il faut qu'on commence maintenant et que tu viens avec nous.",
+     "explicacion": "Es la frase sin corregir: el segundo que también depende de il faut y exige subjuntivo."
+    },
+    {
+     "respuesta": "Il faut qu'on commence maintenant et que tu venes avec nous.",
+     "explicacion": "Pone una forma de subjuntivo inexistente. Con tu, venir da viennes."
+    },
+    {
+     "respuesta": "Il faut qu'on commence maintenant et tu viennes avec nous.",
+     "explicacion": "Elimina el segundo que, imprescindible en francés para introducir la subordinada en subjuntivo."
+    }
+   ]
   },
   {
    "id": "e14",
@@ -277,8 +444,24 @@
    "respuestas": [
     "Je veux que tu m'écoutes."
    ],
-   "explicacion": "Con -er, el subjuntivo de tu coincide con el presente: que tu écoutes.",
-   "origen": "tatoeba:2838626"
+   "explicacion": "Al añadir je veux que aparece un sujeto distinto (je frente a tu), de modo que el verbo de la subordinada pasa a subjuntivo. Como indica la ficha, en los verbos en -er el subjuntivo de tu coincide con el presente: que tu écoutes. Por eso, en la práctica, la frase solo cambia por la introducción: «Je veux que tu m'écoutes». El pronombre m' sigue delante del verbo.",
+   "origen": "tatoeba:2838626",
+   "explicacion_breve": "Con -er, el subjuntivo de tu coincide con el presente: que tu écoutes.",
+   "traduccion": "Quiero que me escuches.",
+   "errores_previstos": [
+    {
+     "respuesta": "Je veux que tu me écoutes.",
+     "explicacion": "Me se apostrofa ante vocal: m'écoutes."
+    },
+    {
+     "respuesta": "Je veux tu m'écoutes.",
+     "explicacion": "Falta que: en francés no se puede omitir la conjunción, que es el «anillo» que une las dos oraciones."
+    },
+    {
+     "respuesta": "Je veux que tu m'écoute.",
+     "explicacion": "Falta la s de la segunda persona: que tu écoutes."
+    }
+   ]
   },
   {
    "id": "e15",
@@ -288,7 +471,23 @@
    "respuestas": [
     "Je ne crois pas que tu aies raison."
    ],
-   "explicacion": "Croire en negativa introduce duda → subjuntivo (aies)."
+   "explicacion": "La ficha explica que croire en afirmativa expresa certeza y lleva indicativo (je crois que tu as raison), pero en negativa introduce duda y exige subjuntivo. Por eso, al poner ne… pas alrededor de crois, as se convierte en aies, subjuntivo de avoir con tu. La frase es «Je ne crois pas que tu aies raison», como en español «no creo que tengas».",
+   "explicacion_breve": "Croire en negativa introduce duda → subjuntivo (aies).",
+   "traduccion": "No creo que tengas razón.",
+   "errores_previstos": [
+    {
+     "respuesta": "Je ne crois pas que tu as raison.",
+     "explicacion": "Niega la creencia pero mantiene el indicativo. Croire en negativa exige subjuntivo: aies."
+    },
+    {
+     "respuesta": "Je crois que tu n'as pas raison.",
+     "explicacion": "Niega la subordinada en lugar de la principal: cambia el sentido («creo que no tienes razón») y no cumple el enunciado."
+    },
+    {
+     "respuesta": "Je ne crois pas que tu ais raison.",
+     "explicacion": "Ortografía: el subjuntivo de avoir con tu es aies, no ais."
+    }
+   ]
   },
   {
    "id": "e16",
@@ -304,8 +503,20 @@
    "respuestas": [
     "Tu veux que je t'aide"
    ],
-   "explicacion": "Pregunta con entonación: tu veux que + sujeto + subjuntivo (aide).",
-   "origen": "tatoeba:10621530"
+   "explicacion": "Es una pregunta hecha solo con la entonación, que mantiene el orden de la afirmativa: sujeto + verbo. Vouloir que con dos sujetos distintos (tu y je) exige subjuntivo, y en los verbos en -er el de je coincide con el presente: que je t'aide. El pronombre t' va delante del verbo. Resultado: «Tu veux que je t'aide».",
+   "origen": "tatoeba:10621530",
+   "explicacion_breve": "Pregunta con entonación: tu veux que + sujeto + subjuntivo (aide).",
+   "traduccion": "¿Quieres que te ayude?",
+   "errores_previstos": [
+    {
+     "respuesta": "Tu veux que t'aide je",
+     "explicacion": "El sujeto je debe ir delante del pronombre y del verbo: que je t'aide."
+    },
+    {
+     "respuesta": "Je veux que tu t'aide",
+     "explicacion": "Cambia los sujetos y el sentido; además con tu el verbo debería llevar -s."
+    }
+   ]
   }
  ],
  "fuente": {
@@ -316,5 +527,11 @@
   "otras": [
    "Frases de Tatoeba (CC BY 2.0 FR)"
   ]
+ },
+ "descripcion_larga_es": "Esta ficha explica cuándo hay que usar subjuntivo en francés: tras que cuando el verbo principal expresa obligación, voluntad, emoción, opinión impersonal o duda y hay dos sujetos distintos. Se parece mucho al español, pero las diferencias son traicioneras: espérer que lleva indicativo, je pense que y je crois que en afirmativa también, y con un solo sujeto se usa infinitivo. Son errores muy frecuentes en hispanohablantes.",
+ "contexto": {
+  "que_es": "Es el conjunto de reglas que deciden si una subordinada introducida por que va en subjuntivo o en indicativo. La idea básica (el «truco de la boda» de Tex) es que hacen falta dos sujetos distintos, un que que los una y un contexto de obligación, deseo, emoción o duda. Con un solo sujeto se usa el infinitivo.",
+  "por_que_importa": "Se trata de una de las estructuras más frecuentes del francés hablado y escrito: pedir, opinar, reaccionar o expresar dudas obliga a decidir el modo en cada frase. Un error como «j'espère que tu sois bien» es muy típico de hispanohablantes y llama la atención en cualquier prueba oral o escrita. Elegir bien el modo también cambia el sentido, por ejemplo en las relativas (qui soit frente a qui est).",
+  "cuando_se_usa": "Las señales son el verbo o la expresión de la principal: il faut que, vouloir que, être content que, il est dommage que, douter que, je ne crois pas que. Hay que vigilar también si el sujeto se repite, porque entonces va infinitivo (je veux partir, je suis content d'être là). El hispanohablante acierta casi siempre por intuición, salvo con espérer que, que en español lleva subjuntivo y en francés indicativo, y con creer o pensar en afirmativa."
  }
 }

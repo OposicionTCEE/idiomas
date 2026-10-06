@@ -6,67 +6,690 @@
  "nivel": "A1",
  "resumen": "Nombres de alimentos, fórmulas para pedir en un bar o restaurante y palabras para expresar cantidades y envases.",
  "explicacion": [
-  {"tipo": "texto", "texto": "Muchos alimentos son incontables (bread, rice, milk, cheese, water): no llevan a ni plural. Para contarlos se usa un envase o una porción: a loaf of bread, a bottle of water, a piece of cheese."},
-  {"tipo": "tabla", "cabecera": ["Expresión", "Significado", "Ejemplo"], "filas": [
-   ["bread / rice / pasta", "pan / arroz / pasta", "Do we need any bread?"],
-   ["meat / chicken / fish", "carne / pollo / pescado", "I don't eat meat."],
-   ["vegetables / fruit", "verdura / fruta", "Eat more fruit and vegetables."],
-   ["eggs / cheese / butter", "huevos / queso / mantequilla", "Two eggs, please."],
-   ["a loaf of bread", "una barra / un pan de molde", "Buy a loaf of bread, please."],
-   ["a bottle of / a can of", "una botella de / una lata de", "a can of cola"],
-   ["a kilo of / half a kilo of", "un kilo de / medio kilo de", "half a kilo of tomatoes"],
-   ["a packet of", "un paquete de", "a packet of biscuits"],
-   ["a slice of", "una loncha / rebanada de", "a slice of ham"],
-   ["some / any", "algo de (afirmativa / negativa y pregunta)", "Is there any milk? – There's some in the fridge."],
-   ["How much / How many", "cuánto (incontable) / cuántos (contable)", "How many apples do you want?"]
-  ]},
-  {"tipo": "tabla", "cabecera": ["Expresión", "Significado", "Ejemplo"], "filas": [
-   ["A table for two, please.", "Una mesa para dos, por favor.", "Good evening. A table for two, please."],
-   ["Can I see the menu?", "¿Me trae la carta?", "Excuse me, can I see the menu?"],
-   ["I'd like…", "Querría…", "I'd like the soup, please."],
-   ["starter / main course / dessert", "primero / segundo / postre", "For dessert, the chocolate cake."],
-   ["Are you ready to order?", "¿Ya saben qué van a pedir?", "Are you ready to order? – Yes."],
-   ["Could we have the bill, please?", "¿Nos trae la cuenta?", "Could we have the bill, please?"],
-   ["tip", "propina", "We left a small tip."],
-   ["I'm vegetarian", "Soy vegetariano", "I'm vegetarian. Is there a meat-free dish?"],
-   ["spicy / sweet / salty", "picante / dulce / salado", "This sauce is very spicy."]
-  ]},
-  {"tipo": "lista", "items": [
-   "Bill (británico) = check (americano): la cuenta.",
-   "Biscuit (británico) = cookie (americano).",
-   "I'd like es más educado que I want para pedir."
-  ]}
+  {
+   "tipo": "texto",
+   "texto": "Muchos alimentos son incontables (bread, rice, milk, cheese, water): no llevan a ni plural. Para contarlos se usa un envase o una porción: a loaf of bread, a bottle of water, a piece of cheese."
+  },
+  {
+   "tipo": "tabla",
+   "cabecera": [
+    "Expresión",
+    "Significado",
+    "Ejemplo"
+   ],
+   "filas": [
+    [
+     "bread / rice / pasta",
+     "pan / arroz / pasta",
+     "Do we need any bread?"
+    ],
+    [
+     "meat / chicken / fish",
+     "carne / pollo / pescado",
+     "I don't eat meat."
+    ],
+    [
+     "vegetables / fruit",
+     "verdura / fruta",
+     "Eat more fruit and vegetables."
+    ],
+    [
+     "eggs / cheese / butter",
+     "huevos / queso / mantequilla",
+     "Two eggs, please."
+    ],
+    [
+     "a loaf of bread",
+     "una barra / un pan de molde",
+     "Buy a loaf of bread, please."
+    ],
+    [
+     "a bottle of / a can of",
+     "una botella de / una lata de",
+     "a can of cola"
+    ],
+    [
+     "a kilo of / half a kilo of",
+     "un kilo de / medio kilo de",
+     "half a kilo of tomatoes"
+    ],
+    [
+     "a packet of",
+     "un paquete de",
+     "a packet of biscuits"
+    ],
+    [
+     "a slice of",
+     "una loncha / rebanada de",
+     "a slice of ham"
+    ],
+    [
+     "some / any",
+     "algo de (afirmativa / negativa y pregunta)",
+     "Is there any milk? – There's some in the fridge."
+    ],
+    [
+     "How much / How many",
+     "cuánto (incontable) / cuántos (contable)",
+     "How many apples do you want?"
+    ]
+   ]
+  },
+  {
+   "tipo": "tabla",
+   "cabecera": [
+    "Expresión",
+    "Significado",
+    "Ejemplo"
+   ],
+   "filas": [
+    [
+     "A table for two, please.",
+     "Una mesa para dos, por favor.",
+     "Good evening. A table for two, please."
+    ],
+    [
+     "Can I see the menu?",
+     "¿Me trae la carta?",
+     "Excuse me, can I see the menu?"
+    ],
+    [
+     "I'd like…",
+     "Querría…",
+     "I'd like the soup, please."
+    ],
+    [
+     "starter / main course / dessert",
+     "primero / segundo / postre",
+     "For dessert, the chocolate cake."
+    ],
+    [
+     "Are you ready to order?",
+     "¿Ya saben qué van a pedir?",
+     "Are you ready to order? – Yes."
+    ],
+    [
+     "Could we have the bill, please?",
+     "¿Nos trae la cuenta?",
+     "Could we have the bill, please?"
+    ],
+    [
+     "tip",
+     "propina",
+     "We left a small tip."
+    ],
+    [
+     "I'm vegetarian",
+     "Soy vegetariano",
+     "I'm vegetarian. Is there a meat-free dish?"
+    ],
+    [
+     "spicy / sweet / salty",
+     "picante / dulce / salado",
+     "This sauce is very spicy."
+    ]
+   ]
+  },
+  {
+   "tipo": "lista",
+   "items": [
+    "Bill (británico) = check (americano): la cuenta.",
+    "Biscuit (británico) = cookie (americano).",
+    "I'd like es más educado que I want para pedir."
+   ]
+  }
  ],
  "ejemplos": [
-  {"frase": "Could I have a glass of water, please?", "traduccion": "¿Me pone un vaso de agua, por favor?"},
-  {"frase": "We need some milk and a dozen eggs.", "traduccion": "Necesitamos leche y una docena de huevos."},
-  {"frase": "I'd like the grilled fish with salad.", "traduccion": "Querría el pescado a la plancha con ensalada."},
-  {"frase": "There isn't any rice left.", "traduccion": "No queda nada de arroz."},
-  {"frase": "How much cheese do you want? – About two hundred grams.", "traduccion": "¿Cuánto queso quiere? – Unos doscientos gramos."},
-  {"frase": "The dessert was delicious, but too sweet for me.", "traduccion": "El postre estaba delicioso, pero demasiado dulce para mí."}
+  {
+   "frase": "Could I have a glass of water, please?",
+   "traduccion": "¿Me pone un vaso de agua, por favor?"
+  },
+  {
+   "frase": "We need some milk and a dozen eggs.",
+   "traduccion": "Necesitamos leche y una docena de huevos."
+  },
+  {
+   "frase": "I'd like the grilled fish with salad.",
+   "traduccion": "Querría el pescado a la plancha con ensalada."
+  },
+  {
+   "frase": "There isn't any rice left.",
+   "traduccion": "No queda nada de arroz."
+  },
+  {
+   "frase": "How much cheese do you want? – About two hundred grams.",
+   "traduccion": "¿Cuánto queso quiere? – Unos doscientos gramos."
+  },
+  {
+   "frase": "The dessert was delicious, but too sweet for me.",
+   "traduccion": "El postre estaba delicioso, pero demasiado dulce para mí."
+  }
  ],
  "errores_hispanohablantes": [
-  {"mal": "I'd like a bread.", "bien": "I'd like some bread / a loaf of bread.", "nota": "Bread es incontable: no lleva a."},
-  {"mal": "Can you bring us the count?", "bien": "Can you bring us the bill?", "nota": "La cuenta es bill (o check en EE. UU.)."},
-  {"mal": "I'd like a dessert of chocolate.", "bien": "I'd like a chocolate dessert.", "nota": "En inglés el sustantivo que califica va delante."},
-  {"mal": "How many water do you drink?", "bien": "How much water do you drink?", "nota": "Water es incontable: how much."}
+  {
+   "mal": "I'd like a bread.",
+   "bien": "I'd like some bread / a loaf of bread.",
+   "nota": "Bread es incontable: no lleva a."
+  },
+  {
+   "mal": "Can you bring us the count?",
+   "bien": "Can you bring us the bill?",
+   "nota": "La cuenta es bill (o check en EE. UU.)."
+  },
+  {
+   "mal": "I'd like a dessert of chocolate.",
+   "bien": "I'd like a chocolate dessert.",
+   "nota": "En inglés el sustantivo que califica va delante."
+  },
+  {
+   "mal": "How many water do you drink?",
+   "bien": "How much water do you drink?",
+   "nota": "Water es incontable: how much."
+  }
  ],
  "ejercicios": [
-  {"id": "e01", "tipo": "hueco", "enunciado": "Completa con el envase adecuado.", "frase": "Could you buy a ___ of milk?", "respuestas": ["bottle", "carton"], "explicacion": "La leche se vende en bottle o carton."},
-  {"id": "e02", "tipo": "hueco", "enunciado": "Completa con some o any.", "frase": "Is there ___ sugar in the cupboard?", "respuestas": ["any"], "explicacion": "En preguntas se usa any."},
-  {"id": "e03", "tipo": "hueco", "enunciado": "Completa con some o any.", "frase": "I'd like ___ water, please.", "respuestas": ["some"], "explicacion": "En peticiones y ofrecimientos se usa some."},
-  {"id": "e04", "tipo": "hueco", "enunciado": "Completa con much o many.", "frase": "How ___ oranges do you need?", "respuestas": ["many"], "explicacion": "Oranges es contable en plural: how many."},
-  {"id": "e05", "tipo": "eleccion", "enunciado": "Elige la opción correcta.", "frase": "Excuse me, could we have the ___, please? We'd like to pay.", "opciones": ["bill", "count", "note"], "respuestas": ["bill"], "explicacion": "La cuenta en un restaurante es the bill."},
-  {"id": "e06", "tipo": "eleccion", "enunciado": "Elige la opción correcta.", "frase": "Can I have a ___ of ham, please?", "opciones": ["slice", "bottle", "can"], "respuestas": ["slice"], "explicacion": "Una loncha es a slice."},
-  {"id": "e07", "tipo": "eleccion", "enunciado": "Elige la forma más educada.", "frase": "___ the chicken, please.", "opciones": ["I'd like", "I want", "Give me"], "respuestas": ["I'd like"], "explicacion": "I'd like es la forma cortés de pedir."},
-  {"id": "e08", "tipo": "eleccion", "enunciado": "Elige la opción correcta.", "frase": "This curry is very ___. I need some water!", "opciones": ["spicy", "sweet", "sour"], "respuestas": ["spicy"], "explicacion": "Si necesitas agua, pica: spicy."},
-  {"id": "e09", "tipo": "corregir", "enunciado": "Corrige el error.", "frase": "I bought a bread at the bakery.", "respuestas": ["I bought some bread at the bakery.", "I bought a loaf of bread at the bakery.", "I bought bread at the bakery."], "explicacion": "Bread es incontable y no admite a."},
-  {"id": "e10", "tipo": "corregir", "enunciado": "Corrige el error.", "frase": "How many money do you have?", "respuestas": ["How much money do you have?"], "explicacion": "Money es incontable: how much."},
-  {"id": "e11", "tipo": "corregir", "enunciado": "Corrige el error.", "frase": "For the dessert I'd like an ice cream of vanilla.", "respuestas": ["For dessert I'd like a vanilla ice cream.", "For the dessert I'd like a vanilla ice cream.", "For dessert I'd like vanilla ice cream.", "For dessert I would like a vanilla ice cream."], "explicacion": "El sabor va delante del sustantivo: vanilla ice cream."},
-  {"id": "e12", "tipo": "ordenar", "enunciado": "Ordena las palabras.", "palabras": ["table", "a", "please", "for", "four"], "respuestas": ["A table for four please"], "explicacion": "Fórmula para pedir mesa: A table for + número."},
-  {"id": "e13", "tipo": "ordenar", "enunciado": "Ordena las palabras.", "palabras": ["you", "to", "ready", "are", "order"], "respuestas": ["Are you ready to order"], "explicacion": "Pregunta del camarero: Are you ready to order?"},
-  {"id": "e14", "tipo": "hueco", "enunciado": "Completa: «propina».", "frase": "The service was excellent, so we left a big ___.", "respuestas": ["tip"], "explicacion": "Propina es tip."},
-  {"id": "e15", "tipo": "eleccion", "enunciado": "Elige la opción correcta.", "frase": "I'd like half a ___ of tomatoes.", "opciones": ["kilo", "slice", "loaf"], "respuestas": ["kilo"], "explicacion": "Los tomates se compran por peso: half a kilo."}
+  {
+   "id": "e01",
+   "tipo": "hueco",
+   "enunciado": "Completa con el envase adecuado.",
+   "frase": "Could you buy a ___ of milk?",
+   "respuestas": [
+    "bottle",
+    "carton"
+   ],
+   "explicacion": "Se aplica la regla de la ficha: milk es incontable y para contarlo hace falta un envase, a … of milk. La pista es la estructura a ___ of milk, que pide un recipiente. La leche se vende en botella (bottle) o en brik (carton), así que las dos respuestas son válidas.",
+   "explicacion_breve": "La leche se vende en bottle o carton.",
+   "traduccion": "¿Podrías comprar una botella (o un cartón) de leche?",
+   "errores_previstos": [
+    {
+     "respuesta": "can",
+     "explicacion": "A can es una lata (de refresco, de conservas); la leche no se vende en lata."
+    },
+    {
+     "respuesta": "glass",
+     "explicacion": "A glass of milk es un vaso de leche, para beber, no algo que se compra en la tienda."
+    },
+    {
+     "respuesta": "brick",
+     "explicacion": "Brick en inglés es un ladrillo; el brik de leche se llama carton."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "bottle",
+     "significado": "botella"
+    },
+    {
+     "palabra": "carton",
+     "significado": "cartón, brik"
+    }
+   ]
+  },
+  {
+   "id": "e02",
+   "tipo": "hueco",
+   "enunciado": "Completa con some o any.",
+   "frase": "Is there ___ sugar in the cupboard?",
+   "respuestas": [
+    "any"
+   ],
+   "explicacion": "Es la regla de some y any de la tabla de cantidades: some en afirmativas, any en negativas y preguntas. La pista es que la frase es una pregunta (Is there…?) y sugar es incontable. Por eso se usa any, que en español a menudo ni se traduce: «¿Hay azúcar?».",
+   "explicacion_breve": "En preguntas se usa any.",
+   "traduccion": "¿Hay azúcar en el armario?",
+   "errores_previstos": [
+    {
+     "respuesta": "some",
+     "explicacion": "Some va en afirmativas y en ofrecimientos o peticiones; en una pregunta neutra se usa any."
+    },
+    {
+     "respuesta": "a",
+     "explicacion": "Sugar es incontable y no lleva a."
+    },
+    {
+     "respuesta": "many",
+     "explicacion": "Many va con contables en plural; sugar es incontable y, además, aquí basta con any."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "cupboard",
+     "significado": "armario (de cocina), alacena"
+    }
+   ]
+  },
+  {
+   "id": "e03",
+   "tipo": "hueco",
+   "enunciado": "Completa con some o any.",
+   "frase": "I'd like ___ water, please.",
+   "respuestas": [
+    "some"
+   ],
+   "explicacion": "Es la misma regla de some y any, con su excepción: en peticiones y ofrecimientos se usa some aunque la frase parezca una pregunta o una forma cortés. La pista es I'd like… please, que es una petición. Water es incontable, así que no puede llevar a; some equivale a «un poco de» o simplemente no se traduce.",
+   "explicacion_breve": "En peticiones y ofrecimientos se usa some.",
+   "traduccion": "Querría agua, por favor.",
+   "errores_previstos": [
+    {
+     "respuesta": "any",
+     "explicacion": "Any es para negativas y preguntas; en una petición afirmativa se usa some."
+    },
+    {
+     "respuesta": "a",
+     "explicacion": "Water es incontable y no lleva a; se diría some water o a glass of water."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "some water",
+     "significado": "agua (algo de agua)"
+    },
+    {
+     "palabra": "I'd like",
+     "significado": "querría"
+    }
+   ]
+  },
+  {
+   "id": "e04",
+   "tipo": "hueco",
+   "enunciado": "Completa con much o many.",
+   "frase": "How ___ oranges do you need?",
+   "respuestas": [
+    "many"
+   ],
+   "explicacion": "Es la regla de how much y how many de la tabla: how many con contables en plural, how much con incontables. La pista es oranges, sustantivo contable en plural. Por eso hace falta many: ¿cuántas naranjas?",
+   "explicacion_breve": "Oranges es contable en plural: how many.",
+   "traduccion": "¿Cuántas naranjas necesitas?",
+   "errores_previstos": [
+    {
+     "respuesta": "much",
+     "explicacion": "How much va con incontables (water, money); oranges es contable en plural."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "How many",
+     "significado": "cuántos, cuántas (contables)"
+    },
+    {
+     "palabra": "oranges",
+     "significado": "naranjas"
+    }
+   ]
+  },
+  {
+   "id": "e05",
+   "tipo": "eleccion",
+   "enunciado": "Elige la opción correcta.",
+   "frase": "Excuse me, could we have the ___, please? We'd like to pay.",
+   "opciones": [
+    "bill",
+    "count",
+    "note"
+   ],
+   "respuestas": [
+    "bill"
+   ],
+   "explicacion": "Es la fórmula de la segunda tabla Could we have the bill, please?: the bill es la cuenta en un restaurante (en inglés británico; en americano, the check). La pista es «We'd like to pay». El error típico del hispanohablante, recogido en la ficha, es traducir «cuenta» por count.",
+   "explicacion_breve": "La cuenta en un restaurante es the bill.",
+   "traduccion": "Perdone, ¿nos trae la cuenta, por favor? Queremos pagar.",
+   "por_opcion": {
+    "bill": "Correcta: the bill es la cuenta del restaurante en inglés británico.",
+    "count": "Count es un recuento o el verbo contar; usarlo por «la cuenta» es un falso amigo.",
+    "note": "Note es una nota o un billete de banco (británico), no la cuenta."
+   },
+   "glosario": [
+    {
+     "palabra": "bill",
+     "significado": "cuenta (de restaurante)"
+    }
+   ]
+  },
+  {
+   "id": "e06",
+   "tipo": "eleccion",
+   "enunciado": "Elige la opción correcta.",
+   "frase": "Can I have a ___ of ham, please?",
+   "opciones": [
+    "slice",
+    "bottle",
+    "can"
+   ],
+   "respuestas": [
+    "slice"
+   ],
+   "explicacion": "Es una de las porciones de la tabla: a slice of, una loncha o rebanada. La pista es ham (jamón), que se corta en lonchas, y que es incontable, así que necesita una porción para contarse. Slice vale también para pan, queso o pizza.",
+   "explicacion_breve": "Una loncha es a slice.",
+   "traduccion": "¿Me pone una loncha de jamón, por favor?",
+   "por_opcion": {
+    "slice": "Correcta: a slice of ham es una loncha de jamón.",
+    "bottle": "Bottle es una botella; sirve para líquidos, no para jamón.",
+    "can": "Can es una lata; el jamón no se pide en lata en una charcutería."
+   },
+   "glosario": [
+    {
+     "palabra": "slice",
+     "significado": "loncha, rebanada"
+    },
+    {
+     "palabra": "ham",
+     "significado": "jamón"
+    }
+   ]
+  },
+  {
+   "id": "e07",
+   "tipo": "eleccion",
+   "enunciado": "Elige la forma más educada.",
+   "frase": "___ the chicken, please.",
+   "opciones": [
+    "I'd like",
+    "I want",
+    "Give me"
+   ],
+   "respuestas": [
+    "I'd like"
+   ],
+   "explicacion": "La ficha señala que I'd like es más educado que I want para pedir. La pista está en el enunciado, que pide la forma más educada, y en please. I'd like es la contracción de I would like, «querría», y es la fórmula estándar en restaurantes y tiendas.",
+   "explicacion_breve": "I'd like es la forma cortés de pedir.",
+   "traduccion": "Querría el pollo, por favor.",
+   "por_opcion": {
+    "I'd like": "Correcta: I'd like (I would like) es la forma cortés de pedir.",
+    "I want": "Es gramatical, pero suena directo y algo brusco al pedir a un camarero; por eso no es la más educada.",
+    "Give me": "Un imperativo seco que resulta maleducado en inglés, aunque «ponme» sea normal en español."
+   },
+   "glosario": [
+    {
+     "palabra": "I'd like",
+     "significado": "querría, me gustaría"
+    }
+   ]
+  },
+  {
+   "id": "e08",
+   "tipo": "eleccion",
+   "enunciado": "Elige la opción correcta.",
+   "frase": "This curry is very ___. I need some water!",
+   "opciones": [
+    "spicy",
+    "sweet",
+    "sour"
+   ],
+   "respuestas": [
+    "spicy"
+   ],
+   "explicacion": "Es uno de los sabores de la segunda tabla: spicy, picante. La pista es «I need some water!», la reacción típica cuando algo pica. Spicy se refiere al picor; hot también puede significar picante en el habla, pero es ambiguo porque también es «caliente».",
+   "explicacion_breve": "Si necesitas agua, pica: spicy.",
+   "traduccion": "Este curry pica mucho. ¡Necesito agua!",
+   "por_opcion": {
+    "spicy": "Correcta: spicy significa picante, y pide agua.",
+    "sweet": "Sweet significa dulce; no provoca necesidad de agua.",
+    "sour": "Sour significa ácido o agrio, como el limón."
+   },
+   "glosario": [
+    {
+     "palabra": "spicy",
+     "significado": "picante"
+    },
+    {
+     "palabra": "sour",
+     "significado": "ácido, agrio"
+    }
+   ]
+  },
+  {
+   "id": "e09",
+   "tipo": "corregir",
+   "enunciado": "Corrige el error.",
+   "frase": "I bought a bread at the bakery.",
+   "respuestas": [
+    "I bought some bread at the bakery.",
+    "I bought a loaf of bread at the bakery.",
+    "I bought bread at the bakery."
+   ],
+   "explicacion": "Es la regla principal de la ficha: bread es incontable y no admite a. La pista es el artículo a delante de bread, calco del español «un pan». Hay tres formas de corregirlo: quitar el artículo (bread), poner some (some bread) o usar una porción (a loaf of bread, una barra o un pan de molde). Las tres son correctas.",
+   "explicacion_breve": "Bread es incontable y no admite a.",
+   "traduccion": "Compré pan en la panadería.",
+   "errores_previstos": [
+    {
+     "respuesta": "I bought a bread at the bakery.",
+     "explicacion": "Es dejar la frase sin corregir: bread es incontable y no lleva a."
+    },
+    {
+     "respuesta": "I bought breads at the bakery.",
+     "explicacion": "Bread no tiene plural en el uso normal; se dice some bread o loaves of bread."
+    },
+    {
+     "respuesta": "I bought a piece of bread at the bakery.",
+     "explicacion": "A piece of bread es un trozo de pan, no lo que se compra en la panadería; lo natural es a loaf of bread."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "bakery",
+     "significado": "panadería"
+    },
+    {
+     "palabra": "a loaf of bread",
+     "significado": "una barra o un pan (entero)"
+    }
+   ]
+  },
+  {
+   "id": "e10",
+   "tipo": "corregir",
+   "enunciado": "Corrige el error.",
+   "frase": "How many money do you have?",
+   "respuestas": [
+    "How much money do you have?"
+   ],
+   "explicacion": "Es la regla how much y how many: money es incontable, así que va con how much. La pista es el sustantivo money, que en inglés no tiene plural aunque contemos billetes y monedas. Por eso hay que cambiar many por much.",
+   "explicacion_breve": "Money es incontable: how much.",
+   "traduccion": "¿Cuánto dinero tienes?",
+   "errores_previstos": [
+    {
+     "respuesta": "How many money do you have?",
+     "explicacion": "Es dejar la frase sin corregir: money es incontable y pide how much."
+    },
+    {
+     "respuesta": "How many moneys do you have?",
+     "explicacion": "Money no se pone en plural; la corrección es cambiar many por much."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "How much",
+     "significado": "cuánto (incontables)"
+    },
+    {
+     "palabra": "money",
+     "significado": "dinero (incontable)"
+    }
+   ]
+  },
+  {
+   "id": "e11",
+   "tipo": "corregir",
+   "enunciado": "Corrige el error.",
+   "frase": "For dessert I'd like an ice cream of vanilla.",
+   "respuestas": [
+    "For dessert I'd like a vanilla ice cream.",
+    "For dessert I'd like vanilla ice cream.",
+    "For dessert I would like a vanilla ice cream.",
+    "For dessert I would like vanilla ice cream."
+   ],
+   "explicacion": "La ficha lo señala en sus errores típicos: en inglés el sustantivo que califica va delante, así que el sabor precede al alimento: a vanilla ice cream, no an ice cream of vanilla. Al cambiar el orden, el artículo pasa de an a a, porque vanilla empieza por consonante. Valen a vanilla ice cream (un helado) y vanilla ice cream (helado, en general), con I'd o con I would. La expresión for dessert («de postre») va sin artículo y no hay que tocarla.",
+   "explicacion_breve": "El sabor va delante del sustantivo: vanilla ice cream.",
+   "traduccion": "De postre querría un helado de vainilla.",
+   "errores_previstos": [
+    {
+     "respuesta": "For dessert I'd like an ice cream of vanilla.",
+     "explicacion": "Es dejar la frase sin corregir: el sabor va delante, a vanilla ice cream."
+    },
+    {
+     "respuesta": "For dessert I'd like an ice cream vanilla.",
+     "explicacion": "El sabor no va detrás del sustantivo, como en español: va delante."
+    },
+    {
+     "respuesta": "For dessert I'd like an vanilla ice cream.",
+     "explicacion": "Al poner vanilla delante, el artículo pasa a ser a, porque vanilla empieza por consonante."
+    },
+    {
+     "respuesta": "For the dessert I'd like a vanilla ice cream.",
+     "explicacion": "Calco de «para el postre»: la expresión natural es for dessert, sin artículo."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "dessert",
+     "significado": "postre"
+    },
+    {
+     "palabra": "ice cream",
+     "significado": "helado"
+    }
+   ]
+  },
+  {
+   "id": "e12",
+   "tipo": "ordenar",
+   "enunciado": "Ordena las palabras.",
+   "palabras": [
+    "table",
+    "a",
+    "please",
+    "for",
+    "four"
+   ],
+   "respuestas": [
+    "A table for four please"
+   ],
+   "explicacion": "Es la fórmula fija de la segunda tabla para pedir mesa al llegar a un restaurante: A table for + número + please. Coincide en orden con el español, así que la clave es colocar please al final, donde suele ir en inglés. No hace falta verbo: es una petición abreviada.",
+   "explicacion_breve": "Fórmula para pedir mesa: A table for + número.",
+   "traduccion": "Una mesa para cuatro, por favor.",
+   "errores_previstos": [
+    {
+     "respuesta": "A table please for four",
+     "explicacion": "Please va al final de la petición, después de for four."
+    },
+    {
+     "respuesta": "Please a table for four",
+     "explicacion": "Please al principio suena a súplica; en esta fórmula va al final."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "table for four",
+     "significado": "mesa para cuatro"
+    }
+   ]
+  },
+  {
+   "id": "e13",
+   "tipo": "ordenar",
+   "enunciado": "Ordena las palabras.",
+   "palabras": [
+    "you",
+    "to",
+    "ready",
+    "are",
+    "order"
+   ],
+   "respuestas": [
+    "Are you ready to order"
+   ],
+   "explicacion": "Es la pregunta típica del camarero que recoge la tabla: Are you ready to order? Como toda pregunta con be, invierte sujeto y verbo: Are + you + ready. Después va to + infinitivo (to order). Literalmente: «¿Están listos para pedir?».",
+   "explicacion_breve": "Pregunta del camarero: Are you ready to order?",
+   "traduccion": "¿Ya saben qué van a pedir?",
+   "errores_previstos": [
+    {
+     "respuesta": "You are ready to order",
+     "explicacion": "Ese orden es de afirmación; para preguntar hay que invertir: Are you…?"
+    },
+    {
+     "respuesta": "Are you to order ready",
+     "explicacion": "Ready va justo detrás del sujeto, y to order después: ready to order."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "order",
+     "significado": "pedir (en un restaurante)"
+    },
+    {
+     "palabra": "ready",
+     "significado": "listo, preparado"
+    }
+   ]
+  },
+  {
+   "id": "e14",
+   "tipo": "hueco",
+   "enunciado": "Completa: «propina».",
+   "frase": "The service was excellent, so we left a big ___.",
+   "respuestas": [
+    "tip"
+   ],
+   "explicacion": "Es la palabra tip de la tabla del restaurante: propina. La pista es el verbo leave (dejar), con el que se combina siempre (leave a tip), y el contexto del buen servicio. Tip es contable, por eso lleva a big.",
+   "explicacion_breve": "Propina es tip.",
+   "traduccion": "El servicio fue excelente, así que dejamos una buena propina.",
+   "errores_previstos": [
+    {
+     "respuesta": "propine",
+     "explicacion": "No existe en inglés; es una adaptación del español. Propina es tip."
+    },
+    {
+     "respuesta": "propina",
+     "explicacion": "Es la palabra española; en inglés la propina es tip."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "tip",
+     "significado": "propina"
+    },
+    {
+     "palabra": "leave",
+     "significado": "dejar"
+    }
+   ]
+  },
+  {
+   "id": "e15",
+   "tipo": "eleccion",
+   "enunciado": "Elige la opción correcta.",
+   "frase": "I'd like half a ___ of tomatoes.",
+   "opciones": [
+    "kilo",
+    "slice",
+    "loaf"
+   ],
+   "respuestas": [
+    "kilo"
+   ],
+   "explicacion": "Es una de las cantidades de la tabla: half a kilo of, medio kilo de. La pista es half a + unidad + of tomatoes: los tomates se compran por peso. Fíjate en el orden inglés: half a kilo, con half delante del artículo, al contrario que «un medio kilo».",
+   "explicacion_breve": "Los tomates se compran por peso: half a kilo.",
+   "traduccion": "Querría medio kilo de tomates.",
+   "por_opcion": {
+    "kilo": "Correcta: half a kilo of tomatoes es medio kilo de tomates.",
+    "slice": "Slice es una loncha o rodaja; half a slice of tomatoes no tiene sentido como compra.",
+    "loaf": "Loaf se usa solo con el pan (a loaf of bread)."
+   },
+   "glosario": [
+    {
+     "palabra": "half a kilo",
+     "significado": "medio kilo"
+    }
+   ]
+  }
  ],
- "fuente": {"nombre": "propia"}
+ "fuente": {
+  "nombre": "propia"
+ },
+ "descripcion_larga_es": "Vocabulario de alimentos, envases y cantidades, y las fórmulas básicas para pedir en un bar o restaurante. Es léxico de supervivencia: lo necesitas desde el primer día de un viaje. Al hispanohablante le cuesta porque muchos alimentos son incontables en inglés (bread, milk, rice) y no admiten a, y porque «la cuenta» o «un helado de vainilla» no se traducen palabra por palabra.",
+ "contexto": {
+  "que_es": "Es el léxico de los alimentos más comunes, de los envases y porciones que sirven para contarlos (a bottle of, a slice of, a loaf of) y de las fórmulas fijas del restaurante: pedir mesa, pedir la carta, pedir un plato y la cuenta. Incluye también some, any, much y many, que dependen de si el alimento es contable o incontable.",
+  "por_que_importa": "Son situaciones reales y frecuentes en las que un error se nota mucho: pedir «a bread» o «the count» desconcierta al camarero, y un «I want» seco puede sonar brusco. En los exámenes orales de nivel A1 y A2 son típicos los juegos de rol en tiendas y restaurantes.",
+  "cuando_se_usa": "En compras, en la cocina, en restaurantes y al hacer la lista de la compra. Las señales son las preguntas de cantidad (how much, how many), los envases y las peticiones corteses (Could I have…?, I'd like…). Donde el español dice «un pan» o «un helado de vainilla», el inglés cuenta con envases o pone el sabor delante: a loaf of bread, a vanilla ice cream."
+ }
 }

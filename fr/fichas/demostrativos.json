@@ -6,48 +6,559 @@
  "nivel": "A1",
  "resumen": "Ce, cet, cette y ces señalan personas o cosas y equivalen a la vez a «este», «ese» y «aquel». Si hace falta distinguir lo cercano de lo lejano se añade -ci o -là al nombre.",
  "explicacion": [
-  {"tipo": "tabla", "cabecera": ["Forma", "Cuándo", "Ejemplo"], "filas": [
-   ["ce", "masculino singular ante consonante", "ce livre, ce matin"],
-   ["cet", "masculino singular ante vocal o h muda", "cet homme, cet été, cet hôtel"],
-   ["cette", "femenino singular", "cette voiture, cette amie"],
-   ["ces", "plural (masculino y femenino)", "ces livres, ces‿enfants"]
-  ]},
-  {"tipo": "texto", "texto": "Cet suena igual que cette; solo existe para no juntar dos vocales (ce + homme). En plural hay una sola forma, ces, con liaison obligatoria ante vocal."},
-  {"tipo": "texto", "texto": "El español tiene tres grados (este, ese, aquel); el francés solo uno. Cuando hay que oponer dos cosas se añade -ci (cerca, «este») o -là (lejos, «ese, aquel») con guion al nombre: Cette étoile-ci est Vénus, mais ces étoiles-là, c'est la Voie lactée. En la lengua hablada -là se usa mucho incluso sin contraste."},
-  {"tipo": "lista", "items": [
-   "Expresiones de tiempo del momento presente: ce matin (esta mañana), cet après-midi (esta tarde), ce soir (esta noche), cette semaine, cette année, cet été.",
-   "Ce + nombre no debe confundirse con el pronombre ce de c'est (ce, c'est Barton Springs)."
-  ]}
+  {
+   "tipo": "tabla",
+   "cabecera": [
+    "Forma",
+    "Cuándo",
+    "Ejemplo"
+   ],
+   "filas": [
+    [
+     "ce",
+     "masculino singular ante consonante",
+     "ce livre, ce matin"
+    ],
+    [
+     "cet",
+     "masculino singular ante vocal o h muda",
+     "cet homme, cet été, cet hôtel"
+    ],
+    [
+     "cette",
+     "femenino singular",
+     "cette voiture, cette amie"
+    ],
+    [
+     "ces",
+     "plural (masculino y femenino)",
+     "ces livres, ces‿enfants"
+    ]
+   ]
+  },
+  {
+   "tipo": "texto",
+   "texto": "Cet suena igual que cette; solo existe para no juntar dos vocales (ce + homme). En plural hay una sola forma, ces, con liaison obligatoria ante vocal."
+  },
+  {
+   "tipo": "texto",
+   "texto": "El español tiene tres grados (este, ese, aquel); el francés solo uno. Cuando hay que oponer dos cosas se añade -ci (cerca, «este») o -là (lejos, «ese, aquel») con guion al nombre: Cette étoile-ci est Vénus, mais ces étoiles-là, c'est la Voie lactée. En la lengua hablada -là se usa mucho incluso sin contraste."
+  },
+  {
+   "tipo": "lista",
+   "items": [
+    "Expresiones de tiempo del momento presente: ce matin (esta mañana), cet après-midi (esta tarde), ce soir (esta noche), cette semaine, cette année, cet été.",
+    "Ce + nombre no debe confundirse con el pronombre ce de c'est (ce, c'est Barton Springs)."
+   ]
+  }
  ],
  "ejemplos": [
-  {"frase": "Ce bassin, c'est Barton Springs. Cette piscine s'appelle Deep Eddy.", "traduccion": "Esta poza es Barton Springs. Esta piscina se llama Deep Eddy."},
-  {"frase": "Qu'est-ce que tu penses de ce maillot-ci ?", "traduccion": "¿Qué te parece este bañador?"},
-  {"frase": "Ce bikini sera parfait pour cet été.", "traduccion": "Este biquini será perfecto para este verano."},
-  {"frase": "Je n'aime pas du tout cette couleur.", "traduccion": "No me gusta nada este color."},
-  {"frase": "Ces enfants jouent dans le parc tous les jours.", "traduccion": "Estos niños juegan en el parque todos los días."}
+  {
+   "frase": "Ce bassin, c'est Barton Springs. Cette piscine s'appelle Deep Eddy.",
+   "traduccion": "Esta poza es Barton Springs. Esta piscina se llama Deep Eddy."
+  },
+  {
+   "frase": "Qu'est-ce que tu penses de ce maillot-ci ?",
+   "traduccion": "¿Qué te parece este bañador?"
+  },
+  {
+   "frase": "Ce bikini sera parfait pour cet été.",
+   "traduccion": "Este biquini será perfecto para este verano."
+  },
+  {
+   "frase": "Je n'aime pas du tout cette couleur.",
+   "traduccion": "No me gusta nada este color."
+  },
+  {
+   "frase": "Ces enfants jouent dans le parc tous les jours.",
+   "traduccion": "Estos niños juegan en el parque todos los días."
+  }
  ],
  "errores_hispanohablantes": [
-  {"mal": "ce homme", "bien": "cet homme", "nota": "Ante vocal o h muda el masculino singular es cet."},
-  {"mal": "Je préfère ce-ci livre.", "bien": "Je préfère ce livre-ci.", "nota": "-ci y -là se unen con guion al nombre, no al demostrativo."},
-  {"mal": "cet femme", "bien": "cette femme", "nota": "Cet es solo masculino; el femenino es siempre cette."}
+  {
+   "mal": "ce homme",
+   "bien": "cet homme",
+   "nota": "Ante vocal o h muda el masculino singular es cet."
+  },
+  {
+   "mal": "Je préfère ce-ci livre.",
+   "bien": "Je préfère ce livre-ci.",
+   "nota": "-ci y -là se unen con guion al nombre, no al demostrativo."
+  },
+  {
+   "mal": "cet femme",
+   "bien": "cette femme",
+   "nota": "Cet es solo masculino; el femenino es siempre cette."
+  }
  ],
  "ejercicios": [
-  {"id": "e01", "tipo": "hueco", "enunciado": "Completa con ce, cet, cette o ces.", "frase": "Qui est ___ homme ?", "respuestas": ["cet"], "explicacion": "Homme es masculino y empieza por h muda: cet.", "origen": "tatoeba:521386"},
-  {"id": "e02", "tipo": "hueco", "enunciado": "Completa con ce, cet, cette o ces.", "frase": "Il adore ___ endroit.", "respuestas": ["cet"], "explicacion": "Endroit es masculino y empieza por vocal: cet.", "origen": "tatoeba:13725466"},
-  {"id": "e03", "tipo": "hueco", "enunciado": "Completa con ce, cet, cette o ces.", "frase": "Aimes-tu ___ couleur ?", "respuestas": ["cette"], "explicacion": "Couleur es femenino en francés: cette couleur.", "origen": "tatoeba:579920"},
-  {"id": "e04", "tipo": "hueco", "enunciado": "Completa con ce, cet, cette o ces.", "frase": "Je dois aider ___ gens.", "respuestas": ["ces"], "explicacion": "Gens es plural: ces gens.", "origen": "tatoeba:943264"},
-  {"id": "e05", "tipo": "eleccion", "enunciado": "Elige el demostrativo correcto.", "frase": "J'habite dans ___ hôtel.", "opciones": ["cet", "ce", "cette"], "respuestas": ["cet"], "explicacion": "Hôtel es masculino con h muda: cet hôtel.", "origen": "tatoeba:488162"},
-  {"id": "e06", "tipo": "eleccion", "enunciado": "Elige el demostrativo correcto.", "frase": "Combien coûte ___ robe ?", "opciones": ["cette", "cet", "ce"], "respuestas": ["cette"], "explicacion": "Robe es femenino: cette robe.", "origen": "tatoeba:11289"},
-  {"id": "e07", "tipo": "eleccion", "enunciado": "Elige el demostrativo correcto.", "frase": "À quoi sert ___ appareil ?", "opciones": ["cet", "ce", "cette"], "respuestas": ["cet"], "explicacion": "Appareil es masculino y empieza por vocal: cet.", "origen": "tatoeba:5993176"},
-  {"id": "e08", "tipo": "ordenar", "enunciado": "Ordena las palabras.", "palabras": ["roses", "prendre", "ces", "vais", "Je"], "respuestas": ["Je vais prendre ces roses"], "explicacion": "Futuro próximo (je vais prendre) y complemento con demostrativo plural.", "origen": "tatoeba:7698641"},
-  {"id": "e09", "tipo": "transformar", "enunciado": "Pasa el complemento al plural.", "frase": "Je connais cet étudiant.", "respuestas": ["Je connais ces étudiants."], "explicacion": "Cet pasa a ces, con liaison ante vocal.", "origen": "tatoeba:4049761"},
-  {"id": "e10", "tipo": "hueco", "enunciado": "Completa con ce, cet, cette o ces.", "frase": "___ livre est très intéressant.", "respuestas": ["Ce"], "explicacion": "Livre es masculino y empieza por consonante: ce."},
-  {"id": "e11", "tipo": "hueco", "enunciado": "Completa con ce, cet, cette o ces.", "frase": "Qu'est-ce que tu fais ___ week-end ?", "respuestas": ["ce"], "explicacion": "Week-end es masculino y empieza por consonante: ce week-end (este fin de semana)."},
-  {"id": "e12", "tipo": "hueco", "enunciado": "Completa con ce, cet, cette o ces.", "frase": "___ année, nous partons en Grèce.", "respuestas": ["Cette"], "explicacion": "Année es femenino: cette année, aunque empiece por vocal."},
-  {"id": "e13", "tipo": "hueco", "enunciado": "Completa el sufijo para oponer lo cercano y lo lejano.", "frase": "Tu préfères ce pull-ci ou ce pull-___ ?", "respuestas": ["là"], "explicacion": "Frente a -ci (cerca), -là señala lo más alejado."},
-  {"id": "e14", "tipo": "corregir", "enunciado": "Corrige el error.", "frase": "Ce arbre est très vieux.", "respuestas": ["Cet arbre est très vieux."], "explicacion": "Arbre es masculino y empieza por vocal: cet."},
-  {"id": "e15", "tipo": "corregir", "enunciado": "Corrige el error.", "frase": "Cet femme est ma voisine.", "respuestas": ["Cette femme est ma voisine."], "explicacion": "Femme es femenino: cette."},
-  {"id": "e16", "tipo": "corregir", "enunciado": "Corrige el error.", "frase": "Ce chaussures sont trop petites.", "respuestas": ["Ces chaussures sont trop petites."], "explicacion": "Chaussures es plural: ces."}
+  {
+   "id": "e01",
+   "tipo": "hueco",
+   "enunciado": "Completa con ce, cet, cette o ces.",
+   "frase": "Qui est ___ homme ?",
+   "respuestas": [
+    "cet"
+   ],
+   "explicacion": "Se aplica la regla de la tabla de la ficha: cet se usa con sustantivos masculinos singulares que empiezan por vocal o h muda. La pista es homme, masculino y con h muda, que en la pronunciación empieza por vocal. Cet existe precisamente para evitar el choque de dos vocales (ce homme); suena igual que cette, pero se escribe sin -te.",
+   "origen": "tatoeba:521386",
+   "explicacion_breve": "Homme es masculino y empieza por h muda: cet.",
+   "traduccion": "¿Quién es este hombre?",
+   "errores_previstos": [
+    {
+     "respuesta": "ce",
+     "explicacion": "Ce no se usa ante vocal o h muda; ante homme corresponde cet."
+    },
+    {
+     "respuesta": "cette",
+     "explicacion": "Cette es femenino; homme es masculino, así que es cet, aunque suenen igual."
+    },
+    {
+     "respuesta": "c'",
+     "explicacion": "Ce determinante no se apostrofa: la forma ante vocal es cet."
+    }
+   ]
+  },
+  {
+   "id": "e02",
+   "tipo": "hueco",
+   "enunciado": "Completa con ce, cet, cette o ces.",
+   "frase": "Il adore ___ endroit.",
+   "respuestas": [
+    "cet"
+   ],
+   "explicacion": "Se aplica la regla de la ficha: masculino singular ante vocal, cet. La pista es endroit, sustantivo masculino que empieza por vocal (en- se pronuncia nasal, pero es vocal). Por eso no vale ce y se escribe cet endroit, con el sonido de la t enlazado con la vocal siguiente.",
+   "origen": "tatoeba:13725466",
+   "explicacion_breve": "Endroit es masculino y empieza por vocal: cet.",
+   "traduccion": "Le encanta este lugar.",
+   "errores_previstos": [
+    {
+     "respuesta": "ce",
+     "explicacion": "Endroit empieza por vocal: ce se convierte en cet."
+    },
+    {
+     "respuesta": "cette",
+     "explicacion": "Endroit es masculino; cette solo va con femeninos."
+    },
+    {
+     "respuesta": "ces",
+     "explicacion": "Ces es plural; endroit está en singular."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "un endroit",
+     "significado": "un lugar, un sitio"
+    }
+   ]
+  },
+  {
+   "id": "e03",
+   "tipo": "hueco",
+   "enunciado": "Completa con ce, cet, cette o ces.",
+   "frase": "Aimes-tu ___ couleur ?",
+   "respuestas": [
+    "cette"
+   ],
+   "explicacion": "Se aplica la regla de la ficha: cette con cualquier sustantivo femenino singular. La pista es couleur, que en francés es femenino (la couleur) aunque en español «el color» sea masculino. Es un caso típico en que el género español engaña, como la ficha advierte para otros sustantivos. Por eso es cette couleur.",
+   "origen": "tatoeba:579920",
+   "explicacion_breve": "Couleur es femenino en francés: cette couleur.",
+   "traduccion": "¿Te gusta este color?",
+   "errores_previstos": [
+    {
+     "respuesta": "ce",
+     "explicacion": "Calco del español «este color»: en francés couleur es femenino, cette."
+    },
+    {
+     "respuesta": "cet",
+     "explicacion": "Cet es masculino ante vocal; couleur es femenino y empieza por consonante."
+    },
+    {
+     "respuesta": "cete",
+     "explicacion": "Error de ortografía: se escribe cette, con doble t."
+    }
+   ]
+  },
+  {
+   "id": "e04",
+   "tipo": "hueco",
+   "enunciado": "Completa con ce, cet, cette o ces.",
+   "frase": "Je dois aider ___ gens.",
+   "respuestas": [
+    "ces"
+   ],
+   "explicacion": "Se aplica la regla de la ficha: ces es la única forma de plural, para masculino y femenino. La pista es gens, que en francés es siempre plural (les gens), aunque en español «la gente» sea singular. Por eso el demostrativo es ces gens, equivalente a «esta gente» o «estas personas».",
+   "origen": "tatoeba:943264",
+   "explicacion_breve": "Gens es plural: ces gens.",
+   "traduccion": "Tengo que ayudar a esta gente.",
+   "errores_previstos": [
+    {
+     "respuesta": "cette",
+     "explicacion": "Calco del español «esta gente»: gens es plural en francés, así que es ces."
+    },
+    {
+     "respuesta": "ce",
+     "explicacion": "Ce es singular; gens es plural."
+    },
+    {
+     "respuesta": "ses",
+     "explicacion": "Ses es posesivo («sus»); suena igual que ces, pero el demostrativo es ces."
+    }
+   ]
+  },
+  {
+   "id": "e05",
+   "tipo": "eleccion",
+   "enunciado": "Elige el demostrativo correcto.",
+   "frase": "J'habite dans ___ hôtel.",
+   "opciones": [
+    "cet",
+    "ce",
+    "cette"
+   ],
+   "respuestas": [
+    "cet"
+   ],
+   "explicacion": "Se aplica la regla de la ficha: cet con sustantivos masculinos que empiezan por vocal o h muda. La pista es hôtel, masculino con h muda, que se pronuncia como si empezara por vocal. La tabla de la ficha recoge justo este ejemplo, cet hôtel.",
+   "origen": "tatoeba:488162",
+   "explicacion_breve": "Hôtel es masculino con h muda: cet hôtel.",
+   "traduccion": "Vivo en este hotel.",
+   "por_opcion": {
+    "cet": "Correcta: masculino singular ante h muda.",
+    "ce": "Se usaría ante consonante; ante h muda se transforma en cet.",
+    "cette": "Es femenino; hôtel es masculino, como en español."
+   }
+  },
+  {
+   "id": "e06",
+   "tipo": "eleccion",
+   "enunciado": "Elige el demostrativo correcto.",
+   "frase": "Combien coûte ___ robe ?",
+   "opciones": [
+    "cette",
+    "cet",
+    "ce"
+   ],
+   "respuestas": [
+    "cette"
+   ],
+   "explicacion": "Se aplica la regla de la ficha: cette con sustantivos femeninos singulares. La pista es robe, que es femenino en francés (la robe), aunque su traducción española, «el vestido», sea masculina. Por eso hay que usar cette robe y no ce.",
+   "origen": "tatoeba:11289",
+   "explicacion_breve": "Robe es femenino: cette robe.",
+   "traduccion": "¿Cuánto cuesta este vestido?",
+   "por_opcion": {
+    "cette": "Correcta: robe es femenino.",
+    "cet": "Masculino ante vocal; robe es femenino y empieza por consonante.",
+    "ce": "Masculino ante consonante; sería el calco de «este vestido»."
+   },
+   "glosario": [
+    {
+     "palabra": "une robe",
+     "significado": "un vestido"
+    }
+   ]
+  },
+  {
+   "id": "e07",
+   "tipo": "eleccion",
+   "enunciado": "Elige el demostrativo correcto.",
+   "frase": "À quoi sert ___ appareil ?",
+   "opciones": [
+    "cet",
+    "ce",
+    "cette"
+   ],
+   "respuestas": [
+    "cet"
+   ],
+   "explicacion": "Se aplica la regla de la ficha para el masculino ante vocal: cet. La pista es appareil, masculino como en español y empezando por vocal. La forma ce + appareil chocaría dos vocales, por eso se usa cet appareil, que se pronuncia enlazando la t.",
+   "origen": "tatoeba:5993176",
+   "explicacion_breve": "Appareil es masculino y empieza por vocal: cet.",
+   "traduccion": "¿Para qué sirve este aparato?",
+   "por_opcion": {
+    "cet": "Correcta: masculino singular ante vocal.",
+    "ce": "No se usa ante vocal; se convierte en cet.",
+    "cette": "Es femenino; appareil es masculino."
+   },
+   "glosario": [
+    {
+     "palabra": "un appareil",
+     "significado": "un aparato"
+    },
+    {
+     "palabra": "à quoi sert… ?",
+     "significado": "¿para qué sirve…?"
+    }
+   ]
+  },
+  {
+   "id": "e08",
+   "tipo": "ordenar",
+   "enunciado": "Ordena las palabras.",
+   "palabras": [
+    "roses",
+    "prendre",
+    "ces",
+    "vais",
+    "Je"
+   ],
+   "respuestas": [
+    "Je vais prendre ces roses"
+   ],
+   "explicacion": "Se aplica la regla de la ficha: ces para el plural. La pista es la palabra ces entre las piezas, que debe ir justo delante del sustantivo plural roses. El resto de la frase es un futuro próximo, je vais prendre, con el sujeto, aller conjugado y el infinitivo, seguido del complemento ces roses.",
+   "origen": "tatoeba:7698641",
+   "explicacion_breve": "Futuro próximo (je vais prendre) y complemento con demostrativo plural.",
+   "traduccion": "Voy a coger estas rosas.",
+   "errores_previstos": [
+    {
+     "respuesta": "Je vais ces roses prendre",
+     "explicacion": "El complemento va detrás del infinitivo: prendre ces roses."
+    },
+    {
+     "respuesta": "Je prendre vais ces roses",
+     "explicacion": "En el futuro próximo aller conjugado va antes del infinitivo: je vais prendre."
+    },
+    {
+     "respuesta": "Je vais prendre roses ces",
+     "explicacion": "El demostrativo va delante del sustantivo: ces roses."
+    }
+   ]
+  },
+  {
+   "id": "e09",
+   "tipo": "transformar",
+   "enunciado": "Pasa el complemento al plural.",
+   "frase": "Je connais cet étudiant.",
+   "respuestas": [
+    "Je connais ces étudiants."
+   ],
+   "explicacion": "Se aplica la regla de la ficha según la cual ces es la única forma de plural, sea cual sea el género y la letra inicial. La pista es cet étudiant: al pasar a plural, cet se convierte en ces y étudiant toma -s. Ante vocal hay liaison obligatoria: ces‿étudiants, con la s pronunciada como z.",
+   "origen": "tatoeba:4049761",
+   "explicacion_breve": "Cet pasa a ces, con liaison ante vocal.",
+   "traduccion": "Conozco a estos estudiantes.",
+   "errores_previstos": [
+    {
+     "respuesta": "Je connais cets étudiants.",
+     "explicacion": "Cet no tiene plural propio: el plural de todos los demostrativos es ces."
+    },
+    {
+     "respuesta": "Je connais ces étudiant.",
+     "explicacion": "Falta la -s del plural en el sustantivo: étudiants."
+    },
+    {
+     "respuesta": "Je connais ses étudiants.",
+     "explicacion": "Ses es posesivo («sus»); suena igual, pero el demostrativo es ces."
+    }
+   ]
+  },
+  {
+   "id": "e10",
+   "tipo": "hueco",
+   "enunciado": "Completa con ce, cet, cette o ces.",
+   "frase": "___ livre est très intéressant.",
+   "respuestas": [
+    "Ce"
+   ],
+   "explicacion": "Se aplica la regla de la ficha: ce con masculinos singulares que empiezan por consonante. La pista es livre, masculino como en español y con consonante inicial. Al ser la primera palabra de la frase, va con mayúscula: Ce livre.",
+   "explicacion_breve": "Livre es masculino y empieza por consonante: ce.",
+   "traduccion": "Este libro es muy interesante.",
+   "errores_previstos": [
+    {
+     "respuesta": "Cet",
+     "explicacion": "Cet solo se usa ante vocal o h muda; livre empieza por consonante."
+    },
+    {
+     "respuesta": "Cette",
+     "explicacion": "Cette es femenino; livre (libro) es masculino."
+    },
+    {
+     "respuesta": "Ces",
+     "explicacion": "Ces es plural, pero el verbo est indica singular."
+    }
+   ]
+  },
+  {
+   "id": "e11",
+   "tipo": "hueco",
+   "enunciado": "Completa con ce, cet, cette o ces.",
+   "frase": "Qu'est-ce que tu fais ___ week-end ?",
+   "respuestas": [
+    "ce"
+   ],
+   "explicacion": "Se aplica el uso de la ficha en expresiones de tiempo del presente: ce matin, ce soir, ce week-end. La pista es week-end, masculino que empieza por consonante (w). El demostrativo indica el periodo actual o próximo, como «este fin de semana», sin necesidad de preposición: no se dice dans ce week-end.",
+   "explicacion_breve": "Week-end es masculino y empieza por consonante: ce week-end (este fin de semana).",
+   "traduccion": "¿Qué haces este fin de semana?",
+   "errores_previstos": [
+    {
+     "respuesta": "cet",
+     "explicacion": "Week-end empieza por consonante; cet solo va ante vocal o h muda."
+    },
+    {
+     "respuesta": "cette",
+     "explicacion": "Week-end es masculino en francés: ce week-end."
+    },
+    {
+     "respuesta": "le",
+     "explicacion": "Le week-end significa «los fines de semana» como costumbre; para «este fin de semana» se usa ce."
+    }
+   ]
+  },
+  {
+   "id": "e12",
+   "tipo": "hueco",
+   "enunciado": "Completa con ce, cet, cette o ces.",
+   "frase": "___ année, nous partons en Grèce.",
+   "respuestas": [
+    "Cette"
+   ],
+   "explicacion": "Se aplica la regla de la ficha: cette con cualquier femenino singular, aunque empiece por vocal. La pista es année, femenino. La forma cet solo es masculina; con femeninos que empiezan por vocal se usa cette sin cambios: cette année, cette amie. Al abrir la frase, va con mayúscula.",
+   "explicacion_breve": "Année es femenino: cette année, aunque empiece por vocal.",
+   "traduccion": "Este año nos vamos a Grecia.",
+   "errores_previstos": [
+    {
+     "respuesta": "Cet",
+     "explicacion": "Cet es solo masculino; année es femenino, así que es cette aunque empiece por vocal."
+    },
+    {
+     "respuesta": "Ce",
+     "explicacion": "Ce es masculino; además nunca va ante vocal."
+    },
+    {
+     "respuesta": "Ces",
+     "explicacion": "Ces es plural; année está en singular, así que es cette."
+    }
+   ]
+  },
+  {
+   "id": "e13",
+   "tipo": "hueco",
+   "enunciado": "Completa el sufijo para oponer lo cercano y lo lejano.",
+   "frase": "Tu préfères ce pull-ci ou ce pull-___ ?",
+   "respuestas": [
+    "là"
+   ],
+   "explicacion": "Se aplica la regla de la ficha sobre -ci y -là: cuando hay que oponer dos objetos, -ci marca lo cercano y -là lo alejado, unidos al sustantivo con guion. La pista es ce pull-ci en la primera parte, que exige el contraste en la segunda: ce pull-là. Así el francés expresa los tres grados del español con una sola serie de demostrativos.",
+   "explicacion_breve": "Frente a -ci (cerca), -là señala lo más alejado.",
+   "traduccion": "¿Prefieres este jersey o aquel?",
+   "errores_previstos": [
+    {
+     "respuesta": "la",
+     "explicacion": "Falta el acento grave: là (allí) lleva acento; la es el artículo femenino."
+    },
+    {
+     "respuesta": "ci",
+     "explicacion": "Repetir -ci anula el contraste: el segundo jersey, el más lejano, va con -là."
+    },
+    {
+     "respuesta": "là-bas",
+     "explicacion": "Là-bas es un adverbio («allá») y no se une a un sustantivo con demostrativo; el sufijo es -là."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "un pull",
+     "significado": "un jersey"
+    }
+   ]
+  },
+  {
+   "id": "e14",
+   "tipo": "corregir",
+   "enunciado": "Corrige el error.",
+   "frase": "Ce arbre est très vieux.",
+   "respuestas": [
+    "Cet arbre est très vieux."
+   ],
+   "explicacion": "Se aplica la regla de la ficha: masculino singular ante vocal, cet. La pista es arbre, masculino y con vocal inicial; ce arbre juntaría dos vocales, algo que el francés evita. Por eso la corrección es cet arbre, que se pronuncia enlazando la t.",
+   "explicacion_breve": "Arbre es masculino y empieza por vocal: cet.",
+   "traduccion": "Este árbol es muy viejo.",
+   "errores_previstos": [
+    {
+     "respuesta": "Ce arbre est très vieux.",
+     "explicacion": "Es la frase sin corregir: ce no va ante vocal."
+    },
+    {
+     "respuesta": "C'arbre est très vieux.",
+     "explicacion": "El determinante ce no se apostrofa; ante vocal se usa cet."
+    },
+    {
+     "respuesta": "Cette arbre est très vieux.",
+     "explicacion": "Suena igual que cet, pero arbre es masculino: cet."
+    }
+   ]
+  },
+  {
+   "id": "e15",
+   "tipo": "corregir",
+   "enunciado": "Corrige el error.",
+   "frase": "Cet femme est ma voisine.",
+   "respuestas": [
+    "Cette femme est ma voisine."
+   ],
+   "explicacion": "Se aplica la regla de la ficha: cet es solo masculino y cette se usa con femeninos. La pista es femme, femenino, que además empieza por consonante; el error mezcla la forma cet, que suena igual que cette. La corrección es cette femme.",
+   "explicacion_breve": "Femme es femenino: cette.",
+   "traduccion": "Esta mujer es mi vecina.",
+   "errores_previstos": [
+    {
+     "respuesta": "Cet femme est ma voisine.",
+     "explicacion": "Es la frase sin corregir: cet es masculino."
+    },
+    {
+     "respuesta": "Ce femme est ma voisine.",
+     "explicacion": "Ce también es masculino; femme pide cette."
+    },
+    {
+     "respuesta": "Cete femme est ma voisine.",
+     "explicacion": "Error de ortografía: cette se escribe con doble t."
+    }
+   ]
+  },
+  {
+   "id": "e16",
+   "tipo": "corregir",
+   "enunciado": "Corrige el error.",
+   "frase": "Ce chaussures sont trop petites.",
+   "respuestas": [
+    "Ces chaussures sont trop petites."
+   ],
+   "explicacion": "Se aplica la regla de la ficha: ces es la única forma del plural. La pista es chaussures, en plural, y el verbo sont. Ce es singular, así que la corrección es ces chaussures. Fíjate además en que chaussure es femenino (petites), aunque en español «zapato» sea masculino; para el plural no importa, porque ces vale para ambos géneros.",
+   "explicacion_breve": "Chaussures es plural: ces.",
+   "traduccion": "Estos zapatos son demasiado pequeños.",
+   "errores_previstos": [
+    {
+     "respuesta": "Ce chaussures sont trop petites.",
+     "explicacion": "Es la frase sin corregir: ce es singular."
+    },
+    {
+     "respuesta": "Cettes chaussures sont trop petites.",
+     "explicacion": "Cette no tiene plural propio: el plural de todos es ces."
+    },
+    {
+     "respuesta": "Ses chaussures sont trop petites.",
+     "explicacion": "Ses es posesivo («sus zapatos»); el demostrativo es ces."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "les chaussures",
+     "significado": "los zapatos"
+    }
+   ]
+  }
  ],
- "fuente": {"nombre": "Tex's French Grammar", "autores": "COERLL, Universidad de Texas en Austin", "licencia": "CC BY 3.0", "url": "https://laits.utexas.edu/tex/gr/det7.html", "otras": ["Frases de Tatoeba (CC BY 2.0 FR)"]}
+ "fuente": {
+  "nombre": "Tex's French Grammar",
+  "autores": "COERLL, Universidad de Texas en Austin",
+  "licencia": "CC BY 3.0",
+  "url": "https://laits.utexas.edu/tex/gr/det7.html",
+  "otras": [
+   "Frases de Tatoeba (CC BY 2.0 FR)"
+  ]
+ },
+ "descripcion_larga_es": "Los determinantes demostrativos franceses (ce, cet, cette, ces) señalan personas y cosas y equivalen a la vez a «este», «ese» y «aquel». Aparecen constantemente, sobre todo en expresiones de tiempo como ce matin o cette année. Al hispanohablante le cuesta elegir la forma por el género francés (que no siempre coincide con el español), recordar cet ante vocal o h muda y prescindir de los tres grados de distancia.",
+ "contexto": {
+  "que_es": "Son las palabras que acompañan al sustantivo para señalarlo: ce (masculino ante consonante), cet (masculino ante vocal o h muda), cette (femenino) y ces (plural de ambos géneros). Una sola serie traduce «este», «ese» y «aquel»; para distinguir distancias se añade -ci o -là al sustantivo.",
+  "por_que_importa": "Se usan en casi cualquier conversación: para señalar objetos en una tienda, para presentar a alguien y, sobre todo, en las expresiones de tiempo del presente (ce soir, cette semaine, cet été). Un error de género o escribir ce ante vocal se nota enseguida y es un fallo de nivel básico en cualquier examen.",
+  "cuando_se_usa": "Cada vez que se señala algo concreto o se habla del periodo de tiempo actual. La elección depende de dos señales: el género francés del sustantivo y si empieza por vocal o h muda. El hispanohablante se guía por el género español (la couleur es femenino, aunque «el color» sea masculino) y tiende a buscar tres formas para «este, ese, aquel», cuando en francés basta una."
+ }
 }

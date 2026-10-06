@@ -6,71 +6,751 @@
  "nivel": "B1",
  "resumen": "Vocabulario para hablar de cómo te informas, comentar noticias y hablar de prensa, televisión y redes sociales.",
  "explicacion": [
-  {"tipo": "texto", "texto": "News es incontable y va en singular aunque acabe en -s: The news is on at nine; a piece of news (una noticia). The media puede ir en singular o en plural. Ojo con los falsos amigos: a newspaper article no es un «periódico artículo», y an editorial no es una editorial (que es a publisher)."},
-  {"tipo": "tabla", "cabecera": ["Expresión", "Significado", "Ejemplo"], "filas": [
-   ["the media", "los medios de comunicación", "The media often exaggerate."],
-   ["the press", "la prensa", "The press was not allowed in."],
-   ["newspaper / magazine", "periódico / revista", "I read a newspaper on the train."],
-   ["headline", "titular", "The story made the headlines."],
-   ["article / report", "artículo / reportaje, crónica", "There's an interesting report on housing."],
-   ["front page", "portada", "It was on the front page."],
-   ["journalist / reporter", "periodista / reportero", "She works as a journalist."],
-   ["editor", "director, redactor jefe", "The editor decided to publish it."],
-   ["publisher", "editorial (empresa)", "The publisher released the book in May."],
-   ["broadcast", "emitir, retransmitir", "The match will be broadcast live."],
-   ["live", "en directo", "The debate is live on Channel 4."],
-   ["presenter / host", "presentador", "The presenter interviewed the minister."],
-   ["the news", "las noticias, el telediario", "Did you watch the news?"],
-   ["breaking news", "noticia de última hora", "Breaking news: the airport is closed."]
-  ]},
-  {"tipo": "tabla", "cabecera": ["Expresión", "Significado", "Ejemplo"], "filas": [
-   ["social media", "redes sociales", "I spend too much time on social media."],
-   ["post / share", "publicar / compartir", "She posted a photo and many people shared it."],
-   ["follower", "seguidor", "He has a million followers."],
-   ["go viral", "hacerse viral", "The video went viral overnight."],
-   ["fake news", "noticias falsas, bulos", "Fake news spreads fast."],
-   ["source", "fuente", "Always check your sources."],
-   ["biased / unbiased", "parcial, sesgado / imparcial", "That channel is very biased."],
-   ["coverage", "cobertura informativa", "The coverage of the election was excellent."],
-   ["subscribe to", "suscribirse a", "I subscribe to a digital newspaper."],
-   ["podcast", "pódcast", "I listen to podcasts on my way to work."]
-  ]},
-  {"tipo": "lista", "items": [
-   "Una noticia es a piece of news o a news story, nunca «a new».",
-   "Advertisement / advert / ad = anuncio; advertise = anunciar.",
-   "En redes, on: on social media, on Twitter, on the radio, on TV, pero in the newspaper."
-  ]}
+  {
+   "tipo": "texto",
+   "texto": "News es incontable y va en singular aunque acabe en -s: The news is on at nine; a piece of news (una noticia). The media puede ir en singular o en plural. Ojo con los falsos amigos: a newspaper article no es un «periódico artículo», y an editorial no es una editorial (que es a publisher)."
+  },
+  {
+   "tipo": "tabla",
+   "cabecera": [
+    "Expresión",
+    "Significado",
+    "Ejemplo"
+   ],
+   "filas": [
+    [
+     "the media",
+     "los medios de comunicación",
+     "The media often exaggerate."
+    ],
+    [
+     "the press",
+     "la prensa",
+     "The press was not allowed in."
+    ],
+    [
+     "newspaper / magazine",
+     "periódico / revista",
+     "I read a newspaper on the train."
+    ],
+    [
+     "headline",
+     "titular",
+     "The story made the headlines."
+    ],
+    [
+     "article / report",
+     "artículo / reportaje, crónica",
+     "There's an interesting report on housing."
+    ],
+    [
+     "front page",
+     "portada",
+     "It was on the front page."
+    ],
+    [
+     "journalist / reporter",
+     "periodista / reportero",
+     "She works as a journalist."
+    ],
+    [
+     "editor",
+     "director, redactor jefe",
+     "The editor decided to publish it."
+    ],
+    [
+     "publisher",
+     "editorial (empresa)",
+     "The publisher released the book in May."
+    ],
+    [
+     "broadcast",
+     "emitir, retransmitir",
+     "The match will be broadcast live."
+    ],
+    [
+     "live",
+     "en directo",
+     "The debate is live on Channel 4."
+    ],
+    [
+     "presenter / host",
+     "presentador",
+     "The presenter interviewed the minister."
+    ],
+    [
+     "the news",
+     "las noticias, el telediario",
+     "Did you watch the news?"
+    ],
+    [
+     "breaking news",
+     "noticia de última hora",
+     "Breaking news: the airport is closed."
+    ]
+   ]
+  },
+  {
+   "tipo": "tabla",
+   "cabecera": [
+    "Expresión",
+    "Significado",
+    "Ejemplo"
+   ],
+   "filas": [
+    [
+     "social media",
+     "redes sociales",
+     "I spend too much time on social media."
+    ],
+    [
+     "post / share",
+     "publicar / compartir",
+     "She posted a photo and many people shared it."
+    ],
+    [
+     "follower",
+     "seguidor",
+     "He has a million followers."
+    ],
+    [
+     "go viral",
+     "hacerse viral",
+     "The video went viral overnight."
+    ],
+    [
+     "fake news",
+     "noticias falsas, bulos",
+     "Fake news spreads fast."
+    ],
+    [
+     "source",
+     "fuente",
+     "Always check your sources."
+    ],
+    [
+     "biased / unbiased",
+     "parcial, sesgado / imparcial",
+     "That channel is very biased."
+    ],
+    [
+     "coverage",
+     "cobertura informativa",
+     "The coverage of the election was excellent."
+    ],
+    [
+     "subscribe to",
+     "suscribirse a",
+     "I subscribe to a digital newspaper."
+    ],
+    [
+     "podcast",
+     "pódcast",
+     "I listen to podcasts on my way to work."
+    ]
+   ]
+  },
+  {
+   "tipo": "lista",
+   "items": [
+    "Una noticia es a piece of news o a news story, nunca «a new».",
+    "Advertisement / advert / ad = anuncio; advertise = anunciar.",
+    "En redes, on: on social media, on Twitter, on the radio, on TV, pero in the newspaper."
+   ]
+  }
  ],
  "ejemplos": [
-  {"frase": "I heard an interesting piece of news on the radio this morning.", "traduccion": "Esta mañana oí una noticia interesante en la radio."},
-  {"frase": "The scandal was on the front page of every newspaper.", "traduccion": "El escándalo salió en la portada de todos los periódicos."},
-  {"frase": "The final will be broadcast live in more than 100 countries.", "traduccion": "La final se retransmitirá en directo en más de cien países."},
-  {"frase": "Her post about the lost dog went viral.", "traduccion": "Su publicación sobre el perro perdido se hizo viral."},
-  {"frase": "Many people get their news from social media rather than newspapers.", "traduccion": "Mucha gente se informa por las redes sociales en lugar de por los periódicos."},
-  {"frase": "The coverage of the floods was criticised as biased.", "traduccion": "La cobertura de las inundaciones fue criticada por sesgada."}
+  {
+   "frase": "I heard an interesting piece of news on the radio this morning.",
+   "traduccion": "Esta mañana oí una noticia interesante en la radio."
+  },
+  {
+   "frase": "The scandal was on the front page of every newspaper.",
+   "traduccion": "El escándalo salió en la portada de todos los periódicos."
+  },
+  {
+   "frase": "The final will be broadcast live in more than 100 countries.",
+   "traduccion": "La final se retransmitirá en directo en más de cien países."
+  },
+  {
+   "frase": "Her post about the lost dog went viral.",
+   "traduccion": "Su publicación sobre el perro perdido se hizo viral."
+  },
+  {
+   "frase": "Many people get their news from social media rather than newspapers.",
+   "traduccion": "Mucha gente se informa por las redes sociales en lugar de por los periódicos."
+  },
+  {
+   "frase": "The coverage of the floods was criticised as biased.",
+   "traduccion": "La cobertura de las inundaciones fue criticada por sesgada."
+  }
  ],
  "errores_hispanohablantes": [
-  {"mal": "I have a good new for you.", "bien": "I have some good news for you.", "nota": "News es incontable; no existe «a new»."},
-  {"mal": "The news are very bad today.", "bien": "The news is very bad today.", "nota": "News va con verbo en singular."},
-  {"mal": "My novel was published by a big editorial.", "bien": "My novel was published by a big publisher.", "nota": "Editorial (empresa) es publisher; an editorial es un artículo de opinión del periódico."},
-  {"mal": "I read it on the newspaper.", "bien": "I read it in the newspaper.", "nota": "In the newspaper, pero on TV / on the radio / on the internet."}
+  {
+   "mal": "I have a good new for you.",
+   "bien": "I have some good news for you.",
+   "nota": "News es incontable; no existe «a new»."
+  },
+  {
+   "mal": "The news are very bad today.",
+   "bien": "The news is very bad today.",
+   "nota": "News va con verbo en singular."
+  },
+  {
+   "mal": "My novel was published by a big editorial.",
+   "bien": "My novel was published by a big publisher.",
+   "nota": "Editorial (empresa) es publisher; an editorial es un artículo de opinión del periódico."
+  },
+  {
+   "mal": "I read it on the newspaper.",
+   "bien": "I read it in the newspaper.",
+   "nota": "In the newspaper, pero on TV / on the radio / on the internet."
+  }
  ],
  "ejercicios": [
-  {"id": "e01", "tipo": "hueco", "enunciado": "Completa con la forma correcta de be.", "frase": "The news ___ (be) on at nine o'clock every night.", "respuestas": ["is", "'s"], "explicacion": "News es incontable y va con verbo en singular."},
-  {"id": "e02", "tipo": "hueco", "enunciado": "Completa con la preposición.", "frase": "I saw the interview ___ TV last night.", "respuestas": ["on"], "explicacion": "En televisión es on TV."},
-  {"id": "e03", "tipo": "hueco", "enunciado": "Completa: «titular».", "frase": "The ___ on the front page said «Prices up again».", "respuestas": ["headline"], "explicacion": "El titular es headline."},
-  {"id": "e04", "tipo": "hueco", "enunciado": "Completa: «hacerse viral».", "frase": "The video of the singing cat went ___ in a few hours.", "respuestas": ["viral"], "explicacion": "Hacerse viral es go viral."},
-  {"id": "e05", "tipo": "eleccion", "enunciado": "Elige la opción correcta.", "frase": "That's a very interesting ___ of news.", "opciones": ["piece", "new", "notice"], "respuestas": ["piece"], "explicacion": "Una noticia es a piece of news."},
-  {"id": "e06", "tipo": "eleccion", "enunciado": "Elige la opción correcta.", "frase": "This channel only gives one side of the story. It's very ___.", "opciones": ["biased", "live", "viral"], "respuestas": ["biased"], "explicacion": "Parcial o sesgado es biased."},
-  {"id": "e07", "tipo": "eleccion", "enunciado": "Elige la opción correcta.", "frase": "The concert will be ___ live on national radio.", "opciones": ["broadcast", "published", "printed"], "respuestas": ["broadcast"], "explicacion": "Emitir por radio o televisión es broadcast."},
-  {"id": "e08", "tipo": "eleccion", "enunciado": "Elige la opción correcta.", "frase": "Before you share a story, check the ___.", "opciones": ["source", "fountain", "font"], "respuestas": ["source"], "explicacion": "La fuente de una información es source; fountain es una fuente de agua."},
-  {"id": "e09", "tipo": "corregir", "enunciado": "Corrige el falso amigo.", "frase": "She works for an editorial that publishes children's books.", "respuestas": ["She works for a publisher that publishes children's books.", "She works for a publishing house that publishes children's books.", "She works for a publishing company that publishes children's books."], "explicacion": "La empresa editorial es publisher o publishing house."},
-  {"id": "e10", "tipo": "corregir", "enunciado": "Corrige el error.", "frase": "I have two good news for you.", "respuestas": ["I have two pieces of good news for you.", "I have two bits of good news for you."], "explicacion": "News es incontable: two pieces of news."},
-  {"id": "e11", "tipo": "corregir", "enunciado": "Corrige el error.", "frase": "I read the article on yesterday's newspaper.", "respuestas": ["I read the article in yesterday's newspaper."], "explicacion": "En un periódico es in the newspaper."},
-  {"id": "e12", "tipo": "ordenar", "enunciado": "Ordena las palabras.", "palabras": ["on", "much", "spends", "she", "media", "social", "too", "time"], "respuestas": ["She spends too much time on social media"], "explicacion": "En redes sociales es on social media."},
-  {"id": "e13", "tipo": "ordenar", "enunciado": "Ordena las palabras.", "palabras": ["the", "headlines", "made", "story", "the"], "respuestas": ["The story made the headlines"], "explicacion": "Make the headlines es salir en los titulares."},
-  {"id": "e14", "tipo": "hueco", "enunciado": "Completa con la preposición.", "frase": "I subscribe ___ two online newspapers.", "respuestas": ["to"], "explicacion": "Suscribirse a es subscribe to."},
-  {"id": "e15", "tipo": "eleccion", "enunciado": "Elige la opción correcta.", "frase": "The ___ of the election on public TV was very thorough.", "opciones": ["coverage", "covering", "cover"], "respuestas": ["coverage"], "explicacion": "La cobertura informativa es coverage."}
+  {
+   "id": "e01",
+   "tipo": "hueco",
+   "enunciado": "Completa con la forma correcta de be.",
+   "frase": "The news ___ (be) on at nine o'clock every night.",
+   "respuestas": [
+    "is",
+    "'s"
+   ],
+   "explicacion": "La ficha explica que news es incontable y va en singular aunque acabe en -s: «The news is on at nine». La pista es el sujeto The news: la -s no indica plural, así que el verbo be va en tercera persona del singular, is. También se acepta la contracción 's. «Be on» significa aquí «emitirse, echarse por la tele».",
+   "explicacion_breve": "News es incontable y va con verbo en singular.",
+   "traduccion": "Las noticias (el telediario) empiezan a las nueve todas las noches.",
+   "errores_previstos": [
+    {
+     "respuesta": "are",
+     "explicacion": "Calco del español «las noticias son»: news es incontable y siempre va con verbo en singular."
+    },
+    {
+     "respuesta": "be",
+     "explicacion": "Hay que conjugar el verbo: con un sujeto en tercera persona del singular es is."
+    },
+    {
+     "respuesta": "was",
+     "explicacion": "Es singular, pero every night indica un hábito presente; el tiempo adecuado es el presente, is."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "the news",
+     "significado": "las noticias, el telediario"
+    },
+    {
+     "palabra": "be on",
+     "significado": "emitirse, echarse (en la tele)"
+    }
+   ]
+  },
+  {
+   "id": "e02",
+   "tipo": "hueco",
+   "enunciado": "Completa con la preposición.",
+   "frase": "I saw the interview ___ TV last night.",
+   "respuestas": [
+    "on"
+   ],
+   "explicacion": "La ficha precisa que se dice on TV, on the radio y on social media, pero in the newspaper. La pista es TV: con los medios que se emiten o se consultan en una pantalla o un aparato se usa on. Queda «I saw the interview on TV». El español «en la tele» lleva a calcar in, que aquí no es correcto.",
+   "explicacion_breve": "En televisión es on TV.",
+   "traduccion": "Anoche vi la entrevista en la tele.",
+   "errores_previstos": [
+    {
+     "respuesta": "in",
+     "explicacion": "Calco de «en la tele»: con TV se usa on; in se reserva para in the newspaper."
+    },
+    {
+     "respuesta": "at",
+     "explicacion": "At no se usa con medios de comunicación; la preposición es on."
+    },
+    {
+     "respuesta": "by",
+     "explicacion": "By indicaría el medio por el que se transmite algo (by post), no dónde se ve un programa."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "on TV",
+     "significado": "en la tele"
+    },
+    {
+     "palabra": "interview",
+     "significado": "entrevista"
+    }
+   ]
+  },
+  {
+   "id": "e03",
+   "tipo": "hueco",
+   "enunciado": "Completa: «titular».",
+   "frase": "The ___ on the front page said «Prices up again».",
+   "respuestas": [
+    "headline"
+   ],
+   "explicacion": "La tabla recoge «headline», «titular», junto a «front page», «portada». La pista es la cita entre comillas y la referencia a la portada: lo que aparece destacado arriba es el titular. Headline se forma con head («cabeza») y line («línea»). Queda «The headline on the front page said…».",
+   "explicacion_breve": "El titular es headline.",
+   "traduccion": "El titular de la portada decía «Los precios vuelven a subir».",
+   "errores_previstos": [
+    {
+     "respuesta": "title",
+     "explicacion": "Title es el título de un libro o una película; el titular de una noticia es headline."
+    },
+    {
+     "respuesta": "holder",
+     "explicacion": "Holder es «titular» en el sentido de poseedor (de una cuenta, un cargo); no es el titular de prensa."
+    },
+    {
+     "respuesta": "heading",
+     "explicacion": "Heading es un encabezamiento de sección en un texto; en prensa se dice headline."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "headline",
+     "significado": "titular"
+    },
+    {
+     "palabra": "front page",
+     "significado": "portada"
+    }
+   ]
+  },
+  {
+   "id": "e04",
+   "tipo": "hueco",
+   "enunciado": "Completa: «hacerse viral».",
+   "frase": "The video of the singing cat went ___ in a few hours.",
+   "respuestas": [
+    "viral"
+   ],
+   "explicacion": "La segunda tabla recoge «go viral», «hacerse viral». La pista es el verbo went, pasado de go, que en esta colocación significa «volverse». Queda «went viral in a few hours». En inglés no se dice «make viral» ni «become virus»: go viral es la expresión fija para un contenido que se difunde muy deprisa en internet.",
+   "explicacion_breve": "Hacerse viral es go viral.",
+   "traduccion": "El vídeo del gato que canta se hizo viral en pocas horas.",
+   "errores_previstos": [
+    {
+     "respuesta": "virus",
+     "explicacion": "Virus es el sustantivo; tras go hace falta el adjetivo viral."
+    },
+    {
+     "respuesta": "virally",
+     "explicacion": "Es un adverbio; la expresión fija usa el adjetivo: go viral."
+    },
+    {
+     "respuesta": "famous",
+     "explicacion": "Go famous no existe (se diría become famous) y no tiene el sentido de difusión masiva en internet."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "go viral",
+     "significado": "hacerse viral"
+    },
+    {
+     "palabra": "singing cat",
+     "significado": "gato que canta"
+    }
+   ]
+  },
+  {
+   "id": "e05",
+   "tipo": "eleccion",
+   "enunciado": "Elige la opción correcta.",
+   "frase": "That's a very interesting ___ of news.",
+   "opciones": [
+    "piece",
+    "new",
+    "notice"
+   ],
+   "respuestas": [
+    "piece"
+   ],
+   "explicacion": "La ficha explica que una noticia es a piece of news o a news story, nunca «a new». La pista es «of news» tras el hueco: news es incontable, así que para contar una unidad se usa la estructura partitiva a piece of. Queda «a very interesting piece of news». Notice es un falso amigo.",
+   "explicacion_breve": "Una noticia es a piece of news.",
+   "traduccion": "Es una noticia muy interesante.",
+   "por_opcion": {
+    "piece": "Correcta. A piece of news es la forma de contar una noticia, porque news es incontable.",
+    "new": "Incorrecta. New es el adjetivo «nuevo»; «a new of news» no tiene sentido y «a new» no significa «una noticia».",
+    "notice": "Incorrecta. Notice es un falso amigo: significa «aviso, anuncio» o «preaviso», no «noticia»."
+   },
+   "glosario": [
+    {
+     "palabra": "a piece of news",
+     "significado": "una noticia"
+    },
+    {
+     "palabra": "notice",
+     "significado": "aviso (falso amigo de «noticia»)"
+    }
+   ]
+  },
+  {
+   "id": "e06",
+   "tipo": "eleccion",
+   "enunciado": "Elige la opción correcta.",
+   "frase": "This channel only gives one side of the story. It's very ___.",
+   "opciones": [
+    "biased",
+    "live",
+    "viral"
+   ],
+   "respuestas": [
+    "biased"
+   ],
+   "explicacion": "La segunda tabla recoge «biased / unbiased», «parcial, sesgado / imparcial». La pista es la primera frase: si un canal solo cuenta un lado de la historia, está sesgado. Queda «It's very biased». Live y viral no tienen relación con la imparcialidad.",
+   "explicacion_breve": "Parcial o sesgado es biased.",
+   "traduccion": "Este canal solo da una versión de la historia. Es muy parcial.",
+   "por_opcion": {
+    "biased": "Correcta. Biased significa «parcial, sesgado», justo lo que se dice de un canal que solo da una versión.",
+    "live": "Incorrecta. Live significa «en directo»; describe cómo se emite, no si la información es imparcial.",
+    "viral": "Incorrecta. Viral se dice de un contenido muy compartido en internet, no de un canal parcial."
+   },
+   "glosario": [
+    {
+     "palabra": "biased",
+     "significado": "parcial, sesgado"
+    },
+    {
+     "palabra": "one side of the story",
+     "significado": "una sola versión de los hechos"
+    }
+   ]
+  },
+  {
+   "id": "e07",
+   "tipo": "eleccion",
+   "enunciado": "Elige la opción correcta.",
+   "frase": "The concert will be ___ live on national radio.",
+   "opciones": [
+    "broadcast",
+    "published",
+    "printed"
+   ],
+   "respuestas": [
+    "broadcast"
+   ],
+   "explicacion": "La tabla recoge «broadcast», «emitir, retransmitir», con el ejemplo «The match will be broadcast live». La pista es «live on national radio»: la radio y la televisión emiten, no publican ni imprimen. Broadcast es irregular y su participio es igual que el infinitivo, por eso «will be broadcast» no lleva -ed.",
+   "explicacion_breve": "Emitir por radio o televisión es broadcast.",
+   "traduccion": "El concierto se retransmitirá en directo por la radio nacional.",
+   "por_opcion": {
+    "broadcast": "Correcta. Broadcast significa «emitir, retransmitir» por radio o televisión; el participio es igual que el infinitivo.",
+    "published": "Incorrecta. Publish se usa para libros, periódicos o contenidos escritos, no para emisiones de radio.",
+    "printed": "Incorrecta. Print significa «imprimir»; no tiene sentido con un concierto en la radio."
+   },
+   "glosario": [
+    {
+     "palabra": "broadcast",
+     "significado": "emitir, retransmitir"
+    },
+    {
+     "palabra": "live",
+     "significado": "en directo"
+    }
+   ]
+  },
+  {
+   "id": "e08",
+   "tipo": "eleccion",
+   "enunciado": "Elige la opción correcta.",
+   "frase": "Before you share a story, check the ___.",
+   "opciones": [
+    "source",
+    "fountain",
+    "font"
+   ],
+   "respuestas": [
+    "source"
+   ],
+   "explicacion": "La segunda tabla recoge «source», «fuente», con el ejemplo «Always check your sources». La pista es el contexto de compartir una información: se habla de su origen. El español «fuente» tiene varios sentidos que el inglés separa: source es el origen de una información, fountain es la fuente de agua de una plaza y font es el tipo de letra.",
+   "explicacion_breve": "La fuente de una información es source; fountain es una fuente de agua.",
+   "traduccion": "Antes de compartir una noticia, comprueba la fuente.",
+   "por_opcion": {
+    "source": "Correcta. Source es la fuente u origen de una información, lo que hay que comprobar antes de compartirla.",
+    "fountain": "Incorrecta. Fountain es una fuente de agua, como la de una plaza.",
+    "font": "Incorrecta. Font es el tipo de letra en un ordenador; también un falso amigo de «fuente»."
+   },
+   "glosario": [
+    {
+     "palabra": "source",
+     "significado": "fuente (de información)"
+    },
+    {
+     "palabra": "share",
+     "significado": "compartir"
+    }
+   ]
+  },
+  {
+   "id": "e09",
+   "tipo": "corregir",
+   "enunciado": "Corrige el falso amigo.",
+   "frase": "She works for an editorial that publishes children's books.",
+   "respuestas": [
+    "She works for a publisher that publishes children's books.",
+    "She works for a publishing house that publishes children's books.",
+    "She works for a publishing company that publishes children's books."
+   ],
+   "explicacion": "La ficha avisa de que an editorial no es una editorial, que es a publisher; an editorial es un artículo de opinión del periódico. La pista es «that publishes children's books»: se habla de una empresa que publica libros. La corrección es «a publisher», «a publishing house» o «a publishing company»; fíjate en que el artículo cambia a a porque publisher empieza por consonante.",
+   "explicacion_breve": "La empresa editorial es publisher o publishing house.",
+   "traduccion": "Trabaja para una editorial que publica libros infantiles.",
+   "errores_previstos": [
+    {
+     "respuesta": "She works for an editorial that publishes children's books.",
+     "explicacion": "Es dejar la frase sin corregir: an editorial es un artículo de opinión, no una empresa editorial."
+    },
+    {
+     "respuesta": "She works for an publisher that publishes children's books.",
+     "explicacion": "La palabra es correcta, pero ante publisher el artículo es a, no an."
+    },
+    {
+     "respuesta": "She works for an editor that publishes children's books.",
+     "explicacion": "Editor es una persona (director o redactor jefe), no la empresa; además pediría a, no an."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "publisher / publishing house",
+     "significado": "editorial (empresa)"
+    },
+    {
+     "palabra": "editorial",
+     "significado": "artículo de opinión del periódico"
+    },
+    {
+     "palabra": "children's books",
+     "significado": "libros infantiles"
+    }
+   ]
+  },
+  {
+   "id": "e10",
+   "tipo": "corregir",
+   "enunciado": "Corrige el error.",
+   "frase": "I have two good news for you.",
+   "respuestas": [
+    "I have two pieces of good news for you.",
+    "I have two bits of good news for you."
+   ],
+   "explicacion": "La ficha recuerda que news es incontable: no puede ir con un número directamente. La pista es two, que exige contar unidades; para ello se usa la partitiva pieces of (o, más coloquial, bits of). Así queda «two pieces of good news». El adjetivo good va delante de news, dentro del sintagma partitivo.",
+   "explicacion_breve": "News es incontable: two pieces of news.",
+   "traduccion": "Tengo dos buenas noticias para ti.",
+   "errores_previstos": [
+    {
+     "respuesta": "I have two good news for you.",
+     "explicacion": "Es dejar la frase sin corregir: news es incontable y no admite numerales."
+    },
+    {
+     "respuesta": "I have two good new for you.",
+     "explicacion": "New es el adjetivo «nuevo»; no existe «a new» como «una noticia»."
+    },
+    {
+     "respuesta": "I have two piece of good news for you.",
+     "explicacion": "Con two el sustantivo contable piece va en plural: two pieces."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "a piece of news",
+     "significado": "una noticia"
+    }
+   ]
+  },
+  {
+   "id": "e11",
+   "tipo": "corregir",
+   "enunciado": "Corrige el error.",
+   "frase": "I read the article on yesterday's newspaper.",
+   "respuestas": [
+    "I read the article in yesterday's newspaper."
+   ],
+   "explicacion": "La ficha precisa que se dice in the newspaper, pero on TV, on the radio y on the internet. La pista es newspaper: el texto está dentro de las páginas del periódico, por eso se usa in. La corrección es «in yesterday's newspaper». El error viene de generalizar on desde los medios audiovisuales.",
+   "explicacion_breve": "En un periódico es in the newspaper.",
+   "traduccion": "Leí el artículo en el periódico de ayer.",
+   "errores_previstos": [
+    {
+     "respuesta": "I read the article on yesterday's newspaper.",
+     "explicacion": "Es dejar la frase sin corregir: con newspaper la preposición es in."
+    },
+    {
+     "respuesta": "I read the article at yesterday's newspaper.",
+     "explicacion": "At no se usa para el lugar donde aparece un texto; con newspaper es in."
+    },
+    {
+     "respuesta": "I read the article in the yesterday's newspaper.",
+     "explicacion": "El genitivo yesterday's ya hace de determinante; no puede ir además the."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "in the newspaper",
+     "significado": "en el periódico"
+    },
+    {
+     "palabra": "yesterday's",
+     "significado": "de ayer"
+    }
+   ]
+  },
+  {
+   "id": "e12",
+   "tipo": "ordenar",
+   "enunciado": "Ordena las palabras.",
+   "palabras": [
+    "on",
+    "much",
+    "spends",
+    "she",
+    "media",
+    "social",
+    "too",
+    "time"
+   ],
+   "respuestas": [
+    "She spends too much time on social media"
+   ],
+   "explicacion": "La segunda tabla recoge «social media», «redes sociales», y la ficha precisa que se dice on social media. La frase sigue la estructura spend + tiempo + on algo: «She spends too much time on social media». Too much va delante de time porque time es incontable. El orden es sujeto, verbo, complemento de tiempo y la preposición on con el medio.",
+   "explicacion_breve": "En redes sociales es on social media.",
+   "traduccion": "Pasa demasiado tiempo en las redes sociales.",
+   "errores_previstos": [
+    {
+     "respuesta": "She spends much too time on social media",
+     "explicacion": "Too va delante de much: too much time."
+    },
+    {
+     "respuesta": "She spends too much time social on media",
+     "explicacion": "Social media es un sintagma fijo: el adjetivo social va delante de media, tras la preposición on."
+    },
+    {
+     "respuesta": "Too much time she spends on social media",
+     "explicacion": "Anteponer el complemento es un orden marcado que no corresponde a una frase neutra; el inglés coloca sujeto y verbo primero."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "social media",
+     "significado": "redes sociales"
+    },
+    {
+     "palabra": "spend time on",
+     "significado": "dedicar tiempo a"
+    }
+   ]
+  },
+  {
+   "id": "e13",
+   "tipo": "ordenar",
+   "enunciado": "Ordena las palabras.",
+   "palabras": [
+    "the",
+    "headlines",
+    "made",
+    "story",
+    "the"
+   ],
+   "respuestas": [
+    "The story made the headlines"
+   ],
+   "explicacion": "La tabla da el ejemplo «The story made the headlines», es decir, «salir en los titulares, ser noticia de portada». Es una colocación fija con el verbo make en pasado y headlines en plural con the. El orden es sujeto (The story), verbo (made) y complemento (the headlines). Story aquí significa «noticia», no «cuento».",
+   "explicacion_breve": "Make the headlines es salir en los titulares.",
+   "traduccion": "La noticia salió en los titulares.",
+   "errores_previstos": [
+    {
+     "respuesta": "The headlines made the story",
+     "explicacion": "Invierte el sujeto y el complemento: la noticia es la que sale en los titulares."
+    },
+    {
+     "respuesta": "The story the headlines made",
+     "explicacion": "El verbo va entre el sujeto y el complemento: The story made the headlines."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "make the headlines",
+     "significado": "salir en los titulares"
+    },
+    {
+     "palabra": "story",
+     "significado": "noticia, reportaje"
+    }
+   ]
+  },
+  {
+   "id": "e14",
+   "tipo": "hueco",
+   "enunciado": "Completa con la preposición.",
+   "frase": "I subscribe ___ two online newspapers.",
+   "respuestas": [
+    "to"
+   ],
+   "explicacion": "La segunda tabla recoge «subscribe to», «suscribirse a». La pista es el verbo subscribe, que siempre rige la preposición to. Queda «I subscribe to two online newspapers». En inglés el verbo en presente simple expresa la situación habitual: no hace falta una construcción como «estoy suscrito».",
+   "explicacion_breve": "Suscribirse a es subscribe to.",
+   "traduccion": "Estoy suscrito a dos periódicos digitales.",
+   "errores_previstos": [
+    {
+     "respuesta": "at",
+     "explicacion": "Subscribe no se construye con at; la preposición fija es to."
+    },
+    {
+     "respuesta": "in",
+     "explicacion": "Calco de «inscribirse en»: subscribe rige to."
+    },
+    {
+     "respuesta": "a",
+     "explicacion": "Es la preposición española; en inglés subscribe to."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "subscribe to",
+     "significado": "suscribirse a, estar suscrito a"
+    },
+    {
+     "palabra": "online newspaper",
+     "significado": "periódico digital"
+    }
+   ]
+  },
+  {
+   "id": "e15",
+   "tipo": "eleccion",
+   "enunciado": "Elige la opción correcta.",
+   "frase": "The ___ of the election on public TV was very thorough.",
+   "opciones": [
+    "coverage",
+    "covering",
+    "cover"
+   ],
+   "respuestas": [
+    "coverage"
+   ],
+   "explicacion": "La segunda tabla recoge «coverage», «cobertura informativa». La pista es el artículo The y la preposición of: hace falta un sustantivo que designe el tratamiento informativo de un acontecimiento. Coverage es la palabra fija para ello, formada sobre cover («cubrir una noticia»). Covering y cover existen, pero no tienen este significado.",
+   "explicacion_breve": "La cobertura informativa es coverage.",
+   "traduccion": "La cobertura de las elecciones en la televisión pública fue muy completa.",
+   "por_opcion": {
+    "coverage": "Correcta. Coverage es la cobertura informativa que un medio da a un acontecimiento.",
+    "covering": "Incorrecta. Covering es una capa o funda que cubre algo (a floor covering), no la cobertura periodística.",
+    "cover": "Incorrecta. Cover es la portada de una revista o una tapa; no designa el tratamiento informativo de unas elecciones."
+   },
+   "glosario": [
+    {
+     "palabra": "coverage",
+     "significado": "cobertura informativa"
+    },
+    {
+     "palabra": "thorough",
+     "significado": "minucioso, completo"
+    }
+   ]
+  }
  ],
- "fuente": {"nombre": "propia"}
+ "fuente": {
+  "nombre": "propia"
+ },
+ "descripcion_larga_es": "Esta ficha reúne el vocabulario para hablar de cómo te informas: prensa, televisión, radio y redes sociales, con palabras como headline, coverage, broadcast o biased. Es imprescindible para comentar noticias en una conversación o en un examen oral. Al hispanohablante le cuesta porque news es incontable y va en singular, hay falsos amigos (editorial, notice, fountain) y las preposiciones cambian: on TV, pero in the newspaper.",
+ "contexto": {
+  "que_es": "Es el léxico de los medios de comunicación en inglés: los soportes (newspaper, magazine, radio, podcast), las personas (journalist, editor, presenter), los productos (headline, article, report) y el mundo digital (post, share, go viral, fake news). Incluye también los adjetivos para valorar la información, como biased o unbiased.",
+  "por_que_importa": "Comentar noticias es una de las tareas más habituales en una conversación y en un examen oral, y sirve para introducir opiniones sobre economía o política. Errores como «a new», «the news are» o «I read it on the newspaper» se notan mucho. Los falsos amigos pueden provocar malentendidos: decir editorial por publisher hace pensar en un artículo de opinión.",
+  "cuando_se_usa": "Sirve para contar dónde has leído o visto algo, valorar la fiabilidad de una fuente o hablar de redes sociales. Las señales son verbos como read, watch, post o broadcast. El hispanohablante tiende a pluralizar news, a usar «on» con newspaper por analogía con on TV y a calcar «fuente» como fountain."
+ }
 }

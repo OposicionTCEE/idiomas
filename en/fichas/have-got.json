@@ -6,47 +6,484 @@
  "nivel": "A1",
  "resumen": "Have y have got significan «tener» (posesión, familia, rasgos físicos, enfermedades). Have funciona como verbo normal con do/does; have got usa have/has como auxiliar y es más frecuente en inglés británico hablado.",
  "explicacion": [
-  {"tipo": "texto", "texto": "Para hablar de posesión ambas formas son correctas: I have a car = I've got a car. Lo importante es no mezclar sus estructuras en preguntas y negaciones."},
-  {"tipo": "tabla", "cabecera": ["Forma", "have", "have got"], "filas": [
-   ["Afirmativa", "She has two sisters.", "She's got two sisters."],
-   ["Negativa", "She doesn't have a car.", "She hasn't got a car."],
-   ["Pregunta", "Does she have a car?", "Has she got a car?"],
-   ["Respuesta corta", "Yes, she does. / No, she doesn't.", "Yes, she has. / No, she hasn't."]
-  ]},
-  {"tipo": "lista", "items": [
-   "En tercera persona del singular: has / has got (he's got).",
-   "Have got solo se usa en presente; en pasado se dice had (I had a bike).",
-   "Have (no have got) se usa también en expresiones de acción: have breakfast, have a shower, have a good time.",
-   "El hambre, la sed o la edad no se expresan con have, sino con to be."
-  ]}
+  {
+   "tipo": "texto",
+   "texto": "Para hablar de posesión ambas formas son correctas: I have a car = I've got a car. Lo importante es no mezclar sus estructuras en preguntas y negaciones."
+  },
+  {
+   "tipo": "tabla",
+   "cabecera": [
+    "Forma",
+    "have",
+    "have got"
+   ],
+   "filas": [
+    [
+     "Afirmativa",
+     "She has two sisters.",
+     "She's got two sisters."
+    ],
+    [
+     "Negativa",
+     "She doesn't have a car.",
+     "She hasn't got a car."
+    ],
+    [
+     "Pregunta",
+     "Does she have a car?",
+     "Has she got a car?"
+    ],
+    [
+     "Respuesta corta",
+     "Yes, she does. / No, she doesn't.",
+     "Yes, she has. / No, she hasn't."
+    ]
+   ]
+  },
+  {
+   "tipo": "lista",
+   "items": [
+    "En tercera persona del singular: has / has got (he's got).",
+    "Have got solo se usa en presente; en pasado se dice had (I had a bike).",
+    "Have (no have got) se usa también en expresiones de acción: have breakfast, have a shower, have a good time.",
+    "El hambre, la sed o la edad no se expresan con have, sino con to be."
+   ]
+  }
  ],
  "ejemplos": [
-  {"frase": "I've got a headache.", "traduccion": "Me duele la cabeza."},
-  {"frase": "Do you have any brothers or sisters?", "traduccion": "¿Tienes hermanos?"},
-  {"frase": "My grandmother has got blue eyes.", "traduccion": "Mi abuela tiene los ojos azules."},
-  {"frase": "We haven't got much time.", "traduccion": "No tenemos mucho tiempo."},
-  {"frase": "He doesn't have a mobile phone.", "traduccion": "No tiene teléfono móvil."}
+  {
+   "frase": "I've got a headache.",
+   "traduccion": "Me duele la cabeza."
+  },
+  {
+   "frase": "Do you have any brothers or sisters?",
+   "traduccion": "¿Tienes hermanos?"
+  },
+  {
+   "frase": "My grandmother has got blue eyes.",
+   "traduccion": "Mi abuela tiene los ojos azules."
+  },
+  {
+   "frase": "We haven't got much time.",
+   "traduccion": "No tenemos mucho tiempo."
+  },
+  {
+   "frase": "He doesn't have a mobile phone.",
+   "traduccion": "No tiene teléfono móvil."
+  }
  ],
  "errores_hispanohablantes": [
-  {"mal": "Have you a car?", "bien": "Do you have a car?", "nota": "En inglés actual la pregunta con have necesita do (o bien Have you got a car?)."},
-  {"mal": "She don't have got a dog.", "bien": "She hasn't got a dog.", "nota": "No se mezcla do con have got."},
-  {"mal": "He have a big house.", "bien": "He has a big house.", "nota": "En tercera persona del singular: has."}
+  {
+   "mal": "Have you a car?",
+   "bien": "Do you have a car?",
+   "nota": "En inglés actual la pregunta con have necesita do (o bien Have you got a car?)."
+  },
+  {
+   "mal": "She don't have got a dog.",
+   "bien": "She hasn't got a dog.",
+   "nota": "No se mezcla do con have got."
+  },
+  {
+   "mal": "He have a big house.",
+   "bien": "He has a big house.",
+   "nota": "En tercera persona del singular: has."
+  }
  ],
  "ejercicios": [
-  {"id": "e01", "tipo": "hueco", "enunciado": "Completa con have o has.", "frase": "My neighbours ___ a beautiful garden.", "respuestas": ["have"], "explicacion": "My neighbours equivale a they: have."},
-  {"id": "e02", "tipo": "hueco", "enunciado": "Completa con have o has.", "frase": "Ana ___ long black hair.", "respuestas": ["has"], "explicacion": "Tercera persona del singular: has."},
-  {"id": "e03", "tipo": "hueco", "enunciado": "Completa con la forma negativa de have got (contraída).", "frase": "I ___ any money with me.", "respuestas": ["haven't got", "have not got"], "explicacion": "Negativa de have got: haven't got."},
-  {"id": "e04", "tipo": "hueco", "enunciado": "Completa con do o does.", "frase": "___ your flat have a balcony?", "respuestas": ["Does"], "explicacion": "Your flat equivale a it: does + have."},
-  {"id": "e05", "tipo": "eleccion", "enunciado": "Elige la opción correcta.", "frase": "___ you got a pen?", "opciones": ["Do", "Have", "Are"], "respuestas": ["Have"], "explicacion": "Con have got la pregunta empieza por have."},
-  {"id": "e06", "tipo": "eleccion", "enunciado": "Elige la opción correcta.", "frase": "He ___ a cold.", "opciones": ["has got", "have got", "is"], "respuestas": ["has got"], "explicacion": "He lleva has got."},
-  {"id": "e07", "tipo": "eleccion", "enunciado": "Elige la respuesta corta correcta.", "frase": "Do you have a dog? No, I ___.", "opciones": ["haven't", "don't", "doesn't"], "respuestas": ["don't"], "explicacion": "Si la pregunta usa do, la respuesta corta también."},
-  {"id": "e08", "tipo": "eleccion", "enunciado": "Elige la respuesta corta correcta.", "frase": "Has she got a bike? Yes, she ___.", "opciones": ["has", "does", "is"], "respuestas": ["has"], "explicacion": "Pregunta con has got: respuesta con has."},
-  {"id": "e09", "tipo": "transformar", "enunciado": "Pasa la frase a pregunta con have got.", "frase": "They have got a new car.", "respuestas": ["Have they got a new car?"], "explicacion": "Se invierte have y el sujeto."},
-  {"id": "e10", "tipo": "transformar", "enunciado": "Pasa la frase a negativa usando do/does.", "frase": "She has a laptop.", "respuestas": ["She doesn't have a laptop.", "She does not have a laptop."], "explicacion": "Con have como verbo normal: doesn't + have."},
-  {"id": "e11", "tipo": "corregir", "enunciado": "Corrige el error.", "frase": "My brother have got three children.", "respuestas": ["My brother has got three children.", "My brother's got three children."], "explicacion": "Tercera persona del singular: has got."},
-  {"id": "e12", "tipo": "corregir", "enunciado": "Corrige el error.", "frase": "Does he has a passport?", "respuestas": ["Does he have a passport?"], "explicacion": "Después de does va la forma base have."},
-  {"id": "e13", "tipo": "corregir", "enunciado": "Corrige el error.", "frase": "I have 25 years.", "respuestas": ["I am 25 years old.", "I'm 25 years old.", "I am 25.", "I'm 25."], "explicacion": "La edad se dice con to be."},
-  {"id": "e14", "tipo": "ordenar", "enunciado": "Ordena las palabras para formar una pregunta.", "palabras": ["got", "have", "any", "you", "pets"], "respuestas": ["Have you got any pets"], "explicacion": "Have + sujeto + got + complemento."}
+  {
+   "id": "e01",
+   "tipo": "hueco",
+   "enunciado": "Completa con have o has.",
+   "frase": "My neighbours ___ a beautiful garden.",
+   "respuestas": [
+    "have"
+   ],
+   "explicacion": "Se aplica la regla de concordancia de have: has solo en tercera persona del singular y have en el resto. La pista es el sujeto My neighbours, plural, que equivale a they. Por eso la forma es have. Que el sujeto acabe en -s no significa que el verbo lleve -s: es justo al revés.",
+   "explicacion_breve": "My neighbours equivale a they: have.",
+   "traduccion": "Mis vecinos tienen un jardín precioso.",
+   "errores_previstos": [
+    {
+     "respuesta": "has",
+     "explicacion": "Has es solo para he, she, it o un sustantivo singular; my neighbours es plural."
+    },
+    {
+     "respuesta": "are having",
+     "explicacion": "Have con sentido de posesión es un verbo de estado y no va en forma continua."
+    },
+    {
+     "respuesta": "haves",
+     "explicacion": "Have no lleva -s en plural; la forma de tercera persona singular es has."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "neighbour",
+     "significado": "vecino"
+    }
+   ]
+  },
+  {
+   "id": "e02",
+   "tipo": "hueco",
+   "enunciado": "Completa con have o has.",
+   "frase": "Ana ___ long black hair.",
+   "respuestas": [
+    "has"
+   ],
+   "explicacion": "Se aplica la regla de tercera persona del singular: con he, she, it o un nombre propio singular, have se convierte en has. La pista es el sujeto Ana, que equivale a she. Además, la ficha recuerda que have sirve también para rasgos físicos, como el pelo. Nótese que en inglés hair es incontable aquí y no lleva artículo: long black hair.",
+   "explicacion_breve": "Tercera persona del singular: has.",
+   "traduccion": "Ana tiene el pelo largo y negro.",
+   "errores_previstos": [
+    {
+     "respuesta": "have",
+     "explicacion": "Es el error típico de la ficha (He have…): con un sujeto en tercera persona del singular se usa has."
+    },
+    {
+     "respuesta": "is",
+     "explicacion": "Es un calco de construcciones como «es de pelo largo»; para rasgos físicos se usa has."
+    },
+    {
+     "respuesta": "haves",
+     "explicacion": "La tercera persona de have es irregular: has."
+    }
+   ]
+  },
+  {
+   "id": "e03",
+   "tipo": "hueco",
+   "enunciado": "Completa con la forma negativa de have got.",
+   "frase": "I ___ any money with me.",
+   "respuestas": [
+    "haven't got",
+    "have not got"
+   ],
+   "explicacion": "Se aplica la regla de la negativa de have got: la negación va directamente con have, sin do: haven't got. La pista es el sujeto I y la petición de la forma negativa. Any es la forma propia de las negativas con incontables (money). Valen la forma contraída haven't got, la más habitual al hablar, y la completa have not got, más enfática o escrita.",
+   "explicacion_breve": "Negativa de have got: haven't got.",
+   "traduccion": "No llevo nada de dinero encima.",
+   "errores_previstos": [
+    {
+     "respuesta": "don't have got",
+     "explicacion": "Mezcla las dos estructuras: con have got la negativa es haven't got, sin do."
+    },
+    {
+     "respuesta": "hasn't got",
+     "explicacion": "Con I se usa have, no has."
+    },
+    {
+     "respuesta": "haven't",
+     "explicacion": "Falta got: sin él, la negativa con have necesita do (I don't have)."
+    }
+   ]
+  },
+  {
+   "id": "e04",
+   "tipo": "hueco",
+   "enunciado": "Completa con do o does.",
+   "frase": "___ your flat have a balcony?",
+   "respuestas": [
+    "Does"
+   ],
+   "explicacion": "Se aplica la regla de la ficha: have como verbo normal forma las preguntas con do/does. La pista es el sujeto your flat, que equivale a it (tercera persona del singular), y el verbo have en forma base detrás. Por eso el auxiliar es Does. La -s de tercera persona la lleva does, y have queda sin cambios.",
+   "explicacion_breve": "Your flat equivale a it: does + have.",
+   "traduccion": "¿Tu piso tiene balcón?",
+   "errores_previstos": [
+    {
+     "respuesta": "Do",
+     "explicacion": "Con un sujeto en tercera persona del singular (your flat = it) se usa does."
+    },
+    {
+     "respuesta": "Has",
+     "explicacion": "Has your flat…? necesitaría got (Has your flat got a balcony?); con have en forma base detrás se usa does."
+    },
+    {
+     "respuesta": "Is",
+     "explicacion": "Be no forma preguntas con have; el auxiliar es does."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "flat",
+     "significado": "piso, apartamento (inglés británico)"
+    }
+   ]
+  },
+  {
+   "id": "e05",
+   "tipo": "eleccion",
+   "enunciado": "Elige la opción correcta.",
+   "frase": "___ you got a pen?",
+   "opciones": [
+    "Do",
+    "Have",
+    "Are"
+   ],
+   "respuestas": [
+    "Have"
+   ],
+   "explicacion": "Se aplica la regla de las preguntas con have got: have se invierte con el sujeto y got queda detrás. La pista es got después de you: indica que la estructura es have got. Por eso la pregunta empieza por Have. La ficha insiste en no mezclar las dos estructuras.",
+   "explicacion_breve": "Con have got la pregunta empieza por have.",
+   "traduccion": "¿Tienes un bolígrafo?",
+   "por_opcion": {
+    "Do": "Incorrecta: do se usa con have como verbo normal (Do you have a pen?), no con have got.",
+    "Have": "Correcta: con have got la pregunta se forma invirtiendo have y el sujeto.",
+    "Are": "Incorrecta: be no tiene nada que ver con have got; «Are you got» no existe."
+   }
+  },
+  {
+   "id": "e06",
+   "tipo": "eleccion",
+   "enunciado": "Elige la opción correcta.",
+   "frase": "He ___ a cold.",
+   "opciones": [
+    "has got",
+    "have got",
+    "is"
+   ],
+   "respuestas": [
+    "has got"
+   ],
+   "explicacion": "Se aplica la regla de concordancia de have got: con he, she e it se usa has got. La pista es el sujeto He. La ficha recuerda además que have sirve para enfermedades: a cold («un resfriado»). En español decimos «está resfriado», pero en inglés se «tiene» el resfriado.",
+   "explicacion_breve": "He lleva has got.",
+   "traduccion": "Está resfriado.",
+   "por_opcion": {
+    "has got": "Correcta: tercera persona del singular, has got.",
+    "have got": "Incorrecta: have got es para I, you, we y they; con he se usa has got.",
+    "is": "Incorrecta: es el calco de «está resfriado»; he is a cold significaría «él es un resfriado»."
+   }
+  },
+  {
+   "id": "e07",
+   "tipo": "eleccion",
+   "enunciado": "Elige la respuesta corta correcta.",
+   "frase": "Do you have a dog? No, I ___.",
+   "opciones": [
+    "haven't",
+    "don't",
+    "doesn't"
+   ],
+   "respuestas": [
+    "don't"
+   ],
+   "explicacion": "Se aplica la regla de la ficha sobre las respuestas cortas: si la pregunta usa do, la respuesta corta también. La pista es Do you have…?, pregunta con have como verbo normal. Con I la respuesta es No, I don't. No se mezcla con la estructura de have got.",
+   "explicacion_breve": "Si la pregunta usa do, la respuesta corta también.",
+   "traduccion": "¿Tienes perro? No, no tengo.",
+   "por_opcion": {
+    "haven't": "Incorrecta según la regla de la ficha: responde con la estructura de have got a una pregunta hecha con do. En inglés británico a veces se oye No, I haven't, pero lo coherente es I don't.",
+    "don't": "Correcta: la respuesta corta repite el auxiliar de la pregunta, do.",
+    "doesn't": "Incorrecta: doesn't es para tercera persona del singular; con I se usa don't."
+   }
+  },
+  {
+   "id": "e08",
+   "tipo": "eleccion",
+   "enunciado": "Elige la respuesta corta correcta.",
+   "frase": "Has she got a bike? Yes, she ___.",
+   "opciones": [
+    "has",
+    "does",
+    "is"
+   ],
+   "respuestas": [
+    "has"
+   ],
+   "explicacion": "Se aplica la regla de las respuestas cortas: se repite el auxiliar de la pregunta. La pista es Has she got…?, pregunta con have got, así que la respuesta usa has: Yes, she has. En la respuesta corta no se añade got.",
+   "explicacion_breve": "Pregunta con has got: respuesta con has.",
+   "traduccion": "¿Tiene ella bici? Sí, tiene.",
+   "por_opcion": {
+    "has": "Correcta: la pregunta usa has got y la respuesta corta repite has.",
+    "does": "Incorrecta: does responde a preguntas con does have, no con has got.",
+    "is": "Incorrecta: be no responde a preguntas con have."
+   },
+   "glosario": [
+    {
+     "palabra": "bike",
+     "significado": "bici, bicicleta"
+    }
+   ]
+  },
+  {
+   "id": "e09",
+   "tipo": "transformar",
+   "enunciado": "Pasa la frase a pregunta con have got.",
+   "frase": "They have got a new car.",
+   "respuestas": [
+    "Have they got a new car?"
+   ],
+   "explicacion": "Se aplica la regla de las preguntas con have got: se invierten have y el sujeto, y got queda detrás del sujeto. La pista es la orden de formar pregunta con have got a partir de They have got. El resultado es Have they got a new car?, sin do.",
+   "explicacion_breve": "Se invierte have y el sujeto.",
+   "traduccion": "¿Tienen un coche nuevo?",
+   "errores_previstos": [
+    {
+     "respuesta": "Do they have got a new car?",
+     "explicacion": "Mezcla las dos estructuras: con have got no se usa do."
+    },
+    {
+     "respuesta": "Have got they a new car?",
+     "explicacion": "Got va detrás del sujeto: Have they got…?"
+    },
+    {
+     "respuesta": "They have got a new car?",
+     "explicacion": "Solo añade la interrogación; hay que invertir have y el sujeto."
+    }
+   ]
+  },
+  {
+   "id": "e10",
+   "tipo": "transformar",
+   "enunciado": "Pasa la frase a negativa usando do/does.",
+   "frase": "She has a laptop.",
+   "respuestas": [
+    "She doesn't have a laptop.",
+    "She does not have a laptop."
+   ],
+   "explicacion": "Se aplica la regla de have como verbo normal: la negativa se forma con doesn't + have. La pista es la orden de usar do/does y el sujeto she, tercera persona del singular. La -s pasa a does y have queda en forma base: She doesn't have a laptop. Se acepta también does not.",
+   "explicacion_breve": "Con have como verbo normal: doesn't + have.",
+   "traduccion": "Ella no tiene portátil.",
+   "errores_previstos": [
+    {
+     "respuesta": "She doesn't has a laptop.",
+     "explicacion": "Tras doesn't el verbo va en forma base: have."
+    },
+    {
+     "respuesta": "She don't have a laptop.",
+     "explicacion": "Con she se usa doesn't, no don't."
+    },
+    {
+     "respuesta": "She doesn't have got a laptop.",
+     "explicacion": "Mezcla las dos estructuras, como en el error típico de la ficha: o doesn't have, o hasn't got."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "laptop",
+     "significado": "portátil (ordenador)"
+    }
+   ]
+  },
+  {
+   "id": "e11",
+   "tipo": "corregir",
+   "enunciado": "Corrige el error.",
+   "frase": "My brother have got three children.",
+   "respuestas": [
+    "My brother has got three children.",
+    "My brother's got three children."
+   ],
+   "explicacion": "Se aplica la regla de concordancia: con un sujeto en tercera persona del singular se usa has got. La pista es My brother, que equivale a he. Hay que cambiar have got por has got; también se acepta la contracción My brother's got.",
+   "explicacion_breve": "Tercera persona del singular: has got.",
+   "traduccion": "Mi hermano tiene tres hijos.",
+   "errores_previstos": [
+    {
+     "respuesta": "My brother have got three children.",
+     "explicacion": "Deja la frase sin corregir: con my brother se usa has got."
+    },
+    {
+     "respuesta": "My brother has get three children.",
+     "explicacion": "La forma es has got, no has get."
+    },
+    {
+     "respuesta": "My brother haves got three children.",
+     "explicacion": "La tercera persona de have es irregular: has."
+    }
+   ]
+  },
+  {
+   "id": "e12",
+   "tipo": "corregir",
+   "enunciado": "Corrige el error.",
+   "frase": "Does he has a passport?",
+   "respuestas": [
+    "Does he have a passport?"
+   ],
+   "explicacion": "Se aplica la regla de la ficha: después de does el verbo va en forma base. La pista es Does al principio: la marca de tercera persona ya la lleva does, así que has debe volver a have. Es un error muy frecuente porque el alumno piensa en «he has» y lo mantiene.",
+   "explicacion_breve": "Después de does va la forma base have.",
+   "traduccion": "¿Tiene pasaporte?",
+   "errores_previstos": [
+    {
+     "respuesta": "Does he has a passport?",
+     "explicacion": "Deja la frase sin corregir: tras does va la forma base have."
+    },
+    {
+     "respuesta": "Do he have a passport?",
+     "explicacion": "Con he el auxiliar es does, no do."
+    },
+    {
+     "respuesta": "Does he have got a passport?",
+     "explicacion": "Mezcla does con have got; se dice Does he have…? o Has he got…?"
+    }
+   ]
+  },
+  {
+   "id": "e13",
+   "tipo": "corregir",
+   "enunciado": "Corrige el error.",
+   "frase": "I have 25 years.",
+   "respuestas": [
+    "I am 25 years old.",
+    "I'm 25 years old.",
+    "I am 25.",
+    "I'm 25."
+   ],
+   "explicacion": "Se aplica la regla de la ficha: la edad se dice con to be, no con have. La pista es la estructura «tengo X años», que el hispanohablante calca palabra por palabra. Lo correcto es I am 25 years old o simplemente I am 25 (o I'm 25). Lo que no se puede decir es «I am 25 years» sin old.",
+   "explicacion_breve": "La edad se dice con to be.",
+   "traduccion": "Tengo 25 años.",
+   "errores_previstos": [
+    {
+     "respuesta": "I have 25 years.",
+     "explicacion": "Deja la frase sin corregir: la edad se expresa con be."
+    },
+    {
+     "respuesta": "I have got 25 years.",
+     "explicacion": "Cambiar a have got no arregla el calco; la edad va con be."
+    },
+    {
+     "respuesta": "I am 25 years.",
+     "explicacion": "Con years hace falta old: I am 25 years old (o solo I am 25)."
+    }
+   ]
+  },
+  {
+   "id": "e14",
+   "tipo": "ordenar",
+   "enunciado": "Ordena las palabras para formar una pregunta.",
+   "palabras": [
+    "got",
+    "have",
+    "any",
+    "you",
+    "pets"
+   ],
+   "respuestas": [
+    "Have you got any pets"
+   ],
+   "explicacion": "Se aplica la regla de las preguntas con have got: have + sujeto + got + complemento. La pista es la orden de formar una pregunta y la presencia de have y got juntos. Any se usa en preguntas con plurales: any pets. El orden final es Have you got any pets.",
+   "explicacion_breve": "Have + sujeto + got + complemento.",
+   "traduccion": "¿Tienes mascotas?",
+   "errores_previstos": [
+    {
+     "respuesta": "Have got you any pets",
+     "explicacion": "Got va detrás del sujeto: Have you got…"
+    },
+    {
+     "respuesta": "You have got any pets",
+     "explicacion": "Es el orden de la afirmativa; en la pregunta have va delante del sujeto."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "pet",
+     "significado": "mascota, animal de compañía"
+    }
+   ]
+  }
  ],
- "fuente": {"nombre": "propia"}
+ "fuente": {
+  "nombre": "propia"
+ },
+ "descripcion_larga_es": "Have y have got significan «tener» y sirven para hablar de posesiones, familia, aspecto físico y enfermedades. Have funciona como un verbo normal y forma preguntas y negaciones con do/does; have got usa have/has como auxiliar y es muy frecuente en el inglés británico hablado. Lo difícil para el hispanohablante es no mezclar las dos estructuras y no usar have para la edad.",
+ "contexto": {
+  "que_es": "Son dos formas de expresar posesión o pertenencia con el mismo significado, «tener». Have es un verbo léxico que necesita do/does en preguntas y negaciones y toma has en tercera persona. Have got es una forma compuesta en la que have/has actúa como auxiliar: se invierte en las preguntas y se niega directamente (haven't got).",
+  "por_que_importa": "Hablar de lo que se tiene (familia, casa, objetos, síntomas) es de lo primero que se hace en otra lengua. Mezclar las dos estructuras (Does he has…?, She don't have got…) es un error muy visible incluso en niveles altos. Además, conocer have got es necesario para entender el inglés británico hablado, donde es más frecuente que have.",
+  "cuando_se_usa": "Se usa para posesiones (a car), relaciones (two brothers), rasgos físicos (long hair), enfermedades (a cold) y características de cosas (a balcony). Las respuestas cortas repiten el auxiliar de la pregunta: Do you…? No, I don't; Have you got…? Yes, I have. El hispanohablante suele calcar «tengo 25 años» con have, cuando en inglés la edad se dice con be."
+ }
 }

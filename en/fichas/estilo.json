@@ -6,62 +6,768 @@
  "nivel": "C2",
  "resumen": "En el nivel más alto importa la connotación: dos sinónimos pueden ser elogio o crítica (frugal / stingy). Esta ficha trabaja los matices de los cuasisinónimos, los eufemismos y la atenuación irónica típica del inglés británico.",
  "explicacion": [
-  {"tipo": "texto", "texto": "Muchos pares de palabras describen lo mismo con valoración opuesta. Elegir uno u otro es tomar partido: un político «firm» para sus partidarios es «stubborn» para sus rivales. El hablante culto controla esa carga."},
-  {"tipo": "tabla", "cabecera": ["Connotación positiva", "Connotación negativa", "Significado aproximado"], "filas": [
-   ["frugal / thrifty", "stingy / mean (británico)", "ahorrador / tacaño"],
-   ["determined / resolute", "stubborn / obstinate", "decidido / terco"],
-   ["confident / self-assured", "arrogant / cocky", "seguro de sí / arrogante"],
-   ["slim / slender", "skinny / scrawny", "delgado / flacucho"],
-   ["inquisitive / curious", "nosy / prying", "curioso / cotilla"],
-   ["assertive", "pushy / aggressive", "asertivo / avasallador"],
-   ["unconventional", "eccentric / weird", "poco convencional / raro"],
-   ["frank / candid", "blunt / tactless", "franco / brusco"],
-   ["pragmatic", "opportunistic", "pragmático / oportunista"],
-   ["cautious / prudent", "timid / indecisive", "prudente / timorato"]
-  ]},
-  {"tipo": "tabla", "cabecera": ["Expresión", "Significado", "Ejemplo"], "filas": [
-   ["not entirely / not exactly", "atenuación: «no del todo» (a menudo = «nada»)", "It was not exactly a success."],
-   ["somewhat / a tad / a touch", "algo, un pelín", "The speech was a tad too long."],
-   ["with all due respect", "con el debido respeto (anuncia una crítica)", "With all due respect, that is nonsense."],
-   ["to be economical with the truth", "no decir toda la verdad (eufemismo de mentir)", "The minister was economical with the truth."],
-   ["to let someone go", "despedir (eufemismo)", "We had to let fifty people go."],
-   ["between jobs", "en paro (eufemismo)", "He's between jobs at the moment."],
-   ["passed away", "fallecido (eufemismo)", "Her grandfather passed away last year."],
-   ["collateral damage", "daños colaterales (eufemismo militar)", "Civilians described as collateral damage."],
-   ["Hardly the most…", "ironía: no precisamente el más…", "It was hardly the most exciting match."],
-   ["I'm not entirely convinced", "no me convence nada (atenuación británica)", "I'm not entirely convinced by the plan."]
-  ]},
-  {"tipo": "lista", "items": ["Understatement británico: «That's a bit unfortunate» puede significar «es un desastre».", "«Quite» es ambiguo: «quite good» (británico) suele ser «bastante bien, sin más»; «quite brilliant» es «absolutamente brillante».", "«Hardly» es negativo: «He hardly works» = apenas trabaja, no «trabaja duro»."]}
+  {
+   "tipo": "texto",
+   "texto": "Muchos pares de palabras describen lo mismo con valoración opuesta. Elegir uno u otro es tomar partido: un político «firm» para sus partidarios es «stubborn» para sus rivales. El hablante culto controla esa carga."
+  },
+  {
+   "tipo": "tabla",
+   "cabecera": [
+    "Connotación positiva",
+    "Connotación negativa",
+    "Significado aproximado"
+   ],
+   "filas": [
+    [
+     "frugal / thrifty",
+     "stingy / mean (británico)",
+     "ahorrador / tacaño"
+    ],
+    [
+     "determined / resolute",
+     "stubborn / obstinate",
+     "decidido / terco"
+    ],
+    [
+     "confident / self-assured",
+     "arrogant / cocky",
+     "seguro de sí / arrogante"
+    ],
+    [
+     "slim / slender",
+     "skinny / scrawny",
+     "delgado / flacucho"
+    ],
+    [
+     "inquisitive / curious",
+     "nosy / prying",
+     "curioso / cotilla"
+    ],
+    [
+     "assertive",
+     "pushy / aggressive",
+     "asertivo / avasallador"
+    ],
+    [
+     "unconventional",
+     "eccentric / weird",
+     "poco convencional / raro"
+    ],
+    [
+     "frank / candid",
+     "blunt / tactless",
+     "franco / brusco"
+    ],
+    [
+     "pragmatic",
+     "opportunistic",
+     "pragmático / oportunista"
+    ],
+    [
+     "cautious / prudent",
+     "timid / indecisive",
+     "prudente / timorato"
+    ]
+   ]
+  },
+  {
+   "tipo": "tabla",
+   "cabecera": [
+    "Expresión",
+    "Significado",
+    "Ejemplo"
+   ],
+   "filas": [
+    [
+     "not entirely / not exactly",
+     "atenuación: «no del todo» (a menudo = «nada»)",
+     "It was not exactly a success."
+    ],
+    [
+     "somewhat / a tad / a touch",
+     "algo, un pelín",
+     "The speech was a tad too long."
+    ],
+    [
+     "with all due respect",
+     "con el debido respeto (anuncia una crítica)",
+     "With all due respect, that is nonsense."
+    ],
+    [
+     "to be economical with the truth",
+     "no decir toda la verdad (eufemismo de mentir)",
+     "The minister was economical with the truth."
+    ],
+    [
+     "to let someone go",
+     "despedir (eufemismo)",
+     "We had to let fifty people go."
+    ],
+    [
+     "between jobs",
+     "en paro (eufemismo)",
+     "He's between jobs at the moment."
+    ],
+    [
+     "passed away",
+     "fallecido (eufemismo)",
+     "Her grandfather passed away last year."
+    ],
+    [
+     "collateral damage",
+     "daños colaterales (eufemismo militar)",
+     "Civilians described as collateral damage."
+    ],
+    [
+     "Hardly the most…",
+     "ironía: no precisamente el más…",
+     "It was hardly the most exciting match."
+    ],
+    [
+     "I'm not entirely convinced",
+     "no me convence nada (atenuación británica)",
+     "I'm not entirely convinced by the plan."
+    ]
+   ]
+  },
+  {
+   "tipo": "lista",
+   "items": [
+    "Understatement británico: «That's a bit unfortunate» puede significar «es un desastre».",
+    "«Quite» es ambiguo: «quite good» (británico) suele ser «bastante bien, sin más»; «quite brilliant» es «absolutamente brillante».",
+    "«Hardly» es negativo: «He hardly works» = apenas trabaja, no «trabaja duro»."
+   ]
+  }
  ],
  "ejemplos": [
-  {"frase": "My grandmother was frugal, not stingy: she just hated waste.", "traduccion": "Mi abuela era ahorradora, no tacaña: simplemente detestaba el despilfarro."},
-  {"frase": "Our new neighbour is a bit nosy; she always asks where we're going.", "traduccion": "La nueva vecina es un poco cotilla; siempre pregunta adónde vamos."},
-  {"frase": "The company announced that it would let 300 employees go.", "traduccion": "La empresa anunció que prescindiría de 300 empleados."},
-  {"frase": "Losing 5–0 at home was not exactly ideal.", "traduccion": "Perder 5 a 0 en casa no fue precisamente lo ideal."},
-  {"frase": "With all due respect, minister, you have not answered the question.", "traduccion": "Con el debido respeto, ministro, no ha respondido a la pregunta."},
-  {"frase": "She gave a frank assessment of the team's weaknesses.", "traduccion": "Hizo una valoración franca de los puntos débiles del equipo."}
+  {
+   "frase": "My grandmother was frugal, not stingy: she just hated waste.",
+   "traduccion": "Mi abuela era ahorradora, no tacaña: simplemente detestaba el despilfarro."
+  },
+  {
+   "frase": "Our new neighbour is a bit nosy; she always asks where we're going.",
+   "traduccion": "La nueva vecina es un poco cotilla; siempre pregunta adónde vamos."
+  },
+  {
+   "frase": "The company announced that it would let 300 employees go.",
+   "traduccion": "La empresa anunció que prescindiría de 300 empleados."
+  },
+  {
+   "frase": "Losing 5–0 at home was not exactly ideal.",
+   "traduccion": "Perder 5 a 0 en casa no fue precisamente lo ideal."
+  },
+  {
+   "frase": "With all due respect, minister, you have not answered the question.",
+   "traduccion": "Con el debido respeto, ministro, no ha respondido a la pregunta."
+  },
+  {
+   "frase": "She gave a frank assessment of the team's weaknesses.",
+   "traduccion": "Hizo una valoración franca de los puntos débiles del equipo."
+  }
  ],
  "errores_hispanohablantes": [
-  {"mal": "He works hardly every day.", "bien": "He works hard every day.", "nota": "«Hard» es el adverbio de «duro»; «hardly» significa «apenas»."},
-  {"mal": "Thank you for your frank criticism; you're so blunt!", "bien": "Thank you for your frank criticism; you're so honest!", "nota": "«Blunt» tiene connotación negativa (brusco); no sirve como elogio."},
-  {"mal": "My boss is very economic with the truth.", "bien": "My boss is very economical with the truth.", "nota": "La expresión fija es «economical with the truth»."}
+  {
+   "mal": "He works hardly every day.",
+   "bien": "He works hard every day.",
+   "nota": "«Hard» es el adverbio de «duro»; «hardly» significa «apenas»."
+  },
+  {
+   "mal": "Thank you for your frank criticism; you're so blunt!",
+   "bien": "Thank you for your frank criticism; you're so honest!",
+   "nota": "«Blunt» tiene connotación negativa (brusco); no sirve como elogio."
+  },
+  {
+   "mal": "My boss is very economic with the truth.",
+   "bien": "My boss is very economical with the truth.",
+   "nota": "La expresión fija es «economical with the truth»."
+  }
  ],
  "ejercicios": [
-  {"id": "e01", "tipo": "eleccion", "enunciado": "Elige el adjetivo de connotación positiva.", "frase": "She's very ___ with money and has saved enough to buy a flat.", "opciones": ["thrifty", "stingy", "mean", "tight-fisted"], "respuestas": ["thrifty"], "explicacion": "«Thrifty» elogia el ahorro; los demás critican la tacañería."},
-  {"id": "e02", "tipo": "eleccion", "enunciado": "Elige el adjetivo de connotación negativa.", "frase": "He refused to change his mind even when he was clearly wrong; he's so ___.", "opciones": ["stubborn", "determined", "resolute", "committed"], "respuestas": ["stubborn"], "explicacion": "El contexto critica: «stubborn» = terco."},
-  {"id": "e03", "tipo": "hueco", "enunciado": "Completa el eufemismo (fallecer), en pasado.", "frase": "I'm sorry to hear that your father passed ___.", "respuestas": ["away"], "explicacion": "«Pass away» = fallecer (eufemismo)."},
-  {"id": "e04", "tipo": "corregir", "enunciado": "Corrige el error.", "frase": "She works hardly to support her family.", "respuestas": ["She works hard to support her family."], "explicacion": "«Hardly» = apenas; el adverbio de esfuerzo es «hard»."},
-  {"id": "e05", "tipo": "eleccion", "enunciado": "Elige la opción que expresa una crítica atenuada.", "frase": "The hotel was ___ the cleanest place I've ever stayed in.", "opciones": ["not exactly", "absolutely", "by far", "definitely"], "respuestas": ["not exactly"], "explicacion": "«Not exactly» atenúa irónicamente una crítica."},
-  {"id": "e06", "tipo": "hueco", "enunciado": "Completa el eufemismo (mentir).", "frase": "The spokesman was clearly being economical with the ___.", "respuestas": ["truth"], "explicacion": "«Economical with the truth» = no decir toda la verdad."},
-  {"id": "e07", "tipo": "eleccion", "enunciado": "Elige el adjetivo de connotación negativa.", "frase": "I don't like our new neighbour: she's always asking ___ questions about our private life.", "opciones": ["nosy", "curious", "inquisitive", "interested"], "respuestas": ["nosy"], "explicacion": "«Nosy» = cotilla, entrometido."},
-  {"id": "e08", "tipo": "hueco", "enunciado": "Completa el eufemismo (despedir).", "frase": "Due to the crisis, we will have to let some staff ___.", "respuestas": ["go"], "explicacion": "«Let someone go» = despedir (eufemismo)."},
-  {"id": "e09", "tipo": "eleccion", "enunciado": "Elige la opción correcta.", "frase": "With all ___ respect, I think your figures are wrong.", "opciones": ["due", "my", "the", "full"], "respuestas": ["due"], "explicacion": "Fórmula fija: «with all due respect»."},
-  {"id": "e10", "tipo": "eleccion", "enunciado": "Elige el adjetivo elogioso.", "frase": "As a manager, she is ___: she says what she wants without being rude.", "opciones": ["assertive", "pushy", "bossy", "aggressive"], "respuestas": ["assertive"], "explicacion": "«Assertive» es positivo; «pushy» y «bossy» son críticos."},
-  {"id": "e11", "tipo": "corregir", "enunciado": "Corrige el error.", "frase": "The minister was rather economic with the truth.", "respuestas": ["The minister was rather economical with the truth."], "explicacion": "La expresión fija lleva «economical»."},
-  {"id": "e12", "tipo": "hueco", "enunciado": "Completa con un adverbio de ironía (no precisamente).", "frase": "It was ___ the most exciting match of the season: nobody scored.", "respuestas": ["hardly", "not"], "explicacion": "«Hardly the most…» = no precisamente el más…"},
-  {"id": "e13", "tipo": "eleccion", "enunciado": "Elige el adjetivo neutro o positivo.", "frase": "The model is tall and ___.", "opciones": ["slender", "skinny", "scrawny", "bony"], "respuestas": ["slender"], "explicacion": "«Slender» es elogioso; «skinny» y «scrawny» son despectivos."},
-  {"id": "e14", "tipo": "hueco", "enunciado": "Completa la atenuación (un pelín).", "frase": "The soup is a ___ too salty, but otherwise delicious.", "respuestas": ["tad", "touch", "bit", "little"], "explicacion": "«A tad / a touch» = un pelín."},
-  {"id": "e15", "tipo": "ordenar", "enunciado": "Ordena las palabras.", "palabras": ["entirely", "I'm", "the", "convinced", "by", "not", "argument"], "respuestas": ["I'm not entirely convinced by the argument"], "explicacion": "Atenuación británica: «not entirely convinced»."}
+  {
+   "id": "e01",
+   "tipo": "eleccion",
+   "enunciado": "Elige el adjetivo de connotación positiva.",
+   "frase": "She's very ___ with money and has saved enough to buy a flat.",
+   "opciones": [
+    "thrifty",
+    "stingy",
+    "mean",
+    "tight-fisted"
+   ],
+   "respuestas": [
+    "thrifty"
+   ],
+   "explicacion": "La primera tabla de Reglas y claves opone frugal / thrifty (connotación positiva: ahorrador) a stingy / mean (negativa: tacaño). La pista es el resultado elogioso de la frase: gracias a su manera de administrar el dinero ha podido comprarse un piso, así que el adjetivo debe valorar el ahorro positivamente. Thrifty significa «ahorrador, que no malgasta», sin crítica alguna; las demás opciones describen la misma conducta como un defecto.",
+   "explicacion_breve": "«Thrifty» elogia el ahorro; los demás critican la tacañería.",
+   "traduccion": "Es muy ahorradora y ha conseguido ahorrar lo suficiente para comprarse un piso.",
+   "por_opcion": {
+    "thrifty": "Correcta: thrifty es «ahorrador», un elogio de la buena gestión del dinero.",
+    "stingy": "Incorrecta: stingy es «tacaño, rácano», una crítica; encajaría en «he's too stingy to buy anyone a drink».",
+    "mean": "Incorrecta: en inglés británico mean with money es «tacaño» (y en general mean es «mezquino, malo»); critica, no elogia.",
+    "tight-fisted": "Incorrecta: tight-fisted es «agarrado, de puño cerrado», coloquial y peyorativo."
+   },
+   "glosario": [
+    {
+     "palabra": "thrifty",
+     "significado": "ahorrador (connotación positiva)"
+    },
+    {
+     "palabra": "stingy / mean / tight-fisted",
+     "significado": "tacaño, agarrado (connotación negativa)"
+    },
+    {
+     "palabra": "flat",
+     "significado": "piso (inglés británico; en americano, apartment)"
+    }
+   ]
+  },
+  {
+   "id": "e02",
+   "tipo": "eleccion",
+   "enunciado": "Elige el adjetivo de connotación negativa.",
+   "frase": "He refused to change his mind even when he was clearly wrong; he's so ___.",
+   "opciones": [
+    "stubborn",
+    "determined",
+    "resolute",
+    "committed"
+   ],
+   "respuestas": [
+    "stubborn"
+   ],
+   "explicacion": "La tabla de la ficha opone determined / resolute (decidido, positivo) a stubborn / obstinate (terco, negativo). La pista está en el contexto: «even when he was clearly wrong» convierte la firmeza en un defecto, y la exclamación «he's so…» expresa irritación. Stubborn es el adjetivo crítico; los demás describirían la misma perseverancia como una virtud.",
+   "explicacion_breve": "El contexto critica: «stubborn» = terco.",
+   "traduccion": "Se negó a cambiar de opinión incluso cuando estaba claro que se equivocaba; es tan terco...",
+   "por_opcion": {
+    "stubborn": "Correcta: stubborn es «terco, cabezota», la versión crítica de la firmeza.",
+    "determined": "Incorrecta: determined es «decidido», un elogio; encajaría si su firmeza tuviera buen resultado.",
+    "resolute": "Incorrecta: resolute es «resuelto, firme», positivo y algo formal.",
+    "committed": "Incorrecta: committed es «comprometido, entregado» (a una causa); también positivo y no se refiere a no cambiar de opinión."
+   },
+   "glosario": [
+    {
+     "palabra": "stubborn",
+     "significado": "terco, cabezota"
+    },
+    {
+     "palabra": "determined / resolute",
+     "significado": "decidido / resuelto"
+    },
+    {
+     "palabra": "committed",
+     "significado": "comprometido, entregado"
+    }
+   ]
+  },
+  {
+   "id": "e03",
+   "tipo": "hueco",
+   "enunciado": "Completa el eufemismo (fallecer), en pasado.",
+   "frase": "I'm sorry to hear that your father passed ___.",
+   "respuestas": [
+    "away"
+   ],
+   "explicacion": "La segunda tabla de la ficha recoge passed away como eufemismo de «fallecido». La pista es la fórmula de pésame «I'm sorry to hear that…», donde decir died sería correcto pero más crudo. Pass away es un verbo frasal: la partícula away es la que aporta el sentido de «irse, fallecer»; sin ella, pass significa «pasar».",
+   "explicacion_breve": "«Pass away» = fallecer (eufemismo).",
+   "traduccion": "Siento mucho lo de tu padre (lamento saber que tu padre ha fallecido).",
+   "errores_previstos": [
+    {
+     "respuesta": "out",
+     "explicacion": "Pass out significa «desmayarse» o, en algunos contextos, «graduarse»; no «fallecer»."
+    },
+    {
+     "respuesta": "by",
+     "explicacion": "Pass by es «pasar por delante, pasar cerca»; no tiene sentido de muerte."
+    },
+    {
+     "respuesta": "off",
+     "explicacion": "Pass off es «hacer pasar algo por otra cosa» o «transcurrir»; el eufemismo es pass away."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "to pass away",
+     "significado": "fallecer (eufemismo de die)"
+    },
+    {
+     "palabra": "to pass out",
+     "significado": "desmayarse"
+    }
+   ]
+  },
+  {
+   "id": "e04",
+   "tipo": "corregir",
+   "enunciado": "Corrige el error.",
+   "frase": "She works hardly to support her family.",
+   "respuestas": [
+    "She works hard to support her family."
+   ],
+   "explicacion": "La lista de la ficha avisa de que hardly es negativo: significa «apenas», no «duramente». La pista es el sentido de la frase: trabajar para mantener a la familia implica esfuerzo, así que el adverbio adecuado es hard, que tiene la misma forma que el adjetivo. «She works hardly» diría, si acaso, lo contrario de lo que se pretende y además es una colocación anómala (se diría «she hardly works», apenas trabaja).",
+   "explicacion_breve": "«Hardly» = apenas; el adverbio de esfuerzo es «hard».",
+   "traduccion": "Trabaja duro para mantener a su familia.",
+   "errores_previstos": [
+    {
+     "respuesta": "She works hardly to support her family.",
+     "explicacion": "Es la frase sin corregir: hardly significa «apenas»; el adverbio de esfuerzo es hard."
+    },
+    {
+     "respuesta": "She works hardy to support her family.",
+     "explicacion": "Hardy es un adjetivo («resistente, robusto», a hardy plant), no un adverbio de modo."
+    },
+    {
+     "respuesta": "She hardly works to support her family.",
+     "explicacion": "Ahora la frase es gramatical, pero dice que apenas trabaja, lo contrario del sentido pedido; hay que usar hard."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "hard (adverbio)",
+     "significado": "duro, con esfuerzo"
+    },
+    {
+     "palabra": "hardly",
+     "significado": "apenas, casi no"
+    },
+    {
+     "palabra": "to support (a family)",
+     "significado": "mantener (a una familia)"
+    }
+   ]
+  },
+  {
+   "id": "e05",
+   "tipo": "eleccion",
+   "enunciado": "Elige la opción que expresa una crítica atenuada.",
+   "frase": "The hotel was ___ the cleanest place I've ever stayed in.",
+   "opciones": [
+    "not exactly",
+    "absolutely",
+    "by far",
+    "definitely"
+   ],
+   "respuestas": [
+    "not exactly"
+   ],
+   "explicacion": "La segunda tabla recoge not exactly como atenuación: «no del todo», que a menudo significa «nada en absoluto». La pista es el enunciado (crítica atenuada) y el superlativo the cleanest: al negarlo con not exactly, el hablante da a entender que el hotel estaba bastante sucio sin decirlo abiertamente. Es la ironía típica del understatement británico; las otras opciones intensifican el elogio en lugar de atenuar una crítica.",
+   "explicacion_breve": "«Not exactly» atenúa irónicamente una crítica.",
+   "traduccion": "El hotel no era precisamente el sitio más limpio en el que me he alojado.",
+   "por_opcion": {
+    "not exactly": "Correcta: not exactly niega el superlativo con ironía y expresa una crítica suavizada.",
+    "absolutely": "Incorrecta: absolutely the cleanest refuerza el superlativo; sería un elogio sin matices.",
+    "by far": "Incorrecta: by far the cleanest significa «con diferencia el más limpio», un elogio enfático.",
+    "definitely": "Incorrecta: definitely the cleanest afirma con seguridad que era el más limpio; no atenúa ni critica."
+   },
+   "glosario": [
+    {
+     "palabra": "not exactly",
+     "significado": "no precisamente (atenuación irónica)"
+    },
+    {
+     "palabra": "by far",
+     "significado": "con diferencia"
+    },
+    {
+     "palabra": "to stay (in a hotel)",
+     "significado": "alojarse"
+    }
+   ]
+  },
+  {
+   "id": "e06",
+   "tipo": "hueco",
+   "enunciado": "Completa el eufemismo (mentir).",
+   "frase": "The spokesman was clearly being economical with the ___.",
+   "respuestas": [
+    "truth"
+   ],
+   "explicacion": "La segunda tabla de la ficha recoge to be economical with the truth: no decir toda la verdad, un eufemismo culto de mentir u ocultar información. La pista es el adjetivo economical (que ahorra) seguido de with the, que forma la expresión fija. Se usa sobre todo para políticos y portavoces, con un tono irónico.",
+   "explicacion_breve": "«Economical with the truth» = no decir toda la verdad.",
+   "traduccion": "Estaba claro que el portavoz no estaba diciendo toda la verdad.",
+   "errores_previstos": [
+    {
+     "respuesta": "true",
+     "explicacion": "True es un adjetivo («verdadero»); tras the hace falta el sustantivo truth."
+    },
+    {
+     "respuesta": "verity",
+     "explicacion": "Verity existe pero es muy formal y no forma parte de la expresión fija, que es economical with the truth."
+    },
+    {
+     "respuesta": "facts",
+     "explicacion": "Se entiende, pero rompe la expresión fija; el eufemismo consagrado es economical with the truth."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "to be economical with the truth",
+     "significado": "no decir toda la verdad (eufemismo de mentir)"
+    },
+    {
+     "palabra": "spokesman",
+     "significado": "portavoz"
+    }
+   ]
+  },
+  {
+   "id": "e07",
+   "tipo": "eleccion",
+   "enunciado": "Elige el adjetivo de connotación negativa.",
+   "frase": "I don't like our new neighbour: she's always asking ___ questions about our private life.",
+   "opciones": [
+    "nosy",
+    "curious",
+    "inquisitive",
+    "interested"
+   ],
+   "respuestas": [
+    "nosy"
+   ],
+   "explicacion": "La primera tabla opone inquisitive / curious (curioso, neutro o positivo) a nosy / prying (cotilla, negativo). La pista es la valoración inicial «I don't like our new neighbour» y el objeto de las preguntas, la vida privada: la curiosidad se presenta como intromisión. Nosy significa «cotilla, entrometido» y es el único adjetivo que expresa esa crítica.",
+   "explicacion_breve": "«Nosy» = cotilla, entrometido.",
+   "traduccion": "No me cae bien nuestra nueva vecina: siempre hace preguntas indiscretas sobre nuestra vida privada.",
+   "por_opcion": {
+    "nosy": "Correcta: nosy es «cotilla, entrometido»; critica el interés por asuntos ajenos.",
+    "curious": "Incorrecta: curious es «curioso», neutro; no expresa la molestia que transmite la frase.",
+    "inquisitive": "Incorrecta: inquisitive es «inquisitivo, con ganas de saber», más bien positivo (an inquisitive child).",
+    "interested": "Incorrecta: interested es «interesado» y describe a la persona, no a las preguntas; «interested questions» no es una combinación natural."
+   },
+   "glosario": [
+    {
+     "palabra": "nosy",
+     "significado": "cotilla, entrometido"
+    },
+    {
+     "palabra": "inquisitive",
+     "significado": "inquisitivo, curioso (positivo)"
+    },
+    {
+     "palabra": "neighbour",
+     "significado": "vecino, vecina"
+    }
+   ]
+  },
+  {
+   "id": "e08",
+   "tipo": "hueco",
+   "enunciado": "Completa el eufemismo (despedir).",
+   "frase": "Due to the crisis, we will have to let some staff ___.",
+   "respuestas": [
+    "go"
+   ],
+   "explicacion": "La segunda tabla recoge to let someone go como eufemismo de «despedir». La pista es la estructura let + objeto (some staff) + hueco: el verbo let va seguido de infinitivo sin to, y la expresión fija es let go. Es la forma habitual en comunicados de empresa, porque suena menos dura que fire o dismiss.",
+   "explicacion_breve": "«Let someone go» = despedir (eufemismo).",
+   "traduccion": "Debido a la crisis, tendremos que despedir a parte de la plantilla.",
+   "errores_previstos": [
+    {
+     "respuesta": "out",
+     "explicacion": "Let out es «dejar salir» o «soltar»; no significa despedir."
+    },
+    {
+     "respuesta": "to go",
+     "explicacion": "Let va seguido de infinitivo sin to: let some staff go."
+    },
+    {
+     "respuesta": "down",
+     "explicacion": "Let down es «decepcionar, fallar a alguien»; no es el eufemismo de despedir."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "to let someone go",
+     "significado": "despedir a alguien (eufemismo)"
+    },
+    {
+     "palabra": "staff",
+     "significado": "plantilla, personal"
+    },
+    {
+     "palabra": "to let someone down",
+     "significado": "decepcionar a alguien"
+    }
+   ]
+  },
+  {
+   "id": "e09",
+   "tipo": "eleccion",
+   "enunciado": "Elige la opción correcta.",
+   "frase": "With all ___ respect, I think your figures are wrong.",
+   "opciones": [
+    "due",
+    "my",
+    "the",
+    "full"
+   ],
+   "respuestas": [
+    "due"
+   ],
+   "explicacion": "La segunda tabla recoge with all due respect como fórmula fija que, paradójicamente, anuncia una crítica o un desacuerdo. La pista es lo que sigue a la coma: «I think your figures are wrong». Due significa aquí «debido, merecido», y la expresión no admite otro determinante. Es muy útil en reuniones y debates, aunque conviene saber que a menudo precede a una objeción tajante.",
+   "explicacion_breve": "Fórmula fija: «with all due respect».",
+   "traduccion": "Con el debido respeto, creo que sus cifras son erróneas.",
+   "por_opcion": {
+    "due": "Correcta: with all due respect es la fórmula fija («con el debido respeto»).",
+    "my": "Incorrecta: with all my respect es un calco del español; la fórmula inglesa lleva due.",
+    "the": "Incorrecta: «with all the respect» no es la fórmula; suena a traducción literal.",
+    "full": "Incorrecta: full respect existe en otros contextos (I have full respect for him), pero no en esta fórmula."
+   },
+   "glosario": [
+    {
+     "palabra": "with all due respect",
+     "significado": "con el debido respeto (anuncia una crítica)"
+    },
+    {
+     "palabra": "figures",
+     "significado": "cifras, datos"
+    }
+   ]
+  },
+  {
+   "id": "e10",
+   "tipo": "eleccion",
+   "enunciado": "Elige el adjetivo elogioso.",
+   "frase": "As a manager, she is ___: she says what she wants without being rude.",
+   "opciones": [
+    "assertive",
+    "pushy",
+    "bossy",
+    "aggressive"
+   ],
+   "respuestas": [
+    "assertive"
+   ],
+   "explicacion": "La tabla de la ficha opone assertive (positivo: asertivo) a pushy / aggressive (negativo: avasallador). La pista es la definición que sigue a los dos puntos: «says what she wants without being rude», es decir, firmeza sin agresividad, que es justo el sentido elogioso de assertive. Bossy y aggressive describen la misma firmeza como un defecto.",
+   "explicacion_breve": "«Assertive» es positivo; «pushy» y «bossy» son críticos.",
+   "traduccion": "Como directiva, es asertiva: dice lo que quiere sin ser grosera.",
+   "por_opcion": {
+    "assertive": "Correcta: assertive es «asertivo, que se hace valer» sin agresividad; es un elogio.",
+    "pushy": "Incorrecta: pushy es «avasallador, insistente en exceso», con connotación negativa.",
+    "bossy": "Incorrecta: bossy es «mandón», crítico; no encaja con «without being rude».",
+    "aggressive": "Incorrecta: aggressive es «agresivo»; contradice «without being rude». En marketing, aggressive puede ser elogioso (an aggressive strategy), pero no aplicado al trato personal."
+   },
+   "glosario": [
+    {
+     "palabra": "assertive",
+     "significado": "asertivo, que sabe hacerse valer"
+    },
+    {
+     "palabra": "pushy",
+     "significado": "avasallador, insistente"
+    },
+    {
+     "palabra": "bossy",
+     "significado": "mandón"
+    },
+    {
+     "palabra": "rude",
+     "significado": "grosero, maleducado"
+    }
+   ]
+  },
+  {
+   "id": "e11",
+   "tipo": "corregir",
+   "enunciado": "Corrige el error.",
+   "frase": "The minister was rather economic with the truth.",
+   "respuestas": [
+    "The minister was rather economical with the truth."
+   ],
+   "explicacion": "Es la expresión fija de la segunda tabla, to be economical with the truth, y el error recogido en la ficha: confundir economical con economic. Economic significa «económico» en el sentido de «relativo a la economía» (economic policy), mientras que economical significa «que ahorra, barato» (an economical car). Solo economical forma el eufemismo.",
+   "explicacion_breve": "La expresión fija lleva «economical».",
+   "traduccion": "El ministro fue bastante parco con la verdad (no contó toda la verdad).",
+   "errores_previstos": [
+    {
+     "respuesta": "The minister was rather economic with the truth.",
+     "explicacion": "Es la frase sin corregir: economic es «relativo a la economía»; la expresión fija lleva economical."
+    },
+    {
+     "respuesta": "The minister was rather economics with the truth.",
+     "explicacion": "Economics es el sustantivo («la ciencia económica»); hace falta el adjetivo economical."
+    },
+    {
+     "respuesta": "The minister was rather economical with truth.",
+     "explicacion": "La expresión fija lleva artículo: economical with the truth."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "economical",
+     "significado": "ahorrativo, que gasta poco"
+    },
+    {
+     "palabra": "economic",
+     "significado": "económico (relativo a la economía)"
+    },
+    {
+     "palabra": "rather",
+     "significado": "bastante, más bien"
+    }
+   ]
+  },
+  {
+   "id": "e12",
+   "tipo": "hueco",
+   "enunciado": "Completa con un adverbio de ironía (no precisamente).",
+   "frase": "It was ___ the most exciting match of the season: nobody scored.",
+   "respuestas": [
+    "hardly"
+   ],
+   "explicacion": "La segunda tabla recoge «Hardly the most…» como ironía: no precisamente el más… La pista es la explicación tras los dos puntos (nobody scored), que revela que el partido fue aburrido. Hardly niega el superlativo con un tono irónico, que es lo que pide el enunciado.",
+   "explicacion_breve": "«Hardly the most…» = no precisamente el más…",
+   "traduccion": "No fue precisamente el partido más emocionante de la temporada: nadie marcó.",
+   "errores_previstos": [
+    {
+     "respuesta": "hard",
+     "explicacion": "Hard significa «duro, con esfuerzo»; la palabra irónica negativa es hardly."
+    },
+    {
+     "respuesta": "nearly",
+     "explicacion": "Nearly the most exciting significaría «casi el más emocionante», un elogio que contradice nobody scored."
+    },
+    {
+     "respuesta": "no",
+     "explicacion": "No no puede negar un sintagma con the; se diría not the most o hardly the most."
+    },
+    {
+     "respuesta": "not",
+     "explicacion": "Not the most exciting es gramatical, pero niega de forma directa y neutra; el enunciado pide el adverbio irónico, hardly."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "hardly",
+     "significado": "apenas; aquí, «no precisamente» (ironía)"
+    },
+    {
+     "palabra": "to score",
+     "significado": "marcar (un gol, un tanto)"
+    }
+   ]
+  },
+  {
+   "id": "e13",
+   "tipo": "eleccion",
+   "enunciado": "Elige el adjetivo neutro o positivo.",
+   "frase": "The model is tall and ___.",
+   "opciones": [
+    "slender",
+    "skinny",
+    "scrawny",
+    "bony"
+   ],
+   "respuestas": [
+    "slender"
+   ],
+   "explicacion": "La primera tabla opone slim / slender (delgado, positivo) a skinny / scrawny (flacucho, negativo). La pista es el enunciado, que pide un adjetivo neutro o positivo, y el contexto: la descripción de una modelo, junto a tall, es elogiosa. Slender transmite elegancia y delgadez armoniosa; los demás adjetivos sugieren delgadez excesiva o poco atractiva.",
+   "explicacion_breve": "«Slender» es elogioso; «skinny» y «scrawny» son despectivos.",
+   "traduccion": "La modelo es alta y esbelta.",
+   "por_opcion": {
+    "slender": "Correcta: slender es «esbelto», un elogio de la delgadez elegante.",
+    "skinny": "Incorrecta: skinny es «flaco», algo despectivo, aunque se usa en moda para prendas (skinny jeans).",
+    "scrawny": "Incorrecta: scrawny es «escuálido, esmirriado», claramente negativo.",
+    "bony": "Incorrecta: bony es «huesudo», se le notan los huesos; es despectivo aplicado a personas."
+   },
+   "glosario": [
+    {
+     "palabra": "slender / slim",
+     "significado": "esbelto / delgado (positivo)"
+    },
+    {
+     "palabra": "skinny / scrawny",
+     "significado": "flaco / escuálido (negativo)"
+    },
+    {
+     "palabra": "bony",
+     "significado": "huesudo"
+    }
+   ]
+  },
+  {
+   "id": "e14",
+   "tipo": "hueco",
+   "enunciado": "Completa la atenuación (un pelín).",
+   "frase": "The soup is a ___ too salty, but otherwise delicious.",
+   "respuestas": [
+    "tad",
+    "touch",
+    "bit",
+    "little"
+   ],
+   "explicacion": "La segunda tabla recoge somewhat / a tad / a touch como atenuadores: «algo, un pelín». La pista es la estructura «a ___ too salty» seguida de una valoración positiva (but otherwise delicious): la crítica se suaviza. A tad y a touch son las formas que trabaja la ficha; a bit y a little también son correctas y más neutras, por eso se aceptan.",
+   "explicacion_breve": "«A tad / a touch» = un pelín.",
+   "traduccion": "La sopa está un pelín salada de más, pero por lo demás está deliciosa.",
+   "errores_previstos": [
+    {
+     "respuesta": "few",
+     "explicacion": "A few va con sustantivos contables en plural (a few problems); no modifica adjetivos como too salty."
+    },
+    {
+     "respuesta": "lot",
+     "explicacion": "A lot too salty no es natural (se diría far too o much too) y además intensifica en lugar de atenuar."
+    },
+    {
+     "respuesta": "pinch",
+     "explicacion": "A pinch es «una pizca» de un ingrediente (a pinch of salt); no modifica adjetivos."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "a tad / a touch",
+     "significado": "un pelín, un poquito"
+    },
+    {
+     "palabra": "otherwise",
+     "significado": "por lo demás"
+    }
+   ]
+  },
+  {
+   "id": "e15",
+   "tipo": "ordenar",
+   "enunciado": "Ordena las palabras.",
+   "palabras": [
+    "entirely",
+    "I'm",
+    "the",
+    "convinced",
+    "by",
+    "not",
+    "argument"
+   ],
+   "respuestas": [
+    "I'm not entirely convinced by the argument"
+   ],
+   "explicacion": "La segunda tabla recoge «I'm not entirely convinced» como atenuación británica: literalmente «no del todo convencido», pero en la práctica suele expresar un desacuerdo claro. El orden es sujeto con verbo (I'm), not, el adverbio entirely delante del participio-adjetivo convinced, y la preposición by con su complemento (the argument).",
+   "explicacion_breve": "Atenuación británica: «not entirely convinced».",
+   "traduccion": "No me acaba de convencer el argumento.",
+   "errores_previstos": [
+    {
+     "respuesta": "I'm entirely not convinced by the argument",
+     "explicacion": "Not debe preceder a entirely; «entirely not» niega de forma total y suena antinatural."
+    },
+    {
+     "respuesta": "I'm not convinced entirely by the argument",
+     "explicacion": "El adverbio de grado entirely va delante de convinced, no detrás."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "not entirely convinced",
+     "significado": "no del todo convencido (a menudo, nada convencido)"
+    },
+    {
+     "palabra": "convinced by",
+     "significado": "convencido por"
+    }
+   ]
+  }
  ],
- "fuente": {"nombre": "propia"}
+ "fuente": {
+  "nombre": "propia"
+ },
+ "descripcion_larga_es": "En el nivel C2 ya no basta con elegir una palabra correcta: hay que elegir la que transmite la valoración adecuada. Esta ficha trabaja los cuasisinónimos con connotación opuesta (thrifty frente a stingy), los eufemismos (let someone go, pass away) y la atenuación irónica británica (not exactly, hardly). Dominarlos evita ofender sin querer y permite entender lo que un interlocutor dice entre líneas.",
+ "contexto": {
+  "que_es": "Es el control de la connotación: la carga valorativa positiva o negativa que acompaña al significado de una palabra. Incluye pares de cuasisinónimos con valoración opuesta, eufemismos que suavizan realidades incómodas (despidos, muerte, mentiras) y recursos de atenuación e ironía, muy característicos del inglés británico, que dicen menos de lo que se piensa.",
+  "por_que_importa": "Elegir el sinónimo equivocado puede convertir un elogio en un insulto (llamar blunt a alguien a quien se quiere agradecer su franqueza) o hacer que una crítica suene mucho más dura de lo previsto. Además, quien no reconoce la atenuación británica malinterpreta mensajes: «I'm not entirely convinced» suele ser un rechazo claro. En la diplomacia y en un examen oral de nivel alto, esta finura es lo que distingue al hablante culto.",
+  "cuando_se_usa": "Aparece al describir a personas, valorar propuestas o informes, dar malas noticias y discrepar con cortesía en una reunión. Las señales son el tono del contexto (elogio o crítica) y fórmulas fijas como with all due respect, que anuncia una objeción. El hispanohablante tiende a traducir de forma literal y directa; el inglés culto prefiere el eufemismo y la atenuación, y además hay falsos parecidos como hardly, que no significa «duramente»."
+ }
 }

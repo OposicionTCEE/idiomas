@@ -104,7 +104,29 @@
     "Don't run",
     "Do not run"
    ],
-   "explicacion": "Negativa: don't + verbo base."
+   "explicacion": "Se aplica la regla de la ficha: el imperativo negativo se forma con don't + verbo en forma base. La pista es la orden de poner en negativa el verbo run y el contexto de una prohibición (el pasillo). El resultado es Don't run, o Do not run, más enfático o propio de carteles. No se usa no ni not solos.",
+   "explicacion_breve": "Negativa: don't + verbo base.",
+   "traduccion": "¡No corras por el pasillo!",
+   "errores_previstos": [
+    {
+     "respuesta": "No run",
+     "explicacion": "Es el calco de «no corras»; la negativa del imperativo se forma con don't."
+    },
+    {
+     "respuesta": "Not run",
+     "explicacion": "Not solo no forma el imperativo negativo; hace falta don't."
+    },
+    {
+     "respuesta": "Don't running",
+     "explicacion": "Tras don't va el verbo en forma base: run."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "corridor",
+     "significado": "pasillo"
+    }
+   ]
   },
   {
    "id": "e02",
@@ -114,7 +136,23 @@
    "respuestas": [
     "Be"
    ],
-   "explicacion": "Con adjetivos el imperativo es be."
+   "explicacion": "Se aplica la regla de la ficha: con adjetivos el imperativo necesita be. La pista es careful, un adjetivo, justo después del hueco. Por eso la forma es Be careful («ten cuidado»). En español se usa «tener», pero en inglés el adjetivo va siempre con be.",
+   "explicacion_breve": "Con adjetivos el imperativo es be.",
+   "traduccion": "¡Ten cuidado! El suelo está mojado.",
+   "errores_previstos": [
+    {
+     "respuesta": "Have",
+     "explicacion": "Es el calco de «ten cuidado»; con el adjetivo careful se usa be."
+    },
+    {
+     "respuesta": "Are",
+     "explicacion": "Are es una forma conjugada; el imperativo usa la forma base be."
+    },
+    {
+     "respuesta": "You be",
+     "explicacion": "El imperativo no lleva sujeto."
+    }
+   ]
   },
   {
    "id": "e03",
@@ -124,7 +162,23 @@
    "respuestas": [
     "Let's"
    ],
-   "explicacion": "Propuesta que incluye al hablante: let's."
+   "explicacion": "Se aplica la regla de la ficha: let's + verbo en forma base para proponer algo incluyéndose uno mismo. La pista es el verbo go sin to detrás del hueco y el tono de propuesta tras It's a lovely day. La palabra es Let's, contracción de let us. Equivale al español «vamos a + infinitivo» o «vayamos».",
+   "explicacion_breve": "Propuesta que incluye al hablante: let's.",
+   "traduccion": "Hace un día precioso. Vamos a la playa.",
+   "errores_previstos": [
+    {
+     "respuesta": "Lets",
+     "explicacion": "Sin apóstrofo, lets es la tercera persona de let («deja»); la propuesta es Let's."
+    },
+    {
+     "respuesta": "We",
+     "explicacion": "We go to the beach sería una afirmación, no una propuesta; se usa Let's."
+    },
+    {
+     "respuesta": "Shall",
+     "explicacion": "Shall we go…? sería una pregunta; aquí la frase es afirmativa y pide Let's."
+    }
+   ]
   },
   {
    "id": "e04",
@@ -134,7 +188,23 @@
    "respuestas": [
     "Add"
    ],
-   "explicacion": "Instrucción: verbo en forma base."
+   "explicacion": "Se aplica la regla básica de la ficha: el imperativo es el verbo en forma base, sin sujeto. La pista es el contexto de receta o instrucción y el verbo add. La respuesta es Add, con mayúscula por estar al principio de la frase. Es exactamente la forma que se ve en recetas y manuales.",
+   "explicacion_breve": "Instrucción: verbo en forma base.",
+   "traduccion": "Añade un poco de sal y pimienta.",
+   "errores_previstos": [
+    {
+     "respuesta": "Adds",
+     "explicacion": "El imperativo no lleva -s; es la forma base."
+    },
+    {
+     "respuesta": "You add",
+     "explicacion": "El imperativo no lleva sujeto."
+    },
+    {
+     "respuesta": "To add",
+     "explicacion": "El imperativo no lleva to delante."
+    }
+   ]
   },
   {
    "id": "e05",
@@ -149,7 +219,14 @@
    "respuestas": [
     "Don't be"
    ],
-   "explicacion": "Negativa de be: don't be."
+   "explicacion": "Se aplican dos reglas de la ficha: la negativa del imperativo se forma con don't, y con adjetivos hace falta be. La pista es late, adjetivo, y el sentido negativo de la advertencia. Por eso la forma es Don't be late. En español usamos «llegar», pero en inglés be late es la forma habitual de «llegar tarde».",
+   "explicacion_breve": "Negativa de be: don't be.",
+   "traduccion": "No llegues tarde al examen.",
+   "por_opcion": {
+    "Don't be": "Correcta: imperativo negativo de be con un adjetivo.",
+    "No be": "Incorrecta: no no forma la negativa del imperativo; hace falta don't.",
+    "Not be": "Incorrecta: not solo no forma el imperativo negativo; se usa don't."
+   }
   },
   {
    "id": "e06",
@@ -164,7 +241,14 @@
    "respuestas": [
     "take"
    ],
-   "explicacion": "Let's + verbo base."
+   "explicacion": "Se aplica la regla de la ficha: después de let's el verbo va sin to, en forma base. La pista es Let's delante del hueco. El resultado es Let's take a taxi, una propuesta en la que el hablante se incluye.",
+   "explicacion_breve": "Let's + verbo base.",
+   "traduccion": "Cojamos un taxi.",
+   "por_opcion": {
+    "to take": "Incorrecta: let's no admite to detrás (error típico de la ficha).",
+    "take": "Correcta: let's + verbo en forma base.",
+    "taking": "Incorrecta: tras let's no se usa la forma en -ing."
+   }
   },
   {
    "id": "e07",
@@ -179,7 +263,14 @@
    "respuestas": [
     "sit"
    ],
-   "explicacion": "Imperativo: forma base sin sujeto."
+   "explicacion": "Se aplica la regla de la ficha: imperativo = forma base sin sujeto, y please lo hace más cortés. La pista es Please seguido del hueco y de down: sit down es «sentarse». La forma es sit, que vale igual para «siéntate», «sentaos» o «siéntese».",
+   "explicacion_breve": "Imperativo: forma base sin sujeto.",
+   "traduccion": "Siéntate, por favor.",
+   "por_opcion": {
+    "sit": "Correcta: forma base sin sujeto.",
+    "sits": "Incorrecta: el imperativo no lleva -s de tercera persona.",
+    "you sit": "Incorrecta: el imperativo no lleva sujeto; con you sonaría brusco o sería otra cosa."
+   }
   },
   {
    "id": "e08",
@@ -190,7 +281,23 @@
     "Don't open the door.",
     "Do not open the door."
    ],
-   "explicacion": "Se antepone don't."
+   "explicacion": "Se aplica la regla de la ficha: para pasar una orden a negativa se antepone don't al verbo. La pista es la orden afirmativa Open the door. El resultado es Don't open the door, o Do not open the door en avisos o para dar énfasis. El resto de la frase no cambia.",
+   "explicacion_breve": "Se antepone don't.",
+   "traduccion": "No abras la puerta.",
+   "errores_previstos": [
+    {
+     "respuesta": "No open the door.",
+     "explicacion": "Calca «no abras»; la negativa del imperativo se forma con don't."
+    },
+    {
+     "respuesta": "Open not the door.",
+     "explicacion": "El inglés actual no niega colocando not detrás del verbo; se antepone don't."
+    },
+    {
+     "respuesta": "You don't open the door.",
+     "explicacion": "Con sujeto sería una afirmación sobre lo que haces, no una orden."
+    }
+   ]
   },
   {
    "id": "e09",
@@ -200,7 +307,23 @@
    "respuestas": [
     "Let's watch a film."
    ],
-   "explicacion": "Let's + verbo base."
+   "explicacion": "Se aplica la regla de la ficha: let's + verbo en forma base para proponer algo que incluye al hablante. La pista es We can watch a film, que ya es una sugerencia, y la orden de reformularla con let's. Se sustituyen We can por Let's y el verbo watch queda igual.",
+   "explicacion_breve": "Let's + verbo base.",
+   "traduccion": "Veamos una película.",
+   "errores_previstos": [
+    {
+     "respuesta": "Let's to watch a film.",
+     "explicacion": "Tras let's no se usa to."
+    },
+    {
+     "respuesta": "Let's we watch a film.",
+     "explicacion": "Let's ya incluye el «nosotros» (let us); no se añade we."
+    },
+    {
+     "respuesta": "Let's watching a film.",
+     "explicacion": "Tras let's va la forma base, no -ing."
+    }
+   ]
   },
   {
    "id": "e10",
@@ -210,7 +333,23 @@
    "respuestas": [
     "Don't worry, it's OK."
    ],
-   "explicacion": "La negativa se forma con don't."
+   "explicacion": "Se aplica la regla de la ficha: la negativa del imperativo se forma con don't. La pista es No worry, calco directo de «no te preocupes». Se cambia No por Don't: Don't worry. Es una de las expresiones más frecuentes del inglés para tranquilizar a alguien.",
+   "explicacion_breve": "La negativa se forma con don't.",
+   "traduccion": "No te preocupes, no pasa nada.",
+   "errores_previstos": [
+    {
+     "respuesta": "No worry, it's OK.",
+     "explicacion": "Deja la frase sin corregir: la negativa del imperativo es don't."
+    },
+    {
+     "respuesta": "Not worry, it's OK.",
+     "explicacion": "Not solo no forma el imperativo negativo; hace falta don't."
+    },
+    {
+     "respuesta": "Don't worried, it's OK.",
+     "explicacion": "Tras don't va la forma base worry; worried es adjetivo y necesitaría be (Don't be worried)."
+    }
+   ]
   },
   {
    "id": "e11",
@@ -220,7 +359,23 @@
    "respuestas": [
     "Let's meet at six."
    ],
-   "explicacion": "Let's no lleva to."
+   "explicacion": "Se aplica la regla de la ficha: después de let's el verbo va sin to. La pista es el to que sigue a Let's, calco del español «vamos a quedar». Se elimina to: Let's meet at six. Meet aquí significa «quedar, encontrarse».",
+   "explicacion_breve": "Let's no lleva to.",
+   "traduccion": "Quedemos a las seis.",
+   "errores_previstos": [
+    {
+     "respuesta": "Let's to meet at six.",
+     "explicacion": "Deja la frase sin corregir: tras let's no se usa to."
+    },
+    {
+     "respuesta": "Lets meet at six.",
+     "explicacion": "Sin apóstrofo, lets es otra palabra; la propuesta es Let's."
+    },
+    {
+     "respuesta": "Let's meeting at six.",
+     "explicacion": "Tras let's va la forma base, no -ing."
+    }
+   ]
   },
   {
    "id": "e12",
@@ -230,7 +385,23 @@
    "respuestas": [
     "Don't be angry with me."
    ],
-   "explicacion": "Con adjetivos se necesita be."
+   "explicacion": "Se aplica la regla de la ficha: con adjetivos el imperativo necesita be, también en negativa. La pista es angry, un adjetivo, justo detrás de Don't. Se añade be: Don't be angry with me. En español «enfadarse» es un verbo, pero en inglés angry es un adjetivo y necesita be.",
+   "explicacion_breve": "Con adjetivos se necesita be.",
+   "traduccion": "No te enfades conmigo.",
+   "errores_previstos": [
+    {
+     "respuesta": "Don't angry with me.",
+     "explicacion": "Deja la frase sin corregir: con un adjetivo hace falta be."
+    },
+    {
+     "respuesta": "Don't are angry with me.",
+     "explicacion": "El imperativo usa la forma base be, no are."
+    },
+    {
+     "respuesta": "No be angry with me.",
+     "explicacion": "Añade be pero estropea la negativa: se forma con don't."
+    }
+   ]
   },
   {
    "id": "e13",
@@ -245,7 +416,19 @@
    "respuestas": [
     "Don't forget your keys"
    ],
-   "explicacion": "Don't + verbo + complemento."
+   "explicacion": "Se aplica la regla de la ficha: Don't + verbo + complemento. La pista son las palabras don't y forget, que forman el imperativo negativo, y your keys, el complemento. El orden es Don't forget your keys, sin sujeto.",
+   "explicacion_breve": "Don't + verbo + complemento.",
+   "traduccion": "No olvides las llaves.",
+   "errores_previstos": [
+    {
+     "respuesta": "Your keys don't forget",
+     "explicacion": "Calca el orden de «las llaves, no las olvides»; en inglés el complemento va detrás del verbo."
+    },
+    {
+     "respuesta": "Don't your keys forget",
+     "explicacion": "El verbo va inmediatamente después de don't."
+    }
+   ]
   },
   {
    "id": "e14",
@@ -261,10 +444,28 @@
     "Let's cook dinner tonight",
     "Tonight let's cook dinner"
    ],
-   "explicacion": "Let's + verbo + complemento + tiempo."
+   "explicacion": "Se aplica la regla de la ficha: Let's + verbo + complemento, con el complemento de tiempo al final o al principio. La pista son let's y cook, que forman la propuesta, y dinner, el complemento. El orden normal es Let's cook dinner tonight; también se acepta Tonight let's cook dinner, porque el complemento de tiempo puede ir delante.",
+   "explicacion_breve": "Let's + verbo + complemento + tiempo.",
+   "traduccion": "Hagamos la cena esta noche.",
+   "errores_previstos": [
+    {
+     "respuesta": "Let's dinner cook tonight",
+     "explicacion": "El complemento va detrás del verbo: cook dinner."
+    },
+    {
+     "respuesta": "Let's tonight cook dinner",
+     "explicacion": "El complemento de tiempo no se intercala entre let's y el verbo."
+    }
+   ]
   }
  ],
  "fuente": {
   "nombre": "propia"
+ },
+ "descripcion_larga_es": "El imperativo inglés es muy sencillo: el verbo en forma base, sin sujeto, para dar órdenes, instrucciones y consejos (Sit down, Add salt). La negativa se forma con don't y, para proponer algo incluyéndose uno mismo, se usa let's. Al hispanohablante le cuesta poco formarlo, pero suele fallar en la negativa (No touch), en el be con adjetivos y en el to tras let's.",
+ "contexto": {
+  "que_es": "Es el modo verbal de las órdenes, instrucciones, consejos y advertencias. En inglés tiene una sola forma, la base del verbo, válida para «tú», «vosotros» y «usted». La negativa se hace con don't + verbo y la primera persona del plural (propuesta) con let's + verbo.",
+  "por_que_importa": "Aparece constantemente en recetas, instrucciones, carteles, avisos y en la conversación diaria. Una forma incorrecta como No touch o Let's to go es muy visible, y añadir el sujeto (You close the door) puede sonar brusco. Saber suavizarlo con please o con fórmulas corteses es importante para no parecer maleducado.",
+  "cuando_se_usa": "Se usa en instrucciones (Add some salt), advertencias (Be careful!), prohibiciones (Don't run) y propuestas (Let's go). El hispanohablante tiende a traducir «no corras» por No run, a omitir be delante de adjetivos (Don't nervous) o a poner to detrás de let's, por influencia de «vamos a + infinitivo»."
  }
 }

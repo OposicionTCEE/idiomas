@@ -6,56 +6,548 @@
  "nivel": "B2",
  "resumen": "La pasiva se forma con be en el tiempo que corresponda + participio. Cualquier tiempo y cualquier modal tiene su pasiva; get + participio es una alternativa informal para cambios o sucesos.",
  "explicacion": [
-  {"tipo": "tabla", "cabecera": ["Tiempo", "Pasiva", "Ejemplo"], "filas": [
-   ["Present continuous", "am/is/are being + participio", "The road is being repaired."],
-   ["Past continuous", "was/were being + participio", "The suspect was being questioned."],
-   ["Present perfect", "has/have been + participio", "The results have been published."],
-   ["Past perfect", "had been + participio", "The tickets had been sold out."],
-   ["Future / will", "will be + participio", "The winners will be announced on Monday."],
-   ["Future perfect", "will have been + participio", "The bridge will have been finished by May."],
-   ["Modal", "modal + be + participio", "This form must be signed."],
-   ["Modal perfecto", "modal + have been + participio", "The letter should have been sent yesterday."]
-  ]},
-  {"tipo": "texto", "texto": "Truco: escribe primero la frase activa en su tiempo, cambia el verbo principal por be en ese mismo tiempo y añade el participio. Solo cambia la forma de be."},
-  {"tipo": "texto", "texto": "Infinitivo y gerundio también tienen pasiva: to be done (I want to be told) y being done (She hates being interrupted)."},
-  {"tipo": "texto", "texto": "Get + participio: más coloquial, para cambios, accidentes o algo que le sucede al sujeto: He got fired. Our car got stolen. They got married. No se usa con verbos de estado (no «The house got owned»)."},
-  {"tipo": "lista", "items": [
-   "By + agente solo si aporta información: The novel was written by a teenager.",
-   "Con dos objetos, se suele hacer sujeto a la persona: I was given a prize.",
-   "Los verbos intransitivos (happen, arrive, die) no tienen pasiva."
-  ]}
+  {
+   "tipo": "tabla",
+   "cabecera": [
+    "Tiempo",
+    "Pasiva",
+    "Ejemplo"
+   ],
+   "filas": [
+    [
+     "Present continuous",
+     "am/is/are being + participio",
+     "The road is being repaired."
+    ],
+    [
+     "Past continuous",
+     "was/were being + participio",
+     "The suspect was being questioned."
+    ],
+    [
+     "Present perfect",
+     "has/have been + participio",
+     "The results have been published."
+    ],
+    [
+     "Past perfect",
+     "had been + participio",
+     "The tickets had been sold."
+    ],
+    [
+     "Future / will",
+     "will be + participio",
+     "The winners will be announced on Monday."
+    ],
+    [
+     "Future perfect",
+     "will have been + participio",
+     "The bridge will have been finished by May."
+    ],
+    [
+     "Modal",
+     "modal + be + participio",
+     "This form must be signed."
+    ],
+    [
+     "Modal perfecto",
+     "modal + have been + participio",
+     "The letter should have been sent yesterday."
+    ]
+   ]
+  },
+  {
+   "tipo": "texto",
+   "texto": "Truco: escribe primero la frase activa en su tiempo, cambia el verbo principal por be en ese mismo tiempo y añade el participio. Solo cambia la forma de be."
+  },
+  {
+   "tipo": "texto",
+   "texto": "Infinitivo y gerundio también tienen pasiva: to be done (I want to be told) y being done (She hates being interrupted)."
+  },
+  {
+   "tipo": "texto",
+   "texto": "Get + participio: más coloquial, para cambios, accidentes o algo que le sucede al sujeto: He got fired. Our car got stolen. They got married. No se usa con verbos de estado (no «The house got owned»)."
+  },
+  {
+   "tipo": "lista",
+   "items": [
+    "By + agente solo si aporta información: The novel was written by a teenager.",
+    "Con dos objetos, se suele hacer sujeto a la persona: I was given a prize.",
+    "Los verbos intransitivos (happen, arrive, die) no tienen pasiva."
+   ]
+  }
  ],
  "ejemplos": [
-  {"frase": "A new hospital is being built near the motorway.", "traduccion": "Se está construyendo un nuevo hospital cerca de la autopista."},
-  {"frase": "The paintings had been stolen before the alarm went off.", "traduccion": "Los cuadros habían sido robados antes de que sonara la alarma."},
-  {"frase": "Applications must be submitted before 30 June.", "traduccion": "Las solicitudes deben presentarse antes del 30 de junio."},
-  {"frase": "The mistake should have been noticed earlier.", "traduccion": "El error debería haberse detectado antes."},
-  {"frase": "My bike got stolen while I was in the library.", "traduccion": "Me robaron la bici mientras estaba en la biblioteca."},
-  {"frase": "Nobody likes being lied to.", "traduccion": "A nadie le gusta que le mientan."},
-  {"frase": "All the staff were given a bonus last year.", "traduccion": "A toda la plantilla se le dio una paga extra el año pasado."}
+  {
+   "frase": "A new hospital is being built near the motorway.",
+   "traduccion": "Se está construyendo un nuevo hospital cerca de la autopista."
+  },
+  {
+   "frase": "The paintings had been stolen before the alarm went off.",
+   "traduccion": "Los cuadros habían sido robados antes de que sonara la alarma."
+  },
+  {
+   "frase": "Applications must be submitted before 30 June.",
+   "traduccion": "Las solicitudes deben presentarse antes del 30 de junio."
+  },
+  {
+   "frase": "The mistake should have been noticed earlier.",
+   "traduccion": "El error debería haberse detectado antes."
+  },
+  {
+   "frase": "My bike got stolen while I was in the library.",
+   "traduccion": "Me robaron la bici mientras estaba en la biblioteca."
+  },
+  {
+   "frase": "Nobody likes being lied to.",
+   "traduccion": "A nadie le gusta que le mientan."
+  },
+  {
+   "frase": "All the staff were given a bonus last year.",
+   "traduccion": "A toda la plantilla se le dio una paga extra el año pasado."
+  }
  ],
  "errores_hispanohablantes": [
-  {"mal": "The bridge is building now.", "bien": "The bridge is being built now.", "nota": "La pasiva continua necesita being + participio; la «pasiva refleja» española no se traduce con activa."},
-  {"mal": "It was happened last night.", "bien": "It happened last night.", "nota": "Happen es intransitivo: no tiene pasiva."},
-  {"mal": "The report must be finish today.", "bien": "The report must be finished today.", "nota": "Tras modal + be hace falta el participio, no el infinitivo."}
+  {
+   "mal": "The bridge is building now.",
+   "bien": "The bridge is being built now.",
+   "nota": "La pasiva continua necesita being + participio; la «pasiva refleja» española no se traduce con activa."
+  },
+  {
+   "mal": "It was happened last night.",
+   "bien": "It happened last night.",
+   "nota": "Happen es intransitivo: no tiene pasiva."
+  },
+  {
+   "mal": "The report must be finish today.",
+   "bien": "The report must be finished today.",
+   "nota": "Tras modal + be hace falta el participio, no el infinitivo."
+  }
  ],
  "ejercicios": [
-  {"id": "e01", "tipo": "hueco", "enunciado": "Completa con la pasiva en el tiempo adecuado.", "frase": "Sorry, you can't use this room. It ___ (clean) at the moment.", "respuestas": ["is being cleaned", "'s being cleaned"], "explicacion": "Acción en curso ahora: pasiva de present continuous."},
-  {"id": "e02", "tipo": "hueco", "enunciado": "Completa con la pasiva en el tiempo adecuado.", "frase": "Three new species ___ (discover) in the area since 2020.", "respuestas": ["have been discovered"], "explicacion": "Since indica present perfect: have been + participio."},
-  {"id": "e03", "tipo": "hueco", "enunciado": "Completa con la pasiva en el tiempo adecuado.", "frase": "When we arrived, the food ___ (already / eat).", "respuestas": ["had already been eaten"], "explicacion": "Anterioridad respecto a un momento pasado: had been + participio."},
-  {"id": "e04", "tipo": "hueco", "enunciado": "Completa con la pasiva del modal.", "frase": "These medicines ___ (should / keep) away from children.", "respuestas": ["should be kept"], "explicacion": "Modal + be + participio."},
-  {"id": "e05", "tipo": "hueco", "enunciado": "Completa con la pasiva del modal perfecto.", "frase": "The patient ___ (could / save) if the ambulance had come sooner.", "respuestas": ["could have been saved"], "explicacion": "Posibilidad pasada no realizada en pasiva: could have been + participio."},
-  {"id": "e06", "tipo": "eleccion", "enunciado": "Elige la opción correcta.", "frase": "I hate ___ what to do.", "opciones": ["being told", "be told", "telling", "to tell"], "respuestas": ["being told"], "explicacion": "Hate admite -ing, y el sentido es pasivo: being told."},
-  {"id": "e07", "tipo": "eleccion", "enunciado": "Elige la opción correcta.", "frase": "By next spring, the new stadium ___.", "opciones": ["will have been completed", "will have completed", "will be completing"], "respuestas": ["will have been completed"], "explicacion": "Pasiva de future perfect: will have been + participio."},
-  {"id": "e08", "tipo": "eleccion", "enunciado": "Elige la opción más natural en registro informal.", "frase": "Be careful with that knife or you'll ___ hurt.", "opciones": ["get", "be being", "have"], "respuestas": ["get"], "explicacion": "Get + participio para accidentes o cambios en lenguaje coloquial."},
-  {"id": "e09", "tipo": "corregir", "enunciado": "Corrige el error.", "frase": "The new airport is building by a Chinese company.", "respuestas": ["The new airport is being built by a Chinese company."], "explicacion": "Pasiva continua: is being + participio."},
-  {"id": "e10", "tipo": "corregir", "enunciado": "Corrige el error.", "frase": "The accident was happened on the motorway.", "respuestas": ["The accident happened on the motorway."], "explicacion": "Happen es intransitivo y no admite pasiva."},
-  {"id": "e11", "tipo": "corregir", "enunciado": "Corrige el error.", "frase": "The contract will be sign tomorrow.", "respuestas": ["The contract will be signed tomorrow."], "explicacion": "Tras be siempre va el participio."},
-  {"id": "e12", "tipo": "transformar", "enunciado": "Pasa la frase a pasiva sin mencionar al agente.", "frase": "They were interviewing the candidates all morning.", "respuestas": ["The candidates were being interviewed all morning."], "explicacion": "Past continuous en pasiva: were being + participio."},
-  {"id": "e13", "tipo": "transformar", "enunciado": "Pasa la frase a pasiva sin mencionar al agente.", "frase": "Someone has stolen my wallet.", "respuestas": ["My wallet has been stolen."], "explicacion": "Present perfect en pasiva: has been + participio; someone no se menciona."},
-  {"id": "e14", "tipo": "transformar", "enunciado": "Pasa la frase a pasiva empezando por la persona.", "frase": "The company offered her a promotion.", "respuestas": ["She was offered a promotion.", "She was offered a promotion by the company."], "explicacion": "Con dos objetos se suele hacer sujeto a la persona."},
-  {"id": "e15", "tipo": "ordenar", "enunciado": "Ordena las palabras.", "palabras": ["been", "should", "the", "have", "invited", "mayor"], "respuestas": ["the mayor should have been invited", "should the mayor have been invited"], "explicacion": "Modal perfecto pasivo: should have been + participio."},
-  {"id": "e16", "tipo": "ordenar", "enunciado": "Ordena las palabras.", "palabras": ["being", "the", "is", "watched", "house"], "respuestas": ["the house is being watched", "is the house being watched"], "explicacion": "Present continuous pasivo: is being + participio."}
+  {
+   "id": "e01",
+   "tipo": "hueco",
+   "enunciado": "Completa con la pasiva en el tiempo adecuado.",
+   "frase": "Sorry, you can't use this room. It ___ (clean) at the moment.",
+   "respuestas": [
+    "is being cleaned",
+    "'s being cleaned"
+   ],
+   "explicacion": "Se aplica la fila «Present continuous» de la tabla: am/is/are being + participio. La pista es at the moment, que indica una acción en curso ahora, y el sujeto it (la sala), que no limpia sino que es limpiada. Por eso is being cleaned. También vale la contracción 's being cleaned, igual de correcta en registro hablado.",
+   "explicacion_breve": "Acción en curso ahora: pasiva de present continuous.",
+   "traduccion": "Lo siento, no puedes usar esta sala. La están limpiando en este momento.",
+   "errores_previstos": [
+    {
+     "respuesta": "is cleaning",
+     "explicacion": "Es activa: diría que la sala está limpiando algo. Falta being + participio."
+    },
+    {
+     "respuesta": "is cleaned",
+     "explicacion": "Es pasiva de presente simple (habitual); at the moment pide la forma continua is being cleaned."
+    },
+    {
+     "respuesta": "is been cleaned",
+     "explicacion": "Been es el participio de be y no va tras is; la forma continua lleva being."
+    }
+   ]
+  },
+  {
+   "id": "e02",
+   "tipo": "hueco",
+   "enunciado": "Completa con la pasiva en el tiempo adecuado.",
+   "frase": "Three new species ___ (discover) in the area since 2020.",
+   "respuestas": [
+    "have been discovered"
+   ],
+   "explicacion": "Se aplica la fila «Present perfect» de la tabla: has/have been + participio. La pista es since 2020, que mide un periodo que llega hasta ahora y exige present perfect. El sujeto three new species es plural, así que have, y las especies son descubiertas, de ahí been discovered.",
+   "explicacion_breve": "Since indica present perfect: have been + participio.",
+   "traduccion": "Desde 2020 se han descubierto tres especies nuevas en la zona.",
+   "errores_previstos": [
+    {
+     "respuesta": "were discovered",
+     "explicacion": "Since exige present perfect, no pasado simple."
+    },
+    {
+     "respuesta": "has been discovered",
+     "explicacion": "Species aquí es plural (three new species): have."
+    },
+    {
+     "respuesta": "have discovered",
+     "explicacion": "Es activa: diría que las especies descubrieron algo. Falta been."
+    }
+   ]
+  },
+  {
+   "id": "e03",
+   "tipo": "hueco",
+   "enunciado": "Completa con la pasiva en el tiempo adecuado.",
+   "frase": "When we arrived, the food ___ (already / eat).",
+   "respuestas": [
+    "had already been eaten"
+   ],
+   "explicacion": "Se aplica la fila «Past perfect» de la tabla: had been + participio. La pista es when we arrived, un momento pasado, y already, que señala que la acción ya había terminado antes. La comida es comida por otros, así que es pasiva. Already se coloca tras had: had already been eaten. El participio de eat es irregular: eaten.",
+   "explicacion_breve": "Anterioridad respecto a un momento pasado: had been + participio.",
+   "traduccion": "Cuando llegamos, ya se habían comido la comida.",
+   "errores_previstos": [
+    {
+     "respuesta": "had been already eaten",
+     "explicacion": "Already va justo detrás del primer auxiliar: had already been eaten."
+    },
+    {
+     "respuesta": "was already eaten",
+     "explicacion": "Al llegar nosotros la acción ya había terminado antes: hace falta past perfect, had been eaten."
+    },
+    {
+     "respuesta": "had already been ate",
+     "explicacion": "Ate es pasado simple; el participio es eaten."
+    }
+   ]
+  },
+  {
+   "id": "e04",
+   "tipo": "hueco",
+   "enunciado": "Completa con la pasiva del modal.",
+   "frase": "These medicines ___ (should / keep) away from children.",
+   "respuestas": [
+    "should be kept"
+   ],
+   "explicacion": "Se aplica la fila «Modal» de la tabla: modal + be + participio. La pista es should, un modal, y el sujeto these medicines, que no guarda nada sino que es guardado. Tras should va be en infinitivo sin to, y después el participio irregular de keep, kept.",
+   "explicacion_breve": "Modal + be + participio.",
+   "traduccion": "Estos medicamentos deben guardarse fuera del alcance de los niños.",
+   "errores_previstos": [
+    {
+     "respuesta": "should keep",
+     "explicacion": "Es activa: diría que los medicamentos deben guardar algo. Falta be."
+    },
+    {
+     "respuesta": "should be keep",
+     "explicacion": "Tras be va el participio, kept."
+    },
+    {
+     "respuesta": "should to be kept",
+     "explicacion": "Should va seguido de infinitivo sin to."
+    }
+   ]
+  },
+  {
+   "id": "e05",
+   "tipo": "hueco",
+   "enunciado": "Completa con la pasiva del modal perfecto.",
+   "frase": "The patient ___ (could / save) if the ambulance had come sooner.",
+   "respuestas": [
+    "could have been saved"
+   ],
+   "explicacion": "Se aplica la fila «Modal perfecto» de la tabla: modal + have been + participio. La pista es la condición pasada irreal if the ambulance had come sooner, que exige un modal perfecto (algo que pudo pasar y no pasó). El paciente es salvado, así que pasiva: could have been saved.",
+   "explicacion_breve": "Posibilidad pasada no realizada en pasiva: could have been + participio.",
+   "traduccion": "El paciente se habría podido salvar si la ambulancia hubiera llegado antes.",
+   "errores_previstos": [
+    {
+     "respuesta": "could be saved",
+     "explicacion": "Se refiere al presente o futuro; para una posibilidad pasada no realizada hace falta could have been saved."
+    },
+    {
+     "respuesta": "could have saved",
+     "explicacion": "Es activa: diría que el paciente pudo salvar a alguien. Falta been."
+    },
+    {
+     "respuesta": "could has been saved",
+     "explicacion": "Tras un modal va have en infinitivo, nunca has."
+    }
+   ]
+  },
+  {
+   "id": "e06",
+   "tipo": "eleccion",
+   "enunciado": "Elige la opción correcta.",
+   "frase": "I hate ___ what to do.",
+   "opciones": [
+    "being told",
+    "be told",
+    "telling",
+    "to tell"
+   ],
+   "respuestas": [
+    "being told"
+   ],
+   "explicacion": "Se aplica la regla de la ficha sobre la pasiva del gerundio: being + participio (She hates being interrupted). La pista es hate, verbo que admite la forma -ing, y el sentido pasivo: no soy yo quien dice, sino a quien le dicen. Por eso being told. En inglés también existiría I hate to be told, pero no figura entre las opciones.",
+   "explicacion_breve": "Hate admite -ing, y el sentido es pasivo: being told.",
+   "traduccion": "Odio que me digan lo que tengo que hacer.",
+   "por_opcion": {
+    "being told": "Correcta: gerundio pasivo tras hate; yo recibo la acción de decir.",
+    "be told": "Incorrecta: tras hate no puede ir un infinitivo sin to; haría falta to be told.",
+    "telling": "Incorrecta: es activa y significaría que odio decirle a alguien lo que tiene que hacer, y aun así faltaría el objeto.",
+    "to tell": "Incorrecta: es activa; significaría «odio decir» y la frase quedaría incompleta sin a quién."
+   }
+  },
+  {
+   "id": "e07",
+   "tipo": "eleccion",
+   "enunciado": "Elige la opción correcta.",
+   "frase": "By next spring, the new stadium ___.",
+   "opciones": [
+    "will have been completed",
+    "will have completed",
+    "will be completing"
+   ],
+   "respuestas": [
+    "will have been completed"
+   ],
+   "explicacion": "Se aplica la fila «Future perfect» de la tabla: will have been + participio. La pista es by next spring, que fija un plazo futuro en el que la acción ya estará acabada. El estadio es terminado por otros, así que va en pasiva: will have been completed.",
+   "explicacion_breve": "Pasiva de future perfect: will have been + participio.",
+   "traduccion": "Para la próxima primavera, el nuevo estadio estará terminado.",
+   "por_opcion": {
+    "will have been completed": "Correcta: pasiva de future perfect, acción terminada antes del plazo.",
+    "will have completed": "Incorrecta: es activa y diría que el estadio habrá completado algo.",
+    "will be completing": "Incorrecta: es activa y continua; diría que el estadio estará completando algo en ese momento."
+   }
+  },
+  {
+   "id": "e08",
+   "tipo": "eleccion",
+   "enunciado": "Elige la opción más natural en registro informal.",
+   "frase": "Be careful with that knife or you'll ___ hurt.",
+   "opciones": [
+    "get",
+    "be being",
+    "have"
+   ],
+   "respuestas": [
+    "get"
+   ],
+   "explicacion": "Se aplica la regla de get + participio: alternativa coloquial para accidentes o cambios que le ocurren al sujeto (He got fired). La pista es el registro informal y la idea de accidente con el cuchillo. Get hurt es una combinación fijísima en inglés hablado, equivalente a «hacerse daño».",
+   "explicacion_breve": "Get + participio para accidentes o cambios en lenguaje coloquial.",
+   "traduccion": "Ten cuidado con ese cuchillo o te vas a hacer daño.",
+   "por_opcion": {
+    "get": "Correcta: get + participio, natural para un accidente en registro informal.",
+    "be being": "Incorrecta: will be being hurt es una forma forzada que casi no se usa y no expresa el accidente puntual.",
+    "have": "Incorrecta: you'll have hurt sería future perfect activo sin objeto y no tiene sentido aquí."
+   }
+  },
+  {
+   "id": "e09",
+   "tipo": "corregir",
+   "enunciado": "Corrige el error.",
+   "frase": "The new airport is building by a Chinese company.",
+   "respuestas": [
+    "The new airport is being built by a Chinese company."
+   ],
+   "explicacion": "Se aplica la fila «Present continuous» de la tabla y el primer error típico de la ficha: la pasiva continua necesita being + participio. La pista es by a Chinese company, que revela que el aeropuerto es construido por alguien. Is building es activa y diría que el aeropuerto construye; hay que decir is being built (participio irregular de build).",
+   "explicacion_breve": "Pasiva continua: is being + participio.",
+   "traduccion": "Una empresa china está construyendo el nuevo aeropuerto.",
+   "errores_previstos": [
+    {
+     "respuesta": "The new airport is building by a Chinese company.",
+     "explicacion": "Es copiar la frase sin corregir: la pasiva continua lleva being + participio."
+    },
+    {
+     "respuesta": "The new airport is being build by a Chinese company.",
+     "explicacion": "Tras being va el participio, built."
+    },
+    {
+     "respuesta": "The new airport is built by a Chinese company.",
+     "explicacion": "Es pasiva, pero de presente simple; para una obra en curso hace falta is being built."
+    }
+   ]
+  },
+  {
+   "id": "e10",
+   "tipo": "corregir",
+   "enunciado": "Corrige el error.",
+   "frase": "The accident was happened on the motorway.",
+   "respuestas": [
+    "The accident happened on the motorway."
+   ],
+   "explicacion": "Se aplica la regla de la ficha: los verbos intransitivos (happen, arrive, die) no tienen pasiva. La pista es happen, que no lleva objeto directo y, por tanto, no hay nada que pueda pasar a sujeto de una pasiva. Basta el pasado simple activo: happened. El calco viene de «fue ocurrido» o de pensar que «ocurrir» necesita ser pasivo.",
+   "explicacion_breve": "Happen es intransitivo y no admite pasiva.",
+   "traduccion": "El accidente ocurrió en la autopista.",
+   "errores_previstos": [
+    {
+     "respuesta": "The accident was happened on the motorway.",
+     "explicacion": "Es copiar la frase sin corregir: happen es intransitivo y no admite pasiva."
+    },
+    {
+     "respuesta": "The accident was happen on the motorway.",
+     "explicacion": "Sigue siendo una pasiva imposible con un verbo intransitivo; basta happened."
+    },
+    {
+     "respuesta": "The accident has happened on the motorway.",
+     "explicacion": "Es activa, pero se refiere a un suceso pasado concreto; lo natural y lo que se pide es happened."
+    }
+   ]
+  },
+  {
+   "id": "e11",
+   "tipo": "corregir",
+   "enunciado": "Corrige el error.",
+   "frase": "The contract will be sign tomorrow.",
+   "respuestas": [
+    "The contract will be signed tomorrow."
+   ],
+   "explicacion": "Se aplica la fila «Future / will» de la tabla y el error típico de la ficha: tras be siempre va el participio. La pista es will be, que ya está bien, y tomorrow, que confirma el futuro. Solo falla sign, en infinitivo; el participio regular es signed.",
+   "explicacion_breve": "Tras be siempre va el participio.",
+   "traduccion": "El contrato se firmará mañana.",
+   "errores_previstos": [
+    {
+     "respuesta": "The contract will be sign tomorrow.",
+     "explicacion": "Es copiar la frase sin corregir: tras be va el participio signed."
+    },
+    {
+     "respuesta": "The contract will sign tomorrow.",
+     "explicacion": "Quitar be la convierte en activa y diría que el contrato firmará algo."
+    },
+    {
+     "respuesta": "The contract will be signing tomorrow.",
+     "explicacion": "Es activa continua; la pasiva necesita el participio signed."
+    }
+   ]
+  },
+  {
+   "id": "e12",
+   "tipo": "transformar",
+   "enunciado": "Pasa la frase a pasiva sin mencionar al agente.",
+   "frase": "They were interviewing the candidates all morning.",
+   "respuestas": [
+    "The candidates were being interviewed all morning."
+   ],
+   "explicacion": "Se aplica la fila «Past continuous» de la tabla: was/were being + participio. La pista es were interviewing, un past continuous activo, y all morning, que subraya la duración. El objeto the candidates pasa a sujeto plural, así que were being interviewed. They no aporta información y se omite.",
+   "explicacion_breve": "Past continuous en pasiva: were being + participio.",
+   "traduccion": "Estuvieron entrevistando a los candidatos toda la mañana.",
+   "errores_previstos": [
+    {
+     "respuesta": "The candidates were interviewed all morning.",
+     "explicacion": "Es pasiva de pasado simple; se pierde el aspecto continuo de la frase original."
+    },
+    {
+     "respuesta": "The candidates were being interviewing all morning.",
+     "explicacion": "Tras being va el participio, interviewed."
+    },
+    {
+     "respuesta": "The candidates was being interviewed all morning.",
+     "explicacion": "Candidates es plural: were."
+    }
+   ]
+  },
+  {
+   "id": "e13",
+   "tipo": "transformar",
+   "enunciado": "Pasa la frase a pasiva sin mencionar al agente.",
+   "frase": "Someone has stolen my wallet.",
+   "respuestas": [
+    "My wallet has been stolen."
+   ],
+   "explicacion": "Se aplica la fila «Present perfect» de la tabla: has/have been + participio. La pista es has stolen, que está en present perfect, y someone, agente desconocido que se omite. My wallet es singular, así que has been, y el participio de steal es stolen.",
+   "explicacion_breve": "Present perfect en pasiva: has been + participio; someone no se menciona.",
+   "traduccion": "Me han robado la cartera.",
+   "errores_previstos": [
+    {
+     "respuesta": "My wallet was stolen.",
+     "explicacion": "Correcta como frase, pero cambia el tiempo: la activa estaba en present perfect y la pasiva debe conservarlo."
+    },
+    {
+     "respuesta": "My wallet has stolen.",
+     "explicacion": "Es activa: diría que la cartera ha robado algo. Falta been."
+    },
+    {
+     "respuesta": "My wallet has been stolen by someone.",
+     "explicacion": "El enunciado pide no mencionar el agente."
+    }
+   ]
+  },
+  {
+   "id": "e14",
+   "tipo": "transformar",
+   "enunciado": "Pasa la frase a pasiva empezando por la persona.",
+   "frase": "The company offered her a promotion.",
+   "respuestas": [
+    "She was offered a promotion.",
+    "She was offered a promotion by the company."
+   ],
+   "explicacion": "Se aplica la regla de la ficha para verbos con dos objetos: se suele hacer sujeto a la persona (I was given a prize). La pista es offer, que lleva objeto indirecto (her) y directo (a promotion), y el enunciado, que pide empezar por la persona. Her pasa a sujeto en caso nominativo, she, seguido de was offered y del objeto directo. El agente by the company es opcional.",
+   "explicacion_breve": "Con dos objetos se suele hacer sujeto a la persona.",
+   "traduccion": "Le ofrecieron un ascenso.",
+   "errores_previstos": [
+    {
+     "respuesta": "Her was offered a promotion.",
+     "explicacion": "Como sujeto hay que usar el pronombre sujeto she, no her."
+    },
+    {
+     "respuesta": "She was offer a promotion.",
+     "explicacion": "Tras was va el participio offered."
+    },
+    {
+     "respuesta": "She offered a promotion.",
+     "explicacion": "Es activa y diría que ella ofreció un ascenso; falta was."
+    }
+   ]
+  },
+  {
+   "id": "e15",
+   "tipo": "ordenar",
+   "enunciado": "Ordena las palabras.",
+   "palabras": [
+    "been",
+    "should",
+    "the",
+    "have",
+    "invited",
+    "mayor"
+   ],
+   "respuestas": [
+    "the mayor should have been invited",
+    "should the mayor have been invited"
+   ],
+   "explicacion": "Se aplica la fila «Modal perfecto» de la tabla: modal + have been + participio, típico de los reproches sobre el pasado. La pista es que entre las palabras están should, have, been e invited: el alcalde es invitado. El orden es sujeto + should + have + been + participio. También es posible la pregunta, con should delante del sujeto.",
+   "explicacion_breve": "Modal perfecto pasivo: should have been + participio.",
+   "traduccion": "Deberían haber invitado al alcalde.",
+   "errores_previstos": [
+    {
+     "respuesta": "the mayor should been have invited",
+     "explicacion": "El orden de los auxiliares es fijo: modal + have + been + participio."
+    },
+    {
+     "respuesta": "the mayor have should been invited",
+     "explicacion": "El modal va siempre primero en el grupo verbal."
+    }
+   ]
+  },
+  {
+   "id": "e16",
+   "tipo": "ordenar",
+   "enunciado": "Ordena las palabras.",
+   "palabras": [
+    "being",
+    "the",
+    "is",
+    "watched",
+    "house"
+   ],
+   "respuestas": [
+    "the house is being watched",
+    "is the house being watched"
+   ],
+   "explicacion": "Se aplica la fila «Present continuous» de la tabla: is being + participio. La pista es que entre las palabras están is, being y el participio watched, y el sujeto the house, que es vigilada. El orden es sujeto + is + being + participio; en pregunta, is delante del sujeto.",
+   "explicacion_breve": "Present continuous pasivo: is being + participio.",
+   "traduccion": "Están vigilando la casa.",
+   "errores_previstos": [
+    {
+     "respuesta": "the house being is watched",
+     "explicacion": "Being va detrás de is, no delante."
+    },
+    {
+     "respuesta": "is being watched the house",
+     "explicacion": "Calco del español «está siendo vigilada la casa»: en la afirmativa el sujeto va delante."
+    }
+   ]
+  }
  ],
- "fuente": {"nombre": "propia"}
+ "fuente": {
+  "nombre": "propia"
+ },
+ "descripcion_larga_es": "Esta ficha extiende la voz pasiva a todos los tiempos y a los modales: is being built, has been published, will have been finished, should have been sent. También trata la pasiva del infinitivo y del gerundio y la alternativa coloquial con get. Es esencial para el inglés de informes, noticias y procedimientos, y al hispanohablante le cuesta sobre todo la pasiva continua y elegir bien el tiempo de be.",
+ "contexto": {
+  "que_es": "Es la voz pasiva aplicada a cualquier tiempo verbal, a los modales y a las formas no personales. La regla es siempre la misma: be se conjuga en el tiempo de la activa y se añade el participio pasado. Get + participio es una variante informal para sucesos o cambios que le ocurren al sujeto.",
+  "por_que_importa": "En prensa, informes, actas y textos administrativos la pasiva aparece en todos los tiempos, y un examen de nivel B2 exige manejarla con soltura. Equivocar la forma de be cambia el tiempo de la acción o produce frases agramaticales como «The bridge is building». Además, saber cuándo usar get ayuda a sonar natural en la conversación.",
+  "cuando_se_usa": "Cuando interesa la acción o su resultado más que el agente: obras en curso (is being repaired), resultados (have been published), plazos (will have been completed), obligaciones (must be signed) o reproches (should have been noticed). El español suele usar la pasiva refleja con «se» o la tercera persona del plural, y el hispanohablante tiende a traducirlas con una activa sin sujeto real."
+ }
 }

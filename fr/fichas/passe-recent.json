@@ -6,51 +6,530 @@
  "nivel": "A2",
  "resumen": "Venir en presente + de + infinitivo equivale a «acabar de + infinitivo»: Je viens de manger = Acabo de comer.",
  "explicacion": [
-  {"tipo": "tabla", "cabecera": ["Persona", "venir de + infinitivo", "Traducción"], "filas": [
-   ["je", "viens de finir", "acabo de terminar"],
-   ["tu", "viens de finir", "acabas de terminar"],
-   ["il / elle / on", "vient de finir", "acaba de terminar"],
-   ["nous", "venons de finir", "acabamos de terminar"],
-   ["vous", "venez de finir", "acabáis de terminar / acaba usted de terminar"],
-   ["ils / elles", "viennent de finir", "acaban de terminar"]
-  ]},
-  {"tipo": "texto", "texto": "El español usa «acabar de»; el francés usa venir (venir) + de. Ante vocal o h muda, de se apostrofa: Je viens d'arriver. No hay que confundirlo con venir de + lugar, que indica procedencia: Je viens de France (vengo de Francia, soy de Francia)."},
-  {"tipo": "lista", "items": [
-   "Los pronombres van delante del infinitivo: Je viens de le terminer. Elle vient de me le dire.",
-   "Con verbos pronominales: Je viens de me lever. Ils viennent de se marier.",
-   "Con venir en imperfecto significa «acababa de»: Tex et Tammy venaient de s'embrasser quand Bette est arrivée."
-  ]},
-  {"tipo": "texto", "texto": "Junto con el futur proche (aller + infinitivo), forma la pareja de perífrasis más útil del francés hablado: Je viens de manger / Je vais manger."}
+  {
+   "tipo": "tabla",
+   "cabecera": [
+    "Persona",
+    "venir de + infinitivo",
+    "Traducción"
+   ],
+   "filas": [
+    [
+     "je",
+     "viens de finir",
+     "acabo de terminar"
+    ],
+    [
+     "tu",
+     "viens de finir",
+     "acabas de terminar"
+    ],
+    [
+     "il / elle / on",
+     "vient de finir",
+     "acaba de terminar"
+    ],
+    [
+     "nous",
+     "venons de finir",
+     "acabamos de terminar"
+    ],
+    [
+     "vous",
+     "venez de finir",
+     "acabáis de terminar / acaba usted de terminar"
+    ],
+    [
+     "ils / elles",
+     "viennent de finir",
+     "acaban de terminar"
+    ]
+   ]
+  },
+  {
+   "tipo": "texto",
+   "texto": "El español usa «acabar de»; el francés usa venir (venir) + de. Ante vocal o h muda, de se apostrofa: Je viens d'arriver. No hay que confundirlo con venir de + lugar, que indica procedencia: Je viens de France (vengo de Francia, soy de Francia)."
+  },
+  {
+   "tipo": "lista",
+   "items": [
+    "Los pronombres van delante del infinitivo: Je viens de le terminer. Elle vient de me le dire.",
+    "Con verbos pronominales: Je viens de me lever. Ils viennent de se marier.",
+    "Con venir en imperfecto significa «acababa de»: Tex et Tammy venaient de s'embrasser quand Bette est arrivée."
+   ]
+  },
+  {
+   "tipo": "texto",
+   "texto": "Junto con el futur proche (aller + infinitivo), forma la pareja de perífrasis más útil del francés hablado: Je viens de manger / Je vais manger."
+  }
  ],
  "ejemplos": [
-  {"frase": "Il vient de partir.", "traduccion": "Se acaba de ir."},
-  {"frase": "Je viens de me lever.", "traduccion": "Me acabo de levantar."},
-  {"frase": "Tex et Tammy viennent de regarder une vidéo romantique.", "traduccion": "Tex y Tammy acaban de ver un vídeo romántico."},
-  {"frase": "Je viens d'avoir 20 ans.", "traduccion": "Acabo de cumplir 20 años."},
-  {"frase": "Ils venaient de partir quand je suis arrivé.", "traduccion": "Acababan de irse cuando llegué."},
-  {"frase": "Mon père vient de rentrer.", "traduccion": "Mi padre acaba de volver a casa."}
+  {
+   "frase": "Il vient de partir.",
+   "traduccion": "Se acaba de ir."
+  },
+  {
+   "frase": "Je viens de me lever.",
+   "traduccion": "Me acabo de levantar."
+  },
+  {
+   "frase": "Tex et Tammy viennent de regarder une vidéo romantique.",
+   "traduccion": "Tex y Tammy acaban de ver un vídeo romántico."
+  },
+  {
+   "frase": "Je viens d'avoir 20 ans.",
+   "traduccion": "Acabo de cumplir 20 años."
+  },
+  {
+   "frase": "Ils venaient de partir quand je suis arrivé.",
+   "traduccion": "Acababan de irse cuando llegué."
+  },
+  {
+   "frase": "Mon père vient de rentrer.",
+   "traduccion": "Mi padre acaba de volver a casa."
+  }
  ],
  "errores_hispanohablantes": [
-  {"mal": "J'achève de manger.", "bien": "Je viens de manger.", "nota": "«Acabar de» no se traduce con achever ni finir, sino con venir de."},
-  {"mal": "Je viens de arriver.", "bien": "Je viens d'arriver.", "nota": "De se apostrofa ante vocal."},
-  {"mal": "Je viens de le terminé.", "bien": "Je viens de le terminer.", "nota": "Tras venir de, el verbo va en infinitivo, no en participio."}
+  {
+   "mal": "J'achève de manger.",
+   "bien": "Je viens de manger.",
+   "nota": "«Acabar de» no se traduce con achever ni finir, sino con venir de."
+  },
+  {
+   "mal": "Je viens de arriver.",
+   "bien": "Je viens d'arriver.",
+   "nota": "De se apostrofa ante vocal."
+  },
+  {
+   "mal": "Je viens de le terminé.",
+   "bien": "Je viens de le terminer.",
+   "nota": "Tras venir de, el verbo va en infinitivo, no en participio."
+  }
  ],
  "ejercicios": [
-  {"id": "e01", "tipo": "hueco", "enunciado": "Completa con venir en presente.", "frase": "Il ___ de partir.", "respuestas": ["vient"], "explicacion": "Il → vient de + infinitivo.", "origen": "tatoeba:131161"},
-  {"id": "e02", "tipo": "hueco", "enunciado": "Completa con venir en presente.", "frase": "Ils ___ de se marier.", "respuestas": ["viennent"], "explicacion": "Ils → viennent.", "origen": "tatoeba:7696083"},
-  {"id": "e03", "tipo": "hueco", "enunciado": "Completa con la preposición que falta.", "frase": "Je viens ___ me lever.", "respuestas": ["de"], "explicacion": "La estructura es venir de + infinitivo.", "origen": "tatoeba:398495"},
-  {"id": "e04", "tipo": "transformar", "enunciado": "Reescribe la frase con venir de (acaba de pasar).", "frase": "J'ai lu un livre.", "respuestas": ["Je viens de lire un livre."], "explicacion": "Venir en presente + de + infinitivo.", "origen": "tatoeba:7701683"},
-  {"id": "e05", "tipo": "transformar", "enunciado": "Reescribe la frase con venir de (acaba de pasar).", "frase": "Mon père est rentré.", "respuestas": ["Mon père vient de rentrer."], "explicacion": "Vient de + rentrer en infinitivo.", "origen": "tatoeba:7702196"},
-  {"id": "e06", "tipo": "transformar", "enunciado": "Reescribe la frase con venir de (acaba de pasar).", "frase": "Tom a raté son train.", "respuestas": ["Tom vient de rater son train."], "explicacion": "Vient de + rater.", "origen": "tatoeba:1431641"},
-  {"id": "e07", "tipo": "corregir", "enunciado": "Corrige el error.", "frase": "Je viens de le terminé.", "respuestas": ["Je viens de le terminer."], "explicacion": "Tras venir de va un infinitivo.", "origen": "tatoeba:589925"},
-  {"id": "e08", "tipo": "corregir", "enunciado": "Corrige el error.", "frase": "Je viens de avoir 20 ans.", "respuestas": ["Je viens d'avoir 20 ans."], "explicacion": "De se apostrofa ante vocal.", "origen": "tatoeba:7502"},
-  {"id": "e09", "tipo": "eleccion", "enunciado": "Elige la forma correcta.", "frase": "Nous ___ de finir le repas.", "opciones": ["venons", "venez", "viennent"], "respuestas": ["venons"], "explicacion": "Nous → venons."},
-  {"id": "e10", "tipo": "eleccion", "enunciado": "Elige la forma que significa «acababan de irse».", "frase": "Ils ___ de partir quand je suis arrivé.", "opciones": ["viennent", "venaient", "sont venus"], "respuestas": ["venaient"], "explicacion": "Venir en imperfecto + de expresa «acababa de» en el pasado."},
-  {"id": "e11", "tipo": "hueco", "enunciado": "Completa con venir en presente.", "frase": "Vous ___ d'arriver ?", "respuestas": ["venez"], "explicacion": "Vous → venez."},
-  {"id": "e12", "tipo": "ordenar", "enunciado": "Ordena las palabras (Acabo de terminar de comer).", "palabras": ["de", "manger", "viens", "finir", "Je", "de"], "respuestas": ["Je viens de finir de manger"], "explicacion": "Venir de + finir de + infinitivo.", "origen": "tatoeba:1369319"},
-  {"id": "e13", "tipo": "ordenar", "enunciado": "Ordena las palabras (Tom se acaba de casar).", "palabras": ["marier", "vient", "se", "Tom", "de"], "respuestas": ["Tom vient de se marier"], "explicacion": "El pronombre reflexivo va delante del infinitivo.", "origen": "tatoeba:1684330"},
-  {"id": "e14", "tipo": "hueco", "enunciado": "Completa con el verbo entre paréntesis.", "frase": "Le film vient de ___ (commencer).", "respuestas": ["commencer"], "explicacion": "Tras venir de, el verbo se queda en infinitivo."},
-  {"id": "e15", "tipo": "transformar", "enunciado": "Reescribe la frase con venir de (acaba de pasar).", "frase": "Tu as mangé.", "respuestas": ["Tu viens de manger."], "explicacion": "Tu → viens de + infinitivo."}
+  {
+   "id": "e01",
+   "tipo": "hueco",
+   "enunciado": "Completa con venir en presente.",
+   "frase": "Il ___ de partir.",
+   "respuestas": [
+    "vient"
+   ],
+   "explicacion": "Es la estructura básica del passé récent: venir en presente + de + infinitivo, como en la tabla de conjugación de la ficha. El sujeto il pide la tercera persona del singular de venir, que es irregular: vient. Así, il vient de partir equivale a «acaba de irse» o «se acaba de ir». Fíjate en que el francés no necesita ningún pronombre para «irse»: partir ya significa marcharse.",
+   "origen": "tatoeba:131161",
+   "explicacion_breve": "Il → vient de + infinitivo.",
+   "traduccion": "Se acaba de ir.",
+   "errores_previstos": [
+    {
+     "respuesta": "viens",
+     "explicacion": "Viens es la forma de je y tu. Con il la forma es vient, con t final."
+    },
+    {
+     "respuesta": "vienne",
+     "explicacion": "Vienne es subjuntivo; el passé récent usa venir en presente de indicativo: il vient."
+    },
+    {
+     "respuesta": "acheve",
+     "explicacion": "Es el calco de «acabar»: en francés «acabar de» se dice venir de, no achever de."
+    }
+   ]
+  },
+  {
+   "id": "e02",
+   "tipo": "hueco",
+   "enunciado": "Completa con venir en presente.",
+   "frase": "Ils ___ de se marier.",
+   "respuestas": [
+    "viennent"
+   ],
+   "explicacion": "La regla es la del passé récent (venir en presente + de + infinitivo) y el sujeto ils exige la tercera persona del plural de venir, que es irregular: viennent, con doble n. La frase incluye además un verbo pronominal, se marier, y como recuerda la ficha, el pronombre se va pegado delante del infinitivo: ils viennent de se marier.",
+   "origen": "tatoeba:7696083",
+   "explicacion_breve": "Ils → viennent.",
+   "traduccion": "Se acaban de casar.",
+   "errores_previstos": [
+    {
+     "respuesta": "vient",
+     "explicacion": "Vient es singular (il, elle). Con ils el verbo va en plural: viennent."
+    },
+    {
+     "respuesta": "venent",
+     "explicacion": "La raíz de venir cambia en las personas del singular y en ils: ils viennent, con -ie- y doble n."
+    },
+    {
+     "respuesta": "venons",
+     "explicacion": "Venons es la forma de nous; con ils corresponde viennent."
+    }
+   ]
+  },
+  {
+   "id": "e03",
+   "tipo": "hueco",
+   "enunciado": "Completa con la preposición que falta.",
+   "frase": "Je viens ___ me lever.",
+   "respuestas": [
+    "de"
+   ],
+   "explicacion": "La estructura del passé récent es fija: venir + de + infinitivo, y la preposición de no puede sustituirse por otra. Aquí el infinitivo es el pronominal se lever, conjugado con je, por lo que el pronombre me va delante del infinitivo: je viens de me lever. Como me empieza por consonante, de se escribe completo, sin apóstrofo.",
+   "origen": "tatoeba:398495",
+   "explicacion_breve": "La estructura es venir de + infinitivo.",
+   "traduccion": "Me acabo de levantar.",
+   "errores_previstos": [
+    {
+     "respuesta": "à",
+     "explicacion": "Venir à + infinitivo existe con otro sentido (llegar a hacer algo). Para «acabar de» la preposición es de."
+    },
+    {
+     "respuesta": "d'",
+     "explicacion": "De solo se apostrofa ante vocal o h muda; delante de me se escribe completo: de."
+    }
+   ]
+  },
+  {
+   "id": "e04",
+   "tipo": "transformar",
+   "enunciado": "Reescribe la frase con venir de (acaba de pasar).",
+   "frase": "J'ai lu un livre.",
+   "respuestas": [
+    "Je viens de lire un livre."
+   ],
+   "explicacion": "Se pide sustituir el passé composé (j'ai lu) por el passé récent para subrayar que la acción acaba de terminar. La regla de la ficha es venir en presente + de + infinitivo: je viens de lire. El participio lu desaparece y vuelve el infinitivo lire. El complemento un livre se mantiene detrás del infinitivo.",
+   "origen": "tatoeba:7701683",
+   "explicacion_breve": "Venir en presente + de + infinitivo.",
+   "traduccion": "Acabo de leer un libro.",
+   "errores_previstos": [
+    {
+     "respuesta": "Je viens de lu un livre.",
+     "explicacion": "Tras venir de va el infinitivo, no el participio: je viens de lire."
+    },
+    {
+     "respuesta": "Je viens d'avoir lu un livre.",
+     "explicacion": "El passé récent ya expresa el pasado inmediato; no se añade un infinitivo compuesto. Basta con je viens de lire."
+    },
+    {
+     "respuesta": "Je viens lire un livre.",
+     "explicacion": "Sin de, venir + infinitivo significa «venir a leer». La preposición de es imprescindible."
+    }
+   ]
+  },
+  {
+   "id": "e05",
+   "tipo": "transformar",
+   "enunciado": "Reescribe la frase con venir de (acaba de pasar).",
+   "frase": "Mon père est rentré.",
+   "respuestas": [
+    "Mon père vient de rentrer."
+   ],
+   "explicacion": "Hay que pasar del passé composé (est rentré) al passé récent: venir en presente + de + infinitivo. El sujeto mon père es tercera persona del singular, por tanto vient, y el participio rentré vuelve a su infinitivo rentrer. Importante: el auxiliar être del passé composé desaparece, porque en el passé récent el único verbo conjugado es venir.",
+   "origen": "tatoeba:7702196",
+   "explicacion_breve": "Vient de + rentrer en infinitivo.",
+   "traduccion": "Mi padre acaba de volver a casa.",
+   "errores_previstos": [
+    {
+     "respuesta": "Mon père vient de rentré.",
+     "explicacion": "Rentré es el participio. Tras venir de va el infinitivo rentrer, aunque se pronuncien igual."
+    },
+    {
+     "respuesta": "Mon père vient d'être rentré.",
+     "explicacion": "No se conserva el auxiliar: el passé récent es simplemente vient de rentrer."
+    },
+    {
+     "respuesta": "Mon père est venu de rentrer.",
+     "explicacion": "Venir debe ir en presente; en passé composé la perífrasis pierde su valor de «acabar de»."
+    }
+   ]
+  },
+  {
+   "id": "e06",
+   "tipo": "transformar",
+   "enunciado": "Reescribe la frase con venir de (acaba de pasar).",
+   "frase": "Tom a raté son train.",
+   "respuestas": [
+    "Tom vient de rater son train."
+   ],
+   "explicacion": "Se aplica la regla del passé récent: venir en presente + de + infinitivo. Tom es tercera persona del singular, así que vient de, y el participio raté vuelve al infinitivo rater (perder un tren, fallar). El posesivo son train no cambia. La frase expresa que el tren se ha escapado hace un momento.",
+   "origen": "tatoeba:1431641",
+   "explicacion_breve": "Vient de + rater.",
+   "traduccion": "Tom acaba de perder el tren.",
+   "errores_previstos": [
+    {
+     "respuesta": "Tom vient de raté son train.",
+     "explicacion": "Raté es participio; tras venir de hace falta el infinitivo rater."
+    },
+    {
+     "respuesta": "Tom viens de rater son train.",
+     "explicacion": "Viens es la forma de je y tu; con Tom (il) es vient."
+    },
+    {
+     "respuesta": "Tom a venu de rater son train.",
+     "explicacion": "Venir va en presente, y además nunca se conjuga con avoir: Tom vient de rater."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "rater",
+     "significado": "perder (un tren, un autobús), fallar"
+    }
+   ]
+  },
+  {
+   "id": "e07",
+   "tipo": "corregir",
+   "enunciado": "Corrige el error.",
+   "frase": "Je viens de le terminé.",
+   "respuestas": [
+    "Je viens de le terminer."
+   ],
+   "explicacion": "La ficha insiste en que tras venir de el verbo va en infinitivo, no en participio. En terminé y terminer la pronunciación es idéntica, por eso el error es tan frecuente al escribir. Además, el pronombre le se coloca delante del infinitivo, como indica la ficha: je viens de le terminer.",
+   "origen": "tatoeba:589925",
+   "explicacion_breve": "Tras venir de va un infinitivo.",
+   "traduccion": "Acabo de terminarlo.",
+   "errores_previstos": [
+    {
+     "respuesta": "Je viens de le terminé.",
+     "explicacion": "Es la frase sin corregir: terminé es participio y tras venir de va el infinitivo terminer."
+    },
+    {
+     "respuesta": "Je le viens de terminer.",
+     "explicacion": "El pronombre le va delante del verbo del que es complemento, el infinitivo: de le terminer."
+    },
+    {
+     "respuesta": "Je viens de terminer le.",
+     "explicacion": "En francés el pronombre complemento no va detrás del infinitivo: je viens de le terminer."
+    }
+   ]
+  },
+  {
+   "id": "e08",
+   "tipo": "corregir",
+   "enunciado": "Corrige el error.",
+   "frase": "Je viens de avoir 20 ans.",
+   "respuestas": [
+    "Je viens d'avoir 20 ans."
+   ],
+   "explicacion": "La ficha recuerda que ante vocal o h muda la preposición de se apostrofa: d'. El infinitivo avoir empieza por vocal, así que hay que escribir je viens d'avoir 20 ans. Además, conviene fijarse en que «cumplir años» se dice avoir… ans en francés, con el verbo avoir.",
+   "origen": "tatoeba:7502",
+   "explicacion_breve": "De se apostrofa ante vocal.",
+   "traduccion": "Acabo de cumplir 20 años.",
+   "errores_previstos": [
+    {
+     "respuesta": "Je viens de avoir 20 ans.",
+     "explicacion": "Es la frase sin corregir: ante la vocal de avoir, de se apostrofa: d'avoir."
+    },
+    {
+     "respuesta": "Je viens d'avoir 20 années.",
+     "explicacion": "Para la edad se usa ans, no années: avoir 20 ans."
+    },
+    {
+     "respuesta": "Je viens d'avoir eu 20 ans.",
+     "explicacion": "Tras venir de basta el infinitivo simple: d'avoir."
+    }
+   ]
+  },
+  {
+   "id": "e09",
+   "tipo": "eleccion",
+   "enunciado": "Elige la forma correcta.",
+   "frase": "Nous ___ de finir le repas.",
+   "opciones": [
+    "venons",
+    "venez",
+    "viennent"
+   ],
+   "respuestas": [
+    "venons"
+   ],
+   "explicacion": "Es el passé récent con nous, que según la tabla de la ficha se forma con venons de + infinitivo. Con nous la raíz de venir no cambia (ven-), a diferencia de je viens o ils viennent. Así, nous venons de finir le repas equivale a «acabamos de terminar la comida».",
+   "explicacion_breve": "Nous → venons.",
+   "traduccion": "Acabamos de terminar la comida.",
+   "por_opcion": {
+    "venons": "Correcta: es la forma de venir para nous, que es el sujeto de la frase.",
+    "venez": "Incorrecta: venez corresponde a vous (venís / viene usted), no a nous.",
+    "viennent": "Incorrecta: viennent es la forma de ils o elles; con nous hace falta venons."
+   },
+   "glosario": [
+    {
+     "palabra": "le repas",
+     "significado": "la comida (cada una de las comidas del día)"
+    }
+   ]
+  },
+  {
+   "id": "e10",
+   "tipo": "eleccion",
+   "enunciado": "Elige la forma que significa «acababan de irse».",
+   "frase": "Ils ___ de partir quand je suis arrivé.",
+   "opciones": [
+    "viennent",
+    "venaient",
+    "sont venus"
+   ],
+   "respuestas": [
+    "venaient"
+   ],
+   "explicacion": "La ficha explica que con venir en imperfecto la perífrasis significa «acababa de»: sitúa una acción inmediatamente anterior a otro momento del pasado. La pista es la segunda parte de la frase, quand je suis arrivé, que fija el relato en el pasado. Por eso venir va en imparfait con ils: venaient. Es una alternativa más viva al plus-que-parfait.",
+   "explicacion_breve": "Venir en imperfecto + de expresa «acababa de» en el pasado.",
+   "traduccion": "Acababan de irse cuando llegué.",
+   "por_opcion": {
+    "viennent": "Incorrecta: el presente significaría «acaban de irse», que choca con el pasado de quand je suis arrivé.",
+    "venaient": "Correcta: venir en imparfait + de expresa «acababan de» en un relato en pasado.",
+    "sont venus": "Incorrecta: venir de en passé composé no tiene valor de pasado reciente; sont venus de partir no se dice en francés."
+   }
+  },
+  {
+   "id": "e11",
+   "tipo": "hueco",
+   "enunciado": "Completa con venir en presente.",
+   "frase": "Vous ___ d'arriver ?",
+   "respuestas": [
+    "venez"
+   ],
+   "explicacion": "Se trata del passé récent con vous: según la tabla, vous venez de + infinitivo. Vous puede ser el trato de usted o un plural (vosotros), y en ambos casos la forma es venez. Además, como arriver empieza por vocal, la frase ya trae la preposición apostrofada: d'arriver.",
+   "explicacion_breve": "Vous → venez.",
+   "traduccion": "¿Acaba de llegar (usted)? / ¿Acabáis de llegar?",
+   "errores_previstos": [
+    {
+     "respuesta": "venons",
+     "explicacion": "Venons es la forma de nous. Con vous se usa venez."
+    },
+    {
+     "respuesta": "viennez",
+     "explicacion": "Con vous la raíz no diptonga: venez, con una sola n y sin -ie-."
+    },
+    {
+     "respuesta": "venir",
+     "explicacion": "El verbo venir tiene que ir conjugado con el sujeto vous: venez."
+    }
+   ]
+  },
+  {
+   "id": "e12",
+   "tipo": "ordenar",
+   "enunciado": "Ordena las palabras (Acabo de terminar de comer).",
+   "palabras": [
+    "de",
+    "manger",
+    "viens",
+    "finir",
+    "Je",
+    "de"
+   ],
+   "respuestas": [
+    "Je viens de finir de manger"
+   ],
+   "explicacion": "La frase encadena dos perífrasis con de: venir de + infinitivo (passé récent) y finir de + infinitivo (terminar de hacer algo). El orden es sujeto + verbo conjugado + de + finir + de + manger: je viens de finir de manger. Esta frase muestra bien la diferencia que señala la ficha: «acabar de» (pasado reciente) es venir de, mientras que «terminar de» es finir de.",
+   "origen": "tatoeba:1369319",
+   "explicacion_breve": "Venir de + finir de + infinitivo.",
+   "traduccion": "Acabo de terminar de comer.",
+   "errores_previstos": [
+    {
+     "respuesta": "Je de viens finir de manger",
+     "explicacion": "La preposición de va detrás de viens, no delante: je viens de finir."
+    },
+    {
+     "respuesta": "Je viens de manger de finir",
+     "explicacion": "Así significaría «acabo de comer terminar»: primero va finir y después lo que se termina, manger."
+    },
+    {
+     "respuesta": "Je finir de viens de manger",
+     "explicacion": "El verbo conjugado es viens y va justo después del sujeto; finir va en infinitivo detrás."
+    }
+   ]
+  },
+  {
+   "id": "e13",
+   "tipo": "ordenar",
+   "enunciado": "Ordena las palabras (Tom se acaba de casar).",
+   "palabras": [
+    "marier",
+    "vient",
+    "se",
+    "Tom",
+    "de"
+   ],
+   "respuestas": [
+    "Tom vient de se marier"
+   ],
+   "explicacion": "Con verbos pronominales, la ficha indica que el pronombre reflexivo se coloca delante del infinitivo, no delante de venir: Tom vient de se marier. En español podemos decir «se acaba de casar» o «acaba de casarse», pero en francés solo existe una posición: se marier, unido al infinitivo.",
+   "origen": "tatoeba:1684330",
+   "explicacion_breve": "El pronombre reflexivo va delante del infinitivo.",
+   "traduccion": "Tom se acaba de casar.",
+   "errores_previstos": [
+    {
+     "respuesta": "Tom se vient de marier",
+     "explicacion": "Es el calco de «se acaba de casar»: en francés el pronombre se va delante del infinitivo, de se marier."
+    },
+    {
+     "respuesta": "Tom vient se de marier",
+     "explicacion": "El pronombre no puede separarse del infinitivo por la preposición: de se marier."
+    },
+    {
+     "respuesta": "Tom vient de marier se",
+     "explicacion": "El pronombre reflexivo va delante del infinitivo, no detrás."
+    }
+   ]
+  },
+  {
+   "id": "e14",
+   "tipo": "hueco",
+   "enunciado": "Completa con el verbo entre paréntesis.",
+   "frase": "Le film vient de ___ (commencer).",
+   "respuestas": [
+    "commencer"
+   ],
+   "explicacion": "La regla de la ficha es tajante: tras venir de el verbo se queda en infinitivo. Aquí basta con copiar commencer tal cual, sin conjugarlo ni convertirlo en participio. La tentación de escribir commencé viene de que suena igual y de que la idea es de pasado, pero el pasado ya lo expresa venir de.",
+   "explicacion_breve": "Tras venir de, el verbo se queda en infinitivo.",
+   "traduccion": "La película acaba de empezar.",
+   "errores_previstos": [
+    {
+     "respuesta": "commencé",
+     "explicacion": "Commencé es participio; tras venir de va el infinitivo commencer."
+    },
+    {
+     "respuesta": "commence",
+     "explicacion": "Es una forma conjugada del presente; tras de el verbo va en infinitivo: commencer."
+    }
+   ]
+  },
+  {
+   "id": "e15",
+   "tipo": "transformar",
+   "enunciado": "Reescribe la frase con venir de (acaba de pasar).",
+   "frase": "Tu as mangé.",
+   "respuestas": [
+    "Tu viens de manger."
+   ],
+   "explicacion": "Hay que pasar del passé composé (tu as mangé) al passé récent con tu. Según la tabla, la forma es tu viens de + infinitivo. El participio mangé vuelve a manger y el auxiliar as desaparece: tu viens de manger. Es la misma forma que con je, viens, con s final.",
+   "explicacion_breve": "Tu → viens de + infinitivo.",
+   "traduccion": "Acabas de comer.",
+   "errores_previstos": [
+    {
+     "respuesta": "Tu vient de manger.",
+     "explicacion": "Vient es la forma de il; con tu se escribe viens, con s."
+    },
+    {
+     "respuesta": "Tu viens de mangé.",
+     "explicacion": "Tras venir de va el infinitivo manger, no el participio mangé."
+    },
+    {
+     "respuesta": "Tu as venu de manger.",
+     "explicacion": "Venir va en presente y nunca con avoir: tu viens de manger."
+    }
+   ]
+  }
  ],
- "fuente": {"nombre": "Tex's French Grammar", "autores": "COERLL, Universidad de Texas en Austin", "licencia": "CC BY 3.0", "url": "https://laits.utexas.edu/tex/gr/tap1.html", "otras": ["Frases de Tatoeba (CC BY 2.0 FR)"]}
+ "fuente": {
+  "nombre": "Tex's French Grammar",
+  "autores": "COERLL, Universidad de Texas en Austin",
+  "licencia": "CC BY 3.0",
+  "url": "https://laits.utexas.edu/tex/gr/tap1.html",
+  "otras": [
+   "Frases de Tatoeba (CC BY 2.0 FR)"
+  ]
+ },
+ "descripcion_larga_es": "El passé récent es la perífrasis venir de + infinitivo, que equivale al «acabar de + infinitivo» español: Je viens de manger, «acabo de comer». Es muy frecuente en la conversación y forma pareja con el futur proche (aller + infinitivo). Al hispanohablante le cuesta porque tiende a traducir «acabar» por finir o achever, y porque se confunde con venir de + lugar, que indica procedencia.",
+ "contexto": {
+  "que_es": "Es una perífrasis verbal formada por venir conjugado en presente, la preposición de y un verbo en infinitivo. Indica que una acción acaba de terminar justo antes del momento en que se habla. Con venir en imparfait sitúa ese pasado inmediato antes de otro momento pasado («acababa de»).",
+  "por_que_importa": "Es una de las estructuras más usadas en el francés hablado, en mensajes y conversaciones cotidianas («je viens d'arriver», «il vient de partir»). Si se traduce palabra por palabra con finir o achever, la frase resulta incomprensible o significa otra cosa («terminar de»). En un examen oral, usarla con naturalidad junto al futur proche demuestra soltura.",
+  "cuando_se_usa": "Cuando en español dirías «acabo de», «acaba de», «se acaba de ir». Las señales son la inmediatez (justo ahora, hace un momento) y el contraste con lo que va a pasar (je vais / je viens de). El hispanohablante debe evitar el calco «j'achève de» y recordar que, tras venir de, el verbo va siempre en infinitivo y los pronombres se colocan delante de ese infinitivo."
+ }
 }

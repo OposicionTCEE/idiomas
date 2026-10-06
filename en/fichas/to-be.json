@@ -6,54 +6,506 @@
  "nivel": "A1",
  "resumen": "To be equivale a la vez a «ser» y a «estar». Se usa para identidad, origen, profesión, edad, estado, lugar y tiempo atmosférico; en presente tiene tres formas (am, is, are) y en pasado dos (was, were).",
  "explicacion": [
-  {"tipo": "texto", "texto": "En inglés no hay distinción entre ser y estar: I am a teacher (soy profesor) e I am tired (estoy cansado) usan el mismo verbo. Además, la edad, el hambre, el frío o la razón se expresan con to be, no con «tener»: I am 30, I am hungry."},
-  {"tipo": "tabla", "cabecera": ["Sujeto", "Presente", "Contracción", "Pasado"], "filas": [
-   ["I", "am", "I'm", "was"],
-   ["you / we / they", "are", "you're / we're / they're", "were"],
-   ["he / she / it", "is", "he's / she's / it's", "was"]
-  ]},
-  {"tipo": "tabla", "cabecera": ["Forma", "Presente", "Pasado"], "filas": [
-   ["Negativa", "I'm not / she isn't / they aren't", "he wasn't / we weren't"],
-   ["Pregunta", "Are you ready? Is it cold?", "Was she at home? Were they late?"],
-   ["Respuesta corta", "Yes, I am. / No, it isn't.", "Yes, she was. / No, they weren't."]
-  ]},
-  {"tipo": "lista", "items": [
-   "En preguntas se invierte el orden: verbo antes del sujeto (Is he Spanish?). No se usa do.",
-   "La negación se forma añadiendo not tras el verbo: She is not here.",
-   "Con I la contracción negativa es I'm not (no existe «I amn't»).",
-   "En las respuestas cortas afirmativas no se contrae: Yes, I am (no «Yes, I'm»)."
-  ]}
+  {
+   "tipo": "texto",
+   "texto": "En inglés no hay distinción entre ser y estar: I am a teacher (soy profesor) e I am tired (estoy cansado) usan el mismo verbo. Además, la edad, el hambre, el frío o la razón se expresan con to be, no con «tener»: I am 30, I am hungry."
+  },
+  {
+   "tipo": "tabla",
+   "cabecera": [
+    "Sujeto",
+    "Presente",
+    "Contracción",
+    "Pasado"
+   ],
+   "filas": [
+    [
+     "I",
+     "am",
+     "I'm",
+     "was"
+    ],
+    [
+     "you / we / they",
+     "are",
+     "you're / we're / they're",
+     "were"
+    ],
+    [
+     "he / she / it",
+     "is",
+     "he's / she's / it's",
+     "was"
+    ]
+   ]
+  },
+  {
+   "tipo": "tabla",
+   "cabecera": [
+    "Forma",
+    "Presente",
+    "Pasado"
+   ],
+   "filas": [
+    [
+     "Negativa",
+     "I'm not / she isn't / they aren't",
+     "he wasn't / we weren't"
+    ],
+    [
+     "Pregunta",
+     "Are you ready? Is it cold?",
+     "Was she at home? Were they late?"
+    ],
+    [
+     "Respuesta corta",
+     "Yes, I am. / No, it isn't.",
+     "Yes, she was. / No, they weren't."
+    ]
+   ]
+  },
+  {
+   "tipo": "lista",
+   "items": [
+    "En preguntas se invierte el orden: verbo antes del sujeto (Is he Spanish?). No se usa do.",
+    "La negación se forma añadiendo not tras el verbo: She is not here.",
+    "Con I la contracción negativa es I'm not (no existe «I amn't»).",
+    "En las respuestas cortas afirmativas no se contrae: Yes, I am (no «Yes, I'm»)."
+   ]
+  }
  ],
  "ejemplos": [
-  {"frase": "My name is Laura and I'm from Seville.", "traduccion": "Me llamo Laura y soy de Sevilla."},
-  {"frase": "We are very hungry.", "traduccion": "Tenemos mucha hambre."},
-  {"frase": "Is the museum open on Mondays?", "traduccion": "¿Está abierto el museo los lunes?"},
-  {"frase": "My brother is 25 years old.", "traduccion": "Mi hermano tiene 25 años."},
-  {"frase": "They weren't at the party last night.", "traduccion": "No estuvieron en la fiesta anoche."},
-  {"frase": "It was cold yesterday.", "traduccion": "Ayer hacía frío."}
+  {
+   "frase": "My name is Laura and I'm from Seville.",
+   "traduccion": "Me llamo Laura y soy de Sevilla."
+  },
+  {
+   "frase": "We are very hungry.",
+   "traduccion": "Tenemos mucha hambre."
+  },
+  {
+   "frase": "Is the museum open on Mondays?",
+   "traduccion": "¿Está abierto el museo los lunes?"
+  },
+  {
+   "frase": "My brother is 25 years old.",
+   "traduccion": "Mi hermano tiene 25 años."
+  },
+  {
+   "frase": "They weren't at the party last night.",
+   "traduccion": "No estuvieron en la fiesta anoche."
+  },
+  {
+   "frase": "It was cold yesterday.",
+   "traduccion": "Ayer hacía frío."
+  }
  ],
  "errores_hispanohablantes": [
-  {"mal": "I have 30 years.", "bien": "I am 30 years old.", "nota": "La edad se expresa con to be, no con have."},
-  {"mal": "Is very cold today.", "bien": "It is very cold today.", "nota": "En inglés el sujeto es obligatorio; para el tiempo se usa it."},
-  {"mal": "Do you are a student?", "bien": "Are you a student?", "nota": "To be no usa do en preguntas ni negaciones."},
-  {"mal": "I have hungry.", "bien": "I am hungry.", "nota": "Hambre, sed, frío, calor y miedo van con to be."}
+  {
+   "mal": "I have 30 years.",
+   "bien": "I am 30 years old.",
+   "nota": "La edad se expresa con to be, no con have."
+  },
+  {
+   "mal": "Is very cold today.",
+   "bien": "It is very cold today.",
+   "nota": "En inglés el sujeto es obligatorio; para el tiempo se usa it."
+  },
+  {
+   "mal": "Do you are a student?",
+   "bien": "Are you a student?",
+   "nota": "To be no usa do en preguntas ni negaciones."
+  },
+  {
+   "mal": "I have hungry.",
+   "bien": "I am hungry.",
+   "nota": "Hambre, sed, frío, calor y miedo van con to be."
+  }
  ],
  "ejercicios": [
-  {"id": "e01", "tipo": "hueco", "enunciado": "Completa con am, is o are.", "frase": "My parents ___ teachers.", "respuestas": ["are"], "explicacion": "My parents equivale a they, que lleva are."},
-  {"id": "e02", "tipo": "hueco", "enunciado": "Completa con am, is o are.", "frase": "I ___ from Valencia.", "respuestas": ["am"], "explicacion": "Con I el presente de to be es am."},
-  {"id": "e03", "tipo": "hueco", "enunciado": "Completa con was o were.", "frase": "The film ___ very long.", "respuestas": ["was"], "explicacion": "The film es tercera persona del singular, que lleva was."},
-  {"id": "e04", "tipo": "hueco", "enunciado": "Completa con was o were.", "frase": "Where ___ you yesterday afternoon?", "respuestas": ["were"], "explicacion": "Con you el pasado de to be es were."},
-  {"id": "e05", "tipo": "hueco", "enunciado": "Completa con la forma negativa del presente (contraída).", "frase": "She ___ at work today. She's ill.", "respuestas": ["isn't", "is not"], "explicacion": "Con she la negativa es isn't (is not)."},
-  {"id": "e06", "tipo": "eleccion", "enunciado": "Elige la opción correcta.", "frase": "___ your sister a doctor?", "opciones": ["Is", "Are", "Does"], "respuestas": ["Is"], "explicacion": "Your sister equivale a she: la pregunta empieza por Is, sin do."},
-  {"id": "e07", "tipo": "eleccion", "enunciado": "Elige la opción correcta.", "frase": "I ___ 20 years old.", "opciones": ["have", "am", "is"], "respuestas": ["am"], "explicacion": "La edad se dice con to be."},
-  {"id": "e08", "tipo": "eleccion", "enunciado": "Elige la respuesta corta correcta.", "frase": "Are you tired? Yes, I ___.", "opciones": ["am", "'m", "are"], "respuestas": ["am"], "explicacion": "En respuestas cortas afirmativas no se contrae: Yes, I am."},
-  {"id": "e09", "tipo": "eleccion", "enunciado": "Elige la opción correcta.", "frase": "We ___ in London last summer.", "opciones": ["was", "were", "are"], "respuestas": ["were"], "explicacion": "Last summer indica pasado y con we se usa were."},
-  {"id": "e10", "tipo": "transformar", "enunciado": "Pasa la frase a pregunta.", "frase": "They are Italian.", "respuestas": ["Are they Italian?"], "explicacion": "En preguntas con to be se invierte el verbo y el sujeto."},
-  {"id": "e11", "tipo": "transformar", "enunciado": "Pasa la frase a negativa.", "frase": "He was happy.", "respuestas": ["He wasn't happy.", "He was not happy."], "explicacion": "La negación se forma con was not (wasn't)."},
-  {"id": "e12", "tipo": "corregir", "enunciado": "Corrige el error.", "frase": "Is very hot today.", "respuestas": ["It is very hot today.", "It's very hot today."], "explicacion": "Hace falta el sujeto it para hablar del tiempo."},
-  {"id": "e13", "tipo": "corregir", "enunciado": "Corrige el error.", "frase": "The children was in the garden.", "respuestas": ["The children were in the garden."], "explicacion": "Children es plural y lleva were."},
-  {"id": "e14", "tipo": "ordenar", "enunciado": "Ordena las palabras para formar una pregunta.", "palabras": ["your", "is", "where", "office"], "respuestas": ["Where is your office"], "explicacion": "Partícula interrogativa + verbo + sujeto."},
-  {"id": "e15", "tipo": "ordenar", "enunciado": "Ordena las palabras.", "palabras": ["not", "I", "cold", "am"], "respuestas": ["I am not cold"], "explicacion": "Sujeto + am + not + adjetivo."}
+  {
+   "id": "e01",
+   "tipo": "hueco",
+   "enunciado": "Completa con am, is o are.",
+   "frase": "My parents ___ teachers.",
+   "respuestas": [
+    "are"
+   ],
+   "explicacion": "Se aplica la tabla de formas: con you, we y they el presente de to be es are. La pista es el sujeto my parents, un plural que equivale a they. Por eso el verbo es are. En español diríamos «son»; en inglés no hay distinción entre ser y estar.",
+   "explicacion_breve": "My parents equivale a they, que lleva are.",
+   "traduccion": "Mis padres son profesores.",
+   "errores_previstos": [
+    {
+     "respuesta": "is",
+     "explicacion": "Is es para he, she o it; my parents es plural (they) y lleva are."
+    },
+    {
+     "respuesta": "be",
+     "explicacion": "Be es el infinitivo; hace falta la forma conjugada: are."
+    },
+    {
+     "respuesta": "am",
+     "explicacion": "Am solo se usa con I."
+    }
+   ]
+  },
+  {
+   "id": "e02",
+   "tipo": "hueco",
+   "enunciado": "Completa con am, is o are.",
+   "frase": "I ___ from Valencia.",
+   "respuestas": [
+    "am"
+   ],
+   "explicacion": "Se aplica la tabla de formas: con I el presente de to be es am. La pista es el sujeto I. El origen se expresa con be from: I am from Valencia, «soy de Valencia».",
+   "explicacion_breve": "Con I el presente de to be es am.",
+   "traduccion": "Soy de Valencia.",
+   "errores_previstos": [
+    {
+     "respuesta": "is",
+     "explicacion": "Is es para tercera persona del singular; con I se usa am."
+    },
+    {
+     "respuesta": "are",
+     "explicacion": "Are es para you, we y they; con I, am."
+    },
+    {
+     "respuesta": "be",
+     "explicacion": "Be es el infinitivo; con I hay que conjugar: am."
+    }
+   ]
+  },
+  {
+   "id": "e03",
+   "tipo": "hueco",
+   "enunciado": "Completa con was o were.",
+   "frase": "The film ___ very long.",
+   "respuestas": [
+    "was"
+   ],
+   "explicacion": "Se aplica la tabla de formas en pasado: was para I, he, she e it; were para el resto. La pista es the film, tercera persona del singular (it). La forma pasada que corresponde es was. El enunciado pide was o were, así que la frase se interpreta en pasado.",
+   "explicacion_breve": "The film es tercera persona del singular, que lleva was.",
+   "traduccion": "La película fue muy larga.",
+   "errores_previstos": [
+    {
+     "respuesta": "were",
+     "explicacion": "Were es para you, we y they; the film es singular: was."
+    },
+    {
+     "respuesta": "is",
+     "explicacion": "El enunciado pide pasado: was."
+    }
+   ]
+  },
+  {
+   "id": "e04",
+   "tipo": "hueco",
+   "enunciado": "Completa con was o were.",
+   "frase": "Where ___ you yesterday afternoon?",
+   "respuestas": [
+    "were"
+   ],
+   "explicacion": "Se aplica la tabla de formas en pasado: con you siempre se usa were, aunque se hable a una sola persona. Las pistas son yesterday afternoon, que marca pasado, y el sujeto you. En la pregunta el verbo va delante del sujeto: Where were you…?",
+   "explicacion_breve": "Con you el pasado de to be es were.",
+   "traduccion": "¿Dónde estuviste ayer por la tarde?",
+   "errores_previstos": [
+    {
+     "respuesta": "was",
+     "explicacion": "Con you se usa were siempre, también en singular."
+    },
+    {
+     "respuesta": "did",
+     "explicacion": "To be no usa el auxiliar do en las preguntas: Where were you?"
+    },
+    {
+     "respuesta": "are",
+     "explicacion": "Yesterday afternoon indica pasado: were."
+    }
+   ]
+  },
+  {
+   "id": "e05",
+   "tipo": "hueco",
+   "enunciado": "Completa con la forma negativa del presente (contraída).",
+   "frase": "She ___ at work today. She's ill.",
+   "respuestas": [
+    "isn't",
+    "is not"
+   ],
+   "explicacion": "Se aplica la regla de la negación: se añade not tras el verbo. Con she la forma es is not, que se contrae en isn't. La pista es la segunda frase (está enferma), que justifica la negación. El enunciado pide la contraída, pero se acepta también is not.",
+   "explicacion_breve": "Con she la negativa es isn't (is not).",
+   "traduccion": "Hoy no está en el trabajo. Está enferma.",
+   "errores_previstos": [
+    {
+     "respuesta": "doesn't",
+     "explicacion": "To be no usa do para negar: isn't."
+    },
+    {
+     "respuesta": "not",
+     "explicacion": "Falta el verbo: she isn't (is not)."
+    },
+    {
+     "respuesta": "aren't",
+     "explicacion": "Aren't es para you, we y they; con she, isn't."
+    }
+   ]
+  },
+  {
+   "id": "e06",
+   "tipo": "eleccion",
+   "enunciado": "Elige la opción correcta.",
+   "frase": "___ your sister a doctor?",
+   "opciones": [
+    "Is",
+    "Are",
+    "Does"
+   ],
+   "respuestas": [
+    "Is"
+   ],
+   "explicacion": "Se aplica la regla de las preguntas: con to be se invierte el orden, verbo antes del sujeto, y no se usa do. La pista es your sister, que equivale a she y por tanto lleva is.",
+   "explicacion_breve": "Your sister equivale a she: la pregunta empieza por Is, sin do.",
+   "traduccion": "¿Tu hermana es médica?",
+   "por_opcion": {
+    "Is": "Correcta: tercera persona del singular, verbo delante del sujeto.",
+    "Are": "Incorrecta: are es para you, we y they; your sister es she.",
+    "Does": "Incorrecta: to be no usa do en preguntas; «Does your sister a doctor?» no tiene verbo principal."
+   }
+  },
+  {
+   "id": "e07",
+   "tipo": "eleccion",
+   "enunciado": "Elige la opción correcta.",
+   "frase": "I ___ 20 years old.",
+   "opciones": [
+    "have",
+    "am",
+    "is"
+   ],
+   "respuestas": [
+    "am"
+   ],
+   "explicacion": "Se aplica la regla de la ficha: la edad se expresa con to be, no con «tener». La pista es years old. Con I, la forma es am: I am 20 years old. Es uno de los errores más típicos del hispanohablante.",
+   "explicacion_breve": "La edad se dice con to be.",
+   "traduccion": "Tengo 20 años.",
+   "por_opcion": {
+    "have": "Incorrecta: calco de «tengo 20 años»; la edad va con to be.",
+    "am": "Correcta: la edad se dice con be, y con I la forma es am.",
+    "is": "Incorrecta: is es para tercera persona; con I, am."
+   }
+  },
+  {
+   "id": "e08",
+   "tipo": "eleccion",
+   "enunciado": "Elige la respuesta corta correcta.",
+   "frase": "Are you tired? Yes, I ___.",
+   "opciones": [
+    "am",
+    "'m",
+    "are"
+   ],
+   "respuestas": [
+    "am"
+   ],
+   "explicacion": "Se aplica la regla de Reglas y claves: en respuestas cortas afirmativas no se contrae. La respuesta termina en el verbo, y la contracción no puede quedar al final de la frase: Yes, I am, nunca «Yes, I'm». En las negativas sí se contrae: No, I'm not.",
+   "explicacion_breve": "En respuestas cortas afirmativas no se contrae: Yes, I am.",
+   "traduccion": "¿Estás cansado? Sí, lo estoy.",
+   "por_opcion": {
+    "am": "Correcta: forma completa al final de una respuesta corta afirmativa.",
+    "'m": "Incorrecta: la contracción no puede ir al final en una respuesta afirmativa.",
+    "are": "Incorrecta: el sujeto de la respuesta es I, que lleva am."
+   }
+  },
+  {
+   "id": "e09",
+   "tipo": "eleccion",
+   "enunciado": "Elige la opción correcta.",
+   "frase": "We ___ in London last summer.",
+   "opciones": [
+    "was",
+    "were",
+    "are"
+   ],
+   "respuestas": [
+    "were"
+   ],
+   "explicacion": "Se aplica la tabla de formas en pasado: con we se usa were. Las pistas son last summer, que marca el pasado, y el sujeto we. Por eso el verbo es were, que aquí equivale a «estuvimos».",
+   "explicacion_breve": "Last summer indica pasado y con we se usa were.",
+   "traduccion": "Estuvimos en Londres el verano pasado.",
+   "por_opcion": {
+    "was": "Incorrecta: was es para I, he, she e it; con we, were.",
+    "were": "Correcta: pasado de to be con we.",
+    "are": "Incorrecta: es presente y last summer pide pasado."
+   }
+  },
+  {
+   "id": "e10",
+   "tipo": "transformar",
+   "enunciado": "Pasa la frase a pregunta.",
+   "frase": "They are Italian.",
+   "respuestas": [
+    "Are they Italian?"
+   ],
+   "explicacion": "Se aplica la regla de las preguntas: con to be se invierte el orden y el verbo pasa delante del sujeto, sin do. They are Italian se convierte en Are they Italian? Fíjate en que los gentilicios se escriben con mayúscula en inglés.",
+   "explicacion_breve": "En preguntas con to be se invierte el verbo y el sujeto.",
+   "traduccion": "¿Son italianos?",
+   "errores_previstos": [
+    {
+     "respuesta": "Do they are Italian?",
+     "explicacion": "To be no usa do en preguntas: Are they Italian?"
+    },
+    {
+     "respuesta": "They are Italian?",
+     "explicacion": "Solo cambia la entonación; en inglés escrito hay que invertir: Are they."
+    },
+    {
+     "respuesta": "Is they Italian?",
+     "explicacion": "Con they la forma es are: Are they Italian?"
+    }
+   ]
+  },
+  {
+   "id": "e11",
+   "tipo": "transformar",
+   "enunciado": "Pasa la frase a negativa.",
+   "frase": "He was happy.",
+   "respuestas": [
+    "He wasn't happy.",
+    "He was not happy."
+   ],
+   "explicacion": "Se aplica la regla de la negación: se añade not tras el verbo, sin do. He was happy pasa a he was not happy, que se contrae en wasn't. Se aceptan las dos formas.",
+   "explicacion_breve": "La negación se forma con was not (wasn't).",
+   "traduccion": "No estaba contento.",
+   "errores_previstos": [
+    {
+     "respuesta": "He didn't be happy.",
+     "explicacion": "To be no usa did para negar: he wasn't happy."
+    },
+    {
+     "respuesta": "He not was happy.",
+     "explicacion": "Not va detrás del verbo be: he was not."
+    },
+    {
+     "respuesta": "He weren't happy.",
+     "explicacion": "Con he el pasado es was: wasn't."
+    }
+   ]
+  },
+  {
+   "id": "e12",
+   "tipo": "corregir",
+   "enunciado": "Corrige el error.",
+   "frase": "Is very hot today.",
+   "respuestas": [
+    "It is very hot today.",
+    "It's very hot today."
+   ],
+   "explicacion": "Se aplica el error típico de la ficha: en inglés el sujeto es obligatorio, y para el tiempo atmosférico se usa it. En español «hace calor» no tiene sujeto expreso, pero en inglés hay que decir It is (It's) very hot today. Se aceptan la forma completa y la contraída.",
+   "explicacion_breve": "Hace falta el sujeto it para hablar del tiempo.",
+   "traduccion": "Hoy hace mucho calor.",
+   "errores_previstos": [
+    {
+     "respuesta": "Is very hot today.",
+     "explicacion": "Es la frase sin corregir: falta el sujeto it."
+    },
+    {
+     "respuesta": "It makes very hot today.",
+     "explicacion": "Calco de «hace calor»: en inglés el tiempo se expresa con it is."
+    },
+    {
+     "respuesta": "There is very hot today.",
+     "explicacion": "There is significa «hay» y no sirve para el tiempo; el sujeto del tiempo atmosférico es it."
+    }
+   ]
+  },
+  {
+   "id": "e13",
+   "tipo": "corregir",
+   "enunciado": "Corrige el error.",
+   "frase": "The children was in the garden.",
+   "respuestas": [
+    "The children were in the garden."
+   ],
+   "explicacion": "Se aplica la tabla de formas en pasado: were con plurales. La pista es children, plural irregular de child, que no termina en -s pero es plural. Por eso el verbo es were.",
+   "explicacion_breve": "Children es plural y lleva were.",
+   "traduccion": "Los niños estaban en el jardín.",
+   "errores_previstos": [
+    {
+     "respuesta": "The children was in the garden.",
+     "explicacion": "Es la frase sin corregir: children es plural y lleva were."
+    },
+    {
+     "respuesta": "The childrens were in the garden.",
+     "explicacion": "Children ya es plural; no lleva -s."
+    },
+    {
+     "respuesta": "The child were in the garden.",
+     "explicacion": "Si se cambia a singular, el verbo sería was; la corrección pedida es cambiar el verbo: were."
+    }
+   ]
+  },
+  {
+   "id": "e14",
+   "tipo": "ordenar",
+   "enunciado": "Ordena las palabras para formar una pregunta.",
+   "palabras": [
+    "your",
+    "is",
+    "where",
+    "office"
+   ],
+   "respuestas": [
+    "Where is your office"
+   ],
+   "explicacion": "Se aplica la regla de las preguntas: palabra interrogativa + verbo + sujeto. Where va al principio, después el verbo is y luego el sujeto your office. No se añade do porque el verbo es be.",
+   "explicacion_breve": "Partícula interrogativa + verbo + sujeto.",
+   "traduccion": "¿Dónde está tu oficina?",
+   "errores_previstos": [
+    {
+     "respuesta": "Where your office is",
+     "explicacion": "Es el orden de una pregunta indirecta (I don't know where your office is); en una pregunta directa el verbo va antes del sujeto."
+    },
+    {
+     "respuesta": "Is where your office",
+     "explicacion": "La palabra interrogativa va siempre al principio."
+    }
+   ]
+  },
+  {
+   "id": "e15",
+   "tipo": "ordenar",
+   "enunciado": "Ordena las palabras.",
+   "palabras": [
+    "not",
+    "I",
+    "cold",
+    "am"
+   ],
+   "respuestas": [
+    "I am not cold"
+   ],
+   "explicacion": "Se aplican dos reglas de la ficha: el frío se expresa con to be (no con «tener») y la negación se forma con not tras el verbo. El orden es sujeto + am + not + adjetivo. Con I la contracción sería I'm not, nunca «I amn't».",
+   "explicacion_breve": "Sujeto + am + not + adjetivo.",
+   "traduccion": "No tengo frío.",
+   "errores_previstos": [
+    {
+     "respuesta": "I not am cold",
+     "explicacion": "Not va detrás del verbo: I am not."
+    },
+    {
+     "respuesta": "I am cold not",
+     "explicacion": "Not va inmediatamente detrás del verbo y antes del adjetivo: I am not cold."
+    }
+   ]
+  }
  ],
- "fuente": {"nombre": "propia"}
+ "fuente": {
+  "nombre": "propia"
+ },
+ "descripcion_larga_es": "To be es a la vez «ser» y «estar», y además sustituye a «tener» en la edad, el hambre, el frío o el miedo. Es el verbo más frecuente del inglés y la base de las preguntas, las negaciones y muchos otros tiempos. Cuesta al hispanohablante porque hay que elegir la forma según el sujeto (am, is, are; was, were), porque el sujeto es obligatorio y porque la edad no se dice con have.",
+ "contexto": {
+  "que_es": "Es el verbo que expresa identidad, origen, profesión, edad, estados, ubicación y tiempo atmosférico. En presente tiene tres formas (am, is, are) y en pasado dos (was, were), con sus contracciones (I'm, she's, they're). Forma preguntas y negaciones por sí mismo, sin el auxiliar do.",
+  "por_que_importa": "Es el primer verbo que se aprende y aparece en casi todas las frases básicas: presentarse, describir a alguien, decir dónde estás o cómo te sientes. También es el auxiliar del presente continuo y de la pasiva, así que un error aquí se arrastra a toda la gramática. Fallos como «I have 30 years» o «Is very cold» delatan enseguida a un hispanohablante.",
+  "cuando_se_usa": "Siempre que en español usarías «ser» o «estar», y también en lugar de «tener» con la edad, el hambre, la sed, el frío, el calor o el miedo. Las señales son el sujeto, que decide la forma, y las marcas temporales (yesterday, last summer), que piden el pasado. El hispanohablante tiende a omitir el sujeto (it), a usar do en las preguntas y a contraer en las respuestas cortas afirmativas."
+ }
 }

@@ -109,7 +109,23 @@
    "respuestas": [
     "yourselves"
    ],
-   "explicacion": "You plural (girls): yourselves."
+   "explicacion": "Se aplica la tabla de la ficha: para you en plural el reflexivo es yourselves. La pista es girls, que muestra que se habla a varias personas. Enjoy necesita un objeto cuando significa «pasarlo bien», y como quien lo pasa bien es el propio sujeto, va el reflexivo: enjoy yourselves.",
+   "explicacion_breve": "You plural (girls): yourselves.",
+   "traduccion": "¿Os lo pasasteis bien en la fiesta, chicas?",
+   "errores_previstos": [
+    {
+     "respuesta": "yourself",
+     "explicacion": "Yourself es singular; girls indica plural: yourselves."
+    },
+    {
+     "respuesta": "yourselfs",
+     "explicacion": "El plural de self es selves: yourselves."
+    },
+    {
+     "respuesta": "you",
+     "explicacion": "Sujeto y objeto son las mismas personas, así que hace falta el reflexivo: yourselves."
+    }
+   ]
   },
   {
    "id": "e02",
@@ -121,7 +137,23 @@
     "herself",
     "himself"
    ],
-   "explicacion": "Animal referido como it: itself (si es una mascota con sexo conocido, también herself/himself)."
+   "explicacion": "La regla de la ficha es usar el reflexivo cuando el sujeto actúa sobre sí mismo: el gato se lava a sí mismo. Para un animal referido como it, el reflexivo es itself. La ficha admite también herself o himself si se trata de una mascota cuyo sexo se conoce, porque en inglés es habitual referirse así a los animales de compañía.",
+   "explicacion_breve": "Animal referido como it: itself (si es una mascota con sexo conocido, también herself/himself).",
+   "traduccion": "El gato se estaba lavando al sol.",
+   "errores_previstos": [
+    {
+     "respuesta": "it",
+     "explicacion": "Sujeto y objeto coinciden: hace falta el reflexivo itself."
+    },
+    {
+     "respuesta": "its",
+     "explicacion": "Its es posesivo («su»); el reflexivo es itself."
+    },
+    {
+     "respuesta": "itselves",
+     "explicacion": "El gato es uno solo: itself, en singular."
+    }
+   ]
   },
   {
    "id": "e03",
@@ -131,7 +163,23 @@
    "respuestas": [
     "himself"
    ],
-   "explicacion": "Sujeto he: himself (aprendió solo)."
+   "explicacion": "La ficha explica el uso reflexivo: cuando sujeto y objeto son la misma persona. Teach someone to do something es «enseñar a alguien a hacer algo»; si uno se enseña a sí mismo, el objeto es el reflexivo. Con he va himself. Teach himself equivale a «aprender por su cuenta».",
+   "explicacion_breve": "Sujeto he: himself (aprendió solo).",
+   "traduccion": "Aprendió solo a tocar la guitarra.",
+   "errores_previstos": [
+    {
+     "respuesta": "him",
+     "explicacion": "Him indicaría que enseñó a otra persona; si aprendió solo, va himself."
+    },
+    {
+     "respuesta": "hisself",
+     "explicacion": "Hisself no existe en inglés estándar: la forma es himself."
+    },
+    {
+     "respuesta": "itself",
+     "explicacion": "El sujeto es he: himself."
+    }
+   ]
   },
   {
    "id": "e04",
@@ -141,7 +189,23 @@
    "respuestas": [
     "ourselves"
    ],
-   "explicacion": "Uso enfático con we: ourselves."
+   "explicacion": "Es el uso enfático que recoge la ficha: el reflexivo subraya que el sujeto lo hace personalmente, sin ayuda («nosotros mismos»). La pista es We don't need help. Con we el reflexivo es ourselves, que se coloca al final de la frase, detrás del objeto it.",
+   "explicacion_breve": "Uso enfático con we: ourselves.",
+   "traduccion": "No necesitamos ayuda. Podemos hacerlo nosotros mismos.",
+   "errores_previstos": [
+    {
+     "respuesta": "ourself",
+     "explicacion": "Con we el reflexivo es plural: ourselves."
+    },
+    {
+     "respuesta": "us",
+     "explicacion": "Us es objeto; para «nosotros mismos» se usa el reflexivo ourselves."
+    },
+    {
+     "respuesta": "ourselfs",
+     "explicacion": "El plural de self es selves: ourselves."
+    }
+   ]
   },
   {
    "id": "e05",
@@ -151,7 +215,23 @@
    "respuestas": [
     "herself"
    ],
-   "explicacion": "By herself = sola."
+   "explicacion": "La ficha explica que by + reflexivo significa «solo, sin compañía». La pista es la preposición by delante del hueco. My grandmother equivale a she, por lo que el reflexivo es herself: by herself. También podría decirse alone, con el mismo sentido.",
+   "explicacion_breve": "By herself = sola.",
+   "traduccion": "Mi abuela vive sola en un piso pequeño.",
+   "errores_previstos": [
+    {
+     "respuesta": "her",
+     "explicacion": "By her significaría «junto a ella»; para «sola» se usa by herself."
+    },
+    {
+     "respuesta": "itself",
+     "explicacion": "La abuela es she: herself."
+    },
+    {
+     "respuesta": "alone",
+     "explicacion": "By alone no existe; o lives alone o lives by herself."
+    }
+   ]
   },
   {
    "id": "e06",
@@ -166,7 +246,14 @@
    "respuestas": [
     "each other"
    ],
-   "explicacion": "Relación mutua: each other."
+   "explicacion": "La ficha distingue each other (recíproco: la una a la otra) de themselves (cada una a sí misma). En español ambas se dicen «se conocen», y de ahí la confusión. Aquí la relación es mutua: Marta conoce a Elena y Elena a Marta, por lo que va each other.",
+   "explicacion_breve": "Relación mutua: each other.",
+   "traduccion": "Marta y Elena se conocen desde primaria.",
+   "por_opcion": {
+    "themselves": "Significaría que cada una se conoce a sí misma, no que se conocen entre ellas.",
+    "each other": "Correcta: expresa la relación mutua entre Marta y Elena.",
+    "theirselves": "No existe en inglés estándar; el reflexivo plural es themselves."
+   }
   },
   {
    "id": "e07",
@@ -181,7 +268,14 @@
    "respuestas": [
     "get dressed"
    ],
-   "explicacion": "«Vestirse» se dice normalmente get dressed, sin reflexivo."
+   "explicacion": "La ficha advierte que muchos verbos que llevan «se» en español no son reflexivos en inglés, y vestirse es uno de ellos: get dressed. No se añade ningún pronombre. Dress up significa otra cosa: disfrazarse o arreglarse para una ocasión especial.",
+   "explicacion_breve": "«Vestirse» se dice normalmente get dressed, sin reflexivo.",
+   "traduccion": "Normalmente me visto a las 7.30 y desayuno algo rápido.",
+   "por_opcion": {
+    "get dressed": "Correcta: es la forma normal de decir «vestirse».",
+    "dress myself up": "Dress up es «disfrazarse» o «ponerse elegante»; además, el reflexivo sobra en una rutina normal.",
+    "get me dressed": "Get me dressed significaría que otra persona me viste; para uno mismo es get dressed."
+   }
   },
   {
    "id": "e08",
@@ -196,7 +290,14 @@
    "respuestas": [
     "yourself"
    ],
-   "explicacion": "Expresión fija: make yourself at home."
+   "explicacion": "Make yourself at home es una de las expresiones fijas de la ficha y significa «estás en tu casa, ponte cómodo». Es un uso reflexivo: el sujeto implícito del imperativo es you, así que va yourself. No se puede sustituir por you ni por your.",
+   "explicacion_breve": "Expresión fija: make yourself at home.",
+   "traduccion": "Pasa y estás en tu casa.",
+   "por_opcion": {
+    "you": "Make you at home es agramatical: la expresión fija lleva el reflexivo yourself.",
+    "yourself": "Correcta: expresión fija make yourself at home.",
+    "your": "Your es posesivo y necesita un sustantivo detrás."
+   }
   },
   {
    "id": "e09",
@@ -211,7 +312,14 @@
    "respuestas": [
     "myself"
    ],
-   "explicacion": "Sujeto y objeto son la misma persona: myself."
+   "explicacion": "La regla de la ficha dice que se usa el reflexivo cuando sujeto y objeto son la misma persona. Look after significa «cuidar de»; si me cuido a mí mismo, el objeto es myself. Me sería incorrecto porque el sujeto ya es I.",
+   "explicacion_breve": "Sujeto y objeto son la misma persona: myself.",
+   "traduccion": "No te preocupes por mí. Sé cuidarme solo.",
+   "por_opcion": {
+    "me": "Con sujeto I, el objeto que remite a la misma persona debe ser reflexivo: myself.",
+    "myself": "Correcta: sujeto y objeto coinciden.",
+    "each other": "Each other expresa reciprocidad entre varias personas; aquí solo hay una."
+   }
   },
   {
    "id": "e10",
@@ -221,7 +329,23 @@
    "respuestas": [
     "I need to relax after work."
    ],
-   "explicacion": "Relax no se usa con reflexivo en inglés."
+   "explicacion": "La ficha incluye relax entre los verbos que llevan «se» en español pero no son reflexivos en inglés. Basta con relax, sin pronombre. Añadir myself es un calco de «relajarme» y suena forzado.",
+   "explicacion_breve": "Relax no se usa con reflexivo en inglés.",
+   "traduccion": "Necesito relajarme después del trabajo.",
+   "errores_previstos": [
+    {
+     "respuesta": "I need to relax myself after work.",
+     "explicacion": "Es la frase sin corregir: relax no lleva reflexivo."
+    },
+    {
+     "respuesta": "I need to relax me after work.",
+     "explicacion": "Calco de «relajarme»: relax no lleva pronombre."
+    },
+    {
+     "respuesta": "I need relax after work.",
+     "explicacion": "Se ha quitado el reflexivo, pero need necesita to delante del verbo: need to relax."
+    }
+   ]
   },
   {
    "id": "e11",
@@ -231,7 +355,23 @@
    "respuestas": [
     "They did all the work themselves."
    ],
-   "explicacion": "La forma correcta es themselves; theirselves no existe en inglés estándar."
+   "explicacion": "Es el uso enfático de la ficha («ellos mismos»). El reflexivo plural correcto es themselves; theirselves se oye en algunas variedades coloquiales, pero no es inglés estándar. La regla es fácil de recordar: myself, yourself, ourselves usan el posesivo, pero himself y themselves usan el pronombre de objeto.",
+   "explicacion_breve": "La forma correcta es themselves; theirselves no existe en inglés estándar.",
+   "traduccion": "Hicieron todo el trabajo ellos mismos.",
+   "errores_previstos": [
+    {
+     "respuesta": "They did all the work theirselves.",
+     "explicacion": "Es la frase sin corregir: theirselves no es estándar."
+    },
+    {
+     "respuesta": "They did all the work themself.",
+     "explicacion": "Con they en plural la forma estándar es themselves."
+    },
+    {
+     "respuesta": "They did all the work each other.",
+     "explicacion": "Each other expresa reciprocidad; aquí se busca el énfasis «ellos mismos»."
+    }
+   ]
   },
   {
    "id": "e12",
@@ -242,7 +382,23 @@
     "We met at the station at nine.",
     "We met each other at the station at nine."
    ],
-   "explicacion": "«Quedar/verse» es meet, sin reflexivo."
+   "explicacion": "La ficha recoge meet como traducción de «quedar» o «verse», y aclara que no lleva reflexivo. We met at the station es suficiente. Puede añadirse each other, que la ficha admite, porque la acción es mutua; pero ourselves significaría que nos encontramos con nosotros mismos, lo cual no tiene sentido.",
+   "explicacion_breve": "«Quedar/verse» es meet, sin reflexivo.",
+   "traduccion": "Quedamos en la estación a las nueve.",
+   "errores_previstos": [
+    {
+     "respuesta": "We met ourselves at the station at nine.",
+     "explicacion": "Es la frase sin corregir: meet no lleva reflexivo."
+    },
+    {
+     "respuesta": "We met us at the station at nine.",
+     "explicacion": "Calco de «nos vimos»: meet no necesita pronombre."
+    },
+    {
+     "respuesta": "We stayed at the station at nine.",
+     "explicacion": "Stay es «quedarse en un sitio», no «quedar con alguien»: meet."
+    }
+   ]
   },
   {
    "id": "e13",
@@ -260,7 +416,19 @@
     "please help yourself to the food",
     "help yourself to the food please"
    ],
-   "explicacion": "Help yourself to + algo = sírvete."
+   "explicacion": "La ficha recoge help yourself como expresión fija («sírvete»). Lo que uno se sirve se introduce con la preposición to: help yourself to the food. Please puede ir al principio o al final. El calco del español llevaría a omitir to o a usar serve, que en inglés no se usa así.",
+   "explicacion_breve": "Help yourself to + algo = sírvete.",
+   "traduccion": "Por favor, sírvete la comida. (También: Sírvete la comida, por favor.)",
+   "errores_previstos": [
+    {
+     "respuesta": "please help the food to yourself",
+     "explicacion": "El reflexivo va justo detrás de help y lo que se toma tras to: help yourself to the food."
+    },
+    {
+     "respuesta": "please yourself help to the food",
+     "explicacion": "Yourself va detrás del verbo help, no delante."
+    }
+   ]
   },
   {
    "id": "e14",
@@ -275,10 +443,28 @@
    "respuestas": [
     "they hate each other"
    ],
-   "explicacion": "Each other para una acción mutua."
+   "explicacion": "La ficha explica que each other expresa una acción mutua: cada uno odia al otro. Va detrás del verbo como un objeto normal: They hate each other. En español «se odian» podría ser recíproco o reflexivo; en inglés hay que elegir, y aquí con each other el sentido es recíproco.",
+   "explicacion_breve": "Each other para una acción mutua.",
+   "traduccion": "Se odian (el uno al otro).",
+   "errores_previstos": [
+    {
+     "respuesta": "they each other hate",
+     "explicacion": "Calco del orden español («se odian»): each other va detrás del verbo."
+    },
+    {
+     "respuesta": "each other they hate",
+     "explicacion": "Each other funciona como objeto y se coloca detrás del verbo."
+    }
+   ]
   }
  ],
  "fuente": {
   "nombre": "propia"
+ },
+ "descripcion_larga_es": "Los pronombres reflexivos (myself, yourself, themselves…) se usan cuando sujeto y objeto son la misma persona y para dar énfasis («yo mismo»). La gran trampa para el hispanohablante es que muchos verbos con «se» en español no son reflexivos en inglés: levantarse, relajarse, vestirse o quedar se dicen get up, relax, get dressed o meet. Además, «se quieren» puede ser themselves o each other.",
+ "contexto": {
+  "que_es": "Son pronombres terminados en -self (singular) o -selves (plural) que remiten al sujeto de la misma oración. Tienen tres usos: reflexivo (la acción recae sobre el sujeto), enfático (yo mismo, sin ayuda) y, con by, el significado de «solo».",
+  "por_que_importa": "Usarlos bien evita uno de los calcos más frecuentes del español: añadir un reflexivo a verbos que en inglés no lo llevan (I relax myself, we met ourselves), que suena extraño y a veces cambia el sentido. Distinguir themselves de each other es necesario para no decir algo distinto de lo que se quiere. Expresiones como help yourself o make yourself at home son habituales en la vida social.",
+  "cuando_se_usa": "Cuando el sujeto actúa sobre sí mismo (hurt yourself, enjoy yourselves), para subrayar que alguien lo hizo personalmente (I painted it myself) y con by para «solo» (by herself). No se usa con get up, wash, shave, relax, feel, remember o meet en su uso normal. Para acciones mutuas («se conocen», «se odian») se usa each other."
  }
 }

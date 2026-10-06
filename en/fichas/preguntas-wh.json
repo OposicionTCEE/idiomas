@@ -6,54 +6,525 @@
  "nivel": "A1",
  "resumen": "Las preguntas abiertas empiezan con una partícula interrogativa seguida del auxiliar (do, does, is, can…) y del sujeto. El orden es fijo: partícula + auxiliar + sujeto + verbo.",
  "explicacion": [
-  {"tipo": "tabla", "cabecera": ["Partícula", "Significado", "Ejemplo"], "filas": [
-   ["What", "qué, cuál", "What do you do?"],
-   ["Where", "dónde", "Where are you from?"],
-   ["When", "cuándo", "When is your birthday?"],
-   ["Who", "quién", "Who is that woman?"],
-   ["Why", "por qué", "Why are you sad?"],
-   ["Which", "cuál (entre opciones)", "Which bus goes to the airport?"],
-   ["How", "cómo", "How are you?"],
-   ["How much / How many", "cuánto (incontable / plural)", "How much is it? How many brothers have you got?"],
-   ["How often / How old / How long", "con qué frecuencia / qué edad / cuánto tiempo", "How often do you swim? How old is she?"]
-  ]},
-  {"tipo": "texto", "texto": "Estructura: partícula + auxiliar + sujeto + verbo. Con to be: Where is the station? Con otros verbos se necesita do/does: What time does the train leave? Con can: How can I help you?"},
-  {"tipo": "lista", "items": [
-   "Why se responde con because: Why are you tired? Because I didn't sleep.",
-   "Si who o what son el sujeto, no se usa do: Who lives here? What happened?",
-   "What + sustantivo es muy frecuente: What time…?, What colour…?, What kind of…?"
-  ]}
+  {
+   "tipo": "tabla",
+   "cabecera": [
+    "Partícula",
+    "Significado",
+    "Ejemplo"
+   ],
+   "filas": [
+    [
+     "What",
+     "qué, cuál",
+     "What do you do?"
+    ],
+    [
+     "Where",
+     "dónde",
+     "Where are you from?"
+    ],
+    [
+     "When",
+     "cuándo",
+     "When is your birthday?"
+    ],
+    [
+     "Who",
+     "quién",
+     "Who is that woman?"
+    ],
+    [
+     "Why",
+     "por qué",
+     "Why are you sad?"
+    ],
+    [
+     "Which",
+     "cuál (entre opciones)",
+     "Which bus goes to the airport?"
+    ],
+    [
+     "How",
+     "cómo",
+     "How are you?"
+    ],
+    [
+     "How much / How many",
+     "cuánto (incontable / plural)",
+     "How much is it? How many brothers have you got?"
+    ],
+    [
+     "How often / How old / How long",
+     "con qué frecuencia / qué edad / cuánto tiempo",
+     "How often do you swim? How old is she?"
+    ]
+   ]
+  },
+  {
+   "tipo": "texto",
+   "texto": "Estructura: partícula + auxiliar + sujeto + verbo. Con to be: Where is the station? Con otros verbos se necesita do/does: What time does the train leave? Con can: How can I help you?"
+  },
+  {
+   "tipo": "lista",
+   "items": [
+    "Why se responde con because: Why are you tired? Because I didn't sleep.",
+    "Si who o what son el sujeto, no se usa do: Who lives here? What happened?",
+    "What + sustantivo es muy frecuente: What time…?, What colour…?, What kind of…?"
+   ]
+  }
  ],
  "ejemplos": [
-  {"frase": "Where do your parents live?", "traduccion": "¿Dónde viven tus padres?"},
-  {"frase": "How much does this jacket cost?", "traduccion": "¿Cuánto cuesta esta chaqueta?"},
-  {"frase": "What time does the class start?", "traduccion": "¿A qué hora empieza la clase?"},
-  {"frase": "How often do you go to the cinema?", "traduccion": "¿Cada cuánto vas al cine?"},
-  {"frase": "Who wants more cake?", "traduccion": "¿Quién quiere más tarta?"},
-  {"frase": "Why is the shop closed?", "traduccion": "¿Por qué está cerrada la tienda?"}
+  {
+   "frase": "Where do your parents live?",
+   "traduccion": "¿Dónde viven tus padres?"
+  },
+  {
+   "frase": "How much does this jacket cost?",
+   "traduccion": "¿Cuánto cuesta esta chaqueta?"
+  },
+  {
+   "frase": "What time does the class start?",
+   "traduccion": "¿A qué hora empieza la clase?"
+  },
+  {
+   "frase": "How often do you go to the cinema?",
+   "traduccion": "¿Cada cuánto vas al cine?"
+  },
+  {
+   "frase": "Who wants more cake?",
+   "traduccion": "¿Quién quiere más tarta?"
+  },
+  {
+   "frase": "Why is the shop closed?",
+   "traduccion": "¿Por qué está cerrada la tienda?"
+  }
  ],
  "errores_hispanohablantes": [
-  {"mal": "Where you work?", "bien": "Where do you work?", "nota": "Falta el auxiliar do."},
-  {"mal": "What means this word?", "bien": "What does this word mean?", "nota": "Con verbos normales hace falta do/does y el verbo va al final."},
-  {"mal": "How many money do you need?", "bien": "How much money do you need?", "nota": "Money es incontable: how much."},
-  {"mal": "How old have you?", "bien": "How old are you?", "nota": "La edad se pregunta con to be."}
+  {
+   "mal": "Where you work?",
+   "bien": "Where do you work?",
+   "nota": "Falta el auxiliar do."
+  },
+  {
+   "mal": "What means this word?",
+   "bien": "What does this word mean?",
+   "nota": "Con verbos normales hace falta do/does y el verbo va al final."
+  },
+  {
+   "mal": "How many money do you need?",
+   "bien": "How much money do you need?",
+   "nota": "Money es incontable: how much."
+  },
+  {
+   "mal": "How old have you?",
+   "bien": "How old are you?",
+   "nota": "La edad se pregunta con to be."
+  }
  ],
  "ejercicios": [
-  {"id": "e01", "tipo": "hueco", "enunciado": "Completa con la partícula interrogativa adecuada.", "frase": "___ do you live? In Granada.", "respuestas": ["Where"], "explicacion": "Se pregunta por un lugar: where."},
-  {"id": "e02", "tipo": "hueco", "enunciado": "Completa con la partícula interrogativa adecuada.", "frase": "___ is your sister? She's 15.", "respuestas": ["How old"], "explicacion": "Se pregunta por la edad: how old."},
-  {"id": "e03", "tipo": "hueco", "enunciado": "Completa con la partícula interrogativa adecuada.", "frase": "___ are you crying? Because I'm sad.", "respuestas": ["Why"], "explicacion": "La respuesta con because indica why."},
-  {"id": "e04", "tipo": "hueco", "enunciado": "Completa con la partícula interrogativa adecuada.", "frase": "___ is your favourite actor? Tom Hanks.", "respuestas": ["Who"], "explicacion": "Se pregunta por una persona: who."},
-  {"id": "e05", "tipo": "hueco", "enunciado": "Completa con do, does o is.", "frase": "What ___ your father do?", "respuestas": ["does"], "explicacion": "Your father es tercera persona: does."},
-  {"id": "e06", "tipo": "eleccion", "enunciado": "Elige la opción correcta.", "frase": "How ___ people work in your company?", "opciones": ["much", "many", "often"], "respuestas": ["many"], "explicacion": "People es contable en plural: how many."},
-  {"id": "e07", "tipo": "eleccion", "enunciado": "Elige la opción correcta.", "frase": "How ___ is this bag?", "opciones": ["many", "much", "long"], "respuestas": ["much"], "explicacion": "Para preguntar el precio: how much."},
-  {"id": "e08", "tipo": "eleccion", "enunciado": "Elige la opción correcta.", "frase": "How ___ do you visit your grandparents? Once a month.", "opciones": ["often", "long", "many"], "respuestas": ["often"], "explicacion": "Se pregunta por la frecuencia: how often."},
-  {"id": "e09", "tipo": "eleccion", "enunciado": "Elige la opción correcta.", "frase": "When ___ the next train?", "opciones": ["does", "is", "do"], "respuestas": ["is"], "explicacion": "Con un sustantivo y sin otro verbo se usa to be."},
-  {"id": "e10", "tipo": "corregir", "enunciado": "Corrige el error.", "frase": "Where you are from?", "respuestas": ["Where are you from?"], "explicacion": "El verbo to be va antes del sujeto."},
-  {"id": "e11", "tipo": "corregir", "enunciado": "Corrige el error.", "frase": "What time the shop opens?", "respuestas": ["What time does the shop open?"], "explicacion": "Hace falta does y el verbo en forma base."},
-  {"id": "e12", "tipo": "corregir", "enunciado": "Corrige el error.", "frase": "How much brothers have you got?", "respuestas": ["How many brothers have you got?"], "explicacion": "Brothers es contable en plural: how many."},
-  {"id": "e13", "tipo": "ordenar", "enunciado": "Ordena las palabras para formar una pregunta.", "palabras": ["you", "what", "do", "weekend", "the", "do", "at"], "respuestas": ["What do you do at the weekend"], "explicacion": "Partícula + do + sujeto + verbo + complemento."},
-  {"id": "e14", "tipo": "ordenar", "enunciado": "Ordena las palabras para formar una pregunta.", "palabras": ["does", "when", "start", "film", "the"], "respuestas": ["When does the film start"], "explicacion": "Partícula + does + sujeto + verbo."},
-  {"id": "e15", "tipo": "ordenar", "enunciado": "Ordena las palabras para formar una pregunta.", "palabras": ["can", "how", "help", "I", "you"], "respuestas": ["How can I help you"], "explicacion": "Partícula + can + sujeto + verbo + objeto."}
+  {
+   "id": "e01",
+   "tipo": "hueco",
+   "enunciado": "Completa con la partícula interrogativa adecuada.",
+   "frase": "___ do you live? In Granada.",
+   "respuestas": [
+    "Where"
+   ],
+   "explicacion": "Se aplica la tabla de partículas: where significa «dónde» y pregunta por un lugar. La pista es la respuesta, In Granada, que es un lugar. Después de la partícula la pregunta sigue el orden de la ficha: auxiliar do + sujeto you + verbo live. Con mayúscula porque abre la oración.",
+   "explicacion_breve": "Se pregunta por un lugar: where.",
+   "traduccion": "¿Dónde vives? En Granada.",
+   "errores_previstos": [
+    {
+     "respuesta": "When",
+     "explicacion": "When pregunta por un momento; la respuesta, In Granada, es un lugar: where."
+    },
+    {
+     "respuesta": "What",
+     "explicacion": "What pregunta por una cosa; para un lugar se usa where."
+    },
+    {
+     "respuesta": "Were",
+     "explicacion": "Were es el pasado de be; la partícula de lugar se escribe where, con h."
+    }
+   ]
+  },
+  {
+   "id": "e02",
+   "tipo": "hueco",
+   "enunciado": "Completa con la partícula interrogativa adecuada.",
+   "frase": "___ is your sister? She's 15.",
+   "respuestas": [
+    "How old"
+   ],
+   "explicacion": "Se aplica la última fila de la tabla: how old significa «qué edad», literalmente «cómo de vieja». La pista es la respuesta, She's 15, una edad. En inglés la edad se expresa con el verbo be (She is 15), no con have, por eso la pregunta es How old is your sister? y no lleva do.",
+   "explicacion_breve": "Se pregunta por la edad: how old.",
+   "traduccion": "¿Cuántos años tiene tu hermana? Tiene 15.",
+   "errores_previstos": [
+    {
+     "respuesta": "How many years",
+     "explicacion": "Calco de «¿cuántos años tiene?»: en inglés la edad se pregunta con how old + be."
+    },
+    {
+     "respuesta": "How much",
+     "explicacion": "How much pregunta por cantidad o precio, no por la edad."
+    },
+    {
+     "respuesta": "How years",
+     "explicacion": "La edad no se pregunta por los años, sino con el adjetivo old: How old is your sister?"
+    }
+   ]
+  },
+  {
+   "id": "e03",
+   "tipo": "hueco",
+   "enunciado": "Completa con la partícula interrogativa adecuada.",
+   "frase": "___ are you crying? Because I'm sad.",
+   "respuestas": [
+    "Why"
+   ],
+   "explicacion": "Se aplica la nota de la ficha según la cual why se responde con because. La pista es la respuesta, Because I'm sad, que da una causa. Why significa «por qué» en pregunta, y because, «porque» en la respuesta: en inglés son dos palabras distintas, a diferencia del español. Detrás de why va el auxiliar are, porque la pregunta está en presente continuo.",
+   "explicacion_breve": "La respuesta con because indica why.",
+   "traduccion": "¿Por qué lloras? Porque estoy triste.",
+   "errores_previstos": [
+    {
+     "respuesta": "Because",
+     "explicacion": "Calco de «por qué» / «porque»: because solo se usa en la respuesta; en la pregunta va why."
+    },
+    {
+     "respuesta": "What",
+     "explicacion": "What pregunta por una cosa; la respuesta con because pide why."
+    },
+    {
+     "respuesta": "How",
+     "explicacion": "How pregunta por la manera; para la causa se usa why."
+    }
+   ]
+  },
+  {
+   "id": "e04",
+   "tipo": "hueco",
+   "enunciado": "Completa con la partícula interrogativa adecuada.",
+   "frase": "___ is your favourite actor? Tom Hanks.",
+   "respuestas": [
+    "Who"
+   ],
+   "explicacion": "Se aplica la tabla de partículas: who significa «quién» y pregunta por una persona. La pista es la respuesta, Tom Hanks, el nombre de una persona. Con el verbo to be no hace falta do: Who is your favourite actor? Fíjate en la ortografía británica favourite, con u.",
+   "explicacion_breve": "Se pregunta por una persona: who.",
+   "traduccion": "¿Quién es tu actor favorito? Tom Hanks.",
+   "errores_previstos": [
+    {
+     "respuesta": "What",
+     "explicacion": "What se usa para cosas; para preguntar por una persona se usa who."
+    },
+    {
+     "respuesta": "Which",
+     "explicacion": "Which se usa al elegir entre opciones concretas; para preguntar abiertamente por una persona, who."
+    },
+    {
+     "respuesta": "How",
+     "explicacion": "How pregunta por la manera o el estado, no por la identidad de una persona."
+    }
+   ]
+  },
+  {
+   "id": "e05",
+   "tipo": "hueco",
+   "enunciado": "Completa con do, does o is.",
+   "frase": "What ___ your father do?",
+   "respuestas": [
+    "does"
+   ],
+   "explicacion": "Se aplica la estructura de la ficha: con verbos distintos de be se necesita do/does. La pista es el sujeto, your father, de tercera persona del singular, y el verbo principal do (hacer) al final, en forma base. Por eso el auxiliar es does: What does your father do? Es la pregunta típica para preguntar por la profesión. Puede parecer raro que aparezca do dos veces en What do you do?, pero el primero es auxiliar y el segundo es el verbo «hacer».",
+   "explicacion_breve": "Your father es tercera persona: does.",
+   "traduccion": "¿A qué se dedica tu padre?",
+   "errores_previstos": [
+    {
+     "respuesta": "do",
+     "explicacion": "Your father es tercera persona del singular: does."
+    },
+    {
+     "respuesta": "is",
+     "explicacion": "Is no se combina con la forma base do; con un verbo distinto de be el auxiliar es does."
+    },
+    {
+     "respuesta": "does does",
+     "explicacion": "El hueco solo necesita el auxiliar; el verbo do ya aparece al final de la frase."
+    }
+   ]
+  },
+  {
+   "id": "e06",
+   "tipo": "eleccion",
+   "enunciado": "Elige la opción correcta.",
+   "frase": "How ___ people work in your company?",
+   "opciones": [
+    "much",
+    "many",
+    "often"
+   ],
+   "respuestas": [
+    "many"
+   ],
+   "explicacion": "Se aplica la fila «How much / How many» de la tabla: how many va con sustantivos contables en plural y how much con incontables. La pista es people, que es plural (la ficha de plurales lo recuerda: people are). Por eso es How many people…? Además, en esta pregunta people es el sujeto, así que no lleva do: How many people work…?",
+   "explicacion_breve": "People es contable en plural: how many.",
+   "traduccion": "¿Cuántas personas trabajan en tu empresa?",
+   "por_opcion": {
+    "much": "Incorrecta: how much va con incontables (how much money); people es contable y plural.",
+    "many": "Correcta: how many con un sustantivo contable en plural como people.",
+    "often": "Incorrecta: how often pregunta por la frecuencia («con qué frecuencia») y no puede ir seguido de un sustantivo así."
+   }
+  },
+  {
+   "id": "e07",
+   "tipo": "eleccion",
+   "enunciado": "Elige la opción correcta.",
+   "frase": "How ___ is this bag? — It's 25 euros.",
+   "opciones": [
+    "many",
+    "much",
+    "long"
+   ],
+   "respuestas": [
+    "much"
+   ],
+   "explicacion": "Se aplica la tabla de partículas, que da How much is it? como forma de preguntar el precio. La respuesta (It's 25 euros) muestra que se pregunta por el precio del bolso, y con el dinero, que es incontable, se usa how much. Por eso es How much is this bag? How long is this bag? también sería gramatical, pero preguntaría cuánto mide de largo.",
+   "explicacion_breve": "Para preguntar el precio: how much.",
+   "traduccion": "¿Cuánto cuesta este bolso? — Cuesta 25 euros.",
+   "por_opcion": {
+    "many": "Incorrecta: how many va con contables en plural y aquí se pregunta por el precio.",
+    "much": "Correcta: how much is…? es la pregunta habitual por el precio.",
+    "long": "Incorrecta aquí: How long is this bag? preguntaría por su longitud, y la respuesta (25 euros) es un precio."
+   }
+  },
+  {
+   "id": "e08",
+   "tipo": "eleccion",
+   "enunciado": "Elige la opción correcta.",
+   "frase": "How ___ do you visit your grandparents? Once a month.",
+   "opciones": [
+    "often",
+    "long",
+    "many"
+   ],
+   "respuestas": [
+    "often"
+   ],
+   "explicacion": "Se aplica la última fila de la tabla: how often significa «con qué frecuencia» o «cada cuánto». La pista es la respuesta, Once a month, que expresa frecuencia. Por eso es How often do you visit…? Recuerda que la frecuencia se responde con expresiones como once a week, twice a year o every day.",
+   "explicacion_breve": "Se pregunta por la frecuencia: how often.",
+   "traduccion": "¿Cada cuánto visitas a tus abuelos? Una vez al mes.",
+   "por_opcion": {
+    "often": "Correcta: how often pregunta por la frecuencia, y la respuesta es once a month.",
+    "long": "Incorrecta: how long pregunta por la duración (¿cuánto tiempo?); la respuesta sería for two hours, no once a month.",
+    "many": "Incorrecta: how many necesita un sustantivo plural detrás (how many times)."
+   }
+  },
+  {
+   "id": "e09",
+   "tipo": "eleccion",
+   "enunciado": "Elige la opción correcta.",
+   "frase": "When ___ the next train?",
+   "opciones": [
+    "does",
+    "is",
+    "do"
+   ],
+   "respuestas": [
+    "is"
+   ],
+   "explicacion": "Se aplica la estructura de la ficha: con to be, el verbo be se coloca tras la partícula y antes del sujeto (Where is the station?). La pista es que la frase no tiene ningún otro verbo: solo el sustantivo the next train. Sin verbo principal, el único verbo posible es be, en tercera persona: When is the next train? Con does haría falta un verbo, como en When does the next train leave?",
+   "explicacion_breve": "Con un sustantivo y sin otro verbo se usa to be.",
+   "traduccion": "¿Cuándo es el próximo tren?",
+   "por_opcion": {
+    "does": "Incorrecta: does necesita un verbo principal detrás (When does the next train leave?), y aquí no lo hay.",
+    "is": "Correcta: sin otro verbo, la frase se construye con be: When is the next train?",
+    "do": "Incorrecta: do es auxiliar y necesita un verbo principal; además, el sujeto es singular."
+   }
+  },
+  {
+   "id": "e10",
+   "tipo": "corregir",
+   "enunciado": "Corrige el error.",
+   "frase": "Where you are from?",
+   "respuestas": [
+    "Where are you from?"
+   ],
+   "explicacion": "Se aplica la estructura de la ficha para to be: partícula + be + sujeto. La pista es que el verbo de la frase es are, una forma de be, que en las preguntas se coloca antes del sujeto. Por eso Where you are from? pasa a Where are you from? La preposición from se queda al final, como es normal en inglés: no se dice «From where are you?».",
+   "explicacion_breve": "El verbo to be va antes del sujeto.",
+   "traduccion": "¿De dónde eres?",
+   "errores_previstos": [
+    {
+     "respuesta": "Where you are from?",
+     "explicacion": "Es la frase sin corregir: en la pregunta be va antes del sujeto."
+    },
+    {
+     "respuesta": "From where are you?",
+     "explicacion": "Calco de «¿de dónde eres?»: la preposición from va al final de la pregunta."
+    },
+    {
+     "respuesta": "Where do you are from?",
+     "explicacion": "Con be no se usa do; basta con invertir: Where are you from?"
+    }
+   ]
+  },
+  {
+   "id": "e11",
+   "tipo": "corregir",
+   "enunciado": "Corrige el error.",
+   "frase": "What time the shop opens?",
+   "respuestas": [
+    "What time does the shop open?"
+   ],
+   "explicacion": "Se aplica la estructura de la ficha para verbos distintos de be: partícula + does + sujeto + verbo. La pista es el verbo open, que no es be, y el sujeto the shop, de tercera persona. Hacen falta dos cambios: añadir does y quitar la -s del verbo, porque la marca de tercera persona pasa al auxiliar: What time does the shop open?",
+   "explicacion_breve": "Hace falta does y el verbo en forma base.",
+   "traduccion": "¿A qué hora abre la tienda?",
+   "errores_previstos": [
+    {
+     "respuesta": "What time the shop opens?",
+     "explicacion": "Es la frase sin corregir: falta el auxiliar does."
+    },
+    {
+     "respuesta": "What time does the shop opens?",
+     "explicacion": "Tras does el verbo va en forma base: open, sin -s."
+    },
+    {
+     "respuesta": "What time do the shop open?",
+     "explicacion": "The shop es tercera persona del singular: does."
+    }
+   ]
+  },
+  {
+   "id": "e12",
+   "tipo": "corregir",
+   "enunciado": "Corrige el error.",
+   "frase": "How much brothers have you got?",
+   "respuestas": [
+    "How many brothers have you got?"
+   ],
+   "explicacion": "Se aplica la fila «How much / How many» de la tabla: how many con contables en plural. La pista es brothers, que es contable y está en plural (se pueden contar: one brother, two brothers). Por eso how much pasa a how many. Have you got es la forma británica de «tienes»; también se diría How many brothers do you have?",
+   "explicacion_breve": "Brothers es contable en plural: how many.",
+   "traduccion": "¿Cuántos hermanos tienes?",
+   "errores_previstos": [
+    {
+     "respuesta": "How much brothers have you got?",
+     "explicacion": "Es la frase sin corregir: brothers es contable y plural, así que va how many."
+    },
+    {
+     "respuesta": "How many brother have you got?",
+     "explicacion": "Tras how many el sustantivo va en plural: brothers."
+    },
+    {
+     "respuesta": "How many brothers you have got?",
+     "explicacion": "En la pregunta have va antes del sujeto: have you got."
+    }
+   ]
+  },
+  {
+   "id": "e13",
+   "tipo": "ordenar",
+   "enunciado": "Ordena las palabras para formar una pregunta.",
+   "palabras": [
+    "you",
+    "what",
+    "do",
+    "weekend",
+    "the",
+    "do",
+    "at"
+   ],
+   "respuestas": [
+    "What do you do at the weekend"
+   ],
+   "explicacion": "Se aplica la estructura de la ficha: partícula + do + sujeto + verbo + complemento. La pista es que hay dos do: el primero, tras what, es el auxiliar de la pregunta, y el segundo, tras you, es el verbo «hacer». Al final va el complemento de tiempo, at the weekend, que es la forma británica (en inglés americano se dice on the weekend).",
+   "explicacion_breve": "Partícula + do + sujeto + verbo + complemento.",
+   "traduccion": "¿Qué haces el fin de semana?",
+   "errores_previstos": [
+    {
+     "respuesta": "What you do do at the weekend",
+     "explicacion": "El auxiliar do va antes del sujeto: What do you do."
+    },
+    {
+     "respuesta": "What do you at the weekend do",
+     "explicacion": "El verbo do va justo detrás del sujeto, antes del complemento de tiempo."
+    },
+    {
+     "respuesta": "At the weekend what do you do",
+     "explicacion": "Calco de un orden con el complemento delante: en la pregunta la partícula va al principio."
+    }
+   ]
+  },
+  {
+   "id": "e14",
+   "tipo": "ordenar",
+   "enunciado": "Ordena las palabras para formar una pregunta.",
+   "palabras": [
+    "does",
+    "when",
+    "start",
+    "film",
+    "the"
+   ],
+   "respuestas": [
+    "When does the film start"
+   ],
+   "explicacion": "Se aplica la estructura de la ficha: partícula + does + sujeto + verbo. La pista es el auxiliar does, que indica presente con sujeto de tercera persona (the film), y el verbo start en forma base. El orden es When + does + the film + start. En inglés, el sujeto no puede ir al final como en español («¿cuándo empieza la película?»).",
+   "explicacion_breve": "Partícula + does + sujeto + verbo.",
+   "traduccion": "¿Cuándo empieza la película?",
+   "errores_previstos": [
+    {
+     "respuesta": "When does start the film",
+     "explicacion": "Calco del orden español («cuándo empieza la película»): el sujeto va entre does y el verbo."
+    },
+    {
+     "respuesta": "When the film does start",
+     "explicacion": "En la pregunta el auxiliar does va antes del sujeto."
+    },
+    {
+     "respuesta": "Does the film start when",
+     "explicacion": "La partícula interrogativa when va al principio."
+    }
+   ]
+  },
+  {
+   "id": "e15",
+   "tipo": "ordenar",
+   "enunciado": "Ordena las palabras para formar una pregunta.",
+   "palabras": [
+    "can",
+    "how",
+    "help",
+    "I",
+    "you"
+   ],
+   "respuestas": [
+    "How can I help you"
+   ],
+   "explicacion": "Se aplica la estructura de la ficha con can: partícula + can + sujeto + verbo + objeto (How can I help you?, el propio ejemplo de la ficha). La pista es que can funciona como auxiliar, así que no se necesita do y basta con colocarlo antes del sujeto I. Es la fórmula fija de atención al público.",
+   "explicacion_breve": "Partícula + can + sujeto + verbo + objeto.",
+   "traduccion": "¿En qué puedo ayudarle?",
+   "errores_previstos": [
+    {
+     "respuesta": "How I can help you",
+     "explicacion": "En la pregunta can va antes del sujeto: How can I."
+    },
+    {
+     "respuesta": "How can help I you",
+     "explicacion": "El sujeto I va entre can y el verbo: can I help."
+    },
+    {
+     "respuesta": "Can I help you how",
+     "explicacion": "La partícula how va al principio de la pregunta."
+    }
+   ]
+  }
  ],
- "fuente": {"nombre": "propia"}
+ "fuente": {
+  "nombre": "propia"
+ },
+ "descripcion_larga_es": "Las preguntas abiertas en inglés empiezan con una partícula interrogativa (what, where, when, who, why, which, how) seguida del auxiliar y del sujeto: Where do you live? Son imprescindibles para cualquier conversación. Al hispanohablante le cuesta porque en español basta con la entonación y el orden es libre («¿Dónde tú vives?»), mientras que en inglés el auxiliar delante del sujeto es obligatorio.",
+ "contexto": {
+  "que_es": "Son las preguntas que piden información, no un sí o un no. Siguen un orden fijo: partícula interrogativa + auxiliar + sujeto + verbo (What do you do?). Con to be o con un modal, ese verbo hace de auxiliar (Where is the station? How can I help you?). How se combina con otras palabras para preguntar por cantidad, edad, frecuencia o duración.",
+  "por_que_importa": "Sin ellas no se puede mantener una conversación básica: preguntar por el nombre, el origen, el trabajo, el precio o la hora. Olvidar el auxiliar («Where you live?») o no invertir el sujeto («Where you are from?») son errores muy frecuentes que se notan enseguida. Elegir mal entre how much y how many también cambia el sentido o suena incorrecto.",
+  "cuando_se_usa": "Siempre que se pide información concreta: lugar (where), momento (when), persona (who), causa (why), elección entre opciones (which), manera (how), precio o cantidad (how much, how many), edad (how old) o frecuencia (how often). La señal es la respuesta esperada. El hispanohablante tiende a calcar el orden del español y a omitir do/does."
+ }
 }

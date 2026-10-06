@@ -6,56 +6,484 @@
  "nivel": "B1",
  "resumen": "Un phrasal verb es un verbo seguido de una partícula (up, off, out, on…) que juntos tienen un significado propio. Hay que aprenderlos como vocabulario y fijarse en si se pueden separar.",
  "explicacion": [
-  {"tipo": "tabla", "cabecera": ["Phrasal verb", "Significado", "Ejemplo"], "filas": [
-   ["get up", "levantarse", "I get up at seven."],
-   ["turn on / turn off", "encender / apagar", "Turn off the lights, please."],
-   ["look for", "buscar", "I'm looking for my glasses."],
-   ["look after", "cuidar", "She looks after her little brother."],
-   ["give up", "dejar (un hábito), rendirse", "He gave up smoking last year."],
-   ["find out", "averiguar, enterarse", "I found out the truth yesterday."],
-   ["put on / take off", "ponerse / quitarse (ropa)", "Take off your shoes."],
-   ["fill in", "rellenar (un impreso)", "Please fill in this form."],
-   ["pick up", "recoger", "I'll pick you up at the station."],
-   ["run out of", "quedarse sin", "We've run out of milk."],
-   ["get on with", "llevarse bien con", "I get on well with my colleagues."],
-   ["carry on", "seguir, continuar", "Carry on, I'm listening."]
-  ]},
-  {"tipo": "texto", "texto": "Separables: el objeto puede ir entre el verbo y la partícula o detrás: Turn the TV off / Turn off the TV. Pero si el objeto es un pronombre, va SIEMPRE en medio: Turn it off (no Turn off it)."},
-  {"tipo": "texto", "texto": "Inseparables: el objeto va siempre detrás, también si es pronombre: look for it, look after them, get on with her. Si el verbo tiene dos partículas (run out of, get on with) nunca se separa."},
-  {"tipo": "lista", "items": [
-   "Algunos no llevan objeto: get up, carry on, break down (averiarse), grow up (crecer, criarse).",
-   "Un mismo phrasal puede tener varios significados: take off = quitarse (ropa) / despegar (avión).",
-   "En registro formal suelen tener un equivalente latino: find out = discover; give up = abandon."
-  ]}
+  {
+   "tipo": "tabla",
+   "cabecera": [
+    "Phrasal verb",
+    "Significado",
+    "Ejemplo"
+   ],
+   "filas": [
+    [
+     "get up",
+     "levantarse",
+     "I get up at seven."
+    ],
+    [
+     "turn on / turn off",
+     "encender / apagar",
+     "Turn off the lights, please."
+    ],
+    [
+     "look for",
+     "buscar",
+     "I'm looking for my glasses."
+    ],
+    [
+     "look after",
+     "cuidar",
+     "She looks after her little brother."
+    ],
+    [
+     "give up",
+     "dejar (un hábito), rendirse",
+     "He gave up smoking last year."
+    ],
+    [
+     "find out",
+     "averiguar, enterarse",
+     "I found out the truth yesterday."
+    ],
+    [
+     "put on / take off",
+     "ponerse / quitarse (ropa)",
+     "Take off your shoes."
+    ],
+    [
+     "fill in",
+     "rellenar (un impreso)",
+     "Please fill in this form."
+    ],
+    [
+     "pick up",
+     "recoger",
+     "I'll pick you up at the station."
+    ],
+    [
+     "run out of",
+     "quedarse sin",
+     "We've run out of milk."
+    ],
+    [
+     "get on with",
+     "llevarse bien con",
+     "I get on well with my colleagues."
+    ],
+    [
+     "carry on",
+     "seguir, continuar",
+     "Carry on, I'm listening."
+    ]
+   ]
+  },
+  {
+   "tipo": "texto",
+   "texto": "Separables: el objeto puede ir entre el verbo y la partícula o detrás: Turn the TV off / Turn off the TV. Pero si el objeto es un pronombre, va SIEMPRE en medio: Turn it off (no Turn off it)."
+  },
+  {
+   "tipo": "texto",
+   "texto": "Inseparables: el objeto va siempre detrás, también si es pronombre: look for it, look after them, get on with her. Si el verbo tiene dos partículas (run out of, get on with) nunca se separa."
+  },
+  {
+   "tipo": "lista",
+   "items": [
+    "Algunos no llevan objeto: get up, carry on, break down (averiarse), grow up (crecer, criarse).",
+    "Un mismo phrasal puede tener varios significados: take off = quitarse (ropa) / despegar (avión).",
+    "En registro formal suelen tener un equivalente latino: find out = discover; give up = abandon."
+   ]
+  }
  ],
  "ejemplos": [
-  {"frase": "Could you turn the music down? I'm trying to sleep.", "traduccion": "¿Puedes bajar la música? Estoy intentando dormir."},
-  {"frase": "Who looks after your dog when you travel?", "traduccion": "¿Quién cuida de tu perro cuando viajas?"},
-  {"frase": "Our car broke down on the motorway.", "traduccion": "Se nos averió el coche en la autopista."},
-  {"frase": "I grew up in a small town near Zaragoza.", "traduccion": "Me crié en un pueblo cerca de Zaragoza."},
-  {"frase": "The plane took off two hours late.", "traduccion": "El avión despegó con dos horas de retraso."},
-  {"frase": "Don't give up! You're almost there.", "traduccion": "¡No te rindas! Ya casi lo tienes."}
+  {
+   "frase": "Could you turn the music down? I'm trying to sleep.",
+   "traduccion": "¿Puedes bajar la música? Estoy intentando dormir."
+  },
+  {
+   "frase": "Who looks after your dog when you travel?",
+   "traduccion": "¿Quién cuida de tu perro cuando viajas?"
+  },
+  {
+   "frase": "Our car broke down on the motorway.",
+   "traduccion": "Se nos averió el coche en la autopista."
+  },
+  {
+   "frase": "I grew up in a small town near Zaragoza.",
+   "traduccion": "Me crié en un pueblo cerca de Zaragoza."
+  },
+  {
+   "frase": "The plane took off two hours late.",
+   "traduccion": "El avión despegó con dos horas de retraso."
+  },
+  {
+   "frase": "Don't give up! You're almost there.",
+   "traduccion": "¡No te rindas! Ya casi lo tienes."
+  }
  ],
  "errores_hispanohablantes": [
-  {"mal": "Put on it, it's cold outside.", "bien": "Put it on, it's cold outside.", "nota": "Con un phrasal separable, el pronombre va entre verbo y partícula."},
-  {"mal": "I'm looking my keys.", "bien": "I'm looking for my keys.", "nota": "«Buscar» es look for; look solo significa «mirar»."},
-  {"mal": "We have finished the coffee, there isn't more.", "bien": "We have run out of coffee.", "nota": "«Quedarse sin» se expresa con run out of."}
+  {
+   "mal": "Put on it, it's cold outside.",
+   "bien": "Put it on, it's cold outside.",
+   "nota": "Con un phrasal separable, el pronombre va entre verbo y partícula."
+  },
+  {
+   "mal": "I'm looking my keys.",
+   "bien": "I'm looking for my keys.",
+   "nota": "«Buscar» es look for; look solo significa «mirar»."
+  },
+  {
+   "mal": "We have finished the coffee, there isn't more.",
+   "bien": "We have run out of coffee.",
+   "nota": "«Quedarse sin» se expresa con run out of."
+  }
  ],
  "ejercicios": [
-  {"id": "e01", "tipo": "hueco", "enunciado": "Completa con la partícula adecuada.", "frase": "It's dark in here. Can you turn ___ the light?", "respuestas": ["on"], "explicacion": "Turn on = encender."},
-  {"id": "e02", "tipo": "hueco", "enunciado": "Completa con la partícula adecuada.", "frase": "My grandmother looks ___ the children when we work late.", "respuestas": ["after"], "explicacion": "Look after = cuidar."},
-  {"id": "e03", "tipo": "hueco", "enunciado": "Completa con la partícula adecuada.", "frase": "He gave ___ chocolate for a month.", "respuestas": ["up"], "explicacion": "Give up = dejar un hábito."},
-  {"id": "e04", "tipo": "hueco", "enunciado": "Completa con la partícula adecuada.", "frase": "Please fill ___ the application form in black ink.", "respuestas": ["in"], "explicacion": "Fill in = rellenar un impreso (en inglés americano también fill out)."},
-  {"id": "e05", "tipo": "hueco", "enunciado": "Completa con la palabra que falta.", "frase": "We've run out ___ bread. Can you buy some?", "respuestas": ["of"], "explicacion": "Run out of = quedarse sin."},
-  {"id": "e06", "tipo": "eleccion", "enunciado": "Elige la opción correcta.", "frase": "I need to ___ what time the exam starts.", "opciones": ["find out", "look after", "give up"], "respuestas": ["find out"], "explicacion": "Find out = averiguar."},
-  {"id": "e07", "tipo": "eleccion", "enunciado": "Elige la opción correcta.", "frase": "The meeting was going well, so we ___ until seven.", "opciones": ["carried on", "took off", "got up"], "respuestas": ["carried on"], "explicacion": "Carry on = continuar."},
-  {"id": "e08", "tipo": "eleccion", "enunciado": "Elige la opción correcta.", "frase": "My new shoes hurt, so I ___.", "opciones": ["took off them", "took them off", "took them out"], "respuestas": ["took them off"], "explicacion": "Pronombre en medio del phrasal separable: took them off."},
-  {"id": "e09", "tipo": "eleccion", "enunciado": "Elige la opción correcta.", "frase": "Do you ___ your sister?", "opciones": ["get on with", "get up with", "get off"], "respuestas": ["get on with"], "explicacion": "Get on with = llevarse bien con."},
-  {"id": "e10", "tipo": "corregir", "enunciado": "Corrige el error.", "frase": "I'll pick up you at eight.", "respuestas": ["I'll pick you up at eight.", "I will pick you up at eight."], "explicacion": "Con pronombre, pick + you + up."},
-  {"id": "e11", "tipo": "corregir", "enunciado": "Corrige el error.", "frase": "She is looking her passport everywhere.", "respuestas": ["She is looking for her passport everywhere.", "She's looking for her passport everywhere."], "explicacion": "Buscar = look for."},
-  {"id": "e12", "tipo": "transformar", "enunciado": "Sustituye «the radio» por un pronombre.", "frase": "Turn off the radio.", "respuestas": ["Turn it off."], "explicacion": "Con pronombre, el objeto va entre verbo y partícula."},
-  {"id": "e13", "tipo": "ordenar", "enunciado": "Ordena las palabras.", "palabras": ["your", "put", "coat", "on"], "respuestas": ["put your coat on", "put on your coat"], "explicacion": "Put on es separable: el sustantivo puede ir en medio o detrás."},
-  {"id": "e14", "tipo": "ordenar", "enunciado": "Ordena las palabras.", "palabras": ["up", "where", "you", "did", "grow"], "respuestas": ["where did you grow up"], "explicacion": "Grow up no lleva objeto; la partícula queda al final."}
+  {
+   "id": "e01",
+   "tipo": "hueco",
+   "enunciado": "Completa con la partícula adecuada.",
+   "frase": "It's dark in here. Can you turn ___ the light?",
+   "respuestas": [
+    "on"
+   ],
+   "explicacion": "Se aplica la tabla de phrasal verbs de la ficha: turn on significa «encender» y turn off «apagar». La pista es It's dark in here: si está oscuro, se pide encender la luz. Es un phrasal separable, por lo que también se podría decir turn the light on.",
+   "explicacion_breve": "Turn on = encender.",
+   "traduccion": "Aquí está oscuro. ¿Puedes encender la luz?",
+   "errores_previstos": [
+    {
+     "respuesta": "off",
+     "explicacion": "Turn off es «apagar», lo contrario de lo que pide el contexto (está oscuro)."
+    },
+    {
+     "respuesta": "in",
+     "explicacion": "Turn in significa «entregar» o, coloquialmente, «irse a la cama»; para encender se usa turn on."
+    }
+   ]
+  },
+  {
+   "id": "e02",
+   "tipo": "hueco",
+   "enunciado": "Completa con la partícula adecuada.",
+   "frase": "My grandmother looks ___ the children when we work late.",
+   "respuestas": [
+    "after"
+   ],
+   "explicacion": "Se aplica la tabla de la ficha: look after significa «cuidar». La pista es la abuela y los niños mientras los padres trabajan: el sentido es cuidar. Look after es inseparable, así que el objeto (the children) va siempre detrás de la partícula.",
+   "explicacion_breve": "Look after = cuidar.",
+   "traduccion": "Mi abuela cuida de los niños cuando trabajamos hasta tarde.",
+   "errores_previstos": [
+    {
+     "respuesta": "for",
+     "explicacion": "Look for es «buscar»; diría que la abuela busca a los niños."
+    },
+    {
+     "respuesta": "at",
+     "explicacion": "Look at es «mirar»; no expresa cuidar."
+    },
+    {
+     "respuesta": "of",
+     "explicacion": "Calco de «cuidar de»: en inglés la partícula es after."
+    }
+   ]
+  },
+  {
+   "id": "e03",
+   "tipo": "hueco",
+   "enunciado": "Completa con la partícula adecuada.",
+   "frase": "He gave ___ chocolate for a month.",
+   "respuestas": [
+    "up"
+   ],
+   "explicacion": "Se aplica la tabla de la ficha: give up significa «dejar un hábito» o «rendirse». La pista es chocolate for a month: renunciar a algo durante un tiempo. Give up es separable (give it up) y, si lo que se deja es una actividad, va con -ing (give up smoking).",
+   "explicacion_breve": "Give up = dejar un hábito.",
+   "traduccion": "Dejó el chocolate durante un mes.",
+   "errores_previstos": [
+    {
+     "respuesta": "out",
+     "explicacion": "Give out significa «repartir» o «agotarse»; no expresa dejar un hábito."
+    },
+    {
+     "respuesta": "off",
+     "explicacion": "Give off significa «desprender» (olor, calor); no tiene relación con dejar un hábito."
+    }
+   ]
+  },
+  {
+   "id": "e04",
+   "tipo": "hueco",
+   "enunciado": "Completa con la partícula adecuada.",
+   "frase": "Please fill ___ the application form in black ink.",
+   "respuestas": [
+    "in",
+    "out"
+   ],
+   "explicacion": "Se aplica la tabla de la ficha: fill in significa «rellenar un impreso». La pista es the application form, un formulario que hay que completar con datos. Fill in es la forma británica; en inglés americano se dice fill out, que significa lo mismo, por eso se aceptan in y out. Es separable: fill it in, fill the form in.",
+   "explicacion_breve": "Fill in = rellenar un impreso; en inglés americano, fill out (se aceptan las dos).",
+   "traduccion": "Por favor, rellene el formulario de solicitud con tinta negra.",
+   "errores_previstos": [
+    {
+     "respuesta": "up",
+     "explicacion": "Fill up significa «llenar» un recipiente o un depósito (fill up the tank), no rellenar un formulario."
+    },
+    {
+     "respuesta": "on",
+     "explicacion": "Fill on no existe como phrasal verb."
+    }
+   ]
+  },
+  {
+   "id": "e05",
+   "tipo": "hueco",
+   "enunciado": "Completa con la palabra que falta.",
+   "frase": "We've run out ___ bread. Can you buy some?",
+   "respuestas": [
+    "of"
+   ],
+   "explicacion": "Se aplica la tabla de la ficha: run out of significa «quedarse sin». La pista es Can you buy some?, que indica que ya no queda pan. Es un phrasal de dos partículas y, como señala la ficha, nunca se separa; la segunda partícula, of, introduce lo que se ha acabado.",
+   "explicacion_breve": "Run out of = quedarse sin.",
+   "traduccion": "Se nos ha acabado el pan. ¿Puedes comprar?",
+   "errores_previstos": [
+    {
+     "respuesta": "from",
+     "explicacion": "Calco del español «quedarse sin» o «salir de»: la partícula de run out es of."
+    },
+    {
+     "respuesta": "off",
+     "explicacion": "Run off significa «salir corriendo»; no expresa quedarse sin algo."
+    }
+   ]
+  },
+  {
+   "id": "e06",
+   "tipo": "eleccion",
+   "enunciado": "Elige la opción correcta.",
+   "frase": "I need to ___ what time the exam starts.",
+   "opciones": [
+    "find out",
+    "look after",
+    "give up"
+   ],
+   "respuestas": [
+    "find out"
+   ],
+   "explicacion": "Se aplica la tabla de la ficha: find out significa «averiguar, enterarse». La pista es what time the exam starts, una información que hay que conseguir. Es el equivalente coloquial de discover, que la ficha cita como alternativa formal.",
+   "explicacion_breve": "Find out = averiguar.",
+   "traduccion": "Tengo que averiguar a qué hora empieza el examen.",
+   "por_opcion": {
+    "find out": "Correcta: averiguar una información.",
+    "look after": "Incorrecta: significa «cuidar»; se usa con personas, animales o cosas que necesitan atención (look after the children).",
+    "give up": "Incorrecta: significa «dejar un hábito» o «rendirse» (give up smoking)."
+   }
+  },
+  {
+   "id": "e07",
+   "tipo": "eleccion",
+   "enunciado": "Elige la opción correcta.",
+   "frase": "The meeting was going well, so we ___ until seven.",
+   "opciones": [
+    "carried on",
+    "took off",
+    "got up"
+   ],
+   "respuestas": [
+    "carried on"
+   ],
+   "explicacion": "Se aplica la tabla de la ficha: carry on significa «seguir, continuar». La pista es was going well y until seven: la reunión continuó. Carry on no lleva objeto en esta frase, como señala Reglas y claves.",
+   "explicacion_breve": "Carry on = continuar.",
+   "traduccion": "La reunión iba bien, así que seguimos hasta las siete.",
+   "por_opcion": {
+    "carried on": "Correcta: continuar una actividad.",
+    "took off": "Incorrecta: significa «despegar» (un avión) o «quitarse» ropa; no tiene sentido con una reunión.",
+    "got up": "Incorrecta: significa «levantarse» de la cama; no expresa continuar."
+   }
+  },
+  {
+   "id": "e08",
+   "tipo": "eleccion",
+   "enunciado": "Elige la opción correcta.",
+   "frase": "My new shoes hurt, so I ___.",
+   "opciones": [
+    "took off them",
+    "took them off",
+    "took them out"
+   ],
+   "respuestas": [
+    "took them off"
+   ],
+   "explicacion": "Se aplica la regla de los separables: si el objeto es un pronombre, va siempre entre el verbo y la partícula. La pista es them, que sustituye a my new shoes. Take off (quitarse ropa) es separable, así que took them off.",
+   "explicacion_breve": "Pronombre en medio del phrasal separable: took them off.",
+   "traduccion": "Los zapatos nuevos me hacían daño, así que me los quité.",
+   "por_opcion": {
+    "took off them": "Incorrecta: con un phrasal separable el pronombre no puede ir detrás de la partícula.",
+    "took them off": "Correcta: pronombre entre verbo y partícula, con el phrasal adecuado para quitarse ropa.",
+    "took them out": "Incorrecta: take out significa «sacar» (de una caja, de un bolsillo); para la ropa o el calzado que se lleva puesto se usa take off."
+   }
+  },
+  {
+   "id": "e09",
+   "tipo": "eleccion",
+   "enunciado": "Elige la opción correcta.",
+   "frase": "Do you ___ your sister?",
+   "opciones": [
+    "get on with",
+    "get up with",
+    "get off"
+   ],
+   "respuestas": [
+    "get on with"
+   ],
+   "explicacion": "Se aplica la tabla de la ficha: get on with significa «llevarse bien con». La pista es your sister y la pregunta sobre la relación. Es un phrasal de dos partículas y no se separa. Con frecuencia se añade well: get on well with.",
+   "explicacion_breve": "Get on with = llevarse bien con.",
+   "traduccion": "¿Te llevas bien con tu hermana?",
+   "por_opcion": {
+    "get on with": "Correcta: llevarse bien con alguien.",
+    "get up with": "Incorrecta: get up es «levantarse» y no se combina con with en este sentido.",
+    "get off": "Incorrecta: significa «bajarse» de un transporte; no expresa una relación personal."
+   }
+  },
+  {
+   "id": "e10",
+   "tipo": "corregir",
+   "enunciado": "Corrige el error.",
+   "frase": "I'll pick up you at eight.",
+   "respuestas": [
+    "I'll pick you up at eight.",
+    "I will pick you up at eight."
+   ],
+   "explicacion": "Se aplica la regla de los separables: con pronombre, el objeto va siempre en medio. La pista es you, pronombre objeto de pick up («recoger» a alguien). La forma correcta es pick you up. Se acepta también la forma completa will.",
+   "explicacion_breve": "Con pronombre, pick + you + up.",
+   "traduccion": "Te recogeré a las ocho.",
+   "errores_previstos": [
+    {
+     "respuesta": "I'll pick up you at eight.",
+     "explicacion": "Es copiar la frase sin corregir: el pronombre va entre pick y up."
+    },
+    {
+     "respuesta": "I'll pick you at eight.",
+     "explicacion": "Falta la partícula up; pick solo significa «elegir» o «coger» (flores, fruta)."
+    },
+    {
+     "respuesta": "I'll you pick up at eight.",
+     "explicacion": "El pronombre objeto no va delante del verbo como en español («te recogeré»)."
+    }
+   ]
+  },
+  {
+   "id": "e11",
+   "tipo": "corregir",
+   "enunciado": "Corrige el error.",
+   "frase": "She is looking her passport everywhere.",
+   "respuestas": [
+    "She is looking for her passport everywhere.",
+    "She's looking for her passport everywhere."
+   ],
+   "explicacion": "Se aplica el segundo error típico de la ficha: «buscar» es look for; look solo significa «mirar». La pista es her passport everywhere, que indica búsqueda. Hay que añadir for detrás de looking. Se acepta también la contracción she's.",
+   "explicacion_breve": "Buscar = look for.",
+   "traduccion": "Está buscando su pasaporte por todas partes.",
+   "errores_previstos": [
+    {
+     "respuesta": "She is looking her passport everywhere.",
+     "explicacion": "Es copiar la frase sin corregir: falta for."
+    },
+    {
+     "respuesta": "She is looking at her passport everywhere.",
+     "explicacion": "Look at es «mirar»; no expresa buscar."
+    },
+    {
+     "respuesta": "She is searching her passport everywhere.",
+     "explicacion": "Search sin for significa «registrar» el pasaporte; buscarlo sería search for."
+    }
+   ]
+  },
+  {
+   "id": "e12",
+   "tipo": "transformar",
+   "enunciado": "Sustituye «the radio» por un pronombre.",
+   "frase": "Turn off the radio.",
+   "respuestas": [
+    "Turn it off."
+   ],
+   "explicacion": "Se aplica la regla de los separables: si el objeto es un pronombre, va siempre entre verbo y partícula. La pista es que el enunciado pide sustituir the radio por un pronombre. La radio es una cosa singular, así que it, colocado entre turn y off.",
+   "explicacion_breve": "Con pronombre, el objeto va entre verbo y partícula.",
+   "traduccion": "Apágala.",
+   "errores_previstos": [
+    {
+     "respuesta": "Turn off it.",
+     "explicacion": "Con pronombre, turn off es separable obligatoriamente: Turn it off."
+    },
+    {
+     "respuesta": "Turn her off.",
+     "explicacion": "Para una cosa se usa it; her es para personas femeninas."
+    },
+    {
+     "respuesta": "Turn it.",
+     "explicacion": "Sin off significa «gíralo»; la partícula es imprescindible."
+    }
+   ]
+  },
+  {
+   "id": "e13",
+   "tipo": "ordenar",
+   "enunciado": "Ordena las palabras.",
+   "palabras": [
+    "your",
+    "put",
+    "coat",
+    "on"
+   ],
+   "respuestas": [
+    "put your coat on",
+    "put on your coat"
+   ],
+   "explicacion": "Se aplica la regla de los separables: cuando el objeto es un sustantivo, puede ir entre el verbo y la partícula o detrás. La pista es your coat, un sustantivo, y put on («ponerse» ropa), que es separable. Por eso valen put your coat on y put on your coat.",
+   "explicacion_breve": "Put on es separable: el sustantivo puede ir en medio o detrás.",
+   "traduccion": "Ponte el abrigo.",
+   "errores_previstos": [
+    {
+     "respuesta": "on put your coat",
+     "explicacion": "La partícula no puede ir delante del verbo."
+    },
+    {
+     "respuesta": "put your on coat",
+     "explicacion": "La partícula no puede separar el posesivo de su sustantivo: your coat va junto."
+    }
+   ]
+  },
+  {
+   "id": "e14",
+   "tipo": "ordenar",
+   "enunciado": "Ordena las palabras.",
+   "palabras": [
+    "up",
+    "where",
+    "you",
+    "did",
+    "grow"
+   ],
+   "respuestas": [
+    "where did you grow up"
+   ],
+   "explicacion": "Se aplica la regla de Reglas y claves: algunos phrasal verbs no llevan objeto, como grow up («crecer, criarse»). La pista es la pregunta con where y did: la partícula up queda al final porque no hay objeto detrás. El orden es where + did + sujeto + grow up.",
+   "explicacion_breve": "Grow up no lleva objeto; la partícula queda al final.",
+   "traduccion": "¿Dónde te criaste?",
+   "errores_previstos": [
+    {
+     "respuesta": "where did you up grow",
+     "explicacion": "La partícula va detrás del verbo: grow up."
+    },
+    {
+     "respuesta": "where you did grow up",
+     "explicacion": "En pregunta directa did va delante del sujeto."
+    }
+   ]
+  }
  ],
- "fuente": {"nombre": "propia"}
+ "fuente": {
+  "nombre": "propia"
+ },
+ "descripcion_larga_es": "Los phrasal verbs son verbos seguidos de una partícula (up, off, out, on…) que juntos tienen un significado propio, a menudo imposible de deducir: give up es «dejar un hábito» y find out «averiguar». Son omnipresentes en el inglés hablado y hay que aprenderlos como vocabulario. Al hispanohablante le cuestan porque el español no tiene esta construcción y porque hay que saber si se separan y dónde va el pronombre.",
+ "contexto": {
+  "que_es": "Un phrasal verb es la combinación de un verbo y una o dos partículas (adverbios o preposiciones) que forman una unidad de significado. Unos son separables (el objeto puede ir entre verbo y partícula), otros inseparables, y algunos no llevan objeto.",
+  "por_que_importa": "En la conversación y en los textos informales los phrasal verbs sustituyen a muchos verbos de origen latino (find out por discover, give up por abandon), de modo que sin ellos se entiende poco del inglés real y se habla de forma rígida. Colocar mal el pronombre (turn off it) o cambiar la partícula altera el significado o suena claramente extranjero.",
+  "cuando_se_usa": "En el día a día: rutinas (get up), ropa (put on, take off), aparatos (turn on, turn off), trámites (fill in), relaciones (get on with). El registro formal suele preferir el verbo latino equivalente. El hispanohablante tiende a omitir la partícula (look my keys por look for my keys) o a colocar el pronombre al final como en español."
+ }
 }

@@ -6,50 +6,551 @@
  "nivel": "B1",
  "resumen": "Cuando el relativo va precedido de preposición no se usan qui ni que: dont sustituye a de + complemento (del que, cuyo), où indica lugar o tiempo (donde, en que) y las demás preposiciones van con lequel, laquelle, lesquels, lesquelles (el cual, la cual…). Sin antecedente se usan ce dont y ce à quoi.",
  "explicacion": [
-  {"tipo": "tabla", "cabecera": ["Relativo", "Cuándo", "Ejemplo"], "filas": [
-   ["dont", "verbo o expresión con de (parler de, avoir besoin de, avoir peur de, être fier de); posesión (cuyo)", "le livre dont je parle; Tex, dont le grand-père a combattu en France"],
-   ["où", "lugar (dans, à, sur…) y tiempo tras le jour, le moment, l'année…", "la ville où Tex a grandi; le jour où les Américains sont entrés"],
-   ["préposition + lequel", "otras preposiciones (dans, avec, pour, sur, parmi, entre…)", "le roman dans lequel Tex raconte la guerre"],
-   ["ce dont / ce à quoi", "sin antecedente («lo que»)", "ce dont j'ai besoin; ce à quoi je pense"]
-  ]},
-  {"tipo": "texto", "texto": "Lequel concuerda con el antecedente (lequel, laquelle, lesquels, lesquelles) y se contrae con à y de: auquel, auxquels, auxquelles; duquel, desquels, desquelles. Con personas, tras preposición se prefiere qui: l'ami avec qui je pars (también avec lequel)."},
-  {"tipo": "lista", "items": [
-   "Dont solo sustituye a de simple; con locuciones (près de, à côté de, à propos de, loin de) se usa duquel, de laquelle…: la maison près de laquelle j'habite.",
-   "Cuyo = dont + artículo definido: un ami dont le père est médecin (un amigo cuyo padre es médico). No se dice «dont son père».",
-   "Tras expresiones de tiempo, «en que / cuando» es où, no quand: le jour où je suis né.",
-   "La preposición va siempre delante del relativo, nunca al final como en inglés."
-  ]}
+  {
+   "tipo": "tabla",
+   "cabecera": [
+    "Relativo",
+    "Cuándo",
+    "Ejemplo"
+   ],
+   "filas": [
+    [
+     "dont",
+     "verbo o expresión con de (parler de, avoir besoin de, avoir peur de, être fier de); posesión (cuyo)",
+     "le livre dont je parle; Tex, dont le grand-père a combattu en France"
+    ],
+    [
+     "où",
+     "lugar (dans, à, sur…) y tiempo tras le jour, le moment, l'année…",
+     "la ville où Tex a grandi; le jour où les Américains sont entrés"
+    ],
+    [
+     "préposition + lequel",
+     "otras preposiciones (dans, avec, pour, sur, parmi, entre…)",
+     "le roman dans lequel Tex raconte la guerre"
+    ],
+    [
+     "ce dont / ce à quoi",
+     "sin antecedente («lo que»)",
+     "ce dont j'ai besoin; ce à quoi je pense"
+    ]
+   ]
+  },
+  {
+   "tipo": "texto",
+   "texto": "Lequel concuerda con el antecedente (lequel, laquelle, lesquels, lesquelles) y se contrae con à y de: auquel, auxquels, auxquelles; duquel, desquels, desquelles. Con personas, tras preposición se prefiere qui: l'ami avec qui je pars (también avec lequel)."
+  },
+  {
+   "tipo": "lista",
+   "items": [
+    "Dont solo sustituye a de simple; con locuciones (près de, à côté de, à propos de, loin de) se usa duquel, de laquelle…: la maison près de laquelle j'habite.",
+    "Cuyo = dont + artículo definido: un ami dont le père est médecin (un amigo cuyo padre es médico). No se dice «dont son père».",
+    "Tras expresiones de tiempo, «en que / cuando» es où, no quand: le jour où je suis né.",
+    "La preposición va siempre delante del relativo, nunca al final como en inglés."
+   ]
+  }
  ],
  "ejemplos": [
-  {"frase": "Le livre dont je suis l'auteur est un roman historique.", "traduccion": "El libro del que soy autor es una novela histórica."},
-  {"frase": "Paris, où l'histoire commence, va être libéré.", "traduccion": "París, donde empieza la historia, va a ser liberado."},
-  {"frase": "Paw-Paw était à Paris le jour où les Américains sont entrés dans la ville.", "traduccion": "Paw-Paw estaba en París el día en que los americanos entraron en la ciudad."},
-  {"frase": "Ses personnages, auxquels Tex s'identifie, sont des héros de la Résistance.", "traduccion": "Sus personajes, con los que Tex se identifica, son héroes de la Resistencia."},
-  {"frase": "C'est ce dont j'ai besoin.", "traduccion": "Es lo que necesito."},
-  {"frase": "Assieds-toi où tu veux !", "traduccion": "¡Siéntate donde quieras!"}
+  {
+   "frase": "Le livre dont je suis l'auteur est un roman historique.",
+   "traduccion": "El libro del que soy autor es una novela histórica."
+  },
+  {
+   "frase": "Paris, où l'histoire commence, va être libéré.",
+   "traduccion": "París, donde empieza la historia, va a ser liberado."
+  },
+  {
+   "frase": "Paw-Paw était à Paris le jour où les Américains sont entrés dans la ville.",
+   "traduccion": "Paw-Paw estaba en París el día en que los americanos entraron en la ciudad."
+  },
+  {
+   "frase": "Ses personnages, auxquels Tex s'identifie, sont des héros de la Résistance.",
+   "traduccion": "Sus personajes, con los que Tex se identifica, son héroes de la Resistencia."
+  },
+  {
+   "frase": "C'est ce dont j'ai besoin.",
+   "traduccion": "Es lo que necesito."
+  },
+  {
+   "frase": "Assieds-toi où tu veux !",
+   "traduccion": "¡Siéntate donde quieras!"
+  }
  ],
  "errores_hispanohablantes": [
-  {"mal": "Le film que je t'ai parlé est sorti.", "bien": "Le film dont je t'ai parlé est sorti.", "nota": "Parler de: el relativo debe recoger el de, así que es dont."},
-  {"mal": "Le jour quand je suis arrivé, il pleuvait.", "bien": "Le jour où je suis arrivé, il pleuvait.", "nota": "Tras una expresión de tiempo, «en que» es où."},
-  {"mal": "Un ami dont son père est médecin.", "bien": "Un ami dont le père est médecin.", "nota": "Con dont no se repite el posesivo: se pone el artículo."}
+  {
+   "mal": "Le film que je t'ai parlé est sorti.",
+   "bien": "Le film dont je t'ai parlé est sorti.",
+   "nota": "Parler de: el relativo debe recoger el de, así que es dont."
+  },
+  {
+   "mal": "Le jour quand je suis arrivé, il pleuvait.",
+   "bien": "Le jour où je suis arrivé, il pleuvait.",
+   "nota": "Tras una expresión de tiempo, «en que» es où."
+  },
+  {
+   "mal": "Un ami dont son père est médecin.",
+   "bien": "Un ami dont le père est médecin.",
+   "nota": "Con dont no se repite el posesivo: se pone el artículo."
+  }
  ],
  "ejercicios": [
-  {"id": "e01", "tipo": "hueco", "enunciado": "Completa con el relativo adecuado.", "frase": "C'est ce ___ j'ai besoin.", "respuestas": ["dont"], "explicacion": "Avoir besoin de: ce dont (lo que necesito).", "origen": "tatoeba:1134505"},
-  {"id": "e02", "tipo": "hueco", "enunciado": "Completa con el relativo adecuado.", "frase": "Restez ___ vous êtes.", "respuestas": ["où"], "explicacion": "Lugar: où (quedaos donde estáis).", "origen": "tatoeba:14243"},
-  {"id": "e03", "tipo": "eleccion", "enunciado": "Elige el relativo correcto.", "frase": "Je me plais là ___ je vis.", "opciones": ["où", "dont", "que"], "respuestas": ["où"], "explicacion": "Là où = (allí) donde.", "origen": "tatoeba:2383877"},
-  {"id": "e04", "tipo": "eleccion", "enunciado": "Elige el relativo correcto.", "frase": "Assieds-toi ___ tu veux !", "opciones": ["où", "dont", "lequel"], "respuestas": ["où"], "explicacion": "Lugar sin antecedente: où (donde quieras).", "origen": "tatoeba:12862"},
-  {"id": "e05", "tipo": "ordenar", "enunciado": "Ordena las palabras.", "palabras": ["où", "peux", "Tu", "veux", "aller", "tu"], "respuestas": ["Tu peux aller où tu veux"], "explicacion": "Où introduce el lugar: puedes ir adonde quieras.", "origen": "tatoeba:427669"},
-  {"id": "e06", "tipo": "hueco", "enunciado": "Completa con el relativo adecuado.", "frase": "Appuyer là ___ ça fait mal.", "respuestas": ["où"], "explicacion": "Là où: justo donde duele.", "origen": "tatoeba:786399"},
-  {"id": "e07", "tipo": "hueco", "enunciado": "Completa con el relativo adecuado.", "frase": "Lyon est la ville ___ Tex a grandi.", "respuestas": ["où"], "explicacion": "Lugar (grandir à Lyon): où."},
-  {"id": "e08", "tipo": "hueco", "enunciado": "Completa con la forma de lequel adecuada.", "frase": "Le roman dans ___ Marie apparaît s'appelle Guerre et amour.", "respuestas": ["lequel"], "explicacion": "Preposición dans + antecedente masculino singular (le roman): lequel."},
-  {"id": "e09", "tipo": "eleccion", "enunciado": "Elige el relativo correcto.", "frase": "Tex, ___ le grand-père a combattu en France, a dédié ce livre à Paw-Paw.", "opciones": ["dont", "où", "que"], "respuestas": ["dont"], "explicacion": "Posesión (el abuelo de Tex): dont = cuyo."},
-  {"id": "e10", "tipo": "eleccion", "enunciado": "Elige el relativo correcto.", "frase": "Je me souviens du jour ___ nous nous sommes rencontrés.", "opciones": ["où", "quand", "dont"], "respuestas": ["où"], "explicacion": "Tras le jour, «en que» es où."},
-  {"id": "e11", "tipo": "hueco", "enunciado": "Completa con el relativo adecuado (se refiere a personas).", "frase": "Les amis avec ___ je pars en vacances sont espagnols.", "respuestas": ["qui", "lesquels"], "explicacion": "Preposición + persona: qui (o lesquels, masculino plural)."},
-  {"id": "e12", "tipo": "eleccion", "enunciado": "Elige el relativo correcto.", "frase": "La maison près de ___ nous habitons est à vendre.", "opciones": ["laquelle", "dont", "où"], "respuestas": ["laquelle"], "explicacion": "Con la locución près de no se puede usar dont: près de laquelle."},
-  {"id": "e13", "tipo": "transformar", "enunciado": "Une las dos frases con dont.", "frase": "J'ai un ami. Le père de cet ami est médecin.", "respuestas": ["J'ai un ami dont le père est médecin."], "explicacion": "Dont + le père: cuyo padre."},
-  {"id": "e14", "tipo": "corregir", "enunciado": "Corrige el error.", "frase": "Je ne sais pas ce que tu parles.", "respuestas": ["Je ne sais pas de quoi tu parles.", "Je ne sais pas ce dont tu parles."], "explicacion": "Parler de: hace falta recoger el de (de quoi o ce dont)."},
-  {"id": "e15", "tipo": "eleccion", "enunciado": "Elige el relativo correcto.", "frase": "Les questions ___ il a répondu étaient difficiles.", "opciones": ["auxquelles", "dont", "lesquelles"], "respuestas": ["auxquelles"], "explicacion": "Répondre à + femenino plural: à + lesquelles = auxquelles."},
-  {"id": "e16", "tipo": "corregir", "enunciado": "Corrige el error.", "frase": "Voici le stylo avec que j'écris.", "respuestas": ["Voici le stylo avec lequel j'écris."], "explicacion": "Tras preposición y con cosas no se usa que, sino lequel."}
+  {
+   "id": "e01",
+   "tipo": "hueco",
+   "enunciado": "Completa con el relativo adecuado.",
+   "frase": "C'est ce ___ j'ai besoin.",
+   "respuestas": [
+    "dont"
+   ],
+   "explicacion": "La expresión de la relativa es «avoir besoin de» (necesitar algo), que rige la preposición «de». Según la tabla de Reglas y claves, cuando el verbo lleva «de» el relativo es dont, y sin antecedente nominal se dice ce dont. El «ce» ya está escrito, de modo que falta solo dont: «ce dont j'ai besoin», literalmente «aquello de lo que tengo necesidad».",
+   "origen": "tatoeba:1134505",
+   "explicacion_breve": "Avoir besoin de: ce dont (lo que necesito).",
+   "traduccion": "Es lo que necesito.",
+   "errores_previstos": [
+    {
+     "respuesta": "que",
+     "explicacion": "Es el calco del español «lo que necesito». Pero «avoir besoin» rige «de», y ese «de» lo tiene que recoger el relativo: dont."
+    },
+    {
+     "respuesta": "de quoi",
+     "explicacion": "Tras «ce» la forma es ce dont; «de quoi» se usa sin «ce» (je sais de quoi j'ai besoin) o en preguntas indirectas."
+    },
+    {
+     "respuesta": "qui",
+     "explicacion": "Qui sería sujeto del verbo, pero el sujeto de «ai» es «j'»; además falta recoger el «de» de «avoir besoin de»."
+    }
+   ]
+  },
+  {
+   "id": "e02",
+   "tipo": "hueco",
+   "enunciado": "Completa con el relativo adecuado.",
+   "frase": "Restez ___ vous êtes.",
+   "respuestas": [
+    "où"
+   ],
+   "explicacion": "La frase habla de un lugar (estar en un sitio), y la tabla de Reglas y claves indica que para el lugar se usa où. Aquí no hay antecedente expreso (no se dice «le lieu où»), igual que en español «donde estáis». «Restez» es el imperativo de «rester» (quedarse), que no es un falso amigo: no significa «restar».",
+   "origen": "tatoeba:14243",
+   "explicacion_breve": "Lugar: où (quedaos donde estáis).",
+   "traduccion": "Quedaos donde estáis.",
+   "errores_previstos": [
+    {
+     "respuesta": "que",
+     "explicacion": "Que es complemento directo, pero «être» no tiene complemento directo; aquí hace falta el relativo de lugar où."
+    },
+    {
+     "respuesta": "ou",
+     "explicacion": "Sin acento grave, «ou» es la conjunción «o». El relativo de lugar se escribe où."
+    },
+    {
+     "respuesta": "dont",
+     "explicacion": "Dont recoge un complemento con «de», y «être» aquí no lo lleva; para el lugar es où."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "rester",
+     "significado": "quedarse, permanecer (no «restar»)"
+    }
+   ]
+  },
+  {
+   "id": "e03",
+   "tipo": "eleccion",
+   "enunciado": "Elige el relativo correcto.",
+   "frase": "Je me plais là ___ je vis.",
+   "opciones": [
+    "où",
+    "dont",
+    "que"
+   ],
+   "respuestas": [
+    "où"
+   ],
+   "explicacion": "«Là où» equivale a «(allí) donde» y es muy frecuente. El lugar se expresa con où, según la tabla de Reglas y claves. La pista es el verbo «vivre» de lugar (vivir en un sitio) y el adverbio «là», que funciona como antecedente.",
+   "origen": "tatoeba:2383877",
+   "explicacion_breve": "Là où = (allí) donde.",
+   "traduccion": "Me encuentro a gusto allí donde vivo.",
+   "por_opcion": {
+    "où": "Correcta: relativo de lugar; «là où je vis» = donde vivo.",
+    "dont": "Incorrecta: dont sustituye a un complemento con «de», y «vivre» no lo lleva aquí.",
+    "que": "Incorrecta: que es complemento directo y «vivre» en este sentido no tiene complemento directo; en el español coloquial diríamos «el sitio que vivo», pero es incorrecto también."
+   },
+   "glosario": [
+    {
+     "palabra": "se plaire",
+     "significado": "estar a gusto, encontrarse bien (en un sitio)"
+    }
+   ]
+  },
+  {
+   "id": "e04",
+   "tipo": "eleccion",
+   "enunciado": "Elige el relativo correcto.",
+   "frase": "Assieds-toi ___ tu veux !",
+   "opciones": [
+    "où",
+    "dont",
+    "lequel"
+   ],
+   "respuestas": [
+    "où"
+   ],
+   "explicacion": "Es un lugar sin antecedente: «donde quieras». Según la tabla de Reglas y claves, el lugar se expresa con où, y puede ir sin antecedente como en español. La frase es también uno de los ejemplos de la ficha.",
+   "origen": "tatoeba:12862",
+   "explicacion_breve": "Lugar sin antecedente: où (donde quieras).",
+   "traduccion": "¡Siéntate donde quieras!",
+   "por_opcion": {
+    "où": "Correcta: lugar sin antecedente, «donde quieras».",
+    "dont": "Incorrecta: no hay ningún complemento con «de» que recoger.",
+    "lequel": "Incorrecta: lequel necesita una preposición delante y un antecedente con el que concordar; aquí no hay ninguno."
+   },
+   "glosario": [
+    {
+     "palabra": "s'asseoir",
+     "significado": "sentarse (imperativo: assieds-toi, asseyez-vous)"
+    }
+   ]
+  },
+  {
+   "id": "e05",
+   "tipo": "ordenar",
+   "enunciado": "Ordena las palabras.",
+   "palabras": [
+    "où",
+    "peux",
+    "Tu",
+    "veux",
+    "aller",
+    "tu"
+   ],
+   "respuestas": [
+    "Tu peux aller où tu veux"
+   ],
+   "explicacion": "La oración principal es «Tu peux aller» (puedes ir) y la relativa de lugar «où tu veux» (adonde quieras). El orden francés coincide con el español: sujeto + verbo modal + infinitivo, y luego où + sujeto + verbo. Où introduce el lugar sin antecedente, como en el ejercicio anterior.",
+   "origen": "tatoeba:427669",
+   "explicacion_breve": "Où introduce el lugar: puedes ir adonde quieras.",
+   "traduccion": "Puedes ir adonde quieras.",
+   "errores_previstos": [
+    {
+     "respuesta": "Tu peux où tu veux aller",
+     "explicacion": "El infinitivo «aller» depende de «peux» y debe ir pegado a él; la relativa va al final."
+    },
+    {
+     "respuesta": "Où tu veux tu peux aller",
+     "explicacion": "Anteponer la relativa de lugar y separar el infinitivo de «peux» no es el orden natural; la frase neutra es Tu peux aller où tu veux."
+    },
+    {
+     "respuesta": "Tu peux aller tu veux où",
+     "explicacion": "El relativo où va al principio de la relativa, delante del sujeto."
+    }
+   ]
+  },
+  {
+   "id": "e06",
+   "tipo": "hueco",
+   "enunciado": "Completa con el relativo adecuado.",
+   "frase": "Appuyer là ___ ça fait mal.",
+   "respuestas": [
+    "où"
+   ],
+   "explicacion": "Como en el ejercicio 3, «là où» significa «(justo) donde». Se trata de un lugar (el punto del cuerpo que duele), por lo que la tabla de Reglas y claves pide où. «Ça fait mal» es la expresión corriente para «duele».",
+   "origen": "tatoeba:786399",
+   "explicacion_breve": "Là où: justo donde duele.",
+   "traduccion": "Apretar justo donde duele.",
+   "errores_previstos": [
+    {
+     "respuesta": "que",
+     "explicacion": "Calco del español coloquial; «faire mal» no tiene aquí complemento directo que sustituir, y el lugar se expresa con où."
+    },
+    {
+     "respuesta": "ou",
+     "explicacion": "Sin acento es la conjunción «o»; el relativo de lugar lleva acento grave: où."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "appuyer",
+     "significado": "apretar, presionar"
+    },
+    {
+     "palabra": "ça fait mal",
+     "significado": "duele"
+    }
+   ]
+  },
+  {
+   "id": "e07",
+   "tipo": "hueco",
+   "enunciado": "Completa con el relativo adecuado.",
+   "frase": "Lyon est la ville ___ Tex a grandi.",
+   "respuestas": [
+    "où"
+   ],
+   "explicacion": "El antecedente es «la ville» y la relativa habla de un lugar (grandir à Lyon, crecer en Lyon). Según la tabla de Reglas y claves, para el lugar se usa où. En español admitimos «la ciudad en la que» o «donde», y en francés también existiría «dans laquelle», pero lo natural y lo esperado es où.",
+   "explicacion_breve": "Lugar (grandir à Lyon): où.",
+   "traduccion": "Lyon es la ciudad donde creció Tex.",
+   "errores_previstos": [
+    {
+     "respuesta": "que",
+     "explicacion": "«Grandir» no lleva complemento directo; «la ville que Tex a grandi» es un calco incorrecto. El lugar se expresa con où."
+    },
+    {
+     "respuesta": "dont",
+     "explicacion": "Dont recoge un complemento con «de», y aquí la preposición implícita es «à» (grandir à Lyon)."
+    },
+    {
+     "respuesta": "qui",
+     "explicacion": "Qui sería sujeto de «a grandi», pero el sujeto es Tex."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "grandir",
+     "significado": "crecer, criarse"
+    }
+   ]
+  },
+  {
+   "id": "e08",
+   "tipo": "hueco",
+   "enunciado": "Completa con la forma de lequel adecuada.",
+   "frase": "Le roman dans ___ Marie apparaît s'appelle Guerre et amour.",
+   "respuestas": [
+    "lequel"
+   ],
+   "explicacion": "Hay una preposición distinta de «de», «dans», delante del hueco. La tabla de Reglas y claves indica que tras las demás preposiciones se usa la forma de lequel que concuerde con el antecedente. «Le roman» es masculino singular, así que la forma es lequel: «dans lequel», en el que.",
+   "explicacion_breve": "Preposición dans + antecedente masculino singular (le roman): lequel.",
+   "traduccion": "La novela en la que aparece Marie se llama Guerra y amor.",
+   "errores_previstos": [
+    {
+     "respuesta": "laquelle",
+     "explicacion": "Laquelle es femenino; el antecedente «le roman» es masculino, así que es lequel."
+    },
+    {
+     "respuesta": "que",
+     "explicacion": "Tras una preposición nunca se usa que: hace falta lequel."
+    },
+    {
+     "respuesta": "qui",
+     "explicacion": "Tras preposición, qui solo se usa para personas; un libro es una cosa, de modo que es lequel."
+    }
+   ]
+  },
+  {
+   "id": "e09",
+   "tipo": "eleccion",
+   "enunciado": "Elige el relativo correcto.",
+   "frase": "Tex, ___ le grand-père a combattu en France, a dédié ce livre à Paw-Paw.",
+   "opciones": [
+    "dont",
+    "où",
+    "que"
+   ],
+   "respuestas": [
+    "dont"
+   ],
+   "explicacion": "Se expresa posesión: el abuelo de Tex. La tabla de Reglas y claves indica que dont equivale a «cuyo», y la lista añade que «cuyo» se construye con dont + artículo definido: «dont le grand-père». No se repite el posesivo (nunca «dont son grand-père»).",
+   "explicacion_breve": "Posesión (el abuelo de Tex): dont = cuyo.",
+   "traduccion": "Tex, cuyo abuelo combatió en Francia, dedicó este libro a Paw-Paw.",
+   "por_opcion": {
+    "dont": "Correcta: expresa posesión, «cuyo abuelo» (le grand-père de Tex).",
+    "où": "Incorrecta: où indica lugar o tiempo, y Tex es una persona.",
+    "que": "Incorrecta: que sería complemento directo de «a combattu», pero el verbo ya tiene sujeto (le grand-père) y no hay complemento directo que sustituir."
+   }
+  },
+  {
+   "id": "e10",
+   "tipo": "eleccion",
+   "enunciado": "Elige el relativo correcto.",
+   "frase": "Je me souviens du jour ___ nous nous sommes rencontrés.",
+   "opciones": [
+    "où",
+    "quand",
+    "dont"
+   ],
+   "respuestas": [
+    "où"
+   ],
+   "explicacion": "El antecedente es una expresión de tiempo, «le jour». La lista de Reglas y claves es tajante: tras expresiones de tiempo, «en que» o «cuando» se dice où, no quand. Por eso es «le jour où nous nous sommes rencontrés». El hispanohablante tiende a usar quand por el «cuando» o que por el «el día que» coloquial.",
+   "explicacion_breve": "Tras le jour, «en que» es où.",
+   "traduccion": "Me acuerdo del día en que nos conocimos.",
+   "por_opcion": {
+    "où": "Correcta: tras «le jour», «en que» es où.",
+    "quand": "Incorrecta: quand no funciona como relativo tras un nombre de tiempo; «le jour quand» es un error frecuente de hispanohablantes.",
+    "dont": "Incorrecta: «se rencontrer» no rige «de»; no hay complemento con «de» que recoger."
+   }
+  },
+  {
+   "id": "e11",
+   "tipo": "hueco",
+   "enunciado": "Completa con el relativo adecuado (se refiere a personas).",
+   "frase": "Les amis avec ___ je pars en vacances sont espagnols.",
+   "respuestas": [
+    "qui",
+    "lesquels"
+   ],
+   "explicacion": "Hay una preposición, «avec», y el antecedente son personas (les amis). La explicación de Reglas y claves dice que con personas, tras preposición, se prefiere qui, aunque también vale lequel concordado. Por eso se aceptan dos respuestas: «avec qui» y «avec lesquels», que concuerda en masculino plural con «les amis».",
+   "explicacion_breve": "Preposición + persona: qui (o lesquels, masculino plural).",
+   "traduccion": "Los amigos con los que me voy de vacaciones son españoles.",
+   "errores_previstos": [
+    {
+     "respuesta": "que",
+     "explicacion": "Tras una preposición nunca se usa que."
+    },
+    {
+     "respuesta": "lequel",
+     "explicacion": "Lequel debe concordar con el antecedente: «les amis» es masculino plural, así que sería lesquels."
+    },
+    {
+     "respuesta": "quoi",
+     "explicacion": "Quoi tras preposición se refiere a algo indeterminado (ce à quoi); para personas se usa qui."
+    }
+   ]
+  },
+  {
+   "id": "e12",
+   "tipo": "eleccion",
+   "enunciado": "Elige el relativo correcto.",
+   "frase": "La maison près de ___ nous habitons est à vendre.",
+   "opciones": [
+    "laquelle",
+    "dont",
+    "où"
+   ],
+   "respuestas": [
+    "laquelle"
+   ],
+   "explicacion": "La lista de Reglas y claves advierte que dont solo sustituye a «de» simple; con locuciones como près de, à côté de o loin de hay que usar duquel, de laquelle, etc. Aquí la locución es «près de» y el antecedente «la maison» es femenino singular, así que es «près de laquelle». La pista es que «de» ya aparece escrito en la frase.",
+   "explicacion_breve": "Con la locución près de no se puede usar dont: près de laquelle.",
+   "traduccion": "La casa cerca de la cual vivimos está en venta.",
+   "por_opcion": {
+    "laquelle": "Correcta: tras la locución «près de» y con antecedente femenino singular.",
+    "dont": "Incorrecta: dont no puede sustituir a una locución preposicional como «près de»; además «de» ya está escrito.",
+    "où": "Incorrecta: «près de où» no existe; aunque hable de un lugar, la preposición exige lequel."
+   }
+  },
+  {
+   "id": "e13",
+   "tipo": "transformar",
+   "enunciado": "Une las dos frases con dont.",
+   "frase": "J'ai un ami. Le père de cet ami est médecin.",
+   "respuestas": [
+    "J'ai un ami dont le père est médecin."
+   ],
+   "explicacion": "La segunda frase contiene «le père de cet ami»: el complemento con «de» expresa posesión. Según la tabla y la lista de Reglas y claves, ese «de» se recoge con dont, y «cuyo» se construye con dont + artículo definido: «dont le père». La relativa va justo detrás del antecedente «un ami».",
+   "explicacion_breve": "Dont + le père: cuyo padre.",
+   "traduccion": "Tengo un amigo cuyo padre es médico.",
+   "errores_previstos": [
+    {
+     "respuesta": "J'ai un ami dont son père est médecin.",
+     "explicacion": "Con dont no se repite el posesivo: se pone el artículo, dont le père."
+    },
+    {
+     "respuesta": "J'ai un ami que le père est médecin.",
+     "explicacion": "Que no expresa posesión; el complemento «de cet ami» se recoge con dont."
+    },
+    {
+     "respuesta": "J'ai un ami dont le père de cet ami est médecin.",
+     "explicacion": "Dont ya sustituye a «de cet ami»: no hay que repetirlo."
+    }
+   ]
+  },
+  {
+   "id": "e14",
+   "tipo": "corregir",
+   "enunciado": "Corrige el error.",
+   "frase": "Je ne sais pas ce que tu parles.",
+   "respuestas": [
+    "Je ne sais pas de quoi tu parles.",
+    "Je ne sais pas ce dont tu parles."
+   ],
+   "explicacion": "El verbo es «parler de», que rige «de». La frase tiene «ce que», que no recoge esa preposición. La tabla de Reglas y claves indica que sin antecedente se usa ce dont, y en una pregunta indirecta como esta también es natural «de quoi». Por eso se aceptan «Je ne sais pas de quoi tu parles» (lo más habitual) y «Je ne sais pas ce dont tu parles».",
+   "explicacion_breve": "Parler de: hace falta recoger el de (de quoi o ce dont).",
+   "traduccion": "No sé de qué hablas.",
+   "errores_previstos": [
+    {
+     "respuesta": "Je ne sais pas ce que tu parles.",
+     "explicacion": "Es la frase sin corregir: «parler» rige «de» y ce que no la recoge."
+    },
+    {
+     "respuesta": "Je ne sais pas de ce que tu parles.",
+     "explicacion": "La preposición no se coloca delante de ce que; la forma es ce dont o de quoi."
+    },
+    {
+     "respuesta": "Je ne sais pas dont tu parles.",
+     "explicacion": "Sin antecedente, dont necesita «ce» delante: ce dont."
+    }
+   ]
+  },
+  {
+   "id": "e15",
+   "tipo": "eleccion",
+   "enunciado": "Elige el relativo correcto.",
+   "frase": "Les questions ___ il a répondu étaient difficiles.",
+   "opciones": [
+    "auxquelles",
+    "dont",
+    "lesquelles"
+   ],
+   "respuestas": [
+    "auxquelles"
+   ],
+   "explicacion": "El verbo es «répondre à», que rige la preposición «à». La tabla de Reglas y claves indica que tras preposición se usa lequel concordado, y la explicación añade que se contrae con à: à + lesquelles = auxquelles. El antecedente «les questions» es femenino plural, así que la forma es auxquelles.",
+   "explicacion_breve": "Répondre à + femenino plural: à + lesquelles = auxquelles.",
+   "traduccion": "Las preguntas a las que respondió eran difíciles.",
+   "por_opcion": {
+    "auxquelles": "Correcta: «répondre à» + femenino plural, à + lesquelles contraído.",
+    "dont": "Incorrecta: dont recoge «de», pero «répondre» rige «à».",
+    "lesquelles": "Incorrecta: falta la preposición «à» que exige el verbo; sin ella no hay contracción y la frase queda mal construida."
+   }
+  },
+  {
+   "id": "e16",
+   "tipo": "corregir",
+   "enunciado": "Corrige el error.",
+   "frase": "Voici le stylo avec que j'écris.",
+   "respuestas": [
+    "Voici le stylo avec lequel j'écris."
+   ],
+   "explicacion": "Hay una preposición, «avec», y el antecedente es una cosa (le stylo). La regla de Reglas y claves dice que tras preposición no se usa que, sino la forma de lequel que concuerde: «le stylo» es masculino singular, así que «avec lequel». Con cosas, además, no se usa qui tras preposición.",
+   "explicacion_breve": "Tras preposición y con cosas no se usa que, sino lequel.",
+   "traduccion": "Aquí está el bolígrafo con el que escribo.",
+   "errores_previstos": [
+    {
+     "respuesta": "Voici le stylo avec que j'écris.",
+     "explicacion": "Es la frase sin corregir: tras una preposición no puede ir que."
+    },
+    {
+     "respuesta": "Voici le stylo avec qui j'écris.",
+     "explicacion": "Avec qui solo se usa con personas; un bolígrafo exige lequel."
+    },
+    {
+     "respuesta": "Voici le stylo avec laquelle j'écris.",
+     "explicacion": "«Stylo» es masculino: la forma concordada es lequel."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "un stylo",
+     "significado": "un bolígrafo"
+    }
+   ]
+  }
  ],
- "fuente": {"nombre": "Tex's French Grammar", "autores": "COERLL, Universidad de Texas en Austin", "licencia": "CC BY 3.0", "url": "https://laits.utexas.edu/tex/gr/pror3.html", "otras": ["Frases de Tatoeba (CC BY 2.0 FR)"]}
+ "fuente": {
+  "nombre": "Tex's French Grammar",
+  "autores": "COERLL, Universidad de Texas en Austin",
+  "licencia": "CC BY 3.0",
+  "url": "https://laits.utexas.edu/tex/gr/pror3.html",
+  "otras": [
+   "Frases de Tatoeba (CC BY 2.0 FR)"
+  ]
+ },
+ "descripcion_larga_es": "Esta ficha trata los relativos que llevan preposición: dont recoge un complemento con «de» (del que, cuyo), où indica lugar o tiempo (donde, en que) y lequel con sus formas sirve tras las demás preposiciones. Sin antecedente se usan ce dont y ce à quoi. Al hispanohablante le cuesta porque en el español coloquial se dice «el libro que te hablé» y ese «que» comodín se traslada al francés.",
+ "contexto": {
+  "que_es": "Son los relativos que sustituyen a un complemento con preposición. Dont equivale a «de + relativo» y también a «cuyo»; où expresa lugar y tiempo; lequel, laquelle, lesquels y lesquelles concuerdan con el antecedente y se combinan con cualquier otra preposición, contrayéndose con à y de (auquel, duquel). Ce dont y ce à quoi equivalen a «lo que» cuando el verbo exige preposición.",
+  "por_que_importa": "Son imprescindibles para escribir frases complejas y precisas, típicas de un examen escrito o de una exposición: «le problème dont nous parlons», «la période où la croissance a ralenti», «les mesures auxquelles le gouvernement a eu recours». El «que» comodín («le film que je t'ai parlé») es un rasgo del habla popular y en un texto cuidado se considera una falta clara.",
+  "cuando_se_usa": "Hay que fijarse en el verbo o la expresión de la relativa: si rige «de» (parler de, avoir besoin de, être fier de) se usa dont; si se habla de un lugar o de un momento (le jour, l'année, la ville) se usa où; con cualquier otra preposición, preposición + lequel (o qui con personas). En español decimos «el día que llegué», pero en francés es obligatoriamente «le jour où je suis arrivé», nunca «quand»."
+ }
 }

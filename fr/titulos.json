@@ -1,626 +1,856 @@
 {
  "lengua": "fr",
- "nota": "Título y descripción de cada materia en la lengua estudiada; oficial = rótulo del Core Inventory (solo inglés).",
+ "nota": "Título y descripción de cada materia en la lengua estudiada; oficial = rótulo del Core Inventory (inglés) o del Inventaire linguistique des contenus clés des niveaux du CECRL (francés); nivel_oficial = nivel en que ese inventario sitúa el contenido.",
  "titulos": {
   "fr.g.genero-numero": {
-   "titulo_l": "Le genre et le nombre des noms",
-   "oficial": null,
-   "descripcion_l": "Le masculin et le féminin des noms, le pluriel régulier et irrégulier."
+   "titulo_l": "Le masculin et le féminin, le singulier et le pluriel",
+   "oficial": "Le masculin et le féminin; Le singulier et le pluriel",
+   "nivel_oficial": "A1",
+   "descripcion_l": "Le masculin et le féminin des noms, le pluriel régulier et irrégulier.",
+   "descripcion_larga_l": "En français, chaque nom est masculin ou féminin, singulier ou pluriel. Il faut apprendre le genre avec l'article : le lait, la mer, la voiture. Attention, beaucoup de mots n'ont pas le même genre qu'en espagnol. Au pluriel, on ajoute en général un -s qu'on ne prononce pas, mais certains noms changent : un cheval, des chevaux ; un bateau, des bateaux ; un œil, des yeux. À l'oral, c'est surtout l'article qui montre le pluriel."
   },
   "fr.g.articulos": {
    "titulo_l": "Les articles définis et indéfinis",
-   "oficial": null,
-   "descripcion_l": "Le, la, l', les ; un, une, des. Leurs emplois, comparés à l'espagnol."
+   "oficial": "Les articles définis et indéfinis",
+   "nivel_oficial": "A1",
+   "descripcion_l": "Le, la, l', les ; un, une, des. Leurs emplois, comparés à l'espagnol.",
+   "descripcion_larga_l": "Cette fiche présente les articles définis (le, la, l', les) et indéfinis (un, une, des). En français, un nom est presque toujours précédé d'un déterminant : c'est l'article qui montre le genre et le nombre. Attention : on dit l'ami et l'hôtel devant une voyelle, j'ai des amis, je n'ai pas de voiture, j'aime l'Espagne, et le lundi veut dire « tous les lundis »."
   },
   "fr.g.partitivos": {
    "titulo_l": "Les articles partitifs",
-   "oficial": null,
-   "descripcion_l": "Du, de la, de l', des ; « de » après une négation ou une expression de quantité."
+   "oficial": "Les partitifs (un litre de X, une tranche de Y)",
+   "nivel_oficial": "A1",
+   "descripcion_l": "Du, de la, de l', des ; « de » après une négation ou une expression de quantité.",
+   "descripcion_larga_l": "L'article partitif (du, de la, de l') indique une quantité qu'on ne compte pas : du pain, de la viande, de l'eau. En espagnol on ne met rien, mais en français le nom a presque toujours un article. Après une négation, le partitif devient de : « je ne mange pas de viande ». Après une quantité aussi : « beaucoup de sucre »."
   },
   "fr.g.contracciones": {
    "titulo_l": "Les articles contractés",
    "oficial": null,
-   "descripcion_l": "Les formes contractées de « à » et « de » : au, aux, du, des."
+   "descripcion_l": "Les formes contractées de « à » et « de » : au, aux, du, des.",
+   "descripcion_larga_l": "En français, les prépositions à et de se combinent avec les articles le et les : à + le = au, à + les = aux, de + le = du, de + les = des. Avec la et l', on ne contracte pas : à la gare, de l'école. On les utilise tout le temps : lieux, pays, goûts (une tarte aux pommes), instruments (jouer du piano)."
   },
   "fr.g.posesivos": {
    "titulo_l": "Les déterminants possessifs",
-   "oficial": null,
-   "descripcion_l": "Mon, ma, mes, notre, leur… et « mon » devant un nom féminin qui commence par une voyelle."
+   "oficial": "Les adjectifs possessifs et démonstratifs",
+   "nivel_oficial": "A1",
+   "descripcion_l": "Mon, ma, mes, notre, leur… et « mon » devant un nom féminin qui commence par une voyelle.",
+   "descripcion_larga_l": "Les déterminants possessifs indiquent à qui est une chose : mon livre, ta maison, ses amis, notre famille, leur voiture. Ils s'accordent avec la chose possédée, pas avec la personne : il lave sa voiture, elle lit son livre. Devant un mot féminin qui commence par une voyelle, on dit mon, ton, son : mon amie, son école. Leur est singulier, leurs est pluriel."
   },
   "fr.g.demostrativos": {
    "titulo_l": "Les déterminants démonstratifs",
-   "oficial": null,
-   "descripcion_l": "Ce, cet, cette, ces ; l'emploi de -ci et -là."
+   "oficial": "Les adjectifs possessifs et démonstratifs",
+   "nivel_oficial": "A1",
+   "descripcion_l": "Ce, cet, cette, ces ; l'emploi de -ci et -là.",
+   "descripcion_larga_l": "Les déterminants démonstratifs ce, cet, cette et ces servent à montrer une personne ou une chose. On dit ce devant un nom masculin qui commence par une consonne, cet devant une voyelle ou un h muet, cette devant un nom féminin et ces au pluriel. Pour opposer ce qui est près et ce qui est loin, on ajoute -ci ou -là : ce pull-ci, ce pull-là."
   },
   "fr.g.pronombres-sujeto": {
    "titulo_l": "Les pronoms personnels sujets",
-   "oficial": null,
-   "descripcion_l": "Je, tu, il/elle/on, nous, vous, ils/elles ; tutoiement ou vouvoiement ; les emplois de « on »."
+   "oficial": "Les pronoms personnels (sujets, toniques); On : les trois valeurs (nous, ils, quelqu’un); Les formules sociales (tutoiement-vouvoiement)",
+   "nivel_oficial": "A1",
+   "descripcion_l": "Je, tu, il/elle/on, nous, vous, ils/elles ; tutoiement ou vouvoiement ; les emplois de « on ».",
+   "descripcion_larga_l": "En français, on doit toujours dire le sujet : je suis fatigué, jamais « suis fatigué ». Les pronoms sujets sont je, tu, il, elle, on, nous, vous, ils et elles. On dit tu à un ami et vous à une personne qu'on ne connaît pas. On est très fréquent à l'oral : « On y va ? » veut dire « Nous y allons ? »."
   },
   "fr.g.presente-er": {
    "titulo_l": "Le présent des verbes en -er",
-   "oficial": null,
-   "descripcion_l": "La conjugaison régulière et les verbes avec un changement d'orthographe (acheter, appeler, manger)."
+   "oficial": "Le présent",
+   "nivel_oficial": "A1",
+   "descripcion_l": "La conjugaison régulière et les verbes avec un changement d'orthographe (acheter, appeler, manger).",
+   "descripcion_larga_l": "Les verbes en -er sont les plus nombreux en français et presque tous réguliers : on enlève -er et on ajoute -e, -es, -e, -ons, -ez, -ent. Je parle, tu parles, il parle et ils parlent se prononcent de la même façon. Certains verbes changent un peu leur orthographe : j'appelle, j'achète, nous mangeons, nous commençons."
   },
   "fr.g.presente-ir-re": {
    "titulo_l": "Le présent des verbes en -ir et en -re",
-   "oficial": null,
-   "descripcion_l": "Finir, partir, ouvrir ; vendre, prendre, mettre…"
+   "oficial": "Le présent",
+   "nivel_oficial": "A1",
+   "descripcion_l": "Finir, partir, ouvrir ; vendre, prendre, mettre…",
+   "descripcion_larga_l": "Les verbes en -ir et en -re n'ont pas tous la même conjugaison. Finir prend -iss- au pluriel (nous finissons), partir perd le t au singulier (je pars), ouvrir se conjugue comme parler (j'ouvre), vendre n'a pas de terminaison avec il (il vend) et prendre double le n (ils prennent). Il faut apprendre chaque verbe avec son modèle."
   },
   "fr.g.etre-avoir": {
    "titulo_l": "Les verbes être et avoir",
-   "oficial": null,
-   "descripcion_l": "Leur conjugaison et les expressions avec « avoir » (avoir faim, avoir raison…)."
+   "oficial": "Le présent",
+   "nivel_oficial": "A1",
+   "descripcion_l": "Leur conjugaison et les expressions avec « avoir » (avoir faim, avoir raison…).",
+   "descripcion_larga_l": "Cette fiche présente les deux verbes les plus importants du français : être et avoir. On les utilise tout le temps, seuls ou comme auxiliaires du passé composé. Être sert à dire qui on est, comment on est et où on est. Avoir sert à dire ce qu'on a, mais aussi l'âge, la faim, la soif, le froid ou la peur."
   },
   "fr.g.aller-faire-venir": {
    "titulo_l": "Les verbes aller, faire et venir",
-   "oficial": null,
-   "descripcion_l": "Leur conjugaison et des expressions fréquentes (faire du sport, il fait beau…)."
+   "oficial": "Le présent",
+   "nivel_oficial": "A1",
+   "descripcion_l": "Leur conjugaison et des expressions fréquentes (faire du sport, il fait beau…).",
+   "descripcion_larga_l": "Cette fiche présente trois verbes irréguliers très fréquents : aller, faire et venir. On dit je vais, nous allons, ils vont ; je fais, vous faites, ils font ; je viens, nous venons, ils viennent. On les utilise tous les jours : pour se déplacer, pour saluer (Comment allez-vous ?), pour parler du temps (il fait beau) ou des activités (faire du sport, faire les courses)."
   },
   "fr.g.ilya-voila": {
    "titulo_l": "Il y a et voilà",
-   "oficial": null,
-   "descripcion_l": "Dire qu'une chose existe (il y a) ou la montrer (voilà)."
+   "oficial": "Il y a; C’est, ce sont, voici! voilà!",
+   "nivel_oficial": "A1",
+   "descripcion_l": "Dire qu'une chose existe (il y a) ou la montrer (voilà).",
+   "descripcion_larga_l": "Il y a sert à dire qu'une chose existe ou se trouve dans un lieu : il y a un café à côté. Avec une durée, il y a veut dire « avant maintenant » : il y a deux ans. Voilà et voici servent à montrer ou à présenter quelqu'un ou quelque chose : voilà mon ami Tom. Ce sont des mots très fréquents dans la vie de tous les jours."
   },
   "fr.g.negacion-basica": {
    "titulo_l": "La négation simple",
-   "oficial": null,
-   "descripcion_l": "Ne… pas, ne… plus, ne… jamais ; « pas de » devant un nom."
+   "oficial": "La négation (ne... pas / jamais; pas)",
+   "nivel_oficial": "A1",
+   "descripcion_l": "Ne… pas, ne… plus, ne… jamais ; « pas de » devant un nom.",
+   "descripcion_larga_l": "En français, la négation a deux mots : ne avant le verbe et pas après. On dit je ne parle pas anglais. On utilise le même modèle pour ne… plus et ne… jamais. Ne devient n' devant une voyelle : je n'aime pas. Après la négation, un, une, des, du et de la deviennent de : je n'ai pas de voiture."
   },
   "fr.g.preguntas": {
    "titulo_l": "L'interrogation",
-   "oficial": null,
-   "descripcion_l": "Poser une question avec l'intonation, « est-ce que » ou l'inversion ; les mots interrogatifs."
+   "oficial": "Le questionnement (Sujet+verbe/ Est-ce que +S+V/ Interrogatifs+S+V); L’interrogation : « Qui ? », « où » « quand » « quel(le) », « combien », « comment » ; « est- ce que ? », « pourquoi ? »",
+   "nivel_oficial": "A1",
+   "descripcion_l": "Poser une question avec l'intonation, « est-ce que » ou l'inversion ; les mots interrogatifs.",
+   "descripcion_larga_l": "En français, on peut poser une question de trois façons. Avec l'intonation : Tu parles français ? Avec est-ce que : Est-ce que tu parles français ? Avec l'inversion : Parles-tu français ? Le sens est le même, mais le registre change : l'intonation est familière, est-ce que est neutre, l'inversion est plus formelle. On utilise aussi des mots comme où, quand, comment, pourquoi, combien et qui."
   },
   "fr.g.quel": {
    "titulo_l": "L'adjectif interrogatif quel",
-   "oficial": null,
-   "descripcion_l": "Quel, quelle, quels, quelles pour poser une question ou dans une exclamation."
+   "oficial": "L’interrogation : « Qui ? », « où » « quand » « quel(le) », « combien », « comment » ; « est- ce que ? », « pourquoi ? »; L’exclamation (quel ! que ! comme ! )",
+   "nivel_oficial": "A1",
+   "descripcion_l": "Quel, quelle, quels, quelles pour poser une question ou dans une exclamation.",
+   "descripcion_larga_l": "Quel, quelle, quels et quelles servent à poser une question devant un nom (Quelle heure est-il ?) ou avec être (Quel est ton nom ?). On les utilise aussi pour s'exclamer : Quelle belle vue ! Quel s'accorde avec le nom : masculin ou féminin, singulier ou pluriel. Les quatre formes se prononcent de la même façon."
   },
   "fr.g.adjetivos": {
    "titulo_l": "L'accord des adjectifs",
-   "oficial": null,
-   "descripcion_l": "Le féminin et le pluriel des adjectifs ; les adjectifs irréguliers (beau, nouveau, vieux)."
+   "oficial": "Les adjectifs (la place et les accords)",
+   "nivel_oficial": "A1",
+   "descripcion_l": "Le féminin et le pluriel des adjectifs ; les adjectifs irréguliers (beau, nouveau, vieux).",
+   "descripcion_larga_l": "Cette fiche montre comment l'adjectif s'accorde avec le nom en genre et en nombre. En général, on ajoute -e au féminin et -s au pluriel : petit, petite, petits, petites. Mais beaucoup d'adjectifs changent : heureux devient heureuse, actif devient active, bon devient bonne et national fait nationaux au pluriel. Attention aussi au genre des noms, parfois différent de l'espagnol."
   },
   "fr.g.preposiciones-lugar": {
    "titulo_l": "Les prépositions de lieu",
-   "oficial": null,
-   "descripcion_l": "À, en, au, aux, chez, dans, sur… ; les prépositions devant les noms de pays et de villes."
+   "oficial": "Les prépositions de lieu; Les pays et les nationalités",
+   "nivel_oficial": "A1",
+   "descripcion_l": "À, en, au, aux, chez, dans, sur… ; les prépositions devant les noms de pays et de villes.",
+   "descripcion_larga_l": "Pour dire où on habite, où on va ou d'où on vient, le français choisit la préposition selon le lieu : à Paris (une ville), en France (un pays féminin), au Japon (un pays masculin), aux États-Unis (un pays pluriel). On dit aussi chez Pierre, dans le jardin, près de la gare. Ces petites prépositions sont très fréquentes."
   },
   "fr.g.futur-proche": {
-   "titulo_l": "Le futur proche",
-   "oficial": null,
-   "descripcion_l": "Aller + infinitif pour parler d'une action future."
+   "titulo_l": "Le futur proche (je vais + infinitif)",
+   "oficial": "Le futur proche (je vais + infinitif...)",
+   "nivel_oficial": "A1",
+   "descripcion_l": "Aller + infinitif pour parler d'une action future.",
+   "descripcion_larga_l": "Le futur proche se forme avec le verbe « aller » au présent et un infinitif : « je vais manger », « nous allons partir ». C'est la façon la plus courante de parler du futur à l'oral, pour un projet ou pour quelque chose qui va arriver bientôt : « Il va pleuvoir. » Attention : il n'y a pas de préposition entre « aller » et l'infinitif, et la négation entoure « aller » : « Je ne vais pas sortir. »"
   },
   "fr.g.adjetivos-posicion": {
    "titulo_l": "La place de l'adjectif",
-   "oficial": null,
-   "descripcion_l": "Adjectif avant ou après le nom ; changement de sens (un grand homme / un homme grand)."
+   "oficial": "Les adjectifs (la place et les accords)",
+   "nivel_oficial": "A1",
+   "descripcion_l": "Adjectif avant ou après le nom ; changement de sens (un grand homme / un homme grand).",
+   "descripcion_larga_l": "Cette fiche explique la place de l'adjectif. En général, il se met après le nom : une voiture rouge, un vin français. Mais des adjectifs courts et fréquents se placent avant : beau, jeune, nouveau, bon, petit, grand. Certains changent de sens selon leur place : mon ancien professeur ou des meubles anciens. Devant une voyelle, on dit un bel hôtel, un nouvel ami, un vieil homme."
   },
   "fr.g.passe-recent": {
-   "titulo_l": "Le passé récent",
-   "oficial": null,
-   "descripcion_l": "Venir de + infinitif pour une action qui vient de se terminer."
+   "titulo_l": "Le passé récent (je viens de + infinitif)",
+   "oficial": "Le passé récent (je viens de + infinitif ...)",
+   "nivel_oficial": "A1",
+   "descripcion_l": "Venir de + infinitif pour une action qui vient de se terminer.",
+   "descripcion_larga_l": "Pour dire qu'une action est terminée depuis très peu de temps, on utilise venir au présent + de + infinitif : je viens de manger, il vient de partir. C'est le passé récent. Il est très fréquent à l'oral. Avec venir à l'imparfait, on parle du passé : ils venaient de partir quand je suis arrivé. Attention : devant une voyelle, de devient d'."
   },
   "fr.g.imperativo": {
    "titulo_l": "L'impératif",
-   "oficial": null,
-   "descripcion_l": "Les formes de l'impératif, les verbes irréguliers et la place des pronoms."
+   "oficial": "L’impératif",
+   "nivel_oficial": "A1",
+   "descripcion_l": "Les formes de l'impératif, les verbes irréguliers et la place des pronoms.",
+   "descripcion_larga_l": "L'impératif sert à donner un ordre, un conseil ou une instruction, et aussi à proposer quelque chose : Allons à la plage ! Il a trois formes, tu, nous et vous, qu'on prend au présent sans le pronom sujet. Attention : les verbes en -er perdent le -s avec tu (Regarde !), et les pronoms se placent après le verbe à la forme affirmative (Aidez-moi !)."
   },
   "fr.g.pronominales": {
    "titulo_l": "Les verbes pronominaux",
-   "oficial": null,
-   "descripcion_l": "Se lever, s'appeler ; les verbes réfléchis et réciproques."
+   "oficial": "Les verbes pronominaux",
+   "nivel_oficial": "A1",
+   "descripcion_l": "Se lever, s'appeler ; les verbes réfléchis et réciproques.",
+   "descripcion_larga_l": "Les verbes pronominaux se conjuguent avec un pronom : je me lève, tu te lèves, il se lève, nous nous levons, vous vous levez, ils se lèvent. Le pronom est toujours devant le verbe, même avec un infinitif : je vais me coucher. À la forme négative, on dit je ne me lève pas. Avec les parties du corps, on dit je me lave les mains."
   },
   "fr.g.passe-compose-avoir": {
    "titulo_l": "Le passé composé avec avoir",
-   "oficial": null,
-   "descripcion_l": "La formation du passé composé avec « avoir » et les participes passés irréguliers."
+   "oficial": "Le passé composé avec « avoir », avec « être »",
+   "nivel_oficial": "A1",
+   "descripcion_l": "La formation du passé composé avec « avoir » et les participes passés irréguliers.",
+   "descripcion_larga_l": "Le passé composé est le temps du passé le plus utilisé pour raconter des actions terminées. On le forme avec avoir au présent et le participe passé : j'ai mangé, tu as fini, il a perdu. Beaucoup de participes sont irréguliers : fait, pris, vu, lu, eu. À la forme négative, ne… pas entoure l'auxiliaire : je n'ai pas mangé."
   },
   "fr.g.passe-compose-etre": {
    "titulo_l": "Le passé composé avec être",
-   "oficial": null,
-   "descripcion_l": "Les verbes de mouvement conjugués avec « être » et l'accord simple du participe."
+   "oficial": "Le passé composé avec « avoir », avec « être »; Le participe passé et son accord (passé composé avec être)",
+   "nivel_oficial": "A1",
+   "descripcion_l": "Les verbes de mouvement conjugués avec « être » et l'accord simple du participe.",
+   "descripcion_larga_l": "Au passé composé, la plupart des verbes utilisent avoir. Mais une vingtaine de verbes très courants utilisent être : aller, venir, partir, arriver, naître, mourir, rester, tomber… Ce sont surtout des verbes de mouvement ou de changement d'état. Avec être, le participe s'accorde avec le sujet : elle est partie, ils sont arrivés. Les verbes pronominaux utilisent aussi être."
   },
   "fr.g.imparfait": {
    "titulo_l": "L'imparfait",
-   "oficial": null,
-   "descripcion_l": "La formation de l'imparfait ; décrire et parler des habitudes dans le passé."
+   "oficial": "L’imparfait (description dans le passé)",
+   "nivel_oficial": "A2",
+   "descripcion_l": "La formation de l'imparfait ; décrire et parler des habitudes dans le passé.",
+   "descripcion_larga_l": "L'imparfait est le temps du passé qui sert à décrire : comment étaient les choses, ce qu'on faisait d'habitude, ce qui se passait quand un autre événement est arrivé. Il est facile à former : on prend la forme nous du présent, on enlève -ons et on ajoute -ais, -ais, -ait, -ions, -iez, -aient. On l'utilise aussi pour proposer : Si on allait au cinéma ?"
   },
   "fr.g.complementos-cd-ci": {
-   "titulo_l": "Les pronoms compléments COD et COI",
-   "oficial": null,
-   "descripcion_l": "Le, la, les ; lui, leur ; leur place dans la phrase."
+   "titulo_l": "Les pronoms compléments (COD et COI)",
+   "oficial": "Les pronoms compléments (COD et COI)",
+   "nivel_oficial": "A2",
+   "descripcion_l": "Le, la, les ; lui, leur ; leur place dans la phrase.",
+   "descripcion_larga_l": "Les pronoms compléments remplacent un nom déjà cité pour ne pas le répéter. Le, la, les remplacent un complément direct (je la vois) et lui, leur un complément indirect avec à + personne (je lui parle). Ils se placent devant le verbe conjugué, devant l'auxiliaire ou devant l'infinitif. Attention : on dit je l'aime mais je lui téléphone, et leur ne prend jamais de -s."
   },
   "fr.g.pronombres-tonicos": {
    "titulo_l": "Les pronoms toniques",
-   "oficial": null,
-   "descripcion_l": "Moi, toi, lui, elle… après une préposition ou pour insister."
+   "oficial": "Les pronoms personnels (sujets, toniques)",
+   "nivel_oficial": "A1",
+   "descripcion_l": "Moi, toi, lui, elle… après une préposition ou pour insister.",
+   "descripcion_larga_l": "Les pronoms toniques sont moi, toi, lui, elle, nous, vous, eux et elles. On les utilise quand le pronom n'est pas collé au verbe : après une préposition (avec moi, chez toi), dans une réponse courte (Moi aussi !), après c'est (C'est lui) ou pour insister (Moi, je reste). On ne dit jamais « avec je » ni « Paul et je »."
   },
   "fr.g.cest-ilest": {
    "titulo_l": "C'est ou il/elle est",
    "oficial": null,
-   "descripcion_l": "Savoir quand utiliser « c'est » et quand utiliser « il est » ou « elle est »."
+   "descripcion_l": "Savoir quand utiliser « c'est » et quand utiliser « il est » ou « elle est ».",
+   "descripcion_larga_l": "Cette fiche explique quand dire c'est et quand dire il est ou elle est. Les deux se traduisent par « es », mais on ne les mélange pas. Après c'est, on trouve un déterminant et un nom (c'est un bon médecin), un nom propre, un pronom (c'est moi) ou une date. Après il est ou elle est, on trouve un adjectif (elle est occupée) ou une profession sans article (il est médecin)."
   },
   "fr.g.comparativo": {
-   "titulo_l": "Le comparatif",
-   "oficial": null,
-   "descripcion_l": "Plus, moins, aussi… que ; meilleur et mieux."
+   "titulo_l": "La comparaison",
+   "oficial": "La comparaison",
+   "nivel_oficial": "A2",
+   "descripcion_l": "Plus, moins, aussi… que ; meilleur et mieux.",
+   "descripcion_larga_l": "Le comparatif sert à dire qu'une chose est supérieure, inférieure ou égale à une autre : plus grand que, moins cher que, aussi vite que, autant de livres que. On l'utilise tous les jours pour décrire, choisir ou argumenter. Attention : le deuxième élément commence toujours par que, on dit meilleur pour l'adjectif bon et mieux pour l'adverbe bien, jamais « plus bon » ou « plus bien »."
   },
   "fr.g.superlativo": {
    "titulo_l": "Le superlatif",
-   "oficial": null,
-   "descripcion_l": "Le plus, le moins ; le meilleur, le mieux."
+   "oficial": "Le superlatif",
+   "nivel_oficial": "A2",
+   "descripcion_l": "Le plus, le moins ; le meilleur, le mieux.",
+   "descripcion_larga_l": "Le superlatif sert à dire qu'une chose est « la plus » ou « la moins » d'un groupe : le plus grand, la moins chère, le meilleur. On le forme avec l'article défini, plus ou moins et l'adjectif. Si l'adjectif est après le nom, on répète l'article : la ville la plus belle. Attention aux formes irrégulières : meilleur, mieux et pire."
   },
   "fr.g.adverbios": {
    "titulo_l": "Les adverbes : formation et place",
-   "oficial": null,
-   "descripcion_l": "Les adverbes en -ment ; leur place avec les temps composés."
+   "oficial": "Les adverbes de manière (finalement, prudemment, brièvement…)",
+   "nivel_oficial": "B1",
+   "descripcion_l": "Les adverbes en -ment ; leur place avec les temps composés.",
+   "descripcion_larga_l": "Cette fiche explique comment former les adverbes en -ment et où les placer. On part souvent du féminin : lente donne lentement. Les adjectifs en -ant et -ent donnent -amment et -emment : couramment, récemment. Bon et mauvais deviennent bien et mal. L'adverbe se place après le verbe, jamais entre le sujet et le verbe, et souvent entre l'auxiliaire et le participe : j'ai bien dormi."
   },
   "fr.g.cantidad": {
    "titulo_l": "Les expressions de quantité",
-   "oficial": null,
-   "descripcion_l": "Beaucoup de, peu de, assez de, trop de…"
+   "oficial": "Les adverbes de quantité; Les expressions de quantité (moins 10%, à 10 km)",
+   "nivel_oficial": "A1",
+   "descripcion_l": "Beaucoup de, peu de, assez de, trop de…",
+   "descripcion_larga_l": "Cette fiche explique comment exprimer une quantité. Après beaucoup, peu, assez, trop, tant ou une mesure comme un kilo ou une bouteille, on met seulement de (d' devant une voyelle), sans article : beaucoup de livres, un verre d'eau, trop d'erreurs. Attention à la différence entre peu de (presque rien) et un peu de (une petite quantité)."
   },
   "fr.g.modales": {
-   "titulo_l": "Les verbes pouvoir, vouloir et devoir",
-   "oficial": null,
-   "descripcion_l": "La conjugaison et les emplois de pouvoir, vouloir et devoir."
+   "titulo_l": "Les verbes modaux et l'infinitif (devoir, pouvoir, vouloir)",
+   "oficial": "Les verbes modaux et l’infinitif (devoir, pouvoir, vouloir)",
+   "nivel_oficial": "A1",
+   "descripcion_l": "La conjugaison et les emplois de pouvoir, vouloir et devoir.",
+   "descripcion_larga_l": "Pouvoir, vouloir et devoir sont des verbes modaux : ils expriment la possibilité ou la permission, la volonté, l'obligation ou la probabilité. Ils sont suivis directement d'un infinitif, sans préposition : je dois partir, je veux venir. Ils sont irréguliers et très fréquents. Au conditionnel, ils permettent d'être poli : je voudrais, pourriez-vous."
   },
   "fr.g.savoir-connaitre": {
    "titulo_l": "Savoir ou connaître",
    "oficial": null,
-   "descripcion_l": "Savoir une chose ou connaître une personne, un lieu, une chose."
+   "descripcion_l": "Savoir une chose ou connaître une personne, un lieu, une chose.",
+   "descripcion_larga_l": "« Savoir » et « connaître » se traduisent par « saber » et « conocer ». On utilise « savoir » pour une information, un fait ou une compétence (je sais nager, je sais où il habite) et « connaître » pour une personne, un lieu ou une œuvre (je connais Paul, je connais Lyon). Truc simple : après « savoir », on peut trouver que, où, si ou un infinitif ; après « connaître », il y a toujours un nom."
   },
   "fr.g.verbos-irregulares": {
    "titulo_l": "Les verbes irréguliers fréquents",
    "oficial": null,
-   "descripcion_l": "Boire, croire, voir, dire, lire, écrire…"
+   "descripcion_l": "Boire, croire, voir, dire, lire, écrire…",
+   "descripcion_larga_l": "Boire, croire, voir, dire, lire et écrire sont des verbes très fréquents. Ils sont irréguliers au présent et au participe passé. Certains changent de radical avec nous et vous (nous buvons, vous voyez). D'autres ajoutent une consonne au pluriel (nous lisons, ils écrivent). Attention à la forme spéciale vous dites et aux participes bu, cru, vu, dit, lu et écrit."
   },
   "fr.g.quitter-partir": {
    "titulo_l": "Quitter, partir, sortir, laisser",
    "oficial": null,
-   "descripcion_l": "Bien choisir entre ces verbes pour dire s'en aller, sortir et laisser."
+   "descripcion_l": "Bien choisir entre ces verbes pour dire s'en aller, sortir et laisser.",
+   "descripcion_larga_l": "Partir, sortir, quitter et laisser se traduisent souvent par « irse », « salir » ou « dejar ». Partir et sortir n'ont pas de complément direct et se conjuguent avec être au passé composé : je suis parti. Quitter et laisser ont un complément direct et prennent avoir : j'ai quitté la maison, j'ai laissé mes clés. On ne dit jamais « je quitte à huit heures »."
   },
   "fr.g.depuis": {
    "titulo_l": "Depuis, il y a, pendant, pour",
-   "oficial": null,
-   "descripcion_l": "Exprimer la durée et situer un moment dans le temps."
+   "oficial": "Les indicateurs de temps (dans, depuis, il y a); Les adverbes de temps (pendant)",
+   "nivel_oficial": "A1",
+   "descripcion_l": "Exprimer la durée et situer un moment dans le temps.",
+   "descripcion_larga_l": "Cette fiche explique comment parler de la durée et du moment d'une action. On utilise depuis pour une action qui a commencé dans le passé et qui continue maintenant, avec le présent. Il y a indique le moment d'une action terminée, avec le passé composé. Pendant mesure une durée complète et pour indique une durée prévue, surtout avec partir ou aller."
   },
   "fr.g.relativos-qui-que": {
    "titulo_l": "Les pronoms relatifs qui et que",
-   "oficial": null,
-   "descripcion_l": "« Qui » sujet et « que » complément dans la proposition relative."
+   "oficial": "Les pronoms relatifs (qui / que, où)",
+   "nivel_oficial": "A2",
+   "descripcion_l": "« Qui » sujet et « que » complément dans la proposition relative.",
+   "descripcion_larga_l": "En espagnol, on dit toujours « que », mais le français a deux pronoms relatifs : « qui » et « que ». On utilise « qui » quand le pronom est le sujet du verbe qui suit (l'homme qui parle) et « que » quand il est le complément d'objet direct (l'homme que je vois). Cela ne dépend pas des personnes ou des choses. « Que » devient « qu' » devant une voyelle, mais « qui » ne change jamais."
   },
   "fr.g.futuro-simple": {
    "titulo_l": "Le futur simple",
-   "oficial": null,
-   "descripcion_l": "La formation régulière et irrégulière du futur simple et ses emplois."
+   "oficial": "Le futur simple",
+   "nivel_oficial": "A2",
+   "descripcion_l": "La formation régulière et irrégulière du futur simple et ses emplois.",
+   "descripcion_larga_l": "Le futur simple se forme avec l'infinitif et les terminaisons -ai, -as, -a, -ons, -ez, -ont : je parlerai, tu finiras. Beaucoup de verbes fréquents ont un radical irrégulier, mais il finit toujours par r : je serai, j'aurai, j'irai, je ferai, je pourrai. On l'utilise pour les prévisions, les promesses et les projets. Après « quand », on met le futur (« quand je serai grand »), mais jamais après « si » : « s'il fait beau, nous irons à la plage »."
   },
   "fr.g.pc-pronominales": {
    "titulo_l": "Le passé composé des verbes pronominaux",
-   "oficial": null,
-   "descripcion_l": "Les verbes pronominaux au passé composé, avec « être », et l'accord du participe."
+   "oficial": "Les verbes pronominaux; Le participe passé et son accord (passé composé avec être)",
+   "nivel_oficial": "A2",
+   "descripcion_l": "Les verbes pronominaux au passé composé, avec « être », et l'accord du participe.",
+   "descripcion_larga_l": "Les verbes pronominaux, comme se lever, se laver ou s'amuser, forment toujours le passé composé avec être : je me suis levé, elle s'est amusée. En général, le participe s'accorde avec le sujet. Mais il ne s'accorde pas si un complément d'objet direct vient après le verbe (elle s'est lavé les mains) ou si se est indirect (elles se sont téléphoné)."
   },
   "fr.g.pc-vs-imparfait": {
-   "titulo_l": "Passé composé ou imparfait",
-   "oficial": null,
-   "descripcion_l": "Choisir le bon temps pour raconter au passé."
+   "titulo_l": "L'alternance entre le passé composé et l'imparfait",
+   "oficial": "L’alternance entre le passé composé et l’imparfait",
+   "nivel_oficial": "A2",
+   "descripcion_l": "Choisir le bon temps pour raconter au passé.",
+   "descripcion_larga_l": "Pour raconter au passé, on utilise deux temps. Le passé composé raconte les événements : ce qui s'est passé, une action après l'autre. L'imparfait décrit le décor : comment étaient les choses, ce qui se passait, ce qu'on faisait d'habitude. Par exemple : il pleuvait (décor) quand je suis sorti (événement). C'est presque comme l'indéfini et l'imparfait en espagnol."
   },
   "fr.g.y-en": {
-   "titulo_l": "Les pronoms y et en",
-   "oficial": null,
-   "descripcion_l": "Remplacer un lieu, une chose ou une quantité."
+   "titulo_l": "Les pronoms EN (quantité) et Y (lieu)",
+   "oficial": "Les pronoms EN (quantité) et Y (lieu)",
+   "nivel_oficial": "A2",
+   "descripcion_l": "Remplacer un lieu, une chose ou une quantité.",
+   "descripcion_larga_l": "Y et en sont deux pronoms très fréquents. Y remplace un lieu ou un complément avec à qui n'est pas une personne : j'y vais, j'y pense. En remplace un complément avec de, un partitif ou un nom avec une quantité : j'en veux, j'en ai deux, il y en a beaucoup. Ils se placent devant le verbe conjugué ou devant l'infinitif."
   },
   "fr.g.orden-pronombres": {
-   "titulo_l": "L'ordre des doubles pronoms",
-   "oficial": null,
-   "descripcion_l": "La place de deux pronoms ensemble : je le lui donne, donne-le-moi."
+   "titulo_l": "La double pronominalisation (place des COD et COI)",
+   "oficial": "La double pronominalisation (place des COD et COI)",
+   "nivel_oficial": "B1",
+   "descripcion_l": "La place de deux pronoms ensemble : je le lui donne, donne-le-moi.",
+   "descripcion_larga_l": "Quand une phrase contient deux pronoms compléments, le français les place dans un ordre fixe : me, te, se, nous, vous, puis le, la, les, puis lui, leur, puis y, puis en. On dit donc « je le lui donne » et « il y en a ». À l'impératif affirmatif, les pronoms vont après le verbe : « donne-le-moi ! ». Cet ordre évite de répéter les noms."
   },
   "fr.g.negacion-compleja": {
    "titulo_l": "Les autres formes de la négation",
-   "oficial": null,
-   "descripcion_l": "Ne… personne, ne… rien, ne… aucun, ne… que, ni… ni."
+   "oficial": "La négation ne...plus / rien / personne); La négation (ne ... que / aucun ; ni...ni)",
+   "nivel_oficial": "A2",
+   "descripcion_l": "Ne… personne, ne… rien, ne… aucun, ne… que, ni… ni.",
+   "descripcion_larga_l": "En plus de ne… pas, le français a d'autres négations : ne… rien, ne… personne, ne… jamais, ne… plus, ne… pas encore, ne… aucun et ne… ni… ni. Ne… que n'est pas une négation : il veut dire « seulement ». On n'ajoute jamais pas : je n'ai rien vu. Attention à la place : je n'ai rien vu, mais je n'ai vu personne."
   },
   "fr.g.tout": {
    "titulo_l": "Tout, toute, tous, toutes",
-   "oficial": null,
-   "descripcion_l": "« Tout » comme déterminant, pronom et adverbe."
+   "oficial": "Les adjectifs indéfinis (tout/toute/ tous/toutes)",
+   "nivel_oficial": "A2",
+   "descripcion_l": "« Tout » comme déterminant, pronom et adverbe.",
+   "descripcion_larga_l": "Tout veut dire « todo ». Il change de forme selon le nom : tout le temps, toute la nuit, tous les jours, toutes les nuits. Comme pronom, tout veut dire « todo » et tous veut dire « todos ». Devant un adjectif, tout signifie « très ». On l'utilise aussi dans beaucoup d'expressions : tout de suite, tout le monde, pas du tout."
   },
   "fr.g.indefinidos": {
    "titulo_l": "Les indéfinis",
-   "oficial": null,
-   "descripcion_l": "Quelqu'un, quelque chose, chaque, chacun, plusieurs, certains…"
+   "oficial": "Les pronoms indéfinis (plusieurs, quelques, certains…); Déterminants indéfinis",
+   "nivel_oficial": "B1",
+   "descripcion_l": "Quelqu'un, quelque chose, chaque, chacun, plusieurs, certains…",
+   "descripcion_larga_l": "Les indéfinis parlent de personnes, de choses ou de quantités sans les préciser : quelqu'un, quelque chose, chaque, chacun, plusieurs, quelques, aucun, un autre. Certains accompagnent un nom (chaque jour, plusieurs livres), d'autres le remplacent (chacun, quelques-uns). Attention aux petites règles : quelque chose d'intéressant, un autre café, il n'y a rien ici."
   },
   "fr.g.relativos-ce-qui": {
    "titulo_l": "Les relatifs ce qui et ce que",
-   "oficial": null,
-   "descripcion_l": "Traduire « lo que » avec « ce qui » ou « ce que »."
+   "oficial": "La mise en relief : ce qui / ce que/ ce dont … c’est",
+   "nivel_oficial": "B1",
+   "descripcion_l": "Traduire « lo que » avec « ce qui » ou « ce que ».",
+   "descripcion_larga_l": "« Ce qui » et « ce que » correspondent à l'espagnol « lo que ». Ils ne remplacent pas un nom précis, mais une idée ou une chose qu'on ne nomme pas. On utilise « ce qui » quand il est le sujet du verbe qui suit (ce qui me plaît) et « ce que » quand il est le complément d'objet (ce que je veux). On les trouve aussi dans les questions indirectes et pour mettre une idée en relief."
   },
   "fr.g.relativos-dont-ou": {
    "titulo_l": "Les pronoms relatifs dont, où et lequel",
-   "oficial": null,
-   "descripcion_l": "Les relatifs avec une préposition et le complément du nom."
+   "oficial": "Les pronoms relatifs (dont); Les pronoms relatifs composés (auxquelles, desquels etc.)",
+   "nivel_oficial": "B1",
+   "descripcion_l": "Les relatifs avec une préposition et le complément du nom.",
+   "descripcion_larga_l": "Cette fiche explique les pronoms relatifs qui suivent une préposition. « Dont » remplace un complément introduit par « de » (le livre dont je parle). « Où » indique un lieu ou un moment (la ville où j'habite, le jour où il est parti). Après les autres prépositions, on utilise « lequel, laquelle, lesquels, lesquelles », qui se contractent avec à et de (auquel, duquel). Sans antécédent, on dit « ce dont » ou « ce à quoi »."
   },
   "fr.g.demostrativos-pron": {
    "titulo_l": "Les pronoms démonstratifs",
-   "oficial": null,
-   "descripcion_l": "Celui, celle, ceux, celles (avec -ci, -là, de, qui)."
+   "oficial": "Les pronoms démonstratifs (celui-ci, celui-là)",
+   "nivel_oficial": "A2",
+   "descripcion_l": "Celui, celle, ceux, celles (avec -ci, -là, de, qui).",
+   "descripcion_larga_l": "Les pronoms démonstratifs celui, celle, ceux et celles remplacent un nom déjà cité pour éviter de le répéter : celui de Tex, celle que j'aime, ceux-ci. Ils ne sont jamais seuls : on ajoute -ci ou -là, de + nom ou un relatif (qui, que, dont). Ceci, cela et ça sont neutres et désignent une idée ou une chose sans nom précis : cela me semble évident."
   },
   "fr.g.posesivos-pron": {
    "titulo_l": "Les pronoms possessifs",
-   "oficial": null,
-   "descripcion_l": "Le mien, la tienne, les leurs…"
+   "oficial": "Les pronoms possessifs",
+   "nivel_oficial": "A2",
+   "descripcion_l": "Le mien, la tienne, les leurs…",
+   "descripcion_larga_l": "Les pronoms possessifs remplacent un nom avec un possessif pour ne pas le répéter : c'est ton livre ? — Oui, c'est le mien. Ils ont toujours un article et s'accordent avec la chose possédée : ma maison → la mienne, mon vélo → le mien. Attention à l'accent de le nôtre et le vôtre, et aux contractions : je pense aux miens, il parle du sien."
   },
   "fr.g.interrogativos-pron": {
    "titulo_l": "Les pronoms interrogatifs",
-   "oficial": null,
-   "descripcion_l": "Qui, que, quoi ; lequel, laquelle…"
+   "oficial": "L’interrogation : lequel",
+   "nivel_oficial": "B2",
+   "descripcion_l": "Qui, que, quoi ; lequel, laquelle…",
+   "descripcion_larga_l": "Pour poser une question sur une personne, on utilise qui ; pour une chose, que, qu'est-ce que, qu'est-ce qui ou quoi selon sa fonction dans la phrase. Qu'est-ce qui se passe ? (sujet), Qu'est-ce que tu fais ? (complément), De quoi parles-tu ? (après une préposition). Pour choisir entre plusieurs choses, on dit lequel, laquelle, lesquels ou lesquelles."
   },
   "fr.g.plus-que-parfait": {
    "titulo_l": "Le plus-que-parfait",
-   "oficial": null,
-   "descripcion_l": "Exprimer une action antérieure à une autre action passée."
+   "oficial": "Le plus-que-parfait",
+   "nivel_oficial": "B1",
+   "descripcion_l": "Exprimer une action antérieure à une autre action passée.",
+   "descripcion_larga_l": "Le plus-que-parfait exprime une action passée qui a eu lieu avant une autre action passée : quand je suis arrivé, elle était déjà partie. On le forme avec avoir ou être à l'imparfait et le participe passé : j'avais mangé, nous étions sortis. On l'utilise aussi après si pour parler d'un passé imaginaire : si j'avais su, je serais venu."
   },
   "fr.g.condicional": {
    "titulo_l": "Le conditionnel présent",
-   "oficial": null,
-   "descripcion_l": "La politesse, le souhait, l'hypothèse et l'information non confirmée."
+   "oficial": "Le conditionnel présent",
+   "nivel_oficial": "B1",
+   "descripcion_l": "La politesse, le souhait, l'hypothèse et l'information non confirmée.",
+   "descripcion_larga_l": "Le conditionnel présent correspond à « je ferais, tu irais ». On le forme avec le radical du futur et les terminaisons de l'imparfait : je parlerais, nous irions. On l'utilise pour demander poliment (je voudrais), donner un conseil (tu devrais), exprimer un souhait, une hypothèse ou une information non confirmée. Attention : après si, on n'utilise jamais le conditionnel, mais l'imparfait."
   },
   "fr.g.si-hipotesis": {
    "titulo_l": "L'hypothèse avec si",
-   "oficial": null,
-   "descripcion_l": "Si + présent, imparfait ou plus-que-parfait, et le temps de la principale."
+   "oficial": "Les hypothèses certaines (Si + présent+présent/futur); Les hypothèses incertaines (Si + imparfait/conditionnel présent); Les hypothèses non-réalisées - le regret (Si + plus-que-parfait, conditionnel présent/passé)",
+   "nivel_oficial": "B1",
+   "descripcion_l": "Si + présent, imparfait ou plus-que-parfait, et le temps de la principale.",
+   "descripcion_larga_l": "En français, les phrases avec « si » suivent trois schémas fixes. Si la condition est possible : si + présent (si j'ai le temps, je viendrai). Si c'est une hypothèse : si + imparfait, puis conditionnel (si j'étais riche, je voyagerais). Si c'est trop tard : si + plus-que-parfait, puis conditionnel passé (si j'avais su, je serais venu). Après ce « si », on ne met jamais le futur ni le conditionnel."
   },
   "fr.g.subjuntivo-formacion": {
    "titulo_l": "Le subjonctif présent : formation",
-   "oficial": null,
-   "descripcion_l": "Les verbes réguliers et irréguliers (être, avoir, faire, aller, pouvoir…)."
+   "oficial": "Les verbes au subjonctif présent (sentiments et obligation); Il faut / il ne faut pas + subjonctif (verbes usuels)",
+   "nivel_oficial": "B1",
+   "descripcion_l": "Les verbes réguliers et irréguliers (être, avoir, faire, aller, pouvoir…).",
+   "descripcion_larga_l": "Le subjonctif présent se forme presque toujours avec le verbe au présent à la personne ils : on enlève -ent et on ajoute -e, -es, -e, -ions, -iez, -ent. Quelques verbes très fréquents sont irréguliers : être, avoir, aller, faire, pouvoir, savoir, vouloir. Il faut bien connaître ces formes, car on les utilise tous les jours après il faut que ou je veux que."
   },
   "fr.g.subjuntivo-usos": {
    "titulo_l": "Les emplois du subjonctif",
-   "oficial": null,
-   "descripcion_l": "Le subjonctif après l'obligation, le doute, la volonté et les sentiments."
+   "oficial": "Le subjonctif / indicatif (j’aime que / j’espère que / je crois que); Le subjonctif (après les verbes, les tournures impersonnelles et les locutions conjonctives pour les sentiments, le doute, le souhait, l’obligation, la volonté, le jugement, l’opposition, la concession…)",
+   "nivel_oficial": "B1",
+   "descripcion_l": "Le subjonctif après l'obligation, le doute, la volonté et les sentiments.",
+   "descripcion_larga_l": "On utilise le subjonctif après que quand le verbe principal exprime une obligation, une volonté, une émotion, une opinion ou un doute, et quand les deux verbes ont des sujets différents. C'est assez proche de l'espagnol, mais attention : après espérer que, je pense que ou je crois que, on utilise l'indicatif. Avec un seul sujet, on utilise l'infinitif."
   },
   "fr.g.estilo-indirecto": {
-   "titulo_l": "Le discours indirect au présent",
-   "oficial": null,
-   "descripcion_l": "Rapporter des paroles : il dit que…, il demande si…"
+   "titulo_l": "Le discours indirect au présent (que / si)",
+   "oficial": "Le discours indirect au présent (que / si)",
+   "nivel_oficial": "B1",
+   "descripcion_l": "Rapporter des paroles : il dit que…, il demande si…",
+   "descripcion_larga_l": "Cette fiche explique comment rapporter les paroles de quelqu'un quand le verbe introducteur est au présent : il dit que…, elle demande si…, il veut savoir où… On ne change pas les temps, mais on change les pronoms et on choisit le bon mot de liaison : que, si, un mot interrogatif, ce que, ce qui, ou de + infinitif pour un ordre."
   },
   "fr.g.infinitivo": {
    "titulo_l": "Les constructions infinitives",
-   "oficial": null,
-   "descripcion_l": "Verbe + infinitif ; verbe + à ou de + infinitif."
+   "oficial": "Structures avec l’infinitif; Les verbes prépositionnels (arrêter de, penser à)",
+   "nivel_oficial": "A1",
+   "descripcion_l": "Verbe + infinitif ; verbe + à ou de + infinitif.",
+   "descripcion_larga_l": "Après un verbe conjugué, on peut trouver un infinitif. Parfois il n'y a pas de préposition (je veux partir), parfois il faut à (il apprend à nager) ou de (j'ai arrêté de fumer). La préposition dépend du verbe : il faut l'apprendre avec chaque verbe. On dit aussi avant de partir, après avoir mangé et il m'a demandé de ne pas fumer."
   },
   "fr.g.impersonales": {
    "titulo_l": "Les verbes et tournures impersonnels",
-   "oficial": null,
-   "descripcion_l": "Il faut, il s'agit de, il est important de…"
+   "oficial": "il faut / il ne faut pas + infinitif",
+   "nivel_oficial": "A1",
+   "descripcion_l": "Il faut, il s'agit de, il est important de…",
+   "descripcion_larga_l": "En français, une phrase a toujours un sujet. Quand il n'y a pas de sujet réel, on utilise un il « vide » : il pleut, il fait froid, il est huit heures, il faut partir, il s'agit d'un problème. Le verbe reste toujours au singulier : il manque deux chaises. Ces expressions sont très fréquentes pour parler du temps, de l'heure et de ce qu'il faut faire."
   },
   "fr.g.participio-presente": {
    "titulo_l": "Le participe présent et le gérondif",
-   "oficial": null,
-   "descripcion_l": "En + -ant ; exprimer la simultanéité, la cause et la manière."
+   "oficial": "Le gérondif; Le participe présent et l’adjectif verbal",
+   "nivel_oficial": "B1",
+   "descripcion_l": "En + -ant ; exprimer la simultanéité, la cause et la manière.",
+   "descripcion_larga_l": "La forme en -ant a deux emplois. Seule, c'est le participe présent, surtout à l'écrit : « les étudiants ayant une bourse » (= qui ont une bourse). Avec en, c'est le gérondif, qui exprime une action en même temps que le verbe principal : « il conduit en écoutant la radio ». Les deux formes sont invariables et ont le même sujet que le verbe principal."
   },
   "fr.g.transitivos": {
    "titulo_l": "La construction des verbes",
-   "oficial": null,
-   "descripcion_l": "Les verbes avec ou sans préposition, différents de l'espagnol."
+   "oficial": "Les verbes prépositionnels",
+   "nivel_oficial": "A2",
+   "descripcion_l": "Les verbes avec ou sans préposition, différents de l'espagnol.",
+   "descripcion_larga_l": "Certains verbes ont un complément direct, sans préposition (regarder la télé, attendre un ami). D'autres ont un complément indirect, avec une préposition (téléphoner à Paul, avoir besoin de). En français, il n'y a pas de « a » devant une personne : on dit j'attends Jean. Le type de complément change aussi le pronom : je l'attends, je lui téléphone, j'en ai besoin."
   },
   "fr.g.participio-adjetivo": {
    "titulo_l": "Le participe employé comme adjectif",
    "oficial": null,
-   "descripcion_l": "L'accord et les emplois des participes utilisés comme adjectifs."
+   "descripcion_l": "L'accord et les emplois des participes utilisés comme adjectifs.",
+   "descripcion_larga_l": "Beaucoup d'adjectifs français viennent des participes. L'adjectif en -ant indique ce qui provoque un effet : un film effrayant, un travail fatigant. Le participe passé indique la personne ou la chose qui subit cet effet : je suis fatigué, la porte est fermée. Comme tous les adjectifs, ils s'accordent avec le nom : une fille charmante, des fenêtres ouvertes."
   },
   "fr.g.conjunciones": {
    "titulo_l": "Les conjonctions",
-   "oficial": null,
-   "descripcion_l": "Les conjonctions de coordination et de subordination."
+   "oficial": "Les relations logiques; Connecteurs",
+   "descripcion_l": "Les conjonctions de coordination et de subordination.",
+   "descripcion_larga_l": "Les conjonctions relient les mots et les phrases. Les conjonctions de coordination (et, ou, mais, donc, car, ni, or) unissent deux éléments de même nature. Les conjonctions de subordination (que, quand, parce que, puisque, comme, dès que) introduisent une proposition qui dépend d'une autre. Celles de cette fiche sont suivies de l'indicatif. Après quand, pour parler du futur, on utilise le futur."
   },
   "fr.g.estilo-indirecto-pasado": {
-   "titulo_l": "Le discours indirect au passé",
-   "oficial": null,
-   "descripcion_l": "La concordance des temps : il a dit qu'il viendrait…"
+   "titulo_l": "La concordance des temps dans le discours indirect au passé",
+   "oficial": "La concordance des temps dans le discours indirect au passé (il a dit/annoncé que… j’ai entendu dire que…)",
+   "nivel_oficial": "B2",
+   "descripcion_l": "La concordance des temps : il a dit qu'il viendrait…",
+   "descripcion_larga_l": "Cette fiche explique la concordance des temps au discours indirect quand le verbe introducteur est au passé. Le présent devient imparfait, le passé composé devient plus-que-parfait et le futur devient conditionnel. Les indications de temps changent aussi : demain devient le lendemain, hier devient la veille. C'est indispensable pour raconter une conversation ou résumer un texte."
   },
   "fr.g.conjunciones-subjuntivo": {
    "titulo_l": "Les conjonctions suivies du subjonctif",
-   "oficial": null,
-   "descripcion_l": "Bien que, pour que, avant que, à moins que, sans que…"
+   "oficial": "Le subjonctif (après les verbes, les tournures impersonnelles et les locutions conjonctives pour les sentiments, le doute, le souhait, l’obligation, la volonté, le jugement, l’opposition, la concession…)",
+   "nivel_oficial": "B2",
+   "descripcion_l": "Bien que, pour que, avant que, à moins que, sans que…",
+   "descripcion_larga_l": "Certaines conjonctions sont toujours suivies du subjonctif : pour que, afin que, avant que, jusqu'à ce que, bien que, quoique, à condition que, pourvu que, à moins que, sans que. Elles expriment le but, le temps, la concession, la condition ou l'exclusion. Quand les deux verbes ont le même sujet, on utilise souvent une préposition et l'infinitif : avant de partir, pour ne pas oublier. Après que, lui, prend l'indicatif."
   },
   "fr.g.subjuntivo-pasado": {
    "titulo_l": "Le subjonctif passé",
-   "oficial": null,
-   "descripcion_l": "Que j'aie fait, qu'il soit venu."
+   "oficial": "Le subjonctif passé",
+   "nivel_oficial": "B2",
+   "descripcion_l": "Que j'aie fait, qu'il soit venu.",
+   "descripcion_larga_l": "Le subjonctif passé (que j'aie fait, qu'il soit venu) se forme avec avoir ou être au subjonctif présent et le participe passé. On l'utilise après les mêmes expressions que le subjonctif présent, quand l'action est déjà terminée par rapport au verbe principal. Les verbes qui prennent être au passé composé le prennent aussi ici, et le participe s'accorde."
   },
   "fr.g.evitar-subjuntivo": {
    "titulo_l": "Éviter le subjonctif",
    "oficial": null,
-   "descripcion_l": "Remplacer le subjonctif par un infinitif ou par un nom."
+   "descripcion_l": "Remplacer le subjonctif par un infinitif ou par un nom.",
+   "descripcion_larga_l": "Cette fiche montre comment éviter le subjonctif. Si le sujet des deux propositions est le même, on doit utiliser l'infinitif : je veux partir, avant de partir, pour être à l'heure, sans dire au revoir. On peut aussi remplacer une conjonction par une préposition et un nom (malgré ses soucis, jusqu'à l'arrivée du directeur) ou utiliser l'indicatif avec peut-être."
   },
   "fr.g.futur-anterieur": {
    "titulo_l": "Le futur antérieur",
-   "oficial": null,
-   "descripcion_l": "Une action antérieure dans le futur et l'expression d'une supposition."
+   "oficial": "Le futur antérieur",
+   "nivel_oficial": "B2",
+   "descripcion_l": "Une action antérieure dans le futur et l'expression d'une supposition.",
+   "descripcion_larga_l": "Le futur antérieur se forme avec le futur de « avoir » ou « être » et le participe passé : « j'aurai fini », « elle sera partie ». Il présente une action future déjà terminée avant une autre action ou avant un moment précis : « Quand tu auras fini, appelle-moi. » Il sert aussi à faire une supposition sur le passé : « Il n'est pas venu ? Il aura oublié. » Le choix de l'auxiliaire et l'accord suivent les règles du passé composé."
   },
   "fr.g.condicional-pasado": {
    "titulo_l": "Le conditionnel passé",
-   "oficial": null,
-   "descripcion_l": "Le reproche, le regret et l'information non confirmée au passé."
+   "oficial": "Le conditionnel (présent et passé pour le conseil, le regret, le reproche…)",
+   "nivel_oficial": "B2",
+   "descripcion_l": "Le reproche, le regret et l'information non confirmée au passé.",
+   "descripcion_larga_l": "Le conditionnel passé (j'aurais fait, je serais parti) sert à parler de ce qui n'est pas arrivé : un regret, un reproche, la conséquence d'une condition irréelle dans le passé ou une information pas encore confirmée dans la presse. On le forme avec avoir ou être au conditionnel présent et le participe passé. Attention : après si, on n'utilise jamais le conditionnel."
   },
   "fr.g.pasiva": {
    "titulo_l": "La voix passive et ses alternatives",
-   "oficial": null,
-   "descripcion_l": "Être + participe passé ; « on » ; « se faire » ; les verbes pronominaux de sens passif."
+   "oficial": "Le passif",
+   "nivel_oficial": "B1",
+   "descripcion_l": "Être + participe passé ; « on » ; « se faire » ; les verbes pronominaux de sens passif.",
+   "descripcion_larga_l": "La voix passive se forme avec être au temps voulu et le participe passé, qui s'accorde avec le sujet : « la lettre a été écrite par Marie ». Le français préfère souvent on (« on m'a dit »), un verbe pronominal (« le vin se boit frais ») ou se faire + infinitif (« il s'est fait arrêter »). Seul le COD peut devenir sujet."
   },
   "fr.g.faire-causativo": {
    "titulo_l": "Le factitif : faire + infinitif",
    "oficial": null,
-   "descripcion_l": "Faire faire quelque chose ; se faire + infinitif."
+   "descripcion_l": "Faire faire quelque chose ; se faire + infinitif.",
+   "descripcion_larga_l": "Avec « faire » + infinitif, le sujet ne fait pas l'action lui-même : il la fait faire par une autre personne. On dit « je fais réparer ma voiture » quand c'est le garagiste qui la répare. Avec « se faire » + infinitif, l'action retombe sur le sujet : « je me fais couper les cheveux », « il s'est fait voler son portefeuille ». Attention aux pronoms, placés devant « faire », et au participe « fait », toujours invariable."
   },
   "fr.g.concordancia-participio": {
-   "titulo_l": "L'accord du participe passé",
-   "oficial": null,
-   "descripcion_l": "Avec « avoir » et un COD placé avant, avec « être » et avec les verbes pronominaux."
+   "titulo_l": "Le participe passé et son accord",
+   "oficial": "Le participe passé et son accord",
+   "nivel_oficial": "A2",
+   "descripcion_l": "Avec « avoir » et un COD placé avant, avec « être » et avec les verbes pronominaux.",
+   "descripcion_larga_l": "En français, le participe passé peut s'accorder en genre et en nombre : parti, partie, partis, parties. Avec être, il s'accorde avec le sujet ; avec avoir, il s'accorde avec le complément direct seulement si celui-ci est placé avant le verbe. Les verbes pronominaux suivent des règles particulières. Ces accords s'entendent parfois à l'oral (prise, faite, écrite) et comptent beaucoup à l'écrit."
   },
   "fr.g.concordancia-tiempos": {
    "titulo_l": "La concordance des temps",
-   "oficial": null,
-   "descripcion_l": "Les correspondances de temps entre la principale et la subordonnée."
+   "oficial": "La concordance des temps dans le discours indirect au passé (il a dit/annoncé que… j’ai entendu dire que…)",
+   "nivel_oficial": "B2",
+   "descripcion_l": "Les correspondances de temps entre la principale et la subordonnée.",
+   "descripcion_larga_l": "La concordance des temps indique quel temps utiliser dans la subordonnée quand le verbe principal est au passé : il a dit qu'il était malade, qu'il avait fini, qu'il partirait. Elle est indispensable pour rapporter les paroles de quelqu'un ou résumer un texte. Après un verbe au passé, le futur devient conditionnel, et au subjonctif on emploie presque toujours le présent : je voulais qu'il vienne."
   },
   "fr.g.mise-en-relief": {
    "titulo_l": "La mise en relief",
-   "oficial": null,
-   "descripcion_l": "C'est… qui/que, ce qui… c'est, la dislocation."
+   "oficial": "La mise en relief : ce qui / ce que/ ce dont … c’est; ce que je veux dire, c’est que….",
+   "nivel_oficial": "B1",
+   "descripcion_l": "C'est… qui/que, ce qui… c'est, la dislocation.",
+   "descripcion_larga_l": "La mise en relief permet de mettre en valeur un élément de la phrase avec des structures fixes : c'est… qui, c'est… que, ce qui (ce que, ce dont)… c'est, ou la dislocation avec un pronom de reprise. En français, on ne peut pas souligner une idée seulement avec l'ordre des mots. Ces structures sont très utiles pour organiser un exposé oral."
   },
   "fr.g.nominalizacion": {
-   "titulo_l": "La nominalisation",
-   "oficial": null,
-   "descripcion_l": "Passer du verbe au nom : la hausse, la mise en place… (langue écrite et presse)."
+   "titulo_l": "La nominalisation des verbes",
+   "oficial": "La nominalisation des verbes",
+   "nivel_oficial": "B1",
+   "descripcion_l": "Passer du verbe au nom : la hausse, la mise en place… (langue écrite et presse).",
+   "descripcion_larga_l": "La nominalisation transforme un verbe ou un adjectif en nom : les prix augmentent devient l'augmentation des prix. On la trouve dans la presse, les rapports et les titres. Elle permet de résumer une idée en peu de mots. Il faut connaître le suffixe et le genre du nom : le licenciement, la fermeture, la hausse, la croissance."
   },
   "fr.g.passe-simple": {
    "titulo_l": "Le passé simple (reconnaissance)",
-   "oficial": null,
-   "descripcion_l": "Le temps du récit écrit, à savoir reconnaître."
+   "oficial": "Le passé simple; Le passé simple (réception)",
+   "nivel_oficial": "C1",
+   "descripcion_l": "Le temps du récit écrit, à savoir reconnaître.",
+   "descripcion_larga_l": "Le passé simple est le temps du récit écrit : romans, contes, livres d'histoire, articles littéraires. À l'oral, on utilise le passé composé à la place. Il exprime les actions principales d'une histoire : il entra, elle prit sa main, ils partirent. Beaucoup de formes sont irrégulières : il fut, il vint, il naquit. Il faut surtout savoir le reconnaître quand on lit."
   },
   "fr.g.passe-anterieur": {
    "titulo_l": "Le passé antérieur (reconnaissance)",
    "oficial": null,
-   "descripcion_l": "L'antériorité dans le récit écrit, à savoir reconnaître."
+   "descripcion_l": "L'antériorité dans le récit écrit, à savoir reconnaître.",
+   "descripcion_larga_l": "Le passé antérieur (j'eus parlé, elle fut partie) est un temps littéraire. Il exprime une action terminée juste avant une autre action au passé simple : « Quand il eut fini, il partit ». On le trouve surtout après quand, lorsque, dès que, aussitôt que, après que et à peine… que. À l'oral, on dit plutôt « quand il a eu fini, il est parti »."
   },
   "fr.g.participio-compuesto": {
    "titulo_l": "Le participe composé et la proposition participiale",
    "oficial": null,
-   "descripcion_l": "Ayant terminé, une fois le rapport rédigé…"
+   "descripcion_l": "Ayant terminé, une fois le rapport rédigé…",
+   "descripcion_larga_l": "Le participe passé composé (ayant fini, étant parti) exprime une action terminée avant l'action principale, souvent avec une idée de cause. La proposition participiale (« Le contrat signé, les deux parties se serrèrent la main ») a son propre sujet. Ces constructions sont typiques de l'écrit soutenu. Attention : le sujet du participe composé doit être le même que celui de la phrase principale."
   },
   "fr.g.concesion": {
    "titulo_l": "Exprimer la concession et l'opposition",
-   "oficial": null,
-   "descripcion_l": "Quoique, si… que, avoir beau, tout… que, quand bien même."
+   "oficial": "La concession; L’opposition",
+   "nivel_oficial": "B1",
+   "descripcion_l": "Quoique, si… que, avoir beau, tout… que, quand bien même.",
+   "descripcion_larga_l": "Cette fiche présente les connecteurs de concession et d'opposition : bien que, quoique, si… que, quel que soit, quoi que, avoir beau, quand bien même, même si, alors que, tandis que, malgré. Ils sont indispensables pour nuancer une argumentation écrite ou orale. Chaque connecteur impose un mode précis : subjonctif après bien que, indicatif après même si, conditionnel après quand bien même, infinitif après avoir beau."
   },
   "fr.g.hipotesis-avanzada": {
    "titulo_l": "Exprimer l'hypothèse sans si",
-   "oficial": null,
-   "descripcion_l": "Au cas où, pour peu que, à supposer que, à condition que."
+   "oficial": "L’hypothèse : avec, sans, au cas où; La condition",
+   "nivel_oficial": "B2",
+   "descripcion_l": "Au cas où, pour peu que, à supposer que, à condition que.",
+   "descripcion_larga_l": "Pour exprimer une condition ou une hypothèse, le français n'utilise pas seulement si. On peut dire au cas où, à condition que, pour peu que, à supposer que, à moins que, en cas de ou sinon. Chaque connecteur demande un mode précis : le conditionnel après au cas où, le subjonctif après à condition que ou à moins que, un nom après en cas de. Ces nuances rendent un texte plus précis et plus élégant."
   },
   "fr.g.modalizacion": {
    "titulo_l": "La modalisation",
-   "oficial": null,
-   "descripcion_l": "Il semblerait que, le conditionnel journalistique, les adverbes d'opinion."
+   "oficial": "Exprimer la possibilité et la probabilité; Exprimer des certitudes / le doute",
+   "nivel_oficial": "B2",
+   "descripcion_l": "Il semblerait que, le conditionnel journalistique, les adverbes d'opinion.",
+   "descripcion_larga_l": "Modaliser, c'est montrer son degré de certitude ou de distance par rapport à ce qu'on dit. On utilise le conditionnel journalistique, des expressions comme il semble que ou il est probable que, des adverbes (sans doute, certainement) et des verbes d'opinion. C'est indispensable pour résumer un article, présenter une information non confirmée ou nuancer son avis à l'oral."
   },
   "fr.g.inversion": {
    "titulo_l": "L'inversion du sujet en langue soutenue",
    "oficial": null,
-   "descripcion_l": "À peine…, Sans doute…, Peut-être…, Ainsi…"
+   "descripcion_l": "À peine…, Sans doute…, Peut-être…, Ainsi…",
+   "descripcion_larga_l": "Dans la langue écrite et soutenue, certains adverbes placés en tête de phrase entraînent l'inversion du sujet : Peut-être viendra-t-il, Sans doute a-t-elle raison, À peine était-il arrivé que… Quand le sujet est un nom, on le garde devant le verbe et on le reprend par un pronom : Ainsi le gouvernement a-t-il décidé… Cette construction donne un style élégant et précis."
   },
   "fr.g.ne-expletivo": {
    "titulo_l": "Le ne explétif",
-   "oficial": null,
-   "descripcion_l": "Avant qu'il ne parte, de peur qu'il ne…"
+   "oficial": "« Ne » explétif (Avant que je ne fasse cela)",
+   "nivel_oficial": "B2",
+   "descripcion_l": "Avant qu'il ne parte, de peur qu'il ne…",
+   "descripcion_larga_l": "Le ne explétif est un ne sans pas qui n'a pas de valeur négative. On le trouve dans la langue soutenue après craindre que, avoir peur que, avant que, à moins que, et après un comparatif : c'est plus cher que je ne pensais. Il est facultatif, mais il faut savoir le reconnaître pour ne pas se tromper de sens."
   },
   "fr.g.subjuntivo-literario": {
    "titulo_l": "Le subjonctif imparfait et plus-que-parfait (reconnaissance)",
    "oficial": null,
-   "descripcion_l": "Qu'il fût, qu'il eût fait : des formes littéraires à savoir reconnaître."
+   "descripcion_l": "Qu'il fût, qu'il eût fait : des formes littéraires à savoir reconnaître.",
+   "descripcion_larga_l": "L'imparfait du subjonctif (qu'il fût, qu'il parlât) et le plus-que-parfait du subjonctif (qu'il eût fait) ont disparu de la langue parlée. On les trouve encore dans la littérature, les discours solennels et certains textes juridiques ou historiques. Il suffit de savoir les reconnaître et les comprendre. Pour écrire soi-même, on utilise le présent et le passé du subjonctif."
   },
   "fr.g.valores-tiempos": {
    "titulo_l": "Les valeurs stylistiques des temps",
-   "oficial": null,
-   "descripcion_l": "Le présent historique, l'imparfait narratif, le futur historique."
+   "oficial": "Modes et temps verbaux pour décrire et raconter, situer dans le temps, récit et discours",
+   "nivel_oficial": "C1",
+   "descripcion_l": "Le présent historique, l'imparfait narratif, le futur historique.",
+   "descripcion_larga_l": "Les temps verbaux ne servent pas seulement à situer une action dans le temps : ils créent aussi des effets de style. La presse et les livres d'histoire utilisent le présent de narration, le futur historique et l'imparfait narratif. À l'oral, l'imparfait et le conditionnel servent à adoucir une demande. Il faut savoir reconnaître ces valeurs pour bien comprendre un texte."
   },
   "fr.g.sintaxis-oral-escrita": {
    "titulo_l": "Syntaxe de l'oral et syntaxe de l'écrit",
    "oficial": null,
-   "descripcion_l": "L'omission de « ne », les dislocations, l'ellipse ; quand utiliser chaque forme."
+   "descripcion_l": "L'omission de « ne », les dislocations, l'ellipse ; quand utiliser chaque forme.",
+   "descripcion_larga_l": "Le français parlé n'a pas tout à fait la même syntaxe que le français écrit. À l'oral, on supprime souvent le « ne » (je sais pas), on dit « on » au lieu de « nous », on reprend le sujet par un pronom (ma sœur, elle travaille) et on pose les questions par l'intonation (tu viens ?). À l'écrit et dans une présentation formelle, ces traits sont considérés comme des fautes de registre."
   },
   "fr.l.presentarse": {
    "titulo_l": "Saluer et se présenter",
-   "oficial": null,
-   "descripcion_l": "Les salutations, l'identité et les professions."
+   "oficial": "Saluer / prendre congé / remercier / s’excuser; Se présenter / s’informer sur l’identité de l’autre / présenter quelqu’un; Demander et donner des informations personnelles",
+   "nivel_oficial": "A1",
+   "descripcion_l": "Les salutations, l'identité et les professions.",
+   "descripcion_larga_l": "Pour se présenter en français, on dit bonjour, on donne son nom, son âge, sa nationalité, sa profession et sa ville : « Je m'appelle Ana, j'ai trente ans, je suis espagnole et j'habite à Madrid. » On choisit vous avec les inconnus et tu avec les amis. On dit toujours bonjour en entrant dans un magasin ou un bureau."
   },
   "fr.l.numeros-tiempo": {
    "titulo_l": "Les nombres, la date et l'heure",
-   "oficial": null,
-   "descripcion_l": "Compter, dire un prix, l'heure, les jours et les mois."
+   "oficial": "Les nombres; La date, les jours, les mois, les saisons, les fêtes; Compter; demander et donner l’heure, des horaires, des prix, indiquer une date",
+   "nivel_oficial": "A1",
+   "descripcion_l": "Compter, dire un prix, l'heure, les jours et les mois.",
+   "descripcion_larga_l": "Cette fiche présente les nombres, les jours, les mois, la date, l'heure et les prix. On les utilise tous les jours : pour acheter quelque chose, prendre un rendez-vous ou donner son âge. Attention aux nombres entre 70 et 99, qui se forment avec des additions et des multiplications (soixante-dix, quatre-vingts), et à la date : on dit « le premier mai » mais « le deux mai »."
   },
   "fr.l.familia": {
    "titulo_l": "La famille et les relations",
-   "oficial": null,
-   "descripcion_l": "Les liens de parenté et la description des personnes."
+   "oficial": "La famille, les relations sociales; Les personnes : la description physique, le caractère, la personnalité",
+   "nivel_oficial": "A1",
+   "descripcion_l": "Les liens de parenté et la description des personnes.",
+   "descripcion_larga_l": "Cette fiche présente les mots pour parler de sa famille : les parents, les frères et sœurs, les grands-parents, les oncles et tantes, les cousins, le mari ou la femme. Elle montre aussi comment dire si on est marié ou célibataire et comment décrire une personne : grand, petit, les yeux bleus, les cheveux courts, gentil, timide. Attention : on dit « mon amie » et « il a les yeux bleus »."
   },
   "fr.l.vida-diaria": {
    "titulo_l": "La vie quotidienne",
-   "oficial": null,
-   "descripcion_l": "Les activités habituelles, la maison et les loisirs."
+   "oficial": "Les activités quotidiennes; Le logement : ameublement, équipement; Les loisirs, les sports",
+   "nivel_oficial": "A1",
+   "descripcion_l": "Les activités habituelles, la maison et les loisirs.",
+   "descripcion_larga_l": "Ce vocabulaire sert à raconter sa journée : se réveiller, se lever, se doucher, aller au travail, déjeuner, faire les courses, faire le ménage, sortir avec des amis. On l'utilise au présent avec des mots comme d'habitude, tous les jours, le matin ou le soir. Beaucoup de verbes sont pronominaux : je me lève, nous nous couchons."
   },
   "fr.l.comida": {
    "titulo_l": "L'alimentation et les courses",
-   "oficial": null,
-   "descripcion_l": "Les aliments, le restaurant et les quantités."
+   "oficial": "L’alimentation, la cuisine; Commander (au restaurant); Faire des achats, des transactions simples, obtenir un service ou un bien",
+   "nivel_oficial": "A1",
+   "descripcion_l": "Les aliments, le restaurant et les quantités.",
+   "descripcion_larga_l": "Cette fiche présente les mots de la nourriture, des magasins et du restaurant. Elle explique aussi les articles partitifs : du pain, de la viande, de l'eau, des fruits. Après une quantité ou une négation, on utilise seulement de : un kilo de pommes, je ne mange pas de viande. On apprend aussi à commander poliment avec je voudrais et à demander l'addition."
   },
   "fr.l.ciudad": {
    "titulo_l": "La ville et l'orientation",
-   "oficial": null,
-   "descripcion_l": "Les lieux, les transports ; demander et indiquer le chemin."
+   "oficial": "Les lieux dans la ville (les commerces et services); Les moyens de transport; Demander / indiquer des instructions, un itinéraire",
+   "nivel_oficial": "A1",
+   "descripcion_l": "Les lieux, les transports ; demander et indiquer le chemin.",
+   "descripcion_larga_l": "Cette fiche présente les mots pour se déplacer en ville : les lieux (la gare, la mairie, la bibliothèque), les transports (en bus, à pied) et les phrases pour demander son chemin et l'expliquer. On en a besoin dès le premier jour de voyage. Attention aux formes au et du, à l'expression à droite sans article et au mot librairie, qui n'est pas une bibliothèque."
   },
   "fr.l.trabajo-estudios": {
    "titulo_l": "Le travail et les études",
-   "oficial": null,
-   "descripcion_l": "Les professions, les tâches et la formation."
+   "oficial": "Le monde du travail, la vie professionnelle; Le système éducatif, les études, la formation",
+   "nivel_oficial": "A1",
+   "descripcion_l": "Les professions, les tâches et la formation.",
+   "descripcion_larga_l": "Ce vocabulaire sert à parler du travail (un emploi, le salaire, un contrat, les horaires, le chômage, la retraite) et des études (le collège, le lycée, la fac, un examen, un stage, un concours). On l'utilise pour se présenter ou pendant un entretien. Attention aux faux amis : passer un examen ne veut pas dire le réussir !"
   },
   "fr.l.viajes": {
    "titulo_l": "Les voyages et l'hébergement",
-   "oficial": null,
-   "descripcion_l": "Les réservations, l'aéroport, l'hôtel et les problèmes en voyage."
+   "oficial": "Les vacances, les voyages",
+   "nivel_oficial": "A1",
+   "descripcion_l": "Les réservations, l'aéroport, l'hôtel et les problèmes en voyage.",
+   "descripcion_larga_l": "Ce vocabulaire sert à organiser un voyage : acheter un billet, enregistrer ses bagages, trouver le bon quai, réserver une chambre d'hôtel et régler les problèmes comme un retard, une valise perdue ou une réclamation. Il faut aussi connaître les formules polies (je voudrais, pourriez-vous) et les prépositions avec les pays : en France, au Portugal, aux États-Unis."
   },
   "fr.l.salud": {
    "titulo_l": "La santé et le corps",
-   "oficial": null,
-   "descripcion_l": "Les symptômes, le médecin et les bonnes habitudes."
+   "oficial": "La santé; Décrire un état physique",
+   "nivel_oficial": "A2",
+   "descripcion_l": "Les symptômes, le médecin et les bonnes habitudes.",
+   "descripcion_larga_l": "Cette fiche présente le vocabulaire de la santé et du corps : comment dire où on a mal, expliquer ses symptômes au médecin ou au pharmacien et parler d'une vie saine. La structure la plus importante est « avoir mal à » + partie du corps : j'ai mal à la tête, au dos, aux dents. Attention aux faux amis : « constipé » ne veut pas dire « enrhumé » !"
   },
   "fr.l.dinero": {
    "titulo_l": "L'argent et la consommation",
-   "oficial": null,
-   "descripcion_l": "Payer, la banque, acheter et rendre un produit."
+   "oficial": "La consommation; Les comportements liés à l’argent",
+   "nivel_oficial": "A2",
+   "descripcion_l": "Payer, la banque, acheter et rendre un produit.",
+   "descripcion_larga_l": "Cette fiche présente les mots de l'argent et des achats : payer par carte ou en espèces, retirer de l'argent au distributeur, faire un virement, économiser, emprunter ou prêter. Elle explique aussi comment échanger ou rendre un article dans un magasin. Attention à quelques pièges : la monnaie, c'est l'argent qu'on vous rend, et prêter n'est pas emprunter."
   },
   "fr.l.clima": {
    "titulo_l": "La météo et le climat",
-   "oficial": null,
-   "descripcion_l": "Le temps qu'il fait et les saisons."
+   "oficial": "La météo",
+   "nivel_oficial": "A1",
+   "descripcion_l": "Le temps qu'il fait et les saisons.",
+   "descripcion_larga_l": "Cette fiche explique comment parler du temps en français avec trois structures : il fait + adjectif (il fait chaud), il y a + nom (il y a du vent) et il + verbe (il pleut, il neige). On apprend aussi les saisons, la météo et des mots comme canicule ou averse. Attention : on dit j'ai froid, pas je suis froid, et au printemps, pas en printemps."
   },
   "fr.l.gustos": {
    "titulo_l": "Exprimer ses goûts et une opinion simple",
-   "oficial": null,
-   "descripcion_l": "J'aime, je préfère, je pense que…"
+   "oficial": "Parler de ses goûts; Parler de ce qui a plu ou déplu",
+   "nivel_oficial": "A1",
+   "descripcion_l": "J'aime, je préfère, je pense que…",
+   "descripcion_larga_l": "Cette fiche présente les verbes et les expressions pour parler de ses goûts : aimer, adorer, préférer, détester, avoir horreur de, ça me plaît. Elle montre aussi comment donner une opinion simple : je pense que, je trouve que, à mon avis. On dit « j'aime le chocolat », avec l'article, et « je préfère le thé au café ». Pour répondre à une phrase négative, on dit « moi non plus » ou « moi si »."
   },
   "fr.l.medios": {
-   "titulo_l": "Les médias",
-   "oficial": null,
-   "descripcion_l": "La presse, la radio, les réseaux sociaux et l'actualité."
+   "titulo_l": "Les médias et l'actualité",
+   "oficial": "Les médias et l’actualité",
+   "nivel_oficial": "B1",
+   "descripcion_l": "La presse, la radio, les réseaux sociaux et l'actualité.",
+   "descripcion_larga_l": "Ce vocabulaire sert à parler de la presse écrite, de la radio, de la télévision et des réseaux sociaux, et à résumer ou commenter une information : la une, le gros titre, la source, la rumeur, le démenti. Il est indispensable pour présenter un article à l'oral. Attention aux faux amis et au conditionnel journalistique pour une information non confirmée."
   },
   "fr.l.medio-ambiente": {
-   "titulo_l": "L'environnement",
-   "oficial": null,
-   "descripcion_l": "La pollution, l'énergie et le changement climatique."
+   "titulo_l": "L'environnement, le climat, l'écologie",
+   "oficial": "L’environnement, le climat, l’écologie",
+   "nivel_oficial": "B2",
+   "descripcion_l": "La pollution, l'énergie et le changement climatique.",
+   "descripcion_larga_l": "Ce vocabulaire permet de parler des problèmes de l'environnement (pollution, réchauffement climatique, sécheresse, perte de biodiversité) et des solutions possibles (énergies renouvelables, recyclage, transition écologique). C'est un thème très fréquent dans les débats et dans l'actualité. Attention aux faux amis : en français, on dit la pollution de l'air et le développement durable."
   },
   "fr.l.conectores-1": {
    "titulo_l": "Les connecteurs logiques de base",
-   "oficial": null,
-   "descripcion_l": "Exprimer la cause, la conséquence, l'opposition, l'addition et l'ordre."
+   "oficial": "Articulateurs; La cause; La conséquence; L’opposition; Articulateurs chronologiques (tout d’abord / puis / ensuite / après / enfin / premièrement / deuxièmement)",
+   "nivel_oficial": "A1",
+   "descripcion_l": "Exprimer la cause, la conséquence, l'opposition, l'addition et l'ordre.",
+   "descripcion_larga_l": "Les connecteurs logiques (parce que, à cause de, donc, pourtant, malgré, d'abord…) relient les idées d'un texte. Ils montrent une cause, une conséquence, une opposition, un ajout ou l'ordre des arguments. Ils sont indispensables pour parler ou écrire de façon claire. Attention à la construction : parce que est suivi d'une phrase, à cause de d'un nom, et bien que du subjonctif."
   },
   "fr.l.opinar": {
    "titulo_l": "Donner son opinion, approuver, contester",
-   "oficial": null,
-   "descripcion_l": "Les formules pour donner son avis, être d'accord ou ne pas l'être."
+   "oficial": "Exprimer l´accord et le désaccord; Exprimer un point de vue, une opinion",
+   "nivel_oficial": "A2",
+   "descripcion_l": "Les formules pour donner son avis, être d'accord ou ne pas l'être.",
+   "descripcion_larga_l": "Cette fiche présente les expressions pour donner son avis, dire qu'on est d'accord ou pas d'accord, et nuancer. Elles sont indispensables dans un débat, une réunion ou un examen oral. Il faut aussi faire attention au mode du verbe : on dit « je pense que c'est vrai » avec l'indicatif, mais « je ne pense pas que ce soit vrai » avec le subjonctif."
   },
   "fr.l.narrar": {
    "titulo_l": "Raconter une expérience",
-   "oficial": null,
-   "descripcion_l": "Les marqueurs temporels et les mots pour organiser un récit."
+   "oficial": "Raconter une expérience passée; Raconter un souvenir, une anecdote, une suite de faits",
+   "nivel_oficial": "A2",
+   "descripcion_l": "Les marqueurs temporels et les mots pour organiser un récit.",
+   "descripcion_larga_l": "Ces mots permettent de raconter une histoire au passé : situer les faits dans le temps (il y a, depuis, pendant, la veille, le lendemain), les mettre en ordre (d'abord, ensuite, finalement) et introduire une surprise (soudain, tout à coup). Ils sont très utiles pour raconter une expérience à l'oral. Attention à la différence entre il y a, depuis et pendant."
   },
   "fr.l.sociedad": {
    "titulo_l": "La société et le vivre-ensemble",
-   "oficial": null,
-   "descripcion_l": "L'égalité, les migrations, l'éducation et le logement."
+   "oficial": "Les tendances et les problèmes de société",
+   "nivel_oficial": "B2",
+   "descripcion_l": "L'égalité, les migrations, l'éducation et le logement.",
+   "descripcion_larga_l": "Cette fiche présente le vocabulaire pour parler des grands sujets de société : les inégalités, l'immigration et l'intégration, l'école, le logement, le vieillissement de la population et la protection sociale. On y apprend des expressions fixes très utiles dans un débat, comme « lutter contre la pauvreté », « l'égalité des chances » ou « avoir du mal à se loger ». Attention aux faux amis : un volontaire n'est pas toujours un bénévole !"
   },
   "fr.l.economia": {
    "titulo_l": "L'économie et l'entreprise",
-   "oficial": null,
-   "descripcion_l": "La croissance, l'emploi, l'inflation, les marchés et le commerce."
+   "oficial": "L’économie",
+   "nivel_oficial": "B2",
+   "descripcion_l": "La croissance, l'emploi, l'inflation, les marchés et le commerce.",
+   "descripcion_larga_l": "Cette fiche présente le vocabulaire de base de l'économie et de l'entreprise : la croissance, le chômage, l'inflation, le pouvoir d'achat, les taux d'intérêt, le chiffre d'affaires, la concurrence et la balance commerciale. Ce sont des mots qu'on lit tous les jours dans la presse. Attention au genre de certains noms et aux faux amis, comme compétence et concurrence."
   },
   "fr.l.politica": {
    "titulo_l": "La politique et les institutions",
-   "oficial": null,
-   "descripcion_l": "Le gouvernement, le parlement, les élections et l'Union européenne."
+   "oficial": "La politique, Les valeurs sociétales",
+   "nivel_oficial": "B2",
+   "descripcion_l": "Le gouvernement, le parlement, les élections et l'Union européenne.",
+   "descripcion_larga_l": "Ce vocabulaire sert à parler de la vie politique et des institutions en France et en Europe : le gouvernement, les ministres, l'Assemblée nationale et le Sénat, les élections, les sondages, les partis politiques et l'Union européenne. Il est indispensable pour lire la presse, comprendre les informations et donner son opinion sur l'actualité. Attention aux mots proches de l'espagnol, comme député, démission ou adopter une loi."
   },
   "fr.l.ciencia-tecnologia": {
    "titulo_l": "Les sciences et les technologies",
-   "oficial": null,
-   "descripcion_l": "La recherche, le numérique et l'intelligence artificielle."
+   "oficial": "Les technologies de l’information et de la communication (les tics); Vocabulaire de spécialité : scientifique, médical, juridique ...",
+   "nivel_oficial": "B2",
+   "descripcion_l": "La recherche, le numérique et l'intelligence artificielle.",
+   "descripcion_larga_l": "Cette fiche présente le vocabulaire de la science et des technologies : la recherche, un chercheur, une découverte, un brevet, les données, un logiciel, un courriel, l'intelligence artificielle. Ces mots apparaissent tous les jours dans la presse. En français soutenu, on préfère les termes français aux mots anglais. Attention aux faux amis : la recherche, pas l'investigation ; les données, pas les dates."
   },
   "fr.l.conectores-2": {
    "titulo_l": "Les articulateurs de l'argumentation",
-   "oficial": null,
-   "descripcion_l": "Exprimer la concession, reformuler, donner un exemple et conclure."
+   "oficial": "Introduire un argument : de plus, d’ailleurs, et même, or, non seulement… mais encore; Illustrer (par exemple, d’ailleurs, comme); Reformuler un propos (autrement dit, c’est-à-dire, en d’autres termes, en un mot); Conclure (en définitive, après tout, tout bien considéré)",
+   "nivel_oficial": "B2",
+   "descripcion_l": "Exprimer la concession, reformuler, donner un exemple et conclure.",
+   "descripcion_larga_l": "Cette fiche présente les connecteurs de l'argumentation : pour faire une concession (bien que, malgré, certes… mais, avoir beau), pour reformuler (autrement dit, c'est-à-dire), pour donner un exemple (notamment, à savoir) et pour conclure (en somme, tout compte fait). Chaque connecteur impose une construction : le subjonctif après bien que et quoique, l'indicatif après même si, un nom après malgré, un infinitif après avoir beau."
   },
   "fr.l.matizar": {
    "titulo_l": "Nuancer et atténuer",
-   "oficial": null,
-   "descripcion_l": "Exprimer la probabilité, la prudence et les degrés de certitude."
+   "oficial": "Nuancer; Exprimer la possibilité et la probabilité; Exprimer des certitudes / le doute",
+   "nivel_oficial": "B2",
+   "descripcion_l": "Exprimer la probabilité, la prudence et les degrés de certitude.",
+   "descripcion_larga_l": "Pour ne pas affirmer les choses de façon trop catégorique, le français dispose de nombreuses expressions : sans aucun doute, probablement, il est possible que, il se peut que, il semble que, plutôt, dans une certaine mesure, à première vue. Le conditionnel sert aussi à présenter une information non confirmée : le ministre aurait démissionné. Ces nuances sont essentielles dans un débat ou un exposé."
   },
   "fr.l.tendencias-cifras": {
    "titulo_l": "Décrire des tendances et des chiffres",
-   "oficial": null,
-   "descripcion_l": "Augmenter, baisser, se stabiliser ; les pourcentages et les comparaisons."
+   "oficial": "Rédiger un commentaire (des données chiffrées)",
+   "nivel_oficial": "B2",
+   "descripcion_l": "Augmenter, baisser, se stabiliser ; les pourcentages et les comparaisons.",
+   "descripcion_larga_l": "Ce vocabulaire sert à décrire l'évolution des chiffres : la hausse (augmenter, progresser, grimper), la baisse (baisser, reculer, chuter) et la stabilité (stagner, rester stable). On l'utilise pour commenter un graphique ou résumer un article économique. Attention : on dit augmenter de 5 %, passer de 10 à 15 %, et on écrit 2,5 % avec une virgule et un espace."
   },
   "fr.l.colocaciones": {
    "titulo_l": "Les collocations fréquentes",
    "oficial": null,
-   "descripcion_l": "Les mots qui vont naturellement ensemble (prendre une décision…)."
+   "descripcion_l": "Les mots qui vont naturellement ensemble (prendre une décision…).",
+   "descripcion_larga_l": "Une collocation est une combinaison de mots que les Français utilisent toujours ensemble : prendre une décision, poser une question, faire la queue, porter plainte. Cette fiche présente les plus fréquentes. Elles sont essentielles pour parler un français naturel, car la traduction mot à mot depuis l'espagnol donne souvent des phrases compréhensibles mais bizarres, comme « faire une question » ou « approuver un examen »."
   },
   "fr.l.falsos-amigos": {
    "titulo_l": "Les faux amis avec l'espagnol",
    "oficial": null,
-   "descripcion_l": "Des mots qui se ressemblent mais n'ont pas le même sens."
+   "descripcion_l": "Des mots qui se ressemblent mais n'ont pas le même sens.",
+   "descripcion_larga_l": "Les faux amis sont des mots français qui ressemblent à des mots espagnols mais qui n'ont pas le même sens : « constipé » ne veut pas dire enrhumé, « embarrassée » ne veut pas dire enceinte, une « librairie » n'est pas une bibliothèque. Pour un hispanophone, ce sont des pièges très fréquents. Il faut les apprendre par paires : le mot français et le mot qui traduit vraiment l'idée espagnole."
   },
   "fr.l.registro": {
    "titulo_l": "Les registres de langue",
-   "oficial": null,
-   "descripcion_l": "Choisir ses mots selon la situation : registre soutenu, courant ou familier."
+   "oficial": "Les registres de langue",
+   "nivel_oficial": "B2",
+   "descripcion_l": "Choisir ses mots selon la situation : registre soutenu, courant ou familier.",
+   "descripcion_larga_l": "Cette fiche présente les trois registres du français : familier, courant et soutenu. On les reconnaît au vocabulaire (bagnole, voiture, véhicule) mais aussi à la grammaire : le « ne » de la négation, le choix entre « on » et « nous », la forme des questions. Dans un examen ou un entretien, il faut éviter le registre familier et savoir passer au registre soutenu quand la situation l'exige."
   },
   "fr.l.formacion-palabras": {
    "titulo_l": "La formation des mots",
    "oficial": null,
-   "descripcion_l": "Les préfixes, les suffixes et les familles de mots."
+   "descripcion_l": "Les préfixes, les suffixes et les familles de mots.",
+   "descripcion_larga_l": "Cette fiche présente les préfixes et les suffixes les plus utiles du français. Ils permettent de passer d'un verbe à un nom (réduire → la réduction), d'un adjectif à un nom (rare → la rareté) ou à un adverbe (récent → récemment), et de former des contraires (légal → illégal). Connaître ces familles de mots aide à comprendre des mots nouveaux et à reformuler une phrase, surtout dans un style administratif ou journalistique."
   },
   "fr.l.prensa-idiomatica": {
    "titulo_l": "Les expressions idiomatiques de la presse",
-   "oficial": null,
-   "descripcion_l": "Les locutions fréquentes dans les articles et les éditoriaux."
+   "oficial": "Les expressions idiomatiques",
+   "nivel_oficial": "C1",
+   "descripcion_l": "Les locutions fréquentes dans les articles et les éditoriaux.",
+   "descripcion_larga_l": "Les journaux français utilisent chaque jour des expressions imagées : « tirer la sonnette d'alarme », « être sur la sellette », « botter en touche ». Ces locutions sont figées : on ne change ni l'article ni le nom. Les comprendre est indispensable pour résumer un article de presse ; les employer avec mesure rend un exposé oral plus naturel et plus convaincant."
   },
   "fr.l.abstracto": {
    "titulo_l": "Le vocabulaire abstrait",
    "oficial": null,
-   "descripcion_l": "Les noms d'idées, de processus et de qualités."
+   "descripcion_l": "Les noms d'idées, de processus et de qualités.",
+   "descripcion_larga_l": "Cette fiche présente des noms abstraits du français soutenu : enjeu, constat, essor, écueil, portée, clivage… Ils permettent de parler d'idées, de processus et de qualités plutôt que de faits concrets. On les retrouve dans la presse, les rapports et les dissertations. Il faut les apprendre avec leurs verbes habituels : dresser un constat, relever un défi, marquer un tournant, connaître un essor."
   },
   "fr.l.exposicion": {
    "titulo_l": "Structurer un exposé oral",
-   "oficial": null,
-   "descripcion_l": "Introduire, enchaîner les parties, gagner du temps et conclure."
+   "oficial": "Organiser son discours (l’introduction, le développement, la thèse et l’antithèse, les illustrations, la conclusion…); Faire une transition; Faire une présentation d’un thème, d’un projet",
+   "nivel_oficial": "B1",
+   "descripcion_l": "Introduire, enchaîner les parties, gagner du temps et conclure.",
+   "descripcion_larga_l": "Cette fiche réunit les expressions utiles pour bien construire un exposé oral : présenter le document, poser la problématique, annoncer le plan, passer d'une partie à l'autre, gagner un peu de temps pour réfléchir et conclure en ouvrant une perspective. En France, un exposé sans plan annoncé paraît désorganisé : ces formules montrent au jury que votre pensée est claire et structurée."
   },
   "fr.l.sintesis": {
    "titulo_l": "Résumer et reformuler",
-   "oficial": null,
-   "descripcion_l": "Les verbes introducteurs et la paraphrase."
+   "oficial": "Reformuler pour expliquer ou généraliser; Synthétiser un bref récit, un article, un exposé, une interview, un documentaire et donner son opinion; Résumer un texte ou une discussion en restituant les prises de position et les raisonnements",
+   "nivel_oficial": "B1",
+   "descripcion_l": "Les verbes introducteurs et la paraphrase.",
+   "descripcion_larga_l": "Pour résumer un texte, il ne faut pas répéter « l'auteur dit ». Le français offre beaucoup de verbes qui montrent l'intention de l'auteur : affirmer, souligner, dénoncer, reconnaître, nuancer, préconiser. Il faut aussi connaître leur construction : on dit « souligner que » mais « insister sur ». La reformulation demande de changer les mots et les structures sans changer le sens : synonymes, nominalisation, voix passive."
   },
   "fr.l.debate": {
    "titulo_l": "Débattre et répondre aux questions",
-   "oficial": null,
-   "descripcion_l": "Demander des précisions, nuancer et conclure."
+   "oficial": "Organiser et donner son avis dans un débat; Les rituels du débat et de l’argumentation",
+   "nivel_oficial": "B2",
+   "descripcion_l": "Demander des précisions, nuancer et conclure.",
+   "descripcion_larga_l": "Ces formules servent à participer à un débat ou à répondre aux questions d'un jury : demander de reformuler une question, montrer son accord ou son désaccord avec politesse, garder la parole, nuancer et conclure. Le débat en français est poli mais direct : on reconnaît d'abord le point de vue de l'autre, puis on le discute. Le conditionnel (pourriez-vous, je dirais plutôt) rend les phrases plus courtoises."
   },
   "fr.l.derecho-justicia": {
    "titulo_l": "Le droit et la justice",
-   "oficial": null,
-   "descripcion_l": "Les lois, les tribunaux et les droits."
+   "oficial": "Le droit et la justice",
+   "nivel_oficial": "C1",
+   "descripcion_l": "Les lois, les tribunaux et les droits.",
+   "descripcion_larga_l": "Cette fiche présente le vocabulaire du droit et de la justice : les lois et les décrets, les tribunaux et les cours, les étapes d'un procès et les droits fondamentaux. Beaucoup de mots ressemblent à l'espagnol, mais leur sens est parfois différent. Il faut bien distinguer le procès, la procédure et le processus, et connaître les rôles du juge, du procureur et de l'avocat."
   },
   "fr.l.cultura": {
    "titulo_l": "La culture et les arts",
-   "oficial": null,
-   "descripcion_l": "La littérature, le cinéma et le patrimoine."
+   "oficial": "Les sujets culturels : cinéma, littérature, peinture, musique, spectacles",
+   "nivel_oficial": "B1",
+   "descripcion_l": "La littérature, le cinéma et le patrimoine.",
+   "descripcion_larga_l": "Ce vocabulaire permet de parler d'un livre, d'un film, d'une pièce de théâtre ou d'une exposition, et de commenter la politique culturelle : tourner un film, la mise en scène, un recueil, l'intrigue, un vernissage, un chef-d'œuvre. Les adjectifs de la critique, comme saisissant, poignant ou convenu, servent à donner un avis nuancé. Attention aux faux amis : un réalisateur dirige un film, un metteur en scène une pièce."
   },
   "fr.l.estilo": {
    "titulo_l": "Les nuances de style",
-   "oficial": null,
-   "descripcion_l": "Les synonymes et leurs nuances, l'ironie et l'atténuation."
+   "oficial": "Le ton du discours : humeur (exaspération, satisfaction), ironie, cynisme; L’implicite et les connotations",
+   "nivel_oficial": "C1",
+   "descripcion_l": "Les synonymes et leurs nuances, l'ironie et l'atténuation.",
+   "descripcion_larga_l": "Cette fiche porte sur les nuances du style : choisir le synonyme juste selon son intensité ou sa connotation, et comprendre les figures qui permettent de dire plus en disant moins. La litote (« ce n'est pas mal »), l'euphémisme (« un plan social ») et l'ironie (« Bravo, quelle réussite ! ») sont très présents dans la presse et la conversation cultivée."
   },
   "fr.l.alusiones": {
    "titulo_l": "Les proverbes et les références culturelles",
-   "oficial": null,
-   "descripcion_l": "Les références qu'un locuteur natif connaît sans les expliquer."
+   "oficial": "L’utilisation des citations; L’implicite et les connotations",
+   "nivel_oficial": "C1",
+   "descripcion_l": "Les références qu'un locuteur natif connaît sans les expliquer.",
+   "descripcion_larga_l": "Cette fiche rassemble des proverbes et des allusions culturelles que tout Français connaît : la cigale et la fourmi, un choix cornélien, franchir le Rubicon, une victoire à la Pyrrhus, un vrai Tartuffe. La presse et les discours les utilisent sans les expliquer, souvent en les détournant. Les reconnaître aide à comprendre un titre ; les employer au bon moment montre une maîtrise fine de la langue."
   },
   "fr.l.especializado": {
    "titulo_l": "Le lexique spécialisé",
-   "oficial": null,
-   "descripcion_l": "La finance, la diplomatie et le commerce international."
+   "oficial": "Vocabulaire de spécialité : scientifique, médical, juridique ...",
+   "nivel_oficial": "B2",
+   "descripcion_l": "La finance, la diplomatie et le commerce international.",
+   "descripcion_larga_l": "Cette fiche rassemble le vocabulaire spécialisé de la finance, de la politique monétaire, du commerce international et de la diplomatie : droits de douane, taux directeur, obligations, resserrement monétaire, barrières non tarifaires, règlement des différends, lettres de créance ou bons offices. Ces termes ont un sens précis et une traduction fixe ; il faut les employer exactement, sans calquer l'espagnol."
   },
   "fr.f.alfabeto-sonidos": {
    "titulo_l": "Les sons du français",
@@ -679,27 +909,32 @@
   },
   "fr.d.carta": {
    "titulo_l": "Les lettres et les courriels",
-   "oficial": null,
+   "oficial": "Les rituels de la lettre amicale / du courriel électronique; Les rituels de la lettre formelle, commerciale",
+   "nivel_oficial": "A1",
    "descripcion_l": "Formels et informels : formules et structure."
   },
   "fr.d.resumen": {
-   "titulo_l": "Rédiger un résumé",
-   "oficial": null,
+   "titulo_l": "Résumer un texte ou une discussion",
+   "oficial": "Résumer un texte ou une discussion en restituant les prises de position et les raisonnements",
+   "nivel_oficial": "B2",
    "descripcion_l": "Reprendre la thèse, les arguments et la conclusion sans recopier le texte."
   },
   "fr.d.opinion": {
    "titulo_l": "Rédiger un article d'opinion",
-   "oficial": null,
+   "oficial": "Argumenter une prise de position et la défendre; Développer une argumentation logique et cohérente",
+   "nivel_oficial": "B2",
    "descripcion_l": "La thèse, les arguments, la concession et la conclusion."
   },
   "fr.d.exposicion-oral": {
    "titulo_l": "Présenter un texte à l'oral",
-   "oficial": null,
+   "oficial": "Synthétiser un bref récit, un article, un exposé, une interview, un documentaire et donner son opinion; Faire une présentation d’un thème, d’un projet",
+   "nivel_oficial": "B1",
    "descripcion_l": "En cinq minutes : présenter le texte, le résumer et donner son avis."
   },
   "fr.d.preguntas-tribunal": {
    "titulo_l": "Répondre aux questions du jury",
-   "oficial": null,
+   "oficial": "Demander / donner une explication, des précisions; Exprimer son hésitation",
+   "nivel_oficial": "A2",
    "descripcion_l": "Gagner du temps, nuancer et conclure."
   }
  }

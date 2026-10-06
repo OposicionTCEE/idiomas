@@ -6,54 +6,518 @@
  "nivel": "A1",
  "resumen": "Il y a equivale a «hay»: dice que algo existe o está en un lugar. Voilà (y voici) sirve para señalar o presentar algo que se tiene delante: «aquí está», «este es», «mira».",
  "explicacion": [
-  {"tipo": "texto", "texto": "Il y a es invariable, igual que «hay»: il y a un chat, il y a trois chats. Va seguido normalmente de un artículo indefinido o partitivo, de un número o de una expresión de cantidad: il y a des nuages, il y a du pain, il y a beaucoup de monde."},
-  {"tipo": "tabla", "cabecera": ["Forma", "Ejemplo", "Español"], "filas": [
-   ["afirmativa", "Il y a une banque ici.", "Aquí hay un banco."],
-   ["negativa", "Il n'y a pas de banque ici.", "Aquí no hay banco."],
-   ["pregunta", "Est-ce qu'il y a une banque ici ? / Y a-t-il une banque ici ?", "¿Hay un banco aquí?"],
-   ["con duración pasada", "Je suis arrivé il y a deux ans.", "Llegué hace dos años."]
-  ]},
-  {"tipo": "lista", "items": [
-   "En la negación, un, une, des y el partitivo pasan a de: il n'y a pas de pain, il n'y a plus d'eau.",
-   "Il y a + tiempo equivale a «hace» (tiempo transcurrido): il y a une semaine (hace una semana).",
-   "En la lengua oral se oye a menudo y a (sin il) e y a pas, pero por escrito se escribe completo."
-  ]},
-  {"tipo": "texto", "texto": "Voilà y voici señalan algo presente, como un gesto: Voilà mon ami Tom (este es mi amigo Tom), Voici mon bureau (aquí está mi despacho). En teoría voici es lo cercano y voilà lo lejano, pero en la práctica voilà se usa para todo. Con pronombres: me voilà (aquí estoy), le voilà (ahí está), les voilà. Voilà sola significa «ya está» o «eso es»."},
-  {"tipo": "tabla", "cabecera": ["Para…", "Francés", "Español"], "filas": [
-   ["describir lo que hay", "Il y a un livre sur la table.", "Hay un libro en la mesa."],
-   ["señalar o entregar", "Voilà le livre !", "¡Aquí tienes el libro!"]
-  ]}
+  {
+   "tipo": "texto",
+   "texto": "Il y a es invariable, igual que «hay»: il y a un chat, il y a trois chats. Va seguido normalmente de un artículo indefinido o partitivo, de un número o de una expresión de cantidad: il y a des nuages, il y a du pain, il y a beaucoup de monde."
+  },
+  {
+   "tipo": "tabla",
+   "cabecera": [
+    "Forma",
+    "Ejemplo",
+    "Español"
+   ],
+   "filas": [
+    [
+     "afirmativa",
+     "Il y a une banque ici.",
+     "Aquí hay un banco."
+    ],
+    [
+     "negativa",
+     "Il n'y a pas de banque ici.",
+     "Aquí no hay banco."
+    ],
+    [
+     "pregunta",
+     "Est-ce qu'il y a une banque ici ? / Y a-t-il une banque ici ?",
+     "¿Hay un banco aquí?"
+    ],
+    [
+     "con duración pasada",
+     "Je suis arrivé il y a deux ans.",
+     "Llegué hace dos años."
+    ]
+   ]
+  },
+  {
+   "tipo": "lista",
+   "items": [
+    "En la negación, un, une, des y el partitivo pasan a de: il n'y a pas de pain, il n'y a plus d'eau.",
+    "Il y a + tiempo equivale a «hace» (tiempo transcurrido): il y a une semaine (hace una semana).",
+    "En la lengua oral se oye a menudo y a (sin il) e y a pas, pero por escrito se escribe completo."
+   ]
+  },
+  {
+   "tipo": "texto",
+   "texto": "Voilà y voici señalan algo presente, como un gesto: Voilà mon ami Tom (este es mi amigo Tom), Voici mon bureau (aquí está mi despacho). En teoría voici es lo cercano y voilà lo lejano, pero en la práctica voilà se usa para todo. Con pronombres: me voilà (aquí estoy), le voilà (ahí está), les voilà. Voilà sola significa «ya está» o «eso es»."
+  },
+  {
+   "tipo": "tabla",
+   "cabecera": [
+    "Para…",
+    "Francés",
+    "Español"
+   ],
+   "filas": [
+    [
+     "describir lo que hay",
+     "Il y a un livre sur la table.",
+     "Hay un libro en la mesa."
+    ],
+    [
+     "señalar o entregar",
+     "Voilà le livre !",
+     "¡Aquí tienes el libro!"
+    ]
+   ]
+  }
  ],
  "ejemplos": [
-  {"frase": "À Paris, il y a une tour, la tour Eiffel.", "traduccion": "En París hay una torre, la torre Eiffel."},
-  {"frase": "En France, il y a des cathédrales, des châteaux et des monuments anciens.", "traduccion": "En Francia hay catedrales, castillos y monumentos antiguos."},
-  {"frase": "Au Texas, il n'y a pas de cathédrales.", "traduccion": "En Texas no hay catedrales."},
-  {"frase": "Il y a un café à côté. Allons prendre un sandwich.", "traduccion": "Hay una cafetería al lado. Vamos a tomar un sándwich."},
-  {"frase": "Voilà ma page Facebook.", "traduccion": "Esta es mi página de Facebook."},
-  {"frase": "Tu cherches Marie ? La voilà !", "traduccion": "¿Buscas a Marie? ¡Ahí está!"}
+  {
+   "frase": "À Paris, il y a une tour, la tour Eiffel.",
+   "traduccion": "En París hay una torre, la torre Eiffel."
+  },
+  {
+   "frase": "En France, il y a des cathédrales, des châteaux et des monuments anciens.",
+   "traduccion": "En Francia hay catedrales, castillos y monumentos antiguos."
+  },
+  {
+   "frase": "Au Texas, il n'y a pas de cathédrales.",
+   "traduccion": "En Texas no hay catedrales."
+  },
+  {
+   "frase": "Il y a un café à côté. Allons prendre un sandwich.",
+   "traduccion": "Hay una cafetería al lado. Vamos a tomar un sándwich."
+  },
+  {
+   "frase": "Voilà ma page Facebook.",
+   "traduccion": "Esta es mi página de Facebook."
+  },
+  {
+   "frase": "Tu cherches Marie ? La voilà !",
+   "traduccion": "¿Buscas a Marie? ¡Ahí está!"
+  }
  ],
  "errores_hispanohablantes": [
-  {"mal": "Il a beaucoup de touristes.", "bien": "Il y a beaucoup de touristes.", "nota": "Hay se dice il y a; il a significa «él tiene»."},
-  {"mal": "Il y a pas des chaises.", "bien": "Il n'y a pas de chaises.", "nota": "En la negación se pone ne y el artículo indefinido pasa a de."},
-  {"mal": "Il y ont trois chats.", "bien": "Il y a trois chats.", "nota": "Il y a no varía aunque lo que sigue sea plural, igual que «hay»."}
+  {
+   "mal": "Il a beaucoup de touristes.",
+   "bien": "Il y a beaucoup de touristes.",
+   "nota": "Hay se dice il y a; il a significa «él tiene»."
+  },
+  {
+   "mal": "Il y a pas des chaises.",
+   "bien": "Il n'y a pas de chaises.",
+   "nota": "En la negación se pone ne y el artículo indefinido pasa a de."
+  },
+  {
+   "mal": "Il y ont trois chats.",
+   "bien": "Il y a trois chats.",
+   "nota": "Il y a no varía aunque lo que sigue sea plural, igual que «hay»."
+  }
  ],
  "ejercicios": [
-  {"id": "e01", "tipo": "transformar", "enunciado": "Pasa la frase a negativa.", "frase": "Il y a un chat.", "respuestas": ["Il n'y a pas de chat."], "explicacion": "Il n'y a pas y el artículo un pasa a de.", "origen": "tatoeba:382109"},
-  {"id": "e02", "tipo": "transformar", "enunciado": "Pasa la frase a negativa.", "frase": "Il y a des insectes partout.", "respuestas": ["Il n'y a pas d'insectes partout."], "explicacion": "Des pasa a de, que se apostrofa ante vocal: d'insectes.", "origen": "tatoeba:1463141"},
-  {"id": "e03", "tipo": "transformar", "enunciado": "Pasa la pregunta a negativa.", "frase": "Il y a une banque ici ?", "respuestas": ["Il n'y a pas de banque ici ?"], "explicacion": "En la negación une pasa a de.", "origen": "tatoeba:2494186"},
-  {"id": "e04", "tipo": "ordenar", "enunciado": "Ordena las palabras.", "palabras": ["lit", "sous", "chat", "le", "un", "a", "y", "Il"], "respuestas": ["Il y a un chat sous le lit", "Sous le lit il y a un chat"], "explicacion": "Il y a + lo que existe + dónde está.", "origen": "tatoeba:487345"},
-  {"id": "e05", "tipo": "hueco", "enunciado": "Completa con el artículo adecuado.", "frase": "Il y a ___ eau sur Mars.", "respuestas": ["de l'"], "explicacion": "Eau es incontable y empieza por vocal: partitivo de l'.", "origen": "tatoeba:12614478"},
-  {"id": "e06", "tipo": "hueco", "enunciado": "Completa con la palabra que falta.", "frase": "Il y a beaucoup ___ monde.", "respuestas": ["de"], "explicacion": "Tras beaucoup solo va de.", "origen": "tatoeba:7115700"},
-  {"id": "e07", "tipo": "eleccion", "enunciado": "Elige la opción correcta (significa «hace veinte años»).", "frase": "Je suis né ___ vingt ans.", "opciones": ["il y a", "pendant", "depuis"], "respuestas": ["il y a"], "explicacion": "Il y a + tiempo equivale a «hace»: il y a vingt ans.", "origen": "tatoeba:772455"},
-  {"id": "e08", "tipo": "eleccion", "enunciado": "Elige la opción para presentar a alguien que tienes delante.", "frase": "___ mon ami Tom.", "opciones": ["Voilà", "Il y a", "Il est"], "respuestas": ["Voilà"], "explicacion": "Voilà presenta o señala a alguien: «este es mi amigo Tom».", "origen": "tatoeba:3307494"},
-  {"id": "e09", "tipo": "eleccion", "enunciado": "Elige la opción correcta.", "frase": "___ un message pour vous.", "opciones": ["Il y a", "Il a", "Il est"], "respuestas": ["Il y a"], "explicacion": "Para decir que algo existe («hay») se usa il y a.", "origen": "tatoeba:1847554"},
-  {"id": "e10", "tipo": "eleccion", "enunciado": "Elige la opción correcta.", "frase": "Il ___ trois chats.", "opciones": ["y a", "a", "est"], "respuestas": ["y a"], "explicacion": "Il y a es invariable: il y a trois chats.", "origen": "tatoeba:13388718"},
-  {"id": "e11", "tipo": "eleccion", "enunciado": "Elige la opción correcta.", "frase": "Dans ma rue, ___ deux boulangeries.", "opciones": ["il y a", "voilà", "il est"], "respuestas": ["il y a"], "explicacion": "Se describe lo que existe en un lugar: il y a."},
-  {"id": "e12", "tipo": "hueco", "enunciado": "Completa con la palabra que sirve para señalar.", "frase": "Tu cherches tes clés ? Les ___ !", "respuestas": ["voilà", "voici"], "explicacion": "Les voilà (o les voici): «aquí están»."},
-  {"id": "e13", "tipo": "transformar", "enunciado": "Convierte la frase en pregunta con est-ce que.", "frase": "Il y a une pharmacie près d'ici.", "respuestas": ["Est-ce qu'il y a une pharmacie près d'ici ?"], "explicacion": "Est-ce que se apostrofa ante il: est-ce qu'il y a."},
-  {"id": "e14", "tipo": "corregir", "enunciado": "Corrige el error.", "frase": "Il a beaucoup de touristes à Paris en été.", "respuestas": ["Il y a beaucoup de touristes à Paris en été."], "explicacion": "Hay se dice il y a; il a es «él tiene»."},
-  {"id": "e15", "tipo": "corregir", "enunciado": "Corrige el error.", "frase": "Il n'y a pas des chaises dans la salle.", "respuestas": ["Il n'y a pas de chaises dans la salle."], "explicacion": "Tras la negación des pasa a de."},
-  {"id": "e16", "tipo": "corregir", "enunciado": "Corrige el error.", "frase": "Il y ont trois restaurants dans le village.", "respuestas": ["Il y a trois restaurants dans le village."], "explicacion": "Il y a no concuerda con lo que sigue."}
+  {
+   "id": "e01",
+   "tipo": "transformar",
+   "enunciado": "Pasa la frase a negativa.",
+   "frase": "Il y a un chat.",
+   "respuestas": [
+    "Il n'y a pas de chat."
+   ],
+   "explicacion": "Se aplica la regla de la lista de la ficha: en la negación, un, une, des y el partitivo pasan a de. Primero se rodea la parte verbal con ne… pas, que ante la y se apostrofa: il n'y a pas. Después el artículo indefinido un se sustituye por de: pas de chat. El resultado, il n'y a pas de chat, equivale al español «no hay gato», que tampoco lleva artículo.",
+   "origen": "tatoeba:382109",
+   "explicacion_breve": "Il n'y a pas y el artículo un pasa a de.",
+   "traduccion": "No hay ningún gato.",
+   "errores_previstos": [
+    {
+     "respuesta": "Il n'y a pas un chat.",
+     "explicacion": "Se ha mantenido el artículo un. Tras la negación, un pasa a de: il n'y a pas de chat. (Il n'y a pas un chat existe como expresión enfática, «no hay ni un alma», pero no es la negación neutra que se pide)."
+    },
+    {
+     "respuesta": "Il y a pas de chat.",
+     "explicacion": "Así se oye en la lengua oral relajada, pero por escrito la negación necesita ne, apostrofado ante y: il n'y a pas."
+    },
+    {
+     "respuesta": "Il n'a pas de chat.",
+     "explicacion": "Se ha perdido la y: il n'a pas de chat significa «él no tiene gato», no «no hay gato»."
+    }
+   ]
+  },
+  {
+   "id": "e02",
+   "tipo": "transformar",
+   "enunciado": "Pasa la frase a negativa.",
+   "frase": "Il y a des insectes partout.",
+   "respuestas": [
+    "Il n'y a pas d'insectes partout."
+   ],
+   "explicacion": "Se aplica la regla de la negación: el artículo plural des pasa a de, igual que un o une. Como insectes empieza por vocal, de se apostrofa: d'insectes. La forma verbal negativa es il n'y a pas, con ne apostrofado ante y. La frase resultante es il n'y a pas d'insectes partout.",
+   "origen": "tatoeba:1463141",
+   "explicacion_breve": "Des pasa a de, que se apostrofa ante vocal: d'insectes.",
+   "traduccion": "No hay insectos por todas partes.",
+   "errores_previstos": [
+    {
+     "respuesta": "Il n'y a pas des insectes partout.",
+     "explicacion": "Es el calco del español, que conserva el artículo. Tras la negación des pasa a de, y ante vocal se apostrofa: d'insectes."
+    },
+    {
+     "respuesta": "Il n'y a pas de insectes partout.",
+     "explicacion": "Falta la elisión obligatoria: de ante vocal se escribe d': d'insectes."
+    }
+   ]
+  },
+  {
+   "id": "e03",
+   "tipo": "transformar",
+   "enunciado": "Pasa la pregunta a negativa.",
+   "frase": "Il y a une banque ici ?",
+   "respuestas": [
+    "Il n'y a pas de banque ici ?"
+   ],
+   "explicacion": "Se aplica la regla de la negación: une pasa a de tras il n'y a pas. La pregunta se mantiene como pregunta de entonación, sin cambiar el orden de las palabras, solo añadiendo la negación. El resultado es il n'y a pas de banque ici ?, donde banque queda sin artículo, como en español «¿no hay banco aquí?».",
+   "origen": "tatoeba:2494186",
+   "explicacion_breve": "En la negación une pasa a de.",
+   "traduccion": "¿No hay ningún banco aquí?",
+   "errores_previstos": [
+    {
+     "respuesta": "Il n'y a pas une banque ici ?",
+     "explicacion": "Se ha conservado el artículo une; en la negación pasa a de: pas de banque."
+    },
+    {
+     "respuesta": "Il n'y a pas de la banque ici ?",
+     "explicacion": "De la es partitivo o artículo definido, que no corresponde; el indefinido une pasa simplemente a de."
+    }
+   ]
+  },
+  {
+   "id": "e04",
+   "tipo": "ordenar",
+   "enunciado": "Ordena las palabras.",
+   "palabras": [
+    "lit",
+    "sous",
+    "chat",
+    "le",
+    "un",
+    "a",
+    "y",
+    "Il"
+   ],
+   "respuestas": [
+    "Il y a un chat sous le lit",
+    "Sous le lit il y a un chat"
+   ],
+   "explicacion": "Se aplica la estructura básica de la ficha: il y a + lo que existe + dónde está. El bloque il y a es fijo y sus tres piezas van siempre juntas y en ese orden. Después viene un chat y luego el complemento de lugar sous le lit. También es correcto adelantar el lugar, sous le lit il y a un chat, como en español «debajo de la cama hay un gato».",
+   "origen": "tatoeba:487345",
+   "explicacion_breve": "Il y a + lo que existe + dónde está.",
+   "traduccion": "Hay un gato debajo de la cama.",
+   "errores_previstos": [
+    {
+     "respuesta": "Il a y un chat sous le lit",
+     "explicacion": "El pronombre y va entre il y el verbo: il y a. Cambiar el orden rompe la expresión."
+    },
+    {
+     "respuesta": "Il y a un chat le lit sous",
+     "explicacion": "La preposición sous va delante de su complemento: sous le lit."
+    }
+   ]
+  },
+  {
+   "id": "e05",
+   "tipo": "hueco",
+   "enunciado": "Completa con el artículo adecuado.",
+   "frase": "Il y a ___ eau sur Mars.",
+   "respuestas": [
+    "de l'"
+   ],
+   "explicacion": "La ficha explica que il y a va seguido normalmente de un artículo indefinido o partitivo. Eau es un sustantivo incontable, así que necesita el partitivo, que en femenino es de la; como eau empieza por vocal, la se apostrofa y queda de l'. En español no ponemos nada («hay agua»), pero en francés el partitivo es obligatorio.",
+   "origen": "tatoeba:12614478",
+   "explicacion_breve": "Eau es incontable y empieza por vocal: partitivo de l'.",
+   "traduccion": "Hay agua en Marte.",
+   "errores_previstos": [
+    {
+     "respuesta": "de la",
+     "explicacion": "El partitivo femenino es de la, pero ante vocal se apostrofa: de l'eau."
+    },
+    {
+     "respuesta": "l'",
+     "explicacion": "Il y a l'eau sonaría a «está el agua» (algo concreto ya conocido); para una cantidad indeterminada hace falta el partitivo de l'."
+    },
+    {
+     "respuesta": "des",
+     "explicacion": "Des es el plural indefinido para cosas contables; eau es incontable y lleva partitivo singular: de l'."
+    }
+   ]
+  },
+  {
+   "id": "e06",
+   "tipo": "hueco",
+   "enunciado": "Completa con la palabra que falta.",
+   "frase": "Il y a beaucoup ___ monde.",
+   "respuestas": [
+    "de"
+   ],
+   "explicacion": "La ficha menciona las expresiones de cantidad tras il y a: beaucoup va siempre seguido de de solo, sin artículo, igual que peu de o trop de. Por eso se dice beaucoup de monde y no beaucoup du monde. Monde aquí significa «gente»: il y a du monde es «hay gente», y il y a beaucoup de monde, «hay mucha gente».",
+   "origen": "tatoeba:7115700",
+   "explicacion_breve": "Tras beaucoup solo va de.",
+   "traduccion": "Hay mucha gente.",
+   "errores_previstos": [
+    {
+     "respuesta": "du",
+     "explicacion": "Tras beaucoup el partitivo du se reduce a de: beaucoup de monde."
+    },
+    {
+     "respuesta": "des",
+     "explicacion": "Tras una expresión de cantidad no va artículo; además monde es singular: beaucoup de monde."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "du monde, beaucoup de monde",
+     "significado": "gente, mucha gente (no «mundo»)"
+    }
+   ]
+  },
+  {
+   "id": "e07",
+   "tipo": "eleccion",
+   "enunciado": "Elige la opción correcta (significa «hace veinte años»).",
+   "frase": "Je suis né ___ vingt ans.",
+   "opciones": [
+    "il y a",
+    "pendant",
+    "depuis"
+   ],
+   "respuestas": [
+    "il y a"
+   ],
+   "explicacion": "Se aplica la regla de la ficha: il y a + tiempo equivale a «hace» y fecha una acción terminada en el pasado. La pista es el passé composé je suis né, una acción puntual, y el enunciado, que pide el sentido de «hace veinte años». Il y a vingt ans sitúa el nacimiento en un momento del pasado contado hacia atrás desde hoy.",
+   "origen": "tatoeba:772455",
+   "explicacion_breve": "Il y a + tiempo equivale a «hace»: il y a vingt ans.",
+   "traduccion": "Nací hace veinte años.",
+   "por_opcion": {
+    "il y a": "Correcta: con una duración significa «hace» y sitúa un hecho pasado y terminado.",
+    "pendant": "Incorrecta: significa «durante» y mide cuánto duró algo (pendant vingt ans, durante veinte años); no tiene sentido con nacer.",
+    "depuis": "Incorrecta: significa «desde hace» e indica algo que sigue siendo verdad (j'habite ici depuis vingt ans); no se usa con una acción puntual acabada como naître."
+   }
+  },
+  {
+   "id": "e08",
+   "tipo": "eleccion",
+   "enunciado": "Elige la opción para presentar a alguien que tienes delante.",
+   "frase": "___ mon ami Tom.",
+   "opciones": [
+    "Voilà",
+    "Il y a",
+    "Il est"
+   ],
+   "respuestas": [
+    "Voilà"
+   ],
+   "explicacion": "Se aplica la regla de voilà y voici: señalan o presentan algo o a alguien presente, como un gesto. La pista está en el enunciado, que habla de presentar a alguien que se tiene delante. Voilà mon ami Tom equivale a «este es mi amigo Tom» o «aquí está mi amigo Tom». La ficha recuerda que en la práctica voilà se usa más que voici.",
+   "origen": "tatoeba:3307494",
+   "explicacion_breve": "Voilà presenta o señala a alguien: «este es mi amigo Tom».",
+   "traduccion": "Este es mi amigo Tom.",
+   "por_opcion": {
+    "Voilà": "Correcta: presentativo para señalar o presentar a alguien presente.",
+    "Il y a": "Incorrecta: il y a mon ami Tom diría que «existe» o «hay» mi amigo Tom, no lo presenta; además il y a suele ir con artículo indefinido, no con un posesivo.",
+    "Il est": "Incorrecta: il est significa «él es» y no puede ir seguido directamente de un determinante; para «es mi amigo» se diría c'est mon ami."
+   }
+  },
+  {
+   "id": "e09",
+   "tipo": "eleccion",
+   "enunciado": "Elige la opción correcta.",
+   "frase": "___ un message pour vous.",
+   "opciones": [
+    "Il y a",
+    "Il a",
+    "Il est"
+   ],
+   "respuestas": [
+    "Il y a"
+   ],
+   "explicacion": "Se aplica la regla principal de la ficha: para decir que algo existe se usa il y a, equivalente a «hay». La pista es que se anuncia la existencia de algo indeterminado, un message, con artículo indefinido. Sin la y, il a un message significaría «él tiene un mensaje», que no encaja con la frase.",
+   "origen": "tatoeba:1847554",
+   "explicacion_breve": "Para decir que algo existe («hay») se usa il y a.",
+   "traduccion": "Hay un mensaje para usted.",
+   "por_opcion": {
+    "Il y a": "Correcta: expresa existencia, «hay un mensaje».",
+    "Il a": "Incorrecta: significa «él tiene»; es el error típico de olvidar la y.",
+    "Il est": "Incorrecta: significa «él es» o «él está»; no sirve para decir que algo existe."
+   }
+  },
+  {
+   "id": "e10",
+   "tipo": "eleccion",
+   "enunciado": "Elige la opción correcta.",
+   "frase": "Il ___ trois chats.",
+   "opciones": [
+    "y a",
+    "a",
+    "est"
+   ],
+   "respuestas": [
+    "y a"
+   ],
+   "explicacion": "Se aplica la regla de que il y a es invariable, igual que «hay»: no cambia aunque lo que sigue sea plural. La pista es el sujeto il seguido de un número y un nombre (trois chats), que describe una cantidad existente. Solo y a completa la expresión il y a; el verbo sigue en singular aunque los gatos sean tres.",
+   "origen": "tatoeba:13388718",
+   "explicacion_breve": "Il y a es invariable: il y a trois chats.",
+   "traduccion": "Hay tres gatos.",
+   "por_opcion": {
+    "y a": "Correcta: completa la expresión invariable il y a, «hay».",
+    "a": "Incorrecta: il a trois chats significa «él tiene tres gatos», no «hay tres gatos».",
+    "est": "Incorrecta: il est significa «él es» o «él está» y no puede ir seguido de un número con un nombre."
+   }
+  },
+  {
+   "id": "e11",
+   "tipo": "eleccion",
+   "enunciado": "Elige la opción correcta.",
+   "frase": "Dans ma rue, ___ deux boulangeries.",
+   "opciones": [
+    "il y a",
+    "voilà",
+    "il est"
+   ],
+   "respuestas": [
+    "il y a"
+   ],
+   "explicacion": "Se aplica la tabla final de la ficha: para describir lo que hay en un lugar se usa il y a. La pista es el complemento de lugar dans ma rue, que anuncia una descripción, y la cantidad deux boulangeries. Voilà señalaría algo que se muestra en ese momento, y il est no expresa existencia.",
+   "explicacion_breve": "Se describe lo que existe en un lugar: il y a.",
+   "traduccion": "En mi calle hay dos panaderías.",
+   "por_opcion": {
+    "il y a": "Correcta: describe lo que existe en un lugar, «hay dos panaderías».",
+    "voilà": "Incorrecta: sirve para señalar algo que se tiene delante, no para describir lo que hay en una calle.",
+    "il est": "Incorrecta: significa «él es» o «él está»; no puede expresar existencia ni ir seguido de un número."
+   }
+  },
+  {
+   "id": "e12",
+   "tipo": "hueco",
+   "enunciado": "Completa con la palabra que sirve para señalar.",
+   "frase": "Tu cherches tes clés ? Les ___ !",
+   "respuestas": [
+    "voilà",
+    "voici"
+   ],
+   "explicacion": "Se aplica la regla de voilà con pronombres: le voilà, la voilà, les voilà significan «ahí está», «aquí están». La pista es el pronombre les, que sustituye a tes clés, y la situación de encontrar algo que se buscaba. Se aceptan voilà y voici porque, aunque en teoría voici indica lo cercano, ambas sirven para señalar algo presente.",
+   "explicacion_breve": "Les voilà (o les voici): «aquí están».",
+   "traduccion": "¿Buscas tus llaves? ¡Aquí están!",
+   "errores_previstos": [
+    {
+     "respuesta": "voila",
+     "explicacion": "Falta el acento grave de voilà; sin él la palabra está mal escrita."
+    },
+    {
+     "respuesta": "il y a",
+     "explicacion": "Il y a no puede llevar delante un pronombre complemento como les; para señalar algo encontrado se usa voilà."
+    }
+   ]
+  },
+  {
+   "id": "e13",
+   "tipo": "transformar",
+   "enunciado": "Convierte la frase en pregunta con est-ce que.",
+   "frase": "Il y a une pharmacie près d'ici.",
+   "respuestas": [
+    "Est-ce qu'il y a une pharmacie près d'ici ?"
+   ],
+   "explicacion": "La tabla de la ficha recoge la pregunta con est-ce que: se coloca est-ce que delante de la frase afirmativa sin cambiar nada más. Como il empieza por vocal, que se apostrofa: est-ce qu'il y a. La frase termina con signo de interrogación, que en la tipografía francesa lleva un espacio delante.",
+   "explicacion_breve": "Est-ce que se apostrofa ante il: est-ce qu'il y a.",
+   "traduccion": "¿Hay una farmacia cerca de aquí?",
+   "errores_previstos": [
+    {
+     "respuesta": "Est-ce que il y a une pharmacie près d'ici ?",
+     "explicacion": "Falta la elisión obligatoria: que ante il se escribe qu': est-ce qu'il y a."
+    },
+    {
+     "respuesta": "Est-ce qu'y a-t-il une pharmacie près d'ici ?",
+     "explicacion": "Mezcla dos tipos de pregunta: o est-ce qu'il y a… o y a-t-il…, pero nunca las dos a la vez."
+    }
+   ]
+  },
+  {
+   "id": "e14",
+   "tipo": "corregir",
+   "enunciado": "Corrige el error.",
+   "frase": "Il a beaucoup de touristes à Paris en été.",
+   "respuestas": [
+    "Il y a beaucoup de touristes à Paris en été."
+   ],
+   "explicacion": "El error es el que la ficha recoge como típico: il a significa «él tiene», mientras que «hay» se dice il y a. La pista es que la frase describe lo que existe en un lugar (à Paris) y en una época (en été), no lo que posee alguien. Basta con añadir la y entre il y a.",
+   "explicacion_breve": "Hay se dice il y a; il a es «él tiene».",
+   "traduccion": "Hay muchos turistas en París en verano.",
+   "errores_previstos": [
+    {
+     "respuesta": "Il a beaucoup de touristes à Paris en été.",
+     "explicacion": "Es dejar la frase sin corregir: il a significa «él tiene»; para «hay» hace falta il y a."
+    },
+    {
+     "respuesta": "Il y a beaucoup des touristes à Paris en été.",
+     "explicacion": "Tras beaucoup va de solo, sin artículo: beaucoup de touristes."
+    }
+   ]
+  },
+  {
+   "id": "e15",
+   "tipo": "corregir",
+   "enunciado": "Corrige el error.",
+   "frase": "Il n'y a pas des chaises dans la salle.",
+   "respuestas": [
+    "Il n'y a pas de chaises dans la salle."
+   ],
+   "explicacion": "El error está en des: según la regla de la negación de la ficha, tras il n'y a pas el artículo des pasa a de. La pista es la negación ne… pas, que obliga a este cambio. La forma correcta es il n'y a pas de chaises, igual que en español decimos «no hay sillas» sin artículo.",
+   "explicacion_breve": "Tras la negación des pasa a de.",
+   "traduccion": "No hay sillas en la sala.",
+   "errores_previstos": [
+    {
+     "respuesta": "Il n'y a pas des chaises dans la salle.",
+     "explicacion": "Es dejar la frase sin corregir: tras la negación des pasa a de."
+    },
+    {
+     "respuesta": "Il y a pas de chaises dans la salle.",
+     "explicacion": "Se ha corregido el artículo pero se ha quitado ne; por escrito la negación necesita il n'y a pas."
+    }
+   ]
+  },
+  {
+   "id": "e16",
+   "tipo": "corregir",
+   "enunciado": "Corrige el error.",
+   "frase": "Il y ont trois restaurants dans le village.",
+   "respuestas": [
+    "Il y a trois restaurants dans le village."
+   ],
+   "explicacion": "El error es haber hecho concordar el verbo con trois restaurants. La ficha insiste en que il y a es invariable, igual que «hay»: el sujeto gramatical es il, no los restaurantes. Por eso se mantiene a en singular: il y a trois restaurants.",
+   "explicacion_breve": "Il y a no concuerda con lo que sigue.",
+   "traduccion": "Hay tres restaurantes en el pueblo.",
+   "errores_previstos": [
+    {
+     "respuesta": "Il y ont trois restaurants dans le village.",
+     "explicacion": "Es dejar la frase sin corregir: il y a no concuerda con lo que sigue."
+    },
+    {
+     "respuesta": "Ils y ont trois restaurants dans le village.",
+     "explicacion": "Se ha pluralizado también il; la expresión es fija e invariable: il y a."
+    }
+   ]
+  }
  ],
- "fuente": {"nombre": "Tex's French Grammar", "autores": "COERLL, Universidad de Texas en Austin", "licencia": "CC BY 3.0", "url": "https://laits.utexas.edu/tex/gr/no4.html", "otras": ["Frases de Tatoeba (CC BY 2.0 FR)"]}
+ "fuente": {
+  "nombre": "Tex's French Grammar",
+  "autores": "COERLL, Universidad de Texas en Austin",
+  "licencia": "CC BY 3.0",
+  "url": "https://laits.utexas.edu/tex/gr/no4.html",
+  "otras": [
+   "Frases de Tatoeba (CC BY 2.0 FR)"
+  ]
+ },
+ "descripcion_larga_es": "Il y a es el equivalente francés de «hay»: dice que algo existe o se encuentra en un lugar, y con una expresión de tiempo significa «hace». Voilà y voici sirven para señalar o presentar algo que está delante, como «aquí está» o «este es». Son de las expresiones más frecuentes del idioma; el hispanohablante suele olvidar la y y decir il a, que significa «él tiene».",
+ "contexto": {
+  "que_es": "Il y a es una expresión impersonal e invariable formada por il, el pronombre y y el verbo avoir: equivale a «hay» y no cambia aunque lo que sigue sea plural. Seguida de una duración equivale a «hace» (il y a deux ans, hace dos años). Voilà y voici son presentativos: señalan algo o a alguien presente, como un gesto con la mano, y pueden llevar pronombres delante (le voilà, me voici).",
+  "por_que_importa": "Describir un lugar, decir qué hay en la ciudad o en la nevera, situar algo en el pasado o presentar a una persona son tareas básicas de cualquier conversación y de cualquier prueba oral de nivel inicial. Si se omite la y, il a beaucoup de touristes no significa «hay muchos turistas» sino «él tiene muchos turistas», y el oyente se queda desconcertado. También es fácil equivocarse en la negación, donde el artículo un, une, des o el partitivo pasa a de.",
+  "cuando_se_usa": "Il y a aparece siempre que en español diríamos «hay» (para describir) o «hace» + tiempo (para fechar algo pasado). Voilà se usa al entregar algo («voilà, aquí tiene»), al presentar a alguien o al encontrar lo que se buscaba («¡ahí está!»). La pista para elegir es la intención: describir lo que existe pide il y a; señalar o mostrar algo presente pide voilà. Il est no sirve para «hay»: significa «él es» o «él está»."
+ }
 }

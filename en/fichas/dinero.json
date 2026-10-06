@@ -6,69 +6,712 @@
  "nivel": "A2",
  "resumen": "Vocabulario y fórmulas para pagar, hablar de precios, hacer gestiones bancarias sencillas y reclamar o devolver una compra.",
  "explicacion": [
-  {"tipo": "texto", "texto": "Varios verbos de dinero llevan preposiciones fijas: pay for something (pagar algo), spend money on something (gastar en algo), borrow from (pedir prestado a), lend to (prestar a). Money es incontable: much money, not many moneys."},
-  {"tipo": "tabla", "cabecera": ["Expresión", "Significado", "Ejemplo"], "filas": [
-   ["pay for", "pagar (algo)", "I paid for the tickets online."],
-   ["pay in cash / by card", "pagar en efectivo / con tarjeta", "Can I pay by card?"],
-   ["spend (money) on", "gastar (dinero) en", "She spends a lot on clothes."],
-   ["cost", "costar", "How much does it cost?"],
-   ["cheap / expensive", "barato / caro", "This hotel is quite cheap."],
-   ["afford", "permitirse (económicamente)", "We can't afford a new car."],
-   ["save (money)", "ahorrar", "I'm saving for a holiday."],
-   ["borrow / lend", "pedir prestado / prestar", "Can you lend me ten euros?"],
-   ["owe", "deber (dinero)", "I owe you twenty euros."],
-   ["change", "cambio (vuelta)", "Here's your change."],
-   ["receipt", "tique, recibo", "Keep the receipt."],
-   ["discount / sale", "descuento / rebajas", "There's a 20% discount in the sales."]
-  ]},
-  {"tipo": "tabla", "cabecera": ["Expresión", "Significado", "Ejemplo"], "filas": [
-   ["bank account", "cuenta bancaria", "I opened a bank account."],
-   ["cash machine / ATM", "cajero automático", "Is there a cash machine near here?"],
-   ["withdraw money", "sacar dinero", "I withdrew 100 euros."],
-   ["credit card / debit card", "tarjeta de crédito / débito", "My debit card doesn't work."],
-   ["PIN", "número secreto", "Enter your PIN."],
-   ["take something back", "devolver algo (a la tienda)", "I took the shoes back."],
-   ["refund", "reembolso", "Can I get a refund?"],
-   ["exchange", "cambiar (por otro producto)", "Can I exchange this for a bigger size?"],
-   ["try on", "probarse (ropa)", "Can I try this on?"],
-   ["It doesn't fit / suit me", "No me queda bien de talla / no me favorece", "This jacket doesn't fit me."]
-  ]},
-  {"tipo": "lista", "items": [
-   "Receipt es el tique; recipe es una receta de cocina.",
-   "Fit se refiere a la talla; suit, a si te favorece.",
-   "Borrow: yo recibo; lend: yo doy. I borrowed a book from Ana = Ana lent me a book."
-  ]}
+  {
+   "tipo": "texto",
+   "texto": "Varios verbos de dinero llevan preposiciones fijas: pay for something (pagar algo), spend money on something (gastar en algo), borrow from (pedir prestado a), lend to (prestar a). Money es incontable: much money, not many moneys."
+  },
+  {
+   "tipo": "tabla",
+   "cabecera": [
+    "Expresión",
+    "Significado",
+    "Ejemplo"
+   ],
+   "filas": [
+    [
+     "pay for",
+     "pagar (algo)",
+     "I paid for the tickets online."
+    ],
+    [
+     "pay in cash / by card",
+     "pagar en efectivo / con tarjeta",
+     "Can I pay by card?"
+    ],
+    [
+     "spend (money) on",
+     "gastar (dinero) en",
+     "She spends a lot on clothes."
+    ],
+    [
+     "cost",
+     "costar",
+     "How much does it cost?"
+    ],
+    [
+     "cheap / expensive",
+     "barato / caro",
+     "This hotel is quite cheap."
+    ],
+    [
+     "afford",
+     "permitirse (económicamente)",
+     "We can't afford a new car."
+    ],
+    [
+     "save (money)",
+     "ahorrar",
+     "I'm saving for a holiday."
+    ],
+    [
+     "borrow / lend",
+     "pedir prestado / prestar",
+     "Can you lend me ten euros?"
+    ],
+    [
+     "owe",
+     "deber (dinero)",
+     "I owe you twenty euros."
+    ],
+    [
+     "change",
+     "cambio (vuelta)",
+     "Here's your change."
+    ],
+    [
+     "receipt",
+     "tique, recibo",
+     "Keep the receipt."
+    ],
+    [
+     "discount / sale",
+     "descuento / rebajas",
+     "There's a 20% discount in the sales."
+    ]
+   ]
+  },
+  {
+   "tipo": "tabla",
+   "cabecera": [
+    "Expresión",
+    "Significado",
+    "Ejemplo"
+   ],
+   "filas": [
+    [
+     "bank account",
+     "cuenta bancaria",
+     "I opened a bank account."
+    ],
+    [
+     "cash machine / ATM",
+     "cajero automático",
+     "Is there a cash machine near here?"
+    ],
+    [
+     "withdraw money",
+     "sacar dinero",
+     "I withdrew 100 euros."
+    ],
+    [
+     "credit card / debit card",
+     "tarjeta de crédito / débito",
+     "My debit card doesn't work."
+    ],
+    [
+     "PIN",
+     "número secreto",
+     "Enter your PIN."
+    ],
+    [
+     "take something back",
+     "devolver algo (a la tienda)",
+     "I took the shoes back."
+    ],
+    [
+     "refund",
+     "reembolso",
+     "Can I get a refund?"
+    ],
+    [
+     "exchange",
+     "cambiar (por otro producto)",
+     "Can I exchange this for a bigger size?"
+    ],
+    [
+     "try on",
+     "probarse (ropa)",
+     "Can I try this on?"
+    ],
+    [
+     "It doesn't fit / suit me",
+     "No me queda bien de talla / no me favorece",
+     "This jacket doesn't fit me."
+    ]
+   ]
+  },
+  {
+   "tipo": "lista",
+   "items": [
+    "Receipt es el tique; recipe es una receta de cocina.",
+    "Fit se refiere a la talla; suit, a si te favorece.",
+    "Borrow: yo recibo; lend: yo doy. I borrowed a book from Ana = Ana lent me a book."
+   ]
+  }
  ],
  "ejemplos": [
-  {"frase": "Can I pay by card, or do you only take cash?", "traduccion": "¿Puedo pagar con tarjeta o solo aceptan efectivo?"},
-  {"frase": "We spend too much money on takeaways.", "traduccion": "Gastamos demasiado dinero en comida para llevar."},
-  {"frase": "I can't afford to go on holiday this year.", "traduccion": "Este año no me puedo permitir irme de vacaciones."},
-  {"frase": "Could you lend me your umbrella?", "traduccion": "¿Me prestas tu paraguas?"},
-  {"frase": "These jeans don't fit me. Can I exchange them?", "traduccion": "Estos vaqueros no me valen. ¿Puedo cambiarlos?"},
-  {"frase": "Without the receipt we can't give you a refund.", "traduccion": "Sin el tique no podemos devolverle el dinero."}
+  {
+   "frase": "Can I pay by card, or do you only take cash?",
+   "traduccion": "¿Puedo pagar con tarjeta o solo aceptan efectivo?"
+  },
+  {
+   "frase": "We spend too much money on takeaways.",
+   "traduccion": "Gastamos demasiado dinero en comida para llevar."
+  },
+  {
+   "frase": "I can't afford to go on holiday this year.",
+   "traduccion": "Este año no me puedo permitir irme de vacaciones."
+  },
+  {
+   "frase": "Could you lend me your umbrella?",
+   "traduccion": "¿Me prestas tu paraguas?"
+  },
+  {
+   "frase": "These jeans don't fit me. Can I exchange them?",
+   "traduccion": "Estos vaqueros no me valen. ¿Puedo cambiarlos?"
+  },
+  {
+   "frase": "Without the receipt we can't give you a refund.",
+   "traduccion": "Sin el tique no podemos devolverle el dinero."
+  }
  ],
  "errores_hispanohablantes": [
-  {"mal": "I paid the tickets.", "bien": "I paid for the tickets.", "nota": "Pagar una cosa es pay for; pay the bill/rent va sin for."},
-  {"mal": "Can you borrow me your pen?", "bien": "Can you lend me your pen?", "nota": "Prestar a alguien es lend; borrow es pedir prestado."},
-  {"mal": "I spend a lot of money in books.", "bien": "I spend a lot of money on books.", "nota": "Gastar en es spend on."},
-  {"mal": "Can I have the recipe, please? (en una tienda)", "bien": "Can I have the receipt, please?", "nota": "El tique es receipt."}
+  {
+   "mal": "I paid the tickets.",
+   "bien": "I paid for the tickets.",
+   "nota": "Pagar una cosa es pay for; pay the bill/rent va sin for."
+  },
+  {
+   "mal": "Can you borrow me your pen?",
+   "bien": "Can you lend me your pen?",
+   "nota": "Prestar a alguien es lend; borrow es pedir prestado."
+  },
+  {
+   "mal": "I spend a lot of money in books.",
+   "bien": "I spend a lot of money on books.",
+   "nota": "Gastar en es spend on."
+  },
+  {
+   "mal": "Can I have the recipe, please? (en una tienda)",
+   "bien": "Can I have the receipt, please?",
+   "nota": "El tique es receipt."
+  }
  ],
  "ejercicios": [
-  {"id": "e01", "tipo": "hueco", "enunciado": "Completa con la preposición.", "frase": "How much did you pay ___ that jacket?", "respuestas": ["for"], "explicacion": "Pagar algo es pay for something."},
-  {"id": "e02", "tipo": "hueco", "enunciado": "Completa con la preposición.", "frase": "He spends all his money ___ video games.", "respuestas": ["on"], "explicacion": "Gastar en es spend on."},
-  {"id": "e03", "tipo": "hueco", "enunciado": "Completa el verbo frasal.", "frase": "Can I try these trousers ___?", "respuestas": ["on"], "explicacion": "Probarse ropa es try on."},
-  {"id": "e04", "tipo": "hueco", "enunciado": "Completa: «deber dinero».", "frase": "Thanks for paying. I ___ you fifteen euros.", "respuestas": ["owe"], "explicacion": "Deber dinero es owe."},
-  {"id": "e05", "tipo": "eleccion", "enunciado": "Elige la opción correcta.", "frase": "Could you ___ me some money until Friday?", "opciones": ["lend", "borrow", "owe"], "respuestas": ["lend"], "explicacion": "Pedir que te presten: lend me."},
-  {"id": "e06", "tipo": "eleccion", "enunciado": "Elige la opción correcta.", "frase": "Can I ___ your car this weekend?", "opciones": ["borrow", "lend", "rent me"], "respuestas": ["borrow"], "explicacion": "Pedir prestado es borrow."},
-  {"id": "e07", "tipo": "eleccion", "enunciado": "Elige la opción correcta.", "frase": "It's a beautiful flat, but we can't ___ it.", "opciones": ["afford", "pay", "spend"], "respuestas": ["afford"], "explicacion": "Poder permitirse algo es afford."},
-  {"id": "e08", "tipo": "eleccion", "enunciado": "Elige la opción correcta.", "frase": "This dress is the right size, but the colour doesn't ___ me.", "opciones": ["suit", "fit", "match"], "respuestas": ["suit"], "explicacion": "Si es cuestión de estilo o color, suit; fit es la talla."},
-  {"id": "e09", "tipo": "corregir", "enunciado": "Corrige el error.", "frase": "My brother borrowed me his bike.", "respuestas": ["My brother lent me his bike."], "explicacion": "Prestar a alguien es lend (lent)."},
-  {"id": "e10", "tipo": "corregir", "enunciado": "Corrige el falso amigo.", "frase": "Please keep the recipe in case you want to return it.", "respuestas": ["Please keep the receipt in case you want to return it."], "explicacion": "El tique de compra es receipt."},
-  {"id": "e11", "tipo": "corregir", "enunciado": "Corrige el error.", "frase": "I paid the dinner with my credit card.", "respuestas": ["I paid for the dinner with my credit card.", "I paid for dinner with my credit card."], "explicacion": "Pagar algo es pay for."},
-  {"id": "e12", "tipo": "ordenar", "enunciado": "Ordena las palabras.", "palabras": ["I", "by", "pay", "can", "card"], "respuestas": ["Can I pay by card", "I can pay by card"], "explicacion": "Con tarjeta es by card."},
-  {"id": "e13", "tipo": "ordenar", "enunciado": "Ordena las palabras.", "palabras": ["refund", "get", "a", "I", "can"], "respuestas": ["Can I get a refund", "I can get a refund"], "explicacion": "Refund es el reembolso."},
-  {"id": "e14", "tipo": "hueco", "enunciado": "Completa: «sacar dinero».", "frase": "I need to ___ some money from the cash machine.", "respuestas": ["withdraw", "get", "take out"], "explicacion": "Sacar dinero es withdraw (formal), get o take out."},
-  {"id": "e15", "tipo": "eleccion", "enunciado": "Elige la opción correcta.", "frase": "Here's a twenty-euro note. – Thank you. And here's your ___.", "opciones": ["change", "rest", "return"], "respuestas": ["change"], "explicacion": "La vuelta es change."}
+  {
+   "id": "e01",
+   "tipo": "hueco",
+   "enunciado": "Completa con la preposición.",
+   "frase": "How much did you pay ___ that jacket?",
+   "respuestas": [
+    "for"
+   ],
+   "explicacion": "La ficha explica que pagar una cosa es pay for something. La pista es that jacket, el objeto comprado. En inglés, sin for, el objeto de pay es la persona o la factura (pay the waiter, pay the bill), no lo que se compra.",
+   "explicacion_breve": "Pagar algo es pay for something.",
+   "traduccion": "¿Cuánto pagaste por esa chaqueta?",
+   "errores_previstos": [
+    {
+     "respuesta": "by",
+     "explicacion": "By indica el medio de pago (by card); el objeto comprado va con for."
+    },
+    {
+     "respuesta": "to",
+     "explicacion": "Pay to se usaría para la persona que recibe el dinero, no para lo comprado."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "to pay for",
+     "significado": "pagar (algo)"
+    },
+    {
+     "palabra": "jacket",
+     "significado": "chaqueta"
+    }
+   ]
+  },
+  {
+   "id": "e02",
+   "tipo": "hueco",
+   "enunciado": "Completa con la preposición.",
+   "frase": "He spends all his money ___ video games.",
+   "respuestas": [
+    "on"
+   ],
+   "explicacion": "La ficha recoge spend (money) on = gastar (dinero) en. La pista es spends all his money, seguido de aquello en lo que se gasta. La preposición fija es on, no in como en español.",
+   "explicacion_breve": "Gastar en es spend on.",
+   "traduccion": "Se gasta todo el dinero en videojuegos.",
+   "errores_previstos": [
+    {
+     "respuesta": "in",
+     "explicacion": "Calco de «gastar en»: en inglés se dice spend on."
+    },
+    {
+     "respuesta": "for",
+     "explicacion": "For va con pay (pay for); con spend, on."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "to spend (money) on",
+     "significado": "gastar (dinero) en"
+    },
+    {
+     "palabra": "video games",
+     "significado": "videojuegos"
+    }
+   ]
+  },
+  {
+   "id": "e03",
+   "tipo": "hueco",
+   "enunciado": "Completa el verbo frasal.",
+   "frase": "Can I try these trousers ___?",
+   "respuestas": [
+    "on"
+   ],
+   "explicacion": "La segunda tabla de la ficha da try on = probarse ropa. Es un verbo frasal: try solo significa intentar o probar algo de comer, y on añade la idea de ponérselo. La pista es trousers, una prenda.",
+   "explicacion_breve": "Probarse ropa es try on.",
+   "traduccion": "¿Puedo probarme estos pantalones?",
+   "errores_previstos": [
+    {
+     "respuesta": "in",
+     "explicacion": "Try in no existe; probarse ropa es try on."
+    },
+    {
+     "respuesta": "out",
+     "explicacion": "Try out es probar algo para ver si funciona (un coche, un método), no probarse ropa."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "to try on",
+     "significado": "probarse (ropa)"
+    },
+    {
+     "palabra": "trousers",
+     "significado": "pantalones"
+    }
+   ]
+  },
+  {
+   "id": "e04",
+   "tipo": "hueco",
+   "enunciado": "Completa: «deber dinero».",
+   "frase": "Thanks for paying. I ___ you fifteen euros.",
+   "respuestas": [
+    "owe"
+   ],
+   "explicacion": "La tabla recoge owe = deber dinero. La pista es Thanks for paying: el otro pagó por mí, así que ahora tengo una deuda con él. Owe va seguido de la persona y la cantidad: I owe you fifteen euros.",
+   "explicacion_breve": "Deber dinero es owe.",
+   "traduccion": "Gracias por pagar. Te debo quince euros.",
+   "errores_previstos": [
+    {
+     "respuesta": "must",
+     "explicacion": "Must expresa obligación (deber hacer algo); deber dinero es owe."
+    },
+    {
+     "respuesta": "have to",
+     "explicacion": "Have to es tener que hacer algo, y necesitaría un verbo detrás; deber dinero es owe."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "to owe",
+     "significado": "deber (dinero)"
+    }
+   ]
+  },
+  {
+   "id": "e05",
+   "tipo": "eleccion",
+   "enunciado": "Elige la opción correcta.",
+   "frase": "Could you ___ me some money until Friday?",
+   "opciones": [
+    "lend",
+    "borrow",
+    "owe"
+   ],
+   "respuestas": [
+    "lend"
+   ],
+   "explicacion": "La ficha distingue lend (yo doy) de borrow (yo recibo). En Could you ___ me, quien da el dinero es you, así que el verbo es lend: lend me = préstame. La pista es me detrás del hueco: el que recibe es el objeto.",
+   "explicacion_breve": "Lend me = préstame (tú das el dinero; yo lo recibo).",
+   "traduccion": "¿Me podrías prestar algo de dinero hasta el viernes?",
+   "por_opcion": {
+    "lend": "Correcta: lend someone something = prestar algo a alguien.",
+    "borrow": "Incorrecta: borrow es pedir prestado y no admite a quien recibe como objeto; borrow me es un error típico.",
+    "owe": "Incorrecta: owe es deber dinero, no prestarlo."
+   },
+   "glosario": [
+    {
+     "palabra": "to lend",
+     "significado": "prestar (dar en préstamo)"
+    },
+    {
+     "palabra": "until",
+     "significado": "hasta"
+    }
+   ]
+  },
+  {
+   "id": "e06",
+   "tipo": "eleccion",
+   "enunciado": "Elige la opción correcta.",
+   "frase": "Can I ___ your car this weekend?",
+   "opciones": [
+    "borrow",
+    "lend",
+    "rent me"
+   ],
+   "respuestas": [
+    "borrow"
+   ],
+   "explicacion": "Según la ficha, borrow = pedir prestado: el sujeto es quien recibe. En Can I ___ your car, el que recibe el coche soy yo, así que el verbo es borrow. La traducción natural en español es «¿me dejas…?», pero en inglés la perspectiva es la del que toma prestado.",
+   "explicacion_breve": "Pedir prestado es borrow.",
+   "traduccion": "¿Me puedes dejar tu coche este fin de semana?",
+   "por_opcion": {
+    "borrow": "Correcta: Can I borrow…? = ¿puedo tomar prestado…?",
+    "lend": "Incorrecta: con I como sujeto, lend significaría que yo presto el coche, que no es mío.",
+    "rent me": "Incorrecta: rent es alquilar a cambio de dinero, y rent me con I como sujeto no tiene sentido."
+   },
+   "glosario": [
+    {
+     "palabra": "to borrow",
+     "significado": "pedir prestado, tomar prestado"
+    },
+    {
+     "palabra": "weekend",
+     "significado": "fin de semana"
+    }
+   ]
+  },
+  {
+   "id": "e07",
+   "tipo": "eleccion",
+   "enunciado": "Elige la opción correcta.",
+   "frase": "It's a beautiful flat, but we can't ___ it.",
+   "opciones": [
+    "afford",
+    "pay",
+    "spend"
+   ],
+   "respuestas": [
+    "afford"
+   ],
+   "explicacion": "La tabla da afford = permitirse económicamente, que casi siempre aparece con can o can't. La pista es but we can't…: el problema es el precio. Afford es transitivo: can't afford it.",
+   "explicacion_breve": "Poder permitirse algo es afford.",
+   "traduccion": "Es un piso precioso, pero no nos lo podemos permitir.",
+   "por_opcion": {
+    "afford": "Correcta: can't afford = no poder permitirse.",
+    "pay": "Incorrecta: can't pay it sería «no puedo pagarlo» a alguien; para el objeto comprado se diría pay for.",
+    "spend": "Incorrecta: spend necesita la cantidad y on (spend money on); no expresa la idea de permitirse."
+   },
+   "glosario": [
+    {
+     "palabra": "to afford",
+     "significado": "permitirse (económicamente)"
+    },
+    {
+     "palabra": "flat",
+     "significado": "piso"
+    }
+   ]
+  },
+  {
+   "id": "e08",
+   "tipo": "eleccion",
+   "enunciado": "Elige la opción correcta.",
+   "frase": "This dress is the right size, but the colour doesn't ___ me.",
+   "opciones": [
+    "suit",
+    "fit",
+    "match"
+   ],
+   "respuestas": [
+    "suit"
+   ],
+   "explicacion": "La ficha distingue fit (la talla) de suit (si te favorece). La pista es la frase misma: the right size dice que la talla está bien, y el problema es the colour, cuestión de estilo. Por eso doesn't suit me.",
+   "explicacion_breve": "Si es cuestión de estilo o color, suit; fit es la talla.",
+   "traduccion": "Este vestido es de mi talla, pero el color no me favorece.",
+   "por_opcion": {
+    "suit": "Correcta: suit = favorecer, sentar bien por estilo o color.",
+    "fit": "Incorrecta: fit es la talla, y la frase dice que la talla es correcta.",
+    "match": "Incorrecta: match es combinar con otra cosa (The bag matches the shoes), no favorecer a una persona."
+   },
+   "glosario": [
+    {
+     "palabra": "to suit",
+     "significado": "favorecer, sentar bien"
+    },
+    {
+     "palabra": "to fit",
+     "significado": "quedar bien de talla"
+    },
+    {
+     "palabra": "dress",
+     "significado": "vestido"
+    }
+   ]
+  },
+  {
+   "id": "e09",
+   "tipo": "corregir",
+   "enunciado": "Corrige el error.",
+   "frase": "My brother borrowed me his bike.",
+   "respuestas": [
+    "My brother lent me his bike."
+   ],
+   "explicacion": "La ficha recuerda que borrow es recibir y lend es dar. Aquí el hermano da la bici y yo la recibo, así que el verbo es lend. Lend es irregular: el pasado es lent.",
+   "explicacion_breve": "Prestar a alguien es lend (lent).",
+   "traduccion": "Mi hermano me prestó su bici.",
+   "errores_previstos": [
+    {
+     "respuesta": "My brother borrowed me his bike.",
+     "explicacion": "Es la frase sin corregir: borrow no admite al que recibe como objeto."
+    },
+    {
+     "respuesta": "My brother lended me his bike.",
+     "explicacion": "Lend es irregular: el pasado es lent."
+    },
+    {
+     "respuesta": "My brother lent his bike me.",
+     "explicacion": "Si la cosa va primero, la persona lleva to (lent his bike to me); lo normal es lent me his bike."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "to lend (lent, lent)",
+     "significado": "prestar"
+    },
+    {
+     "palabra": "bike",
+     "significado": "bici"
+    }
+   ]
+  },
+  {
+   "id": "e10",
+   "tipo": "corregir",
+   "enunciado": "Corrige el falso amigo.",
+   "frase": "Please keep the recipe in case you want to return it.",
+   "respuestas": [
+    "Please keep the receipt in case you want to return it."
+   ],
+   "explicacion": "La ficha avisa de que receipt es el tique o recibo de compra, y recipe es una receta de cocina. La pista es in case you want to return it: se necesita el comprobante de compra. Ojo con la pronunciación: en receipt la p no suena.",
+   "explicacion_breve": "El tique de compra es receipt.",
+   "traduccion": "Por favor, guarde el tique por si quiere devolverlo.",
+   "errores_previstos": [
+    {
+     "respuesta": "Please keep the recipe in case you want to return it.",
+     "explicacion": "Es la frase sin corregir: recipe es una receta de cocina."
+    },
+    {
+     "respuesta": "Please keep the ticket in case you want to return it.",
+     "explicacion": "Ticket es una entrada o un billete; el tique de compra es receipt."
+    },
+    {
+     "respuesta": "Please keep the receit in case you want to return it.",
+     "explicacion": "Se escribe receipt, con p muda."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "receipt",
+     "significado": "tique, recibo"
+    },
+    {
+     "palabra": "recipe",
+     "significado": "receta de cocina"
+    },
+    {
+     "palabra": "in case",
+     "significado": "por si"
+    }
+   ]
+  },
+  {
+   "id": "e11",
+   "tipo": "corregir",
+   "enunciado": "Corrige el error.",
+   "frase": "I paid the dinner with my credit card.",
+   "respuestas": [
+    "I paid for the dinner with my credit card.",
+    "I paid for dinner with my credit card."
+   ],
+   "explicacion": "La ficha explica que pagar una cosa es pay for something; sin for el objeto sería la persona o la factura (pay the bill). La pista es the dinner, lo que se paga. Se aceptan pay for the dinner y pay for dinner, sin artículo.",
+   "explicacion_breve": "Pagar algo es pay for.",
+   "traduccion": "Pagué la cena con mi tarjeta de crédito.",
+   "errores_previstos": [
+    {
+     "respuesta": "I paid the dinner with my credit card.",
+     "explicacion": "Es la frase sin corregir: falta for."
+    },
+    {
+     "respuesta": "I paid for the dinner by my credit card.",
+     "explicacion": "Se dice by card, pero con posesivo se usa with: with my credit card."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "to pay for",
+     "significado": "pagar (algo)"
+    },
+    {
+     "palabra": "credit card",
+     "significado": "tarjeta de crédito"
+    }
+   ]
+  },
+  {
+   "id": "e12",
+   "tipo": "ordenar",
+   "enunciado": "Ordena las palabras.",
+   "palabras": [
+    "I",
+    "by",
+    "pay",
+    "can",
+    "card"
+   ],
+   "respuestas": [
+    "Can I pay by card",
+    "I can pay by card"
+   ],
+   "explicacion": "La tabla da pay by card = pagar con tarjeta, con by y sin artículo. Can I pay by card? es la pregunta típica en una tienda, con can delante del sujeto. También se acepta la afirmación I can pay by card.",
+   "explicacion_breve": "Con tarjeta es by card.",
+   "traduccion": "¿Puedo pagar con tarjeta?",
+   "errores_previstos": [
+    {
+     "respuesta": "Can I pay card by",
+     "explicacion": "La preposición va delante: by card."
+    },
+    {
+     "respuesta": "Can I by card pay",
+     "explicacion": "Calco del orden «¿puedo con tarjeta pagar?»: el verbo va antes del complemento."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "to pay by card",
+     "significado": "pagar con tarjeta"
+    }
+   ]
+  },
+  {
+   "id": "e13",
+   "tipo": "ordenar",
+   "enunciado": "Ordena las palabras.",
+   "palabras": [
+    "refund",
+    "get",
+    "a",
+    "I",
+    "can"
+   ],
+   "respuestas": [
+    "Can I get a refund",
+    "I can get a refund"
+   ],
+   "explicacion": "La segunda tabla recoge refund = reembolso, la devolución del dinero. Get a refund es la colocación habitual: conseguir que te devuelvan el dinero. La pregunta lleva can delante del sujeto, y se acepta también la afirmación.",
+   "explicacion_breve": "Refund es el reembolso.",
+   "traduccion": "¿Me pueden devolver el dinero?",
+   "errores_previstos": [
+    {
+     "respuesta": "Can I a refund get",
+     "explicacion": "El verbo va antes del objeto: get a refund."
+    },
+    {
+     "respuesta": "Can get I a refund",
+     "explicacion": "En la pregunta el sujeto va justo detrás de can: Can I get."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "refund",
+     "significado": "reembolso, devolución del dinero"
+    }
+   ]
+  },
+  {
+   "id": "e14",
+   "tipo": "hueco",
+   "enunciado": "Completa: «sacar dinero».",
+   "frase": "I need to ___ some money from the cash machine.",
+   "respuestas": [
+    "withdraw",
+    "get",
+    "take out",
+    "draw out"
+   ],
+   "explicacion": "La tabla da withdraw money = sacar dinero, algo formal; en el habla también se dicen get money, take out money o draw out money (este último, algo más británico y menos frecuente). La pista es from the cash machine. Se aceptan las cuatro formas.",
+   "explicacion_breve": "Sacar dinero es withdraw (formal), get, take out o draw out.",
+   "traduccion": "Tengo que sacar dinero del cajero.",
+   "errores_previstos": [
+    {
+     "respuesta": "retire",
+     "explicacion": "Calco de «retirar»: retire significa jubilarse; sacar dinero es withdraw, get o take out."
+    },
+    {
+     "respuesta": "withdrawal",
+     "explicacion": "Withdrawal es el sustantivo (la retirada de efectivo); tras need to hace falta el verbo withdraw."
+    },
+    {
+     "respuesta": "extract",
+     "explicacion": "Calco de «extraer»; para el dinero del cajero no se usa."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "to withdraw",
+     "significado": "sacar (dinero)"
+    },
+    {
+     "palabra": "cash machine",
+     "significado": "cajero automático"
+    }
+   ]
+  },
+  {
+   "id": "e15",
+   "tipo": "eleccion",
+   "enunciado": "Elige la opción correcta.",
+   "frase": "Here's a twenty-euro note. – Thank you. And here's your ___.",
+   "opciones": [
+    "change",
+    "rest",
+    "return"
+   ],
+   "respuestas": [
+    "change"
+   ],
+   "explicacion": "La tabla da change = cambio, la vuelta que se recibe al pagar. Es incontable en este sentido: your change, sin plural. La pista es que el cliente ha pagado con un billete y el dependiente le devuelve dinero.",
+   "explicacion_breve": "La vuelta es change.",
+   "traduccion": "Aquí tiene un billete de veinte euros. Gracias, y aquí tiene su cambio.",
+   "por_opcion": {
+    "change": "Correcta: change = la vuelta, el cambio.",
+    "rest": "Incorrecta: calco de «el resto»; rest es el descanso o lo que queda de algo.",
+    "return": "Incorrecta: return es devolución de un producto o vuelta de un viaje, no el dinero que te devuelven al pagar."
+   },
+   "glosario": [
+    {
+     "palabra": "change",
+     "significado": "cambio, vuelta"
+    },
+    {
+     "palabra": "note",
+     "significado": "billete"
+    }
+   ]
+  }
  ],
- "fuente": {"nombre": "propia"}
+ "fuente": {
+  "nombre": "propia"
+ },
+ "descripcion_larga_es": "Vocabulario y fórmulas para pagar, hablar de precios, hacer gestiones bancarias sencillas y devolver o cambiar una compra. Es léxico de supervivencia en cualquier viaje o estancia. Al hispanohablante le cuesta porque muchos verbos llevan preposiciones fijas (pay for, spend on), porque borrow y lend se traducen ambos por «prestar» y porque receipt y recipe se confunden con facilidad.",
+ "contexto": {
+  "que_es": "Es el léxico básico del dinero y las compras: verbos como pay, spend, cost, afford, save, borrow, lend y owe; palabras de banco (account, cash machine, PIN) y de tienda (receipt, refund, exchange, try on, fit, suit).",
+  "por_que_importa": "Se usa en situaciones cotidianas inevitables: pagar, sacar dinero, pedir el tique o devolver algo. Un error como «borrow me» o «I paid the dinner» se entiende, pero puede crear confusión (¿quién presta a quién?) y suena poco natural. En los exámenes de nivel básico es un campo léxico fijo.",
+  "cuando_se_usa": "En tiendas, restaurantes, bancos y entre amigos al prestarse dinero. Las pistas son las preposiciones (for, on, by, in) y la dirección del préstamo. El hispanohablante tiende a decir «pay the tickets» por «pagar las entradas» y a usar borrow para los dos sentidos de «prestar»."
+ }
 }

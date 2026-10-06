@@ -1,60 +1,597 @@
 {
-  "id": "fr.g.conjunciones-subjuntivo",
-  "titulo": "Conjunciones con subjuntivo",
-  "titulo_es": "Conjunciones que rigen subjuntivo (bien que, pour que, avant que…)",
-  "descripcion_es": "Finalidad, temor, tiempo, concesión, condición y exclusión con subjuntivo; cuándo se pasa a preposición + infinitivo; el ne expletivo.",
-  "nivel": "B2",
-  "resumen": "Algunas conjunciones exigen siempre subjuntivo: las de finalidad (pour que), temor (de peur que), anterioridad (avant que, jusqu'à ce que), concesión (bien que), condición (à condition que, à moins que) y exclusión (sans que). Si el sujeto de las dos oraciones es el mismo, la mayoría se sustituyen por preposición + infinitivo.",
-  "explicacion": [
-    {"tipo": "tabla", "cabecera": ["Valor", "Conjunción + subjuntivo", "Mismo sujeto: + infinitivo"], "filas": [
-      ["Finalidad", "pour que, afin que (para que)", "pour, afin de"],
-      ["Temor", "de peur que, de crainte que (por miedo a que)", "de peur de, de crainte de"],
-      ["Tiempo anterior", "avant que (antes de que)", "avant de"],
-      ["Espera", "en attendant que (hasta que, mientras)", "en attendant de"],
-      ["Límite", "jusqu'à ce que (hasta que)", "(se mantiene jusqu'à ce que)"],
-      ["Concesión", "bien que, quoique (aunque)", "(se mantiene bien que / quoique)"],
-      ["Condición", "à condition que, pourvu que (siempre que, con tal de que)", "à condition de; pourvu que se mantiene"],
-      ["Excepción", "à moins que (a menos que)", "à moins de"],
-      ["Exclusión", "sans que (sin que)", "sans"]
-    ]},
-    {"tipo": "texto", "texto": "Comparación con el español: la lista coincide casi entera con la nuestra (para que, antes de que, sin que, a menos que + subjuntivo), así que la intuición ayuda. Las diferencias están en «aunque», que en español admite indicativo (aunque está cansado) y en francés, con bien que y quoique, solo subjuntivo; y en las conjunciones de tiempo futuro (quand, dès que, après que), que en español van con subjuntivo y en francés con indicativo."},
-    {"tipo": "lista", "items": [
-      "Après que va con indicativo en la norma: Il est parti après que tu es arrivé (aunque se oiga a menudo con subjuntivo, por analogía con avant que).",
-      "Con avant que, à moins que, de peur que y de crainte que puede aparecer un ne expletivo, sin valor negativo, en registro cuidado: Rentrez avant qu'il ne fasse nuit.",
-      "Pourvu que sola, al principio de la frase, expresa un deseo: Pourvu qu'il fasse beau ! (¡Ojalá haga buen tiempo!)",
-      "Tandis que, alors que, parce que, puisque, pendant que van con indicativo."
-    ]}
-  ],
-  "ejemplos": [
-    {"frase": "Il l'a fait sans que je le sache.", "traduccion": "Lo hizo sin que yo lo supiera."},
-    {"frase": "Je te le répète pour que tu ne l'oublies pas.", "traduccion": "Te lo repito para que no lo olvides."},
-    {"frase": "Je reste ici jusqu'à ce que tu reviennes.", "traduccion": "Me quedo aquí hasta que vuelvas."},
-    {"frase": "Bois ta soupe avant qu'elle ne refroidisse.", "traduccion": "Tómate la sopa antes de que se enfríe."},
-    {"frase": "Tammy aime Tex bien qu'elle le trouve puéril par moments.", "traduccion": "Tammy quiere a Tex aunque a veces le parece infantil."},
-    {"frase": "Je ne pourrai pas terminer à moins que tu ne m'aides.", "traduccion": "No podré terminar a menos que me ayudes."}
-  ],
-  "errores_hispanohablantes": [
-    {"mal": "Bien qu'il est fatigué, il continue à travailler.", "bien": "Bien qu'il soit fatigué, il continue à travailler.", "nota": "Bien que y quoique siempre rigen subjuntivo, aunque en español «aunque está cansado» lleve indicativo."},
-    {"mal": "Je vais te prêter ce livre pour que tu le lis.", "bien": "Je vais te prêter ce livre pour que tu le lises.", "nota": "Pour que exige subjuntivo, igual que «para que» en español."},
-    {"mal": "Je vais l'appeler avant que je parte.", "bien": "Je vais l'appeler avant de partir.", "nota": "Con el mismo sujeto se usa preposición + infinitivo (avant de partir), como en español «antes de irme»."}
-  ],
-  "ejercicios": [
-    {"id": "e01", "tipo": "hueco", "enunciado": "Completa con el subjuntivo o el indicativo del verbo entre paréntesis.", "frase": "Je resterai ici jusqu'à ce que tu ___ (revenir).", "respuestas": ["reviennes"], "explicacion": "Jusqu'à ce que + subjuntivo; revenir: que tu reviennes.", "origen": "tatoeba:8302229"},
-    {"id": "e02", "tipo": "hueco", "enunciado": "Completa con el subjuntivo o el indicativo del verbo entre paréntesis.", "frase": "Attends un peu jusqu'à ce que je ___ (être) prêt.", "respuestas": ["sois"], "explicacion": "Jusqu'à ce que + subjuntivo de être.", "origen": "tatoeba:1786393"},
-    {"id": "e03", "tipo": "hueco", "enunciado": "Completa con el subjuntivo o el indicativo del verbo entre paréntesis.", "frase": "Ouvrez la porte pour que j'___ (entrer), s'il vous plaît.", "respuestas": ["entre"], "explicacion": "Pour que + subjuntivo: que j'entre.", "origen": "tatoeba:7701157"},
-    {"id": "e04", "tipo": "hueco", "enunciado": "Completa con el subjuntivo o el indicativo del verbo entre paréntesis.", "frase": "Bien que Joe-Bob ne ___ (comprendre) pas bien le français, il adore écouter Tex.", "respuestas": ["comprenne"], "explicacion": "Bien que + subjuntivo: ils comprennent → qu'il comprenne."},
-    {"id": "e05", "tipo": "hueco", "enunciado": "Completa con el subjuntivo o el indicativo del verbo entre paréntesis.", "frase": "Pendant qu'Edouard ___ (servir) la salade, les clients discutent.", "respuestas": ["sert"], "explicacion": "Pendant que va con indicativo."},
-    {"id": "e06", "tipo": "hueco", "enunciado": "Completa con el subjuntivo o el indicativo del verbo entre paréntesis.", "frase": "Edouard veut bien faire la cuisine pourvu que quelqu'un d'autre ___ (faire) la vaisselle.", "respuestas": ["fasse"], "explicacion": "Pourvu que + subjuntivo: que quelqu'un fasse."},
-    {"id": "e07", "tipo": "hueco", "enunciado": "Completa con el subjuntivo o el indicativo del verbo entre paréntesis.", "frase": "Corey entre par la fenêtre sans qu'Edouard le ___ (voir).", "respuestas": ["voie"], "explicacion": "Sans que + subjuntivo de voir: qu'il voie."},
-    {"id": "e08", "tipo": "eleccion", "enunciado": "Elige la forma correcta.", "frase": "Dis-lui que tu l'aimes avant qu'il ne ___ trop tard.", "opciones": ["soit", "est", "sera", "serait"], "respuestas": ["soit"], "explicacion": "Avant que + subjuntivo; el ne es expletivo (no niega).", "origen": "tatoeba:615050"},
-    {"id": "e09", "tipo": "eleccion", "enunciado": "Elige la opción correcta.", "frase": "Laisse-moi l'écrire ___ je ne l'oublie pas.", "opciones": ["afin que", "afin de", "parce que", "puisque"], "respuestas": ["afin que"], "explicacion": "Finalidad con verbo conjugado en subjuntivo (oublie): afin que.", "origen": "tatoeba:801681"},
-    {"id": "e10", "tipo": "eleccion", "enunciado": "Elige la opción correcta.", "frase": "Je vais fermer la fenêtre ___ avoir froid.", "opciones": ["pour ne pas", "pour que je n'aie pas", "sans que"], "respuestas": ["pour ne pas"], "explicacion": "Mismo sujeto: pour + infinitivo, no pour que + subjuntivo."},
-    {"id": "e11", "tipo": "eleccion", "enunciado": "Elige la forma correcta.", "frase": "Il est parti après que tu ___ arrivé.", "opciones": ["es", "sois", "seras"], "respuestas": ["es"], "explicacion": "Après que va con indicativo en la norma (la acción ya ocurrió)."},
-    {"id": "e12", "tipo": "corregir", "enunciado": "Corrige el error.", "frase": "Nous partirons avant que tu viens.", "respuestas": ["Nous partirons avant que tu viennes.", "Nous partirons avant que tu ne viennes."], "explicacion": "Avant que exige subjuntivo: viennes.", "origen": "tatoeba:1184374"},
-    {"id": "e13", "tipo": "corregir", "enunciado": "Corrige el error.", "frase": "Quoique Bette a l'air gentille, Tammy ne lui fait pas confiance.", "respuestas": ["Quoique Bette ait l'air gentille, Tammy ne lui fait pas confiance."], "explicacion": "Quoique rige subjuntivo: ait."},
-    {"id": "e14", "tipo": "transformar", "enunciado": "Reescribe la frase con «sans que».", "frase": "Il l'a fait et je ne le savais pas.", "respuestas": ["Il l'a fait sans que je le sache."], "explicacion": "Sans que + subjuntivo presente (sache), con sujetos distintos.", "origen": "tatoeba:1184683"},
-    {"id": "e15", "tipo": "transformar", "enunciado": "Reescribe con una preposición + infinitivo (mismo sujeto).", "frase": "Je vais te téléphoner avant que je parte.", "respuestas": ["Je vais te téléphoner avant de partir."], "explicacion": "Mismo sujeto: avant de + infinitivo."},
-    {"id": "e16", "tipo": "ordenar", "enunciado": "Ordena las palabras.", "palabras": ["vert", "Attendez", "le", "jusqu'à", "ce", "que", "feu", "passe", "au"], "respuestas": ["Attendez jusqu'à ce que le feu passe au vert"], "explicacion": "Jusqu'à ce que + subjuntivo (passe coincide con el presente).", "origen": "tatoeba:138692"}
-  ],
-  "fuente": {"nombre": "Tex's French Grammar", "autores": "COERLL, Universidad de Texas en Austin", "licencia": "CC BY 3.0", "url": "https://laits.utexas.edu/tex/gr/tas5.html", "otras": ["Frases de Tatoeba (CC BY 2.0 FR)"]}
+ "id": "fr.g.conjunciones-subjuntivo",
+ "titulo": "Conjunciones con subjuntivo",
+ "titulo_es": "Conjunciones que rigen subjuntivo (bien que, pour que, avant que…)",
+ "descripcion_es": "Finalidad, temor, tiempo, concesión, condición y exclusión con subjuntivo; cuándo se pasa a preposición + infinitivo; el ne expletivo.",
+ "nivel": "B2",
+ "resumen": "Algunas conjunciones exigen siempre subjuntivo: las de finalidad (pour que), temor (de peur que), anterioridad (avant que, jusqu'à ce que), concesión (bien que), condición (à condition que, à moins que) y exclusión (sans que). Si el sujeto de las dos oraciones es el mismo, la mayoría se sustituyen por preposición + infinitivo.",
+ "explicacion": [
+  {
+   "tipo": "tabla",
+   "cabecera": [
+    "Valor",
+    "Conjunción + subjuntivo",
+    "Mismo sujeto: + infinitivo"
+   ],
+   "filas": [
+    [
+     "Finalidad",
+     "pour que, afin que (para que)",
+     "pour, afin de"
+    ],
+    [
+     "Temor",
+     "de peur que, de crainte que (por miedo a que)",
+     "de peur de, de crainte de"
+    ],
+    [
+     "Tiempo anterior",
+     "avant que (antes de que)",
+     "avant de"
+    ],
+    [
+     "Espera",
+     "en attendant que (hasta que, mientras)",
+     "en attendant de"
+    ],
+    [
+     "Límite",
+     "jusqu'à ce que (hasta que)",
+     "(se mantiene jusqu'à ce que)"
+    ],
+    [
+     "Concesión",
+     "bien que, quoique (aunque)",
+     "(se mantiene bien que / quoique)"
+    ],
+    [
+     "Condición",
+     "à condition que, pourvu que (siempre que, con tal de que)",
+     "à condition de; pourvu que se mantiene"
+    ],
+    [
+     "Excepción",
+     "à moins que (a menos que)",
+     "à moins de"
+    ],
+    [
+     "Exclusión",
+     "sans que (sin que)",
+     "sans"
+    ]
+   ]
+  },
+  {
+   "tipo": "texto",
+   "texto": "Comparación con el español: la lista coincide casi entera con la nuestra (para que, antes de que, sin que, a menos que + subjuntivo), así que la intuición ayuda. Las diferencias están en «aunque», que en español admite indicativo (aunque está cansado) y en francés, con bien que y quoique, solo subjuntivo; y en las conjunciones de tiempo futuro (quand, dès que, après que), que en español van con subjuntivo y en francés con indicativo."
+  },
+  {
+   "tipo": "lista",
+   "items": [
+    "Après que va con indicativo en la norma: Il est parti après que tu es arrivé (aunque se oiga a menudo con subjuntivo, por analogía con avant que).",
+    "Con avant que, à moins que, de peur que y de crainte que puede aparecer un ne expletivo, sin valor negativo, en registro cuidado: Rentrez avant qu'il ne fasse nuit.",
+    "Pourvu que sola, al principio de la frase, expresa un deseo: Pourvu qu'il fasse beau ! (¡Ojalá haga buen tiempo!)",
+    "Tandis que, alors que, parce que, puisque, pendant que van con indicativo."
+   ]
+  }
+ ],
+ "ejemplos": [
+  {
+   "frase": "Il l'a fait sans que je le sache.",
+   "traduccion": "Lo hizo sin que yo lo supiera."
+  },
+  {
+   "frase": "Je te le répète pour que tu ne l'oublies pas.",
+   "traduccion": "Te lo repito para que no lo olvides."
+  },
+  {
+   "frase": "Je reste ici jusqu'à ce que tu reviennes.",
+   "traduccion": "Me quedo aquí hasta que vuelvas."
+  },
+  {
+   "frase": "Bois ta soupe avant qu'elle ne refroidisse.",
+   "traduccion": "Tómate la sopa antes de que se enfríe."
+  },
+  {
+   "frase": "Tammy aime Tex bien qu'elle le trouve puéril par moments.",
+   "traduccion": "Tammy quiere a Tex aunque a veces le parece infantil."
+  },
+  {
+   "frase": "Je ne pourrai pas terminer à moins que tu ne m'aides.",
+   "traduccion": "No podré terminar a menos que me ayudes."
+  }
+ ],
+ "errores_hispanohablantes": [
+  {
+   "mal": "Bien qu'il est fatigué, il continue à travailler.",
+   "bien": "Bien qu'il soit fatigué, il continue à travailler.",
+   "nota": "Bien que y quoique siempre rigen subjuntivo, aunque en español «aunque está cansado» lleve indicativo."
+  },
+  {
+   "mal": "Je vais te prêter ce livre pour que tu le lis.",
+   "bien": "Je vais te prêter ce livre pour que tu le lises.",
+   "nota": "Pour que exige subjuntivo, igual que «para que» en español."
+  },
+  {
+   "mal": "Je vais l'appeler avant que je parte.",
+   "bien": "Je vais l'appeler avant de partir.",
+   "nota": "Con el mismo sujeto se usa preposición + infinitivo (avant de partir), como en español «antes de irme»."
+  }
+ ],
+ "ejercicios": [
+  {
+   "id": "e01",
+   "tipo": "hueco",
+   "enunciado": "Completa con el subjuntivo o el indicativo del verbo entre paréntesis.",
+   "frase": "Je resterai ici jusqu'à ce que tu ___ (revenir).",
+   "respuestas": [
+    "reviennes"
+   ],
+   "explicacion": "Se aplica la regla de la tabla de la ficha: jusqu'à ce que, que expresa un límite temporal, exige subjuntivo. La pista es jusqu'à ce que con sujeto distinto (je en la principal, tu en la subordinada). Revenir tiene un subjuntivo de doble raíz: que tu reviennes, formado sobre ils reviennent. En español también decimos «hasta que vuelvas», así que la intuición ayuda.",
+   "origen": "tatoeba:8302229",
+   "explicacion_breve": "Jusqu'à ce que + subjuntivo; revenir: que tu reviennes.",
+   "traduccion": "Me quedaré aquí hasta que vuelvas.",
+   "errores_previstos": [
+    {
+     "respuesta": "reviens",
+     "explicacion": "Es indicativo presente; jusqu'à ce que exige subjuntivo, reviennes."
+    },
+    {
+     "respuesta": "reviendras",
+     "explicacion": "El futuro no sustituye al subjuntivo tras jusqu'à ce que, aunque la acción sea futura."
+    },
+    {
+     "respuesta": "revienes",
+     "explicacion": "Subjuntivo mal escrito: la raíz es revienn-, con doble n: reviennes."
+    }
+   ]
+  },
+  {
+   "id": "e02",
+   "tipo": "hueco",
+   "enunciado": "Completa con el subjuntivo o el indicativo del verbo entre paréntesis.",
+   "frase": "Attends un peu jusqu'à ce que je ___ (être) prêt.",
+   "respuestas": [
+    "sois"
+   ],
+   "explicacion": "Se aplica de nuevo la regla de jusqu'à ce que + subjuntivo. La pista es la locución delante del sujeto je y el verbo être, cuyo subjuntivo es irregular: que je sois. La principal es un imperativo dirigido a tu y la subordinada tiene otro sujeto, je, por eso no cabe el infinitivo. En español también usamos subjuntivo: «hasta que esté listo».",
+   "origen": "tatoeba:1786393",
+   "explicacion_breve": "Jusqu'à ce que + subjuntivo de être.",
+   "traduccion": "Espera un poco hasta que esté listo.",
+   "errores_previstos": [
+    {
+     "respuesta": "suis",
+     "explicacion": "Indicativo presente: jusqu'à ce que exige el subjuntivo sois."
+    },
+    {
+     "respuesta": "soit",
+     "explicacion": "Soit es la forma de il o elle; con je el subjuntivo es sois."
+    },
+    {
+     "respuesta": "serai",
+     "explicacion": "El futuro no vale tras jusqu'à ce que; hace falta subjuntivo."
+    }
+   ]
+  },
+  {
+   "id": "e03",
+   "tipo": "hueco",
+   "enunciado": "Completa con el subjuntivo o el indicativo del verbo entre paréntesis.",
+   "frase": "Ouvrez la porte pour que j'___ (entrer), s'il vous plaît.",
+   "respuestas": [
+    "entre"
+   ],
+   "explicacion": "Se aplica la regla de finalidad de la ficha: pour que + subjuntivo cuando los sujetos son distintos. La pista es que quien abre es vous (ouvrez) y quien entra es je, de modo que no cabe pour + infinitivo. El subjuntivo de entrer para je coincide en la forma con el presente de indicativo: que j'entre. La respuesta es entre.",
+   "origen": "tatoeba:7701157",
+   "explicacion_breve": "Pour que + subjuntivo: que j'entre.",
+   "traduccion": "Abran la puerta para que entre, por favor.",
+   "errores_previstos": [
+    {
+     "respuesta": "entrer",
+     "explicacion": "El infinitivo solo vale con el mismo sujeto (pour entrer); aquí j' exige verbo conjugado en subjuntivo."
+    },
+    {
+     "respuesta": "entres",
+     "explicacion": "Entres es la forma de tu; con je es entre."
+    },
+    {
+     "respuesta": "entrerai",
+     "explicacion": "Pour que exige subjuntivo, no futuro."
+    }
+   ]
+  },
+  {
+   "id": "e04",
+   "tipo": "hueco",
+   "enunciado": "Completa con el subjuntivo o el indicativo del verbo entre paréntesis.",
+   "frase": "Bien que Joe-Bob ne ___ (comprendre) pas bien le français, il adore écouter Tex.",
+   "respuestas": [
+    "comprenne"
+   ],
+   "explicacion": "Se aplica la regla de concesión de la ficha: bien que exige subjuntivo, a diferencia del español «aunque», que admite indicativo. La pista es bien que al principio. El subjuntivo de comprendre se forma sobre la raíz de ils comprennent: qu'il comprenne. El ne… pas de la frase es una negación normal y no altera el modo.",
+   "explicacion_breve": "Bien que + subjuntivo: ils comprennent → qu'il comprenne.",
+   "traduccion": "Aunque Joe-Bob no entiende bien el francés, le encanta escuchar a Tex.",
+   "errores_previstos": [
+    {
+     "respuesta": "comprend",
+     "explicacion": "Calco de «aunque no entiende» en indicativo; bien que exige subjuntivo, comprenne."
+    },
+    {
+     "respuesta": "comprene",
+     "explicacion": "Falta una n: el subjuntivo se forma sobre ils comprennent, comprenne."
+    },
+    {
+     "respuesta": "comprendre",
+     "explicacion": "Hace falta verbo conjugado con el sujeto Joe-Bob, no el infinitivo."
+    }
+   ]
+  },
+  {
+   "id": "e05",
+   "tipo": "hueco",
+   "enunciado": "Completa con el subjuntivo o el indicativo del verbo entre paréntesis.",
+   "frase": "Pendant qu'Edouard ___ (servir) la salade, les clients discutent.",
+   "respuestas": [
+    "sert"
+   ],
+   "explicacion": "Se aplica la observación final de la ficha: pendant que, como tandis que, alors que, parce que o puisque, va con indicativo. La pista es pendant que, que expresa simultaneidad de dos hechos reales. El presente de servir para il es sert, verbo del grupo de dormir y partir que pierde la consonante de la raíz en singular: je sers, il sert.",
+   "explicacion_breve": "Pendant que va con indicativo.",
+   "traduccion": "Mientras Edouard sirve la ensalada, los clientes charlan.",
+   "errores_previstos": [
+    {
+     "respuesta": "serve",
+     "explicacion": "Es subjuntivo; pendant que expresa un hecho real y va con indicativo, sert."
+    },
+    {
+     "respuesta": "servit",
+     "explicacion": "Es passé simple; la frase está en presente (discutent), así que corresponde sert."
+    },
+    {
+     "respuesta": "serv",
+     "explicacion": "Forma incompleta: en tercera persona singular el presente es sert, con t final."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "discuter",
+     "significado": "charlar, conversar"
+    }
+   ]
+  },
+  {
+   "id": "e06",
+   "tipo": "hueco",
+   "enunciado": "Completa con el subjuntivo o el indicativo del verbo entre paréntesis.",
+   "frase": "Edouard veut bien faire la cuisine pourvu que quelqu'un d'autre ___ (faire) la vaisselle.",
+   "respuestas": [
+    "fasse"
+   ],
+   "explicacion": "Se aplica la regla de condición de la ficha: pourvu que, «con tal de que, siempre que», exige subjuntivo. La pista es pourvu que con un sujeto distinto, quelqu'un d'autre. El subjuntivo de faire es irregular: que quelqu'un fasse. Igual que en español «con tal de que alguien friegue», el subjuntivo sale de forma natural.",
+   "explicacion_breve": "Pourvu que + subjuntivo: que quelqu'un fasse.",
+   "traduccion": "Edouard está dispuesto a cocinar con tal de que otra persona friegue los platos.",
+   "errores_previstos": [
+    {
+     "respuesta": "fait",
+     "explicacion": "Indicativo: pourvu que exige subjuntivo, fasse."
+    },
+    {
+     "respuesta": "faisse",
+     "explicacion": "Subjuntivo mal formado: el de faire es fasse."
+    },
+    {
+     "respuesta": "fera",
+     "explicacion": "El futuro no va tras pourvu que; se usa el subjuntivo."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "vouloir bien",
+     "significado": "estar dispuesto a, aceptar"
+    },
+    {
+     "palabra": "faire la vaisselle",
+     "significado": "fregar los platos"
+    }
+   ]
+  },
+  {
+   "id": "e07",
+   "tipo": "hueco",
+   "enunciado": "Completa con el subjuntivo o el indicativo del verbo entre paréntesis.",
+   "frase": "Corey entre par la fenêtre sans qu'Edouard le ___ (voir).",
+   "respuestas": [
+    "voie"
+   ],
+   "explicacion": "Se aplica la regla de exclusión de la ficha: sans que + subjuntivo cuando los sujetos son distintos (Corey entra, Edouard ve). La pista es sans que. El subjuntivo de voir para il es voie, que suena igual que voit pero se escribe con -e. En español también es subjuntivo: «sin que lo vea».",
+   "explicacion_breve": "Sans que + subjuntivo de voir: qu'il voie.",
+   "traduccion": "Corey entra por la ventana sin que Edouard lo vea.",
+   "errores_previstos": [
+    {
+     "respuesta": "voit",
+     "explicacion": "Es indicativo; sans que exige subjuntivo, voie."
+    },
+    {
+     "respuesta": "voye",
+     "explicacion": "Subjuntivo mal escrito: con il es voie; la y solo aparece en nous voyions y vous voyiez."
+    },
+    {
+     "respuesta": "ne voie",
+     "explicacion": "Sans que ya es negativo por su significado; en francés cuidado no suele llevar ne expletivo y basta con voie."
+    }
+   ]
+  },
+  {
+   "id": "e08",
+   "tipo": "eleccion",
+   "enunciado": "Elige la forma correcta.",
+   "frase": "Dis-lui que tu l'aimes avant qu'il ne ___ trop tard.",
+   "opciones": [
+    "soit",
+    "est",
+    "sera",
+    "serait"
+   ],
+   "respuestas": [
+    "soit"
+   ],
+   "explicacion": "Se aplica la regla de la ficha de que avant que exige subjuntivo, y la observación sobre el ne expletivo, que en registro cuidado puede aparecer sin valor negativo. La pista es avant qu'il ne: ese ne no niega nada, la frase significa «antes de que sea tarde». El subjuntivo de être para il es soit.",
+   "origen": "tatoeba:615050",
+   "explicacion_breve": "Avant que + subjuntivo; el ne es expletivo (no niega).",
+   "traduccion": "Dile que le quieres antes de que sea demasiado tarde.",
+   "por_opcion": {
+    "soit": "Correcta: subjuntivo de être, exigido por avant que; el ne es expletivo.",
+    "est": "Indicativo: avant que no lo admite.",
+    "sera": "Futuro: aunque la acción sea posterior, avant que exige subjuntivo, no futuro.",
+    "serait": "Condicional: no sustituye al subjuntivo tras avant que."
+   }
+  },
+  {
+   "id": "e09",
+   "tipo": "eleccion",
+   "enunciado": "Elige la opción correcta.",
+   "frase": "Laisse-moi l'écrire ___ je ne l'oublie pas.",
+   "opciones": [
+    "afin que",
+    "afin de",
+    "parce que",
+    "puisque"
+   ],
+   "respuestas": [
+    "afin que"
+   ],
+   "explicacion": "Se aplica la tabla de finalidad de la ficha: afin que + subjuntivo frente a afin de + infinitivo. La pista es que tras el hueco viene un verbo conjugado con sujeto, je ne l'oublie pas, y oublie es subjuntivo. Por tanto hace falta la conjunción afin que. Como el sujeto de laisse es tu y el de oublie es je, la conjunción está justificada; con un único sujeto se diría afin de ne pas l'oublier.",
+   "origen": "tatoeba:801681",
+   "explicacion_breve": "Finalidad con verbo conjugado en subjuntivo (oublie): afin que.",
+   "traduccion": "Déjame escribirlo para no olvidarlo (para que no lo olvide).",
+   "por_opcion": {
+    "afin que": "Correcta: para que; introduce una oración en subjuntivo con sujeto propio (je).",
+    "afin de": "Para: va con infinitivo (afin de ne pas l'oublier), no con un verbo conjugado.",
+    "parce que": "Porque: expresa causa y va con indicativo; no expresa la finalidad de escribirlo.",
+    "puisque": "Ya que: causa conocida con indicativo; tampoco expresa finalidad."
+   }
+  },
+  {
+   "id": "e10",
+   "tipo": "eleccion",
+   "enunciado": "Elige la opción correcta.",
+   "frase": "Je vais fermer la fenêtre ___ avoir froid.",
+   "opciones": [
+    "pour ne pas",
+    "pour que je n'aie pas",
+    "sans que"
+   ],
+   "respuestas": [
+    "pour ne pas"
+   ],
+   "explicacion": "Se aplica la regla de la ficha del mismo sujeto: si el sujeto de las dos oraciones coincide, se usa preposición + infinitivo en lugar de conjunción + subjuntivo. La pista es que quien cierra y quien tendría frío es la misma persona, je, y que tras el hueco aparece el infinitivo avoir. La negación del infinitivo se coloca entera delante: pour ne pas avoir froid.",
+   "explicacion_breve": "Mismo sujeto: pour + infinitivo, no pour que + subjuntivo.",
+   "traduccion": "Voy a cerrar la ventana para no tener frío.",
+   "por_opcion": {
+    "pour ne pas": "Correcta: preposición + infinitivo negativo, obligatorio con el mismo sujeto.",
+    "pour que je n'aie pas": "Sería gramatical solo con sujetos distintos; con el mismo sujeto (je) el francés lo evita, y además el hueco va seguido de avoir, lo que duplicaría el verbo.",
+    "sans que": "Sin que: exige verbo conjugado en subjuntivo y sujeto distinto; delante de un infinitivo no cabe."
+   }
+  },
+  {
+   "id": "e11",
+   "tipo": "eleccion",
+   "enunciado": "Elige la forma correcta.",
+   "frase": "Il est parti après que tu ___ arrivé.",
+   "opciones": [
+    "es",
+    "sois",
+    "seras"
+   ],
+   "respuestas": [
+    "es"
+   ],
+   "explicacion": "Se aplica la observación de la ficha: après que va con indicativo en la norma, porque introduce un hecho ya ocurrido. La pista es après que y el tiempo de la principal, il est parti (passé composé). Arriver forma su tiempo compuesto con être, así que el passé composé es tu es arrivé. En la lengua hablada se oye con frecuencia après que tu sois arrivé, por analogía con avant que, pero la norma lo rechaza.",
+   "explicacion_breve": "Après que va con indicativo en la norma (la acción ya ocurrió).",
+   "traduccion": "Se marchó después de que llegaras.",
+   "por_opcion": {
+    "es": "Correcta: indicativo (passé composé tu es arrivé), como pide la norma tras après que.",
+    "sois": "Subjuntivo: frecuente en el habla por analogía con avant que, pero incorrecto según la norma.",
+    "seras": "Futuro anterior (tu seras arrivé): incompatible con una principal en pasado."
+   }
+  },
+  {
+   "id": "e12",
+   "tipo": "corregir",
+   "enunciado": "Corrige el error.",
+   "frase": "Nous partirons avant que tu viens.",
+   "respuestas": [
+    "Nous partirons avant que tu viennes.",
+    "Nous partirons avant que tu ne viennes."
+   ],
+   "explicacion": "Se aplica la regla de la ficha: avant que exige subjuntivo. La pista es avant que seguido de tu viens, en indicativo. El subjuntivo de venir se forma sobre ils viennent: que tu viennes. Se acepta también la versión con ne expletivo, avant que tu ne viennes, propia del registro cuidado y sin valor negativo.",
+   "origen": "tatoeba:1184374",
+   "explicacion_breve": "Avant que exige subjuntivo: viennes.",
+   "traduccion": "Nos iremos antes de que vengas.",
+   "errores_previstos": [
+    {
+     "respuesta": "Nous partirons avant que tu viens.",
+     "explicacion": "Es la frase sin corregir: avant que no admite indicativo."
+    },
+    {
+     "respuesta": "Nous partirons avant que tu viendras.",
+     "explicacion": "El futuro tampoco vale tras avant que; hace falta el subjuntivo viennes."
+    },
+    {
+     "respuesta": "Nous partirons avant que tu vienes.",
+     "explicacion": "Subjuntivo mal escrito, calcado del español «vienes»: se escribe viennes, con doble n."
+    }
+   ]
+  },
+  {
+   "id": "e13",
+   "tipo": "corregir",
+   "enunciado": "Corrige el error.",
+   "frase": "Quoique Bette a l'air gentille, Tammy ne lui fait pas confiance.",
+   "respuestas": [
+    "Quoique Bette ait l'air gentille, Tammy ne lui fait pas confiance."
+   ],
+   "explicacion": "Se aplica la regla de concesión de la ficha: quoique, como bien que, exige subjuntivo. La pista es quoique seguido de a, indicativo de avoir. El subjuntivo de avoir para elle es ait: quoique Bette ait l'air gentille. El error viene del español, donde «aunque parece» va en indicativo cuando se presenta como un hecho.",
+   "explicacion_breve": "Quoique rige subjuntivo: ait.",
+   "traduccion": "Aunque Bette parece amable, Tammy no se fía de ella.",
+   "errores_previstos": [
+    {
+     "respuesta": "Quoique Bette a l'air gentille, Tammy ne lui fait pas confiance.",
+     "explicacion": "Es la frase sin corregir: quoique no admite indicativo."
+    },
+    {
+     "respuesta": "Quoique Bette aie l'air gentille, Tammy ne lui fait pas confiance.",
+     "explicacion": "Aie es la forma de je; con un sujeto de tercera persona es ait."
+    },
+    {
+     "respuesta": "Quoique Bette est l'air gentille, Tammy ne lui fait pas confiance.",
+     "explicacion": "Se ha confundido el verbo: la expresión es avoir l'air, y además hace falta subjuntivo, ait."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "avoir l'air",
+     "significado": "parecer, tener aspecto de"
+    },
+    {
+     "palabra": "faire confiance à",
+     "significado": "fiarse de, confiar en"
+    }
+   ]
+  },
+  {
+   "id": "e14",
+   "tipo": "transformar",
+   "enunciado": "Reescribe la frase con «sans que».",
+   "frase": "Il l'a fait et je ne le savais pas.",
+   "respuestas": [
+    "Il l'a fait sans que je le sache."
+   ],
+   "explicacion": "Se aplica la regla de exclusión de la ficha: sans que + subjuntivo con sujetos distintos (il hace, je no sabe). La pista es la consigna de usar sans que y la negación de la segunda frase, que desaparece porque sans que ya expresa la ausencia. El subjuntivo de savoir es irregular, que je sache, y en francés actual se usa el subjuntivo presente aunque la principal esté en pasado, donde el español dice «supiera».",
+   "origen": "tatoeba:1184683",
+   "explicacion_breve": "Sans que + subjuntivo presente (sache), con sujetos distintos.",
+   "traduccion": "Lo hizo sin que yo lo supiera.",
+   "errores_previstos": [
+    {
+     "respuesta": "Il l'a fait sans que je le savais.",
+     "explicacion": "Se ha mantenido el indicativo; sans que exige subjuntivo, sache."
+    },
+    {
+     "respuesta": "Il l'a fait sans que je ne le sache pas.",
+     "explicacion": "Sobra la negación: sans que ya significa «sin que»; con pas se diría lo contrario."
+    },
+    {
+     "respuesta": "Il l'a fait sans que je le susse.",
+     "explicacion": "Es imperfecto de subjuntivo, calco de «supiera»; existe pero es literario y en la lengua actual se usa sache."
+    }
+   ]
+  },
+  {
+   "id": "e15",
+   "tipo": "transformar",
+   "enunciado": "Reescribe con una preposición + infinitivo (mismo sujeto).",
+   "frase": "Je vais te téléphoner avant que je parte.",
+   "respuestas": [
+    "Je vais te téléphoner avant de partir."
+   ],
+   "explicacion": "Se aplica la regla de la ficha del mismo sujeto: avant que se sustituye por avant de + infinitivo cuando el sujeto de las dos oraciones es el mismo. La pista es que je llama y je se va. Por eso avant que je parte, que el francés evita, pasa a avant de partir, con la preposición de y el infinitivo. Es lo mismo que hacemos en español al decir «antes de irme» y no «antes de que me vaya» cuando el sujeto coincide.",
+   "explicacion_breve": "Mismo sujeto: avant de + infinitivo.",
+   "traduccion": "Voy a llamarte antes de irme.",
+   "errores_previstos": [
+    {
+     "respuesta": "Je vais te téléphoner avant partir.",
+     "explicacion": "Falta la preposición de: ante infinitivo es avant de."
+    },
+    {
+     "respuesta": "Je vais te téléphoner avant de je parte.",
+     "explicacion": "Tras avant de no va verbo conjugado con sujeto, sino infinitivo: avant de partir."
+    },
+    {
+     "respuesta": "Je vais te téléphoner avant que partir.",
+     "explicacion": "Avant que exige oración conjugada; con infinitivo la forma es avant de."
+    }
+   ]
+  },
+  {
+   "id": "e16",
+   "tipo": "ordenar",
+   "enunciado": "Ordena las palabras.",
+   "palabras": [
+    "vert",
+    "Attendez",
+    "le",
+    "jusqu'à",
+    "ce",
+    "que",
+    "feu",
+    "passe",
+    "au"
+   ],
+   "respuestas": [
+    "Attendez jusqu'à ce que le feu passe au vert"
+   ],
+   "explicacion": "Se aplica la regla de jusqu'à ce que + subjuntivo. La pista es el imperativo Attendez, con mayúscula, que abre la frase, y la locución jusqu'à ce que, que hay que reconstruir con sus tres palabras. Después va el sujeto le feu y el verbo passe, subjuntivo de passer que coincide con el presente, más el complemento au vert. El orden es el normal: sujeto, verbo y complemento.",
+   "origen": "tatoeba:138692",
+   "explicacion_breve": "Jusqu'à ce que + subjuntivo (passe coincide con el presente).",
+   "traduccion": "Esperen hasta que el semáforo se ponga en verde.",
+   "errores_previstos": [
+    {
+     "respuesta": "Attendez jusqu'à ce que passe le feu au vert",
+     "explicacion": "Tras la conjunción el sujeto va delante del verbo: le feu passe, no la inversión del español «pase el semáforo»."
+    },
+    {
+     "respuesta": "Attendez ce que jusqu'à le feu passe au vert",
+     "explicacion": "La locución es fija: jusqu'à ce que, en ese orden."
+    },
+    {
+     "respuesta": "Attendez jusqu'à ce que le feu au vert passe",
+     "explicacion": "El complemento au vert va detrás del verbo passe."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "le feu",
+     "significado": "el semáforo"
+    },
+    {
+     "palabra": "passer au vert",
+     "significado": "ponerse en verde"
+    }
+   ]
+  }
+ ],
+ "fuente": {
+  "nombre": "Tex's French Grammar",
+  "autores": "COERLL, Universidad de Texas en Austin",
+  "licencia": "CC BY 3.0",
+  "url": "https://laits.utexas.edu/tex/gr/tas5.html",
+  "otras": [
+   "Frases de Tatoeba (CC BY 2.0 FR)"
+  ]
+ },
+ "descripcion_larga_es": "Algunas conjunciones francesas exigen siempre subjuntivo: pour que, afin que, avant que, jusqu'à ce que, bien que, quoique, à condition que, pourvu que, à moins que, sans que, de peur que. Las trampas están en bien que (en español «aunque» admite indicativo), en après que (indicativo en francés) y en la regla del mismo sujeto, que obliga a pasar a preposición + infinitivo.",
+ "contexto": {
+  "que_es": "Son conjunciones subordinantes que obligan a poner en subjuntivo el verbo de la oración que introducen. Expresan finalidad (pour que, afin que), temor (de peur que), anterioridad o límite temporal (avant que, jusqu'à ce que, en attendant que), concesión (bien que, quoique), condición (à condition que, pourvu que, à moins que) y exclusión (sans que).",
+  "por_que_importa": "El subjuntivo es una de las marcas de nivel B2: un examinador espera verlo bien usado tras estas conjunciones. Equivocarse en el modo no suele impedir la comprensión, pero se percibe como falta grave. Saber cuándo sustituir la conjunción por preposición + infinitivo (avant de partir) da además naturalidad, porque el francés evita repetir el mismo sujeto.",
+  "cuando_se_usa": "Siempre que la oración subordinada tenga un sujeto distinto del de la principal y se exprese una de esas relaciones. Si el sujeto es el mismo, la mayoría pasa a preposición + infinitivo (pour, avant de, sans, à condition de). El hispanohablante acierta casi siempre por intuición, salvo con bien que (pone indicativo como en «aunque está»), con après que (pone subjuntivo por analogía con avant que) y con quand (pone subjuntivo como en «cuando llegue»)."
+ }
 }

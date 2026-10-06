@@ -180,8 +180,24 @@
    "respuestas": [
     "boit"
    ],
-   "explicacion": "Boire: il boit.",
-   "origen": "tatoeba:5258098"
+   "explicacion": "Se aplica la tabla de boire de Reglas y claves: en singular la raíz es boi- y las terminaciones son -s, -s, -t. El sujeto il, tercera persona del singular, pide la terminación -t. Por eso la forma correcta es «il boit», que suena igual que «je bois» y «tu bois»: en el singular la diferencia es solo escrita. El cambio de raíz a buv- solo aparece en nous y vous.",
+   "origen": "tatoeba:5258098",
+   "explicacion_breve": "Boire: il boit.",
+   "traduccion": "Él bebe agua.",
+   "errores_previstos": [
+    {
+     "respuesta": "bois",
+     "explicacion": "Es la forma de je y tu. Con il la terminación escrita es -t: il boit, aunque se pronuncie igual."
+    },
+    {
+     "respuesta": "buve",
+     "explicacion": "La raíz buv- solo se usa en nous y vous (buvons, buvez); además, -e es una terminación de los verbos en -er, no de boire."
+    },
+    {
+     "respuesta": "boive",
+     "explicacion": "Boive es una forma del subjuntivo (qu'il boive). En presente de indicativo, con il, es boit."
+    }
+   ]
   },
   {
    "id": "e02",
@@ -191,7 +207,23 @@
    "respuestas": [
     "buvons"
    ],
-   "explicacion": "Boire cambia de raíz en nous: buvons."
+   "explicacion": "La regla es la de las dos raíces de boire que ves en Reglas y claves: en nous y vous la raíz cambia a buv-. El sujeto nous es la pista: pide la raíz buv- y la terminación -ons. Así se obtiene «nous buvons». Formar el plural a partir del singular (bois) da «boivons», forma que no existe y que es un error muy típico, recogido en los errores frecuentes de la ficha.",
+   "explicacion_breve": "Boire cambia de raíz en nous: buvons.",
+   "traduccion": "Tomamos té por la mañana.",
+   "errores_previstos": [
+    {
+     "respuesta": "boivons",
+     "explicacion": "Mezcla la raíz de ils (boivent) con la terminación de nous. Con nous la raíz es buv-: nous buvons."
+    },
+    {
+     "respuesta": "boisons",
+     "explicacion": "Calca la raíz del singular (bois) y le añade -ons. Boire cambia de raíz en nous: buvons."
+    },
+    {
+     "respuesta": "buvez",
+     "explicacion": "Es la forma de vous. Con nous la terminación es -ons: buvons."
+    }
+   ]
   },
   {
    "id": "e03",
@@ -201,8 +233,24 @@
    "respuestas": [
     "crois"
    ],
-   "explicacion": "Croire: je crois.",
-   "origen": "tatoeba:448989"
+   "explicacion": "Se aplica la tabla de croire: en singular la raíz es croi- con las terminaciones -s, -s, -t, y con je la forma es «je crois». La pista es el sujeto je. La frase usa además la construcción croire en, que Reglas y claves explica como «creer en» alguien o algo (confiar en una persona). La y que aparece en croyons y croyez es propia solo de nous y vous.",
+   "origen": "tatoeba:448989",
+   "explicacion_breve": "Croire: je crois.",
+   "traduccion": "Creo en ti.",
+   "errores_previstos": [
+    {
+     "respuesta": "croit",
+     "explicacion": "Es la forma de il o elle. Con je la terminación es -s: je crois."
+    },
+    {
+     "respuesta": "croie",
+     "explicacion": "Croie es subjuntivo (que je croie). En presente de indicativo se dice je crois."
+    },
+    {
+     "respuesta": "croye",
+     "explicacion": "La y de croyons y croyez no aparece en el singular, y la terminación -e no corresponde a croire: je crois."
+    }
+   ]
   },
   {
    "id": "e04",
@@ -212,8 +260,24 @@
    "respuestas": [
     "dis"
    ],
-   "explicacion": "Dire: tu dis.",
-   "origen": "tatoeba:470958"
+   "explicacion": "Se aplica la tabla de dire de Reglas y claves: en singular la raíz es di- con -s, -s, -t, de modo que con tu la forma es «dis». La pista es el pronombre tu, que aquí va detrás del verbo porque la pregunta se hace con inversión (verbo, guion y sujeto). La inversión no cambia la conjugación: «tu dis» pasa a ser «dis-tu». Solo vous tiene la forma excepcional dites.",
+   "origen": "tatoeba:470958",
+   "explicacion_breve": "Dire: tu dis.",
+   "traduccion": "¿Por qué dices eso?",
+   "errores_previstos": [
+    {
+     "respuesta": "dit",
+     "explicacion": "Es la forma de il o elle (y también el participio). Con tu la terminación es -s: dis-tu."
+    },
+    {
+     "respuesta": "dites",
+     "explicacion": "Dites es la forma excepcional de vous, no de tu: con tu se dice dis-tu."
+    },
+    {
+     "respuesta": "dices",
+     "explicacion": "Es un calco del español. En francés, con tu, la forma es dis."
+    }
+   ]
   },
   {
    "id": "e05",
@@ -223,8 +287,24 @@
    "respuestas": [
     "vois"
    ],
-   "explicacion": "Voir: je vois.",
-   "origen": "tatoeba:3982510"
+   "explicacion": "Se aplica la tabla de voir de Reglas y claves: en singular la raíz es voi- con las terminaciones -s, -s, -t, y con je la forma es «je vois». La pista es el sujeto je. La y que aparece en voyons y voyez es exclusiva de nous y vous, igual que en croire, así que no debe llevarse al singular.",
+   "origen": "tatoeba:3982510",
+   "explicacion_breve": "Voir: je vois.",
+   "traduccion": "Veo su casa.",
+   "errores_previstos": [
+    {
+     "respuesta": "voit",
+     "explicacion": "Es la forma de il o elle. Con je la terminación escrita es -s: je vois."
+    },
+    {
+     "respuesta": "voye",
+     "explicacion": "La y solo aparece en nous y vous (voyons, voyez); con je la forma es vois."
+    },
+    {
+     "respuesta": "veo",
+     "explicacion": "Es la forma española. En francés, voir con je da je vois."
+    }
+   ]
   },
   {
    "id": "e06",
@@ -234,7 +314,23 @@
    "respuestas": [
     "dites"
    ],
-   "explicacion": "Forma excepcional: vous dites."
+   "explicacion": "Aquí se aplica la excepción que destaca Reglas y claves: con vous, dire no termina en -ez sino en -tes, «vous dites», como vous êtes y vous faites. La pista es el sujeto vous. Por analogía con lisez o écrivez, el alumno tiende a escribir «disez», que no existe. La ficha recuerda además que los compuestos contredire, interdire y prédire sí hacen -disez, pero dire y redire no.",
+   "explicacion_breve": "Forma excepcional: vous dites.",
+   "traduccion": "¿Qué dicen ustedes? / ¿Qué decís?",
+   "errores_previstos": [
+    {
+     "respuesta": "disez",
+     "explicacion": "Es el error clásico por analogía con lisez. Dire es una de las tres excepciones con vous: vous dites."
+    },
+    {
+     "respuesta": "dîtes",
+     "explicacion": "Con acento circunflejo es una forma del passé simple (vous dîtes). En presente se escribe dites, sin acento."
+    },
+    {
+     "respuesta": "dis",
+     "explicacion": "Es la forma de je y tu. Con vous la forma es dites."
+    }
+   ]
   },
   {
    "id": "e07",
@@ -249,8 +345,15 @@
    "respuestas": [
     "lis"
    ],
-   "explicacion": "Lire: tu lis.",
-   "origen": "tatoeba:5254235"
+   "explicacion": "Se aplica la tabla de lire de Reglas y claves: en singular la raíz es li- con las terminaciones -s, -s, -t. La pista es el pronombre tu, colocado detrás del verbo por la inversión interrogativa (quel livre lis-tu). Con tu la forma es «lis». Recuerda que el presente francés también traduce el «estar + gerundio» del español.",
+   "origen": "tatoeba:5254235",
+   "explicacion_breve": "Lire: tu lis.",
+   "traduccion": "¿Qué libro estás leyendo?",
+   "por_opcion": {
+    "lis": "Correcta: es la forma de tu (y de je) del presente de lire: lis-tu.",
+    "lit": "Incorrecta aquí: lit es la forma de il o elle. Con tu la terminación es -s. Además, lit es también el sustantivo «cama».",
+    "lises": "Incorrecta: lises es la forma del subjuntivo (que tu lises). La -s- intercalada solo aparece en el plural del presente (nous lisons) y en el subjuntivo."
+   }
   },
   {
    "id": "e08",
@@ -265,7 +368,14 @@
    "respuestas": [
     "écrivent"
    ],
-   "explicacion": "Écrire añade v en el plural: ils écrivent."
+   "explicacion": "Se aplica la regla de la segunda familia de Reglas y claves: dire, lire y écrire añaden una consonante en el plural, y en el caso de écrire esa consonante es v (écriv-ons, écriv-ez, écriv-ent). El sujeto «mes enfants» equivale a ils, tercera persona del plural, que pide la raíz écriv- y la terminación -ent. Por eso la forma correcta es «écrivent», donde la v sí se pronuncia.",
+   "explicacion_breve": "Écrire añade v en el plural: ils écrivent.",
+   "traduccion": "Mis hijos escriben muchos mensajes.",
+   "por_opcion": {
+    "écrivent": "Correcta: tercera persona del plural de écrire, con la v del plural: ils écrivent.",
+    "écrient": "Incorrecta: olvida la v. Además, écrient existe pero es de otro verbo, s'écrier (exclamar): ils s'écrient.",
+    "écrisent": "Incorrecta: aplica la s de lire (lisent) a écrire. La consonante del plural de écrire es v, no s."
+   }
   },
   {
    "id": "e09",
@@ -280,7 +390,14 @@
    "respuestas": [
     "voyez"
    ],
-   "explicacion": "Voir: vous voyez (voyiez es imperfecto o subjuntivo)."
+   "explicacion": "Se aplica la tabla de voir: en nous y vous la i de la raíz se convierte en y ante vocal (voyons, voyez). La pista es el sujeto vous y el adverbio souvent, que indica una acción habitual en presente. Así se obtiene «vous voyez». La explicación de la ficha recuerda que voyiez, con -iez, es la terminación del imperfecto o del subjuntivo, no del presente.",
+   "explicacion_breve": "Voir: vous voyez (voyiez es imperfecto o subjuntivo).",
+   "traduccion": "¿Ven ustedes a menudo a sus amigos? / ¿Veis a menudo a vuestros amigos?",
+   "por_opcion": {
+    "voyez": "Correcta: presente de voir con vous, con la y de nous y vous y la terminación -ez.",
+    "voiez": "Incorrecta: no existe. Ante la terminación -ez, la i de la raíz pasa a y: voyez.",
+    "voyiez": "Incorrecta en esta frase: es imperfecto (vous voyiez, veíais) o subjuntivo (que vous voyiez). Para una costumbre presente se usa voyez."
+   }
   },
   {
    "id": "e10",
@@ -290,8 +407,24 @@
    "respuestas": [
     "écrit"
    ],
-   "explicacion": "Participio de écrire: écrit.",
-   "origen": "tatoeba:378898"
+   "explicacion": "La ficha insiste en aprender cada verbo con su participio, porque es el que forma el passé composé con avoir. La pista es el auxiliar «a», que pide un participio pasado detrás. El participio de écrire es «écrit», que termina en -t como dit; en masculino la t final no se pronuncia. Con quién como sujeto y avoir, el participio no concuerda.",
+   "origen": "tatoeba:378898",
+   "explicacion_breve": "Participio de écrire: écrit.",
+   "traduccion": "¿Quién ha escrito este libro? / ¿Quién escribió este libro?",
+   "errores_previstos": [
+    {
+     "respuesta": "écrivé",
+     "explicacion": "Es una regularización con la raíz del plural y la terminación de los verbos en -er. El participio de écrire es écrit."
+    },
+    {
+     "respuesta": "écri",
+     "explicacion": "Falta la t final, que no se oye pero se escribe: écrit (femenino écrite, donde sí suena)."
+    },
+    {
+     "respuesta": "écrire",
+     "explicacion": "Tras el auxiliar avoir va el participio, no el infinitivo: a écrit."
+    }
+   ]
   },
   {
    "id": "e11",
@@ -301,8 +434,24 @@
    "respuestas": [
     "dit"
    ],
-   "explicacion": "Participio de dire: dit.",
-   "origen": "tatoeba:4488676"
+   "explicacion": "Se aplica el participio que aparece en la última fila de la tabla de dire: «dit». La pista es el auxiliar avoir en negativa (n'a pas), que exige un participio detrás de pas. El participio dit coincide con la forma il dit del presente, y la t final no se pronuncia. Fíjate en que ne y pas rodean al auxiliar y el participio queda fuera.",
+   "origen": "tatoeba:4488676",
+   "explicacion_breve": "Participio de dire: dit.",
+   "traduccion": "Tom no ha dicho eso. / Tom no dijo eso.",
+   "errores_previstos": [
+    {
+     "respuesta": "disé",
+     "explicacion": "Es una regularización con la raíz del plural y la terminación -é de los verbos en -er. El participio de dire es dit."
+    },
+    {
+     "respuesta": "dis",
+     "explicacion": "Dis es la forma de je y tu del presente, no el participio. Con avoir se usa dit."
+    },
+    {
+     "respuesta": "dicho",
+     "explicacion": "Es la forma española. El participio francés de dire es dit."
+    }
+   ]
   },
   {
    "id": "e12",
@@ -317,7 +466,14 @@
    "respuestas": [
     "parle"
    ],
-   "explicacion": "Hablar un idioma: parler."
+   "explicacion": "Se aplica la distinción de Reglas y claves entre dire y parler: dire es decir algo concreto (dire la vérité, dire bonjour) y parler es hablar, también hablar un idioma (parler français). La pista es el complemento «trois langues», que expresa la capacidad de hablar idiomas. Por eso el verbo correcto es «parle». Decir «elle dit trois langues» es un error de hispanohablante recogido en la ficha.",
+   "explicacion_breve": "Hablar un idioma: parler.",
+   "traduccion": "Habla tres idiomas.",
+   "por_opcion": {
+    "parle": "Correcta: parler une langue es la expresión fija para «hablar un idioma».",
+    "dit": "Incorrecta: dire significa decir algo (una frase, la verdad, hola), no dominar un idioma.",
+    "raconte": "Incorrecta: raconter es contar o narrar (raconter une histoire). No sirve para hablar idiomas."
+   }
   },
   {
    "id": "e13",
@@ -327,7 +483,23 @@
    "respuestas": [
     "Vous dites la vérité."
    ],
-   "explicacion": "Dire: vous dites."
+   "explicacion": "El error está en «disez»: según la excepción de Reglas y claves, dire con vous hace «vous dites», igual que vous êtes y vous faites. La pista es el sujeto vous, que en casi todos los verbos lleva -ez y por eso invita a la analogía con lisez. La frase correcta es «Vous dites la vérité.». Solo los compuestos contredire, interdire y prédire hacen -disez.",
+   "explicacion_breve": "Dire: vous dites.",
+   "traduccion": "Usted dice la verdad. / Vosotros decís la verdad.",
+   "errores_previstos": [
+    {
+     "respuesta": "Vous disez la vérité.",
+     "explicacion": "Es copiar la frase sin corregir. Disez no existe: con vous, dire hace dites."
+    },
+    {
+     "respuesta": "Vous dîtes la vérité.",
+     "explicacion": "Dîtes, con circunflejo, es passé simple. En presente se escribe sin acento: vous dites."
+    },
+    {
+     "respuesta": "Vous dites le vérité.",
+     "explicacion": "Se corrige el verbo, pero se estropea el artículo: vérité es femenino, la vérité."
+    }
+   ]
   },
   {
    "id": "e14",
@@ -337,7 +509,23 @@
    "respuestas": [
     "J'ai lu ce roman."
    ],
-   "explicacion": "El participio de lire es lu."
+   "explicacion": "El error está en el participio: lisé es una regularización inexistente. Según la tabla de lire de Reglas y claves, el participio es «lu», muy corto y con la misma -u de bu, cru y vu. La pista es el auxiliar «ai», que exige el participio. La frase correcta es «J'ai lu ce roman.».",
+   "explicacion_breve": "El participio de lire es lu.",
+   "traduccion": "He leído esta novela. / Leí esta novela.",
+   "errores_previstos": [
+    {
+     "respuesta": "J'ai lisé ce roman.",
+     "explicacion": "Es dejar la frase sin corregir. El participio de lire no se forma como los verbos en -er: es lu."
+    },
+    {
+     "respuesta": "J'ai lit ce roman.",
+     "explicacion": "Lit es el presente de il, no el participio. Con avoir va lu."
+    },
+    {
+     "respuesta": "J'ai lus ce roman.",
+     "explicacion": "Con avoir el participio no concuerda con el sujeto, y aquí el complemento va detrás: lu, sin -s."
+    }
+   ]
   },
   {
    "id": "e15",
@@ -347,8 +535,24 @@
    "respuestas": [
     "Ils boivent du café."
    ],
-   "explicacion": "Boire: ils boivent.",
-   "origen": "tatoeba:11935"
+   "explicacion": "Se aplica la tabla de boire: en ils la raíz vuelve a la forma del singular, boi-, pero con v añadida y la terminación -ent: «ils boivent». La pista es el cambio de il a ils que pide el enunciado. Así, ils boivent no se parece a nous buvons: boire tiene tres raíces (boi-, buv-, boiv-). Como dice la ficha, en el plural la diferencia también se oye, porque la v se pronuncia.",
+   "origen": "tatoeba:11935",
+   "explicacion_breve": "Boire: ils boivent.",
+   "traduccion": "Ellos beben café.",
+   "errores_previstos": [
+    {
+     "respuesta": "Ils boient du café.",
+     "explicacion": "Calca el modelo de croient y voient, pero boire mete una v en ils: ils boivent."
+    },
+    {
+     "respuesta": "Ils buvent du café.",
+     "explicacion": "La raíz buv- es solo de nous y vous. Con ils es boiv-: ils boivent."
+    },
+    {
+     "respuesta": "Ils boit du café.",
+     "explicacion": "Se ha cambiado el sujeto pero no el verbo. Con ils la terminación es -ent: boivent."
+    }
+   ]
   },
   {
    "id": "e16",
@@ -363,8 +567,20 @@
    "respuestas": [
     "Je le vois rarement"
    ],
-   "explicacion": "Pronombre delante del verbo y adverbio detrás.",
-   "origen": "tatoeba:3580"
+   "explicacion": "La regla es la del orden de la frase francesa: el pronombre de complemento directo le va delante del verbo conjugado y el adverbio rarement va detrás del verbo. La pista es el pronombre le, que en francés nunca puede ir tras el verbo en una frase afirmativa no imperativa. Así queda «Je le vois rarement». Con voir, je vois es la forma del singular de la tabla.",
+   "origen": "tatoeba:3580",
+   "explicacion_breve": "Pronombre delante del verbo y adverbio detrás.",
+   "traduccion": "Lo veo poco.",
+   "errores_previstos": [
+    {
+     "respuesta": "Je vois le rarement",
+     "explicacion": "El pronombre complemento no va detrás del verbo conjugado en una frase enunciativa: je le vois."
+    },
+    {
+     "respuesta": "Je rarement le vois",
+     "explicacion": "Calco del español «rara vez lo veo». En francés el adverbio va detrás del verbo conjugado: je le vois rarement."
+    }
+   ]
   }
  ],
  "fuente": {
@@ -375,5 +591,11 @@
   "otras": [
    "Frases de Tatoeba (CC BY 2.0 FR)"
   ]
+ },
+ "descripcion_larga_es": "Boire, croire, voir, dire, lire y écrire son seis verbos irregulares de uso diario: beber, creer, ver, decir, leer y escribir. Forman dos familias fáciles de recordar: unos cambian la raíz en nous y vous (buvons, voyez) y otros añaden una consonante en el plural (lisons, écrivent). Cuestan porque el español regulariza por analogía y produce formas inexistentes como «disez» o «lisé».",
+ "contexto": {
+  "que_es": "Es el presente de indicativo y el participio pasado de seis verbos irregulares de la tercera conjugación. Boire, croire y voir alternan dos raíces: una en el singular y en ils (bois, boivent) y otra en nous y vous (buvons, buvez). Dire, lire y écrire mantienen la raíz corta en el singular y añaden una consonante en el plural (dis-ons, lis-ons, écriv-ons).",
+  "por_que_importa": "Son verbos que aparecen en casi cualquier conversación: decir lo que se piensa, contar lo que se ha leído o escrito, opinar con je crois que. Un error en ellos (vous disez, j'ai lisé) se nota enseguida y transmite un nivel inferior al real, algo que penaliza en un examen oral. Además, el participio es imprescindible para el passé composé, el tiempo del relato.",
+  "cuando_se_usa": "Siempre que se habla de opiniones (je crois que), percepciones (je vois), lecturas, correos o mensajes (lire, écrire) y de lo que alguien dice (il dit que). La pista para elegir la forma es el sujeto: nous y vous piden la raíz larga o modificada. El hispanohablante tiende a fabricar formas regulares por analogía con el español o con los verbos en -er, y a usar dire para «hablar un idioma», cuando el francés usa parler."
  }
 }

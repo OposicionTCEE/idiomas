@@ -195,13 +195,35 @@
   {
    "id": "e01",
    "tipo": "hueco",
-   "enunciado": "Completa con because o because of.",
+   "enunciado": "Completa con because, because of o due to.",
    "frase": "The road was closed ___ the snow.",
    "respuestas": [
     "because of",
     "due to"
    ],
-   "explicacion": "Ante sustantivo (the snow) se usa because of."
+   "explicacion": "Se aplica la regla de la ficha sobre lo que va detrás del conector: because va con una oración y because of con un sustantivo. La pista es the snow, un sustantivo sin verbo. Por eso hace falta because of, «debido a»; due to, de la misma fila de la tabla, también va con sustantivo y se acepta con el mismo significado. Because solo, en cambio, no vale.",
+   "explicacion_breve": "Ante sustantivo (the snow) se usa because of.",
+   "traduccion": "La carretera estaba cortada debido a la nieve.",
+   "errores_previstos": [
+    {
+     "respuesta": "because",
+     "explicacion": "Because necesita una oración con verbo (because it snowed); ante un sustantivo va because of."
+    },
+    {
+     "respuesta": "because for",
+     "explicacion": "Calco de «por»: la preposición correcta es of, because of."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "because of",
+     "significado": "debido a, por (+ sustantivo)"
+    },
+    {
+     "palabra": "closed",
+     "significado": "cortado, cerrado"
+    }
+   ]
   },
   {
    "id": "e02",
@@ -211,7 +233,29 @@
    "respuestas": [
     "so"
    ],
-   "explicacion": "So introduce una consecuencia y se pone tras coma."
+   "explicacion": "Es so, el conector de consecuencia más sencillo de la tabla: así que. La pista es la relación lógica (era tarde, por eso cogimos un taxi) y la coma tras la primera oración, que según la ficha precede a so. Therefore también expresa consecuencia, pero es formal y suele abrir frase nueva.",
+   "explicacion_breve": "So introduce una consecuencia y se pone tras coma.",
+   "traduccion": "Era muy tarde, así que cogimos un taxi.",
+   "errores_previstos": [
+    {
+     "respuesta": "because",
+     "explicacion": "Because introduce la causa, no la consecuencia; diría que era tarde porque cogimos un taxi."
+    },
+    {
+     "respuesta": "then",
+     "explicacion": "Then indica orden temporal (luego), no consecuencia."
+    },
+    {
+     "respuesta": "but",
+     "explicacion": "But expresa oposición; aquí la segunda idea es consecuencia de la primera."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "so",
+     "significado": "así que, por eso"
+    }
+   ]
   },
   {
    "id": "e03",
@@ -221,7 +265,29 @@
    "respuestas": [
     "spite"
    ],
-   "explicacion": "A pesar de es in spite of."
+   "explicacion": "Es la expresión de oposición in spite of, «a pesar de», de la tabla. La pista es la estructura In ___ of + sustantivo (the bad weather), que solo admite spite. In spite of y despite significan lo mismo, pero solo in spite of lleva of.",
+   "explicacion_breve": "A pesar de es in spite of.",
+   "traduccion": "A pesar del mal tiempo, el festival fue un éxito.",
+   "errores_previstos": [
+    {
+     "respuesta": "despite",
+     "explicacion": "Despite no lleva in ni of; aquí la estructura In ___ of exige spite."
+    },
+    {
+     "respuesta": "spit",
+     "explicacion": "Falta la e final: spite. Spit es «escupir»."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "in spite of",
+     "significado": "a pesar de"
+    },
+    {
+     "palabra": "festival",
+     "significado": "festival"
+    }
+   ]
   },
   {
    "id": "e04",
@@ -231,7 +297,29 @@
    "respuestas": [
     "as"
    ],
-   "explicacion": "Such as introduce ejemplos."
+   "explicacion": "Es such as de la tabla de ejemplos: «como», para introducir ejemplos dentro de la frase. La pista es such delante del hueco: la expresión fija es such as. Such like o such how no existen en este sentido.",
+   "explicacion_breve": "Such as introduce ejemplos.",
+   "traduccion": "Algunos deportes, como el tenis, pueden practicarse todo el año.",
+   "errores_previstos": [
+    {
+     "respuesta": "like",
+     "explicacion": "Like puede introducir ejemplos (sports like tennis), pero tras such solo vale as."
+    },
+    {
+     "respuesta": "how",
+     "explicacion": "Calco de «como»: how es «cómo» (modo), no sirve para ejemplos."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "such as",
+     "significado": "como, tales como"
+    },
+    {
+     "palabra": "all year round",
+     "significado": "todo el año"
+    }
+   ]
   },
   {
    "id": "e05",
@@ -246,7 +334,24 @@
    "respuestas": [
     "Although"
    ],
-   "explicacion": "Ante una oración completa con sentido de contraste: although."
+   "explicacion": "Se aplica la regla de la ficha: although va seguido de una oración (sujeto + verbo) y expresa oposición. La pista es he studied hard, oración completa, y el contraste lógico entre estudiar y suspender. Despite iría con sustantivo o -ing, y because diría lo contrario.",
+   "explicacion_breve": "Ante una oración completa con sentido de contraste: although.",
+   "traduccion": "Aunque estudió mucho, suspendió el examen.",
+   "por_opcion": {
+    "Although": "Correcta: aunque, seguido de una oración completa con verbo.",
+    "Despite": "Incorrecta: despite va con un sustantivo o -ing (despite studying hard), no con una oración.",
+    "Because": "Incorrecta: diría que suspendió porque estudió, lo que no tiene lógica."
+   },
+   "glosario": [
+    {
+     "palabra": "although",
+     "significado": "aunque"
+    },
+    {
+     "palabra": "fail an exam",
+     "significado": "suspender un examen"
+    }
+   ]
   },
   {
    "id": "e06",
@@ -261,7 +366,24 @@
    "respuestas": [
     "Despite"
    ],
-   "explicacion": "Ante un sustantivo con sentido de contraste: despite."
+   "explicacion": "Es la regla complementaria de la anterior: despite va seguido de un sustantivo o -ing. La pista es the noise, un sustantivo sin verbo, y el contraste entre el ruido y conseguir dormir. Despite no lleva of.",
+   "explicacion_breve": "Ante un sustantivo con sentido de contraste: despite.",
+   "traduccion": "A pesar del ruido, conseguí dormir.",
+   "por_opcion": {
+    "Despite": "Correcta: a pesar de, seguido de un sustantivo.",
+    "Although": "Incorrecta: although necesita una oración con verbo (although it was noisy).",
+    "However": "Incorrecta: however es un adverbio que abre frase con coma y no puede llevar un sustantivo detrás."
+   },
+   "glosario": [
+    {
+     "palabra": "despite",
+     "significado": "a pesar de"
+    },
+    {
+     "palabra": "manage to",
+     "significado": "conseguir, lograr"
+    }
+   ]
   },
   {
    "id": "e07",
@@ -276,7 +398,28 @@
    "respuestas": [
     "Moreover"
    ],
-   "explicacion": "Se añade otro argumento negativo: moreover (además)."
+   "explicacion": "Es moreover de la tabla de adición: además, en registro formal. La pista es que las dos frases van en la misma dirección: dos quejas sobre el hotel. However introduciría un contraste y therefore una consecuencia, que no existen aquí.",
+   "explicacion_breve": "Se añade otro argumento negativo: moreover (además).",
+   "traduccion": "El hotel era ruidoso. Además, el servicio era malo.",
+   "por_opcion": {
+    "Moreover": "Correcta: añade un segundo argumento negativo, además.",
+    "However": "Incorrecta: sin embargo; anunciaría algo positivo que contrastara con el ruido.",
+    "Therefore": "Incorrecta: por tanto; el mal servicio no es consecuencia del ruido."
+   },
+   "glosario": [
+    {
+     "palabra": "moreover",
+     "significado": "además (formal)"
+    },
+    {
+     "palabra": "noisy",
+     "significado": "ruidoso"
+    },
+    {
+     "palabra": "poor",
+     "significado": "malo, deficiente"
+    }
+   ]
   },
   {
    "id": "e08",
@@ -291,7 +434,24 @@
    "respuestas": [
     "whereas"
    ],
-   "explicacion": "Whereas contrasta dos hechos: mientras que."
+   "explicacion": "Es whereas de la tabla: mientras que, para contrastar dos hechos o preferencias. La pista es la oposición entre the city y the countryside, atribuidos a dos personas distintas. Whereas une dos oraciones completas y suele ir tras coma.",
+   "explicacion_breve": "Whereas contrasta dos hechos: mientras que.",
+   "traduccion": "A mi hermano le encanta la ciudad, mientras que yo prefiero el campo.",
+   "por_opcion": {
+    "whereas": "Correcta: contrasta las preferencias de dos personas, mientras que.",
+    "so": "Incorrecta: así que; mi preferencia no es consecuencia de la de mi hermano.",
+    "because": "Incorrecta: porque; no hay relación de causa entre ambos gustos."
+   },
+   "glosario": [
+    {
+     "palabra": "whereas",
+     "significado": "mientras que"
+    },
+    {
+     "palabra": "countryside",
+     "significado": "campo"
+    }
+   ]
   },
   {
    "id": "e09",
@@ -302,7 +462,29 @@
     "Despite the cost, they bought the house.",
     "In spite of the cost, they bought the house."
    ],
-   "explicacion": "Despite no lleva of."
+   "explicacion": "La lista de la ficha y sus errores típicos lo dicen: despite no lleva of. La pista es «Despite of», calco de «a pesar de». Hay dos correcciones válidas: quitar of (Despite the cost) o completar la otra expresión (In spite of the cost).",
+   "explicacion_breve": "Despite no lleva of.",
+   "traduccion": "A pesar del coste, compraron la casa.",
+   "errores_previstos": [
+    {
+     "respuesta": "Despite of the cost, they bought the house.",
+     "explicacion": "Es dejar la frase sin corregir: despite nunca lleva of."
+    },
+    {
+     "respuesta": "Spite of the cost, they bought the house.",
+     "explicacion": "Falta in: la expresión completa es in spite of."
+    },
+    {
+     "respuesta": "Although the cost, they bought the house.",
+     "explicacion": "Although necesita una oración con verbo, no un sustantivo."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "cost",
+     "significado": "coste, precio"
+    }
+   ]
   },
   {
    "id": "e10",
@@ -317,7 +499,37 @@
     "At the moment I live in Seville, but I'm moving next month.",
     "At the moment, I live in Seville, but I'm moving next month."
    ],
-   "explicacion": "Actually significa «en realidad»; actualmente es currently, at present o at the moment."
+   "explicacion": "Es el falso amigo que señala la ficha: actually significa «en realidad», no «actualmente». La pista es el contraste con I'm moving next month, que exige el sentido de «en este momento». Hay que sustituirlo por currently, at present o at the moment; todos valen, con o sin coma.",
+   "explicacion_breve": "Actually significa «en realidad»; actualmente es currently, at present o at the moment.",
+   "traduccion": "Actualmente vivo en Sevilla, pero me mudo el mes que viene.",
+   "errores_previstos": [
+    {
+     "respuesta": "Actually I live in Seville, but I'm moving next month.",
+     "explicacion": "Es dejar la frase sin corregir: actually significa «en realidad»."
+    },
+    {
+     "respuesta": "Actualy I live in Seville, but I'm moving next month.",
+     "explicacion": "Además de no corregir el falso amigo, está mal escrito."
+    },
+    {
+     "respuesta": "Eventually I live in Seville, but I'm moving next month.",
+     "explicacion": "Eventually es otro falso amigo: significa «al final, con el tiempo»."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "actually",
+     "significado": "en realidad (falso amigo)"
+    },
+    {
+     "palabra": "currently",
+     "significado": "actualmente"
+    },
+    {
+     "palabra": "move",
+     "significado": "mudarse"
+    }
+   ]
   },
   {
    "id": "e11",
@@ -328,7 +540,25 @@
     "Although it was expensive, I bought it.",
     "It was expensive, but I bought it."
    ],
-   "explicacion": "Although y but no se combinan en la misma frase."
+   "explicacion": "La ficha recoge este error típico: although y but no se combinan en la misma frase. En español «aunque… pero» también es incorrecto, aunque se oiga. Hay dos formas de corregirlo: quedarse con although y quitar but, o quitar although y dejar but.",
+   "explicacion_breve": "Although y but no se combinan en la misma frase.",
+   "traduccion": "Aunque era caro, lo compré.",
+   "errores_previstos": [
+    {
+     "respuesta": "Although it was expensive, but I bought it.",
+     "explicacion": "Es dejar la frase sin corregir: although y but no van juntos."
+    },
+    {
+     "respuesta": "Despite it was expensive, I bought it.",
+     "explicacion": "Despite no puede ir con una oración; necesitaría despite the price o despite it being expensive."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "expensive",
+     "significado": "caro"
+    }
+   ]
   },
   {
    "id": "e12",
@@ -339,9 +569,29 @@
     "We couldn't play because of the heavy rain.",
     "We couldn't play because of heavy rain.",
     "We could not play because of the heavy rain.",
-    "We couldn't play because of the rain."
+    "We couldn't play because of the rain.",
+    "We could not play because of heavy rain.",
+    "We could not play because of the rain."
    ],
-   "explicacion": "Because of va seguido de un sustantivo: the heavy rain."
+   "explicacion": "Se aplica la regla de because of + sustantivo. Para unir las frases hay que convertir la oración There was heavy rain en un sustantivo: the heavy rain (o heavy rain, o the rain). Ese sustantivo va tras because of, sin verbo.",
+   "explicacion_breve": "Because of va seguido de un sustantivo: the heavy rain.",
+   "traduccion": "No pudimos jugar a causa de la lluvia intensa.",
+   "errores_previstos": [
+    {
+     "respuesta": "We couldn't play because of there was heavy rain.",
+     "explicacion": "Because of no admite una oración con verbo; hay que dejar solo el sustantivo."
+    },
+    {
+     "respuesta": "We couldn't play because the heavy rain.",
+     "explicacion": "Ante un sustantivo hace falta because of, no because solo."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "heavy rain",
+     "significado": "lluvia intensa"
+    }
+   ]
   },
   {
    "id": "e13",
@@ -351,7 +601,25 @@
    "respuestas": [
     "Although it was cold, we went to the beach."
    ],
-   "explicacion": "Although sustituye a but y va delante de la primera oración."
+   "explicacion": "Although sustituye a but y se coloca delante de la primera oración, la que expresa el obstáculo. Como dice la ficha, although y but no se combinan, así que but desaparece. Las dos oraciones se separan con coma.",
+   "explicacion_breve": "Although sustituye a but y va delante de la primera oración.",
+   "traduccion": "Aunque hacía frío, fuimos a la playa.",
+   "errores_previstos": [
+    {
+     "respuesta": "Although it was cold, but we went to the beach.",
+     "explicacion": "Al añadir although hay que quitar but."
+    },
+    {
+     "respuesta": "Although we went to the beach, it was cold.",
+     "explicacion": "Although debe ir con el obstáculo (hacía frío), no con lo que se hizo."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "although",
+     "significado": "aunque"
+    }
+   ]
   },
   {
    "id": "e14",
@@ -369,7 +637,25 @@
    "respuestas": [
     "To sum up the results are positive"
    ],
-   "explicacion": "To sum up introduce la conclusión."
+   "explicacion": "Es to sum up, «en resumen», de la tabla de conclusión. Abre la frase y va seguido de la oración principal: sujeto (the results) + verbo (are) + atributo (positive). Es una de las fórmulas más útiles para cerrar una exposición oral.",
+   "explicacion_breve": "To sum up introduce la conclusión.",
+   "traduccion": "En resumen, los resultados son positivos.",
+   "errores_previstos": [
+    {
+     "respuesta": "To up sum the results are positive",
+     "explicacion": "La expresión fija es to sum up, con up al final."
+    },
+    {
+     "respuesta": "To sum up the positive results are",
+     "explicacion": "Tras el conector, el orden es sujeto + verbo + atributo: the results are positive."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "to sum up",
+     "significado": "en resumen"
+    }
+   ]
   },
   {
    "id": "e15",
@@ -384,10 +670,33 @@
    "respuestas": [
     "As a result"
    ],
-   "explicacion": "Se expresa una consecuencia: as a result."
+   "explicacion": "Es as a result, «como resultado», de la tabla de consecuencia. La pista es la relación causa-efecto entre las dos frases (subida de precios y menos gasto) y la coma tras el hueco, al principio de una frase nueva. Because of necesitaría un sustantivo y although expresa oposición.",
+   "explicacion_breve": "Se expresa una consecuencia: as a result.",
+   "traduccion": "Los precios han subido mucho. Como resultado, muchas familias gastan menos.",
+   "por_opcion": {
+    "As a result": "Correcta: introduce la consecuencia al principio de una frase nueva.",
+    "Although": "Incorrecta: expresa oposición y no puede ir seguido de coma así.",
+    "Because of": "Incorrecta: necesita un sustantivo detrás y expresa causa, no consecuencia."
+   },
+   "glosario": [
+    {
+     "palabra": "as a result",
+     "significado": "como resultado, en consecuencia"
+    },
+    {
+     "palabra": "sharply",
+     "significado": "bruscamente, mucho"
+    }
+   ]
   }
  ],
  "fuente": {
   "nombre": "propia"
+ },
+ "descripcion_larga_es": "Los conectores básicos unen ideas y dan coherencia a lo que se dice o escribe: añaden (moreover), oponen (although, despite), explican causas y consecuencias (because of, so, as a result), ordenan (firstly, finally) y concluyen (to sum up). Sin ellos un texto parece una lista de frases sueltas. Al hispanohablante le cuesta lo que va detrás de cada uno (oración o sustantivo) y caer en falsos amigos como actually.",
+ "contexto": {
+  "que_es": "Son palabras o expresiones que relacionan oraciones e ideas: de adición, de oposición, de causa, de consecuencia, de orden, de ejemplo y de conclusión. Cada una tiene su gramática: because, although y so van con una oración (sujeto + verbo); because of, despite e in spite of, con un sustantivo o una forma -ing; however y therefore abren frase seguidos de coma.",
+  "por_que_importa": "La coherencia y la cohesión son criterios de evaluación explícitos en cualquier examen de expresión escrita u oral desde el nivel B1. Un conector mal elegido cambia la lógica del mensaje (although frente a because) y uno mal construido (despite of, because the rain) se nota mucho. Los falsos amigos actually y eventually provocan malentendidos reales.",
+  "cuando_se_usa": "En redacciones, correos, presentaciones y cualquier argumentación. La señal para elegir es doble: la relación lógica entre las ideas (añadir, oponer, causa, consecuencia) y lo que viene detrás (oración completa o sustantivo). El hispanohablante tiende a calcar «a pesar de» con despite of y «porque» con because ante sustantivos."
  }
 }

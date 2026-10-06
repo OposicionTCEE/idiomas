@@ -110,7 +110,29 @@
    "respuestas": [
     "embaucherait"
    ],
-   "explicacion": "Posterioridad respecto a un pasado: condicional presente."
+   "explicacion": "Se aplica la fila de posterioridad de la tabla: si el verbo principal está en pasado (a affirmé) y la acción subordinada es posterior a ese momento, se usa el condicional presente. La pista es l'année suivante, un marcador de futuro visto desde el pasado. El condicional de embaucher con il es embaucherait: infinitivo + -ait.",
+   "explicacion_breve": "Posterioridad respecto a un pasado: condicional presente.",
+   "traduccion": "El director afirmó que la empresa contrataría a cincuenta personas al año siguiente.",
+   "errores_previstos": [
+    {
+     "respuesta": "embauchera",
+     "explicacion": "Es el futuro simple, que solo vale si el verbo principal está en presente (il affirme). Tras a affirmé, el futuro pasa a condicional."
+    },
+    {
+     "respuesta": "embauchait",
+     "explicacion": "El imperfecto expresaría simultaneidad con el pasado, no una acción posterior. Para el futuro en el pasado se usa el condicional."
+    },
+    {
+     "respuesta": "embaucherais",
+     "explicacion": "La terminación -ais es de je o tu; con l'entreprise (il, elle) es -ait."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "embaucher",
+     "significado": "contratar"
+    }
+   ]
   },
   {
    "id": "e02",
@@ -121,7 +143,23 @@
     "étais",
     "serais"
    ],
-   "explicacion": "Simultaneidad con un pasado: imperfecto."
+   "explicacion": "La fila de simultaneidad de la tabla indica que, con el principal en pasado (je croyais), lo que ocurre al mismo tiempo va en imperfecto: tu étais. También se acepta serais, porque si esa semana era futura respecto al momento en que se creía, se trata de posterioridad y corresponde el condicional. La pista es cette semaine-là, marcador típico del estilo indirecto en pasado.",
+   "explicacion_breve": "Simultaneidad con un pasado: imperfecto.",
+   "traduccion": "Creía que estabas (o que estarías) en Bélgica esa semana.",
+   "errores_previstos": [
+    {
+     "respuesta": "es",
+     "explicacion": "El presente no concuerda con el pasado je croyais; para la simultaneidad se usa el imperfecto étais."
+    },
+    {
+     "respuesta": "seras",
+     "explicacion": "El futuro no puede depender de un verbo en pasado; se convierte en condicional (serais)."
+    },
+    {
+     "respuesta": "sois",
+     "explicacion": "Croire en afirmativa va con indicativo, no con subjuntivo."
+    }
+   ]
   },
   {
    "id": "e03",
@@ -131,7 +169,23 @@
    "respuestas": [
     "avait fini"
    ],
-   "explicacion": "Anterioridad respecto a un pasado: pluscuamperfecto."
+   "explicacion": "Es la fila de anterioridad: si la acción subordinada es anterior a un verbo principal en pasado (a dit), se usa el pluscuamperfecto, plus-que-parfait. La pista es deux ans plus tôt, que sitúa la tesis antes del momento en que habla. Se forma con avoir en imperfecto + participio: elle avait fini.",
+   "explicacion_breve": "Anterioridad respecto a un pasado: pluscuamperfecto.",
+   "traduccion": "Nos dijo que había terminado su tesis dos años antes.",
+   "errores_previstos": [
+    {
+     "respuesta": "a fini",
+     "explicacion": "Es el passé composé; es el error típico de la ficha (elle a expliqué qu'elle a perdu). La anterioridad respecto a un pasado se marca con pluscuamperfecto."
+    },
+    {
+     "respuesta": "finissait",
+     "explicacion": "El imperfecto indicaría que estaba terminándola en ese momento, no que ya la había terminado."
+    },
+    {
+     "respuesta": "était fini",
+     "explicacion": "Finir se conjuga con avoir en voz activa; était fini sería pasiva (la tesis estaba terminada)."
+    }
+   ]
   },
   {
    "id": "e04",
@@ -142,7 +196,29 @@
     "rendrait",
     "aurait rendu"
    ],
-   "explicacion": "Promesa futura vista desde un pasado: condicional presente."
+   "explicacion": "Una promesa se refiere al futuro; vista desde el pasado (a promis), el futuro se convierte en condicional presente: il rendrait. También se acepta aurait rendu, el condicional pasado, que corresponde a la fila del futuro anterior: con avant midi se puede presentar la entrega como terminada antes de ese plazo (il aura rendu pasa a il aurait rendu).",
+   "explicacion_breve": "Promesa futura vista desde un pasado: condicional presente.",
+   "traduccion": "Me prometió que entregaría el informe antes de mediodía.",
+   "errores_previstos": [
+    {
+     "respuesta": "rendra",
+     "explicacion": "Es el futuro, posible solo con el principal en presente. Tras il m'a promis se usa el condicional: rendrait."
+    },
+    {
+     "respuesta": "rendait",
+     "explicacion": "El imperfecto no expresa posterioridad; una promesa para el futuro desde el pasado va en condicional."
+    },
+    {
+     "respuesta": "rendrais",
+     "explicacion": "La terminación -ais corresponde a je o tu; con il es rendrait."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "rendre un rapport",
+     "significado": "entregar un informe"
+    }
+   ]
   },
   {
    "id": "e05",
@@ -157,7 +233,14 @@
    "respuestas": [
     "avait été"
    ],
-   "explicacion": "La anulación es anterior al momento pasado de la explicación."
+   "explicacion": "La anulación es anterior a la explicación, que ya está en pasado (on m'a expliqué), así que corresponde el pluscuamperfecto, como en la fila de anterioridad. La pista decisiva es la veille, el marcador que sustituye a hier en el estilo indirecto. En la pasiva, el pluscuamperfecto de être annulée es avait été annulée.",
+   "explicacion_breve": "La anulación es anterior al momento pasado de la explicación.",
+   "traduccion": "Me explicaron que la reunión se había anulado la víspera.",
+   "por_opcion": {
+    "a été": "Incorrecta según la norma de concordancia: el passé composé no marca la anterioridad respecto a otro pasado. En la lengua hablada se oye a veces, pero con la veille lo correcto es avait été.",
+    "avait été": "Correcta: pluscuamperfecto, acción anterior a un momento pasado.",
+    "sera": "Incorrecta: el futuro no puede depender de un verbo en pasado y además contradice la veille."
+   }
   },
   {
    "id": "e06",
@@ -172,7 +255,14 @@
    "respuestas": [
     "baisseraient"
    ],
-   "explicacion": "Espérer en pasado más acción futura: condicional."
+   "explicacion": "Espérer en afirmativa va con indicativo, no con subjuntivo, a diferencia del español «esperar que». Desde un pasado (nous espérions), la bajada de precios se ve como futura, así que el futuro pasa a condicional: baisseraient. La terminación -aient corresponde a la tercera persona del plural, les prix.",
+   "explicacion_breve": "Espérer en pasado más acción futura: condicional.",
+   "traduccion": "Esperábamos que los precios bajaran por fin.",
+   "por_opcion": {
+    "baisseront": "Incorrecta: el futuro vale con el principal en presente (nous espérons que les prix baisseront). Con espérions se pasa al condicional.",
+    "baisseraient": "Correcta: condicional, futuro visto desde el pasado.",
+    "baissent": "Incorrecta: el presente no concuerda con un principal en pasado; además, con espérer se usa indicativo y no tiene sentido de subjuntivo aquí."
+   }
   },
   {
    "id": "e07",
@@ -187,7 +277,20 @@
    "respuestas": [
     "remplisses"
    ],
-   "explicacion": "Il fallait que pide subjuntivo; en francés corriente, presente de subjuntivo."
+   "explicacion": "Il fallait que exige subjuntivo, y el texto de la ficha explica que el francés actual usa solo el presente (o el pasado) de subjuntivo, aunque el verbo principal esté en pasado. Donde el español dice «que rellenaras», en imperfecto de subjuntivo, el francés dice que tu remplisses. El subjuntivo de remplir se forma sobre la raíz de ils remplissent.",
+   "explicacion_breve": "Il fallait que pide subjuntivo; en francés corriente, presente de subjuntivo.",
+   "traduccion": "Hacía falta que rellenaras este formulario.",
+   "por_opcion": {
+    "remplisses": "Correcta: subjuntivo presente, la forma normal tras il fallait que en el francés actual.",
+    "remplissais": "Incorrecta: es el imperfecto de indicativo, calco del español «rellenaras». Il fallait que exige subjuntivo.",
+    "remplirais": "Incorrecta: el condicional no puede ir tras il fallait que."
+   },
+   "glosario": [
+    {
+     "palabra": "remplir un formulaire",
+     "significado": "rellenar un formulario"
+    }
+   ]
   },
   {
    "id": "e08",
@@ -202,7 +305,20 @@
    "respuestas": [
     "allait"
    ],
-   "explicacion": "El futuro próximo (aller + infinitivo) pasa a imperfecto de aller."
+   "explicacion": "La última fila de la tabla trata el futuro próximo: aller + infinitivo, en estilo indirecto en pasado, pasa a imperfecto de aller + infinitivo (il allait démissionner), igual que el español «iba a». La pista es el principal en passé composé, il a annoncé, seguido de un infinitivo.",
+   "explicacion_breve": "El futuro próximo (aller + infinitivo) pasa a imperfecto de aller.",
+   "traduccion": "Anunció que iba a dimitir.",
+   "por_opcion": {
+    "va": "Incorrecta: el presente de aller vale solo si el principal está en presente (il annonce qu'il va démissionner).",
+    "allait": "Correcta: el futuro próximo pasa a imperfecto de aller tras un principal en pasado.",
+    "irait": "No es la respuesta esperada: il irait démissionner significaría «iría a dimitir», con aller como verbo de movimiento; la transposición del futuro próximo es allait."
+   },
+   "glosario": [
+    {
+     "palabra": "démissionner",
+     "significado": "dimitir"
+    }
+   ]
   },
   {
    "id": "e09",
@@ -212,7 +328,23 @@
    "respuestas": [
     "Elle a dit qu'elle était fatiguée."
    ],
-   "explicacion": "Presente en estilo directo → imperfecto tras verbo en pasado."
+   "explicacion": "Es la fila de simultaneidad: el presente del estilo directo (je suis) pasa a imperfecto tras un verbo en pasado. Además, el pronombre cambia de persona: je pasa a elle, y el adjetivo fatiguée mantiene su concordancia femenina. Las comillas y los dos puntos desaparecen y se introduce que, apostrofado ante elle.",
+   "explicacion_breve": "Presente en estilo directo → imperfecto tras verbo en pasado.",
+   "traduccion": "Dijo que estaba cansada.",
+   "errores_previstos": [
+    {
+     "respuesta": "Elle a dit qu'elle est fatiguée.",
+     "explicacion": "Se mantiene el presente; tras a dit, la simultaneidad se expresa con imperfecto: était."
+    },
+    {
+     "respuesta": "Elle a dit que je suis fatiguée.",
+     "explicacion": "Falta cambiar la persona: en estilo indirecto je pasa a elle, y el tiempo a imperfecto."
+    },
+    {
+     "respuesta": "Elle a dit qu'elle était fatigué.",
+     "explicacion": "Se ha perdido la concordancia del adjetivo con elle: fatiguée."
+    }
+   ]
   },
   {
    "id": "e10",
@@ -222,7 +354,25 @@
    "respuestas": [
     "Il a dit qu'il avait raté le bus."
    ],
-   "explicacion": "Passé composé → pluscuamperfecto."
+   "explicacion": "Es la fila de anterioridad: el passé composé del estilo directo (j'ai raté) pasa a pluscuamperfecto (il avait raté) tras un verbo en pasado. El pronombre je se convierte en il y que se apostrofa ante il. Rater le bus significa perder el autobús por llegar tarde.",
+   "explicacion_breve": "Passé composé → pluscuamperfecto.",
+   "traduccion": "Dijo que había perdido el autobús.",
+   "errores_previstos": [
+    {
+     "respuesta": "Il a dit qu'il a raté le bus.",
+     "explicacion": "Mantiene el passé composé; la anterioridad respecto a il a dit exige pluscuamperfecto."
+    },
+    {
+     "respuesta": "Il a dit qu'il ratait le bus.",
+     "explicacion": "El imperfecto expresa simultaneidad, no una acción ya terminada antes de hablar."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "rater le bus",
+     "significado": "perder el autobús"
+    }
+   ]
   },
   {
    "id": "e11",
@@ -232,7 +382,29 @@
    "respuestas": [
     "Ils ont dit qu'ils déménageraient en juin."
    ],
-   "explicacion": "Futuro simple → condicional presente."
+   "explicacion": "Es la fila de posterioridad: el futuro simple del estilo directo (nous déménagerons) pasa a condicional presente tras un verbo en pasado. El sujeto nous pasa a ils, así que la terminación es -aient: ils déménageraient. Recuerda la e tras la g, que mantiene el sonido suave.",
+   "explicacion_breve": "Futuro simple → condicional presente.",
+   "traduccion": "Dijeron que se mudarían en junio.",
+   "errores_previstos": [
+    {
+     "respuesta": "Ils ont dit qu'ils déménageront en juin.",
+     "explicacion": "Mantiene el futuro; es el error típico de la ficha. Tras ont dit, el futuro pasa a condicional."
+    },
+    {
+     "respuesta": "Ils ont dit qu'ils déménageaient en juin.",
+     "explicacion": "El imperfecto no marca posterioridad; se necesita el condicional déménageraient."
+    },
+    {
+     "respuesta": "Ils ont dit que nous déménagerions en juin.",
+     "explicacion": "Falta el cambio de persona: nous pasa a ils en estilo indirecto."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "déménager",
+     "significado": "mudarse (de casa)"
+    }
+   ]
   },
   {
    "id": "e12",
@@ -242,7 +414,29 @@
    "respuestas": [
     "Le ministre a déclaré que la loi entrerait en vigueur l'année suivante."
    ],
-   "explicacion": "Con l'année suivante la referencia es pasada: futuro → condicional."
+   "explicacion": "Tras un verbo principal en pasado (a déclaré), la acción posterior va en condicional, no en futuro. La pista es l'année suivante, que sitúa el punto de referencia en el pasado; si se dijera l'année prochaine, el hablante podría mantener el futuro porque seguiría siendo futuro hoy. Por eso entrera pasa a entrerait.",
+   "explicacion_breve": "Con l'année suivante la referencia es pasada: futuro → condicional.",
+   "traduccion": "El ministro declaró que la ley entraría en vigor al año siguiente.",
+   "errores_previstos": [
+    {
+     "respuesta": "Le ministre a déclaré que la loi entrera en vigueur l'année suivante.",
+     "explicacion": "Es la frase sin corregir: el futuro choca con a déclaré y con l'année suivante."
+    },
+    {
+     "respuesta": "Le ministre a déclaré que la loi entrait en vigueur l'année suivante.",
+     "explicacion": "El imperfecto no expresa posterioridad; se necesita el condicional entrerait."
+    },
+    {
+     "respuesta": "Le ministre a déclaré que la loi entrerait en vigueur l'année prochaine.",
+     "explicacion": "Se ha corregido el verbo pero se ha cambiado el marcador; la corrección pedida solo afecta al tiempo verbal."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "entrer en vigueur",
+     "significado": "entrar en vigor"
+    }
+   ]
   },
   {
    "id": "e13",
@@ -252,7 +446,23 @@
    "respuestas": [
     "Je voulais que vous veniez le lendemain, mais il a dit qu'il ne pourrait pas vous recevoir."
    ],
-   "explicacion": "Tras il a dit, el futuro pasa a condicional."
+   "explicacion": "La primera parte ya es correcta: je voulais que vous veniez usa el subjuntivo presente, como recomienda la ficha. El error está en la segunda: tras il a dit, el futuro pourra debe pasar a condicional, pourrait. La pista es le lendemain, que confirma que toda la perspectiva es pasada.",
+   "explicacion_breve": "Tras il a dit, el futuro pasa a condicional.",
+   "traduccion": "Quería que vinieran al día siguiente, pero él dijo que no podría recibirlos.",
+   "errores_previstos": [
+    {
+     "respuesta": "Je voulais que vous veniez le lendemain, mais il a dit qu'il ne pourra pas vous recevoir.",
+     "explicacion": "Es la frase sin corregir: pourra debe pasar a condicional tras il a dit."
+    },
+    {
+     "respuesta": "Je voulais que vous veniez le lendemain, mais il a dit qu'il ne pouvait pas vous recevoir.",
+     "explicacion": "El imperfecto expresa simultaneidad; aquí la recepción es posterior (le lendemain), así que va en condicional."
+    },
+    {
+     "respuesta": "Je voulais que vous veniez le lendemain, mais il a dit qu'il ne pourrais pas vous recevoir.",
+     "explicacion": "La terminación -ais es de je o tu; con il es pourrait."
+    }
+   ]
   },
   {
    "id": "e14",
@@ -268,10 +478,28 @@
    "respuestas": [
     "On avait annoncé qu'il pleuvrait"
    ],
-   "explicacion": "Principal en pluscuamperfecto y posterioridad en condicional."
+   "explicacion": "El principal está en pluscuamperfecto (on avait annoncé) y la lluvia es posterior al anuncio, así que la subordinada va en condicional: qu'il pleuvrait. El orden es sujeto + verbo principal + que + subordinada. On es aquí un sujeto indeterminado, como el español «se» o la tercera del plural.",
+   "explicacion_breve": "Principal en pluscuamperfecto y posterioridad en condicional.",
+   "traduccion": "Habían anunciado que llovería.",
+   "errores_previstos": [
+    {
+     "respuesta": "On annoncé avait qu'il pleuvrait",
+     "explicacion": "El auxiliar avait va delante del participio annoncé."
+    },
+    {
+     "respuesta": "Qu'il pleuvrait on avait annoncé",
+     "explicacion": "La completiva con que va detrás del verbo principal, no delante."
+    }
+   ]
   }
  ],
  "fuente": {
   "nombre": "propia"
+ },
+ "descripcion_larga_es": "La concordancia de tiempos decide qué tiempo lleva la subordinada cuando el verbo principal está en pasado: il a dit qu'il était malade, qu'il avait fini, qu'il partirait. Es esencial en el estilo indirecto y los resúmenes. Funciona casi como en español, pero el hispanohablante falla al dejar el futuro (il a dit qu'il viendra) y al usar el imperfecto de subjuntivo donde el francés actual usa el presente.",
+ "contexto": {
+  "que_es": "Es la regla que ajusta el tiempo del verbo subordinado al del verbo principal. Si el principal está en presente o futuro, la subordinada no cambia; si está en pasado, el presente pasa a imperfecto, el passé composé a pluscuamperfecto, el futuro a condicional y el futuro anterior a condicional pasado. También cambian los marcadores temporales (demain pasa a le lendemain).",
+  "por_que_importa": "Es imprescindible para contar lo que alguien dijo, pensó o anunció, algo constante en la conversación, en la prensa y en los ejercicios de resumen y síntesis de un examen B2. Dejar un futuro tras il a dit o un passé composé donde hace falta pluscuamperfecto desdibuja la cronología y suena descuidado en un texto formal.",
+  "cuando_se_usa": "Se aplica tras verbos de lengua, pensamiento o percepción en pasado (dire, annoncer, expliquer, croire, savoir, espérer) seguidos de que. La señal es el verbo principal en passé composé, imperfecto o pluscuamperfecto. El hispanohablante suele acertar con el imperfecto y el pluscuamperfecto, pero mantiene el futuro o calca el imperfecto de subjuntivo («quería que viniera»)."
  }
 }

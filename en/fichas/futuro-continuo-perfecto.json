@@ -6,50 +6,512 @@
  "nivel": "B2",
  "resumen": "El future continuous (will be + -ing) describe algo que estará en curso en un momento futuro; el future perfect (will have + participio) describe algo que ya habrá terminado antes de ese momento.",
  "explicacion": [
-  {"tipo": "tabla", "cabecera": ["Tiempo", "Forma", "Ejemplo"], "filas": [
-   ["Future continuous", "will be + verbo-ing", "This time tomorrow I'll be flying to Rome."],
-   ["Future perfect simple", "will have + participio", "By Friday we'll have finished the report."],
-   ["Future perfect continuous", "will have been + verbo-ing", "In May she'll have been working here for ten years."]
-  ]},
-  {"tipo": "texto", "texto": "Future continuous: una acción que estará en marcha en un momento concreto del futuro (at 8 tomorrow, this time next week). Equivale a «estaré haciendo»."},
-  {"tipo": "texto", "texto": "También se usa para planes que ocurrirán por el curso normal de las cosas y para preguntar por planes con cortesía: Will you be using the car tonight? (¿Vas a usar el coche esta noche?, sin presionar)."},
-  {"tipo": "texto", "texto": "Future perfect: una acción que estará terminada antes de un momento futuro. Equivale a «habré hecho». Suele ir con by (para, antes de), by the time (para cuando) o in + periodo."},
-  {"tipo": "lista", "items": [
-   "By + fecha = «para», no «por»: by next year (para el año que viene).",
-   "By the time + presente simple: By the time you arrive, I'll have left (no «will arrive»).",
-   "Future perfect continuous subraya la duración hasta un punto futuro: for + periodo.",
-   "Los verbos de estado (know, own, believe) no suelen ir en forma continua: By June I'll have known her for a year."
-  ]}
+  {
+   "tipo": "tabla",
+   "cabecera": [
+    "Tiempo",
+    "Forma",
+    "Ejemplo"
+   ],
+   "filas": [
+    [
+     "Future continuous",
+     "will be + verbo-ing",
+     "This time tomorrow I'll be flying to Rome."
+    ],
+    [
+     "Future perfect simple",
+     "will have + participio",
+     "By Friday we'll have finished the report."
+    ],
+    [
+     "Future perfect continuous",
+     "will have been + verbo-ing",
+     "In May she'll have been working here for ten years."
+    ]
+   ]
+  },
+  {
+   "tipo": "texto",
+   "texto": "Future continuous: una acción que estará en marcha en un momento concreto del futuro (at 8 tomorrow, this time next week). Equivale a «estaré haciendo»."
+  },
+  {
+   "tipo": "texto",
+   "texto": "También se usa para planes que ocurrirán por el curso normal de las cosas y para preguntar por planes con cortesía: Will you be using the car tonight? (¿Vas a usar el coche esta noche?, sin presionar)."
+  },
+  {
+   "tipo": "texto",
+   "texto": "Future perfect: una acción que estará terminada antes de un momento futuro. Equivale a «habré hecho». Suele ir con by (para, antes de), by the time (para cuando) o in + periodo."
+  },
+  {
+   "tipo": "lista",
+   "items": [
+    "By + fecha = «para», no «por»: by next year (para el año que viene).",
+    "By the time + presente simple: By the time you arrive, I'll have left (no «will arrive»).",
+    "Future perfect continuous subraya la duración hasta un punto futuro: for + periodo.",
+    "Los verbos de estado (know, own, believe) no suelen ir en forma continua: By June I'll have known her for a year."
+   ]
+  }
  ],
  "ejemplos": [
-  {"frase": "Don't call me at nine; I'll be having dinner.", "traduccion": "No me llames a las nueve; estaré cenando."},
-  {"frase": "By the end of the month, the company will have hired forty new staff.", "traduccion": "A finales de mes, la empresa habrá contratado a cuarenta empleados nuevos."},
-  {"frase": "Will you be going past the post office later?", "traduccion": "¿Vas a pasar por correos más tarde?"},
-  {"frase": "By the time the film starts, we'll have eaten all the popcorn.", "traduccion": "Para cuando empiece la película, nos habremos comido todas las palomitas."},
-  {"frase": "Next year they will have been married for twenty-five years.", "traduccion": "El año que viene harán veinticinco años de casados."},
-  {"frase": "This time next week I'll be lying on a beach in Crete.", "traduccion": "La semana que viene a estas horas estaré tumbado en una playa de Creta."}
+  {
+   "frase": "Don't call me at nine; I'll be having dinner.",
+   "traduccion": "No me llames a las nueve; estaré cenando."
+  },
+  {
+   "frase": "By the end of the month, the company will have hired forty new staff.",
+   "traduccion": "A finales de mes, la empresa habrá contratado a cuarenta empleados nuevos."
+  },
+  {
+   "frase": "Will you be going past the post office later?",
+   "traduccion": "¿Vas a pasar por correos más tarde?"
+  },
+  {
+   "frase": "By the time the film starts, we'll have eaten all the popcorn.",
+   "traduccion": "Para cuando empiece la película, nos habremos comido todas las palomitas."
+  },
+  {
+   "frase": "Next year they will have been married for twenty-five years.",
+   "traduccion": "El año que viene harán veinticinco años de casados."
+  },
+  {
+   "frase": "This time next week I'll be lying on a beach in Crete.",
+   "traduccion": "La semana que viene a estas horas estaré tumbado en una playa de Creta."
+  }
  ],
  "errores_hispanohablantes": [
-  {"mal": "By the time you will arrive, I will have left.", "bien": "By the time you arrive, I will have left.", "nota": "Tras by the time, when, before o until se usa presente, no will."},
-  {"mal": "Tomorrow at this time I will work in the garden.", "bien": "Tomorrow at this time I will be working in the garden.", "nota": "«Estaré trabajando» en un momento concreto del futuro exige future continuous, no will + infinitivo."},
-  {"mal": "For next Friday I'll have finished.", "bien": "By next Friday I'll have finished.", "nota": "«Para» + fecha límite se traduce by, no for."}
+  {
+   "mal": "By the time you will arrive, I will have left.",
+   "bien": "By the time you arrive, I will have left.",
+   "nota": "Tras by the time, when, before o until se usa presente, no will."
+  },
+  {
+   "mal": "Tomorrow at this time I will work in the garden.",
+   "bien": "Tomorrow at this time I will be working in the garden.",
+   "nota": "«Estaré trabajando» en un momento concreto del futuro exige future continuous, no will + infinitivo."
+  },
+  {
+   "mal": "For next Friday I'll have finished.",
+   "bien": "By next Friday I'll have finished.",
+   "nota": "«Para» + fecha límite se traduce by, no for."
+  }
  ],
  "ejercicios": [
-  {"id": "e01", "tipo": "hueco", "enunciado": "Completa con future continuous o future perfect.", "frase": "At 11 tomorrow morning I ___ (sit) an exam, so I can't help you.", "respuestas": ["will be sitting", "'ll be sitting"], "explicacion": "Acción en curso en un momento futuro concreto: future continuous."},
-  {"id": "e02", "tipo": "hueco", "enunciado": "Completa con future continuous o future perfect.", "frase": "By 2030 the city ___ (build) a new metro line.", "respuestas": ["will have built", "'ll have built"], "explicacion": "By + fecha indica algo terminado antes de ese momento: future perfect."},
-  {"id": "e03", "tipo": "hueco", "enunciado": "Completa con la forma correcta del verbo.", "frase": "By the time we ___ (get) to the station, the train will have left.", "respuestas": ["get"], "explicacion": "Tras by the time se usa presente simple, no will."},
-  {"id": "e04", "tipo": "hueco", "enunciado": "Completa con future perfect continuous.", "frase": "In September I ___ (teach) at this school for twenty years.", "respuestas": ["will have been teaching", "'ll have been teaching"], "explicacion": "Duración hasta un punto futuro con for: future perfect continuous."},
-  {"id": "e05", "tipo": "eleccion", "enunciado": "Elige la opción correcta.", "frase": "Don't phone after midnight. We ___.", "opciones": ["will sleep", "will be sleeping", "will have slept"], "respuestas": ["will be sleeping"], "explicacion": "A esa hora estaremos en mitad de la acción de dormir: future continuous."},
-  {"id": "e06", "tipo": "eleccion", "enunciado": "Elige la opción correcta.", "frase": "I hope the builders ___ the roof by the time winter comes.", "opciones": ["will be repairing", "will have repaired", "had repaired", "are repairing"], "respuestas": ["will have repaired"], "explicacion": "Algo terminado antes de un momento futuro: future perfect."},
-  {"id": "e07", "tipo": "eleccion", "enunciado": "Elige la pregunta más cortés para conocer planes.", "frase": "___ the printer this afternoon? I need to print some tickets.", "opciones": ["Will you be using", "Will you have used", "Will you have been using"], "respuestas": ["Will you be using"], "explicacion": "Will you be + -ing pregunta por planes sin presionar ni pedir nada directamente."},
-  {"id": "e08", "tipo": "eleccion", "enunciado": "Elige la preposición correcta.", "frase": "Please send me the figures ___ Thursday at the latest.", "opciones": ["by", "for", "until"], "respuestas": ["by"], "explicacion": "Fecha límite («para», «como muy tarde»): by."},
-  {"id": "e09", "tipo": "corregir", "enunciado": "Corrige el error.", "frase": "By the time you will read this letter, I will have left the country.", "respuestas": ["By the time you read this letter, I will have left the country.", "By the time you read this letter, I'll have left the country."], "explicacion": "En la oración temporal con by the time se usa presente, no will."},
-  {"id": "e10", "tipo": "corregir", "enunciado": "Corrige el error.", "frase": "By next summer I will be knowing her for ten years.", "respuestas": ["By next summer I will have known her for ten years.", "By next summer I'll have known her for ten years."], "explicacion": "Know es verbo de estado y se trata de una duración hasta un punto futuro: will have known."},
-  {"id": "e11", "tipo": "corregir", "enunciado": "Corrige el error.", "frase": "For the end of the week we will have painted the whole house.", "respuestas": ["By the end of the week we will have painted the whole house.", "By the end of the week we'll have painted the whole house."], "explicacion": "«Para» con un plazo se traduce by."},
-  {"id": "e12", "tipo": "transformar", "enunciado": "Reescribe la frase usando el future perfect con by + la hora indicada.", "frase": "The meeting will finish before six o'clock. (by six o'clock)", "respuestas": ["The meeting will have finished by six o'clock.", "The meeting'll have finished by six o'clock.", "By six o'clock the meeting will have finished.", "By six o'clock, the meeting will have finished."], "explicacion": "Algo terminado antes de un momento futuro se expresa con will have + participio."},
-  {"id": "e13", "tipo": "transformar", "enunciado": "Pasa la frase a negativa.", "frase": "They will have finished the work by Monday.", "respuestas": ["They will not have finished the work by Monday.", "They won't have finished the work by Monday."], "explicacion": "La negación va tras will: won't have + participio."},
-  {"id": "e14", "tipo": "ordenar", "enunciado": "Ordena las palabras.", "palabras": ["be", "this", "time", "I'll", "next", "skiing", "week"], "respuestas": ["This time next week I'll be skiing", "I'll be skiing this time next week"], "explicacion": "Expresión de tiempo + future continuous: estaré esquiando."},
-  {"id": "e15", "tipo": "ordenar", "enunciado": "Ordena las palabras.", "palabras": ["have", "will", "by", "they", "landed", "then"], "respuestas": ["they will have landed by then", "by then they will have landed"], "explicacion": "Will have + participio con by then (para entonces)."}
+  {
+   "id": "e01",
+   "tipo": "hueco",
+   "enunciado": "Completa con future continuous o future perfect.",
+   "frase": "At 11 tomorrow morning I ___ (sit) an exam, so I can't help you.",
+   "respuestas": [
+    "will be sitting",
+    "'ll be sitting"
+   ],
+   "explicacion": "Se aplica la regla de la ficha sobre el future continuous: una acción que estará en marcha en un momento concreto del futuro («estaré haciendo»). La pista es At 11 tomorrow morning, una hora exacta, y la consecuencia so I can't help you: en ese momento estaré ocupado en mitad del examen. La forma es will be + sitting (o 'll be sitting). Sit an exam es la expresión británica para «hacer o presentarse a un examen».",
+   "explicacion_breve": "Acción en curso en un momento futuro concreto: future continuous.",
+   "traduccion": "Mañana a las 11 estaré haciendo un examen, así que no puedo ayudarte.",
+   "errores_previstos": [
+    {
+     "respuesta": "will sit",
+     "explicacion": "Will sit presenta el examen como un hecho futuro global; para decir que estaré en mitad de él a esa hora hace falta will be sitting."
+    },
+    {
+     "respuesta": "will have sat",
+     "explicacion": "El future perfect indicaría que a las 11 ya lo habré terminado, lo contrario de lo que dice la frase."
+    },
+    {
+     "respuesta": "am sitting",
+     "explicacion": "El presente continuo expresaría un plan, pero con una hora concreta en la que la acción está en curso la ficha pide will be + -ing."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "to sit an exam",
+     "significado": "hacer un examen, presentarse a un examen (inglés británico)"
+    }
+   ]
+  },
+  {
+   "id": "e02",
+   "tipo": "hueco",
+   "enunciado": "Completa con future continuous o future perfect.",
+   "frase": "By 2030 the city ___ (build) a new metro line.",
+   "respuestas": [
+    "will have built",
+    "'ll have built"
+   ],
+   "explicacion": "Se aplica la regla del future perfect: una acción que estará terminada antes de un momento futuro, «habré hecho». La pista es By 2030; como recuerda Reglas y claves, by + fecha significa «para», es decir, como muy tarde en esa fecha. La forma es will have + participio: will have built (o 'll have built). Build es irregular y su participio es built.",
+   "explicacion_breve": "By + fecha indica algo terminado antes de ese momento: future perfect.",
+   "traduccion": "Para 2030 la ciudad habrá construido una nueva línea de metro.",
+   "errores_previstos": [
+    {
+     "respuesta": "will build",
+     "explicacion": "El futuro simple no expresa que la obra estará acabada antes de 2030; con by + fecha se usa will have built."
+    },
+    {
+     "respuesta": "will be building",
+     "explicacion": "El future continuous indicaría que en 2030 aún estará en obras, no que la habrá terminado."
+    },
+    {
+     "respuesta": "will have builded",
+     "explicacion": "Build es irregular: el participio es built."
+    }
+   ]
+  },
+  {
+   "id": "e03",
+   "tipo": "hueco",
+   "enunciado": "Completa con la forma correcta del verbo.",
+   "frase": "By the time we ___ (get) to the station, the train will have left.",
+   "respuestas": [
+    "get"
+   ],
+   "explicacion": "Se aplica la regla de Reglas y claves: by the time + presente simple. En las oraciones temporales que hablan del futuro (by the time, when, before, until) el inglés usa presente, nunca will. La pista es By the time al comienzo del hueco; el futuro ya está en la oración principal (will have left). Por eso la forma es get, en presente, igual que el español usa el subjuntivo «lleguemos» y no el futuro.",
+   "explicacion_breve": "Tras by the time se usa presente simple, no will.",
+   "traduccion": "Para cuando lleguemos a la estación, el tren ya se habrá ido.",
+   "errores_previstos": [
+    {
+     "respuesta": "will get",
+     "explicacion": "Es el error típico que recoge la ficha: tras by the time se usa presente, no will."
+    },
+    {
+     "respuesta": "will have got",
+     "explicacion": "La oración temporal no lleva future perfect; basta el presente simple get."
+    },
+    {
+     "respuesta": "got",
+     "explicacion": "El pasado no encaja, porque la llegada está en el futuro; se usa el presente get."
+    }
+   ]
+  },
+  {
+   "id": "e04",
+   "tipo": "hueco",
+   "enunciado": "Completa con future perfect continuous.",
+   "frase": "In September I ___ (teach) at this school for twenty years.",
+   "respuestas": [
+    "will have been teaching",
+    "'ll have been teaching"
+   ],
+   "explicacion": "Se aplica la regla de Reglas y claves: el future perfect continuous subraya la duración hasta un punto futuro con for + periodo. La pista es la combinación In September (el punto futuro) y for twenty years (la duración acumulada). La forma es will have been + teaching. El español lo expresa con «hará veinte años que…» o «llevaré veinte años dando clase», estructuras que no se traducen palabra por palabra.",
+   "explicacion_breve": "Duración hasta un punto futuro con for: future perfect continuous.",
+   "traduccion": "En septiembre hará veinte años que doy clase en este colegio.",
+   "errores_previstos": [
+    {
+     "respuesta": "will teach",
+     "explicacion": "El futuro simple no expresa la duración acumulada hasta septiembre; con for + periodo hace falta will have been teaching."
+    },
+    {
+     "respuesta": "will be teaching",
+     "explicacion": "El future continuous solo dice que estaré dando clase en ese momento, sin la idea de los veinte años acumulados."
+    },
+    {
+     "respuesta": "am teaching",
+     "explicacion": "El presente no sitúa la duración en un punto futuro; la regla pide will have been + -ing."
+    }
+   ]
+  },
+  {
+   "id": "e05",
+   "tipo": "eleccion",
+   "enunciado": "Elige la opción correcta.",
+   "frase": "Don't phone after midnight. We ___.",
+   "opciones": [
+    "will sleep",
+    "will be sleeping",
+    "will have slept"
+   ],
+   "respuestas": [
+    "will be sleeping"
+   ],
+   "explicacion": "Se aplica la regla del future continuous: una acción que estará en marcha en un momento concreto del futuro. La pista es after midnight, el momento de referencia, y la razón implícita del consejo: a esa hora estaremos en mitad del sueño y la llamada nos despertaría. Por eso la forma es will be sleeping, que equivale a «estaremos durmiendo».",
+   "explicacion_breve": "A esa hora estaremos en mitad de la acción de dormir: future continuous.",
+   "traduccion": "No llames después de medianoche. Estaremos durmiendo.",
+   "por_opcion": {
+    "will sleep": "Incorrecta en este contexto: presenta el dormir como hecho futuro, pero no transmite que la llamada nos interrumpiría en mitad del sueño.",
+    "will be sleeping": "Correcta: future continuous para una acción en curso en un momento futuro.",
+    "will have slept": "Incorrecta: indicaría que a esa hora ya habremos terminado de dormir, lo cual no tiene sentido aquí."
+   }
+  },
+  {
+   "id": "e06",
+   "tipo": "eleccion",
+   "enunciado": "Elige la opción correcta.",
+   "frase": "I hope the builders ___ the roof by the time winter comes.",
+   "opciones": [
+    "will be repairing",
+    "will have repaired",
+    "had repaired",
+    "are repairing"
+   ],
+   "respuestas": [
+    "will have repaired"
+   ],
+   "explicacion": "Se aplica la regla del future perfect: una acción terminada antes de un momento futuro. La pista es by the time winter comes, que marca el plazo, y el sentido de la frase: se desea que el arreglo esté acabado antes del invierno. La forma es will have repaired. Fíjate en que winter comes va en presente, como exige by the time.",
+   "explicacion_breve": "Algo terminado antes de un momento futuro: future perfect.",
+   "traduccion": "Espero que los obreros hayan arreglado el tejado para cuando llegue el invierno.",
+   "por_opcion": {
+    "will be repairing": "Incorrecta: indicaría que seguirán arreglándolo cuando llegue el invierno, justo lo que no se desea.",
+    "will have repaired": "Correcta: future perfect, la reparación estará acabada antes del plazo.",
+    "had repaired": "Incorrecta: el pluscuamperfecto mira al pasado y no encaja con un plazo futuro.",
+    "are repairing": "Incorrecta: el presente continuo expresa un plan o una acción en curso, no algo terminado antes del invierno."
+   },
+   "glosario": [
+    {
+     "palabra": "builder",
+     "significado": "obrero de la construcción, albañil"
+    }
+   ]
+  },
+  {
+   "id": "e07",
+   "tipo": "eleccion",
+   "enunciado": "Elige la pregunta más cortés para conocer planes.",
+   "frase": "___ the printer this afternoon? I need to print some tickets.",
+   "opciones": [
+    "Will you be using",
+    "Will you have used",
+    "Will you have been using"
+   ],
+   "respuestas": [
+    "Will you be using"
+   ],
+   "explicacion": "Se aplica el uso de cortesía del future continuous que explica la ficha: Will you be + -ing pregunta por los planes de alguien sin presionarle ni pedir nada directamente (como en Will you be using the car tonight?). La pista es el contexto: quiero la impresora, pero en lugar de pedirla pregunto con tacto si el otro la necesita. La forma es Will you be using.",
+   "explicacion_breve": "Will you be + -ing pregunta por planes sin presionar ni pedir nada directamente.",
+   "traduccion": "¿Vas a usar la impresora esta tarde? Necesito imprimir unas entradas.",
+   "por_opcion": {
+    "Will you be using": "Correcta: future continuous de cortesía para preguntar por planes sin presionar.",
+    "Will you have used": "Incorrecta: preguntaría si habrás terminado de usarla antes de un plazo, que no es lo que se pregunta.",
+    "Will you have been using": "Incorrecta: el perfect continuous mide una duración hasta un punto futuro y no tiene sentido aquí."
+   }
+  },
+  {
+   "id": "e08",
+   "tipo": "eleccion",
+   "enunciado": "Elige la preposición correcta.",
+   "frase": "Please send me the figures ___ Thursday at the latest.",
+   "opciones": [
+    "by",
+    "for",
+    "until"
+   ],
+   "respuestas": [
+    "by"
+   ],
+   "explicacion": "Se aplica la regla de Reglas y claves: by + fecha equivale a «para», es decir, un plazo límite. La pista es at the latest («como muy tarde»), que confirma que se trata de una fecha tope. Por eso la preposición es by. Es uno de los errores más frecuentes del hispanohablante, que tiende a traducir «para» por for.",
+   "explicacion_breve": "Fecha límite («para», «como muy tarde»): by.",
+   "traduccion": "Por favor, envíame las cifras para el jueves como muy tarde.",
+   "por_opcion": {
+    "by": "Correcta: by marca la fecha límite, «para el jueves, como muy tarde».",
+    "for": "Incorrecta: es el calco de «para»; for con una fecha indica destino o finalidad, no plazo límite.",
+    "until": "Incorrecta: until indica que algo dura hasta ese momento («hasta el jueves»), no un plazo de entrega."
+   }
+  },
+  {
+   "id": "e09",
+   "tipo": "corregir",
+   "enunciado": "Corrige el error.",
+   "frase": "By the time you will read this letter, I will have left the country.",
+   "respuestas": [
+    "By the time you read this letter, I will have left the country.",
+    "By the time you read this letter, I'll have left the country."
+   ],
+   "explicacion": "Se aplica la regla de Reglas y claves: by the time + presente simple. En la oración temporal no se usa will aunque se refiera al futuro; el futuro va solo en la principal (I will have left). La pista es By the time al principio. Se acepta will have left o la contracción 'll have left, porque las dos son el mismo future perfect.",
+   "explicacion_breve": "En la oración temporal con by the time se usa presente, no will.",
+   "traduccion": "Para cuando leas esta carta, me habré ido del país.",
+   "errores_previstos": [
+    {
+     "respuesta": "By the time you will read this letter, I will have left the country.",
+     "explicacion": "Deja la frase sin corregir: tras by the time va presente, no will."
+    },
+    {
+     "respuesta": "By the time you read this letter, I will leave the country.",
+     "explicacion": "Corrige la temporal pero estropea la principal: la marcha estará terminada antes, así que hace falta will have left."
+    },
+    {
+     "respuesta": "By the time you will have read this letter, I will have left the country.",
+     "explicacion": "Pone future perfect en la temporal; tras by the time basta el presente simple."
+    }
+   ]
+  },
+  {
+   "id": "e10",
+   "tipo": "corregir",
+   "enunciado": "Corrige el error.",
+   "frase": "By next summer I will be knowing her for ten years.",
+   "respuestas": [
+    "By next summer I will have known her for ten years.",
+    "By next summer I'll have known her for ten years."
+   ],
+   "explicacion": "Se aplican dos reglas de Reglas y claves: los verbos de estado (know, own, believe) no suelen ir en forma continua, y una duración hasta un punto futuro con for se expresa con future perfect. La pista es By next summer + for ten years, junto al verbo know. Como know no admite -ing, en lugar del future perfect continuous se usa el simple: will have known.",
+   "explicacion_breve": "Know es verbo de estado y se trata de una duración hasta un punto futuro: will have known.",
+   "traduccion": "El próximo verano hará diez años que la conozco.",
+   "errores_previstos": [
+    {
+     "respuesta": "By next summer I will be knowing her for ten years.",
+     "explicacion": "Deja la frase sin corregir: know es verbo de estado y la duración hasta un punto futuro pide will have known."
+    },
+    {
+     "respuesta": "By next summer I will have been knowing her for ten years.",
+     "explicacion": "Usa la forma continua con un verbo de estado; know va en future perfect simple."
+    },
+    {
+     "respuesta": "By next summer I will know her for ten years.",
+     "explicacion": "El futuro simple no expresa la duración acumulada hasta el verano."
+    }
+   ]
+  },
+  {
+   "id": "e11",
+   "tipo": "corregir",
+   "enunciado": "Corrige el error.",
+   "frase": "For the end of the week we will have painted the whole house.",
+   "respuestas": [
+    "By the end of the week we will have painted the whole house.",
+    "By the end of the week we'll have painted the whole house."
+   ],
+   "explicacion": "Se aplica la regla de Reglas y claves: by + fecha = «para», no «por», y el error típico de la ficha For next Friday frente a By next Friday. La pista es que el complemento indica un plazo para terminar algo (will have painted). Por eso hay que cambiar For por By; el resto de la frase, con future perfect, ya es correcto.",
+   "explicacion_breve": "«Para» con un plazo se traduce by.",
+   "traduccion": "Para el fin de semana habremos pintado toda la casa.",
+   "errores_previstos": [
+    {
+     "respuesta": "For the end of the week we will have painted the whole house.",
+     "explicacion": "Deja la frase sin corregir: «para» + plazo se traduce by, no for."
+    },
+    {
+     "respuesta": "Until the end of the week we will have painted the whole house.",
+     "explicacion": "Until expresa duración hasta un momento, no plazo de terminación; hace falta by."
+    },
+    {
+     "respuesta": "In the end of the week we will have painted the whole house.",
+     "explicacion": "In the end significa «al final, finalmente»; el plazo se expresa con by."
+    }
+   ]
+  },
+  {
+   "id": "e12",
+   "tipo": "transformar",
+   "enunciado": "Reescribe la frase usando el future perfect con by + la hora indicada.",
+   "frase": "The meeting will finish before six o'clock. (by six o'clock)",
+   "respuestas": [
+    "The meeting will have finished by six o'clock.",
+    "The meeting'll have finished by six o'clock.",
+    "By six o'clock the meeting will have finished.",
+    "By six o'clock, the meeting will have finished."
+   ],
+   "explicacion": "Se aplica la regla del future perfect: algo terminado antes de un momento futuro, con by. La pista es la indicación by six o'clock, que sustituye a before six o'clock. La frase queda con will have + participio: The meeting will have finished by six o'clock. Se aceptan también la contracción y el orden con By six o'clock al principio, porque el complemento de tiempo puede ir delante.",
+   "explicacion_breve": "Algo terminado antes de un momento futuro se expresa con will have + participio.",
+   "traduccion": "La reunión habrá terminado a las seis.",
+   "errores_previstos": [
+    {
+     "respuesta": "The meeting will finish by six o'clock.",
+     "explicacion": "No usa el future perfect que pide el ejercicio; la acción terminada antes de un plazo es will have finished."
+    },
+    {
+     "respuesta": "The meeting will have finish by six o'clock.",
+     "explicacion": "Tras will have va el participio: finished."
+    },
+    {
+     "respuesta": "The meeting will have finished for six o'clock.",
+     "explicacion": "El plazo se expresa con by, no con for."
+    }
+   ]
+  },
+  {
+   "id": "e13",
+   "tipo": "transformar",
+   "enunciado": "Pasa la frase a negativa.",
+   "frase": "They will have finished the work by Monday.",
+   "respuestas": [
+    "They will not have finished the work by Monday.",
+    "They won't have finished the work by Monday."
+   ],
+   "explicacion": "Se aplica la forma negativa del future perfect: la negación va detrás de will, como en todos los tiempos con will. La pista es la orden de pasar a negativa y el verbo will have finished. El resultado es will not have finished o, en contracción, won't have finished; have y el participio no cambian.",
+   "explicacion_breve": "La negación va tras will: won't have + participio.",
+   "traduccion": "No habrán terminado el trabajo para el lunes.",
+   "errores_previstos": [
+    {
+     "respuesta": "They will have not finished the work by Monday.",
+     "explicacion": "Coloca not detrás de have; la negación va justo tras will: won't have."
+    },
+    {
+     "respuesta": "They don't will have finished the work by Monday.",
+     "explicacion": "Will es modal y no se niega con do."
+    },
+    {
+     "respuesta": "They haven't finished the work by Monday.",
+     "explicacion": "El present perfect no sitúa el plazo en el futuro; hace falta won't have finished."
+    }
+   ]
+  },
+  {
+   "id": "e14",
+   "tipo": "ordenar",
+   "enunciado": "Ordena las palabras.",
+   "palabras": [
+    "be",
+    "this",
+    "time",
+    "I'll",
+    "next",
+    "skiing",
+    "week"
+   ],
+   "respuestas": [
+    "This time next week I'll be skiing",
+    "I'll be skiing this time next week"
+   ],
+   "explicacion": "Se aplica la regla del future continuous con un momento concreto del futuro: this time next week es una de las expresiones que la ficha da como señal. Las palabras forman la expresión de tiempo this time next week y el verbo I'll be skiing (will be + -ing). La expresión de tiempo puede ir al principio o al final, por eso se aceptan los dos órdenes.",
+   "explicacion_breve": "Expresión de tiempo + future continuous: estaré esquiando.",
+   "traduccion": "La semana que viene a estas horas estaré esquiando.",
+   "errores_previstos": [
+    {
+     "respuesta": "This next week time I'll be skiing",
+     "explicacion": "Rompe la expresión fija this time next week («a estas horas la semana que viene»)."
+    },
+    {
+     "respuesta": "I'll skiing be this time next week",
+     "explicacion": "Altera el orden del verbo; la forma es will be + -ing: I'll be skiing."
+    }
+   ]
+  },
+  {
+   "id": "e15",
+   "tipo": "ordenar",
+   "enunciado": "Ordena las palabras.",
+   "palabras": [
+    "have",
+    "will",
+    "by",
+    "they",
+    "landed",
+    "then"
+   ],
+   "respuestas": [
+    "they will have landed by then",
+    "by then they will have landed"
+   ],
+   "explicacion": "Se aplica la regla del future perfect con by then («para entonces»), una de las señales típicas de este tiempo. Las palabras forman el sujeto they, el verbo will have landed (will have + participio) y el complemento by then, que puede ir al final o al principio. Por eso se aceptan los dos órdenes.",
+   "explicacion_breve": "Will have + participio con by then (para entonces).",
+   "traduccion": "Para entonces habrán aterrizado.",
+   "errores_previstos": [
+    {
+     "respuesta": "they have will landed by then",
+     "explicacion": "Invierte will y have; el orden fijo es will have + participio."
+    },
+    {
+     "respuesta": "they will have by then landed",
+     "explicacion": "Separa el auxiliar del participio con el complemento de tiempo, cosa que no se hace aquí."
+    }
+   ]
+  }
  ],
- "fuente": {"nombre": "propia"}
+ "fuente": {
+  "nombre": "propia"
+ },
+ "descripcion_larga_es": "El future continuous (will be + -ing) presenta una acción en marcha en un momento futuro, «estaré haciendo»; el future perfect (will have + participio) la presenta ya terminada antes de ese momento, «habré hecho». Son claves para hablar de plazos, previsiones y agendas. Al hispanohablante le cuesta sobre todo traducir «para» con plazo (by, no for) y no poner will tras by the time.",
+ "contexto": {
+  "que_es": "Son dos tiempos de futuro con aspecto. El future continuous (will be + -ing) sitúa al oyente en mitad de una acción futura; el future perfect (will have + participio) mira hacia atrás desde un punto futuro y ve la acción ya terminada. El future perfect continuous (will have been + -ing) subraya la duración hasta ese punto.",
+  "por_que_importa": "Permiten hablar con precisión de plazos y calendarios (By 2030 the city will have built…), algo constante en informes, proyectos y política económica. El future continuous además sirve para preguntar con cortesía por los planes de otro sin parecer que se le pide algo. Confundir los dos cambia el mensaje: «estaré terminando» no es «habré terminado».",
+  "cuando_se_usa": "El future continuous aparece con momentos concretos (at 11 tomorrow, this time next week). El future perfect aparece con by + fecha, by the time, by then o in + periodo, y el perfect continuous con for + duración. El hispanohablante suele traducir «para el viernes» por for Friday en lugar de by Friday, y pone will detrás de by the time por calco del futuro, cuando el inglés exige presente."
+ }
 }

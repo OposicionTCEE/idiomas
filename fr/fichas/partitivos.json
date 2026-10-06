@@ -6,52 +6,528 @@
  "nivel": "A1",
  "resumen": "El partitivo indica una cantidad indeterminada de algo que no se cuenta (pan, agua, tiempo). En español no ponemos nada («bebo leche»), pero en francés hace falta: je bois du lait.",
  "explicacion": [
-  {"tipo": "tabla", "cabecera": ["Delante de", "Partitivo", "Ejemplo"], "filas": [
-   ["masculino", "du", "du pain, du café, du temps"],
-   ["femenino", "de la", "de la viande, de la chance"],
-   ["vocal o h muda", "de l'", "de l'eau, de l'huile, de l'argent"],
-   ["plural", "des", "des épinards, des pâtes"]
-  ]},
-  {"tipo": "texto", "texto": "Un mismo nombre cambia de artículo según lo que se quiera decir: Je bois du vin (algo de vino, cantidad sin precisar); Le vin rouge est bon (el vino en general); Je prends un vin du Rhône (uno de la carta, contable). Con los verbos de gusto (aimer, adorer, détester, préférer) se usa el definido: J'aime le café, pero je bois du café."},
-  {"tipo": "lista", "items": [
-   "Tras una negación, du, de la, de l' y des pasan a de (d' ante vocal): Je ne mange pas de viande. Il n'y a plus d'eau.",
-   "Excepción: con être, o cuando se opone una cosa a otra, se mantiene el partitivo: Ce n'est pas de l'eau, c'est du vin.",
-   "Tras expresiones de cantidad se usa solo de: beaucoup de sucre, un peu de lait, un kilo de pommes, une bouteille d'eau, assez de temps.",
-   "También con faire para actividades: faire du sport, faire de la natation, jouer du piano."
-  ]},
-  {"tipo": "texto", "texto": "No hay que confundir el partitivo du con la contracción du (de + le): Je bois du lait (partitivo, «leche») frente a Je parle du film (contracción, «hablo de la película»)."}
+  {
+   "tipo": "tabla",
+   "cabecera": [
+    "Delante de",
+    "Partitivo",
+    "Ejemplo"
+   ],
+   "filas": [
+    [
+     "masculino",
+     "du",
+     "du pain, du café, du temps"
+    ],
+    [
+     "femenino",
+     "de la",
+     "de la viande, de la chance"
+    ],
+    [
+     "vocal o h muda",
+     "de l'",
+     "de l'eau, de l'huile, de l'argent"
+    ],
+    [
+     "plural",
+     "des",
+     "des épinards, des pâtes"
+    ]
+   ]
+  },
+  {
+   "tipo": "texto",
+   "texto": "Un mismo nombre cambia de artículo según lo que se quiera decir: Je bois du vin (algo de vino, cantidad sin precisar); Le vin rouge est bon (el vino en general); Je prends un vin du Rhône (uno de la carta, contable). Con los verbos de gusto (aimer, adorer, détester, préférer) se usa el definido: J'aime le café, pero je bois du café."
+  },
+  {
+   "tipo": "lista",
+   "items": [
+    "Tras una negación, du, de la, de l' y des pasan a de (d' ante vocal): Je ne mange pas de viande. Il n'y a plus d'eau.",
+    "Excepción: con être, o cuando se opone una cosa a otra, se mantiene el partitivo: Ce n'est pas de l'eau, c'est du vin.",
+    "Tras expresiones de cantidad se usa solo de: beaucoup de sucre, un peu de lait, un kilo de pommes, une bouteille d'eau, assez de temps.",
+    "También con faire para actividades: faire du sport, faire de la natation, jouer du piano."
+   ]
+  },
+  {
+   "tipo": "texto",
+   "texto": "No hay que confundir el partitivo du con la contracción du (de + le): Je bois du lait (partitivo, «leche») frente a Je parle du film (contracción, «hablo de la película»)."
+  }
  ],
  "ejemplos": [
-  {"frase": "Comme dessert, nous avons de la mousse au chocolat et du sorbet.", "traduccion": "De postre tenemos mousse de chocolate y sorbete."},
-  {"frase": "Tu mélanges de la farine et des œufs, puis tu ajoutes du lait et de l'huile.", "traduccion": "Mezclas harina y huevos, y luego añades leche y aceite."},
-  {"frase": "Tammy ne mange pas de viande.", "traduccion": "Tammy no come carne."},
-  {"frase": "Il y a encore du vin ? Non, il n'y a plus de vin.", "traduccion": "¿Queda vino? No, ya no queda vino."},
-  {"frase": "Ce n'est pas de l'amitié, c'est de l'amour !", "traduccion": "¡No es amistad, es amor!"},
-  {"frase": "Le samedi, je fais du vélo avec mes enfants.", "traduccion": "Los sábados monto en bici con mis hijos."}
+  {
+   "frase": "Comme dessert, nous avons de la mousse au chocolat et du sorbet.",
+   "traduccion": "De postre tenemos mousse de chocolate y sorbete."
+  },
+  {
+   "frase": "Tu mélanges de la farine et des œufs, puis tu ajoutes du lait et de l'huile.",
+   "traduccion": "Mezclas harina y huevos, y luego añades leche y aceite."
+  },
+  {
+   "frase": "Tammy ne mange pas de viande.",
+   "traduccion": "Tammy no come carne."
+  },
+  {
+   "frase": "Il y a encore du vin ? Non, il n'y a plus de vin.",
+   "traduccion": "¿Queda vino? No, ya no queda vino."
+  },
+  {
+   "frase": "Ce n'est pas de l'amitié, c'est de l'amour !",
+   "traduccion": "¡No es amistad, es amor!"
+  },
+  {
+   "frase": "Le samedi, je fais du vélo avec mes enfants.",
+   "traduccion": "Los sábados monto en bici con mis hijos."
+  }
  ],
  "errores_hispanohablantes": [
-  {"mal": "Je bois lait.", "bien": "Je bois du lait.", "nota": "En francés el sustantivo no puede ir solo: hace falta el partitivo."},
-  {"mal": "Je ne mange pas de la viande.", "bien": "Je ne mange pas de viande.", "nota": "Tras la negación el partitivo se reduce a de."},
-  {"mal": "beaucoup des amis", "bien": "beaucoup d'amis", "nota": "Tras una expresión de cantidad solo va de."},
-  {"mal": "J'aime du chocolat.", "bien": "J'aime le chocolat.", "nota": "Con verbos de gusto se habla de la cosa en general: artículo definido."}
+  {
+   "mal": "Je bois lait.",
+   "bien": "Je bois du lait.",
+   "nota": "En francés el sustantivo no puede ir solo: hace falta el partitivo."
+  },
+  {
+   "mal": "Je ne mange pas de la viande.",
+   "bien": "Je ne mange pas de viande.",
+   "nota": "Tras la negación el partitivo se reduce a de."
+  },
+  {
+   "mal": "beaucoup des amis",
+   "bien": "beaucoup d'amis",
+   "nota": "Tras una expresión de cantidad solo va de."
+  },
+  {
+   "mal": "J'aime du chocolat.",
+   "bien": "J'aime le chocolat.",
+   "nota": "Con verbos de gusto se habla de la cosa en general: artículo definido."
+  }
  ],
  "ejercicios": [
-  {"id": "e01", "tipo": "hueco", "enunciado": "Completa con el partitivo (du, de la, de l').", "frase": "Je bois ___ lait.", "respuestas": ["du"], "explicacion": "Lait es masculino e incontable: du lait.", "origen": "tatoeba:1368910"},
-  {"id": "e02", "tipo": "hueco", "enunciado": "Completa con el partitivo (du, de la, de l').", "frase": "Tu as ___ viande.", "respuestas": ["de la"], "explicacion": "Viande es femenino: de la viande.", "origen": "tatoeba:7204266"},
-  {"id": "e03", "tipo": "hueco", "enunciado": "Completa con el partitivo (du, de la, de l').", "frase": "Tu as ___ chance.", "respuestas": ["de la"], "explicacion": "Chance es femenino: avoir de la chance (tener suerte).", "origen": "tatoeba:4599985"},
-  {"id": "e04", "tipo": "eleccion", "enunciado": "Elige la opción correcta.", "frase": "Bois-tu ___ café ?", "opciones": ["du", "de la", "de"], "respuestas": ["du"], "explicacion": "Pregunta afirmativa sobre una cantidad indeterminada de café (masculino): du.", "origen": "tatoeba:1170485"},
-  {"id": "e05", "tipo": "eleccion", "enunciado": "Elige la opción correcta.", "frase": "Y a-t-il ___ lait ?", "opciones": ["du", "de", "le"], "respuestas": ["du"], "explicacion": "La pregunta no es negativa: se mantiene el partitivo du.", "origen": "tatoeba:8974758"},
-  {"id": "e06", "tipo": "transformar", "enunciado": "Pasa la frase a negativa con ne… pas.", "frase": "Ils ont du sucre.", "respuestas": ["Ils n'ont pas de sucre."], "explicacion": "En la negación du pasa a de.", "origen": "tatoeba:9143669"},
-  {"id": "e07", "tipo": "transformar", "enunciado": "Pasa la frase a negativa con ne… pas.", "frase": "Je mange du pain.", "respuestas": ["Je ne mange pas de pain."], "explicacion": "Ne… pas rodea el verbo y du pasa a de.", "origen": "tatoeba:2723492"},
-  {"id": "e08", "tipo": "transformar", "enunciado": "Pasa la frase a negativa con ne… pas.", "frase": "Tu bois du thé.", "respuestas": ["Tu ne bois pas de thé."], "explicacion": "En la negación el partitivo se reduce a de.", "origen": "tatoeba:698815"},
-  {"id": "e09", "tipo": "ordenar", "enunciado": "Ordena las palabras.", "palabras": ["lait", "boivent", "du", "Ils"], "respuestas": ["Ils boivent du lait"], "explicacion": "Sujeto, verbo y complemento con partitivo.", "origen": "tatoeba:4604577"},
-  {"id": "e10", "tipo": "hueco", "enunciado": "Completa con el partitivo (du, de la, de l').", "frase": "Il perd ___ temps.", "respuestas": ["du"], "explicacion": "Temps es masculino: perdre du temps (perder tiempo).", "origen": "tatoeba:2076611"},
-  {"id": "e11", "tipo": "hueco", "enunciado": "Completa con el partitivo (du, de la, de l').", "frase": "Je voudrais ___ eau, s'il vous plaît.", "respuestas": ["de l'"], "explicacion": "Eau empieza por vocal: de l'eau."},
-  {"id": "e12", "tipo": "hueco", "enunciado": "Completa con la forma adecuada.", "frase": "Elle ne boit jamais ___ café.", "respuestas": ["de"], "explicacion": "Ne… jamais es una negación: el partitivo pasa a de."},
-  {"id": "e13", "tipo": "eleccion", "enunciado": "Elige la opción correcta.", "frase": "J'adore ___ chocolat noir.", "opciones": ["le", "du", "de"], "respuestas": ["le"], "explicacion": "Con verbos de gusto se usa el artículo definido."},
-  {"id": "e14", "tipo": "eleccion", "enunciado": "Elige la opción correcta.", "frase": "Il a beaucoup ___ amis à Marseille.", "opciones": ["d'", "des", "de les"], "respuestas": ["d'"], "explicacion": "Tras beaucoup solo va de, que se apostrofa ante vocal."},
-  {"id": "e15", "tipo": "corregir", "enunciado": "Corrige el error.", "frase": "Je voudrais un kilo des pommes.", "respuestas": ["Je voudrais un kilo de pommes."], "explicacion": "Tras una expresión de cantidad (un kilo) solo va de."},
-  {"id": "e16", "tipo": "corregir", "enunciado": "Corrige el error.", "frase": "Il n'y a plus du pain.", "respuestas": ["Il n'y a plus de pain."], "explicacion": "Ne… plus es una negación: du pasa a de."}
+  {
+   "id": "e01",
+   "tipo": "hueco",
+   "enunciado": "Completa con el partitivo (du, de la, de l').",
+   "frase": "Je bois ___ lait.",
+   "respuestas": [
+    "du"
+   ],
+   "explicacion": "Se aplica la tabla del partitivo: delante de un nombre masculino no contable va du. Lait es masculino y se bebe en una cantidad que no se precisa, así que es du lait. La pista es el verbo boire, que pide una cantidad indeterminada. En español no se pone nada («bebo leche»), pero en francés el nombre no puede ir solo, como recuerda el primer error típico de la ficha.",
+   "origen": "tatoeba:1368910",
+   "explicacion_breve": "Lait es masculino e incontable: du lait.",
+   "traduccion": "Bebo leche.",
+   "errores_previstos": [
+    {
+     "respuesta": "le",
+     "explicacion": "Le lait sería «la leche» concreta o en general; para una cantidad indeterminada se usa du."
+    },
+    {
+     "respuesta": "de la",
+     "explicacion": "Lait es masculino en francés (en español «la leche» es femenino): du."
+    },
+    {
+     "respuesta": "de",
+     "explicacion": "De solo se usa tras negación o expresión de cantidad; en afirmativa va du."
+    }
+   ]
+  },
+  {
+   "id": "e02",
+   "tipo": "hueco",
+   "enunciado": "Completa con el partitivo (du, de la, de l').",
+   "frase": "Tu as ___ viande.",
+   "respuestas": [
+    "de la"
+   ],
+   "explicacion": "Según la tabla, el partitivo femenino es de la. Viande es femenino y aquí se habla de una cantidad indeterminada de carne, así que es de la viande. La pista es el verbo avoir en afirmativa: no hay negación ni expresión de cantidad que reduzca el partitivo a de.",
+   "origen": "tatoeba:7204266",
+   "explicacion_breve": "Viande es femenino: de la viande.",
+   "traduccion": "Tienes carne.",
+   "errores_previstos": [
+    {
+     "respuesta": "du",
+     "explicacion": "Du es para masculinos; viande es femenino: de la."
+    },
+    {
+     "respuesta": "la",
+     "explicacion": "La viande sería una carne concreta; para «carne» en general como cantidad se usa de la."
+    },
+    {
+     "respuesta": "de",
+     "explicacion": "La frase es afirmativa: el partitivo completo es de la."
+    }
+   ]
+  },
+  {
+   "id": "e03",
+   "tipo": "hueco",
+   "enunciado": "Completa con el partitivo (du, de la, de l').",
+   "frase": "Tu as ___ chance.",
+   "respuestas": [
+    "de la"
+   ],
+   "explicacion": "El partitivo también se usa con nombres abstractos no contables, como recuerda la tabla con de la chance. Chance es femenino, así que es de la. La expresión fija avoir de la chance significa «tener suerte»; en español no se pone artículo, pero en francés es obligatorio.",
+   "origen": "tatoeba:4599985",
+   "explicacion_breve": "Chance es femenino: avoir de la chance (tener suerte).",
+   "traduccion": "Tienes suerte.",
+   "errores_previstos": [
+    {
+     "respuesta": "la",
+     "explicacion": "Avoir la chance de + infinitivo existe («tener la suerte de…»), pero para «tener suerte» se dice avoir de la chance."
+    },
+    {
+     "respuesta": "du",
+     "explicacion": "Chance es femenino: de la."
+    },
+    {
+     "respuesta": "de",
+     "explicacion": "Sin negación el partitivo no se reduce: de la chance."
+    }
+   ]
+  },
+  {
+   "id": "e04",
+   "tipo": "eleccion",
+   "enunciado": "Elige la opción correcta.",
+   "frase": "Bois-tu ___ café ?",
+   "opciones": [
+    "du",
+    "de la",
+    "de"
+   ],
+   "respuestas": [
+    "du"
+   ],
+   "explicacion": "Se aplica la tabla del partitivo: café es masculino y no contable aquí, así que va du. Que la frase sea una pregunta no cambia nada: el partitivo solo se reduce a de tras una negación. La pista es el género de café, que coincide con el español.",
+   "origen": "tatoeba:1170485",
+   "explicacion_breve": "Pregunta afirmativa sobre una cantidad indeterminada de café (masculino): du.",
+   "traduccion": "¿Bebes café?",
+   "por_opcion": {
+    "du": "Correcta: partitivo masculino ante café, en una pregunta afirmativa.",
+    "de la": "Incorrecta: de la es para nombres femeninos, y café es masculino.",
+    "de": "Incorrecta: de solo aparece tras una negación o una expresión de cantidad; la pregunta no es negativa."
+   }
+  },
+  {
+   "id": "e05",
+   "tipo": "eleccion",
+   "enunciado": "Elige la opción correcta.",
+   "frase": "Y a-t-il ___ lait ?",
+   "opciones": [
+    "du",
+    "de",
+    "le"
+   ],
+   "respuestas": [
+    "du"
+   ],
+   "explicacion": "La pregunta se hace con il y a invertido (y a-t-il), pero no es negativa, así que el partitivo se mantiene completo. Lait es masculino, por tanto du lait. La pista es que no hay ne… pas: solo la negación reduce du a de. Le lait se referiría a una leche concreta, ya conocida.",
+   "origen": "tatoeba:8974758",
+   "explicacion_breve": "La pregunta no es negativa: se mantiene el partitivo du.",
+   "traduccion": "¿Hay leche?",
+   "por_opcion": {
+    "du": "Correcta: partitivo masculino en una pregunta que no es negativa.",
+    "de": "Incorrecta: de sustituye al partitivo solo tras negación (il n'y a pas de lait).",
+    "le": "Incorrecta: le lait sería «la leche» concreta; para preguntar si queda algo de leche se usa du."
+   }
+  },
+  {
+   "id": "e06",
+   "tipo": "transformar",
+   "enunciado": "Pasa la frase a negativa con ne… pas.",
+   "frase": "Ils ont du sucre.",
+   "respuestas": [
+    "Ils n'ont pas de sucre."
+   ],
+   "explicacion": "Se aplica la regla de la lista: tras una negación, du, de la, de l' y des pasan a de. Ne… pas rodea al verbo, que empieza por vocal (ont), así que ne se apostrofa: n'ont pas. Después, du sucre pasa a de sucre. En español «no tienen azúcar» no lleva nada, pero en francés de es obligatorio.",
+   "origen": "tatoeba:9143669",
+   "explicacion_breve": "En la negación du pasa a de.",
+   "traduccion": "No tienen azúcar.",
+   "errores_previstos": [
+    {
+     "respuesta": "Ils n'ont pas du sucre.",
+     "explicacion": "Tras la negación el partitivo se reduce a de: pas de sucre."
+    },
+    {
+     "respuesta": "Ils ne ont pas de sucre.",
+     "explicacion": "Ne se apostrofa ante vocal: n'ont."
+    },
+    {
+     "respuesta": "Ils n'ont pas sucre.",
+     "explicacion": "Falta de: en francés el nombre no va solo tras la negación."
+    }
+   ]
+  },
+  {
+   "id": "e07",
+   "tipo": "transformar",
+   "enunciado": "Pasa la frase a negativa con ne… pas.",
+   "frase": "Je mange du pain.",
+   "respuestas": [
+    "Je ne mange pas de pain."
+   ],
+   "explicacion": "Se aplican dos reglas: ne… pas rodea al verbo conjugado (ne mange pas) y, tras la negación, el partitivo du se reduce a de. Por eso du pain pasa a de pain. Es la misma regla del ejemplo de la ficha Tammy ne mange pas de viande.",
+   "origen": "tatoeba:2723492",
+   "explicacion_breve": "Ne… pas rodea el verbo y du pasa a de.",
+   "traduccion": "No como pan.",
+   "errores_previstos": [
+    {
+     "respuesta": "Je ne mange pas du pain.",
+     "explicacion": "Tras la negación du pasa a de: pas de pain."
+    },
+    {
+     "respuesta": "Je ne mange pas pain.",
+     "explicacion": "Falta de: el nombre no puede ir solo."
+    },
+    {
+     "respuesta": "Je mange pas de pain.",
+     "explicacion": "En la lengua hablada se omite ne, pero el ejercicio pide ne… pas completo."
+    }
+   ]
+  },
+  {
+   "id": "e08",
+   "tipo": "transformar",
+   "enunciado": "Pasa la frase a negativa con ne… pas.",
+   "frase": "Tu bois du thé.",
+   "respuestas": [
+    "Tu ne bois pas de thé."
+   ],
+   "explicacion": "Como en los anteriores, ne… pas rodea al verbo (ne bois pas) y el partitivo du thé se reduce a de thé tras la negación. La regla de la lista es general: vale para du, de la, de l' y des. El sentido es «no bebes (nada de) té».",
+   "origen": "tatoeba:698815",
+   "explicacion_breve": "En la negación el partitivo se reduce a de.",
+   "traduccion": "No bebes té.",
+   "errores_previstos": [
+    {
+     "respuesta": "Tu ne bois pas du thé.",
+     "explicacion": "Tras la negación el partitivo pasa a de."
+    },
+    {
+     "respuesta": "Tu ne bois pas le thé.",
+     "explicacion": "Le thé sería un té concreto; para una cantidad indeterminada en negativa se usa de."
+    },
+    {
+     "respuesta": "Tu ne bois de thé pas.",
+     "explicacion": "Pas va justo detrás del verbo; el complemento, al final."
+    }
+   ]
+  },
+  {
+   "id": "e09",
+   "tipo": "ordenar",
+   "enunciado": "Ordena las palabras.",
+   "palabras": [
+    "lait",
+    "boivent",
+    "du",
+    "Ils"
+   ],
+   "respuestas": [
+    "Ils boivent du lait"
+   ],
+   "explicacion": "El orden es el normal de la frase francesa: sujeto (ils) + verbo (boivent) + complemento con partitivo (du lait). El partitivo du va delante de lait porque es masculino y se habla de una cantidad indeterminada. Boivent es la tercera persona del plural de boire, irregular.",
+   "origen": "tatoeba:4604577",
+   "explicacion_breve": "Sujeto, verbo y complemento con partitivo.",
+   "traduccion": "Beben leche.",
+   "errores_previstos": [
+    {
+     "respuesta": "Ils boivent lait du",
+     "explicacion": "El artículo va delante del nombre: du lait."
+    },
+    {
+     "respuesta": "Ils du lait boivent",
+     "explicacion": "El complemento va detrás del verbo."
+    }
+   ]
+  },
+  {
+   "id": "e10",
+   "tipo": "hueco",
+   "enunciado": "Completa con el partitivo (du, de la, de l').",
+   "frase": "Il perd ___ temps.",
+   "respuestas": [
+    "du"
+   ],
+   "explicacion": "Temps es masculino y aquí indica una cantidad no contable, así que lleva du, según la tabla (du temps). La expresión perdre du temps significa «perder tiempo»; en español a veces decimos «perder el tiempo», pero en francés lo habitual es el partitivo. Perdre son temps también existe, con posesivo.",
+   "origen": "tatoeba:2076611",
+   "explicacion_breve": "Temps es masculino: perdre du temps (perder tiempo).",
+   "traduccion": "Pierde tiempo.",
+   "errores_previstos": [
+    {
+     "respuesta": "de la",
+     "explicacion": "Temps es masculino: du."
+    },
+    {
+     "respuesta": "de",
+     "explicacion": "La frase es afirmativa: du temps."
+    },
+    {
+     "respuesta": "des",
+     "explicacion": "Aunque temps termina en -s, es singular: du temps."
+    }
+   ]
+  },
+  {
+   "id": "e11",
+   "tipo": "hueco",
+   "enunciado": "Completa con el partitivo (du, de la, de l').",
+   "frase": "Je voudrais ___ eau, s'il vous plaît.",
+   "respuestas": [
+    "de l'"
+   ],
+   "explicacion": "La tabla indica que delante de vocal o h muda el partitivo es de l', sea masculino o femenino. Eau empieza por vocal, así que es de l'eau. La pista es la vocal inicial, que obliga a apostrofar el artículo. Je voudrais es la forma cortés de pedir algo.",
+   "explicacion_breve": "Eau empieza por vocal: de l'eau.",
+   "traduccion": "Querría agua, por favor.",
+   "errores_previstos": [
+    {
+     "respuesta": "de la",
+     "explicacion": "Ante vocal la se apostrofa: de l'eau."
+    },
+    {
+     "respuesta": "du",
+     "explicacion": "Eau es femenino y además empieza por vocal: de l'."
+    },
+    {
+     "respuesta": "de l",
+     "explicacion": "Falta el apóstrofo: de l'."
+    }
+   ]
+  },
+  {
+   "id": "e12",
+   "tipo": "hueco",
+   "enunciado": "Completa con la forma adecuada.",
+   "frase": "Elle ne boit jamais ___ café.",
+   "respuestas": [
+    "de"
+   ],
+   "explicacion": "Ne… jamais es una negación como ne… pas, así que, según la lista, el partitivo se reduce a de. La pista es ne… jamais alrededor de boit. Por eso no se dice du café sino de café. La regla vale también para ne… plus (il n'y a plus de pain).",
+   "explicacion_breve": "Ne… jamais es una negación: el partitivo pasa a de.",
+   "traduccion": "Nunca bebe café.",
+   "errores_previstos": [
+    {
+     "respuesta": "du",
+     "explicacion": "Ne… jamais es una negación: el partitivo pasa a de."
+    },
+    {
+     "respuesta": "le",
+     "explicacion": "Le café sería el café concreto o en general; aquí se niega una cantidad: de."
+    },
+    {
+     "respuesta": "d'",
+     "explicacion": "Café empieza por consonante: de, sin apóstrofo."
+    }
+   ]
+  },
+  {
+   "id": "e13",
+   "tipo": "eleccion",
+   "enunciado": "Elige la opción correcta.",
+   "frase": "J'adore ___ chocolat noir.",
+   "opciones": [
+    "le",
+    "du",
+    "de"
+   ],
+   "respuestas": [
+    "le"
+   ],
+   "explicacion": "Se aplica la regla de los verbos de gusto: con aimer, adorer, détester y préférer se usa el artículo definido, porque se habla de la cosa en general, no de una cantidad. La pista es adorer. Comparar: j'adore le chocolat noir frente a je mange du chocolat noir.",
+   "explicacion_breve": "Con verbos de gusto se usa el artículo definido.",
+   "traduccion": "Me encanta el chocolate negro.",
+   "por_opcion": {
+    "le": "Correcta: con verbos de gusto se habla de la cosa en general, con artículo definido.",
+    "du": "Incorrecta: el partitivo es para una cantidad (je mange du chocolat); es el error típico «J'aime du chocolat».",
+    "de": "Incorrecta: de solo aparece tras negación o expresión de cantidad."
+   }
+  },
+  {
+   "id": "e14",
+   "tipo": "eleccion",
+   "enunciado": "Elige la opción correcta.",
+   "frase": "Il a beaucoup ___ amis à Marseille.",
+   "opciones": [
+    "d'",
+    "des",
+    "de les"
+   ],
+   "respuestas": [
+    "d'"
+   ],
+   "explicacion": "Se aplica la regla de las expresiones de cantidad de la lista: tras beaucoup, un peu, assez, un kilo, etc., va solo de, nunca des. Como amis empieza por vocal, de se apostrofa: beaucoup d'amis. El hispanohablante tiende a calcar «muchos de los amigos» y poner des.",
+   "explicacion_breve": "Tras beaucoup solo va de, que se apostrofa ante vocal.",
+   "traduccion": "Tiene muchos amigos en Marsella.",
+   "por_opcion": {
+    "d'": "Correcta: tras beaucoup va de, apostrofado ante vocal.",
+    "des": "Incorrecta: tras una expresión de cantidad no se usa el partitivo completo; es el error típico «beaucoup des amis».",
+    "de les": "Incorrecta: de + les se contrae siempre en des, y además tras beaucoup solo va de."
+   }
+  },
+  {
+   "id": "e15",
+   "tipo": "corregir",
+   "enunciado": "Corrige el error.",
+   "frase": "Je voudrais un kilo des pommes.",
+   "respuestas": [
+    "Je voudrais un kilo de pommes."
+   ],
+   "explicacion": "La regla de las expresiones de cantidad dice que tras un kilo, une bouteille, beaucoup, etc., va solo de. Por eso un kilo des pommes es incorrecto: hay que decir un kilo de pommes. Un kilo des pommes solo sería posible si se tratara de manzanas concretas ya mencionadas («un kilo de las manzanas»).",
+   "explicacion_breve": "Tras una expresión de cantidad (un kilo) solo va de.",
+   "traduccion": "Querría un kilo de manzanas.",
+   "errores_previstos": [
+    {
+     "respuesta": "Je voudrais un kilo des pommes.",
+     "explicacion": "Es la frase sin corregir: tras una expresión de cantidad va de."
+    },
+    {
+     "respuesta": "Je voudrais un kilo pommes.",
+     "explicacion": "Falta de entre la cantidad y el nombre."
+    },
+    {
+     "respuesta": "Je voudrais un kilo de les pommes.",
+     "explicacion": "De les no existe (se contrae en des), y tras un kilo solo va de."
+    }
+   ]
+  },
+  {
+   "id": "e16",
+   "tipo": "corregir",
+   "enunciado": "Corrige el error.",
+   "frase": "Il n'y a plus du pain.",
+   "respuestas": [
+    "Il n'y a plus de pain."
+   ],
+   "explicacion": "Ne… plus es una negación, así que, según la lista, el partitivo du se reduce a de: il n'y a plus de pain. La pista es ne… plus alrededor de y a. Es el mismo caso que el ejemplo de la ficha Il n'y a plus de vin.",
+   "explicacion_breve": "Ne… plus es una negación: du pasa a de.",
+   "traduccion": "Ya no queda pan.",
+   "errores_previstos": [
+    {
+     "respuesta": "Il n'y a plus du pain.",
+     "explicacion": "Es la frase sin corregir: tras ne… plus el partitivo pasa a de."
+    },
+    {
+     "respuesta": "Il n'y a plus pain.",
+     "explicacion": "Falta de."
+    },
+    {
+     "respuesta": "Il n'y a pas plus de pain.",
+     "explicacion": "Ne… plus ya es la negación completa; no se añade pas."
+    }
+   ]
+  }
  ],
- "fuente": {"nombre": "Tex's French Grammar", "autores": "COERLL, Universidad de Texas en Austin", "licencia": "CC BY 3.0", "url": "https://laits.utexas.edu/tex/gr/det5.html", "otras": ["Frases de Tatoeba (CC BY 2.0 FR)"]}
+ "fuente": {
+  "nombre": "Tex's French Grammar",
+  "autores": "COERLL, Universidad de Texas en Austin",
+  "licencia": "CC BY 3.0",
+  "url": "https://laits.utexas.edu/tex/gr/det5.html",
+  "otras": [
+   "Frases de Tatoeba (CC BY 2.0 FR)"
+  ]
+ },
+ "descripcion_larga_es": "El artículo partitivo (du, de la, de l') indica una cantidad indeterminada de algo que no se cuenta: pan, agua, suerte, tiempo. En español no ponemos nada delante («bebo leche»), pero en francés el nombre casi nunca va solo: je bois du lait. Es uno de los primeros puntos de gramática que hay que automatizar, junto con su cambio a de tras la negación y las expresiones de cantidad.",
+ "contexto": {
+  "que_es": "Es un artículo que acompaña a nombres no contables para indicar «una parte, una cantidad sin precisar»: du con masculino, de la con femenino, de l' ante vocal o h muda y des en plural. Tras una negación (ne… pas, ne… plus, ne… jamais) y tras expresiones de cantidad (beaucoup, un kilo, assez) se reduce a de o d'.",
+  "por_que_importa": "Aparece en casi cualquier frase sobre comida, bebida, compras o cualidades abstractas (avoir de la chance, perdre du temps). Omitirlo es uno de los errores más visibles de los hispanohablantes, porque en español el nombre puede ir solo. Confundirlo con el artículo definido cambia el sentido: je bois le vin (el vino concreto) frente a je bois du vin (vino).",
+  "cuando_se_usa": "Se usa con verbos como manger, boire, acheter, prendre, avoir o il y a cuando se habla de una cantidad indeterminada. En cambio, con verbos de gusto (aimer, adorer, détester, préférer) se usa el definido, porque se habla de la cosa en general. El hispanohablante tiende a omitirlo (je bois lait) o a mantenerlo tras la negación (pas de la viande), cuando debe pasar a de."
+ }
 }

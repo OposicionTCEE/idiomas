@@ -6,55 +6,540 @@
  "nivel": "A2",
  "resumen": "Para comparar se usa plus (más), moins (menos) o aussi (tan) delante del adjetivo o adverbio, y que para introducir el segundo término. Con nombres se usa plus de / moins de / autant de, y bon y bien tienen formas propias: meilleur y mieux.",
  "explicacion": [
-  {"tipo": "tabla", "cabecera": ["Comparación", "Adjetivo o adverbio", "Nombre", "Verbo"], "filas": [
-   ["superioridad (+)", "plus grand que", "plus de livres que", "travailler plus que"],
-   ["inferioridad (−)", "moins grand que", "moins de livres que", "travailler moins que"],
-   ["igualdad (=)", "aussi grand que", "autant de livres que", "travailler autant que"]
-  ]},
-  {"tipo": "texto", "texto": "El segundo término va siempre con que (nunca con comme ni de): aussi grand que moi = tan alto como yo. Si es un pronombre, se usa el tónico: plus fort que moi, que lui, qu'eux. Ante vocal, que se apostrofa: plus âgée qu'Anne."},
-  {"tipo": "tabla", "cabecera": ["Palabra", "Comparativo de superioridad", "Ejemplo"], "filas": [
-   ["bon, bonne (adjetivo: bueno)", "meilleur, meilleure, meilleurs, meilleures", "Ce vin est meilleur que l'autre."],
-   ["bien (adverbio: bien)", "mieux (invariable)", "Elle chante mieux que moi."],
-   ["mauvais (adjetivo: malo)", "plus mauvais o pire", "La situation est pire qu'hier."]
-  ]},
-  {"tipo": "lista", "items": [
-   "Truco: si en español puedes decir «más bueno», es meilleur (adjetivo, concuerda); si es «mejor» aplicado a un verbo, es mieux (adverbio, no varía).",
-   "Nunca «plus bon» ni «plus bien»; en cambio moins bon, moins bien, aussi bon y aussi bien son regulares.",
-   "El adjetivo concuerda: Ma sœur est plus grande que moi. Ces tartes sont meilleures.",
-   "Igualdad: aussi con adjetivos y adverbios, autant con nombres (autant de) y verbos (autant que), como «tan» frente a «tanto»."
-  ]}
+  {
+   "tipo": "tabla",
+   "cabecera": [
+    "Comparación",
+    "Adjetivo o adverbio",
+    "Nombre",
+    "Verbo"
+   ],
+   "filas": [
+    [
+     "superioridad (+)",
+     "plus grand que",
+     "plus de livres que",
+     "travailler plus que"
+    ],
+    [
+     "inferioridad (−)",
+     "moins grand que",
+     "moins de livres que",
+     "travailler moins que"
+    ],
+    [
+     "igualdad (=)",
+     "aussi grand que",
+     "autant de livres que",
+     "travailler autant que"
+    ]
+   ]
+  },
+  {
+   "tipo": "texto",
+   "texto": "El segundo término va siempre con que (nunca con comme ni de): aussi grand que moi = tan alto como yo. Si es un pronombre, se usa el tónico: plus fort que moi, que lui, qu'eux. Ante vocal, que se apostrofa: plus âgée qu'Anne."
+  },
+  {
+   "tipo": "tabla",
+   "cabecera": [
+    "Palabra",
+    "Comparativo de superioridad",
+    "Ejemplo"
+   ],
+   "filas": [
+    [
+     "bon, bonne (adjetivo: bueno)",
+     "meilleur, meilleure, meilleurs, meilleures",
+     "Ce vin est meilleur que l'autre."
+    ],
+    [
+     "bien (adverbio: bien)",
+     "mieux (invariable)",
+     "Elle chante mieux que moi."
+    ],
+    [
+     "mauvais (adjetivo: malo)",
+     "plus mauvais o pire",
+     "La situation est pire qu'hier."
+    ]
+   ]
+  },
+  {
+   "tipo": "lista",
+   "items": [
+    "Truco: si en español puedes decir «más bueno», es meilleur (adjetivo, concuerda); si es «mejor» aplicado a un verbo, es mieux (adverbio, no varía).",
+    "Nunca «plus bon» ni «plus bien»; en cambio moins bon, moins bien, aussi bon y aussi bien son regulares.",
+    "El adjetivo concuerda: Ma sœur est plus grande que moi. Ces tartes sont meilleures.",
+    "Igualdad: aussi con adjetivos y adverbios, autant con nombres (autant de) y verbos (autant que), como «tan» frente a «tanto»."
+   ]
+  }
  ],
  "ejemplos": [
-  {"frase": "Le fer est plus dur que l'or.", "traduccion": "El hierro es más duro que el oro."},
-  {"frase": "Je suis aussi grand que Tom.", "traduccion": "Soy tan alto como Tom."},
-  {"frase": "Il court plus vite que moi.", "traduccion": "Corre más deprisa que yo."},
-  {"frase": "C'est mieux que rien.", "traduccion": "Es mejor que nada."},
-  {"frase": "Les gâteaux de Tammy sont meilleurs que ceux de Fiona.", "traduccion": "Los pasteles de Tammy son mejores que los de Fiona."},
-  {"frase": "Il y a moins de voitures le dimanche.", "traduccion": "Hay menos coches los domingos."}
+  {
+   "frase": "Le fer est plus dur que l'or.",
+   "traduccion": "El hierro es más duro que el oro."
+  },
+  {
+   "frase": "Je suis aussi grand que Tom.",
+   "traduccion": "Soy tan alto como Tom."
+  },
+  {
+   "frase": "Il court plus vite que moi.",
+   "traduccion": "Corre más deprisa que yo."
+  },
+  {
+   "frase": "C'est mieux que rien.",
+   "traduccion": "Es mejor que nada."
+  },
+  {
+   "frase": "Les gâteaux de Tammy sont meilleurs que ceux de Fiona.",
+   "traduccion": "Los pasteles de Tammy son mejores que los de Fiona."
+  },
+  {
+   "frase": "Il y a moins de voitures le dimanche.",
+   "traduccion": "Hay menos coches los domingos."
+  }
  ],
  "errores_hispanohablantes": [
-  {"mal": "Je suis aussi grand comme toi.", "bien": "Je suis aussi grand que toi.", "nota": "«Tan… como» se dice aussi… que."},
-  {"mal": "Ce restaurant est plus bon que l'autre.", "bien": "Ce restaurant est meilleur que l'autre.", "nota": "Bon tiene comparativo irregular: meilleur."},
-  {"mal": "Elle parle français meilleur que moi.", "bien": "Elle parle français mieux que moi.", "nota": "Con verbos se usa el adverbio mieux, no el adjetivo meilleur."},
-  {"mal": "J'ai plus livres que toi.", "bien": "J'ai plus de livres que toi.", "nota": "Con nombres: plus de, moins de, autant de."}
+  {
+   "mal": "Je suis aussi grand comme toi.",
+   "bien": "Je suis aussi grand que toi.",
+   "nota": "«Tan… como» se dice aussi… que."
+  },
+  {
+   "mal": "Ce restaurant est plus bon que l'autre.",
+   "bien": "Ce restaurant est meilleur que l'autre.",
+   "nota": "Bon tiene comparativo irregular: meilleur."
+  },
+  {
+   "mal": "Elle parle français meilleur que moi.",
+   "bien": "Elle parle français mieux que moi.",
+   "nota": "Con verbos se usa el adverbio mieux, no el adjetivo meilleur."
+  },
+  {
+   "mal": "J'ai plus livres que toi.",
+   "bien": "J'ai plus de livres que toi.",
+   "nota": "Con nombres: plus de, moins de, autant de."
+  }
  ],
  "ejercicios": [
-  {"id": "e01", "tipo": "hueco", "enunciado": "Completa con el pronombre adecuado (yo).", "frase": "Il est plus fort que ___.", "respuestas": ["moi"], "explicacion": "Tras que se usa el pronombre tónico: moi.", "origen": "tatoeba:1652448"},
-  {"id": "e02", "tipo": "hueco", "enunciado": "Completa el comparativo (+).", "frase": "Le fer est ___ dur que l'or.", "respuestas": ["plus"], "explicacion": "Superioridad con adjetivo: plus… que.", "origen": "tatoeba:128999"},
-  {"id": "e03", "tipo": "hueco", "enunciado": "Completa el comparativo (=).", "frase": "Je suis ___ grand que Tom.", "respuestas": ["aussi"], "explicacion": "Igualdad con adjetivo: aussi… que.", "origen": "tatoeba:135173"},
-  {"id": "e04", "tipo": "eleccion", "enunciado": "Elige la opción correcta.", "frase": "Je cours aussi vite ___ Jim.", "opciones": ["que", "comme", "de"], "respuestas": ["que"], "explicacion": "Aussi… que: el segundo término va siempre con que.", "origen": "tatoeba:135162"},
-  {"id": "e05", "tipo": "eleccion", "enunciado": "Elige la opción correcta.", "frase": "Ce gâteau est ___ que l'autre.", "opciones": ["meilleur", "plus bon", "mieux"], "respuestas": ["meilleur"], "explicacion": "Gâteau es un nombre y bon un adjetivo: su comparativo es meilleur."},
-  {"id": "e06", "tipo": "eleccion", "enunciado": "Elige la opción correcta.", "frase": "Elle chante ___ que sa sœur.", "opciones": ["mieux", "meilleur", "plus bien"], "respuestas": ["mieux"], "explicacion": "Se compara cómo canta (verbo): comparativo del adverbio bien, mieux."},
-  {"id": "e07", "tipo": "hueco", "enunciado": "Completa con el comparativo de bien (+).", "frase": "C'est ___ que rien du tout.", "respuestas": ["mieux"], "explicacion": "C'est mieux que rien: es mejor que nada (expresión fija con mieux).", "origen": "tatoeba:1223050"},
-  {"id": "e08", "tipo": "hueco", "enunciado": "Completa el comparativo de igualdad con un nombre (=).", "frase": "J'ai ___ livres que toi.", "respuestas": ["autant de"], "explicacion": "Con nombres, la igualdad es autant de… que."},
-  {"id": "e09", "tipo": "hueco", "enunciado": "Completa el comparativo con un nombre (−).", "frase": "Il y a ___ voitures à la campagne qu'en ville.", "respuestas": ["moins de"], "explicacion": "Con nombres, la inferioridad es moins de… que."},
-  {"id": "e10", "tipo": "hueco", "enunciado": "Completa con la forma correcta de bon (+).", "frase": "Les pâtes de ma grand-mère sont ___ que celles du restaurant.", "respuestas": ["meilleures"], "explicacion": "Meilleur concuerda con pâtes (femenino plural): meilleures."},
-  {"id": "e11", "tipo": "corregir", "enunciado": "Corrige el error.", "frase": "Tu es plus jeune de moi.", "respuestas": ["Tu es plus jeune que moi."], "explicacion": "El segundo término de la comparación va con que, no con de.", "origen": "tatoeba:1147765"},
-  {"id": "e12", "tipo": "corregir", "enunciado": "Corrige el error.", "frase": "Elle est plus âgée que il.", "respuestas": ["Elle est plus âgée que lui."], "explicacion": "Tras que va el pronombre tónico: lui.", "origen": "tatoeba:1091479"},
-  {"id": "e13", "tipo": "corregir", "enunciado": "Corrige el error.", "frase": "Il travaille aussi que son frère.", "respuestas": ["Il travaille autant que son frère."], "explicacion": "Con un verbo, la igualdad se expresa con autant que (tanto como)."},
-  {"id": "e14", "tipo": "transformar", "enunciado": "Cambia la comparación a igualdad (=).", "frase": "Ma valise est plus lourde que la tienne.", "respuestas": ["Ma valise est aussi lourde que la tienne."], "explicacion": "Plus se sustituye por aussi; el adjetivo sigue concordando."},
-  {"id": "e15", "tipo": "ordenar", "enunciado": "Ordena las palabras (corre más deprisa que yo).", "palabras": ["court", "vite", "Il", "plus", "moi", "que"], "respuestas": ["Il court plus vite que moi"], "explicacion": "Verbo + plus + adverbio + que + tónico.", "origen": "tatoeba:940941"},
-  {"id": "e16", "tipo": "eleccion", "enunciado": "Elige la opción correcta.", "frase": "Ce mois-ci, j'ai travaillé ___ que le mois dernier.", "opciones": ["plus", "plus de", "meilleur"], "respuestas": ["plus"], "explicacion": "Con un verbo se usa plus solo (sin de): travailler plus que."}
+  {
+   "id": "e01",
+   "tipo": "hueco",
+   "enunciado": "Completa con el pronombre adecuado (yo).",
+   "frase": "Il est plus fort que ___.",
+   "respuestas": [
+    "moi"
+   ],
+   "explicacion": "La ficha explica que, si el segundo término de la comparación es un pronombre, se usa la forma tónica: moi, toi, lui, elle, nous, vous, eux, elles. Por eso plus fort que moi y no que je. La pista es que tras que no hay ningún verbo, así que el pronombre va solo y debe ser tónico.",
+   "origen": "tatoeba:1652448",
+   "explicacion_breve": "Tras que se usa el pronombre tónico: moi.",
+   "traduccion": "Es más fuerte que yo.",
+   "errores_previstos": [
+    {
+     "respuesta": "je",
+     "explicacion": "Je es un pronombre sujeto que necesita un verbo detrás. Tras que, solo, se usa el pronombre tónico moi."
+    },
+    {
+     "respuesta": "me",
+     "explicacion": "Me es pronombre de complemento y va delante de un verbo. Tras que se usa moi."
+    }
+   ]
+  },
+  {
+   "id": "e02",
+   "tipo": "hueco",
+   "enunciado": "Completa el comparativo (+).",
+   "frase": "Le fer est ___ dur que l'or.",
+   "respuestas": [
+    "plus"
+   ],
+   "explicacion": "Es el comparativo de superioridad con adjetivo de la primera tabla: plus + adjetivo + que. Dur es un adjetivo y el signo (+) del enunciado indica superioridad, así que plus dur que l'or. Fíjate en que que se apostrofa delante de vocal: que l'or no cambia porque sigue l', pero sería qu'Anne.",
+   "origen": "tatoeba:128999",
+   "explicacion_breve": "Superioridad con adjetivo: plus… que.",
+   "traduccion": "El hierro es más duro que el oro.",
+   "errores_previstos": [
+    {
+     "respuesta": "plus de",
+     "explicacion": "Plus de se usa delante de un sustantivo (plus de livres). Con un adjetivo como dur solo va plus."
+    },
+    {
+     "respuesta": "más",
+     "explicacion": "Es la palabra española; el comparativo de superioridad en francés es plus."
+    },
+    {
+     "respuesta": "très",
+     "explicacion": "Très significa «muy» y no compara; para decir «más… que» se usa plus."
+    }
+   ]
+  },
+  {
+   "id": "e03",
+   "tipo": "hueco",
+   "enunciado": "Completa el comparativo (=).",
+   "frase": "Je suis ___ grand que Tom.",
+   "respuestas": [
+    "aussi"
+   ],
+   "explicacion": "Es el comparativo de igualdad con adjetivo: aussi + adjetivo + que, como indica la tabla y la última nota de la lista. Grand es un adjetivo, por eso aussi y no autant, que se reserva para sustantivos y verbos. Es la estructura del español «tan… como», pero con que.",
+   "origen": "tatoeba:135173",
+   "explicacion_breve": "Igualdad con adjetivo: aussi… que.",
+   "traduccion": "Soy tan alto como Tom.",
+   "errores_previstos": [
+    {
+     "respuesta": "autant",
+     "explicacion": "Autant equivale a «tanto» y se usa con sustantivos (autant de) o con verbos. Con el adjetivo grand se usa aussi."
+    },
+    {
+     "respuesta": "si",
+     "explicacion": "Si… que existe, pero solo en frases negativas (il n'est pas si grand que toi). En una afirmación se usa aussi."
+    },
+    {
+     "respuesta": "tant",
+     "explicacion": "Tant no forma el comparativo de igualdad con adjetivos; se dice aussi grand que."
+    }
+   ]
+  },
+  {
+   "id": "e04",
+   "tipo": "eleccion",
+   "enunciado": "Elige la opción correcta.",
+   "frase": "Je cours aussi vite ___ Jim.",
+   "opciones": [
+    "que",
+    "comme",
+    "de"
+   ],
+   "respuestas": [
+    "que"
+   ],
+   "explicacion": "La ficha insiste en que el segundo término de la comparación va siempre con que, nunca con comme ni de: aussi vite que Jim. La pista es aussi delante del adverbio vite, que abre la comparación de igualdad y exige que. Es el error típico de calcar «tan… como».",
+   "origen": "tatoeba:135162",
+   "explicacion_breve": "Aussi… que: el segundo término va siempre con que.",
+   "traduccion": "Corro tan deprisa como Jim.",
+   "por_opcion": {
+    "que": "Correcta: en francés todas las comparaciones introducen el segundo término con que.",
+    "comme": "Incorrecta: calco de «tan… como». Comme significa «como» en comparaciones de semejanza (il court comme un lapin), pero no tras aussi.",
+    "de": "Incorrecta: de no introduce el segundo término de una comparación; solo aparece en plus de, moins de, autant de delante de un sustantivo."
+   }
+  },
+  {
+   "id": "e05",
+   "tipo": "eleccion",
+   "enunciado": "Elige la opción correcta.",
+   "frase": "Ce gâteau est ___ que l'autre.",
+   "opciones": [
+    "meilleur",
+    "plus bon",
+    "mieux"
+   ],
+   "respuestas": [
+    "meilleur"
+   ],
+   "explicacion": "Se aplica la tabla de formas irregulares: el comparativo de superioridad del adjetivo bon es meilleur, que concuerda con el sustantivo. Aquí se dice cómo es el pastel, así que es un adjetivo: si en español se puede decir «más bueno», es meilleur. Gâteau es masculino singular, por eso meilleur sin -e ni -s.",
+   "explicacion_breve": "Gâteau es un nombre y bon un adjetivo: su comparativo es meilleur.",
+   "traduccion": "Este pastel es mejor que el otro.",
+   "por_opcion": {
+    "meilleur": "Correcta: es el comparativo irregular del adjetivo bon, en masculino singular como gâteau.",
+    "plus bon": "Incorrecta: la ficha lo prohíbe expresamente; bon no forma plus bon, sino meilleur.",
+    "mieux": "Incorrecta: mieux es el comparativo del adverbio bien y acompaña a verbos. Aquí se califica un sustantivo (le gâteau) con être."
+   }
+  },
+  {
+   "id": "e06",
+   "tipo": "eleccion",
+   "enunciado": "Elige la opción correcta.",
+   "frase": "Elle chante ___ que sa sœur.",
+   "opciones": [
+    "mieux",
+    "meilleur",
+    "plus bien"
+   ],
+   "respuestas": [
+    "mieux"
+   ],
+   "explicacion": "Según la tabla de irregulares, el adverbio bien tiene como comparativo mieux, invariable. Aquí no se describe a una persona, sino cómo canta: se modifica el verbo chante, así que hace falta el adverbio. El truco de la ficha: si en español no puedes decir «más bueno», sino «mejor» aplicado a un verbo, es mieux.",
+   "explicacion_breve": "Se compara cómo canta (verbo): comparativo del adverbio bien, mieux.",
+   "traduccion": "Canta mejor que su hermana.",
+   "por_opcion": {
+    "mieux": "Correcta: es el comparativo de bien y modifica al verbo chanter.",
+    "meilleur": "Incorrecta: meilleur es un adjetivo y acompaña a sustantivos (une meilleure chanteuse); no puede modificar un verbo.",
+    "plus bien": "Incorrecta: la ficha lo descarta; bien no forma plus bien, sino mieux."
+   }
+  },
+  {
+   "id": "e07",
+   "tipo": "hueco",
+   "enunciado": "Completa con el comparativo de bien (+).",
+   "frase": "C'est ___ que rien du tout.",
+   "respuestas": [
+    "mieux"
+   ],
+   "explicacion": "Es la expresión fija c'est mieux que rien, que aparece entre los ejemplos de la ficha. Tras c'est sin sustantivo se usa mieux, porque no se califica a ningún nombre concreto sino a la situación en general. El enunciado lo indica además: comparativo de bien.",
+   "origen": "tatoeba:1223050",
+   "explicacion_breve": "C'est mieux que rien: es mejor que nada (expresión fija con mieux).",
+   "traduccion": "Es mejor que nada en absoluto.",
+   "errores_previstos": [
+    {
+     "respuesta": "meilleur",
+     "explicacion": "Meilleur necesitaría un sustantivo al que calificar. Con c'est y un valor general se usa mieux: c'est mieux que rien."
+    },
+    {
+     "respuesta": "plus bien",
+     "explicacion": "Bien no admite plus bien; su comparativo es mieux."
+    }
+   ]
+  },
+  {
+   "id": "e08",
+   "tipo": "hueco",
+   "enunciado": "Completa el comparativo de igualdad con un nombre (=).",
+   "frase": "J'ai ___ livres que toi.",
+   "respuestas": [
+    "autant de"
+   ],
+   "explicacion": "La primera tabla muestra que, con sustantivos, la igualdad se forma con autant de + sustantivo + que, igual que el español «tantos… como». Livres es un sustantivo, por eso autant de y no aussi. El de es invariable: no se convierte en des aunque el sustantivo sea plural.",
+   "explicacion_breve": "Con nombres, la igualdad es autant de… que.",
+   "traduccion": "Tengo tantos libros como tú.",
+   "errores_previstos": [
+    {
+     "respuesta": "aussi",
+     "explicacion": "Aussi solo va con adjetivos y adverbios. Con un sustantivo se usa autant de."
+    },
+    {
+     "respuesta": "autant des",
+     "explicacion": "Tras autant se usa de sin artículo, aunque el sustantivo esté en plural."
+    },
+    {
+     "respuesta": "autant",
+     "explicacion": "Delante de un sustantivo falta la preposición de: autant de livres."
+    }
+   ]
+  },
+  {
+   "id": "e09",
+   "tipo": "hueco",
+   "enunciado": "Completa el comparativo con un nombre (−).",
+   "frase": "Il y a ___ voitures à la campagne qu'en ville.",
+   "respuestas": [
+    "moins de"
+   ],
+   "explicacion": "Es el comparativo de inferioridad con sustantivo: moins de + sustantivo + que. Voitures es un sustantivo, de modo que no basta con moins; hace falta de. El segundo término, qu'en ville, lleva que apostrofado ante la vocal de en.",
+   "explicacion_breve": "Con nombres, la inferioridad es moins de… que.",
+   "traduccion": "Hay menos coches en el campo que en la ciudad.",
+   "errores_previstos": [
+    {
+     "respuesta": "moins",
+     "explicacion": "Con un sustantivo falta la preposición: moins de voitures."
+    },
+    {
+     "respuesta": "moins des",
+     "explicacion": "Tras moins se usa de sin artículo, también en plural."
+    },
+    {
+     "respuesta": "plus de",
+     "explicacion": "Plus de expresa superioridad; el signo (−) del enunciado pide inferioridad: moins de."
+    }
+   ]
+  },
+  {
+   "id": "e10",
+   "tipo": "hueco",
+   "enunciado": "Completa con la forma correcta de bon (+).",
+   "frase": "Les pâtes de ma grand-mère sont ___ que celles du restaurant.",
+   "respuestas": [
+    "meilleures"
+   ],
+   "explicacion": "Es el comparativo irregular de bon, que como adjetivo concuerda con el sustantivo, tal como recuerda la lista de la ficha. Pâtes es femenino plural en francés (les pâtes), así que meilleur toma -e y -s: meilleures. La pista es celles, también femenino plural.",
+   "explicacion_breve": "Meilleur concuerda con pâtes (femenino plural): meilleures.",
+   "traduccion": "La pasta de mi abuela es mejor que la del restaurante.",
+   "errores_previstos": [
+    {
+     "respuesta": "meilleur",
+     "explicacion": "Falta la concordancia: pâtes es femenino plural y pide meilleures."
+    },
+    {
+     "respuesta": "meilleurs",
+     "explicacion": "Es la forma masculina plural; pâtes es femenino: meilleures."
+    },
+    {
+     "respuesta": "mieux",
+     "explicacion": "Mieux es adverbio; aquí se califica a un sustantivo con être, así que se usa el adjetivo meilleures."
+    }
+   ]
+  },
+  {
+   "id": "e11",
+   "tipo": "corregir",
+   "enunciado": "Corrige el error.",
+   "frase": "Tu es plus jeune de moi.",
+   "respuestas": [
+    "Tu es plus jeune que moi."
+   ],
+   "explicacion": "La ficha lo deja claro: el segundo término de la comparación va siempre con que, nunca con de. Plus jeune de moi es un calco erróneo (en español tampoco se dice «más joven de mí»). Basta con sustituir de por que.",
+   "origen": "tatoeba:1147765",
+   "explicacion_breve": "El segundo término de la comparación va con que, no con de.",
+   "traduccion": "Eres más joven que yo.",
+   "errores_previstos": [
+    {
+     "respuesta": "Tu es plus jeune de moi.",
+     "explicacion": "Es la frase sin corregir: tras plus + adjetivo, el segundo término se introduce con que."
+    },
+    {
+     "respuesta": "Tu es plus jeune que je.",
+     "explicacion": "Se ha corregido la preposición pero se ha cambiado el pronombre: tras que va el tónico moi."
+    },
+    {
+     "respuesta": "Tu es plus jeune comme moi.",
+     "explicacion": "Comme no introduce el segundo término de una comparación; se usa que."
+    }
+   ]
+  },
+  {
+   "id": "e12",
+   "tipo": "corregir",
+   "enunciado": "Corrige el error.",
+   "frase": "Elle est plus âgée que il.",
+   "respuestas": [
+    "Elle est plus âgée que lui."
+   ],
+   "explicacion": "Se aplica la regla de los pronombres tónicos de la ficha: tras que, si no hay verbo, el pronombre es tónico, y el de él es lui. Il es un pronombre sujeto y necesitaría un verbo detrás. Además, que il tendría que apostrofarse en qu'il, señal de que la forma no encaja.",
+   "origen": "tatoeba:1091479",
+   "explicacion_breve": "Tras que va el pronombre tónico: lui.",
+   "traduccion": "Ella es mayor que él.",
+   "errores_previstos": [
+    {
+     "respuesta": "Elle est plus âgée que il.",
+     "explicacion": "Es la frase sin corregir: tras que va el pronombre tónico lui, no il."
+    },
+    {
+     "respuesta": "Elle est plus âgée qu'il.",
+     "explicacion": "Se ha arreglado la elisión, pero sigue siendo el pronombre sujeto. Sin verbo detrás debe ser lui."
+    },
+    {
+     "respuesta": "Elle est plus âgée que le.",
+     "explicacion": "Le es pronombre de complemento directo y va delante de un verbo; tras que se usa lui."
+    }
+   ]
+  },
+  {
+   "id": "e13",
+   "tipo": "corregir",
+   "enunciado": "Corrige el error.",
+   "frase": "Il travaille aussi que son frère.",
+   "respuestas": [
+    "Il travaille autant que son frère."
+   ],
+   "explicacion": "La última nota de la lista distingue aussi, con adjetivos y adverbios, de autant, con sustantivos y verbos, como el español «tan» frente a «tanto». Aquí se compara la acción de trabajar, un verbo, así que se usa autant que, detrás del verbo.",
+   "explicacion_breve": "Con un verbo, la igualdad se expresa con autant que (tanto como).",
+   "traduccion": "Trabaja tanto como su hermano.",
+   "errores_previstos": [
+    {
+     "respuesta": "Il travaille aussi que son frère.",
+     "explicacion": "Es la frase sin corregir: aussi necesita un adjetivo o un adverbio detrás; con un verbo se usa autant."
+    },
+    {
+     "respuesta": "Il travaille autant comme son frère.",
+     "explicacion": "El segundo término va siempre con que: autant que."
+    },
+    {
+     "respuesta": "Il travaille aussi bien que son frère.",
+     "explicacion": "Es gramatical, pero cambia el sentido: compara cómo trabaja (tan bien), no cuánto (tanto)."
+    }
+   ]
+  },
+  {
+   "id": "e14",
+   "tipo": "transformar",
+   "enunciado": "Cambia la comparación a igualdad (=).",
+   "frase": "Ma valise est plus lourde que la tienne.",
+   "respuestas": [
+    "Ma valise est aussi lourde que la tienne."
+   ],
+   "explicacion": "Para pasar de superioridad a igualdad con un adjetivo se sustituye plus por aussi; el que se mantiene. El adjetivo lourde sigue concordando con valise, femenino singular. No se usa autant, porque lourde es un adjetivo.",
+   "explicacion_breve": "Plus se sustituye por aussi; el adjetivo sigue concordando.",
+   "traduccion": "Mi maleta pesa tanto como la tuya (es tan pesada como la tuya).",
+   "errores_previstos": [
+    {
+     "respuesta": "Ma valise est autant lourde que la tienne.",
+     "explicacion": "Autant no va con adjetivos; con lourde se usa aussi."
+    },
+    {
+     "respuesta": "Ma valise est aussi lourde comme la tienne.",
+     "explicacion": "Calco de «tan… como»: el segundo término va con que."
+    },
+    {
+     "respuesta": "Ma valise est aussi lourd que la tienne.",
+     "explicacion": "Se ha perdido la concordancia: valise es femenino, así que lourde."
+    }
+   ]
+  },
+  {
+   "id": "e15",
+   "tipo": "ordenar",
+   "enunciado": "Ordena las palabras (corre más deprisa que yo).",
+   "palabras": [
+    "court",
+    "vite",
+    "Il",
+    "plus",
+    "moi",
+    "que"
+   ],
+   "respuestas": [
+    "Il court plus vite que moi"
+   ],
+   "explicacion": "Es el orden de la comparación con adverbio: verbo + plus + adverbio + que + pronombre tónico. Vite es un adverbio, por eso plus va justo delante de él, y moi es el tónico que exige la ficha tras que. Es uno de los ejemplos de la ficha.",
+   "origen": "tatoeba:940941",
+   "explicacion_breve": "Verbo + plus + adverbio + que + tónico.",
+   "traduccion": "Corre más deprisa que yo.",
+   "errores_previstos": [
+    {
+     "respuesta": "Il court vite plus que moi",
+     "explicacion": "Plus debe ir delante del adverbio que compara: plus vite."
+    },
+    {
+     "respuesta": "Il plus court vite que moi",
+     "explicacion": "Plus no se coloca entre el sujeto y el verbo; va delante de vite."
+    }
+   ]
+  },
+  {
+   "id": "e16",
+   "tipo": "eleccion",
+   "enunciado": "Elige la opción correcta.",
+   "frase": "Ce mois-ci, j'ai travaillé ___ que le mois dernier.",
+   "opciones": [
+    "plus",
+    "plus de",
+    "meilleur"
+   ],
+   "respuestas": [
+    "plus"
+   ],
+   "explicacion": "La primera tabla indica que, cuando se compara un verbo, se usa plus solo, detrás del verbo: travailler plus que. Plus de solo aparece delante de un sustantivo. La pista es que tras el hueco viene directamente que, sin ningún sustantivo.",
+   "explicacion_breve": "Con un verbo se usa plus solo (sin de): travailler plus que.",
+   "traduccion": "Este mes he trabajado más que el mes pasado.",
+   "por_opcion": {
+    "plus": "Correcta: con un verbo la superioridad se expresa con plus que, sin de.",
+    "plus de": "Incorrecta: plus de necesita un sustantivo detrás (plus de travail); aquí sigue que.",
+    "meilleur": "Incorrecta: meilleur es un adjetivo y no puede modificar al verbo travailler; además no expresa cantidad."
+   }
+  }
  ],
- "fuente": {"nombre": "Tex's French Grammar", "autores": "COERLL, Universidad de Texas en Austin", "licencia": "CC BY 3.0", "url": "https://laits.utexas.edu/tex/gr/adj6.html", "otras": ["Frases de Tatoeba (CC BY 2.0 FR)"]}
+ "fuente": {
+  "nombre": "Tex's French Grammar",
+  "autores": "COERLL, Universidad de Texas en Austin",
+  "licencia": "CC BY 3.0",
+  "url": "https://laits.utexas.edu/tex/gr/adj6.html",
+  "otras": [
+   "Frases de Tatoeba (CC BY 2.0 FR)"
+  ]
+ },
+ "descripcion_larga_es": "El comparativo permite decir que algo es más, menos o igual que otra cosa: plus grand que, moins cher que, aussi vite que, autant de livres que. Es una estructura de uso diario, imprescindible para describir, argumentar y elegir. Al hispanohablante le cuestan el que obligatorio (nunca comme ni de), la diferencia entre aussi y autant y las formas irregulares meilleur y mieux.",
+ "contexto": {
+  "que_es": "El comparativo expresa superioridad (plus), inferioridad (moins) o igualdad (aussi, autant) entre dos términos. Con adjetivos y adverbios se usa plus, moins o aussi; con sustantivos, plus de, moins de, autant de; con verbos, plus, moins o autant detrás del verbo. El segundo término se introduce siempre con que, y bon y bien tienen formas irregulares: meilleur y mieux.",
+  "por_que_importa": "Comparar es constante en la conversación y en la argumentación escrita (precios, opciones, ventajas e inconvenientes), y es un contenido clásico de examen en nivel A2. Errores como plus bon, aussi… comme o meilleur con un verbo se notan de inmediato. Confundir meilleur y mieux puede incluso cambiar lo que se compara: una cosa o la manera de hacer algo.",
+  "cuando_se_usa": "Se usa siempre que se ponen dos elementos en relación: más alto que, tan rápido como, tanto como. Las señales son las palabras más, menos, tan, tanto, mejor y peor en la frase española. El hispanohablante tiende a calcar «tan… como» con aussi… comme y a decir plus bon por «más bueno»; en francés el segundo término lleva que y bueno da meilleur."
+ }
 }

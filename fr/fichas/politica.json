@@ -197,9 +197,9 @@
    "nota": "Dimitir = «démissionner», con «dé-» y doble «s» (como «démission»)."
   },
   {
-   "mal": "Selon une enquête d'opinion publiée hier, il gagne.",
-   "bien": "Selon un sondage publié hier, il gagne.",
-   "nota": "Una encuesta electoral es «un sondage»; «une enquête» es sobre todo una investigación."
+   "mal": "Les élections générales auront lieu en juin.",
+   "bien": "Les élections législatives auront lieu en juin.",
+   "nota": "Las elecciones generales españolas equivalen en Francia a «les élections législatives» (las que eligen la Asamblea Nacional); «élections générales» no se usa con ese sentido."
   },
   {
    "mal": "Les élections ont eu place en mai.",
@@ -216,7 +216,37 @@
    "respuestas": [
     "députés"
    ],
-   "explicacion": "Los miembros de la Asamblea Nacional son «les députés»."
+   "explicacion": "La ficha explica que el Parlamento francés tiene dos cámaras y que los miembros de l'Assemblée nationale son les députés (los del Senado son les sénateurs). La pista es precisamente Assemblée nationale. Député se escribe con é y con e en la primera sílaba, no con i como en español. Siéger significa «tener escaño» o «tener la sede», y aquí concuerda en plural con les députés.",
+   "explicacion_breve": "Los miembros de la Asamblea Nacional son «les députés».",
+   "traduccion": "Los diputados tienen su escaño en la Asamblea Nacional.",
+   "errores_previstos": [
+    {
+     "respuesta": "diputés",
+     "explicacion": "Es el calco del español «diputado», error recogido en la ficha. En francés es député, con e: députés."
+    },
+    {
+     "respuesta": "sénateurs",
+     "explicacion": "Los senadores se sientan en el Sénat, no en la Assemblée nationale: députés."
+    },
+    {
+     "respuesta": "deputés",
+     "explicacion": "Falta el acento agudo de la primera e: députés."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "un député",
+     "significado": "un diputado"
+    },
+    {
+     "palabra": "siéger",
+     "significado": "tener escaño, ocupar un asiento en una asamblea; tener la sede"
+    },
+    {
+     "palabra": "l'Assemblée nationale",
+     "significado": "la Asamblea Nacional, cámara baja del Parlamento francés"
+    }
+   ]
   },
   {
    "id": "e02",
@@ -226,7 +256,37 @@
    "respuestas": [
     "sondage"
    ],
-   "explicacion": "Encuesta electoral = «un sondage»."
+   "explicacion": "La ficha precisa que una encuesta electoral o de opinión es un sondage; enquête se usa sobre todo para una investigación (policial, periodística). La pista es el contexto: un porcentaje de votos atribuido a una candidata, típico de los sondeos. El artículo le exige además un sustantivo masculino, y sondage lo es. Obtiendrait está en condicional porque se trata de una estimación.",
+   "explicacion_breve": "Encuesta electoral = «un sondage».",
+   "traduccion": "Según la última encuesta, la candidata obtendría el 30 % de los votos.",
+   "errores_previstos": [
+    {
+     "respuesta": "enquête",
+     "explicacion": "Enquête es femenino (la dernière enquête) y se usa más para investigaciones. Para intención de voto se dice sondage."
+    },
+    {
+     "respuesta": "sondeo",
+     "explicacion": "Es la palabra española. En francés es sondage, terminado en -age."
+    },
+    {
+     "respuesta": "scrutin",
+     "explicacion": "Le scrutin es la votación misma, no la encuesta previa: le dernier sondage."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "un sondage",
+     "significado": "una encuesta, un sondeo (electoral o de opinión)"
+    },
+    {
+     "palabra": "les voix",
+     "significado": "los votos (literalmente, las voces)"
+    },
+    {
+     "palabra": "obtenir",
+     "significado": "obtener, conseguir"
+    }
+   ]
   },
   {
    "id": "e03",
@@ -236,7 +296,33 @@
    "respuestas": [
     "abstention"
    ],
-   "explicacion": "No ir a votar es «l'abstention»."
+   "explicacion": "No acudir a votar se llama l'abstention, tal como recoge la tabla de elecciones de la ficha. La primera parte de la frase da la definición (beaucoup d'électeurs ne sont pas allés voter). La palabra es femenina, de ahí très forte, y empieza por vocal, por eso el artículo aparece apostrofado: l'abstention. En francés se dice que la abstención es forte o élevée, no «alta».",
+   "explicacion_breve": "No ir a votar es «l'abstention».",
+   "traduccion": "Muchos electores no fueron a votar: la abstención fue muy alta.",
+   "errores_previstos": [
+    {
+     "respuesta": "absention",
+     "explicacion": "Falta la t de la raíz: abstention, como en español «abstención»."
+    },
+    {
+     "respuesta": "abstension",
+     "explicacion": "En francés se escribe con t: abstention."
+    },
+    {
+     "respuesta": "électeur",
+     "explicacion": "Électeur es el votante, masculino, y no encaja con très forte ni con el sentido: abstention."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "l'abstention",
+     "significado": "la abstención"
+    },
+    {
+     "palabra": "un électeur",
+     "significado": "un elector, un votante"
+    }
+   ]
   },
   {
    "id": "e04",
@@ -246,7 +332,33 @@
    "respuestas": [
     "ont eu"
    ],
-   "explicacion": "Pretérito: «ont eu lieu» (tuvieron lugar)."
+   "explicacion": "La ficha insiste en que «tener lugar» se dice avoir lieu, nunca avoir place. Aquí lieu ya está escrito y hay que conjugar avoir. Mars dernier sitúa el hecho en un pasado concluido, de modo que va en passé composé; con el sujeto plural les élections, el auxiliar es ont y el participio de avoir es eu: ont eu lieu.",
+   "explicacion_breve": "Pretérito: «ont eu lieu» (tuvieron lugar).",
+   "traduccion": "Las elecciones municipales tuvieron lugar el pasado marzo.",
+   "errores_previstos": [
+    {
+     "respuesta": "ont",
+     "explicacion": "Ont lieu sería presente (tienen lugar), y mars dernier exige pasado: ont eu lieu."
+    },
+    {
+     "respuesta": "a eu",
+     "explicacion": "El sujeto es plural (les élections): el auxiliar es ont."
+    },
+    {
+     "respuesta": "sont eu",
+     "explicacion": "Avoir se conjuga con avoir en el passé composé: ont eu."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "avoir lieu",
+     "significado": "tener lugar, celebrarse"
+    },
+    {
+     "palabra": "les élections municipales",
+     "significado": "las elecciones municipales"
+    }
+   ]
   },
   {
    "id": "e05",
@@ -261,7 +373,28 @@
    "respuestas": [
     "démission"
    ],
-   "explicacion": "Dimisión = «démission»."
+   "explicacion": "Dimisión se dice démission, y la ficha avisa de que lleva «dé-» y doble s, igual que el verbo démissionner. La expresión fija es présenter sa démission, presentar la dimisión. La pista es après le scandale, contexto típico de una renuncia política. Sa va en femenino porque démission es femenino.",
+   "explicacion_breve": "Dimisión = «démission».",
+   "traduccion": "Tras el escándalo, la ministra presentó su dimisión.",
+   "por_opcion": {
+    "démission": "Correcta: la dimisión, sustantivo femenino; présenter sa démission es la expresión habitual.",
+    "dimission": "Incorrecta: es el calco del español «dimisión». En francés empieza por dé-: démission.",
+    "démise": "Incorrecta: no existe con este sentido en francés. Démis (participio de démettre) significa destituido o, en medicina, dislocado."
+   },
+   "glosario": [
+    {
+     "palabra": "la démission",
+     "significado": "la dimisión"
+    },
+    {
+     "palabra": "le scandale",
+     "significado": "el escándalo"
+    },
+    {
+     "palabra": "présenter sa démission",
+     "significado": "presentar la dimisión"
+    }
+   ]
   },
   {
    "id": "e06",
@@ -276,7 +409,24 @@
    "respuestas": [
     "projet"
    ],
-   "explicacion": "Si lo presenta el gobierno es «projet de loi»; si lo presentan parlamentarios, «proposition de loi»."
+   "explicacion": "La ficha distingue un projet de loi, presentado por el gobierno, de une proposition de loi, presentada por parlamentarios, igual que en español «proyecto» y «proposición de ley». La pista es proposé par le gouvernement. Además, el artículo un exige un sustantivo masculino, lo que descarta proposition.",
+   "explicacion_breve": "Si lo presenta el gobierno es «projet de loi»; si lo presentan parlamentarios, «proposition de loi».",
+   "traduccion": "El texto propuesto por el gobierno se llama proyecto de ley.",
+   "por_opcion": {
+    "projet": "Correcta: un projet de loi es el texto de iniciativa gubernamental.",
+    "proposition": "Incorrecta: une proposition de loi es de iniciativa parlamentaria, y además es femenino, incompatible con un.",
+    "programme": "Incorrecta: un programme es un programa (electoral, de gobierno), no un texto legislativo."
+   },
+   "glosario": [
+    {
+     "palabra": "un projet de loi",
+     "significado": "un proyecto de ley (lo presenta el gobierno)"
+    },
+    {
+     "palabra": "une proposition de loi",
+     "significado": "una proposición de ley (la presentan los parlamentarios)"
+    }
+   ]
   },
   {
    "id": "e07",
@@ -291,7 +441,28 @@
    "respuestas": [
     "États"
    ],
-   "explicacion": "La expresión fija es «État membre»."
+   "explicacion": "La expresión fija de la Unión Europea es État membre, sin guion y con État en mayúscula cuando designa el Estado como entidad política. En plural ambos elementos llevan -s: les États membres. La pista es el contexto europeo (les vingt-sept, la directive). Aunque se hable de países, no se dice nations membres.",
+   "explicacion_breve": "La expresión fija es «État membre».",
+   "traduccion": "Los veintisiete Estados miembros deben aplicar la directiva.",
+   "por_opcion": {
+    "États": "Correcta: les États membres es la denominación oficial de los países de la Unión Europea.",
+    "nations": "Incorrecta: nation significa nación (pueblo, comunidad), pero la expresión fija es État membre.",
+    "provinces": "Incorrecta: une province es una división territorial dentro de un país, no un miembro de la UE."
+   },
+   "glosario": [
+    {
+     "palabra": "un État membre",
+     "significado": "un Estado miembro"
+    },
+    {
+     "palabra": "une directive",
+     "significado": "una directiva (norma europea)"
+    },
+    {
+     "palabra": "appliquer",
+     "significado": "aplicar"
+    }
+   ]
   },
   {
    "id": "e08",
@@ -306,7 +477,28 @@
    "respuestas": [
     "maire"
    ],
-   "explicacion": "La persona es «le maire»; «la mairie» es el ayuntamiento."
+   "explicacion": "La ficha distingue le maire (el alcalde, la persona) de la mairie (el ayuntamiento, edificio e institución). La pista es el artículo le y el verbo inaugurer, que pide una persona como sujeto. El contexto municipal (piscine municipale) descarta además al ministre. Le maire se usa también para una mujer, aunque hoy es corriente la maire.",
+   "explicacion_breve": "La persona es «le maire»; «la mairie» es el ayuntamiento.",
+   "traduccion": "El alcalde inauguró la nueva piscina municipal.",
+   "por_opcion": {
+    "maire": "Correcta: le maire es el alcalde, la persona que inaugura.",
+    "mairie": "Incorrecta: la mairie es el ayuntamiento; es femenino y no casa con le.",
+    "ministre": "Incorrecta: gramaticalmente posible, pero un ministro no inaugura una piscina municipal; es tarea del alcalde."
+   },
+   "glosario": [
+    {
+     "palabra": "le maire",
+     "significado": "el alcalde"
+    },
+    {
+     "palabra": "la mairie",
+     "significado": "el ayuntamiento"
+    },
+    {
+     "palabra": "inaugurer",
+     "significado": "inaugurar"
+    }
+   ]
   },
   {
    "id": "e09",
@@ -317,7 +509,41 @@
     "Le scrutin a eu lieu dans le calme.",
     "Le scrutin s'est déroulé dans le calme."
    ],
-   "explicacion": "Tener lugar = «avoir lieu»."
+   "explicacion": "La ficha recoge el calco «avoir place» como error típico: «tener lugar» es avoir lieu. Se acepta también se dérouler (transcurrir, desarrollarse), que la ficha usa en su ejemplo «le scrutin s'est déroulé dans le calme». Le scrutin es el término culto de prensa para la votación o los comicios.",
+   "explicacion_breve": "Tener lugar = «avoir lieu».",
+   "traduccion": "La votación transcurrió con normalidad (tuvo lugar con calma).",
+   "errores_previstos": [
+    {
+     "respuesta": "Le scrutin a eu place dans le calme.",
+     "explicacion": "Es la frase sin corregir: «tener lugar» se dice avoir lieu, no avoir place."
+    },
+    {
+     "respuesta": "Le scrutin a pris place dans le calme.",
+     "explicacion": "Prendre place significa sentarse o colocarse; para un acontecimiento se dice avoir lieu o se dérouler."
+    },
+    {
+     "respuesta": "Le scrutin a eu lieux dans le calme.",
+     "explicacion": "En la expresión avoir lieu, lieu va en singular y sin x."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "le scrutin",
+     "significado": "la votación, los comicios"
+    },
+    {
+     "palabra": "avoir lieu",
+     "significado": "tener lugar"
+    },
+    {
+     "palabra": "se dérouler",
+     "significado": "desarrollarse, transcurrir"
+    },
+    {
+     "palabra": "dans le calme",
+     "significado": "con calma, sin incidentes"
+    }
+   ]
   },
   {
    "id": "e10",
@@ -327,7 +553,37 @@
    "respuestas": [
     "Les députés de l'opposition ont quitté la séance."
    ],
-   "explicacion": "Diputado = «député»."
+   "explicacion": "Es el error de la ficha «diputés»: en francés diputado se dice député, con e y acento agudo. Quitter la séance significa abandonar la sesión parlamentaria, normalmente en señal de protesta. L'opposition, frente a la majorité, designa a los partidos que no apoyan al gobierno.",
+   "explicacion_breve": "Diputado = «député».",
+   "traduccion": "Los diputados de la oposición abandonaron la sesión.",
+   "errores_previstos": [
+    {
+     "respuesta": "Les diputés de l'opposition ont quitté la séance.",
+     "explicacion": "Es la frase sin corregir: diputado se dice député."
+    },
+    {
+     "respuesta": "Les deputés de l'opposition ont quitté la séance.",
+     "explicacion": "Falta el acento agudo: députés."
+    },
+    {
+     "respuesta": "Les députés de l'oposition ont quitté la séance.",
+     "explicacion": "Opposition se escribe con doble p en francés."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "un député",
+     "significado": "un diputado"
+    },
+    {
+     "palabra": "l'opposition",
+     "significado": "la oposición"
+    },
+    {
+     "palabra": "quitter la séance",
+     "significado": "abandonar la sesión"
+    }
+   ]
   },
   {
    "id": "e11",
@@ -338,7 +594,37 @@
     "La loi a été adoptée par le Sénat.",
     "La loi a été approuvée par le Sénat."
    ],
-   "explicacion": "Se escribe «approuvée» con dos p; para leyes lo más habitual es «adoptée»."
+   "explicacion": "El error es ortográfico: approuver lleva doble p en francés, así que approuvée. Pero la ficha señala que, para las leyes, el verbo más habitual es adopter (adopter une loi, aprobar una ley), y por eso se aceptan las dos correcciones. El participio concuerda en femenino con la loi porque es una pasiva con être.",
+   "explicacion_breve": "Se escribe «approuvée» con dos p; para leyes lo más habitual es «adoptée».",
+   "traduccion": "La ley fue aprobada por el Senado.",
+   "errores_previstos": [
+    {
+     "respuesta": "La loi a été aprouvée par le Sénat.",
+     "explicacion": "Es la frase sin corregir: approuvée se escribe con doble p."
+    },
+    {
+     "respuesta": "La loi a été approuvé par le Sénat.",
+     "explicacion": "En la pasiva el participio concuerda con el sujeto la loi: approuvée."
+    },
+    {
+     "respuesta": "La loi a été aprobée par le Sénat.",
+     "explicacion": "Es un calco del español «aprobar». En francés es approuver o, mejor, adopter."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "adopter une loi",
+     "significado": "aprobar una ley"
+    },
+    {
+     "palabra": "approuver",
+     "significado": "aprobar, dar el visto bueno"
+    },
+    {
+     "palabra": "le Sénat",
+     "significado": "el Senado"
+    }
+   ]
   },
   {
    "id": "e12",
@@ -354,7 +640,33 @@
    "respuestas": [
     "la campagne électorale a commencé"
    ],
-   "explicacion": "Sujeto + passé composé; el adjetivo «électorale» va detrás."
+   "explicacion": "El orden es sujeto + verbo en passé composé: la campagne électorale a commencé. Como indica la explicación de la ficha, el adjetivo électorale va detrás del sustantivo, igual que en español, y concuerda en femenino con campagne. Commencer se conjuga con avoir. Une campagne électorale es el periodo en que los candidatos piden el voto.",
+   "explicacion_breve": "Sujeto + passé composé; el adjetivo «électorale» va detrás.",
+   "traduccion": "La campaña electoral ha empezado.",
+   "errores_previstos": [
+    {
+     "respuesta": "La électorale campagne a commencé",
+     "explicacion": "Los adjetivos de relación como électorale van detrás del nombre: la campagne électorale."
+    },
+    {
+     "respuesta": "La campagne électorale commencé a",
+     "explicacion": "El auxiliar va delante del participio: a commencé."
+    },
+    {
+     "respuesta": "A commencé la campagne électorale",
+     "explicacion": "Calca el orden español «ha empezado la campaña». En francés el sujeto va delante del verbo."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "une campagne électorale",
+     "significado": "una campaña electoral"
+    },
+    {
+     "palabra": "commencer",
+     "significado": "empezar, comenzar"
+    }
+   ]
   },
   {
    "id": "e13",
@@ -364,7 +676,33 @@
    "respuestas": [
     "siège"
    ],
-   "explicacion": "Tener su sede = «siéger»."
+   "explicacion": "Tener la sede o reunirse oficialmente en un lugar se dice siéger, el mismo verbo que se usa para los escaños. La ficha lo emplea en el ejemplo «Le Parlement européen siège à Strasbourg». En presente, con il, la é de la raíz pasa a è porque la sílaba siguiente es muda: il siège.",
+   "explicacion_breve": "Tener su sede = «siéger».",
+   "traduccion": "El Parlamento Europeo tiene su sede en Estrasburgo.",
+   "errores_previstos": [
+    {
+     "respuesta": "siége",
+     "explicacion": "Ante sílaba muda, la e de siéger lleva acento grave: siège."
+    },
+    {
+     "respuesta": "sied",
+     "explicacion": "Sied es una forma de seoir (sentar bien, convenir), un verbo distinto. Tener la sede es siéger: il siège."
+    },
+    {
+     "respuesta": "siéger",
+     "explicacion": "El verbo debe ir conjugado con le Parlement européen: siège."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "siéger",
+     "significado": "tener la sede, reunirse oficialmente; ocupar un escaño"
+    },
+    {
+     "palabra": "le Parlement européen",
+     "significado": "el Parlamento Europeo"
+    }
+   ]
   },
   {
    "id": "e14",
@@ -379,10 +717,33 @@
    "respuestas": [
     "majorité"
    ],
-   "explicacion": "Mayoría absoluta = «majorité absolue»."
+   "explicacion": "La ficha opone la majorité (la mayoría, quien apoya al gobierno) a l'opposition. La expresión fija es la majorité absolue, mayoría absoluta. La pista es la segunda parte de la frase: si tiene que buscar aliados es porque le falta mayoría para gobernar en solitario.",
+   "explicacion_breve": "Mayoría absoluta = «majorité absolue».",
+   "traduccion": "El gobierno no tiene la mayoría absoluta y debe buscar aliados.",
+   "por_opcion": {
+    "majorité": "Correcta: la majorité absolue es la mayoría absoluta; sin ella el gobierno necesita aliados.",
+    "opposition": "Incorrecta: la oposición no es algo que el gobierno tenga; además, opposition absolue no es una expresión fija.",
+    "minorité": "Incorrecta: no tener la minoría absoluta no tiene sentido; lo que falta para gobernar es la mayoría."
+   },
+   "glosario": [
+    {
+     "palabra": "la majorité absolue",
+     "significado": "la mayoría absoluta"
+    },
+    {
+     "palabra": "un allié",
+     "significado": "un aliado"
+    }
+   ]
   }
  ],
  "fuente": {
   "nombre": "propia"
+ },
+ "descripcion_larga_es": "Vocabulario de nivel B2 para hablar de la vida política y de las instituciones francesas y europeas: gobierno y ministerios, Asamblea Nacional y Senado, elecciones, encuestas, partidos y Unión Europea. Es imprescindible para leer prensa y comentar la actualidad, algo habitual en un examen oral. Al hispanohablante le traicionan las palabras casi iguales (diputado, dimitir, aprobar) y expresiones como avoir lieu o sondage.",
+ "contexto": {
+  "que_es": "Es el léxico de las instituciones políticas y de los procesos electorales: quién gobierna (le gouvernement, le Premier ministre, les ministres), quién legisla (l'Assemblée nationale, le Sénat, les députés), cómo se vota (le scrutin, l'abstention, le sondage) y cómo funciona la Unión Europea (la Commission, le Parlement européen, les États membres).",
+  "por_que_importa": "La política y la economía ocupan buena parte de la prensa francófona y de los temas de conversación en un examen oral de nivel avanzado. Usar el término exacto (projet de loi frente a proposition de loi, sondage frente a enquête) da precisión y credibilidad. Los calcos del español («diputé», «dimissionner», «avoir place») se notan inmediatamente y restan nivel.",
+  "cuando_se_usa": "Al leer o comentar noticias sobre elecciones, reformas, debates parlamentarios o cumbres europeas, y en cualquier exposición sobre política económica. Las señales son los contextos institucionales y electorales. El hispanohablante tiende a afrancesar la palabra española (diputado → «diputé»); conviene aprender cada término con su ortografía francesa y con las expresiones fijas que lo acompañan (avoir lieu, adopter une loi, État membre)."
  }
 }

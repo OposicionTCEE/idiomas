@@ -206,7 +206,37 @@
    "respuestas": [
     "soixante-dix"
    ],
-   "explicacion": "70 = soixante-dix (60 + 10)."
+   "explicacion": "Se aplica la regla de los números del 70 al 99 que ves al principio de la ficha: en francés de Francia no existe una palabra propia para 70, sino que se suma 60 + 10. Por eso 70 se dice soixante-dix, con guion entre las dos partes. El paréntesis (70) es la única pista: hay que escribirlo en letras. La forma septante existe, pero es propia de Bélgica y Suiza.",
+   "explicacion_breve": "70 = soixante-dix (60 + 10).",
+   "traduccion": "Hay setenta estudiantes en el aula magna.",
+   "errores_previstos": [
+    {
+     "respuesta": "septante",
+     "explicacion": "Septante se usa en Bélgica y Suiza, pero en el francés de Francia que trabaja la ficha 70 es soixante-dix."
+    },
+    {
+     "respuesta": "soixante dix",
+     "explicacion": "Falta el guion: los números compuestos menores de 100 que no llevan et se unen con guion (soixante-dix)."
+    },
+    {
+     "respuesta": "soixante-et-dix",
+     "explicacion": "Solo 71 lleva et (soixante et onze); 70 es simplemente soixante-dix."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "soixante-dix",
+     "significado": "setenta"
+    },
+    {
+     "palabra": "l'amphi (amphithéâtre)",
+     "significado": "el aula magna, el anfiteatro de la universidad"
+    },
+    {
+     "palabra": "il y a",
+     "significado": "hay"
+    }
+   ]
   },
   {
    "id": "e02",
@@ -216,7 +246,33 @@
    "respuestas": [
     "quatre-vingts"
    ],
-   "explicacion": "80 = quatre-vingts, con -s porque no le sigue otro número."
+   "explicacion": "Es la regla de 80 de la tabla: ochenta se dice «cuatro veintes», quatre-vingts. La -s final de vingts aparece porque vingt está multiplicado (4 × 20) y no le sigue ningún otro número. En cuanto se añade algo detrás, la -s desaparece: quatre-vingt-un, quatre-vingt-dix. Aquí la frase termina en euros, que no es un número, así que la -s se mantiene.",
+   "explicacion_breve": "80 = quatre-vingts, con -s porque no le sigue otro número.",
+   "traduccion": "Tengo ochenta euros.",
+   "errores_previstos": [
+    {
+     "respuesta": "quatre-vingt",
+     "explicacion": "Sin -s es incorrecto cuando 80 va solo: la regla exige quatre-vingts si no le sigue otro número."
+    },
+    {
+     "respuesta": "huitante",
+     "explicacion": "Huitante se oye en algunas zonas de Suiza, pero no en Francia; la ficha pide quatre-vingts."
+    },
+    {
+     "respuesta": "quatre vingts",
+     "explicacion": "Falta el guion entre quatre y vingts."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "quatre-vingts",
+     "significado": "ochenta"
+    },
+    {
+     "palabra": "euro",
+     "significado": "euro"
+    }
+   ]
   },
   {
    "id": "e03",
@@ -226,7 +282,37 @@
    "respuestas": [
     "quatre-vingt-onze"
    ],
-   "explicacion": "91 = 80 + 11: quatre-vingt-onze, sin -s."
+   "explicacion": "Se aplica la regla de los números de 80 a 99 de la tabla: 91 es 80 + 11, es decir, quatre-vingt-onze. Como a vingt le sigue otro número, pierde la -s de quatre-vingts. Además, a diferencia de 21, 31… 71, aquí no se pone et: después de 80 todos los compuestos van solo con guiones. Fíjate también en que la edad en francés se dice con avoir: il a quatre-vingt-onze ans.",
+   "explicacion_breve": "91 = 80 + 11: quatre-vingt-onze, sin -s.",
+   "traduccion": "Mi abuelo tiene noventa y un años.",
+   "errores_previstos": [
+    {
+     "respuesta": "quatre-vingts-onze",
+     "explicacion": "Vingts pierde la -s cuando le sigue otro número: quatre-vingt-onze."
+    },
+    {
+     "respuesta": "quatre-vingt-et-onze",
+     "explicacion": "Por analogía con soixante et onze se pone et, pero a partir de 80 los compuestos no lo llevan."
+    },
+    {
+     "respuesta": "nonante et un",
+     "explicacion": "Nonante es belga o suizo; en Francia 91 es quatre-vingt-onze."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "quatre-vingt-onze",
+     "significado": "noventa y uno"
+    },
+    {
+     "palabra": "grand-père",
+     "significado": "abuelo"
+    },
+    {
+     "palabra": "avoir … ans",
+     "significado": "tener … años"
+    }
+   ]
   },
   {
    "id": "e04",
@@ -237,7 +323,33 @@
     "vingt et un",
     "vingt-et-un"
    ],
-   "explicacion": "21, 31, 41, 51, 61 y 71 llevan et."
+   "explicacion": "Es la regla de et un que aparece al principio de la ficha: 21, 31, 41, 51, 61 (y 71) se forman con et y sin guiones: vingt et un. El resto de compuestos usa guion (vingt-deux). Se acepta también vingt-et-un porque la reforma ortográfica de 1990 permite unir con guiones todos los numerales compuestos; la forma tradicional sigue siendo vingt et un.",
+   "explicacion_breve": "21, 31, 41, 51, 61 y 71 llevan et.",
+   "traduccion": "Hay veintiún días de clase.",
+   "errores_previstos": [
+    {
+     "respuesta": "vingt-un",
+     "explicacion": "Calco del modelo vingt-deux: 21 lleva et (vingt et un), no un simple guion."
+    },
+    {
+     "respuesta": "vingt et une",
+     "explicacion": "Un pasa a une solo ante un nombre femenino; jours es masculino, así que es vingt et un."
+    },
+    {
+     "respuesta": "vingtun",
+     "explicacion": "Las dos palabras no se funden: se escribe vingt et un."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "vingt et un",
+     "significado": "veintiuno"
+    },
+    {
+     "palabra": "jour de cours",
+     "significado": "día de clase"
+    }
+   ]
   },
   {
    "id": "e05",
@@ -252,7 +364,24 @@
    "respuestas": [
     "premier"
    ],
-   "explicacion": "El día 1 se dice con el ordinal masculino premier."
+   "explicacion": "Se aplica la regla de las fechas que ves en la lista: la fecha se dice con le + número cardinal (le deux janvier), salvo el día 1, que usa el ordinal premier. La pista es el artículo le y el mes janvier. Premier va en masculino porque concuerda con jour, implícito, y con el artículo le; no se dice «le un janvier» como calco de «el uno de enero».",
+   "explicacion_breve": "El día 1 se dice con el ordinal masculino premier.",
+   "traduccion": "El uno de enero es día festivo.",
+   "por_opcion": {
+    "premier": "Correcta: el primer día del mes siempre se dice con el ordinal masculino premier (le premier janvier, también escrito le 1er janvier).",
+    "un": "Incorrecta: es el calco del español «el uno de enero». En francés el cardinal solo sirve del día 2 en adelante.",
+    "première": "Incorrecta: es el femenino de premier. Con fechas se usa el masculino porque va con le (le jour); première iría con un nombre femenino, como la première fois."
+   },
+   "glosario": [
+    {
+     "palabra": "le premier janvier",
+     "significado": "el uno de enero"
+    },
+    {
+     "palabra": "jour férié",
+     "significado": "día festivo"
+    }
+   ]
   },
   {
    "id": "e06",
@@ -267,7 +396,28 @@
    "respuestas": [
     "midi et demi"
    ],
-   "explicacion": "Las 12 del mediodía es midi; minuit es medianoche."
+   "explicacion": "Entra la tabla de la hora: las doce del mediodía es midi y las doce de la noche es minuit, y ninguna se dice con douze heures en la lengua corriente. La media hora se dice et demi o et demie: tras midi y minuit, que son masculinos, se escribe demi; tras heures, femenino, demie. El enunciado aclara que es mediodía, así que la respuesta es midi et demi.",
+   "explicacion_breve": "Las 12 del mediodía es midi; minuit es medianoche.",
+   "traduccion": "Son las doce y media (del mediodía).",
+   "por_opcion": {
+    "midi et demi": "Correcta: midi son las doce del mediodía y, como midi es masculino, la media se escribe demi, sin -e.",
+    "minuit et demi": "Incorrecta en esta frase: minuit es medianoche, así que serían las 0:30, no las 12:30 del mediodía.",
+    "douze et demie": "Incorrecta: falta la palabra heures y, en cualquier caso, a las 12 del mediodía se dice midi. Douze heures trente solo se oye en horarios oficiales."
+   },
+   "glosario": [
+    {
+     "palabra": "midi",
+     "significado": "las doce del mediodía"
+    },
+    {
+     "palabra": "minuit",
+     "significado": "medianoche"
+    },
+    {
+     "palabra": "et demi / et demie",
+     "significado": "y media"
+    }
+   ]
   },
   {
    "id": "e07",
@@ -282,7 +432,28 @@
    "respuestas": [
     "Le dimanche"
    ],
-   "explicacion": "Le + día expresa costumbre; sin artículo es un día concreto."
+   "explicacion": "Se aplica la regla de los días de la semana de la lista: con artículo (le dimanche) el día expresa una costumbre, «los domingos»; sin artículo (dimanche) se refiere a un domingo concreto, «el domingo». El enunciado pide «los domingos» y el presente déjeune describe un hábito, por eso va le dimanche. Ojo: el español usa el artículo justo para el caso contrario («el domingo» concreto).",
+   "explicacion_breve": "Le + día expresa costumbre; sin artículo es un día concreto.",
+   "traduccion": "Los domingos como en casa de mis padres.",
+   "por_opcion": {
+    "Le dimanche": "Correcta: le + día expresa repetición, «los domingos», «cada domingo».",
+    "Dimanche": "Incorrecta aquí: sin artículo significa un domingo concreto, «el domingo (que viene o pasado)», no la costumbre.",
+    "En dimanche": "Incorrecta: los días de la semana no llevan la preposición en; en se usa con meses y años (en mai, en 2025)."
+   },
+   "glosario": [
+    {
+     "palabra": "le dimanche",
+     "significado": "los domingos"
+    },
+    {
+     "palabra": "déjeuner",
+     "significado": "comer, almorzar (la comida del mediodía)"
+    },
+    {
+     "palabra": "chez mes parents",
+     "significado": "en casa de mis padres"
+    }
+   ]
   },
   {
    "id": "e08",
@@ -297,7 +468,24 @@
    "respuestas": [
     "en"
    ],
-   "explicacion": "Con años se usa en."
+   "explicacion": "La tabla de expresiones indica que con los años se usa en: en 2025, je suis né en 1995. La pista es el número 1998, que es un año. Con meses también vale en (en mai) o au mois de (au mois de juin). À se reserva para la hora (à dix heures) y le para las fechas con día (le 3 octobre).",
+   "explicacion_breve": "Con años se usa en.",
+   "traduccion": "Nací en 1998.",
+   "por_opcion": {
+    "en": "Correcta: los años se introducen con en, igual que los meses.",
+    "à": "Incorrecta: à sirve para la hora (à midi) y para ciudades, no para años.",
+    "le": "Incorrecta: le acompaña a una fecha con día (le 14 juillet 1998), no a un año solo."
+   },
+   "glosario": [
+    {
+     "palabra": "je suis né(e)",
+     "significado": "nací"
+    },
+    {
+     "palabra": "en + año",
+     "significado": "en + año"
+    }
+   ]
   },
   {
    "id": "e09",
@@ -307,7 +495,33 @@
    "respuestas": [
     "heure"
    ],
-   "explicacion": "Quelle heure est-il ? es la pregunta estándar."
+   "explicacion": "Es la fórmula fija de la tabla de expresiones: Quelle heure est-il ? La pista es quelle, que concuerda en femenino singular con heure. Se usa el sujeto impersonal il, el mismo de la respuesta (Il est trois heures), y la inversión est-il porque es una pregunta de registro estándar. No se dice «quel temps» (que pregunta por el tiempo atmosférico).",
+   "explicacion_breve": "Quelle heure est-il ? es la pregunta estándar.",
+   "traduccion": "¿Qué hora es?",
+   "errores_previstos": [
+    {
+     "respuesta": "heures",
+     "explicacion": "La pregunta va en singular, igual que en español «¿qué hora es?»: quelle heure."
+    },
+    {
+     "respuesta": "temps",
+     "explicacion": "Quel temps fait-il ? pregunta por el tiempo atmosférico; además, quelle está en femenino y temps es masculino."
+    },
+    {
+     "respuesta": "hora",
+     "explicacion": "Es la palabra española; en francés es heure, con h muda."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "heure",
+     "significado": "hora"
+    },
+    {
+     "palabra": "Quelle heure est-il ?",
+     "significado": "¿Qué hora es?"
+    }
+   ]
   },
   {
    "id": "e10",
@@ -318,7 +532,37 @@
     "deux cents",
     "deux-cents"
    ],
-   "explicacion": "Cent lleva -s cuando se multiplica y no le sigue otro número."
+   "explicacion": "Es la regla de cent de la tabla: cent lleva -s cuando está multiplicado (deux cents, trois cents) y no le sigue otro número. En deux cents euros se cumplen las dos condiciones, así que lleva -s. Si dijéramos 201 sería deux cent un, sin -s. Se acepta también deux-cents porque la reforma ortográfica de 1990 permite unir todos los numerales con guion.",
+   "explicacion_breve": "Cent lleva -s cuando se multiplica y no le sigue otro número.",
+   "traduccion": "La habitación cuesta doscientos euros.",
+   "errores_previstos": [
+    {
+     "respuesta": "deux cent",
+     "explicacion": "Falta la -s: cent multiplicado y sin otro número detrás se escribe cents."
+    },
+    {
+     "respuesta": "deux centaines",
+     "explicacion": "Une centaine significa «unos cien», una cantidad aproximada; el precio exacto es deux cents."
+    },
+    {
+     "respuesta": "doscents",
+     "explicacion": "Mezcla el español «doscientos» con el francés; se escribe en dos palabras: deux cents."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "deux cents",
+     "significado": "doscientos"
+    },
+    {
+     "palabra": "chambre",
+     "significado": "habitación (de hotel o de casa)"
+    },
+    {
+     "palabra": "coûter",
+     "significado": "costar"
+    }
+   ]
   },
   {
    "id": "e11",
@@ -328,7 +572,29 @@
    "respuestas": [
     "Il est cinq heures."
    ],
-   "explicacion": "La hora no lleva artículo."
+   "explicacion": "El error es el calco del español «son las cinco». Según la ficha (errores típicos y tabla de la hora), en francés la hora se dice con il est + número + heures, sin artículo: Il est cinq heures. El verbo va en singular (il est) aunque sean varias horas, porque il es un sujeto impersonal. Basta con quitar les.",
+   "explicacion_breve": "La hora no lleva artículo.",
+   "traduccion": "Son las cinco.",
+   "errores_previstos": [
+    {
+     "respuesta": "Il est les cinq heures.",
+     "explicacion": "Es la frase sin corregir: la hora no lleva artículo en francés."
+    },
+    {
+     "respuesta": "Ils sont cinq heures.",
+     "explicacion": "Calco de «son las cinco»: el sujeto es el impersonal il y el verbo va en singular."
+    },
+    {
+     "respuesta": "Il est les cinq.",
+     "explicacion": "Mantiene el artículo y además suprime heures, que en francés no se omite."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "il est cinq heures",
+     "significado": "son las cinco"
+    }
+   ]
   },
   {
    "id": "e12",
@@ -339,7 +605,33 @@
     "Nous sommes le premier juin.",
     "Nous sommes le 1er juin."
    ],
-   "explicacion": "El día 1 se dice premier."
+   "explicacion": "Se aplica la regla de las fechas: el día 1 se dice con el ordinal premier, no con el cardinal un. La fórmula Nous sommes le… sirve para decir la fecha del día («estamos a…»). Por eso la corrección es Nous sommes le premier juin, que en cifras se escribe le 1er juin; ambas formas se aceptan. Del 2 en adelante sí se usa el cardinal: le deux juin.",
+   "explicacion_breve": "El día 1 se dice premier.",
+   "traduccion": "Estamos a uno de junio.",
+   "errores_previstos": [
+    {
+     "respuesta": "Nous sommes le un juin.",
+     "explicacion": "Es la frase sin corregir: el día 1 no se dice un sino premier."
+    },
+    {
+     "respuesta": "Nous sommes le première juin.",
+     "explicacion": "Première es femenino; con fechas se usa el masculino premier."
+    },
+    {
+     "respuesta": "Nous sommes premier juin.",
+     "explicacion": "Falta el artículo le, obligatorio en la fecha: le premier juin."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "Nous sommes le…",
+     "significado": "Estamos a… (para decir la fecha)"
+    },
+    {
+     "palabra": "juin",
+     "significado": "junio"
+    }
+   ]
   },
   {
    "id": "e13",
@@ -356,7 +648,29 @@
    "respuestas": [
     "Le train part à dix heures"
    ],
-   "explicacion": "Sujeto + verbo + à + hora."
+   "explicacion": "Es el orden de la frase francesa: sujeto (le train) + verbo (part) + à + hora (dix heures). La tabla de expresiones y los ejemplos muestran que la hora a la que ocurre algo se introduce con à, igual que en español «a las diez», pero sin artículo. El número va delante de heures, como siempre en la hora.",
+   "explicacion_breve": "Sujeto + verbo + à + hora.",
+   "traduccion": "El tren sale a las diez.",
+   "errores_previstos": [
+    {
+     "respuesta": "Le train part dix à heures",
+     "explicacion": "La preposición à va delante de toda la hora: à dix heures."
+    },
+    {
+     "respuesta": "Part le train à dix heures",
+     "explicacion": "Calco de «sale el tren a las diez»: en una frase afirmativa francesa el sujeto va delante del verbo."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "partir",
+     "significado": "salir, marcharse"
+    },
+    {
+     "palabra": "à dix heures",
+     "significado": "a las diez"
+    }
+   ]
   },
   {
    "id": "e14",
@@ -368,9 +682,32 @@
     "Ça"
    ],
    "respuestas": [
-    "Ça coûte combien"
+    "Ça coûte combien",
+    "Combien ça coûte"
    ],
-   "explicacion": "En la lengua hablada combien puede ir al final."
+   "explicacion": "La tabla de expresiones recoge Ça coûte combien ? y C'est combien ? para preguntar el precio. En la lengua hablada el interrogativo combien puede quedarse al final, en la posición del complemento, con la entonación ascendente que marca la pregunta: Ça coûte combien ? También es correcto ponerlo al principio, Combien ça coûte ?, igual de frecuente en la conversación; por eso se aceptan los dos órdenes. La versión más formal, con inversión, sería Combien cela coûte-t-il ?",
+   "explicacion_breve": "En la lengua hablada combien puede ir al final.",
+   "traduccion": "¿Cuánto cuesta?",
+   "errores_previstos": [
+    {
+     "respuesta": "Ça combien coûte",
+     "explicacion": "Combien no puede ir entre el sujeto y el verbo: o va al principio (Combien ça coûte ?) o, en la lengua hablada, al final (Ça coûte combien ?)."
+    },
+    {
+     "respuesta": "Coûte combien ça",
+     "explicacion": "Calco del español «¿cuesta cuánto eso?»: el sujeto ça va delante del verbo."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "Ça coûte combien ?",
+     "significado": "¿Cuánto cuesta?"
+    },
+    {
+     "palabra": "ça",
+     "significado": "eso, esto (pronombre coloquial)"
+    }
+   ]
   },
   {
    "id": "e15",
@@ -385,10 +722,33 @@
    "respuestas": [
     "sept heures moins le quart"
    ],
-   "explicacion": "6:45 = las siete menos cuarto (también six heures quarante-cinq)."
+   "explicacion": "Se aplica la tabla de la hora: en francés, como en español, a partir de la media se cuenta hacia la hora siguiente con moins (menos). Las 6:45 son «las siete menos cuarto», sept heures moins le quart; fíjate en que con moins se dice le quart, con artículo, y con et se dice et quart. También sería correcto six heures quarante-cinq, sobre todo en horarios.",
+   "explicacion_breve": "6:45 = las siete menos cuarto (también six heures quarante-cinq).",
+   "traduccion": "Son las siete menos cuarto.",
+   "por_opcion": {
+    "sept heures moins le quart": "Correcta: 7 − 0:15 = 6:45, igual que «las siete menos cuarto».",
+    "six heures moins le quart": "Incorrecta: serían las 5:45, las seis menos cuarto.",
+    "six heures et quart": "Incorrecta: son las 6:15, las seis y cuarto."
+   },
+   "glosario": [
+    {
+     "palabra": "moins le quart",
+     "significado": "menos cuarto"
+    },
+    {
+     "palabra": "et quart",
+     "significado": "y cuarto"
+    }
+   ]
   }
  ],
  "fuente": {
   "nombre": "propia"
+ },
+ "descripcion_larga_es": "Esta ficha reúne los números, los días, los meses, la fecha, la hora y los precios en francés. Son palabras que se usan a diario en cualquier conversación, en una tienda o al concertar una cita. Para un hispanohablante la dificultad está en los números del 70 al 99, que se construyen sumando o multiplicando (soixante-dix, quatre-vingts), y en detalles como «le premier mai» o la hora sin artículo.",
+ "contexto": {
+  "que_es": "Es el vocabulario básico para contar y situarse en el tiempo: los números cardinales, los días de la semana, los meses, la fórmula de la fecha (le + número + mes), la de la hora (il est + número + heures) y la manera de decir precios. En francés de Francia los números del 70 al 99 se forman en base veinte: 70 es 60 + 10 y 80 es 4 × 20.",
+  "por_que_importa": "Números, fechas y horas aparecen en casi cualquier intercambio práctico: una reserva, un horario de tren, un precio o un año. Un error aquí no es solo de forma: confundir soixante-dix con soixante-douze, o «midi» con «minuit», cambia el dato y provoca malentendidos reales. En un examen oral se nota mucho que el candidato dude al decir un año o una cifra.",
+  "cuando_se_usa": "Siempre que haya que dar una cantidad, una edad, un precio, una fecha o una hora. Las señales son preguntas como Quelle heure est-il ?, Ça coûte combien ? o Nous sommes le combien ? El hispanohablante tiende a calcar el español: poner artículo a la hora («il est les trois heures»), decir «le un mai» o usar «à» con los años; en francés se dice il est trois heures, le premier mai y en 1998."
  }
 }

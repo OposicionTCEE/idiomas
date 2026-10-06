@@ -64,7 +64,7 @@
      "Le TGV part de la voie 7."
     ],
     [
-     "composter / valider son billet",
+     "valider son billet (composter, hoy casi en desuso)",
      "validar el billete",
      "N'oubliez pas de valider votre billet."
     ]
@@ -99,9 +99,9 @@
      "Laissez la clé à la réception."
     ],
     [
-     "arriver / quitter la chambre",
-     "hacer el check-in / el check-out",
-     "Il faut quitter la chambre avant midi."
+     "l'arrivée / le départ ; libérer la chambre",
+     "la entrada (check-in) / la salida (check-out); dejar libre la habitación",
+     "Il faut libérer la chambre avant midi."
     ],
     [
      "une auberge de jeunesse / un gîte",
@@ -130,7 +130,7 @@
    "items": [
     "Rater y manquer significan perder un medio de transporte; perdre se usa para objetos (perdre ses clés).",
     "Compris(e) = incluido: le service est compris.",
-    "Con países femeninos se dice en (en France, en Italie); con masculinos, au (au Portugal, au Maroc); con plurales, aux (aux États-Unis)."
+    "Con países femeninos se dice en (en France, en Italie); con masculinos, au (au Portugal, au Maroc), salvo si empiezan por vocal, que llevan en (en Iran, en Afghanistan); con plurales, aux (aux États-Unis)."
    ]
   }
  ],
@@ -191,7 +191,33 @@
    "respuestas": [
     "en"
    ],
-   "explicacion": "Italie es femenino: en Italie."
+   "explicacion": "Se aplica la regla de la lista de la ficha: con países femeninos se usa en, con masculinos au y con plurales aux, tanto para ir como para estar. La pista es el nombre Italie, que es femenino (la mayoría de países terminados en -e lo son). Por eso se dice «nous allons en Italie», sin artículo. El español usa siempre «a», lo que empuja al calco «à l'Italie».",
+   "explicacion_breve": "Italie es femenino: en Italie.",
+   "traduccion": "El verano que viene vamos a Italia.",
+   "errores_previstos": [
+    {
+     "respuesta": "à l'",
+     "explicacion": "Es el calco de «a Italia». Con países femeninos no se usa à + artículo sino en: en Italie."
+    },
+    {
+     "respuesta": "au",
+     "explicacion": "Au es para países masculinos (au Portugal). Italie es femenino: en Italie."
+    },
+    {
+     "respuesta": "à",
+     "explicacion": "À se usa con ciudades (à Rome), no con países. Para un país femenino, en."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "l'été prochain",
+     "significado": "el verano que viene"
+    },
+    {
+     "palabra": "aller en + país femenino",
+     "significado": "ir a un país (Italie, France, Espagne)"
+    }
+   ]
   },
   {
    "id": "e02",
@@ -201,7 +227,33 @@
    "respuestas": [
     "au"
    ],
-   "explicacion": "Canada es masculino: au Canada."
+   "explicacion": "Se aplica la misma regla de los países: con masculinos se usa au, que es la contracción de à + le. La pista es Canada, que es masculino (le Canada) porque no termina en -e. Por eso se dice «il habite au Canada». La preposición es la misma para el lugar donde se está (habiter) y para el lugar adonde se va (aller).",
+   "explicacion_breve": "Canada es masculino: au Canada.",
+   "traduccion": "Mi primo vive en Canadá.",
+   "errores_previstos": [
+    {
+     "respuesta": "en",
+     "explicacion": "En es para países femeninos o que empiezan por vocal. Canada es masculino y empieza por consonante: au Canada."
+    },
+    {
+     "respuesta": "à le",
+     "explicacion": "À + le se contrae siempre en au. Nunca se escribe à le."
+    },
+    {
+     "respuesta": "à",
+     "explicacion": "À sin artículo se usa con ciudades (à Montréal). Con un país masculino, au."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "le cousin",
+     "significado": "el primo"
+    },
+    {
+     "palabra": "habiter",
+     "significado": "vivir, residir"
+    }
+   ]
   },
   {
    "id": "e03",
@@ -211,7 +263,33 @@
    "respuestas": [
     "aux"
    ],
-   "explicacion": "Plural: aux États-Unis."
+   "explicacion": "Se aplica la última parte de la regla de los países: con nombres en plural se usa aux, contracción de à + les. La pista es États-Unis, que en francés es plural (les États-Unis) y lleva artículo, al contrario que «Estados Unidos» en el uso español frecuente. Por eso se dice «elle part aux États-Unis», con enlace: aux‿États se pronuncia con z.",
+   "explicacion_breve": "Plural: aux États-Unis.",
+   "traduccion": "Se va a Estados Unidos.",
+   "errores_previstos": [
+    {
+     "respuesta": "en",
+     "explicacion": "En es para países femeninos singulares. États-Unis es plural: aux États-Unis."
+    },
+    {
+     "respuesta": "au",
+     "explicacion": "Au sirve para un país masculino singular. Con un plural, aux."
+    },
+    {
+     "respuesta": "à les",
+     "explicacion": "À + les se contrae obligatoriamente en aux."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "partir",
+     "significado": "irse, salir de viaje"
+    },
+    {
+     "palabra": "les États-Unis",
+     "significado": "Estados Unidos (plural en francés)"
+    }
+   ]
   },
   {
    "id": "e04",
@@ -219,9 +297,40 @@
    "enunciado": "Completa: «de ida y vuelta».",
    "frase": "Un billet ___ pour Bordeaux, s'il vous plaît.",
    "respuestas": [
-    "aller-retour"
+    "aller-retour",
+    "aller retour"
    ],
-   "explicacion": "Ida y vuelta = aller-retour."
+   "explicacion": "Se aplica la tabla de transporte: un billete de ida es un aller simple y uno de ida y vuelta, un aller-retour. La pista es el propio enunciado, que pide «de ida y vuelta», y la fórmula de taquilla «un billet … pour + ciudad». La expresión se escribe normalmente con guion (también se acepta «aller retour» sin él) y funciona como sustantivo: también se puede pedir solo «un aller-retour pour Bordeaux». Literalmente significa «ir-volver».",
+   "explicacion_breve": "Ida y vuelta = aller-retour.",
+   "traduccion": "Un billete de ida y vuelta para Burdeos, por favor.",
+   "errores_previstos": [
+    {
+     "respuesta": "aller simple",
+     "explicacion": "Aller simple es solo de ida. Para ida y vuelta se dice aller-retour."
+    },
+    {
+     "respuesta": "d'aller et retour",
+     "explicacion": "Es un calco de «de ida y vuelta». La fórmula fija es un billet aller-retour, sin preposición."
+    },
+    {
+     "respuesta": "aller-retourne",
+     "explicacion": "Retour es un sustantivo (la vuelta), no el verbo retourner: aller-retour."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "un billet",
+     "significado": "un billete (de tren, de avión)"
+    },
+    {
+     "palabra": "aller-retour",
+     "significado": "ida y vuelta"
+    },
+    {
+     "palabra": "aller simple",
+     "significado": "solo ida"
+    }
+   ]
   },
   {
    "id": "e05",
@@ -236,7 +345,28 @@
    "respuestas": [
     "raté"
    ],
-   "explicacion": "Perder un vuelo = rater son avion."
+   "explicacion": "Se aplica la nota de la ficha: rater y manquer significan perder un medio de transporte, mientras que perdre se usa para objetos. La pista es «trop tard» y el complemento «mon avion»: no se ha extraviado el avión, sino que no se ha llegado a tiempo de cogerlo. Por eso se dice «j'ai raté mon avion». Manquer también valdría, pero no está entre las opciones.",
+   "explicacion_breve": "Perder un vuelo = rater son avion.",
+   "traduccion": "Llegué demasiado tarde, perdí el avión.",
+   "por_opcion": {
+    "raté": "Correcta: rater son avion (o son train) es no llegar a tiempo de cogerlo. Es la forma más corriente en la lengua hablada.",
+    "perdu": "Incorrecta aquí: perdre es perder un objeto (perdre ses clés, sa valise). «J'ai perdu mon avion» es un calco del español y suena extraño en Francia.",
+    "laissé": "Incorrecta: laisser es dejar (laisser sa valise à la consigne). Nadie «deja» el avión por llegar tarde."
+   },
+   "glosario": [
+    {
+     "palabra": "rater",
+     "significado": "perder (un tren, un avión, una ocasión); también fallar"
+    },
+    {
+     "palabra": "trop tard",
+     "significado": "demasiado tarde"
+    },
+    {
+     "palabra": "l'avion (m.)",
+     "significado": "el avión"
+    }
+   ]
   },
   {
    "id": "e06",
@@ -251,7 +381,28 @@
    "respuestas": [
     "enregistrer"
    ],
-   "explicacion": "Facturar el equipaje = enregistrer."
+   "explicacion": "Se aplica la tabla de transporte y uno de los falsos amigos de la ficha: facturar el equipaje es enregistrer ses bagages. La pista es el contexto del aeropuerto y el complemento «ses bagages». El verbo enregistrer significa en general registrar o grabar, y aquí se refiere a entregar y registrar la maleta en el mostrador. Por eso la respuesta es «enregistrer».",
+   "explicacion_breve": "Facturar el equipaje = enregistrer.",
+   "traduccion": "En el aeropuerto, primero hay que facturar el equipaje.",
+   "por_opcion": {
+    "enregistrer": "Correcta: enregistrer ses bagages es facturar el equipaje en el mostrador de la compañía.",
+    "facturer": "Incorrecta: es un falso amigo. Facturer significa emitir una factura (facturer un service), no entregar la maleta.",
+    "réserver": "Incorrecta: réserver es reservar (une chambre, une place). El equipaje no se reserva, se factura."
+   },
+   "glosario": [
+    {
+     "palabra": "enregistrer ses bagages",
+     "significado": "facturar el equipaje"
+    },
+    {
+     "palabra": "il faut",
+     "significado": "hay que"
+    },
+    {
+     "palabra": "d'abord",
+     "significado": "primero, en primer lugar"
+    }
+   ]
   },
   {
    "id": "e07",
@@ -266,7 +417,28 @@
    "respuestas": [
     "quai"
    ],
-   "explicacion": "El andén es le quai."
+   "explicacion": "Se aplica la tabla de transporte: el andén es le quai y la vía, la voie. La pista es «le train … part du … numéro 4»: un tren sale de un andén o de una vía numerados. Por eso se elige «quai». En las estaciones francesas los paneles suelen indicar la voie, pero en la conversación también se dice el número de quai.",
+   "explicacion_breve": "El andén es le quai.",
+   "traduccion": "El tren a Marsella sale del andén número 4.",
+   "por_opcion": {
+    "quai": "Correcta: le quai es el andén de una estación, el lugar donde se espera y se sube al tren.",
+    "comptoir": "Incorrecta: le comptoir es el mostrador (de facturación, de un bar). No es el sitio del que sale un tren.",
+    "gîte": "Incorrecta: un gîte es una casa rural o alojamiento en el campo; no tiene nada que ver con la estación."
+   },
+   "glosario": [
+    {
+     "palabra": "le quai",
+     "significado": "el andén"
+    },
+    {
+     "palabra": "partir de",
+     "significado": "salir de"
+    },
+    {
+     "palabra": "le comptoir",
+     "significado": "el mostrador"
+    }
+   ]
   },
   {
    "id": "e08",
@@ -281,7 +453,28 @@
    "respuestas": [
     "compris"
    ],
-   "explicacion": "Incluido = compris."
+   "explicacion": "Se aplica la nota de la ficha: compris (femenino comprise) significa incluido, como en le service est compris. La pista es la estructura «être … dans le prix», que pide un participio con valor de adjetivo concordado con le petit-déjeuner, masculino singular. Compris es el participio de comprendre, que además de comprender significa incluir. Por eso se elige «compris».",
+   "explicacion_breve": "Incluido = compris.",
+   "traduccion": "El desayuno está incluido en el precio.",
+   "por_opcion": {
+    "compris": "Correcta: participio de comprendre con el sentido de incluido; concuerda con le petit-déjeuner (masculino singular).",
+    "comprend": "Incorrecta: es el presente de comprendre (il comprend). Tras est hace falta un participio o adjetivo, no un verbo conjugado.",
+    "compté": "Incorrecta en esta frase: compter significa contar. «Compté dans le prix» se entendería, pero no es la fórmula hecha para decir que algo está incluido."
+   },
+   "glosario": [
+    {
+     "palabra": "compris(e)",
+     "significado": "incluido(a)"
+    },
+    {
+     "palabra": "le petit-déjeuner",
+     "significado": "el desayuno"
+    },
+    {
+     "palabra": "le prix",
+     "significado": "el precio"
+    }
+   ]
   },
   {
    "id": "e09",
@@ -291,7 +484,37 @@
    "respuestas": [
     "retard"
    ],
-   "explicacion": "Avoir du retard / une heure de retard."
+   "explicacion": "Se aplica la colocación de la tabla: être en retard (llegar tarde, una persona) y avoir du retard o avoir + cantidad + de retard (ir con retraso, un transporte). La pista es «a une heure de», que pide el sustantivo que mide el retraso. Por eso la respuesta es «retard», masculino y sin -e final, a diferencia del español «retraso».",
+   "explicacion_breve": "Avoir du retard / une heure de retard.",
+   "traduccion": "El vuelo tiene una hora de retraso.",
+   "errores_previstos": [
+    {
+     "respuesta": "retraso",
+     "explicacion": "Es la palabra española. En francés, el retraso es le retard."
+    },
+    {
+     "respuesta": "retarde",
+     "explicacion": "Sobra la -e: el sustantivo es retard. Retarde es una forma del verbo retarder."
+    },
+    {
+     "respuesta": "délai",
+     "explicacion": "Délai es un plazo (le délai de livraison), no un retraso. Avoir une heure de retard."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "le vol",
+     "significado": "el vuelo"
+    },
+    {
+     "palabra": "le retard",
+     "significado": "el retraso"
+    },
+    {
+     "palabra": "avoir une heure de retard",
+     "significado": "llevar una hora de retraso"
+    }
+   ]
   },
   {
    "id": "e10",
@@ -301,7 +524,37 @@
    "respuestas": [
     "plainte"
    ],
-   "explicacion": "Porter plainte = denunciar."
+   "explicacion": "Se aplica la colocación de la tabla de incidencias: porter plainte es denunciar o poner una denuncia ante la policía. La pista es el robo («on m'a volé mon sac») y el verbo porter, que solo forma esta expresión con plainte. La palabra plainte significa queja o denuncia y es femenina. Por eso se completa con «plainte», sin artículo.",
+   "explicacion_breve": "Porter plainte = denunciar.",
+   "traduccion": "Me han robado el bolso, voy a poner una denuncia.",
+   "errores_previstos": [
+    {
+     "respuesta": "une plainte",
+     "explicacion": "En la expresión fija porter plainte el sustantivo va sin artículo."
+    },
+    {
+     "respuesta": "dénonciation",
+     "explicacion": "Dénonciation es delación, acusar a alguien. Poner una denuncia por un robo es porter plainte."
+    },
+    {
+     "respuesta": "plaint",
+     "explicacion": "Falta la -e: el sustantivo es la plainte."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "porter plainte",
+     "significado": "poner una denuncia, denunciar"
+    },
+    {
+     "palabra": "voler",
+     "significado": "robar (también volar)"
+    },
+    {
+     "palabra": "le sac",
+     "significado": "el bolso, la bolsa"
+    }
+   ]
   },
   {
    "id": "e11",
@@ -311,7 +564,33 @@
    "respuestas": [
     "Nous allons en Belgique en train."
    ],
-   "explicacion": "Belgique es femenino: en Belgique."
+   "explicacion": "El error es «à la Belgique»: según la regla de países de la ficha, con un país femenino se usa en, sin artículo. La pista es Belgique, femenino terminado en -e. La frase correcta es «Nous allons en Belgique en train.». El segundo en (en train) es distinto: indica el medio de transporte y no cambia.",
+   "explicacion_breve": "Belgique es femenino: en Belgique.",
+   "traduccion": "Vamos a Bélgica en tren.",
+   "errores_previstos": [
+    {
+     "respuesta": "Nous allons à la Belgique en train.",
+     "explicacion": "Es dejar la frase sin corregir. Con un país femenino no se usa à la sino en: en Belgique."
+    },
+    {
+     "respuesta": "Nous allons au Belgique en train.",
+     "explicacion": "Au es para países masculinos; Belgique es femenino: en Belgique."
+    },
+    {
+     "respuesta": "Nous allons en la Belgique en train.",
+     "explicacion": "Tras en no se pone artículo: en Belgique."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "la Belgique",
+     "significado": "Bélgica"
+    },
+    {
+     "palabra": "en train",
+     "significado": "en tren"
+    }
+   ]
   },
   {
    "id": "e12",
@@ -321,7 +600,37 @@
    "respuestas": [
     "J'ai enregistré ma valise au comptoir d'Air France."
    ],
-   "explicacion": "Facturar el equipaje = enregistrer."
+   "explicacion": "El error es el falso amigo facturer, que la ficha señala: en francés significa emitir una factura, no facturar el equipaje. La pista es el contexto: maleta y mostrador de una compañía aérea. Facturar la maleta se dice enregistrer, conjugado aquí en passé composé con avoir: «J'ai enregistré ma valise au comptoir d'Air France.».",
+   "explicacion_breve": "Facturar el equipaje = enregistrer.",
+   "traduccion": "He facturado mi maleta en el mostrador de Air France.",
+   "errores_previstos": [
+    {
+     "respuesta": "J'ai facturé ma valise au comptoir d'Air France.",
+     "explicacion": "Es copiar la frase sin corregir. Facturer es emitir una factura; facturar la maleta es enregistrer."
+    },
+    {
+     "respuesta": "J'ai enregistrer ma valise au comptoir d'Air France.",
+     "explicacion": "Tras el auxiliar va el participio enregistré, no el infinitivo."
+    },
+    {
+     "respuesta": "J'ai réservé ma valise au comptoir d'Air France.",
+     "explicacion": "Réserver es reservar; una maleta se factura: j'ai enregistré ma valise."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "enregistrer",
+     "significado": "facturar (equipaje); registrar, grabar"
+    },
+    {
+     "palabra": "la valise",
+     "significado": "la maleta"
+    },
+    {
+     "palabra": "facturer",
+     "significado": "facturar, emitir una factura (falso amigo)"
+    }
+   ]
   },
   {
    "id": "e13",
@@ -337,7 +646,33 @@
    "respuestas": [
     "Je voudrais réserver une chambre"
    ],
-   "explicacion": "Je voudrais + infinitivo."
+   "explicacion": "Se aplica la fórmula de cortesía de la ficha: je voudrais (condicional de vouloir) + infinitivo, que suaviza la petición. La pista es que hay un verbo conjugado (voudrais) y un infinitivo (réserver): el conjugado va tras el sujeto y el infinitivo detrás. Después viene el complemento une chambre. Así queda «Je voudrais réserver une chambre».",
+   "explicacion_breve": "Je voudrais + infinitivo.",
+   "traduccion": "Querría reservar una habitación.",
+   "errores_previstos": [
+    {
+     "respuesta": "Je réserver voudrais une chambre",
+     "explicacion": "El infinitivo va detrás del verbo conjugado que lo rige: je voudrais réserver."
+    },
+    {
+     "respuesta": "Je voudrais une chambre réserver",
+     "explicacion": "El complemento une chambre depende de réserver y va detrás de él."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "je voudrais",
+     "significado": "querría, me gustaría (forma cortés)"
+    },
+    {
+     "palabra": "réserver une chambre",
+     "significado": "reservar una habitación"
+    },
+    {
+     "palabra": "la chambre",
+     "significado": "la habitación (de hotel), el dormitorio"
+    }
+   ]
   },
   {
    "id": "e14",
@@ -353,7 +688,29 @@
    "respuestas": [
     "Le chauffage ne marche pas"
    ],
-   "explicacion": "Ne… pas rodea al verbo conjugado."
+   "explicacion": "Se aplica la fórmula de incidencias de la ficha «ça ne marche pas» (no funciona) y la regla de la negación: ne va delante del verbo conjugado y pas detrás, rodeándolo. La pista es que hay un solo verbo, marche, que debe quedar entre las dos partes. El sujeto le chauffage va al principio. Así queda «Le chauffage ne marche pas».",
+   "explicacion_breve": "Ne… pas rodea al verbo conjugado.",
+   "traduccion": "La calefacción no funciona.",
+   "errores_previstos": [
+    {
+     "respuesta": "Le chauffage ne pas marche",
+     "explicacion": "Pas va detrás del verbo conjugado, no delante: ne marche pas."
+    },
+    {
+     "respuesta": "Le chauffage pas ne marche",
+     "explicacion": "Ne va pegado delante del verbo y pas detrás: ne marche pas."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "le chauffage",
+     "significado": "la calefacción"
+    },
+    {
+     "palabra": "marcher",
+     "significado": "funcionar (un aparato); también andar"
+    }
+   ]
   },
   {
    "id": "e15",
@@ -368,10 +725,33 @@
    "respuestas": [
     "Pourriez-vous"
    ],
-   "explicacion": "El condicional con inversión es la forma más cortés con un desconocido."
+   "explicacion": "Se aplica la idea de la ficha de usar el condicional para pedir algo con cortesía: pourriez-vous es el condicional de pouvoir con inversión del sujeto. La pista es la petición de un servicio, probablemente a un recepcionista desconocido, donde se espera el registro más formal. El condicional suaviza, la inversión es propia del registro cuidado y vous marca el trato de usted.",
+   "explicacion_breve": "El condicional con inversión es la forma más cortés con un desconocido.",
+   "traduccion": "¿Podría pedirme un taxi?",
+   "por_opcion": {
+    "Pourriez-vous": "Correcta: condicional + inversión + vous, la fórmula más cortés para pedir un favor a un desconocido.",
+    "Vous pouvez": "Gramaticalmente correcta y con trato de usted, pero en presente y con entonación es más directa; es la forma de la conversación corriente, menos cortés que el condicional.",
+    "Peux-tu": "Incorrecta para esta situación: tu es tuteo, propio de amigos o familia; con un recepcionista o un desconocido resulta poco cortés."
+   },
+   "glosario": [
+    {
+     "palabra": "pourriez-vous",
+     "significado": "¿podría usted?, ¿podrían ustedes?"
+    },
+    {
+     "palabra": "appeler un taxi",
+     "significado": "pedir o llamar a un taxi"
+    }
+   ]
   }
  ],
  "fuente": {
   "nombre": "propia"
+ },
+ "descripcion_larga_es": "Vocabulario para viajar en francés: comprar billetes, facturar en el aeropuerto, encontrar el andén, reservar y usar un hotel y resolver incidencias como retrasos, maletas perdidas o reclamaciones. Importa porque son situaciones reales con poco margen de error, y porque el hispanohablante cae en falsos amigos (facturer, habitation, perdre le train) y en las preposiciones con países (en France, au Portugal).",
+ "contexto": {
+  "que_es": "Es el léxico básico del transporte (billetes, aeropuerto, tren) y del alojamiento (hotel, albergue, casa rural), junto con las colocaciones fijas que lo acompañan: réserver une chambre, enregistrer ses bagages, rater son train, porter plainte. Incluye también las preposiciones de lugar con nombres de país y las fórmulas corteses con condicional.",
+  "por_que_importa": "En un viaje hay que entender y hacerse entender rápido: un anuncio de cambio de andén, un vuelo cancelado o un problema en la habitación. Usar un falso amigo (facturer en vez de enregistrer) provoca malentendidos, y pedir algo sin fórmula cortés suena brusco. En un examen oral de nivel A2 o B1, el juego de rol en una estación o un hotel es una tarea clásica.",
+  "cuando_se_usa": "En estaciones, aeropuertos, hoteles y oficinas de turismo, al escribir un correo de reserva o una reclamación. Las señales son verbos como réserver, partir, arriver, annuler y palabras como vol, quai, chambre o retard. El hispanohablante tiende a traducir palabra por palabra: «perder el tren» no es perdre sino rater, «facturar» no es facturer y «habitación» no es habitation sino chambre."
  }
 }

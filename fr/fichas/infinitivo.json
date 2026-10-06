@@ -104,8 +104,20 @@
    "respuestas": [
     "à"
    ],
-   "explicacion": "Apprendre à + infinitivo.",
-   "origen": "tatoeba:723899"
+   "explicacion": "Se aplica la fila «verbo + à + infinitivo» de la tabla: apprendre lleva à delante de un infinitivo. La pista es el verbo principal apprend. En este caso el español coincide («aprender a»), así que el calco funciona.",
+   "origen": "tatoeba:723899",
+   "explicacion_breve": "Apprendre à + infinitivo.",
+   "traduccion": "Aprende a nadar.",
+   "errores_previstos": [
+    {
+     "respuesta": "de",
+     "explicacion": "Apprendre no rige de; con infinitivo se construye con à: apprendre à nager."
+    },
+    {
+     "respuesta": "a",
+     "explicacion": "Falta el acento grave: la preposición es à; a sin acento es el verbo avoir."
+    }
+   ]
   },
   {
    "id": "e02",
@@ -115,8 +127,16 @@
    "respuestas": [
     "de"
    ],
-   "explicacion": "Refuser de + infinitivo (negarse a).",
-   "origen": "tatoeba:6204317"
+   "explicacion": "Se aplica la fila «verbo + de + infinitivo»: refuser lleva de. La pista es refuse, y aquí el español engaña, porque decimos «negarse a». En francés refuser de nager es la única construcción correcta.",
+   "origen": "tatoeba:6204317",
+   "explicacion_breve": "Refuser de + infinitivo (negarse a).",
+   "traduccion": "Alf se niega a nadar.",
+   "errores_previstos": [
+    {
+     "respuesta": "à",
+     "explicacion": "Es el calco de «negarse a»; refuser se construye con de: refuser de nager."
+    }
+   ]
   },
   {
    "id": "e03",
@@ -126,8 +146,16 @@
    "respuestas": [
     "de"
    ],
-   "explicacion": "Cesser de + infinitivo (dejar de).",
-   "origen": "tatoeba:10129985"
+   "explicacion": "Se aplica la fila «verbo + de + infinitivo»: cesser, igual que arrêter, lleva de y significa «dejar de». La pista es il a cessé. El español también usa de en «dejar de», pero la ficha lo recoge entre las trampas porque el verbo es distinto. Pleuvoir es impersonal: il pleut, il a cessé de pleuvoir.",
+   "origen": "tatoeba:10129985",
+   "explicacion_breve": "Cesser de + infinitivo (dejar de).",
+   "traduccion": "Ha dejado de llover.",
+   "errores_previstos": [
+    {
+     "respuesta": "à",
+     "explicacion": "Cesser no rige à; con infinitivo se construye con de."
+    }
+   ]
   },
   {
    "id": "e04",
@@ -137,8 +165,16 @@
    "respuestas": [
     "à"
    ],
-   "explicacion": "Commencer à + infinitivo.",
-   "origen": "tatoeba:1016679"
+   "explicacion": "Se aplica la fila «verbo + à + infinitivo»: commencer lleva à, como en español «empezar a». La pista es je commence. La expresión avoir faim equivale a «tener hambre».",
+   "origen": "tatoeba:1016679",
+   "explicacion_breve": "Commencer à + infinitivo.",
+   "traduccion": "Empiezo a tener hambre.",
+   "errores_previstos": [
+    {
+     "respuesta": "de",
+     "explicacion": "Commencer de existe en un registro literario antiguo, pero lo normal es commencer à, que es lo que enseña la ficha."
+    }
+   ]
   },
   {
    "id": "e05",
@@ -148,8 +184,16 @@
    "respuestas": [
     "de"
    ],
-   "explicacion": "Essayer de + infinitivo (intentar).",
-   "origen": "tatoeba:1675987"
+   "explicacion": "Se aplica la fila «verbo + de + infinitivo»: essayer lleva de. La pista es essaie, y el español no ayuda porque «intentar» va sin preposición. Por eso la ficha incluye essayer de entre las trampas para hispanohablantes.",
+   "origen": "tatoeba:1675987",
+   "explicacion_breve": "Essayer de + infinitivo (intentar).",
+   "traduccion": "Tom intenta entender.",
+   "errores_previstos": [
+    {
+     "respuesta": "à",
+     "explicacion": "Essayer no lleva à; con infinitivo se construye con de: essayer de comprendre."
+    }
+   ]
   },
   {
    "id": "e06",
@@ -164,7 +208,14 @@
    "respuestas": [
     "rester"
    ],
-   "explicacion": "Préférer va directamente con infinitivo, sin preposición."
+   "explicacion": "Se aplica la fila «verbo + infinitivo sin preposición»: préférer, como aimer, vouloir o pouvoir, va directamente con el infinitivo. La pista es préférons. Por eso la respuesta es rester sin à ni de.",
+   "explicacion_breve": "Préférer va directamente con infinitivo, sin preposición.",
+   "traduccion": "Preferimos quedarnos en casa esta noche.",
+   "por_opcion": {
+    "rester": "Correcta: préférer va directamente con infinitivo.",
+    "à rester": "Incorrecta: préférer no rige à.",
+    "de rester": "Incorrecta: préférer no rige de; el infinitivo va directamente detrás del verbo."
+   }
   },
   {
    "id": "e07",
@@ -174,7 +225,19 @@
    "respuestas": [
     "à"
    ],
-   "explicacion": "Aider quelqu'un à + infinitivo."
+   "explicacion": "Se aplica la fila «verbo + à + infinitivo» con complemento de persona: aider quelqu'un à faire quelque chose. La pista es aide ses étudiants, que ya tiene el complemento de persona. Como en español, «ayudar a alguien a hacer algo», la preposición ante el infinitivo es à.",
+   "explicacion_breve": "Aider quelqu'un à + infinitivo.",
+   "traduccion": "Tex ayuda a sus estudiantes a aprender francés.",
+   "errores_previstos": [
+    {
+     "respuesta": "de",
+     "explicacion": "Aider qqn no rige de; ante el infinitivo va à: aider qqn à apprendre."
+    },
+    {
+     "respuesta": "pour",
+     "explicacion": "Es un calco de «para»; con aider se usa la preposición à."
+    }
+   ]
   },
   {
    "id": "e08",
@@ -184,7 +247,15 @@
    "respuestas": [
     "de"
    ],
-   "explicacion": "Promettre de + infinitivo."
+   "explicacion": "Se aplica la fila «verbo + de + infinitivo»: promettre (à qqn) de faire quelque chose. La pista es promet. El español no usa preposición («prometer visitar»), de ahí la tendencia a no ponerla; en francés de es obligatoria. Rendre visite à quelqu'un significa «visitar a alguien».",
+   "explicacion_breve": "Promettre de + infinitivo.",
+   "traduccion": "Tex promete visitar a su abuelo.",
+   "errores_previstos": [
+    {
+     "respuesta": "à",
+     "explicacion": "Promettre no lleva à ante el infinitivo (à va ante la persona a quien se promete); ante el infinitivo va de."
+    }
+   ]
   },
   {
    "id": "e09",
@@ -199,8 +270,15 @@
    "respuestas": [
     "de"
    ],
-   "explicacion": "Essayer de + infinitivo (intentar).",
-   "origen": "tatoeba:7700761"
+   "explicacion": "Se aplica de nuevo la fila «verbo + de + infinitivo»: essayer de. La pista es essaie. Ninguna otra preposición es posible: essayer à no existe y par no se usa en esta construcción.",
+   "origen": "tatoeba:7700761",
+   "explicacion_breve": "Essayer de + infinitivo (intentar).",
+   "traduccion": "Mi mujer intenta dormir.",
+   "por_opcion": {
+    "à": "Incorrecta: essayer no rige à.",
+    "de": "Correcta: essayer de + infinitivo, «intentar».",
+    "par": "Incorrecta: par + infinitivo solo aparece tras commencer o finir (commencer par, finir par)."
+   }
   },
   {
    "id": "e10",
@@ -216,7 +294,15 @@
    "respuestas": [
     "Avant de"
    ],
-   "explicacion": "Antes de + infinitivo = avant de + infinitivo."
+   "explicacion": "Se aplica la lista de preposiciones con infinitivo: «antes de» + infinitivo es avant de. La pista es el infinitivo partir sin sujeto propio, porque quien se va es el mismo ils de la principal. Avant que pediría un verbo conjugado en subjuntivo con sujeto, y en va con gerundio.",
+   "explicacion_breve": "Antes de + infinitivo = avant de + infinitivo.",
+   "traduccion": "Antes de irse, cerraron las ventanas.",
+   "por_opcion": {
+    "Avant de": "Correcta: avant de + infinitivo, «antes de irse».",
+    "Avant": "Incorrecta: avant solo se usa con un nombre (avant le départ); ante infinitivo hace falta de.",
+    "Avant que": "Incorrecta: exige un sujeto y un verbo en subjuntivo (avant qu'ils partent), no un infinitivo.",
+    "En": "Incorrecta: en va con gerundio (en partant, al irse), nunca con infinitivo."
+   }
   },
   {
    "id": "e11",
@@ -232,7 +318,21 @@
    "respuestas": [
     "avoir fini"
    ],
-   "explicacion": "Après va con infinitivo pasado; finir lleva avoir."
+   "explicacion": "Se aplica la regla de la ficha: après va seguido de infinitivo pasado (avoir o être + participio). La pista es après al principio de la frase. Finir forma sus tiempos compuestos con avoir, así que el infinitivo pasado es avoir fini. El español dice «después de terminar», con infinitivo simple, y de ahí el error típico après finir.",
+   "explicacion_breve": "Après va con infinitivo pasado; finir lleva avoir.",
+   "traduccion": "Después de terminar los deberes, vio la tele.",
+   "por_opcion": {
+    "avoir fini": "Correcta: infinitivo pasado con el auxiliar de finir, avoir.",
+    "finir": "Incorrecta: après no va con infinitivo simple; es el calco de «después de terminar».",
+    "finissant": "Incorrecta: el gerundio o participio presente no se usa tras après.",
+    "être finie": "Incorrecta: finir no lleva être como auxiliar; être finie sería una forma pasiva («estar terminada») que no encaja."
+   },
+   "glosario": [
+    {
+     "palabra": "les devoirs",
+     "significado": "los deberes (escolares)"
+    }
+   ]
   },
   {
    "id": "e12",
@@ -247,7 +347,14 @@
    "respuestas": [
     "à"
    ],
-   "explicacion": "Adjetivo + à + infinitivo con sentido pasivo: es difícil de decir."
+   "explicacion": "Se aplica la regla de la ficha sobre adjetivo + infinitivo: con sentido pasivo («difícil de ser dicho») se usa à. La pista es que dire no tiene complemento: lo que es difícil de decir es la cosa a la que remite c'. Si siguiera un complemento, se usaría de: c'est difficile de dire la vérité.",
+   "explicacion_breve": "Adjetivo + à + infinitivo con sentido pasivo: es difícil de decir.",
+   "traduccion": "Es difícil de decir.",
+   "por_opcion": {
+    "à": "Correcta: adjetivo + à + infinitivo con sentido pasivo, sin complemento detrás.",
+    "de": "Incorrecta aquí: de se usa cuando el infinitivo lleva su complemento (c'est difficile de dire cela).",
+    "pour": "Incorrecta: es el calco de «difícil para decir»; tras difficile va à o de."
+   }
   },
   {
    "id": "e13",
@@ -257,7 +364,19 @@
    "respuestas": [
     "J'ai oublié de fermer la porte."
    ],
-   "explicacion": "Oublier de + infinitivo."
+   "explicacion": "El error es la preposición à. Según la fila «verbo + de + infinitivo», oublier lleva de, aunque en español «olvidar» vaya sin preposición (o con «de» solo en «olvidarse de»). Es una de las trampas que señala expresamente la ficha. La forma correcta es j'ai oublié de fermer la porte.",
+   "explicacion_breve": "Oublier de + infinitivo.",
+   "traduccion": "Olvidé cerrar la puerta.",
+   "errores_previstos": [
+    {
+     "respuesta": "J'ai oublié à fermer la porte.",
+     "explicacion": "Es dejar la frase sin corregir: oublier rige de, no à."
+    },
+    {
+     "respuesta": "J'ai oublié fermer la porte.",
+     "explicacion": "Es el calco de «olvidé cerrar»; en francés la preposición de es obligatoria."
+    }
+   ]
   },
   {
    "id": "e14",
@@ -267,8 +386,20 @@
    "respuestas": [
     "Il a arrêté de boire."
    ],
-   "explicacion": "Arrêter de + infinitivo (dejar de).",
-   "origen": "tatoeba:3645595"
+   "explicacion": "El error es la preposición à. Arrêter, en el sentido de «dejar de», se construye con de + infinitivo, como cesser. Es uno de los ejemplos de la tabla (j'ai arrêté de fumer). La forma correcta es il a arrêté de boire.",
+   "origen": "tatoeba:3645595",
+   "explicacion_breve": "Arrêter de + infinitivo (dejar de).",
+   "traduccion": "Ha dejado de beber.",
+   "errores_previstos": [
+    {
+     "respuesta": "Il a arrêté à boire.",
+     "explicacion": "Es dejar la frase sin corregir: arrêter rige de."
+    },
+    {
+     "respuesta": "Il a arrêté boire.",
+     "explicacion": "Falta la preposición; arrêter de + infinitivo."
+    }
+   ]
   },
   {
    "id": "e15",
@@ -278,7 +409,23 @@
    "respuestas": [
     "Il m'a demandé de ne pas fumer dehors."
    ],
-   "explicacion": "Con infinitivo, ne pas va junto delante del verbo."
+   "explicacion": "Se aplica la última regla de la lista: con un infinitivo, las dos partes de la negación, ne y pas, van juntas delante del verbo. Por eso de fumer pasa a de ne pas fumer. El verbo principal (il m'a demandé) no se niega, porque lo que cambia es el contenido de la petición.",
+   "explicacion_breve": "Con infinitivo, ne pas va junto delante del verbo.",
+   "traduccion": "Me pidió que no fumara fuera.",
+   "errores_previstos": [
+    {
+     "respuesta": "Il m'a demandé de ne fumer pas dehors.",
+     "explicacion": "Con infinitivo ne pas va junto, delante del verbo: de ne pas fumer."
+    },
+    {
+     "respuesta": "Il ne m'a pas demandé de fumer dehors.",
+     "explicacion": "Esta frase niega la petición («no me pidió»), no su contenido; el sentido cambia."
+    },
+    {
+     "respuesta": "Il m'a demandé de pas fumer dehors.",
+     "explicacion": "Falta ne; por escrito se mantiene: de ne pas fumer."
+    }
+   ]
   },
   {
    "id": "e16",
@@ -295,8 +442,20 @@
    "respuestas": [
     "Il commence à se faire tard"
    ],
-   "explicacion": "Commencer à + infinitivo; el pronombre se va delante del infinitivo.",
-   "origen": "tatoeba:604590"
+   "explicacion": "Se aplica la fila «verbo + à + infinitivo»: commencer à. El infinitivo es la expresión impersonal se faire tard (hacerse tarde), y el pronombre se va delante del infinitivo del que depende, no delante de commence. El sujeto il es impersonal, como en il se fait tard.",
+   "origen": "tatoeba:604590",
+   "explicacion_breve": "Commencer à + infinitivo; el pronombre se va delante del infinitivo.",
+   "traduccion": "Empieza a hacerse tarde.",
+   "errores_previstos": [
+    {
+     "respuesta": "Il se commence à faire tard",
+     "explicacion": "El pronombre se pertenece a faire (se faire tard), así que va delante del infinitivo: à se faire."
+    },
+    {
+     "respuesta": "Il commence se à faire tard",
+     "explicacion": "La preposición à va antes del bloque pronombre + infinitivo: à se faire."
+    }
+   ]
   }
  ],
  "fuente": {
@@ -307,5 +466,11 @@
   "otras": [
    "Frases de Tatoeba (CC BY 2.0 FR)"
   ]
+ },
+ "descripcion_larga_es": "Esta ficha trata del infinitivo que sigue a otro verbo: unos verbos lo llevan directamente (vouloir partir), otros con à (apprendre à nager) y otros con de (essayer de comprendre). La preposición depende del verbo y casi nunca coincide con la española, así que hay que aprenderla con cada verbo. Incluye también avant de, après + infinitivo pasado y la negación ne pas delante del infinitivo.",
+ "contexto": {
+  "que_es": "Es la construcción verbo conjugado + infinitivo, en la que el segundo verbo completa al primero. Según el verbo principal, el infinitivo va sin preposición (aimer, vouloir, pouvoir, devoir, préférer), con à (apprendre, commencer, aider qqn) o con de (essayer, décider, oublier, arrêter, promettre). La ficha añade las preposiciones que rigen infinitivo (pour, avant de, sans), après + infinitivo pasado y la colocación de ne pas.",
+  "por_que_importa": "Es una de las construcciones más frecuentes del idioma: casi cada frase que expresa una intención, un intento, una decisión o un hábito la usa. Las preposiciones equivocadas (j'ai décidé à partir, je veux de partir) son de los errores más típicos del hispanohablante y se notan en cualquier examen oral o escrito. Además, après manger o al sortir calcados del español resultan agramaticales.",
+  "cuando_se_usa": "Cada vez que un verbo va seguido de otro verbo en infinitivo. La pista es el verbo principal: hay que recordar su régimen, igual que se recuerda su significado. El español sirve solo a veces de guía (aprender a = apprendre à), pero falla con decidir, intentar, olvidar y dejar de, que en francés llevan de, y con «al + infinitivo», que en francés es en + gerundio."
  }
 }

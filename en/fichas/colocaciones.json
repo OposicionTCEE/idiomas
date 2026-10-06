@@ -6,66 +6,726 @@
  "nivel": "B2",
  "resumen": "Las colocaciones son combinaciones de palabras que un nativo usa de forma natural (make a decision, heavy traffic). Traducirlas palabra por palabra del español produce errores muy típicos.",
  "explicacion": [
-  {"tipo": "texto", "texto": "No hay una regla lógica: hay que aprenderlas en bloque. Los verbos más traicioneros son make, do, take, have, pay y give, y los adjetivos que intensifican (heavy, strong, high, deep)."},
-  {"tipo": "tabla", "cabecera": ["Expresión", "Significado", "Ejemplo"], "filas": [
-   ["make a decision", "tomar una decisión", "We need to make a decision today."],
-   ["make a mistake", "cometer un error", "Everyone makes mistakes."],
-   ["make progress", "hacer progresos, avanzar", "The talks are making progress."],
-   ["make an effort", "hacer un esfuerzo", "She made an effort to be polite."],
-   ["do research / do business", "investigar / hacer negocios", "We do business with Chinese firms."],
-   ["do your best / do harm", "hacer lo posible / hacer daño", "Too much sun can do harm."],
-   ["take a decision (británico, formal)", "tomar una decisión", "The board took the decision in May."],
-   ["take a risk / take steps", "correr un riesgo / tomar medidas", "The government must take steps to cut emissions."],
-   ["take part in / take place", "participar en / tener lugar", "The summit will take place in Seville."],
-   ["take into account", "tener en cuenta", "We must take inflation into account."],
-   ["have an impact on", "tener repercusión en", "The law will have an impact on rents."],
-   ["pay attention / pay a visit", "prestar atención / hacer una visita", "Pay attention to the details."],
-   ["give a speech / give a presentation", "pronunciar un discurso / hacer una presentación", "She gave a speech at the conference."],
-   ["raise a question / raise awareness", "plantear una cuestión / concienciar", "The campaign aims to raise awareness."],
-   ["meet a deadline / meet demand", "cumplir un plazo / satisfacer la demanda", "We couldn't meet the deadline."],
-   ["reach an agreement", "llegar a un acuerdo", "Both sides reached an agreement."]
-  ]},
-  {"tipo": "tabla", "cabecera": ["Expresión", "Significado", "Ejemplo"], "filas": [
-   ["heavy traffic / heavy rain", "tráfico denso / lluvia intensa", "Heavy rain caused floods."],
-   ["strong coffee / strong wind", "café cargado / viento fuerte", "I need a strong coffee."],
-   ["high price / high level", "precio alto / nivel alto", "Prices remain high."],
-   ["deeply concerned", "profundamente preocupado", "We are deeply concerned about the situation."],
-   ["highly unlikely / highly recommended", "muy improbable / muy recomendable", "It is highly unlikely to happen."],
-   ["bitterly disappointed", "profundamente decepcionado", "The fans were bitterly disappointed."],
-   ["a key role / a major problem", "un papel clave / un problema grave", "Tourism plays a key role in Spain."],
-   ["widely used / widely known", "muy extendido / muy conocido", "English is widely used in science."]
-  ]}
+  {
+   "tipo": "texto",
+   "texto": "No hay una regla lógica: hay que aprenderlas en bloque. Los verbos más traicioneros son make, do, take, have, pay y give, y los adjetivos que intensifican (heavy, strong, high, deep)."
+  },
+  {
+   "tipo": "tabla",
+   "cabecera": [
+    "Expresión",
+    "Significado",
+    "Ejemplo"
+   ],
+   "filas": [
+    [
+     "make a decision",
+     "tomar una decisión",
+     "We need to make a decision today."
+    ],
+    [
+     "make a mistake",
+     "cometer un error",
+     "Everyone makes mistakes."
+    ],
+    [
+     "make progress",
+     "hacer progresos, avanzar",
+     "The talks are making progress."
+    ],
+    [
+     "make an effort",
+     "hacer un esfuerzo",
+     "She made an effort to be polite."
+    ],
+    [
+     "do research / do business",
+     "investigar / hacer negocios",
+     "We do business with Chinese firms."
+    ],
+    [
+     "do your best / do harm",
+     "hacer lo posible / hacer daño",
+     "Too much sun can do harm."
+    ],
+    [
+     "take a decision (británico, formal)",
+     "tomar una decisión",
+     "The board took the decision in May."
+    ],
+    [
+     "take a risk / take steps",
+     "correr un riesgo / tomar medidas",
+     "The government must take steps to cut emissions."
+    ],
+    [
+     "take part in / take place",
+     "participar en / tener lugar",
+     "The summit will take place in Seville."
+    ],
+    [
+     "take into account",
+     "tener en cuenta",
+     "We must take inflation into account."
+    ],
+    [
+     "have an impact on",
+     "tener repercusión en",
+     "The law will have an impact on rents."
+    ],
+    [
+     "pay attention / pay a visit",
+     "prestar atención / hacer una visita",
+     "Pay attention to the details."
+    ],
+    [
+     "give a speech / give a presentation",
+     "pronunciar un discurso / hacer una presentación",
+     "She gave a speech at the conference."
+    ],
+    [
+     "raise a question / raise awareness",
+     "plantear una cuestión / concienciar",
+     "The campaign aims to raise awareness."
+    ],
+    [
+     "meet a deadline / meet demand",
+     "cumplir un plazo / satisfacer la demanda",
+     "We couldn't meet the deadline."
+    ],
+    [
+     "reach an agreement",
+     "llegar a un acuerdo",
+     "Both sides reached an agreement."
+    ]
+   ]
+  },
+  {
+   "tipo": "tabla",
+   "cabecera": [
+    "Expresión",
+    "Significado",
+    "Ejemplo"
+   ],
+   "filas": [
+    [
+     "heavy traffic / heavy rain",
+     "tráfico denso / lluvia intensa",
+     "Heavy rain caused floods."
+    ],
+    [
+     "strong coffee / strong wind",
+     "café cargado / viento fuerte",
+     "I need a strong coffee."
+    ],
+    [
+     "high price / high level",
+     "precio alto / nivel alto",
+     "Prices remain high."
+    ],
+    [
+     "deeply concerned",
+     "profundamente preocupado",
+     "We are deeply concerned about the situation."
+    ],
+    [
+     "highly unlikely / highly recommended",
+     "muy improbable / muy recomendable",
+     "It is highly unlikely to happen."
+    ],
+    [
+     "bitterly disappointed",
+     "profundamente decepcionado",
+     "The fans were bitterly disappointed."
+    ],
+    [
+     "a key role / a major problem",
+     "un papel clave / un problema grave",
+     "Tourism plays a key role in Spain."
+    ],
+    [
+     "widely used / widely known",
+     "muy extendido / muy conocido",
+     "English is widely used in science."
+    ]
+   ]
+  }
  ],
  "ejemplos": [
-  {"frase": "It took them weeks to reach an agreement.", "traduccion": "Tardaron semanas en llegar a un acuerdo."},
-  {"frase": "Please pay attention to the safety instructions.", "traduccion": "Presten atención a las instrucciones de seguridad, por favor."},
-  {"frase": "We got stuck in heavy traffic on the way to the airport.", "traduccion": "Nos quedamos atascados en un tráfico denso camino del aeropuerto."},
-  {"frase": "Tourism plays a key role in the Canary Islands.", "traduccion": "El turismo desempeña un papel clave en Canarias."},
-  {"frase": "The charity is trying to raise awareness of mental health.", "traduccion": "La organización benéfica intenta concienciar sobre la salud mental."},
-  {"frase": "It is highly unlikely that the match will be cancelled.", "traduccion": "Es muy improbable que se suspenda el partido."}
+  {
+   "frase": "It took them weeks to reach an agreement.",
+   "traduccion": "Tardaron semanas en llegar a un acuerdo."
+  },
+  {
+   "frase": "Please pay attention to the safety instructions.",
+   "traduccion": "Presten atención a las instrucciones de seguridad, por favor."
+  },
+  {
+   "frase": "We got stuck in heavy traffic on the way to the airport.",
+   "traduccion": "Nos quedamos atascados en un tráfico denso camino del aeropuerto."
+  },
+  {
+   "frase": "Tourism plays a key role in the Canary Islands.",
+   "traduccion": "El turismo desempeña un papel clave en Canarias."
+  },
+  {
+   "frase": "The charity is trying to raise awareness of mental health.",
+   "traduccion": "La organización benéfica intenta concienciar sobre la salud mental."
+  },
+  {
+   "frase": "It is highly unlikely that the match will be cancelled.",
+   "traduccion": "Es muy improbable que se suspenda el partido."
+  }
  ],
  "errores_hispanohablantes": [
-  {"mal": "I did a mistake in the exam.", "bien": "I made a mistake in the exam.", "nota": "Se dice «make a mistake»."},
-  {"mal": "We must take into account the inflation.", "bien": "We must take inflation into account.", "nota": "Con objeto corto, se coloca entre «take» e «into account»; además, sin artículo."},
-  {"mal": "The meeting will have place on Monday.", "bien": "The meeting will take place on Monday.", "nota": "«Tener lugar» es «take place»."},
-  {"mal": "There was strong traffic this morning.", "bien": "There was heavy traffic this morning.", "nota": "El tráfico y la lluvia son «heavy»."}
+  {
+   "mal": "I did a mistake in the exam.",
+   "bien": "I made a mistake in the exam.",
+   "nota": "Se dice «make a mistake»."
+  },
+  {
+   "mal": "We must take into account the inflation.",
+   "bien": "We must take inflation into account.",
+   "nota": "Con objeto corto, se coloca entre «take» e «into account»; además, sin artículo."
+  },
+  {
+   "mal": "The meeting will have place on Monday.",
+   "bien": "The meeting will take place on Monday.",
+   "nota": "«Tener lugar» es «take place»."
+  },
+  {
+   "mal": "There was strong traffic this morning.",
+   "bien": "There was heavy traffic this morning.",
+   "nota": "El tráfico y la lluvia son «heavy»."
+  }
  ],
  "ejercicios": [
-  {"id": "e01", "tipo": "eleccion", "enunciado": "Elige la opción correcta.", "frase": "Don't worry, everybody ___ mistakes when they start.", "opciones": ["makes", "does", "takes", "has"], "respuestas": ["makes"], "explicacion": "«Make a mistake» = cometer un error."},
-  {"id": "e02", "tipo": "eleccion", "enunciado": "Elige la opción correcta.", "frase": "The Olympic Games will ___ place in Brisbane in 2032.", "opciones": ["take", "have", "make", "give"], "respuestas": ["take"], "explicacion": "«Take place» = tener lugar."},
-  {"id": "e03", "tipo": "hueco", "enunciado": "Completa con un verbo.", "frase": "Students should ___ attention to the instructions.", "respuestas": ["pay"], "explicacion": "«Pay attention» = prestar atención."},
-  {"id": "e04", "tipo": "corregir", "enunciado": "Corrige el error de colocación.", "frase": "There was very strong rain during the night.", "respuestas": ["There was very heavy rain during the night.", "There was heavy rain during the night."], "explicacion": "La lluvia intensa es «heavy rain»."},
-  {"id": "e05", "tipo": "eleccion", "enunciado": "Elige la opción correcta.", "frase": "After long negotiations, the unions ___ an agreement with the employers.", "opciones": ["reached", "arrived", "did", "came"], "respuestas": ["reached"], "explicacion": "«Reach an agreement» = llegar a un acuerdo."},
-  {"id": "e06", "tipo": "hueco", "enunciado": "Completa con un verbo.", "frase": "We worked all weekend to ___ the deadline.", "respuestas": ["meet"], "explicacion": "«Meet a deadline» = cumplir un plazo."},
-  {"id": "e07", "tipo": "corregir", "enunciado": "Corrige el error de colocación.", "frase": "My uncle does a lot of business in Mexico and did a big effort to learn the local customs.", "respuestas": ["My uncle does a lot of business in Mexico and made a big effort to learn the local customs."], "explicacion": "Se dice «make an effort»; «do business» sí es correcto."},
-  {"id": "e08", "tipo": "eleccion", "enunciado": "Elige la opción correcta.", "frase": "The minister ___ a speech at the opening ceremony.", "opciones": ["gave", "said", "told", "made up"], "respuestas": ["gave"], "explicacion": "«Give a speech» = pronunciar un discurso (también «make a speech»)."},
-  {"id": "e09", "tipo": "hueco", "enunciado": "Completa con un adverbio.", "frase": "This restaurant is ___ recommended by local food critics.", "respuestas": ["highly"], "explicacion": "«Highly recommended» = muy recomendado."},
-  {"id": "e10", "tipo": "eleccion", "enunciado": "Elige la opción correcta.", "frase": "The new law will ___ a big impact on small farmers.", "opciones": ["have", "do", "give", "take"], "respuestas": ["have"], "explicacion": "«Have an impact on» = repercutir en."},
-  {"id": "e11", "tipo": "hueco", "enunciado": "Completa con un verbo.", "frase": "The campaign aims to ___ awareness of plastic pollution.", "respuestas": ["raise"], "explicacion": "«Raise awareness» = concienciar."},
-  {"id": "e12", "tipo": "corregir", "enunciado": "Corrige el error de colocación.", "frase": "I always drink very hard coffee in the morning.", "respuestas": ["I always drink very strong coffee in the morning.", "I always drink strong coffee in the morning."], "explicacion": "El café cargado es «strong coffee»."},
-  {"id": "e13", "tipo": "eleccion", "enunciado": "Elige la opción correcta.", "frase": "The government must ___ urgent steps to reduce emissions.", "opciones": ["take", "make", "do", "give"], "respuestas": ["take"], "explicacion": "«Take steps» = tomar medidas."},
-  {"id": "e14", "tipo": "hueco", "enunciado": "Completa con un adverbio (profundamente).", "frase": "The fans were ___ disappointed by the result.", "respuestas": ["bitterly", "deeply"], "explicacion": "«Bitterly / deeply disappointed» = profundamente decepcionado."},
-  {"id": "e15", "tipo": "ordenar", "enunciado": "Ordena las palabras.", "palabras": ["role", "plays", "Tourism", "a", "in", "key", "Spain"], "respuestas": ["Tourism plays a key role in Spain", "In Spain tourism plays a key role"], "explicacion": "«Play a key role» = desempeñar un papel clave."}
+  {
+   "id": "e01",
+   "tipo": "eleccion",
+   "enunciado": "Elige la opción correcta.",
+   "frase": "Don't worry, everybody ___ mistakes when they start.",
+   "opciones": [
+    "makes",
+    "does",
+    "takes",
+    "has"
+   ],
+   "respuestas": [
+    "makes"
+   ],
+   "explicacion": "Es la colocación make a mistake de la primera tabla: cometer un error. La pista es el sustantivo mistakes tras el hueco, que siempre va con make. El sujeto everybody es singular, por eso el verbo lleva -s: makes. El error clásico del hispanohablante es do a mistake, que la ficha recoge en sus errores típicos.",
+   "explicacion_breve": "«Make a mistake» = cometer un error.",
+   "traduccion": "No te preocupes, todo el mundo comete errores cuando empieza.",
+   "por_opcion": {
+    "makes": "Correcta: make a mistake es la colocación fija para cometer un error.",
+    "does": "Do a mistake es el calco más frecuente del hispanohablante y no es correcto; do va con business, research, harm.",
+    "takes": "Take no se combina con mistake; va con steps, risks, decisions (británico).",
+    "has": "Have a mistake no se dice; como mucho, «there is a mistake» para indicar que hay un error en algo."
+   },
+   "glosario": [
+    {
+     "palabra": "make a mistake",
+     "significado": "cometer un error"
+    }
+   ]
+  },
+  {
+   "id": "e02",
+   "tipo": "eleccion",
+   "enunciado": "Elige la opción correcta.",
+   "frase": "The Olympic Games will ___ place in Brisbane in 2032.",
+   "opciones": [
+    "take",
+    "have",
+    "make",
+    "give"
+   ],
+   "respuestas": [
+    "take"
+   ],
+   "explicacion": "Es take place, tener lugar o celebrarse, de la primera tabla. La pista es el sustantivo place justo después del hueco y el hecho de que se hable de un acontecimiento con lugar y fecha. El español «tener lugar» empuja a decir have place, pero la colocación inglesa usa take. Will + infinitivo marca el futuro.",
+   "explicacion_breve": "«Take place» = tener lugar.",
+   "traduccion": "Los Juegos Olímpicos se celebrarán en Brisbane en 2032.",
+   "por_opcion": {
+    "take": "Correcta: take place significa tener lugar, celebrarse.",
+    "have": "Have place es un calco de «tener lugar» y no existe en inglés.",
+    "make": "Make place no es una colocación; como mucho, make room sería «hacer sitio».",
+    "give": "Give place no tiene este sentido; give way significa ceder (el paso)."
+   },
+   "glosario": [
+    {
+     "palabra": "take place",
+     "significado": "tener lugar, celebrarse"
+    }
+   ]
+  },
+  {
+   "id": "e03",
+   "tipo": "hueco",
+   "enunciado": "Completa con un verbo.",
+   "frase": "Students should ___ attention to the instructions.",
+   "respuestas": [
+    "pay"
+   ],
+   "explicacion": "Es pay attention, prestar atención, de la primera tabla. La pista es el sustantivo attention tras el hueco y la preposición to que introduce aquello a lo que se atiende. El verbo inglés es pay (pagar), no lend ni give: atención se «paga». Tras should va el infinitivo sin to.",
+   "explicacion_breve": "«Pay attention» = prestar atención.",
+   "traduccion": "Los estudiantes deberían prestar atención a las instrucciones.",
+   "errores_previstos": [
+    {
+     "respuesta": "put",
+     "explicacion": "Put attention es un calco de «poner atención»; la colocación correcta es pay attention."
+    },
+    {
+     "respuesta": "lend",
+     "explicacion": "Lend significa prestar (dinero, objetos), pero con attention se usa pay."
+    },
+    {
+     "respuesta": "make",
+     "explicacion": "Make attention no existe; prestar atención es pay attention."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "pay attention",
+     "significado": "prestar atención"
+    }
+   ]
+  },
+  {
+   "id": "e04",
+   "tipo": "corregir",
+   "enunciado": "Corrige el error de colocación.",
+   "frase": "There was very strong rain during the night.",
+   "respuestas": [
+    "There was very heavy rain during the night.",
+    "There was heavy rain during the night."
+   ],
+   "explicacion": "La segunda tabla y los errores típicos de la ficha lo dicen: la lluvia intensa es heavy rain, igual que el tráfico denso es heavy traffic. La pista es el sustantivo rain, que no se combina con strong. Strong se reserva para el viento o el café. La frase puede llevar o no el intensificador very.",
+   "explicacion_breve": "La lluvia intensa es «heavy rain».",
+   "traduccion": "Hubo una lluvia muy intensa durante la noche.",
+   "errores_previstos": [
+    {
+     "respuesta": "There was very strong rain during the night.",
+     "explicacion": "Es dejar la frase sin corregir: rain no va con strong, sino con heavy."
+    },
+    {
+     "respuesta": "There was very powerful rain during the night.",
+     "explicacion": "Powerful no se combina con rain; la colocación es heavy rain."
+    },
+    {
+     "respuesta": "There was very big rain during the night.",
+     "explicacion": "Big no se combina con rain; la colocación es heavy rain."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "heavy rain",
+     "significado": "lluvia intensa"
+    }
+   ]
+  },
+  {
+   "id": "e05",
+   "tipo": "eleccion",
+   "enunciado": "Elige la opción correcta.",
+   "frase": "After long negotiations, the unions ___ an agreement with the employers.",
+   "opciones": [
+    "reached",
+    "arrived",
+    "did",
+    "came"
+   ],
+   "respuestas": [
+    "reached"
+   ],
+   "explicacion": "Es reach an agreement, llegar a un acuerdo, de la primera tabla. La pista es el objeto directo an agreement: reach es transitivo y lo toma directamente, sin preposición. El español «llegar a» empuja a arrived, que necesitaría at y no se usa con acuerdos. El pasado reached concuerda con el relato de una negociación ya terminada.",
+   "explicacion_breve": "«Reach an agreement» = llegar a un acuerdo.",
+   "traduccion": "Tras largas negociaciones, los sindicatos llegaron a un acuerdo con los empresarios.",
+   "por_opcion": {
+    "reached": "Correcta: reach an agreement es la colocación fija y no lleva preposición.",
+    "arrived": "Arrive es llegar a un lugar y necesitaría at o in; con agreement es un calco del español.",
+    "did": "Do an agreement no existe; los acuerdos se alcanzan (reach) o se firman (sign).",
+    "came": "Come to an agreement existe, pero necesita to; «came an agreement» no es gramatical."
+   },
+   "glosario": [
+    {
+     "palabra": "reach an agreement",
+     "significado": "llegar a un acuerdo"
+    },
+    {
+     "palabra": "unions",
+     "significado": "sindicatos"
+    },
+    {
+     "palabra": "employers",
+     "significado": "empresarios, empleadores"
+    }
+   ]
+  },
+  {
+   "id": "e06",
+   "tipo": "hueco",
+   "enunciado": "Completa con un verbo.",
+   "frase": "We worked all weekend to ___ the deadline.",
+   "respuestas": [
+    "meet"
+   ],
+   "explicacion": "Es meet a deadline, cumplir un plazo, de la primera tabla. La pista es el sustantivo deadline (fecha límite) tras el hueco y el contexto de trabajar todo el fin de semana. El verbo meet, que en general es «conocer» o «reunirse», significa aquí cumplir o satisfacer, como en meet demand. Tras to va el infinitivo.",
+   "explicacion_breve": "«Meet a deadline» = cumplir un plazo.",
+   "traduccion": "Trabajamos todo el fin de semana para cumplir el plazo.",
+   "errores_previstos": [
+    {
+     "respuesta": "fulfil",
+     "explicacion": "Fulfil significa cumplir (una promesa, un requisito), pero con deadline la colocación natural es meet."
+    },
+    {
+     "respuesta": "comply",
+     "explicacion": "Comply significa cumplir una norma y necesita with; no se combina con deadline."
+    },
+    {
+     "respuesta": "arrive",
+     "explicacion": "Arrive no es transitivo y no se usa con plazos."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "meet a deadline",
+     "significado": "cumplir un plazo"
+    },
+    {
+     "palabra": "deadline",
+     "significado": "fecha límite, plazo"
+    }
+   ]
+  },
+  {
+   "id": "e07",
+   "tipo": "corregir",
+   "enunciado": "Corrige el error de colocación.",
+   "frase": "My uncle does a lot of business in Mexico and did a big effort to learn the local customs.",
+   "respuestas": [
+    "My uncle does a lot of business in Mexico and made a big effort to learn the local customs."
+   ],
+   "explicacion": "La frase combina dos colocaciones de la primera tabla: do business, que es correcta, y make an effort, que está mal escrita como did a big effort. La pista es el sustantivo effort, que siempre va con make. Solo hay que cambiar did por made y dejar does a lot of business como está. Es un buen ejemplo de que «hacer» se reparte entre make y do sin una lógica clara.",
+   "explicacion_breve": "Se dice «make an effort»; «do business» sí es correcto.",
+   "traduccion": "Mi tío hace muchos negocios en México y se esforzó mucho por aprender las costumbres locales.",
+   "errores_previstos": [
+    {
+     "respuesta": "My uncle does a lot of business in Mexico and did a big effort to learn the local customs.",
+     "explicacion": "Es dejar la frase sin corregir: effort va con make, no con do."
+    },
+    {
+     "respuesta": "My uncle makes a lot of business in Mexico and made a big effort to learn the local customs.",
+     "explicacion": "Se ha corregido effort, pero se ha estropeado business: la colocación correcta es do business."
+    },
+    {
+     "respuesta": "My uncle does a lot of business in Mexico and took a big effort to learn the local customs.",
+     "explicacion": "Take an effort no es la colocación; se dice make an effort."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "make an effort",
+     "significado": "hacer un esfuerzo, esforzarse"
+    },
+    {
+     "palabra": "do business",
+     "significado": "hacer negocios"
+    },
+    {
+     "palabra": "customs",
+     "significado": "costumbres"
+    }
+   ]
+  },
+  {
+   "id": "e08",
+   "tipo": "eleccion",
+   "enunciado": "Elige la opción correcta.",
+   "frase": "The minister ___ a speech at the opening ceremony.",
+   "opciones": [
+    "gave",
+    "said",
+    "told",
+    "made up"
+   ],
+   "respuestas": [
+    "gave"
+   ],
+   "explicacion": "Es give a speech, pronunciar un discurso, de la primera tabla. La pista es el sustantivo a speech como objeto directo. También existe make a speech, como recuerda la explicación del ejercicio, pero no figura entre las opciones. Say y tell no forman colocación con speech: say va con palabras concretas y tell con personas o historias.",
+   "explicacion_breve": "«Give a speech» = pronunciar un discurso (también «make a speech»).",
+   "traduccion": "El ministro pronunció un discurso en la ceremonia de inauguración.",
+   "por_opcion": {
+    "gave": "Correcta: give a speech es pronunciar o dar un discurso.",
+    "said": "Say introduce lo que se dice (said that…, said a few words), pero no se combina con speech.",
+    "told": "Tell necesita a una persona o va con story, joke, truth; «told a speech» no se dice.",
+    "made up": "Make up significa inventar(se); «made up a speech» sería inventarse un discurso, no pronunciarlo."
+   },
+   "glosario": [
+    {
+     "palabra": "give a speech",
+     "significado": "pronunciar un discurso"
+    },
+    {
+     "palabra": "opening ceremony",
+     "significado": "ceremonia de inauguración"
+    }
+   ]
+  },
+  {
+   "id": "e09",
+   "tipo": "hueco",
+   "enunciado": "Completa con un adverbio.",
+   "frase": "This restaurant is ___ recommended by local food critics.",
+   "respuestas": [
+    "highly"
+   ],
+   "explicacion": "Es highly recommended, muy recomendado, de la segunda tabla. La pista es el participio recommended: con él y con unlikely o successful el intensificador habitual es highly, no very ni high. Highly es el adverbio de high, pero aquí no indica altura sino grado. Es una colocación muy frecuente en reseñas y textos formales.",
+   "explicacion_breve": "«Highly recommended» = muy recomendado.",
+   "traduccion": "Este restaurante está muy recomendado por los críticos gastronómicos locales.",
+   "errores_previstos": [
+    {
+     "respuesta": "high",
+     "explicacion": "High es adjetivo; para modificar un participio hace falta el adverbio highly."
+    },
+    {
+     "respuesta": "much",
+     "explicacion": "Much recommended suena anticuado y forzado; la colocación natural es highly recommended."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "highly recommended",
+     "significado": "muy recomendado"
+    },
+    {
+     "palabra": "food critics",
+     "significado": "críticos gastronómicos"
+    }
+   ]
+  },
+  {
+   "id": "e10",
+   "tipo": "eleccion",
+   "enunciado": "Elige la opción correcta.",
+   "frase": "The new law will ___ a big impact on small farmers.",
+   "opciones": [
+    "have",
+    "do",
+    "give",
+    "take"
+   ],
+   "respuestas": [
+    "have"
+   ],
+   "explicacion": "Es have an impact on, repercutir en o tener repercusión en, de la primera tabla. La pista es el sustantivo impact seguido de la preposición on. Aquí el español «tener» sí coincide con have; el riesgo es dejarse llevar por «causar» o «hacer» un impacto. Tras will va el infinitivo have.",
+   "explicacion_breve": "«Have an impact on» = repercutir en.",
+   "traduccion": "La nueva ley tendrá un gran impacto en los pequeños agricultores.",
+   "por_opcion": {
+    "have": "Correcta: have an impact on es la colocación fija.",
+    "do": "Do an impact no se dice; do va con harm, business, research.",
+    "give": "Give an impact no es natural en inglés.",
+    "take": "Take an impact no existe con este sentido."
+   },
+   "glosario": [
+    {
+     "palabra": "have an impact on",
+     "significado": "repercutir en, tener impacto en"
+    },
+    {
+     "palabra": "farmers",
+     "significado": "agricultores"
+    }
+   ]
+  },
+  {
+   "id": "e11",
+   "tipo": "hueco",
+   "enunciado": "Completa con un verbo.",
+   "frase": "The campaign aims to ___ awareness of plastic pollution.",
+   "respuestas": [
+    "raise"
+   ],
+   "explicacion": "Es raise awareness, concienciar, de la primera tabla. La pista es el sustantivo awareness (conciencia, sensibilización) seguido de of. Raise significa elevar, aumentar, y se combina también con a question (plantear una cuestión) o funds (recaudar fondos). Tras aims to va el infinitivo.",
+   "explicacion_breve": "«Raise awareness» = concienciar.",
+   "traduccion": "La campaña pretende concienciar sobre la contaminación por plásticos.",
+   "errores_previstos": [
+    {
+     "respuesta": "make",
+     "explicacion": "Make awareness es un calco de «hacer conciencia» y no existe; se dice raise awareness."
+    },
+    {
+     "respuesta": "rise",
+     "explicacion": "Rise es intransitivo (subir) y no lleva objeto; el verbo transitivo es raise."
+    },
+    {
+     "respuesta": "do",
+     "explicacion": "Do awareness no existe; la colocación es raise awareness."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "raise awareness",
+     "significado": "concienciar, sensibilizar"
+    },
+    {
+     "palabra": "aim to",
+     "significado": "pretender, tener como objetivo"
+    }
+   ]
+  },
+  {
+   "id": "e12",
+   "tipo": "corregir",
+   "enunciado": "Corrige el error de colocación.",
+   "frase": "I always drink very hard coffee in the morning.",
+   "respuestas": [
+    "I always drink very strong coffee in the morning.",
+    "I always drink strong coffee in the morning."
+   ],
+   "explicacion": "La segunda tabla recoge strong coffee, café cargado. La pista es el sustantivo coffee: en inglés el café es strong o weak, nunca hard. Hard significa duro o difícil y no tiene el sentido de concentrado. Puede quedarse o no el intensificador very.",
+   "explicacion_breve": "El café cargado es «strong coffee».",
+   "traduccion": "Siempre tomo un café muy cargado por la mañana.",
+   "errores_previstos": [
+    {
+     "respuesta": "I always drink very hard coffee in the morning.",
+     "explicacion": "Es dejar la frase sin corregir: el café cargado es strong, no hard."
+    },
+    {
+     "respuesta": "I always drink very heavy coffee in the morning.",
+     "explicacion": "Heavy va con rain o traffic, no con coffee."
+    },
+    {
+     "respuesta": "I always drink very charged coffee in the morning.",
+     "explicacion": "Charged es un calco de «cargado» y no se usa con bebidas."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "strong coffee",
+     "significado": "café cargado"
+    }
+   ]
+  },
+  {
+   "id": "e13",
+   "tipo": "eleccion",
+   "enunciado": "Elige la opción correcta.",
+   "frase": "The government must ___ urgent steps to reduce emissions.",
+   "opciones": [
+    "take",
+    "make",
+    "do",
+    "give"
+   ],
+   "respuestas": [
+    "take"
+   ],
+   "explicacion": "Es take steps, tomar medidas, de la primera tabla. La pista es el sustantivo steps (pasos, medidas). Aquí el español «tomar» coincide con take, pero mucha gente duda con make o do. También se dice take measures o take action, siempre con take. Tras must va el infinitivo.",
+   "explicacion_breve": "«Take steps» = tomar medidas.",
+   "traduccion": "El Gobierno debe tomar medidas urgentes para reducir las emisiones.",
+   "por_opcion": {
+    "take": "Correcta: take steps significa tomar medidas.",
+    "make": "Make steps no es la colocación; make va con decision, progress, effort.",
+    "do": "Do steps no existe con este sentido.",
+    "give": "Give steps no es natural en inglés."
+   },
+   "glosario": [
+    {
+     "palabra": "take steps",
+     "significado": "tomar medidas"
+    },
+    {
+     "palabra": "emissions",
+     "significado": "emisiones"
+    }
+   ]
+  },
+  {
+   "id": "e14",
+   "tipo": "hueco",
+   "enunciado": "Completa con un adverbio (profundamente).",
+   "frase": "The fans were ___ disappointed by the result.",
+   "respuestas": [
+    "bitterly",
+    "deeply",
+    "profoundly"
+   ],
+   "explicacion": "La segunda tabla recoge bitterly disappointed, profundamente o amargamente decepcionado; deeply disappointed es igual de natural y profoundly disappointed, algo más formal, también es correcto, por eso valen las tres. La pista es el adjetivo disappointed y el enunciado, que pide «profundamente». Son adverbios, no adjetivos: van con -ly porque modifican a otro adjetivo.",
+   "explicacion_breve": "«Bitterly / deeply / profoundly disappointed» = profundamente decepcionado.",
+   "traduccion": "Los aficionados quedaron profundamente decepcionados con el resultado.",
+   "errores_previstos": [
+    {
+     "respuesta": "deep",
+     "explicacion": "Deep es adjetivo; para intensificar el adjetivo disappointed hace falta el adverbio deeply."
+    },
+    {
+     "respuesta": "very much",
+     "explicacion": "Very much no va delante de un adjetivo como disappointed; para «profundamente» se usa bitterly o deeply."
+    },
+    {
+     "respuesta": "strongly",
+     "explicacion": "Strongly va con verbos de opinión (strongly agree, strongly recommend), no con disappointed."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "bitterly disappointed",
+     "significado": "profundamente decepcionado"
+    },
+    {
+     "palabra": "fans",
+     "significado": "aficionados, seguidores"
+    }
+   ]
+  },
+  {
+   "id": "e15",
+   "tipo": "ordenar",
+   "enunciado": "Ordena las palabras.",
+   "palabras": [
+    "role",
+    "plays",
+    "Tourism",
+    "a",
+    "in",
+    "key",
+    "Spain"
+   ],
+   "respuestas": [
+    "Tourism plays a key role in Spain",
+    "In Spain tourism plays a key role",
+    "Tourism in Spain plays a key role"
+   ],
+   "explicacion": "Es play a key role, desempeñar un papel clave, de la segunda tabla. El verbo es play (jugar, interpretar), igual que se interpreta un papel en una obra; key va delante de role porque los adjetivos preceden al sustantivo. El complemento in Spain puede ir al final, al principio o justo detrás de tourism (Tourism in Spain plays a key role, «el turismo en España»), por eso se aceptan los tres órdenes.",
+   "explicacion_breve": "«Play a key role» = desempeñar un papel clave.",
+   "traduccion": "El turismo desempeña un papel clave en España.",
+   "errores_previstos": [
+    {
+     "respuesta": "Tourism plays a role key in Spain",
+     "explicacion": "El adjetivo key va delante del sustantivo: a key role."
+    },
+    {
+     "respuesta": "Tourism in Spain plays a role key",
+     "explicacion": "Coloca key detrás de role, como en español; en inglés el adjetivo va delante: a key role."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "play a key role",
+     "significado": "desempeñar un papel clave"
+    }
+   ]
+  }
  ],
- "fuente": {"nombre": "propia"}
+ "fuente": {
+  "nombre": "propia"
+ },
+ "descripcion_larga_es": "Las colocaciones son combinaciones de palabras que los nativos usan juntas de forma natural, como make a decision, heavy traffic o pay attention. No siguen una lógica que pueda deducirse, así que hay que aprenderlas en bloque. Son la diferencia entre un inglés correcto y uno que suena a traducción; al hispanohablante le traicionan los verbos make, do, take y have y los adjetivos intensificadores.",
+ "contexto": {
+  "que_es": "Una colocación es una combinación habitual de palabras: un verbo con su sustantivo (make a mistake, take steps), un adjetivo con su sustantivo (heavy rain, strong coffee) o un adverbio con su adjetivo (highly recommended, bitterly disappointed). Otras combinaciones serían gramaticalmente posibles, pero un nativo no las usaría.",
+  "por_que_importa": "Una colocación equivocada rara vez impide entender, pero suena extraña y delata la traducción literal, lo que resta mucho en un examen de nivel B2 o superior, donde se evalúa el rango y la naturalidad del léxico. En textos económicos y administrativos son constantes: reach an agreement, meet a deadline, take steps, have an impact on.",
+  "cuando_se_usa": "En cualquier registro, pero sobre todo al escribir informes, correos formales o al exponer oralmente. La señal de alarma es un sustantivo muy frecuente (decision, mistake, effort, attention, rain, traffic) que pide un verbo o adjetivo concreto. El hispanohablante tiende a traducir «hacer», «tomar» o «fuerte» palabra por palabra, y ahí es donde falla."
+ }
 }

@@ -6,60 +6,539 @@
  "nivel": "A1",
  "resumen": "Tres verbos irregulares muy frecuentes. Aller sirve para desplazarse, para saludar (Comment allez-vous ?) y para el futuro próximo; faire forma expresiones de tiempo atmosférico, deportes y tareas; venir indica procedencia y, con de + infinitivo, el pasado reciente.",
  "explicacion": [
-  {"tipo": "tabla", "cabecera": ["Persona", "aller", "faire", "venir"], "filas": [
-   ["je", "vais", "fais", "viens"],
-   ["tu", "vas", "fais", "viens"],
-   ["il, elle, on", "va", "fait", "vient"],
-   ["nous", "allons", "faisons", "venons"],
-   ["vous", "allez", "faites", "venez"],
-   ["ils, elles", "vont", "font", "viennent"]
-  ]},
-  {"tipo": "texto", "texto": "Fíjate en vous faites (no faisez): solo être (vous êtes), faire (vous faites) y dire (vous dites) no terminan en -ez. En la 3.ª persona del plural se parecen ils vont, ils sont, ils font. Como venir se conjugan devenir, revenir y tenir (je tiens, ils tiennent)."},
-  {"tipo": "lista", "items": [
-   "Aller: Je vais à Paris, au cinéma, chez Paul. Saludos: Comment vas-tu ? Ça va ? Je vais bien. Futuro próximo: Je vais partir (voy a irme).",
-   "Venir: Je viens de Grèce (soy de Grecia, vengo de Grecia), Tu viens avec moi ? Pasado reciente: Il vient de sortir (acaba de salir).",
-   "Faire + partitivo para deportes y actividades: faire du sport, du vélo, du ski, de la natation, de la voile; faire une promenade.",
-   "Faire para las tareas de casa: faire la cuisine, la vaisselle, le ménage, les courses, la lessive, le lit."
-  ]},
-  {"tipo": "tabla", "cabecera": ["Tiempo atmosférico", "Español"], "filas": [
-   ["Quel temps fait-il ?", "¿Qué tiempo hace?"],
-   ["Il fait beau / mauvais.", "Hace buen / mal tiempo."],
-   ["Il fait chaud / froid / frais.", "Hace calor / frío / fresco."],
-   ["Il fait du soleil / du vent.", "Hace sol / viento."],
-   ["Il pleut. Il neige. Il y a des nuages.", "Llueve. Nieva. Está nublado."]
-  ]}
+  {
+   "tipo": "tabla",
+   "cabecera": [
+    "Persona",
+    "aller",
+    "faire",
+    "venir"
+   ],
+   "filas": [
+    [
+     "je",
+     "vais",
+     "fais",
+     "viens"
+    ],
+    [
+     "tu",
+     "vas",
+     "fais",
+     "viens"
+    ],
+    [
+     "il, elle, on",
+     "va",
+     "fait",
+     "vient"
+    ],
+    [
+     "nous",
+     "allons",
+     "faisons",
+     "venons"
+    ],
+    [
+     "vous",
+     "allez",
+     "faites",
+     "venez"
+    ],
+    [
+     "ils, elles",
+     "vont",
+     "font",
+     "viennent"
+    ]
+   ]
+  },
+  {
+   "tipo": "texto",
+   "texto": "Fíjate en vous faites (no faisez): solo être (vous êtes), faire (vous faites) y dire (vous dites) no terminan en -ez. En la 3.ª persona del plural se parecen ils vont, ils sont, ils font. Como venir se conjugan devenir, revenir y tenir (je tiens, ils tiennent)."
+  },
+  {
+   "tipo": "lista",
+   "items": [
+    "Aller: Je vais à Paris, au cinéma, chez Paul. Saludos: Comment vas-tu ? Ça va ? Je vais bien. Futuro próximo: Je vais partir (voy a irme).",
+    "Venir: Je viens de Grèce (soy de Grecia, vengo de Grecia), Tu viens avec moi ? Pasado reciente: Il vient de sortir (acaba de salir).",
+    "Faire + partitivo para deportes y actividades: faire du sport, du vélo, du ski, de la natation, de la voile; faire une promenade.",
+    "Faire para las tareas de casa: faire la cuisine, la vaisselle, le ménage, les courses, la lessive, le lit."
+   ]
+  },
+  {
+   "tipo": "tabla",
+   "cabecera": [
+    "Tiempo atmosférico",
+    "Español"
+   ],
+   "filas": [
+    [
+     "Quel temps fait-il ?",
+     "¿Qué tiempo hace?"
+    ],
+    [
+     "Il fait beau / mauvais.",
+     "Hace buen / mal tiempo."
+    ],
+    [
+     "Il fait chaud / froid / frais.",
+     "Hace calor / frío / fresco."
+    ],
+    [
+     "Il fait du soleil / du vent.",
+     "Hace sol / viento."
+    ],
+    [
+     "Il pleut. Il neige. Il y a des nuages.",
+     "Llueve. Nieva. Está nublado."
+    ]
+   ]
+  }
  ],
  "ejemplos": [
-  {"frase": "Salut, Joe-Bob, où vas-tu ? Je vais au café.", "traduccion": "Hola, Joe-Bob, ¿adónde vas? Voy a la cafetería."},
-  {"frase": "Bonjour, monsieur le professeur. Comment allez-vous aujourd'hui ?", "traduccion": "Buenos días, profesor. ¿Cómo está usted hoy?"},
-  {"frase": "Qu'est-ce qu'on fait ? Nous ne faisons rien, absolument rien.", "traduccion": "¿Qué hacemos? No hacemos nada, absolutamente nada."},
-  {"frase": "Quand il fait mauvais, Tex fait le ménage et Tammy lit.", "traduccion": "Cuando hace mal tiempo, Tex limpia la casa y Tammy lee."},
-  {"frase": "Corey et Joe-Bob viennent ; tout le monde vient à la fête.", "traduccion": "Corey y Joe-Bob vienen; todo el mundo viene a la fiesta."},
-  {"frase": "Qu'est-ce que tu deviens ?", "traduccion": "¿Qué es de tu vida?"}
+  {
+   "frase": "Salut, Joe-Bob, où vas-tu ? Je vais au café.",
+   "traduccion": "Hola, Joe-Bob, ¿adónde vas? Voy a la cafetería."
+  },
+  {
+   "frase": "Bonjour, monsieur le professeur. Comment allez-vous aujourd'hui ?",
+   "traduccion": "Buenos días, profesor. ¿Cómo está usted hoy?"
+  },
+  {
+   "frase": "Qu'est-ce qu'on fait ? Nous ne faisons rien, absolument rien.",
+   "traduccion": "¿Qué hacemos? No hacemos nada, absolutamente nada."
+  },
+  {
+   "frase": "Quand il fait mauvais, Tex fait le ménage et Tammy lit.",
+   "traduccion": "Cuando hace mal tiempo, Tex limpia la casa y Tammy lee."
+  },
+  {
+   "frase": "Corey et Joe-Bob viennent ; tout le monde vient à la fête.",
+   "traduccion": "Corey y Joe-Bob vienen; todo el mundo viene a la fiesta."
+  },
+  {
+   "frase": "Qu'est-ce que tu deviens ?",
+   "traduccion": "¿Qué es de tu vida?"
+  }
  ],
  "errores_hispanohablantes": [
-  {"mal": "Vous faisez du sport ?", "bien": "Vous faites du sport ?", "nota": "Faire hace vous faites, sin -ez."},
-  {"mal": "Je fais sport.", "bien": "Je fais du sport.", "nota": "Faire + actividad lleva partitivo: du sport, de la natation."},
-  {"mal": "Ils allent au cinéma.", "bien": "Ils vont au cinéma.", "nota": "Aller es irregular: ils vont."},
-  {"mal": "Ils vienent demain.", "bien": "Ils viennent demain.", "nota": "Venir dobla la n en ils, elles: viennent."}
+  {
+   "mal": "Vous faisez du sport ?",
+   "bien": "Vous faites du sport ?",
+   "nota": "Faire hace vous faites, sin -ez."
+  },
+  {
+   "mal": "Je fais sport.",
+   "bien": "Je fais du sport.",
+   "nota": "Faire + actividad lleva partitivo: du sport, de la natation."
+  },
+  {
+   "mal": "Ils allent au cinéma.",
+   "bien": "Ils vont au cinéma.",
+   "nota": "Aller es irregular: ils vont."
+  },
+  {
+   "mal": "Ils vienent demain.",
+   "bien": "Ils viennent demain.",
+   "nota": "Venir dobla la n en ils, elles: viennent."
+  }
  ],
  "ejercicios": [
-  {"id": "e01", "tipo": "hueco", "enunciado": "Conjuga el verbo en presente.", "frase": "Je ___ à la banque. (aller)", "respuestas": ["vais"], "explicacion": "Aller con je: je vais.", "origen": "tatoeba:6632"},
-  {"id": "e02", "tipo": "hueco", "enunciado": "Conjuga el verbo en presente.", "frase": "Elle ___ du nord. (venir)", "respuestas": ["vient"], "explicacion": "Venir con elle: elle vient.", "origen": "tatoeba:3981637"},
-  {"id": "e03", "tipo": "hueco", "enunciado": "Conjuga el verbo en presente.", "frase": "Ils ___ la cuisine. (faire)", "respuestas": ["font"], "explicacion": "Faire con ils: ils font. Faire la cuisine es cocinar.", "origen": "tatoeba:7120109"},
-  {"id": "e04", "tipo": "hueco", "enunciado": "Conjuga el verbo en presente.", "frase": "Sam, que ___-tu ? (faire)", "respuestas": ["fais"], "explicacion": "Faire con tu: tu fais (aquí con inversión: fais-tu).", "origen": "tatoeba:428454"},
-  {"id": "e05", "tipo": "transformar", "enunciado": "Cambia el sujeto por ils.", "frase": "Je viens de Colombie.", "respuestas": ["Ils viennent de Colombie."], "explicacion": "Venir con ils: ils viennent, con doble n.", "origen": "tatoeba:1313356"},
-  {"id": "e06", "tipo": "transformar", "enunciado": "Cambia el sujeto por nous.", "frase": "Je vais au lit.", "respuestas": ["Nous allons au lit."], "explicacion": "Aller con nous: nous allons.", "origen": "tatoeba:889608"},
-  {"id": "e07", "tipo": "eleccion", "enunciado": "Elige la forma correcta.", "frase": "D'où ___ ton ami ?", "opciones": ["vient", "viens", "viennent"], "respuestas": ["vient"], "explicacion": "El sujeto es ton ami (3.ª persona del singular): vient.", "origen": "tatoeba:1088169"},
-  {"id": "e08", "tipo": "ordenar", "enunciado": "Ordena las palabras.", "palabras": ["mieux", "fais", "mon", "de", "Je"], "respuestas": ["Je fais de mon mieux"], "explicacion": "Faire de son mieux: hacer todo lo posible.", "origen": "tatoeba:1858250"},
-  {"id": "e09", "tipo": "eleccion", "enunciado": "Elige la forma correcta.", "frase": "Vous ___ du sport le week-end ?", "opciones": ["faites", "faisez", "fais"], "respuestas": ["faites"], "explicacion": "Faire con vous es irregular: vous faites."},
-  {"id": "e10", "tipo": "hueco", "enunciado": "Conjuga el verbo en presente.", "frase": "Comment ___-vous, madame ? (aller)", "respuestas": ["allez"], "explicacion": "Saludo formal: Comment allez-vous ?"},
-  {"id": "e11", "tipo": "eleccion", "enunciado": "Elige la forma correcta.", "frase": "Aujourd'hui, il ___ beau : allons à la plage !", "opciones": ["fait", "est", "a"], "respuestas": ["fait"], "explicacion": "El tiempo atmosférico se expresa con il fait: il fait beau."},
-  {"id": "e12", "tipo": "hueco", "enunciado": "Conjuga el verbo en presente.", "frase": "Le samedi, nous ___ les courses. (faire)", "respuestas": ["faisons"], "explicacion": "Faire con nous: nous faisons. Faire les courses es hacer la compra."},
-  {"id": "e13", "tipo": "hueco", "enunciado": "Conjuga el verbo en presente.", "frase": "Mes cousins ___ dîner à la maison ce soir. (venir)", "respuestas": ["viennent"], "explicacion": "Venir con un sujeto plural: viennent."},
-  {"id": "e14", "tipo": "corregir", "enunciado": "Corrige el error.", "frase": "Vous faisez la vaisselle ?", "respuestas": ["Vous faites la vaisselle ?"], "explicacion": "Faire con vous: vous faites."},
-  {"id": "e15", "tipo": "corregir", "enunciado": "Corrige el error.", "frase": "Ils allent au cinéma ce soir.", "respuestas": ["Ils vont au cinéma ce soir."], "explicacion": "Aller con ils: ils vont."},
-  {"id": "e16", "tipo": "corregir", "enunciado": "Corrige el error.", "frase": "Il est froid aujourd'hui.", "respuestas": ["Il fait froid aujourd'hui."], "explicacion": "Para el tiempo atmosférico se usa il fait."}
+  {
+   "id": "e01",
+   "tipo": "hueco",
+   "enunciado": "Conjuga el verbo en presente.",
+   "frase": "Je ___ à la banque. (aller)",
+   "respuestas": [
+    "vais"
+   ],
+   "explicacion": "Se aplica la tabla de conjugación de «aller» en presente. La pista es el sujeto «je», que pide la forma irregular «vais». No se parece al infinitivo, por eso hay que memorizarla. La preposición «à la» indica el destino del desplazamiento, como en «je vais au cinéma».",
+   "origen": "tatoeba:6632",
+   "explicacion_breve": "Aller con je: je vais.",
+   "traduccion": "Voy al banco.",
+   "errores_previstos": [
+    {
+     "respuesta": "alle",
+     "explicacion": "Se ha conjugado como un verbo regular en -er; «aller» es irregular: «je vais»."
+    },
+    {
+     "respuesta": "vas",
+     "explicacion": "«Vas» es la forma de «tu»; con «je» es «vais»."
+    }
+   ]
+  },
+  {
+   "id": "e02",
+   "tipo": "hueco",
+   "enunciado": "Conjuga el verbo en presente.",
+   "frase": "Elle ___ du nord. (venir)",
+   "respuestas": [
+    "vient"
+   ],
+   "explicacion": "Se aplica la tabla de «venir» en presente. La pista es el sujeto «elle», tercera persona del singular, que lleva la forma «vient», con -t final. «Venir de» indica procedencia, y aquí equivale al español «ser de» o «venir del norte».",
+   "origen": "tatoeba:3981637",
+   "explicacion_breve": "Venir con elle: elle vient.",
+   "traduccion": "Ella es del norte.",
+   "errores_previstos": [
+    {
+     "respuesta": "viens",
+     "explicacion": "«Viens» es la forma de «je» y «tu»; con «elle» es «vient»."
+    },
+    {
+     "respuesta": "vienne",
+     "explicacion": "«Vienne» es subjuntivo; en presente de indicativo con «elle» se dice «vient»."
+    }
+   ]
+  },
+  {
+   "id": "e03",
+   "tipo": "hueco",
+   "enunciado": "Conjuga el verbo en presente.",
+   "frase": "Ils ___ la cuisine. (faire)",
+   "respuestas": [
+    "font"
+   ],
+   "explicacion": "Se aplica la tabla de «faire» en presente y la lista de tareas de casa. La pista es el sujeto «ils», tercera persona del plural, cuya forma es irregular: «font», que se parece a «vont» y «sont». «Faire la cuisine» significa cocinar, una de las expresiones de tareas con «faire».",
+   "origen": "tatoeba:7120109",
+   "explicacion_breve": "Faire con ils: ils font. Faire la cuisine es cocinar.",
+   "traduccion": "Ellos cocinan.",
+   "errores_previstos": [
+    {
+     "respuesta": "faisent",
+     "explicacion": "Se ha formado sobre «nous faisons», pero la tercera persona del plural es irregular: «ils font»."
+    },
+    {
+     "respuesta": "fait",
+     "explicacion": "«Fait» es la forma de «il» o «elle»; el sujeto es plural: «font»."
+    }
+   ]
+  },
+  {
+   "id": "e04",
+   "tipo": "hueco",
+   "enunciado": "Conjuga el verbo en presente.",
+   "frase": "Sam, que ___-tu ? (faire)",
+   "respuestas": [
+    "fais"
+   ],
+   "explicacion": "Se aplica la tabla de «faire» con el sujeto «tu», que lleva la forma «fais». La pista es «-tu» después del hueco: la pregunta usa inversión, así que el verbo va delante del pronombre unido por un guion: «que fais-tu ?». La forma no cambia por la inversión.",
+   "origen": "tatoeba:428454",
+   "explicacion_breve": "Faire con tu: tu fais (aquí con inversión: fais-tu).",
+   "traduccion": "Sam, ¿qué haces?",
+   "errores_previstos": [
+    {
+     "respuesta": "fait",
+     "explicacion": "«Fait» es la forma de tercera persona; con «tu» es «fais», con -s."
+    },
+    {
+     "respuesta": "faites",
+     "explicacion": "«Faites» es la forma de «vous», no de «tu»."
+    }
+   ]
+  },
+  {
+   "id": "e05",
+   "tipo": "transformar",
+   "enunciado": "Cambia el sujeto por ils.",
+   "frase": "Je viens de Colombie.",
+   "respuestas": [
+    "Ils viennent de Colombie."
+   ],
+   "explicacion": "Se aplica la tabla de «venir»: con «ils» la forma es «viennent», con doble n. La pista es el cambio de sujeto pedido en el enunciado. El resto de la frase no cambia: «venir de» + país sin artículo para un país femenino como «Colombie».",
+   "origen": "tatoeba:1313356",
+   "explicacion_breve": "Venir con ils: ils viennent, con doble n.",
+   "traduccion": "Son de Colombia.",
+   "errores_previstos": [
+    {
+     "respuesta": "Ils vienent de Colombie.",
+     "explicacion": "Falta doblar la n: «ils viennent»."
+    },
+    {
+     "respuesta": "Ils venent de Colombie.",
+     "explicacion": "Se ha formado sobre «nous venons»; la forma de «ils» lleva diptongo y doble n: «viennent»."
+    },
+    {
+     "respuesta": "Ils vient de Colombie.",
+     "explicacion": "«Vient» es singular; con «ils» es «viennent»."
+    }
+   ]
+  },
+  {
+   "id": "e06",
+   "tipo": "transformar",
+   "enunciado": "Cambia el sujeto por nous.",
+   "frase": "Je vais au lit.",
+   "respuestas": [
+    "Nous allons au lit."
+   ],
+   "explicacion": "Se aplica la tabla de «aller»: con «nous» la forma es «allons», la única, junto con «allez», que se parece al infinitivo. La pista es el cambio de sujeto pedido. «Aller au lit» es la expresión para irse a la cama, con contracción «à + le = au».",
+   "origen": "tatoeba:889608",
+   "explicacion_breve": "Aller con nous: nous allons.",
+   "traduccion": "Nos vamos a la cama.",
+   "errores_previstos": [
+    {
+     "respuesta": "Nous vons au lit.",
+     "explicacion": "«Nous» no se forma sobre «vont»; la forma correcta es «allons»."
+    },
+    {
+     "respuesta": "Nous allez au lit.",
+     "explicacion": "«Allez» es la forma de «vous»; con «nous» es «allons»."
+    }
+   ]
+  },
+  {
+   "id": "e07",
+   "tipo": "eleccion",
+   "enunciado": "Elige la forma correcta.",
+   "frase": "D'où ___ ton ami ?",
+   "opciones": [
+    "vient",
+    "viens",
+    "viennent"
+   ],
+   "respuestas": [
+    "vient"
+   ],
+   "explicacion": "Se aplica la tabla de «venir». La pista es el sujeto pospuesto «ton ami», tercera persona del singular: en esta pregunta el sujeto va detrás del verbo, pero la concordancia sigue siendo con él. Por eso se dice «D'où vient ton ami ?».",
+   "origen": "tatoeba:1088169",
+   "explicacion_breve": "El sujeto es ton ami (3.ª persona del singular): vient.",
+   "traduccion": "¿De dónde es tu amigo?",
+   "por_opcion": {
+    "vient": "Correcta: tercera persona del singular, como «ton ami».",
+    "viens": "Incorrecta: es la forma de «je» o «tu»; aquí el sujeto es «ton ami».",
+    "viennent": "Incorrecta: es plural; solo valdría con «tes amis»."
+   }
+  },
+  {
+   "id": "e08",
+   "tipo": "ordenar",
+   "enunciado": "Ordena las palabras.",
+   "palabras": [
+    "mieux",
+    "fais",
+    "mon",
+    "de",
+    "Je"
+   ],
+   "respuestas": [
+    "Je fais de mon mieux"
+   ],
+   "explicacion": "Se aplica la tabla de «faire» con «je fais» y la expresión fija «faire de son mieux», que significa hacer todo lo posible. El posesivo cambia con el sujeto: con «je» se dice «de mon mieux». El orden es sujeto, verbo y luego la expresión completa «de mon mieux».",
+   "origen": "tatoeba:1858250",
+   "explicacion_breve": "Faire de son mieux: hacer todo lo posible.",
+   "traduccion": "Hago lo que puedo.",
+   "errores_previstos": [
+    {
+     "respuesta": "Je fais mon de mieux",
+     "explicacion": "La expresión es fija: «de» va delante del posesivo, «de mon mieux»."
+    },
+    {
+     "respuesta": "Je fais mon mieux de",
+     "explicacion": "La preposición «de» encabeza la expresión: «faire de son mieux»."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "faire de son mieux",
+     "significado": "hacer todo lo posible, hacer lo que uno puede"
+    }
+   ]
+  },
+  {
+   "id": "e09",
+   "tipo": "eleccion",
+   "enunciado": "Elige la forma correcta.",
+   "frase": "Vous ___ du sport le week-end ?",
+   "opciones": [
+    "faites",
+    "faisez",
+    "fais"
+   ],
+   "respuestas": [
+    "faites"
+   ],
+   "explicacion": "Se aplica la observación de la ficha: con «vous», «faire» no termina en -ez sino en -tes, como «être» y «dire». La pista es el sujeto «vous». Además, la frase usa «faire du sport», con partitivo, que es la forma correcta de hablar de actividades.",
+   "explicacion_breve": "Faire con vous es irregular: vous faites.",
+   "traduccion": "¿Hacen deporte el fin de semana?",
+   "por_opcion": {
+    "faites": "Correcta: forma irregular de «faire» con «vous».",
+    "faisez": "Incorrecta: es la forma que daría la regla general, pero «faire» es una de las tres excepciones (vous êtes, vous faites, vous dites).",
+    "fais": "Incorrecta: es la forma de «je» o «tu»."
+   }
+  },
+  {
+   "id": "e10",
+   "tipo": "hueco",
+   "enunciado": "Conjuga el verbo en presente.",
+   "frase": "Comment ___-vous, madame ? (aller)",
+   "respuestas": [
+    "allez"
+   ],
+   "explicacion": "Se aplica el uso de «aller» en los saludos, recogido en la lista de la ficha: «Comment allez-vous ?» pregunta por el estado de salud. La pista es el pronombre «-vous» tras el guion, que pide la forma «allez». La fórmula con «vous» es la de cortesía, apropiada para dirigirse a «madame».",
+   "explicacion_breve": "Saludo formal: Comment allez-vous ?",
+   "traduccion": "¿Cómo está usted, señora?",
+   "errores_previstos": [
+    {
+     "respuesta": "êtes",
+     "explicacion": "Calco del español «¿cómo está usted?»: en francés el saludo se hace con «aller», «Comment allez-vous ?»."
+    },
+    {
+     "respuesta": "va",
+     "explicacion": "«Va» es la tercera persona del singular; con «vous» se dice «allez»."
+    }
+   ]
+  },
+  {
+   "id": "e11",
+   "tipo": "eleccion",
+   "enunciado": "Elige la forma correcta.",
+   "frase": "Aujourd'hui, il ___ beau : allons à la plage !",
+   "opciones": [
+    "fait",
+    "est",
+    "a"
+   ],
+   "respuestas": [
+    "fait"
+   ],
+   "explicacion": "Se aplica la tabla de expresiones del tiempo atmosférico: en francés se usa «il fait» + adjetivo, igual que el español «hace». La pista es «beau» referido al día: «il fait beau» significa que hace buen tiempo. «Il est beau» significaría que él es guapo.",
+   "explicacion_breve": "El tiempo atmosférico se expresa con il fait: il fait beau.",
+   "traduccion": "Hoy hace buen tiempo: ¡vamos a la playa!",
+   "por_opcion": {
+    "fait": "Correcta: el tiempo atmosférico se expresa con «il fait»: «il fait beau».",
+    "est": "Incorrecta: «il est beau» describe a una persona o cosa («es guapo»), no el tiempo.",
+    "a": "Incorrecta: «il a beau» + infinitivo es otra construcción («por mucho que…»), y aquí no tiene sentido."
+   }
+  },
+  {
+   "id": "e12",
+   "tipo": "hueco",
+   "enunciado": "Conjuga el verbo en presente.",
+   "frase": "Le samedi, nous ___ les courses. (faire)",
+   "respuestas": [
+    "faisons"
+   ],
+   "explicacion": "Se aplica la tabla de «faire»: con «nous» la forma es «faisons», que se escribe con -ai- pero se pronuncia con una e débil. La pista es el sujeto «nous». «Faire les courses» significa hacer la compra y forma parte de las expresiones de tareas de la ficha.",
+   "explicacion_breve": "Faire con nous: nous faisons. Faire les courses es hacer la compra.",
+   "traduccion": "Los sábados hacemos la compra.",
+   "errores_previstos": [
+    {
+     "respuesta": "fesons",
+     "explicacion": "Se ha escrito como suena, pero la ortografía es «faisons»."
+    },
+    {
+     "respuesta": "faites",
+     "explicacion": "«Faites» es la forma de «vous»; con «nous» es «faisons»."
+    }
+   ]
+  },
+  {
+   "id": "e13",
+   "tipo": "hueco",
+   "enunciado": "Conjuga el verbo en presente.",
+   "frase": "Mes cousins ___ dîner à la maison ce soir. (venir)",
+   "respuestas": [
+    "viennent"
+   ],
+   "explicacion": "Se aplica la tabla de «venir»: con un sujeto de tercera persona del plural, como «mes cousins», la forma es «viennent», con diptongo y doble n. «Venir dîner» (venir a cenar) se construye sin preposición ante el infinitivo, a diferencia del español «venir a».",
+   "explicacion_breve": "Venir con un sujeto plural: viennent.",
+   "traduccion": "Mis primos vienen a cenar a casa esta noche.",
+   "errores_previstos": [
+    {
+     "respuesta": "vienent",
+     "explicacion": "Falta doblar la n: «viennent»."
+    },
+    {
+     "respuesta": "vient",
+     "explicacion": "Es singular; «mes cousins» es plural."
+    },
+    {
+     "respuesta": "viennent à",
+     "explicacion": "Calco del español «venir a cenar»: tras «venir» el infinitivo de finalidad va sin preposición, «viennent dîner»."
+    }
+   ]
+  },
+  {
+   "id": "e14",
+   "tipo": "corregir",
+   "enunciado": "Corrige el error.",
+   "frase": "Vous faisez la vaisselle ?",
+   "respuestas": [
+    "Vous faites la vaisselle ?"
+   ],
+   "explicacion": "Se aplica la excepción de la ficha: con «vous», «faire» hace «faites», no «faisez». La frase sigue la regla general por analogía con «vous parlez», pero «faire» es uno de los tres verbos que no terminan en -ez. «Faire la vaisselle» significa fregar los platos.",
+   "explicacion_breve": "Faire con vous: vous faites.",
+   "traduccion": "¿Friegan los platos?",
+   "errores_previstos": [
+    {
+     "respuesta": "Vous faisez la vaisselle ?",
+     "explicacion": "Es la frase sin corregir: con «vous», «faire» es irregular, «faites»."
+    },
+    {
+     "respuesta": "Vous fait la vaisselle ?",
+     "explicacion": "«Fait» es tercera persona del singular; con «vous» es «faites»."
+    }
+   ]
+  },
+  {
+   "id": "e15",
+   "tipo": "corregir",
+   "enunciado": "Corrige el error.",
+   "frase": "Ils allent au cinéma ce soir.",
+   "respuestas": [
+    "Ils vont au cinéma ce soir."
+   ],
+   "explicacion": "Se aplica la tabla de «aller»: con «ils» la forma es «vont», totalmente irregular. La frase conjuga «aller» como si fuera regular en -er («ils allent»). Hay que recordar la serie «ils vont, ils sont, ils font», que comparten terminación.",
+   "explicacion_breve": "Aller con ils: ils vont.",
+   "traduccion": "Ellos van al cine esta noche.",
+   "errores_previstos": [
+    {
+     "respuesta": "Ils allent au cinéma ce soir.",
+     "explicacion": "Es la frase sin corregir: «aller» es irregular y con «ils» hace «vont»."
+    },
+    {
+     "respuesta": "Ils vant au cinéma ce soir.",
+     "explicacion": "La forma correcta es «vont», con o."
+    }
+   ]
+  },
+  {
+   "id": "e16",
+   "tipo": "corregir",
+   "enunciado": "Corrige el error.",
+   "frase": "Il est froid aujourd'hui.",
+   "respuestas": [
+    "Il fait froid aujourd'hui."
+   ],
+   "explicacion": "Se aplica la tabla del tiempo atmosférico: en francés se dice «il fait froid», con «faire», igual que el español «hace frío». La frase usa «il est froid», que significaría que algo o alguien está frío o es frío (por ejemplo, un plato o una persona distante). Por eso hay que cambiar «est» por «fait».",
+   "explicacion_breve": "Para el tiempo atmosférico se usa il fait.",
+   "traduccion": "Hoy hace frío.",
+   "errores_previstos": [
+    {
+     "respuesta": "Il est froid aujourd'hui.",
+     "explicacion": "Es la frase sin corregir: para el tiempo se usa «il fait», no «il est»."
+    },
+    {
+     "respuesta": "Il a froid aujourd'hui.",
+     "explicacion": "«Il a froid» significa que él tiene frío; para el tiempo atmosférico se dice «il fait froid»."
+    }
+   ]
+  }
  ],
- "fuente": {"nombre": "Tex's French Grammar", "autores": "COERLL, Universidad de Texas en Austin", "licencia": "CC BY 3.0", "url": "https://laits.utexas.edu/tex/gr/virr4.html", "otras": ["Frases de Tatoeba (CC BY 2.0 FR)"]}
+ "fuente": {
+  "nombre": "Tex's French Grammar",
+  "autores": "COERLL, Universidad de Texas en Austin",
+  "licencia": "CC BY 3.0",
+  "url": "https://laits.utexas.edu/tex/gr/virr4.html",
+  "otras": [
+   "Frases de Tatoeba (CC BY 2.0 FR)"
+  ]
+ },
+ "descripcion_larga_es": "Esta ficha presenta tres verbos irregulares básicos: aller (ir), faire (hacer) y venir (venir). Son de los más frecuentes del francés y sirven para desplazarse, saludar, hablar del tiempo atmosférico, de deportes y tareas, y para formar el futuro próximo y el pasado reciente. Sus formas irregulares (vous faites, ils vont, ils viennent) provocan errores muy visibles si se conjugan como verbos regulares.",
+ "contexto": {
+  "que_es": "Son tres verbos irregulares del grupo más usado del francés. Aller expresa desplazamiento, estado de salud en los saludos y, con infinitivo, el futuro próximo; faire forma expresiones de tiempo atmosférico, deportes y tareas domésticas; venir indica procedencia y, con «de» + infinitivo, el pasado reciente. Sus formas no siguen el modelo de los verbos en -er.",
+  "por_que_importa": "Aparecen en casi cualquier conversación, desde «Ça va ?» hasta «Il fait froid». Conjugarlos como regulares («vous faisez», «ils allent») es uno de los errores más llamativos y se penaliza en cualquier examen. Además, algunas expresiones no coinciden con el español: «il fait froid» y no «il est froid», «faire du sport» con partitivo.",
+  "cuando_se_usa": "Al hablar de adónde se va y de dónde se viene, al saludar, al describir el tiempo, al contar actividades y tareas. Las pistas son el sujeto (que decide la forma), palabras como «temps», «beau», «froid», «sport» o «courses», y preposiciones de lugar («à», «de»). El hispanohablante suele calcar «es frío» o «hacer deporte» sin artículo."
+ }
 }

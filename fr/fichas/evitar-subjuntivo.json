@@ -6,66 +6,599 @@
  "nivel": "B2",
  "resumen": "Muchas frases con subjuntivo pueden reformularse con un infinitivo, con preposición + nombre o con otra construcción en indicativo. Cuando el sujeto de las dos oraciones es el mismo, el infinitivo no es una opción sino una obligación.",
  "explicacion": [
-  {"tipo": "texto", "texto": "Regla básica: si el sujeto de la subordinada es el mismo que el de la principal, el francés usa infinitivo, igual que el español: Je veux partir (quiero irme), nunca Je veux que je parte. Con expresiones impersonales, si la frase es general, también basta el infinitivo con de."},
-  {"tipo": "tabla", "cabecera": ["Con subjuntivo", "Sin subjuntivo"], "filas": [
-   ["Il est important que tu boives de l'eau.", "Il est important de boire de l'eau."],
-   ["Il est préférable que tu sois poli.", "Il est préférable d'être poli."],
-   ["Il est dommage que tu fumes autant.", "Il est dommage de fumer autant."]
-  ]},
-  {"tipo": "tabla", "cabecera": ["Conjunción + subjuntivo", "Preposición + infinitivo", "Significado"], "filas": [
-   ["à condition que", "à condition de", "a condición de (que)"],
-   ["afin que", "afin de", "a fin de (que)"],
-   ["à moins que", "à moins de", "a menos que"],
-   ["avant que", "avant de", "antes de (que)"],
-   ["de peur que / de crainte que", "de peur de / de crainte de", "por miedo a (que)"],
-   ["en attendant que", "en attendant de", "mientras (no)"],
-   ["pour que", "pour", "para (que)"],
-   ["sans que", "sans", "sin (que)"]
-  ]},
-  {"tipo": "texto", "texto": "Con preposición + infinitivo solo queda un sujeto, así que a veces hay que reformular el contenido: Il ne dit rien de peur qu'elle se mette en colère → Il ne dit rien de peur de la mettre en colère."},
-  {"tipo": "tabla", "cabecera": ["Conjunción + subjuntivo", "Preposición + nombre"], "filas": [
-   ["Jusqu'à ce que Tammy arrive, Tex est pensif.", "Jusqu'à l'arrivée de Tammy, Tex est pensif."],
-   ["Il sourit, bien qu'il ait des soucis.", "Il sourit malgré ses soucis."],
-   ["Avant que le film commence, on achète du pop-corn.", "Avant le début du film, on achète du pop-corn."]
-  ]},
-  {"tipo": "lista", "items": [
-   "Je ne suis pas sûr que tu sois prêt → Je ne sais pas si tu es prêt.",
-   "Il est possible que tu aies raison → Tu as peut-être raison.",
-   "J'ai besoin que tu viennes → Viens, j'ai besoin de te voir.",
-   "bien que admite un adjetivo o participio sin verbo: Bien que fatiguée, elle est venue."
-  ]}
+  {
+   "tipo": "texto",
+   "texto": "Regla básica: si el sujeto de la subordinada es el mismo que el de la principal, el francés usa infinitivo, igual que el español: Je veux partir (quiero irme), nunca Je veux que je parte. Con expresiones impersonales, si la frase es general, también basta el infinitivo con de."
+  },
+  {
+   "tipo": "tabla",
+   "cabecera": [
+    "Con subjuntivo",
+    "Sin subjuntivo"
+   ],
+   "filas": [
+    [
+     "Il est important que tu boives de l'eau.",
+     "Il est important de boire de l'eau."
+    ],
+    [
+     "Il est préférable que tu sois poli.",
+     "Il est préférable d'être poli."
+    ],
+    [
+     "Il est dommage que tu fumes autant.",
+     "Il est dommage de fumer autant."
+    ]
+   ]
+  },
+  {
+   "tipo": "tabla",
+   "cabecera": [
+    "Conjunción + subjuntivo",
+    "Preposición + infinitivo",
+    "Significado"
+   ],
+   "filas": [
+    [
+     "à condition que",
+     "à condition de",
+     "a condición de (que)"
+    ],
+    [
+     "afin que",
+     "afin de",
+     "a fin de (que)"
+    ],
+    [
+     "à moins que",
+     "à moins de",
+     "a menos que"
+    ],
+    [
+     "avant que",
+     "avant de",
+     "antes de (que)"
+    ],
+    [
+     "de peur que / de crainte que",
+     "de peur de / de crainte de",
+     "por miedo a (que)"
+    ],
+    [
+     "en attendant que",
+     "en attendant de",
+     "mientras (no)"
+    ],
+    [
+     "pour que",
+     "pour",
+     "para (que)"
+    ],
+    [
+     "sans que",
+     "sans",
+     "sin (que)"
+    ]
+   ]
+  },
+  {
+   "tipo": "texto",
+   "texto": "Con preposición + infinitivo solo queda un sujeto, así que a veces hay que reformular el contenido: Il ne dit rien de peur qu'elle se mette en colère → Il ne dit rien de peur de la mettre en colère."
+  },
+  {
+   "tipo": "tabla",
+   "cabecera": [
+    "Conjunción + subjuntivo",
+    "Preposición + nombre"
+   ],
+   "filas": [
+    [
+     "Jusqu'à ce que Tammy arrive, Tex est pensif.",
+     "Jusqu'à l'arrivée de Tammy, Tex est pensif."
+    ],
+    [
+     "Il sourit, bien qu'il ait des soucis.",
+     "Il sourit malgré ses soucis."
+    ],
+    [
+     "Avant que le film commence, on achète du pop-corn.",
+     "Avant le début du film, on achète du pop-corn."
+    ]
+   ]
+  },
+  {
+   "tipo": "lista",
+   "items": [
+    "Je ne suis pas sûr que tu sois prêt → Je ne sais pas si tu es prêt.",
+    "Il est possible que tu aies raison → Tu as peut-être raison.",
+    "J'ai besoin que tu viennes → Viens, j'ai besoin de te voir.",
+    "bien que admite un adjetivo o participio sin verbo: Bien que fatiguée, elle est venue."
+   ]
+  }
  ],
  "ejemplos": [
-  {"frase": "Il partit sans être vu.", "traduccion": "Se marchó sin ser visto."},
-  {"frase": "Il hésita avant de répondre.", "traduccion": "Dudó antes de responder."},
-  {"frase": "J'ai couru pour être à l'heure.", "traduccion": "Corrí para llegar a tiempo."},
-  {"frase": "Malgré la pluie, nous sommes sortis.", "traduccion": "A pesar de la lluvia, salimos."},
-  {"frase": "Jusqu'à son retour, je garderai ses plantes.", "traduccion": "Hasta que vuelva, cuidaré de sus plantas."},
-  {"frase": "Tu as peut-être raison.", "traduccion": "Puede que tengas razón."}
+  {
+   "frase": "Il partit sans être vu.",
+   "traduccion": "Se marchó sin ser visto."
+  },
+  {
+   "frase": "Il hésita avant de répondre.",
+   "traduccion": "Dudó antes de responder."
+  },
+  {
+   "frase": "J'ai couru pour être à l'heure.",
+   "traduccion": "Corrí para llegar a tiempo."
+  },
+  {
+   "frase": "Malgré la pluie, nous sommes sortis.",
+   "traduccion": "A pesar de la lluvia, salimos."
+  },
+  {
+   "frase": "Jusqu'à son retour, je garderai ses plantes.",
+   "traduccion": "Hasta que vuelva, cuidaré de sus plantas."
+  },
+  {
+   "frase": "Tu as peut-être raison.",
+   "traduccion": "Puede que tengas razón."
+  }
  ],
  "errores_hispanohablantes": [
-  {"mal": "Je veux que je parte tôt.", "bien": "Je veux partir tôt.", "nota": "Mismo sujeto: infinitivo obligatorio, como en español «quiero irme pronto»."},
-  {"mal": "Il est parti sans qu'il dise au revoir.", "bien": "Il est parti sans dire au revoir.", "nota": "sans que solo se usa con dos sujetos distintos."},
-  {"mal": "Malgré qu'il pleuve, nous sortons.", "bien": "Malgré la pluie, nous sortons.", "nota": "malgré que se considera incorrecto en la norma: usa malgré + nombre o bien que + subjuntivo."},
-  {"mal": "Je mange avant que je parte.", "bien": "Je mange avant de partir.", "nota": "Con el mismo sujeto, avant de + infinitivo."}
+  {
+   "mal": "Je veux que je parte tôt.",
+   "bien": "Je veux partir tôt.",
+   "nota": "Mismo sujeto: infinitivo obligatorio, como en español «quiero irme pronto»."
+  },
+  {
+   "mal": "Il est parti sans qu'il dise au revoir.",
+   "bien": "Il est parti sans dire au revoir.",
+   "nota": "sans que solo se usa con dos sujetos distintos."
+  },
+  {
+   "mal": "Malgré qu'il pleuve, nous sortons.",
+   "bien": "Malgré la pluie, nous sortons.",
+   "nota": "malgré que se considera incorrecto en la norma: usa malgré + nombre o bien que + subjuntivo."
+  },
+  {
+   "mal": "Je mange avant que je parte.",
+   "bien": "Je mange avant de partir.",
+   "nota": "Con el mismo sujeto, avant de + infinitivo."
+  }
  ],
  "ejercicios": [
-  {"id": "e01", "tipo": "transformar", "enunciado": "Reformula sin subjuntivo, con sans + infinitivo pasivo.", "frase": "Il partit sans qu'on le voie.", "respuestas": ["Il partit sans être vu."], "explicacion": "Un solo sujeto (il) + infinitivo pasivo: sans être vu.", "origen": "tatoeba:993635"},
-  {"id": "e02", "tipo": "hueco", "enunciado": "Completa con la preposición adecuada.", "frase": "Il a agi ___ réfléchir.", "respuestas": ["sans"], "explicacion": "sans + infinitivo equivale a «sin pensar».", "origen": "tatoeba:2343414"},
-  {"id": "e03", "tipo": "hueco", "enunciado": "Completa con la locución adecuada (dos palabras).", "frase": "Elle se calma ___ parler.", "respuestas": ["avant de"], "explicacion": "Mismo sujeto: avant de + infinitivo, no avant que.", "origen": "tatoeba:873457"},
-  {"id": "e04", "tipo": "eleccion", "enunciado": "Elige la opción correcta.", "frase": "Ne sors pas sans ___ au revoir.", "opciones": ["dire", "que tu dises", "dises"], "respuestas": ["dire"], "explicacion": "El sujeto es el mismo (tú): sans + infinitivo.", "origen": "tatoeba:11637"},
-  {"id": "e05", "tipo": "eleccion", "enunciado": "Elige la opción correcta.", "frase": "Elle m'embrassa sans ___ un mot.", "opciones": ["dire", "qu'elle dise", "dit"], "respuestas": ["dire"], "explicacion": "Mismo sujeto (elle): sans dire.", "origen": "tatoeba:3544866"},
-  {"id": "e06", "tipo": "corregir", "enunciado": "Corrige el error.", "frase": "Il hésita avant qu'il réponde.", "respuestas": ["Il hésita avant de répondre."], "explicacion": "Con el mismo sujeto no se usa avant que, sino avant de + infinitivo.", "origen": "tatoeba:459059"},
-  {"id": "e07", "tipo": "corregir", "enunciado": "Corrige el error.", "frase": "J'ai couru pour que je sois à l'heure.", "respuestas": ["J'ai couru pour être à l'heure."], "explicacion": "Mismo sujeto: pour + infinitivo.", "origen": "tatoeba:9371"},
-  {"id": "e08", "tipo": "ordenar", "enunciado": "Ordena las palabras.", "palabras": ["oublier", "travaille", "Il", "pour"], "respuestas": ["Il travaille pour oublier"], "explicacion": "pour + infinitivo expresa finalidad con un solo sujeto.", "origen": "tatoeba:1612747"},
-  {"id": "e09", "tipo": "ordenar", "enunciado": "Ordena las palabras.", "palabras": ["lire", "des", "porte", "Il", "pour", "lunettes"], "respuestas": ["Il porte des lunettes pour lire"], "explicacion": "Finalidad con el mismo sujeto: pour lire.", "origen": "tatoeba:730211"},
-  {"id": "e10", "tipo": "transformar", "enunciado": "Reformula sin subjuntivo (frase general, con infinitivo).", "frase": "Il est essentiel que nous lisions la presse.", "respuestas": ["Il est essentiel de lire la presse."], "explicacion": "Expresión impersonal + de + infinitivo para una afirmación general."},
-  {"id": "e11", "tipo": "transformar", "enunciado": "Reformula con jusqu'à + nombre.", "frase": "Jusqu'à ce que le directeur arrive, nous attendrons.", "respuestas": ["Jusqu'à l'arrivée du directeur, nous attendrons."], "explicacion": "arriver → l'arrivée: jusqu'à + nombre evita el subjuntivo."},
-  {"id": "e12", "tipo": "transformar", "enunciado": "Reformula con malgré + nombre.", "frase": "Bien qu'il ait des soucis, il sourit.", "respuestas": ["Malgré ses soucis, il sourit."], "explicacion": "bien que + subjuntivo → malgré + nombre."},
-  {"id": "e13", "tipo": "transformar", "enunciado": "Reformula con peut-être y el verbo en indicativo.", "frase": "Il est possible que tu aies raison.", "respuestas": ["Tu as peut-être raison.", "Peut-être que tu as raison."], "explicacion": "Il est possible que + subjuntivo equivale a peut-être + indicativo."},
-  {"id": "e14", "tipo": "eleccion", "enunciado": "Elige la opción correcta.", "frase": "Nous partirons tôt afin ___ arriver à l'heure.", "opciones": ["de", "que", "pour"], "respuestas": ["de"], "explicacion": "afin de + infinitivo cuando el sujeto es el mismo."},
-  {"id": "e15", "tipo": "hueco", "enunciado": "Completa con la preposición adecuada.", "frase": "À condition ___ arriver tôt, nous aurons des places.", "respuestas": ["d'"], "explicacion": "à condition de + infinitivo; de se elide ante vocal: d'arriver."},
-  {"id": "e16", "tipo": "eleccion", "enunciado": "Elige la reformulación sin subjuntivo de «Je ne suis pas sûr qu'il soit prêt».", "frase": "Je ne sais pas ___ est prêt.", "opciones": ["s'il", "qu'il", "si il"], "respuestas": ["s'il"], "explicacion": "ne pas savoir si + indicativo; si se elide ante il: s'il."}
+  {
+   "id": "e01",
+   "tipo": "transformar",
+   "enunciado": "Reformula sin subjuntivo, con sans + infinitivo pasivo.",
+   "frase": "Il partit sans qu'on le voie.",
+   "respuestas": [
+    "Il partit sans être vu."
+   ],
+   "explicacion": "Se aplica la tabla «sans que → sans + infinitivo». En la frase original hay dos sujetos (il y on), pero al pasar a la voz pasiva el sujeto de ver se convierte en il, el mismo de partit: queda un solo sujeto y puede usarse el infinitivo pasivo être vu. Es la forma elegante que el francés escrito prefiere a sans qu'on le voie.",
+   "origen": "tatoeba:993635",
+   "explicacion_breve": "Un solo sujeto (il) + infinitivo pasivo: sans être vu.",
+   "traduccion": "Se marchó sin ser visto.",
+   "errores_previstos": [
+    {
+     "respuesta": "Il partit sans le voir.",
+     "explicacion": "Cambia el sentido: diría que él no vio a otra persona, no que nadie lo vio a él."
+    },
+    {
+     "respuesta": "Il partit sans qu'il soit vu.",
+     "explicacion": "Sigue usando subjuntivo con un mismo sujeto; con sans y un solo sujeto se usa el infinitivo."
+    },
+    {
+     "respuesta": "Il partit sans être voir.",
+     "explicacion": "El infinitivo pasivo se forma con être + participio: être vu."
+    }
+   ]
+  },
+  {
+   "id": "e02",
+   "tipo": "hueco",
+   "enunciado": "Completa con la preposición adecuada.",
+   "frase": "Il a agi ___ réfléchir.",
+   "respuestas": [
+    "sans"
+   ],
+   "explicacion": "Se aplica la tabla «sans que → sans + infinitivo»: cuando el sujeto es el mismo, se usa la preposición sola. La pista es que quien actúa y quien no piensa son la misma persona (il). Sans + infinitivo equivale exactamente al español «sin pensar».",
+   "origen": "tatoeba:2343414",
+   "explicacion_breve": "sans + infinitivo equivale a «sin pensar».",
+   "traduccion": "Actuó sin pensar.",
+   "errores_previstos": [
+    {
+     "respuesta": "sans que",
+     "explicacion": "Sans que exige un verbo conjugado en subjuntivo y otro sujeto; detrás viene un infinitivo."
+    },
+    {
+     "respuesta": "sans de",
+     "explicacion": "Sans se construye directamente con el infinitivo, sin de."
+    }
+   ]
+  },
+  {
+   "id": "e03",
+   "tipo": "hueco",
+   "enunciado": "Completa con la locución adecuada (dos palabras).",
+   "frase": "Elle se calma ___ parler.",
+   "respuestas": [
+    "avant de"
+   ],
+   "explicacion": "Se aplica la tabla «avant que → avant de + infinitivo». La pista es que el sujeto de calmarse y de hablar es el mismo (elle), y tras el hueco viene el infinitivo parler. Avant se construye con de delante del infinitivo, como en español «antes de».",
+   "origen": "tatoeba:873457",
+   "explicacion_breve": "Mismo sujeto: avant de + infinitivo, no avant que.",
+   "traduccion": "Se calmó antes de hablar.",
+   "errores_previstos": [
+    {
+     "respuesta": "avant que",
+     "explicacion": "Avant que exige subjuntivo y un sujeto distinto; con el mismo sujeto se usa avant de."
+    },
+    {
+     "respuesta": "avant",
+     "explicacion": "Avant solo va delante de un nombre (avant le repas); delante de un infinitivo necesita de."
+    },
+    {
+     "respuesta": "avant à",
+     "explicacion": "La preposición correcta es de, no à."
+    }
+   ]
+  },
+  {
+   "id": "e04",
+   "tipo": "eleccion",
+   "enunciado": "Elige la opción correcta.",
+   "frase": "Ne sors pas sans ___ au revoir.",
+   "opciones": [
+    "dire",
+    "que tu dises",
+    "dises"
+   ],
+   "respuestas": [
+    "dire"
+   ],
+   "explicacion": "Es la regla «sans que → sans + infinitivo» con un solo sujeto. La pista es el imperativo sors: el sujeto implícito es tú, y quien debe decir adiós es también tú. Por eso no hace falta ninguna conjunción: sans dire.",
+   "origen": "tatoeba:11637",
+   "explicacion_breve": "El sujeto es el mismo (tú): sans + infinitivo.",
+   "traduccion": "No salgas sin decir adiós.",
+   "por_opcion": {
+    "dire": "Correcta: mismo sujeto, sans + infinitivo.",
+    "que tu dises": "Incorrecta: sans que con el mismo sujeto es un error en francés; se usa el infinitivo.",
+    "dises": "Incorrecta: tras la preposición sans no puede ir un verbo conjugado; además falta que y el sujeto."
+   }
+  },
+  {
+   "id": "e05",
+   "tipo": "eleccion",
+   "enunciado": "Elige la opción correcta.",
+   "frase": "Elle m'embrassa sans ___ un mot.",
+   "opciones": [
+    "dire",
+    "qu'elle dise",
+    "dit"
+   ],
+   "respuestas": [
+    "dire"
+   ],
+   "explicacion": "Se aplica la misma regla: con el mismo sujeto, sans + infinitivo. La pista es que quien besa y quien no dice nada es ella (elle). El passé simple m'embrassa indica un relato escrito, donde esta construcción es la habitual.",
+   "origen": "tatoeba:3544866",
+   "explicacion_breve": "Mismo sujeto (elle): sans dire.",
+   "traduccion": "Me besó sin decir una palabra.",
+   "por_opcion": {
+    "dire": "Correcta: un solo sujeto, sans + infinitivo.",
+    "qu'elle dise": "Incorrecta: sans que con el mismo sujeto no es gramatical en francés.",
+    "dit": "Incorrecta: dit es un participio o una forma conjugada; tras sans solo cabe el infinitivo."
+   }
+  },
+  {
+   "id": "e06",
+   "tipo": "corregir",
+   "enunciado": "Corrige el error.",
+   "frase": "Il hésita avant qu'il réponde.",
+   "respuestas": [
+    "Il hésita avant de répondre."
+   ],
+   "explicacion": "La ficha recoge este error entre los típicos: con el mismo sujeto no se usa avant que, sino avant de + infinitivo. La pista es que quien duda y quien responde es la misma persona (il). Avant que solo se usa cuando la subordinada tiene otro sujeto (il hésita avant que je réponde); aquí lo correcto es Il hésita avant de répondre.",
+   "origen": "tatoeba:459059",
+   "explicacion_breve": "Con el mismo sujeto no se usa avant que, sino avant de + infinitivo.",
+   "traduccion": "Dudó antes de responder.",
+   "errores_previstos": [
+    {
+     "respuesta": "Il hésita avant qu'il réponde.",
+     "explicacion": "Es la frase sin corregir: con un solo sujeto, avant que es incorrecto."
+    },
+    {
+     "respuesta": "Il hésita avant répondre.",
+     "explicacion": "Avant necesita de delante del infinitivo."
+    },
+    {
+     "respuesta": "Il hésita avant de réponde.",
+     "explicacion": "Tras avant de va el infinitivo répondre, no una forma conjugada."
+    }
+   ]
+  },
+  {
+   "id": "e07",
+   "tipo": "corregir",
+   "enunciado": "Corrige el error.",
+   "frase": "J'ai couru pour que je sois à l'heure.",
+   "respuestas": [
+    "J'ai couru pour être à l'heure."
+   ],
+   "explicacion": "Se aplica la tabla «pour que → pour + infinitivo». La pista es que el sujeto de correr y de llegar a tiempo es el mismo (je). Pour que je sois es un calco imposible en francés; la finalidad con un solo sujeto se expresa con pour + infinitivo: pour être à l'heure.",
+   "origen": "tatoeba:9371",
+   "explicacion_breve": "Mismo sujeto: pour + infinitivo.",
+   "traduccion": "Corrí para llegar a tiempo.",
+   "errores_previstos": [
+    {
+     "respuesta": "J'ai couru pour que je sois à l'heure.",
+     "explicacion": "Es la frase sin corregir: pour que con el mismo sujeto es incorrecto."
+    },
+    {
+     "respuesta": "J'ai couru pour de être à l'heure.",
+     "explicacion": "Pour se construye directamente con el infinitivo, sin de."
+    },
+    {
+     "respuesta": "J'ai couru pour je suis à l'heure.",
+     "explicacion": "Tras pour no puede ir un verbo conjugado; se necesita el infinitivo être."
+    }
+   ]
+  },
+  {
+   "id": "e08",
+   "tipo": "ordenar",
+   "enunciado": "Ordena las palabras.",
+   "palabras": [
+    "oublier",
+    "travaille",
+    "Il",
+    "pour"
+   ],
+   "respuestas": [
+    "Il travaille pour oublier"
+   ],
+   "explicacion": "Se aplica la regla de pour + infinitivo para expresar finalidad con un solo sujeto. El orden es sujeto (Il) + verbo (travaille) + pour + infinitivo (oublier). Es la misma estructura que en español «trabaja para olvidar».",
+   "origen": "tatoeba:1612747",
+   "explicacion_breve": "pour + infinitivo expresa finalidad con un solo sujeto.",
+   "traduccion": "Trabaja para olvidar.",
+   "errores_previstos": [
+    {
+     "respuesta": "Il pour oublier travaille",
+     "explicacion": "La finalidad va detrás del verbo principal, no entre el sujeto y el verbo."
+    },
+    {
+     "respuesta": "Il travaille oublier pour",
+     "explicacion": "Pour es una preposición y va delante del infinitivo."
+    }
+   ]
+  },
+  {
+   "id": "e09",
+   "tipo": "ordenar",
+   "enunciado": "Ordena las palabras.",
+   "palabras": [
+    "lire",
+    "des",
+    "porte",
+    "Il",
+    "pour",
+    "lunettes"
+   ],
+   "respuestas": [
+    "Il porte des lunettes pour lire"
+   ],
+   "explicacion": "Es otra vez la finalidad con el mismo sujeto: pour + infinitivo. El orden es sujeto (Il) + verbo (porte) + complemento (des lunettes) + pour lire. La finalidad se coloca al final, detrás del complemento directo, como en español.",
+   "origen": "tatoeba:730211",
+   "explicacion_breve": "Finalidad con el mismo sujeto: pour lire.",
+   "traduccion": "Lleva gafas para leer.",
+   "errores_previstos": [
+    {
+     "respuesta": "Il porte pour lire des lunettes",
+     "explicacion": "El complemento directo des lunettes va inmediatamente detrás del verbo; la finalidad, al final."
+    },
+    {
+     "respuesta": "Il porte des lunettes lire pour",
+     "explicacion": "Pour debe ir delante del infinitivo."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "les lunettes",
+     "significado": "las gafas"
+    },
+    {
+     "palabra": "porter",
+     "significado": "llevar (puesto)"
+    }
+   ]
+  },
+  {
+   "id": "e10",
+   "tipo": "transformar",
+   "enunciado": "Reformula sin subjuntivo (frase general, con infinitivo).",
+   "frase": "Il est essentiel que nous lisions la presse.",
+   "respuestas": [
+    "Il est essentiel de lire la presse."
+   ],
+   "explicacion": "Se aplica la primera tabla de la ficha: con expresiones impersonales, si la frase es general, basta con de + infinitivo. La pista es el enunciado (frase general): se elimina el sujeto concreto nous y la afirmación pasa a valer para todos. Il est essentiel de lire equivale al español «es fundamental leer».",
+   "explicacion_breve": "Expresión impersonal + de + infinitivo para una afirmación general.",
+   "traduccion": "Es fundamental leer la prensa.",
+   "errores_previstos": [
+    {
+     "respuesta": "Il est essentiel lire la presse.",
+     "explicacion": "Tras la expresión impersonal hace falta de delante del infinitivo."
+    },
+    {
+     "respuesta": "Il est essentiel de lisons la presse.",
+     "explicacion": "Tras de va el infinitivo lire, no una forma conjugada."
+    },
+    {
+     "respuesta": "Il est essentiel à lire la presse.",
+     "explicacion": "La preposición es de; il est essentiel à se usa con otro sentido (es esencial para algo)."
+    }
+   ]
+  },
+  {
+   "id": "e11",
+   "tipo": "transformar",
+   "enunciado": "Reformula con jusqu'à + nombre.",
+   "frase": "Jusqu'à ce que le directeur arrive, nous attendrons.",
+   "respuestas": [
+    "Jusqu'à l'arrivée du directeur, nous attendrons."
+   ],
+   "explicacion": "Se aplica la tabla «conjunción + subjuntivo → preposición + nombre»: jusqu'à ce que + subjuntivo se sustituye por jusqu'à + nombre. La pista es el verbo arriver, cuyo sustantivo es l'arrivée. El sujeto le directeur pasa a ser complemento del nombre con de, que se contrae: du directeur.",
+   "explicacion_breve": "arriver → l'arrivée: jusqu'à + nombre evita el subjuntivo.",
+   "traduccion": "Hasta la llegada del director, esperaremos.",
+   "errores_previstos": [
+    {
+     "respuesta": "Jusqu'à l'arrivée de le directeur, nous attendrons.",
+     "explicacion": "De + le se contrae obligatoriamente en du."
+    },
+    {
+     "respuesta": "Jusqu'à l'arrivé du directeur, nous attendrons.",
+     "explicacion": "El sustantivo es femenino y lleva e final: l'arrivée."
+    },
+    {
+     "respuesta": "Jusqu'à ce que l'arrivée du directeur, nous attendrons.",
+     "explicacion": "Con un nombre se usa solo jusqu'à; ce que introduce una oración con verbo."
+    }
+   ]
+  },
+  {
+   "id": "e12",
+   "tipo": "transformar",
+   "enunciado": "Reformula con malgré + nombre.",
+   "frase": "Bien qu'il ait des soucis, il sourit.",
+   "respuestas": [
+    "Malgré ses soucis, il sourit."
+   ],
+   "explicacion": "La tabla de nominalizaciones propone bien que + subjuntivo → malgré + nombre. La pista es il ait des soucis: el contenido de la concesión ya es un nombre, soucis, y basta con convertir el verbo avoir en un posesivo (ses). Malgré equivale a «a pesar de».",
+   "explicacion_breve": "bien que + subjuntivo → malgré + nombre.",
+   "traduccion": "A pesar de sus preocupaciones, sonríe.",
+   "errores_previstos": [
+    {
+     "respuesta": "Malgré qu'il ait des soucis, il sourit.",
+     "explicacion": "La ficha recoge malgré que entre los errores: aunque se oye, la norma lo rechaza y además mantiene el subjuntivo."
+    },
+    {
+     "respuesta": "Malgré des soucis, il sourit.",
+     "explicacion": "Pierde la referencia a la persona: son sus preocupaciones, ses soucis."
+    },
+    {
+     "respuesta": "Malgré de ses soucis, il sourit.",
+     "explicacion": "Malgré se construye directamente con el nombre, sin de."
+    }
+   ]
+  },
+  {
+   "id": "e13",
+   "tipo": "transformar",
+   "enunciado": "Reformula con peut-être y el verbo en indicativo.",
+   "frase": "Il est possible que tu aies raison.",
+   "respuestas": [
+    "Tu as peut-être raison.",
+    "Peut-être que tu as raison."
+   ],
+   "explicacion": "La lista final de la ficha da la equivalencia il est possible que + subjuntivo → peut-être + indicativo. La pista es que la idea de posibilidad pasa al adverbio peut-être y el verbo vuelve al indicativo: tu as raison. Valen las dos posiciones: tu as peut-être raison, con el adverbio tras el verbo, o peut-être que tu as raison, con que obligatorio al principio de frase.",
+   "explicacion_breve": "Il est possible que + subjuntivo equivale a peut-être + indicativo.",
+   "traduccion": "Quizá tengas razón.",
+   "errores_previstos": [
+    {
+     "respuesta": "Tu aies peut-être raison.",
+     "explicacion": "Mantiene el subjuntivo; con peut-être el verbo va en indicativo."
+    },
+    {
+     "respuesta": "Peut-être tu as raison.",
+     "explicacion": "En francés cuidado, peut-être al principio de frase exige que (peut-être que…) o inversión del sujeto (peut-être as-tu raison)."
+    },
+    {
+     "respuesta": "Peut-être que tu aies raison.",
+     "explicacion": "Peut-être que va seguido de indicativo, no de subjuntivo."
+    }
+   ]
+  },
+  {
+   "id": "e14",
+   "tipo": "eleccion",
+   "enunciado": "Elige la opción correcta.",
+   "frase": "Nous partirons tôt afin ___ arriver à l'heure.",
+   "opciones": [
+    "de",
+    "que",
+    "pour"
+   ],
+   "respuestas": [
+    "de"
+   ],
+   "explicacion": "Se aplica la tabla «afin que → afin de + infinitivo». La pista es que el sujeto de salir y de llegar es el mismo (nous) y que tras el hueco viene un infinitivo, arriver. La locución afin necesita de delante del infinitivo; es un registro algo más formal que pour.",
+   "explicacion_breve": "afin de + infinitivo cuando el sujeto es el mismo.",
+   "traduccion": "Saldremos temprano para llegar a tiempo.",
+   "por_opcion": {
+    "de": "Correcta: afin de + infinitivo con un solo sujeto.",
+    "que": "Incorrecta: afin que exige subjuntivo y otro sujeto; detrás viene un infinitivo.",
+    "pour": "Incorrecta: pour ya expresa finalidad por sí solo; «afin pour» no existe."
+   }
+  },
+  {
+   "id": "e15",
+   "tipo": "hueco",
+   "enunciado": "Completa con la preposición adecuada.",
+   "frase": "À condition ___ arriver tôt, nous aurons des places.",
+   "respuestas": [
+    "d'"
+   ],
+   "explicacion": "Se aplica la tabla «à condition que → à condition de + infinitivo». La pista es que el sujeto de llegar y de tener sitio es el mismo (nous) y que el infinitivo arriver empieza por vocal. Por eso de se elide y se escribe d': à condition d'arriver.",
+   "explicacion_breve": "à condition de + infinitivo; de se elide ante vocal: d'arriver.",
+   "traduccion": "Con la condición de llegar temprano, tendremos sitio.",
+   "errores_previstos": [
+    {
+     "respuesta": "de",
+     "explicacion": "La preposición es correcta, pero ante la vocal de arriver debe elidirse: d'."
+    },
+    {
+     "respuesta": "que",
+     "explicacion": "À condition que exige un verbo conjugado en subjuntivo; aquí sigue un infinitivo."
+    },
+    {
+     "respuesta": "à",
+     "explicacion": "À condition se construye con de, no con à."
+    }
+   ]
+  },
+  {
+   "id": "e16",
+   "tipo": "eleccion",
+   "enunciado": "Elige la reformulación sin subjuntivo de «Je ne suis pas sûr qu'il soit prêt».",
+   "frase": "Je ne sais pas ___ est prêt.",
+   "opciones": [
+    "s'il",
+    "qu'il",
+    "si il"
+   ],
+   "respuestas": [
+    "s'il"
+   ],
+   "explicacion": "La lista final de la ficha propone je ne suis pas sûr que + subjuntivo → je ne sais pas si + indicativo. La pista es el verbo savoir en negativa, que introduce una pregunta indirecta con si, y el pronombre il: si se elide ante il, de modo que se escribe s'il. El verbo est va en indicativo, como pide si.",
+   "explicacion_breve": "ne pas savoir si + indicativo; si se elide ante il: s'il.",
+   "traduccion": "No sé si está preparado.",
+   "por_opcion": {
+    "s'il": "Correcta: si + il se contrae en s'il, y tras si va indicativo.",
+    "qu'il": "Incorrecta: «je ne sais pas qu'il est prêt» no tiene sentido; la duda se expresa con si.",
+    "si il": "Incorrecta: la elisión ante il es obligatoria: s'il."
+   }
+  }
  ],
- "fuente": {"nombre": "Tex's French Grammar", "autores": "COERLL, Universidad de Texas en Austin", "licencia": "CC BY 3.0", "url": "https://laits.utexas.edu/tex/gr/tas8.html", "otras": ["Frases de Tatoeba (CC BY 2.0 FR)"]}
+ "fuente": {
+  "nombre": "Tex's French Grammar",
+  "autores": "COERLL, Universidad de Texas en Austin",
+  "licencia": "CC BY 3.0",
+  "url": "https://laits.utexas.edu/tex/gr/tas8.html",
+  "otras": [
+   "Frases de Tatoeba (CC BY 2.0 FR)"
+  ]
+ },
+ "descripcion_larga_es": "Esta ficha enseña a sustituir el subjuntivo por construcciones más sencillas: infinitivo, preposición + nombre o indicativo con otro giro. Cuando el sujeto de las dos oraciones es el mismo, el infinitivo no es una opción sino una obligación (je veux partir, nunca je veux que je parte). Al hispanohablante le sirve para escribir con más naturalidad y para no calcar estructuras con que que el francés rechaza.",
+ "contexto": {
+  "que_es": "Es un conjunto de reformulaciones que evitan el subjuntivo francés. Las principales son: conjunción + subjuntivo → preposición + infinitivo cuando hay un solo sujeto (avant que → avant de, pour que → pour, sans que → sans); expresión impersonal + de + infinitivo para afirmaciones generales; conjunción → preposición + nombre (bien que → malgré, jusqu'à ce que → jusqu'à); y giros en indicativo (il est possible que → peut-être).",
+  "por_que_importa": "Con un mismo sujeto, usar que + subjuntivo no es solo poco elegante: es un error gramatical (il hésita avant qu'il réponde). Dominar estas alternativas da frases más ágiles, típicas del francés escrito cuidado, y permite salir del paso cuando no se recuerda una forma irregular del subjuntivo, algo muy útil en un examen oral.",
+  "cuando_se_usa": "La señal clave es comprobar si el sujeto de la subordinada coincide con el de la principal: si coincide, infinitivo. También conviene reformular en textos argumentativos o administrativos, donde las nominalizaciones (avant le début, malgré la crise) son frecuentes. El hispanohablante tiende a calcar «antes de que yo», «sin que él» o «para que yo» con que + subjuntivo, incluso cuando el sujeto es el mismo."
+ }
 }

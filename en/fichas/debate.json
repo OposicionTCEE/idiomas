@@ -197,7 +197,33 @@
     "I completely agree with your analysis.",
     "I agree completely with your analysis."
    ],
-   "explicacion": "«Agree» es verbo: no lleva «am»."
+   "explicacion": "La lista de la ficha avisa: agree es un verbo, no un adjetivo, así que no lleva am. El calco viene de «estoy de acuerdo». El adverbio completely se coloca delante del verbo (I completely agree) o detrás (I agree completely), y por eso se aceptan las dos versiones.",
+   "explicacion_breve": "«Agree» es verbo: no lleva «am».",
+   "traduccion": "Estoy completamente de acuerdo con su análisis.",
+   "errores_previstos": [
+    {
+     "respuesta": "I am completely agree with your analysis.",
+     "explicacion": "Es la frase sin corregir: agree es verbo y no puede ir con am."
+    },
+    {
+     "respuesta": "I am completely agreed with your analysis.",
+     "explicacion": "Be agreed existe en inglés británico formal para grupos (We are agreed), pero con with your analysis lo natural es I completely agree."
+    },
+    {
+     "respuesta": "I completely agree your analysis.",
+     "explicacion": "Agree necesita with delante de la persona o la opinión con la que coincides."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "to agree with",
+     "significado": "estar de acuerdo con"
+    },
+    {
+     "palabra": "analysis",
+     "significado": "análisis"
+    }
+   ]
   },
   {
    "id": "e02",
@@ -208,7 +234,29 @@
     "This afternoon we will discuss the new budget.",
     "This afternoon we'll discuss the new budget."
    ],
-   "explicacion": "«Discuss» no lleva «about»."
+   "explicacion": "La ficha recuerda que discuss es transitivo: se discute algo directamente, sin about. El error viene de «hablar sobre». La forma contracta we'll también es correcta, por eso se aceptan ambas.",
+   "explicacion_breve": "«Discuss» no lleva «about».",
+   "traduccion": "Esta tarde hablaremos del nuevo presupuesto.",
+   "errores_previstos": [
+    {
+     "respuesta": "This afternoon we will discuss about the new budget.",
+     "explicacion": "Es la frase sin corregir: discuss no lleva about."
+    },
+    {
+     "respuesta": "This afternoon we will discuss on the new budget.",
+     "explicacion": "Discuss no lleva ninguna preposición; el objeto va directo."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "to discuss",
+     "significado": "hablar de, tratar, debatir (sin preposición)"
+    },
+    {
+     "palabra": "budget",
+     "significado": "presupuesto"
+    }
+   ]
   },
   {
    "id": "e03",
@@ -224,7 +272,21 @@
    "respuestas": [
     "more"
    ],
-   "explicacion": "«I couldn't agree more» = estoy totalmente de acuerdo."
+   "explicacion": "La tabla recoge I couldn't agree more = acuerdo total. Literalmente significa «no podría estar más de acuerdo». La pista es la segunda frase, That's exactly what I think, que confirma el acuerdo pleno.",
+   "explicacion_breve": "«I couldn't agree more» = estoy totalmente de acuerdo.",
+   "traduccion": "Estoy totalmente de acuerdo. Es exactamente lo que pienso.",
+   "por_opcion": {
+    "more": "Correcta: I couldn't agree more expresa acuerdo total.",
+    "less": "Incorrecta en este contexto: I couldn't agree less no es una fórmula establecida y, si se usa, sugiere desacuerdo.",
+    "better": "Incorrecta: agree better no es una combinación idiomática.",
+    "most": "Incorrecta: el superlativo no encaja en esta fórmula, que es comparativa."
+   },
+   "glosario": [
+    {
+     "palabra": "I couldn't agree more",
+     "significado": "estoy totalmente de acuerdo"
+    }
+   ]
   },
   {
    "id": "e04",
@@ -234,7 +296,29 @@
    "respuestas": [
     "point"
    ],
-   "explicacion": "«Up to a point» = hasta cierto punto."
+   "explicacion": "La tabla da up to a point = hasta cierto punto, fórmula de acuerdo parcial. La pista es but not entirely, que matiza el acuerdo. Es una expresión fija: siempre con a y point en singular.",
+   "explicacion_breve": "«Up to a point» = hasta cierto punto.",
+   "traduccion": "Estoy de acuerdo contigo hasta cierto punto, pero no del todo.",
+   "errores_previstos": [
+    {
+     "respuesta": "certain",
+     "explicacion": "Calco de «hasta cierto punto»: la fórmula fija es up to a point (o to a certain extent)."
+    },
+    {
+     "respuesta": "extent",
+     "explicacion": "Extent existe en to some extent / to a certain extent, pero up to a extent no; con up to a va point."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "up to a point",
+     "significado": "hasta cierto punto"
+    },
+    {
+     "palabra": "entirely",
+     "significado": "del todo, completamente"
+    }
+   ]
   },
   {
    "id": "e05",
@@ -250,7 +334,25 @@
    "respuestas": [
     "I see your point"
    ],
-   "explicacion": "Se concede primero y luego se objeta."
+   "explicacion": "La ficha explica que en inglés el desacuerdo se suaviza: primero se concede parte del argumento y luego se objeta. I see your point es la fórmula de conceder y objetar de la tabla. El enunciado pide la opción más cortés, y las demás son bruscas o coloquiales.",
+   "explicacion_breve": "Se concede primero y luego se objeta.",
+   "traduccion": "Entiendo lo que dice, pero no creo que los datos respalden esa conclusión.",
+   "por_opcion": {
+    "I see your point": "Correcta: concede antes de objetar y es la forma cortés de discrepar.",
+    "You're wrong": "Gramaticalmente posible, pero demasiado directa; la ficha la pone como ejemplo de lo que hay que evitar.",
+    "That's nonsense": "Ofensiva: significa «eso es una tontería»; inadmisible ante un tribunal.",
+    "No way": "Coloquial y tajante («ni hablar»); no es cortés ni encaja con la estructura de la frase."
+   },
+   "glosario": [
+    {
+     "palabra": "I see your point",
+     "significado": "entiendo lo que quiere decir"
+    },
+    {
+     "palabra": "to support",
+     "significado": "respaldar, apoyar"
+    }
+   ]
   },
   {
    "id": "e06",
@@ -261,7 +363,33 @@
     "clarify",
     "explain"
    ],
-   "explicacion": "«Clarify» = aclarar."
+   "explicacion": "La fórmula de la tabla para pedir aclaración es Could you clarify what you mean by…? Clarify significa aclarar, hacer más claro un concepto. También se acepta explain, que funciona en la misma estructura aunque es más general. La pista es what you mean by, que pide precisar el sentido de un término.",
+   "explicacion_breve": "«Clarify» = aclarar.",
+   "traduccion": "¿Podría aclarar qué quiere decir con «fiscalidad justa»?",
+   "errores_previstos": [
+    {
+     "respuesta": "aclare",
+     "explicacion": "Se pide el verbo inglés: clarify."
+    },
+    {
+     "respuesta": "clear",
+     "explicacion": "Clear como verbo significa despejar o vaciar; aclarar un concepto es clarify."
+    },
+    {
+     "respuesta": "explain me",
+     "explicacion": "Explain no admite objeto indirecto sin to (explain to me), y aquí no hace falta: Could you explain what you mean."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "to clarify",
+     "significado": "aclarar"
+    },
+    {
+     "palabra": "fair taxation",
+     "significado": "fiscalidad justa"
+    }
+   ]
   },
   {
    "id": "e07",
@@ -277,7 +405,25 @@
    "respuestas": [
     "correctly"
    ],
-   "explicacion": "Hace falta un adverbio: correctly."
+   "explicacion": "La fórmula de la tabla para confirmar la pregunta es If I understand you correctly. Correctly es un adverbio y modifica al verbo understand; de ahí la terminación -ly. La pista gramatical es que el hueco va detrás de un verbo y un objeto (understand you).",
+   "explicacion_breve": "Hace falta un adverbio: correctly.",
+   "traduccion": "Si le he entendido bien, me pregunta por los efectos a largo plazo.",
+   "por_opcion": {
+    "correctly": "Correcta: adverbio que modifica a understand.",
+    "correct": "Incorrecta en registro cuidado: es adjetivo; aunque en el habla informal a veces se oye, la fórmula es correctly.",
+    "rightly so": "Incorrecta: significa «y con razón» y no modifica a understand en esta estructura.",
+    "well done": "Incorrecta: significa «bien hecho» como felicitación; no encaja."
+   },
+   "glosario": [
+    {
+     "palabra": "If I understand you correctly",
+     "significado": "si le he entendido bien"
+    },
+    {
+     "palabra": "long-term",
+     "significado": "a largo plazo"
+    }
+   ]
   },
   {
    "id": "e08",
@@ -287,7 +433,25 @@
    "respuestas": [
     "interrupt"
    ],
-   "explicacion": "«Sorry to interrupt» = perdone que le interrumpa."
+   "explicacion": "La tabla recoge Sorry to interrupt, but… como fórmula para interrumpir con cortesía. Tras sorry to va el infinitivo sin más: interrupt. Se escribe con dos erres, como en español.",
+   "explicacion_breve": "«Sorry to interrupt» = perdone que le interrumpa.",
+   "traduccion": "Perdone que le interrumpa, pero ¿podría añadir algo?",
+   "errores_previstos": [
+    {
+     "respuesta": "interrupting",
+     "explicacion": "Tras sorry to va el infinitivo; sorry for interrupting también existe, pero aquí ya está el to."
+    },
+    {
+     "respuesta": "interupt",
+     "explicacion": "Se escribe con doble r: interrupt."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "to interrupt",
+     "significado": "interrumpir"
+    }
+   ]
   },
   {
    "id": "e09",
@@ -303,7 +467,21 @@
    "respuestas": [
     "afraid"
    ],
-   "explicacion": "«I'm afraid…» introduce algo negativo con cortesía."
+   "explicacion": "La tabla da I'm afraid I can't agree como desacuerdo cortés. I'm afraid no expresa miedo aquí: es una forma educada de introducir algo negativo, como «me temo que». La pista es can't agree, que es justo la noticia que se suaviza.",
+   "explicacion_breve": "«I'm afraid…» introduce algo negativo con cortesía.",
+   "traduccion": "Me temo que no puedo estar de acuerdo con usted en ese punto.",
+   "por_opcion": {
+    "afraid": "Correcta: I'm afraid = me temo que, fórmula de cortesía.",
+    "scared": "Incorrecta: scared expresa miedo real y no se usa como fórmula de cortesía.",
+    "sorry of": "Incorrecta: se dice I'm sorry, but… o I'm sorry to say, pero nunca sorry of.",
+    "fear": "Incorrecta: fear es verbo o sustantivo; I'm fear no es gramatical."
+   },
+   "glosario": [
+    {
+     "palabra": "I'm afraid",
+     "significado": "me temo que"
+    }
+   ]
   },
   {
    "id": "e10",
@@ -313,7 +491,25 @@
    "respuestas": [
     "answer"
    ],
-   "explicacion": "«Answer» es transitivo: answer a question."
+   "explicacion": "Es la fórmula de cierre de la tabla: Does that answer your question? Answer es transitivo, igual que discuss: se responde a una pregunta directamente, sin to. La pista es your question, objeto directo del verbo.",
+   "explicacion_breve": "«Answer» es transitivo: answer a question.",
+   "traduccion": "¿Responde eso a su pregunta?",
+   "errores_previstos": [
+    {
+     "respuesta": "answer to",
+     "explicacion": "Calco de «responder a»: answer va sin preposición."
+    },
+    {
+     "respuesta": "respond",
+     "explicacion": "Respond necesita to (respond to a question); en esta fórmula se usa answer."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "to answer a question",
+     "significado": "responder a una pregunta"
+    }
+   ]
   },
   {
    "id": "e11",
@@ -325,7 +521,33 @@
     "I do not agree with the proposal.",
     "I disagree with the proposal."
    ],
-   "explicacion": "Negativa: «don't agree» o «disagree»."
+   "explicacion": "La ficha indica que la negación de agree se hace con don't (o do not) o con el verbo disagree, nunca con am not. Las tres respuestas aceptadas son correctas; disagree es la más directa.",
+   "explicacion_breve": "Negativa: «don't agree» o «disagree».",
+   "traduccion": "No estoy de acuerdo con la propuesta.",
+   "errores_previstos": [
+    {
+     "respuesta": "I'm not agree with the proposal.",
+     "explicacion": "Es la frase sin corregir: agree es verbo y se niega con don't."
+    },
+    {
+     "respuesta": "I not agree with the proposal.",
+     "explicacion": "En inglés hace falta el auxiliar don't para negar un verbo en presente."
+    },
+    {
+     "respuesta": "I am disagree with the proposal.",
+     "explicacion": "Disagree también es verbo: I disagree, sin am."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "to disagree",
+     "significado": "no estar de acuerdo, discrepar"
+    },
+    {
+     "palabra": "proposal",
+     "significado": "propuesta"
+    }
+   ]
   },
   {
    "id": "e12",
@@ -341,7 +563,25 @@
    "respuestas": [
     "fair"
    ],
-   "explicacion": "«A fair point» = un argumento razonable."
+   "explicacion": "La tabla recoge That's a fair point para conceder. Fair point significa un argumento razonable o atinado; es una colocación fija. La pista es la estructura de conceder y luego objetar (but it ignores the cost).",
+   "explicacion_breve": "«A fair point» = un argumento razonable.",
+   "traduccion": "Es un argumento razonable, pero no tiene en cuenta el coste.",
+   "por_opcion": {
+    "fair": "Correcta: a fair point = un argumento razonable.",
+    "just": "Incorrecta: just como adjetivo significa justo en sentido moral (a just cause), pero no forma colocación con point.",
+    "honest": "Incorrecta: honest se aplica a personas o respuestas, no a un argumento.",
+    "right": "Incorrecta: a right point no es idiomático; se dice That's right o a good point."
+   },
+   "glosario": [
+    {
+     "palabra": "a fair point",
+     "significado": "un argumento razonable"
+    },
+    {
+     "palabra": "to ignore",
+     "significado": "no tener en cuenta, pasar por alto"
+    }
+   ]
   },
   {
    "id": "e13",
@@ -351,7 +591,29 @@
    "respuestas": [
     "disagree"
    ],
-   "explicacion": "«Agree to disagree» = aceptar que no estamos de acuerdo."
+   "explicacion": "La tabla incluye Let's agree to disagree para terminar un desacuerdo de forma amistosa. La expresión fija es agree to disagree: acordar que se discrepa. La pista es We'll have to agree to…, que solo se completa con disagree.",
+   "explicacion_breve": "«Agree to disagree» = aceptar que no estamos de acuerdo.",
+   "traduccion": "Tendremos que aceptar que no estamos de acuerdo en este asunto.",
+   "errores_previstos": [
+    {
+     "respuesta": "disagreement",
+     "explicacion": "Tras agree to va un verbo en infinitivo, no un sustantivo: agree to disagree."
+    },
+    {
+     "respuesta": "not agree",
+     "explicacion": "La expresión es fija: agree to disagree."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "to agree to disagree",
+     "significado": "aceptar que no se está de acuerdo"
+    },
+    {
+     "palabra": "issue",
+     "significado": "asunto, cuestión"
+    }
+   ]
   },
   {
    "id": "e14",
@@ -367,7 +629,25 @@
    "respuestas": [
     "Could you repeat the question"
    ],
-   "explicacion": "Pregunta cortés: Could + sujeto + verbo."
+   "explicacion": "Es una pregunta cortés con modal: Could + sujeto + verbo + complemento. La tabla la recoge como fórmula para pedir que se repita. Could va delante del sujeto you por tratarse de una pregunta.",
+   "explicacion_breve": "Pregunta cortés: Could + sujeto + verbo.",
+   "traduccion": "¿Podría repetir la pregunta?",
+   "errores_previstos": [
+    {
+     "respuesta": "You could repeat the question",
+     "explicacion": "Sería una afirmación o sugerencia; para preguntar, could va delante de you."
+    },
+    {
+     "respuesta": "Could you the question repeat",
+     "explicacion": "El objeto va detrás del verbo: repeat the question."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "to repeat",
+     "significado": "repetir"
+    }
+   ]
   },
   {
    "id": "e15",
@@ -383,10 +663,34 @@
    "respuestas": [
     "scope"
    ],
-   "explicacion": "«Beyond the scope of» = fuera del alcance de."
+   "explicacion": "La tabla da That's beyond the scope of… para acotar la respuesta. Scope significa alcance, ámbito: beyond the scope of = fuera del alcance de. La pista es beyond the… of my presentation, una colocación fija muy útil ante un tribunal.",
+   "explicacion_breve": "«Beyond the scope of» = fuera del alcance de.",
+   "traduccion": "Me temo que esa pregunta queda fuera del alcance de mi exposición.",
+   "por_opcion": {
+    "scope": "Correcta: beyond the scope of = fuera del alcance de.",
+    "scoop": "Incorrecta: scoop es una cucharada o una exclusiva periodística; se parece en la forma.",
+    "range of": "Incorrecta: repetiría of (the range of of) y range no forma esta colocación.",
+    "frame": "Incorrecta: frame es marco; se diría outside the framework of, no beyond the frame of."
+   },
+   "glosario": [
+    {
+     "palabra": "beyond the scope of",
+     "significado": "fuera del alcance de"
+    },
+    {
+     "palabra": "presentation",
+     "significado": "exposición, presentación"
+    }
+   ]
   }
  ],
  "fuente": {
   "nombre": "propia"
+ },
+ "descripcion_larga_es": "Fórmulas para participar en un debate o en el turno de preguntas de un tribunal: pedir aclaraciones, mostrar acuerdo o desacuerdo con cortesía, conceder antes de objetar, matizar, interrumpir y cerrar una respuesta. Importa mucho en un examen oral, porque en inglés el desacuerdo directo suena brusco y porque hay errores muy típicos del hispanohablante, como «I am agree» o «discuss about».",
+ "contexto": {
+  "que_es": "Es un repertorio de expresiones funcionales del inglés oral formal: frases hechas para gestionar la conversación en un intercambio de opiniones o un turno de preguntas, y no vocabulario temático.",
+  "por_que_importa": "En una prueba oral el tribunal valora tanto el contenido como la forma de interactuar. Un desacuerdo demasiado directo puede parecer descortés, y no saber pedir que repitan una pregunta lleva a contestar a algo distinto. Además, errores como «I am agree» se perciben enseguida como faltas básicas.",
+  "cuando_se_usa": "En debates, reuniones, entrevistas y en la defensa de un tema ante un tribunal. La señal es la necesidad de reaccionar a lo que dice otro: confirmar la pregunta, conceder, objetar o cerrar. El hispanohablante tiende a responder con un «no» seco o un «you are wrong», que en inglés hay que suavizar."
  }
 }

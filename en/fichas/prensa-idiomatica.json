@@ -6,62 +6,776 @@
  "nivel": "C1",
  "resumen": "Locuciones figuradas que aparecen constantemente en la prensa anglosajona (a U-turn, to tighten one's belt, a double-edged sword). Reconocerlas es imprescindible para leer editoriales; usar algunas da naturalidad a una exposición.",
  "explicacion": [
-  {"tipo": "texto", "texto": "La prensa recurre a metáforas de deporte, guerra, navegación y meteorología. Muchas tienen equivalente en español, pero la imagen cambia: «the tip of the iceberg» coincide, mientras que «to move the goalposts» se traduciría como «cambiar las reglas del juego»."},
-  {"tipo": "tabla", "cabecera": ["Expresión", "Significado", "Ejemplo"], "filas": [
-   ["a U-turn", "un giro de 180 grados, una rectificación", "The government made a U-turn on fuel tax."],
-   ["to tighten one's belt", "apretarse el cinturón", "Families are tightening their belts."],
-   ["a double-edged sword", "un arma de doble filo", "Cheap credit is a double-edged sword."],
-   ["the tip of the iceberg", "la punta del iceberg", "These cases are just the tip of the iceberg."],
-   ["to move the goalposts", "cambiar las reglas a mitad de partido", "Investors accuse regulators of moving the goalposts."],
-   ["a level playing field", "igualdad de condiciones", "EU rules aim to create a level playing field."],
-   ["to kick the can down the road", "dar una patada adelante al problema", "Leaders kicked the can down the road again."],
-   ["to bite the bullet", "hacer de tripas corazón, afrontar algo desagradable", "The minister finally bit the bullet and raised taxes."],
-   ["a wake-up call", "una llamada de atención", "The results were a wake-up call for the party."],
-   ["to call the shots", "llevar la voz cantante", "In this coalition, the smaller party calls the shots."],
-   ["to hang in the balance", "pender de un hilo", "Thousands of jobs hang in the balance."],
-   ["to weather the storm", "capear el temporal", "The bank weathered the storm better than its rivals."],
-   ["a bone of contention", "la manzana de la discordia", "Fishing quotas remain a bone of contention."],
-   ["to pay lip service to", "defender de boquilla", "Many firms pay lip service to diversity."],
-   ["a red line", "una línea roja", "Pensions are a red line for the unions."],
-   ["back to the drawing board", "vuelta a empezar desde cero", "The plan was rejected, so it's back to the drawing board."],
-   ["to rock the boat", "agitar las aguas, crear problemas", "Nobody wanted to rock the boat before the election."],
-   ["the elephant in the room", "el problema evidente del que nadie habla", "Debt is the elephant in the room."],
-   ["to bear the brunt of", "llevarse la peor parte", "The poor bore the brunt of the cuts."],
-   ["to turn a blind eye to", "hacer la vista gorda", "The authorities turned a blind eye to the abuses."],
-   ["to throw in the towel", "tirar la toalla", "After three defeats, he threw in the towel."],
-   ["a lame duck", "un dirigente sin poder real (al final de su mandato)", "The president is now a lame duck."]
-  ]},
-  {"tipo": "lista", "items": ["En los titulares se omiten artículos y auxiliares: «PM makes U-turn on tax» = The Prime Minister has made a U-turn on tax.", "No abuses de ellas en una exposición formal: una o dos bien colocadas bastan."]}
+  {
+   "tipo": "texto",
+   "texto": "La prensa recurre a metáforas de deporte, guerra, navegación y meteorología. Muchas tienen equivalente en español, pero la imagen cambia: «the tip of the iceberg» coincide, mientras que «to move the goalposts» se traduciría como «cambiar las reglas del juego»."
+  },
+  {
+   "tipo": "tabla",
+   "cabecera": [
+    "Expresión",
+    "Significado",
+    "Ejemplo"
+   ],
+   "filas": [
+    [
+     "a U-turn",
+     "un giro de 180 grados, una rectificación",
+     "The government made a U-turn on fuel tax."
+    ],
+    [
+     "to tighten one's belt",
+     "apretarse el cinturón",
+     "Families are tightening their belts."
+    ],
+    [
+     "a double-edged sword",
+     "un arma de doble filo",
+     "Cheap credit is a double-edged sword."
+    ],
+    [
+     "the tip of the iceberg",
+     "la punta del iceberg",
+     "These cases are just the tip of the iceberg."
+    ],
+    [
+     "to move the goalposts",
+     "cambiar las reglas a mitad de partido",
+     "Investors accuse regulators of moving the goalposts."
+    ],
+    [
+     "a level playing field",
+     "igualdad de condiciones",
+     "EU rules aim to create a level playing field."
+    ],
+    [
+     "to kick the can down the road",
+     "dar una patada adelante al problema",
+     "Leaders kicked the can down the road again."
+    ],
+    [
+     "to bite the bullet",
+     "hacer de tripas corazón, afrontar algo desagradable",
+     "The minister finally bit the bullet and raised taxes."
+    ],
+    [
+     "a wake-up call",
+     "una llamada de atención",
+     "The results were a wake-up call for the party."
+    ],
+    [
+     "to call the shots",
+     "llevar la voz cantante",
+     "In this coalition, the smaller party calls the shots."
+    ],
+    [
+     "to hang in the balance",
+     "pender de un hilo",
+     "Thousands of jobs hang in the balance."
+    ],
+    [
+     "to weather the storm",
+     "capear el temporal",
+     "The bank weathered the storm better than its rivals."
+    ],
+    [
+     "a bone of contention",
+     "la manzana de la discordia",
+     "Fishing quotas remain a bone of contention."
+    ],
+    [
+     "to pay lip service to",
+     "defender de boquilla",
+     "Many firms pay lip service to diversity."
+    ],
+    [
+     "a red line",
+     "una línea roja",
+     "Pensions are a red line for the unions."
+    ],
+    [
+     "back to the drawing board",
+     "vuelta a empezar desde cero",
+     "The plan was rejected, so it's back to the drawing board."
+    ],
+    [
+     "to rock the boat",
+     "agitar las aguas, crear problemas",
+     "Nobody wanted to rock the boat before the election."
+    ],
+    [
+     "the elephant in the room",
+     "el problema evidente del que nadie habla",
+     "Debt is the elephant in the room."
+    ],
+    [
+     "to bear the brunt of",
+     "llevarse la peor parte",
+     "The poor bore the brunt of the cuts."
+    ],
+    [
+     "to turn a blind eye to",
+     "hacer la vista gorda",
+     "The authorities turned a blind eye to the abuses."
+    ],
+    [
+     "to throw in the towel",
+     "tirar la toalla",
+     "After three defeats, he threw in the towel."
+    ],
+    [
+     "a lame duck",
+     "un dirigente sin poder real (al final de su mandato)",
+     "The president is now a lame duck."
+    ]
+   ]
+  },
+  {
+   "tipo": "lista",
+   "items": [
+    "En los titulares se omiten artículos y auxiliares: «PM makes U-turn on tax» = The Prime Minister has made a U-turn on tax.",
+    "No abuses de ellas en una exposición formal: una o dos bien colocadas bastan."
+   ]
+  }
  ],
  "ejemplos": [
-  {"frase": "Social media is a double-edged sword for young people.", "traduccion": "Las redes sociales son un arma de doble filo para los jóvenes."},
-  {"frase": "Thousands of jobs hang in the balance as talks continue.", "traduccion": "Miles de empleos penden de un hilo mientras siguen las negociaciones."},
-  {"frase": "Small businesses have borne the brunt of the energy crisis.", "traduccion": "Las pequeñas empresas se han llevado la peor parte de la crisis energética."},
-  {"frase": "The referee seemed to turn a blind eye to the fouls.", "traduccion": "El árbitro pareció hacer la vista gorda con las faltas."},
-  {"frase": "The defeat should be a wake-up call for the coach.", "traduccion": "La derrota debería ser una llamada de atención para el entrenador."},
-  {"frase": "The water dispute remains a bone of contention between the regions.", "traduccion": "El conflicto del agua sigue siendo la manzana de la discordia entre las comunidades."}
+  {
+   "frase": "Social media is a double-edged sword for young people.",
+   "traduccion": "Las redes sociales son un arma de doble filo para los jóvenes."
+  },
+  {
+   "frase": "Thousands of jobs hang in the balance as talks continue.",
+   "traduccion": "Miles de empleos penden de un hilo mientras siguen las negociaciones."
+  },
+  {
+   "frase": "Small businesses have borne the brunt of the energy crisis.",
+   "traduccion": "Las pequeñas empresas se han llevado la peor parte de la crisis energética."
+  },
+  {
+   "frase": "The referee seemed to turn a blind eye to the fouls.",
+   "traduccion": "El árbitro pareció hacer la vista gorda con las faltas."
+  },
+  {
+   "frase": "The defeat should be a wake-up call for the coach.",
+   "traduccion": "La derrota debería ser una llamada de atención para el entrenador."
+  },
+  {
+   "frase": "The water dispute remains a bone of contention between the regions.",
+   "traduccion": "El conflicto del agua sigue siendo la manzana de la discordia entre las comunidades."
+  }
  ],
  "errores_hispanohablantes": [
-  {"mal": "The government gave a turn of 180 degrees.", "bien": "The government made a U-turn.", "nota": "La rectificación política es «a U-turn»."},
-  {"mal": "This is a sword of double edge.", "bien": "This is a double-edged sword.", "nota": "La locución tiene forma fija: «a double-edged sword»."},
-  {"mal": "The authorities made the blind eye.", "bien": "The authorities turned a blind eye.", "nota": "«Hacer la vista gorda» es «turn a blind eye (to)»."}
+  {
+   "mal": "The government gave a turn of 180 degrees.",
+   "bien": "The government made a U-turn.",
+   "nota": "La rectificación política es «a U-turn»."
+  },
+  {
+   "mal": "This is a sword of double edge.",
+   "bien": "This is a double-edged sword.",
+   "nota": "La locución tiene forma fija: «a double-edged sword»."
+  },
+  {
+   "mal": "The authorities made the blind eye.",
+   "bien": "The authorities turned a blind eye.",
+   "nota": "«Hacer la vista gorda» es «turn a blind eye (to)»."
+  }
  ],
  "ejercicios": [
-  {"id": "e01", "tipo": "hueco", "enunciado": "Completa la expresión (rectificación).", "frase": "After the protests, the minister made a ___ on the reform.", "respuestas": ["U-turn", "u-turn", "U turn"], "explicacion": "«Make a U-turn» = dar marcha atrás en una decisión."},
-  {"id": "e02", "tipo": "eleccion", "enunciado": "Elige la opción correcta.", "frase": "With prices rising, many households are ___ their belts.", "opciones": ["tightening", "fastening", "closing", "squeezing"], "respuestas": ["tightening"], "explicacion": "«Tighten one's belt» = apretarse el cinturón."},
-  {"id": "e03", "tipo": "hueco", "enunciado": "Completa la expresión (pender de un hilo).", "frase": "The future of the factory hangs in the ___.", "respuestas": ["balance"], "explicacion": "«Hang in the balance» = pender de un hilo."},
-  {"id": "e04", "tipo": "eleccion", "enunciado": "Elige la opción correcta.", "frase": "Low-income families bore the ___ of the austerity measures.", "opciones": ["brunt", "front", "brute", "blunt"], "respuestas": ["brunt"], "explicacion": "«Bear the brunt of» = llevarse la peor parte."},
-  {"id": "e05", "tipo": "corregir", "enunciado": "Corrige la expresión.", "frase": "The police made a blind eye to the illegal parking.", "respuestas": ["The police turned a blind eye to the illegal parking."], "explicacion": "La expresión es «turn a blind eye to»."},
-  {"id": "e06", "tipo": "eleccion", "enunciado": "Elige la opción correcta.", "frase": "Foreign companies complain that there is no level playing ___ in that market.", "opciones": ["field", "ground", "pitch", "court"], "respuestas": ["field"], "explicacion": "«A level playing field» = igualdad de condiciones."},
-  {"id": "e07", "tipo": "hueco", "enunciado": "Completa la expresión (manzana de la discordia).", "frase": "The new airport has become a bone of ___ between the two towns.", "respuestas": ["contention"], "explicacion": "«A bone of contention» = la manzana de la discordia."},
-  {"id": "e08", "tipo": "eleccion", "enunciado": "Elige la opción correcta.", "frase": "Instead of solving the debt problem, the summit just kicked the ___ down the road.", "opciones": ["can", "ball", "stone", "bucket"], "respuestas": ["can"], "explicacion": "«Kick the can down the road» = aplazar el problema."},
-  {"id": "e09", "tipo": "hueco", "enunciado": "Completa la expresión (tirar la toalla).", "frase": "Don't throw in the ___ yet; we can still win.", "respuestas": ["towel"], "explicacion": "«Throw in the towel» = tirar la toalla."},
-  {"id": "e10", "tipo": "corregir", "enunciado": "Corrige la expresión.", "frase": "Low interest rates are a sword of double edge for savers.", "respuestas": ["Low interest rates are a double-edged sword for savers.", "Low interest rates are a double edged sword for savers."], "explicacion": "Forma fija: «a double-edged sword»."},
-  {"id": "e11", "tipo": "eleccion", "enunciado": "Elige la opción correcta.", "frase": "The poor results were a ___ for the management.", "opciones": ["wake-up call", "wake call", "alarm call", "rising call"], "respuestas": ["wake-up call"], "explicacion": "«A wake-up call» = una llamada de atención."},
-  {"id": "e12", "tipo": "hueco", "enunciado": "Completa la expresión (capear el temporal).", "frase": "The airline managed to ___ the storm thanks to state aid.", "respuestas": ["weather", "ride out"], "explicacion": "«Weather the storm» = capear el temporal."},
-  {"id": "e13", "tipo": "eleccion", "enunciado": "Elige la opción correcta.", "frase": "The committee rejected the design, so it's back to the drawing ___.", "opciones": ["board", "table", "desk", "paper"], "respuestas": ["board"], "explicacion": "«Back to the drawing board» = volver a empezar."},
-  {"id": "e14", "tipo": "hueco", "enunciado": "Completa la expresión (defender de boquilla).", "frase": "Many politicians pay ___ service to the environment.", "respuestas": ["lip"], "explicacion": "«Pay lip service to» = apoyar solo de palabra."},
-  {"id": "e15", "tipo": "ordenar", "enunciado": "Ordena las palabras.", "palabras": ["the", "iceberg", "are", "of", "These", "tip", "the", "just", "cases"], "respuestas": ["These cases are just the tip of the iceberg"], "explicacion": "«The tip of the iceberg» = la punta del iceberg."}
+  {
+   "id": "e01",
+   "tipo": "hueco",
+   "enunciado": "Completa la expresión (rectificación).",
+   "frase": "After the protests, the minister made a ___ on the reform.",
+   "respuestas": [
+    "U-turn",
+    "u-turn",
+    "U turn"
+   ],
+   "explicacion": "Se trabaja la expresión a U-turn de la tabla, que significa un giro de 180 grados, una rectificación. Literalmente es el cambio de sentido en U que hace un coche, y en prensa se aplica a un gobierno que da marcha atrás en una decisión. La pista es after the protests: las protestas fuerzan al ministro a rectificar. La colocación es make a U-turn on algo. Se acepta con guion y mayúscula (U-turn), en minúscula o sin guion.",
+   "explicacion_breve": "«Make a U-turn» = dar marcha atrás en una decisión.",
+   "traduccion": "Tras las protestas, el ministro rectificó (dio un giro de 180 grados) sobre la reforma.",
+   "errores_previstos": [
+    {
+     "respuesta": "turn",
+     "explicacion": "A turn es solo «un giro» o «un turno»; la expresión de rectificación completa es a U-turn."
+    },
+    {
+     "respuesta": "turnaround",
+     "explicacion": "A turnaround es una recuperación o un vuelco positivo (de una empresa, de una situación), no una rectificación política."
+    },
+    {
+     "respuesta": "rectification",
+     "explicacion": "Calco de «rectificación»: en inglés significa «corrección» de un error técnico; en prensa se dice a U-turn."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "a U-turn",
+     "significado": "un giro de 180 grados, una rectificación"
+    },
+    {
+     "palabra": "protest",
+     "significado": "protesta"
+    },
+    {
+     "palabra": "reform",
+     "significado": "reforma"
+    }
+   ]
+  },
+  {
+   "id": "e02",
+   "tipo": "eleccion",
+   "enunciado": "Elige la opción correcta.",
+   "frase": "With prices rising, many households are ___ their belts.",
+   "opciones": [
+    "tightening",
+    "fastening",
+    "closing",
+    "squeezing"
+   ],
+   "respuestas": [
+    "tightening"
+   ],
+   "explicacion": "Se trabaja la expresión to tighten one's belt de la tabla, «apretarse el cinturón», es decir, reducir gastos. La imagen coincide con la española, pero el verbo es fijo: tighten, apretar o tensar. La pista es with prices rising, que explica por qué los hogares tienen que ahorrar, y el tiempo continuo are ___ing. Households significa «hogares», unidades familiares, un término muy usado en economía.",
+   "explicacion_breve": "«Tighten one's belt» = apretarse el cinturón.",
+   "traduccion": "Con la subida de los precios, muchos hogares se están apretando el cinturón.",
+   "por_opcion": {
+    "tightening": "Correcta: tighten one's belt es la forma fija de «apretarse el cinturón».",
+    "fastening": "Incorrecta: fasten one's belt es «abrocharse el cinturón» (fasten your seatbelt); no tiene el sentido figurado de ahorrar.",
+    "closing": "Incorrecta: close significa cerrar; no forma parte de la expresión.",
+    "squeezing": "Incorrecta: squeeze es estrujar o apretujar; existe el sustantivo a squeeze (un apretón, una restricción: a budget squeeze), pero no forma esta expresión."
+   },
+   "glosario": [
+    {
+     "palabra": "to tighten one's belt",
+     "significado": "apretarse el cinturón, reducir gastos"
+    },
+    {
+     "palabra": "household",
+     "significado": "hogar, unidad familiar"
+    },
+    {
+     "palabra": "rising prices",
+     "significado": "precios en aumento"
+    }
+   ]
+  },
+  {
+   "id": "e03",
+   "tipo": "hueco",
+   "enunciado": "Completa la expresión (pender de un hilo).",
+   "frase": "The future of the factory hangs in the ___.",
+   "respuestas": [
+    "balance"
+   ],
+   "explicacion": "Se trabaja la expresión to hang in the balance de la tabla, «pender de un hilo», estar en una situación incierta cuyo desenlace aún no se conoce. La imagen es la de una balanza que todavía no se ha inclinado hacia ningún lado. La pista es la expresión casi completa, hangs in the ___, y el sujeto, the future of the factory, que es lo que está en juego.",
+   "explicacion_breve": "«Hang in the balance» = pender de un hilo.",
+   "traduccion": "El futuro de la fábrica pende de un hilo.",
+   "errores_previstos": [
+    {
+     "respuesta": "thread",
+     "explicacion": "Calco de «pender de un hilo»: en inglés la imagen es la de una balanza, hang in the balance. Existe hang by a thread, pero con by."
+    },
+    {
+     "respuesta": "air",
+     "explicacion": "In the air significa «en el ambiente» o «en el aire» (algo que se percibe o está sin decidir), pero la expresión de la ficha es hang in the balance."
+    },
+    {
+     "respuesta": "balanze",
+     "explicacion": "Error ortográfico: se escribe balance."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "to hang in the balance",
+     "significado": "pender de un hilo, estar en el aire"
+    },
+    {
+     "palabra": "factory",
+     "significado": "fábrica"
+    }
+   ]
+  },
+  {
+   "id": "e04",
+   "tipo": "eleccion",
+   "enunciado": "Elige la opción correcta.",
+   "frase": "Low-income families bore the ___ of the austerity measures.",
+   "opciones": [
+    "brunt",
+    "front",
+    "brute",
+    "blunt"
+   ],
+   "respuestas": [
+    "brunt"
+   ],
+   "explicacion": "Se trabaja la expresión to bear the brunt of de la tabla, «llevarse la peor parte», sufrir lo más duro de algo. Brunt es una palabra que hoy prácticamente solo aparece en esta expresión, por eso es fácil confundirla con otras parecidas. La pista es el verbo bore (pasado de bear) y la preposición of tras el hueco. Austerity measures son las medidas de austeridad, un término muy frecuente en economía.",
+   "explicacion_breve": "«Bear the brunt of» = llevarse la peor parte.",
+   "traduccion": "Las familias con ingresos bajos se llevaron la peor parte de las medidas de austeridad.",
+   "por_opcion": {
+    "brunt": "Correcta: bear the brunt of es la forma fija de «llevarse la peor parte».",
+    "front": "Incorrecta: front es «frente» o «parte delantera»; no forma esta expresión.",
+    "brute": "Incorrecta: brute es «bruto, bestia» (brute force, fuerza bruta).",
+    "blunt": "Incorrecta: blunt es un adjetivo, «romo» o «franco, directo» (a blunt answer)."
+   },
+   "glosario": [
+    {
+     "palabra": "to bear the brunt of",
+     "significado": "llevarse la peor parte de"
+    },
+    {
+     "palabra": "low-income",
+     "significado": "con ingresos bajos"
+    },
+    {
+     "palabra": "austerity measures",
+     "significado": "medidas de austeridad"
+    }
+   ]
+  },
+  {
+   "id": "e05",
+   "tipo": "corregir",
+   "enunciado": "Corrige la expresión.",
+   "frase": "The police made a blind eye to the illegal parking.",
+   "respuestas": [
+    "The police turned a blind eye to the illegal parking."
+   ],
+   "explicacion": "Se trabaja la expresión to turn a blind eye to de la tabla, «hacer la vista gorda», fingir no ver algo irregular. El verbo de la expresión es turn, no make: «make a blind eye» es un calco del español «hacer». La pista es la preposición to tras blind eye, que introduce aquello que se ignora. La frase solo exige cambiar made por turned, en pasado.",
+   "explicacion_breve": "La expresión es «turn a blind eye to».",
+   "traduccion": "La policía hizo la vista gorda con el aparcamiento ilegal.",
+   "errores_previstos": [
+    {
+     "respuesta": "The police made a blind eye to the illegal parking.",
+     "explicacion": "Es la frase sin corregir: el verbo de la expresión es turn, no make."
+    },
+    {
+     "respuesta": "The police did a blind eye to the illegal parking.",
+     "explicacion": "Do tampoco forma la expresión: el verbo fijo es turn."
+    },
+    {
+     "respuesta": "The police turned a blind eye at the illegal parking.",
+     "explicacion": "El verbo ya está bien, pero la preposición de la expresión es to: turn a blind eye to."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "to turn a blind eye to",
+     "significado": "hacer la vista gorda con"
+    },
+    {
+     "palabra": "illegal parking",
+     "significado": "aparcamiento ilegal (en zona prohibida)"
+    }
+   ]
+  },
+  {
+   "id": "e06",
+   "tipo": "eleccion",
+   "enunciado": "Elige la opción correcta.",
+   "frase": "Foreign companies complain that there is no level playing ___ in that market.",
+   "opciones": [
+    "field",
+    "ground",
+    "pitch",
+    "court"
+   ],
+   "respuestas": [
+    "field"
+   ],
+   "explicacion": "Se trabaja la expresión a level playing field de la tabla, «igualdad de condiciones», muy usada en comercio y competencia. La imagen es la de un campo de juego llano, en el que ningún equipo tiene ventaja por la pendiente. La pista es level playing ___, que solo se completa con field, y el contexto de empresas extranjeras que se quejan de competir en desventaja.",
+   "explicacion_breve": "«A level playing field» = igualdad de condiciones.",
+   "traduccion": "Las empresas extranjeras se quejan de que no hay igualdad de condiciones en ese mercado.",
+   "por_opcion": {
+    "field": "Correcta: a level playing field es la forma fija de «igualdad de condiciones».",
+    "ground": "Incorrecta: ground significa «terreno» o «suelo»; existe common ground (terreno común), pero no en esta expresión.",
+    "pitch": "Incorrecta: pitch es el campo de fútbol en inglés británico, pero la expresión fija usa field.",
+    "court": "Incorrecta: court es una pista de tenis o baloncesto, o un tribunal; no forma esta expresión."
+   },
+   "glosario": [
+    {
+     "palabra": "a level playing field",
+     "significado": "igualdad de condiciones"
+    },
+    {
+     "palabra": "to complain",
+     "significado": "quejarse"
+    }
+   ]
+  },
+  {
+   "id": "e07",
+   "tipo": "hueco",
+   "enunciado": "Completa la expresión (manzana de la discordia).",
+   "frase": "The new airport has become a bone of ___ between the two towns.",
+   "respuestas": [
+    "contention"
+   ],
+   "explicacion": "Se trabaja la expresión a bone of contention de la tabla, «la manzana de la discordia», un motivo de disputa persistente. La imagen inglesa es la de un hueso por el que se pelean dos perros, mientras que la española procede de la mitología. Contention significa «disputa» o «controversia». La pista es bone of ___ y la idea de enfrentamiento between the two towns.",
+   "explicacion_breve": "«A bone of contention» = la manzana de la discordia.",
+   "traduccion": "El nuevo aeropuerto se ha convertido en la manzana de la discordia entre las dos ciudades.",
+   "errores_previstos": [
+    {
+     "respuesta": "discord",
+     "explicacion": "Calco de «discordia»: la expresión fija inglesa es a bone of contention; existe an apple of discord, pero es mucho menos frecuente en prensa."
+    },
+    {
+     "respuesta": "contension",
+     "explicacion": "Error ortográfico: se escribe contention, con t."
+    },
+    {
+     "respuesta": "contest",
+     "explicacion": "Contest es «concurso» o «competición»; la expresión exige contention."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "a bone of contention",
+     "significado": "la manzana de la discordia, motivo de disputa"
+    },
+    {
+     "palabra": "contention",
+     "significado": "disputa, controversia"
+    },
+    {
+     "palabra": "town",
+     "significado": "ciudad pequeña, municipio"
+    }
+   ]
+  },
+  {
+   "id": "e08",
+   "tipo": "eleccion",
+   "enunciado": "Elige la opción correcta.",
+   "frase": "Instead of solving the debt problem, the summit just kicked the ___ down the road.",
+   "opciones": [
+    "can",
+    "ball",
+    "stone",
+    "bucket"
+   ],
+   "respuestas": [
+    "can"
+   ],
+   "explicacion": "Se trabaja la expresión to kick the can down the road de la tabla: aplazar un problema en lugar de resolverlo. La imagen es la de ir dando patadas a una lata por la calle, sin llegar a recogerla. La pista es instead of solving the debt problem, que contrapone resolver con aplazar. La palabra fija es can, «lata». Summit es una cumbre de dirigentes políticos.",
+   "explicacion_breve": "«Kick the can down the road» = aplazar el problema.",
+   "traduccion": "En lugar de resolver el problema de la deuda, la cumbre se limitó a darle una patada adelante.",
+   "por_opcion": {
+    "can": "Correcta: kick the can down the road es la forma fija de «aplazar el problema».",
+    "ball": "Incorrecta: no forma esta expresión; kick the ball es literal, «dar una patada al balón».",
+    "stone": "Incorrecta: no forma esta expresión.",
+    "bucket": "Incorrecta: kick the bucket es otra expresión que significa «estirar la pata», morir; cuidado con la confusión."
+   },
+   "glosario": [
+    {
+     "palabra": "to kick the can down the road",
+     "significado": "aplazar un problema, darle una patada adelante"
+    },
+    {
+     "palabra": "summit",
+     "significado": "cumbre (reunión de dirigentes)"
+    },
+    {
+     "palabra": "debt",
+     "significado": "deuda"
+    }
+   ]
+  },
+  {
+   "id": "e09",
+   "tipo": "hueco",
+   "enunciado": "Completa la expresión (tirar la toalla).",
+   "frase": "Don't throw in the ___ yet; we can still win.",
+   "respuestas": [
+    "towel"
+   ],
+   "explicacion": "Se trabaja la expresión to throw in the towel de la tabla, «tirar la toalla», rendirse. Procede del boxeo, igual que en español, y la imagen coincide. La pista es la segunda parte de la frase, we can still win, que anima a no rendirse. La única diferencia con el español es la partícula in: throw in the towel.",
+   "explicacion_breve": "«Throw in the towel» = tirar la toalla.",
+   "traduccion": "No tires la toalla todavía; aún podemos ganar.",
+   "errores_previstos": [
+    {
+     "respuesta": "tower",
+     "explicacion": "Tower es «torre»; la palabra de la expresión es towel, «toalla»."
+    },
+    {
+     "respuesta": "napkin",
+     "explicacion": "Napkin es la servilleta; la expresión de rendirse usa towel."
+    },
+    {
+     "respuesta": "towl",
+     "explicacion": "Error ortográfico: toalla se escribe towel, con e."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "to throw in the towel",
+     "significado": "tirar la toalla, rendirse"
+    },
+    {
+     "palabra": "still",
+     "significado": "todavía, aún"
+    }
+   ]
+  },
+  {
+   "id": "e10",
+   "tipo": "corregir",
+   "enunciado": "Corrige la expresión.",
+   "frase": "Low interest rates are a sword of double edge for savers.",
+   "respuestas": [
+    "Low interest rates are a double-edged sword for savers.",
+    "Low interest rates are a double edged sword for savers."
+   ],
+   "explicacion": "Se trabaja la expresión a double-edged sword de la tabla, «un arma de doble filo»: algo con ventajas e inconvenientes a la vez. Es una fórmula fija en la que el adjetivo compuesto double-edged va delante de sword, como todos los adjetivos ingleses. «A sword of double edge» calca el orden español. Se acepta con guion o sin él, aunque con guion es lo normal.",
+   "explicacion_breve": "Forma fija: «a double-edged sword».",
+   "traduccion": "Los tipos de interés bajos son un arma de doble filo para los ahorradores.",
+   "errores_previstos": [
+    {
+     "respuesta": "Low interest rates are a sword of double edge for savers.",
+     "explicacion": "Es la frase sin corregir: la forma fija es a double-edged sword, con el adjetivo delante."
+    },
+    {
+     "respuesta": "Low interest rates are a double-edge sword for savers.",
+     "explicacion": "El adjetivo compuesto lleva -ed: double-edged."
+    },
+    {
+     "respuesta": "Low interest rates are a weapon of double edge for savers.",
+     "explicacion": "Calco de «arma de doble filo»: en inglés la imagen es una espada, a double-edged sword."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "a double-edged sword",
+     "significado": "un arma de doble filo"
+    },
+    {
+     "palabra": "interest rates",
+     "significado": "tipos de interés"
+    },
+    {
+     "palabra": "saver",
+     "significado": "ahorrador"
+    }
+   ]
+  },
+  {
+   "id": "e11",
+   "tipo": "eleccion",
+   "enunciado": "Elige la opción correcta.",
+   "frase": "The poor results were a ___ for the management.",
+   "opciones": [
+    "wake-up call",
+    "wake call",
+    "alarm call",
+    "rising call"
+   ],
+   "respuestas": [
+    "wake-up call"
+   ],
+   "explicacion": "Se trabaja la expresión a wake-up call de la tabla, «una llamada de atención»: un aviso que obliga a reaccionar. Literalmente es la llamada que hace el hotel para despertarte. La pista es el sujeto, the poor results, que funcionan como aviso, y for the management, la dirección de la empresa. La forma fija lleva guion: wake-up.",
+   "explicacion_breve": "«A wake-up call» = una llamada de atención.",
+   "traduccion": "Los malos resultados fueron una llamada de atención para la dirección.",
+   "por_opcion": {
+    "wake-up call": "Correcta: a wake-up call es la expresión fija para «llamada de atención».",
+    "wake call": "Incorrecta: no existe; falta la partícula up.",
+    "alarm call": "Incorrecta: alarm call es literalmente el servicio de despertador de un hotel o el grito de alarma de un animal; no tiene el sentido figurado de aviso.",
+    "rising call": "Incorrecta: no existe; rising significa «en aumento»."
+   },
+   "glosario": [
+    {
+     "palabra": "a wake-up call",
+     "significado": "una llamada de atención, un toque de atención"
+    },
+    {
+     "palabra": "the management",
+     "significado": "la dirección (de una empresa)"
+    }
+   ]
+  },
+  {
+   "id": "e12",
+   "tipo": "hueco",
+   "enunciado": "Completa la expresión (capear el temporal).",
+   "frase": "The airline managed to ___ the storm thanks to state aid.",
+   "respuestas": [
+    "weather",
+    "ride out"
+   ],
+   "explicacion": "Se trabaja la expresión to weather the storm de la tabla, «capear el temporal»: superar una época difícil. Weather, que normalmente es el sustantivo «tiempo», aquí es un verbo que significa «resistir, aguantar». La pista es managed to ___ the storm y thanks to state aid, que explica cómo lo consiguió. También se acepta ride out the storm, que significa lo mismo.",
+   "explicacion_breve": "«Weather the storm» = capear el temporal.",
+   "traduccion": "La aerolínea consiguió capear el temporal gracias a las ayudas públicas.",
+   "errores_previstos": [
+    {
+     "respuesta": "whether",
+     "explicacion": "Error ortográfico frecuente: whether es la conjunción «si»; el verbo es weather."
+    },
+    {
+     "respuesta": "cape",
+     "explicacion": "Calco de «capear»: en inglés cape es una capa o un cabo geográfico; el verbo de la expresión es weather."
+    },
+    {
+     "respuesta": "survive",
+     "explicacion": "Survive the storm se entiende literalmente, pero no es la expresión fija; se dice weather (o ride out) the storm."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "to weather the storm",
+     "significado": "capear el temporal"
+    },
+    {
+     "palabra": "to ride out",
+     "significado": "aguantar hasta que pase (una crisis)"
+    },
+    {
+     "palabra": "state aid",
+     "significado": "ayudas públicas, ayudas de Estado"
+    },
+    {
+     "palabra": "airline",
+     "significado": "aerolínea"
+    }
+   ]
+  },
+  {
+   "id": "e13",
+   "tipo": "eleccion",
+   "enunciado": "Elige la opción correcta.",
+   "frase": "The committee rejected the design, so it's back to the drawing ___.",
+   "opciones": [
+    "board",
+    "table",
+    "desk",
+    "paper"
+   ],
+   "respuestas": [
+    "board"
+   ],
+   "explicacion": "Se trabaja la expresión back to the drawing board de la tabla, «vuelta a empezar desde cero». La imagen es la del tablero de dibujo de un arquitecto o ingeniero, al que hay que volver para rehacer el proyecto. La pista es rejected the design: si el diseño se rechaza, hay que rehacerlo. La palabra fija es board, «tablero».",
+   "explicacion_breve": "«Back to the drawing board» = volver a empezar.",
+   "traduccion": "El comité rechazó el diseño, así que toca volver a empezar desde cero.",
+   "por_opcion": {
+    "board": "Correcta: back to the drawing board es la forma fija.",
+    "table": "Incorrecta: table es «mesa»; existe drawing table, pero no en esta expresión.",
+    "desk": "Incorrecta: desk es «escritorio»; no forma la expresión.",
+    "paper": "Incorrecta: no forma la expresión, aunque on paper signifique «sobre el papel»."
+   },
+   "glosario": [
+    {
+     "palabra": "back to the drawing board",
+     "significado": "vuelta a empezar desde cero"
+    },
+    {
+     "palabra": "committee",
+     "significado": "comité, comisión"
+    },
+    {
+     "palabra": "to reject",
+     "significado": "rechazar"
+    }
+   ]
+  },
+  {
+   "id": "e14",
+   "tipo": "hueco",
+   "enunciado": "Completa la expresión (defender de boquilla).",
+   "frase": "Many politicians pay ___ service to the environment.",
+   "respuestas": [
+    "lip"
+   ],
+   "explicacion": "Se trabaja la expresión to pay lip service to de la tabla, «defender de boquilla», apoyar algo solo de palabra, sin hechos. Lip es «labio»: es un servicio que se presta solo con los labios. La pista es pay ___ service to, con la estructura fija completa salvo el hueco. Es muy útil para criticar declaraciones que no se acompañan de medidas.",
+   "explicacion_breve": "«Pay lip service to» = apoyar solo de palabra.",
+   "traduccion": "Muchos políticos defienden el medio ambiente solo de boquilla.",
+   "errores_previstos": [
+    {
+     "respuesta": "lips",
+     "explicacion": "La expresión usa el singular: lip service."
+    },
+    {
+     "respuesta": "mouth",
+     "explicacion": "Calco de «de boquilla»: la expresión inglesa usa lip, no mouth."
+    },
+    {
+     "respuesta": "word",
+     "explicacion": "Existe pay lip service, no «pay word service»; la palabra fija es lip."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "to pay lip service to",
+     "significado": "defender de boquilla, apoyar solo de palabra"
+    },
+    {
+     "palabra": "lip",
+     "significado": "labio"
+    },
+    {
+     "palabra": "the environment",
+     "significado": "el medio ambiente"
+    }
+   ]
+  },
+  {
+   "id": "e15",
+   "tipo": "ordenar",
+   "enunciado": "Ordena las palabras.",
+   "palabras": [
+    "the",
+    "iceberg",
+    "are",
+    "of",
+    "These",
+    "tip",
+    "the",
+    "just",
+    "cases"
+   ],
+   "respuestas": [
+    "These cases are just the tip of the iceberg"
+   ],
+   "explicacion": "Se trabaja la expresión the tip of the iceberg de la tabla, «la punta del iceberg», que coincide con el español: lo visible es solo una parte pequeña de un problema mayor. La pista para el orden es la estructura sujeto (These cases) + verbo (are) + just + atributo (the tip of the iceberg). Just, «solo», va justo antes de lo que matiza, la expresión.",
+   "explicacion_breve": "«The tip of the iceberg» = la punta del iceberg.",
+   "traduccion": "Estos casos son solo la punta del iceberg.",
+   "errores_previstos": [
+    {
+     "respuesta": "These cases are the just tip of the iceberg",
+     "explicacion": "Just no puede ir entre el artículo y el sustantivo; va delante de the tip."
+    },
+    {
+     "respuesta": "These cases are just the iceberg of the tip",
+     "explicacion": "Se ha invertido la expresión: es the tip of the iceberg, la punta del iceberg."
+    },
+    {
+     "respuesta": "These cases just are the tip of the iceberg",
+     "explicacion": "Con be, just va detrás del verbo: are just."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "the tip of the iceberg",
+     "significado": "la punta del iceberg"
+    },
+    {
+     "palabra": "tip",
+     "significado": "punta, extremo"
+    },
+    {
+     "palabra": "case",
+     "significado": "caso"
+    }
+   ]
+  }
  ],
- "fuente": {"nombre": "propia"}
+ "fuente": {
+  "nombre": "propia"
+ },
+ "descripcion_larga_es": "Locuciones figuradas que la prensa anglosajona usa constantemente: a U-turn, to tighten one's belt, a level playing field, to kick the can down the road. Reconocerlas es imprescindible para entender editoriales y artículos de economía y política, y usar una o dos bien colocadas da naturalidad a una exposición. Cuestan porque son fórmulas fijas: cambiar una sola palabra («a sword of double edge») las rompe.",
+ "contexto": {
+  "que_es": "Son expresiones idiomáticas: grupos de palabras con un significado figurado que no se deduce de cada palabra y cuya forma está fijada (bear the brunt of, a bone of contention, pay lip service to). La prensa recurre a ellas para dar viveza a titulares y análisis, a menudo con metáforas de deporte, guerra, navegación o meteorología.",
+  "por_que_importa": "Sin ellas, muchos titulares y párrafos de The Economist o el Financial Times resultan opacos aunque se entiendan todas las palabras. En un examen oral de nivel C1, una expresión bien usada (a double-edged sword, a wake-up call) muestra dominio; mal construida, delata la traducción. Por eso importa la forma exacta, no solo el significado.",
+  "cuando_se_usa": "En artículos de opinión, análisis económicos y políticos y en exposiciones orales sobre actualidad. Las señales son contextos de crisis, negociación, reformas o conflictos. El hispanohablante tiende a traducir palabra por palabra la versión española («make a blind eye», «a sword of double edge») o a cambiar una palabra de la fórmula; la ficha recomienda no abusar de ellas en registro formal."
+ }
 }

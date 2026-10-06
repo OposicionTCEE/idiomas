@@ -6,51 +6,507 @@
  "nivel": "C1",
  "resumen": "El subjuntivo inglés tiene la forma base del verbo para todas las personas (that he go, that she be, that they not leave). Aparece en registro formal tras expresiones de exigencia, recomendación o importancia, y en la forma were para lo hipotético.",
  "explicacion": [
-  {"tipo": "texto", "texto": "Subjuntivo mandativo: verbo o expresión de exigencia + that + sujeto + forma base. La tercera persona no lleva -s y be se queda en be: The board recommends that he resign. It is vital that everyone be informed."},
-  {"tipo": "tabla", "cabecera": ["Tipo", "Palabras que lo activan"], "filas": [
-   ["Verbos", "suggest, recommend, insist, demand, request, propose, require, ask, urge, order"],
-   ["Adjetivos", "essential, vital, crucial, important, necessary, imperative, advisable, desirable"],
-   ["Sustantivos", "suggestion, recommendation, requirement, demand, proposal, insistence"]
-  ]},
-  {"tipo": "lista", "items": [
-   "Negación: not delante de la forma base, sin do: They insisted that he not be told.",
-   "Pasiva: be + participio: The committee proposed that the rule be abolished.",
-   "El tiempo de la oración principal no cambia la forma: She demanded that he leave (no «left»).",
-   "En inglés británico es frecuente también should + infinitivo: It is essential that he should attend. Ambas son correctas; el subjuntivo puro es más formal y más habitual en EE. UU."
-  ]},
-  {"tipo": "texto", "texto": "Subjuntivo con were: en condicionales irreales, wish, if only, as if y as though se usa were para todas las personas en registro cuidado: If I were rich… I wish he were here. Was es coloquial."},
-  {"tipo": "texto", "texto": "Para un hispanohablante, la clave es reconocer que «exijo que venga» no se traduce con will ni con -s: I demand that he come. No confundir con suggest + -ing: She suggested going to the cinema."}
+  {
+   "tipo": "texto",
+   "texto": "Subjuntivo mandativo: verbo o expresión de exigencia + that + sujeto + forma base. La tercera persona no lleva -s y be se queda en be: The board recommends that he resign. It is vital that everyone be informed."
+  },
+  {
+   "tipo": "tabla",
+   "cabecera": [
+    "Tipo",
+    "Palabras que lo activan"
+   ],
+   "filas": [
+    [
+     "Verbos",
+     "suggest, recommend, insist, demand, request, propose, require, ask, urge, order"
+    ],
+    [
+     "Adjetivos",
+     "essential, vital, crucial, important, necessary, imperative, advisable, desirable"
+    ],
+    [
+     "Sustantivos",
+     "suggestion, recommendation, requirement, demand, proposal, insistence"
+    ]
+   ]
+  },
+  {
+   "tipo": "lista",
+   "items": [
+    "Negación: not delante de la forma base, sin do: They insisted that he not be told.",
+    "Pasiva: be + participio: The committee proposed that the rule be abolished.",
+    "El tiempo de la oración principal no cambia la forma: She demanded that he leave (no «left»).",
+    "En inglés británico es frecuente también should + infinitivo: It is essential that he should attend. Ambas son correctas; el subjuntivo puro es más formal y más habitual en EE. UU."
+   ]
+  },
+  {
+   "tipo": "texto",
+   "texto": "Subjuntivo con were: en condicionales irreales, wish, if only, as if y as though se usa were para todas las personas en registro cuidado: If I were rich… I wish he were here. Was es coloquial."
+  },
+  {
+   "tipo": "texto",
+   "texto": "Para un hispanohablante, la clave es reconocer que «exijo que venga» no se traduce con will ni con -s: I demand that he come. No confundir con suggest + -ing: She suggested going to the cinema."
+  }
  ],
  "ejemplos": [
-  {"frase": "The doctor recommended that she rest for a week.", "traduccion": "El médico le recomendó que descansara una semana."},
-  {"frase": "It is essential that every applicant be interviewed in person.", "traduccion": "Es imprescindible que todos los candidatos sean entrevistados en persona."},
-  {"frase": "They insisted that the meeting not be recorded.", "traduccion": "Insistieron en que la reunión no se grabara."},
-  {"frase": "Our proposal is that the fee be reduced by half.", "traduccion": "Nuestra propuesta es que la cuota se reduzca a la mitad."},
-  {"frase": "I wish it were Friday already.", "traduccion": "Ojalá ya fuera viernes."},
-  {"frase": "He talks as if he were the owner.", "traduccion": "Habla como si fuera el dueño."}
+  {
+   "frase": "The doctor recommended that she rest for a week.",
+   "traduccion": "El médico le recomendó que descansara una semana."
+  },
+  {
+   "frase": "It is essential that every applicant be interviewed in person.",
+   "traduccion": "Es imprescindible que todos los candidatos sean entrevistados en persona."
+  },
+  {
+   "frase": "They insisted that the meeting not be recorded.",
+   "traduccion": "Insistieron en que la reunión no se grabara."
+  },
+  {
+   "frase": "Our proposal is that the fee be reduced by half.",
+   "traduccion": "Nuestra propuesta es que la cuota se reduzca a la mitad."
+  },
+  {
+   "frase": "I wish it were Friday already.",
+   "traduccion": "Ojalá ya fuera viernes."
+  },
+  {
+   "frase": "He talks as if he were the owner.",
+   "traduccion": "Habla como si fuera el dueño."
+  }
  ],
  "errores_hispanohablantes": [
-  {"mal": "The teacher suggested that he studies harder.", "bien": "The teacher suggested that he study harder.", "nota": "Tras suggest that, el verbo va en forma base sin -s (o con should study)."},
-  {"mal": "I suggest you to take a taxi.", "bien": "I suggest (that) you take a taxi.", "nota": "Suggest no admite objeto + infinitivo con to; se usa that + forma base o suggest + -ing."},
-  {"mal": "It is important that he doesn't miss the train.", "bien": "It is important that he not miss the train.", "nota": "En subjuntivo la negación es not + forma base, sin do (o bien should not miss)."},
-  {"mal": "She demanded that he was present.", "bien": "She demanded that he be present.", "nota": "La forma no cambia aunque la oración principal esté en pasado."}
+  {
+   "mal": "The teacher suggested that he studies harder.",
+   "bien": "The teacher suggested that he study harder.",
+   "nota": "Tras suggest that, el verbo va en forma base sin -s (o con should study)."
+  },
+  {
+   "mal": "I suggest you to take a taxi.",
+   "bien": "I suggest (that) you take a taxi.",
+   "nota": "Suggest no admite objeto + infinitivo con to; se usa that + forma base o suggest + -ing."
+  },
+  {
+   "mal": "It is important that he doesn't miss the train.",
+   "bien": "It is important that he not miss the train.",
+   "nota": "En subjuntivo la negación es not + forma base, sin do (o bien should not miss)."
+  },
+  {
+   "mal": "She demanded that he was present.",
+   "bien": "She demanded that he be present.",
+   "nota": "La forma no cambia aunque la oración principal esté en pasado."
+  }
  ],
  "ejercicios": [
-  {"id": "e01", "tipo": "eleccion", "enunciado": "Elige la opción correcta.", "frase": "The judge ordered that the prisoner ___ released.", "opciones": ["is", "be", "was", "will be"], "respuestas": ["be"], "explicacion": "Tras order that, subjuntivo: be + participio en pasiva."},
-  {"id": "e02", "tipo": "eleccion", "enunciado": "Elige la opción correcta.", "frase": "It is vital that the patient ___ the medicine every eight hours.", "opciones": ["take", "takes", "took", "to take"], "respuestas": ["take"], "explicacion": "Adjetivo de importancia + that: forma base sin -s."},
-  {"id": "e03", "tipo": "eleccion", "enunciado": "Elige la opción correcta.", "frase": "If I ___ in charge, things would be different.", "opciones": ["am", "be", "were", "will be"], "respuestas": ["were"], "explicacion": "Condicional irreal: were para todas las personas en registro cuidado."},
-  {"id": "e04", "tipo": "eleccion", "enunciado": "Elige la opción correcta.", "frase": "My lawyer advised that I ___ anything.", "opciones": ["don't sign", "not sign", "didn't sign", "not to sign"], "respuestas": ["not sign"], "explicacion": "Negación en subjuntivo: not + forma base, sin do."},
-  {"id": "e05", "tipo": "hueco", "enunciado": "Completa con la forma correcta del verbo.", "frase": "The union demanded that the factory ___ (remain) open.", "respuestas": ["remain", "should remain"], "explicacion": "Demand that + forma base (o should + infinitivo)."},
-  {"id": "e06", "tipo": "hueco", "enunciado": "Completa con la forma correcta del verbo.", "frase": "It is essential that she ___ (be) informed before Monday.", "respuestas": ["be", "should be"], "explicacion": "El subjuntivo de be es be para todas las personas."},
-  {"id": "e07", "tipo": "hueco", "enunciado": "Completa con la forma correcta del verbo.", "frase": "I wish my brother ___ (be) a bit more patient.", "respuestas": ["were", "was"], "explicacion": "Wish + pasado para un deseo presente; were es la forma cuidada, was la coloquial."},
-  {"id": "e08", "tipo": "hueco", "enunciado": "Completa con la forma correcta del verbo.", "frase": "We request that each guest ___ (arrive) before eight.", "respuestas": ["arrive", "should arrive"], "explicacion": "Request that + forma base sin -s."},
-  {"id": "e09", "tipo": "corregir", "enunciado": "Corrige el error.", "frase": "The committee recommended that the plan is approved.", "respuestas": ["The committee recommended that the plan be approved.", "The committee recommended that the plan should be approved."], "explicacion": "Recommend that exige subjuntivo: be approved."},
-  {"id": "e10", "tipo": "corregir", "enunciado": "Corrige el error.", "frase": "She insisted that her son goes to bed early.", "respuestas": ["She insisted that her son go to bed early.", "She insisted that her son should go to bed early."], "explicacion": "Insist that (exigencia) + forma base sin -s."},
-  {"id": "e11", "tipo": "corregir", "enunciado": "Corrige el error.", "frase": "I suggest you to read the contract carefully.", "respuestas": ["I suggest you read the contract carefully.", "I suggest that you read the contract carefully."], "explicacion": "Suggest no va con objeto + to-infinitivo."},
-  {"id": "e12", "tipo": "transformar", "enunciado": "Reescribe usando «It is essential that…».", "frase": "Everyone must wear a helmet.", "respuestas": ["It is essential that everyone wear a helmet.", "It is essential that everyone should wear a helmet.", "It's essential that everyone wear a helmet.", "It's essential that everyone should wear a helmet."], "explicacion": "It is essential that + sujeto + forma base."},
-  {"id": "e13", "tipo": "transformar", "enunciado": "Reescribe usando «They proposed that…» y la pasiva.", "frase": "They proposed: «Postpone the vote».", "respuestas": ["They proposed that the vote be postponed.", "They proposed that the vote should be postponed."], "explicacion": "Subjuntivo pasivo: be + participio."},
-  {"id": "e14", "tipo": "ordenar", "enunciado": "Ordena las palabras.", "palabras": ["insisted", "He", "that", "she", "be", "invited"], "respuestas": ["He insisted that she be invited"], "explicacion": "Insist that + sujeto + be + participio."},
-  {"id": "e15", "tipo": "ordenar", "enunciado": "Ordena las palabras.", "palabras": ["is", "It", "crucial", "that", "he", "not", "find", "out"], "respuestas": ["It is crucial that he not find out"], "explicacion": "Subjuntivo negativo: not + forma base."}
+  {
+   "id": "e01",
+   "tipo": "eleccion",
+   "enunciado": "Elige la opción correcta.",
+   "frase": "The judge ordered that the prisoner ___ released.",
+   "opciones": [
+    "is",
+    "be",
+    "was",
+    "will be"
+   ],
+   "respuestas": [
+    "be"
+   ],
+   "explicacion": "Se aplica el subjuntivo mandativo en pasiva que explica Reglas y claves: verbo de exigencia (order) + that + sujeto + be + participio. La pista es ordered that, un verbo de la lista de la tabla, y released, el participio que sigue al hueco. El tiempo pasado de la oración principal no cambia la forma: sigue siendo be, no was.",
+   "explicacion_breve": "Tras order that, subjuntivo: be + participio en pasiva.",
+   "traduccion": "El juez ordenó que se pusiera en libertad al preso.",
+   "por_opcion": {
+    "is": "Incorrecta: es indicativo y lleva marca de persona; tras order that se usa la forma base be.",
+    "be": "Correcta: subjuntivo en pasiva, be + participio, igual para todas las personas y todos los tiempos.",
+    "was": "Incorrecta: el tiempo pasado de ordered no se traslada a la subordinada; la ficha lo señala expresamente.",
+    "will be": "Incorrecta: will no se usa en la subordinada de un verbo de exigencia."
+   }
+  },
+  {
+   "id": "e02",
+   "tipo": "eleccion",
+   "enunciado": "Elige la opción correcta.",
+   "frase": "It is vital that the patient ___ the medicine every eight hours.",
+   "opciones": [
+    "take",
+    "takes",
+    "took",
+    "to take"
+   ],
+   "respuestas": [
+    "take"
+   ],
+   "explicacion": "Se aplica la regla del subjuntivo mandativo tras un adjetivo de importancia: it is vital that + sujeto + forma base. La pista es vital, de la fila de adjetivos de la tabla. Aunque el sujeto sea tercera persona (the patient), el verbo no lleva -s: take. Es el contraste con el indicativo que más llama la atención al estudiante.",
+   "explicacion_breve": "Adjetivo de importancia + that: forma base sin -s.",
+   "traduccion": "Es vital que el paciente tome el medicamento cada ocho horas.",
+   "por_opcion": {
+    "take": "Correcta: forma base sin -s, propia del subjuntivo.",
+    "takes": "Incorrecta en registro cuidado: es indicativo; tras vital that se espera la forma base. En inglés británico informal se oye, pero la ficha pide el subjuntivo.",
+    "took": "Incorrecta: el pasado no corresponde; el subjuntivo mandativo no tiene marca de tiempo.",
+    "to take": "Incorrecta: tras that hace falta un verbo conjugado; to take solo cabría en «It is vital for the patient to take…»."
+   }
+  },
+  {
+   "id": "e03",
+   "tipo": "eleccion",
+   "enunciado": "Elige la opción correcta.",
+   "frase": "If I ___ in charge, things would be different.",
+   "opciones": [
+    "am",
+    "be",
+    "were",
+    "will be"
+   ],
+   "respuestas": [
+    "were"
+   ],
+   "explicacion": "Se aplica el segundo uso de la ficha, el subjuntivo con were: en condicionales irreales se usa were para todas las personas en registro cuidado. La pista es would be en la oración principal, que marca una hipótesis irreal sobre el presente. If I were in charge equivale a «si yo estuviera al mando». Was sería coloquial.",
+   "explicacion_breve": "Condicional irreal: were para todas las personas en registro cuidado.",
+   "traduccion": "Si yo estuviera al mando, las cosas serían distintas.",
+   "por_opcion": {
+    "am": "Incorrecta: el presente indicaría una condición real (primer condicional), incompatible con would be.",
+    "be": "Incorrecta: la forma base es la del subjuntivo mandativo, no la de las condiciones irreales.",
+    "were": "Correcta: subjuntivo con were para la hipótesis irreal, válido para todas las personas.",
+    "will be": "Incorrecta: will nunca va en la oración con if de un condicional."
+   }
+  },
+  {
+   "id": "e04",
+   "tipo": "eleccion",
+   "enunciado": "Elige la opción correcta.",
+   "frase": "My lawyer advised that I ___ anything.",
+   "opciones": [
+    "don't sign",
+    "not sign",
+    "didn't sign",
+    "not to sign"
+   ],
+   "respuestas": [
+    "not sign"
+   ],
+   "explicacion": "Se aplica la regla de la negación del subjuntivo de Reglas y claves: not delante de la forma base, sin do. La pista es advised that, verbo de recomendación seguido de that y de un sujeto (I). Por eso la forma es «that I not sign», sin auxiliar y sin cambio de tiempo, aunque advised esté en pasado.",
+   "explicacion_breve": "Negación en subjuntivo: not + forma base, sin do.",
+   "traduccion": "Mi abogado me aconsejó que no firmara nada.",
+   "por_opcion": {
+    "don't sign": "Incorrecta: el subjuntivo no usa el auxiliar do para negar.",
+    "not sign": "Correcta: negación del subjuntivo, not + forma base.",
+    "didn't sign": "Incorrecta: es indicativo pasado y sugeriría que el abogado informó de un hecho, no que dio un consejo.",
+    "not to sign": "Incorrecta tras that I: el infinitivo con to solo cabría sin that y con objeto, «advised me not to sign»."
+   }
+  },
+  {
+   "id": "e05",
+   "tipo": "hueco",
+   "enunciado": "Completa con la forma correcta del verbo.",
+   "frase": "The union demanded that the factory ___ (remain) open.",
+   "respuestas": [
+    "remain",
+    "should remain"
+   ],
+   "explicacion": "Se aplica el subjuntivo mandativo tras demand that, verbo de la tabla. La forma es la base, remain, sin -s para la tercera persona (the factory) y sin pasar a pasado aunque demanded lo esté. También se acepta should remain, porque la ficha recoge que en inglés británico es frecuente should + infinitivo con el mismo valor.",
+   "explicacion_breve": "Demand that + forma base (o should + infinitivo).",
+   "traduccion": "El sindicato exigió que la fábrica siguiera abierta.",
+   "errores_previstos": [
+    {
+     "respuesta": "remains",
+     "explicacion": "Es indicativo; tras demand that se usa la forma base sin -s."
+    },
+    {
+     "respuesta": "remained",
+     "explicacion": "El pasado de demanded no se traslada: el subjuntivo es invariable, remain."
+    },
+    {
+     "respuesta": "would remain",
+     "explicacion": "Would no expresa exigencia; tras demand that va la forma base o should."
+    }
+   ]
+  },
+  {
+   "id": "e06",
+   "tipo": "hueco",
+   "enunciado": "Completa con la forma correcta del verbo.",
+   "frase": "It is essential that she ___ (be) informed before Monday.",
+   "respuestas": [
+    "be",
+    "should be"
+   ],
+   "explicacion": "Se aplica la regla de que el subjuntivo de be es be para todas las personas, y aquí en pasiva: be + participio (be informed). La pista es essential that, adjetivo de la tabla. También vale should be, la alternativa británica que admite la ficha.",
+   "explicacion_breve": "El subjuntivo de be es be para todas las personas.",
+   "traduccion": "Es imprescindible que la informen antes del lunes.",
+   "errores_previstos": [
+    {
+     "respuesta": "is",
+     "explicacion": "Es indicativo; tras essential that el subjuntivo de be es be."
+    },
+    {
+     "respuesta": "will be",
+     "explicacion": "Will no se usa tras expresiones de importancia + that."
+    },
+    {
+     "respuesta": "was",
+     "explicacion": "No hay motivo para el pasado; el subjuntivo mandativo es invariable: be."
+    }
+   ]
+  },
+  {
+   "id": "e07",
+   "tipo": "hueco",
+   "enunciado": "Completa con la forma correcta del verbo.",
+   "frase": "I wish my brother ___ (be) a bit more patient.",
+   "respuestas": [
+    "were",
+    "was"
+   ],
+   "explicacion": "Se aplica el uso de were tras wish: un deseo sobre el presente se expresa con una forma de pasado, y en registro cuidado were sirve para todas las personas. La pista es I wish + un deseo sobre cómo es ahora el hermano. Se aceptan were y was porque la ficha explica que was es la variante coloquial, frecuente en la lengua hablada, mientras que la norma culta prefiere were.",
+   "explicacion_breve": "Wish + pasado para un deseo presente; were es la forma cuidada, was la coloquial.",
+   "traduccion": "Ojalá mi hermano fuera un poco más paciente.",
+   "errores_previstos": [
+    {
+     "respuesta": "is",
+     "explicacion": "Tras wish no se usa el presente: el deseo irreal exige un tiempo pasado (were o was)."
+    },
+    {
+     "respuesta": "would be",
+     "explicacion": "Wish + would expresa queja sobre lo que otra persona hace o no hace; para una característica se usa were."
+    },
+    {
+     "respuesta": "be",
+     "explicacion": "La forma base es la del subjuntivo mandativo; tras wish se usa were."
+    }
+   ]
+  },
+  {
+   "id": "e08",
+   "tipo": "hueco",
+   "enunciado": "Completa con la forma correcta del verbo.",
+   "frase": "We request that each guest ___ (arrive) before eight.",
+   "respuestas": [
+    "arrive",
+    "should arrive"
+   ],
+   "explicacion": "Se aplica el subjuntivo mandativo tras request that, verbo de la tabla muy típico de invitaciones y avisos formales. La pista es la tercera persona each guest, que en indicativo llevaría -s, pero en subjuntivo va en forma base: arrive. También vale should arrive.",
+   "explicacion_breve": "Request that + forma base sin -s.",
+   "traduccion": "Rogamos que cada invitado llegue antes de las ocho.",
+   "errores_previstos": [
+    {
+     "respuesta": "arrives",
+     "explicacion": "Es indicativo; tras request that la tercera persona no lleva -s."
+    },
+    {
+     "respuesta": "will arrive",
+     "explicacion": "Will no se usa tras verbos de petición + that."
+    },
+    {
+     "respuesta": "to arrive",
+     "explicacion": "Tras that hace falta un verbo con sujeto; to arrive solo cabría en «We request each guest to arrive»."
+    }
+   ]
+  },
+  {
+   "id": "e09",
+   "tipo": "corregir",
+   "enunciado": "Corrige el error.",
+   "frase": "The committee recommended that the plan is approved.",
+   "respuestas": [
+    "The committee recommended that the plan be approved.",
+    "The committee recommended that the plan should be approved."
+   ],
+   "explicacion": "Se aplica el subjuntivo mandativo en pasiva tras recommend that. La frase original usa indicativo (is approved), que la ficha marca como incorrecto en este contexto. La forma correcta es be + participio: «that the plan be approved», o bien la alternativa británica should be approved.",
+   "explicacion_breve": "Recommend that exige subjuntivo: be approved.",
+   "traduccion": "El comité recomendó que se aprobara el plan.",
+   "errores_previstos": [
+    {
+     "respuesta": "The committee recommended that the plan is approved.",
+     "explicacion": "Es la frase sin corregir: tras recommend that, subjuntivo be approved."
+    },
+    {
+     "respuesta": "The committee recommended that the plan was approved.",
+     "explicacion": "El pasado de recommended no se traslada a la subordinada; además cambiaría el sentido a un hecho."
+    },
+    {
+     "respuesta": "The committee recommended that the plan will be approved.",
+     "explicacion": "Will no se usa tras verbos de recomendación + that."
+    }
+   ]
+  },
+  {
+   "id": "e10",
+   "tipo": "corregir",
+   "enunciado": "Corrige el error.",
+   "frase": "She insisted that her son goes to bed early.",
+   "respuestas": [
+    "She insisted that her son go to bed early.",
+    "She insisted that her son should go to bed early."
+   ],
+   "explicacion": "Se aplica el subjuntivo mandativo tras insist that cuando expresa exigencia. La pista es el sentido: la madre exige que su hijo se acueste pronto, no informa de que lo haga. Por eso la forma es la base, go, sin -s, o should go. Ojo: si insist that afirmara un hecho («insistió en que su hijo se acuesta pronto»), iría en indicativo.",
+   "explicacion_breve": "Insist that (exigencia) + forma base sin -s.",
+   "traduccion": "Insistió en que su hijo se acostara temprano.",
+   "errores_previstos": [
+    {
+     "respuesta": "She insisted that her son goes to bed early.",
+     "explicacion": "Es la frase sin corregir: con sentido de exigencia, forma base sin -s."
+    },
+    {
+     "respuesta": "She insisted that her son went to bed early.",
+     "explicacion": "Con pasado se entendería como afirmación de un hecho, no como exigencia; el subjuntivo es go."
+    },
+    {
+     "respuesta": "She insisted her son to go to bed early.",
+     "explicacion": "Insist no admite objeto + to infinitivo; se dice insist that + sujeto + forma base."
+    }
+   ]
+  },
+  {
+   "id": "e11",
+   "tipo": "corregir",
+   "enunciado": "Corrige el error.",
+   "frase": "I suggest you to read the contract carefully.",
+   "respuestas": [
+    "I suggest you read the contract carefully.",
+    "I suggest that you read the contract carefully."
+   ],
+   "explicacion": "Se aplica la advertencia de la ficha: suggest no admite objeto + to infinitivo. La construcción correcta es suggest (that) + sujeto + forma base, y that puede omitirse. Por eso se aceptan las dos versiones. Con you no se nota la forma base, pero con he se vería: «I suggest he read».",
+   "explicacion_breve": "Suggest no va con objeto + to-infinitivo.",
+   "traduccion": "Te sugiero que leas el contrato con atención.",
+   "errores_previstos": [
+    {
+     "respuesta": "I suggest you to read the contract carefully.",
+     "explicacion": "Es la frase sin corregir: suggest no va con objeto + to infinitivo."
+    },
+    {
+     "respuesta": "I suggest to read the contract carefully.",
+     "explicacion": "Suggest no va con to infinitivo; se dice suggest reading o suggest (that) you read."
+    },
+    {
+     "respuesta": "I suggest that you will read the contract carefully.",
+     "explicacion": "Will no se usa tras suggest that; va la forma base."
+    }
+   ]
+  },
+  {
+   "id": "e12",
+   "tipo": "transformar",
+   "enunciado": "Reescribe usando «It is essential that…».",
+   "frase": "Everyone must wear a helmet.",
+   "respuestas": [
+    "It is essential that everyone wear a helmet.",
+    "It is essential that everyone should wear a helmet.",
+    "It's essential that everyone wear a helmet.",
+    "It's essential that everyone should wear a helmet."
+   ],
+   "explicacion": "Se aplica el subjuntivo mandativo tras un adjetivo de importancia, essential. La obligación de must pasa a la estructura It is essential that + sujeto + forma base. La pista es everyone, que gramaticalmente es singular: en indicativo llevaría -s (wears), pero en subjuntivo va wear. Se aceptan también should wear y la contracción it's.",
+   "explicacion_breve": "It is essential that + sujeto + forma base.",
+   "traduccion": "Es imprescindible que todo el mundo lleve casco.",
+   "errores_previstos": [
+    {
+     "respuesta": "It is essential that everyone wears a helmet.",
+     "explicacion": "Wears es indicativo; tras essential that se usa la forma base wear."
+    },
+    {
+     "respuesta": "It is essential that everyone must wear a helmet.",
+     "explicacion": "Must sobra: essential ya expresa la obligación y la subordinada va en forma base."
+    },
+    {
+     "respuesta": "It is essential everyone to wear a helmet.",
+     "explicacion": "Con to infinitivo haría falta for: It is essential for everyone to wear a helmet. La consigna pide that."
+    }
+   ]
+  },
+  {
+   "id": "e13",
+   "tipo": "transformar",
+   "enunciado": "Reescribe usando «They proposed that…» y la pasiva.",
+   "frase": "They proposed: «Postpone the vote».",
+   "respuestas": [
+    "They proposed that the vote be postponed.",
+    "They proposed that the vote should be postponed."
+   ],
+   "explicacion": "Se aplica la regla del subjuntivo en pasiva de Reglas y claves: be + participio tras propose that. La orden directa «Postpone the vote» se convierte en una propuesta formal cuyo sujeto es the vote, que recibe la acción; de ahí la pasiva be postponed. El pasado de proposed no cambia be. También vale should be postponed.",
+   "explicacion_breve": "Subjuntivo pasivo: be + participio.",
+   "traduccion": "Propusieron que se aplazara la votación.",
+   "errores_previstos": [
+    {
+     "respuesta": "They proposed that the vote was postponed.",
+     "explicacion": "El pasado de proposed no se traslada; además sonaría a un hecho. El subjuntivo es be postponed."
+    },
+    {
+     "respuesta": "They proposed that the vote is postponed.",
+     "explicacion": "Es indicativo; tras propose that se usa be + participio."
+    },
+    {
+     "respuesta": "They proposed that the vote be postpone.",
+     "explicacion": "La pasiva exige el participio: be postponed."
+    }
+   ]
+  },
+  {
+   "id": "e14",
+   "tipo": "ordenar",
+   "enunciado": "Ordena las palabras.",
+   "palabras": [
+    "insisted",
+    "He",
+    "that",
+    "she",
+    "be",
+    "invited"
+   ],
+   "respuestas": [
+    "He insisted that she be invited"
+   ],
+   "explicacion": "Se aplica la estructura de la ficha: insist that + sujeto + be + participio. El orden es sujeto + verbo principal + that + sujeto de la subordinada (she) + be + invited. La forma be no cambia aunque insisted esté en pasado y she sea tercera persona.",
+   "explicacion_breve": "Insist that + sujeto + be + participio.",
+   "traduccion": "Insistió en que la invitaran.",
+   "errores_previstos": [
+    {
+     "respuesta": "He insisted that be she invited",
+     "explicacion": "El sujeto she va antes del verbo be; el subjuntivo no invierte el orden."
+    },
+    {
+     "respuesta": "He insisted she that be invited",
+     "explicacion": "That introduce la subordinada y va antes de su sujeto: that she be invited."
+    }
+   ]
+  },
+  {
+   "id": "e15",
+   "tipo": "ordenar",
+   "enunciado": "Ordena las palabras.",
+   "palabras": [
+    "is",
+    "It",
+    "crucial",
+    "that",
+    "he",
+    "not",
+    "find",
+    "out"
+   ],
+   "respuestas": [
+    "It is crucial that he not find out"
+   ],
+   "explicacion": "Se aplica la regla de negación del subjuntivo: not + forma base, sin do. Tras it is crucial that, el sujeto he va seguido de not y del verbo frasal find out en forma base. El orden es It is crucial that he not find out; el not va delante del verbo, no detrás.",
+   "explicacion_breve": "Subjuntivo negativo: not + forma base.",
+   "traduccion": "Es fundamental que no se entere.",
+   "errores_previstos": [
+    {
+     "respuesta": "It is crucial that he find not out",
+     "explicacion": "En subjuntivo not va delante de la forma base: not find out."
+    },
+    {
+     "respuesta": "It is crucial that not he find out",
+     "explicacion": "Not no puede preceder al sujeto; va entre el sujeto y el verbo."
+    }
+   ]
+  }
  ],
- "fuente": {"nombre": "propia"}
+ "fuente": {
+  "nombre": "propia"
+ },
+ "descripcion_larga_es": "El subjuntivo inglés usa la forma base del verbo para todas las personas (that he go, that she be) tras expresiones de exigencia, recomendación o importancia, y were en lo hipotético. Es propio del registro formal: informes, normas, actas y textos jurídicos. Cuesta al hispanohablante porque parece un error de concordancia (he go sin -s) y porque «sugiero que vengas» no se traduce con will ni con to.",
+ "contexto": {
+  "que_es": "Es una forma verbal sin marca de persona ni de tiempo: la forma base (go, be, leave) para todos los sujetos. Hay dos usos: el subjuntivo mandativo, tras that con verbos, adjetivos o sustantivos de exigencia o recomendación (demand, essential, recommendation), y el subjuntivo con were en lo hipotético (If I were, I wish he were).",
+  "por_que_importa": "Es muy frecuente en el inglés formal, jurídico, administrativo y académico, justo el tipo de textos que maneja un técnico de la Administración: actas, resoluciones, informes de organismos. Usar el indicativo (that he studies) o will tras estas expresiones es un error típico que baja el registro. En un examen de nivel C1 demuestra dominio de la gramática formal.",
+  "cuando_se_usa": "Tras suggest, recommend, insist, demand, request, propose, require, urge u order + that; tras it is essential, vital, crucial, important, necessary + that; y tras sustantivos como proposal o requirement + that. Las señales son la idea de exigencia o importancia y el registro formal. El hispanohablante, que sí tiene subjuntivo propio, suele traducirlo con indicativo, con will o con to + infinitivo, ninguno de los cuales vale aquí."
+ }
 }

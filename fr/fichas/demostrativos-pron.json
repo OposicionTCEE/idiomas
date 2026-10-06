@@ -6,50 +6,572 @@
  "nivel": "B1",
  "resumen": "Celui, celle, ceux y celles sustituyen a un nombre ya mencionado para no repetirlo, como «el de», «la que», «este», «ese» en español. Nunca van solos: siempre llevan detrás -ci / -là, de + nombre o un relativo (qui, que, dont). Ceci, cela y ça son neutros y se refieren a ideas o cosas sin nombrar.",
  "explicacion": [
-  {"tipo": "tabla", "cabecera": ["", "Masculino", "Femenino"], "filas": [
-   ["Singular", "celui", "celle"],
-   ["Plural", "ceux", "celles"]
-  ]},
-  {"tipo": "tabla", "cabecera": ["Construcción", "Equivale a", "Ejemplo"], "filas": [
-   ["celui-ci / celui-là", "este / ese, aquel", "Tu préfères celle-ci ou celle-là ?"],
-   ["celui de + nombre", "el de", "Je préfère l'accent de Tex. → Je préfère celui de Tex."],
-   ["celui qui", "el que (sujeto)", "J'aime les tatous, surtout ceux qui portent le béret."],
-   ["celui que", "el que (complemento directo)", "Celui que j'aime ne m'aime pas !"],
-   ["celui dont", "aquel del que, aquel cuyo", "Tu ne connais pas celui dont je parle."]
-  ]},
-  {"tipo": "texto", "texto": "Concuerdan en género y número con el nombre que sustituyen, y ese nombre puede tener en francés otro género que en español: le lait → celui (la leche), la dent → celle (el diente), les cheveux → ceux (el pelo). Fíjate siempre en el género francés."},
-  {"tipo": "texto", "texto": "Ceci (esto) y cela (eso) son invariables y se refieren a ideas, frases o cosas sin nombre concreto: Cela me semble évident. Ça es la forma corriente de cela en la lengua hablada: Ça me fait de la peine. No se usan para sustituir a un nombre concreto: para «este coche» se dice celle-ci, no ceci."}
+  {
+   "tipo": "tabla",
+   "cabecera": [
+    "",
+    "Masculino",
+    "Femenino"
+   ],
+   "filas": [
+    [
+     "Singular",
+     "celui",
+     "celle"
+    ],
+    [
+     "Plural",
+     "ceux",
+     "celles"
+    ]
+   ]
+  },
+  {
+   "tipo": "tabla",
+   "cabecera": [
+    "Construcción",
+    "Equivale a",
+    "Ejemplo"
+   ],
+   "filas": [
+    [
+     "celui-ci / celui-là",
+     "este / ese, aquel",
+     "Tu préfères celle-ci ou celle-là ?"
+    ],
+    [
+     "celui de + nombre",
+     "el de",
+     "Je préfère l'accent de Tex. → Je préfère celui de Tex."
+    ],
+    [
+     "celui qui",
+     "el que (sujeto)",
+     "J'aime les tatous, surtout ceux qui portent le béret."
+    ],
+    [
+     "celui que",
+     "el que (complemento directo)",
+     "Celui que j'aime ne m'aime pas !"
+    ],
+    [
+     "celui dont",
+     "aquel del que, aquel cuyo",
+     "Tu ne connais pas celui dont je parle."
+    ]
+   ]
+  },
+  {
+   "tipo": "texto",
+   "texto": "Concuerdan en género y número con el nombre que sustituyen, y ese nombre puede tener en francés otro género que en español: le lait → celui (la leche), la dent → celle (el diente), les cheveux → ceux (el pelo). Fíjate siempre en el género francés."
+  },
+  {
+   "tipo": "texto",
+   "texto": "Ceci (esto) y cela (eso) son invariables y se refieren a ideas, frases o cosas sin nombre concreto: Cela me semble évident. Ça es la forma corriente de cela en la lengua hablada: Ça me fait de la peine. No se usan para sustituir a un nombre concreto: para «este coche» se dice celle-ci, no ceci."
+  }
  ],
  "ejemplos": [
-  {"frase": "C'est celui de mon frère.", "traduccion": "Es el de mi hermano."},
-  {"frase": "Mes cheveux sont plus longs que ceux de Jane.", "traduccion": "Mi pelo es más largo que el de Jane."},
-  {"frase": "Choisis celui que tu veux.", "traduccion": "Elige el que quieras."},
-  {"frase": "Celui-ci ressemble à celui-là.", "traduccion": "Este se parece a aquel."},
-  {"frase": "Aide tous ceux qui en ont besoin.", "traduccion": "Ayuda a todos los que lo necesiten."},
-  {"frase": "Tu es amoureuse de Tex, cela me semble évident !", "traduccion": "Estás enamorada de Tex, ¡me parece evidente!"}
+  {
+   "frase": "C'est celui de mon frère.",
+   "traduccion": "Es el de mi hermano."
+  },
+  {
+   "frase": "Mes cheveux sont plus longs que ceux de Jane.",
+   "traduccion": "Mi pelo es más largo que el de Jane."
+  },
+  {
+   "frase": "Choisis celui que tu veux.",
+   "traduccion": "Elige el que quieras."
+  },
+  {
+   "frase": "Celui-ci ressemble à celui-là.",
+   "traduccion": "Este se parece a aquel."
+  },
+  {
+   "frase": "Aide tous ceux qui en ont besoin.",
+   "traduccion": "Ayuda a todos los que lo necesiten."
+  },
+  {
+   "frase": "Tu es amoureuse de Tex, cela me semble évident !",
+   "traduccion": "Estás enamorada de Tex, ¡me parece evidente!"
+  }
  ],
  "errores_hispanohablantes": [
-  {"mal": "Ce livre est plus cher que celui.", "bien": "Ce livre est plus cher que celui-là.", "nota": "Celui nunca va solo: necesita -ci / -là, de o un relativo."},
-  {"mal": "Ma voiture est plus rapide que ce de Paul.", "bien": "Ma voiture est plus rapide que celle de Paul.", "nota": "«La de» se dice celle de; ce de no existe."},
-  {"mal": "Mes cheveux sont plus longs que celui de Jane.", "bien": "Mes cheveux sont plus longs que ceux de Jane.", "nota": "En francés les cheveux es plural: ceux, aunque en español digamos «el pelo»."}
+  {
+   "mal": "Ce livre est plus cher que celui.",
+   "bien": "Ce livre est plus cher que celui-là.",
+   "nota": "Celui nunca va solo: necesita -ci / -là, de o un relativo."
+  },
+  {
+   "mal": "Ma voiture est plus rapide que ce de Paul.",
+   "bien": "Ma voiture est plus rapide que celle de Paul.",
+   "nota": "«La de» se dice celle de; ce de no existe."
+  },
+  {
+   "mal": "Mes cheveux sont plus longs que celui de Jane.",
+   "bien": "Mes cheveux sont plus longs que ceux de Jane.",
+   "nota": "En francés les cheveux es plural: ceux, aunque en español digamos «el pelo»."
+  }
  ],
  "ejercicios": [
-  {"id": "e01", "tipo": "eleccion", "enunciado": "Elige el pronombre correcto (le vélo).", "frase": "C'est ___ de mon frère.", "opciones": ["celui", "celle", "ceux"], "respuestas": ["celui"], "explicacion": "Vélo es masculino singular: celui de.", "origen": "tatoeba:136334"},
-  {"id": "e02", "tipo": "hueco", "enunciado": "Completa con celui, celle, ceux o celles (un gâteau).", "frase": "Choisis ___ que tu veux.", "respuestas": ["celui"], "explicacion": "Un gâteau es masculino singular: celui que.", "origen": "tatoeba:359094"},
-  {"id": "e03", "tipo": "hueco", "enunciado": "Completa con celui, celle, ceux o celles.", "frase": "Mes cheveux sont plus longs que ___ de Jane.", "respuestas": ["ceux"], "explicacion": "Les cheveux es masculino plural: ceux de.", "origen": "tatoeba:14890"},
-  {"id": "e04", "tipo": "hueco", "enunciado": "Completa con celui, celle, ceux o celles.", "frase": "Compare ta réponse avec ___ de Tom.", "respuestas": ["celle"], "explicacion": "Réponse es femenino singular: celle de.", "origen": "tatoeba:9000"},
-  {"id": "e05", "tipo": "eleccion", "enunciado": "Elige el pronombre correcto.", "frase": "Ses yeux me font penser à ___ d'un chat.", "opciones": ["ceux", "celles", "celui"], "respuestas": ["ceux"], "explicacion": "Les yeux es masculino plural: ceux.", "origen": "tatoeba:133848"},
-  {"id": "e06", "tipo": "corregir", "enunciado": "Corrige el error.", "frase": "Cette maison au toit rouge est celui de Tom.", "respuestas": ["Cette maison au toit rouge est celle de Tom."], "explicacion": "Maison es femenino: celle de.", "origen": "tatoeba:454264"},
-  {"id": "e07", "tipo": "corregir", "enunciado": "Corrige el error.", "frase": "Cette boîte-là est plus grande que cette-ci.", "respuestas": ["Cette boîte-là est plus grande que celle-ci."], "explicacion": "El pronombre es celle-ci; cette es determinante y necesita nombre.", "origen": "tatoeba:10531"},
-  {"id": "e08", "tipo": "hueco", "enunciado": "Completa con celui, celle, ceux o celles.", "frase": "Aide tous ___ qui en ont besoin.", "respuestas": ["ceux"], "explicacion": "Las personas en general (masculino plural): ceux qui.", "origen": "tatoeba:891580"},
-  {"id": "e09", "tipo": "eleccion", "enunciado": "Elige el pronombre correcto.", "frase": "J'en veux une, mais pas ___.", "opciones": ["celle-ci", "celui-ci", "ceux-ci"], "respuestas": ["celle-ci"], "explicacion": "Une indica femenino singular: celle-ci.", "origen": "tatoeba:7771112"},
-  {"id": "e10", "tipo": "ordenar", "enunciado": "Ordena las palabras.", "palabras": ["prendre", "celui-là", "Je", "vais"], "respuestas": ["Je vais prendre celui-là"], "explicacion": "Celui-là funciona como complemento directo de prendre.", "origen": "tatoeba:8126621"},
-  {"id": "e11", "tipo": "hueco", "enunciado": "Completa con celui, celle, ceux o celles.", "frase": "Betty a été ___ qui est arrivée en dernier.", "respuestas": ["celle"], "explicacion": "Se refiere a una mujer: celle qui (la que).", "origen": "tatoeba:452780"},
-  {"id": "e12", "tipo": "transformar", "enunciado": "Evita repetir el nombre con un pronombre demostrativo.", "frase": "J'aime l'accent d'Édouard, mais je préfère l'accent de Tex.", "respuestas": ["J'aime l'accent d'Édouard, mais je préfère celui de Tex."], "explicacion": "L'accent es masculino singular: celui de Tex."},
-  {"id": "e13", "tipo": "eleccion", "enunciado": "Elige el pronombre correcto.", "frase": "___ me semble évident !", "opciones": ["Cela", "Celui", "Celle"], "respuestas": ["Cela"], "explicacion": "Se refiere a una idea, no a un nombre: cela (neutro)."},
-  {"id": "e14", "tipo": "hueco", "enunciado": "Completa con celui, celle, ceux o celles (un garçon).", "frase": "Tu ne connais pas ___ dont je parle.", "respuestas": ["celui"], "explicacion": "Masculino singular + parler de: celui dont."},
-  {"id": "e15", "tipo": "corregir", "enunciado": "Corrige el error.", "frase": "Ce livre est plus cher que celle-là.", "respuestas": ["Ce livre est plus cher que celui-là."], "explicacion": "Livre es masculino: celui-là.", "origen": "tatoeba:5235245"},
-  {"id": "e16", "tipo": "eleccion", "enunciado": "Elige el pronombre correcto.", "frase": "Tu préfères lequel ? ___ ou celui-là ?", "opciones": ["Celui-ci", "Celle-ci", "Ceux-ci"], "respuestas": ["Celui-ci"], "explicacion": "Lequel y celui-là indican masculino singular: celui-ci.", "origen": "tatoeba:400200"}
+  {
+   "id": "e01",
+   "tipo": "eleccion",
+   "enunciado": "Elige el pronombre correcto (le vélo).",
+   "frase": "C'est ___ de mon frère.",
+   "opciones": [
+    "celui",
+    "celle",
+    "ceux"
+   ],
+   "respuestas": [
+    "celui"
+   ],
+   "explicacion": "Se aplica la regla de la ficha según la cual el pronombre concuerda con el género y número del nombre que sustituye, y la construcción celui de + nombre, «el de». La pista es la indicación le vélo: masculino singular en francés, aunque en español «la bicicleta» sea femenino. Por eso el pronombre es celui de mon frère.",
+   "origen": "tatoeba:136334",
+   "explicacion_breve": "Vélo es masculino singular: celui de.",
+   "traduccion": "Es la de mi hermano (la bicicleta).",
+   "por_opcion": {
+    "celui": "Correcta: masculino singular, como le vélo.",
+    "celle": "Femenino singular: sería el calco de «la de» por «la bicicleta», pero vélo es masculino.",
+    "ceux": "Masculino plural: el verbo c'est y el nombre le vélo indican singular."
+   }
+  },
+  {
+   "id": "e02",
+   "tipo": "hueco",
+   "enunciado": "Completa con celui, celle, ceux o celles (un gâteau).",
+   "frase": "Choisis ___ que tu veux.",
+   "respuestas": [
+    "celui"
+   ],
+   "explicacion": "Se aplica la construcción de la ficha celui que, «el que», con que como complemento directo del verbo de la relativa (tu veux). La pista es la indicación un gâteau, masculino singular, y el relativo que tras el hueco. Fíjate también en el modo: el español dice «el que quieras» en subjuntivo, pero en francés basta el indicativo, tu veux.",
+   "origen": "tatoeba:359094",
+   "explicacion_breve": "Un gâteau es masculino singular: celui que.",
+   "traduccion": "Elige el que quieras (el pastel).",
+   "errores_previstos": [
+    {
+     "respuesta": "celle",
+     "explicacion": "Celle es femenino; gâteau es masculino, así que celui."
+    },
+    {
+     "respuesta": "ce",
+     "explicacion": "Ce que significa «lo que», neutro; para «el que» referido a un pastel se usa celui que."
+    },
+    {
+     "respuesta": "celui-ci",
+     "explicacion": "Con un relativo detrás no se añade -ci: es celui que."
+    }
+   ]
+  },
+  {
+   "id": "e03",
+   "tipo": "hueco",
+   "enunciado": "Completa con celui, celle, ceux o celles.",
+   "frase": "Mes cheveux sont plus longs que ___ de Jane.",
+   "respuestas": [
+    "ceux"
+   ],
+   "explicacion": "Se aplica la advertencia de la ficha sobre el género y número francés: les cheveux es masculino plural, aunque en español «el pelo» sea singular. La pista es mes cheveux sont, con verbo en plural, y la construcción de comparación que + pronombre + de. Por eso el pronombre es ceux de Jane.",
+   "origen": "tatoeba:14890",
+   "explicacion_breve": "Les cheveux es masculino plural: ceux de.",
+   "traduccion": "Mi pelo es más largo que el de Jane.",
+   "errores_previstos": [
+    {
+     "respuesta": "celui",
+     "explicacion": "Calco del español «el de Jane»: cheveux es plural en francés, ceux."
+    },
+    {
+     "respuesta": "celles",
+     "explicacion": "Celles es femenino; cheveux es masculino."
+    },
+    {
+     "respuesta": "ces",
+     "explicacion": "Ces es determinante y necesita un nombre detrás; el pronombre es ceux."
+    }
+   ]
+  },
+  {
+   "id": "e04",
+   "tipo": "hueco",
+   "enunciado": "Completa con celui, celle, ceux o celles.",
+   "frase": "Compare ta réponse avec ___ de Tom.",
+   "respuestas": [
+    "celle"
+   ],
+   "explicacion": "Se aplica la construcción de la ficha celui de + nombre, aquí en femenino singular. La pista es ta réponse, femenino singular, que es el nombre sustituido para no repetir «la respuesta de Tom». Por eso es celle de Tom, equivalente exacto de «la de Tom».",
+   "origen": "tatoeba:9000",
+   "explicacion_breve": "Réponse es femenino singular: celle de.",
+   "traduccion": "Compara tu respuesta con la de Tom.",
+   "errores_previstos": [
+    {
+     "respuesta": "celui",
+     "explicacion": "Celui es masculino; réponse es femenino."
+    },
+    {
+     "respuesta": "cette",
+     "explicacion": "Cette es determinante y necesita un nombre; como pronombre se usa celle."
+    },
+    {
+     "respuesta": "celle-là",
+     "explicacion": "Con de + nombre detrás no se añade -là: celle de Tom."
+    }
+   ]
+  },
+  {
+   "id": "e05",
+   "tipo": "eleccion",
+   "enunciado": "Elige el pronombre correcto.",
+   "frase": "Ses yeux me font penser à ___ d'un chat.",
+   "opciones": [
+    "ceux",
+    "celles",
+    "celui"
+   ],
+   "respuestas": [
+    "ceux"
+   ],
+   "explicacion": "Se aplica la regla de concordancia de la ficha: el pronombre toma el género y número del nombre sustituido. La pista es ses yeux, masculino plural (un œil, des yeux). Por eso es ceux d'un chat. La expresión faire penser à significa «recordar a», y à + ceux no contrae porque ceux no es artículo.",
+   "origen": "tatoeba:133848",
+   "explicacion_breve": "Les yeux es masculino plural: ceux.",
+   "traduccion": "Sus ojos me recuerdan a los de un gato.",
+   "por_opcion": {
+    "ceux": "Correcta: masculino plural, como les yeux.",
+    "celles": "Femenino plural; yeux es masculino.",
+    "celui": "Masculino singular; yeux es plural."
+   },
+   "glosario": [
+    {
+     "palabra": "faire penser à",
+     "significado": "recordar a, hacer pensar en"
+    }
+   ]
+  },
+  {
+   "id": "e06",
+   "tipo": "corregir",
+   "enunciado": "Corrige el error.",
+   "frase": "Cette maison au toit rouge est celui de Tom.",
+   "respuestas": [
+    "Cette maison au toit rouge est celle de Tom."
+   ],
+   "explicacion": "Se aplica la regla de concordancia de la ficha: el pronombre concuerda con el nombre que sustituye. La pista es cette maison, femenino singular; el error se produce porque el nombre más cercano, toit, es masculino. Pero el pronombre sustituye a maison, no a toit, así que la corrección es celle de Tom.",
+   "origen": "tatoeba:454264",
+   "explicacion_breve": "Maison es femenino: celle de.",
+   "traduccion": "Esta casa del tejado rojo es la de Tom.",
+   "errores_previstos": [
+    {
+     "respuesta": "Cette maison au toit rouge est celui de Tom.",
+     "explicacion": "Es la frase sin corregir: celui no concuerda con maison."
+    },
+    {
+     "respuesta": "Cette maison au toit rouge est cette de Tom.",
+     "explicacion": "Cette es determinante; el pronombre femenino es celle."
+    },
+    {
+     "respuesta": "Cette maison au toit rouge est celles de Tom.",
+     "explicacion": "Celles es plural; maison es singular."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "le toit",
+     "significado": "el tejado"
+    }
+   ]
+  },
+  {
+   "id": "e07",
+   "tipo": "corregir",
+   "enunciado": "Corrige el error.",
+   "frase": "Cette boîte-là est plus grande que cette-ci.",
+   "respuestas": [
+    "Cette boîte-là est plus grande que celle-ci."
+   ],
+   "explicacion": "Se aplica la regla de la ficha de que el pronombre con -ci o -là es celui, celle, ceux, celles, mientras que ce, cet, cette, ces son determinantes y necesitan un nombre. La pista es cette-ci sin sustantivo, que debería ser pronombre. Como boîte es femenino singular, la forma es celle-ci.",
+   "origen": "tatoeba:10531",
+   "explicacion_breve": "El pronombre es celle-ci; cette es determinante y necesita nombre.",
+   "traduccion": "Aquella caja es más grande que esta.",
+   "errores_previstos": [
+    {
+     "respuesta": "Cette boîte-là est plus grande que cette-ci.",
+     "explicacion": "Es la frase sin corregir: cette no puede funcionar como pronombre."
+    },
+    {
+     "respuesta": "Cette boîte-là est plus grande que celui-ci.",
+     "explicacion": "Celui es masculino; boîte es femenino, celle-ci."
+    },
+    {
+     "respuesta": "Cette boîte-là est plus grande que celle.",
+     "explicacion": "Celle nunca va sola: necesita -ci, -là, de o un relativo."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "une boîte",
+     "significado": "una caja"
+    }
+   ]
+  },
+  {
+   "id": "e08",
+   "tipo": "hueco",
+   "enunciado": "Completa con celui, celle, ceux o celles.",
+   "frase": "Aide tous ___ qui en ont besoin.",
+   "respuestas": [
+    "ceux"
+   ],
+   "explicacion": "Se aplica la construcción de la ficha celui qui, «el que», con qui como sujeto de la relativa. La pista es tous, masculino plural, y qui en ont besoin: se habla de las personas en general, que en francés se expresa en masculino plural. Por eso es tous ceux qui. Fíjate en que el español dice «lo necesitan» y el francés en ont besoin, con en.",
+   "origen": "tatoeba:891580",
+   "explicacion_breve": "Las personas en general (masculino plural): ceux qui.",
+   "traduccion": "Ayuda a todos los que lo necesitan.",
+   "errores_previstos": [
+    {
+     "respuesta": "ces",
+     "explicacion": "Ces es determinante y necesita un nombre; ante qui se usa el pronombre ceux."
+    },
+    {
+     "respuesta": "celles",
+     "explicacion": "Para las personas en general se usa el masculino plural, ceux; celles solo si fueran todas mujeres."
+    },
+    {
+     "respuesta": "ce",
+     "explicacion": "Ce qui significa «lo que», neutro; tous ceux qui significa «todos los que»."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "avoir besoin de",
+     "significado": "necesitar"
+    }
+   ]
+  },
+  {
+   "id": "e09",
+   "tipo": "eleccion",
+   "enunciado": "Elige el pronombre correcto.",
+   "frase": "J'en veux une, mais pas ___.",
+   "opciones": [
+    "celle-ci",
+    "celui-ci",
+    "ceux-ci"
+   ],
+   "respuestas": [
+    "celle-ci"
+   ],
+   "explicacion": "Se aplica la regla de concordancia y el uso de -ci para señalar lo cercano. La pista es une, femenino singular, que remite a un objeto femenino ya mencionado. Por eso el pronombre es celle-ci, «esta». Aquí no hay contraste explícito con -là, pero -ci señala el objeto que se tiene delante.",
+   "origen": "tatoeba:7771112",
+   "explicacion_breve": "Une indica femenino singular: celle-ci.",
+   "traduccion": "Quiero una, pero no esta.",
+   "por_opcion": {
+    "celle-ci": "Correcta: femenino singular, concuerda con une.",
+    "celui-ci": "Masculino singular; une indica que el objeto es femenino.",
+    "ceux-ci": "Masculino plural; se habla de un solo objeto femenino."
+   }
+  },
+  {
+   "id": "e10",
+   "tipo": "ordenar",
+   "enunciado": "Ordena las palabras.",
+   "palabras": [
+    "prendre",
+    "celui-là",
+    "Je",
+    "vais"
+   ],
+   "respuestas": [
+    "Je vais prendre celui-là"
+   ],
+   "explicacion": "Se aplica el uso de la ficha de celui-là como pronombre con valor de «ese, aquel». La pista es el futuro próximo je vais prendre, que se ordena sujeto, aller conjugado e infinitivo, y celui-là, que funciona como complemento directo del infinitivo y va detrás de él, como cualquier sustantivo. Al no ser un pronombre átono, no se coloca delante del verbo.",
+   "origen": "tatoeba:8126621",
+   "explicacion_breve": "Celui-là funciona como complemento directo de prendre.",
+   "traduccion": "Me voy a llevar ese.",
+   "errores_previstos": [
+    {
+     "respuesta": "Je vais celui-là prendre",
+     "explicacion": "Celui-là no es un pronombre átono como le; va detrás del infinitivo, como un sustantivo."
+    },
+    {
+     "respuesta": "Je celui-là vais prendre",
+     "explicacion": "El pronombre demostrativo no se antepone al verbo: je vais prendre celui-là."
+    },
+    {
+     "respuesta": "Celui-là je vais prendre",
+     "explicacion": "Sin un pronombre que lo retome (celui-là, je vais le prendre) el orden no es natural; lo neutro es je vais prendre celui-là."
+    }
+   ]
+  },
+  {
+   "id": "e11",
+   "tipo": "hueco",
+   "enunciado": "Completa con celui, celle, ceux o celles.",
+   "frase": "Betty a été ___ qui est arrivée en dernier.",
+   "respuestas": [
+    "celle"
+   ],
+   "explicacion": "Se aplica la construcción de la ficha celui qui, «el que», en femenino. La pista es Betty, una mujer, y la concordancia del participio arrivée, que confirma el femenino singular. Qui es sujeto de est arrivée. Por eso es celle qui, «la que».",
+   "origen": "tatoeba:452780",
+   "explicacion_breve": "Se refiere a una mujer: celle qui (la que).",
+   "traduccion": "Betty fue la que llegó la última.",
+   "errores_previstos": [
+    {
+     "respuesta": "celui",
+     "explicacion": "Celui es masculino; se refiere a Betty, una mujer: celle."
+    },
+    {
+     "respuesta": "cette",
+     "explicacion": "Cette es determinante y necesita un nombre; ante qui se usa el pronombre celle."
+    },
+    {
+     "respuesta": "celle-là",
+     "explicacion": "Con un relativo detrás no se añade -là: celle qui."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "en dernier",
+     "significado": "el último, en último lugar"
+    }
+   ]
+  },
+  {
+   "id": "e12",
+   "tipo": "transformar",
+   "enunciado": "Evita repetir el nombre con un pronombre demostrativo.",
+   "frase": "J'aime l'accent d'Édouard, mais je préfère l'accent de Tex.",
+   "respuestas": [
+    "J'aime l'accent d'Édouard, mais je préfère celui de Tex."
+   ],
+   "explicacion": "Se aplica la construcción de la ficha celui de + nombre para evitar repetir el sustantivo, como en el ejemplo de la tabla (je préfère celui de Tex). La pista es la repetición de l'accent, masculino singular. Se sustituye solo el segundo l'accent por celui: je préfère celui de Tex, «prefiero el de Tex».",
+   "explicacion_breve": "L'accent es masculino singular: celui de Tex.",
+   "traduccion": "Me gusta el acento de Édouard, pero prefiero el de Tex.",
+   "errores_previstos": [
+    {
+     "respuesta": "J'aime l'accent d'Édouard, mais je préfère le de Tex.",
+     "explicacion": "Calco del español «el de Tex»: en francés el artículo no puede funcionar como pronombre; se usa celui."
+    },
+    {
+     "respuesta": "J'aime l'accent d'Édouard, mais je préfère celle de Tex.",
+     "explicacion": "Accent es masculino: celui."
+    },
+    {
+     "respuesta": "J'aime l'accent d'Édouard, mais je préfère celui-là de Tex.",
+     "explicacion": "Con de + nombre no se añade -là: celui de Tex."
+    }
+   ]
+  },
+  {
+   "id": "e13",
+   "tipo": "eleccion",
+   "enunciado": "Elige el pronombre correcto.",
+   "frase": "___ me semble évident !",
+   "opciones": [
+    "Cela",
+    "Celui",
+    "Celle"
+   ],
+   "respuestas": [
+    "Cela"
+   ],
+   "explicacion": "Se aplica la regla de la ficha sobre los pronombres neutros: ceci, cela y ça se refieren a ideas o cosas sin nombre concreto. La pista es que no hay ningún sustantivo al que remitir; se habla de una idea expresada antes. Cela, «eso», es la forma cuidada; en la lengua hablada se diría ça me semble évident.",
+   "explicacion_breve": "Se refiere a una idea, no a un nombre: cela (neutro).",
+   "traduccion": "¡Eso me parece evidente!",
+   "por_opcion": {
+    "Cela": "Correcta: pronombre neutro que se refiere a una idea, «eso».",
+    "Celui": "Sustituye a un nombre masculino concreto y nunca va solo; aquí no hay nombre.",
+    "Celle": "Sustituye a un nombre femenino concreto y nunca va solo; tampoco encaja."
+   }
+  },
+  {
+   "id": "e14",
+   "tipo": "hueco",
+   "enunciado": "Completa con celui, celle, ceux o celles (un garçon).",
+   "frase": "Tu ne connais pas ___ dont je parle.",
+   "respuestas": [
+    "celui"
+   ],
+   "explicacion": "Se aplica la construcción de la ficha celui dont, «aquel del que». La pista es la indicación un garçon, masculino singular, y el relativo dont, que se usa porque el verbo parler se construye con de (parler de quelqu'un). Por eso es celui dont je parle. El español dice «del que» y el francés condensa la preposición en dont.",
+   "explicacion_breve": "Masculino singular + parler de: celui dont.",
+   "traduccion": "No conoces al chico del que hablo.",
+   "errores_previstos": [
+    {
+     "respuesta": "celle",
+     "explicacion": "Celle es femenino; se trata de un chico, celui."
+    },
+    {
+     "respuesta": "ce",
+     "explicacion": "Ce dont significa «aquello de lo que», neutro; para una persona se usa celui dont."
+    },
+    {
+     "respuesta": "celui de",
+     "explicacion": "Dont ya incluye la preposición de; no se repite."
+    }
+   ]
+  },
+  {
+   "id": "e15",
+   "tipo": "corregir",
+   "enunciado": "Corrige el error.",
+   "frase": "Ce livre est plus cher que celle-là.",
+   "respuestas": [
+    "Ce livre est plus cher que celui-là."
+   ],
+   "explicacion": "Se aplica la regla de concordancia de la ficha: el pronombre concuerda con el nombre que sustituye. La pista es ce livre, masculino singular, que se compara con otro libro. Celle-là es femenino, así que hay que corregirlo en celui-là, «aquel».",
+   "origen": "tatoeba:5235245",
+   "explicacion_breve": "Livre es masculino: celui-là.",
+   "traduccion": "Este libro es más caro que aquel.",
+   "errores_previstos": [
+    {
+     "respuesta": "Ce livre est plus cher que celle-là.",
+     "explicacion": "Es la frase sin corregir: livre es masculino."
+    },
+    {
+     "respuesta": "Ce livre est plus cher que ce-là.",
+     "explicacion": "Ce es determinante; el pronombre es celui-là."
+    },
+    {
+     "respuesta": "Ce livre est plus cher que ceux-là.",
+     "explicacion": "Ceux es plural; se compara con un solo libro."
+    }
+   ]
+  },
+  {
+   "id": "e16",
+   "tipo": "eleccion",
+   "enunciado": "Elige el pronombre correcto.",
+   "frase": "Tu préfères lequel ? ___ ou celui-là ?",
+   "opciones": [
+    "Celui-ci",
+    "Celle-ci",
+    "Ceux-ci"
+   ],
+   "respuestas": [
+    "Celui-ci"
+   ],
+   "explicacion": "Se aplica la oposición de la ficha entre -ci (cercano) y -là (lejano), con el pronombre concordado. La pista son lequel y celui-là, ambos masculinos singulares, que obligan a que la primera opción también lo sea. Por eso es celui-ci ou celui-là, «este o aquel».",
+   "origen": "tatoeba:400200",
+   "explicacion_breve": "Lequel y celui-là indican masculino singular: celui-ci.",
+   "traduccion": "¿Cuál prefieres? ¿Este o aquel?",
+   "por_opcion": {
+    "Celui-ci": "Correcta: masculino singular, como lequel y celui-là.",
+    "Celle-ci": "Femenino singular; no concuerda con lequel ni con celui-là.",
+    "Ceux-ci": "Masculino plural; lequel indica un solo objeto."
+   }
+  }
  ],
- "fuente": {"nombre": "Tex's French Grammar", "autores": "COERLL, Universidad de Texas en Austin", "licencia": "CC BY 3.0", "url": "https://laits.utexas.edu/tex/gr/pro11.html", "otras": ["Frases de Tatoeba (CC BY 2.0 FR)"]}
+ "fuente": {
+  "nombre": "Tex's French Grammar",
+  "autores": "COERLL, Universidad de Texas en Austin",
+  "licencia": "CC BY 3.0",
+  "url": "https://laits.utexas.edu/tex/gr/pro11.html",
+  "otras": [
+   "Frases de Tatoeba (CC BY 2.0 FR)"
+  ]
+ },
+ "descripcion_larga_es": "Los pronombres demostrativos celui, celle, ceux y celles sustituyen a un nombre ya mencionado para no repetirlo («el de», «la que», «este», «aquel»), y ceci, cela y ça se refieren a ideas o cosas sin nombrar. Son esenciales para comparar sin repetir. Cuestan al hispanohablante porque nunca van solos (siempre con -ci, -là, de o un relativo) y porque concuerdan con el género francés del nombre, no con el español.",
+ "contexto": {
+  "que_es": "Son pronombres que ocupan el lugar de un sustantivo mencionado antes. Celui (masculino singular), celle (femenino singular), ceux (masculino plural) y celles (femenino plural) concuerdan con ese sustantivo y siempre van completados por -ci/-là, de + nombre o un relativo. Ceci, cela y ça son neutros e invariables y se refieren a ideas o situaciones.",
+  "por_que_importa": "Permiten comparar (mes cheveux sont plus longs que ceux de Jane), elegir (celui-ci ou celui-là) y definir (ceux qui travaillent) sin repetir palabras, algo muy valorado en la expresión oral y escrita. Un error de género o el uso de cette-ci en lugar de celle-ci se percibe como falta básica. Confundir cela con celui hace la frase incomprensible.",
+  "cuando_se_usa": "Al comparar dos cosas, al elegir entre objetos, al hablar de «el de», «la que», «los que» y al referirse a una idea completa (cela me semble évident). Las señales son el nombre al que se refiere el pronombre, con su género francés, y lo que viene detrás. El hispanohablante tiende a usar el determinante (cette-ci) en lugar del pronombre y a concordar con el género español (le lait, «la leche», da celui, no celle)."
+ }
 }

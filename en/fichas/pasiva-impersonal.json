@@ -6,51 +6,527 @@
  "nivel": "B2",
  "resumen": "Con verbos como say, believe, think, report, expect, know o consider, el inglés formal (prensa, informes) presenta lo que «se dice» o «se cree» con dos estructuras: It is said that + oración, o sujeto + is said + to + infinitivo.",
  "explicacion": [
-  {"tipo": "tabla", "cabecera": ["Estructura", "Ejemplo", "Traducción"], "filas": [
-   ["It + be + participio + that + oración", "It is said that the castle is haunted.", "Se dice que el castillo está encantado."],
-   ["Sujeto + be + participio + to + infinitivo", "The castle is said to be haunted.", "Se dice que el castillo está encantado."],
-   ["… to be + -ing (acción en curso)", "The minister is thought to be considering resigning.", "Se cree que el ministro está pensando en dimitir."],
-   ["… to have + participio (acción anterior)", "The thieves are believed to have escaped abroad.", "Se cree que los ladrones han huido al extranjero."],
-   ["There + be + participio + to be", "There are reported to be ten victims.", "Se informa de que hay diez víctimas."]
-  ]},
-  {"tipo": "texto", "texto": "Cómo elegir el infinitivo: si lo que se dice es simultáneo al momento de decirlo, to + infinitivo (or to be + -ing); si es anterior, to have + participio. People say he lived in Paris → He is said to have lived in Paris."},
-  {"tipo": "texto", "texto": "Si el verbo de opinión está en pasado, cambia be: People thought she was rich → She was thought to be rich / It was thought that she was rich."},
-  {"tipo": "lista", "items": [
-   "Verbos habituales: say, think, believe, report, expect, know, consider, claim, understand, allege, estimate.",
-   "Es típica de la prensa y los informes: The economy is expected to grow by 2%.",
-   "No se traduce con «se» + activa en inglés: no «It says that…» con sentido de «se dice»."
-  ]}
+  {
+   "tipo": "tabla",
+   "cabecera": [
+    "Estructura",
+    "Ejemplo",
+    "Traducción"
+   ],
+   "filas": [
+    [
+     "It + be + participio + that + oración",
+     "It is said that the castle is haunted.",
+     "Se dice que el castillo está encantado."
+    ],
+    [
+     "Sujeto + be + participio + to + infinitivo",
+     "The castle is said to be haunted.",
+     "Se dice que el castillo está encantado."
+    ],
+    [
+     "… to be + -ing (acción en curso)",
+     "The minister is thought to be considering resigning.",
+     "Se cree que el ministro está pensando en dimitir."
+    ],
+    [
+     "… to have + participio (acción anterior)",
+     "The thieves are believed to have escaped abroad.",
+     "Se cree que los ladrones han huido al extranjero."
+    ],
+    [
+     "There + be + participio + to be",
+     "There are reported to be ten victims.",
+     "Se informa de que hay diez víctimas."
+    ]
+   ]
+  },
+  {
+   "tipo": "texto",
+   "texto": "Cómo elegir el infinitivo: si lo que se dice es simultáneo al momento de decirlo, to + infinitivo (o to be + -ing); si es anterior, to have + participio. People say he lived in Paris → He is said to have lived in Paris."
+  },
+  {
+   "tipo": "texto",
+   "texto": "Si el verbo de opinión está en pasado, cambia be: People thought she was rich → She was thought to be rich / It was thought that she was rich."
+  },
+  {
+   "tipo": "lista",
+   "items": [
+    "Verbos habituales: say, think, believe, report, expect, know, consider, claim, understand, allege, estimate.",
+    "Es típica de la prensa y los informes: The economy is expected to grow by 2%.",
+    "No se traduce con «se» + activa en inglés: no «It says that…» con sentido de «se dice»."
+   ]
+  }
  ],
  "ejemplos": [
-  {"frase": "It is widely believed that the policy has failed.", "traduccion": "Se cree ampliamente que la política ha fracasado."},
-  {"frase": "The painting is thought to be worth over a million euros.", "traduccion": "Se cree que el cuadro vale más de un millón de euros."},
-  {"frase": "Unemployment is expected to fall next year.", "traduccion": "Se espera que el paro baje el año que viene."},
-  {"frase": "The singer is reported to have cancelled her tour.", "traduccion": "Se informa de que la cantante ha cancelado su gira."},
-  {"frase": "It was known that the bridge needed repairs.", "traduccion": "Se sabía que el puente necesitaba reparaciones."},
-  {"frase": "Two climbers are said to be missing on the mountain.", "traduccion": "Se dice que hay dos escaladores desaparecidos en la montaña."}
+  {
+   "frase": "It is widely believed that the policy has failed.",
+   "traduccion": "Se cree ampliamente que la política ha fracasado."
+  },
+  {
+   "frase": "The painting is thought to be worth over a million euros.",
+   "traduccion": "Se cree que el cuadro vale más de un millón de euros."
+  },
+  {
+   "frase": "Unemployment is expected to fall next year.",
+   "traduccion": "Se espera que el paro baje el año que viene."
+  },
+  {
+   "frase": "The singer is reported to have cancelled her tour.",
+   "traduccion": "Se informa de que la cantante ha cancelado su gira."
+  },
+  {
+   "frase": "It was known that the bridge needed repairs.",
+   "traduccion": "Se sabía que el puente necesitaba reparaciones."
+  },
+  {
+   "frase": "Two climbers are said to be missing on the mountain.",
+   "traduccion": "Se dice que hay dos escaladores desaparecidos en la montaña."
+  }
  ],
  "errores_hispanohablantes": [
-  {"mal": "It is said he to be very rich.", "bien": "He is said to be very rich.", "nota": "O bien It is said that he is…, o bien He is said to be…; no se mezclan."},
-  {"mal": "She is believed to leave the country last week.", "bien": "She is believed to have left the country last week.", "nota": "Acción anterior al momento de creer: to have + participio."},
-  {"mal": "Is said that prices will rise.", "bien": "It is said that prices will rise.", "nota": "El inglés necesita sujeto: It."}
+  {
+   "mal": "It is said he to be very rich.",
+   "bien": "He is said to be very rich.",
+   "nota": "O bien It is said that he is…, o bien He is said to be…; no se mezclan."
+  },
+  {
+   "mal": "She is believed to leave the country last week.",
+   "bien": "She is believed to have left the country last week.",
+   "nota": "Acción anterior al momento de creer: to have + participio."
+  },
+  {
+   "mal": "Is said that prices will rise.",
+   "bien": "It is said that prices will rise.",
+   "nota": "El inglés necesita sujeto: It."
+  }
  ],
  "ejercicios": [
-  {"id": "e01", "tipo": "hueco", "enunciado": "Completa con la forma correcta del verbo.", "frase": "The new stadium is expected ___ (open) next spring.", "respuestas": ["to open"], "explicacion": "Sujeto + be expected + to + infinitivo."},
-  {"id": "e02", "tipo": "hueco", "enunciado": "Completa con la forma correcta del verbo.", "frase": "The fire is believed ___ (start) in the kitchen last night.", "respuestas": ["to have started"], "explicacion": "Acción anterior: to have + participio."},
-  {"id": "e03", "tipo": "hueco", "enunciado": "Completa con la forma correcta del verbo.", "frase": "The president is understood ___ (prepare) a major speech at this moment.", "respuestas": ["to be preparing"], "explicacion": "Acción en curso: to be + -ing."},
-  {"id": "e04", "tipo": "hueco", "enunciado": "Completa con una palabra.", "frase": "___ is reported that the talks have broken down.", "respuestas": ["It"], "explicacion": "Estructura It is reported that + oración."},
-  {"id": "e05", "tipo": "eleccion", "enunciado": "Elige la opción correcta.", "frase": "Shakespeare is thought ___ this play around 1600.", "opciones": ["to have written", "to write", "that he wrote", "writing"], "respuestas": ["to have written"], "explicacion": "Hecho anterior al momento en que se piensa: to have + participio."},
-  {"id": "e06", "tipo": "eleccion", "enunciado": "Elige la opción correcta.", "frase": "There ___ to be over a thousand people at the protest.", "opciones": ["were said", "said", "was saying"], "respuestas": ["were said"], "explicacion": "There + be + participio + to be; plural por a thousand people."},
-  {"id": "e07", "tipo": "eleccion", "enunciado": "Elige la opción correcta.", "frase": "It ___ that the company will announce job cuts.", "opciones": ["is rumoured", "rumours", "is rumouring"], "respuestas": ["is rumoured"], "explicacion": "Pasiva: is + participio."},
-  {"id": "e08", "tipo": "corregir", "enunciado": "Corrige el error.", "frase": "He is said that he is a brilliant pianist.", "respuestas": ["He is said to be a brilliant pianist.", "It is said that he is a brilliant pianist."], "explicacion": "Con el sujeto personal se usa to + infinitivo, no that."},
-  {"id": "e09", "tipo": "corregir", "enunciado": "Corrige el error.", "frase": "The suspect is thought to escape through the window yesterday.", "respuestas": ["The suspect is thought to have escaped through the window yesterday."], "explicacion": "Acción anterior: to have + participio."},
-  {"id": "e10", "tipo": "corregir", "enunciado": "Corrige el error.", "frase": "Is believed that the treasure is buried here.", "respuestas": ["It is believed that the treasure is buried here."], "explicacion": "Hace falta el sujeto It."},
-  {"id": "e11", "tipo": "transformar", "enunciado": "Reescribe la frase empezando por The company.", "frase": "People say that the company is losing money.", "respuestas": ["The company is said to be losing money."], "explicacion": "Acción en curso: is said to be + -ing."},
-  {"id": "e12", "tipo": "transformar", "enunciado": "Reescribe la frase empezando por It.", "frase": "Experts expect that house prices will rise.", "respuestas": ["It is expected that house prices will rise.", "It's expected that house prices will rise."], "explicacion": "It + is + participio + that + oración."},
-  {"id": "e13", "tipo": "transformar", "enunciado": "Reescribe la frase empezando por The thief.", "frase": "Police believe that the thief entered through the roof.", "respuestas": ["The thief is believed to have entered through the roof."], "explicacion": "Acción anterior: is believed to have + participio."},
-  {"id": "e14", "tipo": "transformar", "enunciado": "Reescribe la frase empezando por She.", "frase": "People thought that she was a spy.", "respuestas": ["She was thought to be a spy."], "explicacion": "Verbo de opinión en pasado: was thought + to be."},
-  {"id": "e15", "tipo": "ordenar", "enunciado": "Ordena las palabras.", "palabras": ["is", "be", "the", "said", "to", "haunted", "house"], "respuestas": ["the house is said to be haunted", "is the house said to be haunted"], "explicacion": "Sujeto + is said + to + infinitivo."},
-  {"id": "e16", "tipo": "ordenar", "enunciado": "Ordena las palabras.", "palabras": ["is", "it", "that", "known", "smoking", "kills"], "respuestas": ["it is known that smoking kills", "is it known that smoking kills"], "explicacion": "It is known that + oración."}
+  {
+   "id": "e01",
+   "tipo": "hueco",
+   "enunciado": "Completa con la forma correcta del verbo.",
+   "frase": "The new stadium is expected ___ (open) next spring.",
+   "respuestas": [
+    "to open"
+   ],
+   "explicacion": "Se aplica la segunda fila de la tabla: sujeto + be + participio + to + infinitivo. La pista es que la frase ya empieza con un sujeto concreto (the new stadium) seguido de is expected, así que no cabe that + oración, sino to + infinitivo. Como la apertura es posterior al momento de esperar, basta el infinitivo simple: to open.",
+   "explicacion_breve": "Sujeto + be expected + to + infinitivo.",
+   "traduccion": "Se espera que el nuevo estadio abra la próxima primavera.",
+   "errores_previstos": [
+    {
+     "respuesta": "opening",
+     "explicacion": "Tras be expected va to + infinitivo, no la forma en -ing."
+    },
+    {
+     "respuesta": "that it opens",
+     "explicacion": "Con un sujeto personal delante (the new stadium is expected) no se usa that; esa opción solo vale con It is expected that…"
+    },
+    {
+     "respuesta": "to have opened",
+     "explicacion": "To have + participio indica algo anterior al momento de esperar, y la apertura es futura (next spring)."
+    }
+   ]
+  },
+  {
+   "id": "e02",
+   "tipo": "hueco",
+   "enunciado": "Completa con la forma correcta del verbo.",
+   "frase": "The fire is believed ___ (start) in the kitchen last night.",
+   "respuestas": [
+    "to have started"
+   ],
+   "explicacion": "Se aplica la regla de Reglas y claves para elegir el infinitivo: si lo que se cree es anterior al momento de creerlo, to have + participio. La pista es last night: el incendio empezó antes de ahora, cuando se cree. Por eso to have started, con el participio regular de start.",
+   "explicacion_breve": "Acción anterior: to have + participio.",
+   "traduccion": "Se cree que el incendio empezó en la cocina anoche.",
+   "errores_previstos": [
+    {
+     "respuesta": "to start",
+     "explicacion": "El infinitivo simple indica algo simultáneo o futuro; con last night hace falta to have started."
+    },
+    {
+     "respuesta": "to have start",
+     "explicacion": "Tras to have va el participio, started."
+    },
+    {
+     "respuesta": "started",
+     "explicacion": "Tras is believed con sujeto personal hace falta to + infinitivo."
+    }
+   ]
+  },
+  {
+   "id": "e03",
+   "tipo": "hueco",
+   "enunciado": "Completa con la forma correcta del verbo.",
+   "frase": "The president is understood ___ (prepare) a major speech at this moment.",
+   "respuestas": [
+    "to be preparing"
+   ],
+   "explicacion": "Se aplica la tercera fila de la tabla: … to be + -ing para una acción en curso. La pista es at this moment, que indica que la preparación está ocurriendo ahora, al mismo tiempo que se entiende. Por eso no basta to prepare, sino to be preparing, igual que en The minister is thought to be considering resigning.",
+   "explicacion_breve": "Acción en curso: to be + -ing.",
+   "traduccion": "Se entiende que el presidente está preparando un discurso importante en este momento.",
+   "errores_previstos": [
+    {
+     "respuesta": "to prepare",
+     "explicacion": "El infinitivo simple no expresa la acción en curso que marca at this moment; hace falta to be preparing."
+    },
+    {
+     "respuesta": "to be prepared",
+     "explicacion": "Es pasiva («estar preparado»), y el presidente es quien prepara el discurso."
+    },
+    {
+     "respuesta": "preparing",
+     "explicacion": "Tras is understood con sujeto personal falta to be."
+    }
+   ]
+  },
+  {
+   "id": "e04",
+   "tipo": "hueco",
+   "enunciado": "Completa con una palabra.",
+   "frase": "___ is reported that the talks have broken down.",
+   "respuestas": [
+    "It"
+   ],
+   "explicacion": "Se aplica la primera fila de la tabla: It + be + participio + that + oración. La pista es que tras el hueco viene is reported that y una oración completa con su propio sujeto (the talks). El inglés exige un sujeto gramatical en la oración principal, y en esta estructura es el it vacío. Recuerda el tercer error típico: «Is said that…» sin it es incorrecto.",
+   "explicacion_breve": "Estructura It is reported that + oración.",
+   "traduccion": "Se informa de que las negociaciones se han roto.",
+   "errores_previstos": [
+    {
+     "respuesta": "There",
+     "explicacion": "There se usa con to be (There are reported to be…), no con that + oración."
+    },
+    {
+     "respuesta": "This",
+     "explicacion": "This señalaría algo concreto; la estructura impersonal usa el sujeto vacío it."
+    },
+    {
+     "respuesta": "He",
+     "explicacion": "Un sujeto personal exigiría to + infinitivo (He is reported to…), no that."
+    }
+   ]
+  },
+  {
+   "id": "e05",
+   "tipo": "eleccion",
+   "enunciado": "Elige la opción correcta.",
+   "frase": "Shakespeare is thought ___ this play around 1600.",
+   "opciones": [
+    "to have written",
+    "to write",
+    "that he wrote",
+    "writing"
+   ],
+   "respuestas": [
+    "to have written"
+   ],
+   "explicacion": "Se aplica la regla para elegir el infinitivo: si el hecho es anterior al momento de pensarlo, to have + participio. La pista es around 1600: la escritura es muy anterior a hoy, cuando se piensa. Por eso to have written, con el participio irregular de write.",
+   "explicacion_breve": "Hecho anterior al momento en que se piensa: to have + participio.",
+   "traduccion": "Se cree que Shakespeare escribió esta obra hacia 1600.",
+   "por_opcion": {
+    "to have written": "Correcta: infinitivo perfecto para un hecho anterior al momento en que se piensa.",
+    "to write": "Incorrecta: el infinitivo simple indicaría simultaneidad o futuro, como si la escribiera ahora.",
+    "that he wrote": "Incorrecta: con sujeto personal (Shakespeare is thought) no se usa that; sería It is thought that he wrote…",
+    "writing": "Incorrecta: tras is thought con sujeto personal va to + infinitivo, nunca -ing."
+   }
+  },
+  {
+   "id": "e06",
+   "tipo": "eleccion",
+   "enunciado": "Elige la opción correcta.",
+   "frase": "There ___ to be over a thousand people at the protest.",
+   "opciones": [
+    "were said",
+    "said",
+    "was saying"
+   ],
+   "respuestas": [
+    "were said"
+   ],
+   "explicacion": "Se aplica la última fila de la tabla: There + be + participio + to be. La pista es There al principio y to be justo después del hueco. Be concuerda con lo que viene detrás, over a thousand people, que es plural, y la frase está en pasado, de ahí were said.",
+   "explicacion_breve": "There + be + participio + to be; plural por a thousand people.",
+   "traduccion": "Se dijo que había más de mil personas en la manifestación.",
+   "por_opcion": {
+    "were said": "Correcta: pasiva en pasado y en plural, concordando con a thousand people.",
+    "said": "Incorrecta: es activa y there no puede ser sujeto de say; falta be.",
+    "was saying": "Incorrecta: es activa continua y en singular; diría que «allí estaba diciendo»."
+   }
+  },
+  {
+   "id": "e07",
+   "tipo": "eleccion",
+   "enunciado": "Elige la opción correcta.",
+   "frase": "It ___ that the company will announce job cuts.",
+   "opciones": [
+    "is rumoured",
+    "rumours",
+    "is rumouring"
+   ],
+   "respuestas": [
+    "is rumoured"
+   ],
+   "explicacion": "Se aplica la primera fila de la tabla: It + be + participio + that + oración. La pista es It al principio y that detrás del hueco. Rumour se usa casi solo en pasiva con este valor («se rumorea»), por eso is rumoured. Rumoured es la ortografía británica; en americano se escribe rumored.",
+   "explicacion_breve": "Pasiva: is + participio.",
+   "traduccion": "Se rumorea que la empresa anunciará recortes de plantilla.",
+   "por_opcion": {
+    "is rumoured": "Correcta: pasiva impersonal, «se rumorea».",
+    "rumours": "Incorrecta: es activa y diría que it rumorea algo; en inglés no se dice que una cosa «rumorea».",
+    "is rumouring": "Incorrecta: es activa continua, que no existe con este verbo y este sentido."
+   }
+  },
+  {
+   "id": "e08",
+   "tipo": "corregir",
+   "enunciado": "Corrige el error.",
+   "frase": "He is said that he is a brilliant pianist.",
+   "respuestas": [
+    "He is said to be a brilliant pianist.",
+    "It is said that he is a brilliant pianist."
+   ],
+   "explicacion": "Se aplica la regla de no mezclar las dos estructuras, recogida en el primer error típico de la ficha. La pista es que la frase empieza con un sujeto personal (He is said), lo que obliga a seguir con to + infinitivo: to be a brilliant pianist. También vale cambiar el sujeto a it y conservar that: It is said that he is a brilliant pianist.",
+   "explicacion_breve": "Con el sujeto personal se usa to + infinitivo, no that.",
+   "traduccion": "Se dice que es un pianista brillante.",
+   "errores_previstos": [
+    {
+     "respuesta": "He is said that he is a brilliant pianist.",
+     "explicacion": "Es copiar la frase sin corregir: con sujeto personal no se usa that."
+    },
+    {
+     "respuesta": "He is said to is a brilliant pianist.",
+     "explicacion": "Tras to va el infinitivo be."
+    },
+    {
+     "respuesta": "It is said he to be a brilliant pianist.",
+     "explicacion": "Mezcla las dos estructuras: o It is said that he is…, o He is said to be…"
+    }
+   ]
+  },
+  {
+   "id": "e09",
+   "tipo": "corregir",
+   "enunciado": "Corrige el error.",
+   "frase": "The suspect is thought to escape through the window yesterday.",
+   "respuestas": [
+    "The suspect is thought to have escaped through the window yesterday."
+   ],
+   "explicacion": "Se aplica la regla para elegir el infinitivo: acción anterior al momento de pensar, to have + participio. La pista es yesterday, que sitúa la huida antes de ahora. Con to escape la frase diría que el sospechoso está pensando en escapar; hay que poner to have escaped.",
+   "explicacion_breve": "Acción anterior: to have + participio.",
+   "traduccion": "Se cree que el sospechoso escapó ayer por la ventana.",
+   "errores_previstos": [
+    {
+     "respuesta": "The suspect is thought to escape through the window yesterday.",
+     "explicacion": "Es copiar la frase sin corregir: con yesterday hace falta to have escaped."
+    },
+    {
+     "respuesta": "The suspect is thought to have escape through the window yesterday.",
+     "explicacion": "Tras to have va el participio escaped."
+    },
+    {
+     "respuesta": "The suspect is thought to escaped through the window yesterday.",
+     "explicacion": "Tras to no puede ir el pasado; para la anterioridad hace falta to have escaped."
+    }
+   ]
+  },
+  {
+   "id": "e10",
+   "tipo": "corregir",
+   "enunciado": "Corrige el error.",
+   "frase": "Is believed that the treasure is buried here.",
+   "respuestas": [
+    "It is believed that the treasure is buried here."
+   ],
+   "explicacion": "Se aplica la primera fila de la tabla y el tercer error típico: el inglés necesita sujeto, y en esta estructura es It. La pista es que la frase empieza directamente por Is believed that, calco del español «se cree que». Basta añadir It delante.",
+   "explicacion_breve": "Hace falta el sujeto It.",
+   "traduccion": "Se cree que el tesoro está enterrado aquí.",
+   "errores_previstos": [
+    {
+     "respuesta": "Is believed that the treasure is buried here.",
+     "explicacion": "Es copiar la frase sin corregir: falta el sujeto It."
+    },
+    {
+     "respuesta": "It believes that the treasure is buried here.",
+     "explicacion": "Es activa y diría que «ello cree»; la estructura impersonal es pasiva: It is believed."
+    },
+    {
+     "respuesta": "There is believed that the treasure is buried here.",
+     "explicacion": "There no se usa con that + oración; el sujeto vacío es It."
+    }
+   ]
+  },
+  {
+   "id": "e11",
+   "tipo": "transformar",
+   "enunciado": "Reescribe la frase empezando por The company.",
+   "frase": "People say that the company is losing money.",
+   "respuestas": [
+    "The company is said to be losing money."
+   ],
+   "explicacion": "Se aplica la tercera fila de la tabla: sujeto + is said + to be + -ing para una acción en curso. La pista es is losing en la frase original, un present continuous: la pérdida de dinero ocurre ahora, mientras se dice. Como el enunciado obliga a empezar por The company, la estructura es la personal, con to + infinitivo continuo.",
+   "explicacion_breve": "Acción en curso: is said to be + -ing.",
+   "traduccion": "Se dice que la empresa está perdiendo dinero.",
+   "errores_previstos": [
+    {
+     "respuesta": "The company is said to lose money.",
+     "explicacion": "El infinitivo simple pierde el aspecto continuo de is losing; hace falta to be losing."
+    },
+    {
+     "respuesta": "The company is said that it is losing money.",
+     "explicacion": "Con sujeto personal no se usa that."
+    },
+    {
+     "respuesta": "The company says to be losing money.",
+     "explicacion": "Es activa: diría que la empresa dice algo. Hace falta is said."
+    }
+   ]
+  },
+  {
+   "id": "e12",
+   "tipo": "transformar",
+   "enunciado": "Reescribe la frase empezando por It.",
+   "frase": "Experts expect that house prices will rise.",
+   "respuestas": [
+    "It is expected that house prices will rise.",
+    "It's expected that house prices will rise."
+   ],
+   "explicacion": "Se aplica la primera fila de la tabla: It + be + participio + that + oración. La pista es el enunciado, que obliga a empezar por It, y experts expect, un sujeto genérico que se omite. La oración subordinada (house prices will rise) se mantiene intacta tras that. También vale la contracción It's.",
+   "explicacion_breve": "It + is + participio + that + oración.",
+   "traduccion": "Se espera que los precios de la vivienda suban.",
+   "errores_previstos": [
+    {
+     "respuesta": "It is expected house prices to rise.",
+     "explicacion": "Mezcla las dos estructuras; con It va that + oración completa."
+    },
+    {
+     "respuesta": "It expects that house prices will rise.",
+     "explicacion": "Es activa; la estructura impersonal es It is expected."
+    },
+    {
+     "respuesta": "It is expect that house prices will rise.",
+     "explicacion": "Tras is va el participio expected."
+    }
+   ]
+  },
+  {
+   "id": "e13",
+   "tipo": "transformar",
+   "enunciado": "Reescribe la frase empezando por The thief.",
+   "frase": "Police believe that the thief entered through the roof.",
+   "respuestas": [
+    "The thief is believed to have entered through the roof."
+   ],
+   "explicacion": "Se aplica la cuarta fila de la tabla: … to have + participio para una acción anterior. La pista es entered, en pasado: la entrada ocurrió antes del momento en que la policía lo cree. Como se empieza por The thief, la estructura es personal: is believed to have entered.",
+   "explicacion_breve": "Acción anterior: is believed to have + participio.",
+   "traduccion": "Se cree que el ladrón entró por el tejado.",
+   "errores_previstos": [
+    {
+     "respuesta": "The thief is believed to enter through the roof.",
+     "explicacion": "El infinitivo simple no indica que la entrada fue anterior; hace falta to have entered."
+    },
+    {
+     "respuesta": "The thief is believed that he entered through the roof.",
+     "explicacion": "Con sujeto personal no se usa that."
+    },
+    {
+     "respuesta": "The thief was believed to have entered through the roof.",
+     "explicacion": "Believe está en presente en la original (police believe): is believed."
+    }
+   ]
+  },
+  {
+   "id": "e14",
+   "tipo": "transformar",
+   "enunciado": "Reescribe la frase empezando por She.",
+   "frase": "People thought that she was a spy.",
+   "respuestas": [
+    "She was thought to be a spy."
+   ],
+   "explicacion": "Se aplica la regla de la ficha: si el verbo de opinión está en pasado, cambia be (was thought). La pista es thought, pasado de think, en la original. Lo que se pensaba (ser espía) era simultáneo a pensarlo, así que basta to be. El sujeto personal she obliga a la estructura con to + infinitivo.",
+   "explicacion_breve": "Verbo de opinión en pasado: was thought + to be.",
+   "traduccion": "Se pensaba que era espía.",
+   "errores_previstos": [
+    {
+     "respuesta": "She is thought to be a spy.",
+     "explicacion": "El verbo de opinión está en pasado en la original: was thought."
+    },
+    {
+     "respuesta": "She was thought to have been a spy.",
+     "explicacion": "El infinitivo perfecto indicaría que fue espía antes de que lo pensaran; aquí es simultáneo: to be."
+    },
+    {
+     "respuesta": "She was thought that she was a spy.",
+     "explicacion": "Con sujeto personal no se usa that."
+    }
+   ]
+  },
+  {
+   "id": "e15",
+   "tipo": "ordenar",
+   "enunciado": "Ordena las palabras.",
+   "palabras": [
+    "is",
+    "be",
+    "the",
+    "said",
+    "to",
+    "haunted",
+    "house"
+   ],
+   "respuestas": [
+    "the house is said to be haunted",
+    "is the house said to be haunted"
+   ],
+   "explicacion": "Se aplica la segunda fila de la tabla: sujeto + is said + to + infinitivo. La pista es que entre las palabras están said, to y be, pero no that, lo que obliga a la estructura personal. Haunted es adjetivo (encantada) y va tras be. También vale la pregunta, con is delante del sujeto.",
+   "explicacion_breve": "Sujeto + is said + to + infinitivo.",
+   "traduccion": "Se dice que la casa está encantada.",
+   "errores_previstos": [
+    {
+     "respuesta": "is said the house to be haunted",
+     "explicacion": "Calco de «se dice la casa…»: el sujeto va delante, the house is said…"
+    },
+    {
+     "respuesta": "the house is said be to haunted",
+     "explicacion": "El infinitivo es to be, en ese orden."
+    }
+   ]
+  },
+  {
+   "id": "e16",
+   "tipo": "ordenar",
+   "enunciado": "Ordena las palabras.",
+   "palabras": [
+    "is",
+    "it",
+    "that",
+    "known",
+    "smoking",
+    "kills"
+   ],
+   "respuestas": [
+    "it is known that smoking kills",
+    "is it known that smoking kills"
+   ],
+   "explicacion": "Se aplica la primera fila de la tabla: It + be + participio + that + oración. La pista es que entre las palabras están it y that. Tras that va la oración completa, con smoking como sujeto (gerundio) y kills como verbo. La forma interrogativa invierte is e it.",
+   "explicacion_breve": "It is known that + oración.",
+   "traduccion": "Se sabe que fumar mata.",
+   "errores_previstos": [
+    {
+     "respuesta": "is known that smoking kills it",
+     "explicacion": "It es el sujeto vacío de la principal y va al principio, no al final."
+    },
+    {
+     "respuesta": "it is known smoking that kills",
+     "explicacion": "That introduce la oración entera y va delante de su sujeto smoking."
+    }
+   ]
+  }
  ],
- "fuente": {"nombre": "propia"}
+ "fuente": {
+  "nombre": "propia"
+ },
+ "descripcion_larga_es": "La pasiva impersonal (It is said that…, He is said to…) es la forma en que el inglés formal presenta rumores, opiniones y previsiones sin atribuirlas a nadie concreto: «se dice», «se cree», «se espera». Domina la prensa, los informes económicos y los textos académicos. Al hispanohablante le cuesta porque el español resuelve todo con «se» y porque hay que elegir bien el infinitivo (to be, to be doing, to have done).",
+ "contexto": {
+  "que_es": "Son dos estructuras con verbos de opinión o información (say, think, believe, expect, report, know…): It + be + participio + that + oración, o sujeto + be + participio + to + infinitivo. Ambas equivalen al español «se dice que», «se cree que», «se espera que».",
+  "por_que_importa": "Permiten transmitir información con distancia y prudencia, algo esencial en periodismo, informes y cualquier texto profesional en que no se quiere afirmar algo como propio. Usarlas mal produce frases agramaticales muy visibles, como mezclar las dos estructuras o olvidar el sujeto it. En un examen de nivel B2 o superior es un recurso clásico de transformación.",
+  "cuando_se_usa": "Al citar rumores, estimaciones, previsiones o creencias generales: The suspect is believed to have fled, Prices are expected to rise. Las señales son verbos como say, believe, report o expect y un sujeto genérico en la activa (people, experts, police). El hispanohablante tiende a calcar «se dice» con «Is said» sin sujeto o con «It says», que significa otra cosa («pone, dice el texto»)."
+ }
 }

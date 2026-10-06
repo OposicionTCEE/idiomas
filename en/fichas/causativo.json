@@ -6,50 +6,545 @@
  "nivel": "B2",
  "resumen": "Have/get + objeto + participio indica que otra persona hace algo por nosotros (normalmente porque lo encargamos o pagamos). También sirve para contar algo malo que nos pasó: I had my phone stolen.",
  "explicacion": [
-  {"tipo": "tabla", "cabecera": ["Estructura", "Significado", "Ejemplo"], "filas": [
-   ["have + objeto + participio", "encargar un servicio", "I'm having my hair cut tomorrow."],
-   ["get + objeto + participio", "igual, más informal", "We got the boiler repaired."],
-   ["have + persona + infinitivo sin to", "pedir/encargar a alguien que haga algo", "I'll have my assistant call you."],
-   ["get + persona + to + infinitivo", "convencer o conseguir que alguien haga algo", "I got my brother to help me move."],
-   ["have + objeto + participio (experiencia)", "algo negativo que le ocurre a uno", "She had her bag stolen on the train."]
-  ]},
-  {"tipo": "texto", "texto": "Donde el español dice «me corté el pelo» (aunque lo hiciera el peluquero), el inglés distingue: I cut my hair (yo mismo) frente a I had my hair cut (en la peluquería)."},
-  {"tipo": "texto", "texto": "Have se conjuga en todos los tiempos: I'm having, I had, I've had, I'll have, I need to have… Las preguntas y negativas usan do: Did you have the car serviced?"},
-  {"tipo": "lista", "items": [
-   "Orden fijo: have + OBJETO + participio (no «have cut my hair»).",
-   "Get someone TO do (con to); have someone DO (sin to).",
-   "Se puede añadir by + persona: We had the house painted by a local firm."
-  ]}
+  {
+   "tipo": "tabla",
+   "cabecera": [
+    "Estructura",
+    "Significado",
+    "Ejemplo"
+   ],
+   "filas": [
+    [
+     "have + objeto + participio",
+     "encargar un servicio",
+     "I'm having my hair cut tomorrow."
+    ],
+    [
+     "get + objeto + participio",
+     "igual, más informal",
+     "We got the boiler repaired."
+    ],
+    [
+     "have + persona + infinitivo sin to",
+     "pedir/encargar a alguien que haga algo",
+     "I'll have my assistant call you."
+    ],
+    [
+     "get + persona + to + infinitivo",
+     "convencer o conseguir que alguien haga algo",
+     "I got my brother to help me move."
+    ],
+    [
+     "have + objeto + participio (experiencia)",
+     "algo negativo que le ocurre a uno",
+     "She had her bag stolen on the train."
+    ]
+   ]
+  },
+  {
+   "tipo": "texto",
+   "texto": "Donde el español dice «me corté el pelo» (aunque lo hiciera el peluquero), el inglés distingue: I cut my hair (yo mismo) frente a I had my hair cut (en la peluquería)."
+  },
+  {
+   "tipo": "texto",
+   "texto": "Have se conjuga en todos los tiempos: I'm having, I had, I've had, I'll have, I need to have… Las preguntas y negativas usan do: Did you have the car serviced?"
+  },
+  {
+   "tipo": "lista",
+   "items": [
+    "Orden fijo: have + OBJETO + participio (no «have cut my hair»).",
+    "Get someone TO do (con to); have someone DO (sin to).",
+    "Se puede añadir by + persona: We had the house painted by a local firm."
+   ]
+  }
  ],
  "ejemplos": [
-  {"frase": "I need to have my eyes tested.", "traduccion": "Tengo que graduarme la vista."},
-  {"frase": "They're having a swimming pool built in the garden.", "traduccion": "Se están haciendo una piscina en el jardín."},
-  {"frase": "Where did you get your suit made?", "traduccion": "¿Dónde te hiciste el traje?"},
-  {"frase": "He had his licence taken away for speeding.", "traduccion": "Le retiraron el carné por exceso de velocidad."},
-  {"frase": "I'll have the receptionist book you a taxi.", "traduccion": "Le pediré a la recepcionista que le reserve un taxi."},
-  {"frase": "Can you get your sister to pick us up?", "traduccion": "¿Puedes conseguir que tu hermana nos recoja?"}
+  {
+   "frase": "I need to have my eyes tested.",
+   "traduccion": "Tengo que graduarme la vista."
+  },
+  {
+   "frase": "They're having a swimming pool built in the garden.",
+   "traduccion": "Se están haciendo una piscina en el jardín."
+  },
+  {
+   "frase": "Where did you get your suit made?",
+   "traduccion": "¿Dónde te hiciste el traje?"
+  },
+  {
+   "frase": "He had his licence taken away for speeding.",
+   "traduccion": "Le retiraron el carné por exceso de velocidad."
+  },
+  {
+   "frase": "I'll have the receptionist book you a taxi.",
+   "traduccion": "Le pediré a la recepcionista que le reserve un taxi."
+  },
+  {
+   "frase": "Can you get your sister to pick us up?",
+   "traduccion": "¿Puedes conseguir que tu hermana nos recoja?"
+  }
  ],
  "errores_hispanohablantes": [
-  {"mal": "I cut my hair at the hairdresser's yesterday.", "bien": "I had my hair cut at the hairdresser's yesterday.", "nota": "Si lo hace otra persona, se usa la estructura causativa."},
-  {"mal": "I had repaired my car.", "bien": "I had my car repaired.", "nota": "El objeto va entre have y el participio; si no, es un past perfect con otro significado."},
-  {"mal": "I got him fix the tap.", "bien": "I got him to fix the tap.", "nota": "Get + persona exige to + infinitivo."}
+  {
+   "mal": "I cut my hair at the hairdresser's yesterday.",
+   "bien": "I had my hair cut at the hairdresser's yesterday.",
+   "nota": "Si lo hace otra persona, se usa la estructura causativa."
+  },
+  {
+   "mal": "I had repaired my car.",
+   "bien": "I had my car repaired.",
+   "nota": "El objeto va entre have y el participio; si no, es un past perfect con otro significado."
+  },
+  {
+   "mal": "I got him fix the tap.",
+   "bien": "I got him to fix the tap.",
+   "nota": "Get + persona exige to + infinitivo."
+  }
  ],
  "ejercicios": [
-  {"id": "e01", "tipo": "hueco", "enunciado": "Completa con have/get + objeto + participio.", "frase": "My watch is broken. I must ___ (it / repair).", "respuestas": ["have it repaired", "get it repaired"], "explicacion": "Have/get + objeto + participio para encargar un servicio."},
-  {"id": "e02", "tipo": "hueco", "enunciado": "Completa con la forma causativa en pasado.", "frase": "We ___ (the kitchen / paint) last month. It looks great.", "respuestas": ["had the kitchen painted", "got the kitchen painted"], "explicacion": "Pasado simple de have/get + objeto + participio."},
-  {"id": "e03", "tipo": "hueco", "enunciado": "Completa con la forma causativa en present continuous.", "frase": "I can't drive you; I ___ (my car / service) this week.", "respuestas": ["am having my car serviced", "'m having my car serviced", "am getting my car serviced", "'m getting my car serviced"], "explicacion": "El verbo have/get va en el tiempo necesario; el resto no cambia."},
-  {"id": "e04", "tipo": "hueco", "enunciado": "Completa con la forma correcta del verbo.", "frase": "I finally got the landlord ___ (replace) the old windows.", "respuestas": ["to replace"], "explicacion": "Get + persona + to + infinitivo."},
-  {"id": "e05", "tipo": "eleccion", "enunciado": "Elige la opción correcta.", "frase": "The manager had his secretary ___ the documents.", "opciones": ["send", "to send", "sent", "sending"], "respuestas": ["send"], "explicacion": "Have + persona + infinitivo sin to."},
-  {"id": "e06", "tipo": "eleccion", "enunciado": "Elige la opción correcta.", "frase": "Tom ___ while he was travelling in Peru.", "opciones": ["had his camera stolen", "stole his camera", "had stolen his camera"], "respuestas": ["had his camera stolen"], "explicacion": "Have + objeto + participio también expresa algo negativo que le ocurre a alguien."},
-  {"id": "e07", "tipo": "eleccion", "enunciado": "Elige la opción correcta.", "frase": "How often do you ___?", "opciones": ["have your teeth checked", "have checked your teeth", "check your teeth by the dentist"], "respuestas": ["have your teeth checked"], "explicacion": "Orden: have + objeto + participio."},
-  {"id": "e08", "tipo": "corregir", "enunciado": "Corrige el error.", "frase": "I'm going to have cut my hair on Saturday.", "respuestas": ["I'm going to have my hair cut on Saturday.", "I am going to have my hair cut on Saturday."], "explicacion": "El objeto va antes del participio."},
-  {"id": "e09", "tipo": "corregir", "enunciado": "Corrige el error.", "frase": "She got her son tidy his room.", "respuestas": ["She got her son to tidy his room."], "explicacion": "Get + persona + to + infinitivo."},
-  {"id": "e10", "tipo": "corregir", "enunciado": "Corrige el error.", "frase": "We had the roof repair after the storm.", "respuestas": ["We had the roof repaired after the storm."], "explicacion": "Tras el objeto va el participio (repaired)."},
-  {"id": "e11", "tipo": "transformar", "enunciado": "Reescribe la frase con have + objeto + participio.", "frase": "A mechanic checked my brakes yesterday.", "respuestas": ["I had my brakes checked yesterday.", "I had my brakes checked by a mechanic yesterday.", "Yesterday I had my brakes checked.", "I had a mechanic check my brakes yesterday."], "explicacion": "Lo hizo otro por encargo: had + objeto + participio."},
-  {"id": "e12", "tipo": "transformar", "enunciado": "Reescribe la frase con have + objeto + participio.", "frase": "Someone broke into our flat last week. (our flat)", "respuestas": ["We had our flat broken into last week.", "Last week we had our flat broken into."], "explicacion": "Experiencia negativa: have + objeto + participio (con la preposición del phrasal verb)."},
-  {"id": "e13", "tipo": "transformar", "enunciado": "Haz la pregunta en pasado simple.", "frase": "You had the documents translated.", "respuestas": ["Did you have the documents translated?"], "explicacion": "Have causativo forma preguntas con do/did."},
-  {"id": "e14", "tipo": "ordenar", "enunciado": "Ordena las palabras.", "palabras": ["having", "we're", "a", "fitted", "kitchen", "new"], "respuestas": ["we're having a new kitchen fitted"], "explicacion": "Have (en continuo) + objeto + participio."},
-  {"id": "e15", "tipo": "ordenar", "enunciado": "Ordena las palabras.", "palabras": ["I'll", "my", "you", "assistant", "have", "call"], "respuestas": ["I'll have my assistant call you"], "explicacion": "Have + persona + infinitivo sin to."}
+  {
+   "id": "e01",
+   "tipo": "hueco",
+   "enunciado": "Completa con have/get + objeto + participio.",
+   "frase": "My watch is broken. I must ___ (it / repair).",
+   "respuestas": [
+    "have it repaired",
+    "get it repaired"
+   ],
+   "explicacion": "Se aplica la estructura principal de la tabla: have/get + objeto + participio para encargar un servicio. La pista es «My watch is broken» y «I must»: la persona no va a arreglarlo ella misma, sino que lo llevará a un relojero. Tras «must» va el infinitivo «have» (o «get»), luego el objeto «it» y el participio «repaired». Valen las dos formas porque la ficha presenta get como variante más informal.",
+   "explicacion_breve": "Have/get + objeto + participio para encargar un servicio.",
+   "traduccion": "Mi reloj está roto. Tengo que llevarlo a arreglar.",
+   "errores_previstos": [
+    {
+     "respuesta": "repair it",
+     "explicacion": "Diría que lo vas a arreglar tú mismo; para encargarlo hace falta have/get + objeto + participio."
+    },
+    {
+     "respuesta": "have repaired it",
+     "explicacion": "El orden es fijo: el objeto va antes del participio, «have it repaired». «Have repaired» sería un tiempo perfecto."
+    },
+    {
+     "respuesta": "have it repair",
+     "explicacion": "Tras el objeto va el participio «repaired», no el infinitivo."
+    }
+   ]
+  },
+  {
+   "id": "e02",
+   "tipo": "hueco",
+   "enunciado": "Completa con la forma causativa en pasado.",
+   "frase": "We ___ (the kitchen / paint) last month. It looks great.",
+   "respuestas": [
+    "had the kitchen painted",
+    "got the kitchen painted"
+   ],
+   "explicacion": "Se aplica la estructura have/get + objeto + participio, conjugando have en el tiempo necesario, como explica la ficha. La pista es «last month», que pide pasado simple: «had» (o «got»). Después va el objeto «the kitchen» y el participio «painted». En español se dice «pintamos la cocina» aunque la pintara un profesional; en inglés «we painted the kitchen» significaría que lo hicisteis vosotros.",
+   "explicacion_breve": "Pasado simple de have/get + objeto + participio.",
+   "traduccion": "El mes pasado nos pintaron la cocina. Ha quedado genial.",
+   "errores_previstos": [
+    {
+     "respuesta": "painted the kitchen",
+     "explicacion": "Diría que la pintasteis vosotros; para un encargo hace falta «had the kitchen painted»."
+    },
+    {
+     "respuesta": "had painted the kitchen",
+     "explicacion": "Es otro tiempo (pluscuamperfecto: «habíamos pintado»); en el causativo el objeto va entre had y el participio."
+    },
+    {
+     "respuesta": "had the kitchen paint",
+     "explicacion": "Detrás del objeto va el participio «painted», no el infinitivo."
+    }
+   ]
+  },
+  {
+   "id": "e03",
+   "tipo": "hueco",
+   "enunciado": "Completa con la forma causativa en present continuous.",
+   "frase": "I can't drive you; I ___ (my car / service) this week.",
+   "respuestas": [
+    "am having my car serviced",
+    "'m having my car serviced",
+    "am getting my car serviced",
+    "'m getting my car serviced"
+   ],
+   "explicacion": "Se aplica la regla de la ficha según la cual have se conjuga en todos los tiempos y el resto de la estructura no cambia. La pista es «this week» y el enunciado, que pide present continuous para un plan ya organizado: «am having» (o «'m having»), y también «am getting». Detrás van el objeto «my car» y el participio «serviced». «To service a car» es hacerle la revisión.",
+   "explicacion_breve": "El verbo have/get va en el tiempo necesario; el resto no cambia.",
+   "traduccion": "No puedo llevarte en coche: esta semana tengo el coche en el taller para la revisión.",
+   "errores_previstos": [
+    {
+     "respuesta": "am servicing my car",
+     "explicacion": "Diría que tú mismo haces la revisión; el encargo exige have/get + objeto + participio."
+    },
+    {
+     "respuesta": "am having serviced my car",
+     "explicacion": "El objeto «my car» va antes del participio: «am having my car serviced»."
+    },
+    {
+     "respuesta": "have my car serviced",
+     "explicacion": "El enunciado pide present continuous para un plan de esta semana: «am having»."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "to service a car",
+     "significado": "hacer la revisión a un coche"
+    }
+   ]
+  },
+  {
+   "id": "e04",
+   "tipo": "hueco",
+   "enunciado": "Completa con la forma correcta del verbo.",
+   "frase": "I finally got the landlord ___ (replace) the old windows.",
+   "respuestas": [
+    "to replace"
+   ],
+   "explicacion": "Se aplica la variante con persona de la tabla: get + persona + to + infinitivo, que significa convencer o conseguir que alguien haga algo. La pista es «got the landlord», con get y una persona como objeto, y «finally», que sugiere esfuerzo para convencerle. Con get la persona va seguida de «to»: «to replace». Con have, en cambio, iría sin to.",
+   "explicacion_breve": "Get + persona + to + infinitivo.",
+   "traduccion": "Por fin conseguí que el casero cambiara las ventanas viejas.",
+   "errores_previstos": [
+    {
+     "respuesta": "replace",
+     "explicacion": "Sin «to» solo se usa con have («have someone do»); con get hace falta «to replace»."
+    },
+    {
+     "respuesta": "replaced",
+     "explicacion": "El participio se usa cuando el objeto es una cosa; aquí el objeto es una persona que realiza la acción: «to replace»."
+    },
+    {
+     "respuesta": "replacing",
+     "explicacion": "«Get someone doing» significa poner a alguien a hacer algo de forma continuada; para conseguir que lo haga se usa «to replace»."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "landlord",
+     "significado": "casero, arrendador"
+    }
+   ]
+  },
+  {
+   "id": "e05",
+   "tipo": "eleccion",
+   "enunciado": "Elige la opción correcta.",
+   "frase": "The manager had his secretary ___ the documents.",
+   "opciones": [
+    "send",
+    "to send",
+    "sent",
+    "sending"
+   ],
+   "respuestas": [
+    "send"
+   ],
+   "explicacion": "Se aplica la variante de la tabla have + persona + infinitivo sin to, para encargar a alguien que haga algo. La pista es «had his secretary»: el verbo es have y el objeto es una persona que realiza la acción. Por eso detrás va la forma base, «send», sin to. La lista de la ficha lo resume: have someone DO, get someone TO do.",
+   "explicacion_breve": "Have + persona + infinitivo sin to.",
+   "traduccion": "El director hizo que su secretaria enviara los documentos.",
+   "por_opcion": {
+    "send": "Correcta: have + persona + infinitivo sin to.",
+    "to send": "Incorrecta: «to» es propio de get («got his secretary to send»), no de have.",
+    "sent": "Incorrecta: el participio va cuando el objeto es una cosa («had the documents sent»); aquí el objeto es la secretaria, que hace la acción.",
+    "sending": "Incorrecta: «have someone sending» no es la estructura del encargo; se usa la forma base."
+   }
+  },
+  {
+   "id": "e06",
+   "tipo": "eleccion",
+   "enunciado": "Elige la opción correcta.",
+   "frase": "Tom ___ while he was travelling in Peru.",
+   "opciones": [
+    "had his camera stolen",
+    "stole his camera",
+    "had stolen his camera"
+   ],
+   "respuestas": [
+    "had his camera stolen"
+   ],
+   "explicacion": "Se aplica el segundo uso de la ficha: have + objeto + participio para contar algo negativo que le ocurre a alguien, sin que él lo haya encargado. La pista es «stolen» y el contexto de un viaje: Tom fue víctima de un robo. Por eso «had his camera stolen». El español usa «le robaron la cámara», con un sujeto impersonal; el inglés pone a la víctima como sujeto.",
+   "explicacion_breve": "Have + objeto + participio también expresa algo negativo que le ocurre a alguien.",
+   "traduccion": "A Tom le robaron la cámara mientras viajaba por Perú.",
+   "por_opcion": {
+    "had his camera stolen": "Correcta: have + objeto + participio para una experiencia negativa.",
+    "stole his camera": "Incorrecta: significaría que Tom robó su propia cámara.",
+    "had stolen his camera": "Incorrecta: es el pluscuamperfecto (había robado su cámara); de nuevo Tom sería el ladrón."
+   }
+  },
+  {
+   "id": "e07",
+   "tipo": "eleccion",
+   "enunciado": "Elige la opción correcta.",
+   "frase": "How often do you ___?",
+   "opciones": [
+    "have your teeth checked",
+    "have checked your teeth",
+    "check your teeth by the dentist"
+   ],
+   "respuestas": [
+    "have your teeth checked"
+   ],
+   "explicacion": "Se aplica la regla de orden fijo de la ficha: have + objeto + participio, nunca have + participio + objeto. La pista es que el dentista es quien revisa los dientes, así que hace falta el causativo, y como la pregunta lleva «do you», have va en forma base. Por eso «have your teeth checked». Es el mismo caso que ir a la peluquería: «have your hair cut».",
+   "explicacion_breve": "Orden: have + objeto + participio.",
+   "traduccion": "¿Cada cuánto te haces una revisión de los dientes?",
+   "por_opcion": {
+    "have your teeth checked": "Correcta: have + objeto + participio, en el orden fijo.",
+    "have checked your teeth": "Incorrecta: el objeto debe ir antes del participio; además «have checked» se confunde con un tiempo perfecto.",
+    "check your teeth by the dentist": "Incorrecta: «check your teeth» dice que te los revisas tú; «by the dentist» solo puede añadirse a una estructura causativa o pasiva."
+   }
+  },
+  {
+   "id": "e08",
+   "tipo": "corregir",
+   "enunciado": "Corrige el error.",
+   "frase": "I'm going to have cut my hair on Saturday.",
+   "respuestas": [
+    "I'm going to have my hair cut on Saturday.",
+    "I am going to have my hair cut on Saturday."
+   ],
+   "explicacion": "Se aplica la regla de orden fijo de la ficha: have + OBJETO + participio. La pista es «have cut my hair», donde el participio va antes del objeto, lo que convierte la estructura en algo distinto. La frase correcta es «I'm going to have my hair cut on Saturday», con «my hair» entre «have» y «cut». También vale la forma sin contraer «I am going to».",
+   "explicacion_breve": "El objeto va antes del participio.",
+   "traduccion": "El sábado voy a cortarme el pelo (en la peluquería).",
+   "errores_previstos": [
+    {
+     "respuesta": "I'm going to have cut my hair on Saturday.",
+     "explicacion": "Es la frase sin corregir: el objeto «my hair» tiene que ir antes del participio."
+    },
+    {
+     "respuesta": "I'm going to cut my hair on Saturday.",
+     "explicacion": "Diría que te lo vas a cortar tú mismo; el encargo exige «have my hair cut»."
+    },
+    {
+     "respuesta": "I'm going to have my hair cutted on Saturday.",
+     "explicacion": "El participio de «cut» es irregular e igual al infinitivo: «cut»."
+    }
+   ]
+  },
+  {
+   "id": "e09",
+   "tipo": "corregir",
+   "enunciado": "Corrige el error.",
+   "frase": "She got her son tidy his room.",
+   "respuestas": [
+    "She got her son to tidy his room."
+   ],
+   "explicacion": "Se aplica la variante con persona: get + persona + to + infinitivo. La pista es «got her son», con get y una persona como objeto. Con get hace falta «to» delante del verbo: «She got her son to tidy his room». Sin «to» sería la estructura de have, no la de get.",
+   "explicacion_breve": "Get + persona + to + infinitivo.",
+   "traduccion": "Consiguió que su hijo ordenara su habitación.",
+   "errores_previstos": [
+    {
+     "respuesta": "She got her son tidy his room.",
+     "explicacion": "Es la frase sin corregir: con get la persona va seguida de «to» + infinitivo."
+    },
+    {
+     "respuesta": "She got her son tidied his room.",
+     "explicacion": "El participio solo se usa cuando el objeto es una cosa; aquí el hijo realiza la acción: «to tidy»."
+    },
+    {
+     "respuesta": "She got to her son tidy his room.",
+     "explicacion": "«To» va delante del verbo, no delante de la persona."
+    }
+   ]
+  },
+  {
+   "id": "e10",
+   "tipo": "corregir",
+   "enunciado": "Corrige el error.",
+   "frase": "We had the roof repair after the storm.",
+   "respuestas": [
+    "We had the roof repaired after the storm."
+   ],
+   "explicacion": "Se aplica la estructura have + objeto + participio. La pista es «had the roof», que ya tiene have en pasado y el objeto en su sitio; lo que falla es el verbo final, que va en infinitivo. Detrás del objeto debe ir el participio: «repaired». La frase correcta es «We had the roof repaired after the storm».",
+   "explicacion_breve": "Tras el objeto va el participio (repaired).",
+   "traduccion": "Después de la tormenta nos arreglaron el tejado.",
+   "errores_previstos": [
+    {
+     "respuesta": "We had the roof repair after the storm.",
+     "explicacion": "Es la frase sin corregir: tras el objeto va el participio «repaired»."
+    },
+    {
+     "respuesta": "We had repaired the roof after the storm.",
+     "explicacion": "Es el pluscuamperfecto (habíamos arreglado): diría que lo arreglasteis vosotros."
+    },
+    {
+     "respuesta": "We had the roof repairing after the storm.",
+     "explicacion": "La forma en -ing no forma el causativo; hace falta el participio."
+    }
+   ]
+  },
+  {
+   "id": "e11",
+   "tipo": "transformar",
+   "enunciado": "Reescribe la frase con have + objeto + participio.",
+   "frase": "A mechanic checked my brakes yesterday.",
+   "respuestas": [
+    "I had my brakes checked yesterday.",
+    "I had my brakes checked by a mechanic yesterday.",
+    "Yesterday I had my brakes checked."
+   ],
+   "explicacion": "Se aplica la estructura have + objeto + participio, que la ficha permite completar con by + persona. La pista es «A mechanic checked my brakes»: lo hizo otra persona por encargo. Pasa a ser «I had my brakes checked yesterday», con el pasado «had» porque el original está en pasado. Se aceptan las variantes con «by a mechanic» y con «Yesterday» al principio.",
+   "explicacion_breve": "Lo hizo otro por encargo: had + objeto + participio.",
+   "traduccion": "Ayer me revisaron los frenos (un mecánico).",
+   "errores_previstos": [
+    {
+     "respuesta": "I had checked my brakes yesterday.",
+     "explicacion": "El objeto va antes del participio; «had checked» es pluscuamperfecto y diría que los revisaste tú."
+    },
+    {
+     "respuesta": "I checked my brakes yesterday.",
+     "explicacion": "Diría que tú mismo revisaste los frenos; falta la estructura causativa."
+    },
+    {
+     "respuesta": "I have my brakes checked yesterday.",
+     "explicacion": "Con «yesterday» have debe ir en pasado: «had»."
+    },
+    {
+     "respuesta": "I had a mechanic check my brakes yesterday.",
+     "explicacion": "Es correcta en inglés (have + persona + infinitivo sin to), pero el enunciado pide have + objeto + participio: I had my brakes checked yesterday."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "brakes",
+     "significado": "frenos"
+    }
+   ]
+  },
+  {
+   "id": "e12",
+   "tipo": "transformar",
+   "enunciado": "Reescribe la frase con have + objeto + participio.",
+   "frase": "Someone broke into our flat last week. (our flat)",
+   "respuestas": [
+    "We had our flat broken into last week.",
+    "Last week we had our flat broken into."
+   ],
+   "explicacion": "Se aplica el uso de la ficha para experiencias negativas: have + objeto + participio. La pista es «Someone broke into our flat», un percance sufrido, y la palabra entre paréntesis, «our flat», que debe ser el objeto. El verbo es el phrasal verb «break into» (entrar a robar), así que el participio conserva su preposición: «broken into». El resultado es «We had our flat broken into last week».",
+   "explicacion_breve": "Experiencia negativa: have + objeto + participio (con la preposición del phrasal verb).",
+   "traduccion": "La semana pasada nos entraron a robar en el piso.",
+   "errores_previstos": [
+    {
+     "respuesta": "We had our flat broken last week.",
+     "explicacion": "Falta la preposición del phrasal verb: «broken into». «Broken» solo significaría que el piso se rompió."
+    },
+    {
+     "respuesta": "We had broken into our flat last week.",
+     "explicacion": "Diría que vosotros entrasteis a robar en vuestro propio piso; el objeto va antes del participio."
+    },
+    {
+     "respuesta": "We had our flat broke into last week.",
+     "explicacion": "El participio de «break» es «broken», no «broke» (que es el pasado simple)."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "to break into",
+     "significado": "entrar a robar, allanar"
+    }
+   ]
+  },
+  {
+   "id": "e13",
+   "tipo": "transformar",
+   "enunciado": "Haz la pregunta en pasado simple.",
+   "frase": "You had the documents translated.",
+   "respuestas": [
+    "Did you have the documents translated?"
+   ],
+   "explicacion": "Se aplica la regla de la ficha: el have causativo se comporta como un verbo normal y forma preguntas y negativas con do. La pista es «You had…», en pasado simple, así que la pregunta lleva «Did» y have vuelve a la forma base. El resto no cambia: «Did you have the documents translated?». No se invierte «had» con el sujeto, porque aquí have no es auxiliar.",
+   "explicacion_breve": "Have causativo forma preguntas con do/did.",
+   "traduccion": "¿Te tradujeron los documentos? (¿Mandaste traducir los documentos?)",
+   "errores_previstos": [
+    {
+     "respuesta": "Had you the documents translated?",
+     "explicacion": "El have causativo no se invierte con el sujeto: forma la pregunta con «did»."
+    },
+    {
+     "respuesta": "Did you had the documents translated?",
+     "explicacion": "Tras «did» el verbo vuelve a la forma base: «have»."
+    },
+    {
+     "respuesta": "Did you have translated the documents?",
+     "explicacion": "El objeto «the documents» va antes del participio."
+    }
+   ]
+  },
+  {
+   "id": "e14",
+   "tipo": "ordenar",
+   "enunciado": "Ordena las palabras.",
+   "palabras": [
+    "having",
+    "we're",
+    "a",
+    "fitted",
+    "kitchen",
+    "new"
+   ],
+   "respuestas": [
+    "we're having a new kitchen fitted"
+   ],
+   "explicacion": "Se aplica la estructura have + objeto + participio con have en continuo, como recoge la ficha («I'm having…»). La pista es «we're having», que abre la frase, y el participio «fitted» (instalado), que va al final. En medio va el objeto con sus adjetivos: «a new kitchen». «To fit a kitchen» es montar o instalar una cocina.",
+   "explicacion_breve": "Have (en continuo) + objeto + participio.",
+   "traduccion": "Nos están poniendo una cocina nueva.",
+   "errores_previstos": [
+    {
+     "respuesta": "we're having fitted a new kitchen",
+     "explicacion": "El objeto «a new kitchen» va antes del participio «fitted»."
+    },
+    {
+     "respuesta": "we're having a kitchen new fitted",
+     "explicacion": "En inglés el adjetivo va delante del sustantivo: «a new kitchen»."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "to fit",
+     "significado": "montar, instalar (muebles, cocinas)"
+    }
+   ]
+  },
+  {
+   "id": "e15",
+   "tipo": "ordenar",
+   "enunciado": "Ordena las palabras.",
+   "palabras": [
+    "I'll",
+    "my",
+    "you",
+    "assistant",
+    "have",
+    "call"
+   ],
+   "respuestas": [
+    "I'll have my assistant call you"
+   ],
+   "explicacion": "Se aplica la variante de la tabla have + persona + infinitivo sin to, para encargar a alguien que haga algo. La pista es «I'll have»: el verbo es have y la persona, «my assistant», será quien realice la acción. Detrás va «call» sin to y el objeto «you». Es una fórmula muy frecuente en el lenguaje profesional.",
+   "explicacion_breve": "Have + persona + infinitivo sin to.",
+   "traduccion": "Le diré a mi ayudante que te llame.",
+   "errores_previstos": [
+    {
+     "respuesta": "I'll have you call my assistant",
+     "explicacion": "Invierte quién hace qué: diría que tú llamarás a mi ayudante."
+    },
+    {
+     "respuesta": "I'll have call my assistant you",
+     "explicacion": "La persona que realiza la acción va justo después de have: «have my assistant call you»."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "assistant",
+     "significado": "ayudante, asistente"
+    }
+   ]
+  }
  ],
- "fuente": {"nombre": "propia"}
+ "fuente": {
+  "nombre": "propia"
+ },
+ "descripcion_larga_es": "El causativo con have o get (have + objeto + participio) indica que otra persona hace algo por nosotros, normalmente porque lo encargamos o pagamos: I had my hair cut. También sirve para contar algo malo que nos ocurrió (I had my phone stolen). Cuesta porque el español dice «me corté el pelo» aunque lo hiciera el peluquero, y porque el orden es fijo y poco intuitivo.",
+ "contexto": {
+  "que_es": "Es una construcción en la que el sujeto no realiza la acción sino que hace que otro la realice: have/get + objeto + participio (I had the car serviced). Tiene variantes con persona: have + persona + infinitivo sin to (I'll have my assistant call you) y get + persona + to + infinitivo (I got him to help me). Have se conjuga en cualquier tiempo.",
+  "por_que_importa": "Es la forma natural de hablar de servicios cotidianos: peluquería, reparaciones, revisiones, traducciones. Sin ella, el inglés entiende que lo hiciste tú: «I cut my hair» significa que te cortaste el pelo tú mismo. En exámenes de nivel B2 y superior es una estructura clásica de transformación de frases.",
+  "cuando_se_usa": "Cuando hablas de encargos (cortarse el pelo, arreglar el coche, pintar la casa), de lo que consigues que otros hagan y de percances (robos, daños). La señal suele ser un profesional o servicio en el contexto (hairdresser's, mechanic) o un daño sufrido. El hispanohablante tiende a usar el verbo directo («I repaired my car») o a desordenar la estructura («I had repaired my car», que es otro tiempo verbal)."
+ }
 }

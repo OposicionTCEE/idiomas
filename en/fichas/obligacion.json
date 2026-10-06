@@ -6,51 +6,519 @@
  "nivel": "A2",
  "resumen": "Must y have to expresan obligación («tener que»); should da consejos («debería»). En negativa cambian mucho de sentido: mustn't prohíbe, don't have to indica que no es necesario.",
  "explicacion": [
-  {"tipo": "tabla", "cabecera": ["Forma", "Significado", "Ejemplo"], "filas": [
-   ["must + infinitivo", "obligación que siente quien habla, normas escritas", "I must call my mother."],
-   ["have to / has to + infinitivo", "obligación externa (normas, horarios)", "She has to wear a uniform."],
-   ["mustn't + infinitivo", "prohibición: no se puede", "You mustn't smoke here."],
-   ["don't / doesn't have to + infinitivo", "no es necesario", "You don't have to come."],
-   ["should / shouldn't + infinitivo", "consejo u opinión", "You should rest."]
-  ]},
-  {"tipo": "texto", "texto": "Must y should son modales: no llevan -s en tercera persona, van seguidos de infinitivo sin to y no usan do en preguntas (Must I...? Should we...?). Have to es un verbo normal: has to, do you have to?, didn't have to."},
-  {"tipo": "texto", "texto": "Must no tiene pasado ni futuro: para el pasado se usa had to (I had to work yesterday) y para el futuro will have to (You'll have to wait)."},
-  {"tipo": "lista", "items": [
-   "Mustn't ≠ don't have to: You mustn't tell him (está prohibido) frente a You don't have to tell him (no hace falta, tú decides).",
-   "Should suele suavizarse con I think: I think you should see a doctor.",
-   "Para pedir consejo: What should I do?"
-  ]}
+  {
+   "tipo": "tabla",
+   "cabecera": [
+    "Forma",
+    "Significado",
+    "Ejemplo"
+   ],
+   "filas": [
+    [
+     "must + infinitivo",
+     "obligación que siente quien habla, normas escritas",
+     "I must call my mother."
+    ],
+    [
+     "have to / has to + infinitivo",
+     "obligación externa (normas, horarios)",
+     "She has to wear a uniform."
+    ],
+    [
+     "mustn't + infinitivo",
+     "prohibición: no se puede",
+     "You mustn't smoke here."
+    ],
+    [
+     "don't / doesn't have to + infinitivo",
+     "no es necesario",
+     "You don't have to come."
+    ],
+    [
+     "should / shouldn't + infinitivo",
+     "consejo u opinión",
+     "You should rest."
+    ]
+   ]
+  },
+  {
+   "tipo": "texto",
+   "texto": "Must y should son modales: no llevan -s en tercera persona, van seguidos de infinitivo sin to y no usan do en preguntas (Must I...? Should we...?). Have to es un verbo normal: has to, do you have to?, didn't have to."
+  },
+  {
+   "tipo": "texto",
+   "texto": "Must no tiene pasado ni futuro: para el pasado se usa had to (I had to work yesterday) y para el futuro will have to (You'll have to wait)."
+  },
+  {
+   "tipo": "lista",
+   "items": [
+    "Mustn't ≠ don't have to: You mustn't tell him (está prohibido) frente a You don't have to tell him (no hace falta, tú decides).",
+    "Should suele suavizarse con I think: I think you should see a doctor.",
+    "Para pedir consejo: What should I do?"
+   ]
+  }
  ],
  "ejemplos": [
-  {"frase": "Passengers must show their tickets.", "traduccion": "Los pasajeros deben mostrar su billete."},
-  {"frase": "I have to get up at six every day.", "traduccion": "Tengo que levantarme a las seis todos los días."},
-  {"frase": "You mustn't touch that cable.", "traduccion": "No debes tocar ese cable."},
-  {"frase": "We don't have to pay; it's free.", "traduccion": "No tenemos que pagar; es gratis."},
-  {"frase": "You should drink more water.", "traduccion": "Deberías beber más agua."},
-  {"frase": "Did you have to wait long?", "traduccion": "¿Tuviste que esperar mucho?"}
+  {
+   "frase": "Passengers must show their tickets.",
+   "traduccion": "Los pasajeros deben mostrar su billete."
+  },
+  {
+   "frase": "I have to get up at six every day.",
+   "traduccion": "Tengo que levantarme a las seis todos los días."
+  },
+  {
+   "frase": "You mustn't touch that cable.",
+   "traduccion": "No debes tocar ese cable."
+  },
+  {
+   "frase": "We don't have to pay; it's free.",
+   "traduccion": "No tenemos que pagar; es gratis."
+  },
+  {
+   "frase": "You should drink more water.",
+   "traduccion": "Deberías beber más agua."
+  },
+  {
+   "frase": "Did you have to wait long?",
+   "traduccion": "¿Tuviste que esperar mucho?"
+  }
  ],
  "errores_hispanohablantes": [
-  {"mal": "You mustn't come if you are busy.", "bien": "You don't have to come if you are busy.", "nota": "Si no es necesario, se usa don't have to; mustn't es prohibición."},
-  {"mal": "She musts study tonight.", "bien": "She must study tonight.", "nota": "Los modales no llevan -s."},
-  {"mal": "You should to see a dentist.", "bien": "You should see a dentist.", "nota": "Should va seguido de infinitivo sin to."},
-  {"mal": "I must work last weekend.", "bien": "I had to work last weekend.", "nota": "En pasado se usa had to."}
+  {
+   "mal": "You mustn't come if you are busy.",
+   "bien": "You don't have to come if you are busy.",
+   "nota": "Si no es necesario, se usa don't have to; mustn't es prohibición."
+  },
+  {
+   "mal": "She musts study tonight.",
+   "bien": "She must study tonight.",
+   "nota": "Los modales no llevan -s."
+  },
+  {
+   "mal": "You should to see a dentist.",
+   "bien": "You should see a dentist.",
+   "nota": "Should va seguido de infinitivo sin to."
+  },
+  {
+   "mal": "I must work last weekend.",
+   "bien": "I had to work last weekend.",
+   "nota": "En pasado se usa had to."
+  }
  ],
  "ejercicios": [
-  {"id": "e01", "tipo": "hueco", "enunciado": "Completa con la forma correcta de have to.", "frase": "My sister ___ (have to) work on Saturdays.", "respuestas": ["has to"], "explicacion": "Tercera persona singular: has to."},
-  {"id": "e02", "tipo": "hueco", "enunciado": "Completa con mustn't o don't have to.", "frase": "You ___ park here. It's for ambulances only.", "respuestas": ["mustn't", "must not"], "explicacion": "Está prohibido: mustn't."},
-  {"id": "e03", "tipo": "hueco", "enunciado": "Completa con mustn't o don't have to.", "frase": "Tomorrow is a holiday, so we ___ go to school.", "respuestas": ["don't have to", "do not have to"], "explicacion": "No es necesario: don't have to."},
-  {"id": "e04", "tipo": "hueco", "enunciado": "Completa con la forma de have to en pasado.", "frase": "The flight was cancelled, so we ___ (have to) stay at a hotel.", "respuestas": ["had to"], "explicacion": "Obligación en pasado: had to."},
-  {"id": "e05", "tipo": "hueco", "enunciado": "Completa con should o shouldn't.", "frase": "You look tired. You ___ go to bed so late.", "respuestas": ["shouldn't", "should not"], "explicacion": "Consejo negativo: shouldn't."},
-  {"id": "e06", "tipo": "eleccion", "enunciado": "Elige la opción correcta.", "frase": "It's a great film. You ___ see it.", "opciones": ["should", "mustn't", "don't have to"], "respuestas": ["should"], "explicacion": "Recomendación: should."},
-  {"id": "e07", "tipo": "eleccion", "enunciado": "Elige la opción correcta.", "frase": "___ wear a tie at your new job?", "opciones": ["Must you to", "Do you have to", "Have you to"], "respuestas": ["Do you have to"], "explicacion": "Have to forma preguntas con do."},
-  {"id": "e08", "tipo": "eleccion", "enunciado": "Elige la opción correcta.", "frase": "Next year he ___ pay more taxes.", "opciones": ["will must", "will have to", "musts"], "respuestas": ["will have to"], "explicacion": "Must no tiene futuro: will have to."},
-  {"id": "e09", "tipo": "eleccion", "enunciado": "Elige la opción correcta.", "frase": "Visitors ___ feed the animals. It's dangerous.", "opciones": ["mustn't", "don't have to", "should"], "respuestas": ["mustn't"], "explicacion": "Prohibición: mustn't."},
-  {"id": "e10", "tipo": "transformar", "enunciado": "Pasa la frase a pasado.", "frase": "I have to finish the report.", "respuestas": ["I had to finish the report."], "explicacion": "El pasado de have to es had to."},
-  {"id": "e11", "tipo": "corregir", "enunciado": "Corrige el error.", "frase": "He shoulds stop smoking.", "respuestas": ["He should stop smoking."], "explicacion": "Should es modal: sin -s."},
-  {"id": "e12", "tipo": "corregir", "enunciado": "Corrige el error.", "frase": "We must to leave now.", "respuestas": ["We must leave now."], "explicacion": "Must va seguido de infinitivo sin to."},
-  {"id": "e13", "tipo": "corregir", "enunciado": "Corrige el error.", "frase": "Does she has to work tomorrow?", "respuestas": ["Does she have to work tomorrow?"], "explicacion": "Tras does, have en infinitivo."},
-  {"id": "e14", "tipo": "ordenar", "enunciado": "Ordena las palabras para formar una pregunta.", "palabras": ["I", "what", "do", "should"], "respuestas": ["What should I do"], "explicacion": "Partícula interrogativa + should + sujeto + infinitivo."},
-  {"id": "e15", "tipo": "ordenar", "enunciado": "Ordena las palabras.", "palabras": ["have", "you", "don't", "shoes", "your", "off", "to", "take"], "respuestas": ["You don't have to take your shoes off", "You don't have to take off your shoes"], "explicacion": "Sujeto + don't have to + infinitivo; take off puede ir separado."}
+  {
+   "id": "e01",
+   "tipo": "hueco",
+   "enunciado": "Completa con la forma correcta de have to.",
+   "frase": "My sister ___ (have to) work on Saturdays.",
+   "respuestas": [
+    "has to"
+   ],
+   "explicacion": "La ficha explica que have to es un verbo normal y se conjuga: en tercera persona del singular es has to. La pista es el sujeto My sister, que equivale a she. Por eso la forma es «has to work». Se trata de una obligación externa, impuesta por el horario de trabajo, que es justo el valor que la tabla da a have to.",
+   "explicacion_breve": "Tercera persona singular: has to.",
+   "traduccion": "Mi hermana tiene que trabajar los sábados.",
+   "errores_previstos": [
+    {
+     "respuesta": "have to",
+     "explicacion": "Con un sujeto en tercera persona del singular (my sister) hace falta has to."
+    },
+    {
+     "respuesta": "haves to",
+     "explicacion": "La tercera persona de have es irregular: has, no haves."
+    },
+    {
+     "respuesta": "has",
+     "explicacion": "Falta to: la estructura es has to + infinitivo."
+    }
+   ]
+  },
+  {
+   "id": "e02",
+   "tipo": "hueco",
+   "enunciado": "Completa con mustn't o don't have to.",
+   "frase": "You ___ park here. It's for ambulances only.",
+   "respuestas": [
+    "mustn't",
+    "must not"
+   ],
+   "explicacion": "Se aplica el contraste de la ficha «Mustn't ≠ don't have to»: mustn't expresa prohibición. La pista es la segunda frase, «It's for ambulances only», que indica que aparcar allí no está permitido. Por eso la respuesta es mustn't (o must not). Don't have to diría que no es necesario aparcar, lo que no tiene sentido aquí.",
+   "explicacion_breve": "Está prohibido: mustn't.",
+   "traduccion": "No puedes aparcar aquí. Es solo para ambulancias.",
+   "errores_previstos": [
+    {
+     "respuesta": "don't have to",
+     "explicacion": "Don't have to significa «no es necesario»; aquí aparcar está prohibido, así que hace falta mustn't."
+    },
+    {
+     "respuesta": "haven't to",
+     "explicacion": "Have to forma la negativa con don't, no con haven't; y además aquí se pide prohibición."
+    }
+   ]
+  },
+  {
+   "id": "e03",
+   "tipo": "hueco",
+   "enunciado": "Completa con mustn't o don't have to.",
+   "frase": "Tomorrow is a holiday, so we ___ go to school.",
+   "respuestas": [
+    "don't have to",
+    "do not have to"
+   ],
+   "explicacion": "Se aplica el mismo contraste: don't have to indica que algo no es necesario. La pista es «Tomorrow is a holiday»: no está prohibido ir al colegio, simplemente no hace falta. Por eso la respuesta es don't have to (o do not have to). Mustn't significaría que ir al colegio está prohibido.",
+   "explicacion_breve": "No es necesario: don't have to.",
+   "traduccion": "Mañana es fiesta, así que no tenemos que ir al colegio.",
+   "errores_previstos": [
+    {
+     "respuesta": "mustn't",
+     "explicacion": "Mustn't expresa prohibición; que sea fiesta no prohíbe ir, solo hace que no sea necesario: don't have to."
+    },
+    {
+     "respuesta": "doesn't have to",
+     "explicacion": "El sujeto es we, así que la forma es don't, no doesn't."
+    },
+    {
+     "respuesta": "haven't to",
+     "explicacion": "Have to no forma la negativa con haven't; se dice don't have to."
+    }
+   ]
+  },
+  {
+   "id": "e04",
+   "tipo": "hueco",
+   "enunciado": "Completa con la forma de have to en pasado.",
+   "frase": "The flight was cancelled, so we ___ (have to) stay at a hotel.",
+   "respuestas": [
+    "had to"
+   ],
+   "explicacion": "La ficha explica que must no tiene pasado y que para el pasado se usa had to. La pista es «The flight was cancelled», en pasado, que obliga a hablar de una obligación pasada. La forma es had to, igual para todas las personas. Queda «we had to stay at a hotel».",
+   "explicacion_breve": "Obligación en pasado: had to.",
+   "traduccion": "Cancelaron el vuelo, así que tuvimos que alojarnos en un hotel.",
+   "errores_previstos": [
+    {
+     "respuesta": "must",
+     "explicacion": "Must no tiene pasado; la obligación pasada es had to."
+    },
+    {
+     "respuesta": "have to",
+     "explicacion": "Está en presente; la frase habla del pasado, así que es had to."
+    },
+    {
+     "respuesta": "haved to",
+     "explicacion": "Have es irregular: su pasado es had, no haved."
+    }
+   ]
+  },
+  {
+   "id": "e05",
+   "tipo": "hueco",
+   "enunciado": "Completa con should o shouldn't.",
+   "frase": "You look tired. You ___ go to bed so late.",
+   "respuestas": [
+    "shouldn't",
+    "should not"
+   ],
+   "explicacion": "La tabla define should / shouldn't como consejo u opinión. La pista es «You look tired» y «so late»: acostarse tan tarde es lo que causa el cansancio, así que el consejo es negativo. Por eso la forma es shouldn't (o should not), seguida del infinitivo sin to.",
+   "explicacion_breve": "Consejo negativo: shouldn't.",
+   "traduccion": "Pareces cansado. No deberías acostarte tan tarde.",
+   "errores_previstos": [
+    {
+     "respuesta": "should",
+     "explicacion": "Should aconsejaría acostarse tarde, lo contrario de lo que pide el contexto."
+    },
+    {
+     "respuesta": "mustn't",
+     "explicacion": "Mustn't expresa prohibición; aquí se trata de un consejo amable, que se da con shouldn't."
+    },
+    {
+     "respuesta": "shouldn't to",
+     "explicacion": "Should es modal y va seguido de infinitivo sin to."
+    }
+   ]
+  },
+  {
+   "id": "e06",
+   "tipo": "eleccion",
+   "enunciado": "Elige la opción correcta.",
+   "frase": "It's a great film. You ___ see it.",
+   "opciones": [
+    "should",
+    "mustn't",
+    "don't have to"
+   ],
+   "respuestas": [
+    "should"
+   ],
+   "explicacion": "La tabla define should como consejo u opinión. La pista es «It's a great film»: el hablante recomienda verla. Should es la opción adecuada para una recomendación, seguida de infinitivo sin to. Mustn't la prohibiría y don't have to diría que no es necesario.",
+   "explicacion_breve": "Recomendación: should.",
+   "traduccion": "Es una película estupenda. Deberías verla.",
+   "por_opcion": {
+    "should": "Correcta. Should expresa recomendación: «deberías verla».",
+    "mustn't": "Incorrecta. Mustn't prohíbe verla, lo que contradice que sea una película estupenda.",
+    "don't have to": "Incorrecta. Don't have to significa «no hace falta que la veas», justo lo contrario de una recomendación."
+   }
+  },
+  {
+   "id": "e07",
+   "tipo": "eleccion",
+   "enunciado": "Elige la opción correcta.",
+   "frase": "___ wear a tie at your new job?",
+   "opciones": [
+    "Must you to",
+    "Do you have to",
+    "Have you to"
+   ],
+   "respuestas": [
+    "Do you have to"
+   ],
+   "explicacion": "La ficha explica que have to es un verbo normal y forma preguntas con do: do you have to? La pista es que se pregunta por una norma externa del trabajo. Por eso la forma es «Do you have to wear a tie?». Must no lleva to y have to no se invierte como un auxiliar.",
+   "explicacion_breve": "Have to forma preguntas con do.",
+   "traduccion": "¿Tienes que llevar corbata en tu nuevo trabajo?",
+   "por_opcion": {
+    "Must you to": "Incorrecta. Must es modal y va seguido de infinitivo sin to; «Must you wear…?» sería posible pero suena formal y aquí lleva to.",
+    "Do you have to": "Correcta. Have to forma preguntas con do: Do you have to + infinitivo.",
+    "Have you to": "Incorrecta. Have to no se invierte como un auxiliar; esa forma es anticuada y no se usa en inglés actual."
+   },
+   "glosario": [
+    {
+     "palabra": "tie",
+     "significado": "corbata"
+    }
+   ]
+  },
+  {
+   "id": "e08",
+   "tipo": "eleccion",
+   "enunciado": "Elige la opción correcta.",
+   "frase": "Next year he ___ pay more taxes.",
+   "opciones": [
+    "will must",
+    "will have to",
+    "musts"
+   ],
+   "respuestas": [
+    "will have to"
+   ],
+   "explicacion": "La ficha explica que must no tiene futuro y que para el futuro se usa will have to. La pista es «Next year», que sitúa la obligación en el futuro. Como will ya es un modal, no puede ir seguido de otro modal como must; por eso se usa have to: «he will have to pay».",
+   "explicacion_breve": "Must no tiene futuro: will have to.",
+   "traduccion": "El año que viene tendrá que pagar más impuestos.",
+   "por_opcion": {
+    "will must": "Incorrecta. No se pueden juntar dos modales; must no tiene forma de futuro.",
+    "will have to": "Correcta. Will have to es el futuro de la obligación.",
+    "musts": "Incorrecta. Must es modal y nunca lleva -s; además no expresa futuro."
+   },
+   "glosario": [
+    {
+     "palabra": "taxes",
+     "significado": "impuestos"
+    }
+   ]
+  },
+  {
+   "id": "e09",
+   "tipo": "eleccion",
+   "enunciado": "Elige la opción correcta.",
+   "frase": "Visitors ___ feed the animals. It's dangerous.",
+   "opciones": [
+    "mustn't",
+    "don't have to",
+    "should"
+   ],
+   "respuestas": [
+    "mustn't"
+   ],
+   "explicacion": "La tabla define mustn't como prohibición. La pista es «It's dangerous»: se trata de una norma que prohíbe una conducta, como en un cartel del zoo. Mustn't es la opción adecuada. Don't have to diría que no es necesario y should animaría a hacerlo.",
+   "explicacion_breve": "Prohibición: mustn't.",
+   "traduccion": "Los visitantes no deben dar de comer a los animales. Es peligroso.",
+   "por_opcion": {
+    "mustn't": "Correcta. Mustn't expresa prohibición, coherente con que sea peligroso.",
+    "don't have to": "Incorrecta. Don't have to significa «no es necesario»; no prohíbe nada.",
+    "should": "Incorrecta. Should aconsejaría dar de comer a los animales, lo contrario de lo que indica «It's dangerous»."
+   },
+   "glosario": [
+    {
+     "palabra": "feed",
+     "significado": "dar de comer"
+    }
+   ]
+  },
+  {
+   "id": "e10",
+   "tipo": "transformar",
+   "enunciado": "Pasa la frase a pasado.",
+   "frase": "I have to finish the report.",
+   "respuestas": [
+    "I had to finish the report."
+   ],
+   "explicacion": "La ficha indica que el pasado de have to es had to, igual para todas las personas. La transformación consiste solo en cambiar have por had; el infinitivo finish no cambia. Queda «I had to finish the report».",
+   "explicacion_breve": "El pasado de have to es had to.",
+   "traduccion": "Tuve que terminar el informe.",
+   "errores_previstos": [
+    {
+     "respuesta": "I must finish the report.",
+     "explicacion": "Must no tiene pasado; la obligación pasada es had to."
+    },
+    {
+     "respuesta": "I had to finished the report.",
+     "explicacion": "Tras to va el infinitivo sin cambios: finish."
+    },
+    {
+     "respuesta": "I have had to finish the report.",
+     "explicacion": "Es el pretérito perfecto («he tenido que»); el enunciado pide el pasado simple: had to."
+    }
+   ]
+  },
+  {
+   "id": "e11",
+   "tipo": "corregir",
+   "enunciado": "Corrige el error.",
+   "frase": "He shoulds stop smoking.",
+   "respuestas": [
+    "He should stop smoking."
+   ],
+   "explicacion": "La ficha explica que should es modal y no lleva -s en tercera persona. La pista es shoulds, con una -s añadida por analogía con los verbos normales (he stops). La corrección es «He should stop smoking». Recuerda que tras stop va el verbo en -ing: stop smoking.",
+   "explicacion_breve": "Should es modal: sin -s.",
+   "traduccion": "Debería dejar de fumar.",
+   "errores_previstos": [
+    {
+     "respuesta": "He shoulds stop smoking.",
+     "explicacion": "Es dejar la frase sin corregir: should es modal y no lleva -s."
+    },
+    {
+     "respuesta": "He should stops smoking.",
+     "explicacion": "Tras un modal va el infinitivo sin -s: stop."
+    },
+    {
+     "respuesta": "He should to stop smoking.",
+     "explicacion": "Should va seguido de infinitivo sin to."
+    }
+   ]
+  },
+  {
+   "id": "e12",
+   "tipo": "corregir",
+   "enunciado": "Corrige el error.",
+   "frase": "We must to leave now.",
+   "respuestas": [
+    "We must leave now."
+   ],
+   "explicacion": "La ficha explica que must es modal y va seguido de infinitivo sin to. La pista es «must to», mezcla de must y have to. La corrección es «We must leave now». Si se quiere usar to, hay que cambiar de verbo: «We have to leave now».",
+   "explicacion_breve": "Must va seguido de infinitivo sin to.",
+   "traduccion": "Tenemos que irnos ya.",
+   "errores_previstos": [
+    {
+     "respuesta": "We must to leave now.",
+     "explicacion": "Es dejar la frase sin corregir: must no lleva to."
+    },
+    {
+     "respuesta": "We musts leave now.",
+     "explicacion": "Must es modal y nunca lleva -s; además el error de to sigue sin corregirse."
+    },
+    {
+     "respuesta": "We must leaving now.",
+     "explicacion": "Tras must va el infinitivo, no la forma en -ing."
+    }
+   ]
+  },
+  {
+   "id": "e13",
+   "tipo": "corregir",
+   "enunciado": "Corrige el error.",
+   "frase": "Does she has to work tomorrow?",
+   "respuestas": [
+    "Does she have to work tomorrow?"
+   ],
+   "explicacion": "La ficha explica que have to forma preguntas con do y que tras does el verbo va en infinitivo. La pista es «Does she has»: la marca de tercera persona ya la lleva does, así que have no debe llevarla. La corrección es «Does she have to work tomorrow?».",
+   "explicacion_breve": "Tras does, have en infinitivo.",
+   "traduccion": "¿Tiene que trabajar mañana?",
+   "errores_previstos": [
+    {
+     "respuesta": "Does she has to work tomorrow?",
+     "explicacion": "Es dejar la frase sin corregir: tras does, have va en infinitivo."
+    },
+    {
+     "respuesta": "Has she to work tomorrow?",
+     "explicacion": "Have to no se invierte como auxiliar; las preguntas se forman con do."
+    },
+    {
+     "respuesta": "Do she have to work tomorrow?",
+     "explicacion": "Con she el auxiliar es does, no do."
+    }
+   ]
+  },
+  {
+   "id": "e14",
+   "tipo": "ordenar",
+   "enunciado": "Ordena las palabras para formar una pregunta.",
+   "palabras": [
+    "I",
+    "what",
+    "do",
+    "should"
+   ],
+   "respuestas": [
+    "What should I do"
+   ],
+   "explicacion": "La ficha recoge «What should I do?» como la forma de pedir consejo. Al ser should un modal, la pregunta no usa do como auxiliar: el orden es partícula interrogativa (What), modal (should), sujeto (I) e infinitivo (do). Aquí do es el verbo principal «hacer», no un auxiliar.",
+   "explicacion_breve": "Partícula interrogativa + should + sujeto + infinitivo.",
+   "traduccion": "¿Qué debería hacer?",
+   "errores_previstos": [
+    {
+     "respuesta": "What I should do",
+     "explicacion": "Ese orden solo vale en preguntas indirectas (I don't know what I should do); en la directa should va delante del sujeto."
+    },
+    {
+     "respuesta": "What do I should",
+     "explicacion": "Should es modal y no se combina con do como auxiliar."
+    }
+   ]
+  },
+  {
+   "id": "e15",
+   "tipo": "ordenar",
+   "enunciado": "Ordena las palabras.",
+   "palabras": [
+    "have",
+    "you",
+    "don't",
+    "shoes",
+    "your",
+    "off",
+    "to",
+    "take"
+   ],
+   "respuestas": [
+    "You don't have to take your shoes off",
+    "You don't have to take off your shoes"
+   ],
+   "explicacion": "La tabla define don't have to como «no es necesario». El orden es sujeto (You), don't have to y el infinitivo del verbo frasal take off con su objeto your shoes. Como take off es separable, el objeto puede ir entre las dos partes (take your shoes off) o detrás (take off your shoes); por eso se aceptan las dos.",
+   "explicacion_breve": "Sujeto + don't have to + infinitivo; take off puede ir separado.",
+   "traduccion": "No hace falta que te quites los zapatos.",
+   "errores_previstos": [
+    {
+     "respuesta": "You have don't to take your shoes off",
+     "explicacion": "Don't va delante de have: don't have to."
+    },
+    {
+     "respuesta": "You don't have take to your shoes off",
+     "explicacion": "To va inmediatamente delante del infinitivo: have to take."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "take off",
+     "significado": "quitarse (ropa, zapatos)"
+    }
+   ]
+  }
  ],
- "fuente": {"nombre": "propia"}
+ "fuente": {
+  "nombre": "propia"
+ },
+ "descripcion_larga_es": "Must y have to expresan obligación («tener que») y should da consejos («debería»). Son verbos de uso constante para hablar de normas, deberes y recomendaciones. Al hispanohablante le cuesta sobre todo la negativa, porque «no tener que» se traduce de dos formas muy distintas: mustn't prohíbe y don't have to indica que algo no es necesario. También cuesta recordar que must y should no llevan -s, ni to, ni do.",
+ "contexto": {
+  "que_es": "Son las formas básicas para expresar obligación, prohibición, ausencia de necesidad y consejo. Must y should son modales: no cambian con la persona, van seguidos de infinitivo sin to y forman preguntas sin do. Have to es un verbo normal que se conjuga (has to, had to, will have to) y necesita do en preguntas y negaciones.",
+  "por_que_importa": "Se usan a diario para explicar normas, dar instrucciones o aconsejar. Confundir mustn't con don't have to produce malentendidos serios: decir «You mustn't come» prohíbe venir, cuando quizá solo se quería decir que no hacía falta. En los exámenes de nivel A2 y B1 es uno de los contrastes más evaluados.",
+  "cuando_se_usa": "Aparecen al hablar de normas del trabajo o de un lugar (You mustn't smoke here), de horarios y obligaciones externas (She has to wear a uniform) y al aconsejar (You should rest). El hispanohablante tiende a traducir «no tienes que» siempre como mustn't, a poner -s o to tras must y should y a usar must para el pasado en lugar de had to."
+ }
 }

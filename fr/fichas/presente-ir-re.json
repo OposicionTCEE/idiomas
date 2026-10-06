@@ -6,65 +6,608 @@
  "nivel": "A1",
  "resumen": "Los verbos en -ir y -re tienen varios modelos de conjugación. Conviene aprender cada verbo con su modelo: finir (-iss- en plural), partir (pierde la consonante en singular), ouvrir (se conjuga como un verbo en -er), vendre y los irregulares prendre, mettre, suivre, vivre.",
  "explicacion": [
-  {"tipo": "tabla", "cabecera": ["Persona", "finir", "partir", "ouvrir"], "filas": [
-   ["je / j'", "finis", "pars", "ouvre"],
-   ["tu", "finis", "pars", "ouvres"],
-   ["il, elle, on", "finit", "part", "ouvre"],
-   ["nous", "finissons", "partons", "ouvrons"],
-   ["vous", "finissez", "partez", "ouvrez"],
-   ["ils, elles", "finissent", "partent", "ouvrent"]
-  ]},
-  {"tipo": "lista", "items": [
-   "Como finir (segundo grupo, con -iss- en plural): choisir, réfléchir, réussir, grandir, grossir, maigrir, obéir, réagir, vieillir.",
-   "Como partir (quitan la consonante de la raíz en singular): sortir (je sors), dormir (je dors), sentir (je sens), servir (je sers).",
-   "Como ouvrir (terminaciones de -er): couvrir, découvrir, offrir, souffrir."
-  ]},
-  {"tipo": "tabla", "cabecera": ["Persona", "vendre", "prendre", "mettre"], "filas": [
-   ["je / j'", "vends", "prends", "mets"],
-   ["tu", "vends", "prends", "mets"],
-   ["il, elle, on", "vend", "prend", "met"],
-   ["nous", "vendons", "prenons", "mettons"],
-   ["vous", "vendez", "prenez", "mettez"],
-   ["ils, elles", "vendent", "prennent", "mettent"]
-  ]},
-  {"tipo": "lista", "items": [
-   "Como vendre: attendre, entendre, descendre, perdre, rendre, répondre. En il la d final no añade terminación: il vend, il attend.",
-   "Como prendre: apprendre, comprendre, surprendre (ojo a la doble n de ils prennent).",
-   "Como mettre: permettre, promettre, admettre, remettre. Mettre la table es «poner la mesa»; mettre un pull, «ponerse un jersey».",
-   "Suivre (je suis, nous suivons) y vivre (je vis, nous vivons). Je suis puede ser de être o de suivre: el contexto lo aclara."
-  ]},
-  {"tipo": "texto", "texto": "En la lengua hablada, el singular y el plural de la 3.ª persona se distinguen porque en plural se oye la consonante de la raíz: il part / ils partent, il finit / ils finissent, il vend / ils vendent."}
+  {
+   "tipo": "tabla",
+   "cabecera": [
+    "Persona",
+    "finir",
+    "partir",
+    "ouvrir"
+   ],
+   "filas": [
+    [
+     "je / j'",
+     "finis",
+     "pars",
+     "ouvre"
+    ],
+    [
+     "tu",
+     "finis",
+     "pars",
+     "ouvres"
+    ],
+    [
+     "il, elle, on",
+     "finit",
+     "part",
+     "ouvre"
+    ],
+    [
+     "nous",
+     "finissons",
+     "partons",
+     "ouvrons"
+    ],
+    [
+     "vous",
+     "finissez",
+     "partez",
+     "ouvrez"
+    ],
+    [
+     "ils, elles",
+     "finissent",
+     "partent",
+     "ouvrent"
+    ]
+   ]
+  },
+  {
+   "tipo": "lista",
+   "items": [
+    "Como finir (segundo grupo, con -iss- en plural): choisir, réfléchir, réussir, grandir, grossir, maigrir, obéir, réagir, vieillir.",
+    "Como partir (quitan la consonante de la raíz en singular): sortir (je sors), dormir (je dors), sentir (je sens), servir (je sers).",
+    "Como ouvrir (terminaciones de -er): couvrir, découvrir, offrir, souffrir."
+   ]
+  },
+  {
+   "tipo": "tabla",
+   "cabecera": [
+    "Persona",
+    "vendre",
+    "prendre",
+    "mettre"
+   ],
+   "filas": [
+    [
+     "je / j'",
+     "vends",
+     "prends",
+     "mets"
+    ],
+    [
+     "tu",
+     "vends",
+     "prends",
+     "mets"
+    ],
+    [
+     "il, elle, on",
+     "vend",
+     "prend",
+     "met"
+    ],
+    [
+     "nous",
+     "vendons",
+     "prenons",
+     "mettons"
+    ],
+    [
+     "vous",
+     "vendez",
+     "prenez",
+     "mettez"
+    ],
+    [
+     "ils, elles",
+     "vendent",
+     "prennent",
+     "mettent"
+    ]
+   ]
+  },
+  {
+   "tipo": "lista",
+   "items": [
+    "Como vendre: attendre, entendre, descendre, perdre, rendre, répondre. En il la d final no añade terminación: il vend, il attend.",
+    "Como prendre: apprendre, comprendre, surprendre (ojo a la doble n de ils prennent).",
+    "Como mettre: permettre, promettre, admettre, remettre. Mettre la table es «poner la mesa»; mettre un pull, «ponerse un jersey».",
+    "Suivre (je suis, nous suivons) y vivre (je vis, nous vivons). Je suis puede ser de être o de suivre: el contexto lo aclara."
+   ]
+  },
+  {
+   "tipo": "texto",
+   "texto": "En la lengua hablada, el singular y el plural de la 3.ª persona se distinguen porque en plural se oye la consonante de la raíz: il part / ils partent, il finit / ils finissent, il vend / ils vendent."
+  }
  ],
  "ejemplos": [
-  {"frase": "Tex réfléchit un moment, puis il choisit un bon vin rouge.", "traduccion": "Tex se lo piensa un momento y luego elige un buen vino tinto."},
-  {"frase": "Tu pars ce week-end ? Oui, je pars pour la Louisiane.", "traduccion": "¿Te vas este fin de semana? Sí, me voy a Luisiana."},
-  {"frase": "Samedi soir, nous sortons danser.", "traduccion": "El sábado por la noche salimos a bailar."},
-  {"frase": "Pourquoi tu prends un taxi ?", "traduccion": "¿Por qué coges un taxi?"},
-  {"frase": "C'est toujours moi qui mets la table.", "traduccion": "Siempre soy yo quien pone la mesa."},
-  {"frase": "Nous suivons un cours de français le mardi.", "traduccion": "Hacemos un curso de francés los martes."}
+  {
+   "frase": "Tex réfléchit un moment, puis il choisit un bon vin rouge.",
+   "traduccion": "Tex se lo piensa un momento y luego elige un buen vino tinto."
+  },
+  {
+   "frase": "Tu pars ce week-end ? Oui, je pars pour la Louisiane.",
+   "traduccion": "¿Te vas este fin de semana? Sí, me voy a Luisiana."
+  },
+  {
+   "frase": "Samedi soir, nous sortons danser.",
+   "traduccion": "El sábado por la noche salimos a bailar."
+  },
+  {
+   "frase": "Pourquoi tu prends un taxi ?",
+   "traduccion": "¿Por qué coges un taxi?"
+  },
+  {
+   "frase": "C'est toujours moi qui mets la table.",
+   "traduccion": "Siempre soy yo quien pone la mesa."
+  },
+  {
+   "frase": "Nous suivons un cours de français le mardi.",
+   "traduccion": "Hacemos un curso de francés los martes."
+  }
  ],
  "errores_hispanohablantes": [
-  {"mal": "Ils finent à cinq heures.", "bien": "Ils finissent à cinq heures.", "nota": "Los verbos como finir llevan -iss- en el plural."},
-  {"mal": "Je parte demain.", "bien": "Je pars demain.", "nota": "Partir hace je pars, sin la t de la raíz en singular."},
-  {"mal": "Ils prenent le métro.", "bien": "Ils prennent le métro.", "nota": "Prendre dobla la n en ils, elles: prennent."}
+  {
+   "mal": "Ils finent à cinq heures.",
+   "bien": "Ils finissent à cinq heures.",
+   "nota": "Los verbos como finir llevan -iss- en el plural."
+  },
+  {
+   "mal": "Je parte demain.",
+   "bien": "Je pars demain.",
+   "nota": "Partir hace je pars, sin la t de la raíz en singular."
+  },
+  {
+   "mal": "Ils prenent le métro.",
+   "bien": "Ils prennent le métro.",
+   "nota": "Prendre dobla la n en ils, elles: prennent."
+  }
  ],
  "ejercicios": [
-  {"id": "e01", "tipo": "hueco", "enunciado": "Conjuga el verbo en presente.", "frase": "Tu ___ déjà ? (partir)", "respuestas": ["pars"], "explicacion": "Partir pierde la t en singular: tu pars.", "origen": "tatoeba:1531818"},
-  {"id": "e02", "tipo": "hueco", "enunciado": "Conjuga el verbo en presente.", "frase": "Il ___ des fruits. (vendre)", "respuestas": ["vend"], "explicacion": "Los verbos como vendre no añaden terminación en il: il vend.", "origen": "tatoeba:936324"},
-  {"id": "e03", "tipo": "hueco", "enunciado": "Conjuga el verbo en presente.", "frase": "On ___ un taxi ? (prendre)", "respuestas": ["prend"], "explicacion": "On se conjuga como il: on prend.", "origen": "tatoeba:12504"},
-  {"id": "e04", "tipo": "hueco", "enunciado": "Conjuga el verbo en presente.", "frase": "Je ___ la table ? (mettre)", "respuestas": ["mets"], "explicacion": "Mettre: je mets, con una sola t en singular.", "origen": "tatoeba:5171877"},
-  {"id": "e05", "tipo": "hueco", "enunciado": "Conjuga el verbo en presente.", "frase": "Le taxi ___ dehors. (attendre)", "respuestas": ["attend"], "explicacion": "Attendre sigue el modelo de vendre: il attend.", "origen": "tatoeba:410438"},
-  {"id": "e06", "tipo": "transformar", "enunciado": "Cambia el sujeto por nous.", "frase": "Je prends une douche.", "respuestas": ["Nous prenons une douche."], "explicacion": "Prendre hace nous prenons, con una sola n.", "origen": "tatoeba:1497556"},
-  {"id": "e07", "tipo": "transformar", "enunciado": "Cambia el sujeto por ils.", "frase": "Je vends des voitures.", "respuestas": ["Ils vendent des voitures."], "explicacion": "Vendre: ils vendent, con la d pronunciada.", "origen": "tatoeba:4266473"},
-  {"id": "e08", "tipo": "transformar", "enunciado": "Cambia el sujeto por nous.", "frase": "Je pars dans une heure.", "respuestas": ["Nous partons dans une heure."], "explicacion": "En plural reaparece la t de la raíz: nous partons.", "origen": "tatoeba:553771"},
-  {"id": "e09", "tipo": "ordenar", "enunciado": "Ordena las palabras.", "palabras": ["l'aéroport", "à", "attend", "Tom"], "respuestas": ["Tom attend à l'aéroport"], "explicacion": "Sujeto, verbo y complemento de lugar.", "origen": "tatoeba:5700072"},
-  {"id": "e10", "tipo": "hueco", "enunciado": "Conjuga el verbo en presente.", "frase": "Nous ___ nos devoirs avant le dîner. (finir)", "respuestas": ["finissons"], "explicacion": "Finir lleva -iss- en plural: nous finissons."},
-  {"id": "e11", "tipo": "hueco", "enunciado": "Conjuga el verbo en presente.", "frase": "Les enfants ___ vite. (grandir)", "respuestas": ["grandissent"], "explicacion": "Grandir sigue el modelo de finir: ils grandissent."},
-  {"id": "e12", "tipo": "eleccion", "enunciado": "Elige la forma correcta.", "frase": "Ils ___ le français à l'école. (apprendre)", "opciones": ["apprennent", "apprendent", "apprenent"], "respuestas": ["apprennent"], "explicacion": "Apprendre se conjuga como prendre: ils apprennent, con doble n."},
-  {"id": "e13", "tipo": "eleccion", "enunciado": "Elige la forma correcta.", "frase": "Le samedi, je ___ jusqu'à dix heures. (dormir)", "opciones": ["dors", "dormis", "dort"], "respuestas": ["dors"], "explicacion": "Dormir pierde la m en singular: je dors."},
-  {"id": "e14", "tipo": "hueco", "enunciado": "Conjuga el verbo en presente.", "frase": "Elle ___ la fenêtre parce qu'il fait chaud. (ouvrir)", "respuestas": ["ouvre"], "explicacion": "Ouvrir lleva terminaciones de -er: elle ouvre."},
-  {"id": "e15", "tipo": "corregir", "enunciado": "Corrige el error.", "frase": "Ils finent leur travail à cinq heures.", "respuestas": ["Ils finissent leur travail à cinq heures."], "explicacion": "Finir hace ils finissent."},
-  {"id": "e16", "tipo": "corregir", "enunciado": "Corrige el error.", "frase": "Il prende le bus tous les jours.", "respuestas": ["Il prend le bus tous les jours."], "explicacion": "Prendre hace il prend, sin terminación."}
+  {
+   "id": "e01",
+   "tipo": "hueco",
+   "enunciado": "Conjuga el verbo en presente.",
+   "frase": "Tu ___ déjà ? (partir)",
+   "respuestas": [
+    "pars"
+   ],
+   "explicacion": "Partir es el modelo de la primera tabla que pierde la consonante de la raíz en singular: je pars, tu pars, il part. Con tu se quita -tir y se añade -s: «tu pars». La t reaparece en plural (nous partons). La pista es el sujeto tu y el infinitivo partir entre paréntesis.",
+   "origen": "tatoeba:1531818",
+   "explicacion_breve": "Partir pierde la t en singular: tu pars.",
+   "traduccion": "¿Ya te vas?",
+   "errores_previstos": [
+    {
+     "respuesta": "partes",
+     "explicacion": "Es un calco del español «partes». En singular partir pierde la t: «tu pars»."
+    },
+    {
+     "respuesta": "parts",
+     "explicacion": "La t de la raíz desaparece en je y tu: «tu pars»; solo il conserva la t como terminación (il part)."
+    },
+    {
+     "respuesta": "partis",
+     "explicacion": "Partir no sigue el modelo de finir; no lleva -i- en singular: «tu pars»."
+    }
+   ]
+  },
+  {
+   "id": "e02",
+   "tipo": "hueco",
+   "enunciado": "Conjuga el verbo en presente.",
+   "frase": "Il ___ des fruits. (vendre)",
+   "respuestas": [
+    "vend"
+   ],
+   "explicacion": "Vendre es el modelo de la segunda tabla: je vends, tu vends, il vend. Como explica la ficha, en il la d final no añade terminación, de modo que la forma es simplemente «il vend». La pista es el sujeto il. La d no se pronuncia en singular; sí se oye en plural (ils vendent).",
+   "origen": "tatoeba:936324",
+   "explicacion_breve": "Los verbos como vendre no añaden terminación en il: il vend.",
+   "traduccion": "Vende fruta.",
+   "errores_previstos": [
+    {
+     "respuesta": "vende",
+     "explicacion": "Es un calco del español. En francés los verbos como vendre no añaden terminación en il: «il vend»."
+    },
+    {
+     "respuesta": "vendt",
+     "explicacion": "No se añade -t: la d de la raíz basta, «il vend»."
+    },
+    {
+     "respuesta": "vends",
+     "explicacion": "Es la forma de je y tu; con il no hay -s: «il vend»."
+    }
+   ]
+  },
+  {
+   "id": "e03",
+   "tipo": "hueco",
+   "enunciado": "Conjuga el verbo en presente.",
+   "frase": "On ___ un taxi ? (prendre)",
+   "respuestas": [
+    "prend"
+   ],
+   "explicacion": "On se conjuga siempre en tercera persona del singular, como il, aunque aquí signifique «nosotros». Prendre en tercera persona del singular es «prend», sin terminación añadida, como recoge la segunda tabla. La pista es el sujeto on. La forma «prenons» sería correcta con nous, pero no con on.",
+   "origen": "tatoeba:12504",
+   "explicacion_breve": "On se conjuga como il: on prend.",
+   "traduccion": "¿Cogemos un taxi?",
+   "errores_previstos": [
+    {
+     "respuesta": "prenons",
+     "explicacion": "Es la forma de nous. On, aunque equivalga a «nosotros», va con el verbo en tercera persona del singular: «on prend»."
+    },
+    {
+     "respuesta": "prends",
+     "explicacion": "Es la forma de je y tu; con on (como con il) es «prend»."
+    },
+    {
+     "respuesta": "prende",
+     "explicacion": "Calco del español; prendre hace «on prend», sin -e."
+    }
+   ]
+  },
+  {
+   "id": "e04",
+   "tipo": "hueco",
+   "enunciado": "Conjuga el verbo en presente.",
+   "frase": "Je ___ la table ? (mettre)",
+   "respuestas": [
+    "mets"
+   ],
+   "explicacion": "Mettre aparece en la segunda tabla: je mets, tu mets, il met, con una sola t en singular y doble t en plural (nous mettons). Con je la forma es «mets». La ficha recuerda además que «mettre la table» significa «poner la mesa». La pista es el sujeto je.",
+   "origen": "tatoeba:5171877",
+   "explicacion_breve": "Mettre: je mets, con una sola t en singular.",
+   "traduccion": "¿Pongo la mesa?",
+   "errores_previstos": [
+    {
+     "respuesta": "mette",
+     "explicacion": "Es una forma de subjuntivo («que je mette»); en presente de indicativo es «je mets»."
+    },
+    {
+     "respuesta": "metts",
+     "explicacion": "En singular mettre lleva una sola t: «je mets»."
+    },
+    {
+     "respuesta": "met",
+     "explicacion": "Es la forma de il; con je hace falta la -s: «je mets»."
+    }
+   ]
+  },
+  {
+   "id": "e05",
+   "tipo": "hueco",
+   "enunciado": "Conjuga el verbo en presente.",
+   "frase": "Le taxi ___ dehors. (attendre)",
+   "respuestas": [
+    "attend"
+   ],
+   "explicacion": "Attendre sigue el modelo de vendre, como indica la lista de la ficha. En tercera persona del singular no se añade terminación: «il attend». El sujeto aquí es «le taxi», que equivale a il. Cuidado con el falso amigo: attendre significa «esperar», no «atender».",
+   "origen": "tatoeba:410438",
+   "explicacion_breve": "Attendre sigue el modelo de vendre: il attend.",
+   "traduccion": "El taxi espera fuera.",
+   "errores_previstos": [
+    {
+     "respuesta": "attende",
+     "explicacion": "Calco del español «atiende»; además no existe. Con un sujeto singular es «attend»."
+    },
+    {
+     "respuesta": "attends",
+     "explicacion": "Es la forma de je y tu; con «le taxi» (il) no lleva -s: «attend»."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "attendre",
+     "significado": "esperar (no «atender»)"
+    },
+    {
+     "palabra": "dehors",
+     "significado": "fuera"
+    }
+   ]
+  },
+  {
+   "id": "e06",
+   "tipo": "transformar",
+   "enunciado": "Cambia el sujeto por nous.",
+   "frase": "Je prends une douche.",
+   "respuestas": [
+    "Nous prenons une douche."
+   ],
+   "explicacion": "Prendre tiene la raíz pren- en nous y vous, con una sola n: «nous prenons», como muestra la segunda tabla. La doble n aparece solo en ils prennent. La expresión «prendre une douche» significa «ducharse» y no cambia al cambiar de sujeto.",
+   "origen": "tatoeba:1497556",
+   "explicacion_breve": "Prendre hace nous prenons, con una sola n.",
+   "traduccion": "Nos duchamos.",
+   "errores_previstos": [
+    {
+     "respuesta": "Nous prendons une douche.",
+     "explicacion": "Prendre pierde la d en plural: «nous prenons», no se forma como vendre."
+    },
+    {
+     "respuesta": "Nous prennons une douche.",
+     "explicacion": "La doble n solo va en ils prennent; con nous hay una sola: «prenons»."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "prendre une douche",
+     "significado": "ducharse"
+    }
+   ]
+  },
+  {
+   "id": "e07",
+   "tipo": "transformar",
+   "enunciado": "Cambia el sujeto por ils.",
+   "frase": "Je vends des voitures.",
+   "respuestas": [
+    "Ils vendent des voitures."
+   ],
+   "explicacion": "Vendre, según la segunda tabla, hace «ils vendent» en plural: raíz vend- más la terminación -ent. La ficha señala que en plural la d de la raíz se pronuncia, lo que distingue «il vend» de «ils vendent» al oído. La pista es el nuevo sujeto ils; el complemento no cambia.",
+   "origen": "tatoeba:4266473",
+   "explicacion_breve": "Vendre: ils vendent, con la d pronunciada.",
+   "traduccion": "Venden coches.",
+   "errores_previstos": [
+    {
+     "respuesta": "Ils vendont des voitures.",
+     "explicacion": "La terminación de ils es -ent, no -ont: «vendent»."
+    },
+    {
+     "respuesta": "Ils vend des voitures.",
+     "explicacion": "Falta la terminación del plural: con ils es «vendent»."
+    }
+   ]
+  },
+  {
+   "id": "e08",
+   "tipo": "transformar",
+   "enunciado": "Cambia el sujeto por nous.",
+   "frase": "Je pars dans une heure.",
+   "respuestas": [
+    "Nous partons dans une heure."
+   ],
+   "explicacion": "Partir pierde la t en singular (je pars), pero, como recoge la ficha, en plural reaparece la consonante de la raíz: «nous partons». La terminación de nous es -ons. La pista es el cambio de sujeto a nous. «Dans une heure» significa «dentro de una hora», no «en una hora».",
+   "origen": "tatoeba:553771",
+   "explicacion_breve": "En plural reaparece la t de la raíz: nous partons.",
+   "traduccion": "Nos vamos dentro de una hora.",
+   "errores_previstos": [
+    {
+     "respuesta": "Nous parsons dans une heure.",
+     "explicacion": "En plural vuelve la t de la raíz: «nous partons»."
+    },
+    {
+     "respuesta": "Nous partissons dans une heure.",
+     "explicacion": "Partir no es del modelo de finir; no lleva -iss-: «nous partons»."
+    }
+   ]
+  },
+  {
+   "id": "e09",
+   "tipo": "ordenar",
+   "enunciado": "Ordena las palabras.",
+   "palabras": [
+    "l'aéroport",
+    "à",
+    "attend",
+    "Tom"
+   ],
+   "respuestas": [
+    "Tom attend à l'aéroport"
+   ],
+   "explicacion": "Es una frase con el orden básico: sujeto (Tom), verbo (attend, tercera persona de attendre, modelo vendre) y complemento de lugar (à l'aéroport). Attendre es transitivo, pero aquí no lleva complemento directo: se indica solo dónde espera. La preposición à va delante del lugar.",
+   "origen": "tatoeba:5700072",
+   "explicacion_breve": "Sujeto, verbo y complemento de lugar.",
+   "traduccion": "Tom espera en el aeropuerto.",
+   "errores_previstos": [
+    {
+     "respuesta": "Tom attend l'aéroport à",
+     "explicacion": "La preposición va delante del sustantivo: «à l'aéroport»."
+    },
+    {
+     "respuesta": "Tom à l'aéroport attend",
+     "explicacion": "El verbo va inmediatamente después del sujeto; el complemento de lugar va al final."
+    }
+   ]
+  },
+  {
+   "id": "e10",
+   "tipo": "hueco",
+   "enunciado": "Conjuga el verbo en presente.",
+   "frase": "Nous ___ nos devoirs avant le dîner. (finir)",
+   "respuestas": [
+    "finissons"
+   ],
+   "explicacion": "Finir es el modelo del segundo grupo de la primera tabla: lleva -iss- en todo el plural. Con nous la forma es «finissons». La pista es el sujeto nous. Sin -iss- («finons») la forma no existe; es lo que distingue a finir de partir.",
+   "explicacion_breve": "Finir lleva -iss- en plural: nous finissons.",
+   "traduccion": "Terminamos los deberes antes de la cena.",
+   "errores_previstos": [
+    {
+     "respuesta": "finons",
+     "explicacion": "Falta el -iss- del plural: los verbos como finir hacen «nous finissons»."
+    },
+    {
+     "respuesta": "finisons",
+     "explicacion": "El infijo se escribe con doble s, «-iss-», para que suene /s/ y no /z/: «finissons»."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "les devoirs",
+     "significado": "los deberes"
+    }
+   ]
+  },
+  {
+   "id": "e11",
+   "tipo": "hueco",
+   "enunciado": "Conjuga el verbo en presente.",
+   "frase": "Les enfants ___ vite. (grandir)",
+   "respuestas": [
+    "grandissent"
+   ],
+   "explicacion": "La lista de la ficha incluye grandir entre los verbos como finir, que llevan -iss- en plural. El sujeto «les enfants» equivale a ils, así que la forma es «grandissent». La pista es el sujeto plural. Recuerda que estos verbos del segundo grupo suelen expresar cambios de estado (grandir, grossir, maigrir, vieillir).",
+   "explicacion_breve": "Grandir sigue el modelo de finir: ils grandissent.",
+   "traduccion": "Los niños crecen deprisa.",
+   "errores_previstos": [
+    {
+     "respuesta": "grandent",
+     "explicacion": "Falta el -iss- del plural: grandir sigue el modelo de finir, «grandissent»."
+    },
+    {
+     "respuesta": "grandit",
+     "explicacion": "Es la forma del singular; con un sujeto plural es «grandissent»."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "grandir",
+     "significado": "crecer"
+    }
+   ]
+  },
+  {
+   "id": "e12",
+   "tipo": "eleccion",
+   "enunciado": "Elige la forma correcta.",
+   "frase": "Ils ___ le français à l'école. (apprendre)",
+   "opciones": [
+    "apprennent",
+    "apprendent",
+    "apprenent"
+   ],
+   "respuestas": [
+    "apprennent"
+   ],
+   "explicacion": "La lista de la ficha indica que apprendre se conjuga como prendre, cuya tercera persona del plural es «prennent», con doble n. Por tanto, «ils apprennent». La pista es el sujeto ils y el infinitivo apprendre. La doble n refleja que la vocal anterior se pronuncia abierta.",
+   "explicacion_breve": "Apprendre se conjuga como prendre: ils apprennent, con doble n.",
+   "traduccion": "Aprenden francés en el colegio.",
+   "por_opcion": {
+    "apprennent": "Correcta: sigue el modelo de prendre, con la doble n de la tercera persona del plural.",
+    "apprendent": "Incorrecta: sería aplicar el modelo de vendre (ils vendent); prendre y sus derivados pierden la d en plural.",
+    "apprenent": "Incorrecta: falta la doble n; es el error típico que la ficha señala con «ils prenent»."
+   }
+  },
+  {
+   "id": "e13",
+   "tipo": "eleccion",
+   "enunciado": "Elige la forma correcta.",
+   "frase": "Le samedi, je ___ jusqu'à dix heures. (dormir)",
+   "opciones": [
+    "dors",
+    "dormis",
+    "dort"
+   ],
+   "respuestas": [
+    "dors"
+   ],
+   "explicacion": "Dormir está en la lista de verbos como partir, que quitan la consonante de la raíz en singular: je dors, tu dors, il dort. Con je la forma es «dors», sin la m. La pista es el sujeto je. La m reaparece en plural: nous dormons.",
+   "explicacion_breve": "Dormir pierde la m en singular: je dors.",
+   "traduccion": "Los sábados duermo hasta las diez.",
+   "por_opcion": {
+    "dors": "Correcta: forma de je, sin la m de la raíz y con -s final.",
+    "dormis": "Incorrecta: dormir no sigue el modelo de finir; además, «je dormis» es una forma del pasado simple.",
+    "dort": "Incorrecta: es la forma de il o elle; con je la terminación es -s."
+   }
+  },
+  {
+   "id": "e14",
+   "tipo": "hueco",
+   "enunciado": "Conjuga el verbo en presente.",
+   "frase": "Elle ___ la fenêtre parce qu'il fait chaud. (ouvrir)",
+   "respuestas": [
+    "ouvre"
+   ],
+   "explicacion": "Ouvrir es el modelo de la primera tabla que, aunque acabe en -ir, lleva terminaciones de -er: j'ouvre, tu ouvres, il ouvre. Con elle la forma es «ouvre». La pista es el sujeto elle y el infinitivo ouvrir. «Il fait chaud» es la forma impersonal de decir «hace calor».",
+   "explicacion_breve": "Ouvrir lleva terminaciones de -er: elle ouvre.",
+   "traduccion": "Abre la ventana porque hace calor.",
+   "errores_previstos": [
+    {
+     "respuesta": "ouvrit",
+     "explicacion": "Ouvrir no se conjuga como finir; lleva terminaciones de -er: «elle ouvre». «Ouvrit» es pasado simple."
+    },
+    {
+     "respuesta": "ouvert",
+     "explicacion": "«Ouvert» es el participio (abierto); en presente con elle la forma es «ouvre»."
+    },
+    {
+     "respuesta": "ouvres",
+     "explicacion": "La terminación -es es la de tu; con elle es -e."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "la fenêtre",
+     "significado": "la ventana"
+    }
+   ]
+  },
+  {
+   "id": "e15",
+   "tipo": "corregir",
+   "enunciado": "Corrige el error.",
+   "frase": "Ils finent leur travail à cinq heures.",
+   "respuestas": [
+    "Ils finissent leur travail à cinq heures."
+   ],
+   "explicacion": "Es el error típico de la ficha: los verbos como finir llevan -iss- en el plural. Con ils la forma es «finissent», y en ella se pronuncia la s doble, lo que la distingue de «il finit». La frase calca un modelo inexistente, como si finir fuera un verbo en -er.",
+   "explicacion_breve": "Finir hace ils finissent.",
+   "traduccion": "Terminan su trabajo a las cinco.",
+   "errores_previstos": [
+    {
+     "respuesta": "Ils finent leur travail à cinq heures.",
+     "explicacion": "Es dejar la frase sin corregir: falta el -iss- del plural."
+    },
+    {
+     "respuesta": "Ils finissont leur travail à cinq heures.",
+     "explicacion": "El -iss- está bien, pero la terminación de ils es -ent: «finissent»."
+    },
+    {
+     "respuesta": "Ils finit leur travail à cinq heures.",
+     "explicacion": "«Finit» es la forma del singular; con ils es «finissent»."
+    }
+   ]
+  },
+  {
+   "id": "e16",
+   "tipo": "corregir",
+   "enunciado": "Corrige el error.",
+   "frase": "Il prende le bus tous les jours.",
+   "respuestas": [
+    "Il prend le bus tous les jours."
+   ],
+   "explicacion": "Prendre, como vendre en este punto, no añade terminación en tercera persona del singular: «il prend». La forma «prende» es un calco del español. La pista es el sujeto il y la segunda tabla de la ficha. La d no se pronuncia: «il prend» suena /pʁɑ̃/.",
+   "explicacion_breve": "Prendre hace il prend, sin terminación.",
+   "traduccion": "Coge el autobús todos los días.",
+   "errores_previstos": [
+    {
+     "respuesta": "Il prende le bus tous les jours.",
+     "explicacion": "Es dejar la frase sin corregir: prendre hace «il prend», sin -e."
+    },
+    {
+     "respuesta": "Il prends le bus tous les jours.",
+     "explicacion": "«Prends» es la forma de je y tu; con il no hay -s."
+    },
+    {
+     "respuesta": "Il prent le bus tous les jours.",
+     "explicacion": "La raíz conserva la d en singular: «il prend», no «prent»."
+    }
+   ]
+  }
  ],
- "fuente": {"nombre": "Tex's French Grammar", "autores": "COERLL, Universidad de Texas en Austin", "licencia": "CC BY 3.0", "url": "https://laits.utexas.edu/tex/gr/vir1.html", "otras": ["Frases de Tatoeba (CC BY 2.0 FR)"]}
+ "fuente": {
+  "nombre": "Tex's French Grammar",
+  "autores": "COERLL, Universidad de Texas en Austin",
+  "licencia": "CC BY 3.0",
+  "url": "https://laits.utexas.edu/tex/gr/vir1.html",
+  "otras": [
+   "Frases de Tatoeba (CC BY 2.0 FR)"
+  ]
+ },
+ "descripcion_larga_es": "El presente de los verbos en -ir y en -re, que no siguen un único modelo: finir (con -iss- en plural), partir (pierde la consonante de la raíz en singular), ouvrir (con terminaciones de -er), vendre y los irregulares prendre, mettre, suivre y vivre. Son verbos muy frecuentes y conviene aprender cada uno con su modelo, porque el español no ofrece ninguna pista para adivinarlo.",
+ "contexto": {
+  "que_es": "Es la conjugación en presente de los verbos cuyo infinitivo acaba en -ir o en -re. Se agrupan en modelos: el segundo grupo de finir (je finis, nous finissons), el tipo partir (je pars, nous partons), el tipo ouvrir (j'ouvre, como un verbo en -er), el tipo vendre (je vends, il vend) y los irregulares frecuentes prendre, mettre, suivre y vivre.",
+  "por_que_importa": "Entre ellos están algunos de los verbos más usados del idioma: partir, sortir, dormir, prendre, mettre, attendre, comprendre, finir o choisir. Equivocarse de modelo produce formas inexistentes («ils finent», «je parte», «ils prenent») que se notan mucho por escrito y, a menudo, también al hablar, porque en plural se pronuncia la consonante de la raíz.",
+  "cuando_se_usa": "Siempre que se conjugue uno de estos verbos en presente, para acciones habituales, actuales o un futuro próximo. La señal es el infinitivo: hay que saber a qué modelo pertenece (finir o partir, vendre o prendre). El hispanohablante tiende a aplicar las terminaciones de -er o a conservar la raíz entera en singular («je parte», «je dorme»), y a olvidar el -iss- de finir o la doble n de prennent."
+ }
 }

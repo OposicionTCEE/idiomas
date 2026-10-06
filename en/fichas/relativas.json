@@ -112,7 +112,14 @@
    "respuestas": [
     "who"
    ],
-   "explicacion": "Persona como sujeto: who."
+   "explicacion": "Según la tabla de la ficha, para personas se usa who (o that). The doctor es una persona y el relativo es sujeto de treated (él me atendió), por lo que va who. Which es solo para cosas y animales, y whose expresa posesión. Treat aquí significa «atender, tratar» a un paciente.",
+   "explicacion_breve": "Persona como sujeto: who.",
+   "traduccion": "El médico que me atendió fue muy amable.",
+   "por_opcion": {
+    "which": "Which se usa para cosas y animales; para un médico va who.",
+    "who": "Correcta: relativo de persona que funciona como sujeto de treated.",
+    "whose": "Whose expresa posesión y necesita un sustantivo detrás (the doctor whose clinic…)."
+   }
   },
   {
    "id": "e02",
@@ -127,7 +134,14 @@
    "respuestas": [
     "where"
    ],
-   "explicacion": "Lugar + oración completa (we had…): where."
+   "explicacion": "La tabla de la ficha indica where para lugares. La pista es doble: el antecedente es un lugar (the restaurant) y detrás viene una oración completa con su propio sujeto y objeto (we had our first date), así que no falta nada que which pudiera sustituir. Por eso va where. Con which habría que añadir preposición: the restaurant which we had our first date in.",
+   "explicacion_breve": "Lugar + oración completa (we had…): where.",
+   "traduccion": "Ese es el restaurante donde tuvimos nuestra primera cita.",
+   "por_opcion": {
+    "which": "Which necesitaría una preposición (in which, o which… in), porque la oración que sigue ya está completa.",
+    "where": "Correcta: antecedente de lugar seguido de una oración completa.",
+    "who": "Who es solo para personas; un restaurante no lo es."
+   }
   },
   {
    "id": "e03",
@@ -142,7 +156,14 @@
    "respuestas": [
     "whose"
    ],
-   "explicacion": "Posesión (la hermana de mi amigo): whose."
+   "explicacion": "La ficha recoge whose para la posesión, equivalente a «cuyo, cuya». La pista es el sustantivo sister justo después del hueco: es la hermana de mi amigo. Whose sustituye a un posesivo (his sister) y va siempre seguido de un sustantivo. En español «cuyo» casi no se usa en la conversación, pero en inglés whose es muy normal.",
+   "explicacion_breve": "Posesión (la hermana de mi amigo): whose.",
+   "traduccion": "Tengo un amigo cuya hermana trabaja en la BBC.",
+   "por_opcion": {
+    "who": "Who sister es agramatical: para expresar posesión se necesita whose.",
+    "whose": "Correcta: expresa posesión y va seguido del sustantivo sister.",
+    "that": "That no expresa posesión; that sister works daría una frase sin sentido."
+   }
   },
   {
    "id": "e04",
@@ -157,7 +178,14 @@
    "respuestas": [
     "which"
    ],
-   "explicacion": "Cosa como sujeto: which (o that)."
+   "explicacion": "La tabla de la ficha indica which (o that) para cosas y animales. The laptop es una cosa y el relativo es sujeto de is, así que va which. Where es para lugares y debería ir seguido de una oración con sujeto propio; aquí detrás viene directamente el verbo. Belong to significa «pertenecer a, ser de».",
+   "explicacion_breve": "Cosa como sujeto: which (o that).",
+   "traduccion": "El portátil que está en la mesa es de Marta.",
+   "por_opcion": {
+    "who": "Who se usa para personas; un portátil es una cosa.",
+    "where": "Where va con antecedentes de lugar y exige un sujeto propio detrás; aquí el relativo es el sujeto de is.",
+    "which": "Correcta: relativo de cosa que funciona como sujeto (también valdría that)."
+   }
   },
   {
    "id": "e05",
@@ -167,18 +195,50 @@
    "respuestas": [
     "where"
    ],
-   "explicacion": "Lugar seguido de sujeto + verbo: where."
+   "explicacion": "La ficha da where para lugares. A place es un lugar, y detrás viene una oración completa con sujeto y verbo (you can see works of art), así que va where. Es un patrón muy habitual en definiciones: A museum is a place where… Which o that obligarían a añadir una preposición (a place in which).",
+   "explicacion_breve": "Lugar seguido de sujeto + verbo: where.",
+   "traduccion": "Un museo es un lugar donde puedes ver obras de arte.",
+   "errores_previstos": [
+    {
+     "respuesta": "which",
+     "explicacion": "Which necesitaría una preposición (in which); con un lugar seguido de oración completa va where."
+    },
+    {
+     "respuesta": "that",
+     "explicacion": "That no puede llevar la preposición delante; con un lugar y una oración completa va where."
+    },
+    {
+     "respuesta": "what",
+     "explicacion": "What no es relativo tras un sustantivo; para un lugar se usa where."
+    }
+   ]
   },
   {
    "id": "e06",
    "tipo": "hueco",
-   "enunciado": "Completa con el relativo adecuado (who, which, where o whose).",
+   "enunciado": "Completa con el relativo adecuado (who, which, that, where o whose).",
    "frase": "A pilot is a person ___ flies planes.",
    "respuestas": [
     "who",
     "that"
    ],
-   "explicacion": "Persona como sujeto: who o that."
+   "explicacion": "Según la tabla de la ficha, para personas se usa who o that. A person es el antecedente y el relativo es sujeto de flies, así que no puede omitirse. Who es lo más habitual en definiciones de personas, pero that también es correcto.",
+   "explicacion_breve": "Persona como sujeto: who o that.",
+   "traduccion": "Un piloto es una persona que pilota aviones.",
+   "errores_previstos": [
+    {
+     "respuesta": "which",
+     "explicacion": "Which es para cosas y animales; para una persona va who o that."
+    },
+    {
+     "respuesta": "whose",
+     "explicacion": "Whose expresa posesión y necesita un sustantivo detrás; aquí el relativo es sujeto: who."
+    },
+    {
+     "respuesta": "what",
+     "explicacion": "What no funciona como relativo tras un sustantivo."
+    }
+   ]
   },
   {
    "id": "e07",
@@ -188,18 +248,50 @@
    "respuestas": [
     "whose"
    ],
-   "explicacion": "Posesión: whose + sustantivo."
+   "explicacion": "La ficha recoge whose para la posesión. La pista es el sustantivo car justo detrás del hueco: el coche de esa persona. Whose + sustantivo sustituye a his/her car. For sale significa «en venta». En español es más natural «alguien que venda su coche», pero en inglés whose es la forma directa.",
+   "explicacion_breve": "Posesión: whose + sustantivo.",
+   "traduccion": "¿Conoces a alguien que venda su coche? (Literalmente: alguien cuyo coche está en venta.)",
+   "errores_previstos": [
+    {
+     "respuesta": "who",
+     "explicacion": "Who car es agramatical: para la posesión se necesita whose."
+    },
+    {
+     "respuesta": "who's",
+     "explicacion": "Who's es la contracción de who is; el relativo de posesión se escribe whose."
+    },
+    {
+     "respuesta": "that",
+     "explicacion": "That no expresa posesión: whose car."
+    }
+   ]
   },
   {
    "id": "e08",
    "tipo": "hueco",
-   "enunciado": "Completa con el relativo adecuado (who, which, where o whose).",
+   "enunciado": "Completa con el relativo adecuado (who, which, that, where o whose).",
    "frase": "A thermometer is an instrument ___ measures temperature.",
    "respuestas": [
     "which",
     "that"
    ],
-   "explicacion": "Cosa como sujeto: which o that."
+   "explicacion": "La ficha da which o that para cosas. An instrument es una cosa y el relativo es sujeto de measures, así que no se puede omitir. Ambas respuestas son válidas. Measure significa «medir».",
+   "explicacion_breve": "Cosa como sujeto: which o that.",
+   "traduccion": "Un termómetro es un instrumento que mide la temperatura.",
+   "errores_previstos": [
+    {
+     "respuesta": "who",
+     "explicacion": "Who es para personas; un instrumento es una cosa: which o that."
+    },
+    {
+     "respuesta": "where",
+     "explicacion": "Where es para lugares; el relativo aquí es el sujeto de measures: which."
+    },
+    {
+     "respuesta": "what",
+     "explicacion": "What no es relativo tras un sustantivo: which o that."
+    }
+   ]
   },
   {
    "id": "e09",
@@ -211,7 +303,23 @@
     "The song we heard on the radio was beautiful.",
     "The song which we heard on the radio was beautiful."
    ],
-   "explicacion": "No se repite el objeto (it) tras el relativo."
+   "explicacion": "La ficha advierte que no se repite el pronombre: el relativo ya sustituye al objeto. That es el objeto de heard, de modo que it sobra. Como el relativo es objeto (le sigue otro sujeto, we), también puede omitirse: The song we heard on the radio. Las tres versiones aceptadas son correctas.",
+   "explicacion_breve": "No se repite el objeto (it) tras el relativo.",
+   "traduccion": "La canción que oímos en la radio era preciosa.",
+   "errores_previstos": [
+    {
+     "respuesta": "The song that we heard it on the radio was beautiful.",
+     "explicacion": "Es la frase sin corregir: it repite el objeto que ya representa that."
+    },
+    {
+     "respuesta": "The song what we heard on the radio was beautiful.",
+     "explicacion": "What no es relativo tras un sustantivo: that o which."
+    },
+    {
+     "respuesta": "The song who we heard on the radio was beautiful.",
+     "explicacion": "Who es para personas; una canción pide that o which."
+    }
+   ]
   },
   {
    "id": "e10",
@@ -223,7 +331,23 @@
     "This is the thing I wanted to show you.",
     "This is the thing which I wanted to show you."
    ],
-   "explicacion": "Tras un sustantivo se usa that/which, no what."
+   "explicacion": "La ficha explica que what no es un relativo tras un sustantivo: significa «lo que» y ya incluye el antecedente (What I need is a holiday). Como aquí hay un sustantivo, the thing, debe ir that o which, o puede omitirse porque es objeto de show. El error viene de traducir «lo que» por what.",
+   "explicacion_breve": "Tras un sustantivo se usa that/which, no what.",
+   "traduccion": "Esto es lo que quería enseñarte. (Literalmente: la cosa que quería enseñarte.)",
+   "errores_previstos": [
+    {
+     "respuesta": "This is the thing what I wanted to show you.",
+     "explicacion": "Es la frase sin corregir: tras un sustantivo no se usa what."
+    },
+    {
+     "respuesta": "This is the thing who I wanted to show you.",
+     "explicacion": "Who es para personas; para una cosa va that o which."
+    },
+    {
+     "respuesta": "This is the thing that I wanted to show you it.",
+     "explicacion": "No se repite el objeto: that ya lo representa."
+    }
+   ]
   },
   {
    "id": "e11",
@@ -234,7 +358,23 @@
     "I met a woman who speaks six languages.",
     "I met a woman that speaks six languages."
    ],
-   "explicacion": "Who sustituye a she, el sujeto de la segunda frase."
+   "explicacion": "La ficha indica who (o that) para personas. Al unir las frases, who sustituye a she, el sujeto de la segunda oración, por lo que she desaparece. Como el relativo es sujeto, no puede omitirse. La oración especificativa va sin comas porque identifica a la mujer.",
+   "explicacion_breve": "Who sustituye a she, el sujeto de la segunda frase.",
+   "traduccion": "Conocí a una mujer que habla seis idiomas.",
+   "errores_previstos": [
+    {
+     "respuesta": "I met a woman who she speaks six languages.",
+     "explicacion": "No se repite el pronombre: who ya sustituye a she."
+    },
+    {
+     "respuesta": "I met a woman which speaks six languages.",
+     "explicacion": "Which es para cosas; para una persona, who."
+    },
+    {
+     "respuesta": "I met a woman speaks six languages.",
+     "explicacion": "El relativo sujeto no puede omitirse: who speaks."
+    }
+   ]
   },
   {
    "id": "e12",
@@ -245,7 +385,23 @@
     "That's the man whose dog bit me.",
     "That is the man whose dog bit me."
    ],
-   "explicacion": "Whose sustituye al posesivo his."
+   "explicacion": "La ficha recoge whose para la posesión. Al unir las frases, whose sustituye al posesivo his y se coloca delante del sustantivo dog: the man whose dog bit me. His desaparece porque whose ya expresa la posesión. Bite es irregular: bite, bit, bitten.",
+   "explicacion_breve": "Whose sustituye al posesivo his.",
+   "traduccion": "Ese es el hombre cuyo perro me mordió.",
+   "errores_previstos": [
+    {
+     "respuesta": "That's the man whose his dog bit me.",
+     "explicacion": "Sobra his: whose ya sustituye al posesivo."
+    },
+    {
+     "respuesta": "That's the man who his dog bit me.",
+     "explicacion": "Calco de «el hombre que su perro…»: la posesión se expresa con whose."
+    },
+    {
+     "respuesta": "That's the man who's dog bit me.",
+     "explicacion": "Who's es who is; el relativo de posesión se escribe whose."
+    }
+   ]
   },
   {
    "id": "e13",
@@ -263,7 +419,19 @@
    "respuestas": [
     "that's the house where I was born"
    ],
-   "explicacion": "Antecedente de lugar + where + sujeto + verbo."
+   "explicacion": "La ficha indica where para antecedentes de lugar seguidos de sujeto + verbo. El orden es That's + the house (antecedente) + where + I (sujeto) + was born (verbo). Be born significa «nacer» y en inglés es pasiva: I was born, no I born.",
+   "explicacion_breve": "Antecedente de lugar + where + sujeto + verbo.",
+   "traduccion": "Esa es la casa donde nací.",
+   "errores_previstos": [
+    {
+     "respuesta": "that's the house where was I born",
+     "explicacion": "Dentro de la relativa no hay inversión: where I was born."
+    },
+    {
+     "respuesta": "where I was born that's the house",
+     "explicacion": "La relativa va detrás de su antecedente, the house."
+    }
+   ]
   },
   {
    "id": "e14",
@@ -281,10 +449,28 @@
    "respuestas": [
     "I loved the book you lent me"
    ],
-   "explicacion": "El relativo objeto (that) puede omitirse: the book you lent me."
+   "explicacion": "La ficha explica que el relativo objeto puede omitirse: le sigue otro sujeto (you). Así, the book (that) you lent me queda sin that. El orden es I loved + the book + you lent me. Lend significa «prestar» (lend, lent, lent), y lend me es «prestarme»; no hay que confundirlo con borrow, que es «tomar prestado».",
+   "explicacion_breve": "El relativo objeto (that) puede omitirse: the book you lent me.",
+   "traduccion": "Me encantó el libro que me prestaste.",
+   "errores_previstos": [
+    {
+     "respuesta": "I loved the book me you lent",
+     "explicacion": "Calco de «que me prestaste»: el objeto me va detrás del verbo, you lent me."
+    },
+    {
+     "respuesta": "you lent me the book I loved",
+     "explicacion": "Cambia el sentido (me prestaste el libro que me encantó) y no corresponde al orden pedido."
+    }
+   ]
   }
  ],
  "fuente": {
   "nombre": "propia"
+ },
+ "descripcion_larga_es": "Las oraciones de relativo especificativas identifican a quién o a qué nos referimos: the woman who lives next door. El relativo depende del antecedente (who para personas, which para cosas, where para lugares, whose para posesión) y puede omitirse cuando es objeto. Al hispanohablante, que usa «que» para todo, le cuesta elegir el relativo, no repetir el pronombre y no usar what tras un sustantivo.",
+ "contexto": {
+  "que_es": "Son oraciones introducidas por un relativo (who, which, that, where, whose, when) que completan a un sustantivo y dan la información necesaria para identificarlo. A diferencia de las explicativas, no van entre comas, porque sin ellas la frase no queda clara.",
+  "por_que_importa": "Permiten construir frases complejas y precisas, imprescindibles para definir conceptos, describir procesos o argumentar en una exposición (the countries which export oil, the firms whose profits fell). Errores como repetir el pronombre (that I bought it) o usar what como relativo son muy frecuentes y delatan un calco del español. Saber omitir el relativo objeto da naturalidad al inglés hablado.",
+  "cuando_se_usa": "Cuando hace falta especificar de qué persona, cosa o lugar se habla, sobre todo en definiciones (A pilot is a person who…) y descripciones. La pista es el antecedente: persona, cosa, lugar o una relación de posesión. El hispanohablante tiende a usar that o which para todo, a decir what como «lo que» tras un sustantivo y a mantener el pronombre objeto que el relativo ya sustituye."
  }
 }

@@ -111,7 +111,23 @@
     "closed",
     "closes"
    ],
-   "explicacion": "Se quita does y se usa orden afirmativo; lo normal es retroceder el tiempo (closed), aunque closes es posible si sigue siendo cierto."
+   "explicacion": "Se aplica la regla de las preguntas indirectas de Reglas y claves: orden de frase afirmativa (sujeto + verbo), sin do/does/did. La pista es que en el original el auxiliar does marca la pregunta; al pasar a indirecta desaparece y su información (presente, tercera persona) pasa al verbo. Con asked en pasado lo normal es retroceder a closed, pero closes también vale si el horario sigue siendo el mismo.",
+   "explicacion_breve": "Se quita does y se usa orden afirmativo; lo normal es retroceder el tiempo (closed), aunque closes es posible si sigue siendo cierto.",
+   "traduccion": "«¿A qué hora cierra el museo?» → Preguntó a qué hora cerraba (cierra) el museo.",
+   "errores_previstos": [
+    {
+     "respuesta": "does close",
+     "explicacion": "En la pregunta indirecta desaparece el auxiliar does; el verbo lleva directamente el tiempo: closed o closes."
+    },
+    {
+     "respuesta": "did close",
+     "explicacion": "Did también es un auxiliar de pregunta que no se mantiene en el estilo indirecto: closed."
+    },
+    {
+     "respuesta": "close",
+     "explicacion": "Sin auxiliar, el verbo debe llevar su marca de tiempo y persona: closed (o closes)."
+    }
+   ]
   },
   {
    "id": "e02",
@@ -122,7 +138,23 @@
     "breaking",
     "having broken"
    ],
-   "explicacion": "Deny + -ing (simple o perfecto)."
+   "explicacion": "Es la fila «verbo + -ing» de la tabla: deny va seguido de -ing. La pista es el verbo introductorio denied. Según la lista de Reglas y claves, deny admite -ing simple (breaking) o perfecto (having broken), este último para subrayar que la acción es anterior; ambos son correctos.",
+   "explicacion_breve": "Deny + -ing (simple o perfecto).",
+   "traduccion": "Negó haber roto la ventana.",
+   "errores_previstos": [
+    {
+     "respuesta": "to break",
+     "explicacion": "Deny no admite to + infinitivo; va seguido de -ing (breaking)."
+    },
+    {
+     "respuesta": "to have broken",
+     "explicacion": "Es el calco de «negó haber roto»: con deny la forma perfecta es having broken, no to have broken."
+    },
+    {
+     "respuesta": "broke",
+     "explicacion": "Tras deny no puede ir un verbo conjugado sin sujeto; se usa -ing o that + oración."
+    }
+   ]
   },
   {
    "id": "e03",
@@ -132,7 +164,23 @@
    "respuestas": [
     "to send"
    ],
-   "explicacion": "Remind + persona + to + infinitivo."
+   "explicacion": "Se aplica la fila «verbo + persona + to + infinitivo» de la tabla, en la que figura remind. La pista es la estructura reminded me: tras la persona viene to + infinitivo. En español usamos «que + subjuntivo» («me recordó que enviara»), pero en inglés no se puede calcar con that.",
+   "explicacion_breve": "Remind + persona + to + infinitivo.",
+   "traduccion": "Mi jefe me recordó que enviara la factura.",
+   "errores_previstos": [
+    {
+     "respuesta": "send",
+     "explicacion": "Remind + persona va seguido de to + infinitivo: to send."
+    },
+    {
+     "respuesta": "sending",
+     "explicacion": "Remind no va con -ing en esta estructura; se dice reminded me to send (remind me of sending no es correcto)."
+    },
+    {
+     "respuesta": "that I send",
+     "explicacion": "Calco de «que enviara»; remind + persona + that se usa para recordar un hecho, no para pedir una acción. Aquí corresponde to send."
+    }
+   ]
   },
   {
    "id": "e04",
@@ -142,7 +190,23 @@
    "respuestas": [
     "of"
    ],
-   "explicacion": "Accuse somebody of + -ing."
+   "explicacion": "Es la fila «verbo + preposición + -ing» de la tabla: accuse somebody of + -ing. La pista es accused him seguido de stealing: falta la preposición, que en inglés es of, aunque en español también decimos «acusar de». Es una colocación fija que conviene aprender con el verbo.",
+   "explicacion_breve": "Accuse somebody of + -ing.",
+   "traduccion": "La policía le acusó de robar el coche.",
+   "errores_previstos": [
+    {
+     "respuesta": "for",
+     "explicacion": "For se usa con blame (blame sb for); accuse lleva of."
+    },
+    {
+     "respuesta": "to",
+     "explicacion": "Accuse no lleva to; la preposición fija es of."
+    },
+    {
+     "respuesta": "about",
+     "explicacion": "About no forma colocación con accuse; se dice accuse sb of."
+    }
+   ]
   },
   {
    "id": "e05",
@@ -158,7 +222,15 @@
    "respuestas": [
     "if"
    ],
-   "explicacion": "Pregunta de sí/no en estilo indirecto: if/whether."
+   "explicacion": "Se aplica la regla de Reglas y claves: con preguntas de sí/no se usa if o whether. La pista es que la pregunta original no tenía partícula interrogativa («Have you ever been to Japan?») y el orden que sigue al hueco es afirmativo (I had ever been). If equivale aquí al «si» interrogativo del español.",
+   "explicacion_breve": "Pregunta de sí/no en estilo indirecto: if/whether.",
+   "traduccion": "Me preguntó si había estado alguna vez en Japón.",
+   "por_opcion": {
+    "if": "Correcta: if introduce la pregunta indirecta de sí o no («si había estado»).",
+    "that": "Incorrecta: that introduce afirmaciones (said that…), no preguntas; con ask no se usa that.",
+    "what": "Incorrecta: what pide información concreta («qué»); aquí la respuesta esperada es sí o no.",
+    "do": "Incorrecta: en la pregunta indirecta no se usa el auxiliar do, y además el verbo ya está en past perfect."
+   }
   },
   {
    "id": "e06",
@@ -174,7 +246,15 @@
    "respuestas": [
     "to switch off"
    ],
-   "explicacion": "Tell + persona + to + infinitivo para órdenes."
+   "explicacion": "Se aplica la regla de las órdenes: tell + persona + to + infinitivo. La pista es told the students, que transmite una orden («Switch off your phones»). En español se traduce con «que + subjuntivo», pero en inglés es obligatorio to + infinitivo.",
+   "explicacion_breve": "Tell + persona + to + infinitivo para órdenes.",
+   "traduccion": "El profesor dijo a los alumnos que apagaran los móviles.",
+   "por_opcion": {
+    "to switch off": "Correcta: tell + persona + to + infinitivo transmite la orden.",
+    "switch off": "Incorrecta: falta to; tras tell + persona el infinitivo lleva to.",
+    "switching off": "Incorrecta: tell no va seguido de -ing para transmitir órdenes.",
+    "that switch off": "Incorrecta: calco de «que apagaran»; además le falta sujeto. Con that haría falta una oración completa, y para órdenes se prefiere to + infinitivo."
+   }
   },
   {
    "id": "e07",
@@ -189,7 +269,14 @@
    "respuestas": [
     "to drive"
    ],
-   "explicacion": "Offer + to + infinitivo, sin persona delante."
+   "explicacion": "Es la fila «verbo + to + infinitivo» de la tabla, donde figura offer. La pista es que me ya aparece después del hueco como objeto de drive: offer no lleva persona delante del infinitivo. Por eso la estructura es offered to drive me, «se ofreció a llevarme».",
+   "explicacion_breve": "Offer + to + infinitivo, sin persona delante.",
+   "traduccion": "Se ofreció a llevarme al aeropuerto.",
+   "por_opcion": {
+    "to drive": "Correcta: offer + to + infinitivo, sin persona delante.",
+    "driving": "Incorrecta: offer no va seguido de -ing.",
+    "me to drive": "Incorrecta: offer no admite persona + to (eso es de advise, invite, etc.); además repetiría me."
+   }
   },
   {
    "id": "e08",
@@ -204,7 +291,14 @@
    "respuestas": [
     "visiting"
    ],
-   "explicacion": "Recommend + -ing (como suggest)."
+   "explicacion": "Se aplica la fila «verbo + -ing» de la tabla, que incluye recommend junto a suggest. La pista es el verbo recommended seguido directamente de la acción, sin persona. La forma correcta es recommended visiting. Recommend us to visit se oye y algunos diccionarios lo registran, pero la norma que sigue la ficha y el uso cuidado prefieren -ing o that + oración.",
+   "explicacion_breve": "Recommend + -ing (como suggest).",
+   "traduccion": "Nuestro guía recomendó visitar el museo temprano.",
+   "por_opcion": {
+    "visiting": "Correcta: recommend + -ing, como suggest.",
+    "to visit": "Incorrecta: recommend no va seguido de to + infinitivo sin persona.",
+    "us to visit": "Incorrecta según la ficha: recommend, como suggest, no se construye con persona + to; se diría recommended that we visit. En el uso real a veces se oye, pero se considera poco cuidado."
+   }
   },
   {
    "id": "e09",
@@ -214,7 +308,23 @@
    "respuestas": [
     "I asked him where the station was."
    ],
-   "explicacion": "En la pregunta indirecta el verbo va tras el sujeto."
+   "explicacion": "Es la regla de las preguntas indirectas: orden de frase afirmativa, con el sujeto (the station) antes del verbo (was). La pista es el verbo asked: lo que sigue ya no es una pregunta directa, así que la inversión «where was the station» desaparece. Es el error típico que recoge la ficha.",
+   "explicacion_breve": "En la pregunta indirecta el verbo va tras el sujeto.",
+   "traduccion": "Le pregunté dónde estaba la estación.",
+   "errores_previstos": [
+    {
+     "respuesta": "I asked him where was the station.",
+     "explicacion": "Es la frase sin corregir: en la pregunta indirecta no hay inversión; el sujeto va antes del verbo."
+    },
+    {
+     "respuesta": "I asked him where is the station.",
+     "explicacion": "Mantiene la inversión y además no retrocede el tiempo; lo correcto es where the station was."
+    },
+    {
+     "respuesta": "I asked him where was the station?",
+     "explicacion": "Las preguntas indirectas no llevan signo de interrogación ni inversión."
+    }
+   ]
   },
   {
    "id": "e10",
@@ -228,7 +338,23 @@
     "She suggested we take a break.",
     "She suggested we should take a break."
    ],
-   "explicacion": "Suggest + -ing o + that + oración, nunca persona + to."
+   "explicacion": "Se aplica la regla de la lista: suggest nunca lleva persona + to; se usa -ing (suggested taking) o that + oración (suggested that we take / should take). La pista es us to take, calco de «nos sugirió tomar». Valen todas las variantes aceptadas: con -ing, con that o sin él, y con o sin should (el subjuntivo take es la forma más formal).",
+   "explicacion_breve": "Suggest + -ing o + that + oración, nunca persona + to.",
+   "traduccion": "Sugirió que nos tomáramos un descanso.",
+   "errores_previstos": [
+    {
+     "respuesta": "She suggested us to take a break.",
+     "explicacion": "Es la frase sin corregir: suggest no admite persona + to + infinitivo."
+    },
+    {
+     "respuesta": "She suggested to take a break.",
+     "explicacion": "Suggest tampoco admite to + infinitivo sin persona; se dice suggested taking."
+    },
+    {
+     "respuesta": "She suggested us taking a break.",
+     "explicacion": "Con -ing no se pone la persona como objeto; se dice suggested taking o suggested that we take."
+    }
+   ]
   },
   {
    "id": "e11",
@@ -238,7 +364,23 @@
    "respuestas": [
     "He asked me not to tell anyone."
    ],
-   "explicacion": "Orden negativa indirecta: not to + infinitivo."
+   "explicacion": "Es la regla de las órdenes y peticiones negativas: ask + persona + not to + infinitivo. La pista es asked me, que transmite la petición «Don't tell anyone». Al pasar a indirecto, don't desaparece y la negación se expresa con not delante de to.",
+   "explicacion_breve": "Orden negativa indirecta: not to + infinitivo.",
+   "traduccion": "Me pidió que no se lo dijera a nadie.",
+   "errores_previstos": [
+    {
+     "respuesta": "He asked me don't tell anyone.",
+     "explicacion": "Es la frase sin corregir: la negación del imperativo (don't) no se mantiene; se usa not to + infinitivo."
+    },
+    {
+     "respuesta": "He asked me not tell anyone.",
+     "explicacion": "Falta to: la petición negativa indirecta es not to + infinitivo (not to tell)."
+    },
+    {
+     "respuesta": "He asked me that I don't tell anyone.",
+     "explicacion": "Calco de «me pidió que no…»; con ask para peticiones se usa persona + not to + infinitivo."
+    }
+   ]
   },
   {
    "id": "e12",
@@ -255,7 +397,23 @@
     "He asked me if I'd seen the match the previous night.",
     "He asked me whether I'd seen the match the previous night."
    ],
-   "explicacion": "If/whether, pasado → past perfect y last night → the night before."
+   "explicacion": "Se aplican tres reglas: pregunta de sí/no con if o whether; desaparición del auxiliar did y retroceso del pasado simple a past perfect (had seen); y cambio de la referencia temporal (last night → the night before o the previous night). También cambia el pronombre you → I. Por eso hay ocho combinaciones válidas (if/whether, had/'d, the night before/the previous night).",
+   "explicacion_breve": "If/whether, pasado → past perfect y last night → the night before.",
+   "traduccion": "Me preguntó si había visto el partido la noche anterior.",
+   "errores_previstos": [
+    {
+     "respuesta": "He asked me did I see the match last night.",
+     "explicacion": "Mantiene el orden y el auxiliar de la pregunta directa y no cambia ni el tiempo ni la referencia temporal."
+    },
+    {
+     "respuesta": "He asked me if I saw the match last night.",
+     "explicacion": "Faltan el retroceso a past perfect (had seen) y el cambio de last night a the night before."
+    },
+    {
+     "respuesta": "He asked me that I had seen the match the night before.",
+     "explicacion": "Las preguntas de sí/no se introducen con if o whether, no con that."
+    }
+   ]
   },
   {
    "id": "e13",
@@ -265,7 +423,23 @@
    "respuestas": [
     "The doctor advised me to drink more water."
    ],
-   "explicacion": "Advise + persona + to + infinitivo."
+   "explicacion": "Es la fila «verbo + persona + to + infinitivo» de la tabla, donde figura advise. La pista es el consejo «You should drink more water»: should desaparece porque el propio verbo advise ya expresa el consejo, y you pasa a me. La estructura es advised me to drink.",
+   "explicacion_breve": "Advise + persona + to + infinitivo.",
+   "traduccion": "El médico me aconsejó que bebiera más agua.",
+   "errores_previstos": [
+    {
+     "respuesta": "The doctor advised me to drinking more water.",
+     "explicacion": "Tras to va el infinitivo sin más, no la forma en -ing: to drink."
+    },
+    {
+     "respuesta": "The doctor advised me drinking more water.",
+     "explicacion": "Advise + persona va seguido de to + infinitivo, no de -ing."
+    },
+    {
+     "respuesta": "The doctor advised to me to drink more water.",
+     "explicacion": "Advise no lleva to delante de la persona: advised me."
+    }
+   ]
   },
   {
    "id": "e14",
@@ -275,7 +449,23 @@
    "respuestas": [
     "She refused to sign the contract."
    ],
-   "explicacion": "Refuse + to + infinitivo resume la negativa."
+   "explicacion": "Se aplica la fila «verbo + to + infinitivo» de la tabla, donde figura refuse. La pista es la negativa «I won't sign»: refuse resume esa negativa por sí solo, de modo que won't desaparece y el verbo pasa a to + infinitivo (to sign). Es un buen ejemplo de cómo el verbo introductorio sustituye a la frase entera.",
+   "explicacion_breve": "Refuse + to + infinitivo resume la negativa.",
+   "traduccion": "Se negó a firmar el contrato.",
+   "errores_previstos": [
+    {
+     "respuesta": "She refused signing the contract.",
+     "explicacion": "Refuse va seguido de to + infinitivo, no de -ing."
+    },
+    {
+     "respuesta": "She refused to not sign the contract.",
+     "explicacion": "Refuse ya contiene la negación; añadir not invierte el sentido."
+    },
+    {
+     "respuesta": "She refused that she would sign the contract.",
+     "explicacion": "Refuse no admite that + oración; la estructura es refused to sign."
+    }
+   ]
   },
   {
    "id": "e15",
@@ -292,7 +482,19 @@
    "respuestas": [
     "she asked me where I lived"
    ],
-   "explicacion": "Pregunta indirecta: interrogativo + sujeto + verbo."
+   "explicacion": "Es la regla de las preguntas indirectas: interrogativo (where) + sujeto (I) + verbo (lived), sin inversión ni did. Delante va el verbo introductorio con la persona: she asked me. El calco de la pregunta directa (where did I live, where lived I) es el error que hay que evitar.",
+   "explicacion_breve": "Pregunta indirecta: interrogativo + sujeto + verbo.",
+   "traduccion": "Me preguntó dónde vivía.",
+   "errores_previstos": [
+    {
+     "respuesta": "she asked me where lived I",
+     "explicacion": "Mantiene la inversión de la pregunta directa; en la indirecta el sujeto va antes del verbo."
+    },
+    {
+     "respuesta": "she asked where I lived me",
+     "explicacion": "La persona a la que se pregunta va justo después de asked."
+    }
+   ]
   },
   {
    "id": "e16",
@@ -308,10 +510,28 @@
    "respuestas": [
     "they apologised for the delay"
    ],
-   "explicacion": "Apologise for + nombre o -ing."
+   "explicacion": "Se aplica la fila «verbo + preposición + -ing» de la tabla: apologise for, seguido de un sustantivo o de -ing. La pista es la palabra for entre las piezas, que acompaña siempre a apologise. El orden es sujeto, verbo, preposición y complemento.",
+   "explicacion_breve": "Apologise for + nombre o -ing.",
+   "traduccion": "Se disculparon por el retraso.",
+   "errores_previstos": [
+    {
+     "respuesta": "they apologised the delay for",
+     "explicacion": "La preposición for va delante de su complemento: apologised for the delay."
+    },
+    {
+     "respuesta": "for the delay they apologised",
+     "explicacion": "Anteponer el complemento es un orden marcado y poco natural; el normal es sujeto + verbo + for + complemento."
+    }
+   ]
   }
  ],
  "fuente": {
   "nombre": "propia"
+ },
+ "descripcion_larga_es": "Esta ficha amplía el estilo indirecto a las preguntas, las órdenes y los verbos introductorios más precisos que say y tell (advise, deny, refuse, suggest, accuse of…). En las preguntas indirectas desaparecen la inversión y el auxiliar do, y cada verbo exige su estructura. Son errores muy frecuentes en hispanohablantes de nivel intermedio y muy visibles en un informe o un examen.",
+ "contexto": {
+  "que_es": "Es la parte del estilo indirecto que transmite preguntas (con el interrogativo o con if/whether y orden de frase afirmativa), órdenes y peticiones (tell/ask + persona + to + infinitivo) y la intención del hablante mediante verbos introductorios específicos, cada uno con su complementación: to + infinitivo, persona + to, -ing, preposición + -ing o that + oración.",
+  "por_que_importa": "Los verbos introductorios permiten resumir con precisión lo que alguien dijo (he refused, she denied, they apologised) en lugar de repetir siempre said, algo esencial en actas, informes y noticias. Los errores de esta ficha (where did I work, suggested me to) son de los más frecuentes en hispanohablantes de B2 y penalizan mucho en un examen escrito porque afectan a la estructura de la frase.",
+  "cuando_se_usa": "Se usa al contar qué preguntó alguien, qué ordenó o pidió, y al resumir declaraciones con un verbo que expresa la función (negar, admitir, aconsejar, acusar). La señal es el verbo introductorio: según cuál sea, la estructura que lo sigue cambia. El hispanohablante tiende a mantener el orden de la pregunta directa y a calcar «me sugirió que» como suggested me to."
  }
 }

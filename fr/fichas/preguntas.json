@@ -6,62 +6,583 @@
  "nivel": "A1",
  "resumen": "En francés una pregunta se puede hacer con la entonación, con est-ce que o invirtiendo sujeto y verbo; las tres significan lo mismo y solo cambia el registro.",
  "explicacion": [
-  {"tipo": "texto", "texto": "Hay preguntas de sí o no (¿Hablas francés?) y preguntas de información, que llevan una palabra interrogativa (¿dónde?, ¿cuándo?, ¿cómo?). En español basta con la entonación; en francés eso también vale en la conversación, pero existen otras dos fórmulas más cuidadas."},
-  {"tipo": "tabla", "cabecera": ["Fórmula", "Ejemplo", "Registro"], "filas": [
-   ["Entonación ascendente (orden normal)", "Vous parlez français ?", "Oral, familiar"],
-   ["Est-ce que (qu' ante vocal) + frase", "Est-ce que vous parlez français ?", "Neutro, válido siempre"],
-   ["Inversión verbo-sujeto con guion", "Parlez-vous français ?", "Escrito, formal"],
-   ["Frase + n'est-ce pas ?", "Vous parlez français, n'est-ce pas ?", "Se espera un «sí» (¿verdad?)"]
-  ]},
-  {"tipo": "lista", "items": [
-   "Inversión: el pronombre sujeto va detrás del verbo, unido con guion: As-tu faim ? Connaissez-vous Paris ?",
-   "Si el verbo acaba en vocal ante il, elle, on, se intercala -t-: Aime-t-il le sport ? Va-t-elle venir ? A-t-on le temps ?",
-   "Con un nombre de sujeto, se mantiene el nombre y se añade el pronombre: Tom aime-t-il le café ? Ce cours est-il difficile ?",
-   "En los tiempos compuestos se invierte el auxiliar: As-tu fini ? Où est-il né ?",
-   "En negativo, ne va delante del verbo y pas detrás del pronombre: Pourquoi n'as-tu pas réussi ?",
-   "C'est e il y a se invierten así: Est-ce possible ? Y a-t-il un problème ?"
-  ]},
-  {"tipo": "tabla", "cabecera": ["Palabra", "Significado", "Ejemplo"], "filas": [
-   ["où", "dónde", "Où habites-tu ?"],
-   ["quand", "cuándo", "Quand est-ce que le film commence ?"],
-   ["comment", "cómo", "Comment allez-vous ?"],
-   ["pourquoi", "por qué", "Pourquoi est-ce que tu pleures ?"],
-   ["combien / combien de", "cuánto / cuántos", "Combien de frères as-tu ?"],
-   ["qui", "quién", "Qui est là ?"]
-  ]},
-  {"tipo": "texto", "texto": "La palabra interrogativa va delante de est-ce que (Où est-ce que tu vas ?) o delante del verbo invertido (Où vas-tu ?). Para contestar «sí» a una pregunta negativa se usa si, no oui: Tu ne viens pas ? — Si, je viens !"}
+  {
+   "tipo": "texto",
+   "texto": "Hay preguntas de sí o no (¿Hablas francés?) y preguntas de información, que llevan una palabra interrogativa (¿dónde?, ¿cuándo?, ¿cómo?). En español basta con la entonación; en francés eso también vale en la conversación, pero existen otras dos fórmulas más cuidadas."
+  },
+  {
+   "tipo": "tabla",
+   "cabecera": [
+    "Fórmula",
+    "Ejemplo",
+    "Registro"
+   ],
+   "filas": [
+    [
+     "Entonación ascendente (orden normal)",
+     "Vous parlez français ?",
+     "Oral, familiar"
+    ],
+    [
+     "Est-ce que (qu' ante vocal) + frase",
+     "Est-ce que vous parlez français ?",
+     "Neutro, válido siempre"
+    ],
+    [
+     "Inversión verbo-sujeto con guion",
+     "Parlez-vous français ?",
+     "Escrito, formal"
+    ],
+    [
+     "Frase + n'est-ce pas ?",
+     "Vous parlez français, n'est-ce pas ?",
+     "Se espera un «sí» (¿verdad?)"
+    ]
+   ]
+  },
+  {
+   "tipo": "lista",
+   "items": [
+    "Inversión: el pronombre sujeto va detrás del verbo, unido con guion: As-tu faim ? Connaissez-vous Paris ?",
+    "Si el verbo acaba en vocal ante il, elle, on, se intercala -t-: Aime-t-il le sport ? Va-t-elle venir ? A-t-on le temps ?",
+    "Con un nombre de sujeto, se mantiene el nombre y se añade el pronombre: Tom aime-t-il le café ? Ce cours est-il difficile ?",
+    "En los tiempos compuestos se invierte el auxiliar: As-tu fini ? Où est-il né ?",
+    "En negativo, ne va delante del verbo y pas detrás del pronombre: Pourquoi n'as-tu pas réussi ?",
+    "C'est e il y a se invierten así: Est-ce possible ? Y a-t-il un problème ?"
+   ]
+  },
+  {
+   "tipo": "tabla",
+   "cabecera": [
+    "Palabra",
+    "Significado",
+    "Ejemplo"
+   ],
+   "filas": [
+    [
+     "où",
+     "dónde",
+     "Où habites-tu ?"
+    ],
+    [
+     "quand",
+     "cuándo",
+     "Quand est-ce que le film commence ?"
+    ],
+    [
+     "comment",
+     "cómo",
+     "Comment allez-vous ?"
+    ],
+    [
+     "pourquoi",
+     "por qué",
+     "Pourquoi est-ce que tu pleures ?"
+    ],
+    [
+     "combien / combien de",
+     "cuánto / cuántos",
+     "Combien de frères as-tu ?"
+    ],
+    [
+     "qui",
+     "quién",
+     "Qui est là ?"
+    ]
+   ]
+  },
+  {
+   "tipo": "texto",
+   "texto": "La palabra interrogativa va delante de est-ce que (Où est-ce que tu vas ?) o delante del verbo invertido (Où vas-tu ?). Para contestar «sí» a una pregunta negativa se usa si, no oui: Tu ne viens pas ? — Si, je viens !"
+  }
  ],
  "ejemplos": [
-  {"frase": "Est-ce que tu aimes les films ?", "traduccion": "¿Te gustan las películas?"},
-  {"frase": "Connaissez-vous de bons cours ?", "traduccion": "¿Conocéis algún curso bueno?"},
-  {"frase": "Joe-Bob aime-t-il les maths ?", "traduccion": "¿A Joe-Bob le gustan las matemáticas?"},
-  {"frase": "Quand a-t-il rencontré Tammy ?", "traduccion": "¿Cuándo conoció a Tammy?"},
-  {"frase": "Tu connais Sartre, n'est-ce pas ?", "traduccion": "Conoces a Sartre, ¿verdad?"},
-  {"frase": "Pourquoi porte-t-il toujours un béret ?", "traduccion": "¿Por qué lleva siempre boina?"}
+  {
+   "frase": "Est-ce que tu aimes les films ?",
+   "traduccion": "¿Te gustan las películas?"
+  },
+  {
+   "frase": "Connaissez-vous de bons cours ?",
+   "traduccion": "¿Conocéis algún curso bueno?"
+  },
+  {
+   "frase": "Joe-Bob aime-t-il les maths ?",
+   "traduccion": "¿A Joe-Bob le gustan las matemáticas?"
+  },
+  {
+   "frase": "Quand a-t-il rencontré Tammy ?",
+   "traduccion": "¿Cuándo conoció a Tammy?"
+  },
+  {
+   "frase": "Tu connais Sartre, n'est-ce pas ?",
+   "traduccion": "Conoces a Sartre, ¿verdad?"
+  },
+  {
+   "frase": "Pourquoi porte-t-il toujours un béret ?",
+   "traduccion": "¿Por qué lleva siempre boina?"
+  }
  ],
  "errores_hispanohablantes": [
-  {"mal": "Que tu veux ?", "bien": "Qu'est-ce que tu veux ?", "nota": "En español basta «¿Qué quieres?», pero en francés que necesita est-ce que o inversión (Que veux-tu ?)."},
-  {"mal": "Parle il français ?", "bien": "Parle-t-il français ?", "nota": "En la inversión hay guion, y entre vocales se añade -t-."},
-  {"mal": "— Tu n'as pas faim ? — Oui, j'ai faim.", "bien": "— Tu n'as pas faim ? — Si, j'ai faim.", "nota": "Para llevar la contraria a una pregunta negativa se responde si."},
-  {"mal": "Combien des livres as-tu ?", "bien": "Combien de livres as-tu ?", "nota": "Combien de va sin artículo, como «cuántos libros»."}
+  {
+   "mal": "Que tu veux ?",
+   "bien": "Qu'est-ce que tu veux ?",
+   "nota": "En español basta «¿Qué quieres?», pero en francés que necesita est-ce que o inversión (Que veux-tu ?)."
+  },
+  {
+   "mal": "Parle il français ?",
+   "bien": "Parle-t-il français ?",
+   "nota": "En la inversión hay guion, y entre vocales se añade -t-."
+  },
+  {
+   "mal": "— Tu n'as pas faim ? — Oui, j'ai faim.",
+   "bien": "— Tu n'as pas faim ? — Si, j'ai faim.",
+   "nota": "Para llevar la contraria a una pregunta negativa se responde si."
+  },
+  {
+   "mal": "Combien des livres as-tu ?",
+   "bien": "Combien de livres as-tu ?",
+   "nota": "Combien de va sin artículo, como «cuántos libros»."
+  }
  ],
  "ejercicios": [
-  {"id": "e01", "tipo": "eleccion", "enunciado": "Elige la palabra interrogativa (¿Quién inventó eso?).", "frase": "___ a inventé ça ?", "opciones": ["Qui", "Que", "Où"], "respuestas": ["Qui"], "explicacion": "Para preguntar por una persona que es sujeto se usa qui.", "origen": "tatoeba:2354742"},
-  {"id": "e02", "tipo": "hueco", "enunciado": "Completa la pregunta (¿Quién está ahí?).", "frase": "___ est là ?", "respuestas": ["Qui", "Qui est-ce qui"], "explicacion": "Qui pregunta por personas: ¿quién?", "origen": "tatoeba:1158571"},
-  {"id": "e03", "tipo": "transformar", "enunciado": "Reescribe la pregunta con est-ce que.", "frase": "Où as-tu appris ça ?", "respuestas": ["Où est-ce que tu as appris ça ?"], "explicacion": "La palabra interrogativa va delante de est-ce que y después el orden normal sujeto + verbo.", "origen": "tatoeba:1724295"},
-  {"id": "e04", "tipo": "transformar", "enunciado": "Reescribe la pregunta con est-ce que.", "frase": "Où êtes-vous nées ?", "respuestas": ["Où est-ce que vous êtes nées ?"], "explicacion": "Con est-ce que se deshace la inversión: vous êtes nées.", "origen": "tatoeba:1619332"},
-  {"id": "e05", "tipo": "corregir", "enunciado": "Corrige el error.", "frase": "Où est-ce que il est né ?", "respuestas": ["Où est-ce qu'il est né ?"], "explicacion": "Que se apostrofa ante vocal: est-ce qu'il.", "origen": "tatoeba:399879"},
-  {"id": "e06", "tipo": "corregir", "enunciado": "Corrige el error.", "frase": "Parle-il français ?", "respuestas": ["Parle-t-il français ?"], "explicacion": "Si el verbo acaba en vocal ante il o elle, se intercala -t-."},
-  {"id": "e07", "tipo": "ordenar", "enunciado": "Ordena las palabras para preguntar dónde vive John.", "palabras": ["John", "habite", "Où"], "respuestas": ["Où habite John", "John habite où"], "explicacion": "Tras où, un nombre sujeto puede ir detrás del verbo sin pronombre añadido.", "origen": "tatoeba:399226"},
-  {"id": "e08", "tipo": "ordenar", "enunciado": "Ordena las palabras (¿Dónde la viste?).", "palabras": ["vue", "l'as-tu", "Où"], "respuestas": ["Où l'as-tu vue"], "explicacion": "En la inversión el pronombre complemento va delante del auxiliar y el sujeto detrás: l'as-tu.", "origen": "tatoeba:119962"},
-  {"id": "e09", "tipo": "eleccion", "enunciado": "Elige la respuesta adecuada.", "frase": "— Tu ne viens pas ? — ___, je viens !", "opciones": ["Oui", "Si", "Non"], "respuestas": ["Si"], "explicacion": "Para contestar afirmativamente a una pregunta negativa se usa si."},
-  {"id": "e10", "tipo": "hueco", "enunciado": "Completa con est-ce que en la forma adecuada.", "frase": "___ elle travaille aujourd'hui ?", "respuestas": ["Est-ce qu'"], "explicacion": "Ante una vocal (elle) que se apostrofa: est-ce qu'elle."},
-  {"id": "e11", "tipo": "transformar", "enunciado": "Reescribe la pregunta con inversión.", "frase": "Comment tu fais ça ?", "respuestas": ["Comment fais-tu ça ?"], "explicacion": "En la inversión el pronombre sujeto pasa detrás del verbo con guion.", "origen": "tatoeba:7701624"},
-  {"id": "e12", "tipo": "transformar", "enunciado": "Reescribe la pregunta con est-ce que.", "frase": "Où peut-on signer ?", "respuestas": ["Où est-ce qu'on peut signer ?", "Où est-ce que l'on peut signer ?"], "explicacion": "Est-ce que + on se apostrofa (est-ce qu'on) y se recupera el orden sujeto + verbo.", "origen": "tatoeba:1868994"},
-  {"id": "e13", "tipo": "hueco", "enunciado": "Completa con la palabra interrogativa (la respuesta es «A las nueve»).", "frase": "___ est-ce que le film commence ? — À neuf heures.", "respuestas": ["Quand"], "explicacion": "Se pregunta por el momento: quand."},
-  {"id": "e14", "tipo": "eleccion", "enunciado": "Elige la palabra interrogativa (la respuesta es «Quince euros»).", "frase": "___ coûte ce livre ? — Quinze euros.", "opciones": ["Combien", "Comment", "Quand"], "respuestas": ["Combien"], "explicacion": "Para preguntar un precio o una cantidad se usa combien."},
-  {"id": "e15", "tipo": "hueco", "enunciado": "Añade la coletilla que pide confirmación (¿verdad?).", "frase": "Tu es d'accord, ___ ?", "respuestas": ["n'est-ce pas"], "explicacion": "N'est-ce pas al final equivale a «¿verdad?» y espera un sí."},
-  {"id": "e16", "tipo": "transformar", "enunciado": "Reescribe la pregunta con inversión.", "frase": "Tom aime le café ?", "respuestas": ["Tom aime-t-il le café ?"], "explicacion": "Con un nombre de sujeto se mantiene el nombre y se añade el pronombre invertido; entre vocales, -t-."}
+  {
+   "id": "e01",
+   "tipo": "eleccion",
+   "enunciado": "Elige la palabra interrogativa (¿Quién inventó eso?).",
+   "frase": "___ a inventé ça ?",
+   "opciones": [
+    "Qui",
+    "Que",
+    "Où"
+   ],
+   "respuestas": [
+    "Qui"
+   ],
+   "explicacion": "Se pregunta por una persona que hace la acción, es decir, por el sujeto del verbo inventer. La tabla de palabras interrogativas de la ficha da qui para «quién». Como qui es sujeto, el verbo va directamente detrás, sin inversión ni est-ce que: qui a inventé ça ?",
+   "origen": "tatoeba:2354742",
+   "explicacion_breve": "Para preguntar por una persona que es sujeto se usa qui.",
+   "traduccion": "¿Quién ha inventado eso?",
+   "por_opcion": {
+    "Qui": "Correcta: qui pregunta por una persona, aquí el sujeto de a inventé.",
+    "Que": "Incorrecta: que pregunta por una cosa y no puede ser sujeto así; además exige inversión o est-ce que.",
+    "Où": "Incorrecta: où pregunta por un lugar (dónde), no por una persona."
+   }
+  },
+  {
+   "id": "e02",
+   "tipo": "hueco",
+   "enunciado": "Completa la pregunta (¿Quién está ahí?).",
+   "frase": "___ est là ?",
+   "respuestas": [
+    "Qui",
+    "Qui est-ce qui"
+   ],
+   "explicacion": "Se pregunta por una persona que es sujeto del verbo être, así que, según la tabla, qui: qui est là ? Se acepta también la forma reforzada qui est-ce qui, que pregunta igualmente por una persona sujeto y es más propia del registro oral. Là significa «ahí» o «allí».",
+   "origen": "tatoeba:1158571",
+   "explicacion_breve": "Qui pregunta por personas: ¿quién?",
+   "traduccion": "¿Quién está ahí?",
+   "errores_previstos": [
+    {
+     "respuesta": "Que",
+     "explicacion": "Que pregunta por cosas, no por personas: qui."
+    },
+    {
+     "respuesta": "Qui est-ce que",
+     "explicacion": "Qui est-ce que pregunta por una persona que es complemento; para el sujeto se usa qui est-ce qui."
+    },
+    {
+     "respuesta": "Quoi",
+     "explicacion": "Quoi pregunta por cosas («qué»). Para «quién» se usa qui."
+    }
+   ]
+  },
+  {
+   "id": "e03",
+   "tipo": "transformar",
+   "enunciado": "Reescribe la pregunta con est-ce que.",
+   "frase": "Où as-tu appris ça ?",
+   "respuestas": [
+    "Où est-ce que tu as appris ça ?"
+   ],
+   "explicacion": "La ficha explica que la palabra interrogativa va delante de est-ce que y que después se recupera el orden normal sujeto + verbo. Al quitar la inversión as-tu, el pronombre tu vuelve delante del auxiliar: où est-ce que tu as appris ça ? El guion desaparece porque ya no hay inversión.",
+   "origen": "tatoeba:1724295",
+   "explicacion_breve": "La palabra interrogativa va delante de est-ce que y después el orden normal sujeto + verbo.",
+   "traduccion": "¿Dónde has aprendido eso?",
+   "errores_previstos": [
+    {
+     "respuesta": "Où est-ce que as-tu appris ça ?",
+     "explicacion": "Est-ce que no se combina con la inversión: tras est-ce que va el orden normal, tu as appris."
+    },
+    {
+     "respuesta": "Est-ce que où tu as appris ça ?",
+     "explicacion": "La palabra interrogativa va delante de est-ce que: où est-ce que."
+    },
+    {
+     "respuesta": "Où est-ce qu'tu as appris ça ?",
+     "explicacion": "Que solo se apostrofa ante vocal; ante tu se escribe completo: est-ce que tu."
+    }
+   ]
+  },
+  {
+   "id": "e04",
+   "tipo": "transformar",
+   "enunciado": "Reescribe la pregunta con est-ce que.",
+   "frase": "Où êtes-vous nées ?",
+   "respuestas": [
+    "Où est-ce que vous êtes nées ?"
+   ],
+   "explicacion": "Con est-ce que se deshace la inversión: où est-ce que + sujeto + verbo. El pronombre vous vuelve delante del auxiliar: vous êtes nées. El participio conserva la concordancia en femenino plural de la frase original, porque naître se conjuga con être.",
+   "origen": "tatoeba:1619332",
+   "explicacion_breve": "Con est-ce que se deshace la inversión: vous êtes nées.",
+   "traduccion": "¿Dónde nacisteis (vosotras)? / ¿Dónde nacieron ustedes?",
+   "errores_previstos": [
+    {
+     "respuesta": "Où est-ce que êtes-vous nées ?",
+     "explicacion": "Tras est-ce que no se mantiene la inversión: vous êtes nées."
+    },
+    {
+     "respuesta": "Où est-ce que vous êtes né ?",
+     "explicacion": "Se ha perdido la concordancia de la frase original: nées, femenino plural."
+    },
+    {
+     "respuesta": "Où est-ce que vous avez nées ?",
+     "explicacion": "Naître se conjuga con être: vous êtes nées."
+    }
+   ]
+  },
+  {
+   "id": "e05",
+   "tipo": "corregir",
+   "enunciado": "Corrige el error.",
+   "frase": "Où est-ce que il est né ?",
+   "respuestas": [
+    "Où est-ce qu'il est né ?"
+   ],
+   "explicacion": "La tabla de fórmulas de la ficha indica que est-ce que se convierte en est-ce qu' ante vocal. Il empieza por vocal, así que hay que apostrofar: où est-ce qu'il est né ? Es la misma elisión que en je → j' o que → qu' en cualquier otra posición.",
+   "origen": "tatoeba:399879",
+   "explicacion_breve": "Que se apostrofa ante vocal: est-ce qu'il.",
+   "traduccion": "¿Dónde nació?",
+   "errores_previstos": [
+    {
+     "respuesta": "Où est-ce que il est né ?",
+     "explicacion": "Es la frase sin corregir: ante la vocal de il, que se apostrofa: qu'il."
+    },
+    {
+     "respuesta": "Où est-ce qu'il est-il né ?",
+     "explicacion": "Est-ce que no se combina con la inversión: où est-ce qu'il est né."
+    },
+    {
+     "respuesta": "Où est-ce qu il est né ?",
+     "explicacion": "Falta el apóstrofo: qu'il."
+    }
+   ]
+  },
+  {
+   "id": "e06",
+   "tipo": "corregir",
+   "enunciado": "Corrige el error.",
+   "frase": "Parle-il français ?",
+   "respuestas": [
+    "Parle-t-il français ?"
+   ],
+   "explicacion": "La ficha indica que en la inversión, si el verbo acaba en vocal ante il, elle u on, se intercala -t- para evitar el choque de vocales: parle-t-il. La t va entre dos guiones. Es una t puramente fonética, sin significado, que también aparece en a-t-il o va-t-elle.",
+   "explicacion_breve": "Si el verbo acaba en vocal ante il o elle, se intercala -t-.",
+   "traduccion": "¿Habla (él) francés?",
+   "errores_previstos": [
+    {
+     "respuesta": "Parle-il français ?",
+     "explicacion": "Es la frase sin corregir: entre la vocal final de parle e il se intercala -t-."
+    },
+    {
+     "respuesta": "Parle-t'il français ?",
+     "explicacion": "La t no es una elisión: va entre dos guiones, -t-, no con apóstrofo."
+    },
+    {
+     "respuesta": "Parle il français ?",
+     "explicacion": "En la inversión el verbo y el pronombre se unen con guion, y aquí además hace falta -t-."
+    }
+   ]
+  },
+  {
+   "id": "e07",
+   "tipo": "ordenar",
+   "enunciado": "Ordena las palabras para preguntar dónde vive John.",
+   "palabras": [
+    "John",
+    "habite",
+    "Où"
+   ],
+   "respuestas": [
+    "Où habite John",
+    "John habite où"
+   ],
+   "explicacion": "Con où y un nombre sujeto breve, el francés admite poner el nombre detrás del verbo sin añadir pronombre: où habite John ? También vale la pregunta por entonación con el interrogativo al final, John habite où ?, muy propia del oral. Lo que no hace falta aquí es el pronombre il de la inversión compleja.",
+   "origen": "tatoeba:399226",
+   "explicacion_breve": "Tras où, un nombre sujeto puede ir detrás del verbo sin pronombre añadido.",
+   "traduccion": "¿Dónde vive John?",
+   "errores_previstos": [
+    {
+     "respuesta": "Où John habite",
+     "explicacion": "Así, sin est-ce que ni inversión, es un calco del orden español. Lo correcto es où habite John o John habite où."
+    },
+    {
+     "respuesta": "Habite où John",
+     "explicacion": "La palabra interrogativa va al principio (o al final en el oral), no entre el verbo y el sujeto."
+    },
+    {
+     "respuesta": "John où habite",
+     "explicacion": "Où no puede ir entre el sujeto y el verbo: où habite John o John habite où."
+    }
+   ]
+  },
+  {
+   "id": "e08",
+   "tipo": "ordenar",
+   "enunciado": "Ordena las palabras (¿Dónde la viste?).",
+   "palabras": [
+    "vue",
+    "l'as-tu",
+    "Où"
+   ],
+   "respuestas": [
+    "Où l'as-tu vue"
+   ],
+   "explicacion": "En la inversión con tiempo compuesto, la ficha explica que se invierte el auxiliar: as-tu. El pronombre complemento l' (la) va delante del auxiliar, y el participio detrás: l'as-tu vue. La palabra interrogativa où encabeza la pregunta. Vue concuerda con l', femenino, porque el complemento directo va delante.",
+   "origen": "tatoeba:119962",
+   "explicacion_breve": "En la inversión el pronombre complemento va delante del auxiliar y el sujeto detrás: l'as-tu.",
+   "traduccion": "¿Dónde la viste?",
+   "errores_previstos": [
+    {
+     "respuesta": "Où vue l'as-tu",
+     "explicacion": "El participio va detrás del auxiliar invertido: où l'as-tu vue."
+    },
+    {
+     "respuesta": "L'as-tu où vue",
+     "explicacion": "La palabra interrogativa va al principio: où l'as-tu vue."
+    },
+    {
+     "respuesta": "Où l'as-tu vue l'",
+     "explicacion": "El pronombre solo aparece una vez, delante del auxiliar."
+    }
+   ]
+  },
+  {
+   "id": "e09",
+   "tipo": "eleccion",
+   "enunciado": "Elige la respuesta adecuada.",
+   "frase": "— Tu ne viens pas ? — ___, je viens !",
+   "opciones": [
+    "Oui",
+    "Si",
+    "Non"
+   ],
+   "respuestas": [
+    "Si"
+   ],
+   "explicacion": "La ficha explica que para contestar «sí» a una pregunta negativa, llevando la contraria, se usa si y no oui. La pregunta tu ne viens pas ? es negativa, y la respuesta je viens es afirmativa, así que si. Oui solo responde a preguntas afirmativas.",
+   "explicacion_breve": "Para contestar afirmativamente a una pregunta negativa se usa si.",
+   "traduccion": "¿No vienes? —¡Sí, sí que voy!",
+   "por_opcion": {
+    "Oui": "Incorrecta: oui responde a preguntas afirmativas; ante una negativa, para decir que sí, se usa si.",
+    "Si": "Correcta: si contradice una pregunta negativa y afirma: sí que vengo.",
+    "Non": "Incorrecta: non confirmaría que no viene, y contradice je viens."
+   }
+  },
+  {
+   "id": "e10",
+   "tipo": "hueco",
+   "enunciado": "Completa con est-ce que en la forma adecuada.",
+   "frase": "___ elle travaille aujourd'hui ?",
+   "respuestas": [
+    "Est-ce qu'"
+   ],
+   "explicacion": "La tabla de fórmulas indica que est-ce que pasa a est-ce qu' ante vocal. Elle empieza por vocal, así que el hueco es est-ce qu', con apóstrofo y la mayúscula inicial de la frase. Después se mantiene el orden normal: elle travaille.",
+   "explicacion_breve": "Ante una vocal (elle) que se apostrofa: est-ce qu'elle.",
+   "traduccion": "¿Trabaja (ella) hoy?",
+   "errores_previstos": [
+    {
+     "respuesta": "Est-ce que",
+     "explicacion": "Ante la vocal de elle, que se apostrofa: est-ce qu'elle."
+    },
+    {
+     "respuesta": "Est-ce",
+     "explicacion": "Falta que: la fórmula completa es est-ce que, aquí est-ce qu'."
+    },
+    {
+     "respuesta": "Es-ce qu'",
+     "explicacion": "La forma es est-ce, con t: est-ce qu'."
+    }
+   ]
+  },
+  {
+   "id": "e11",
+   "tipo": "transformar",
+   "enunciado": "Reescribe la pregunta con inversión.",
+   "frase": "Comment tu fais ça ?",
+   "respuestas": [
+    "Comment fais-tu ça ?"
+   ],
+   "explicacion": "Para la inversión, la ficha indica que el pronombre sujeto pasa detrás del verbo, unido con guion: fais-tu. La palabra interrogativa comment sigue al principio: comment fais-tu ça ? Fais acaba en consonante escrita, así que no hace falta -t-.",
+   "origen": "tatoeba:7701624",
+   "explicacion_breve": "En la inversión el pronombre sujeto pasa detrás del verbo con guion.",
+   "traduccion": "¿Cómo haces eso?",
+   "errores_previstos": [
+    {
+     "respuesta": "Comment fais tu ça ?",
+     "explicacion": "Falta el guion obligatorio de la inversión: fais-tu."
+    },
+    {
+     "respuesta": "Comment fais-t-tu ça ?",
+     "explicacion": "La -t- solo se intercala ante il, elle, on cuando el verbo acaba en vocal; con tu nunca."
+    },
+    {
+     "respuesta": "Comment tu-fais ça ?",
+     "explicacion": "En la inversión el verbo va primero y el pronombre detrás: fais-tu."
+    }
+   ]
+  },
+  {
+   "id": "e12",
+   "tipo": "transformar",
+   "enunciado": "Reescribe la pregunta con est-ce que.",
+   "frase": "Où peut-on signer ?",
+   "respuestas": [
+    "Où est-ce qu'on peut signer ?",
+    "Où est-ce que l'on peut signer ?"
+   ],
+   "explicacion": "Al pasar a est-ce que se deshace la inversión peut-on y se recupera el orden sujeto + verbo: on peut. Como on empieza por vocal, que se apostrofa: où est-ce qu'on peut signer ? También se acepta est-ce que l'on, con el l' eufónico propio del registro cuidado, que evita el apóstrofo.",
+   "origen": "tatoeba:1868994",
+   "explicacion_breve": "Est-ce que + on se apostrofa (est-ce qu'on) y se recupera el orden sujeto + verbo.",
+   "traduccion": "¿Dónde se puede firmar?",
+   "errores_previstos": [
+    {
+     "respuesta": "Où est-ce que on peut signer ?",
+     "explicacion": "Ante la vocal de on, que se apostrofa: qu'on (o se usa l'on)."
+    },
+    {
+     "respuesta": "Où est-ce qu'on peut-on signer ?",
+     "explicacion": "Est-ce que no se combina con la inversión: qu'on peut signer."
+    },
+    {
+     "respuesta": "Où est-ce qu'on peux signer ?",
+     "explicacion": "Con on el verbo va en tercera persona: peut."
+    }
+   ]
+  },
+  {
+   "id": "e13",
+   "tipo": "hueco",
+   "enunciado": "Completa con la palabra interrogativa (la respuesta es «A las nueve»).",
+   "frase": "___ est-ce que le film commence ? — À neuf heures.",
+   "respuestas": [
+    "Quand"
+   ],
+   "explicacion": "La respuesta indica un momento (à neuf heures), así que se pregunta con quand, «cuándo», de la tabla de palabras interrogativas. Como indica la ficha, la palabra interrogativa va delante de est-ce que: quand est-ce que le film commence ?",
+   "explicacion_breve": "Se pregunta por el momento: quand.",
+   "traduccion": "¿Cuándo empieza la película? —A las nueve.",
+   "errores_previstos": [
+    {
+     "respuesta": "Comment",
+     "explicacion": "Comment pregunta por el modo (cómo); para la hora se usa quand."
+    },
+    {
+     "respuesta": "Quant",
+     "explicacion": "Quant (en quant à, en cuanto a) es otra palabra. El interrogativo «cuándo» es quand, con d."
+    },
+    {
+     "respuesta": "Où",
+     "explicacion": "Où pregunta por el lugar; la respuesta es una hora: quand."
+    }
+   ]
+  },
+  {
+   "id": "e14",
+   "tipo": "eleccion",
+   "enunciado": "Elige la palabra interrogativa (la respuesta es «Quince euros»).",
+   "frase": "___ coûte ce livre ? — Quinze euros.",
+   "opciones": [
+    "Combien",
+    "Comment",
+    "Quand"
+   ],
+   "respuestas": [
+    "Combien"
+   ],
+   "explicacion": "La respuesta es un precio, una cantidad, y la tabla de la ficha da combien para «cuánto». Con un nombre detrás sería combien de (combien de livres), pero aquí combien acompaña directamente al verbo coûter. Combien coûte… ? es la fórmula estándar para preguntar un precio.",
+   "explicacion_breve": "Para preguntar un precio o una cantidad se usa combien.",
+   "traduccion": "¿Cuánto cuesta este libro? —Quince euros.",
+   "por_opcion": {
+    "Combien": "Correcta: combien pregunta por una cantidad, aquí un precio.",
+    "Comment": "Incorrecta: comment significa «cómo»; se parece a combien, pero pregunta por el modo.",
+    "Quand": "Incorrecta: quand pregunta por el momento (cuándo), no por el precio."
+   }
+  },
+  {
+   "id": "e15",
+   "tipo": "hueco",
+   "enunciado": "Añade la coletilla que pide confirmación (¿verdad?).",
+   "frase": "Tu es d'accord, ___ ?",
+   "respuestas": [
+    "n'est-ce pas"
+   ],
+   "explicacion": "La tabla de fórmulas incluye frase + n'est-ce pas, que equivale a «¿verdad?» o «¿no?» y espera una confirmación. Se escribe con n' apostrofado, est-ce con guion y pas separado: n'est-ce pas. Es invariable, sea cual sea el sujeto o el tiempo de la frase.",
+   "explicacion_breve": "N'est-ce pas al final equivale a «¿verdad?» y espera un sí.",
+   "traduccion": "Estás de acuerdo, ¿verdad?",
+   "errores_previstos": [
+    {
+     "respuesta": "n'est ce pas",
+     "explicacion": "Falta el guion entre est y ce: n'est-ce pas."
+    },
+    {
+     "respuesta": "ne est-ce pas",
+     "explicacion": "Ne se apostrofa ante la vocal de est: n'est-ce pas."
+    },
+    {
+     "respuesta": "est-ce que",
+     "explicacion": "Est-ce que va al principio para formular la pregunta; la coletilla final es n'est-ce pas."
+    }
+   ]
+  },
+  {
+   "id": "e16",
+   "tipo": "transformar",
+   "enunciado": "Reescribe la pregunta con inversión.",
+   "frase": "Tom aime le café ?",
+   "respuestas": [
+    "Tom aime-t-il le café ?"
+   ],
+   "explicacion": "La ficha explica que con un nombre de sujeto no se invierte el nombre: se mantiene delante y se añade el pronombre correspondiente detrás del verbo. Tom → il, así que Tom aime-il… y, como aime acaba en vocal, se intercala -t-: Tom aime-t-il le café ?",
+   "explicacion_breve": "Con un nombre de sujeto se mantiene el nombre y se añade el pronombre invertido; entre vocales, -t-.",
+   "traduccion": "¿A Tom le gusta el café?",
+   "errores_previstos": [
+    {
+     "respuesta": "Aime-t-il Tom le café ?",
+     "explicacion": "El nombre sujeto se mantiene delante del verbo: Tom aime-t-il."
+    },
+    {
+     "respuesta": "Aime Tom le café ?",
+     "explicacion": "En una pregunta de sí o no, el nombre no se invierte; se añade el pronombre: Tom aime-t-il."
+    },
+    {
+     "respuesta": "Tom aime-il le café ?",
+     "explicacion": "Entre la vocal final de aime e il se intercala -t-: aime-t-il."
+    }
+   ]
+  }
  ],
- "fuente": {"nombre": "Tex's French Grammar", "autores": "COERLL, Universidad de Texas en Austin", "licencia": "CC BY 3.0", "url": "https://laits.utexas.edu/tex/gr/int1.html", "otras": ["Frases de Tatoeba (CC BY 2.0 FR)"]}
+ "fuente": {
+  "nombre": "Tex's French Grammar",
+  "autores": "COERLL, Universidad de Texas en Austin",
+  "licencia": "CC BY 3.0",
+  "url": "https://laits.utexas.edu/tex/gr/int1.html",
+  "otras": [
+   "Frases de Tatoeba (CC BY 2.0 FR)"
+  ]
+ },
+ "descripcion_larga_es": "Esta ficha enseña las tres maneras de hacer una pregunta en francés: con la entonación (Tu viens ?), con est-ce que (Est-ce que tu viens ?) y con la inversión (Viens-tu ?), además de las palabras interrogativas básicas. Las tres significan lo mismo; cambia el registro. Al hispanohablante le cuesta porque en español basta la entonación, y la inversión tiene detalles propios: guion, -t- entre vocales y pronombre añadido tras un nombre.",
+ "contexto": {
+  "que_es": "Son las estructuras para formular preguntas totales (de sí o no) y parciales (con una palabra interrogativa como où, quand, comment). El francés dispone de tres fórmulas equivalentes en sentido: entonación ascendente con el orden normal, la locución est-ce que delante de la frase y la inversión del verbo y el pronombre sujeto unidos por guion.",
+  "por_que_importa": "Preguntar es básico en cualquier conversación, y en un examen oral hay que saber hacerlo con el registro adecuado: la inversión da un tono cuidado, la entonación sola puede sonar demasiado familiar ante un tribunal. Los errores de forma (parle-il, est-ce que il, que tu veux) delatan un nivel bajo. También importa responder bien a una pregunta negativa con si.",
+  "cuando_se_usa": "La entonación, en la conversación cotidiana; est-ce que, en cualquier situación, porque es neutra; la inversión, por escrito y en registros formales (entrevistas, cartas, examen). La palabra interrogativa va delante de est-ce que o del verbo invertido. El hispanohablante tiende a calcar el español («Que tu veux ?») o a olvidar el guion y la -t-; conviene elegir una fórmula y construirla entera."
+ }
 }

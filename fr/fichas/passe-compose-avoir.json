@@ -6,60 +6,602 @@
  "nivel": "A2",
  "resumen": "El passé composé es el pasado más usado para acciones terminadas; se forma con avoir (o être) en presente + participio y traduce tanto «he comido» como «comí».",
  "explicacion": [
-  {"tipo": "texto", "texto": "A diferencia del español, el francés hablado no distingue entre «comí» y «he comido»: las dos se dicen j'ai mangé. El passé composé se forma con el presente de avoir + participio pasado. La mayoría de los verbos usan avoir; un grupo usa être (ver la ficha correspondiente)."},
-  {"tipo": "tabla", "cabecera": ["Infinitivo", "Participio", "Ejemplo"], "filas": [
-   ["-er: parler", "-é: parlé", "j'ai parlé, nous avons parlé"],
-   ["-ir: finir", "-i: fini", "tu as fini, vous avez fini"],
-   ["-re: perdre", "-u: perdu", "il a perdu, ils ont perdu"]
-  ]},
-  {"tipo": "tabla", "cabecera": ["Infinitivo", "Participio", "Infinitivo", "Participio"], "filas": [
-   ["avoir", "eu", "être", "été"],
-   ["faire", "fait", "dire", "dit"],
-   ["prendre", "pris", "mettre", "mis"],
-   ["voir", "vu", "boire", "bu"],
-   ["lire", "lu", "croire", "cru"],
-   ["pouvoir", "pu", "vouloir", "voulu"],
-   ["devoir", "dû", "savoir", "su"],
-   ["écrire", "écrit", "ouvrir", "ouvert"],
-   ["recevoir", "reçu", "connaître", "connu"]
-  ]},
-  {"tipo": "lista", "items": [
-   "Negación: ne… pas rodea al auxiliar: Je n'ai pas mangé. Tammy n'a pas mangé de viande.",
-   "Los pronombres van delante del auxiliar: Je l'ai vu. Il me l'a dit.",
-   "Los adverbios cortos (bien, mal, déjà, trop, beaucoup) suelen ir entre auxiliar y participio: Il a trop mangé.",
-   "El participio de los verbos en -er suena igual que el infinitivo: parlé / parler."
-  ]}
+  {
+   "tipo": "texto",
+   "texto": "A diferencia del español, el francés hablado no distingue entre «comí» y «he comido»: las dos se dicen j'ai mangé. El passé composé se forma con el presente de avoir + participio pasado. La mayoría de los verbos usan avoir; un grupo usa être (ver la ficha correspondiente)."
+  },
+  {
+   "tipo": "tabla",
+   "cabecera": [
+    "Infinitivo",
+    "Participio",
+    "Ejemplo"
+   ],
+   "filas": [
+    [
+     "-er: parler",
+     "-é: parlé",
+     "j'ai parlé, nous avons parlé"
+    ],
+    [
+     "-ir: finir",
+     "-i: fini",
+     "tu as fini, vous avez fini"
+    ],
+    [
+     "-re: perdre",
+     "-u: perdu",
+     "il a perdu, ils ont perdu"
+    ]
+   ]
+  },
+  {
+   "tipo": "tabla",
+   "cabecera": [
+    "Infinitivo",
+    "Participio",
+    "Infinitivo",
+    "Participio"
+   ],
+   "filas": [
+    [
+     "avoir",
+     "eu",
+     "être",
+     "été"
+    ],
+    [
+     "faire",
+     "fait",
+     "dire",
+     "dit"
+    ],
+    [
+     "prendre",
+     "pris",
+     "mettre",
+     "mis"
+    ],
+    [
+     "voir",
+     "vu",
+     "boire",
+     "bu"
+    ],
+    [
+     "lire",
+     "lu",
+     "croire",
+     "cru"
+    ],
+    [
+     "pouvoir",
+     "pu",
+     "vouloir",
+     "voulu"
+    ],
+    [
+     "devoir",
+     "dû",
+     "savoir",
+     "su"
+    ],
+    [
+     "écrire",
+     "écrit",
+     "ouvrir",
+     "ouvert"
+    ],
+    [
+     "recevoir",
+     "reçu",
+     "connaître",
+     "connu"
+    ]
+   ]
+  },
+  {
+   "tipo": "lista",
+   "items": [
+    "Negación: ne… pas rodea al auxiliar: Je n'ai pas mangé. Tammy n'a pas mangé de viande.",
+    "Los pronombres van delante del auxiliar: Je l'ai vu. Il me l'a dit.",
+    "Los adverbios cortos (bien, mal, déjà, trop, beaucoup) suelen ir entre auxiliar y participio: Il a trop mangé.",
+    "El participio de los verbos en -er suena igual que el infinitivo: parlé / parler."
+   ]
+  }
  ],
  "ejemplos": [
-  {"frase": "Tex a mangé toute la viande !", "traduccion": "¡Tex se ha comido toda la carne!"},
-  {"frase": "J'ai perdu ma collection de noix.", "traduccion": "He perdido mi colección de nueces."},
-  {"frase": "Qui a écrit ce livre ?", "traduccion": "¿Quién escribió este libro?"},
-  {"frase": "Il a pris une photo.", "traduccion": "Hizo una foto."},
-  {"frase": "Tom a eu de la chance.", "traduccion": "Tom tuvo suerte."},
-  {"frase": "Est-ce que tu as vu ça ?", "traduccion": "¿Has visto eso?"}
+  {
+   "frase": "Tex a mangé toute la viande !",
+   "traduccion": "¡Tex se ha comido toda la carne!"
+  },
+  {
+   "frase": "J'ai perdu ma collection de noix.",
+   "traduccion": "He perdido mi colección de nueces."
+  },
+  {
+   "frase": "Qui a écrit ce livre ?",
+   "traduccion": "¿Quién escribió este libro?"
+  },
+  {
+   "frase": "Il a pris une photo.",
+   "traduccion": "Hizo una foto."
+  },
+  {
+   "frase": "Tom a eu de la chance.",
+   "traduccion": "Tom tuvo suerte."
+  },
+  {
+   "frase": "Est-ce que tu as vu ça ?",
+   "traduccion": "¿Has visto eso?"
+  }
  ],
  "errores_hispanohablantes": [
-  {"mal": "Je n'ai mangé pas.", "bien": "Je n'ai pas mangé.", "nota": "Pas va detrás del auxiliar, no del participio."},
-  {"mal": "J'ai prendu le bus.", "bien": "J'ai pris le bus.", "nota": "Prendre tiene participio irregular: pris."},
-  {"mal": "J'ai vu à Pierre.", "bien": "J'ai vu Pierre.", "nota": "El complemento directo de persona no lleva preposición en francés."}
+  {
+   "mal": "Je n'ai mangé pas.",
+   "bien": "Je n'ai pas mangé.",
+   "nota": "Pas va detrás del auxiliar, no del participio."
+  },
+  {
+   "mal": "J'ai prendu le bus.",
+   "bien": "J'ai pris le bus.",
+   "nota": "Prendre tiene participio irregular: pris."
+  },
+  {
+   "mal": "J'ai vu à Pierre.",
+   "bien": "J'ai vu Pierre.",
+   "nota": "El complemento directo de persona no lleva preposición en francés."
+  }
  ],
  "ejercicios": [
-  {"id": "e01", "tipo": "hueco", "enunciado": "Completa con el auxiliar.", "frase": "Il ___ mangé la pomme.", "respuestas": ["a"], "explicacion": "Il → a + participio.", "origen": "tatoeba:3742696"},
-  {"id": "e02", "tipo": "hueco", "enunciado": "Completa con el participio.", "frase": "J'ai ___ une liste (faire).", "respuestas": ["fait"], "explicacion": "Participio irregular de faire: fait.", "origen": "tatoeba:2382181"},
-  {"id": "e03", "tipo": "hueco", "enunciado": "Completa con el participio.", "frase": "Il a ___ une photo (prendre).", "respuestas": ["pris"], "explicacion": "Participio irregular de prendre: pris.", "origen": "tatoeba:1178034"},
-  {"id": "e04", "tipo": "hueco", "enunciado": "Completa con el participio.", "frase": "Qui a ___ ce livre ? (écrire)", "respuestas": ["écrit"], "explicacion": "Participio irregular de écrire: écrit.", "origen": "tatoeba:378898"},
-  {"id": "e05", "tipo": "transformar", "enunciado": "Pasa la frase al passé composé.", "frase": "Tom perd espoir.", "respuestas": ["Tom a perdu espoir."], "explicacion": "Verbo en -re: participio en -u.", "origen": "tatoeba:4332802"},
-  {"id": "e06", "tipo": "transformar", "enunciado": "Pasa la frase al passé composé.", "frase": "Tom finit la course.", "respuestas": ["Tom a fini la course."], "explicacion": "Verbo en -ir: participio en -i.", "origen": "tatoeba:7698969"},
-  {"id": "e07", "tipo": "corregir", "enunciado": "Corrige el error.", "frase": "J'ai voir Bob ce matin.", "respuestas": ["J'ai vu Bob ce matin."], "explicacion": "Tras el auxiliar va el participio: vu.", "origen": "tatoeba:375617"},
-  {"id": "e08", "tipo": "corregir", "enunciado": "Corrige el error.", "frase": "Tom a eut de la chance.", "respuestas": ["Tom a eu de la chance."], "explicacion": "El participio de avoir es eu, sin t.", "origen": "tatoeba:4332789"},
-  {"id": "e09", "tipo": "transformar", "enunciado": "Pasa la frase a negativa.", "frase": "J'ai mangé des frites.", "respuestas": ["Je n'ai pas mangé de frites."], "explicacion": "Ne… pas rodea al auxiliar y des pasa a de tras la negación.", "origen": "tatoeba:7702183"},
-  {"id": "e10", "tipo": "eleccion", "enunciado": "Elige la forma correcta.", "frase": "Nous ___ un bon film hier.", "opciones": ["avons vu", "sommes vus", "avons voir"], "respuestas": ["avons vu"], "explicacion": "Voir se conjuga con avoir; participio vu."},
-  {"id": "e11", "tipo": "eleccion", "enunciado": "Elige la forma correcta.", "frase": "Elles ___ la lettre.", "opciones": ["ont lu", "ont lit", "ont lisé"], "respuestas": ["ont lu"], "explicacion": "Participio irregular de lire: lu."},
-  {"id": "e12", "tipo": "ordenar", "enunciado": "Ordena las palabras (Cogí un taxi).", "palabras": ["taxi", "pris", "un", "J'ai"], "respuestas": ["J'ai pris un taxi"], "explicacion": "Auxiliar + participio + complemento.", "origen": "tatoeba:7696168"},
-  {"id": "e13", "tipo": "ordenar", "enunciado": "Ordena las palabras (No ha terminado).", "palabras": ["fini", "pas", "Il", "n'a"], "respuestas": ["Il n'a pas fini"], "explicacion": "Ne… pas rodea al auxiliar; el participio va al final."},
-  {"id": "e14", "tipo": "hueco", "enunciado": "Completa con el passé composé de boire.", "frase": "Vous ___ tout le café ?", "respuestas": ["avez bu"], "explicacion": "Vous → avez; participio de boire: bu."},
-  {"id": "e15", "tipo": "hueco", "enunciado": "Completa con el participio.", "frase": "Tu as ___ dormir ? (pouvoir)", "respuestas": ["pu"], "explicacion": "Participio irregular de pouvoir: pu."},
-  {"id": "e16", "tipo": "eleccion", "enunciado": "Elige la forma correcta.", "frase": "Ils ___ ta lettre.", "opciones": ["ont reçu", "ont recevu", "ont reçus"], "respuestas": ["ont reçu"], "explicacion": "Participio de recevoir: reçu; con avoir no concuerda con el sujeto."}
+  {
+   "id": "e01",
+   "tipo": "hueco",
+   "enunciado": "Completa con el auxiliar.",
+   "frase": "Il ___ mangé la pomme.",
+   "respuestas": [
+    "a"
+   ],
+   "explicacion": "Se aplica la regla de formación: presente de avoir + participio. Con el sujeto il, el presente de avoir es a, sin acento (à con acento es la preposición). La pista es el participio mangé, que ya está en la frase y solo necesita el auxiliar. Manger se conjuga con avoir, como la mayoría de los verbos.",
+   "origen": "tatoeba:3742696",
+   "explicacion_breve": "Il → a + participio.",
+   "traduccion": "Se ha comido la manzana.",
+   "errores_previstos": [
+    {
+     "respuesta": "à",
+     "explicacion": "À con acento es la preposición; el verbo avoir en tercera persona es a, sin acento."
+    },
+    {
+     "respuesta": "est",
+     "explicacion": "Manger no se conjuga con être sino con avoir: il a mangé."
+    },
+    {
+     "respuesta": "as",
+     "explicacion": "As es la segunda persona (tu as); con il es a."
+    }
+   ]
+  },
+  {
+   "id": "e02",
+   "tipo": "hueco",
+   "enunciado": "Completa con el participio.",
+   "frase": "J'ai ___ une liste (faire).",
+   "respuestas": [
+    "fait"
+   ],
+   "explicacion": "Faire es uno de los verbos con participio irregular que recoge la segunda tabla de la ficha: su participio es fait. La pista es el auxiliar j'ai, que pide un participio detrás. No sigue el modelo de los verbos en -re (perdre → perdu), así que no se dice «faisu» ni nada parecido.",
+   "origen": "tatoeba:2382181",
+   "explicacion_breve": "Participio irregular de faire: fait.",
+   "traduccion": "He hecho una lista.",
+   "errores_previstos": [
+    {
+     "respuesta": "faire",
+     "explicacion": "Tras el auxiliar va el participio, no el infinitivo: fait."
+    },
+    {
+     "respuesta": "faité",
+     "explicacion": "Faire no es un verbo en -er; su participio es irregular: fait."
+    },
+    {
+     "respuesta": "fais",
+     "explicacion": "Fais es el presente (je fais); el participio es fait."
+    }
+   ]
+  },
+  {
+   "id": "e03",
+   "tipo": "hueco",
+   "enunciado": "Completa con el participio.",
+   "frase": "Il a ___ une photo (prendre).",
+   "respuestas": [
+    "pris"
+   ],
+   "explicacion": "Prendre tiene participio irregular, pris, como indica la segunda tabla. Es el mismo modelo de mettre (mis) y de los compuestos de prendre (appris, compris). La ficha recoge entre los errores típicos J'ai prendu: no sigue la regla de los verbos en -re. Prendre une photo es la expresión para «hacer una foto».",
+   "origen": "tatoeba:1178034",
+   "explicacion_breve": "Participio irregular de prendre: pris.",
+   "traduccion": "Hizo una foto.",
+   "errores_previstos": [
+    {
+     "respuesta": "prendu",
+     "explicacion": "Es el error típico de la ficha: el participio de prendre es irregular, pris."
+    },
+    {
+     "respuesta": "prit",
+     "explicacion": "Prit es el passé simple; el participio es pris."
+    },
+    {
+     "respuesta": "prendre",
+     "explicacion": "Tras el auxiliar va el participio: pris."
+    }
+   ]
+  },
+  {
+   "id": "e04",
+   "tipo": "hueco",
+   "enunciado": "Completa con el participio.",
+   "frase": "Qui a ___ ce livre ? (écrire)",
+   "respuestas": [
+    "écrit"
+   ],
+   "explicacion": "Écrire tiene participio irregular, écrit, que aparece en la segunda tabla. La pista es el auxiliar a: tras él va el participio. El español usa aquí el indefinido «escribió», pero en francés se usa el passé composé, porque el francés hablado no distingue entre «escribió» y «ha escrito».",
+   "origen": "tatoeba:378898",
+   "explicacion_breve": "Participio irregular de écrire: écrit.",
+   "traduccion": "¿Quién escribió este libro?",
+   "errores_previstos": [
+    {
+     "respuesta": "écrivé",
+     "explicacion": "Écrire no es un verbo en -er; el participio es irregular: écrit."
+    },
+    {
+     "respuesta": "écri",
+     "explicacion": "El participio termina en -t: écrit."
+    },
+    {
+     "respuesta": "écrire",
+     "explicacion": "Tras el auxiliar va el participio, no el infinitivo."
+    }
+   ]
+  },
+  {
+   "id": "e05",
+   "tipo": "transformar",
+   "enunciado": "Pasa la frase al passé composé.",
+   "frase": "Tom perd espoir.",
+   "respuestas": [
+    "Tom a perdu espoir."
+   ],
+   "explicacion": "Se aplica la primera tabla: los verbos en -re hacen el participio en -u, así que perdre da perdu. Con Tom el presente de avoir es a. El resultado es Tom a perdu espoir. La expresión perdre espoir no lleva artículo, igual que el original.",
+   "origen": "tatoeba:4332802",
+   "explicacion_breve": "Verbo en -re: participio en -u.",
+   "traduccion": "Tom ha perdido la esperanza.",
+   "errores_previstos": [
+    {
+     "respuesta": "Tom a perdé espoir.",
+     "explicacion": "La terminación -é es de los verbos en -er; perdre hace perdu."
+    },
+    {
+     "respuesta": "Tom est perdu espoir.",
+     "explicacion": "Perdre se conjuga con avoir: a perdu."
+    },
+    {
+     "respuesta": "Tom a perdi espoir.",
+     "explicacion": "La terminación -i es de los verbos en -ir; los en -re hacen -u: perdu."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "perdre espoir",
+     "significado": "perder la esperanza"
+    }
+   ]
+  },
+  {
+   "id": "e06",
+   "tipo": "transformar",
+   "enunciado": "Pasa la frase al passé composé.",
+   "frase": "Tom finit la course.",
+   "respuestas": [
+    "Tom a fini la course."
+   ],
+   "explicacion": "Según la primera tabla, los verbos en -ir como finir forman el participio en -i: fini. El auxiliar con Tom es a. Así, Tom finit la course pasa a Tom a fini la course. Fíjate en que finit (presente) y fini (participio) se pronuncian igual: la t final no suena.",
+   "origen": "tatoeba:7698969",
+   "explicacion_breve": "Verbo en -ir: participio en -i.",
+   "traduccion": "Tom ha terminado la carrera.",
+   "errores_previstos": [
+    {
+     "respuesta": "Tom a finit la course.",
+     "explicacion": "Finit es el presente; el participio es fini, sin t."
+    },
+    {
+     "respuesta": "Tom a finé la course.",
+     "explicacion": "Finir es un verbo en -ir: participio en -i, fini."
+    },
+    {
+     "respuesta": "Tom est fini la course.",
+     "explicacion": "Finir con complemento directo se conjuga con avoir: a fini."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "course",
+     "significado": "carrera (competición); también «recado» en plural (les courses, la compra)"
+    }
+   ]
+  },
+  {
+   "id": "e07",
+   "tipo": "corregir",
+   "enunciado": "Corrige el error.",
+   "frase": "J'ai voir Bob ce matin.",
+   "respuestas": [
+    "J'ai vu Bob ce matin."
+   ],
+   "explicacion": "El error es poner el infinitivo voir tras el auxiliar. La regla de formación exige el participio, que para voir es irregular: vu. La ficha recoge voir → vu en la tabla de participios irregulares. Fíjate también en que Bob, complemento directo de persona, no lleva preposición: j'ai vu Bob, no «à Bob».",
+   "origen": "tatoeba:375617",
+   "explicacion_breve": "Tras el auxiliar va el participio: vu.",
+   "traduccion": "He visto a Bob esta mañana.",
+   "errores_previstos": [
+    {
+     "respuesta": "J'ai voir Bob ce matin.",
+     "explicacion": "Es la frase sin corregir: tras el auxiliar va el participio vu."
+    },
+    {
+     "respuesta": "J'ai vu à Bob ce matin.",
+     "explicacion": "Corrige el participio, pero añade el calco del español: el complemento directo de persona no lleva à."
+    },
+    {
+     "respuesta": "J'ai voi Bob ce matin.",
+     "explicacion": "El participio de voir es vu."
+    }
+   ]
+  },
+  {
+   "id": "e08",
+   "tipo": "corregir",
+   "enunciado": "Corrige el error.",
+   "frase": "Tom a eut de la chance.",
+   "respuestas": [
+    "Tom a eu de la chance."
+   ],
+   "explicacion": "El participio de avoir es eu, sin t final, como recoge la tabla de participios irregulares. Eut, con t, es el passé simple (il eut), un tiempo literario distinto. La pista es que detrás del auxiliar a va el participio. Avoir de la chance significa «tener suerte», con partitivo.",
+   "origen": "tatoeba:4332789",
+   "explicacion_breve": "El participio de avoir es eu, sin t.",
+   "traduccion": "Tom ha tenido suerte.",
+   "errores_previstos": [
+    {
+     "respuesta": "Tom a eut de la chance.",
+     "explicacion": "Es la frase sin corregir: eut es passé simple; el participio es eu."
+    },
+    {
+     "respuesta": "Tom a avoir de la chance.",
+     "explicacion": "Tras el auxiliar va el participio, no el infinitivo."
+    },
+    {
+     "respuesta": "Tom a eu la chance.",
+     "explicacion": "Corrige el participio pero quita el partitivo: «tener suerte» es avoir de la chance."
+    }
+   ]
+  },
+  {
+   "id": "e09",
+   "tipo": "transformar",
+   "enunciado": "Pasa la frase a negativa.",
+   "frase": "J'ai mangé des frites.",
+   "respuestas": [
+    "Je n'ai pas mangé de frites."
+   ],
+   "explicacion": "La lista de la ficha indica que en passé composé ne… pas rodea al auxiliar: je n'ai pas mangé. Además, como enseña la ficha de partitivos, tras la negación des pasa a de: pas de frites. Je se mantiene porque ne va a continuación, y ne se apostrofa ante ai.",
+   "origen": "tatoeba:7702183",
+   "explicacion_breve": "Ne… pas rodea al auxiliar y des pasa a de tras la negación.",
+   "traduccion": "No he comido patatas fritas.",
+   "errores_previstos": [
+    {
+     "respuesta": "Je n'ai mangé pas de frites.",
+     "explicacion": "Es el error típico de la ficha: pas va detrás del auxiliar, no del participio."
+    },
+    {
+     "respuesta": "Je n'ai pas mangé des frites.",
+     "explicacion": "Tras la negación des pasa a de: pas de frites."
+    },
+    {
+     "respuesta": "Je ne ai pas mangé de frites.",
+     "explicacion": "Ne se apostrofa ante vocal: n'ai."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "frites",
+     "significado": "patatas fritas (de bastón)"
+    }
+   ]
+  },
+  {
+   "id": "e10",
+   "tipo": "eleccion",
+   "enunciado": "Elige la forma correcta.",
+   "frase": "Nous ___ un bon film hier.",
+   "opciones": [
+    "avons vu",
+    "sommes vus",
+    "avons voir"
+   ],
+   "respuestas": [
+    "avons vu"
+   ],
+   "explicacion": "Voir se conjuga con avoir, como la mayoría de los verbos, y su participio irregular es vu. Con nous el auxiliar es avons. El marcador hier pide un pasado terminado, que en español sería «vimos» y en francés es el passé composé.",
+   "explicacion_breve": "Voir se conjuga con avoir; participio vu.",
+   "traduccion": "Ayer vimos una buena película.",
+   "por_opcion": {
+    "avons vu": "Correcta: presente de avoir + participio irregular vu.",
+    "sommes vus": "Incorrecta: voir no se conjuga con être; nous nous sommes vus sería «nos vimos» (pronominal).",
+    "avons voir": "Incorrecta: tras el auxiliar va el participio, no el infinitivo."
+   }
+  },
+  {
+   "id": "e11",
+   "tipo": "eleccion",
+   "enunciado": "Elige la forma correcta.",
+   "frase": "Elles ___ la lettre.",
+   "opciones": [
+    "ont lu",
+    "ont lit",
+    "ont lisé"
+   ],
+   "respuestas": [
+    "ont lu"
+   ],
+   "explicacion": "Lire tiene participio irregular, lu, como recoge la segunda tabla de la ficha. Con elles el auxiliar es ont. El participio no concuerda con el sujeto porque va con avoir. Lit es el presente y «lisé» no existe.",
+   "explicacion_breve": "Participio irregular de lire: lu.",
+   "traduccion": "Leyeron la carta.",
+   "por_opcion": {
+    "ont lu": "Correcta: auxiliar ont + participio irregular lu.",
+    "ont lit": "Incorrecta: lit es el presente (il lit), no el participio.",
+    "ont lisé": "Incorrecta: lire no es un verbo en -er; «lisé» no existe."
+   }
+  },
+  {
+   "id": "e12",
+   "tipo": "ordenar",
+   "enunciado": "Ordena las palabras (Cogí un taxi).",
+   "palabras": [
+    "taxi",
+    "pris",
+    "un",
+    "J'ai"
+   ],
+   "respuestas": [
+    "J'ai pris un taxi"
+   ],
+   "explicacion": "El orden del passé composé es sujeto + auxiliar + participio + complemento: J'ai pris un taxi. J'ai ya incluye el sujeto y el auxiliar. Pris es el participio irregular de prendre. En español usamos aquí el indefinido «cogí», pero en francés corresponde el passé composé.",
+   "origen": "tatoeba:7696168",
+   "explicacion_breve": "Auxiliar + participio + complemento.",
+   "traduccion": "Cogí un taxi.",
+   "errores_previstos": [
+    {
+     "respuesta": "J'ai un taxi pris",
+     "explicacion": "El participio va justo detrás del auxiliar, antes del complemento."
+    },
+    {
+     "respuesta": "Pris un taxi j'ai",
+     "explicacion": "El orden francés empieza por el sujeto y el auxiliar."
+    }
+   ]
+  },
+  {
+   "id": "e13",
+   "tipo": "ordenar",
+   "enunciado": "Ordena las palabras (No ha terminado).",
+   "palabras": [
+    "fini",
+    "pas",
+    "Il",
+    "n'a"
+   ],
+   "respuestas": [
+    "Il n'a pas fini"
+   ],
+   "explicacion": "Se aplica la regla de la negación de la lista: ne… pas rodea al auxiliar. El orden es sujeto (il) + n' + auxiliar (a) + pas + participio (fini). Ne se apostrofa ante la vocal de a. El participio queda al final, fuera del bloque de la negación.",
+   "explicacion_breve": "Ne… pas rodea al auxiliar; el participio va al final.",
+   "traduccion": "No ha terminado.",
+   "errores_previstos": [
+    {
+     "respuesta": "Il n'a fini pas",
+     "explicacion": "Pas va detrás del auxiliar, no del participio."
+    },
+    {
+     "respuesta": "Il pas n'a fini",
+     "explicacion": "Pas nunca va delante del verbo; la negación rodea al auxiliar: n'a pas."
+    }
+   ]
+  },
+  {
+   "id": "e14",
+   "tipo": "hueco",
+   "enunciado": "Completa con el passé composé de boire.",
+   "frase": "Vous ___ tout le café ?",
+   "respuestas": [
+    "avez bu"
+   ],
+   "explicacion": "La regla de formación da: presente de avoir con vous (avez) + participio. Boire tiene participio irregular, bu, recogido en la segunda tabla. La pista es el sujeto vous, que exige avez. La pregunta se hace solo con la entonación, sin inversión.",
+   "explicacion_breve": "Vous → avez; participio de boire: bu.",
+   "traduccion": "¿Os habéis bebido todo el café?",
+   "errores_previstos": [
+    {
+     "respuesta": "avez bus",
+     "explicacion": "Con avoir el participio no concuerda: bu."
+    },
+    {
+     "respuesta": "avez boit",
+     "explicacion": "Boit es el presente; el participio de boire es bu."
+    },
+    {
+     "respuesta": "êtes bu",
+     "explicacion": "Boire se conjuga con avoir: avez bu."
+    }
+   ]
+  },
+  {
+   "id": "e15",
+   "tipo": "hueco",
+   "enunciado": "Completa con el participio.",
+   "frase": "Tu as ___ dormir ? (pouvoir)",
+   "respuestas": [
+    "pu"
+   ],
+   "explicacion": "Pouvoir tiene participio irregular, pu, recogido en la segunda tabla de la ficha. La pista es el auxiliar as, seguido de participio y luego del infinitivo dormir que depende de pouvoir. En francés no hay acento en pu (a diferencia de dû, de devoir).",
+   "explicacion_breve": "Participio irregular de pouvoir: pu.",
+   "traduccion": "¿Has podido dormir?",
+   "errores_previstos": [
+    {
+     "respuesta": "pouvu",
+     "explicacion": "El participio de pouvoir es irregular y muy corto: pu."
+    },
+    {
+     "respuesta": "pû",
+     "explicacion": "Pu no lleva acento circunflejo; el que lo lleva es dû, de devoir."
+    },
+    {
+     "respuesta": "peut",
+     "explicacion": "Peut es el presente; tras el auxiliar va el participio pu."
+    }
+   ]
+  },
+  {
+   "id": "e16",
+   "tipo": "eleccion",
+   "enunciado": "Elige la forma correcta.",
+   "frase": "Ils ___ ta lettre.",
+   "opciones": [
+    "ont reçu",
+    "ont recevu",
+    "ont reçus"
+   ],
+   "respuestas": [
+    "ont reçu"
+   ],
+   "explicacion": "El participio de recevoir es irregular, reçu, con cedilla para que la c suene como s delante de u. La ficha lo recoge en la segunda tabla. Con avoir el participio no concuerda con el sujeto ils, así que no lleva -s. La pista es el auxiliar ont.",
+   "explicacion_breve": "Participio de recevoir: reçu; con avoir no concuerda con el sujeto.",
+   "traduccion": "Han recibido tu carta.",
+   "por_opcion": {
+    "ont reçu": "Correcta: participio irregular reçu, sin concordancia con el sujeto.",
+    "ont recevu": "Incorrecta: «recevu» no existe; el participio es reçu.",
+    "ont reçus": "Incorrecta: con avoir el participio no concuerda con el sujeto ils."
+   }
+  }
  ],
- "fuente": {"nombre": "Tex's French Grammar", "autores": "COERLL, Universidad de Texas en Austin", "licencia": "CC BY 3.0", "url": "https://laits.utexas.edu/tex/gr/tap2.html", "otras": ["Frases de Tatoeba (CC BY 2.0 FR)"]}
+ "fuente": {
+  "nombre": "Tex's French Grammar",
+  "autores": "COERLL, Universidad de Texas en Austin",
+  "licencia": "CC BY 3.0",
+  "url": "https://laits.utexas.edu/tex/gr/tap2.html",
+  "otras": [
+   "Frases de Tatoeba (CC BY 2.0 FR)"
+  ]
+ },
+ "descripcion_larga_es": "El passé composé es el tiempo del pasado más usado en francés para hablar de acciones terminadas. Se forma con el presente de avoir (o de être, en un grupo de verbos) más el participio pasado. Para un hispanohablante, la novedad es que traduce a la vez «comí» y «he comido», y la dificultad está en los participios irregulares (pris, fait, vu) y en la posición de la negación.",
+ "contexto": {
+  "que_es": "Es un tiempo compuesto: presente de avoir (j'ai, tu as, il a, nous avons, vous avez, ils ont) + participio pasado. Los participios regulares terminan en -é (verbos en -er), -i (en -ir) y -u (en -re), y muchos verbos frecuentes tienen participio irregular. Con avoir el participio no concuerda con el sujeto.",
+  "por_que_importa": "Es el pasado básico de la conversación y de la escritura corriente: sirve para contar qué se ha hecho, qué pasó ayer o lo que ocurrió en un viaje. Sin él no se puede narrar. Los errores en el participio (j'ai prendu) o en la negación (je n'ai mangé pas) son muy visibles y se penalizan desde el nivel A2.",
+  "cuando_se_usa": "Para cualquier acción terminada en el pasado, tanto reciente como lejana: hier, ce matin, l'année dernière, déjà, jamais. A diferencia del español, el francés hablado no distingue entre «comí» y «he comido»: los dos son j'ai mangé, porque el passé simple se reserva a la escritura literaria. El hispanohablante tiende además a poner «à» ante el complemento directo de persona (j'ai vu à Pierre), que en francés no se usa."
+ }
 }

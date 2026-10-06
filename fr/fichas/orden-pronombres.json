@@ -6,51 +6,532 @@
  "nivel": "B1",
  "resumen": "Cuando hay dos pronombres complemento, el francés sigue un orden fijo: me/te/se/nous/vous, luego le/la/les, luego lui/leur, luego y, luego en. En el imperativo afirmativo van detrás del verbo: primero el directo, luego el indirecto.",
  "explicacion": [
-  {"tipo": "tabla", "cabecera": ["1", "2", "3", "4", "5"], "filas": [
-   ["me, te, se, nous, vous", "le, la, les", "lui, leur", "y", "en"]
-  ]},
-  {"tipo": "texto", "texto": "Delante del verbo se toma un pronombre de cada columna, siempre de izquierda a derecha: Fiona me le donne, Fiona le lui donne, Je leur en offre, Il y en a. Ojo con la tercera persona: el directo va primero (le lui, la leur), justo al revés que en español, donde además «le» se convierte en «se»: Je le lui donne = Se lo doy."},
-  {"tipo": "lista", "items": [
-   "Con un infinitivo, los pronombres van delante del infinitivo: Je dois le lui donner. Tu peux me le dire ?",
-   "En tiempos compuestos, delante del auxiliar: Je le lui ai acheté.",
-   "En la negación, entre ne y el verbo (o el auxiliar): Je ne te le dirai pas. Pourquoi est-ce qu'elle ne nous en a pas donné ?",
-   "En el imperativo negativo se mantiene el orden normal: Ne me le donne pas ! Ne le lui dis pas !"
-  ]},
-  {"tipo": "tabla", "cabecera": ["Imperativo afirmativo", "Orden", "Ejemplo"], "filas": [
-   ["verbo + directo + indirecto", "le/la/les antes de moi, toi, lui, nous, vous, leur", "Donne-le-moi ! Montre-la-leur !"],
-   ["y y en siempre al final", "moi y toi pasan a m', t' delante de en", "Donne-m'en ! Donnez-nous-en !"]
-  ]}
+  {
+   "tipo": "tabla",
+   "cabecera": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "5"
+   ],
+   "filas": [
+    [
+     "me, te, se, nous, vous",
+     "le, la, les",
+     "lui, leur",
+     "y",
+     "en"
+    ]
+   ]
+  },
+  {
+   "tipo": "texto",
+   "texto": "Delante del verbo se toma un pronombre de cada columna, siempre de izquierda a derecha: Fiona me le donne, Fiona le lui donne, Je leur en offre, Il y en a. Ojo con la tercera persona: el directo va primero (le lui, la leur), justo al revés que en español, donde además «le» se convierte en «se»: Je le lui donne = Se lo doy."
+  },
+  {
+   "tipo": "lista",
+   "items": [
+    "Con un infinitivo, los pronombres van delante del infinitivo: Je dois le lui donner. Tu peux me le dire ?",
+    "En tiempos compuestos, delante del auxiliar: Je le lui ai acheté.",
+    "En la negación, entre ne y el verbo (o el auxiliar): Je ne te le dirai pas. Pourquoi est-ce qu'elle ne nous en a pas donné ?",
+    "En el imperativo negativo se mantiene el orden normal: Ne me le donne pas ! Ne le lui dis pas !"
+   ]
+  },
+  {
+   "tipo": "tabla",
+   "cabecera": [
+    "Imperativo afirmativo",
+    "Orden",
+    "Ejemplo"
+   ],
+   "filas": [
+    [
+     "verbo + directo + indirecto",
+     "le/la/les antes de moi, toi, lui, nous, vous, leur",
+     "Donne-le-moi ! Montre-la-leur !"
+    ],
+    [
+     "y y en siempre al final",
+     "moi y toi pasan a m', t' delante de en",
+     "Donne-m'en ! Donnez-nous-en !"
+    ]
+   ]
+  }
  ],
  "ejemplos": [
-  {"frase": "Je le lui donne.", "traduccion": "Se lo doy."},
-  {"frase": "Tu peux me le donner ?", "traduccion": "¿Me lo puedes dar?"},
-  {"frase": "Je ne te le dirai pas.", "traduccion": "No te lo diré."},
-  {"frase": "Je le lui ai acheté.", "traduccion": "Se lo compré."},
-  {"frase": "Ton parfum ? Donne-le-moi !", "traduccion": "¿Tu perfume? ¡Dámelo!"},
-  {"frase": "Il ne m'en reste qu'un.", "traduccion": "Solo me queda uno."}
+  {
+   "frase": "Je le lui donne.",
+   "traduccion": "Se lo doy."
+  },
+  {
+   "frase": "Tu peux me le donner ?",
+   "traduccion": "¿Me lo puedes dar?"
+  },
+  {
+   "frase": "Je ne te le dirai pas.",
+   "traduccion": "No te lo diré."
+  },
+  {
+   "frase": "Je le lui ai acheté.",
+   "traduccion": "Se lo compré."
+  },
+  {
+   "frase": "Ton parfum ? Donne-le-moi !",
+   "traduccion": "¿Tu perfume? ¡Dámelo!"
+  },
+  {
+   "frase": "Il ne m'en reste qu'un.",
+   "traduccion": "Solo me queda uno."
+  }
  ],
  "errores_hispanohablantes": [
-  {"mal": "Je lui le donne.", "bien": "Je le lui donne.", "nota": "En tercera persona el directo va antes que el indirecto (al revés que «se lo»)."},
-  {"mal": "Donne-moi-le !", "bien": "Donne-le-moi !", "nota": "En el imperativo afirmativo, el directo va primero: donne-le-moi."},
-  {"mal": "Je vais le te donner.", "bien": "Je vais te le donner.", "nota": "Me, te, nous, vous van siempre antes que le, la, les."}
+  {
+   "mal": "Je lui le donne.",
+   "bien": "Je le lui donne.",
+   "nota": "En tercera persona el directo va antes que el indirecto (al revés que «se lo»)."
+  },
+  {
+   "mal": "Donne-moi-le !",
+   "bien": "Donne-le-moi !",
+   "nota": "En el imperativo afirmativo, el directo va primero: donne-le-moi."
+  },
+  {
+   "mal": "Je vais le te donner.",
+   "bien": "Je vais te le donner.",
+   "nota": "Me, te, nous, vous van siempre antes que le, la, les."
+  }
  ],
  "ejercicios": [
-  {"id": "e01", "tipo": "hueco", "enunciado": "Completa con los dos pronombres (el libro, a Paul).", "frase": "Je ___ donne.", "respuestas": ["le lui"], "explicacion": "Directo (le) antes que indirecto de tercera persona (lui).", "origen": "tatoeba:6173138"},
-  {"id": "e02", "tipo": "eleccion", "enunciado": "Elige el orden correcto (el bolígrafo, a mí).", "frase": "Tu peux ___ donner ?", "opciones": ["me le", "le me", "moi le"], "respuestas": ["me le"], "explicacion": "Me va antes que le, y ambos delante del infinitivo.", "origen": "tatoeba:7553589"},
-  {"id": "e03", "tipo": "transformar", "enunciado": "Pasa la orden a afirmativa.", "frase": "Ne le lui donne pas !", "respuestas": ["Donne-le-lui !", "Donne-le-lui!"], "explicacion": "Imperativo afirmativo: verbo + directo + indirecto, con guiones.", "origen": "tatoeba:844335"},
-  {"id": "e04", "tipo": "transformar", "enunciado": "Pasa la orden a afirmativa.", "frase": "Ne me le donne pas !", "respuestas": ["Donne-le-moi !", "Donne-le-moi!"], "explicacion": "En afirmativa me pasa a moi y va detrás de le.", "origen": "tatoeba:4582440"},
-  {"id": "e05", "tipo": "corregir", "enunciado": "Corrige el error.", "frase": "Je lui l'ai acheté.", "respuestas": ["Je le lui ai acheté."], "explicacion": "Le va antes que lui.", "origen": "tatoeba:7695181"},
-  {"id": "e06", "tipo": "corregir", "enunciado": "Corrige el error.", "frase": "Je te ne le dirai pas.", "respuestas": ["Je ne te le dirai pas."], "explicacion": "Ne va delante de todos los pronombres complemento.", "origen": "tatoeba:1608332"},
-  {"id": "e07", "tipo": "ordenar", "enunciado": "Ordena las palabras.", "palabras": ["le", "Peux-tu", "montrer", "me"], "respuestas": ["Peux-tu me le montrer"], "explicacion": "Me le delante del infinitivo.", "origen": "tatoeba:1986604"},
-  {"id": "e08", "tipo": "hueco", "enunciado": "Completa con el pronombre que falta.", "frase": "Il ne m'___ reste qu'un.", "respuestas": ["en"], "explicacion": "Cantidad (un): en, siempre después de me.", "origen": "tatoeba:139017"},
-  {"id": "e09", "tipo": "hueco", "enunciado": "Completa con el pronombre que falta (a Marie).", "frase": "Tu vas ___ en parler ?", "respuestas": ["lui"], "explicacion": "Parler à Marie: lui; lui va antes que en.", "origen": "tatoeba:2471795"},
-  {"id": "e10", "tipo": "eleccion", "enunciado": "Elige el orden correcto.", "frase": "Tu aurais dû ___ dire.", "opciones": ["me le", "le me", "me lui"], "respuestas": ["me le"], "explicacion": "Me antes que le, delante del infinitivo dire.", "origen": "tatoeba:11781612"},
-  {"id": "e11", "tipo": "transformar", "enunciado": "Sustituye los dos complementos por pronombres.", "frase": "Je montre mes photos à mes neveux.", "respuestas": ["Je les leur montre."], "explicacion": "Mes photos = les; à mes neveux = leur; directo antes que indirecto."},
-  {"id": "e12", "tipo": "transformar", "enunciado": "Sustituye los dos complementos por pronombres.", "frase": "J'offre du vin à mes amis.", "respuestas": ["Je leur en offre."], "explicacion": "À mes amis = leur; du vin = en; en siempre al final."},
-  {"id": "e13", "tipo": "eleccion", "enunciado": "Elige la forma correcta.", "frase": "Du parfum ? Allez, donne-___ !", "opciones": ["nous-en", "en-nous", "nous-y"], "respuestas": ["nous-en"], "explicacion": "En el imperativo, en va siempre el último: donne-nous-en."},
-  {"id": "e14", "tipo": "hueco", "enunciado": "Completa con los dos pronombres (el medicamento, a ella).", "frase": "Le médecin ___ a donné.", "respuestas": ["le lui"], "explicacion": "Directo antes que indirecto, delante del auxiliar.", "origen": "tatoeba:1337287"},
-  {"id": "e15", "tipo": "corregir", "enunciado": "Corrige el error.", "frase": "Donne-moi-le !", "respuestas": ["Donne-le-moi !", "Donne-le-moi!"], "explicacion": "Imperativo afirmativo: le antes que moi."},
-  {"id": "e16", "tipo": "eleccion", "enunciado": "Elige la forma correcta.", "frase": "Il y a du pain ? — Oui, il ___ a.", "opciones": ["y en", "en y", "l'y"], "respuestas": ["y en"], "explicacion": "Y siempre antes que en: il y en a."}
+  {
+   "id": "e01",
+   "tipo": "hueco",
+   "enunciado": "Completa con los dos pronombres (el libro, a Paul).",
+   "frase": "Je ___ donne.",
+   "respuestas": [
+    "le lui"
+   ],
+   "explicacion": "Se aplica la tabla de columnas de la ficha: le (columna 2, directo) va antes que lui (columna 3, indirecto de tercera persona). El enunciado indica qué sustituye cada uno: el libro es masculino y directo, le; a Paul es indirecto, lui. Fíjate en que el francés no transforma lui en «se» como el español: Je le lui donne equivale a «se lo doy». Los dos pronombres van juntos delante del verbo conjugado.",
+   "origen": "tatoeba:6173138",
+   "explicacion_breve": "Directo (le) antes que indirecto de tercera persona (lui).",
+   "traduccion": "Se lo doy (el libro, a Paul).",
+   "errores_previstos": [
+    {
+     "respuesta": "lui le",
+     "explicacion": "Calco del orden español «se lo» (indirecto + directo): en tercera persona el francés pone primero el directo, le lui."
+    },
+    {
+     "respuesta": "se le",
+     "explicacion": "Calco de «se lo»: en francés no existe esa transformación; el indirecto sigue siendo lui."
+    },
+    {
+     "respuesta": "le leur",
+     "explicacion": "Leur es plural (a ellos); para una sola persona, Paul, es lui."
+    }
+   ]
+  },
+  {
+   "id": "e02",
+   "tipo": "eleccion",
+   "enunciado": "Elige el orden correcto (el bolígrafo, a mí).",
+   "frase": "Tu peux ___ donner ?",
+   "opciones": [
+    "me le",
+    "le me",
+    "moi le"
+   ],
+   "respuestas": [
+    "me le"
+   ],
+   "explicacion": "Por la tabla de columnas, me (columna 1) va siempre antes que le (columna 2). Además, la lista indica que con un infinitivo los pronombres van delante del infinitivo del que dependen: tu peux me le donner, igual que «puedes dármelo» o «me lo puedes dar». La pista es la estructura pouvoir + infinitivo: los pronombres se pegan a donner, no a peux.",
+   "origen": "tatoeba:7553589",
+   "explicacion_breve": "Me va antes que le, y ambos delante del infinitivo.",
+   "traduccion": "¿Me lo puedes dar? (el bolígrafo, a mí)",
+   "por_opcion": {
+    "me le": "Correcta: me (columna 1) antes que le (columna 2), delante del infinitivo donner.",
+    "le me": "Incorrecta: invierte el orden; me, te, nous, vous siempre preceden a le, la, les.",
+    "moi le": "Incorrecta: moi es pronombre tónico y solo va detrás del verbo en el imperativo afirmativo (donne-le-moi); delante del verbo se usa me."
+   }
+  },
+  {
+   "id": "e03",
+   "tipo": "transformar",
+   "enunciado": "Pasa la orden a afirmativa.",
+   "frase": "Ne le lui donne pas !",
+   "respuestas": [
+    "Donne-le-lui !",
+    "Donne-le-lui!"
+   ],
+   "explicacion": "Se aplica la tabla del imperativo afirmativo: los pronombres pasan detrás del verbo, unidos con guiones, en el orden verbo + directo + indirecto. Al quitar ne… pas, ne le lui donne pas se convierte en donne-le-lui. En este caso el orden de los pronombres coincide con el de la frase negativa (le antes que lui), pero ahora van detrás del verbo y con guiones.",
+   "origen": "tatoeba:844335",
+   "explicacion_breve": "Imperativo afirmativo: verbo + directo + indirecto, con guiones.",
+   "traduccion": "¡Dáselo!",
+   "errores_previstos": [
+    {
+     "respuesta": "Donne-lui-le !",
+     "explicacion": "Calco del español «dáselo» (indirecto + directo): en el imperativo afirmativo francés el directo va primero, donne-le-lui."
+    },
+    {
+     "respuesta": "Le lui donne !",
+     "explicacion": "En el imperativo afirmativo los pronombres van detrás del verbo, no delante."
+    },
+    {
+     "respuesta": "Donne le lui !",
+     "explicacion": "Faltan los guiones que unen el verbo y los pronombres en el imperativo."
+    }
+   ]
+  },
+  {
+   "id": "e04",
+   "tipo": "transformar",
+   "enunciado": "Pasa la orden a afirmativa.",
+   "frase": "Ne me le donne pas !",
+   "respuestas": [
+    "Donne-le-moi !",
+    "Donne-le-moi!"
+   ],
+   "explicacion": "Es el caso especial de la tabla del imperativo afirmativo: los pronombres van detrás del verbo, el directo primero (le) y luego el indirecto, y me pasa a la forma tónica moi. Así, ne me le donne pas se convierte en donne-le-moi. Es justo al revés que en la negativa (me le), y también al revés que el español «dámelo».",
+   "origen": "tatoeba:4582440",
+   "explicacion_breve": "En afirmativa me pasa a moi y va detrás de le.",
+   "traduccion": "¡Dámelo!",
+   "errores_previstos": [
+    {
+     "respuesta": "Donne-moi-le !",
+     "explicacion": "Es el error típico de la ficha: en el imperativo afirmativo el directo va antes que el indirecto, donne-le-moi."
+    },
+    {
+     "respuesta": "Donne-le-me !",
+     "explicacion": "Detrás del verbo, me se convierte en moi (salvo delante de en)."
+    },
+    {
+     "respuesta": "Me le donne !",
+     "explicacion": "En el imperativo afirmativo los pronombres no van delante del verbo."
+    }
+   ]
+  },
+  {
+   "id": "e05",
+   "tipo": "corregir",
+   "enunciado": "Corrige el error.",
+   "frase": "Je lui l'ai acheté.",
+   "respuestas": [
+    "Je le lui ai acheté."
+   ],
+   "explicacion": "Se aplica la tabla de columnas: le (directo, columna 2) va antes que lui (indirecto, columna 3), y la lista indica que en los tiempos compuestos los dos pronombres van delante del auxiliar. La frase errónea pone lui delante, calcando «se lo». Al colocar le delante de lui, ya no hay vocal detrás de le que provoque elisión: Je le lui ai acheté.",
+   "origen": "tatoeba:7695181",
+   "explicacion_breve": "Le va antes que lui.",
+   "traduccion": "Se lo compré.",
+   "errores_previstos": [
+    {
+     "respuesta": "Je lui l'ai acheté.",
+     "explicacion": "Es la frase sin corregir: el indirecto lui no puede ir delante del directo le."
+    },
+    {
+     "respuesta": "Je l'ai lui acheté.",
+     "explicacion": "Los dos pronombres van juntos delante del auxiliar; lui no puede ir entre ai y el participio."
+    },
+    {
+     "respuesta": "Je le lui ai achetée.",
+     "explicacion": "El participio concuerda con el directo antepuesto le, que es masculino: acheté, sin -e."
+    }
+   ]
+  },
+  {
+   "id": "e06",
+   "tipo": "corregir",
+   "enunciado": "Corrige el error.",
+   "frase": "Je te ne le dirai pas.",
+   "respuestas": [
+    "Je ne te le dirai pas."
+   ],
+   "explicacion": "La lista de la ficha indica que en la negación los pronombres van entre ne y el verbo: ne + pronombres + verbo + pas. La frase errónea mete te antes de ne. Al corregir queda ne te le dirai pas, con el orden habitual te (columna 1) + le (columna 2). Ne se coloca siempre delante de todo el bloque de pronombres.",
+   "origen": "tatoeba:1608332",
+   "explicacion_breve": "Ne va delante de todos los pronombres complemento.",
+   "traduccion": "No te lo diré.",
+   "errores_previstos": [
+    {
+     "respuesta": "Je te ne le dirai pas.",
+     "explicacion": "Es la frase sin corregir: ne va delante de todos los pronombres complemento."
+    },
+    {
+     "respuesta": "Je ne le te dirai pas.",
+     "explicacion": "Te va antes que le (columna 1 antes que columna 2)."
+    },
+    {
+     "respuesta": "Je ne te le dirai.",
+     "explicacion": "Falta pas: la negación francesa necesita las dos partes."
+    }
+   ]
+  },
+  {
+   "id": "e07",
+   "tipo": "ordenar",
+   "enunciado": "Ordena las palabras.",
+   "palabras": [
+    "le",
+    "Peux-tu",
+    "montrer",
+    "me"
+   ],
+   "respuestas": [
+    "Peux-tu me le montrer"
+   ],
+   "explicacion": "Se aplica la regla de los infinitivos de la lista: los pronombres van delante del infinitivo del que dependen (montrer), y entre ellos me precede a le. La pregunta se hace con inversión, peux-tu, que va en cabeza. El orden final es Peux-tu + me le + montrer, que equivale a «¿puedes enseñármelo?».",
+   "origen": "tatoeba:1986604",
+   "explicacion_breve": "Me le delante del infinitivo.",
+   "traduccion": "¿Me lo puedes enseñar?",
+   "errores_previstos": [
+    {
+     "respuesta": "Peux-tu le me montrer",
+     "explicacion": "Orden equivocado de los pronombres: me va antes que le."
+    },
+    {
+     "respuesta": "Me le peux-tu montrer",
+     "explicacion": "Calco de «¿me lo puedes enseñar?»: en francés moderno los pronombres van delante del infinitivo, no delante de pouvoir."
+    }
+   ]
+  },
+  {
+   "id": "e08",
+   "tipo": "hueco",
+   "enunciado": "Completa con el pronombre que falta.",
+   "frase": "Il ne m'___ reste qu'un.",
+   "respuestas": [
+    "en"
+   ],
+   "explicacion": "Se aplica la tabla de columnas: en ocupa la última columna y va siempre detrás de los demás pronombres, aquí detrás de me (que se apostrofa en m'). En sustituye a una cantidad de algo ya mencionado y es obligatorio cuando aparece un número sin nombre (un). La pista es qu'un, «solo uno»: hace falta en para retomar «de eso». En español no se dice nada equivalente.",
+   "origen": "tatoeba:139017",
+   "explicacion_breve": "Cantidad (un): en, siempre después de me.",
+   "traduccion": "Solo me queda uno.",
+   "errores_previstos": [
+    {
+     "respuesta": "y",
+     "explicacion": "Y sustituye a un lugar o a à + cosa; con una cantidad (un) el pronombre es en."
+    },
+    {
+     "respuesta": "le",
+     "explicacion": "Le sustituye a algo determinado; con una cantidad como un se usa en."
+    },
+    {
+     "respuesta": "lui",
+     "explicacion": "Lui es complemento indirecto de persona; aquí falta el pronombre de cantidad en."
+    }
+   ]
+  },
+  {
+   "id": "e09",
+   "tipo": "hueco",
+   "enunciado": "Completa con el pronombre que falta (a Marie).",
+   "frase": "Tu vas ___ en parler ?",
+   "respuestas": [
+    "lui"
+   ],
+   "explicacion": "Parler à quelqu'un lleva complemento indirecto, así que a Marie es lui; y parler de quelque chose se sustituye por en. Según la tabla de columnas, lui (columna 3) va antes que en (columna 5). Como depende del infinitivo parler, los dos van delante de él: tu vas lui en parler. La pista es el en que ya aparece en la frase.",
+   "origen": "tatoeba:2471795",
+   "explicacion_breve": "Parler à Marie: lui; lui va antes que en.",
+   "traduccion": "¿Vas a hablarle de ello? (a Marie)",
+   "errores_previstos": [
+    {
+     "respuesta": "la",
+     "explicacion": "Marie es complemento indirecto (parler à Marie), no directo: lui, no la."
+    },
+    {
+     "respuesta": "leur",
+     "explicacion": "Leur es plural; para una sola persona es lui."
+    },
+    {
+     "respuesta": "le",
+     "explicacion": "Le es directo masculino; parler à alguien pide el indirecto lui."
+    }
+   ]
+  },
+  {
+   "id": "e10",
+   "tipo": "eleccion",
+   "enunciado": "Elige el orden correcto.",
+   "frase": "Tu aurais dû ___ dire.",
+   "opciones": [
+    "me le",
+    "le me",
+    "me lui"
+   ],
+   "respuestas": [
+    "me le"
+   ],
+   "explicacion": "Se aplica la tabla de columnas: me va antes que le. Y como en la regla de los infinitivos, los pronombres se colocan delante del infinitivo del que dependen (dire), no delante de aurais dû. La pista es la estructura devoir + infinitivo: «deberías habérmelo dicho» se dice en francés tu aurais dû me le dire.",
+   "origen": "tatoeba:11781612",
+   "explicacion_breve": "Me antes que le, delante del infinitivo dire.",
+   "traduccion": "Deberías habérmelo dicho.",
+   "por_opcion": {
+    "me le": "Correcta: me (columna 1) delante de le (columna 2), ambos ante el infinitivo dire.",
+    "le me": "Incorrecta: invierte el orden; me siempre va antes que le.",
+    "me lui": "Incorrecta: me y lui son los dos indirectos (columnas 1 y 3) y no pueden combinarse; además, falta el directo que sustituye a lo dicho."
+   }
+  },
+  {
+   "id": "e11",
+   "tipo": "transformar",
+   "enunciado": "Sustituye los dos complementos por pronombres.",
+   "frase": "Je montre mes photos à mes neveux.",
+   "respuestas": [
+    "Je les leur montre."
+   ],
+   "explicacion": "Hay que sustituir dos complementos: mes photos es directo plural, les; à mes neveux es indirecto plural, leur. Según la tabla de columnas, les (columna 2) va antes que leur (columna 3), y los dos delante del verbo. El resultado, Je les leur montre, equivale al español «se las enseño», donde «les» se convierte en «se», cosa que el francés no hace.",
+   "explicacion_breve": "Mes photos = les; à mes neveux = leur; directo antes que indirecto.",
+   "traduccion": "Se las enseño.",
+   "errores_previstos": [
+    {
+     "respuesta": "Je leur les montre.",
+     "explicacion": "Calco del orden español «se las»: en francés el directo les va antes que el indirecto leur."
+    },
+    {
+     "respuesta": "Je les leurs montre.",
+     "explicacion": "El pronombre leur es invariable; leurs con -s es el posesivo."
+    },
+    {
+     "respuesta": "Je les lui montre.",
+     "explicacion": "Lui es singular; à mes neveux es plural, así que es leur."
+    }
+   ]
+  },
+  {
+   "id": "e12",
+   "tipo": "transformar",
+   "enunciado": "Sustituye los dos complementos por pronombres.",
+   "frase": "J'offre du vin à mes amis.",
+   "respuestas": [
+    "Je leur en offre."
+   ],
+   "explicacion": "Du vino es un partitivo, cantidad indeterminada, que se sustituye por en; à mes amis es indirecto plural, leur. La tabla de columnas pone leur (columna 3) antes que en (columna 5), que siempre va el último. Así se obtiene Je leur en offre, «les ofrezco (de eso)». En español no se suele expresar en, pero en francés es obligatorio.",
+   "explicacion_breve": "À mes amis = leur; du vin = en; en siempre al final.",
+   "traduccion": "Les ofrezco (vino).",
+   "errores_previstos": [
+    {
+     "respuesta": "Je en leur offre.",
+     "explicacion": "En va siempre al final del grupo; además, je se apostrofaría. El orden es leur en."
+    },
+    {
+     "respuesta": "Je le leur offre.",
+     "explicacion": "Le sustituye a algo determinado (le vin); du vin, partitivo, se sustituye por en."
+    },
+    {
+     "respuesta": "Je leur offre.",
+     "explicacion": "Falta en: el francés exige retomar la cantidad de vino con en."
+    }
+   ]
+  },
+  {
+   "id": "e13",
+   "tipo": "eleccion",
+   "enunciado": "Elige la forma correcta.",
+   "frase": "Du parfum ? Allez, donne-___ !",
+   "opciones": [
+    "nous-en",
+    "en-nous",
+    "nous-y"
+   ],
+   "respuestas": [
+    "nous-en"
+   ],
+   "explicacion": "Se aplica la tabla del imperativo afirmativo: los pronombres van detrás del verbo y en (como y) va siempre el último. Du parfum es un partitivo, así que se sustituye por en; el indirecto nous va delante: donne-nous-en. Con moi o toi se usaría la forma elidida m'en, t'en.",
+   "explicacion_breve": "En el imperativo, en va siempre el último: donne-nous-en.",
+   "traduccion": "¿Perfume? ¡Venga, danos un poco!",
+   "por_opcion": {
+    "nous-en": "Correcta: indirecto nous + en al final, unidos con guiones.",
+    "en-nous": "Incorrecta: en no puede ir delante de otro pronombre; siempre ocupa el último lugar.",
+    "nous-y": "Incorrecta: y sustituye a un lugar o a à + cosa; para una cantidad de perfume hace falta en."
+   }
+  },
+  {
+   "id": "e14",
+   "tipo": "hueco",
+   "enunciado": "Completa con los dos pronombres (el medicamento, a ella).",
+   "frase": "Le médecin ___ a donné.",
+   "respuestas": [
+    "le lui"
+   ],
+   "explicacion": "Se aplica la tabla de columnas y la regla de los tiempos compuestos: el directo le (el medicamento, masculino) va antes que el indirecto lui (a ella), y los dos se colocan delante del auxiliar a. Lui sirve igual para él que para ella. Como el directo antepuesto es masculino singular, el participio donné no cambia.",
+   "origen": "tatoeba:1337287",
+   "explicacion_breve": "Directo antes que indirecto, delante del auxiliar.",
+   "traduccion": "El médico se lo ha dado (el medicamento, a ella).",
+   "errores_previstos": [
+    {
+     "respuesta": "lui le",
+     "explicacion": "Calco del orden español: en tercera persona va primero el directo, le lui."
+    },
+    {
+     "respuesta": "le la",
+     "explicacion": "La es directo femenino; «a ella» es indirecto, que en francés es lui también para el femenino."
+    },
+    {
+     "respuesta": "la lui",
+     "explicacion": "El medicamento (le médicament) es masculino: el directo es le."
+    }
+   ]
+  },
+  {
+   "id": "e15",
+   "tipo": "corregir",
+   "enunciado": "Corrige el error.",
+   "frase": "Donne-moi-le !",
+   "respuestas": [
+    "Donne-le-moi !",
+    "Donne-le-moi!"
+   ],
+   "explicacion": "Es el error típico que recoge la ficha: en el imperativo afirmativo el directo va antes que el indirecto, así que no es donne-moi-le sino donne-le-moi. El hispanohablante tiende a calcar «dámelo», con el indirecto primero. Moi aparece en forma tónica porque va detrás del verbo; los guiones unen todo el grupo.",
+   "explicacion_breve": "Imperativo afirmativo: le antes que moi.",
+   "traduccion": "¡Dámelo!",
+   "errores_previstos": [
+    {
+     "respuesta": "Donne-moi-le !",
+     "explicacion": "Es la frase sin corregir: el directo le debe ir antes que moi."
+    },
+    {
+     "respuesta": "Donne-le-me !",
+     "explicacion": "Detrás del verbo, me pasa a moi."
+    },
+    {
+     "respuesta": "Me le donne !",
+     "explicacion": "En el imperativo afirmativo los pronombres van detrás del verbo."
+    }
+   ]
+  },
+  {
+   "id": "e16",
+   "tipo": "eleccion",
+   "enunciado": "Elige la forma correcta.",
+   "frase": "Il y a du pain ? — Oui, il ___ a.",
+   "opciones": [
+    "y en",
+    "en y",
+    "l'y"
+   ],
+   "respuestas": [
+    "y en"
+   ],
+   "explicacion": "Se aplica la tabla de columnas: y (columna 4) va antes que en (columna 5). La expresión il y a ya contiene y; al sustituir du pain, cantidad indeterminada, por en, se obtiene la fórmula fija il y en a, «hay (de eso)». En español basta con «sí, hay», pero en francés en es obligatorio.",
+   "explicacion_breve": "Y siempre antes que en: il y en a.",
+   "traduccion": "¿Hay pan? — Sí, hay.",
+   "por_opcion": {
+    "y en": "Correcta: y antes que en, la fórmula fija il y en a.",
+    "en y": "Incorrecta: invierte el orden; en es siempre el último pronombre.",
+    "l'y": "Incorrecta: l' sería un directo determinado (le pain); para una cantidad indeterminada, du pain, hace falta en."
+   }
+  }
  ],
- "fuente": {"nombre": "Tex's French Grammar", "autores": "COERLL, Universidad de Texas en Austin", "licencia": "CC BY 3.0", "url": "https://laits.utexas.edu/tex/gr/pro9.html", "otras": ["Frases de Tatoeba (CC BY 2.0 FR)"]}
+ "fuente": {
+  "nombre": "Tex's French Grammar",
+  "autores": "COERLL, Universidad de Texas en Austin",
+  "licencia": "CC BY 3.0",
+  "url": "https://laits.utexas.edu/tex/gr/pro9.html",
+  "otras": [
+   "Frases de Tatoeba (CC BY 2.0 FR)"
+  ]
+ },
+ "descripcion_larga_es": "Cuando una frase lleva dos pronombres complemento (se lo, me lo, le doy de eso), el francés los coloca en un orden fijo que no coincide del todo con el español. Dominarlo es clave para hablar con naturalidad y evitar repetir nombres. Al hispanohablante le cuesta sobre todo la tercera persona, donde el francés dice le lui (lo le) en lugar de «se lo», y el imperativo afirmativo, con donne-le-moi.",
+ "contexto": {
+  "que_es": "Es el orden en que se colocan dos pronombres complemento juntos delante del verbo: primero me, te, se, nous, vous; luego le, la, les; luego lui, leur; luego y; por último en. Se toma como máximo uno de cada columna y siempre de izquierda a derecha. En el imperativo afirmativo los pronombres van detrás del verbo, unidos con guiones: el directo primero y después el indirecto.",
+  "por_que_importa": "Los pronombres dobles son constantes en la conversación (¿me lo dejas?, se lo he dicho, hay más) y permiten no repetir nombres. Un orden equivocado como «je lui le donne» se entiende, pero suena claramente extranjero y se penaliza en un examen. Además, el imperativo con pronombres (donne-le-moi, donnez-m'en) es muy frecuente en instrucciones y peticiones.",
+  "cuando_se_usa": "Siempre que se sustituyan a la vez un complemento directo y uno indirecto, o se combinen y y en (il y en a). Las señales son verbos como donner, dire, montrer, offrir, prêter, envoyer con una cosa y una persona. El hispanohablante calca «se lo» y pone el indirecto primero (lui le); en francés, en tercera persona, el directo va delante: le lui, la leur, les lui."
+ }
 }

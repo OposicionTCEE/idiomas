@@ -137,7 +137,23 @@
    "respuestas": [
     "boxes"
    ],
-   "explicacion": "Tras -x se añade -es."
+   "explicacion": "Se aplica la regla ortográfica de la tabla de plurales que dice que las palabras terminadas en -s, -ss, -sh, -ch o -x añaden -es. La pista es la terminación de box, que acaba en -x, y el número two, que obliga a usar el plural. Por eso box se convierte en boxes: si solo se añadiera -s, la palabra sería impronunciable, y la -e- intermedia permite pronunciar una sílaba más, /ˈbɒksɪz/.",
+   "explicacion_breve": "Tras -x se añade -es.",
+   "traduccion": "Tengo dos cajas en el coche.",
+   "errores_previstos": [
+    {
+     "respuesta": "boxs",
+     "explicacion": "Tras -x no basta con añadir -s: hay que añadir -es para poder pronunciar la nueva sílaba. Lo correcto es boxes."
+    },
+    {
+     "respuesta": "box",
+     "explicacion": "Tras two el sustantivo debe ir en plural; el singular box no concuerda con el número."
+    },
+    {
+     "respuesta": "boxies",
+     "explicacion": "La terminación -ies solo se usa con palabras que acaban en consonante + y, como city; box acaba en -x y pide -es."
+    }
+   ]
   },
   {
    "id": "e02",
@@ -147,7 +163,23 @@
    "respuestas": [
     "cities"
    ],
-   "explicacion": "Consonante + y: -ies."
+   "explicacion": "Se aplica la regla de la tabla «consonante + y: -ies». City termina en -y precedida de una consonante (la t), así que la y se cambia por i y se añade -es: cities. La pista de la frase es que el sujeto son dos ciudades (Madrid and Barcelona) y el verbo es are, de modo que el sustantivo tiene que ir en plural. Fíjate en que el adjetivo big no cambia, porque en inglés los adjetivos no tienen plural.",
+   "explicacion_breve": "Consonante + y: -ies.",
+   "traduccion": "Madrid y Barcelona son ciudades grandes.",
+   "errores_previstos": [
+    {
+     "respuesta": "citys",
+     "explicacion": "La regla de vocal + y (+ s) no vale aquí: la y de city va tras consonante, así que se convierte en -ies."
+    },
+    {
+     "respuesta": "cityes",
+     "explicacion": "Hay que cambiar la y por i antes de añadir -es: cities, no «cityes»."
+    },
+    {
+     "respuesta": "city",
+     "explicacion": "El sujeto es doble y el verbo es are: el sustantivo tiene que ir en plural."
+    }
+   ]
   },
   {
    "id": "e03",
@@ -157,7 +189,23 @@
    "respuestas": [
     "knives"
    ],
-   "explicacion": "Knife hace el plural en -ves."
+   "explicacion": "Se aplica la regla de la tabla que dice que algunos sustantivos en -f o -fe forman el plural en -ves. Knife es uno de ellos: se cambia -fe por -ves y queda knives, que se pronuncia /naɪvz/ (la k es muda). La pista de la frase es more, que con sustantivos contables va siempre seguido de plural. No todas las palabras en -f siguen esta regla (roof, roofs), por eso hay que memorizar las más frecuentes: knife, wife, leaf, half, life, shelf.",
+   "explicacion_breve": "Knife hace el plural en -ves.",
+   "traduccion": "Necesitamos más cuchillos para la mesa.",
+   "errores_previstos": [
+    {
+     "respuesta": "knifes",
+     "explicacion": "Knife pertenece al grupo de palabras en -fe que forman el plural en -ves: knives."
+    },
+    {
+     "respuesta": "knifs",
+     "explicacion": "Se ha quitado la e y añadido -s, pero el plural de knife cambia la f por v: knives."
+    },
+    {
+     "respuesta": "knife",
+     "explicacion": "Tras more con un sustantivo contable hace falta el plural."
+    }
+   ]
   },
   {
    "id": "e04",
@@ -167,7 +215,23 @@
    "respuestas": [
     "feet"
    ],
-   "explicacion": "Plural irregular: foot, feet."
+   "explicacion": "Se aplica la tabla de plurales irregulares: foot hace feet, cambiando la vocal interior en lugar de añadir -s, igual que tooth y teeth. La pista de esta frase es el verbo are, que exige un sujeto plural, y el sentido: normalmente hablamos de los dos pies. Recuerda además que en inglés las partes del cuerpo llevan posesivo (my feet), donde el español usa el artículo («los pies»).",
+   "explicacion_breve": "Plural irregular: foot, feet.",
+   "traduccion": "Tengo los pies fríos.",
+   "errores_previstos": [
+    {
+     "respuesta": "foots",
+     "explicacion": "Foot es irregular: no añade -s, sino que cambia la vocal, feet."
+    },
+    {
+     "respuesta": "feets",
+     "explicacion": "Feet ya es plural; añadirle -s duplica la marca de plural."
+    },
+    {
+     "respuesta": "foot",
+     "explicacion": "Con el verbo are el sujeto tiene que ser plural: my feet are."
+    }
+   ]
   },
   {
    "id": "e05",
@@ -177,7 +241,23 @@
    "respuestas": [
     "women"
    ],
-   "explicacion": "Plural irregular: woman, women."
+   "explicacion": "Se aplica la tabla de plurales irregulares: woman hace women, igual que man hace men. Las pistas son el número four y la estructura there are, que van siempre con plural. Ojo con la pronunciación, que es lo más engañoso: woman se dice /ˈwʊmən/, pero women se dice /ˈwɪmɪn/; en la escritura solo cambia la a por e, pero en la voz cambia la primera sílaba.",
+   "explicacion_breve": "Plural irregular: woman, women.",
+   "traduccion": "Hay cuatro mujeres en la oficina.",
+   "errores_previstos": [
+    {
+     "respuesta": "womans",
+     "explicacion": "Woman es irregular y no añade -s: el plural es women."
+    },
+    {
+     "respuesta": "womens",
+     "explicacion": "Women ya es plural; no se le añade -s."
+    },
+    {
+     "respuesta": "woman",
+     "explicacion": "Tras four y there are el sustantivo va en plural."
+    }
+   ]
   },
   {
    "id": "e06",
@@ -187,7 +267,23 @@
    "respuestas": [
     "boys"
    ],
-   "explicacion": "Vocal + y: solo se añade -s."
+   "explicacion": "Se aplica la regla de la tabla «vocal + y: + s». En boy la y va precedida de una vocal (la o), así que no se cambia por i: simplemente se añade -s, boys. La pista de la frase es el verbo are, que indica que el sujeto es plural. Es la regla contraria a la de city: lo que decide es la letra que va justo antes de la y.",
+   "explicacion_breve": "Vocal + y: solo se añade -s.",
+   "traduccion": "Los chicos están jugando al fútbol.",
+   "errores_previstos": [
+    {
+     "respuesta": "boies",
+     "explicacion": "El cambio a -ies solo ocurre tras consonante; tras vocal, como en boy, se añade -s: boys."
+    },
+    {
+     "respuesta": "boyes",
+     "explicacion": "Boy no acaba en -s, -sh, -ch ni -x, así que no lleva -es: basta con -s."
+    },
+    {
+     "respuesta": "boy",
+     "explicacion": "El verbo are pide un sujeto en plural: the boys are."
+    }
+   ]
   },
   {
    "id": "e07",
@@ -202,7 +298,14 @@
    "respuestas": [
     "tomatoes"
    ],
-   "explicacion": "Tomato añade -es."
+   "explicacion": "Se aplica la regla de la tabla según la cual algunas palabras en -o forman el plural con -es, como potato y tomato. La pista es some, que con sustantivos contables va seguido de plural, y el sentido de la frase (varios tomates para una ensalada). Por eso la forma es tomatoes. Hay que memorizar este pequeño grupo, porque muchas palabras en -o solo añaden -s (photos, pianos, radios).",
+   "explicacion_breve": "Tomato añade -es.",
+   "traduccion": "He comprado unos tomates para la ensalada.",
+   "por_opcion": {
+    "tomatos": "Incorrecta: es el error más frecuente, incluso entre nativos, pero tomato pertenece al grupo de palabras en -o que llevan -es.",
+    "tomatoes": "Correcta: tomato + -es, siguiendo la regla de algunas palabras en -o como potato.",
+    "tomatoe": "Incorrecta: es una forma inexistente; el singular es tomato, sin e, y tras some hace falta el plural."
+   }
   },
   {
    "id": "e08",
@@ -217,7 +320,14 @@
    "respuestas": [
     "sheep"
    ],
-   "explicacion": "Sheep no cambia en plural."
+   "explicacion": "Se aplica la última fila de la tabla de irregulares: sheep y fish no cambian en plural. La pista es three, que obliga a usar plural, y la estructura there are; pero en el caso de sheep el plural es idéntico al singular. Por eso se dice three sheep, sin ninguna terminación. Lo mismo ocurre con deer y con algunos nombres de peces.",
+   "explicacion_breve": "Sheep no cambia en plural.",
+   "traduccion": "Hay tres ovejas en el campo.",
+   "por_opcion": {
+    "sheeps": "Incorrecta: sheep es invariable y no admite -s, aunque la regla general lo haga parecer lógico.",
+    "sheep": "Correcta: sheep tiene la misma forma en singular y en plural; el plural lo marcan three y are.",
+    "sheepes": "Incorrecta: no existe; además, la terminación -es solo se usa tras -s, -sh, -ch o -x."
+   }
   },
   {
    "id": "e09",
@@ -232,7 +342,14 @@
    "respuestas": [
     "mice"
    ],
-   "explicacion": "Plural irregular: mouse, mice."
+   "explicacion": "Se aplica la tabla de plurales irregulares: mouse hace mice. La pista es el número two, que exige plural. Como en foot y feet, el plural no se forma con una terminación, sino cambiando la palabra, y mice ya es plural por sí mismo. En el sentido informático (ratón del ordenador) se oye a veces mouses, pero la forma normal sigue siendo mice.",
+   "explicacion_breve": "Plural irregular: mouse, mice.",
+   "traduccion": "El gato está persiguiendo a dos ratones.",
+   "por_opcion": {
+    "mouses": "Incorrecta en esta frase: mouse es irregular. Solo se oye a veces para el ratón del ordenador, y aun así la norma prefiere mice.",
+    "mice": "Correcta: es el plural irregular de mouse.",
+    "mices": "Incorrecta: mice ya es plural; añadirle -s duplica la marca."
+   }
   },
   {
    "id": "e10",
@@ -242,7 +359,23 @@
    "respuestas": [
     "The children are happy."
    ],
-   "explicacion": "Child pasa a children y el verbo a are."
+   "explicacion": "Se aplican dos cosas de la ficha: el plural irregular de child, que es children, y la concordancia del verbo, que pasa de is a are. La pista es la propia instrucción de pasar toda la frase a plural: no basta con cambiar el sustantivo, también hay que cambiar el verbo. El artículo the y el adjetivo happy no cambian, porque en inglés ni el artículo ni el adjetivo tienen plural.",
+   "explicacion_breve": "Child pasa a children y el verbo a are.",
+   "traduccion": "Los niños están contentos.",
+   "errores_previstos": [
+    {
+     "respuesta": "The childs are happy.",
+     "explicacion": "Child es irregular: su plural es children, no childs."
+    },
+    {
+     "respuesta": "The children is happy.",
+     "explicacion": "Se ha cambiado el sustantivo, pero no el verbo: con un sujeto plural va are."
+    },
+    {
+     "respuesta": "The childrens are happy.",
+     "explicacion": "Children ya es plural; no se le añade -s."
+    }
+   ]
   },
   {
    "id": "e11",
@@ -252,7 +385,23 @@
    "respuestas": [
     "These are old photos."
    ],
-   "explicacion": "This pasa a these, se quita an y photo añade -s."
+   "explicacion": "Al pasar a plural cambian cuatro elementos: this pasa a these, is pasa a are, el artículo an desaparece (a/an solo van con singular) y photo añade solo -s, porque es una de las palabras en -o de la lista que no llevan -es. El adjetivo old no cambia, ya que los adjetivos no tienen plural. La pista es que todos los elementos deben concordar en número con el sustantivo.",
+   "explicacion_breve": "This pasa a these, se quita an y photo añade -s.",
+   "traduccion": "Estas son fotos antiguas.",
+   "errores_previstos": [
+    {
+     "respuesta": "These are an old photos.",
+     "explicacion": "El artículo a/an solo se usa con singular; en plural desaparece."
+    },
+    {
+     "respuesta": "These are old photoes.",
+     "explicacion": "Photo pertenece al grupo de palabras en -o que solo añaden -s: photos."
+    },
+    {
+     "respuesta": "This are old photos.",
+     "explicacion": "El demostrativo también tiene plural: this pasa a these."
+    }
+   ]
   },
   {
    "id": "e12",
@@ -262,7 +411,23 @@
    "respuestas": [
     "She has two babies."
    ],
-   "explicacion": "Consonante + y: babies."
+   "explicacion": "Se aplica la regla de la tabla «consonante + y: -ies». Baby termina en -y precedida de consonante (la b), así que la y se cambia por i y se añade -es: babies. El error de la frase consiste en aplicar la regla de vocal + y, que solo vale para palabras como day o boy. La pista es la letra anterior a la y.",
+   "explicacion_breve": "Consonante + y: babies.",
+   "traduccion": "Ella tiene dos bebés.",
+   "errores_previstos": [
+    {
+     "respuesta": "She has two babys.",
+     "explicacion": "Es la frase sin corregir: babys aplica por error la regla de vocal + y; tras consonante se escribe -ies."
+    },
+    {
+     "respuesta": "She has two babyes.",
+     "explicacion": "Antes de añadir -es la y se cambia por i: babies."
+    },
+    {
+     "respuesta": "She have two babies.",
+     "explicacion": "El plural está bien, pero se ha estropeado el verbo: con she va has."
+    }
+   ]
   },
   {
    "id": "e13",
@@ -272,7 +437,23 @@
    "respuestas": [
     "They live in big houses."
    ],
-   "explicacion": "Los adjetivos no tienen plural."
+   "explicacion": "Se aplica la primera nota de la lista: los adjetivos no tienen plural en inglés. El error es un calco del español, donde decimos «casas grandes» con el adjetivo en plural. En inglés solo el sustantivo marca el número (houses) y el adjetivo big queda igual, vaya con singular o con plural. La pista es reconocer que big es un adjetivo que acompaña al sustantivo.",
+   "explicacion_breve": "Los adjetivos no tienen plural.",
+   "traduccion": "Viven en casas grandes.",
+   "errores_previstos": [
+    {
+     "respuesta": "They live in bigs houses.",
+     "explicacion": "Es la frase sin corregir: el adjetivo no puede llevar -s."
+    },
+    {
+     "respuesta": "They live in bigs house.",
+     "explicacion": "Se ha puesto el plural en el adjetivo en lugar del sustantivo: lo correcto es big houses."
+    },
+    {
+     "respuesta": "They live in big house.",
+     "explicacion": "Se ha quitado la -s del adjetivo, pero también la del sustantivo, que sí debe ir en plural (o llevar a: a big house)."
+    }
+   ]
   },
   {
    "id": "e14",
@@ -290,10 +471,32 @@
     "The people are friendly here",
     "Are the people here friendly"
    ],
-   "explicacion": "People es plural y lleva are."
+   "explicacion": "Se aplica la nota de la ficha según la cual people es plural y lleva are. Por eso el verbo disponible es are y no is, aunque en español «la gente» vaya en singular. El orden normal es sujeto (The people here) + verbo (are) + complemento (friendly); here puede ir detrás de people o al final de la frase, y con el verbo delante se obtiene la pregunta, que también vale.",
+   "explicacion_breve": "People es plural y lleva are.",
+   "traduccion": "La gente de aquí es simpática.",
+   "errores_previstos": [
+    {
+     "respuesta": "The people are here friendly",
+     "explicacion": "El adverbio here no puede ir entre el verbo y el adjetivo; va detrás de people o al final de la frase."
+    },
+    {
+     "respuesta": "Friendly are the people here",
+     "explicacion": "Calca un orden enfático que en inglés no es natural: el sujeto va delante del verbo."
+    },
+    {
+     "respuesta": "The here people are friendly",
+     "explicacion": "Here no funciona como adjetivo delante del sustantivo (calco de «la gente de aquí» leído al revés): va detrás, the people here."
+    }
+   ]
   }
  ],
  "fuente": {
   "nombre": "propia"
+ },
+ "descripcion_larga_es": "El plural de los sustantivos ingleses se forma casi siempre añadiendo -s, pero hay reglas ortográficas (-es, -ies, -ves) y un puñado de plurales irregulares muy frecuentes (men, children, feet, people). Es de lo primero que se aprende y aparece en casi cualquier frase. Al hispanohablante le cuesta recordar que los adjetivos no llevan plural y que palabras como people son ya plurales.",
+ "contexto": {
+  "que_es": "Es la forma que toma un sustantivo cuando se refiere a más de una cosa. La regla general es añadir -s, con ajustes ortográficos según la terminación (-es tras -s, -sh, -ch, -x; -ies tras consonante + y; -ves en algunas palabras en -f/-fe), y una lista corta de plurales irregulares que no siguen ninguna regla.",
+  "por_que_importa": "Los plurales aparecen en casi todas las frases, así que un error se repite muchas veces y da impresión de nivel bajo. Además, el plural arrastra la concordancia del verbo y de los demostrativos (this/these, is/are): si el sustantivo falla, falla la frase entera. En un examen escrito, «childs» o «womans» se penalizan como errores básicos.",
+  "cuando_se_usa": "Siempre que hablamos de más de una unidad, sobre todo tras números (two, three), cuantificadores (many, some, a lot of) y con these/those. El hispanohablante tiende a dar plural también al adjetivo («bigs houses»), como en español, y a tratar people como singular («people is»); en inglés el adjetivo es invariable y people pide verbo en plural."
  }
 }

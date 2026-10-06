@@ -6,55 +6,529 @@
  "nivel": "B1",
  "resumen": "Tout equivale a «todo»: como determinante concuerda con el nombre (tous les jours, toute la nuit), como pronombre significa «todo» o «todos» (tout va bien, je les connais tous) y como adverbio significa «muy, completamente» (tout près, toute seule).",
  "explicacion": [
-  {"tipo": "tabla", "cabecera": ["", "Masculino", "Femenino"], "filas": [
-   ["Singular", "tout (tout le temps)", "toute (toute la journée)"],
-   ["Plural", "tous (tous les soirs)", "toutes (toutes les nuits)"]
-  ]},
-  {"tipo": "texto", "texto": "Determinante: va delante del artículo o del posesivo, como en español: tous mes poèmes (todos mis poemas), toute sa vie (toda su vida). Sin artículo significa «cada, cualquier»: Tout poète est sensible (todo poeta es sensible). La s de tous no se pronuncia en este uso."},
-  {"tipo": "texto", "texto": "Pronombre: tout invariable = «todo» (Tout s'est bien passé ? C'est tout ce que je sais). Tous y toutes = «todos, todas», sustituyendo a un plural: Les éditeurs ? Je les déteste tous ! Aquí la s de tous sí se pronuncia."},
-  {"tipo": "texto", "texto": "Adverbio (muy, completamente): delante de un adjetivo, un adverbio o una preposición es invariable: tout près, tout doucement, ils sont tout contents. Excepción: ante un adjetivo femenino que empieza por consonante (o h aspirada) concuerda: elle est toute seule, ma poésie est toute moderne, elles sont toutes petites."},
-  {"tipo": "tabla", "cabecera": ["Expresión", "Significado"], "filas": [
-   ["tout le monde", "todo el mundo, todos"],
-   ["tout de suite", "enseguida"],
-   ["tout à l'heure", "dentro de un rato / hace un rato"],
-   ["tout à coup", "de repente"],
-   ["tout à fait", "totalmente, exactamente"],
-   ["pas du tout", "en absoluto"],
-   ["tous les deux / toutes les deux", "los dos, las dos"],
-   ["tous les deux jours", "cada dos días, un día sí y otro no"],
-   ["en tout cas / malgré tout", "en todo caso / a pesar de todo"]
-  ]}
+  {
+   "tipo": "tabla",
+   "cabecera": [
+    "",
+    "Masculino",
+    "Femenino"
+   ],
+   "filas": [
+    [
+     "Singular",
+     "tout (tout le temps)",
+     "toute (toute la journée)"
+    ],
+    [
+     "Plural",
+     "tous (tous les soirs)",
+     "toutes (toutes les nuits)"
+    ]
+   ]
+  },
+  {
+   "tipo": "texto",
+   "texto": "Determinante: va delante del artículo o del posesivo, como en español: tous mes poèmes (todos mis poemas), toute sa vie (toda su vida). Sin artículo significa «cada, cualquier»: Tout poète est sensible (todo poeta es sensible). La s de tous no se pronuncia en este uso."
+  },
+  {
+   "tipo": "texto",
+   "texto": "Pronombre: tout invariable = «todo» (Tout s'est bien passé ? C'est tout ce que je sais). Tous y toutes = «todos, todas», sustituyendo a un plural: Les éditeurs ? Je les déteste tous ! Aquí la s de tous sí se pronuncia."
+  },
+  {
+   "tipo": "texto",
+   "texto": "Adverbio (muy, completamente): delante de un adjetivo, un adverbio o una preposición es invariable: tout près, tout doucement, ils sont tout contents. Excepción: ante un adjetivo femenino que empieza por consonante (o h aspirada) concuerda: elle est toute seule, ma poésie est toute moderne, elles sont toutes petites."
+  },
+  {
+   "tipo": "tabla",
+   "cabecera": [
+    "Expresión",
+    "Significado"
+   ],
+   "filas": [
+    [
+     "tout le monde",
+     "todo el mundo, todos"
+    ],
+    [
+     "tout de suite",
+     "enseguida"
+    ],
+    [
+     "tout à l'heure",
+     "dentro de un rato / hace un rato"
+    ],
+    [
+     "tout à coup",
+     "de repente"
+    ],
+    [
+     "tout à fait",
+     "totalmente, exactamente"
+    ],
+    [
+     "pas du tout",
+     "en absoluto"
+    ],
+    [
+     "tous les deux / toutes les deux",
+     "los dos, las dos"
+    ],
+    [
+     "tous les deux jours",
+     "cada dos días, un día sí y otro no"
+    ],
+    [
+     "en tout cas / malgré tout",
+     "en todo caso / a pesar de todo"
+    ]
+   ]
+  }
  ],
  "ejemplos": [
-  {"frase": "Je pense à toi tout le temps, toute la journée, tous les soirs.", "traduccion": "Pienso en ti todo el tiempo, todo el día, todas las tardes."},
-  {"frase": "Tout s'est bien passé ?", "traduccion": "¿Ha ido todo bien?"},
-  {"frase": "Où sont tous les autres ?", "traduccion": "¿Dónde están todos los demás?"},
-  {"frase": "C'est tout ce qui me reste.", "traduccion": "Es todo lo que me queda."},
-  {"frase": "Ils ont tous les deux souri.", "traduccion": "Los dos sonrieron."},
-  {"frase": "La gare est tout près.", "traduccion": "La estación está muy cerca."}
+  {
+   "frase": "Je pense à toi tout le temps, toute la journée, tous les soirs.",
+   "traduccion": "Pienso en ti todo el tiempo, todo el día, todas las tardes."
+  },
+  {
+   "frase": "Tout s'est bien passé ?",
+   "traduccion": "¿Ha ido todo bien?"
+  },
+  {
+   "frase": "Où sont tous les autres ?",
+   "traduccion": "¿Dónde están todos los demás?"
+  },
+  {
+   "frase": "C'est tout ce qui me reste.",
+   "traduccion": "Es todo lo que me queda."
+  },
+  {
+   "frase": "Ils ont tous les deux souri.",
+   "traduccion": "Los dos sonrieron."
+  },
+  {
+   "frase": "La gare est tout près.",
+   "traduccion": "La estación está muy cerca."
+  }
  ],
  "errores_hispanohablantes": [
-  {"mal": "Tout le monde sont là.", "bien": "Tout le monde est là.", "nota": "Tout le monde es singular, aunque en español digamos «todos están»."},
-  {"mal": "Je viens tout les jours.", "bien": "Je viens tous les jours.", "nota": "Ante un plural masculino, tous."},
-  {"mal": "C'est tous ce que je veux.", "bien": "C'est tout ce que je veux.", "nota": "«Todo lo que» es tout ce que / tout ce qui, siempre invariable."}
+  {
+   "mal": "Tout le monde sont là.",
+   "bien": "Tout le monde est là.",
+   "nota": "Tout le monde es singular, aunque en español digamos «todos están»."
+  },
+  {
+   "mal": "Je viens tout les jours.",
+   "bien": "Je viens tous les jours.",
+   "nota": "Ante un plural masculino, tous."
+  },
+  {
+   "mal": "C'est tous ce que je veux.",
+   "bien": "C'est tout ce que je veux.",
+   "nota": "«Todo lo que» es tout ce que / tout ce qui, siempre invariable."
+  }
  ],
  "ejercicios": [
-  {"id": "e01", "tipo": "hueco", "enunciado": "Completa con tout, toute, tous o toutes.", "frase": "Je viens ___ les jours.", "respuestas": ["tous"], "explicacion": "Jours es masculino plural: tous les jours.", "origen": "tatoeba:6307943"},
-  {"id": "e02", "tipo": "hueco", "enunciado": "Completa con tout, toute, tous o toutes.", "frase": "J'ai pleuré ___ la nuit.", "respuestas": ["toute"], "explicacion": "Nuit es femenino singular: toute la nuit.", "origen": "tatoeba:9727"},
-  {"id": "e03", "tipo": "hueco", "enunciado": "Completa con tout, toute, tous o toutes.", "frase": "Ça arrive ___ le temps.", "respuestas": ["tout"], "explicacion": "Temps es masculino singular: tout le temps.", "origen": "tatoeba:2021965"},
-  {"id": "e04", "tipo": "eleccion", "enunciado": "Elige la forma correcta.", "frase": "Ils sont ___ les mêmes.", "opciones": ["tous", "tout", "toutes"], "respuestas": ["tous"], "explicacion": "Masculino plural: tous (todos son iguales).", "origen": "tatoeba:653896"},
-  {"id": "e05", "tipo": "hueco", "enunciado": "Completa con tout, toute, tous o toutes.", "frase": "Il ennuie ___ le monde.", "respuestas": ["tout"], "explicacion": "Tout le monde (todo el mundo) es fijo y singular.", "origen": "tatoeba:4694621"},
-  {"id": "e06", "tipo": "corregir", "enunciado": "Corrige el error.", "frase": "Je vous aime tout les deux.", "respuestas": ["Je vous aime tous les deux."], "explicacion": "Los dos (masculino o mixto): tous les deux.", "origen": "tatoeba:1997638"},
-  {"id": "e07", "tipo": "corregir", "enunciado": "Corrige el error.", "frase": "C'est tous ce que je sais.", "respuestas": ["C'est tout ce que je sais."], "explicacion": "Tout ce que (todo lo que) es invariable.", "origen": "tatoeba:549526"},
-  {"id": "e08", "tipo": "eleccion", "enunciado": "Elige la forma correcta.", "frase": "Moi, j'ai vu ___ mes films.", "opciones": ["tous", "tout", "toutes"], "respuestas": ["tous"], "explicacion": "Films es masculino plural: tous mes films.", "origen": "tatoeba:2930648"},
-  {"id": "e09", "tipo": "hueco", "enunciado": "Completa con tout, toute, tous o toutes.", "frase": "Elle a mangé ___ la pomme.", "respuestas": ["toute"], "explicacion": "Pomme es femenino singular: toute la pomme.", "origen": "tatoeba:1465881"},
-  {"id": "e10", "tipo": "ordenar", "enunciado": "Ordena las palabras.", "palabras": ["suite", "Je", "de", "reviens", "tout"], "respuestas": ["Je reviens tout de suite"], "explicacion": "Tout de suite (enseguida) es una expresión fija.", "origen": "tatoeba:530392"},
-  {"id": "e11", "tipo": "eleccion", "enunciado": "Elige la forma correcta.", "frase": "Et ma poésie est ___ moderne.", "opciones": ["toute", "tout", "toutes"], "respuestas": ["toute"], "explicacion": "Adverbio ante adjetivo femenino que empieza por consonante: concuerda (toute moderne)."},
-  {"id": "e12", "tipo": "eleccion", "enunciado": "Elige la forma correcta.", "frase": "Il habite ___ près d'ici.", "opciones": ["tout", "tous", "toute"], "respuestas": ["tout"], "explicacion": "Adverbio ante otro adverbio: tout invariable (muy cerca)."},
-  {"id": "e13", "tipo": "hueco", "enunciado": "Completa con tout, toute, tous o toutes.", "frase": "___ poète est sensible.", "respuestas": ["Tout", "tout"], "explicacion": "Sin artículo, tout + nombre singular significa «todo, cualquier»."},
-  {"id": "e14", "tipo": "transformar", "enunciado": "Añade el pronombre tous o toutes para decir «a todos».", "frase": "Les éditeurs ? Je les déteste.", "respuestas": ["Les éditeurs ? Je les déteste tous."], "explicacion": "Pronombre que retoma un masculino plural: tous, detrás del verbo."},
-  {"id": "e15", "tipo": "hueco", "enunciado": "Completa con tout, toute, tous o toutes.", "frase": "Je me rase ___ les deux jours.", "respuestas": ["tous"], "explicacion": "Tous les deux jours = cada dos días."},
-  {"id": "e16", "tipo": "eleccion", "enunciado": "Elige la forma correcta.", "frase": "___ s'est bien passé ?", "opciones": ["Tout", "Tous", "Toute"], "respuestas": ["Tout"], "explicacion": "Pronombre indefinido «todo»: tout, invariable y singular."}
+  {
+   "id": "e01",
+   "tipo": "hueco",
+   "enunciado": "Completa con tout, toute, tous o toutes.",
+   "frase": "Je viens ___ les jours.",
+   "respuestas": [
+    "tous"
+   ],
+   "explicacion": "La tabla de la ficha muestra que tout como determinante concuerda con el nombre al que acompaña. Aquí el nombre es jours, masculino plural, y el artículo les lo confirma. Por eso la forma es tous: «Je viens tous les jours». En este uso la s de tous no se pronuncia, de modo que suena igual que tout; por escrito hay que fijarse en el plural.",
+   "origen": "tatoeba:6307943",
+   "explicacion_breve": "Jours es masculino plural: tous les jours.",
+   "traduccion": "Vengo todos los días.",
+   "errores_previstos": [
+    {
+     "respuesta": "tout",
+     "explicacion": "Tout es masculino singular. Jours es plural: tous les jours. Suenan igual, pero se escriben distinto."
+    },
+    {
+     "respuesta": "toutes",
+     "explicacion": "Toutes es femenino plural. Jour es masculino: tous."
+    }
+   ]
+  },
+  {
+   "id": "e02",
+   "tipo": "hueco",
+   "enunciado": "Completa con tout, toute, tous o toutes.",
+   "frase": "J'ai pleuré ___ la nuit.",
+   "respuestas": [
+    "toute"
+   ],
+   "explicacion": "Como determinante, tout concuerda en género y número con el nombre, según la tabla de la ficha. Nuit es femenino singular, como indica el artículo la. Por eso la forma es toute, con -e: «J'ai pleuré toute la nuit». En este caso la t final se pronuncia, a diferencia de tout.",
+   "origen": "tatoeba:9727",
+   "explicacion_breve": "Nuit es femenino singular: toute la nuit.",
+   "traduccion": "Lloré toda la noche.",
+   "errores_previstos": [
+    {
+     "respuesta": "tout",
+     "explicacion": "Tout es masculino. Nuit es femenino: toute la nuit."
+    },
+    {
+     "respuesta": "toutes",
+     "explicacion": "Toutes es plural. La nuit es singular: toute."
+    }
+   ]
+  },
+  {
+   "id": "e03",
+   "tipo": "hueco",
+   "enunciado": "Completa con tout, toute, tous o toutes.",
+   "frase": "Ça arrive ___ le temps.",
+   "respuestas": [
+    "tout"
+   ],
+   "explicacion": "Tout concuerda con el nombre que acompaña. Temps es masculino singular, aunque termine en s, como muestra el artículo le. Por eso la forma es tout: «Ça arrive tout le temps». La s de temps es parte de la palabra y no marca plural; es fácil equivocarse por ella.",
+   "origen": "tatoeba:2021965",
+   "explicacion_breve": "Temps es masculino singular: tout le temps.",
+   "traduccion": "Eso pasa todo el tiempo.",
+   "errores_previstos": [
+    {
+     "respuesta": "tous",
+     "explicacion": "La s final de temps engaña, pero la palabra es singular, como muestra le: tout le temps."
+    },
+    {
+     "respuesta": "toute",
+     "explicacion": "Toute es femenino. Temps es masculino: tout."
+    }
+   ]
+  },
+  {
+   "id": "e04",
+   "tipo": "eleccion",
+   "enunciado": "Elige la forma correcta.",
+   "frase": "Ils sont ___ les mêmes.",
+   "opciones": [
+    "tous",
+    "tout",
+    "toutes"
+   ],
+   "respuestas": [
+    "tous"
+   ],
+   "explicacion": "Aquí tout se refiere al sujeto ils, masculino plural, y significa «todos». Según la ficha, para un masculino plural la forma es tous. Va detrás del verbo être y delante de les mêmes, igual que en español «son todos iguales». La s de tous se pronuncia en este uso pronominal.",
+   "origen": "tatoeba:653896",
+   "explicacion_breve": "Masculino plural: tous (todos son iguales).",
+   "traduccion": "Son todos iguales.",
+   "por_opcion": {
+    "tous": "Correcta: masculino plural, concuerda con ils.",
+    "tout": "Incorrecta: tout es singular o invariable; con ils hace falta el plural tous.",
+    "toutes": "Incorrecta: es femenino plural; solo valdría con elles."
+   }
+  },
+  {
+   "id": "e05",
+   "tipo": "hueco",
+   "enunciado": "Completa con tout, toute, tous o toutes.",
+   "frase": "Il ennuie ___ le monde.",
+   "respuestas": [
+    "tout"
+   ],
+   "explicacion": "La ficha recoge tout le monde como expresión fija que significa «todo el mundo» o «todos». Monde es masculino singular, así que la forma es tout. Además, tout le monde siempre es gramaticalmente singular, aunque se refiera a muchas personas. «Il ennuie tout le monde».",
+   "origen": "tatoeba:4694621",
+   "explicacion_breve": "Tout le monde (todo el mundo) es fijo y singular.",
+   "traduccion": "Aburre a todo el mundo.",
+   "errores_previstos": [
+    {
+     "respuesta": "tous",
+     "explicacion": "Aunque signifique «todos», tout le monde es singular: monde lleva le."
+    },
+    {
+     "respuesta": "toute",
+     "explicacion": "Monde es masculino: tout le monde."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "ennuyer",
+     "significado": "aburrir, también molestar"
+    }
+   ]
+  },
+  {
+   "id": "e06",
+   "tipo": "corregir",
+   "enunciado": "Corrige el error.",
+   "frase": "Je vous aime tout les deux.",
+   "respuestas": [
+    "Je vous aime tous les deux."
+   ],
+   "explicacion": "La ficha recoge la expresión tous les deux, «los dos», que concuerda con las personas a las que se refiere. Como vous designa aquí a dos personas, de las que al menos una es masculina, se usa el masculino plural tous. Si fueran dos mujeres, sería toutes les deux. La frase corregida es «Je vous aime tous les deux».",
+   "origen": "tatoeba:1997638",
+   "explicacion_breve": "Los dos (masculino o mixto): tous les deux.",
+   "traduccion": "Os quiero a los dos.",
+   "errores_previstos": [
+    {
+     "respuesta": "Je vous aime tout les deux.",
+     "explicacion": "Es la frase sin corregir: tout no concuerda con el plural les deux."
+    },
+    {
+     "respuesta": "Je vous aime tous les deuxs.",
+     "explicacion": "Deux es invariable: no lleva s."
+    },
+    {
+     "respuesta": "Je vous aime tous deux les.",
+     "explicacion": "La expresión fija es tous les deux, con el artículo delante del numeral."
+    }
+   ]
+  },
+  {
+   "id": "e07",
+   "tipo": "corregir",
+   "enunciado": "Corrige el error.",
+   "frase": "C'est tous ce que je sais.",
+   "respuestas": [
+    "C'est tout ce que je sais."
+   ],
+   "explicacion": "La ficha explica que «todo lo que» se dice tout ce que o tout ce qui, y que en esta expresión tout es invariable. Ce es un pronombre neutro singular, así que tout no puede ir en plural. La frase corregida es «C'est tout ce que je sais». El error tous ce que nace de que tout y tous suenan igual en este contexto.",
+   "origen": "tatoeba:549526",
+   "explicacion_breve": "Tout ce que (todo lo que) es invariable.",
+   "traduccion": "Es todo lo que sé.",
+   "errores_previstos": [
+    {
+     "respuesta": "C'est tous ce que je sais.",
+     "explicacion": "Es la frase sin corregir: delante de ce que, tout es siempre invariable."
+    },
+    {
+     "respuesta": "C'est tout que je sais.",
+     "explicacion": "Falta ce: «todo lo que» es tout ce que, con el pronombre ce."
+    },
+    {
+     "respuesta": "C'est tout ce qui je sais.",
+     "explicacion": "Qui es sujeto; aquí el sujeto de sais es je, así que hace falta que: tout ce que."
+    }
+   ]
+  },
+  {
+   "id": "e08",
+   "tipo": "eleccion",
+   "enunciado": "Elige la forma correcta.",
+   "frase": "Moi, j'ai vu ___ mes films.",
+   "opciones": [
+    "tous",
+    "tout",
+    "toutes"
+   ],
+   "respuestas": [
+    "tous"
+   ],
+   "explicacion": "La ficha explica que el determinante tout va delante del artículo o del posesivo y concuerda con el nombre: tous mes poèmes. Film es masculino en francés, aunque en español «película» sea femenino, y aquí va en plural (mes films). Por eso la forma es tous: «J'ai vu tous mes films».",
+   "origen": "tatoeba:2930648",
+   "explicacion_breve": "Films es masculino plural: tous mes films.",
+   "traduccion": "Yo he visto todas mis películas.",
+   "por_opcion": {
+    "tous": "Correcta: masculino plural, concuerda con films.",
+    "tout": "Incorrecta: tout es singular; mes films es plural.",
+    "toutes": "Incorrecta: film es masculino en francés, aunque «película» sea femenino en español."
+   }
+  },
+  {
+   "id": "e09",
+   "tipo": "hueco",
+   "enunciado": "Completa con tout, toute, tous o toutes.",
+   "frase": "Elle a mangé ___ la pomme.",
+   "respuestas": [
+    "toute"
+   ],
+   "explicacion": "Como determinante, tout concuerda con el nombre al que acompaña. Pomme es femenino singular, como indica el artículo la. Por eso la forma es toute: «Elle a mangé toute la pomme». No influye el sujeto elle: tout concuerda con pomme, no con quien come.",
+   "origen": "tatoeba:1465881",
+   "explicacion_breve": "Pomme es femenino singular: toute la pomme.",
+   "traduccion": "Se ha comido toda la manzana.",
+   "errores_previstos": [
+    {
+     "respuesta": "tout",
+     "explicacion": "Tout es masculino. Pomme es femenino: toute la pomme."
+    },
+    {
+     "respuesta": "toutes",
+     "explicacion": "Toutes es plural. La pomme es singular: toute."
+    }
+   ]
+  },
+  {
+   "id": "e10",
+   "tipo": "ordenar",
+   "enunciado": "Ordena las palabras.",
+   "palabras": [
+    "suite",
+    "Je",
+    "de",
+    "reviens",
+    "tout"
+   ],
+   "respuestas": [
+    "Je reviens tout de suite"
+   ],
+   "explicacion": "La ficha recoge tout de suite, «enseguida», entre las expresiones fijas con tout. Su orden no cambia y siempre va completa. La frase sigue el orden sujeto + verbo + expresión: «Je reviens tout de suite». No hay que confundirla con tout à l'heure, que significa «dentro de un rato» o «hace un rato».",
+   "origen": "tatoeba:530392",
+   "explicacion_breve": "Tout de suite (enseguida) es una expresión fija.",
+   "traduccion": "Vuelvo enseguida.",
+   "errores_previstos": [
+    {
+     "respuesta": "Je reviens de suite tout",
+     "explicacion": "Rompe la expresión fija: el orden es tout de suite."
+    },
+    {
+     "respuesta": "Je tout de suite reviens",
+     "explicacion": "En francés la expresión temporal va detrás del verbo conjugado: je reviens tout de suite."
+    }
+   ]
+  },
+  {
+   "id": "e11",
+   "tipo": "eleccion",
+   "enunciado": "Elige la forma correcta.",
+   "frase": "Et ma poésie est ___ moderne.",
+   "opciones": [
+    "toute",
+    "tout",
+    "toutes"
+   ],
+   "respuestas": [
+    "toute"
+   ],
+   "explicacion": "Aquí tout es adverbio y significa «muy, completamente». La ficha explica que como adverbio es invariable, salvo una excepción: delante de un adjetivo femenino que empieza por consonante concuerda. Moderne es femenino (concuerda con poésie) y empieza por m, consonante. Por eso se escribe toute: «ma poésie est toute moderne».",
+   "explicacion_breve": "Adverbio ante adjetivo femenino que empieza por consonante: concuerda (toute moderne).",
+   "traduccion": "Y mi poesía es totalmente moderna.",
+   "por_opcion": {
+    "toute": "Correcta: adverbio delante de adjetivo femenino que empieza por consonante; por excepción, concuerda.",
+    "tout": "Incorrecta en esta frase: tout invariable solo vale ante adjetivo masculino o ante femenino que empieza por vocal (tout entière).",
+    "toutes": "Incorrecta: el sujeto ma poésie es singular, así que no puede ir en plural."
+   }
+  },
+  {
+   "id": "e12",
+   "tipo": "eleccion",
+   "enunciado": "Elige la forma correcta.",
+   "frase": "Il habite ___ près d'ici.",
+   "opciones": [
+    "tout",
+    "tous",
+    "toute"
+   ],
+   "respuestas": [
+    "tout"
+   ],
+   "explicacion": "Tout es aquí adverbio («muy»), porque va delante de près, otro adverbio. La ficha indica que el adverbio tout es invariable delante de adverbios, preposiciones y adjetivos masculinos. La excepción de la concordancia solo afecta a adjetivos femeninos que empiezan por consonante, y près no es un adjetivo. Por eso la forma es tout: «Il habite tout près d'ici».",
+   "explicacion_breve": "Adverbio ante otro adverbio: tout invariable (muy cerca).",
+   "traduccion": "Vive muy cerca de aquí.",
+   "por_opcion": {
+    "tout": "Correcta: adverbio invariable delante de otro adverbio (près).",
+    "tous": "Incorrecta: tous es plural y no puede modificar a un adverbio.",
+    "toute": "Incorrecta: solo concuerda ante adjetivos femeninos que empiezan por consonante, y près es adverbio."
+   }
+  },
+  {
+   "id": "e13",
+   "tipo": "hueco",
+   "enunciado": "Completa con tout, toute, tous o toutes.",
+   "frase": "___ poète est sensible.",
+   "respuestas": [
+    "Tout",
+    "tout"
+   ],
+   "explicacion": "La ficha explica que tout sin artículo, delante de un nombre singular, significa «todo, cualquier». Poète es masculino singular, así que la forma es tout. Al principio de frase se escribe con mayúscula, aunque el corrector también acepta la minúscula, y por eso aparecen las dos respuestas. «Tout poète est sensible» equivale a «cualquier poeta es sensible».",
+   "explicacion_breve": "Sin artículo, tout + nombre singular significa «todo, cualquier».",
+   "traduccion": "Todo poeta es sensible.",
+   "errores_previstos": [
+    {
+     "respuesta": "Tous",
+     "explicacion": "Tous es plural. Poète y est van en singular: tout poète."
+    },
+    {
+     "respuesta": "Tout le",
+     "explicacion": "Tout le poète significaría «el poeta entero». Sin artículo, tout significa «todo, cualquier»."
+    }
+   ]
+  },
+  {
+   "id": "e14",
+   "tipo": "transformar",
+   "enunciado": "Añade el pronombre tous o toutes para decir «a todos».",
+   "frase": "Les éditeurs ? Je les déteste.",
+   "respuestas": [
+    "Les éditeurs ? Je les déteste tous."
+   ],
+   "explicacion": "La ficha explica que tous y toutes funcionan como pronombres que retoman un plural ya mencionado. Aquí retoman les éditeurs, masculino plural, que el pronombre les ya sustituye. En un tiempo simple, tous va detrás del verbo: «Je les déteste tous». En este uso la s de tous se pronuncia.",
+   "explicacion_breve": "Pronombre que retoma un masculino plural: tous, detrás del verbo.",
+   "traduccion": "¿Los editores? ¡Los detesto a todos!",
+   "errores_previstos": [
+    {
+     "respuesta": "Les éditeurs ? Je les déteste tout.",
+     "explicacion": "Tout invariable significa «todo»; para retomar a «los editores» hace falta el plural tous."
+    },
+    {
+     "respuesta": "Les éditeurs ? Je les tous déteste.",
+     "explicacion": "En un tiempo simple, tous va detrás del verbo conjugado: je les déteste tous."
+    },
+    {
+     "respuesta": "Les éditeurs ? Je déteste tous.",
+     "explicacion": "Falta el pronombre les: en francés tous no basta para retomar el complemento; hace falta je les déteste tous."
+    }
+   ]
+  },
+  {
+   "id": "e15",
+   "tipo": "hueco",
+   "enunciado": "Completa con tout, toute, tous o toutes.",
+   "frase": "Je me rase ___ les deux jours.",
+   "respuestas": [
+    "tous"
+   ],
+   "explicacion": "La ficha recoge tous les deux jours con el sentido de «cada dos días» o «un día sí y otro no». Tout concuerda con jours, masculino plural, así que la forma es tous. No hay que confundirla con tous les deux, «los dos»: lo que cambia es el nombre jours detrás del numeral.",
+   "explicacion_breve": "Tous les deux jours = cada dos días.",
+   "traduccion": "Me afeito cada dos días.",
+   "errores_previstos": [
+    {
+     "respuesta": "tout",
+     "explicacion": "Les deux jours es plural: tous les deux jours."
+    },
+    {
+     "respuesta": "chaque",
+     "explicacion": "Chaque va delante de un nombre singular sin artículo (chaque jour). Delante de les deux jours hace falta tous."
+    }
+   ]
+  },
+  {
+   "id": "e16",
+   "tipo": "eleccion",
+   "enunciado": "Elige la forma correcta.",
+   "frase": "___ s'est bien passé ?",
+   "opciones": [
+    "Tout",
+    "Tous",
+    "Toute"
+   ],
+   "respuestas": [
+    "Tout"
+   ],
+   "explicacion": "Aquí tout es pronombre indefinido y significa «todo». La ficha indica que en este uso es invariable y singular, como en «Tout s'est bien passé ?». No sustituye a ningún nombre plural, sino a la situación en general. Por eso la forma es Tout, con mayúscula al principio de la frase, y el verbo va en singular (s'est).",
+   "explicacion_breve": "Pronombre indefinido «todo»: tout, invariable y singular.",
+   "traduccion": "¿Ha ido todo bien?",
+   "por_opcion": {
+    "Tout": "Correcta: pronombre indefinido neutro «todo», invariable y con el verbo en singular.",
+    "Tous": "Incorrecta: tous significa «todos» y exigiría un verbo en plural (se sont).",
+    "Toute": "Incorrecta: toute es femenino y necesita un nombre femenino; el pronombre neutro es tout."
+   }
+  }
  ],
- "fuente": {"nombre": "Tex's French Grammar", "autores": "COERLL, Universidad de Texas en Austin", "licencia": "CC BY 3.0", "url": "https://laits.utexas.edu/tex/gr/det9.html", "otras": ["Frases de Tatoeba (CC BY 2.0 FR)"]}
+ "fuente": {
+  "nombre": "Tex's French Grammar",
+  "autores": "COERLL, Universidad de Texas en Austin",
+  "licencia": "CC BY 3.0",
+  "url": "https://laits.utexas.edu/tex/gr/det9.html",
+  "otras": [
+   "Frases de Tatoeba (CC BY 2.0 FR)"
+  ]
+ },
+ "descripcion_larga_es": "Tout equivale a «todo», pero en francés cambia de forma según su función: como determinante concuerda con el nombre (tout, toute, tous, toutes), como pronombre significa «todo» o «todos» y como adverbio significa «muy, completamente». Además forma muchas expresiones muy frecuentes (tout de suite, tout le monde). Cuesta al hispanohablante porque tous y tout suenan casi igual, y porque tout le monde va en singular.",
+ "contexto": {
+  "que_es": "Tout es una palabra con tres funciones. Como determinante va delante del artículo o del posesivo y concuerda con el nombre (tout le temps, toute la journée, tous mes amis, toutes les nuits). Como pronombre significa «todo» (invariable) o «todos, todas» (tous, toutes). Como adverbio, delante de un adjetivo o un adverbio, significa «muy» o «completamente».",
+  "por_que_importa": "Es una de las palabras más frecuentes del francés y aparece en expresiones de uso diario: tous les jours, tout le monde, tout de suite, pas du tout. Los errores de concordancia (tout les jours) se ven mucho por escrito, y el de tout le monde en plural se oye enseguida al hablar. Además, la pronunciación cambia: la s de tous se pronuncia cuando es pronombre y no cuando es determinante.",
+  "cuando_se_usa": "Para elegir la forma hay que mirar el nombre que sigue (género y número) o el nombre al que sustituye. Las señales son el artículo o el posesivo detrás (les jours, la nuit, mes films) y, en el uso adverbial, un adjetivo o adverbio detrás (tout près, toute seule). El hispanohablante tiende a dejar tout invariable o a conjugar tout le monde en plural, porque en español decimos «todos están»."
+ }
 }

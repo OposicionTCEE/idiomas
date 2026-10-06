@@ -6,48 +6,461 @@
  "nivel": "B1",
  "resumen": "La pasiva se forma con be en el tiempo correspondiente + participio. Se usa cuando importa más la acción o el objeto que quien la realiza, o cuando no se sabe quién la realiza.",
  "explicacion": [
-  {"tipo": "tabla", "cabecera": ["Tiempo", "Activa", "Pasiva"], "filas": [
-   ["Presente simple", "They make cars here.", "Cars are made here."],
-   ["Pasado simple", "Someone stole my bike.", "My bike was stolen."],
-   ["Negativa", "They don't use this room.", "This room isn't used."],
-   ["Pregunta", "Did they invite you?", "Were you invited?"]
-  ]},
-  {"tipo": "lista", "items": [
-   "El objeto de la activa pasa a sujeto y be concuerda con él: The letters were sent (plural).",
-   "El agente se introduce con by solo si aporta información: The Mona Lisa was painted by Leonardo.",
-   "Se omite el agente si es obvio, desconocido o irrelevante: He was arrested (por la policía, es evidente).",
-   "Equivale a menudo a la pasiva refleja española con «se»: English is spoken here = Aquí se habla inglés."
-  ]},
-  {"tipo": "texto", "texto": "Los participios irregulares son la fuente principal de errores: built, written, sold, made, taken, given, found, held, paid, sent, known. Repásalos antes de hacer los ejercicios."}
+  {
+   "tipo": "tabla",
+   "cabecera": [
+    "Tiempo",
+    "Activa",
+    "Pasiva"
+   ],
+   "filas": [
+    [
+     "Presente simple",
+     "They make cars here.",
+     "Cars are made here."
+    ],
+    [
+     "Pasado simple",
+     "Someone stole my bike.",
+     "My bike was stolen."
+    ],
+    [
+     "Negativa",
+     "They don't use this room.",
+     "This room isn't used."
+    ],
+    [
+     "Pregunta",
+     "Did they invite you?",
+     "Were you invited?"
+    ]
+   ]
+  },
+  {
+   "tipo": "lista",
+   "items": [
+    "El objeto de la activa pasa a sujeto y be concuerda con él: The letters were sent (plural).",
+    "El agente se introduce con by solo si aporta información: The Mona Lisa was painted by Leonardo.",
+    "Se omite el agente si es obvio, desconocido o irrelevante: He was arrested (por la policía, es evidente).",
+    "Equivale a menudo a la pasiva refleja española con «se»: English is spoken here = Aquí se habla inglés."
+   ]
+  },
+  {
+   "tipo": "texto",
+   "texto": "Los participios irregulares son la fuente principal de errores: built, written, sold, made, taken, given, found, held, paid, sent, known. Repásalos antes de hacer los ejercicios."
+  }
  ],
  "ejemplos": [
-  {"frase": "Spanish is spoken in more than twenty countries.", "traduccion": "El español se habla en más de veinte países."},
-  {"frase": "The bridge was built in the nineteenth century.", "traduccion": "El puente se construyó en el siglo XIX."},
-  {"frase": "Breakfast is served from seven to ten.", "traduccion": "El desayuno se sirve de siete a diez."},
-  {"frase": "Were the tickets sold online?", "traduccion": "¿Se vendieron las entradas por internet?"},
-  {"frase": "The novel was written by a young Chilean author.", "traduccion": "La novela la escribió un joven autor chileno."},
-  {"frase": "Our flight wasn't cancelled, luckily.", "traduccion": "Por suerte, no cancelaron nuestro vuelo."}
+  {
+   "frase": "Spanish is spoken in more than twenty countries.",
+   "traduccion": "El español se habla en más de veinte países."
+  },
+  {
+   "frase": "The bridge was built in the nineteenth century.",
+   "traduccion": "El puente se construyó en el siglo XIX."
+  },
+  {
+   "frase": "Breakfast is served from seven to ten.",
+   "traduccion": "El desayuno se sirve de siete a diez."
+  },
+  {
+   "frase": "Were the tickets sold online?",
+   "traduccion": "¿Se vendieron las entradas por internet?"
+  },
+  {
+   "frase": "The novel was written by a young Chilean author.",
+   "traduccion": "La novela la escribió un joven autor chileno."
+  },
+  {
+   "frase": "Our flight wasn't cancelled, luckily.",
+   "traduccion": "Por suerte, no cancelaron nuestro vuelo."
+  }
  ],
  "errores_hispanohablantes": [
-  {"mal": "The house was build in 1950.", "bien": "The house was built in 1950.", "nota": "La pasiva necesita el participio, no el infinitivo."},
-  {"mal": "In this shop is sold fruit.", "bien": "Fruit is sold in this shop.", "nota": "La pasiva inglesa necesita sujeto delante del verbo; no se calca la pasiva refleja con «se»."},
-  {"mal": "The emails was sent yesterday.", "bien": "The emails were sent yesterday.", "nota": "Be concuerda con el nuevo sujeto: plural, were."}
+  {
+   "mal": "The house was build in 1950.",
+   "bien": "The house was built in 1950.",
+   "nota": "La pasiva necesita el participio, no el infinitivo."
+  },
+  {
+   "mal": "In this shop is sold fruit.",
+   "bien": "Fruit is sold in this shop.",
+   "nota": "La pasiva inglesa necesita sujeto delante del verbo; no se calca la pasiva refleja con «se»."
+  },
+  {
+   "mal": "The emails was sent yesterday.",
+   "bien": "The emails were sent yesterday.",
+   "nota": "Be concuerda con el nuevo sujeto: plural, were."
+  }
  ],
  "ejercicios": [
-  {"id": "e01", "tipo": "hueco", "enunciado": "Completa con la pasiva en presente simple.", "frase": "Coffee ___ (grow) in Colombia and Brazil.", "respuestas": ["is grown"], "explicacion": "Presente: is + participio (grown)."},
-  {"id": "e02", "tipo": "hueco", "enunciado": "Completa con la pasiva en pasado simple.", "frase": "The film ___ (direct) by Pedro Almodóvar.", "respuestas": ["was directed"], "explicacion": "Pasado: was + participio."},
-  {"id": "e03", "tipo": "hueco", "enunciado": "Completa con la pasiva en pasado simple.", "frase": "Two people ___ (injure) in the accident.", "respuestas": ["were injured"], "explicacion": "Sujeto plural: were + participio."},
-  {"id": "e04", "tipo": "hueco", "enunciado": "Completa con la pasiva en presente simple.", "frase": "These products ___ (not sell) in supermarkets.", "respuestas": ["aren't sold", "are not sold"], "explicacion": "Negativa: aren't + participio."},
-  {"id": "e05", "tipo": "eleccion", "enunciado": "Elige la opción correcta.", "frase": "The thieves ___ last night.", "opciones": ["arrested", "were arrested", "was arrested"], "respuestas": ["were arrested"], "explicacion": "Los ladrones reciben la acción y es plural: were arrested."},
-  {"id": "e06", "tipo": "eleccion", "enunciado": "Elige la opción correcta.", "frase": "Hamlet was written ___ Shakespeare.", "opciones": ["by", "from", "of"], "respuestas": ["by"], "explicacion": "El agente de la pasiva se introduce con by."},
-  {"id": "e07", "tipo": "eleccion", "enunciado": "Elige la opción correcta.", "frase": "Where ___ these shoes made?", "opciones": ["did", "were", "are being"], "respuestas": ["were"], "explicacion": "Pregunta en pasiva pasada: were + sujeto + participio."},
-  {"id": "e08", "tipo": "corregir", "enunciado": "Corrige el error.", "frase": "The museum is visit by thousands of people every year.", "respuestas": ["The museum is visited by thousands of people every year."], "explicacion": "Hace falta el participio: visited."},
-  {"id": "e09", "tipo": "corregir", "enunciado": "Corrige el error.", "frase": "The windows was cleaned this morning.", "respuestas": ["The windows were cleaned this morning."], "explicacion": "Windows es plural: were."},
-  {"id": "e10", "tipo": "transformar", "enunciado": "Pasa la frase a pasiva sin mencionar el agente.", "frase": "Someone stole my wallet.", "respuestas": ["My wallet was stolen."], "explicacion": "El agente (someone) es desconocido: se omite."},
-  {"id": "e11", "tipo": "transformar", "enunciado": "Pasa la frase a pasiva.", "frase": "Picasso painted Guernica.", "respuestas": ["Guernica was painted by Picasso."], "explicacion": "El agente es relevante: by Picasso."},
-  {"id": "e12", "tipo": "transformar", "enunciado": "Pasa la frase a pasiva sin mencionar el agente.", "frase": "They clean the offices every evening.", "respuestas": ["The offices are cleaned every evening."], "explicacion": "Presente simple: are + participio; they no aporta información."},
-  {"id": "e13", "tipo": "ordenar", "enunciado": "Ordena las palabras.", "palabras": ["is", "here", "English", "spoken"], "respuestas": ["English is spoken here", "Is English spoken here"], "explicacion": "Sujeto + is + participio + lugar."},
-  {"id": "e14", "tipo": "ordenar", "enunciado": "Ordena las palabras.", "palabras": ["was", "in", "the", "built", "castle", "1200"], "respuestas": ["the castle was built in 1200", "in 1200 the castle was built"], "explicacion": "Sujeto + was + participio + complemento de tiempo."}
+  {
+   "id": "e01",
+   "tipo": "hueco",
+   "enunciado": "Completa con la pasiva en presente simple.",
+   "frase": "Coffee ___ (grow) in Colombia and Brazil.",
+   "respuestas": [
+    "is grown"
+   ],
+   "explicacion": "Se aplica la primera fila de la tabla: en presente simple la pasiva es am/is/are + participio. La pista es que el café no cultiva nada, sino que es cultivado, y que se describe un hecho general (presente simple). Coffee es incontable y concuerda en singular, por eso is. El participio de grow es irregular: grown. Equivale a la pasiva refleja española «se cultiva».",
+   "explicacion_breve": "Presente: is + participio (grown).",
+   "traduccion": "El café se cultiva en Colombia y Brasil.",
+   "errores_previstos": [
+    {
+     "respuesta": "grows",
+     "explicacion": "Es activa: diría que el café cultiva algo. Hace falta be + participio."
+    },
+    {
+     "respuesta": "is growed",
+     "explicacion": "Grow es irregular: el participio es grown, no growed."
+    },
+    {
+     "respuesta": "are grown",
+     "explicacion": "Coffee es incontable y va en singular: is grown."
+    }
+   ]
+  },
+  {
+   "id": "e02",
+   "tipo": "hueco",
+   "enunciado": "Completa con la pasiva en pasado simple.",
+   "frase": "The film ___ (direct) by Pedro Almodóvar.",
+   "respuestas": [
+    "was directed"
+   ],
+   "explicacion": "Se aplica la segunda fila de la tabla: en pasado simple la pasiva es was/were + participio. La pista es by Pedro Almodóvar, que introduce el agente y obliga a que el sujeto (the film) reciba la acción; además se habla de un hecho terminado. Film es singular, así que was. El participio regular de direct es directed.",
+   "explicacion_breve": "Pasado: was + participio.",
+   "traduccion": "La película la dirigió Pedro Almodóvar.",
+   "errores_previstos": [
+    {
+     "respuesta": "directed",
+     "explicacion": "Sin be es activa en pasado y diría que la película dirigió algo; falta was."
+    },
+    {
+     "respuesta": "was direct",
+     "explicacion": "Tras was hace falta el participio, directed, no el infinitivo."
+    },
+    {
+     "respuesta": "is directed",
+     "explicacion": "El enunciado pide pasado simple: was directed."
+    }
+   ]
+  },
+  {
+   "id": "e03",
+   "tipo": "hueco",
+   "enunciado": "Completa con la pasiva en pasado simple.",
+   "frase": "Two people ___ (injure) in the accident.",
+   "respuestas": [
+    "were injured"
+   ],
+   "explicacion": "Se aplica la regla de concordancia de Reglas y claves: be concuerda con el nuevo sujeto. La pista es el sujeto plural two people, que exige were. Las personas no hieren, sino que son heridas, de modo que va el participio injured. Es el uso típico de las noticias, donde el agente no interesa.",
+   "explicacion_breve": "Sujeto plural: were + participio.",
+   "traduccion": "Dos personas resultaron heridas en el accidente.",
+   "errores_previstos": [
+    {
+     "respuesta": "was injured",
+     "explicacion": "People es plural: el verbo be debe ir en plural, were."
+    },
+    {
+     "respuesta": "injured",
+     "explicacion": "Sin be es activa y diría que dos personas hirieron a alguien."
+    },
+    {
+     "respuesta": "were injure",
+     "explicacion": "Tras were va el participio, injured."
+    }
+   ]
+  },
+  {
+   "id": "e04",
+   "tipo": "hueco",
+   "enunciado": "Completa con la pasiva en presente simple.",
+   "frase": "These products ___ (not sell) in supermarkets.",
+   "respuestas": [
+    "aren't sold",
+    "are not sold"
+   ],
+   "explicacion": "Se aplica la fila «Negativa» de la tabla: la negación va sobre be (aren't / are not) y después el participio. La pista es el sujeto plural these products y el sentido general, de presente simple. El participio de sell es irregular: sold. Se aceptan la forma contraída y la completa, porque ambas son correctas y solo cambian de registro.",
+   "explicacion_breve": "Negativa: aren't + participio.",
+   "traduccion": "Estos productos no se venden en los supermercados.",
+   "errores_previstos": [
+    {
+     "respuesta": "don't sell",
+     "explicacion": "Es activa con do: diría que los productos no venden. En la pasiva no se usa do; se niega be."
+    },
+    {
+     "respuesta": "aren't selled",
+     "explicacion": "Sell es irregular: el participio es sold."
+    },
+    {
+     "respuesta": "isn't sold",
+     "explicacion": "El sujeto es plural (these products): aren't sold."
+    }
+   ]
+  },
+  {
+   "id": "e05",
+   "tipo": "eleccion",
+   "enunciado": "Elige la opción correcta.",
+   "frase": "The thieves ___ last night.",
+   "opciones": [
+    "arrested",
+    "were arrested",
+    "was arrested"
+   ],
+   "respuestas": [
+    "were arrested"
+   ],
+   "explicacion": "Se aplica la regla de concordancia y la omisión del agente obvio (He was arrested, por la policía, es evidente). La pista es que the thieves reciben la acción, no la realizan, y es un sujeto plural. Por eso va were + arrested. La traducción española natural usa la tercera persona del plural impersonal «detuvieron».",
+   "explicacion_breve": "Los ladrones reciben la acción y es plural: were arrested.",
+   "traduccion": "Detuvieron a los ladrones anoche.",
+   "por_opcion": {
+    "arrested": "Incorrecta: es activa y significaría que los ladrones detuvieron a alguien; además le falta el complemento.",
+    "were arrested": "Correcta: pasiva en pasado con be en plural, concordando con the thieves.",
+    "was arrested": "Incorrecta: tiene la estructura pasiva, pero was es singular y el sujeto es plural."
+   }
+  },
+  {
+   "id": "e06",
+   "tipo": "eleccion",
+   "enunciado": "Elige la opción correcta.",
+   "frase": "Hamlet was written ___ Shakespeare.",
+   "opciones": [
+    "by",
+    "from",
+    "of"
+   ],
+   "respuestas": [
+    "by"
+   ],
+   "explicacion": "Se aplica la regla del agente: en la pasiva el agente se introduce con by cuando aporta información, como en The Mona Lisa was painted by Leonardo. La pista es que tras el hueco viene quien realiza la acción de escribir. By equivale al «por» del complemento agente español.",
+   "explicacion_breve": "El agente de la pasiva se introduce con by.",
+   "traduccion": "Hamlet lo escribió Shakespeare.",
+   "por_opcion": {
+    "by": "Correcta: introduce el agente de la pasiva.",
+    "from": "Incorrecta: from indica origen o procedencia (a letter from Shakespeare), no el autor de una pasiva. Es un calco frecuente de «de».",
+    "of": "Incorrecta: of indica pertenencia (a play of Shakespeare's) y no introduce el agente."
+   }
+  },
+  {
+   "id": "e07",
+   "tipo": "eleccion",
+   "enunciado": "Elige la opción correcta.",
+   "frase": "Where ___ these shoes made?",
+   "opciones": [
+    "did",
+    "were",
+    "are being"
+   ],
+   "respuestas": [
+    "were"
+   ],
+   "explicacion": "Se aplica la fila «Pregunta» de la tabla: en la pasiva se invierte be y el sujeto, sin do. La pista es el participio made al final y el sujeto plural these shoes; preguntamos por un hecho pasado, así que were. La pregunta sigue el orden partícula interrogativa + were + sujeto + participio.",
+   "explicacion_breve": "Pregunta en pasiva pasada: were + sujeto + participio.",
+   "traduccion": "¿Dónde se fabricaron estos zapatos?",
+   "por_opcion": {
+    "did": "Incorrecta: did se usa con verbos activos (Where did they make these shoes?); con made en pasiva hace falta be.",
+    "were": "Correcta: pasiva en pasado, plural por these shoes.",
+    "are being": "Incorrecta: además de describir un proceso en curso, colocaría ambos auxiliares delante del sujeto, cosa que el inglés no permite (sería Where are these shoes being made?)."
+   }
+  },
+  {
+   "id": "e08",
+   "tipo": "corregir",
+   "enunciado": "Corrige el error.",
+   "frase": "The museum is visit by thousands of people every year.",
+   "respuestas": [
+    "The museum is visited by thousands of people every year."
+   ],
+   "explicacion": "Se aplica la estructura básica de la pasiva, be + participio, y el primer error típico de la ficha: usar el infinitivo en lugar del participio. La pista es by thousands of people, que revela una pasiva, y la forma is ya presente. Falta el participio regular visited.",
+   "explicacion_breve": "Hace falta el participio: visited.",
+   "traduccion": "Miles de personas visitan el museo cada año.",
+   "errores_previstos": [
+    {
+     "respuesta": "The museum is visit by thousands of people every year.",
+     "explicacion": "Es copiar la frase sin corregir: tras is falta el participio visited."
+    },
+    {
+     "respuesta": "The museum visits by thousands of people every year.",
+     "explicacion": "Quitar is la convierte en activa sin sentido; la pasiva necesita be + participio."
+    },
+    {
+     "respuesta": "The museum is visiting by thousands of people every year.",
+     "explicacion": "Is visiting es activa continua; la pasiva necesita el participio visited."
+    }
+   ]
+  },
+  {
+   "id": "e09",
+   "tipo": "corregir",
+   "enunciado": "Corrige el error.",
+   "frase": "The windows was cleaned this morning.",
+   "respuestas": [
+    "The windows were cleaned this morning."
+   ],
+   "explicacion": "Se aplica la regla de concordancia: be concuerda con el nuevo sujeto, como en The letters were sent. La pista es windows, plural con -s. En pasado, el plural de be es were. El participio cleaned ya es correcto.",
+   "explicacion_breve": "Windows es plural: were.",
+   "traduccion": "Las ventanas se limpiaron esta mañana.",
+   "errores_previstos": [
+    {
+     "respuesta": "The windows was cleaned this morning.",
+     "explicacion": "Es copiar la frase sin corregir: con sujeto plural va were."
+    },
+    {
+     "respuesta": "The window were cleaned this morning.",
+     "explicacion": "Cambia el sujeto a singular en vez de corregir el verbo, y además deja una concordancia errónea."
+    },
+    {
+     "respuesta": "The windows are cleaned this morning.",
+     "explicacion": "This morning ya pasado exige pasado: were."
+    }
+   ]
+  },
+  {
+   "id": "e10",
+   "tipo": "transformar",
+   "enunciado": "Pasa la frase a pasiva sin mencionar el agente.",
+   "frase": "Someone stole my wallet.",
+   "respuestas": [
+    "My wallet was stolen."
+   ],
+   "explicacion": "Se aplica la regla de omisión del agente cuando es desconocido. La pista es someone, que no aporta información. El objeto my wallet pasa a sujeto, be va en pasado y en singular (was) y se añade el participio irregular de steal, stolen. Añadir by someone sería correcto gramaticalmente pero redundante.",
+   "explicacion_breve": "El agente (someone) es desconocido: se omite.",
+   "traduccion": "Me robaron la cartera.",
+   "errores_previstos": [
+    {
+     "respuesta": "My wallet was stolen by someone.",
+     "explicacion": "El enunciado pide no mencionar el agente: by someone no aporta nada."
+    },
+    {
+     "respuesta": "My wallet was stole.",
+     "explicacion": "Stole es pasado simple; el participio es stolen."
+    },
+    {
+     "respuesta": "Was stolen my wallet.",
+     "explicacion": "Calco del español «me robaron la cartera»: en inglés el sujeto va delante del verbo."
+    }
+   ]
+  },
+  {
+   "id": "e11",
+   "tipo": "transformar",
+   "enunciado": "Pasa la frase a pasiva.",
+   "frase": "Picasso painted Guernica.",
+   "respuestas": [
+    "Guernica was painted by Picasso."
+   ],
+   "explicacion": "Se aplica la regla del agente: by + agente solo cuando aporta información, y aquí el autor es justamente lo importante. La pista es que Picasso es un nombre concreto y relevante. Guernica pasa a sujeto, be va en pasado singular (was) y se añade el participio painted, seguido de by Picasso.",
+   "explicacion_breve": "El agente es relevante: by Picasso.",
+   "traduccion": "El Guernica lo pintó Picasso.",
+   "errores_previstos": [
+    {
+     "respuesta": "Guernica was painted from Picasso.",
+     "explicacion": "El agente se introduce con by, no con from."
+    },
+    {
+     "respuesta": "Guernica was paint by Picasso.",
+     "explicacion": "Tras was va el participio painted."
+    },
+    {
+     "respuesta": "Guernica was painted.",
+     "explicacion": "Aquí el agente es relevante y el enunciado no pide omitirlo: by Picasso."
+    }
+   ]
+  },
+  {
+   "id": "e12",
+   "tipo": "transformar",
+   "enunciado": "Pasa la frase a pasiva sin mencionar el agente.",
+   "frase": "They clean the offices every evening.",
+   "respuestas": [
+    "The offices are cleaned every evening."
+   ],
+   "explicacion": "Se aplica la fila «Presente simple» de la tabla y la regla de omisión del agente irrelevante. La pista es every evening, que indica hábito y por tanto presente simple, y they, un sujeto impersonal que no aporta información. The offices es plural, así que are; el participio es cleaned.",
+   "explicacion_breve": "Presente simple: are + participio; they no aporta información.",
+   "traduccion": "Las oficinas se limpian todas las tardes.",
+   "errores_previstos": [
+    {
+     "respuesta": "The offices are cleaned by them every evening.",
+     "explicacion": "By them no aporta nada y el enunciado pide no mencionar el agente."
+    },
+    {
+     "respuesta": "The offices is cleaned every evening.",
+     "explicacion": "Offices es plural: are."
+    },
+    {
+     "respuesta": "The offices were cleaned every evening.",
+     "explicacion": "La activa está en presente (clean), así que la pasiva también: are cleaned."
+    }
+   ]
+  },
+  {
+   "id": "e13",
+   "tipo": "ordenar",
+   "enunciado": "Ordena las palabras.",
+   "palabras": [
+    "is",
+    "here",
+    "English",
+    "spoken"
+   ],
+   "respuestas": [
+    "English is spoken here",
+    "Is English spoken here"
+   ],
+   "explicacion": "Se aplica la equivalencia con la pasiva refleja española que recoge la ficha: English is spoken here = Aquí se habla inglés. La pista es que entre las palabras está is y el participio spoken, así que se construye una pasiva con English como sujeto. El orden es sujeto + is + participio + lugar. También vale la pregunta Is English spoken here, con be delante del sujeto.",
+   "explicacion_breve": "Sujeto + is + participio + lugar.",
+   "traduccion": "Aquí se habla inglés. (También: ¿Se habla inglés aquí?)",
+   "errores_previstos": [
+    {
+     "respuesta": "here is spoken English",
+     "explicacion": "Calco de «aquí se habla inglés»: la pasiva inglesa necesita el sujeto delante del verbo."
+    },
+    {
+     "respuesta": "English spoken is here",
+     "explicacion": "El participio va detrás de be: is spoken."
+    }
+   ]
+  },
+  {
+   "id": "e14",
+   "tipo": "ordenar",
+   "enunciado": "Ordena las palabras.",
+   "palabras": [
+    "was",
+    "in",
+    "the",
+    "built",
+    "castle",
+    "1200"
+   ],
+   "respuestas": [
+    "the castle was built in 1200",
+    "in 1200 the castle was built"
+   ],
+   "explicacion": "Se aplica la segunda fila de la tabla: pasado simple pasivo, was + participio. La pista es la fecha 1200, que pide pasado, y el participio irregular built entre las palabras. El orden normal es sujeto + was + participio + complemento de tiempo; también es correcto adelantar el complemento: In 1200 the castle was built.",
+   "explicacion_breve": "Sujeto + was + participio + complemento de tiempo.",
+   "traduccion": "El castillo se construyó en 1200.",
+   "errores_previstos": [
+    {
+     "respuesta": "in 1200 was built the castle",
+     "explicacion": "Calco del español «en 1200 se construyó el castillo»: el sujeto debe ir delante del verbo."
+    },
+    {
+     "respuesta": "the castle built was in 1200",
+     "explicacion": "El participio va detrás de be: was built."
+    }
+   ]
+  }
  ],
- "fuente": {"nombre": "propia"}
+ "fuente": {
+  "nombre": "propia"
+ },
+ "descripcion_larga_es": "La voz pasiva en presente y pasado (is made, was built) sirve para centrar la frase en lo que sucede o en el objeto afectado, no en quién actúa. Es muy frecuente en noticias, instrucciones, textos técnicos y descripciones de procesos. Al hispanohablante le cuesta porque el español prefiere la pasiva refleja con «se» y porque hay que dominar los participios irregulares y la concordancia de be.",
+ "contexto": {
+  "que_es": "Es la construcción en que el objeto de la oración activa pasa a ser sujeto y el verbo se forma con be conjugado más el participio pasado: They make cars here pasa a Cars are made here. El agente, si se menciona, va introducido por by.",
+  "por_que_importa": "Es imprescindible para hablar de procesos, productos, historia y noticias, donde importa más lo que pasó que quién lo hizo. Si se calca la estructura española con «se» o se olvida el participio, la frase resulta agramatical o incomprensible. En un examen escrito, usarla bien demuestra control del registro impersonal.",
+  "cuando_se_usa": "Cuando el agente es desconocido, evidente o irrelevante (My bike was stolen, He was arrested), o cuando el tema de la frase es el objeto (The bridge was built in 1890). Es la traducción natural de muchas frases españolas con «se»: Aquí se habla inglés es English is spoken here. El hispanohablante tiende a escribir «Here is spoken English» o a olvidar el sujeto."
+ }
 }

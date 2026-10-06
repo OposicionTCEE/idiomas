@@ -6,55 +6,523 @@
  "nivel": "A2",
  "resumen": "El imparfait corresponde casi siempre al imperfecto español (hablaba, comía): describe situaciones y costumbres del pasado; además sirve para sugerir (Si on allait… ?) y expresar deseos (Si seulement…!).",
  "explicacion": [
-  {"tipo": "texto", "texto": "Formación: se toma la forma nous del presente sin -ons y se añaden las terminaciones -ais, -ais, -ait, -ions, -iez, -aient. Vale para todos los verbos, también los irregulares, salvo être, cuya raíz es ét-."},
-  {"tipo": "tabla", "cabecera": ["Infinitivo", "nous (presente)", "Imparfait"], "filas": [
-   ["parler", "nous parlons", "je parlais, nous parlions"],
-   ["finir", "nous finissons", "tu finissais, vous finissiez"],
-   ["faire", "nous faisons", "il faisait"],
-   ["prendre", "nous prenons", "ils prenaient"],
-   ["avoir", "nous avons", "j'avais"],
-   ["être", "nous sommes", "j'étais, nous étions"]
-  ]},
-  {"tipo": "texto", "texto": "Las formas -ais, -ait y -aient suenan igual. Los verbos en -ger y -cer conservan el sonido con e y ç delante de a: je mangeais, il commençait, pero nous mangions, vous commenciez."},
-  {"tipo": "lista", "items": [
-   "Descripciones y estados en el pasado: Il faisait chaud. Edouard était adolescent, il voulait devenir cuisinier.",
-   "Hábitos (solía, -aba): Le samedi, on allait toujours chez Berthillon.",
-   "Acción en curso interrumpida por otra (con passé composé): Je dormais quand le téléphone a sonné.",
-   "Sugerencia con si on + imparfait (¿y si…?): Si on achetait une moto ?",
-   "Deseo con si (seulement) + imparfait (¡ojalá…!): Si seulement on avait plus d'argent !"
-  ]},
-  {"tipo": "texto", "texto": "En la sugerencia y el deseo, donde el español usa el subjuntivo («¿Y si fuéramos?», «¡Si al menos tuviéramos!»), el francés usa el imparfait de indicativo."}
+  {
+   "tipo": "texto",
+   "texto": "Formación: se toma la forma nous del presente sin -ons y se añaden las terminaciones -ais, -ais, -ait, -ions, -iez, -aient. Vale para todos los verbos, también los irregulares, salvo être, cuya raíz es ét-."
+  },
+  {
+   "tipo": "tabla",
+   "cabecera": [
+    "Infinitivo",
+    "nous (presente)",
+    "Imparfait"
+   ],
+   "filas": [
+    [
+     "parler",
+     "nous parlons",
+     "je parlais, nous parlions"
+    ],
+    [
+     "finir",
+     "nous finissons",
+     "tu finissais, vous finissiez"
+    ],
+    [
+     "faire",
+     "nous faisons",
+     "il faisait"
+    ],
+    [
+     "prendre",
+     "nous prenons",
+     "ils prenaient"
+    ],
+    [
+     "avoir",
+     "nous avons",
+     "j'avais"
+    ],
+    [
+     "être",
+     "nous sommes",
+     "j'étais, nous étions"
+    ]
+   ]
+  },
+  {
+   "tipo": "texto",
+   "texto": "Las formas -ais, -ait y -aient suenan igual. Los verbos en -ger y -cer conservan el sonido con e y ç delante de a: je mangeais, il commençait, pero nous mangions, vous commenciez."
+  },
+  {
+   "tipo": "lista",
+   "items": [
+    "Descripciones y estados en el pasado: Il faisait chaud. Edouard était adolescent, il voulait devenir cuisinier.",
+    "Hábitos (solía, -aba): Le samedi, on allait toujours chez Berthillon.",
+    "Acción en curso interrumpida por otra (con passé composé): Je dormais quand le téléphone a sonné.",
+    "Sugerencia con si on + imparfait (¿y si…?): Si on achetait une moto ?",
+    "Deseo con si (seulement) + imparfait (¡ojalá…!): Si seulement on avait plus d'argent !"
+   ]
+  },
+  {
+   "tipo": "texto",
+   "texto": "En la sugerencia y el deseo, donde el español usa el subjuntivo («¿Y si fuéramos?», «¡Si al menos tuviéramos!»), el francés usa el imparfait de indicativo."
+  }
  ],
  "ejemplos": [
-  {"frase": "Il faisait froid hier.", "traduccion": "Ayer hacía frío."},
-  {"frase": "Quand Edouard était adolescent, il n'avait qu'un rêve.", "traduccion": "Cuando Edouard era adolescente, solo tenía un sueño."},
-  {"frase": "On se promenait le long des quais.", "traduccion": "Paseábamos a lo largo de los muelles."},
-  {"frase": "Sa mère était chanteuse.", "traduccion": "Su madre era cantante."},
-  {"frase": "Si on achetait une Harley Davidson ?", "traduccion": "¿Y si nos compráramos una Harley Davidson?"},
-  {"frase": "Si seulement je pouvais avoir une moto !", "traduccion": "¡Ojalá pudiera tener una moto!"}
+  {
+   "frase": "Il faisait froid hier.",
+   "traduccion": "Ayer hacía frío."
+  },
+  {
+   "frase": "Quand Edouard était adolescent, il n'avait qu'un rêve.",
+   "traduccion": "Cuando Edouard era adolescente, solo tenía un sueño."
+  },
+  {
+   "frase": "On se promenait le long des quais.",
+   "traduccion": "Paseábamos a lo largo de los muelles."
+  },
+  {
+   "frase": "Sa mère était chanteuse.",
+   "traduccion": "Su madre era cantante."
+  },
+  {
+   "frase": "Si on achetait une Harley Davidson ?",
+   "traduccion": "¿Y si nos compráramos una Harley Davidson?"
+  },
+  {
+   "frase": "Si seulement je pouvais avoir une moto !",
+   "traduccion": "¡Ojalá pudiera tener una moto!"
+  }
  ],
  "errores_hispanohablantes": [
-  {"mal": "Nous mangeions à huit heures.", "bien": "Nous mangions à huit heures.", "nota": "La e de mange- solo se añade delante de a u o: je mangeais, pero nous mangions."},
-  {"mal": "Quand j'ai été petit, j'ai habité à Séville.", "bien": "Quand j'étais petit, j'habitais à Séville.", "nota": "Las circunstancias y situaciones prolongadas del pasado van en imparfait, como en español «cuando era pequeño, vivía…»."},
-  {"mal": "Si on irait au cinéma ?", "bien": "Si on allait au cinéma ?", "nota": "Tras si nunca va condicional: si + imparfait."}
+  {
+   "mal": "Nous mangeions à huit heures.",
+   "bien": "Nous mangions à huit heures.",
+   "nota": "La e de mange- solo se añade delante de a u o: je mangeais, pero nous mangions."
+  },
+  {
+   "mal": "Quand j'ai été petit, j'ai habité à Séville.",
+   "bien": "Quand j'étais petit, j'habitais à Séville.",
+   "nota": "Las circunstancias y situaciones prolongadas del pasado van en imparfait, como en español «cuando era pequeño, vivía…»."
+  },
+  {
+   "mal": "Si on irait au cinéma ?",
+   "bien": "Si on allait au cinéma ?",
+   "nota": "Tras si nunca va condicional: si + imparfait."
+  }
  ],
  "ejercicios": [
-  {"id": "e01", "tipo": "hueco", "enunciado": "Completa con el imparfait de faire.", "frase": "Il ___ froid hier.", "respuestas": ["faisait"], "explicacion": "Raíz fais- (nous faisons) + -ait.", "origen": "tatoeba:8293"},
-  {"id": "e02", "tipo": "hueco", "enunciado": "Completa con el imparfait de être.", "frase": "Il ___ très fatigué.", "respuestas": ["était"], "explicacion": "Être tiene la raíz irregular ét-.", "origen": "tatoeba:119920"},
-  {"id": "e03", "tipo": "hueco", "enunciado": "Completa con el imparfait de aimer.", "frase": "Elle ___ le chocolat.", "respuestas": ["aimait"], "explicacion": "Raíz aim- + -ait.", "origen": "tatoeba:2370417"},
-  {"id": "e04", "tipo": "hueco", "enunciado": "Completa con el imparfait de habiter.", "frase": "Il ___ là tout seul.", "respuestas": ["habitait"], "explicacion": "Raíz habit- + -ait.", "origen": "tatoeba:130977"},
-  {"id": "e05", "tipo": "hueco", "enunciado": "Completa con el imparfait de avoir.", "frase": "Il n'___ pas sommeil.", "respuestas": ["avait"], "explicacion": "Raíz av- (nous avons) + -ait; ne se apostrofa ante vocal.", "origen": "tatoeba:2072662"},
-  {"id": "e06", "tipo": "corregir", "enunciado": "Corrige el error.", "frase": "Sa mère étais chanteuse.", "respuestas": ["Sa mère était chanteuse."], "explicacion": "Tercera persona del singular: -ait.", "origen": "tatoeba:539808"},
-  {"id": "e07", "tipo": "corregir", "enunciado": "Corrige el error.", "frase": "Il y avaient deux gâteaux.", "respuestas": ["Il y avait deux gâteaux."], "explicacion": "Il y a es impersonal y siempre va en singular: il y avait.", "origen": "tatoeba:334584"},
-  {"id": "e08", "tipo": "eleccion", "enunciado": "Elige la forma correcta.", "frase": "Quand nous étions enfants, nous ___ souvent à la plage.", "opciones": ["allions", "allons", "allaient"], "respuestas": ["allions"], "explicacion": "Hábito en el pasado con nous: allions."},
-  {"id": "e09", "tipo": "eleccion", "enunciado": "Elige la forma correcta.", "frase": "Quand j'étais petit, je ___ au foot tous les samedis.", "opciones": ["jouais", "ai joué", "jouerai"], "respuestas": ["jouais"], "explicacion": "Costumbre en el pasado (todos los sábados): imparfait."},
-  {"id": "e10", "tipo": "transformar", "enunciado": "Pasa la frase al imparfait.", "frase": "Tom est avec Mary.", "respuestas": ["Tom était avec Mary."], "explicacion": "Être → était.", "origen": "tatoeba:7699902"},
-  {"id": "e11", "tipo": "transformar", "enunciado": "Pasa la frase al imparfait.", "frase": "Nous mangeons à la cantine.", "respuestas": ["Nous mangions à la cantine."], "explicacion": "Ante -ions no hace falta la e de mange-."},
-  {"id": "e12", "tipo": "hueco", "enunciado": "Completa con el imparfait de commencer.", "frase": "Tu ___ toujours en retard.", "respuestas": ["commençais"], "explicacion": "Ante a, la c pasa a ç para conservar el sonido."},
-  {"id": "e13", "tipo": "ordenar", "enunciado": "Ordena las palabras (Todo estaba en su sitio).", "palabras": ["place", "était", "sa", "Tout", "à"], "respuestas": ["Tout était à sa place"], "explicacion": "Descripción de un estado en el pasado.", "origen": "tatoeba:12594284"},
-  {"id": "e14", "tipo": "ordenar", "enunciado": "Ordena las palabras (Tenía fiebre).", "palabras": ["fièvre", "la", "avait", "Elle", "de"], "respuestas": ["Elle avait de la fièvre"], "explicacion": "Estado físico en el pasado: imparfait.", "origen": "tatoeba:4874884"},
-  {"id": "e15", "tipo": "hueco", "enunciado": "Completa con el imparfait de aller (¿y si fuéramos?).", "frase": "Si on ___ au cinéma ?", "respuestas": ["allait"], "explicacion": "Si on + imparfait expresa una sugerencia."},
-  {"id": "e16", "tipo": "eleccion", "enunciado": "Elige la forma correcta (¡ojalá tuviera!).", "frase": "Si seulement j'___ plus de temps !", "opciones": ["avais", "ai", "aurais"], "respuestas": ["avais"], "explicacion": "Si seulement + imparfait expresa un deseo; tras si no va condicional."}
+  {
+   "id": "e01",
+   "tipo": "hueco",
+   "enunciado": "Completa con el imparfait de faire.",
+   "frase": "Il ___ froid hier.",
+   "respuestas": [
+    "faisait"
+   ],
+   "explicacion": "Se aplica la regla de formación de la ficha: raíz de la forma nous del presente sin -ons más la terminación. Faire hace nous faisons, así que la raíz es fais- y, con il, se añade -ait: faisait. El uso también es el de la ficha, describir un estado del pasado: il fait froid es una expresión impersonal del tiempo atmosférico, y en el pasado descriptivo pasa a il faisait froid. Aunque se escribe fais-, la primera sílaba se pronuncia como «fe».",
+   "origen": "tatoeba:8293",
+   "explicacion_breve": "Raíz fais- (nous faisons) + -ait.",
+   "traduccion": "Ayer hacía frío.",
+   "errores_previstos": [
+    {
+     "respuesta": "fesait",
+     "explicacion": "Se escribe como suena, pero la raíz se toma de nous faisons: faisait, con ai."
+    },
+    {
+     "respuesta": "fait",
+     "explicacion": "Es el presente; el marcador hier pide el pasado, y para describir el tiempo que hacía se usa el imparfait faisait."
+    },
+    {
+     "respuesta": "faisais",
+     "explicacion": "La terminación -ais corresponde a je y tu; con il es -ait."
+    }
+   ]
+  },
+  {
+   "id": "e02",
+   "tipo": "hueco",
+   "enunciado": "Completa con el imparfait de être.",
+   "frase": "Il ___ très fatigué.",
+   "respuestas": [
+    "était"
+   ],
+   "explicacion": "Se aplica la única excepción de la regla de formación: être no toma la raíz de nous sommes, sino la raíz irregular ét-. Con il se añade -ait: était. La frase describe un estado físico del pasado, uso típico del imparfait según la lista de la ficha. Las terminaciones son las mismas que en el resto de verbos.",
+   "origen": "tatoeba:119920",
+   "explicacion_breve": "Être tiene la raíz irregular ét-.",
+   "traduccion": "Estaba muy cansado.",
+   "errores_previstos": [
+    {
+     "respuesta": "étais",
+     "explicacion": "La terminación -ais es de je y tu; con il se escribe -ait: était. Suenan igual, por eso se confunden."
+    },
+    {
+     "respuesta": "a été",
+     "explicacion": "Es el passé composé; para describir cómo se encontraba alguien se usa el imparfait."
+    },
+    {
+     "respuesta": "sommait",
+     "explicacion": "Être es la excepción: su raíz no sale de nous sommes, sino que es ét-."
+    }
+   ]
+  },
+  {
+   "id": "e03",
+   "tipo": "hueco",
+   "enunciado": "Completa con el imparfait de aimer.",
+   "frase": "Elle ___ le chocolat.",
+   "respuestas": [
+    "aimait"
+   ],
+   "explicacion": "Se aplica la regla de formación general: nous aimons da la raíz aim-, y para elle se añade -ait, aimait. El uso es el de un estado o una preferencia duradera en el pasado, que la ficha clasifica entre las descripciones. Fíjate en que el francés construye aimer con sujeto y complemento directo, al revés que «gustar» en español.",
+   "origen": "tatoeba:2370417",
+   "explicacion_breve": "Raíz aim- + -ait.",
+   "traduccion": "A ella le gustaba el chocolate.",
+   "errores_previstos": [
+    {
+     "respuesta": "aimais",
+     "explicacion": "Con elle la terminación es -ait, no -ais (que es de je y tu)."
+    },
+    {
+     "respuesta": "aimaient",
+     "explicacion": "La terminación -aient corresponde a ils o elles; el sujeto aquí es elle, singular."
+    }
+   ]
+  },
+  {
+   "id": "e04",
+   "tipo": "hueco",
+   "enunciado": "Completa con el imparfait de habiter.",
+   "frase": "Il ___ là tout seul.",
+   "respuestas": [
+    "habitait"
+   ],
+   "explicacion": "Se aplica la regla de formación: nous habitons da la raíz habit-, y con il se añade -ait, habitait. Es una situación prolongada en el pasado, el uso descriptivo del imparfait. Como habiter empieza por h muda, en otras personas habría elisión (j'habitais), pero aquí el sujeto il no cambia.",
+   "origen": "tatoeba:130977",
+   "explicacion_breve": "Raíz habit- + -ait.",
+   "traduccion": "Vivía allí completamente solo.",
+   "errores_previstos": [
+    {
+     "respuesta": "a habité",
+     "explicacion": "El passé composé presenta el hecho como cerrado; para describir una situación duradera del pasado se usa el imparfait habitait."
+    },
+    {
+     "respuesta": "habitais",
+     "explicacion": "La terminación -ais es de je y tu; con il es -ait."
+    }
+   ]
+  },
+  {
+   "id": "e05",
+   "tipo": "hueco",
+   "enunciado": "Completa con el imparfait de avoir.",
+   "frase": "Il n'___ pas sommeil.",
+   "respuestas": [
+    "avait"
+   ],
+   "explicacion": "Se aplica la regla de formación: nous avons da la raíz av-, y con il se añade -ait, avait. La pista ortográfica está en el hueco: ne aparece ya apostrofado (n') porque el verbo empieza por vocal. La expresión avoir sommeil equivale a «tener sueño», y en el pasado describe un estado físico, uso típico del imparfait.",
+   "origen": "tatoeba:2072662",
+   "explicacion_breve": "Raíz av- (nous avons) + -ait; ne se apostrofa ante vocal.",
+   "traduccion": "No tenía sueño.",
+   "errores_previstos": [
+    {
+     "respuesta": "a",
+     "explicacion": "Es el presente; el ejercicio pide el imparfait, que con il es avait."
+    },
+    {
+     "respuesta": "avais",
+     "explicacion": "Con il la terminación es -ait, no -ais."
+    },
+    {
+     "respuesta": "était",
+     "explicacion": "Es el calco de «estar con sueño». En francés se dice avoir sommeil, con el verbo avoir."
+    }
+   ]
+  },
+  {
+   "id": "e06",
+   "tipo": "corregir",
+   "enunciado": "Corrige el error.",
+   "frase": "Sa mère étais chanteuse.",
+   "respuestas": [
+    "Sa mère était chanteuse."
+   ],
+   "explicacion": "El error está en la terminación: étais es la forma de je o tu, pero el sujeto sa mère es tercera persona del singular y pide -ait, était. Las terminaciones -ais, -ait y -aient suenan igual, como advierte la ficha, por eso el error solo se ve por escrito. El uso es descriptivo: la profesión de alguien en el pasado.",
+   "origen": "tatoeba:539808",
+   "explicacion_breve": "Tercera persona del singular: -ait.",
+   "traduccion": "Su madre era cantante.",
+   "errores_previstos": [
+    {
+     "respuesta": "Sa mère étais chanteuse.",
+     "explicacion": "Es dejar la frase sin corregir: con un sujeto de tercera persona la terminación es -ait."
+    },
+    {
+     "respuesta": "Sa mère étaient chanteuse.",
+     "explicacion": "La terminación -aient es de tercera persona del plural; sa mère es singular."
+    }
+   ]
+  },
+  {
+   "id": "e07",
+   "tipo": "corregir",
+   "enunciado": "Corrige el error.",
+   "frase": "Il y avaient deux gâteaux.",
+   "respuestas": [
+    "Il y avait deux gâteaux."
+   ],
+   "explicacion": "El error es haber puesto el verbo en plural por concordancia con deux gâteaux. Il y a es impersonal e invariable, igual que «hay» o «había» en español: el sujeto es il, así que en imparfait es siempre il y avait. Igual que en español es incorrecto «habían dos pasteles», en francés lo es il y avaient.",
+   "origen": "tatoeba:334584",
+   "explicacion_breve": "Il y a es impersonal y siempre va en singular: il y avait.",
+   "traduccion": "Había dos pasteles.",
+   "errores_previstos": [
+    {
+     "respuesta": "Il y avaient deux gâteaux.",
+     "explicacion": "Es dejar la frase sin corregir: il y avait no concuerda con lo que sigue."
+    },
+    {
+     "respuesta": "Il y a eu deux gâteaux.",
+     "explicacion": "Se ha cambiado el tiempo al passé composé; el error era solo la concordancia y la descripción pide imparfait."
+    }
+   ]
+  },
+  {
+   "id": "e08",
+   "tipo": "eleccion",
+   "enunciado": "Elige la forma correcta.",
+   "frase": "Quand nous étions enfants, nous ___ souvent à la plage.",
+   "opciones": [
+    "allions",
+    "allons",
+    "allaient"
+   ],
+   "respuestas": [
+    "allions"
+   ],
+   "explicacion": "Se aplica el uso de los hábitos del pasado: la pista es souvent y la subordinada quand nous étions enfants, que sitúa una etapa de la vida. La forma se construye con la raíz all- (nous allons) y la terminación de nous, -ions: allions. El sujeto nous obliga a esa terminación.",
+   "explicacion_breve": "Hábito en el pasado con nous: allions.",
+   "traduccion": "Cuando éramos niños, íbamos a menudo a la playa.",
+   "por_opcion": {
+    "allions": "Correcta: imparfait de aller con nous, para un hábito del pasado.",
+    "allons": "Incorrecta: es el presente; el contexto (quand nous étions enfants) pide el pasado.",
+    "allaient": "Incorrecta: es el imparfait de ils o elles; no concuerda con el sujeto nous."
+   }
+  },
+  {
+   "id": "e09",
+   "tipo": "eleccion",
+   "enunciado": "Elige la forma correcta.",
+   "frase": "Quand j'étais petit, je ___ au foot tous les samedis.",
+   "opciones": [
+    "jouais",
+    "ai joué",
+    "jouerai"
+   ],
+   "respuestas": [
+    "jouais"
+   ],
+   "explicacion": "Se aplica el uso de la costumbre en el pasado: la pista es tous les samedis, que marca repetición, y quand j'étais petit, que sitúa una etapa. El francés usa entonces el imparfait, como el español «jugaba». Con je la terminación es -ais: jouais.",
+   "explicacion_breve": "Costumbre en el pasado (todos los sábados): imparfait.",
+   "traduccion": "Cuando era pequeño, jugaba al fútbol todos los sábados.",
+   "por_opcion": {
+    "jouais": "Correcta: imparfait de jouer con je, para una costumbre del pasado.",
+    "ai joué": "Incorrecta: el passé composé presenta un hecho puntual y cerrado; con tous les samedis en una etapa pasada se describe un hábito.",
+    "jouerai": "Incorrecta: es el futuro; la frase habla del pasado."
+   }
+  },
+  {
+   "id": "e10",
+   "tipo": "transformar",
+   "enunciado": "Pasa la frase al imparfait.",
+   "frase": "Tom est avec Mary.",
+   "respuestas": [
+    "Tom était avec Mary."
+   ],
+   "explicacion": "Se aplica la excepción de la regla de formación: être tiene la raíz irregular ét-. Con un sujeto de tercera persona del singular (Tom) la terminación es -ait, de modo que est pasa a était. El resto de la frase no cambia.",
+   "origen": "tatoeba:7699902",
+   "explicacion_breve": "Être → était.",
+   "traduccion": "Tom estaba con Mary.",
+   "errores_previstos": [
+    {
+     "respuesta": "Tom a été avec Mary.",
+     "explicacion": "Es el passé composé; el ejercicio pide el imparfait, que con être es était."
+    },
+    {
+     "respuesta": "Tom étais avec Mary.",
+     "explicacion": "La terminación -ais es de je y tu; con Tom es -ait."
+    }
+   ]
+  },
+  {
+   "id": "e11",
+   "tipo": "transformar",
+   "enunciado": "Pasa la frase al imparfait.",
+   "frase": "Nous mangeons à la cantine.",
+   "respuestas": [
+    "Nous mangions à la cantine."
+   ],
+   "explicacion": "Se aplica la regla ortográfica de los verbos en -ger: la e tras la g solo se añade delante de a u o para mantener el sonido suave. En nous mangeons hay e porque sigue o, pero en el imparfait la terminación de nous es -ions, que empieza por i, así que la e desaparece: nous mangions. Es justo el error típico que recoge la ficha.",
+   "explicacion_breve": "Ante -ions no hace falta la e de mange-.",
+   "traduccion": "Comíamos en el comedor.",
+   "errores_previstos": [
+    {
+     "respuesta": "Nous mangeions à la cantine.",
+     "explicacion": "La e solo se mantiene ante a u o; ante -ions no hace falta: mangions."
+    },
+    {
+     "respuesta": "Nous mangeons à la cantine.",
+     "explicacion": "Es dejar la frase en presente; el imparfait de nous termina en -ions: mangions."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "la cantine",
+     "significado": "el comedor (del colegio o de la empresa)"
+    }
+   ]
+  },
+  {
+   "id": "e12",
+   "tipo": "hueco",
+   "enunciado": "Completa con el imparfait de commencer.",
+   "frase": "Tu ___ toujours en retard.",
+   "respuestas": [
+    "commençais"
+   ],
+   "explicacion": "Se aplica la regla de los verbos en -cer: la c pasa a ç delante de a u o para conservar el sonido de s. Con tu la terminación es -ais, que empieza por a, de modo que hace falta la cedilla: commençais. La pista de uso es toujours, que marca una costumbre del pasado, el valor típico del imparfait. En cambio, en nous commencions y vous commenciez no hay cedilla, porque sigue una i.",
+   "explicacion_breve": "Ante a, la c pasa a ç para conservar el sonido.",
+   "traduccion": "Siempre empezabas con retraso.",
+   "errores_previstos": [
+    {
+     "respuesta": "commencais",
+     "explicacion": "Sin cedilla, la c delante de a sonaría como k; hay que escribir ç: commençais."
+    },
+    {
+     "respuesta": "commençait",
+     "explicacion": "La terminación -ait es de il; con tu es -ais."
+    }
+   ]
+  },
+  {
+   "id": "e13",
+   "tipo": "ordenar",
+   "enunciado": "Ordena las palabras (Todo estaba en su sitio).",
+   "palabras": [
+    "place",
+    "était",
+    "sa",
+    "Tout",
+    "à"
+   ],
+   "respuestas": [
+    "Tout était à sa place"
+   ],
+   "explicacion": "Se aplica el uso descriptivo del imparfait: se describe un estado del pasado. El orden es el normal de una oración francesa: sujeto (tout), verbo (était) y complemento de lugar (à sa place). La locución à sa place significa «en su sitio»; el posesivo sa concuerda con place, femenino, no con tout.",
+   "origen": "tatoeba:12594284",
+   "explicacion_breve": "Descripción de un estado en el pasado.",
+   "traduccion": "Todo estaba en su sitio.",
+   "errores_previstos": [
+    {
+     "respuesta": "Tout était sa à place",
+     "explicacion": "La preposición à va delante del grupo nominal: à sa place."
+    },
+    {
+     "respuesta": "Tout à sa place était",
+     "explicacion": "El verbo va justo después del sujeto en una oración enunciativa: tout était à sa place."
+    }
+   ]
+  },
+  {
+   "id": "e14",
+   "tipo": "ordenar",
+   "enunciado": "Ordena las palabras (Tenía fiebre).",
+   "palabras": [
+    "fièvre",
+    "la",
+    "avait",
+    "Elle",
+    "de"
+   ],
+   "respuestas": [
+    "Elle avait de la fièvre"
+   ],
+   "explicacion": "Se aplica el uso del imparfait para estados físicos del pasado. La expresión francesa es avoir de la fièvre: lleva el partitivo de la porque la fiebre se presenta como una cantidad indeterminada, mientras el español dice «tener fiebre» sin artículo. El orden es sujeto (elle), verbo (avait) y complemento (de la fièvre).",
+   "origen": "tatoeba:4874884",
+   "explicacion_breve": "Estado físico en el pasado: imparfait.",
+   "traduccion": "Tenía fiebre.",
+   "errores_previstos": [
+    {
+     "respuesta": "Elle avait la de fièvre",
+     "explicacion": "El partitivo es de la, en este orden: de la fièvre."
+    },
+    {
+     "respuesta": "Elle de la fièvre avait",
+     "explicacion": "El complemento va detrás del verbo: elle avait de la fièvre."
+    }
+   ]
+  },
+  {
+   "id": "e15",
+   "tipo": "hueco",
+   "enunciado": "Completa con el imparfait de aller (¿y si fuéramos?).",
+   "frase": "Si on ___ au cinéma ?",
+   "respuestas": [
+    "allait"
+   ],
+   "explicacion": "Se aplica el uso de la sugerencia con si on + imparfait, que equivale a «¿y si…?». La ficha advierte que, donde el español pone subjuntivo («fuéramos»), el francés usa el imparfait de indicativo. Aller hace nous allons, raíz all-, y con on se añade -ait: allait.",
+   "explicacion_breve": "Si on + imparfait expresa una sugerencia.",
+   "traduccion": "¿Y si fuéramos al cine?",
+   "errores_previstos": [
+    {
+     "respuesta": "irait",
+     "explicacion": "Tras si nunca va condicional; es exactamente el error típico de la ficha: si on allait."
+    },
+    {
+     "respuesta": "aille",
+     "explicacion": "Es el subjuntivo, calco de «fuéramos»; en francés la sugerencia va en imparfait de indicativo."
+    },
+    {
+     "respuesta": "va",
+     "explicacion": "Si on va au cinéma ? existe en la lengua hablada, pero la sugerencia que pide el ejercicio («¿y si fuéramos?») se forma con el imparfait allait."
+    }
+   ]
+  },
+  {
+   "id": "e16",
+   "tipo": "eleccion",
+   "enunciado": "Elige la forma correcta (¡ojalá tuviera!).",
+   "frase": "Si seulement j'___ plus de temps !",
+   "opciones": [
+    "avais",
+    "ai",
+    "aurais"
+   ],
+   "respuestas": [
+    "avais"
+   ],
+   "explicacion": "Se aplica el uso del deseo con si seulement + imparfait, que equivale a «¡ojalá…!» o «¡si al menos…!». La pista es si seulement seguido de una exclamación. Avoir hace nous avons, raíz av-, y con je se añade -ais: avais, con el pronombre apostrofado (j'avais). Como en todos los casos con si, el condicional queda excluido.",
+   "explicacion_breve": "Si seulement + imparfait expresa un deseo; tras si no va condicional.",
+   "traduccion": "¡Ojalá tuviera más tiempo!",
+   "por_opcion": {
+    "avais": "Correcta: imparfait de avoir con je, que expresa el deseo tras si seulement.",
+    "ai": "Incorrecta: el presente no expresa un deseo irreal; si seulement pide imparfait.",
+    "aurais": "Incorrecta: es el condicional, que nunca va detrás de si."
+   }
+  }
  ],
- "fuente": {"nombre": "Tex's French Grammar", "autores": "COERLL, Universidad de Texas en Austin", "licencia": "CC BY 3.0", "url": "https://laits.utexas.edu/tex/gr/tap5.html", "otras": ["Frases de Tatoeba (CC BY 2.0 FR)"]}
+ "fuente": {
+  "nombre": "Tex's French Grammar",
+  "autores": "COERLL, Universidad de Texas en Austin",
+  "licencia": "CC BY 3.0",
+  "url": "https://laits.utexas.edu/tex/gr/tap5.html",
+  "otras": [
+   "Frases de Tatoeba (CC BY 2.0 FR)"
+  ]
+ },
+ "descripcion_larga_es": "El imparfait es el tiempo del pasado que describe: cómo eran las cosas, qué se hacía habitualmente, qué estaba ocurriendo cuando pasó otra cosa. Corresponde casi siempre al imperfecto español (hablaba, comía), y su formación es muy regular. Además sirve para sugerir (Si on allait… ?) y para expresar deseos (Si seulement…!), donde el español usa subjuntivo y el hispanohablante tiende a calcarlo.",
+ "contexto": {
+  "que_es": "Es un tiempo verbal del pasado del modo indicativo que presenta las acciones y los estados en su desarrollo, sin fijar su principio ni su final. Se forma con la raíz de la forma nous del presente (sin -ons) y las terminaciones -ais, -ais, -ait, -ions, -iez, -aient; solo être es irregular (ét-). Funciona en pareja con el passé composé, que cuenta los hechos puntuales.",
+  "por_que_importa": "Contar recuerdos, describir cómo era un lugar o una persona y narrar una historia exige alternar imparfait y passé composé; es una de las destrezas que más se evalúan en una prueba de expresión oral o escrita de nivel A2-B1. Usar el passé composé para describir (quand j'ai été petit) suena extraño y cambia el sentido, y equivocar las terminaciones, que suenan igual pero se escriben distinto, es un error frecuente en lo escrito.",
+  "cuando_se_usa": "Se usa para descripciones y estados del pasado (il faisait chaud), costumbres con marcadores como toujours, souvent, tous les samedis o le samedi, acciones en curso interrumpidas por otra (je dormais quand…), sugerencias con si on + imparfait y deseos con si seulement. El hispanohablante acierta casi siempre si piensa en el imperfecto español, salvo en la sugerencia y el deseo, donde el español dice «¿y si fuéramos?» con subjuntivo y el francés usa imparfait."
+ }
 }

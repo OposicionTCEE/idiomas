@@ -6,67 +6,697 @@
  "nivel": "A2",
  "resumen": "Vocabulario para decir qué tiempo hace, hablar de previsiones y estaciones y comparar el clima de distintos lugares.",
  "explicacion": [
-  {"tipo": "texto", "texto": "El tiempo se describe con It's + adjetivo (It's sunny, It's cold) o con verbos (It's raining, It snowed last night). No se dice «It makes cold»: el español «hace» no se traduce por make."},
-  {"tipo": "tabla", "cabecera": ["Expresión", "Significado", "Ejemplo"], "filas": [
-   ["What's the weather like?", "¿Qué tiempo hace?", "What's the weather like in Dublin?"],
-   ["sunny / cloudy", "soleado / nublado", "It's cloudy this morning."],
-   ["rainy / windy", "lluvioso / con viento", "It's very windy today."],
-   ["foggy / stormy", "con niebla / tormentoso", "It was foggy on the motorway."],
-   ["hot / warm", "caluroso / templado, agradable", "It's warm for October."],
-   ["cool / cold / freezing", "fresco / frío / helador", "It's freezing outside!"],
-   ["It's raining / snowing", "Está lloviendo / nevando", "Take an umbrella, it's raining."],
-   ["shower", "chubasco", "Showers are expected this afternoon."],
-   ["heavy rain", "lluvia intensa", "Heavy rain caused floods."],
-   ["thunderstorm", "tormenta eléctrica", "There was a thunderstorm last night."],
-   ["degrees", "grados", "It's thirty degrees in Seville."],
-   ["below zero", "bajo cero", "It was five below zero."]
-  ]},
-  {"tipo": "tabla", "cabecera": ["Expresión", "Significado", "Ejemplo"], "filas": [
-   ["spring / summer / autumn / winter", "primavera / verano / otoño / invierno", "I love autumn."],
-   ["fall", "otoño (americano)", "The colours in the fall are amazing."],
-   ["weather forecast", "previsión del tiempo", "The forecast says it will rain."],
-   ["climate", "clima (habitual de un lugar)", "Spain has a mild climate."],
-   ["mild / dry / humid", "suave / seco / húmedo", "The summers are hot and humid."],
-   ["heatwave", "ola de calor", "Europe suffered a long heatwave."],
-   ["drought", "sequía", "The drought affected farmers."],
-   ["get wet / soaked", "mojarse / calarse", "I got soaked on the way home."]
-  ]},
-  {"tipo": "lista", "items": [
-   "Weather es incontable: What terrible weather!, no «a terrible weather».",
-   "Weather es el tiempo de un momento; climate, el clima habitual de una zona.",
-   "Las estaciones van con in: in summer / in the summer."
-  ]}
+  {
+   "tipo": "texto",
+   "texto": "El tiempo se describe con It's + adjetivo (It's sunny, It's cold) o con verbos (It's raining, It snowed last night). No se dice «It makes cold»: el español «hace» no se traduce por make."
+  },
+  {
+   "tipo": "tabla",
+   "cabecera": [
+    "Expresión",
+    "Significado",
+    "Ejemplo"
+   ],
+   "filas": [
+    [
+     "What's the weather like?",
+     "¿Qué tiempo hace?",
+     "What's the weather like in Dublin?"
+    ],
+    [
+     "sunny / cloudy",
+     "soleado / nublado",
+     "It's cloudy this morning."
+    ],
+    [
+     "rainy / windy",
+     "lluvioso / con viento",
+     "It's very windy today."
+    ],
+    [
+     "foggy / stormy",
+     "con niebla / tormentoso",
+     "It was foggy on the motorway."
+    ],
+    [
+     "hot / warm",
+     "caluroso / templado, agradable",
+     "It's warm for October."
+    ],
+    [
+     "cool / cold / freezing",
+     "fresco / frío / helador",
+     "It's freezing outside!"
+    ],
+    [
+     "It's raining / snowing",
+     "Está lloviendo / nevando",
+     "Take an umbrella, it's raining."
+    ],
+    [
+     "shower",
+     "chubasco",
+     "Showers are expected this afternoon."
+    ],
+    [
+     "heavy rain",
+     "lluvia intensa",
+     "Heavy rain caused floods."
+    ],
+    [
+     "thunderstorm",
+     "tormenta eléctrica",
+     "There was a thunderstorm last night."
+    ],
+    [
+     "degrees",
+     "grados",
+     "It's thirty degrees in Seville."
+    ],
+    [
+     "below zero",
+     "bajo cero",
+     "It was five below zero."
+    ]
+   ]
+  },
+  {
+   "tipo": "tabla",
+   "cabecera": [
+    "Expresión",
+    "Significado",
+    "Ejemplo"
+   ],
+   "filas": [
+    [
+     "spring / summer / autumn / winter",
+     "primavera / verano / otoño / invierno",
+     "I love autumn."
+    ],
+    [
+     "fall",
+     "otoño (americano)",
+     "The colours in the fall are amazing."
+    ],
+    [
+     "weather forecast",
+     "previsión del tiempo",
+     "The forecast says it will rain."
+    ],
+    [
+     "climate",
+     "clima (habitual de un lugar)",
+     "Spain has a mild climate."
+    ],
+    [
+     "mild / dry / humid",
+     "suave / seco / húmedo",
+     "The summers are hot and humid."
+    ],
+    [
+     "heatwave",
+     "ola de calor",
+     "Europe suffered a long heatwave."
+    ],
+    [
+     "drought",
+     "sequía",
+     "The drought affected farmers."
+    ],
+    [
+     "get wet / soaked",
+     "mojarse / calarse",
+     "I got soaked on the way home."
+    ]
+   ]
+  },
+  {
+   "tipo": "lista",
+   "items": [
+    "Weather es incontable: What terrible weather!, no «a terrible weather».",
+    "Weather es el tiempo de un momento; climate, el clima habitual de una zona.",
+    "Las estaciones van con in: in summer / in the summer."
+   ]
+  }
  ],
  "ejemplos": [
-  {"frase": "It's been raining all day, so we stayed at home.", "traduccion": "Lleva lloviendo todo el día, así que nos quedamos en casa."},
-  {"frase": "The forecast says it will be sunny tomorrow.", "traduccion": "La previsión dice que mañana hará sol."},
-  {"frase": "In winter it's freezing in Burgos.", "traduccion": "En invierno hace un frío helador en Burgos."},
-  {"frase": "The Canary Islands have a mild climate all year round.", "traduccion": "Canarias tiene un clima suave todo el año."},
-  {"frase": "We got soaked because we didn't have an umbrella.", "traduccion": "Nos calamos porque no llevábamos paraguas."},
-  {"frase": "What lovely weather! Let's have lunch outside.", "traduccion": "¡Qué buen tiempo! Comamos fuera."}
+  {
+   "frase": "It's been raining all day, so we stayed at home.",
+   "traduccion": "Lleva lloviendo todo el día, así que nos quedamos en casa."
+  },
+  {
+   "frase": "The forecast says it will be sunny tomorrow.",
+   "traduccion": "La previsión dice que mañana hará sol."
+  },
+  {
+   "frase": "In winter it's freezing in Burgos.",
+   "traduccion": "En invierno hace un frío helador en Burgos."
+  },
+  {
+   "frase": "The Canary Islands have a mild climate all year round.",
+   "traduccion": "Canarias tiene un clima suave todo el año."
+  },
+  {
+   "frase": "We got soaked because we didn't have an umbrella.",
+   "traduccion": "Nos calamos porque no llevábamos paraguas."
+  },
+  {
+   "frase": "What lovely weather! Let's have lunch outside.",
+   "traduccion": "¡Qué buen tiempo! Comamos fuera."
+  }
  ],
  "errores_hispanohablantes": [
-  {"mal": "It makes a lot of heat.", "bien": "It's very hot.", "nota": "Hacer calor/frío se dice con be + adjetivo."},
-  {"mal": "What a beautiful weather!", "bien": "What beautiful weather!", "nota": "Weather es incontable: sin a."},
-  {"mal": "Today the climate is very cloudy.", "bien": "Today the weather is very cloudy.", "nota": "El tiempo de un día concreto es weather."},
-  {"mal": "There is sun.", "bien": "It's sunny.", "nota": "Se usa it + adjetivo."}
+  {
+   "mal": "It makes a lot of heat.",
+   "bien": "It's very hot.",
+   "nota": "Hacer calor/frío se dice con be + adjetivo."
+  },
+  {
+   "mal": "What a beautiful weather!",
+   "bien": "What beautiful weather!",
+   "nota": "Weather es incontable: sin a."
+  },
+  {
+   "mal": "Today the climate is very cloudy.",
+   "bien": "Today the weather is very cloudy.",
+   "nota": "El tiempo de un día concreto es weather."
+  },
+  {
+   "mal": "There is sun.",
+   "bien": "It's sunny.",
+   "nota": "Se usa it + adjetivo."
+  }
  ],
  "ejercicios": [
-  {"id": "e01", "tipo": "hueco", "enunciado": "Completa la pregunta.", "frase": "What's the weather ___ in London today?", "respuestas": ["like"], "explicacion": "¿Qué tiempo hace? es What's the weather like?"},
-  {"id": "e02", "tipo": "hueco", "enunciado": "Completa con la forma del verbo rain.", "frase": "Take your umbrella. It's ___ outside.", "respuestas": ["raining"], "explicacion": "Está lloviendo: it's raining."},
-  {"id": "e03", "tipo": "hueco", "enunciado": "Completa: «ola de calor».", "frase": "During the ___ temperatures reached 44 degrees.", "respuestas": ["heatwave", "heat wave"], "explicacion": "Ola de calor es heatwave."},
-  {"id": "e04", "tipo": "hueco", "enunciado": "Completa con la preposición.", "frase": "It often snows here ___ winter.", "respuestas": ["in"], "explicacion": "Con estaciones se usa in."},
-  {"id": "e05", "tipo": "eleccion", "enunciado": "Elige la opción correcta.", "frase": "It's very ___ today; my hat flew away!", "opciones": ["windy", "foggy", "sunny"], "respuestas": ["windy"], "explicacion": "Si el sombrero sale volando, hace viento: windy."},
-  {"id": "e06", "tipo": "eleccion", "enunciado": "Elige la opción correcta.", "frase": "I can't see the road. It's really ___.", "opciones": ["foggy", "warm", "dry"], "respuestas": ["foggy"], "explicacion": "Si no se ve, hay niebla: foggy."},
-  {"id": "e07", "tipo": "eleccion", "enunciado": "Elige la opción correcta.", "frase": "Southern Spain has a hot, dry ___.", "opciones": ["climate", "weather", "time"], "respuestas": ["climate"], "explicacion": "El clima habitual de una zona es climate."},
-  {"id": "e08", "tipo": "eleccion", "enunciado": "Elige la opción correcta.", "frase": "There hasn't been any rain for months. The ___ is a disaster for farmers.", "opciones": ["drought", "flood", "shower"], "respuestas": ["drought"], "explicacion": "La falta prolongada de lluvia es drought."},
-  {"id": "e09", "tipo": "corregir", "enunciado": "Corrige el error.", "frase": "In August it makes a lot of heat in Córdoba.", "respuestas": ["In August it's very hot in Córdoba.", "In August it is very hot in Córdoba."], "explicacion": "Hacer calor se dice it's hot, no make heat."},
-  {"id": "e10", "tipo": "corregir", "enunciado": "Corrige el error.", "frase": "We had a terrible weather on holiday.", "respuestas": ["We had terrible weather on holiday."], "explicacion": "Weather es incontable."},
-  {"id": "e11", "tipo": "corregir", "enunciado": "Corrige el error.", "frase": "What's the climate like today? Is it raining?", "respuestas": ["What's the weather like today? Is it raining?", "What is the weather like today? Is it raining?"], "explicacion": "El tiempo de hoy es weather, no climate."},
-  {"id": "e12", "tipo": "ordenar", "enunciado": "Ordena las palabras.", "palabras": ["forecast", "the", "rain", "says", "will", "it"], "respuestas": ["The forecast says it will rain"], "explicacion": "La previsión dice que lloverá."},
-  {"id": "e13", "tipo": "ordenar", "enunciado": "Ordena las palabras.", "palabras": ["zero", "below", "it", "was", "degrees", "five"], "respuestas": ["It was five degrees below zero"], "explicacion": "Bajo cero es below zero."},
-  {"id": "e14", "tipo": "hueco", "enunciado": "Completa: «otoño» en inglés americano.", "frase": "In New England the leaves turn red in the ___.", "respuestas": ["fall"], "explicacion": "En inglés americano otoño es fall."},
-  {"id": "e15", "tipo": "eleccion", "enunciado": "Elige la opción correcta.", "frase": "We walked home in the storm and got completely ___.", "opciones": ["soaked", "humid", "dried"], "respuestas": ["soaked"], "explicacion": "Calarse hasta los huesos es get soaked."}
+  {
+   "id": "e01",
+   "tipo": "hueco",
+   "enunciado": "Completa la pregunta.",
+   "frase": "What's the weather ___ in London today?",
+   "respuestas": [
+    "like"
+   ],
+   "explicacion": "Es la fórmula fija de la tabla de expresiones para preguntar qué tiempo hace: What's the weather like? La pista es el sujeto the weather, seguido de un lugar y un momento (in London today). Like aquí es una preposición que significa «cómo», y la pregunta literal sería «¿cómo es el tiempo?». No se puede sustituir por how: en inglés se dice How's the weather? o What's the weather like?, pero no mezcladas.",
+   "explicacion_breve": "¿Qué tiempo hace? es What's the weather like?",
+   "traduccion": "¿Qué tiempo hace hoy en Londres?",
+   "errores_previstos": [
+    {
+     "respuesta": "how",
+     "explicacion": "«What's the weather how» no existe: how solo funciona en la otra fórmula, How's the weather?, sin what ni like."
+    },
+    {
+     "respuesta": "as",
+     "explicacion": "As significa «como» en comparaciones o funciones, pero en esta pregunta fija solo vale like."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "What's the weather like?",
+     "significado": "¿Qué tiempo hace?"
+    },
+    {
+     "palabra": "weather",
+     "significado": "tiempo (meteorológico)"
+    }
+   ]
+  },
+  {
+   "id": "e02",
+   "tipo": "hueco",
+   "enunciado": "Completa con la forma del verbo rain.",
+   "frase": "Take your umbrella. It's ___ outside.",
+   "respuestas": [
+    "raining"
+   ],
+   "explicacion": "La ficha explica que el tiempo puede describirse con verbos, y que para lo que ocurre ahora se usa el presente continuo: It's raining. La pista es It's delante del hueco y la situación del momento (coger el paraguas). Por eso hace falta rain en forma -ing: raining. El sujeto es el it impersonal, igual que en It's snowing.",
+   "explicacion_breve": "Está lloviendo: it's raining.",
+   "traduccion": "Coge el paraguas. Está lloviendo fuera.",
+   "errores_previstos": [
+    {
+     "respuesta": "rain",
+     "explicacion": "Tras It's (it is) hace falta la forma -ing para algo que pasa ahora; «It's rain» no es correcto."
+    },
+    {
+     "respuesta": "rainy",
+     "explicacion": "It's rainy existe y describe un día o una zona lluviosa en general, pero el enunciado pide la forma del verbo rain para decir que está lloviendo ahora."
+    },
+    {
+     "respuesta": "rainning",
+     "explicacion": "Error de ortografía: rain no duplica la n, porque termina en dos vocales más consonante; se escribe raining."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "raining",
+     "significado": "lloviendo"
+    },
+    {
+     "palabra": "umbrella",
+     "significado": "paraguas"
+    }
+   ]
+  },
+  {
+   "id": "e03",
+   "tipo": "hueco",
+   "enunciado": "Completa: «ola de calor».",
+   "frase": "During the ___ temperatures reached 44 degrees.",
+   "respuestas": [
+    "heatwave",
+    "heat wave"
+   ],
+   "explicacion": "Es una palabra de la segunda tabla: heatwave, ola de calor, un periodo de varios días con temperaturas excepcionalmente altas. La pista es la cifra de 44 grados y el artículo the, que pide un sustantivo. Se escribe junto (heatwave) o separado (heat wave); las dos grafías son correctas y por eso se aceptan ambas.",
+   "explicacion_breve": "Ola de calor es heatwave.",
+   "traduccion": "Durante la ola de calor las temperaturas llegaron a 44 grados.",
+   "errores_previstos": [
+    {
+     "respuesta": "wave of heat",
+     "explicacion": "Es un calco del español «ola de calor»; en inglés el sustantivo que califica va delante: heatwave."
+    },
+    {
+     "respuesta": "hot wave",
+     "explicacion": "No es la expresión fija; el término es heatwave, con el sustantivo heat, no con el adjetivo hot."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "heatwave",
+     "significado": "ola de calor"
+    },
+    {
+     "palabra": "reach",
+     "significado": "alcanzar, llegar a"
+    }
+   ]
+  },
+  {
+   "id": "e04",
+   "tipo": "hueco",
+   "enunciado": "Completa con la preposición.",
+   "frase": "It often snows here ___ winter.",
+   "respuestas": [
+    "in"
+   ],
+   "explicacion": "La ficha lo recoge en la lista final: las estaciones van con in (in winter o in the winter). La pista es el nombre de la estación, winter, tras el hueco. Es la misma preposición que con meses y años (in August, in 2020). El español «en invierno» coincide, pero conviene no usar on, que es para días concretos.",
+   "explicacion_breve": "Con estaciones se usa in.",
+   "traduccion": "Aquí nieva a menudo en invierno.",
+   "errores_previstos": [
+    {
+     "respuesta": "on",
+     "explicacion": "On se usa con días y fechas (on Monday, on 5 May), no con estaciones."
+    },
+    {
+     "respuesta": "at",
+     "explicacion": "At se usa con horas y momentos puntuales (at night, at Christmas), no con estaciones."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "snow",
+     "significado": "nevar"
+    }
+   ]
+  },
+  {
+   "id": "e05",
+   "tipo": "eleccion",
+   "enunciado": "Elige la opción correcta.",
+   "frase": "It's very ___ today; my hat flew away!",
+   "opciones": [
+    "windy",
+    "foggy",
+    "sunny"
+   ],
+   "respuestas": [
+    "windy"
+   ],
+   "explicacion": "Se aplica la regla It's + adjetivo para describir el tiempo, con el adjetivo windy (con viento) de la primera tabla. La pista está en la segunda parte de la frase: el sombrero sale volando, cosa que solo provoca el viento. Windy se forma con wind + y, como sunny, cloudy o foggy.",
+   "explicacion_breve": "Si el sombrero sale volando, hace viento: windy.",
+   "traduccion": "Hace mucho viento hoy; ¡mi sombrero ha salido volando!",
+   "por_opcion": {
+    "windy": "Correcta: windy significa que hace viento, y es lo que hace volar el sombrero.",
+    "foggy": "Significa que hay niebla; reduce la visibilidad, pero no se lleva ningún sombrero.",
+    "sunny": "Significa que hace sol; no explica que el sombrero salga volando."
+   },
+   "glosario": [
+    {
+     "palabra": "windy",
+     "significado": "con viento, ventoso"
+    },
+    {
+     "palabra": "flew away",
+     "significado": "salió volando (pasado de fly away)"
+    }
+   ]
+  },
+  {
+   "id": "e06",
+   "tipo": "eleccion",
+   "enunciado": "Elige la opción correcta.",
+   "frase": "I can't see the road. It's really ___.",
+   "opciones": [
+    "foggy",
+    "warm",
+    "dry"
+   ],
+   "respuestas": [
+    "foggy"
+   ],
+   "explicacion": "Otra vez It's + adjetivo, ahora con foggy, que la primera tabla traduce como «con niebla». La pista es «I can't see the road»: lo que impide ver es la niebla. Fíjate en que el español dice «hay niebla», con haber, mientras el inglés usa it + be + adjetivo: It's foggy.",
+   "explicacion_breve": "Si no se ve, hay niebla: foggy.",
+   "traduccion": "No veo la carretera. Hay mucha niebla.",
+   "por_opcion": {
+    "foggy": "Correcta: foggy, con niebla, explica que no se vea la carretera.",
+    "warm": "Significa templado o agradable; la temperatura no impide ver la carretera.",
+    "dry": "Significa seco, sin lluvia; tampoco reduce la visibilidad."
+   },
+   "glosario": [
+    {
+     "palabra": "foggy",
+     "significado": "con niebla"
+    },
+    {
+     "palabra": "road",
+     "significado": "carretera"
+    }
+   ]
+  },
+  {
+   "id": "e07",
+   "tipo": "eleccion",
+   "enunciado": "Elige la opción correcta.",
+   "frase": "Southern Spain has a hot, dry ___.",
+   "opciones": [
+    "climate",
+    "weather",
+    "time"
+   ],
+   "respuestas": [
+    "climate"
+   ],
+   "explicacion": "Se aplica la distinción de la ficha entre weather, el tiempo de un momento, y climate, el clima habitual de una zona. La pista es que se habla de una región entera (Southern Spain) y de una característica permanente, con el presente simple has. Por eso solo vale climate; además, a hot, dry climate lleva artículo porque climate sí es contable.",
+   "explicacion_breve": "El clima habitual de una zona es climate.",
+   "traduccion": "El sur de España tiene un clima cálido y seco.",
+   "por_opcion": {
+    "climate": "Correcta: climate es el clima habitual de un lugar, lo que se describe aquí.",
+    "weather": "Weather es el tiempo de un día o un periodo concreto y además es incontable, así que no podría ir con a.",
+    "time": "Time es «tiempo» cronológico (horas, minutos), nunca el tiempo atmosférico: es un falso amigo del español."
+   },
+   "glosario": [
+    {
+     "palabra": "climate",
+     "significado": "clima"
+    },
+    {
+     "palabra": "Southern",
+     "significado": "del sur, meridional"
+    }
+   ]
+  },
+  {
+   "id": "e08",
+   "tipo": "eleccion",
+   "enunciado": "Elige la opción correcta.",
+   "frase": "There hasn't been any rain for months. The ___ is a disaster for farmers.",
+   "opciones": [
+    "drought",
+    "flood",
+    "shower"
+   ],
+   "respuestas": [
+    "drought"
+   ],
+   "explicacion": "Es vocabulario de la segunda tabla: drought, sequía, la falta prolongada de lluvia. La pista es la primera frase, «no ha llovido en meses», que describe exactamente una sequía. Ojo con la pronunciación: drought rima con out, aunque se escriba con ough.",
+   "explicacion_breve": "La falta prolongada de lluvia es drought.",
+   "traduccion": "No ha llovido en meses. La sequía es un desastre para los agricultores.",
+   "por_opcion": {
+    "drought": "Correcta: drought es la sequía, la consecuencia de meses sin lluvia.",
+    "flood": "Significa inundación, justo lo contrario: demasiada agua.",
+    "shower": "Significa chubasco, una lluvia breve; no encaja con meses sin llover."
+   },
+   "glosario": [
+    {
+     "palabra": "drought",
+     "significado": "sequía"
+    },
+    {
+     "palabra": "flood",
+     "significado": "inundación"
+    },
+    {
+     "palabra": "farmers",
+     "significado": "agricultores"
+    }
+   ]
+  },
+  {
+   "id": "e09",
+   "tipo": "corregir",
+   "enunciado": "Corrige el error.",
+   "frase": "In August it makes a lot of heat in Córdoba.",
+   "respuestas": [
+    "In August it's very hot in Córdoba.",
+    "In August it is very hot in Córdoba."
+   ],
+   "explicacion": "Es el error típico que la ficha señala primero: «hacer calor» no se traduce con make, sino con It's + adjetivo. La pista es la estructura calcada «it makes a lot of heat». La forma correcta es It's very hot o It is very hot: el adjetivo hot y el intensificador very sustituyen a «mucho calor». Las dos variantes, con o sin contracción, son válidas.",
+   "explicacion_breve": "Hacer calor se dice it's hot, no make heat.",
+   "traduccion": "En agosto hace mucho calor en Córdoba.",
+   "errores_previstos": [
+    {
+     "respuesta": "In August it makes a lot of heat in Córdoba.",
+     "explicacion": "Es dejar la frase sin corregir: make no sirve para hablar del tiempo; se usa It's + adjetivo."
+    },
+    {
+     "respuesta": "In August it does a lot of heat in Córdoba.",
+     "explicacion": "Cambiar make por do no arregla nada: el inglés no usa ningún verbo de «hacer» para el tiempo."
+    },
+    {
+     "respuesta": "In August it is very heat in Córdoba.",
+     "explicacion": "Heat es sustantivo (el calor); tras it is hace falta el adjetivo hot."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "hot",
+     "significado": "caluroso, que hace calor"
+    }
+   ]
+  },
+  {
+   "id": "e10",
+   "tipo": "corregir",
+   "enunciado": "Corrige el error.",
+   "frase": "We had a terrible weather on holiday.",
+   "respuestas": [
+    "We had terrible weather on holiday."
+   ],
+   "explicacion": "Se aplica la regla de la lista de la ficha: weather es incontable, así que no lleva a ni plural. La pista es el artículo a delante del adjetivo terrible, que es un calco del español «un tiempo horrible». La frase correcta elimina el artículo: We had terrible weather. Lo mismo ocurre en exclamaciones: What terrible weather!",
+   "explicacion_breve": "Weather es incontable.",
+   "traduccion": "Tuvimos un tiempo horrible en las vacaciones.",
+   "errores_previstos": [
+    {
+     "respuesta": "We had a terrible weather on holiday.",
+     "explicacion": "Es dejar la frase sin corregir: weather es incontable y no admite a."
+    },
+    {
+     "respuesta": "We had terrible weathers on holiday.",
+     "explicacion": "Weather no tiene plural en este sentido; basta con quitar el artículo."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "on holiday",
+     "significado": "de vacaciones"
+    }
+   ]
+  },
+  {
+   "id": "e11",
+   "tipo": "corregir",
+   "enunciado": "Corrige el error.",
+   "frase": "What's the climate like today? Is it raining?",
+   "respuestas": [
+    "What's the weather like today? Is it raining?",
+    "What is the weather like today? Is it raining?"
+   ],
+   "explicacion": "Es la distinción weather frente a climate de la ficha. La pista es today y la pregunta sobre si llueve en este momento: se habla del tiempo de un día concreto, no de las condiciones habituales de una zona. Por eso hay que cambiar climate por weather, y la fórmula queda What's the weather like today?",
+   "explicacion_breve": "El tiempo de hoy es weather, no climate.",
+   "traduccion": "¿Qué tiempo hace hoy? ¿Está lloviendo?",
+   "errores_previstos": [
+    {
+     "respuesta": "What's the climate like today? Is it raining?",
+     "explicacion": "Es dejar la frase sin corregir: climate es el clima habitual de un lugar, no el tiempo de hoy."
+    },
+    {
+     "respuesta": "What's the time like today? Is it raining?",
+     "explicacion": "Time es el tiempo cronológico; para el tiempo atmosférico se dice weather."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "weather",
+     "significado": "tiempo atmosférico"
+    },
+    {
+     "palabra": "climate",
+     "significado": "clima habitual"
+    }
+   ]
+  },
+  {
+   "id": "e12",
+   "tipo": "ordenar",
+   "enunciado": "Ordena las palabras.",
+   "palabras": [
+    "forecast",
+    "the",
+    "rain",
+    "says",
+    "will",
+    "it"
+   ],
+   "respuestas": [
+    "The forecast says it will rain"
+   ],
+   "explicacion": "Usa la expresión de la segunda tabla (weather) forecast, previsión del tiempo, que aparece en el ejemplo casi idéntico de la ficha. El orden es sujeto (The forecast) + verbo (says) + oración completiva (it will rain), con el it impersonal del tiempo y el futuro will. En inglés la conjunción that puede omitirse, por eso no aparece.",
+   "explicacion_breve": "La previsión dice que lloverá.",
+   "traduccion": "La previsión dice que lloverá.",
+   "errores_previstos": [
+    {
+     "respuesta": "The forecast says will rain it",
+     "explicacion": "El sujeto it va delante del verbo; en inglés no se puede omitir ni posponer como en español."
+    },
+    {
+     "respuesta": "Says the forecast it will rain",
+     "explicacion": "En una afirmación el sujeto (the forecast) va antes del verbo says."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "forecast",
+     "significado": "previsión (del tiempo)"
+    }
+   ]
+  },
+  {
+   "id": "e13",
+   "tipo": "ordenar",
+   "enunciado": "Ordena las palabras.",
+   "palabras": [
+    "zero",
+    "below",
+    "it",
+    "was",
+    "degrees",
+    "five"
+   ],
+   "respuestas": [
+    "It was five degrees below zero"
+   ],
+   "explicacion": "Es la expresión below zero, bajo cero, de la primera tabla, combinada con It + be para la temperatura. El orden es It was + número + degrees + below zero, igual que en español: cinco grados bajo cero. El pasado was indica que se describe una situación ya pasada.",
+   "explicacion_breve": "Bajo cero es below zero.",
+   "traduccion": "Hacía cinco grados bajo cero.",
+   "errores_previstos": [
+    {
+     "respuesta": "It was below zero five degrees",
+     "explicacion": "La cifra y degrees van delante de below zero, como en español: five degrees below zero."
+    },
+    {
+     "respuesta": "Was it five degrees below zero",
+     "explicacion": "Ese orden es de pregunta; la frase pedida es una afirmación."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "below zero",
+     "significado": "bajo cero"
+    },
+    {
+     "palabra": "degrees",
+     "significado": "grados"
+    }
+   ]
+  },
+  {
+   "id": "e14",
+   "tipo": "hueco",
+   "enunciado": "Completa: «otoño» en inglés americano.",
+   "frase": "In New England the leaves turn red in the ___.",
+   "respuestas": [
+    "fall"
+   ],
+   "explicacion": "La ficha recoge que en inglés americano otoño se dice fall, frente al británico autumn. La pista es doble: el enunciado pide el término americano y New England es una región de Estados Unidos. Fall viene de «the fall of the leaves», la caída de las hojas. Va con the, in the fall, como la estación en la ficha.",
+   "explicacion_breve": "En inglés americano otoño es fall.",
+   "traduccion": "En Nueva Inglaterra las hojas se vuelven rojas en otoño.",
+   "errores_previstos": [
+    {
+     "respuesta": "autumn",
+     "explicacion": "Autumn significa otoño, pero es la palabra británica; el enunciado pide la americana."
+    },
+    {
+     "respuesta": "fell",
+     "explicacion": "Fell es el pasado del verbo fall (caer); la estación es fall."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "fall",
+     "significado": "otoño (inglés americano)"
+    },
+    {
+     "palabra": "leaves",
+     "significado": "hojas"
+    },
+    {
+     "palabra": "turn red",
+     "significado": "volverse rojo"
+    }
+   ]
+  },
+  {
+   "id": "e15",
+   "tipo": "eleccion",
+   "enunciado": "Elige la opción correcta.",
+   "frase": "We walked home in the storm and got completely ___.",
+   "opciones": [
+    "soaked",
+    "humid",
+    "dried"
+   ],
+   "respuestas": [
+    "soaked"
+   ],
+   "explicacion": "Es la expresión get wet / get soaked de la segunda tabla: get soaked significa calarse, mojarse por completo. La pista es completely y la situación de caminar bajo una tormenta. Get + participio expresa un cambio de estado (ponerse, quedarse), por eso soaked va en participio. Es más intensa que get wet.",
+   "explicacion_breve": "Calarse hasta los huesos es get soaked.",
+   "traduccion": "Volvimos a casa andando bajo la tormenta y nos calamos por completo.",
+   "por_opcion": {
+    "soaked": "Correcta: get soaked es calarse hasta los huesos, lo que pasa al andar bajo una tormenta.",
+    "humid": "Humid describe el aire húmedo del clima, no a una persona mojada por la lluvia.",
+    "dried": "Get dried sería secarse, justo lo contrario de lo que pasa bajo la tormenta."
+   },
+   "glosario": [
+    {
+     "palabra": "get soaked",
+     "significado": "calarse, empaparse"
+    },
+    {
+     "palabra": "storm",
+     "significado": "tormenta"
+    },
+    {
+     "palabra": "humid",
+     "significado": "húmedo (aire, clima)"
+    }
+   ]
+  }
  ],
- "fuente": {"nombre": "propia"}
+ "fuente": {
+  "nombre": "propia"
+ },
+ "descripcion_larga_es": "Vocabulario para describir el tiempo que hace, las estaciones, las previsiones y el clima de un lugar. Es uno de los temas de conversación más frecuentes en inglés, sobre todo en el Reino Unido, y aparece en casi todos los exámenes orales de nivel básico. Al hispanohablante le cuesta porque calca «hace frío» con make y confunde weather (tiempo) con climate (clima).",
+ "contexto": {
+  "que_es": "Es el léxico básico para decir qué tiempo hace: adjetivos como sunny, cloudy o windy, verbos como rain y snow, fenómenos como heatwave o drought y la diferencia entre weather, el tiempo de un momento concreto, y climate, el clima habitual de una zona. Incluye también las estaciones y cómo se expresan las temperaturas.",
+  "por_que_importa": "Hablar del tiempo es la forma más común de iniciar una conversación en inglés, y en el Reino Unido es casi un ritual social. Usar make para el calor o el frío, o decir climate cuando se habla de hoy, delata enseguida un calco del español. En un examen oral de nivel A2 es un tema típico de descripción y conversación breve.",
+  "cuando_se_usa": "Se usa al saludar o charlar, al comentar una previsión, al planear un viaje o al comparar países. La señal más clara es la pregunta What's the weather like? o una referencia a hoy, mañana o la semana que viene. Donde el español dice «hace calor» o «hay sol», el inglés usa It's + adjetivo: It's hot, It's sunny."
+ }
 }

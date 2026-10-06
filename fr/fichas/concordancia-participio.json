@@ -116,7 +116,19 @@
    "respuestas": [
     "partis"
    ],
-   "explicacion": "Con être concuerda con el sujeto masculino plural."
+   "explicacion": "Partir es un verbo de movimiento que se conjuga con être, y según la primera fila de la tabla el participio concuerda entonces con el sujeto. Mes parents es masculino plural, así que parti toma -s: partis. La pista es el auxiliar sont.",
+   "explicacion_breve": "Con être concuerda con el sujeto masculino plural.",
+   "traduccion": "Mis padres se fueron de vacaciones ayer.",
+   "errores_previstos": [
+    {
+     "respuesta": "parti",
+     "explicacion": "Falta la concordancia con el sujeto plural mes parents. Con être el participio concuerda siempre: partis."
+    },
+    {
+     "respuesta": "parties",
+     "explicacion": "Es la forma femenina plural; parents es masculino (o mixto, que también va en masculino): partis."
+    }
+   ]
   },
   {
    "id": "e02",
@@ -126,7 +138,23 @@
    "respuestas": [
     "écrite"
    ],
-   "explicacion": "El CD (que = la lettre) va delante: concordancia en femenino singular."
+   "explicacion": "Se aplica la regla del complemento directo antepuesto con avoir. El relativo que sustituye a la lettre, femenino singular, y va delante de as écrit; por tanto el participio concuerda: écrite. Aquí la concordancia se oye, porque écrite pronuncia la t final.",
+   "explicacion_breve": "El CD (que = la lettre) va delante: concordancia en femenino singular.",
+   "traduccion": "La carta que me escribiste me emocionó mucho.",
+   "errores_previstos": [
+    {
+     "respuesta": "écrit",
+     "explicacion": "Es el calco del español, donde el participio con haber no varía. En francés concuerda con el CD antepuesto que (= la lettre): écrite."
+    },
+    {
+     "respuesta": "écrites",
+     "explicacion": "La lettre es una sola: femenino singular, écrite."
+    },
+    {
+     "respuesta": "écrite m'a",
+     "explicacion": "El hueco solo pide el participio; el resto de la frase ya está escrito."
+    }
+   ]
   },
   {
    "id": "e03",
@@ -136,7 +164,19 @@
    "respuestas": [
     "vus"
    ],
-   "explicacion": "Les (= ces films) es CD antepuesto masculino plural."
+   "explicacion": "El pronombre les sustituye a ces films y va delante del auxiliar avoir, así que el participio concuerda con él, como indica la tercera fila de la tabla. Films es masculino plural: vus. El indefinido tous no altera la regla; solo refuerza el plural.",
+   "explicacion_breve": "Les (= ces films) es CD antepuesto masculino plural.",
+   "traduccion": "Esas películas las he visto todas en el cine.",
+   "errores_previstos": [
+    {
+     "respuesta": "vu",
+     "explicacion": "Falta la concordancia con el CD antepuesto les (= ces films), masculino plural: vus."
+    },
+    {
+     "respuesta": "vues",
+     "explicacion": "Film es masculino en francés: vus."
+    }
+   ]
   },
   {
    "id": "e04",
@@ -146,7 +186,23 @@
    "respuestas": [
     "parlé"
    ],
-   "explicacion": "Parler à quelqu'un: se es CI, el participio no varía."
+   "explicacion": "La última fila de la tabla y la lista de la ficha indican que en se parler el pronombre se es complemento indirecto, porque se habla à quelqu'un. Si se es indirecto, el participio no concuerda, aunque el auxiliar sea être. Por eso, aunque el sujeto elles sea femenino plural, el participio queda parlé.",
+   "explicacion_breve": "Parler à quelqu'un: se es CI, el participio no varía.",
+   "traduccion": "Después de la discusión, dejaron de hablarse.",
+   "errores_previstos": [
+    {
+     "respuesta": "parlées",
+     "explicacion": "Es el error de concordar con el sujeto. En se parler, se es indirecto (parler à l'autre), así que el participio queda invariable."
+    },
+    {
+     "respuesta": "parlés",
+     "explicacion": "Parler à quelqu'un hace de se un complemento indirecto: no hay concordancia."
+    },
+    {
+     "respuesta": "parler",
+     "explicacion": "Tras el auxiliar se necesita el participio, no el infinitivo."
+    }
+   ]
   },
   {
    "id": "e05",
@@ -161,7 +217,14 @@
    "respuestas": [
     "réveillée"
    ],
-   "explicacion": "Réveiller quelqu'un: se es CD y concuerda con el sujeto femenino."
+   "explicacion": "Es un verbo pronominal en el que se es complemento directo: réveiller quelqu'un, ella despierta a sí misma. Según la tabla, en ese caso el participio concuerda con el sujeto, aquí elle, femenino singular: réveillée. El truco de la ficha funciona: elle a réveillé qui ? elle-même.",
+   "explicacion_breve": "Réveiller quelqu'un: se es CD y concuerda con el sujeto femenino.",
+   "traduccion": "Se despertó muy temprano esta mañana.",
+   "por_opcion": {
+    "réveillé": "Incorrecta: sin concordancia. Se es complemento directo, así que el participio concuerda con elle.",
+    "réveillée": "Correcta: concuerda en femenino singular con el sujeto elle, porque se es complemento directo.",
+    "réveillés": "Incorrecta: es masculino plural, y el sujeto es una sola mujer."
+   }
   },
   {
    "id": "e06",
@@ -176,7 +239,20 @@
    "respuestas": [
     "travaillé"
    ],
-   "explicacion": "Avoir sin complemento directo: el participio no varía."
+   "explicacion": "Según la cuarta fila de la tabla, con avoir y sin complemento directo el participio no concuerda. Travailler aquí no tiene complemento directo: toute la nuit es un complemento de tiempo. Por eso el participio queda travaillé, aunque el sujeto ils sea plural. Con avoir nunca se concuerda con el sujeto.",
+   "explicacion_breve": "Avoir sin complemento directo: el participio no varía.",
+   "traduccion": "Trabajaron toda la noche.",
+   "por_opcion": {
+    "travaillé": "Correcta: con avoir y sin complemento directo, el participio es invariable.",
+    "travaillés": "Incorrecta: concuerda con el sujeto, cosa que solo ocurre con être.",
+    "travaillées": "Incorrecta: femenino plural sin ningún complemento directo antepuesto que lo justifique."
+   },
+   "glosario": [
+    {
+     "palabra": "toute la nuit",
+     "significado": "toda la noche"
+    }
+   ]
   },
   {
    "id": "e07",
@@ -191,7 +267,20 @@
    "respuestas": [
     "acheté"
    ],
-   "explicacion": "Con en como CD antepuesto no se hace la concordancia."
+   "explicacion": "La lista de la ficha recoge esta excepción: cuando el complemento directo antepuesto es el pronombre en, no se hace la concordancia. En sustituye a des fraises, pero como expresa una cantidad indeterminada el participio queda acheté. La pista es j'en ai.",
+   "explicacion_breve": "Con en como CD antepuesto no se hace la concordancia.",
+   "traduccion": "¿Fresas? He comprado un kilo en el mercado.",
+   "por_opcion": {
+    "acheté": "Correcta: con en como complemento antepuesto el participio es invariable.",
+    "achetées": "Incorrecta: concuerda con fraises, pero en no provoca concordancia según la norma.",
+    "achetés": "Incorrecta: masculino plural sin justificación; fraises es femenino y, además, en no concuerda."
+   },
+   "glosario": [
+    {
+     "palabra": "une fraise",
+     "significado": "una fresa"
+    }
+   ]
   },
   {
    "id": "e08",
@@ -206,7 +295,14 @@
    "respuestas": [
     "coupé"
    ],
-   "explicacion": "El CD les cheveux va detrás; se es CI: invariable."
+   "explicacion": "Es el caso del error típico elle s'est lavée les mains. El complemento directo es les cheveux, que va detrás del verbo; se significa «a sí misma» y es indirecto. Si el CD va detrás, no hay concordancia: coupé. El truco de la ficha: elle a coupé quoi ? les cheveux, à qui ? à elle.",
+   "explicacion_breve": "El CD les cheveux va detrás; se es CI: invariable.",
+   "traduccion": "Se cortó el pelo antes de salir.",
+   "por_opcion": {
+    "coupée": "Incorrecta: concordaría si se fuera CD (elle s'est coupée, se hizo un corte), pero aquí el CD es les cheveux y va detrás.",
+    "coupé": "Correcta: se es indirecto y el CD les cheveux va detrás, así que el participio no varía.",
+    "coupés": "Incorrecta: concuerda con les cheveux, pero ese CD va detrás del verbo y no provoca concordancia."
+   }
   },
   {
    "id": "e09",
@@ -216,7 +312,23 @@
    "respuestas": [
     "Les décisions que le conseil a prises ont surpris tout le monde."
    ],
-   "explicacion": "Que = les décisions, CD femenino plural antepuesto."
+   "explicacion": "El relativo que sustituye a les décisions, femenino plural, y va delante de a pris: es un complemento directo antepuesto con avoir, así que el participio concuerda: prises. Es exactamente el primer error típico de la ficha, y en este verbo la concordancia se oye, porque prises pronuncia la s.",
+   "explicacion_breve": "Que = les décisions, CD femenino plural antepuesto.",
+   "traduccion": "Las decisiones que tomó el consejo sorprendieron a todo el mundo.",
+   "errores_previstos": [
+    {
+     "respuesta": "Les décisions que le conseil a pris ont surpris tout le monde.",
+     "explicacion": "Es la frase sin corregir: falta la concordancia con el CD antepuesto que (= les décisions)."
+    },
+    {
+     "respuesta": "Les décisions que le conseil a prise ont surpris tout le monde.",
+     "explicacion": "Se ha marcado el femenino, pero falta el plural: les décisions son varias, prises."
+    },
+    {
+     "respuesta": "Les décisions que le conseil a prises ont surprises tout le monde.",
+     "explicacion": "El segundo participio no debe concordar: el CD de ont surpris es tout le monde y va detrás."
+    }
+   ]
   },
   {
    "id": "e10",
@@ -226,7 +338,23 @@
    "respuestas": [
     "Ma sœur est née à Séville."
    ],
-   "explicacion": "Naître se conjuga con être: concuerda con el sujeto femenino."
+   "explicacion": "Naître se conjuga con être, así que el participio concuerda con el sujeto, como indica la primera fila de la tabla. Ma sœur es femenino singular, por lo que né pasa a née. Es el mismo caso que el error típico elle est allé.",
+   "explicacion_breve": "Naître se conjuga con être: concuerda con el sujeto femenino.",
+   "traduccion": "Mi hermana nació en Sevilla.",
+   "errores_previstos": [
+    {
+     "respuesta": "Ma sœur est né à Séville.",
+     "explicacion": "Es la frase sin corregir: con être el participio concuerda con el sujeto femenino."
+    },
+    {
+     "respuesta": "Ma sœur a née à Séville.",
+     "explicacion": "Naître no se conjuga con avoir sino con être."
+    },
+    {
+     "respuesta": "Ma sœur est nés à Séville.",
+     "explicacion": "El sujeto es femenino singular: née."
+    }
+   ]
   },
   {
    "id": "e11",
@@ -236,7 +364,25 @@
    "respuestas": [
     "Les présidents se sont succédé à un rythme rapide."
    ],
-   "explicacion": "Succéder à quelqu'un: se es CI, el participio es invariable."
+   "explicacion": "La lista de la ficha incluye se succéder entre los verbos cuyo se es complemento indirecto (succéder à quelqu'un). Por tanto el participio es invariable aunque el auxiliar sea être y el sujeto plural: ils se sont succédé. Es un error muy frecuente incluso entre nativos.",
+   "explicacion_breve": "Succéder à quelqu'un: se es CI, el participio es invariable.",
+   "traduccion": "Los presidentes se sucedieron a un ritmo rápido.",
+   "errores_previstos": [
+    {
+     "respuesta": "Les présidents se sont succédés à un rythme rapide.",
+     "explicacion": "Es la frase sin corregir: succéder se construye con à, así que se es indirecto y no hay concordancia."
+    },
+    {
+     "respuesta": "Les présidents ont succédé à un rythme rapide.",
+     "explicacion": "Al quitar se se pierde el sentido recíproco; el verbo es pronominal y se conjuga con être."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "se succéder",
+     "significado": "sucederse"
+    }
+   ]
   },
   {
    "id": "e12",
@@ -246,7 +392,33 @@
    "respuestas": [
     "Je les ai rangées."
    ],
-   "explicacion": "El pronombre les (= les assiettes, femenino plural) va delante del auxiliar."
+   "explicacion": "Les assiettes es complemento directo femenino plural; al sustituirlo por les, el pronombre va delante del auxiliar y provoca la concordancia, como indica la tercera fila de la tabla. Rangé pasa a rangées. En la frase original no había concordancia porque el CD iba detrás.",
+   "explicacion_breve": "El pronombre les (= les assiettes, femenino plural) va delante del auxiliar.",
+   "traduccion": "Las he guardado.",
+   "errores_previstos": [
+    {
+     "respuesta": "Je les ai rangé.",
+     "explicacion": "Falta la concordancia: el CD les va delante del auxiliar y es femenino plural."
+    },
+    {
+     "respuesta": "Je les ai rangés.",
+     "explicacion": "Assiettes es femenino: rangées."
+    },
+    {
+     "respuesta": "Je leur ai rangées.",
+     "explicacion": "Leur es complemento indirecto; ranger les assiettes es directo: les."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "ranger",
+     "significado": "ordenar, guardar en su sitio"
+    },
+    {
+     "palabra": "une assiette",
+     "significado": "un plato"
+    }
+   ]
   },
   {
    "id": "e13",
@@ -256,7 +428,25 @@
    "respuestas": [
     "Elle s'est trompée de route."
    ],
-   "explicacion": "«Se tromper» (equivocarse) es un verbo pronominal sin CD real: el participio concuerda con el sujeto."
+   "explicacion": "Se tromper es un verbo pronominal que se conjuga con être, y aquí el participio concuerda con el sujeto, como en los verbos siempre pronominales de la lista de la ficha. Al pasar de il a elle, trompé se convierte en trompée. De route es un complemento con preposición, no un complemento directo, así que no altera la regla.",
+   "explicacion_breve": "«Se tromper» (equivocarse) es un verbo pronominal sin CD real: el participio concuerda con el sujeto.",
+   "traduccion": "Se equivocó de camino.",
+   "errores_previstos": [
+    {
+     "respuesta": "Elle s'est trompé de route.",
+     "explicacion": "Se ha cambiado el sujeto pero no la concordancia: con elle, trompée."
+    },
+    {
+     "respuesta": "Elle a trompée de route.",
+     "explicacion": "Se tromper es pronominal y se conjuga con être; falta s'est."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "se tromper de",
+     "significado": "equivocarse de"
+    }
+   ]
   },
   {
    "id": "e14",
@@ -274,10 +464,28 @@
    "respuestas": [
     "Les lettres que j'ai reçues sont anciennes"
    ],
-   "explicacion": "Que retoma les lettres y provoca la concordancia de reçues."
+   "explicacion": "La frase tiene una relativa: les lettres que j'ai reçues. Que retoma les lettres, femenino plural, y va delante de ai reçu, por eso el participio es reçues, como ya indican las palabras dadas. La relativa va justo detrás del sustantivo al que se refiere y después viene el verbo principal sont anciennes.",
+   "explicacion_breve": "Que retoma les lettres y provoca la concordancia de reçues.",
+   "traduccion": "Las cartas que he recibido son antiguas.",
+   "errores_previstos": [
+    {
+     "respuesta": "Les lettres sont anciennes que j'ai reçues",
+     "explicacion": "La relativa debe ir pegada a su antecedente les lettres, no al final de la frase."
+    },
+    {
+     "respuesta": "Que j'ai reçues les lettres sont anciennes",
+     "explicacion": "La relativa no puede preceder a su antecedente; el orden es antecedente + que + verbo."
+    }
+   ]
   }
  ],
  "fuente": {
   "nombre": "propia"
+ },
+ "descripcion_larga_es": "En francés el participio pasado puede variar en género y número: parti, partie, partis, parties. Concuerda con el sujeto si el auxiliar es être y con el complemento directo si el auxiliar es avoir y ese complemento va delante. Es una regla que el español no tiene, porque con haber el participio nunca varía, y por eso es un error constante y muy penalizado en la escritura.",
+ "contexto": {
+  "que_es": "Es el conjunto de reglas que deciden si el participio pasado de un tiempo compuesto toma las marcas de femenino (-e) y plural (-s). Con être concuerda con el sujeto; con avoir, con el complemento directo antepuesto (pronombre o relativo que); en los pronominales, depende de si se es complemento directo o indirecto.",
+  "por_que_importa": "Es uno de los puntos de la ortografía gramatical francesa que más se evalúan en un examen escrito de nivel B2, y en participios terminados en consonante (prise, faite, écrite, mise) la falta de concordancia también se oye. Un error de concordancia no impide entender, pero da imagen de dominio insuficiente en textos formales.",
+  "cuando_se_usa": "Se aplica en cada tiempo compuesto (passé composé, plus-que-parfait, futur antérieur, pasiva). Las señales son el auxiliar être, un pronombre le, la, les o un relativo que delante de avoir, y los verbos con se. El hispanohablante tiende a dejar el participio siempre invariable, como con haber en español, o a concordar con avoir aunque el complemento vaya detrás."
  }
 }

@@ -196,7 +196,33 @@
    "respuestas": [
     "dancing"
    ],
-   "explicacion": "Enjoy va seguido de -ing."
+   "explicacion": "Se aplica la regla de la ficha según la cual tras like, love, hate, enjoy y prefer va un sustantivo o un verbo, y en el caso de enjoy siempre en -ing. La pista es el verbo enjoy delante del hueco. Enjoy significa «disfrutar» y, con really, equivale a «me encanta». Por eso la forma es dancing, nunca to dance.",
+   "explicacion_breve": "Enjoy va seguido de -ing.",
+   "traduccion": "Me encanta bailar en las bodas.",
+   "errores_previstos": [
+    {
+     "respuesta": "to dance",
+     "explicacion": "Enjoy no admite to + infinitivo; va siempre con -ing (error típico de la ficha)."
+    },
+    {
+     "respuesta": "dance",
+     "explicacion": "Tras enjoy hace falta la forma en -ing: dancing."
+    },
+    {
+     "respuesta": "danceing",
+     "explicacion": "Error de ortografía: la e final se pierde al añadir -ing, dancing."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "to enjoy",
+     "significado": "disfrutar de, pasarlo bien haciendo algo; va seguido de -ing"
+    },
+    {
+     "palabra": "wedding",
+     "significado": "boda"
+    }
+   ]
   },
   {
    "id": "e02",
@@ -206,7 +232,33 @@
    "respuestas": [
     "to"
    ],
-   "explicacion": "Preferir A a B es prefer A to B."
+   "explicacion": "Se aplica la construcción prefer A to B («preferir A a B»). La pista es el verbo prefer y las dos actividades en -ing que se comparan. La preposición es to, que corresponde al español «a». Es un error frecuente usar than, como en los comparativos, pero prefer no es un comparativo.",
+   "explicacion_breve": "Preferir A a B es prefer A to B.",
+   "traduccion": "Prefiero ir en bici a correr.",
+   "errores_previstos": [
+    {
+     "respuesta": "than",
+     "explicacion": "Than se usa con comparativos (better than); con prefer se usa to."
+    },
+    {
+     "respuesta": "that",
+     "explicacion": "That no introduce el segundo término de la preferencia; la preposición es to."
+    },
+    {
+     "respuesta": "from",
+     "explicacion": "Calca otras construcciones; el segundo término de prefer se introduce con to."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "to prefer A to B",
+     "significado": "preferir A a B"
+    },
+    {
+     "palabra": "cycling",
+     "significado": "montar en bicicleta, ciclismo"
+    }
+   ]
   },
   {
    "id": "e03",
@@ -216,7 +268,29 @@
    "respuestas": [
     "in"
    ],
-   "explicacion": "Interesarse por es be interested in."
+   "explicacion": "Se aplica la expresión be interested in («estar interesado en, interesarse por»). La pista es interested delante del hueco. La preposición fija es in, aunque en español digamos «interesarse por». Detrás puede ir un sustantivo (modern art) o un verbo en -ing (interested in learning).",
+   "explicacion_breve": "Interesarse por es be interested in.",
+   "traduccion": "¿Te interesa el arte moderno?",
+   "errores_previstos": [
+    {
+     "respuesta": "for",
+     "explicacion": "Es el calco de «interesarse por»; la preposición fija es in."
+    },
+    {
+     "respuesta": "on",
+     "explicacion": "On va con keen (keen on), no con interested."
+    },
+    {
+     "respuesta": "about",
+     "explicacion": "Interested no se construye con about; la preposición es in."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "to be interested in",
+     "significado": "estar interesado en, interesarse por"
+    }
+   ]
   },
   {
    "id": "e04",
@@ -226,7 +300,29 @@
    "respuestas": [
     "rather"
    ],
-   "explicacion": "Preferiría es would rather + infinitivo sin to."
+   "explicacion": "Se aplica la expresión would rather + infinitivo sin to («preferiría»). La pista es I'd (contracción de I would) seguido de stay sin to, y la comparación con than go to the party. La palabra que falta es rather. A diferencia de prefer, would rather sí se construye con than para el segundo término.",
+   "explicacion_breve": "Preferiría es would rather + infinitivo sin to.",
+   "traduccion": "Preferiría quedarme en casa antes que ir a la fiesta.",
+   "errores_previstos": [
+    {
+     "respuesta": "prefer",
+     "explicacion": "I'd prefer necesita to delante del verbo (I'd prefer to stay) y no se combina con than así; aquí la estructura es would rather."
+    },
+    {
+     "respuesta": "better",
+     "explicacion": "I'd better significa «más vale que», no expresa preferencia."
+    },
+    {
+     "respuesta": "like",
+     "explicacion": "I'd like necesita to + infinitivo y no admite than: la estructura es I'd rather."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "would rather",
+     "significado": "preferiría; va con infinitivo sin to y con than para el segundo término"
+    }
+   ]
   },
   {
    "id": "e05",
@@ -241,7 +337,20 @@
    "respuestas": [
     "on"
    ],
-   "explicacion": "Be keen on es tener afición a."
+   "explicacion": "Se aplica la expresión be keen on («tener afición a, ser aficionado a»). La pista es keen delante del hueco. La preposición fija es on. En negativa, not very keen on es una forma suave y muy británica de decir que algo no nos gusta.",
+   "explicacion_breve": "Be keen on es tener afición a.",
+   "traduccion": "A mi hermano no le gusta mucho el deporte.",
+   "por_opcion": {
+    "on": "Correcta: be keen on es la expresión fija («tener afición a»).",
+    "of": "Incorrecta: of va con fond (be fond of), que tiene un sentido parecido, pero no con keen.",
+    "in": "Incorrecta: in va con interested (be interested in), no con keen."
+   },
+   "glosario": [
+    {
+     "palabra": "to be keen on",
+     "significado": "ser aficionado a, tener afición a"
+    }
+   ]
   },
   {
    "id": "e06",
@@ -256,7 +365,24 @@
    "respuestas": [
     "to see"
    ],
-   "explicacion": "Would like va con to + infinitivo."
+   "explicacion": "Se aplica la regla de la ficha: would like («me gustaría») va con to + infinitivo. La pista es I'd like, contracción de I would like, que expresa un deseo concreto y no un gusto general. Por eso la forma es to see. No hay que confundirlo con like + -ing, que habla de gustos habituales.",
+   "explicacion_breve": "Would like va con to + infinitivo.",
+   "traduccion": "Me gustaría ver la nueva exposición.",
+   "por_opcion": {
+    "to see": "Correcta: would like + to + infinitivo para un deseo concreto.",
+    "seeing": "Incorrecta: like + -ing expresa un gusto general, pero would like exige to + infinitivo.",
+    "see": "Incorrecta: falta to; would like no va con infinitivo sin to."
+   },
+   "glosario": [
+    {
+     "palabra": "would like",
+     "significado": "me gustaría (deseo concreto)"
+    },
+    {
+     "palabra": "exhibition",
+     "significado": "exposición (de arte, de museo)"
+    }
+   ]
   },
   {
    "id": "e07",
@@ -271,7 +397,24 @@
    "respuestas": [
     "Me neither."
    ],
-   "explicacion": "Para mostrar acuerdo con una negativa: me neither."
+   "explicacion": "Se aplica la regla de la ficha: para mostrar acuerdo con una frase negativa se dice Me neither. La pista es I don't like, que es negativa. En español decimos «yo tampoco», y por eso la respuesta inglesa también debe ser negativa; Me too y So do I sirven solo para frases afirmativas.",
+   "explicacion_breve": "Para mostrar acuerdo con una negativa: me neither.",
+   "traduccion": "No me gusta la comida picante. — A mí tampoco.",
+   "por_opcion": {
+    "Me neither.": "Correcta: acuerdo con una frase negativa («a mí tampoco»).",
+    "Me too.": "Incorrecta: Me too responde a una afirmativa («a mí también»); ante una negativa es el error típico de la ficha.",
+    "So do I.": "Incorrecta: es una respuesta afirmativa («yo también»); para la negativa sería Neither do I."
+   },
+   "glosario": [
+    {
+     "palabra": "me neither",
+     "significado": "yo tampoco, a mí tampoco"
+    },
+    {
+     "palabra": "spicy",
+     "significado": "picante"
+    }
+   ]
   },
   {
    "id": "e08",
@@ -286,7 +429,24 @@
    "respuestas": [
     "stand"
    ],
-   "explicacion": "No soportar es can't stand."
+   "explicacion": "Se aplica la expresión can't stand («no soportar»). La pista es can't delante del hueco y el sentido claramente negativo de la frase. Stand en esta expresión significa «aguantar» y solo se usa así en negativa o en pregunta. Es más fuerte que don't like y equivale aproximadamente a hate.",
+   "explicacion_breve": "No soportar es can't stand.",
+   "traduccion": "No soporto a la gente que habla durante las películas.",
+   "por_opcion": {
+    "stand": "Correcta: can't stand significa «no soportar».",
+    "mind": "Incorrecta: can't mind no se usa; mind aparece en don't mind («no me importa») y en preguntas como Do you mind…?",
+    "enjoy": "Incorrecta: can't enjoy significa «no poder disfrutar», no «no soportar», y aquí no tiene sentido."
+   },
+   "glosario": [
+    {
+     "palabra": "can't stand",
+     "significado": "no soportar, no aguantar"
+    },
+    {
+     "palabra": "to mind",
+     "significado": "importar, molestar (don't mind = no me importa)"
+    }
+   ]
   },
   {
    "id": "e09",
@@ -297,7 +457,33 @@
     "My sister enjoys travelling.",
     "My sister enjoys traveling."
    ],
-   "explicacion": "Enjoy va seguido de -ing."
+   "explicacion": "Se aplica la regla de la ficha: enjoy va seguido de -ing, nunca de to + infinitivo. La pista es enjoys to travel. Hay que cambiar to travel por travelling (con doble l en inglés británico) o traveling (en inglés americano); por eso se aceptan las dos ortografías.",
+   "explicacion_breve": "Enjoy va seguido de -ing.",
+   "traduccion": "A mi hermana le encanta viajar.",
+   "errores_previstos": [
+    {
+     "respuesta": "My sister enjoys to travel.",
+     "explicacion": "Deja la frase sin corregir: enjoy va con -ing."
+    },
+    {
+     "respuesta": "My sister enjoy travelling.",
+     "explicacion": "Corrige el verbo pero pierde la -s de tercera persona: enjoys."
+    },
+    {
+     "respuesta": "My sister enjoys to travelling.",
+     "explicacion": "Mezcla las dos estructuras: tras enjoy va directamente la forma en -ing, sin to."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "to enjoy",
+     "significado": "disfrutar de, gustar mucho; va con -ing"
+    },
+    {
+     "palabra": "travelling / traveling",
+     "significado": "viajar (ortografía británica / americana)"
+    }
+   ]
   },
   {
    "id": "e10",
@@ -308,7 +494,29 @@
     "I would like to visit Rome next year.",
     "I'd like to visit Rome next year."
    ],
-   "explicacion": "Would like va seguido de to + infinitivo."
+   "explicacion": "Se aplica la regla de la ficha: would like va seguido de to + infinitivo. La pista es I would like seguido de visiting. Se trata de un deseo concreto (Roma, el año que viene), no de un gusto general, así que hay que decir to visit. Se acepta la forma completa I would like y la contracción I'd like.",
+   "explicacion_breve": "Would like va seguido de to + infinitivo.",
+   "traduccion": "Me gustaría visitar Roma el año que viene.",
+   "errores_previstos": [
+    {
+     "respuesta": "I would like visiting Rome next year.",
+     "explicacion": "Deja la frase sin corregir: would like va con to + infinitivo."
+    },
+    {
+     "respuesta": "I would like visit Rome next year.",
+     "explicacion": "Falta to: would like to visit."
+    },
+    {
+     "respuesta": "I like to visit Rome next year.",
+     "explicacion": "Pierde would; I like expresa un gusto general y no encaja con next year."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "would like to",
+     "significado": "me gustaría (+ infinitivo)"
+    }
+   ]
   },
   {
    "id": "e11",
@@ -318,7 +526,29 @@
    "respuestas": [
     "I prefer coffee to tea."
    ],
-   "explicacion": "Con prefer se usa to, no than."
+   "explicacion": "Se aplica la construcción prefer A to B y el aviso de la ficha de que con prefer se usa to, no than. La pista es prefer seguido de than. Aunque la frase compara dos cosas, prefer no es un adjetivo comparativo, así que el segundo término se introduce con to: I prefer coffee to tea.",
+   "explicacion_breve": "Con prefer se usa to, no than.",
+   "traduccion": "Prefiero el café al té.",
+   "errores_previstos": [
+    {
+     "respuesta": "I prefer coffee than tea.",
+     "explicacion": "Deja la frase sin corregir: con prefer se usa to."
+    },
+    {
+     "respuesta": "I prefer coffee that tea.",
+     "explicacion": "That no introduce el segundo término; la preposición es to."
+    },
+    {
+     "respuesta": "I prefer the coffee to the tea.",
+     "explicacion": "Con nombres en sentido general no se usa the, como recuerda la ficha."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "to prefer A to B",
+     "significado": "preferir A a B"
+    }
+   ]
   },
   {
    "id": "e12",
@@ -335,7 +565,25 @@
    "respuestas": [
     "What do you think of it"
    ],
-   "explicacion": "¿Qué te parece? es What do you think of it?"
+   "explicacion": "Se aplica la fórmula de la ficha What do you think of it? para pedir una opinión («¿qué te parece?»). La pista son las palabras what, do, you, think, of, it: la pregunta necesita do, y think of debe llevar detrás aquello sobre lo que se opina (it). Como señala la ficha, no basta con What do you think about?: hay que decir de qué.",
+   "explicacion_breve": "¿Qué te parece? es What do you think of it?",
+   "traduccion": "¿Qué te parece?",
+   "errores_previstos": [
+    {
+     "respuesta": "What you do think of it",
+     "explicacion": "En la pregunta el auxiliar do va delante del sujeto: What do you think…"
+    },
+    {
+     "respuesta": "What do you think it of",
+     "explicacion": "La preposición va delante de su complemento: think of it."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "What do you think of…?",
+     "significado": "¿Qué te parece…?, ¿qué opinas de…?"
+    }
+   ]
   },
   {
    "id": "e13",
@@ -352,7 +600,29 @@
    "respuestas": [
     "My son is really into photography"
    ],
-   "explicacion": "Be into es estar aficionado a algo."
+   "explicacion": "Se aplica la expresión informal be into («ser aficionado a, estar metido en»). La pista son las palabras is e into, que forman la expresión, y el sujeto my son. El orden es sujeto + is + really + into + complemento: really se coloca entre el verbo y into para intensificar. Es muy frecuente en la lengua hablada.",
+   "explicacion_breve": "Be into es estar aficionado a algo.",
+   "traduccion": "A mi hijo le gusta muchísimo la fotografía.",
+   "errores_previstos": [
+    {
+     "respuesta": "My son is really photography into",
+     "explicacion": "Into es una preposición y va delante de su complemento: into photography."
+    },
+    {
+     "respuesta": "My son is into really photography",
+     "explicacion": "Really no puede ir entre la preposición y su complemento."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "to be into something",
+     "significado": "ser aficionado a algo, encantarle algo (informal)"
+    },
+    {
+     "palabra": "photography",
+     "significado": "fotografía (la afición o la técnica)"
+    }
+   ]
   },
   {
    "id": "e14",
@@ -362,7 +632,29 @@
    "respuestas": [
     "mind"
    ],
-   "explicacion": "No importar es don't mind + -ing."
+   "explicacion": "Se aplica la expresión don't mind + -ing («no me importa»). La pista es la indicación «no me importa» del enunciado, la estructura I don't ___ y el verbo working en -ing detrás. La palabra es mind. Es una forma neutra de decir que algo no molesta, sin llegar a decir que guste.",
+   "explicacion_breve": "No importar es don't mind + -ing.",
+   "traduccion": "No me importa trabajar los fines de semana.",
+   "errores_previstos": [
+    {
+     "respuesta": "care",
+     "explicacion": "I don't care significa «me da igual, no me preocupa», con un matiz de indiferencia; «no me importa (hacerlo)» es I don't mind."
+    },
+    {
+     "respuesta": "matter",
+     "explicacion": "Es el calco de «importar»; matter no lleva a la persona como sujeto ni va con -ing aquí."
+    },
+    {
+     "respuesta": "import",
+     "explicacion": "Import significa «importar» en el sentido comercial (traer mercancías del extranjero)."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "don't mind + -ing",
+     "significado": "no importar, no molestar hacer algo"
+    }
+   ]
   },
   {
    "id": "e15",
@@ -377,10 +669,33 @@
    "respuestas": [
     "favourite"
    ],
-   "explicacion": "Favorito es favourite (favorite en americano)."
+   "explicacion": "Se aplica el vocabulario de gustos de la ficha: favourite significa «favorito, preferido» y va delante del sustantivo. La pista es la pregunta What's your ___ book?, la forma habitual de preguntar por una preferencia. Favourite es la ortografía británica; en inglés americano se escribe favorite.",
+   "explicacion_breve": "Favorito es favourite (favorite en americano).",
+   "traduccion": "¿Cuál es tu libro favorito?",
+   "por_opcion": {
+    "favourite": "Correcta: favourite (favorite en americano) es el adjetivo normal para «favorito».",
+    "preferred": "Incorrecta en este contexto: preferred existe, pero es formal o técnico (preferred method, preferred supplier) y no se usa para gustos personales.",
+    "liked": "Incorrecta: liked es participio (a well-liked teacher) y no se usa como «favorito»."
+   },
+   "glosario": [
+    {
+     "palabra": "favourite / favorite",
+     "significado": "favorito, preferido (ortografía británica / americana)"
+    },
+    {
+     "palabra": "preferred",
+     "significado": "preferente, preferido (registro formal o técnico)"
+    }
+   ]
   }
  ],
  "fuente": {
   "nombre": "propia"
+ },
+ "descripcion_larga_es": "Esta ficha reúne los verbos y fórmulas para decir lo que te gusta y lo que no (like, love, enjoy, hate, can't stand), expresar preferencias (prefer, would rather) y dar una opinión sencilla. Es vocabulario de uso diario y aparece en cualquier conversación. Al hispanohablante le cuesta porque en inglés el sujeto es la persona («I like») y cada verbo exige su propia construcción.",
+ "contexto": {
+  "que_es": "Es el léxico básico de gustos, preferencias y opiniones: verbos como like, love, enjoy, hate, mind y can't stand; expresiones como be keen on, be into o be interested in; y fórmulas para preferir (prefer A to B, would rather) y para pedir u ofrecer opinión (What do you think of…?).",
+  "por_que_importa": "Hablar de uno mismo y reaccionar a lo que dicen los demás es la base de cualquier conversación y de las primeras partes de un examen oral. Cada verbo exige una construcción concreta (-ing, to + infinitivo, una preposición), y fallarla se nota enseguida. Además, respuestas cortas como Me neither o So do I son imprescindibles para sonar natural.",
+  "cuando_se_usa": "Se usa al presentarse, al hablar de aficiones, al elegir entre opciones o al comentar algo que se ha visto o leído. El hispanohablante suele calcar «me gusta» (Me like), usar than con prefer, poner to tras enjoy o responder Me too a una frase negativa, donde el inglés exige Me neither."
  }
 }

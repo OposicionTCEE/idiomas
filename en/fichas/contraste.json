@@ -112,7 +112,25 @@
    "respuestas": [
     "of"
    ],
-   "explicacion": "La expresión es in spite of."
+   "explicacion": "Es la fila de la tabla despite / in spite of + nombre: la expresión completa es in spite of. La pista es In spite ___ seguido de the noise, un nombre. La palabra que falta es of; solo despite prescinde de ella.",
+   "explicacion_breve": "La expresión es in spite of.",
+   "traduccion": "A pesar del ruido, el bebé durmió toda la noche.",
+   "errores_previstos": [
+    {
+     "respuesta": "from",
+     "explicacion": "Calco equivocado: la preposición fija de la expresión es of, in spite of."
+    },
+    {
+     "respuesta": "to",
+     "explicacion": "In spite to no existe; la expresión es in spite of."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "in spite of",
+     "significado": "a pesar de"
+    }
+   ]
   },
   {
    "id": "e02",
@@ -123,7 +141,23 @@
     "training",
     "having trained"
    ],
-   "explicacion": "Tras despite se usa -ing."
+   "explicacion": "La tabla indica que tras despite va un nombre o una forma -ing. La pista es Despite seguido directamente de un verbo: hay que ponerlo en -ing, training. También vale having trained, la forma perfecta, que subraya que el entrenamiento fue anterior a la carrera.",
+   "explicacion_breve": "Tras despite se usa -ing.",
+   "traduccion": "A pesar de entrenar mucho, no ganó la carrera.",
+   "errores_previstos": [
+    {
+     "respuesta": "train",
+     "explicacion": "Tras despite, que funciona como preposición, el verbo va en -ing, no en infinitivo."
+    },
+    {
+     "respuesta": "he trained",
+     "explicacion": "Despite no puede ir con una oración; haría falta despite the fact that he trained."
+    },
+    {
+     "respuesta": "to train",
+     "explicacion": "Tras una preposición no va to + infinitivo, sino -ing."
+    }
+   ]
   },
   {
    "id": "e03",
@@ -135,7 +169,29 @@
     "Nevertheless",
     "Nonetheless"
    ],
-   "explicacion": "Conector que abre una frase nueva seguido de coma."
+   "explicacion": "Es la fila de however / nevertheless / nonetheless: conectores que abren una frase nueva, tras punto, seguidos de coma. La pista es el punto antes del hueco, la coma después y el contraste entre las buenas críticas y la opinión personal. Las tres palabras son válidas; nevertheless y nonetheless son más formales.",
+   "explicacion_breve": "Conector que abre una frase nueva seguido de coma.",
+   "traduccion": "La película tuvo críticas excelentes. Sin embargo, a mí me pareció aburrida.",
+   "errores_previstos": [
+    {
+     "respuesta": "Although",
+     "explicacion": "Although necesita una oración subordinada y no va seguido de coma al abrir frase de este modo."
+    },
+    {
+     "respuesta": "But",
+     "explicacion": "But coordina dentro de la misma frase; tras punto y con coma lo correcto es however."
+    },
+    {
+     "respuesta": "Despite",
+     "explicacion": "Despite necesita un nombre o -ing detrás, no una coma."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "reviews",
+     "significado": "críticas, reseñas"
+    }
+   ]
   },
   {
    "id": "e04",
@@ -145,7 +201,25 @@
    "respuestas": [
     "fact"
    ],
-   "explicacion": "Despite the fact that + oración."
+   "explicacion": "La tabla recoge despite the fact that + sujeto + verbo, la forma de usar despite con una oración completa. La pista es Despite the ___ that seguido de she was exhausted, una oración. La palabra que falta es fact.",
+   "explicacion_breve": "Despite the fact that + oración.",
+   "traduccion": "A pesar de que estaba agotada, terminó el maratón.",
+   "errores_previstos": [
+    {
+     "respuesta": "way",
+     "explicacion": "Despite the way that no expresa concesión; la fórmula fija es despite the fact that."
+    },
+    {
+     "respuesta": "reason",
+     "explicacion": "Despite the reason that no existe; se dice despite the fact that."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "exhausted",
+     "significado": "agotado"
+    }
+   ]
   },
   {
    "id": "e05",
@@ -161,7 +235,21 @@
    "respuestas": [
     "Even though"
    ],
-   "explicacion": "Le sigue una oración (he earns…): even though."
+   "explicacion": "La tabla indica que although, though y even though van seguidos de sujeto + verbo. La pista es he earns a good salary, una oración completa. Even though es además más enfático, «aun cuando», y encaja con la paradoja de ganar bien y no tener dinero. Despite e in spite of necesitarían un nombre o -ing.",
+   "explicacion_breve": "Le sigue una oración (he earns…): even though.",
+   "traduccion": "Aunque gana un buen sueldo, nunca tiene dinero.",
+   "por_opcion": {
+    "Even though": "Correcta: va seguido de una oración y expresa una concesión enfática.",
+    "Despite": "Incorrecta: no puede ir con una oración; habría que decir despite earning.",
+    "In spite of": "Incorrecta: igual que despite, necesita nombre o -ing.",
+    "However": "Incorrecta: abre una frase nueva tras punto y no introduce una subordinada."
+   },
+   "glosario": [
+    {
+     "palabra": "earn a salary",
+     "significado": "ganar un sueldo"
+    }
+   ]
   },
   {
    "id": "e06",
@@ -176,7 +264,14 @@
    "respuestas": [
     "whereas"
    ],
-   "explicacion": "Contraste entre dos grupos dentro de la misma frase: whereas."
+   "explicacion": "Es whereas / while de la tabla: contraste entre dos hechos dentro de la misma frase, seguido de sujeto + verbo. La pista es la oposición entre dos grupos (some people / others) y que el hueco va tras coma, en mitad de la frase. However no puede unir dos oraciones con una coma sola.",
+   "explicacion_breve": "Contraste entre dos grupos dentro de la misma frase: whereas.",
+   "traduccion": "Algunas personas prefieren el té, mientras que otras no pueden empezar el día sin café.",
+   "por_opcion": {
+    "whereas": "Correcta: compara dos hechos opuestos dentro de la misma frase.",
+    "despite": "Incorrecta: necesita un nombre o -ing, no una oración.",
+    "however": "Incorrecta: la ficha advierte que however no une dos oraciones con coma sola; haría falta punto o punto y coma."
+   }
   },
   {
    "id": "e07",
@@ -192,7 +287,15 @@
    "respuestas": [
     "despite"
    ],
-   "explicacion": "Le sigue un nombre (the bad weather): despite."
+   "explicacion": "Se aplica la tabla: despite va seguido de un nombre. La pista es the bad weather, un nombre sin verbo. Although y even though necesitarían una oración (although the weather was bad), y whereas compara dos hechos, no expresa concesión.",
+   "explicacion_breve": "Le sigue un nombre (the bad weather): despite.",
+   "traduccion": "Disfrutamos del viaje a pesar del mal tiempo.",
+   "por_opcion": {
+    "despite": "Correcta: seguido de un nombre, a pesar de.",
+    "although": "Incorrecta: necesita una oración con verbo.",
+    "even though": "Incorrecta: también necesita sujeto y verbo.",
+    "whereas": "Incorrecta: contrasta dos hechos; no expresa que algo ocurra pese a un obstáculo."
+   }
   },
   {
    "id": "e08",
@@ -207,7 +310,14 @@
    "respuestas": [
     "even if"
    ],
-   "explicacion": "Hipótesis (aunque llueva): even if."
+   "explicacion": "La lista de la ficha distingue even if, aunque en hipótesis, de even though, aunque con un hecho real. La pista es que la lluvia no es un hecho, sino una posibilidad futura («aunque llueva», con subjuntivo en español), y I don't care. Por eso va even if, seguido de presente con valor de futuro.",
+   "explicacion_breve": "Hipótesis (aunque llueva): even if.",
+   "traduccion": "Iré a la playa aunque llueva; me da igual.",
+   "por_opcion": {
+    "even if": "Correcta: concesión hipotética, aunque llueva.",
+    "even though": "Incorrecta: presentaría la lluvia como un hecho real (aunque está lloviendo), lo que no casa con un futuro incierto.",
+    "despite": "Incorrecta: necesita un nombre o -ing, no una oración."
+   }
   },
   {
    "id": "e09",
@@ -218,7 +328,23 @@
     "Despite his age, he runs every morning.",
     "In spite of his age, he runs every morning."
    ],
-   "explicacion": "Despite no lleva of."
+   "explicacion": "Es la primera advertencia de la lista: nunca despite of. La pista es «Despite of», calco de «a pesar de». Se corrige quitando of (Despite his age) o usando la expresión completa con of (In spite of his age); las dos son válidas.",
+   "explicacion_breve": "Despite no lleva of.",
+   "traduccion": "A pesar de su edad, sale a correr todas las mañanas.",
+   "errores_previstos": [
+    {
+     "respuesta": "Despite of his age, he runs every morning.",
+     "explicacion": "Es dejar la frase sin corregir: despite nunca lleva of."
+    },
+    {
+     "respuesta": "In spite his age, he runs every morning.",
+     "explicacion": "In spite necesita of: in spite of his age."
+    },
+    {
+     "respuesta": "Although his age, he runs every morning.",
+     "explicacion": "Although necesita una oración con verbo, no un nombre."
+    }
+   ]
   },
   {
    "id": "e10",
@@ -229,7 +355,23 @@
     "Although the hotel was expensive, the rooms were small.",
     "The hotel was expensive, but the rooms were small."
    ],
-   "explicacion": "Although y but no van juntos."
+   "explicacion": "La lista de la ficha prohíbe combinar although y but en la misma frase, calco de «aunque…, pero». Hay dos correcciones: quitar but y dejar although, o quitar although y dejar but como coordinación. Ambas expresan el mismo contraste entre el precio y el tamaño.",
+   "explicacion_breve": "Although y but no van juntos.",
+   "traduccion": "Aunque el hotel era caro, las habitaciones eran pequeñas.",
+   "errores_previstos": [
+    {
+     "respuesta": "Although the hotel was expensive, but the rooms were small.",
+     "explicacion": "Es dejar la frase sin corregir: although y but no van juntos."
+    },
+    {
+     "respuesta": "Despite the hotel was expensive, the rooms were small.",
+     "explicacion": "Despite no puede ir seguido de una oración."
+    },
+    {
+     "respuesta": "The hotel was expensive, however the rooms were small.",
+     "explicacion": "However no une dos oraciones con coma sola; haría falta punto o punto y coma."
+    }
+   ]
   },
   {
    "id": "e11",
@@ -242,7 +384,29 @@
     "In spite of the fact that it was late, they kept talking.",
     "Though it was late, they kept talking."
    ],
-   "explicacion": "Ante una oración se necesita although o in spite of the fact that."
+   "explicacion": "Es el error de la ficha de usar despite o in spite of con una oración. La pista es it was late, que tiene sujeto y verbo. Se corrige cambiando el conector por uno que admita oración (although, even though, though) o añadiendo the fact that (in spite of the fact that). Todas esas opciones se aceptan.",
+   "explicacion_breve": "Ante una oración se necesita although o in spite of the fact that.",
+   "traduccion": "Aunque era tarde, siguieron hablando.",
+   "errores_previstos": [
+    {
+     "respuesta": "In spite of it was late, they kept talking.",
+     "explicacion": "Es dejar la frase sin corregir: in spite of no puede ir con una oración."
+    },
+    {
+     "respuesta": "Despite it was late, they kept talking.",
+     "explicacion": "Cambiar in spite of por despite no arregla nada: tiene la misma gramática."
+    },
+    {
+     "respuesta": "Although it was late, but they kept talking.",
+     "explicacion": "Se arregla el conector, pero se añade but, que no se combina con although."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "keep talking",
+     "significado": "seguir hablando"
+    }
+   ]
   },
   {
    "id": "e12",
@@ -254,7 +418,29 @@
     "Despite her tiredness, she went to the party.",
     "Despite the fact that she was tired, she went to the party."
    ],
-   "explicacion": "Despite + -ing, + nombre o + the fact that."
+   "explicacion": "La tabla da tres caminos tras despite: -ing (Despite being tired), un nombre (Despite her tiredness) o the fact that + oración (Despite the fact that she was tired). La oración she was tired debe transformarse en una de esas formas; las tres son correctas. Lo que no se puede es copiar la oración tras despite.",
+   "explicacion_breve": "Despite + -ing, + nombre o + the fact that.",
+   "traduccion": "A pesar de estar cansada, fue a la fiesta.",
+   "errores_previstos": [
+    {
+     "respuesta": "Despite she was tired, she went to the party.",
+     "explicacion": "Despite no admite una oración con verbo conjugado."
+    },
+    {
+     "respuesta": "Despite of being tired, she went to the party.",
+     "explicacion": "Despite nunca lleva of."
+    },
+    {
+     "respuesta": "Despite be tired, she went to the party.",
+     "explicacion": "Tras despite el verbo va en -ing: being tired."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "tiredness",
+     "significado": "cansancio"
+    }
+   ]
   },
   {
    "id": "e13",
@@ -267,7 +453,25 @@
     "Although the car's old, it runs perfectly.",
     "Although it's old, the car runs perfectly."
    ],
-   "explicacion": "Although introduce la oración concesiva y desaparece el punto."
+   "explicacion": "Although introduce la oración concesiva, el obstáculo (the car is old), y la otra oración se convierte en la principal; el punto desaparece y se sustituye por una coma. El sustantivo the car puede ir en la primera o en la segunda oración, con el pronombre it en la otra, y se aceptan las formas contraídas. Lo que no cambia es que although va con el obstáculo.",
+   "explicacion_breve": "Although introduce la oración concesiva y desaparece el punto.",
+   "traduccion": "Aunque el coche es viejo, funciona perfectamente.",
+   "errores_previstos": [
+    {
+     "respuesta": "Although the car is old, but it runs perfectly.",
+     "explicacion": "Although y but no se combinan."
+    },
+    {
+     "respuesta": "Although the car runs perfectly, it is old.",
+     "explicacion": "Although debe ir con el obstáculo (ser viejo), no con lo que ocurre pese a él; así cambia el sentido."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "run",
+     "significado": "funcionar (una máquina, un coche)"
+    }
+   ]
   },
   {
    "id": "e14",
@@ -283,7 +487,19 @@
    "respuestas": [
     "in spite of the rain"
    ],
-   "explicacion": "In spite of + nombre."
+   "explicacion": "Es la expresión in spite of + nombre de la tabla. El orden fijo es in + spite + of, y detrás el nombre con su artículo, the rain. No es una frase completa, sino el complemento que podría abrir una oración (In spite of the rain, we went out).",
+   "explicacion_breve": "In spite of + nombre.",
+   "traduccion": "a pesar de la lluvia",
+   "errores_previstos": [
+    {
+     "respuesta": "in the spite of rain",
+     "explicacion": "La expresión fija no lleva artículo: in spite of; the va con rain."
+    },
+    {
+     "respuesta": "spite in of the rain",
+     "explicacion": "El orden fijo es in spite of."
+    }
+   ]
   },
   {
    "id": "e15",
@@ -299,10 +515,28 @@
    "respuestas": [
     "even though I knew it"
    ],
-   "explicacion": "Even though + sujeto + verbo."
+   "explicacion": "Es la fila although / though / even though + sujeto + verbo. Even though es una unidad (even delante de though) y va seguida de la oración: sujeto (I) + verbo (knew) + objeto (it). El conjunto es una subordinada concesiva, «aun sabiéndolo».",
+   "explicacion_breve": "Even though + sujeto + verbo.",
+   "traduccion": "aunque lo sabía",
+   "errores_previstos": [
+    {
+     "respuesta": "even though it knew I",
+     "explicacion": "El sujeto es I y va delante del verbo; it es el objeto y va al final: I knew it."
+    },
+    {
+     "respuesta": "even though knew I it",
+     "explicacion": "Tras el conector va el orden normal de oración: sujeto + verbo, I knew it."
+    }
+   ]
   }
  ],
  "fuente": {
   "nombre": "propia"
+ },
+ "descripcion_larga_es": "Los conectores de contraste y concesión expresan que algo ocurre pese a un obstáculo o que dos hechos se oponen. Se distinguen por lo que les sigue: although y even though van con una oración; despite e in spite of, con un nombre o -ing; however y nevertheless abren frase nueva; whereas y while comparan dos hechos. Al hispanohablante le cuesta porque «aunque» y «a pesar de» admiten en español estructuras que en inglés no valen.",
+ "contexto": {
+  "que_es": "Es el conjunto de conectores que expresan concesión (algo ocurre a pesar de otra cosa) y contraste (dos hechos opuestos). La clave gramatical es qué va detrás: oración con sujeto y verbo (although, even though, whereas, despite the fact that), nombre o -ing (despite, in spite of) o una frase nueva tras punto o punto y coma (however, nevertheless, nonetheless).",
+  "por_que_importa": "La concesión es esencial para argumentar con matices: reconocer una objeción y mantener la postura. En un examen de nivel B2 se evalúa tanto la variedad de conectores como su corrección, y errores como despite of, although… but o however unido con coma sola se penalizan siempre. También importan los matices: even if (hipótesis) no es even though (hecho real).",
+  "cuando_se_usa": "En redacciones argumentativas, informes, correos de reclamación y exposiciones orales. La señal es la relación lógica (un obstáculo que no impide algo, o dos hechos opuestos) y la estructura de lo que sigue. El hispanohablante calca «aunque…, pero», «a pesar de que» como despite y une frases con however y una coma."
  }
 }

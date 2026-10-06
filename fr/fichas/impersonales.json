@@ -138,8 +138,34 @@
     "Il s'agit",
     "il s'agit"
    ],
-   "explicacion": "Il s'agit de = se trata de.",
-   "origen": "tatoeba:4626924"
+   "explicacion": "Se aplica la fila de la tabla il s'agit de, que significa «se trata de». La pista es la preposición de, apostrofada ante une (d'une blague), que es la que rige s'agir. La lista de claves de la ficha recuerda que il s'agit de solo admite il como sujeto. Ninguna de las otras expresiones de la lista encaja con de + nombre en este sentido.",
+   "origen": "tatoeba:4626924",
+   "explicacion_breve": "Il s'agit de = se trata de.",
+   "traduccion": "Se trata de una broma, ¡no te enfades!",
+   "errores_previstos": [
+    {
+     "respuesta": "Ça s'agit",
+     "explicacion": "S'agir de es impersonal y solo admite il como sujeto, nunca ça ni ce."
+    },
+    {
+     "respuesta": "Il agit",
+     "explicacion": "Sin el pronombre se, agir significa «actuar»; para «se trata de» hace falta il s'agit."
+    },
+    {
+     "respuesta": "Il y a",
+     "explicacion": "Il y a d'une blague no tiene sentido: il y a va con artículo (il y a une blague), no con de. «Se trata de» es il s'agit de."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "une blague",
+     "significado": "una broma, un chiste"
+    },
+    {
+     "palabra": "se fâcher",
+     "significado": "enfadarse"
+    }
+   ]
   },
   {
    "id": "e02",
@@ -150,8 +176,24 @@
     "Il faut",
     "il faut"
    ],
-   "explicacion": "Il faut + infinitivo = hay que.",
-   "origen": "tatoeba:1098367"
+   "explicacion": "Se aplica la fila il faut + infinitivo, que equivale a «hay que» y expresa una obligación general. La pista es el infinitivo aller que sigue al hueco y la ausencia de un sujeto concreto. Il faut es invariable y siempre lleva il, aunque en la lengua hablada se oiga a veces faut sin pronombre.",
+   "origen": "tatoeba:1098367",
+   "explicacion_breve": "Il faut + infinitivo = hay que.",
+   "traduccion": "Hay que ir a correos antes de mediodía.",
+   "errores_previstos": [
+    {
+     "respuesta": "Faut",
+     "explicacion": "La omisión de il solo se da en el habla coloquial; por escrito es obligatorio: Il faut."
+    },
+    {
+     "respuesta": "Il y a",
+     "explicacion": "Es el calco de «hay que»: il y a significa «hay» (existencia) y no va con infinitivo. La obligación se expresa con il faut."
+    },
+    {
+     "respuesta": "Il est",
+     "explicacion": "Il est no expresa obligación ni puede ir seguido directamente de un infinitivo; hace falta il faut."
+    }
+   ]
   },
   {
    "id": "e03",
@@ -161,7 +203,23 @@
    "respuestas": [
     "il est"
    ],
-   "explicacion": "La hora se dice con il est."
+   "explicacion": "Se aplica la fila il est + hora: la hora se dice siempre con il est, en singular, aunque en español digamos «son las ocho». La pista es huit heures y la pregunta previa Tu as l'heure ? El hueco va en minúscula porque sigue a una coma dentro de la misma frase.",
+   "explicacion_breve": "La hora se dice con il est.",
+   "traduccion": "¿Tienes hora? ¡Oh, no, ya son las ocho!",
+   "errores_previstos": [
+    {
+     "respuesta": "il sont",
+     "explicacion": "Calco de «son las ocho». El verbo impersonal va siempre en singular: il est huit heures."
+    },
+    {
+     "respuesta": "c'est",
+     "explicacion": "La hora se da con il est, no con c'est."
+    },
+    {
+     "respuesta": "il y a",
+     "explicacion": "Il y a huit heures significaría «hace ocho horas», no «son las ocho»."
+    }
+   ]
   },
   {
    "id": "e04",
@@ -174,7 +232,29 @@
     "Il y a",
     "il y a"
    ],
-   "explicacion": "El viento se expresa con il fait du vent o il y a du vent."
+   "explicacion": "Se aplica la fila de il fait para el tiempo atmosférico: il fait du vent equivale a «hace viento». La ficha acepta también il y a du vent, igualmente correcto, porque el partitivo du presenta el viento como algo que existe en ese momento. Las dos respuestas cumplen la regla de llevar il como sujeto vacío y el verbo en singular.",
+   "explicacion_breve": "El viento se expresa con il fait du vent o il y a du vent.",
+   "traduccion": "¡Oh! Hace viento, ¡mi boina ha salido volando!",
+   "errores_previstos": [
+    {
+     "respuesta": "Il est",
+     "explicacion": "Il est no se usa para fenómenos atmosféricos con nombre; se dice il fait du vent o il y a du vent."
+    },
+    {
+     "respuesta": "Fait",
+     "explicacion": "Falta el sujeto il, obligatorio en francés: Il fait du vent."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "un béret",
+     "significado": "una boina"
+    },
+    {
+     "palabra": "s'envoler",
+     "significado": "salir volando, echar a volar"
+    }
+   ]
   },
   {
    "id": "e05",
@@ -184,8 +264,24 @@
    "respuestas": [
     "manges"
    ],
-   "explicacion": "Il faut que + subjuntivo; con -er coincide con el presente.",
-   "origen": "tatoeba:4594499"
+   "explicacion": "Se aplica la fila il faut que + subjuntivo, que se usa cuando la obligación tiene un sujeto concreto (tu). La pista es que, que introduce la subordinada, y el sujeto tu. En los verbos en -er, el subjuntivo de tu coincide con el presente: que tu manges. Por eso la respuesta es manges, con -s final.",
+   "origen": "tatoeba:4594499",
+   "explicacion_breve": "Il faut que + subjuntivo; con -er coincide con el presente.",
+   "traduccion": "Tienes que comer.",
+   "errores_previstos": [
+    {
+     "respuesta": "manger",
+     "explicacion": "El infinitivo va tras il faut sin que; con que y un sujeto (tu) hace falta el verbo conjugado en subjuntivo: manges."
+    },
+    {
+     "respuesta": "mange",
+     "explicacion": "Con tu el subjuntivo termina en -es: que tu manges."
+    },
+    {
+     "respuesta": "mangeras",
+     "explicacion": "El futuro no se usa tras il faut que; hace falta subjuntivo."
+    }
+   ]
   },
   {
    "id": "e06",
@@ -195,8 +291,24 @@
    "respuestas": [
     "voie"
    ],
-   "explicacion": "Subjuntivo de voir: que je voie.",
-   "origen": "tatoeba:9799233"
+   "explicacion": "Se aplica la fila il faut que + subjuntivo. El subjuntivo de voir se forma sobre ils voient: que je voie, que se pronuncia igual que el presente vois pero se escribe con -e final. La pista es que seguido del sujeto je; el pronombre te va delante del verbo conjugado, como siempre.",
+   "origen": "tatoeba:9799233",
+   "explicacion_breve": "Subjuntivo de voir: que je voie.",
+   "traduccion": "Tengo que verte.",
+   "errores_previstos": [
+    {
+     "respuesta": "vois",
+     "explicacion": "Es el presente de indicativo; tras il faut que hace falta el subjuntivo: que je voie."
+    },
+    {
+     "respuesta": "voye",
+     "explicacion": "Ortografía errónea: el subjuntivo de voir se escribe voie, con i."
+    },
+    {
+     "respuesta": "voir",
+     "explicacion": "El infinitivo no puede ir tras que con un sujeto; hace falta el subjuntivo voie."
+    }
+   ]
   },
   {
    "id": "e07",
@@ -211,7 +323,14 @@
    "respuestas": [
     "de"
    ],
-   "explicacion": "Il est + adjetivo + de + infinitivo."
+   "explicacion": "Se aplica la estructura de la ficha il est + adjetivo + de + infinitivo, que se usa cuando no hay un sujeto concreto. La pista es el infinitivo dormir sin sujeto: se habla de una verdad general. Por eso va de, y no que (que exigiría un sujeto y subjuntivo) ni à (que solo va cuando c'est remite a algo ya mencionado).",
+   "explicacion_breve": "Il est + adjetivo + de + infinitivo.",
+   "traduccion": "Es importante dormir ocho horas.",
+   "por_opcion": {
+    "de": "Correcta: il est + adjetivo + de + infinitivo, sin sujeto concreto.",
+    "à": "Incorrecta: adjetivo + à + infinitivo solo se usa cuando c'est remite a algo ya mencionado (c'est difficile à comprendre).",
+    "que": "Incorrecta: que necesita detrás un sujeto y un verbo en subjuntivo (il est important que tu dormes), no un infinitivo."
+   }
   },
   {
    "id": "e08",
@@ -226,7 +345,20 @@
    "respuestas": [
     "manque"
    ],
-   "explicacion": "El verbo impersonal va siempre en singular."
+   "explicacion": "Se aplica la regla de la ficha según la cual los verbos impersonales concuerdan siempre en singular: el sujeto gramatical es il, no deux pages. Por eso se dice il manque, aunque en español digamos «faltan». Es uno de los errores típicos que recoge la ficha.",
+   "explicacion_breve": "El verbo impersonal va siempre en singular.",
+   "traduccion": "Faltan dos páginas en este expediente.",
+   "por_opcion": {
+    "manque": "Correcta: tercera persona del singular, concordando con el il impersonal.",
+    "manquent": "Incorrecta: es el calco de «faltan»; el verbo impersonal no concuerda con deux pages.",
+    "manques": "Incorrecta: es la forma de tu, que no concuerda con il."
+   },
+   "glosario": [
+    {
+     "palabra": "un dossier",
+     "significado": "un expediente, una carpeta de documentos"
+    }
+   ]
   },
   {
    "id": "e09",
@@ -242,8 +374,22 @@
    "respuestas": [
     "Il s'agit"
    ],
-   "explicacion": "Solo il puede ser sujeto de s'agir.",
-   "origen": "tatoeba:1800052"
+   "explicacion": "Se aplica la regla de la ficha: il s'agit de nunca lleva otro sujeto que il. La pista es de (apostrofado en d'un piège), que rige s'agir. Ni ça ni ce pueden ser sujeto de este verbo, y sin se el verbo agir significa otra cosa, «actuar».",
+   "origen": "tatoeba:1800052",
+   "explicacion_breve": "Solo il puede ser sujeto de s'agir.",
+   "traduccion": "¡Se trata de una trampa!",
+   "por_opcion": {
+    "Il s'agit": "Correcta: única forma posible de s'agir de, con il impersonal.",
+    "Ça s'agit": "Incorrecta: s'agir no admite ça como sujeto; es un calco de «eso se trata».",
+    "Il agit": "Incorrecta: sin se, agir significa «actuar»; il agit d'un piège no tiene sentido.",
+    "Ce s'agit": "Incorrecta: ce no puede ser sujeto de s'agir; además ce ante s se escribiría con ç."
+   },
+   "glosario": [
+    {
+     "palabra": "un piège",
+     "significado": "una trampa"
+    }
+   ]
   },
   {
    "id": "e10",
@@ -259,7 +405,21 @@
    "respuestas": [
     "vaut"
    ],
-   "explicacion": "Il vaut mieux + infinitivo = más vale."
+   "explicacion": "Se aplica la fila il vaut mieux + infinitivo, que significa «más vale» o «es mejor». La pista es mieux, que forma con valoir esta locución fija. Il faut mieux es un cruce frecuente en la lengua hablada entre il faut y il vaut mieux, pero la norma lo rechaza.",
+   "explicacion_breve": "Il vaut mieux + infinitivo = más vale.",
+   "traduccion": "Más vale callarse.",
+   "por_opcion": {
+    "vaut": "Correcta: il vaut mieux, «más vale».",
+    "faut": "Incorrecta según la norma: il faut mieux se oye en la lengua hablada, pero es un cruce con il faut; la locución correcta es il vaut mieux.",
+    "est": "Incorrecta: il est mieux se taire no es gramatical; con être haría falta otra construcción (il est préférable de se taire).",
+    "fait": "Incorrecta: il fait se usa para el tiempo atmosférico, no forma ninguna locución con mieux."
+   },
+   "glosario": [
+    {
+     "palabra": "se taire",
+     "significado": "callarse"
+    }
+   ]
   },
   {
    "id": "e11",
@@ -274,7 +434,14 @@
    "respuestas": [
     "à"
    ],
-   "explicacion": "Cuando c'est remite a algo ya mencionado, adjetivo + à + infinitivo."
+   "explicacion": "Se aplica la distinción de la ficha: cuando c'est remite a algo ya mencionado (aquí ce problème), se usa c'est + adjetivo + à + infinitivo. La pista es la pregunta inicial Ce problème ?, que hace que c' se refiera al problema. Si se hablara en general, sin referente previo, se diría il est difficile de résoudre ce problème.",
+   "explicacion_breve": "Cuando c'est remite a algo ya mencionado, adjetivo + à + infinitivo.",
+   "traduccion": "¿Este problema? Es difícil de resolver.",
+   "por_opcion": {
+    "à": "Correcta: c'est + adjetivo + à + infinitivo cuando c' remite a algo ya mencionado.",
+    "de": "Incorrecta aquí: de se usa en la estructura impersonal sin referente previo (c'est difficile de résoudre ce problème), con el complemento detrás.",
+    "pour": "Incorrecta: es el calco de «difícil para resolver»; tras un adjetivo como difficile se usa à."
+   }
   },
   {
    "id": "e12",
@@ -284,8 +451,20 @@
    "respuestas": [
     "Il faut tout recommencer."
    ],
-   "explicacion": "En lengua escrita il es obligatorio (la omisión solo se da en el habla coloquial).",
-   "origen": "tatoeba:10784689"
+   "explicacion": "El error es la omisión de il. La ficha recuerda que el francés necesita siempre un sujeto expreso, aunque sea un il vacío. En la lengua hablada relajada se oye faut, pero por escrito il es obligatorio: il faut tout recommencer. Tout se coloca entre il faut y el infinitivo.",
+   "origen": "tatoeba:10784689",
+   "explicacion_breve": "En lengua escrita il es obligatorio (la omisión solo se da en el habla coloquial).",
+   "traduccion": "Hay que volver a empezarlo todo.",
+   "errores_previstos": [
+    {
+     "respuesta": "Faut tout recommencer.",
+     "explicacion": "Es dejar la frase sin corregir: por escrito il faut necesita su sujeto il."
+    },
+    {
+     "respuesta": "Il faut recommencer tout.",
+     "explicacion": "Se ha añadido il, pero tout como complemento suele ir delante del infinitivo: il faut tout recommencer."
+    }
+   ]
   },
   {
    "id": "e13",
@@ -296,7 +475,19 @@
     "Dans ce roman, il s'agit d'une famille pendant la guerre.",
     "Ce roman parle d'une famille pendant la guerre."
    ],
-   "explicacion": "S'agir de es impersonal: solo admite il como sujeto."
+   "explicacion": "El error es dar a s'agir un sujeto real (ce roman). La ficha indica que il s'agit de solo admite il, así que hay dos maneras de corregir: llevar el sujeto a un complemento (dans ce roman, il s'agit de…) o cambiar de verbo y usar parler de (ce roman parle de…). Las dos respuestas son válidas porque eliminan el sujeto imposible.",
+   "explicacion_breve": "S'agir de es impersonal: solo admite il como sujeto.",
+   "traduccion": "En esta novela se trata de una familia durante la guerra. (Esta novela habla de una familia durante la guerra.)",
+   "errores_previstos": [
+    {
+     "respuesta": "Ce roman s'agit d'une famille pendant la guerre.",
+     "explicacion": "Es dejar la frase sin corregir: s'agir no admite ce roman como sujeto."
+    },
+    {
+     "respuesta": "Ce roman il s'agit d'une famille pendant la guerre.",
+     "explicacion": "Falta la preposición dans: el libro no puede ser sujeto, sino lugar (dans ce roman, il s'agit de…)."
+    }
+   ]
   },
   {
    "id": "e14",
@@ -306,8 +497,20 @@
    "respuestas": [
     "Il faut le laver."
    ],
-   "explicacion": "Il faut + infinitivo expresa la obligación general; el pronombre va delante del infinitivo.",
-   "origen": "tatoeba:7058556"
+   "explicacion": "Se aplica la fila il faut + infinitivo, que expresa una obligación general, equivalente a on doit. Al transformar, el pronombre le no sube a il faut, sino que se queda delante del infinitivo del que depende: il faut le laver. Es la misma regla que en on doit le laver.",
+   "origen": "tatoeba:7058556",
+   "explicacion_breve": "Il faut + infinitivo expresa la obligación general; el pronombre va delante del infinitivo.",
+   "traduccion": "Hay que lavarlo.",
+   "errores_previstos": [
+    {
+     "respuesta": "Il le faut laver.",
+     "explicacion": "El pronombre complemento va delante del infinitivo del que depende: il faut le laver (la otra colocación es arcaica)."
+    },
+    {
+     "respuesta": "Il faut laver le.",
+     "explicacion": "Ante un infinitivo el pronombre va delante, no detrás: le laver."
+    }
+   ]
   },
   {
    "id": "e15",
@@ -317,8 +520,24 @@
    "respuestas": [
     "Il faut que je me dépêche."
    ],
-   "explicacion": "Il faut que + sujeto + subjuntivo; dépêcher → que je me dépêche.",
-   "origen": "tatoeba:793621"
+   "explicacion": "Se aplica la fila il faut que + subjuntivo, necesaria cuando la obligación tiene un sujeto concreto (je). El verbo se dépêcher es en -er, así que el subjuntivo de je coincide con el presente: que je me dépêche. El pronombre reflexivo me se mantiene delante del verbo.",
+   "origen": "tatoeba:793621",
+   "explicacion_breve": "Il faut que + sujeto + subjuntivo; dépêcher → que je me dépêche.",
+   "traduccion": "Tengo que darme prisa.",
+   "errores_previstos": [
+    {
+     "respuesta": "Il faut que je dépêche.",
+     "explicacion": "Se ha perdido el pronombre reflexivo: se dépêcher es pronominal, que je me dépêche."
+    },
+    {
+     "respuesta": "Il faut que je me dépêcher.",
+     "explicacion": "Tras que + sujeto el verbo va conjugado en subjuntivo, no en infinitivo: me dépêche."
+    },
+    {
+     "respuesta": "Il faut je me dépêche.",
+     "explicacion": "Falta que: il faut + sujeto + verbo conjugado necesita la conjunción que."
+    }
+   ]
   },
   {
    "id": "e16",
@@ -335,8 +554,20 @@
     "Il faut s'amuser un peu",
     "Il faut un peu s'amuser"
    ],
-   "explicacion": "Il faut + infinitivo (pronominal) + complemento.",
-   "origen": "tatoeba:4551064"
+   "explicacion": "Se aplica la fila il faut + infinitivo; aquí el infinitivo es pronominal, s'amuser, y el pronombre se se queda pegado a él. El complemento un peu puede ir detrás del infinitivo o, en registro algo más cuidado, entre il faut y el infinitivo; las dos ordenaciones son correctas.",
+   "origen": "tatoeba:4551064",
+   "explicacion_breve": "Il faut + infinitivo (pronominal) + complemento.",
+   "traduccion": "Hay que divertirse un poco.",
+   "errores_previstos": [
+    {
+     "respuesta": "Il s'amuser faut un peu",
+     "explicacion": "Il faut es una unidad: el infinitivo va detrás de faut, no entre il y faut."
+    },
+    {
+     "respuesta": "Il faut peu un s'amuser",
+     "explicacion": "La locución es un peu, en este orden."
+    }
+   ]
   }
  ],
  "fuente": {
@@ -347,5 +578,11 @@
   "otras": [
    "Frases de Tatoeba (CC BY 2.0 FR)"
   ]
+ },
+ "descripcion_larga_es": "Los verbos y expresiones impersonales son los que no tienen un sujeto real: el tiempo atmosférico, la hora, la obligación (il faut), la existencia (il y a), lo que se trata (il s'agit de). El francés exige siempre un sujeto expreso, así que pone un il vacío donde el español no pone nada, y el verbo queda siempre en singular. Por eso el hispanohablante tiende a omitir il o a hacer concordar el verbo en plural.",
+ "contexto": {
+  "que_es": "Son verbos o locuciones que solo se conjugan en tercera persona del singular con un sujeto il que no designa a nadie: il pleut, il fait chaud, il est huit heures, il y a, il faut, il s'agit de, il vaut mieux, il reste, il manque, il paraît que. Incluyen también la estructura il est + adjetivo + de + infinitivo o + que + subjuntivo.",
+  "por_que_importa": "Son de las expresiones más frecuentes del francés: hablar del tiempo, dar la hora, decir lo que hay que hacer o resumir de qué trata un texto (il s'agit de) es constante en la conversación y en cualquier comentario de texto de examen. Omitir il (Pleut beaucoup) o decir ce livre s'agit de delata enseguida a un hispanohablante. Además, il ne faut pas significa «no se debe», no «no hace falta», y confundirlo cambia el mensaje.",
+  "cuando_se_usa": "Siempre que en español usamos un verbo sin sujeto (llueve, son las ocho, hay que, se trata de, faltan dos sillas) el francés necesita il. Las pistas son el tiempo atmosférico, la hora, una obligación general o un resumen de contenido. El contraste clave con el español es la concordancia: donde decimos «faltan dos páginas» o «quedan tres plazas», el francés mantiene el singular, il manque, il reste."
  }
 }

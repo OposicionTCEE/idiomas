@@ -6,47 +6,453 @@
  "nivel": "B1",
  "resumen": "Se forma con had + participio y sirve para dejar claro que algo ocurrió antes de otro momento o acción del pasado. Equivale al pluscuamperfecto español «había hecho».",
  "explicacion": [
-  {"tipo": "tabla", "cabecera": ["Forma", "Ejemplo"], "filas": [
-   ["Afirmativa: had + participio", "The film had started when we arrived."],
-   ["Negativa: hadn't + participio", "I hadn't seen her before that day."],
-   ["Pregunta: had + sujeto + participio", "Had you met him before?"]
-  ]},
-  {"tipo": "texto", "texto": "Compara: When I got to the station, the train left (el tren salió al llegar yo) frente a When I got to the station, the train had left (el tren ya se había ido). El past perfect marca el orden de los hechos."},
-  {"tipo": "lista", "items": [
-   "Va a menudo con when, by the time, before, after, already, just, never… before: By the time the police arrived, the thieves had escaped.",
-   "Con after o before el orden ya está claro y muchas veces basta el past simple: After she finished/had finished dinner, she went out.",
-   "Para causas o explicaciones de una situación pasada: He was nervous because he had never flown before.",
-   "La contracción 'd puede ser had o would: I'd finished (had) / I'd go (would)."
-  ]},
-  {"tipo": "texto", "texto": "No abuses: si cuentas los hechos en el orden en que pasaron, usa past simple. El past perfect solo hace falta cuando retrocedes en el tiempo."}
+  {
+   "tipo": "tabla",
+   "cabecera": [
+    "Forma",
+    "Ejemplo"
+   ],
+   "filas": [
+    [
+     "Afirmativa: had + participio",
+     "The film had started when we arrived."
+    ],
+    [
+     "Negativa: hadn't + participio",
+     "I hadn't seen her before that day."
+    ],
+    [
+     "Pregunta: had + sujeto + participio",
+     "Had you met him before?"
+    ]
+   ]
+  },
+  {
+   "tipo": "texto",
+   "texto": "Compara: When I got to the station, the train left (el tren salió al llegar yo) frente a When I got to the station, the train had left (el tren ya se había ido). El past perfect marca el orden de los hechos."
+  },
+  {
+   "tipo": "lista",
+   "items": [
+    "Va a menudo con when, by the time, before, after, already, just, never… before: By the time the police arrived, the thieves had escaped.",
+    "Con after o before el orden ya está claro y muchas veces basta el past simple: After she finished/had finished dinner, she went out.",
+    "Para causas o explicaciones de una situación pasada: He was nervous because he had never flown before.",
+    "La contracción 'd puede ser had o would: I'd finished (had) / I'd go (would)."
+   ]
+  },
+  {
+   "tipo": "texto",
+   "texto": "No abuses: si cuentas los hechos en el orden en que pasaron, usa past simple. El past perfect solo hace falta cuando retrocedes en el tiempo."
+  }
  ],
  "ejemplos": [
-  {"frase": "When I opened the fridge, someone had eaten my cake.", "traduccion": "Cuando abrí la nevera, alguien se había comido mi tarta."},
-  {"frase": "She had never seen the sea until she was twenty.", "traduccion": "No había visto nunca el mar hasta que cumplió veinte años."},
-  {"frase": "By the time we got there, the shop had closed.", "traduccion": "Para cuando llegamos, la tienda ya había cerrado."},
-  {"frase": "I recognised him because I had met him at a conference.", "traduccion": "Lo reconocí porque lo había conocido en un congreso."},
-  {"frase": "Had you finished the report before the meeting?", "traduccion": "¿Habías terminado el informe antes de la reunión?"}
+  {
+   "frase": "When I opened the fridge, someone had eaten my cake.",
+   "traduccion": "Cuando abrí la nevera, alguien se había comido mi tarta."
+  },
+  {
+   "frase": "She had never seen the sea until she was twenty.",
+   "traduccion": "No había visto nunca el mar hasta que cumplió veinte años."
+  },
+  {
+   "frase": "By the time we got there, the shop had closed.",
+   "traduccion": "Para cuando llegamos, la tienda ya había cerrado."
+  },
+  {
+   "frase": "I recognised him because I had met him at a conference.",
+   "traduccion": "Lo reconocí porque lo había conocido en un congreso."
+  },
+  {
+   "frase": "Had you finished the report before the meeting?",
+   "traduccion": "¿Habías terminado el informe antes de la reunión?"
+  }
  ],
  "errores_hispanohablantes": [
-  {"mal": "When I arrived, the meeting has already started.", "bien": "When I arrived, the meeting had already started.", "nota": "Una acción anterior a otra del pasado va en past perfect, no en present perfect."},
-  {"mal": "I had gone to the cinema yesterday.", "bien": "I went to the cinema yesterday.", "nota": "Si no hay otro momento pasado de referencia, basta el past simple."},
-  {"mal": "She had went home.", "bien": "She had gone home.", "nota": "Detrás de had va el participio (gone), no el pasado (went)."}
+  {
+   "mal": "When I arrived, the meeting has already started.",
+   "bien": "When I arrived, the meeting had already started.",
+   "nota": "Una acción anterior a otra del pasado va en past perfect, no en present perfect."
+  },
+  {
+   "mal": "I had gone to the cinema yesterday.",
+   "bien": "I went to the cinema yesterday.",
+   "nota": "Si no hay otro momento pasado de referencia, basta el past simple."
+  },
+  {
+   "mal": "She had went home.",
+   "bien": "She had gone home.",
+   "nota": "Detrás de had va el participio (gone), no el pasado (went)."
+  }
  ],
  "ejercicios": [
-  {"id": "e01", "tipo": "hueco", "enunciado": "Completa con el past perfect.", "frase": "When we got to the cinema, the film ___ (already / start).", "respuestas": ["had already started", "'d already started"], "explicacion": "La película empezó antes de llegar: had + already + participio."},
-  {"id": "e02", "tipo": "hueco", "enunciado": "Completa con el past perfect.", "frase": "He was hungry because he ___ (not eat) all day.", "respuestas": ["hadn't eaten", "had not eaten"], "explicacion": "Causa anterior a la situación pasada: hadn't + participio."},
-  {"id": "e03", "tipo": "hueco", "enunciado": "Completa con el past perfect.", "frase": "I didn't know the city because I ___ (never / be) there before.", "respuestas": ["had never been", "'d never been"], "explicacion": "Experiencia anterior a un momento pasado: had never been."},
-  {"id": "e04", "tipo": "hueco", "enunciado": "Completa con el past perfect.", "frase": "By the time the firefighters arrived, the fire ___ (destroy) the house.", "respuestas": ["had destroyed"], "explicacion": "By the time marca que la acción ya estaba terminada: had + participio."},
-  {"id": "e05", "tipo": "eleccion", "enunciado": "Elige la opción correcta.", "frase": "When I arrived at the party, Anna ___, so I didn't see her.", "opciones": ["left", "had left", "has left"], "respuestas": ["had left"], "explicacion": "Anna se fue antes de que yo llegara."},
-  {"id": "e06", "tipo": "eleccion", "enunciado": "Elige la opción correcta.", "frase": "She ___ the door, turned off the lights and went to bed.", "opciones": ["locked", "had locked", "has locked"], "respuestas": ["locked"], "explicacion": "Acciones contadas en orden: past simple."},
-  {"id": "e07", "tipo": "eleccion", "enunciado": "Elige la opción correcta.", "frase": "___ you ever travelled abroad before you moved to Berlin?", "opciones": ["Have", "Did", "Had"], "respuestas": ["Had"], "explicacion": "Experiencia anterior a otro hecho pasado (before you moved): Had."},
-  {"id": "e08", "tipo": "eleccion", "enunciado": "Elige la opción correcta.", "frase": "I couldn't pay because I ___ my wallet at home.", "opciones": ["had left", "have left", "was leaving"], "respuestas": ["had left"], "explicacion": "Dejar la cartera ocurrió antes de no poder pagar."},
-  {"id": "e09", "tipo": "corregir", "enunciado": "Corrige el error.", "frase": "The train has already left when we reached the platform.", "respuestas": ["The train had already left when we reached the platform."], "explicacion": "Acción anterior a otra pasada: had, no has."},
-  {"id": "e10", "tipo": "corregir", "enunciado": "Corrige el error.", "frase": "They had took the wrong road.", "respuestas": ["They had taken the wrong road."], "explicacion": "Had va con participio: taken."},
-  {"id": "e11", "tipo": "transformar", "enunciado": "Une las frases con «when» usando el past perfect para la acción anterior. Empieza por «When I got home».", "frase": "My flatmate cooked dinner. Then I got home.", "respuestas": ["When I got home, my flatmate had cooked dinner.", "When I got home my flatmate had cooked dinner.", "When I got home, my flatmate had already cooked dinner."], "explicacion": "La acción anterior (cocinar) va en past perfect."},
-  {"id": "e12", "tipo": "transformar", "enunciado": "Pasa la frase a pregunta.", "frase": "She had seen the film before.", "respuestas": ["Had she seen the film before?"], "explicacion": "Had se coloca delante del sujeto."},
-  {"id": "e13", "tipo": "ordenar", "enunciado": "Ordena las palabras.", "palabras": ["had", "the", "they", "already", "eaten", "cake"], "respuestas": ["they had already eaten the cake", "had they already eaten the cake"], "explicacion": "Already va entre had y el participio."},
-  {"id": "e14", "tipo": "ordenar", "enunciado": "Ordena las palabras.", "palabras": ["seen", "never", "snow", "she", "before", "had"], "respuestas": ["she had never seen snow before"], "explicacion": "Sujeto + had + never + participio + complemento."}
+  {
+   "id": "e01",
+   "tipo": "hueco",
+   "enunciado": "Completa con el past perfect.",
+   "frase": "When we got to the cinema, the film ___ (already / start).",
+   "respuestas": [
+    "had already started",
+    "'d already started"
+   ],
+   "explicacion": "Se aplica la regla central de la ficha: el past perfect indica que algo ocurrió antes de otro momento del pasado. La pista es when we got to the cinema, el momento de referencia, y already, que confirma que la película empezó antes. Already va entre had y el participio: had already started. También se acepta la contracción 'd.",
+   "explicacion_breve": "La película empezó antes de llegar: had + already + participio.",
+   "traduccion": "Cuando llegamos al cine, la película ya había empezado.",
+   "errores_previstos": [
+    {
+     "respuesta": "has already started",
+     "explicacion": "El present perfect no puede referirse a un momento pasado; hace falta had."
+    },
+    {
+     "respuesta": "already started",
+     "explicacion": "El past simple no marca la anterioridad que pide el enunciado; falta had."
+    },
+    {
+     "respuesta": "had already start",
+     "explicacion": "Tras had va el participio started, no el infinitivo."
+    }
+   ]
+  },
+  {
+   "id": "e02",
+   "tipo": "hueco",
+   "enunciado": "Completa con el past perfect.",
+   "frase": "He was hungry because he ___ (not eat) all day.",
+   "respuestas": [
+    "hadn't eaten",
+    "had not eaten"
+   ],
+   "explicacion": "Se aplica la regla de Reglas y claves: el past perfect explica la causa de una situación pasada. La pista es he was hungry, situación pasada, y because, que introduce una causa anterior. La negativa es hadn't + participio, y eat tiene participio irregular: eaten.",
+   "explicacion_breve": "Causa anterior a la situación pasada: hadn't + participio.",
+   "traduccion": "Tenía hambre porque no había comido en todo el día.",
+   "errores_previstos": [
+    {
+     "respuesta": "didn't eat",
+     "explicacion": "El past simple no marca que la falta de comida era anterior a tener hambre; hace falta hadn't eaten."
+    },
+    {
+     "respuesta": "hadn't ate",
+     "explicacion": "Ate es pasado simple; tras had va el participio eaten."
+    },
+    {
+     "respuesta": "hasn't eaten",
+     "explicacion": "El present perfect no encaja en una narración en pasado (was hungry)."
+    }
+   ]
+  },
+  {
+   "id": "e03",
+   "tipo": "hueco",
+   "enunciado": "Completa con el past perfect.",
+   "frase": "I didn't know the city because I ___ (never / be) there before.",
+   "respuestas": [
+    "had never been",
+    "'d never been"
+   ],
+   "explicacion": "Se aplica la regla de never… before con past perfect: experiencia anterior a un momento pasado. La pista es I didn't know the city, situación pasada, y la causa con never… before. Never va entre had y el participio, y el participio de be es been: had never been.",
+   "explicacion_breve": "Experiencia anterior a un momento pasado: had never been.",
+   "traduccion": "No conocía la ciudad porque nunca había estado allí antes.",
+   "errores_previstos": [
+    {
+     "respuesta": "had never gone",
+     "explicacion": "Para «haber estado» en un sitio se usa been; gone implica que alguien fue y no ha vuelto."
+    },
+    {
+     "respuesta": "have never been",
+     "explicacion": "La referencia es pasada (didn't know): had, no have."
+    },
+    {
+     "respuesta": "never was",
+     "explicacion": "El past simple no expresa la anterioridad; además never iría delante: had never been."
+    }
+   ]
+  },
+  {
+   "id": "e04",
+   "tipo": "hueco",
+   "enunciado": "Completa con el past perfect.",
+   "frase": "By the time the firefighters arrived, the fire ___ (destroy) the house.",
+   "respuestas": [
+    "had destroyed"
+   ],
+   "explicacion": "Se aplica la regla de by the time con past perfect, como en By the time the police arrived, the thieves had escaped. La pista es by the time, que indica que, al llegar los bomberos, la destrucción ya estaba terminada. Por eso had + destroyed (participio regular).",
+   "explicacion_breve": "By the time marca que la acción ya estaba terminada: had + participio.",
+   "traduccion": "Cuando llegaron los bomberos, el fuego ya había destruido la casa.",
+   "errores_previstos": [
+    {
+     "respuesta": "destroyed",
+     "explicacion": "Con by the time el past simple no deja claro que la destrucción ya había terminado; se pide past perfect."
+    },
+    {
+     "respuesta": "has destroyed",
+     "explicacion": "La referencia es pasada (arrived): had destroyed."
+    },
+    {
+     "respuesta": "had destroy",
+     "explicacion": "Tras had va el participio destroyed."
+    }
+   ]
+  },
+  {
+   "id": "e05",
+   "tipo": "eleccion",
+   "enunciado": "Elige la opción correcta.",
+   "frase": "When I arrived at the party, Anna ___, so I didn't see her.",
+   "opciones": [
+    "left",
+    "had left",
+    "has left"
+   ],
+   "respuestas": [
+    "had left"
+   ],
+   "explicacion": "Se aplica la regla de la comparación de la ficha: when + past simple frente a when + past perfect. La pista es so I didn't see her, que revela que Anna se marchó antes de que yo llegara. Por eso had left; con left parecería que se fue justo al llegar yo.",
+   "explicacion_breve": "Anna se fue antes de que yo llegara.",
+   "traduccion": "Cuando llegué a la fiesta, Anna se había ido, así que no la vi.",
+   "por_opcion": {
+    "left": "Incorrecta aquí: indicaría que se fue en el momento en que yo llegaba o justo después, lo que encaja mal con no haberla visto.",
+    "had left": "Correcta: la marcha de Anna es anterior a mi llegada.",
+    "has left": "Incorrecta: el present perfect no puede anclarse en un momento pasado (when I arrived)."
+   }
+  },
+  {
+   "id": "e06",
+   "tipo": "eleccion",
+   "enunciado": "Elige la opción correcta.",
+   "frase": "She ___ the door, turned off the lights and went to bed.",
+   "opciones": [
+    "locked",
+    "had locked",
+    "has locked"
+   ],
+   "respuestas": [
+    "locked"
+   ],
+   "explicacion": "Se aplica el consejo «No abuses» de la ficha: si los hechos se cuentan en el orden en que ocurrieron, basta el past simple. La pista es la enumeración de acciones sucesivas en past simple (turned off, went). La primera debe ir en el mismo tiempo: locked.",
+   "explicacion_breve": "Acciones contadas en orden: past simple.",
+   "traduccion": "Cerró la puerta con llave, apagó las luces y se fue a la cama.",
+   "por_opcion": {
+    "locked": "Correcta: acciones contadas en orden cronológico, todas en past simple.",
+    "had locked": "Incorrecta: el past perfect sugiere un retroceso en el tiempo que aquí no existe; rompe la enumeración.",
+    "has locked": "Incorrecta: el present perfect no se mezcla con una secuencia narrativa en pasado."
+   }
+  },
+  {
+   "id": "e07",
+   "tipo": "eleccion",
+   "enunciado": "Elige la opción correcta.",
+   "frase": "___ you ever travelled abroad before you moved to Berlin?",
+   "opciones": [
+    "Have",
+    "Did",
+    "Had"
+   ],
+   "respuestas": [
+    "Had"
+   ],
+   "explicacion": "Se aplica la fila «Pregunta» de la tabla: had + sujeto + participio. La pista es before you moved to Berlin, un momento pasado de referencia: se pregunta por experiencias anteriores a él. Por eso Had, con travelled ya en participio.",
+   "explicacion_breve": "Experiencia anterior a otro hecho pasado (before you moved): Had.",
+   "traduccion": "¿Habías viajado alguna vez al extranjero antes de mudarte a Berlín?",
+   "por_opcion": {
+    "Have": "Incorrecta: el present perfect pregunta por experiencias hasta ahora, no hasta un momento pasado como la mudanza.",
+    "Did": "Incorrecta: did va con infinitivo (Did you ever travel…?), y travelled es participio.",
+    "Had": "Correcta: pregunta en past perfect por una experiencia anterior a otro hecho pasado."
+   }
+  },
+  {
+   "id": "e08",
+   "tipo": "eleccion",
+   "enunciado": "Elige la opción correcta.",
+   "frase": "I couldn't pay because I ___ my wallet at home.",
+   "opciones": [
+    "had left",
+    "have left",
+    "was leaving"
+   ],
+   "respuestas": [
+    "had left"
+   ],
+   "explicacion": "Se aplica la regla de las causas de una situación pasada: la causa anterior va en past perfect. La pista es I couldn't pay, situación pasada, y because, que introduce lo que ocurrió antes. Dejar la cartera es anterior a no poder pagar: had left.",
+   "explicacion_breve": "Dejar la cartera ocurrió antes de no poder pagar.",
+   "traduccion": "No pude pagar porque me había dejado la cartera en casa.",
+   "por_opcion": {
+    "had left": "Correcta: causa anterior a la situación pasada.",
+    "have left": "Incorrecta: el present perfect no encaja con couldn't, en pasado.",
+    "was leaving": "Incorrecta: el past continuous indicaría que estaba en proceso de dejarla, sin sentido aquí."
+   }
+  },
+  {
+   "id": "e09",
+   "tipo": "corregir",
+   "enunciado": "Corrige el error.",
+   "frase": "The train has already left when we reached the platform.",
+   "respuestas": [
+    "The train had already left when we reached the platform."
+   ],
+   "explicacion": "Se aplica el primer error típico de la ficha: una acción anterior a otra del pasado va en past perfect, no en present perfect. La pista es when we reached the platform, en pasado. Has es present perfect y no puede anclarse en un momento pasado; hay que cambiarlo por had.",
+   "explicacion_breve": "Acción anterior a otra pasada: had, no has.",
+   "traduccion": "El tren ya se había ido cuando llegamos al andén.",
+   "errores_previstos": [
+    {
+     "respuesta": "The train has already left when we reached the platform.",
+     "explicacion": "Es copiar la frase sin corregir: con una referencia pasada hace falta had."
+    },
+    {
+     "respuesta": "The train already left when we reached the platform.",
+     "explicacion": "El past simple no marca que el tren se fue antes; se pierde la anterioridad."
+    },
+    {
+     "respuesta": "The train had already leave when we reached the platform.",
+     "explicacion": "Tras had va el participio left."
+    }
+   ]
+  },
+  {
+   "id": "e10",
+   "tipo": "corregir",
+   "enunciado": "Corrige el error.",
+   "frase": "They had took the wrong road.",
+   "respuestas": [
+    "They had taken the wrong road."
+   ],
+   "explicacion": "Se aplica el tercer error típico de la ficha: detrás de had va el participio, no el pasado. La pista es took, pasado simple de take. Take es irregular con tres formas distintas (take, took, taken), así que hay que poner taken.",
+   "explicacion_breve": "Had va con participio: taken.",
+   "traduccion": "Habían cogido la carretera equivocada.",
+   "errores_previstos": [
+    {
+     "respuesta": "They had took the wrong road.",
+     "explicacion": "Es copiar la frase sin corregir: tras had va el participio taken."
+    },
+    {
+     "respuesta": "They had take the wrong road.",
+     "explicacion": "Tras had no va el infinitivo, sino el participio taken."
+    },
+    {
+     "respuesta": "They have taken the wrong road.",
+     "explicacion": "Corrige el participio pero cambia el tiempo a present perfect sin motivo."
+    }
+   ]
+  },
+  {
+   "id": "e11",
+   "tipo": "transformar",
+   "enunciado": "Une las frases con «when» usando el past perfect para la acción anterior. Empieza por «When I got home».",
+   "frase": "My flatmate cooked dinner. Then I got home.",
+   "respuestas": [
+    "When I got home, my flatmate had cooked dinner.",
+    "When I got home my flatmate had cooked dinner.",
+    "When I got home, my flatmate had already cooked dinner."
+   ],
+   "explicacion": "Se aplica la regla central: la acción anterior va en past perfect y la posterior en past simple. La pista es then en las frases originales, que indica que cocinar fue primero y llegar después. Se empieza por When I got home (past simple) y la acción anterior pasa a had cooked. Se acepta también añadir already.",
+   "explicacion_breve": "La acción anterior (cocinar) va en past perfect.",
+   "traduccion": "Cuando llegué a casa, mi compañero de piso había hecho la cena.",
+   "errores_previstos": [
+    {
+     "respuesta": "When I got home, my flatmate cooked dinner.",
+     "explicacion": "Con past simple significaría que se puso a cocinar al llegar yo, invirtiendo el orden."
+    },
+    {
+     "respuesta": "When I had got home, my flatmate cooked dinner.",
+     "explicacion": "El past perfect va en la acción anterior (cocinar), no en la llegada."
+    },
+    {
+     "respuesta": "When I got home, my flatmate has cooked dinner.",
+     "explicacion": "El present perfect no encaja con una referencia pasada: had cooked."
+    }
+   ]
+  },
+  {
+   "id": "e12",
+   "tipo": "transformar",
+   "enunciado": "Pasa la frase a pregunta.",
+   "frase": "She had seen the film before.",
+   "respuestas": [
+    "Had she seen the film before?"
+   ],
+   "explicacion": "Se aplica la fila «Pregunta» de la tabla: had + sujeto + participio. La pista es had en la afirmativa: basta colocarlo delante del sujeto she, sin añadir did. El participio seen y el resto de la frase no cambian.",
+   "explicacion_breve": "Had se coloca delante del sujeto.",
+   "traduccion": "¿Había visto la película antes?",
+   "errores_previstos": [
+    {
+     "respuesta": "Did she have seen the film before?",
+     "explicacion": "El past perfect no usa did; had se coloca delante del sujeto."
+    },
+    {
+     "respuesta": "She had seen the film before?",
+     "explicacion": "Calco de la entonación española: la pregunta escrita exige invertir had y el sujeto."
+    },
+    {
+     "respuesta": "Had she saw the film before?",
+     "explicacion": "Saw es pasado simple; el participio es seen."
+    }
+   ]
+  },
+  {
+   "id": "e13",
+   "tipo": "ordenar",
+   "enunciado": "Ordena las palabras.",
+   "palabras": [
+    "had",
+    "the",
+    "they",
+    "already",
+    "eaten",
+    "cake"
+   ],
+   "respuestas": [
+    "they had already eaten the cake",
+    "had they already eaten the cake"
+   ],
+   "explicacion": "Se aplica la regla de colocación de already: va entre had y el participio. La pista es que las palabras incluyen had, already y eaten. El orden es sujeto + had + already + participio + objeto. También es válida la pregunta, con had delante del sujeto.",
+   "explicacion_breve": "Already va entre had y el participio.",
+   "traduccion": "Ya se habían comido la tarta. (También: ¿Ya se habían comido la tarta?)",
+   "errores_previstos": [
+    {
+     "respuesta": "they had already the cake eaten",
+     "explicacion": "El participio va pegado a los auxiliares y el objeto detrás: had already eaten the cake. Poner el objeto en medio es un calco de otras lenguas, no inglés."
+    },
+    {
+     "respuesta": "they had eaten already the cake",
+     "explicacion": "Already no puede separar el verbo de su objeto directo."
+    }
+   ]
+  },
+  {
+   "id": "e14",
+   "tipo": "ordenar",
+   "enunciado": "Ordena las palabras.",
+   "palabras": [
+    "seen",
+    "never",
+    "snow",
+    "she",
+    "before",
+    "had"
+   ],
+   "respuestas": [
+    "she had never seen snow before"
+   ],
+   "explicacion": "Se aplica la regla de never… before: never va entre had y el participio, y before al final. La pista es que las palabras incluyen had, never, seen y before. El orden es sujeto + had + never + participio + objeto + before.",
+   "explicacion_breve": "Sujeto + had + never + participio + complemento.",
+   "traduccion": "Nunca había visto la nieve antes.",
+   "errores_previstos": [
+    {
+     "respuesta": "she had seen never snow before",
+     "explicacion": "Never va entre had y el participio: had never seen, como «nunca había visto»."
+    },
+    {
+     "respuesta": "she had never seen before snow",
+     "explicacion": "Before va al final; no puede separar el verbo de su objeto."
+    }
+   ]
+  }
  ],
- "fuente": {"nombre": "propia"}
+ "fuente": {
+  "nombre": "propia"
+ },
+ "descripcion_larga_es": "El past perfect (had + participio) equivale al pluscuamperfecto español «había hecho» y sirve para retroceder en el tiempo dentro de una narración en pasado: indica que algo ocurrió antes de otro momento o hecho pasado. Es clave para contar historias con claridad y explicar causas. Al hispanohablante le cuesta no abusar de él, no confundirlo con el present perfect y usar el participio, no el pasado.",
+ "contexto": {
+  "que_es": "Es el tiempo formado por had y el participio pasado del verbo. Sitúa una acción antes de otra acción o de un momento del pasado que sirve de referencia, igual que el pluscuamperfecto español.",
+  "por_que_importa": "Marca el orden de los hechos: When I arrived, the train left (salió al llegar yo) no significa lo mismo que the train had left (ya se había ido). Usarlo mal confunde la cronología de un relato. En exámenes aparece en narraciones, en el estilo indirecto y en las condicionales del tercer tipo.",
+  "cuando_se_usa": "Cuando hay un punto de referencia en el pasado y se retrocede desde él, con señales como when, by the time, before, after, already, just o never… before. También para explicar la causa de una situación pasada (He was nervous because he had never flown). El hispanohablante tiende a usar el present perfect en su lugar o, al contrario, a usarlo sin referencia pasada."
+ }
 }

@@ -128,7 +128,15 @@
    "respuestas": [
     "not"
    ],
-   "explicacion": "Con hope, la respuesta negativa es I hope not."
+   "explicacion": "Se aplica la regla de la tabla de Reglas y claves según la cual not sustituye a una oración negativa tras hope, be afraid, suppose o guess. La pista es el verbo hope y el sentido de la respuesta: el hablante desea que la reunión no se cancele, es decir, sustituye a «the meeting won't be cancelled». Con hope la negación no se hace con don't (I don't hope so no se usa), sino añadiendo not al final: I hope not. Es la única respuesta válida.",
+   "explicacion_breve": "Con hope, la respuesta negativa es I hope not.",
+   "traduccion": "¿Se cancelará la reunión? Espero que no.",
+   "por_opcion": {
+    "not": "Correcta: I hope not equivale a «espero que no» y sustituye a toda la oración negativa.",
+    "no": "Incorrecta: no es una respuesta aislada o un determinante (no money), pero no sustituye oraciones; «I hope no» es un calco de «espero que no».",
+    "don't": "Incorrecta: don't necesita un verbo detrás y aquí no hay ninguno; además, con hope la negación no se hace con el auxiliar.",
+    "not so": "Incorrecta: «not so» significa «no tan» o se usa en réplicas como «Not so!» (¡No es así!), pero no tras hope."
+   }
   },
   {
    "id": "e02",
@@ -144,7 +152,15 @@
    "respuestas": [
     "so"
    ],
-   "explicacion": "La forma natural es I don't think so."
+   "explicacion": "Es la regla de Reglas y claves que dice que con think, believe, expect y suppose la negación más natural es I don't think so: la negación pasa al verbo de opinión y so sustituye a la oración. La pista es que el verbo think ya aparece negado (don't think), así que solo falta el sustituto de «the museum is open on Mondays», que es so. «I think not» existe, pero es formal y aquí ya hay don't, por lo que la única opción posible es so.",
+   "explicacion_breve": "La forma natural es I don't think so.",
+   "traduccion": "¿Abre el museo los lunes? Creo que no.",
+   "por_opcion": {
+    "it": "Incorrecta: it sustituye a un sustantivo, no a una oración; «I don't think it» no tiene sentido en inglés.",
+    "so": "Correcta: I don't think so (creo que no) es la respuesta negativa natural tras think.",
+    "not": "Incorrecta: daría «I don't think not», una doble negación que significaría lo contrario; la forma formal sería I think not, sin don't.",
+    "yes": "Incorrecta: «I don't think yes» es calco del español; yes no sustituye a oraciones."
+   }
   },
   {
    "id": "e03",
@@ -160,7 +176,15 @@
    "respuestas": [
     "one"
    ],
-   "explicacion": "One sustituye a un sustantivo contable singular."
+   "explicacion": "Se aplica la primera fila de la tabla de Reglas y claves: one sustituye a un sustantivo contable singular ya mencionado. La pista es umbrella, contable y singular, y el artículo a que precede al adjetivo new: un adjetivo con artículo no puede quedarse solo, necesita one detrás (a new one). Ones sería para un plural, e it se referiría al mismo paraguas perdido, no a otro nuevo.",
+   "explicacion_breve": "One sustituye a un sustantivo contable singular.",
+   "traduccion": "He perdido el paraguas, así que tendré que comprarme uno nuevo.",
+   "por_opcion": {
+    "it": "Incorrecta: it remite al mismo objeto ya mencionado (el paraguas perdido), y además no puede ir tras «a new».",
+    "one": "Correcta: a new one = «uno nuevo»; one sustituye a umbrella, contable y singular.",
+    "ones": "Incorrecta: ones sustituye a un plural (the red ones) y no puede ir con el artículo a.",
+    "some": "Incorrecta: some se usa con plurales o incontables (I need some new ones / some new paper) y no admite a delante."
+   }
   },
   {
    "id": "e04",
@@ -176,7 +200,15 @@
    "respuestas": [
     "do so"
    ],
-   "explicacion": "Do so sustituye a un predicado en registro formal."
+   "explicacion": "La regla es la de Reglas y claves según la cual do so sustituye a un predicado (verbo con sus complementos) y es más formal que do it. La pista es el registro: se trata de un texto normativo (members may vote by post), propio de estatutos o reglamentos. Do so reemplaza a «vote by post» y evita repetirlo. En un registro informal también se diría «if they wish» o «if they want to», pero entre las opciones solo do so es correcta.",
+   "explicacion_breve": "Do so sustituye a un predicado en registro formal.",
+   "traduccion": "Los miembros pueden votar por correo si así lo desean.",
+   "por_opcion": {
+    "do": "Incorrecta: do solo tras wish to queda colgado; en inglés el sustituto del predicado es do so, do it o do that, no do aislado.",
+    "do so": "Correcta: do so sustituye a «vote by post» y encaja con el registro formal del texto.",
+    "make it": "Incorrecta: make it significa «conseguirlo» o «llegar a tiempo» (I can't make it tonight) y no sustituye a otro verbo.",
+    "so": "Incorrecta: so sustituye oraciones tras verbos de opinión (I think so), no un infinitivo tras wish to."
+   }
   },
   {
    "id": "e05",
@@ -186,7 +218,23 @@
    "respuestas": [
     "have"
    ],
-   "explicacion": "Neither + auxiliar del mismo tiempo (have) + sujeto."
+   "explicacion": "Se aplica la fila «so / neither + auxiliar + sujeto» de la tabla y la regla de que el auxiliar repetido concuerda en tiempo. La pista es el verbo de la primera parte, haven't read, en present perfect: el auxiliar es have. Tras neither se invierte el orden (auxiliar antes del sujeto) y el auxiliar concuerda con el sujeto plural my colleagues, así que queda neither have my colleagues.",
+   "explicacion_breve": "Neither + auxiliar del mismo tiempo (have) + sujeto.",
+   "traduccion": "Todavía no he leído el informe, y mis compañeros tampoco.",
+   "errores_previstos": [
+    {
+     "respuesta": "do",
+     "explicacion": "Do es el auxiliar del presente simple; aquí el tiempo es el present perfect (haven't read), así que el auxiliar debe ser have."
+    },
+    {
+     "respuesta": "haven't",
+     "explicacion": "Neither ya es negativo; añadir haven't crearía una doble negación. Tras neither el auxiliar va en afirmativo."
+    },
+    {
+     "respuesta": "has",
+     "explicacion": "El sujeto es plural (my colleagues), así que el auxiliar es have, no has."
+    }
+   ]
   },
   {
    "id": "e06",
@@ -197,7 +245,23 @@
     "do",
     "can"
    ],
-   "explicacion": "En presente simple el verbo se sustituye por do."
+   "explicacion": "Es la regla del auxiliar solo, que sustituye al verbo y sus complementos. La pista es plays, presente simple: el auxiliar que lo representa es do (than I do = than I play the piano). También se acepta can, porque «than I can» es gramatical y significa «mejor de lo que yo sé tocar», con un matiz de capacidad. Dejar la frase en «than I» es posible en la lengua hablada (than me), pero el hueco pide un auxiliar.",
+   "explicacion_breve": "En presente simple el verbo se sustituye por do.",
+   "traduccion": "Ella toca el piano mucho mejor que yo.",
+   "errores_previstos": [
+    {
+     "respuesta": "play",
+     "explicacion": "Repetir el verbo léxico sin su complemento suena incompleto; el inglés usa el auxiliar do para sustituirlo."
+    },
+    {
+     "respuesta": "does",
+     "explicacion": "Does corresponde a la tercera persona; con el sujeto I el auxiliar es do."
+    },
+    {
+     "respuesta": "am",
+     "explicacion": "Am es el verbo be, que no aparece en la primera parte; el auxiliar debe corresponder a plays, es decir, do."
+    }
+   ]
   },
   {
    "id": "e07",
@@ -207,7 +271,23 @@
    "respuestas": [
     "to"
    ],
-   "explicacion": "To solo sustituye al infinitivo ya mencionado."
+   "explicacion": "Se aplica la regla «to (sin verbo)»: to sustituye a un infinitivo ya mencionado. La pista es be allowed, que siempre rige to + infinitivo (allowed to help you); como help you ya está en la frase, basta con to. El español dice «no me dejan» sin nada más, pero en inglés la frase no puede terminar en allowed: necesita el apoyo de to.",
+   "explicacion_breve": "To solo sustituye al infinitivo ya mencionado.",
+   "traduccion": "Te ayudaría si pudiera, pero no me está permitido.",
+   "errores_previstos": [
+    {
+     "respuesta": "it",
+     "explicacion": "«I'm not allowed it» es un calco; allowed no sustituye la acción con it, sino con to."
+    },
+    {
+     "respuesta": "do",
+     "explicacion": "Allowed rige to + infinitivo; do sin to no es posible aquí («allowed to do it» sí lo sería, pero el hueco es de una palabra)."
+    },
+    {
+     "respuesta": "so",
+     "explicacion": "So sustituye oraciones tras verbos de opinión (I think so), no un infinitivo tras allowed."
+    }
+   ]
   },
   {
    "id": "e08",
@@ -217,7 +297,23 @@
    "respuestas": [
     "ones"
    ],
-   "explicacion": "Ones sustituye a un sustantivo contable plural."
+   "explicacion": "Es la regla de one/ones de la tabla: ones sustituye a un sustantivo contable plural ya mencionado. La pista es apples, plural, y el paralelo con «the green ones» que ya aparece en la misma frase. Como red es un adjetivo con artículo (the red), no puede quedarse solo como en español («las rojas»); necesita ones.",
+   "explicacion_breve": "Ones sustituye a un sustantivo contable plural.",
+   "traduccion": "¿Qué manzanas quieres, las verdes o las rojas?",
+   "errores_previstos": [
+    {
+     "respuesta": "one",
+     "explicacion": "One sustituye a un singular; apples es plural, así que hace falta ones."
+    },
+    {
+     "respuesta": "apple",
+     "explicacion": "Repetir el sustantivo es lo que se quiere evitar y, además, debería ir en plural; el sustituto correcto es ones."
+    },
+    {
+     "respuesta": "them",
+     "explicacion": "Them es un pronombre personal y no puede ir tras artículo y adjetivo (the red them no existe)."
+    }
+   ]
   },
   {
    "id": "e09",
@@ -227,7 +323,23 @@
    "respuestas": [
     "so"
    ],
-   "explicacion": "So + auxiliar + sujeto para coincidir en afirmativo."
+   "explicacion": "Se aplica la fila «so / neither + auxiliar + sujeto»: para coincidir en afirmativo se usa so + auxiliar + sujeto. La pista es loves (afirmativo, presente simple) y el auxiliar does que ya aparece tras el hueco. El orden invertido (so does my father) es obligatorio; en español se dice «y mi padre también», pero en inglés «and my father too» sería informal y no encaja con does.",
+   "explicacion_breve": "So + auxiliar + sujeto para coincidir en afirmativo.",
+   "traduccion": "A mi hermano le encantan las películas de terror, y a mi padre también.",
+   "errores_previstos": [
+    {
+     "respuesta": "also",
+     "explicacion": "«And also does my father» no es gramatical; la estructura de coincidencia es so + auxiliar + sujeto."
+    },
+    {
+     "respuesta": "neither",
+     "explicacion": "Neither se usa para coincidir con una frase negativa; loves es afirmativo, así que corresponde so."
+    },
+    {
+     "respuesta": "too",
+     "explicacion": "Too va al final (my father does too), no delante del auxiliar."
+    }
+   ]
   },
   {
    "id": "e10",
@@ -237,7 +349,23 @@
    "respuestas": [
     "Is it going to snow tomorrow? I'm afraid so."
    ],
-   "explicacion": "«Me temo que sí» es I'm afraid so."
+   "explicacion": "Es la regla de la tabla según la cual so sustituye a una oración afirmativa tras think, hope, expect, suppose, believe y be afraid. La pista es I'm afraid seguido de la respuesta afirmativa «que sí»: so sustituye a «it is going to snow tomorrow». Yes no puede sustituir oraciones en inglés; «I'm afraid yes» es un calco directo del español.",
+   "explicacion_breve": "«Me temo que sí» es I'm afraid so.",
+   "traduccion": "¿Va a nevar mañana? Me temo que sí.",
+   "errores_previstos": [
+    {
+     "respuesta": "Is it going to snow tomorrow? I'm afraid yes.",
+     "explicacion": "Es la frase sin corregir: yes no sustituye oraciones tras be afraid; la forma correcta es I'm afraid so."
+    },
+    {
+     "respuesta": "Is it going to snow tomorrow? I'm afraid that yes.",
+     "explicacion": "Calco de «me temo que sí»; añadir that no lo arregla. Tras be afraid el sustituto afirmativo es so."
+    },
+    {
+     "respuesta": "Is it going to snow tomorrow? I'm afraid not.",
+     "explicacion": "Not es el sustituto negativo y cambia el sentido a «me temo que no»; el error de la frase se corrige con so."
+    }
+   ]
   },
   {
    "id": "e11",
@@ -248,7 +376,23 @@
     "I prefer still water to sparkling.",
     "I prefer still water to sparkling water."
    ],
-   "explicacion": "One no sustituye a incontables como water."
+   "explicacion": "Se aplica la regla de Reglas y claves: one no se usa con incontables. La pista es water, sustantivo incontable, de modo que «sparkling one» no es posible. La solución es la elipsis pura (to sparkling) o repetir el sustantivo (to sparkling water); ambas versiones son correctas, la primera más natural.",
+   "explicacion_breve": "One no sustituye a incontables como water.",
+   "traduccion": "Prefiero el agua sin gas a la (agua) con gas.",
+   "errores_previstos": [
+    {
+     "respuesta": "I prefer still water to sparkling one.",
+     "explicacion": "Es la frase sin corregir: one solo sustituye a contables y water es incontable."
+    },
+    {
+     "respuesta": "I prefer still water to sparkling ones.",
+     "explicacion": "Ones también es para contables (en plural); water sigue siendo incontable."
+    },
+    {
+     "respuesta": "I prefer still water than sparkling.",
+     "explicacion": "Se ha quitado one, pero se ha cambiado to por than: prefer A to B lleva to."
+    }
+   ]
   },
   {
    "id": "e12",
@@ -258,7 +402,23 @@
    "respuestas": [
     "Do you like jazz? Yes, I do."
    ],
-   "explicacion": "La respuesta corta usa el auxiliar do, no el verbo like sin objeto."
+   "explicacion": "Es la regla del auxiliar solo: en las respuestas cortas el auxiliar sustituye al verbo con su complemento. La pista es la pregunta con do (Do you like jazz?), que se contesta con el mismo auxiliar: Yes, I do. Like es transitivo y no puede quedarse sin objeto, así que «Yes, I like» es un calco de «sí, me gusta».",
+   "explicacion_breve": "La respuesta corta usa el auxiliar do, no el verbo like sin objeto.",
+   "traduccion": "¿Te gusta el jazz? Sí, me gusta.",
+   "errores_previstos": [
+    {
+     "respuesta": "Do you like jazz? Yes, I like.",
+     "explicacion": "Es la frase sin corregir: like no puede quedar sin complemento; la respuesta corta usa el auxiliar do."
+    },
+    {
+     "respuesta": "Do you like jazz? Yes, I like it.",
+     "explicacion": "Es gramatical, pero no es la respuesta corta que pide el ejercicio de sustitución; la forma natural y la aceptada es Yes, I do."
+    },
+    {
+     "respuesta": "Do you like jazz? Yes, I do like.",
+     "explicacion": "Do like sin objeto sigue dejando like colgado; o se dice Yes, I do, o Yes, I do like it."
+    }
+   ]
   },
   {
    "id": "e13",
@@ -274,9 +434,26 @@
     "can"
    ],
    "respuestas": [
-    "I can't come tonight but Sarah can"
+    "I can't come tonight but Sarah can",
+    "Sarah can come tonight but I can't"
    ],
-   "explicacion": "El modal solo (can) sustituye a come tonight."
+   "explicacion": "Es la regla del auxiliar solo: el modal can sustituye a «come tonight». La pista es el contraste entre dos sujetos con but: la primera parte lleva el verbo completo (I can't come tonight) y la segunda solo el modal (Sarah can). El español dice «Sarah sí», pero en inglés el modal es obligatorio. También se acepta el orden inverso, Sarah can come tonight but I can't: entonces el verbo completo va en la primera parte y el auxiliar negativo solo, can't, en la segunda.",
+   "explicacion_breve": "El auxiliar solo (can / can't) sustituye a come tonight.",
+   "traduccion": "Yo no puedo ir esta noche, pero Sarah sí.",
+   "errores_previstos": [
+    {
+     "respuesta": "I can't come but Sarah can tonight",
+     "explicacion": "Tonight pertenece a la primera parte; puesto al final queda separado de come y la frase suena forzada."
+    },
+    {
+     "respuesta": "Sarah can but I can't come tonight",
+     "explicacion": "Aquí el auxiliar solo aparece antes de que se haya dicho el verbo al que sustituye; en inglés la elipsis remite normalmente a algo ya mencionado, así que el verbo completo va primero."
+    },
+    {
+     "respuesta": "I can't come tonight but can Sarah",
+     "explicacion": "La inversión del auxiliar solo se da con so y neither; en un contraste con but el orden es sujeto + auxiliar."
+    }
+   ]
   },
   {
    "id": "e14",
@@ -290,10 +467,28 @@
    "respuestas": [
     "I suppose so"
    ],
-   "explicacion": "So sustituye a la oración afirmativa tras suppose."
+   "explicacion": "Se aplica la regla de la tabla: so sustituye a una oración afirmativa tras suppose. El orden es el normal de la oración: sujeto (I), verbo de opinión (suppose) y el sustituto so al final. Es la forma equivalente a «supongo que sí»; en negativo sería I don't suppose so o I suppose not.",
+   "explicacion_breve": "So sustituye a la oración afirmativa tras suppose.",
+   "traduccion": "Supongo que sí.",
+   "errores_previstos": [
+    {
+     "respuesta": "So I suppose",
+     "explicacion": "So al principio funciona como conector («así que supongo»), no como sustituto de la oración; el sustituto va detrás del verbo."
+    },
+    {
+     "respuesta": "I so suppose",
+     "explicacion": "So no puede ir entre el sujeto y el verbo; su lugar es al final: I suppose so."
+    }
+   ]
   }
  ],
  "fuente": {
   "nombre": "propia"
+ },
+ "descripcion_larga_es": "La elipsis y la sustitución permiten no repetir lo que ya se ha dicho: el inglés lo hace con palabras cortas como so, not, one, do so, un auxiliar solo o to sin verbo. Es imprescindible para sonar natural en una conversación o en un debate, y cuesta al hispanohablante porque el español omite sin dejar apoyo («creo que sí», «sí, quiero») y el inglés casi siempre necesita uno.",
+ "contexto": {
+  "que_es": "La elipsis consiste en omitir palabras que el oyente puede recuperar del contexto, y la sustitución en reemplazarlas por una forma breve. En inglés las herramientas básicas son one/ones para sustantivos contables, so y not para oraciones enteras, do so para predicados, el auxiliar solo para el verbo con sus complementos y to para un infinitivo ya mencionado.",
+  "por_que_importa": "Es uno de los rasgos que más distinguen un inglés natural de uno traducido: las respuestas cortas, el acuerdo con otra persona o la concesión dependen de estas formas. Si se calca el español («I think yes», «Yes, I like») el mensaje se entiende, pero suena claramente extranjero, y en un examen oral delata un nivel inferior al C1. En la exposición escrita, do so y la elipsis evitan repeticiones pesadas.",
+  "cuando_se_usa": "Aparece al responder preguntas de sí o no, al expresar opinión con think, hope, suppose o be afraid, al coincidir con otro hablante (so do I, neither have I) y al contrastar dos sujetos (I can't, but she can). La señal es que algo ya se ha dicho y no conviene repetirlo. Donde el español deja la frase sin nada («sí, quiero», «me temo que sí»), el inglés exige un apoyo: Yes, I want to; I'm afraid so."
  }
 }

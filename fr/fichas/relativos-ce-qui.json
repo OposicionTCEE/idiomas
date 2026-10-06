@@ -6,49 +6,525 @@
  "nivel": "B1",
  "resumen": "Ce qui y ce que equivalen a «lo que»: no se refieren a un nombre concreto, sino a una idea o a algo sin especificar. Se usa ce qui cuando «lo que» es el sujeto del verbo que sigue, y ce que cuando es su complemento directo.",
  "explicacion": [
-  {"tipo": "tabla", "cabecera": ["Forma", "Función", "Ejemplo"], "filas": [
-   ["ce qui", "sujeto del verbo siguiente", "Ce qui est fascinant, c'est sa description de l'époque."],
-   ["ce que / ce qu'", "complemento directo", "J'aime ce qu'il écrit."]
-  ]},
-  {"tipo": "texto", "texto": "Truco: mira lo que viene detrás. Si detrás viene directamente un verbo (ce qui est, ce qui me plaît, ce qui t'arrive), es ce qui. Si detrás viene un sujeto (ce que je veux, ce qu'il dit, ce que Tex écrit), es ce que. Ce que pasa a ce qu' delante de vocal."},
-  {"tipo": "lista", "items": [
-   "Tout ce qui / tout ce que = todo lo que: J'adore tout ce qui se rapporte à la Résistance. C'est tout ce que je veux.",
-   "Para retomar una frase entera (lo cual): Le héros meurt, ce que je trouve dommage. Il est arrivé en retard, ce qui m'a énervé.",
-   "Para destacar: Ce que je n'aime pas, c'est la fin du livre (más enfático que Je n'aime pas la fin).",
-   "En preguntas indirectas, qu'est-ce qui / qu'est-ce que pasan a ce qui / ce que: Qu'est-ce que tu veux ? → Dis-moi ce que tu veux."
-  ]},
-  {"tipo": "texto", "texto": "Error frecuente: traducir «lo que» por que solo. Que necesita un nombre delante (le livre que je lis); sin nombre hace falta ce: Je comprends ce que tu dis."}
+  {
+   "tipo": "tabla",
+   "cabecera": [
+    "Forma",
+    "Función",
+    "Ejemplo"
+   ],
+   "filas": [
+    [
+     "ce qui",
+     "sujeto del verbo siguiente",
+     "Ce qui est fascinant, c'est sa description de l'époque."
+    ],
+    [
+     "ce que / ce qu'",
+     "complemento directo",
+     "J'aime ce qu'il écrit."
+    ]
+   ]
+  },
+  {
+   "tipo": "texto",
+   "texto": "Truco: mira lo que viene detrás. Si detrás viene directamente un verbo (ce qui est, ce qui me plaît, ce qui t'arrive), es ce qui. Si detrás viene un sujeto (ce que je veux, ce qu'il dit, ce que Tex écrit), es ce que. Ce que pasa a ce qu' delante de vocal."
+  },
+  {
+   "tipo": "lista",
+   "items": [
+    "Tout ce qui / tout ce que = todo lo que: J'adore tout ce qui se rapporte à la Résistance. C'est tout ce que je veux.",
+    "Para retomar una frase entera (lo cual): Le héros meurt, ce que je trouve dommage. Il est arrivé en retard, ce qui m'a énervé.",
+    "Para destacar: Ce que je n'aime pas, c'est la fin du livre (más enfático que Je n'aime pas la fin).",
+    "En preguntas indirectas, qu'est-ce qui / qu'est-ce que pasan a ce qui / ce que: Qu'est-ce que tu veux ? → Dis-moi ce que tu veux."
+   ]
+  },
+  {
+   "tipo": "texto",
+   "texto": "Error frecuente: traducir «lo que» por que solo. Que necesita un nombre delante (le livre que je lis); sin nombre hace falta ce: Je comprends ce que tu dis."
+  }
  ],
  "ejemplos": [
-  {"frase": "Prends ce que tu veux.", "traduccion": "Coge lo que quieras."},
-  {"frase": "C'est ce qui est drôle.", "traduccion": "Eso es lo gracioso."},
-  {"frase": "Tu es ce que tu manges.", "traduccion": "Eres lo que comes."},
-  {"frase": "Tout ce que Tex crée est tellement original !", "traduccion": "¡Todo lo que crea Tex es tan original!"},
-  {"frase": "Il y a une intrigue amoureuse, ce qui ne m'étonne pas.", "traduccion": "Hay una trama amorosa, lo cual no me sorprende."},
-  {"frase": "Ce que je n'aime pas, c'est la fin du livre.", "traduccion": "Lo que no me gusta es el final del libro."}
+  {
+   "frase": "Prends ce que tu veux.",
+   "traduccion": "Coge lo que quieras."
+  },
+  {
+   "frase": "C'est ce qui est drôle.",
+   "traduccion": "Eso es lo gracioso."
+  },
+  {
+   "frase": "Tu es ce que tu manges.",
+   "traduccion": "Eres lo que comes."
+  },
+  {
+   "frase": "Tout ce que Tex crée est tellement original !",
+   "traduccion": "¡Todo lo que crea Tex es tan original!"
+  },
+  {
+   "frase": "Il y a une intrigue amoureuse, ce qui ne m'étonne pas.",
+   "traduccion": "Hay una trama amorosa, lo cual no me sorprende."
+  },
+  {
+   "frase": "Ce que je n'aime pas, c'est la fin du livre.",
+   "traduccion": "Lo que no me gusta es el final del libro."
+  }
  ],
  "errores_hispanohablantes": [
-  {"mal": "Je comprends que tu dis.", "bien": "Je comprends ce que tu dis.", "nota": "«Lo que» sin antecedente necesita ce."},
-  {"mal": "Ce que m'intéresse, c'est l'histoire.", "bien": "Ce qui m'intéresse, c'est l'histoire.", "nota": "Lo que interesa es el sujeto de intéresser: ce qui."},
-  {"mal": "Dis-moi qu'est-ce que tu veux.", "bien": "Dis-moi ce que tu veux.", "nota": "En la pregunta indirecta qu'est-ce que se convierte en ce que."}
+  {
+   "mal": "Je comprends que tu dis.",
+   "bien": "Je comprends ce que tu dis.",
+   "nota": "«Lo que» sin antecedente necesita ce."
+  },
+  {
+   "mal": "Ce que m'intéresse, c'est l'histoire.",
+   "bien": "Ce qui m'intéresse, c'est l'histoire.",
+   "nota": "Lo que interesa es el sujeto de intéresser: ce qui."
+  },
+  {
+   "mal": "Dis-moi qu'est-ce que tu veux.",
+   "bien": "Dis-moi ce que tu veux.",
+   "nota": "En la pregunta indirecta qu'est-ce que se convierte en ce que."
+  }
  ],
  "ejercicios": [
-  {"id": "e01", "tipo": "hueco", "enunciado": "Completa con ce qui o ce que (ce qu').", "frase": "Prends ___ tu veux.", "respuestas": ["ce que"], "explicacion": "Detrás hay un sujeto (tu): complemento directo, ce que.", "origen": "tatoeba:415501"},
-  {"id": "e02", "tipo": "hueco", "enunciado": "Completa con ce qui o ce que (ce qu').", "frase": "C'est ___ est drôle.", "respuestas": ["ce qui"], "explicacion": "Detrás viene el verbo est: ce qui es su sujeto.", "origen": "tatoeba:2352171"},
-  {"id": "e03", "tipo": "eleccion", "enunciado": "Elige la opción correcta.", "frase": "Tom fait ___ il veut.", "opciones": ["ce qu'", "ce qui", "qu'"], "respuestas": ["ce qu'"], "explicacion": "Lo que (complemento directo de veut), sin antecedente: ce qu' ante vocal.", "origen": "tatoeba:7524862"},
-  {"id": "e04", "tipo": "eleccion", "enunciado": "Elige la opción correcta.", "frase": "Tu es ___ tu manges.", "opciones": ["ce que", "ce qui", "que"], "respuestas": ["ce que"], "explicacion": "Lo que comes: complemento directo, ce que.", "origen": "tatoeba:6296592"},
-  {"id": "e05", "tipo": "corregir", "enunciado": "Corrige el error.", "frase": "C'est ce qui j'ai pensé.", "respuestas": ["C'est ce que j'ai pensé."], "explicacion": "Detrás hay un sujeto (j'): ce que.", "origen": "tatoeba:1608528"},
-  {"id": "e06", "tipo": "corregir", "enunciado": "Corrige el error.", "frase": "J'entends que tu dis.", "respuestas": ["J'entends ce que tu dis."], "explicacion": "«Lo que» sin antecedente necesita ce: ce que.", "origen": "tatoeba:1580635"},
-  {"id": "e07", "tipo": "hueco", "enunciado": "Completa con ce qui o ce que (ce qu').", "frase": "C'est tout ___ tu as ?", "respuestas": ["ce que"], "explicacion": "Tout ce que: todo lo que (complemento directo de as).", "origen": "tatoeba:1612766"},
-  {"id": "e08", "tipo": "ordenar", "enunciado": "Ordena las palabras.", "palabras": ["la", "dit", "C'est", "loi", "ce", "que"], "respuestas": ["C'est ce que dit la loi", "C'est ce que la loi dit"], "explicacion": "Tras ce que puede invertirse el sujeto: ce que dit la loi = lo que dice la ley.", "origen": "tatoeba:1076477"},
-  {"id": "e09", "tipo": "transformar", "enunciado": "Destaca el complemento empezando por «Ce que…, c'est…».", "frase": "J'aime sa générosité.", "respuestas": ["Ce que j'aime, c'est sa générosité."], "explicacion": "Ce que + sujeto + verbo, c'est + elemento destacado."},
-  {"id": "e10", "tipo": "transformar", "enunciado": "Destaca la idea empezando por «Ce qui…, c'est…».", "frase": "Sa description de l'époque est fascinante.", "respuestas": ["Ce qui est fascinant, c'est sa description de l'époque."], "explicacion": "Ce qui es el sujeto de est fascinant."},
-  {"id": "e11", "tipo": "hueco", "enunciado": "Completa con ce qui o ce que (ce qu').", "frase": "Je ne sais pas ___ rend Corey si triste.", "respuestas": ["ce qui"], "explicacion": "Detrás viene el verbo rend: ce qui es su sujeto."},
-  {"id": "e12", "tipo": "eleccion", "enunciado": "Elige la opción correcta.", "frase": "Le héros n'épouse pas Marie, ___ je trouve dommage.", "opciones": ["ce que", "ce qui", "qui"], "respuestas": ["ce que"], "explicacion": "Retoma toda la frase como complemento directo de trouve: ce que."},
-  {"id": "e13", "tipo": "eleccion", "enunciado": "Elige la opción correcta.", "frase": "Il est arrivé en retard, ___ m'a énervé.", "opciones": ["ce qui", "ce que", "qui"], "respuestas": ["ce qui"], "explicacion": "Retoma toda la frase como sujeto de a énervé: ce qui."},
-  {"id": "e14", "tipo": "hueco", "enunciado": "Completa con ce qui o ce que (ce qu').", "frase": "Dis-moi ___ t'arrive.", "respuestas": ["ce qui"], "explicacion": "Pregunta indirecta: qu'est-ce qui t'arrive → ce qui t'arrive."},
-  {"id": "e15", "tipo": "transformar", "enunciado": "Pasa la pregunta a estilo indirecto empezando por «Dis-moi».", "frase": "Qu'est-ce que tu veux ?", "respuestas": ["Dis-moi ce que tu veux."], "explicacion": "Qu'est-ce que pasa a ce que en la pregunta indirecta."},
-  {"id": "e16", "tipo": "hueco", "enunciado": "Completa con ce qui o ce que (ce qu').", "frase": "J'ignore ___ c'est.", "respuestas": ["ce que"], "explicacion": "Pregunta indirecta con sujeto (c'): ce que c'est = qué es.", "origen": "tatoeba:490605"}
+  {
+   "id": "e01",
+   "tipo": "hueco",
+   "enunciado": "Completa con ce qui o ce que (ce qu').",
+   "frase": "Prends ___ tu veux.",
+   "respuestas": [
+    "ce que"
+   ],
+   "explicacion": "Se aplica el truco de Reglas y claves: mirar lo que viene detrás del hueco. Aquí viene un sujeto, «tu», seguido del verbo «veux», así que «lo que» no es el sujeto sino el complemento directo de «vouloir» (quieres eso). Por tanto la forma es ce que. No hay antecedente nominal («prends le livre que…»), así que hace falta el «ce».",
+   "origen": "tatoeba:415501",
+   "explicacion_breve": "Detrás hay un sujeto (tu): complemento directo, ce que.",
+   "traduccion": "Coge lo que quieras.",
+   "errores_previstos": [
+    {
+     "respuesta": "ce qui",
+     "explicacion": "Ce qui solo va delante de un verbo, porque es sujeto; aquí el sujeto de «veux» es «tu», así que hace falta ce que."
+    },
+    {
+     "respuesta": "que",
+     "explicacion": "Que solo no basta: no hay un nombre delante al que se refiera. Para «lo que» hace falta ce que."
+    },
+    {
+     "respuesta": "ce qu'",
+     "explicacion": "La elisión solo se hace ante vocal; delante de «tu» se escribe ce que completo."
+    }
+   ]
+  },
+  {
+   "id": "e02",
+   "tipo": "hueco",
+   "enunciado": "Completa con ce qui o ce que (ce qu').",
+   "frase": "C'est ___ est drôle.",
+   "respuestas": [
+    "ce qui"
+   ],
+   "explicacion": "Tras el hueco viene directamente el verbo «est», sin ningún sujeto entre medias. Según la tabla de Reglas y claves, cuando «lo que» es el sujeto del verbo siguiente se usa ce qui: ce qui est drôle, «lo que es gracioso». La construcción «C'est ce qui…» es muy frecuente para señalar algo.",
+   "origen": "tatoeba:2352171",
+   "explicacion_breve": "Detrás viene el verbo est: ce qui es su sujeto.",
+   "traduccion": "Eso es lo gracioso.",
+   "errores_previstos": [
+    {
+     "respuesta": "ce que",
+     "explicacion": "Ce que exige un sujeto detrás; aquí «est» no tiene otro sujeto, así que el relativo debe ser sujeto: ce qui."
+    },
+    {
+     "respuesta": "qui",
+     "explicacion": "Falta el «ce»: no hay un nombre antecedente, de modo que «lo que» se dice ce qui."
+    },
+    {
+     "respuesta": "ce qu'",
+     "explicacion": "Aunque «est» empiece por vocal, la función es de sujeto (ce qui), y qui no se apostrofa nunca."
+    }
+   ]
+  },
+  {
+   "id": "e03",
+   "tipo": "eleccion",
+   "enunciado": "Elige la opción correcta.",
+   "frase": "Tom fait ___ il veut.",
+   "opciones": [
+    "ce qu'",
+    "ce qui",
+    "qu'"
+   ],
+   "respuestas": [
+    "ce qu'"
+   ],
+   "explicacion": "Detrás del hueco hay un sujeto, «il», y luego el verbo «veut»: el relativo es el complemento directo de «vouloir», así que corresponde ce que. Como la palabra siguiente empieza por vocal, se apostrofa: ce qu'il veut. Reglas y claves recuerda que ce que pasa a ce qu' delante de vocal.",
+   "origen": "tatoeba:7524862",
+   "explicacion_breve": "Lo que (complemento directo de veut), sin antecedente: ce qu' ante vocal.",
+   "traduccion": "Tom hace lo que quiere.",
+   "por_opcion": {
+    "ce qu'": "Correcta: complemento directo de «veut», sin antecedente, y apostrofado ante «il».",
+    "ce qui": "Incorrecta: ce qui sería sujeto del verbo siguiente, pero aquí el sujeto de «veut» es «il».",
+    "qu'": "Incorrecta: falta el «ce». Que solo funciona con un nombre delante (la chose qu'il veut); para «lo que» hace falta ce qu'."
+   }
+  },
+  {
+   "id": "e04",
+   "tipo": "eleccion",
+   "enunciado": "Elige la opción correcta.",
+   "frase": "Tu es ___ tu manges.",
+   "opciones": [
+    "ce que",
+    "ce qui",
+    "que"
+   ],
+   "respuestas": [
+    "ce que"
+   ],
+   "explicacion": "Es el conocido refrán. Tras el hueco aparece un sujeto, «tu», y el verbo «manges»: «lo que» es lo que comes, es decir, el complemento directo de «manger». Por eso la forma es ce que, sin elisión porque «tu» empieza por consonante. La ficha advierte del error frecuente de poner solo que.",
+   "origen": "tatoeba:6296592",
+   "explicacion_breve": "Lo que comes: complemento directo, ce que.",
+   "traduccion": "Eres lo que comes.",
+   "por_opcion": {
+    "ce que": "Correcta: complemento directo de «manges», sin antecedente nominal.",
+    "ce qui": "Incorrecta: ce qui iría delante de un verbo sin sujeto; aquí el sujeto de «manges» es «tu».",
+    "que": "Incorrecta: es el calco de «lo que» como simple «que». Sin nombre antecedente hace falta ce que."
+   }
+  },
+  {
+   "id": "e05",
+   "tipo": "corregir",
+   "enunciado": "Corrige el error.",
+   "frase": "C'est ce qui j'ai pensé.",
+   "respuestas": [
+    "C'est ce que j'ai pensé."
+   ],
+   "explicacion": "La frase tiene ce qui, pero detrás viene un sujeto, «j'», y el verbo «ai pensé». Según la regla de la ficha, cuando detrás hay un sujeto el relativo es complemento directo y debe ser ce que. Como «j'ai» ya lleva el sujeto apostrofado, la forma correcta es «ce que j'ai pensé», sin elidir «que» (sigue una consonante, la j).",
+   "origen": "tatoeba:1608528",
+   "explicacion_breve": "Detrás hay un sujeto (j'): ce que.",
+   "traduccion": "Es lo que pensé.",
+   "errores_previstos": [
+    {
+     "respuesta": "C'est ce qui j'ai pensé.",
+     "explicacion": "Es la frase sin corregir: ce qui no puede ir seguido de un sujeto."
+    },
+    {
+     "respuesta": "C'est que j'ai pensé.",
+     "explicacion": "Se ha quitado el «ce», pero «lo que» sin antecedente necesita ce que."
+    },
+    {
+     "respuesta": "C'est ce qu'j'ai pensé.",
+     "explicacion": "Que solo se apostrofa ante vocal; delante de «j'» se escribe ce que completo."
+    }
+   ]
+  },
+  {
+   "id": "e06",
+   "tipo": "corregir",
+   "enunciado": "Corrige el error.",
+   "frase": "J'entends que tu dis.",
+   "respuestas": [
+    "J'entends ce que tu dis."
+   ],
+   "explicacion": "Es el error frecuente que describe la ficha: traducir «lo que» por que solo. Que necesita un nombre delante (le mot que tu dis); como aquí no lo hay, hay que añadir «ce»: «J'entends ce que tu dis». Además, «que tu dis» sin «ce» se leería como una completiva («oigo que dices»), lo que no tiene sentido.",
+   "origen": "tatoeba:1580635",
+   "explicacion_breve": "«Lo que» sin antecedente necesita ce: ce que.",
+   "traduccion": "Oigo lo que dices.",
+   "errores_previstos": [
+    {
+     "respuesta": "J'entends que tu dis.",
+     "explicacion": "Es la frase sin corregir: falta el «ce» que hace de antecedente."
+    },
+    {
+     "respuesta": "J'entends ce qui tu dis.",
+     "explicacion": "Detrás hay un sujeto (tu): la función es complemento directo, así que es ce que, no ce qui."
+    },
+    {
+     "respuesta": "J'entends qu'est-ce que tu dis.",
+     "explicacion": "Qu'est-ce que solo se usa en la pregunta directa; aquí, como en la indirecta, se dice ce que."
+    }
+   ]
+  },
+  {
+   "id": "e07",
+   "tipo": "hueco",
+   "enunciado": "Completa con ce qui o ce que (ce qu').",
+   "frase": "C'est tout ___ tu as ?",
+   "respuestas": [
+    "ce que"
+   ],
+   "explicacion": "La lista de Reglas y claves recoge «tout ce qui / tout ce que = todo lo que». Tras el hueco hay un sujeto, «tu», y el verbo «as»: «todo lo que tienes» es complemento directo de «avoir», así que se usa tout ce que. «Tout» ya está escrito en la frase, de modo que solo hay que completar con ce que.",
+   "origen": "tatoeba:1612766",
+   "explicacion_breve": "Tout ce que: todo lo que (complemento directo de as).",
+   "traduccion": "¿Es todo lo que tienes?",
+   "errores_previstos": [
+    {
+     "respuesta": "ce qui",
+     "explicacion": "Ce qui es sujeto; aquí el sujeto de «as» es «tu», así que corresponde ce que."
+    },
+    {
+     "respuesta": "que",
+     "explicacion": "Tras «tout» hace falta igualmente el «ce»: tout ce que, nunca «tout que»."
+    },
+    {
+     "respuesta": "ce qu'",
+     "explicacion": "Delante de «tu», que empieza por consonante, no hay elisión: ce que."
+    }
+   ]
+  },
+  {
+   "id": "e08",
+   "tipo": "ordenar",
+   "enunciado": "Ordena las palabras.",
+   "palabras": [
+    "la",
+    "dit",
+    "C'est",
+    "loi",
+    "ce",
+    "que"
+   ],
+   "respuestas": [
+    "C'est ce que dit la loi",
+    "C'est ce que la loi dit"
+   ],
+   "explicacion": "La frase empieza por «C'est» y sigue con «ce que», porque «lo que» es el complemento directo de «dire». La explicación de la ficha añade un detalle: tras ce que el sujeto puede ir detrás del verbo (inversión estilística), así que son correctas «C'est ce que dit la loi» y «C'est ce que la loi dit». La primera es la más habitual en francés cuidado cuando el sujeto es un nombre.",
+   "origen": "tatoeba:1076477",
+   "explicacion_breve": "Tras ce que puede invertirse el sujeto: ce que dit la loi = lo que dice la ley.",
+   "traduccion": "Es lo que dice la ley.",
+   "errores_previstos": [
+    {
+     "respuesta": "C'est que ce dit la loi",
+     "explicacion": "El orden es «ce que», no «que ce»: el pronombre «ce» va primero."
+    },
+    {
+     "respuesta": "C'est ce dit que la loi",
+     "explicacion": "«Ce» y «que» van juntos formando el relativo; el verbo va después."
+    },
+    {
+     "respuesta": "C'est la loi ce que dit",
+     "explicacion": "Calco desordenado: la relativa ce que + verbo + sujeto debe ir tras «C'est»."
+    }
+   ]
+  },
+  {
+   "id": "e09",
+   "tipo": "transformar",
+   "enunciado": "Destaca el complemento empezando por «Ce que…, c'est…».",
+   "frase": "J'aime sa générosité.",
+   "respuestas": [
+    "Ce que j'aime, c'est sa générosité."
+   ],
+   "explicacion": "La lista de Reglas y claves presenta el realce «Ce que je n'aime pas, c'est la fin du livre». En la frase «J'aime sa générosité», el elemento destacado (sa générosité) es complemento directo de «aimer», así que la relativa se abre con ce que: «Ce que j'aime», y el elemento destacado va tras «c'est». La coma separa las dos partes, como en el modelo.",
+   "explicacion_breve": "Ce que + sujeto + verbo, c'est + elemento destacado.",
+   "traduccion": "Lo que me gusta es su generosidad.",
+   "errores_previstos": [
+    {
+     "respuesta": "Ce qui j'aime, c'est sa générosité.",
+     "explicacion": "Detrás hay un sujeto (j'): el relativo es complemento directo, así que es ce que."
+    },
+    {
+     "respuesta": "Ce que j'aime, est sa générosité.",
+     "explicacion": "Falta el «c'» de «c'est»: la estructura de realce es «Ce que…, c'est…»."
+    },
+    {
+     "respuesta": "Que j'aime, c'est sa générosité.",
+     "explicacion": "Sin el «ce» la relativa no tiene antecedente: hace falta «Ce que»."
+    }
+   ]
+  },
+  {
+   "id": "e10",
+   "tipo": "transformar",
+   "enunciado": "Destaca la idea empezando por «Ce qui…, c'est…».",
+   "frase": "Sa description de l'époque est fascinante.",
+   "respuestas": [
+    "Ce qui est fascinant, c'est sa description de l'époque."
+   ],
+   "explicacion": "Ahora el elemento destacado es el sujeto de la frase: «Sa description de l'époque est fascinante». En la estructura de realce, «lo que es fascinante» tiene como verbo «est», sin otro sujeto, por lo que la relativa empieza con ce qui. Es exactamente el ejemplo de la tabla de Reglas y claves: «Ce qui est fascinant, c'est sa description de l'époque». Observa que el adjetivo pasa a masculino, porque «ce» es neutro.",
+   "explicacion_breve": "Ce qui es el sujeto de est fascinant.",
+   "traduccion": "Lo que es fascinante es su descripción de la época.",
+   "errores_previstos": [
+    {
+     "respuesta": "Ce que est fascinant, c'est sa description de l'époque.",
+     "explicacion": "Delante del verbo «est» el relativo es sujeto: ce qui."
+    },
+    {
+     "respuesta": "Ce qui est fascinante, c'est sa description de l'époque.",
+     "explicacion": "El adjetivo concuerda con «ce», que es neutro y se trata como masculino: fascinant."
+    },
+    {
+     "respuesta": "Ce qu'est fascinant, c'est sa description de l'époque.",
+     "explicacion": "Ni la función es de complemento ni qui se apostrofa: la forma es ce qui est."
+    }
+   ]
+  },
+  {
+   "id": "e11",
+   "tipo": "hueco",
+   "enunciado": "Completa con ce qui o ce que (ce qu').",
+   "frase": "Je ne sais pas ___ rend Corey si triste.",
+   "respuestas": [
+    "ce qui"
+   ],
+   "explicacion": "Es una pregunta indirecta tras «Je ne sais pas». Tras el hueco viene directamente el verbo «rend», así que el relativo es su sujeto: ce qui. La pregunta directa sería «Qu'est-ce qui rend Corey si triste ?», y la lista de Reglas y claves explica que qu'est-ce qui pasa a ce qui en estilo indirecto.",
+   "explicacion_breve": "Detrás viene el verbo rend: ce qui es su sujeto.",
+   "traduccion": "No sé qué pone tan triste a Corey.",
+   "errores_previstos": [
+    {
+     "respuesta": "ce que",
+     "explicacion": "Corey no es el sujeto de «rend», sino su complemento; el sujeto es «lo que», y por eso es ce qui."
+    },
+    {
+     "respuesta": "qu'est-ce qui",
+     "explicacion": "Qu'est-ce qui es la forma de la pregunta directa; en la indirecta se reduce a ce qui."
+    },
+    {
+     "respuesta": "qui",
+     "explicacion": "Qui solo preguntaría por una persona («quién»); para «qué» hace falta ce qui."
+    }
+   ]
+  },
+  {
+   "id": "e12",
+   "tipo": "eleccion",
+   "enunciado": "Elige la opción correcta.",
+   "frase": "Le héros n'épouse pas Marie, ___ je trouve dommage.",
+   "opciones": [
+    "ce que",
+    "ce qui",
+    "qui"
+   ],
+   "respuestas": [
+    "ce que"
+   ],
+   "explicacion": "La lista de Reglas y claves explica que ce qui y ce que retoman una frase entera, como nuestro «lo cual». Aquí lo retomado (que el héroe no se case con Marie) es el complemento directo de «trouve»: je trouve cela dommage. Como detrás del hueco hay un sujeto, «je», corresponde ce que.",
+   "explicacion_breve": "Retoma toda la frase como complemento directo de trouve: ce que.",
+   "traduccion": "El héroe no se casa con Marie, lo cual me parece una pena.",
+   "por_opcion": {
+    "ce que": "Correcta: retoma toda la frase anterior como complemento directo de «trouve» (yo encuentro eso una pena).",
+    "ce qui": "Incorrecta: ce qui iría si lo retomado fuera el sujeto del verbo siguiente, pero aquí el sujeto es «je».",
+    "qui": "Incorrecta: qui se referiría a un nombre (Marie) y además como sujeto; no puede retomar una frase entera."
+   }
+  },
+  {
+   "id": "e13",
+   "tipo": "eleccion",
+   "enunciado": "Elige la opción correcta.",
+   "frase": "Il est arrivé en retard, ___ m'a énervé.",
+   "opciones": [
+    "ce qui",
+    "ce que",
+    "qui"
+   ],
+   "respuestas": [
+    "ce qui"
+   ],
+   "explicacion": "De nuevo se retoma una frase entera («lo cual»), pero ahora lo retomado es el sujeto del verbo siguiente: el hecho de que llegara tarde «m'a énervé». Detrás del hueco viene «m'» (un pronombre complemento) y el verbo, sin sujeto: por eso es ce qui. Es el ejemplo exacto de la lista de Reglas y claves.",
+   "explicacion_breve": "Retoma toda la frase como sujeto de a énervé: ce qui.",
+   "traduccion": "Llegó tarde, lo cual me puso de los nervios.",
+   "por_opcion": {
+    "ce qui": "Correcta: retoma la frase anterior como sujeto de «a énervé»; «m'» es complemento, no sujeto.",
+    "ce que": "Incorrecta: no hay ningún sujeto detrás; «m'» es un pronombre complemento.",
+    "qui": "Incorrecta: qui solo se referiría a una persona o cosa nombrada (il), no a toda la frase; significaría que «él» me puso nervioso, sin la idea de «lo cual»."
+   }
+  },
+  {
+   "id": "e14",
+   "tipo": "hueco",
+   "enunciado": "Completa con ce qui o ce que (ce qu').",
+   "frase": "Dis-moi ___ t'arrive.",
+   "respuestas": [
+    "ce qui"
+   ],
+   "explicacion": "Es una pregunta indirecta introducida por «Dis-moi». La pregunta directa es «Qu'est-ce qui t'arrive ?», en la que «qu'est-ce qui» es el sujeto de «arrive». En estilo indirecto, según la lista de Reglas y claves, qu'est-ce qui pasa a ce qui. Tras el hueco viene «t'», un pronombre complemento, y luego el verbo: no hay sujeto, así que es ce qui.",
+   "explicacion_breve": "Pregunta indirecta: qu'est-ce qui t'arrive → ce qui t'arrive.",
+   "traduccion": "Dime qué te pasa.",
+   "errores_previstos": [
+    {
+     "respuesta": "ce que",
+     "explicacion": "«T'» no es sujeto sino complemento (a ti); el sujeto de «arrive» es «lo que», así que es ce qui."
+    },
+    {
+     "respuesta": "qu'est-ce qui",
+     "explicacion": "Mantener la forma de la pregunta directa en la indirecta es un calco: se reduce a ce qui."
+    },
+    {
+     "respuesta": "qu'est-ce que",
+     "explicacion": "Doble error: forma de pregunta directa y función equivocada; lo correcto es ce qui."
+    }
+   ]
+  },
+  {
+   "id": "e15",
+   "tipo": "transformar",
+   "enunciado": "Pasa la pregunta a estilo indirecto empezando por «Dis-moi».",
+   "frase": "Qu'est-ce que tu veux ?",
+   "respuestas": [
+    "Dis-moi ce que tu veux."
+   ],
+   "explicacion": "La regla de la lista de Reglas y claves es que en las preguntas indirectas qu'est-ce que pasa a ce que. La pregunta directa pregunta por el complemento directo de «veux», así que en indirecto se dice «Dis-moi ce que tu veux». Desaparecen también la entonación y el signo de interrogación: la frase pasa a ser enunciativa y termina en punto.",
+   "explicacion_breve": "Qu'est-ce que pasa a ce que en la pregunta indirecta.",
+   "traduccion": "Dime qué quieres.",
+   "errores_previstos": [
+    {
+     "respuesta": "Dis-moi qu'est-ce que tu veux.",
+     "explicacion": "Es el error que señala la ficha: en la pregunta indirecta no se conserva qu'est-ce que."
+    },
+    {
+     "respuesta": "Dis-moi que tu veux.",
+     "explicacion": "Sin «ce» la frase significaría «dime que quieres», no «qué quieres»."
+    },
+    {
+     "respuesta": "Dis-moi ce qui tu veux.",
+     "explicacion": "Detrás hay un sujeto (tu): la función es complemento directo, ce que."
+    }
+   ]
+  },
+  {
+   "id": "e16",
+   "tipo": "hueco",
+   "enunciado": "Completa con ce qui o ce que (ce qu').",
+   "frase": "J'ignore ___ c'est.",
+   "respuestas": [
+    "ce que"
+   ],
+   "explicacion": "«J'ignore» (no sé, desconozco) introduce una pregunta indirecta. La pregunta directa sería «Qu'est-ce que c'est ?», y en indirecto qu'est-ce que pasa a ce que. Tras el hueco hay un sujeto, «c'», así que la forma es ce que, sin elisión porque sigue una consonante: «ce que c'est».",
+   "origen": "tatoeba:490605",
+   "explicacion_breve": "Pregunta indirecta con sujeto (c'): ce que c'est = qué es.",
+   "traduccion": "No sé qué es.",
+   "errores_previstos": [
+    {
+     "respuesta": "ce qui",
+     "explicacion": "Detrás hay un sujeto (c'), así que el relativo es complemento: ce que."
+    },
+    {
+     "respuesta": "qu'est-ce que",
+     "explicacion": "Es la forma de la pregunta directa; en estilo indirecto se dice ce que."
+    },
+    {
+     "respuesta": "que",
+     "explicacion": "Sin «ce» la frase queda incompleta: «J'ignore que c'est» no significa «no sé qué es»."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "ignorer",
+     "significado": "desconocer, no saber (no «ignorar» en el sentido de no hacer caso)"
+    }
+   ]
+  }
  ],
- "fuente": {"nombre": "Tex's French Grammar", "autores": "COERLL, Universidad de Texas en Austin", "licencia": "CC BY 3.0", "url": "https://laits.utexas.edu/tex/gr/pror2.html", "otras": ["Frases de Tatoeba (CC BY 2.0 FR)"]}
+ "fuente": {
+  "nombre": "Tex's French Grammar",
+  "autores": "COERLL, Universidad de Texas en Austin",
+  "licencia": "CC BY 3.0",
+  "url": "https://laits.utexas.edu/tex/gr/pror2.html",
+  "otras": [
+   "Frases de Tatoeba (CC BY 2.0 FR)"
+  ]
+ },
+ "descripcion_larga_es": "Ce qui y ce que traducen nuestro «lo que» cuando no se refiere a un nombre concreto sino a una idea o a algo sin especificar. Se elige ce qui si «lo que» es el sujeto del verbo siguiente y ce que si es su complemento directo. Cuesta a un hispanohablante porque en español «lo que» no cambia y porque tiende a traducirlo por un simple «que», olvidando el «ce».",
+ "contexto": {
+  "que_es": "Ce qui y ce que son relativos sin antecedente: el pronombre «ce» hace de antecedente vacío («la cosa») y qui o que indican la función dentro de la relativa. Ce qui es sujeto del verbo que sigue; ce que (ce qu' ante vocal) es complemento directo. Sirven también para retomar una frase entera («lo cual») y para las preguntas indirectas.",
+  "por_que_importa": "Son constantes en la conversación y en la escritura: «ce que je veux dire», «ce qui compte», «tout ce que tu as». Equivocarse entre qui y que, u omitir el «ce», produce frases que un francófono entiende pero percibe enseguida como erróneas. En un examen escrito, la estructura de realce «Ce qui…, c'est…» permite además construir frases más elegantes y enfáticas.",
+  "cuando_se_usa": "Siempre que en español diríamos «lo que» o «lo cual», y en las preguntas indirectas (Dis-moi ce que tu veux). La señal práctica es lo que viene detrás: un verbo pide ce qui; un sujeto (je, tu, il, la loi) pide ce que. El hispanohablante tiende a escribir «Je comprends que tu dis» o a mantener «qu'est-ce que» en la pregunta indirecta, calcos que hay que evitar."
+ }
 }

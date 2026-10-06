@@ -6,51 +6,537 @@
  "nivel": "B2",
  "resumen": "Algunos verbos admiten -ing y to + infinitivo con significados distintos. Otros exigen persona + to + infinitivo (want someone to do), y make/let van con infinitivo sin to.",
  "explicacion": [
-  {"tipo": "tabla", "cabecera": ["Verbo", "+ -ing", "+ to + infinitivo"], "filas": [
-   ["remember", "recordar algo hecho antes: I remember locking the door.", "acordarse de hacer algo: Remember to lock the door."],
-   ["forget", "olvidar algo vivido (sobre todo en negativa): I'll never forget meeting her.", "olvidarse de hacer algo: I forgot to call him."],
-   ["stop", "dejar de hacer: He stopped smoking.", "pararse para hacer otra cosa: He stopped to smoke."],
-   ["try", "probar algo para ver si funciona: Try restarting the computer.", "intentar, esforzarse: I tried to open the window, but it was stuck."],
-   ["regret", "arrepentirse de algo pasado: I regret selling my car.", "lamentar comunicar (formal): We regret to inform you…"],
-   ["go on", "seguir haciendo lo mismo: She went on talking.", "pasar a hacer otra cosa: He went on to become president."]
-  ]},
-  {"tipo": "texto", "texto": "Verbo + persona + to + infinitivo: want, would like, expect, ask, tell, allow, encourage, persuade, force, teach. I want you to stay (no «I want that you stay»)."},
-  {"tipo": "texto", "texto": "Make y let van con persona + infinitivo sin to: She made me apologise. They let us leave early. En pasiva make recupera el to: I was made to apologise."},
-  {"tipo": "lista", "items": [
-   "Like, love, hate, prefer, begin, start, continue admiten las dos formas casi sin cambio de sentido.",
-   "Need + -ing tiene sentido pasivo: The car needs washing (= needs to be washed).",
-   "Help admite infinitivo con o sin to: She helped me (to) move."
-  ]}
+  {
+   "tipo": "tabla",
+   "cabecera": [
+    "Verbo",
+    "+ -ing",
+    "+ to + infinitivo"
+   ],
+   "filas": [
+    [
+     "remember",
+     "recordar algo hecho antes: I remember locking the door.",
+     "acordarse de hacer algo: Remember to lock the door."
+    ],
+    [
+     "forget",
+     "olvidar algo vivido (sobre todo en negativa): I'll never forget meeting her.",
+     "olvidarse de hacer algo: I forgot to call him."
+    ],
+    [
+     "stop",
+     "dejar de hacer: He stopped smoking.",
+     "pararse para hacer otra cosa: He stopped to smoke."
+    ],
+    [
+     "try",
+     "probar algo para ver si funciona: Try restarting the computer.",
+     "intentar, esforzarse: I tried to open the window, but it was stuck."
+    ],
+    [
+     "regret",
+     "arrepentirse de algo pasado: I regret selling my car.",
+     "lamentar comunicar (formal): We regret to inform you…"
+    ],
+    [
+     "go on",
+     "seguir haciendo lo mismo: She went on talking.",
+     "pasar a hacer otra cosa: He went on to become president."
+    ]
+   ]
+  },
+  {
+   "tipo": "texto",
+   "texto": "Verbo + persona + to + infinitivo: want, would like, expect, ask, tell, allow, encourage, persuade, force, teach. I want you to stay (no «I want that you stay»)."
+  },
+  {
+   "tipo": "texto",
+   "texto": "Make y let van con persona + infinitivo sin to: She made me apologise. They let us leave early. En pasiva make recupera el to: I was made to apologise."
+  },
+  {
+   "tipo": "lista",
+   "items": [
+    "Like, love, hate, prefer, begin, start, continue admiten las dos formas casi sin cambio de sentido.",
+    "Need + -ing tiene sentido pasivo: The car needs washing (= needs to be washed).",
+    "Help admite infinitivo con o sin to: She helped me (to) move."
+   ]
+  }
  ],
  "ejemplos": [
-  {"frase": "Did you remember to buy milk?", "traduccion": "¿Te acordaste de comprar leche?"},
-  {"frase": "I clearly remember visiting this museum as a child.", "traduccion": "Recuerdo perfectamente haber visitado este museo de niño."},
-  {"frase": "We stopped to look at the view.", "traduccion": "Paramos para contemplar el paisaje."},
-  {"frase": "If you can't sleep, try drinking a glass of warm milk.", "traduccion": "Si no puedes dormir, prueba a tomarte un vaso de leche caliente."},
-  {"frase": "My parents encouraged me to study abroad.", "traduccion": "Mis padres me animaron a estudiar en el extranjero."},
-  {"frase": "The teacher made us rewrite the essay.", "traduccion": "El profesor nos hizo reescribir la redacción."}
+  {
+   "frase": "Did you remember to buy milk?",
+   "traduccion": "¿Te acordaste de comprar leche?"
+  },
+  {
+   "frase": "I clearly remember visiting this museum as a child.",
+   "traduccion": "Recuerdo perfectamente haber visitado este museo de niño."
+  },
+  {
+   "frase": "We stopped to look at the view.",
+   "traduccion": "Paramos para contemplar el paisaje."
+  },
+  {
+   "frase": "If you can't sleep, try drinking a glass of warm milk.",
+   "traduccion": "Si no puedes dormir, prueba a tomarte un vaso de leche caliente."
+  },
+  {
+   "frase": "My parents encouraged me to study abroad.",
+   "traduccion": "Mis padres me animaron a estudiar en el extranjero."
+  },
+  {
+   "frase": "The teacher made us rewrite the essay.",
+   "traduccion": "El profesor nos hizo reescribir la redacción."
+  }
  ],
  "errores_hispanohablantes": [
-  {"mal": "I want that you come with me.", "bien": "I want you to come with me.", "nota": "Want + persona + to + infinitivo, nunca want that."},
-  {"mal": "She made me to wait for an hour.", "bien": "She made me wait for an hour.", "nota": "Make + persona + infinitivo sin to (en activa)."},
-  {"mal": "Don't forget locking the door.", "bien": "Don't forget to lock the door.", "nota": "Olvidarse de hacer algo pendiente: forget + to."}
+  {
+   "mal": "I want that you come with me.",
+   "bien": "I want you to come with me.",
+   "nota": "Want + persona + to + infinitivo, nunca want that."
+  },
+  {
+   "mal": "She made me to wait for an hour.",
+   "bien": "She made me wait for an hour.",
+   "nota": "Make + persona + infinitivo sin to (en activa)."
+  },
+  {
+   "mal": "Don't forget locking the door.",
+   "bien": "Don't forget to lock the door.",
+   "nota": "Olvidarse de hacer algo pendiente: forget + to."
+  }
  ],
  "ejercicios": [
-  {"id": "e01", "tipo": "hueco", "enunciado": "Completa con -ing o to + infinitivo.", "frase": "I'll never forget ___ (see) the Northern Lights for the first time.", "respuestas": ["seeing"], "explicacion": "Recuerdo de algo vivido: forget + -ing."},
-  {"id": "e02", "tipo": "hueco", "enunciado": "Completa con -ing o to + infinitivo.", "frase": "Please remember ___ (switch) off the lights when you leave.", "respuestas": ["to switch"], "explicacion": "Acordarse de hacer algo pendiente: remember + to."},
-  {"id": "e03", "tipo": "hueco", "enunciado": "Completa con -ing o to + infinitivo.", "frase": "We were tired, so we stopped ___ (have) a coffee.", "respuestas": ["to have"], "explicacion": "Parar para hacer otra cosa: stop + to."},
-  {"id": "e04", "tipo": "hueco", "enunciado": "Completa con -ing o to + infinitivo.", "frase": "The printer isn't working. Have you tried ___ (turn) it off and on again?", "respuestas": ["turning"], "explicacion": "Probar algo como solución: try + -ing."},
-  {"id": "e05", "tipo": "hueco", "enunciado": "Completa con -ing o to + infinitivo.", "frase": "After a short pause, the speaker went on ___ (talk) for another hour.", "respuestas": ["talking"], "explicacion": "Seguir con la misma actividad: go on + -ing."},
-  {"id": "e06", "tipo": "eleccion", "enunciado": "Elige la opción correcta.", "frase": "I regret ___ him the truth; now he's angry with everyone.", "opciones": ["telling", "to tell", "tell"], "respuestas": ["telling"], "explicacion": "Arrepentirse de algo pasado: regret + -ing."},
-  {"id": "e07", "tipo": "eleccion", "enunciado": "Elige la opción correcta.", "frase": "My parents didn't let me ___ out late.", "opciones": ["stay", "to stay", "staying"], "respuestas": ["stay"], "explicacion": "Let + persona + infinitivo sin to."},
-  {"id": "e08", "tipo": "eleccion", "enunciado": "Elige la opción correcta.", "frase": "The manager expects everyone ___ on time.", "opciones": ["to arrive", "arrive", "arriving", "that arrive"], "respuestas": ["to arrive"], "explicacion": "Expect + persona + to + infinitivo."},
-  {"id": "e09", "tipo": "eleccion", "enunciado": "Elige la opción correcta.", "frase": "She trained as a nurse and went on ___ a hospital director.", "opciones": ["to become", "becoming", "become"], "respuestas": ["to become"], "explicacion": "Pasar a una etapa nueva: go on + to."},
-  {"id": "e10", "tipo": "corregir", "enunciado": "Corrige el error.", "frase": "I'd like that you meet my parents.", "respuestas": ["I'd like you to meet my parents.", "I would like you to meet my parents."], "explicacion": "Would like + persona + to + infinitivo."},
-  {"id": "e11", "tipo": "corregir", "enunciado": "Corrige el error.", "frase": "The film made me to cry.", "respuestas": ["The film made me cry."], "explicacion": "Make + persona + infinitivo sin to."},
-  {"id": "e12", "tipo": "corregir", "enunciado": "Corrige el error.", "frase": "He has stopped to drink coffee because it keeps him awake.", "respuestas": ["He has stopped drinking coffee because it keeps him awake."], "explicacion": "Dejar de hacer algo: stop + -ing."},
-  {"id": "e13", "tipo": "transformar", "enunciado": "Pasa la frase a pasiva empezando por We.", "frase": "The guards made us wait outside.", "respuestas": ["We were made to wait outside.", "We were made to wait outside by the guards."], "explicacion": "En pasiva, make recupera el to."},
-  {"id": "e14", "tipo": "ordenar", "enunciado": "Ordena las palabras.", "palabras": ["persuaded", "me", "she", "join", "to", "gym", "the"], "respuestas": ["she persuaded me to join the gym"], "explicacion": "Persuade + persona + to + infinitivo."},
-  {"id": "e15", "tipo": "ordenar", "enunciado": "Ordena las palabras.", "palabras": ["I", "posting", "remember", "the", "letter"], "respuestas": ["I remember posting the letter"], "explicacion": "Remember + -ing: recordar algo ya hecho."}
+  {
+   "id": "e01",
+   "tipo": "hueco",
+   "enunciado": "Completa con -ing o to + infinitivo.",
+   "frase": "I'll never forget ___ (see) the Northern Lights for the first time.",
+   "respuestas": [
+    "seeing"
+   ],
+   "explicacion": "Se aplica la fila de forget en la tabla: forget + -ing es olvidar algo vivido, y se usa sobre todo en negativa (I'll never forget). La pista es «for the first time»: se habla de una experiencia que ya ocurrió y que queda como recuerdo. Por eso forget seeing. Con to see significaría olvidarse de hacer algo pendiente.",
+   "explicacion_breve": "Recuerdo de algo vivido: forget + -ing.",
+   "traduccion": "Nunca olvidaré la primera vez que vi la aurora boreal.",
+   "errores_previstos": [
+    {
+     "respuesta": "to see",
+     "explicacion": "Forget + to es olvidarse de hacer algo que estaba pendiente; aquí es un recuerdo de algo vivido."
+    },
+    {
+     "respuesta": "see",
+     "explicacion": "Tras forget no va el infinitivo sin to."
+    },
+    {
+     "respuesta": "having see",
+     "explicacion": "La forma perfecta sería having seen, pero aquí basta y es lo natural seeing."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "Northern Lights",
+     "significado": "aurora boreal"
+    }
+   ]
+  },
+  {
+   "id": "e02",
+   "tipo": "hueco",
+   "enunciado": "Completa con -ing o to + infinitivo.",
+   "frase": "Please remember ___ (switch) off the lights when you leave.",
+   "respuestas": [
+    "to switch"
+   ],
+   "explicacion": "Se aplica la fila de remember: remember + to + infinitivo es acordarse de hacer algo pendiente. La pista es «when you leave»: la acción de apagar todavía no se ha hecho, está por delante. Por eso remember to switch off. Con switching sería recordar haber apagado algo antes.",
+   "explicacion_breve": "Acordarse de hacer algo pendiente: remember + to.",
+   "traduccion": "Por favor, acuérdate de apagar las luces cuando te vayas.",
+   "errores_previstos": [
+    {
+     "respuesta": "switching",
+     "explicacion": "Remember + -ing es recordar algo ya hecho; aquí la acción es futura y pendiente."
+    },
+    {
+     "respuesta": "of switching",
+     "explicacion": "Calco de «acordarse de»: remember no lleva preposición; para una tarea pendiente se usa to + infinitivo."
+    },
+    {
+     "respuesta": "switch",
+     "explicacion": "Falta to: remember + to + infinitivo."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "switch off",
+     "significado": "apagar (luz, aparato)"
+    }
+   ]
+  },
+  {
+   "id": "e03",
+   "tipo": "hueco",
+   "enunciado": "Completa con -ing o to + infinitivo.",
+   "frase": "We were tired, so we stopped ___ (have) a coffee.",
+   "respuestas": [
+    "to have"
+   ],
+   "explicacion": "Se aplica la fila de stop: stop + to + infinitivo es pararse para hacer otra cosa. La pista es «We were tired, so…»: dejan lo que estaban haciendo (viajar, caminar) con el propósito de tomar un café. Por eso stopped to have. Con having diría que dejaron de tomar café.",
+   "explicacion_breve": "Parar para hacer otra cosa: stop + to.",
+   "traduccion": "Estábamos cansados, así que paramos a tomar un café.",
+   "errores_previstos": [
+    {
+     "respuesta": "having",
+     "explicacion": "Stop + -ing significa dejar de hacer algo: diría que dejaron de tomar café, lo contrario de lo que se quiere decir."
+    },
+    {
+     "respuesta": "for having",
+     "explicacion": "Calco de «parar para»; el propósito se expresa con to + infinitivo, no con for + -ing."
+    },
+    {
+     "respuesta": "for have",
+     "explicacion": "For no introduce un infinitivo de finalidad en inglés; se dice to have."
+    }
+   ]
+  },
+  {
+   "id": "e04",
+   "tipo": "hueco",
+   "enunciado": "Completa con -ing o to + infinitivo.",
+   "frase": "The printer isn't working. Have you tried ___ (turn) it off and on again?",
+   "respuestas": [
+    "turning"
+   ],
+   "explicacion": "Se aplica la fila de try: try + -ing es probar algo como posible solución para ver si funciona. La pista es «The printer isn't working»: se propone un remedio. Por eso tried turning. Try + to significaría esforzarse por hacer algo difícil, que no es el caso.",
+   "explicacion_breve": "Probar algo como solución: try + -ing.",
+   "traduccion": "La impresora no funciona. ¿Has probado a apagarla y volverla a encender?",
+   "errores_previstos": [
+    {
+     "respuesta": "to turn",
+     "explicacion": "Try + to es intentar algo difícil; para sugerir una solución que se prueba se usa -ing."
+    },
+    {
+     "respuesta": "turn",
+     "explicacion": "Tras try no va el infinitivo sin to."
+    }
+   ]
+  },
+  {
+   "id": "e05",
+   "tipo": "hueco",
+   "enunciado": "Completa con -ing o to + infinitivo.",
+   "frase": "After a short pause, the speaker went on ___ (talk) for another hour.",
+   "respuestas": [
+    "talking"
+   ],
+   "explicacion": "Se aplica la fila de go on: go on + -ing es seguir haciendo lo mismo que se estaba haciendo. La pista es «After a short pause… for another hour»: retoma la misma actividad, hablar. Por eso went on talking. Go on + to indicaría pasar a una actividad nueva.",
+   "explicacion_breve": "Seguir con la misma actividad: go on + -ing.",
+   "traduccion": "Tras una breve pausa, el orador siguió hablando otra hora más.",
+   "errores_previstos": [
+    {
+     "respuesta": "to talk",
+     "explicacion": "Go on + to es pasar a hacer algo distinto; aquí continúa con lo mismo, así que es -ing."
+    },
+    {
+     "respuesta": "talk",
+     "explicacion": "Tras go on no va el infinitivo sin to."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "speaker",
+     "significado": "orador, ponente"
+    }
+   ]
+  },
+  {
+   "id": "e06",
+   "tipo": "eleccion",
+   "enunciado": "Elige la opción correcta.",
+   "frase": "I regret ___ him the truth; now he's angry with everyone.",
+   "opciones": [
+    "telling",
+    "to tell",
+    "tell"
+   ],
+   "respuestas": [
+    "telling"
+   ],
+   "explicacion": "Se aplica la fila de regret: regret + -ing es arrepentirse de algo ya hecho. La pista es la segunda parte, «now he's angry»: la acción de decir la verdad ya ocurrió y tuvo consecuencias. Por eso regret telling. Regret + to es una fórmula formal para comunicar malas noticias (We regret to inform you).",
+   "explicacion_breve": "Arrepentirse de algo pasado: regret + -ing.",
+   "traduccion": "Me arrepiento de haberle dicho la verdad; ahora está enfadado con todo el mundo.",
+   "por_opcion": {
+    "telling": "Correcta: regret + -ing para arrepentirse de algo pasado.",
+    "to tell": "Incorrecta aquí: regret to tell significa «lamento tener que decirle» y anuncia una mala noticia que se va a dar ahora.",
+    "tell": "Incorrecta: tras regret no va el infinitivo sin to."
+   }
+  },
+  {
+   "id": "e07",
+   "tipo": "eleccion",
+   "enunciado": "Elige la opción correcta.",
+   "frase": "My parents didn't let me ___ out late.",
+   "opciones": [
+    "stay",
+    "to stay",
+    "staying"
+   ],
+   "respuestas": [
+    "stay"
+   ],
+   "explicacion": "La ficha explica que make y let van con persona + infinitivo sin to. La pista es let me: let es «dejar, permitir» y exige el infinitivo desnudo. Por eso let me stay. Allow tiene el mismo significado pero sí lleva to (allowed me to stay).",
+   "explicacion_breve": "Let + persona + infinitivo sin to.",
+   "traduccion": "Mis padres no me dejaban quedarme fuera hasta tarde.",
+   "por_opcion": {
+    "stay": "Correcta: let + persona + infinitivo sin to.",
+    "to stay": "Incorrecta: con let no se usa to; sería correcto con allow (didn't allow me to stay).",
+    "staying": "Incorrecta: let no se construye con -ing."
+   }
+  },
+  {
+   "id": "e08",
+   "tipo": "eleccion",
+   "enunciado": "Elige la opción correcta.",
+   "frase": "The manager expects everyone ___ on time.",
+   "opciones": [
+    "to arrive",
+    "arrive",
+    "arriving",
+    "that arrive"
+   ],
+   "respuestas": [
+    "to arrive"
+   ],
+   "explicacion": "Expect está en la lista de verbos con persona + to + infinitivo. La pista es expects everyone: tras la persona, el verbo va con to. Donde el español usa «que» + subjuntivo («espera que lleguen»), el inglés usa objeto + to + infinitivo: expects everyone to arrive.",
+   "explicacion_breve": "Expect + persona + to + infinitivo.",
+   "traduccion": "El director espera que todos lleguen puntuales.",
+   "por_opcion": {
+    "to arrive": "Correcta: expect + persona + to + infinitivo.",
+    "arrive": "Incorrecta: falta to; solo make y let van sin to.",
+    "arriving": "Incorrecta: expect no lleva -ing tras la persona.",
+    "that arrive": "Incorrecta: calco del «que» español; además la frase no tiene sentido sin sujeto tras that. Con that haría falta expects that everyone arrives/will arrive, una construcción distinta."
+   }
+  },
+  {
+   "id": "e09",
+   "tipo": "eleccion",
+   "enunciado": "Elige la opción correcta.",
+   "frase": "She trained as a nurse and went on ___ a hospital director.",
+   "opciones": [
+    "to become",
+    "becoming",
+    "become"
+   ],
+   "respuestas": [
+    "to become"
+   ],
+   "explicacion": "Se aplica la fila de go on: go on + to + infinitivo es pasar a hacer algo nuevo, a una etapa siguiente. La pista es la secuencia «trained as a nurse and went on…»: después de formarse, su carrera avanza hacia otro puesto. Por eso went on to become. Con becoming diría que siguió convirtiéndose, lo cual no tiene sentido.",
+   "explicacion_breve": "Pasar a una etapa nueva: go on + to.",
+   "traduccion": "Se formó como enfermera y llegó a ser directora de un hospital.",
+   "por_opcion": {
+    "to become": "Correcta: go on + to para un paso nuevo en una secuencia (llegó a ser).",
+    "becoming": "Incorrecta: go on + -ing es continuar con lo mismo que se hacía, no pasar a otra etapa.",
+    "become": "Incorrecta: tras go on no va el infinitivo sin to."
+   }
+  },
+  {
+   "id": "e10",
+   "tipo": "corregir",
+   "enunciado": "Corrige el error.",
+   "frase": "I'd like that you meet my parents.",
+   "respuestas": [
+    "I'd like you to meet my parents.",
+    "I would like you to meet my parents."
+   ],
+   "explicacion": "Se aplica la estructura de la ficha: would like + persona + to + infinitivo. El error de la frase es el calco «me gustaría que + subjuntivo», con that. En inglés, la persona pasa a ser objeto (you) y el verbo va con to: I'd like you to meet. Se acepta también la forma sin contraer, I would like.",
+   "explicacion_breve": "Would like + persona + to + infinitivo.",
+   "traduccion": "Me gustaría que conocieras a mis padres.",
+   "errores_previstos": [
+    {
+     "respuesta": "I'd like that you meet my parents.",
+     "explicacion": "Es la frase sin corregir: would like no se construye con that + oración."
+    },
+    {
+     "respuesta": "I'd like you meet my parents.",
+     "explicacion": "Falta to: would like + persona + to + infinitivo."
+    },
+    {
+     "respuesta": "I'd like you to meeting my parents.",
+     "explicacion": "Tras to va el infinitivo, meet."
+    }
+   ]
+  },
+  {
+   "id": "e11",
+   "tipo": "corregir",
+   "enunciado": "Corrige el error.",
+   "frase": "The film made me to cry.",
+   "respuestas": [
+    "The film made me cry."
+   ],
+   "explicacion": "La ficha indica que make, en activa, va con persona + infinitivo sin to. La pista es made me: el sujeto provoca que alguien haga algo. Por eso made me cry, sin to. Solo en pasiva recupera el to (I was made to cry).",
+   "explicacion_breve": "Make + persona + infinitivo sin to.",
+   "traduccion": "La película me hizo llorar.",
+   "errores_previstos": [
+    {
+     "respuesta": "The film made me to cry.",
+     "explicacion": "Es la frase sin corregir: make en activa no lleva to."
+    },
+    {
+     "respuesta": "The film made me crying.",
+     "explicacion": "Make no se construye con -ing; va con infinitivo sin to."
+    },
+    {
+     "respuesta": "The film made me cried.",
+     "explicacion": "Tras make + persona va el infinitivo, no el pasado."
+    }
+   ]
+  },
+  {
+   "id": "e12",
+   "tipo": "corregir",
+   "enunciado": "Corrige el error.",
+   "frase": "He has stopped to drink coffee because it keeps him awake.",
+   "respuestas": [
+    "He has stopped drinking coffee because it keeps him awake."
+   ],
+   "explicacion": "Se aplica la fila de stop: stop + -ing es dejar de hacer algo. La pista es la causa, «because it keeps him awake»: ha abandonado el hábito. Con to drink la frase diría que se ha parado para tomar un café, lo que contradice la justificación. La corrección es stopped drinking.",
+   "explicacion_breve": "Dejar de hacer algo: stop + -ing.",
+   "traduccion": "Ha dejado de tomar café porque le quita el sueño.",
+   "errores_previstos": [
+    {
+     "respuesta": "He has stopped to drink coffee because it keeps him awake.",
+     "explicacion": "Es la frase sin corregir: stop + to significa pararse para tomar café."
+    },
+    {
+     "respuesta": "He has stopped drink coffee because it keeps him awake.",
+     "explicacion": "Tras stop hace falta -ing, no el infinitivo sin to."
+    },
+    {
+     "respuesta": "He has stopped of drinking coffee because it keeps him awake.",
+     "explicacion": "Calco de «dejar de»; stop va seguido directamente de -ing."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "keep someone awake",
+     "significado": "quitar el sueño, mantener despierto"
+    }
+   ]
+  },
+  {
+   "id": "e13",
+   "tipo": "transformar",
+   "enunciado": "Pasa la frase a pasiva empezando por We.",
+   "frase": "The guards made us wait outside.",
+   "respuestas": [
+    "We were made to wait outside.",
+    "We were made to wait outside by the guards."
+   ],
+   "explicacion": "La ficha señala que en pasiva make recupera el to: be made to + infinitivo. La pista es la consigna, que pide empezar por We y pasar a pasiva. El objeto us se convierte en sujeto We, el verbo made pasa a were made y el siguiente verbo lleva to: We were made to wait outside. El agente by the guards es opcional.",
+   "explicacion_breve": "En pasiva, make recupera el to.",
+   "traduccion": "Nos hicieron esperar fuera (los guardias).",
+   "errores_previstos": [
+    {
+     "respuesta": "We were made wait outside.",
+     "explicacion": "En pasiva make exige to: were made to wait."
+    },
+    {
+     "respuesta": "We were made to waiting outside.",
+     "explicacion": "Tras to va el infinitivo, wait."
+    },
+    {
+     "respuesta": "We made to wait outside.",
+     "explicacion": "Falta el auxiliar were; sin él no es pasiva y la frase no tiene sentido."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "guard",
+     "significado": "guardia, vigilante"
+    }
+   ]
+  },
+  {
+   "id": "e14",
+   "tipo": "ordenar",
+   "enunciado": "Ordena las palabras.",
+   "palabras": [
+    "persuaded",
+    "me",
+    "she",
+    "join",
+    "to",
+    "gym",
+    "the"
+   ],
+   "respuestas": [
+    "she persuaded me to join the gym"
+   ],
+   "explicacion": "Persuade está en la lista de verbos con persona + to + infinitivo. El orden es sujeto (she), verbo (persuaded), persona (me), to + infinitivo (to join) y complemento (the gym). En español decimos «me convenció para que me apuntara», con subordinada; en inglés basta el infinitivo con to.",
+   "explicacion_breve": "Persuade + persona + to + infinitivo.",
+   "traduccion": "Me convenció para que me apuntara al gimnasio.",
+   "errores_previstos": [
+    {
+     "respuesta": "she me persuaded to join the gym",
+     "explicacion": "El pronombre objeto me va detrás del verbo, no delante como en español."
+    },
+    {
+     "respuesta": "she persuaded to join me the gym",
+     "explicacion": "La persona va inmediatamente después de persuade: persuaded me to join."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "persuade",
+     "significado": "convencer, persuadir"
+    },
+    {
+     "palabra": "join the gym",
+     "significado": "apuntarse al gimnasio"
+    }
+   ]
+  },
+  {
+   "id": "e15",
+   "tipo": "ordenar",
+   "enunciado": "Ordena las palabras.",
+   "palabras": [
+    "I",
+    "posting",
+    "remember",
+    "the",
+    "letter"
+   ],
+   "respuestas": [
+    "I remember posting the letter"
+   ],
+   "explicacion": "Se aplica la fila de remember: remember + -ing es recordar algo ya hecho. La pista son las palabras dadas, con posting en -ing: la acción de echar la carta es anterior al recuerdo. El orden es sujeto, remember, verbo en -ing y su objeto: I remember posting the letter.",
+   "explicacion_breve": "Remember + -ing: recordar algo ya hecho.",
+   "traduccion": "Recuerdo haber echado la carta al correo.",
+   "errores_previstos": [
+    {
+     "respuesta": "I posting remember the letter",
+     "explicacion": "Remember es el verbo principal y va justo detrás del sujeto; posting va después."
+    },
+    {
+     "respuesta": "I remember the letter posting",
+     "explicacion": "El objeto the letter va detrás de posting (post the letter)."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "post a letter",
+     "significado": "echar una carta al correo (británico)"
+    }
+   ]
+  }
  ],
- "fuente": {"nombre": "propia"}
+ "fuente": {
+  "nombre": "propia"
+ },
+ "descripcion_larga_es": "Algunos verbos ingleses admiten -ing y to + infinitivo pero con significados distintos: remember, forget, stop, try, regret y go on. Otros exigen persona + to + infinitivo (I want you to stay), y make y let llevan infinitivo sin to. Es nivel B2 porque el error cambia el mensaje (dejar de fumar frente a pararse a fumar) y porque el español usa «que» + subjuntivo donde el inglés no.",
+ "contexto": {
+  "que_es": "Son tres patrones avanzados de verbo seguido de verbo. Primero, verbos cuyo significado cambia según vayan con -ing o con to (remember, forget, stop, try, regret, go on). Segundo, verbos que llevan persona + to + infinitivo (want, would like, expect, ask, tell, allow, persuade). Tercero, make y let, con persona + infinitivo sin to, salvo make en pasiva.",
+  "por_que_importa": "Equivocarse de forma no solo suena mal, sino que cambia el sentido: «He stopped to smoke» dice que se paró a fumar, no que lo dejó. La estructura want someone to do sustituye a la subordinada con «que» del español, y el calco «I want that you…» es uno de los errores más reconocibles de un hispanohablante. En un examen B2 estos contrastes se evalúan a menudo.",
+  "cuando_se_usa": "Cuando cuentas recuerdos y tareas (remember, forget), cambios de hábito (stop), soluciones que pruebas (try), arrepentimientos (regret) o lo que quieres o haces que otros hagan (want, make, let). La señal es el tiempo: -ing suele mirar a algo anterior o en curso; to, a algo posterior o pendiente. Donde el español dice «quiero que vengas», el inglés usa want you to come."
+ }
 }

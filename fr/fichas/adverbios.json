@@ -138,8 +138,20 @@
    "respuestas": [
     "lentement"
    ],
-   "explicacion": "Femenino lente + -ment.",
-   "origen": "tatoeba:1084333"
+   "explicacion": "Se aplica la regla de formación de la tabla «femenino + -ment»: se parte del femenino del adjetivo, «lente», y se añade -ment. La pista es que el hueco modifica al verbo «parler», así que hace falta un adverbio, no el adjetivo «lent». El resultado es «lentement», que se pronuncia con la t del femenino.",
+   "origen": "tatoeba:1084333",
+   "explicacion_breve": "Femenino lente + -ment.",
+   "traduccion": "Por favor, habla despacio.",
+   "errores_previstos": [
+    {
+     "respuesta": "lent",
+     "explicacion": "Es el adjetivo; para modificar al verbo «parler» hace falta el adverbio «lentement»."
+    },
+    {
+     "respuesta": "lentment",
+     "explicacion": "Se ha añadido -ment al masculino; hay que partir del femenino «lente»: «lentement»."
+    }
+   ]
   },
   {
    "id": "e02",
@@ -149,8 +161,20 @@
    "respuestas": [
     "fermement"
    ],
-   "explicacion": "Ferme + -ment (el femenino es igual al masculino).",
-   "origen": "tatoeba:7698698"
+   "explicacion": "Se aplica la regla de formación «femenino + -ment». Como «ferme» ya termina en -e, su femenino es idéntico al masculino y basta con añadir -ment: «fermement». La pista es el verbo «tiens» (sujeta), al que modifica el adverbio indicando el modo de sujetar.",
+   "origen": "tatoeba:7698698",
+   "explicacion_breve": "Ferme + -ment (el femenino es igual al masculino).",
+   "traduccion": "Sujeta la cuerda con firmeza.",
+   "errores_previstos": [
+    {
+     "respuesta": "ferme",
+     "explicacion": "Es el adjetivo; detrás de «tiens la corde» se necesita el adverbio «fermement»."
+    },
+    {
+     "respuesta": "fermment",
+     "explicacion": "Se ha suprimido la -e; el adverbio conserva el femenino completo: «fermement»."
+    }
+   ]
   },
   {
    "id": "e03",
@@ -160,8 +184,24 @@
    "respuestas": [
     "correctement"
    ],
-   "explicacion": "Femenino correcte + -ment.",
-   "origen": "tatoeba:1663723"
+   "explicacion": "Se aplica la regla «femenino + -ment»: el femenino de «correct» es «correcte», y con -ment da «correctement». La pista es que el hueco dice cómo «font» (hacen) la acción, así que hace falta un adverbio. Ojo a la ortografía: hay una e entre la t y -ment, que el español no tiene.",
+   "origen": "tatoeba:1663723",
+   "explicacion_breve": "Femenino correcte + -ment.",
+   "traduccion": "Lo hacen correctamente.",
+   "errores_previstos": [
+    {
+     "respuesta": "correctment",
+     "explicacion": "Falta la e del femenino: «correcte» + -ment = «correctement»."
+    },
+    {
+     "respuesta": "correct",
+     "explicacion": "Es el adjetivo; para modificar al verbo hace falta el adverbio."
+    },
+    {
+     "respuesta": "correctamente",
+     "explicacion": "Es la forma española; en francés el sufijo es -ment: «correctement»."
+    }
+   ]
   },
   {
    "id": "e04",
@@ -171,8 +211,20 @@
    "respuestas": [
     "exactement"
    ],
-   "explicacion": "Femenino exacte + -ment.",
-   "origen": "tatoeba:2809260"
+   "explicacion": "Se aplica la regla «femenino + -ment»: «exact» hace el femenino «exacte» y el adverbio es «exactement». Aquí el adverbio no modifica a un verbo sino a la expresión «minuit», precisando la hora, y por eso va justo delante, como en español. La forma debe llevar la e del femenino.",
+   "origen": "tatoeba:2809260",
+   "explicacion_breve": "Femenino exacte + -ment.",
+   "traduccion": "Son exactamente las doce de la noche.",
+   "errores_previstos": [
+    {
+     "respuesta": "exactment",
+     "explicacion": "Falta la e del femenino: «exacte» + -ment = «exactement»."
+    },
+    {
+     "respuesta": "exact",
+     "explicacion": "Es el adjetivo; para precisar la hora se usa el adverbio «exactement»."
+    }
+   ]
   },
   {
    "id": "e05",
@@ -183,8 +235,26 @@
     "Doucement",
     "doucement"
    ],
-   "explicacion": "Femenino douce + -ment: doucement.",
-   "origen": "tatoeba:864938"
+   "explicacion": "Se aplica la regla «femenino + -ment» con un adjetivo de femenino irregular: «doux» tiene el femenino «douce», y el adverbio es «doucement». La pista es que no se puede partir del masculino terminado en -x. «Doucement» significa suavemente o despacio, y es la palabra habitual para pedir calma.",
+   "origen": "tatoeba:864938",
+   "explicacion_breve": "Femenino douce + -ment: doucement.",
+   "traduccion": "Despacio, te lo ruego.",
+   "errores_previstos": [
+    {
+     "respuesta": "douxment",
+     "explicacion": "Se ha partido del masculino; hay que usar el femenino «douce»: «doucement»."
+    },
+    {
+     "respuesta": "doux",
+     "explicacion": "Es el adjetivo; para pedir que algo se haga despacio se usa el adverbio «doucement»."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "je te prie",
+     "significado": "te lo ruego, por favor"
+    }
+   ]
   },
   {
    "id": "e06",
@@ -196,8 +266,24 @@
     "évidemment",
     "Evidemment"
    ],
-   "explicacion": "-ent → -emment: évident → évidemment.",
-   "origen": "tatoeba:464080"
+   "explicacion": "Se aplica la regla de la tabla según la cual los adjetivos en -ent hacen el adverbio en -emment, que se pronuncia como «-amán». Así, «évident» da «évidemment», con dos m y sin pasar por el femenino. Se aceptan las variantes con mayúscula inicial, con o sin tilde en la E mayúscula, porque la palabra abre la frase.",
+   "origen": "tatoeba:464080",
+   "explicacion_breve": "-ent → -emment: évident → évidemment.",
+   "traduccion": "Evidentemente, tiene razón.",
+   "errores_previstos": [
+    {
+     "respuesta": "évidentement",
+     "explicacion": "Los adjetivos en -ent no forman el adverbio sobre el femenino: -ent pasa a -emment."
+    },
+    {
+     "respuesta": "évidamment",
+     "explicacion": "Se ha escrito como suena, pero la grafía sigue al adjetivo en -ent: «évidemment», con e."
+    },
+    {
+     "respuesta": "évidement",
+     "explicacion": "Falta una m: la terminación es -emment, con dos m."
+    }
+   ]
   },
   {
    "id": "e07",
@@ -212,7 +298,14 @@
    "respuestas": [
     "couramment"
    ],
-   "explicacion": "-ant → -amment: courant → couramment."
+   "explicacion": "Se aplica la regla de la tabla «-ant → -amment»: «courant» pierde -nt y añade -mment, dando «couramment», con dos m. La pista es que el adverbio modifica a «parle»: «parler couramment une langue» es la colocación habitual para decir que se habla con soltura.",
+   "explicacion_breve": "-ant → -amment: courant → couramment.",
+   "traduccion": "Habla francés con fluidez.",
+   "por_opcion": {
+    "couramment": "Correcta: forma regular de los adjetivos en -ant, con -amment y doble m.",
+    "courantement": "Incorrecta: los adjetivos en -ant no forman el adverbio sobre el femenino; esta forma no existe.",
+    "courament": "Incorrecta: falta una m; la terminación es -amment."
+   }
   },
   {
    "id": "e08",
@@ -227,7 +320,14 @@
    "respuestas": [
     "récemment"
    ],
-   "explicacion": "-ent → -emment: récent → récemment."
+   "explicacion": "Se aplica la regla de la tabla «-ent → -emment»: «récent» da «récemment», que se pronuncia «resamán» pero se escribe con e. La pista es que el adverbio va detrás del participio «vu», como corresponde a los adverbios de tiempo. Significa recientemente, hace poco.",
+   "explicacion_breve": "-ent → -emment: récent → récemment.",
+   "traduccion": "Lo vi hace poco.",
+   "por_opcion": {
+    "récemment": "Correcta: «récent» con la terminación -emment.",
+    "récentement": "Incorrecta: los adjetivos en -ent no se forman sobre el femenino; esta forma no existe.",
+    "récamment": "Incorrecta: se escribe como suena, pero el adjetivo es «récent», con e, y la terminación es -emment."
+   }
   },
   {
    "id": "e09",
@@ -242,7 +342,14 @@
    "respuestas": [
     "bien"
    ],
-   "explicacion": "Modifica al verbo écrire: hace falta el adverbio bien."
+   "explicacion": "Se aplica la distinción de la ficha entre adjetivo y adverbio: el adjetivo acompaña al nombre y el adverbio al verbo. Aquí el hueco dice cómo «écrit» Tex, así que hace falta un adverbio, y el adverbio de «bon» es irregular: «bien». «Très» puede preceder tanto a adjetivos como a adverbios, así que no sirve de pista.",
+   "explicacion_breve": "Modifica al verbo écrire: hace falta el adverbio bien.",
+   "traduccion": "Tex escribe muy bien.",
+   "por_opcion": {
+    "bien": "Correcta: adverbio irregular de «bon», modifica al verbo «écrit».",
+    "bon": "Incorrecta: es adjetivo; serviría para «un bon écrivain», no para modificar al verbo.",
+    "bonne": "Incorrecta: es el adjetivo femenino y no hay ningún nombre femenino al que acompañar."
+   }
   },
   {
    "id": "e10",
@@ -257,7 +364,14 @@
    "respuestas": [
     "tôt"
    ],
-   "explicacion": "Tôt = temprano (hora del día)."
+   "explicacion": "Se aplica la tabla de «tôt / tard» y «en avance / en retard». La pista es «avec le soleil»: se habla de la hora del día en que se levanta, no de un retraso respecto a una cita. Levantarse con el sol es levantarse pronto, así que la respuesta es «tôt».",
+   "explicacion_breve": "Tôt = temprano (hora del día).",
+   "traduccion": "Fiona se levanta con el sol: se levanta temprano.",
+   "por_opcion": {
+    "tôt": "Correcta: «tôt» significa temprano, referido a la hora del día.",
+    "tard": "Incorrecta: «tard» significa tarde (a una hora avanzada), lo contrario de levantarse con el sol.",
+    "en retard": "Incorrecta: «en retard» es con retraso respecto a una hora fijada; aquí no hay ninguna cita."
+   }
   },
   {
    "id": "e11",
@@ -267,8 +381,20 @@
    "respuestas": [
     "Il va rarement à l'église."
    ],
-   "explicacion": "El adverbio va detrás del verbo conjugado, no entre sujeto y verbo.",
-   "origen": "tatoeba:130875"
+   "explicacion": "Se aplica la regla de posición para tiempos simples: el adverbio va detrás del verbo conjugado y nunca entre el sujeto y el verbo. La frase pone «rarement» delante de «va», como haría el español («rara vez va»). Hay que moverlo detrás: «Il va rarement à l'église».",
+   "origen": "tatoeba:130875",
+   "explicacion_breve": "El adverbio va detrás del verbo conjugado, no entre sujeto y verbo.",
+   "traduccion": "Rara vez va a la iglesia.",
+   "errores_previstos": [
+    {
+     "respuesta": "Il rarement va à l'église.",
+     "explicacion": "Es la frase sin corregir: el adverbio no puede ir entre sujeto y verbo."
+    },
+    {
+     "respuesta": "Il va à l'église rarement.",
+     "explicacion": "No es imposible, pero la posición neutra es justo detrás del verbo: «Il va rarement à l'église»."
+    }
+   ]
   },
   {
    "id": "e12",
@@ -278,7 +404,19 @@
    "respuestas": [
     "J'ai bien dormi."
    ],
-   "explicacion": "Bien va entre el auxiliar y el participio."
+   "explicacion": "Se aplica la regla de posición en tiempos compuestos: los adverbios cortos y frecuentes como «bien» van entre el auxiliar y el participio. La frase lo coloca al final, como en español. Hay que escribir «J'ai bien dormi», con «bien» entre «ai» y «dormi».",
+   "explicacion_breve": "Bien va entre el auxiliar y el participio.",
+   "traduccion": "He dormido bien.",
+   "errores_previstos": [
+    {
+     "respuesta": "J'ai dormi bien.",
+     "explicacion": "Es la frase sin corregir: «bien» va entre el auxiliar y el participio."
+    },
+    {
+     "respuesta": "Je bien ai dormi.",
+     "explicacion": "El adverbio no va entre el sujeto y el auxiliar, sino entre el auxiliar y el participio."
+    }
+   ]
   },
   {
    "id": "e13",
@@ -288,7 +426,19 @@
    "respuestas": [
     "Elle a trop mangé."
    ],
-   "explicacion": "Trop es un adverbio corto: va entre a y mangé."
+   "explicacion": "Se aplica la regla de posición en tiempos compuestos: «trop» es uno de los adverbios cortos que van entre el auxiliar y el participio. Al pasar «Elle mange trop» al passé composé, el verbo se convierte en «a mangé» y el adverbio se mete en medio: «Elle a trop mangé».",
+   "explicacion_breve": "Trop es un adverbio corto: va entre a y mangé.",
+   "traduccion": "Ha comido demasiado.",
+   "errores_previstos": [
+    {
+     "respuesta": "Elle a mangé trop.",
+     "explicacion": "Calco del español «ha comido demasiado»: «trop» va entre el auxiliar y el participio."
+    },
+    {
+     "respuesta": "Elle est trop mangé.",
+     "explicacion": "«Manger» forma el passé composé con «avoir», no con «être»."
+    }
+   ]
   },
   {
    "id": "e14",
@@ -298,7 +448,19 @@
    "respuestas": [
     "J'ai bien compris."
    ],
-   "explicacion": "Bien se coloca entre el auxiliar y el participio."
+   "explicacion": "Se aplica la regla de posición en tiempos compuestos: «bien» va entre el auxiliar y el participio. Hay que conjugar «comprendre» en passé composé, cuyo participio es irregular, «compris». El resultado es «J'ai bien compris», con elisión de «je» ante «ai».",
+   "explicacion_breve": "Bien se coloca entre el auxiliar y el participio.",
+   "traduccion": "He entendido bien.",
+   "errores_previstos": [
+    {
+     "respuesta": "J'ai compris bien.",
+     "explicacion": "«Bien» no va al final: se coloca entre el auxiliar y el participio."
+    },
+    {
+     "respuesta": "J'ai bien comprendu.",
+     "explicacion": "El participio de «comprendre» es irregular: «compris»."
+    }
+   ]
   },
   {
    "id": "e15",
@@ -314,7 +476,19 @@
    "respuestas": [
     "J'ai déjà lu ce livre"
    ],
-   "explicacion": "Déjà va entre el auxiliar y el participio."
+   "explicacion": "Se aplica la regla de posición en tiempos compuestos: «déjà» es un adverbio corto que va entre el auxiliar y el participio. Por eso el orden es «J'ai» + «déjà» + «lu» + «ce livre». En español el adverbio puede ir delante («ya he leído»), pero en francés no puede ir delante del verbo conjugado.",
+   "explicacion_breve": "Déjà va entre el auxiliar y el participio.",
+   "traduccion": "Ya he leído este libro.",
+   "errores_previstos": [
+    {
+     "respuesta": "J'ai lu déjà ce livre",
+     "explicacion": "«Déjà» va entre el auxiliar y el participio, no detrás del participio."
+    },
+    {
+     "respuesta": "Déjà J'ai lu ce livre",
+     "explicacion": "Calco del español «ya he leído»: el adverbio no se antepone al verbo conjugado."
+    }
+   ]
   },
   {
    "id": "e16",
@@ -330,8 +504,20 @@
    "respuestas": [
     "Je vais rarement au cinéma"
    ],
-   "explicacion": "Tiempo simple: el adverbio va detrás del verbo conjugado.",
-   "origen": "tatoeba:6414"
+   "explicacion": "Se aplica la regla de posición en tiempos simples: el adverbio va inmediatamente detrás del verbo conjugado. Por eso el orden es «Je vais rarement au cinéma». «Rarement» significa raramente o rara vez y equivale aquí al español «voy poco».",
+   "origen": "tatoeba:6414",
+   "explicacion_breve": "Tiempo simple: el adverbio va detrás del verbo conjugado.",
+   "traduccion": "Voy poco al cine.",
+   "errores_previstos": [
+    {
+     "respuesta": "Je rarement vais au cinéma",
+     "explicacion": "El adverbio no puede ir entre el sujeto y el verbo conjugado."
+    },
+    {
+     "respuesta": "Je vais au cinéma rarement",
+     "explicacion": "Es posible en la lengua hablada, pero la posición normal es justo detrás del verbo: «Je vais rarement au cinéma»."
+    }
+   ]
   }
  ],
  "fuente": {
@@ -342,5 +528,11 @@
   "otras": [
    "Frases de Tatoeba (CC BY 2.0 FR)"
   ]
+ },
+ "descripcion_larga_es": "Esta ficha enseña a formar adverbios en -ment, el equivalente del español -mente, y a colocarlos bien. La formación tiene trampas (lentement desde el femenino, couramment, récemment, bien y mal irregulares) y la posición es más rígida que en español: nunca entre sujeto y verbo, y en los tiempos compuestos los adverbios cortos van entre el auxiliar y el participio.",
+ "contexto": {
+  "que_es": "El adverbio modifica a un verbo, a un adjetivo o a otro adverbio. En francés muchos se forman añadiendo -ment al femenino del adjetivo (lente, lentement), o al masculino si acaba en vocal (vrai, vraiment); los adjetivos en -ant y -ent dan -amment y -emment. La ficha también fija su posición en tiempos simples y compuestos.",
+  "por_que_importa": "Los adverbios están en casi todas las frases (bien, déjà, toujours, souvent, vraiment) y su posición se nota mucho: «il toujours arrive» o «j'ai dormi bien» suenan claramente extranjeros. Además, usar el adjetivo en lugar del adverbio («il parle lent») es un error que se penaliza. En un examen escrito, la ortografía de -amment y -emment es un clásico.",
+  "cuando_se_usa": "Cada vez que se dice cómo, cuándo, cuánto o con qué frecuencia ocurre algo. Las señales son un verbo que pide un modo (parler, écrire, tenir) o un tiempo compuesto en el que hay que decidir si el adverbio va antes o después del participio. El hispanohablante tiende a ponerlo entre sujeto y verbo, como en «siempre llega tarde», y a dejarlo al final en los tiempos compuestos."
  }
 }

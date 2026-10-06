@@ -6,55 +6,548 @@
  "nivel": "C1",
  "resumen": "Cuando una frase empieza por un adverbial negativo o restrictivo (never, rarely, not only, hardly, only then…), el auxiliar se coloca delante del sujeto, como en una pregunta. Es un recurso enfático y formal, muy útil en exposiciones y textos escritos.",
  "explicacion": [
-  {"tipo": "texto", "texto": "La estructura es: adverbial negativo + auxiliar + sujeto + verbo principal. Si la frase normal no tiene auxiliar (presente o pasado simple), se introduce do/does/did, igual que en las preguntas: I rarely see him → Rarely do I see him."},
-  {"tipo": "tabla", "cabecera": ["Adverbial", "Ejemplo con inversión", "Frase neutra equivalente"], "filas": [
-   ["Never / Never before", "Never have I seen such a crowd.", "I have never seen such a crowd."],
-   ["Rarely / Seldom", "Seldom does she complain.", "She seldom complains."],
-   ["Not only… but (also)", "Not only did he lie, but he also blamed me.", "He not only lied but also blamed me."],
-   ["Hardly / Scarcely… when", "Hardly had we sat down when the phone rang.", "We had hardly sat down when the phone rang."],
-   ["No sooner… than", "No sooner had she left than it started to rain.", "She had no sooner left than it started to rain."],
-   ["Little", "Little did they know what awaited them.", "They had no idea what awaited them."],
-   ["Under no circumstances / On no account", "Under no circumstances should you open this door.", "You should not open this door under any circumstances."],
-   ["Only then / Only when / Only after", "Only when I got home did I realise.", "I only realised when I got home."],
-   ["Not until", "Not until the next day did we hear the news.", "We didn't hear the news until the next day."]
-  ]},
-  {"tipo": "lista", "items": [
-   "Con Hardly, Scarcely y No sooner se suele usar el past perfect en la primera parte; Hardly y Scarcely van con when (o before) y No sooner va con than.",
-   "Con Only when, Only after y Not until la inversión se produce en la oración PRINCIPAL, no en la subordinada: Only when he apologised did she forgive him.",
-   "Con Not only, la segunda parte (but also) lleva orden normal.",
-   "Con el verbo be no hace falta auxiliar: Never was he so happy."
-  ]},
-  {"tipo": "texto", "texto": "Si el adverbial no va al principio, no hay inversión: I have never seen it. Tampoco la hay si only modifica al sujeto: Only Tom knew the answer (no «Only did Tom know»)."}
+  {
+   "tipo": "texto",
+   "texto": "La estructura es: adverbial negativo + auxiliar + sujeto + verbo principal. Si la frase normal no tiene auxiliar (presente o pasado simple), se introduce do/does/did, igual que en las preguntas: I rarely see him → Rarely do I see him."
+  },
+  {
+   "tipo": "tabla",
+   "cabecera": [
+    "Adverbial",
+    "Ejemplo con inversión",
+    "Frase neutra equivalente"
+   ],
+   "filas": [
+    [
+     "Never / Never before",
+     "Never have I seen such a crowd.",
+     "I have never seen such a crowd."
+    ],
+    [
+     "Rarely / Seldom",
+     "Seldom does she complain.",
+     "She seldom complains."
+    ],
+    [
+     "Not only… but (also)",
+     "Not only did he lie, but he also blamed me.",
+     "He not only lied but also blamed me."
+    ],
+    [
+     "Hardly / Scarcely… when",
+     "Hardly had we sat down when the phone rang.",
+     "We had hardly sat down when the phone rang."
+    ],
+    [
+     "No sooner… than",
+     "No sooner had she left than it started to rain.",
+     "She had no sooner left than it started to rain."
+    ],
+    [
+     "Little",
+     "Little did they know what awaited them.",
+     "They had no idea what awaited them."
+    ],
+    [
+     "Under no circumstances / On no account",
+     "Under no circumstances should you open this door.",
+     "You should not open this door under any circumstances."
+    ],
+    [
+     "Only then / Only when / Only after",
+     "Only when I got home did I realise.",
+     "I only realised when I got home."
+    ],
+    [
+     "Not until",
+     "Not until the next day did we hear the news.",
+     "We didn't hear the news until the next day."
+    ]
+   ]
+  },
+  {
+   "tipo": "lista",
+   "items": [
+    "Con Hardly, Scarcely y No sooner se suele usar el past perfect en la primera parte; Hardly y Scarcely van con when (o before) y No sooner va con than.",
+    "Con Only when, Only after y Not until la inversión se produce en la oración PRINCIPAL, no en la subordinada: Only when he apologised did she forgive him.",
+    "Con Not only, la segunda parte (but also) lleva orden normal.",
+    "Con el verbo be no hace falta auxiliar: Never was he so happy."
+   ]
+  },
+  {
+   "tipo": "texto",
+   "texto": "Si el adverbial no va al principio, no hay inversión: I have never seen it. Tampoco la hay si only modifica al sujeto: Only Tom knew the answer (no «Only did Tom know»)."
+  }
  ],
  "ejemplos": [
-  {"frase": "Never before had the city witnessed such a protest.", "traduccion": "Nunca antes había presenciado la ciudad una protesta así."},
-  {"frase": "Not only is the plan expensive, but it is also unrealistic.", "traduccion": "El plan no solo es caro, sino que además es poco realista."},
-  {"frase": "Hardly had the concert begun when the lights went out.", "traduccion": "Apenas había empezado el concierto cuando se apagaron las luces."},
-  {"frase": "Little did I suspect that she was my cousin.", "traduccion": "Poco podía sospechar yo que era mi prima."},
-  {"frase": "On no account must the patient be left alone.", "traduccion": "Bajo ningún concepto se debe dejar solo al paciente."},
-  {"frase": "Only after the vote did the minister admit the error.", "traduccion": "Solo después de la votación admitió el ministro el error."}
+  {
+   "frase": "Never before had the city witnessed such a protest.",
+   "traduccion": "Nunca antes había presenciado la ciudad una protesta así."
+  },
+  {
+   "frase": "Not only is the plan expensive, but it is also unrealistic.",
+   "traduccion": "El plan no solo es caro, sino que además es poco realista."
+  },
+  {
+   "frase": "Hardly had the concert begun when the lights went out.",
+   "traduccion": "Apenas había empezado el concierto cuando se apagaron las luces."
+  },
+  {
+   "frase": "Little did I suspect that she was my cousin.",
+   "traduccion": "Poco podía sospechar yo que era mi prima."
+  },
+  {
+   "frase": "On no account must the patient be left alone.",
+   "traduccion": "Bajo ningún concepto se debe dejar solo al paciente."
+  },
+  {
+   "frase": "Only after the vote did the minister admit the error.",
+   "traduccion": "Solo después de la votación admitió el ministro el error."
+  }
  ],
  "errores_hispanohablantes": [
-  {"mal": "Never I have seen such a mess.", "bien": "Never have I seen such a mess.", "nota": "En español basta con anteponer «nunca»; en inglés hay que invertir auxiliar y sujeto."},
-  {"mal": "Rarely she goes out at night.", "bien": "Rarely does she go out at night.", "nota": "En presente y pasado simple hay que añadir do/does/did y el verbo vuelve a la forma base."},
-  {"mal": "Only when he arrived we started.", "bien": "Only when he arrived did we start.", "nota": "La inversión va en la oración principal, no en la que sigue a only when."},
-  {"mal": "No sooner had we arrived when it began to snow.", "bien": "No sooner had we arrived than it began to snow.", "nota": "No sooner se combina con than; hardly y scarcely, con when."}
+  {
+   "mal": "Never I have seen such a mess.",
+   "bien": "Never have I seen such a mess.",
+   "nota": "En español basta con anteponer «nunca»; en inglés hay que invertir auxiliar y sujeto."
+  },
+  {
+   "mal": "Rarely she goes out at night.",
+   "bien": "Rarely does she go out at night.",
+   "nota": "En presente y pasado simple hay que añadir do/does/did y el verbo vuelve a la forma base."
+  },
+  {
+   "mal": "Only when he arrived we started.",
+   "bien": "Only when he arrived did we start.",
+   "nota": "La inversión va en la oración principal, no en la que sigue a only when."
+  },
+  {
+   "mal": "No sooner had we arrived when it began to snow.",
+   "bien": "No sooner had we arrived than it began to snow.",
+   "nota": "No sooner se combina con than; hardly y scarcely, con when."
+  }
  ],
  "ejercicios": [
-  {"id": "e01", "tipo": "eleccion", "enunciado": "Elige la opción correcta.", "frase": "Never ___ such a beautiful sunset.", "opciones": ["I have seen", "have I seen", "I saw", "seen I have"], "respuestas": ["have I seen"], "explicacion": "Tras never al principio, el auxiliar va delante del sujeto."},
-  {"id": "e02", "tipo": "eleccion", "enunciado": "Elige la opción correcta.", "frase": "No sooner had he sat down ___ the doorbell rang.", "opciones": ["when", "than", "that", "then"], "respuestas": ["than"], "explicacion": "No sooner se construye con than."},
-  {"id": "e03", "tipo": "eleccion", "enunciado": "Elige la opción correcta.", "frase": "Only when the results came out ___ how serious the problem was.", "opciones": ["we realised", "did we realise", "we did realise", "realised we"], "respuestas": ["did we realise"], "explicacion": "Con only when, la inversión se aplica en la oración principal y se añade did."},
-  {"id": "e04", "tipo": "hueco", "enunciado": "Completa con el auxiliar adecuado.", "frase": "Seldom ___ my grandmother watch television; she prefers the radio.", "respuestas": ["does"], "explicacion": "Presente simple con sujeto en tercera persona: se usa does y el verbo en forma base."},
-  {"id": "e05", "tipo": "hueco", "enunciado": "Completa con el auxiliar adecuado.", "frase": "Little ___ they know that the house had been sold.", "respuestas": ["did"], "explicacion": "Little con valor negativo en pasado simple exige did delante del sujeto."},
-  {"id": "e06", "tipo": "hueco", "enunciado": "Completa con una palabra.", "frase": "Scarcely had the train left the station ___ it broke down.", "respuestas": ["when", "before"], "explicacion": "Scarcely… when (o before) expresa que algo ocurrió inmediatamente después."},
-  {"id": "e07", "tipo": "hueco", "enunciado": "Completa con el auxiliar adecuado.", "frase": "Under no circumstances ___ visitors feed the animals.", "respuestas": ["should", "must", "may", "can"], "explicacion": "Tras under no circumstances va un modal antes del sujeto."},
-  {"id": "e08", "tipo": "transformar", "enunciado": "Reescribe la frase empezando por «Never».", "frase": "I have never been so embarrassed.", "respuestas": ["Never have I been so embarrassed.", "Never before have I been so embarrassed."], "explicacion": "Se antepone never y se invierte el auxiliar have con el sujeto."},
-  {"id": "e09", "tipo": "transformar", "enunciado": "Reescribe la frase empezando por «Rarely».", "frase": "We rarely eat out during the week.", "respuestas": ["Rarely do we eat out during the week."], "explicacion": "En presente simple se introduce do delante del sujeto."},
-  {"id": "e10", "tipo": "transformar", "enunciado": "Reescribe la frase empezando por «Not until».", "frase": "She didn't call me until midnight.", "respuestas": ["Not until midnight did she call me."], "explicacion": "Not until + complemento va delante y la oración principal se invierte con did."},
-  {"id": "e11", "tipo": "corregir", "enunciado": "Corrige el error.", "frase": "Not only she speaks French, but she also speaks Russian.", "respuestas": ["Not only does she speak French, but she also speaks Russian.", "Not only does she speak French, but she speaks Russian too.", "Not only does she speak French but she also speaks Russian."], "explicacion": "La primera parte, tras not only, necesita does + sujeto + verbo base."},
-  {"id": "e12", "tipo": "corregir", "enunciado": "Corrige el error.", "frase": "Hardly we had finished dinner when the guests arrived.", "respuestas": ["Hardly had we finished dinner when the guests arrived."], "explicacion": "Tras hardly al principio, el auxiliar had va antes del sujeto."},
-  {"id": "e13", "tipo": "ordenar", "enunciado": "Ordena las palabras.", "palabras": ["account", "you", "On", "no", "must", "tell", "him"], "respuestas": ["On no account must you tell him"], "explicacion": "On no account + modal + sujeto + verbo."},
-  {"id": "e14", "tipo": "ordenar", "enunciado": "Ordena las palabras.", "palabras": ["had", "Never", "felt", "she", "so", "alone"], "respuestas": ["Never had she felt so alone"], "explicacion": "Never + had + sujeto + participio."}
+  {
+   "id": "e01",
+   "tipo": "eleccion",
+   "enunciado": "Elige la opción correcta.",
+   "frase": "Never ___ such a beautiful sunset.",
+   "opciones": [
+    "I have seen",
+    "have I seen",
+    "I saw",
+    "seen I have"
+   ],
+   "respuestas": [
+    "have I seen"
+   ],
+   "explicacion": "Se aplica la regla de la ficha: adverbial negativo + auxiliar + sujeto + verbo principal. La pista es Never al principio de la frase. El auxiliar have pasa delante de I y el participio seen queda detrás: Never have I seen. En español basta con anteponer «nunca», y por eso el error típico es mantener I have.",
+   "explicacion_breve": "Tras never al principio, el auxiliar va delante del sujeto.",
+   "traduccion": "Nunca había visto una puesta de sol tan bonita.",
+   "por_opcion": {
+    "I have seen": "Incorrecta: con never al principio hay que invertir; es el error típico que recoge la ficha.",
+    "have I seen": "Correcta: auxiliar delante del sujeto tras never inicial.",
+    "I saw": "Incorrecta: falta la inversión; con pasado simple haría falta did (Never did I see…).",
+    "seen I have": "Incorrecta: el participio no va delante; el orden es auxiliar + sujeto + participio."
+   },
+   "glosario": [
+    {
+     "palabra": "sunset",
+     "significado": "puesta de sol"
+    }
+   ]
+  },
+  {
+   "id": "e02",
+   "tipo": "eleccion",
+   "enunciado": "Elige la opción correcta.",
+   "frase": "No sooner had he sat down ___ the doorbell rang.",
+   "opciones": [
+    "when",
+    "than",
+    "that",
+    "then"
+   ],
+   "respuestas": [
+    "than"
+   ],
+   "explicacion": "Se aplica la regla de la ficha según la cual no sooner se combina con than, mientras que hardly y scarcely van con when. La pista es No sooner al principio, ya con la inversión had he sat down. La palabra que introduce la segunda acción es than, porque no sooner es en origen un comparativo («no antes… que»).",
+   "explicacion_breve": "No sooner se construye con than.",
+   "traduccion": "Nada más sentarse, sonó el timbre.",
+   "por_opcion": {
+    "when": "Incorrecta: when va con hardly y scarcely, no con no sooner (error típico de la ficha).",
+    "than": "Correcta: no sooner… than es la combinación fija.",
+    "that": "Incorrecta: that no forma esta correlación.",
+    "then": "Incorrecta: then («entonces») se confunde con than por su parecido, pero no forma la estructura."
+   },
+   "glosario": [
+    {
+     "palabra": "doorbell",
+     "significado": "timbre de la puerta"
+    }
+   ]
+  },
+  {
+   "id": "e03",
+   "tipo": "eleccion",
+   "enunciado": "Elige la opción correcta.",
+   "frase": "Only when the results came out ___ how serious the problem was.",
+   "opciones": [
+    "we realised",
+    "did we realise",
+    "we did realise",
+    "realised we"
+   ],
+   "respuestas": [
+    "did we realise"
+   ],
+   "explicacion": "Se aplica la regla de la ficha: con only when la inversión se aplica en la oración principal, no en la que sigue a only when. La pista es que Only when the results came out ya es una oración completa sin invertir; la principal viene después. Como está en pasado simple, se introduce did y el verbo vuelve a la forma base: did we realise.",
+   "explicacion_breve": "Con only when, la inversión se aplica en la oración principal y se añade did.",
+   "traduccion": "Solo cuando salieron los resultados nos dimos cuenta de lo grave que era el problema.",
+   "por_opcion": {
+    "we realised": "Incorrecta: falta la inversión en la oración principal (error típico de la ficha).",
+    "did we realise": "Correcta: inversión con did en la oración principal.",
+    "we did realise": "Incorrecta: did está, pero sin invertir con el sujeto; el auxiliar debe ir delante.",
+    "realised we": "Incorrecta: en esta inversión no se antepone el verbo léxico, sino un auxiliar (did)."
+   }
+  },
+  {
+   "id": "e04",
+   "tipo": "hueco",
+   "enunciado": "Completa con el auxiliar adecuado.",
+   "frase": "Seldom ___ my grandmother watch television; she prefers the radio.",
+   "respuestas": [
+    "does"
+   ],
+   "explicacion": "Se aplica la regla de la ficha: si la frase no tiene auxiliar (presente o pasado simple), se introduce do, does o did. La pista es Seldom al principio, el sujeto my grandmother (tercera persona del singular) y el verbo watch en forma base detrás. Por eso el auxiliar es does, que lleva la marca de presente y de tercera persona.",
+   "explicacion_breve": "Presente simple con sujeto en tercera persona: se usa does y el verbo en forma base.",
+   "traduccion": "Mi abuela rara vez ve la televisión; prefiere la radio.",
+   "errores_previstos": [
+    {
+     "respuesta": "do",
+     "explicacion": "Con un sujeto en tercera persona del singular el auxiliar es does."
+    },
+    {
+     "respuesta": "did",
+     "explicacion": "La frase está en presente (prefers); did sería pasado."
+    },
+    {
+     "respuesta": "is",
+     "explicacion": "Be no sirve de auxiliar para watch en presente simple; hace falta does."
+    }
+   ]
+  },
+  {
+   "id": "e05",
+   "tipo": "hueco",
+   "enunciado": "Completa con el auxiliar adecuado.",
+   "frase": "Little ___ they know that the house had been sold.",
+   "respuestas": [
+    "did"
+   ],
+   "explicacion": "Se aplica la regla de la ficha: little con valor negativo al principio exige inversión. La pista es Little al comienzo, el sujeto they, el verbo know en forma base y el pluscuamperfecto had been sold, que sitúa la frase en el pasado. Como el verbo está en pasado simple, el auxiliar es did: Little did they know.",
+   "explicacion_breve": "Little con valor negativo en pasado simple exige did delante del sujeto.",
+   "traduccion": "Poco sabían ellos que la casa había sido vendida.",
+   "errores_previstos": [
+    {
+     "respuesta": "do",
+     "explicacion": "El relato está en pasado (had been sold); hace falta did."
+    },
+    {
+     "respuesta": "had",
+     "explicacion": "Had necesitaría participio (known); con know en forma base el auxiliar es did."
+    },
+    {
+     "respuesta": "knew",
+     "explicacion": "El verbo know ya está en la frase; el hueco es para el auxiliar did."
+    }
+   ]
+  },
+  {
+   "id": "e06",
+   "tipo": "hueco",
+   "enunciado": "Completa con una palabra.",
+   "frase": "Scarcely had the train left the station ___ it broke down.",
+   "respuestas": [
+    "when",
+    "before"
+   ],
+   "explicacion": "Se aplica la regla de la ficha: hardly y scarcely se combinan con when, mientras que no sooner va con than. La pista es Scarcely al principio, con la inversión had the train left. Se acepta when y también before, que expresa la misma idea de inmediatez. Lo que no vale es than, reservado a no sooner.",
+   "explicacion_breve": "Scarcely… when (o before) expresa que algo ocurrió inmediatamente después.",
+   "traduccion": "Apenas había salido el tren de la estación cuando se averió.",
+   "errores_previstos": [
+    {
+     "respuesta": "than",
+     "explicacion": "Than va con no sooner; con scarcely se usa when (o before)."
+    },
+    {
+     "respuesta": "that",
+     "explicacion": "That no forma esta correlación temporal."
+    },
+    {
+     "respuesta": "then",
+     "explicacion": "Then («entonces») no introduce la segunda acción en esta estructura."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "scarcely",
+     "significado": "apenas"
+    },
+    {
+     "palabra": "to break down",
+     "significado": "averiarse, estropearse"
+    }
+   ]
+  },
+  {
+   "id": "e07",
+   "tipo": "hueco",
+   "enunciado": "Completa con el auxiliar adecuado.",
+   "frase": "Under no circumstances ___ visitors feed the animals.",
+   "respuestas": [
+    "should",
+    "must",
+    "may",
+    "can"
+   ],
+   "explicacion": "Se aplica la regla de la ficha: tras under no circumstances va un auxiliar, normalmente un modal, delante del sujeto. La pista es la expresión negativa al principio y el verbo feed en forma base. Se aceptan should, must, may y can, porque todos son modales que expresan prohibición u obligación en este contexto; should y must son los más habituales en avisos.",
+   "explicacion_breve": "Tras under no circumstances va un modal antes del sujeto.",
+   "traduccion": "Bajo ninguna circunstancia deben los visitantes dar de comer a los animales.",
+   "errores_previstos": [
+    {
+     "respuesta": "are",
+     "explicacion": "Be no puede ir seguido de feed en forma base; tras el adverbial negativo hace falta un modal como should o must."
+    },
+    {
+     "respuesta": "visitors",
+     "explicacion": "El sujeto ya está detrás del hueco; falta el auxiliar invertido."
+    },
+    {
+     "respuesta": "musn't",
+     "explicacion": "Además de estar mal escrita (mustn't), duplica la negación, porque under no circumstances ya es negativo."
+    }
+   ]
+  },
+  {
+   "id": "e08",
+   "tipo": "transformar",
+   "enunciado": "Reescribe la frase empezando por «Never».",
+   "frase": "I have never been so embarrassed.",
+   "respuestas": [
+    "Never have I been so embarrassed.",
+    "Never before have I been so embarrassed."
+   ],
+   "explicacion": "Se aplica la regla de la ficha: se antepone never y se invierte el auxiliar have con el sujeto. La pista es la frase original I have never been, que ya tiene auxiliar (have). Al empezar por Never, queda Never have I been so embarrassed. Se acepta también Never before have I been, que añade énfasis.",
+   "explicacion_breve": "Se antepone never y se invierte el auxiliar have con el sujeto.",
+   "traduccion": "Nunca había pasado tanta vergüenza.",
+   "errores_previstos": [
+    {
+     "respuesta": "Never I have been so embarrassed.",
+     "explicacion": "Antepone never pero no invierte; es el error típico de la ficha."
+    },
+    {
+     "respuesta": "Never have I never been so embarrassed.",
+     "explicacion": "Repite never; la negación ya está al principio."
+    },
+    {
+     "respuesta": "Never did I have been so embarrassed.",
+     "explicacion": "La frase ya tiene auxiliar (have); no se añade did."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "embarrassed",
+     "significado": "avergonzado, apurado (no «embarazada»)"
+    }
+   ]
+  },
+  {
+   "id": "e09",
+   "tipo": "transformar",
+   "enunciado": "Reescribe la frase empezando por «Rarely».",
+   "frase": "We rarely eat out during the week.",
+   "respuestas": [
+    "Rarely do we eat out during the week."
+   ],
+   "explicacion": "Se aplica la regla de la ficha: en presente simple se introduce do delante del sujeto. La pista es la frase original We rarely eat, sin auxiliar, y la orden de empezar por Rarely. Con we el auxiliar es do y el verbo queda en forma base: Rarely do we eat out.",
+   "explicacion_breve": "En presente simple se introduce do delante del sujeto.",
+   "traduccion": "Rara vez comemos fuera entre semana.",
+   "errores_previstos": [
+    {
+     "respuesta": "Rarely we eat out during the week.",
+     "explicacion": "Antepone rarely pero no invierte; es el error típico de la ficha."
+    },
+    {
+     "respuesta": "Rarely eat we out during the week.",
+     "explicacion": "En inglés actual no se invierte el verbo léxico; se introduce do."
+    },
+    {
+     "respuesta": "Rarely does we eat out during the week.",
+     "explicacion": "Con we el auxiliar es do, no does."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "to eat out",
+     "significado": "comer fuera, comer en un restaurante"
+    }
+   ]
+  },
+  {
+   "id": "e10",
+   "tipo": "transformar",
+   "enunciado": "Reescribe la frase empezando por «Not until».",
+   "frase": "She didn't call me until midnight.",
+   "respuestas": [
+    "Not until midnight did she call me."
+   ],
+   "explicacion": "Se aplica la regla de la ficha: con not until el complemento va delante y la oración principal se invierte con did. La pista es la frase original She didn't call me until midnight y la orden de empezar por Not until. La negación pasa a not until midnight, por eso didn't desaparece y queda did she call, en afirmativa invertida.",
+   "explicacion_breve": "Not until + complemento va delante y la oración principal se invierte con did.",
+   "traduccion": "No me llamó hasta medianoche.",
+   "errores_previstos": [
+    {
+     "respuesta": "Not until midnight she called me.",
+     "explicacion": "Falta la inversión en la oración principal: did she call."
+    },
+    {
+     "respuesta": "Not until midnight didn't she call me.",
+     "explicacion": "Duplica la negación; not until ya es negativo, así que se usa did."
+    },
+    {
+     "respuesta": "Not until midnight did she called me.",
+     "explicacion": "Tras did el verbo va en forma base: call."
+    }
+   ]
+  },
+  {
+   "id": "e11",
+   "tipo": "corregir",
+   "enunciado": "Corrige el error.",
+   "frase": "Not only she speaks French, but she also speaks Russian.",
+   "respuestas": [
+    "Not only does she speak French, but she also speaks Russian.",
+    "Not only does she speak French, but she speaks Russian too.",
+    "Not only does she speak French but she also speaks Russian."
+   ],
+   "explicacion": "Se aplica la regla de la ficha: tras not only al principio hay inversión, y en presente simple se introduce does. La pista es Not only she speaks, sin auxiliar ni inversión. La primera parte queda Not only does she speak French, con el verbo en forma base; la segunda, con but also, mantiene el orden normal. Se aceptan las variantes con also o con too y con o sin coma.",
+   "explicacion_breve": "La primera parte, tras not only, necesita does + sujeto + verbo base.",
+   "traduccion": "No solo habla francés, sino que también habla ruso.",
+   "errores_previstos": [
+    {
+     "respuesta": "Not only she speaks French, but she also speaks Russian.",
+     "explicacion": "Deja la frase sin corregir: tras not only inicial hace falta does + sujeto + verbo base."
+    },
+    {
+     "respuesta": "Not only does she speaks French, but she also speaks Russian.",
+     "explicacion": "Tras does el verbo va en forma base: speak."
+    },
+    {
+     "respuesta": "Not only does she speak French, but also does she speak Russian.",
+     "explicacion": "La inversión solo afecta a la parte de not only; tras but also va el orden normal."
+    }
+   ]
+  },
+  {
+   "id": "e12",
+   "tipo": "corregir",
+   "enunciado": "Corrige el error.",
+   "frase": "Hardly we had finished dinner when the guests arrived.",
+   "respuestas": [
+    "Hardly had we finished dinner when the guests arrived."
+   ],
+   "explicacion": "Se aplica la regla de la ficha: tras hardly al principio, el auxiliar had va antes del sujeto, y hardly se combina con when. La pista es Hardly al comienzo y el pluscuamperfecto we had finished. Se invierte had con we: Hardly had we finished dinner when the guests arrived.",
+   "explicacion_breve": "Tras hardly al principio, el auxiliar had va antes del sujeto.",
+   "traduccion": "Apenas habíamos terminado de cenar cuando llegaron los invitados.",
+   "errores_previstos": [
+    {
+     "respuesta": "Hardly we had finished dinner when the guests arrived.",
+     "explicacion": "Deja la frase sin corregir: tras hardly inicial hay que invertir had y el sujeto."
+    },
+    {
+     "respuesta": "Hardly had we finished dinner than the guests arrived.",
+     "explicacion": "Invierte bien, pero cambia when por than; hardly va con when."
+    },
+    {
+     "respuesta": "Hardly did we finish dinner when the guests arrived.",
+     "explicacion": "La frase ya tiene auxiliar (had); no se sustituye por did."
+    }
+   ]
+  },
+  {
+   "id": "e13",
+   "tipo": "ordenar",
+   "enunciado": "Ordena las palabras.",
+   "palabras": [
+    "account",
+    "you",
+    "On",
+    "no",
+    "must",
+    "tell",
+    "him"
+   ],
+   "respuestas": [
+    "On no account must you tell him"
+   ],
+   "explicacion": "Se aplica la regla de la ficha: on no account + modal + sujeto + verbo. La pista es la expresión On no account («bajo ningún concepto»), que forma un adverbial negativo y exige inversión. El modal must pasa delante de you y el verbo tell queda detrás: On no account must you tell him.",
+   "explicacion_breve": "On no account + modal + sujeto + verbo.",
+   "traduccion": "Bajo ningún concepto debes decírselo.",
+   "errores_previstos": [
+    {
+     "respuesta": "On no account you must tell him",
+     "explicacion": "Antepone la expresión negativa pero no invierte el modal y el sujeto."
+    },
+    {
+     "respuesta": "On account no must you tell him",
+     "explicacion": "Rompe la expresión fija on no account."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "on no account",
+     "significado": "bajo ningún concepto"
+    }
+   ]
+  },
+  {
+   "id": "e14",
+   "tipo": "ordenar",
+   "enunciado": "Ordena las palabras.",
+   "palabras": [
+    "had",
+    "Never",
+    "felt",
+    "she",
+    "so",
+    "alone"
+   ],
+   "respuestas": [
+    "Never had she felt so alone"
+   ],
+   "explicacion": "Se aplica la regla de la ficha: never + had + sujeto + participio. La pista es Never junto al pluscuamperfecto had felt. El auxiliar had pasa delante de she y el participio felt queda detrás: Never had she felt so alone.",
+   "explicacion_breve": "Never + had + sujeto + participio.",
+   "traduccion": "Nunca se había sentido tan sola.",
+   "errores_previstos": [
+    {
+     "respuesta": "Never she had felt so alone",
+     "explicacion": "Antepone never pero no invierte; es el calco del español."
+    },
+    {
+     "respuesta": "Never had felt she so alone",
+     "explicacion": "Solo se invierte el auxiliar; el participio va detrás del sujeto."
+    }
+   ]
+  }
  ],
- "fuente": {"nombre": "propia"}
+ "fuente": {
+  "nombre": "propia"
+ },
+ "descripcion_larga_es": "Cuando una frase empieza por un adverbial negativo o restrictivo (never, rarely, not only, hardly, only then, under no circumstances…), el inglés coloca el auxiliar delante del sujeto, como en una pregunta. Es un recurso enfático y formal muy valorado en exposiciones y textos escritos. Al hispanohablante le cuesta porque en español basta con anteponer «nunca» sin cambiar nada más.",
+ "contexto": {
+  "que_es": "Es la inversión de auxiliar y sujeto que se produce cuando un adverbial negativo o restrictivo va al principio de la frase. La estructura es adverbial + auxiliar + sujeto + verbo principal; si la frase normal no tiene auxiliar (presente o pasado simple), se introduce do, does o did y el verbo vuelve a la forma base.",
+  "por_que_importa": "Es una de las marcas más reconocibles de un inglés culto y enfático, y aparece con frecuencia en discursos, artículos de opinión, informes y exámenes de nivel avanzado. Bien usada da fuerza a un argumento (Not only… but also…); mal usada (Never I have seen…) delata un calco del español. Algunas combinaciones fijas (no sooner… than, hardly… when) se evalúan a menudo.",
+  "cuando_se_usa": "Se usa en registro formal o para dar énfasis, sobre todo al principio de un párrafo o de un argumento. Las señales son never, rarely, seldom, little, hardly, scarcely, no sooner, not only, not until, only when y expresiones como under no circumstances u on no account. El hispanohablante tiende a anteponer el adverbio sin invertir, o a invertir en la oración equivocada tras only when y not until."
+ }
 }

@@ -6,57 +6,539 @@
  "nivel": "A2",
  "resumen": "La mayoría de los adjetivos franceses van detrás del nombre, pero un grupo pequeño y muy frecuente va delante, y algunos cambian de significado según el lugar, como en español «un gran hombre» / «un hombre grande».",
  "explicacion": [
-  {"tipo": "texto", "texto": "Regla general: el adjetivo va detrás del nombre, sobre todo los de color, forma, nacionalidad o los largos: un béret rond, une voiture rouge, la langue française, des tatous intelligents."},
-  {"tipo": "texto", "texto": "Un grupo de adjetivos cortos y frecuentes va normalmente delante. En inglés se recuerdan con la sigla BANGS (Beauty, Age, Number, Goodness, Size): belleza, edad, número, bondad y tamaño."},
-  {"tipo": "tabla", "cabecera": ["Tipo", "Adjetivos", "Ejemplo"], "filas": [
-   ["Belleza", "beau, joli", "une jolie maison"],
-   ["Edad", "jeune, vieux, nouveau", "un jeune homme"],
-   ["Número y orden", "premier, deuxième, dernier, autre", "la première photo"],
-   ["Bondad", "bon, mauvais", "un mauvais signe"],
-   ["Tamaño", "grand, petit, gros", "un petit chien"]
-  ]},
-  {"tipo": "texto", "texto": "Beau, nouveau y vieux, al ir delante, tienen una forma especial para el masculino singular ante vocal o h muda: un bel arbre, un nouvel appartement, un vieil homme."},
-  {"tipo": "tabla", "cabecera": ["Adjetivo", "Delante (sentido figurado)", "Detrás (sentido literal)"], "filas": [
-   ["ancien", "mon ancienne copine (mi ex)", "des meubles anciens (antiguos)"],
-   ["cher", "chers amis (queridos)", "des parfums chers (caros)"],
-   ["dernier", "la dernière fois (la última de una serie)", "la semaine dernière (la pasada)"],
-   ["grand", "un grand philosophe (gran)", "un homme grand (alto)"],
-   ["pauvre", "le pauvre Tex (desgraciado)", "un tatou pauvre (sin dinero)"],
-   ["propre", "son propre restaurant (propio)", "un escargot propre (limpio)"],
-   ["seul", "le seul tatou (único)", "un homme seul (solo)"],
-   ["même", "le même tatou (mismo)", "l'hypocrisie même (en persona)"]
-  ]}
+  {
+   "tipo": "texto",
+   "texto": "Regla general: el adjetivo va detrás del nombre, sobre todo los de color, forma, nacionalidad o los largos: un béret rond, une voiture rouge, la langue française, des tatous intelligents."
+  },
+  {
+   "tipo": "texto",
+   "texto": "Un grupo de adjetivos cortos y frecuentes va normalmente delante. En inglés se recuerdan con la sigla BANGS (Beauty, Age, Number, Goodness, Size): belleza, edad, número, bondad y tamaño."
+  },
+  {
+   "tipo": "tabla",
+   "cabecera": [
+    "Tipo",
+    "Adjetivos",
+    "Ejemplo"
+   ],
+   "filas": [
+    [
+     "Belleza",
+     "beau, joli",
+     "une jolie maison"
+    ],
+    [
+     "Edad",
+     "jeune, vieux, nouveau",
+     "un jeune homme"
+    ],
+    [
+     "Número y orden",
+     "premier, deuxième, dernier, autre",
+     "la première photo"
+    ],
+    [
+     "Bondad",
+     "bon, mauvais",
+     "un mauvais signe"
+    ],
+    [
+     "Tamaño",
+     "grand, petit, gros",
+     "un petit chien"
+    ]
+   ]
+  },
+  {
+   "tipo": "texto",
+   "texto": "Beau, nouveau y vieux, al ir delante, tienen una forma especial para el masculino singular ante vocal o h muda: un bel arbre, un nouvel appartement, un vieil homme."
+  },
+  {
+   "tipo": "tabla",
+   "cabecera": [
+    "Adjetivo",
+    "Delante (sentido figurado)",
+    "Detrás (sentido literal)"
+   ],
+   "filas": [
+    [
+     "ancien",
+     "mon ancienne copine (mi ex)",
+     "des meubles anciens (antiguos)"
+    ],
+    [
+     "cher",
+     "chers amis (queridos)",
+     "des parfums chers (caros)"
+    ],
+    [
+     "dernier",
+     "la dernière fois (la última de una serie)",
+     "la semaine dernière (la pasada)"
+    ],
+    [
+     "grand",
+     "un grand philosophe (gran)",
+     "un homme grand (alto)"
+    ],
+    [
+     "pauvre",
+     "le pauvre Tex (desgraciado)",
+     "un tatou pauvre (sin dinero)"
+    ],
+    [
+     "propre",
+     "son propre restaurant (propio)",
+     "un escargot propre (limpio)"
+    ],
+    [
+     "seul",
+     "le seul tatou (único)",
+     "un homme seul (solo)"
+    ],
+    [
+     "même",
+     "le même tatou (mismo)",
+     "l'hypocrisie même (en persona)"
+    ]
+   ]
+  }
  ],
  "ejemplos": [
-  {"frase": "Tammy est une belle Américaine. C'est aussi une bonne amie.", "traduccion": "Tammy es una americana guapa. También es una buena amiga."},
-  {"frase": "Le vieil homme, c'est Paw-Paw Louis.", "traduccion": "El anciano es Paw-Paw Louis."},
-  {"frase": "C'est la première photo de toi.", "traduccion": "Es la primera foto tuya."},
-  {"frase": "Tex est un grand philosophe, mais les tatous ne sont pas grands.", "traduccion": "Tex es un gran filósofo, pero los armadillos no son altos."},
-  {"frase": "Edouard veut son propre restaurant.", "traduccion": "Edouard quiere su propio restaurante."},
-  {"frase": "J'ai acheté une voiture rouge.", "traduccion": "Me he comprado un coche rojo."}
+  {
+   "frase": "Tammy est une belle Américaine. C'est aussi une bonne amie.",
+   "traduccion": "Tammy es una americana guapa. También es una buena amiga."
+  },
+  {
+   "frase": "Le vieil homme, c'est Paw-Paw Louis.",
+   "traduccion": "El anciano es Paw-Paw Louis."
+  },
+  {
+   "frase": "C'est la première photo de toi.",
+   "traduccion": "Es la primera foto tuya."
+  },
+  {
+   "frase": "Tex est un grand philosophe, mais les tatous ne sont pas grands.",
+   "traduccion": "Tex es un gran filósofo, pero los armadillos no son altos."
+  },
+  {
+   "frase": "Edouard veut son propre restaurant.",
+   "traduccion": "Edouard quiere su propio restaurante."
+  },
+  {
+   "frase": "J'ai acheté une voiture rouge.",
+   "traduccion": "Me he comprado un coche rojo."
+  }
  ],
  "errores_hispanohablantes": [
-  {"mal": "C'est un français vin.", "bien": "C'est un vin français.", "nota": "Los adjetivos de nacionalidad y de color van siempre detrás."},
-  {"mal": "C'est un vieux ami.", "bien": "C'est un vieil ami.", "nota": "Ante vocal, vieux pasa a vieil en masculino singular."},
-  {"mal": "Je l'ai vu la dernière semaine.", "bien": "Je l'ai vu la semaine dernière.", "nota": "«La semana pasada» lleva dernier detrás; delante significa «la última» de una serie."}
+  {
+   "mal": "C'est un français vin.",
+   "bien": "C'est un vin français.",
+   "nota": "Los adjetivos de nacionalidad y de color van siempre detrás."
+  },
+  {
+   "mal": "C'est un vieux ami.",
+   "bien": "C'est un vieil ami.",
+   "nota": "Ante vocal, vieux pasa a vieil en masculino singular."
+  },
+  {
+   "mal": "Je l'ai vu la dernière semaine.",
+   "bien": "Je l'ai vu la semaine dernière.",
+   "nota": "«La semana pasada» lleva dernier detrás; delante significa «la última» de una serie."
+  }
  ],
  "ejercicios": [
-  {"id": "e01", "tipo": "ordenar", "enunciado": "Ordena las palabras (Tengo un perro pequeño).", "palabras": ["chien", "petit", "J'ai", "un"], "respuestas": ["J'ai un petit chien"], "explicacion": "Petit es un adjetivo de tamaño y va delante del nombre.", "origen": "tatoeba:13961482"},
-  {"id": "e02", "tipo": "ordenar", "enunciado": "Ordena las palabras (Es un libro nuevo).", "palabras": ["livre", "C'est", "nouveau", "un"], "respuestas": ["C'est un nouveau livre"], "explicacion": "Nouveau suele ir delante del nombre.", "origen": "tatoeba:871148"},
-  {"id": "e03", "tipo": "ordenar", "enunciado": "Ordena las palabras (Es una habitación pequeña).", "palabras": ["pièce", "une", "petite", "C'est"], "respuestas": ["C'est une petite pièce"], "explicacion": "Petit va delante y concuerda con pièce: petite.", "origen": "tatoeba:8696747"},
-  {"id": "e04", "tipo": "ordenar", "enunciado": "Ordena las palabras (Tom es un buen amigo).", "palabras": ["ami", "est", "bon", "Tom", "un"], "respuestas": ["Tom est un bon ami"], "explicacion": "Bon va delante del nombre.", "origen": "tatoeba:2624085"},
-  {"id": "e05", "tipo": "corregir", "enunciado": "Corrige el error de posición.", "frase": "C'est un signe mauvais.", "respuestas": ["C'est un mauvais signe."], "explicacion": "Mauvais es un adjetivo de bondad y va delante del nombre.", "origen": "tatoeba:5913004"},
-  {"id": "e06", "tipo": "corregir", "enunciado": "Corrige el error de posición.", "frase": "J'ai un jardin grand.", "respuestas": ["J'ai un grand jardin."], "explicacion": "Grand, referido a tamaño de una cosa, va delante.", "origen": "tatoeba:6457918"},
-  {"id": "e07", "tipo": "eleccion", "enunciado": "Elige la forma correcta.", "frase": "C'est un ___ homme.", "opciones": ["vieux", "vieil", "vieille"], "respuestas": ["vieil"], "explicacion": "Ante h muda, en masculino singular, vieux pasa a vieil."},
-  {"id": "e08", "tipo": "hueco", "enunciado": "Completa con la forma correcta de nouveau.", "frase": "Elle a acheté un ___ appartement.", "respuestas": ["nouvel"], "explicacion": "Ante vocal, en masculino singular, nouveau pasa a nouvel."},
-  {"id": "e09", "tipo": "eleccion", "enunciado": "Elige la expresión que significa «su exnovia».", "frase": "Marianne est ___ de Tex.", "opciones": ["l'ancienne copine", "la copine ancienne"], "respuestas": ["l'ancienne copine"], "explicacion": "Ancien delante del nombre significa «antiguo, ex»."},
-  {"id": "e10", "tipo": "eleccion", "enunciado": "Elige la expresión que significa «los muebles antiguos».", "frase": "Paw-Paw adore ___.", "opciones": ["les anciens meubles", "les meubles anciens"], "respuestas": ["les meubles anciens"], "explicacion": "Ancien detrás del nombre tiene el sentido literal de «viejo, antiguo»."},
-  {"id": "e11", "tipo": "eleccion", "enunciado": "Elige la expresión que significa «su propio restaurante».", "frase": "Edouard veut ___.", "opciones": ["son propre restaurant", "son restaurant propre"], "respuestas": ["son propre restaurant"], "explicacion": "Propre delante significa «propio»; detrás, «limpio»."},
-  {"id": "e12", "tipo": "eleccion", "enunciado": "Elige la expresión que significa «la semana pasada».", "frase": "Je l'ai vu ___.", "opciones": ["la dernière semaine", "la semaine dernière"], "respuestas": ["la semaine dernière"], "explicacion": "Dernier detrás significa «pasado»; delante, «último de una serie»."},
-  {"id": "e13", "tipo": "eleccion", "enunciado": "Elige la expresión que significa «un gran filósofo».", "frase": "Tex est ___.", "opciones": ["un grand philosophe", "un philosophe grand"], "respuestas": ["un grand philosophe"], "explicacion": "Grand delante de una persona significa «gran, importante»; detrás, «alto»."},
-  {"id": "e14", "tipo": "hueco", "enunciado": "Completa con la forma correcta de beau.", "frase": "Ce fut un ___ mariage.", "respuestas": ["beau"], "explicacion": "Mariage empieza por consonante: se usa beau, no bel.", "origen": "tatoeba:2491083"},
-  {"id": "e15", "tipo": "eleccion", "enunciado": "Elige la forma correcta.", "frase": "Tu as un ___ sourire.", "opciones": ["beau", "bel", "belle"], "respuestas": ["beau"], "explicacion": "Sourire es masculino y empieza por consonante: beau.", "origen": "tatoeba:3574530"},
-  {"id": "e16", "tipo": "eleccion", "enunciado": "Elige la forma correcta.", "frase": "Il habite dans un ___ immeuble.", "opciones": ["beau", "bel", "belle"], "respuestas": ["bel"], "explicacion": "Immeuble es masculino y empieza por vocal: bel."}
+  {
+   "id": "e01",
+   "tipo": "ordenar",
+   "enunciado": "Ordena las palabras (Tengo un perro pequeño).",
+   "palabras": [
+    "chien",
+    "petit",
+    "J'ai",
+    "un"
+   ],
+   "respuestas": [
+    "J'ai un petit chien"
+   ],
+   "explicacion": "Se aplica la regla BANGS de la ficha: los adjetivos de tamaño como «petit» van delante del nombre. Por eso el orden es «J'ai» + artículo «un» + adjetivo «petit» + nombre «chien». En español lo natural es «un perro pequeño», y ese es justamente el calco que hay que evitar.",
+   "origen": "tatoeba:13961482",
+   "explicacion_breve": "Petit es un adjetivo de tamaño y va delante del nombre.",
+   "traduccion": "Tengo un perro pequeño.",
+   "errores_previstos": [
+    {
+     "respuesta": "J'ai un chien petit",
+     "explicacion": "Calco del orden español: «petit» es un adjetivo de tamaño y va delante del nombre."
+    },
+    {
+     "respuesta": "J'ai petit un chien",
+     "explicacion": "El artículo va siempre antes del adjetivo antepuesto: «un petit chien»."
+    }
+   ]
+  },
+  {
+   "id": "e02",
+   "tipo": "ordenar",
+   "enunciado": "Ordena las palabras (Es un libro nuevo).",
+   "palabras": [
+    "livre",
+    "C'est",
+    "nouveau",
+    "un"
+   ],
+   "respuestas": [
+    "C'est un nouveau livre"
+   ],
+   "explicacion": "Se aplica la regla BANGS: «nouveau» es un adjetivo de edad y suele ir delante del nombre. Así que el orden es «C'est un nouveau livre». Como «livre» empieza por consonante, se usa la forma normal «nouveau» y no «nouvel». Observa que «un nouveau livre» significa un libro distinto u otro libro más, mientras que «un livre neuf» insistiría en que no está usado.",
+   "origen": "tatoeba:871148",
+   "explicacion_breve": "Nouveau suele ir delante del nombre.",
+   "traduccion": "Es un libro nuevo.",
+   "errores_previstos": [
+    {
+     "respuesta": "C'est un livre nouveau",
+     "explicacion": "Calco del español: «nouveau» va normalmente delante del nombre."
+    },
+    {
+     "respuesta": "C'est nouveau un livre",
+     "explicacion": "El adjetivo va entre el artículo y el nombre: «un nouveau livre»."
+    }
+   ]
+  },
+  {
+   "id": "e03",
+   "tipo": "ordenar",
+   "enunciado": "Ordena las palabras (Es una habitación pequeña).",
+   "palabras": [
+    "pièce",
+    "une",
+    "petite",
+    "C'est"
+   ],
+   "respuestas": [
+    "C'est une petite pièce"
+   ],
+   "explicacion": "Se aplica la regla BANGS para el tamaño: «petit» va delante. Además concuerda con «pièce», que es femenino, así que la forma es «petite». El orden resultante es «C'est une petite pièce», con el artículo, después el adjetivo y al final el nombre.",
+   "origen": "tatoeba:8696747",
+   "explicacion_breve": "Petit va delante y concuerda con pièce: petite.",
+   "traduccion": "Es una habitación pequeña.",
+   "errores_previstos": [
+    {
+     "respuesta": "C'est une pièce petite",
+     "explicacion": "Calco del orden español; «petite» va delante del nombre."
+    },
+    {
+     "respuesta": "C'est petite une pièce",
+     "explicacion": "El adjetivo no puede ir antes del artículo: «une petite pièce»."
+    }
+   ]
+  },
+  {
+   "id": "e04",
+   "tipo": "ordenar",
+   "enunciado": "Ordena las palabras (Tom es un buen amigo).",
+   "palabras": [
+    "ami",
+    "est",
+    "bon",
+    "Tom",
+    "un"
+   ],
+   "respuestas": [
+    "Tom est un bon ami"
+   ],
+   "explicacion": "Se aplica la regla BANGS para la bondad: «bon» y «mauvais» van delante del nombre. El orden es sujeto «Tom», verbo «est», artículo «un», adjetivo «bon» y nombre «ami». Como «ami» es masculino, «bon» no cambia; aquí coincide con el español «un buen amigo».",
+   "origen": "tatoeba:2624085",
+   "explicacion_breve": "Bon va delante del nombre.",
+   "traduccion": "Tom es un buen amigo.",
+   "errores_previstos": [
+    {
+     "respuesta": "Tom est un ami bon",
+     "explicacion": "«Bon» va delante del nombre; detrás sonaría raro o se entendería como «bondadoso» en un sentido marcado."
+    },
+    {
+     "respuesta": "Tom un bon ami est",
+     "explicacion": "El verbo va detrás del sujeto, no al final de la frase: «Tom est un bon ami»."
+    }
+   ]
+  },
+  {
+   "id": "e05",
+   "tipo": "corregir",
+   "enunciado": "Corrige el error de posición.",
+   "frase": "C'est un signe mauvais.",
+   "respuestas": [
+    "C'est un mauvais signe."
+   ],
+   "explicacion": "Se aplica la regla BANGS para la bondad: «mauvais» es uno de los adjetivos cortos que van delante del nombre. Por eso hay que pasar de «un signe mauvais» a «un mauvais signe». Es una expresión fija muy frecuente, igual que «c'est bon signe».",
+   "origen": "tatoeba:5913004",
+   "explicacion_breve": "Mauvais es un adjetivo de bondad y va delante del nombre.",
+   "traduccion": "Es una mala señal.",
+   "errores_previstos": [
+    {
+     "respuesta": "C'est un signe mauvais.",
+     "explicacion": "Es la frase sin corregir: «mauvais» debe ir delante del nombre."
+    },
+    {
+     "respuesta": "C'est un mal signe.",
+     "explicacion": "«Mal» es adverbio en francés; el adjetivo es «mauvais»: «un mauvais signe»."
+    }
+   ]
+  },
+  {
+   "id": "e06",
+   "tipo": "corregir",
+   "enunciado": "Corrige el error de posición.",
+   "frase": "J'ai un jardin grand.",
+   "respuestas": [
+    "J'ai un grand jardin."
+   ],
+   "explicacion": "Se aplica la regla BANGS para el tamaño: «grand», referido al tamaño de una cosa, va delante del nombre. Por eso se corrige a «un grand jardin». El cambio de sentido de «grand» según la posición solo se da con personas («un grand homme» frente a «un homme grand»).",
+   "origen": "tatoeba:6457918",
+   "explicacion_breve": "Grand, referido a tamaño de una cosa, va delante.",
+   "traduccion": "Tengo un jardín grande.",
+   "errores_previstos": [
+    {
+     "respuesta": "J'ai un jardin grand.",
+     "explicacion": "Es la frase sin corregir: «grand» va delante del nombre."
+    },
+    {
+     "respuesta": "J'ai une grande jardin.",
+     "explicacion": "La posición es correcta, pero «jardin» es masculino: «un grand jardin»."
+    }
+   ]
+  },
+  {
+   "id": "e07",
+   "tipo": "eleccion",
+   "enunciado": "Elige la forma correcta.",
+   "frase": "C'est un ___ homme.",
+   "opciones": [
+    "vieux",
+    "vieil",
+    "vieille"
+   ],
+   "respuestas": [
+    "vieil"
+   ],
+   "explicacion": "Se aplica la regla de las formas especiales: «vieux» pasa a «vieil» en masculino singular delante de vocal o h muda. La pista es «homme», masculino y con h muda. Por eso se dice «un vieil homme», que se pronuncia igual que «vieille» y permite el enlace entre las dos palabras.",
+   "explicacion_breve": "Ante h muda, en masculino singular, vieux pasa a vieil.",
+   "traduccion": "Es un hombre viejo.",
+   "por_opcion": {
+    "vieux": "Incorrecta: «vieux» se usa ante consonante («un vieux livre»); ante h muda en masculino singular se cambia a «vieil».",
+    "vieil": "Correcta: forma especial del masculino singular delante de vocal o h muda.",
+    "vieille": "Incorrecta: es la forma femenina; «homme» es masculino, aunque «vieil» y «vieille» suenen igual."
+   }
+  },
+  {
+   "id": "e08",
+   "tipo": "hueco",
+   "enunciado": "Completa con la forma correcta de nouveau.",
+   "frase": "Elle a acheté un ___ appartement.",
+   "respuestas": [
+    "nouvel"
+   ],
+   "explicacion": "Se aplica la regla de las formas especiales: «nouveau» pasa a «nouvel» en masculino singular ante vocal o h muda. La pista es «appartement», masculino singular que empieza por vocal. Por eso se escribe «un nouvel appartement», igual que «un nouvel ami».",
+   "explicacion_breve": "Ante vocal, en masculino singular, nouveau pasa a nouvel.",
+   "traduccion": "Ella compró un piso nuevo.",
+   "errores_previstos": [
+    {
+     "respuesta": "nouveau",
+     "explicacion": "Ante vocal, en masculino singular, «nouveau» se convierte en «nouvel»."
+    },
+    {
+     "respuesta": "nouvelle",
+     "explicacion": "Es la forma femenina; «appartement» es masculino y pide «nouvel»."
+    }
+   ]
+  },
+  {
+   "id": "e09",
+   "tipo": "eleccion",
+   "enunciado": "Elige la expresión que significa «su exnovia».",
+   "frase": "Marianne est ___ de Tex.",
+   "opciones": [
+    "l'ancienne copine",
+    "la copine ancienne"
+   ],
+   "respuestas": [
+    "l'ancienne copine"
+   ],
+   "explicacion": "Se aplica la tabla de adjetivos que cambian de sentido: «ancien» delante del nombre significa «antiguo» en el sentido de «ex, que ya no lo es»; detrás significa «viejo, de época». El enunciado pide «exnovia», así que el adjetivo debe ir delante: «l'ancienne copine». Fíjate en que el artículo se apostrofa porque «ancienne» empieza por vocal.",
+   "explicacion_breve": "Ancien delante del nombre significa «antiguo, ex».",
+   "traduccion": "Marianne es la exnovia de Tex.",
+   "por_opcion": {
+    "l'ancienne copine": "Correcta: «ancien» antepuesto significa «ex»; «l'ancienne copine de Tex» es su exnovia.",
+    "la copine ancienne": "Incorrecta: «ancien» pospuesto tiene el sentido literal de «vieja, antigua», algo que no se dice de una persona en este contexto."
+   }
+  },
+  {
+   "id": "e10",
+   "tipo": "eleccion",
+   "enunciado": "Elige la expresión que significa «los muebles antiguos».",
+   "frase": "Paw-Paw adore ___.",
+   "opciones": [
+    "les anciens meubles",
+    "les meubles anciens"
+   ],
+   "respuestas": [
+    "les meubles anciens"
+   ],
+   "explicacion": "Se aplica la misma tabla en el sentido contrario: «ancien» detrás del nombre conserva su sentido literal de «antiguo, de época». El enunciado pide «muebles antiguos», es decir, muebles viejos con valor, así que el adjetivo va detrás: «les meubles anciens». Delante significaría «los muebles de antes», los que ya no se tienen.",
+   "explicacion_breve": "Ancien detrás del nombre tiene el sentido literal de «viejo, antiguo».",
+   "traduccion": "A Paw-Paw le encantan los muebles antiguos.",
+   "por_opcion": {
+    "les anciens meubles": "Incorrecta: con «ancien» delante se entendería «los antiguos muebles», es decir, los que había antes, no muebles de época.",
+    "les meubles anciens": "Correcta: «ancien» pospuesto significa «antiguo, de época»."
+   }
+  },
+  {
+   "id": "e11",
+   "tipo": "eleccion",
+   "enunciado": "Elige la expresión que significa «su propio restaurante».",
+   "frase": "Edouard veut ___.",
+   "opciones": [
+    "son propre restaurant",
+    "son restaurant propre"
+   ],
+   "respuestas": [
+    "son propre restaurant"
+   ],
+   "explicacion": "Se aplica la tabla de doble sentido: «propre» delante del nombre significa «propio» y detrás significa «limpio». El enunciado pide «su propio restaurante», así que el adjetivo va delante: «son propre restaurant». «Son restaurant propre» significaría que quiere su restaurante limpio.",
+   "explicacion_breve": "Propre delante significa «propio»; detrás, «limpio».",
+   "traduccion": "Edouard quiere su propio restaurante.",
+   "por_opcion": {
+    "son propre restaurant": "Correcta: «propre» antepuesto significa «propio».",
+    "son restaurant propre": "Incorrecta: «propre» pospuesto significa «limpio»; la frase diría que quiere su restaurante limpio."
+   }
+  },
+  {
+   "id": "e12",
+   "tipo": "eleccion",
+   "enunciado": "Elige la expresión que significa «la semana pasada».",
+   "frase": "Je l'ai vu ___.",
+   "opciones": [
+    "la dernière semaine",
+    "la semaine dernière"
+   ],
+   "respuestas": [
+    "la semaine dernière"
+   ],
+   "explicacion": "Se aplica la tabla de doble sentido: «dernier» detrás de un nombre de tiempo significa «pasado» (la semana anterior a la actual); delante significa «último de una serie». El enunciado pide «la semana pasada», así que la forma correcta es «la semaine dernière», igual que «l'an dernier» o «le mois dernier».",
+   "explicacion_breve": "Dernier detrás significa «pasado»; delante, «último de una serie».",
+   "traduccion": "Lo vi la semana pasada.",
+   "por_opcion": {
+    "la dernière semaine": "Incorrecta: significa «la última semana» de un periodo (por ejemplo, de las vacaciones), no la semana pasada.",
+    "la semaine dernière": "Correcta: «dernier» pospuesto a un nombre de tiempo significa «pasado»."
+   }
+  },
+  {
+   "id": "e13",
+   "tipo": "eleccion",
+   "enunciado": "Elige la expresión que significa «un gran filósofo».",
+   "frase": "Tex est ___.",
+   "opciones": [
+    "un grand philosophe",
+    "un philosophe grand"
+   ],
+   "respuestas": [
+    "un grand philosophe"
+   ],
+   "explicacion": "Se aplica la tabla de doble sentido: con nombres de persona, «grand» delante significa «gran, importante» y detrás significa «alto». El enunciado pide «un gran filósofo», así que el adjetivo va delante: «un grand philosophe». Es el mismo contraste que en español entre «un gran hombre» y «un hombre grande».",
+   "explicacion_breve": "Grand delante de una persona significa «gran, importante»; detrás, «alto».",
+   "traduccion": "Tex es un gran filósofo.",
+   "por_opcion": {
+    "un grand philosophe": "Correcta: «grand» antepuesto a una persona expresa importancia.",
+    "un philosophe grand": "Incorrecta: «grand» pospuesto se refiere a la estatura; sería un filósofo alto."
+   }
+  },
+  {
+   "id": "e14",
+   "tipo": "hueco",
+   "enunciado": "Completa con la forma correcta de beau.",
+   "frase": "Ce fut un ___ mariage.",
+   "respuestas": [
+    "beau"
+   ],
+   "explicacion": "Se aplica la regla de las formas especiales en sentido inverso: «bel» solo se usa ante vocal o h muda. La pista es «mariage», masculino singular que empieza por consonante, así que se usa la forma normal «beau». El adjetivo va delante del nombre por ser de belleza.",
+   "origen": "tatoeba:2491083",
+   "explicacion_breve": "Mariage empieza por consonante: se usa beau, no bel.",
+   "traduccion": "Fue una boda bonita.",
+   "errores_previstos": [
+    {
+     "respuesta": "bel",
+     "explicacion": "«Bel» solo se usa ante vocal o h muda; «mariage» empieza por consonante."
+    },
+    {
+     "respuesta": "belle",
+     "explicacion": "Es la forma femenina; «mariage» es masculino."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "ce fut",
+     "significado": "fue (pasado simple de «c'est», propio de la lengua escrita)"
+    }
+   ]
+  },
+  {
+   "id": "e15",
+   "tipo": "eleccion",
+   "enunciado": "Elige la forma correcta.",
+   "frase": "Tu as un ___ sourire.",
+   "opciones": [
+    "beau",
+    "bel",
+    "belle"
+   ],
+   "respuestas": [
+    "beau"
+   ],
+   "explicacion": "Se aplica la regla de las formas especiales: «beau» solo cambia a «bel» ante vocal o h muda. La pista es «sourire», masculino (a diferencia de «sonrisa») y que empieza por consonante. Por eso se dice «un beau sourire»; el artículo «un» confirma el masculino.",
+   "origen": "tatoeba:3574530",
+   "explicacion_breve": "Sourire es masculino y empieza por consonante: beau.",
+   "traduccion": "Tienes una sonrisa bonita.",
+   "por_opcion": {
+    "beau": "Correcta: masculino singular ante consonante.",
+    "bel": "Incorrecta: «bel» solo se usa ante vocal o h muda; «sourire» empieza por s.",
+    "belle": "Incorrecta: es la forma femenina; «sourire» es masculino en francés aunque «sonrisa» sea femenino en español."
+   }
+  },
+  {
+   "id": "e16",
+   "tipo": "eleccion",
+   "enunciado": "Elige la forma correcta.",
+   "frase": "Il habite dans un ___ immeuble.",
+   "opciones": [
+    "beau",
+    "bel",
+    "belle"
+   ],
+   "respuestas": [
+    "bel"
+   ],
+   "explicacion": "Se aplica la regla de las formas especiales: «beau» pasa a «bel» en masculino singular ante vocal o h muda. La pista es «immeuble», masculino que empieza por vocal. Por eso se dice «un bel immeuble», que permite enlazar «bel» con la vocal siguiente.",
+   "explicacion_breve": "Immeuble es masculino y empieza por vocal: bel.",
+   "traduccion": "Vive en un edificio bonito.",
+   "por_opcion": {
+    "beau": "Incorrecta: ante vocal en masculino singular, «beau» se convierte en «bel».",
+    "bel": "Correcta: forma especial ante vocal en masculino singular.",
+    "belle": "Incorrecta: es femenina y «immeuble» es masculino, aunque suene igual que «bel»."
+   }
+  }
  ],
- "fuente": {"nombre": "Tex's French Grammar", "autores": "COERLL, Universidad de Texas en Austin", "licencia": "CC BY 3.0", "url": "https://laits.utexas.edu/tex/gr/adj3.html", "otras": ["Frases de Tatoeba (CC BY 2.0 FR)"]}
+ "fuente": {
+  "nombre": "Tex's French Grammar",
+  "autores": "COERLL, Universidad de Texas en Austin",
+  "licencia": "CC BY 3.0",
+  "url": "https://laits.utexas.edu/tex/gr/adj3.html",
+  "otras": [
+   "Frases de Tatoeba (CC BY 2.0 FR)"
+  ]
+ },
+ "descripcion_larga_es": "Esta ficha explica dónde se coloca el adjetivo francés. La mayoría va detrás del nombre, pero un grupo corto y muy frecuente (belleza, edad, número, bondad y tamaño) va delante, y algunos adjetivos cambian de sentido según su posición, como ancien, propre, dernier o grand. Además, beau, nouveau y vieux tienen formas especiales ante vocal. Al hispanohablante le cuesta porque en español el orden es más libre.",
+ "contexto": {
+  "que_es": "Es la regla que decide si el adjetivo va antes o después del nombre. Por defecto va detrás (color, forma, nacionalidad, adjetivos largos), pero los adjetivos de belleza, edad, número, bondad y tamaño suelen ir delante. Un grupo de adjetivos cambia de significado según el lugar: delante tienen un sentido figurado o valorativo y detrás el literal.",
+  "por_que_importa": "Un adjetivo mal colocado suena extraño de inmediato («un signe mauvais») y, con los adjetivos de doble sentido, cambia lo que se dice: «mon ancienne copine» es una ex, mientras que «une copine ancienne» sería una amiga vieja. En un examen escrito estos fallos se penalizan como errores de base. Las formas «bel», «nouvel» y «vieil» también se corrigen siempre.",
+  "cuando_se_usa": "Cada vez que se añade un adjetivo calificativo a un nombre. Las pistas son el tipo de adjetivo (corto y frecuente o descriptivo y técnico) y el sentido que se quiere dar. El hispanohablante tiende a calcar el orden español, que permite «un jardín grande» y «un gran jardín» con matices distintos a los franceses."
+ }
 }

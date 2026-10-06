@@ -6,50 +6,526 @@
  "nivel": "A1",
  "resumen": "Las preposiciones à y de se funden con los artículos le y les, igual que en español «a + el = al» y «de + el = del», pero en francés también ocurre en plural y nunca con la ni l'.",
  "explicacion": [
-  {"tipo": "tabla", "cabecera": ["", "le", "la", "l'", "les"], "filas": [
-   ["à", "au", "à la", "à l'", "aux"],
-   ["de", "du", "de la", "de l'", "des"]
-  ]},
-  {"tipo": "texto", "texto": "Solo contraen le y les. La y l' se quedan separados: à la gare, à l'hôpital, de la plage, de l'école. Compárese con el español: «al cine» = au cinéma, pero «a los cines» = aux cinémas (en español no hay contracción en plural)."},
-  {"tipo": "lista", "items": [
-   "También contraen las locuciones que terminan en à o de: près du campus, à côté des magasins, loin du centre, jusqu'au bout.",
-   "Con países masculinos: au Maroc, au Japon, aux États-Unis; venir du Canada, des Pays-Bas.",
-   "Sabores y rellenos con à: un gâteau au chocolat, une tarte aux pommes, un café au lait.",
-   "Instrumentos con jouer de y deportes o juegos con jouer à: jouer du piano, jouer au tennis, jouer aux cartes."
-  ]},
-  {"tipo": "texto", "texto": "Delante de vocal se oye la liaison en aux y des: aux‿enfants, des‿amis. El pronombre le no contrae: Je commence à le comprendre (le es complemento, no artículo)."}
+  {
+   "tipo": "tabla",
+   "cabecera": [
+    "",
+    "le",
+    "la",
+    "l'",
+    "les"
+   ],
+   "filas": [
+    [
+     "à",
+     "au",
+     "à la",
+     "à l'",
+     "aux"
+    ],
+    [
+     "de",
+     "du",
+     "de la",
+     "de l'",
+     "des"
+    ]
+   ]
+  },
+  {
+   "tipo": "texto",
+   "texto": "Solo contraen le y les. La y l' se quedan separados: à la gare, à l'hôpital, de la plage, de l'école. Compárese con el español: «al cine» = au cinéma, pero «a los cines» = aux cinémas (en español no hay contracción en plural)."
+  },
+  {
+   "tipo": "lista",
+   "items": [
+    "También contraen las locuciones que terminan en à o de: près du campus, à côté des magasins, loin du centre, jusqu'au bout.",
+    "Con países masculinos: au Maroc, au Japon, aux États-Unis; venir du Canada, des Pays-Bas.",
+    "Sabores y rellenos con à: un gâteau au chocolat, une tarte aux pommes, un café au lait.",
+    "Instrumentos con jouer de y deportes o juegos con jouer à: jouer du piano, jouer au tennis, jouer aux cartes."
+   ]
+  },
+  {
+   "tipo": "texto",
+   "texto": "Delante de vocal se oye la liaison en aux y des: aux‿enfants, des‿amis. El pronombre le no contrae: Je commence à le comprendre (le es complemento, no artículo)."
+  }
  ],
  "ejemplos": [
-  {"frase": "Tammy et Bette sont dans un café près du campus, à côté des magasins.", "traduccion": "Tammy y Bette están en un café cerca del campus, al lado de las tiendas."},
-  {"frase": "Je vais prendre un thé à la vanille et un muffin au chocolat.", "traduccion": "Voy a tomar un té de vainilla y un muffin de chocolate."},
-  {"frase": "Demain, on va au gymnase.", "traduccion": "Mañana vamos al gimnasio."},
-  {"frase": "Le professeur explique la leçon aux étudiants.", "traduccion": "El profesor explica la lección a los estudiantes."},
-  {"frase": "Elle revient de l'université à six heures.", "traduccion": "Vuelve de la universidad a las seis."},
-  {"frase": "Mon fils joue du piano et ma fille joue au football.", "traduccion": "Mi hijo toca el piano y mi hija juega al fútbol."}
+  {
+   "frase": "Tammy et Bette sont dans un café près du campus, à côté des magasins.",
+   "traduccion": "Tammy y Bette están en un café cerca del campus, al lado de las tiendas."
+  },
+  {
+   "frase": "Je vais prendre un thé à la vanille et un muffin au chocolat.",
+   "traduccion": "Voy a tomar un té de vainilla y un muffin de chocolate."
+  },
+  {
+   "frase": "Demain, on va au gymnase.",
+   "traduccion": "Mañana vamos al gimnasio."
+  },
+  {
+   "frase": "Le professeur explique la leçon aux étudiants.",
+   "traduccion": "El profesor explica la lección a los estudiantes."
+  },
+  {
+   "frase": "Elle revient de l'université à six heures.",
+   "traduccion": "Vuelve de la universidad a las seis."
+  },
+  {
+   "frase": "Mon fils joue du piano et ma fille joue au football.",
+   "traduccion": "Mi hijo toca el piano y mi hija juega al fútbol."
+  }
  ],
  "errores_hispanohablantes": [
-  {"mal": "Je parle à les enfants.", "bien": "Je parle aux enfants.", "nota": "En francés à + les contrae siempre en aux, aunque en español «a los» no contraiga."},
-  {"mal": "le livre de le professeur", "bien": "le livre du professeur", "nota": "De + le se convierte en du."},
-  {"mal": "Je vais au école.", "bien": "Je vais à l'école.", "nota": "Ante vocal el artículo es l' y no hay contracción."},
-  {"mal": "Il joue le piano.", "bien": "Il joue du piano.", "nota": "Tocar un instrumento es jouer de: du piano, de la guitare."}
+  {
+   "mal": "Je parle à les enfants.",
+   "bien": "Je parle aux enfants.",
+   "nota": "En francés à + les contrae siempre en aux, aunque en español «a los» no contraiga."
+  },
+  {
+   "mal": "le livre de le professeur",
+   "bien": "le livre du professeur",
+   "nota": "De + le se convierte en du."
+  },
+  {
+   "mal": "Je vais au école.",
+   "bien": "Je vais à l'école.",
+   "nota": "Ante vocal el artículo es l' y no hay contracción."
+  },
+  {
+   "mal": "Il joue le piano.",
+   "bien": "Il joue du piano.",
+   "nota": "Tocar un instrumento es jouer de: du piano, de la guitare."
+  }
  ],
  "ejercicios": [
-  {"id": "e01", "tipo": "hueco", "enunciado": "Completa con de y el artículo (du, de la, de l', des).", "frase": "Sors ___ lit !", "respuestas": ["du"], "explicacion": "Sortir de + le lit da du lit.", "origen": "tatoeba:837503"},
-  {"id": "e02", "tipo": "hueco", "enunciado": "Completa con à y el artículo (au, à la, à l', aux).", "frase": "Il vit ___ Maroc.", "respuestas": ["au"], "explicacion": "Le Maroc es masculino: à + le = au.", "origen": "tatoeba:1082095"},
-  {"id": "e03", "tipo": "hueco", "enunciado": "Completa con de y el artículo (du, de la, de l', des).", "frase": "Ce mot vient ___ grec.", "respuestas": ["du"], "explicacion": "Venir de + le grec da du grec.", "origen": "tatoeba:460770"},
-  {"id": "e04", "tipo": "hueco", "enunciado": "Completa con à y el artículo (au, à la, à l', aux).", "frase": "Retournons ___ travail !", "respuestas": ["au"], "explicacion": "Le travail es masculino: à + le = au.", "origen": "tatoeba:1709141"},
-  {"id": "e05", "tipo": "eleccion", "enunciado": "Elige la opción correcta.", "frase": "Parlez-vous ___ travail ?", "opciones": ["du", "de le", "de la"], "respuestas": ["du"], "explicacion": "Parler de + le travail: la contracción du es obligatoria.", "origen": "tatoeba:975189"},
-  {"id": "e06", "tipo": "ordenar", "enunciado": "Ordena las palabras.", "palabras": ["consulat", "travaille", "au", "Je"], "respuestas": ["Je travaille au consulat"], "explicacion": "Travailler à + le consulat da au consulat.", "origen": "tatoeba:900439"},
-  {"id": "e07", "tipo": "eleccion", "enunciado": "Elige la opción correcta.", "frase": "Es-tu encore ___ lit ?", "opciones": ["au", "à le", "du"], "respuestas": ["au"], "explicacion": "Être au lit (estar en la cama): à + le = au.", "origen": "tatoeba:10458301"},
-  {"id": "e08", "tipo": "hueco", "enunciado": "Completa con de y el artículo (du, de la, de l', des).", "frase": "Tom a joué ___ violon.", "respuestas": ["du"], "explicacion": "Los instrumentos van con jouer de: de + le violon = du violon.", "origen": "tatoeba:6685617"},
-  {"id": "e09", "tipo": "hueco", "enunciado": "Completa con à y el artículo (au, à la, à l', aux).", "frase": "Nous allons ___ États-Unis cet été.", "respuestas": ["aux"], "explicacion": "Les États-Unis es plural: à + les = aux."},
-  {"id": "e10", "tipo": "hueco", "enunciado": "Completa con de y el artículo (du, de la, de l', des).", "frase": "La pharmacie est à côté ___ magasins.", "respuestas": ["des"], "explicacion": "À côté de + les magasins da des magasins."},
-  {"id": "e11", "tipo": "eleccion", "enunciado": "Elige la opción correcta.", "frase": "Je vais ___ banque cet après-midi.", "opciones": ["à la", "au", "à le"], "respuestas": ["à la"], "explicacion": "Banque es femenino y la no contrae: à la banque."},
-  {"id": "e12", "tipo": "eleccion", "enunciado": "Elige la opción correcta.", "frase": "Les enfants sortent ___ école à quatre heures et demie.", "opciones": ["de l'", "du", "de la"], "respuestas": ["de l'"], "explicacion": "École empieza por vocal: de l'école, sin contracción."},
-  {"id": "e13", "tipo": "hueco", "enunciado": "Completa con à y el artículo (au, à la, à l', aux).", "frase": "Je voudrais une tarte ___ pommes.", "respuestas": ["aux"], "explicacion": "Los sabores van con à; pommes es plural: aux pommes."},
-  {"id": "e14", "tipo": "corregir", "enunciado": "Corrige el error.", "frase": "Je parle à le directeur.", "respuestas": ["Je parle au directeur."], "explicacion": "À + le se contrae obligatoriamente en au."},
-  {"id": "e15", "tipo": "corregir", "enunciado": "Corrige el error.", "frase": "C'est la voiture de les voisins.", "respuestas": ["C'est la voiture des voisins."], "explicacion": "De + les se contrae en des."},
-  {"id": "e16", "tipo": "corregir", "enunciado": "Corrige el error.", "frase": "J'ai mal à les dents.", "respuestas": ["J'ai mal aux dents."], "explicacion": "À + les se contrae en aux."}
+  {
+   "id": "e01",
+   "tipo": "hueco",
+   "enunciado": "Completa con de y el artículo (du, de la, de l', des).",
+   "frase": "Sors ___ lit !",
+   "respuestas": [
+    "du"
+   ],
+   "explicacion": "Se aplica la regla de la tabla de la ficha: de + le se contrae obligatoriamente en du. La pista es el verbo sortir de (salir de) y el sustantivo lit, masculino, que lleva el artículo le. Al juntarse queda sors du lit. Es exactamente como el español «del», aunque aquí el español usa femenino («la cama»), lo que puede despistar.",
+   "origen": "tatoeba:837503",
+   "explicacion_breve": "Sortir de + le lit da du lit.",
+   "traduccion": "¡Sal de la cama!",
+   "errores_previstos": [
+    {
+     "respuesta": "de le",
+     "explicacion": "De + le no puede quedar separado: la contracción du es obligatoria."
+    },
+    {
+     "respuesta": "de la",
+     "explicacion": "Lit es masculino (le lit), aunque en español «cama» sea femenino; por eso du."
+    },
+    {
+     "respuesta": "le",
+     "explicacion": "Falta la preposición: sortir exige de para indicar el lugar del que se sale."
+    }
+   ]
+  },
+  {
+   "id": "e02",
+   "tipo": "hueco",
+   "enunciado": "Completa con à y el artículo (au, à la, à l', aux).",
+   "frase": "Il vit ___ Maroc.",
+   "respuestas": [
+    "au"
+   ],
+   "explicacion": "Se aplica la regla de la ficha para los países masculinos: à + le se contrae en au. La pista es Maroc, nombre de país masculino (le Maroc), y el verbo vivre, que pide la preposición de lugar à. Los países femeninos usan en (en France), pero los masculinos que empiezan por consonante usan au: au Maroc, au Japon.",
+   "origen": "tatoeba:1082095",
+   "explicacion_breve": "Le Maroc es masculino: à + le = au.",
+   "traduccion": "Vive en Marruecos.",
+   "errores_previstos": [
+    {
+     "respuesta": "en",
+     "explicacion": "En se usa con países femeninos (en Espagne) o que empiezan por vocal; Maroc es masculino y lleva au."
+    },
+    {
+     "respuesta": "à le",
+     "explicacion": "À + le debe contraerse en au."
+    },
+    {
+     "respuesta": "à",
+     "explicacion": "Sin artículo solo se usa con ciudades (à Rabat); los países llevan artículo y aquí contrae: au."
+    }
+   ]
+  },
+  {
+   "id": "e03",
+   "tipo": "hueco",
+   "enunciado": "Completa con de y el artículo (du, de la, de l', des).",
+   "frase": "Ce mot vient ___ grec.",
+   "respuestas": [
+    "du"
+   ],
+   "explicacion": "Se aplica la regla de la ficha: de + le se contrae en du. La pista es el verbo venir de, que indica procedencia, y el nombre de la lengua, le grec, que en francés lleva artículo masculino. De + le grec da du grec, como el español «del griego».",
+   "origen": "tatoeba:460770",
+   "explicacion_breve": "Venir de + le grec da du grec.",
+   "traduccion": "Esta palabra viene del griego.",
+   "errores_previstos": [
+    {
+     "respuesta": "de le",
+     "explicacion": "La contracción du es obligatoria; de le no existe ante un sustantivo."
+    },
+    {
+     "respuesta": "de",
+     "explicacion": "Con venir de y un nombre de lengua se usa el artículo, que contrae: du grec."
+    },
+    {
+     "respuesta": "au",
+     "explicacion": "Au expresa dirección o lugar (à + le); la procedencia con venir se expresa con de: du."
+    }
+   ]
+  },
+  {
+   "id": "e04",
+   "tipo": "hueco",
+   "enunciado": "Completa con à y el artículo (au, à la, à l', aux).",
+   "frase": "Retournons ___ travail !",
+   "respuestas": [
+    "au"
+   ],
+   "explicacion": "Se aplica la regla de la ficha: à + le se contrae en au. La pista es el verbo retourner, que expresa dirección y pide à, y el sustantivo travail, masculino (le travail). El resultado es retournons au travail, exactamente como el español «al trabajo».",
+   "origen": "tatoeba:1709141",
+   "explicacion_breve": "Le travail es masculino: à + le = au.",
+   "traduccion": "¡Volvamos al trabajo!",
+   "errores_previstos": [
+    {
+     "respuesta": "à le",
+     "explicacion": "À + le debe contraerse obligatoriamente en au."
+    },
+    {
+     "respuesta": "à la",
+     "explicacion": "Travail es masculino: le travail, por tanto au."
+    },
+    {
+     "respuesta": "aux",
+     "explicacion": "Aux es la contracción de à + les, para plural; travail aquí es singular."
+    }
+   ]
+  },
+  {
+   "id": "e05",
+   "tipo": "eleccion",
+   "enunciado": "Elige la opción correcta.",
+   "frase": "Parlez-vous ___ travail ?",
+   "opciones": [
+    "du",
+    "de le",
+    "de la"
+   ],
+   "respuestas": [
+    "du"
+   ],
+   "explicacion": "Se aplica la regla de la ficha: de + le se contrae en du. La pista es el verbo parler de, «hablar de», y el sustantivo masculino travail. Por eso la única forma posible es du travail. Es la misma estructura que el español «hablar del trabajo».",
+   "origen": "tatoeba:975189",
+   "explicacion_breve": "Parler de + le travail: la contracción du es obligatoria.",
+   "traduccion": "¿Hablan (usted) del trabajo?",
+   "por_opcion": {
+    "du": "Correcta: contracción obligatoria de de + le ante un sustantivo masculino.",
+    "de le": "Nunca se escribe separado ante un sustantivo: la contracción es obligatoria.",
+    "de la": "Sería para un sustantivo femenino; travail es masculino."
+   }
+  },
+  {
+   "id": "e06",
+   "tipo": "ordenar",
+   "enunciado": "Ordena las palabras.",
+   "palabras": [
+    "consulat",
+    "travaille",
+    "au",
+    "Je"
+   ],
+   "respuestas": [
+    "Je travaille au consulat"
+   ],
+   "explicacion": "Se aplica la regla de la ficha: à + le se contrae en au. La pista es la palabra au entre las piezas, que se coloca delante del sustantivo masculino consulat. El orden es el normal del francés: sujeto Je, verbo travaille y complemento de lugar au consulat. Fíjate en que el español usa «en» y el francés à para el lugar de trabajo.",
+   "origen": "tatoeba:900439",
+   "explicacion_breve": "Travailler à + le consulat da au consulat.",
+   "traduccion": "Trabajo en el consulado.",
+   "errores_previstos": [
+    {
+     "respuesta": "Je au consulat travaille",
+     "explicacion": "El complemento de lugar va detrás del verbo: je travaille au consulat."
+    },
+    {
+     "respuesta": "Au consulat je travaille",
+     "explicacion": "Es posible para enfatizar, pero el orden neutro pone el sujeto y el verbo primero: je travaille au consulat."
+    },
+    {
+     "respuesta": "Je travaille consulat au",
+     "explicacion": "Au funciona como artículo contraído y va delante del sustantivo."
+    }
+   ]
+  },
+  {
+   "id": "e07",
+   "tipo": "eleccion",
+   "enunciado": "Elige la opción correcta.",
+   "frase": "Es-tu encore ___ lit ?",
+   "opciones": [
+    "au",
+    "à le",
+    "du"
+   ],
+   "respuestas": [
+    "au"
+   ],
+   "explicacion": "Se aplica la regla de la ficha: à + le se contrae en au. La pista es la expresión fija être au lit, «estar en la cama», con lit masculino. La preposición à expresa aquí el lugar donde se está, y no de, que indicaría procedencia. Por eso es-tu encore au lit.",
+   "origen": "tatoeba:10458301",
+   "explicacion_breve": "Être au lit (estar en la cama): à + le = au.",
+   "traduccion": "¿Sigues en la cama?",
+   "por_opcion": {
+    "au": "Correcta: à + le contraídos; être au lit significa «estar en la cama».",
+    "à le": "Falta la contracción obligatoria: à + le siempre da au.",
+    "du": "De + le indica procedencia («de la cama»), no el lugar donde se está."
+   }
+  },
+  {
+   "id": "e08",
+   "tipo": "hueco",
+   "enunciado": "Completa con de y el artículo (du, de la, de l', des).",
+   "frase": "Tom a joué ___ violon.",
+   "respuestas": [
+    "du"
+   ],
+   "explicacion": "Se aplica la observación de la ficha sobre los instrumentos: se construyen con jouer de, mientras que los deportes y juegos van con jouer à. La pista es violon, un instrumento masculino (le violon). De + le se contrae en du, de modo que queda jouer du violon. El español dice «tocar el violín» sin preposición, de ahí la tentación de omitirla.",
+   "origen": "tatoeba:6685617",
+   "explicacion_breve": "Los instrumentos van con jouer de: de + le violon = du violon.",
+   "traduccion": "Tom tocó el violín.",
+   "errores_previstos": [
+    {
+     "respuesta": "le",
+     "explicacion": "Calco del español «tocar el violín»: con instrumentos jouer necesita de, que contrae: du violon."
+    },
+    {
+     "respuesta": "au",
+     "explicacion": "Jouer à se usa con deportes y juegos (jouer au tennis); con instrumentos es jouer de."
+    },
+    {
+     "respuesta": "de le",
+     "explicacion": "De + le debe contraerse en du."
+    }
+   ]
+  },
+  {
+   "id": "e09",
+   "tipo": "hueco",
+   "enunciado": "Completa con à y el artículo (au, à la, à l', aux).",
+   "frase": "Nous allons ___ États-Unis cet été.",
+   "respuestas": [
+    "aux"
+   ],
+   "explicacion": "Se aplica la regla de la ficha para países plurales: à + les se contrae en aux. La pista es États-Unis, nombre de país en plural (les États-Unis), con el verbo aller, que pide à. El resultado es aux États-Unis, con liaison: se pronuncia aux‿États. El español no contrae en plural («a los Estados Unidos»), de ahí el riesgo de escribir à les.",
+   "explicacion_breve": "Les États-Unis es plural: à + les = aux.",
+   "traduccion": "Vamos a Estados Unidos este verano.",
+   "errores_previstos": [
+    {
+     "respuesta": "à les",
+     "explicacion": "Calco del español «a los»: en francés à + les se contrae obligatoriamente en aux."
+    },
+    {
+     "respuesta": "au",
+     "explicacion": "Au es singular (à + le); États-Unis es plural y pide aux."
+    },
+    {
+     "respuesta": "en",
+     "explicacion": "En se usa con países femeninos singulares; los plurales llevan aux."
+    }
+   ]
+  },
+  {
+   "id": "e10",
+   "tipo": "hueco",
+   "enunciado": "Completa con de y el artículo (du, de la, de l', des).",
+   "frase": "La pharmacie est à côté ___ magasins.",
+   "respuestas": [
+    "des"
+   ],
+   "explicacion": "Se aplica la observación de la ficha sobre las locuciones que terminan en de: también contraen. La pista es à côté de, «al lado de», seguida de magasins, en plural (les magasins). De + les se contrae en des: à côté des magasins. El español no contrae en plural («de las tiendas»), de ahí el error típico de escribir de les.",
+   "explicacion_breve": "À côté de + les magasins da des magasins.",
+   "traduccion": "La farmacia está al lado de las tiendas.",
+   "errores_previstos": [
+    {
+     "respuesta": "de les",
+     "explicacion": "De + les debe contraerse en des."
+    },
+    {
+     "respuesta": "du",
+     "explicacion": "Du es singular (de + le); magasins es plural y pide des."
+    },
+    {
+     "respuesta": "aux",
+     "explicacion": "La locución es à côté de, con de; aux es la contracción de à + les."
+    }
+   ]
+  },
+  {
+   "id": "e11",
+   "tipo": "eleccion",
+   "enunciado": "Elige la opción correcta.",
+   "frase": "Je vais ___ banque cet après-midi.",
+   "opciones": [
+    "à la",
+    "au",
+    "à le"
+   ],
+   "respuestas": [
+    "à la"
+   ],
+   "explicacion": "Se aplica la regla de la ficha según la cual solo contraen le y les: la y l' se quedan separados. La pista es banque, que en francés es femenino (la banque), aunque en español «el banco» sea masculino. Por eso no hay contracción y queda à la banque. Es un caso típico en que el género español engaña.",
+   "explicacion_breve": "Banque es femenino y la no contrae: à la banque.",
+   "traduccion": "Voy al banco esta tarde.",
+   "por_opcion": {
+    "à la": "Correcta: banque es femenino y la no contrae con à.",
+    "au": "Solo vale con sustantivos masculinos; es el calco de «al banco», pero banque es femenino.",
+    "à le": "Nunca se escribe así: con masculino sería au, y banque además es femenino."
+   }
+  },
+  {
+   "id": "e12",
+   "tipo": "eleccion",
+   "enunciado": "Elige la opción correcta.",
+   "frase": "Les enfants sortent ___ école à quatre heures et demie.",
+   "opciones": [
+    "de l'",
+    "du",
+    "de la"
+   ],
+   "respuestas": [
+    "de l'"
+   ],
+   "explicacion": "Se aplica la regla de la ficha: ante vocal el artículo se apostrofa (l') y no hay contracción. La pista es école, que empieza por vocal y además es femenino. Con sortir de queda de l'école. Aunque en español se diga «del colegio», du sería incorrecto porque l' nunca se contrae.",
+   "explicacion_breve": "École empieza por vocal: de l'école, sin contracción.",
+   "traduccion": "Los niños salen del colegio a las cuatro y media.",
+   "por_opcion": {
+    "de l'": "Correcta: école empieza por vocal; el artículo se elide y no contrae.",
+    "du": "Du solo aparece ante masculinos que empiezan por consonante; ante vocal se usa de l'.",
+    "de la": "Ante vocal la se apostrofa: de l'école, no de la école."
+   }
+  },
+  {
+   "id": "e13",
+   "tipo": "hueco",
+   "enunciado": "Completa con à y el artículo (au, à la, à l', aux).",
+   "frase": "Je voudrais une tarte ___ pommes.",
+   "respuestas": [
+    "aux"
+   ],
+   "explicacion": "Se aplica la observación de la ficha sobre los sabores y rellenos, que se expresan con à: un gâteau au chocolat, une tarte aux pommes. La pista es pommes, en plural (les pommes), así que à + les da aux. El español usa «de» y singular («tarta de manzana»), lo que lleva a calcar de pomme; en francés es aux pommes.",
+   "explicacion_breve": "Los sabores van con à; pommes es plural: aux pommes.",
+   "traduccion": "Querría una tarta de manzana.",
+   "errores_previstos": [
+    {
+     "respuesta": "de",
+     "explicacion": "Calco del español «tarta de manzana»: el sabor se expresa con à + artículo, aux pommes."
+    },
+    {
+     "respuesta": "à les",
+     "explicacion": "À + les debe contraerse en aux."
+    },
+    {
+     "respuesta": "au",
+     "explicacion": "Au es singular; pommes está en plural y pide aux."
+    }
+   ]
+  },
+  {
+   "id": "e14",
+   "tipo": "corregir",
+   "enunciado": "Corrige el error.",
+   "frase": "Je parle à le directeur.",
+   "respuestas": [
+    "Je parle au directeur."
+   ],
+   "explicacion": "Se aplica la regla básica de la ficha: à + le se contrae obligatoriamente en au. La pista es el verbo parler à, «hablar con, hablar a», seguido de le directeur, masculino. La forma separada à le no existe ante un sustantivo, así que se corrige en je parle au directeur.",
+   "explicacion_breve": "À + le se contrae obligatoriamente en au.",
+   "traduccion": "Hablo con el director.",
+   "errores_previstos": [
+    {
+     "respuesta": "Je parle à le directeur.",
+     "explicacion": "Es la frase sin corregir: à + le siempre contrae en au."
+    },
+    {
+     "respuesta": "Je parle avec le directeur.",
+     "explicacion": "Parler avec existe, pero el error de la frase es la contracción; la corrección esperada es au directeur."
+    },
+    {
+     "respuesta": "Je parle aux directeur.",
+     "explicacion": "Aux es plural; con un solo director es au."
+    }
+   ]
+  },
+  {
+   "id": "e15",
+   "tipo": "corregir",
+   "enunciado": "Corrige el error.",
+   "frase": "C'est la voiture de les voisins.",
+   "respuestas": [
+    "C'est la voiture des voisins."
+   ],
+   "explicacion": "Se aplica la regla de la ficha: de + les se contrae en des. La pista es les voisins, en plural, tras la preposición de que expresa posesión. El español no contrae en plural («de los vecinos»), pero el francés sí: la voiture des voisins. Este des es la preposición contraída, no el artículo indefinido plural.",
+   "explicacion_breve": "De + les se contrae en des.",
+   "traduccion": "Es el coche de los vecinos.",
+   "errores_previstos": [
+    {
+     "respuesta": "C'est la voiture de les voisins.",
+     "explicacion": "Es la frase sin corregir: de + les debe contraerse en des."
+    },
+    {
+     "respuesta": "C'est la voiture du voisins.",
+     "explicacion": "Du es singular; con voisins en plural es des."
+    },
+    {
+     "respuesta": "C'est la voiture de voisins.",
+     "explicacion": "Sin artículo se pierde el sentido de «los vecinos» concretos; la forma correcta es des voisins."
+    }
+   ]
+  },
+  {
+   "id": "e16",
+   "tipo": "corregir",
+   "enunciado": "Corrige el error.",
+   "frase": "J'ai mal à les dents.",
+   "respuestas": [
+    "J'ai mal aux dents."
+   ],
+   "explicacion": "Se aplica la regla de la ficha: à + les se contrae en aux. La pista es la expresión avoir mal à, «doler», seguida de les dents, en plural. Queda j'ai mal aux dents. Fíjate en que el francés usa el artículo definido con las partes del cuerpo, igual que el español «las muelas», y no el posesivo.",
+   "explicacion_breve": "À + les se contrae en aux.",
+   "traduccion": "Me duelen las muelas.",
+   "errores_previstos": [
+    {
+     "respuesta": "J'ai mal à les dents.",
+     "explicacion": "Es la frase sin corregir: à + les debe contraerse en aux."
+    },
+    {
+     "respuesta": "J'ai mal au dents.",
+     "explicacion": "Au es singular; con dents en plural es aux."
+    },
+    {
+     "respuesta": "J'ai mal à mes dents.",
+     "explicacion": "Con avoir mal à se usa el artículo, no el posesivo: aux dents."
+    }
+   ]
+  }
  ],
- "fuente": {"nombre": "Tex's French Grammar", "autores": "COERLL, Universidad de Texas en Austin", "licencia": "CC BY 3.0", "url": "https://laits.utexas.edu/tex/gr/pre2.html", "otras": ["Frases de Tatoeba (CC BY 2.0 FR)"]}
+ "fuente": {
+  "nombre": "Tex's French Grammar",
+  "autores": "COERLL, Universidad de Texas en Austin",
+  "licencia": "CC BY 3.0",
+  "url": "https://laits.utexas.edu/tex/gr/pre2.html",
+  "otras": [
+   "Frases de Tatoeba (CC BY 2.0 FR)"
+  ]
+ },
+ "descripcion_larga_es": "En francés las preposiciones à y de se funden con los artículos le y les: au, aux, du, des. Es como nuestro «al» y «del», pero también ocurre en plural, y nunca con la ni con l'. Aparece en casi cada frase: lugares, países, sabores, instrumentos y deportes. Al hispanohablante le cuesta recordar que el plural también contrae (aux États-Unis) y que con femeninos y vocales no hay contracción.",
+ "contexto": {
+  "que_es": "Es la fusión obligatoria de las preposiciones à y de con los artículos definidos le y les: à + le = au, à + les = aux, de + le = du, de + les = des. Con la y con l' (ante vocal o h muda) no hay contracción: à la, à l', de la, de l'. El pronombre le, que no es artículo, tampoco contrae.",
+  "por_que_importa": "Son de las palabras más frecuentes del francés y aparecen en direcciones, horarios, comidas, aficiones y nacionalidades. Escribir à le o de les es un error de principiante muy visible en cualquier examen, y al oído suena claramente extranjero. Además, distinguir du (de + le) del partitivo du es clave para entender bien las frases.",
+  "cuando_se_usa": "Siempre que à o de vayan seguidos de un artículo le o les: con verbos como aller à, venir de, parler de, jouer à y jouer de; con locuciones como à côté de o près de; con países masculinos (au Japon) o plurales (aux États-Unis); y en sabores (au chocolat). El español contrae solo en singular masculino («al», «del»), así que el riesgo está en olvidar aux y des en plural."
+ }
 }

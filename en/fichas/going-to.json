@@ -6,47 +6,466 @@
  "nivel": "A2",
  "resumen": "Be going to + infinitivo expresa intenciones o planes decididos antes de hablar y predicciones basadas en indicios presentes. Equivale a «ir a + infinitivo».",
  "explicacion": [
-  {"tipo": "tabla", "cabecera": ["Tipo de frase", "Estructura", "Ejemplo"], "filas": [
-   ["Afirmativa", "sujeto + am / is / are + going to + infinitivo", "I'm going to call her."],
-   ["Negativa", "sujeto + am not / isn't / aren't + going to + infinitivo", "We aren't going to stay."],
-   ["Pregunta", "Am / Is / Are + sujeto + going to + infinitivo?", "Are you going to buy it?"]
-  ]},
-  {"tipo": "lista", "items": [
-   "Intención o plan ya decidido: I'm going to learn German next year.",
-   "Predicción con pruebas visibles ahora: Look at those clouds! It's going to rain.",
-   "No sirve para decisiones tomadas en el momento de hablar: ahí se usa will."
-  ]},
-  {"tipo": "texto", "texto": "El verbo be concuerda con el sujeto (I am, he is, they are) y nunca se omite: «I going to» es incorrecto. Tras going to va siempre el infinitivo sin to adicional."},
-  {"tipo": "texto", "texto": "Con el verbo go se puede decir I'm going to go to the gym, aunque en la lengua hablada es frecuente simplemente I'm going to the gym (present continuous)."},
-  {"tipo": "texto", "texto": "En inglés oral informal going to se pronuncia a menudo gonna; no conviene escribirlo en textos formales."}
+  {
+   "tipo": "tabla",
+   "cabecera": [
+    "Tipo de frase",
+    "Estructura",
+    "Ejemplo"
+   ],
+   "filas": [
+    [
+     "Afirmativa",
+     "sujeto + am / is / are + going to + infinitivo",
+     "I'm going to call her."
+    ],
+    [
+     "Negativa",
+     "sujeto + am not / isn't / aren't + going to + infinitivo",
+     "We aren't going to stay."
+    ],
+    [
+     "Pregunta",
+     "Am / Is / Are + sujeto + going to + infinitivo?",
+     "Are you going to buy it?"
+    ]
+   ]
+  },
+  {
+   "tipo": "lista",
+   "items": [
+    "Intención o plan ya decidido: I'm going to learn German next year.",
+    "Predicción con pruebas visibles ahora: Look at those clouds! It's going to rain.",
+    "No sirve para decisiones tomadas en el momento de hablar: ahí se usa will."
+   ]
+  },
+  {
+   "tipo": "texto",
+   "texto": "El verbo be concuerda con el sujeto (I am, he is, they are) y nunca se omite: «I going to» es incorrecto. Tras going to va siempre el infinitivo sin to adicional."
+  },
+  {
+   "tipo": "texto",
+   "texto": "Con el verbo go se puede decir I'm going to go to the gym, aunque en la lengua hablada es frecuente simplemente I'm going to the gym (present continuous)."
+  },
+  {
+   "tipo": "texto",
+   "texto": "En inglés oral informal going to se pronuncia a menudo gonna; no conviene escribirlo en textos formales."
+  }
  ],
  "ejemplos": [
-  {"frase": "I'm going to paint the kitchen this weekend.", "traduccion": "Voy a pintar la cocina este fin de semana."},
-  {"frase": "Be careful! You're going to fall.", "traduccion": "¡Cuidado! Te vas a caer."},
-  {"frase": "Are they going to sell the house?", "traduccion": "¿Van a vender la casa?"},
-  {"frase": "She isn't going to accept the offer.", "traduccion": "No va a aceptar la oferta."},
-  {"frase": "The team is losing 3-0. They're going to lose the match.", "traduccion": "El equipo pierde 3-0. Van a perder el partido."}
+  {
+   "frase": "I'm going to paint the kitchen this weekend.",
+   "traduccion": "Voy a pintar la cocina este fin de semana."
+  },
+  {
+   "frase": "Be careful! You're going to fall.",
+   "traduccion": "¡Cuidado! Te vas a caer."
+  },
+  {
+   "frase": "Are they going to sell the house?",
+   "traduccion": "¿Van a vender la casa?"
+  },
+  {
+   "frase": "She isn't going to accept the offer.",
+   "traduccion": "No va a aceptar la oferta."
+  },
+  {
+   "frase": "The team is losing 3-0. They're going to lose the match.",
+   "traduccion": "El equipo pierde 3-0. Van a perder el partido."
+  }
  ],
  "errores_hispanohablantes": [
-  {"mal": "I going to visit my aunt.", "bien": "I'm going to visit my aunt.", "nota": "Falta el verbo be."},
-  {"mal": "We are going to to travel.", "bien": "We are going to travel.", "nota": "Solo un to: going to + infinitivo."},
-  {"mal": "Are you going to visiting Rome?", "bien": "Are you going to visit Rome?", "nota": "Tras going to va el infinitivo, no -ing."}
+  {
+   "mal": "I going to visit my aunt.",
+   "bien": "I'm going to visit my aunt.",
+   "nota": "Falta el verbo be."
+  },
+  {
+   "mal": "We are going to to travel.",
+   "bien": "We are going to travel.",
+   "nota": "Solo un to: going to + infinitivo."
+  },
+  {
+   "mal": "Are you going to visiting Rome?",
+   "bien": "Are you going to visit Rome?",
+   "nota": "Tras going to va el infinitivo, no -ing."
+  }
  ],
  "ejercicios": [
-  {"id": "e01", "tipo": "hueco", "enunciado": "Completa con la forma correcta de be going to.", "frase": "My parents ___ (move) to the coast next year.", "respuestas": ["are going to move", "'re going to move"], "explicacion": "Sujeto plural: are going to + infinitivo."},
-  {"id": "e02", "tipo": "hueco", "enunciado": "Completa con la forma correcta de be going to.", "frase": "I ___ (start) a new diet on Monday.", "respuestas": ["am going to start", "'m going to start"], "explicacion": "Plan decidido con I: am going to."},
-  {"id": "e03", "tipo": "hueco", "enunciado": "Completa con la forma negativa de be going to.", "frase": "He ___ (not / come) to the meeting.", "respuestas": ["isn't going to come", "is not going to come", "'s not going to come"], "explicacion": "Negativa en tercera persona: isn't going to."},
-  {"id": "e04", "tipo": "hueco", "enunciado": "Completa con la forma correcta de be going to.", "frase": "Look at that car! It ___ (crash).", "respuestas": ["is going to crash", "'s going to crash"], "explicacion": "Predicción basada en lo que se ve."},
-  {"id": "e05", "tipo": "eleccion", "enunciado": "Elige la opción correcta.", "frase": "What ___ do after university?", "opciones": ["are you going to", "you are going to", "do you going to"], "respuestas": ["are you going to"], "explicacion": "Pregunta: be + sujeto + going to."},
-  {"id": "e06", "tipo": "eleccion", "enunciado": "Elige la opción correcta.", "frase": "She has bought paint because she ___ her bedroom.", "opciones": ["is going to paint", "will paint", "paints"], "respuestas": ["is going to paint"], "explicacion": "Plan ya decidido (ha comprado la pintura): going to."},
-  {"id": "e07", "tipo": "eleccion", "enunciado": "Elige la opción correcta.", "frase": "The sky is black. It ___ rain.", "opciones": ["is going to", "goes to", "going to"], "respuestas": ["is going to"], "explicacion": "Predicción con pruebas presentes; be es obligatorio."},
-  {"id": "e08", "tipo": "transformar", "enunciado": "Convierte la frase en pregunta.", "frase": "They are going to get married.", "respuestas": ["Are they going to get married?"], "explicacion": "Se invierte be y el sujeto."},
-  {"id": "e09", "tipo": "transformar", "enunciado": "Pasa la frase a negativa (usa la contracción isn't).", "frase": "Laura is going to study law.", "respuestas": ["Laura isn't going to study law."], "explicacion": "Negativa: isn't going to + infinitivo."},
-  {"id": "e10", "tipo": "corregir", "enunciado": "Corrige el error.", "frase": "We going to have a party on Friday.", "respuestas": ["We are going to have a party on Friday.", "We're going to have a party on Friday."], "explicacion": "Falta el verbo be: are going to."},
-  {"id": "e11", "tipo": "corregir", "enunciado": "Corrige el error.", "frase": "Is your brother going to buying a car?", "respuestas": ["Is your brother going to buy a car?"], "explicacion": "Tras going to va el infinitivo."},
-  {"id": "e12", "tipo": "corregir", "enunciado": "Corrige el error.", "frase": "I'm going to to call the doctor.", "respuestas": ["I'm going to call the doctor."], "explicacion": "Sobra un to."},
-  {"id": "e13", "tipo": "ordenar", "enunciado": "Ordena las palabras.", "palabras": ["going", "we", "to", "are", "a", "rent", "flat"], "respuestas": ["We are going to rent a flat", "Are we going to rent a flat"], "explicacion": "Sujeto + are going to + infinitivo + complemento."},
-  {"id": "e14", "tipo": "ordenar", "enunciado": "Ordena las palabras para formar una pregunta.", "palabras": ["is", "when", "going", "she", "to", "leave"], "respuestas": ["When is she going to leave"], "explicacion": "Partícula interrogativa + is + sujeto + going to + infinitivo."}
+  {
+   "id": "e01",
+   "tipo": "hueco",
+   "enunciado": "Completa con la forma correcta de be going to.",
+   "frase": "My parents ___ (move) to the coast next year.",
+   "respuestas": [
+    "are going to move",
+    "'re going to move"
+   ],
+   "explicacion": "Se aplica la regla de la ficha de que el verbo be concuerda con el sujeto y nunca se omite. La pista es el sujeto My parents, que equivale a they y pide are. Detrás va going to + infinitivo sin to: move. El resultado es are going to move (o 're going to move), un plan decidido para next year.",
+   "explicacion_breve": "Sujeto plural: are going to + infinitivo.",
+   "traduccion": "Mis padres se van a mudar a la costa el año que viene.",
+   "errores_previstos": [
+    {
+     "respuesta": "going to move",
+     "explicacion": "Falta el verbo be, error típico de la ficha: are going to move."
+    },
+    {
+     "respuesta": "is going to move",
+     "explicacion": "My parents es plural: are, no is."
+    },
+    {
+     "respuesta": "are going to moving",
+     "explicacion": "Tras going to va el infinitivo, no -ing."
+    }
+   ]
+  },
+  {
+   "id": "e02",
+   "tipo": "hueco",
+   "enunciado": "Completa con la forma correcta de be going to.",
+   "frase": "I ___ (start) a new diet on Monday.",
+   "respuestas": [
+    "am going to start",
+    "'m going to start"
+   ],
+   "explicacion": "Se aplica la regla de concordancia de be con el sujeto: con I se usa am. La pista es el sujeto I y on Monday, un plan ya decidido. La forma es am going to start, o la contracción 'm going to start, muy frecuente en la lengua hablada.",
+   "explicacion_breve": "Plan decidido con I: am going to.",
+   "traduccion": "Voy a empezar una dieta nueva el lunes.",
+   "errores_previstos": [
+    {
+     "respuesta": "going to start",
+     "explicacion": "Falta el verbo be: I am going to start."
+    },
+    {
+     "respuesta": "is going to start",
+     "explicacion": "Con I el verbo be es am."
+    },
+    {
+     "respuesta": "am going to to start",
+     "explicacion": "Sobra un to: going to + infinitivo sin to."
+    }
+   ]
+  },
+  {
+   "id": "e03",
+   "tipo": "hueco",
+   "enunciado": "Completa con la forma negativa de be going to.",
+   "frase": "He ___ (not / come) to the meeting.",
+   "respuestas": [
+    "isn't going to come",
+    "is not going to come",
+    "'s not going to come"
+   ],
+   "explicacion": "Se aplica la forma negativa de be going to: la negación va detrás de be (is not o isn't), y going to + infinitivo no cambia. La pista es el sujeto He, tercera persona del singular, y la indicación not. Se aceptan isn't going to come, is not going to come y 's not going to come, que son tres maneras de escribir lo mismo.",
+   "explicacion_breve": "Negativa en tercera persona: isn't going to.",
+   "traduccion": "Él no va a venir a la reunión.",
+   "errores_previstos": [
+    {
+     "respuesta": "doesn't going to come",
+     "explicacion": "Be going to no se niega con do; la negación va con be: isn't going to."
+    },
+    {
+     "respuesta": "not going to come",
+     "explicacion": "Falta el verbo be: isn't going to come."
+    },
+    {
+     "respuesta": "isn't going to coming",
+     "explicacion": "Tras going to va el infinitivo: come."
+    }
+   ]
+  },
+  {
+   "id": "e04",
+   "tipo": "hueco",
+   "enunciado": "Completa con la forma correcta de be going to.",
+   "frase": "Look at that car! It ___ (crash).",
+   "respuestas": [
+    "is going to crash",
+    "'s going to crash"
+   ],
+   "explicacion": "Se aplica el uso de be going to para predicciones basadas en indicios presentes que recoge la ficha. La pista es Look at that car!: el hablante ve algo en ese momento que anticipa el choque. El sujeto It (el coche) pide is: is going to crash, o en contracción 's going to crash.",
+   "explicacion_breve": "Predicción basada en lo que se ve.",
+   "traduccion": "¡Mira ese coche! Va a chocar.",
+   "errores_previstos": [
+    {
+     "respuesta": "will crash",
+     "explicacion": "Will expresa una predicción de opinión; con una prueba visible delante se usa going to."
+    },
+    {
+     "respuesta": "going to crash",
+     "explicacion": "Falta el verbo be: is going to crash."
+    },
+    {
+     "respuesta": "is going to crashing",
+     "explicacion": "Tras going to va el infinitivo, no -ing."
+    }
+   ]
+  },
+  {
+   "id": "e05",
+   "tipo": "eleccion",
+   "enunciado": "Elige la opción correcta.",
+   "frase": "What ___ do after university?",
+   "opciones": [
+    "are you going to",
+    "you are going to",
+    "do you going to"
+   ],
+   "respuestas": [
+    "are you going to"
+   ],
+   "explicacion": "Se aplica la regla de la pregunta con be going to: se invierte be y el sujeto, sin do. La pista es la partícula interrogativa What al principio. El orden es What + are + you + going to + do. Como be es auxiliar, no hace falta do.",
+   "explicacion_breve": "Pregunta: be + sujeto + going to.",
+   "traduccion": "¿Qué vas a hacer después de la universidad?",
+   "por_opcion": {
+    "are you going to": "Correcta: en la pregunta be va delante del sujeto.",
+    "you are going to": "Incorrecta: mantiene el orden de la afirmativa; en una pregunta con What hay que invertir.",
+    "do you going to": "Incorrecta: be going to no forma la pregunta con do; se invierte be."
+   }
+  },
+  {
+   "id": "e06",
+   "tipo": "eleccion",
+   "enunciado": "Elige la opción correcta.",
+   "frase": "She has bought paint because she ___ her bedroom.",
+   "opciones": [
+    "is going to paint",
+    "will paint",
+    "paints"
+   ],
+   "respuestas": [
+    "is going to paint"
+   ],
+   "explicacion": "Se aplica el uso de be going to para intenciones decididas antes de hablar. La pista es She has bought paint: la compra demuestra que la decisión ya está tomada. Por eso la forma es is going to paint, con is porque el sujeto es she.",
+   "explicacion_breve": "Plan ya decidido (ha comprado la pintura): going to.",
+   "traduccion": "Ha comprado pintura porque va a pintar su dormitorio.",
+   "por_opcion": {
+    "is going to paint": "Correcta: plan ya decidido, demostrado por la compra de la pintura.",
+    "will paint": "Incorrecta: will expresa decisión en el momento; aquí la decisión es previa.",
+    "paints": "Incorrecta: el presente simple expresaría una costumbre o un horario, no un plan."
+   }
+  },
+  {
+   "id": "e07",
+   "tipo": "eleccion",
+   "enunciado": "Elige la opción correcta.",
+   "frase": "The sky is black. It ___ rain.",
+   "opciones": [
+    "is going to",
+    "goes to",
+    "going to"
+   ],
+   "respuestas": [
+    "is going to"
+   ],
+   "explicacion": "Se aplican dos reglas de la ficha: be going to para predicciones basadas en indicios presentes, y que be es obligatorio. La pista es The sky is black, prueba visible de la lluvia. La forma es is going to: is concuerda con it y no puede omitirse.",
+   "explicacion_breve": "Predicción con pruebas presentes; be es obligatorio.",
+   "traduccion": "El cielo está negro. Va a llover.",
+   "por_opcion": {
+    "is going to": "Correcta: predicción con prueba presente, con be incluido.",
+    "goes to": "Incorrecta: goes to significa «va a (un sitio)», no forma el futuro.",
+    "going to": "Incorrecta: falta el verbo be (is), que nunca se omite."
+   }
+  },
+  {
+   "id": "e08",
+   "tipo": "transformar",
+   "enunciado": "Convierte la frase en pregunta.",
+   "frase": "They are going to get married.",
+   "respuestas": [
+    "Are they going to get married?"
+   ],
+   "explicacion": "Se aplica la regla de la pregunta con be going to: se invierte be y el sujeto. La pista es la orden de convertir en pregunta una frase con They are going to. Se pasa are delante de they y se deja igual going to get married, con el signo de interrogación al final.",
+   "explicacion_breve": "Se invierte be y el sujeto.",
+   "traduccion": "¿Se van a casar?",
+   "errores_previstos": [
+    {
+     "respuesta": "Do they going to get married?",
+     "explicacion": "Be going to no forma la pregunta con do; se invierte are."
+    },
+    {
+     "respuesta": "They are going to get married?",
+     "explicacion": "Solo añade la interrogación; en inglés escrito hay que invertir be y el sujeto."
+    },
+    {
+     "respuesta": "Are they going to getting married?",
+     "explicacion": "Tras going to va el infinitivo get."
+    }
+   ]
+  },
+  {
+   "id": "e09",
+   "tipo": "transformar",
+   "enunciado": "Pasa la frase a negativa (usa la contracción isn't).",
+   "frase": "Laura is going to study law.",
+   "respuestas": [
+    "Laura isn't going to study law."
+   ],
+   "explicacion": "Se aplica la negativa de be going to: la negación va con be, y con Laura (tercera persona) es isn't. La pista es la orden de usar la contracción isn't. El resto no cambia: going to study law. No se usa doesn't, porque be ya funciona como auxiliar.",
+   "explicacion_breve": "Negativa: isn't going to + infinitivo.",
+   "traduccion": "Laura no va a estudiar Derecho.",
+   "errores_previstos": [
+    {
+     "respuesta": "Laura doesn't going to study law.",
+     "explicacion": "Be going to no se niega con do; se niega be: isn't."
+    },
+    {
+     "respuesta": "Laura isn't going to studying law.",
+     "explicacion": "Tras going to va el infinitivo study."
+    },
+    {
+     "respuesta": "Laura is going to not study law.",
+     "explicacion": "La negación va con be, no delante del infinitivo; además el ejercicio pide isn't."
+    }
+   ]
+  },
+  {
+   "id": "e10",
+   "tipo": "corregir",
+   "enunciado": "Corrige el error.",
+   "frase": "We going to have a party on Friday.",
+   "respuestas": [
+    "We are going to have a party on Friday.",
+    "We're going to have a party on Friday."
+   ],
+   "explicacion": "Se aplica la regla de la ficha: el verbo be concuerda con el sujeto y nunca se omite. La pista es el sujeto We sin verbo be delante de going to. La corrección es We are going to (o We're going to), plan decidido para el viernes.",
+   "explicacion_breve": "Falta el verbo be: are going to.",
+   "traduccion": "Vamos a hacer una fiesta el viernes.",
+   "errores_previstos": [
+    {
+     "respuesta": "We going to have a party on Friday.",
+     "explicacion": "Deja la frase sin corregir: falta el verbo be."
+    },
+    {
+     "respuesta": "We is going to have a party on Friday.",
+     "explicacion": "Añade be pero sin concordar: con we es are."
+    },
+    {
+     "respuesta": "We are go to have a party on Friday.",
+     "explicacion": "La estructura es going to, no go to."
+    }
+   ]
+  },
+  {
+   "id": "e11",
+   "tipo": "corregir",
+   "enunciado": "Corrige el error.",
+   "frase": "Is your brother going to buying a car?",
+   "respuestas": [
+    "Is your brother going to buy a car?"
+   ],
+   "explicacion": "Se aplica la regla de la ficha: tras going to va siempre el infinitivo sin to, nunca la forma en -ing. La pista es buying detrás de going to. El to de going to es la marca de infinitivo, no una preposición, por eso exige la forma base: buy.",
+   "explicacion_breve": "Tras going to va el infinitivo.",
+   "traduccion": "¿Tu hermano va a comprarse un coche?",
+   "errores_previstos": [
+    {
+     "respuesta": "Is your brother going to buying a car?",
+     "explicacion": "Deja la frase sin corregir: tras going to va el infinitivo."
+    },
+    {
+     "respuesta": "Is your brother going to bought a car?",
+     "explicacion": "Tras going to va el infinitivo, no el pasado."
+    },
+    {
+     "respuesta": "Does your brother going to buy a car?",
+     "explicacion": "La pregunta se forma con be, no con do."
+    }
+   ]
+  },
+  {
+   "id": "e12",
+   "tipo": "corregir",
+   "enunciado": "Corrige el error.",
+   "frase": "I'm going to to call the doctor.",
+   "respuestas": [
+    "I'm going to call the doctor."
+   ],
+   "explicacion": "Se aplica la regla de la ficha: going to + infinitivo lleva un solo to. La pista es el to repetido. El primer to forma parte de going to y ya hace de marca de infinitivo, así que el verbo va directamente detrás: I'm going to call the doctor.",
+   "explicacion_breve": "Sobra un to.",
+   "traduccion": "Voy a llamar al médico.",
+   "errores_previstos": [
+    {
+     "respuesta": "I'm going to to call the doctor.",
+     "explicacion": "Deja la frase sin corregir: sobra un to."
+    },
+    {
+     "respuesta": "I'm going call the doctor.",
+     "explicacion": "Quita el to equivocado: hace falta exactamente uno, going to call."
+    },
+    {
+     "respuesta": "I going to call the doctor.",
+     "explicacion": "Además de quitar el to, elimina el verbo be, que es obligatorio."
+    }
+   ]
+  },
+  {
+   "id": "e13",
+   "tipo": "ordenar",
+   "enunciado": "Ordena las palabras.",
+   "palabras": [
+    "going",
+    "we",
+    "to",
+    "are",
+    "a",
+    "rent",
+    "flat"
+   ],
+   "respuestas": [
+    "We are going to rent a flat",
+    "Are we going to rent a flat"
+   ],
+   "explicacion": "Se aplica el orden básico de la ficha: sujeto + be + going to + infinitivo + complemento. La pista es que hay sujeto (we), be (are), going, to, el infinitivo rent y el complemento a flat. Se acepta también la pregunta, con are delante del sujeto, porque al ordenar sin signos de puntuación las mismas palabras permiten las dos lecturas.",
+   "explicacion_breve": "Sujeto + are going to + infinitivo + complemento.",
+   "traduccion": "Vamos a alquilar un piso. (o, como pregunta: ¿Vamos a alquilar un piso?)",
+   "errores_previstos": [
+    {
+     "respuesta": "We are going to a flat rent",
+     "explicacion": "El infinitivo va inmediatamente después de going to, y el complemento detrás: rent a flat."
+    },
+    {
+     "respuesta": "We going are to rent a flat",
+     "explicacion": "Rompe la estructura: be va delante de going to (are going to)."
+    }
+   ]
+  },
+  {
+   "id": "e14",
+   "tipo": "ordenar",
+   "enunciado": "Ordena las palabras para formar una pregunta.",
+   "palabras": [
+    "is",
+    "when",
+    "going",
+    "she",
+    "to",
+    "leave"
+   ],
+   "respuestas": [
+    "When is she going to leave"
+   ],
+   "explicacion": "Se aplica el orden de la pregunta con be going to: partícula interrogativa + be + sujeto + going to + infinitivo. La pista es la orden de formar pregunta y la presencia de when. El resultado es When is she going to leave, con is delante de she.",
+   "explicacion_breve": "Partícula interrogativa + is + sujeto + going to + infinitivo.",
+   "traduccion": "¿Cuándo se va a ir ella?",
+   "errores_previstos": [
+    {
+     "respuesta": "When she is going to leave",
+     "explicacion": "Mantiene el orden de la afirmativa; en la pregunta be va delante del sujeto."
+    },
+    {
+     "respuesta": "When is going she to leave",
+     "explicacion": "Coloca el sujeto en un lugar incorrecto: when is she going to leave."
+    }
+   ]
+  }
  ],
- "fuente": {"nombre": "propia"}
+ "fuente": {
+  "nombre": "propia"
+ },
+ "descripcion_larga_es": "Be going to + infinitivo es la forma más sencilla de hablar de planes e intenciones ya decididos y de predicciones basadas en lo que se ve. Equivale casi exactamente al español «ir a + infinitivo», lo que ayuda mucho. Los fallos típicos del hispanohablante son olvidar el verbo be (I going to), duplicar to o poner -ing detrás de going to.",
+ "contexto": {
+  "que_es": "Es una forma de futuro compuesta por el verbo be conjugado (am, is, are), going to y el infinitivo sin to: I am going to travel. Expresa intenciones decididas antes de hablar y predicciones apoyadas en indicios presentes.",
+  "por_que_importa": "Es una de las formas de futuro más frecuentes en la conversación diaria, sobre todo para contar planes. Usarla bien permite distinguir lo que ya se ha decidido de lo que se decide en el momento (will). Errores como I going to o going to visiting son muy visibles y restan puntos incluso en niveles básicos.",
+  "cuando_se_usa": "Se usa al hablar de planes (next year, on Monday, after university) y al predecir algo a partir de lo que se ve (Look!, The sky is black). Una señal frecuente es una acción previa que demuestra la intención: ha comprado pintura, ha reservado. El hispanohablante, guiado por «voy a», suele olvidar el am/is/are o añadir un segundo to."
+ }
 }

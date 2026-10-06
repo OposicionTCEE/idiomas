@@ -6,64 +6,710 @@
  "nivel": "B2",
  "resumen": "Verbos y sustantivos para comentar gráficos, estadísticas y evoluciones: subidas, bajadas, estabilidad, porcentajes y comparaciones. Muy útil para resumir un artículo con datos.",
  "explicacion": [
-  {"tipo": "texto", "texto": "La cifra de la variación se introduce con «de»: «augmenter de 5 %» (subir un 5 %), y la cifra final con «à»: «passer de 10 à 15 %». En francés se escribe coma decimal y espacio antes de %: «2,5 %» se lee «deux virgule cinq pour cent»."},
-  {"tipo": "tabla", "cabecera": ["Expresión", "Significado", "Ejemplo"], "filas": [
-   ["augmenter, une augmentation", "aumentar, un aumento", "Les ventes ont augmenté de 8 %."],
-   ["progresser, une progression", "avanzar, un avance", "Le tourisme progresse fortement."],
-   ["être en hausse", "estar al alza", "Les prix sont en hausse de 3 %."],
-   ["grimper, s'envoler", "subir, dispararse", "Les loyers se sont envolés."],
-   ["atteindre un record / un pic", "alcanzar un récord / un máximo", "Les températures ont atteint un record."],
-   ["doubler, tripler", "duplicarse, triplicarse", "Le nombre d'abonnés a doublé."],
-   ["baisser, une baisse", "bajar, una bajada", "Le prix de l'essence a baissé."],
-   ["diminuer, une diminution", "disminuir, una disminución", "La consommation diminue."],
-   ["reculer, un recul", "retroceder, un retroceso", "Les ventes de voitures ont reculé de 4 %."],
-   ["chuter, une chute", "caer, una caída", "L'action a chuté en Bourse."],
-   ["s'effondrer, un effondrement", "desplomarse, un desplome", "Les commandes se sont effondrées."],
-   ["être en baisse", "estar a la baja", "La natalité est en baisse."]
-  ]},
-  {"tipo": "tabla", "cabecera": ["Expresión", "Significado", "Ejemplo"], "filas": [
-   ["se stabiliser", "estabilizarse", "Le chômage s'est stabilisé."],
-   ["rester stable", "mantenerse estable", "La population reste stable."],
-   ["stagner", "estancarse", "Les salaires stagnent depuis des années."],
-   ["fluctuer, osciller", "fluctuar, oscilar", "Le cours a fluctué toute la journée."],
-   ["repartir à la hausse", "volver a subir", "Les prix repartent à la hausse."],
-   ["passer de… à…", "pasar de… a…", "Le taux est passé de 7 à 9 %."],
-   ["un point de pourcentage", "un punto porcentual", "Le chômage a baissé d'un point."],
-   ["la moitié, le tiers, le quart", "la mitad, un tercio, un cuarto", "Un quart des Français vit seul."],
-   ["deux fois plus / moins que", "el doble / la mitad que", "Il gagne deux fois plus que moi."],
-   ["près de, environ", "cerca de, aproximadamente", "Près de 40 % des sondés sont d'accord."],
-   ["légèrement / nettement / fortement", "ligeramente / claramente / fuertemente", "La demande a nettement augmenté."]
-  ]}
+  {
+   "tipo": "texto",
+   "texto": "La cifra de la variación se introduce con «de»: «augmenter de 5 %» (subir un 5 %), y la cifra final con «à»: «passer de 10 à 15 %». En francés se escribe coma decimal y espacio antes de %: «2,5 %» se lee «deux virgule cinq pour cent»."
+  },
+  {
+   "tipo": "tabla",
+   "cabecera": [
+    "Expresión",
+    "Significado",
+    "Ejemplo"
+   ],
+   "filas": [
+    [
+     "augmenter, une augmentation",
+     "aumentar, un aumento",
+     "Les ventes ont augmenté de 8 %."
+    ],
+    [
+     "progresser, une progression",
+     "avanzar, un avance",
+     "Le tourisme progresse fortement."
+    ],
+    [
+     "être en hausse",
+     "estar al alza",
+     "Les prix sont en hausse de 3 %."
+    ],
+    [
+     "grimper, s'envoler",
+     "subir, dispararse",
+     "Les loyers se sont envolés."
+    ],
+    [
+     "atteindre un record / un pic",
+     "alcanzar un récord / un máximo",
+     "Les températures ont atteint un record."
+    ],
+    [
+     "doubler, tripler",
+     "duplicarse, triplicarse",
+     "Le nombre d'abonnés a doublé."
+    ],
+    [
+     "baisser, une baisse",
+     "bajar, una bajada",
+     "Le prix de l'essence a baissé."
+    ],
+    [
+     "diminuer, une diminution",
+     "disminuir, una disminución",
+     "La consommation diminue."
+    ],
+    [
+     "reculer, un recul",
+     "retroceder, un retroceso",
+     "Les ventes de voitures ont reculé de 4 %."
+    ],
+    [
+     "chuter, une chute",
+     "caer, una caída",
+     "L'action a chuté en Bourse."
+    ],
+    [
+     "s'effondrer, un effondrement",
+     "desplomarse, un desplome",
+     "Les commandes se sont effondrées."
+    ],
+    [
+     "être en baisse",
+     "estar a la baja",
+     "La natalité est en baisse."
+    ]
+   ]
+  },
+  {
+   "tipo": "tabla",
+   "cabecera": [
+    "Expresión",
+    "Significado",
+    "Ejemplo"
+   ],
+   "filas": [
+    [
+     "se stabiliser",
+     "estabilizarse",
+     "Le chômage s'est stabilisé."
+    ],
+    [
+     "rester stable",
+     "mantenerse estable",
+     "La population reste stable."
+    ],
+    [
+     "stagner",
+     "estancarse",
+     "Les salaires stagnent depuis des années."
+    ],
+    [
+     "fluctuer, osciller",
+     "fluctuar, oscilar",
+     "Le cours a fluctué toute la journée."
+    ],
+    [
+     "repartir à la hausse",
+     "volver a subir",
+     "Les prix repartent à la hausse."
+    ],
+    [
+     "passer de… à…",
+     "pasar de… a…",
+     "Le taux est passé de 7 à 9 %."
+    ],
+    [
+     "un point de pourcentage",
+     "un punto porcentual",
+     "Le chômage a baissé d'un point."
+    ],
+    [
+     "la moitié, le tiers, le quart",
+     "la mitad, un tercio, un cuarto",
+     "Un quart des Français vit seul."
+    ],
+    [
+     "deux fois plus / moins que",
+     "el doble / la mitad que",
+     "Il gagne deux fois plus que moi."
+    ],
+    [
+     "près de, environ",
+     "cerca de, aproximadamente",
+     "Près de 40 % des sondés sont d'accord."
+    ],
+    [
+     "légèrement / nettement / fortement",
+     "ligeramente / claramente / fuertemente",
+     "La demande a nettement augmenté."
+    ]
+   ]
+  }
  ],
  "ejemplos": [
-  {"frase": "Le prix du billet est passé de 80 à 95 euros en un an.", "traduccion": "El precio del billete ha pasado de 80 a 95 euros en un año."},
-  {"frase": "La fréquentation des musées a augmenté de 12 % cet été.", "traduccion": "La afluencia a los museos ha aumentado un 12 % este verano."},
-  {"frase": "Après une forte hausse, les ventes se sont stabilisées.", "traduccion": "Tras una fuerte subida, las ventas se han estabilizado."},
-  {"frase": "Près d'un tiers des élèves viennent à l'école à vélo.", "traduccion": "Cerca de un tercio de los alumnos va al colegio en bicicleta."},
-  {"frase": "Le nombre de naissances a reculé pour la cinquième année consécutive.", "traduccion": "El número de nacimientos ha retrocedido por quinto año consecutivo."},
-  {"frase": "Une maison coûte ici deux fois moins cher qu'à Paris.", "traduccion": "Aquí una casa cuesta la mitad que en París."}
+  {
+   "frase": "Le prix du billet est passé de 80 à 95 euros en un an.",
+   "traduccion": "El precio del billete ha pasado de 80 a 95 euros en un año."
+  },
+  {
+   "frase": "La fréquentation des musées a augmenté de 12 % cet été.",
+   "traduccion": "La afluencia a los museos ha aumentado un 12 % este verano."
+  },
+  {
+   "frase": "Après une forte hausse, les ventes se sont stabilisées.",
+   "traduccion": "Tras una fuerte subida, las ventas se han estabilizado."
+  },
+  {
+   "frase": "Près d'un tiers des élèves viennent à l'école à vélo.",
+   "traduccion": "Cerca de un tercio de los alumnos va al colegio en bicicleta."
+  },
+  {
+   "frase": "Le nombre de naissances a reculé pour la cinquième année consécutive.",
+   "traduccion": "El número de nacimientos ha retrocedido por quinto año consecutivo."
+  },
+  {
+   "frase": "Une maison coûte ici deux fois moins cher qu'à Paris.",
+   "traduccion": "Aquí una casa cuesta la mitad que en París."
+  }
  ],
  "errores_hispanohablantes": [
-  {"mal": "Les ventes ont augmenté un 5 %.", "bien": "Les ventes ont augmenté de 5 %.", "nota": "La magnitud de la variación se introduce con «de»."},
-  {"mal": "Le chômage a passé de 8 à 7 %.", "bien": "Le chômage est passé de 8 à 7 %.", "nota": "«Passer» en el sentido de cambiar de estado se conjuga con «être»."},
-  {"mal": "Le taux est de 2.5%.", "bien": "Le taux est de 2,5 %.", "nota": "En francés: coma decimal y espacio antes de %."},
-  {"mal": "Les prix sont à la hausse de 3 %.", "bien": "Les prix sont en hausse de 3 %.", "nota": "Se dice «en hausse / en baisse»; «à la hausse» va con verbos como «réviser à la hausse»."}
+  {
+   "mal": "Les ventes ont augmenté un 5 %.",
+   "bien": "Les ventes ont augmenté de 5 %.",
+   "nota": "La magnitud de la variación se introduce con «de»."
+  },
+  {
+   "mal": "Le chômage a passé de 8 à 7 %.",
+   "bien": "Le chômage est passé de 8 à 7 %.",
+   "nota": "«Passer» en el sentido de cambiar de estado se conjuga con «être»."
+  },
+  {
+   "mal": "Le taux est de 2.5%.",
+   "bien": "Le taux est de 2,5 %.",
+   "nota": "En francés: coma decimal y espacio antes de %."
+  },
+  {
+   "mal": "Les prix sont à la hausse de 3 %.",
+   "bien": "Les prix sont en hausse de 3 %.",
+   "nota": "Se dice «en hausse / en baisse»; «à la hausse» va con verbos como «réviser à la hausse»."
+  }
  ],
  "ejercicios": [
-  {"id": "e01", "tipo": "hueco", "enunciado": "Completa con la preposición adecuada.", "frase": "Le prix du pain a augmenté ___ 10 % en deux ans.", "respuestas": ["de"], "explicacion": "La magnitud del cambio va con «de»."},
-  {"id": "e02", "tipo": "hueco", "enunciado": "Completa con la preposición adecuada.", "frase": "Le nombre de visiteurs est passé de 2 000 ___ 3 500.", "respuestas": ["à"], "explicacion": "«Passer de… à…»."},
-  {"id": "e03", "tipo": "hueco", "enunciado": "Completa con el auxiliar adecuado.", "frase": "Le taux d'inflation ___ passé de 4 à 2 %.", "respuestas": ["est"], "explicacion": "«Passer» (cambiar de nivel) lleva «être»."},
-  {"id": "e04", "tipo": "hueco", "enunciado": "Completa con «en hausse» o «en baisse».", "frase": "Les accidents de la route sont en ___ : il y en a moins que l'an dernier.", "respuestas": ["baisse"], "explicacion": "Si hay menos, están «en baisse»."},
-  {"id": "e05", "tipo": "eleccion", "enunciado": "Elige el verbo que indica una caída brusca.", "frase": "Après l'annonce, l'action a ___ de 20 % en une heure.", "opciones": ["chuté", "stagné", "progressé"], "respuestas": ["chuté"], "explicacion": "«Chuter» = caer bruscamente."},
-  {"id": "e06", "tipo": "eleccion", "enunciado": "Elige la opción correcta.", "frase": "Les salaires n'évoluent plus : ils ___ depuis trois ans.", "opciones": ["stagnent", "s'envolent", "doublent"], "respuestas": ["stagnent"], "explicacion": "Sin cambios = «stagner»."},
-  {"id": "e07", "tipo": "eleccion", "enunciado": "Elige la opción correcta.", "frase": "La moitié de 60, c'est 30 ; le ___ de 60, c'est 15.", "opciones": ["quart", "tiers", "double"], "respuestas": ["quart"], "explicacion": "15 es la cuarta parte de 60: «le quart»."},
-  {"id": "e08", "tipo": "eleccion", "enunciado": "Elige la opción correcta.", "frase": "Le chômage est passé de 8 % à 7 % : il a baissé d'un ___ de pourcentage.", "opciones": ["point", "pour cent", "chiffre"], "respuestas": ["point"], "explicacion": "Diferencia entre porcentajes = «point de pourcentage»."},
-  {"id": "e09", "tipo": "corregir", "enunciado": "Corrige el error.", "frase": "Les exportations ont augmenté un 6 % cette année.", "respuestas": ["Les exportations ont augmenté de 6 % cette année."], "explicacion": "Se dice «augmenter de»."},
-  {"id": "e10", "tipo": "corregir", "enunciado": "Corrige el error.", "frase": "La population a passé de 5 à 6 millions.", "respuestas": ["La population est passée de 5 à 6 millions."], "explicacion": "Con «être», el participio concuerda: «est passée»."},
-  {"id": "e11", "tipo": "corregir", "enunciado": "Corrige el error.", "frase": "Les ventes sont à la hausse de 4 % ce mois-ci.", "respuestas": ["Les ventes sont en hausse de 4 % ce mois-ci."], "explicacion": "Estar al alza = «être en hausse»."},
-  {"id": "e12", "tipo": "transformar", "enunciado": "Reescribe con «être en hausse de».", "frase": "Les prix ont augmenté de 2 %.", "respuestas": ["Les prix sont en hausse de 2 %."], "explicacion": "«Augmenter de» → «être en hausse de»."},
-  {"id": "e13", "tipo": "ordenar", "enunciado": "Ordena las palabras.", "palabras": ["les", "à", "repartent", "prix", "hausse", "la"], "respuestas": ["les prix repartent à la hausse"], "explicacion": "«Repartir à la hausse» = volver a subir."},
-  {"id": "e14", "tipo": "hueco", "enunciado": "Completa: el número se ha multiplicado por dos.", "frase": "En dix ans, le nombre de cyclistes a ___.", "respuestas": ["doublé"], "explicacion": "Multiplicarse por dos = «doubler»."}
+  {
+   "id": "e01",
+   "tipo": "hueco",
+   "enunciado": "Completa con la preposición adecuada.",
+   "frase": "Le prix du pain a augmenté ___ 10 % en deux ans.",
+   "respuestas": [
+    "de"
+   ],
+   "explicacion": "La ficha indica que la magnitud de la variación se introduce con de: augmenter de 10 %, que en español se dice «subir un 10 %». La pista es el verbo augmenter seguido directamente de una cifra. Por eso la preposición es de, y no hay que calcar el artículo «un» del español. Esta construcción vale para todos los verbos de variación: baisser de, reculer de, progresser de.",
+   "explicacion_breve": "La magnitud del cambio va con «de».",
+   "traduccion": "El precio del pan ha subido un 10 % en dos años.",
+   "errores_previstos": [
+    {
+     "respuesta": "un",
+     "explicacion": "Es el calco del español «subir un 10 %». En francés la cifra de variación va con de."
+    },
+    {
+     "respuesta": "à",
+     "explicacion": "À introduce la cifra final (passer de… à…), no la magnitud del cambio, que va con de."
+    },
+    {
+     "respuesta": "en",
+     "explicacion": "En no introduce la cifra del cambio. Se dice augmenter de 10 %."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "augmenter de",
+     "significado": "subir, aumentar (una cantidad)"
+    },
+    {
+     "palabra": "le pain",
+     "significado": "el pan"
+    }
+   ]
+  },
+  {
+   "id": "e02",
+   "tipo": "hueco",
+   "enunciado": "Completa con la preposición adecuada.",
+   "frase": "Le nombre de visiteurs est passé de 2 000 ___ 3 500.",
+   "respuestas": [
+    "à"
+   ],
+   "explicacion": "La ficha recoge la estructura passer de… à…, «pasar de… a…», que indica el valor inicial y el final de una evolución. La pista es que la frase ya contiene de 2 000: falta la preposición de la cifra final, que es à. Observa también que en francés los miles se separan con un espacio (2 000), no con punto.",
+   "explicacion_breve": "«Passer de… à…».",
+   "traduccion": "El número de visitantes pasó de 2 000 a 3 500.",
+   "errores_previstos": [
+    {
+     "respuesta": "a",
+     "explicacion": "Sin acento es una forma del verbo avoir. La preposición francesa es à, con acento grave."
+    },
+    {
+     "respuesta": "jusqu'à",
+     "explicacion": "Jusqu'à significa «hasta» y no forma pareja con passer de. La estructura fija es passer de… à…"
+    },
+    {
+     "respuesta": "de",
+     "explicacion": "De introduce la cifra inicial; la final va con à."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "passer de… à…",
+     "significado": "pasar de… a…"
+    },
+    {
+     "palabra": "un visiteur",
+     "significado": "un visitante"
+    }
+   ]
+  },
+  {
+   "id": "e03",
+   "tipo": "hueco",
+   "enunciado": "Completa con el auxiliar adecuado.",
+   "frase": "Le taux d'inflation ___ passé de 4 à 2 %.",
+   "respuestas": [
+    "est"
+   ],
+   "explicacion": "La ficha advierte de que passer, en el sentido de cambiar de nivel o de estado, se conjuga con être en los tiempos compuestos. La pista es el participio passé seguido de de… à…, que describe un cambio de valor. Con el sujeto le taux (tercera persona del singular) el auxiliar es est: «Le taux d'inflation est passé de 4 à 2 %». El participio concuerda con el sujeto masculino singular, sin cambio.",
+   "explicacion_breve": "«Passer» (cambiar de nivel) lleva «être».",
+   "traduccion": "La tasa de inflación ha pasado del 4 al 2 %.",
+   "errores_previstos": [
+    {
+     "respuesta": "a",
+     "explicacion": "Es el calco del español «ha pasado». En este sentido passer se conjuga con être: est passé."
+    },
+    {
+     "respuesta": "était",
+     "explicacion": "Était passé sería un pluscuamperfecto («había pasado»). La frase describe un cambio ya cumplido en presente: est passé."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "le taux",
+     "significado": "la tasa, el tipo (porcentaje)"
+    },
+    {
+     "palabra": "le taux d'inflation",
+     "significado": "la tasa de inflación"
+    }
+   ]
+  },
+  {
+   "id": "e04",
+   "tipo": "hueco",
+   "enunciado": "Completa con «en hausse» o «en baisse».",
+   "frase": "Les accidents de la route sont en ___ : il y en a moins que l'an dernier.",
+   "respuestas": [
+    "baisse"
+   ],
+   "explicacion": "La ficha opone être en hausse («estar al alza») y être en baisse («estar a la baja»). La pista está en la segunda parte de la frase: «il y en a moins que l'an dernier», hay menos accidentes que el año anterior. Por tanto la tendencia es descendente y la palabra correcta es baisse: «Les accidents de la route sont en baisse».",
+   "explicacion_breve": "Si hay menos, están «en baisse».",
+   "traduccion": "Los accidentes de tráfico están a la baja: hay menos que el año pasado.",
+   "errores_previstos": [
+    {
+     "respuesta": "hausse",
+     "explicacion": "En hausse significa «al alza». La frase dice que hay menos accidentes: en baisse."
+    },
+    {
+     "respuesta": "bas",
+     "explicacion": "Bas es un adjetivo («bajo»). La locución es être en baisse, con el sustantivo baisse."
+    },
+    {
+     "respuesta": "baise",
+     "explicacion": "Falta una s, y la diferencia es importante: baise es una forma vulgar de otro verbo. Se escribe baisse."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "être en baisse",
+     "significado": "estar a la baja, ir bajando"
+    },
+    {
+     "palabra": "les accidents de la route",
+     "significado": "los accidentes de tráfico"
+    }
+   ]
+  },
+  {
+   "id": "e05",
+   "tipo": "eleccion",
+   "enunciado": "Elige el verbo que indica una caída brusca.",
+   "frase": "Après l'annonce, l'action a ___ de 20 % en une heure.",
+   "opciones": [
+    "chuté",
+    "stagné",
+    "progressé"
+   ],
+   "respuestas": [
+    "chuté"
+   ],
+   "explicacion": "La ficha define chuter como «caer bruscamente», y une chute como «una caída». La pista de la frase es la magnitud y la rapidez del movimiento: un 20 % en solo una hora, justo después de un anuncio. Eso describe una caída brusca, no un estancamiento ni una subida. Por eso el verbo adecuado es chuté: «l'action a chuté de 20 %».",
+   "explicacion_breve": "«Chuter» = caer bruscamente.",
+   "traduccion": "Tras el anuncio, la acción cayó un 20 % en una hora.",
+   "por_opcion": {
+    "chuté": "Correcta: chuter significa caer de forma brusca, típico de la Bolsa tras una mala noticia.",
+    "stagné": "Incorrecta: stagner significa estancarse, no cambiar; no encaja con una variación del 20 %.",
+    "progressé": "Incorrecta: progresser significa avanzar o subir; la frase pide un verbo de caída."
+   },
+   "glosario": [
+    {
+     "palabra": "chuter",
+     "significado": "caer bruscamente, desplomarse"
+    },
+    {
+     "palabra": "une action",
+     "significado": "una acción (de Bolsa)"
+    },
+    {
+     "palabra": "une annonce",
+     "significado": "un anuncio"
+    }
+   ]
+  },
+  {
+   "id": "e06",
+   "tipo": "eleccion",
+   "enunciado": "Elige la opción correcta.",
+   "frase": "Les salaires n'évoluent plus : ils ___ depuis trois ans.",
+   "opciones": [
+    "stagnent",
+    "s'envolent",
+    "doublent"
+   ],
+   "respuestas": [
+    "stagnent"
+   ],
+   "explicacion": "La ficha recoge stagner, «estancarse», entre los verbos de estabilidad. La pista es la primera parte de la frase, «les salaires n'évoluent plus», que indica ausencia de cambio, y el marcador depuis trois ans, que señala una situación prolongada. El verbo que encaja es stagnent, en presente porque la situación continúa: «ils stagnent depuis trois ans».",
+   "explicacion_breve": "Sin cambios = «stagner».",
+   "traduccion": "Los salarios ya no evolucionan: están estancados desde hace tres años.",
+   "por_opcion": {
+    "stagnent": "Correcta: stagner significa estancarse, no avanzar; encaja con «n'évoluent plus».",
+    "s'envolent": "Incorrecta: s'envoler significa dispararse, subir mucho; contradice que los salarios no evolucionen.",
+    "doublent": "Incorrecta: doubler significa duplicarse; también supone un cambio fuerte."
+   },
+   "glosario": [
+    {
+     "palabra": "stagner",
+     "significado": "estancarse"
+    },
+    {
+     "palabra": "le salaire",
+     "significado": "el salario, el sueldo"
+    },
+    {
+     "palabra": "évoluer",
+     "significado": "evolucionar, cambiar"
+    }
+   ]
+  },
+  {
+   "id": "e07",
+   "tipo": "eleccion",
+   "enunciado": "Elige la opción correcta.",
+   "frase": "La moitié de 60, c'est 30 ; le ___ de 60, c'est 15.",
+   "opciones": [
+    "quart",
+    "tiers",
+    "double"
+   ],
+   "respuestas": [
+    "quart"
+   ],
+   "explicacion": "La ficha recoge las fracciones la moitié (la mitad), le tiers (un tercio) y le quart (un cuarto). La pista es el cálculo: 15 es la cuarta parte de 60, porque 60 dividido entre 4 da 15. Por eso la palabra correcta es quart. Observa que en francés estas fracciones llevan artículo definido: le quart de 60, la moitié de 60.",
+   "explicacion_breve": "15 es la cuarta parte de 60: «le quart».",
+   "traduccion": "La mitad de 60 es 30; la cuarta parte de 60 es 15.",
+   "por_opcion": {
+    "quart": "Correcta: le quart es la cuarta parte; 60 ÷ 4 = 15.",
+    "tiers": "Incorrecta: le tiers es la tercera parte; el tercio de 60 sería 20.",
+    "double": "Incorrecta: le double es el doble; el doble de 60 sería 120."
+   },
+   "glosario": [
+    {
+     "palabra": "le quart",
+     "significado": "la cuarta parte, un cuarto"
+    },
+    {
+     "palabra": "le tiers",
+     "significado": "la tercera parte, un tercio"
+    },
+    {
+     "palabra": "la moitié",
+     "significado": "la mitad"
+    }
+   ]
+  },
+  {
+   "id": "e08",
+   "tipo": "eleccion",
+   "enunciado": "Elige la opción correcta.",
+   "frase": "Le chômage est passé de 8 % à 7 % : il a baissé d'un ___ de pourcentage.",
+   "opciones": [
+    "point",
+    "pour cent",
+    "chiffre"
+   ],
+   "respuestas": [
+    "point"
+   ],
+   "explicacion": "La ficha distingue el porcentaje del point de pourcentage, «punto porcentual», que es la diferencia entre dos porcentajes. La pista es el cálculo: de 8 % a 7 % hay una diferencia de un punto, no de un 1 % (en términos relativos el paro bajó un 12,5 %). Por eso se dice «il a baissé d'un point de pourcentage», a menudo abreviado d'un point.",
+   "explicacion_breve": "Diferencia entre porcentajes = «point de pourcentage».",
+   "traduccion": "El paro ha pasado del 8 % al 7 %: ha bajado un punto porcentual.",
+   "por_opcion": {
+    "point": "Correcta: un point de pourcentage es la diferencia absoluta entre dos porcentajes.",
+    "pour cent": "Incorrecta: «un pour cent de pourcentage» no existe; además, por ciento expresaría una variación relativa, que aquí sería del 12,5 %.",
+    "chiffre": "Incorrecta: un chiffre es una cifra o un dígito; no designa la diferencia entre porcentajes."
+   },
+   "glosario": [
+    {
+     "palabra": "un point de pourcentage",
+     "significado": "un punto porcentual"
+    },
+    {
+     "palabra": "le chômage",
+     "significado": "el paro, el desempleo"
+    },
+    {
+     "palabra": "baisser",
+     "significado": "bajar"
+    }
+   ]
+  },
+  {
+   "id": "e09",
+   "tipo": "corregir",
+   "enunciado": "Corrige el error.",
+   "frase": "Les exportations ont augmenté un 6 % cette année.",
+   "respuestas": [
+    "Les exportations ont augmenté de 6 % cette année."
+   ],
+   "explicacion": "Es el error típico que recoge la ficha: el calco de «aumentar un 6 %». En francés, la magnitud de la variación se introduce con de, sin artículo indefinido. Hay que sustituir un por de: «Les exportations ont augmenté de 6 % cette année». El resto de la frase es correcto, incluido el espacio delante de %.",
+   "explicacion_breve": "Se dice «augmenter de».",
+   "traduccion": "Las exportaciones han subido un 6 % este año.",
+   "errores_previstos": [
+    {
+     "respuesta": "Les exportations ont augmenté un 6 % cette année.",
+     "explicacion": "Es la frase sin corregir: un es un calco del español; la cifra de variación va con de."
+    },
+    {
+     "respuesta": "Les exportations ont augmenté d'un 6 % cette année.",
+     "explicacion": "Mezcla las dos construcciones. Detrás de de no se pone artículo: augmenté de 6 %."
+    },
+    {
+     "respuesta": "Les exportations sont augmentées de 6 % cette année.",
+     "explicacion": "Augmenter se conjuga con avoir: ont augmenté."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "les exportations",
+     "significado": "las exportaciones"
+    },
+    {
+     "palabra": "augmenter de",
+     "significado": "subir, aumentar (una cantidad)"
+    }
+   ]
+  },
+  {
+   "id": "e10",
+   "tipo": "corregir",
+   "enunciado": "Corrige el error.",
+   "frase": "La population a passé de 5 à 6 millions.",
+   "respuestas": [
+    "La population est passée de 5 à 6 millions."
+   ],
+   "explicacion": "La ficha explica que passer, en el sentido de cambiar de nivel, lleva être, no avoir. Al cambiar el auxiliar hay que aplicar además la concordancia del participio con el sujeto, como con todos los verbos que se conjugan con être. La population es femenino singular, así que el participio toma -e: «La population est passée de 5 à 6 millions».",
+   "explicacion_breve": "Con «être», el participio concuerda: «est passée».",
+   "traduccion": "La población ha pasado de 5 a 6 millones.",
+   "errores_previstos": [
+    {
+     "respuesta": "La population a passé de 5 à 6 millions.",
+     "explicacion": "Es la frase sin corregir: en este sentido passer se conjuga con être."
+    },
+    {
+     "respuesta": "La population est passé de 5 à 6 millions.",
+     "explicacion": "Cambia bien el auxiliar, pero olvida la concordancia: con être el participio concuerda con population, femenino: passée."
+    },
+    {
+     "respuesta": "La population a passée de 5 à 6 millions.",
+     "explicacion": "Pone la concordancia, pero mantiene el auxiliar avoir. Hace falta est passée."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "la population",
+     "significado": "la población"
+    },
+    {
+     "palabra": "passer de… à…",
+     "significado": "pasar de… a…"
+    }
+   ]
+  },
+  {
+   "id": "e11",
+   "tipo": "corregir",
+   "enunciado": "Corrige el error.",
+   "frase": "Les ventes sont à la hausse de 4 % ce mois-ci.",
+   "respuestas": [
+    "Les ventes sont en hausse de 4 % ce mois-ci."
+   ],
+   "explicacion": "La ficha indica que con una cifra se dice être en hausse de, «estar al alza», mientras que à la hausse se reserva para verbos como réviser à la hausse o repartir à la hausse. La frase usa à la hausse con être y una cifra, así que hay que cambiarlo por en hausse: «Les ventes sont en hausse de 4 % ce mois-ci». Conviene saber que être à la hausse se oye en algunos usos (sobre todo bursátiles o en Canadá), pero con una cifra la forma estándar es en hausse de.",
+   "explicacion_breve": "Estar al alza = «être en hausse».",
+   "traduccion": "Las ventas están al alza un 4 % este mes (han subido un 4 %).",
+   "errores_previstos": [
+    {
+     "respuesta": "Les ventes sont à la hausse de 4 % ce mois-ci.",
+     "explicacion": "Es la frase sin corregir: con être y una cifra, la locución estándar es en hausse de."
+    },
+    {
+     "respuesta": "Les ventes sont en hausse à 4 % ce mois-ci.",
+     "explicacion": "Cambia la locución, pero la cifra de variación va con de: en hausse de 4 %."
+    },
+    {
+     "respuesta": "Les ventes sont en la hausse de 4 % ce mois-ci.",
+     "explicacion": "La locución en hausse no lleva artículo."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "être en hausse",
+     "significado": "estar al alza, subir"
+    },
+    {
+     "palabra": "les ventes",
+     "significado": "las ventas"
+    },
+    {
+     "palabra": "ce mois-ci",
+     "significado": "este mes"
+    }
+   ]
+  },
+  {
+   "id": "e12",
+   "tipo": "transformar",
+   "enunciado": "Reescribe con «être en hausse de».",
+   "frase": "Les prix ont augmenté de 2 %.",
+   "respuestas": [
+    "Les prix sont en hausse de 2 %."
+   ],
+   "explicacion": "La ficha presenta être en hausse de como equivalente nominal de augmenter de: ambos indican una subida y llevan la cifra introducida con de. Para la transformación se sustituye el passé composé ont augmenté por el presente sont en hausse, y se conserva de 2 %. Resultado: «Les prix sont en hausse de 2 %». Es una forma muy frecuente en titulares y resúmenes de prensa.",
+   "explicacion_breve": "«Augmenter de» → «être en hausse de».",
+   "traduccion": "Los precios han subido un 2 % (están al alza un 2 %).",
+   "errores_previstos": [
+    {
+     "respuesta": "Les prix sont à la hausse de 2 %.",
+     "explicacion": "Con être y una cifra la locución estándar es en hausse, no à la hausse."
+    },
+    {
+     "respuesta": "Les prix ont été en hausse de 2 %.",
+     "explicacion": "La locución se usa en presente para describir la tendencia: sont en hausse."
+    },
+    {
+     "respuesta": "Les prix sont en hausse 2 %.",
+     "explicacion": "Falta la preposición de delante de la cifra: en hausse de 2 %."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "être en hausse de",
+     "significado": "estar al alza en, haber subido (una cantidad)"
+    },
+    {
+     "palabra": "les prix",
+     "significado": "los precios"
+    }
+   ]
+  },
+  {
+   "id": "e13",
+   "tipo": "ordenar",
+   "enunciado": "Ordena las palabras.",
+   "palabras": [
+    "les",
+    "à",
+    "repartent",
+    "prix",
+    "hausse",
+    "la"
+   ],
+   "respuestas": [
+    "les prix repartent à la hausse"
+   ],
+   "explicacion": "La ficha recoge la expresión repartir à la hausse, «volver a subir», donde repartir significa «arrancar de nuevo». Aquí sí se usa à la hausse, porque acompaña a un verbo de movimiento y no a être. El orden es sujeto (les prix) + verbo (repartent) + locución (à la hausse). La frase es «Les prix repartent à la hausse».",
+   "explicacion_breve": "«Repartir à la hausse» = volver a subir.",
+   "traduccion": "Los precios vuelven a subir.",
+   "errores_previstos": [
+    {
+     "respuesta": "les prix repartent la à hausse",
+     "explicacion": "Rompe la locución fija: el orden es à la hausse."
+    },
+    {
+     "respuesta": "repartent les prix à la hausse",
+     "explicacion": "En una afirmación el sujeto va delante del verbo: les prix repartent."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "repartir à la hausse",
+     "significado": "volver a subir"
+    },
+    {
+     "palabra": "repartir",
+     "significado": "volver a arrancar, reanudar la marcha"
+    }
+   ]
+  },
+  {
+   "id": "e14",
+   "tipo": "hueco",
+   "enunciado": "Completa: el número se ha multiplicado por dos.",
+   "frase": "En dix ans, le nombre de cyclistes a ___.",
+   "respuestas": [
+    "doublé"
+   ],
+   "explicacion": "La ficha recoge doubler («duplicarse») y tripler («triplicarse»). La pista es el enunciado: el número se ha multiplicado por dos. En francés doubler no es pronominal en este sentido (no se dice «s'est doublé») y se conjuga con avoir, así que solo falta el participio: doublé. «Le nombre de cyclistes a doublé».",
+   "explicacion_breve": "Multiplicarse por dos = «doubler».",
+   "traduccion": "En diez años, el número de ciclistas se ha duplicado.",
+   "errores_previstos": [
+    {
+     "respuesta": "duplicé",
+     "explicacion": "Es un calco del español. Dupliquer significa copiar o hacer un duplicado; para cantidades se usa doubler."
+    },
+    {
+     "respuesta": "doublée",
+     "explicacion": "Con avoir el participio no concuerda con el sujeto: a doublé."
+    },
+    {
+     "respuesta": "triplé",
+     "explicacion": "Tripler es multiplicar por tres; el enunciado habla de multiplicar por dos."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "doubler",
+     "significado": "duplicarse, doblarse"
+    },
+    {
+     "palabra": "un cycliste",
+     "significado": "un ciclista"
+    }
+   ]
+  }
  ],
- "fuente": {"nombre": "propia"}
+ "fuente": {
+  "nombre": "propia"
+ },
+ "descripcion_larga_es": "Vocabulario para describir la evolución de datos: subir (augmenter, progresser, grimper), bajar (baisser, reculer, chuter), estabilizarse (stagner, rester stable) y expresar porcentajes, fracciones y comparaciones. Es imprescindible para comentar un gráfico o resumir un artículo económico. Al hispanohablante le cuesta sobre todo la preposición de ante la cifra de variación (augmenter de 5 %), el auxiliar être con passer y la escritura francesa de las cifras.",
+ "contexto": {
+  "que_es": "Es el léxico de las tendencias y las cifras: verbos y sustantivos de subida, bajada y estabilidad, con sus construcciones (augmenter de, passer de… à…, être en hausse de), además de porcentajes, puntos porcentuales, fracciones y adverbios de intensidad (légèrement, nettement, fortement).",
+  "por_que_importa": "Comentar datos es una tarea constante en la prensa, en el trabajo y en los exámenes de nivel B2 o superior, donde es habitual resumir un artículo con cifras o describir un gráfico. Para un economista es vocabulario profesional básico. Un error de preposición (augmenter un 5 %) o la confusión entre por ciento y punto porcentual se notan enseguida y pueden alterar el sentido de un dato.",
+  "cuando_se_usa": "Se usa al describir estadísticas, resultados empresariales, encuestas o evoluciones de precios, empleo o población. Las señales son las cifras, los porcentajes y los marcadores temporales (en deux ans, depuis trois ans, cette année). El hispanohablante tiende a calcar «aumentar un 5 %» y «pasó de» con avoir; en francés la cifra va con de, passer lleva être y los decimales se escriben con coma y un espacio antes de %."
+ }
 }

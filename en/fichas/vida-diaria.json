@@ -6,68 +6,667 @@
  "nivel": "A1",
  "resumen": "Verbos y expresiones para contar lo que haces un día normal, las tareas de casa y tus aficiones, con adverbios de frecuencia.",
  "explicacion": [
-  {"tipo": "texto", "texto": "La rutina se cuenta en presente simple (I get up at seven; she gets up at eight). Muchas acciones diarias son expresiones fijas con have, do, make o go que conviene aprender enteras."},
-  {"tipo": "tabla", "cabecera": ["Expresión", "Significado", "Ejemplo"], "filas": [
-   ["wake up", "despertarse", "I wake up at 6:30."],
-   ["get up", "levantarse", "She gets up early."],
-   ["have a shower", "ducharse", "I have a shower every morning."],
-   ["get dressed", "vestirse", "The kids get dressed quickly."],
-   ["have breakfast / lunch / dinner", "desayunar / comer / cenar", "We have dinner at nine."],
-   ["go to work / school", "ir al trabajo / colegio", "He goes to work by bus."],
-   ["get home", "llegar a casa", "I get home at about six."],
-   ["go to bed", "acostarse", "I usually go to bed at eleven."],
-   ["do the housework", "hacer las tareas de casa", "We share the housework."],
-   ["do the washing-up", "fregar los platos", "My son does the washing-up."],
-   ["do the shopping", "hacer la compra", "I do the shopping on Saturdays."],
-   ["make the bed", "hacer la cama", "Make your bed, please!"],
-   ["cook / make dinner", "hacer la cena", "Who makes dinner at your house?"],
-   ["take out the rubbish", "sacar la basura", "Can you take out the rubbish?"]
-  ]},
-  {"tipo": "tabla", "cabecera": ["Expresión", "Significado", "Ejemplo"], "filas": [
-   ["always / usually / often", "siempre / normalmente / a menudo", "I usually walk to work."],
-   ["sometimes / rarely / never", "a veces / rara vez / nunca", "She never watches TV."],
-   ["every day / once a week", "todos los días / una vez a la semana", "I go swimming twice a week."],
-   ["in my free time", "en mi tiempo libre", "In my free time I read."],
-   ["go for a walk", "dar un paseo", "Let's go for a walk."],
-   ["watch TV / a series", "ver la tele / una serie", "We watch a series after dinner."],
-   ["hang out with friends", "quedar con amigos (informal)", "I hang out with friends on Fridays."]
-  ]},
-  {"tipo": "lista", "items": [
-   "Los adverbios de frecuencia van antes del verbo principal (I often cook) pero después de be (I'm always tired).",
-   "Do se usa para tareas (do homework, do the ironing); make, para crear o preparar algo (make a cake, make the bed es excepción fija).",
-   "Con home no se pone to: go home, get home."
-  ]}
+  {
+   "tipo": "texto",
+   "texto": "La rutina se cuenta en presente simple (I get up at seven; she gets up at eight). Muchas acciones diarias son expresiones fijas con have, do, make o go que conviene aprender enteras."
+  },
+  {
+   "tipo": "tabla",
+   "cabecera": [
+    "Expresión",
+    "Significado",
+    "Ejemplo"
+   ],
+   "filas": [
+    [
+     "wake up",
+     "despertarse",
+     "I wake up at 6:30."
+    ],
+    [
+     "get up",
+     "levantarse",
+     "She gets up early."
+    ],
+    [
+     "have a shower",
+     "ducharse",
+     "I have a shower every morning."
+    ],
+    [
+     "get dressed",
+     "vestirse",
+     "The kids get dressed quickly."
+    ],
+    [
+     "have breakfast / lunch / dinner",
+     "desayunar / comer / cenar",
+     "We have dinner at nine."
+    ],
+    [
+     "go to work / school",
+     "ir al trabajo / colegio",
+     "He goes to work by bus."
+    ],
+    [
+     "get home",
+     "llegar a casa",
+     "I get home at about six."
+    ],
+    [
+     "go to bed",
+     "acostarse",
+     "I usually go to bed at eleven."
+    ],
+    [
+     "do the housework",
+     "hacer las tareas de casa",
+     "We share the housework."
+    ],
+    [
+     "do the washing-up",
+     "fregar los platos",
+     "My son does the washing-up."
+    ],
+    [
+     "do the shopping",
+     "hacer la compra",
+     "I do the shopping on Saturdays."
+    ],
+    [
+     "make the bed",
+     "hacer la cama",
+     "Make your bed, please!"
+    ],
+    [
+     "cook / make dinner",
+     "hacer la cena",
+     "Who makes dinner at your house?"
+    ],
+    [
+     "take out the rubbish",
+     "sacar la basura",
+     "Can you take out the rubbish?"
+    ]
+   ]
+  },
+  {
+   "tipo": "tabla",
+   "cabecera": [
+    "Expresión",
+    "Significado",
+    "Ejemplo"
+   ],
+   "filas": [
+    [
+     "always / usually / often",
+     "siempre / normalmente / a menudo",
+     "I usually walk to work."
+    ],
+    [
+     "sometimes / rarely / never",
+     "a veces / rara vez / nunca",
+     "She never watches TV."
+    ],
+    [
+     "every day / once a week",
+     "todos los días / una vez a la semana",
+     "I go swimming twice a week."
+    ],
+    [
+     "in my free time",
+     "en mi tiempo libre",
+     "In my free time I read."
+    ],
+    [
+     "go for a walk",
+     "dar un paseo",
+     "Let's go for a walk."
+    ],
+    [
+     "watch TV / a series",
+     "ver la tele / una serie",
+     "We watch a series after dinner."
+    ],
+    [
+     "hang out with friends",
+     "quedar con amigos (informal)",
+     "I hang out with friends on Fridays."
+    ]
+   ]
+  },
+  {
+   "tipo": "lista",
+   "items": [
+    "Los adverbios de frecuencia van antes del verbo principal (I often cook) pero después de be (I'm always tired).",
+    "Do se usa para tareas (do homework, do the ironing); make, para crear o preparar algo (make a cake, make dinner). Make the bed («hacer la cama») es una expresión fija que no sigue esa lógica: apréndela como bloque.",
+    "Con home no se pone to: go home, get home."
+   ]
+  }
  ],
  "ejemplos": [
-  {"frase": "On weekdays I get up at seven and have a quick breakfast.", "traduccion": "Entre semana me levanto a las siete y desayuno rápido."},
-  {"frase": "My partner does the cooking and I do the washing-up.", "traduccion": "Mi pareja cocina y yo friego los platos."},
-  {"frase": "We rarely eat out during the week.", "traduccion": "Rara vez comemos fuera entre semana."},
-  {"frase": "In my free time I play the guitar.", "traduccion": "En mi tiempo libre toco la guitarra."},
-  {"frase": "She goes to the gym three times a week.", "traduccion": "Va al gimnasio tres veces por semana."},
-  {"frase": "I'm always tired on Monday mornings.", "traduccion": "Siempre estoy cansado los lunes por la mañana."}
+  {
+   "frase": "On weekdays I get up at seven and have a quick breakfast.",
+   "traduccion": "Entre semana me levanto a las siete y desayuno rápido."
+  },
+  {
+   "frase": "My partner does the cooking and I do the washing-up.",
+   "traduccion": "Mi pareja cocina y yo friego los platos."
+  },
+  {
+   "frase": "We rarely eat out during the week.",
+   "traduccion": "Rara vez comemos fuera entre semana."
+  },
+  {
+   "frase": "In my free time I play the guitar.",
+   "traduccion": "En mi tiempo libre toco la guitarra."
+  },
+  {
+   "frase": "She goes to the gym three times a week.",
+   "traduccion": "Va al gimnasio tres veces por semana."
+  },
+  {
+   "frase": "I'm always tired on Monday mornings.",
+   "traduccion": "Siempre estoy cansado los lunes por la mañana."
+  }
  ],
  "errores_hispanohablantes": [
-  {"mal": "I go to home at six.", "bien": "I go home at six.", "nota": "Home no lleva to después de go, come o get."},
-  {"mal": "I make my homework after school.", "bien": "I do my homework after school.", "nota": "Los deberes y las tareas van con do."},
-  {"mal": "I always am late.", "bien": "I am always late.", "nota": "Con be el adverbio de frecuencia va detrás del verbo."},
-  {"mal": "I take a shower in the night.", "bien": "I have/take a shower at night.", "nota": "Por la noche es at night."}
+  {
+   "mal": "I go to home at six.",
+   "bien": "I go home at six.",
+   "nota": "Home no lleva to después de go, come o get."
+  },
+  {
+   "mal": "I make my homework after school.",
+   "bien": "I do my homework after school.",
+   "nota": "Los deberes y las tareas van con do."
+  },
+  {
+   "mal": "I always am late.",
+   "bien": "I am always late.",
+   "nota": "Con be el adverbio de frecuencia va detrás del verbo."
+  },
+  {
+   "mal": "I take a shower in the night.",
+   "bien": "I have/take a shower at night.",
+   "nota": "Por la noche es at night."
+  }
  ],
  "ejercicios": [
-  {"id": "e01", "tipo": "hueco", "enunciado": "Completa con do o make.", "frase": "Can you ___ the bed before you leave?", "respuestas": ["make"], "explicacion": "Hacer la cama es make the bed."},
-  {"id": "e02", "tipo": "hueco", "enunciado": "Completa con do o make.", "frase": "I ___ the shopping on Saturday mornings.", "respuestas": ["do"], "explicacion": "Hacer la compra es do the shopping."},
-  {"id": "e03", "tipo": "hueco", "enunciado": "Completa el verbo frasal.", "frase": "I wake ___ at six but I don't get up until half past.", "respuestas": ["up"], "explicacion": "Despertarse es wake up."},
-  {"id": "e04", "tipo": "hueco", "enunciado": "Completa la expresión.", "frase": "Please take ___ the rubbish; the bin is full.", "respuestas": ["out"], "explicacion": "Sacar la basura es take out the rubbish."},
-  {"id": "e05", "tipo": "eleccion", "enunciado": "Elige la opción correcta.", "frase": "We usually ___ dinner at about nine.", "opciones": ["have", "take", "do"], "respuestas": ["have"], "explicacion": "Las comidas van con have: have dinner."},
-  {"id": "e06", "tipo": "eleccion", "enunciado": "Elige la opción correcta.", "frase": "I don't like going out. I ___ go to parties.", "opciones": ["rarely", "always", "usually"], "respuestas": ["rarely"], "explicacion": "Si no te gusta salir, vas rara vez: rarely."},
-  {"id": "e07", "tipo": "eleccion", "enunciado": "Elige la opción correcta.", "frase": "What time do you get ___ in the evening?", "opciones": ["home", "to home", "at home"], "respuestas": ["home"], "explicacion": "Llegar a casa es get home, sin preposición."},
-  {"id": "e08", "tipo": "eleccion", "enunciado": "Elige la opción correcta.", "frase": "She goes swimming ___ a week: on Tuesdays and Fridays.", "opciones": ["twice", "two", "second"], "respuestas": ["twice"], "explicacion": "Dos veces es twice."},
-  {"id": "e09", "tipo": "corregir", "enunciado": "Corrige el error.", "frase": "I always am hungry after work.", "respuestas": ["I am always hungry after work.", "I'm always hungry after work."], "explicacion": "Con be el adverbio va detrás del verbo."},
-  {"id": "e10", "tipo": "corregir", "enunciado": "Corrige el error.", "frase": "My children make their homework in the kitchen.", "respuestas": ["My children do their homework in the kitchen."], "explicacion": "Los deberes se hacen con do."},
-  {"id": "e11", "tipo": "corregir", "enunciado": "Corrige el error.", "frase": "He goes to home by train.", "respuestas": ["He goes home by train."], "explicacion": "Go home no lleva to."},
-  {"id": "e12", "tipo": "ordenar", "enunciado": "Ordena las palabras.", "palabras": ["often", "walk", "I", "work", "to"], "respuestas": ["I often walk to work"], "explicacion": "El adverbio de frecuencia va antes del verbo principal."},
-  {"id": "e13", "tipo": "ordenar", "enunciado": "Ordena las palabras.", "palabras": ["bed", "go", "late", "never", "we", "to"], "respuestas": ["We never go to bed late"], "explicacion": "Never va antes del verbo; go to bed es acostarse."},
-  {"id": "e14", "tipo": "hueco", "enunciado": "Completa: «vestirse».", "frase": "The children get ___ after breakfast.", "respuestas": ["dressed"], "explicacion": "Vestirse es get dressed."},
-  {"id": "e15", "tipo": "eleccion", "enunciado": "Elige la opción correcta.", "frase": "I usually ___ a shower before breakfast.", "opciones": ["have", "make", "do"], "respuestas": ["have"], "explicacion": "Ducharse es have (o take) a shower; make y do no sirven."}
+  {
+   "id": "e01",
+   "tipo": "hueco",
+   "enunciado": "Completa con do o make.",
+   "frase": "Can you ___ the bed before you leave?",
+   "respuestas": [
+    "make"
+   ],
+   "explicacion": "La ficha explica que do se usa para tareas y make para crear o preparar algo, y añade que make the bed es una expresión fija. La pista es the bed: «hacer la cama» siempre se dice make the bed, aunque sea una tarea doméstica. Por eso es la excepción que hay que memorizar.",
+   "explicacion_breve": "Hacer la cama es make the bed.",
+   "traduccion": "¿Puedes hacer la cama antes de irte?",
+   "errores_previstos": [
+    {
+     "respuesta": "do",
+     "explicacion": "Aunque sea una tarea, la expresión fija es make the bed; do the bed no se dice."
+    },
+    {
+     "respuesta": "fix",
+     "explicacion": "Fix es arreglar o reparar; hacer la cama es make the bed."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "make the bed",
+     "significado": "hacer la cama"
+    }
+   ]
+  },
+  {
+   "id": "e02",
+   "tipo": "hueco",
+   "enunciado": "Completa con do o make.",
+   "frase": "I ___ the shopping on Saturday mornings.",
+   "respuestas": [
+    "do"
+   ],
+   "explicacion": "Se aplica la regla de la ficha: las tareas se expresan con do. La pista es the shopping: hacer la compra es una tarea doméstica habitual, como do the housework o do the washing-up. Por eso I do the shopping, en presente simple porque es un hábito.",
+   "explicacion_breve": "Hacer la compra es do the shopping.",
+   "traduccion": "Hago la compra los sábados por la mañana.",
+   "errores_previstos": [
+    {
+     "respuesta": "make",
+     "explicacion": "Make se usa para crear o preparar algo; hacer la compra, una tarea, va con do."
+    },
+    {
+     "respuesta": "go",
+     "explicacion": "Se dice go shopping, sin the; con the shopping el verbo es do."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "do the shopping",
+     "significado": "hacer la compra"
+    }
+   ]
+  },
+  {
+   "id": "e03",
+   "tipo": "hueco",
+   "enunciado": "Completa el verbo frasal.",
+   "frase": "I wake ___ at six but I don't get up until half past.",
+   "respuestas": [
+    "up"
+   ],
+   "explicacion": "La ficha distingue wake up, «despertarse», y get up, «levantarse». La pista es el contraste de la frase: primero se despierta y media hora después se levanta. El verbo frasal completo es wake up, así que falta la partícula up.",
+   "explicacion_breve": "Despertarse es wake up.",
+   "traduccion": "Me despierto a las seis, pero no me levanto hasta las seis y media.",
+   "errores_previstos": [
+    {
+     "respuesta": "on",
+     "explicacion": "Wake on no existe; despertarse es wake up."
+    },
+    {
+     "respuesta": "me",
+     "explicacion": "Calco del reflexivo «me despierto»; wake up no lleva pronombre."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "wake up",
+     "significado": "despertarse"
+    },
+    {
+     "palabra": "get up",
+     "significado": "levantarse"
+    },
+    {
+     "palabra": "half past",
+     "significado": "y media (hora)"
+    }
+   ]
+  },
+  {
+   "id": "e04",
+   "tipo": "hueco",
+   "enunciado": "Completa la expresión.",
+   "frase": "Please take ___ the rubbish; the bin is full.",
+   "respuestas": [
+    "out"
+   ],
+   "explicacion": "La ficha recoge take out the rubbish, «sacar la basura». La pista es la causa, «the bin is full»: hay que llevar la basura fuera. La partícula out expresa el movimiento hacia fuera. En inglés americano se diría take out the trash o the garbage.",
+   "explicacion_breve": "Sacar la basura es take out the rubbish.",
+   "traduccion": "Por favor, saca la basura; el cubo está lleno.",
+   "errores_previstos": [
+    {
+     "respuesta": "off",
+     "explicacion": "Take off es quitarse ropa o despegar; sacar la basura es take out."
+    },
+    {
+     "respuesta": "away",
+     "explicacion": "Take away es llevarse algo; para la basura la expresión fija es take out."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "take out the rubbish",
+     "significado": "sacar la basura"
+    },
+    {
+     "palabra": "bin",
+     "significado": "cubo de basura"
+    }
+   ]
+  },
+  {
+   "id": "e05",
+   "tipo": "eleccion",
+   "enunciado": "Elige la opción correcta.",
+   "frase": "We usually ___ dinner at about nine.",
+   "opciones": [
+    "have",
+    "take",
+    "do"
+   ],
+   "respuestas": [
+    "have"
+   ],
+   "explicacion": "La ficha da have breakfast, lunch y dinner para las comidas del día. La pista es dinner: las comidas van con have. El español dice «cenar» o «tomar la cena», pero en inglés no se usa take ni do. Usually va delante del verbo principal, como indica la ficha.",
+   "explicacion_breve": "Las comidas van con have: have dinner.",
+   "traduccion": "Normalmente cenamos sobre las nueve.",
+   "por_opcion": {
+    "have": "Correcta: have dinner es cenar; las comidas van con have.",
+    "take": "Incorrecta: take dinner es un calco de «tomar»; no se usa con las comidas.",
+    "do": "Incorrecta: do no se combina con las comidas; do dinner es coloquial y significa organizar una cena, no cenar."
+   },
+   "glosario": [
+    {
+     "palabra": "have dinner",
+     "significado": "cenar"
+    }
+   ]
+  },
+  {
+   "id": "e06",
+   "tipo": "eleccion",
+   "enunciado": "Elige la opción correcta.",
+   "frase": "I don't like going out. I ___ go to parties.",
+   "opciones": [
+    "rarely",
+    "always",
+    "usually"
+   ],
+   "respuestas": [
+    "rarely"
+   ],
+   "explicacion": "Se trabajan los adverbios de frecuencia de la ficha. La pista es la primera frase, «I don't like going out»: alguien a quien no le gusta salir va pocas veces a fiestas. Rarely significa «rara vez» y va delante del verbo principal: I rarely go.",
+   "explicacion_breve": "Si no te gusta salir, vas rara vez: rarely.",
+   "traduccion": "No me gusta salir. Rara vez voy a fiestas.",
+   "por_opcion": {
+    "rarely": "Correcta: rarely, «rara vez», encaja con que no le guste salir.",
+    "always": "Incorrecta: always, «siempre», contradice la primera frase.",
+    "usually": "Incorrecta: usually, «normalmente», también contradice que no le guste salir."
+   },
+   "glosario": [
+    {
+     "palabra": "rarely",
+     "significado": "rara vez"
+    },
+    {
+     "palabra": "go out",
+     "significado": "salir (de ocio)"
+    }
+   ]
+  },
+  {
+   "id": "e07",
+   "tipo": "eleccion",
+   "enunciado": "Elige la opción correcta.",
+   "frase": "What time do you get ___ in the evening?",
+   "opciones": [
+    "home",
+    "to home",
+    "at home"
+   ],
+   "respuestas": [
+    "home"
+   ],
+   "explicacion": "La ficha indica que con home no se pone to: go home, get home. La pista es get seguido de home con el sentido de «llegar a casa». Home funciona aquí como adverbio de lugar, por eso no necesita preposición. At home significa «en casa», un estado, no la llegada.",
+   "explicacion_breve": "Llegar a casa es get home, sin preposición.",
+   "traduccion": "¿A qué hora llegas a casa por la tarde?",
+   "por_opcion": {
+    "home": "Correcta: get home, sin preposición, es llegar a casa.",
+    "to home": "Incorrecta: home no lleva to tras go, come o get.",
+    "at home": "Incorrecta: at home es «en casa» (estar en casa); get at home no significa llegar."
+   },
+   "glosario": [
+    {
+     "palabra": "get home",
+     "significado": "llegar a casa"
+    }
+   ]
+  },
+  {
+   "id": "e08",
+   "tipo": "eleccion",
+   "enunciado": "Elige la opción correcta.",
+   "frase": "She goes swimming ___ a week: on Tuesdays and Fridays.",
+   "opciones": [
+    "twice",
+    "two",
+    "second"
+   ],
+   "respuestas": [
+    "twice"
+   ],
+   "explicacion": "La ficha recoge expresiones como once a week y twice a week. La pista es «on Tuesdays and Fridays»: dos días, es decir, dos veces. En inglés «una vez» es once y «dos veces» es twice; a partir de tres se dice three times.",
+   "explicacion_breve": "Dos veces es twice.",
+   "traduccion": "Va a nadar dos veces por semana: los martes y los viernes.",
+   "por_opcion": {
+    "twice": "Correcta: twice es «dos veces».",
+    "two": "Incorrecta: two es el número; haría falta two times, que es menos habitual que twice.",
+    "second": "Incorrecta: second es el ordinal «segundo»."
+   },
+   "glosario": [
+    {
+     "palabra": "twice",
+     "significado": "dos veces"
+    },
+    {
+     "palabra": "once",
+     "significado": "una vez"
+    }
+   ]
+  },
+  {
+   "id": "e09",
+   "tipo": "corregir",
+   "enunciado": "Corrige el error.",
+   "frase": "I always am hungry after work.",
+   "respuestas": [
+    "I am always hungry after work.",
+    "I'm always hungry after work."
+   ],
+   "explicacion": "La ficha dice que los adverbios de frecuencia van detrás de be. La pista es el verbo am: con be el adverbio always se coloca después del verbo, no delante. Por eso I am always hungry, o I'm always hungry. Con otros verbos sí va delante (I always eat).",
+   "explicacion_breve": "Con be el adverbio va detrás del verbo.",
+   "traduccion": "Siempre tengo hambre después del trabajo.",
+   "errores_previstos": [
+    {
+     "respuesta": "I always am hungry after work.",
+     "explicacion": "Es la frase sin corregir: con be el adverbio va detrás."
+    },
+    {
+     "respuesta": "Always I am hungry after work.",
+     "explicacion": "Calco del orden español; always no suele ir al principio en una frase así."
+    },
+    {
+     "respuesta": "I am hungry always after work.",
+     "explicacion": "El adverbio no va detrás del adjetivo; se coloca entre be y hungry."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "be hungry",
+     "significado": "tener hambre"
+    }
+   ]
+  },
+  {
+   "id": "e10",
+   "tipo": "corregir",
+   "enunciado": "Corrige el error.",
+   "frase": "My children make their homework in the kitchen.",
+   "respuestas": [
+    "My children do their homework in the kitchen."
+   ],
+   "explicacion": "Se aplica la regla de la ficha: las tareas, y en particular los deberes, van con do. La pista es homework, que es una tarea que se realiza, no algo que se crea. Por eso do their homework. Además, homework es incontable: no se dice homeworks.",
+   "explicacion_breve": "Los deberes se hacen con do.",
+   "traduccion": "Mis hijos hacen los deberes en la cocina.",
+   "errores_previstos": [
+    {
+     "respuesta": "My children make their homework in the kitchen.",
+     "explicacion": "Es la frase sin corregir: los deberes van con do."
+    },
+    {
+     "respuesta": "My children do their homeworks in the kitchen.",
+     "explicacion": "El verbo es correcto, pero homework es incontable y no lleva -s."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "homework",
+     "significado": "deberes (incontable)"
+    }
+   ]
+  },
+  {
+   "id": "e11",
+   "tipo": "corregir",
+   "enunciado": "Corrige el error.",
+   "frase": "He goes to home by train.",
+   "respuestas": [
+    "He goes home by train."
+   ],
+   "explicacion": "La ficha indica que home no lleva to tras go, come o get. La pista es goes to home: aunque con otros lugares se use to (go to work), home funciona como adverbio y va sin preposición. La corrección es He goes home by train.",
+   "explicacion_breve": "Go home no lleva to.",
+   "traduccion": "Va a casa en tren.",
+   "errores_previstos": [
+    {
+     "respuesta": "He goes to home by train.",
+     "explicacion": "Es la frase sin corregir: go home no lleva to."
+    },
+    {
+     "respuesta": "He go home by train.",
+     "explicacion": "Se quita el to correctamente, pero con he el presente simple necesita -s: goes."
+    },
+    {
+     "respuesta": "He goes at home by train.",
+     "explicacion": "At home es «en casa», no indica movimiento hacia casa."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "go home",
+     "significado": "ir a casa"
+    },
+    {
+     "palabra": "by train",
+     "significado": "en tren"
+    }
+   ]
+  },
+  {
+   "id": "e12",
+   "tipo": "ordenar",
+   "enunciado": "Ordena las palabras.",
+   "palabras": [
+    "often",
+    "walk",
+    "I",
+    "work",
+    "to"
+   ],
+   "respuestas": [
+    "I often walk to work"
+   ],
+   "explicacion": "La ficha dice que los adverbios de frecuencia van antes del verbo principal. La pista es que el verbo es walk, no be, así que often se coloca entre el sujeto y walk: I often walk to work. Al final de la frase sería posible en el habla, pero no es la posición neutra.",
+   "explicacion_breve": "El adverbio de frecuencia va antes del verbo principal.",
+   "traduccion": "A menudo voy andando al trabajo.",
+   "errores_previstos": [
+    {
+     "respuesta": "I walk often to work",
+     "explicacion": "El adverbio no se coloca entre el verbo y su complemento; va delante del verbo principal."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "often",
+     "significado": "a menudo"
+    }
+   ]
+  },
+  {
+   "id": "e13",
+   "tipo": "ordenar",
+   "enunciado": "Ordena las palabras.",
+   "palabras": [
+    "bed",
+    "go",
+    "late",
+    "never",
+    "we",
+    "to"
+   ],
+   "respuestas": [
+    "We never go to bed late"
+   ],
+   "explicacion": "La ficha recoge go to bed, «acostarse», y la regla de que el adverbio de frecuencia va delante del verbo principal. El orden es sujeto (we), never, verbo y su expresión fija (go to bed) y late al final. Never ya es negativo, así que no se añade don't.",
+   "explicacion_breve": "Never va antes del verbo; go to bed es acostarse.",
+   "traduccion": "Nunca nos acostamos tarde.",
+   "errores_previstos": [
+    {
+     "respuesta": "We go never to bed late",
+     "explicacion": "Never va delante del verbo principal, no detrás."
+    },
+    {
+     "respuesta": "We never go late to bed",
+     "explicacion": "Late no se mete dentro de la expresión fija go to bed; va al final."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "go to bed",
+     "significado": "acostarse"
+    },
+    {
+     "palabra": "never",
+     "significado": "nunca"
+    }
+   ]
+  },
+  {
+   "id": "e14",
+   "tipo": "hueco",
+   "enunciado": "Completa: «vestirse».",
+   "frase": "The children get ___ after breakfast.",
+   "respuestas": [
+    "dressed"
+   ],
+   "explicacion": "La ficha da get dressed, «vestirse». La pista es get delante del hueco: la expresión se forma con get + el participio dressed. No se usa reflexivo (no se dice dress themselves en una rutina normal) y el participio dressed es invariable.",
+   "explicacion_breve": "Vestirse es get dressed.",
+   "traduccion": "Los niños se visten después del desayuno.",
+   "errores_previstos": [
+    {
+     "respuesta": "dress",
+     "explicacion": "Tras get hace falta el participio, dressed."
+    },
+    {
+     "respuesta": "dressed themselves",
+     "explicacion": "Calco del reflexivo «se visten»; get dressed no lleva pronombre."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "get dressed",
+     "significado": "vestirse"
+    }
+   ]
+  },
+  {
+   "id": "e15",
+   "tipo": "eleccion",
+   "enunciado": "Elige la opción correcta.",
+   "frase": "I usually ___ a shower before breakfast.",
+   "opciones": [
+    "have",
+    "make",
+    "do"
+   ],
+   "respuestas": [
+    "have"
+   ],
+   "explicacion": "La ficha recoge have a shower, «ducharse»; take a shower también es correcto, sobre todo en inglés americano, pero no está entre las opciones. La pista es a shower: es una acción fija con have, igual que las comidas. Make y do no forman esta expresión.",
+   "explicacion_breve": "Ducharse es have (o take) a shower; make y do no sirven.",
+   "traduccion": "Normalmente me ducho antes de desayunar.",
+   "por_opcion": {
+    "have": "Correcta: have a shower es ducharse (también se dice take a shower).",
+    "make": "Incorrecta: make a shower no existe; make se usa para crear algo.",
+    "do": "Incorrecta: do no se combina con shower."
+   },
+   "glosario": [
+    {
+     "palabra": "have a shower",
+     "significado": "ducharse"
+    }
+   ]
+  }
  ],
- "fuente": {"nombre": "propia"}
+ "fuente": {
+  "nombre": "propia"
+ },
+ "descripcion_larga_es": "Esta ficha reúne los verbos y expresiones para contar un día normal: levantarse, ducharse, comer, ir al trabajo, las tareas de casa y el tiempo libre, con adverbios de frecuencia. Es el primer tema de conversación en cualquier nivel. Cuesta a un hispanohablante porque muchas acciones son expresiones fijas con have, do, make o go (have breakfast, do the shopping, make the bed) que no se traducen palabra por palabra.",
+ "contexto": {
+  "que_es": "Es el vocabulario de la rutina diaria: verbos y verbos frasales (wake up, get up, get dressed), expresiones fijas con have, do, make y go, tareas domésticas y actividades de ocio. Va unido a los adverbios de frecuencia (always, usually, rarely, never) y al presente simple, que es el tiempo con el que se cuentan los hábitos.",
+  "por_que_importa": "Contar lo que haces un día normal es una de las tareas más frecuentes en una conversación y en los exámenes orales de nivel básico e intermedio. Los errores de colocación (make homework, take dinner, go to home) son muy visibles aunque se entiendan, y la posición del adverbio de frecuencia delata enseguida si se domina la gramática básica.",
+  "cuando_se_usa": "Al presentarte, al describir tu semana, al hablar de tu casa o tus aficiones. Las señales son preguntas como «What do you usually do…?» o «What time do you…?». El hispanohablante tiende a traducir «hacer» siempre por make, «tomar» por take, a poner to delante de home y a colocar el adverbio antes de be."
+ }
 }

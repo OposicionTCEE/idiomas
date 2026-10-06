@@ -126,7 +126,14 @@
    "respuestas": [
     "told"
    ],
-   "explicacion": "Con persona (me) detrás: told."
+   "explicacion": "Se aplica la regla de Reglas y claves: tell lleva siempre la persona a la que se habla, mientras que say no lleva persona detrás. La pista es me inmediatamente después del hueco: con un objeto de persona, el verbo es told. El resto de la frase ya está en estilo indirecto (was moving, pasado continuo).",
+   "explicacion_breve": "Con persona (me) detrás: told.",
+   "traduccion": "Me dijo que se mudaba a Valencia.",
+   "por_opcion": {
+    "said": "Incorrecta: said no puede ir seguido directamente de la persona; habría que decir said to me o, mejor, told me.",
+    "told": "Correcta: told + persona (me) + (that) + oración es la estructura del estilo indirecto con tell.",
+    "spoke": "Incorrecta: speak significa «hablar» y no introduce lo que se dice con that; «spoke me» además no es gramatical (spoke to me)."
+   }
   },
   {
    "id": "e02",
@@ -141,7 +148,14 @@
    "respuestas": [
     "said"
    ],
-   "explicacion": "Sin persona detrás: said."
+   "explicacion": "Es la regla complementaria de la anterior: sin persona detrás se usa say. La pista es que tras el hueco viene directamente that, sin ningún me, him o us. Por eso solo said es posible; told exigiría mencionar a quién se le dijo.",
+   "explicacion_breve": "Sin persona detrás: said.",
+   "traduccion": "Dijo que la tienda estaba cerrada.",
+   "por_opcion": {
+    "said": "Correcta: said + (that) + oración, sin persona detrás.",
+    "told": "Incorrecta: told necesita a la persona (told me that…); «He told that» es el error típico que recoge la ficha.",
+    "told to": "Incorrecta: told to va seguido de infinitivo para dar órdenes (he told me to wait) y además le falta la persona."
+   }
   },
   {
    "id": "e03",
@@ -156,7 +170,14 @@
    "respuestas": [
     "couldn't"
    ],
-   "explicacion": "Can pasa a could."
+   "explicacion": "Se aplica la tabla de los tiempos verbales: can pasa a could en el estilo indirecto. La pista es el verbo introductorio en pasado (said), que hace retroceder el tiempo de lo dicho. La negación se mantiene, así que can't pasa a couldn't, igual que en español «no puedo» pasa a «no podía».",
+   "explicacion_breve": "Can pasa a could.",
+   "traduccion": "«No puedo venir.» → Dijo que no podía venir.",
+   "por_opcion": {
+    "can't": "Incorrecta en este ejercicio: con said lo normal es retroceder a couldn't; can't solo se mantendría si la imposibilidad siguiera siendo actual y se quisiera subrayarlo.",
+    "couldn't": "Correcta: can't → couldn't al pasar a estilo indirecto tras said.",
+    "won't": "Incorrecta: won't es el futuro de will not y cambia el significado (no querrá o no vendrá); además, en estilo indirecto sería wouldn't."
+   }
   },
   {
    "id": "e04",
@@ -171,7 +192,14 @@
    "respuestas": [
     "the next day"
    ],
-   "explicacion": "Tomorrow pasa a the next day al contarlo después."
+   "explicacion": "Es la segunda tabla de Reglas y claves: tomorrow pasa a the next day (o the following day) en estilo indirecto. La pista es el enunciado: lo cuentas una semana después, así que «mañana» ya no es mañana desde tu punto de vista. Además, will ha pasado a would, lo que confirma el retroceso al pasado.",
+   "explicacion_breve": "Tomorrow pasa a the next day al contarlo después.",
+   "traduccion": "«Te veré mañana.» → Dijo que me vería al día siguiente.",
+   "por_opcion": {
+    "tomorrow": "Incorrecta: mantener tomorrow solo tiene sentido si lo cuentas el mismo día en que se dijo; una semana después el día ya ha pasado.",
+    "the next day": "Correcta: tomorrow → the next day al cambiar el punto de referencia temporal.",
+    "the day before": "Incorrecta: the day before es la transformación de yesterday, no de tomorrow."
+   }
   },
   {
    "id": "e05",
@@ -182,7 +210,23 @@
     "lived",
     "lives"
    ],
-   "explicacion": "Presente simple → past simple (lives también es posible si sigue viviendo allí)."
+   "explicacion": "Se aplica la tabla de tiempos: el presente simple pasa a pasado simple (live → lived). La pista es el verbo introductorio said, en pasado. La ficha también admite lives, porque, según la última regla de Reglas y claves, si lo dicho sigue siendo verdad el tiempo puede no cambiar: si Ana sigue viviendo en Bilbao, «she said she lives in Bilbao» es correcto.",
+   "explicacion_breve": "Presente simple → past simple (lives también es posible si sigue viviendo allí).",
+   "traduccion": "«Vivo en Bilbao.» → Ana dijo que vivía (vive) en Bilbao.",
+   "errores_previstos": [
+    {
+     "respuesta": "live",
+     "explicacion": "Con she el presente simple lleva -s (lives) y, con el retroceso habitual, el pasado es lived."
+    },
+    {
+     "respuesta": "was living",
+     "explicacion": "El presente simple retrocede a pasado simple (lived), no a pasado continuo."
+    },
+    {
+     "respuesta": "has lived",
+     "explicacion": "El present perfect no es la transformación del presente simple; corresponde lived (o lives si sigue siendo verdad)."
+    }
+   ]
   },
   {
    "id": "e06",
@@ -192,7 +236,23 @@
    "respuestas": [
     "were watching"
    ],
-   "explicacion": "Presente continuo → pasado continuo."
+   "explicacion": "Es la fila de la tabla «presente continuo → pasado continuo». La pista es are watching en el original y el verbo introductorio said: are pasa a were y watching se mantiene. El pronombre we también ha cambiado a they porque ahora es otra persona la que lo cuenta.",
+   "explicacion_breve": "Presente continuo → pasado continuo.",
+   "traduccion": "«Estamos viendo la tele.» → Dijeron que estaban viendo la tele.",
+   "errores_previstos": [
+    {
+     "respuesta": "are watching",
+     "explicacion": "Con said en pasado, el presente continuo retrocede a pasado continuo: were watching."
+    },
+    {
+     "respuesta": "was watching",
+     "explicacion": "El sujeto es they, plural: el auxiliar es were, no was."
+    },
+    {
+     "respuesta": "watched",
+     "explicacion": "El original es continuo y en estilo indirecto se mantiene el aspecto: were watching."
+    }
+   ]
   },
   {
    "id": "e07",
@@ -203,7 +263,23 @@
     "had finished",
     "'d finished"
    ],
-   "explicacion": "Present perfect → past perfect."
+   "explicacion": "Se aplica la fila de la tabla «present perfect → past perfect». La pista es have finished en el original y said en la introducción: have pasa a had. Se acepta también la contracción 'd finished, habitual en la lengua hablada. El español sigue el mismo patrón («he terminado» → «había terminado»).",
+   "explicacion_breve": "Present perfect → past perfect.",
+   "traduccion": "«He terminado el proyecto.» → Dijo que había terminado el proyecto.",
+   "errores_previstos": [
+    {
+     "respuesta": "has finished",
+     "explicacion": "Mantiene el present perfect; con said en pasado retrocede a past perfect: had finished."
+    },
+    {
+     "respuesta": "finished",
+     "explicacion": "Es posible en el habla relajada, pero la regla de la ficha pide el past perfect: had finished."
+    },
+    {
+     "respuesta": "had finish",
+     "explicacion": "Tras had hace falta el participio: finished."
+    }
+   ]
   },
   {
    "id": "e08",
@@ -213,7 +289,23 @@
    "respuestas": [
     "told"
    ],
-   "explicacion": "Persona (us) detrás: told."
+   "explicacion": "Es la regla de say y tell: con persona detrás se usa tell. La pista es us justo después del hueco: el profesor se dirige a unos destinatarios concretos, así que el verbo es told. Said us sería un calco de «nos dijo».",
+   "explicacion_breve": "Persona (us) detrás: told.",
+   "traduccion": "El profesor nos dijo que el examen era el viernes.",
+   "errores_previstos": [
+    {
+     "respuesta": "said",
+     "explicacion": "Said no admite la persona directamente detrás; con us hay que usar told (o said to us)."
+    },
+    {
+     "respuesta": "tell",
+     "explicacion": "La frase está en pasado (was on Friday): hace falta told."
+    },
+    {
+     "respuesta": "told to",
+     "explicacion": "Tell no lleva to delante de la persona: told us."
+    }
+   ]
   },
   {
    "id": "e09",
@@ -225,7 +317,23 @@
     "He told me he was ill.",
     "He said to me that he was ill."
    ],
-   "explicacion": "Say no va seguido directamente de persona: told me o said to me."
+   "explicacion": "Se aplica la regla de Reglas y claves: say no lleva persona detrás; si se quiere decir a quién, say to me. La pista es me tras said, que es el error típico de la ficha (calco de «me dijo»). Hay tres correcciones válidas: cambiar a told me (con o sin that) o mantener said añadiendo to: said to me.",
+   "explicacion_breve": "Say no va seguido directamente de persona: told me o said to me.",
+   "traduccion": "Me dijo que estaba enfermo.",
+   "errores_previstos": [
+    {
+     "respuesta": "He said me that he was ill.",
+     "explicacion": "Es la frase sin corregir: say no admite la persona directamente detrás."
+    },
+    {
+     "respuesta": "He told to me that he was ill.",
+     "explicacion": "Tell no lleva to delante de la persona: told me."
+    },
+    {
+     "respuesta": "He said that he was ill to me.",
+     "explicacion": "To me no puede ir al final, tras la oración: se coloca justo después de said (said to me that…)."
+    }
+   ]
   },
   {
    "id": "e10",
@@ -236,7 +344,23 @@
     "Maria said that she liked the film.",
     "Maria said she liked the film."
    ],
-   "explicacion": "Sin persona tras el verbo se usa said."
+   "explicacion": "Es la regla complementaria: tell necesita la persona a la que se dice; sin ella se usa say. La pista es que tras told viene that directamente, sin ningún objeto de persona. La corrección es said, con o sin that. El tiempo liked ya está bien: es el retroceso del presente like.",
+   "explicacion_breve": "Sin persona tras el verbo se usa said.",
+   "traduccion": "María dijo que le había gustado la película.",
+   "errores_previstos": [
+    {
+     "respuesta": "Maria told that she liked the film.",
+     "explicacion": "Es la frase sin corregir: tell necesita la persona a la que se habla."
+    },
+    {
+     "respuesta": "Maria said me that she liked the film.",
+     "explicacion": "Se ha cambiado a said, pero se ha añadido la persona directamente detrás, lo que say no admite."
+    },
+    {
+     "respuesta": "Maria told she liked the film.",
+     "explicacion": "Quitar that no arregla nada: tell sigue sin la persona."
+    }
+   ]
   },
   {
    "id": "e11",
@@ -247,7 +371,23 @@
     "She said she was very tired.",
     "She said that she was very tired."
    ],
-   "explicacion": "I → she; am → was."
+   "explicacion": "Se aplican dos cambios de la ficha: el pronombre (I → she, porque ahora habla otra persona) y el tiempo (presente am → pasado was), según la tabla de retroceso de tiempos. La pista es el verbo introductorio en pasado, She said. That es opcional, por eso se aceptan ambas versiones.",
+   "explicacion_breve": "I → she; am → was.",
+   "traduccion": "Dijo que estaba muy cansada.",
+   "errores_previstos": [
+    {
+     "respuesta": "She said she is very tired.",
+     "explicacion": "Con said en pasado lo normal es retroceder: am → was. Mantener is solo valdría si se subraya que sigue cansada ahora."
+    },
+    {
+     "respuesta": "She said I was very tired.",
+     "explicacion": "No se ha cambiado el pronombre: I pasa a she, porque quien lo cuenta no es quien lo dijo."
+    },
+    {
+     "respuesta": "She said me she was very tired.",
+     "explicacion": "Say no lleva persona detrás; además el enunciado pide empezar por She said."
+    }
+   ]
   },
   {
    "id": "e12",
@@ -260,7 +400,23 @@
     "Tom said he'd call me that night.",
     "Tom said that he'd call me that night."
    ],
-   "explicacion": "Will → would; you → me; tonight → that night."
+   "explicacion": "Se aplican tres reglas de la ficha: will pasa a would (tabla de tiempos), el pronombre you pasa a me (porque yo soy el destinatario) y tonight pasa a that night (tabla de expresiones de tiempo). La pista es el enunciado: lo cuentas días después, por lo que «esta noche» ya no es la de hoy. Se aceptan las versiones con y sin that y con la contracción he'd.",
+   "explicacion_breve": "Will → would; you → me; tonight → that night.",
+   "traduccion": "Tom dijo que me llamaría esa noche.",
+   "errores_previstos": [
+    {
+     "respuesta": "Tom said he will call me tonight.",
+     "explicacion": "No se ha retrocedido el tiempo (will → would) ni la expresión temporal (tonight → that night), necesaria porque lo cuentas días después."
+    },
+    {
+     "respuesta": "Tom said he would call you that night.",
+     "explicacion": "No se ha cambiado el pronombre: you del original se refiere a mí, así que pasa a me."
+    },
+    {
+     "respuesta": "Tom said he would call me tonight.",
+     "explicacion": "El tiempo verbal está bien, pero tonight debe pasar a that night porque lo cuentas días después."
+    }
+   ]
   },
   {
    "id": "e13",
@@ -277,7 +433,19 @@
    "respuestas": [
     "she told me she was busy"
    ],
-   "explicacion": "Told + persona + (that) + frase con el tiempo retrasado."
+   "explicacion": "Es la estructura de la ficha: told + persona + (that) + oración con el tiempo retrasado. El orden es sujeto (she), told, el destinatario (me) y después la oración subordinada (she was busy). That es opcional y aquí no está entre las palabras.",
+   "explicacion_breve": "Told + persona + (that) + frase con el tiempo retrasado.",
+   "traduccion": "Me dijo que estaba ocupada.",
+   "errores_previstos": [
+    {
+     "respuesta": "she told she was busy me",
+     "explicacion": "La persona va inmediatamente detrás de told, no al final de la frase."
+    },
+    {
+     "respuesta": "she was busy she told me",
+     "explicacion": "Es una inversión propia del estilo directo o de un inciso; en estilo indirecto el verbo introductorio va delante."
+    }
+   ]
   },
   {
    "id": "e14",
@@ -295,10 +463,28 @@
    "respuestas": [
     "they said they had lost the keys"
    ],
-   "explicacion": "Said + frase en past perfect."
+   "explicacion": "Se aplica la estructura said + oración y el retroceso de tiempos: lo que en directo sería «We lost / have lost the keys» pasa a past perfect, had lost. El orden es sujeto, said, y la oración subordinada completa con sujeto, had, participio y complemento.",
+   "explicacion_breve": "Said + frase en past perfect.",
+   "traduccion": "Dijeron que habían perdido las llaves.",
+   "errores_previstos": [
+    {
+     "respuesta": "they said they lost had the keys",
+     "explicacion": "El auxiliar had va delante del participio: had lost."
+    },
+    {
+     "respuesta": "they had said they lost the keys",
+     "explicacion": "Se ha cambiado el tiempo del verbo introductorio en vez del de la oración; lo pedido es said + had lost."
+    }
+   ]
   }
  ],
  "fuente": {
   "nombre": "propia"
+ },
+ "descripcion_larga_es": "El estilo indirecto sirve para contar lo que otra persona dijo sin citarla literalmente: «Dijo que estaba cansada». En inglés se introduce con said o told, y normalmente el tiempo verbal retrocede un paso y cambian pronombres y expresiones de tiempo. Es básico para resumir conversaciones o reuniones, y al hispanohablante le cuesta sobre todo distinguir say de tell.",
+ "contexto": {
+  "que_es": "Es la forma de reproducir lo que alguien dijo integrándolo en nuestra propia frase, con un verbo introductorio (say, tell) y una oración subordinada, con o sin that. Al cambiar el punto de vista, se adaptan los tiempos verbales (normalmente un paso hacia el pasado), los pronombres y las referencias de tiempo y lugar.",
+  "por_que_importa": "Contar lo que otros han dicho es una de las tareas más frecuentes de la comunicación: transmitir un mensaje, resumir una reunión o informar de una declaración. Un error con say y tell o con el tiempo verbal no impide entender la frase, pero se nota mucho y es de los que más penalizan en un examen. Además, olvidar el cambio de tiempo puede dar a entender que lo dicho sigue siendo cierto hoy.",
+  "cuando_se_usa": "Se usa al transmitir un recado, contar una conversación pasada, resumir declaraciones en un informe o una noticia. La señal es un verbo de lengua (said, told) seguido de lo que alguien expresó. El español también retrocede el tiempo («dijo que vendría»), lo que ayuda; la dificultad principal es que say no admite directamente a la persona (no «said me») y que tell siempre la exige."
  }
 }

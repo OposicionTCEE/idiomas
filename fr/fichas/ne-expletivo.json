@@ -121,7 +121,13 @@
    "respuestas": [
     "se pierda"
    ],
-   "explicacion": "El ne expletivo no tiene valor negativo."
+   "explicacion": "Es la confusión más peligrosa que señala la ficha: tras avoir peur que, ne sin pas es expletivo y no niega nada. La pista es precisamente la ausencia de pas: il ne se perde equivale a il se perde. Por tanto, la frase expresa el temor a que se pierda. Para decir «que no se pierda» haría falta ne… pas.",
+   "explicacion_breve": "El ne expletivo no tiene valor negativo.",
+   "traduccion": "Tengo miedo de que se pierda.",
+   "por_opcion": {
+    "se pierda": "Correcta: el ne expletivo no tiene valor negativo; la frase teme que ocurra la pérdida.",
+    "no se pierda": "Es el error de lectura típico: para negar de verdad haría falta ne… pas (qu'il ne se perde pas)."
+   }
   },
   {
    "id": "e02",
@@ -135,7 +141,13 @@
    "respuestas": [
     "no venga"
    ],
-   "explicacion": "Ne… pas es una negación real."
+   "explicacion": "Aquí la ficha muestra el caso contrario: ne… pas sí es una negación real. La pista es pas, que acompaña a ne. Por eso la frase expresa el temor a que no venga. Comparar con el ejercicio anterior ayuda a ver que lo decisivo es la presencia o ausencia de pas.",
+   "explicacion_breve": "Ne… pas es una negación real.",
+   "traduccion": "Tengo miedo de que no venga.",
+   "por_opcion": {
+    "venga": "Sería la traducción si solo hubiera ne expletivo (qu'il ne vienne); aquí pas hace la negación real.",
+    "no venga": "Correcta: ne… pas niega el verbo; se teme que la persona no venga."
+   }
   },
   {
    "id": "e03",
@@ -150,7 +162,14 @@
    "respuestas": [
     "Il est sorti sans que je le voie."
    ],
-   "explicacion": "Sans que lleva subjuntivo y, según la norma, sin ne expletivo."
+   "explicacion": "La ficha indica que sans que lleva subjuntivo y que, según la norma, no admite ne expletivo, porque sans ya tiene sentido negativo. La pista es el registro cuidado que pide el enunciado. Voir en subjuntivo es que je voie, con -e final. Así, solo la segunda opción cumple las dos condiciones.",
+   "explicacion_breve": "Sans que lleva subjuntivo y, según la norma, sin ne expletivo.",
+   "traduccion": "Salió sin que yo lo viera.",
+   "por_opcion": {
+    "Il est sorti sans que je ne le voie.": "Incorrecta según la norma: tras sans que no se pone ne expletivo, aunque se oiga a menudo.",
+    "Il est sorti sans que je le voie.": "Correcta: subjuntivo voie y sin ne expletivo, como pide la norma.",
+    "Il est sorti sans que je le vois.": "Incorrecta: vois es indicativo, y sans que exige subjuntivo (voie)."
+   }
   },
   {
    "id": "e04",
@@ -165,7 +184,14 @@
    "respuestas": [
     "Partons avant qu'il ne fasse nuit."
    ],
-   "explicacion": "Tras avant que, ne no niega nada."
+   "explicacion": "La tabla de la ficha incluye avant que entre los contextos del ne expletivo. La pista es la conjunción avant que y la ausencia de pas: qu'il ne fasse nuit significa «que se haga de noche», sin negación. En las otras opciones, ne forma parte de una negación (ne… pas) o de la restricción ne… que, «solo». Por eso el único ne expletivo es el de la segunda frase.",
+   "explicacion_breve": "Tras avant que, ne no niega nada.",
+   "traduccion": "Vámonos antes de que se haga de noche.",
+   "por_opcion": {
+    "Je ne sais pas.": "Ne forma con pas una negación real: «no sé».",
+    "Partons avant qu'il ne fasse nuit.": "Correcta: tras avant que, ne no niega nada; es expletivo.",
+    "Il ne mange que des légumes.": "Ne… que es una restricción que significa «solo»: «solo come verduras»; no es expletivo."
+   }
   },
   {
    "id": "e05",
@@ -176,7 +202,19 @@
     "ne",
     "ne le"
    ],
-   "explicacion": "Comparativo de desigualdad + verbo conjugado: ne expletivo."
+   "explicacion": "La ficha recoge los comparativos de desigualdad seguidos de verbo conjugado como contexto del ne expletivo: plus… que + ne + verbo. La pista es plus âgé que seguido de il paraît. Se acepta también ne le, con le neutro que retoma la idea («de lo que lo parece»), forma igualmente correcta. El español traduce «de lo que parece» sin ninguna negación.",
+   "explicacion_breve": "Comparativo de desigualdad + verbo conjugado: ne expletivo.",
+   "traduccion": "Es mayor de lo que parece.",
+   "errores_previstos": [
+    {
+     "respuesta": "ne pas",
+     "explicacion": "Ne… pas negaría el verbo y daría un sentido absurdo; en el comparativo el ne es expletivo y va solo."
+    },
+    {
+     "respuesta": "ce que",
+     "explicacion": "Calco de «de lo que»: la ficha recoge ce que je pensais como error; tras el comparativo va directamente que + (ne) verbo."
+    }
+   ]
   },
   {
    "id": "e06",
@@ -186,7 +224,23 @@
    "respuestas": [
     "parte"
    ],
-   "explicacion": "Avant que + subjuntivo."
+   "explicacion": "La ficha recuerda que avant que va seguido de subjuntivo, con o sin ne expletivo. La pista es la conjunción avant que. Partir en subjuntivo presente, con il, es qu'il parte: coincide en la escritura con la raíz part- y la terminación -e. El ne que ya figura en la frase es expletivo y no niega nada.",
+   "explicacion_breve": "Avant que + subjuntivo.",
+   "traduccion": "Llámalo antes de que se vaya.",
+   "errores_previstos": [
+    {
+     "respuesta": "part",
+     "explicacion": "Es el indicativo presente; avant que exige subjuntivo: parte."
+    },
+    {
+     "respuesta": "parte pas",
+     "explicacion": "Añadir pas convierte el ne en negación y cambia el sentido: «antes de que no se vaya»."
+    },
+    {
+     "respuesta": "partira",
+     "explicacion": "El futuro de indicativo no vale tras avant que; hace falta el subjuntivo parte."
+    }
+   ]
   },
   {
    "id": "e07",
@@ -196,7 +250,19 @@
    "respuestas": [
     "oublie"
    ],
-   "explicacion": "De crainte que + subjuntivo (ne elidido ante vocal)."
+   "explicacion": "La tabla de la ficha incluye de crainte que, sinónimo de de peur que, que pide subjuntivo y admite ne expletivo. La pista es la conjunción y la forma elidida n' ante vocal. Oublier en subjuntivo presente es qu'il oublie. El español usa el imperfecto de subjuntivo («olvidara»), pero el francés corriente emplea el presente aunque el verbo principal esté en pasado.",
+   "explicacion_breve": "De crainte que + subjuntivo (ne elidido ante vocal).",
+   "traduccion": "Le escribí por miedo a que olvidara la cita.",
+   "errores_previstos": [
+    {
+     "respuesta": "oubliait",
+     "explicacion": "Es el imperfecto de indicativo, calcado del «olvidara» español; de crainte que exige subjuntivo presente: oublie."
+    },
+    {
+     "respuesta": "oublia",
+     "explicacion": "Es el passé simple de indicativo; tras de crainte que hace falta el subjuntivo oublie."
+    }
+   ]
   },
   {
    "id": "e08",
@@ -206,7 +272,23 @@
    "respuestas": [
     "Je redoute que la situation n'empire."
    ],
-   "explicacion": "Redouter que admite ne expletivo, elidido ante vocal."
+   "explicacion": "La ficha incluye craindre, avoir peur y redouter que entre los verbos que admiten ne expletivo en registro formal. Se coloca ne delante del verbo de la subordinada, que ya está en subjuntivo (empire). Como empire empieza por vocal, ne se elide en n'. No se añade pas, porque la frase no quiere negar el empeoramiento.",
+   "explicacion_breve": "Redouter que admite ne expletivo, elidido ante vocal.",
+   "traduccion": "Temo que la situación empeore.",
+   "errores_previstos": [
+    {
+     "respuesta": "Je redoute que la situation n'empire pas.",
+     "explicacion": "Con pas el ne deja de ser expletivo y la frase pasa a significar lo contrario: «temo que no empeore»."
+    },
+    {
+     "respuesta": "Je redoute que la situation ne empire.",
+     "explicacion": "Ne debe elidirse ante vocal: n'empire."
+    },
+    {
+     "respuesta": "Je ne redoute que la situation empire.",
+     "explicacion": "El ne expletivo va en la subordinada, delante de empire, no en la principal."
+    }
+   ]
   },
   {
    "id": "e09",
@@ -216,7 +298,23 @@
    "respuestas": [
     "Les résultats sont meilleurs que nous ne l'espérions."
    ],
-   "explicacion": "Comparativo de desigualdad seguido de verbo conjugado."
+   "explicacion": "Es el caso de los comparativos de desigualdad que recoge la ficha: meilleur… que + verbo conjugado admite ne expletivo. Se coloca ne delante del verbo, aquí delante del pronombre l' que retoma la idea: nous ne l'espérions. No hay negación: la frase dice que los resultados superan lo esperado. El español traduce «de lo que esperábamos».",
+   "explicacion_breve": "Comparativo de desigualdad seguido de verbo conjugado.",
+   "traduccion": "Los resultados son mejores de lo que esperábamos.",
+   "errores_previstos": [
+    {
+     "respuesta": "Les résultats sont meilleurs que nous l'espérions pas.",
+     "explicacion": "Pas no aparece nunca con el ne expletivo y aquí falta además el propio ne."
+    },
+    {
+     "respuesta": "Les résultats sont meilleurs que nous l'ne espérions.",
+     "explicacion": "Ne va delante del pronombre complemento, no detrás: nous ne l'espérions."
+    },
+    {
+     "respuesta": "Les résultats sont meilleurs que ce que nous ne l'espérions.",
+     "explicacion": "Calco de «de lo que»: tras el comparativo va directamente que, sin ce que."
+    }
+   ]
   },
   {
    "id": "e10",
@@ -226,7 +324,19 @@
    "respuestas": [
     "Finissons avant que le patron arrive."
    ],
-   "explicacion": "En el oral el ne expletivo se suele omitir; el sentido no cambia."
+   "explicacion": "La ficha explica que en el oral el ne expletivo se omite casi siempre y que el sentido no cambia. Basta con suprimir n' y dejar el subjuntivo arrive, que avant que sigue exigiendo. La frase sigue significando «antes de que llegue el jefe». Es la forma más habitual en la conversación.",
+   "explicacion_breve": "En el oral el ne expletivo se suele omitir; el sentido no cambia.",
+   "traduccion": "Terminemos antes de que llegue el jefe.",
+   "errores_previstos": [
+    {
+     "respuesta": "Finissons avant que le patron n'arrive pas.",
+     "explicacion": "Añadir pas no elimina el ne expletivo: lo convierte en negación y cambia el sentido."
+    },
+    {
+     "respuesta": "Finissons avant que le patron arrivera.",
+     "explicacion": "Al quitar el ne, el verbo debe seguir en subjuntivo: arrive."
+    }
+   ]
   },
   {
    "id": "e11",
@@ -236,7 +346,19 @@
    "respuestas": [
     "Je ferme la fenêtre de peur que le chat ne sorte."
    ],
-   "explicacion": "De peur que exige subjuntivo."
+   "explicacion": "El error no está en el ne expletivo, que es correcto tras de peur que, sino en el modo. La ficha recuerda que de peur que exige subjuntivo, y sort es indicativo. Sortir en subjuntivo es qu'il sorte. La pista es la conjunción de peur que.",
+   "explicacion_breve": "De peur que exige subjuntivo.",
+   "traduccion": "Cierro la ventana por miedo a que el gato se escape.",
+   "errores_previstos": [
+    {
+     "respuesta": "Je ferme la fenêtre de peur que le chat ne sort.",
+     "explicacion": "Es la frase sin corregir: sort es indicativo y de peur que pide subjuntivo."
+    },
+    {
+     "respuesta": "Je ferme la fenêtre de peur que le chat ne sorte pas.",
+     "explicacion": "Añadir pas cambia el sentido: se temería que el gato no saliera."
+    }
+   ]
   },
   {
    "id": "e12",
@@ -246,7 +368,19 @@
    "respuestas": [
     "Elle a réussi sans qu'on l'aide."
    ],
-   "explicacion": "La norma no admite ne expletivo tras sans que."
+   "explicacion": "La ficha indica que la norma rechaza el ne expletivo tras sans que, porque sans ya tiene sentido negativo, aunque en el habla se oye a menudo. Hay que suprimir n' y mantener la elisión de que, porque on empieza por vocal: sans qu'on l'aide. El verbo aide ya está en subjuntivo. Así se cumple la norma que pide el enunciado.",
+   "explicacion_breve": "La norma no admite ne expletivo tras sans que.",
+   "traduccion": "Lo consiguió sin que la ayudaran.",
+   "errores_previstos": [
+    {
+     "respuesta": "Elle a réussi sans qu'on ne l'aide.",
+     "explicacion": "Es la frase sin corregir: según la norma, sans que no admite ne expletivo."
+    },
+    {
+     "respuesta": "Elle a réussi sans qu'on ne l'aide pas.",
+     "explicacion": "Con pas la frase significaría lo contrario; además sans que ya es negativo."
+    }
+   ]
   },
   {
    "id": "e13",
@@ -263,10 +397,28 @@
    "respuestas": [
     "C'est plus simple qu'on ne croit"
    ],
-   "explicacion": "Plus… que + ne expletivo + verbo."
+   "explicacion": "Se aplica la regla de los comparativos de desigualdad: plus… que + ne expletivo + verbo conjugado. El orden es c'est plus simple, después qu'on (que elidido ante on) y ne croit. El ne va justo delante del verbo. No hay negación: la frase dice que es más sencillo de lo que la gente cree.",
+   "explicacion_breve": "Plus… que + ne expletivo + verbo.",
+   "traduccion": "Es más sencillo de lo que se cree.",
+   "errores_previstos": [
+    {
+     "respuesta": "C'est plus simple ne qu'on croit",
+     "explicacion": "El ne expletivo va dentro de la subordinada, entre on y croit."
+    },
+    {
+     "respuesta": "C'est ne plus simple qu'on croit",
+     "explicacion": "Así ne se uniría a plus como si fuera la negación «ya no»; el ne expletivo va delante de croit."
+    }
+   ]
   }
  ],
  "fuente": {
   "nombre": "propia"
+ },
+ "descripcion_larga_es": "El ne expletivo es un ne sin pas y sin valor negativo que aparece en registro cuidado tras expresiones de temor (craindre que, de peur que), tras avant que y à moins que, y en comparativos de desigualdad. Es facultativo, pero hay que reconocerlo: un hispanohablante tiende a leer «je crains qu'il ne vienne» como «temo que no venga», cuando significa justo lo contrario.",
+ "contexto": {
+  "que_es": "Es un ne que no niega nada. Aparece solo, sin pas, en subordinadas que dependen de verbos o conjunciones con idea de temor, prevención o duda (craindre, avoir peur, éviter, empêcher, avant que, à moins que, de peur que) y tras comparativos de desigualdad seguidos de un verbo conjugado (plus… que je ne pensais).",
+  "por_que_importa": "La mayor dificultad es de comprensión: interpretar el ne expletivo como negación invierte el sentido de la frase, algo grave al leer un texto jurídico, periodístico o literario. En producción, usarlo bien en un escrito formal da buena impresión, y ponerlo donde la norma lo rechaza (sans que) es un error clásico. A nivel C1 se espera dominar estos matices.",
+  "cuando_se_usa": "En textos formales y en el oral cuidado, tras las expresiones de la ficha; en la conversación corriente casi siempre se omite sin que cambie el sentido. Las señales son un verbo de temor o una de esas conjunciones seguidas de subjuntivo, o un comparativo plus, moins, mieux, autre que + verbo. El hispanohablante debe recordar que la negación real exige ne… pas."
  }
 }

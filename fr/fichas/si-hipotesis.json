@@ -111,8 +111,24 @@
    "respuestas": [
     "savais"
    ],
-   "explicacion": "Consecuencia en condicional → condición en imperfecto.",
-   "origen": "tatoeba:1701647"
+   "explicacion": "La consecuencia, «je le dirais», está en condicional presente. Según la tabla de Reglas y claves, ese condicional corresponde a una hipótesis sobre el presente, cuya condición va en imperfecto. Por tanto, «savoir» en imperfecto con «je»: «savais». Donde el español dice «si lo supiera» (subjuntivo), el francés usa el imperfecto de indicativo.",
+   "origen": "tatoeba:1701647",
+   "explicacion_breve": "Consecuencia en condicional → condición en imperfecto.",
+   "traduccion": "Si lo supiera, lo diría.",
+   "errores_previstos": [
+    {
+     "respuesta": "saurais",
+     "explicacion": "Es el condicional; tras el si condicional nunca va condicional, es la regla de oro de la ficha."
+    },
+    {
+     "respuesta": "sache",
+     "explicacion": "Es el subjuntivo, calco de «supiera»; el francés no usa subjuntivo detrás de si."
+    },
+    {
+     "respuesta": "sais",
+     "explicacion": "El presente correspondería a una condición posible con futuro o presente en la consecuencia; con «dirais» hace falta imperfecto."
+    }
+   ]
   },
   {
    "id": "e02",
@@ -122,8 +138,24 @@
    "respuestas": [
     "serai"
    ],
-   "explicacion": "Condición en presente + consecuencia futura: futuro simple.",
-   "origen": "tatoeba:393369"
+   "explicacion": "La condición, «si tu souris», está en presente: es una condición real o posible. La tabla de Reglas y claves indica que entonces la consecuencia puede ir en presente, futuro o imperativo. La pista es «demain», que sitúa la consecuencia en el futuro, así que «être» va en futuro simple: «je serai».",
+   "origen": "tatoeba:393369",
+   "explicacion_breve": "Condición en presente + consecuencia futura: futuro simple.",
+   "traduccion": "Si sonríes, estaré contento mañana.",
+   "errores_previstos": [
+    {
+     "respuesta": "serais",
+     "explicacion": "El condicional corresponde a una condición en imperfecto (si tu souriais); con si + presente se usa el futuro."
+    },
+    {
+     "respuesta": "suis",
+     "explicacion": "El presente es posible en otros contextos, pero «demain» pide futuro."
+    },
+    {
+     "respuesta": "sera",
+     "explicacion": "Es la tercera persona; con «je» la forma es «serai»."
+    }
+   ]
   },
   {
    "id": "e03",
@@ -133,18 +165,56 @@
    "respuestas": [
     "partais"
    ],
-   "explicacion": "Consecuencia en condicional (ferais) → condición en imperfecto."
+   "explicacion": "La consecuencia, «que ferais-je», está en condicional presente (con inversión de sujeto propia de la pregunta). Según la tabla de Reglas y claves, el condicional presente va con una condición en imperfecto. «Partir» en imperfecto con «tu» es «partais». El español usa el subjuntivo «si te fueras», pero el francés, el imperfecto de indicativo.",
+   "explicacion_breve": "Consecuencia en condicional (ferais) → condición en imperfecto.",
+   "traduccion": "¿Qué haría yo si te fueras?",
+   "errores_previstos": [
+    {
+     "respuesta": "partirais",
+     "explicacion": "Es condicional; detrás del si condicional nunca va condicional."
+    },
+    {
+     "respuesta": "pars",
+     "explicacion": "El presente correspondería a una condición posible con futuro en la consecuencia; con «ferais» hace falta el imperfecto «partais»."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "partir",
+     "significado": "irse, marcharse"
+    }
+   ]
   },
   {
    "id": "e04",
    "tipo": "hueco",
-   "enunciado": "Completa con el tiempo adecuado.",
+   "enunciado": "Completa con el tiempo adecuado (lamento sobre el pasado: «¡ojalá hubiera venido!»).",
    "frase": "Si seulement il ___ (venir) !",
    "respuestas": [
     "était venu"
    ],
-   "explicacion": "Si seulement + pluscuamperfecto expresa un lamento sobre el pasado (ojalá hubiera venido).",
-   "origen": "tatoeba:4450319"
+   "explicacion": "La lista de Reglas y claves explica que «si seulement» + imperfecto o pluscuamperfecto expresa un deseo, como nuestro «ojalá». Con pluscuamperfecto el deseo se refiere al pasado y tiene tono de lamento: «¡ojalá hubiera venido!». El pluscuamperfecto de «venir» se forma con «être» en imperfecto + participio: «il était venu». El enunciado precisa que se trata de un lamento sobre el pasado; «si seulement il venait» también sería gramatical, pero expresaría otro sentido, un deseo sobre el presente (ojalá viniera).",
+   "origen": "tatoeba:4450319",
+   "explicacion_breve": "Si seulement + pluscuamperfecto expresa un lamento sobre el pasado (ojalá hubiera venido).",
+   "traduccion": "¡Ojalá hubiera venido!",
+   "errores_previstos": [
+    {
+     "respuesta": "avait venu",
+     "explicacion": "«Venir» forma los tiempos compuestos con être, no con avoir: il était venu."
+    },
+    {
+     "respuesta": "soit venu",
+     "explicacion": "Es el subjuntivo, calco de «hubiera venido»; detrás de si nunca va subjuntivo."
+    },
+    {
+     "respuesta": "serait venu",
+     "explicacion": "Es el condicional pasado; tras si no se usa el condicional."
+    },
+    {
+     "respuesta": "venait",
+     "explicacion": "Si seulement il venait es correcto, pero expresa un deseo sobre el presente (ojalá viniera); el enunciado pide el lamento sobre el pasado: était venu."
+    }
+   ]
   },
   {
    "id": "e05",
@@ -154,7 +224,29 @@
    "respuestas": [
     "gagnerait"
    ],
-   "explicacion": "Si + imperfecto → condicional presente."
+   "explicacion": "La condición, «si Edouard était plus rapide», está en imperfecto: es una hipótesis sobre el presente. La tabla de Reglas y claves indica que la consecuencia va entonces en condicional presente. «Gagner» en condicional con sujeto de tercera persona singular: «gagnerait», es decir, infinitivo + terminación del imperfecto «-ait».",
+   "explicacion_breve": "Si + imperfecto → condicional presente.",
+   "traduccion": "Si Edouard fuera más rápido, ganaría más propinas.",
+   "errores_previstos": [
+    {
+     "respuesta": "gagnera",
+     "explicacion": "El futuro va con una condición en presente; con si + imperfecto la consecuencia es condicional."
+    },
+    {
+     "respuesta": "gagnait",
+     "explicacion": "Es el imperfecto; a la consecuencia le corresponde el condicional, que conserva la -r- del infinitivo: gagnerait."
+    },
+    {
+     "respuesta": "gagnerais",
+     "explicacion": "Es la forma de je o tu; con «il» la terminación es -ait."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "un pourboire",
+     "significado": "una propina"
+    }
+   ]
   },
   {
    "id": "e06",
@@ -164,7 +256,23 @@
    "respuestas": [
     "aurais vu"
    ],
-   "explicacion": "Si + pluscuamperfecto → condicional pasado (avoir en condicional + participio)."
+   "explicacion": "La condición, «si tu étais venu», está en pluscuamperfecto: es una hipótesis sobre el pasado que ya no se cumplió. La tabla de Reglas y claves indica que la consecuencia va en condicional pasado, que se forma con el auxiliar en condicional + participio. «Voir» se conjuga con avoir: «tu aurais vu».",
+   "explicacion_breve": "Si + pluscuamperfecto → condicional pasado (avoir en condicional + participio).",
+   "traduccion": "Si hubieras venido, habrías visto el espectáculo.",
+   "errores_previstos": [
+    {
+     "respuesta": "verrais",
+     "explicacion": "El condicional presente correspondería a una condición en imperfecto; con pluscuamperfecto hace falta el condicional pasado."
+    },
+    {
+     "respuesta": "avais vu",
+     "explicacion": "Es el pluscuamperfecto, el tiempo de la condición; la consecuencia va en condicional pasado: aurais vu."
+    },
+    {
+     "respuesta": "serais vu",
+     "explicacion": "«Voir» forma los tiempos compuestos con avoir: aurais vu."
+    }
+   ]
   },
   {
    "id": "e07",
@@ -174,7 +282,23 @@
    "respuestas": [
     "avais connu"
    ],
-   "explicacion": "Consecuencia en condicional pasado → condición en pluscuamperfecto."
+   "explicacion": "Aquí la consecuencia va primero: «je ne serais pas venu», en condicional pasado. La lista de Reglas y claves recuerda que el orden de las dos partes es libre. Según la tabla, al condicional pasado le corresponde una condición en pluscuamperfecto: «connaître» con avoir en imperfecto + participio, «avais connu».",
+   "explicacion_breve": "Consecuencia en condicional pasado → condición en pluscuamperfecto.",
+   "traduccion": "No habría venido si hubiera sabido la verdad.",
+   "errores_previstos": [
+    {
+     "respuesta": "aurais connu",
+     "explicacion": "Es el condicional pasado; detrás de si nunca va condicional."
+    },
+    {
+     "respuesta": "connaissais",
+     "explicacion": "El imperfecto iría con un condicional presente; con «serais venu» hace falta el pluscuamperfecto."
+    },
+    {
+     "respuesta": "eusse connu",
+     "explicacion": "Es el pluscuamperfecto de subjuntivo, calco de «hubiera conocido»; en francés tras si va el de indicativo."
+    }
+   ]
   },
   {
    "id": "e08",
@@ -189,8 +313,15 @@
    "respuestas": [
     "appelle"
    ],
-   "explicacion": "Con si + presente la consecuencia puede ir en imperativo.",
-   "origen": "tatoeba:13845860"
+   "explicacion": "La condición, «si tu as le temps», está en presente: condición posible. La tabla de Reglas y claves indica que la consecuencia puede ir en presente, futuro o imperativo. Aquí el guion y el «-moi» detrás del hueco indican un imperativo: «appelle-moi». En la segunda persona del singular de los verbos en -er, el imperativo no lleva -s, y «appeler» dobla la l.",
+   "origen": "tatoeba:13845860",
+   "explicacion_breve": "Con si + presente la consecuencia puede ir en imperativo.",
+   "traduccion": "Si tienes tiempo, llámame.",
+   "por_opcion": {
+    "appelle": "Correcta: imperativo de «appeler» con tu, posible tras si + presente.",
+    "appellerais": "Incorrecta: el condicional corresponde a si + imperfecto; además, el condicional no puede llevar el pronombre enclítico «-moi».",
+    "appelais": "Incorrecta: es el imperfecto, que no sirve como consecuencia ni admite «-moi» detrás."
+   }
   },
   {
    "id": "e09",
@@ -206,7 +337,15 @@
    "respuestas": [
     "seras"
    ],
-   "explicacion": "Condición posible en presente → futuro en la consecuencia."
+   "explicacion": "La condición, «si tu manges ça», está en presente: es una condición real, una advertencia. Según la tabla de Reglas y claves, la consecuencia va en presente, futuro o imperativo. El futuro de «être» con tu es «seras».",
+   "explicacion_breve": "Condición posible en presente → futuro en la consecuencia.",
+   "traduccion": "Si te comes eso, te pondrás enfermo.",
+   "por_opcion": {
+    "seras": "Correcta: si + presente → futuro en la consecuencia.",
+    "serais": "Incorrecta: el condicional pediría si + imperfecto (si tu mangeais ça, tu serais malade).",
+    "sois": "Incorrecta: es el subjuntivo; no tiene cabida en ninguna parte de la oración condicional.",
+    "aurais été": "Incorrecta: el condicional pasado corresponde a si + pluscuamperfecto (si tu avais mangé ça)."
+   }
   },
   {
    "id": "e10",
@@ -222,8 +361,16 @@
    "respuestas": [
     "étais"
    ],
-   "explicacion": "Si seulement + imperfecto expresa un deseo sobre el presente (ojalá fuera rico).",
-   "origen": "tatoeba:3754609"
+   "explicacion": "La lista de Reglas y claves explica que «si seulement» + imperfecto expresa un deseo sobre el presente, como «ojalá fuera». Por eso «être» va en imperfecto: «j'étais». El español usa el subjuntivo («fuera»), pero el francés mantiene el indicativo, como en cualquier si condicional.",
+   "origen": "tatoeba:3754609",
+   "explicacion_breve": "Si seulement + imperfecto expresa un deseo sobre el presente (ojalá fuera rico).",
+   "traduccion": "Ojalá fuera rico…",
+   "por_opcion": {
+    "étais": "Correcta: si seulement + imperfecto, deseo sobre el presente.",
+    "serais": "Incorrecta: es condicional, prohibido tras si.",
+    "sois": "Incorrecta: es el subjuntivo, calco de «fuera»; el francés no lo usa tras si.",
+    "suis": "Incorrecta: el presente no expresa un deseo irreal; «si seulement je suis riche» no tiene sentido."
+   }
   },
   {
    "id": "e11",
@@ -238,7 +385,14 @@
    "respuestas": [
     "viendra"
    ],
-   "explicacion": "Aquí si introduce una pregunta indirecta (no una condición), así que admite el futuro."
+   "explicacion": "La última explicación de Reglas y claves advierte de que no hay que confundir el si condicional con el si de la pregunta indirecta (equivalente a «si» en «no sé si»). Aquí «Je ne sais pas s'il…» es una pregunta indirecta, no una condición, y por eso sí admite el futuro: «viendra». La pista es el verbo «savoir» en negativo, que introduce una duda, y «demain».",
+   "explicacion_breve": "Aquí si introduce una pregunta indirecta (no una condición), así que admite el futuro.",
+   "traduccion": "No sé si vendrá mañana.",
+   "por_opcion": {
+    "viendra": "Correcta: futuro en una pregunta indirecta, permitido porque no es un si condicional.",
+    "vienne": "Incorrecta: es subjuntivo; tras «je ne sais pas si» se usa indicativo.",
+    "venait": "Incorrecta: el imperfecto no encaja con «demain»; solo cabría en estilo indirecto en pasado (je ne savais pas s'il venait)."
+   }
   },
   {
    "id": "e12",
@@ -248,7 +402,23 @@
    "respuestas": [
     "Si j'avais le temps, je le ferais."
    ],
-   "explicacion": "Detrás de si condicional nunca va condicional: imperfecto."
+   "explicacion": "Es el error más típico, primero de la lista de la ficha. La consecuencia, «je le ferais», está en condicional, y por tanto la condición debe ir en imperfecto: «si j'avais». La regla de oro de Reglas y claves es que tras el si condicional nunca va condicional, igual que en español correcto no se dice «si tendría».",
+   "explicacion_breve": "Detrás de si condicional nunca va condicional: imperfecto.",
+   "traduccion": "Si tuviera tiempo, lo haría.",
+   "errores_previstos": [
+    {
+     "respuesta": "Si j'aurais le temps, je le ferais.",
+     "explicacion": "Es la frase sin corregir: tras si nunca va condicional."
+    },
+    {
+     "respuesta": "Si j'avais le temps, je le ferai.",
+     "explicacion": "Se ha corregido la condición, pero la consecuencia queda en futuro; con si + imperfecto va el condicional «ferais»."
+    },
+    {
+     "respuesta": "Si j'aie le temps, je le ferais.",
+     "explicacion": "«Aie» es subjuntivo; tras si se usa el imperfecto de indicativo."
+    }
+   ]
   },
   {
    "id": "e13",
@@ -258,7 +428,23 @@
    "respuestas": [
     "S'il pleut, nous resterons à la maison."
    ],
-   "explicacion": "Si + il se contrae obligatoriamente en s'il."
+   "explicacion": "Los tiempos son correctos (si + presente, futuro en la consecuencia), pero la ortografía no. La lista de Reglas y claves indica que si se apostrofa obligatoriamente ante il e ils: «s'il pleut». Con otras vocales (si elle, si on) no hay elisión.",
+   "explicacion_breve": "Si + il se contrae obligatoriamente en s'il.",
+   "traduccion": "Si llueve, nos quedaremos en casa.",
+   "errores_previstos": [
+    {
+     "respuesta": "Si il pleut, nous resterons à la maison.",
+     "explicacion": "Es la frase sin corregir: ante «il» si se apostrofa obligatoriamente."
+    },
+    {
+     "respuesta": "S'il pleuvra, nous resterons à la maison.",
+     "explicacion": "Se ha corregido la elisión, pero se ha introducido un futuro tras si, que la regla prohíbe."
+    },
+    {
+     "respuesta": "Si'l pleut, nous resterons à la maison.",
+     "explicacion": "La elisión elimina la i de si, no la de il: s'il."
+    }
+   ]
   },
   {
    "id": "e14",
@@ -268,8 +454,24 @@
    "respuestas": [
     "Si j'avais le temps, je le ferais."
    ],
-   "explicacion": "Tipo 2: imperfecto en la condición y condicional en la consecuencia.",
-   "origen": "tatoeba:7698133"
+   "explicacion": "Hay que pasar del tipo 1 (condición posible) al tipo 2 de la tabla de Reglas y claves (hipótesis sobre el presente o el futuro). Para ello la condición pasa de presente a imperfecto (j'ai → j'avais) y la consecuencia de futuro a condicional presente (ferai → ferais). Fíjate en que «ferai» y «ferais» solo se distinguen por la -s final.",
+   "origen": "tatoeba:7698133",
+   "explicacion_breve": "Tipo 2: imperfecto en la condición y condicional en la consecuencia.",
+   "traduccion": "Si tuviera tiempo, lo haría.",
+   "errores_previstos": [
+    {
+     "respuesta": "Si j'avais le temps, je le ferai.",
+     "explicacion": "La consecuencia debe pasar a condicional: ferais, con -s."
+    },
+    {
+     "respuesta": "Si j'aurais le temps, je le ferais.",
+     "explicacion": "La condición no admite condicional: va en imperfecto, j'avais."
+    },
+    {
+     "respuesta": "Si j'ai le temps, je le ferais.",
+     "explicacion": "Se ha cambiado solo la consecuencia; la condición también debe pasar a imperfecto."
+    }
+   ]
   },
   {
    "id": "e15",
@@ -279,7 +481,23 @@
    "respuestas": [
     "Si je l'avais su, je l'aurais dit."
    ],
-   "explicacion": "Tipo 3: pluscuamperfecto + condicional pasado; le se apostrofa ante avais y aurais."
+   "explicacion": "Se pasa del tipo 2 al tipo 3 de la tabla de Reglas y claves (hipótesis sobre el pasado). La condición pasa de imperfecto a pluscuamperfecto (savais → avais su) y la consecuencia de condicional presente a condicional pasado (dirais → aurais dit). Como ahora el verbo que sigue a «le» empieza por vocal, el pronombre se apostrofa: «je l'avais su», «je l'aurais dit».",
+   "explicacion_breve": "Tipo 3: pluscuamperfecto + condicional pasado; le se apostrofa ante avais y aurais.",
+   "traduccion": "Si lo hubiera sabido, lo habría dicho.",
+   "errores_previstos": [
+    {
+     "respuesta": "Si je le avais su, je le aurais dit.",
+     "explicacion": "El pronombre «le» se apostrofa ante vocal: l'avais, l'aurais."
+    },
+    {
+     "respuesta": "Si je l'aurais su, je l'aurais dit.",
+     "explicacion": "La condición no admite condicional: el pluscuamperfecto es «avais su»."
+    },
+    {
+     "respuesta": "Si je l'avais su, je l'avais dit.",
+     "explicacion": "La consecuencia debe ir en condicional pasado: aurais dit, no avais dit."
+    }
+   ]
   },
   {
    "id": "e16",
@@ -296,10 +514,23 @@
    ],
    "respuestas": [
     "Tu peux rester ici si tu veux",
-    "Si tu veux tu peux rester ici"
+    "Si tu veux tu peux rester ici",
+    "Si tu veux rester ici tu peux"
    ],
-   "explicacion": "Consecuencia en presente + si + presente: «puedes quedarte si quieres».",
-   "origen": "tatoeba:1359000"
+   "explicacion": "Es una condición posible (si + presente) con la consecuencia en presente, como permite la tabla de Reglas y claves. La lista recuerda que el orden de las dos partes es libre, así que se aceptan «Tu peux rester ici si tu veux» y «Si tu veux tu peux rester ici». También vale «Si tu veux rester ici tu peux» («si quieres quedarte aquí, puedes»), en la que el infinitivo pasa a depender de veux y peux queda solo al final. El adverbio «ici» va siempre detrás de «rester».",
+   "origen": "tatoeba:1359000",
+   "explicacion_breve": "Consecuencia en presente + si + presente: «puedes quedarte si quieres».",
+   "traduccion": "Puedes quedarte aquí si quieres.",
+   "errores_previstos": [
+    {
+     "respuesta": "Tu peux ici rester si tu veux",
+     "explicacion": "El adverbio de lugar va detrás del infinitivo: rester ici."
+    },
+    {
+     "respuesta": "Tu veux si tu peux rester ici",
+     "explicacion": "Cambia el sentido (quieres, si puedes quedarte) y separa el si de su verbo; la condición es «si tu veux»."
+    }
+   ]
   }
  ],
  "fuente": {
@@ -310,5 +541,11 @@
   "otras": [
    "Frases de Tatoeba (CC BY 2.0 FR)"
   ]
+ },
+ "descripcion_larga_es": "Las oraciones condicionales con si siguen en francés tres esquemas fijos: condición posible (presente), hipótesis sobre el presente o el futuro (imperfecto + condicional) e hipótesis sobre el pasado (pluscuamperfecto + condicional pasado). La regla de oro es que tras el si condicional nunca va futuro, condicional ni subjuntivo. Al hispanohablante le cuesta porque el español usa ahí el subjuntivo (si tuviera, si hubiera sabido).",
+ "contexto": {
+  "que_es": "Son las oraciones que expresan una condición y su consecuencia. El tiempo de la condición (presente, imperfecto o pluscuamperfecto de indicativo) determina el de la consecuencia (presente, futuro o imperativo; condicional presente; condicional pasado). El francés no usa el subjuntivo en estas oraciones.",
+  "por_que_importa": "Las hipótesis son imprescindibles para argumentar, proponer alternativas y valorar decisiones, algo constante en un examen oral o en un ensayo («si l'État réduisait les impôts, la consommation augmenterait»). El error «si j'aurais» es de los más estigmatizados en francés, igual que «si tendría» en español, y en un examen se penaliza con dureza.",
+  "cuando_se_usa": "Siempre que se plantea una condición: planes que dependen de algo, consejos, deseos («si seulement…»), propuestas («et si on…») o lamentos sobre el pasado. La señal es la conjunción si con valor condicional; hay que distinguirla del si de la pregunta indirecta («no sé si vendrá»), que sí admite futuro. El hispanohablante tiende a poner subjuntivo o condicional detrás de si."
  }
 }

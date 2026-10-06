@@ -196,7 +196,29 @@
    "respuestas": [
     "à la"
    ],
-   "explicacion": "Gare es femenino: à la gare."
+   "explicacion": "Se aplica la regla de las contracciones de à con el artículo que recuerda la lista final de la ficha: à + le se contrae en au, pero à + la no se contrae. La pista está en el sustantivo: gare es femenino (la gare). Por eso queda à la gare, igual que en español «a la estación». Fíjate en que gare es la estación de tren, no la parada del autobús.",
+   "explicacion_breve": "Gare es femenino: à la gare.",
+   "traduccion": "Voy a la estación.",
+   "errores_previstos": [
+    {
+     "respuesta": "au",
+     "explicacion": "Au es la contracción de à + le y solo vale con sustantivos masculinos que empiezan por consonante. Gare es femenino, así que no hay contracción: à la gare."
+    },
+    {
+     "respuesta": "à le",
+     "explicacion": "À le no existe en francés: cuando el sustantivo es masculino se contrae obligatoriamente en au. Y en este caso, además, gare es femenino, por lo que lo correcto es à la."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "aller à",
+     "significado": "ir a"
+    },
+    {
+     "palabra": "la gare",
+     "significado": "la estación de tren"
+    }
+   ]
   },
   {
    "id": "e02",
@@ -206,7 +228,29 @@
    "respuestas": [
     "au"
    ],
-   "explicacion": "À + le = au."
+   "explicacion": "Es la regla de contracción de la ficha: à + le = au. Cinéma es masculino (le cinéma) y empieza por consonante, así que la preposición y el artículo se funden obligatoriamente en au, como el español «a + el = al». Nous allons au cinéma.",
+   "explicacion_breve": "À + le = au.",
+   "traduccion": "Vamos al cine.",
+   "errores_previstos": [
+    {
+     "respuesta": "à le",
+     "explicacion": "Es el calco de la secuencia sin contraer. En francés à + le se contrae siempre en au delante de consonante; «à le cinéma» es incorrecto."
+    },
+    {
+     "respuesta": "à la",
+     "explicacion": "Cinéma es masculino en francés (le cinéma), por eso no vale el artículo femenino."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "le cinéma",
+     "significado": "el cine"
+    },
+    {
+     "palabra": "nous allons",
+     "significado": "vamos (verbo aller)"
+    }
+   ]
   },
   {
    "id": "e03",
@@ -216,7 +260,33 @@
    "respuestas": [
     "de la"
    ],
-   "explicacion": "Mairie es femenino: en face de la mairie."
+   "explicacion": "La locución en face de (enfrente de) termina en de, y de se contrae con le (du) pero no con la. La pista es mairie, que es femenino: la mairie. Por tanto queda en face de la mairie, sin contracción. Si el lugar fuera masculino diríamos en face du cinéma, como recuerda la ficha.",
+   "explicacion_breve": "Mairie es femenino: en face de la mairie.",
+   "traduccion": "El banco está enfrente del ayuntamiento.",
+   "errores_previstos": [
+    {
+     "respuesta": "du",
+     "explicacion": "Du es de + le y solo sirve delante de un masculino. Mairie es femenino, así que se mantiene de la."
+    },
+    {
+     "respuesta": "de le",
+     "explicacion": "De le no existe; delante de masculino se contrae en du. Pero aquí mairie es femenino y lo correcto es de la."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "en face de",
+     "significado": "enfrente de"
+    },
+    {
+     "palabra": "la mairie",
+     "significado": "el ayuntamiento"
+    },
+    {
+     "palabra": "la banque",
+     "significado": "el banco (entidad)"
+    }
+   ]
   },
   {
    "id": "e04",
@@ -226,7 +296,29 @@
    "respuestas": [
     "droit"
    ],
-   "explicacion": "Tout droit = todo recto."
+   "explicacion": "La expresión fija tout droit significa «todo recto», tal como aparece en la tabla de expresiones y en la lista de la ficha. Droit aquí funciona como adverbio y es invariable: no lleva -e aunque se parezca a droite. La pista es el verbo continuez, típico de las indicaciones de camino.",
+   "explicacion_breve": "Tout droit = todo recto.",
+   "traduccion": "Siga todo recto.",
+   "errores_previstos": [
+    {
+     "respuesta": "droite",
+     "explicacion": "Droite (con -e) significa «derecha», como en à droite. «Todo recto» es tout droit, sin -e: la ficha lo señala expresamente."
+    },
+    {
+     "respuesta": "recto",
+     "explicacion": "Es una palabra española; en francés «recto» designa solo el anverso de una hoja. La expresión correcta es tout droit."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "tout droit",
+     "significado": "todo recto"
+    },
+    {
+     "palabra": "continuer",
+     "significado": "seguir, continuar"
+    }
+   ]
   },
   {
    "id": "e05",
@@ -241,7 +333,24 @@
    "respuestas": [
     "à"
    ],
-   "explicacion": "A pie = à pied («en pied» no existe)."
+   "explicacion": "La ficha da la regla: para los medios de transporte cerrados se usa en (en train, en bus) y para aquellos en los que vas encima o por tus propios medios se usa à (à pied, à vélo, à moto). Ir andando es à pied, una expresión fija que coincide con el español «a pie». Je vais à l'université à pied.",
+   "explicacion_breve": "A pie = à pied («en pied» no existe).",
+   "traduccion": "Voy a la universidad a pie.",
+   "por_opcion": {
+    "à": "Correcta: «a pie» se dice à pied, igual que à vélo o à cheval, porque no vas dentro de un vehículo.",
+    "en": "Incorrecta aquí: en se usa con vehículos cerrados (en voiture, en métro). «En pied» no existe en francés.",
+    "par": "Incorrecta: par indica el camino por donde se pasa (passer par Lyon) o el agente; no sirve para el medio de transporte en esta expresión."
+   },
+   "glosario": [
+    {
+     "palabra": "à pied",
+     "significado": "a pie, andando"
+    },
+    {
+     "palabra": "l'université",
+     "significado": "la universidad"
+    }
+   ]
   },
   {
    "id": "e06",
@@ -256,7 +365,24 @@
    "respuestas": [
     "en"
    ],
-   "explicacion": "Transporte cerrado: en train."
+   "explicacion": "Se aplica la regla de los transportes de la ficha: con los vehículos cerrados, en los que vas dentro, se usa en. El tren es un transporte cerrado, por eso se dice en train, igual que en bus, en métro o en voiture. La pista es el sustantivo train, sin artículo detrás del hueco.",
+   "explicacion_breve": "Transporte cerrado: en train.",
+   "traduccion": "Ella se va a Lyon en tren.",
+   "por_opcion": {
+    "en": "Correcta: en train, porque el tren es un medio de transporte cerrado; coincide con el español «en tren».",
+    "à": "Incorrecta: à se reserva para los medios en los que vas encima (à vélo, à moto) o para à pied.",
+    "dans": "Incorrecta aquí: dans le train significa «dentro del tren» (je suis dans le train), pero para decir el medio con el que viajas se usa en train, sin artículo."
+   },
+   "glosario": [
+    {
+     "palabra": "partir à",
+     "significado": "irse a, salir hacia"
+    },
+    {
+     "palabra": "le train",
+     "significado": "el tren"
+    }
+   ]
   },
   {
    "id": "e07",
@@ -271,7 +397,32 @@
    "respuestas": [
     "bibliothèque"
    ],
-   "explicacion": "Los libros se toman prestados en la biblioteca: bibliothèque."
+   "explicacion": "Es una cuestión de léxico y de falsos amigos que la ficha recoge en sus errores típicos: bibliothèque es la biblioteca, el lugar donde se prestan libros, mientras que librairie es la librería, donde se compran. La pista es el verbo emprunter, «tomar prestado», que solo tiene sentido en una biblioteca.",
+   "explicacion_breve": "Los libros se toman prestados en la biblioteca: bibliothèque.",
+   "traduccion": "Para tomar prestado un libro, voy a la biblioteca.",
+   "por_opcion": {
+    "bibliothèque": "Correcta: la bibliothèque es la biblioteca, el sitio donde se toman prestados libros.",
+    "librairie": "Incorrecta: es un falso amigo; une librairie es una librería, una tienda donde se compran libros, no se prestan.",
+    "boulangerie": "Incorrecta: une boulangerie es una panadería; ahí se compra pan, no libros."
+   },
+   "glosario": [
+    {
+     "palabra": "emprunter",
+     "significado": "tomar prestado"
+    },
+    {
+     "palabra": "la bibliothèque",
+     "significado": "la biblioteca"
+    },
+    {
+     "palabra": "la librairie",
+     "significado": "la librería (tienda)"
+    },
+    {
+     "palabra": "un livre",
+     "significado": "un libro"
+    }
+   ]
   },
   {
    "id": "e08",
@@ -286,7 +437,32 @@
    "respuestas": [
     "arrêt"
    ],
-   "explicacion": "Parada de autobús: l'arrêt de bus."
+   "explicacion": "La ficha distingue tres palabras que en español se traducen a veces igual: l'arrêt (de bus) es la parada del autobús o del tranvía, la gare es la estación de tren o de autobuses de largo recorrido y la station es la estación de metro. La pista está en le bus s'arrête y en el artículo elidido l', que exige una palabra que empiece por vocal: arrêt.",
+   "explicacion_breve": "Parada de autobús: l'arrêt de bus.",
+   "traduccion": "El autobús para en la parada delante de correos.",
+   "por_opcion": {
+    "arrêt": "Correcta: l'arrêt de bus es la parada del autobús, y además encaja con el artículo elidido l'.",
+    "gare": "Incorrecta: la gare es la estación de tren (o la gare routière, estación de autobuses); además pediría la, no l'.",
+    "station": "Incorrecta: la station se usa sobre todo para el metro (station de métro); tampoco encaja con l'."
+   },
+   "glosario": [
+    {
+     "palabra": "s'arrêter",
+     "significado": "pararse, detenerse"
+    },
+    {
+     "palabra": "l'arrêt de bus",
+     "significado": "la parada de autobús"
+    },
+    {
+     "palabra": "devant",
+     "significado": "delante de"
+    },
+    {
+     "palabra": "la poste",
+     "significado": "correos, la oficina de correos"
+    }
+   ]
   },
   {
    "id": "e09",
@@ -297,7 +473,37 @@
     "Traversez",
     "traversez"
    ],
-   "explicacion": "Imperativo de vous: traversez."
+   "explicacion": "Según la ficha, para indicar el camino se usa el imperativo de vous. El imperativo de vous coincide con el presente sin el pronombre: vous traversez da traversez. Al ir a principio de frase se escribe con mayúscula, aunque el corrector acepta también la minúscula. Traverser significa «cruzar» una calle, una plaza o un puente.",
+   "explicacion_breve": "Imperativo de vous: traversez.",
+   "traduccion": "Cruce la plaza y es allí.",
+   "errores_previstos": [
+    {
+     "respuesta": "Traverse",
+     "explicacion": "Traverse es el imperativo de tu, informal. El enunciado pide la forma de vous, la habitual al dar indicaciones a un desconocido: traversez."
+    },
+    {
+     "respuesta": "Vous traversez",
+     "explicacion": "Con el pronombre delante es el presente, no el imperativo. El imperativo francés se forma sin sujeto: traversez."
+    },
+    {
+     "respuesta": "Traverser",
+     "explicacion": "Es el infinitivo. En las indicaciones escritas a veces aparece, pero aquí se pide el imperativo de vous: traversez."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "traverser",
+     "significado": "cruzar, atravesar"
+    },
+    {
+     "palabra": "la place",
+     "significado": "la plaza"
+    },
+    {
+     "palabra": "c'est là",
+     "significado": "es allí, ahí está"
+    }
+   ]
   },
   {
    "id": "e10",
@@ -308,7 +514,37 @@
     "Prenez",
     "prenez"
    ],
-   "explicacion": "Imperativo de prendre con vous: prenez."
+   "explicacion": "Se usa el imperativo de vous para dar indicaciones, como explica la ficha. Prendre es irregular: vous prenez, y por tanto el imperativo es prenez, con una sola n. La expresión prendre la deuxième rue (tomar la segunda calle) aparece literalmente en la tabla de expresiones.",
+   "explicacion_breve": "Imperativo de prendre con vous: prenez.",
+   "traduccion": "Tome la segunda calle a la izquierda.",
+   "errores_previstos": [
+    {
+     "respuesta": "Prendez",
+     "explicacion": "Es una forma inventada por analogía con el infinitivo. Prendre es irregular: vous prenez, por tanto prenez."
+    },
+    {
+     "respuesta": "Prennez",
+     "explicacion": "Error de ortografía: la doble n aparece en ils prennent, pero la forma de vous lleva una sola n: prenez."
+    },
+    {
+     "respuesta": "Prends",
+     "explicacion": "Es el imperativo de tu. Para dar indicaciones a un desconocido se usa vous: prenez."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "prendre",
+     "significado": "tomar, coger"
+    },
+    {
+     "palabra": "la rue",
+     "significado": "la calle"
+    },
+    {
+     "palabra": "à gauche",
+     "significado": "a la izquierda"
+    }
+   ]
   },
   {
    "id": "e11",
@@ -318,7 +554,33 @@
    "respuestas": [
     "Au carrefour, tournez à gauche."
    ],
-   "explicacion": "À gauche, sin artículo."
+   "explicacion": "La ficha lo marca entre los errores típicos: à droite y à gauche van sin artículo. El hispanohablante calca «a la izquierda» y escribe à la gauche, pero en francés la expresión es simplemente à gauche. Por eso se suprime la: tournez à gauche.",
+   "explicacion_breve": "À gauche, sin artículo.",
+   "traduccion": "En el cruce, gire a la izquierda.",
+   "errores_previstos": [
+    {
+     "respuesta": "Au carrefour, tournez à la gauche.",
+     "explicacion": "Es la frase sin corregir: sigue llevando el artículo la, que sobra en la expresión à gauche."
+    },
+    {
+     "respuesta": "Au carrefour, tournez a gauche.",
+     "explicacion": "Se ha quitado el artículo, pero la preposición francesa es à, con acento grave; a sin acento es el verbo avoir (il a)."
+    },
+    {
+     "respuesta": "Au carrefour, tournez en gauche.",
+     "explicacion": "La preposición que acompaña a gauche y droite es à, no en: à gauche."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "le carrefour",
+     "significado": "el cruce"
+    },
+    {
+     "palabra": "tourner",
+     "significado": "girar"
+    }
+   ]
   },
   {
    "id": "e12",
@@ -328,7 +590,33 @@
    "respuestas": [
     "Le restaurant est à côté du parc."
    ],
-   "explicacion": "De + le = du."
+   "explicacion": "La locución à côté de termina en de, y de + le se contrae obligatoriamente en du, regla que recuerda la ficha. Parc es masculino (le parc), por lo que «de le parc» debe convertirse en du parc, igual que en español «de + el = del».",
+   "explicacion_breve": "De + le = du.",
+   "traduccion": "El restaurante está al lado del parque.",
+   "errores_previstos": [
+    {
+     "respuesta": "Le restaurant est à côté de le parc.",
+     "explicacion": "Es la frase sin corregir: de le no existe en francés y se contrae en du."
+    },
+    {
+     "respuesta": "Le restaurant est à côté de la parc.",
+     "explicacion": "Parc es masculino; cambiar el artículo a femenino no arregla nada. Lo correcto es du parc."
+    },
+    {
+     "respuesta": "Le restaurant est à côté le parc.",
+     "explicacion": "La locución es à côté de; no se puede eliminar la preposición. Con le se contrae en du."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "à côté de",
+     "significado": "al lado de"
+    },
+    {
+     "palabra": "le parc",
+     "significado": "el parque"
+    }
+   ]
   },
   {
    "id": "e13",
@@ -347,7 +635,33 @@
    "respuestas": [
     "Est-ce qu'il y a une pharmacie près d'ici"
    ],
-   "explicacion": "Est-ce qu'il y a + lugar + près d'ici."
+   "explicacion": "Es la fórmula de la tabla de expresiones Est-ce qu'il y a… près d'ici ? Est-ce que convierte cualquier afirmación en pregunta sin invertir el orden: delante se pone est-ce qu', después la frase normal il y a une pharmacie, y al final la localización près d'ici. Il y a equivale al español «hay».",
+   "explicacion_breve": "Est-ce qu'il y a + lugar + près d'ici.",
+   "traduccion": "¿Hay una farmacia cerca de aquí?",
+   "errores_previstos": [
+    {
+     "respuesta": "Est-ce qu'il y a près d'ici une pharmacie",
+     "explicacion": "Calca el orden español «¿hay cerca de aquí una farmacia?». En francés lo natural es poner el objeto justo detrás de il y a y la localización al final."
+    },
+    {
+     "respuesta": "Est-ce qu'il a y une pharmacie près d'ici",
+     "explicacion": "La expresión es il y a, con el pronombre y delante del verbo a; no se puede invertir."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "est-ce qu'il y a",
+     "significado": "¿hay…?"
+    },
+    {
+     "palabra": "près d'ici",
+     "significado": "cerca de aquí"
+    },
+    {
+     "palabra": "une pharmacie",
+     "significado": "una farmacia"
+    }
+   ]
   },
   {
    "id": "e14",
@@ -364,10 +678,42 @@
     "Tournez à droite au feu",
     "Au feu tournez à droite"
    ],
-   "explicacion": "Imperativo + dirección + lugar."
+   "explicacion": "Las indicaciones siguen el esquema imperativo + dirección + lugar: tournez à droite au feu. También vale anteponer el lugar, au feu tournez à droite, porque el complemento de lugar puede ir al principio como en español; ambas respuestas son correctas. Fíjate en au feu: à + le feu se contrae, y feu aquí es el semáforo, no el fuego.",
+   "explicacion_breve": "Imperativo + dirección + lugar.",
+   "traduccion": "Gire a la derecha en el semáforo.",
+   "errores_previstos": [
+    {
+     "respuesta": "Tournez au feu droite à",
+     "explicacion": "Separa la preposición à de droite; la expresión à droite es un bloque que no se puede partir."
+    },
+    {
+     "respuesta": "À droite tournez au feu",
+     "explicacion": "En una indicación el verbo en imperativo debe preceder a la dirección; anteponer à droite al imperativo suena muy forzado y no es una de las respuestas posibles."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "le feu",
+     "significado": "el semáforo (también «el fuego»)"
+    },
+    {
+     "palabra": "à droite",
+     "significado": "a la derecha"
+    },
+    {
+     "palabra": "tourner",
+     "significado": "girar"
+    }
+   ]
   }
  ],
  "fuente": {
   "nombre": "propia"
+ },
+ "descripcion_larga_es": "Esta ficha reúne el vocabulario básico para moverse por una ciudad francesa: los lugares (gare, mairie, bibliothèque), los transportes y las fórmulas para preguntar por un sitio y explicar el camino. Es de lo primero que se necesita al viajar. Al hispanohablante le cuestan las contracciones au y du, el à droite sin artículo y falsos amigos como librairie, que no es biblioteca.",
+ "contexto": {
+  "que_es": "Es el léxico de la ciudad y de la orientación: nombres de lugares públicos, medios de transporte, preposiciones y locuciones de lugar (en face de, à côté de, au coin de) y los verbos que se usan para indicar un recorrido (tourner, prendre, traverser, continuer). Incluye también las fórmulas corteses para pedir una dirección.",
+  "por_que_importa": "Pedir y entender indicaciones es una de las situaciones más frecuentes de un viaje y una tarea clásica de examen oral de nivel A1-A2. Un error de preposición o de contracción no suele impedir que te entiendan, pero suena muy extranjero; en cambio, confundir librairie y bibliothèque o gare y arrêt sí puede mandarte a un sitio equivocado.",
+  "cuando_se_usa": "Se usa al preguntar por la calle (Excusez-moi, où est… ?), al dar indicaciones con el imperativo de vous (tournez, prenez, traversez) y al describir dónde está algo. Las señales son los verbos de movimiento y las preposiciones de lugar. El hispanohablante tiende a calcar «a la derecha» (à la droite) o «a le museo», cuando el francés dice à droite y au musée."
  }
 }

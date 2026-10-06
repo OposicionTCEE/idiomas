@@ -6,52 +6,495 @@
  "nivel": "A2",
  "resumen": "Depuis expresa algo que empezó en el pasado y sigue ahora (desde, desde hace) y va con presente; il y a sitúa un hecho acabado en el pasado (hace) y va con passé composé; pendant mide la duración (durante) y pour la duración prevista con verbos como partir o aller.",
  "explicacion": [
-  {"tipo": "tabla", "cabecera": ["Expresión", "Español", "Tiempo verbal", "Ejemplo"], "filas": [
-   ["depuis + duración", "desde hace", "presente (acción que continúa)", "J'habite ici depuis trois ans."],
-   ["depuis + fecha o momento", "desde", "presente", "Il pleut depuis lundi."],
-   ["il y a + duración", "hace", "passé composé (hecho puntual)", "Je suis arrivé il y a trois ans."],
-   ["pendant + duración", "durante", "cualquier tiempo; acción con principio y fin", "J'ai attendu pendant une heure."],
-   ["pour + duración", "para, por (duración prevista)", "con partir, aller, venir", "Je pars à Rome pour une semaine."]
-  ]},
-  {"tipo": "texto", "texto": "Error típico: el español «llevo tres años aquí» o «vivo aquí desde hace tres años» se traduce con presente + depuis (J'habite ici depuis trois ans), nunca con passé composé (j'ai habité ici depuis…). Y «hace tres años» con un hecho acabado es il y a: Je suis arrivé il y a trois ans."},
-  {"tipo": "lista", "items": [
-   "Preguntas: Depuis quand… ? (¿desde cuándo?) y Depuis combien de temps… ? (¿cuánto tiempo hace que…?): Depuis combien de temps apprends-tu le français ?",
-   "Il y a… que, ça fait… que y voilà… que + presente equivalen a depuis: Ça fait deux heures que j'attends = J'attends depuis deux heures.",
-   "En negativa, depuis puede ir con passé composé: Je n'ai pas mangé depuis hier (no he comido desde ayer).",
-   "En pasado, depuis va con imperfecto: Il pleuvait depuis des jours (llovía desde hacía días).",
-   "Depuis solo, al principio y con coma, significa desde entonces."
-  ]}
+  {
+   "tipo": "tabla",
+   "cabecera": [
+    "Expresión",
+    "Español",
+    "Tiempo verbal",
+    "Ejemplo"
+   ],
+   "filas": [
+    [
+     "depuis + duración",
+     "desde hace",
+     "presente (acción que continúa)",
+     "J'habite ici depuis trois ans."
+    ],
+    [
+     "depuis + fecha o momento",
+     "desde",
+     "presente",
+     "Il pleut depuis lundi."
+    ],
+    [
+     "il y a + duración",
+     "hace",
+     "passé composé (hecho puntual)",
+     "Je suis arrivé il y a trois ans."
+    ],
+    [
+     "pendant + duración",
+     "durante",
+     "cualquier tiempo; acción con principio y fin",
+     "J'ai attendu pendant une heure."
+    ],
+    [
+     "pour + duración",
+     "para, por (duración prevista)",
+     "con partir, aller, venir",
+     "Je pars à Rome pour une semaine."
+    ]
+   ]
+  },
+  {
+   "tipo": "texto",
+   "texto": "Error típico: el español «llevo tres años aquí» o «vivo aquí desde hace tres años» se traduce con presente + depuis (J'habite ici depuis trois ans), nunca con passé composé (j'ai habité ici depuis…). Y «hace tres años» con un hecho acabado es il y a: Je suis arrivé il y a trois ans."
+  },
+  {
+   "tipo": "lista",
+   "items": [
+    "Preguntas: Depuis quand… ? (¿desde cuándo?) y Depuis combien de temps… ? (¿cuánto tiempo hace que…?): Depuis combien de temps apprends-tu le français ?",
+    "Il y a… que, ça fait… que y voilà… que + presente equivalen a depuis: Ça fait deux heures que j'attends = J'attends depuis deux heures.",
+    "En negativa, depuis puede ir con passé composé: Je n'ai pas mangé depuis hier (no he comido desde ayer).",
+    "En pasado, depuis va con imperfecto: Il pleuvait depuis des jours (llovía desde hacía días).",
+    "Depuis solo, al principio y con coma, significa desde entonces."
+   ]
+  }
  ],
  "ejemplos": [
-  {"frase": "Je le connais depuis un an.", "traduccion": "Lo conozco desde hace un año."},
-  {"frase": "Nous vivons ici depuis janvier.", "traduccion": "Vivimos aquí desde enero."},
-  {"frase": "Je me suis marié il y a huit ans.", "traduccion": "Me casé hace ocho años."},
-  {"frase": "Il a parlé pendant une heure.", "traduccion": "Habló durante una hora."},
-  {"frase": "Je n'ai pas mangé depuis hier.", "traduccion": "No he comido desde ayer."},
-  {"frase": "À Noël, nous allons chez mes parents pour deux semaines.", "traduccion": "En Navidad vamos a casa de mis padres dos semanas."}
+  {
+   "frase": "Je le connais depuis un an.",
+   "traduccion": "Lo conozco desde hace un año."
+  },
+  {
+   "frase": "Nous vivons ici depuis janvier.",
+   "traduccion": "Vivimos aquí desde enero."
+  },
+  {
+   "frase": "Je me suis marié il y a huit ans.",
+   "traduccion": "Me casé hace ocho años."
+  },
+  {
+   "frase": "Il a parlé pendant une heure.",
+   "traduccion": "Habló durante una hora."
+  },
+  {
+   "frase": "Je n'ai pas mangé depuis hier.",
+   "traduccion": "No he comido desde ayer."
+  },
+  {
+   "frase": "À Noël, nous allons chez mes parents pour deux semaines.",
+   "traduccion": "En Navidad vamos a casa de mis padres dos semanas."
+  }
  ],
  "errores_hispanohablantes": [
-  {"mal": "J'habite à Madrid il y a trois ans.", "bien": "J'habite à Madrid depuis trois ans.", "nota": "Para una situación que continúa, «desde hace» es depuis, no il y a."},
-  {"mal": "J'ai travaillé ici depuis deux ans.", "bien": "Je travaille ici depuis deux ans.", "nota": "Con depuis y una acción que sigue, el verbo va en presente."},
-  {"mal": "J'ai attendu le bus depuis une heure.", "bien": "J'ai attendu le bus pendant une heure.", "nota": "Si la acción ya terminó, su duración se expresa con pendant."}
+  {
+   "mal": "J'habite à Madrid il y a trois ans.",
+   "bien": "J'habite à Madrid depuis trois ans.",
+   "nota": "Para una situación que continúa, «desde hace» es depuis, no il y a."
+  },
+  {
+   "mal": "J'ai travaillé ici depuis deux ans.",
+   "bien": "Je travaille ici depuis deux ans.",
+   "nota": "Con depuis y una acción que sigue, el verbo va en presente."
+  },
+  {
+   "mal": "J'ai attendu le bus depuis une heure.",
+   "bien": "J'ai attendu le bus pendant une heure.",
+   "nota": "Si la acción ya terminó, su duración se expresa con pendant."
+  }
  ],
  "ejercicios": [
-  {"id": "e01", "tipo": "hueco", "enunciado": "Completa con depuis, il y a, pendant o pour.", "frase": "Je suis ici ___ samedi.", "respuestas": ["depuis"], "explicacion": "Situación que continúa desde un momento: depuis + presente.", "origen": "tatoeba:865792"},
-  {"id": "e02", "tipo": "hueco", "enunciado": "Completa con depuis, il y a, pendant o pour.", "frase": "Je suis né ___ 20 ans.", "respuestas": ["il y a"], "explicacion": "Hecho puntual del pasado: il y a (hace).", "origen": "tatoeba:772455"},
-  {"id": "e03", "tipo": "hueco", "enunciado": "Completa con depuis, il y a, pendant o pour.", "frase": "Il a plu sans arrêt ___ une semaine.", "respuestas": ["pendant"], "explicacion": "Duración de una acción acabada: pendant.", "origen": "tatoeba:3655597"},
-  {"id": "e04", "tipo": "hueco", "enunciado": "Completa con depuis, il y a, pendant o pour.", "frase": "Je le connais ___ un an.", "respuestas": ["depuis"], "explicacion": "Lo conozco y lo sigo conociendo: depuis + presente.", "origen": "tatoeba:1082280"},
-  {"id": "e05", "tipo": "hueco", "enunciado": "Completa con depuis, il y a, pendant o pour.", "frase": "Il est parti ___ 10 minutes.", "respuestas": ["il y a", "depuis"], "explicacion": "Il y a sitúa el momento en que se fue (hace diez minutos); depuis también es correcto si se piensa en el estado resultante (lleva diez minutos fuera).", "origen": "tatoeba:130582"},
-  {"id": "e06", "tipo": "eleccion", "enunciado": "Elige la opción correcta.", "frase": "Taro est mort ___ deux ans.", "opciones": ["il y a", "pour", "pendant"], "respuestas": ["il y a"], "explicacion": "Hecho puntual en passé composé: il y a.", "origen": "tatoeba:129126"},
-  {"id": "e07", "tipo": "eleccion", "enunciado": "Elige la opción correcta.", "frase": "Hier soir, j'ai étudié ___ une heure, puis je suis sorti.", "opciones": ["pendant", "depuis", "pour"], "respuestas": ["pendant"], "explicacion": "Duración de una acción ya terminada: pendant."},
-  {"id": "e08", "tipo": "eleccion", "enunciado": "Elige la opción correcta.", "frase": "Je pars en Italie ___ deux semaines.", "opciones": ["pour", "depuis", "il y a"], "respuestas": ["pour"], "explicacion": "Duración prevista con partir: pour."},
-  {"id": "e09", "tipo": "eleccion", "enunciado": "Elige la opción correcta.", "frase": "___ combien de temps apprends-tu le français ?", "opciones": ["Depuis", "Il y a", "Pour"], "respuestas": ["Depuis"], "explicacion": "¿Cuánto tiempo hace que…? con presente: depuis combien de temps."},
-  {"id": "e10", "tipo": "hueco", "enunciado": "Completa con depuis, il y a, pendant o pour.", "frase": "Je n'ai pas mangé ___ hier.", "respuestas": ["depuis"], "explicacion": "En negativa, depuis puede ir con passé composé: desde ayer.", "origen": "tatoeba:12918784"},
-  {"id": "e11", "tipo": "corregir", "enunciado": "Corrige el error.", "frase": "J'habite à Madrid il y a trois ans.", "respuestas": ["J'habite à Madrid depuis trois ans."], "explicacion": "Situación que continúa: depuis."},
-  {"id": "e12", "tipo": "corregir", "enunciado": "Corrige el error.", "frase": "J'ai attendu le bus depuis une heure.", "respuestas": ["J'ai attendu le bus pendant une heure."], "explicacion": "Acción acabada en passé composé: pendant."},
-  {"id": "e13", "tipo": "corregir", "enunciado": "Corrige el error.", "frase": "Nous vivons ici pendant janvier.", "respuestas": ["Nous vivons ici depuis janvier."], "explicacion": "Desde un momento y la situación continúa: depuis.", "origen": "tatoeba:4684940"},
-  {"id": "e14", "tipo": "transformar", "enunciado": "Reformula la frase con depuis.", "frase": "Ça fait deux heures que j'attends.", "respuestas": ["J'attends depuis deux heures."], "explicacion": "Ça fait… que + presente = presente + depuis."},
-  {"id": "e15", "tipo": "transformar", "enunciado": "Reformula la frase con il y a… que.", "frase": "J'étudie le français depuis cinq ans.", "respuestas": ["Il y a cinq ans que j'étudie le français."], "explicacion": "Il y a + duración + que + presente equivale a depuis."},
-  {"id": "e16", "tipo": "ordenar", "enunciado": "Ordena las palabras (llevo horas esperando).", "palabras": ["depuis", "heures", "J'attends", "des"], "respuestas": ["J'attends depuis des heures"], "explicacion": "Presente + depuis para una acción que continúa.", "origen": "tatoeba:4169"}
+  {
+   "id": "e01",
+   "tipo": "hueco",
+   "enunciado": "Completa con depuis, il y a, pendant o pour.",
+   "frase": "Je suis ici ___ samedi.",
+   "respuestas": [
+    "depuis"
+   ],
+   "explicacion": "Se aplica la regla de la tabla «depuis + fecha o momento»: con presente, depuis indica desde qué momento dura una situación que todavía continúa. La pista está en dos elementos de la frase: el verbo está en presente (je suis) y el complemento es un momento concreto (samedi), no una cantidad de tiempo. La persona llegó el sábado y sigue aquí ahora, así que «je suis ici depuis samedi» corresponde exactamente a «estoy aquí desde el sábado».",
+   "origen": "tatoeba:865792",
+   "explicacion_breve": "Situación que continúa desde un momento: depuis + presente.",
+   "traduccion": "Estoy aquí desde el sábado.",
+   "errores_previstos": [
+    {
+     "respuesta": "il y a",
+     "explicacion": "Il y a significa «hace» y va con una cantidad de tiempo y un hecho terminado; «il y a samedi» no tiene sentido en francés y, además, la situación de estar aquí continúa."
+    },
+    {
+     "respuesta": "pendant",
+     "explicacion": "Pendant mide una duración (pendant deux jours), no señala un punto de partida; delante de un día de la semana significaría «durante el sábado», que contradice el presente."
+    }
+   ]
+  },
+  {
+   "id": "e02",
+   "tipo": "hueco",
+   "enunciado": "Completa con depuis, il y a, pendant o pour.",
+   "frase": "Je suis né ___ 20 ans.",
+   "respuestas": [
+    "il y a"
+   ],
+   "explicacion": "Es la regla «il y a + duración = hace», con passé composé para un hecho puntual del pasado. Nacer es un acontecimiento que ocurre una sola vez y se termina; el verbo está en passé composé (je suis né) y el complemento es una cantidad de tiempo (20 ans). Il y a cuenta hacia atrás desde ahora hasta el momento del nacimiento, igual que el «hace» español.",
+   "origen": "tatoeba:772455",
+   "explicacion_breve": "Hecho puntual del pasado: il y a (hace).",
+   "traduccion": "Nací hace 20 años.",
+   "errores_previstos": [
+    {
+     "respuesta": "depuis",
+     "explicacion": "Depuis se usa para algo que sigue ocurriendo; nacer no se prolonga en el tiempo, de modo que «je suis né depuis 20 ans» es incorrecto. Para la idea de «tengo 20 años» se diría j'ai 20 ans."
+    },
+    {
+     "respuesta": "pendant",
+     "explicacion": "Pendant mediría cuánto duró el nacimiento, lo que no tiene sentido aquí; lo que se pregunta es cuándo ocurrió."
+    }
+   ]
+  },
+  {
+   "id": "e03",
+   "tipo": "hueco",
+   "enunciado": "Completa con depuis, il y a, pendant o pour.",
+   "frase": "Il a plu sans arrêt ___ une semaine.",
+   "respuestas": [
+    "pendant"
+   ],
+   "explicacion": "Se aplica la regla «pendant + duración = durante»: mide una acción con principio y fin. La pista es el passé composé afirmativo (il a plu) junto con sans arrêt: se cuenta un episodio de lluvia ya cerrado que duró una semana. Pendant une semaine dice cuánto duró ese episodio, igual que «durante una semana».",
+   "origen": "tatoeba:3655597",
+   "explicacion_breve": "Duración de una acción acabada: pendant.",
+   "traduccion": "Llovió sin parar durante una semana.",
+   "errores_previstos": [
+    {
+     "respuesta": "depuis",
+     "explicacion": "Con depuis la lluvia seguiría cayendo ahora y el verbo debería ir en presente (il pleut sans arrêt depuis une semaine); con passé composé afirmativo la combinación es un calco del español «ha llovido desde hace una semana»."
+    },
+    {
+     "respuesta": "il y a",
+     "explicacion": "«Il a plu il y a une semaine» es correcto, pero significa «llovió hace una semana» (en un momento), no cuánto duró; con sans arrêt lo que se expresa es la duración."
+    }
+   ]
+  },
+  {
+   "id": "e04",
+   "tipo": "hueco",
+   "enunciado": "Completa con depuis, il y a, pendant o pour.",
+   "frase": "Je le connais ___ un an.",
+   "respuestas": [
+    "depuis"
+   ],
+   "explicacion": "Es la regla «depuis + duración = desde hace», con el verbo en presente porque la situación continúa. La pista es el presente je le connais: el conocimiento empezó hace un año y sigue ahora. El español dice «desde hace un año» o «hace un año que lo conozco», y el francés lo resuelve con presente + depuis + duración.",
+   "origen": "tatoeba:1082280",
+   "explicacion_breve": "Lo conozco y lo sigo conociendo: depuis + presente.",
+   "traduccion": "Lo conozco desde hace un año.",
+   "errores_previstos": [
+    {
+     "respuesta": "il y a",
+     "explicacion": "Il y a solo sirve para un hecho terminado; «je le connais il y a un año» es un calco de «lo conozco hace un año». Valdría «je l'ai rencontré il y a un an» (lo conocí hace un año), con otro verbo y otro tiempo."
+    },
+    {
+     "respuesta": "pendant",
+     "explicacion": "Pendant con presente indicaría una duración cerrada o habitual, lo que no encaja con un conocimiento que sigue vigente."
+    }
+   ]
+  },
+  {
+   "id": "e05",
+   "tipo": "hueco",
+   "enunciado": "Completa con depuis, il y a, pendant o pour.",
+   "frase": "Il est parti ___ 10 minutes.",
+   "respuestas": [
+    "il y a",
+    "depuis"
+   ],
+   "explicacion": "Aquí valen dos respuestas porque la frase admite dos lecturas. Con il y a se aplica la regla «il y a + duración = hace»: el passé composé il est parti sitúa el momento de la partida diez minutos atrás. Con depuis se piensa en el estado resultante, que continúa (él está fuera desde hace diez minutos); es la excepción que la ficha recoge para verbos cuyo passé composé describe un estado actual. Ambas son naturales en francés.",
+   "origen": "tatoeba:130582",
+   "explicacion_breve": "Il y a sitúa el momento en que se fue (hace diez minutos); depuis también es correcto si se piensa en el estado resultante (lleva diez minutos fuera).",
+   "traduccion": "Se fue hace 10 minutos (o: lleva 10 minutos fuera).",
+   "errores_previstos": [
+    {
+     "respuesta": "pendant",
+     "explicacion": "Pendant mediría cuánto duró la acción de irse, lo que no tiene sentido: irse es instantáneo."
+    },
+    {
+     "respuesta": "pour",
+     "explicacion": "«Il est parti pour 10 minutes» significaría que se fue con intención de ausentarse diez minutos (duración prevista), no cuándo se fue; no es lo que expresa la frase."
+    }
+   ]
+  },
+  {
+   "id": "e06",
+   "tipo": "eleccion",
+   "enunciado": "Elige la opción correcta.",
+   "frase": "Taro est mort ___ deux ans.",
+   "opciones": [
+    "il y a",
+    "pour",
+    "pendant"
+   ],
+   "respuestas": [
+    "il y a"
+   ],
+   "explicacion": "Se aplica la regla «il y a + duración = hace» con un hecho puntual en passé composé. Morir es un acontecimiento que ocurre en un instante; est mort está en passé composé y deux ans es una cantidad de tiempo contada hacia atrás desde hoy. Por eso la única opción posible es il y a.",
+   "origen": "tatoeba:129126",
+   "explicacion_breve": "Hecho puntual en passé composé: il y a.",
+   "traduccion": "Taro murió hace dos años.",
+   "por_opcion": {
+    "il y a": "Correcta: sitúa el momento de la muerte dos años antes de ahora, como el «hace» español.",
+    "pour": "Incorrecta: pour indica una duración prevista (partir pour deux ans); morir no tiene duración prevista.",
+    "pendant": "Incorrecta: pendant mediría cuánto duró la muerte, que no es una acción con duración."
+   }
+  },
+  {
+   "id": "e07",
+   "tipo": "eleccion",
+   "enunciado": "Elige la opción correcta.",
+   "frase": "Hier soir, j'ai étudié ___ une heure, puis je suis sorti.",
+   "opciones": [
+    "pendant",
+    "depuis",
+    "pour"
+   ],
+   "respuestas": [
+    "pendant"
+   ],
+   "explicacion": "Es la regla «pendant + duración»: mide una acción ya terminada. Las pistas son hier soir, el passé composé j'ai étudié y puis je suis sorti, que dejan claro que el estudio terminó antes de salir. Pendant une heure informa de cuánto duró ese estudio, igual que «durante una hora».",
+   "explicacion_breve": "Duración de una acción ya terminada: pendant.",
+   "traduccion": "Anoche estudié durante una hora y luego salí.",
+   "por_opcion": {
+    "pendant": "Correcta: expresa la duración completa de una acción cerrada del pasado.",
+    "depuis": "Incorrecta: depuis exige que la acción continúe, y aquí terminó; además, con passé composé afirmativo sería un calco del español.",
+    "pour": "Incorrecta: pour indica una duración prevista con verbos como partir; «étudier pour une heure» es un calco del inglés for an hour."
+   }
+  },
+  {
+   "id": "e08",
+   "tipo": "eleccion",
+   "enunciado": "Elige la opción correcta.",
+   "frase": "Je pars en Italie ___ deux semaines.",
+   "opciones": [
+    "pour",
+    "depuis",
+    "il y a"
+   ],
+   "respuestas": [
+    "pour"
+   ],
+   "explicacion": "Se aplica la regla «pour + duración» con verbos como partir, aller o venir: indica cuánto tiempo se piensa estar en el destino. La pista es el verbo je pars, que anuncia un viaje futuro; las dos semanas son una previsión, no una duración ya vivida. El español suele decir simplemente «dos semanas» o «por dos semanas».",
+   "explicacion_breve": "Duración prevista con partir: pour.",
+   "traduccion": "Me voy a Italia dos semanas.",
+   "por_opcion": {
+    "pour": "Correcta: con partir, pour expresa el tiempo previsto de la estancia.",
+    "depuis": "Incorrecta: «je pars depuis deux semaines» diría que la partida dura desde hace dos semanas, lo que no tiene sentido.",
+    "il y a": "Incorrecta: il y a sitúa un hecho pasado (hace dos semanas) y no encaja con un viaje que se anuncia."
+   }
+  },
+  {
+   "id": "e09",
+   "tipo": "eleccion",
+   "enunciado": "Elige la opción correcta.",
+   "frase": "___ combien de temps apprends-tu le français ?",
+   "opciones": [
+    "Depuis",
+    "Il y a",
+    "Pour"
+   ],
+   "respuestas": [
+    "Depuis"
+   ],
+   "explicacion": "Es la pregunta fija «Depuis combien de temps… ?» que la ficha da en la lista de reglas, siempre con presente. La pista es el verbo apprends-tu en presente: se pregunta por una actividad que empezó en el pasado y continúa. Depuis combien de temps equivale a «¿cuánto tiempo hace que…?» o «¿desde hace cuánto…?».",
+   "explicacion_breve": "¿Cuánto tiempo hace que…? con presente: depuis combien de temps.",
+   "traduccion": "¿Cuánto tiempo hace que aprendes francés? (¿Desde hace cuánto aprendes francés?)",
+   "por_opcion": {
+    "Depuis": "Correcta: forma la pregunta sobre la duración de algo que sigue, con presente.",
+    "Il y a": "Incorrecta: «Il y a combien de temps» se usa con un hecho terminado en passé composé (Il y a combien de temps que tu es arrivé ? o Tu es arrivé il y a combien de temps ?), no con un presente que continúa en esta construcción.",
+    "Pour": "Incorrecta: «Pour combien de temps» pregunta por una duración prevista (¿para cuánto tiempo te vas?), no por desde cuándo."
+   }
+  },
+  {
+   "id": "e10",
+   "tipo": "hueco",
+   "enunciado": "Completa con depuis, il y a, pendant o pour.",
+   "frase": "Je n'ai pas mangé ___ hier.",
+   "respuestas": [
+    "depuis"
+   ],
+   "explicacion": "Se aplica la regla de la lista: en negativa, depuis puede ir con passé composé. La pista es la negación ne… pas: lo que continúa hasta ahora no es la acción de comer sino su ausencia, que empezó ayer. Por eso la frase usa depuis aunque el verbo esté en passé composé, igual que «no he comido desde ayer».",
+   "origen": "tatoeba:12918784",
+   "explicacion_breve": "En negativa, depuis puede ir con passé composé: desde ayer.",
+   "traduccion": "No he comido desde ayer.",
+   "errores_previstos": [
+    {
+     "respuesta": "il y a",
+     "explicacion": "«Je n'ai pas mangé il y a hier» no es francés: il y a necesita una cantidad de tiempo, no un momento como hier."
+    },
+    {
+     "respuesta": "pendant",
+     "explicacion": "Pendant necesita una duración (pendant deux jours); delante de hier no indica el punto de partida."
+    }
+   ]
+  },
+  {
+   "id": "e11",
+   "tipo": "corregir",
+   "enunciado": "Corrige el error.",
+   "frase": "J'habite à Madrid il y a trois ans.",
+   "respuestas": [
+    "J'habite à Madrid depuis trois ans."
+   ],
+   "explicacion": "Es el error típico que la ficha señala: para una situación que continúa, «desde hace» es depuis, no il y a. La pista es el presente j'habite: la persona sigue viviendo en Madrid. Con il y a la frase mezcla un presente con un marcador de hecho acabado; la corrección es J'habite à Madrid depuis trois ans.",
+   "explicacion_breve": "Situación que continúa: depuis.",
+   "traduccion": "Vivo en Madrid desde hace tres años.",
+   "errores_previstos": [
+    {
+     "respuesta": "J'habite à Madrid il y a trois ans.",
+     "explicacion": "Es la frase sin corregir: il y a no puede acompañar a un presente que sigue vigente."
+    },
+    {
+     "respuesta": "J'ai habité à Madrid depuis trois ans.",
+     "explicacion": "Cambia el tiempo en lugar del marcador: con depuis y una situación que continúa el verbo va en presente."
+    },
+    {
+     "respuesta": "J'habite à Madrid pendant trois ans.",
+     "explicacion": "Pendant con presente no expresa que la situación comenzó hace tres años y sigue; es un calco de «durante»."
+    }
+   ]
+  },
+  {
+   "id": "e12",
+   "tipo": "corregir",
+   "enunciado": "Corrige el error.",
+   "frase": "J'ai attendu le bus depuis une heure.",
+   "respuestas": [
+    "J'ai attendu le bus pendant une heure."
+   ],
+   "explicacion": "La ficha lo recoge entre los errores típicos: si la acción ya terminó, su duración se expresa con pendant. La pista es el passé composé afirmativo j'ai attendu, que presenta la espera como cerrada. Depuis exigiría que la espera continuara y el verbo en presente (j'attends le bus depuis une heure); como la espera acabó, la forma correcta es pendant une heure.",
+   "explicacion_breve": "Acción acabada en passé composé: pendant.",
+   "traduccion": "Esperé el autobús durante una hora.",
+   "errores_previstos": [
+    {
+     "respuesta": "J'ai attendu le bus depuis une heure.",
+     "explicacion": "Es la frase sin corregir: depuis con passé composé afirmativo es un calco del español «he esperado desde hace una hora»."
+    },
+    {
+     "respuesta": "J'ai attendu le bus il y a une heure.",
+     "explicacion": "Es gramatical, pero cambia el sentido: diría cuándo esperé (hace una hora), no cuánto duró la espera."
+    }
+   ]
+  },
+  {
+   "id": "e13",
+   "tipo": "corregir",
+   "enunciado": "Corrige el error.",
+   "frase": "Nous vivons ici pendant janvier.",
+   "respuestas": [
+    "Nous vivons ici depuis janvier."
+   ],
+   "explicacion": "Se aplica la regla «depuis + fecha o momento», con presente. La pista es janvier, un punto de partida y no una duración, junto con el presente nous vivons, que indica que la situación continúa. Pendant janvier significaría «durante el mes de enero» y chocaría con el presente; lo correcto es depuis janvier.",
+   "origen": "tatoeba:4684940",
+   "explicacion_breve": "Desde un momento y la situación continúa: depuis.",
+   "traduccion": "Vivimos aquí desde enero.",
+   "errores_previstos": [
+    {
+     "respuesta": "Nous vivons ici pendant janvier.",
+     "explicacion": "Es la frase sin corregir: pendant no marca un punto de partida."
+    },
+    {
+     "respuesta": "Nous vivons ici il y a janvier.",
+     "explicacion": "Il y a necesita una cantidad de tiempo y un hecho terminado; delante de un mes no tiene sentido."
+    },
+    {
+     "respuesta": "Nous avons vécu ici depuis janvier.",
+     "explicacion": "Con depuis y una situación que sigue, el verbo debe quedarse en presente."
+    }
+   ]
+  },
+  {
+   "id": "e14",
+   "tipo": "transformar",
+   "enunciado": "Reformula la frase con depuis.",
+   "frase": "Ça fait deux heures que j'attends.",
+   "respuestas": [
+    "J'attends depuis deux heures."
+   ],
+   "explicacion": "La ficha explica que ça fait… que + presente equivale a presente + depuis. La pista es la estructura de partida: ça fait deux heures que j'attends ya está en presente y habla de una espera que continúa. Al reformular, el presente se mantiene (j'attends) y la duración pasa detrás de depuis: J'attends depuis deux heures.",
+   "explicacion_breve": "Ça fait… que + presente = presente + depuis.",
+   "traduccion": "Llevo dos horas esperando.",
+   "errores_previstos": [
+    {
+     "respuesta": "J'ai attendu depuis deux heures.",
+     "explicacion": "Al cambiar a passé composé se rompe la regla: con depuis y una acción que sigue, presente."
+    },
+    {
+     "respuesta": "Depuis deux heures que j'attends.",
+     "explicacion": "Mezcla las dos construcciones: con depuis no hace falta que; además se pedía la forma simple presente + depuis."
+    },
+    {
+     "respuesta": "J'attends il y a deux heures.",
+     "explicacion": "Il y a solo sustituye a depuis en la construcción il y a… que; suelto significa «hace» y exige un hecho terminado."
+    }
+   ]
+  },
+  {
+   "id": "e15",
+   "tipo": "transformar",
+   "enunciado": "Reformula la frase con il y a… que.",
+   "frase": "J'étudie le français depuis cinq ans.",
+   "respuestas": [
+    "Il y a cinq ans que j'étudie le français."
+   ],
+   "explicacion": "Se aplica la equivalencia de la lista de reglas: il y a + duración + que + presente equivale a presente + depuis. La pista es que el estudio continúa (j'étudie en presente). Al transformar, la duración va delante con il y a… que y el verbo sigue en presente: Il y a cinq ans que j'étudie le français, como el español «hace cinco años que estudio».",
+   "explicacion_breve": "Il y a + duración + que + presente equivale a depuis.",
+   "traduccion": "Hace cinco años que estudio francés.",
+   "errores_previstos": [
+    {
+     "respuesta": "Il y a cinq ans que j'ai étudié le français.",
+     "explicacion": "Con il y a… que y una acción que sigue, el verbo va en presente; el passé composé cambiaría el sentido o sonaría extraño."
+    },
+    {
+     "respuesta": "J'étudie le français il y a cinq ans.",
+     "explicacion": "Il y a suelto, sin que, significa «hace» con un hecho terminado y no puede ir con un presente que continúa."
+    }
+   ]
+  },
+  {
+   "id": "e16",
+   "tipo": "ordenar",
+   "enunciado": "Ordena las palabras (llevo horas esperando).",
+   "palabras": [
+    "depuis",
+    "heures",
+    "J'attends",
+    "des"
+   ],
+   "respuestas": [
+    "J'attends depuis des heures"
+   ],
+   "explicacion": "Es la regla «presente + depuis + duración» para una acción que continúa. La pista está en la traducción dada en el enunciado («llevo horas esperando»): la espera sigue, así que el verbo va en presente (j'attends) y la duración, des heures, detrás de depuis. El orden francés es sujeto y verbo, luego depuis y la duración.",
+   "origen": "tatoeba:4169",
+   "explicacion_breve": "Presente + depuis para una acción que continúa.",
+   "traduccion": "Llevo horas esperando.",
+   "errores_previstos": [
+    {
+     "respuesta": "J'attends des heures depuis",
+     "explicacion": "Depuis es una preposición y debe ir delante de la duración, no detrás."
+    }
+   ]
+  }
  ],
- "fuente": {"nombre": "Tex's French Grammar", "autores": "COERLL, Universidad de Texas en Austin", "licencia": "CC BY 3.0", "url": "https://laits.utexas.edu/tex/gr/pred1.html", "otras": ["Frases de Tatoeba (CC BY 2.0 FR)"]}
+ "fuente": {
+  "nombre": "Tex's French Grammar",
+  "autores": "COERLL, Universidad de Texas en Austin",
+  "licencia": "CC BY 3.0",
+  "url": "https://laits.utexas.edu/tex/gr/pred1.html",
+  "otras": [
+   "Frases de Tatoeba (CC BY 2.0 FR)"
+  ]
+ },
+ "descripcion_larga_es": "Esta ficha enseña a situar una acción en el tiempo con cuatro herramientas: depuis (desde, desde hace), il y a (hace), pendant (durante) y pour (para un plazo previsto). Son palabras de uso diario y el hispanohablante las confunde porque «hace» y «desde hace» se parecen mucho en español, y porque en francés cada una exige un tiempo verbal distinto: presente con depuis, passé composé con il y a.",
+ "contexto": {
+  "que_es": "Son cuatro expresiones temporales que responden a preguntas distintas. Depuis indica desde cuándo dura algo que todavía sigue; il y a dice hace cuánto tiempo ocurrió un hecho ya terminado; pendant mide cuánto duró o dura una acción con principio y fin; pour expresa la duración que se prevé de antemano.",
+  "por_que_importa": "Hablar de uno mismo (dónde vives, desde cuándo trabajas, cuándo llegaste) obliga a usarlas desde el primer día. Si se confunden, el mensaje cambia: «j'habite ici il y a trois ans» no significa nada claro, y «j'ai travaillé ici depuis deux ans» suena a error de principiante. En un examen oral es de las primeras cosas que delatan el nivel.",
+  "cuando_se_usa": "Usa depuis cuando en español dirías «llevo…», «desde hace…» o «desde…» y la situación continúa; usa il y a cuando dirías «hace…» con un hecho puntual (nací, llegué, murió). Pendant aparece al contar una acción cerrada (estudié durante una hora) y pour con verbos de desplazamiento cuando se anuncia cuánto se va a estar fuera. El hispanohablante tiende a traducir «hace» por il y a en todos los casos y a usar passé composé con depuis."
+ }
 }

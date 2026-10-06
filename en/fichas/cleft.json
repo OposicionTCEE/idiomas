@@ -122,7 +122,21 @@
    "respuestas": [
     "who"
    ],
-   "explicacion": "El elemento destacado es una persona sujeto: who (o that)."
+   "explicacion": "Se aplica la it-cleft de la ficha: It + be + elemento destacado + that/who + resto. La pista es que el elemento destacado, «the manager», es una persona y además es el sujeto de «approved»; con personas sujeto se prefiere «who», aunque «that» también valdría. Por eso «It was the manager who approved the budget». La segunda parte no repite el sujeto.",
+   "explicacion_breve": "El elemento destacado es una persona sujeto: who (o that).",
+   "traduccion": "Fue el director quien aprobó el presupuesto.",
+   "por_opcion": {
+    "who": "Correcta: relativo para una persona que funciona como sujeto de «approved».",
+    "what": "Incorrecta: «what» significa «lo que» y no puede introducir la segunda parte de una it-cleft.",
+    "which he": "Incorrecta: «which» se usa para cosas, y además «he» repite el sujeto, cosa que el inglés no permite en una relativa.",
+    "whom": "Incorrecta: «whom» es forma de objeto, y aquí el destacado es el sujeto de «approved»."
+   },
+   "glosario": [
+    {
+     "palabra": "budget",
+     "significado": "presupuesto"
+    }
+   ]
   },
   {
    "id": "e02",
@@ -138,7 +152,15 @@
    "respuestas": [
     "What"
    ],
-   "explicacion": "Wh-cleft: What + sujeto + verbo + is…"
+   "explicacion": "Se aplica la wh-cleft de la ficha: What + sujeto + verbo + be + elemento destacado. La pista es la estructura «___ I really need is…»: la primera parte equivale al español «lo que necesito», y en inglés «lo que» es «what». Por eso «What I really need is a good night's sleep». El foco queda al final, en lo que se necesita.",
+   "explicacion_breve": "Wh-cleft: What + sujeto + verbo + is…",
+   "traduccion": "Lo que de verdad necesito es una buena noche de sueño.",
+   "por_opcion": {
+    "That": "Incorrecta: «that» no significa «lo que»; la ficha recoge «The thing that…», pero sin «the thing» no funciona.",
+    "Which": "Incorrecta: «which» necesita un antecedente; no puede abrir la frase con el sentido de «lo que».",
+    "What": "Correcta: «what» introduce la wh-cleft con el sentido de «lo que».",
+    "It": "Incorrecta: «It I really need is…» no es gramatical; la it-cleft sería «It is a good night's sleep that I really need»."
+   }
   },
   {
    "id": "e03",
@@ -154,7 +176,21 @@
    "respuestas": [
     "was"
    ],
-   "explicacion": "La wh-cleft enlaza las dos partes con be: What she did was…"
+   "explicacion": "Se aplica la wh-cleft para destacar una acción: What + sujeto + did + be + infinitivo. La pista es «What she did next», que ya es la primera parte completa; falta el verbo be que la une con el foco. Como «did» está en pasado y la primera parte es singular, va «was». Detrás viene el infinitivo sin to «phone», que también admitiría «to phone».",
+   "explicacion_breve": "La wh-cleft enlaza las dos partes con be: What she did was…",
+   "traduccion": "Lo que hizo a continuación fue llamar a su abogado.",
+   "por_opcion": {
+    "was": "Correcta: be en pasado y en singular une las dos partes de la wh-cleft.",
+    "did": "Incorrecta: «did» ya aparece en la primera parte; el enlace entre las dos partes es siempre be.",
+    "has": "Incorrecta: «has» no funciona como enlace y además no concuerda con el pasado «did».",
+    "were": "Incorrecta: la cláusula «What she did» cuenta como singular, así que be va en «was»."
+   },
+   "glosario": [
+    {
+     "palabra": "lawyer",
+     "significado": "abogado"
+    }
+   ]
   },
   {
    "id": "e04",
@@ -170,7 +206,15 @@
    "respuestas": [
     "that"
    ],
-   "explicacion": "La it-cleft usa that tras un complemento circunstancial destacado."
+   "explicacion": "Se aplica la it-cleft cuando se destaca un complemento circunstancial (de tiempo, lugar o modo): la segunda parte se introduce con «that». La pista es el elemento destacado, «only after the meeting», que es una expresión de tiempo; el error típico de la ficha es usar «when» en esos casos. Por eso «It was only after the meeting that I understood the problem». «Only» refuerza el contraste: no antes.",
+   "explicacion_breve": "La it-cleft usa that tras un complemento circunstancial destacado.",
+   "traduccion": "Solo después de la reunión entendí el problema.",
+   "por_opcion": {
+    "when": "Incorrecta según la norma: en la it-cleft que destaca un tiempo se usa «that». En el habla se oye a veces «when», pero es el error que la ficha señala.",
+    "that": "Correcta: la it-cleft usa «that» tras un complemento circunstancial destacado.",
+    "which": "Incorrecta: «which» se refiere a un sustantivo antecedente (una cosa), no a una expresión de tiempo destacada.",
+    "then": "Incorrecta: «then» es un adverbio (entonces, luego), no un nexo; no puede unir las dos partes."
+   }
   },
   {
    "id": "e05",
@@ -180,7 +224,23 @@
    "respuestas": [
     "It"
    ],
-   "explicacion": "La it-cleft necesita el sujeto it."
+   "explicacion": "Se aplica la it-cleft de la ficha, que necesita siempre el sujeto «it» delante de be. La pista es «___ was in Lisbon that…»: falta un sujeto, y el inglés, a diferencia del español, no admite verbos sin sujeto expreso. Por eso «It was in Lisbon that they first met». Es el primer error típico de la ficha («Was Peter who called you»).",
+   "explicacion_breve": "La it-cleft necesita el sujeto it.",
+   "traduccion": "Fue en Lisboa donde se conocieron.",
+   "errores_previstos": [
+    {
+     "respuesta": "This",
+     "explicacion": "La it-cleft se forma siempre con «it»; «this» no cumple esa función."
+    },
+    {
+     "respuesta": "There",
+     "explicacion": "«There was» presenta la existencia de algo (había); el sujeto de la it-cleft es «it»."
+    },
+    {
+     "respuesta": "He",
+     "explicacion": "El sujeto de la construcción no es una persona sino el «it» vacío de la it-cleft."
+    }
+   ]
   },
   {
    "id": "e06",
@@ -193,7 +253,29 @@
     "they",
     "you"
    ],
-   "explicacion": "All + sujeto + verbo + is: «lo único que quiero es…»."
+   "explicacion": "Se aplica la variante de la ficha «All I want is…», lo único que quiero es…, un tipo de wh-cleft con «all» en lugar de «what». La pista es «All ___ want is»: falta el sujeto de «want», que tiene que ser un pronombre personal. Valen «I», «we», «they» y «you», porque todos concuerdan con «want» sin -s. No vale «he» ni «she», que exigirían «wants».",
+   "explicacion_breve": "All + sujeto + verbo + is: «lo único que quiero es…».",
+   "traduccion": "Lo único que quiero es que me dejen en paz.",
+   "errores_previstos": [
+    {
+     "respuesta": "what",
+     "explicacion": "«All what» es un calco de «todo lo que»; en inglés se dice «All I want» sin «what»."
+    },
+    {
+     "respuesta": "she",
+     "explicacion": "Con «she» el verbo debería ser «wants»; con «want» solo valen I, we, you o they."
+    },
+    {
+     "respuesta": "me",
+     "explicacion": "Hace falta el pronombre sujeto «I», no el de objeto «me»."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "to be left in peace",
+     "significado": "que lo dejen a uno en paz"
+    }
+   ]
   },
   {
    "id": "e07",
@@ -204,7 +286,29 @@
     "why",
     "that"
    ],
-   "explicacion": "The reason why/that… is/was that… destaca la causa."
+   "explicacion": "Se aplica la variante de la ficha «The reason why… is that…», que destaca la causa. La pista es «The reason ___ I left»: tras «reason» se introduce una relativa con «why» o con «that», y ambas se aceptan; también podría omitirse. Fíjate en que la segunda parte usa «that», no «because»: «was that I felt undervalued».",
+   "explicacion_breve": "The reason why/that… is/was that… destaca la causa.",
+   "traduccion": "La razón por la que me fui fue que me sentía infravalorado.",
+   "errores_previstos": [
+    {
+     "respuesta": "because",
+     "explicacion": "«Because» no introduce la relativa tras «reason»; se usa «why» o «that»."
+    },
+    {
+     "respuesta": "for which",
+     "explicacion": "«The reason for which» existe en registro muy formal, pero el ejercicio pide una sola palabra: «why» o «that»."
+    },
+    {
+     "respuesta": "what",
+     "explicacion": "«What» no puede ir detrás de un antecedente como «reason»."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "undervalued",
+     "significado": "infravalorado"
+    }
+   ]
   },
   {
    "id": "e08",
@@ -215,7 +319,29 @@
     "It was Anna who solved the puzzle.",
     "It was Anna that solved the puzzle."
    ],
-   "explicacion": "It was + foco + who/that + resto de la frase."
+   "explicacion": "Se aplica la it-cleft: It was + foco + who/that + resto de la frase. La pista es el enunciado, que pide destacar a «Anna», sujeto de la frase original y persona. Por eso «It was Anna who solved the puzzle», o con «that», que también se acepta. El tiempo de be va en pasado para acompañar a «solved», y el resto de la oración no cambia.",
+   "explicacion_breve": "It was + foco + who/that + resto de la frase.",
+   "traduccion": "Fue Anna quien resolvió el rompecabezas.",
+   "errores_previstos": [
+    {
+     "respuesta": "Was Anna who solved the puzzle.",
+     "explicacion": "Falta el sujeto obligatorio «It»."
+    },
+    {
+     "respuesta": "It was Anna which solved the puzzle.",
+     "explicacion": "«Which» se usa para cosas; para una persona se emplea «who» o «that»."
+    },
+    {
+     "respuesta": "It was Anna who she solved the puzzle.",
+     "explicacion": "Tras «who» no se repite el sujeto: «who solved»."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "puzzle",
+     "significado": "rompecabezas, enigma"
+    }
+   ]
   },
   {
    "id": "e09",
@@ -226,7 +352,23 @@
     "What I don't understand is his attitude.",
     "What I do not understand is his attitude."
    ],
-   "explicacion": "What + sujeto + verbo + is + foco."
+   "explicacion": "Se aplica la wh-cleft: What + sujeto + verbo + is + foco. La pista es el enunciado, que pide empezar por «What», y el objeto de la frase original, «his attitude», que pasa al final como elemento destacado. La parte de «what» conserva la negación: «What I don't understand», y luego «is his attitude». Se acepta también la forma sin contraer «do not».",
+   "explicacion_breve": "What + sujeto + verbo + is + foco.",
+   "traduccion": "Lo que no entiendo es su actitud.",
+   "errores_previstos": [
+    {
+     "respuesta": "What I don't understand it is his attitude.",
+     "explicacion": "Sobra «it»: «what» ya ocupa el lugar del objeto de «understand»."
+    },
+    {
+     "respuesta": "What I don't understand his attitude.",
+     "explicacion": "Falta el verbo «is» que une las dos partes de la wh-cleft."
+    },
+    {
+     "respuesta": "What don't I understand is his attitude.",
+     "explicacion": "La primera parte no es una pregunta: no se invierte el auxiliar y el sujeto."
+    }
+   ]
   },
   {
    "id": "e10",
@@ -237,7 +379,23 @@
     "What he did was sell his car.",
     "What he did was to sell his car."
    ],
-   "explicacion": "Para destacar la acción: What + sujeto + did + was + infinitivo (con o sin to)."
+   "explicacion": "Se aplica la wh-cleft para destacar una acción, que la ficha forma con do: What + sujeto + did + was + infinitivo. La pista es el enunciado, que da el comienzo «What he did», y el verbo original «sold». La acción pasa al final en infinitivo, «sell», con o sin «to», y be va en pasado y singular: «was». Por eso «What he did was sell his car».",
+   "explicacion_breve": "Para destacar la acción: What + sujeto + did + was + infinitivo (con o sin to).",
+   "traduccion": "Lo que hizo fue vender su coche.",
+   "errores_previstos": [
+    {
+     "respuesta": "What he did was sold his car.",
+     "explicacion": "Tras «was» la acción va en infinitivo («sell» o «to sell»), no en pasado."
+    },
+    {
+     "respuesta": "What he did was selling his car.",
+     "explicacion": "La norma de la ficha pide infinitivo, con o sin to; la forma en -ing no es la estructura estándar aquí."
+    },
+    {
+     "respuesta": "What he did is sell his car.",
+     "explicacion": "Si la primera parte está en pasado («did»), be también va en pasado: «was»."
+    }
+   ]
   },
   {
    "id": "e11",
@@ -248,7 +406,29 @@
     "It is the noise that bothers me, not the heat.",
     "It's the noise that bothers me, not the heat."
    ],
-   "explicacion": "Falta el sujeto obligatorio it."
+   "explicacion": "Se aplica la regla de la ficha: la it-cleft necesita siempre el sujeto «it». La pista es el comienzo «Is the noise…», calcado del español «es el ruido lo que…», donde no hay sujeto expreso. Basta añadir «It»: «It is the noise that bothers me, not the heat», o contraído «It's». El contraste final con «not the heat» es un uso típico de esta construcción.",
+   "explicacion_breve": "Falta el sujeto obligatorio it.",
+   "traduccion": "Es el ruido lo que me molesta, no el calor.",
+   "errores_previstos": [
+    {
+     "respuesta": "Is the noise that bothers me, not the heat.",
+     "explicacion": "Es la frase sin corregir: falta el sujeto obligatorio «it»."
+    },
+    {
+     "respuesta": "It is the noise what bothers me, not the heat.",
+     "explicacion": "La segunda parte de la it-cleft se introduce con «that», no con «what»."
+    },
+    {
+     "respuesta": "This is the noise that bothers me, not the heat.",
+     "explicacion": "La construcción se forma con «it», no con «this»."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "to bother",
+     "significado": "molestar"
+    }
+   ]
   },
   {
    "id": "e12",
@@ -258,7 +438,29 @@
    "respuestas": [
     "What I like most about her is her honesty."
    ],
-   "explicacion": "El foco es singular (her honesty), así que el verbo es is."
+   "explicacion": "Se aplica la regla de concordancia de la wh-cleft: el verbo be concuerda con lo que se destaca. La pista es «her honesty», un sustantivo singular (e incontable), así que el verbo debe ser «is», no «are». La frase correcta es «What I like most about her is her honesty». El plural «are» solo sería posible con un foco plural, como «her eyes».",
+   "explicacion_breve": "El foco es singular (her honesty), así que el verbo es is.",
+   "traduccion": "Lo que más me gusta de ella es su sinceridad.",
+   "errores_previstos": [
+    {
+     "respuesta": "What I like most about her are her honesty.",
+     "explicacion": "Es la frase sin corregir: el foco «her honesty» es singular y pide «is»."
+    },
+    {
+     "respuesta": "What I like most about her it is her honesty.",
+     "explicacion": "Sobra «it»: la wh-cleft no lleva otro sujeto delante de be."
+    },
+    {
+     "respuesta": "What I like more about her is her honesty.",
+     "explicacion": "Además de no corregir el error, cambia «most» por «more»; para «lo que más» se usa el superlativo «most»."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "honesty",
+     "significado": "sinceridad, honradez"
+    }
+   ]
   },
   {
    "id": "e13",
@@ -277,7 +479,19 @@
     "It was my sister who told me",
     "Was it my sister who told me"
    ],
-   "explicacion": "It was + foco + who + resto."
+   "explicacion": "Se aplica la it-cleft: It was + foco + who + resto. La pista es la mayúscula de «It», que marca el inicio, y «who», que introduce la segunda parte. El foco es «my sister», una persona, y el resto es «told me». También se acepta la pregunta «Was it my sister who told me», con «was» y «it» invertidos.",
+   "explicacion_breve": "It was + foco + who + resto.",
+   "traduccion": "Fue mi hermana quien me lo dijo.",
+   "errores_previstos": [
+    {
+     "respuesta": "It was who my sister told me",
+     "explicacion": "El elemento destacado va entre «It was» y «who»: «It was my sister who told me»."
+    },
+    {
+     "respuesta": "My sister was it who told me",
+     "explicacion": "La it-cleft empieza por «It was»; el foco va detrás."
+    }
+   ]
   },
   {
    "id": "e14",
@@ -295,10 +509,28 @@
     "What worries me is the cost",
     "The cost is what worries me"
    ],
-   "explicacion": "What + verbo + objeto + is + foco."
+   "explicacion": "Se aplica la wh-cleft: What + verbo + objeto + is + foco. Aquí «what» funciona como sujeto de «worries», así que no hace falta otro sujeto: «What worries me». Luego va «is» y el foco, «the cost». También se acepta la versión invertida «The cost is what worries me», que pone el foco al principio.",
+   "explicacion_breve": "What + verbo + objeto + is + foco.",
+   "traduccion": "Lo que me preocupa es el coste.",
+   "errores_previstos": [
+    {
+     "respuesta": "What me worries is the cost",
+     "explicacion": "Es el orden del español «lo que me preocupa»; en inglés el objeto «me» va detrás del verbo."
+    },
+    {
+     "respuesta": "What is the cost worries me",
+     "explicacion": "El verbo «is» une las dos partes y va entre «What worries me» y «the cost»."
+    }
+   ]
   }
  ],
  "fuente": {
   "nombre": "propia"
+ },
+ "descripcion_larga_es": "Las oraciones escindidas (cleft sentences) parten una frase en dos para poner el foco en un elemento: It was Maria who found the keys (fue María quien…), What I need is a holiday (lo que necesito es…). Como el inglés no puede mover el acento y el orden de las palabras tan libremente como el español, recurre a ellas para contrastar y destacar, sobre todo al exponer y argumentar.",
+ "contexto": {
+  "que_es": "Son construcciones que dividen una oración simple en dos para destacar una parte. La it-cleft sigue el esquema It + be + elemento destacado + that/who + resto (It was Tom who broke the window). La wh-cleft o pseudo-cleft sigue What + sujeto + verbo + be + elemento destacado (What I want is some peace). Hay variantes como All I want is…, The reason why… is that…",
+  "por_que_importa": "Permiten contrastar y corregir («fue Tom, no Ana») y organizar la información para que lo importante quede al final o en posición destacada. En una exposición oral o un ensayo dan claridad y un tono más elaborado, propio del nivel C1. Mal construidas (sin it, con when en lugar de that, con el verbo en plural) delatan un calco del español.",
+  "cuando_se_usa": "Cuando quieres corregir un malentendido, destacar quién, cuándo o dónde ocurrió algo, presentar un problema o una necesidad (What worries me is…) o anunciar una acción (What we did was…). El español logra lo mismo moviendo palabras («a María la vi ayer») o con «fue… quien»; el hispanohablante suele omitir el sujeto it («Was Peter who…») o usar when/where en lugar de that."
  }
 }

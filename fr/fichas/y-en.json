@@ -6,52 +6,519 @@
  "nivel": "B1",
  "resumen": "Y sustituye un lugar (allí) o un complemento introducido por à que no es una persona (penser à quelque chose). En sustituye un complemento introducido por de y los nombres con partitivo, número o expresión de cantidad. El español no tiene equivalentes exactos, por eso se olvidan con facilidad.",
  "explicacion": [
-  {"tipo": "tabla", "cabecera": ["Pronombre", "Sustituye a", "Ejemplo"], "filas": [
-   ["y", "lugar con à, en, dans, chez, sur, sous…", "Tu vas à Waco ? — Oui, j'y vais."],
-   ["y", "à + cosa o idea (penser à, s'intéresser à, répondre à, participer à)", "Il pense à l'existentialisme. Il y pense jour et nuit."],
-   ["en", "du, de la, des + nombre (partitivo)", "Tu veux du vin ? — Oui, j'en veux."],
-   ["en", "número o cantidad (un, deux, beaucoup, assez…)", "Tu as assez de pain ? — Oui, j'en ai assez. J'en ai une tranche."],
-   ["en", "de + cosa (parler de, avoir besoin de, s'occuper de, revenir de)", "Tu veux en parler ? J'en reviens."]
-  ]},
-  {"tipo": "texto", "texto": "Con personas no se usan: à + persona se sustituye por lui / leur (Je lui parle), y con penser à, s'intéresser à se usa el pronombre tónico (Elle pense à lui). De + persona también va con pronombre tónico: Je parle de lui."},
-  {"tipo": "texto", "texto": "Con un número o una cantidad, en sustituye al nombre pero el número se repite al final: J'en ai une. Il y en a trois. En español no decimos nada («tengo una»), en francés en es obligatorio."},
-  {"tipo": "lista", "items": [
-   "Posición: delante del verbo conjugado, o del infinitivo del que dependen: j'y vais, je veux y aller, je vais en acheter.",
-   "En tiempos compuestos, delante del auxiliar, sin concordancia del participio: Je n'y suis jamais allé. J'en ai mangé deux.",
-   "En imperativo afirmativo van detrás con guion: Allons-y ! Parlons-en ! Con va- y los verbos en -er se recupera la -s: Vas-y ! Manges-en !",
-   "Si van juntos, y va antes que en: Il y en a."
-  ]}
+  {
+   "tipo": "tabla",
+   "cabecera": [
+    "Pronombre",
+    "Sustituye a",
+    "Ejemplo"
+   ],
+   "filas": [
+    [
+     "y",
+     "lugar con à, en, dans, chez, sur, sous…",
+     "Tu vas à Waco ? — Oui, j'y vais."
+    ],
+    [
+     "y",
+     "à + cosa o idea (penser à, s'intéresser à, répondre à, participer à)",
+     "Il pense à l'existentialisme. Il y pense jour et nuit."
+    ],
+    [
+     "en",
+     "du, de la, des + nombre (partitivo)",
+     "Tu veux du vin ? — Oui, j'en veux."
+    ],
+    [
+     "en",
+     "número o cantidad (un, deux, beaucoup, assez…)",
+     "Tu as assez de pain ? — Oui, j'en ai assez. J'en ai une tranche."
+    ],
+    [
+     "en",
+     "de + cosa (parler de, avoir besoin de, s'occuper de, revenir de)",
+     "Tu veux en parler ? J'en reviens."
+    ]
+   ]
+  },
+  {
+   "tipo": "texto",
+   "texto": "Con personas no se usan: à + persona se sustituye por lui / leur (Je lui parle), y con penser à, s'intéresser à se usa el pronombre tónico (Elle pense à lui). De + persona también va con pronombre tónico: Je parle de lui."
+  },
+  {
+   "tipo": "texto",
+   "texto": "Con un número o una cantidad, en sustituye al nombre pero el número se repite al final: J'en ai une. Il y en a trois. En español no decimos nada («tengo una»), en francés en es obligatorio."
+  },
+  {
+   "tipo": "lista",
+   "items": [
+    "Posición: delante del verbo conjugado, o del infinitivo del que dependen: j'y vais, je veux y aller, je vais en acheter.",
+    "En tiempos compuestos van delante del auxiliar, y ni y ni en hacen concordar el participio (con être, el participio sigue concordando con el sujeto, como siempre): Je n'y suis jamais allé. Elle n'y est jamais allée. J'en ai mangé deux.",
+    "En imperativo afirmativo van detrás con guion: Allons-y ! Parlons-en ! Con va- y los verbos en -er se recupera la -s: Vas-y ! Manges-en !",
+    "Si van juntos, y va antes que en: Il y en a."
+   ]
+  }
  ],
  "ejemplos": [
-  {"frase": "Oui, j'y vais ce week-end.", "traduccion": "Sí, voy (allí) este fin de semana."},
-  {"frase": "Tex s'intéresse à la philosophie. Il s'y intéresse énormément.", "traduccion": "A Tex le interesa la filosofía. Le interesa muchísimo."},
-  {"frase": "Il y a du pop-corn ? — Oui, il y en a.", "traduccion": "¿Hay palomitas? — Sí, hay."},
-  {"frase": "Il n'y en a plus.", "traduccion": "Ya no queda."},
-  {"frase": "J'en ai besoin.", "traduccion": "Lo necesito."},
-  {"frase": "J'y pense chaque jour.", "traduccion": "Pienso en ello todos los días."}
+  {
+   "frase": "Oui, j'y vais ce week-end.",
+   "traduccion": "Sí, voy (allí) este fin de semana."
+  },
+  {
+   "frase": "Tex s'intéresse à la philosophie. Il s'y intéresse énormément.",
+   "traduccion": "A Tex le interesa la filosofía. Le interesa muchísimo."
+  },
+  {
+   "frase": "Il y a du pop-corn ? — Oui, il y en a.",
+   "traduccion": "¿Hay palomitas? — Sí, hay."
+  },
+  {
+   "frase": "Il n'y en a plus.",
+   "traduccion": "Ya no queda."
+  },
+  {
+   "frase": "J'en ai besoin.",
+   "traduccion": "Lo necesito."
+  },
+  {
+   "frase": "J'y pense chaque jour.",
+   "traduccion": "Pienso en ello todos los días."
+  }
  ],
  "errores_hispanohablantes": [
-  {"mal": "Tu as des frères ? — Oui, j'ai deux.", "bien": "Tu as des frères ? — Oui, j'en ai deux.", "nota": "Con un número sin nombre, en es obligatorio, aunque en español no se diga nada."},
-  {"mal": "Je vais.", "bien": "J'y vais.", "nota": "Aller necesita un complemento de lugar: si ya se sabe adónde, se pone y."},
-  {"mal": "Mon frère ? J'y pense souvent.", "bien": "Mon frère ? Je pense souvent à lui.", "nota": "Y no sustituye a personas: penser à + persona lleva pronombre tónico."}
+  {
+   "mal": "Tu as des frères ? — Oui, j'ai deux.",
+   "bien": "Tu as des frères ? — Oui, j'en ai deux.",
+   "nota": "Con un número sin nombre, en es obligatorio, aunque en español no se diga nada."
+  },
+  {
+   "mal": "Je vais.",
+   "bien": "J'y vais.",
+   "nota": "Aller necesita un complemento de lugar: si ya se sabe adónde, se pone y."
+  },
+  {
+   "mal": "Mon frère ? J'y pense souvent.",
+   "bien": "Mon frère ? Je pense souvent à lui.",
+   "nota": "Y no sustituye a personas: penser à + persona lleva pronombre tónico."
+  }
  ],
  "ejercicios": [
-  {"id": "e01", "tipo": "transformar", "enunciado": "Sustituye el complemento por y o en.", "frase": "Je pense à mon voyage chaque jour.", "respuestas": ["J'y pense chaque jour."], "explicacion": "Penser à + cosa se sustituye por y.", "origen": "tatoeba:896330"},
-  {"id": "e02", "tipo": "hueco", "enunciado": "Completa con el pronombre que falta.", "frase": "Il n'___ en a plus.", "respuestas": ["y"], "explicacion": "Il y a con en: il y en a; en negativa, il n'y en a plus.", "origen": "tatoeba:4729653"},
-  {"id": "e03", "tipo": "hueco", "enunciado": "Completa con y o en.", "frase": "Des gâteaux ? J'___ ai mangé un.", "respuestas": ["en"], "explicacion": "Cantidad (un): en sustituye al nombre y el número se mantiene.", "origen": "tatoeba:10688571"},
-  {"id": "e04", "tipo": "hueco", "enunciado": "Completa con y o en.", "frase": "Le concert ? Je veux ___ aller.", "respuestas": ["y"], "explicacion": "Lugar: y, delante del infinitivo del que depende.", "origen": "tatoeba:1978620"},
-  {"id": "e05", "tipo": "eleccion", "enunciado": "Elige el pronombre correcto.", "frase": "Ce dictionnaire ? Il ___ a besoin.", "opciones": ["en", "y", "le"], "respuestas": ["en"], "explicacion": "Avoir besoin de + cosa: en.", "origen": "tatoeba:661421"},
-  {"id": "e06", "tipo": "transformar", "enunciado": "Sustituye el complemento de lugar por y.", "frase": "Je vais à la montagne tous les ans.", "respuestas": ["J'y vais tous les ans."], "explicacion": "Lugar introducido por à: y delante del verbo.", "origen": "tatoeba:135279"},
-  {"id": "e07", "tipo": "corregir", "enunciado": "Corrige el error.", "frase": "Je n'en pas veux.", "respuestas": ["Je n'en veux pas."], "explicacion": "El pronombre va entre ne y el verbo; pas va detrás del verbo.", "origen": "tatoeba:977482"},
-  {"id": "e08", "tipo": "corregir", "enunciado": "Corrige el error.", "frase": "Ma sœur ? J'y pense souvent.", "respuestas": ["Ma sœur ? Je pense souvent à elle."], "explicacion": "Con personas, penser à lleva el pronombre tónico (à elle), no y."},
-  {"id": "e09", "tipo": "ordenar", "enunciado": "Ordena las palabras.", "palabras": ["avec", "elle", "vais", "J'y"], "respuestas": ["J'y vais avec elle"], "explicacion": "Y va pegado delante del verbo.", "origen": "tatoeba:6178242"},
-  {"id": "e10", "tipo": "eleccion", "enunciado": "Elige el pronombre correcto.", "frase": "Des pommes ? Il y ___ a trois sur la table.", "opciones": ["en", "y", "les"], "respuestas": ["en"], "explicacion": "Cantidad (trois): il y en a trois."},
-  {"id": "e11", "tipo": "transformar", "enunciado": "Sustituye el complemento por y en esta orden.", "frase": "Va au marché !", "respuestas": ["Vas-y !", "Vas-y!"], "explicacion": "Imperativo afirmativo: y detrás con guion, y va recupera la -s: vas-y."},
-  {"id": "e12", "tipo": "hueco", "enunciado": "Completa con y o en.", "frase": "Dépêche-toi, on ___ va !", "respuestas": ["y"], "explicacion": "On y va: vamos (allí); y es el lugar.", "origen": "tatoeba:913949"},
-  {"id": "e13", "tipo": "transformar", "enunciado": "Sustituye el complemento por en.", "frase": "Elle a une voiture.", "respuestas": ["Elle en a une."], "explicacion": "En sustituye al nombre; el numeral une se conserva al final.", "origen": "tatoeba:10305025"},
-  {"id": "e14", "tipo": "eleccion", "enunciado": "Elige el pronombre correcto.", "frase": "Tu as répondu à son courriel ? — Oui, j'___ ai répondu.", "opciones": ["y", "lui", "en"], "respuestas": ["y"], "explicacion": "Répondre à + cosa (un correo): y."},
-  {"id": "e15", "tipo": "eleccion", "enunciado": "Elige el pronombre correcto.", "frase": "Tu as parlé à Paul ? — Oui, je ___ ai parlé.", "opciones": ["lui", "y", "en"], "respuestas": ["lui"], "explicacion": "Parler à + persona: pronombre indirecto lui, no y."},
-  {"id": "e16", "tipo": "hueco", "enunciado": "Completa con y o en.", "frase": "Tu as vu des films français ? — Oui, j'___ ai vu beaucoup.", "respuestas": ["en"], "explicacion": "Expresión de cantidad (beaucoup): en, sin concordancia del participio."}
+  {
+   "id": "e01",
+   "tipo": "transformar",
+   "enunciado": "Sustituye el complemento por y o en.",
+   "frase": "Je pense à mon voyage chaque jour.",
+   "respuestas": [
+    "J'y pense chaque jour."
+   ],
+   "explicacion": "Se aplica la segunda fila de la tabla de Reglas y claves: y sustituye a à + cosa o idea con verbos como penser à. La pista es «à mon voyage»: un complemento con à que no es una persona. El pronombre y se coloca delante del verbo conjugado, y je se apostrofa ante vocal: «J'y pense chaque jour.». El complemento temporal chaque jour no se sustituye y se queda en su sitio.",
+   "origen": "tatoeba:896330",
+   "explicacion_breve": "Penser à + cosa se sustituye por y.",
+   "traduccion": "Pienso en ello todos los días. / Pienso en mi viaje todos los días.",
+   "errores_previstos": [
+    {
+     "respuesta": "J'en pense chaque jour.",
+     "explicacion": "En sustituye complementos con de. Penser à + cosa se sustituye por y: j'y pense."
+    },
+    {
+     "respuesta": "Je pense y chaque jour.",
+     "explicacion": "Y va delante del verbo conjugado, no detrás: j'y pense."
+    },
+    {
+     "respuesta": "Je le pense chaque jour.",
+     "explicacion": "Le sustituye un complemento directo. Penser à lleva preposición à, así que se usa y."
+    }
+   ]
+  },
+  {
+   "id": "e02",
+   "tipo": "hueco",
+   "enunciado": "Completa con el pronombre que falta.",
+   "frase": "Il n'___ en a plus.",
+   "respuestas": [
+    "y"
+   ],
+   "explicacion": "Se aplica la regla de Reglas y claves según la cual, si van juntos, y va antes que en: il y en a. La pista es la estructura il ___ en a, que es la expresión il y a (hay) con en, que sustituye lo que había. En negativa, ne se coloca delante del bloque de pronombres y se apostrofa ante la y: «il n'y en a plus». Ne… plus significa ya no.",
+   "origen": "tatoeba:4729653",
+   "explicacion_breve": "Il y a con en: il y en a; en negativa, il n'y en a plus.",
+   "traduccion": "Ya no queda (no hay más).",
+   "errores_previstos": [
+    {
+     "respuesta": "en",
+     "explicacion": "En ya está en la frase; lo que falta es la y de il y a: il n'y en a plus."
+    },
+    {
+     "respuesta": "y'",
+     "explicacion": "La y no se apostrofa: lo que se apostrofa es ne (n'). Se escribe n'y."
+    },
+    {
+     "respuesta": "a",
+     "explicacion": "El verbo a ya aparece al final. Falta el pronombre y de la expresión il y a."
+    }
+   ]
+  },
+  {
+   "id": "e03",
+   "tipo": "hueco",
+   "enunciado": "Completa con y o en.",
+   "frase": "Des gâteaux ? J'___ ai mangé un.",
+   "respuestas": [
+    "en"
+   ],
+   "explicacion": "Se aplica la regla de Reglas y claves sobre el número o la cantidad: en sustituye al nombre (des gâteaux) y el número se repite al final (un). La pista es el numeral un al final de la frase, que queda sin nombre. En español basta con «me he comido uno», pero en francés en es obligatorio. En el passé composé, en va delante del auxiliar y el participio no concuerda.",
+   "origen": "tatoeba:10688571",
+   "explicacion_breve": "Cantidad (un): en sustituye al nombre y el número se mantiene.",
+   "traduccion": "¿Pasteles? Me he comido uno.",
+   "errores_previstos": [
+    {
+     "respuesta": "y",
+     "explicacion": "Y sustituye lugares o complementos con à. Con un número o cantidad se usa en: j'en ai mangé un."
+    },
+    {
+     "respuesta": "les",
+     "explicacion": "Les sustituye un complemento directo determinado (les gâteaux). Con una cantidad (un) se usa en."
+    },
+    {
+     "respuesta": "l'",
+     "explicacion": "L' sustituiría un pastel concreto ya conocido (je l'ai mangé). Aquí se habla de uno de varios: en."
+    }
+   ]
+  },
+  {
+   "id": "e04",
+   "tipo": "hueco",
+   "enunciado": "Completa con y o en.",
+   "frase": "Le concert ? Je veux ___ aller.",
+   "respuestas": [
+    "y"
+   ],
+   "explicacion": "Se aplica la primera fila de la tabla: y sustituye un lugar introducido por à (aller au concert). La pista es el verbo aller, que exige un complemento de lugar ya conocido. Según la regla de posición de Reglas y claves, y va delante del infinitivo del que depende, no del verbo conjugado: «je veux y aller». Es el error típico de «je vais» sin y.",
+   "origen": "tatoeba:1978620",
+   "explicacion_breve": "Lugar: y, delante del infinitivo del que depende.",
+   "traduccion": "¿El concierto? Quiero ir.",
+   "errores_previstos": [
+    {
+     "respuesta": "en",
+     "explicacion": "En se usaría para venir de un lugar (j'en reviens). Para ir a un lugar se usa y: je veux y aller."
+    },
+    {
+     "respuesta": "le",
+     "explicacion": "Le sustituye un complemento directo, pero aller no tiene complemento directo: aller au concert, y."
+    }
+   ]
+  },
+  {
+   "id": "e05",
+   "tipo": "eleccion",
+   "enunciado": "Elige el pronombre correcto.",
+   "frase": "Ce dictionnaire ? Il ___ a besoin.",
+   "opciones": [
+    "en",
+    "y",
+    "le"
+   ],
+   "respuestas": [
+    "en"
+   ],
+   "explicacion": "Se aplica la última fila de la tabla: en sustituye a de + cosa con expresiones como avoir besoin de. La pista es la estructura il ___ a besoin, que en forma completa sería «il a besoin de ce dictionnaire». Aunque en español decimos «lo necesita», con un complemento directo, en francés la preposición de manda, y se usa en: «il en a besoin».",
+   "origen": "tatoeba:661421",
+   "explicacion_breve": "Avoir besoin de + cosa: en.",
+   "traduccion": "¿Este diccionario? Lo necesita.",
+   "por_opcion": {
+    "en": "Correcta: avoir besoin de + cosa se sustituye por en: il en a besoin.",
+    "y": "Incorrecta: y sustituye complementos con à o de lugar. Avoir besoin lleva de.",
+    "le": "Incorrecta: es el calco del español «lo necesita». Avoir besoin no tiene complemento directo, sino de + cosa."
+   }
+  },
+  {
+   "id": "e06",
+   "tipo": "transformar",
+   "enunciado": "Sustituye el complemento de lugar por y.",
+   "frase": "Je vais à la montagne tous les ans.",
+   "respuestas": [
+    "J'y vais tous les ans."
+   ],
+   "explicacion": "Se aplica la primera fila de la tabla: y sustituye un lugar introducido por à, en, dans, chez… La pista es «à la montagne», complemento de lugar del verbo aller. El pronombre y va delante del verbo conjugado y je se apostrofa: «J'y vais tous les ans.». El marcador tous les ans no forma parte del lugar y se mantiene.",
+   "origen": "tatoeba:135279",
+   "explicacion_breve": "Lugar introducido por à: y delante del verbo.",
+   "traduccion": "Voy (allí) todos los años.",
+   "errores_previstos": [
+    {
+     "respuesta": "Je vais tous les ans.",
+     "explicacion": "Falta y: aller necesita el complemento de lugar, y si ya se sabe cuál es, se pone y."
+    },
+    {
+     "respuesta": "Je y vais tous les ans.",
+     "explicacion": "Je se apostrofa delante de vocal: j'y vais."
+    },
+    {
+     "respuesta": "J'en vais tous les ans.",
+     "explicacion": "En sustituye complementos con de. Un lugar adonde se va con à se sustituye por y."
+    }
+   ]
+  },
+  {
+   "id": "e07",
+   "tipo": "corregir",
+   "enunciado": "Corrige el error.",
+   "frase": "Je n'en pas veux.",
+   "respuestas": [
+    "Je n'en veux pas."
+   ],
+   "explicacion": "El error está en el orden de la negación con pronombre. Según la regla de posición de Reglas y claves, en va pegado delante del verbo conjugado; ne se pone delante del pronombre y pas detrás del verbo. La pista es que solo hay un verbo conjugado, veux, que debe quedar entre en y pas. La frase correcta es «Je n'en veux pas.».",
+   "origen": "tatoeba:977482",
+   "explicacion_breve": "El pronombre va entre ne y el verbo; pas va detrás del verbo.",
+   "traduccion": "No quiero (de eso).",
+   "errores_previstos": [
+    {
+     "respuesta": "Je n'en pas veux.",
+     "explicacion": "Es dejar la frase sin corregir. Pas va detrás del verbo conjugado: je n'en veux pas."
+    },
+    {
+     "respuesta": "Je ne veux pas en.",
+     "explicacion": "En no puede ir al final; va delante del verbo: je n'en veux pas."
+    },
+    {
+     "respuesta": "Je ne en veux pas.",
+     "explicacion": "Ne se apostrofa delante de vocal: n'en."
+    }
+   ]
+  },
+  {
+   "id": "e08",
+   "tipo": "corregir",
+   "enunciado": "Corrige el error.",
+   "frase": "Ma sœur ? J'y pense souvent.",
+   "respuestas": [
+    "Ma sœur ? Je pense souvent à elle."
+   ],
+   "explicacion": "El error es usar y con una persona. Reglas y claves explica que y no sustituye a personas: con penser à y s'intéresser à + persona se usa el pronombre tónico detrás de la preposición. La pista es «ma sœur», una persona femenina. Por eso se dice «je pense souvent à elle», con à + elle, y el adverbio souvent detrás del verbo.",
+   "explicacion_breve": "Con personas, penser à lleva el pronombre tónico (à elle), no y.",
+   "traduccion": "¿Mi hermana? Pienso a menudo en ella.",
+   "errores_previstos": [
+    {
+     "respuesta": "Ma sœur ? J'y pense souvent.",
+     "explicacion": "Es dejar la frase sin corregir. Con personas, penser à lleva pronombre tónico: je pense à elle."
+    },
+    {
+     "respuesta": "Ma sœur ? Je lui pense souvent.",
+     "explicacion": "Penser à es una excepción: no admite lui delante del verbo; exige à + pronombre tónico: je pense à elle."
+    },
+    {
+     "respuesta": "Ma sœur ? Je pense souvent à lui.",
+     "explicacion": "Lui es masculino. Para ma sœur, femenino, se usa elle: à elle."
+    }
+   ]
+  },
+  {
+   "id": "e09",
+   "tipo": "ordenar",
+   "enunciado": "Ordena las palabras.",
+   "palabras": [
+    "avec",
+    "elle",
+    "vais",
+    "J'y"
+   ],
+   "respuestas": [
+    "J'y vais avec elle"
+   ],
+   "explicacion": "Se aplica la regla de posición: y va pegado delante del verbo conjugado, y en este caso ya viene unido al sujeto (j'y). La pista es la palabra J'y, que solo puede ir al principio y seguida de vais. Después va el complemento de compañía avec elle, con el pronombre tónico elle tras la preposición. Así queda «J'y vais avec elle».",
+   "origen": "tatoeba:6178242",
+   "explicacion_breve": "Y va pegado delante del verbo.",
+   "traduccion": "Voy (allí) con ella.",
+   "errores_previstos": [
+    {
+     "respuesta": "J'y avec elle vais",
+     "explicacion": "Y va inmediatamente delante del verbo; avec elle va detrás: j'y vais avec elle."
+    },
+    {
+     "respuesta": "Avec elle j'y vais",
+     "explicacion": "Calco del español «con ella voy». Sin pausa ni énfasis especial, el complemento va detrás del verbo: j'y vais avec elle."
+    }
+   ]
+  },
+  {
+   "id": "e10",
+   "tipo": "eleccion",
+   "enunciado": "Elige el pronombre correcto.",
+   "frase": "Des pommes ? Il y ___ a trois sur la table.",
+   "opciones": [
+    "en",
+    "y",
+    "les"
+   ],
+   "respuestas": [
+    "en"
+   ],
+   "explicacion": "Se aplican dos reglas de Reglas y claves: con un número, en sustituye al nombre y el número se repite al final, y cuando y y en van juntos, y va primero (il y en a). La pista es el numeral trois, que queda sin nombre. En español decimos «hay tres», pero en francés en es obligatorio: «il y en a trois».",
+   "explicacion_breve": "Cantidad (trois): il y en a trois.",
+   "traduccion": "¿Manzanas? Hay tres en la mesa.",
+   "por_opcion": {
+    "en": "Correcta: con una cantidad (trois) en sustituye al nombre des pommes: il y en a trois.",
+    "y": "Incorrecta: la y de il y a ya está en la frase. Lo que falta es el pronombre de cantidad en.",
+    "les": "Incorrecta: les sustituye un complemento directo determinado. Il y a no lleva complemento directo pronominal y, con número, se usa en."
+   }
+  },
+  {
+   "id": "e11",
+   "tipo": "transformar",
+   "enunciado": "Sustituye el complemento por y en esta orden.",
+   "frase": "Va au marché !",
+   "respuestas": [
+    "Vas-y !",
+    "Vas-y!"
+   ],
+   "explicacion": "Se aplica la regla de Reglas y claves para el imperativo afirmativo: y y en van detrás del verbo, unidos con guion. Además, la forma va, que normalmente no lleva -s en imperativo, la recupera delante de y para que se enlace con sonido z: «vas-y». La pista es que la frase es una orden afirmativa y que au marché es un lugar con à. En negativa volvería delante: n'y va pas.",
+   "explicacion_breve": "Imperativo afirmativo: y detrás con guion, y va recupera la -s: vas-y.",
+   "traduccion": "¡Ve (allí)!",
+   "errores_previstos": [
+    {
+     "respuesta": "Va-y !",
+     "explicacion": "Falta la -s de enlace: delante de y, va pasa a vas: vas-y."
+    },
+    {
+     "respuesta": "Y va !",
+     "explicacion": "En el imperativo afirmativo el pronombre va detrás con guion: vas-y."
+    },
+    {
+     "respuesta": "Vas-en !",
+     "explicacion": "En sustituiría un complemento con de. Au marché es un lugar con à: vas-y."
+    }
+   ]
+  },
+  {
+   "id": "e12",
+   "tipo": "hueco",
+   "enunciado": "Completa con y o en.",
+   "frase": "Dépêche-toi, on ___ va !",
+   "respuestas": [
+    "y"
+   ],
+   "explicacion": "Se aplica la primera fila de la tabla: y sustituye un lugar, aunque en la expresión fija on y va el lugar ni siquiera se menciona: es la manera corriente de decir «vamos» o «nos vamos». La pista es el verbo va (aller) y el contexto de prisa. El pronombre y va delante del verbo conjugado: «on y va». Sin y, «on va» quedaría incompleto.",
+   "origen": "tatoeba:913949",
+   "explicacion_breve": "On y va: vamos (allí); y es el lugar.",
+   "traduccion": "¡Date prisa, nos vamos!",
+   "errores_previstos": [
+    {
+     "respuesta": "en",
+     "explicacion": "On s'en va también existe (nos vamos de aquí), pero lleva se. «On en va» no existe: on y va."
+    }
+   ]
+  },
+  {
+   "id": "e13",
+   "tipo": "transformar",
+   "enunciado": "Sustituye el complemento por en.",
+   "frase": "Elle a une voiture.",
+   "respuestas": [
+    "Elle en a une."
+   ],
+   "explicacion": "Se aplica la regla del número de Reglas y claves: en sustituye al nombre (voiture) y el numeral une se conserva al final, en femenino porque voiture es femenino. La pista es el artículo une, que en francés funciona también como numeral. En va delante del verbo conjugado: «Elle en a une.». El español dice «tiene uno» sin pronombre, por eso se olvida en.",
+   "origen": "tatoeba:10305025",
+   "explicacion_breve": "En sustituye al nombre; el numeral une se conserva al final.",
+   "traduccion": "Ella tiene uno.",
+   "errores_previstos": [
+    {
+     "respuesta": "Elle a une.",
+     "explicacion": "Falta en: con un número sin nombre, en es obligatorio. Elle en a une."
+    },
+    {
+     "respuesta": "Elle l'a.",
+     "explicacion": "La sustituye un coche concreto ya conocido (la voiture). Para «tiene uno» se usa en + une."
+    },
+    {
+     "respuesta": "Elle en a un.",
+     "explicacion": "El numeral concuerda con voiture, que es femenino: une."
+    }
+   ]
+  },
+  {
+   "id": "e14",
+   "tipo": "eleccion",
+   "enunciado": "Elige el pronombre correcto.",
+   "frase": "Tu as répondu à son courriel ? — Oui, j'___ ai répondu.",
+   "opciones": [
+    "y",
+    "lui",
+    "en"
+   ],
+   "respuestas": [
+    "y"
+   ],
+   "explicacion": "Se aplica la segunda fila de la tabla: y sustituye a à + cosa con verbos como répondre à. La pista es «à son courriel», un correo, es decir, una cosa. En el passé composé, y va delante del auxiliar: «j'y ai répondu». Si se respondiera a una persona, se usaría lui (je lui ai répondu).",
+   "explicacion_breve": "Répondre à + cosa (un correo): y.",
+   "traduccion": "¿Has contestado a su correo? — Sí, lo he contestado.",
+   "por_opcion": {
+    "y": "Correcta: répondre à + cosa (un correo) se sustituye por y: j'y ai répondu.",
+    "lui": "Incorrecta aquí: lui sustituye à + persona (répondre à Paul). Un correo es una cosa.",
+    "en": "Incorrecta: en sustituye complementos con de. Répondre rige à."
+   },
+   "glosario": [
+    {
+     "palabra": "le courriel",
+     "significado": "el correo electrónico"
+    }
+   ]
+  },
+  {
+   "id": "e15",
+   "tipo": "eleccion",
+   "enunciado": "Elige el pronombre correcto.",
+   "frase": "Tu as parlé à Paul ? — Oui, je ___ ai parlé.",
+   "opciones": [
+    "lui",
+    "y",
+    "en"
+   ],
+   "respuestas": [
+    "lui"
+   ],
+   "explicacion": "Se aplica la nota de Reglas y claves: y y en no se usan con personas, y à + persona se sustituye por el pronombre indirecto lui o leur. La pista es «à Paul», una persona. Con parler à, a diferencia de penser à, el pronombre indirecto va delante del auxiliar: «je lui ai parlé». El español «hablar con» no debe llevar a usar avec ni y.",
+   "explicacion_breve": "Parler à + persona: pronombre indirecto lui, no y.",
+   "traduccion": "¿Has hablado con Paul? — Sí, he hablado con él.",
+   "por_opcion": {
+    "lui": "Correcta: parler à + persona se sustituye por el pronombre indirecto lui: je lui ai parlé.",
+    "y": "Incorrecta: y no sustituye a personas; con parler à + persona se usa lui.",
+    "en": "Incorrecta: en sustituiría parler de (hablar de algo): j'en ai parlé. Aquí es parler à Paul."
+   }
+  },
+  {
+   "id": "e16",
+   "tipo": "hueco",
+   "enunciado": "Completa con y o en.",
+   "frase": "Tu as vu des films français ? — Oui, j'___ ai vu beaucoup.",
+   "respuestas": [
+    "en"
+   ],
+   "explicacion": "Se aplica la regla de la cantidad: en sustituye al nombre (des films français) y la expresión de cantidad beaucoup se mantiene, al final. La pista es beaucoup, que queda sin nombre. En el passé composé, en va delante del auxiliar y, como recuerda la explicación del ejercicio, el participio vu no concuerda con en: «j'en ai vu beaucoup».",
+   "explicacion_breve": "Expresión de cantidad (beaucoup): en, sin concordancia del participio.",
+   "traduccion": "¿Has visto películas francesas? — Sí, he visto muchas.",
+   "errores_previstos": [
+    {
+     "respuesta": "y",
+     "explicacion": "Y sustituye lugares o à + cosa. Con una cantidad (beaucoup) se usa en."
+    },
+    {
+     "respuesta": "les",
+     "explicacion": "Les sustituiría unas películas concretas (je les ai vus). Con una cantidad, en."
+    }
+   ]
+  }
  ],
- "fuente": {"nombre": "Tex's French Grammar", "autores": "COERLL, Universidad de Texas en Austin", "licencia": "CC BY 3.0", "url": "https://laits.utexas.edu/tex/gr/pro6.html", "otras": ["Frases de Tatoeba (CC BY 2.0 FR)"]}
+ "fuente": {
+  "nombre": "Tex's French Grammar",
+  "autores": "COERLL, Universidad de Texas en Austin",
+  "licencia": "CC BY 3.0",
+  "url": "https://laits.utexas.edu/tex/gr/pro6.html",
+  "otras": [
+   "Frases de Tatoeba (CC BY 2.0 FR)"
+  ]
+ },
+ "descripcion_larga_es": "Y y en son dos pronombres adverbiales sin equivalente exacto en español. Y sustituye un lugar o un complemento con à que no es persona (j'y vais, j'y pense); en sustituye un complemento con de, un partitivo o un nombre acompañado de número o cantidad (j'en veux, j'en ai deux). Son obligatorios, y el hispanohablante los omite porque en español no se dice nada.",
+ "contexto": {
+  "que_es": "Son pronombres que evitan repetir un complemento. Y sustituye un complemento de lugar (introducido por à, en, dans, chez…) o un complemento con à referido a una cosa o idea. En sustituye un complemento con de, un nombre con partitivo (du, de la, des) o un nombre precedido de un número o una expresión de cantidad, que se repite al final.",
+  "por_que_importa": "Aparecen en expresiones de uso constante (on y va, il y en a, je n'en sais rien, vas-y) y su omisión es una de las marcas más claras de hablante extranjero: «j'ai deux» o «je vais» a secas suenan incompletos. En un examen de nivel B1 se evalúa precisamente la sustitución de complementos para no repetir, tanto en la expresión escrita como en la oral.",
+  "cuando_se_usa": "Cuando el complemento ya es conocido y no se quiere repetir: en respuestas (Tu vas à Paris ? Oui, j'y vais), al hablar de cantidades (j'en ai trois) o con verbos que rigen à o de (penser à, avoir besoin de). La pista es la preposición que pide el verbo y si el complemento es persona o cosa. El hispanohablante tiende a no poner nada, porque en español «voy» o «tengo dos» bastan, o a usar y con personas."
+ }
 }

@@ -6,51 +6,488 @@
  "nivel": "B1",
  "resumen": "Se forma con have/has been + verbo en -ing. Sirve para hablar de una actividad que empezó en el pasado y continúa ahora (o acaba de terminar), poniendo el acento en la duración.",
  "explicacion": [
-  {"tipo": "tabla", "cabecera": ["Forma", "Ejemplo"], "filas": [
-   ["Afirmativa: have/has been + -ing", "She has been working here for two years."],
-   ["Negativa: haven't/hasn't been + -ing", "I haven't been sleeping well lately."],
-   ["Pregunta: have/has + sujeto + been + -ing", "How long have you been waiting?"]
-  ]},
-  {"tipo": "texto", "texto": "Equivale a menudo al español «llevar + gerundio» o «hace … que»: «Llevo una hora esperando» = I have been waiting for an hour. En inglés NO se usa el presente simple para esto."},
-  {"tipo": "tabla", "cabecera": ["for (duración)", "since (punto de inicio)"], "filas": [
-   ["for ten minutes, for three years, for ages", "since 9 o'clock, since Monday, since 2020"],
-   ["for a long time", "since I was a child"]
-  ]},
-  {"tipo": "lista", "items": [
-   "Duración de algo que sigue: It has been raining all day.",
-   "Actividad reciente con resultado visible: Your eyes are red. Have you been crying?",
-   "Con how long se pregunta por la duración: How long have they been living in Madrid?"
-  ]},
-  {"tipo": "texto", "texto": "Continuo frente a simple: el continuo destaca la actividad y su duración (I've been reading this book all week); el simple destaca el resultado o la cantidad terminada (I've read three chapters). Con verbos de estado (know, like, want, believe, own) se usa el simple: I've known her for years, no I've been knowing."}
+  {
+   "tipo": "tabla",
+   "cabecera": [
+    "Forma",
+    "Ejemplo"
+   ],
+   "filas": [
+    [
+     "Afirmativa: have/has been + -ing",
+     "She has been working here for two years."
+    ],
+    [
+     "Negativa: haven't/hasn't been + -ing",
+     "I haven't been sleeping well lately."
+    ],
+    [
+     "Pregunta: have/has + sujeto + been + -ing",
+     "How long have you been waiting?"
+    ]
+   ]
+  },
+  {
+   "tipo": "texto",
+   "texto": "Equivale a menudo al español «llevar + gerundio» o «hace … que»: «Llevo una hora esperando» = I have been waiting for an hour. En inglés NO se usa el presente simple para esto."
+  },
+  {
+   "tipo": "tabla",
+   "cabecera": [
+    "for (duración)",
+    "since (punto de inicio)"
+   ],
+   "filas": [
+    [
+     "for ten minutes, for three years, for ages",
+     "since 9 o'clock, since Monday, since 2020"
+    ],
+    [
+     "for a long time",
+     "since I was a child"
+    ]
+   ]
+  },
+  {
+   "tipo": "lista",
+   "items": [
+    "Duración de algo que sigue: It has been raining all day.",
+    "Actividad reciente con resultado visible: Your eyes are red. Have you been crying?",
+    "Con how long se pregunta por la duración: How long have they been living in Madrid?"
+   ]
+  },
+  {
+   "tipo": "texto",
+   "texto": "Continuo frente a simple: el continuo destaca la actividad y su duración (I've been reading this book all week); el simple destaca el resultado o la cantidad terminada (I've read three chapters). Con verbos de estado (know, like, want, believe, own) se usa el simple: I've known her for years, no I've been knowing."
+  }
  ],
  "ejemplos": [
-  {"frase": "We have been living in this flat since March.", "traduccion": "Vivimos en este piso desde marzo."},
-  {"frase": "How long have you been learning English?", "traduccion": "¿Cuánto tiempo llevas aprendiendo inglés?"},
-  {"frase": "I'm tired because I've been running.", "traduccion": "Estoy cansado porque he estado corriendo."},
-  {"frase": "It has been snowing for three days.", "traduccion": "Lleva tres días nevando."},
-  {"frase": "She hasn't been feeling well recently.", "traduccion": "No se encuentra bien últimamente."},
-  {"frase": "They've been arguing about money for weeks.", "traduccion": "Llevan semanas discutiendo por dinero."}
+  {
+   "frase": "We have been living in this flat since March.",
+   "traduccion": "Vivimos en este piso desde marzo."
+  },
+  {
+   "frase": "How long have you been learning English?",
+   "traduccion": "¿Cuánto tiempo llevas aprendiendo inglés?"
+  },
+  {
+   "frase": "I'm tired because I've been running.",
+   "traduccion": "Estoy cansado porque he estado corriendo."
+  },
+  {
+   "frase": "It has been snowing for three days.",
+   "traduccion": "Lleva tres días nevando."
+  },
+  {
+   "frase": "She hasn't been feeling well recently.",
+   "traduccion": "No se encuentra bien últimamente."
+  },
+  {
+   "frase": "They've been arguing about money for weeks.",
+   "traduccion": "Llevan semanas discutiendo por dinero."
+  }
  ],
  "errores_hispanohablantes": [
-  {"mal": "I am waiting for you since five o'clock.", "bien": "I have been waiting for you since five o'clock.", "nota": "«Llevo esperando desde…» no se traduce con presente continuo, sino con present perfect continuous."},
-  {"mal": "I've been knowing him for ten years.", "bien": "I've known him for ten years.", "nota": "Know es un verbo de estado: no admite la forma continua."},
-  {"mal": "She has been working here since two years.", "bien": "She has been working here for two years.", "nota": "Con un periodo de tiempo se usa for; since va con el momento de inicio."}
+  {
+   "mal": "I am waiting for you since five o'clock.",
+   "bien": "I have been waiting for you since five o'clock.",
+   "nota": "«Llevo esperando desde…» no se traduce con presente continuo, sino con present perfect continuous."
+  },
+  {
+   "mal": "I've been knowing him for ten years.",
+   "bien": "I've known him for ten years.",
+   "nota": "Know es un verbo de estado: no admite la forma continua."
+  },
+  {
+   "mal": "She has been working here since two years.",
+   "bien": "She has been working here for two years.",
+   "nota": "Con un periodo de tiempo se usa for; since va con el momento de inicio."
+  }
  ],
  "ejercicios": [
-  {"id": "e01", "tipo": "hueco", "enunciado": "Completa con el present perfect continuous.", "frase": "I ___ (wait) for the bus for twenty minutes.", "respuestas": ["have been waiting", "'ve been waiting"], "explicacion": "Acción que empezó en el pasado y sigue: have been + -ing."},
-  {"id": "e02", "tipo": "hueco", "enunciado": "Completa con el present perfect continuous.", "frase": "She ___ (study) French since she was twelve.", "respuestas": ["has been studying", "'s been studying"], "explicacion": "Tercera persona: has been + -ing."},
-  {"id": "e03", "tipo": "hueco", "enunciado": "Completa con for o since.", "frase": "They have been playing tennis ___ two hours.", "respuestas": ["for"], "explicacion": "Two hours es una duración, por eso for."},
-  {"id": "e04", "tipo": "hueco", "enunciado": "Completa con for o since.", "frase": "It has been raining ___ last night.", "respuestas": ["since"], "explicacion": "Last night es el punto de inicio, por eso since."},
-  {"id": "e05", "tipo": "eleccion", "enunciado": "Elige la opción correcta.", "frase": "How long ___ for this company?", "opciones": ["are you working", "have you been working", "do you work"], "respuestas": ["have you been working"], "explicacion": "How long + acción que continúa pide present perfect continuous."},
-  {"id": "e06", "tipo": "eleccion", "enunciado": "Elige la opción correcta.", "frase": "I ___ Laura since we were at school.", "opciones": ["have known", "have been knowing", "know"], "respuestas": ["have known"], "explicacion": "Know es un verbo de estado y no va en forma continua."},
-  {"id": "e07", "tipo": "eleccion", "enunciado": "Elige la opción correcta.", "frase": "Your hands are dirty. What ___?", "opciones": ["have you done", "have you been doing", "did you do"], "respuestas": ["have you been doing"], "explicacion": "Actividad reciente con resultado visible: forma continua."},
-  {"id": "e08", "tipo": "eleccion", "enunciado": "Elige la opción correcta.", "frase": "I've ___ three emails this morning.", "opciones": ["written", "been writing", "write"], "respuestas": ["written"], "explicacion": "Se indica una cantidad terminada (three emails): present perfect simple."},
-  {"id": "e09", "tipo": "corregir", "enunciado": "Corrige el error.", "frase": "We are living here since 2018.", "respuestas": ["We have been living here since 2018.", "We've been living here since 2018.", "We have lived here since 2018.", "We've lived here since 2018."], "explicacion": "Con since para algo que continúa se usa have been + -ing, no el presente continuo."},
-  {"id": "e10", "tipo": "corregir", "enunciado": "Corrige el error.", "frase": "He has been driving since three hours.", "respuestas": ["He has been driving for three hours.", "He's been driving for three hours."], "explicacion": "Three hours es una duración: for, no since."},
-  {"id": "e11", "tipo": "transformar", "enunciado": "Convierte en pregunta con How long.", "frase": "You have been learning the piano.", "respuestas": ["How long have you been learning the piano?"], "explicacion": "How long + have + sujeto + been + -ing."},
-  {"id": "e12", "tipo": "transformar", "enunciado": "Pasa la frase a negativa.", "frase": "She has been sleeping well.", "respuestas": ["She hasn't been sleeping well.", "She has not been sleeping well."], "explicacion": "La negación va con has: hasn't been + -ing."},
-  {"id": "e13", "tipo": "ordenar", "enunciado": "Ordena las palabras.", "palabras": ["been", "they", "for", "have", "ages", "talking"], "respuestas": ["they have been talking for ages"], "explicacion": "Sujeto + have been + -ing + for + duración."},
-  {"id": "e14", "tipo": "ordenar", "enunciado": "Ordena las palabras.", "palabras": ["you", "long", "waiting", "how", "been", "have"], "respuestas": ["how long have you been waiting"], "explicacion": "How long + have + sujeto + been + -ing."}
+  {
+   "id": "e01",
+   "tipo": "hueco",
+   "enunciado": "Completa con el present perfect continuous.",
+   "frase": "I ___ (wait) for the bus for twenty minutes.",
+   "respuestas": [
+    "have been waiting",
+    "'ve been waiting"
+   ],
+   "explicacion": "Se aplica la forma afirmativa de la tabla: have/has been + -ing. La pista es for twenty minutes, que mide la duración de una espera que empezó en el pasado y todavía continúa. Con el sujeto I se usa have, que puede contraerse: I have been waiting o I've been waiting. Es exactamente el caso del español «llevar + gerundio».",
+   "explicacion_breve": "Acción que empezó en el pasado y sigue: have been + -ing.",
+   "traduccion": "Llevo veinte minutos esperando el autobús.",
+   "errores_previstos": [
+    {
+     "respuesta": "am waiting",
+     "explicacion": "Calco del presente español («espero desde hace»): con for y una acción que dura hasta ahora el inglés usa have been waiting."
+    },
+    {
+     "respuesta": "have been wait",
+     "explicacion": "Tras been el verbo va en -ing: have been waiting."
+    },
+    {
+     "respuesta": "has been waiting",
+     "explicacion": "Con I el auxiliar es have; has es solo para la tercera persona del singular."
+    }
+   ]
+  },
+  {
+   "id": "e02",
+   "tipo": "hueco",
+   "enunciado": "Completa con el present perfect continuous.",
+   "frase": "She ___ (study) French since she was twelve.",
+   "respuestas": [
+    "has been studying",
+    "'s been studying"
+   ],
+   "explicacion": "Se aplica la forma afirmativa de la tabla con sujeto de tercera persona: has been + -ing. La pista es since she was twelve, que marca el punto de inicio de una actividad que sigue en el presente. Por eso es she has been studying (o she's been studying). Fíjate en que el español usa aquí el presente («estudia desde…»), pero el inglés necesita el present perfect continuous.",
+   "explicacion_breve": "Tercera persona: has been + -ing.",
+   "traduccion": "Estudia francés desde los doce años.",
+   "errores_previstos": [
+    {
+     "respuesta": "studies",
+     "explicacion": "Calco del presente español: con since y una actividad que continúa se usa has been studying."
+    },
+    {
+     "respuesta": "have been studying",
+     "explicacion": "Con she el auxiliar es has, no have."
+    },
+    {
+     "respuesta": "is studying",
+     "explicacion": "El presente continuo no se combina con since para expresar duración hasta ahora: has been studying."
+    }
+   ]
+  },
+  {
+   "id": "e03",
+   "tipo": "hueco",
+   "enunciado": "Completa con for o since.",
+   "frase": "They have been playing tennis ___ two hours.",
+   "respuestas": [
+    "for"
+   ],
+   "explicacion": "Se aplica la tabla de for y since: for va con una duración y since con un punto de inicio. La pista es two hours, que es una cantidad de tiempo, no un momento del reloj ni una fecha. Por eso va for. Una prueba sencilla: si puedes contestar a «¿cuánto tiempo?», es for; si contestas a «¿desde cuándo?», es since.",
+   "explicacion_breve": "Two hours es una duración, por eso for.",
+   "traduccion": "Llevan dos horas jugando al tenis.",
+   "errores_previstos": [
+    {
+     "respuesta": "since",
+     "explicacion": "Since necesita un punto de inicio (since 3 o'clock); two hours es una duración y pide for."
+    },
+    {
+     "respuesta": "during",
+     "explicacion": "During significa «durante» un periodo concreto (during the match); para la duración hasta ahora se usa for."
+    },
+    {
+     "respuesta": "from",
+     "explicacion": "Calco de «desde hace»: from necesita un to o un momento de inicio, no una duración."
+    }
+   ]
+  },
+  {
+   "id": "e04",
+   "tipo": "hueco",
+   "enunciado": "Completa con for o since.",
+   "frase": "It has been raining ___ last night.",
+   "respuestas": [
+    "since"
+   ],
+   "explicacion": "Se aplica la tabla de for y since. La pista es last night, que es un momento concreto en el que empezó la lluvia, no una cantidad de tiempo; por eso va since. La frase completa usa la forma de la ficha para la duración de algo que sigue: It has been raining since last night. Recuerda que con last no se pone ninguna otra preposición delante (no «since the last night»).",
+   "explicacion_breve": "Last night es el punto de inicio, por eso since.",
+   "traduccion": "Llueve desde anoche.",
+   "errores_previstos": [
+    {
+     "respuesta": "for",
+     "explicacion": "For va con duraciones (for two hours); last night es el punto de inicio y pide since."
+    },
+    {
+     "respuesta": "from",
+     "explicacion": "Calco de «desde»: from se usa con from… to…; para el inicio de algo que sigue ahora, since."
+    },
+    {
+     "respuesta": "since the",
+     "explicacion": "Con last no se usa artículo: since last night."
+    }
+   ]
+  },
+  {
+   "id": "e05",
+   "tipo": "eleccion",
+   "enunciado": "Elige la opción correcta.",
+   "frase": "How long ___ for this company?",
+   "opciones": [
+    "are you working",
+    "have you been working",
+    "do you work"
+   ],
+   "respuestas": [
+    "have you been working"
+   ],
+   "explicacion": "Se aplica la estructura de la pregunta de la tabla, have/has + sujeto + been + -ing, y la nota según la cual con how long se pregunta por la duración. La pista es How long, que pide un tiempo que llega hasta ahora. Por eso es have you been working. El español dice «¿cuánto llevas trabajando?», sin pretérito perfecto, lo que invita a usar el presente; en inglés eso es un error.",
+   "explicacion_breve": "How long + acción que continúa pide present perfect continuous.",
+   "traduccion": "¿Cuánto tiempo llevas trabajando para esta empresa?",
+   "por_opcion": {
+    "are you working": "Incorrecta: el presente continuo no expresa duración hasta ahora; how long are you working preguntaría, como mucho, por un plan futuro.",
+    "have you been working": "Correcta: how long + have + sujeto + been + -ing para una actividad que empezó en el pasado y sigue.",
+    "do you work": "Incorrecta: el presente simple con how long es un calco del español; no expresa la duración hasta el momento actual."
+   }
+  },
+  {
+   "id": "e06",
+   "tipo": "eleccion",
+   "enunciado": "Elige la opción correcta.",
+   "frase": "I ___ Laura since we were at school.",
+   "opciones": [
+    "have known",
+    "have been knowing",
+    "know"
+   ],
+   "respuestas": [
+    "have known"
+   ],
+   "explicacion": "Se aplica la nota de la ficha según la cual con verbos de estado (know, like, want, believe, own) se usa el present perfect simple y no la forma continua. La pista es el verbo know, que no describe una actividad sino un estado, junto con since, que pide present perfect. Por eso es have known, aunque en español usemos el presente «conozco».",
+   "explicacion_breve": "Know es un verbo de estado y no va en forma continua.",
+   "traduccion": "Conozco a Laura desde que íbamos al colegio.",
+   "por_opcion": {
+    "have known": "Correcta: present perfect simple, porque know es un verbo de estado que no admite la forma continua.",
+    "have been knowing": "Incorrecta: know es un verbo de estado y no se usa en forma continua.",
+    "know": "Incorrecta: calco del presente español; con since para algo que dura hasta ahora hace falta el present perfect."
+   }
+  },
+  {
+   "id": "e07",
+   "tipo": "eleccion",
+   "enunciado": "Elige la opción correcta.",
+   "frase": "Your hands are dirty. What ___?",
+   "opciones": [
+    "have you done",
+    "have you been doing",
+    "did you do"
+   ],
+   "respuestas": [
+    "have you been doing"
+   ],
+   "explicacion": "Se aplica la nota de la ficha sobre la actividad reciente con resultado visible: se usa la forma continua para preguntar por la actividad que explica lo que vemos ahora. La pista es Your hands are dirty: las manos sucias son la consecuencia de algo que la persona ha estado haciendo hasta hace un momento. Por eso es What have you been doing?, que pregunta por la actividad, no por un resultado terminado.",
+   "explicacion_breve": "Actividad reciente con resultado visible: forma continua.",
+   "traduccion": "Tienes las manos sucias. ¿Qué has estado haciendo?",
+   "por_opcion": {
+    "have you done": "Incorrecta aquí: el present perfect simple pregunta por algo terminado o su resultado (What have you done? suena a «¿qué has hecho?», casi un reproche por una trastada). Lo que explica las manos sucias es la actividad.",
+    "have you been doing": "Correcta: forma continua para una actividad reciente con resultado visible.",
+    "did you do": "Incorrecta: el past simple sitúa la acción en un momento pasado terminado, y aquí la actividad está conectada con el presente."
+   }
+  },
+  {
+   "id": "e08",
+   "tipo": "eleccion",
+   "enunciado": "Elige la opción correcta.",
+   "frase": "I've ___ three emails this morning.",
+   "opciones": [
+    "written",
+    "been writing",
+    "write"
+   ],
+   "respuestas": [
+    "written"
+   ],
+   "explicacion": "Se aplica la nota de la ficha sobre continuo frente a simple: el continuo destaca la actividad y su duración, mientras que el simple destaca el resultado o la cantidad terminada. La pista es three emails, una cantidad concreta de cosas acabadas. Por eso va el present perfect simple, I've written. Con la forma continua se diría I've been writing emails all morning, sin cantidad.",
+   "explicacion_breve": "Se indica una cantidad terminada (three emails): present perfect simple.",
+   "traduccion": "He escrito tres correos esta mañana.",
+   "por_opcion": {
+    "written": "Correcta: present perfect simple (I've written) para una cantidad terminada.",
+    "been writing": "Incorrecta: la forma continua no se combina con una cantidad concreta de cosas acabadas; se diría I've been writing emails all morning.",
+    "write": "Incorrecta: tras have hace falta el participio (written), no el infinitivo."
+   }
+  },
+  {
+   "id": "e09",
+   "tipo": "corregir",
+   "enunciado": "Corrige el error.",
+   "frase": "We are living here since 2018.",
+   "respuestas": [
+    "We have been living here since 2018.",
+    "We've been living here since 2018.",
+    "We have lived here since 2018.",
+    "We've lived here since 2018."
+   ],
+   "explicacion": "Se aplica la nota de la ficha según la cual el inglés no usa el presente para expresar algo que empezó en el pasado y sigue. La pista es since 2018, un punto de inicio pasado de una situación que continúa. La corrección esperada es We have been living here since 2018. También se acepta el present perfect simple (We have lived here since 2018), porque con live, work o study los dos son correctos y casi intercambiables; el continuo pone algo más el acento en la duración o en lo temporal.",
+   "explicacion_breve": "Con since para algo que continúa se usa have been + -ing (o el present perfect simple, have lived), no el presente continuo.",
+   "traduccion": "Vivimos aquí desde 2018.",
+   "errores_previstos": [
+    {
+     "respuesta": "We are living here since 2018.",
+     "explicacion": "Es la frase sin corregir: el presente continuo no puede ir con since para expresar duración hasta ahora."
+    },
+    {
+     "respuesta": "We live here since 2018.",
+     "explicacion": "Calco del presente español («vivimos aquí desde»): con since hace falta present perfect."
+    },
+    {
+     "respuesta": "We have been living here for 2018.",
+     "explicacion": "El tiempo está bien, pero 2018 es un punto de inicio y pide since, no for."
+    }
+   ]
+  },
+  {
+   "id": "e10",
+   "tipo": "corregir",
+   "enunciado": "Corrige el error.",
+   "frase": "He has been driving since three hours.",
+   "respuestas": [
+    "He has been driving for three hours.",
+    "He's been driving for three hours."
+   ],
+   "explicacion": "Se aplica la tabla de for y since. El tiempo verbal ya es correcto (has been driving); el error está en la preposición. La pista es three hours, una duración, no un punto de inicio, por lo que va for. Since three hours es un calco de «desde hace tres horas», que mezcla las dos ideas.",
+   "explicacion_breve": "Three hours es una duración: for, no since.",
+   "traduccion": "Lleva tres horas conduciendo.",
+   "errores_previstos": [
+    {
+     "respuesta": "He has been driving since three hours.",
+     "explicacion": "Es la frase sin corregir: con una duración se usa for."
+    },
+    {
+     "respuesta": "He has been driving during three hours.",
+     "explicacion": "During no expresa duración hasta ahora; se usa for."
+    },
+    {
+     "respuesta": "He is driving for three hours.",
+     "explicacion": "Se ha arreglado la preposición pero se ha estropeado el tiempo: hace falta has been driving."
+    }
+   ]
+  },
+  {
+   "id": "e11",
+   "tipo": "transformar",
+   "enunciado": "Convierte en pregunta con How long.",
+   "frase": "You have been learning the piano.",
+   "respuestas": [
+    "How long have you been learning the piano?"
+   ],
+   "explicacion": "Se aplica la estructura de pregunta de la tabla: how long + have/has + sujeto + been + -ing. La pista es la instrucción de preguntar por la duración, que en inglés se hace siempre con how long. Para formar la pregunta se invierte el orden del auxiliar have y el sujeto you, y been learning queda detrás: How long have you been learning the piano?",
+   "explicacion_breve": "How long + have + sujeto + been + -ing.",
+   "traduccion": "¿Cuánto tiempo llevas aprendiendo a tocar el piano?",
+   "errores_previstos": [
+    {
+     "respuesta": "How long you have been learning the piano?",
+     "explicacion": "En la pregunta el auxiliar have va delante del sujeto: have you."
+    },
+    {
+     "respuesta": "How long are you learning the piano?",
+     "explicacion": "Calco del presente: para la duración hasta ahora hace falta have you been learning."
+    },
+    {
+     "respuesta": "How long have you been learn the piano?",
+     "explicacion": "Tras been el verbo va en -ing: learning."
+    }
+   ]
+  },
+  {
+   "id": "e12",
+   "tipo": "transformar",
+   "enunciado": "Pasa la frase a negativa.",
+   "frase": "She has been sleeping well.",
+   "respuestas": [
+    "She hasn't been sleeping well.",
+    "She has not been sleeping well."
+   ],
+   "explicacion": "Se aplica la forma negativa de la tabla: haven't/hasn't been + -ing. La pista es el sujeto she, de tercera persona, cuyo auxiliar es has. La negación se coloca justo después de has, no después de been: She hasn't been sleeping well, o sin contraer, She has not been sleeping well. Been y sleeping no cambian.",
+   "explicacion_breve": "La negación va con has: hasn't been + -ing.",
+   "traduccion": "No ha estado durmiendo bien.",
+   "errores_previstos": [
+    {
+     "respuesta": "She has been not sleeping well.",
+     "explicacion": "La negación va con el auxiliar has: hasn't been, no been not."
+    },
+    {
+     "respuesta": "She doesn't have been sleeping well.",
+     "explicacion": "En el present perfect no se usa do; la negación se forma con has not."
+    },
+    {
+     "respuesta": "She haven't been sleeping well.",
+     "explicacion": "Con she el auxiliar es has: hasn't."
+    }
+   ]
+  },
+  {
+   "id": "e13",
+   "tipo": "ordenar",
+   "enunciado": "Ordena las palabras.",
+   "palabras": [
+    "been",
+    "they",
+    "for",
+    "have",
+    "ages",
+    "talking"
+   ],
+   "respuestas": [
+    "they have been talking for ages"
+   ],
+   "explicacion": "Se aplica el orden de la afirmativa: sujeto + have been + -ing + for + duración. La pista es la palabra for, que tiene que ir delante de la duración ages; for ages es una expresión coloquial que significa «una eternidad, muchísimo tiempo». Por eso queda they have been talking for ages: auxiliar, been y verbo en -ing seguidos, sin nada en medio.",
+   "explicacion_breve": "Sujeto + have been + -ing + for + duración.",
+   "traduccion": "Llevan siglos hablando.",
+   "errores_previstos": [
+    {
+     "respuesta": "they have been for ages talking",
+     "explicacion": "Calco del orden «llevan siglos hablando»: el complemento de duración va al final, tras el verbo."
+    },
+    {
+     "respuesta": "they been have talking for ages",
+     "explicacion": "El orden del auxiliar es fijo: have + been + -ing."
+    },
+    {
+     "respuesta": "they have talking been for ages",
+     "explicacion": "Been va siempre antes del verbo en -ing: have been talking."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "for ages",
+     "significado": "durante siglos, muchísimo tiempo (coloquial)"
+    }
+   ]
+  },
+  {
+   "id": "e14",
+   "tipo": "ordenar",
+   "enunciado": "Ordena las palabras.",
+   "palabras": [
+    "you",
+    "long",
+    "waiting",
+    "how",
+    "been",
+    "have"
+   ],
+   "respuestas": [
+    "how long have you been waiting"
+   ],
+   "explicacion": "Se aplica la estructura de pregunta de la ficha: how long + have + sujeto + been + -ing. La pista es la palabra how, que con long forma la expresión interrogativa de duración y va al principio. Después viene el auxiliar have, luego el sujeto you y al final been waiting. Es una de las preguntas más útiles del tema.",
+   "explicacion_breve": "How long + have + sujeto + been + -ing.",
+   "traduccion": "¿Cuánto tiempo llevas esperando?",
+   "errores_previstos": [
+    {
+     "respuesta": "how long you have been waiting",
+     "explicacion": "En la pregunta el auxiliar have va antes del sujeto: have you."
+    },
+    {
+     "respuesta": "how long have been you waiting",
+     "explicacion": "El sujeto va justo después de have, no después de been."
+    },
+    {
+     "respuesta": "have you been waiting how long",
+     "explicacion": "La expresión interrogativa how long va al principio de la pregunta."
+    }
+   ]
+  }
  ],
- "fuente": {"nombre": "propia"}
+ "fuente": {
+  "nombre": "propia"
+ },
+ "descripcion_larga_es": "El present perfect continuous (have/has been + -ing) expresa una actividad que empezó en el pasado y sigue ahora, o que acaba de terminar, poniendo el acento en la duración. Equivale a menudo a «llevar + gerundio» o «hace… que». Al hispanohablante le cuesta porque tiende a usar el presente («I am waiting since…»), a confundir for y since y a usar la forma continua con verbos de estado.",
+ "contexto": {
+  "que_es": "Es un tiempo verbal formado por have o has + been + verbo en -ing. Indica una actividad que comenzó en el pasado y continúa en el presente, o que acaba de terminar y deja un resultado visible, y destaca su duración. Suele ir acompañado de for (duración), since (punto de inicio) o de la pregunta how long.",
+  "por_que_importa": "Es la forma natural de decir cuánto tiempo llevas haciendo algo: trabajar en un sitio, estudiar un idioma, esperar a alguien. Usar el presente simple o continuo en su lugar («I work here since 2020») es uno de los errores más característicos del hispanohablante y suena muy extraño a un nativo. En una entrevista o un examen oral aparece en cuanto hablas de tu trayectoria.",
+  "cuando_se_usa": "Cuando se dice o se pregunta cuánto dura algo que sigue ocurriendo (How long have you been learning English?) o se explica un resultado visible de una actividad reciente (Your eyes are red. Have you been crying?). Las señales son for, since, how long, all day, lately. Donde el español dice «llevo dos años estudiando» o «estudio desde 2020», el inglés usa have been studying."
+ }
 }

@@ -6,53 +6,548 @@
  "nivel": "A1",
  "resumen": "El futur proche se forma con aller en presente + infinitivo, igual que «ir a + infinitivo» pero sin la preposición a; es la forma más habitual de hablar del futuro en la conversación.",
  "explicacion": [
-  {"tipo": "tabla", "cabecera": ["Persona", "aller + infinitivo", "Traducción"], "filas": [
-   ["je", "vais nager", "voy a nadar"],
-   ["tu", "vas nager", "vas a nadar"],
-   ["il / elle / on", "va nager", "va a nadar"],
-   ["nous", "allons nager", "vamos a nadar"],
-   ["vous", "allez nager", "vais a nadar / va usted a nadar"],
-   ["ils / elles", "vont nager", "van a nadar"]
-  ]},
-  {"tipo": "texto", "texto": "La gran diferencia con el español es que no hay preposición: je vais partir, no «je vais à partir». Se usa para planes e intenciones (Je vais acheter du pain) y para lo que es inminente o se ve venir (Il y a de gros nuages, il va pleuvoir)."},
-  {"tipo": "lista", "items": [
-   "Negación: ne… pas rodea a aller, no al infinitivo: Je ne vais pas nager.",
-   "Los pronombres van delante del infinitivo: Je vais le faire. Je vais me coucher.",
-   "Aller puede ir seguido de aller: Je vais aller à la plage (voy a ir a la playa).",
-   "Con aller en imperfecto expresa lo que alguien iba a hacer: Nous allions partir quand il a commencé à pleuvoir."
-  ]},
-  {"tipo": "texto", "texto": "El futur proche es propio de la lengua hablada y del escrito informal; en un texto más formal se prefiere el futuro simple (il pleuvra)."}
+  {
+   "tipo": "tabla",
+   "cabecera": [
+    "Persona",
+    "aller + infinitivo",
+    "Traducción"
+   ],
+   "filas": [
+    [
+     "je",
+     "vais nager",
+     "voy a nadar"
+    ],
+    [
+     "tu",
+     "vas nager",
+     "vas a nadar"
+    ],
+    [
+     "il / elle / on",
+     "va nager",
+     "va a nadar"
+    ],
+    [
+     "nous",
+     "allons nager",
+     "vamos a nadar"
+    ],
+    [
+     "vous",
+     "allez nager",
+     "vais a nadar / va usted a nadar"
+    ],
+    [
+     "ils / elles",
+     "vont nager",
+     "van a nadar"
+    ]
+   ]
+  },
+  {
+   "tipo": "texto",
+   "texto": "La gran diferencia con el español es que no hay preposición: je vais partir, no «je vais à partir». Se usa para planes e intenciones (Je vais acheter du pain) y para lo que es inminente o se ve venir (Il y a de gros nuages, il va pleuvoir)."
+  },
+  {
+   "tipo": "lista",
+   "items": [
+    "Negación: ne… pas rodea a aller, no al infinitivo: Je ne vais pas nager.",
+    "Los pronombres van delante del infinitivo: Je vais le faire. Je vais me coucher.",
+    "Aller puede ir seguido de aller: Je vais aller à la plage (voy a ir a la playa).",
+    "Con aller en imperfecto expresa lo que alguien iba a hacer: Nous allions partir quand il a commencé à pleuvoir."
+   ]
+  },
+  {
+   "tipo": "texto",
+   "texto": "El futur proche es propio de la lengua hablada y del escrito informal; en un texto más formal se prefiere el futuro simple (il pleuvra)."
+  }
  ],
  "ejemplos": [
-  {"frase": "Il va pleuvoir ce soir.", "traduccion": "Va a llover esta noche."},
-  {"frase": "Je vais aller à Barton Springs. Je vais nager.", "traduccion": "Voy a ir a Barton Springs. Voy a nadar."},
-  {"frase": "Tu vas adorer ce livre.", "traduccion": "Te va a encantar este libro."},
-  {"frase": "Il fait trop froid, je ne vais pas nager !", "traduccion": "Hace demasiado frío, ¡no voy a nadar!"},
-  {"frase": "Ils vont avoir un bébé.", "traduccion": "Van a tener un bebé."},
-  {"frase": "On va jouer au billard ?", "traduccion": "¿Vamos a jugar al billar?"}
+  {
+   "frase": "Il va pleuvoir ce soir.",
+   "traduccion": "Va a llover esta noche."
+  },
+  {
+   "frase": "Je vais aller à Barton Springs. Je vais nager.",
+   "traduccion": "Voy a ir a Barton Springs. Voy a nadar."
+  },
+  {
+   "frase": "Tu vas adorer ce livre.",
+   "traduccion": "Te va a encantar este libro."
+  },
+  {
+   "frase": "Il fait trop froid, je ne vais pas nager !",
+   "traduccion": "Hace demasiado frío, ¡no voy a nadar!"
+  },
+  {
+   "frase": "Ils vont avoir un bébé.",
+   "traduccion": "Van a tener un bebé."
+  },
+  {
+   "frase": "On va jouer au billard ?",
+   "traduccion": "¿Vamos a jugar al billar?"
+  }
  ],
  "errores_hispanohablantes": [
-  {"mal": "Je vais à manger.", "bien": "Je vais manger.", "nota": "Aller va seguido directamente del infinitivo, sin à."},
-  {"mal": "Je vais ne pas venir.", "bien": "Je ne vais pas venir.", "nota": "La negación rodea al verbo conjugado (aller)."},
-  {"mal": "Je le vais faire.", "bien": "Je vais le faire.", "nota": "El pronombre se coloca delante del infinitivo, no delante de aller."}
+  {
+   "mal": "Je vais à manger.",
+   "bien": "Je vais manger.",
+   "nota": "Aller va seguido directamente del infinitivo, sin à."
+  },
+  {
+   "mal": "Je vais ne pas venir.",
+   "bien": "Je ne vais pas venir.",
+   "nota": "La negación rodea al verbo conjugado (aller)."
+  },
+  {
+   "mal": "Je le vais faire.",
+   "bien": "Je vais le faire.",
+   "nota": "El pronombre se coloca delante del infinitivo, no delante de aller."
+  }
  ],
  "ejercicios": [
-  {"id": "e01", "tipo": "hueco", "enunciado": "Completa con aller en presente.", "frase": "Il ___ pleuvoir demain.", "respuestas": ["va"], "explicacion": "Il → va + infinitivo.", "origen": "tatoeba:135365"},
-  {"id": "e02", "tipo": "hueco", "enunciado": "Completa con aller en presente.", "frase": "Ils ___ avoir un bébé.", "respuestas": ["vont"], "explicacion": "Ils → vont + infinitivo.", "origen": "tatoeba:1120491"},
-  {"id": "e03", "tipo": "hueco", "enunciado": "Completa con aller en presente.", "frase": "Je ___ acheter du pain.", "respuestas": ["vais"], "explicacion": "Je → vais + infinitivo.", "origen": "tatoeba:1082090"},
-  {"id": "e04", "tipo": "transformar", "enunciado": "Pasa la frase al futur proche.", "frase": "Je lis un livre.", "respuestas": ["Je vais lire un livre."], "explicacion": "Aller en presente + infinitivo del verbo principal.", "origen": "tatoeba:482223"},
-  {"id": "e05", "tipo": "transformar", "enunciado": "Pasa la frase al futur proche.", "frase": "Je joue au tennis.", "respuestas": ["Je vais jouer au tennis."], "explicacion": "Je vais + jouer.", "origen": "tatoeba:7018"},
-  {"id": "e06", "tipo": "transformar", "enunciado": "Pasa la frase a negativa.", "frase": "Je vais nager.", "respuestas": ["Je ne vais pas nager."], "explicacion": "Ne… pas rodea a aller."},
-  {"id": "e07", "tipo": "corregir", "enunciado": "Corrige el error.", "frase": "Tu vas adores ce livre.", "respuestas": ["Tu vas adorer ce livre."], "explicacion": "Tras aller, el segundo verbo va en infinitivo.", "origen": "tatoeba:3210178"},
-  {"id": "e08", "tipo": "corregir", "enunciado": "Corrige el error.", "frase": "Tout le monde vont rire.", "respuestas": ["Tout le monde va rire."], "explicacion": "Tout le monde es singular: va.", "origen": "tatoeba:7700215"},
-  {"id": "e09", "tipo": "eleccion", "enunciado": "Elige la forma correcta de aller.", "frase": "Nous ___ partir à huit heures.", "opciones": ["allons", "allez", "vont", "va"], "respuestas": ["allons"], "explicacion": "Nous → allons."},
-  {"id": "e10", "tipo": "eleccion", "enunciado": "Elige la forma correcta de aller.", "frase": "Vous ___ dîner avec nous ce soir ?", "opciones": ["allez", "allons", "vont"], "respuestas": ["allez"], "explicacion": "Vous → allez."},
-  {"id": "e11", "tipo": "ordenar", "enunciado": "Ordena las palabras (Mañana va a nevar).", "palabras": ["neiger", "demain", "Il", "va"], "respuestas": ["Il va neiger demain", "Demain il va neiger"], "explicacion": "Sujeto + va + infinitivo + complemento de tiempo.", "origen": "tatoeba:427395"},
-  {"id": "e12", "tipo": "ordenar", "enunciado": "Ordena las palabras (No voy a salir).", "palabras": ["sortir", "vais", "Je", "pas", "ne"], "respuestas": ["Je ne vais pas sortir"], "explicacion": "Ne… pas alrededor de aller y después el infinitivo."},
-  {"id": "e13", "tipo": "hueco", "enunciado": "Completa con aller en presente.", "frase": "Tu ___ venir avec moi.", "respuestas": ["vas"], "explicacion": "Tu → vas.", "origen": "tatoeba:8665563"},
-  {"id": "e14", "tipo": "eleccion", "enunciado": "Elige la forma correcta de aller.", "frase": "Le bateau ___ couler !", "opciones": ["va", "vas", "vont"], "respuestas": ["va"], "explicacion": "Le bateau = il → va.", "origen": "tatoeba:603896"},
-  {"id": "e15", "tipo": "transformar", "enunciado": "Pasa la frase al futur proche.", "frase": "Je me couche.", "respuestas": ["Je vais me coucher."], "explicacion": "El pronombre reflexivo acompaña al infinitivo: me coucher."},
-  {"id": "e16", "tipo": "hueco", "enunciado": "Completa con aller en imperfecto (íbamos a salir).", "frase": "Nous ___ partir quand il a commencé à pleuvoir.", "respuestas": ["allions"], "explicacion": "Aller en imperfecto + infinitivo expresa lo que alguien iba a hacer."}
+  {
+   "id": "e01",
+   "tipo": "hueco",
+   "enunciado": "Completa con aller en presente.",
+   "frase": "Il ___ pleuvoir demain.",
+   "respuestas": [
+    "va"
+   ],
+   "explicacion": "Se aplica la regla de formación de la tabla: «aller» en presente + infinitivo. La pista es el sujeto impersonal «Il», que pide la tercera persona del singular, «va», y el infinitivo «pleuvoir» detrás. No hay preposición entre «va» y el infinitivo.",
+   "origen": "tatoeba:135365",
+   "explicacion_breve": "Il → va + infinitivo.",
+   "traduccion": "Mañana va a llover.",
+   "errores_previstos": [
+    {
+     "respuesta": "va à",
+     "explicacion": "Es el calco de «va a llover»: en francés no hay preposición, «il va pleuvoir»."
+    },
+    {
+     "respuesta": "vas",
+     "explicacion": "«Vas» es la segunda persona (tu); con «il» la forma es «va»."
+    },
+    {
+     "respuesta": "vont",
+     "explicacion": "«Vont» es tercera persona del plural; «il» es singular."
+    }
+   ]
+  },
+  {
+   "id": "e02",
+   "tipo": "hueco",
+   "enunciado": "Completa con aller en presente.",
+   "frase": "Ils ___ avoir un bébé.",
+   "respuestas": [
+    "vont"
+   ],
+   "explicacion": "Es la regla de formación: «aller» en presente + infinitivo. La pista es el sujeto «Ils», tercera persona del plural, que pide «vont». El infinitivo «avoir» va justo detrás, sin preposición.",
+   "origen": "tatoeba:1120491",
+   "explicacion_breve": "Ils → vont + infinitivo.",
+   "traduccion": "Van a tener un bebé.",
+   "errores_previstos": [
+    {
+     "respuesta": "vont à",
+     "explicacion": "Sobra la preposición: «ils vont avoir», sin «à»."
+    },
+    {
+     "respuesta": "va",
+     "explicacion": "«Va» es singular; con «ils» la forma es «vont»."
+    },
+    {
+     "respuesta": "allent",
+     "explicacion": "«Aller» es irregular: la tercera persona del plural es «vont»."
+    }
+   ]
+  },
+  {
+   "id": "e03",
+   "tipo": "hueco",
+   "enunciado": "Completa con aller en presente.",
+   "frase": "Je ___ acheter du pain.",
+   "respuestas": [
+    "vais"
+   ],
+   "explicacion": "Se aplica la regla de formación con la primera persona: «je vais» + infinitivo. La pista es el sujeto «Je». La frase expresa un plan inmediato, uno de los usos típicos del futur proche según la ficha.",
+   "origen": "tatoeba:1082090",
+   "explicacion_breve": "Je → vais + infinitivo.",
+   "traduccion": "Voy a comprar pan.",
+   "errores_previstos": [
+    {
+     "respuesta": "vais à",
+     "explicacion": "Calco de «voy a comprar»: en francés no hay preposición."
+    },
+    {
+     "respuesta": "va",
+     "explicacion": "«Va» es tercera persona; con «je» la forma es «vais»."
+    },
+    {
+     "respuesta": "voy",
+     "explicacion": "Es la forma española; en francés, «je vais»."
+    }
+   ]
+  },
+  {
+   "id": "e04",
+   "tipo": "transformar",
+   "enunciado": "Pasa la frase al futur proche.",
+   "frase": "Je lis un livre.",
+   "respuestas": [
+    "Je vais lire un livre."
+   ],
+   "explicacion": "Para pasar del presente al futur proche se conjuga «aller» en presente con el mismo sujeto y el verbo principal pasa a infinitivo, como indica la tabla. «Je lis» se convierte en «je vais lire»; el complemento «un livre» se queda detrás del infinitivo.",
+   "origen": "tatoeba:482223",
+   "explicacion_breve": "Aller en presente + infinitivo del verbo principal.",
+   "traduccion": "Voy a leer un libro.",
+   "errores_previstos": [
+    {
+     "respuesta": "Je vais à lire un livre.",
+     "explicacion": "Sobra «à»: aller va seguido directamente del infinitivo."
+    },
+    {
+     "respuesta": "Je vais lis un livre.",
+     "explicacion": "Solo se conjuga «aller»; el segundo verbo va en infinitivo: «lire»."
+    },
+    {
+     "respuesta": "Je vais lir un livre.",
+     "explicacion": "El infinitivo de «lis» es «lire», con -e final."
+    }
+   ]
+  },
+  {
+   "id": "e05",
+   "tipo": "transformar",
+   "enunciado": "Pasa la frase al futur proche.",
+   "frase": "Je joue au tennis.",
+   "respuestas": [
+    "Je vais jouer au tennis."
+   ],
+   "explicacion": "Es la misma transformación: «je joue» (presente) pasa a «je vais jouer», con «aller» conjugado y el verbo principal en infinitivo. La pista es el sujeto «Je», que pide «vais». El complemento «au tennis» no cambia.",
+   "origen": "tatoeba:7018",
+   "explicacion_breve": "Je vais + jouer.",
+   "traduccion": "Voy a jugar al tenis.",
+   "errores_previstos": [
+    {
+     "respuesta": "Je vais à jouer au tennis.",
+     "explicacion": "Calco del español: no hay preposición entre «aller» y el infinitivo."
+    },
+    {
+     "respuesta": "Je vais joue au tennis.",
+     "explicacion": "El segundo verbo debe ir en infinitivo: «jouer»."
+    },
+    {
+     "respuesta": "Je vais jouer à le tennis.",
+     "explicacion": "«À + le» se contrae en «au»: «jouer au tennis»."
+    }
+   ]
+  },
+  {
+   "id": "e06",
+   "tipo": "transformar",
+   "enunciado": "Pasa la frase a negativa.",
+   "frase": "Je vais nager.",
+   "respuestas": [
+    "Je ne vais pas nager."
+   ],
+   "explicacion": "La lista de la ficha indica que en la negación «ne… pas» rodea a «aller», que es el verbo conjugado, y el infinitivo queda fuera. Por eso «je ne vais pas nager». La pista es que el verbo conjugado es «vais», no «nager».",
+   "explicacion_breve": "Ne… pas rodea a aller.",
+   "traduccion": "No voy a nadar.",
+   "errores_previstos": [
+    {
+     "respuesta": "Je vais ne pas nager.",
+     "explicacion": "Es el error típico que recoge la ficha: la negación rodea al verbo conjugado, «je ne vais pas»."
+    },
+    {
+     "respuesta": "Je ne vais nager pas.",
+     "explicacion": "«Pas» va justo detrás de «vais», no detrás del infinitivo."
+    },
+    {
+     "respuesta": "Je vais pas nager.",
+     "explicacion": "En la lengua hablada se omite a menudo el «ne», pero en el registro escrito y en un examen hay que ponerlo: «je ne vais pas nager»."
+    }
+   ]
+  },
+  {
+   "id": "e07",
+   "tipo": "corregir",
+   "enunciado": "Corrige el error.",
+   "frase": "Tu vas adores ce livre.",
+   "respuestas": [
+    "Tu vas adorer ce livre."
+   ],
+   "explicacion": "La regla es que tras «aller» el segundo verbo va siempre en infinitivo. La pista es «vas», ya conjugado: «adores» es presente y hay que cambiarlo por el infinitivo «adorer». Los dos suenan parecido, pero se escriben distinto.",
+   "origen": "tatoeba:3210178",
+   "explicacion_breve": "Tras aller, el segundo verbo va en infinitivo.",
+   "traduccion": "Te va a encantar este libro.",
+   "errores_previstos": [
+    {
+     "respuesta": "Tu vas adores ce livre.",
+     "explicacion": "Es dejar la frase sin corregir: tras «aller» va infinitivo."
+    },
+    {
+     "respuesta": "Tu vas adoré ce livre.",
+     "explicacion": "«Adoré» es el participio; hace falta el infinitivo «adorer», aunque se pronuncien igual."
+    },
+    {
+     "respuesta": "Tu vas à adorer ce livre.",
+     "explicacion": "Sobra la preposición «à»."
+    }
+   ]
+  },
+  {
+   "id": "e08",
+   "tipo": "corregir",
+   "enunciado": "Corrige el error.",
+   "frase": "Tout le monde vont rire.",
+   "respuestas": [
+    "Tout le monde va rire."
+   ],
+   "explicacion": "La concordancia de «aller» depende del sujeto: «tout le monde» es gramaticalmente singular, igual que «todo el mundo» en español, así que pide «va». La pista es el núcleo «le monde». El error «vont» viene de pensar en muchas personas.",
+   "origen": "tatoeba:7700215",
+   "explicacion_breve": "Tout le monde es singular: va.",
+   "traduccion": "Todo el mundo se va a reír.",
+   "errores_previstos": [
+    {
+     "respuesta": "Tout le monde vont rire.",
+     "explicacion": "Es dejar la frase sin corregir: «tout le monde» es singular."
+    },
+    {
+     "respuesta": "Tout le monde va rit.",
+     "explicacion": "El segundo verbo va en infinitivo: «rire»."
+    },
+    {
+     "respuesta": "Tout le monde vas rire.",
+     "explicacion": "«Vas» es la segunda persona; con un sujeto nominal singular la forma es «va»."
+    }
+   ]
+  },
+  {
+   "id": "e09",
+   "tipo": "eleccion",
+   "enunciado": "Elige la forma correcta de aller.",
+   "frase": "Nous ___ partir à huit heures.",
+   "opciones": [
+    "allons",
+    "allez",
+    "vont",
+    "va"
+   ],
+   "respuestas": [
+    "allons"
+   ],
+   "explicacion": "Es la regla de formación con la primera persona del plural: «nous allons» + infinitivo. La pista es el sujeto «Nous». Las otras formas pertenecen a «vous», «ils» o «il».",
+   "explicacion_breve": "Nous → allons.",
+   "traduccion": "Vamos a salir a las ocho.",
+   "por_opcion": {
+    "allons": "Correcta: primera persona del plural de «aller».",
+    "allez": "Incorrecta: corresponde a «vous».",
+    "vont": "Incorrecta: corresponde a «ils/elles».",
+    "va": "Incorrecta: corresponde a «il/elle/on»; con «on» sí se diría «on va partir», que en la lengua hablada equivale a «nous allons partir»."
+   }
+  },
+  {
+   "id": "e10",
+   "tipo": "eleccion",
+   "enunciado": "Elige la forma correcta de aller.",
+   "frase": "Vous ___ dîner avec nous ce soir ?",
+   "opciones": [
+    "allez",
+    "allons",
+    "vont"
+   ],
+   "respuestas": [
+    "allez"
+   ],
+   "explicacion": "Se aplica la regla de formación con «vous»: «vous allez» + infinitivo. La pista es el sujeto «Vous», que puede ser un usted de cortesía o un vosotros. La pregunta se hace aquí solo con la entonación, frecuente en la lengua hablada.",
+   "explicacion_breve": "Vous → allez.",
+   "traduccion": "¿Va usted a cenar con nosotros esta noche? (o ¿Vais a cenar…?)",
+   "por_opcion": {
+    "allez": "Correcta: segunda persona del plural de «aller», también la forma de cortesía.",
+    "allons": "Incorrecta: corresponde a «nous».",
+    "vont": "Incorrecta: corresponde a «ils/elles»."
+   }
+  },
+  {
+   "id": "e11",
+   "tipo": "ordenar",
+   "enunciado": "Ordena las palabras (Mañana va a nevar).",
+   "palabras": [
+    "neiger",
+    "demain",
+    "Il",
+    "va"
+   ],
+   "respuestas": [
+    "Il va neiger demain",
+    "Demain il va neiger"
+   ],
+   "explicacion": "El orden de la tabla es sujeto + «aller» conjugado + infinitivo, y el complemento de tiempo puede ir al final o al principio de la frase. Aquí: «Il va neiger demain» o «Demain il va neiger». El infinitivo nunca se separa de «va» por el adverbio de tiempo.",
+   "origen": "tatoeba:427395",
+   "explicacion_breve": "Sujeto + va + infinitivo + complemento de tiempo.",
+   "traduccion": "Mañana va a nevar.",
+   "errores_previstos": [
+    {
+     "respuesta": "Il va demain neiger",
+     "explicacion": "«Demain» no se coloca entre «aller» y el infinitivo; va al principio o al final."
+    },
+    {
+     "respuesta": "Il neiger va demain",
+     "explicacion": "El orden es «aller» conjugado y después el infinitivo: «il va neiger»."
+    }
+   ]
+  },
+  {
+   "id": "e12",
+   "tipo": "ordenar",
+   "enunciado": "Ordena las palabras (No voy a salir).",
+   "palabras": [
+    "sortir",
+    "vais",
+    "Je",
+    "pas",
+    "ne"
+   ],
+   "respuestas": [
+    "Je ne vais pas sortir"
+   ],
+   "explicacion": "Se aplica la regla de la negación de la lista: «ne… pas» rodea a «aller» y el infinitivo va después. El orden es «Je ne vais pas sortir». La pista es que «vais» es el único verbo conjugado.",
+   "explicacion_breve": "Ne… pas alrededor de aller y después el infinitivo.",
+   "traduccion": "No voy a salir.",
+   "errores_previstos": [
+    {
+     "respuesta": "Je vais ne pas sortir",
+     "explicacion": "La negación debe rodear al verbo conjugado: «je ne vais pas»."
+    },
+    {
+     "respuesta": "Je ne pas vais sortir",
+     "explicacion": "Calco del español «no voy»: en francés «pas» va detrás del verbo conjugado."
+    }
+   ]
+  },
+  {
+   "id": "e13",
+   "tipo": "hueco",
+   "enunciado": "Completa con aller en presente.",
+   "frase": "Tu ___ venir avec moi.",
+   "respuestas": [
+    "vas"
+   ],
+   "explicacion": "Es la regla de formación con la segunda persona del singular: «tu vas» + infinitivo. La pista es el sujeto «Tu». La forma «vas» coincide con la española, pero en francés no lleva preposición detrás.",
+   "origen": "tatoeba:8665563",
+   "explicacion_breve": "Tu → vas.",
+   "traduccion": "Vas a venir conmigo.",
+   "errores_previstos": [
+    {
+     "respuesta": "vas à",
+     "explicacion": "Sobra la preposición: «tu vas venir»."
+    },
+    {
+     "respuesta": "va",
+     "explicacion": "«Va» es tercera persona; con «tu» se escribe «vas», con -s."
+    },
+    {
+     "respuesta": "vais",
+     "explicacion": "«Vais» es la primera persona (je); con «tu» es «vas»."
+    }
+   ]
+  },
+  {
+   "id": "e14",
+   "tipo": "eleccion",
+   "enunciado": "Elige la forma correcta de aller.",
+   "frase": "Le bateau ___ couler !",
+   "opciones": [
+    "va",
+    "vas",
+    "vont"
+   ],
+   "respuestas": [
+    "va"
+   ],
+   "explicacion": "Es el uso de la ficha para lo inminente, lo que se ve venir. La pista es el sujeto «Le bateau», un sustantivo singular que equivale a «il» y pide «va». La exclamación refuerza la idea de algo que va a ocurrir enseguida.",
+   "origen": "tatoeba:603896",
+   "explicacion_breve": "Le bateau = il → va.",
+   "traduccion": "¡El barco se va a hundir!",
+   "por_opcion": {
+    "va": "Correcta: tercera persona del singular, como «il».",
+    "vas": "Incorrecta: corresponde a «tu»; un sustantivo sujeto nunca va en segunda persona.",
+    "vont": "Incorrecta: es plural; «le bateau» es singular."
+   },
+   "glosario": [
+    {
+     "palabra": "couler",
+     "significado": "hundirse (un barco); también correr, fluir (un líquido)"
+    }
+   ]
+  },
+  {
+   "id": "e15",
+   "tipo": "transformar",
+   "enunciado": "Pasa la frase al futur proche.",
+   "frase": "Je me couche.",
+   "respuestas": [
+    "Je vais me coucher."
+   ],
+   "explicacion": "La lista de la ficha indica que los pronombres, incluidos los reflexivos, van delante del infinitivo y no delante de «aller». Por eso «je me couche» pasa a «je vais me coucher». El español admite «me voy a acostar» y «voy a acostarme», pero el francés solo tiene esta colocación.",
+   "explicacion_breve": "El pronombre reflexivo acompaña al infinitivo: me coucher.",
+   "traduccion": "Me voy a acostar.",
+   "errores_previstos": [
+    {
+     "respuesta": "Je me vais coucher.",
+     "explicacion": "Calco de «me voy a acostar»: en francés el pronombre va con el infinitivo, «je vais me coucher»."
+    },
+    {
+     "respuesta": "Je vais coucher.",
+     "explicacion": "Falta el pronombre reflexivo: «se coucher» es acostarse; «coucher» solo, en este sentido, es incorrecto."
+    },
+    {
+     "respuesta": "Je vais me couche.",
+     "explicacion": "El segundo verbo va en infinitivo: «coucher»."
+    }
+   ]
+  },
+  {
+   "id": "e16",
+   "tipo": "hueco",
+   "enunciado": "Completa con aller en imperfecto (íbamos a salir).",
+   "frase": "Nous ___ partir quand il a commencé à pleuvoir.",
+   "respuestas": [
+    "allions"
+   ],
+   "explicacion": "La lista de la ficha recoge este uso: «aller» en imperfecto + infinitivo expresa lo que alguien iba a hacer, una acción inminente en el pasado que se ve interrumpida. La pista es el passé composé «a commencé», que sitúa la frase en el pasado. Con «nous», el imperfecto de «aller» es «allions».",
+   "explicacion_breve": "Aller en imperfecto + infinitivo expresa lo que alguien iba a hacer.",
+   "traduccion": "Íbamos a salir cuando empezó a llover.",
+   "errores_previstos": [
+    {
+     "respuesta": "allons",
+     "explicacion": "El presente no encaja con «quand il a commencé», que es pasado; hace falta el imperfecto «allions»."
+    },
+    {
+     "respuesta": "sommes allés",
+     "explicacion": "El passé composé indicaría que fuimos a salir y salimos; para la acción que iba a ocurrir se usa el imperfecto «allions»."
+    },
+    {
+     "respuesta": "allions à",
+     "explicacion": "Tampoco en imperfecto hay preposición: «nous allions partir»."
+    }
+   ]
+  }
  ],
- "fuente": {"nombre": "Tex's French Grammar", "autores": "COERLL, Universidad de Texas en Austin", "licencia": "CC BY 3.0", "url": "https://laits.utexas.edu/tex/gr/taf1.html", "otras": ["Frases de Tatoeba (CC BY 2.0 FR)"]}
+ "fuente": {
+  "nombre": "Tex's French Grammar",
+  "autores": "COERLL, Universidad de Texas en Austin",
+  "licencia": "CC BY 3.0",
+  "url": "https://laits.utexas.edu/tex/gr/taf1.html",
+  "otras": [
+   "Frases de Tatoeba (CC BY 2.0 FR)"
+  ]
+ },
+ "descripcion_larga_es": "El futur proche se forma con «aller» en presente seguido de un infinitivo: «je vais partir». Equivale al español «ir a + infinitivo», pero sin la preposición «a». Es la manera más habitual de hablar del futuro en la conversación, para planes, intenciones y cosas inminentes. Al hispanohablante le cuesta sobre todo no añadir «à» y colocar bien la negación y los pronombres.",
+ "contexto": {
+  "que_es": "Es una perífrasis verbal formada por el verbo «aller» conjugado en presente y un infinitivo. Expresa una acción futura vista desde el presente: una intención, un plan o algo que está a punto de ocurrir. Con «aller» en imperfecto indica lo que alguien iba a hacer.",
+  "por_que_importa": "Es el futuro más usado en la lengua hablada y uno de los primeros tiempos que se aprenden, porque solo exige conjugar «aller». Los errores más visibles son calcar la preposición española («je vais à manger»), conjugar también el segundo verbo («tu vas adores») o colocar mal la negación. En un examen oral, usarlo con soltura da naturalidad.",
+  "cuando_se_usa": "Se usa para planes concretos («ce soir, je vais voir un film»), intenciones y predicciones basadas en lo que se ve («il y a des nuages, il va pleuvoir»). Lo piden marcadores como «demain», «ce soir», «bientôt». El hispanohablante lo usa igual que «ir a», pero debe quitar la «a»; en un texto formal conviene sustituirlo por el futuro simple."
+ }
 }

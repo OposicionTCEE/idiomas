@@ -6,51 +6,514 @@
  "nivel": "A1",
  "resumen": "El español niega con una sola palabra («no») delante del verbo; el francés usa dos, ne y pas, que rodean el verbo conjugado. Con el mismo esquema se forman ne… plus (ya no) y ne… jamais (nunca).",
  "explicacion": [
-  {"tipo": "texto", "texto": "Ne va delante del verbo conjugado y pas detrás: Je parle anglais → Je ne parle pas anglais. Ne se apostrofa ante vocal o h muda: Je n'aime pas, il n'habite pas ici. Si hay pronombres complemento, quedan dentro: Je ne le connais pas."},
-  {"tipo": "tabla", "cabecera": ["Negación", "Significado", "Ejemplo"], "filas": [
-   ["ne… pas", "no", "Il ne travaille pas le lundi."],
-   ["ne… plus", "ya no", "Il ne fume plus."],
-   ["ne… jamais", "nunca", "Tex n'écoute jamais de musique country."]
-  ]},
-  {"tipo": "lista", "items": [
-   "Con tiempos compuestos y perífrasis, la negación rodea el verbo conjugado: Tex n'a pas été gentil; Tammy ne va pas venir.",
-   "Tras la negación, un, une, des y los partitivos du, de la, de l' pasan a de: J'ai une voiture → Je n'ai pas de voiture; Il y a du pain → Il n'y a plus de pain.",
-   "Los artículos definidos no cambian: J'aime le café → Je n'aime pas le café. Con être tampoco cambia el indefinido: Ce n'est pas un problème.",
-   "Con un infinitivo, ne pas van juntos delante: Je préfère ne pas sortir."
-  ]},
-  {"tipo": "texto", "texto": "En la lengua hablada se suele omitir ne (Je sais pas, C'est pas grave), pero por escrito y en un examen hay que ponerlo siempre. Para contestar afirmativamente a una pregunta negativa se dice si, no oui: Tu ne viens pas ? Si, je viens."}
+  {
+   "tipo": "texto",
+   "texto": "Ne va delante del verbo conjugado y pas detrás: Je parle anglais → Je ne parle pas anglais. Ne se apostrofa ante vocal o h muda: Je n'aime pas, il n'habite pas ici. Si hay pronombres complemento, quedan dentro: Je ne le connais pas."
+  },
+  {
+   "tipo": "tabla",
+   "cabecera": [
+    "Negación",
+    "Significado",
+    "Ejemplo"
+   ],
+   "filas": [
+    [
+     "ne… pas",
+     "no",
+     "Il ne travaille pas le lundi."
+    ],
+    [
+     "ne… plus",
+     "ya no",
+     "Il ne fume plus."
+    ],
+    [
+     "ne… jamais",
+     "nunca",
+     "Tex n'écoute jamais de musique country."
+    ]
+   ]
+  },
+  {
+   "tipo": "lista",
+   "items": [
+    "Con tiempos compuestos y perífrasis, la negación rodea el verbo conjugado: Tex n'a pas été gentil; Tammy ne va pas venir.",
+    "Tras la negación, un, une, des y los partitivos du, de la, de l' pasan a de: J'ai une voiture → Je n'ai pas de voiture; Il y a du pain → Il n'y a plus de pain.",
+    "Los artículos definidos no cambian: J'aime le café → Je n'aime pas le café. Con être tampoco cambia el indefinido: Ce n'est pas un problème.",
+    "Con un infinitivo, ne pas van juntos delante: Je préfère ne pas sortir."
+   ]
+  },
+  {
+   "tipo": "texto",
+   "texto": "En la lengua hablada se suele omitir ne (Je sais pas, C'est pas grave), pero por escrito y en un examen hay que ponerlo siempre. Para contestar afirmativamente a una pregunta negativa se dice si, no oui: Tu ne viens pas ? Si, je viens."
+  }
  ],
  "ejemplos": [
-  {"frase": "Edouard, l'escargot, ne court pas vite.", "traduccion": "Edouard, el caracol, no corre deprisa."},
-  {"frase": "Je ne vais pas bien. Je ne peux pas manger et j'ai mal à la tête.", "traduccion": "No me encuentro bien. No puedo comer y me duele la cabeza."},
-  {"frase": "Tu n'as pas de chance !", "traduccion": "¡Qué mala suerte tienes!"},
-  {"frase": "Tammy ne va pas passer la soirée chez Edouard.", "traduccion": "Tammy no va a pasar la noche en casa de Edouard."},
-  {"frase": "Mon grand-père ne conduit plus.", "traduccion": "Mi abuelo ya no conduce."},
-  {"frase": "Nous ne prenons jamais l'avion pour aller à Lyon.", "traduccion": "Nunca cogemos el avión para ir a Lyon."}
+  {
+   "frase": "Edouard, l'escargot, ne court pas vite.",
+   "traduccion": "Edouard, el caracol, no corre deprisa."
+  },
+  {
+   "frase": "Je ne vais pas bien. Je ne peux pas manger et j'ai mal à la tête.",
+   "traduccion": "No me encuentro bien. No puedo comer y me duele la cabeza."
+  },
+  {
+   "frase": "Tu n'as pas de chance !",
+   "traduccion": "¡Qué mala suerte tienes!"
+  },
+  {
+   "frase": "Tammy ne va pas passer la soirée chez Edouard.",
+   "traduccion": "Tammy no va a pasar la noche en casa de Edouard."
+  },
+  {
+   "frase": "Mon grand-père ne conduit plus.",
+   "traduccion": "Mi abuelo ya no conduce."
+  },
+  {
+   "frase": "Nous ne prenons jamais l'avion pour aller à Lyon.",
+   "traduccion": "Nunca cogemos el avión para ir a Lyon."
+  }
  ],
  "errores_hispanohablantes": [
-  {"mal": "Je pas comprends.", "bien": "Je ne comprends pas.", "nota": "Pas va detrás del verbo conjugado, y por escrito hace falta ne."},
-  {"mal": "Je ne mange pas du fromage.", "bien": "Je ne mange pas de fromage.", "nota": "Tras la negación el partitivo pasa a de."},
-  {"mal": "Je ne ai pas faim.", "bien": "Je n'ai pas faim.", "nota": "Ne se apostrofa ante vocal."},
-  {"mal": "Je ne jamais mange de viande.", "bien": "Je ne mange jamais de viande.", "nota": "Jamais ocupa el lugar de pas, detrás del verbo conjugado."}
+  {
+   "mal": "Je pas comprends.",
+   "bien": "Je ne comprends pas.",
+   "nota": "Pas va detrás del verbo conjugado, y por escrito hace falta ne."
+  },
+  {
+   "mal": "Je ne mange pas du fromage.",
+   "bien": "Je ne mange pas de fromage.",
+   "nota": "Tras la negación el partitivo pasa a de."
+  },
+  {
+   "mal": "Je ne ai pas faim.",
+   "bien": "Je n'ai pas faim.",
+   "nota": "Ne se apostrofa ante vocal."
+  },
+  {
+   "mal": "Je ne jamais mange de viande.",
+   "bien": "Je ne mange jamais de viande.",
+   "nota": "Jamais ocupa el lugar de pas, detrás del verbo conjugado."
+  }
  ],
  "ejercicios": [
-  {"id": "e01", "tipo": "transformar", "enunciado": "Pasa la frase a negativa con ne… pas.", "frase": "Je travaille ici.", "respuestas": ["Je ne travaille pas ici."], "explicacion": "Ne… pas rodea el verbo conjugado.", "origen": "tatoeba:2020723"},
-  {"id": "e02", "tipo": "transformar", "enunciado": "Pasa la frase a negativa con ne… pas.", "frase": "J'aime les œufs.", "respuestas": ["Je n'aime pas les œufs."], "explicacion": "Ne se apostrofa ante aime; el artículo definido les no cambia.", "origen": "tatoeba:451868"},
-  {"id": "e03", "tipo": "transformar", "enunciado": "Pasa la frase a negativa con ne… pas.", "frase": "Tom a des frères.", "respuestas": ["Tom n'a pas de frères."], "explicacion": "Tras la negación des pasa a de.", "origen": "tatoeba:1180536"},
-  {"id": "e04", "tipo": "transformar", "enunciado": "Pasa la frase a negativa con ne… pas.", "frase": "J'ai de la fièvre.", "respuestas": ["Je n'ai pas de fièvre."], "explicacion": "El partitivo de la pasa a de en la negación.", "origen": "tatoeba:965792"},
-  {"id": "e05", "tipo": "ordenar", "enunciado": "Ordena las palabras.", "palabras": ["nager", "pas", "sais", "ne", "Je"], "respuestas": ["Je ne sais pas nager"], "explicacion": "Ne… pas rodea el verbo conjugado (sais); el infinitivo va detrás.", "origen": "tatoeba:1140341"},
-  {"id": "e06", "tipo": "hueco", "enunciado": "Completa con ne y el verbo être.", "frase": "Ce pont ___ pas long.", "respuestas": ["n'est"], "explicacion": "Ne se apostrofa ante est: n'est pas.", "origen": "tatoeba:575485"},
-  {"id": "e07", "tipo": "eleccion", "enunciado": "Elige la opción correcta.", "frase": "L'argent ___ pas tout.", "opciones": ["n'est", "ne est", "n'a"], "respuestas": ["n'est"], "explicacion": "Ne se apostrofa ante vocal: n'est.", "origen": "tatoeba:9151"},
-  {"id": "e08", "tipo": "eleccion", "enunciado": "Elige la opción correcta.", "frase": "Je n'aime pas ___ froid.", "opciones": ["le", "de", "du"], "respuestas": ["le"], "explicacion": "El artículo definido no cambia en la negación: je n'aime pas le froid.", "origen": "tatoeba:6686"},
-  {"id": "e09", "tipo": "hueco", "enunciado": "Completa la negación que significa «ya no».", "frase": "Il ne fume ___ : il a arrêté l'année dernière.", "respuestas": ["plus"], "explicacion": "Ne… plus expresa que algo ha dejado de ocurrir."},
-  {"id": "e10", "tipo": "hueco", "enunciado": "Completa la negación que significa «nunca».", "frase": "Elle ne prend ___ le métro.", "respuestas": ["jamais"], "explicacion": "Ne… jamais significa nunca y se coloca como ne… pas."},
-  {"id": "e11", "tipo": "transformar", "enunciado": "Di que ya no queda: usa ne… plus.", "frase": "Nous avons encore du pain.", "respuestas": ["Nous n'avons plus de pain."], "explicacion": "Ne… plus sustituye a encore y el partitivo pasa a de."},
-  {"id": "e12", "tipo": "transformar", "enunciado": "Pasa la frase a negativa con ne… jamais.", "frase": "Elle va souvent au théâtre.", "respuestas": ["Elle ne va jamais au théâtre."], "explicacion": "Jamais ocupa el lugar de pas y sustituye a souvent."},
-  {"id": "e13", "tipo": "eleccion", "enunciado": "Elige la opción correcta.", "frase": "Je n'ai pas ___ voiture.", "opciones": ["de", "une", "la"], "respuestas": ["de"], "explicacion": "Tras la negación el indefinido une pasa a de."},
-  {"id": "e14", "tipo": "corregir", "enunciado": "Corrige el error.", "frase": "Je pas comprends la question.", "respuestas": ["Je ne comprends pas la question."], "explicacion": "Ne va delante del verbo y pas detrás."},
-  {"id": "e15", "tipo": "corregir", "enunciado": "Corrige el error.", "frase": "Il ne a pas faim.", "respuestas": ["Il n'a pas faim."], "explicacion": "Ne se apostrofa ante vocal: n'a."},
-  {"id": "e16", "tipo": "corregir", "enunciado": "Corrige el error.", "frase": "Je ne mange pas du fromage.", "respuestas": ["Je ne mange pas de fromage."], "explicacion": "Tras la negación du pasa a de."}
+  {
+   "id": "e01",
+   "tipo": "transformar",
+   "enunciado": "Pasa la frase a negativa con ne… pas.",
+   "frase": "Je travaille ici.",
+   "respuestas": [
+    "Je ne travaille pas ici."
+   ],
+   "explicacion": "Se aplica la regla básica de la ficha: ne va delante del verbo conjugado y pas detrás, rodeándolo. El verbo conjugado es travaille, que empieza por consonante, así que ne no se apostrofa. El adverbio ici queda detrás de pas. El español solo necesita «no», pero el francés escrito exige las dos piezas.",
+   "origen": "tatoeba:2020723",
+   "explicacion_breve": "Ne… pas rodea el verbo conjugado.",
+   "traduccion": "No trabajo aquí.",
+   "errores_previstos": [
+    {
+     "respuesta": "Je ne travaille ici.",
+     "explicacion": "Falta pas: por escrito la negación tiene dos piezas, ne… pas."
+    },
+    {
+     "respuesta": "Je travaille pas ici.",
+     "explicacion": "Es la forma oral; por escrito hay que poner ne delante del verbo."
+    },
+    {
+     "respuesta": "Je ne pas travaille ici.",
+     "explicacion": "Pas va detrás del verbo conjugado, no delante."
+    }
+   ]
+  },
+  {
+   "id": "e02",
+   "tipo": "transformar",
+   "enunciado": "Pasa la frase a negativa con ne… pas.",
+   "frase": "J'aime les œufs.",
+   "respuestas": [
+    "Je n'aime pas les œufs."
+   ],
+   "explicacion": "La ficha indica que ne se apostrofa ante vocal o h muda: aime empieza por vocal, así que je ne aime se convierte en je n'aime. Además, el artículo definido les no cambia en la negación, porque solo pasan a de los indefinidos y los partitivos. Por eso se dice je n'aime pas les œufs. Con verbos de gusto como aimer el artículo definido es lo normal.",
+   "origen": "tatoeba:451868",
+   "explicacion_breve": "Ne se apostrofa ante aime; el artículo definido les no cambia.",
+   "traduccion": "No me gustan los huevos.",
+   "errores_previstos": [
+    {
+     "respuesta": "Je ne aime pas les œufs.",
+     "explicacion": "Ne debe apostrofarse ante vocal: n'aime."
+    },
+    {
+     "respuesta": "Je n'aime pas des œufs.",
+     "explicacion": "El artículo definido les no cambia en la negación; además des tampoco sería correcto tras la negación."
+    },
+    {
+     "respuesta": "Je n'aime pas de œufs.",
+     "explicacion": "Solo los indefinidos y partitivos pasan a de; el definido les se mantiene."
+    }
+   ]
+  },
+  {
+   "id": "e03",
+   "tipo": "transformar",
+   "enunciado": "Pasa la frase a negativa con ne… pas.",
+   "frase": "Tom a des frères.",
+   "respuestas": [
+    "Tom n'a pas de frères."
+   ],
+   "explicacion": "La ficha explica que, tras la negación, un, une, des y los partitivos pasan a de. La pista es el artículo indefinido plural des en la frase afirmativa. Además, a empieza por vocal, por lo que ne se apostrofa: n'a pas. El resultado es Tom n'a pas de frères, con el nombre en plural.",
+   "origen": "tatoeba:1180536",
+   "explicacion_breve": "Tras la negación des pasa a de.",
+   "traduccion": "Tom no tiene hermanos.",
+   "errores_previstos": [
+    {
+     "respuesta": "Tom n'a pas des frères.",
+     "explicacion": "Tras la negación, des pasa a de: pas de frères."
+    },
+    {
+     "respuesta": "Tom ne a pas de frères.",
+     "explicacion": "Ne se apostrofa ante vocal: n'a."
+    },
+    {
+     "respuesta": "Tom n'a pas frères.",
+     "explicacion": "No se puede suprimir el artículo: hace falta de delante del nombre."
+    }
+   ]
+  },
+  {
+   "id": "e04",
+   "tipo": "transformar",
+   "enunciado": "Pasa la frase a negativa con ne… pas.",
+   "frase": "J'ai de la fièvre.",
+   "respuestas": [
+    "Je n'ai pas de fièvre."
+   ],
+   "explicacion": "Se aplica la regla del cambio de artículo tras la negación: el partitivo de la pasa a de. La pista es de la delante de fièvre, que indica una cantidad indeterminada. Ne se apostrofa ante ai: je n'ai pas. El resultado es je n'ai pas de fièvre.",
+   "origen": "tatoeba:965792",
+   "explicacion_breve": "El partitivo de la pasa a de en la negación.",
+   "traduccion": "No tengo fiebre.",
+   "errores_previstos": [
+    {
+     "respuesta": "Je n'ai pas de la fièvre.",
+     "explicacion": "Tras la negación el partitivo de la se reduce a de."
+    },
+    {
+     "respuesta": "Je n'ai pas fièvre.",
+     "explicacion": "Calco del español «no tengo fiebre»: en francés hace falta de delante del nombre."
+    },
+    {
+     "respuesta": "Je ne ai pas de fièvre.",
+     "explicacion": "Ne se apostrofa ante vocal: n'ai."
+    }
+   ]
+  },
+  {
+   "id": "e05",
+   "tipo": "ordenar",
+   "enunciado": "Ordena las palabras.",
+   "palabras": [
+    "nager",
+    "pas",
+    "sais",
+    "ne",
+    "Je"
+   ],
+   "respuestas": [
+    "Je ne sais pas nager"
+   ],
+   "explicacion": "La ficha indica que ne… pas rodea el verbo conjugado, aquí sais, y que el infinitivo queda detrás. La pista es que nager está en infinitivo y no se conjuga. Por eso el orden es je ne sais pas nager. Si se quisiera negar el infinitivo, ne pas iría junto delante de él, pero cambiaría el sentido.",
+   "origen": "tatoeba:1140341",
+   "explicacion_breve": "Ne… pas rodea el verbo conjugado (sais); el infinitivo va detrás.",
+   "traduccion": "No sé nadar.",
+   "errores_previstos": [
+    {
+     "respuesta": "Je ne sais nager pas",
+     "explicacion": "Pas va justo detrás del verbo conjugado sais, antes del infinitivo."
+    },
+    {
+     "respuesta": "Je sais ne pas nager",
+     "explicacion": "Así se niega el infinitivo y el sentido cambia («sé no nadar»); la negación debe rodear sais."
+    }
+   ]
+  },
+  {
+   "id": "e06",
+   "tipo": "hueco",
+   "enunciado": "Completa con ne y el verbo être.",
+   "frase": "Ce pont ___ pas long.",
+   "respuestas": [
+    "n'est"
+   ],
+   "explicacion": "Se aplica la regla de la elisión: ne se apostrofa ante vocal, y est empieza por vocal. El hueco pide ne y el verbo être juntos, de modo que la respuesta es n'est. Pas ya figura detrás del hueco. Con un sujeto de tercera persona, être es est.",
+   "origen": "tatoeba:575485",
+   "explicacion_breve": "Ne se apostrofa ante est: n'est pas.",
+   "traduccion": "Este puente no es largo.",
+   "errores_previstos": [
+    {
+     "respuesta": "ne est",
+     "explicacion": "Ne se apostrofa ante vocal: n'est."
+    },
+    {
+     "respuesta": "est",
+     "explicacion": "Falta ne; por escrito la negación lleva las dos piezas."
+    },
+    {
+     "respuesta": "n'es",
+     "explicacion": "Es es la forma de tu; con ce pont, tercera persona, es est."
+    }
+   ]
+  },
+  {
+   "id": "e07",
+   "tipo": "eleccion",
+   "enunciado": "Elige la opción correcta.",
+   "frase": "L'argent ___ pas tout.",
+   "opciones": [
+    "n'est",
+    "ne est",
+    "n'a"
+   ],
+   "respuestas": [
+    "n'est"
+   ],
+   "explicacion": "La ficha indica que ne se apostrofa ante vocal: ne + est da n'est. La pista es la frase hecha l'argent n'est pas tout, con el verbo être. Ne est sin apóstrofo es incorrecto. N'a usaría avoir, que no tiene sentido aquí.",
+   "origen": "tatoeba:9151",
+   "explicacion_breve": "Ne se apostrofa ante vocal: n'est.",
+   "traduccion": "El dinero no lo es todo.",
+   "por_opcion": {
+    "n'est": "Correcta: ne apostrofado ante est, el verbo être que pide la frase.",
+    "ne est": "Incorrecta: ne siempre se apostrofa ante vocal.",
+    "n'a": "Incorrecta: es el verbo avoir; «el dinero no tiene todo» no es lo que dice la frase."
+   }
+  },
+  {
+   "id": "e08",
+   "tipo": "eleccion",
+   "enunciado": "Elige la opción correcta.",
+   "frase": "Je n'aime pas ___ froid.",
+   "opciones": [
+    "le",
+    "de",
+    "du"
+   ],
+   "respuestas": [
+    "le"
+   ],
+   "explicacion": "La ficha precisa que los artículos definidos no cambian en la negación. Con aimer se habla de algo en general, el frío, así que se usa el artículo definido le, tanto en la frase afirmativa como en la negativa. Solo los indefinidos y los partitivos pasan a de. Por eso je n'aime pas le froid.",
+   "origen": "tatoeba:6686",
+   "explicacion_breve": "El artículo definido no cambia en la negación: je n'aime pas le froid.",
+   "traduccion": "No me gusta el frío.",
+   "por_opcion": {
+    "le": "Correcta: artículo definido, que no cambia tras la negación y es el que pide aimer.",
+    "de": "Incorrecta: de sustituye a indefinidos y partitivos, y con aimer se usa el definido.",
+    "du": "Incorrecta: es partitivo y, además, los partitivos pasan a de tras la negación."
+   }
+  },
+  {
+   "id": "e09",
+   "tipo": "hueco",
+   "enunciado": "Completa la negación que significa «ya no».",
+   "frase": "Il ne fume ___ : il a arrêté l'année dernière.",
+   "respuestas": [
+    "plus"
+   ],
+   "explicacion": "La tabla de la ficha da ne… plus para «ya no»: algo que ha dejado de ocurrir. La pista es «il a arrêté l'année dernière», que indica que antes fumaba. Plus ocupa el lugar de pas, detrás del verbo conjugado. En esta construcción la s de plus no se pronuncia.",
+   "explicacion_breve": "Ne… plus expresa que algo ha dejado de ocurrir.",
+   "traduccion": "Ya no fuma: lo dejó el año pasado.",
+   "errores_previstos": [
+    {
+     "respuesta": "pas",
+     "explicacion": "Ne… pas solo niega; para expresar que algo ha dejado de ocurrir hace falta ne… plus."
+    },
+    {
+     "respuesta": "déjà",
+     "explicacion": "Calco de «ya no»: déjà significa «ya» afirmativo; «ya no» es ne… plus."
+    },
+    {
+     "respuesta": "pas plus",
+     "explicacion": "Plus sustituye a pas; no se acumulan las dos piezas."
+    }
+   ]
+  },
+  {
+   "id": "e10",
+   "tipo": "hueco",
+   "enunciado": "Completa la negación que significa «nunca».",
+   "frase": "Elle ne prend ___ le métro.",
+   "respuestas": [
+    "jamais"
+   ],
+   "explicacion": "La ficha da ne… jamais para «nunca», con la misma colocación que ne… pas: jamais detrás del verbo conjugado. La pista es el enunciado y ne delante de prend. El español puede decir «nunca coge» o «no coge nunca», pero en francés jamais siempre va detrás del verbo. No se añade pas.",
+   "explicacion_breve": "Ne… jamais significa nunca y se coloca como ne… pas.",
+   "traduccion": "Ella nunca coge el metro.",
+   "errores_previstos": [
+    {
+     "respuesta": "pas jamais",
+     "explicacion": "Jamais sustituye a pas; no se acumulan como en «no… nunca»."
+    },
+    {
+     "respuesta": "nunca",
+     "explicacion": "Es la palabra española; en francés se dice jamais."
+    }
+   ]
+  },
+  {
+   "id": "e11",
+   "tipo": "transformar",
+   "enunciado": "Di que ya no queda: usa ne… plus.",
+   "frase": "Nous avons encore du pain.",
+   "respuestas": [
+    "Nous n'avons plus de pain."
+   ],
+   "explicacion": "La ficha indica que ne… plus es lo contrario de encore («todavía») y que tras la negación el partitivo du pasa a de. Por eso nous avons encore du pain se convierte en nous n'avons plus de pain. Ne se apostrofa ante avons. Encore desaparece, porque plus ya expresa el cambio.",
+   "explicacion_breve": "Ne… plus sustituye a encore y el partitivo pasa a de.",
+   "traduccion": "Ya no nos queda pan.",
+   "errores_previstos": [
+    {
+     "respuesta": "Nous n'avons plus du pain.",
+     "explicacion": "Tras la negación el partitivo du pasa a de."
+    },
+    {
+     "respuesta": "Nous n'avons encore plus de pain.",
+     "explicacion": "Encore sobra: ne… plus ya significa «ya no»."
+    },
+    {
+     "respuesta": "Nous ne avons plus de pain.",
+     "explicacion": "Ne se apostrofa ante vocal: n'avons."
+    }
+   ]
+  },
+  {
+   "id": "e12",
+   "tipo": "transformar",
+   "enunciado": "Pasa la frase a negativa con ne… jamais.",
+   "frase": "Elle va souvent au théâtre.",
+   "respuestas": [
+    "Elle ne va jamais au théâtre."
+   ],
+   "explicacion": "La ficha explica que jamais ocupa el lugar de pas, detrás del verbo conjugado. Souvent desaparece, porque jamais es su contrario. Va empieza por consonante, así que ne no se apostrofa. Au théâtre no cambia: au no es un partitivo sino à + le, por lo que no pasa a de.",
+   "explicacion_breve": "Jamais ocupa el lugar de pas y sustituye a souvent.",
+   "traduccion": "Ella nunca va al teatro.",
+   "errores_previstos": [
+    {
+     "respuesta": "Elle ne jamais va au théâtre.",
+     "explicacion": "Jamais va detrás del verbo conjugado, no delante."
+    },
+    {
+     "respuesta": "Elle ne va jamais souvent au théâtre.",
+     "explicacion": "Souvent debe desaparecer: es lo contrario de jamais."
+    },
+    {
+     "respuesta": "Elle ne va pas jamais au théâtre.",
+     "explicacion": "Jamais sustituye a pas; no se acumulan."
+    }
+   ]
+  },
+  {
+   "id": "e13",
+   "tipo": "eleccion",
+   "enunciado": "Elige la opción correcta.",
+   "frase": "Je n'ai pas ___ voiture.",
+   "opciones": [
+    "de",
+    "une",
+    "la"
+   ],
+   "respuestas": [
+    "de"
+   ],
+   "explicacion": "Se aplica la regla del cambio de artículo: tras la negación el indefinido une pasa a de. La pista es la negación n'ai pas delante del hueco y el sentido de «no tener ningún coche». La única excepción de la ficha es être: ce n'est pas une voiture. Con avoir, siempre de.",
+   "explicacion_breve": "Tras la negación el indefinido une pasa a de.",
+   "traduccion": "No tengo coche.",
+   "por_opcion": {
+    "de": "Correcta: tras la negación, un y une pasan a de.",
+    "une": "Incorrecta: el indefinido se convierte en de tras la negación (solo se mantiene con être o en contrastes como pas une voiture, mais deux).",
+    "la": "Incorrecta en este sentido: je n'ai pas la voiture significaría «no tengo el coche» (uno concreto), no «no tengo coche»."
+   }
+  },
+  {
+   "id": "e14",
+   "tipo": "corregir",
+   "enunciado": "Corrige el error.",
+   "frase": "Je pas comprends la question.",
+   "respuestas": [
+    "Je ne comprends pas la question."
+   ],
+   "explicacion": "Es el error típico que recoge la ficha: pas no va delante del verbo y por escrito hace falta ne. La regla es ne delante del verbo conjugado y pas detrás: je ne comprends pas. El complemento la question queda detrás de pas. Comprends empieza por consonante, así que ne no se apostrofa.",
+   "explicacion_breve": "Ne va delante del verbo y pas detrás.",
+   "traduccion": "No entiendo la pregunta.",
+   "errores_previstos": [
+    {
+     "respuesta": "Je pas comprends la question.",
+     "explicacion": "Es la frase sin corregir: pas va detrás del verbo y falta ne."
+    },
+    {
+     "respuesta": "Je comprends pas la question.",
+     "explicacion": "Es la forma oral; por escrito hay que poner ne."
+    },
+    {
+     "respuesta": "Je ne pas comprends la question.",
+     "explicacion": "Pas va detrás del verbo conjugado."
+    }
+   ]
+  },
+  {
+   "id": "e15",
+   "tipo": "corregir",
+   "enunciado": "Corrige el error.",
+   "frase": "Il ne a pas faim.",
+   "respuestas": [
+    "Il n'a pas faim."
+   ],
+   "explicacion": "La ficha indica que ne se apostrofa ante vocal o h muda. A empieza por vocal, así que ne a se convierte en n'a. El resto de la frase es correcto: avoir faim, «tener hambre», sin artículo. Basta con unir ne y a con el apóstrofo.",
+   "explicacion_breve": "Ne se apostrofa ante vocal: n'a.",
+   "traduccion": "No tiene hambre.",
+   "errores_previstos": [
+    {
+     "respuesta": "Il ne a pas faim.",
+     "explicacion": "Es la frase sin corregir: ne se apostrofa ante vocal."
+    },
+    {
+     "respuesta": "Il n'a pas de faim.",
+     "explicacion": "Avoir faim es una locución sin artículo; no se añade de."
+    }
+   ]
+  },
+  {
+   "id": "e16",
+   "tipo": "corregir",
+   "enunciado": "Corrige el error.",
+   "frase": "Je ne mange pas du fromage.",
+   "respuestas": [
+    "Je ne mange pas de fromage."
+   ],
+   "explicacion": "La ficha explica que, tras la negación, el partitivo du pasa a de. La pista es du fromage, cantidad indeterminada de queso. Por eso je ne mange pas de fromage. Je ne mange pas le fromage también existe, pero significaría «no me como el queso», uno concreto.",
+   "explicacion_breve": "Tras la negación du pasa a de.",
+   "traduccion": "No como queso.",
+   "errores_previstos": [
+    {
+     "respuesta": "Je ne mange pas du fromage.",
+     "explicacion": "Es la frase sin corregir: tras la negación du pasa a de."
+    },
+    {
+     "respuesta": "Je ne mange pas fromage.",
+     "explicacion": "Falta de: el nombre no puede quedar sin determinante."
+    }
+   ]
+  }
  ],
- "fuente": {"nombre": "Tex's French Grammar", "autores": "COERLL, Universidad de Texas en Austin", "licencia": "CC BY 3.0", "url": "https://laits.utexas.edu/tex/gr/neg1.html", "otras": ["Frases de Tatoeba (CC BY 2.0 FR)"]}
+ "fuente": {
+  "nombre": "Tex's French Grammar",
+  "autores": "COERLL, Universidad de Texas en Austin",
+  "licencia": "CC BY 3.0",
+  "url": "https://laits.utexas.edu/tex/gr/neg1.html",
+  "otras": [
+   "Frases de Tatoeba (CC BY 2.0 FR)"
+  ]
+ },
+ "descripcion_larga_es": "La negación básica francesa usa dos piezas, ne y pas, que rodean el verbo conjugado; con el mismo esquema se forman ne… plus (ya no) y ne… jamais (nunca). Es una de las primeras estructuras que hay que dominar. Al hispanohablante le cuesta porque en español basta «no» delante del verbo, y además tras la negación los artículos un, une, des y los partitivos pasan a de.",
+ "contexto": {
+  "que_es": "Es la forma de negar una frase en francés: ne se coloca delante del verbo conjugado y pas detrás, de modo que lo rodean junto con los pronombres complemento. Ne se apostrofa ante vocal o h muda. Las variantes ne… plus (ya no) y ne… jamais (nunca) siguen el mismo esquema.",
+  "por_que_importa": "Negar es imprescindible desde el primer día, y los errores de colocación (je pas comprends) o de artículo (je ne mange pas du fromage) son de los más visibles. En el habla los franceses suelen omitir ne, pero por escrito y en un examen hay que ponerlo siempre. Dominar el cambio a de tras la negación evita un error muy frecuente incluso en niveles avanzados.",
+  "cuando_se_usa": "Siempre que se niega un verbo conjugado, en cualquier tiempo: en los compuestos y las perífrasis la negación rodea al auxiliar o al verbo conjugado (je n'ai pas vu, je ne vais pas venir). Las señales son la idea de «no», «ya no» o «nunca». El hispanohablante debe recordar la segunda pieza (pas, plus, jamais), el apóstrofo y el paso de un, des o du a de."
+ }
 }

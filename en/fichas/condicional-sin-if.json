@@ -6,58 +6,650 @@
  "nivel": "C1",
  "resumen": "En registro formal, if puede suprimirse invirtiendo should, were o had con el sujeto. Además, hay conectores que sustituyen a if con matices propios: unless, provided that, as long as, on condition that, otherwise, but for.",
  "explicacion": [
-  {"tipo": "tabla", "cabecera": ["Con if", "Sin if (inversión)", "Tipo"], "filas": [
-   ["If you should need help, call me.", "Should you need help, call me.", "Primer condicional, posibilidad remota y cortés"],
-   ["If I were in your position, I'd resign.", "Were I in your position, I'd resign.", "Segundo condicional"],
-   ["If it were not for your help, we'd fail.", "Were it not for your help, we'd fail.", "Segundo condicional con «de no ser por»"],
-   ["If we had known, we would have come.", "Had we known, we would have come.", "Tercer condicional"],
-   ["If it had not been for the rain, we'd have won.", "Had it not been for the rain, we'd have won.", "Tercer condicional con «de no haber sido por»"]
-  ]},
-  {"tipo": "lista", "items": [
-   "La negación no se contrae en la inversión: Had I not seen it (no «Hadn't I seen it»).",
-   "Con verbos distintos de be en segundo condicional se usa were + to: Were the price to rise, sales would fall.",
-   "But for + sustantivo equivale a were it not for / had it not been for: But for the storm, we would have arrived on time."
-  ]},
-  {"tipo": "tabla", "cabecera": ["Conector", "Significado", "Ejemplo"], "filas": [
-   ["unless", "a menos que, si no", "I won't go unless you come with me."],
-   ["provided (that) / providing (that)", "siempre que, con tal de que", "You can borrow it provided you return it tomorrow."],
-   ["as long as / so long as", "mientras, siempre que", "As long as you're honest, I'll help you."],
-   ["on condition that", "con la condición de que", "He agreed on condition that his name was not published."],
-   ["otherwise", "de lo contrario", "Hurry up; otherwise we'll miss the bus."],
-   ["supposing / suppose", "suponiendo que, ¿y si…?", "Supposing it rains, what will we do?"],
-   ["in case", "por si (no es condicional)", "Take an umbrella in case it rains."]
-  ]},
-  {"tipo": "texto", "texto": "Ojo: unless ya contiene la negación (= if… not), así que no se combina con otra negación con el mismo sentido. Y in case no significa «en caso de que» condicional, sino «por si acaso»: se toma la precaución antes."}
+  {
+   "tipo": "tabla",
+   "cabecera": [
+    "Con if",
+    "Sin if (inversión)",
+    "Tipo"
+   ],
+   "filas": [
+    [
+     "If you should need help, call me.",
+     "Should you need help, call me.",
+     "Primer condicional, posibilidad remota y cortés"
+    ],
+    [
+     "If I were in your position, I'd resign.",
+     "Were I in your position, I'd resign.",
+     "Segundo condicional"
+    ],
+    [
+     "If it were not for your help, we'd fail.",
+     "Were it not for your help, we'd fail.",
+     "Segundo condicional con «de no ser por»"
+    ],
+    [
+     "If we had known, we would have come.",
+     "Had we known, we would have come.",
+     "Tercer condicional"
+    ],
+    [
+     "If it had not been for the rain, we'd have won.",
+     "Had it not been for the rain, we'd have won.",
+     "Tercer condicional con «de no haber sido por»"
+    ]
+   ]
+  },
+  {
+   "tipo": "lista",
+   "items": [
+    "La negación no se contrae en la inversión: Had I not seen it (no «Hadn't I seen it»).",
+    "Con verbos distintos de be en segundo condicional se usa were + to: Were the price to rise, sales would fall.",
+    "But for + sustantivo equivale a were it not for / had it not been for: But for the storm, we would have arrived on time."
+   ]
+  },
+  {
+   "tipo": "tabla",
+   "cabecera": [
+    "Conector",
+    "Significado",
+    "Ejemplo"
+   ],
+   "filas": [
+    [
+     "unless",
+     "a menos que, si no",
+     "I won't go unless you come with me."
+    ],
+    [
+     "provided (that) / providing (that)",
+     "siempre que, con tal de que",
+     "You can borrow it provided you return it tomorrow."
+    ],
+    [
+     "as long as / so long as",
+     "mientras, siempre que",
+     "As long as you're honest, I'll help you."
+    ],
+    [
+     "on condition that",
+     "con la condición de que",
+     "He agreed on condition that his name was not published."
+    ],
+    [
+     "otherwise",
+     "de lo contrario",
+     "Hurry up; otherwise we'll miss the bus."
+    ],
+    [
+     "supposing / suppose",
+     "suponiendo que, ¿y si…?",
+     "Supposing it rains, what will we do?"
+    ],
+    [
+     "in case",
+     "por si (no es condicional)",
+     "Take an umbrella in case it rains."
+    ]
+   ]
+  },
+  {
+   "tipo": "texto",
+   "texto": "Ojo: unless ya contiene la negación (= if… not), así que no se combina con otra negación con el mismo sentido. Y in case no significa «en caso de que» condicional, sino «por si acaso»: se toma la precaución antes."
+  }
  ],
  "ejemplos": [
-  {"frase": "Should you have any questions, please contact our office.", "traduccion": "Si tuviera alguna pregunta, póngase en contacto con nuestra oficina."},
-  {"frase": "Had I known about the strike, I would have taken the car.", "traduccion": "De haber sabido lo de la huelga, habría cogido el coche."},
-  {"frase": "Were it not for her patience, the project would have collapsed long ago.", "traduccion": "De no ser por su paciencia, el proyecto se habría venido abajo hace tiempo."},
-  {"frase": "You may keep the dog provided that you walk it every day.", "traduccion": "Puedes quedarte con el perro siempre que lo saques a pasear todos los días."},
-  {"frase": "Unless the weather improves, the match will be cancelled.", "traduccion": "A menos que mejore el tiempo, se suspenderá el partido."},
-  {"frase": "But for his quick reaction, there would have been an accident.", "traduccion": "De no ser por su rápida reacción, habría habido un accidente."}
+  {
+   "frase": "Should you have any questions, please contact our office.",
+   "traduccion": "Si tuviera alguna pregunta, póngase en contacto con nuestra oficina."
+  },
+  {
+   "frase": "Had I known about the strike, I would have taken the car.",
+   "traduccion": "De haber sabido lo de la huelga, habría cogido el coche."
+  },
+  {
+   "frase": "Were it not for her patience, the project would have collapsed long ago.",
+   "traduccion": "De no ser por su paciencia, el proyecto se habría venido abajo hace tiempo."
+  },
+  {
+   "frase": "You may keep the dog provided that you walk it every day.",
+   "traduccion": "Puedes quedarte con el perro siempre que lo saques a pasear todos los días."
+  },
+  {
+   "frase": "Unless the weather improves, the match will be cancelled.",
+   "traduccion": "A menos que mejore el tiempo, se suspenderá el partido."
+  },
+  {
+   "frase": "But for his quick reaction, there would have been an accident.",
+   "traduccion": "De no ser por su rápida reacción, habría habido un accidente."
+  }
  ],
  "errores_hispanohablantes": [
-  {"mal": "Hadn't I missed the train, I would have arrived on time.", "bien": "Had I not missed the train, I would have arrived on time.", "nota": "En la inversión condicional la negación va sin contraer y detrás del sujeto."},
-  {"mal": "I'll take a coat in case it will be cold.", "bien": "I'll take a coat in case it is cold.", "nota": "Tras in case (y tras unless, provided…) no se usa will para el futuro."},
-  {"mal": "Unless you don't hurry, you'll be late.", "bien": "Unless you hurry, you'll be late.", "nota": "Unless ya significa «si no»; añadir otra negación invierte el sentido."}
+  {
+   "mal": "Hadn't I missed the train, I would have arrived on time.",
+   "bien": "Had I not missed the train, I would have arrived on time.",
+   "nota": "En la inversión condicional la negación va sin contraer y detrás del sujeto."
+  },
+  {
+   "mal": "I'll take a coat in case it will be cold.",
+   "bien": "I'll take a coat in case it is cold.",
+   "nota": "Tras in case (y tras unless, provided…) no se usa will para el futuro."
+  },
+  {
+   "mal": "Unless you don't hurry, you'll be late.",
+   "bien": "Unless you hurry, you'll be late.",
+   "nota": "Unless ya significa «si no»; añadir otra negación invierte el sentido."
+  }
  ],
  "ejercicios": [
-  {"id": "e01", "tipo": "eleccion", "enunciado": "Elige la opción correcta.", "frase": "___ you require further information, do not hesitate to contact us.", "opciones": ["Should", "Would", "Had", "Unless"], "respuestas": ["Should"], "explicacion": "Should + sujeto sustituye a if en un condicional abierto y cortés."},
-  {"id": "e02", "tipo": "eleccion", "enunciado": "Elige la opción correcta.", "frase": "___ I known you were ill, I would have visited you.", "opciones": ["Were", "Had", "Should", "If"], "respuestas": ["Had"], "explicacion": "Tercer condicional sin if: had + sujeto + participio."},
-  {"id": "e03", "tipo": "eleccion", "enunciado": "Elige la opción correcta.", "frase": "You can stay out late ___ you phone us when you leave.", "opciones": ["unless", "as long as", "in case", "otherwise"], "respuestas": ["as long as"], "explicacion": "As long as introduce la condición que debe cumplirse (siempre que)."},
-  {"id": "e04", "tipo": "eleccion", "enunciado": "Elige la opción correcta.", "frase": "Write the number down ___ you forget it.", "opciones": ["unless", "provided", "in case", "if"], "respuestas": ["in case"], "explicacion": "In case expresa una precaución: «por si se te olvida»."},
-  {"id": "e05", "tipo": "hueco", "enunciado": "Completa con una palabra.", "frase": "___ it not for the scholarship, she could not afford university.", "respuestas": ["Were"], "explicacion": "Were it not for = if it were not for (de no ser por), segundo condicional."},
-  {"id": "e06", "tipo": "hueco", "enunciado": "Completa con una palabra.", "frase": "We will not sign the contract ___ they lower the price.", "respuestas": ["unless", "until"], "explicacion": "Unless = if… not: no firmaremos si no bajan el precio (until, «hasta que», también es correcto)."},
-  {"id": "e07", "tipo": "hueco", "enunciado": "Completa con una palabra.", "frase": "Leave now; ___ you will get stuck in traffic.", "respuestas": ["otherwise"], "explicacion": "Otherwise = de lo contrario, si no lo haces."},
-  {"id": "e08", "tipo": "hueco", "enunciado": "Completa con una palabra.", "frase": "___ for the firefighters, the whole building would have burnt down.", "respuestas": ["But"], "explicacion": "But for + sustantivo = de no haber sido por."},
-  {"id": "e09", "tipo": "transformar", "enunciado": "Reescribe sin if, usando inversión.", "frase": "If I were you, I would accept the offer.", "respuestas": ["Were I you, I would accept the offer.", "Were I you, I'd accept the offer."], "explicacion": "Segundo condicional: were + sujeto."},
-  {"id": "e10", "tipo": "transformar", "enunciado": "Reescribe sin if, usando inversión.", "frase": "If they had not helped us, we would have failed.", "respuestas": ["Had they not helped us, we would have failed.", "Had they not helped us, we'd have failed."], "explicacion": "Tercer condicional negativo: had + sujeto + not + participio, sin contracción."},
-  {"id": "e11", "tipo": "transformar", "enunciado": "Reescribe sin if, usando inversión con should.", "frase": "If the flight is delayed, we will inform passengers by text.", "respuestas": ["Should the flight be delayed, we will inform passengers by text.", "Should the flight be delayed, we'll inform passengers by text."], "explicacion": "Should + sujeto + verbo base (be) sustituye a if + presente."},
-  {"id": "e12", "tipo": "corregir", "enunciado": "Corrige el error.", "frase": "Hadn't she called, we would have waited all night.", "respuestas": ["Had she not called, we would have waited all night."], "explicacion": "En la inversión, la negación no se contrae: had she not."},
-  {"id": "e13", "tipo": "corregir", "enunciado": "Corrige el error.", "frase": "I'll lend you the car provided that you will drive carefully.", "respuestas": ["I'll lend you the car provided that you drive carefully.", "I will lend you the car provided that you drive carefully."], "explicacion": "Tras provided that se usa presente con valor de futuro, no will."},
-  {"id": "e14", "tipo": "ordenar", "enunciado": "Ordena las palabras.", "palabras": ["you", "Should", "change", "your", "mind", "let", "me", "know"], "respuestas": ["Should you change your mind let me know"], "explicacion": "Should + sujeto + verbo base, seguido de la oración principal."},
-  {"id": "e15", "tipo": "ordenar", "enunciado": "Ordena las palabras.", "palabras": ["the", "Were", "government", "to", "raise", "taxes", "consumption", "would", "fall"], "respuestas": ["Were the government to raise taxes consumption would fall"], "explicacion": "Were + sujeto + to + infinitivo para un segundo condicional con verbo distinto de be."}
+  {
+   "id": "e01",
+   "tipo": "eleccion",
+   "enunciado": "Elige la opción correcta.",
+   "frase": "___ you require further information, do not hesitate to contact us.",
+   "opciones": [
+    "Should",
+    "Would",
+    "Had",
+    "Unless"
+   ],
+   "respuestas": [
+    "Should"
+   ],
+   "explicacion": "Es la primera fila de la tabla de inversión: Should + sujeto + verbo base sustituye a if en un primer condicional, con un matiz de posibilidad remota y cortés. La pista es el verbo require en forma base tras el hueco y la oración principal en imperativo, típica de una carta comercial. Should you require equivale a If you require.",
+   "explicacion_breve": "Should + sujeto sustituye a if en un condicional abierto y cortés.",
+   "traduccion": "Si necesita más información, no dude en ponerse en contacto con nosotros.",
+   "por_opcion": {
+    "Should": "Correcta: Should you require es la inversión cortés del primer condicional.",
+    "Would": "Incorrecta: would no se invierte para formar condicionales; Would you require… sería una pregunta.",
+    "Had": "Incorrecta: Had + sujeto pide un participio (had you required) y sirve para el tercer condicional, no para esta situación abierta.",
+    "Unless": "Incorrecta: unless significa «a menos que»; la frase diría que contacten si no necesitan información."
+   },
+   "glosario": [
+    {
+     "palabra": "require",
+     "significado": "necesitar, requerir (formal)"
+    },
+    {
+     "palabra": "do not hesitate to",
+     "significado": "no dude en"
+    }
+   ]
+  },
+  {
+   "id": "e02",
+   "tipo": "eleccion",
+   "enunciado": "Elige la opción correcta.",
+   "frase": "___ I known you were ill, I would have visited you.",
+   "opciones": [
+    "Were",
+    "Had",
+    "Should",
+    "If"
+   ],
+   "respuestas": [
+    "Had"
+   ],
+   "explicacion": "Es la inversión del tercer condicional de la tabla: Had + sujeto + participio = If + sujeto + had + participio. La pista es known, un participio, y la oración principal would have visited, propia del tercer condicional. Had I known equivale a If I had known.",
+   "explicacion_breve": "Tercer condicional sin if: had + sujeto + participio.",
+   "traduccion": "Si hubiera sabido que estabas enfermo, te habría visitado.",
+   "por_opcion": {
+    "Were": "Incorrecta: Were + sujeto va con el segundo condicional y no puede ir seguido de known.",
+    "Had": "Correcta: Had I known es la inversión del tercer condicional.",
+    "Should": "Incorrecta: Should + sujeto pide un verbo base y es para el primer condicional.",
+    "If": "Incorrecta: «If I known» no es gramatical; con if haría falta If I had known."
+   }
+  },
+  {
+   "id": "e03",
+   "tipo": "eleccion",
+   "enunciado": "Elige la opción correcta.",
+   "frase": "You can stay out late ___ you phone us when you leave.",
+   "opciones": [
+    "unless",
+    "as long as",
+    "in case",
+    "otherwise"
+   ],
+   "respuestas": [
+    "as long as"
+   ],
+   "explicacion": "Es un conector de la tabla: as long as, mientras o siempre que, que introduce la condición necesaria para que se cumpla lo principal. La pista es el sentido: el permiso de volver tarde depende de llamar. Tras as long as va presente con valor de futuro (you phone).",
+   "explicacion_breve": "As long as introduce la condición que debe cumplirse (siempre que).",
+   "traduccion": "Puedes volver tarde siempre que nos llames cuando salgas.",
+   "por_opcion": {
+    "unless": "Incorrecta: diría «puedes volver tarde a menos que nos llames», justo al revés.",
+    "as long as": "Correcta: as long as, siempre que, introduce la condición del permiso.",
+    "in case": "Incorrecta: in case es «por si acaso», una precaución; no expresa condición.",
+    "otherwise": "Incorrecta: otherwise significa «de lo contrario» y va entre dos oraciones independientes."
+   },
+   "glosario": [
+    {
+     "palabra": "stay out late",
+     "significado": "volver tarde a casa, quedarse fuera hasta tarde"
+    },
+    {
+     "palabra": "as long as",
+     "significado": "siempre que, mientras"
+    }
+   ]
+  },
+  {
+   "id": "e04",
+   "tipo": "eleccion",
+   "enunciado": "Elige la opción correcta.",
+   "frase": "Write the number down ___ you forget it.",
+   "opciones": [
+    "unless",
+    "provided",
+    "in case",
+    "if"
+   ],
+   "respuestas": [
+    "in case"
+   ],
+   "explicacion": "La ficha advierte que in case no es condicional, sino «por si acaso»: se toma la precaución antes de que ocurra algo. La pista es que apuntar el número es una precaución ante la posibilidad de olvidarlo. Tras in case va presente, sin will.",
+   "explicacion_breve": "In case expresa una precaución: «por si se te olvida».",
+   "traduccion": "Apunta el número por si se te olvida.",
+   "por_opcion": {
+    "unless": "Incorrecta: «apúntalo a menos que lo olvides» no tiene sentido.",
+    "provided": "Incorrecta: «apúntalo siempre que lo olvides» invierte la lógica de la precaución.",
+    "in case": "Correcta: in case expresa la precaución, por si se te olvida.",
+    "if": "Incorrecta: «apúntalo si lo olvidas» es ilógico, porque una vez olvidado ya no puedes apuntarlo."
+   },
+   "glosario": [
+    {
+     "palabra": "write down",
+     "significado": "apuntar, anotar"
+    },
+    {
+     "palabra": "in case",
+     "significado": "por si (acaso)"
+    }
+   ]
+  },
+  {
+   "id": "e05",
+   "tipo": "hueco",
+   "enunciado": "Completa con una palabra.",
+   "frase": "___ it not for the scholarship, she could not afford university.",
+   "respuestas": [
+    "Were"
+   ],
+   "explicacion": "Es la fila de la tabla Were it not for = If it were not for, «de no ser por», en un segundo condicional. La pista es it not for tras el hueco y could not afford, resultado hipotético en presente. Se invierte were con el sujeto it y la negación queda detrás, sin contraer.",
+   "explicacion_breve": "Were it not for = if it were not for (de no ser por), segundo condicional.",
+   "traduccion": "De no ser por la beca, no podría pagarse la universidad.",
+   "errores_previstos": [
+    {
+     "respuesta": "Had",
+     "explicacion": "Had it not been for sería tercer condicional (pasado) y necesitaría been; aquí falta been y el resultado es presente."
+    },
+    {
+     "respuesta": "Weren't",
+     "explicacion": "En la inversión la negación no se contrae: Were it not for."
+    },
+    {
+     "respuesta": "If",
+     "explicacion": "If it not for no es gramatical; con if hace falta el verbo: If it were not for."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "scholarship",
+     "significado": "beca"
+    },
+    {
+     "palabra": "afford",
+     "significado": "poder permitirse (pagar)"
+    }
+   ]
+  },
+  {
+   "id": "e06",
+   "tipo": "hueco",
+   "enunciado": "Completa con una palabra.",
+   "frase": "We will not sign the contract ___ they lower the price.",
+   "respuestas": [
+    "unless",
+    "until"
+   ],
+   "explicacion": "Es unless de la tabla de conectores: a menos que, equivalente a if… not. La pista es la negación de la principal (will not sign) y que la condición es bajar el precio. Until, hasta que, también es correcto y la ficha lo acepta, aunque cambia el matiz a temporal. Tras ambos va presente con valor de futuro (they lower), sin will.",
+   "explicacion_breve": "Unless = if… not: no firmaremos si no bajan el precio (until, «hasta que», también es correcto).",
+   "traduccion": "No firmaremos el contrato a menos que bajen el precio (o: hasta que bajen el precio).",
+   "errores_previstos": [
+    {
+     "respuesta": "if",
+     "explicacion": "«No firmaremos si bajan el precio» dice lo contrario de lo que se pretende."
+    },
+    {
+     "respuesta": "unless not",
+     "explicacion": "Unless ya contiene la negación; añadir otra invierte el sentido."
+    },
+    {
+     "respuesta": "except",
+     "explicacion": "Except es «excepto» y va con sustantivos; para introducir una oración condicional se usa unless."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "unless",
+     "significado": "a menos que, si no"
+    },
+    {
+     "palabra": "lower",
+     "significado": "bajar, reducir"
+    }
+   ]
+  },
+  {
+   "id": "e07",
+   "tipo": "hueco",
+   "enunciado": "Completa con una palabra.",
+   "frase": "Leave now; ___ you will get stuck in traffic.",
+   "respuestas": [
+    "otherwise"
+   ],
+   "explicacion": "Es otherwise de la tabla de conectores: de lo contrario, si no lo haces. La pista es el punto y coma, que separa dos oraciones independientes: una orden y la consecuencia de no cumplirla. Otherwise une esas dos oraciones; unless o if no pueden ir así, tras un punto y coma.",
+   "explicacion_breve": "Otherwise = de lo contrario, si no lo haces.",
+   "traduccion": "Sal ya; de lo contrario, te quedarás atascado en el tráfico.",
+   "errores_previstos": [
+    {
+     "respuesta": "unless",
+     "explicacion": "Unless introduce una condición subordinada, no una consecuencia tras punto y coma."
+    },
+    {
+     "respuesta": "if not",
+     "explicacion": "If not puede usarse en el habla, pero la palabra única que pide la frase es otherwise."
+    },
+    {
+     "respuesta": "contrarily",
+     "explicacion": "Calco de «de lo contrario»; no es un conector inglés natural aquí."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "otherwise",
+     "significado": "de lo contrario, si no"
+    },
+    {
+     "palabra": "get stuck",
+     "significado": "quedarse atascado"
+    }
+   ]
+  },
+  {
+   "id": "e08",
+   "tipo": "hueco",
+   "enunciado": "Completa con una palabra.",
+   "frase": "___ for the firefighters, the whole building would have burnt down.",
+   "respuestas": [
+    "But"
+   ],
+   "explicacion": "Es la estructura but for + sustantivo de la lista de la ficha, equivalente a had it not been for, «de no haber sido por». La pista es for the firefighters (un sustantivo, no una oración) y el resultado en tercer condicional, would have burnt down. Se escribe con mayúscula por ir al inicio.",
+   "explicacion_breve": "But for + sustantivo = de no haber sido por.",
+   "traduccion": "De no haber sido por los bomberos, todo el edificio se habría quemado.",
+   "errores_previstos": [
+    {
+     "respuesta": "Except",
+     "explicacion": "Except for significa «excepto»; no expresa la condición contraria."
+    },
+    {
+     "respuesta": "If",
+     "explicacion": "If for the firefighters no es gramatical; con if haría falta If it hadn't been for."
+    },
+    {
+     "respuesta": "Without",
+     "explicacion": "Without the firefighters sería correcto, pero sin for; con for tras el hueco solo vale But."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "but for",
+     "significado": "de no ser por, de no haber sido por"
+    },
+    {
+     "palabra": "firefighters",
+     "significado": "bomberos"
+    },
+    {
+     "palabra": "burn down",
+     "significado": "quemarse por completo"
+    }
+   ]
+  },
+  {
+   "id": "e09",
+   "tipo": "transformar",
+   "enunciado": "Reescribe sin if, usando inversión.",
+   "frase": "If I were you, I would accept the offer.",
+   "respuestas": [
+    "Were I you, I would accept the offer.",
+    "Were I you, I'd accept the offer."
+   ],
+   "explicacion": "Es la inversión del segundo condicional de la tabla: Were + sujeto sustituye a If + sujeto + were. If I were you pasa a Were I you, y la oración principal no cambia (would accept o I'd accept). Es una forma muy formal; en el habla corriente se sigue prefiriendo If I were you.",
+   "explicacion_breve": "Segundo condicional: were + sujeto.",
+   "traduccion": "Yo que tú, aceptaría la oferta.",
+   "errores_previstos": [
+    {
+     "respuesta": "Was I you, I would accept the offer.",
+     "explicacion": "En la inversión solo vale were, nunca was."
+    },
+    {
+     "respuesta": "Were you I, I would accept the offer.",
+     "explicacion": "Se invierte el orden de los pronombres; la fórmula es Were I you."
+    },
+    {
+     "respuesta": "Should I be you, I would accept the offer.",
+     "explicacion": "Should es para el primer condicional; una situación irreal en presente pide were."
+    }
+   ]
+  },
+  {
+   "id": "e10",
+   "tipo": "transformar",
+   "enunciado": "Reescribe sin if, usando inversión.",
+   "frase": "If they had not helped us, we would have failed.",
+   "respuestas": [
+    "Had they not helped us, we would have failed.",
+    "Had they not helped us, we'd have failed."
+   ],
+   "explicacion": "Es la inversión del tercer condicional negativo: Had + sujeto + not + participio. La lista de la ficha insiste en que la negación no se contrae: Had they not helped, no Hadn't they helped. La oración principal se mantiene (would have failed o 'd have failed).",
+   "explicacion_breve": "Tercer condicional negativo: had + sujeto + not + participio, sin contracción.",
+   "traduccion": "Si no nos hubieran ayudado, habríamos fracasado.",
+   "errores_previstos": [
+    {
+     "respuesta": "Hadn't they helped us, we would have failed.",
+     "explicacion": "En la inversión la negación no se contrae y va detrás del sujeto: Had they not."
+    },
+    {
+     "respuesta": "Had not they helped us, we would have failed.",
+     "explicacion": "Not va detrás del sujeto: Had they not helped."
+    },
+    {
+     "respuesta": "Had they not help us, we would have failed.",
+     "explicacion": "Tras had va el participio: helped."
+    }
+   ]
+  },
+  {
+   "id": "e11",
+   "tipo": "transformar",
+   "enunciado": "Reescribe sin if, usando inversión con should.",
+   "frase": "If the flight is delayed, we will inform passengers by text.",
+   "respuestas": [
+    "Should the flight be delayed, we will inform passengers by text.",
+    "Should the flight be delayed, we'll inform passengers by text."
+   ],
+   "explicacion": "Es la inversión del primer condicional con should: Should + sujeto + verbo base. La forma is delayed pasa a be delayed, porque tras should va el infinitivo sin to. La principal se mantiene en futuro (will inform o we'll inform). Es la fórmula típica de los avisos de aerolíneas y empresas.",
+   "explicacion_breve": "Should + sujeto + verbo base (be) sustituye a if + presente.",
+   "traduccion": "Si el vuelo se retrasa, informaremos a los pasajeros por SMS.",
+   "errores_previstos": [
+    {
+     "respuesta": "Should the flight is delayed, we will inform passengers by text.",
+     "explicacion": "Tras should va el verbo base: be delayed."
+    },
+    {
+     "respuesta": "Should the flight be delayed, we would inform passengers by text.",
+     "explicacion": "La inversión con should no cambia la principal: sigue siendo will inform."
+    },
+    {
+     "respuesta": "Should be the flight delayed, we will inform passengers by text.",
+     "explicacion": "El sujeto va justo detrás de should: Should the flight be delayed."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "delayed",
+     "significado": "retrasado"
+    },
+    {
+     "palabra": "by text",
+     "significado": "por SMS, por mensaje"
+    }
+   ]
+  },
+  {
+   "id": "e12",
+   "tipo": "corregir",
+   "enunciado": "Corrige el error.",
+   "frase": "Hadn't she called, we would have waited all night.",
+   "respuestas": [
+    "Had she not called, we would have waited all night."
+   ],
+   "explicacion": "Es el error típico que recoge la ficha: en la inversión condicional la negación no se contrae y va detrás del sujeto. Hadn't she called parece una pregunta negativa, no una condición. La forma correcta es Had she not called; la principal se queda igual.",
+   "explicacion_breve": "En la inversión, la negación no se contrae: had she not.",
+   "traduccion": "Si ella no hubiera llamado, habríamos esperado toda la noche.",
+   "errores_previstos": [
+    {
+     "respuesta": "Hadn't she called, we would have waited all night.",
+     "explicacion": "Es dejar la frase sin corregir: la negación no se contrae en la inversión."
+    },
+    {
+     "respuesta": "Had not she called, we would have waited all night.",
+     "explicacion": "Not va detrás del sujeto: Had she not."
+    }
+   ]
+  },
+  {
+   "id": "e13",
+   "tipo": "corregir",
+   "enunciado": "Corrige el error.",
+   "frase": "I'll lend you the car provided that you will drive carefully.",
+   "respuestas": [
+    "I'll lend you the car provided that you drive carefully.",
+    "I will lend you the car provided that you drive carefully."
+   ],
+   "explicacion": "Es provided that de la tabla de conectores: siempre que, con tal de que. La ficha indica que tras los conectores de condición no se usa will para el futuro, sino presente con valor de futuro, como tras if. Por eso will drive pasa a drive. La principal puede ir contraída (I'll) o completa (I will).",
+   "explicacion_breve": "Tras provided that se usa presente con valor de futuro, no will.",
+   "traduccion": "Te dejaré el coche siempre que conduzcas con cuidado.",
+   "errores_previstos": [
+    {
+     "respuesta": "I'll lend you the car provided that you will drive carefully.",
+     "explicacion": "Es dejar la frase sin corregir: tras provided that no va will."
+    },
+    {
+     "respuesta": "I'll lend you the car provided that you would drive carefully.",
+     "explicacion": "Would tampoco va tras el conector; se usa el presente drive."
+    },
+    {
+     "respuesta": "I'll lend you the car provided that you drives carefully.",
+     "explicacion": "Con you el presente no lleva -s."
+    }
+   ]
+  },
+  {
+   "id": "e14",
+   "tipo": "ordenar",
+   "enunciado": "Ordena las palabras.",
+   "palabras": [
+    "you",
+    "Should",
+    "change",
+    "your",
+    "mind",
+    "let",
+    "me",
+    "know"
+   ],
+   "respuestas": [
+    "Should you change your mind let me know",
+    "Let me know should you change your mind"
+   ],
+   "explicacion": "Es la inversión del primer condicional con should: Should + sujeto + verbo base, seguida de la oración principal en imperativo. El orden es Should you change your mind (condición) + let me know (principal). Change your mind es una colocación fija: cambiar de opinión. Como en cualquier condicional, la oración principal puede ir delante: Let me know should you change your mind también es correcta.",
+   "explicacion_breve": "Should + sujeto + verbo base; la oración principal puede ir delante o detrás.",
+   "traduccion": "Si cambias de opinión, avísame.",
+   "errores_previstos": [
+    {
+     "respuesta": "Should change you your mind let me know",
+     "explicacion": "El sujeto you va justo detrás de should, antes del verbo."
+    },
+    {
+     "respuesta": "You should change your mind let me know",
+     "explicacion": "Sin inversión, you should change your mind significa «deberías cambiar de opinión», no es una condición; para sustituir a if, should va delante del sujeto."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "change your mind",
+     "significado": "cambiar de opinión"
+    },
+    {
+     "palabra": "let me know",
+     "significado": "avísame, dímelo"
+    }
+   ]
+  },
+  {
+   "id": "e15",
+   "tipo": "ordenar",
+   "enunciado": "Ordena las palabras.",
+   "palabras": [
+    "the",
+    "Were",
+    "government",
+    "to",
+    "raise",
+    "taxes",
+    "consumption",
+    "would",
+    "fall"
+   ],
+   "respuestas": [
+    "Were the government to raise taxes consumption would fall"
+   ],
+   "explicacion": "La lista de la ficha indica que, con verbos distintos de be, el segundo condicional invertido se forma con Were + sujeto + to + infinitivo. Aquí: Were the government to raise taxes = If the government raised taxes. La principal va con would + infinitivo (consumption would fall). Es una estructura muy formal, frecuente en análisis económico.",
+   "explicacion_breve": "Were + sujeto + to + infinitivo para un segundo condicional con verbo distinto de be.",
+   "traduccion": "Si el Gobierno subiera los impuestos, el consumo caería.",
+   "errores_previstos": [
+    {
+     "respuesta": "Were the government raise to taxes consumption would fall",
+     "explicacion": "To va delante del infinitivo: to raise."
+    },
+    {
+     "respuesta": "The government were to raise taxes consumption would fall",
+     "explicacion": "Sin inversión falta el if; la condición debe empezar por Were."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "raise taxes",
+     "significado": "subir los impuestos"
+    },
+    {
+     "palabra": "consumption",
+     "significado": "consumo"
+    }
+   ]
+  }
  ],
- "fuente": {"nombre": "propia"}
+ "fuente": {
+  "nombre": "propia"
+ },
+ "descripcion_larga_es": "En inglés formal, if puede desaparecer si se invierte el sujeto con should, were o had (Should you need help…, Had we known…). Además, conectores como unless, provided that, as long as, otherwise o but for sustituyen a if con matices propios. Es un rasgo típico del registro escrito, comercial y jurídico. Al hispanohablante le cuesta porque el español no tiene esta inversión y porque traduce in case como «en caso de que».",
+ "contexto": {
+  "que_es": "Son dos recursos para expresar condiciones sin if. El primero es la inversión: should + sujeto + verbo base (primer condicional cortés), were + sujeto (segundo) y had + sujeto + participio (tercero), con la negación sin contraer. El segundo son conectores condicionales con matiz: unless (a menos que), provided that y as long as (siempre que), otherwise (de lo contrario), but for (de no ser por).",
+  "por_que_importa": "La inversión es muy frecuente en correspondencia formal, contratos y textos institucionales (Should you have any questions…), y usarla bien da un nivel C1 visible en un examen escrito. Los conectores cambian el sentido: confundir unless con if, o in case con «en caso de que», puede decir lo contrario de lo que se pretende.",
+  "cuando_se_usa": "En cartas y correos formales, en informes, en cláusulas contractuales y en discursos. Las señales son un auxiliar al principio de la oración sin interrogación (Had I…, Were it not…), y los conectores de condición. El hispanohablante tiende a contraer la negación (Hadn't I…), a añadir otra negación tras unless y a poner will tras provided o in case."
+ }
 }

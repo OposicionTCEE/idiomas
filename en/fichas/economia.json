@@ -6,68 +6,756 @@
  "nivel": "B2",
  "resumen": "Vocabulario económico frecuente en prensa e informes: macroeconomía, mercado laboral, precios, empresa y comercio exterior. Imprescindible para resumir noticias y exponer temas económicos en inglés.",
  "explicacion": [
-  {"tipo": "texto", "texto": "El inglés económico tiene muchas palabras parecidas al español, pero también diferencias de uso: «economics» es la ciencia y «economy» es la economía de un país; «benefit» no es «beneficio contable» (eso es «profit»)."},
-  {"tipo": "tabla", "cabecera": ["Expresión", "Significado", "Ejemplo"], "filas": [
-   ["GDP (gross domestic product)", "PIB", "GDP grew by 2% last year."],
-   ["growth / to grow", "crecimiento / crecer", "Growth slowed in the second quarter."],
-   ["recession / downturn", "recesión / desaceleración", "The country slipped into recession."],
-   ["recovery", "recuperación", "The recovery has been uneven."],
-   ["inflation / deflation", "inflación / deflación", "Inflation hit a ten-year high."],
-   ["interest rate", "tipo de interés", "The central bank raised interest rates."],
-   ["public debt / deficit", "deuda pública / déficit", "The deficit narrowed to 3% of GDP."],
-   ["tax revenue", "recaudación fiscal", "Tax revenue rose sharply."],
-   ["public spending", "gasto público", "The government cut public spending."],
-   ["unemployment rate", "tasa de paro", "The unemployment rate fell to 11%."],
-   ["workforce / labour force", "población activa / plantilla", "Women make up half the workforce."],
-   ["wages / salary", "salarios (por hora o semana) / sueldo (anual)", "Wages have not kept up with prices."],
-   ["to hire / to lay off", "contratar / despedir (por causas económicas)", "The firm laid off 200 workers."]
-  ]},
-  {"tipo": "tabla", "cabecera": ["Expresión", "Significado", "Ejemplo"], "filas": [
-   ["profit / loss", "beneficio / pérdida", "The bank made a record profit."],
-   ["revenue / turnover", "ingresos / facturación", "Annual turnover reached 5 million euros."],
-   ["shareholder", "accionista", "Shareholders approved the merger."],
-   ["merger / takeover", "fusión / adquisición (a menudo hostil)", "The takeover bid was rejected."],
-   ["supply and demand", "oferta y demanda", "Prices depend on supply and demand."],
-   ["market share", "cuota de mercado", "They lost market share to rivals."],
-   ["exports / imports", "exportaciones / importaciones", "Exports account for a third of GDP."],
-   ["trade surplus / trade deficit", "superávit / déficit comercial", "Germany runs a large trade surplus."],
-   ["tariff", "arancel", "The US imposed tariffs on steel."],
-   ["supply chain", "cadena de suministro", "The pandemic disrupted supply chains."],
-   ["investment / investor", "inversión / inversor", "Foreign investment doubled."],
-   ["the economy / economics", "la economía (de un país) / la economía (ciencia)", "She studied economics in Madrid."]
-  ]},
-  {"tipo": "lista", "items": ["Verbos típicos: boost (impulsar), curb (frenar), stimulate (estimular), tighten / ease (endurecer / relajar la política monetaria).", "«Economic» = económico (relativo a la economía); «economical» = económico (barato, que ahorra)."]}
+  {
+   "tipo": "texto",
+   "texto": "El inglés económico tiene muchas palabras parecidas al español, pero también diferencias de uso: «economics» es la ciencia y «economy» es la economía de un país; «benefit» no es «beneficio contable» (eso es «profit»)."
+  },
+  {
+   "tipo": "tabla",
+   "cabecera": [
+    "Expresión",
+    "Significado",
+    "Ejemplo"
+   ],
+   "filas": [
+    [
+     "GDP (gross domestic product)",
+     "PIB",
+     "GDP grew by 2% last year."
+    ],
+    [
+     "growth / to grow",
+     "crecimiento / crecer",
+     "Growth slowed in the second quarter."
+    ],
+    [
+     "recession / downturn",
+     "recesión / desaceleración",
+     "The country slipped into recession."
+    ],
+    [
+     "recovery",
+     "recuperación",
+     "The recovery has been uneven."
+    ],
+    [
+     "inflation / deflation",
+     "inflación / deflación",
+     "Inflation hit a ten-year high."
+    ],
+    [
+     "interest rate",
+     "tipo de interés",
+     "The central bank raised interest rates."
+    ],
+    [
+     "public debt / deficit",
+     "deuda pública / déficit",
+     "The deficit narrowed to 3% of GDP."
+    ],
+    [
+     "tax revenue",
+     "recaudación fiscal",
+     "Tax revenue rose sharply."
+    ],
+    [
+     "public spending",
+     "gasto público",
+     "The government cut public spending."
+    ],
+    [
+     "unemployment rate",
+     "tasa de paro",
+     "The unemployment rate fell to 11%."
+    ],
+    [
+     "labour force / workforce",
+     "población activa (de un país)",
+     "Women make up half the labour force."
+    ],
+    [
+     "workforce / staff",
+     "plantilla (de una empresa)",
+     "The company has a workforce of 500."
+    ],
+    [
+     "wages / salary",
+     "salarios (por hora o semana) / sueldo (anual)",
+     "Wages have not kept up with prices."
+    ],
+    [
+     "to hire / to lay off",
+     "contratar / despedir (por causas económicas)",
+     "The firm laid off 200 workers."
+    ]
+   ]
+  },
+  {
+   "tipo": "tabla",
+   "cabecera": [
+    "Expresión",
+    "Significado",
+    "Ejemplo"
+   ],
+   "filas": [
+    [
+     "profit / loss",
+     "beneficio / pérdida",
+     "The bank made a record profit."
+    ],
+    [
+     "revenue / turnover",
+     "ingresos / facturación",
+     "Annual turnover reached 5 million euros."
+    ],
+    [
+     "shareholder",
+     "accionista",
+     "Shareholders approved the merger."
+    ],
+    [
+     "merger / takeover",
+     "fusión / adquisición (a menudo hostil)",
+     "The takeover bid was rejected."
+    ],
+    [
+     "supply and demand",
+     "oferta y demanda",
+     "Prices depend on supply and demand."
+    ],
+    [
+     "market share",
+     "cuota de mercado",
+     "They lost market share to rivals."
+    ],
+    [
+     "exports / imports",
+     "exportaciones / importaciones",
+     "Exports account for a third of GDP."
+    ],
+    [
+     "trade surplus / trade deficit",
+     "superávit / déficit comercial",
+     "Germany runs a large trade surplus."
+    ],
+    [
+     "tariff",
+     "arancel",
+     "The US imposed tariffs on steel."
+    ],
+    [
+     "supply chain",
+     "cadena de suministro",
+     "The pandemic disrupted supply chains."
+    ],
+    [
+     "investment / investor",
+     "inversión / inversor",
+     "Foreign investment doubled."
+    ],
+    [
+     "the economy / economics",
+     "la economía (de un país) / la economía (ciencia)",
+     "She studied economics in Madrid."
+    ]
+   ]
+  },
+  {
+   "tipo": "lista",
+   "items": [
+    "Verbos típicos: boost (impulsar), curb (frenar), stimulate (estimular), tighten / ease (endurecer / relajar la política monetaria).",
+    "«Economic» = económico (relativo a la economía); «economical» = económico (barato, que ahorra)."
+   ]
+  }
  ],
  "ejemplos": [
-  {"frase": "The economy grew faster than expected in the first quarter.", "traduccion": "La economía creció más de lo previsto en el primer trimestre."},
-  {"frase": "Rising energy prices pushed inflation above 5%.", "traduccion": "La subida de los precios de la energía llevó la inflación por encima del 5%."},
-  {"frase": "The company reported a loss for the third year in a row.", "traduccion": "La empresa registró pérdidas por tercer año consecutivo."},
-  {"frase": "Small businesses struggle to get credit during a downturn.", "traduccion": "A las pequeñas empresas les cuesta conseguir crédito en una desaceleración."},
-  {"frase": "The new tariffs could disrupt supply chains across Europe.", "traduccion": "Los nuevos aranceles podrían alterar las cadenas de suministro en toda Europa."},
-  {"frase": "My car is very economical: it uses very little fuel.", "traduccion": "Mi coche es muy económico: gasta muy poco combustible."}
+  {
+   "frase": "The economy grew faster than expected in the first quarter.",
+   "traduccion": "La economía creció más de lo previsto en el primer trimestre."
+  },
+  {
+   "frase": "Rising energy prices pushed inflation above 5%.",
+   "traduccion": "La subida de los precios de la energía llevó la inflación por encima del 5%."
+  },
+  {
+   "frase": "The company reported a loss for the third year in a row.",
+   "traduccion": "La empresa registró pérdidas por tercer año consecutivo."
+  },
+  {
+   "frase": "Small businesses struggle to get credit during a downturn.",
+   "traduccion": "A las pequeñas empresas les cuesta conseguir crédito en una desaceleración."
+  },
+  {
+   "frase": "The new tariffs could disrupt supply chains across Europe.",
+   "traduccion": "Los nuevos aranceles podrían alterar las cadenas de suministro en toda Europa."
+  },
+  {
+   "frase": "My car is very economical: it uses very little fuel.",
+   "traduccion": "Mi coche es muy económico: gasta muy poco combustible."
+  }
  ],
  "errores_hispanohablantes": [
-  {"mal": "She studies economy at university.", "bien": "She studies economics at university.", "nota": "La disciplina académica es «economics»; «economy» es la economía de un país."},
-  {"mal": "The company had big benefits this year.", "bien": "The company made big profits this year.", "nota": "El beneficio contable es «profit»; «benefit» es ventaja o prestación."},
-  {"mal": "The interest type went up.", "bien": "The interest rate went up.", "nota": "«Tipo de interés» se dice «interest rate»."},
-  {"mal": "The unemployment is very high.", "bien": "Unemployment is very high.", "nota": "Los nombres abstractos en sentido general van sin artículo."}
+  {
+   "mal": "She studies economy at university.",
+   "bien": "She studies economics at university.",
+   "nota": "La disciplina académica es «economics»; «economy» es la economía de un país."
+  },
+  {
+   "mal": "The company had big benefits this year.",
+   "bien": "The company made big profits this year.",
+   "nota": "El beneficio contable es «profit»; «benefit» es ventaja o prestación."
+  },
+  {
+   "mal": "The interest type went up.",
+   "bien": "The interest rate went up.",
+   "nota": "«Tipo de interés» se dice «interest rate»."
+  },
+  {
+   "mal": "The unemployment is very high.",
+   "bien": "Unemployment is very high.",
+   "nota": "Los nombres abstractos en sentido general van sin artículo."
+  }
  ],
  "ejercicios": [
-  {"id": "e01", "tipo": "hueco", "enunciado": "Completa con una palabra.", "frase": "The central bank decided to raise interest ___ by half a point.", "respuestas": ["rates"], "explicacion": "«Tipos de interés» se dice «interest rates»."},
-  {"id": "e02", "tipo": "eleccion", "enunciado": "Elige la opción correcta.", "frase": "He has a degree in ___ from the LSE.", "opciones": ["economy", "economics", "economical"], "respuestas": ["economics"], "explicacion": "La ciencia económica es «economics»."},
-  {"id": "e03", "tipo": "eleccion", "enunciado": "Elige la opción correcta.", "frase": "The firm made a net ___ of 3 million euros.", "opciones": ["benefit", "profit", "winning"], "respuestas": ["profit"], "explicacion": "El beneficio de una empresa es «profit»."},
-  {"id": "e04", "tipo": "hueco", "enunciado": "Completa con una palabra.", "frase": "The US imposed a 25% ___ on imported steel.", "respuestas": ["tariff", "duty"], "explicacion": "Un arancel es «tariff» (también «duty»)."},
-  {"id": "e05", "tipo": "eleccion", "enunciado": "Elige la opción correcta.", "frase": "The factory closed and 300 workers were ___.", "opciones": ["laid off", "laid out", "hired", "put off"], "respuestas": ["laid off"], "explicacion": "«To lay off» es despedir por motivos económicos."},
-  {"id": "e06", "tipo": "hueco", "enunciado": "Completa con una palabra (PIB).", "frase": "Spain's ___ grew by 2.5% last year.", "respuestas": ["GDP"], "explicacion": "PIB es «GDP» (gross domestic product)."},
-  {"id": "e07", "tipo": "corregir", "enunciado": "Corrige el error.", "frase": "The interest type has gone up again.", "respuestas": ["The interest rate has gone up again."], "explicacion": "«Tipo de interés» es «interest rate»."},
-  {"id": "e08", "tipo": "corregir", "enunciado": "Corrige el error.", "frase": "Small cars are more economic to run.", "respuestas": ["Small cars are more economical to run.", "Small cars are cheaper to run."], "explicacion": "«Que ahorra dinero» es «economical»; «economic» se refiere a la economía."},
-  {"id": "e09", "tipo": "eleccion", "enunciado": "Elige la opción correcta.", "frase": "Exports exceeded imports, so the country ran a trade ___.", "opciones": ["surplus", "deficit", "debt"], "respuestas": ["surplus"], "explicacion": "Si las exportaciones superan a las importaciones hay superávit («surplus»)."},
-  {"id": "e10", "tipo": "hueco", "enunciado": "Completa con una palabra (cuota de mercado).", "frase": "Smaller rivals are gaining market ___.", "respuestas": ["share"], "explicacion": "«Cuota de mercado» es «market share»."},
-  {"id": "e11", "tipo": "eleccion", "enunciado": "Elige la opción correcta.", "frase": "After two years of recession, the economy is finally in ___.", "opciones": ["recovery", "recuperation", "recovering"], "respuestas": ["recovery"], "explicacion": "La recuperación económica es «recovery»; «recuperation» es recuperación física."},
-  {"id": "e12", "tipo": "hueco", "enunciado": "Completa con una palabra (accionistas).", "frase": "The board must explain the losses to its ___.", "respuestas": ["shareholders", "stockholders"], "explicacion": "Accionista es «shareholder» (en EE. UU. también «stockholder»)."},
-  {"id": "e13", "tipo": "corregir", "enunciado": "Corrige el error.", "frase": "The unemployment is falling in most regions.", "respuestas": ["Unemployment is falling in most regions."], "explicacion": "En sentido general, «unemployment» va sin artículo."},
-  {"id": "e14", "tipo": "ordenar", "enunciado": "Ordena las palabras.", "palabras": ["chains", "pandemic", "The", "supply", "disrupted", "global"], "respuestas": ["The pandemic disrupted global supply chains"], "explicacion": "Sujeto + verbo + objeto; «global» precede a «supply chains»."},
-  {"id": "e15", "tipo": "hueco", "enunciado": "Completa con un verbo (impulsar).", "frase": "Lower taxes are meant to ___ consumer spending.", "respuestas": ["boost", "stimulate", "spur", "encourage"], "explicacion": "«Boost» o «stimulate» = impulsar, estimular."}
+  {
+   "id": "e01",
+   "tipo": "hueco",
+   "enunciado": "Completa con una palabra.",
+   "frase": "The central bank decided to raise interest ___ by half a point.",
+   "respuestas": [
+    "rates"
+   ],
+   "explicacion": "La tabla recoge interest rate = tipo de interés. La pista es raise… by half a point, propio de la política monetaria. Rate es la palabra que expresa una proporción o tasa; va en plural porque se habla de los tipos en general.",
+   "explicacion_breve": "«Tipos de interés» se dice «interest rates».",
+   "traduccion": "El banco central decidió subir los tipos de interés medio punto.",
+   "errores_previstos": [
+    {
+     "respuesta": "types",
+     "explicacion": "Calco de «tipo de interés»: en inglés es interest rate."
+    },
+    {
+     "respuesta": "rate",
+     "explicacion": "En la frase se habla de los tipos en general y lo habitual es el plural: interest rates."
+    },
+    {
+     "respuesta": "ratios",
+     "explicacion": "Ratio es una razón entre dos magnitudes; el tipo de interés es rate."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "interest rate",
+     "significado": "tipo de interés"
+    },
+    {
+     "palabra": "central bank",
+     "significado": "banco central"
+    },
+    {
+     "palabra": "to raise",
+     "significado": "subir, elevar"
+    }
+   ]
+  },
+  {
+   "id": "e02",
+   "tipo": "eleccion",
+   "enunciado": "Elige la opción correcta.",
+   "frase": "He has a degree in ___ from the LSE.",
+   "opciones": [
+    "economy",
+    "economics",
+    "economical"
+   ],
+   "respuestas": [
+    "economics"
+   ],
+   "explicacion": "La ficha distingue economics (la ciencia económica) de economy (la economía de un país). La pista es a degree in, que pide una disciplina académica. Economics, pese a la -s, es singular e incontable, como mathematics.",
+   "explicacion_breve": "La ciencia económica es «economics».",
+   "traduccion": "Es licenciado en Economía por la LSE.",
+   "por_opcion": {
+    "economy": "Incorrecta: economy es la economía de un país o región, no la carrera.",
+    "economics": "Correcta: economics es la ciencia económica, lo que se estudia en la universidad.",
+    "economical": "Incorrecta: es un adjetivo (barato, que ahorra), no un sustantivo."
+   },
+   "glosario": [
+    {
+     "palabra": "economics",
+     "significado": "economía (ciencia)"
+    },
+    {
+     "palabra": "degree",
+     "significado": "título universitario, licenciatura"
+    }
+   ]
+  },
+  {
+   "id": "e03",
+   "tipo": "eleccion",
+   "enunciado": "Elige la opción correcta.",
+   "frase": "The firm made a net ___ of 3 million euros.",
+   "opciones": [
+    "benefit",
+    "profit",
+    "winning"
+   ],
+   "respuestas": [
+    "profit"
+   ],
+   "explicacion": "La ficha avisa de que benefit no es el beneficio contable: eso es profit. La pista es net y la cifra en euros, que remiten a la cuenta de resultados. La colocación es make a profit.",
+   "explicacion_breve": "El beneficio de una empresa es «profit».",
+   "traduccion": "La empresa obtuvo un beneficio neto de 3 millones de euros.",
+   "por_opcion": {
+    "benefit": "Incorrecta: benefit es ventaja o prestación (social benefits); no es el resultado contable.",
+    "profit": "Correcta: profit es el beneficio de una empresa; make a net profit.",
+    "winning": "Incorrecta: winning es ganador o el acto de ganar; las ganancias de un juego son winnings, nunca el beneficio empresarial."
+   },
+   "glosario": [
+    {
+     "palabra": "profit",
+     "significado": "beneficio"
+    },
+    {
+     "palabra": "net",
+     "significado": "neto"
+    },
+    {
+     "palabra": "firm",
+     "significado": "empresa"
+    }
+   ]
+  },
+  {
+   "id": "e04",
+   "tipo": "hueco",
+   "enunciado": "Completa con una palabra.",
+   "frase": "The US imposed a 25% ___ on imported steel.",
+   "respuestas": [
+    "tariff",
+    "duty"
+   ],
+   "explicacion": "La tabla da tariff = arancel, el impuesto sobre las importaciones. La pista es imposed… on imported steel. También se acepta duty, que designa un derecho o impuesto aduanero, con sentido muy próximo.",
+   "explicacion_breve": "Un arancel es «tariff» (también «duty»).",
+   "traduccion": "Estados Unidos impuso un arancel del 25% al acero importado.",
+   "errores_previstos": [
+    {
+     "respuesta": "arancel",
+     "explicacion": "Se pide la palabra inglesa: tariff."
+    },
+    {
+     "respuesta": "tax",
+     "explicacion": "Tax es impuesto en general; el impuesto sobre importaciones tiene nombre propio: tariff o duty."
+    },
+    {
+     "respuesta": "tarif",
+     "explicacion": "Se escribe con dos efes: tariff."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "tariff",
+     "significado": "arancel"
+    },
+    {
+     "palabra": "steel",
+     "significado": "acero"
+    },
+    {
+     "palabra": "to impose",
+     "significado": "imponer"
+    }
+   ]
+  },
+  {
+   "id": "e05",
+   "tipo": "eleccion",
+   "enunciado": "Elige la opción correcta.",
+   "frase": "The factory closed and 300 workers were ___.",
+   "opciones": [
+    "laid off",
+    "laid out",
+    "hired",
+    "put off"
+   ],
+   "respuestas": [
+    "laid off"
+   ],
+   "explicacion": "La tabla recoge to lay off = despedir por causas económicas (no por mal comportamiento, que sería fire o dismiss). La pista es The factory closed: el despido se debe al cierre. En pasiva: were laid off.",
+   "explicacion_breve": "«To lay off» es despedir por motivos económicos.",
+   "traduccion": "La fábrica cerró y despidieron a 300 trabajadores.",
+   "por_opcion": {
+    "laid off": "Correcta: lay off = despedir por motivos económicos.",
+    "laid out": "Incorrecta: lay out significa disponer, diseñar o exponer (lay out a plan).",
+    "hired": "Incorrecta: hire es contratar, lo contrario de lo que pasa al cerrar la fábrica.",
+    "put off": "Incorrecta: put off es aplazar o desanimar."
+   },
+   "glosario": [
+    {
+     "palabra": "to lay off",
+     "significado": "despedir (por causas económicas)"
+    },
+    {
+     "palabra": "factory",
+     "significado": "fábrica"
+    }
+   ]
+  },
+  {
+   "id": "e06",
+   "tipo": "hueco",
+   "enunciado": "Completa con una palabra (PIB).",
+   "frase": "Spain's ___ grew by 2.5% last year.",
+   "respuestas": [
+    "GDP"
+   ],
+   "explicacion": "La tabla da GDP (gross domestic product) = PIB. Las siglas inglesas siguen el orden inglés del sintagma, por eso no coinciden con las españolas. La pista es grew by 2.5%, el dato típico de crecimiento.",
+   "explicacion_breve": "PIB es «GDP» (gross domestic product).",
+   "traduccion": "El PIB de España creció un 2,5% el año pasado.",
+   "errores_previstos": [
+    {
+     "respuesta": "PIB",
+     "explicacion": "Son las siglas españolas; en inglés es GDP."
+    },
+    {
+     "respuesta": "GNP",
+     "explicacion": "GNP es el producto nacional bruto, un indicador distinto; el PIB es GDP."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "GDP (gross domestic product)",
+     "significado": "PIB (producto interior bruto)"
+    }
+   ]
+  },
+  {
+   "id": "e07",
+   "tipo": "corregir",
+   "enunciado": "Corrige el error.",
+   "frase": "The interest type has gone up again.",
+   "respuestas": [
+    "The interest rate has gone up again."
+   ],
+   "explicacion": "Es uno de los errores de la ficha: «tipo de interés» se dice interest rate, nunca interest type. Type significa clase o tipo en el sentido de categoría. El resto de la frase está bien.",
+   "explicacion_breve": "«Tipo de interés» es «interest rate».",
+   "traduccion": "El tipo de interés ha vuelto a subir.",
+   "errores_previstos": [
+    {
+     "respuesta": "The interest type has gone up again.",
+     "explicacion": "Es la frase sin corregir: interest type es un calco."
+    },
+    {
+     "respuesta": "The interest ratio has gone up again.",
+     "explicacion": "Ratio es una proporción entre dos magnitudes; el tipo de interés es rate."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "interest rate",
+     "significado": "tipo de interés"
+    },
+    {
+     "palabra": "to go up",
+     "significado": "subir"
+    }
+   ]
+  },
+  {
+   "id": "e08",
+   "tipo": "corregir",
+   "enunciado": "Corrige el error.",
+   "frase": "Small cars are more economic to run.",
+   "respuestas": [
+    "Small cars are more economical to run.",
+    "Small cars are cheaper to run."
+   ],
+   "explicacion": "La lista de la ficha distingue economic (relativo a la economía: economic growth) de economical (barato, que ahorra). La pista es to run: hablamos del coste de usar el coche, de que ahorra dinero. También se acepta cheaper to run.",
+   "explicacion_breve": "«Que ahorra dinero» es «economical»; «economic» se refiere a la economía.",
+   "traduccion": "Los coches pequeños son más económicos de mantener.",
+   "errores_previstos": [
+    {
+     "respuesta": "Small cars are more economic to run.",
+     "explicacion": "Es la frase sin corregir: economic se refiere a la economía, no al ahorro."
+    },
+    {
+     "respuesta": "Small cars are more economics to run.",
+     "explicacion": "Economics es un sustantivo (la ciencia); hace falta el adjetivo economical."
+    },
+    {
+     "respuesta": "Small cars are more cheap to run.",
+     "explicacion": "Cheap tiene comparativo propio: cheaper, no more cheap."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "economical",
+     "significado": "económico, que ahorra"
+    },
+    {
+     "palabra": "economic",
+     "significado": "económico, relativo a la economía"
+    },
+    {
+     "palabra": "to run (a car)",
+     "significado": "mantener, usar (un coche)"
+    }
+   ]
+  },
+  {
+   "id": "e09",
+   "tipo": "eleccion",
+   "enunciado": "Elige la opción correcta.",
+   "frase": "Exports exceeded imports, so the country ran a trade ___.",
+   "opciones": [
+    "surplus",
+    "deficit",
+    "debt"
+   ],
+   "respuestas": [
+    "surplus"
+   ],
+   "explicacion": "La tabla da trade surplus = superávit comercial y trade deficit = déficit comercial. La pista es Exports exceeded imports: si se vende al exterior más de lo que se compra, hay superávit. La colocación es run a surplus.",
+   "explicacion_breve": "Si las exportaciones superan a las importaciones hay superávit («surplus»).",
+   "traduccion": "Las exportaciones superaron a las importaciones, así que el país tuvo superávit comercial.",
+   "por_opcion": {
+    "surplus": "Correcta: más exportaciones que importaciones = trade surplus.",
+    "deficit": "Incorrecta: el déficit comercial se da cuando las importaciones superan a las exportaciones.",
+    "debt": "Incorrecta: debt es deuda, un concepto de stock, no el saldo comercial."
+   },
+   "glosario": [
+    {
+     "palabra": "trade surplus",
+     "significado": "superávit comercial"
+    },
+    {
+     "palabra": "to exceed",
+     "significado": "superar, exceder"
+    }
+   ]
+  },
+  {
+   "id": "e10",
+   "tipo": "hueco",
+   "enunciado": "Completa con una palabra (cuota de mercado).",
+   "frase": "Smaller rivals are gaining market ___.",
+   "respuestas": [
+    "share"
+   ],
+   "explicacion": "La tabla recoge market share = cuota de mercado. Share es la parte o porción que corresponde a alguien. La pista es gaining market…, una colocación fija; su contrario es lose market share.",
+   "explicacion_breve": "«Cuota de mercado» es «market share».",
+   "traduccion": "Los competidores más pequeños están ganando cuota de mercado.",
+   "errores_previstos": [
+    {
+     "respuesta": "quota",
+     "explicacion": "Calco de «cuota»: quota es un contingente o cupo (import quota), no la cuota de mercado."
+    },
+    {
+     "respuesta": "part",
+     "explicacion": "Market part no existe; se dice market share."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "market share",
+     "significado": "cuota de mercado"
+    },
+    {
+     "palabra": "rival",
+     "significado": "competidor"
+    }
+   ]
+  },
+  {
+   "id": "e11",
+   "tipo": "eleccion",
+   "enunciado": "Elige la opción correcta.",
+   "frase": "After two years of recession, the economy is finally in ___.",
+   "opciones": [
+    "recovery",
+    "recuperation",
+    "recovering"
+   ],
+   "respuestas": [
+    "recovery"
+   ],
+   "explicacion": "La tabla da recovery = recuperación (económica). La pista es After two years of recession y la preposición in, que pide un sustantivo: in recovery. Recuperation existe, pero se usa para la recuperación física o el descanso.",
+   "explicacion_breve": "La recuperación económica es «recovery»; «recuperation» es recuperación física.",
+   "traduccion": "Tras dos años de recesión, la economía por fin está en recuperación.",
+   "por_opcion": {
+    "recovery": "Correcta: recovery es la recuperación económica.",
+    "recuperation": "Incorrecta: se usa para la recuperación física de una persona; es el calco de «recuperación».",
+    "recovering": "Incorrecta: tras in hace falta un sustantivo; se diría the economy is recovering, sin in."
+   },
+   "glosario": [
+    {
+     "palabra": "recovery",
+     "significado": "recuperación"
+    },
+    {
+     "palabra": "recession",
+     "significado": "recesión"
+    }
+   ]
+  },
+  {
+   "id": "e12",
+   "tipo": "hueco",
+   "enunciado": "Completa con una palabra (accionistas).",
+   "frase": "The board must explain the losses to its ___.",
+   "respuestas": [
+    "shareholders",
+    "stockholders"
+   ],
+   "explicacion": "La tabla da shareholder = accionista; en inglés estadounidense también stockholder. La pista es the board (consejo de administración) rindiendo cuentas por las pérdidas: los destinatarios son los propietarios de la empresa. Va en plural.",
+   "explicacion_breve": "Accionista es «shareholder» (en EE. UU. también «stockholder»).",
+   "traduccion": "El consejo de administración debe explicar las pérdidas a sus accionistas.",
+   "errores_previstos": [
+    {
+     "respuesta": "shareholder",
+     "explicacion": "Its se refiere a la empresa y los accionistas son varios: shareholders."
+    },
+    {
+     "respuesta": "actionists",
+     "explicacion": "Calco de «accionistas»: no existe en inglés."
+    },
+    {
+     "respuesta": "stakeholders",
+     "explicacion": "Stakeholders son todas las partes interesadas (empleados, clientes, accionistas); los accionistas son shareholders."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "shareholder",
+     "significado": "accionista"
+    },
+    {
+     "palabra": "board",
+     "significado": "consejo de administración"
+    },
+    {
+     "palabra": "losses",
+     "significado": "pérdidas"
+    }
+   ]
+  },
+  {
+   "id": "e13",
+   "tipo": "corregir",
+   "enunciado": "Corrige el error.",
+   "frase": "The unemployment is falling in most regions.",
+   "respuestas": [
+    "Unemployment is falling in most regions."
+   ],
+   "explicacion": "La ficha recoge este error: los nombres abstractos en sentido general van sin artículo en inglés. Unemployment, como inflation o growth, se usa sin the cuando se habla del fenómeno en general. Basta quitar The.",
+   "explicacion_breve": "En sentido general, «unemployment» va sin artículo.",
+   "traduccion": "El paro está bajando en la mayoría de las regiones.",
+   "errores_previstos": [
+    {
+     "respuesta": "The unemployment is falling in most regions.",
+     "explicacion": "Es la frase sin corregir: sobra the."
+    },
+    {
+     "respuesta": "The unemployment is falling in the most regions.",
+     "explicacion": "Sobran los dos artículos: unemployment en sentido general y most regions (la mayoría) van sin the."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "unemployment",
+     "significado": "paro, desempleo"
+    },
+    {
+     "palabra": "most",
+     "significado": "la mayoría de"
+    }
+   ]
+  },
+  {
+   "id": "e14",
+   "tipo": "ordenar",
+   "enunciado": "Ordena las palabras.",
+   "palabras": [
+    "chains",
+    "pandemic",
+    "The",
+    "supply",
+    "disrupted",
+    "global"
+   ],
+   "respuestas": [
+    "The pandemic disrupted global supply chains"
+   ],
+   "explicacion": "Es una frase de orden sujeto + verbo + objeto. La tabla recoge supply chain = cadena de suministro, un sustantivo compuesto; global es un adjetivo y en inglés va delante de todo el compuesto: global supply chains. Disrupt significa alterar o perturbar.",
+   "explicacion_breve": "Sujeto + verbo + objeto; «global» precede a «supply chains».",
+   "traduccion": "La pandemia alteró las cadenas de suministro mundiales.",
+   "errores_previstos": [
+    {
+     "respuesta": "The pandemic disrupted supply chains global",
+     "explicacion": "Calco del español «cadenas de suministro mundiales»: el adjetivo va delante."
+    },
+    {
+     "respuesta": "The pandemic disrupted global chains supply",
+     "explicacion": "En el compuesto, supply modifica a chains y va delante: supply chains."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "supply chain",
+     "significado": "cadena de suministro"
+    },
+    {
+     "palabra": "to disrupt",
+     "significado": "alterar, perturbar"
+    }
+   ]
+  },
+  {
+   "id": "e15",
+   "tipo": "hueco",
+   "enunciado": "Completa con un verbo (impulsar).",
+   "frase": "Lower taxes are meant to ___ consumer spending.",
+   "respuestas": [
+    "boost",
+    "stimulate",
+    "spur",
+    "encourage"
+   ],
+   "explicacion": "La lista de verbos típicos de la ficha da boost (impulsar) y stimulate (estimular). La pista es Lower taxes are meant to…: se busca aumentar el consumo. Se aceptan también spur (espolear) y encourage (fomentar), de sentido muy próximo.",
+   "explicacion_breve": "«Boost» o «stimulate» = impulsar, estimular.",
+   "traduccion": "La bajada de impuestos pretende impulsar el gasto de los consumidores.",
+   "errores_previstos": [
+    {
+     "respuesta": "curb",
+     "explicacion": "Curb significa frenar, lo contrario de lo que se busca al bajar impuestos."
+    },
+    {
+     "respuesta": "impulse",
+     "explicacion": "Calco de «impulsar»: impulse es un sustantivo (impulso), no se usa como verbo en este sentido."
+    },
+    {
+     "respuesta": "boosting",
+     "explicacion": "Tras are meant to va el infinitivo: boost."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "to boost",
+     "significado": "impulsar"
+    },
+    {
+     "palabra": "consumer spending",
+     "significado": "gasto de los consumidores"
+    }
+   ]
+  }
  ],
- "fuente": {"nombre": "propia"}
+ "fuente": {
+  "nombre": "propia"
+ },
+ "descripcion_larga_es": "Vocabulario económico frecuente en prensa e informes: macroeconomía (GDP, inflation, interest rates), mercado laboral, empresa (profit, turnover, shareholders) y comercio exterior (tariffs, trade surplus). Es imprescindible para resumir noticias y exponer temas económicos en inglés, y tiene falsos amigos que traicionan incluso a economistas: economy frente a economics, benefit frente a profit o «tipo de interés» frente a interest rate.",
+ "contexto": {
+  "que_es": "Es el léxico básico de la economía y la empresa en inglés: indicadores macroeconómicos (GDP, inflation, deficit), mercado de trabajo (unemployment rate, workforce, lay off), resultados empresariales (profit, loss, turnover) y comercio exterior (exports, tariffs, supply chains).",
+  "por_que_importa": "Para un opositor de perfil económico, es el vocabulario con el que se leen informes internacionales y se discuten temas en inglés. Los falsos amigos (economy por economics, benefit por profit, interest type) producen errores muy visibles para un tribunal, porque afectan a conceptos básicos de la materia.",
+  "cuando_se_usa": "Al resumir noticias económicas, comentar datos de crecimiento o empleo, hablar de política monetaria o comercial y explicar resultados de empresas. Las señales son cifras, porcentajes y verbos de tendencia (grow, fall, raise, boost). El hispanohablante tiende a calcar «tipo de interés», «beneficio» o «estudiar economía» y a poner artículo a nombres abstractos como unemployment."
+ }
 }

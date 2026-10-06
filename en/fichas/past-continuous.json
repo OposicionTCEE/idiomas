@@ -6,48 +6,451 @@
  "nivel": "A2",
  "resumen": "El past continuous (was / were + -ing) describe una acción que estaba en curso en un momento del pasado. Equivale a «estaba + gerundio» o al imperfecto español.",
  "explicacion": [
-  {"tipo": "tabla", "cabecera": ["Tipo de frase", "Estructura", "Ejemplo"], "filas": [
-   ["Afirmativa", "sujeto + was / were + -ing", "I was reading."],
-   ["Negativa", "sujeto + wasn't / weren't + -ing", "They weren't listening."],
-   ["Pregunta", "Was / Were + sujeto + -ing?", "Were you sleeping?"]
-  ]},
-  {"tipo": "lista", "items": [
-   "Acción en curso en un momento concreto: At eight o'clock I was having dinner.",
-   "Acción de fondo interrumpida por otra más corta (past simple): I was cooking when the phone rang.",
-   "Dos acciones largas simultáneas: While I was working, my sister was watching TV.",
-   "Descripción del escenario de una historia: The sun was shining and people were walking in the park."
-  ]},
-  {"tipo": "texto", "texto": "When suele introducir la acción corta (past simple); while, la acción larga (past continuous). When I arrived, they were eating. / While they were eating, I arrived."},
-  {"tipo": "texto", "texto": "Los verbos de estado (know, like, want, believe, own) normalmente no se usan en forma continua: I knew the answer, no I was knowing."},
-  {"tipo": "texto", "texto": "Fíjate en la diferencia: When she arrived, we had dinner (cenamos después de que llegara) frente a When she arrived, we were having dinner (ya estábamos cenando)."}
+  {
+   "tipo": "tabla",
+   "cabecera": [
+    "Tipo de frase",
+    "Estructura",
+    "Ejemplo"
+   ],
+   "filas": [
+    [
+     "Afirmativa",
+     "sujeto + was / were + -ing",
+     "I was reading."
+    ],
+    [
+     "Negativa",
+     "sujeto + wasn't / weren't + -ing",
+     "They weren't listening."
+    ],
+    [
+     "Pregunta",
+     "Was / Were + sujeto + -ing?",
+     "Were you sleeping?"
+    ]
+   ]
+  },
+  {
+   "tipo": "lista",
+   "items": [
+    "Acción en curso en un momento concreto: At eight o'clock I was having dinner.",
+    "Acción de fondo interrumpida por otra más corta (past simple): I was cooking when the phone rang.",
+    "Dos acciones largas simultáneas: While I was working, my sister was watching TV.",
+    "Descripción del escenario de una historia: The sun was shining and people were walking in the park."
+   ]
+  },
+  {
+   "tipo": "texto",
+   "texto": "When suele introducir la acción corta (past simple); while, la acción larga (past continuous). When I arrived, they were eating. / While they were eating, I arrived."
+  },
+  {
+   "tipo": "texto",
+   "texto": "Los verbos de estado (know, like, want, believe, own) normalmente no se usan en forma continua: I knew the answer, no I was knowing."
+  },
+  {
+   "tipo": "texto",
+   "texto": "Fíjate en la diferencia: When she arrived, we had dinner (cenamos después de que llegara) frente a When she arrived, we were having dinner (ya estábamos cenando)."
+  }
  ],
  "ejemplos": [
-  {"frase": "I was walking home when I saw the accident.", "traduccion": "Iba andando a casa cuando vi el accidente."},
-  {"frase": "What were you doing at ten last night?", "traduccion": "¿Qué estabas haciendo anoche a las diez?"},
-  {"frase": "While Ana was studying, her flatmates were making a lot of noise.", "traduccion": "Mientras Ana estudiaba, sus compañeros de piso hacían mucho ruido."},
-  {"frase": "It was raining, so we stayed inside.", "traduccion": "Estaba lloviendo, así que nos quedamos dentro."},
-  {"frase": "He wasn't wearing a coat.", "traduccion": "No llevaba abrigo."}
+  {
+   "frase": "I was walking home when I saw the accident.",
+   "traduccion": "Iba andando a casa cuando vi el accidente."
+  },
+  {
+   "frase": "What were you doing at ten last night?",
+   "traduccion": "¿Qué estabas haciendo anoche a las diez?"
+  },
+  {
+   "frase": "While Ana was studying, her flatmates were making a lot of noise.",
+   "traduccion": "Mientras Ana estudiaba, sus compañeros de piso hacían mucho ruido."
+  },
+  {
+   "frase": "It was raining, so we stayed inside.",
+   "traduccion": "Estaba lloviendo, así que nos quedamos dentro."
+  },
+  {
+   "frase": "He wasn't wearing a coat.",
+   "traduccion": "No llevaba abrigo."
+  }
  ],
  "errores_hispanohablantes": [
-  {"mal": "When I arrived, they were eat.", "bien": "When I arrived, they were eating.", "nota": "El verbo principal va siempre en -ing."},
-  {"mal": "I was knowing the answer.", "bien": "I knew the answer.", "nota": "Los verbos de estado no suelen ir en forma continua."},
-  {"mal": "While I was having a shower, the doorbell was ringing.", "bien": "While I was having a shower, the doorbell rang.", "nota": "La acción breve que interrumpe va en past simple."}
+  {
+   "mal": "When I arrived, they were eat.",
+   "bien": "When I arrived, they were eating.",
+   "nota": "El verbo principal va siempre en -ing."
+  },
+  {
+   "mal": "I was knowing the answer.",
+   "bien": "I knew the answer.",
+   "nota": "Los verbos de estado no suelen ir en forma continua."
+  },
+  {
+   "mal": "While I was having a shower, the doorbell was ringing.",
+   "bien": "While I was having a shower, the doorbell rang.",
+   "nota": "La acción breve que interrumpe va en past simple."
+  }
  ],
  "ejercicios": [
-  {"id": "e01", "tipo": "hueco", "enunciado": "Completa con el verbo en past continuous.", "frase": "At midnight we ___ (dance) in the square.", "respuestas": ["were dancing"], "explicacion": "Acción en curso en un momento concreto: were + -ing."},
-  {"id": "e02", "tipo": "hueco", "enunciado": "Completa con el verbo en past continuous.", "frase": "My father ___ (drive) when he heard the news.", "respuestas": ["was driving"], "explicacion": "Acción de fondo interrumpida: was + -ing."},
-  {"id": "e03", "tipo": "hueco", "enunciado": "Completa con la forma negativa del past continuous.", "frase": "The students ___ (not / pay) attention.", "respuestas": ["weren't paying", "were not paying"], "explicacion": "Sujeto plural: weren't + -ing."},
-  {"id": "e04", "tipo": "hueco", "enunciado": "Completa con el verbo en past simple o past continuous.", "frase": "I was having breakfast when the postman ___ (knock) on the door.", "respuestas": ["knocked"], "explicacion": "La acción corta que interrumpe va en past simple."},
-  {"id": "e05", "tipo": "hueco", "enunciado": "Completa con when o while.", "frase": "I was reading in bed ___ the lights went out.", "respuestas": ["when"], "explicacion": "La acción corta en past simple se introduce con when; while no se usa con acciones puntuales."},
-  {"id": "e06", "tipo": "eleccion", "enunciado": "Elige la opción correcta.", "frase": "What ___ when I called you?", "opciones": ["did you do", "were you doing", "you were doing"], "respuestas": ["were you doing"], "explicacion": "Pregunta por la acción en curso: Were + sujeto + -ing."},
-  {"id": "e07", "tipo": "eleccion", "enunciado": "Elige la opción correcta.", "frase": "She ___ her ankle while she was running.", "opciones": ["broke", "was breaking", "breaks"], "respuestas": ["broke"], "explicacion": "Acción breve que ocurre durante otra larga: past simple."},
-  {"id": "e08", "tipo": "eleccion", "enunciado": "Elige la opción correcta.", "frase": "___ the film started, everybody stopped talking.", "opciones": ["When", "While", "During"], "respuestas": ["When"], "explicacion": "When introduce una acción puntual en past simple."},
-  {"id": "e09", "tipo": "eleccion", "enunciado": "Elige la opción correcta.", "frase": "I ___ that you were in Madrid.", "opciones": ["wasn't knowing", "didn't know", "weren't knowing"], "respuestas": ["didn't know"], "explicacion": "Know es un verbo de estado: no va en forma continua."},
-  {"id": "e10", "tipo": "transformar", "enunciado": "Convierte la frase en pregunta.", "frase": "They were playing cards.", "respuestas": ["Were they playing cards?"], "explicacion": "Pregunta: Were + sujeto + -ing."},
-  {"id": "e11", "tipo": "corregir", "enunciado": "Corrige el error.", "frase": "We was watching TV when the lights went out.", "respuestas": ["We were watching TV when the lights went out."], "explicacion": "Con we se usa were."},
-  {"id": "e12", "tipo": "corregir", "enunciado": "Corrige el error.", "frase": "While I was cooking, I was cutting my finger.", "respuestas": ["While I was cooking, I cut my finger."], "explicacion": "Cortarse es una acción breve que interrumpe: past simple."},
-  {"id": "e13", "tipo": "ordenar", "enunciado": "Ordena las palabras.", "palabras": ["was", "she", "on", "talking", "phone", "the"], "respuestas": ["She was talking on the phone", "Was she talking on the phone"], "explicacion": "Sujeto + was + -ing + complemento."},
-  {"id": "e14", "tipo": "ordenar", "enunciado": "Ordena las palabras para formar una pregunta.", "palabras": ["you", "were", "why", "laughing"], "respuestas": ["Why were you laughing"], "explicacion": "Partícula interrogativa + were + sujeto + -ing."}
+  {
+   "id": "e01",
+   "tipo": "hueco",
+   "enunciado": "Completa con el verbo en past continuous.",
+   "frase": "At midnight we ___ (dance) in the square.",
+   "respuestas": [
+    "were dancing"
+   ],
+   "explicacion": "Se aplica la primera regla de Reglas y claves: acción en curso en un momento concreto del pasado. La pista es at midnight, una hora exacta en la que la acción ya había empezado y aún no había terminado. El sujeto we exige were, y el verbo va en -ing: dancing (dance pierde la e final).",
+   "explicacion_breve": "Acción en curso en un momento concreto: were + -ing.",
+   "traduccion": "A medianoche estábamos bailando en la plaza.",
+   "errores_previstos": [
+    {
+     "respuesta": "was dancing",
+     "explicacion": "Con we se usa were, no was."
+    },
+    {
+     "respuesta": "were danceing",
+     "explicacion": "Los verbos que acaban en e muda la pierden al añadir -ing: dancing."
+    },
+    {
+     "respuesta": "danced",
+     "explicacion": "El past simple no expresa que la acción estaba en curso a medianoche; el enunciado pide past continuous."
+    }
+   ]
+  },
+  {
+   "id": "e02",
+   "tipo": "hueco",
+   "enunciado": "Completa con el verbo en past continuous.",
+   "frase": "My father ___ (drive) when he heard the news.",
+   "respuestas": [
+    "was driving"
+   ],
+   "explicacion": "Se aplica la regla de la acción de fondo interrumpida por otra más corta en past simple. La pista es when he heard the news: oír la noticia es breve y ocurre mientras conduce. Por eso la acción larga va en past continuous, con was por el sujeto singular my father: was driving.",
+   "explicacion_breve": "Acción de fondo interrumpida: was + -ing.",
+   "traduccion": "Mi padre iba conduciendo cuando oyó la noticia.",
+   "errores_previstos": [
+    {
+     "respuesta": "were driving",
+     "explicacion": "My father es singular: was."
+    },
+    {
+     "respuesta": "drove",
+     "explicacion": "El past simple no presenta la conducción como fondo en curso; el enunciado pide past continuous."
+    },
+    {
+     "respuesta": "was drive",
+     "explicacion": "Tras was el verbo va en -ing: driving."
+    }
+   ]
+  },
+  {
+   "id": "e03",
+   "tipo": "hueco",
+   "enunciado": "Completa con la forma negativa del past continuous.",
+   "frase": "The students ___ (not / pay) attention.",
+   "respuestas": [
+    "weren't paying",
+    "were not paying"
+   ],
+   "explicacion": "Se aplica la fila «Negativa» de la tabla: sujeto + wasn't / weren't + -ing. La pista es el sujeto plural the students, que exige were, y la indicación de negativa. Pay attention es una expresión fija («prestar atención») y pay va en -ing: paying. Se aceptan la contracción y la forma completa.",
+   "explicacion_breve": "Sujeto plural: weren't + -ing.",
+   "traduccion": "Los alumnos no estaban prestando atención.",
+   "errores_previstos": [
+    {
+     "respuesta": "didn't paying",
+     "explicacion": "El past continuous se niega con wasn't / weren't, no con did."
+    },
+    {
+     "respuesta": "wasn't paying",
+     "explicacion": "The students es plural: weren't."
+    },
+    {
+     "respuesta": "weren't pay",
+     "explicacion": "Tras weren't el verbo va en -ing: paying."
+    }
+   ]
+  },
+  {
+   "id": "e04",
+   "tipo": "hueco",
+   "enunciado": "Completa con el verbo en past simple o past continuous.",
+   "frase": "I was having breakfast when the postman ___ (knock) on the door.",
+   "respuestas": [
+    "knocked"
+   ],
+   "explicacion": "Se aplica la regla de la acción de fondo interrumpida: la acción larga va en past continuous y la breve en past simple. La pista es que la acción larga (was having breakfast) ya está escrita y que when introduce el hecho puntual. Llamar a la puerta es instantáneo, así que va en past simple: knocked.",
+   "explicacion_breve": "La acción corta que interrumpe va en past simple.",
+   "traduccion": "Estaba desayunando cuando el cartero llamó a la puerta.",
+   "errores_previstos": [
+    {
+     "respuesta": "was knocking",
+     "explicacion": "La acción breve que interrumpe va en past simple; en continuo parecería que estuvo llamando largo rato."
+    },
+    {
+     "respuesta": "knock",
+     "explicacion": "Falta el pasado: knocked."
+    },
+    {
+     "respuesta": "knocks",
+     "explicacion": "Es presente; la narración está en pasado: knocked."
+    }
+   ]
+  },
+  {
+   "id": "e05",
+   "tipo": "hueco",
+   "enunciado": "Completa con when o while.",
+   "frase": "I was reading in bed ___ the lights went out.",
+   "respuestas": [
+    "when"
+   ],
+   "explicacion": "Se aplica la regla de Reglas y claves: when suele introducir la acción corta (past simple) y while la larga (past continuous). La pista es que tras el hueco viene the lights went out, en past simple y de carácter instantáneo. Por eso when; while no introduce acciones puntuales.",
+   "explicacion_breve": "La acción corta en past simple se introduce con when; while no se usa con acciones puntuales.",
+   "traduccion": "Estaba leyendo en la cama cuando se fue la luz.",
+   "errores_previstos": [
+    {
+     "respuesta": "while",
+     "explicacion": "While introduce la acción larga en curso; aquí lo que sigue es una acción breve en past simple, que va con when."
+    },
+    {
+     "respuesta": "during",
+     "explicacion": "During es preposición y va seguida de un sustantivo (during the night), no de una oración."
+    }
+   ]
+  },
+  {
+   "id": "e06",
+   "tipo": "eleccion",
+   "enunciado": "Elige la opción correcta.",
+   "frase": "What ___ when I called you?",
+   "opciones": [
+    "did you do",
+    "were you doing",
+    "you were doing"
+   ],
+   "respuestas": [
+    "were you doing"
+   ],
+   "explicacion": "Se aplica la fila «Pregunta» de la tabla: Was / Were + sujeto + -ing. La pista es when I called you: se pregunta por la acción que estaba en curso cuando llegó la llamada. Con you se usa were, y en la pregunta va delante del sujeto.",
+   "explicacion_breve": "Pregunta por la acción en curso: Were + sujeto + -ing.",
+   "traduccion": "¿Qué estabas haciendo cuando te llamé?",
+   "por_opcion": {
+    "did you do": "Incorrecta en este sentido: preguntaría qué hiciste como reacción a la llamada, después de ella, no qué estabas haciendo en ese momento.",
+    "were you doing": "Correcta: pregunta por la acción en curso, con were delante del sujeto.",
+    "you were doing": "Incorrecta: en una pregunta directa el auxiliar va delante del sujeto; ese orden solo vale en preguntas indirectas (Tell me what you were doing)."
+   }
+  },
+  {
+   "id": "e07",
+   "tipo": "eleccion",
+   "enunciado": "Elige la opción correcta.",
+   "frase": "She ___ her ankle while she was running.",
+   "opciones": [
+    "broke",
+    "was breaking",
+    "breaks"
+   ],
+   "respuestas": [
+    "broke"
+   ],
+   "explicacion": "Se aplica la regla de la acción breve que ocurre durante otra larga: la breve en past simple. La pista es while she was running, la acción larga ya en continuo. Romperse el tobillo es instantáneo, así que va en past simple, con el pasado irregular de break: broke.",
+   "explicacion_breve": "Acción breve que ocurre durante otra larga: past simple.",
+   "traduccion": "Se rompió el tobillo mientras corría.",
+   "por_opcion": {
+    "broke": "Correcta: acción breve en past simple dentro de la acción larga.",
+    "was breaking": "Incorrecta: presentaría la rotura como un proceso largo, lo que no tiene sentido para algo instantáneo.",
+    "breaks": "Incorrecta: es presente y la frase está en pasado."
+   }
+  },
+  {
+   "id": "e08",
+   "tipo": "eleccion",
+   "enunciado": "Elige la opción correcta.",
+   "frase": "___ the film started, everybody stopped talking.",
+   "opciones": [
+    "When",
+    "While",
+    "During"
+   ],
+   "respuestas": [
+    "When"
+   ],
+   "explicacion": "Se aplica la regla de when y while: when introduce la acción puntual en past simple. La pista es the film started, una acción breve en past simple, seguida de otra acción también en past simple: una sucede inmediatamente después de la otra. While pediría una acción larga en curso.",
+   "explicacion_breve": "When introduce una acción puntual en past simple.",
+   "traduccion": "Cuando empezó la película, todo el mundo dejó de hablar.",
+   "por_opcion": {
+    "When": "Correcta: introduce un hecho puntual en past simple.",
+    "While": "Incorrecta: while introduce una acción larga en curso (While the film was playing…), no un inicio instantáneo.",
+    "During": "Incorrecta: during es preposición y va seguida de un sustantivo (during the film), no de una oración con verbo."
+   }
+  },
+  {
+   "id": "e09",
+   "tipo": "eleccion",
+   "enunciado": "Elige la opción correcta.",
+   "frase": "I ___ that you were in Madrid.",
+   "opciones": [
+    "wasn't knowing",
+    "didn't know",
+    "weren't knowing"
+   ],
+   "respuestas": [
+    "didn't know"
+   ],
+   "explicacion": "Se aplica la regla de los verbos de estado: know, like, want, believe u own normalmente no se usan en forma continua. La pista es know, que expresa un estado mental, no una acción en curso. Por eso va en past simple negativo: didn't + infinitivo (know). El español usa aquí imperfecto, lo que empuja al error de la forma continua.",
+   "explicacion_breve": "Know es un verbo de estado: no va en forma continua.",
+   "traduccion": "No sabía que estabas en Madrid.",
+   "por_opcion": {
+    "wasn't knowing": "Incorrecta: know es verbo de estado y no va en forma continua.",
+    "didn't know": "Correcta: past simple negativo de un verbo de estado.",
+    "weren't knowing": "Incorrecta: además del error del verbo de estado, con I se usaría wasn't."
+   }
+  },
+  {
+   "id": "e10",
+   "tipo": "transformar",
+   "enunciado": "Convierte la frase en pregunta.",
+   "frase": "They were playing cards.",
+   "respuestas": [
+    "Were they playing cards?"
+   ],
+   "explicacion": "Se aplica la fila «Pregunta» de la tabla: Was / Were + sujeto + -ing. La pista es were en la afirmativa, que basta con colocar delante del sujeto they, sin añadir did. El resto de la frase no cambia, y se cierra con signo de interrogación.",
+   "explicacion_breve": "Pregunta: Were + sujeto + -ing.",
+   "traduccion": "¿Estaban jugando a las cartas?",
+   "errores_previstos": [
+    {
+     "respuesta": "Did they playing cards?",
+     "explicacion": "El past continuous no usa did; la pregunta se forma invirtiendo were y el sujeto."
+    },
+    {
+     "respuesta": "They were playing cards?",
+     "explicacion": "Calco de la entonación española: en inglés escrito la pregunta exige invertir were y el sujeto."
+    },
+    {
+     "respuesta": "Was they playing cards?",
+     "explicacion": "Con they se usa were."
+    }
+   ]
+  },
+  {
+   "id": "e11",
+   "tipo": "corregir",
+   "enunciado": "Corrige el error.",
+   "frase": "We was watching TV when the lights went out.",
+   "respuestas": [
+    "We were watching TV when the lights went out."
+   ],
+   "explicacion": "Se aplica la tabla de formas: was con I, he, she, it; were con you, we, they. La pista es el sujeto we, que exige were. El resto de la frase es correcto: la acción larga en continuo y la breve (went out) en past simple.",
+   "explicacion_breve": "Con we se usa were.",
+   "traduccion": "Estábamos viendo la tele cuando se fue la luz.",
+   "errores_previstos": [
+    {
+     "respuesta": "We was watching TV when the lights went out.",
+     "explicacion": "Es copiar la frase sin corregir: con we se usa were."
+    },
+    {
+     "respuesta": "We were watching TV when the lights were going out.",
+     "explicacion": "Corrige was pero pone en continuo la acción breve que interrumpe; went out debe seguir en past simple."
+    },
+    {
+     "respuesta": "We watched TV when the lights went out.",
+     "explicacion": "Pierde el valor de acción en curso; además el error estaba en was, no en el tiempo."
+    }
+   ]
+  },
+  {
+   "id": "e12",
+   "tipo": "corregir",
+   "enunciado": "Corrige el error.",
+   "frase": "While I was cooking, I was cutting my finger.",
+   "respuestas": [
+    "While I was cooking, I cut my finger."
+   ],
+   "explicacion": "Se aplica la regla de la acción breve que interrumpe a la larga y el tercer error típico de la ficha. La pista es while I was cooking, la acción de fondo; cortarse el dedo es instantáneo y debe ir en past simple. Cut es irregular y su pasado es igual al infinitivo: cut.",
+   "explicacion_breve": "Cortarse es una acción breve que interrumpe: past simple.",
+   "traduccion": "Mientras cocinaba, me corté el dedo.",
+   "errores_previstos": [
+    {
+     "respuesta": "While I was cooking, I was cutting my finger.",
+     "explicacion": "Es copiar la frase sin corregir: la acción breve va en past simple."
+    },
+    {
+     "respuesta": "While I was cooking, I cutted my finger.",
+     "explicacion": "Cut es irregular: el pasado es cut."
+    },
+    {
+     "respuesta": "While I cooked, I was cutting my finger.",
+     "explicacion": "Invierte los papeles: la acción larga es cocinar (continuo) y la breve cortarse (simple)."
+    }
+   ]
+  },
+  {
+   "id": "e13",
+   "tipo": "ordenar",
+   "enunciado": "Ordena las palabras.",
+   "palabras": [
+    "was",
+    "she",
+    "on",
+    "talking",
+    "phone",
+    "the"
+   ],
+   "respuestas": [
+    "She was talking on the phone",
+    "Was she talking on the phone"
+   ],
+   "explicacion": "Se aplica la fila «Afirmativa» de la tabla: sujeto + was + -ing. La pista es que las palabras incluyen was y talking, y la expresión fija on the phone («por teléfono»). El orden es she + was + talking + on the phone. También vale la pregunta, con was delante del sujeto.",
+   "explicacion_breve": "Sujeto + was + -ing + complemento.",
+   "traduccion": "Estaba hablando por teléfono. (También: ¿Estaba hablando por teléfono?)",
+   "errores_previstos": [
+    {
+     "respuesta": "she was talking the on phone",
+     "explicacion": "El artículo va con el sustantivo: on the phone."
+    },
+    {
+     "respuesta": "she talking was on the phone",
+     "explicacion": "Was va delante del verbo en -ing."
+    }
+   ]
+  },
+  {
+   "id": "e14",
+   "tipo": "ordenar",
+   "enunciado": "Ordena las palabras para formar una pregunta.",
+   "palabras": [
+    "you",
+    "were",
+    "why",
+    "laughing"
+   ],
+   "respuestas": [
+    "Why were you laughing"
+   ],
+   "explicacion": "Se aplica la fila «Pregunta» de la tabla con partícula interrogativa: why + were + sujeto + -ing. La pista es why, que abre la pregunta, y were, que debe ir delante del sujeto you. Laughing cierra la pregunta.",
+   "explicacion_breve": "Partícula interrogativa + were + sujeto + -ing.",
+   "traduccion": "¿Por qué te estabas riendo?",
+   "errores_previstos": [
+    {
+     "respuesta": "why you were laughing",
+     "explicacion": "Ese orden es de pregunta indirecta; en la directa were va delante de you."
+    },
+    {
+     "respuesta": "were you laughing why",
+     "explicacion": "La partícula interrogativa va al principio de la pregunta."
+    }
+   ]
+  }
  ],
- "fuente": {"nombre": "propia"}
+ "fuente": {
+  "nombre": "propia"
+ },
+ "descripcion_larga_es": "El past continuous (was / were + -ing) describe lo que estaba en curso en un momento del pasado y sirve de fondo a las acciones breves contadas en past simple. Es la base para narrar historias, anécdotas y sucesos. Al hispanohablante le cuesta distinguirlo del past simple porque el imperfecto español cubre usos que en inglés reparten los dos tiempos, y porque los verbos de estado no admiten la forma continua.",
+ "contexto": {
+  "que_es": "Es el tiempo formado por was o were y el verbo en -ing. Expresa una acción en curso en un momento pasado concreto, una acción larga interrumpida por otra breve, dos acciones largas simultáneas o el escenario de una narración. Se parece a «estaba + gerundio» del español.",
+  "por_que_importa": "Sin él es imposible contar bien una historia en inglés: marca qué estaba pasando y qué ocurrió de repente. Si se confunde con el past simple, cambia el orden de los hechos (When she arrived, we had dinner frente a we were having dinner). Es un punto clásico de los exámenes de nivel A2 y B1 y de cualquier prueba oral narrativa.",
+  "cuando_se_usa": "Con horas o momentos concretos del pasado (at eight o'clock, at midnight), con while para la acción larga y en combinación con when + past simple para la interrupción. También en las descripciones de fondo de un relato. El hispanohablante tiende a usar la forma continua para todo lo que en español iría en imperfecto, incluidos verbos de estado como know o want, y a poner la interrupción también en continuo."
+ }
 }

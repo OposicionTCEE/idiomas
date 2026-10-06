@@ -6,50 +6,546 @@
  "nivel": "B2",
  "resumen": "Las oraciones de participio condensan una subordinada (temporal, causal o relativa) en una forma verbal sin sujeto. Son propias del inglés escrito y formal, y el sujeto implícito debe ser el mismo que el de la oración principal.",
  "explicacion": [
-  {"tipo": "tabla", "cabecera": ["Forma", "Valor", "Ejemplo"], "filas": [
-   ["-ing (participio presente)", "acción simultánea o causa, sentido activo", "Feeling tired, I went to bed early."],
-   ["Having + participio", "acción anterior, sentido activo", "Having finished the report, she went home."],
-   ["Participio pasado", "sentido pasivo", "Built in 1900, the station is now a museum."],
-   ["Having been + participio", "acción anterior, sentido pasivo", "Having been warned, we took umbrellas."],
-   ["Conjunción + -ing / participio", "aclara la relación", "After leaving school, he joined the army. When asked, she refused."]
-  ]},
-  {"tipo": "texto", "texto": "Regla de oro: el sujeto implícito del participio es el sujeto de la oración principal. Walking home, the rain started (mal: parece que camina la lluvia). Walking home, I got caught in the rain (bien)."},
-  {"tipo": "texto", "texto": "También sustituyen a relativas especificativas: The man sitting next to me (= who was sitting). The products made in this factory (= which are made)."},
-  {"tipo": "lista", "items": [
-   "Negación: not delante del participio: Not knowing the way, we asked a local.",
-   "Having + participio deja clara la anterioridad: Having seen the film, I didn't want to read the book.",
-   "Sentido activo → -ing; sentido pasivo → participio pasado."
-  ]}
+  {
+   "tipo": "tabla",
+   "cabecera": [
+    "Forma",
+    "Valor",
+    "Ejemplo"
+   ],
+   "filas": [
+    [
+     "-ing (participio presente)",
+     "acción simultánea o causa, sentido activo",
+     "Feeling tired, I went to bed early."
+    ],
+    [
+     "Having + participio",
+     "acción anterior, sentido activo",
+     "Having finished the report, she went home."
+    ],
+    [
+     "Participio pasado",
+     "sentido pasivo",
+     "Built in 1900, the station is now a museum."
+    ],
+    [
+     "Having been + participio",
+     "acción anterior, sentido pasivo",
+     "Having been warned, we took umbrellas."
+    ],
+    [
+     "Conjunción + -ing / participio",
+     "aclara la relación",
+     "After leaving school, he joined the army. When asked, she refused."
+    ]
+   ]
+  },
+  {
+   "tipo": "texto",
+   "texto": "Regla de oro: el sujeto implícito del participio es el sujeto de la oración principal. Walking home, the rain started (mal: parece que camina la lluvia). Walking home, I got caught in the rain (bien)."
+  },
+  {
+   "tipo": "texto",
+   "texto": "También sustituyen a relativas especificativas: The man sitting next to me (= who was sitting). The products made in this factory (= which are made)."
+  },
+  {
+   "tipo": "lista",
+   "items": [
+    "Negación: not delante del participio: Not knowing the way, we asked a local.",
+    "Having + participio deja clara la anterioridad: Having seen the film, I didn't want to read the book.",
+    "Sentido activo → -ing; sentido pasivo → participio pasado."
+   ]
+  }
  ],
  "ejemplos": [
-  {"frase": "Opening the drawer, she found an old photograph.", "traduccion": "Al abrir el cajón, encontró una foto antigua."},
-  {"frase": "Having lived in Berlin for years, he speaks fluent German.", "traduccion": "Como ha vivido en Berlín muchos años, habla alemán con fluidez."},
-  {"frase": "Written in simple language, the guide is easy to follow.", "traduccion": "Escrita en un lenguaje sencillo, la guía es fácil de seguir."},
-  {"frase": "Not wanting to wake the baby, they whispered.", "traduccion": "Como no querían despertar al bebé, hablaban en susurros."},
-  {"frase": "The woman talking to the director is my aunt.", "traduccion": "La mujer que está hablando con el director es mi tía."},
-  {"frase": "Asked about the merger, the CEO declined to comment.", "traduccion": "Al preguntarle por la fusión, el consejero delegado declinó hacer comentarios."}
+  {
+   "frase": "Opening the drawer, she found an old photograph.",
+   "traduccion": "Al abrir el cajón, encontró una foto antigua."
+  },
+  {
+   "frase": "Having lived in Berlin for years, he speaks fluent German.",
+   "traduccion": "Como ha vivido en Berlín muchos años, habla alemán con fluidez."
+  },
+  {
+   "frase": "Written in simple language, the guide is easy to follow.",
+   "traduccion": "Escrita en un lenguaje sencillo, la guía es fácil de seguir."
+  },
+  {
+   "frase": "Not wanting to wake the baby, they whispered.",
+   "traduccion": "Como no querían despertar al bebé, hablaban en susurros."
+  },
+  {
+   "frase": "The woman talking to the director is my aunt.",
+   "traduccion": "La mujer que está hablando con el director es mi tía."
+  },
+  {
+   "frase": "Asked about the merger, the CEO declined to comment.",
+   "traduccion": "Al preguntarle por la fusión, el consejero delegado declinó hacer comentarios."
+  }
  ],
  "errores_hispanohablantes": [
-  {"mal": "Arriving at the hotel, the receptionist gave us the keys.", "bien": "Arriving at the hotel, we were given the keys by the receptionist.", "nota": "El sujeto implícito (nosotros llegamos) debe coincidir con el de la principal."},
-  {"mal": "Built the house in 1990, it needs repairs.", "bien": "Built in 1990, the house needs repairs.", "nota": "La oración de participio pasado no lleva objeto: tiene sentido pasivo."},
-  {"mal": "Having not seen the email, I missed the meeting.", "bien": "Not having seen the email, I missed the meeting.", "nota": "Not suele ir al principio de la oración de participio."}
+  {
+   "mal": "Arriving at the hotel, the receptionist gave us the keys.",
+   "bien": "Arriving at the hotel, we were given the keys by the receptionist.",
+   "nota": "El sujeto implícito (nosotros llegamos) debe coincidir con el de la principal."
+  },
+  {
+   "mal": "Built the house in 1990, it needs repairs.",
+   "bien": "Built in 1990, the house needs repairs.",
+   "nota": "La oración de participio pasado no lleva objeto: tiene sentido pasivo."
+  },
+  {
+   "mal": "Having not seen the email, I missed the meeting.",
+   "bien": "Not having seen the email, I missed the meeting.",
+   "nota": "Not suele ir al principio de la oración de participio."
+  }
  ],
  "ejercicios": [
-  {"id": "e01", "tipo": "hueco", "enunciado": "Completa con la forma de participio adecuada.", "frase": "___ (finish) his homework, Leo went out to play.", "respuestas": ["Having finished"], "explicacion": "Acción anterior con sentido activo: having + participio."},
-  {"id": "e02", "tipo": "hueco", "enunciado": "Completa con la forma de participio adecuada.", "frase": "___ (paint) by Goya, the portrait is worth millions.", "respuestas": ["Painted"], "explicacion": "Sentido pasivo: participio pasado."},
-  {"id": "e03", "tipo": "hueco", "enunciado": "Completa con la forma de participio adecuada.", "frase": "___ (not / know) what to say, she simply smiled.", "respuestas": ["Not knowing"], "explicacion": "Causa activa negada: not + -ing."},
-  {"id": "e04", "tipo": "hueco", "enunciado": "Completa con la forma de participio adecuada.", "frase": "The people ___ (wait) outside have been there for hours.", "respuestas": ["waiting"], "explicacion": "Sustituye a una relativa activa (who are waiting): -ing."},
-  {"id": "e05", "tipo": "eleccion", "enunciado": "Elige la opción correcta.", "frase": "___ twice, he decided not to apply again.", "opciones": ["Having been rejected", "Having rejected", "Rejecting"], "respuestas": ["Having been rejected"], "explicacion": "Acción anterior y pasiva (lo rechazaron): having been + participio."},
-  {"id": "e06", "tipo": "eleccion", "enunciado": "Elige la opción correcta.", "frase": "Most of the cars ___ in this factory are exported.", "opciones": ["made", "making", "having made"], "respuestas": ["made"], "explicacion": "Sentido pasivo (which are made): participio pasado."},
-  {"id": "e07", "tipo": "eleccion", "enunciado": "Elige la opción correcta.", "frase": "___ along the beach, we saw a group of dolphins.", "opciones": ["Walking", "Walked", "Having walked"], "respuestas": ["Walking"], "explicacion": "Acción simultánea con sentido activo: -ing."},
-  {"id": "e08", "tipo": "corregir", "enunciado": "Corrige el error.", "frase": "Locating in the city centre, the hotel is perfect for tourists.", "respuestas": ["Located in the city centre, the hotel is perfect for tourists."], "explicacion": "El hotel «está situado»: sentido pasivo, participio pasado."},
-  {"id": "e09", "tipo": "corregir", "enunciado": "Corrige el error.", "frase": "Having not received an answer, I wrote again.", "respuestas": ["Not having received an answer, I wrote again."], "explicacion": "Not va delante de having."},
-  {"id": "e10", "tipo": "corregir", "enunciado": "Corrige el error.", "frase": "The children played in the park are my nephews.", "respuestas": ["The children playing in the park are my nephews."], "explicacion": "Relativa activa reducida (who are playing): -ing, no participio pasado."},
-  {"id": "e11", "tipo": "transformar", "enunciado": "Reescribe con una oración de participio que empiece por Having.", "frase": "After she had read the contract, she signed it.", "respuestas": ["Having read the contract, she signed it."], "explicacion": "Acción anterior activa: having + participio."},
-  {"id": "e12", "tipo": "transformar", "enunciado": "Reescribe con una oración de participio pasado al principio.", "frase": "The castle, which was destroyed in the war, was rebuilt in 1960.", "respuestas": ["Destroyed in the war, the castle was rebuilt in 1960."], "explicacion": "Relativa pasiva → participio pasado."},
-  {"id": "e13", "tipo": "transformar", "enunciado": "Reescribe con una oración de -ing al principio.", "frase": "Because he felt ill, Mark stayed at home.", "respuestas": ["Feeling ill, Mark stayed at home."], "explicacion": "Causa activa simultánea: -ing."},
-  {"id": "e14", "tipo": "ordenar", "enunciado": "Ordena las palabras.", "palabras": ["having", "the", "missed", "bus", "I", "walked"], "respuestas": ["having missed the bus I walked"], "explicacion": "Having + participio expresa la acción anterior."},
-  {"id": "e15", "tipo": "ordenar", "enunciado": "Ordena las palabras.", "palabras": ["refused", "asked", "when", "he", "comment", "to"], "respuestas": ["when asked he refused to comment", "he refused to comment when asked"], "explicacion": "Conjunción + participio pasado (when he was asked)."}
+  {
+   "id": "e01",
+   "tipo": "hueco",
+   "enunciado": "Completa con la forma de participio adecuada.",
+   "frase": "___ (finish) his homework, Leo went out to play.",
+   "respuestas": [
+    "Having finished"
+   ],
+   "explicacion": "Se aplica la fila «Having + participio: acción anterior, sentido activo». La pista es que primero terminó los deberes y después salió: hay anterioridad, y Leo es quien realiza la acción (sentido activo). Además, el sujeto implícito coincide con el de la principal, Leo, como exige la regla de oro. La forma es Having + finished.",
+   "explicacion_breve": "Acción anterior con sentido activo: having + participio.",
+   "traduccion": "Después de terminar los deberes, Leo salió a jugar.",
+   "errores_previstos": [
+    {
+     "respuesta": "Finishing",
+     "explicacion": "El -ing simple sugiere simultaneidad; para dejar clara la acción anterior la ficha pide having + participio."
+    },
+    {
+     "respuesta": "Finished",
+     "explicacion": "El participio pasado solo tiene sentido pasivo; Leo terminó los deberes, así que el sentido es activo."
+    },
+    {
+     "respuesta": "Having finish",
+     "explicacion": "Tras having hace falta el participio finished, no el infinitivo."
+    }
+   ]
+  },
+  {
+   "id": "e02",
+   "tipo": "hueco",
+   "enunciado": "Completa con la forma de participio adecuada.",
+   "frase": "___ (paint) by Goya, the portrait is worth millions.",
+   "respuestas": [
+    "Painted"
+   ],
+   "explicacion": "Se aplica la fila «Participio pasado: sentido pasivo». La pista es «by Goya»: el retrato no pinta, sino que fue pintado por Goya, y by introduce al agente de una pasiva. El sujeto implícito es the portrait, el mismo que el de la principal. La forma es el participio pasado Painted, equivalente a «which was painted».",
+   "explicacion_breve": "Sentido pasivo: participio pasado.",
+   "traduccion": "Pintado por Goya, el retrato vale millones.",
+   "errores_previstos": [
+    {
+     "respuesta": "Painting",
+     "explicacion": "El -ing tiene sentido activo: diría que el retrato pinta. Con by + agente hace falta el participio pasado."
+    },
+    {
+     "respuesta": "Having painted",
+     "explicacion": "Having + participio es activo y anterior: el sujeto (el retrato) sería quien pintó."
+    },
+    {
+     "respuesta": "Paint",
+     "explicacion": "Hace falta una forma de participio; el infinitivo no puede abrir la frase con este valor."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "portrait",
+     "significado": "retrato"
+    },
+    {
+     "palabra": "be worth",
+     "significado": "valer"
+    }
+   ]
+  },
+  {
+   "id": "e03",
+   "tipo": "hueco",
+   "enunciado": "Completa con la forma de participio adecuada.",
+   "frase": "___ (not / know) what to say, she simply smiled.",
+   "respuestas": [
+    "Not knowing"
+   ],
+   "explicacion": "Se aplican dos reglas de la ficha: el -ing expresa causa con sentido activo, y en la negación not va delante del participio («Not knowing the way, we asked a local»). La pista es la relación causal: sonrió porque no sabía qué decir. El sujeto implícito es she, el mismo de la principal. La forma es Not knowing.",
+   "explicacion_breve": "Causa activa negada: not + -ing.",
+   "traduccion": "Como no sabía qué decir, se limitó a sonreír.",
+   "errores_previstos": [
+    {
+     "respuesta": "Knowing not",
+     "explicacion": "Not va delante del participio, no detrás."
+    },
+    {
+     "respuesta": "Don't knowing",
+     "explicacion": "Las oraciones de participio no usan el auxiliar do; la negación es solo not delante."
+    },
+    {
+     "respuesta": "Not known",
+     "explicacion": "El participio pasado tiene sentido pasivo («no siendo conocido»); ella es quien no sabe, así que hace falta -ing."
+    }
+   ]
+  },
+  {
+   "id": "e04",
+   "tipo": "hueco",
+   "enunciado": "Completa con la forma de participio adecuada.",
+   "frase": "The people ___ (wait) outside have been there for hours.",
+   "respuestas": [
+    "waiting"
+   ],
+   "explicacion": "La ficha explica que estas formas también sustituyen a relativas especificativas: «The man sitting next to me» equivale a «who was sitting». La pista es que la gente realiza la acción de esperar (sentido activo) en ese momento. Por eso la forma es waiting, que equivale a «who are waiting».",
+   "explicacion_breve": "Sustituye a una relativa activa (who are waiting): -ing.",
+   "traduccion": "La gente que está esperando fuera lleva horas ahí.",
+   "errores_previstos": [
+    {
+     "respuesta": "waited",
+     "explicacion": "El participio pasado da sentido pasivo («la gente esperada»); la gente es quien espera."
+    },
+    {
+     "respuesta": "who waiting",
+     "explicacion": "Mezcla la relativa y la reducida: o «who are waiting» o solo «waiting»."
+    },
+    {
+     "respuesta": "are waiting",
+     "explicacion": "Sin who, la frase tendría dos verbos conjugados; la forma reducida es solo waiting."
+    }
+   ]
+  },
+  {
+   "id": "e05",
+   "tipo": "eleccion",
+   "enunciado": "Elige la opción correcta.",
+   "frase": "___ twice, he decided not to apply again.",
+   "opciones": [
+    "Having been rejected",
+    "Having rejected",
+    "Rejecting"
+   ],
+   "respuestas": [
+    "Having been rejected"
+   ],
+   "explicacion": "Se aplica la fila «Having been + participio: acción anterior, sentido pasivo». La pista es que él no rechazó a nadie: fue rechazado, y eso ocurrió antes de tomar la decisión. Por eso hacen falta tanto having (anterioridad) como been + participio (pasiva). El sujeto implícito, he, coincide con el de la principal.",
+   "explicacion_breve": "Acción anterior y pasiva (lo rechazaron): having been + participio.",
+   "traduccion": "Como lo habían rechazado dos veces, decidió no volver a presentarse.",
+   "por_opcion": {
+    "Having been rejected": "Correcta. Expresa una acción pasiva y anterior: primero lo rechazaron y después decidió.",
+    "Having rejected": "Incorrecta. Es activa: diría que él rechazó algo, lo contrario del sentido de la frase.",
+    "Rejecting": "Incorrecta. Es activa y simultánea: diría que él estaba rechazando algo al decidir."
+   },
+   "glosario": [
+    {
+     "palabra": "reject",
+     "significado": "rechazar"
+    },
+    {
+     "palabra": "apply",
+     "significado": "presentarse, solicitar (un puesto)"
+    }
+   ]
+  },
+  {
+   "id": "e06",
+   "tipo": "eleccion",
+   "enunciado": "Elige la opción correcta.",
+   "frase": "Most of the cars ___ in this factory are exported.",
+   "opciones": [
+    "made",
+    "making",
+    "having made"
+   ],
+   "respuestas": [
+    "made"
+   ],
+   "explicacion": "La ficha explica que el participio pasado sustituye a una relativa pasiva: «The products made in this factory» equivale a «which are made». La pista es que los coches no fabrican nada: son fabricados en la fábrica. Por eso la forma es made, participio de make.",
+   "explicacion_breve": "Sentido pasivo (which are made): participio pasado.",
+   "traduccion": "La mayoría de los coches fabricados en esta fábrica se exportan.",
+   "por_opcion": {
+    "made": "Correcta. Made tiene sentido pasivo y equivale a «which are made».",
+    "making": "Incorrecta. Making es activo: diría que los coches fabrican algo.",
+    "having made": "Incorrecta. Having made es activo y anterior; tampoco se usa para reducir relativas de este tipo."
+   }
+  },
+  {
+   "id": "e07",
+   "tipo": "eleccion",
+   "enunciado": "Elige la opción correcta.",
+   "frase": "___ along the beach, we saw a group of dolphins.",
+   "opciones": [
+    "Walking",
+    "Walked",
+    "Having walked"
+   ],
+   "respuestas": [
+    "Walking"
+   ],
+   "explicacion": "Se aplica la fila «-ing: acción simultánea o causa, sentido activo». La pista es que pasear y ver los delfines ocurren a la vez, y somos nosotros quienes paseamos. El sujeto implícito, we, coincide con el de la principal. Por eso la forma es Walking.",
+   "explicacion_breve": "Acción simultánea con sentido activo: -ing.",
+   "traduccion": "Mientras paseábamos por la playa, vimos un grupo de delfines.",
+   "por_opcion": {
+    "Walking": "Correcta. El -ing expresa una acción activa simultánea a la principal.",
+    "Walked": "Incorrecta. El participio pasado tiene sentido pasivo y no tiene sentido con walk aquí.",
+    "Having walked": "Incorrecta. Indicaría que el paseo terminó antes de ver los delfines, cuando los vieron mientras paseaban."
+   },
+   "glosario": [
+    {
+     "palabra": "dolphins",
+     "significado": "delfines"
+    }
+   ]
+  },
+  {
+   "id": "e08",
+   "tipo": "corregir",
+   "enunciado": "Corrige el error.",
+   "frase": "Locating in the city centre, the hotel is perfect for tourists.",
+   "respuestas": [
+    "Located in the city centre, the hotel is perfect for tourists."
+   ],
+   "explicacion": "Se aplica la regla «Sentido activo → -ing; sentido pasivo → participio pasado». La pista es el hotel: no localiza nada, sino que está situado (is located) en el centro. Por eso la corrección es Located, participio pasado. Locating significaría que el hotel busca o sitúa algo.",
+   "explicacion_breve": "El hotel «está situado»: sentido pasivo, participio pasado.",
+   "traduccion": "Situado en el centro de la ciudad, el hotel es perfecto para los turistas.",
+   "errores_previstos": [
+    {
+     "respuesta": "Locating in the city centre, the hotel is perfect for tourists.",
+     "explicacion": "Es dejar la frase sin corregir: el sentido es pasivo y pide located."
+    },
+    {
+     "respuesta": "Being locating in the city centre, the hotel is perfect for tourists.",
+     "explicacion": "Sigue usando -ing con sentido activo; la forma pasiva es located (o being located)."
+    },
+    {
+     "respuesta": "Located at the city centre, the hotel is perfect for tourists.",
+     "explicacion": "El participio es correcto, pero se dice in the city centre."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "located",
+     "significado": "situado"
+    }
+   ]
+  },
+  {
+   "id": "e09",
+   "tipo": "corregir",
+   "enunciado": "Corrige el error.",
+   "frase": "Having not received an answer, I wrote again.",
+   "respuestas": [
+    "Not having received an answer, I wrote again."
+   ],
+   "explicacion": "La ficha indica que en la negación not va delante del participio y que lo habitual es «Not having seen the email». La pista es «Having not received». La corrección es «Not having received an answer». Conviene saber que «having not» aparece a veces en el uso real, pero la forma recomendada y más natural es not having.",
+   "explicacion_breve": "Not va delante de having.",
+   "traduccion": "Como no había recibido respuesta, volví a escribir.",
+   "errores_previstos": [
+    {
+     "respuesta": "Having not received an answer, I wrote again.",
+     "explicacion": "Es dejar la frase sin corregir: la ficha pide not delante de having."
+    },
+    {
+     "respuesta": "Not having receive an answer, I wrote again.",
+     "explicacion": "La posición de not es correcta, pero tras having hace falta el participio received."
+    },
+    {
+     "respuesta": "Don't having received an answer, I wrote again.",
+     "explicacion": "Las oraciones de participio no usan do; la negación es solo not."
+    }
+   ]
+  },
+  {
+   "id": "e10",
+   "tipo": "corregir",
+   "enunciado": "Corrige el error.",
+   "frase": "The children played in the park are my nephews.",
+   "respuestas": [
+    "The children playing in the park are my nephews."
+   ],
+   "explicacion": "La ficha explica que las relativas especificativas pueden reducirse: con sentido activo se usa -ing (the man sitting next to me). La pista es que los niños son quienes juegan: es una relativa activa, «who are playing». El participio pasado played daría sentido pasivo, y además la frase parecería tener dos verbos principales. La corrección es playing.",
+   "explicacion_breve": "Relativa activa reducida (who are playing): -ing, no participio pasado.",
+   "traduccion": "Los niños que están jugando en el parque son mis sobrinos.",
+   "errores_previstos": [
+    {
+     "respuesta": "The children played in the park are my nephews.",
+     "explicacion": "Es dejar la frase sin corregir: el sentido es activo y pide playing."
+    },
+    {
+     "respuesta": "The children who playing in the park are my nephews.",
+     "explicacion": "Mezcla la relativa y la reducida: «who are playing» o solo «playing»."
+    },
+    {
+     "respuesta": "The children are playing in the park are my nephews.",
+     "explicacion": "Hay dos verbos conjugados sin conexión; la reducción elimina el auxiliar: playing."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "nephews",
+     "significado": "sobrinos"
+    }
+   ]
+  },
+  {
+   "id": "e11",
+   "tipo": "transformar",
+   "enunciado": "Reescribe con una oración de participio que empiece por Having.",
+   "frase": "After she had read the contract, she signed it.",
+   "respuestas": [
+    "Having read the contract, she signed it."
+   ],
+   "explicacion": "Se aplica la fila «Having + participio: acción anterior, sentido activo». La pista es el pluscuamperfecto «had read»: leer ocurrió antes de firmar. Al reducir, desaparecen la conjunción after y el sujeto she, porque coincide con el de la principal. Read tiene participio igual al infinitivo en la escritura, aunque se pronuncia /red/.",
+   "explicacion_breve": "Acción anterior activa: having + participio.",
+   "traduccion": "Después de leer el contrato, lo firmó.",
+   "errores_previstos": [
+    {
+     "respuesta": "Having readed the contract, she signed it.",
+     "explicacion": "Read es irregular: su participio es read, no readed."
+    },
+    {
+     "respuesta": "Having she read the contract, she signed it.",
+     "explicacion": "La oración de participio no lleva sujeto propio: se elimina she."
+    },
+    {
+     "respuesta": "Having read the contract, signed it.",
+     "explicacion": "La oración principal necesita su sujeto: she signed it."
+    }
+   ]
+  },
+  {
+   "id": "e12",
+   "tipo": "transformar",
+   "enunciado": "Reescribe con una oración de participio pasado al principio.",
+   "frase": "The castle, which was destroyed in the war, was rebuilt in 1960.",
+   "respuestas": [
+    "Destroyed in the war, the castle was rebuilt in 1960."
+   ],
+   "explicacion": "La ficha explica que el participio pasado sustituye a una relativa pasiva. La pista es «which was destroyed»: el castillo fue destruido, sentido pasivo. Al reducir, el participio Destroyed pasa al principio, se suprimen which y was, y el sujeto the castle, que es el mismo, queda en la principal.",
+   "explicacion_breve": "Relativa pasiva → participio pasado.",
+   "traduccion": "Destruido durante la guerra, el castillo se reconstruyó en 1960.",
+   "errores_previstos": [
+    {
+     "respuesta": "Destroying in the war, the castle was rebuilt in 1960.",
+     "explicacion": "El -ing tiene sentido activo: diría que el castillo destruía algo."
+    },
+    {
+     "respuesta": "Having destroyed in the war, the castle was rebuilt in 1960.",
+     "explicacion": "Having + participio es activo; para una pasiva anterior haría falta having been destroyed, y el enunciado pide participio pasado."
+    },
+    {
+     "respuesta": "Destroyed in the war, it was rebuilt in 1960.",
+     "explicacion": "Sustituye the castle por it sin que haya un antecedente; hay que mantener el sujeto de la principal."
+    }
+   ]
+  },
+  {
+   "id": "e13",
+   "tipo": "transformar",
+   "enunciado": "Reescribe con una oración de -ing al principio.",
+   "frase": "Because he felt ill, Mark stayed at home.",
+   "respuestas": [
+    "Feeling ill, Mark stayed at home."
+   ],
+   "explicacion": "Se aplica la fila «-ing: acción simultánea o causa, sentido activo». La pista es «Because he felt ill», una causa simultánea a la acción principal. Al reducir, desaparecen because y he, y felt pasa a Feeling. El sujeto implícito es Mark, el mismo de la principal.",
+   "explicacion_breve": "Causa activa simultánea: -ing.",
+   "traduccion": "Como se encontraba mal, Mark se quedó en casa.",
+   "errores_previstos": [
+    {
+     "respuesta": "Felt ill, Mark stayed at home.",
+     "explicacion": "El participio pasado tiene sentido pasivo; Mark es quien se siente mal: Feeling."
+    },
+    {
+     "respuesta": "Because feeling ill, Mark stayed at home.",
+     "explicacion": "Because no se usa delante de una oración de participio; la causa queda implícita en el -ing."
+    },
+    {
+     "respuesta": "Feeling ill, he stayed at home Mark.",
+     "explicacion": "El sujeto de la principal es Mark y va delante del verbo; no se añade he."
+    }
+   ]
+  },
+  {
+   "id": "e14",
+   "tipo": "ordenar",
+   "enunciado": "Ordena las palabras.",
+   "palabras": [
+    "having",
+    "the",
+    "missed",
+    "bus",
+    "I",
+    "walked"
+   ],
+   "respuestas": [
+    "having missed the bus I walked"
+   ],
+   "explicacion": "Se aplica la fila «Having + participio: acción anterior, sentido activo». Primero se perdió el autobús y después se fue andando, y es la misma persona (I) la que hace las dos cosas. El orden es la oración de participio (having missed the bus) y luego la principal con su sujeto (I walked).",
+   "explicacion_breve": "Having + participio expresa la acción anterior.",
+   "traduccion": "Como había perdido el autobús, fui andando.",
+   "errores_previstos": [
+    {
+     "respuesta": "having the bus missed I walked",
+     "explicacion": "El participio missed va justo detrás de having, antes del objeto: having missed the bus."
+    },
+    {
+     "respuesta": "I having missed the bus walked",
+     "explicacion": "La oración de participio no lleva sujeto delante; I es el sujeto de walked y va con la principal."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "miss the bus",
+     "significado": "perder el autobús"
+    }
+   ]
+  },
+  {
+   "id": "e15",
+   "tipo": "ordenar",
+   "enunciado": "Ordena las palabras.",
+   "palabras": [
+    "refused",
+    "asked",
+    "when",
+    "he",
+    "comment",
+    "to"
+   ],
+   "respuestas": [
+    "when asked he refused to comment",
+    "he refused to comment when asked",
+    "he refused when asked to comment"
+   ],
+   "explicacion": "Se aplica la fila «Conjunción + -ing / participio: aclara la relación», con el ejemplo «When asked, she refused». La pista es que a él le preguntaron (sentido pasivo), así que se usa el participio asked tras when, equivalente a «when he was asked». La oración reducida puede ir al principio o al final, por eso se aceptan los dos órdenes. Refuse to comment significa «negarse a hacer comentarios». También vale he refused when asked to comment, donde to comment depende de asked («cuando le pidieron que comentara, se negó»).",
+   "explicacion_breve": "Conjunción + participio pasado (when he was asked).",
+   "traduccion": "Cuando se lo preguntaron, se negó a hacer comentarios.",
+   "errores_previstos": [
+    {
+     "respuesta": "when he asked refused to comment",
+     "explicacion": "Al poner he delante de asked la oración pasa a activa («cuando él preguntó») y además la principal se queda sin sujeto."
+    },
+    {
+     "respuesta": "when he refused asked to comment",
+     "explicacion": "Rompe las dos oraciones: when debe ir con asked (when asked) y refused con su sujeto he y su complemento to comment."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "refuse to comment",
+     "significado": "negarse a hacer comentarios"
+    }
+   ]
+  }
  ],
- "fuente": {"nombre": "propia"}
+ "fuente": {
+  "nombre": "propia"
+ },
+ "descripcion_larga_es": "Las oraciones de participio condensan una subordinada temporal, causal o de relativo en una forma verbal sin sujeto: Feeling tired, I went to bed; Built in 1900, the station is now a museum. Son propias del inglés escrito y formal y dan concisión a informes y redacciones. Al hispanohablante le cuesta elegir entre -ing, participio pasado y having + participio, y respetar la regla de que el sujeto implícito sea el de la oración principal.",
+ "contexto": {
+  "que_es": "Son oraciones subordinadas reducidas que usan una forma de participio en lugar de un verbo conjugado con su sujeto y su conjunción. El participio en -ing expresa sentido activo y simultaneidad o causa; el participio pasado, sentido pasivo; having + participio, una acción activa anterior; y having been + participio, una acción pasiva anterior. También sustituyen a relativas: the man sitting next to me.",
+  "por_que_importa": "Permiten escribir de forma más compacta y elegante, algo muy valorado en redacciones de nivel B2 y C1 y en informes profesionales. Mal usadas producen errores llamativos: si el sujeto implícito no coincide con el de la principal (dangling participle), la frase dice algo absurdo, como que la lluvia volvía a casa andando.",
+  "cuando_se_usa": "Aparecen en textos escritos, noticias y descripciones: para encadenar acciones (Having finished the report, she went home), explicar causas (Not knowing the way, we asked) o describir objetos (Located in the city centre, the hotel…). El hispanohablante tiende a usar -ing donde hace falta sentido pasivo, a colocar mal not y a olvidar que el sujeto debe ser el mismo."
+ }
 }

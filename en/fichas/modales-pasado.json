@@ -6,55 +6,550 @@
  "nivel": "C1",
  "resumen": "Modal + have + participio expresa deducciones, críticas, posibilidades no realizadas o hipótesis sobre el pasado. Algunas parejas tienen matices que el español no distingue, como needn't have done frente a didn't need to do.",
  "explicacion": [
-  {"tipo": "tabla", "cabecera": ["Forma", "Valor", "Ejemplo"], "filas": [
-   ["must have done", "Deducción casi segura (debe de haber…)", "The ground is wet; it must have rained."],
-   ["can't / couldn't have done", "Deducción negativa (no puede haber…)", "She can't have finished already; she only started at ten."],
-   ["may / might / could have done", "Posibilidad sobre el pasado", "He might have missed the bus."],
-   ["should / ought to have done", "Crítica o arrepentimiento (debería haber…)", "You should have told me earlier."],
-   ["shouldn't have done", "Algo que se hizo y no convenía", "I shouldn't have eaten so much."],
-   ["could have done", "Capacidad u oportunidad no aprovechada", "We could have won if we'd tried harder."],
-   ["would have done", "Resultado hipotético, disposición", "I would have helped you, but nobody asked me."],
-   ["needn't have done", "Se hizo, pero no hacía falta", "You needn't have brought wine; we had plenty."],
-   ["didn't need to do", "No hacía falta (normalmente no se hizo)", "I didn't need to wake up early, so I slept in."]
-  ]},
-  {"tipo": "texto", "texto": "Needn't have done siempre implica que la acción SÍ se realizó y resultó innecesaria. Didn't need to do indica solo que no era necesaria; lo normal es entender que no se hizo, aunque el contexto puede aclarar lo contrario (I didn't need to go, but I went anyway)."},
-  {"tipo": "lista", "items": [
-   "Must have no tiene sentido de obligación en pasado: para eso se usa had to (I had to work late).",
-   "La deducción negativa es can't have o couldn't have, no mustn't have.",
-   "Could have puede ser posibilidad (It could have been him) o capacidad no usada (You could have called me).",
-   "Was/were supposed to have done = se esperaba que hubiera hecho (y no lo hizo)."
-  ]}
+  {
+   "tipo": "tabla",
+   "cabecera": [
+    "Forma",
+    "Valor",
+    "Ejemplo"
+   ],
+   "filas": [
+    [
+     "must have done",
+     "Deducción casi segura (debe de haber…)",
+     "The ground is wet; it must have rained."
+    ],
+    [
+     "can't / couldn't have done",
+     "Deducción negativa (no puede haber…)",
+     "She can't have finished already; she only started at ten."
+    ],
+    [
+     "may / might / could have done",
+     "Posibilidad sobre el pasado",
+     "He might have missed the bus."
+    ],
+    [
+     "should / ought to have done",
+     "Crítica o arrepentimiento (debería haber…)",
+     "You should have told me earlier."
+    ],
+    [
+     "shouldn't have done",
+     "Algo que se hizo y no convenía",
+     "I shouldn't have eaten so much."
+    ],
+    [
+     "could have done",
+     "Capacidad u oportunidad no aprovechada",
+     "We could have won if we'd tried harder."
+    ],
+    [
+     "would have done",
+     "Resultado hipotético, disposición",
+     "I would have helped you, but nobody asked me."
+    ],
+    [
+     "needn't have done",
+     "Se hizo, pero no hacía falta",
+     "You needn't have brought wine; we had plenty."
+    ],
+    [
+     "didn't need to do",
+     "No hacía falta (normalmente no se hizo)",
+     "I didn't need to wake up early, so I slept in."
+    ]
+   ]
+  },
+  {
+   "tipo": "texto",
+   "texto": "Needn't have done siempre implica que la acción SÍ se realizó y resultó innecesaria. Didn't need to do indica solo que no era necesaria; lo normal es entender que no se hizo, aunque el contexto puede aclarar lo contrario (I didn't need to go, but I went anyway)."
+  },
+  {
+   "tipo": "lista",
+   "items": [
+    "Must have no tiene sentido de obligación en pasado: para eso se usa had to (I had to work late).",
+    "La deducción negativa es can't have o couldn't have, no mustn't have.",
+    "Could have puede ser posibilidad (It could have been him) o capacidad no usada (You could have called me).",
+    "Was/were supposed to have done = se esperaba que hubiera hecho (y no lo hizo)."
+   ]
+  }
  ],
  "ejemplos": [
-  {"frase": "You needn't have waited for me; I had my keys.", "traduccion": "No hacía falta que me esperaras; tenía mis llaves."},
-  {"frase": "The shop was empty, so we didn't need to queue.", "traduccion": "La tienda estaba vacía, así que no tuvimos que hacer cola."},
-  {"frase": "She must have forgotten our appointment.", "traduccion": "Se le debe de haber olvidado nuestra cita."},
-  {"frase": "He can't have written this; he doesn't speak German.", "traduccion": "No puede haberlo escrito él; no habla alemán."},
-  {"frase": "We should have booked a table in advance.", "traduccion": "Deberíamos haber reservado mesa con antelación."},
-  {"frase": "I would have called you, but my phone was dead.", "traduccion": "Te habría llamado, pero me quedé sin batería."}
+  {
+   "frase": "You needn't have waited for me; I had my keys.",
+   "traduccion": "No hacía falta que me esperaras; tenía mis llaves."
+  },
+  {
+   "frase": "The shop was empty, so we didn't need to queue.",
+   "traduccion": "La tienda estaba vacía, así que no tuvimos que hacer cola."
+  },
+  {
+   "frase": "She must have forgotten our appointment.",
+   "traduccion": "Se le debe de haber olvidado nuestra cita."
+  },
+  {
+   "frase": "He can't have written this; he doesn't speak German.",
+   "traduccion": "No puede haberlo escrito él; no habla alemán."
+  },
+  {
+   "frase": "We should have booked a table in advance.",
+   "traduccion": "Deberíamos haber reservado mesa con antelación."
+  },
+  {
+   "frase": "I would have called you, but my phone was dead.",
+   "traduccion": "Te habría llamado, pero me quedé sin batería."
+  }
  ],
  "errores_hispanohablantes": [
-  {"mal": "He mustn't have seen us.", "bien": "He can't have seen us.", "nota": "Para la deducción negativa en pasado se usa can't/couldn't have; mustn't expresa prohibición."},
-  {"mal": "I must have studied yesterday, so I couldn't go out.", "bien": "I had to study yesterday, so I couldn't go out.", "nota": "La obligación pasada es had to; must have es deducción («debe de haber»)."},
-  {"mal": "You should told me.", "bien": "You should have told me.", "nota": "Modal + have + participio; no se puede omitir have."},
-  {"mal": "You didn't need to bring a cake, but thank you!", "bien": "You needn't have brought a cake, but thank you!", "nota": "Si la acción se hizo y resultó innecesaria, lo natural es needn't have + participio."}
+  {
+   "mal": "He mustn't have seen us.",
+   "bien": "He can't have seen us.",
+   "nota": "Para la deducción negativa en pasado se usa can't/couldn't have; mustn't expresa prohibición."
+  },
+  {
+   "mal": "I must have studied yesterday, so I couldn't go out.",
+   "bien": "I had to study yesterday, so I couldn't go out.",
+   "nota": "La obligación pasada es had to; must have es deducción («debe de haber»)."
+  },
+  {
+   "mal": "You should told me.",
+   "bien": "You should have told me.",
+   "nota": "Modal + have + participio; no se puede omitir have."
+  },
+  {
+   "mal": "You didn't need to bring a cake, but thank you!",
+   "bien": "You needn't have brought a cake, but thank you!",
+   "nota": "Si la acción se hizo y resultó innecesaria, lo natural es needn't have + participio."
+  }
  ],
  "ejercicios": [
-  {"id": "e01", "tipo": "eleccion", "enunciado": "Elige la opción correcta.", "frase": "I ___ so much food; only three people came to the party.", "opciones": ["can't have bought", "needn't have bought", "mustn't have bought", "couldn't buy"], "respuestas": ["needn't have bought"], "explicacion": "Se compró comida y resultó innecesaria: needn't have + participio."},
-  {"id": "e02", "tipo": "eleccion", "enunciado": "Elige la opción correcta.", "frase": "It was a holiday, so I ___ go to work. I stayed in bed.", "opciones": ["needn't have", "didn't need to", "shouldn't have", "can't have"], "respuestas": ["didn't need to"], "explicacion": "No era necesario y no se hizo: didn't need to + infinitivo."},
-  {"id": "e03", "tipo": "eleccion", "enunciado": "Elige la opción correcta.", "frase": "The lights are off. They ___ gone to bed.", "opciones": ["must have", "should have", "needn't have", "can't have"], "respuestas": ["must have"], "explicacion": "Deducción casi segura a partir de una prueba: must have."},
-  {"id": "e04", "tipo": "eleccion", "enunciado": "Elige la opción correcta.", "frase": "She ___ stolen the money; she was abroad at the time.", "opciones": ["mustn't have", "can't have", "shouldn't have", "needn't have"], "respuestas": ["can't have"], "explicacion": "Deducción negativa (imposibilidad): can't have."},
-  {"id": "e05", "tipo": "hueco", "enunciado": "Completa con el verbo en la forma adecuada.", "frase": "You look exhausted. You should ___ (go) to bed earlier last night.", "respuestas": ["have gone"], "explicacion": "Crítica sobre el pasado: should have + participio."},
-  {"id": "e06", "tipo": "hueco", "enunciado": "Completa con el verbo en la forma adecuada.", "frase": "I don't know where Tom is. He might ___ (miss) the train this morning.", "respuestas": ["have missed"], "explicacion": "Posibilidad sobre el pasado: might have + participio."},
-  {"id": "e07", "tipo": "hueco", "enunciado": "Completa con el verbo en la forma adecuada.", "frase": "If you had asked, I would ___ (lend) you my car.", "respuestas": ["have lent"], "explicacion": "Resultado hipotético en pasado: would have + participio."},
-  {"id": "e08", "tipo": "hueco", "enunciado": "Completa con una palabra.", "frase": "Yesterday I ___ to finish the report before five, so I couldn't leave early.", "respuestas": ["had"], "explicacion": "La obligación en pasado se expresa con had to."},
-  {"id": "e09", "tipo": "corregir", "enunciado": "Corrige el error.", "frase": "He mustn't have heard the alarm; he slept through it.", "respuestas": ["He can't have heard the alarm; he slept through it.", "He couldn't have heard the alarm; he slept through it.", "He cannot have heard the alarm; he slept through it."], "explicacion": "Deducción negativa en pasado: can't/couldn't have."},
-  {"id": "e10", "tipo": "corregir", "enunciado": "Corrige el error.", "frase": "You could warned me about the traffic.", "respuestas": ["You could have warned me about the traffic."], "explicacion": "Modal + have + participio."},
-  {"id": "e11", "tipo": "transformar", "enunciado": "Reescribe con «needn't have».", "frase": "It wasn't necessary for you to clean the kitchen, but you did.", "respuestas": ["You needn't have cleaned the kitchen.", "You needn't have cleaned the kitchen, but you did.", "You need not have cleaned the kitchen.", "You need not have cleaned the kitchen, but you did."], "explicacion": "Acción realizada pero innecesaria: needn't have + participio."},
-  {"id": "e12", "tipo": "transformar", "enunciado": "Reescribe con «must have».", "frase": "I'm sure she left early.", "respuestas": ["She must have left early."], "explicacion": "Certeza sobre el pasado: must have + participio."},
-  {"id": "e13", "tipo": "transformar", "enunciado": "Reescribe con «shouldn't have».", "frase": "It was a mistake to tell him the secret.", "respuestas": ["I shouldn't have told him the secret.", "We shouldn't have told him the secret.", "You shouldn't have told him the secret.", "I should not have told him the secret.", "He shouldn't have told him the secret.", "She shouldn't have told him the secret.", "They shouldn't have told him the secret."], "explicacion": "Arrepentimiento o crítica: shouldn't have + participio."},
-  {"id": "e14", "tipo": "ordenar", "enunciado": "Ordena las palabras.", "palabras": ["might", "They", "have", "got", "lost"], "respuestas": ["They might have got lost"], "explicacion": "Sujeto + might have + participio."},
-  {"id": "e15", "tipo": "ordenar", "enunciado": "Ordena las palabras.", "palabras": ["needn't", "You", "have", "worried"], "respuestas": ["You needn't have worried"], "explicacion": "Te preocupaste sin necesidad: needn't have + participio."}
+  {
+   "id": "e01",
+   "tipo": "eleccion",
+   "enunciado": "Elige la opción correcta.",
+   "frase": "I ___ so much food; only three people came to the party.",
+   "opciones": [
+    "can't have bought",
+    "needn't have bought",
+    "mustn't have bought",
+    "couldn't buy"
+   ],
+   "respuestas": [
+    "needn't have bought"
+   ],
+   "explicacion": "Se aplica la regla de la tabla «needn't have done: se hizo, pero no hacía falta», con la aclaración de que needn't have implica siempre que la acción sí se realizó. La pista es la segunda parte, «only three people came»: la comida ya estaba comprada y resultó excesiva. Por eso la forma es needn't + have + bought, el participio de buy. Ninguna de las demás opciones expresa una acción realizada e innecesaria.",
+   "explicacion_breve": "Se compró comida y resultó innecesaria: needn't have + participio.",
+   "traduccion": "No hacía falta que comprara tanta comida; solo vinieron tres personas a la fiesta.",
+   "por_opcion": {
+    "can't have bought": "Incorrecta. Can't have expresa deducción negativa («no puede ser que comprara»); no tiene sentido deducir sobre una compra propia.",
+    "needn't have bought": "Correcta. Needn't have + participio indica que la compra se hizo y resultó innecesaria.",
+    "mustn't have bought": "Incorrecta. Mustn't expresa prohibición y no se usa para deducciones en pasado; la deducción negativa es can't have.",
+    "couldn't buy": "Incorrecta. Couldn't buy significa «no pude comprar», que contradice la idea de haber comprado demasiado."
+   }
+  },
+  {
+   "id": "e02",
+   "tipo": "eleccion",
+   "enunciado": "Elige la opción correcta.",
+   "frase": "It was a holiday, so I ___ go to work. I stayed in bed.",
+   "opciones": [
+    "needn't have",
+    "didn't need to",
+    "shouldn't have",
+    "can't have"
+   ],
+   "respuestas": [
+    "didn't need to"
+   ],
+   "explicacion": "Se aplica la fila «didn't need to do: no hacía falta (normalmente no se hizo)». La pista es «I stayed in bed»: la acción no se realizó, de modo que no puede usarse needn't have, que exige que se haya hecho. Además, tras el hueco va el infinitivo go, y didn't need to es la única opción que se construye con to + infinitivo. Queda «I didn't need to go to work».",
+   "explicacion_breve": "No era necesario y no se hizo: didn't need to + infinitivo.",
+   "traduccion": "Era festivo, así que no tenía que ir a trabajar. Me quedé en la cama.",
+   "por_opcion": {
+    "needn't have": "Incorrecta. Needn't have exige participio (gone) y significa que la acción se hizo; aquí no fue a trabajar.",
+    "didn't need to": "Correcta. Didn't need to + infinitivo indica que no era necesario, y el contexto confirma que no se hizo.",
+    "shouldn't have": "Incorrecta. Shouldn't have expresa crítica sobre algo hecho y además pediría participio, no go.",
+    "can't have": "Incorrecta. Can't have es una deducción negativa sobre el pasado y también exige participio."
+   }
+  },
+  {
+   "id": "e03",
+   "tipo": "eleccion",
+   "enunciado": "Elige la opción correcta.",
+   "frase": "The lights are off. They ___ gone to bed.",
+   "opciones": [
+    "must have",
+    "should have",
+    "needn't have",
+    "can't have"
+   ],
+   "respuestas": [
+    "must have"
+   ],
+   "explicacion": "Se aplica la fila «must have done: deducción casi segura (debe de haber…)». La pista es la prueba de la primera frase, «The lights are off», que lleva a una conclusión lógica sobre el pasado. La forma es must + have + gone, con el participio de go ya dado en la frase. Should have sería una crítica, no una deducción.",
+   "explicacion_breve": "Deducción casi segura a partir de una prueba: must have.",
+   "traduccion": "Las luces están apagadas. Deben de haberse ido a la cama.",
+   "por_opcion": {
+    "must have": "Correcta. Must have + participio expresa una deducción casi segura a partir de una prueba.",
+    "should have": "Incorrecta. Should have expresa crítica o lo que habría sido conveniente («deberían haberse ido»), no una deducción.",
+    "needn't have": "Incorrecta. Needn't have indica algo hecho sin necesidad; no tiene sentido aquí.",
+    "can't have": "Incorrecta. Can't have expresa imposibilidad, lo contrario de lo que sugieren las luces apagadas."
+   }
+  },
+  {
+   "id": "e04",
+   "tipo": "eleccion",
+   "enunciado": "Elige la opción correcta.",
+   "frase": "She ___ stolen the money; she was abroad at the time.",
+   "opciones": [
+    "mustn't have",
+    "can't have",
+    "shouldn't have",
+    "needn't have"
+   ],
+   "respuestas": [
+    "can't have"
+   ],
+   "explicacion": "Se aplica la fila «can't / couldn't have done: deducción negativa», junto con la clave de que la deducción negativa es can't have o couldn't have, no mustn't have. La pista es la coartada «she was abroad at the time», que hace imposible el robo. Queda can't + have + stolen. Mustn't have es el calco más frecuente del español «no debe de haber», pero en inglés mustn't expresa prohibición.",
+   "explicacion_breve": "Deducción negativa (imposibilidad): can't have.",
+   "traduccion": "No puede haber robado el dinero; estaba en el extranjero en ese momento.",
+   "por_opcion": {
+    "mustn't have": "Incorrecta. Mustn't expresa prohibición; para la deducción negativa en pasado se usa can't have o couldn't have.",
+    "can't have": "Correcta. Can't have + participio expresa que algo es imposible a la luz de una prueba.",
+    "shouldn't have": "Incorrecta. Shouldn't have critica algo que sí se hizo («no debería haberlo robado»), lo que contradice la coartada.",
+    "needn't have": "Incorrecta. Needn't have indica que se hizo algo innecesario; no expresa imposibilidad."
+   }
+  },
+  {
+   "id": "e05",
+   "tipo": "hueco",
+   "enunciado": "Completa con el verbo en la forma adecuada.",
+   "frase": "You look exhausted. You should ___ (go) to bed earlier last night.",
+   "respuestas": [
+    "have gone"
+   ],
+   "explicacion": "Se aplica la fila «should / ought to have done: crítica o arrepentimiento (debería haber…)». La pista es «last night»: se critica algo del pasado que no se hizo, y el modal should ya está en la frase. Tras el modal hace falta have más el participio de go, que es gone. Queda «You should have gone to bed earlier».",
+   "explicacion_breve": "Crítica sobre el pasado: should have + participio.",
+   "traduccion": "Pareces agotado. Deberías haberte acostado antes anoche.",
+   "errores_previstos": [
+    {
+     "respuesta": "gone",
+     "explicacion": "Falta have: la estructura es modal + have + participio, y no se puede omitir have."
+    },
+    {
+     "respuesta": "have went",
+     "explicacion": "Went es el pasado simple; tras have hace falta el participio gone."
+    },
+    {
+     "respuesta": "go",
+     "explicacion": "Should go hablaría del presente o del futuro; para criticar el pasado hace falta should have gone."
+    }
+   ]
+  },
+  {
+   "id": "e06",
+   "tipo": "hueco",
+   "enunciado": "Completa con el verbo en la forma adecuada.",
+   "frase": "I don't know where Tom is. He might ___ (miss) the train this morning.",
+   "respuestas": [
+    "have missed"
+   ],
+   "explicacion": "Se aplica la fila «may / might / could have done: posibilidad sobre el pasado». La pista es «I don't know where Tom is» y «this morning»: el hablante especula sobre una causa pasada sin certeza. Tras might hace falta have y el participio regular missed. Queda «He might have missed the train».",
+   "explicacion_breve": "Posibilidad sobre el pasado: might have + participio.",
+   "traduccion": "No sé dónde está Tom. Puede que haya perdido el tren esta mañana.",
+   "errores_previstos": [
+    {
+     "respuesta": "missed",
+     "explicacion": "Falta have: might missed no es posible; el modal va seguido de have + participio."
+    },
+    {
+     "respuesta": "miss",
+     "explicacion": "Might miss hablaría de una posibilidad futura; para el pasado hace falta might have missed."
+    },
+    {
+     "respuesta": "has missed",
+     "explicacion": "Tras un modal no se conjuga have: es siempre have, nunca has."
+    }
+   ]
+  },
+  {
+   "id": "e07",
+   "tipo": "hueco",
+   "enunciado": "Completa con el verbo en la forma adecuada.",
+   "frase": "If you had asked, I would ___ (lend) you my car.",
+   "respuestas": [
+    "have lent"
+   ],
+   "explicacion": "Se aplica la fila «would have done: resultado hipotético, disposición». La pista es la condición irreal en pasado «If you had asked», que pide en la oración principal would have + participio (tercer condicional). El participio de lend es irregular: lent. Queda «I would have lent you my car».",
+   "explicacion_breve": "Resultado hipotético en pasado: would have + participio.",
+   "traduccion": "Si me lo hubieras pedido, te habría prestado el coche.",
+   "errores_previstos": [
+    {
+     "respuesta": "have lend",
+     "explicacion": "Lend es irregular y su participio es lent, no lend."
+    },
+    {
+     "respuesta": "have lended",
+     "explicacion": "Lend no es regular: el participio es lent, no lended."
+    },
+    {
+     "respuesta": "lend",
+     "explicacion": "Would lend es el segundo condicional (presente o futuro); con «If you had asked» hace falta would have lent."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "lend (lent, lent)",
+     "significado": "prestar"
+    }
+   ]
+  },
+  {
+   "id": "e08",
+   "tipo": "hueco",
+   "enunciado": "Completa con una palabra.",
+   "frase": "Yesterday I ___ to finish the report before five, so I couldn't leave early.",
+   "respuestas": [
+    "had"
+   ],
+   "explicacion": "Se aplica la clave de la ficha «Must have no tiene sentido de obligación en pasado: para eso se usa had to». La pista es «Yesterday» y la consecuencia «so I couldn't leave early»: se habla de una obligación real que se cumplió. Delante de to finish solo cabe had, el pasado de have to. Queda «I had to finish the report».",
+   "explicacion_breve": "La obligación en pasado se expresa con had to.",
+   "traduccion": "Ayer tuve que terminar el informe antes de las cinco, así que no pude salir pronto.",
+   "errores_previstos": [
+    {
+     "respuesta": "must",
+     "explicacion": "Must no tiene forma de pasado y must to no existe; la obligación pasada es had to."
+    },
+    {
+     "respuesta": "needed",
+     "explicacion": "Needed to sería «necesité», correcto en otro contexto, pero la obligación que la ficha trabaja aquí es had to."
+    },
+    {
+     "respuesta": "should",
+     "explicacion": "Should no lleva to y expresa consejo, no una obligación cumplida en el pasado."
+    }
+   ]
+  },
+  {
+   "id": "e09",
+   "tipo": "corregir",
+   "enunciado": "Corrige el error.",
+   "frase": "He mustn't have heard the alarm; he slept through it.",
+   "respuestas": [
+    "He can't have heard the alarm; he slept through it.",
+    "He couldn't have heard the alarm; he slept through it.",
+    "He cannot have heard the alarm; he slept through it."
+   ],
+   "explicacion": "Se aplica la clave «La deducción negativa es can't have o couldn't have, no mustn't have». La pista es «he slept through it»: el hecho de que siguiera durmiendo demuestra que es imposible que oyera la alarma. La corrección es «He can't have heard» (o couldn't have, cannot have). Mustn't expresa prohibición y no sirve para deducir.",
+   "explicacion_breve": "Deducción negativa en pasado: can't/couldn't have.",
+   "traduccion": "No puede haber oído la alarma; siguió durmiendo sin enterarse.",
+   "errores_previstos": [
+    {
+     "respuesta": "He mustn't have heard the alarm; he slept through it.",
+     "explicacion": "Es dejar la frase sin corregir: mustn't no expresa deducción negativa, sino prohibición."
+    },
+    {
+     "respuesta": "He must not have heard the alarm; he slept through it.",
+     "explicacion": "Sin contraer sigue siendo el mismo problema; en el uso americano se oye must not have, pero la ficha y la norma británica piden can't have."
+    },
+    {
+     "respuesta": "He can't hear the alarm; he slept through it.",
+     "explicacion": "Can't hear habla del presente; para deducir sobre el pasado hace falta can't have heard."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "sleep through",
+     "significado": "seguir durmiendo sin enterarse de algo"
+    }
+   ]
+  },
+  {
+   "id": "e10",
+   "tipo": "corregir",
+   "enunciado": "Corrige el error.",
+   "frase": "You could warned me about the traffic.",
+   "respuestas": [
+    "You could have warned me about the traffic."
+   ],
+   "explicacion": "Se aplica la regla general «modal + have + participio» y la clave de que could have puede expresar una capacidad u oportunidad no aprovechada. La pista es el reproche implícito: el hablante critica que no le avisaran. El error es la omisión de have; la corrección es «You could have warned me».",
+   "explicacion_breve": "Modal + have + participio.",
+   "traduccion": "Podrías haberme avisado del tráfico.",
+   "errores_previstos": [
+    {
+     "respuesta": "You could warned me about the traffic.",
+     "explicacion": "Es dejar la frase sin corregir: entre could y el participio falta have."
+    },
+    {
+     "respuesta": "You could warn me about the traffic.",
+     "explicacion": "Could warn habla del presente («podrías avisarme»); para el reproche sobre el pasado hace falta could have warned."
+    },
+    {
+     "respuesta": "You could have warn me about the traffic.",
+     "explicacion": "Tras have hace falta el participio warned, no el infinitivo."
+    }
+   ]
+  },
+  {
+   "id": "e11",
+   "tipo": "transformar",
+   "enunciado": "Reescribe con «needn't have».",
+   "frase": "It wasn't necessary for you to clean the kitchen, but you did.",
+   "respuestas": [
+    "You needn't have cleaned the kitchen.",
+    "You needn't have cleaned the kitchen, but you did.",
+    "You need not have cleaned the kitchen.",
+    "You need not have cleaned the kitchen, but you did."
+   ],
+   "explicacion": "Se aplica la regla de que needn't have done implica siempre que la acción se realizó y resultó innecesaria. La pista es «but you did»: la cocina se limpió. Por eso la forma es needn't + have + cleaned, y la coletilla but you did puede mantenerse o suprimirse, porque needn't have ya la implica. También vale la forma sin contraer need not have.",
+   "explicacion_breve": "Acción realizada pero innecesaria: needn't have + participio.",
+   "traduccion": "No hacía falta que limpiaras la cocina (pero la limpiaste).",
+   "errores_previstos": [
+    {
+     "respuesta": "You didn't need to clean the kitchen.",
+     "explicacion": "Didn't need to suele entenderse como que no se hizo; además el enunciado pide needn't have."
+    },
+    {
+     "respuesta": "You needn't have clean the kitchen.",
+     "explicacion": "Tras have hace falta el participio cleaned, no el infinitivo."
+    },
+    {
+     "respuesta": "You needn't to have cleaned the kitchen.",
+     "explicacion": "Needn't funciona como modal y no lleva to."
+    }
+   ]
+  },
+  {
+   "id": "e12",
+   "tipo": "transformar",
+   "enunciado": "Reescribe con «must have».",
+   "frase": "I'm sure she left early.",
+   "respuestas": [
+    "She must have left early."
+   ],
+   "explicacion": "Se aplica la fila «must have done: deducción casi segura». La frase de partida, «I'm sure she left early», expresa certeza sobre el pasado, que es justamente el valor de must have. El pasado simple left pasa a have + participio, que es también left. Queda «She must have left early».",
+   "explicacion_breve": "Certeza sobre el pasado: must have + participio.",
+   "traduccion": "Debe de haberse ido pronto.",
+   "errores_previstos": [
+    {
+     "respuesta": "She must have leave early.",
+     "explicacion": "Tras have hace falta el participio left, no el infinitivo."
+    },
+    {
+     "respuesta": "She must left early.",
+     "explicacion": "Falta have: modal + have + participio."
+    },
+    {
+     "respuesta": "She had to leave early.",
+     "explicacion": "Had to expresa obligación («tuvo que irse»), no la deducción que pide «I'm sure»."
+    }
+   ]
+  },
+  {
+   "id": "e13",
+   "tipo": "transformar",
+   "enunciado": "Reescribe con «shouldn't have».",
+   "frase": "It was a mistake to tell him the secret.",
+   "respuestas": [
+    "I shouldn't have told him the secret.",
+    "We shouldn't have told him the secret.",
+    "You shouldn't have told him the secret.",
+    "I should not have told him the secret.",
+    "He shouldn't have told him the secret.",
+    "She shouldn't have told him the secret.",
+    "They shouldn't have told him the secret."
+   ],
+   "explicacion": "Se aplica la fila «shouldn't have done: algo que se hizo y no convenía». La frase de partida, «It was a mistake to tell him the secret», dice que se contó el secreto y que fue un error. La transformación es shouldn't + have + told, participio de tell. Como la frase original no tiene sujeto personal, se aceptan varios sujetos (I, we, you, she…).",
+   "explicacion_breve": "Arrepentimiento o crítica: shouldn't have + participio.",
+   "traduccion": "No debería haberle contado el secreto.",
+   "errores_previstos": [
+    {
+     "respuesta": "I shouldn't have tell him the secret.",
+     "explicacion": "Tell es irregular y su participio es told."
+    },
+    {
+     "respuesta": "I shouldn't told him the secret.",
+     "explicacion": "Falta have: modal + have + participio."
+    },
+    {
+     "respuesta": "I mustn't have told him the secret.",
+     "explicacion": "Mustn't have no expresa arrepentimiento; para lamentar algo hecho se usa shouldn't have."
+    }
+   ]
+  },
+  {
+   "id": "e14",
+   "tipo": "ordenar",
+   "enunciado": "Ordena las palabras.",
+   "palabras": [
+    "might",
+    "They",
+    "have",
+    "got",
+    "lost"
+   ],
+   "respuestas": [
+    "They might have got lost"
+   ],
+   "explicacion": "Se aplica la fila «may / might / could have done: posibilidad sobre el pasado». El orden es sujeto (They), modal (might), have y el participio. «Get lost» significa «perderse», y en pasado se construye con el participio got (o gotten en inglés americano). Queda «They might have got lost».",
+   "explicacion_breve": "Sujeto + might have + participio.",
+   "traduccion": "Puede que se hayan perdido.",
+   "errores_previstos": [
+    {
+     "respuesta": "They might have lost got",
+     "explicacion": "La expresión es get lost: got va delante de lost."
+    },
+    {
+     "respuesta": "They have might got lost",
+     "explicacion": "El modal va antes de have: might have."
+    },
+    {
+     "respuesta": "Might they have got lost",
+     "explicacion": "Es una pregunta («¿se habrán perdido?»), no la afirmación que se pide."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "get lost",
+     "significado": "perderse"
+    }
+   ]
+  },
+  {
+   "id": "e15",
+   "tipo": "ordenar",
+   "enunciado": "Ordena las palabras.",
+   "palabras": [
+    "needn't",
+    "You",
+    "have",
+    "worried"
+   ],
+   "respuestas": [
+    "You needn't have worried"
+   ],
+   "explicacion": "Se aplica la fila «needn't have done: se hizo, pero no hacía falta». La persona se preocupó y resultó innecesario, que es exactamente lo que expresa needn't have. El orden es sujeto, needn't, have y el participio worried. Es una frase típica para tranquilizar a alguien después de que algo ha salido bien.",
+   "explicacion_breve": "Te preocupaste sin necesidad: needn't have + participio.",
+   "traduccion": "No hacía falta que te preocuparas.",
+   "errores_previstos": [
+    {
+     "respuesta": "You have needn't worried",
+     "explicacion": "Needn't es el modal y va antes de have: needn't have worried."
+    },
+    {
+     "respuesta": "Needn't you have worried",
+     "explicacion": "Es una pregunta; la frase pedida es una afirmación con el sujeto delante."
+    }
+   ]
+  }
  ],
- "fuente": {"nombre": "propia"}
+ "fuente": {
+  "nombre": "propia"
+ },
+ "descripcion_larga_es": "Los modales en pasado (modal + have + participio) permiten deducir qué pasó (must have rained), descartarlo (can't have finished), plantear posibilidades (might have missed), criticar o lamentar (should have told) e imaginar resultados (would have helped). Son esenciales en el nivel C1 para razonar sobre hechos pasados. Al hispanohablante le cuesta porque «debe de haber» y «debería haber» se confunden, y el español no distingue needn't have done de didn't need to do.",
+ "contexto": {
+  "que_es": "Es la combinación de un verbo modal con have y el participio pasado para hablar de acciones anteriores al momento presente con un matiz de certeza, posibilidad, crítica o hipótesis. Cada modal conserva su valor: must para la deducción segura, can't para la imposibilidad, might y could para la posibilidad, should para la crítica, would para el resultado hipotético y needn't para lo que se hizo sin necesidad.",
+  "por_que_importa": "Permite razonar sobre el pasado sin afirmar hechos que no se conocen, algo constante en análisis, debates y exposiciones. Confundir must have (deducción) con had to (obligación) o con mustn't (prohibición) cambia por completo el sentido. En un examen C1 se valora especialmente la distinción entre needn't have done y didn't need to do.",
+  "cuando_se_usa": "Aparece cuando hay una prueba que lleva a una conclusión (the lights are off), al lamentar una decisión (I shouldn't have eaten so much), al especular sobre por qué alguien no ha llegado o al describir lo que habría pasado en otras circunstancias. El hispanohablante tiende a omitir have (you should told me) y a usar must have para la obligación pasada."
+ }
 }

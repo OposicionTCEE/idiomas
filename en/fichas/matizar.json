@@ -6,59 +6,747 @@
  "nivel": "B2",
  "resumen": "Recursos para no afirmar de forma tajante: verbos modales, adverbios de probabilidad y fórmulas de prudencia (hedging). Muy valorados en exposiciones y textos académicos.",
  "explicacion": [
-  {"tipo": "texto", "texto": "En inglés formal se evita sonar categórico. En lugar de «This policy is a failure» se prefiere «This policy appears to have largely failed». La prudencia se consigue con modales, verbos como seem/appear/tend, adverbios y cuantificadores."},
-  {"tipo": "tabla", "cabecera": ["Expresión", "Significado", "Ejemplo"], "filas": [
-   ["will certainly / is bound to", "seguro que (casi certeza)", "Prices are bound to rise."],
-   ["is likely to / will probably", "es probable que", "Growth is likely to slow down."],
-   ["may / might / could", "puede que, podría", "The measure might not be enough."],
-   ["is unlikely to / probably won't", "es poco probable que", "Rates are unlikely to fall soon."],
-   ["there is a good chance that", "hay muchas posibilidades de que", "There is a good chance that it will pass."],
-   ["seem to / appear to", "parecer", "The policy appears to be working."],
-   ["tend to", "tender a, soler", "Young people tend to rent."],
-   ["arguably", "posiblemente, cabe sostener que", "It is arguably the best novel of the decade."],
-   ["presumably", "es de suponer que", "Presumably, he knew about it."],
-   ["apparently", "al parecer, según parece", "Apparently, the meeting was cancelled."],
-   ["to some extent / to a certain degree", "hasta cierto punto", "To some extent, that is true."],
-   ["largely / broadly", "en gran medida / en líneas generales", "The plan was largely successful."],
-   ["somewhat / rather", "algo, un tanto", "The results were somewhat disappointing."],
-   ["it would seem that", "parecería que", "It would seem that the data is incomplete."],
-   ["it could be argued that", "cabría argumentar que", "It could be argued that the tax is unfair."],
-   ["as far as I know", "que yo sepa", "As far as I know, nothing has changed."],
-   ["in most cases / generally speaking", "en la mayoría de los casos / en general", "Generally speaking, the reform worked."],
-   ["I'm inclined to think that", "me inclino a pensar que", "I'm inclined to think he's right."]
-  ]},
-  {"tipo": "lista", "items": ["Escala de certeza: certainly > probably > possibly > unlikely > certainly not.", "Cuidado con el orden: «will probably» pero «probably won't».", "«Likely» es adjetivo: «It is likely to rain» o «It will likely rain» (más americano); no «It likely rains»."]}
+  {
+   "tipo": "texto",
+   "texto": "En inglés formal se evita sonar categórico. En lugar de «This policy is a failure» se prefiere «This policy appears to have largely failed». La prudencia se consigue con modales, verbos como seem/appear/tend, adverbios y cuantificadores."
+  },
+  {
+   "tipo": "tabla",
+   "cabecera": [
+    "Expresión",
+    "Significado",
+    "Ejemplo"
+   ],
+   "filas": [
+    [
+     "will certainly / is bound to",
+     "seguro que (casi certeza)",
+     "Prices are bound to rise."
+    ],
+    [
+     "is likely to / will probably",
+     "es probable que",
+     "Growth is likely to slow down."
+    ],
+    [
+     "may / might / could",
+     "puede que, podría",
+     "The measure might not be enough."
+    ],
+    [
+     "is unlikely to / probably won't",
+     "es poco probable que",
+     "Rates are unlikely to fall soon."
+    ],
+    [
+     "there is a good chance that",
+     "hay muchas posibilidades de que",
+     "There is a good chance that it will pass."
+    ],
+    [
+     "seem to / appear to",
+     "parecer",
+     "The policy appears to be working."
+    ],
+    [
+     "tend to",
+     "tender a, soler",
+     "Young people tend to rent."
+    ],
+    [
+     "arguably",
+     "posiblemente, cabe sostener que",
+     "It is arguably the best novel of the decade."
+    ],
+    [
+     "presumably",
+     "es de suponer que",
+     "Presumably, he knew about it."
+    ],
+    [
+     "apparently",
+     "al parecer, según parece",
+     "Apparently, the meeting was cancelled."
+    ],
+    [
+     "to some extent / to a certain degree",
+     "hasta cierto punto",
+     "To some extent, that is true."
+    ],
+    [
+     "largely / broadly",
+     "en gran medida / en líneas generales",
+     "The plan was largely successful."
+    ],
+    [
+     "somewhat / rather",
+     "algo, un tanto",
+     "The results were somewhat disappointing."
+    ],
+    [
+     "it would seem that",
+     "parecería que",
+     "It would seem that the data is incomplete."
+    ],
+    [
+     "it could be argued that",
+     "cabría argumentar que",
+     "It could be argued that the tax is unfair."
+    ],
+    [
+     "as far as I know",
+     "que yo sepa",
+     "As far as I know, nothing has changed."
+    ],
+    [
+     "in most cases / generally speaking",
+     "en la mayoría de los casos / en general",
+     "Generally speaking, the reform worked."
+    ],
+    [
+     "I'm inclined to think that",
+     "me inclino a pensar que",
+     "I'm inclined to think he's right."
+    ]
+   ]
+  },
+  {
+   "tipo": "lista",
+   "items": [
+    "Escala de certeza: certainly > probably > possibly > unlikely > certainly not.",
+    "Cuidado con el orden: «will probably» pero «probably won't».",
+    "«Likely» es adjetivo: «It is likely to rain» o «It will likely rain» (más americano); no «It likely rains»."
+   ]
+  }
  ],
  "ejemplos": [
-  {"frase": "The new rules are likely to affect small businesses most.", "traduccion": "Es probable que las nuevas normas afecten sobre todo a las pequeñas empresas."},
-  {"frase": "Apparently, the restaurant is closing next month.", "traduccion": "Al parecer, el restaurante cierra el mes que viene."},
-  {"frase": "She is arguably the finest tennis player of her generation.", "traduccion": "Posiblemente sea la mejor tenista de su generación."},
-  {"frase": "To some extent, the crisis was predictable.", "traduccion": "Hasta cierto punto, la crisis era previsible."},
-  {"frase": "He probably won't come to the party.", "traduccion": "Probablemente no venga a la fiesta."},
-  {"frase": "The results seem to suggest a link between diet and mood.", "traduccion": "Los resultados parecen indicar una relación entre la dieta y el estado de ánimo."}
+  {
+   "frase": "The new rules are likely to affect small businesses most.",
+   "traduccion": "Es probable que las nuevas normas afecten sobre todo a las pequeñas empresas."
+  },
+  {
+   "frase": "Apparently, the restaurant is closing next month.",
+   "traduccion": "Al parecer, el restaurante cierra el mes que viene."
+  },
+  {
+   "frase": "She is arguably the finest tennis player of her generation.",
+   "traduccion": "Posiblemente sea la mejor tenista de su generación."
+  },
+  {
+   "frase": "To some extent, the crisis was predictable.",
+   "traduccion": "Hasta cierto punto, la crisis era previsible."
+  },
+  {
+   "frase": "He probably won't come to the party.",
+   "traduccion": "Probablemente no venga a la fiesta."
+  },
+  {
+   "frase": "The results seem to suggest a link between diet and mood.",
+   "traduccion": "Los resultados parecen indicar una relación entre la dieta y el estado de ánimo."
+  }
  ],
  "errores_hispanohablantes": [
-  {"mal": "It's probable that he comes tomorrow.", "bien": "He will probably come tomorrow.", "nota": "Se prefiere «will probably» o «is likely to»; tras «it's probable that» no se usa presente con valor de futuro."},
-  {"mal": "He won't probably come.", "bien": "He probably won't come.", "nota": "En negativa, «probably» va delante de «won't»."},
-  {"mal": "Eventually the meeting will be cancelled.", "bien": "The meeting may be cancelled.", "nota": "«Eventually» no significa «eventualmente, quizá», sino «al final»."},
-  {"mal": "In some way, I agree.", "bien": "To some extent, I agree.", "nota": "«Hasta cierto punto» es «to some extent»."}
+  {
+   "mal": "It's probable that he comes tomorrow.",
+   "bien": "He will probably come tomorrow.",
+   "nota": "Se prefiere «will probably» o «is likely to»; tras «it's probable that» no se usa presente con valor de futuro."
+  },
+  {
+   "mal": "He won't probably come.",
+   "bien": "He probably won't come.",
+   "nota": "En negativa, «probably» va delante de «won't»."
+  },
+  {
+   "mal": "Eventually the meeting will be cancelled.",
+   "bien": "The meeting may be cancelled.",
+   "nota": "«Eventually» no significa «eventualmente, quizá», sino «al final»."
+  },
+  {
+   "mal": "In some way, I agree.",
+   "bien": "To some extent, I agree.",
+   "nota": "«Hasta cierto punto» es «to some extent»."
+  }
  ],
  "ejercicios": [
-  {"id": "e01", "tipo": "eleccion", "enunciado": "Elige la opción correcta.", "frase": "Inflation is ___ to fall next year, according to most analysts.", "opciones": ["likely", "probably", "possibly", "maybe"], "respuestas": ["likely"], "explicacion": "La estructura es «be likely to + infinitivo»."},
-  {"id": "e02", "tipo": "corregir", "enunciado": "Corrige el error.", "frase": "She won't probably accept the offer.", "respuestas": ["She probably won't accept the offer.", "She probably will not accept the offer."], "explicacion": "«Probably» va delante de «won't»."},
-  {"id": "e03", "tipo": "hueco", "enunciado": "Completa con una palabra (hasta cierto punto).", "frase": "To some ___, the critics are right.", "respuestas": ["extent", "degree"], "explicacion": "«To some extent / to some degree» = hasta cierto punto."},
-  {"id": "e04", "tipo": "eleccion", "enunciado": "Elige la opción correcta.", "frase": "The new policy ___ to be working, but it is too early to say.", "opciones": ["appears", "looks like", "is bound", "tends"], "respuestas": ["appears"], "explicacion": "«Appear to be» = parecer, con prudencia."},
-  {"id": "e05", "tipo": "eleccion", "enunciado": "Elige la opción correcta (casi certeza).", "frase": "With so many delays, the project is ___ to go over budget.", "opciones": ["bound", "unlikely", "apparent", "arguable"], "respuestas": ["bound"], "explicacion": "«Be bound to» expresa casi certeza."},
-  {"id": "e06", "tipo": "hueco", "enunciado": "Completa con un adverbio (posiblemente, cabe sostener).", "frase": "It is ___ the most important reform of the decade.", "respuestas": ["arguably"], "explicacion": "«Arguably» = cabe sostener que, posiblemente."},
-  {"id": "e07", "tipo": "eleccion", "enunciado": "Elige la opción correcta.", "frase": "Older people ___ to vote more than younger people.", "opciones": ["tend", "trend", "tense", "intend"], "respuestas": ["tend"], "explicacion": "«Tend to» = tender a, soler."},
-  {"id": "e08", "tipo": "corregir", "enunciado": "Corrige el error.", "frase": "Eventually it will rain this afternoon, so take an umbrella.", "respuestas": ["It might rain this afternoon, so take an umbrella.", "It may rain this afternoon, so take an umbrella.", "It could rain this afternoon, so take an umbrella.", "Possibly it will rain this afternoon, so take an umbrella."], "explicacion": "«Eventually» significa «al final»; para posibilidad se usa might/may/could."},
-  {"id": "e09", "tipo": "hueco", "enunciado": "Completa con un adverbio (al parecer).", "frase": "___, the director resigned this morning.", "respuestas": ["Apparently", "Reportedly"], "explicacion": "«Apparently» introduce algo que se ha oído, sin confirmar."},
-  {"id": "e10", "tipo": "eleccion", "enunciado": "Elige la opción correcta.", "frase": "The results were ___ disappointing, but not a disaster.", "opciones": ["somewhat", "somehow", "something", "someway"], "respuestas": ["somewhat"], "explicacion": "«Somewhat» = algo, un tanto."},
-  {"id": "e11", "tipo": "transformar", "enunciado": "Reescribe con «likely»: empieza por «He is».", "frase": "He will probably win the election.", "respuestas": ["He is likely to win the election.", "He is very likely to win the election."], "explicacion": "«Will probably» equivale a «be likely to»."},
-  {"id": "e12", "tipo": "hueco", "enunciado": "Completa con una palabra (que yo sepa).", "frase": "As ___ as I know, the shop opens at nine.", "respuestas": ["far"], "explicacion": "«As far as I know» = que yo sepa."},
-  {"id": "e13", "tipo": "ordenar", "enunciado": "Ordena las palabras.", "palabras": ["argued", "could", "It", "that", "be", "unfair", "is", "tax", "the"], "respuestas": ["It could be argued that the tax is unfair"], "explicacion": "Fórmula impersonal de prudencia: «It could be argued that...»."},
-  {"id": "e14", "tipo": "eleccion", "enunciado": "Elige la opción correcta.", "frase": "Interest rates are ___ to fall before the summer; the bank has ruled it out.", "opciones": ["unlikely", "likely", "bound", "sure"], "respuestas": ["unlikely"], "explicacion": "Si el banco lo ha descartado, es poco probable: «unlikely»."},
-  {"id": "e15", "tipo": "hueco", "enunciado": "Completa con un adverbio (en gran medida).", "frase": "The campaign was ___ successful, despite a few problems.", "respuestas": ["largely", "broadly", "mostly"], "explicacion": "«Largely» = en gran medida."}
+  {
+   "id": "e01",
+   "tipo": "eleccion",
+   "enunciado": "Elige la opción correcta.",
+   "frase": "Inflation is ___ to fall next year, according to most analysts.",
+   "opciones": [
+    "likely",
+    "probably",
+    "possibly",
+    "maybe"
+   ],
+   "respuestas": [
+    "likely"
+   ],
+   "explicacion": "Se aplica la estructura de la tabla «is likely to / will probably», es decir, be likely to + infinitivo para decir que algo es probable. La pista es la combinación «is ___ to fall»: entre el verbo be y el infinitivo con to solo cabe un adjetivo que rija to, y likely es justamente un adjetivo. Así queda «Inflation is likely to fall», con la prudencia propia de una previsión basada en analistas. Ni probably, ni possibly, ni maybe pueden ir seguidos de to + infinitivo.",
+   "explicacion_breve": "La estructura es «be likely to + infinitivo».",
+   "traduccion": "Según la mayoría de los analistas, es probable que la inflación baje el año que viene.",
+   "por_opcion": {
+    "likely": "Correcta. Likely es adjetivo y forma la estructura be likely to + infinitivo: «es probable que baje».",
+    "probably": "Incorrecta. Probably es adverbio y no rige to; diríamos «Inflation will probably fall», con will y sin to.",
+    "possibly": "Incorrecta. Possibly es adverbio («posiblemente») y no puede ir entre is y to fall; habría que decir «Inflation will possibly fall», poco habitual.",
+    "maybe": "Incorrecta. Maybe es un adverbio informal que suele ir al principio de la frase («Maybe inflation will fall»), nunca entre be y to."
+   },
+   "glosario": [
+    {
+     "palabra": "be likely to",
+     "significado": "ser probable que"
+    },
+    {
+     "palabra": "fall",
+     "significado": "bajar, caer (precios, tipos)"
+    },
+    {
+     "palabra": "according to",
+     "significado": "según"
+    }
+   ]
+  },
+  {
+   "id": "e02",
+   "tipo": "corregir",
+   "enunciado": "Corrige el error.",
+   "frase": "She won't probably accept the offer.",
+   "respuestas": [
+    "She probably won't accept the offer.",
+    "She probably will not accept the offer."
+   ],
+   "explicacion": "Se aplica la clave de la ficha «Cuidado con el orden: will probably pero probably won't». En afirmativa el adverbio va detrás del auxiliar (she will probably accept), pero en negativa se coloca delante de la forma contraída won't. La pista es precisamente won't: no se puede insertar probably entre will y not cuando están contraídos. La corrección queda «She probably won't accept the offer»; también vale la forma sin contraer «She probably will not accept the offer».",
+   "explicacion_breve": "«Probably» va delante de «won't».",
+   "traduccion": "Probablemente no acepte la oferta.",
+   "errores_previstos": [
+    {
+     "respuesta": "She won't probably accept the offer.",
+     "explicacion": "Es copiar la frase sin corregir: probably no puede ir detrás de won't; en negativa va delante."
+    },
+    {
+     "respuesta": "She will probably not to accept the offer.",
+     "explicacion": "Tras will el verbo va en infinitivo sin to; además se pierde la contracción natural."
+    },
+    {
+     "respuesta": "Probably she doesn't accept the offer.",
+     "explicacion": "Usa presente simple como si fuera futuro, calco del subjuntivo español «no acepte»; en inglés hace falta will o won't."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "probably",
+     "significado": "probablemente"
+    },
+    {
+     "palabra": "offer",
+     "significado": "oferta, propuesta"
+    }
+   ]
+  },
+  {
+   "id": "e03",
+   "tipo": "hueco",
+   "enunciado": "Completa con una palabra (hasta cierto punto).",
+   "frase": "To some ___, the critics are right.",
+   "respuestas": [
+    "extent",
+    "degree"
+   ],
+   "explicacion": "La tabla recoge «to some extent / to a certain degree» como equivalentes de «hasta cierto punto». La pista es el comienzo «To some ___», que solo admite el sustantivo de esa fórmula fija: extent o degree. Con ella el hablante concede parte de razón sin aceptar del todo la crítica, un matiz muy útil en debates. Ambas respuestas son válidas porque «to some extent» y «to some degree» son intercambiables.",
+   "explicacion_breve": "«To some extent / to some degree» = hasta cierto punto.",
+   "traduccion": "Hasta cierto punto, los críticos tienen razón.",
+   "errores_previstos": [
+    {
+     "respuesta": "point",
+     "explicacion": "«To some point» es calco de «hasta cierto punto»; en inglés la fórmula es to some extent o to some degree."
+    },
+    {
+     "respuesta": "way",
+     "explicacion": "«In some way» significa «de alguna manera», no «hasta cierto punto»; y «to some way» no existe."
+    },
+    {
+     "respuesta": "extend",
+     "explicacion": "Extend es el verbo «extender»; el sustantivo de la fórmula es extent, con t."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "to some extent",
+     "significado": "hasta cierto punto"
+    },
+    {
+     "palabra": "critics",
+     "significado": "críticos, detractores"
+    }
+   ]
+  },
+  {
+   "id": "e04",
+   "tipo": "eleccion",
+   "enunciado": "Elige la opción correcta.",
+   "frase": "The new policy ___ to be working, but it is too early to say.",
+   "opciones": [
+    "appears",
+    "looks like",
+    "is bound",
+    "tends"
+   ],
+   "respuestas": [
+    "appears"
+   ],
+   "explicacion": "Se aplica la fila «seem to / appear to» de la tabla: appear to + infinitivo equivale a «parecer» con tono prudente. La pista es «___ to be working» seguida de «but it is too early to say»: el hablante no quiere afirmarlo con seguridad, sino presentarlo como impresión. Por eso «The new policy appears to be working» es la opción adecuada: verbo appear en tercera persona más to + infinitivo continuo.",
+   "explicacion_breve": "«Appear to be» = parecer, con prudencia.",
+   "traduccion": "La nueva política parece estar funcionando, pero es demasiado pronto para decirlo.",
+   "por_opcion": {
+    "appears": "Correcta. Appear to + infinitivo significa «parecer» y expresa precisamente la cautela que pide la segunda parte de la frase.",
+    "looks like": "Incorrecta. Look like va seguido de un sustantivo o de una oración («looks like it is working»), no de to + infinitivo.",
+    "is bound": "Incorrecta. Be bound to expresa casi certeza, lo contrario de «es demasiado pronto para decirlo», y además daría una frase contradictoria.",
+    "tends": "Incorrecta. Tend to habla de tendencias generales o hábitos («suele»), no de la impresión sobre una situación concreta."
+   },
+   "glosario": [
+    {
+     "palabra": "appear to",
+     "significado": "parecer"
+    },
+    {
+     "palabra": "too early to say",
+     "significado": "demasiado pronto para saberlo"
+    }
+   ]
+  },
+  {
+   "id": "e05",
+   "tipo": "eleccion",
+   "enunciado": "Elige la opción correcta (casi certeza).",
+   "frase": "With so many delays, the project is ___ to go over budget.",
+   "opciones": [
+    "bound",
+    "unlikely",
+    "apparent",
+    "arguable"
+   ],
+   "respuestas": [
+    "bound"
+   ],
+   "explicacion": "Se aplica la fila «will certainly / is bound to», que sitúa be bound to en lo más alto de la escala de certeza. La pista es «With so many delays»: la causa es tan clara que el resultado se da casi por hecho, y el enunciado pide expresamente casi certeza. Queda «the project is bound to go over budget», con be bound to + infinitivo. Unlikely diría lo contrario y apparent y arguable no rigen to + infinitivo.",
+   "explicacion_breve": "«Be bound to» expresa casi certeza.",
+   "traduccion": "Con tantos retrasos, es casi seguro que el proyecto supere el presupuesto.",
+   "por_opcion": {
+    "bound": "Correcta. Be bound to + infinitivo significa «es seguro que, está abocado a», la casi certeza que pide la frase.",
+    "unlikely": "Incorrecta. Be unlikely to significa «es poco probable», lo contrario de lo que sugieren tantos retrasos.",
+    "apparent": "Incorrecta. Apparent es «evidente, aparente» y no se construye con to + infinitivo; se diría «it is apparent that…».",
+    "arguable": "Incorrecta. Arguable significa «discutible, defendible» y tampoco rige to + infinitivo; se usa en «it is arguable that…»."
+   },
+   "glosario": [
+    {
+     "palabra": "be bound to",
+     "significado": "ser seguro que, estar abocado a"
+    },
+    {
+     "palabra": "go over budget",
+     "significado": "pasarse del presupuesto"
+    },
+    {
+     "palabra": "delay",
+     "significado": "retraso"
+    }
+   ]
+  },
+  {
+   "id": "e06",
+   "tipo": "hueco",
+   "enunciado": "Completa con un adverbio (posiblemente, cabe sostener).",
+   "frase": "It is ___ the most important reform of the decade.",
+   "respuestas": [
+    "arguably"
+   ],
+   "explicacion": "La tabla define arguably como «posiblemente, cabe sostener que». La pista es el superlativo «the most important reform»: afirmarlo sin matiz sería tajante, y arguably lo presenta como una opinión defendible con argumentos. Se coloca entre is y el superlativo, igual que en el ejemplo de la tabla «It is arguably the best novel of the decade». Es un adverbio muy frecuente en textos de análisis.",
+   "explicacion_breve": "«Arguably» = cabe sostener que, posiblemente.",
+   "traduccion": "Cabe sostener que es la reforma más importante de la década.",
+   "errores_previstos": [
+    {
+     "respuesta": "eventually",
+     "explicacion": "Eventually significa «al final, con el tiempo», no «posiblemente»; es el falso amigo que señala la ficha."
+    },
+    {
+     "respuesta": "arguable",
+     "explicacion": "Arguable es el adjetivo; delante de un superlativo hace falta el adverbio arguably."
+    },
+    {
+     "respuesta": "probable",
+     "explicacion": "Probable es adjetivo y no puede modificar así al superlativo; además no tiene el matiz de opinión defendible de arguably."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "arguably",
+     "significado": "posiblemente, cabe sostener que"
+    },
+    {
+     "palabra": "reform",
+     "significado": "reforma"
+    }
+   ]
+  },
+  {
+   "id": "e07",
+   "tipo": "eleccion",
+   "enunciado": "Elige la opción correcta.",
+   "frase": "Older people ___ to vote more than younger people.",
+   "opciones": [
+    "tend",
+    "trend",
+    "tense",
+    "intend"
+   ],
+   "respuestas": [
+    "tend"
+   ],
+   "explicacion": "Se aplica la fila «tend to», que traduce «tender a, soler». La pista es que la frase describe un comportamiento general de un grupo, no un hecho seguro en cada caso; tend to suaviza la generalización. Queda «Older people tend to vote more», con tend en plural porque el sujeto es people. Las demás opciones se parecen en la forma pero significan cosas muy distintas.",
+   "explicacion_breve": "«Tend to» = tender a, soler.",
+   "traduccion": "Las personas mayores suelen votar más que los jóvenes.",
+   "por_opcion": {
+    "tend": "Correcta. Tend to + infinitivo significa «tender a, soler» y matiza una generalización sobre un grupo.",
+    "trend": "Incorrecta. Trend es un sustantivo («tendencia, moda»), no un verbo que pueda ir seguido de to vote.",
+    "tense": "Incorrecta. Tense significa «tenso» (adjetivo) o «tiempo verbal» (sustantivo); no tiene nada que ver con soler.",
+    "intend": "Incorrecta. Intend to significa «tener la intención de», que cambiaría el sentido: no se habla de lo que pretenden, sino de lo que suelen hacer."
+   },
+   "glosario": [
+    {
+     "palabra": "tend to",
+     "significado": "tender a, soler"
+    },
+    {
+     "palabra": "vote",
+     "significado": "votar"
+    }
+   ]
+  },
+  {
+   "id": "e08",
+   "tipo": "corregir",
+   "enunciado": "Corrige el error.",
+   "frase": "Eventually it will rain this afternoon, so take an umbrella.",
+   "respuestas": [
+    "It might rain this afternoon, so take an umbrella.",
+    "It may rain this afternoon, so take an umbrella.",
+    "It could rain this afternoon, so take an umbrella.",
+    "Possibly it will rain this afternoon, so take an umbrella."
+   ],
+   "explicacion": "La ficha advierte entre los errores típicos de que eventually no significa «eventualmente, quizá», sino «al final». La pista es «so take an umbrella»: se habla de una posibilidad, no de algo que ocurrirá tarde o temprano. Para la posibilidad la tabla da may, might y could, así que la corrección es «It might / may / could rain this afternoon». También se acepta «Possibly it will rain», aunque es menos natural que los modales.",
+   "explicacion_breve": "«Eventually» significa «al final»; para posibilidad se usa might/may/could.",
+   "traduccion": "Puede que llueva esta tarde, así que coge un paraguas.",
+   "errores_previstos": [
+    {
+     "respuesta": "Eventually it will rain this afternoon, so take an umbrella.",
+     "explicacion": "Es dejar la frase sin corregir: eventually significa «al final» y no expresa posibilidad."
+    },
+    {
+     "respuesta": "Eventually it might rain this afternoon, so take an umbrella.",
+     "explicacion": "Cambiar el verbo no basta: eventually sigue significando «al final» y sobra; el modal might ya expresa la posibilidad."
+    },
+    {
+     "respuesta": "It will eventually rain this afternoon, so take an umbrella.",
+     "explicacion": "Solo cambia el orden; eventually sigue siendo el falso amigo y la frase anuncia que lloverá con seguridad al final."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "eventually",
+     "significado": "al final, con el tiempo (no «quizá»)"
+    },
+    {
+     "palabra": "might",
+     "significado": "puede que, podría"
+    },
+    {
+     "palabra": "umbrella",
+     "significado": "paraguas"
+    }
+   ]
+  },
+  {
+   "id": "e09",
+   "tipo": "hueco",
+   "enunciado": "Completa con un adverbio (al parecer).",
+   "frase": "___, the director resigned this morning.",
+   "respuestas": [
+    "Apparently",
+    "Reportedly"
+   ],
+   "explicacion": "La tabla define apparently como «al parecer, según parece». La pista es que la frase da una noticia que el hablante ha oído pero no ha comprobado; el adverbio al principio, seguido de coma, marca esa distancia. Queda «Apparently, the director resigned this morning». También se acepta reportedly («según se informa»), que no está en la tabla pero tiene el mismo matiz periodístico de información no confirmada.",
+   "explicacion_breve": "«Apparently» introduce algo que se ha oído, sin confirmar.",
+   "traduccion": "Al parecer, el director dimitió esta mañana.",
+   "errores_previstos": [
+    {
+     "respuesta": "Apparent",
+     "explicacion": "Apparent es adjetivo («evidente»); para modificar toda la oración hace falta el adverbio apparently."
+    },
+    {
+     "respuesta": "Eventually",
+     "explicacion": "Eventually significa «al final», no «al parecer»; cambiaría el sentido de la noticia."
+    },
+    {
+     "respuesta": "Seemingly",
+     "explicacion": "Seemingly significa «aparentemente» en el sentido de «a primera vista», y suele matizar un adjetivo; para presentar una noticia de oídas lo natural es apparently."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "apparently",
+     "significado": "al parecer, según parece"
+    },
+    {
+     "palabra": "resign",
+     "significado": "dimitir"
+    }
+   ]
+  },
+  {
+   "id": "e10",
+   "tipo": "eleccion",
+   "enunciado": "Elige la opción correcta.",
+   "frase": "The results were ___ disappointing, but not a disaster.",
+   "opciones": [
+    "somewhat",
+    "somehow",
+    "something",
+    "someway"
+   ],
+   "respuestas": [
+    "somewhat"
+   ],
+   "explicacion": "Se aplica la fila «somewhat / rather», que traduce «algo, un tanto». La pista es «but not a disaster»: el hablante rebaja la intensidad del adjetivo disappointing. Somewhat es un adverbio de grado que va delante del adjetivo y suaviza la crítica. Las demás opciones son palabras con some que no funcionan como intensificadores.",
+   "explicacion_breve": "«Somewhat» = algo, un tanto.",
+   "traduccion": "Los resultados fueron algo decepcionantes, pero no un desastre.",
+   "por_opcion": {
+    "somewhat": "Correcta. Somewhat significa «algo, un tanto» y modifica al adjetivo disappointing atenuándolo.",
+    "somehow": "Incorrecta. Somehow significa «de alguna manera, por algún motivo» y no gradúa un adjetivo.",
+    "something": "Incorrecta. Something es un pronombre («algo» como cosa), no un adverbio de grado; «something disappointing» sería «algo decepcionante» como sustantivo.",
+    "someway": "Incorrecta. Someway es una forma rara y coloquial de «somehow» («de algún modo»); no significa «un tanto»."
+   },
+   "glosario": [
+    {
+     "palabra": "somewhat",
+     "significado": "algo, un tanto"
+    },
+    {
+     "palabra": "disappointing",
+     "significado": "decepcionante"
+    }
+   ]
+  },
+  {
+   "id": "e11",
+   "tipo": "transformar",
+   "enunciado": "Reescribe con «likely»: empieza por «He is».",
+   "frase": "He will probably win the election.",
+   "respuestas": [
+    "He is likely to win the election.",
+    "He is very likely to win the election."
+   ],
+   "explicacion": "La ficha presenta «is likely to / will probably» en la misma fila: son dos formas de expresar probabilidad. La pista es el comienzo obligatorio «He is», que exige el adjetivo likely seguido de to + infinitivo. Así will probably win pasa a «He is likely to win the election». Se acepta también «very likely», que refuerza un poco la probabilidad sin cambiar la estructura.",
+   "explicacion_breve": "«Will probably» equivale a «be likely to».",
+   "traduccion": "Es probable que gane las elecciones.",
+   "errores_previstos": [
+    {
+     "respuesta": "He is likely to will win the election.",
+     "explicacion": "Tras to va el infinitivo sin will: likely ya aporta la idea de futuro probable."
+    },
+    {
+     "respuesta": "He is likely that he wins the election.",
+     "explicacion": "Con sujeto personal la estructura es be likely to + infinitivo; that solo va tras «It is likely that…»."
+    },
+    {
+     "respuesta": "He is probable to win the election.",
+     "explicacion": "Probable no admite sujeto personal con to + infinitivo; esa estructura solo funciona con likely."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "be likely to",
+     "significado": "ser probable que"
+    },
+    {
+     "palabra": "election",
+     "significado": "elecciones"
+    }
+   ]
+  },
+  {
+   "id": "e12",
+   "tipo": "hueco",
+   "enunciado": "Completa con una palabra (que yo sepa).",
+   "frase": "As ___ as I know, the shop opens at nine.",
+   "respuestas": [
+    "far"
+   ],
+   "explicacion": "La tabla recoge «as far as I know» como «que yo sepa». La pista es la estructura «As ___ as I know»: es una comparación fija con far, que limita la afirmación a lo que el hablante conoce. Así la información sobre el horario se da con prudencia, por si ha cambiado. No admite otras palabras: «as long as» o «as much as» significan cosas distintas.",
+   "explicacion_breve": "«As far as I know» = que yo sepa.",
+   "traduccion": "Que yo sepa, la tienda abre a las nueve.",
+   "errores_previstos": [
+    {
+     "respuesta": "much",
+     "explicacion": "«As much as I know» no es la fórmula fija; el inglés usa as far as I know."
+    },
+    {
+     "respuesta": "long",
+     "explicacion": "«As long as» significa «siempre que, mientras»; cambia el sentido por completo."
+    },
+    {
+     "respuesta": "soon",
+     "explicacion": "«As soon as» significa «en cuanto»; no expresa el límite del conocimiento."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "as far as I know",
+     "significado": "que yo sepa"
+    },
+    {
+     "palabra": "shop",
+     "significado": "tienda"
+    }
+   ]
+  },
+  {
+   "id": "e13",
+   "tipo": "ordenar",
+   "enunciado": "Ordena las palabras.",
+   "palabras": [
+    "argued",
+    "could",
+    "It",
+    "that",
+    "be",
+    "unfair",
+    "is",
+    "tax",
+    "the"
+   ],
+   "respuestas": [
+    "It could be argued that the tax is unfair"
+   ],
+   "explicacion": "La tabla incluye «it could be argued that», traducido como «cabría argumentar que». Es una fórmula impersonal de prudencia: el sujeto vacío It, el modal could, la pasiva be argued y la conjunción that, tras la cual va la oración «the tax is unfair». Esta construcción permite presentar una opinión crítica sin atribuírsela directamente al hablante, algo muy útil en un examen oral sobre política económica.",
+   "explicacion_breve": "Fórmula impersonal de prudencia: «It could be argued that...».",
+   "traduccion": "Cabría argumentar que el impuesto es injusto.",
+   "errores_previstos": [
+    {
+     "respuesta": "It could be argued the tax that is unfair",
+     "explicacion": "That debe ir justo detrás de argued para introducir la oración completa «the tax is unfair»."
+    },
+    {
+     "respuesta": "It be could argued that the tax is unfair",
+     "explicacion": "El modal could va antes del infinitivo be: could be argued."
+    },
+    {
+     "respuesta": "Could be argued that the tax is unfair",
+     "explicacion": "Calco del español «cabría argumentar», sin sujeto; en inglés el sujeto It es obligatorio y además falta una palabra."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "it could be argued that",
+     "significado": "cabría argumentar que"
+    },
+    {
+     "palabra": "tax",
+     "significado": "impuesto"
+    },
+    {
+     "palabra": "unfair",
+     "significado": "injusto"
+    }
+   ]
+  },
+  {
+   "id": "e14",
+   "tipo": "eleccion",
+   "enunciado": "Elige la opción correcta.",
+   "frase": "Interest rates are ___ to fall before the summer; the bank has ruled it out.",
+   "opciones": [
+    "unlikely",
+    "likely",
+    "bound",
+    "sure"
+   ],
+   "respuestas": [
+    "unlikely"
+   ],
+   "explicacion": "Se aplica la fila «is unlikely to / probably won't», que expresa poca probabilidad. La pista decisiva es la segunda parte: «the bank has ruled it out», es decir, el banco lo ha descartado. Por tanto la bajada es improbable y la frase queda «Interest rates are unlikely to fall». Likely, bound y sure expresarían probabilidad o certeza, en contradicción con el descarte.",
+   "explicacion_breve": "Si el banco lo ha descartado, es poco probable: «unlikely».",
+   "traduccion": "Es poco probable que los tipos de interés bajen antes del verano; el banco lo ha descartado.",
+   "por_opcion": {
+    "unlikely": "Correcta. Be unlikely to significa «es poco probable que», coherente con que el banco lo haya descartado.",
+    "likely": "Incorrecta. Be likely to significa «es probable que», contradictorio con «the bank has ruled it out».",
+    "bound": "Incorrecta. Be bound to expresa casi certeza, todavía más contradictorio con el descarte.",
+    "sure": "Incorrecta. Be sure to significa «seguro que»; expresa certeza, no improbabilidad."
+   },
+   "glosario": [
+    {
+     "palabra": "be unlikely to",
+     "significado": "ser poco probable que"
+    },
+    {
+     "palabra": "interest rates",
+     "significado": "tipos de interés"
+    },
+    {
+     "palabra": "rule out",
+     "significado": "descartar"
+    }
+   ]
+  },
+  {
+   "id": "e15",
+   "tipo": "hueco",
+   "enunciado": "Completa con un adverbio (en gran medida).",
+   "frase": "The campaign was ___ successful, despite a few problems.",
+   "respuestas": [
+    "largely",
+    "broadly",
+    "mostly"
+   ],
+   "explicacion": "Se aplica la fila «largely / broadly», que traduce «en gran medida / en líneas generales». La pista es «despite a few problems»: el éxito no es total, así que el adverbio limita su alcance. Largely se coloca delante del adjetivo successful. También valen broadly, de la misma fila, y mostly («en su mayor parte»), que tiene el mismo efecto atenuador.",
+   "explicacion_breve": "«Largely» = en gran medida.",
+   "traduccion": "La campaña tuvo éxito en gran medida, a pesar de algunos problemas.",
+   "errores_previstos": [
+    {
+     "respuesta": "large",
+     "explicacion": "Large es adjetivo («grande»); delante de successful hace falta el adverbio largely."
+    },
+    {
+     "respuesta": "greatly",
+     "explicacion": "Greatly significa «enormemente» e intensifica en lugar de matizar; además no se combina de forma natural con successful."
+    },
+    {
+     "respuesta": "widely",
+     "explicacion": "Widely significa «ampliamente, extensamente» (widely known); no expresa «en gran medida» con successful."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "largely",
+     "significado": "en gran medida"
+    },
+    {
+     "palabra": "campaign",
+     "significado": "campaña"
+    },
+    {
+     "palabra": "despite",
+     "significado": "a pesar de"
+    }
+   ]
+  }
  ],
- "fuente": {"nombre": "propia"}
+ "fuente": {
+  "nombre": "propia"
+ },
+ "descripcion_larga_es": "Matizar (en inglés, hedging) es expresar una idea sin afirmarla de forma tajante: con modales como may o might, verbos como seem, appear o tend, adverbios como arguably o apparently y cuantificadores como largely o to some extent. Es imprescindible en exposiciones orales y textos académicos o económicos, donde sonar categórico resta credibilidad. Al hispanohablante le cuesta porque calca «eventualmente» o «es probable que» y coloca mal probably.",
+ "contexto": {
+  "que_es": "Es el conjunto de recursos que gradúan la certeza de una afirmación: desde la casi certeza (be bound to, will certainly) hasta la improbabilidad (be unlikely to, probably won't). Incluye verbos que suavizan (seem, appear, tend), adverbios de opinión prudente (arguably, presumably, apparently) y limitadores del alcance (largely, somewhat, to some extent).",
+  "por_que_importa": "En el inglés formal, una afirmación sin matices suena arrogante o poco rigurosa, y un examinador lo percibe enseguida. Saber matizar permite presentar datos y opiniones con la prudencia que espera un informe técnico o una exposición oral. Usarlo mal también confunde: quien dice «eventually» queriendo decir «quizá» anuncia que algo ocurrirá con seguridad al final.",
+  "cuando_se_usa": "Aparece al presentar previsiones (inflation is likely to fall), resultados (the plan was largely successful), opiniones discutibles (it could be argued that…) o información no confirmada (apparently, reportedly). El hispanohablante tiende a decir «It's probable that…» o «In some way…», calcos que suenan poco naturales; el inglés prefiere be likely to, to some extent y adverbios bien colocados."
+ }
 }

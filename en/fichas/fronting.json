@@ -128,7 +128,15 @@
    "respuestas": [
     "was the news"
    ],
-   "explicacion": "So + adjetivo antepuesto exige inversión; news es singular."
+   "explicacion": "Se aplica el patrón So + adjetivo + auxiliar/be + sujeto + that… de Reglas y claves: cuando so + adjetivo va al principio, be se coloca delante del sujeto. La pista es So unexpected al comienzo y el that posterior que introduce la consecuencia. Hay además una trampa de concordancia: news es incontable y va en singular, así que el verbo es was. La respuesta correcta es was the news: inversión y singular a la vez.",
+   "explicacion_breve": "So + adjetivo antepuesto exige inversión; news es singular.",
+   "traduccion": "Tan inesperada fue la noticia que nadie supo cómo reaccionar.",
+   "por_opcion": {
+    "the news was": "Incorrecta: tras so + adjetivo antepuesto hace falta inversión; el orden sujeto-verbo no vale aquí.",
+    "was the news": "Correcta: hay inversión (verbo antes del sujeto) y el verbo va en singular porque news es incontable.",
+    "the news were": "Incorrecta por dos motivos: falta la inversión y news no lleva verbo en plural.",
+    "were the news": "Incorrecta: la inversión es correcta, pero news es singular y exige was."
+   }
   },
   {
    "id": "e02",
@@ -144,7 +152,15 @@
    "respuestas": [
     "stands"
    ],
-   "explicacion": "Complemento de lugar + verbo de posición + sujeto nominal."
+   "explicacion": "Se aplica la regla de Reglas y claves sobre el complemento de lugar seguido de un verbo de posición o movimiento (stand, lie, sit, come, go): se invierte el verbo completo y el sujeto nominal queda al final. La pista es el complemento At the top of the hill al principio y el sujeto an old castle, que es un sustantivo y no un pronombre. Por eso la forma es stands, sin auxiliar: el verbo léxico pasa delante del sujeto.",
+   "explicacion_breve": "Complemento de lugar + verbo de posición + sujeto nominal.",
+   "traduccion": "En lo alto de la colina se alza un viejo castillo.",
+   "por_opcion": {
+    "it stands": "Incorrecta: añade un sujeto it que sobra, porque el sujeto real es an old castle.",
+    "stands": "Correcta: tras el complemento de lugar va el verbo de posición y luego el sujeto nominal: stands an old castle.",
+    "standing": "Incorrecta: el gerundio no es un verbo conjugado y la frase se quedaría sin verbo principal.",
+    "does stand": "Incorrecta: en este tipo de inversión no se usa do; se antepone el verbo léxico completo."
+   }
   },
   {
    "id": "e03",
@@ -160,7 +176,15 @@
    "respuestas": [
     "as"
    ],
-   "explicacion": "Much as + oración = aunque (concesión)."
+   "explicacion": "Se aplica el patrón adjetivo/adverbio + as/though + sujeto + verbo de Reglas y claves, que expresa concesión. La pista es Much al principio, seguido de una oración (I admire her work) y luego de una oración principal contrapuesta. Much as equivale a «aunque» o «por mucho que» y es una fórmula fija; la palabra que la completa es as.",
+   "explicacion_breve": "Much as + oración = aunque (concesión).",
+   "traduccion": "Por mucho que admire su trabajo, no puedo apoyar este proyecto.",
+   "por_opcion": {
+    "as": "Correcta: much as + oración es la fórmula concesiva de la ficha («por mucho que»).",
+    "so": "Incorrecta: «much so» no introduce una concesión y la frase quedaría sin sentido.",
+    "that": "Incorrecta: «much that» no es una fórmula concesiva en inglés.",
+    "like": "Incorrecta: like no forma esta estructura; es un calco de «por mucho que me guste»."
+   }
   },
   {
    "id": "e04",
@@ -176,7 +200,15 @@
    "respuestas": [
     "is"
    ],
-   "explicacion": "Adjetivo antepuesto + be + sujeto; el sujeto (the need) es singular."
+   "explicacion": "Se aplica el patrón de adjetivo antepuesto con inversión de la tabla (More important is the question of cost) y la observación de que el fronting sirve para enlazar con lo anterior. La pista es Equally important al principio: tras él va be y después el sujeto. El sujeto real es the need for training, singular (need), aunque training también lo sea; por eso el verbo es is. Es una fórmula de exposición muy útil para añadir un argumento.",
+   "explicacion_breve": "Adjetivo antepuesto + be + sujeto; el sujeto (the need) es singular.",
+   "traduccion": "Igual de importante es la necesidad de formación.",
+   "por_opcion": {
+    "are": "Incorrecta: el sujeto pospuesto es the need, singular, así que el verbo no puede ir en plural.",
+    "is": "Correcta: adjetivo antepuesto + be + sujeto singular (the need for training).",
+    "it is": "Incorrecta: introduce un sujeto it que sobra; el sujeto ya es the need for training.",
+    "being": "Incorrecta: el gerundio deja la frase sin verbo conjugado."
+   }
   },
   {
    "id": "e05",
@@ -186,7 +218,29 @@
    "respuestas": [
     "Such"
    ],
-   "explicacion": "Such was + sustantivo + that: tal era… que."
+   "explicacion": "Se aplica el patrón Such + be de la tabla: Such was + sustantivo + that… expresa un grado tan alto que produce una consecuencia («tal era… que…»). La pista es el verbo was justo después del hueco, seguido de the demand y de that. La palabra que falta es Such, que aquí funciona como predicado antepuesto; no se puede usar so, que necesita un adjetivo detrás.",
+   "explicacion_breve": "Such was + sustantivo + that: tal era… que.",
+   "traduccion": "Tal era la demanda que la tienda se quedó sin existencias en una hora.",
+   "errores_previstos": [
+    {
+     "respuesta": "So",
+     "explicacion": "So se antepone a un adjetivo (So great was the demand…); delante de was + sustantivo hace falta Such."
+    },
+    {
+     "respuesta": "Tal",
+     "explicacion": "Es la palabra española; en inglés es Such."
+    },
+    {
+     "respuesta": "Much",
+     "explicacion": "Much no forma esta estructura de consecuencia; la fórmula es Such was… that."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "to run out of stock",
+     "significado": "quedarse sin existencias"
+    }
+   ]
   },
   {
    "id": "e06",
@@ -197,7 +251,23 @@
     "as",
     "though"
    ],
-   "explicacion": "Adverbio + as/though + sujeto + verbo = por mucho que."
+   "explicacion": "Se aplica el patrón adjetivo/adverbio + as/though + sujeto + verbo de Reglas y claves, que expresa concesión. La pista es el adverbio Hard al principio, seguido de they tried y de una oración principal con resultado contrario. Valen as y though, porque ambas forman esta estructura concesiva; as es la más frecuente. No se añade although delante, porque la propia estructura ya es concesiva.",
+   "explicacion_breve": "Adverbio + as/though + sujeto + verbo = por mucho que.",
+   "traduccion": "Por mucho que lo intentaron, no pudieron abrir la puerta.",
+   "errores_previstos": [
+    {
+     "respuesta": "although",
+     "explicacion": "Although no se combina con el adverbio antepuesto; la estructura es Hard as/though they tried."
+    },
+    {
+     "respuesta": "so",
+     "explicacion": "So tendría otro sentido y exigiría inversión; para la concesión se usa as o though."
+    },
+    {
+     "respuesta": "like",
+     "explicacion": "Like no forma esta construcción concesiva."
+    }
+   ]
   },
   {
    "id": "e07",
@@ -207,7 +277,23 @@
    "respuestas": [
     "are"
    ],
-   "explicacion": "El sujeto pospuesto (the long-term effects) es plural."
+   "explicacion": "Se aplica el patrón de adjetivo comparativo antepuesto con inversión de la tabla y la fórmula Of particular concern is… del texto de la ficha. La pista es Of greater concern al principio: después va be y luego el sujeto pospuesto. Ese sujeto es the long-term effects, plural, así que el verbo debe ser are. Es fácil equivocarse porque el verbo aparece antes de ver el sujeto: hay que mirar hacia delante para concordar.",
+   "explicacion_breve": "El sujeto pospuesto (the long-term effects) es plural.",
+   "traduccion": "Más preocupantes son los efectos a largo plazo sobre la salud.",
+   "errores_previstos": [
+    {
+     "respuesta": "is",
+     "explicacion": "Concuerda con concern, pero el sujeto real es the long-term effects, plural: are."
+    },
+    {
+     "respuesta": "it is",
+     "explicacion": "Añade un sujeto que sobra; el sujeto ya es the long-term effects."
+    },
+    {
+     "respuesta": "were",
+     "explicacion": "Concuerda en plural, pero cambia el tiempo sin motivo: la frase habla en presente."
+    }
+   ]
   },
   {
    "id": "e08",
@@ -217,7 +303,23 @@
    "respuestas": [
     "So boring was the film that I fell asleep."
    ],
-   "explicacion": "So + adjetivo + be + sujeto + that…"
+   "explicacion": "Se aplica el patrón So + adjetivo + be + sujeto + that… de Reglas y claves, con inversión. La pista es la orden de empezar por So y la frase original con so boring that. Se antepone So boring, se invierte was con the film y se mantiene that I fell asleep: So boring was the film that I fell asleep. Sin la inversión la frase sería incorrecta, como recoge la ficha en sus errores típicos.",
+   "explicacion_breve": "So + adjetivo + be + sujeto + that…",
+   "traduccion": "Tan aburrida era la película que me quedé dormido.",
+   "errores_previstos": [
+    {
+     "respuesta": "So boring the film was that I fell asleep.",
+     "explicacion": "Falta la inversión: tras so + adjetivo inicial el verbo va delante del sujeto."
+    },
+    {
+     "respuesta": "So the film was boring that I fell asleep.",
+     "explicacion": "Separa so del adjetivo; hay que anteponer el bloque So boring e invertir was the film."
+    },
+    {
+     "respuesta": "So boring was the film, I fell asleep.",
+     "explicacion": "Suprime that; en este patrón la consecuencia se introduce con that."
+    }
+   ]
   },
   {
    "id": "e09",
@@ -228,7 +330,23 @@
     "Strange as it may sound, I enjoy rainy days.",
     "Strange though it may sound, I enjoy rainy days."
    ],
-   "explicacion": "Adjetivo + as/though + sujeto + verbo para la concesión."
+   "explicacion": "Se aplica el patrón adjetivo + as/though + sujeto + verbo para la concesión de Reglas y claves. La pista es la frase original con although y la orden de empezar por Strange: el adjetivo pasa al principio, le sigue as (o though) y después el resto de la subordinada, it may sound. Se aceptan as y though porque ambas forman la estructura. Desaparece although, porque la nueva estructura ya es concesiva por sí misma.",
+   "explicacion_breve": "Adjetivo + as/though + sujeto + verbo para la concesión.",
+   "traduccion": "Aunque pueda parecer extraño, disfruto de los días de lluvia.",
+   "errores_previstos": [
+    {
+     "respuesta": "Strange although it may sound, I enjoy rainy days.",
+     "explicacion": "Although no forma este patrón; tras el adjetivo antepuesto va as o though."
+    },
+    {
+     "respuesta": "Strange as may it sound, I enjoy rainy days.",
+     "explicacion": "Invierte sin motivo; en la concesión con as el orden es sujeto + verbo: as it may sound."
+    },
+    {
+     "respuesta": "Although strange as it may sound, I enjoy rainy days.",
+     "explicacion": "Duplica la concesión, error que recoge la ficha: la estructura con as ya significa «aunque»."
+    }
+   ]
   },
   {
    "id": "e10",
@@ -240,7 +358,23 @@
     "Such was the storm's violence that the port was closed.",
     "Such was the storm that the port was closed."
    ],
-   "explicacion": "Such was + sustantivo (the violence of…) + that."
+   "explicacion": "Se aplica el patrón Such + be de la tabla: Such was + sustantivo + that… La pista es la orden de empezar por Such y la frase original con so violent that. Como such necesita un sustantivo y no un adjetivo, lo natural es nominalizar: the violence of the storm (o the storm's violence). También se acepta Such was the storm, que destaca la tormenta en sí. En todos los casos be va inmediatamente detrás de Such.",
+   "explicacion_breve": "Such was + sustantivo (the violence of…) + that.",
+   "traduccion": "Tal fue la violencia de la tormenta que se cerró el puerto.",
+   "errores_previstos": [
+    {
+     "respuesta": "Such violent was the storm that the port was closed.",
+     "explicacion": "Such no va con un adjetivo solo; con adjetivo se usa So violent was…, y con Such hace falta un sustantivo."
+    },
+    {
+     "respuesta": "Such the violence of the storm was that the port was closed.",
+     "explicacion": "Es el error que recoge la ficha: con such antepuesto, be va inmediatamente detrás (Such was…)."
+    },
+    {
+     "respuesta": "Such a violent storm was that the port was closed.",
+     "explicacion": "Mezcla dos estructuras y deja la frase sin sujeto claro; el patrón es Such was + sustantivo + that."
+    }
+   ]
   },
   {
    "id": "e11",
@@ -250,7 +384,23 @@
    "respuestas": [
     "So difficult was the exam that half the class failed."
    ],
-   "explicacion": "Tras so + adjetivo inicial hay inversión de be y el sujeto."
+   "explicacion": "Se aplica la regla de Reglas y claves: tras so + adjetivo inicial hay inversión de be y el sujeto. La pista es So difficult al principio y el that de consecuencia. La frase dada mantiene el orden normal (the exam was), que es justo el error que señala la ficha. La corrección es So difficult was the exam that half the class failed.",
+   "explicacion_breve": "Tras so + adjetivo inicial hay inversión de be y el sujeto.",
+   "traduccion": "Tan difícil fue el examen que suspendió la mitad de la clase.",
+   "errores_previstos": [
+    {
+     "respuesta": "So difficult the exam was that half the class failed.",
+     "explicacion": "Deja la frase sin corregir: falta invertir was y the exam."
+    },
+    {
+     "respuesta": "So difficult did the exam be that half the class failed.",
+     "explicacion": "Con be no se usa do; se invierte el propio verbo: was the exam."
+    },
+    {
+     "respuesta": "So difficult was the exam, half the class failed.",
+     "explicacion": "Elimina that; en este patrón la consecuencia va introducida por that."
+    }
+   ]
   },
   {
    "id": "e12",
@@ -260,7 +410,29 @@
    "respuestas": [
     "Out of the cave they ran."
    ],
-   "explicacion": "Con sujeto pronominal no hay inversión tras el complemento de lugar."
+   "explicacion": "Se aplica la regla de Reglas y claves según la cual, tras un complemento de lugar, se invierte el verbo solo si el sujeto es un sustantivo; si es un pronombre, no hay inversión (Down the hill it rolled). La pista es el sujeto they, un pronombre. Por eso lo correcto es Out of the cave they ran, con el orden sujeto + verbo tras el complemento antepuesto.",
+   "explicacion_breve": "Con sujeto pronominal no hay inversión tras el complemento de lugar.",
+   "traduccion": "Salieron corriendo de la cueva.",
+   "errores_previstos": [
+    {
+     "respuesta": "Out of the cave ran they.",
+     "explicacion": "Deja la frase sin corregir: con sujeto pronominal no hay inversión."
+    },
+    {
+     "respuesta": "Out of the cave did they run.",
+     "explicacion": "Introduce do como en la inversión negativa; este patrón no usa auxiliar y con pronombre no invierte."
+    },
+    {
+     "respuesta": "Out of the cave ran them.",
+     "explicacion": "Además de invertir, usa el pronombre complemento them como sujeto."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "cave",
+     "significado": "cueva"
+    }
+   ]
   },
   {
    "id": "e13",
@@ -278,7 +450,25 @@
    "respuestas": [
     "Into the room walked a tall stranger"
    ],
-   "explicacion": "Complemento de dirección + verbo de movimiento + sujeto nominal."
+   "explicacion": "Se aplica la regla del complemento de lugar o dirección seguido de verbo de movimiento: se invierte el verbo completo y el sujeto nominal va al final. La pista es la preposición Into, que marca dirección, el verbo walked y el sujeto a tall stranger, que es un sustantivo. El resultado, Into the room walked a tall stranger, es típico de la narración: crea una escena y deja la información nueva (el desconocido) al final.",
+   "explicacion_breve": "Complemento de dirección + verbo de movimiento + sujeto nominal.",
+   "traduccion": "En la habitación entró un desconocido alto.",
+   "errores_previstos": [
+    {
+     "respuesta": "Into the room walked a stranger tall",
+     "explicacion": "Calca el orden español «un desconocido alto»: en inglés el adjetivo va delante del sustantivo, a tall stranger."
+    },
+    {
+     "respuesta": "Into the room did walk a tall stranger",
+     "explicacion": "Introduce do como en la inversión tras adverbiales negativos; tras un complemento de lugar se antepone el verbo léxico, sin auxiliar."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "stranger",
+     "significado": "desconocido, forastero"
+    }
+   ]
   },
   {
    "id": "e14",
@@ -297,10 +487,34 @@
    "respuestas": [
     "Young as he is he is very wise"
    ],
-   "explicacion": "Adjetivo + as + sujeto + verbo = aunque es joven."
+   "explicacion": "Se aplica el patrón adjetivo + as + sujeto + verbo de Reglas y claves, que expresa concesión («aunque es joven»). La pista son las palabras Young y as, que forman el inicio concesivo, y la repetición de he is: la primera pertenece a la concesión y la segunda a la oración principal. El orden correcto es Young as he is, seguido de he is very wise. En la escritura se pondría una coma tras la concesión.",
+   "explicacion_breve": "Adjetivo + as + sujeto + verbo = aunque es joven.",
+   "traduccion": "Aunque es joven, es muy sabio.",
+   "errores_previstos": [
+    {
+     "respuesta": "He is young as he is very wise",
+     "explicacion": "Mantiene el orden del español y pierde la estructura concesiva."
+    },
+    {
+     "respuesta": "Young as is he he is very wise",
+     "explicacion": "Invierte sin motivo; en la concesión con as el orden es sujeto + verbo."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "wise",
+     "significado": "sabio, sensato"
+    }
+   ]
   }
  ],
  "fuente": {
   "nombre": "propia"
+ },
+ "descripcion_larga_es": "El fronting consiste en sacar un elemento de su sitio habitual y colocarlo al principio de la frase para destacarlo o enlazarlo con lo anterior. El inglés tiene un orden muy rígido, así que este recurso se nota mucho y a veces obliga a invertir sujeto y verbo. Al hispanohablante le cuesta porque en español movemos las palabras con libertad y sin reglas de inversión equivalentes.",
+ "contexto": {
+  "que_es": "Es la anteposición de un elemento que normalmente iría después del verbo: un objeto, un complemento de lugar, un adjetivo o una estructura con so o such. Según el patrón, el resto de la frase conserva el orden normal o invierte el verbo y el sujeto.",
+  "por_que_importa": "Sirve para la cohesión y el énfasis: se empieza por la información conocida y se deja la nueva al final, o se destaca el grado de algo. Fórmulas como Equally important is…, Of particular concern is… o Such was… son muy valiosas en una exposición oral o en un ensayo formal. Usarlas mal (sin inversión cuando la necesitan o con inversión cuando no) suena claramente extranjero.",
+  "cuando_se_usa": "Aparece en textos argumentativos, narraciones y discursos: para enlazar ideas (More important is…), describir una escena (In the corner stood…), subrayar el grado (So difficult was…) o conceder (Strange as it may sound…). El hispanohablante tiende a mover el elemento sin invertir, porque en español «Tan difícil fue el examen» y «Tan difícil el examen fue» suenan casi igual de posibles, o bien invierte también con pronombres, donde el inglés no lo hace."
  }
 }

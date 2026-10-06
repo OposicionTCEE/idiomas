@@ -6,67 +6,688 @@
  "nivel": "A1",
  "resumen": "Vocabulario para contar, decir precios, preguntar y decir la hora y hablar de días, meses y fechas.",
  "explicacion": [
-  {"tipo": "texto", "texto": "Ojo con las parejas que suenan parecido: thirteen (13) / thirty (30), fifteen (15) / fifty (50). En -teen el acento va al final; en -ty, al principio. En inglés británico se pone and antes de decenas y unidades: one hundred and twenty (120)."},
-  {"tipo": "tabla", "cabecera": ["Expresión", "Significado", "Ejemplo"], "filas": [
-   ["first, second, third", "primero, segundo, tercero", "My birthday is on the third of May."],
-   ["a hundred / a thousand", "cien / mil", "It costs a thousand euros."],
-   ["a million", "un millón", "Two million people live there."],
-   ["half / a quarter", "medio / un cuarto", "Half the class is absent."],
-   ["How much is it?", "¿Cuánto cuesta?", "How much is this T-shirt?"],
-   ["It's €9.99", "Cuesta 9,99 €", "nine ninety-nine / nine euros ninety-nine"],
-   ["What time is it?", "¿Qué hora es?", "It's half past six."],
-   ["o'clock", "en punto", "It's five o'clock."],
-   ["quarter past / quarter to", "y cuarto / menos cuarto", "It's quarter to ten (9:45)."],
-   ["half past", "y media", "The train leaves at half past two."],
-   ["at / on / in", "a (hora) / el (día) / en (mes, año)", "at 8, on Monday, in June, in 2025"],
-   ["a.m. / p.m.", "de la mañana / de la tarde-noche", "The shop opens at 9 a.m."]
-  ]},
-  {"tipo": "tabla", "cabecera": ["Expresión", "Significado", "Ejemplo"], "filas": [
-   ["Monday … Sunday", "lunes … domingo", "See you on Friday."],
-   ["January … December", "enero … diciembre", "We go on holiday in August."],
-   ["the weekend", "el fin de semana", "What do you do at the weekend?"],
-   ["today / tomorrow / yesterday", "hoy / mañana / ayer", "Tomorrow is Tuesday."],
-   ["the day after tomorrow", "pasado mañana", "The exam is the day after tomorrow."],
-   ["What's the date today?", "¿A qué fecha estamos?", "It's the twelfth of October."],
-   ["a fortnight", "quince días (británico)", "I'm away for a fortnight."]
-  ]},
-  {"tipo": "lista", "items": [
-   "Días y meses se escriben con mayúscula: Monday, April.",
-   "Las fechas se dicen con ordinal: the 4th of July / July the 4th.",
-   "Los decimales llevan punto: 3.5 = three point five.",
-   "Los años se leen de dos en dos: 1998 = nineteen ninety-eight; 2025 = twenty twenty-five."
-  ]}
+  {
+   "tipo": "texto",
+   "texto": "Ojo con las parejas que suenan parecido: thirteen (13) / thirty (30), fifteen (15) / fifty (50). En -teen el acento va al final; en -ty, al principio. En inglés británico se pone and antes de decenas y unidades: one hundred and twenty (120)."
+  },
+  {
+   "tipo": "tabla",
+   "cabecera": [
+    "Expresión",
+    "Significado",
+    "Ejemplo"
+   ],
+   "filas": [
+    [
+     "first, second, third",
+     "primero, segundo, tercero",
+     "My birthday is on the third of May."
+    ],
+    [
+     "a hundred / a thousand",
+     "cien / mil",
+     "It costs a thousand euros."
+    ],
+    [
+     "a million",
+     "un millón",
+     "Two million people live there."
+    ],
+    [
+     "half / a quarter",
+     "medio / un cuarto",
+     "Half the class is absent."
+    ],
+    [
+     "How much is it?",
+     "¿Cuánto cuesta?",
+     "How much is this T-shirt?"
+    ],
+    [
+     "It's €9.99",
+     "Cuesta 9,99 €",
+     "nine ninety-nine / nine euros ninety-nine"
+    ],
+    [
+     "What time is it?",
+     "¿Qué hora es?",
+     "It's half past six."
+    ],
+    [
+     "o'clock",
+     "en punto",
+     "It's five o'clock."
+    ],
+    [
+     "quarter past / quarter to",
+     "y cuarto / menos cuarto",
+     "It's quarter to ten (9:45)."
+    ],
+    [
+     "half past",
+     "y media",
+     "The train leaves at half past two."
+    ],
+    [
+     "at / on / in",
+     "a (hora) / el (día) / en (mes, año)",
+     "at 8, on Monday, in June, in 2025"
+    ],
+    [
+     "a.m. / p.m.",
+     "de la mañana / de la tarde-noche",
+     "The shop opens at 9 a.m."
+    ]
+   ]
+  },
+  {
+   "tipo": "tabla",
+   "cabecera": [
+    "Expresión",
+    "Significado",
+    "Ejemplo"
+   ],
+   "filas": [
+    [
+     "Monday … Sunday",
+     "lunes … domingo",
+     "See you on Friday."
+    ],
+    [
+     "January … December",
+     "enero … diciembre",
+     "We go on holiday in August."
+    ],
+    [
+     "the weekend",
+     "el fin de semana",
+     "What do you do at the weekend?"
+    ],
+    [
+     "today / tomorrow / yesterday",
+     "hoy / mañana / ayer",
+     "Tomorrow is Tuesday."
+    ],
+    [
+     "the day after tomorrow",
+     "pasado mañana",
+     "The exam is the day after tomorrow."
+    ],
+    [
+     "What's the date today?",
+     "¿A qué fecha estamos?",
+     "It's the twelfth of October."
+    ],
+    [
+     "a fortnight",
+     "quince días (británico)",
+     "I'm away for a fortnight."
+    ]
+   ]
+  },
+  {
+   "tipo": "lista",
+   "items": [
+    "Días y meses se escriben con mayúscula: Monday, April.",
+    "Las fechas se dicen con ordinal: the 4th of July / July the 4th.",
+    "Los decimales llevan punto: 3.5 = three point five.",
+    "Los años se leen de dos en dos: 1998 = nineteen ninety-eight; 2025 = twenty twenty-five."
+   ]
+  }
  ],
  "ejemplos": [
-  {"frase": "The museum opens at ten o'clock on Sundays.", "traduccion": "El museo abre a las diez en punto los domingos."},
-  {"frase": "My daughter was born on the 21st of March.", "traduccion": "Mi hija nació el 21 de marzo."},
-  {"frase": "It's quarter past eight; we're late!", "traduccion": "Son las ocho y cuarto; ¡llegamos tarde!"},
-  {"frase": "Three coffees, please. – That's six fifty.", "traduccion": "Tres cafés, por favor. – Son seis cincuenta."},
-  {"frase": "There are thirty days in September.", "traduccion": "Septiembre tiene treinta días."},
-  {"frase": "I'll call you the day after tomorrow.", "traduccion": "Te llamaré pasado mañana."}
+  {
+   "frase": "The museum opens at ten o'clock on Sundays.",
+   "traduccion": "El museo abre a las diez en punto los domingos."
+  },
+  {
+   "frase": "My daughter was born on the 21st of March.",
+   "traduccion": "Mi hija nació el 21 de marzo."
+  },
+  {
+   "frase": "It's quarter past eight; we're late!",
+   "traduccion": "Son las ocho y cuarto; ¡llegamos tarde!"
+  },
+  {
+   "frase": "Three coffees, please. – That's six fifty.",
+   "traduccion": "Tres cafés, por favor. – Son seis cincuenta."
+  },
+  {
+   "frase": "There are thirty days in September.",
+   "traduccion": "Septiembre tiene treinta días."
+  },
+  {
+   "frase": "I'll call you the day after tomorrow.",
+   "traduccion": "Te llamaré pasado mañana."
+  }
  ],
  "errores_hispanohablantes": [
-  {"mal": "See you in Monday.", "bien": "See you on Monday.", "nota": "Con días de la semana se usa on."},
-  {"mal": "It's monday, the five of may.", "bien": "It's Monday, the fifth of May.", "nota": "Días y meses con mayúscula y fechas con ordinal."},
-  {"mal": "Two millions people.", "bien": "Two million people.", "nota": "Hundred, thousand y million no llevan -s tras un número."},
-  {"mal": "It's ten and a quarter.", "bien": "It's quarter past ten.", "nota": "La hora se dice con past y to."}
+  {
+   "mal": "See you in Monday.",
+   "bien": "See you on Monday.",
+   "nota": "Con días de la semana se usa on."
+  },
+  {
+   "mal": "It's monday, the five of may.",
+   "bien": "It's Monday, the fifth of May.",
+   "nota": "Días y meses con mayúscula y fechas con ordinal."
+  },
+  {
+   "mal": "Two millions people.",
+   "bien": "Two million people.",
+   "nota": "Hundred, thousand y million no llevan -s tras un número."
+  },
+  {
+   "mal": "It's ten and a quarter.",
+   "bien": "It's quarter past ten.",
+   "nota": "La hora se dice con past y to."
+  }
  ],
  "ejercicios": [
-  {"id": "e01", "tipo": "hueco", "enunciado": "Completa con la preposición correcta.", "frase": "The meeting is ___ Thursday.", "respuestas": ["on"], "explicacion": "Con días de la semana se usa on."},
-  {"id": "e02", "tipo": "hueco", "enunciado": "Completa con la preposición correcta.", "frase": "My birthday is ___ November.", "respuestas": ["in"], "explicacion": "Con meses se usa in."},
-  {"id": "e03", "tipo": "hueco", "enunciado": "Completa con la preposición correcta.", "frase": "The film starts ___ 9:30.", "respuestas": ["at"], "explicacion": "Con horas se usa at."},
-  {"id": "e04", "tipo": "eleccion", "enunciado": "Elige la hora correcta para 7:45.", "frase": "It's ___.", "opciones": ["quarter to eight", "quarter past seven", "quarter to seven"], "respuestas": ["quarter to eight"], "explicacion": "7:45 son las ocho menos cuarto: quarter to eight."},
-  {"id": "e05", "tipo": "eleccion", "enunciado": "Elige la hora correcta para 4:30.", "frase": "It's ___.", "opciones": ["half past four", "half to four", "half past five"], "respuestas": ["half past four"], "explicacion": "Las cuatro y media es half past four."},
-  {"id": "e06", "tipo": "eleccion", "enunciado": "Elige la opción correcta.", "frase": "There are ___ people in the city.", "opciones": ["three million", "three millions", "three millions of"], "respuestas": ["three million"], "explicacion": "Million no lleva -s ni of tras un número."},
-  {"id": "e07", "tipo": "eleccion", "enunciado": "Elige el ordinal correcto.", "frase": "Today is the ___ of June (22).", "opciones": ["twenty-second", "twenty-two", "twentieth-two"], "respuestas": ["twenty-second"], "explicacion": "Las fechas se dicen con ordinal: twenty-second."},
-  {"id": "e08", "tipo": "hueco", "enunciado": "Escribe en letras el ordinal de 3.", "frase": "We live on the ___ floor (3).", "respuestas": ["third"], "explicacion": "El ordinal de three es third."},
-  {"id": "e09", "tipo": "hueco", "enunciado": "Completa la pregunta.", "frase": "How ___ is this bag? – It's thirty euros.", "respuestas": ["much"], "explicacion": "Para preguntar el precio: How much is…?"},
-  {"id": "e10", "tipo": "corregir", "enunciado": "Corrige el error.", "frase": "I start work in Monday.", "respuestas": ["I start work on Monday.", "I start work on Mondays."], "explicacion": "Con días de la semana se usa on."},
-  {"id": "e11", "tipo": "corregir", "enunciado": "Corrige el error.", "frase": "It's twenty and five past three.", "respuestas": ["It's twenty-five past three.", "It is twenty-five past three.", "It's twenty five past three."], "explicacion": "Los minutos se dicen como un solo número: twenty-five past."},
-  {"id": "e12", "tipo": "corregir", "enunciado": "Corrige el error.", "frase": "The course costs two hundreds euros.", "respuestas": ["The course costs two hundred euros."], "explicacion": "Hundred no lleva -s tras un número."},
-  {"id": "e13", "tipo": "ordenar", "enunciado": "Ordena las palabras.", "palabras": ["time", "is", "what", "it"], "respuestas": ["What time is it"], "explicacion": "La pregunta para la hora es What time is it?"},
-  {"id": "e14", "tipo": "hueco", "enunciado": "Completa: «pasado mañana».", "frase": "The exam is the day after ___.", "respuestas": ["tomorrow"], "explicacion": "Pasado mañana es the day after tomorrow."},
-  {"id": "e15", "tipo": "eleccion", "enunciado": "Elige la opción correcta.", "frase": "My grandmother was born ___ 1948.", "opciones": ["in", "on", "at"], "respuestas": ["in"], "explicacion": "Con años se usa in."}
+  {
+   "id": "e01",
+   "tipo": "hueco",
+   "enunciado": "Completa con la preposición correcta.",
+   "frase": "The meeting is ___ Thursday.",
+   "respuestas": [
+    "on"
+   ],
+   "explicacion": "La tabla resume las preposiciones de tiempo: at con horas, on con días e in con meses y años. La pista es Thursday, un día de la semana, que pide on. El español «el jueves» no lleva preposición, y por eso se tiende a omitirla o a usar in. Recuerda también que los días se escriben con mayúscula.",
+   "explicacion_breve": "Con días de la semana se usa on.",
+   "traduccion": "La reunión es el jueves.",
+   "errores_previstos": [
+    {
+     "respuesta": "in",
+     "explicacion": "In se usa con meses y años; con días de la semana se usa on."
+    },
+    {
+     "respuesta": "at",
+     "explicacion": "At se usa con horas; con días de la semana es on."
+    },
+    {
+     "respuesta": "the",
+     "explicacion": "Calco de «el jueves»: en inglés no va artículo, sino la preposición on."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "Thursday",
+     "significado": "jueves"
+    },
+    {
+     "palabra": "meeting",
+     "significado": "reunión"
+    }
+   ]
+  },
+  {
+   "id": "e02",
+   "tipo": "hueco",
+   "enunciado": "Completa con la preposición correcta.",
+   "frase": "My birthday is ___ November.",
+   "respuestas": [
+    "in"
+   ],
+   "explicacion": "Según la tabla, con meses se usa in: in June, in November. La pista es November, que es un mes y no una fecha concreta. Si se diera el día exacto cambiaría la preposición: on the 5th of November. El mes se escribe con mayúscula.",
+   "explicacion_breve": "Con meses se usa in.",
+   "traduccion": "Mi cumpleaños es en noviembre.",
+   "errores_previstos": [
+    {
+     "respuesta": "on",
+     "explicacion": "On se usa con días y fechas concretas; con un mes solo, se usa in."
+    },
+    {
+     "respuesta": "at",
+     "explicacion": "At se usa con horas; con meses es in."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "birthday",
+     "significado": "cumpleaños"
+    },
+    {
+     "palabra": "November",
+     "significado": "noviembre"
+    }
+   ]
+  },
+  {
+   "id": "e03",
+   "tipo": "hueco",
+   "enunciado": "Completa con la preposición correcta.",
+   "frase": "The film starts ___ 9:30.",
+   "respuestas": [
+    "at"
+   ],
+   "explicacion": "Según la tabla, con horas se usa at: at 8, at 9:30. La pista es la hora 9:30. El español «a las nueve y media» lleva a pensar en to o in, pero en inglés la preposición de la hora es siempre at.",
+   "explicacion_breve": "Con horas se usa at.",
+   "traduccion": "La película empieza a las 9:30.",
+   "errores_previstos": [
+    {
+     "respuesta": "in",
+     "explicacion": "In se usa con meses, años o partes del día; con una hora concreta es at."
+    },
+    {
+     "respuesta": "on",
+     "explicacion": "On se usa con días; con horas es at."
+    },
+    {
+     "respuesta": "to",
+     "explicacion": "Calco de «a las»; en inglés la hora va con at."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "film",
+     "significado": "película"
+    },
+    {
+     "palabra": "start",
+     "significado": "empezar"
+    }
+   ]
+  },
+  {
+   "id": "e04",
+   "tipo": "eleccion",
+   "enunciado": "Elige la hora correcta para 7:45.",
+   "frase": "It's ___.",
+   "opciones": [
+    "quarter to eight",
+    "quarter past seven",
+    "quarter to seven"
+   ],
+   "respuestas": [
+    "quarter to eight"
+   ],
+   "explicacion": "La tabla recoge «quarter past / quarter to», «y cuarto / menos cuarto». La pista es 7:45: faltan quince minutos para las ocho, así que se usa to con la hora siguiente, eight. Igual que en español decimos «las ocho menos cuarto», el inglés cuenta hacia la hora que viene.",
+   "explicacion_breve": "7:45 son las ocho menos cuarto: quarter to eight.",
+   "traduccion": "Son las ocho menos cuarto.",
+   "por_opcion": {
+    "quarter to eight": "Correcta. 7:45 son las ocho menos cuarto: quarter to eight.",
+    "quarter past seven": "Incorrecta. Quarter past seven son las siete y cuarto (7:15).",
+    "quarter to seven": "Incorrecta. Quarter to seven son las siete menos cuarto (6:45)."
+   },
+   "glosario": [
+    {
+     "palabra": "quarter to",
+     "significado": "menos cuarto"
+    },
+    {
+     "palabra": "quarter past",
+     "significado": "y cuarto"
+    }
+   ]
+  },
+  {
+   "id": "e05",
+   "tipo": "eleccion",
+   "enunciado": "Elige la hora correcta para 4:30.",
+   "frase": "It's ___.",
+   "opciones": [
+    "half past four",
+    "half to four",
+    "half past five"
+   ],
+   "respuestas": [
+    "half past four"
+   ],
+   "explicacion": "La tabla recoge «half past», «y media». La pista es 4:30: han pasado treinta minutos de las cuatro, así que se usa past con la hora que ya ha empezado. En el inglés británico coloquial se oye también «half four» con el mismo valor (4:30). «Half to» no existe.",
+   "explicacion_breve": "Las cuatro y media es half past four.",
+   "traduccion": "Son las cuatro y media.",
+   "por_opcion": {
+    "half past four": "Correcta. Half past four son las cuatro y media.",
+    "half to four": "Incorrecta. «Half to» no existe en inglés: la media hora siempre se dice con past.",
+    "half past five": "Incorrecta. Half past five son las cinco y media (5:30)."
+   },
+   "glosario": [
+    {
+     "palabra": "half past",
+     "significado": "y media"
+    }
+   ]
+  },
+  {
+   "id": "e06",
+   "tipo": "eleccion",
+   "enunciado": "Elige la opción correcta.",
+   "frase": "There are ___ people in the city.",
+   "opciones": [
+    "three million",
+    "three millions",
+    "three millions of"
+   ],
+   "respuestas": [
+    "three million"
+   ],
+   "explicacion": "Los errores típicos de la ficha avisan de que hundred, thousand y million no llevan -s tras un número: two million people. La pista es three, un número concreto delante. Tampoco se pone of, a diferencia de «millones de» en español. Solo se dice millions of cuando no hay número: millions of people.",
+   "explicacion_breve": "Million no lleva -s ni of tras un número.",
+   "traduccion": "En la ciudad hay tres millones de habitantes.",
+   "por_opcion": {
+    "three million": "Correcta. Tras un número, million no lleva -s ni of: three million people.",
+    "three millions": "Incorrecta. Million no lleva -s cuando va precedido de un número.",
+    "three millions of": "Incorrecta. Es el calco de «tres millones de»; tras un número no va ni -s ni of."
+   },
+   "glosario": [
+    {
+     "palabra": "million",
+     "significado": "millón"
+    }
+   ]
+  },
+  {
+   "id": "e07",
+   "tipo": "eleccion",
+   "enunciado": "Elige el ordinal correcto.",
+   "frase": "Today is the ___ of June (22).",
+   "opciones": [
+    "twenty-second",
+    "twenty-two",
+    "twentieth-two"
+   ],
+   "respuestas": [
+    "twenty-second"
+   ],
+   "explicacion": "La ficha indica que las fechas se dicen con ordinal: the 4th of July. La pista es la estructura «the ___ of June», que pide un ordinal. En los números compuestos solo la última parte se hace ordinal: twenty-two pasa a twenty-second. Así se dice «the twenty-second of June».",
+   "explicacion_breve": "Las fechas se dicen con ordinal: twenty-second.",
+   "traduccion": "Hoy es 22 de junio.",
+   "por_opcion": {
+    "twenty-second": "Correcta. Es el ordinal de 22: solo la última cifra cambia (second).",
+    "twenty-two": "Incorrecta. Es el cardinal; en las fechas se usa el ordinal.",
+    "twentieth-two": "Incorrecta. No existe: en los compuestos solo la última parte se hace ordinal."
+   },
+   "glosario": [
+    {
+     "palabra": "twenty-second",
+     "significado": "vigésimo segundo (día 22)"
+    },
+    {
+     "palabra": "June",
+     "significado": "junio"
+    }
+   ]
+  },
+  {
+   "id": "e08",
+   "tipo": "hueco",
+   "enunciado": "Escribe en letras el ordinal de 3.",
+   "frase": "We live on the ___ floor (3).",
+   "respuestas": [
+    "third"
+   ],
+   "explicacion": "La tabla recoge «first, second, third», «primero, segundo, tercero». Los tres primeros ordinales son irregulares; a partir de fourth se añade -th. La pista es floor, que se cuenta con ordinales, como en español. El ordinal de three es third.",
+   "explicacion_breve": "El ordinal de three es third.",
+   "traduccion": "Vivimos en el tercer piso.",
+   "errores_previstos": [
+    {
+     "respuesta": "threeth",
+     "explicacion": "Third es irregular; no se forma añadiendo -th a three."
+    },
+    {
+     "respuesta": "three",
+     "explicacion": "Es el cardinal; para un piso se usa el ordinal third."
+    },
+    {
+     "respuesta": "thirth",
+     "explicacion": "Falta de ortografía: se escribe third."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "third",
+     "significado": "tercero"
+    },
+    {
+     "palabra": "floor",
+     "significado": "piso, planta"
+    }
+   ]
+  },
+  {
+   "id": "e09",
+   "tipo": "hueco",
+   "enunciado": "Completa la pregunta.",
+   "frase": "How ___ is this bag? – It's thirty euros.",
+   "respuestas": [
+    "much"
+   ],
+   "explicacion": "La tabla recoge «How much is it?», «¿Cuánto cuesta?». La pista es la respuesta, «It's thirty euros»: se pregunta por un precio, y el dinero se pregunta con much. Many se usa para cosas contables (how many bags), no para el precio.",
+   "explicacion_breve": "Para preguntar el precio: How much is…?",
+   "traduccion": "¿Cuánto cuesta este bolso? – Cuesta treinta euros.",
+   "errores_previstos": [
+    {
+     "respuesta": "many",
+     "explicacion": "How many pregunta por un número de cosas; para el precio se usa how much."
+    },
+    {
+     "respuesta": "cost",
+     "explicacion": "«How cost is» no existe; se dice How much is…? o How much does it cost?"
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "How much is…?",
+     "significado": "¿Cuánto cuesta…?"
+    },
+    {
+     "palabra": "bag",
+     "significado": "bolso, bolsa"
+    }
+   ]
+  },
+  {
+   "id": "e10",
+   "tipo": "corregir",
+   "enunciado": "Corrige el error.",
+   "frase": "I start work in Monday.",
+   "respuestas": [
+    "I start work on Monday.",
+    "I start work on Mondays."
+   ],
+   "explicacion": "Los errores típicos de la ficha recogen «See you in Monday» frente a «on Monday»: con días de la semana se usa on. La pista es Monday. Se aceptan on Monday (este lunes) y on Mondays (todos los lunes), porque las dos son correctas y solo cambia el matiz de hábito.",
+   "explicacion_breve": "Con días de la semana se usa on.",
+   "traduccion": "Empiezo a trabajar el lunes (los lunes).",
+   "errores_previstos": [
+    {
+     "respuesta": "I start work in Monday.",
+     "explicacion": "Es dejar la frase sin corregir: con días de la semana se usa on."
+    },
+    {
+     "respuesta": "I start work at Monday.",
+     "explicacion": "At se usa con horas; con días es on."
+    },
+    {
+     "respuesta": "I start work the Monday.",
+     "explicacion": "Calco de «el lunes»: en inglés no va artículo, sino la preposición on."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "Monday",
+     "significado": "lunes"
+    },
+    {
+     "palabra": "start work",
+     "significado": "empezar a trabajar"
+    }
+   ]
+  },
+  {
+   "id": "e11",
+   "tipo": "corregir",
+   "enunciado": "Corrige el error.",
+   "frase": "It's twenty and five past three.",
+   "respuestas": [
+    "It's twenty-five past three.",
+    "It is twenty-five past three.",
+    "It's twenty five past three."
+   ],
+   "explicacion": "La ficha explica que la hora se dice con past y to, y la corrección precisa que los minutos se dicen como un solo número. La pista es «twenty and five», calco del español «veinte y cinco»: en inglés 25 es twenty-five, normalmente con guion. Queda «It's twenty-five past three».",
+   "explicacion_breve": "Los minutos se dicen como un solo número: twenty-five past.",
+   "traduccion": "Son las tres y veinticinco.",
+   "errores_previstos": [
+    {
+     "respuesta": "It's twenty and five past three.",
+     "explicacion": "Es dejar la frase sin corregir: los números no llevan and entre decenas y unidades; es twenty-five."
+    },
+    {
+     "respuesta": "It's three and twenty-five.",
+     "explicacion": "Calco de «las tres y veinticinco»; en inglés se dice twenty-five past three."
+    },
+    {
+     "respuesta": "It's twenty-five to three.",
+     "explicacion": "To significa «menos»: serían las 2:35, no las 3:25."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "past",
+     "significado": "y (en la hora)"
+    }
+   ]
+  },
+  {
+   "id": "e12",
+   "tipo": "corregir",
+   "enunciado": "Corrige el error.",
+   "frase": "The course costs two hundreds euros.",
+   "respuestas": [
+    "The course costs two hundred euros."
+   ],
+   "explicacion": "Los errores típicos de la ficha recuerdan que hundred, thousand y million no llevan -s tras un número. La pista es two, delante de hundreds. La corrección es «two hundred euros». Hundreds solo aparece sin número delante: hundreds of euros («cientos de euros»).",
+   "explicacion_breve": "Hundred no lleva -s tras un número.",
+   "traduccion": "El curso cuesta doscientos euros.",
+   "errores_previstos": [
+    {
+     "respuesta": "The course costs two hundreds euros.",
+     "explicacion": "Es dejar la frase sin corregir: tras un número, hundred no lleva -s."
+    },
+    {
+     "respuesta": "The course costs two hundreds of euros.",
+     "explicacion": "Añade el calco de «de»; tras un número no van ni -s ni of."
+    },
+    {
+     "respuesta": "The course cost two hundred euros.",
+     "explicacion": "Corrige el número pero cambia el verbo: con the course hace falta costs, en tercera persona."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "hundred",
+     "significado": "cien, ciento"
+    },
+    {
+     "palabra": "cost",
+     "significado": "costar"
+    }
+   ]
+  },
+  {
+   "id": "e13",
+   "tipo": "ordenar",
+   "enunciado": "Ordena las palabras.",
+   "palabras": [
+    "time",
+    "is",
+    "what",
+    "it"
+   ],
+   "respuestas": [
+    "What time is it"
+   ],
+   "explicacion": "La tabla recoge «What time is it?», «¿Qué hora es?». Es una pregunta fija: What time al principio, luego el verbo is y el sujeto it, porque en las preguntas con be el verbo va delante del sujeto. El español no tiene sujeto expreso, pero en inglés it es obligatorio.",
+   "explicacion_breve": "La pregunta para la hora es What time is it?",
+   "traduccion": "¿Qué hora es?",
+   "errores_previstos": [
+    {
+     "respuesta": "What time it is",
+     "explicacion": "Ese orden solo se usa en preguntas indirectas (Do you know what time it is?); en la directa es What time is it."
+    },
+    {
+     "respuesta": "What is it time",
+     "explicacion": "What time va junto, como una sola pieza interrogativa."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "What time is it?",
+     "significado": "¿Qué hora es?"
+    }
+   ]
+  },
+  {
+   "id": "e14",
+   "tipo": "hueco",
+   "enunciado": "Completa: «pasado mañana».",
+   "frase": "The exam is the day after ___.",
+   "respuestas": [
+    "tomorrow"
+   ],
+   "explicacion": "La segunda tabla recoge «the day after tomorrow», «pasado mañana». La pista es «the day after», que significa literalmente «el día después de»: falta tomorrow. Igual se forma «the day before yesterday», «anteayer».",
+   "explicacion_breve": "Pasado mañana es the day after tomorrow.",
+   "traduccion": "El examen es pasado mañana.",
+   "errores_previstos": [
+    {
+     "respuesta": "morning",
+     "explicacion": "Calco de «mañana» en el sentido de parte del día; pasado mañana es the day after tomorrow."
+    },
+    {
+     "respuesta": "tomorow",
+     "explicacion": "Falta de ortografía: se escribe tomorrow, con doble r."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "the day after tomorrow",
+     "significado": "pasado mañana"
+    },
+    {
+     "palabra": "exam",
+     "significado": "examen"
+    }
+   ]
+  },
+  {
+   "id": "e15",
+   "tipo": "eleccion",
+   "enunciado": "Elige la opción correcta.",
+   "frase": "My grandmother was born ___ 1948.",
+   "opciones": [
+    "in",
+    "on",
+    "at"
+   ],
+   "respuestas": [
+    "in"
+   ],
+   "explicacion": "Según la tabla, con años se usa in: in 2025. La pista es 1948, un año. Recuerda también que los años se leen de dos en dos: nineteen forty-eight. «Be born» significa «nacer» y va en pasado: was born.",
+   "explicacion_breve": "Con años se usa in.",
+   "traduccion": "Mi abuela nació en 1948.",
+   "por_opcion": {
+    "in": "Correcta. Con años se usa in: in 1948.",
+    "on": "Incorrecta. On se usa con días y fechas concretas, no con un año solo.",
+    "at": "Incorrecta. At se usa con horas, no con años."
+   },
+   "glosario": [
+    {
+     "palabra": "be born",
+     "significado": "nacer"
+    },
+    {
+     "palabra": "grandmother",
+     "significado": "abuela"
+    }
+   ]
+  }
  ],
- "fuente": {"nombre": "propia"}
+ "fuente": {
+  "nombre": "propia"
+ },
+ "descripcion_larga_es": "Esta ficha reúne lo básico para manejar cifras y tiempo en inglés: números cardinales y ordinales, precios, la hora, los días, los meses y las fechas, con las preposiciones at, on e in. Es vocabulario de uso diario y aparece en cualquier conversación práctica. Al hispanohablante le cuestan la hora con past y to, los ordinales en las fechas, las mayúsculas de días y meses y que hundred o million no lleven -s.",
+ "contexto": {
+  "que_es": "Es el vocabulario para contar, decir precios, preguntar y dar la hora y hablar de días, meses, años y fechas. Incluye los números cardinales (one, two) y ordinales (first, second), las fórmulas de la hora (half past, quarter to) y las preposiciones de tiempo at, on e in.",
+  "por_que_importa": "Se usa a diario: concertar una cita, comprar, coger un tren o entender un horario. Un error en la hora o la fecha puede hacer perder una reunión, y confundir thirteen con thirty cambia una cifra. Es la base sobre la que luego se habla de datos y estadísticas en niveles más altos.",
+  "cuando_se_usa": "Aparece al preguntar precios (How much is it?), quedar (on Thursday at 9:30), hablar de cumpleaños o fechas históricas. El hispanohablante tiende a decir «in Monday», «the five of May», «two hundreds» o «ten and a quarter», calcos del español que el inglés resuelve con on, ordinales, hundred sin -s y quarter past."
+ }
 }

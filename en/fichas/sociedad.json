@@ -6,71 +6,729 @@
  "nivel": "B1",
  "resumen": "Vocabulario para hablar de problemas sociales y de políticas públicas: igualdad, inmigración, educación, vivienda, empleo y servicios públicos.",
  "explicacion": [
-  {"tipo": "texto", "texto": "En los temas sociales abundan los sustantivos abstractos incontables (unemployment, poverty, housing, equality) y los adjetivos sustantivados con the para grupos: the elderly (los mayores), the young, the unemployed, the homeless. Estos últimos van con verbo en plural."},
-  {"tipo": "tabla", "cabecera": ["Expresión", "Significado", "Ejemplo"], "filas": [
-   ["equality / inequality", "igualdad / desigualdad", "Income inequality has grown."],
-   ["gender gap / pay gap", "brecha de género / salarial", "The gender pay gap is narrowing."],
-   ["discrimination", "discriminación", "Discrimination at work is illegal."],
-   ["equal opportunities", "igualdad de oportunidades", "We support equal opportunities."],
-   ["immigration / immigrant", "inmigración / inmigrante", "Immigrants contribute to the economy."],
-   ["emigrate / emigration", "emigrar / emigración", "Many young people emigrated during the crisis."],
-   ["refugee / asylum", "refugiado / asilo", "The country accepted thousands of refugees."],
-   ["integration", "integración", "Language classes help integration."],
-   ["ageing population", "envejecimiento de la población", "Spain has an ageing population."],
-   ["the elderly", "las personas mayores", "The elderly need better care."],
-   ["birth rate", "natalidad", "The birth rate is very low."],
-   ["poverty / the poor", "pobreza / los pobres", "Poverty affects one in five children."]
-  ]},
-  {"tipo": "tabla", "cabecera": ["Expresión", "Significado", "Ejemplo"], "filas": [
-   ["housing", "vivienda (en general)", "Housing is very expensive in big cities."],
-   ["affordable housing", "vivienda asequible", "We need more affordable housing."],
-   ["rent / landlord / tenant", "alquiler / casero / inquilino", "Tenants are protected by law."],
-   ["the homeless", "las personas sin hogar", "The homeless suffer in winter."],
-   ["unemployment / the unemployed", "paro / los parados", "Youth unemployment is still high."],
-   ["state school / private school", "colegio público / privado", "I went to a state school."],
-   ["drop out (of school)", "abandonar los estudios", "Too many students drop out."],
-   ["the welfare state", "el Estado del bienestar", "The welfare state includes healthcare and pensions."],
-   ["public services", "servicios públicos", "Taxes pay for public services."],
-   ["pension", "pensión (de jubilación)", "Pensions rise with inflation."],
-   ["volunteer / charity", "voluntario / ONG, organización benéfica", "She volunteers for a charity."],
-   ["tolerance / respect", "tolerancia / respeto", "Living together requires tolerance."]
-  ]},
-  {"tipo": "lista", "items": [
-   "Housing es incontable: a house, but housing (no «housings»).",
-   "The elderly, the homeless, the unemployed llevan verbo en plural: The homeless are…",
-   "Colegio público en Reino Unido es state school; public school en Inglaterra es un colegio privado de élite."
-  ]}
+  {
+   "tipo": "texto",
+   "texto": "En los temas sociales abundan los sustantivos abstractos incontables (unemployment, poverty, housing, equality) y los adjetivos sustantivados con the para grupos: the elderly (los mayores), the young, the unemployed, the homeless. Estos últimos van con verbo en plural."
+  },
+  {
+   "tipo": "tabla",
+   "cabecera": [
+    "Expresión",
+    "Significado",
+    "Ejemplo"
+   ],
+   "filas": [
+    [
+     "equality / inequality",
+     "igualdad / desigualdad",
+     "Income inequality has grown."
+    ],
+    [
+     "gender gap / pay gap",
+     "brecha de género / salarial",
+     "The gender pay gap is narrowing."
+    ],
+    [
+     "discrimination",
+     "discriminación",
+     "Discrimination at work is illegal."
+    ],
+    [
+     "equal opportunities",
+     "igualdad de oportunidades",
+     "We support equal opportunities."
+    ],
+    [
+     "immigration / immigrant",
+     "inmigración / inmigrante",
+     "Immigrants contribute to the economy."
+    ],
+    [
+     "emigrate / emigration",
+     "emigrar / emigración",
+     "Many young people emigrated during the crisis."
+    ],
+    [
+     "refugee / asylum",
+     "refugiado / asilo",
+     "The country accepted thousands of refugees."
+    ],
+    [
+     "integration",
+     "integración",
+     "Language classes help integration."
+    ],
+    [
+     "ageing population",
+     "envejecimiento de la población",
+     "Spain has an ageing population."
+    ],
+    [
+     "the elderly",
+     "las personas mayores",
+     "The elderly need better care."
+    ],
+    [
+     "birth rate",
+     "natalidad",
+     "The birth rate is very low."
+    ],
+    [
+     "poverty / the poor",
+     "pobreza / los pobres",
+     "Poverty affects one in five children."
+    ]
+   ]
+  },
+  {
+   "tipo": "tabla",
+   "cabecera": [
+    "Expresión",
+    "Significado",
+    "Ejemplo"
+   ],
+   "filas": [
+    [
+     "housing",
+     "vivienda (en general)",
+     "Housing is very expensive in big cities."
+    ],
+    [
+     "affordable housing",
+     "vivienda asequible",
+     "We need more affordable housing."
+    ],
+    [
+     "rent / landlord / tenant",
+     "alquiler / casero / inquilino",
+     "Tenants are protected by law."
+    ],
+    [
+     "the homeless",
+     "las personas sin hogar",
+     "The homeless suffer in winter."
+    ],
+    [
+     "unemployment / the unemployed",
+     "paro / los parados",
+     "Youth unemployment is still high."
+    ],
+    [
+     "state school / private school",
+     "colegio público / privado",
+     "I went to a state school."
+    ],
+    [
+     "drop out (of school)",
+     "abandonar los estudios",
+     "Too many students drop out."
+    ],
+    [
+     "the welfare state",
+     "el Estado del bienestar",
+     "The welfare state includes healthcare and pensions."
+    ],
+    [
+     "public services",
+     "servicios públicos",
+     "Taxes pay for public services."
+    ],
+    [
+     "pension",
+     "pensión (de jubilación)",
+     "Pensions rise with inflation."
+    ],
+    [
+     "volunteer / charity",
+     "voluntario / ONG, organización benéfica",
+     "She volunteers for a charity."
+    ],
+    [
+     "tolerance / respect",
+     "tolerancia / respeto",
+     "Living together requires tolerance."
+    ]
+   ]
+  },
+  {
+   "tipo": "lista",
+   "items": [
+    "Housing es incontable: a house, but housing (no «housings»).",
+    "The elderly, the homeless, the unemployed llevan verbo en plural: The homeless are…",
+    "Colegio público en Reino Unido es state school; public school en Inglaterra es un colegio privado de élite."
+   ]
+  }
  ],
  "ejemplos": [
-  {"frase": "Young people are finding it harder and harder to afford housing.", "traduccion": "A los jóvenes les cuesta cada vez más pagar una vivienda."},
-  {"frase": "The government has introduced measures to close the gender pay gap.", "traduccion": "El Gobierno ha adoptado medidas para cerrar la brecha salarial de género."},
-  {"frase": "An ageing population puts pressure on the pension system.", "traduccion": "El envejecimiento de la población presiona el sistema de pensiones."},
-  {"frase": "Many volunteers help the homeless during the winter.", "traduccion": "Muchos voluntarios ayudan a las personas sin hogar durante el invierno."},
-  {"frase": "Learning the language is essential for the integration of immigrants.", "traduccion": "Aprender el idioma es esencial para la integración de los inmigrantes."},
-  {"frase": "Fewer students drop out of school than ten years ago.", "traduccion": "Menos estudiantes abandonan los estudios que hace diez años."}
+  {
+   "frase": "Young people are finding it harder and harder to afford housing.",
+   "traduccion": "A los jóvenes les cuesta cada vez más pagar una vivienda."
+  },
+  {
+   "frase": "The government has introduced measures to close the gender pay gap.",
+   "traduccion": "El Gobierno ha adoptado medidas para cerrar la brecha salarial de género."
+  },
+  {
+   "frase": "An ageing population puts pressure on the pension system.",
+   "traduccion": "El envejecimiento de la población presiona el sistema de pensiones."
+  },
+  {
+   "frase": "Many volunteers help the homeless during the winter.",
+   "traduccion": "Muchos voluntarios ayudan a las personas sin hogar durante el invierno."
+  },
+  {
+   "frase": "Learning the language is essential for the integration of immigrants.",
+   "traduccion": "Aprender el idioma es esencial para la integración de los inmigrantes."
+  },
+  {
+   "frase": "Fewer students drop out of school than ten years ago.",
+   "traduccion": "Menos estudiantes abandonan los estudios que hace diez años."
+  }
  ],
  "errores_hispanohablantes": [
-  {"mal": "The elderlies need more help.", "bien": "The elderly need more help.", "nota": "The elderly no lleva -s y va con verbo en plural."},
-  {"mal": "There are not enough housings for young people.", "bien": "There is not enough housing for young people.", "nota": "Housing es incontable."},
-  {"mal": "My children go to a public school (= colegio público español).", "bien": "My children go to a state school.", "nota": "En Inglaterra public school es un colegio privado de élite."},
-  {"mal": "The poors are getting poorer.", "bien": "The poor are getting poorer.", "nota": "Adjetivo sustantivado: the poor, sin -s."}
+  {
+   "mal": "The elderlies need more help.",
+   "bien": "The elderly need more help.",
+   "nota": "The elderly no lleva -s y va con verbo en plural."
+  },
+  {
+   "mal": "There are not enough housings for young people.",
+   "bien": "There is not enough housing for young people.",
+   "nota": "Housing es incontable."
+  },
+  {
+   "mal": "My children go to a public school (= colegio público español).",
+   "bien": "My children go to a state school.",
+   "nota": "En Inglaterra public school es un colegio privado de élite."
+  },
+  {
+   "mal": "The poors are getting poorer.",
+   "bien": "The poor are getting poorer.",
+   "nota": "Adjetivo sustantivado: the poor, sin -s."
+  }
  ],
  "ejercicios": [
-  {"id": "e01", "tipo": "hueco", "enunciado": "Completa con la forma correcta de be.", "frase": "The unemployed ___ (be) the group most at risk of poverty.", "respuestas": ["are"], "explicacion": "The unemployed es plural y lleva are."},
-  {"id": "e02", "tipo": "hueco", "enunciado": "Completa: «vivienda asequible».", "frase": "The city council plans to build more ___ housing.", "respuestas": ["affordable"], "explicacion": "Asequible es affordable."},
-  {"id": "e03", "tipo": "hueco", "enunciado": "Completa: «natalidad».", "frase": "The birth ___ in Spain is one of the lowest in Europe.", "respuestas": ["rate"], "explicacion": "La natalidad es birth rate."},
-  {"id": "e04", "tipo": "hueco", "enunciado": "Completa con la partícula.", "frase": "Some teenagers drop ___ of school before they are eighteen.", "respuestas": ["out"], "explicacion": "Abandonar los estudios es drop out of school."},
-  {"id": "e05", "tipo": "eleccion", "enunciado": "Elige la opción correcta.", "frase": "The ___ owns the flat and the tenant pays the rent.", "opciones": ["landlord", "owner of rent", "renter"], "respuestas": ["landlord"], "explicacion": "El casero es landlord."},
-  {"id": "e06", "tipo": "eleccion", "enunciado": "Elige la opción correcta.", "frase": "Women still earn less than men: there is a pay ___.", "opciones": ["gap", "hole", "distance"], "respuestas": ["gap"], "explicacion": "Brecha salarial es pay gap."},
-  {"id": "e07", "tipo": "eleccion", "enunciado": "Elige la opción correcta.", "frase": "The country gave ___ to people escaping the war.", "opciones": ["asylum", "exile", "integration"], "respuestas": ["asylum"], "explicacion": "Dar asilo es give/grant asylum."},
-  {"id": "e08", "tipo": "eleccion", "enunciado": "Elige la opción correcta.", "frase": "Healthcare, education and pensions are part of the ___ state.", "opciones": ["welfare", "wellness", "welcome"], "respuestas": ["welfare"], "explicacion": "El Estado del bienestar es the welfare state."},
-  {"id": "e09", "tipo": "corregir", "enunciado": "Corrige el error.", "frase": "The government should help the homelesses.", "respuestas": ["The government should help the homeless."], "explicacion": "The homeless no lleva -s."},
-  {"id": "e10", "tipo": "corregir", "enunciado": "Corrige el error.", "frase": "Young people can't find cheap housings in the city.", "respuestas": ["Young people can't find cheap housing in the city."], "explicacion": "Housing es incontable."},
-  {"id": "e11", "tipo": "corregir", "enunciado": "Corrige el error.", "frase": "The elderly is often lonely in big cities.", "respuestas": ["The elderly are often lonely in big cities."], "explicacion": "The elderly lleva verbo en plural."},
-  {"id": "e12", "tipo": "ordenar", "enunciado": "Ordena las palabras.", "palabras": ["an", "has", "population", "Spain", "ageing"], "respuestas": ["Spain has an ageing population"], "explicacion": "Ageing population es población envejecida."},
-  {"id": "e13", "tipo": "ordenar", "enunciado": "Ordena las palabras.", "palabras": ["for", "she", "a", "volunteers", "charity", "local"], "respuestas": ["She volunteers for a local charity"], "explicacion": "Volunteer for es hacer voluntariado para."},
-  {"id": "e14", "tipo": "hueco", "enunciado": "Completa: «igualdad de oportunidades».", "frase": "Every child deserves equal ___, whatever their background.", "respuestas": ["opportunities"], "explicacion": "Igualdad de oportunidades es equal opportunities."},
-  {"id": "e15", "tipo": "eleccion", "enunciado": "Elige la opción correcta.", "frase": "During the crisis, many young Spaniards ___ to Germany and the UK.", "opciones": ["emigrated", "immigrated", "integrated"], "respuestas": ["emigrated"], "explicacion": "Desde el punto de vista de España, salir del país es emigrate."}
+  {
+   "id": "e01",
+   "tipo": "hueco",
+   "enunciado": "Completa con la forma correcta de be.",
+   "frase": "The unemployed ___ (be) the group most at risk of poverty.",
+   "respuestas": [
+    "are"
+   ],
+   "explicacion": "Se aplica la regla de Reglas y claves: los adjetivos sustantivados con the para grupos (the unemployed, the elderly, the homeless) llevan verbo en plural. La pista es «The unemployed», que se refiere a todas las personas en paro, aunque no tenga -s. Por eso el verbo be va en plural: are.",
+   "explicacion_breve": "The unemployed es plural y lleva are.",
+   "traduccion": "Los parados son el grupo con mayor riesgo de pobreza.",
+   "errores_previstos": [
+    {
+     "respuesta": "is",
+     "explicacion": "Parece singular por no llevar -s, pero the unemployed designa a un grupo de personas y va con verbo en plural."
+    },
+    {
+     "respuesta": "be",
+     "explicacion": "Hace falta el verbo conjugado en presente: are."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "the unemployed",
+     "significado": "los parados, los desempleados"
+    },
+    {
+     "palabra": "at risk of poverty",
+     "significado": "en riesgo de pobreza"
+    }
+   ]
+  },
+  {
+   "id": "e02",
+   "tipo": "hueco",
+   "enunciado": "Completa: «vivienda asequible».",
+   "frase": "The city council plans to build more ___ housing.",
+   "respuestas": [
+    "affordable"
+   ],
+   "explicacion": "La tabla recoge affordable housing, vivienda asequible, es decir, a un precio que la gente puede pagar. Affordable viene del verbo afford (poder permitirse algo). La pista es la glosa del enunciado y el sustantivo housing tras el hueco. Fíjate en que housing es incontable y por eso no lleva artículo ni plural.",
+   "explicacion_breve": "Asequible es affordable.",
+   "traduccion": "El ayuntamiento tiene previsto construir más vivienda asequible.",
+   "errores_previstos": [
+    {
+     "respuesta": "accessible",
+     "explicacion": "Accessible significa accesible físicamente (por ejemplo, para personas con movilidad reducida), no barato."
+    },
+    {
+     "respuesta": "cheap",
+     "explicacion": "Se entendería, pero cheap significa barato y a veces de mala calidad; el término de las políticas públicas es affordable."
+    },
+    {
+     "respuesta": "affordables",
+     "explicacion": "Los adjetivos ingleses nunca llevan -s de plural."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "affordable housing",
+     "significado": "vivienda asequible"
+    },
+    {
+     "palabra": "city council",
+     "significado": "ayuntamiento"
+    }
+   ]
+  },
+  {
+   "id": "e03",
+   "tipo": "hueco",
+   "enunciado": "Completa: «natalidad».",
+   "frase": "The birth ___ in Spain is one of the lowest in Europe.",
+   "respuestas": [
+    "rate"
+   ],
+   "explicacion": "La tabla recoge birth rate, natalidad o tasa de natalidad. Rate significa tasa o índice y se combina con muchos sustantivos del lenguaje estadístico (unemployment rate, interest rate). La pista es birth delante del hueco, que forma con rate un sustantivo compuesto.",
+   "explicacion_breve": "La natalidad es birth rate.",
+   "traduccion": "La natalidad en España es una de las más bajas de Europa.",
+   "errores_previstos": [
+    {
+     "respuesta": "tax",
+     "explicacion": "Tax significa impuesto, no tasa estadística; la tasa es rate."
+    },
+    {
+     "respuesta": "index",
+     "explicacion": "Birth index no es la expresión habitual; natalidad es birth rate."
+    },
+    {
+     "respuesta": "ratio",
+     "explicacion": "Ratio es proporción entre dos cantidades; la natalidad es birth rate."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "birth rate",
+     "significado": "natalidad, tasa de natalidad"
+    },
+    {
+     "palabra": "lowest",
+     "significado": "más bajo"
+    }
+   ]
+  },
+  {
+   "id": "e04",
+   "tipo": "hueco",
+   "enunciado": "Completa con la partícula.",
+   "frase": "Some teenagers drop ___ of school before they are eighteen.",
+   "respuestas": [
+    "out"
+   ],
+   "explicacion": "La tabla recoge drop out (of school), abandonar los estudios. Es un verbo frasal: drop es dejar caer y la partícula out indica salir del sistema. La pista es of school detrás del hueco: drop out of + lugar o institución. De ahí viene el sustantivo a dropout, persona que abandona los estudios.",
+   "explicacion_breve": "Abandonar los estudios es drop out of school.",
+   "traduccion": "Algunos adolescentes abandonan los estudios antes de cumplir dieciocho años.",
+   "errores_previstos": [
+    {
+     "respuesta": "off",
+     "explicacion": "Drop off significa dejar a alguien en un sitio o quedarse dormido; abandonar los estudios es drop out."
+    },
+    {
+     "respuesta": "away",
+     "explicacion": "Drop away significa disminuir; no es abandonar los estudios."
+    },
+    {
+     "respuesta": "outside",
+     "explicacion": "La partícula del verbo frasal es out; outside no forma este verbo."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "drop out of school",
+     "significado": "abandonar los estudios"
+    },
+    {
+     "palabra": "teenager",
+     "significado": "adolescente"
+    }
+   ]
+  },
+  {
+   "id": "e05",
+   "tipo": "eleccion",
+   "enunciado": "Elige la opción correcta.",
+   "frase": "The ___ owns the flat and the tenant pays the rent.",
+   "opciones": [
+    "landlord",
+    "owner of rent",
+    "renter"
+   ],
+   "respuestas": [
+    "landlord"
+   ],
+   "explicacion": "La tabla recoge rent / landlord / tenant: alquiler, casero e inquilino. La pista es el contraste con tenant (el inquilino que paga): el otro papel es el del propietario que alquila, landlord (o landlady si es mujer). Es la palabra precisa del vocabulario de la vivienda.",
+   "explicacion_breve": "El casero es landlord.",
+   "traduccion": "El casero es el dueño del piso y el inquilino paga el alquiler.",
+   "por_opcion": {
+    "landlord": "Correcta: el casero, propietario que alquila la vivienda.",
+    "owner of rent": "Incorrecta: no es una expresión inglesa; es un calco sin sentido.",
+    "renter": "Incorrecta: renter suele designar al que alquila como inquilino, sobre todo en inglés americano; es justo el papel contrario."
+   },
+   "glosario": [
+    {
+     "palabra": "landlord",
+     "significado": "casero, arrendador"
+    },
+    {
+     "palabra": "tenant",
+     "significado": "inquilino"
+    },
+    {
+     "palabra": "rent",
+     "significado": "alquiler"
+    }
+   ]
+  },
+  {
+   "id": "e06",
+   "tipo": "eleccion",
+   "enunciado": "Elige la opción correcta.",
+   "frase": "Women still earn less than men: there is a pay ___.",
+   "opciones": [
+    "gap",
+    "hole",
+    "distance"
+   ],
+   "respuestas": [
+    "gap"
+   ],
+   "explicacion": "La tabla recoge gender gap / pay gap, brecha de género o salarial. Gap significa hueco, distancia o diferencia entre dos cosas, y es la palabra que se usa para las desigualdades medibles. La pista es la explicación previa: las mujeres ganan menos. Por eso se dice a pay gap.",
+   "explicacion_breve": "Brecha salarial es pay gap.",
+   "traduccion": "Las mujeres siguen ganando menos que los hombres: hay una brecha salarial.",
+   "por_opcion": {
+    "gap": "Correcta: pay gap es la brecha salarial.",
+    "hole": "Incorrecta: hole es un agujero físico (a hole in the road); no se usa para diferencias.",
+    "distance": "Incorrecta: distance es distancia física; para desigualdades se usa gap."
+   },
+   "glosario": [
+    {
+     "palabra": "pay gap",
+     "significado": "brecha salarial"
+    },
+    {
+     "palabra": "earn",
+     "significado": "ganar (dinero con el trabajo)"
+    }
+   ]
+  },
+  {
+   "id": "e07",
+   "tipo": "eleccion",
+   "enunciado": "Elige la opción correcta.",
+   "frase": "The country gave ___ to people escaping the war.",
+   "opciones": [
+    "asylum",
+    "exile",
+    "integration"
+   ],
+   "respuestas": [
+    "asylum"
+   ],
+   "explicacion": "La tabla recoge refugee / asylum, refugiado y asilo. Asylum es la protección que un Estado concede a quien huye de una persecución o de una guerra; se dice give asylum o grant asylum. La pista es «people escaping the war». Es incontable, por eso no lleva artículo.",
+   "explicacion_breve": "Dar asilo es give/grant asylum.",
+   "traduccion": "El país dio asilo a las personas que huían de la guerra.",
+   "por_opcion": {
+    "asylum": "Correcta: el asilo que concede un país a quien huye.",
+    "exile": "Incorrecta: exile es el exilio, la situación de quien vive fuera de su país; no se «da» a otros.",
+    "integration": "Incorrecta: integration es la integración en la sociedad de acogida, un paso posterior."
+   },
+   "glosario": [
+    {
+     "palabra": "asylum",
+     "significado": "asilo"
+    },
+    {
+     "palabra": "escape",
+     "significado": "huir de"
+    }
+   ]
+  },
+  {
+   "id": "e08",
+   "tipo": "eleccion",
+   "enunciado": "Elige la opción correcta.",
+   "frase": "Healthcare, education and pensions are part of the ___ state.",
+   "opciones": [
+    "welfare",
+    "wellness",
+    "welcome"
+   ],
+   "respuestas": [
+    "welfare"
+   ],
+   "explicacion": "La tabla recoge the welfare state, el Estado del bienestar. Welfare significa bienestar social y también ayudas públicas. La pista es la enumeración de servicios públicos (healthcare, education, pensions). Es una expresión fija y no admite sinónimos.",
+   "explicacion_breve": "El Estado del bienestar es the welfare state.",
+   "traduccion": "La sanidad, la educación y las pensiones forman parte del Estado del bienestar.",
+   "por_opcion": {
+    "welfare": "Correcta: the welfare state, el Estado del bienestar.",
+    "wellness": "Incorrecta: wellness es el bienestar personal, de salud o de spa; no es el sistema público.",
+    "welcome": "Incorrecta: welcome significa bienvenida."
+   },
+   "glosario": [
+    {
+     "palabra": "the welfare state",
+     "significado": "el Estado del bienestar"
+    },
+    {
+     "palabra": "healthcare",
+     "significado": "sanidad, asistencia sanitaria"
+    }
+   ]
+  },
+  {
+   "id": "e09",
+   "tipo": "corregir",
+   "enunciado": "Corrige el error.",
+   "frase": "The government should help the homelesses.",
+   "respuestas": [
+    "The government should help the homeless."
+   ],
+   "explicacion": "Se aplica la regla de los adjetivos sustantivados para grupos: the homeless no lleva -s, aunque se refiera a muchas personas. Homeless es un adjetivo (sin hogar) y, como todos los adjetivos ingleses, es invariable. Si se quiere hablar de una sola persona, se dice a homeless person.",
+   "explicacion_breve": "The homeless no lleva -s.",
+   "traduccion": "El Gobierno debería ayudar a las personas sin hogar.",
+   "errores_previstos": [
+    {
+     "respuesta": "The government should help the homelesses.",
+     "explicacion": "Es la frase sin corregir: the homeless es un adjetivo sustantivado y no admite -s."
+    },
+    {
+     "respuesta": "The government should help to the homeless.",
+     "explicacion": "Calco de «ayudar a»: help es transitivo directo y no lleva to delante de la persona."
+    },
+    {
+     "respuesta": "The government should help homelesses.",
+     "explicacion": "Sigue la -s incorrecta y falta el artículo the que convierte el adjetivo en grupo."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "the homeless",
+     "significado": "las personas sin hogar"
+    }
+   ]
+  },
+  {
+   "id": "e10",
+   "tipo": "corregir",
+   "enunciado": "Corrige el error.",
+   "frase": "Young people can't find cheap housings in the city.",
+   "respuestas": [
+    "Young people can't find cheap housing in the city."
+   ],
+   "explicacion": "Se aplica la regla de Reglas y claves: housing es incontable, así que no lleva -s ni artículo a. Significa la vivienda en general, como sector o bien. Si se quiere contar, se usan palabras como homes, flats o houses.",
+   "explicacion_breve": "Housing es incontable.",
+   "traduccion": "Los jóvenes no encuentran vivienda barata en la ciudad.",
+   "errores_previstos": [
+    {
+     "respuesta": "Young people can't find cheap housings in the city.",
+     "explicacion": "Es la frase sin corregir: housing es incontable."
+    },
+    {
+     "respuesta": "Young people can't find a cheap housing in the city.",
+     "explicacion": "Housing no admite el artículo a por ser incontable."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "housing",
+     "significado": "vivienda (en general)"
+    },
+    {
+     "palabra": "cheap",
+     "significado": "barato"
+    }
+   ]
+  },
+  {
+   "id": "e11",
+   "tipo": "corregir",
+   "enunciado": "Corrige el error.",
+   "frase": "The elderly is often lonely in big cities.",
+   "respuestas": [
+    "The elderly are often lonely in big cities."
+   ],
+   "explicacion": "Se aplica la regla de que the elderly lleva verbo en plural, porque designa a un grupo de personas. Aunque elderly no lleve -s, el sujeto es plural, así que el verbo es are. La frase original es un error de concordancia frecuente en el hispanohablante.",
+   "explicacion_breve": "The elderly lleva verbo en plural.",
+   "traduccion": "Las personas mayores a menudo se sienten solas en las grandes ciudades.",
+   "errores_previstos": [
+    {
+     "respuesta": "The elderly is often lonely in big cities.",
+     "explicacion": "Es la frase sin corregir: the elderly va con verbo en plural."
+    },
+    {
+     "respuesta": "The elderlies are often lonely in big cities.",
+     "explicacion": "El verbo ya es correcto, pero elderly no admite -s."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "the elderly",
+     "significado": "las personas mayores"
+    },
+    {
+     "palabra": "lonely",
+     "significado": "solo, que se siente solo"
+    }
+   ]
+  },
+  {
+   "id": "e12",
+   "tipo": "ordenar",
+   "enunciado": "Ordena las palabras.",
+   "palabras": [
+    "an",
+    "has",
+    "population",
+    "Spain",
+    "ageing"
+   ],
+   "respuestas": [
+    "Spain has an ageing population"
+   ],
+   "explicacion": "La tabla recoge ageing population, envejecimiento de la población o población envejecida. Ageing funciona aquí como adjetivo (que envejece), por eso va delante del sustantivo, y como empieza por vocal el artículo es an. El orden es sujeto + verbo + an + ageing + population.",
+   "explicacion_breve": "Ageing population es población envejecida.",
+   "traduccion": "España tiene una población envejecida.",
+   "errores_previstos": [
+    {
+     "respuesta": "Spain has an population ageing",
+     "explicacion": "Calco del orden español: el adjetivo ageing va delante del sustantivo."
+    },
+    {
+     "respuesta": "Spain an ageing population has",
+     "explicacion": "El verbo va inmediatamente después del sujeto: Spain has."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "ageing population",
+     "significado": "población envejecida"
+    }
+   ]
+  },
+  {
+   "id": "e13",
+   "tipo": "ordenar",
+   "enunciado": "Ordena las palabras.",
+   "palabras": [
+    "for",
+    "she",
+    "a",
+    "volunteers",
+    "charity",
+    "local"
+   ],
+   "respuestas": [
+    "She volunteers for a local charity"
+   ],
+   "explicacion": "La tabla recoge volunteer / charity: volunteer es aquí un verbo (hacer voluntariado) y va con for. Charity es una organización benéfica o una ONG. El adjetivo local va delante de charity y el orden es sujeto + verbo + for + a + local + charity.",
+   "explicacion_breve": "Volunteer for es hacer voluntariado para.",
+   "traduccion": "Hace voluntariado para una ONG local.",
+   "errores_previstos": [
+    {
+     "respuesta": "She volunteers for a charity local",
+     "explicacion": "Calco del orden español: el adjetivo local va delante del sustantivo."
+    },
+    {
+     "respuesta": "She for a local charity volunteers",
+     "explicacion": "El verbo va inmediatamente después del sujeto."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "volunteer for",
+     "significado": "hacer voluntariado para"
+    },
+    {
+     "palabra": "charity",
+     "significado": "organización benéfica, ONG"
+    }
+   ]
+  },
+  {
+   "id": "e14",
+   "tipo": "hueco",
+   "enunciado": "Completa: «igualdad de oportunidades».",
+   "frase": "Every child deserves equal ___, whatever their background.",
+   "respuestas": [
+    "opportunities"
+   ],
+   "explicacion": "La tabla recoge equal opportunities, igualdad de oportunidades. En inglés se expresa con el adjetivo equal más el sustantivo en plural, no con un calco de «igualdad de». La pista es equal ya escrito delante del hueco, que pide el sustantivo en plural.",
+   "explicacion_breve": "Igualdad de oportunidades es equal opportunities.",
+   "traduccion": "Todo niño merece igualdad de oportunidades, sea cual sea su origen.",
+   "errores_previstos": [
+    {
+     "respuesta": "opportunity",
+     "explicacion": "La expresión fija va en plural: equal opportunities."
+    },
+    {
+     "respuesta": "oportunities",
+     "explicacion": "Error de ortografía frecuente por influencia del español: se escribe opportunities, con doble p."
+    },
+    {
+     "respuesta": "chances",
+     "explicacion": "Equal chances se entiende, pero la expresión fija de las políticas públicas es equal opportunities."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "equal opportunities",
+     "significado": "igualdad de oportunidades"
+    },
+    {
+     "palabra": "background",
+     "significado": "origen, entorno social"
+    },
+    {
+     "palabra": "deserve",
+     "significado": "merecer"
+    }
+   ]
+  },
+  {
+   "id": "e15",
+   "tipo": "eleccion",
+   "enunciado": "Elige la opción correcta.",
+   "frase": "During the crisis, many young Spaniards ___ to Germany and the UK.",
+   "opciones": [
+    "emigrated",
+    "immigrated",
+    "integrated"
+   ],
+   "respuestas": [
+    "emigrated"
+   ],
+   "explicacion": "La tabla recoge emigrate / emigration, emigrar. Emigrate se dice desde el punto de vista del país de origen (salir), e immigrate desde el de destino (llegar). La pista es el sujeto, young Spaniards, y la preposición to: salen de España hacia otro país, así que emigrated.",
+   "explicacion_breve": "Desde el punto de vista de España, salir del país es emigrate.",
+   "traduccion": "Durante la crisis, muchos jóvenes españoles emigraron a Alemania y al Reino Unido.",
+   "por_opcion": {
+    "emigrated": "Correcta: salir del propio país para vivir en otro (emigrate to).",
+    "immigrated": "Discutible pero no es la respuesta esperada: immigrate mira desde el país de llegada. «Immigrated to Germany» se oye, pero cuando el foco es el país de origen (jóvenes españoles que se van) lo natural es emigrated.",
+    "integrated": "Incorrecta: integrate es integrarse en la sociedad de acogida, no desplazarse."
+   },
+   "glosario": [
+    {
+     "palabra": "emigrate",
+     "significado": "emigrar"
+    },
+    {
+     "palabra": "Spaniards",
+     "significado": "españoles"
+    }
+   ]
+  }
  ],
- "fuente": {"nombre": "propia"}
+ "fuente": {
+  "nombre": "propia"
+ },
+ "descripcion_larga_es": "Vocabulario para hablar de problemas sociales y políticas públicas: igualdad, inmigración, envejecimiento, vivienda, paro, educación y Estado del bienestar. Es el léxico de la prensa y de los debates sobre la actualidad, y aparece en cualquier conversación de nivel intermedio. Cuesta al hispanohablante por los incontables (housing), los adjetivos sustantivados sin -s (the elderly, the poor) y falsos amigos como public school.",
+ "contexto": {
+  "que_es": "Es el léxico de la convivencia y de las políticas sociales: sustantivos abstractos (inequality, poverty, unemployment), grupos sociales designados con the + adjetivo (the elderly, the unemployed, the homeless), términos de vivienda (landlord, tenant, affordable housing) y de servicios públicos (state school, pension, the welfare state).",
+  "por_que_importa": "Son los temas habituales de la prensa, los debates y las preguntas de examen oral de nivel intermedio y avanzado, y también de la economía aplicada. Un error con los incontables (housings) o con los grupos (the elderlies) se nota mucho. Algunos falsos amigos generan malentendidos reales: decir que tus hijos van a una public school en Inglaterra sugiere un colegio privado de élite.",
+  "cuando_se_usa": "Al comentar noticias, opinar sobre políticas públicas, describir la situación de un país o hablar de tu propia experiencia con la vivienda, el trabajo o la educación. Las señales son los datos sociales (paro, natalidad, precios del alquiler) y los grupos de población. El hispanohablante tiende a pluralizar incontables, a añadir -s a the poor o the elderly y a traducir «colegio público» por public school."
+ }
 }

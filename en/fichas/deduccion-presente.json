@@ -107,7 +107,14 @@
    "respuestas": [
     "must"
    ],
-   "explicacion": "Deducción casi segura a partir de un indicio: must."
+   "explicacion": "Se aplica la primera fila de la tabla: casi seguro que sí = must. La pista es el indicio: lleva doce horas trabajando, de donde sacamos una conclusión casi segura. Detrás va el infinitivo sin to: must be tired.",
+   "explicacion_breve": "Deducción casi segura a partir de un indicio: must.",
+   "traduccion": "Lleva doce horas trabajando. Debe de estar cansado.",
+   "por_opcion": {
+    "must": "Correcta: deducción casi segura a partir de un indicio claro.",
+    "can't": "Incorrecta: diría que es imposible que esté cansado, lo contrario de lo que sugiere el indicio.",
+    "mustn't": "Incorrecta: mustn't expresa prohibición (no debe), no deducción."
+   }
   },
   {
    "id": "e02",
@@ -122,7 +129,14 @@
    "respuestas": [
     "can't"
    ],
-   "explicacion": "Casi seguro que no: can't."
+   "explicacion": "La tabla da can't para casi seguro que no. La pista es She sold it last year: tenemos una razón clara para descartarlo. La ficha recuerda que lo contrario de must es can't, no mustn't.",
+   "explicacion_breve": "Casi seguro que no: can't.",
+   "traduccion": "Ese no puede ser el coche de Laura. Lo vendió el año pasado.",
+   "por_opcion": {
+    "must": "Incorrecta: afirmaría que sí es su coche, cuando sabemos que lo vendió.",
+    "might": "Incorrecta: dejaría abierta la posibilidad, pero el dato lo descarta casi con seguridad.",
+    "can't": "Correcta: imposibilidad deducida de un dato claro."
+   }
   },
   {
    "id": "e03",
@@ -137,7 +151,14 @@
    "respuestas": [
     "might"
    ],
-   "explicacion": "Solo es una posibilidad: might."
+   "explicacion": "La fila de posible en la tabla es might / may / could. La pista es I'm not sure: no tenemos certeza, solo una hipótesis. Por eso He might be in the library.",
+   "explicacion_breve": "Solo es una posibilidad: might.",
+   "traduccion": "No sé dónde está Pablo. A lo mejor está en la biblioteca.",
+   "por_opcion": {
+    "might": "Correcta: posibilidad sin certeza.",
+    "must": "Incorrecta: indica casi certeza, incompatible con I'm not sure.",
+    "can't": "Incorrecta: descartaría la biblioteca, cuando la frase la propone como opción."
+   }
   },
   {
    "id": "e04",
@@ -152,7 +173,14 @@
    "respuestas": [
     "must be"
    ],
-   "explicacion": "Acción en curso: modal + be + -ing."
+   "explicacion": "La lista de la ficha indica que para algo que está ocurriendo ahora se usa modal + be + -ing. La pista es having, en -ing, que necesita be delante. Por eso must be having, una deducción casi segura a partir del ruido.",
+   "explicacion_breve": "Acción en curso: modal + be + -ing.",
+   "traduccion": "¡Escucha ese ruido! Los vecinos deben de estar de fiesta.",
+   "por_opcion": {
+    "must be": "Correcta: must + be + having para una acción en curso.",
+    "must": "Incorrecta: must having no es gramatical; falta be.",
+    "can't": "Incorrecta: además de faltar be, can't contradice el indicio del ruido."
+   }
   },
   {
    "id": "e05",
@@ -163,7 +191,19 @@
     "can't",
     "cannot"
    ],
-   "explicacion": "Incredulidad, «no puede ser»: can't."
+   "explicacion": "Se aplica la regla de can't para «no puede ser»: aquí expresa incredulidad. La pista es la reacción That's a terrible idea, que muestra que el hablante no cree que el otro hable en serio. Se acepta también la forma plena cannot.",
+   "explicacion_breve": "Incredulidad, «no puede ser»: can't.",
+   "traduccion": "¡No puedes estar hablando en serio! Es una idea malísima.",
+   "errores_previstos": [
+    {
+     "respuesta": "mustn't",
+     "explicacion": "Mustn't expresa prohibición; para «no puede ser» se usa can't."
+    },
+    {
+     "respuesta": "must",
+     "explicacion": "You must be serious diría que seguramente habla en serio, lo contrario de la incredulidad del contexto."
+    }
+   ]
   },
   {
    "id": "e06",
@@ -173,7 +213,19 @@
    "respuestas": [
     "must"
    ],
-   "explicacion": "Indicio claro que lleva a una conclusión positiva: must."
+   "explicacion": "La tabla da must para una deducción casi segura en positivo. La pista es el indicio: siempre está lleno. De ahí se concluye que la comida es buena: must be very good.",
+   "explicacion_breve": "Indicio claro que lleva a una conclusión positiva: must.",
+   "traduccion": "El restaurante siempre está lleno. La comida debe de ser muy buena.",
+   "errores_previstos": [
+    {
+     "respuesta": "can't",
+     "explicacion": "Can't diría que es imposible que sea buena, contrario al indicio."
+    },
+    {
+     "respuesta": "must to",
+     "explicacion": "Detrás del modal no va to: must be."
+    }
+   ]
   },
   {
    "id": "e07",
@@ -184,7 +236,19 @@
     "can't",
     "cannot"
    ],
-   "explicacion": "Casi imposible: can't."
+   "explicacion": "Se aplica la regla de can't para casi seguro que no. La pista es She's just eaten a huge sandwich, razón clara para descartar que tenga hambre. Se acepta también cannot.",
+   "explicacion_breve": "Casi imposible: can't.",
+   "traduccion": "No puede tener hambre. Acaba de comerse un bocadillo enorme.",
+   "errores_previstos": [
+    {
+     "respuesta": "mustn't",
+     "explicacion": "Mustn't significa prohibición (no debe tener hambre); para deducir se usa can't."
+    },
+    {
+     "respuesta": "must",
+     "explicacion": "Must diría que seguro que tiene hambre, lo contrario de lo que indica el bocadillo."
+    }
+   ]
   },
   {
    "id": "e08",
@@ -195,7 +259,23 @@
     "might not",
     "mightn't"
    ],
-   "explicacion": "Posibilidad negativa: might not."
+   "explicacion": "La tabla da might not / may not para posible que no. La pista es Call him before you go: el consejo se explica porque existe la posibilidad de que no esté. El enunciado pide la negativa de might, así que might not o la contracción mightn't.",
+   "explicacion_breve": "Posibilidad negativa: might not.",
+   "traduccion": "Llámale antes de ir. Puede que no esté en casa esta tarde.",
+   "errores_previstos": [
+    {
+     "respuesta": "can't",
+     "explicacion": "Can't afirmaría que es casi seguro que no está; aquí es solo una posibilidad."
+    },
+    {
+     "respuesta": "mustn't",
+     "explicacion": "Mustn't es prohibición, no posibilidad."
+    },
+    {
+     "respuesta": "not might",
+     "explicacion": "Not va detrás del modal: might not."
+    }
+   ]
   },
   {
    "id": "e09",
@@ -205,7 +285,19 @@
    "respuestas": [
     "It can't be Tom on the phone; he never calls at this time."
    ],
-   "explicacion": "Deducción negativa: can't, no mustn't."
+   "explicacion": "La ficha insiste en que la deducción negativa se hace con can't, no con mustn't, que expresa prohibición. La pista es he never calls at this time, motivo para descartarlo casi con seguridad. Basta cambiar mustn't por can't.",
+   "explicacion_breve": "Deducción negativa: can't, no mustn't.",
+   "traduccion": "No puede ser Tom el que llama; nunca llama a estas horas.",
+   "errores_previstos": [
+    {
+     "respuesta": "It mustn't be Tom on the phone; he never calls at this time.",
+     "explicacion": "Es la frase sin corregir: mustn't no sirve para deducir."
+    },
+    {
+     "respuesta": "It doesn't must be Tom on the phone; he never calls at this time.",
+     "explicacion": "Los modales no llevan do; además, la deducción negativa es can't."
+    }
+   ]
   },
   {
    "id": "e10",
@@ -215,7 +307,19 @@
    "respuestas": [
     "They might be lost."
    ],
-   "explicacion": "Sin to detrás del modal."
+   "explicacion": "La lista de la ficha recuerda que detrás del modal va el infinitivo sin to. Might, como todos los modales, va seguido directamente del verbo: might be lost. Ought to y have to no son modales puros y por eso confunden.",
+   "explicacion_breve": "Sin to detrás del modal.",
+   "traduccion": "Puede que se hayan perdido.",
+   "errores_previstos": [
+    {
+     "respuesta": "They might to be lost.",
+     "explicacion": "Es la frase sin corregir: tras might no va to."
+    },
+    {
+     "respuesta": "They might are lost.",
+     "explicacion": "Tras el modal el verbo va en forma base: be, no are."
+    }
+   ]
   },
   {
    "id": "e11",
@@ -225,7 +329,23 @@
    "respuestas": [
     "She must be Italian."
    ],
-   "explicacion": "I'm sure + afirmación = must."
+   "explicacion": "La ficha equipara I'm sure + afirmación a must. El verbo is pasa a infinitivo sin to (be) detrás del modal, y desaparece I'm sure porque must ya expresa la seguridad.",
+   "explicacion_breve": "I'm sure + afirmación = must.",
+   "traduccion": "Debe de ser italiana.",
+   "errores_previstos": [
+    {
+     "respuesta": "She must is Italian.",
+     "explicacion": "Tras must va la forma base: be."
+    },
+    {
+     "respuesta": "She must to be Italian.",
+     "explicacion": "Sin to detrás del modal."
+    },
+    {
+     "respuesta": "I'm sure she must be Italian.",
+     "explicacion": "Es redundante: must ya expresa la seguridad de I'm sure."
+    }
+   ]
   },
   {
    "id": "e12",
@@ -236,7 +356,19 @@
     "It can't be true.",
     "It cannot be true."
    ],
-   "explicacion": "I'm sure + negación = can't."
+   "explicacion": "La ficha equipara I'm sure + negación a can't. La frase I'm sure it isn't true se convierte en It can't be true, con be en infinitivo sin to. Se acepta también cannot.",
+   "explicacion_breve": "I'm sure + negación = can't.",
+   "traduccion": "No puede ser verdad.",
+   "errores_previstos": [
+    {
+     "respuesta": "It mustn't be true.",
+     "explicacion": "Mustn't expresa prohibición; la deducción negativa es can't."
+    },
+    {
+     "respuesta": "It can't is true.",
+     "explicacion": "Tras can't va la forma base: be."
+    }
+   ]
   },
   {
    "id": "e13",
@@ -246,7 +378,23 @@
    "respuestas": [
     "They might be in the garden."
    ],
-   "explicacion": "Perhaps = might."
+   "explicacion": "La ficha equipara perhaps a might para expresar posibilidad. El verbo are pasa a be detrás de might, y desaparece perhaps porque might ya lo expresa. No hay ninguna pista de certeza, así que must no serviría.",
+   "explicacion_breve": "Perhaps = might.",
+   "traduccion": "A lo mejor están en el jardín.",
+   "errores_previstos": [
+    {
+     "respuesta": "They might are in the garden.",
+     "explicacion": "Tras might va la forma base: be."
+    },
+    {
+     "respuesta": "Perhaps they might be in the garden.",
+     "explicacion": "Perhaps y might dicen lo mismo; la transformación pide sustituir uno por otro."
+    },
+    {
+     "respuesta": "They must be in the garden.",
+     "explicacion": "Must expresa casi certeza; perhaps solo indica posibilidad."
+    }
+   ]
   },
   {
    "id": "e14",
@@ -261,10 +409,28 @@
    "respuestas": [
     "you must be joking"
    ],
-   "explicacion": "Modal + be + -ing para algo que ocurre ahora."
+   "explicacion": "La lista de la ficha indica modal + be + -ing para algo que ocurre ahora. You must be joking es una expresión muy frecuente para mostrar sorpresa o incredulidad. El orden es sujeto, must, be y el verbo en -ing.",
+   "explicacion_breve": "Modal + be + -ing para algo que ocurre ahora.",
+   "traduccion": "¡Estás de broma!",
+   "errores_previstos": [
+    {
+     "respuesta": "you be must joking",
+     "explicacion": "El modal va antes de be: must be."
+    },
+    {
+     "respuesta": "must you be joking",
+     "explicacion": "Ese orden forma una pregunta; la expresión es afirmativa: you must be joking."
+    }
+   ]
   }
  ],
  "fuente": {
   "nombre": "propia"
+ },
+ "descripcion_larga_es": "Los modales must, might, may, could y can't seguidos de infinitivo sirven para deducir algo sobre el presente según lo seguros que estemos: casi seguro que sí, quizá o casi seguro que no. Es una herramienta muy frecuente al hablar y cuesta al hispanohablante porque «no debe de ser» no se traduce por mustn't, que en inglés expresa prohibición, sino por can't.",
+ "contexto": {
+  "que_es": "Es el uso de algunos verbos modales para expresar una conclusión lógica sobre el presente: must (casi certeza), might, may y could (posibilidad), might not y may not (posibilidad negativa) y can't (casi certeza negativa). Van seguidos de infinitivo sin to, o de be + -ing si la acción está en curso.",
+  "por_que_importa": "Se usan a diario para interpretar lo que vemos u oímos: It must be the postman, You must be tired. Confundir can't con mustn't cambia el mensaje (prohibir frente a deducir) y usar must en lugar de might da una seguridad que no se tiene. En los exámenes B1 aparece en huecos y transformaciones con I'm sure y perhaps.",
+  "cuando_se_usa": "Cuando hay un indicio (las luces están encendidas, hay ruido, el restaurante siempre está lleno) y queremos sacar una conclusión sobre el presente. Las señales son expresiones como I'm sure, perhaps, I'm not sure. El hispanohablante tiende a traducir «no debe de» por mustn't y a poner to detrás del modal."
  }
 }

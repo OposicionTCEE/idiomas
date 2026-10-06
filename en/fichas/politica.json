@@ -6,66 +6,793 @@
  "nivel": "B2",
  "resumen": "Vocabulario para hablar de gobiernos, parlamentos, elecciones e instituciones europeas. Sirve para comentar noticias políticas y exponer el marco institucional en inglés.",
  "explicacion": [
-  {"tipo": "texto", "texto": "Ojo con las palabras que se parecen al español pero no significan lo mismo: «policy» es una política concreta (una medida o línea de actuación), mientras que «politics» es la actividad política en general. «Politician» es la persona."},
-  {"tipo": "tabla", "cabecera": ["Expresión", "Significado", "Ejemplo"], "filas": [
-   ["government", "gobierno", "The government announced new measures."],
-   ["prime minister / president", "presidente del Gobierno / presidente (de la República)", "The Prime Minister resigned."],
-   ["cabinet", "consejo de ministros, gabinete", "The cabinet met on Tuesday."],
-   ["Parliament / the House", "parlamento / cámara", "The bill was debated in Parliament."],
-   ["MP (Member of Parliament)", "diputado", "Several MPs voted against it."],
-   ["bill / act", "proyecto de ley / ley aprobada", "The bill became an act in May."],
-   ["to pass / to reject a bill", "aprobar / rechazar un proyecto de ley", "The Senate passed the bill."],
-   ["general election", "elecciones generales", "A general election was called for June."],
-   ["to run for office", "presentarse a un cargo", "She is running for mayor."],
-   ["to vote / voter / turnout", "votar / votante / participación", "Turnout was below 60%."],
-   ["polls / opinion poll", "urnas / encuesta", "The party is leading in the polls."],
-   ["coalition", "coalición", "They formed a coalition government."],
-   ["the opposition", "la oposición", "The opposition called for a vote of no confidence."],
-   ["policy / politics", "política (medida) / política (actividad)", "Housing policy is a key issue."],
-   ["to step down / to resign", "dimitir", "The minister stepped down after the scandal."]
-  ]},
-  {"tipo": "tabla", "cabecera": ["Expresión", "Significado", "Ejemplo"], "filas": [
-   ["Member State", "Estado miembro", "All Member States must agree."],
-   ["the European Commission", "la Comisión Europea", "The Commission proposed a new directive."],
-   ["the Council of the EU", "el Consejo de la UE", "The Council adopted its position."],
-   ["the European Council", "el Consejo Europeo (jefes de Estado o de Gobierno)", "The European Council met in Brussels."],
-   ["MEP", "eurodiputado", "MEPs approved the budget."],
-   ["directive / regulation", "directiva / reglamento", "Directives must be transposed into national law."],
-   ["unanimity / qualified majority", "unanimidad / mayoría cualificada", "Tax matters require unanimity."],
-   ["to enlarge / enlargement", "ampliar / ampliación", "Enlargement to the east took place in 2004."]
-  ]},
-  {"tipo": "lista", "items": ["«Elect» se usa para personas: «She was elected president»; para leyes se dice «pass» o «adopt».", "«Mayor» es alcalde, no «mayor» de edad.", "«Legislature» = poder legislativo o legislatura (cámara); el periodo de mandato es «term (of office)»."]}
+  {
+   "tipo": "texto",
+   "texto": "Ojo con las palabras que se parecen al español pero no significan lo mismo: «policy» es una política concreta (una medida o línea de actuación), mientras que «politics» es la actividad política en general. «Politician» es la persona."
+  },
+  {
+   "tipo": "tabla",
+   "cabecera": [
+    "Expresión",
+    "Significado",
+    "Ejemplo"
+   ],
+   "filas": [
+    [
+     "government",
+     "gobierno",
+     "The government announced new measures."
+    ],
+    [
+     "prime minister / president",
+     "presidente del Gobierno / presidente (de la República)",
+     "The Prime Minister resigned."
+    ],
+    [
+     "cabinet",
+     "consejo de ministros, gabinete",
+     "The cabinet met on Tuesday."
+    ],
+    [
+     "Parliament / the House",
+     "parlamento / cámara",
+     "The bill was debated in Parliament."
+    ],
+    [
+     "MP (Member of Parliament)",
+     "diputado",
+     "Several MPs voted against it."
+    ],
+    [
+     "bill / act",
+     "proyecto de ley / ley aprobada",
+     "The bill became an act in May."
+    ],
+    [
+     "to pass / to reject a bill",
+     "aprobar / rechazar un proyecto de ley",
+     "The Senate passed the bill."
+    ],
+    [
+     "general election",
+     "elecciones generales",
+     "A general election was called for June."
+    ],
+    [
+     "to run for office",
+     "presentarse a un cargo",
+     "She is running for mayor."
+    ],
+    [
+     "to vote / voter / turnout",
+     "votar / votante / participación",
+     "Turnout was below 60%."
+    ],
+    [
+     "polls / opinion poll",
+     "urnas / encuesta",
+     "The party is leading in the polls."
+    ],
+    [
+     "coalition",
+     "coalición",
+     "They formed a coalition government."
+    ],
+    [
+     "the opposition",
+     "la oposición",
+     "The opposition called for a vote of no confidence."
+    ],
+    [
+     "policy / politics",
+     "política (medida) / política (actividad)",
+     "Housing policy is a key issue."
+    ],
+    [
+     "to step down / to resign",
+     "dimitir",
+     "The minister stepped down after the scandal."
+    ]
+   ]
+  },
+  {
+   "tipo": "tabla",
+   "cabecera": [
+    "Expresión",
+    "Significado",
+    "Ejemplo"
+   ],
+   "filas": [
+    [
+     "Member State",
+     "Estado miembro",
+     "All Member States must agree."
+    ],
+    [
+     "the European Commission",
+     "la Comisión Europea",
+     "The Commission proposed a new directive."
+    ],
+    [
+     "the Council of the EU",
+     "el Consejo de la UE",
+     "The Council adopted its position."
+    ],
+    [
+     "the European Council",
+     "el Consejo Europeo (jefes de Estado o de Gobierno)",
+     "The European Council met in Brussels."
+    ],
+    [
+     "MEP",
+     "eurodiputado",
+     "MEPs approved the budget."
+    ],
+    [
+     "directive / regulation",
+     "directiva / reglamento",
+     "Directives must be transposed into national law."
+    ],
+    [
+     "unanimity / qualified majority",
+     "unanimidad / mayoría cualificada",
+     "Tax matters require unanimity."
+    ],
+    [
+     "to enlarge / enlargement",
+     "ampliar / ampliación",
+     "Enlargement to the east took place in 2004."
+    ]
+   ]
+  },
+  {
+   "tipo": "lista",
+   "items": [
+    "«Elect» se usa para personas: «She was elected president»; para leyes se dice «pass» o «adopt».",
+    "«Mayor» es alcalde, no «mayor» de edad.",
+    "«Legislature» = poder legislativo o legislatura (cámara); el periodo de mandato es «term (of office)»."
+   ]
+  }
  ],
  "ejemplos": [
-  {"frase": "The bill was passed by a narrow majority.", "traduccion": "El proyecto de ley se aprobó por estrecho margen."},
-  {"frase": "Turnout was unusually high in the last election.", "traduccion": "La participación fue inusualmente alta en las últimas elecciones."},
-  {"frase": "The minister stepped down amid growing criticism.", "traduccion": "El ministro dimitió en medio de crecientes críticas."},
-  {"frase": "Member States have two years to transpose the directive.", "traduccion": "Los Estados miembros tienen dos años para transponer la directiva."},
-  {"frase": "Her grandfather was mayor of a small village in Galicia.", "traduccion": "Su abuelo fue alcalde de un pueblo pequeño de Galicia."},
-  {"frase": "The government's housing policy has been widely criticised.", "traduccion": "La política de vivienda del Gobierno ha recibido muchas críticas."}
+  {
+   "frase": "The bill was passed by a narrow majority.",
+   "traduccion": "El proyecto de ley se aprobó por estrecho margen."
+  },
+  {
+   "frase": "Turnout was unusually high in the last election.",
+   "traduccion": "La participación fue inusualmente alta en las últimas elecciones."
+  },
+  {
+   "frase": "The minister stepped down amid growing criticism.",
+   "traduccion": "El ministro dimitió en medio de crecientes críticas."
+  },
+  {
+   "frase": "Member States have two years to transpose the directive.",
+   "traduccion": "Los Estados miembros tienen dos años para transponer la directiva."
+  },
+  {
+   "frase": "Her grandfather was mayor of a small village in Galicia.",
+   "traduccion": "Su abuelo fue alcalde de un pueblo pequeño de Galicia."
+  },
+  {
+   "frase": "The government's housing policy has been widely criticised.",
+   "traduccion": "La política de vivienda del Gobierno ha recibido muchas críticas."
+  }
  ],
  "errores_hispanohablantes": [
-  {"mal": "The government's economic politics is failing.", "bien": "The government's economic policy is failing.", "nota": "Una línea de actuación concreta es «policy»."},
-  {"mal": "He presented himself to the elections.", "bien": "He ran in the elections.", "nota": "«Presentarse a las elecciones» es «run (for office)» o «stand for election» (británico)."},
-  {"mal": "The parliament approved the law project.", "bien": "Parliament passed the bill.", "nota": "«Proyecto de ley» es «bill» y «aprobar» una ley es «pass»."},
-  {"mal": "The president of the government met the king.", "bien": "The Prime Minister met the King.", "nota": "El presidente del Gobierno español se suele traducir como «Prime Minister»."}
+  {
+   "mal": "The government's economic politics is failing.",
+   "bien": "The government's economic policy is failing.",
+   "nota": "Una línea de actuación concreta es «policy»."
+  },
+  {
+   "mal": "He presented himself to the elections.",
+   "bien": "He ran in the elections.",
+   "nota": "«Presentarse a las elecciones» es «run (for office)» o «stand for election» (británico)."
+  },
+  {
+   "mal": "The parliament approved the law project.",
+   "bien": "Parliament passed the bill.",
+   "nota": "«Proyecto de ley» es «bill» y «aprobar» una ley es «pass»."
+  },
+  {
+   "mal": "The president of the government met the king.",
+   "bien": "The Prime Minister met the King.",
+   "nota": "El presidente del Gobierno español se suele traducir como «Prime Minister»."
+  }
  ],
  "ejercicios": [
-  {"id": "e01", "tipo": "eleccion", "enunciado": "Elige la opción correcta.", "frase": "The new immigration ___ has divided the party.", "opciones": ["politics", "policy", "politic"], "respuestas": ["policy"], "explicacion": "Una política concreta es «policy»."},
-  {"id": "e02", "tipo": "eleccion", "enunciado": "Elige la opción correcta.", "frase": "He decided to go into ___ after university.", "opciones": ["politics", "policy", "political"], "respuestas": ["politics"], "explicacion": "La actividad política es «politics»."},
-  {"id": "e03", "tipo": "hueco", "enunciado": "Completa con una palabra (proyecto de ley).", "frase": "The ___ will be debated in the House next week.", "respuestas": ["bill"], "explicacion": "Un proyecto de ley es «bill»."},
-  {"id": "e04", "tipo": "eleccion", "enunciado": "Elige la opción correcta.", "frase": "The Senate ___ the bill by 60 votes to 40.", "opciones": ["passed", "approved of", "elected", "voted"], "respuestas": ["passed"], "explicacion": "Aprobar una ley es «pass»; «elect» es para personas."},
-  {"id": "e05", "tipo": "hueco", "enunciado": "Completa con una palabra (participación).", "frase": "Voter ___ fell to a record low of 45%.", "respuestas": ["turnout"], "explicacion": "La participación electoral es «turnout»."},
-  {"id": "e06", "tipo": "eleccion", "enunciado": "Elige la opción correcta.", "frase": "She is ___ for mayor of Seville.", "opciones": ["running", "presenting", "standing up", "going"], "respuestas": ["running"], "explicacion": "«Run for» = presentarse como candidato a un cargo."},
-  {"id": "e07", "tipo": "corregir", "enunciado": "Corrige el error.", "frase": "Unemployment is the main issue in Spanish policy today.", "respuestas": ["Unemployment is the main issue in Spanish politics today."], "explicacion": "La vida política en general es «politics»."},
-  {"id": "e08", "tipo": "hueco", "enunciado": "Completa con una palabra (eurodiputados).", "frase": "Most ___ voted in favour of the new regulation.", "respuestas": ["MEPs"], "explicacion": "Los eurodiputados son «MEPs» (Members of the European Parliament)."},
-  {"id": "e09", "tipo": "eleccion", "enunciado": "Elige la opción correcta.", "frase": "Decisions on taxation in the EU require ___.", "opciones": ["unanimity", "unanimous", "unity"], "respuestas": ["unanimity"], "explicacion": "Se necesita un sustantivo: «unanimity» (unanimidad)."},
-  {"id": "e10", "tipo": "hueco", "enunciado": "Completa con un verbo + partícula (dimitir).", "frase": "The minister was forced to step ___ after the scandal.", "respuestas": ["down"], "explicacion": "«Step down» = dimitir, dejar el cargo."},
-  {"id": "e11", "tipo": "corregir", "enunciado": "Corrige el error (falso amigo).", "frase": "The major of London opened the new bridge.", "respuestas": ["The Mayor of London opened the new bridge.", "The mayor of London opened the new bridge."], "explicacion": "Alcalde es «mayor»; «major» significa principal o comandante."},
-  {"id": "e12", "tipo": "eleccion", "enunciado": "Elige la opción correcta.", "frase": "No party won a majority, so they had to form a ___.", "opciones": ["coalition", "collision", "collation"], "respuestas": ["coalition"], "explicacion": "Un gobierno de varios partidos es una «coalition»."},
-  {"id": "e13", "tipo": "hueco", "enunciado": "Completa con una palabra (encuestas).", "frase": "The Greens are rising in the opinion ___.", "respuestas": ["polls"], "explicacion": "Las encuestas son «opinion polls»."},
-  {"id": "e14", "tipo": "ordenar", "enunciado": "Ordena las palabras.", "palabras": ["called", "a", "The", "election", "Prime", "general", "Minister", "snap"], "respuestas": ["The Prime Minister called a snap general election"], "explicacion": "«Call an election» = convocar elecciones; «snap» = anticipadas."},
-  {"id": "e15", "tipo": "eleccion", "enunciado": "Elige la opción correcta.", "frase": "EU ___ must be transposed into national law.", "opciones": ["directives", "regulations", "treaties"], "respuestas": ["directives"], "explicacion": "Las directivas se transponen; los reglamentos son directamente aplicables."}
+  {
+   "id": "e01",
+   "tipo": "eleccion",
+   "enunciado": "Elige la opción correcta.",
+   "frase": "The new immigration ___ has divided the party.",
+   "opciones": [
+    "politics",
+    "policy",
+    "politic"
+   ],
+   "respuestas": [
+    "policy"
+   ],
+   "explicacion": "Se aplica la distinción que la ficha explica al principio: policy es una política concreta, una medida o línea de actuación, mientras que politics es la actividad política en general. La pista es «the new immigration ___»: se habla de una línea de actuación concreta sobre inmigración, que además es nueva y contable. Por eso la palabra es policy (immigration policy, housing policy, monetary policy).",
+   "explicacion_breve": "Una política concreta es «policy».",
+   "traduccion": "La nueva política de inmigración ha dividido al partido.",
+   "por_opcion": {
+    "politics": "Incorrecta: politics es la actividad política en general (go into politics, Spanish politics), no una medida concreta sobre inmigración.",
+    "policy": "Correcta: una política concreta o línea de actuación del gobierno, como immigration policy.",
+    "politic": "Incorrecta: politic existe solo como adjetivo formal y raro, «prudente, sagaz» (a politic decision); no es un sustantivo."
+   },
+   "glosario": [
+    {
+     "palabra": "policy",
+     "significado": "política (medida, línea de actuación concreta)"
+    },
+    {
+     "palabra": "to divide",
+     "significado": "dividir, enfrentar"
+    },
+    {
+     "palabra": "party",
+     "significado": "partido (político)"
+    }
+   ]
+  },
+  {
+   "id": "e02",
+   "tipo": "eleccion",
+   "enunciado": "Elige la opción correcta.",
+   "frase": "He decided to go into ___ after university.",
+   "opciones": [
+    "politics",
+    "policy",
+    "political"
+   ],
+   "respuestas": [
+    "politics"
+   ],
+   "explicacion": "Se aplica la distinción entre policy y politics de la ficha. La pista es la expresión go into, que significa «dedicarse a» o «entrar en» una profesión o actividad: se habla de la política como actividad y carrera, no de una medida concreta. Por eso la palabra es politics, que, aunque acaba en -s, se usa normalmente con el verbo en singular (Politics is a tough job).",
+   "explicacion_breve": "La actividad política es «politics».",
+   "traduccion": "Decidió dedicarse a la política al terminar la universidad.",
+   "por_opcion": {
+    "politics": "Correcta: la actividad política en general, la que se elige como carrera (go into politics).",
+    "policy": "Incorrecta: policy es una medida o línea concreta; uno no «se mete en una política».",
+    "political": "Incorrecta: es un adjetivo (political party, political crisis) y aquí hace falta un sustantivo."
+   },
+   "glosario": [
+    {
+     "palabra": "politics",
+     "significado": "la política (actividad)"
+    },
+    {
+     "palabra": "to go into",
+     "significado": "dedicarse a, entrar en (una profesión)"
+    }
+   ]
+  },
+  {
+   "id": "e03",
+   "tipo": "hueco",
+   "enunciado": "Completa con una palabra (proyecto de ley).",
+   "frase": "The ___ will be debated in the House next week.",
+   "respuestas": [
+    "bill"
+   ],
+   "explicacion": "Se aplica la fila de la tabla «bill / act»: bill es el proyecto de ley mientras se tramita, y act es la ley ya aprobada. La pista es will be debated: si todavía se va a debatir, no es ley aún, así que es un bill. The House es la forma abreviada de referirse a una cámara del Parlamento (por ejemplo, the House of Commons). Bill tiene otros significados (factura, billete en EE. UU.), pero en contexto parlamentario siempre es un proyecto de ley.",
+   "explicacion_breve": "Un proyecto de ley es «bill».",
+   "traduccion": "El proyecto de ley se debatirá en la Cámara la semana que viene.",
+   "errores_previstos": [
+    {
+     "respuesta": "law",
+     "explicacion": "Law es la ley ya vigente o el derecho en general; lo que se debate en la cámara antes de aprobarse es un bill."
+    },
+    {
+     "respuesta": "act",
+     "explicacion": "Act es la ley una vez aprobada; si todavía va a debatirse, es un bill."
+    },
+    {
+     "respuesta": "project",
+     "explicacion": "Calco de «proyecto de ley»: en inglés no se dice «law project» ni «project», sino bill."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "bill",
+     "significado": "proyecto de ley"
+    },
+    {
+     "palabra": "to debate",
+     "significado": "debatir"
+    },
+    {
+     "palabra": "the House",
+     "significado": "la Cámara (del Parlamento)"
+    }
+   ]
+  },
+  {
+   "id": "e04",
+   "tipo": "eleccion",
+   "enunciado": "Elige la opción correcta.",
+   "frase": "The Senate ___ the bill by 60 votes to 40.",
+   "opciones": [
+    "passed",
+    "approved of",
+    "elected",
+    "voted"
+   ],
+   "respuestas": [
+    "passed"
+   ],
+   "explicacion": "Se aplica la fila «to pass / to reject a bill» y la nota de la ficha según la cual elect se usa para personas, mientras que para leyes se dice pass o adopt. La pista es el complemento the bill y el resultado de la votación (by 60 votes to 40): una cámara que aprueba un texto legal lo passes. Fíjate también en la fórmula by 60 votes to 40, «por 60 votos contra 40».",
+   "explicacion_breve": "Aprobar una ley es «pass»; «elect» es para personas.",
+   "traduccion": "El Senado aprobó el proyecto de ley por 60 votos contra 40.",
+   "por_opcion": {
+    "passed": "Correcta: pass a bill es la colocación fija para «aprobar un proyecto de ley» en una votación.",
+    "approved of": "Incorrecta: approve of significa «ver con buenos ojos, estar de acuerdo con» (I don't approve of his behaviour). Approve sin of sí podría usarse, pero pass es la expresión propia.",
+    "elected": "Incorrecta: elect se usa para personas (She was elected president), no para leyes.",
+    "voted": "Incorrecta: vote no lleva objeto directo así; se dice vote for o vote on a bill (votar a favor, votar sobre), no «vote the bill»."
+   },
+   "glosario": [
+    {
+     "palabra": "to pass a bill",
+     "significado": "aprobar un proyecto de ley"
+    },
+    {
+     "palabra": "by 60 votes to 40",
+     "significado": "por 60 votos contra 40"
+    },
+    {
+     "palabra": "Senate",
+     "significado": "Senado"
+    }
+   ]
+  },
+  {
+   "id": "e05",
+   "tipo": "hueco",
+   "enunciado": "Completa con una palabra (participación).",
+   "frase": "Voter ___ fell to a record low of 45%.",
+   "respuestas": [
+    "turnout"
+   ],
+   "explicacion": "Se aplica la fila «to vote / voter / turnout» de la tabla: turnout es la participación, el porcentaje de personas con derecho a voto que acuden a votar. La pista es voter ___ seguido de un porcentaje (45%) y de fell: lo que cae es la proporción de votantes. Voter turnout es la colocación habitual en la prensa, y a record low significa «un mínimo histórico».",
+   "explicacion_breve": "La participación electoral es «turnout».",
+   "traduccion": "La participación electoral cayó a un mínimo histórico del 45 %.",
+   "errores_previstos": [
+    {
+     "respuesta": "participation",
+     "explicacion": "Participation existe, pero no es la palabra que se usa para la participación electoral; lo idiomático es turnout."
+    },
+    {
+     "respuesta": "turn out",
+     "explicacion": "Separado es el verbo frasal (to turn out, acudir o resultar); el sustantivo se escribe junto: turnout."
+    },
+    {
+     "respuesta": "assistance",
+     "explicacion": "Falso amigo de «asistencia»: assistance significa «ayuda». Para la participación electoral se usa turnout."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "turnout",
+     "significado": "participación (electoral)"
+    },
+    {
+     "palabra": "voter",
+     "significado": "votante, elector"
+    },
+    {
+     "palabra": "a record low",
+     "significado": "un mínimo histórico"
+    }
+   ]
+  },
+  {
+   "id": "e06",
+   "tipo": "eleccion",
+   "enunciado": "Elige la opción correcta.",
+   "frase": "She is ___ for mayor of Seville.",
+   "opciones": [
+    "running",
+    "presenting",
+    "standing up",
+    "going"
+   ],
+   "respuestas": [
+    "running"
+   ],
+   "explicacion": "Se aplica la fila «to run for office» de la tabla: run for significa presentarse como candidato a un cargo (run for mayor, run for president). La pista es la preposición for seguida del cargo, mayor, y el tiempo is ___ing, que indica una candidatura en curso. Recuerda la nota de la ficha: mayor es «alcalde», no «mayor de edad». En inglés británico también se dice stand for, sin up.",
+   "explicacion_breve": "«Run for» = presentarse como candidato a un cargo.",
+   "traduccion": "Se presenta como candidata a la alcaldía de Sevilla.",
+   "por_opcion": {
+    "running": "Correcta: run for + cargo es la expresión para presentarse como candidato.",
+    "presenting": "Incorrecta: calco de «presentarse». Present significa presentar algo o a alguien (un programa, un informe), no ser candidato.",
+    "standing up": "Incorrecta: stand up es «ponerse de pie». En inglés británico se dice stand for mayor, pero sin up.",
+    "going": "Incorrecta: go for significa «intentar conseguir algo» o «elegir», pero no es la expresión para una candidatura electoral."
+   },
+   "glosario": [
+    {
+     "palabra": "to run for",
+     "significado": "presentarse (como candidato) a"
+    },
+    {
+     "palabra": "mayor",
+     "significado": "alcalde, alcaldesa"
+    }
+   ]
+  },
+  {
+   "id": "e07",
+   "tipo": "corregir",
+   "enunciado": "Corrige el error.",
+   "frase": "Unemployment is the main issue in Spanish policy today.",
+   "respuestas": [
+    "Unemployment is the main issue in Spanish politics today."
+   ],
+   "explicacion": "Se aplica la distinción entre policy y politics. La pista es «Spanish ___»: no se habla de una medida concreta, sino de la vida política del país en general, de lo que se debate en ella. Eso es politics. Spanish policy significaría la línea de actuación de España en algún ámbito concreto, y además pediría precisar cuál (Spanish foreign policy). Issue, por su parte, es «asunto, cuestión, problema» en el debate público.",
+   "explicacion_breve": "La vida política en general es «politics».",
+   "traduccion": "El paro es el principal problema de la política española hoy en día.",
+   "errores_previstos": [
+    {
+     "respuesta": "Unemployment is the main issue in Spanish policy today.",
+     "explicacion": "Es la frase sin corregir: policy es una medida concreta; la vida política en general es politics."
+    },
+    {
+     "respuesta": "Unemployment is the main issue in Spanish politic today.",
+     "explicacion": "Politic no es sustantivo; la actividad política es politics, con -s."
+    },
+    {
+     "respuesta": "Unemployment is the main issue in Spanish policies today.",
+     "explicacion": "Policies son varias medidas concretas; para la vida política en general se dice politics."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "unemployment",
+     "significado": "desempleo, paro"
+    },
+    {
+     "palabra": "issue",
+     "significado": "asunto, cuestión, problema (en el debate público)"
+    },
+    {
+     "palabra": "politics",
+     "significado": "la política (actividad, vida política)"
+    }
+   ]
+  },
+  {
+   "id": "e08",
+   "tipo": "hueco",
+   "enunciado": "Completa con una palabra (eurodiputados).",
+   "frase": "Most ___ voted in favour of the new regulation.",
+   "respuestas": [
+    "MEPs"
+   ],
+   "explicacion": "Se aplica la tabla de la Unión Europea: MEP son las siglas de Member of the European Parliament, eurodiputado. La pista es que votan sobre un regulation, una norma europea, y que most pide un sustantivo plural, de ahí MEPs con -s minúscula sin apóstrofo. No confundir con MPs, que son los diputados de un parlamento nacional como el británico.",
+   "explicacion_breve": "Los eurodiputados son «MEPs» (Members of the European Parliament).",
+   "traduccion": "La mayoría de los eurodiputados votaron a favor del nuevo reglamento.",
+   "errores_previstos": [
+    {
+     "respuesta": "MPs",
+     "explicacion": "MPs son diputados de un parlamento nacional; los del Parlamento Europeo son MEPs."
+    },
+    {
+     "respuesta": "MEP's",
+     "explicacion": "El plural de unas siglas se forma con -s sin apóstrofo: MEPs. MEP's sería un genitivo."
+    },
+    {
+     "respuesta": "eurodeputies",
+     "explicacion": "Calco del español: en inglés no se usa; se dice MEPs."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "MEP",
+     "significado": "eurodiputado (Member of the European Parliament)"
+    },
+    {
+     "palabra": "to vote in favour of",
+     "significado": "votar a favor de"
+    },
+    {
+     "palabra": "regulation",
+     "significado": "reglamento (norma de la UE directamente aplicable)"
+    }
+   ]
+  },
+  {
+   "id": "e09",
+   "tipo": "eleccion",
+   "enunciado": "Elige la opción correcta.",
+   "frase": "Decisions on taxation in the EU require ___.",
+   "opciones": [
+    "unanimity",
+    "unanimous",
+    "unity"
+   ],
+   "respuestas": [
+    "unanimity"
+   ],
+   "explicacion": "Se aplica la fila «unanimity / qualified majority» de la tabla europea. La pista es gramatical: tras el verbo require hace falta un sustantivo que funcione como objeto, y unanimity es el sustantivo, «unanimidad». En la UE, las cuestiones fiscales siguen exigiendo unanimidad en el Consejo, mientras que la mayoría de las decisiones se adoptan por mayoría cualificada (qualified majority).",
+   "explicacion_breve": "Se necesita un sustantivo: «unanimity» (unanimidad).",
+   "traduccion": "Las decisiones sobre fiscalidad en la UE exigen unanimidad.",
+   "por_opcion": {
+    "unanimity": "Correcta: es el sustantivo «unanimidad», el objeto que necesita require.",
+    "unanimous": "Incorrecta: es el adjetivo «unánime» (a unanimous decision); no puede ser objeto de require.",
+    "unity": "Incorrecta: unity es «unidad» (de un grupo, de un país); no es la regla de votación que exige el acuerdo de todos."
+   },
+   "glosario": [
+    {
+     "palabra": "unanimity",
+     "significado": "unanimidad"
+    },
+    {
+     "palabra": "taxation",
+     "significado": "fiscalidad, tributación"
+    },
+    {
+     "palabra": "to require",
+     "significado": "exigir, requerir"
+    }
+   ]
+  },
+  {
+   "id": "e10",
+   "tipo": "hueco",
+   "enunciado": "Completa con un verbo + partícula (dimitir).",
+   "frase": "The minister was forced to step ___ after the scandal.",
+   "respuestas": [
+    "down"
+   ],
+   "explicacion": "Se aplica la fila «to step down / to resign» de la tabla: step down es un verbo frasal que significa dejar un cargo, dimitir. La pista es el contexto (un ministro tras un escándalo) y la estructura was forced to step ___, que pide la partícula. Step down es algo más neutro que resign y se usa mucho en prensa; down transmite la idea de «bajar» del puesto.",
+   "explicacion_breve": "«Step down» = dimitir, dejar el cargo.",
+   "traduccion": "El ministro se vio obligado a dimitir tras el escándalo.",
+   "errores_previstos": [
+    {
+     "respuesta": "out",
+     "explicacion": "Step out significa «salir un momento»; para dejar un cargo se dice step down."
+    },
+    {
+     "respuesta": "back",
+     "explicacion": "Step back es «dar un paso atrás» o distanciarse; no es la expresión fija para dimitir."
+    },
+    {
+     "respuesta": "up",
+     "explicacion": "Step up significa «dar un paso al frente, intensificar o asumir más responsabilidad»: justo lo contrario de dejar el cargo, que es step down."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "to step down",
+     "significado": "dimitir, dejar el cargo"
+    },
+    {
+     "palabra": "to be forced to",
+     "significado": "verse obligado a"
+    },
+    {
+     "palabra": "scandal",
+     "significado": "escándalo"
+    }
+   ]
+  },
+  {
+   "id": "e11",
+   "tipo": "corregir",
+   "enunciado": "Corrige el error (falso amigo).",
+   "frase": "The major of London opened the new bridge.",
+   "respuestas": [
+    "The Mayor of London opened the new bridge.",
+    "The mayor of London opened the new bridge."
+   ],
+   "explicacion": "Se aplica la nota de la ficha sobre mayor, que significa alcalde. El error es de ortografía y significado: major (con j) es un adjetivo que significa «principal, importante» (a major problem) o un sustantivo militar, «comandante». La pista es el sentido: quien inaugura un puente en una ciudad es su alcalde. Se acepta con mayúscula o sin ella, porque con el nombre del cargo concreto (the Mayor of London) es frecuente la mayúscula. Open aquí significa «inaugurar».",
+   "explicacion_breve": "Alcalde es «mayor»; «major» significa principal o comandante.",
+   "traduccion": "El alcalde de Londres inauguró el nuevo puente.",
+   "errores_previstos": [
+    {
+     "respuesta": "The major of London opened the new bridge.",
+     "explicacion": "Es la frase sin corregir: major es «principal» o «comandante»; alcalde es mayor."
+    },
+    {
+     "respuesta": "The Mayor from London opened the new bridge.",
+     "explicacion": "El cargo de una ciudad se expresa con of: the Mayor of London. From indicaría solo el origen de la persona."
+    },
+    {
+     "respuesta": "The alcalde of London opened the new bridge.",
+     "explicacion": "Mezcla de lenguas: alcalde en inglés es mayor."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "mayor",
+     "significado": "alcalde"
+    },
+    {
+     "palabra": "major",
+     "significado": "principal, importante; comandante (militar)"
+    },
+    {
+     "palabra": "to open",
+     "significado": "abrir; inaugurar"
+    },
+    {
+     "palabra": "bridge",
+     "significado": "puente"
+    }
+   ]
+  },
+  {
+   "id": "e12",
+   "tipo": "eleccion",
+   "enunciado": "Elige la opción correcta.",
+   "frase": "No party won a majority, so they had to form a ___.",
+   "opciones": [
+    "coalition",
+    "collision",
+    "collation"
+   ],
+   "respuestas": [
+    "coalition"
+   ],
+   "explicacion": "Se aplica la fila «coalition» de la tabla: un gobierno formado por varios partidos es una coalition, y la colocación es form a coalition. La pista es la primera parte de la frase: si ningún partido tiene mayoría, la salida es aliarse. Las otras opciones son parónimos, palabras de forma parecida pero significado muy distinto, que conviene no confundir al escribir.",
+   "explicacion_breve": "Un gobierno de varios partidos es una «coalition».",
+   "traduccion": "Ningún partido obtuvo la mayoría, así que tuvieron que formar una coalición.",
+   "por_opcion": {
+    "coalition": "Correcta: coalición, alianza de varios partidos para gobernar (form a coalition).",
+    "collision": "Incorrecta: collision es «choque, colisión» (de vehículos, de intereses); no se forma para gobernar.",
+    "collation": "Incorrecta: collation es «cotejo, recopilación» de datos o documentos, y en estilo formal «refrigerio»; nada que ver con la política."
+   },
+   "glosario": [
+    {
+     "palabra": "coalition",
+     "significado": "coalición"
+    },
+    {
+     "palabra": "majority",
+     "significado": "mayoría"
+    },
+    {
+     "palabra": "to form",
+     "significado": "formar"
+    }
+   ]
+  },
+  {
+   "id": "e13",
+   "tipo": "hueco",
+   "enunciado": "Completa con una palabra (encuestas).",
+   "frase": "The Greens are rising in the opinion ___.",
+   "respuestas": [
+    "polls"
+   ],
+   "explicacion": "Se aplica la fila «polls / opinion poll» de la tabla: opinion poll es una encuesta de opinión, y en plural, the polls, también se refiere a las urnas (go to the polls, acudir a las urnas). La pista es la palabra opinion delante del hueco y la expresión rise in the polls, subir en las encuestas. Fíjate en que va en plural porque se habla de las encuestas en general.",
+   "explicacion_breve": "Las encuestas son «opinion polls».",
+   "traduccion": "Los Verdes están subiendo en las encuestas.",
+   "errores_previstos": [
+    {
+     "respuesta": "surveys",
+     "explicacion": "Survey es una encuesta en general (de mercado, de satisfacción); detrás de opinion la colocación es polls."
+    },
+    {
+     "respuesta": "poll",
+     "explicacion": "Hace falta el plural: se sube «en las encuestas», in the opinion polls."
+    },
+    {
+     "respuesta": "pools",
+     "explicacion": "Pool es «piscina» o «fondo común»; la encuesta es poll, con una sola o."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "opinion poll",
+     "significado": "encuesta de opinión"
+    },
+    {
+     "palabra": "the Greens",
+     "significado": "los Verdes (partido ecologista)"
+    },
+    {
+     "palabra": "to rise",
+     "significado": "subir, crecer"
+    }
+   ]
+  },
+  {
+   "id": "e14",
+   "tipo": "ordenar",
+   "enunciado": "Ordena las palabras.",
+   "palabras": [
+    "called",
+    "a",
+    "The",
+    "election",
+    "Prime",
+    "general",
+    "Minister",
+    "snap"
+   ],
+   "respuestas": [
+    "The Prime Minister called a snap general election"
+   ],
+   "explicacion": "Se aplica la fila «general election» y la colocación call an election, convocar elecciones. La pista para el orden es la estructura sujeto + verbo + objeto: The Prime Minister (sujeto) + called (verbo) + a snap general election (objeto). Dentro del objeto, los modificadores van delante del sustantivo: primero snap, que significa «anticipado, repentino», y luego general, que forma con election un compuesto fijo.",
+   "explicacion_breve": "«Call an election» = convocar elecciones; «snap» = anticipadas.",
+   "traduccion": "El primer ministro convocó unas elecciones generales anticipadas.",
+   "errores_previstos": [
+    {
+     "respuesta": "The Prime Minister called a general snap election",
+     "explicacion": "General election es un compuesto fijo y no se separa: snap va delante de todo, a snap general election."
+    },
+    {
+     "respuesta": "The Prime Minister called a snap election general",
+     "explicacion": "Calco del orden español («elecciones generales»): en inglés los modificadores van delante del sustantivo."
+    },
+    {
+     "respuesta": "The Minister Prime called a snap general election",
+     "explicacion": "Prime Minister es un compuesto fijo con este orden: Prime Minister."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "to call an election",
+     "significado": "convocar elecciones"
+    },
+    {
+     "palabra": "snap election",
+     "significado": "elecciones anticipadas"
+    },
+    {
+     "palabra": "general election",
+     "significado": "elecciones generales"
+    }
+   ]
+  },
+  {
+   "id": "e15",
+   "tipo": "eleccion",
+   "enunciado": "Elige la opción correcta.",
+   "frase": "EU ___ must be transposed into national law.",
+   "opciones": [
+    "directives",
+    "regulations",
+    "treaties"
+   ],
+   "respuestas": [
+    "directives"
+   ],
+   "explicacion": "Se aplica la fila «directive / regulation» de la tabla europea y su ejemplo: las directivas fijan un objetivo y cada Estado miembro debe incorporarlas a su ordenamiento, es decir, transponerlas. La pista es la expresión be transposed into national law, que solo tiene sentido con directives. Los reglamentos (regulations), en cambio, son directamente aplicables sin necesidad de transposición, y los tratados se ratifican.",
+   "explicacion_breve": "Las directivas se transponen; los reglamentos son directamente aplicables.",
+   "traduccion": "Las directivas de la UE deben transponerse al derecho nacional.",
+   "por_opcion": {
+    "directives": "Correcta: las directivas obligan en cuanto al resultado y deben transponerse al derecho nacional.",
+    "regulations": "Incorrecta: los reglamentos son obligatorios y directamente aplicables en todos los Estados miembros; no se transponen.",
+    "treaties": "Incorrecta: los tratados son el derecho originario y se firman y ratifican; no se transponen como las directivas."
+   },
+   "glosario": [
+    {
+     "palabra": "directive",
+     "significado": "directiva (norma de la UE que debe transponerse)"
+    },
+    {
+     "palabra": "to transpose into",
+     "significado": "transponer a (incorporar al derecho nacional)"
+    },
+    {
+     "palabra": "national law",
+     "significado": "derecho nacional"
+    }
+   ]
+  }
  ],
- "fuente": {"nombre": "propia"}
+ "fuente": {
+  "nombre": "propia"
+ },
+ "descripcion_larga_es": "Vocabulario para hablar de gobiernos, parlamentos, elecciones e instituciones de la Unión Europea en inglés: bill, MP, turnout, coalition, directive, qualified majority. Es imprescindible para comentar noticias y para exponer el marco institucional en un examen oral. Cuesta al hispanohablante porque una sola palabra española, «política», se reparte en policy y politics, y porque hay falsos amigos como mayor o major.",
+ "contexto": {
+  "que_es": "Es el léxico básico de la vida política y de las instituciones: órganos (government, cabinet, Parliament, the European Commission), personas (MP, MEP, Prime Minister), procesos (to pass a bill, to call an election, to run for office) y conceptos (turnout, coalition, unanimity). Incluye la distinción clave entre policy (una medida concreta) y politics (la actividad política).",
+  "por_que_importa": "La política y la Unión Europea aparecen constantemente en la prensa y en cualquier examen oral de nivel B2 o superior, y más aún para un futuro Técnico Comercial. Usar policy por politics, elect por pass o major por mayor produce frases que un nativo entiende con esfuerzo y que delatan un calco del español. Un vocabulario preciso da credibilidad al exponer un tema institucional.",
+  "cuando_se_usa": "Al comentar noticias de actualidad, explicar cómo se aprueba una norma, describir unas elecciones o el reparto de competencias en la UE. Las señales son palabras como vote, election, law, minister o Brussels. El hispanohablante tiende a decir «approve a law» (se entiende, pero lo idiomático es pass) y a usar «policy» para todo lo político."
+ }
 }

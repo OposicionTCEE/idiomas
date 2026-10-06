@@ -136,7 +136,23 @@
    "respuestas": [
     "serait"
    ],
-   "explicacion": "Au cas où + condicional."
+   "explicacion": "Se aplica la primera fila de la tabla de conectores: au cas où expresa una eventualidad y va seguido de condicional. La pista está al principio de la frase, en au cas où, que no admite ni presente de indicativo ni subjuntivo. Por eso el verbo être se pone en condicional presente con sujeto de tercera persona del singular: le vol serait annulé. La principal, en cambio, puede ir en futuro (remboursera) porque expresa lo que ocurrirá si se da la eventualidad.",
+   "explicacion_breve": "Au cas où + condicional.",
+   "traduccion": "En caso de que el vuelo fuera cancelado, la compañía le reembolsará.",
+   "errores_previstos": [
+    {
+     "respuesta": "soit",
+     "explicacion": "Es el calco del subjuntivo español («fuera», «sea»). Au cas où no rige subjuntivo sino condicional: au cas où le vol serait annulé."
+    },
+    {
+     "respuesta": "est",
+     "explicacion": "El presente de indicativo es lo que se pondría tras si (s'il est annulé), pero au cas où exige condicional."
+    },
+    {
+     "respuesta": "sera",
+     "explicacion": "El futuro no se usa tras au cas où; la eventualidad se expresa con el condicional serait."
+    }
+   ]
   },
   {
    "id": "e02",
@@ -146,7 +162,23 @@
    "respuestas": [
     "rendes"
    ],
-   "explicacion": "À condition que + subjuntivo."
+   "explicacion": "Se aplica la regla de la tabla según la cual à condition que expresa una condición necesaria y exige subjuntivo. La pista es à condition que seguido de un sujeto distinto (tu) del de la principal (je): por eso no puede usarse à condition de + infinitivo. El subjuntivo presente de rendre para tu es rendes (que tu rendes), que en este verbo coincide en la escritura con el presente de indicativo, pero aquí funciona como subjuntivo.",
+   "explicacion_breve": "À condition que + subjuntivo.",
+   "traduccion": "Te presto mi coche con la condición de que me lo devuelvas el domingo.",
+   "errores_previstos": [
+    {
+     "respuesta": "rendras",
+     "explicacion": "Es el calco de una condición pensada en futuro. À condition que no admite futuro: exige subjuntivo presente, que tu la rendes."
+    },
+    {
+     "respuesta": "rends",
+     "explicacion": "Es el presente de indicativo; tras à condition que hace falta el subjuntivo, cuya forma para tu termina en -es: rendes."
+    },
+    {
+     "respuesta": "rendrais",
+     "explicacion": "El condicional es el modo de au cas où, no de à condition que, que pide subjuntivo."
+    }
+   ]
   },
   {
    "id": "e03",
@@ -156,7 +188,23 @@
    "respuestas": [
     "sache"
    ],
-   "explicacion": "Pour peu que + subjuntivo."
+   "explicacion": "Se aplica la fila de pour peu que, que significa «basta con que, con solo que» y exige subjuntivo. La pista es el propio conector pour peu que al inicio de la frase. Savoir tiene un subjuntivo irregular: que je sache, que l'on sache; por eso la forma correcta es sache y no sait. El l' delante de on es solo eufónico, propio del registro cuidado, y no cambia la persona del verbo, que sigue siendo tercera del singular.",
+   "explicacion_breve": "Pour peu que + subjuntivo.",
+   "traduccion": "Con tal de que uno sepa cómo hacerlo, este jardín es fácil de mantener.",
+   "errores_previstos": [
+    {
+     "respuesta": "sait",
+     "explicacion": "Es el presente de indicativo. Pour peu que exige subjuntivo, y el de savoir es irregular: sache."
+    },
+    {
+     "respuesta": "save",
+     "explicacion": "Es una forma inventada al aplicar la regla general del subjuntivo; savoir es irregular y su subjuntivo es sache."
+    },
+    {
+     "respuesta": "saurait",
+     "explicacion": "El condicional corresponde a au cas où, no a pour peu que, que pide subjuntivo."
+    }
+   ]
   },
   {
    "id": "e04",
@@ -167,7 +215,23 @@
     "dise",
     "ait dit"
    ],
-   "explicacion": "À supposer que + subjuntivo (presente o pasado)."
+   "explicacion": "Se aplica la fila de à supposer que, conector de hipótesis que exige subjuntivo. La pista es à supposer qu' seguido de il. Se admiten dos respuestas: el subjuntivo presente dise, si se piensa en lo que dice ahora, y el subjuntivo pasado ait dit (auxiliar avoir en subjuntivo + participio), si se piensa en algo que ya dijo. Ambas cumplen la regla porque las dos están en subjuntivo; la diferencia es solo temporal.",
+   "explicacion_breve": "À supposer que + subjuntivo (presente o pasado).",
+   "traduccion": "Suponiendo que diga (o haya dicho) la verdad, ¿cómo explicarlo?",
+   "errores_previstos": [
+    {
+     "respuesta": "dit",
+     "explicacion": "Es el presente de indicativo (o el participio suelto). À supposer que exige subjuntivo: dise o ait dit."
+    },
+    {
+     "respuesta": "dirait",
+     "explicacion": "El condicional es el modo de au cas où; à supposer que pide subjuntivo."
+    },
+    {
+     "respuesta": "a dit",
+     "explicacion": "Es el passé composé de indicativo; el pasado correcto en subjuntivo lleva el auxiliar en subjuntivo: ait dit."
+    }
+   ]
   },
   {
    "id": "e05",
@@ -182,7 +246,14 @@
    "respuestas": [
     "En cas de"
    ],
-   "explicacion": "Ante un nombre sin artículo se usa en cas de."
+   "explicacion": "Se aplica la fila de en cas de, que introduce una eventualidad mediante un nombre. La pista es que tras el hueco viene directamente un sustantivo sin artículo (panne) y no una oración con verbo conjugado. Au cas où necesitaría un sujeto y un verbo en condicional (au cas où il y aurait une panne), y à condition de solo va con infinitivo. Es la fórmula típica de avisos e instrucciones.",
+   "explicacion_breve": "Ante un nombre sin artículo se usa en cas de.",
+   "traduccion": "En caso de avería, llame al número indicado.",
+   "por_opcion": {
+    "En cas de": "Correcta: va seguida de un nombre sin artículo y expresa una eventualidad, «en caso de avería».",
+    "Au cas où": "Incorrecta aquí: introduce una oración con verbo en condicional (au cas où il y aurait une panne), no un nombre solo.",
+    "À condition de": "Incorrecta: expresa una condición necesaria y va con infinitivo (à condition de réserver), no con un nombre."
+   }
   },
   {
    "id": "e06",
@@ -197,7 +268,14 @@
    "respuestas": [
     "à condition de"
    ],
-   "explicacion": "Con infinitivo y mismo sujeto: à condition de."
+   "explicacion": "Se aplica la regla de la ficha según la cual, con el mismo sujeto, se prefiere à condition de + infinitivo en lugar de à condition que + subjuntivo. La pista es el infinitivo réserver que sigue al hueco y el hecho de que quien reserva es el mismo vous que obtiene el descuento. Por eso la forma correcta es à condition de réserver, que expresa una condición necesaria.",
+   "explicacion_breve": "Con infinitivo y mismo sujeto: à condition de.",
+   "traduccion": "Obtendrá un descuento con la condición de reservar antes del 15 de mayo.",
+   "por_opcion": {
+    "à condition de": "Correcta: introduce un infinitivo con el mismo sujeto que la principal y expresa una condición necesaria.",
+    "à condition que": "Incorrecta: exige una oración con sujeto propio y verbo en subjuntivo (à condition que vous réserviez), no un infinitivo.",
+    "au cas où": "Incorrecta: introduce una eventualidad con verbo conjugado en condicional, nunca un infinitivo; además el sentido sería «por si reservara», no una condición."
+   }
   },
   {
    "id": "e07",
@@ -212,7 +290,14 @@
    "respuestas": [
     "à moins qu'"
    ],
-   "explicacion": "Salvo que llueva: à moins que, que admite el ne expletivo."
+   "explicacion": "Se aplica la fila de à moins que, que significa «a menos que, salvo que», exige subjuntivo y admite el ne expletivo. La pista es doble: el verbo pleuve está en subjuntivo y va precedido de ne sin pas, que es precisamente el ne expletivo típico de à moins que. El sentido también lo confirma: la lluvia es lo que impediría el concierto al aire libre, es decir, una condición excluyente.",
+   "explicacion_breve": "Salvo que llueva: à moins que, que admite el ne expletivo.",
+   "traduccion": "El concierto tendrá lugar al aire libre, salvo que llueva.",
+   "por_opcion": {
+    "à moins qu'": "Correcta: «salvo que», con subjuntivo y el ne expletivo que aparece en la frase.",
+    "au cas où": "Incorrecta: exigiría condicional (au cas où il pleuvrait) y significaría «por si llueve», lo contrario de lo que se quiere decir.",
+    "pourvu qu'": "Incorrecta por el sentido: significa «siempre que» o «con tal de que», y no lleva ne expletivo; diría que el concierto se hará al aire libre con tal de que llueva."
+   }
   },
   {
    "id": "e08",
@@ -227,7 +312,14 @@
    "respuestas": [
     "ferait"
    ],
-   "explicacion": "Au cas où + condicional."
+   "explicacion": "Se aplica de nuevo la regla de au cas où + condicional, que la ficha destaca en la lista de claves: aunque el español diga «por si hiciera», el francés no usa subjuntivo. La pista es au cas où justo antes del sujeto il. El condicional presente de faire es ferait, y la expresión impersonal il fait froid pasa a il ferait froid.",
+   "explicacion_breve": "Au cas où + condicional.",
+   "traduccion": "Coge el abrigo, por si hiciera frío.",
+   "por_opcion": {
+    "ferait": "Correcta: condicional presente de faire, el modo que exige au cas où.",
+    "fasse": "Incorrecta: es el subjuntivo, calco del español «por si hiciera»; au cas où no lo admite.",
+    "fait": "Incorrecta: el presente de indicativo iría con si (s'il fait froid), no con au cas où."
+   }
   },
   {
    "id": "e09",
@@ -237,7 +329,19 @@
    "respuestas": [
     "Au cas où il y aurait un problème, appelez-moi."
    ],
-   "explicacion": "Si + presente → au cas où + condicional."
+   "explicacion": "La transformación aplica la regla de au cas où + condicional. Con si, la condición real va en presente (s'il y a un problème); al cambiar el conector, el verbo pasa al condicional: il y a se convierte en il y aurait. La principal en imperativo (appelez-moi) no cambia. El matiz es de eventualidad: se prevé un problema que quizá no ocurra.",
+   "explicacion_breve": "Si + presente → au cas où + condicional.",
+   "traduccion": "Por si hubiera algún problema, llámeme.",
+   "errores_previstos": [
+    {
+     "respuesta": "Au cas où il y a un problème, appelez-moi.",
+     "explicacion": "Se ha cambiado el conector pero se ha mantenido el presente de si. Au cas où exige condicional: il y aurait."
+    },
+    {
+     "respuesta": "Au cas où il y ait un problème, appelez-moi.",
+     "explicacion": "Es el calco del subjuntivo español («por si haya»). Au cas où pide condicional, no subjuntivo."
+    }
+   ]
   },
   {
    "id": "e10",
@@ -247,7 +351,23 @@
    "respuestas": [
     "En cas d'accident, composez le 112."
    ],
-   "explicacion": "En cas de + nombre sin artículo (con elisión ante vocal)."
+   "explicacion": "Se aplica la fila de en cas de + nombre. La oración con si y verbo (s'il y a un accident) se condensa en un grupo nominal sin artículo: en cas d'accident. Como accident empieza por vocal, de se apostrofa y queda d'. Es una construcción más breve y propia de avisos oficiales.",
+   "explicacion_breve": "En cas de + nombre sin artículo (con elisión ante vocal).",
+   "traduccion": "En caso de accidente, marque el 112.",
+   "errores_previstos": [
+    {
+     "respuesta": "En cas de un accident, composez le 112.",
+     "explicacion": "Es el calco de «en caso de un accidente». En cas de va seguido del nombre sin artículo y con elisión: en cas d'accident."
+    },
+    {
+     "respuesta": "En cas de accident, composez le 112.",
+     "explicacion": "Falta la elisión obligatoria ante vocal: de + accident se escribe d'accident."
+    },
+    {
+     "respuesta": "En cas d'un accident, composez le 112.",
+     "explicacion": "Sobra el artículo un; en esta locución el nombre va sin determinante: en cas d'accident."
+    }
+   ]
   },
   {
    "id": "e11",
@@ -257,7 +377,19 @@
    "respuestas": [
     "Au cas où tu aurais besoin de moi, je suis dans le bureau d'à côté."
    ],
-   "explicacion": "Au cas où no va con subjuntivo, sino con condicional."
+   "explicacion": "El error está en aies, subjuntivo de avoir: es exactamente el error típico que la ficha recoge, porque el español dice «por si me necesitaras» con subjuntivo. Au cas où exige condicional, así que avoir besoin pasa a tu aurais besoin. El resto de la frase, con la principal en presente (je suis), es correcto.",
+   "explicacion_breve": "Au cas où no va con subjuntivo, sino con condicional.",
+   "traduccion": "Por si me necesitaras, estoy en el despacho de al lado.",
+   "errores_previstos": [
+    {
+     "respuesta": "Au cas où tu aies besoin de moi, je suis dans le bureau d'à côté.",
+     "explicacion": "Es copiar la frase sin corregir: au cas où no admite el subjuntivo aies, exige el condicional aurais."
+    },
+    {
+     "respuesta": "Au cas où tu as besoin de moi, je suis dans le bureau d'à côté.",
+     "explicacion": "El presente de indicativo iría tras si (si tu as besoin de moi), pero no tras au cas où, que pide condicional."
+    }
+   ]
   },
   {
    "id": "e12",
@@ -267,7 +399,23 @@
    "respuestas": [
     "Je t'accompagne à condition que tu conduises."
    ],
-   "explicacion": "À condition que exige subjuntivo."
+   "explicacion": "El error está en conduis, presente de indicativo. Según la tabla de la ficha, à condition que exige subjuntivo, y el subjuntivo de conduire se forma sobre la raíz de ils conduisent: que tu conduises. Como el sujeto de la condición (tu) es distinto del de la principal (je), no cabe à condition de + infinitivo.",
+   "explicacion_breve": "À condition que exige subjuntivo.",
+   "traduccion": "Te acompaño con la condición de que conduzcas tú.",
+   "errores_previstos": [
+    {
+     "respuesta": "Je t'accompagne à condition que tu conduis.",
+     "explicacion": "Es dejar la frase sin corregir: tras à condition que el presente de indicativo conduis no vale; hace falta el subjuntivo conduises."
+    },
+    {
+     "respuesta": "Je t'accompagne à condition que tu conduire.",
+     "explicacion": "El infinitivo solo va tras à condition de y con el mismo sujeto; con tu hace falta subjuntivo: conduises."
+    },
+    {
+     "respuesta": "Je t'accompagne à condition que tu conduiras.",
+     "explicacion": "El futuro no se usa tras à condition que, que exige subjuntivo."
+    }
+   ]
   },
   {
    "id": "e13",
@@ -278,7 +426,23 @@
     "Pourvu qu'il fasse beau demain !",
     "Pourvu qu'il fasse beau demain!"
    ],
-   "explicacion": "Pourvu que + subjuntivo."
+   "explicacion": "El error está en fait, presente de indicativo. Pourvu que exige subjuntivo, y aquí, al principio de la frase y con exclamación, expresa un deseo, como recuerda la lista de claves de la ficha. El subjuntivo de faire es irregular: qu'il fasse. Se aceptan las dos grafías del signo de exclamación, con o sin espacio delante, aunque la tipografía francesa pone espacio.",
+   "explicacion_breve": "Pourvu que + subjuntivo.",
+   "traduccion": "¡Ojalá haga buen tiempo mañana!",
+   "errores_previstos": [
+    {
+     "respuesta": "Pourvu qu'il fait beau demain !",
+     "explicacion": "Es copiar la frase sin corregir: pourvu que exige subjuntivo y fait es indicativo."
+    },
+    {
+     "respuesta": "Pourvu qu'il fera beau demain !",
+     "explicacion": "Aunque la frase hable de mañana, pourvu que no admite futuro: siempre subjuntivo, qu'il fasse."
+    },
+    {
+     "respuesta": "Pourvu qu'il ferait beau demain !",
+     "explicacion": "El condicional es el modo de au cas où, no de pourvu que."
+    }
+   ]
   },
   {
    "id": "e14",
@@ -295,10 +459,28 @@
     "Sans ton aide j'aurais abandonné",
     "J'aurais abandonné sans ton aide"
    ],
-   "explicacion": "Sans + nombre expresa una condición negativa; la principal en condicional pasado."
+   "explicacion": "Se aplica la parte de la ficha sobre construcciones sin conector: sans + nombre equivale a una condición negativa en el pasado (si tu ne m'avais pas aidé). Por eso la principal va en condicional pasado, j'aurais abandonné. El grupo sans ton aide puede ir al principio, que es lo más natural y enfático, o al final de la frase; las dos ordenaciones son correctas. Dentro del grupo, el posesivo va delante del nombre: ton aide.",
+   "explicacion_breve": "Sans + nombre expresa una condición negativa; la principal en condicional pasado.",
+   "traduccion": "Sin tu ayuda, habría abandonado.",
+   "errores_previstos": [
+    {
+     "respuesta": "Sans aide ton j'aurais abandonné",
+     "explicacion": "El posesivo ton tiene que ir delante del nombre: sans ton aide."
+    },
+    {
+     "respuesta": "J'aurais sans ton aide abandonné",
+     "explicacion": "No se intercala el complemento entre el auxiliar y el participio; sans ton aide va al principio o al final."
+    }
+   ]
   }
  ],
  "fuente": {
   "nombre": "propia"
+ },
+ "descripcion_larga_es": "Esta ficha reúne los conectores con los que el francés expresa una condición o una hipótesis sin recurrir a si: au cas où, à condition que, pour peu que, à supposer que, à moins que, en cas de, sinon. Cada uno exige un modo concreto (condicional, subjuntivo, infinitivo o nombre), y el hispanohablante tiende a calcar el subjuntivo español donde el francés pide condicional, sobre todo tras au cas où.",
+ "contexto": {
+  "que_es": "Son locuciones conjuntivas y preposicionales que introducen una condición, una eventualidad o una suposición sin usar si. Unas van seguidas de una oración con verbo conjugado (au cas où + condicional; à condition que, pour peu que, à supposer que, à moins que, pourvu que + subjuntivo) y otras de un nombre o un infinitivo (en cas de + nombre, à condition de + infinitivo). También cuentan como hipótesis sin si el gerundio, sans + nombre y sinon.",
+  "por_que_importa": "En un registro culto o administrativo, como el de un informe económico o una exposición oral de examen, si se queda corto y repetitivo: estos conectores permiten matizar si la condición es necesaria, mínima, eventual o excluyente. Un error de modo, como au cas où il pleuve o à condition que tu viens, salta enseguida a la vista de un corrector nativo y delata un nivel inferior al C1. Además, confundir à moins que (salvo que) con pourvu que (siempre que) invierte el sentido de la frase.",
+  "cuando_se_usa": "Au cas où y en cas de aparecen en instrucciones, avisos y correos profesionales («por si…», «en caso de…»); à condition que y pourvu que en negociaciones y acuerdos; à supposer que en razonamientos y debates. La pista es siempre el conector: tras identificarlo, hay que elegir el modo que exige, sin dejarse guiar por el español, que usa subjuntivo en «por si lloviera» donde el francés pone condicional."
  }
 }

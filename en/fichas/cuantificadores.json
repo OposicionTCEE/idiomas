@@ -6,49 +6,451 @@
  "nivel": "A2",
  "resumen": "La elección del cuantificador depende de si el sustantivo es contable (books, people) o incontable (water, money, information). Many y a few van con contables; much y a little, con incontables.",
  "explicacion": [
-  {"tipo": "tabla", "cabecera": ["Significado", "Contables (plural)", "Incontables"], "filas": [
-   ["mucho/s", "many / a lot of", "much / a lot of"],
-   ["algunos, un poco (idea positiva)", "a few", "a little"],
-   ["pocos, poco (idea negativa)", "few", "little"],
-   ["¿cuánto/s?", "How many...?", "How much...?"]
-  ]},
-  {"tipo": "texto", "texto": "Much y many se usan sobre todo en preguntas y negaciones (I don't have much time; Are there many people?). En frases afirmativas suena más natural a lot of (We have a lot of work)."},
-  {"tipo": "texto", "texto": "A few / a little significan «unos cuantos, algo» y tienen sentido positivo: I have a few friends here (tengo algunos amigos). Sin a, few / little subrayan que es insuficiente: Few people came (vino poca gente)."},
-  {"tipo": "lista", "items": [
-   "Incontables frecuentes en inglés que en español son contables: information, advice, news, furniture, luggage, homework, research, equipment.",
-   "No llevan -s ni a / an: some advice, a piece of advice.",
-   "Too much / too many = demasiado/s: There are too many cars."
-  ]}
+  {
+   "tipo": "tabla",
+   "cabecera": [
+    "Significado",
+    "Contables (plural)",
+    "Incontables"
+   ],
+   "filas": [
+    [
+     "mucho/s",
+     "many / a lot of",
+     "much / a lot of"
+    ],
+    [
+     "algunos, un poco (idea positiva)",
+     "a few",
+     "a little"
+    ],
+    [
+     "pocos, poco (idea negativa)",
+     "few",
+     "little"
+    ],
+    [
+     "¿cuánto/s?",
+     "How many...?",
+     "How much...?"
+    ]
+   ]
+  },
+  {
+   "tipo": "texto",
+   "texto": "Much y many se usan sobre todo en preguntas y negaciones (I don't have much time; Are there many people?). En frases afirmativas suena más natural a lot of (We have a lot of work)."
+  },
+  {
+   "tipo": "texto",
+   "texto": "A few / a little significan «unos cuantos, algo» y tienen sentido positivo: I have a few friends here (tengo algunos amigos). Sin a, few / little subrayan que es insuficiente: Few people came (vino poca gente)."
+  },
+  {
+   "tipo": "lista",
+   "items": [
+    "Incontables frecuentes en inglés que en español son contables: information, advice, news, furniture, luggage, homework, research, equipment.",
+    "No llevan -s ni a / an: some advice, a piece of advice.",
+    "Too much / too many = demasiado/s: There are too many cars."
+   ]
+  }
  ],
  "ejemplos": [
-  {"frase": "How many brothers and sisters have you got?", "traduccion": "¿Cuántos hermanos tienes?"},
-  {"frase": "I don't drink much coffee.", "traduccion": "No bebo mucho café."},
-  {"frase": "There are a few apples in the fridge.", "traduccion": "Hay unas cuantas manzanas en la nevera."},
-  {"frase": "Could I have a little sugar, please?", "traduccion": "¿Me pones un poco de azúcar, por favor?"},
-  {"frase": "She gave me some good advice.", "traduccion": "Me dio unos buenos consejos."},
-  {"frase": "Very few students passed the exam.", "traduccion": "Aprobaron muy pocos alumnos."}
+  {
+   "frase": "How many brothers and sisters have you got?",
+   "traduccion": "¿Cuántos hermanos tienes?"
+  },
+  {
+   "frase": "I don't drink much coffee.",
+   "traduccion": "No bebo mucho café."
+  },
+  {
+   "frase": "There are a few apples in the fridge.",
+   "traduccion": "Hay unas cuantas manzanas en la nevera."
+  },
+  {
+   "frase": "Could I have a little sugar, please?",
+   "traduccion": "¿Me pones un poco de azúcar, por favor?"
+  },
+  {
+   "frase": "She gave me some good advice.",
+   "traduccion": "Me dio unos buenos consejos."
+  },
+  {
+   "frase": "Very few students passed the exam.",
+   "traduccion": "Aprobaron muy pocos alumnos."
+  }
  ],
  "errores_hispanohablantes": [
-  {"mal": "How much people were there?", "bien": "How many people were there?", "nota": "People es contable plural: many."},
-  {"mal": "Can you give me some informations?", "bien": "Can you give me some information?", "nota": "Information es incontable: sin -s."},
-  {"mal": "I have a little friends in London.", "bien": "I have a few friends in London.", "nota": "Con contables plurales se usa a few."}
+  {
+   "mal": "How much people were there?",
+   "bien": "How many people were there?",
+   "nota": "People es contable plural: many."
+  },
+  {
+   "mal": "Can you give me some informations?",
+   "bien": "Can you give me some information?",
+   "nota": "Information es incontable: sin -s."
+  },
+  {
+   "mal": "I have a little friends in London.",
+   "bien": "I have a few friends in London.",
+   "nota": "Con contables plurales se usa a few."
+  }
  ],
  "ejercicios": [
-  {"id": "e01", "tipo": "hueco", "enunciado": "Completa con much o many.", "frase": "How ___ money do you need?", "respuestas": ["much"], "explicacion": "Money es incontable: How much."},
-  {"id": "e02", "tipo": "hueco", "enunciado": "Completa con much o many.", "frase": "There aren't ___ hotels in this village.", "respuestas": ["many"], "explicacion": "Hotels es contable plural: many."},
-  {"id": "e03", "tipo": "hueco", "enunciado": "Completa con a few o a little.", "frase": "Add ___ salt to the water.", "respuestas": ["a little"], "explicacion": "Salt es incontable: a little."},
-  {"id": "e04", "tipo": "hueco", "enunciado": "Completa con a few o a little.", "frase": "I'll be ready in ___ minutes.", "respuestas": ["a few"], "explicacion": "Minutes es contable plural: a few."},
-  {"id": "e05", "tipo": "hueco", "enunciado": "Completa con much o many.", "frase": "We didn't have ___ homework yesterday.", "respuestas": ["much"], "explicacion": "Homework es incontable en inglés: much."},
-  {"id": "e06", "tipo": "eleccion", "enunciado": "Elige la opción correcta.", "frase": "There are too ___ chairs in this room.", "opciones": ["much", "many", "little"], "respuestas": ["many"], "explicacion": "Chairs es contable plural: too many."},
-  {"id": "e07", "tipo": "eleccion", "enunciado": "Elige la opción correcta.", "frase": "The town is very quiet. ___ tourists visit it.", "opciones": ["Few", "Little", "Much"], "respuestas": ["Few"], "explicacion": "Contable plural con sentido negativo (pocos): few."},
-  {"id": "e08", "tipo": "eleccion", "enunciado": "Elige la opción correcta.", "frase": "Can I ask you for some ___?", "opciones": ["advices", "advice", "an advice"], "respuestas": ["advice"], "explicacion": "Advice es incontable: sin -s ni an."},
-  {"id": "e09", "tipo": "eleccion", "enunciado": "Elige la opción correcta.", "frase": "We've got ___ milk left, so we don't need to buy any.", "opciones": ["a little", "a few", "many"], "respuestas": ["a little"], "explicacion": "Milk es incontable y la idea es positiva (suficiente): a little."},
-  {"id": "e10", "tipo": "corregir", "enunciado": "Corrige el error.", "frase": "How many luggage have you got?", "respuestas": ["How much luggage have you got?"], "explicacion": "Luggage es incontable: How much."},
-  {"id": "e11", "tipo": "corregir", "enunciado": "Corrige el error.", "frase": "I have a little questions for you.", "respuestas": ["I have a few questions for you."], "explicacion": "Questions es contable plural: a few."},
-  {"id": "e12", "tipo": "corregir", "enunciado": "Corrige el error.", "frase": "They bought some new furnitures.", "respuestas": ["They bought some new furniture."], "explicacion": "Furniture es incontable: sin -s."},
-  {"id": "e13", "tipo": "transformar", "enunciado": "Convierte la frase en pregunta con How many o How much sobre la cantidad.", "frase": "She drinks a lot of water.", "respuestas": ["How much water does she drink?"], "explicacion": "Water es incontable: How much + does + sujeto + infinitivo."},
-  {"id": "e14", "tipo": "ordenar", "enunciado": "Ordena las palabras para formar una pregunta.", "palabras": ["many", "how", "there", "are", "people"], "respuestas": ["How many people are there"], "explicacion": "How many + sustantivo plural + are there."},
-  {"id": "e15", "tipo": "ordenar", "enunciado": "Ordena las palabras.", "palabras": ["much", "have", "time", "don't", "we"], "respuestas": ["We don't have much time"], "explicacion": "Much se usa con incontables en negativas."}
+  {
+   "id": "e01",
+   "tipo": "hueco",
+   "enunciado": "Completa con much o many.",
+   "frase": "How ___ money do you need?",
+   "respuestas": [
+    "much"
+   ],
+   "explicacion": "Se aplica la tabla de Reglas y claves que separa contables e incontables: para preguntar «cuánto» con un incontable se usa How much. La pista está en money, que en inglés es incontable: nunca lleva -s ni se dice a money, aunque contemos euros. Por eso la pregunta correcta es How much money do you need?, con much delante de un nombre sin plural.",
+   "explicacion_breve": "Money es incontable: How much.",
+   "traduccion": "¿Cuánto dinero necesitas?",
+   "errores_previstos": [
+    {
+     "respuesta": "many",
+     "explicacion": "Many solo va con sustantivos contables en plural (many coins, many euros). Money es incontable, así que exige much."
+    },
+    {
+     "respuesta": "much many",
+     "explicacion": "Hay que elegir una sola forma; money es incontable y solo admite much."
+    }
+   ]
+  },
+  {
+   "id": "e02",
+   "tipo": "hueco",
+   "enunciado": "Completa con much o many.",
+   "frase": "There aren't ___ hotels in this village.",
+   "respuestas": [
+    "many"
+   ],
+   "explicacion": "La regla es la de la tabla: mucho/s con contables en plural se dice many. La pista es hotels, un sustantivo contable con -s de plural. Además la frase es negativa (aren't), que es justo el contexto en que many suena natural según la ficha; en afirmativas se prefiere a lot of. Por tanto: There aren't many hotels.",
+   "explicacion_breve": "Hotels es contable plural: many.",
+   "traduccion": "No hay muchos hoteles en este pueblo.",
+   "errores_previstos": [
+    {
+     "respuesta": "much",
+     "explicacion": "Much va con incontables (much time, much money). Hotels es contable plural, así que pide many."
+    },
+    {
+     "respuesta": "a lot",
+     "explicacion": "Faltaría of (a lot of hotels), y además el ejercicio pide elegir entre much y many."
+    }
+   ]
+  },
+  {
+   "id": "e03",
+   "tipo": "hueco",
+   "enunciado": "Completa con a few o a little.",
+   "frase": "Add ___ salt to the water.",
+   "respuestas": [
+    "a little"
+   ],
+   "explicacion": "Se aplica la fila de la tabla «algunos, un poco (idea positiva)»: con incontables se usa a little. Salt es incontable (no decimos two salts), y la idea es positiva: añadir una pequeña cantidad. Por eso Add a little salt. A few solo podría ir con algo contable, como a few drops (unas gotas).",
+   "explicacion_breve": "Salt es incontable: a little.",
+   "traduccion": "Añade un poco de sal al agua.",
+   "errores_previstos": [
+    {
+     "respuesta": "a few",
+     "explicacion": "A few va con contables en plural (a few eggs). Salt es incontable, por lo que se necesita a little."
+    },
+    {
+     "respuesta": "little",
+     "explicacion": "Sin a, little significa «poco, insuficiente» y tiene sentido negativo; aquí la instrucción pide añadir algo de sal, idea positiva: a little."
+    }
+   ]
+  },
+  {
+   "id": "e04",
+   "tipo": "hueco",
+   "enunciado": "Completa con a few o a little.",
+   "frase": "I'll be ready in ___ minutes.",
+   "respuestas": [
+    "a few"
+   ],
+   "explicacion": "La regla es la de a few / a little: a few acompaña a contables en plural con sentido positivo («unos cuantos»). La pista es minutes, contable y en plural. La frase expresa una cantidad pequeña pero suficiente, sin queja, así que la forma correcta es a few minutes.",
+   "explicacion_breve": "Minutes es contable plural: a few.",
+   "traduccion": "Estaré listo en unos minutos.",
+   "errores_previstos": [
+    {
+     "respuesta": "a little",
+     "explicacion": "A little va con incontables (a little time). Minutes es contable plural y pide a few."
+    },
+    {
+     "respuesta": "few",
+     "explicacion": "Sin a, few significa «pocos, insuficientes»; aquí no hay idea negativa, solo una cantidad pequeña: a few."
+    }
+   ]
+  },
+  {
+   "id": "e05",
+   "tipo": "hueco",
+   "enunciado": "Completa con much o many.",
+   "frase": "We didn't have ___ homework yesterday.",
+   "respuestas": [
+    "much"
+   ],
+   "explicacion": "Se aplica la lista de Reglas y claves de incontables que en español son contables: homework es incontable en inglés. Aunque en español decimos «muchos deberes», en inglés no existe homeworks, así que la frase negativa lleva much: We didn't have much homework. Si se quiere contar, se dice a piece of homework o two exercises.",
+   "explicacion_breve": "Homework es incontable en inglés: much.",
+   "traduccion": "Ayer no tuvimos muchos deberes.",
+   "errores_previstos": [
+    {
+     "respuesta": "many",
+     "explicacion": "Es el calco del español «muchos deberes». Homework es incontable en inglés y solo admite much."
+    },
+    {
+     "respuesta": "many homeworks",
+     "explicacion": "Homework no tiene plural en inglés y el hueco solo pide el cuantificador; la forma correcta es much."
+    }
+   ]
+  },
+  {
+   "id": "e06",
+   "tipo": "eleccion",
+   "enunciado": "Elige la opción correcta.",
+   "frase": "There are too ___ chairs in this room.",
+   "opciones": [
+    "much",
+    "many",
+    "little"
+   ],
+   "respuestas": [
+    "many"
+   ],
+   "explicacion": "La lista de la ficha recuerda que too much / too many significan «demasiado/s», y que la elección depende del sustantivo. Chairs es contable y está en plural, y el verbo are lo confirma. Por eso la única opción correcta es too many chairs.",
+   "explicacion_breve": "Chairs es contable plural: too many.",
+   "traduccion": "Hay demasiadas sillas en esta habitación.",
+   "por_opcion": {
+    "much": "Incorrecta: too much va con incontables (too much noise). Chairs es contable plural.",
+    "many": "Correcta: too many + sustantivo contable en plural significa «demasiados».",
+    "little": "Incorrecta: too little significa «demasiado poco» y va con incontables (too little time); con chairs no encaja ni en forma ni en sentido."
+   }
+  },
+  {
+   "id": "e07",
+   "tipo": "eleccion",
+   "enunciado": "Elige la opción correcta.",
+   "frase": "The town is very quiet. ___ tourists visit it.",
+   "opciones": [
+    "Few",
+    "Little",
+    "Much"
+   ],
+   "respuestas": [
+    "Few"
+   ],
+   "explicacion": "Se aplica la regla de few / little sin a: subrayan que la cantidad es escasa, con sentido negativo. La pista es la frase anterior: el pueblo es muy tranquilo, luego vienen pocos turistas. Tourists es contable plural, así que corresponde few, no little. Few tourists visit it = pocos turistas lo visitan.",
+   "explicacion_breve": "Contable plural con sentido negativo (pocos): few.",
+   "traduccion": "El pueblo es muy tranquilo. Pocos turistas lo visitan.",
+   "por_opcion": {
+    "Few": "Correcta: few + contable plural expresa «pocos», con idea de escasez, que es lo que pide el contexto.",
+    "Little": "Incorrecta: little es el equivalente para incontables (little traffic). Tourists es contable.",
+    "Much": "Incorrecta: much va con incontables y además significaría «muchos», lo contrario de lo que sugiere un pueblo tranquilo."
+   }
+  },
+  {
+   "id": "e08",
+   "tipo": "eleccion",
+   "enunciado": "Elige la opción correcta.",
+   "frase": "Can I ask you for some ___?",
+   "opciones": [
+    "advices",
+    "advice",
+    "an advice"
+   ],
+   "respuestas": [
+    "advice"
+   ],
+   "explicacion": "Se aplica la lista de incontables de la ficha: advice es incontable en inglés, así que no lleva -s ni a / an. La pista es some, que con incontables significa «algo de». En español decimos «un consejo» o «unos consejos», pero en inglés se dice some advice o, para contar, a piece of advice.",
+   "explicacion_breve": "Advice es incontable: sin -s ni an.",
+   "traduccion": "¿Puedo pedirte un consejo?",
+   "por_opcion": {
+    "advices": "Incorrecta: advice no tiene plural en inglés; advices es un calco del español «consejos».",
+    "advice": "Correcta: some advice es la forma normal de pedir consejo, porque advice es incontable.",
+    "an advice": "Incorrecta: un incontable no admite a / an. Para «un consejo» se dice a piece of advice."
+   }
+  },
+  {
+   "id": "e09",
+   "tipo": "eleccion",
+   "enunciado": "Elige la opción correcta.",
+   "frase": "We've got ___ milk left, so we don't need to buy any.",
+   "opciones": [
+    "a little",
+    "a few",
+    "many"
+   ],
+   "respuestas": [
+    "a little"
+   ],
+   "explicacion": "La regla es la de a little con incontables y sentido positivo. Milk es incontable, y la segunda parte de la frase (no necesitamos comprar) muestra que la cantidad es suficiente, idea positiva. Por eso We've got a little milk left.",
+   "explicacion_breve": "Milk es incontable y la idea es positiva (suficiente): a little.",
+   "traduccion": "Nos queda un poco de leche, así que no hace falta comprar.",
+   "por_opcion": {
+    "a little": "Correcta: incontable (milk) y sentido positivo de «algo, suficiente».",
+    "a few": "Incorrecta: a few va con contables en plural (a few bottles). Milk es incontable.",
+    "many": "Incorrecta: many va con contables plurales; con milk sería much, y en afirmativa se preferiría a lot of."
+   }
+  },
+  {
+   "id": "e10",
+   "tipo": "corregir",
+   "enunciado": "Corrige el error.",
+   "frase": "How many luggage have you got?",
+   "respuestas": [
+    "How much luggage have you got?"
+   ],
+   "explicacion": "La ficha incluye luggage entre los incontables que en español parecen contables. Aunque pensemos en «maletas», luggage es una masa incontable, igual que equipaje, y no tiene plural. Por eso la pregunta debe ser How much luggage have you got? Si queremos contar, cambiamos de palabra: How many suitcases / bags?",
+   "explicacion_breve": "Luggage es incontable: How much.",
+   "traduccion": "¿Cuánto equipaje tienes?",
+   "errores_previstos": [
+    {
+     "respuesta": "How many luggage have you got?",
+     "explicacion": "Es la frase sin corregir: luggage es incontable y pide much, no many."
+    },
+    {
+     "respuesta": "How many luggages have you got?",
+     "explicacion": "Luggage no admite -s. El error de fondo sigue: con un incontable se pregunta How much."
+    }
+   ]
+  },
+  {
+   "id": "e11",
+   "tipo": "corregir",
+   "enunciado": "Corrige el error.",
+   "frase": "I have a little questions for you.",
+   "respuestas": [
+    "I have a few questions for you."
+   ],
+   "explicacion": "Se aplica la regla de a few / a little: con contables en plural se usa a few. Questions es contable (one question, two questions) y está en plural, por lo que a little no sirve. Es el mismo error que la ficha recoge en «I have a little friends»: la forma correcta es I have a few questions.",
+   "explicacion_breve": "Questions es contable plural: a few.",
+   "traduccion": "Tengo unas cuantas preguntas para ti.",
+   "errores_previstos": [
+    {
+     "respuesta": "I have a little questions for you.",
+     "explicacion": "Es la frase sin corregir: a little solo va con incontables; questions pide a few."
+    },
+    {
+     "respuesta": "I have a little question for you.",
+     "explicacion": "Aquí little pasa a ser adjetivo («una preguntita»), lo cual cambia la frase y no corrige el error del cuantificador; se pedía a few questions."
+    }
+   ]
+  },
+  {
+   "id": "e12",
+   "tipo": "corregir",
+   "enunciado": "Corrige el error.",
+   "frase": "They bought some new furnitures.",
+   "respuestas": [
+    "They bought some new furniture."
+   ],
+   "explicacion": "Furniture aparece en la lista de incontables de la ficha: en inglés designa el mobiliario en conjunto y nunca lleva -s. Some con un incontable significa «algo de», así que la frase correcta es They bought some new furniture. Para contar se dice a piece of furniture o two pieces of furniture.",
+   "explicacion_breve": "Furniture es incontable: sin -s.",
+   "traduccion": "Compraron muebles nuevos.",
+   "errores_previstos": [
+    {
+     "respuesta": "They bought some new furnitures.",
+     "explicacion": "Es la frase sin corregir: furnitures no existe porque furniture es incontable."
+    },
+    {
+     "respuesta": "They bought a new furniture.",
+     "explicacion": "Un incontable no admite a; para una sola pieza se dice a piece of furniture."
+    }
+   ]
+  },
+  {
+   "id": "e13",
+   "tipo": "transformar",
+   "enunciado": "Convierte la frase en pregunta con How many o How much sobre la cantidad.",
+   "frase": "She drinks a lot of water.",
+   "respuestas": [
+    "How much water does she drink?"
+   ],
+   "explicacion": "Se aplica la fila «¿cuánto/s?» de la tabla: con incontables, How much. Water es incontable, así que la pregunta empieza por How much water. Después, al ser presente simple con she, hace falta el auxiliar does y el verbo en infinitivo sin -s: does she drink.",
+   "explicacion_breve": "Water es incontable: How much + does + sujeto + infinitivo.",
+   "traduccion": "¿Cuánta agua bebe ella?",
+   "errores_previstos": [
+    {
+     "respuesta": "How many water does she drink?",
+     "explicacion": "Water es incontable: la pregunta va con How much, no How many."
+    },
+    {
+     "respuesta": "How much water she drinks?",
+     "explicacion": "Calco del español: falta el auxiliar does, imprescindible en las preguntas de presente simple."
+    },
+    {
+     "respuesta": "How much water does she drinks?",
+     "explicacion": "Con does el verbo vuelve al infinitivo sin -s: does she drink."
+    }
+   ]
+  },
+  {
+   "id": "e14",
+   "tipo": "ordenar",
+   "enunciado": "Ordena las palabras para formar una pregunta.",
+   "palabras": [
+    "many",
+    "how",
+    "there",
+    "are",
+    "people"
+   ],
+   "respuestas": [
+    "How many people are there"
+   ],
+   "explicacion": "La regla es How many + sustantivo contable en plural. People es plural (el singular es person), así que pide many. En la pregunta con there is / there are, el verbo se coloca antes de there: How many people are there? El orden es cuantificador, sustantivo, verbo y there.",
+   "explicacion_breve": "How many + sustantivo plural + are there.",
+   "traduccion": "¿Cuántas personas hay?",
+   "errores_previstos": [
+    {
+     "respuesta": "How many people there are",
+     "explicacion": "Ese orden es el de una pregunta indirecta (I don't know how many people there are); en la pregunta directa are va delante de there."
+    },
+    {
+     "respuesta": "How many there are people",
+     "explicacion": "Calco del español «¿cuántas hay personas?»: el sustantivo va pegado a How many."
+    }
+   ]
+  },
+  {
+   "id": "e15",
+   "tipo": "ordenar",
+   "enunciado": "Ordena las palabras.",
+   "palabras": [
+    "much",
+    "have",
+    "time",
+    "don't",
+    "we"
+   ],
+   "respuestas": [
+    "We don't have much time"
+   ],
+   "explicacion": "La ficha explica que much se usa sobre todo en negaciones y preguntas, y siempre con incontables. Time, en el sentido de «tiempo», es incontable, y la frase es negativa. El orden es sujeto + don't + have + much time.",
+   "explicacion_breve": "Much se usa con incontables en negativas.",
+   "traduccion": "No tenemos mucho tiempo.",
+   "errores_previstos": [
+    {
+     "respuesta": "We have don't much time",
+     "explicacion": "El auxiliar don't va delante del verbo principal: We don't have."
+    },
+    {
+     "respuesta": "Don't we have much time",
+     "explicacion": "Así sería una pregunta negativa, no la afirmación que pide el ejercicio."
+    }
+   ]
+  }
  ],
- "fuente": {"nombre": "propia"}
+ "fuente": {
+  "nombre": "propia"
+ },
+ "descripcion_larga_es": "Los cuantificadores much, many, a few, a little, few y little expresan cantidad, y su elección depende de si el sustantivo es contable o incontable en inglés. Es un punto básico pero traicionero para un hispanohablante, porque palabras como information, advice, news o furniture son incontables en inglés aunque en español se cuenten, y porque a few y few no significan lo mismo.",
+ "contexto": {
+  "que_es": "Son palabras que van delante del sustantivo para indicar cantidad: mucho, poco, algunos, cuánto. El inglés tiene formas distintas según el sustantivo sea contable (se puede contar: one book, two books) o incontable (no admite plural ni a: water, money, information).",
+  "por_que_importa": "Se usan constantemente al pedir algo, preguntar precios o cantidades y describir situaciones. Un error como «How much people» o «some informations» se nota enseguida y da impresión de nivel bajo, aunque rara vez impide entender. En los exámenes escritos es un clásico de los ejercicios de huecos y corrección de errores.",
+  "cuando_se_usa": "Cada vez que hablas de cantidad: en preguntas (How much…? How many…?), negaciones (I don't have much time) y para matizar (a few minutes, a little sugar). La pista es siempre el sustantivo: si tiene plural en -s, many o a few; si no lo admite, much o a little. El hispanohablante tiende a guiarse por el español y a poner plural a palabras incontables en inglés."
+ }
 }

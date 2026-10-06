@@ -6,60 +6,577 @@
  "nivel": "B2",
  "resumen": "El subjonctif passé se forma con el subjuntivo presente de avoir o être más el participio. Se usa con los mismos verbos y conjunciones que el subjuntivo presente, pero para una acción ANTERIOR a la de la principal; equivale a «haya hecho» y, en la lengua actual, también a «hubiera hecho».",
  "explicacion": [
-  {"tipo": "texto", "texto": "Formación: subjuntivo presente del auxiliar (avoir o être) + participio pasado. Es el «passé composé» del subjuntivo: los verbos que llevan être en passé composé (movimiento, pronominales) lo llevan también aquí, y el participio concuerda con el sujeto."},
-  {"tipo": "tabla", "cabecera": ["Persona", "rire (con avoir)", "sortir (con être)"], "filas": [
-   ["je", "que j'aie ri", "que je sois sorti(e)"],
-   ["tu", "que tu aies ri", "que tu sois sorti(e)"],
-   ["il / elle / on", "qu'il ait ri", "qu'elle soit sortie"],
-   ["nous", "que nous ayons ri", "que nous soyons sorti(e)s"],
-   ["vous", "que vous ayez ri", "que vous soyez sorti(e)(s)"],
-   ["ils / elles", "qu'ils aient ri", "qu'elles soient sorties"]
-  ]},
-  {"tipo": "texto", "texto": "Cuándo: tras los mismos desencadenantes que el subjuntivo presente (obligación, duda, voluntad, emoción y conjunciones como bien que, avant que, pour que). El presente indica una acción simultánea o posterior; el pasado, una acción ya terminada respecto a la principal."},
-  {"tipo": "tabla", "cabecera": ["Relación temporal", "Ejemplo", "Traducción"], "filas": [
-   ["Simultánea", "Je suis surpris que tu écrives ce livre.", "Me sorprende que estés escribiendo ese libro."],
-   ["Anterior", "Je suis surpris que tu aies lu ce livre.", "Me sorprende que hayas leído ese libro."],
-   ["Simultánea (principal en pasado)", "J'ai été surpris que tu écrives ce livre.", "Me sorprendió que estuvieras escribiendo ese libro."],
-   ["Anterior (principal en pasado)", "J'ai été surpris que tu aies lu ce livre.", "Me sorprendió que hubieras leído ese libro."]
-  ]},
-  {"tipo": "texto", "texto": "Diferencia con el español: el tiempo de la principal NO decide el del subjuntivo; solo cuenta la cronología entre las dos acciones. Como el francés actual no usa el imperfecto ni el pluscuamperfecto de subjuntivo (son literarios), «que tu aies lu» traduce tanto «que hayas leído» como «que hubieras leído»."},
-  {"tipo": "lista", "items": [
-   "Tras un superlativo o le seul, le premier: C'est le meilleur film que j'aie vu.",
-   "Con avoir, el participio concuerda con un COD antepuesto: la ville que nous ayons visitée.",
-   "après que se construye en la norma con indicativo, no con subjuntivo: Je partirai après qu'il sera arrivé."
-  ]}
+  {
+   "tipo": "texto",
+   "texto": "Formación: subjuntivo presente del auxiliar (avoir o être) + participio pasado. Es el «passé composé» del subjuntivo: los verbos que llevan être en passé composé (movimiento, pronominales) lo llevan también aquí, y el participio concuerda con el sujeto."
+  },
+  {
+   "tipo": "tabla",
+   "cabecera": [
+    "Persona",
+    "rire (con avoir)",
+    "sortir (con être)"
+   ],
+   "filas": [
+    [
+     "je",
+     "que j'aie ri",
+     "que je sois sorti(e)"
+    ],
+    [
+     "tu",
+     "que tu aies ri",
+     "que tu sois sorti(e)"
+    ],
+    [
+     "il / elle / on",
+     "qu'il ait ri",
+     "qu'elle soit sortie"
+    ],
+    [
+     "nous",
+     "que nous ayons ri",
+     "que nous soyons sorti(e)s"
+    ],
+    [
+     "vous",
+     "que vous ayez ri",
+     "que vous soyez sorti(e)(s)"
+    ],
+    [
+     "ils / elles",
+     "qu'ils aient ri",
+     "qu'elles soient sorties"
+    ]
+   ]
+  },
+  {
+   "tipo": "texto",
+   "texto": "Cuándo: tras los mismos desencadenantes que el subjuntivo presente (obligación, duda, voluntad, emoción y conjunciones como bien que, avant que, pour que). El presente indica una acción simultánea o posterior; el pasado, una acción ya terminada respecto a la principal."
+  },
+  {
+   "tipo": "tabla",
+   "cabecera": [
+    "Relación temporal",
+    "Ejemplo",
+    "Traducción"
+   ],
+   "filas": [
+    [
+     "Simultánea",
+     "Je suis surpris que tu écrives ce livre.",
+     "Me sorprende que estés escribiendo ese libro."
+    ],
+    [
+     "Anterior",
+     "Je suis surpris que tu aies lu ce livre.",
+     "Me sorprende que hayas leído ese libro."
+    ],
+    [
+     "Simultánea (principal en pasado)",
+     "J'ai été surpris que tu écrives ce livre.",
+     "Me sorprendió que estuvieras escribiendo ese libro."
+    ],
+    [
+     "Anterior (principal en pasado)",
+     "J'ai été surpris que tu aies lu ce livre.",
+     "Me sorprendió que hubieras leído ese libro."
+    ]
+   ]
+  },
+  {
+   "tipo": "texto",
+   "texto": "Diferencia con el español: el tiempo de la principal NO decide el del subjuntivo; solo cuenta la cronología entre las dos acciones. Como el francés actual no usa el imperfecto ni el pluscuamperfecto de subjuntivo (son literarios), «que tu aies lu» traduce tanto «que hayas leído» como «que hubieras leído»."
+  },
+  {
+   "tipo": "lista",
+   "items": [
+    "Tras un superlativo o le seul, le premier: C'est le meilleur film que j'aie vu.",
+    "Con avoir, el participio concuerda con un COD antepuesto: la ville que nous ayons visitée.",
+    "après que se construye en la norma con indicativo, no con subjuntivo: Je partirai après qu'il sera arrivé."
+   ]
+  }
  ],
  "ejemplos": [
-  {"frase": "Tex est content que la France ait gagné la Coupe du monde en 1998.", "traduccion": "Tex está contento de que Francia ganara el Mundial de 1998."},
-  {"frase": "Je doute qu'il soit sorti après la finale.", "traduccion": "Dudo que saliera después de la final."},
-  {"frase": "Ma mère n'était pas sûre que Tex ait aimé le vin.", "traduccion": "Mi madre no estaba segura de que a Tex le hubiera gustado el vino."},
-  {"frase": "Je n'arrive pas à croire que tu sois tombée dans le panneau.", "traduccion": "No me puedo creer que hayas picado."},
-  {"frase": "Il faut que vous ayez rendu le dossier avant vendredi.", "traduccion": "Tienen que haber entregado el expediente antes del viernes."},
-  {"frase": "C'est le plus beau voyage que nous ayons jamais fait.", "traduccion": "Es el viaje más bonito que hemos hecho nunca."}
+  {
+   "frase": "Tex est content que la France ait gagné la Coupe du monde en 1998.",
+   "traduccion": "Tex está contento de que Francia ganara el Mundial de 1998."
+  },
+  {
+   "frase": "Je doute qu'il soit sorti après la finale.",
+   "traduccion": "Dudo que saliera después de la final."
+  },
+  {
+   "frase": "Ma mère n'était pas sûre que Tex ait aimé le vin.",
+   "traduccion": "Mi madre no estaba segura de que a Tex le hubiera gustado el vino."
+  },
+  {
+   "frase": "Je n'arrive pas à croire que tu sois tombée dans le panneau.",
+   "traduccion": "No me puedo creer que hayas picado."
+  },
+  {
+   "frase": "Il faut que vous ayez rendu le dossier avant vendredi.",
+   "traduccion": "Tienen que haber entregado el expediente antes del viernes."
+  },
+  {
+   "frase": "C'est le plus beau voyage que nous ayons jamais fait.",
+   "traduccion": "Es el viaje más bonito que hemos hecho nunca."
+  }
  ],
  "errores_hispanohablantes": [
-  {"mal": "Je suis content que tu es venu.", "bien": "Je suis content que tu sois venu.", "nota": "Tras una emoción va subjuntivo; y como la llegada es anterior, subjuntivo pasado."},
-  {"mal": "Je doutais qu'il ait venu.", "bien": "Je doutais qu'il soit venu.", "nota": "venir forma los tiempos compuestos con être, también en subjuntivo."},
-  {"mal": "Bien qu'il a fini ses études, il ne trouve pas de travail.", "bien": "Bien qu'il ait fini ses études, il ne trouve pas de travail.", "nota": "bien que exige subjuntivo, aunque en español «aunque ha terminado» vaya en indicativo."},
-  {"mal": "Je partirai après qu'il soit arrivé.", "bien": "Je partirai après qu'il sera arrivé.", "nota": "En la norma, après que va con indicativo (aquí futur antérieur), a diferencia de avant que."}
+  {
+   "mal": "Je suis content que tu es venu.",
+   "bien": "Je suis content que tu sois venu.",
+   "nota": "Tras una emoción va subjuntivo; y como la llegada es anterior, subjuntivo pasado."
+  },
+  {
+   "mal": "Je doutais qu'il ait venu.",
+   "bien": "Je doutais qu'il soit venu.",
+   "nota": "venir forma los tiempos compuestos con être, también en subjuntivo."
+  },
+  {
+   "mal": "Bien qu'il a fini ses études, il ne trouve pas de travail.",
+   "bien": "Bien qu'il ait fini ses études, il ne trouve pas de travail.",
+   "nota": "bien que exige subjuntivo, aunque en español «aunque ha terminado» vaya en indicativo."
+  },
+  {
+   "mal": "Je partirai après qu'il soit arrivé.",
+   "bien": "Je partirai après qu'il sera arrivé.",
+   "nota": "En la norma, après que va con indicativo (aquí futur antérieur), a diferencia de avant que."
+  }
  ],
  "ejercicios": [
-  {"id": "e01", "tipo": "hueco", "enunciado": "Completa con el subjuntivo pasado del verbo.", "frase": "Tammy est furieuse que Tex ___ (partir) sans elle.", "respuestas": ["soit parti"], "explicacion": "partir lleva être; el participio concuerda con Tex (masculino singular)."},
-  {"id": "e02", "tipo": "hueco", "enunciado": "Completa con el subjuntivo pasado del verbo.", "frase": "Quel dommage qu'il ___ (pleuvoir) hier !", "respuestas": ["ait plu"], "explicacion": "Expresión de lamento + acción pasada: ait plu (participio de pleuvoir: plu)."},
-  {"id": "e03", "tipo": "hueco", "enunciado": "Completa con el subjuntivo pasado del verbo.", "frase": "Je suis ravi que vous ___ (prendre) le temps de venir.", "respuestas": ["ayez pris"], "explicacion": "Alegría (être ravi que) + acción ya realizada: ayez pris."},
-  {"id": "e04", "tipo": "hueco", "enunciado": "Completa con el subjuntivo pasado del verbo.", "frase": "Il est possible que les enfants ___ (se perdre) dans la forêt.", "respuestas": ["se soient perdus"], "explicacion": "Verbo pronominal: auxiliar être y concordancia con les enfants."},
-  {"id": "e05", "tipo": "hueco", "enunciado": "Completa con el subjuntivo pasado (atención a la concordancia).", "frase": "C'est la plus belle ville que nous ___ (visiter).", "respuestas": ["ayons visitée"], "explicacion": "Superlativo + subjuntivo; el COD que (la ville) va antes de avoir, así que el participio concuerda: visitée."},
-  {"id": "e06", "tipo": "hueco", "enunciado": "Completa con el subjuntivo pasado del verbo.", "frase": "Ma mère n'était pas sûre que Tex ___ (aimer) le vin.", "respuestas": ["ait aimé"], "explicacion": "Duda (ne pas être sûr que) sobre algo anterior: ait aimé."},
-  {"id": "e07", "tipo": "eleccion", "enunciado": "Elige la forma correcta.", "frase": "Je n'arrive pas à croire que tu ___ tombée dans le panneau.", "opciones": ["sois", "aies", "es"], "respuestas": ["sois"], "explicacion": "tomber lleva être, y la incredulidad exige subjuntivo: que tu sois tombée.", "origen": "tatoeba:2302562"},
-  {"id": "e08", "tipo": "eleccion", "enunciado": "Elige la forma correcta.", "frase": "Je suis surpris que tu ___ ce livre l'an dernier.", "opciones": ["lises", "aies lu", "as lu"], "respuestas": ["aies lu"], "explicacion": "La lectura es anterior (l'an dernier): subjuntivo pasado."},
-  {"id": "e09", "tipo": "eleccion", "enunciado": "Elige la forma correcta.", "frase": "Demain, il faut que tu ___ poli avec tout le monde.", "opciones": ["sois", "aies été", "es"], "respuestas": ["sois"], "explicacion": "La acción es posterior a la obligación (demain): subjuntivo presente, no pasado.", "origen": "tatoeba:1009196"},
-  {"id": "e10", "tipo": "eleccion", "enunciado": "Elige la forma correcta.", "frase": "Il partira avant que nous ___ fini le repas.", "opciones": ["ayons", "avons", "aurons"], "respuestas": ["ayons"], "explicacion": "avant que exige subjuntivo: avant que nous ayons fini."},
-  {"id": "e11", "tipo": "transformar", "enunciado": "Pon la subordinada en subjuntivo pasado.", "frase": "Je suis surpris que tu sois si naïf.", "respuestas": ["Je suis surpris que tu aies été si naïf."], "explicacion": "Subjuntivo pasado de être: que tu aies été.", "origen": "tatoeba:468941"},
-  {"id": "e12", "tipo": "transformar", "enunciado": "Une las dos frases con que.", "frase": "Je suis content. Tu as réussi ton examen.", "respuestas": ["Je suis content que tu aies réussi ton examen."], "explicacion": "Emoción + acción anterior: el passé composé pasa a subjuntivo pasado."},
-  {"id": "e13", "tipo": "corregir", "enunciado": "Corrige el error.", "frase": "Je doute qu'elle a compris la question.", "respuestas": ["Je doute qu'elle ait compris la question."], "explicacion": "douter que exige subjuntivo: qu'elle ait compris."},
-  {"id": "e14", "tipo": "corregir", "enunciado": "Corrige el error.", "frase": "Il est dommage qu'ils aient partis si tôt.", "respuestas": ["Il est dommage qu'ils soient partis si tôt."], "explicacion": "partir se conjuga con être: qu'ils soient partis."},
-  {"id": "e15", "tipo": "ordenar", "enunciado": "Ordena las palabras.", "palabras": ["venu", "Je", "qu'il", "pas", "soit", "crois", "ne"], "respuestas": ["Je ne crois pas qu'il soit venu"], "explicacion": "Creencia negada + subjuntivo pasado de venir (con être)."},
-  {"id": "e16", "tipo": "ordenar", "enunciado": "Ordena las palabras.", "palabras": ["gagné", "que", "Nous", "ayez", "contents", "vous", "sommes"], "respuestas": ["Nous sommes contents que vous ayez gagné"], "explicacion": "être content que + subjuntivo pasado: la victoria ya ha ocurrido."}
+  {
+   "id": "e01",
+   "tipo": "hueco",
+   "enunciado": "Completa con el subjuntivo pasado del verbo.",
+   "frase": "Tammy est furieuse que Tex ___ (partir) sans elle.",
+   "respuestas": [
+    "soit parti"
+   ],
+   "explicacion": "Se aplica la regla de formación de la ficha: subjuntivo presente del auxiliar más participio, y los verbos que llevan être en passé composé lo llevan también aquí. Partir es un verbo de movimiento con être, así que el auxiliar es soit. La pista es être furieuse que, una emoción que exige subjuntivo, y la marcha de Tex es anterior al enfado. El participio concuerda con el sujeto Tex, masculino singular: soit parti.",
+   "explicacion_breve": "partir lleva être; el participio concuerda con Tex (masculino singular).",
+   "traduccion": "Tammy está furiosa de que Tex se haya ido sin ella.",
+   "errores_previstos": [
+    {
+     "respuesta": "ait parti",
+     "explicacion": "Partir no forma los tiempos compuestos con avoir sino con être: soit parti."
+    },
+    {
+     "respuesta": "est parti",
+     "explicacion": "Est parti es indicativo. Tras être furieuse que, que expresa emoción, hace falta subjuntivo: soit parti."
+    },
+    {
+     "respuesta": "soit partie",
+     "explicacion": "El participio concuerda con el sujeto de partir, que es Tex (masculino), no con Tammy: soit parti."
+    }
+   ]
+  },
+  {
+   "id": "e02",
+   "tipo": "hueco",
+   "enunciado": "Completa con el subjuntivo pasado del verbo.",
+   "frase": "Quel dommage qu'il ___ (pleuvoir) hier !",
+   "respuestas": [
+    "ait plu"
+   ],
+   "explicacion": "Quel dommage que expresa lamento y exige subjuntivo, igual que il est dommage que en la tabla de usos. La pista hier indica que la lluvia es anterior al momento en que se habla, así que hace falta el subjuntivo pasado. Pleuvoir forma sus tiempos compuestos con avoir y su participio es plu: qu'il ait plu. No hay concordancia porque el sujeto il es impersonal.",
+   "explicacion_breve": "Expresión de lamento + acción pasada: ait plu (participio de pleuvoir: plu).",
+   "traduccion": "¡Qué pena que lloviera (haya llovido) ayer!",
+   "errores_previstos": [
+    {
+     "respuesta": "pleuve",
+     "explicacion": "Es subjuntivo presente: indicaría lluvia ahora o en el futuro. Hier exige una forma de pasado: ait plu."
+    },
+    {
+     "respuesta": "a plu",
+     "explicacion": "Es passé composé de indicativo. Quel dommage que exige subjuntivo: ait plu."
+    },
+    {
+     "respuesta": "ait pleuvu",
+     "explicacion": "El participio de pleuvoir es irregular: plu, no pleuvu."
+    }
+   ]
+  },
+  {
+   "id": "e03",
+   "tipo": "hueco",
+   "enunciado": "Completa con el subjuntivo pasado del verbo.",
+   "frase": "Je suis ravi que vous ___ (prendre) le temps de venir.",
+   "respuestas": [
+    "ayez pris"
+   ],
+   "explicacion": "Être ravi que expresa alegría y exige subjuntivo. Como el hecho de tomarse el tiempo de venir ya se ha producido, la ficha indica el subjuntivo pasado. Prendre se conjuga con avoir y su participio es pris; con vous el subjuntivo de avoir es ayez, sin i. El resultado es ayez pris: «Je suis ravi que vous ayez pris le temps de venir».",
+   "explicacion_breve": "Alegría (être ravi que) + acción ya realizada: ayez pris.",
+   "traduccion": "Estoy encantado de que se haya tomado (os hayáis tomado) el tiempo de venir.",
+   "errores_previstos": [
+    {
+     "respuesta": "avez pris",
+     "explicacion": "Es passé composé de indicativo. Después de être ravi que hace falta subjuntivo: ayez pris."
+    },
+    {
+     "respuesta": "ayiez pris",
+     "explicacion": "Avoir no lleva i en nous y vous: la forma es ayez."
+    },
+    {
+     "respuesta": "preniez",
+     "explicacion": "Es subjuntivo presente; presentaría la acción como simultánea o futura, pero aquí ya ha ocurrido: ayez pris."
+    }
+   ]
+  },
+  {
+   "id": "e04",
+   "tipo": "hueco",
+   "enunciado": "Completa con el subjuntivo pasado del verbo.",
+   "frase": "Il est possible que les enfants ___ (se perdre) dans la forêt.",
+   "respuestas": [
+    "se soient perdus"
+   ],
+   "explicacion": "Il est possible que expresa posibilidad y exige subjuntivo. Se perdre es pronominal y, como recuerda la ficha, los verbos pronominales forman los tiempos compuestos con être también en subjuntivo. Con ils el subjuntivo de être es soient, y el pronombre se se coloca delante. El participio concuerda con les enfants, masculino plural: «se soient perdus».",
+   "explicacion_breve": "Verbo pronominal: auxiliar être y concordancia con les enfants.",
+   "traduccion": "Es posible que los niños se hayan perdido en el bosque.",
+   "errores_previstos": [
+    {
+     "respuesta": "se sont perdus",
+     "explicacion": "Es indicativo. Il est possible que exige subjuntivo: se soient perdus."
+    },
+    {
+     "respuesta": "se soient perdu",
+     "explicacion": "Falta la concordancia: con être el participio concuerda con el sujeto, les enfants, masculino plural: perdus."
+    },
+    {
+     "respuesta": "se aient perdus",
+     "explicacion": "Los verbos pronominales no usan avoir en los tiempos compuestos: se soient perdus."
+    }
+   ]
+  },
+  {
+   "id": "e05",
+   "tipo": "hueco",
+   "enunciado": "Completa con el subjuntivo pasado (atención a la concordancia).",
+   "frase": "C'est la plus belle ville que nous ___ (visiter).",
+   "respuestas": [
+    "ayons visitée"
+   ],
+   "explicacion": "La ficha indica que tras un superlativo la relativa va en subjuntivo: c'est la plus belle ville que nous ayons visitée. Visiter se conjuga con avoir y, con nous, el subjuntivo es ayons. Además se aplica la regla de concordancia con un COD antepuesto: el relativo que retoma la ville, femenino singular, y va delante del auxiliar, así que el participio se escribe visitée. En español usamos indicativo («que hemos visitado»), pero en francés cuidado se prefiere el subjuntivo.",
+   "explicacion_breve": "Superlativo + subjuntivo; el COD que (la ville) va antes de avoir, así que el participio concuerda: visitée.",
+   "traduccion": "Es la ciudad más bonita que hayamos visitado (que hemos visitado).",
+   "errores_previstos": [
+    {
+     "respuesta": "ayons visité",
+     "explicacion": "Falta la concordancia: el COD que (la ville) va delante de avoir, así que el participio concuerda en femenino: visitée."
+    },
+    {
+     "respuesta": "avons visitée",
+     "explicacion": "Es indicativo. Tras un superlativo, la norma prefiere subjuntivo: ayons visitée. En la lengua hablada se oye avons, pero la ficha pide subjuntivo."
+    },
+    {
+     "respuesta": "soyons visitée",
+     "explicacion": "Visiter es transitivo y se conjuga con avoir: ayons visitée."
+    }
+   ]
+  },
+  {
+   "id": "e06",
+   "tipo": "hueco",
+   "enunciado": "Completa con el subjuntivo pasado del verbo.",
+   "frase": "Ma mère n'était pas sûre que Tex ___ (aimer) le vin.",
+   "respuestas": [
+    "ait aimé"
+   ],
+   "explicacion": "Ne pas être sûr que expresa duda y exige subjuntivo. La ficha explica que el tiempo de la principal no decide el del subjuntivo: aquí la duda recae sobre una experiencia anterior (haber probado y apreciado el vino), así que se usa el subjuntivo pasado. Aimer se conjuga con avoir: qu'il ait aimé. En español diríamos «hubiera gustado», pero el francés actual usa el mismo ait aimé.",
+   "explicacion_breve": "Duda (ne pas être sûr que) sobre algo anterior: ait aimé.",
+   "traduccion": "Mi madre no estaba segura de que a Tex le hubiera gustado (le gustara) el vino.",
+   "errores_previstos": [
+    {
+     "respuesta": "avait aimé",
+     "explicacion": "Es pluscuamperfecto de indicativo, calcado del español «había gustado». Ne pas être sûr que exige subjuntivo."
+    },
+    {
+     "respuesta": "eût aimé",
+     "explicacion": "Es el pluscuamperfecto de subjuntivo literario. No es incorrecto en literatura, pero en el francés actual se usa ait aimé."
+    },
+    {
+     "respuesta": "aime",
+     "explicacion": "Es subjuntivo presente (o indicativo): no expresa la anterioridad de la acción. Hace falta ait aimé."
+    }
+   ]
+  },
+  {
+   "id": "e07",
+   "tipo": "eleccion",
+   "enunciado": "Elige la forma correcta.",
+   "frase": "Je n'arrive pas à croire que tu ___ tombée dans le panneau.",
+   "opciones": [
+    "sois",
+    "aies",
+    "es"
+   ],
+   "respuestas": [
+    "sois"
+   ],
+   "explicacion": "Ne pas arriver à croire que expresa incredulidad y exige subjuntivo. Tomber es uno de los verbos de movimiento que forman los tiempos compuestos con être, así que el auxiliar en subjuntivo es sois (con tu). El participio tombée ya muestra la concordancia en femenino con tu. La caída es anterior a la incredulidad: subjuntivo pasado, que tu sois tombée.",
+   "origen": "tatoeba:2302562",
+   "explicacion_breve": "tomber lleva être, y la incredulidad exige subjuntivo: que tu sois tombée.",
+   "traduccion": "No me puedo creer que hayas caído en la trampa.",
+   "por_opcion": {
+    "sois": "Correcta: subjuntivo de être con tu; tomber lleva être y la incredulidad pide subjuntivo.",
+    "aies": "Incorrecta: es el subjuntivo de avoir. Tomber no se conjuga con avoir, y la concordancia tombée ya delata el auxiliar être.",
+    "es": "Incorrecta: es indicativo de être. Je n'arrive pas à croire que exige subjuntivo."
+   },
+   "glosario": [
+    {
+     "palabra": "tomber dans le panneau",
+     "significado": "caer en la trampa, picar"
+    }
+   ]
+  },
+  {
+   "id": "e08",
+   "tipo": "eleccion",
+   "enunciado": "Elige la forma correcta.",
+   "frase": "Je suis surpris que tu ___ ce livre l'an dernier.",
+   "opciones": [
+    "lises",
+    "aies lu",
+    "as lu"
+   ],
+   "respuestas": [
+    "aies lu"
+   ],
+   "explicacion": "Être surpris que expresa emoción y exige subjuntivo. La pista decisiva es l'an dernier: la lectura es anterior a la sorpresa, y la ficha indica que una acción anterior va en subjuntivo pasado. Lire se conjuga con avoir y el participio es lu: que tu aies lu. La ficha usa justo este contraste: que tu écrives (simultánea) frente a que tu aies lu (anterior).",
+   "explicacion_breve": "La lectura es anterior (l'an dernier): subjuntivo pasado.",
+   "traduccion": "Me sorprende que leyeras (hayas leído) ese libro el año pasado.",
+   "por_opcion": {
+    "lises": "Incorrecta: es subjuntivo presente, para una acción simultánea o futura. L'an dernier exige anterioridad.",
+    "aies lu": "Correcta: subjuntivo pasado de lire (aies + lu), porque la acción es anterior a la sorpresa.",
+    "as lu": "Incorrecta: es passé composé de indicativo. Être surpris que exige subjuntivo."
+   }
+  },
+  {
+   "id": "e09",
+   "tipo": "eleccion",
+   "enunciado": "Elige la forma correcta.",
+   "frase": "Demain, il faut que tu ___ poli avec tout le monde.",
+   "opciones": [
+    "sois",
+    "aies été",
+    "es"
+   ],
+   "respuestas": [
+    "sois"
+   ],
+   "explicacion": "La ficha recuerda que el subjuntivo presente indica una acción simultánea o posterior y el pasado, una acción ya terminada. La pista demain muestra que la cortesía exigida es posterior a la obligación, así que va en subjuntivo presente. Il faut que exige subjuntivo, y el de être con tu es sois. Aies été indicaría algo ya cumplido, lo que no encaja con demain.",
+   "origen": "tatoeba:1009196",
+   "explicacion_breve": "La acción es posterior a la obligación (demain): subjuntivo presente, no pasado.",
+   "traduccion": "Mañana tienes que ser educado con todo el mundo.",
+   "por_opcion": {
+    "sois": "Correcta: subjuntivo presente de être; la acción es futura respecto a la obligación.",
+    "aies été": "Incorrecta: el subjuntivo pasado marcaría una acción ya terminada, incompatible con demain.",
+    "es": "Incorrecta: es indicativo. Il faut que exige subjuntivo."
+   }
+  },
+  {
+   "id": "e10",
+   "tipo": "eleccion",
+   "enunciado": "Elige la forma correcta.",
+   "frase": "Il partira avant que nous ___ fini le repas.",
+   "opciones": [
+    "ayons",
+    "avons",
+    "aurons"
+   ],
+   "respuestas": [
+    "ayons"
+   ],
+   "explicacion": "Avant que es una de las conjunciones que la ficha cita entre los desencadenantes del subjuntivo. La frase ya contiene el participio fini, así que solo falta el auxiliar avoir en subjuntivo con nous: ayons, sin i. El subjuntivo pasado presenta el final de la comida como un punto ya alcanzado. Avons y aurons son indicativos y no caben tras avant que.",
+   "explicacion_breve": "avant que exige subjuntivo: avant que nous ayons fini.",
+   "traduccion": "Se irá antes de que hayamos terminado la comida.",
+   "por_opcion": {
+    "ayons": "Correcta: subjuntivo de avoir con nous, que con fini forma el subjuntivo pasado exigido por avant que.",
+    "avons": "Incorrecta: es indicativo. Avant que exige subjuntivo; solo après que va con indicativo.",
+    "aurons": "Incorrecta: es futuro de indicativo. Tras avant que no se usa futuro, aunque la acción sea futura."
+   }
+  },
+  {
+   "id": "e11",
+   "tipo": "transformar",
+   "enunciado": "Pon la subordinada en subjuntivo pasado.",
+   "frase": "Je suis surpris que tu sois si naïf.",
+   "respuestas": [
+    "Je suis surpris que tu aies été si naïf."
+   ],
+   "explicacion": "Para pasar al subjuntivo pasado se toma el subjuntivo presente de avoir y se añade el participio. Être forma sus tiempos compuestos con avoir (j'ai été), así que el subjuntivo pasado es que tu aies été. El cambio desplaza la ingenuidad al pasado: ya no se trata de cómo eres, sino de cómo fuiste. La frase es «Je suis surpris que tu aies été si naïf».",
+   "origen": "tatoeba:468941",
+   "explicacion_breve": "Subjuntivo pasado de être: que tu aies été.",
+   "traduccion": "Me sorprende que hayas sido tan ingenuo.",
+   "errores_previstos": [
+    {
+     "respuesta": "Je suis surpris que tu sois été si naïf.",
+     "explicacion": "Être no se conjuga consigo mismo: sus tiempos compuestos llevan avoir (aies été)."
+    },
+    {
+     "respuesta": "Je suis surpris que tu as été si naïf.",
+     "explicacion": "As été es indicativo. Être surpris que exige subjuntivo: aies été."
+    },
+    {
+     "respuesta": "Je suis surpris que tu aies étais si naïf.",
+     "explicacion": "Étais es imperfecto de indicativo, no participio. El participio de être es été."
+    }
+   ]
+  },
+  {
+   "id": "e12",
+   "tipo": "transformar",
+   "enunciado": "Une las dos frases con que.",
+   "frase": "Je suis content. Tu as réussi ton examen.",
+   "respuestas": [
+    "Je suis content que tu aies réussi ton examen."
+   ],
+   "explicacion": "Être content que expresa emoción y, con dos sujetos distintos, exige que + subjuntivo. La segunda frase está en passé composé (tu as réussi), lo que indica una acción ya terminada; según la ficha, esa anterioridad se expresa con el subjuntivo pasado. Basta con cambiar as por aies: «Je suis content que tu aies réussi ton examen».",
+   "explicacion_breve": "Emoción + acción anterior: el passé composé pasa a subjuntivo pasado.",
+   "traduccion": "Me alegro de que hayas aprobado el examen.",
+   "errores_previstos": [
+    {
+     "respuesta": "Je suis content que tu as réussi ton examen.",
+     "explicacion": "Mantiene el indicativo as. Être content que exige subjuntivo: aies réussi."
+    },
+    {
+     "respuesta": "Je suis content que tu réussisses ton examen.",
+     "explicacion": "Es subjuntivo presente: presentaría el examen como algo aún por llegar. La acción ya ha ocurrido: aies réussi."
+    },
+    {
+     "respuesta": "Je suis content de tu avoir réussi ton examen.",
+     "explicacion": "La construcción de + infinitivo solo es posible con el mismo sujeto. Aquí hay dos (je y tu): que + subjuntivo."
+    }
+   ]
+  },
+  {
+   "id": "e13",
+   "tipo": "corregir",
+   "enunciado": "Corrige el error.",
+   "frase": "Je doute qu'elle a compris la question.",
+   "respuestas": [
+    "Je doute qu'elle ait compris la question."
+   ],
+   "explicacion": "Douter que expresa duda y exige subjuntivo, igual que «dudo que» en español. El error de la frase es el indicativo a compris. Como la comprensión es anterior a la duda, la ficha indica el subjuntivo pasado: subjuntivo de avoir (ait) más participio (compris). La frase corregida es «Je doute qu'elle ait compris la question».",
+   "explicacion_breve": "douter que exige subjuntivo: qu'elle ait compris.",
+   "traduccion": "Dudo que haya entendido la pregunta.",
+   "errores_previstos": [
+    {
+     "respuesta": "Je doute qu'elle a compris la question.",
+     "explicacion": "Es la frase sin corregir: tras douter que no puede ir el indicativo a compris."
+    },
+    {
+     "respuesta": "Je doute qu'elle comprenne la question.",
+     "explicacion": "Usa el subjuntivo presente y cambia la cronología: ya no se duda de algo pasado. Hace falta ait compris."
+    },
+    {
+     "respuesta": "Je doute qu'elle aie compris la question.",
+     "explicacion": "Aie es la forma de je; con elle el subjuntivo de avoir es ait."
+    }
+   ]
+  },
+  {
+   "id": "e14",
+   "tipo": "corregir",
+   "enunciado": "Corrige el error.",
+   "frase": "Il est dommage qu'ils aient partis si tôt.",
+   "respuestas": [
+    "Il est dommage qu'ils soient partis si tôt."
+   ],
+   "explicacion": "La frase ya usa el subjuntivo, exigido por il est dommage que, pero con el auxiliar equivocado. Partir es un verbo de movimiento que, según la ficha, lleva être en los tiempos compuestos también en subjuntivo. Con ils el subjuntivo de être es soient, y el participio concuerda con el sujeto masculino plural: partis. Resultado: «Il est dommage qu'ils soient partis si tôt».",
+   "explicacion_breve": "partir se conjuga con être: qu'ils soient partis.",
+   "traduccion": "Es una pena que se hayan ido tan pronto.",
+   "errores_previstos": [
+    {
+     "respuesta": "Il est dommage qu'ils aient partis si tôt.",
+     "explicacion": "Es la frase sin corregir: partir no se conjuga con avoir sino con être."
+    },
+    {
+     "respuesta": "Il est dommage qu'ils aient parti si tôt.",
+     "explicacion": "Quitar la s no arregla el problema: el auxiliar sigue siendo avoir, y partir lleva être."
+    },
+    {
+     "respuesta": "Il est dommage qu'ils sont partis si tôt.",
+     "explicacion": "Corrige el auxiliar pero pone indicativo. Il est dommage que exige subjuntivo: soient."
+    }
+   ]
+  },
+  {
+   "id": "e15",
+   "tipo": "ordenar",
+   "enunciado": "Ordena las palabras.",
+   "palabras": [
+    "venu",
+    "Je",
+    "qu'il",
+    "pas",
+    "soit",
+    "crois",
+    "ne"
+   ],
+   "respuestas": [
+    "Je ne crois pas qu'il soit venu"
+   ],
+   "explicacion": "La ficha de usos recuerda que croire en negativa expresa duda y exige subjuntivo. Venir forma sus tiempos compuestos con être, así que el subjuntivo pasado es qu'il soit venu. En francés la negación envuelve al verbo conjugado: je ne crois pas. Después viene que + sujeto + auxiliar + participio: «Je ne crois pas qu'il soit venu».",
+   "explicacion_breve": "Creencia negada + subjuntivo pasado de venir (con être).",
+   "traduccion": "No creo que haya venido.",
+   "errores_previstos": [
+    {
+     "respuesta": "Je crois ne pas qu'il soit venu",
+     "explicacion": "La negación ne… pas debe rodear al verbo conjugado crois: je ne crois pas."
+    },
+    {
+     "respuesta": "Je ne crois pas qu'il venu soit",
+     "explicacion": "El auxiliar va delante del participio: soit venu."
+    }
+   ]
+  },
+  {
+   "id": "e16",
+   "tipo": "ordenar",
+   "enunciado": "Ordena las palabras.",
+   "palabras": [
+    "gagné",
+    "que",
+    "Nous",
+    "ayez",
+    "contents",
+    "vous",
+    "sommes"
+   ],
+   "respuestas": [
+    "Nous sommes contents que vous ayez gagné"
+   ],
+   "explicacion": "Être content que expresa emoción y exige subjuntivo. La victoria ya se ha producido, por lo que se usa el subjuntivo pasado: subjuntivo de avoir con vous (ayez) más el participio gagné. El orden es sujeto + verbo principal + adjetivo + que + nuevo sujeto + auxiliar + participio: «Nous sommes contents que vous ayez gagné».",
+   "explicacion_breve": "être content que + subjuntivo pasado: la victoria ya ha ocurrido.",
+   "traduccion": "Estamos contentos de que hayáis ganado.",
+   "errores_previstos": [
+    {
+     "respuesta": "Vous sommes contents que nous ayez gagné",
+     "explicacion": "Intercambia los sujetos: sommes es la forma de nous y ayez la de vous."
+    },
+    {
+     "respuesta": "Nous sommes contents que vous gagné ayez",
+     "explicacion": "El auxiliar va delante del participio: ayez gagné."
+    }
+   ]
+  }
  ],
- "fuente": {"nombre": "Tex's French Grammar", "autores": "COERLL, Universidad de Texas en Austin", "licencia": "CC BY 3.0", "url": "https://laits.utexas.edu/tex/gr/tas6.html", "otras": ["Frases de Tatoeba (CC BY 2.0 FR)"]}
+ "fuente": {
+  "nombre": "Tex's French Grammar",
+  "autores": "COERLL, Universidad de Texas en Austin",
+  "licencia": "CC BY 3.0",
+  "url": "https://laits.utexas.edu/tex/gr/tas6.html",
+  "otras": [
+   "Frases de Tatoeba (CC BY 2.0 FR)"
+  ]
+ },
+ "descripcion_larga_es": "El subjuntivo pasado (que j'aie fait, qu'il soit venu) se forma con el subjuntivo presente de avoir o être y el participio, y expresa una acción anterior a la del verbo principal. Se usa tras los mismos desencadenantes que el subjuntivo presente. Cuesta al hispanohablante porque una sola forma francesa cubre «haya hecho» y «hubiera hecho»: lo que decide no es el tiempo de la principal, sino qué acción ocurrió antes.",
+ "contexto": {
+  "que_es": "Es el tiempo compuesto del subjuntivo, el «passé composé» de ese modo: subjuntivo presente del auxiliar (aie, ait, soit, soient…) más el participio pasado. Sigue las mismas reglas de auxiliar y concordancia que el passé composé. Indica que la acción de la subordinada es anterior a la de la oración principal.",
+  "por_que_importa": "Permite expresar emociones, dudas u opiniones sobre hechos ya ocurridos, algo constante al comentar noticias o reaccionar en una conversación («je suis content que tu aies réussi»). Elegir mal entre presente y pasado de subjuntivo cambia la cronología de lo que se dice. En un examen se evalúa además el auxiliar correcto y la concordancia del participio, dos errores muy visibles.",
+  "cuando_se_usa": "Aparece tras los desencadenantes habituales del subjuntivo (il faut que, douter que, être content que, bien que, avant que, superlativos y le seul) cuando la acción subordinada ya ha terminado. Las pistas son marcadores de anterioridad (hier, l'an dernier, déjà) o un sentido de resultado. El hispanohablante tiende a mirar el tiempo de la principal para decidir, como en español; en francés solo cuenta si la acción es anterior o no, y «que tu aies lu» traduce tanto «que hayas leído» como «que hubieras leído»."
+ }
 }

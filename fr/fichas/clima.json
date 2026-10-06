@@ -176,7 +176,33 @@
    "respuestas": [
     "pleut"
    ],
-   "explicacion": "Llover = pleuvoir: il pleut."
+   "explicacion": "Es una de las tres estructuras de la ficha: il + verbo meteorológico. Llover es pleuvoir, un verbo impersonal que solo se conjuga con il; en presente da il pleut. La pista es parapluie (paraguas), que anuncia lluvia. Fíjate en que el francés usa el presente simple il pleut donde el español prefiere «está lloviendo».",
+   "explicacion_breve": "Llover = pleuvoir: il pleut.",
+   "traduccion": "Coge el paraguas, está lloviendo.",
+   "errores_previstos": [
+    {
+     "respuesta": "pleuve",
+     "explicacion": "Pleuve es el subjuntivo (qu'il pleuve). En una afirmación en presente se usa el indicativo: il pleut."
+    },
+    {
+     "respuesta": "fait pluie",
+     "explicacion": "Calco de «hace lluvia». La lluvia tiene verbo propio, pleuvoir, y se dice il pleut."
+    },
+    {
+     "respuesta": "pleu",
+     "explicacion": "Error de ortografía: la tercera persona termina en -t, il pleut."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "pleuvoir",
+     "significado": "llover"
+    },
+    {
+     "palabra": "le parapluie",
+     "significado": "el paraguas"
+    }
+   ]
   },
   {
    "id": "e02",
@@ -186,7 +212,29 @@
    "respuestas": [
     "y a"
    ],
-   "explicacion": "Con sustantivo plural: il y a des orages."
+   "explicacion": "La ficha distingue il fait + adjetivo de il y a + sustantivo. Aquí detrás del hueco viene un sustantivo con artículo, des orages, así que corresponde il y a, como en el error típico «il fait des nuages» que recoge la ficha. Un orage es una tormenta con truenos.",
+   "explicacion_breve": "Con sustantivo plural: il y a des orages.",
+   "traduccion": "Hay tormentas en la montaña.",
+   "errores_previstos": [
+    {
+     "respuesta": "fait",
+     "explicacion": "Il fait solo va seguido de un adjetivo (il fait chaud) o de beau o mauvais. Delante de un sustantivo plural como des orages se usa il y a."
+    },
+    {
+     "respuesta": "a",
+     "explicacion": "Il a significa «él tiene»; falta el pronombre y: la expresión impersonal es il y a."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "un orage",
+     "significado": "una tormenta (con truenos)"
+    },
+    {
+     "palabra": "la montagne",
+     "significado": "la montaña"
+    }
+   ]
   },
   {
    "id": "e03",
@@ -196,7 +244,29 @@
    "respuestas": [
     "fait"
    ],
-   "explicacion": "Il fait + adjetivo."
+   "explicacion": "Se aplica la estructura il fait + adjetivo de la ficha. Froid es aquí un adjetivo, igual que chaud, frais o doux, y el francés lo construye con il fait, como el español «hace frío». La pista es el adverbio très, que solo puede acompañar a un adjetivo, nunca a un sustantivo.",
+   "explicacion_breve": "Il fait + adjetivo.",
+   "traduccion": "Hace mucho frío esta mañana.",
+   "errores_previstos": [
+    {
+     "respuesta": "y a",
+     "explicacion": "Il y a va con sustantivos (il y a du vent). Froid es aquí un adjetivo modificado por très, así que se usa il fait."
+    },
+    {
+     "respuesta": "est",
+     "explicacion": "Calco de «está frío». El tiempo se describe con il fait + adjetivo, no con il est."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "il fait froid",
+     "significado": "hace frío"
+    },
+    {
+     "palabra": "ce matin",
+     "significado": "esta mañana"
+    }
+   ]
   },
   {
    "id": "e04",
@@ -207,7 +277,33 @@
     "Au",
     "au"
    ],
-   "explicacion": "Au printemps; las demás estaciones van con en."
+   "explicacion": "La lista de la ficha lo advierte: las estaciones van con en (en été, en automne, en hiver), salvo printemps, que va con au. La razón histórica es que printemps empieza por consonante, mientras que las otras tres empiezan por vocal o h muda. Por eso au printemps; con mayúscula al ir a principio de frase, aunque el corrector acepta las dos.",
+   "explicacion_breve": "Au printemps; las demás estaciones van con en.",
+   "traduccion": "En primavera hace una temperatura agradable.",
+   "errores_previstos": [
+    {
+     "respuesta": "En",
+     "explicacion": "Es el error que la ficha señala: en vale para été, automne e hiver, pero la primavera es au printemps."
+    },
+    {
+     "respuesta": "À le",
+     "explicacion": "À + le se contrae siempre en au; à le no existe."
+    },
+    {
+     "respuesta": "Dans le",
+     "explicacion": "Calco de «en la primavera». Dans le printemps no se usa para situar algo en la estación; se dice au printemps."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "le printemps",
+     "significado": "la primavera"
+    },
+    {
+     "palabra": "il fait doux",
+     "significado": "hace una temperatura agradable, templado"
+    }
+   ]
   },
   {
    "id": "e05",
@@ -222,7 +318,24 @@
    "respuestas": [
     "En"
    ],
-   "explicacion": "En hiver."
+   "explicacion": "Según la ficha, todas las estaciones salvo printemps van con en: en été, en automne, en hiver. Hiver empieza por h muda, y en se usa sin artículo, como en español «en invierno». La pista es precisamente la palabra hiver.",
+   "explicacion_breve": "En hiver.",
+   "traduccion": "En invierno nieva a menudo en Burgos.",
+   "por_opcion": {
+    "En": "Correcta: en hiver, como en été y en automne.",
+    "Au": "Incorrecta: au se reserva para au printemps, la única estación que lo lleva.",
+    "À l'": "Incorrecta: no se dice à l'hiver para situar algo en la estación; à l'hiver solo aparece en giros como «se préparer à l'hiver» (prepararse para el invierno)."
+   },
+   "glosario": [
+    {
+     "palabra": "l'hiver",
+     "significado": "el invierno"
+    },
+    {
+     "palabra": "neiger",
+     "significado": "nevar"
+    }
+   ]
   },
   {
    "id": "e06",
@@ -237,7 +350,24 @@
    "respuestas": [
     "j'ai froid"
    ],
-   "explicacion": "Sensación personal: avoir froid."
+   "explicacion": "La ficha distingue entre el tiempo que hace (il fait froid) y lo que siente una persona, que se expresa con avoir: j'ai froid, j'ai chaud. La pista es el sujeto je que se pone el jersey: es una sensación personal, no una descripción del tiempo. Je suis froid es un calco del español que no se usa con este sentido.",
+   "explicacion_breve": "Sensación personal: avoir froid.",
+   "traduccion": "Me pongo un jersey porque tengo frío.",
+   "por_opcion": {
+    "j'ai froid": "Correcta: la sensación de frío se expresa con avoir, literalmente «tengo frío», igual que en español.",
+    "je suis froid": "Incorrecta: être froid describe a alguien frío de carácter o un cuerpo frío al tacto, no la sensación de tener frío.",
+    "il a froid": "Gramaticalmente correcta, pero no encaja: el que se pone el jersey es je, así que quien tiene frío es también je."
+   },
+   "glosario": [
+    {
+     "palabra": "mettre un pull",
+     "significado": "ponerse un jersey"
+    },
+    {
+     "palabra": "avoir froid",
+     "significado": "tener frío"
+    }
+   ]
   },
   {
    "id": "e07",
@@ -252,7 +382,28 @@
    "respuestas": [
     "météo"
    ],
-   "explicacion": "El parte meteorológico es la météo."
+   "explicacion": "Es una cuestión de léxico: la météo es el parte o la previsión meteorológica, y la tabla de la ficha la usa en la fórmula d'après la météo. Selon la météo funciona igual. La pista es il fera beau demain: alguien está pronosticando, y eso lo hace la météo, no el clima ni la temperatura.",
+   "explicacion_breve": "El parte meteorológico es la météo.",
+   "traduccion": "Según el parte meteorológico, mañana hará buen tiempo.",
+   "por_opcion": {
+    "météo": "Correcta: la météo es la previsión meteorológica que anuncia el tiempo de mañana.",
+    "climat": "Incorrecta: le climat es el clima habitual de una región; además es masculino y no encaja con el artículo la.",
+    "température": "Incorrecta: la température es solo la medida del calor; no predice el tiempo."
+   },
+   "glosario": [
+    {
+     "palabra": "selon",
+     "significado": "según"
+    },
+    {
+     "palabra": "la météo",
+     "significado": "el parte meteorológico, la previsión"
+    },
+    {
+     "palabra": "il fera beau",
+     "significado": "hará buen tiempo"
+    }
+   ]
   },
   {
    "id": "e08",
@@ -267,7 +418,28 @@
    "respuestas": [
     "canicule"
    ],
-   "explicacion": "Ola de calor = canicule."
+   "explicacion": "La ficha traduce la canicule como «la ola de calor», un periodo de varios días de temperaturas muy altas. La pista son los 42 grados en julio. Las otras dos palabras de la tabla describen fenómenos de lluvia o de tiempo variable, que no casan con ese calor extremo.",
+   "explicacion_breve": "Ola de calor = canicule.",
+   "traduccion": "En julio, una ola de calor azotó el sur del país: ¡42 grados!",
+   "por_opcion": {
+    "canicule": "Correcta: une canicule es una ola de calor, justo lo que indican los 42 grados.",
+    "averse": "Incorrecta: une averse es un chaparrón, una lluvia fuerte y breve.",
+    "éclaircie": "Incorrecta: une éclaircie es un claro, un momento en que sale el sol entre nubes o lluvia."
+   },
+   "glosario": [
+    {
+     "palabra": "la canicule",
+     "significado": "la ola de calor"
+    },
+    {
+     "palabra": "frapper",
+     "significado": "golpear, azotar"
+    },
+    {
+     "palabra": "le sud",
+     "significado": "el sur"
+    }
+   ]
   },
   {
    "id": "e09",
@@ -277,7 +449,29 @@
    "respuestas": [
     "temps"
    ],
-   "explicacion": "Quel temps fait-il ?"
+   "explicacion": "La ficha da la pregunta fija Quel temps fait-il ? En francés el tiempo atmosférico es le temps (la misma palabra que el tiempo cronológico), y la ficha lo distingue de le climat. Quel concuerda en masculino singular con temps. La inversión fait-il es la forma habitual en esta pregunta.",
+   "explicacion_breve": "Quel temps fait-il ?",
+   "traduccion": "¿Qué tiempo hace en Lisboa?",
+   "errores_previstos": [
+    {
+     "respuesta": "climat",
+     "explicacion": "Le climat es el clima de una región a largo plazo; para preguntar por el tiempo de hoy se dice quel temps fait-il."
+    },
+    {
+     "respuesta": "temp",
+     "explicacion": "Temps se escribe siempre con -s final, incluso en singular."
+    },
+    {
+     "respuesta": "météo",
+     "explicacion": "La météo es el parte meteorológico; la pregunta fija es quel temps fait-il, y además météo es femenino y no concuerda con quel."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "le temps",
+     "significado": "el tiempo (atmosférico)"
+    }
+   ]
   },
   {
    "id": "e10",
@@ -287,7 +481,25 @@
    "respuestas": [
     "verse"
    ],
-   "explicacion": "Pleuvoir à verse = llover a cántaros."
+   "explicacion": "Es una expresión fija de la tabla: pleuvoir à verse, «llover a cántaros». Verse procede del verbo verser (verter), como si el agua se vertiera de golpe. No se puede traducir palabra por palabra desde el español; hay que aprenderla como bloque.",
+   "explicacion_breve": "Pleuvoir à verse = llover a cántaros.",
+   "traduccion": "Llueve a cántaros.",
+   "errores_previstos": [
+    {
+     "respuesta": "cántaros",
+     "explicacion": "Es la palabra española; la expresión francesa equivalente es pleuvoir à verse."
+    },
+    {
+     "respuesta": "averse",
+     "explicacion": "Une averse es un chaparrón; la expresión es à verse, en dos palabras."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "pleuvoir à verse",
+     "significado": "llover a cántaros"
+    }
+   ]
   },
   {
    "id": "e11",
@@ -297,7 +509,33 @@
    "respuestas": [
     "Il y a des nuages aujourd'hui."
    ],
-   "explicacion": "Con nuages se usa il y a."
+   "explicacion": "Es el primer error típico de la ficha: con sustantivos como nuages u orages no se usa il fait, sino il y a. Il fait solo va con adjetivos (chaud, froid, beau) o con la temperatura en grados. Por eso se sustituye il fait por il y a: il y a des nuages aujourd'hui.",
+   "explicacion_breve": "Con nuages se usa il y a.",
+   "traduccion": "Hoy hay nubes.",
+   "errores_previstos": [
+    {
+     "respuesta": "Il fait des nuages aujourd'hui.",
+     "explicacion": "Es la frase sin corregir: il fait no puede ir seguido del sustantivo des nuages."
+    },
+    {
+     "respuesta": "Il est des nuages aujourd'hui.",
+     "explicacion": "Il est tampoco describe el tiempo; la expresión que introduce un sustantivo es il y a."
+    },
+    {
+     "respuesta": "Il fait nuageux aujourd'hui.",
+     "explicacion": "Nuageux se usa con le ciel est nuageux o le temps est nuageux; la corrección esperada mantiene el sustantivo con il y a des nuages."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "un nuage",
+     "significado": "una nube"
+    },
+    {
+     "palabra": "aujourd'hui",
+     "significado": "hoy"
+    }
+   ]
   },
   {
    "id": "e12",
@@ -307,7 +545,29 @@
    "respuestas": [
     "Ferme la fenêtre, j'ai froid."
    ],
-   "explicacion": "Avoir froid."
+   "explicacion": "La ficha lo explica en la lista y en los errores típicos: la sensación de frío o calor se expresa con avoir (j'ai froid, j'ai chaud), no con être. Je suis froid sería describir a una persona fría de carácter. La pista es ferme la fenêtre: quien habla siente frío.",
+   "explicacion_breve": "Avoir froid.",
+   "traduccion": "Cierra la ventana, tengo frío.",
+   "errores_previstos": [
+    {
+     "respuesta": "Ferme la fenêtre, je suis froid.",
+     "explicacion": "Es la frase sin corregir: la sensación de frío no se expresa con être sino con avoir."
+    },
+    {
+     "respuesta": "Ferme la fenêtre, il fait froid à moi.",
+     "explicacion": "Mezcla la descripción del tiempo con la sensación personal; para lo que uno siente se dice j'ai froid."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "fermer",
+     "significado": "cerrar"
+    },
+    {
+     "palabra": "la fenêtre",
+     "significado": "la ventana"
+    }
+   ]
   },
   {
    "id": "e13",
@@ -323,7 +583,29 @@
     "Demain il va neiger",
     "Il va neiger demain"
    ],
-   "explicacion": "Futuro próximo: il va + infinitivo."
+   "explicacion": "Es el futuro próximo: il va + infinitivo, aquí il va neiger. El verbo neiger es impersonal y se conjuga solo con il. El adverbio demain puede ir al principio o al final de la frase, así que las dos ordenaciones son correctas, como en español «mañana va a nevar» y «va a nevar mañana».",
+   "explicacion_breve": "Futuro próximo: il va + infinitivo.",
+   "traduccion": "Mañana va a nevar.",
+   "errores_previstos": [
+    {
+     "respuesta": "Demain va il neiger",
+     "explicacion": "Calca el orden español sin sujeto delante del verbo. En francés el sujeto il va siempre antes de va en una afirmación."
+    },
+    {
+     "respuesta": "Il neiger va demain",
+     "explicacion": "En el futuro próximo el auxiliar va precede al infinitivo: il va neiger."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "neiger",
+     "significado": "nevar"
+    },
+    {
+     "palabra": "demain",
+     "significado": "mañana"
+    }
+   ]
   },
   {
    "id": "e14",
@@ -338,7 +620,29 @@
    "respuestas": [
     "Le ciel est couvert"
    ],
-   "explicacion": "Cielo cubierto = le ciel est couvert."
+   "explicacion": "Es una expresión de la tabla: le ciel est couvert, «el cielo está cubierto». Aquí sí se usa être, porque el sujeto es un sustantivo concreto, le ciel, y couvert es un adjetivo que lo describe. El orden es el normal de sujeto, verbo y atributo.",
+   "explicacion_breve": "Cielo cubierto = le ciel est couvert.",
+   "traduccion": "El cielo está cubierto.",
+   "errores_previstos": [
+    {
+     "respuesta": "Couvert est le ciel",
+     "explicacion": "El francés no antepone el atributo al verbo en una frase neutra; el orden es sujeto + être + adjetivo."
+    },
+    {
+     "respuesta": "Le couvert est ciel",
+     "explicacion": "Altera el sentido: le couvert sería el cubierto de mesa. El sujeto es le ciel."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "le ciel",
+     "significado": "el cielo"
+    },
+    {
+     "palabra": "couvert",
+     "significado": "cubierto, nublado"
+    }
+   ]
   },
   {
    "id": "e15",
@@ -348,10 +652,38 @@
    "respuestas": [
     "Il va pleuvoir."
    ],
-   "explicacion": "Futuro próximo de pleuvoir: il va pleuvoir."
+   "explicacion": "El futuro próximo se forma con aller conjugado en presente + infinitivo. Con un verbo impersonal el sujeto es il, así que il va pleuvoir. El infinitivo de il pleut es pleuvoir, irregular, y es precisamente lo que hay que recordar para hacer la transformación.",
+   "explicacion_breve": "Futuro próximo de pleuvoir: il va pleuvoir.",
+   "traduccion": "Va a llover.",
+   "errores_previstos": [
+    {
+     "respuesta": "Il va pleut.",
+     "explicacion": "Detrás de aller el verbo va en infinitivo, no conjugado: il va pleuvoir."
+    },
+    {
+     "respuesta": "Il va pleuver.",
+     "explicacion": "Infinitivo inventado por analogía con los verbos en -er; el infinitivo de llover es pleuvoir."
+    },
+    {
+     "respuesta": "Il va à pleuvoir.",
+     "explicacion": "Calco de «va a llover». El futuro próximo francés no lleva preposición: il va pleuvoir."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "pleuvoir",
+     "significado": "llover"
+    }
+   ]
   }
  ],
  "fuente": {
   "nombre": "propia"
+ },
+ "descripcion_larga_es": "Esta ficha enseña a hablar del tiempo en francés con tres estructuras impersonales: il fait + adjetivo, il y a + sustantivo e il + verbo (il pleut, il neige). Añade las estaciones, la previsión y palabras como canicule o averse. Es un tema de conversación constante y de examen. Al hispanohablante le cuesta no decir «il fait des nuages», «je suis froid» o «en printemps».",
+ "contexto": {
+  "que_es": "Es el léxico del tiempo atmosférico y del clima: las tres construcciones impersonales con que el francés describe el tiempo, el vocabulario de fenómenos (pluie, neige, brouillard, orage, averse, éclaircie), las temperaturas, las estaciones y la previsión meteorológica (la météo, les prévisions).",
+  "por_que_importa": "Hablar del tiempo es el tema de conversación más socorrido y aparece en casi todos los manuales y pruebas orales de nivel A2. Los errores típicos, como je suis froid o il est chaud, no impiden entender, pero pueden dar un sentido distinto (je suis chaud, en lenguaje coloquial, puede sonar a «estoy entusiasmado» o tener otras connotaciones) y delatan enseguida un calco del español.",
+  "cuando_se_usa": "Se usa al comentar el día, al leer o escuchar una previsión y al describir el clima de una región. La elección depende de lo que sigue: adjetivo, il fait; sustantivo, il y a; fenómeno con verbo propio, il pleut o il neige. El hispanohablante tiende a usar il fait para todo, como «hace», y ser en lugar de avoir para las sensaciones."
  }
 }

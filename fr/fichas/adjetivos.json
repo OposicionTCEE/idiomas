@@ -6,60 +6,553 @@
  "nivel": "A1",
  "resumen": "Como en español, el adjetivo francés concuerda en género y número con el nombre; la regla general es añadir -e para el femenino y -s para el plural, pero muchas terminaciones cambian.",
  "explicacion": [
-  {"tipo": "tabla", "cabecera": ["", "Singular", "Plural"], "filas": [
-   ["Masculino", "petit", "petits"],
-   ["Femenino", "petite", "petites"]
-  ]},
-  {"tipo": "texto", "texto": "La -s del plural no se pronuncia, así que petit y petits suenan igual; en cambio la -e del femenino hace sonar la consonante final: petit [pəti] / petite [pətit]. Si el nombre ya acaba en -e, no cambia en femenino: un homme calme, une femme calme. Si el adjetivo se refiere a nombres de los dos géneros, va en masculino plural: Tammy et Tex sont petits."},
-  {"tipo": "tabla", "cabecera": ["Terminación", "Femenino", "Ejemplo"], "filas": [
-   ["-el, -eil, -il", "-elle, -eille, -ille", "cruel / cruelle; pareil / pareille; gentil / gentille"],
-   ["-en, -on", "-enne, -onne", "ancien / ancienne; bon / bonne"],
-   ["-s", "-sse", "gros / grosse"],
-   ["-er, -et", "-ère, -ète", "cher / chère; secret / secrète"],
-   ["-eux, -eur", "-euse", "heureux / heureuse; travailleur / travailleuse"],
-   ["-teur", "-trice", "créateur / créatrice"],
-   ["-f", "-ve", "actif / active; sportif / sportive"],
-   ["-c", "-che o -que", "blanc / blanche; franc / franche; public / publique"],
-   ["Otros irregulares", "", "doux / douce; faux / fausse; frais / fraîche; long / longue; fou / folle; favori / favorite"]
-  ]},
-  {"tipo": "lista", "items": [
-   "Plural: si el masculino ya acaba en -s o -x, no cambia: un homme heureux, des hommes heureux.",
-   "-eau hace -eaux: beau / beaux, nouveau / nouveaux.",
-   "-al suele hacer -aux: national / nationaux, social / sociaux (pero el femenino es regular: nationales).",
-   "Beau, nouveau y vieux tienen forma especial ante vocal en masculino singular: un bel hôtel, un nouvel ami, un vieil homme; femenino belle, nouvelle, vieille."
-  ]}
+  {
+   "tipo": "tabla",
+   "cabecera": [
+    "",
+    "Singular",
+    "Plural"
+   ],
+   "filas": [
+    [
+     "Masculino",
+     "petit",
+     "petits"
+    ],
+    [
+     "Femenino",
+     "petite",
+     "petites"
+    ]
+   ]
+  },
+  {
+   "tipo": "texto",
+   "texto": "La -s del plural no se pronuncia, así que petit y petits suenan igual; en cambio la -e del femenino hace sonar la consonante final: petit [pəti] / petite [pətit]. Si el nombre ya acaba en -e, no cambia en femenino: un homme calme, une femme calme. Si el adjetivo se refiere a nombres de los dos géneros, va en masculino plural: Tammy et Tex sont petits."
+  },
+  {
+   "tipo": "tabla",
+   "cabecera": [
+    "Terminación",
+    "Femenino",
+    "Ejemplo"
+   ],
+   "filas": [
+    [
+     "-el, -eil, -il",
+     "-elle, -eille, -ille",
+     "cruel / cruelle; pareil / pareille; gentil / gentille"
+    ],
+    [
+     "-en, -on",
+     "-enne, -onne",
+     "ancien / ancienne; bon / bonne"
+    ],
+    [
+     "-s",
+     "-sse",
+     "gros / grosse"
+    ],
+    [
+     "-er, -et",
+     "-ère, -ète",
+     "cher / chère; secret / secrète"
+    ],
+    [
+     "-eux, -eur",
+     "-euse",
+     "heureux / heureuse; travailleur / travailleuse"
+    ],
+    [
+     "-teur",
+     "-trice",
+     "créateur / créatrice"
+    ],
+    [
+     "-f",
+     "-ve",
+     "actif / active; sportif / sportive"
+    ],
+    [
+     "-c",
+     "-che o -que",
+     "blanc / blanche; franc / franche; public / publique"
+    ],
+    [
+     "Otros irregulares",
+     "",
+     "doux / douce; faux / fausse; frais / fraîche; long / longue; fou / folle; favori / favorite"
+    ]
+   ]
+  },
+  {
+   "tipo": "lista",
+   "items": [
+    "Plural: si el masculino ya acaba en -s o -x, no cambia: un homme heureux, des hommes heureux.",
+    "-eau hace -eaux: beau / beaux, nouveau / nouveaux.",
+    "-al suele hacer -aux: national / nationaux, social / sociaux (pero el femenino es regular: nationales).",
+    "Beau, nouveau y vieux tienen forma especial ante vocal en masculino singular: un bel hôtel, un nouvel ami, un vieil homme; femenino belle, nouvelle, vieille."
+   ]
+  }
  ],
  "ejemplos": [
-  {"frase": "La neige est blanche.", "traduccion": "La nieve es blanca."},
-  {"frase": "Fiona est travailleuse, mais Joe-Bob n'est pas travailleur.", "traduccion": "Fiona es trabajadora, pero Joe-Bob no es trabajador."},
-  {"frase": "C'est une bonne idée.", "traduccion": "Es una buena idea."},
-  {"frase": "Tex et Tammy sont imaginaires.", "traduccion": "Tex y Tammy son imaginarios."},
-  {"frase": "Les rues de la ville sont longues et étroites.", "traduccion": "Las calles de la ciudad son largas y estrechas."},
-  {"frase": "Ce sont des problèmes sociaux.", "traduccion": "Son problemas sociales."}
+  {
+   "frase": "La neige est blanche.",
+   "traduccion": "La nieve es blanca."
+  },
+  {
+   "frase": "Fiona est travailleuse, mais Joe-Bob n'est pas travailleur.",
+   "traduccion": "Fiona es trabajadora, pero Joe-Bob no es trabajador."
+  },
+  {
+   "frase": "C'est une bonne idée.",
+   "traduccion": "Es una buena idea."
+  },
+  {
+   "frase": "Tex et Tammy sont imaginaires.",
+   "traduccion": "Tex y Tammy son imaginarios."
+  },
+  {
+   "frase": "Les rues de la ville sont longues et étroites.",
+   "traduccion": "Las calles de la ciudad son largas y estrechas."
+  },
+  {
+   "frase": "Ce sont des problèmes sociaux.",
+   "traduccion": "Son problemas sociales."
+  }
  ],
  "errores_hispanohablantes": [
-  {"mal": "Elle est très actif.", "bien": "Elle est très active.", "nota": "-f cambia a -ve en femenino."},
-  {"mal": "Une bone idée.", "bien": "Une bonne idée.", "nota": "Bon dobla la n en femenino: bonne."},
-  {"mal": "Des problèmes socials.", "bien": "Des problèmes sociaux.", "nota": "La mayoría de los adjetivos en -al hacen el plural masculino en -aux."},
-  {"mal": "Un beau hôtel.", "bien": "Un bel hôtel.", "nota": "Ante vocal o h muda, beau pasa a bel."}
+  {
+   "mal": "Elle est très actif.",
+   "bien": "Elle est très active.",
+   "nota": "-f cambia a -ve en femenino."
+  },
+  {
+   "mal": "Une bone idée.",
+   "bien": "Une bonne idée.",
+   "nota": "Bon dobla la n en femenino: bonne."
+  },
+  {
+   "mal": "Des problèmes socials.",
+   "bien": "Des problèmes sociaux.",
+   "nota": "La mayoría de los adjetivos en -al hacen el plural masculino en -aux."
+  },
+  {
+   "mal": "Un beau hôtel.",
+   "bien": "Un bel hôtel.",
+   "nota": "Ante vocal o h muda, beau pasa a bel."
+  }
  ],
  "ejercicios": [
-  {"id": "e01", "tipo": "hueco", "enunciado": "Completa con el adjetivo concordado.", "frase": "La neige est ___ (blanc).", "respuestas": ["blanche"], "explicacion": "Blanc hace el femenino en -che.", "origen": "tatoeba:4470957"},
-  {"id": "e02", "tipo": "hueco", "enunciado": "Completa con el adjetivo concordado (habla una mujer).", "frase": "Je suis si ___ (heureux).", "respuestas": ["heureuse"], "explicacion": "-eux hace el femenino en -euse.", "origen": "tatoeba:623855"},
-  {"id": "e03", "tipo": "hueco", "enunciado": "Completa con el adjetivo concordado.", "frase": "Tu es une ___ amie (bon).", "respuestas": ["bonne"], "explicacion": "Bon dobla la n en femenino.", "origen": "tatoeba:9501249"},
-  {"id": "e04", "tipo": "hueco", "enunciado": "Completa con el adjetivo concordado.", "frase": "Il a une ___ voix (beau).", "respuestas": ["belle"], "explicacion": "Voix es femenino; el femenino de beau es belle.", "origen": "tatoeba:1281369"},
-  {"id": "e05", "tipo": "corregir", "enunciado": "Corrige el error.", "frase": "Cette soupe est bon.", "respuestas": ["Cette soupe est bonne."], "explicacion": "Soupe es femenino: bonne.", "origen": "tatoeba:901872"},
-  {"id": "e06", "tipo": "corregir", "enunciado": "Corrige el error.", "frase": "C'est une bon idée.", "respuestas": ["C'est une bonne idée."], "explicacion": "Idée es femenino: bonne.", "origen": "tatoeba:12407"},
-  {"id": "e07", "tipo": "eleccion", "enunciado": "Elige la forma correcta.", "frase": "Emi semble ___.", "opciones": ["heureux", "heureuse", "heureuses"], "respuestas": ["heureuse"], "explicacion": "Emi es una mujer: femenino singular.", "origen": "tatoeba:411257"},
-  {"id": "e08", "tipo": "eleccion", "enunciado": "Elige la forma correcta.", "frase": "Tammy et Tex sont ___.", "opciones": ["petits", "petites", "petit"], "respuestas": ["petits"], "explicacion": "Con nombres de los dos géneros, el adjetivo va en masculino plural."},
-  {"id": "e09", "tipo": "hueco", "enunciado": "Completa con el adjetivo concordado.", "frase": "Les rues sont ___ (long).", "respuestas": ["longues"], "explicacion": "Long hace longue en femenino y longues en femenino plural."},
-  {"id": "e10", "tipo": "transformar", "enunciado": "Pasa la frase al femenino empezando por Ma sœur.", "frase": "Mon frère est sportif et gentil.", "respuestas": ["Ma sœur est sportive et gentille."], "explicacion": "-f pasa a -ve y -il a -ille."},
-  {"id": "e11", "tipo": "transformar", "enunciado": "Pasa la frase al plural empezando por Ce sont.", "frase": "C'est un journal national.", "respuestas": ["Ce sont des journaux nationaux."], "explicacion": "Tanto el nombre como el adjetivo en -al hacen el plural en -aux."},
-  {"id": "e12", "tipo": "eleccion", "enunciado": "Elige la forma correcta.", "frase": "C'est un ___ hôtel.", "opciones": ["beau", "bel", "belle"], "respuestas": ["bel"], "explicacion": "Ante h muda, en masculino singular, beau pasa a bel."},
-  {"id": "e13", "tipo": "ordenar", "enunciado": "Ordena las palabras (Tienes buena memoria).", "palabras": ["mémoire", "as", "bonne", "Tu", "une"], "respuestas": ["Tu as une bonne mémoire"], "explicacion": "Bon va delante del nombre y concuerda con mémoire (femenino).", "origen": "tatoeba:339692"},
-  {"id": "e14", "tipo": "hueco", "enunciado": "Completa con el adjetivo concordado.", "frase": "J'étais de ___ humeur (bon).", "respuestas": ["bonne"], "explicacion": "Humeur es femenino en francés.", "origen": "tatoeba:1640488"},
-  {"id": "e15", "tipo": "eleccion", "enunciado": "Elige la forma correcta.", "frase": "Ces chemises sont trop ___.", "opciones": ["cher", "chère", "chers", "chères"], "respuestas": ["chères"], "explicacion": "Chemises es femenino plural: -er pasa a -ère y se añade -s."},
-  {"id": "e16", "tipo": "hueco", "enunciado": "Completa con el adjetivo concordado.", "frase": "Ma grand-mère est très ___ (actif).", "respuestas": ["active"], "explicacion": "-f hace el femenino en -ve."}
+  {
+   "id": "e01",
+   "tipo": "hueco",
+   "enunciado": "Completa con el adjetivo concordado.",
+   "frase": "La neige est ___ (blanc).",
+   "respuestas": [
+    "blanche"
+   ],
+   "explicacion": "Se aplica la tabla de femeninos irregulares: los adjetivos en -c hacen el femenino en -che o -que, y «blanc» da «blanche». La pista es el sujeto «la neige», femenino singular. Por eso no basta con añadir -e («blance» no existe): hay que escribir «blanche», igual que «franc» da «franche».",
+   "origen": "tatoeba:4470957",
+   "explicacion_breve": "Blanc hace el femenino en -che.",
+   "traduccion": "La nieve es blanca.",
+   "errores_previstos": [
+    {
+     "respuesta": "blanc",
+     "explicacion": "Se ha olvidado la concordancia: «neige» es femenino y el adjetivo debe ir en femenino."
+    },
+    {
+     "respuesta": "blance",
+     "explicacion": "Se ha aplicado la regla general de añadir -e, pero «blanc» es irregular: su femenino es «blanche»."
+    }
+   ]
+  },
+  {
+   "id": "e02",
+   "tipo": "hueco",
+   "enunciado": "Completa con el adjetivo concordado (habla una mujer).",
+   "frase": "Je suis si ___ (heureux).",
+   "respuestas": [
+    "heureuse"
+   ],
+   "explicacion": "Se aplica la regla de la tabla según la cual los adjetivos en -eux hacen el femenino en -euse. La pista está en el enunciado: habla una mujer, así que «je» es femenino aunque el pronombre no lo muestre. Por eso «heureux» pasa a «heureuse», con la x convertida en s y la -e final.",
+   "origen": "tatoeba:623855",
+   "explicacion_breve": "-eux hace el femenino en -euse.",
+   "traduccion": "¡Estoy tan feliz!",
+   "errores_previstos": [
+    {
+     "respuesta": "heureux",
+     "explicacion": "Es la forma masculina; como habla una mujer, el adjetivo debe ir en femenino: «heureuse»."
+    },
+    {
+     "respuesta": "heureuxe",
+     "explicacion": "No se añade -e a la x: la terminación -eux se transforma entera en -euse."
+    }
+   ]
+  },
+  {
+   "id": "e03",
+   "tipo": "hueco",
+   "enunciado": "Completa con el adjetivo concordado.",
+   "frase": "Tu es une ___ amie (bon).",
+   "respuestas": [
+    "bonne"
+   ],
+   "explicacion": "Se aplica la regla de la tabla para los adjetivos en -on, que doblan la n en femenino: «bon» da «bonne». La pista es «une amie», femenino singular (el artículo «une» y la -e de «amie» lo indican). Aunque «amie» empiece por vocal, el adjetivo femenino es siempre «bonne»; no existe una forma especial como en «bel».",
+   "origen": "tatoeba:9501249",
+   "explicacion_breve": "Bon dobla la n en femenino.",
+   "traduccion": "Eres una buena amiga.",
+   "errores_previstos": [
+    {
+     "respuesta": "bon",
+     "explicacion": "Es la forma masculina; «amie» es femenino y exige «bonne»."
+    },
+    {
+     "respuesta": "bone",
+     "explicacion": "Falta doblar la n: los adjetivos en -on hacen el femenino en -onne."
+    }
+   ]
+  },
+  {
+   "id": "e04",
+   "tipo": "hueco",
+   "enunciado": "Completa con el adjetivo concordado.",
+   "frase": "Il a une ___ voix (beau).",
+   "respuestas": [
+    "belle"
+   ],
+   "explicacion": "Se aplica la regla de los adjetivos con forma especial: el femenino de «beau» es «belle». La pista es «une voix»: aunque acabe en -x, «voix» es un nombre femenino, como indica el artículo «une». Por eso el adjetivo, que va delante del nombre, debe ser «belle».",
+   "origen": "tatoeba:1281369",
+   "explicacion_breve": "Voix es femenino; el femenino de beau es belle.",
+   "traduccion": "Tiene una voz bonita.",
+   "errores_previstos": [
+    {
+     "respuesta": "beau",
+     "explicacion": "Es la forma masculina; «voix» es femenino («une voix»), así que se dice «belle»."
+    },
+    {
+     "respuesta": "bel",
+     "explicacion": "«Bel» solo se usa en masculino singular delante de vocal o h muda; aquí el nombre es femenino y empieza por consonante."
+    },
+    {
+     "respuesta": "beaue",
+     "explicacion": "«Beau» no forma el femenino con -e: su femenino es «belle»."
+    }
+   ]
+  },
+  {
+   "id": "e05",
+   "tipo": "corregir",
+   "enunciado": "Corrige el error.",
+   "frase": "Cette soupe est bon.",
+   "respuestas": [
+    "Cette soupe est bonne."
+   ],
+   "explicacion": "Se aplica la concordancia en género con la regla de los adjetivos en -on, que doblan la n: «bon» da «bonne». La pista es el sujeto «cette soupe», femenino singular, como indica el demostrativo «cette». El adjetivo atributo, unido al sujeto por «est», concuerda igual que si fuera delante del nombre.",
+   "origen": "tatoeba:901872",
+   "explicacion_breve": "Soupe es femenino: bonne.",
+   "traduccion": "Esta sopa está buena.",
+   "errores_previstos": [
+    {
+     "respuesta": "Cette soupe est bon.",
+     "explicacion": "Es la frase sin corregir: «soupe» es femenino y el adjetivo debe ser «bonne»."
+    },
+    {
+     "respuesta": "Cette soupe est bone.",
+     "explicacion": "Se ha marcado el femenino, pero falta doblar la n: «bonne»."
+    }
+   ]
+  },
+  {
+   "id": "e06",
+   "tipo": "corregir",
+   "enunciado": "Corrige el error.",
+   "frase": "C'est une bon idée.",
+   "respuestas": [
+    "C'est une bonne idée."
+   ],
+   "explicacion": "Se aplica la regla de los adjetivos en -on: el femenino de «bon» es «bonne». La pista es «une idée»: «idée» es femenino, como en español, y el artículo «une» lo confirma. «Bon» va delante del nombre y debe concordar con él.",
+   "origen": "tatoeba:12407",
+   "explicacion_breve": "Idée es femenino: bonne.",
+   "traduccion": "Es una buena idea.",
+   "errores_previstos": [
+    {
+     "respuesta": "C'est une bon idée.",
+     "explicacion": "Es la frase sin corregir: el adjetivo debe concordar con «idée», femenino."
+    },
+    {
+     "respuesta": "C'est une bone idée.",
+     "explicacion": "Falta doblar la n: «bonne»."
+    },
+    {
+     "respuesta": "C'est un bon idée.",
+     "explicacion": "Se ha cambiado el artículo en vez del adjetivo; «idée» es femenino y exige «une bonne»."
+    }
+   ]
+  },
+  {
+   "id": "e07",
+   "tipo": "eleccion",
+   "enunciado": "Elige la forma correcta.",
+   "frase": "Emi semble ___.",
+   "opciones": [
+    "heureux",
+    "heureuse",
+    "heureuses"
+   ],
+   "respuestas": [
+    "heureuse"
+   ],
+   "explicacion": "Se aplica la concordancia del adjetivo atributo con el sujeto, con la regla -eux / -euse. La pista es el sujeto «Emi», nombre de mujer en singular, y el verbo «semble», que funciona como «être». Por eso el adjetivo va en femenino singular: «heureuse».",
+   "origen": "tatoeba:411257",
+   "explicacion_breve": "Emi es una mujer: femenino singular.",
+   "traduccion": "Emi parece feliz.",
+   "por_opcion": {
+    "heureux": "Incorrecta: es la forma masculina (singular o plural); no concuerda con un sujeto femenino.",
+    "heureuse": "Correcta: femenino singular, como el sujeto «Emi».",
+    "heureuses": "Incorrecta: es femenino plural; el sujeto es una sola persona."
+   }
+  },
+  {
+   "id": "e08",
+   "tipo": "eleccion",
+   "enunciado": "Elige la forma correcta.",
+   "frase": "Tammy et Tex sont ___.",
+   "opciones": [
+    "petits",
+    "petites",
+    "petit"
+   ],
+   "respuestas": [
+    "petits"
+   ],
+   "explicacion": "Se aplica la regla de la ficha según la cual, si el adjetivo se refiere a nombres de los dos géneros, va en masculino plural. La pista es el sujeto doble «Tammy et Tex»: Tammy es femenino y Tex masculino. Por eso se escribe «petits», con -s de plural y sin -e de femenino, igual que en español «son pequeños».",
+   "explicacion_breve": "Con nombres de los dos géneros, el adjetivo va en masculino plural.",
+   "traduccion": "Tammy y Tex son pequeños.",
+   "por_opcion": {
+    "petits": "Correcta: masculino plural, la forma que se usa cuando se mezclan los dos géneros.",
+    "petites": "Incorrecta: femenino plural; solo valdría si los dos sujetos fueran femeninos.",
+    "petit": "Incorrecta: es singular y el sujeto son dos personas."
+   }
+  },
+  {
+   "id": "e09",
+   "tipo": "hueco",
+   "enunciado": "Completa con el adjetivo concordado.",
+   "frase": "Les rues sont ___ (long).",
+   "respuestas": [
+    "longues"
+   ],
+   "explicacion": "Se aplica la tabla de femeninos irregulares: «long» hace el femenino «longue», con una u que mantiene el sonido de la g. La pista es «les rues», femenino plural. Por eso se añade primero la terminación femenina y después la -s del plural: «longues».",
+   "explicacion_breve": "Long hace longue en femenino y longues en femenino plural.",
+   "traduccion": "Las calles son largas.",
+   "errores_previstos": [
+    {
+     "respuesta": "longs",
+     "explicacion": "Es masculino plural; «rues» es femenino y exige «longues»."
+    },
+    {
+     "respuesta": "longes",
+     "explicacion": "Falta la u: el femenino de «long» es «longue», para que la g siga sonando fuerte."
+    },
+    {
+     "respuesta": "longue",
+     "explicacion": "Está en femenino, pero falta la -s del plural: «les rues» es plural."
+    }
+   ]
+  },
+  {
+   "id": "e10",
+   "tipo": "transformar",
+   "enunciado": "Pasa la frase al femenino empezando por Ma sœur.",
+   "frase": "Mon frère est sportif et gentil.",
+   "respuestas": [
+    "Ma sœur est sportive et gentille."
+   ],
+   "explicacion": "Se aplican dos reglas de la tabla: los adjetivos en -f hacen el femenino en -ve, y los adjetivos en -il doblan la l y añaden -e. La pista es el nuevo sujeto «ma sœur», femenino singular. Así, «sportif» pasa a «sportive» y «gentil» a «gentille»; ambos adjetivos concuerdan con el mismo sujeto.",
+   "explicacion_breve": "-f pasa a -ve y -il a -ille.",
+   "traduccion": "Mi hermana es deportista y amable.",
+   "errores_previstos": [
+    {
+     "respuesta": "Ma sœur est sportife et gentile.",
+     "explicacion": "Se ha aplicado la regla general de añadir -e, pero -f cambia a -ve y -il dobla la l: «sportive» y «gentille»."
+    },
+    {
+     "respuesta": "Ma sœur est sportive et gentil.",
+     "explicacion": "El segundo adjetivo también debe concordar: «gentille»."
+    },
+    {
+     "respuesta": "Ma sœur est sportif et gentil.",
+     "explicacion": "Solo se ha cambiado el sujeto; los adjetivos deben pasar al femenino."
+    }
+   ]
+  },
+  {
+   "id": "e11",
+   "tipo": "transformar",
+   "enunciado": "Pasa la frase al plural empezando por Ce sont.",
+   "frase": "C'est un journal national.",
+   "respuestas": [
+    "Ce sont des journaux nationaux."
+   ],
+   "explicacion": "Se aplica la regla de la lista según la cual los masculinos en -al suelen hacer el plural en -aux. La pista es que el sujeto pasa al plural con «Ce sont des», y que tanto el nombre «journal» como el adjetivo «national» terminan en -al. Por eso se escribe «des journaux nationaux»: los dos cambian de la misma manera.",
+   "explicacion_breve": "Tanto el nombre como el adjetivo en -al hacen el plural en -aux.",
+   "traduccion": "Son periódicos nacionales.",
+   "errores_previstos": [
+    {
+     "respuesta": "Ce sont des journals nationals.",
+     "explicacion": "Calco de la regla general: las palabras en -al hacen el plural en -aux, no en -als."
+    },
+    {
+     "respuesta": "Ce sont des journaux nationals.",
+     "explicacion": "El adjetivo también acaba en -al y debe hacer el plural en -aux: «nationaux»."
+    },
+    {
+     "respuesta": "Ce sont des journaux nationales.",
+     "explicacion": "«Nationales» es femenino plural; «journal» es masculino y exige «nationaux»."
+    }
+   ]
+  },
+  {
+   "id": "e12",
+   "tipo": "eleccion",
+   "enunciado": "Elige la forma correcta.",
+   "frase": "C'est un ___ hôtel.",
+   "opciones": [
+    "beau",
+    "bel",
+    "belle"
+   ],
+   "respuestas": [
+    "bel"
+   ],
+   "explicacion": "Se aplica la regla de las formas especiales: «beau», «nouveau» y «vieux» pasan a «bel», «nouvel» y «vieil» en masculino singular delante de vocal o h muda. La pista es «hôtel»: es masculino y empieza por h muda, así que se pronuncia como si empezara por vocal. Por eso se dice «un bel hôtel», que además permite enlazar los sonidos.",
+   "explicacion_breve": "Ante h muda, en masculino singular, beau pasa a bel.",
+   "traduccion": "Es un hotel bonito.",
+   "por_opcion": {
+    "beau": "Incorrecta: «beau» se usa ante consonante; delante de h muda en masculino singular cambia a «bel».",
+    "bel": "Correcta: forma especial de masculino singular delante de vocal o h muda.",
+    "belle": "Incorrecta: es la forma femenina y «hôtel» es masculino, aunque se pronuncie igual que «bel»."
+   }
+  },
+  {
+   "id": "e13",
+   "tipo": "ordenar",
+   "enunciado": "Ordena las palabras (Tienes buena memoria).",
+   "palabras": [
+    "mémoire",
+    "as",
+    "bonne",
+    "Tu",
+    "une"
+   ],
+   "respuestas": [
+    "Tu as une bonne mémoire"
+   ],
+   "explicacion": "Se aplican dos cosas: «bon» es uno de los adjetivos cortos que van delante del nombre, y concuerda con «mémoire», que en francés es femenino. Por eso el orden es sujeto «Tu», verbo «as», artículo «une», adjetivo «bonne» y nombre «mémoire». Fíjate también en que el francés pone artículo («une bonne mémoire») donde el español lo omite.",
+   "origen": "tatoeba:339692",
+   "explicacion_breve": "Bon va delante del nombre y concuerda con mémoire (femenino).",
+   "traduccion": "Tienes buena memoria.",
+   "errores_previstos": [
+    {
+     "respuesta": "Tu as une mémoire bonne",
+     "explicacion": "«Bon» es un adjetivo de bondad que va delante del nombre: «une bonne mémoire»."
+    },
+    {
+     "respuesta": "Tu as bonne une mémoire",
+     "explicacion": "El artículo va antes del adjetivo: «une bonne mémoire»."
+    }
+   ]
+  },
+  {
+   "id": "e14",
+   "tipo": "hueco",
+   "enunciado": "Completa con el adjetivo concordado.",
+   "frase": "J'étais de ___ humeur (bon).",
+   "respuestas": [
+    "bonne"
+   ],
+   "explicacion": "Se aplica la regla de los adjetivos en -on («bon» da «bonne») junto con una advertencia de género: «humeur» es femenino en francés, aunque «humor» sea masculino en español. Esa es la trampa de la frase. Por eso se dice «de bonne humeur», expresión fija muy frecuente, igual que «de mauvaise humeur».",
+   "origen": "tatoeba:1640488",
+   "explicacion_breve": "Humeur es femenino en francés.",
+   "traduccion": "Estaba de buen humor.",
+   "errores_previstos": [
+    {
+     "respuesta": "bon",
+     "explicacion": "Calco del español «buen humor»: «humeur» es femenino y exige «bonne»."
+    },
+    {
+     "respuesta": "bone",
+     "explicacion": "Falta doblar la n: «bonne»."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "l'humeur (f.)",
+     "significado": "el humor, el estado de ánimo"
+    }
+   ]
+  },
+  {
+   "id": "e15",
+   "tipo": "eleccion",
+   "enunciado": "Elige la forma correcta.",
+   "frase": "Ces chemises sont trop ___.",
+   "opciones": [
+    "cher",
+    "chère",
+    "chers",
+    "chères"
+   ],
+   "respuestas": [
+    "chères"
+   ],
+   "explicacion": "Se aplica la regla de la tabla para los adjetivos en -er, que hacen el femenino en -ère con acento grave, y después se añade la -s del plural. La pista es «ces chemises», femenino plural. Por eso la forma es «chères»: acento, -e de femenino y -s de plural.",
+   "explicacion_breve": "Chemises es femenino plural: -er pasa a -ère y se añade -s.",
+   "traduccion": "Estas camisas son demasiado caras.",
+   "por_opcion": {
+    "cher": "Incorrecta: masculino singular; no concuerda con «chemises», femenino plural.",
+    "chère": "Incorrecta: femenino singular; falta la -s del plural.",
+    "chers": "Incorrecta: masculino plural; «chemise» es femenino.",
+    "chères": "Correcta: femenino plural, como «ces chemises»."
+   }
+  },
+  {
+   "id": "e16",
+   "tipo": "hueco",
+   "enunciado": "Completa con el adjetivo concordado.",
+   "frase": "Ma grand-mère est très ___ (actif).",
+   "respuestas": [
+    "active"
+   ],
+   "explicacion": "Se aplica la regla de la tabla según la cual los adjetivos en -f hacen el femenino en -ve. La pista es el sujeto «ma grand-mère», femenino singular. Por eso «actif» pasa a «active», igual que «sportif» a «sportive»; el adverbio «très» no cambia nada.",
+   "explicacion_breve": "-f hace el femenino en -ve.",
+   "traduccion": "Mi abuela es muy activa.",
+   "errores_previstos": [
+    {
+     "respuesta": "actif",
+     "explicacion": "Es la forma masculina; el sujeto «ma grand-mère» es femenino."
+    },
+    {
+     "respuesta": "actife",
+     "explicacion": "No basta con añadir -e: la f se convierte en v, «active»."
+    }
+   ]
+  }
  ],
- "fuente": {"nombre": "Tex's French Grammar", "autores": "COERLL, Universidad de Texas en Austin", "licencia": "CC BY 3.0", "url": "https://laits.utexas.edu/tex/gr/adj1.html", "otras": ["Frases de Tatoeba (CC BY 2.0 FR)"]}
+ "fuente": {
+  "nombre": "Tex's French Grammar",
+  "autores": "COERLL, Universidad de Texas en Austin",
+  "licencia": "CC BY 3.0",
+  "url": "https://laits.utexas.edu/tex/gr/adj1.html",
+  "otras": [
+   "Frases de Tatoeba (CC BY 2.0 FR)"
+  ]
+ },
+ "descripcion_larga_es": "Esta ficha explica cómo concuerda el adjetivo francés en género y número con el nombre: la regla general (-e para el femenino, -s para el plural) y las terminaciones que cambian, como -eux/-euse, -f/-ve, -on/-onne o -al/-aux. Importa porque la concordancia se oye en el femenino y se ve siempre en la escritura, y porque el género de muchos nombres no coincide con el español.",
+ "contexto": {
+  "que_es": "Es el mecanismo por el que el adjetivo toma el género (masculino o femenino) y el número (singular o plural) del nombre al que se refiere. La regla básica añade -e y -s, pero muchas terminaciones tienen un femenino propio (-euse, -ve, -che, -onne, -ère) y algunos plurales son irregulares (-aux, -eaux). Cuando el adjetivo se refiere a nombres de los dos géneros, va en masculino plural.",
+  "por_que_importa": "Es una de las cosas que primero se corrigen en un texto escrito: un adjetivo sin concordar salta a la vista. En la lengua oral el femenino suele oírse (petit/petite, bon/bonne), así que el error también se nota al hablar. Además, nombres como «voix», «humeur» o «mémoire» son femeninos en francés aunque su equivalente español no lo sea, y eso provoca fallos.",
+  "cuando_se_usa": "Siempre que un adjetivo acompaña a un nombre o se une a él con un verbo como «être», «sembler» o «devenir». La pista es el nombre o el pronombre sujeto: su género y número mandan. El hispanohablante suele acertar la regla general pero olvida los femeninos irregulares o se guía por el género del nombre en español."
+ }
 }

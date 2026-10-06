@@ -6,68 +6,780 @@
  "nivel": "B2",
  "resumen": "Muchas ideas pueden expresarse con palabras formales (de origen latino), neutras o coloquiales (a menudo phrasal verbs). Elegir bien el registro es esencial en una exposición, un correo o un informe.",
  "explicacion": [
-  {"tipo": "texto", "texto": "Regla práctica: en inglés, la palabra de origen latino suele ser la formal (obtain, require, commence), y el phrasal verb o la palabra corta es la neutra o coloquial (get, need, start). Al hispanohablante le resulta natural la latina, por eso tiende a sonar demasiado formal en una conversación."},
-  {"tipo": "tabla", "cabecera": ["Formal", "Neutro o coloquial", "Significado"], "filas": [
-   ["to obtain / to acquire", "to get", "obtener, conseguir"],
-   ["to require", "to need", "necesitar, requerir"],
-   ["to commence", "to start / to begin", "empezar"],
-   ["to terminate / to conclude", "to end / to finish", "terminar"],
-   ["to purchase", "to buy", "comprar"],
-   ["to assist", "to help", "ayudar"],
-   ["to inform", "to tell / to let know", "informar, avisar"],
-   ["to enquire / to inquire", "to ask", "preguntar"],
-   ["to reside", "to live", "residir, vivir"],
-   ["to postpone", "to put off", "aplazar"],
-   ["to investigate", "to look into", "investigar, examinar"],
-   ["to tolerate", "to put up with", "aguantar"],
-   ["to establish / to discover", "to find out", "averiguar"],
-   ["to reduce", "to cut down (on)", "reducir"],
-   ["to cancel", "to call off", "suspender, cancelar"],
-   ["sufficient", "enough", "suficiente"],
-   ["approximately", "about / around", "aproximadamente"],
-   ["however", "but / though", "sin embargo / pero"],
-   ["therefore", "so", "por tanto / así que"],
-   ["prior to", "before", "antes de"]
-  ]},
-  {"tipo": "tabla", "cabecera": ["Coloquial", "Neutro", "Significado"], "filas": [
-   ["kids", "children", "niños"],
-   ["guy", "man", "tío, hombre"],
-   ["loads of / tons of", "a lot of", "un montón de"],
-   ["cheers / ta", "thanks", "gracias"],
-   ["gonna / wanna", "going to / want to", "voy a / quiero (solo oral)"],
-   ["quid / bucks", "pounds / dollars", "libras / dólares"]
-  ]},
-  {"tipo": "lista", "items": ["En textos formales se evitan las contracciones (don't → do not) y los phrasal verbs muy coloquiales.", "En la conversación, el exceso de formalidad suena rígido: «I will assist you» frente a «I'll help you».", "Correo formal: «I am writing to enquire about…», «I look forward to hearing from you»; informal: «Just a quick note to ask…», «Speak soon»."]}
+  {
+   "tipo": "texto",
+   "texto": "Regla práctica: en inglés, la palabra de origen latino suele ser la formal (obtain, require, commence), y el phrasal verb o la palabra corta es la neutra o coloquial (get, need, start). Al hispanohablante le resulta natural la latina, por eso tiende a sonar demasiado formal en una conversación."
+  },
+  {
+   "tipo": "tabla",
+   "cabecera": [
+    "Formal",
+    "Neutro o coloquial",
+    "Significado"
+   ],
+   "filas": [
+    [
+     "to obtain / to acquire",
+     "to get",
+     "obtener, conseguir"
+    ],
+    [
+     "to require",
+     "to need",
+     "necesitar, requerir"
+    ],
+    [
+     "to commence",
+     "to start / to begin",
+     "empezar"
+    ],
+    [
+     "to terminate / to conclude",
+     "to end / to finish",
+     "terminar"
+    ],
+    [
+     "to purchase",
+     "to buy",
+     "comprar"
+    ],
+    [
+     "to assist",
+     "to help",
+     "ayudar"
+    ],
+    [
+     "to inform",
+     "to tell / to let know",
+     "informar, avisar"
+    ],
+    [
+     "to enquire / to inquire",
+     "to ask",
+     "preguntar"
+    ],
+    [
+     "to reside",
+     "to live",
+     "residir, vivir"
+    ],
+    [
+     "to postpone",
+     "to put off",
+     "aplazar"
+    ],
+    [
+     "to investigate",
+     "to look into",
+     "investigar, examinar"
+    ],
+    [
+     "to tolerate",
+     "to put up with",
+     "aguantar"
+    ],
+    [
+     "to establish / to discover",
+     "to find out",
+     "averiguar"
+    ],
+    [
+     "to reduce",
+     "to cut down (on)",
+     "reducir"
+    ],
+    [
+     "to cancel",
+     "to call off",
+     "suspender, cancelar"
+    ],
+    [
+     "sufficient",
+     "enough",
+     "suficiente"
+    ],
+    [
+     "approximately",
+     "about / around",
+     "aproximadamente"
+    ],
+    [
+     "however",
+     "but / though",
+     "sin embargo / pero"
+    ],
+    [
+     "therefore",
+     "so",
+     "por tanto / así que"
+    ],
+    [
+     "prior to",
+     "before",
+     "antes de"
+    ]
+   ]
+  },
+  {
+   "tipo": "tabla",
+   "cabecera": [
+    "Coloquial",
+    "Neutro",
+    "Significado"
+   ],
+   "filas": [
+    [
+     "kids",
+     "children",
+     "niños"
+    ],
+    [
+     "guy",
+     "man",
+     "tío, hombre"
+    ],
+    [
+     "loads of / tons of",
+     "a lot of",
+     "un montón de"
+    ],
+    [
+     "cheers / ta",
+     "thanks",
+     "gracias"
+    ],
+    [
+     "gonna / wanna",
+     "going to / want to",
+     "voy a / quiero (solo oral)"
+    ],
+    [
+     "quid / bucks",
+     "pounds / dollars",
+     "libras / dólares"
+    ]
+   ]
+  },
+  {
+   "tipo": "lista",
+   "items": [
+    "En textos formales se evitan las contracciones (don't → do not) y los phrasal verbs muy coloquiales.",
+    "En la conversación, el exceso de formalidad suena rígido: «I will assist you» frente a «I'll help you».",
+    "Correo formal: «I am writing to enquire about…», «I look forward to hearing from you»; informal: «Just a quick note to ask…», «Speak soon»."
+   ]
+  }
  ],
  "ejemplos": [
-  {"frase": "Passengers are required to show a valid ticket.", "traduccion": "Se exige a los pasajeros que muestren un billete válido."},
-  {"frase": "We had to put off the meeting until next week.", "traduccion": "Tuvimos que aplazar la reunión hasta la semana que viene."},
-  {"frase": "I am writing to enquire about the vacancy advertised on your website.", "traduccion": "Le escribo para informarme sobre la vacante anunciada en su web."},
-  {"frase": "The police are looking into the incident.", "traduccion": "La policía está investigando el incidente."},
-  {"frase": "I can't put up with this heat any more.", "traduccion": "No aguanto más este calor."},
-  {"frase": "Applications must be submitted prior to 30 June.", "traduccion": "Las solicitudes deben presentarse antes del 30 de junio."}
+  {
+   "frase": "Passengers are required to show a valid ticket.",
+   "traduccion": "Se exige a los pasajeros que muestren un billete válido."
+  },
+  {
+   "frase": "We had to put off the meeting until next week.",
+   "traduccion": "Tuvimos que aplazar la reunión hasta la semana que viene."
+  },
+  {
+   "frase": "I am writing to enquire about the vacancy advertised on your website.",
+   "traduccion": "Le escribo para informarme sobre la vacante anunciada en su web."
+  },
+  {
+   "frase": "The police are looking into the incident.",
+   "traduccion": "La policía está investigando el incidente."
+  },
+  {
+   "frase": "I can't put up with this heat any more.",
+   "traduccion": "No aguanto más este calor."
+  },
+  {
+   "frase": "Applications must be submitted prior to 30 June.",
+   "traduccion": "Las solicitudes deben presentarse antes del 30 de junio."
+  }
  ],
  "errores_hispanohablantes": [
-  {"mal": "Hi Tom! I would like to inform you that I'm coming on Friday.", "bien": "Hi Tom! Just to let you know I'm coming on Friday.", "nota": "A un amigo, «inform» resulta demasiado formal."},
-  {"mal": "Dear Sir, I wanna know the price.", "bien": "Dear Sir, I would like to know the price.", "nota": "«Wanna» es solo oral y coloquial."},
-  {"mal": "We must reduce down the costs.", "bien": "We must cut down on costs.", "nota": "No se mezclan el verbo latino y la partícula: o «reduce costs» o «cut down on costs»."}
+  {
+   "mal": "Hi Tom! I would like to inform you that I'm coming on Friday.",
+   "bien": "Hi Tom! Just to let you know I'm coming on Friday.",
+   "nota": "A un amigo, «inform» resulta demasiado formal."
+  },
+  {
+   "mal": "Dear Sir, I wanna know the price.",
+   "bien": "Dear Sir, I would like to know the price.",
+   "nota": "«Wanna» es solo oral y coloquial."
+  },
+  {
+   "mal": "We must reduce down the costs.",
+   "bien": "We must cut down on costs.",
+   "nota": "No se mezclan el verbo latino y la partícula: o «reduce costs» o «cut down on costs»."
+  }
  ],
  "ejercicios": [
-  {"id": "e01", "tipo": "eleccion", "enunciado": "Elige la opción más formal.", "frase": "Visitors ___ a permit to enter the archive.", "opciones": ["require", "need", "have got to have", "wanna have"], "respuestas": ["require"], "explicacion": "«Require» es la variante formal de «need»."},
-  {"id": "e02", "tipo": "hueco", "enunciado": "Completa con el phrasal verb coloquial equivalente a «postpone» (en pasado).", "frase": "They ___ off the wedding because of the storm.", "respuestas": ["put"], "explicacion": "«Put off» = aplazar; «call off» significa suspender, no aplazar."},
-  {"id": "e03", "tipo": "eleccion", "enunciado": "Elige la opción adecuada para un correo formal.", "frase": "I am writing to ___ about the job you advertised.", "opciones": ["enquire", "ask you stuff", "check out", "find"], "respuestas": ["enquire"], "explicacion": "«Enquire about» es la fórmula formal."},
-  {"id": "e04", "tipo": "transformar", "enunciado": "Hazla más formal sustituyendo el verbo «get» por uno de registro formal.", "frase": "You can get more information at reception.", "respuestas": ["You can obtain more information at reception.", "Further information can be obtained at reception.", "More information can be obtained at reception."], "explicacion": "«Obtain» es el equivalente formal de «get»."},
-  {"id": "e05", "tipo": "eleccion", "enunciado": "Elige la opción más natural en una conversación con amigos.", "frase": "Can you ___ me move this sofa?", "opciones": ["help", "assist", "aid"], "respuestas": ["help"], "explicacion": "Entre amigos se usa «help»; «assist» y «aid» son formales."},
-  {"id": "e06", "tipo": "hueco", "enunciado": "Completa con el phrasal verb neutro equivalente a «investigate».", "frase": "The manager promised to look ___ the complaint.", "respuestas": ["into"], "explicacion": "«Look into» = investigar, examinar."},
-  {"id": "e07", "tipo": "corregir", "enunciado": "Corrige el error de registro (correo formal).", "frase": "Dear Ms Smith, I wanna apply for the post of accountant.", "respuestas": ["Dear Ms Smith, I would like to apply for the post of accountant.", "Dear Ms Smith, I wish to apply for the post of accountant.", "Dear Ms Smith, I am writing to apply for the post of accountant."], "explicacion": "«Wanna» es coloquial y oral; en un correo formal: «I would like to»."},
-  {"id": "e08", "tipo": "eleccion", "enunciado": "Elige la opción formal equivalente a «enough».", "frase": "There is not ___ evidence to support the claim.", "opciones": ["sufficient", "plenty", "loads of", "a lot"], "respuestas": ["sufficient"], "explicacion": "«Sufficient» es la versión formal de «enough»."},
-  {"id": "e09", "tipo": "hueco", "enunciado": "Completa con el phrasal verb coloquial equivalente a «tolerate».", "frase": "I don't know how you put up ___ his jokes.", "respuestas": ["with"], "explicacion": "«Put up with» = aguantar."},
-  {"id": "e10", "tipo": "eleccion", "enunciado": "Elige la opción formal.", "frase": "Please read the instructions ___ using the device.", "opciones": ["prior to", "before of", "previous", "ahead"], "respuestas": ["prior to"], "explicacion": "«Prior to» es la forma formal de «before»."},
-  {"id": "e11", "tipo": "transformar", "enunciado": "Hazla neutra: sustituye «purchase» por un verbo cotidiano.", "frase": "I purchased a new laptop yesterday.", "respuestas": ["I bought a new laptop yesterday.", "I got a new laptop yesterday."], "explicacion": "«Buy» (bought) es el verbo neutro."},
-  {"id": "e12", "tipo": "eleccion", "enunciado": "Elige la palabra coloquial equivalente a «children».", "frase": "We took the ___ to the beach on Sunday.", "opciones": ["kids", "offspring", "minors"], "respuestas": ["kids"], "explicacion": "«Kids» es la forma coloquial; «offspring» y «minors» son formales o técnicas."},
-  {"id": "e13", "tipo": "hueco", "enunciado": "Completa la fórmula de cierre formal.", "frase": "I look forward to ___ from you.", "respuestas": ["hearing"], "explicacion": "«Look forward to» va seguido de -ing."},
-  {"id": "e14", "tipo": "ordenar", "enunciado": "Ordena las palabras (registro formal).", "palabras": ["are", "Passengers", "to", "required", "tickets", "show", "their"], "respuestas": ["Passengers are required to show their tickets"], "explicacion": "Pasiva formal «be required to» = estar obligado a."},
-  {"id": "e15", "tipo": "corregir", "enunciado": "Corrige el error (mezcla de registros).", "frase": "The company must reduce down its costs.", "respuestas": ["The company must reduce its costs.", "The company must cut down on its costs.", "The company must cut its costs."], "explicacion": "«Reduce» no lleva partícula; el phrasal verb es «cut down on»."}
+  {
+   "id": "e01",
+   "tipo": "eleccion",
+   "enunciado": "Elige la opción más formal.",
+   "frase": "Visitors ___ a permit to enter the archive.",
+   "opciones": [
+    "require",
+    "need",
+    "have got to have",
+    "wanna have"
+   ],
+   "respuestas": [
+    "require"
+   ],
+   "explicacion": "La tabla de la ficha empareja require (formal) con need (neutro): ambos significan «necesitar, requerir». El enunciado pide la opción más formal, y el contexto (un aviso sobre un archivo, visitors, permit) es típico del registro formal escrito. Por eso la respuesta es require. Need sería correcta en una conversación, pero no es la más formal.",
+   "explicacion_breve": "«Require» es la variante formal de «need».",
+   "traduccion": "Los visitantes necesitan un permiso para entrar en el archivo.",
+   "por_opcion": {
+    "require": "Correcta: es el equivalente formal de need, propio de avisos y normas.",
+    "need": "Es gramaticalmente correcta y significa lo mismo, pero es neutra, no la más formal.",
+    "have got to have": "Expresión coloquial y redundante («tienen que tener»); impropia de un aviso.",
+    "wanna have": "Wanna es una contracción oral de want to («querer»); además de coloquial, cambia el sentido."
+   },
+   "glosario": [
+    {
+     "palabra": "require",
+     "significado": "requerir, necesitar (formal)"
+    },
+    {
+     "palabra": "permit",
+     "significado": "permiso, autorización (documento)"
+    }
+   ]
+  },
+  {
+   "id": "e02",
+   "tipo": "hueco",
+   "enunciado": "Completa con el phrasal verb coloquial equivalente a «postpone» (en pasado).",
+   "frase": "They ___ off the wedding because of the storm.",
+   "respuestas": [
+    "put"
+   ],
+   "explicacion": "La ficha recoge put off como equivalente neutro o coloquial de postpone («aplazar»). El hueco va delante de off, de modo que solo falta el verbo put, que en pasado es igual: put. La ficha avisa de no confundirlo con call off, que significa «suspender, cancelar»: la boda se retrasa, no se anula.",
+   "explicacion_breve": "«Put off» = aplazar; «call off» significa suspender, no aplazar.",
+   "traduccion": "Aplazaron la boda por la tormenta.",
+   "errores_previstos": [
+    {
+     "respuesta": "called",
+     "explicacion": "Call off significa cancelar; el enunciado pide el equivalente de postpone (aplazar): put off."
+    },
+    {
+     "respuesta": "putted",
+     "explicacion": "Put es irregular y su pasado es igual: put."
+    },
+    {
+     "respuesta": "postponed",
+     "explicacion": "Es el verbo formal; se pide el phrasal verb, y off ya está en la frase: put."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "put off",
+     "significado": "aplazar, posponer"
+    },
+    {
+     "palabra": "storm",
+     "significado": "tormenta"
+    }
+   ]
+  },
+  {
+   "id": "e03",
+   "tipo": "eleccion",
+   "enunciado": "Elige la opción adecuada para un correo formal.",
+   "frase": "I am writing to ___ about the job you advertised.",
+   "opciones": [
+    "enquire",
+    "ask you stuff",
+    "check out",
+    "find"
+   ],
+   "respuestas": [
+    "enquire"
+   ],
+   "explicacion": "La ficha da I am writing to enquire about… como fórmula de inicio de un correo formal. Enquire (o inquire, más americano) es el equivalente formal de ask y significa «pedir información, informarse». La pista es I am writing, sin contracción, típico de una carta formal. Advertise significa «anunciar», en este caso una oferta de empleo.",
+   "explicacion_breve": "«Enquire about» es la fórmula formal.",
+   "traduccion": "Le escribo para informarme sobre el puesto que han anunciado.",
+   "por_opcion": {
+    "enquire": "Correcta: verbo formal para «informarse, preguntar», y enquire about es la fórmula estándar.",
+    "ask you stuff": "Muy coloquial (stuff = cosas); impropio de un correo formal.",
+    "check out": "Phrasal verb coloquial que significa «echar un vistazo» o «comprobar»; no encaja con about ni con el registro.",
+    "find": "Find significa «encontrar»; find about es agramatical (sería find out about, y además coloquial)."
+   },
+   "glosario": [
+    {
+     "palabra": "enquire about",
+     "significado": "informarse sobre, preguntar por (formal)"
+    },
+    {
+     "palabra": "advertise",
+     "significado": "anunciar, publicar un anuncio"
+    }
+   ]
+  },
+  {
+   "id": "e04",
+   "tipo": "transformar",
+   "enunciado": "Hazla más formal sustituyendo el verbo «get» por uno de registro formal.",
+   "frase": "You can get more information at reception.",
+   "respuestas": [
+    "You can obtain more information at reception.",
+    "Further information can be obtained at reception.",
+    "More information can be obtained at reception."
+   ],
+   "explicacion": "La tabla de la ficha señala obtain como equivalente formal de get («obtener, conseguir»). Basta con sustituir el verbo: You can obtain more information at reception. También se aceptan versiones pasivas, Further information can be obtained, muy propias de avisos formales; further es la forma formal de more en este contexto.",
+   "explicacion_breve": "«Obtain» es el equivalente formal de «get».",
+   "traduccion": "Puede obtener más información en recepción.",
+   "errores_previstos": [
+    {
+     "respuesta": "You can take more information at reception.",
+     "explicacion": "Take no es el equivalente formal de get en este sentido; se pide obtain."
+    },
+    {
+     "respuesta": "You can obtein more information at reception.",
+     "explicacion": "Error de ortografía: obtain se escribe con ai."
+    },
+    {
+     "respuesta": "You can get more information at reception.",
+     "explicacion": "Es la frase de partida: hay que sustituir get por obtain."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "obtain",
+     "significado": "obtener (formal)"
+    },
+    {
+     "palabra": "reception",
+     "significado": "recepción (mostrador de entrada)"
+    }
+   ]
+  },
+  {
+   "id": "e05",
+   "tipo": "eleccion",
+   "enunciado": "Elige la opción más natural en una conversación con amigos.",
+   "frase": "Can you ___ me move this sofa?",
+   "opciones": [
+    "help",
+    "assist",
+    "aid"
+   ],
+   "respuestas": [
+    "help"
+   ],
+   "explicacion": "La ficha advierte que, en la conversación, el exceso de formalidad suena rígido, y empareja assist (formal) con help (neutro). La pista es el contexto: una conversación entre amigos para mover un sofá. Lo natural es help. Además, help admite la estructura help me move, sin to, mientras que assist me move sería agramatical.",
+   "explicacion_breve": "Entre amigos se usa «help»; «assist» y «aid» son formales.",
+   "traduccion": "¿Me ayudas a mover este sofá?",
+   "por_opcion": {
+    "help": "Correcta: verbo neutro y natural entre amigos; admite help me move.",
+    "assist": "Es formal (atención al cliente, textos oficiales) y no admite assist me move: sería assist me in moving o assist me to move.",
+    "aid": "Es formal o técnico (primeros auxilios, ayuda humanitaria); suena muy extraño en una conversación."
+   },
+   "glosario": [
+    {
+     "palabra": "help",
+     "significado": "ayudar"
+    },
+    {
+     "palabra": "assist",
+     "significado": "ayudar, asistir (formal)"
+    },
+    {
+     "palabra": "aid",
+     "significado": "ayudar, socorrer (formal o técnico)"
+    }
+   ]
+  },
+  {
+   "id": "e06",
+   "tipo": "hueco",
+   "enunciado": "Completa con el phrasal verb neutro equivalente a «investigate».",
+   "frase": "The manager promised to look ___ the complaint.",
+   "respuestas": [
+    "into"
+   ],
+   "explicacion": "La tabla de la ficha recoge look into como equivalente neutro de investigate («investigar, examinar»). La partícula que necesita look para este sentido es into. Complaint significa «queja, reclamación». Look at sería «mirar» y look for «buscar», que cambian el sentido.",
+   "explicacion_breve": "«Look into» = investigar, examinar.",
+   "traduccion": "El gerente prometió estudiar la reclamación.",
+   "errores_previstos": [
+    {
+     "respuesta": "at",
+     "explicacion": "Look at significa «mirar»; el equivalente de investigate es look into."
+    },
+    {
+     "respuesta": "for",
+     "explicacion": "Look for significa «buscar»; para «investigar, estudiar» es look into."
+    },
+    {
+     "respuesta": "in",
+     "explicacion": "La partícula correcta del phrasal verb es into: look into."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "look into",
+     "significado": "investigar, estudiar (un asunto)"
+    },
+    {
+     "palabra": "complaint",
+     "significado": "queja, reclamación"
+    },
+    {
+     "palabra": "manager",
+     "significado": "gerente, responsable"
+    }
+   ]
+  },
+  {
+   "id": "e07",
+   "tipo": "corregir",
+   "enunciado": "Corrige el error de registro (correo formal).",
+   "frase": "Dear Ms Smith, I wanna apply for the post of accountant.",
+   "respuestas": [
+    "Dear Ms Smith, I would like to apply for the post of accountant.",
+    "Dear Ms Smith, I wish to apply for the post of accountant.",
+    "Dear Ms Smith, I am writing to apply for the post of accountant."
+   ],
+   "explicacion": "La ficha explica que gonna y wanna son formas coloquiales solo orales y que en textos formales se evitan. La pista es el saludo Dear Ms Smith, propio de un correo formal. Hay que sustituir wanna por I would like to, I wish to o la fórmula I am writing to. Apply for significa «solicitar» un puesto y accountant es «contable».",
+   "explicacion_breve": "«Wanna» es coloquial y oral; en un correo formal: «I would like to».",
+   "traduccion": "Estimada Sra. Smith: quisiera solicitar el puesto de contable.",
+   "errores_previstos": [
+    {
+     "respuesta": "Dear Ms Smith, I wanna apply for the post of accountant.",
+     "explicacion": "Es la frase sin corregir: wanna es coloquial y oral."
+    },
+    {
+     "respuesta": "Dear Ms Smith, I want apply for the post of accountant.",
+     "explicacion": "Falta to (want to apply), y aun así want suena demasiado directo: I would like to."
+    },
+    {
+     "respuesta": "Dear Ms Smith, I'm gonna apply for the post of accountant.",
+     "explicacion": "Gonna es tan coloquial como wanna y además cambia el sentido (voy a); en un correo formal: I would like to."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "apply for",
+     "significado": "solicitar (un puesto, una beca)"
+    },
+    {
+     "palabra": "post",
+     "significado": "puesto de trabajo"
+    },
+    {
+     "palabra": "accountant",
+     "significado": "contable"
+    },
+    {
+     "palabra": "wanna",
+     "significado": "want to, querer (coloquial, oral)"
+    }
+   ]
+  },
+  {
+   "id": "e08",
+   "tipo": "eleccion",
+   "enunciado": "Elige la opción formal equivalente a «enough».",
+   "frase": "There is not ___ evidence to support the claim.",
+   "opciones": [
+    "sufficient",
+    "plenty",
+    "loads of",
+    "a lot"
+   ],
+   "respuestas": [
+    "sufficient"
+   ],
+   "explicacion": "La tabla de la ficha empareja sufficient (formal) con enough (neutro), ambos «suficiente». El contexto, con evidence (pruebas) y claim (afirmación), es propio de un informe o un texto académico. Sufficient va delante del sustantivo, como enough. Evidence es incontable: no lleva -s.",
+   "explicacion_breve": "«Sufficient» es la versión formal de «enough».",
+   "traduccion": "No hay pruebas suficientes que respalden la afirmación.",
+   "por_opcion": {
+    "sufficient": "Correcta: equivalente formal de enough, propio de informes y textos académicos.",
+    "plenty": "Plenty significa «de sobra, mucho» y necesita of (plenty of); además, cambia el sentido.",
+    "loads of": "Muy coloquial («un montón de») y cambia el sentido: no es «suficiente».",
+    "a lot": "Significa «mucho» y necesitaría of; no equivale a enough y es neutro, no formal."
+   },
+   "glosario": [
+    {
+     "palabra": "sufficient",
+     "significado": "suficiente (formal)"
+    },
+    {
+     "palabra": "evidence",
+     "significado": "pruebas, datos (incontable)"
+    },
+    {
+     "palabra": "claim",
+     "significado": "afirmación, alegación"
+    }
+   ]
+  },
+  {
+   "id": "e09",
+   "tipo": "hueco",
+   "enunciado": "Completa con el phrasal verb coloquial equivalente a «tolerate».",
+   "frase": "I don't know how you put up ___ his jokes.",
+   "respuestas": [
+    "with"
+   ],
+   "explicacion": "La ficha recoge put up with como equivalente coloquial de tolerate («aguantar, soportar»). Es un phrasal verb de tres palabras y la última es la preposición with, que introduce lo que se soporta. Sin with, put up significa otra cosa (alojar a alguien, colgar algo).",
+   "explicacion_breve": "«Put up with» = aguantar.",
+   "traduccion": "No sé cómo aguantas sus bromas.",
+   "errores_previstos": [
+    {
+     "respuesta": "to",
+     "explicacion": "La preposición de este phrasal verb es with: put up with."
+    },
+    {
+     "respuesta": "off",
+     "explicacion": "Put off significa aplazar; para «aguantar» es put up with."
+    },
+    {
+     "respuesta": "on",
+     "explicacion": "Put up on no existe con este sentido: put up with."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "put up with",
+     "significado": "aguantar, soportar"
+    },
+    {
+     "palabra": "joke",
+     "significado": "broma, chiste"
+    }
+   ]
+  },
+  {
+   "id": "e10",
+   "tipo": "eleccion",
+   "enunciado": "Elige la opción formal.",
+   "frase": "Please read the instructions ___ using the device.",
+   "opciones": [
+    "prior to",
+    "before of",
+    "previous",
+    "ahead"
+   ],
+   "respuestas": [
+    "prior to"
+   ],
+   "explicacion": "La tabla de la ficha empareja prior to (formal) con before (neutro), «antes de». El contexto, instrucciones de un aparato, es formal y escrito. Prior to es una preposición, por lo que va seguida de -ing (prior to using), igual que before using. Device significa «aparato, dispositivo».",
+   "explicacion_breve": "«Prior to» es la forma formal de «before».",
+   "traduccion": "Lea las instrucciones antes de utilizar el aparato.",
+   "por_opcion": {
+    "prior to": "Correcta: preposición formal equivalente a before.",
+    "before of": "Calco de «antes de»: before no lleva of.",
+    "previous": "Previous es un adjetivo («anterior»), no puede introducir using.",
+    "ahead": "Ahead es un adverbio («delante, por delante»); ahead of sería posible pero no ahead solo, y no es la forma formal de before."
+   },
+   "glosario": [
+    {
+     "palabra": "prior to",
+     "significado": "antes de (formal)"
+    },
+    {
+     "palabra": "device",
+     "significado": "aparato, dispositivo"
+    }
+   ]
+  },
+  {
+   "id": "e11",
+   "tipo": "transformar",
+   "enunciado": "Hazla neutra: sustituye «purchase» por un verbo cotidiano.",
+   "frase": "I purchased a new laptop yesterday.",
+   "respuestas": [
+    "I bought a new laptop yesterday.",
+    "I got a new laptop yesterday."
+   ],
+   "explicacion": "La tabla de la ficha recoge purchase como forma formal de buy («comprar»). En una conversación cotidiana lo natural es buy, en pasado bought. La ficha acepta también got, que en lenguaje informal sirve para «conseguir, comprarse». Purchase queda bien en facturas o textos comerciales, pero no al contar algo que hiciste ayer.",
+   "explicacion_breve": "«Buy» (bought) es el verbo neutro.",
+   "traduccion": "Ayer me compré un portátil nuevo.",
+   "errores_previstos": [
+    {
+     "respuesta": "I buyed a new laptop yesterday.",
+     "explicacion": "Buy es irregular: el pasado es bought."
+    },
+    {
+     "respuesta": "I buy a new laptop yesterday.",
+     "explicacion": "Con yesterday hace falta el pasado: bought."
+    },
+    {
+     "respuesta": "I acquired a new laptop yesterday.",
+     "explicacion": "Acquire también es formal; se pide un verbo cotidiano, bought."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "purchase",
+     "significado": "comprar, adquirir (formal)"
+    },
+    {
+     "palabra": "laptop",
+     "significado": "ordenador portátil"
+    }
+   ]
+  },
+  {
+   "id": "e12",
+   "tipo": "eleccion",
+   "enunciado": "Elige la palabra coloquial equivalente a «children».",
+   "frase": "We took the ___ to the beach on Sunday.",
+   "opciones": [
+    "kids",
+    "offspring",
+    "minors"
+   ],
+   "respuestas": [
+    "kids"
+   ],
+   "explicacion": "La segunda tabla de la ficha empareja kids (coloquial) con children (neutro). El contexto, un plan familiar de domingo, es informal, así que kids es lo natural. Offspring significa «descendencia» y es formal o biológico; minors son «menores de edad» en sentido legal.",
+   "explicacion_breve": "«Kids» es la forma coloquial; «offspring» y «minors» son formales o técnicas.",
+   "traduccion": "El domingo llevamos a los niños a la playa.",
+   "por_opcion": {
+    "kids": "Correcta: forma coloquial y muy frecuente de children.",
+    "offspring": "Significa «descendencia, prole»; es formal o técnico y suena extraño en una conversación.",
+    "minors": "Significa «menores de edad» en sentido jurídico; solo se usa en contextos legales o administrativos."
+   },
+   "glosario": [
+    {
+     "palabra": "kids",
+     "significado": "niños, críos (coloquial)"
+    },
+    {
+     "palabra": "offspring",
+     "significado": "descendencia, prole (formal)"
+    },
+    {
+     "palabra": "minors",
+     "significado": "menores de edad (legal)"
+    }
+   ]
+  },
+  {
+   "id": "e13",
+   "tipo": "hueco",
+   "enunciado": "Completa la fórmula de cierre formal.",
+   "frase": "I look forward to ___ from you.",
+   "respuestas": [
+    "hearing"
+   ],
+   "explicacion": "La ficha da I look forward to hearing from you como cierre de correo formal. To es aquí una preposición, no la marca del infinitivo, por lo que va seguida de -ing: hearing. Hear from someone significa «tener noticias de alguien». El error típico es escribir to hear, por analogía con otros verbos.",
+   "explicacion_breve": "«Look forward to» va seguido de -ing.",
+   "traduccion": "Quedo a la espera de su respuesta.",
+   "errores_previstos": [
+    {
+     "respuesta": "hear",
+     "explicacion": "En look forward to, to es preposición y va seguida de -ing: hearing."
+    },
+    {
+     "respuesta": "listening",
+     "explicacion": "Listen es escuchar con atención; «tener noticias de» es hear from: hearing."
+    },
+    {
+     "respuesta": "heard",
+     "explicacion": "Tras la preposición to va el gerundio: hearing."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "look forward to",
+     "significado": "esperar con interés, tener ganas de"
+    },
+    {
+     "palabra": "hear from",
+     "significado": "tener noticias de alguien"
+    }
+   ]
+  },
+  {
+   "id": "e14",
+   "tipo": "ordenar",
+   "enunciado": "Ordena las palabras (registro formal).",
+   "palabras": [
+    "are",
+    "Passengers",
+    "to",
+    "required",
+    "tickets",
+    "show",
+    "their"
+   ],
+   "respuestas": [
+    "Passengers are required to show their tickets"
+   ],
+   "explicacion": "La ficha explica que be required to es una pasiva formal que significa «estar obligado a». El orden es sujeto (Passengers) + are required + to + infinitivo (show) + objeto (their tickets). Es una estructura típica de avisos oficiales, más formal que Passengers must show o have to show.",
+   "explicacion_breve": "Pasiva formal «be required to» = estar obligado a.",
+   "traduccion": "Se exige a los pasajeros que muestren sus billetes.",
+   "errores_previstos": [
+    {
+     "respuesta": "Passengers are required their tickets to show",
+     "explicacion": "Tras required va el infinitivo con to y después el objeto: to show their tickets."
+    },
+    {
+     "respuesta": "Passengers are to show required their tickets",
+     "explicacion": "La pasiva se forma con are required, seguida de to show."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "be required to",
+     "significado": "estar obligado a, deber (formal)"
+    },
+    {
+     "palabra": "passenger",
+     "significado": "pasajero"
+    }
+   ]
+  },
+  {
+   "id": "e15",
+   "tipo": "corregir",
+   "enunciado": "Corrige el error (mezcla de registros).",
+   "frase": "The company must reduce down its costs.",
+   "respuestas": [
+    "The company must reduce its costs.",
+    "The company must cut down on its costs.",
+    "The company must cut its costs."
+   ],
+   "explicacion": "La ficha empareja reduce (formal) con cut down (on) (neutro). El error es mezclar ambos: reduce es un verbo simple y no lleva partícula, así que reduce down es incorrecto. Hay tres soluciones: reduce its costs (formal), cut its costs o cut down on its costs (más coloquial), las tres aceptadas.",
+   "explicacion_breve": "«Reduce» no lleva partícula; el phrasal verb es «cut down on».",
+   "traduccion": "La empresa debe reducir sus costes.",
+   "errores_previstos": [
+    {
+     "respuesta": "The company must reduce down its costs.",
+     "explicacion": "Es la frase sin corregir: reduce no lleva partícula."
+    },
+    {
+     "respuesta": "The company must cut on its costs.",
+     "explicacion": "Falta la partícula down: el phrasal verb es cut down on (o simplemente cut its costs)."
+    },
+    {
+     "respuesta": "The company must reduce down on its costs.",
+     "explicacion": "Sigue mezclando registros: o reduce sin partícula o cut down on."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "reduce",
+     "significado": "reducir (formal)"
+    },
+    {
+     "palabra": "cut down on",
+     "significado": "reducir, recortar (neutro o coloquial)"
+    }
+   ]
+  }
  ],
- "fuente": {"nombre": "propia"}
+ "fuente": {
+  "nombre": "propia"
+ },
+ "descripcion_larga_es": "En inglés una misma idea puede decirse con una palabra formal de origen latino (obtain, require, commence), una neutra (get, need, start) o una coloquial, a menudo un phrasal verb (put up with, call off). Elegir bien el registro es clave en una exposición, un correo o un informe. El hispanohablante tiende a la palabra latina, que le resulta familiar, y suena demasiado formal al conversar.",
+ "contexto": {
+  "que_es": "El registro es el grado de formalidad de la lengua: formal, neutro o coloquial. En inglés se nota sobre todo en el vocabulario (palabras latinas frente a palabras cortas o phrasal verbs), en el uso de contracciones y en las fórmulas fijas de cartas y correos.",
+  "por_que_importa": "Un registro equivocado no impide entender, pero transmite una imagen equivocada: «wanna» en una carta de solicitud parece descuidado, y «I shall assist you» entre amigos suena rígido o irónico. En un examen de redacción o en una exposición oral profesional, el registro adecuado es un criterio explícito de evaluación. Para un economista, dominar el formal escrito y el neutro oral es esencial.",
+  "cuando_se_usa": "El formal, en informes, correos oficiales, avisos, normativa y exposiciones; el neutro, en la mayoría de conversaciones de trabajo; el coloquial, con amigos y en mensajes informales. Las pistas son el destinatario (Dear Ms Smith frente a Hi Tom), el tipo de texto y el tema. El hispanohablante tiende al latinismo en la conversación y, a la vez, mezcla expresiones coloquiales en textos formales."
+ }
 }

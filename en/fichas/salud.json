@@ -6,67 +6,738 @@
  "nivel": "A2",
  "resumen": "Vocabulario para decir qué te duele, describir síntomas, hablar con el médico o el farmacéutico y comentar hábitos de vida.",
  "explicacion": [
-  {"tipo": "texto", "texto": "Para los dolores se usa have + a + parte del cuerpo con -ache (I have a headache) o my … hurts (my back hurts). Con las partes del cuerpo el inglés usa el posesivo, no el artículo: I broke my arm, no «the arm»."},
-  {"tipo": "tabla", "cabecera": ["Expresión", "Significado", "Ejemplo"], "filas": [
-   ["head / neck / back", "cabeza / cuello / espalda", "My back hurts."],
-   ["arm / hand / finger", "brazo / mano / dedo", "I cut my finger."],
-   ["leg / knee / foot (feet)", "pierna / rodilla / pie (pies)", "My feet are tired."],
-   ["stomach / chest", "estómago / pecho", "I have a pain in my chest."],
-   ["headache / stomachache", "dolor de cabeza / de estómago", "I've got a terrible headache."],
-   ["toothache / backache", "dolor de muelas / de espalda", "She has toothache."],
-   ["a sore throat", "dolor de garganta", "I have a sore throat."],
-   ["a cold / the flu", "un resfriado / la gripe", "He's in bed with the flu."],
-   ["a cough / a temperature", "tos / fiebre", "The baby has a temperature."],
-   ["feel sick / dizzy", "tener náuseas / estar mareado", "I feel dizzy."],
-   ["hurt / injure", "doler, hacerse daño / lesionarse", "I hurt my ankle playing football."],
-   ["be allergic to", "ser alérgico a", "I'm allergic to penicillin."]
-  ]},
-  {"tipo": "tabla", "cabecera": ["Expresión", "Significado", "Ejemplo"], "filas": [
-   ["make an appointment", "pedir cita", "I'd like to make an appointment with the doctor."],
-   ["prescription", "receta médica", "You need a prescription for these pills."],
-   ["take medicine / pills", "tomar medicinas / pastillas", "Take two pills a day."],
-   ["What's the matter?", "¿Qué te pasa?", "What's the matter? – I feel ill."],
-   ["get better / recover", "mejorar / recuperarse", "I hope you get better soon."],
-   ["keep fit / stay healthy", "mantenerse en forma / sano", "I swim to keep fit."],
-   ["give up smoking", "dejar de fumar", "He gave up smoking last year."],
-   ["a balanced diet", "una dieta equilibrada", "Follow a balanced diet."]
-  ]},
-  {"tipo": "lista", "items": [
-   "Constipated significa estreñido, no constipado (que es have a cold).",
-   "Sick en británico suele ser náuseas (feel sick); ill es enfermo.",
-   "Recipe es receta de cocina; la del médico es prescription."
-  ]}
+  {
+   "tipo": "texto",
+   "texto": "Para los dolores se usa have + a + parte del cuerpo con -ache (I have a headache) o my … hurts (my back hurts). Con las partes del cuerpo el inglés usa el posesivo, no el artículo: I broke my arm, no «the arm»."
+  },
+  {
+   "tipo": "tabla",
+   "cabecera": [
+    "Expresión",
+    "Significado",
+    "Ejemplo"
+   ],
+   "filas": [
+    [
+     "head / neck / back",
+     "cabeza / cuello / espalda",
+     "My back hurts."
+    ],
+    [
+     "arm / hand / finger",
+     "brazo / mano / dedo",
+     "I cut my finger."
+    ],
+    [
+     "leg / knee / foot (feet)",
+     "pierna / rodilla / pie (pies)",
+     "My feet are tired."
+    ],
+    [
+     "stomach / chest",
+     "estómago / pecho",
+     "I have a pain in my chest."
+    ],
+    [
+     "headache / stomachache",
+     "dolor de cabeza / de estómago",
+     "I've got a terrible headache."
+    ],
+    [
+     "toothache / backache",
+     "dolor de muelas / de espalda",
+     "She has toothache."
+    ],
+    [
+     "a sore throat",
+     "dolor de garganta",
+     "I have a sore throat."
+    ],
+    [
+     "a cold / the flu",
+     "un resfriado / la gripe",
+     "He's in bed with the flu."
+    ],
+    [
+     "a cough / a temperature",
+     "tos / fiebre",
+     "The baby has a temperature."
+    ],
+    [
+     "feel sick / dizzy",
+     "tener náuseas / estar mareado",
+     "I feel dizzy."
+    ],
+    [
+     "hurt / injure",
+     "doler, hacerse daño / lesionarse",
+     "I hurt my ankle playing football."
+    ],
+    [
+     "be allergic to",
+     "ser alérgico a",
+     "I'm allergic to penicillin."
+    ]
+   ]
+  },
+  {
+   "tipo": "tabla",
+   "cabecera": [
+    "Expresión",
+    "Significado",
+    "Ejemplo"
+   ],
+   "filas": [
+    [
+     "make an appointment",
+     "pedir cita",
+     "I'd like to make an appointment with the doctor."
+    ],
+    [
+     "prescription",
+     "receta médica",
+     "You need a prescription for these pills."
+    ],
+    [
+     "take medicine / pills",
+     "tomar medicinas / pastillas",
+     "Take two pills a day."
+    ],
+    [
+     "What's the matter?",
+     "¿Qué te pasa?",
+     "What's the matter? – I feel ill."
+    ],
+    [
+     "get better / recover",
+     "mejorar / recuperarse",
+     "I hope you get better soon."
+    ],
+    [
+     "keep fit / stay healthy",
+     "mantenerse en forma / sano",
+     "I swim to keep fit."
+    ],
+    [
+     "give up smoking",
+     "dejar de fumar",
+     "He gave up smoking last year."
+    ],
+    [
+     "a balanced diet",
+     "una dieta equilibrada",
+     "Follow a balanced diet."
+    ]
+   ]
+  },
+  {
+   "tipo": "lista",
+   "items": [
+    "Constipated significa estreñido, no constipado (que es have a cold).",
+    "Sick en británico suele ser náuseas (feel sick); ill es enfermo.",
+    "Recipe es receta de cocina; la del médico es prescription."
+   ]
+  }
  ],
  "ejemplos": [
-  {"frase": "I've had a sore throat since Monday.", "traduccion": "Me duele la garganta desde el lunes."},
-  {"frase": "You should stay in bed and drink plenty of water.", "traduccion": "Deberías quedarte en cama y beber mucha agua."},
-  {"frase": "She twisted her ankle while she was running.", "traduccion": "Se torció el tobillo mientras corría."},
-  {"frase": "The doctor gave me a prescription for antibiotics.", "traduccion": "El médico me hizo una receta de antibióticos."},
-  {"frase": "I walk to work every day to keep fit.", "traduccion": "Voy andando al trabajo todos los días para mantenerme en forma."},
-  {"frase": "Are you allergic to any medicine?", "traduccion": "¿Es alérgico a algún medicamento?"}
+  {
+   "frase": "I've had a sore throat since Monday.",
+   "traduccion": "Me duele la garganta desde el lunes."
+  },
+  {
+   "frase": "You should stay in bed and drink plenty of water.",
+   "traduccion": "Deberías quedarte en cama y beber mucha agua."
+  },
+  {
+   "frase": "She twisted her ankle while she was running.",
+   "traduccion": "Se torció el tobillo mientras corría."
+  },
+  {
+   "frase": "The doctor gave me a prescription for antibiotics.",
+   "traduccion": "El médico me hizo una receta de antibióticos."
+  },
+  {
+   "frase": "I walk to work every day to keep fit.",
+   "traduccion": "Voy andando al trabajo todos los días para mantenerme en forma."
+  },
+  {
+   "frase": "Are you allergic to any medicine?",
+   "traduccion": "¿Es alérgico a algún medicamento?"
+  }
  ],
  "errores_hispanohablantes": [
-  {"mal": "I'm constipated, I have a runny nose.", "bien": "I've got a cold, I have a runny nose.", "nota": "Constipated es estreñido; constipado es have a cold."},
-  {"mal": "The head hurts me.", "bien": "My head hurts. / I have a headache.", "nota": "En inglés se usa el posesivo y el verbo hurt sin complemento."},
-  {"mal": "The doctor gave me a recipe.", "bien": "The doctor gave me a prescription.", "nota": "Recipe es receta de cocina."},
-  {"mal": "I broke the leg skiing.", "bien": "I broke my leg skiing.", "nota": "Con partes del cuerpo, posesivo en vez de artículo."}
+  {
+   "mal": "I'm constipated, I have a runny nose.",
+   "bien": "I've got a cold, I have a runny nose.",
+   "nota": "Constipated es estreñido; constipado es have a cold."
+  },
+  {
+   "mal": "The head hurts me.",
+   "bien": "My head hurts. / I have a headache.",
+   "nota": "En inglés se usa el posesivo y el verbo hurt sin complemento."
+  },
+  {
+   "mal": "The doctor gave me a recipe.",
+   "bien": "The doctor gave me a prescription.",
+   "nota": "Recipe es receta de cocina."
+  },
+  {
+   "mal": "I broke the leg skiing.",
+   "bien": "I broke my leg skiing.",
+   "nota": "Con partes del cuerpo, posesivo en vez de artículo."
+  }
  ],
  "ejercicios": [
-  {"id": "e01", "tipo": "hueco", "enunciado": "Completa con el sustantivo adecuado.", "frase": "I can't eat anything. I've got terrible ___ (dolor de muelas).", "respuestas": ["toothache"], "explicacion": "Dolor de muelas es toothache."},
-  {"id": "e02", "tipo": "hueco", "enunciado": "Completa: «dolor de garganta».", "frase": "I have a ___ throat and I can't speak.", "respuestas": ["sore"], "explicacion": "Dolor de garganta es a sore throat."},
-  {"id": "e03", "tipo": "hueco", "enunciado": "Completa el verbo frasal.", "frase": "My uncle gave ___ smoking ten years ago.", "respuestas": ["up"], "explicacion": "Dejar un hábito es give up."},
-  {"id": "e04", "tipo": "hueco", "enunciado": "Completa con la preposición.", "frase": "My son is allergic ___ nuts.", "respuestas": ["to"], "explicacion": "Ser alérgico a es be allergic to."},
-  {"id": "e05", "tipo": "eleccion", "enunciado": "Elige la opción correcta.", "frase": "I need to ___ an appointment with the dentist.", "opciones": ["make", "do", "take"], "respuestas": ["make"], "explicacion": "Pedir cita es make an appointment."},
-  {"id": "e06", "tipo": "eleccion", "enunciado": "Elige la opción correcta.", "frase": "You can't buy these pills without a ___.", "opciones": ["prescription", "recipe", "receipt"], "respuestas": ["prescription"], "explicacion": "La receta médica es prescription."},
-  {"id": "e07", "tipo": "eleccion", "enunciado": "Elige la opción correcta.", "frase": "What's the ___? You look pale.", "opciones": ["matter", "problem with you", "thing"], "respuestas": ["matter"], "explicacion": "¿Qué te pasa? es What's the matter?"},
-  {"id": "e08", "tipo": "eleccion", "enunciado": "Elige la opción correcta.", "frase": "I fell off my bike and ___ my knee.", "opciones": ["hurt", "ached", "pained"], "respuestas": ["hurt"], "explicacion": "Hacerse daño en algo es hurt + parte del cuerpo."},
-  {"id": "e09", "tipo": "corregir", "enunciado": "Corrige el falso amigo.", "frase": "I'm constipated: I'm sneezing and I have a runny nose.", "respuestas": ["I've got a cold: I'm sneezing and I have a runny nose.", "I have a cold: I'm sneezing and I have a runny nose."], "explicacion": "Constipado (resfriado) es have a cold; constipated es estreñido."},
-  {"id": "e10", "tipo": "corregir", "enunciado": "Corrige el error.", "frase": "She broke the arm playing basketball.", "respuestas": ["She broke her arm playing basketball."], "explicacion": "Con partes del cuerpo se usa el posesivo."},
-  {"id": "e11", "tipo": "corregir", "enunciado": "Corrige el error.", "frase": "I have a pain of head.", "respuestas": ["I have a headache.", "I've got a headache.", "My head hurts."], "explicacion": "Dolor de cabeza es headache."},
-  {"id": "e12", "tipo": "ordenar", "enunciado": "Ordena las palabras.", "palabras": ["better", "hope", "soon", "you", "I", "get"], "respuestas": ["I hope you get better soon"], "explicacion": "Fórmula para desear que alguien se recupere."},
-  {"id": "e13", "tipo": "ordenar", "enunciado": "Ordena las palabras.", "palabras": ["fit", "I", "keep", "to", "swim"], "respuestas": ["I swim to keep fit"], "explicacion": "Keep fit es mantenerse en forma."},
-  {"id": "e14", "tipo": "hueco", "enunciado": "Completa: «fiebre».", "frase": "Take his temperature; I think he has a ___.", "respuestas": ["fever", "temperature"], "explicacion": "Tener fiebre es have a temperature o have a fever."},
-  {"id": "e15", "tipo": "eleccion", "enunciado": "Elige la opción correcta.", "frase": "I stood up too quickly and felt ___.", "opciones": ["dizzy", "sore", "allergic"], "respuestas": ["dizzy"], "explicacion": "Mareado es dizzy."}
+  {
+   "id": "e01",
+   "tipo": "hueco",
+   "enunciado": "Completa con el sustantivo adecuado.",
+   "frase": "I can't eat anything. I've got terrible ___ (dolor de muelas).",
+   "respuestas": [
+    "toothache"
+   ],
+   "explicacion": "Se aplica la regla de Reglas y claves: los dolores se forman con la parte del cuerpo + -ache (headache, stomachache, toothache, backache). La pista es la glosa «dolor de muelas» y el contexto de no poder comer. Tooth (diente, muela) + ache da toothache, que se escribe en una sola palabra. Con toothache se puede omitir el artículo, como en el ejemplo de la ficha «She has toothache».",
+   "explicacion_breve": "Dolor de muelas es toothache.",
+   "traduccion": "No puedo comer nada. Tengo un dolor de muelas terrible.",
+   "errores_previstos": [
+    {
+     "respuesta": "teethache",
+     "explicacion": "En los compuestos se usa el singular: toothache, aunque duelan varias muelas."
+    },
+    {
+     "respuesta": "tooth pain",
+     "explicacion": "Se entiende, pero no es la palabra que pide la ficha; el término habitual es toothache."
+    },
+    {
+     "respuesta": "pain of teeth",
+     "explicacion": "Calco de «dolor de muelas»; en inglés el dolor se nombra con el compuesto en -ache."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "toothache",
+     "significado": "dolor de muelas"
+    },
+    {
+     "palabra": "terrible",
+     "significado": "terrible, muy fuerte"
+    }
+   ]
+  },
+  {
+   "id": "e02",
+   "tipo": "hueco",
+   "enunciado": "Completa: «dolor de garganta».",
+   "frase": "I have a ___ throat and I can't speak.",
+   "respuestas": [
+    "sore"
+   ],
+   "explicacion": "La garganta es una excepción a la regla de -ache: no se dice «throatache», sino «a sore throat», como recoge la tabla de la ficha. Sore significa dolorido, irritado, y se usa con partes del cuerpo que duelen por inflamación o esfuerzo (sore muscles, sore eyes). La pista es el sustantivo throat tras el hueco y el artículo a delante.",
+   "explicacion_breve": "Dolor de garganta es a sore throat.",
+   "traduccion": "Me duele la garganta y no puedo hablar.",
+   "errores_previstos": [
+    {
+     "respuesta": "pain",
+     "explicacion": "«A pain throat» no existe; delante de throat hace falta el adjetivo sore."
+    },
+    {
+     "respuesta": "hurt",
+     "explicacion": "Hurt es verbo (my throat hurts); como adjetivo delante del sustantivo se usa sore."
+    },
+    {
+     "respuesta": "ache",
+     "explicacion": "Ache no se coloca delante como adjetivo; además, con la garganta la expresión fija es a sore throat."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "sore",
+     "significado": "dolorido, irritado"
+    },
+    {
+     "palabra": "throat",
+     "significado": "garganta"
+    }
+   ]
+  },
+  {
+   "id": "e03",
+   "tipo": "hueco",
+   "enunciado": "Completa el verbo frasal.",
+   "frase": "My uncle gave ___ smoking ten years ago.",
+   "respuestas": [
+    "up"
+   ],
+   "explicacion": "Se trata de la expresión give up smoking de la tabla, que significa dejar un hábito. Give up es un verbo frasal: la partícula up cambia por completo el significado de give. La pista es smoking detrás del hueco: give up va seguido de un sustantivo o de un gerundio en -ing (give up smoking, give up sugar), nunca de to + infinitivo.",
+   "explicacion_breve": "Dejar un hábito es give up.",
+   "traduccion": "Mi tío dejó de fumar hace diez años.",
+   "errores_previstos": [
+    {
+     "respuesta": "out",
+     "explicacion": "Give out significa repartir o agotarse; dejar un hábito es give up."
+    },
+    {
+     "respuesta": "off",
+     "explicacion": "Give off significa desprender (olor, humo); no es dejar de fumar."
+    },
+    {
+     "respuesta": "away",
+     "explicacion": "Give away significa regalar o delatar; dejar un hábito es give up."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "give up",
+     "significado": "dejar (un hábito), renunciar a"
+    },
+    {
+     "palabra": "uncle",
+     "significado": "tío"
+    }
+   ]
+  },
+  {
+   "id": "e04",
+   "tipo": "hueco",
+   "enunciado": "Completa con la preposición.",
+   "frase": "My son is allergic ___ nuts.",
+   "respuestas": [
+    "to"
+   ],
+   "explicacion": "La expresión de la tabla es be allergic to: el adjetivo allergic siempre va con la preposición to, que aquí coincide con el español «a». La pista es el adjetivo allergic justo antes del hueco. Observa también que nuts va sin artículo porque se habla de los frutos secos en general.",
+   "explicacion_breve": "Ser alérgico a es be allergic to.",
+   "traduccion": "Mi hijo es alérgico a los frutos secos.",
+   "errores_previstos": [
+    {
+     "respuesta": "of",
+     "explicacion": "Allergic no va con of; la preposición fija es to."
+    },
+    {
+     "respuesta": "at",
+     "explicacion": "At no se combina con allergic; se dice allergic to."
+    },
+    {
+     "respuesta": "with",
+     "explicacion": "With no es la preposición de allergic; la correcta es to."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "be allergic to",
+     "significado": "ser alérgico a"
+    },
+    {
+     "palabra": "nuts",
+     "significado": "frutos secos"
+    }
+   ]
+  },
+  {
+   "id": "e05",
+   "tipo": "eleccion",
+   "enunciado": "Elige la opción correcta.",
+   "frase": "I need to ___ an appointment with the dentist.",
+   "opciones": [
+    "make",
+    "do",
+    "take"
+   ],
+   "respuestas": [
+    "make"
+   ],
+   "explicacion": "La colocación de la tabla es make an appointment, pedir o concertar una cita. En inglés appointment se combina con make, no con do ni con take, y conviene memorizarlo como bloque. La pista es el sustantivo appointment justo después del hueco. Cuando ya tienes la cita, se dice have an appointment.",
+   "explicacion_breve": "Pedir cita es make an appointment.",
+   "traduccion": "Necesito pedir cita con el dentista.",
+   "por_opcion": {
+    "make": "Correcta: make an appointment es pedir o concertar una cita.",
+    "do": "Incorrecta: do se usa con tareas y actividades (do homework), no con appointment.",
+    "take": "Incorrecta: take an appointment es un calco; en inglés la colocación natural es make."
+   },
+   "glosario": [
+    {
+     "palabra": "make an appointment",
+     "significado": "pedir cita"
+    },
+    {
+     "palabra": "dentist",
+     "significado": "dentista"
+    }
+   ]
+  },
+  {
+   "id": "e06",
+   "tipo": "eleccion",
+   "enunciado": "Elige la opción correcta.",
+   "frase": "You can't buy these pills without a ___.",
+   "opciones": [
+    "prescription",
+    "recipe",
+    "receipt"
+   ],
+   "respuestas": [
+    "prescription"
+   ],
+   "explicacion": "La receta médica, el documento que firma el médico para comprar un medicamento, es prescription, como indica la tabla. La pista es el contexto de las pastillas (pills). Las tres opciones son trampas típicas del español «receta» o de palabras de forma parecida.",
+   "explicacion_breve": "La receta médica es prescription.",
+   "traduccion": "No puedes comprar estas pastillas sin receta.",
+   "por_opcion": {
+    "prescription": "Correcta: la receta médica.",
+    "recipe": "Incorrecta: recipe es la receta de cocina (a recipe for paella).",
+    "receipt": "Incorrecta: receipt es el recibo o tique de compra."
+   },
+   "glosario": [
+    {
+     "palabra": "prescription",
+     "significado": "receta médica"
+    },
+    {
+     "palabra": "pills",
+     "significado": "pastillas"
+    }
+   ]
+  },
+  {
+   "id": "e07",
+   "tipo": "eleccion",
+   "enunciado": "Elige la opción correcta.",
+   "frase": "What's the ___? You look pale.",
+   "opciones": [
+    "matter",
+    "problem with you",
+    "thing"
+   ],
+   "respuestas": [
+    "matter"
+   ],
+   "explicacion": "Es la fórmula fija de la tabla What's the matter?, equivalente a «¿Qué te pasa?». Se usa al ver a alguien mal (la pista es You look pale). Matter aquí significa «problema, asunto», y si se quiere precisar se añade with: What's the matter with you?",
+   "explicacion_breve": "¿Qué te pasa? es What's the matter?",
+   "traduccion": "¿Qué te pasa? Estás pálido.",
+   "por_opcion": {
+    "matter": "Correcta: What's the matter? es la pregunta fija para «¿Qué te pasa?».",
+    "problem with you": "Incorrecta: «What's the problem with you?» suena agresivo, como «¿Qué problema tienes?»; no es la fórmula amable de preocupación.",
+    "thing": "Incorrecta: «What's the thing?» no es una expresión natural en inglés."
+   },
+   "glosario": [
+    {
+     "palabra": "What's the matter?",
+     "significado": "¿Qué te pasa?"
+    },
+    {
+     "palabra": "pale",
+     "significado": "pálido"
+    }
+   ]
+  },
+  {
+   "id": "e08",
+   "tipo": "eleccion",
+   "enunciado": "Elige la opción correcta.",
+   "frase": "I fell off my bike and ___ my knee.",
+   "opciones": [
+    "hurt",
+    "ached",
+    "pained"
+   ],
+   "respuestas": [
+    "hurt"
+   ],
+   "explicacion": "La tabla recoge hurt como «doler, hacerse daño»: hurt + parte del cuerpo significa hacerse daño en ella (I hurt my knee). La pista es que hay un complemento directo, my knee, y una causa, la caída. Hurt es irregular y su pasado es igual que el infinitivo: hurt. Además, se usa el posesivo my, no el artículo.",
+   "explicacion_breve": "Hacerse daño en algo es hurt + parte del cuerpo.",
+   "traduccion": "Me caí de la bici y me hice daño en la rodilla.",
+   "por_opcion": {
+    "hurt": "Correcta: hurt my knee, hacerse daño en la rodilla; pasado irregular igual al presente.",
+    "ached": "Incorrecta: ache es intransitivo (my knee ached, me dolía la rodilla) y no lleva complemento directo.",
+    "pained": "Incorrecta: pain como verbo es raro y significa apenar; no se usa para lesionarse."
+   },
+   "glosario": [
+    {
+     "palabra": "hurt",
+     "significado": "hacerse daño en, lesionar"
+    },
+    {
+     "palabra": "fall off",
+     "significado": "caerse de"
+    },
+    {
+     "palabra": "knee",
+     "significado": "rodilla"
+    }
+   ]
+  },
+  {
+   "id": "e09",
+   "tipo": "corregir",
+   "enunciado": "Corrige el falso amigo.",
+   "frase": "I'm constipated: I'm sneezing and I have a runny nose.",
+   "respuestas": [
+    "I've got a cold: I'm sneezing and I have a runny nose.",
+    "I have a cold: I'm sneezing and I have a runny nose."
+   ],
+   "explicacion": "Es el falso amigo que señala Reglas y claves: constipated significa estreñido, no «constipado». El resfriado es a cold y se dice I have a cold o I've got a cold. La pista son los síntomas: estornudos y nariz que moquea, típicos de un resfriado. Valen las dos formas, have y have got, porque ambas expresan posesión en inglés británico.",
+   "explicacion_breve": "Constipado (resfriado) es have a cold; constipated es estreñido.",
+   "traduccion": "Estoy resfriado: estornudo y me moquea la nariz.",
+   "errores_previstos": [
+    {
+     "respuesta": "I'm constipated: I'm sneezing and I have a runny nose.",
+     "explicacion": "Es la frase sin corregir: constipated significa estreñido, así que el mensaje resulta absurdo."
+    },
+    {
+     "respuesta": "I have cold: I'm sneezing and I have a runny nose.",
+     "explicacion": "Falta el artículo: el resfriado es a cold."
+    },
+    {
+     "respuesta": "I'm cold: I'm sneezing and I have a runny nose.",
+     "explicacion": "I'm cold significa tengo frío, no estoy resfriado."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "have a cold",
+     "significado": "estar resfriado"
+    },
+    {
+     "palabra": "constipated",
+     "significado": "estreñido"
+    },
+    {
+     "palabra": "sneeze",
+     "significado": "estornudar"
+    },
+    {
+     "palabra": "runny nose",
+     "significado": "nariz que moquea"
+    }
+   ]
+  },
+  {
+   "id": "e10",
+   "tipo": "corregir",
+   "enunciado": "Corrige el error.",
+   "frase": "She broke the arm playing basketball.",
+   "respuestas": [
+    "She broke her arm playing basketball."
+   ],
+   "explicacion": "Se aplica la regla de la ficha: con las partes del cuerpo el inglés usa el posesivo, no el artículo. Donde el español dice «se rompió el brazo», el inglés dice «she broke her arm». La pista es el sujeto she, que exige el posesivo her. Usar the suena a que se rompió el brazo de otra persona o de un objeto.",
+   "explicacion_breve": "Con partes del cuerpo se usa el posesivo.",
+   "traduccion": "Se rompió el brazo jugando al baloncesto.",
+   "errores_previstos": [
+    {
+     "respuesta": "She broke the arm playing basketball.",
+     "explicacion": "Es la frase sin corregir: con partes del cuerpo se usa el posesivo, her arm."
+    },
+    {
+     "respuesta": "She broke his arm playing basketball.",
+     "explicacion": "His es el posesivo masculino: significaría que le rompió el brazo a un chico. Con she, her."
+    },
+    {
+     "respuesta": "She broke herself the arm playing basketball.",
+     "explicacion": "Calco del reflexivo español «se rompió»; en inglés no hay reflexivo, basta con el posesivo: her arm."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "break your arm",
+     "significado": "romperse el brazo"
+    },
+    {
+     "palabra": "basketball",
+     "significado": "baloncesto"
+    }
+   ]
+  },
+  {
+   "id": "e11",
+   "tipo": "corregir",
+   "enunciado": "Corrige el error.",
+   "frase": "I have a pain of head.",
+   "respuestas": [
+    "I have a headache.",
+    "I've got a headache.",
+    "My head hurts."
+   ],
+   "explicacion": "Se aplica la regla de los dolores: «dolor de cabeza» es headache, con el artículo a (I have a headache). La frase original es un calco palabra por palabra del español. Se aceptan tres soluciones porque la ficha da dos maneras de expresar dolor: have (got) + a + compuesto en -ache, o parte del cuerpo + hurts (my head hurts).",
+   "explicacion_breve": "Dolor de cabeza es headache.",
+   "traduccion": "Me duele la cabeza.",
+   "errores_previstos": [
+    {
+     "respuesta": "I have a pain of head.",
+     "explicacion": "Es la frase sin corregir: «pain of head» es un calco; se dice headache."
+    },
+    {
+     "respuesta": "I have headache.",
+     "explicacion": "Headache es contable y lleva artículo: a headache."
+    },
+    {
+     "respuesta": "My head hurts me.",
+     "explicacion": "Calco de «me duele»: hurt no lleva aquí complemento de persona; basta con my head hurts."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "headache",
+     "significado": "dolor de cabeza"
+    },
+    {
+     "palabra": "hurt",
+     "significado": "doler"
+    }
+   ]
+  },
+  {
+   "id": "e12",
+   "tipo": "ordenar",
+   "enunciado": "Ordena las palabras.",
+   "palabras": [
+    "better",
+    "hope",
+    "soon",
+    "you",
+    "I",
+    "get"
+   ],
+   "respuestas": [
+    "I hope you get better soon"
+   ],
+   "explicacion": "Es la fórmula fija para desear a alguien que se recupere, con get better (mejorar) de la tabla. El orden es el de una oración principal (I hope) más una subordinada sin that (you get better), con el adverbio soon al final. Fíjate en que tras hope el inglés usa presente simple, donde el español pone subjuntivo («que te mejores»).",
+   "explicacion_breve": "Fórmula para desear que alguien se recupere.",
+   "traduccion": "Espero que te mejores pronto.",
+   "errores_previstos": [
+    {
+     "respuesta": "I hope you get soon better",
+     "explicacion": "Soon no puede separar get de better, que forman una unidad (get better); el adverbio va al final: get better soon."
+    },
+    {
+     "respuesta": "I hope get you better soon",
+     "explicacion": "El sujeto you debe ir delante del verbo get."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "get better",
+     "significado": "mejorar, recuperarse"
+    },
+    {
+     "palabra": "hope",
+     "significado": "esperar (desear)"
+    }
+   ]
+  },
+  {
+   "id": "e13",
+   "tipo": "ordenar",
+   "enunciado": "Ordena las palabras.",
+   "palabras": [
+    "fit",
+    "I",
+    "keep",
+    "to",
+    "swim"
+   ],
+   "respuestas": [
+    "I swim to keep fit",
+    "To keep fit I swim"
+   ],
+   "explicacion": "Se usa la expresión de la tabla keep fit, mantenerse en forma. La finalidad se expresa con to + infinitivo (to keep fit), donde el español dice «para». El orden es sujeto + verbo principal (I swim) + finalidad. No se dice «for keep fit»: para expresar el propósito de una acción se usa to. La finalidad también puede ir delante: To keep fit, I swim.",
+   "explicacion_breve": "Keep fit es mantenerse en forma.",
+   "traduccion": "Nado para mantenerme en forma.",
+   "errores_previstos": [
+    {
+     "respuesta": "I keep fit to swim",
+     "explicacion": "Invierte la relación: significaría que te mantienes en forma para poder nadar."
+    },
+    {
+     "respuesta": "I swim to fit keep",
+     "explicacion": "Keep fit es una expresión fija con el verbo delante: to keep fit."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "keep fit",
+     "significado": "mantenerse en forma"
+    },
+    {
+     "palabra": "swim",
+     "significado": "nadar"
+    }
+   ]
+  },
+  {
+   "id": "e14",
+   "tipo": "hueco",
+   "enunciado": "Completa: «fiebre».",
+   "frase": "Take his temperature; I think he has a ___.",
+   "respuestas": [
+    "fever",
+    "temperature"
+   ],
+   "explicacion": "La tabla recoge a temperature como fiebre: have a temperature significa tener fiebre, no simplemente tener una temperatura. También vale have a fever, más frecuente en inglés americano. La pista es el artículo a antes del hueco y el contexto de tomar la temperatura. Las dos respuestas son correctas.",
+   "explicacion_breve": "Tener fiebre es have a temperature o have a fever.",
+   "traduccion": "Tómale la temperatura; creo que tiene fiebre.",
+   "errores_previstos": [
+    {
+     "respuesta": "fiebre",
+     "explicacion": "Es la palabra española; en inglés se dice fever o temperature."
+    },
+    {
+     "respuesta": "hot",
+     "explicacion": "Hot es adjetivo; tras a hace falta un sustantivo: a temperature o a fever."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "have a temperature",
+     "significado": "tener fiebre"
+    },
+    {
+     "palabra": "fever",
+     "significado": "fiebre"
+    },
+    {
+     "palabra": "take someone's temperature",
+     "significado": "tomarle la temperatura a alguien"
+    }
+   ]
+  },
+  {
+   "id": "e15",
+   "tipo": "eleccion",
+   "enunciado": "Elige la opción correcta.",
+   "frase": "I stood up too quickly and felt ___.",
+   "opciones": [
+    "dizzy",
+    "sore",
+    "allergic"
+   ],
+   "respuestas": [
+    "dizzy"
+   ],
+   "explicacion": "La tabla recoge feel dizzy, sentirse mareado. Es lo que ocurre al levantarse de golpe (la pista es stood up too quickly). Feel va seguido de un adjetivo que describe cómo te sientes, y dizzy es el que corresponde al mareo con sensación de que todo da vueltas.",
+   "explicacion_breve": "Mareado es dizzy.",
+   "traduccion": "Me levanté demasiado deprisa y me mareé.",
+   "por_opcion": {
+    "dizzy": "Correcta: mareado, con sensación de que todo da vueltas.",
+    "sore": "Incorrecta: sore significa dolorido y se aplica a una parte del cuerpo (a sore throat), no a cómo te sientes en general.",
+    "allergic": "Incorrecta: allergic significa alérgico y va con to; no describe un mareo."
+   },
+   "glosario": [
+    {
+     "palabra": "feel dizzy",
+     "significado": "marearse, sentirse mareado"
+    },
+    {
+     "palabra": "stand up",
+     "significado": "levantarse"
+    }
+   ]
+  }
  ],
- "fuente": {"nombre": "propia"}
+ "fuente": {
+  "nombre": "propia"
+ },
+ "descripcion_larga_es": "Vocabulario básico para hablar de la salud: partes del cuerpo, dolores y síntomas, la consulta del médico, la farmacia y los hábitos saludables. Es imprescindible en viajes y en la vida diaria, porque en una urgencia hay que explicarse rápido y bien. Cuesta al hispanohablante por varios falsos amigos (constipated, recipe, sick) y porque el inglés usa el posesivo con las partes del cuerpo.",
+ "contexto": {
+  "que_es": "Es el léxico de la salud a nivel básico: el cuerpo (head, back, knee), los dolores (headache, a sore throat), las enfermedades comunes (a cold, the flu), los verbos para hacerse daño (hurt, injure) y las expresiones de la consulta médica (make an appointment, prescription). Incluye también los hábitos de vida (keep fit, give up smoking).",
+  "por_que_importa": "Es uno de los campos más útiles en situaciones reales: en un viaje, en el médico o en la farmacia necesitas decir qué te pasa con precisión. Un falso amigo puede provocar malentendidos serios o cómicos: decir «I'm constipated» cuando estás resfriado significa que estás estreñido. En exámenes de nivel básico es un tema clásico de conversación y de redacción.",
+  "cuando_se_usa": "Al pedir cita, al describir síntomas al médico o al farmacéutico, al preguntar a alguien qué le pasa (What's the matter?) o al desearle que se mejore. Las señales son los verbos de dolor y las partes del cuerpo. El hispanohablante tiende a decir «the arm» en lugar de «my arm», «pain of head» por «headache» y «recipe» por «prescription»."
+ }
 }

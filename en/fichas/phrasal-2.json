@@ -6,57 +6,520 @@
  "nivel": "B2",
  "resumen": "En los phrasal verbs separables el objeto puede ir antes o después de la partícula, pero si es un pronombre va siempre en medio (turn it off). En los inseparables y en los de tres partes el objeto va siempre al final.",
  "explicacion": [
-  {"tipo": "tabla", "cabecera": ["Tipo", "Objeto nombre", "Objeto pronombre"], "filas": [
-   ["Separable (turn off, give back, put off, fill in, pick up)", "Turn off the light. / Turn the light off.", "Turn it off. (nunca turn off it)"],
-   ["Inseparable (look after, get over, come across, run into)", "She looks after her nephew.", "She looks after him."],
-   ["Tres partes (look forward to, put up with, run out of)", "I can't put up with the noise.", "I can't put up with it."],
-   ["Intransitivo (break down, set off, turn up)", "The car broke down.", "(sin objeto)"]
-  ]},
-  {"tipo": "texto", "texto": "Truco: con verbos de movimiento + preposición (look after, get over) la partícula funciona como preposición y el objeto no puede ir delante. Si dudas, coloca el pronombre detrás de todo y comprueba en el diccionario si el verbo es separable (marcado sth/sb entre verbo y partícula)."},
-  {"tipo": "tabla", "cabecera": ["Verbo de tres partes", "Significado", "Ejemplo"], "filas": [
-   ["look forward to + -ing", "tener ganas de", "I'm looking forward to seeing you."],
-   ["put up with", "aguantar, soportar", "I won't put up with his rudeness."],
-   ["run out of", "quedarse sin", "We've run out of milk."],
-   ["come up with", "idear, proponer", "She came up with a great idea."],
-   ["get on with", "llevarse bien con / seguir con", "I get on well with my boss."],
-   ["catch up with", "alcanzar, ponerse al día", "Go ahead, I'll catch up with you."],
-   ["cut down on", "reducir el consumo de", "I'm trying to cut down on sugar."],
-   ["look down on", "menospreciar", "He looks down on people without degrees."]
-  ]},
-  {"tipo": "lista", "items": [
-   "Look forward to lleva -ing porque to es preposición: look forward to hearing from you.",
-   "Con objetos largos se prefiere la partícula antes del objeto: She gave back all the books she had borrowed."
-  ]}
+  {
+   "tipo": "tabla",
+   "cabecera": [
+    "Tipo",
+    "Objeto nombre",
+    "Objeto pronombre"
+   ],
+   "filas": [
+    [
+     "Separable (turn off, give back, put off, fill in, pick up)",
+     "Turn off the light. / Turn the light off.",
+     "Turn it off. (nunca turn off it)"
+    ],
+    [
+     "Inseparable (look after, get over, come across, run into)",
+     "She looks after her nephew.",
+     "She looks after him."
+    ],
+    [
+     "Tres partes (look forward to, put up with, run out of)",
+     "I can't put up with the noise.",
+     "I can't put up with it."
+    ],
+    [
+     "Intransitivo (break down, set off, turn up)",
+     "The car broke down.",
+     "(sin objeto)"
+    ]
+   ]
+  },
+  {
+   "tipo": "texto",
+   "texto": "Truco: en los inseparables (look after, get over, come across) la partícula funciona como una preposición, así que el objeto, sea nombre o pronombre, va siempre detrás de ella: look after him, get over it. En los separables, en cambio, el pronombre va siempre en medio: turn it off. Si dudas, mira el diccionario: si marca sth/sb entre el verbo y la partícula (turn sth off), es separable; si lo marca al final (look after sb), es inseparable."
+  },
+  {
+   "tipo": "tabla",
+   "cabecera": [
+    "Verbo de tres partes",
+    "Significado",
+    "Ejemplo"
+   ],
+   "filas": [
+    [
+     "look forward to + -ing",
+     "tener ganas de",
+     "I'm looking forward to seeing you."
+    ],
+    [
+     "put up with",
+     "aguantar, soportar",
+     "I won't put up with his rudeness."
+    ],
+    [
+     "run out of",
+     "quedarse sin",
+     "We've run out of milk."
+    ],
+    [
+     "come up with",
+     "idear, proponer",
+     "She came up with a great idea."
+    ],
+    [
+     "get on with",
+     "llevarse bien con / seguir con",
+     "I get on well with my boss."
+    ],
+    [
+     "catch up with",
+     "alcanzar, ponerse al día",
+     "Go ahead, I'll catch up with you."
+    ],
+    [
+     "cut down on",
+     "reducir el consumo de",
+     "I'm trying to cut down on sugar."
+    ],
+    [
+     "look down on",
+     "menospreciar",
+     "He looks down on people without degrees."
+    ]
+   ]
+  },
+  {
+   "tipo": "lista",
+   "items": [
+    "Look forward to lleva -ing porque to es preposición: look forward to hearing from you.",
+    "Con objetos largos se prefiere la partícula antes del objeto: She gave back all the books she had borrowed."
+   ]
+  }
  ],
  "ejemplos": [
-  {"frase": "Could you fill in this form, please?", "traduccion": "¿Podría rellenar este impreso, por favor?"},
-  {"frase": "I lent him my bike and he never gave it back.", "traduccion": "Le presté la bici y nunca me la devolvió."},
-  {"frase": "It took her months to get over the flu.", "traduccion": "Tardó meses en recuperarse de la gripe."},
-  {"frase": "I came across some old letters in the attic.", "traduccion": "Encontré por casualidad unas cartas antiguas en el desván."},
-  {"frase": "We ran out of petrol on the motorway.", "traduccion": "Nos quedamos sin gasolina en la autopista."},
-  {"frase": "The meeting has been put off until next week.", "traduccion": "La reunión se ha aplazado hasta la semana que viene."}
+  {
+   "frase": "Could you fill in this form, please?",
+   "traduccion": "¿Podría rellenar este impreso, por favor?"
+  },
+  {
+   "frase": "I lent him my bike and he never gave it back.",
+   "traduccion": "Le presté la bici y nunca me la devolvió."
+  },
+  {
+   "frase": "It took her months to get over the flu.",
+   "traduccion": "Tardó meses en recuperarse de la gripe."
+  },
+  {
+   "frase": "I came across some old letters in the attic.",
+   "traduccion": "Encontré por casualidad unas cartas antiguas en el desván."
+  },
+  {
+   "frase": "We ran out of petrol on the motorway.",
+   "traduccion": "Nos quedamos sin gasolina en la autopista."
+  },
+  {
+   "frase": "The meeting has been put off until next week.",
+   "traduccion": "La reunión se ha aplazado hasta la semana que viene."
+  }
  ],
  "errores_hispanohablantes": [
-  {"mal": "The music is too loud. Turn down it.", "bien": "The music is too loud. Turn it down.", "nota": "Con verbo separable, el pronombre va entre verbo y partícula."},
-  {"mal": "I look forward to hear from you.", "bien": "I look forward to hearing from you.", "nota": "To es preposición: le sigue -ing."},
-  {"mal": "My grandmother looks me after.", "bien": "My grandmother looks after me.", "nota": "Look after es inseparable: el objeto va al final."}
+  {
+   "mal": "The music is too loud. Turn down it.",
+   "bien": "The music is too loud. Turn it down.",
+   "nota": "Con verbo separable, el pronombre va entre verbo y partícula."
+  },
+  {
+   "mal": "I look forward to hear from you.",
+   "bien": "I look forward to hearing from you.",
+   "nota": "To es preposición: le sigue -ing."
+  },
+  {
+   "mal": "My grandmother looks me after.",
+   "bien": "My grandmother looks after me.",
+   "nota": "Look after es inseparable: el objeto va al final."
+  }
  ],
  "ejercicios": [
-  {"id": "e01", "tipo": "hueco", "enunciado": "Completa con la partícula que falta.", "frase": "We've run out ___ coffee. Can you buy some?", "respuestas": ["of"], "explicacion": "Run out of = quedarse sin."},
-  {"id": "e02", "tipo": "hueco", "enunciado": "Completa con la partícula que falta.", "frase": "I don't know how she puts up ___ such a noisy flatmate.", "respuestas": ["with"], "explicacion": "Put up with = aguantar."},
-  {"id": "e03", "tipo": "hueco", "enunciado": "Completa con la forma correcta del verbo.", "frase": "We're really looking forward to ___ (meet) your family.", "respuestas": ["meeting"], "explicacion": "Look forward to + -ing."},
-  {"id": "e04", "tipo": "hueco", "enunciado": "Completa con un verbo en pasado (encontrarse por casualidad con alguien).", "frase": "I ___ into an old school friend at the station yesterday.", "respuestas": ["ran", "bumped"], "explicacion": "Run into = encontrarse con alguien por casualidad."},
-  {"id": "e05", "tipo": "eleccion", "enunciado": "Elige la opción correcta.", "frase": "This is your book. I'm sorry I took so long to ___.", "opciones": ["give it back", "give back it", "give it"], "respuestas": ["give it back"], "explicacion": "Separable con pronombre: el pronombre en medio."},
-  {"id": "e06", "tipo": "eleccion", "enunciado": "Elige la opción correcta.", "frase": "Who's going to ___ while you're away?", "opciones": ["look after the dog", "look the dog after", "look after to the dog"], "respuestas": ["look after the dog"], "explicacion": "Look after es inseparable."},
-  {"id": "e07", "tipo": "eleccion", "enunciado": "Elige la opción correcta.", "frase": "The engineers ___ a clever solution to the problem.", "opciones": ["came up with", "came up", "came with up"], "respuestas": ["came up with"], "explicacion": "Come up with + objeto = idear."},
-  {"id": "e08", "tipo": "eleccion", "enunciado": "Elige la opción correcta.", "frase": "I'm trying to ___ fried food.", "opciones": ["cut down on", "cut down", "cut on down"], "respuestas": ["cut down on"], "explicacion": "Cut down on + nombre = reducir el consumo de."},
-  {"id": "e09", "tipo": "corregir", "enunciado": "Corrige el error.", "frase": "It's cold in here. Can you turn on it?", "respuestas": ["It's cold in here. Can you turn it on?"], "explicacion": "Con pronombre, el objeto va entre verbo y partícula."},
-  {"id": "e10", "tipo": "corregir", "enunciado": "Corrige el error.", "frase": "It took him years to get his divorce over.", "respuestas": ["It took him years to get over his divorce."], "explicacion": "Get over es inseparable."},
-  {"id": "e11", "tipo": "corregir", "enunciado": "Corrige el error.", "frase": "I look forward to receive your reply.", "respuestas": ["I look forward to receiving your reply."], "explicacion": "Look forward to + -ing."},
-  {"id": "e12", "tipo": "transformar", "enunciado": "Sustituye the form por el pronombre it.", "frase": "Please fill in the form before Friday.", "respuestas": ["Please fill it in before Friday."], "explicacion": "Fill in es separable: el pronombre va en medio."},
-  {"id": "e13", "tipo": "transformar", "enunciado": "Sustituye my cousins por el pronombre them.", "frase": "I get on with my cousins really well.", "respuestas": ["I get on with them really well.", "I get on really well with them."], "explicacion": "En los verbos de tres partes el pronombre va al final."},
-  {"id": "e14", "tipo": "ordenar", "enunciado": "Ordena las palabras.", "palabras": ["off", "it", "put", "they", "have"], "respuestas": ["they have put it off", "have they put it off"], "explicacion": "Put off es separable: el pronombre en medio."},
-  {"id": "e15", "tipo": "ordenar", "enunciado": "Ordena las palabras.", "palabras": ["with", "I", "up", "it", "can't", "put"], "respuestas": ["I can't put up with it"], "explicacion": "Verbo de tres partes: el objeto al final."}
+  {
+   "id": "e01",
+   "tipo": "hueco",
+   "enunciado": "Completa con la partícula que falta.",
+   "frase": "We've run out ___ coffee. Can you buy some?",
+   "respuestas": [
+    "of"
+   ],
+   "explicacion": "Se aplica la tabla de verbos de tres partes: run out of significa «quedarse sin». La pista es Can you buy some?, que indica que no queda café. Como verbo de tres partes, nunca se separa y su objeto (coffee) va al final, tras of.",
+   "explicacion_breve": "Run out of = quedarse sin.",
+   "traduccion": "Se nos ha acabado el café. ¿Puedes comprar?",
+   "errores_previstos": [
+    {
+     "respuesta": "from",
+     "explicacion": "Calco de «quedarse sin» o «salir de»: la partícula final de run out es of."
+    },
+    {
+     "respuesta": "off",
+     "explicacion": "Run out off no existe; la tercera partícula es of, con una sola f."
+    }
+   ]
+  },
+  {
+   "id": "e02",
+   "tipo": "hueco",
+   "enunciado": "Completa con la partícula que falta.",
+   "frase": "I don't know how she puts up ___ such a noisy flatmate.",
+   "respuestas": [
+    "with"
+   ],
+   "explicacion": "Se aplica la tabla de verbos de tres partes: put up with significa «aguantar, soportar». La pista es such a noisy flatmate, algo molesto que se soporta. El objeto va detrás de with, la última partícula, porque los verbos de tres partes nunca se separan.",
+   "explicacion_breve": "Put up with = aguantar.",
+   "traduccion": "No sé cómo aguanta a un compañero de piso tan ruidoso.",
+   "errores_previstos": [
+    {
+     "respuesta": "to",
+     "explicacion": "La tercera partícula de put up es with, no to."
+    },
+    {
+     "respuesta": "on",
+     "explicacion": "Put up on no existe con este sentido; aguantar es put up with."
+    }
+   ]
+  },
+  {
+   "id": "e03",
+   "tipo": "hueco",
+   "enunciado": "Completa con la forma correcta del verbo.",
+   "frase": "We're really looking forward to ___ (meet) your family.",
+   "respuestas": [
+    "meeting"
+   ],
+   "explicacion": "Se aplica la regla de Reglas y claves: look forward to lleva -ing porque to es preposición, no marca de infinitivo. La pista es looking forward to justo delante del hueco. Por eso meeting, igual que en I look forward to hearing from you.",
+   "explicacion_breve": "Look forward to + -ing.",
+   "traduccion": "Tenemos muchas ganas de conocer a tu familia.",
+   "errores_previstos": [
+    {
+     "respuesta": "meet",
+     "explicacion": "To aquí es preposición, y tras una preposición el verbo va en -ing: meeting."
+    },
+    {
+     "respuesta": "to meet",
+     "explicacion": "Repite el to y deja el infinitivo; la forma correcta es to meeting."
+    },
+    {
+     "respuesta": "met",
+     "explicacion": "El participio no cabe tras una preposición; va la forma en -ing."
+    }
+   ]
+  },
+  {
+   "id": "e04",
+   "tipo": "hueco",
+   "enunciado": "Completa con un verbo en pasado (encontrarse por casualidad con alguien).",
+   "frase": "I ___ into an old school friend at the station yesterday.",
+   "respuestas": [
+    "ran",
+    "bumped"
+   ],
+   "explicacion": "Se aplica la tabla de inseparables: run into significa «encontrarse con alguien por casualidad». La pista es el enunciado y la partícula into ya escrita. Se pide el verbo en pasado (yesterday), así que ran, pasado irregular de run. También vale bumped (bump into), sinónimo coloquial.",
+   "explicacion_breve": "Run into = encontrarse con alguien por casualidad.",
+   "traduccion": "Ayer me encontré por casualidad con un antiguo compañero del colegio en la estación.",
+   "errores_previstos": [
+    {
+     "respuesta": "run",
+     "explicacion": "Yesterday exige pasado: ran."
+    },
+    {
+     "respuesta": "met",
+     "explicacion": "Meet no lleva into; met into es incorrecto."
+    },
+    {
+     "respuesta": "found",
+     "explicacion": "Find no se construye con into; «encontrarse con alguien» es run into o bump into."
+    }
+   ]
+  },
+  {
+   "id": "e05",
+   "tipo": "eleccion",
+   "enunciado": "Elige la opción correcta.",
+   "frase": "This is your book. I'm sorry I took so long to ___.",
+   "opciones": [
+    "give it back",
+    "give back it",
+    "give it"
+   ],
+   "respuestas": [
+    "give it back"
+   ],
+   "explicacion": "Se aplica la regla de los separables: con pronombre, el objeto va siempre en medio. La pista es it, que sustituye a your book, y give back, que figura en la tabla como separable. Por eso give it back.",
+   "explicacion_breve": "Separable con pronombre: el pronombre en medio.",
+   "traduccion": "Este es tu libro. Siento haber tardado tanto en devolvértelo.",
+   "por_opcion": {
+    "give it back": "Correcta: pronombre entre verbo y partícula.",
+    "give back it": "Incorrecta: con pronombre, un separable nunca deja el pronombre detrás de la partícula.",
+    "give it": "Incorrecta: sin back significa «darlo», no «devolverlo», y la frase quedaría incompleta."
+   }
+  },
+  {
+   "id": "e06",
+   "tipo": "eleccion",
+   "enunciado": "Elige la opción correcta.",
+   "frase": "Who's going to ___ while you're away?",
+   "opciones": [
+    "look after the dog",
+    "look the dog after",
+    "look after to the dog"
+   ],
+   "respuestas": [
+    "look after the dog"
+   ],
+   "explicacion": "Se aplica la tabla: look after es inseparable, así que el objeto va siempre detrás de la partícula. La pista es the dog, el objeto de «cuidar». La forma correcta es look after the dog, sin preposición añadida.",
+   "explicacion_breve": "Look after es inseparable.",
+   "traduccion": "¿Quién va a cuidar al perro mientras estás fuera?",
+   "por_opcion": {
+    "look after the dog": "Correcta: verbo inseparable con el objeto al final.",
+    "look the dog after": "Incorrecta: look after no se separa.",
+    "look after to the dog": "Incorrecta: calco de la a personal española; en inglés no se añade preposición."
+   }
+  },
+  {
+   "id": "e07",
+   "tipo": "eleccion",
+   "enunciado": "Elige la opción correcta.",
+   "frase": "The engineers ___ a clever solution to the problem.",
+   "opciones": [
+    "came up with",
+    "came up",
+    "came with up"
+   ],
+   "respuestas": [
+    "came up with"
+   ],
+   "explicacion": "Se aplica la tabla de verbos de tres partes: come up with significa «idear, proponer». La pista es a clever solution, el objeto que se idea. Las tres partes van juntas y el objeto detrás.",
+   "explicacion_breve": "Come up with + objeto = idear.",
+   "traduccion": "Los ingenieros idearon una solución ingeniosa para el problema.",
+   "por_opcion": {
+    "came up with": "Correcta: idear algo, con el objeto detrás de la última partícula.",
+    "came up": "Incorrecta: come up sin with significa «surgir» y no admite objeto directo.",
+    "came with up": "Incorrecta: el orden de las partículas es fijo: up with."
+   }
+  },
+  {
+   "id": "e08",
+   "tipo": "eleccion",
+   "enunciado": "Elige la opción correcta.",
+   "frase": "I'm trying to ___ fried food.",
+   "opciones": [
+    "cut down on",
+    "cut down",
+    "cut on down"
+   ],
+   "respuestas": [
+    "cut down on"
+   ],
+   "explicacion": "Se aplica la tabla de verbos de tres partes: cut down on significa «reducir el consumo de». La pista es fried food, el objeto del que se consume menos. Como verbo de tres partes, el objeto va detrás de on.",
+   "explicacion_breve": "Cut down on + nombre = reducir el consumo de.",
+   "traduccion": "Estoy intentando reducir los fritos.",
+   "por_opcion": {
+    "cut down on": "Correcta: reducir el consumo de algo.",
+    "cut down": "Incorrecta aquí: cut down con objeto directo significa «talar» (cut down a tree); para reducir el consumo hace falta on.",
+    "cut on down": "Incorrecta: el orden de las partículas es fijo: down on."
+   }
+  },
+  {
+   "id": "e09",
+   "tipo": "corregir",
+   "enunciado": "Corrige el error.",
+   "frase": "It's cold in here. Can you turn on it?",
+   "respuestas": [
+    "It's cold in here. Can you turn it on?"
+   ],
+   "explicacion": "Se aplica la regla de los separables y el primer error típico de la ficha: con pronombre, el objeto va entre verbo y partícula. La pista es it, que se refiere a un aparato ya conocido por los hablantes (la calefacción, por ejemplo). Turn on es separable, así que turn it on.",
+   "explicacion_breve": "Con pronombre, el objeto va entre verbo y partícula.",
+   "traduccion": "Aquí hace frío. ¿Puedes encenderla?",
+   "errores_previstos": [
+    {
+     "respuesta": "It's cold in here. Can you turn on it?",
+     "explicacion": "Es copiar la frase sin corregir: el pronombre va en medio."
+    },
+    {
+     "respuesta": "It's cold in here. Can you turn it?",
+     "explicacion": "Sin on la frase significa «girarla»."
+    },
+    {
+     "respuesta": "It's cold in here. Can you it turn on?",
+     "explicacion": "El pronombre objeto no va delante del verbo como en español."
+    }
+   ]
+  },
+  {
+   "id": "e10",
+   "tipo": "corregir",
+   "enunciado": "Corrige el error.",
+   "frase": "It took him years to get his divorce over.",
+   "respuestas": [
+    "It took him years to get over his divorce."
+   ],
+   "explicacion": "Se aplica la tabla de inseparables: get over significa «superar» (una enfermedad, una ruptura) y el objeto va siempre detrás. La pista es his divorce, lo que se supera. Get his divorce over no tiene el sentido de superar; get something over (with) es otra expresión, que significa «quitarse de encima algo desagradable».",
+   "explicacion_breve": "Get over es inseparable.",
+   "traduccion": "Le costó años superar el divorcio.",
+   "errores_previstos": [
+    {
+     "respuesta": "It took him years to get his divorce over.",
+     "explicacion": "Es copiar la frase sin corregir: get over, en el sentido de superar, es inseparable."
+    },
+    {
+     "respuesta": "It took him years to get over from his divorce.",
+     "explicacion": "Calco de «recuperarse de»: get over no lleva from."
+    },
+    {
+     "respuesta": "It took him years to get his over divorce.",
+     "explicacion": "La partícula no puede separar el posesivo del sustantivo."
+    }
+   ]
+  },
+  {
+   "id": "e11",
+   "tipo": "corregir",
+   "enunciado": "Corrige el error.",
+   "frase": "I look forward to receive your reply.",
+   "respuestas": [
+    "I look forward to receiving your reply."
+   ],
+   "explicacion": "Se aplica la regla de look forward to + -ing y el segundo error típico de la ficha. La pista es look forward to, cuyo to es preposición. Receive debe ir en -ing: receiving. Es la fórmula de cierre clásica de un correo formal.",
+   "explicacion_breve": "Look forward to + -ing.",
+   "traduccion": "Quedo a la espera de su respuesta.",
+   "errores_previstos": [
+    {
+     "respuesta": "I look forward to receive your reply.",
+     "explicacion": "Es copiar la frase sin corregir: tras la preposición to va receiving."
+    },
+    {
+     "respuesta": "I look forward receiving your reply.",
+     "explicacion": "No se puede eliminar to; forma parte del verbo de tres partes."
+    },
+    {
+     "respuesta": "I look forward to received your reply.",
+     "explicacion": "Tras la preposición va la forma en -ing, no el participio."
+    }
+   ]
+  },
+  {
+   "id": "e12",
+   "tipo": "transformar",
+   "enunciado": "Sustituye the form por el pronombre it.",
+   "frase": "Please fill in the form before Friday.",
+   "respuestas": [
+    "Please fill it in before Friday."
+   ],
+   "explicacion": "Se aplica la regla de los separables: fill in figura en la tabla como separable, y con pronombre el objeto va en medio. La pista es el enunciado, que pide sustituir the form por it. Por eso fill it in.",
+   "explicacion_breve": "Fill in es separable: el pronombre va en medio.",
+   "traduccion": "Por favor, rellénelo antes del viernes.",
+   "errores_previstos": [
+    {
+     "respuesta": "Please fill in it before Friday.",
+     "explicacion": "Con pronombre, un separable lleva el pronombre en medio: fill it in."
+    },
+    {
+     "respuesta": "Please fill it before Friday.",
+     "explicacion": "Sin in, fill significa «llenar»; la partícula es imprescindible."
+    }
+   ]
+  },
+  {
+   "id": "e13",
+   "tipo": "transformar",
+   "enunciado": "Sustituye my cousins por el pronombre them.",
+   "frase": "I get on with my cousins really well.",
+   "respuestas": [
+    "I get on with them really well.",
+    "I get on really well with them."
+   ],
+   "explicacion": "Se aplica la regla de los verbos de tres partes: el objeto, también si es pronombre, va al final. La pista es get on with, verbo de tres partes. My cousins pasa a them, en caso objeto, detrás de with. Really well puede ir al final o entre on y with, por eso se aceptan dos órdenes.",
+   "explicacion_breve": "En los verbos de tres partes el pronombre va al final.",
+   "traduccion": "Me llevo muy bien con ellos.",
+   "errores_previstos": [
+    {
+     "respuesta": "I get on them with really well.",
+     "explicacion": "Un verbo de tres partes no se separa para meter el pronombre."
+    },
+    {
+     "respuesta": "I get on with they really well.",
+     "explicacion": "Tras una preposición va el pronombre objeto: them."
+    },
+    {
+     "respuesta": "I get them on with really well.",
+     "explicacion": "Los verbos de tres partes son inseparables: el pronombre va al final."
+    }
+   ]
+  },
+  {
+   "id": "e14",
+   "tipo": "ordenar",
+   "enunciado": "Ordena las palabras.",
+   "palabras": [
+    "off",
+    "it",
+    "put",
+    "they",
+    "have"
+   ],
+   "respuestas": [
+    "they have put it off",
+    "have they put it off"
+   ],
+   "explicacion": "Se aplica la regla de los separables: put off (aplazar) es separable y, con pronombre, el pronombre va en medio. La pista es it entre las palabras. El orden es sujeto + have + put + it + off; en pregunta, have va delante del sujeto.",
+   "explicacion_breve": "Put off es separable: el pronombre en medio.",
+   "traduccion": "Lo han aplazado. (También: ¿Lo han aplazado?)",
+   "errores_previstos": [
+    {
+     "respuesta": "they have put off it",
+     "explicacion": "Con pronombre, un separable lleva el pronombre en medio: put it off."
+    },
+    {
+     "respuesta": "they it have put off",
+     "explicacion": "El pronombre objeto no va delante del verbo como en español."
+    }
+   ]
+  },
+  {
+   "id": "e15",
+   "tipo": "ordenar",
+   "enunciado": "Ordena las palabras.",
+   "palabras": [
+    "with",
+    "I",
+    "up",
+    "it",
+    "can't",
+    "put"
+   ],
+   "respuestas": [
+    "I can't put up with it"
+   ],
+   "explicacion": "Se aplica la regla de los verbos de tres partes: nunca se separan y el objeto, aunque sea pronombre, va al final. La pista es put, up y with entre las palabras junto a it. El orden es sujeto + can't + put up with + it.",
+   "explicacion_breve": "Verbo de tres partes: el objeto al final.",
+   "traduccion": "No lo soporto.",
+   "errores_previstos": [
+    {
+     "respuesta": "I can't put it up with",
+     "explicacion": "Put up with es inseparable; el pronombre va al final."
+    },
+    {
+     "respuesta": "I can't put up it with",
+     "explicacion": "El pronombre no puede meterse entre las partículas de un verbo de tres partes."
+    }
+   ]
+  }
  ],
- "fuente": {"nombre": "propia"}
+ "fuente": {
+  "nombre": "propia"
+ },
+ "descripcion_larga_es": "Esta ficha profundiza en la sintaxis de los phrasal verbs: cuáles son separables (turn it off), cuáles inseparables (look after him), cuáles tienen tres partes (put up with it) y cuáles no llevan objeto (break down). Dominarla evita errores muy llamativos con los pronombres y permite usar verbos de alta frecuencia como come up with o look forward to. Al hispanohablante le cuesta porque en español el pronombre va delante del verbo.",
+ "contexto": {
+  "que_es": "Es la clasificación de los phrasal verbs según la posición del objeto: separables (el objeto puede ir en medio o detrás, y el pronombre siempre en medio), inseparables (el objeto siempre detrás), de tres partes (verbo + adverbio + preposición, nunca separables) e intransitivos (sin objeto).",
+  "por_que_importa": "Colocar mal un pronombre (turn down it, looks me after) es uno de los errores que más delatan a un hablante no nativo, y en un examen de nivel B2 se penaliza siempre. Además, verbos de tres partes como look forward to, put up with o come up with son imprescindibles en correos, cartas formales y conversación.",
+  "cuando_se_usa": "Siempre que se usa un phrasal verb con objeto, y sobre todo cuando ese objeto es un pronombre. El diccionario marca los separables con sth o sb entre verbo y partícula. El hispanohablante tiende a dejar el pronombre al final en los separables o a meterlo en medio en los inseparables, y a poner infinitivo tras look forward to."
+ }
 }

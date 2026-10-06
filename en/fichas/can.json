@@ -123,7 +123,23 @@
     "can't",
     "cannot"
    ],
-   "explicacion": "Los peces no tienen esa capacidad: can't."
+   "explicacion": "Se aplica el uso de can para expresar capacidad, en su forma negativa can't (o cannot). La pista es el sentido: los peces no tienen patas, así que carecen de esa capacidad. Por eso «Fish can't walk», con una sola forma para el sujeto plural «fish». Se aceptan las dos formas de la negativa que da la ficha: la contraída «can't» y la completa «cannot», que se escribe en una palabra.",
+   "explicacion_breve": "Los peces no tienen esa capacidad: can't.",
+   "traduccion": "Los peces no pueden andar.",
+   "errores_previstos": [
+    {
+     "respuesta": "can",
+     "explicacion": "La frase diría que los peces sí pueden andar, lo que no es cierto; hace falta la negativa."
+    },
+    {
+     "respuesta": "can not",
+     "explicacion": "La negativa completa se escribe normalmente junta, «cannot»; separada solo se usa en casos especiales de énfasis."
+    },
+    {
+     "respuesta": "don't can",
+     "explicacion": "Can no usa do para la negativa: se dice «can't» o «cannot»."
+    }
+   ]
   },
   {
    "id": "e02",
@@ -133,7 +149,19 @@
    "respuestas": [
     "can"
    ],
-   "explicacion": "Capacidad que sí tienen: can."
+   "explicacion": "Es el uso más básico de can: expresar una capacidad que alguien tiene. La pista es el sentido de la frase: volar es justo lo que saben hacer los pájaros. Por eso la forma afirmativa «can», que es igual para todas las personas, también para un sujeto plural como «birds». Detrás va el verbo «fly» sin to.",
+   "explicacion_breve": "Capacidad que sí tienen: can.",
+   "traduccion": "Los pájaros pueden volar.",
+   "errores_previstos": [
+    {
+     "respuesta": "can't",
+     "explicacion": "La frase diría que los pájaros no pueden volar; aquí hace falta la afirmativa."
+    },
+    {
+     "respuesta": "cans",
+     "explicacion": "Can no lleva -s en ninguna persona, y menos con un sujeto plural."
+    }
+   ]
   },
   {
    "id": "e03",
@@ -143,7 +171,23 @@
    "respuestas": [
     "ride"
    ],
-   "explicacion": "Tras can va el infinitivo sin to."
+   "explicacion": "Se aplica la regla de forma de la ficha: tras can va el infinitivo sin to y sin -s. La pista es que «can» ya está escrito en la frase, y el verbo que viene detrás tiene que ir en su forma base. Aunque el sujeto sea «my daughter» (tercera persona), el verbo es «ride», no «rides»: la -s no aparece ni en can ni en el verbo que le sigue. Fíjate además en que can traduce aquí «saber» (habilidad).",
+   "explicacion_breve": "Tras can va el infinitivo sin to.",
+   "traduccion": "Mi hija sabe montar en bicicleta.",
+   "errores_previstos": [
+    {
+     "respuesta": "rides",
+     "explicacion": "Detrás de can el verbo no lleva -s, aunque el sujeto sea de tercera persona."
+    },
+    {
+     "respuesta": "to ride",
+     "explicacion": "Can va seguido del infinitivo sin «to»."
+    },
+    {
+     "respuesta": "riding",
+     "explicacion": "Tras can no va la forma en -ing, sino la forma base «ride»."
+    }
+   ]
   },
   {
    "id": "e04",
@@ -153,7 +197,23 @@
    "respuestas": [
     "can"
    ],
-   "explicacion": "La respuesta corta repite el modal: Yes, he can."
+   "explicacion": "Se aplica la regla de las respuestas cortas de la tabla: se repite el modal, no el verbo principal ni do. La pista es que la pregunta está hecha con «Can»: la respuesta corta debe usar el mismo verbo, «Yes, he can». En las respuestas cortas afirmativas no se contrae nada y no se repite «cook».",
+   "explicacion_breve": "La respuesta corta repite el modal: Yes, he can.",
+   "traduccion": "¿Tu hermano sabe cocinar? Sí, sabe.",
+   "errores_previstos": [
+    {
+     "respuesta": "does",
+     "explicacion": "La pregunta no se hizo con do/does sino con can; la respuesta corta repite can."
+    },
+    {
+     "respuesta": "can cook",
+     "explicacion": "En la respuesta corta basta el modal: «Yes, he can». Repetir el verbo no es la respuesta corta que se pide."
+    },
+    {
+     "respuesta": "cans",
+     "explicacion": "Can no lleva -s, tampoco con «he»."
+    }
+   ]
   },
   {
    "id": "e05",
@@ -168,7 +228,14 @@
    "respuestas": [
     "Can"
    ],
-   "explicacion": "Para pedir permiso: Can I…?"
+   "explicacion": "Se aplica el uso de can para pedir permiso, que la tabla recoge como «Permiso»: Can I…? La pista es la estructura «___ I use your phone?»: quien habla pide permiso para hacer algo, y detrás viene el infinitivo sin to «use». Con can la pregunta se forma invirtiendo can y el sujeto, sin do. «May I…?» sería más formal, pero no está entre las opciones.",
+   "explicacion_breve": "Para pedir permiso: Can I…?",
+   "traduccion": "¿Puedo usar tu teléfono?",
+   "por_opcion": {
+    "Can": "Correcta: «Can I…?» es la forma habitual de pedir permiso.",
+    "Do": "Incorrecta: «Do I use your phone?» preguntaría si tengo la costumbre de usarlo, no pediría permiso.",
+    "Am": "Incorrecta: «Am I use…» no es gramatical; «am» necesitaría un participio o una forma en -ing."
+   }
   },
   {
    "id": "e06",
@@ -183,7 +250,14 @@
    "respuestas": [
     "speak"
    ],
-   "explicacion": "Can + infinitivo sin to y sin -s."
+   "explicacion": "Se aplica la regla de forma: can + infinitivo sin to y sin -s. La pista es que el sujeto «He» es de tercera persona, lo que invita a añadir -s, pero detrás de can el verbo siempre va en forma base. Por eso «He can speak three languages». Es el error más típico con can, junto con poner «to».",
+   "explicacion_breve": "Can + infinitivo sin to y sin -s.",
+   "traduccion": "Sabe hablar tres idiomas.",
+   "por_opcion": {
+    "speaks": "Incorrecta: tras can el verbo no lleva -s, aunque el sujeto sea «he».",
+    "to speak": "Incorrecta: can va seguido del infinitivo sin «to».",
+    "speak": "Correcta: forma base del verbo, sin to ni -s."
+   }
   },
   {
    "id": "e07",
@@ -198,7 +272,14 @@
    "respuestas": [
     "can't"
    ],
-   "explicacion": "La negativa de can es can't."
+   "explicacion": "Se aplica la regla de la negativa de can: se forma con can't (o cannot), nunca con do ni con «not» delante. La pista es «Sorry», que anuncia una negativa: quien habla no podrá ir. Por eso «I can't come to your party». Can es un modal y no necesita auxiliar para negar.",
+   "explicacion_breve": "La negativa de can es can't.",
+   "traduccion": "Lo siento, no puedo ir a tu fiesta.",
+   "por_opcion": {
+    "don't can": "Incorrecta: can no usa do para negar; es un calco de los verbos normales.",
+    "can't": "Correcta: negativa contraída de can.",
+    "not can": "Incorrecta: «not» va detrás de can («cannot»), nunca delante."
+   }
   },
   {
    "id": "e08",
@@ -213,7 +294,14 @@
    "respuestas": [
     "could"
    ],
-   "explicacion": "En pasado la capacidad se expresa con could."
+   "explicacion": "Se aplica la lista de la ficha: en pasado la capacidad se expresa con could / couldn't. La pista es «When I was a child», que sitúa la frase en el pasado. Por eso «I could swim». Could, como can, va seguido del infinitivo sin to y tiene una sola forma para todas las personas.",
+   "explicacion_breve": "En pasado la capacidad se expresa con could.",
+   "traduccion": "Cuando era pequeño, sabía nadar.",
+   "por_opcion": {
+    "can": "Incorrecta: es presente; con «When I was a child» hace falta el pasado.",
+    "could": "Correcta: pasado de can para expresar capacidad.",
+    "cans": "Incorrecta: esta forma no existe; can no lleva -s nunca."
+   }
   },
   {
    "id": "e09",
@@ -223,7 +311,23 @@
    "respuestas": [
     "Can she drive?"
    ],
-   "explicacion": "Se invierte can y el sujeto."
+   "explicacion": "Se aplica la regla de la ficha: can no usa do en preguntas; basta invertir el orden de can y el sujeto. La pista es la frase afirmativa «She can drive», que se convierte en pregunta poniendo «Can» delante de «she». El verbo «drive» no cambia y la frase termina con signo de interrogación.",
+   "explicacion_breve": "Se invierte can y el sujeto.",
+   "traduccion": "¿Sabe conducir?",
+   "errores_previstos": [
+    {
+     "respuesta": "Does she can drive?",
+     "explicacion": "Can no usa do/does para formar preguntas: basta invertir can y el sujeto."
+    },
+    {
+     "respuesta": "She can drive?",
+     "explicacion": "Con entonación interrogativa se entiende en la conversación, pero la pregunta correcta invierte el orden: «Can she drive?»."
+    },
+    {
+     "respuesta": "Can she drives?",
+     "explicacion": "Detrás de can el verbo va sin -s: «drive»."
+    }
+   ]
   },
   {
    "id": "e10",
@@ -234,7 +338,23 @@
     "We can't see the sea from here.",
     "We cannot see the sea from here."
    ],
-   "explicacion": "Can + not = can't."
+   "explicacion": "Se aplica la regla de la negativa: can + not = can't (o cannot, en una palabra). La pista es el enunciado, que pide la negativa en forma contraída, aunque también se acepta la completa. Basta cambiar «can» por «can't» sin tocar el resto: «We can't see the sea from here». No se añade do.",
+   "explicacion_breve": "Can + not = can't.",
+   "traduccion": "Desde aquí no se ve el mar.",
+   "errores_previstos": [
+    {
+     "respuesta": "We don't can see the sea from here.",
+     "explicacion": "Can no niega con do: se dice «can't» o «cannot»."
+    },
+    {
+     "respuesta": "We can't to see the sea from here.",
+     "explicacion": "Tras can't el verbo va sin «to»."
+    },
+    {
+     "respuesta": "We not can see the sea from here.",
+     "explicacion": "«Not» va detrás de can, formando «cannot» o «can't»."
+    }
+   ]
   },
   {
    "id": "e11",
@@ -244,7 +364,19 @@
    "respuestas": [
     "My sister can play the violin."
    ],
-   "explicacion": "Can no lleva -s."
+   "explicacion": "Se aplica la regla de forma: can tiene una sola forma para todas las personas y no lleva -s en tercera persona. La pista es el sujeto «My sister», que invita a añadir la -s como con los verbos normales. La frase correcta es «My sister can play the violin». Es el primer error típico de la ficha.",
+   "explicacion_breve": "Can no lleva -s.",
+   "traduccion": "Mi hermana sabe tocar el violín.",
+   "errores_previstos": [
+    {
+     "respuesta": "My sister cans play the violin.",
+     "explicacion": "Es la frase sin corregir: can no lleva -s en ninguna persona."
+    },
+    {
+     "respuesta": "My sister can plays the violin.",
+     "explicacion": "Pasar la -s al verbo tampoco vale: tras can va la forma base «play»."
+    }
+   ]
   },
   {
    "id": "e12",
@@ -254,7 +386,19 @@
    "respuestas": [
     "Can you help me with my bags?"
    ],
-   "explicacion": "Can va seguido de infinitivo sin to."
+   "explicacion": "Se aplica la regla de forma: can va seguido del infinitivo sin to. La pista es «to help», que añade un «to» que sobra. La pregunta correcta es «Can you help me with my bags?», una petición informal; con «Could you…?» sería más cortés, como indica la ficha.",
+   "explicacion_breve": "Can va seguido de infinitivo sin to.",
+   "traduccion": "¿Me ayudas con las bolsas?",
+   "errores_previstos": [
+    {
+     "respuesta": "Can you to help me with my bags?",
+     "explicacion": "Es la frase sin corregir: tras can no va «to»."
+    },
+    {
+     "respuesta": "Do you can help me with my bags?",
+     "explicacion": "Can no usa do para preguntar; basta «Can you help…?»."
+    }
+   ]
   },
   {
    "id": "e13",
@@ -269,7 +413,19 @@
    "respuestas": [
     "Can you help me"
    ],
-   "explicacion": "Can + sujeto + verbo + complemento."
+   "explicacion": "Se aplica la estructura de las preguntas con can: Can + sujeto + verbo + complemento, sin do. La pista es el enunciado, que pide una pregunta, así que «can» va en primera posición, seguido del sujeto «you». Después vienen el verbo sin to «help» y el complemento «me». Es la petición más común en inglés.",
+   "explicacion_breve": "Can + sujeto + verbo + complemento.",
+   "traduccion": "¿Me puedes ayudar?",
+   "errores_previstos": [
+    {
+     "respuesta": "You can help me",
+     "explicacion": "Es una afirmación, no una pregunta: para preguntar, can se coloca delante del sujeto."
+    },
+    {
+     "respuesta": "Can you me help",
+     "explicacion": "Es el orden calcado del español «¿me puedes ayudar?»: en inglés el complemento «me» va detrás del verbo."
+    }
+   ]
   },
   {
    "id": "e14",
@@ -285,10 +441,28 @@
    "respuestas": [
     "She can't sing very well"
    ],
-   "explicacion": "Sujeto + can't + verbo + adverbio."
+   "explicacion": "Se aplica la estructura afirmativa o negativa con can: sujeto + can't + verbo + complementos. La pista es que «can't» ya trae la negación, de modo que no hace falta do. Después del verbo «sing» va la expresión de modo «very well», que siempre va al final y con «very» delante de «well».",
+   "explicacion_breve": "Sujeto + can't + verbo + adverbio.",
+   "traduccion": "No canta muy bien.",
+   "errores_previstos": [
+    {
+     "respuesta": "She very well can't sing",
+     "explicacion": "El adverbio de modo «very well» va detrás del verbo, al final de la frase, no delante del modal."
+    },
+    {
+     "respuesta": "She can't sing well very",
+     "explicacion": "«Very» modifica a «well» y va delante de él: «very well»."
+    }
+   ]
   }
  ],
  "fuente": {
   "nombre": "propia"
+ },
+ "descripcion_larga_es": "Can es el verbo modal que traduce a la vez «poder» y «saber hacer algo» (I can swim, sé nadar), y que sirve también para pedir permiso y hacer peticiones. Es de los primeros verbos que se aprenden y se usa a diario. Cuesta porque no se comporta como un verbo normal: no lleva -s, no usa do en preguntas ni negativas y va seguido del infinitivo sin to.",
+ "contexto": {
+  "que_es": "Can es un verbo modal: una sola forma para todas las personas, seguido de un verbo en infinitivo sin to. Expresa capacidad (saber o poder hacer algo), permiso, peticiones y posibilidad. Su negativa es cannot o can't y su pasado, could.",
+  "por_que_importa": "Se usa constantemente para hablar de lo que sabes hacer, pedir cosas y pedir permiso, desde el primer día de clase. Los errores con can (she cans, I can to go, do you can) son muy visibles y delatan un nivel muy básico, así que conviene automatizar bien su forma desde el principio. Para pedir algo con cortesía, se pasa a could.",
+  "cuando_se_usa": "Para decir lo que alguien sabe o puede hacer (I can speak French), pedir permiso (Can I open the window?), pedir un favor (Can you help me?) y hablar de posibilidades (You can pay by card). El hispanohablante distingue «poder» y «saber»; el inglés usa can para los dos cuando se trata de una habilidad, y no hay que buscar otro verbo para «saber nadar»."
  }
 }

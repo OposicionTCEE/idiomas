@@ -15,4 +15,5 @@ Uso no comercial, para preparar la oposición.
 ## Títulos en la lengua estudiada (`*/titulos.json`)
 
 Redacción propia (CC BY-SA 4.0). En inglés, el campo `oficial` cita el rótulo de la materia en el *Core Inventory for General English*
-(British Council–EAQUALS, 2010/2015) solo como referencia de índice; no se copia ningún otro texto de esa obra.
+(British Council–EAQUALS, 2010/2015) y, en francés, el del *Inventaire linguistique des contenus clés des niveaux du CECRL*
+(Eaquals–CIEP, 2015), solo como referencia de índice; no se copia ningún otro texto de esas obras.

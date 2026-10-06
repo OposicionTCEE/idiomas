@@ -6,50 +6,453 @@
  "nivel": "B1",
  "resumen": "So y such intensifican («tan», «tal») y pueden introducir una consecuencia con that. Too indica exceso («demasiado») y enough, suficiencia («lo bastante»). Cada uno tiene su posición fija.",
  "explicacion": [
-  {"tipo": "tabla", "cabecera": ["Palabra", "Estructura", "Ejemplo"], "filas": [
-   ["so", "so + adjetivo / adverbio", "The film was so boring that I fell asleep."],
-   ["such", "such (a/an) + (adjetivo) + sustantivo", "It was such a boring film that I fell asleep."],
-   ["too", "too + adjetivo (+ for alguien) (+ to infinitivo)", "This coffee is too hot to drink."],
-   ["enough", "adjetivo / adverbio + enough", "He isn't old enough to vote."],
-   ["enough", "enough + sustantivo", "We don't have enough chairs."]
-  ]},
-  {"tipo": "lista", "items": [
-   "Such a/an con sustantivo contable singular: such a nice day. Sin artículo con plurales e incontables: such nice people, such bad weather.",
-   "So con much, many, few, little: so many people, so much money.",
-   "Too tiene sentido negativo (exceso): It's too expensive = no puedo comprarlo. Para «muy» positivo se usa very o so.",
-   "Enough va DETRÁS del adjetivo pero DELANTE del sustantivo: warm enough / enough time."
-  ]},
-  {"tipo": "texto", "texto": "No confundas too (demasiado) con too much / too many (demasiado + sustantivo): too much sugar, too many cars. Delante de un adjetivo solo, nunca too much: too tired, no too much tired."}
+  {
+   "tipo": "tabla",
+   "cabecera": [
+    "Palabra",
+    "Estructura",
+    "Ejemplo"
+   ],
+   "filas": [
+    [
+     "so",
+     "so + adjetivo / adverbio",
+     "The film was so boring that I fell asleep."
+    ],
+    [
+     "such",
+     "such (a/an) + (adjetivo) + sustantivo",
+     "It was such a boring film that I fell asleep."
+    ],
+    [
+     "too",
+     "too + adjetivo (+ for alguien) (+ to infinitivo)",
+     "This coffee is too hot to drink."
+    ],
+    [
+     "enough",
+     "adjetivo / adverbio + enough",
+     "He isn't old enough to vote."
+    ],
+    [
+     "enough",
+     "enough + sustantivo",
+     "We don't have enough chairs."
+    ]
+   ]
+  },
+  {
+   "tipo": "lista",
+   "items": [
+    "Such a/an con sustantivo contable singular: such a nice day. Sin artículo con plurales e incontables: such nice people, such bad weather.",
+    "So con much, many, few, little: so many people, so much money.",
+    "Too tiene sentido negativo (exceso): It's too expensive = no puedo comprarlo. Para «muy» positivo se usa very o so.",
+    "Enough va DETRÁS del adjetivo pero DELANTE del sustantivo: warm enough / enough time."
+   ]
+  },
+  {
+   "tipo": "texto",
+   "texto": "No confundas too (demasiado) con too much / too many (demasiado + sustantivo): too much sugar, too many cars. Delante de un adjetivo solo, nunca too much: too tired, no too much tired."
+  }
  ],
  "ejemplos": [
-  {"frase": "She was so tired that she went to bed at eight.", "traduccion": "Estaba tan cansada que se acostó a las ocho."},
-  {"frase": "They're such good friends that they went on holiday together.", "traduccion": "Son tan buenos amigos que se fueron juntos de vacaciones."},
-  {"frase": "The box is too heavy for me to carry.", "traduccion": "La caja pesa demasiado para que yo la lleve."},
-  {"frase": "Is the room big enough for six people?", "traduccion": "¿Es la habitación lo bastante grande para seis personas?"},
-  {"frase": "There were so many tourists that we couldn't see the painting.", "traduccion": "Había tantos turistas que no pudimos ver el cuadro."},
-  {"frase": "I didn't have enough time to finish the exam.", "traduccion": "No tuve tiempo suficiente para terminar el examen."}
+  {
+   "frase": "She was so tired that she went to bed at eight.",
+   "traduccion": "Estaba tan cansada que se acostó a las ocho."
+  },
+  {
+   "frase": "They're such good friends that they went on holiday together.",
+   "traduccion": "Son tan buenos amigos que se fueron juntos de vacaciones."
+  },
+  {
+   "frase": "The box is too heavy for me to carry.",
+   "traduccion": "La caja pesa demasiado para que yo la lleve."
+  },
+  {
+   "frase": "Is the room big enough for six people?",
+   "traduccion": "¿Es la habitación lo bastante grande para seis personas?"
+  },
+  {
+   "frase": "There were so many tourists that we couldn't see the painting.",
+   "traduccion": "Había tantos turistas que no pudimos ver el cuadro."
+  },
+  {
+   "frase": "I didn't have enough time to finish the exam.",
+   "traduccion": "No tuve tiempo suficiente para terminar el examen."
+  }
  ],
  "errores_hispanohablantes": [
-  {"mal": "It was a so beautiful day.", "bien": "It was such a beautiful day.", "nota": "Delante de un sustantivo se usa such a, no a so."},
-  {"mal": "He isn't enough tall to play basketball.", "bien": "He isn't tall enough to play basketball.", "nota": "Enough va detrás del adjetivo."},
-  {"mal": "I'm too much tired to go out.", "bien": "I'm too tired to go out.", "nota": "Delante de un adjetivo solo se usa too, sin much."},
-  {"mal": "This town is too nice, I love it.", "bien": "This town is so nice, I love it.", "nota": "Too implica exceso negativo; para elogiar se usa so o very."}
+  {
+   "mal": "It was a so beautiful day.",
+   "bien": "It was such a beautiful day.",
+   "nota": "Delante de un sustantivo se usa such a, no a so."
+  },
+  {
+   "mal": "He isn't enough tall to play basketball.",
+   "bien": "He isn't tall enough to play basketball.",
+   "nota": "Enough va detrás del adjetivo."
+  },
+  {
+   "mal": "I'm too much tired to go out.",
+   "bien": "I'm too tired to go out.",
+   "nota": "Delante de un adjetivo solo se usa too, sin much."
+  },
+  {
+   "mal": "This town is too nice, I love it.",
+   "bien": "This town is so nice, I love it.",
+   "nota": "Too implica exceso negativo; para elogiar se usa so o very."
+  }
  ],
  "ejercicios": [
-  {"id": "e01", "tipo": "eleccion", "enunciado": "Elige la opción correcta.", "frase": "It was ___ cold day that we stayed inside.", "opciones": ["so", "such a", "too"], "respuestas": ["such a"], "explicacion": "Sustantivo contable singular (day): such a."},
-  {"id": "e02", "tipo": "eleccion", "enunciado": "Elige la opción correcta.", "frase": "The music was ___ loud that I couldn't hear you.", "opciones": ["so", "such", "enough"], "respuestas": ["so"], "explicacion": "Adjetivo solo (loud) + that: so."},
-  {"id": "e03", "tipo": "eleccion", "enunciado": "Elige la opción correcta.", "frase": "She's ___ young to drive. She's only fifteen.", "opciones": ["enough", "too", "such"], "respuestas": ["too"], "explicacion": "Exceso que impide algo: too + adjetivo + to."},
-  {"id": "e04", "tipo": "eleccion", "enunciado": "Elige la opción correcta.", "frase": "There aren't ___ for everyone.", "opciones": ["enough plates", "plates enough", "too plates"], "respuestas": ["enough plates"], "explicacion": "Enough va delante del sustantivo."},
-  {"id": "e05", "tipo": "eleccion", "enunciado": "Elige la opción correcta.", "frase": "They have ___ nice neighbours.", "opciones": ["such a", "such", "so"], "respuestas": ["such"], "explicacion": "Sustantivo en plural: such sin artículo."},
-  {"id": "e06", "tipo": "hueco", "enunciado": "Completa con so o such.", "frase": "I've never seen ___ much snow in Madrid.", "respuestas": ["so"], "explicacion": "So + much/many."},
-  {"id": "e07", "tipo": "hueco", "enunciado": "Completa con so o such.", "frase": "It was ___ bad weather that the flight was cancelled.", "respuestas": ["such"], "explicacion": "Weather es incontable: such sin artículo."},
-  {"id": "e08", "tipo": "hueco", "enunciado": "Completa con too o enough.", "frase": "The water isn't warm ___ to swim.", "respuestas": ["enough"], "explicacion": "Adjetivo + enough."},
-  {"id": "e09", "tipo": "hueco", "enunciado": "Completa con too much o too many.", "frase": "You put ___ salt in the soup.", "respuestas": ["too much"], "explicacion": "Salt es incontable: too much."},
-  {"id": "e10", "tipo": "corregir", "enunciado": "Corrige el error.", "frase": "This jacket is enough big for me.", "respuestas": ["This jacket is big enough for me."], "explicacion": "Enough va detrás del adjetivo."},
-  {"id": "e11", "tipo": "corregir", "enunciado": "Corrige el error.", "frase": "He's a so good cook.", "respuestas": ["He's such a good cook.", "He is such a good cook."], "explicacion": "Ante sustantivo: such a + adjetivo + sustantivo."},
-  {"id": "e12", "tipo": "transformar", "enunciado": "Reescribe la frase con such.", "frase": "The book was so interesting that I read it in one day.", "respuestas": ["It was such an interesting book that I read it in one day."], "explicacion": "So + adjetivo pasa a such an + adjetivo + sustantivo (an delante de vocal)."},
-  {"id": "e13", "tipo": "transformar", "enunciado": "Reescribe la frase con too.", "frase": "The tea is very hot. I can't drink it.", "respuestas": ["The tea is too hot to drink.", "The tea is too hot for me to drink."], "explicacion": "Too + adjetivo + to infinitivo; no se repite it."},
-  {"id": "e14", "tipo": "ordenar", "enunciado": "Ordena las palabras.", "palabras": ["old", "she", "enough", "isn't", "vote", "to"], "respuestas": ["she isn't old enough to vote"], "explicacion": "Adjetivo + enough + to infinitivo."}
+  {
+   "id": "e01",
+   "tipo": "eleccion",
+   "enunciado": "Elige la opción correcta.",
+   "frase": "It was ___ cold day that we stayed inside.",
+   "opciones": [
+    "so",
+    "such a",
+    "too"
+   ],
+   "respuestas": [
+    "such a"
+   ],
+   "explicacion": "Se aplica la regla de Reglas y claves: such a/an va delante de un sustantivo contable singular, con o sin adjetivo. La pista es que detrás del hueco viene «cold day», adjetivo más sustantivo contable en singular. Por eso el intensificador es such a: «such a cold day that…». So solo iría con el adjetivo aislado: «The day was so cold that…».",
+   "explicacion_breve": "Sustantivo contable singular (day): such a.",
+   "traduccion": "Hacía un día tan frío que nos quedamos dentro.",
+   "por_opcion": {
+    "so": "Incorrecta: so va con adjetivos o adverbios solos; delante de un sustantivo («cold day») se usa such a.",
+    "such a": "Correcta: such a + adjetivo + sustantivo contable singular (day).",
+    "too": "Incorrecta: too indica exceso y no introduce una consecuencia con that; además, «too cold day» no es gramatical."
+   }
+  },
+  {
+   "id": "e02",
+   "tipo": "eleccion",
+   "enunciado": "Elige la opción correcta.",
+   "frase": "The music was ___ loud that I couldn't hear you.",
+   "opciones": [
+    "so",
+    "such",
+    "enough"
+   ],
+   "respuestas": [
+    "so"
+   ],
+   "explicacion": "Se aplica la primera fila de la tabla: so + adjetivo o adverbio. La pista es que detrás del hueco viene solo el adjetivo loud, sin sustantivo, seguido de that, que introduce la consecuencia. Por eso se usa so: «so loud that I couldn't hear you».",
+   "explicacion_breve": "Adjetivo solo (loud) + that: so.",
+   "traduccion": "La música estaba tan alta que no te oía.",
+   "por_opcion": {
+    "so": "Correcta: so + adjetivo solo (loud) + that para la consecuencia.",
+    "such": "Incorrecta: such necesita un sustantivo detrás; aquí solo hay un adjetivo.",
+    "enough": "Incorrecta: enough iría detrás del adjetivo (loud enough) y expresa suficiencia, no intensidad con consecuencia."
+   }
+  },
+  {
+   "id": "e03",
+   "tipo": "eleccion",
+   "enunciado": "Elige la opción correcta.",
+   "frase": "She's ___ young to drive. She's only fifteen.",
+   "opciones": [
+    "enough",
+    "too",
+    "such"
+   ],
+   "respuestas": [
+    "too"
+   ],
+   "explicacion": "Se aplica la fila de too: too + adjetivo (+ to infinitivo) expresa un exceso que impide algo. La pista es la segunda frase: con quince años no puede conducir, así que su edad es un obstáculo. Too young to drive significa «demasiado joven para conducir»; fíjate en que too tiene aquí el sentido negativo que señala la ficha.",
+   "explicacion_breve": "Exceso que impide algo: too + adjetivo + to.",
+   "traduccion": "Es demasiado joven para conducir. Solo tiene quince años.",
+   "por_opcion": {
+    "enough": "Incorrecta: enough iría detrás (young enough) y diría lo contrario, que sí tiene edad suficiente.",
+    "too": "Correcta: exceso que impide conducir, too + adjetivo + to.",
+    "such": "Incorrecta: such necesita un sustantivo y no expresa exceso."
+   }
+  },
+  {
+   "id": "e04",
+   "tipo": "eleccion",
+   "enunciado": "Elige la opción correcta.",
+   "frase": "There aren't ___ for everyone.",
+   "opciones": [
+    "enough plates",
+    "plates enough",
+    "too plates"
+   ],
+   "respuestas": [
+    "enough plates"
+   ],
+   "explicacion": "Se aplica la regla de posición de Reglas y claves: enough va delante del sustantivo pero detrás del adjetivo. Aquí acompaña a un sustantivo, plates, así que va delante: enough plates. La pista es que no hay ningún adjetivo, solo el sustantivo. El orden «plates enough» es arcaico y no se usa hoy.",
+   "explicacion_breve": "Enough va delante del sustantivo.",
+   "traduccion": "No hay suficientes platos para todos.",
+   "por_opcion": {
+    "enough plates": "Correcta: enough delante del sustantivo.",
+    "plates enough": "Incorrecta: enough solo va detrás de adjetivos y adverbios; con sustantivos va delante.",
+    "too plates": "Incorrecta: too no va delante de sustantivos; para exceso con plurales se dice too many plates."
+   }
+  },
+  {
+   "id": "e05",
+   "tipo": "eleccion",
+   "enunciado": "Elige la opción correcta.",
+   "frase": "They have ___ nice neighbours.",
+   "opciones": [
+    "such a",
+    "such",
+    "so"
+   ],
+   "respuestas": [
+    "such"
+   ],
+   "explicacion": "Se aplica la regla de Reglas y claves: such a/an solo con contables singulares; con plurales e incontables, such sin artículo. La pista es neighbours, en plural, precedido del adjetivo nice. Por eso se dice «such nice neighbours», sin a.",
+   "explicacion_breve": "Sustantivo en plural: such sin artículo.",
+   "traduccion": "Tienen unos vecinos tan simpáticos...",
+   "por_opcion": {
+    "such a": "Incorrecta: el artículo a no puede ir con un sustantivo plural (neighbours).",
+    "such": "Correcta: such sin artículo + adjetivo + sustantivo plural.",
+    "so": "Incorrecta: so no va delante de adjetivo + sustantivo; se usa con el adjetivo solo (they are so nice)."
+   }
+  },
+  {
+   "id": "e06",
+   "tipo": "hueco",
+   "enunciado": "Completa con so o such.",
+   "frase": "I've never seen ___ much snow in Madrid.",
+   "respuestas": [
+    "so"
+   ],
+   "explicacion": "Se aplica la regla de Reglas y claves: so con much, many, few y little. La pista es much justo después del hueco. Aunque detrás venga un sustantivo (snow), el intensificador acompaña a much, así que se usa so: «so much snow», que equivale al español «tanta nieve».",
+   "explicacion_breve": "So + much/many.",
+   "traduccion": "Nunca he visto tanta nieve en Madrid.",
+   "errores_previstos": [
+    {
+     "respuesta": "such",
+     "explicacion": "Such no se combina con much; la regla de la ficha es so much / so many."
+    },
+    {
+     "respuesta": "too",
+     "explicacion": "Too much significaría «demasiada» nieve, con idea de exceso negativo, y no encaja con never seen."
+    },
+    {
+     "respuesta": "very",
+     "explicacion": "Very much no se usa delante de un sustantivo en frase afirmativa con este sentido; «tanta» es so much."
+    }
+   ]
+  },
+  {
+   "id": "e07",
+   "tipo": "hueco",
+   "enunciado": "Completa con so o such.",
+   "frase": "It was ___ bad weather that the flight was cancelled.",
+   "respuestas": [
+    "such"
+   ],
+   "explicacion": "Se aplica la regla de such sin artículo con incontables. La pista es weather, que en inglés es incontable y por tanto no admite a. Como hay adjetivo + sustantivo (bad weather), corresponde such, no so. El resultado es «such bad weather that the flight was cancelled».",
+   "explicacion_breve": "Weather es incontable: such sin artículo.",
+   "traduccion": "Hacía tan mal tiempo que se canceló el vuelo.",
+   "errores_previstos": [
+    {
+     "respuesta": "such a",
+     "explicacion": "Weather es incontable y no admite el artículo a; se dice such bad weather."
+    },
+    {
+     "respuesta": "so",
+     "explicacion": "So no va delante de adjetivo + sustantivo; con weather detrás se usa such."
+    }
+   ]
+  },
+  {
+   "id": "e08",
+   "tipo": "hueco",
+   "enunciado": "Completa con too o enough.",
+   "frase": "The water isn't warm ___ to swim.",
+   "respuestas": [
+    "enough"
+   ],
+   "explicacion": "Se aplica la regla de posición: enough va detrás del adjetivo. La pista es que el hueco está entre el adjetivo warm y to swim. La frase negativa con enough expresa que no se alcanza el mínimo necesario. Too no cabría detrás del adjetivo, porque siempre va delante.",
+   "explicacion_breve": "Adjetivo + enough.",
+   "traduccion": "El agua no está lo bastante templada para bañarse.",
+   "errores_previstos": [
+    {
+     "respuesta": "too",
+     "explicacion": "Too va delante del adjetivo (too cold), nunca detrás; aquí la posición tras warm pide enough."
+    },
+    {
+     "respuesta": "enought",
+     "explicacion": "Error de ortografía frecuente: se escribe enough."
+    }
+   ]
+  },
+  {
+   "id": "e09",
+   "tipo": "hueco",
+   "enunciado": "Completa con too much o too many.",
+   "frase": "You put ___ salt in the soup.",
+   "respuestas": [
+    "too much"
+   ],
+   "explicacion": "Se aplica la nota final de la ficha: delante de un sustantivo, «demasiado» es too much o too many. La pista es salt, un sustantivo incontable, que exige much. Too solo, sin much, iría con un adjetivo (too salty).",
+   "explicacion_breve": "Salt es incontable: too much.",
+   "traduccion": "Has echado demasiada sal a la sopa.",
+   "errores_previstos": [
+    {
+     "respuesta": "too many",
+     "explicacion": "Many es para contables en plural; salt es incontable, así que se usa much."
+    },
+    {
+     "respuesta": "too",
+     "explicacion": "Too solo va delante de un adjetivo; delante de un sustantivo hace falta too much."
+    },
+    {
+     "respuesta": "so much",
+     "explicacion": "Expresa intensidad («tanta sal») pero no exceso; la consigna pide too much o too many."
+    }
+   ]
+  },
+  {
+   "id": "e10",
+   "tipo": "corregir",
+   "enunciado": "Corrige el error.",
+   "frase": "This jacket is enough big for me.",
+   "respuestas": [
+    "This jacket is big enough for me."
+   ],
+   "explicacion": "Se aplica la regla de posición de Reglas y claves: enough va detrás del adjetivo. El error de la frase es calcar el orden español de «suficientemente grande». La forma correcta es «big enough for me», que expresa que la talla alcanza lo necesario. Recuerda que con sustantivos el orden se invierte (enough room), pero con adjetivos enough siempre va detrás.",
+   "explicacion_breve": "Enough va detrás del adjetivo.",
+   "traduccion": "Esta chaqueta es lo bastante grande para mí.",
+   "errores_previstos": [
+    {
+     "respuesta": "This jacket is enough big for me.",
+     "explicacion": "Es la frase sin corregir: enough va detrás del adjetivo."
+    },
+    {
+     "respuesta": "This jacket is big enought for me.",
+     "explicacion": "La posición es correcta, pero enough está mal escrito."
+    },
+    {
+     "respuesta": "This jacket is enough bigger for me.",
+     "explicacion": "No hace falta comparativo, y enough sigue en mala posición: big enough."
+    }
+   ]
+  },
+  {
+   "id": "e11",
+   "tipo": "corregir",
+   "enunciado": "Corrige el error.",
+   "frase": "He's a so good cook.",
+   "respuestas": [
+    "He's such a good cook.",
+    "He is such a good cook."
+   ],
+   "explicacion": "Se aplica la regla de such a + adjetivo + sustantivo contable singular, y el error típico «a so» que recoge la ficha. La pista es cook, un sustantivo contable en singular, precedido del adjetivo good. El orden correcto es such + a + good + cook. Valen la forma contraída y la completa del verbo.",
+   "explicacion_breve": "Ante sustantivo: such a + adjetivo + sustantivo.",
+   "traduccion": "Es tan buen cocinero...",
+   "errores_previstos": [
+    {
+     "respuesta": "He's a so good cook.",
+     "explicacion": "Es la frase sin corregir: delante de sustantivo no se usa a so, sino such a."
+    },
+    {
+     "respuesta": "He's so a good cook.",
+     "explicacion": "So no puede ir delante del artículo; la estructura es such a good cook."
+    },
+    {
+     "respuesta": "He's such good cook.",
+     "explicacion": "Cook es contable singular y necesita el artículo: such a good cook."
+    }
+   ]
+  },
+  {
+   "id": "e12",
+   "tipo": "transformar",
+   "enunciado": "Reescribe la frase con such.",
+   "frase": "The book was so interesting that I read it in one day.",
+   "respuestas": [
+    "It was such an interesting book that I read it in one day."
+   ],
+   "explicacion": "Se aplica el paso de so + adjetivo a such + a/an + adjetivo + sustantivo. Hay que convertir el adjetivo interesting en atributo de un sustantivo (book) y usar it was como sujeto. Como interesting empieza por sonido vocálico, el artículo es an: «such an interesting book». La consecuencia con that se mantiene igual.",
+   "explicacion_breve": "So + adjetivo pasa a such an + adjetivo + sustantivo (an delante de vocal).",
+   "traduccion": "Era un libro tan interesante que lo leí en un día.",
+   "errores_previstos": [
+    {
+     "respuesta": "It was such a interesting book that I read it in one day.",
+     "explicacion": "Delante de un sonido vocálico el artículo es an: such an interesting book."
+    },
+    {
+     "respuesta": "It was a such interesting book that I read it in one day.",
+     "explicacion": "El artículo va después de such: such an, no a such."
+    },
+    {
+     "respuesta": "The book was such interesting that I read it in one day.",
+     "explicacion": "Such necesita un sustantivo detrás; con el adjetivo solo se mantendría so."
+    }
+   ]
+  },
+  {
+   "id": "e13",
+   "tipo": "transformar",
+   "enunciado": "Reescribe la frase con too.",
+   "frase": "The tea is very hot. I can't drink it.",
+   "respuestas": [
+    "The tea is too hot to drink.",
+    "The tea is too hot for me to drink."
+   ],
+   "explicacion": "Se aplica la estructura de la tabla too + adjetivo (+ for alguien) (+ to infinitivo). Las dos frases se unen expresando que el exceso de calor impide beber. El objeto it no se repite al final, porque el sujeto, the tea, ya es lo que se bebe. Se acepta añadir for me, que la tabla presenta como opcional.",
+   "explicacion_breve": "Too + adjetivo + to infinitivo; no se repite it.",
+   "traduccion": "El té está demasiado caliente para bebérselo.",
+   "errores_previstos": [
+    {
+     "respuesta": "The tea is too hot to drink it.",
+     "explicacion": "No se repite el objeto: el sujeto (the tea) ya es lo que no se puede beber."
+    },
+    {
+     "respuesta": "The tea is too much hot to drink.",
+     "explicacion": "Delante de un adjetivo solo se usa too, sin much."
+    },
+    {
+     "respuesta": "The tea is too hot for drink.",
+     "explicacion": "La finalidad se expresa con to + infinitivo, no con for + infinitivo."
+    }
+   ]
+  },
+  {
+   "id": "e14",
+   "tipo": "ordenar",
+   "enunciado": "Ordena las palabras.",
+   "palabras": [
+    "old",
+    "she",
+    "enough",
+    "isn't",
+    "vote",
+    "to"
+   ],
+   "respuestas": [
+    "she isn't old enough to vote"
+   ],
+   "explicacion": "Se aplica la estructura de la tabla adjetivo + enough + to infinitivo. El orden es sujeto + verbo negativo + adjetivo + enough + to vote. La clave es colocar enough detrás de old, al revés que en el español «suficientemente mayor».",
+   "explicacion_breve": "Adjetivo + enough + to infinitivo.",
+   "traduccion": "No tiene edad para votar.",
+   "errores_previstos": [
+    {
+     "respuesta": "she isn't enough old to vote",
+     "explicacion": "Calca el orden español: enough va detrás del adjetivo, old enough."
+    },
+    {
+     "respuesta": "she isn't old to enough vote",
+     "explicacion": "Enough va inmediatamente detrás del adjetivo y antes de to vote."
+    }
+   ]
+  }
  ],
- "fuente": {"nombre": "propia"}
+ "fuente": {
+  "nombre": "propia"
+ },
+ "descripcion_larga_es": "So y such intensifican («tan», «tal») y pueden introducir una consecuencia con that; too expresa exceso («demasiado») y enough, suficiencia («lo bastante»). Son palabras pequeñas pero muy frecuentes, y cada una tiene una posición fija en la frase. Cuestan al hispanohablante porque «tan» se traduce de dos maneras según lleve sustantivo o no, y porque enough va detrás del adjetivo.",
+ "contexto": {
+  "que_es": "Son cuatro intensificadores con estructuras fijas. So va con adjetivos y adverbios (so boring) y con much, many, few, little; such va con sustantivos, con o sin adjetivo (such a boring film, such bad weather). Too indica exceso (too hot) y enough, suficiencia (old enough, enough chairs).",
+  "por_que_importa": "Se usan constantemente para expresar consecuencias (so… that), quejas, elogios y límites (too young to drive). Confundir too con very o so cambia el mensaje: «this town is too nice» suena a reproche. Los errores de posición (a so beautiful day, enough tall) son muy visibles y típicos de exámenes de nivel B1.",
+  "cuando_se_usa": "So y such aparecen al intensificar o al expresar una consecuencia con that; too, cuando algo impide hacer otra cosa (too + adjetivo + to); enough, cuando se alcanza o no un mínimo. La señal para elegir entre so y such es si después viene un sustantivo. El hispanohablante tiende a decir «a so» por «tan», «too much tired» por «demasiado cansado» y «enough tall» siguiendo el orden de «suficientemente alto»."
+ }
 }

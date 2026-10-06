@@ -208,7 +208,33 @@
    "respuestas": [
     "passe"
    ],
-   "explicacion": "Contraseña = «mot de passe»."
+   "explicacion": "Se trabaja la expresión de la tabla «un mot de passe», contraseña, literalmente «palabra de paso». La pista es el contexto informático: «ouvrir votre session» y «saisissez» (introduzca, teclee). Lo que falta es «passe», que completa la expresión fija; es invariable y no se escribe en plural aunque haya varias contraseñas («des mots de passe»).",
+   "explicacion_breve": "Contraseña = «mot de passe».",
+   "traduccion": "Para abrir su sesión, introduzca su contraseña.",
+   "errores_previstos": [
+    {
+     "respuesta": "pass",
+     "explicacion": "Es la forma inglesa; en francés la expresión es «mot de passe», con -e final."
+    },
+    {
+     "respuesta": "passer",
+     "explicacion": "«Passer» es el verbo; la expresión fija usa el sustantivo «passe»."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "un mot de passe",
+     "significado": "una contraseña"
+    },
+    {
+     "palabra": "saisir",
+     "significado": "introducir, teclear (datos en un ordenador)"
+    },
+    {
+     "palabra": "ouvrir une session",
+     "significado": "iniciar sesión"
+    }
+   ]
   },
   {
    "id": "e02",
@@ -221,7 +247,33 @@
     "centre",
     "institut"
    ],
-   "explicacion": "Laboratorio = «laboratoire»."
+   "explicacion": "Se trabaja «un laboratoire», el laboratorio, lugar de trabajo del «chercheur» o la «chercheuse». La pista es el sujeto «cette chercheuse» y el complemento «de biologie marine». Se aceptan también «labo», forma abreviada muy usada en la lengua hablada, y «centre» o «institut», porque una investigadora puede trabajar igualmente en un centro o un instituto de biología marina.",
+   "explicacion_breve": "Laboratorio = «laboratoire».",
+   "traduccion": "Esta investigadora trabaja en un laboratorio de biología marina.",
+   "errores_previstos": [
+    {
+     "respuesta": "laboratorie",
+     "explicacion": "Error de ortografía calcado del español: en francés se escribe «laboratoire», con -oire."
+    },
+    {
+     "respuesta": "laboratorio",
+     "explicacion": "Es la palabra española; en francés es «laboratoire»."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "un laboratoire (un labo)",
+     "significado": "un laboratorio"
+    },
+    {
+     "palabra": "une chercheuse",
+     "significado": "una investigadora"
+    },
+    {
+     "palabra": "marin, marine",
+     "significado": "marino, marina"
+    }
+   ]
   },
   {
    "id": "e03",
@@ -231,7 +283,33 @@
    "respuestas": [
     "brevet"
    ],
-   "explicacion": "Patente = «un brevet»; registrar una patente = «déposer un brevet»."
+   "explicacion": "Se trabaja «un brevet», la patente, y su colocación «déposer un brevet», registrar o solicitar una patente. La pista es «pour protéger son invention» y el verbo «a déposé». No debe confundirse con «la patente» francesa, que es un antiguo impuesto sobre los comercios, ni con el «brevet» escolar, un diploma de fin de secundaria.",
+   "explicacion_breve": "Patente = «un brevet»; registrar una patente = «déposer un brevet».",
+   "traduccion": "Para proteger su invento, el ingeniero registró una patente.",
+   "errores_previstos": [
+    {
+     "respuesta": "patente",
+     "explicacion": "Falso amigo: en francés «la patente» es un antiguo impuesto profesional, y además es femenino (choca con «un»). La patente es «un brevet»."
+    },
+    {
+     "respuesta": "brevé",
+     "explicacion": "La palabra termina en -et: «brevet»."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "un brevet",
+     "significado": "una patente"
+    },
+    {
+     "palabra": "déposer un brevet",
+     "significado": "registrar una patente"
+    },
+    {
+     "palabra": "un ingénieur",
+     "significado": "un ingeniero"
+    }
+   ]
   },
   {
    "id": "e04",
@@ -241,7 +319,33 @@
    "respuestas": [
     "nouvel"
    ],
-   "explicacion": "Ante sustantivo masculino que empieza por vocal: «nouvel»."
+   "explicacion": "Se trabaja «un algorithme» y la regla que la ficha recuerda en sus errores típicos: ante un nombre masculino que empieza por vocal, «nouveau» pasa a «nouvel». La pista es «algorithme», masculino singular que empieza por a. Por eso se escribe «un nouvel algorithme», como «un nouvel ordinateur».",
+   "explicacion_breve": "Ante sustantivo masculino que empieza por vocal: «nouvel».",
+   "traduccion": "Han lanzado un nuevo algoritmo de recomendación.",
+   "errores_previstos": [
+    {
+     "respuesta": "nouveau",
+     "explicacion": "Ante vocal, en masculino singular, «nouveau» se convierte en «nouvel»."
+    },
+    {
+     "respuesta": "nouvelle",
+     "explicacion": "Es la forma femenina; «algorithme» es masculino."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "un algorithme",
+     "significado": "un algoritmo"
+    },
+    {
+     "palabra": "lancer",
+     "significado": "lanzar, poner en marcha"
+    },
+    {
+     "palabra": "la recommandation",
+     "significado": "la recomendación"
+    }
+   ]
   },
   {
    "id": "e05",
@@ -256,7 +360,28 @@
    "respuestas": [
     "chercheurs"
    ],
-   "explicacion": "El investigador científico es «chercheur»."
+   "explicacion": "Se trabaja «un chercheur», el investigador científico, palabra de la familia de «chercher» (buscar) y de «la recherche». La pista es el contexto científico: confirmar la eficacia de un medicamento. La ficha advierte de que «investigateur» se usa sobre todo para pesquisas policiales o judiciales, así que es un falso amigo.",
+   "explicacion_breve": "El investigador científico es «chercheur».",
+   "traduccion": "Los investigadores confirmaron la eficacia del medicamento.",
+   "por_opcion": {
+    "investigateurs": "Incorrecta: falso amigo; «un investigateur» es quien lleva una investigación policial o judicial, no un científico.",
+    "chercheurs": "Correcta: «un chercheur» es el investigador científico.",
+    "trouveurs": "Incorrecta: «trouveur» casi no se usa (sería «el que encuentra»); no designa a un investigador."
+   },
+   "glosario": [
+    {
+     "palabra": "un chercheur",
+     "significado": "un investigador"
+    },
+    {
+     "palabra": "l'efficacité (f.)",
+     "significado": "la eficacia"
+    },
+    {
+     "palabra": "un médicament",
+     "significado": "un medicamento"
+    }
+   ]
   },
   {
    "id": "e06",
@@ -271,7 +396,28 @@
    "respuestas": [
     "données"
    ],
-   "explicacion": "Datos personales = «données personnelles»."
+   "explicacion": "Se trabaja «les données», los datos, palabra femenina plural («données personnelles»). La pista es el contexto (protección, RGPD, el reglamento europeo de protección de datos) y la concordancia femenina de «personnelles». La ficha señala el falso amigo «dates», que significa fechas.",
+   "explicacion_breve": "Datos personales = «données personnelles».",
+   "traduccion": "La protección de los datos personales está regulada por el RGPD.",
+   "por_opcion": {
+    "dates": "Incorrecta: falso amigo; «les dates» son fechas, no datos.",
+    "données": "Correcta: «les données personnelles» son los datos personales.",
+    "dossiers": "Incorrecta: «un dossier» es un expediente o una carpeta; además es masculino y no concuerda con «personnelles»."
+   },
+   "glosario": [
+    {
+     "palabra": "les données (f. pl.)",
+     "significado": "los datos"
+    },
+    {
+     "palabra": "encadrer",
+     "significado": "regular, enmarcar (legalmente)"
+    },
+    {
+     "palabra": "le RGPD",
+     "significado": "el RGPD, Reglamento General de Protección de Datos"
+    }
+   ]
   },
   {
    "id": "e07",
@@ -286,7 +432,28 @@
    "respuestas": [
     "courriel"
    ],
-   "explicacion": "«Courriel» es el término recomendado en registro formal."
+   "explicacion": "Se trabaja «un courriel», el término francés recomendado para correo electrónico. La pista está en el enunciado, que pide el registro más formal, y en la fórmula cortés «Merci de nous répondre». Como explica la ficha, en la conversación se oye «un mail», pero en un escrito formal se prefiere «courriel».",
+   "explicacion_breve": "«Courriel» es el término recomendado en registro formal.",
+   "traduccion": "Le rogamos que nos responda por correo electrónico antes del viernes.",
+   "por_opcion": {
+    "courriel": "Correcta: término francés recomendado, propio del registro formal.",
+    "mail": "Incorrecta en este registro: es el anglicismo de la lengua hablada; se entiende, pero no es la opción más formal.",
+    "texto": "Incorrecta: no es una palabra francesa (sería «texte», y tampoco significa correo); es un calco del español «mensaje de texto»."
+   },
+   "glosario": [
+    {
+     "palabra": "un courriel",
+     "significado": "un correo electrónico"
+    },
+    {
+     "palabra": "un mail",
+     "significado": "un correo electrónico (coloquial)"
+    },
+    {
+     "palabra": "merci de + infinitivo",
+     "significado": "le rogamos que, por favor (fórmula cortés)"
+    }
+   ]
   },
   {
    "id": "e08",
@@ -301,7 +468,28 @@
    "respuestas": [
     "cliniques"
    ],
-   "explicacion": "Ensayos clínicos = «essais cliniques»."
+   "explicacion": "Se trabaja la colocación de la tabla «un essai clinique», ensayo clínico. La pista es «le vaccin» y «la dernière phase»: se habla de las fases de prueba de un medicamento en personas. La colocación es fija: «essais cliniques», con el adjetivo en masculino plural como «essais».",
+   "explicacion_breve": "Ensayos clínicos = «essais cliniques».",
+   "traduccion": "La vacuna entra en la última fase de los ensayos clínicos.",
+   "por_opcion": {
+    "cliniques": "Correcta: «les essais cliniques» son los ensayos clínicos.",
+    "médicaux": "Incorrecta: «des essais médicaux» se entendería, pero no es la colocación fija; el término técnico es «essais cliniques».",
+    "physiques": "Incorrecta: «physique» se refiere a la física o al cuerpo; no forma colocación con «essais» en este sentido."
+   },
+   "glosario": [
+    {
+     "palabra": "un essai clinique",
+     "significado": "un ensayo clínico"
+    },
+    {
+     "palabra": "un vaccin",
+     "significado": "una vacuna"
+    },
+    {
+     "palabra": "une phase",
+     "significado": "una fase"
+    }
+   ]
   },
   {
    "id": "e09",
@@ -311,7 +499,33 @@
    "respuestas": [
     "La recherche scientifique a besoin de financements stables."
    ],
-   "explicacion": "La investigación científica es «la recherche»."
+   "explicacion": "El error es el falso amigo que señala la ficha: «l'investigation» se usa sobre todo para pesquisas policiales o judiciales; la investigación científica es «la recherche». Al cambiar la palabra hay que cambiar también el artículo: «la recherche» empieza por consonante y no se apostrofa.",
+   "explicacion_breve": "La investigación científica es «la recherche».",
+   "traduccion": "La investigación científica necesita financiación estable.",
+   "errores_previstos": [
+    {
+     "respuesta": "L'investigation scientifique a besoin de financements stables.",
+     "explicacion": "Es la frase sin corregir: la investigación científica es «la recherche»."
+    },
+    {
+     "respuesta": "L'recherche scientifique a besoin de financements stables.",
+     "explicacion": "La palabra es correcta, pero «recherche» empieza por consonante: «La recherche»."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "la recherche",
+     "significado": "la investigación (científica)"
+    },
+    {
+     "palabra": "l'investigation (f.)",
+     "significado": "la pesquisa, la investigación policial o judicial"
+    },
+    {
+     "palabra": "un financement",
+     "significado": "una financiación"
+    }
+   ]
   },
   {
    "id": "e10",
@@ -321,7 +535,33 @@
    "respuestas": [
     "J'ai téléchargé une nouvelle application."
    ],
-   "explicacion": "Descargar de internet = «télécharger»; «décharger» es descargar un camión o un arma."
+   "explicacion": "El error es un falso amigo: «décharger» significa descargar en sentido físico (un camión, un arma, una batería). Descargar de internet es «télécharger», como recoge la tabla. La pista es «une nouvelle application», algo que se obtiene de la red.",
+   "explicacion_breve": "Descargar de internet = «télécharger»; «décharger» es descargar un camión o un arma.",
+   "traduccion": "He descargado una aplicación nueva.",
+   "errores_previstos": [
+    {
+     "respuesta": "J'ai déchargé une nouvelle application.",
+     "explicacion": "Es la frase sin corregir: «décharger» es descargar un camión o un arma; de internet se «télécharge»."
+    },
+    {
+     "respuesta": "J'ai télédéchargé une nouvelle application.",
+     "explicacion": "La palabra no existe: el verbo es «télécharger»."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "télécharger",
+     "significado": "descargar (de internet)"
+    },
+    {
+     "palabra": "décharger",
+     "significado": "descargar (un camión, un arma, una batería)"
+    },
+    {
+     "palabra": "une application (une appli)",
+     "significado": "una aplicación"
+    }
+   ]
   },
   {
    "id": "e11",
@@ -331,7 +571,29 @@
    "respuestas": [
     "Mon ordinateur est tombé en panne."
    ],
-   "explicacion": "Ordenador = «ordinateur»."
+   "explicacion": "El error es de ortografía calcada del español: la palabra francesa es «ordinateur», con i y con la terminación -ateur. La pista es el contexto («tombé en panne»). «Tomber en panne» es la expresión habitual para decir que una máquina se estropea.",
+   "explicacion_breve": "Ordenador = «ordinateur».",
+   "traduccion": "Mi ordenador se ha averiado.",
+   "errores_previstos": [
+    {
+     "respuesta": "Mon ordenateur est tombé en panne.",
+     "explicacion": "Es la frase sin corregir: se escribe «ordinateur»."
+    },
+    {
+     "respuesta": "Mon ordinatur est tombé en panne.",
+     "explicacion": "Falta la e de la terminación -eur: «ordinateur»."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "un ordinateur",
+     "significado": "un ordenador"
+    },
+    {
+     "palabra": "tomber en panne",
+     "significado": "averiarse, estropearse"
+    }
+   ]
   },
   {
    "id": "e12",
@@ -347,7 +609,29 @@
    "respuestas": [
     "l'hôpital a subi une cyberattaque"
    ],
-   "explicacion": "Sufrir un ataque = «subir une attaque»."
+   "explicacion": "Se trabaja la colocación de la tabla «subir une cyberattaque», sufrir un ciberataque. El orden es sujeto «l'hôpital», auxiliar «a», participio «subi» y complemento «une cyberattaque». «Subir» es un falso amigo: no significa subir sino sufrir o padecer algo negativo.",
+   "explicacion_breve": "Sufrir un ataque = «subir une attaque».",
+   "traduccion": "El hospital ha sufrido un ciberataque.",
+   "errores_previstos": [
+    {
+     "respuesta": "l'hôpital subi a une cyberattaque",
+     "explicacion": "El auxiliar va antes del participio: «a subi»."
+    },
+    {
+     "respuesta": "l'hôpital a une cyberattaque subi",
+     "explicacion": "El complemento va detrás del participio: «a subi une cyberattaque»."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "subir",
+     "significado": "sufrir, padecer (falso amigo: no es «subir»)"
+    },
+    {
+     "palabra": "une cyberattaque",
+     "significado": "un ciberataque"
+    }
+   ]
   },
   {
    "id": "e13",
@@ -358,7 +642,33 @@
     "numérique",
     "digitale"
    ],
-   "explicacion": "Transición digital = «transition numérique» («digitale» también se usa, pero se prefiere «numérique»)."
+   "explicacion": "Se trabaja «le numérique» y el adjetivo «numérique», que en francés cuidado equivale al español «digital». La pista está en el enunciado (lo digital) y en la colocación «la transition numérique». Se acepta también «digitale», que se oye mucho por influencia del inglés, pero la ficha recuerda que en registro formal se prefiere «numérique».",
+   "explicacion_breve": "Transición digital = «transition numérique» («digitale» también se usa, pero se prefiere «numérique»).",
+   "traduccion": "La transición digital obliga a las empresas a formarse.",
+   "errores_previstos": [
+    {
+     "respuesta": "numerique",
+     "explicacion": "Falta la tilde: «numérique»."
+    },
+    {
+     "respuesta": "digital",
+     "explicacion": "Si se usa el anglicismo, debe concordar con «transition», femenino: «digitale»; la forma preferida es «numérique»."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "numérique",
+     "significado": "digital"
+    },
+    {
+     "palabra": "la transition",
+     "significado": "la transición"
+    },
+    {
+     "palabra": "se former",
+     "significado": "formarse, capacitarse"
+    }
+   ]
   },
   {
    "id": "e14",
@@ -373,10 +683,37 @@
    "respuestas": [
     "découverte"
    ],
-   "explicacion": "Descubrimiento = «découverte»."
+   "explicacion": "Se trabaja «une découverte», el descubrimiento, sustantivo femenino formado sobre el participio de «découvrir». La pista es la colocación «faire une découverte» y el adjetivo «inattendue», que muestra que la palabra es femenina. La otra forma derivada que se propone no existe, y «recherche» es el proceso, no el hallazgo.",
+   "explicacion_breve": "Descubrimiento = «découverte».",
+   "traduccion": "Los investigadores hicieron un descubrimiento inesperado al analizar las muestras.",
+   "por_opcion": {
+    "découverte": "Correcta: «faire une découverte» es hacer un descubrimiento.",
+    "découvrement": "Incorrecta: la palabra no existe en francés; el sustantivo es «découverte».",
+    "recherche": "Incorrecta: «la recherche» es la investigación, el proceso; no se «fait une recherche inattendue» al encontrar algo."
+   },
+   "glosario": [
+    {
+     "palabra": "une découverte",
+     "significado": "un descubrimiento"
+    },
+    {
+     "palabra": "inattendu",
+     "significado": "inesperado"
+    },
+    {
+     "palabra": "un échantillon",
+     "significado": "una muestra"
+    }
+   ]
   }
  ],
  "fuente": {
   "nombre": "propia"
+ },
+ "descripcion_larga_es": "Esta ficha reúne vocabulario de nivel B2 para hablar de investigación científica, innovación, informática e inteligencia artificial: la recherche, un chercheur, un brevet, les données, un logiciel, télécharger. Es léxico muy presente en la prensa y en cualquier debate actual. Cuesta a un hispanohablante por los falsos amigos (investigation, dates, décharger) y porque el francés formal evita los anglicismos.",
+ "contexto": {
+  "que_es": "Es el vocabulario básico del mundo científico (recherche, chercheur, expérience, hypothèse, brevet, essai clinique) y del mundo digital (numérique, logiciel, données, courriel, algorithme, cyberattaque). Incluye las colocaciones habituales, como «déposer un brevet», «subir une cyberattaque» o «télécharger une application». En el registro formal, Francia promueve términos franceses frente a los anglicismos.",
+  "por_que_importa": "Ciencia, tecnología e inteligencia artificial son temas recurrentes en exámenes de comprensión y en debates orales de nivel B2. Los falsos amigos producen errores serios: «les dates personnelles» significa fechas, no datos, y «l'investigation» suena a pesquisa policial. Elegir «courriel» o «numérique» en un escrito formal demuestra dominio del registro.",
+  "cuando_se_usa": "Al comentar una noticia científica, hablar de innovación, describir el uso de internet o debatir sobre la inteligencia artificial y la protección de datos. Las pistas son el contexto (laboratorio, ordenador, red) y el registro del texto. El hispanohablante tiende a afrancesar la palabra española («investigation», «ordenateur») o a usar el anglicismo."
  }
 }

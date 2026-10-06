@@ -6,60 +6,532 @@
  "nivel": "A2",
  "resumen": "Tras un adverbio de cantidad (beaucoup, peu, assez, trop…) o una medida (un kilo, une bouteille…) el nombre va precedido solo de de (d' ante vocal), sin artículo: beaucoup de livres, un verre d'eau. Es una de las diferencias más claras con el español, que no usa preposición (muchos libros).",
  "explicacion": [
-  {"tipo": "tabla", "cabecera": ["Expresión", "Español", "Ejemplo"], "filas": [
-   ["beaucoup de", "mucho, mucha, muchos, muchas", "J'ai beaucoup de livres."],
-   ["peu de", "poco, pocos (idea negativa)", "Elle a peu d'amis."],
-   ["un peu de", "un poco de (solo con incontables)", "Un peu de café ?"],
-   ["assez de", "bastante, suficiente", "Tu as assez de temps ?"],
-   ["trop de", "demasiado(s)", "Ne mets pas trop de sel."],
-   ["tant de", "tanto(s)", "Pourquoi tant de questions ?"],
-   ["plus de / moins de / autant de", "más / menos / tanto(s)", "Il y a moins de bruit ici."]
-  ]},
-  {"tipo": "tabla", "cabecera": ["Medida", "Español"], "filas": [
-   ["un kilo de, 200 grammes de, un litre de", "un kilo de, 200 gramos de, un litro de"],
-   ["une bouteille de, un verre de, une tasse de", "una botella de, un vaso de, una taza de"],
-   ["une tranche de, un morceau de, une part de", "una loncha de, un trozo de, una ración de"],
-   ["une boîte de, un paquet de, une douzaine de", "una lata o caja de, un paquete de, una docena de"],
-   ["une pincée de, une cuillère de", "una pizca de, una cucharada de"]
-  ]},
-  {"tipo": "lista", "items": [
-   "La forma no cambia en plural ni en negativa: beaucoup de pommes, je n'ai pas assez de temps.",
-   "Ante vocal o h muda: d'. beaucoup d'amis, peu d'eau, trop d'erreurs.",
-   "Peu de (poco, casi nada) no es lo mismo que un peu de (un poco, algo): J'ai peu d'argent (estoy apurado) / J'ai un peu d'argent (tengo algo).",
-   "Si el nombre está determinado (lo conocemos), se usa du, de la, des: un morceau du gâteau que tu as fait (un trozo del pastel que hiciste); beaucoup des invités (muchos de los invitados).",
-   "Excepciones: la plupart des gens (la mayoría de la gente) y bien des fois (muchas veces) llevan artículo."
-  ]}
+  {
+   "tipo": "tabla",
+   "cabecera": [
+    "Expresión",
+    "Español",
+    "Ejemplo"
+   ],
+   "filas": [
+    [
+     "beaucoup de",
+     "mucho, mucha, muchos, muchas",
+     "J'ai beaucoup de livres."
+    ],
+    [
+     "peu de",
+     "poco, pocos (idea negativa)",
+     "Elle a peu d'amis."
+    ],
+    [
+     "un peu de",
+     "un poco de (solo con incontables)",
+     "Un peu de café ?"
+    ],
+    [
+     "assez de",
+     "bastante, suficiente",
+     "Tu as assez de temps ?"
+    ],
+    [
+     "trop de",
+     "demasiado(s)",
+     "Ne mets pas trop de sel."
+    ],
+    [
+     "tant de",
+     "tanto(s)",
+     "Pourquoi tant de questions ?"
+    ],
+    [
+     "plus de / moins de / autant de",
+     "más / menos / tanto(s)",
+     "Il y a moins de bruit ici."
+    ]
+   ]
+  },
+  {
+   "tipo": "tabla",
+   "cabecera": [
+    "Medida",
+    "Español"
+   ],
+   "filas": [
+    [
+     "un kilo de, 200 grammes de, un litre de",
+     "un kilo de, 200 gramos de, un litro de"
+    ],
+    [
+     "une bouteille de, un verre de, une tasse de",
+     "una botella de, un vaso de, una taza de"
+    ],
+    [
+     "une tranche de, un morceau de, une part de",
+     "una loncha de, un trozo de, una ración de"
+    ],
+    [
+     "une boîte de, un paquet de, une douzaine de",
+     "una lata o caja de, un paquete de, una docena de"
+    ],
+    [
+     "une pincée de, une cuillère de",
+     "una pizca de, una cucharada de"
+    ]
+   ]
+  },
+  {
+   "tipo": "lista",
+   "items": [
+    "La forma no cambia en plural ni en negativa: beaucoup de pommes, je n'ai pas assez de temps.",
+    "Ante vocal o h muda: d'. beaucoup d'amis, peu d'eau, trop d'erreurs.",
+    "Peu de (poco, casi nada) no es lo mismo que un peu de (un poco, algo): J'ai peu d'argent (estoy apurado) / J'ai un peu d'argent (tengo algo).",
+    "Si el nombre está determinado (lo conocemos), se usa du, de la, des: un morceau du gâteau que tu as fait (un trozo del pastel que hiciste); beaucoup des invités (muchos de los invitados).",
+    "Excepciones: la plupart des gens (la mayoría de la gente) y bien des fois (muchas veces) llevan artículo."
+   ]
+  }
  ],
  "ejemplos": [
-  {"frase": "Il a beaucoup d'argent.", "traduccion": "Tiene mucho dinero."},
-  {"frase": "Il reste un peu d'eau.", "traduccion": "Queda un poco de agua."},
-  {"frase": "Je fais trop d'erreurs.", "traduccion": "Cometo demasiados errores."},
-  {"frase": "Il y a peu d'arbres ici.", "traduccion": "Aquí hay pocos árboles."},
-  {"frase": "Pour une douzaine de crêpes, il faut 400 grammes de farine et un demi-litre de lait.", "traduccion": "Para una docena de crepes, hacen falta 400 gramos de harina y medio litro de leche."},
-  {"frase": "Tom n'a pas assez d'amis.", "traduccion": "Tom no tiene suficientes amigos."}
+  {
+   "frase": "Il a beaucoup d'argent.",
+   "traduccion": "Tiene mucho dinero."
+  },
+  {
+   "frase": "Il reste un peu d'eau.",
+   "traduccion": "Queda un poco de agua."
+  },
+  {
+   "frase": "Je fais trop d'erreurs.",
+   "traduccion": "Cometo demasiados errores."
+  },
+  {
+   "frase": "Il y a peu d'arbres ici.",
+   "traduccion": "Aquí hay pocos árboles."
+  },
+  {
+   "frase": "Pour une douzaine de crêpes, il faut 400 grammes de farine et un demi-litre de lait.",
+   "traduccion": "Para una docena de crepes, hacen falta 400 gramos de harina y medio litro de leche."
+  },
+  {
+   "frase": "Tom n'a pas assez d'amis.",
+   "traduccion": "Tom no tiene suficientes amigos."
+  }
  ],
  "errores_hispanohablantes": [
-  {"mal": "J'ai beaucoup amis.", "bien": "J'ai beaucoup d'amis.", "nota": "Tras beaucoup siempre hace falta de / d'."},
-  {"mal": "Il boit trop du café.", "bien": "Il boit trop de café.", "nota": "Tras una expresión de cantidad, de va sin artículo."},
-  {"mal": "J'ai peu d'argent (queriendo decir «tengo algo de dinero»).", "bien": "J'ai un peu d'argent.", "nota": "Peu de insiste en la escasez; un peu de indica una cantidad pequeña pero positiva."}
+  {
+   "mal": "J'ai beaucoup amis.",
+   "bien": "J'ai beaucoup d'amis.",
+   "nota": "Tras beaucoup siempre hace falta de / d'."
+  },
+  {
+   "mal": "Il boit trop du café.",
+   "bien": "Il boit trop de café.",
+   "nota": "Tras una expresión de cantidad, de va sin artículo."
+  },
+  {
+   "mal": "J'ai peu d'argent (queriendo decir «tengo algo de dinero»).",
+   "bien": "J'ai un peu d'argent.",
+   "nota": "Peu de insiste en la escasez; un peu de indica una cantidad pequeña pero positiva."
+  }
  ],
  "ejercicios": [
-  {"id": "e01", "tipo": "hueco", "enunciado": "Completa con la palabra que falta.", "frase": "Il a assez ___ temps.", "respuestas": ["de"], "explicacion": "Assez de + nombre, sin artículo.", "origen": "tatoeba:2168742"},
-  {"id": "e02", "tipo": "hueco", "enunciado": "Completa con la palabra que falta.", "frase": "J'ai beaucoup ___ livres.", "respuestas": ["de"], "explicacion": "Beaucoup de + nombre plural, sin des.", "origen": "tatoeba:7055"},
-  {"id": "e03", "tipo": "eleccion", "enunciado": "Elige la opción correcta.", "frase": "Tu as ___ amis.", "opciones": ["beaucoup d'", "beaucoup des", "beaucoup de les"], "respuestas": ["beaucoup d'"], "explicacion": "Beaucoup de; ante vocal, d'.", "origen": "tatoeba:2515852"},
-  {"id": "e04", "tipo": "eleccion", "enunciado": "Elige la opción correcta.", "frase": "Ne mets pas trop ___ sel.", "opciones": ["de", "du", "de la"], "respuestas": ["de"], "explicacion": "Trop de + nombre, sin artículo, también en negativa.", "origen": "tatoeba:1251900"},
-  {"id": "e05", "tipo": "eleccion", "enunciado": "Elige la opción correcta.", "frase": "Elle a ___ amis : elle se sent seule.", "opciones": ["peu d'", "un peu d'", "beaucoup d'"], "respuestas": ["peu d'"], "explicacion": "Peu de = pocos (escasez). Un peu de no se usa con plurales contables.", "origen": "tatoeba:442015"},
-  {"id": "e06", "tipo": "eleccion", "enunciado": "Elige la opción correcta (¿un poco de café?).", "frase": "___ café ?", "opciones": ["Un peu de", "Peu de", "Un peu du"], "respuestas": ["Un peu de"], "explicacion": "Un peu de = un poco de, con nombres incontables.", "origen": "tatoeba:367237"},
-  {"id": "e07", "tipo": "eleccion", "enunciado": "Elige la opción correcta.", "frase": "Je fais ___ erreurs.", "opciones": ["trop d'", "trop des", "trop"], "respuestas": ["trop d'"], "explicacion": "Trop de; ante vocal, d'.", "origen": "tatoeba:7403"},
-  {"id": "e08", "tipo": "hueco", "enunciado": "Completa con la expresión de cantidad (mucho).", "frase": "Il y a ___ vent aujourd'hui.", "respuestas": ["beaucoup de"], "explicacion": "Mucho viento = beaucoup de vent.", "origen": "tatoeba:7115689"},
-  {"id": "e09", "tipo": "hueco", "enunciado": "Completa con la palabra que falta.", "frase": "Je voudrais une bouteille ___ vin rouge.", "respuestas": ["de"], "explicacion": "Tras una medida (une bouteille) se usa de sin artículo."},
-  {"id": "e10", "tipo": "hueco", "enunciado": "Completa con la palabra que falta.", "frase": "Achète un kilo ___ pommes, s'il te plaît.", "respuestas": ["de"], "explicacion": "Un kilo de + nombre, sin artículo."},
-  {"id": "e11", "tipo": "hueco", "enunciado": "Completa (tanto odio).", "frase": "Pourquoi ___ de haine ?", "respuestas": ["tant"], "explicacion": "Tant de = tanto(s).", "origen": "tatoeba:378664"},
-  {"id": "e12", "tipo": "corregir", "enunciado": "Corrige el error.", "frase": "Il a beaucoup des amis.", "respuestas": ["Il a beaucoup d'amis."], "explicacion": "Beaucoup d' + nombre, sin artículo."},
-  {"id": "e13", "tipo": "corregir", "enunciado": "Corrige el error.", "frase": "J'ai trop du travail.", "respuestas": ["J'ai trop de travail."], "explicacion": "Trop de, sin artículo."},
-  {"id": "e14", "tipo": "corregir", "enunciado": "Corrige el error.", "frase": "Je n'ai pas assez du temps.", "respuestas": ["Je n'ai pas assez de temps."], "explicacion": "Assez de no cambia en la negativa."},
-  {"id": "e15", "tipo": "transformar", "enunciado": "Cambia beaucoup por peu.", "frase": "Nous avons beaucoup de temps.", "respuestas": ["Nous avons peu de temps."], "explicacion": "Peu de sigue la misma construcción que beaucoup de.", "origen": "tatoeba:7119066"},
-  {"id": "e16", "tipo": "ordenar", "enunciado": "Ordena las palabras (queda poco tiempo).", "palabras": ["reste", "temps", "peu", "de", "Il"], "respuestas": ["Il reste peu de temps"], "explicacion": "Il reste (queda) + peu de + nombre.", "origen": "tatoeba:4864937"}
+  {
+   "id": "e01",
+   "tipo": "hueco",
+   "enunciado": "Completa con la palabra que falta.",
+   "frase": "Il a assez ___ temps.",
+   "respuestas": [
+    "de"
+   ],
+   "explicacion": "Se aplica la regla general de la ficha: tras un adverbio de cantidad como «assez», el nombre va precedido solo de «de», sin artículo. La pista es «assez» justo antes del hueco. «Temps» empieza por consonante, así que no hay apóstrofo: «assez de temps».",
+   "origen": "tatoeba:2168742",
+   "explicacion_breve": "Assez de + nombre, sin artículo.",
+   "traduccion": "Tiene bastante tiempo.",
+   "errores_previstos": [
+    {
+     "respuesta": "du",
+     "explicacion": "Tras un adverbio de cantidad no se usa el partitivo: «assez de temps»."
+    },
+    {
+     "respuesta": "d'",
+     "explicacion": "El apóstrofo solo se usa ante vocal o h muda; «temps» empieza por t."
+    }
+   ]
+  },
+  {
+   "id": "e02",
+   "tipo": "hueco",
+   "enunciado": "Completa con la palabra que falta.",
+   "frase": "J'ai beaucoup ___ livres.",
+   "respuestas": [
+    "de"
+   ],
+   "explicacion": "Se aplica la regla de la ficha: «beaucoup» va seguido de «de» y del nombre sin artículo, incluso en plural. La pista es «beaucoup» y el nombre plural «livres». En español no hay preposición («muchos libros»), pero en francés es obligatoria y nunca es «des».",
+   "origen": "tatoeba:7055",
+   "explicacion_breve": "Beaucoup de + nombre plural, sin des.",
+   "traduccion": "Tengo muchos libros.",
+   "errores_previstos": [
+    {
+     "respuesta": "des",
+     "explicacion": "La forma no cambia en plural: siempre «beaucoup de», nunca «beaucoup des» (salvo con un nombre determinado)."
+    },
+    {
+     "respuesta": "de les",
+     "explicacion": "«De les» no existe en francés, y tras «beaucoup» no hay artículo."
+    }
+   ]
+  },
+  {
+   "id": "e03",
+   "tipo": "eleccion",
+   "enunciado": "Elige la opción correcta.",
+   "frase": "Tu as ___ amis.",
+   "opciones": [
+    "beaucoup d'",
+    "beaucoup des",
+    "beaucoup de les"
+   ],
+   "respuestas": [
+    "beaucoup d'"
+   ],
+   "explicacion": "Se aplica la regla de la ficha: «beaucoup de» sin artículo, y ante vocal o h muda «de» se apostrofa en «d'». La pista es «amis», que empieza por vocal. Por eso la forma correcta es «beaucoup d'amis».",
+   "origen": "tatoeba:2515852",
+   "explicacion_breve": "Beaucoup de; ante vocal, d'.",
+   "traduccion": "Tienes muchos amigos.",
+   "por_opcion": {
+    "beaucoup d'": "Correcta: «beaucoup de» con elisión ante la vocal de «amis».",
+    "beaucoup des": "Incorrecta: tras «beaucoup» no se pone artículo; «beaucoup des amis» solo valdría para unos amigos concretos ya mencionados («beaucoup des amis de Paul»).",
+    "beaucoup de les": "Incorrecta: «de les» no existe en francés (se contrae en «des») y además aquí no va artículo."
+   }
+  },
+  {
+   "id": "e04",
+   "tipo": "eleccion",
+   "enunciado": "Elige la opción correcta.",
+   "frase": "Ne mets pas trop ___ sel.",
+   "opciones": [
+    "de",
+    "du",
+    "de la"
+   ],
+   "respuestas": [
+    "de"
+   ],
+   "explicacion": "Se aplica la regla de la lista: la forma «trop de» no cambia en plural ni en negativa. La pista es «trop» justo antes del hueco; la negación «ne… pas» afecta al verbo «mets», no a la expresión de cantidad. Por eso se dice «trop de sel», sin artículo.",
+   "origen": "tatoeba:1251900",
+   "explicacion_breve": "Trop de + nombre, sin artículo, también en negativa.",
+   "traduccion": "No pongas demasiada sal.",
+   "por_opcion": {
+    "de": "Correcta: «trop de» + nombre sin artículo.",
+    "du": "Incorrecta: el partitivo «du» desaparece tras una expresión de cantidad; es el error «trop du café» que recoge la ficha.",
+    "de la": "Incorrecta: además de llevar artículo, «sel» es masculino."
+   }
+  },
+  {
+   "id": "e05",
+   "tipo": "eleccion",
+   "enunciado": "Elige la opción correcta.",
+   "frase": "Elle a ___ amis : elle se sent seule.",
+   "opciones": [
+    "peu d'",
+    "un peu d'",
+    "beaucoup d'"
+   ],
+   "respuestas": [
+    "peu d'"
+   ],
+   "explicacion": "Se aplica la distinción de la lista entre «peu de» (poco, casi nada, idea negativa) y «un peu de» (un poco, algo). La pista es la segunda parte, «elle se sent seule», que indica escasez. Además, «un peu de» solo se usa con incontables, y «amis» es plural contable.",
+   "origen": "tatoeba:442015",
+   "explicacion_breve": "Peu de = pocos (escasez). Un peu de no se usa con plurales contables.",
+   "traduccion": "Tiene pocos amigos: se siente sola.",
+   "por_opcion": {
+    "peu d'": "Correcta: «peu de» expresa escasez, coherente con «elle se sent seule».",
+    "un peu d'": "Incorrecta: «un peu de» se usa con incontables («un peu d'eau») y tiene sentido positivo.",
+    "beaucoup d'": "Incorrecta: es gramaticalmente correcta, pero contradice «elle se sent seule»."
+   }
+  },
+  {
+   "id": "e06",
+   "tipo": "eleccion",
+   "enunciado": "Elige la opción correcta (¿un poco de café?).",
+   "frase": "___ café ?",
+   "opciones": [
+    "Un peu de",
+    "Peu de",
+    "Un peu du"
+   ],
+   "respuestas": [
+    "Un peu de"
+   ],
+   "explicacion": "Se aplica la tabla: «un peu de» significa un poco de, una cantidad pequeña pero positiva, y se usa con incontables como «café». La pista está en el enunciado: se ofrece café. «Peu de café» sonaría a escasez, como si se ofreciera poco café a regañadientes.",
+   "origen": "tatoeba:367237",
+   "explicacion_breve": "Un peu de = un poco de, con nombres incontables.",
+   "traduccion": "¿Un poco de café?",
+   "por_opcion": {
+    "Un peu de": "Correcta: oferta de una pequeña cantidad de algo incontable.",
+    "Peu de": "Incorrecta: «peu de» insiste en la escasez; no sirve para ofrecer algo.",
+    "Un peu du": "Incorrecta: tras «un peu» no se usa artículo; «du» solo valdría con un café determinado («un peu du café que tu as fait»)."
+   }
+  },
+  {
+   "id": "e07",
+   "tipo": "eleccion",
+   "enunciado": "Elige la opción correcta.",
+   "frase": "Je fais ___ erreurs.",
+   "opciones": [
+    "trop d'",
+    "trop des",
+    "trop"
+   ],
+   "respuestas": [
+    "trop d'"
+   ],
+   "explicacion": "Se aplica la regla de la ficha: «trop de» sin artículo, con elisión ante vocal. La pista es «erreurs», que empieza por vocal, así que «de» se apostrofa: «trop d'erreurs». Fíjate también en que en francés se «fait» un error, no se «comete».",
+   "origen": "tatoeba:7403",
+   "explicacion_breve": "Trop de; ante vocal, d'.",
+   "traduccion": "Cometo demasiados errores.",
+   "por_opcion": {
+    "trop d'": "Correcta: «trop de» con elisión ante la vocal de «erreurs».",
+    "trop des": "Incorrecta: tras «trop» no va artículo.",
+    "trop": "Incorrecta: falta la preposición; «trop» no puede ir directamente ante el nombre, a diferencia de «demasiados» en español."
+   }
+  },
+  {
+   "id": "e08",
+   "tipo": "hueco",
+   "enunciado": "Completa con la expresión de cantidad (mucho).",
+   "frase": "Il y a ___ vent aujourd'hui.",
+   "respuestas": [
+    "beaucoup de"
+   ],
+   "explicacion": "Se aplica la tabla: «beaucoup de» equivale a mucho y se une al nombre sin artículo. La pista está en el enunciado («mucho») y en «vent», que empieza por consonante. Fíjate en que aquí el francés usa «il y a» para el viento, aunque también existe «il fait du vent».",
+   "origen": "tatoeba:7115689",
+   "explicacion_breve": "Mucho viento = beaucoup de vent.",
+   "traduccion": "Hoy hace mucho viento.",
+   "errores_previstos": [
+    {
+     "respuesta": "beaucoup",
+     "explicacion": "Falta la preposición: tras «beaucoup» siempre hace falta «de»."
+    },
+    {
+     "respuesta": "beaucoup du",
+     "explicacion": "Tras una expresión de cantidad no se usa el partitivo: «beaucoup de vent»."
+    },
+    {
+     "respuesta": "très",
+     "explicacion": "«Très» acompaña a adjetivos y adverbios, no a nombres: para «mucho viento» se dice «beaucoup de vent»."
+    }
+   ]
+  },
+  {
+   "id": "e09",
+   "tipo": "hueco",
+   "enunciado": "Completa con la palabra que falta.",
+   "frase": "Je voudrais une bouteille ___ vin rouge.",
+   "respuestas": [
+    "de"
+   ],
+   "explicacion": "Se aplica la tabla de medidas: tras un recipiente como «une bouteille», el nombre va con «de» sin artículo. La pista es «une bouteille» justo antes del hueco. Por eso se dice «une bouteille de vin rouge», igual que en español, sin artículo.",
+   "explicacion_breve": "Tras una medida (une bouteille) se usa de sin artículo.",
+   "traduccion": "Quisiera una botella de vino tinto.",
+   "errores_previstos": [
+    {
+     "respuesta": "du",
+     "explicacion": "Tras una medida no se usa el partitivo: «une bouteille de vin»."
+    },
+    {
+     "respuesta": "d'",
+     "explicacion": "«Vin» empieza por consonante; no hay elisión."
+    }
+   ]
+  },
+  {
+   "id": "e10",
+   "tipo": "hueco",
+   "enunciado": "Completa con la palabra que falta.",
+   "frase": "Achète un kilo ___ pommes, s'il te plaît.",
+   "respuestas": [
+    "de"
+   ],
+   "explicacion": "Se aplica la tabla de medidas: «un kilo de» + nombre sin artículo, aunque el nombre esté en plural. La pista es «un kilo» justo antes del hueco. «Pommes» empieza por consonante, así que se escribe «de» completo.",
+   "explicacion_breve": "Un kilo de + nombre, sin artículo.",
+   "traduccion": "Compra un kilo de manzanas, por favor.",
+   "errores_previstos": [
+    {
+     "respuesta": "des",
+     "explicacion": "Tras una medida el nombre no lleva artículo, ni siquiera en plural: «un kilo de pommes»."
+    },
+    {
+     "respuesta": "de les",
+     "explicacion": "«De les» no existe, y aquí no hace falta artículo."
+    }
+   ]
+  },
+  {
+   "id": "e11",
+   "tipo": "hueco",
+   "enunciado": "Completa (tanto odio).",
+   "frase": "Pourquoi ___ de haine ?",
+   "respuestas": [
+    "tant"
+   ],
+   "explicacion": "Se aplica la tabla: «tant de» significa tanto o tantos y se construye como los demás adverbios de cantidad. La pista está en el enunciado («tanto») y en el «de» que ya aparece tras el hueco. Observa que se escribe «de haine» y no «d'haine», porque la h de «haine» es aspirada y no permite elisión.",
+   "origen": "tatoeba:378664",
+   "explicacion_breve": "Tant de = tanto(s). La h de haine es aspirada: de haine, sin elisión.",
+   "traduccion": "¿Por qué tanto odio?",
+   "errores_previstos": [
+    {
+     "respuesta": "autant",
+     "explicacion": "«Autant de» se usa en comparaciones (tanto… como); para exclamar o preguntar «tanto odio» se dice «tant de»."
+    },
+    {
+     "respuesta": "tellement",
+     "explicacion": "«Tellement de haine» es posible en la lengua hablada, pero el enunciado trabaja «tant de»."
+    },
+    {
+     "respuesta": "trop",
+     "explicacion": "«Trop» significa demasiado, no tanto."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "la haine",
+     "significado": "el odio (h aspirada: «de haine», sin elisión)"
+    }
+   ]
+  },
+  {
+   "id": "e12",
+   "tipo": "corregir",
+   "enunciado": "Corrige el error.",
+   "frase": "Il a beaucoup des amis.",
+   "respuestas": [
+    "Il a beaucoup d'amis."
+   ],
+   "explicacion": "Se aplica la regla de la ficha: tras «beaucoup» el nombre va sin artículo, con «de» apostrofado ante vocal. La frase pone «des», como si hiciera falta marcar el plural. Hay que escribir «beaucoup d'amis», porque «amis» empieza por vocal.",
+   "explicacion_breve": "Beaucoup d' + nombre, sin artículo.",
+   "traduccion": "Tiene muchos amigos.",
+   "errores_previstos": [
+    {
+     "respuesta": "Il a beaucoup des amis.",
+     "explicacion": "Es la frase sin corregir: tras «beaucoup» no va artículo."
+    },
+    {
+     "respuesta": "Il a beaucoup de amis.",
+     "explicacion": "Se ha quitado el artículo, pero falta la elisión ante vocal: «d'amis»."
+    }
+   ]
+  },
+  {
+   "id": "e13",
+   "tipo": "corregir",
+   "enunciado": "Corrige el error.",
+   "frase": "J'ai trop du travail.",
+   "respuestas": [
+    "J'ai trop de travail."
+   ],
+   "explicacion": "Se aplica la regla de la ficha y el error típico que recoge: tras «trop», el partitivo «du» desaparece y queda solo «de». La frase mezcla la cantidad con el partitivo, quizá por analogía con «j'ai du travail». La forma correcta es «J'ai trop de travail».",
+   "explicacion_breve": "Trop de, sin artículo.",
+   "traduccion": "Tengo demasiado trabajo.",
+   "errores_previstos": [
+    {
+     "respuesta": "J'ai trop du travail.",
+     "explicacion": "Es la frase sin corregir: tras «trop» se usa «de» sin artículo."
+    },
+    {
+     "respuesta": "J'ai trop travail.",
+     "explicacion": "Falta la preposición «de» entre «trop» y el nombre."
+    }
+   ]
+  },
+  {
+   "id": "e14",
+   "tipo": "corregir",
+   "enunciado": "Corrige el error.",
+   "frase": "Je n'ai pas assez du temps.",
+   "respuestas": [
+    "Je n'ai pas assez de temps."
+   ],
+   "explicacion": "Se aplica la regla de la lista: la forma «assez de» no cambia en negativa. La frase usa «du», quizá porque en afirmativa se diría «j'ai du temps». Con la expresión de cantidad, el nombre va con «de» solo: «Je n'ai pas assez de temps».",
+   "explicacion_breve": "Assez de no cambia en la negativa.",
+   "traduccion": "No tengo bastante tiempo.",
+   "errores_previstos": [
+    {
+     "respuesta": "Je n'ai pas assez du temps.",
+     "explicacion": "Es la frase sin corregir: tras «assez» va «de» sin artículo."
+    },
+    {
+     "respuesta": "Je n'ai pas assez temps.",
+     "explicacion": "Falta la preposición: «assez de temps»."
+    }
+   ]
+  },
+  {
+   "id": "e15",
+   "tipo": "transformar",
+   "enunciado": "Cambia beaucoup por peu.",
+   "frase": "Nous avons beaucoup de temps.",
+   "respuestas": [
+    "Nous avons peu de temps."
+   ],
+   "explicacion": "Se aplica la tabla: «peu de» se construye igual que «beaucoup de», con «de» y el nombre sin artículo. Solo hay que sustituir el adverbio; la preposición se mantiene. «Peu de temps» insiste en la escasez, a diferencia de «un peu de temps».",
+   "origen": "tatoeba:7119066",
+   "explicacion_breve": "Peu de sigue la misma construcción que beaucoup de.",
+   "traduccion": "Tenemos poco tiempo.",
+   "errores_previstos": [
+    {
+     "respuesta": "Nous avons peu temps.",
+     "explicacion": "Se ha quitado la preposición: «peu» también exige «de»."
+    },
+    {
+     "respuesta": "Nous avons un peu de temps.",
+     "explicacion": "Cambia el sentido: «un peu de temps» es algo de tiempo; el enunciado pide «peu», escasez."
+    }
+   ]
+  },
+  {
+   "id": "e16",
+   "tipo": "ordenar",
+   "enunciado": "Ordena las palabras (queda poco tiempo).",
+   "palabras": [
+    "reste",
+    "temps",
+    "peu",
+    "de",
+    "Il"
+   ],
+   "respuestas": [
+    "Il reste peu de temps"
+   ],
+   "explicacion": "Se aplica la construcción impersonal «il reste» (queda), seguida de la expresión de cantidad «peu de» y el nombre sin artículo. El orden es «Il reste peu de temps». En español el verbo no lleva sujeto («queda»), pero en francés hace falta el «il» impersonal.",
+   "origen": "tatoeba:4864937",
+   "explicacion_breve": "Il reste (queda) + peu de + nombre.",
+   "traduccion": "Queda poco tiempo.",
+   "errores_previstos": [
+    {
+     "respuesta": "Il reste de peu temps",
+     "explicacion": "La preposición va detrás del adverbio: «peu de temps»."
+    },
+    {
+     "respuesta": "Il peu de temps reste",
+     "explicacion": "El verbo va justo después del sujeto impersonal: «Il reste peu de temps»."
+    }
+   ]
+  }
  ],
- "fuente": {"nombre": "Tex's French Grammar", "autores": "COERLL, Universidad de Texas en Austin", "licencia": "CC BY 3.0", "url": "https://laits.utexas.edu/tex/gr/det8.html", "otras": ["Frases de Tatoeba (CC BY 2.0 FR)"]}
+ "fuente": {
+  "nombre": "Tex's French Grammar",
+  "autores": "COERLL, Universidad de Texas en Austin",
+  "licencia": "CC BY 3.0",
+  "url": "https://laits.utexas.edu/tex/gr/det8.html",
+  "otras": [
+   "Frases de Tatoeba (CC BY 2.0 FR)"
+  ]
+ },
+ "descripcion_larga_es": "Esta ficha explica cómo se expresa la cantidad en francés: tras un adverbio (beaucoup, peu, assez, trop, tant) o una medida (un kilo, une bouteille), el nombre va precedido solo de «de» o «d'», sin artículo. Es una diferencia clara con el español, que no pone preposición («muchos libros»), y origina errores como «beaucoup des amis» o «trop du café». También distingue peu de y un peu de.",
+ "contexto": {
+  "que_es": "Son las expresiones que indican cuánto hay de algo: adverbios de cantidad (beaucoup, peu, un peu, assez, trop, tant, plus, moins) y nombres de medida o recipiente (un kilo, un litre, une bouteille, une tranche). Todos se unen al nombre con «de» sin artículo, que se apostrofa ante vocal o h muda. Solo se usa du, de la o des si el nombre está determinado («beaucoup des invités»).",
+  "por_que_importa": "Se usan a diario al comprar, cocinar, describir o valorar algo («trop de travail», «assez de temps»). Olvidar el «de» («beaucoup livres») o añadir el artículo («trop du café») son errores muy frecuentes y muy visibles. Además, confundir «peu de» con «un peu de» cambia el mensaje: escasez frente a una cantidad pequeña pero suficiente.",
+  "cuando_se_usa": "Siempre que se cuantifica un nombre: en la compra, en recetas, en quejas («trop de bruit») o en valoraciones. Las pistas son el adverbio o la medida justo antes del hueco. El hispanohablante tiende a calcar «mucho tiempo» sin preposición o a mezclar el partitivo «du» con la cantidad."
+ }
 }

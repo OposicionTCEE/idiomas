@@ -125,8 +125,14 @@
    "respuestas": [
     "C'est"
    ],
-   "explicacion": "Determinante + nombre → c'est.",
-   "origen": "tatoeba:1072809"
+   "explicacion": "Se aplica la regla práctica de la ficha: si después viene un determinante (un, le, mon…) y un nombre, se usa «c'est». La pista es «un bon médecin», con artículo y adjetivo. La ficha insiste en que nunca se dice «il est un médecin»; sin artículo se diría «il est médecin».",
+   "origen": "tatoeba:1072809",
+   "explicacion_breve": "Determinante + nombre → c'est.",
+   "traduccion": "Es un buen médico.",
+   "por_opcion": {
+    "C'est": "Correcta: va seguido de artículo + adjetivo + nombre.",
+    "Il est": "Incorrecta: «il est» no va seguido de un artículo; con profesión solo valdría sin artículo («il est médecin»)."
+   }
   },
   {
    "id": "e02",
@@ -140,8 +146,14 @@
    "respuestas": [
     "Il est"
    ],
-   "explicacion": "Adjetivo referido a una persona concreta → il est.",
-   "origen": "tatoeba:131260"
+   "explicacion": "Se aplica la regla de la ficha: un adjetivo solo referido a una persona concreta va con «il est» o «elle est». La pista está en el enunciado: se habla del jefe, una persona concreta y masculina. Tras el hueco solo hay un adjetivo, «honnête», sin determinante.",
+   "origen": "tatoeba:131260",
+   "explicacion_breve": "Adjetivo referido a una persona concreta → il est.",
+   "traduccion": "Es muy honrado.",
+   "por_opcion": {
+    "Il est": "Correcta: adjetivo referido a una persona concreta, el jefe.",
+    "C'est": "Incorrecta: «c'est très honnête» comentaría una situación o una acción («eso es muy honrado»), no describiría al jefe."
+   }
   },
   {
    "id": "e03",
@@ -156,7 +168,14 @@
    "respuestas": [
     "C'est"
    ],
-   "explicacion": "El adjetivo se refiere a una acción (una idea general), no a una persona o cosa: c'est."
+   "explicacion": "Se aplica la regla de la tabla «adjetivo (idea general, eso) → c'est». La pista es que el adjetivo «facile» no se refiere a una persona ni a una cosa concreta, sino a la acción de hacer una tortilla. Por eso se dice «C'est très facile», con el sentido de «eso es muy fácil».",
+   "explicacion_breve": "El adjetivo se refiere a una acción (una idea general), no a una persona o cosa: c'est.",
+   "traduccion": "¿Hacer una tortilla? ¡Es muy fácil!",
+   "por_opcion": {
+    "C'est": "Correcta: el adjetivo comenta una acción, una idea general.",
+    "Il est": "Incorrecta: «il est» se referiría a algo masculino concreto; una acción en infinitivo se retoma con «c'est».",
+    "Elle est": "Incorrecta: aunque «omelette» sea femenino, aquí no se describe la tortilla sino la acción de hacerla."
+   }
   },
   {
    "id": "e04",
@@ -166,8 +185,20 @@
    "respuestas": [
     "Elle est"
    ],
-   "explicacion": "Adjetivo referido a una persona concreta y femenina → elle est.",
-   "origen": "tatoeba:134537"
+   "explicacion": "Se aplica la regla de la ficha: adjetivo referido a una persona concreta → «il est» o «elle est». La pista es «Ma sœur ?», que anuncia de quién se habla, y el adjetivo femenino «occupée». Como la persona es femenina, se usa «Elle est», con mayúscula por abrir la respuesta.",
+   "origen": "tatoeba:134537",
+   "explicacion_breve": "Adjetivo referido a una persona concreta y femenina → elle est.",
+   "traduccion": "¿Mi hermana? Está muy ocupada esta semana.",
+   "errores_previstos": [
+    {
+     "respuesta": "C'est",
+     "explicacion": "«C'est» no va seguido de un adjetivo referido a una persona concreta; aquí se describe a la hermana: «Elle est»."
+    },
+    {
+     "respuesta": "Il est",
+     "explicacion": "La persona es femenina (ma sœur, occupée): «Elle est»."
+    }
+   ]
   },
   {
    "id": "e05",
@@ -177,7 +208,19 @@
    "respuestas": [
     "C'est"
    ],
-   "explicacion": "Ante un pronombre tónico → c'est."
+   "explicacion": "Se aplica la tabla: ante un pronombre tónico (moi, toi, lui, nous…) se usa «c'est». La pista es «moi», justo después del hueco. Es la fórmula fija para identificarse («C'est moi»), que el español expresa con «soy yo».",
+   "explicacion_breve": "Ante un pronombre tónico → c'est.",
+   "traduccion": "¿Quién está en la puerta? ¡Soy yo!",
+   "errores_previstos": [
+    {
+     "respuesta": "Je suis",
+     "explicacion": "Calco del español «soy yo»: en francés uno se identifica con «C'est moi»."
+    },
+    {
+     "respuesta": "Il est",
+     "explicacion": "«Il est» no va seguido de un pronombre tónico; se dice «C'est moi»."
+    }
+   ]
   },
   {
    "id": "e06",
@@ -187,7 +230,19 @@
    "respuestas": [
     "C'est"
    ],
-   "explicacion": "Las fechas van con c'est."
+   "explicacion": "Se aplica la tabla: las fechas van con «c'est». La pista es «le 14 juillet», una fecha con artículo determinado. Aunque se hable del cumpleaños (masculino), no se usa «il est»: la fecha va siempre introducida por «c'est».",
+   "explicacion_breve": "Las fechas van con c'est.",
+   "traduccion": "¿Mi cumpleaños? Es el 14 de julio.",
+   "errores_previstos": [
+    {
+     "respuesta": "Il est",
+     "explicacion": "Las fechas se introducen con «c'est», no con «il est»."
+    },
+    {
+     "respuesta": "Ce sont",
+     "explicacion": "La fecha es singular: «C'est le 14 juillet»."
+    }
+   ]
   },
   {
    "id": "e07",
@@ -201,7 +256,13 @@
    "respuestas": [
     "Elle est"
    ],
-   "explicacion": "Profesión sin artículo → il/elle est."
+   "explicacion": "Se aplica la tabla de «il/elle est»: profesión sin artículo → «il est» o «elle est». La pista es «avocate», que va sola, sin determinante, y en femenino porque se refiere a Marie. La alternativa con «c'est» exigiría artículo: «C'est une avocate».",
+   "explicacion_breve": "Profesión sin artículo → il/elle est.",
+   "traduccion": "¿Marie? Es abogada.",
+   "por_opcion": {
+    "Elle est": "Correcta: profesión sin artículo referida a una mujer.",
+    "C'est": "Incorrecta: «c'est» exige un determinante delante del nombre; «c'est avocate» es el error típico de la ficha («C'est médecin»)."
+   }
   },
   {
    "id": "e08",
@@ -211,7 +272,19 @@
    "respuestas": [
     "Ce sont"
    ],
-   "explicacion": "Determinante + nombre plural → ce sont."
+   "explicacion": "Se aplica la regla práctica y la lista de plurales: determinante + nombre en plural → «ce sont». La pista es «des voisins», con artículo. En la lengua hablada se oye «c'est des voisins», pero la ficha recomienda escribir «ce sont» en un examen.",
+   "explicacion_breve": "Determinante + nombre plural → ce sont.",
+   "traduccion": "¿Los Martin? Son unos vecinos muy simpáticos.",
+   "errores_previstos": [
+    {
+     "respuesta": "Ils sont",
+     "explicacion": "«Ils sont» no va seguido de un artículo; con «des voisins» se usa «Ce sont»."
+    },
+    {
+     "respuesta": "C'est",
+     "explicacion": "Se oye en la lengua hablada, pero con nombre plural la norma escrita pide «Ce sont»."
+    }
+   ]
   },
   {
    "id": "e09",
@@ -221,7 +294,19 @@
    "respuestas": [
     "Ils sont"
    ],
-   "explicacion": "Nacionalidad sin artículo (adjetivo) → ils sont."
+   "explicacion": "Se aplica la tabla: nacionalidad sin artículo funciona como adjetivo y va con «il est» o «ils sont». La pista es «espagnols», en minúscula y sin determinante, y el sujeto plural masculino «Paul et Luc». Por eso se dice «Ils sont espagnols».",
+   "explicacion_breve": "Nacionalidad sin artículo (adjetivo) → ils sont.",
+   "traduccion": "¿Paul y Luc? Son españoles.",
+   "errores_previstos": [
+    {
+     "respuesta": "Ce sont",
+     "explicacion": "«Ce sont» exige determinante: «Ce sont des Espagnols». Ante el adjetivo solo se usa «Ils sont»."
+    },
+    {
+     "respuesta": "Elles sont",
+     "explicacion": "Paul y Luc son hombres: «Ils sont»."
+    }
+   ]
   },
   {
    "id": "e10",
@@ -235,8 +320,20 @@
    "respuestas": [
     "c'est"
    ],
-   "explicacion": "Artículo + nombre → c'est.",
-   "origen": "tatoeba:810254"
+   "explicacion": "Se aplica la regla práctica: artículo + nombre → «c'est». La pista es «le dernier train», con el artículo definido. Aunque se hable de un tren concreto, lo que sigue no es un adjetivo solo, sino un grupo nominal, así que no vale «il est».",
+   "origen": "tatoeba:810254",
+   "explicacion_breve": "Artículo + nombre → c'est.",
+   "traduccion": "¡Date prisa, es el último tren!",
+   "por_opcion": {
+    "c'est": "Correcta: va seguido de artículo + adjetivo + nombre.",
+    "il est": "Incorrecta: «il est» no puede ir seguido de un artículo."
+   },
+   "glosario": [
+    {
+     "palabra": "se dépêcher",
+     "significado": "darse prisa"
+    }
+   ]
   },
   {
    "id": "e11",
@@ -250,7 +347,13 @@
    "respuestas": [
     "c'est"
    ],
-   "explicacion": "Comentario sobre una situación: c'est dommage (es una pena)."
+   "explicacion": "Se aplica la regla de la tabla «adjetivo (idea general) → c'est». La pista es que «dommage» comenta la situación (que el otro no pueda venir), no describe a una persona. «C'est dommage» es una fórmula fija que significa «es una pena» o «qué lástima».",
+   "explicacion_breve": "Comentario sobre una situación: c'est dommage (es una pena).",
+   "traduccion": "¿No puedes venir? ¡Ah, qué pena!",
+   "por_opcion": {
+    "c'est": "Correcta: comentario sobre una situación; «c'est dommage» es fórmula fija.",
+    "il est": "Incorrecta: no hay ninguna persona o cosa concreta de la que se diga que es «dommage»; «il est dommage que» existe en registro muy formal, pero no en esta exclamación."
+   }
   },
   {
    "id": "e12",
@@ -260,8 +363,20 @@
    "respuestas": [
     "C'est un bon écrivain."
    ],
-   "explicacion": "Artículo + adjetivo + nombre → c'est.",
-   "origen": "tatoeba:583150"
+   "explicacion": "Se aplica la regla de la ficha y su error típico: con artículo + adjetivo + nombre se usa «c'est», nunca «il est». La frase dice «Il est un bon écrivain», calco del español «es un buen escritor». Hay que sustituir «Il est» por «C'est».",
+   "origen": "tatoeba:583150",
+   "explicacion_breve": "Artículo + adjetivo + nombre → c'est.",
+   "traduccion": "Es un buen escritor.",
+   "errores_previstos": [
+    {
+     "respuesta": "Il est un bon écrivain.",
+     "explicacion": "Es la frase sin corregir: «il est» no va seguido de artículo."
+    },
+    {
+     "respuesta": "Il est bon écrivain.",
+     "explicacion": "Sin artículo la profesión puede ir con «il est», pero con adjetivo la ficha exige «C'est un bon écrivain»."
+    }
+   ]
   },
   {
    "id": "e13",
@@ -271,8 +386,20 @@
    "respuestas": [
     "Mon frère ? Il est très content."
    ],
-   "explicacion": "Adjetivo referido a una persona concreta → il est.",
-   "origen": "tatoeba:6813647"
+   "explicacion": "Se aplica la regla de la ficha: un adjetivo referido a una persona concreta va con «il est» o «elle est». La pista es «Mon frère ?», que anuncia de quién se habla, y el adjetivo «content». «C'est très content» no describe a nadie; hay que decir «Il est très content».",
+   "origen": "tatoeba:6813647",
+   "explicacion_breve": "Adjetivo referido a una persona concreta → il est.",
+   "traduccion": "¿Mi hermano? Está muy contento.",
+   "errores_previstos": [
+    {
+     "respuesta": "Mon frère ? C'est très content.",
+     "explicacion": "Es la frase sin corregir: para describir a una persona concreta con un adjetivo se usa «Il est»."
+    },
+    {
+     "respuesta": "Mon frère ? Elle est très content.",
+     "explicacion": "El hermano es masculino: «Il est»."
+    }
+   ]
   },
   {
    "id": "e14",
@@ -282,7 +409,19 @@
    "respuestas": [
     "C'est un bon médecin."
    ],
-   "explicacion": "Al aparecer artículo y adjetivo hay que pasar a c'est."
+   "explicacion": "Se aplica la observación de la ficha: con profesiones hay dos fórmulas, «il est médecin» sin artículo o «c'est un médecin» con artículo, y si el nombre lleva adjetivo se usa «c'est». Al añadir «un bon», aparece el artículo, así que hay que pasar de «Il est» a «C'est»: «C'est un bon médecin».",
+   "explicacion_breve": "Al aparecer artículo y adjetivo hay que pasar a c'est.",
+   "traduccion": "Es un buen médico.",
+   "errores_previstos": [
+    {
+     "respuesta": "Il est un bon médecin.",
+     "explicacion": "Es el error típico de la ficha: con artículo hay que usar «C'est»."
+    },
+    {
+     "respuesta": "Il est bon médecin.",
+     "explicacion": "El enunciado pide «un bon médecin», con artículo, y entonces se usa «C'est»."
+    }
+   ]
   },
   {
    "id": "e15",
@@ -297,8 +436,20 @@
    "respuestas": [
     "C'est un vieux piano"
    ],
-   "explicacion": "C'est + un + vieux (adjetivo que va delante) + piano.",
-   "origen": "tatoeba:8713"
+   "explicacion": "Se aplica la regla práctica: determinante + nombre → «c'est». Además, «vieux» es uno de los adjetivos de edad que van delante del nombre, así que el orden es «C'est un vieux piano». En español el adjetivo va detrás («un piano viejo»), de ahí la tentación del calco.",
+   "origen": "tatoeba:8713",
+   "explicacion_breve": "C'est + un + vieux (adjetivo que va delante) + piano.",
+   "traduccion": "Es un piano viejo.",
+   "errores_previstos": [
+    {
+     "respuesta": "C'est un piano vieux",
+     "explicacion": "Calco del español: «vieux» va delante del nombre."
+    },
+    {
+     "respuesta": "C'est vieux un piano",
+     "explicacion": "El artículo va antes del adjetivo: «un vieux piano»."
+    }
+   ]
   },
   {
    "id": "e16",
@@ -312,8 +463,14 @@
    "respuestas": [
     "Il est"
    ],
-   "explicacion": "Adjetivo referido a una persona concreta: il est.",
-   "origen": "tatoeba:1451254"
+   "explicacion": "Se aplica la regla de la ficha: adjetivo referido a una persona concreta → «il est». La pista está en el enunciado: se habla del primo, persona concreta y masculina. Tras el hueco solo hay un adjetivo, «jeune», sin determinante.",
+   "origen": "tatoeba:1451254",
+   "explicacion_breve": "Adjetivo referido a una persona concreta: il est.",
+   "traduccion": "Es muy joven.",
+   "por_opcion": {
+    "Il est": "Correcta: adjetivo referido a una persona concreta, el primo.",
+    "C'est": "Incorrecta: «c'est très jeune» comentaría una situación o algo general, no describiría al primo."
+   }
   }
  ],
  "fuente": {
@@ -324,5 +481,11 @@
   "otras": [
    "Frases de Tatoeba (CC BY 2.0 FR)"
   ]
+ },
+ "descripcion_larga_es": "Esta ficha enseña a elegir entre c'est / ce sont e il est / elle est / ils sont, dos fórmulas que se traducen igual («es», «son») pero no son intercambiables. La regla práctica es mirar lo que sigue: determinante y nombre, nombre propio, pronombre tónico o fecha piden c'est; adjetivo solo, o profesión y nacionalidad sin artículo, piden il est. Al hispanohablante le cuesta porque el español no hace esta distinción.",
+ "contexto": {
+  "que_es": "Son dos maneras de decir «es» o «son». «C'est» y «ce sont» presentan o identifican algo y van seguidos de un determinante con nombre, de un nombre propio, de un pronombre tónico o de una fecha; también se usan con un adjetivo cuando se comenta una situación o una idea general. «Il est», «elle est», «ils sont» y «elles sont» describen a una persona o cosa concreta con un adjetivo o con una profesión o nacionalidad sin artículo.",
+  "por_que_importa": "Es una de las fórmulas más frecuentes del francés y uno de los errores más típicos de los hispanohablantes («il est un bon médecin»). El error se nota de inmediato y, en algunos casos, cambia el sentido: «il est stupide» habla de una persona, «c'est stupide» de una situación. En cualquier examen escrito u oral se penaliza.",
+  "cuando_se_usa": "Al presentar a alguien, identificar algo, dar una fecha, describir a una persona o comentar una situación. La pista es la palabra que sigue: si es un artículo, un posesivo u otro determinante, «c'est»; si es un adjetivo solo referido a alguien concreto, «il/elle est». El hispanohablante, que solo tiene «es», tiende a traducirlo siempre por «il est»."
  }
 }

@@ -6,63 +6,590 @@
  "nivel": "A1",
  "resumen": "Todo sustantivo francés es masculino o femenino y singular o plural; el determinante suele ser la única marca que se oye, porque la -s del plural no se pronuncia.",
  "explicacion": [
-  {"tipo": "texto", "texto": "Como en español, el género del sustantivo es en buena parte arbitrario y hay que aprenderlo junto con la palabra (mejor con su artículo: le livre, la table). No existe el neutro. Ojo: muchas palabras cambian de género respecto al español."},
-  {"tipo": "tabla", "cabecera": ["Francés", "Español", "Género en francés"], "filas": [
-   ["le lait", "la leche", "masculino"],
-   ["le nez", "la nariz", "masculino"],
-   ["le sang", "la sangre", "masculino"],
-   ["la mer", "el mar", "femenino"],
-   ["la voiture", "el coche", "femenino"],
-   ["la dent", "el diente", "femenino"],
-   ["la couleur", "el color", "femenino"]
-  ]},
-  {"tipo": "lista", "items": [
-   "Suelen ser femeninas las terminaciones -tion, -sion, -té, -ure, -ence, -ance, -ette, -ie: la nation, la liberté, la voiture, la chance.",
-   "Suelen ser masculinas -ment, -age, -eau, -isme, -oir, -ier: le gouvernement, le voyage, le bateau, le tourisme, le miroir, le papier (excepciones: la page, la plage, l'image, l'eau, la peau).",
-   "Personas: se añade -e (un ami, une amie); -eur pasa a -euse (vendeur, vendeuse); -teur suele pasar a -trice (acteur, actrice); -ien a -ienne (musicien, musicienne); -er a -ère (boulanger, boulangère).",
-   "Algunos nombres sirven para los dos géneros y solo cambia el artículo: un élève, une élève; un journaliste, une journaliste."
-  ]},
-  {"tipo": "texto", "texto": "Plural regular: se añade -s, que no se pronuncia (un livre, des livres). Por eso en la lengua hablada el plural se nota sobre todo en el determinante (le / les, un / des)."},
-  {"tipo": "tabla", "cabecera": ["Singular en", "Plural", "Ejemplo"], "filas": [
-   ["-s, -x, -z", "no cambia", "un prix, des prix; un nez, des nez"],
-   ["-al (y algunos en -ail)", "-aux", "un animal, des animaux; un travail, des travaux"],
-   ["-eau, -eu, -au", "+ x", "un bateau, des bateaux; un jeu, des jeux"],
-   ["-ou", "-s (siete añaden -x)", "un trou, des trous; pero bijoux, cailloux, choux, genoux, hiboux, joujoux, poux"],
-   ["irregulares", "forma distinta", "un œil, des yeux; monsieur, messieurs; madame, mesdames"]
-  ]},
-  {"tipo": "texto", "texto": "Excepciones en -al con plural en -als: bal, carnaval, festival, récital (des festivals). En œuf, bœuf y os la consonante final se pronuncia en singular pero no en plural."}
+  {
+   "tipo": "texto",
+   "texto": "Como en español, el género del sustantivo es en buena parte arbitrario y hay que aprenderlo junto con la palabra (mejor con su artículo: le livre, la table). No existe el neutro. Ojo: muchas palabras cambian de género respecto al español."
+  },
+  {
+   "tipo": "tabla",
+   "cabecera": [
+    "Francés",
+    "Español",
+    "Género en francés"
+   ],
+   "filas": [
+    [
+     "le lait",
+     "la leche",
+     "masculino"
+    ],
+    [
+     "le nez",
+     "la nariz",
+     "masculino"
+    ],
+    [
+     "le sang",
+     "la sangre",
+     "masculino"
+    ],
+    [
+     "la mer",
+     "el mar",
+     "femenino"
+    ],
+    [
+     "la voiture",
+     "el coche",
+     "femenino"
+    ],
+    [
+     "la dent",
+     "el diente",
+     "femenino"
+    ],
+    [
+     "la couleur",
+     "el color",
+     "femenino"
+    ]
+   ]
+  },
+  {
+   "tipo": "lista",
+   "items": [
+    "Suelen ser femeninas las terminaciones -tion, -sion, -té, -ure, -ence, -ance, -ette, -ie: la nation, la liberté, la voiture, la chance.",
+    "Suelen ser masculinas -ment, -age, -eau, -isme, -oir, -ier: le gouvernement, le voyage, le bateau, le tourisme, le miroir, le papier (excepciones: la page, la plage, l'image, l'eau, la peau).",
+    "Personas: se añade -e (un ami, une amie); -eur pasa a -euse (vendeur, vendeuse); -teur suele pasar a -trice (acteur, actrice); -ien a -ienne (musicien, musicienne); -er a -ère (boulanger, boulangère).",
+    "Algunos nombres sirven para los dos géneros y solo cambia el artículo: un élève, une élève; un journaliste, une journaliste."
+   ]
+  },
+  {
+   "tipo": "texto",
+   "texto": "Plural regular: se añade -s, que no se pronuncia (un livre, des livres). Por eso en la lengua hablada el plural se nota sobre todo en el determinante (le / les, un / des)."
+  },
+  {
+   "tipo": "tabla",
+   "cabecera": [
+    "Singular en",
+    "Plural",
+    "Ejemplo"
+   ],
+   "filas": [
+    [
+     "-s, -x, -z",
+     "no cambia",
+     "un prix, des prix; un nez, des nez"
+    ],
+    [
+     "-al (y algunos en -ail)",
+     "-aux",
+     "un animal, des animaux; un travail, des travaux"
+    ],
+    [
+     "-eau, -eu, -au",
+     "+ x",
+     "un bateau, des bateaux; un jeu, des jeux"
+    ],
+    [
+     "-ou",
+     "-s (siete añaden -x)",
+     "un trou, des trous; pero bijoux, cailloux, choux, genoux, hiboux, joujoux, poux"
+    ],
+    [
+     "irregulares",
+     "forma distinta",
+     "un œil, des yeux; monsieur, messieurs; madame, mesdames"
+    ]
+   ]
+  },
+  {
+   "tipo": "texto",
+   "texto": "Excepciones en -al con plural en -als: bal, carnaval, festival, récital (des festivals). En œuf, bœuf y os la consonante final se pronuncia en singular pero no en plural."
+  }
  ],
  "ejemplos": [
-  {"frase": "Tex est un tatou. Tex et Tammy sont des tatous.", "traduccion": "Tex es un armadillo. Tex y Tammy son armadillos."},
-  {"frase": "Les écureuils adorent les noix.", "traduccion": "A las ardillas les encantan las nueces."},
-  {"frase": "Ce ne sont pas des animaux, ce sont des insectes.", "traduccion": "No son animales, son insectos."},
-  {"frase": "Elle a les cheveux longs et les yeux verts.", "traduccion": "Tiene el pelo largo y los ojos verdes."},
-  {"frase": "Le lait est sur la table.", "traduccion": "La leche está en la mesa."},
-  {"frase": "Mon cousin est boulanger et ma cousine est musicienne.", "traduccion": "Mi primo es panadero y mi prima es música."}
+  {
+   "frase": "Tex est un tatou. Tex et Tammy sont des tatous.",
+   "traduccion": "Tex es un armadillo. Tex y Tammy son armadillos."
+  },
+  {
+   "frase": "Les écureuils adorent les noix.",
+   "traduccion": "A las ardillas les encantan las nueces."
+  },
+  {
+   "frase": "Ce ne sont pas des animaux, ce sont des insectes.",
+   "traduccion": "No son animales, son insectos."
+  },
+  {
+   "frase": "Elle a les cheveux longs et les yeux verts.",
+   "traduccion": "Tiene el pelo largo y los ojos verdes."
+  },
+  {
+   "frase": "Le lait est sur la table.",
+   "traduccion": "La leche está en la mesa."
+  },
+  {
+   "frase": "Mon cousin est boulanger et ma cousine est musicienne.",
+   "traduccion": "Mi primo es panadero y mi prima es música."
+  }
  ],
  "errores_hispanohablantes": [
-  {"mal": "la lait", "bien": "le lait", "nota": "Lait es masculino aunque en español leche sea femenino."},
-  {"mal": "le voiture", "bien": "la voiture", "nota": "Voiture es femenino (el coche en español); las palabras en -ure suelen ser femeninas."},
-  {"mal": "des animals", "bien": "des animaux", "nota": "Los nombres en -al hacen el plural en -aux."},
-  {"mal": "les cheveu", "bien": "les cheveux", "nota": "Los nombres en -eu añaden -x, no -s, y el plural sí se escribe aunque no se oiga."}
+  {
+   "mal": "la lait",
+   "bien": "le lait",
+   "nota": "Lait es masculino aunque en español leche sea femenino."
+  },
+  {
+   "mal": "le voiture",
+   "bien": "la voiture",
+   "nota": "Voiture es femenino (el coche en español); las palabras en -ure suelen ser femeninas."
+  },
+  {
+   "mal": "des animals",
+   "bien": "des animaux",
+   "nota": "Los nombres en -al hacen el plural en -aux."
+  },
+  {
+   "mal": "les cheveu",
+   "bien": "les cheveux",
+   "nota": "Los nombres en -eu añaden -x, no -s, y el plural sí se escribe aunque no se oiga."
+  }
  ],
  "ejercicios": [
-  {"id": "e01", "tipo": "hueco", "enunciado": "Escribe el plural del nombre entre paréntesis.", "frase": "Tom aime les ___. (cheval)", "respuestas": ["chevaux"], "explicacion": "Los nombres en -al forman el plural en -aux.", "origen": "tatoeba:1608330"},
-  {"id": "e02", "tipo": "hueco", "enunciado": "Escribe el plural del nombre entre paréntesis.", "frase": "Elle a les ___ bleus. (œil)", "respuestas": ["yeux"], "explicacion": "Œil tiene un plural irregular: yeux.", "origen": "tatoeba:331215"},
-  {"id": "e03", "tipo": "hueco", "enunciado": "Escribe el plural del nombre entre paréntesis.", "frase": "Où sont les ___ ? (couteau)", "respuestas": ["couteaux"], "explicacion": "Los nombres en -eau añaden -x en plural.", "origen": "tatoeba:837325"},
-  {"id": "e04", "tipo": "hueco", "enunciado": "Escribe el plural del nombre entre paréntesis.", "frase": "Tom télécharge des ___. (jeu)", "respuestas": ["jeux"], "explicacion": "Los nombres en -eu añaden -x en plural.", "origen": "tatoeba:1675992"},
-  {"id": "e05", "tipo": "hueco", "enunciado": "Escribe el plural del nombre entre paréntesis.", "frase": "Il a les ___ courts. (cheveu)", "respuestas": ["cheveux"], "explicacion": "Cheveu termina en -eu, así que el plural lleva -x.", "origen": "tatoeba:1947395"},
-  {"id": "e06", "tipo": "transformar", "enunciado": "Pasa la frase al plural.", "frase": "C'est un animal.", "respuestas": ["Ce sont des animaux."], "explicacion": "C'est pasa a ce sont, un a des y animal a animaux.", "origen": "tatoeba:592646"},
-  {"id": "e07", "tipo": "transformar", "enunciado": "Pasa la frase al plural.", "frase": "C'est un oiseau.", "respuestas": ["Ce sont des oiseaux."], "explicacion": "Los nombres en -eau añaden -x: oiseaux.", "origen": "tatoeba:880004"},
-  {"id": "e08", "tipo": "transformar", "enunciado": "Pasa la frase al plural.", "frase": "C'est un cadeau.", "respuestas": ["Ce sont des cadeaux."], "explicacion": "Cadeau termina en -eau, plural cadeaux.", "origen": "tatoeba:1254060"},
-  {"id": "e09", "tipo": "ordenar", "enunciado": "Ordena las palabras.", "palabras": ["les", "voir", "chevaux", "Je", "veux"], "respuestas": ["Je veux voir les chevaux"], "explicacion": "Sujeto, verbo conjugado, infinitivo y complemento: les chevaux.", "origen": "tatoeba:5680608"},
-  {"id": "e10", "tipo": "eleccion", "enunciado": "Elige el artículo correcto.", "frase": "___ lait est froid.", "opciones": ["Le", "La", "L'"], "respuestas": ["Le"], "explicacion": "Lait es masculino en francés, aunque leche sea femenino en español."},
-  {"id": "e11", "tipo": "eleccion", "enunciado": "Elige el artículo correcto.", "frase": "Nous passons l'été au bord de ___ mer.", "opciones": ["la", "le", "l'"], "respuestas": ["la"], "explicacion": "Mer es femenino (la mer), al contrario que el mar."},
-  {"id": "e12", "tipo": "hueco", "enunciado": "Escribe el femenino de la palabra entre paréntesis.", "frase": "Mon frère est acteur et ma sœur est ___. (acteur)", "respuestas": ["actrice"], "explicacion": "Muchos nombres en -teur hacen el femenino en -trice."},
-  {"id": "e13", "tipo": "hueco", "enunciado": "Escribe el femenino de la palabra entre paréntesis.", "frase": "Paul est vendeur et Julie est ___ dans le même magasin. (vendeur)", "respuestas": ["vendeuse"], "explicacion": "Vendeur forma el femenino en -euse."},
-  {"id": "e14", "tipo": "corregir", "enunciado": "Corrige el error.", "frase": "J'achète deux journals le dimanche.", "respuestas": ["J'achète deux journaux le dimanche."], "explicacion": "Journal termina en -al, así que el plural es journaux."},
-  {"id": "e15", "tipo": "corregir", "enunciado": "Corrige el error.", "frase": "Mon pantalon a deux troux.", "respuestas": ["Mon pantalon a deux trous."], "explicacion": "Trou es de los nombres en -ou que hacen el plural con -s; solo siete llevan -x."},
-  {"id": "e16", "tipo": "corregir", "enunciado": "Corrige el error.", "frase": "Le voiture de Marie est rouge.", "respuestas": ["La voiture de Marie est rouge."], "explicacion": "Voiture es femenino en francés."}
+  {
+   "id": "e01",
+   "tipo": "hueco",
+   "enunciado": "Escribe el plural del nombre entre paréntesis.",
+   "frase": "Tom aime les ___. (cheval)",
+   "respuestas": [
+    "chevaux"
+   ],
+   "explicacion": "Se aplica la tabla de plurales: los nombres terminados en -al forman el plural en -aux. La pista es el artículo plural «les» delante del hueco. Por eso «cheval» pasa a «chevaux». La ficha recuerda unas pocas excepciones con -als (bal, festival, carnaval, récital), entre las que no está «cheval».",
+   "origen": "tatoeba:1608330",
+   "explicacion_breve": "Los nombres en -al forman el plural en -aux.",
+   "traduccion": "A Tom le gustan los caballos.",
+   "errores_previstos": [
+    {
+     "respuesta": "chevals",
+     "explicacion": "Los nombres en -al hacen el plural en -aux: «chevaux»."
+    },
+    {
+     "respuesta": "chevaus",
+     "explicacion": "La terminación del plural es -aux, con x, no con s."
+    },
+    {
+     "respuesta": "cheval",
+     "explicacion": "Falta el plural: tras «les» el sustantivo va en plural, «chevaux»."
+    }
+   ]
+  },
+  {
+   "id": "e02",
+   "tipo": "hueco",
+   "enunciado": "Escribe el plural del nombre entre paréntesis.",
+   "frase": "Elle a les ___ bleus. (œil)",
+   "respuestas": [
+    "yeux"
+   ],
+   "explicacion": "Es uno de los plurales irregulares de la tabla: «un œil», «des yeux». La pista es el artículo plural «les» y el adjetivo «bleus», también en plural. Las dos formas no se parecen, por eso hay que aprenderlas juntas.",
+   "origen": "tatoeba:331215",
+   "explicacion_breve": "Œil tiene un plural irregular: yeux.",
+   "traduccion": "Tiene los ojos azules.",
+   "errores_previstos": [
+    {
+     "respuesta": "œils",
+     "explicacion": "«Œil» tiene un plural totalmente irregular: «yeux»."
+    },
+    {
+     "respuesta": "oeils",
+     "explicacion": "El plural de «œil» no se forma con -s; es «yeux»."
+    },
+    {
+     "respuesta": "yeuxs",
+     "explicacion": "«Yeux» ya es plural y termina en -x; no lleva -s."
+    }
+   ]
+  },
+  {
+   "id": "e03",
+   "tipo": "hueco",
+   "enunciado": "Escribe el plural del nombre entre paréntesis.",
+   "frase": "Où sont les ___ ? (couteau)",
+   "respuestas": [
+    "couteaux"
+   ],
+   "explicacion": "La tabla indica que los nombres en -eau añaden -x en plural. La pista es «les» y el verbo en plural «sont». «Couteau» pasa a «couteaux». La -x no se pronuncia, igual que la -s.",
+   "origen": "tatoeba:837325",
+   "explicacion_breve": "Los nombres en -eau añaden -x en plural.",
+   "traduccion": "¿Dónde están los cuchillos?",
+   "errores_previstos": [
+    {
+     "respuesta": "couteaus",
+     "explicacion": "Los nombres en -eau añaden -x, no -s: «couteaux»."
+    },
+    {
+     "respuesta": "couteau",
+     "explicacion": "Falta la marca de plural: aunque no se oiga, se escribe «couteaux»."
+    },
+    {
+     "respuesta": "couteals",
+     "explicacion": "«Couteau» no termina en -al; solo añade -x: «couteaux»."
+    }
+   ]
+  },
+  {
+   "id": "e04",
+   "tipo": "hueco",
+   "enunciado": "Escribe el plural del nombre entre paréntesis.",
+   "frase": "Tom télécharge des ___. (jeu)",
+   "respuestas": [
+    "jeux"
+   ],
+   "explicacion": "Según la tabla, los nombres en -eu añaden -x en plural. La pista es el artículo plural «des». «Jeu» pasa a «jeux». (Hay excepciones raras con -s, como «pneus», pero «jeu» sigue la regla.)",
+   "origen": "tatoeba:1675992",
+   "explicacion_breve": "Los nombres en -eu añaden -x en plural.",
+   "traduccion": "Tom se descarga juegos.",
+   "errores_previstos": [
+    {
+     "respuesta": "jeus",
+     "explicacion": "Los nombres en -eu añaden -x: «jeux»."
+    },
+    {
+     "respuesta": "jeu",
+     "explicacion": "Tras «des» hace falta el plural, aunque suene igual: «jeux»."
+    },
+    {
+     "respuesta": "jeuxs",
+     "explicacion": "Solo se añade -x, sin -s detrás."
+    }
+   ]
+  },
+  {
+   "id": "e05",
+   "tipo": "hueco",
+   "enunciado": "Escribe el plural del nombre entre paréntesis.",
+   "frase": "Il a les ___ courts. (cheveu)",
+   "respuestas": [
+    "cheveux"
+   ],
+   "explicacion": "«Cheveu» termina en -eu y, según la tabla, añade -x en plural: «cheveux». La pista es el artículo «les» y el adjetivo «courts» en plural. En francés el pelo de la cabeza se dice en plural («les cheveux»), mientras que el español usa el singular.",
+   "origen": "tatoeba:1947395",
+   "explicacion_breve": "Cheveu termina en -eu, así que el plural lleva -x.",
+   "traduccion": "Tiene el pelo corto.",
+   "errores_previstos": [
+    {
+     "respuesta": "cheveus",
+     "explicacion": "Los nombres en -eu añaden -x: «cheveux»."
+    },
+    {
+     "respuesta": "cheveu",
+     "explicacion": "Es el error que recoge la ficha: el plural se escribe aunque no se oiga, «cheveux»."
+    },
+    {
+     "respuesta": "chevaux",
+     "explicacion": "«Chevaux» es el plural de «cheval» (caballos); el de «cheveu» es «cheveux»."
+    }
+   ]
+  },
+  {
+   "id": "e06",
+   "tipo": "transformar",
+   "enunciado": "Pasa la frase al plural.",
+   "frase": "C'est un animal.",
+   "respuestas": [
+    "Ce sont des animaux."
+   ],
+   "explicacion": "Al pasar a plural cambian tres elementos: «c'est» pasa a «ce sont», el artículo «un» a «des» y el sustantivo en -al a -aux, según la tabla. Por eso «Ce sont des animaux». La ficha recoge «des animals» como error típico.",
+   "origen": "tatoeba:592646",
+   "explicacion_breve": "C'est pasa a ce sont, un a des y animal a animaux.",
+   "traduccion": "Son animales.",
+   "errores_previstos": [
+    {
+     "respuesta": "Ce sont des animals.",
+     "explicacion": "Los nombres en -al hacen el plural en -aux: «animaux»."
+    },
+    {
+     "respuesta": "C'est des animaux.",
+     "explicacion": "En la lengua hablada se oye «c'est des…», pero la norma escrita pide «ce sont» con un plural."
+    },
+    {
+     "respuesta": "Ce sont les animaux.",
+     "explicacion": "El plural de «un» es «des», no «les»; «les animaux» significaría «los animales» concretos."
+    }
+   ]
+  },
+  {
+   "id": "e07",
+   "tipo": "transformar",
+   "enunciado": "Pasa la frase al plural.",
+   "frase": "C'est un oiseau.",
+   "respuestas": [
+    "Ce sont des oiseaux."
+   ],
+   "explicacion": "Los nombres en -eau añaden -x en plural, como indica la tabla: «oiseau» → «oiseaux». Además «c'est» pasa a «ce sont» y «un» a «des». La pista es la terminación -eau del sustantivo.",
+   "origen": "tatoeba:880004",
+   "explicacion_breve": "Los nombres en -eau añaden -x: oiseaux.",
+   "traduccion": "Son pájaros.",
+   "errores_previstos": [
+    {
+     "respuesta": "Ce sont des oiseaus.",
+     "explicacion": "Los nombres en -eau añaden -x: «oiseaux»."
+    },
+    {
+     "respuesta": "Ce sont des oiseau.",
+     "explicacion": "Falta la marca de plural en el sustantivo."
+    },
+    {
+     "respuesta": "Ce sont un oiseaux.",
+     "explicacion": "El artículo también pasa a plural: «des»."
+    }
+   ]
+  },
+  {
+   "id": "e08",
+   "tipo": "transformar",
+   "enunciado": "Pasa la frase al plural.",
+   "frase": "C'est un cadeau.",
+   "respuestas": [
+    "Ce sont des cadeaux."
+   ],
+   "explicacion": "Es la misma regla de la tabla para los nombres en -eau: añaden -x en plural, así que «cadeau» pasa a «cadeaux». Se transforman además «c'est» en «ce sont» y el artículo «un» en «des». La pista es la terminación -eau del sustantivo; la -x final no se pronuncia.",
+   "origen": "tatoeba:1254060",
+   "explicacion_breve": "Cadeau termina en -eau, plural cadeaux.",
+   "traduccion": "Son regalos.",
+   "errores_previstos": [
+    {
+     "respuesta": "Ce sont des cadeaus.",
+     "explicacion": "Los nombres en -eau añaden -x, no -s."
+    },
+    {
+     "respuesta": "C'est des cadeaux.",
+     "explicacion": "En la norma escrita, con un plural se usa «ce sont»."
+    },
+    {
+     "respuesta": "Ce sont des cadeau.",
+     "explicacion": "Falta la -x del plural en el sustantivo."
+    }
+   ]
+  },
+  {
+   "id": "e09",
+   "tipo": "ordenar",
+   "enunciado": "Ordena las palabras.",
+   "palabras": [
+    "les",
+    "voir",
+    "chevaux",
+    "Je",
+    "veux"
+   ],
+   "respuestas": [
+    "Je veux voir les chevaux"
+   ],
+   "explicacion": "El orden es sujeto «Je», verbo conjugado «veux», infinitivo «voir» y complemento «les chevaux», con el plural en -aux de los nombres en -al. La pista es «veux», el único verbo conjugado, que va inmediatamente detrás del sujeto.",
+   "origen": "tatoeba:5680608",
+   "explicacion_breve": "Sujeto, verbo conjugado, infinitivo y complemento: les chevaux.",
+   "traduccion": "Quiero ver los caballos.",
+   "errores_previstos": [
+    {
+     "respuesta": "Je veux les chevaux voir",
+     "explicacion": "El complemento va detrás del infinitivo: «voir les chevaux»."
+    },
+    {
+     "respuesta": "Je les chevaux veux voir",
+     "explicacion": "Un sustantivo complemento nunca se coloca delante del verbo como si fuera un pronombre."
+    }
+   ]
+  },
+  {
+   "id": "e10",
+   "tipo": "eleccion",
+   "enunciado": "Elige el artículo correcto.",
+   "frase": "___ lait est froid.",
+   "opciones": [
+    "Le",
+    "La",
+    "L'"
+   ],
+   "respuestas": [
+    "Le"
+   ],
+   "explicacion": "Es una de las palabras de género cruzado de la tabla: «le lait» es masculino, aunque en español «la leche» sea femenino. La pista es la palabra «lait», que empieza por consonante, así que no hay elisión. El adjetivo «froid», en masculino, lo confirma.",
+   "explicacion_breve": "Lait es masculino en francés, aunque leche sea femenino en español.",
+   "traduccion": "La leche está fría.",
+   "por_opcion": {
+    "Le": "Correcta: «lait» es masculino.",
+    "La": "Incorrecta: es el calco del español «la leche»; la ficha lo recoge como error típico.",
+    "L'": "Incorrecta: el artículo elidido solo se usa ante vocal o h muda, y «lait» empieza por l."
+   }
+  },
+  {
+   "id": "e11",
+   "tipo": "eleccion",
+   "enunciado": "Elige el artículo correcto.",
+   "frase": "Nous passons l'été au bord de ___ mer.",
+   "opciones": [
+    "la",
+    "le",
+    "l'"
+   ],
+   "respuestas": [
+    "la"
+   ],
+   "explicacion": "Otra palabra de género cruzado de la tabla: «la mer» es femenino, al contrario que «el mar». La pista es el propio sustantivo «mer», que empieza por consonante, así que no admite «l'». Por eso «au bord de la mer».",
+   "explicacion_breve": "Mer es femenino (la mer), al contrario que el mar.",
+   "traduccion": "Pasamos el verano a la orilla del mar.",
+   "por_opcion": {
+    "la": "Correcta: «mer» es femenino en francés.",
+    "le": "Incorrecta: es el calco del español «el mar».",
+    "l'": "Incorrecta: solo se usa ante vocal o h muda; «mer» empieza por consonante."
+   }
+  },
+  {
+   "id": "e12",
+   "tipo": "hueco",
+   "enunciado": "Escribe el femenino de la palabra entre paréntesis.",
+   "frase": "Mon frère est acteur et ma sœur est ___. (acteur)",
+   "respuestas": [
+    "actrice"
+   ],
+   "explicacion": "Se aplica la regla de los nombres de persona de la ficha: muchos sustantivos en -teur hacen el femenino en -trice. La pista es «ma sœur», que exige el femenino. Por eso «acteur» pasa a «actrice», igual que en español actor → actriz.",
+   "explicacion_breve": "Muchos nombres en -teur hacen el femenino en -trice.",
+   "traduccion": "Mi hermano es actor y mi hermana es actriz.",
+   "errores_previstos": [
+    {
+     "respuesta": "acteuse",
+     "explicacion": "La terminación -euse corresponde a -eur (vendeur → vendeuse); los nombres en -teur suelen dar -trice: «actrice»."
+    },
+    {
+     "respuesta": "actrise",
+     "explicacion": "Se escribe con c: «actrice»."
+    },
+    {
+     "respuesta": "acteure",
+     "explicacion": "Añadir -e no sirve aquí; el femenino de «acteur» es «actrice»."
+    }
+   ]
+  },
+  {
+   "id": "e13",
+   "tipo": "hueco",
+   "enunciado": "Escribe el femenino de la palabra entre paréntesis.",
+   "frase": "Paul est vendeur et Julie est ___ dans le même magasin. (vendeur)",
+   "respuestas": [
+    "vendeuse"
+   ],
+   "explicacion": "La ficha indica que los nombres en -eur que derivan de un verbo pasan a -euse en femenino: «vendeur» (de «vendre») → «vendeuse». La pista es el sujeto femenino «Julie». A diferencia de «acteur», aquí no se usa -trice.",
+   "explicacion_breve": "Vendeur forma el femenino en -euse.",
+   "traduccion": "Paul es dependiente y Julie es dependienta en la misma tienda.",
+   "errores_previstos": [
+    {
+     "respuesta": "vendatrice",
+     "explicacion": "La terminación -trice es para los nombres en -teur como «acteur»; «vendeur» da «vendeuse»."
+    },
+    {
+     "respuesta": "vendeure",
+     "explicacion": "Añadir -e no forma el femenino de «vendeur»; es «vendeuse»."
+    },
+    {
+     "respuesta": "vendeur",
+     "explicacion": "Falta el femenino: Julie es mujer, «vendeuse»."
+    }
+   ]
+  },
+  {
+   "id": "e14",
+   "tipo": "corregir",
+   "enunciado": "Corrige el error.",
+   "frase": "J'achète deux journals le dimanche.",
+   "respuestas": [
+    "J'achète deux journaux le dimanche."
+   ],
+   "explicacion": "«Journal» termina en -al y forma el plural en -aux, según la tabla: «journaux». La pista es el numeral «deux», que exige plural. «Journal» no está entre las excepciones con -als (bal, carnaval, festival, récital).",
+   "explicacion_breve": "Journal termina en -al, así que el plural es journaux.",
+   "traduccion": "Compro dos periódicos los domingos.",
+   "errores_previstos": [
+    {
+     "respuesta": "J'achète deux journals le dimanche.",
+     "explicacion": "Es dejar la frase sin corregir: los nombres en -al hacen el plural en -aux."
+    },
+    {
+     "respuesta": "J'achète deux journeaux le dimanche.",
+     "explicacion": "El plural es «journaux», sin e: solo cambia -al por -aux."
+    },
+    {
+     "respuesta": "J'achète deux journal le dimanche.",
+     "explicacion": "Tras «deux» hace falta el plural: «journaux»."
+    }
+   ]
+  },
+  {
+   "id": "e15",
+   "tipo": "corregir",
+   "enunciado": "Corrige el error.",
+   "frase": "Mon pantalon a deux troux.",
+   "respuestas": [
+    "Mon pantalon a deux trous."
+   ],
+   "explicacion": "La tabla explica que los nombres en -ou hacen el plural con -s, salvo siete que llevan -x (bijoux, cailloux, choux, genoux, hiboux, joujoux, poux). «Trou» no está en esa lista, así que su plural es «trous». La pista es la palabra «trou» y el numeral «deux».",
+   "explicacion_breve": "Trou es de los nombres en -ou que hacen el plural con -s; solo siete llevan -x.",
+   "traduccion": "Mi pantalón tiene dos agujeros.",
+   "errores_previstos": [
+    {
+     "respuesta": "Mon pantalon a deux troux.",
+     "explicacion": "Es dejar la frase sin corregir: «trou» no es de los siete nombres en -ou con -x."
+    },
+    {
+     "respuesta": "Mon pantalon a deux trou.",
+     "explicacion": "Falta el plural tras «deux»: «trous»."
+    },
+    {
+     "respuesta": "Mon pantalon a deux troues.",
+     "explicacion": "El plural de «trou» solo añade -s; no hay ninguna -e: «trous»."
+    }
+   ]
+  },
+  {
+   "id": "e16",
+   "tipo": "corregir",
+   "enunciado": "Corrige el error.",
+   "frase": "Le voiture de Marie est rouge.",
+   "respuestas": [
+    "La voiture de Marie est rouge."
+   ],
+   "explicacion": "«Voiture» es femenino en francés, aunque «el coche» sea masculino en español; además, como recuerda la ficha, las palabras en -ure suelen ser femeninas. Por eso hay que cambiar «Le» por «La». El adjetivo «rouge» no cambia porque ya termina en -e.",
+   "explicacion_breve": "Voiture es femenino en francés.",
+   "traduccion": "El coche de Marie es rojo.",
+   "errores_previstos": [
+    {
+     "respuesta": "Le voiture de Marie est rouge.",
+     "explicacion": "Es dejar la frase sin corregir: «voiture» es femenino."
+    },
+    {
+     "respuesta": "L'voiture de Marie est rouge.",
+     "explicacion": "La elisión solo se hace ante vocal o h muda; «voiture» empieza por v: «la voiture»."
+    },
+    {
+     "respuesta": "La voiture de Marie est rougee.",
+     "explicacion": "«Rouge» ya termina en -e y no añade otra en femenino."
+    }
+   ]
+  }
  ],
- "fuente": {"nombre": "Tex's French Grammar", "autores": "COERLL, Universidad de Texas en Austin", "licencia": "CC BY 3.0", "url": "https://laits.utexas.edu/tex/gr/no2.html", "otras": ["Frases de Tatoeba (CC BY 2.0 FR)"]}
+ "fuente": {
+  "nombre": "Tex's French Grammar",
+  "autores": "COERLL, Universidad de Texas en Austin",
+  "licencia": "CC BY 3.0",
+  "url": "https://laits.utexas.edu/tex/gr/no2.html",
+  "otras": [
+   "Frases de Tatoeba (CC BY 2.0 FR)"
+  ]
+ },
+ "descripcion_larga_es": "Todo sustantivo francés es masculino o femenino y singular o plural. El género hay que aprenderlo con el artículo, porque muchas palabras lo cambian respecto al español (le lait, la mer), aunque algunas terminaciones ayudan. El plural se forma casi siempre con una -s que no se pronuncia, con familias especiales (-al → -aux, -eau → -eaux). Al hispanohablante le cuesta el género cruzado y escribir un plural que no se oye.",
+ "contexto": {
+  "que_es": "Es el sistema que clasifica los sustantivos en masculinos y femeninos y que marca su número. En francés no hay neutro. El género es en gran parte arbitrario, aunque algunas terminaciones son orientativas, y el plural tiene una regla general (añadir -s) y varios grupos con -x o formas especiales.",
+  "por_que_importa": "El género y el número determinan la forma de artículos, adjetivos, pronombres y participios, así que un error en el sustantivo se arrastra por toda la frase. Como la -s del plural no se oye, en la lengua hablada el determinante es la única marca, y en la escrita olvidar el plural irregular (animals, journals) es un fallo muy visible en cualquier examen.",
+  "cuando_se_usa": "Interviene en cada sustantivo que se usa. Hay que estar alerta con las palabras de género cruzado respecto al español (le lait, le nez, le sang, la mer, la dent, la couleur), con las profesiones que cambian de terminación en femenino (acteur → actrice) y con los plurales en -al, -eau, -eu y -ou. El hispanohablante tiende a trasladar el género español y a pluralizar todo con -s."
+ }
 }

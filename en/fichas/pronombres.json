@@ -117,7 +117,23 @@
    "respuestas": [
     "him"
    ],
-   "explicacion": "Tom es he y como objeto: him."
+   "explicacion": "Se aplica la tabla de la ficha: he (sujeto) tiene como forma de objeto him. Tom es un hombre y aquí es el objeto del verbo see (lo veo), por eso va him, detrás del verbo. En español el pronombre va delante («lo veo»), pero en inglés el objeto siempre sigue al verbo.",
+   "explicacion_breve": "Tom es he y como objeto: him.",
+   "traduccion": "¿Dónde está Tom? No lo veo.",
+   "errores_previstos": [
+    {
+     "respuesta": "he",
+     "explicacion": "He es pronombre de sujeto; como objeto del verbo see hace falta him."
+    },
+    {
+     "respuesta": "his",
+     "explicacion": "His es posesivo (su); para el objeto se usa him."
+    },
+    {
+     "respuesta": "it",
+     "explicacion": "It se usa para cosas y animales; para una persona (Tom) va him."
+    }
+   ]
   },
   {
    "id": "e02",
@@ -127,7 +143,23 @@
    "respuestas": [
     "them"
    ],
-   "explicacion": "These songs es they y como objeto: them."
+   "explicacion": "La regla de la ficha dice que tras una preposición siempre va el pronombre de objeto. Listen to lleva la preposición to, y lo que se escucha son these songs, plural, que equivale a they. Su forma de objeto es them. En español «las escucho» va delante del verbo, pero en inglés va detrás de la preposición: listen to them.",
+   "explicacion_breve": "These songs es they y como objeto: them.",
+   "traduccion": "Me encantan estas canciones. Las escucho todos los días.",
+   "errores_previstos": [
+    {
+     "respuesta": "they",
+     "explicacion": "They es sujeto; tras la preposición to va la forma de objeto, them."
+    },
+    {
+     "respuesta": "it",
+     "explicacion": "These songs es plural: them, no it."
+    },
+    {
+     "respuesta": "their",
+     "explicacion": "Their es posesivo (su, sus); como objeto va them."
+    }
+   ]
   },
   {
    "id": "e03",
@@ -137,7 +169,23 @@
    "respuestas": [
     "us"
    ],
-   "explicacion": "Nos llama a nosotros: us."
+   "explicacion": "Según la tabla de la ficha, we (sujeto) se convierte en us cuando es objeto. La pista es la segunda frase, We always talk, que muestra que los llamados somos nosotros. Mi madre es quien llama (sujeto) y nosotros recibimos la llamada (objeto), por lo que va us detrás de phones.",
+   "explicacion_breve": "Nos llama a nosotros: us.",
+   "traduccion": "Mi madre nos llama todos los domingos. Siempre hablamos una hora.",
+   "errores_previstos": [
+    {
+     "respuesta": "we",
+     "explicacion": "We es la forma de sujeto; como objeto de phones hace falta us."
+    },
+    {
+     "respuesta": "our",
+     "explicacion": "Our es posesivo (nuestro); como objeto va us."
+    },
+    {
+     "respuesta": "ourselves",
+     "explicacion": "El reflexivo solo se usa si sujeto y objeto coinciden; aquí llama la madre: us."
+    }
+   ]
   },
   {
    "id": "e04",
@@ -147,7 +195,29 @@
    "respuestas": [
     "She"
    ],
-   "explicacion": "Laura como sujeto: she."
+   "explicacion": "La ficha recuerda que en inglés el sujeto no se omite nunca, aunque en español digamos solo «trabaja». Laura es una mujer y realiza la acción de works, así que hace falta el pronombre de sujeto she. Va con mayúscula por estar al comienzo de la frase. Bookshop es «librería» (no «biblioteca», que es library).",
+   "explicacion_breve": "Laura como sujeto: she.",
+   "traduccion": "Laura es mi amiga. Trabaja en una librería.",
+   "errores_previstos": [
+    {
+     "respuesta": "Her",
+     "explicacion": "Her es objeto o posesivo; como sujeto de works hace falta She."
+    },
+    {
+     "respuesta": "He",
+     "explicacion": "Laura es una mujer: She."
+    },
+    {
+     "respuesta": "It",
+     "explicacion": "It es para cosas y animales; para una persona va She."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "bookshop",
+     "significado": "librería (tienda de libros)"
+    }
+   ]
   },
   {
    "id": "e05",
@@ -157,7 +227,23 @@
    "respuestas": [
     "It"
    ],
-   "explicacion": "La hora se dice con it como sujeto."
+   "explicacion": "La ficha explica que it funciona como sujeto vacío para la hora, el tiempo y otras situaciones: It's raining, It's late. En español decimos «son las seis y media» sin sujeto, pero en inglés hace falta It is (It's) half past six. Half past six significa «las seis y media».",
+   "explicacion_breve": "La hora se dice con it como sujeto.",
+   "traduccion": "¿Qué hora es? Son las seis y media.",
+   "errores_previstos": [
+    {
+     "respuesta": "They",
+     "explicacion": "Calco de «son las»: la hora siempre se dice con it en singular."
+    },
+    {
+     "respuesta": "This",
+     "explicacion": "Para la hora se usa el sujeto vacío it, no this."
+    },
+    {
+     "respuesta": "There",
+     "explicacion": "There is sirve para decir que algo existe; la hora va con It is."
+    }
+   ]
   },
   {
    "id": "e06",
@@ -172,7 +258,14 @@
    "respuestas": [
     "me"
    ],
-   "explicacion": "Objeto del verbo help: me."
+   "explicacion": "Según la tabla de la ficha, I (sujeto) se convierte en me cuando es objeto. Aquí quien ayuda es you y quien recibe la ayuda soy yo, por lo que tras el verbo help va me. En español el pronombre se pega al verbo («ayudarme»), pero en inglés va separado y detrás.",
+   "explicacion_breve": "Objeto del verbo help: me.",
+   "traduccion": "¿Puedes ayudarme, por favor?",
+   "por_opcion": {
+    "I": "I es la forma de sujeto; tras el verbo help se necesita el objeto, me.",
+    "me": "Correcta: pronombre de objeto de la primera persona del singular.",
+    "my": "My es un posesivo y necesita un sustantivo detrás (my bag)."
+   }
   },
   {
    "id": "e07",
@@ -187,7 +280,14 @@
    "respuestas": [
     "her"
    ],
-   "explicacion": "Tras preposición: pronombre de objeto."
+   "explicacion": "La ficha establece que detrás de una preposición siempre va el pronombre de objeto. For es preposición, así que va her. Fíjate en que her sirve tanto de objeto (for her) como de posesivo (her letter); en este caso es objeto porque no le sigue un sustantivo.",
+   "explicacion_breve": "Tras preposición: pronombre de objeto.",
+   "traduccion": "Esta carta es para ella.",
+   "por_opcion": {
+    "she": "She es pronombre de sujeto; tras la preposición for va la forma de objeto.",
+    "her": "Correcta: pronombre de objeto detrás de la preposición for.",
+    "hers": "Hers es un pronombre posesivo («suya»): This letter is hers significaría que la carta le pertenece, y no va tras for."
+   }
   },
   {
    "id": "e08",
@@ -202,7 +302,14 @@
    "respuestas": [
     "They"
    ],
-   "explicacion": "Sujeto del verbo are: they."
+   "explicacion": "La ficha recuerda que delante del verbo va el pronombre de sujeto. El hueco es el sujeto de are, de modo que hace falta they. Them sería objeto y their es un posesivo que exige un sustantivo detrás. En español podríamos decir solo «son mis mejores amigos», pero en inglés el sujeto es obligatorio.",
+   "explicacion_breve": "Sujeto del verbo are: they.",
+   "traduccion": "Ellos son mis mejores amigos.",
+   "por_opcion": {
+    "Them": "Them es pronombre de objeto; no puede ser sujeto de are.",
+    "They": "Correcta: pronombre de sujeto para el plural.",
+    "Their": "Their es posesivo (su, sus) y necesita un sustantivo detrás (their friends)."
+   }
   },
   {
    "id": "e09",
@@ -213,7 +320,23 @@
     "I can't find them.",
     "I cannot find them."
    ],
-   "explicacion": "The keys es plural y objeto: them."
+   "explicacion": "La regla de la tabla de la ficha dice que they tiene como objeto them. The keys es plural y es el objeto de find, por lo que se sustituye por them, que se queda detrás del verbo. En español el pronombre va delante («no las encuentro»), pero en inglés el orden no cambia al sustituir: I can't find them.",
+   "explicacion_breve": "The keys es plural y objeto: them.",
+   "traduccion": "No las encuentro.",
+   "errores_previstos": [
+    {
+     "respuesta": "I can't find it.",
+     "explicacion": "The keys es plural: them, no it."
+    },
+    {
+     "respuesta": "I them can't find.",
+     "explicacion": "Calco del orden español: el objeto va detrás del verbo, find them."
+    },
+    {
+     "respuesta": "I can't find they.",
+     "explicacion": "They es sujeto; como objeto hace falta them."
+    }
+   ]
   },
   {
    "id": "e10",
@@ -223,7 +346,23 @@
    "respuestas": [
     "I often visit her."
    ],
-   "explicacion": "My sister como objeto: her."
+   "explicacion": "La tabla de la ficha muestra que she se convierte en her como objeto. My sister es el objeto de visit, por lo que se cambia por her, en el mismo lugar, detrás del verbo. El adverbio often se mantiene delante del verbo, como ocurre con los adverbios de frecuencia.",
+   "explicacion_breve": "My sister como objeto: her.",
+   "traduccion": "Visito a menudo a mi hermana. (La visito a menudo.)",
+   "errores_previstos": [
+    {
+     "respuesta": "I often visit she.",
+     "explicacion": "She es la forma de sujeto; como objeto hace falta her."
+    },
+    {
+     "respuesta": "I her often visit.",
+     "explicacion": "El objeto va detrás del verbo: visit her."
+    },
+    {
+     "respuesta": "I often visit it.",
+     "explicacion": "It es para cosas; para una persona, my sister, va her."
+    }
+   ]
   },
   {
    "id": "e11",
@@ -234,7 +373,23 @@
     "It is very late.",
     "It's very late."
    ],
-   "explicacion": "Falta el sujeto it."
+   "explicacion": "La ficha explica que en inglés el sujeto es obligatorio y que it funciona como sujeto vacío para la hora y situaciones como It's late. En español «es muy tarde» no lleva sujeto, y el calco deja la frase sin él. Hay que añadir It al principio: It is very late o It's very late.",
+   "explicacion_breve": "Falta el sujeto it.",
+   "traduccion": "Es muy tarde.",
+   "errores_previstos": [
+    {
+     "respuesta": "Is very late.",
+     "explicacion": "Es la frase sin corregir: falta el sujeto vacío it."
+    },
+    {
+     "respuesta": "This is very late.",
+     "explicacion": "Para la hora o el momento se usa el sujeto vacío it, no this."
+    },
+    {
+     "respuesta": "Is it very late.",
+     "explicacion": "Así sería una pregunta; para afirmar, el sujeto va delante: It is very late."
+    }
+   ]
   },
   {
    "id": "e12",
@@ -244,7 +399,23 @@
    "respuestas": [
     "Come with us to the beach!"
    ],
-   "explicacion": "Tras with va el pronombre de objeto us."
+   "explicacion": "Según la ficha, detrás de una preposición siempre va el pronombre de objeto. With es preposición, de modo que we (sujeto) debe cambiarse por us (objeto). En español «con nosotros» usa la misma forma que el sujeto, y por eso se tiende a decir with we.",
+   "explicacion_breve": "Tras with va el pronombre de objeto us.",
+   "traduccion": "¡Venid con nosotros a la playa!",
+   "errores_previstos": [
+    {
+     "respuesta": "Come with we to the beach!",
+     "explicacion": "Es la frase sin corregir: tras with va us."
+    },
+    {
+     "respuesta": "Come with our to the beach!",
+     "explicacion": "Our es posesivo y necesita sustantivo; tras with va us."
+    },
+    {
+     "respuesta": "Come with ourselves to the beach!",
+     "explicacion": "El reflexivo no corresponde aquí: el objeto de la preposición es simplemente us."
+    }
+   ]
   },
   {
    "id": "e13",
@@ -255,7 +426,23 @@
     "He is my cousin.",
     "He's my cousin."
    ],
-   "explicacion": "Como sujeto se usa he."
+   "explicacion": "La ficha recuerda que delante del verbo va el pronombre de sujeto. El hueco es el sujeto de is, así que him (objeto) debe sustituirse por he. La contracción He's my cousin también es correcta. Cousin significa «primo» o «prima»; no se usa para «sobrino» (nephew).",
+   "explicacion_breve": "Como sujeto se usa he.",
+   "traduccion": "Él es mi primo.",
+   "errores_previstos": [
+    {
+     "respuesta": "Him is my cousin.",
+     "explicacion": "Es la frase sin corregir: como sujeto se usa he."
+    },
+    {
+     "respuesta": "His is my cousin.",
+     "explicacion": "His es posesivo; el sujeto de is debe ser he."
+    },
+    {
+     "respuesta": "Is my cousin.",
+     "explicacion": "En inglés el sujeto no se puede omitir: He is my cousin."
+    }
+   ]
   },
   {
    "id": "e14",
@@ -272,10 +459,28 @@
    "respuestas": [
     "I don't know them very well"
    ],
-   "explicacion": "Sujeto + verbo + objeto + adverbio."
+   "explicacion": "La ficha recoge el orden básico: sujeto + verbo + objeto, y el adverbio detrás. El sujeto es I, el verbo negativo don't know, el objeto them, y very well cierra la frase. En español el pronombre va delante del verbo («no los conozco»), pero en inglés va detrás, y very well no se coloca entre el verbo y el objeto.",
+   "explicacion_breve": "Sujeto + verbo + objeto + adverbio.",
+   "traduccion": "No los conozco muy bien.",
+   "errores_previstos": [
+    {
+     "respuesta": "I don't them know very well",
+     "explicacion": "Calco del español: el objeto them va detrás del verbo know."
+    },
+    {
+     "respuesta": "I don't know very well them",
+     "explicacion": "El adverbio no se coloca entre el verbo y el objeto: know them very well."
+    }
+   ]
   }
  ],
  "fuente": {
   "nombre": "propia"
+ },
+ "descripcion_larga_es": "Los pronombres personales de sujeto (I, he, she…) y de objeto (me, him, her…) permiten no repetir nombres. En inglés el sujeto es obligatorio, incluso it para la hora o el tiempo, y el pronombre de objeto va detrás del verbo o de la preposición. Al hispanohablante le cuesta no omitir el sujeto (Is late), no anteponer el objeto y usar me o us tras preposición.",
+ "contexto": {
+  "que_es": "Son las palabras que sustituyen a una persona o cosa ya mencionada. Hay dos series: la de sujeto (I, you, he, she, it, we, they), que realiza la acción, y la de objeto (me, you, him, her, it, us, them), que la recibe o va tras una preposición.",
+  "por_que_importa": "Aparecen en casi todas las frases, así que un error aquí se repite constantemente. Omitir el sujeto o usar la forma equivocada (Him is my cousin, with we) suena muy extranjero y puede llegar a confundir de quién se habla. Usar bien it como sujeto vacío es clave para la hora, el tiempo atmosférico y muchas valoraciones (It's important that…).",
+  "cuando_se_usa": "El de sujeto, delante del verbo en toda oración con verbo conjugado; el de objeto, detrás del verbo (I see her), detrás de una preposición (for them) y en respuestas cortas (It's me). El hispanohablante, acostumbrado a omitir el sujeto y a colocar el objeto delante del verbo («la veo»), tiende a escribir Is late o a dudar del orden."
  }
 }

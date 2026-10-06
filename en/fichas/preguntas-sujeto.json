@@ -110,22 +110,36 @@
    "respuestas": [
     "scored"
    ],
-   "explicacion": "Who es el sujeto: verbo en pasado sin did."
+   "explicacion": "Se aplica la regla de la pregunta de sujeto: cuando who pregunta por quien hace la acción, no se usa do/does/did y el verbo va en su forma afirmativa. La pista es que la respuesta sería el sujeto (Messi scored the first goal), y que detrás del hueco viene el objeto, the first goal. Por eso es Who scored…?, con el verbo en past simple sin auxiliar.",
+   "explicacion_breve": "Who es el sujeto: verbo en pasado sin did.",
+   "traduccion": "¿Quién marcó el primer gol?",
+   "por_opcion": {
+    "scored": "Correcta: pregunta de sujeto, verbo en pasado sin did.",
+    "did score": "Incorrecta en una pregunta neutra: who es el sujeto y no lleva did. Solo se oye para dar énfasis o contradecir (Who did score, then?), un uso especial que no es el que se pide.",
+    "did scored": "Incorrecta: además de sobrar did, tras did el verbo nunca va en pasado."
+   }
   },
   {
    "id": "e02",
    "tipo": "eleccion",
    "enunciado": "Elige la opción correcta.",
-   "frase": "Who ___ at the station?",
+   "frase": "Who ___ at the station? — I met my cousin.",
    "opciones": [
     "you met",
     "did you meet",
-    "met you"
+    "did you met"
    ],
    "respuestas": [
     "did you meet"
    ],
-   "explicacion": "Who es el objeto (tú conociste a alguien): did + sujeto + infinitivo."
+   "explicacion": "Se aplica la regla de la pregunta de objeto: palabra interrogativa + auxiliar + sujeto + verbo. La respuesta (I met my cousin) muestra que who es el objeto: tú (you) te encontraste con alguien, y preguntamos por esa persona. Por eso es Who did you meet…?, con did y el verbo en infinitivo, sin -ed, porque el pasado ya lo marca did.",
+   "explicacion_breve": "Who es el objeto (tú te encontraste con alguien): did + sujeto + infinitivo.",
+   "traduccion": "¿Con quién te encontraste en la estación? — Con mi primo.",
+   "por_opcion": {
+    "you met": "Incorrecta: en una pregunta de objeto hace falta el auxiliar did antes del sujeto; «Who you met?» tiene orden de afirmativa.",
+    "did you meet": "Correcta: pregunta de objeto (tú te encontraste con alguien), con did + sujeto + infinitivo.",
+    "did you met": "Incorrecta: tras did el verbo va en infinitivo (meet); el pasado ya lo expresa did y no se marca dos veces."
+   }
   },
   {
    "id": "e03",
@@ -140,7 +154,14 @@
    "respuestas": [
     "happened"
    ],
-   "explicacion": "What es el sujeto: sin did."
+   "explicacion": "Se aplica la regla de la pregunta de sujeto: what ocupa el lugar del sujeto y el verbo va como en una afirmativa, sin did. La pista es que lo que buscamos es lo que ocurrió, que sería el sujeto de la respuesta (An accident happened to my car). Además, happen es intransitivo: no tiene objeto, así que nunca puede formar una pregunta de objeto. Por eso es What happened…?",
+   "explicacion_breve": "What es el sujeto: sin did.",
+   "traduccion": "¿Qué le ha pasado a tu coche?",
+   "por_opcion": {
+    "did happen": "Incorrecta: what es el sujeto y no lleva did (salvo un uso enfático muy especial).",
+    "happened": "Correcta: pregunta de sujeto, verbo en past simple sin auxiliar.",
+    "did it happen": "Incorrecta: introduce un sujeto it que sobra, porque el sujeto ya es what."
+   }
   },
   {
    "id": "e04",
@@ -155,7 +176,14 @@
    "respuestas": [
     "speaks"
    ],
-   "explicacion": "Pregunta de sujeto en presente: tercera persona singular."
+   "explicacion": "Se aplica la regla de la ficha según la cual en la pregunta de sujeto el verbo concuerda en tercera persona del singular, aunque la respuesta pueda ser plural. La pista es que who es el sujeto (se pregunta quién habla) y el verbo está en presente, así que lleva -s: Who speaks…? No se añade does porque es una pregunta de sujeto.",
+   "explicacion_breve": "Pregunta de sujeto en presente: tercera persona singular.",
+   "traduccion": "¿Quién habla español en tu oficina?",
+   "por_opcion": {
+    "speak": "Incorrecta: who como sujeto concuerda en tercera persona del singular: speaks.",
+    "speaks": "Correcta: pregunta de sujeto en presente, con -s de tercera persona.",
+    "does speak": "Incorrecta en una pregunta neutra: en las preguntas de sujeto no se usa does."
+   }
   },
   {
    "id": "e05",
@@ -165,7 +193,23 @@
    "respuestas": [
     "wrote"
    ],
-   "explicacion": "Pregunta de sujeto: Who wrote...?"
+   "explicacion": "Se aplica la regla de la pregunta de sujeto: who pregunta por el autor, que sería el sujeto de la respuesta (Cervantes wrote Don Quixote). Por eso el verbo va en past simple sin did, en su forma afirmativa. Write es irregular y su pasado es wrote. La instrucción lo advierte: sin auxiliar si no hace falta.",
+   "explicacion_breve": "Pregunta de sujeto: Who wrote...?",
+   "traduccion": "¿Quién escribió el Quijote?",
+   "errores_previstos": [
+    {
+     "respuesta": "did write",
+     "explicacion": "Who es el sujeto: no se usa did. Lo correcto es Who wrote…?"
+    },
+    {
+     "respuesta": "writed",
+     "explicacion": "Write es irregular: su pasado es wrote."
+    },
+    {
+     "respuesta": "written",
+     "explicacion": "Written es el participio; sin have, el pasado es wrote."
+    }
+   ]
   },
   {
    "id": "e06",
@@ -175,7 +219,23 @@
    "respuestas": [
     "did"
    ],
-   "explicacion": "Pregunta de objeto en pasado: did."
+   "explicacion": "Se aplica la regla de la pregunta de objeto: palabra interrogativa + auxiliar + sujeto + verbo. La pista es que la frase ya tiene sujeto, you, así que what pregunta por el objeto (lo que comiste). Como el tiempo es pasado (yesterday) y el verbo have va en forma base, el auxiliar es did: What did you have for dinner?",
+   "explicacion_breve": "Pregunta de objeto en pasado: did.",
+   "traduccion": "¿Qué cenaste ayer?",
+   "errores_previstos": [
+    {
+     "respuesta": "do",
+     "explicacion": "Yesterday indica pasado: el auxiliar es did."
+    },
+    {
+     "respuesta": "have",
+     "explicacion": "Have es aquí el verbo principal (tomar, comer); la pregunta necesita además el auxiliar did."
+    },
+    {
+     "respuesta": "had",
+     "explicacion": "Had no funciona como auxiliar con el infinitivo have; hace falta did."
+    }
+   ]
   },
   {
    "id": "e07",
@@ -185,7 +245,23 @@
    "respuestas": [
     "does"
    ],
-   "explicacion": "Pregunta de objeto en presente con sujeto de tercera persona: does."
+   "explicacion": "Se aplica la regla de la pregunta de objeto y la nota de la ficha según la cual la preposición suele ir al final (Who are you talking to?). La pista es que la frase ya tiene sujeto, your sister, y who pregunta por la persona con la que trabaja. Como el tiempo es presente y el sujeto es de tercera persona, el auxiliar es does, y el verbo queda en forma base, work.",
+   "explicacion_breve": "Pregunta de objeto en presente con sujeto de tercera persona: does.",
+   "traduccion": "¿Con quién trabaja tu hermana?",
+   "errores_previstos": [
+    {
+     "respuesta": "do",
+     "explicacion": "Your sister es tercera persona del singular: does."
+    },
+    {
+     "respuesta": "is",
+     "explicacion": "Is forma el presente continuo con -ing (is working); con la forma base work hace falta does."
+    },
+    {
+     "respuesta": "did",
+     "explicacion": "No hay ninguna señal de pasado; la frase es de presente habitual: does."
+    }
+   ]
   },
   {
    "id": "e08",
@@ -195,7 +271,23 @@
    "respuestas": [
     "Who sent the email?"
    ],
-   "explicacion": "Pregunta de sujeto: who + verbo en pasado."
+   "explicacion": "Se aplica la regla de la pregunta de sujeto: si se pregunta por la persona que hace la acción (Laura), who ocupa su lugar y el resto de la frase queda igual, sin did. La pista es la instrucción: Laura es quien envía, es decir, el sujeto. Basta con sustituir Laura por Who y mantener sent the email: Who sent the email?",
+   "explicacion_breve": "Pregunta de sujeto: who + verbo en pasado.",
+   "traduccion": "¿Quién envió el correo?",
+   "errores_previstos": [
+    {
+     "respuesta": "Who did send the email?",
+     "explicacion": "En la pregunta de sujeto no se usa did; el verbo va en pasado: Who sent…?"
+    },
+    {
+     "respuesta": "Who did Laura send?",
+     "explicacion": "Esta es una pregunta de objeto (¿qué o a quién envió Laura?), no por la persona que envió."
+    },
+    {
+     "respuesta": "Who sended the email?",
+     "explicacion": "Send es irregular: su pasado es sent."
+    }
+   ]
   },
   {
    "id": "e09",
@@ -206,7 +298,23 @@
     "Who did Laura call?",
     "Whom did Laura call?"
    ],
-   "explicacion": "Pregunta de objeto: who + did + sujeto + infinitivo."
+   "explicacion": "Se aplica la regla de la pregunta de objeto: who + did + sujeto + infinitivo. La pista es la instrucción: se pregunta por Javier, que recibe la acción (el objeto), mientras que Laura sigue siendo el sujeto. Por eso hace falta did, y called vuelve a la forma base call. También se acepta whom, que es la forma de objeto formal; en el inglés hablado lo normal es who.",
+   "explicacion_breve": "Pregunta de objeto: who + did + sujeto + infinitivo.",
+   "traduccion": "¿A quién llamó Laura?",
+   "errores_previstos": [
+    {
+     "respuesta": "Who called Laura?",
+     "explicacion": "Esta pregunta tiene who como sujeto: pregunta quién llamó a Laura, no a quién llamó ella."
+    },
+    {
+     "respuesta": "Who did Laura called?",
+     "explicacion": "Tras did el verbo va en infinitivo: call."
+    },
+    {
+     "respuesta": "To who did Laura call?",
+     "explicacion": "Calco de «¿a quién?»: call lleva objeto directo, sin preposición."
+    }
+   ]
   },
   {
    "id": "e10",
@@ -216,7 +324,23 @@
    "respuestas": [
     "What woke you up?"
    ],
-   "explicacion": "The noise es el sujeto: what + verbo, sin did."
+   "explicacion": "Se aplica la regla de la pregunta de sujeto: the noise es el sujeto (lo que despertó), así que what lo sustituye y no se usa did. La pista es la instrucción, que pide preguntar por la causa, el ruido, que en la frase original va delante del verbo. Además, me pasa a you porque ahora la pregunta se dirige a la persona: What woke you up?",
+   "explicacion_breve": "The noise es el sujeto: what + verbo, sin did.",
+   "traduccion": "¿Qué te despertó?",
+   "errores_previstos": [
+    {
+     "respuesta": "What did wake you up?",
+     "explicacion": "What es el sujeto: no se usa did. Lo correcto es What woke you up?"
+    },
+    {
+     "respuesta": "What woke me up?",
+     "explicacion": "La pregunta va dirigida a la otra persona: me tiene que pasar a you."
+    },
+    {
+     "respuesta": "What did you wake up?",
+     "explicacion": "Esta pregunta toma you como sujeto y cambia el sentido («¿a qué despertaste tú?»)."
+    }
+   ]
   },
   {
    "id": "e11",
@@ -226,7 +350,23 @@
    "respuestas": [
     "Who won the election?"
    ],
-   "explicacion": "Who es el sujeto: sin did."
+   "explicacion": "Se aplica la regla de la pregunta de sujeto: who pregunta por quien ganó, que es el sujeto, así que no lleva did. El error de la frase viene de generalizar la regla de que las preguntas en pasado llevan did. La pista es que la respuesta sería el sujeto (The Labour Party won the election). Por eso el verbo va en past simple: won, el pasado irregular de win.",
+   "explicacion_breve": "Who es el sujeto: sin did.",
+   "traduccion": "¿Quién ganó las elecciones?",
+   "errores_previstos": [
+    {
+     "respuesta": "Who did win the election?",
+     "explicacion": "Es la frase sin corregir: en la pregunta de sujeto sobra did (solo se usaría con énfasis especial)."
+    },
+    {
+     "respuesta": "Who win the election?",
+     "explicacion": "Se ha quitado did pero el verbo ha quedado en presente; el pasado de win es won."
+    },
+    {
+     "respuesta": "Who winned the election?",
+     "explicacion": "Win es irregular: su pasado es won."
+    }
+   ]
   },
   {
    "id": "e12",
@@ -236,7 +376,23 @@
    "respuestas": [
     "What do you want for your birthday?"
    ],
-   "explicacion": "Pregunta de objeto en presente: falta do."
+   "explicacion": "Se aplica la regla de la pregunta de objeto: palabra interrogativa + auxiliar + sujeto + verbo. La pista es que la frase tiene sujeto, you, y what pregunta por el objeto (lo que quieres). Como el tiempo es presente y el sujeto es you, el auxiliar es do: What do you want…? Sin auxiliar, la frase conserva el orden de una afirmativa y es incorrecta.",
+   "explicacion_breve": "Pregunta de objeto en presente: falta do.",
+   "traduccion": "¿Qué quieres por tu cumpleaños?",
+   "errores_previstos": [
+    {
+     "respuesta": "What you want for your birthday?",
+     "explicacion": "Es la frase sin corregir: en la pregunta de objeto falta el auxiliar do."
+    },
+    {
+     "respuesta": "What does you want for your birthday?",
+     "explicacion": "Con you el auxiliar es do, no does."
+    },
+    {
+     "respuesta": "What want you for your birthday?",
+     "explicacion": "En inglés moderno no se invierte el verbo principal; hace falta do: What do you want?"
+    }
+   ]
   },
   {
    "id": "e13",
@@ -246,7 +402,23 @@
    "respuestas": [
     "Who wants a cup of tea?"
    ],
-   "explicacion": "En preguntas de sujeto el verbo va en tercera persona del singular."
+   "explicacion": "Se aplica la regla de la ficha según la cual en las preguntas de sujeto el verbo concuerda en tercera persona del singular, aunque la respuesta pueda ser plural (Who wants coffee?). La pista es que who es el sujeto y el verbo está en presente. Por eso want pasa a wants. Aunque esperemos que respondan varias personas, la forma es singular.",
+   "explicacion_breve": "En preguntas de sujeto el verbo va en tercera persona del singular.",
+   "traduccion": "¿Quién quiere una taza de té?",
+   "errores_previstos": [
+    {
+     "respuesta": "Who want a cup of tea?",
+     "explicacion": "Es la frase sin corregir: con who como sujeto, el verbo lleva -s."
+    },
+    {
+     "respuesta": "Who does want a cup of tea?",
+     "explicacion": "En una pregunta de sujeto no se añade does."
+    },
+    {
+     "respuesta": "Who do want a cup of tea?",
+     "explicacion": "Ni do ni does: la pregunta de sujeto no lleva auxiliar y el verbo va con -s."
+    }
+   ]
   },
   {
    "id": "e14",
@@ -262,7 +434,23 @@
    "respuestas": [
     "Who did you talk to"
    ],
-   "explicacion": "Pregunta de objeto con la preposición al final."
+   "explicacion": "Se aplica la regla de la pregunta de objeto y la nota de la ficha según la cual la preposición suele ir al final: Who are you talking to? La pista es que you es el sujeto y who el objeto de la preposición to (hablaste con alguien), así que hace falta did. El orden es Who + did + you + talk + to. Poner la preposición delante (To whom did you talk?) es muy formal y no es lo que se practica aquí.",
+   "explicacion_breve": "Pregunta de objeto con la preposición al final.",
+   "traduccion": "¿Con quién hablaste?",
+   "errores_previstos": [
+    {
+     "respuesta": "To who did you talk",
+     "explicacion": "Calco de «¿con quién?»: en inglés la preposición va normalmente al final; delante, solo en registro formal y con whom."
+    },
+    {
+     "respuesta": "Who you did talk to",
+     "explicacion": "El auxiliar did va antes del sujeto: Who did you talk to."
+    },
+    {
+     "respuesta": "Who did talk you to",
+     "explicacion": "El sujeto you va entre did y el verbo: did you talk."
+    }
+   ]
   },
   {
    "id": "e15",
@@ -278,10 +466,32 @@
    "respuestas": [
     "Which team won the league"
    ],
-   "explicacion": "Pregunta de sujeto: which + sustantivo + verbo."
+   "explicacion": "Se aplica la regla de la pregunta de sujeto con which + sustantivo: which team ocupa el lugar del sujeto y el orden es el de una afirmativa, sin did. La pista es que se pregunta por el equipo que ganó, es decir, por el sujeto, y que entre las palabras no hay ningún auxiliar. Por eso es Which team won the league?",
+   "explicacion_breve": "Pregunta de sujeto: which + sustantivo + verbo.",
+   "traduccion": "¿Qué equipo ganó la liga?",
+   "errores_previstos": [
+    {
+     "respuesta": "Which won team the league",
+     "explicacion": "Which y su sustantivo forman un bloque: which team, y luego el verbo."
+    },
+    {
+     "respuesta": "The league which team won",
+     "explicacion": "Calco de un orden con el objeto delante: en la pregunta, which team va al principio."
+    },
+    {
+     "respuesta": "Which team the league won",
+     "explicacion": "El orden de la pregunta de sujeto es el de una afirmativa: sujeto + verbo + objeto."
+    }
+   ]
   }
  ],
  "fuente": {
   "nombre": "propia"
+ },
+ "descripcion_larga_es": "Cuando who, what o which preguntan por el sujeto (quien hace la acción), la pregunta no lleva do, does ni did y conserva el orden de la frase afirmativa: Who called? Cuando preguntan por el objeto, sí lleva auxiliar: Who did you call? Al hispanohablante le cuesta porque en español ambas preguntas se forman igual y porque, tras aprender que las preguntas llevan do, lo pone en todas.",
+ "contexto": {
+  "que_es": "Son dos tipos de pregunta con who, what o which. En la pregunta de sujeto la palabra interrogativa ocupa el lugar del sujeto y el verbo va como en una afirmativa (Who wrote this?). En la pregunta de objeto la palabra interrogativa sustituye al complemento y la pregunta sigue la estructura habitual con auxiliar (What did she write?).",
+  "por_que_importa": "La diferencia cambia el sentido: Who called Tom? pregunta quién llamó, y Who did Tom call? a quién llamó Tom. Además, poner did en una pregunta de sujeto («Who did win?») o quitarlo en una de objeto («What you want?») son errores muy visibles. En un examen oral, preguntar con naturalidad «What happened?» o «Who told you?» da fluidez.",
+  "cuando_se_usa": "Pregunta de sujeto cuando no sabemos quién o qué hizo algo: Who won?, What happened?, Which team scored? Pregunta de objeto cuando conocemos al que actúa y buscamos el complemento: Who did you meet? La señal es preguntarse si la respuesta sería el sujeto de la frase. En español no hay diferencia de forma («¿quién llamó?», «¿a quién llamaste?»), salvo la preposición a."
  }
 }

@@ -6,54 +6,552 @@
  "nivel": "B1",
  "resumen": "En un relato, el passé composé cuenta lo que pasó (los hechos, uno tras otro) y el imparfait describe el decorado: cómo eran las cosas, qué estaba ocurriendo y qué se hacía habitualmente. Funciona casi igual que el pretérito indefinido frente al imperfecto del español.",
  "explicacion": [
-  {"tipo": "texto", "texto": "Pregunta clave: si el verbo responde a «¿qué pasó?», va en passé composé; si responde a «¿qué estaba pasando, cómo era, qué se solía hacer?», va en imparfait. Como en español, el passé composé francés equivale aquí a nuestro indefinido: Je suis allé à Kyoto = Fui a Kioto."},
-  {"tipo": "tabla", "cabecera": ["Imparfait (decorado)", "Passé composé (acontecimiento)"], "filas": [
-   ["Avant, Tammy habitait à Fort Worth…", "…et un jour, elle a déménagé."],
-   ["Il était occupé…", "…lorsque je l'ai appelé."],
-   ["Comme il faisait très chaud,", "le chocolat a fondu."]
-  ]},
-  {"tipo": "tabla", "cabecera": ["Suelen ir con imparfait", "Suelen ir con passé composé"], "filas": [
-   ["tous les jours, chaque matin (costumbre)", "un jour, un matin, un soir"],
-   ["en général, d'habitude, souvent, toujours", "soudain, tout à coup, tout d'un coup"],
-   ["autrefois, à l'époque, quand j'étais petit", "tout de suite, d'abord, puis, ensuite, enfin"]
-  ]},
-  {"tipo": "lista", "items": [
-   "être, avoir, pouvoir, vouloir, savoir suelen ir en imparfait (estados); en passé composé indican un cambio: Quand j'avais 15 ans… / Quand j'ai eu 18 ans (cumplí 18), j'ai déménagé.",
-   "Un periodo cerrado y medido (pendant un an, de 1997 à 1998) pide passé composé: Pendant un an, Tex a été vendeur.",
-   "Al final decide el contexto, no el adverbio: Un jour, Tex vendait des T-shirts quand il a été arrêté (escena interrumpida)."
-  ]},
-  {"tipo": "texto", "texto": "Truco para hispanohablantes: donde en español pondrías «estaba + gerundio» o imperfecto, pon imparfait; donde pondrías indefinido («fui», «llamé»), pon passé composé (o passé simple en lo escrito literario)."}
+  {
+   "tipo": "texto",
+   "texto": "Pregunta clave: si el verbo responde a «¿qué pasó?», va en passé composé; si responde a «¿qué estaba pasando, cómo era, qué se solía hacer?», va en imparfait. Como en español, el passé composé francés equivale aquí a nuestro indefinido: Je suis allé à Kyoto = Fui a Kioto."
+  },
+  {
+   "tipo": "tabla",
+   "cabecera": [
+    "Imparfait (decorado)",
+    "Passé composé (acontecimiento)"
+   ],
+   "filas": [
+    [
+     "Avant, Tammy habitait à Fort Worth…",
+     "…et un jour, elle a déménagé."
+    ],
+    [
+     "Il était occupé…",
+     "…lorsque je l'ai appelé."
+    ],
+    [
+     "Comme il faisait très chaud,",
+     "le chocolat a fondu."
+    ]
+   ]
+  },
+  {
+   "tipo": "tabla",
+   "cabecera": [
+    "Suelen ir con imparfait",
+    "Suelen ir con passé composé"
+   ],
+   "filas": [
+    [
+     "tous les jours, chaque matin (costumbre)",
+     "un jour, un matin, un soir"
+    ],
+    [
+     "en général, d'habitude, souvent, toujours",
+     "soudain, tout à coup, tout d'un coup"
+    ],
+    [
+     "autrefois, à l'époque, quand j'étais petit",
+     "tout de suite, d'abord, puis, ensuite, enfin"
+    ]
+   ]
+  },
+  {
+   "tipo": "lista",
+   "items": [
+    "être, avoir, pouvoir, vouloir, savoir suelen ir en imparfait (estados); en passé composé indican un cambio: Quand j'avais 15 ans… / Quand j'ai eu 18 ans (cumplí 18), j'ai déménagé.",
+    "Un periodo cerrado y medido (pendant un an, de 1997 à 1998) pide passé composé: Pendant un an, Tex a été vendeur.",
+    "Al final decide el contexto, no el adverbio: Un jour, Tex vendait des T-shirts quand il a été arrêté (escena interrumpida)."
+   ]
+  },
+  {
+   "tipo": "texto",
+   "texto": "Truco para hispanohablantes: donde en español pondrías «estaba + gerundio» o imperfecto, pon imparfait; donde pondrías indefinido («fui», «llamé»), pon passé composé (o passé simple en lo escrito literario)."
+  }
  ],
  "ejemplos": [
-  {"frase": "Il était occupé lorsque je l'ai appelé.", "traduccion": "Estaba ocupado cuando lo llamé."},
-  {"frase": "Le magasin était fermé quand j'y suis allé.", "traduccion": "Cuando fui, la tienda estaba cerrada."},
-  {"frase": "Comme il faisait très froid hier, je suis resté à la maison.", "traduccion": "Como ayer hacía mucho frío, me quedé en casa."},
-  {"frase": "Quand Tex était petit, il habitait près de Houston.", "traduccion": "Cuando Tex era pequeño, vivía cerca de Houston."},
-  {"frase": "Un jour, pendant une promenade, il s'est perdu.", "traduccion": "Un día, durante un paseo, se perdió."},
-  {"frase": "Mon père était sur le point de partir quand le téléphone a sonné.", "traduccion": "Mi padre estaba a punto de salir cuando sonó el teléfono."}
+  {
+   "frase": "Il était occupé lorsque je l'ai appelé.",
+   "traduccion": "Estaba ocupado cuando lo llamé."
+  },
+  {
+   "frase": "Le magasin était fermé quand j'y suis allé.",
+   "traduccion": "Cuando fui, la tienda estaba cerrada."
+  },
+  {
+   "frase": "Comme il faisait très froid hier, je suis resté à la maison.",
+   "traduccion": "Como ayer hacía mucho frío, me quedé en casa."
+  },
+  {
+   "frase": "Quand Tex était petit, il habitait près de Houston.",
+   "traduccion": "Cuando Tex era pequeño, vivía cerca de Houston."
+  },
+  {
+   "frase": "Un jour, pendant une promenade, il s'est perdu.",
+   "traduccion": "Un día, durante un paseo, se perdió."
+  },
+  {
+   "frase": "Mon père était sur le point de partir quand le téléphone a sonné.",
+   "traduccion": "Mi padre estaba a punto de salir cuando sonó el teléfono."
+  }
  ],
  "errores_hispanohablantes": [
-  {"mal": "Hier j'allais au cinéma et j'ai vu un bon film.", "bien": "Hier je suis allé au cinéma et j'ai vu un bon film.", "nota": "Una acción puntual y terminada (ayer fui) va en passé composé, igual que «fui» en español."},
-  {"mal": "Quand j'ai été petit, j'ai joué au foot tous les jours.", "bien": "Quand j'étais petit, je jouais au foot tous les jours.", "nota": "Etapa de la vida y costumbre: imparfait, como el imperfecto español «era», «jugaba»."},
-  {"mal": "Pendant deux ans, elle travaillait à Londres.", "bien": "Pendant deux ans, elle a travaillé à Londres.", "nota": "Un periodo cerrado y medido se cuenta en passé composé."}
+  {
+   "mal": "Hier j'allais au cinéma et j'ai vu un bon film.",
+   "bien": "Hier je suis allé au cinéma et j'ai vu un bon film.",
+   "nota": "Una acción puntual y terminada (ayer fui) va en passé composé, igual que «fui» en español."
+  },
+  {
+   "mal": "Quand j'ai été petit, j'ai joué au foot tous les jours.",
+   "bien": "Quand j'étais petit, je jouais au foot tous les jours.",
+   "nota": "Etapa de la vida y costumbre: imparfait, como el imperfecto español «era», «jugaba»."
+  },
+  {
+   "mal": "Pendant deux ans, elle travaillait à Londres.",
+   "bien": "Pendant deux ans, elle a travaillé à Londres.",
+   "nota": "Un periodo cerrado y medido se cuenta en passé composé."
+  }
  ],
  "ejercicios": [
-  {"id": "e01", "tipo": "eleccion", "enunciado": "Elige el tiempo correcto.", "frase": "Il ___ occupé lorsque je l'ai appelé.", "opciones": ["était", "a été", "est"], "respuestas": ["était"], "explicacion": "Estado de fondo en el que se produce la llamada: imparfait.", "origen": "tatoeba:599730"},
-  {"id": "e02", "tipo": "hueco", "enunciado": "Completa con el passé composé o el imparfait.", "frase": "Le magasin était fermé quand j'y ___. (aller)", "respuestas": ["suis allé", "suis allée"], "explicacion": "Acción puntual que ocurre sobre el decorado (la tienda estaba cerrada): passé composé.", "origen": "tatoeba:1156158"},
-  {"id": "e03", "tipo": "hueco", "enunciado": "Completa con el passé composé o el imparfait.", "frase": "Comme il ___ très chaud, le chocolat a fondu. (faire)", "respuestas": ["faisait"], "explicacion": "El tiempo atmosférico como circunstancia: imparfait.", "origen": "tatoeba:2491332"},
-  {"id": "e04", "tipo": "hueco", "enunciado": "Completa con el passé composé o el imparfait.", "frase": "Il était presque midi quand je me ___. (réveiller)", "respuestas": ["suis réveillé", "suis réveillée"], "explicacion": "Despertarse es el acontecimiento: passé composé (con être, por ser pronominal).", "origen": "tatoeba:135414"},
-  {"id": "e05", "tipo": "eleccion", "enunciado": "Elige el tiempo correcto.", "frase": "Ken ___ en train de lire quand je suis rentré à la maison.", "opciones": ["était", "a été", "est"], "respuestas": ["était"], "explicacion": "Acción en curso interrumpida por otra: être en train de en imparfait.", "origen": "tatoeba:783995"},
-  {"id": "e06", "tipo": "eleccion", "enunciado": "Elige el tiempo correcto.", "frase": "Mon père était sur le point de partir quand le téléphone ___.", "opciones": ["sonnait", "a sonné", "sonne"], "respuestas": ["a sonné"], "explicacion": "El teléfono que suena es el hecho que interrumpe: passé composé.", "origen": "tatoeba:455593"},
-  {"id": "e07", "tipo": "corregir", "enunciado": "Corrige el error.", "frase": "Comme il faisait très froid hier, je restais à la maison.", "respuestas": ["Comme il faisait très froid hier, je suis resté à la maison.", "Comme il faisait très froid hier, je suis restée à la maison."], "explicacion": "Quedarse en casa ayer es un hecho concreto y cerrado: passé composé.", "origen": "tatoeba:584669"},
-  {"id": "e08", "tipo": "corregir", "enunciado": "Corrige el error.", "frase": "Il a été déjà tard, donc je suis rentré à la maison.", "respuestas": ["Il était déjà tard, donc je suis rentré à la maison."], "explicacion": "La hora es una circunstancia: il était tard (era tarde).", "origen": "tatoeba:543337"},
-  {"id": "e09", "tipo": "hueco", "enunciado": "Completa con el passé composé o el imparfait.", "frase": "Le film était si triste que tout le monde ___. (pleurer)", "respuestas": ["a pleuré"], "explicacion": "La consecuencia es un hecho: passé composé.", "origen": "tatoeba:337161"},
-  {"id": "e10", "tipo": "transformar", "enunciado": "Pasa la frase al pasado, eligiendo imparfait o passé composé según convenga.", "frase": "Il est fatigué, mais il continue à travailler.", "respuestas": ["Il était fatigué, mais il a continué à travailler.", "Il était fatigué, mais il continuait à travailler."], "explicacion": "El cansancio es un estado (imparfait); seguir trabajando es lo que hizo (passé composé), aunque el imparfait (continuait) también es posible si se describe la situación.", "origen": "tatoeba:1359173"},
-  {"id": "e11", "tipo": "hueco", "enunciado": "Completa con el passé composé o el imparfait.", "frase": "Quand j'___ quinze ans, j'habitais à Fort Worth. (avoir)", "respuestas": ["avais"], "explicacion": "Edad como etapa (tener quince años): imparfait."},
-  {"id": "e12", "tipo": "eleccion", "enunciado": "Elige el tiempo correcto.", "frase": "Pendant un an, Tex ___ vendeur de T-shirts.", "opciones": ["était", "a été", "est"], "respuestas": ["a été"], "explicacion": "Periodo cerrado y medido (pendant un an): passé composé."},
-  {"id": "e13", "tipo": "ordenar", "enunciado": "Ordena las palabras.", "palabras": ["rentré", "était", "chez", "épuisé", "Il", "est", "il", "quand", "lui"], "respuestas": ["Il était épuisé quand il est rentré chez lui", "Quand il est rentré chez lui il était épuisé"], "explicacion": "Estado (était épuisé) + momento puntual (est rentré).", "origen": "tatoeba:14457"},
-  {"id": "e14", "tipo": "hueco", "enunciado": "Completa con el passé composé o el imparfait.", "frase": "C'était un livre si intéressant que je l'___ en un jour. (lire)", "respuestas": ["ai lu"], "explicacion": "Leerlo en un día es una acción terminada: passé composé.", "origen": "tatoeba:2109225"},
-  {"id": "e15", "tipo": "eleccion", "enunciado": "Elige el tiempo correcto.", "frase": "Quand j'étais petit, j'___ souvent chez ma grand-mère.", "opciones": ["allais", "suis allé", "vais"], "respuestas": ["allais"], "explicacion": "Costumbre en una etapa pasada (souvent, quand j'étais petit): imparfait."},
-  {"id": "e16", "tipo": "hueco", "enunciado": "Completa con el passé composé o el imparfait.", "frase": "Nous dînions tranquillement quand, soudain, quelqu'un ___ à la porte. (frapper)", "respuestas": ["a frappé"], "explicacion": "Soudain introduce un hecho que interrumpe la escena: passé composé."}
+  {
+   "id": "e01",
+   "tipo": "eleccion",
+   "enunciado": "Elige el tiempo correcto.",
+   "frase": "Il ___ occupé lorsque je l'ai appelé.",
+   "opciones": [
+    "était",
+    "a été",
+    "est"
+   ],
+   "respuestas": [
+    "était"
+   ],
+   "explicacion": "La ficha da exactamente este ejemplo en la tabla de decorado frente a acontecimiento: el estado de fondo (estar ocupado) va en imparfait y el hecho que ocurre sobre él (la llamada) en passé composé. La pista es lorsque je l'ai appelé, que ya está en passé composé y marca el momento puntual. Être, como verbo de estado, suele ir en imparfait: il était occupé.",
+   "origen": "tatoeba:599730",
+   "explicacion_breve": "Estado de fondo en el que se produce la llamada: imparfait.",
+   "traduccion": "Estaba ocupado cuando lo llamé.",
+   "por_opcion": {
+    "était": "Correcta: imparfait de être para el estado de fondo en el que se produce la llamada.",
+    "a été": "Incorrecta aquí: il a été occupé presentaría el estar ocupado como un hecho cerrado, no como la situación en curso al llamar.",
+    "est": "Incorrecta: es presente y choca con el pasado de la otra parte de la frase."
+   }
+  },
+  {
+   "id": "e02",
+   "tipo": "hueco",
+   "enunciado": "Completa con el passé composé o el imparfait.",
+   "frase": "Le magasin était fermé quand j'y ___. (aller)",
+   "respuestas": [
+    "suis allé",
+    "suis allée"
+   ],
+   "explicacion": "El decorado ya está en imparfait (le magasin était fermé) y lo que falta es el acontecimiento: ir a la tienda, una acción puntual y terminada, en passé composé. Aller se conjuga con être, así que la forma es je suis allé o, si habla una mujer, je suis allée. Y aparece porque sustituye a la tienda: «fui allí».",
+   "origen": "tatoeba:1156158",
+   "explicacion_breve": "Acción puntual que ocurre sobre el decorado (la tienda estaba cerrada): passé composé.",
+   "traduccion": "La tienda estaba cerrada cuando fui.",
+   "errores_previstos": [
+    {
+     "respuesta": "allais",
+     "explicacion": "El imparfait presentaría la ida como fondo o costumbre; aquí es el hecho puntual: suis allé."
+    },
+    {
+     "respuesta": "ai allé",
+     "explicacion": "Aller forma el passé composé con être: suis allé."
+    },
+    {
+     "respuesta": "suis allés",
+     "explicacion": "Je es una sola persona: allé o allée, sin -s."
+    }
+   ]
+  },
+  {
+   "id": "e03",
+   "tipo": "hueco",
+   "enunciado": "Completa con el passé composé o el imparfait.",
+   "frase": "Comme il ___ très chaud, le chocolat a fondu. (faire)",
+   "respuestas": [
+    "faisait"
+   ],
+   "explicacion": "La ficha usa esta misma frase como ejemplo: el tiempo atmosférico es una circunstancia, parte del decorado, y va en imparfait. La consecuencia, que el chocolate se derritiera, es el acontecimiento y ya está en passé composé (a fondu). La pista es comme (como, puesto que), que introduce la causa o situación de fondo. Faire en imparfait con il: il faisait.",
+   "origen": "tatoeba:2491332",
+   "explicacion_breve": "El tiempo atmosférico como circunstancia: imparfait.",
+   "traduccion": "Como hacía mucho calor, el chocolate se derritió.",
+   "errores_previstos": [
+    {
+     "respuesta": "a fait",
+     "explicacion": "El calor es la situación de fondo, no un hecho puntual: il faisait très chaud."
+    },
+    {
+     "respuesta": "fesait",
+     "explicacion": "Aunque se pronuncia «fesait», la ortografía es faisait, con ai."
+    },
+    {
+     "respuesta": "faisais",
+     "explicacion": "Faisais es la forma de je y tu; con il es faisait."
+    }
+   ]
+  },
+  {
+   "id": "e04",
+   "tipo": "hueco",
+   "enunciado": "Completa con el passé composé o el imparfait.",
+   "frase": "Il était presque midi quand je me ___. (réveiller)",
+   "respuestas": [
+    "suis réveillé",
+    "suis réveillée"
+   ],
+   "explicacion": "La hora (il était presque midi) es el decorado en imparfait; despertarse es el acontecimiento, que va en passé composé. Se réveiller es pronominal, así que se conjuga con être: je me suis réveillé, o réveillée si habla una mujer. Es el esquema de la ficha: circunstancia en imparfait + quand + hecho en passé composé.",
+   "origen": "tatoeba:135414",
+   "explicacion_breve": "Despertarse es el acontecimiento: passé composé (con être, por ser pronominal).",
+   "traduccion": "Era casi mediodía cuando me desperté.",
+   "errores_previstos": [
+    {
+     "respuesta": "réveillais",
+     "explicacion": "El imparfait lo presentaría como algo en curso o habitual; despertarse aquí es el hecho puntual: suis réveillé."
+    },
+    {
+     "respuesta": "ai réveillé",
+     "explicacion": "Se réveiller es pronominal y usa être: je me suis réveillé."
+    },
+    {
+     "respuesta": "suis réveiller",
+     "explicacion": "Tras el auxiliar va el participio réveillé, no el infinitivo."
+    }
+   ]
+  },
+  {
+   "id": "e05",
+   "tipo": "eleccion",
+   "enunciado": "Elige el tiempo correcto.",
+   "frase": "Ken ___ en train de lire quand je suis rentré à la maison.",
+   "opciones": [
+    "était",
+    "a été",
+    "est"
+   ],
+   "respuestas": [
+    "était"
+   ],
+   "explicacion": "Être en train de + infinitivo equivale a «estar + gerundio» y, como indica el truco de la ficha, donde en español pondrías «estaba + gerundio» va imparfait. Es la acción en curso interrumpida por otra (quand je suis rentré, en passé composé). Por eso, Ken était en train de lire.",
+   "origen": "tatoeba:783995",
+   "explicacion_breve": "Acción en curso interrumpida por otra: être en train de en imparfait.",
+   "traduccion": "Ken estaba leyendo cuando volví a casa.",
+   "por_opcion": {
+    "était": "Correcta: imparfait para la acción en curso (estaba leyendo) interrumpida por la llegada.",
+    "a été": "Incorrecta: el passé composé presentaría la lectura como un hecho cerrado, incompatible con en train de interrumpido.",
+    "est": "Incorrecta: el presente no encaja con el pasado de quand je suis rentré."
+   }
+  },
+  {
+   "id": "e06",
+   "tipo": "eleccion",
+   "enunciado": "Elige el tiempo correcto.",
+   "frase": "Mon père était sur le point de partir quand le téléphone ___.",
+   "opciones": [
+    "sonnait",
+    "a sonné",
+    "sonne"
+   ],
+   "respuestas": [
+    "a sonné"
+   ],
+   "explicacion": "La primera parte (était sur le point de partir) describe la situación en imparfait; lo que falta es el hecho que la interrumpe. El teléfono suena una vez, en un momento concreto: passé composé, a sonné. Es el mismo esquema que en la tabla de la ficha: decorado en imparfait + quand + acontecimiento en passé composé.",
+   "origen": "tatoeba:455593",
+   "explicacion_breve": "El teléfono que suena es el hecho que interrumpe: passé composé.",
+   "traduccion": "Mi padre estaba a punto de salir cuando sonó el teléfono.",
+   "por_opcion": {
+    "sonnait": "Incorrecta: sonnait lo describiría como algo que estaba sonando de fondo, no como el hecho que interrumpe.",
+    "a sonné": "Correcta: el timbrazo es el acontecimiento puntual que interrumpe la escena.",
+    "sonne": "Incorrecta: es presente y no encaja con un relato en pasado."
+   }
+  },
+  {
+   "id": "e07",
+   "tipo": "corregir",
+   "enunciado": "Corrige el error.",
+   "frase": "Comme il faisait très froid hier, je restais à la maison.",
+   "respuestas": [
+    "Comme il faisait très froid hier, je suis resté à la maison.",
+    "Comme il faisait très froid hier, je suis restée à la maison."
+   ],
+   "explicacion": "La causa (hacía frío) es decorado y va bien en imparfait, pero quedarse en casa ayer es lo que pasó, un hecho concreto y cerrado: passé composé. Rester va con être, así que je suis resté o, si habla una mujer, je suis restée. Je restais significaría que tenía la costumbre de quedarme o que estaba quedándome, que no es lo que se cuenta.",
+   "origen": "tatoeba:584669",
+   "explicacion_breve": "Quedarse en casa ayer es un hecho concreto y cerrado: passé composé.",
+   "traduccion": "Como ayer hacía mucho frío, me quedé en casa.",
+   "errores_previstos": [
+    {
+     "respuesta": "Comme il faisait très froid hier, je restais à la maison.",
+     "explicacion": "Es la frase sin corregir: quedarse en casa ayer es un hecho cerrado y va en passé composé."
+    },
+    {
+     "respuesta": "Comme il a fait très froid hier, je suis resté à la maison.",
+     "explicacion": "Se cambia el tiempo equivocado: el frío es la circunstancia de fondo y debe seguir en imparfait."
+    },
+    {
+     "respuesta": "Comme il faisait très froid hier, j'ai resté à la maison.",
+     "explicacion": "Rester forma el passé composé con être: je suis resté."
+    }
+   ]
+  },
+  {
+   "id": "e08",
+   "tipo": "corregir",
+   "enunciado": "Corrige el error.",
+   "frase": "Il a été déjà tard, donc je suis rentré à la maison.",
+   "respuestas": [
+    "Il était déjà tard, donc je suis rentré à la maison."
+   ],
+   "explicacion": "La hora es siempre una circunstancia, parte del decorado, y por eso va en imparfait: il était tard (era tarde). Il a été tard no es natural en francés. La consecuencia, volver a casa, es el hecho y ya está bien en passé composé. Además, déjà se coloca tras el verbo conjugado: il était déjà tard.",
+   "origen": "tatoeba:543337",
+   "explicacion_breve": "La hora es una circunstancia: il était tard (era tarde).",
+   "traduccion": "Ya era tarde, así que volví a casa.",
+   "errores_previstos": [
+    {
+     "respuesta": "Il a été déjà tard, donc je suis rentré à la maison.",
+     "explicacion": "Es la frase sin corregir: la hora es circunstancia y va en imparfait, il était."
+    },
+    {
+     "respuesta": "Il était déjà tard, donc je rentrais à la maison.",
+     "explicacion": "Se ha cambiado también el hecho: volver a casa es lo que pasó y debe seguir en passé composé."
+    },
+    {
+     "respuesta": "Il est déjà tard, donc je suis rentré à la maison.",
+     "explicacion": "El presente no encaja con un relato en pasado: il était déjà tard."
+    }
+   ]
+  },
+  {
+   "id": "e09",
+   "tipo": "hueco",
+   "enunciado": "Completa con el passé composé o el imparfait.",
+   "frase": "Le film était si triste que tout le monde ___. (pleurer)",
+   "respuestas": [
+    "a pleuré"
+   ],
+   "explicacion": "La primera parte describe la película (était si triste), un estado en imparfait. La consecuencia que introduce que es lo que ocurrió: todos lloraron, un hecho, en passé composé. Tout le monde es singular en francés (como «todo el mundo»), así que el auxiliar es a: tout le monde a pleuré.",
+   "origen": "tatoeba:337161",
+   "explicacion_breve": "La consecuencia es un hecho: passé composé.",
+   "traduccion": "La película era tan triste que todo el mundo lloró.",
+   "errores_previstos": [
+    {
+     "respuesta": "pleurait",
+     "explicacion": "El imparfait describiría a la gente llorando de fondo; aquí el llanto es la consecuencia, un hecho: a pleuré."
+    },
+    {
+     "respuesta": "ont pleuré",
+     "explicacion": "Tout le monde concuerda en singular, igual que «todo el mundo lloró»: a pleuré."
+    },
+    {
+     "respuesta": "est pleuré",
+     "explicacion": "Pleurer se conjuga con avoir: a pleuré."
+    }
+   ]
+  },
+  {
+   "id": "e10",
+   "tipo": "transformar",
+   "enunciado": "Pasa la frase al pasado, eligiendo imparfait o passé composé según convenga.",
+   "frase": "Il est fatigué, mais il continue à travailler.",
+   "respuestas": [
+    "Il était fatigué, mais il a continué à travailler.",
+    "Il était fatigué, mais il continuait à travailler."
+   ],
+   "explicacion": "El cansancio es un estado y va en imparfait: il était fatigué. Para continuer hay dos posibilidades, y el corrector acepta ambas: en passé composé (a continué) cuenta lo que hizo, como un hecho; en imparfait (continuait) describe la situación, como en español «seguía trabajando». La ficha recuerda que al final decide el contexto, no una regla mecánica.",
+   "origen": "tatoeba:1359173",
+   "explicacion_breve": "El cansancio es un estado (imparfait); seguir trabajando es lo que hizo (passé composé), aunque el imparfait (continuait) también es posible si se describe la situación.",
+   "traduccion": "Estaba cansado, pero siguió trabajando. / Estaba cansado, pero seguía trabajando.",
+   "errores_previstos": [
+    {
+     "respuesta": "Il a été fatigué, mais il a continué à travailler.",
+     "explicacion": "El cansancio es un estado de fondo: il était fatigué, en imparfait."
+    },
+    {
+     "respuesta": "Il était fatigué, mais il continue à travailler.",
+     "explicacion": "Se ha olvidado pasar al pasado el segundo verbo: continue es presente. Debe ser a continué o continuait."
+    },
+    {
+     "respuesta": "Il était fatigué, mais il est continué à travailler.",
+     "explicacion": "Continuer se conjuga con avoir: il a continué."
+    }
+   ]
+  },
+  {
+   "id": "e11",
+   "tipo": "hueco",
+   "enunciado": "Completa con el passé composé o el imparfait.",
+   "frase": "Quand j'___ quinze ans, j'habitais à Fort Worth. (avoir)",
+   "respuestas": [
+    "avais"
+   ],
+   "explicacion": "La ficha explica que avoir, como verbo de estado, suele ir en imparfait, y la edad presentada como etapa de la vida es el ejemplo típico: quand j'avais 15 ans. La segunda parte, j'habitais, también está en imparfait, porque describe una situación duradera. En passé composé (quand j'ai eu 15 ans) significaría «cuando cumplí quince años».",
+   "explicacion_breve": "Edad como etapa (tener quince años): imparfait.",
+   "traduccion": "Cuando tenía quince años, vivía en Fort Worth.",
+   "errores_previstos": [
+    {
+     "respuesta": "ai eu",
+     "explicacion": "Quand j'ai eu quinze ans significa «cuando cumplí quince años», un cambio puntual. Aquí es una etapa: j'avais."
+    },
+    {
+     "respuesta": "avait",
+     "explicacion": "Es la forma de il; con je el imparfait es avais."
+    },
+    {
+     "respuesta": "étais",
+     "explicacion": "En francés la edad se dice con avoir, no con être: j'avais quinze ans."
+    }
+   ]
+  },
+  {
+   "id": "e12",
+   "tipo": "eleccion",
+   "enunciado": "Elige el tiempo correcto.",
+   "frase": "Pendant un an, Tex ___ vendeur de T-shirts.",
+   "opciones": [
+    "était",
+    "a été",
+    "est"
+   ],
+   "respuestas": [
+    "a été"
+   ],
+   "explicacion": "La ficha advierte que un periodo cerrado y medido, como pendant un an, pide passé composé, aunque el verbo sea de estado. La duración tiene un principio y un final, y se presenta como un bloque terminado: Tex a été vendeur. Es como en español «fue vendedor durante un año», no «era».",
+   "explicacion_breve": "Periodo cerrado y medido (pendant un an): passé composé.",
+   "traduccion": "Durante un año, Tex fue vendedor de camisetas.",
+   "por_opcion": {
+    "était": "Incorrecta: el imparfait describiría una situación abierta; con pendant un an, periodo cerrado, se usa passé composé.",
+    "a été": "Correcta: periodo cerrado y medido (pendant un an), presentado como un hecho terminado.",
+    "est": "Incorrecta: el presente no encaja con un periodo ya terminado."
+   }
+  },
+  {
+   "id": "e13",
+   "tipo": "ordenar",
+   "enunciado": "Ordena las palabras.",
+   "palabras": [
+    "rentré",
+    "était",
+    "chez",
+    "épuisé",
+    "Il",
+    "est",
+    "il",
+    "quand",
+    "lui"
+   ],
+   "respuestas": [
+    "Il était épuisé quand il est rentré chez lui",
+    "Quand il est rentré chez lui il était épuisé"
+   ],
+   "explicacion": "La frase combina un estado (il était épuisé, en imparfait) y un momento puntual (il est rentré chez lui, en passé composé), unidos por quand. El orden puede ser cualquiera de los dos y ambos se aceptan: con la oración principal delante o con quand al principio. Chez lui significa «a su casa».",
+   "origen": "tatoeba:14457",
+   "explicacion_breve": "Estado (était épuisé) + momento puntual (est rentré).",
+   "traduccion": "Estaba agotado cuando volvió a casa.",
+   "errores_previstos": [
+    {
+     "respuesta": "Il était épuisé quand il rentré est chez lui",
+     "explicacion": "El auxiliar va delante del participio: il est rentré."
+    },
+    {
+     "respuesta": "Il est épuisé quand il était rentré chez lui",
+     "explicacion": "Se mezclan los tiempos: el estado va en imparfait (était épuisé) y el regreso en passé composé (est rentré)."
+    },
+    {
+     "respuesta": "Il était épuisé quand il est chez lui rentré",
+     "explicacion": "El participio va pegado al auxiliar y el complemento chez lui al final."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "épuisé",
+     "significado": "agotado"
+    }
+   ]
+  },
+  {
+   "id": "e14",
+   "tipo": "hueco",
+   "enunciado": "Completa con el passé composé o el imparfait.",
+   "frase": "C'était un livre si intéressant que je l'___ en un jour. (lire)",
+   "respuestas": [
+    "ai lu"
+   ],
+   "explicacion": "La primera parte describe el libro (c'était, imparfait); la consecuencia es lo que hice, una acción terminada y delimitada por en un jour: passé composé. Lire va con avoir y el pronombre l' ya está delante: je l'ai lu. El participio lu no concuerda en femenino porque livre es masculino.",
+   "origen": "tatoeba:2109225",
+   "explicacion_breve": "Leerlo en un día es una acción terminada: passé composé.",
+   "traduccion": "Era un libro tan interesante que lo leí en un día.",
+   "errores_previstos": [
+    {
+     "respuesta": "lisais",
+     "explicacion": "El imparfait no casa con en un jour, que delimita una acción completa: je l'ai lu."
+    },
+    {
+     "respuesta": "ai lit",
+     "explicacion": "El participio de lire es lu, no lit: je l'ai lu."
+    },
+    {
+     "respuesta": "ai lue",
+     "explicacion": "El pronombre l' sustituye a un livre, masculino, así que el participio no lleva -e: lu."
+    }
+   ]
+  },
+  {
+   "id": "e15",
+   "tipo": "eleccion",
+   "enunciado": "Elige el tiempo correcto.",
+   "frase": "Quand j'étais petit, j'___ souvent chez ma grand-mère.",
+   "opciones": [
+    "allais",
+    "suis allé",
+    "vais"
+   ],
+   "respuestas": [
+    "allais"
+   ],
+   "explicacion": "Es la costumbre en una etapa pasada, uno de los usos del imparfait de la ficha. Hay dos pistas en la frase: quand j'étais petit (etapa de la vida) y souvent (frecuencia). En español también diríamos «iba», no «fui». Con je, el imparfait de aller es allais.",
+   "explicacion_breve": "Costumbre en una etapa pasada (souvent, quand j'étais petit): imparfait.",
+   "traduccion": "Cuando era pequeño, iba a menudo a casa de mi abuela.",
+   "por_opcion": {
+    "allais": "Correcta: imparfait para una costumbre en una etapa pasada (quand j'étais petit, souvent).",
+    "suis allé": "Incorrecta: el passé composé contaría una ida concreta, no una costumbre repetida.",
+    "vais": "Incorrecta: el presente no encaja con quand j'étais petit."
+   }
+  },
+  {
+   "id": "e16",
+   "tipo": "hueco",
+   "enunciado": "Completa con el passé composé o el imparfait.",
+   "frase": "Nous dînions tranquillement quand, soudain, quelqu'un ___ à la porte. (frapper)",
+   "respuestas": [
+    "a frappé"
+   ],
+   "explicacion": "Nous dînions tranquillement es la escena de fondo en imparfait. Soudain, que la ficha incluye entre los marcadores de passé composé, introduce el hecho que la interrumpe: alguien llama a la puerta. Frapper va con avoir y quelqu'un es tercera persona del singular: quelqu'un a frappé.",
+   "explicacion_breve": "Soudain introduce un hecho que interrumpe la escena: passé composé.",
+   "traduccion": "Cenábamos tranquilamente cuando, de repente, alguien llamó a la puerta.",
+   "errores_previstos": [
+    {
+     "respuesta": "frappait",
+     "explicacion": "Soudain introduce un hecho repentino, no una acción de fondo: a frappé."
+    },
+    {
+     "respuesta": "est frappé",
+     "explicacion": "Frapper se conjuga con avoir: a frappé."
+    },
+    {
+     "respuesta": "a frapé",
+     "explicacion": "Frapper se escribe con doble p: frappé."
+    }
+   ]
+  }
  ],
- "fuente": {"nombre": "Tex's French Grammar", "autores": "COERLL, Universidad de Texas en Austin", "licencia": "CC BY 3.0", "url": "https://laits.utexas.edu/tex/gr/tap8.html", "otras": ["Frases de Tatoeba (CC BY 2.0 FR)"]}
+ "fuente": {
+  "nombre": "Tex's French Grammar",
+  "autores": "COERLL, Universidad de Texas en Austin",
+  "licencia": "CC BY 3.0",
+  "url": "https://laits.utexas.edu/tex/gr/tap8.html",
+  "otras": [
+   "Frases de Tatoeba (CC BY 2.0 FR)"
+  ]
+ },
+ "descripcion_larga_es": "Esta ficha enseña a elegir entre passé composé e imparfait al contar algo en pasado: el primero narra los hechos, uno tras otro; el segundo describe el decorado, los estados, las acciones en curso y las costumbres. El reparto es casi igual al del indefinido y el imperfecto españoles, lo que ayuda mucho, pero hay trampas: los periodos cerrados con pendant, los verbos de estado y la tentación de usar el passé composé en todo.",
+ "contexto": {
+  "que_es": "Es la elección entre los dos pasados básicos del francés hablado. El passé composé presenta una acción como un hecho terminado (j'ai appelé, il est parti); el imparfait la presenta como un estado, una situación de fondo, una acción en curso o una costumbre (il était occupé, je jouais tous les jours).",
+  "por_que_importa": "Cualquier relato, anécdota o exposición sobre el pasado obliga a elegir en cada verbo. Equivocarse cambia el sentido: je restais à la maison sugiere una costumbre, mientras que je suis resté à la maison cuenta lo que hiciste ese día. En un examen oral o escrito, el buen manejo de esta oposición es uno de los indicadores más claros del nivel B1-B2.",
+  "cuando_se_usa": "Pregúntate si el verbo responde a «¿qué pasó?» (passé composé) o a «¿cómo era, qué estaba pasando, qué se solía hacer?» (imparfait). Ayudan los marcadores: soudain, un jour, puis, pendant deux ans piden passé composé; tous les jours, d'habitude, quand j'étais petit, imparfait. El hispanohablante puede guiarse por su indefinido e imperfecto, pero debe recordar que un periodo cerrado y medido («durante dos años trabajaba») va en passé composé."
+ }
 }

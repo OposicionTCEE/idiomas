@@ -122,7 +122,23 @@
    "respuestas": [
     "at"
    ],
-   "explicacion": "Hora concreta: at."
+   "explicacion": "Se aplica la tabla de tiempo: at se usa con horas y momentos concretos. La pista es half past nine, una hora exacta del reloj. Por eso es at half past nine. Con todas las horas se usa at (at 8 o'clock, at noon, at midnight), ya que son puntos precisos en el tiempo.",
+   "explicacion_breve": "Hora concreta: at.",
+   "traduccion": "La película empieza a las nueve y media.",
+   "errores_previstos": [
+    {
+     "respuesta": "in",
+     "explicacion": "In es para periodos largos (meses, años, partes del día); con una hora exacta va at."
+    },
+    {
+     "respuesta": "on",
+     "explicacion": "On es para días y fechas; con una hora se usa at."
+    },
+    {
+     "respuesta": "to",
+     "explicacion": "Calco de «a las»: la hora se introduce con at, no con to."
+    }
+   ]
   },
   {
    "id": "e02",
@@ -132,7 +148,23 @@
    "respuestas": [
     "in"
    ],
-   "explicacion": "Meses: in."
+   "explicacion": "Se aplica la tabla de tiempo: in se usa con meses, estaciones, años y partes del día. La pista es February, un mes, es decir, un periodo largo dentro del cual ocurre la acción. Por eso es in February. Recuerda que en inglés los meses se escriben siempre con mayúscula.",
+   "explicacion_breve": "Meses: in.",
+   "traduccion": "Siempre vamos a esquiar en febrero.",
+   "errores_previstos": [
+    {
+     "respuesta": "on",
+     "explicacion": "On se usa con días y fechas concretas (on 5 February); con el mes solo, in."
+    },
+    {
+     "respuesta": "at",
+     "explicacion": "At es para horas y momentos concretos; con un mes se usa in."
+    },
+    {
+     "respuesta": "in the",
+     "explicacion": "Con el nombre del mes no se usa artículo: in February."
+    }
+   ]
   },
   {
    "id": "e03",
@@ -142,7 +174,23 @@
    "respuestas": [
     "on"
    ],
-   "explicacion": "Días de la semana: on."
+   "explicacion": "Se aplica la tabla de tiempo: on se usa con días y fechas. La pista es Sundays, un día de la semana; en plural indica algo que se repite todos los domingos. Por eso es on Sundays, que equivale al español «los domingos». En español no usamos preposición, por lo que el hispanohablante tiende a omitirla o a usar in.",
+   "explicacion_breve": "Días de la semana: on.",
+   "traduccion": "La tienda cierra los domingos.",
+   "errores_previstos": [
+    {
+     "respuesta": "in",
+     "explicacion": "Calco de «en»: con días de la semana se usa on."
+    },
+    {
+     "respuesta": "at",
+     "explicacion": "At es para horas; con días se usa on."
+    },
+    {
+     "respuesta": "the",
+     "explicacion": "Calco de «los domingos»: el inglés no usa artículo, sino la preposición on."
+    }
+   ]
   },
   {
    "id": "e04",
@@ -152,7 +200,23 @@
    "respuestas": [
     "on"
    ],
-   "explicacion": "Superficie: on."
+   "explicacion": "Se aplica la tabla de lugar: on se usa con superficies. La pista es the wall: el cuadro está colgado sobre la superficie de la pared, en contacto con ella, no dentro. Por eso es on the wall, igual que on the table o on the floor. In the wall indicaría algo empotrado dentro de la pared, como una caja fuerte.",
+   "explicacion_breve": "Superficie: on.",
+   "traduccion": "Hay un cuadro en la pared.",
+   "errores_previstos": [
+    {
+     "respuesta": "in",
+     "explicacion": "In indicaría que el cuadro está dentro de la pared; sobre una superficie va on."
+    },
+    {
+     "respuesta": "at",
+     "explicacion": "At es para puntos o sitios concretos; con superficies se usa on."
+    },
+    {
+     "respuesta": "over",
+     "explicacion": "Over significa «encima de, por encima sin tocar»; un cuadro colgado está on the wall."
+    }
+   ]
   },
   {
    "id": "e05",
@@ -162,7 +226,23 @@
    "respuestas": [
     "in"
    ],
-   "explicacion": "Países: in."
+   "explicacion": "Se aplica la tabla de lugar: in se usa con espacios amplios, ciudades y países. La pista es Mexico, un país, que se concibe como un territorio dentro del cual se vive. Por eso es in Mexico, igual que in Spain o in Madrid.",
+   "explicacion_breve": "Países: in.",
+   "traduccion": "Mis primos viven en México.",
+   "errores_previstos": [
+    {
+     "respuesta": "at",
+     "explicacion": "At es para puntos concretos (at the bus stop); con países se usa in."
+    },
+    {
+     "respuesta": "on",
+     "explicacion": "On es para superficies y calles; con países se usa in."
+    },
+    {
+     "respuesta": "en",
+     "explicacion": "Se ha dejado la preposición en español: en inglés es in."
+    }
+   ]
   },
   {
    "id": "e06",
@@ -172,7 +252,23 @@
    "respuestas": [
     "at"
    ],
-   "explicacion": "Expresión fija: at night."
+   "explicacion": "Se aplica la nota de la ficha que recoge la excepción: in the morning, in the afternoon, in the evening, pero at night. La pista es night, la única parte del día que va con at y además sin artículo. Es una expresión fija que conviene memorizar tal cual. In the night existe, pero se refiere a un momento durante una noche concreta (I woke up in the night).",
+   "explicacion_breve": "Expresión fija: at night.",
+   "traduccion": "No puedo dormir por la noche.",
+   "errores_previstos": [
+    {
+     "respuesta": "in the",
+     "explicacion": "Las demás partes del día van con in the, pero night es la excepción: at night."
+    },
+    {
+     "respuesta": "in",
+     "explicacion": "La expresión fija es at night, sin artículo."
+    },
+    {
+     "respuesta": "by",
+     "explicacion": "By night existe en estilo literario («de noche»), pero la expresión normal es at night."
+    }
+   ]
   },
   {
    "id": "e07",
@@ -187,7 +283,14 @@
    "respuestas": [
     "at"
    ],
-   "explicacion": "Punto concreto de encuentro: at."
+   "explicacion": "Se aplica la tabla de lugar: at se usa con un punto o sitio concreto. La pista es the entrance, un punto de encuentro preciso, no un espacio cerrado en el que se entra. Por eso es at the entrance, igual que at the bus stop o at the door.",
+   "explicacion_breve": "Punto concreto de encuentro: at.",
+   "traduccion": "Quedamos en la entrada del museo.",
+   "por_opcion": {
+    "in": "Incorrecta: in indicaría estar dentro de un espacio; la entrada es un punto de encuentro, at.",
+    "on": "Incorrecta: on es para superficies o calles; no encaja con un punto de encuentro.",
+    "at": "Correcta: at para un punto concreto de encuentro."
+   }
   },
   {
    "id": "e08",
@@ -202,7 +305,14 @@
    "respuestas": [
     "in"
    ],
-   "explicacion": "Dentro de un espacio cerrado: in."
+   "explicacion": "Se aplica la tabla de lugar: in se usa con espacios cerrados (in the kitchen, in a box). La pista es the fridge, un recipiente cerrado que contiene la leche. Por eso es in the fridge. On the fridge significaría «encima de la nevera».",
+   "explicacion_breve": "Dentro de un espacio cerrado: in.",
+   "traduccion": "La leche está en la nevera.",
+   "por_opcion": {
+    "in": "Correcta: dentro de un espacio cerrado, in the fridge.",
+    "on": "Incorrecta: on the fridge significaría que la leche está encima de la nevera, sobre su superficie.",
+    "at": "Incorrecta: at se usa para puntos o sitios, no para el interior de un recipiente."
+   }
   },
   {
    "id": "e09",
@@ -217,7 +327,14 @@
    "respuestas": [
     "next month"
    ],
-   "explicacion": "Con next no se usa preposición ni artículo."
+   "explicacion": "Se aplica la nota de la ficha según la cual no se usa preposición con this, next, last y every + expresión de tiempo. La pista es next: next month ya funciona por sí solo como complemento de tiempo, sin preposición ni artículo. Por eso es We're going to Rome next month. «The next month» se usa en narraciones para decir «el mes siguiente» a otro momento, no «el mes que viene» contando desde hoy.",
+   "explicacion_breve": "Con next no se usa preposición ni artículo.",
+   "traduccion": "Vamos a Roma el mes que viene.",
+   "por_opcion": {
+    "next month": "Correcta: con next no se pone preposición ni artículo.",
+    "in next month": "Incorrecta: calco de «en el próximo mes»; con next no se usa preposición.",
+    "the next month": "Incorrecta en este sentido: the next month significa «el mes siguiente» respecto a otro momento del relato; para «el mes que viene» desde hoy se dice next month."
+   }
   },
   {
    "id": "e10",
@@ -232,7 +349,14 @@
    "respuestas": [
     "in"
    ],
-   "explicacion": "Partes del día: in the evening."
+   "explicacion": "Se aplica la nota de la ficha sobre las partes del día: in the morning, in the afternoon, in the evening, pero at night. La pista es the evening, una parte del día con artículo, que pide in. Ten en cuenta que evening es la última parte de la tarde y el comienzo de la noche, aproximadamente desde las seis, mientras que afternoon es la tarde después de comer.",
+   "explicacion_breve": "Partes del día: in the evening.",
+   "traduccion": "Suelo leer por la tarde (a última hora).",
+   "por_opcion": {
+    "at": "Incorrecta: at solo se usa con night (at night); con the evening va in.",
+    "on": "Incorrecta en general: on se usa con un día concreto (on Friday evening), pero con the evening solo va in.",
+    "in": "Correcta: partes del día con artículo, in the evening."
+   }
   },
   {
    "id": "e11",
@@ -242,7 +366,23 @@
    "respuestas": [
     "My sister was born in 2005."
    ],
-   "explicacion": "Años: in."
+   "explicacion": "Se aplica la tabla de tiempo: in se usa con años. La pista es 2005, un año, un periodo largo. On solo se usa con días o fechas completas: My sister was born on 3 May 2005. Por eso, con el año solo, la preposición es in.",
+   "explicacion_breve": "Años: in.",
+   "traduccion": "Mi hermana nació en 2005.",
+   "errores_previstos": [
+    {
+     "respuesta": "My sister was born on 2005.",
+     "explicacion": "Es la frase sin corregir: on es para días y fechas completas; con el año solo, in."
+    },
+    {
+     "respuesta": "My sister was born at 2005.",
+     "explicacion": "At es para horas y momentos concretos; con años se usa in."
+    },
+    {
+     "respuesta": "My sister born in 2005.",
+     "explicacion": "La preposición está bien, pero «nacer» en inglés es be born: was born."
+    }
+   ]
   },
   {
    "id": "e12",
@@ -252,7 +392,23 @@
    "respuestas": [
     "I'll see you on Friday."
    ],
-   "explicacion": "Días: on."
+   "explicacion": "Se aplica la tabla de tiempo: on se usa con días de la semana. La pista es Friday, un día concreto. Por eso es on Friday. El error con in es un calco del «en» español, que el inglés reserva para periodos largos.",
+   "explicacion_breve": "Días: on.",
+   "traduccion": "Te veo el viernes.",
+   "errores_previstos": [
+    {
+     "respuesta": "I'll see you in Friday.",
+     "explicacion": "Es la frase sin corregir: con días de la semana se usa on."
+    },
+    {
+     "respuesta": "I'll see you at Friday.",
+     "explicacion": "At es para horas y momentos; con días, on."
+    },
+    {
+     "respuesta": "I'll see you the Friday.",
+     "explicacion": "Calco de «el viernes»: el inglés usa la preposición on, sin artículo."
+    }
+   ]
   },
   {
    "id": "e13",
@@ -264,7 +420,23 @@
     "He isn't at home now.",
     "He is not at home now."
    ],
-   "explicacion": "Expresión fija: at home."
+   "explicacion": "Se aplica la tabla de lugar, que da at home como ejemplo: con home, work y school, entendidos como lugares de actividad, se usa at y sin artículo. La pista es home, que forma con at una expresión fija. In home es incorrecto, aunque in the house sí exista. Se aceptan las tres formas de la negación: He's not, He isn't y He is not.",
+   "explicacion_breve": "Expresión fija: at home.",
+   "traduccion": "Ahora no está en casa.",
+   "errores_previstos": [
+    {
+     "respuesta": "He's not in home now.",
+     "explicacion": "Es la frase sin corregir: la expresión fija es at home."
+    },
+    {
+     "respuesta": "He's not at the home now.",
+     "explicacion": "La expresión at home no lleva artículo."
+    },
+    {
+     "respuesta": "He's not on home now.",
+     "explicacion": "On es para superficies; la expresión fija es at home."
+    }
+   ]
   },
   {
    "id": "e14",
@@ -284,7 +456,23 @@
     "On Mondays I start work at seven",
     "I start work on Mondays at seven"
    ],
-   "explicacion": "At para la hora y on para el día."
+   "explicacion": "Se aplica la tabla de tiempo: at con horas (at seven) y on con días (on Mondays). La pista es que hay dos complementos de tiempo y cada uno lleva su preposición. El orden básico es sujeto + verbo + objeto (I start work) y después los complementos; on Mondays puede ir al final, delante de at seven o al principio de la frase.",
+   "explicacion_breve": "At para la hora y on para el día.",
+   "traduccion": "Los lunes empiezo a trabajar a las siete.",
+   "errores_previstos": [
+    {
+     "respuesta": "I start work on seven at Mondays",
+     "explicacion": "Se han intercambiado las preposiciones: at va con la hora (at seven) y on con el día (on Mondays)."
+    },
+    {
+     "respuesta": "On Mondays at seven start I work",
+     "explicacion": "El sujeto va antes del verbo: I start work."
+    },
+    {
+     "respuesta": "I start at seven work on Mondays",
+     "explicacion": "El objeto work va justo detrás del verbo start, antes de los complementos de tiempo."
+    }
+   ]
   },
   {
    "id": "e15",
@@ -302,10 +490,32 @@
     "The children are in the garden",
     "Are the children in the garden"
    ],
-   "explicacion": "Espacio delimitado: in the garden."
+   "explicacion": "Se aplica la tabla de lugar: in se usa con espacios delimitados o cerrados. La pista es the garden, un espacio con límites dentro del cual están los niños. Por eso es in the garden. El orden es sujeto + verbo + complemento de lugar: The children are in the garden. Con are delante se obtiene la pregunta, que también se acepta.",
+   "explicacion_breve": "Espacio delimitado: in the garden.",
+   "traduccion": "Los niños están en el jardín.",
+   "errores_previstos": [
+    {
+     "respuesta": "The children are the garden in",
+     "explicacion": "La preposición va delante de su complemento: in the garden."
+    },
+    {
+     "respuesta": "In the garden the children are",
+     "explicacion": "Orden poco natural en inglés: el verbo no puede quedar al final; lo normal es The children are in the garden."
+    },
+    {
+     "respuesta": "The children in the garden are",
+     "explicacion": "El verbo are va tras el sujeto y antes del complemento de lugar."
+    }
+   ]
   }
  ],
  "fuente": {
   "nombre": "propia"
+ },
+ "descripcion_larga_es": "In, on y at traducen casi siempre «en», pero el inglés las reparte según lo preciso que sea el momento o el lugar: at para horas y puntos concretos, on para días y superficies, in para meses, años y espacios cerrados. Se usan en casi cada frase. Al hispanohablante le cuestan porque el español tiene una sola preposición y porque hay expresiones fijas (at night, at home) que hay que memorizar.",
+ "contexto": {
+  "que_es": "Son las tres preposiciones básicas para situar algo en el tiempo o en el espacio. Funcionan como una escala de precisión: at para un punto exacto (una hora, una dirección), on para un día o una superficie, e in para un periodo largo o un espacio que contiene algo. Hay además expresiones fijas y casos sin preposición (next week, last Monday).",
+  "por_que_importa": "Aparecen constantemente al dar citas, horarios, fechas o direcciones. Un error («in Friday», «on 2005», «in home») rara vez impide entender, pero es muy visible y suena a nivel básico. Elegir bien puede cambiar el matiz: at the cinema (en el cine, como lugar de actividad) frente a in the cinema (dentro del edificio).",
+  "cuando_se_usa": "Siempre que se dice cuándo o dónde ocurre algo. Las señales son el tipo de palabra que sigue: una hora pide at, un día de la semana o una fecha pide on, un mes, un año o una ciudad pide in. El hispanohablante tiende a usar in para todo, como el «en» español, y a añadir preposición delante de next o last («in next month»)."
  }
 }

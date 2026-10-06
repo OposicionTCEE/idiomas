@@ -98,7 +98,23 @@
    "respuestas": [
     "are"
    ],
-   "explicacion": "Two bathrooms es plural: there are."
+   "explicacion": "Se aplica la regla central de la ficha: en inglés el verbo concuerda con lo que viene después, a diferencia del «hay» español, que no cambia. La pista es two bathrooms, un sustantivo en plural. Por eso se usa there are.",
+   "explicacion_breve": "Two bathrooms es plural: there are.",
+   "traduccion": "Hay dos cuartos de baño en el piso.",
+   "errores_previstos": [
+    {
+     "respuesta": "is",
+     "explicacion": "Two bathrooms es plural; there is solo va con singulares e incontables."
+    },
+    {
+     "respuesta": "have",
+     "explicacion": "«Hay» no se traduce con have; se usa there are."
+    },
+    {
+     "respuesta": "be",
+     "explicacion": "Hace falta el verbo conjugado en presente plural: are."
+    }
+   ]
   },
   {
    "id": "e02",
@@ -108,7 +124,19 @@
    "respuestas": [
     "is"
    ],
-   "explicacion": "Water es incontable: there is."
+   "explicacion": "Se aplica la regla de la ficha: there is con sustantivos en singular o incontables. La pista es water, que en inglés es incontable: no lleva plural ni a. Por eso, aunque en español podamos pensar en «aguas», aquí se dice there is some water. Some aparece porque la frase es afirmativa.",
+   "explicacion_breve": "Water es incontable: there is.",
+   "traduccion": "Hay algo de agua en la botella.",
+   "errores_previstos": [
+    {
+     "respuesta": "are",
+     "explicacion": "Water es incontable y lleva verbo en singular: there is."
+    },
+    {
+     "respuesta": "has",
+     "explicacion": "Calco de «hay»: en inglés se usa there is, no has."
+    }
+   ]
   },
   {
    "id": "e03",
@@ -118,7 +146,19 @@
    "respuestas": [
     "any"
    ],
-   "explicacion": "En negativas se usa any."
+   "explicacion": "Se aplica la regla de Reglas y claves: any en negativas y preguntas, some en afirmativas. La pista es aren't, que hace la frase negativa. Por eso se dice there aren't any eggs. En español no hace falta ninguna palabra («no hay huevos»), pero en inglés any es lo natural en este tipo de frases.",
+   "explicacion_breve": "En negativas se usa any.",
+   "traduccion": "No hay huevos en la nevera.",
+   "errores_previstos": [
+    {
+     "respuesta": "some",
+     "explicacion": "Some se usa en afirmativas; en negativas corresponde any."
+    },
+    {
+     "respuesta": "no",
+     "explicacion": "No ya es negativo; con aren't sería una doble negación. Se diría there are no eggs o there aren't any eggs."
+    }
+   ]
   },
   {
    "id": "e04",
@@ -128,7 +168,19 @@
    "respuestas": [
     "some"
    ],
-   "explicacion": "En afirmativas con plural se usa some."
+   "explicacion": "Se aplica la regla de some en afirmativas con plurales e incontables. La pista es there are, afirmativo, seguido de flowers, plural. Some equivale aquí a «unas» o «algunas»; en negativa o pregunta pasaría a any.",
+   "explicacion_breve": "En afirmativas con plural se usa some.",
+   "traduccion": "Hay unas flores en la mesa.",
+   "errores_previstos": [
+    {
+     "respuesta": "any",
+     "explicacion": "Any se usa en negativas y preguntas; la frase es afirmativa, así que va some."
+    },
+    {
+     "respuesta": "a",
+     "explicacion": "A solo va con singulares contables; flowers es plural."
+    }
+   ]
   },
   {
    "id": "e05",
@@ -138,7 +190,23 @@
    "respuestas": [
     "was"
    ],
-   "explicacion": "Pasado y singular: there was."
+   "explicacion": "Se aplica la regla del pasado de la ficha: there was con singular y there were con plural. Las pistas son last night, que marca pasado, y a big storm, singular. Por eso se dice there was.",
+   "explicacion_breve": "Pasado y singular: there was.",
+   "traduccion": "Anoche hubo una gran tormenta.",
+   "errores_previstos": [
+    {
+     "respuesta": "were",
+     "explicacion": "Were es para plurales; a big storm es singular: there was."
+    },
+    {
+     "respuesta": "is",
+     "explicacion": "Last night indica pasado: there was."
+    },
+    {
+     "respuesta": "had",
+     "explicacion": "«Hubo» no se traduce con had; se usa there was."
+    }
+   ]
   },
   {
    "id": "e06",
@@ -153,7 +221,14 @@
    "respuestas": [
     "Are there"
    ],
-   "explicacion": "Pregunta con plural: Are there…?"
+   "explicacion": "Se aplica la fila de preguntas de la tabla: se invierte el orden (Are there…?) y el verbo concuerda con el sustantivo. Las pistas son el signo de interrogación, any (típico de preguntas) y films, que es plural. Por eso empieza con Are there.",
+   "explicacion_breve": "Pregunta con plural: Are there…?",
+   "traduccion": "¿Hay alguna película buena en la tele esta noche?",
+   "por_opcion": {
+    "Is there": "Incorrecta: es para singulares; films es plural.",
+    "Are there": "Correcta: pregunta con sustantivo plural, verbo delante de there.",
+    "There are": "Incorrecta: es el orden de una afirmación; en las preguntas el verbo va delante."
+   }
   },
   {
    "id": "e07",
@@ -168,7 +243,14 @@
    "respuestas": [
     "is"
    ],
-   "explicacion": "A cat es singular."
+   "explicacion": "Se aplica la regla de que con sustantivos contables en singular se usa a/an y there is. La pista es a cat, singular con artículo. Por eso el verbo es is.",
+   "explicacion_breve": "A cat es singular.",
+   "traduccion": "Hay un gato debajo del coche.",
+   "por_opcion": {
+    "are": "Incorrecta: are es para plurales; a cat es singular.",
+    "is": "Correcta: there is con un sustantivo contable singular.",
+    "have": "Incorrecta: «there have a cat» es agramatical; «hay» es there is."
+   }
   },
   {
    "id": "e08",
@@ -183,7 +265,14 @@
    "respuestas": [
     "is"
    ],
-   "explicacion": "En respuestas cortas afirmativas no se contrae."
+   "explicacion": "Se aplica la regla de Reglas y claves: en respuestas cortas afirmativas no se contrae. La pista es la respuesta corta Yes, there… que termina la frase. Por eso se dice Yes, there is, nunca Yes, there's. En las negativas sí se contrae: No, there isn't.",
+   "explicacion_breve": "En respuestas cortas afirmativas no se contrae.",
+   "traduccion": "¿Hay un banco cerca de aquí? Sí, lo hay.",
+   "por_opcion": {
+    "is": "Correcta: forma completa, obligatoria al final de una respuesta corta afirmativa.",
+    "'s": "Incorrecta: la contracción no puede ir al final de la frase en una respuesta afirmativa.",
+    "are": "Incorrecta: la pregunta es sobre a bank, en singular."
+   }
   },
   {
    "id": "e09",
@@ -193,7 +282,23 @@
    "respuestas": [
     "Is there a swimming pool in the hotel?"
    ],
-   "explicacion": "Se invierte: Is there…?"
+   "explicacion": "Se aplica la fila de preguntas de la tabla: se invierte el orden y el verbo pasa delante de there (Is there…?). El resto de la frase se mantiene igual. No se añade do, porque be forma las preguntas por sí mismo, y no se puede omitir there.",
+   "explicacion_breve": "Se invierte: Is there…?",
+   "traduccion": "¿Hay piscina en el hotel?",
+   "errores_previstos": [
+    {
+     "respuesta": "Is a swimming pool in the hotel?",
+     "explicacion": "Falta there, que no se puede omitir (es el error típico de la ficha)."
+    },
+    {
+     "respuesta": "There is a swimming pool in the hotel?",
+     "explicacion": "Solo cambia la entonación; en inglés escrito la pregunta exige invertir: Is there."
+    },
+    {
+     "respuesta": "Does there is a swimming pool in the hotel?",
+     "explicacion": "Be no usa do en preguntas: Is there."
+    }
+   ]
   },
   {
    "id": "e10",
@@ -204,7 +309,23 @@
     "There aren't any trees in the street.",
     "There are not any trees in the street."
    ],
-   "explicacion": "En negativa some pasa a any."
+   "explicacion": "Se aplica la regla de some y any: en negativa, some pasa a any. La frase se niega añadiendo not tras are (aren't o are not). El resultado es there aren't any trees; se aceptan la forma contraída y la completa.",
+   "explicacion_breve": "En negativa some pasa a any.",
+   "traduccion": "No hay árboles en la calle.",
+   "errores_previstos": [
+    {
+     "respuesta": "There aren't some trees in the street.",
+     "explicacion": "En negativas some se convierte en any."
+    },
+    {
+     "respuesta": "There isn't any trees in the street.",
+     "explicacion": "Trees es plural: aren't."
+    },
+    {
+     "respuesta": "There don't are any trees in the street.",
+     "explicacion": "Be no usa do para negar: there aren't."
+    }
+   ]
   },
   {
    "id": "e11",
@@ -214,7 +335,23 @@
    "respuestas": [
     "There are many people in the square."
    ],
-   "explicacion": "People es plural: there are."
+   "explicacion": "Se aplica la concordancia de la ficha: there are con plurales. La pista es people, que en inglés es plural (el plural de person) aunque en español «gente» sea singular. Por eso se dice there are many people.",
+   "explicacion_breve": "People es plural: there are.",
+   "traduccion": "Hay mucha gente en la plaza.",
+   "errores_previstos": [
+    {
+     "respuesta": "There is many people in the square.",
+     "explicacion": "Es la frase sin corregir: people es plural y lleva are."
+    },
+    {
+     "respuesta": "There are many peoples in the square.",
+     "explicacion": "People ya es plural; peoples significa «pueblos» (naciones)."
+    },
+    {
+     "respuesta": "There is much people in the square.",
+     "explicacion": "Much y is tratan people como incontable, pero es un plural contable: many y are."
+    }
+   ]
   },
   {
    "id": "e12",
@@ -225,7 +362,23 @@
     "There aren't any chairs in the room.",
     "There are not any chairs in the room."
    ],
-   "explicacion": "En negativas se usa any, no some."
+   "explicacion": "Se aplica la regla de Reglas y claves: any en negativas, some en afirmativas. La frase ya es negativa (aren't), así que some debe cambiar a any. Se aceptan la forma contraída y la completa.",
+   "explicacion_breve": "En negativas se usa any, no some.",
+   "traduccion": "No hay sillas en la habitación.",
+   "errores_previstos": [
+    {
+     "respuesta": "There aren't some chairs in the room.",
+     "explicacion": "Es la frase sin corregir: en negativas se usa any."
+    },
+    {
+     "respuesta": "There aren't no chairs in the room.",
+     "explicacion": "Doble negación: con aren't, any; o bien there are no chairs."
+    },
+    {
+     "respuesta": "There isn't any chairs in the room.",
+     "explicacion": "Chairs es plural: aren't."
+    }
+   ]
   },
   {
    "id": "e13",
@@ -235,9 +388,26 @@
    "respuestas": [
     "In the kitchen there is a big window.",
     "There is a big window in the kitchen.",
-    "There's a big window in the kitchen."
+    "There's a big window in the kitchen.",
+    "In the kitchen there's a big window."
    ],
-   "explicacion": "«Hay» se dice there is, no has."
+   "explicacion": "Se aplica el error típico que recoge la ficha: «hay» no se traduce con have ni has. La frase original es un calco del español con el lugar al principio. Hay que usar there is, que puede ir tras el complemento de lugar o al principio de la frase; por eso se aceptan varios órdenes y la contracción there's.",
+   "explicacion_breve": "«Hay» se dice there is, no has.",
+   "traduccion": "En la cocina hay una ventana grande.",
+   "errores_previstos": [
+    {
+     "respuesta": "In the kitchen has a big window.",
+     "explicacion": "Es la frase sin corregir: «hay» es there is, no has."
+    },
+    {
+     "respuesta": "In the kitchen is a big window.",
+     "explicacion": "Falta there, el sujeto formal de la estructura «hay»."
+    },
+    {
+     "respuesta": "In the kitchen there are a big window.",
+     "explicacion": "A big window es singular: there is."
+    }
+   ]
   },
   {
    "id": "e14",
@@ -257,10 +427,28 @@
     "Behind the house there is a garden",
     "Is there a garden behind the house"
    ],
-   "explicacion": "There is + sustantivo + lugar."
+   "explicacion": "Se aplica el orden básico there is + sustantivo + lugar. Como la ordenación no lleva puntuación, se aceptan tres soluciones: la afirmación con el lugar al final, la afirmación con el lugar al principio y la pregunta con inversión (Is there…). Lo importante es que there y is vayan juntos y en el orden que corresponda.",
+   "explicacion_breve": "There is + sustantivo + lugar.",
+   "traduccion": "Hay un jardín detrás de la casa. (También: Detrás de la casa hay un jardín; ¿Hay un jardín detrás de la casa?)",
+   "errores_previstos": [
+    {
+     "respuesta": "Behind the house is there a garden",
+     "explicacion": "En una afirmación there va delante de is: behind the house there is a garden."
+    },
+    {
+     "respuesta": "There is behind the house a garden",
+     "explicacion": "El sustantivo va justo después de there is y el lugar al final."
+    }
+   ]
   }
  ],
  "fuente": {
   "nombre": "propia"
+ },
+ "descripcion_larga_es": "There is y there are equivalen a «hay» y sirven para decir que algo existe o está en un lugar. A diferencia del español, el verbo concuerda con lo que viene detrás (singular o plural) y cambia en pasado (there was, there were). Es una estructura básica para describir lugares, casas o ciudades. Cuesta al hispanohablante porque tiende a traducir «hay» con have o a omitir there.",
+ "contexto": {
+  "que_es": "Es la estructura que expresa existencia o presencia, equivalente al «hay» español. Se forma con el sujeto formal there más el verbo be, que concuerda con el sustantivo que sigue: there is con singulares e incontables, there are con plurales. En pasado: there was, there were.",
+  "por_que_importa": "Es imprescindible desde el primer día para describir tu casa, tu barrio o tu ciudad, preguntar por servicios (Is there a lift?) o decir lo que falta. Decir «In my town have a castle» o «Is a hotel near here?» se entiende con esfuerzo pero suena muy extraño. Es un punto que siempre se evalúa en los niveles iniciales.",
+  "cuando_se_usa": "Siempre que en español dirías «hay» o «había»: al describir lugares, contar lo que hay en una habitación, preguntar si existe algo o responder brevemente (Yes, there is). Las señales son la idea de existencia y un complemento de lugar. El hispanohablante tiende a usar have, a dejar el verbo en singular con plurales («there is many people») y a omitir there en las preguntas."
  }
 }

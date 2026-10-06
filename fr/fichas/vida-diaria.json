@@ -196,7 +196,33 @@
    "respuestas": [
     "me"
    ],
-   "explicacion": "Se coucher: je me couche."
+   "explicacion": "Se aplica la idea de la explicación de la ficha: muchos verbos de rutina son pronominales y llevan un pronombre reflexivo que concuerda con el sujeto. Se coucher significa acostarse, y con el sujeto je el reflexivo es me. La pista es el sujeto je y el sentido de la frase: uno se acuesta a sí mismo. Así queda «je me couche», igual que en español «me acuesto».",
+   "explicacion_breve": "Se coucher: je me couche.",
+   "traduccion": "Me acuesto a las once.",
+   "errores_previstos": [
+    {
+     "respuesta": "se",
+     "explicacion": "Se es el reflexivo de il, elle o del infinitivo. Con je se usa me: je me couche."
+    },
+    {
+     "respuesta": "m'",
+     "explicacion": "Me solo se apostrofa ante vocal o h muda (je m'habille). Couche empieza por consonante: je me couche."
+    },
+    {
+     "respuesta": "moi",
+     "explicacion": "Moi es el pronombre tónico. Delante del verbo pronominal va la forma átona me."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "se coucher",
+     "significado": "acostarse"
+    },
+    {
+     "palabra": "à onze heures",
+     "significado": "a las once"
+    }
+   ]
   },
   {
    "id": "e02",
@@ -206,7 +232,33 @@
    "respuestas": [
     "nous"
    ],
-   "explicacion": "Con nous el reflexivo es nous: nous nous levons."
+   "explicacion": "Se aplica la misma regla de los verbos pronominales: se lever es levantarse y el reflexivo concuerda con el sujeto. Con nous el pronombre reflexivo es también nous, por eso aparece repetido: «nous nous levons». La pista es el sujeto nous. Al hispanohablante la repetición le parece un error y tiende a quitar un nous, pero el primero es sujeto y el segundo es el reflexivo, como «nosotros nos».",
+   "explicacion_breve": "Con nous el reflexivo es nous: nous nous levons.",
+   "traduccion": "Nos levantamos temprano.",
+   "errores_previstos": [
+    {
+     "respuesta": "se",
+     "explicacion": "Se solo es reflexivo de la tercera persona. Con nous, el reflexivo es nous: nous nous levons."
+    },
+    {
+     "respuesta": "nos",
+     "explicacion": "Es la forma española. En francés el reflexivo de nous es nous."
+    },
+    {
+     "respuesta": "on",
+     "explicacion": "On es un pronombre sujeto, no reflexivo. Con nous como sujeto, el reflexivo es nous."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "se lever",
+     "significado": "levantarse"
+    },
+    {
+     "palabra": "tôt",
+     "significado": "temprano"
+    }
+   ]
   },
   {
    "id": "e03",
@@ -216,7 +268,37 @@
    "respuestas": [
     "vaisselle"
    ],
-   "explicacion": "Faire la vaisselle = fregar los platos."
+   "explicacion": "Se aplica una de las expresiones con faire de la tabla: faire la vaisselle significa fregar los platos. La pista es «après le repas»: después de comer, lo que toca es fregar. La palabra vaisselle designa la vajilla, y en esta expresión fija va con el artículo femenino la. Por eso se completa con «vaisselle».",
+   "explicacion_breve": "Faire la vaisselle = fregar los platos.",
+   "traduccion": "Después de comer, friego los platos.",
+   "errores_previstos": [
+    {
+     "respuesta": "lessive",
+     "explicacion": "Faire la lessive es hacer la colada, lavar la ropa. Tras la comida se friegan los platos: la vaisselle."
+    },
+    {
+     "respuesta": "vaiselle",
+     "explicacion": "Falta una s: se escribe vaisselle, con doble s."
+    },
+    {
+     "respuesta": "cuisine",
+     "explicacion": "Faire la cuisine es cocinar, algo que se hace antes de comer, no después."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "faire la vaisselle",
+     "significado": "fregar los platos"
+    },
+    {
+     "palabra": "le repas",
+     "significado": "la comida (cada una de las del día)"
+    },
+    {
+     "palabra": "après",
+     "significado": "después de"
+    }
+   ]
   },
   {
    "id": "e04",
@@ -231,7 +313,28 @@
    "respuestas": [
     "le ménage"
    ],
-   "explicacion": "Pasar la aspiradora forma parte de faire le ménage."
+   "explicacion": "Se aplica la tabla de tareas domésticas: faire le ménage es limpiar la casa, mientras que faire la cuisine es cocinar y faire les courses, hacer la compra. La pista está tras los dos puntos: «je passe l'aspirateur», pasar la aspiradora, es una tarea de limpieza. Por eso la expresión correcta es «le ménage». Ménage, aquí, no significa hogar sino limpieza.",
+   "explicacion_breve": "Pasar la aspiradora forma parte de faire le ménage.",
+   "traduccion": "El sábado por la mañana limpio la casa: paso la aspiradora.",
+   "por_opcion": {
+    "le ménage": "Correcta: faire le ménage es limpiar la casa, y pasar la aspiradora forma parte de ello.",
+    "la cuisine": "Incorrecta aquí: faire la cuisine es cocinar. La cuisine también es la cocina como habitación.",
+    "les courses": "Incorrecta aquí: faire les courses es hacer la compra, ir al supermercado o al mercado."
+   },
+   "glosario": [
+    {
+     "palabra": "faire le ménage",
+     "significado": "limpiar la casa"
+    },
+    {
+     "palabra": "passer l'aspirateur",
+     "significado": "pasar la aspiradora"
+    },
+    {
+     "palabra": "le samedi matin",
+     "significado": "los sábados por la mañana"
+    }
+   ]
   },
   {
    "id": "e05",
@@ -246,7 +349,24 @@
    "respuestas": [
     "chambre"
    ],
-   "explicacion": "Se duerme en el dormitorio: la chambre."
+   "explicacion": "Se aplica la tabla de la casa: la chambre es el dormitorio, la cuisine la cocina y la salle de bains el cuarto de baño. La pista es el verbo dormir (je dors): se duerme en el dormitorio. Por eso la respuesta es «chambre». La ficha avisa además de que chambre no es la «cámara» de fotos, que se dice appareil photo.",
+   "explicacion_breve": "Se duerme en el dormitorio: la chambre.",
+   "traduccion": "Duermo en mi dormitorio.",
+   "por_opcion": {
+    "chambre": "Correcta: la chambre es el dormitorio (y, en un hotel, la habitación).",
+    "cuisine": "Incorrecta: la cuisine es la cocina, donde se prepara la comida, no donde se duerme.",
+    "salle de bains": "Incorrecta: la salle de bains es el cuarto de baño, donde uno se ducha o se lava."
+   },
+   "glosario": [
+    {
+     "palabra": "dormir",
+     "significado": "dormir (je dors)"
+    },
+    {
+     "palabra": "la chambre",
+     "significado": "el dormitorio"
+    }
+   ]
   },
   {
    "id": "e06",
@@ -261,7 +381,24 @@
    "respuestas": [
     "à"
    ],
-   "explicacion": "A pie: à pied."
+   "explicacion": "Se aplica la nota de los errores frecuentes de la ficha: a pie se dice à pied, igual que à vélo, mientras que los vehículos en los que uno va dentro llevan en (en voiture, en métro). La pista es la palabra pied: con medios en los que se va encima o con el propio cuerpo se usa à. Por eso la preposición es «à». El calco «en pied» no existe.",
+   "explicacion_breve": "A pie: à pied.",
+   "traduccion": "Va a la oficina a pie.",
+   "por_opcion": {
+    "à": "Correcta: à pied es la expresión fija para «a pie».",
+    "en": "Incorrecta: en se usa con vehículos cerrados (en voiture, en train, en métro). «En pied» es un calco y no existe.",
+    "par": "Incorrecta: par indica vía o medio en otros contextos (par avion, par la fenêtre), pero no forma «a pie»."
+   },
+   "glosario": [
+    {
+     "palabra": "à pied",
+     "significado": "a pie, andando"
+    },
+    {
+     "palabra": "le bureau",
+     "significado": "la oficina; también el escritorio"
+    }
+   ]
   },
   {
    "id": "e07",
@@ -276,7 +413,28 @@
    "respuestas": [
     "déjeunons"
    ],
-   "explicacion": "La comida del mediodía es déjeuner."
+   "explicacion": "Se aplica la nota de la ficha sobre las comidas: déjeuner es la comida de mediodía, dîner la cena y el desayuno es le petit-déjeuner. La pista es «à midi», que sitúa la comida a mediodía, y el sujeto nous, que pide -ons. Por eso la forma es «déjeunons». Ojo: en Bélgica, Suiza y Quebec déjeuner es desayunar y dîner la comida de mediodía, pero la ficha sigue el uso de Francia.",
+   "explicacion_breve": "La comida del mediodía es déjeuner.",
+   "traduccion": "A mediodía comemos en el comedor.",
+   "por_opcion": {
+    "déjeunons": "Correcta: déjeuner es comer a mediodía en el uso de Francia; con nous, déjeunons.",
+    "dînons": "Incorrecta aquí: dîner es cenar en Francia. A mediodía no se cena.",
+    "petit-déjeunons": "Incorrecta aquí: el verbo petit-déjeuner existe en la lengua coloquial, pero significa desayunar, no comer a mediodía."
+   },
+   "glosario": [
+    {
+     "palabra": "déjeuner",
+     "significado": "comer (a mediodía)"
+    },
+    {
+     "palabra": "à midi",
+     "significado": "a mediodía"
+    },
+    {
+     "palabra": "la cantine",
+     "significado": "el comedor (del colegio, de la empresa)"
+    }
+   ]
   },
   {
    "id": "e08",
@@ -286,7 +444,33 @@
    "respuestas": [
     "jamais"
    ],
-   "explicacion": "Ne… jamais = nunca."
+   "explicacion": "Se aplica la lista de frecuencia de la ficha: nunca se dice ne… jamais, una negación en dos partes como ne… pas. La pista es el ne que ya aparece delante del verbo y el enunciado, que pide «nunca». Jamais ocupa el lugar de pas, detrás del verbo conjugado: «il ne regarde jamais la télé». En la lengua hablada el ne a menudo desaparece, pero jamais no.",
+   "explicacion_breve": "Ne… jamais = nunca.",
+   "traduccion": "No ve nunca la tele.",
+   "errores_previstos": [
+    {
+     "respuesta": "pas",
+     "explicacion": "Ne… pas es la negación simple (no). Para decir nunca se usa ne… jamais."
+    },
+    {
+     "respuesta": "jamás",
+     "explicacion": "Es la palabra española, con tilde. En francés se escribe jamais."
+    },
+    {
+     "respuesta": "pas jamais",
+     "explicacion": "Jamais sustituye a pas; no se combinan. Il ne regarde jamais."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "ne… jamais",
+     "significado": "nunca"
+    },
+    {
+     "palabra": "regarder la télé",
+     "significado": "ver la tele"
+    }
+   ]
   },
   {
    "id": "e09",
@@ -296,7 +480,33 @@
    "respuestas": [
     "courses"
    ],
-   "explicacion": "Faire les courses = hacer la compra."
+   "explicacion": "Se aplica la tabla de tareas: faire les courses significa hacer la compra. La pista es el lugar, «au supermarché», y el artículo plural les ya escrito, que pide un sustantivo en plural. La palabra courses tiene aquí el sentido de compras o recados, no de carreras. Por eso se completa con «courses».",
+   "explicacion_breve": "Faire les courses = hacer la compra.",
+   "traduccion": "Hago la compra en el supermercado.",
+   "errores_previstos": [
+    {
+     "respuesta": "compras",
+     "explicacion": "Es la palabra española. Hacer la compra es faire les courses."
+    },
+    {
+     "respuesta": "course",
+     "explicacion": "Tras les hace falta el plural: les courses. En singular, une course es una carrera o un recado."
+    },
+    {
+     "respuesta": "achats",
+     "explicacion": "Faire des achats existe (hacer compras, sobre todo de otro tipo), pero la expresión fija para la compra diaria es faire les courses."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "faire les courses",
+     "significado": "hacer la compra"
+    },
+    {
+     "palabra": "le supermarché",
+     "significado": "el supermercado"
+    }
+   ]
   },
   {
    "id": "e10",
@@ -306,7 +516,33 @@
    "respuestas": [
     "Je me douche le matin."
    ],
-   "explicacion": "Se doucher es pronominal."
+   "explicacion": "El error es la falta del pronombre reflexivo: según la ficha, se doucher es pronominal, como ducharse. La pista es que la acción recae sobre el propio sujeto; sin me, «je douche» significaría que ducho a alguien, y además el verbo quedaría sin complemento. Con je, el reflexivo es me, delante del verbo: «Je me douche le matin.».",
+   "explicacion_breve": "Se doucher es pronominal.",
+   "traduccion": "Me ducho por la mañana.",
+   "errores_previstos": [
+    {
+     "respuesta": "Je douche le matin.",
+     "explicacion": "Es dejar la frase sin corregir. Se doucher necesita el reflexivo: je me douche."
+    },
+    {
+     "respuesta": "Je se douche le matin.",
+     "explicacion": "Se es el reflexivo de la tercera persona. Con je, me: je me douche."
+    },
+    {
+     "respuesta": "Je douche-moi le matin.",
+     "explicacion": "El pronombre detrás con guion solo se usa en el imperativo afirmativo (douche-toi). En presente va delante: je me douche."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "se doucher",
+     "significado": "ducharse"
+    },
+    {
+     "palabra": "le matin",
+     "significado": "por la mañana"
+    }
+   ]
   },
   {
    "id": "e11",
@@ -316,7 +552,33 @@
    "respuestas": [
     "Je vais au travail à pied."
    ],
-   "explicacion": "À pied, no en pied."
+   "explicacion": "El error es «en pied», calco del español «a pie» mezclado con en voiture. La ficha recuerda que a pie, en bici y a caballo usan à: à pied, à vélo, à cheval. La pista es la palabra pied, que no designa un vehículo en el que se va dentro. La frase correcta es «Je vais au travail à pied.».",
+   "explicacion_breve": "À pied, no en pied.",
+   "traduccion": "Voy al trabajo a pie.",
+   "errores_previstos": [
+    {
+     "respuesta": "Je vais au travail en pied.",
+     "explicacion": "Es dejar la frase sin corregir. A pie es à pied."
+    },
+    {
+     "respuesta": "Je vais au travail à pieds.",
+     "explicacion": "En la expresión fija pied va en singular: à pied."
+    },
+    {
+     "respuesta": "Je vais à le travail à pied.",
+     "explicacion": "Se corrige la preposición, pero à + le se contrae siempre en au: au travail."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "aller au travail",
+     "significado": "ir al trabajo"
+    },
+    {
+     "palabra": "à pied",
+     "significado": "a pie"
+    }
+   ]
   },
   {
    "id": "e12",
@@ -332,7 +594,33 @@
     "D'habitude je m'habille vite",
     "Je m'habille vite d'habitude"
    ],
-   "explicacion": "El adverbio vite va tras el verbo."
+   "explicacion": "Se aplican dos reglas: el pronombre reflexivo va delante del verbo (je m'habille, con me apostrofado ante h muda) y el adverbio vite va detrás del verbo conjugado. El marcador d'habitude, que la ficha da como «normalmente», puede ir al principio o al final, por eso se aceptan dos órdenes. La pista es m'habille, que ya lleva el pronombre unido, y vite, que no puede ir delante del verbo como en español «rápido me visto».",
+   "explicacion_breve": "El adverbio vite va tras el verbo.",
+   "traduccion": "Normalmente me visto deprisa.",
+   "errores_previstos": [
+    {
+     "respuesta": "D'habitude je vite m'habille",
+     "explicacion": "Vite no puede ir entre el sujeto y el verbo. Va detrás: je m'habille vite."
+    },
+    {
+     "respuesta": "D'habitude m'habille je vite",
+     "explicacion": "El sujeto je va delante del verbo y de su pronombre reflexivo: je m'habille."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "d'habitude",
+     "significado": "normalmente, por lo general"
+    },
+    {
+     "palabra": "s'habiller",
+     "significado": "vestirse"
+    },
+    {
+     "palabra": "vite",
+     "significado": "deprisa, rápido"
+    }
+   ]
   },
   {
    "id": "e13",
@@ -351,7 +639,29 @@
     "Le vendredi je sors avec des amis",
     "Je sors avec des amis le vendredi"
    ],
-   "explicacion": "Marcador temporal al principio y después sujeto + verbo."
+   "explicacion": "Se aplica el orden básico de la frase: un marcador temporal como le vendredi puede ir al principio o al final, y en medio va sujeto + verbo + complemento (je sors avec des amis). Le vendredi con artículo significa «los viernes», es decir, una costumbre, como explica la ficha con le week-end o le soir. La pista es la expresión de hábito. Por eso se aceptan las dos posiciones del marcador.",
+   "explicacion_breve": "Marcador temporal al principio y después sujeto + verbo.",
+   "traduccion": "Los viernes salgo con amigos.",
+   "errores_previstos": [
+    {
+     "respuesta": "Le vendredi sors je avec des amis",
+     "explicacion": "En una frase enunciativa el sujeto va delante del verbo: je sors."
+    },
+    {
+     "respuesta": "Le vendredi je sors des avec amis",
+     "explicacion": "El artículo va pegado al nombre: avec des amis."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "sortir avec des amis",
+     "significado": "salir con amigos"
+    },
+    {
+     "palabra": "le vendredi",
+     "significado": "los viernes (cada viernes)"
+    }
+   ]
   },
   {
    "id": "e14",
@@ -361,10 +671,38 @@
    "respuestas": [
     "Nous nous réveillons à six heures."
    ],
-   "explicacion": "Nous nous réveillons: pronombre reflexivo y terminación -ons."
+   "explicacion": "Se aplica la regla de los verbos pronominales con nous, ya vista en el ejercicio 2: el reflexivo de nous es nous, y el verbo se réveiller toma la terminación -ons. La pista es el cambio de persona que pide el enunciado. Hay que cambiar a la vez el sujeto, el pronombre reflexivo y la terminación: «Nous nous réveillons à six heures.».",
+   "explicacion_breve": "Nous nous réveillons: pronombre reflexivo y terminación -ons.",
+   "traduccion": "Nos despertamos a las seis.",
+   "errores_previstos": [
+    {
+     "respuesta": "Nous me réveillons à six heures.",
+     "explicacion": "Se ha cambiado el sujeto y el verbo pero no el reflexivo. Con nous es nous: nous nous réveillons."
+    },
+    {
+     "respuesta": "Nous réveillons à six heures.",
+     "explicacion": "Falta el reflexivo: sin él, la frase dice que despertamos a alguien. Nous nous réveillons."
+    },
+    {
+     "respuesta": "Nous nous réveille à six heures.",
+     "explicacion": "Falta la terminación de nous: réveillons."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "se réveiller",
+     "significado": "despertarse"
+    }
+   ]
   }
  ],
  "fuente": {
   "nombre": "propia"
+ },
+ "descripcion_larga_es": "Vocabulario para contar el día a día en francés: levantarse, asearse, ir al trabajo, comer, hacer las tareas de casa y disfrutar del tiempo libre, con las partes de la casa y los adverbios de frecuencia. Es la base de cualquier presentación personal. Cuesta porque muchos verbos son pronominales (se lever), las comidas no coinciden con el español (déjeuner) y hay expresiones fijas con faire.",
+ "contexto": {
+  "que_es": "Es el léxico de la rutina diaria: verbos de aseo y descanso (muchos pronominales, como se réveiller o se coucher), las comidas del día, las tareas domésticas con faire (faire le ménage, la vaisselle, les courses), las actividades de ocio, las habitaciones de la casa y los adverbios y marcadores de frecuencia.",
+  "por_que_importa": "Hablar de la propia rutina es una de las primeras tareas de cualquier examen oral o escrito de nivel A1 y A2, y sigue apareciendo después en conversaciones cotidianas. Olvidar el pronombre reflexivo (je lève en vez de je me lève) cambia el sentido de la frase, y confundir déjeuner con desayunar provoca malentendidos sobre horarios y citas.",
+  "cuando_se_usa": "Para describir hábitos en presente: qué hacemos cada mañana, cada tarde o cada fin de semana. Las señales son los marcadores d'habitude, tous les jours, le matin, le samedi o los adverbios souvent, parfois, ne… jamais. El hispanohablante tiende a calcar del español: olvida el pronombre de un verbo que en español no es pronominal, traduce «desayunar» por déjeuner o dice en pied por «a pie»."
  }
 }

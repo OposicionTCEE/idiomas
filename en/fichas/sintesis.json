@@ -6,64 +6,772 @@
  "nivel": "C1",
  "resumen": "Verbos y fórmulas para resumir un texto ajeno con precisión (the author argues, claims, acknowledges…) y técnicas de paráfrasis para no copiar literalmente. Clave en la prueba de resumen y en la exposición de un artículo.",
  "explicacion": [
-  {"tipo": "texto", "texto": "El verbo introductor transmite la actitud del autor y la tuya: «states» es neutro; «claims» sugiere que no está demostrado; «acknowledges» indica que admite algo en contra de su tesis. Elegir el verbo adecuado es parte del resumen."},
-  {"tipo": "tabla", "cabecera": ["Expresión", "Significado", "Ejemplo"], "filas": [
-   ["argue (that)", "sostener, argumentar", "The author argues that taxes should rise."],
-   ["claim (that)", "afirmar (sin pruebas claras)", "He claims that the policy has worked."],
-   ["state / point out", "afirmar / señalar", "She points out that the data is old."],
-   ["contend / maintain", "sostener (con firmeza)", "Critics maintain that it is unfair."],
-   ["acknowledge / concede", "reconocer, admitir", "The writer acknowledges some risks."],
-   ["suggest", "sugerir, dar a entender", "The study suggests a link."],
-   ["stress / emphasise / highlight", "subrayar, destacar", "The report highlights the role of education."],
-   ["warn (that / of / against)", "advertir", "Experts warn of a new recession."],
-   ["question / challenge", "poner en duda / cuestionar", "She questions the official figures."],
-   ["dismiss / reject", "descartar / rechazar", "He dismisses the idea as naive."],
-   ["call for / advocate", "reclamar / abogar por", "The article calls for stricter rules."],
-   ["conclude (that)", "concluir", "The authors conclude that more research is needed."],
-   ["outline / describe", "esbozar / describir", "The first section outlines the problem."],
-   ["examine / explore", "analizar / explorar", "The book explores the roots of populism."],
-   ["attribute X to Y", "atribuir X a Y", "He attributes the crisis to poor regulation."]
-  ]},
-  {"tipo": "tabla", "cabecera": ["Expresión", "Significado", "Ejemplo"], "filas": [
-   ["The text deals with…", "el texto trata de…", "The text deals with migration."],
-   ["The main point is that…", "la idea principal es que…", "The main point is that cities must adapt."],
-   ["According to the author,…", "según el autor,…", "According to the author, the euro is stronger than ever."],
-   ["In the author's view,…", "en opinión del autor,…", "In the author's view, the reform came too late."],
-   ["In short / In a nutshell", "en resumen / en pocas palabras", "In a nutshell, the plan failed."],
-   ["to put it differently", "dicho de otra manera", "To put it differently, demand is too weak."]
-  ]},
-  {"tipo": "lista", "items": ["Técnicas de paráfrasis: cambiar la categoría (decide → decision), usar sinónimos, cambiar activa por pasiva y reordenar la información.", "Gramática: «suggest» no admite «to» + infinitivo: «suggest that we wait» o «suggest waiting».", "«Resume» no es resumir: se dice «summarise» (británico) o «summarize» (americano)."]}
+  {
+   "tipo": "texto",
+   "texto": "El verbo introductor transmite la actitud del autor y la tuya: «states» es neutro; «claims» sugiere que no está demostrado; «acknowledges» indica que admite algo en contra de su tesis. Elegir el verbo adecuado es parte del resumen."
+  },
+  {
+   "tipo": "tabla",
+   "cabecera": [
+    "Expresión",
+    "Significado",
+    "Ejemplo"
+   ],
+   "filas": [
+    [
+     "argue (that)",
+     "sostener, argumentar",
+     "The author argues that taxes should rise."
+    ],
+    [
+     "claim (that)",
+     "afirmar (sin pruebas claras)",
+     "He claims that the policy has worked."
+    ],
+    [
+     "state / point out",
+     "afirmar / señalar",
+     "She points out that the data is old."
+    ],
+    [
+     "contend / maintain",
+     "sostener (con firmeza)",
+     "Critics maintain that it is unfair."
+    ],
+    [
+     "acknowledge / concede",
+     "reconocer, admitir",
+     "The writer acknowledges some risks."
+    ],
+    [
+     "suggest",
+     "sugerir, dar a entender",
+     "The study suggests a link."
+    ],
+    [
+     "stress / emphasise / highlight",
+     "subrayar, destacar",
+     "The report highlights the role of education."
+    ],
+    [
+     "warn (that / of / against)",
+     "advertir",
+     "Experts warn of a new recession."
+    ],
+    [
+     "question / challenge",
+     "poner en duda / cuestionar",
+     "She questions the official figures."
+    ],
+    [
+     "dismiss / reject",
+     "descartar / rechazar",
+     "He dismisses the idea as naive."
+    ],
+    [
+     "call for / advocate",
+     "reclamar / abogar por",
+     "The article calls for stricter rules."
+    ],
+    [
+     "conclude (that)",
+     "concluir",
+     "The authors conclude that more research is needed."
+    ],
+    [
+     "outline / describe",
+     "esbozar / describir",
+     "The first section outlines the problem."
+    ],
+    [
+     "examine / explore",
+     "analizar / explorar",
+     "The book explores the roots of populism."
+    ],
+    [
+     "attribute X to Y",
+     "atribuir X a Y",
+     "He attributes the crisis to poor regulation."
+    ]
+   ]
+  },
+  {
+   "tipo": "tabla",
+   "cabecera": [
+    "Expresión",
+    "Significado",
+    "Ejemplo"
+   ],
+   "filas": [
+    [
+     "The text deals with…",
+     "el texto trata de…",
+     "The text deals with migration."
+    ],
+    [
+     "The main point is that…",
+     "la idea principal es que…",
+     "The main point is that cities must adapt."
+    ],
+    [
+     "According to the author,…",
+     "según el autor,…",
+     "According to the author, the euro is stronger than ever."
+    ],
+    [
+     "In the author's view,…",
+     "en opinión del autor,…",
+     "In the author's view, the reform came too late."
+    ],
+    [
+     "In short / In a nutshell",
+     "en resumen / en pocas palabras",
+     "In a nutshell, the plan failed."
+    ],
+    [
+     "to put it differently",
+     "dicho de otra manera",
+     "To put it differently, demand is too weak."
+    ]
+   ]
+  },
+  {
+   "tipo": "lista",
+   "items": [
+    "Técnicas de paráfrasis: cambiar la categoría (decide → decision), usar sinónimos, cambiar activa por pasiva y reordenar la información.",
+    "Gramática: «suggest» no admite «to» + infinitivo: «suggest that we wait» o «suggest waiting».",
+    "«Resume» no es resumir: se dice «summarise» (británico) o «summarize» (americano)."
+   ]
+  }
  ],
  "ejemplos": [
-  {"frase": "The author argues that rural areas have been forgotten by politicians.", "traduccion": "El autor sostiene que los políticos se han olvidado de las zonas rurales."},
-  {"frase": "She acknowledges that her proposal would be expensive.", "traduccion": "Reconoce que su propuesta saldría cara."},
-  {"frase": "The article calls for a ban on mobile phones in schools.", "traduccion": "El artículo reclama prohibir los móviles en los colegios."},
-  {"frase": "Scientists warn that the glacier could disappear within twenty years.", "traduccion": "Los científicos advierten de que el glaciar podría desaparecer en veinte años."},
-  {"frase": "In a nutshell, the film is about growing up in a small town.", "traduccion": "En pocas palabras, la película trata de crecer en un pueblo."},
-  {"frase": "He attributes his success to hard work and a bit of luck.", "traduccion": "Atribuye su éxito al trabajo duro y a un poco de suerte."}
+  {
+   "frase": "The author argues that rural areas have been forgotten by politicians.",
+   "traduccion": "El autor sostiene que los políticos se han olvidado de las zonas rurales."
+  },
+  {
+   "frase": "She acknowledges that her proposal would be expensive.",
+   "traduccion": "Reconoce que su propuesta saldría cara."
+  },
+  {
+   "frase": "The article calls for a ban on mobile phones in schools.",
+   "traduccion": "El artículo reclama prohibir los móviles en los colegios."
+  },
+  {
+   "frase": "Scientists warn that the glacier could disappear within twenty years.",
+   "traduccion": "Los científicos advierten de que el glaciar podría desaparecer en veinte años."
+  },
+  {
+   "frase": "In a nutshell, the film is about growing up in a small town.",
+   "traduccion": "En pocas palabras, la película trata de crecer en un pueblo."
+  },
+  {
+   "frase": "He attributes his success to hard work and a bit of luck.",
+   "traduccion": "Atribuye su éxito al trabajo duro y a un poco de suerte."
+  }
  ],
  "errores_hispanohablantes": [
-  {"mal": "Can you resume the text in 100 words?", "bien": "Can you summarise the text in 100 words?", "nota": "«Resumir» es «summarise»."},
-  {"mal": "The author suggests to raise taxes.", "bien": "The author suggests raising taxes.", "nota": "«Suggest» va con -ing o con «that»."},
-  {"mal": "The text talks about that the euro is strong.", "bien": "The text argues that the euro is strong.", "nota": "«Talk about» va con un sustantivo; para una afirmación se usa un verbo como argue o state + that."},
-  {"mal": "According to the author's opinion, ...", "bien": "According to the author, ... / In the author's opinion, ...", "nota": "No se combinan «according to» y «opinion»."}
+  {
+   "mal": "Can you resume the text in 100 words?",
+   "bien": "Can you summarise the text in 100 words?",
+   "nota": "«Resumir» es «summarise»."
+  },
+  {
+   "mal": "The author suggests to raise taxes.",
+   "bien": "The author suggests raising taxes.",
+   "nota": "«Suggest» va con -ing o con «that»."
+  },
+  {
+   "mal": "The text talks about that the euro is strong.",
+   "bien": "The text argues that the euro is strong.",
+   "nota": "«Talk about» va con un sustantivo; para una afirmación se usa un verbo como argue o state + that."
+  },
+  {
+   "mal": "According to the author's opinion, ...",
+   "bien": "According to the author, ... / In the author's opinion, ...",
+   "nota": "No se combinan «according to» y «opinion»."
+  }
  ],
  "ejercicios": [
-  {"id": "e01", "tipo": "eleccion", "enunciado": "Elige el verbo que indica que el autor admite un punto en contra.", "frase": "The author ___ that the plan has some weaknesses, but defends it overall.", "opciones": ["acknowledges", "claims", "warns", "dismisses"], "respuestas": ["acknowledges"], "explicacion": "«Acknowledge» = reconocer algo que matiza la propia tesis."},
-  {"id": "e02", "tipo": "corregir", "enunciado": "Corrige el error.", "frase": "Please resume this article in about 150 words.", "respuestas": ["Please summarise this article in about 150 words.", "Please summarize this article in about 150 words."], "explicacion": "«Resumir» es «summarise»; «resume» es reanudar."},
-  {"id": "e03", "tipo": "corregir", "enunciado": "Corrige el error.", "frase": "The report suggests to invest more in education.", "respuestas": ["The report suggests investing more in education.", "The report suggests that we invest more in education.", "The report suggests that the government invest more in education.", "The report suggests that the government should invest more in education."], "explicacion": "«Suggest» no va con «to» + infinitivo."},
-  {"id": "e04", "tipo": "eleccion", "enunciado": "Elige la opción correcta.", "frase": "Economists ___ of the risk of a new housing bubble.", "opciones": ["warn", "claim", "suggest", "state"], "respuestas": ["warn"], "explicacion": "«Warn of» = advertir de un peligro."},
-  {"id": "e05", "tipo": "hueco", "enunciado": "Completa con una preposición.", "frase": "The author attributes the decline ___ the lack of investment.", "respuestas": ["to"], "explicacion": "«Attribute X to Y» = atribuir X a Y."},
-  {"id": "e06", "tipo": "eleccion", "enunciado": "Elige el verbo que sugiere que la afirmación no está demostrada.", "frase": "The company ___ that its product cures insomnia.", "opciones": ["claims", "acknowledges", "concludes", "outlines"], "respuestas": ["claims"], "explicacion": "«Claim» transmite cierta distancia: lo afirma, pero no está probado."},
-  {"id": "e07", "tipo": "hueco", "enunciado": "Completa con un verbo + partícula (reclamar).", "frase": "The editorial calls ___ an urgent reform of the courts.", "respuestas": ["for"], "explicacion": "«Call for» = reclamar, pedir."},
-  {"id": "e08", "tipo": "eleccion", "enunciado": "Elige la opción correcta.", "frase": "He ___ the criticism as politically motivated.", "opciones": ["dismissed", "rejected of", "denied that", "refused"], "respuestas": ["dismissed"], "explicacion": "«Dismiss X as Y» = descartar X por considerarlo Y."},
-  {"id": "e09", "tipo": "hueco", "enunciado": "Completa la expresión (en pocas palabras).", "frase": "In a ___, the government's plan is too little, too late.", "respuestas": ["nutshell"], "explicacion": "«In a nutshell» = en pocas palabras."},
-  {"id": "e10", "tipo": "transformar", "enunciado": "Parafrasea con el sustantivo «decision»: empieza por «The».", "frase": "The government decided to close the mine, which surprised everyone.", "respuestas": ["The government's decision to close the mine surprised everyone.", "The decision to close the mine surprised everyone.", "The government's decision to close the mine took everyone by surprise."], "explicacion": "Paráfrasis por nominalización: decided → decision."},
-  {"id": "e11", "tipo": "eleccion", "enunciado": "Elige la opción correcta.", "frase": "The first chapter ___ the history of the conflict.", "opciones": ["outlines", "claims", "warns", "acknowledges"], "respuestas": ["outlines"], "explicacion": "«Outline» = esbozar, presentar a grandes rasgos."},
-  {"id": "e12", "tipo": "corregir", "enunciado": "Corrige el error.", "frase": "According to the author's opinion, the euro has been a success.", "respuestas": ["According to the author, the euro has been a success.", "In the author's opinion, the euro has been a success.", "In the author's view, the euro has been a success."], "explicacion": "«According to» ya indica la fuente: no se añade «opinion»."},
-  {"id": "e13", "tipo": "hueco", "enunciado": "Completa con un verbo (subrayar), en presente.", "frase": "The report ___ the importance of early education.", "respuestas": ["stresses", "emphasises", "emphasizes", "highlights", "underlines"], "explicacion": "«Stress / emphasise / highlight» = subrayar."},
-  {"id": "e14", "tipo": "ordenar", "enunciado": "Ordena las palabras.", "palabras": ["text", "with", "The", "deals", "migration", "rural"], "respuestas": ["The text deals with rural migration"], "explicacion": "«Deal with» = tratar de (un tema)."},
-  {"id": "e15", "tipo": "transformar", "enunciado": "Pasa la frase a pasiva impersonal: empieza por «It is».", "frase": "People argue that the tax is unfair.", "respuestas": ["It is argued that the tax is unfair."], "explicacion": "Pasiva impersonal: «It is argued that…»."}
+  {
+   "id": "e01",
+   "tipo": "eleccion",
+   "enunciado": "Elige el verbo que indica que el autor admite un punto en contra.",
+   "frase": "The author ___ that the plan has some weaknesses, but defends it overall.",
+   "opciones": [
+    "acknowledges",
+    "claims",
+    "warns",
+    "dismisses"
+   ],
+   "respuestas": [
+    "acknowledges"
+   ],
+   "explicacion": "Se aplica la idea de Reglas y claves: el verbo introductor transmite la actitud del autor, y acknowledge indica que admite algo en contra de su propia tesis. La pista está en la estructura de la frase: reconoce debilidades «but defends it overall», es decir, hace una concesión antes de defender el plan. Acknowledge that equivale al español «reconocer que» o «admitir que».",
+   "explicacion_breve": "«Acknowledge» = reconocer algo que matiza la propia tesis.",
+   "traduccion": "El autor reconoce que el plan tiene algunos puntos débiles, pero lo defiende en conjunto.",
+   "por_opcion": {
+    "acknowledges": "Correcta: reconoce un punto que matiza su tesis, como confirma el «but defends it overall».",
+    "claims": "Incorrecta: claim significa afirmar algo sin pruebas claras y no encaja con una concesión seguida de but.",
+    "warns": "Incorrecta: warn significa advertir de un peligro; aquí no hay advertencia, sino una admisión.",
+    "dismisses": "Incorrecta: dismiss es descartar, lo contrario de reconocer las debilidades; además no va con that."
+   },
+   "glosario": [
+    {
+     "palabra": "acknowledge",
+     "significado": "reconocer, admitir"
+    },
+    {
+     "palabra": "weakness",
+     "significado": "punto débil"
+    },
+    {
+     "palabra": "overall",
+     "significado": "en conjunto, en general"
+    }
+   ]
+  },
+  {
+   "id": "e02",
+   "tipo": "corregir",
+   "enunciado": "Corrige el error.",
+   "frase": "Please resume this article in about 150 words.",
+   "respuestas": [
+    "Please summarise this article in about 150 words.",
+    "Please summarize this article in about 150 words."
+   ],
+   "explicacion": "Es el falso amigo que recoge Reglas y claves: resume significa reanudar, no resumir. Resumir es summarise en inglés británico o summarize en americano; por eso se aceptan las dos grafías. La pista es el contexto: reducir un artículo a 150 palabras. «Please resume this article» se entendería como «reanuda la lectura de este artículo».",
+   "explicacion_breve": "«Resumir» es «summarise»; «resume» es reanudar.",
+   "traduccion": "Por favor, resume este artículo en unas 150 palabras.",
+   "errores_previstos": [
+    {
+     "respuesta": "Please resume this article in about 150 words.",
+     "explicacion": "Es la frase sin corregir: resume significa reanudar."
+    },
+    {
+     "respuesta": "Please resumé this article in about 150 words.",
+     "explicacion": "Résumé es un sustantivo (en americano, el currículum); no es el verbo resumir."
+    },
+    {
+     "respuesta": "Please make a resume of this article in about 150 words.",
+     "explicacion": "Sigue el falso amigo; el sustantivo es a summary y el verbo, summarise."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "summarise / summarize",
+     "significado": "resumir"
+    },
+    {
+     "palabra": "resume",
+     "significado": "reanudar"
+    }
+   ]
+  },
+  {
+   "id": "e03",
+   "tipo": "corregir",
+   "enunciado": "Corrige el error.",
+   "frase": "The report suggests to invest more in education.",
+   "respuestas": [
+    "The report suggests investing more in education.",
+    "The report suggests that we invest more in education.",
+    "The report suggests that the government invest more in education.",
+    "The report suggests that the government should invest more in education."
+   ],
+   "explicacion": "Se aplica la nota gramatical de Reglas y claves: suggest no admite to + infinitivo. Se construye con -ing (suggests investing) o con una oración con that (suggests that we invest). Tras that puede aparecer el subjuntivo inglés (the government invest, sin -s) o should + infinitivo; por eso se aceptan todas esas variantes. El error de la frase original es un calco de «sugiere invertir».",
+   "explicacion_breve": "«Suggest» no va con «to» + infinitivo.",
+   "traduccion": "El informe sugiere invertir más en educación.",
+   "errores_previstos": [
+    {
+     "respuesta": "The report suggests to invest more in education.",
+     "explicacion": "Es la frase sin corregir: suggest no va con to + infinitivo."
+    },
+    {
+     "respuesta": "The report suggests invest more in education.",
+     "explicacion": "Tras suggest no puede ir el infinitivo sin to; hace falta el gerundio investing."
+    },
+    {
+     "respuesta": "The report suggests us to invest more in education.",
+     "explicacion": "Suggest no admite la estructura objeto + to infinitivo; se dice suggests that we invest."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "suggest",
+     "significado": "sugerir, proponer"
+    },
+    {
+     "palabra": "invest in",
+     "significado": "invertir en"
+    }
+   ]
+  },
+  {
+   "id": "e04",
+   "tipo": "eleccion",
+   "enunciado": "Elige la opción correcta.",
+   "frase": "Economists ___ of the risk of a new housing bubble.",
+   "opciones": [
+    "warn",
+    "claim",
+    "suggest",
+    "state"
+   ],
+   "respuestas": [
+    "warn"
+   ],
+   "explicacion": "La tabla recoge warn (that / of / against), advertir. La pista decisiva es la preposición of tras el hueco y el sustantivo risk: warn of + peligro significa advertir de un riesgo. Ninguno de los otros verbos se construye con of, y además el contenido (un riesgo) pide un verbo de advertencia.",
+   "explicacion_breve": "«Warn of» = advertir de un peligro.",
+   "traduccion": "Los economistas advierten del riesgo de una nueva burbuja inmobiliaria.",
+   "por_opcion": {
+    "warn": "Correcta: warn of = advertir de un peligro; encaja con of y con risk.",
+    "claim": "Incorrecta: claim no va con of; se construye con that o con un sustantivo directo (claim victory).",
+    "suggest": "Incorrecta: suggest no admite of; además expresa una propuesta o indicio, no una advertencia.",
+    "state": "Incorrecta: state significa afirmar de forma neutra y va con that o con complemento directo, no con of."
+   },
+   "glosario": [
+    {
+     "palabra": "warn of",
+     "significado": "advertir de"
+    },
+    {
+     "palabra": "housing bubble",
+     "significado": "burbuja inmobiliaria"
+    }
+   ]
+  },
+  {
+   "id": "e05",
+   "tipo": "hueco",
+   "enunciado": "Completa con una preposición.",
+   "frase": "The author attributes the decline ___ the lack of investment.",
+   "respuestas": [
+    "to"
+   ],
+   "explicacion": "La tabla recoge attribute X to Y, atribuir X a Y. La preposición es to, como el español «a», y la estructura no cambia: primero lo que se explica (the decline) y después la causa (the lack of investment). La pista es el verbo attributes con su objeto directo ya colocado antes del hueco.",
+   "explicacion_breve": "«Attribute X to Y» = atribuir X a Y.",
+   "traduccion": "El autor atribuye el declive a la falta de inversión.",
+   "errores_previstos": [
+    {
+     "respuesta": "at",
+     "explicacion": "Attribute no va con at; la preposición fija es to."
+    },
+    {
+     "respuesta": "for",
+     "explicacion": "For no introduce la causa con attribute; se dice attribute X to Y."
+    },
+    {
+     "respuesta": "with",
+     "explicacion": "With no es la preposición de attribute; la correcta es to."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "attribute X to Y",
+     "significado": "atribuir X a Y"
+    },
+    {
+     "palabra": "decline",
+     "significado": "declive, descenso"
+    },
+    {
+     "palabra": "lack of",
+     "significado": "falta de"
+    }
+   ]
+  },
+  {
+   "id": "e06",
+   "tipo": "eleccion",
+   "enunciado": "Elige el verbo que sugiere que la afirmación no está demostrada.",
+   "frase": "The company ___ that its product cures insomnia.",
+   "opciones": [
+    "claims",
+    "acknowledges",
+    "concludes",
+    "outlines"
+   ],
+   "respuestas": [
+    "claims"
+   ],
+   "explicacion": "Según Reglas y claves, claim significa afirmar algo sin pruebas claras y transmite cierta distancia de quien informa. La pista es el contexto: una empresa que asegura que su producto cura el insomnio es una afirmación interesada y no demostrada. Al elegir claims, quien resume deja ver su escepticismo sin decirlo abiertamente.",
+   "explicacion_breve": "«Claim» transmite cierta distancia: lo afirma, pero no está probado.",
+   "traduccion": "La empresa afirma que su producto cura el insomnio.",
+   "por_opcion": {
+    "claims": "Correcta: afirma algo no demostrado, y el verbo marca distancia.",
+    "acknowledges": "Incorrecta: acknowledge es admitir algo en contra de uno mismo; nadie «admite» que su producto funciona.",
+    "concludes": "Incorrecta: conclude implica un razonamiento o estudio previo, no una afirmación publicitaria.",
+    "outlines": "Incorrecta: outline es esbozar o presentar a grandes rasgos y no va con that."
+   },
+   "glosario": [
+    {
+     "palabra": "claim",
+     "significado": "afirmar, asegurar (sin pruebas claras)"
+    },
+    {
+     "palabra": "cure",
+     "significado": "curar"
+    },
+    {
+     "palabra": "insomnia",
+     "significado": "insomnio"
+    }
+   ]
+  },
+  {
+   "id": "e07",
+   "tipo": "hueco",
+   "enunciado": "Completa con un verbo + partícula (reclamar).",
+   "frase": "The editorial calls ___ an urgent reform of the courts.",
+   "respuestas": [
+    "for"
+   ],
+   "explicacion": "La tabla recoge call for, reclamar o pedir públicamente algo. Es un verbo con preposición fija: sin for, call significa llamar. La pista es el sujeto, un editorial, que típicamente reclama medidas, y el objeto, una reforma. Es muy frecuente en prensa: «unions call for a strike», «the opposition calls for his resignation».",
+   "explicacion_breve": "«Call for» = reclamar, pedir.",
+   "traduccion": "El editorial reclama una reforma urgente de los tribunales.",
+   "errores_previstos": [
+    {
+     "respuesta": "to",
+     "explicacion": "«Call to» no significa reclamar; con ese sentido la preposición es for."
+    },
+    {
+     "respuesta": "on",
+     "explicacion": "Call on significa instar a alguien a hacer algo (call on the government to act); aquí falta la persona y el objeto es la reforma, así que va for."
+    },
+    {
+     "respuesta": "up",
+     "explicacion": "Call up significa llamar por teléfono o convocar (al ejército); no es reclamar."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "call for",
+     "significado": "reclamar, pedir"
+    },
+    {
+     "palabra": "editorial",
+     "significado": "editorial (artículo de opinión de un periódico)"
+    },
+    {
+     "palabra": "courts",
+     "significado": "tribunales"
+    }
+   ]
+  },
+  {
+   "id": "e08",
+   "tipo": "eleccion",
+   "enunciado": "Elige la opción correcta.",
+   "frase": "He ___ the criticism as politically motivated.",
+   "opciones": [
+    "dismissed",
+    "rejected of",
+    "denied that",
+    "refused"
+   ],
+   "respuestas": [
+    "dismissed"
+   ],
+   "explicacion": "La tabla recoge dismiss como descartar o rechazar, y el ejemplo «He dismisses the idea as naive» muestra la construcción dismiss X as Y: descartar X por considerarlo Y. La pista es el as que sigue al objeto («as politically motivated»). Ninguna de las otras opciones encaja con esa estructura.",
+   "explicacion_breve": "«Dismiss X as Y» = descartar X por considerarlo Y.",
+   "traduccion": "Descartó las críticas por considerarlas motivadas políticamente.",
+   "por_opcion": {
+    "dismissed": "Correcta: dismiss X as Y, descartar algo por considerarlo de cierta manera.",
+    "rejected of": "Incorrecta: reject es transitivo directo (reject the criticism) y nunca lleva of.",
+    "denied that": "Incorrecta: tras that haría falta una oración completa con verbo, y aquí sigue un sustantivo.",
+    "refused": "Incorrecta: refuse es negarse a hacer algo (refuse to pay) o rechazar una oferta; no se usa para descartar críticas con as."
+   },
+   "glosario": [
+    {
+     "palabra": "dismiss X as Y",
+     "significado": "descartar X por considerarlo Y"
+    },
+    {
+     "palabra": "politically motivated",
+     "significado": "con motivación política"
+    }
+   ]
+  },
+  {
+   "id": "e09",
+   "tipo": "hueco",
+   "enunciado": "Completa la expresión (en pocas palabras).",
+   "frase": "In a ___, the government's plan is too little, too late.",
+   "respuestas": [
+    "nutshell",
+    "word"
+   ],
+   "explicacion": "La tabla recoge In short / In a nutshell, en resumen, en pocas palabras. Nutshell es literalmente la cáscara de una nuez: la idea es que todo cabe en algo muy pequeño. La pista es el artículo a seguido del hueco tras in, que solo admite nutshell. Es una fórmula algo coloquial, útil para cerrar un resumen oral. También se acepta in a word («en una palabra»), que resume aún más y es igual de idiomática.",
+   "explicacion_breve": "«In a nutshell» = en pocas palabras (también «in a word», en una palabra).",
+   "traduccion": "En pocas palabras, el plan del Gobierno es insuficiente y llega tarde.",
+   "errores_previstos": [
+    {
+     "respuesta": "nut",
+     "explicacion": "La expresión fija es in a nutshell (literalmente, «en una cáscara de nuez»); in a nut no existe."
+    },
+    {
+     "respuesta": "short",
+     "explicacion": "«In short» va sin artículo; con a, la expresión es in a nutshell."
+    },
+    {
+     "respuesta": "summary",
+     "explicacion": "Se dice in summary, sin artículo; con a, solo in a nutshell."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "in a nutshell",
+     "significado": "en pocas palabras"
+    },
+    {
+     "palabra": "too little, too late",
+     "significado": "insuficiente y tardío"
+    }
+   ]
+  },
+  {
+   "id": "e10",
+   "tipo": "transformar",
+   "enunciado": "Parafrasea con el sustantivo «decision»: empieza por «The».",
+   "frase": "The government decided to close the mine, which surprised everyone.",
+   "respuestas": [
+    "The government's decision to close the mine surprised everyone.",
+    "The decision to close the mine surprised everyone.",
+    "The government's decision to close the mine took everyone by surprise."
+   ],
+   "explicacion": "Se aplica la técnica de paráfrasis de Reglas y claves que consiste en cambiar la categoría gramatical: el verbo decided pasa a ser el sustantivo decision. Ese sustantivo se convierte en el sujeto, y la relativa which surprised everyone se transforma en el verbo principal. Se acepta mantener o quitar the government's y también la variante took everyone by surprise, porque todas condensan la idea en un sustantivo.",
+   "explicacion_breve": "Paráfrasis por nominalización: decided → decision.",
+   "traduccion": "La decisión del Gobierno de cerrar la mina sorprendió a todos.",
+   "errores_previstos": [
+    {
+     "respuesta": "The government's decision of closing the mine surprised everyone.",
+     "explicacion": "Decision va con to + infinitivo (the decision to close), no con of + -ing."
+    },
+    {
+     "respuesta": "The decision of the government of closing the mine surprised everyone.",
+     "explicacion": "Calca la estructura española «la decisión del Gobierno de cerrar»; en inglés es the government's decision to close."
+    },
+    {
+     "respuesta": "The government decided to close the mine, which surprised everyone.",
+     "explicacion": "Es la frase original sin transformar: no hay nominalización."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "decision to",
+     "significado": "decisión de"
+    },
+    {
+     "palabra": "mine",
+     "significado": "mina"
+    },
+    {
+     "palabra": "take somebody by surprise",
+     "significado": "sorprender a alguien"
+    }
+   ]
+  },
+  {
+   "id": "e11",
+   "tipo": "eleccion",
+   "enunciado": "Elige la opción correcta.",
+   "frase": "The first chapter ___ the history of the conflict.",
+   "opciones": [
+    "outlines",
+    "claims",
+    "warns",
+    "acknowledges"
+   ],
+   "respuestas": [
+    "outlines"
+   ],
+   "explicacion": "La tabla recoge outline / describe, esbozar o presentar a grandes rasgos. La pista es el sujeto, the first chapter, y el objeto, the history of the conflict: un capítulo inicial suele presentar el marco general. Outline va con complemento directo, sin preposición ni that.",
+   "explicacion_breve": "«Outline» = esbozar, presentar a grandes rasgos.",
+   "traduccion": "El primer capítulo esboza la historia del conflicto.",
+   "por_opcion": {
+    "outlines": "Correcta: presenta a grandes rasgos; encaja con un capítulo inicial y un complemento directo.",
+    "claims": "Incorrecta: claim introduce una afirmación discutible con that; no se «afirma» una historia.",
+    "warns": "Incorrecta: warn es advertir de un peligro y necesita of, that o against.",
+    "acknowledges": "Incorrecta: acknowledge es admitir algo en contra de la propia tesis; no describe lo que hace un capítulo."
+   },
+   "glosario": [
+    {
+     "palabra": "outline",
+     "significado": "esbozar, presentar a grandes rasgos"
+    },
+    {
+     "palabra": "chapter",
+     "significado": "capítulo"
+    }
+   ]
+  },
+  {
+   "id": "e12",
+   "tipo": "corregir",
+   "enunciado": "Corrige el error.",
+   "frase": "According to the author's opinion, the euro has been a success.",
+   "respuestas": [
+    "According to the author, the euro has been a success.",
+    "In the author's opinion, the euro has been a success.",
+    "In the author's view, the euro has been a success."
+   ],
+   "explicacion": "Reglas y claves y los errores típicos de la ficha lo señalan: according to ya indica la fuente de la opinión, así que no se combina con opinion. Hay dos soluciones: según el autor (according to the author) o en opinión del autor (in the author's opinion / in the author's view). Las tres se aceptan.",
+   "explicacion_breve": "«According to» ya indica la fuente: no se añade «opinion».",
+   "traduccion": "Según el autor, el euro ha sido un éxito.",
+   "errores_previstos": [
+    {
+     "respuesta": "According to the author's opinion, the euro has been a success.",
+     "explicacion": "Es la frase sin corregir: según + opinión es redundante."
+    },
+    {
+     "respuesta": "According to the author's view, the euro has been a success.",
+     "explicacion": "Mantiene la redundancia: view equivale a opinion. Se dice according to the author o in the author's view."
+    },
+    {
+     "respuesta": "According to the author's point of view, the euro has been a success.",
+     "explicacion": "Sigue la redundancia: point of view equivale a opinion. Se dice from the author's point of view o according to the author."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "according to",
+     "significado": "según"
+    },
+    {
+     "palabra": "in the author's view",
+     "significado": "en opinión del autor"
+    }
+   ]
+  },
+  {
+   "id": "e13",
+   "tipo": "hueco",
+   "enunciado": "Completa con un verbo (subrayar), en presente.",
+   "frase": "The report ___ the importance of early education.",
+   "respuestas": [
+    "stresses",
+    "emphasises",
+    "emphasizes",
+    "highlights",
+    "underlines"
+   ],
+   "explicacion": "La tabla recoge stress / emphasise / highlight, subrayar o destacar. La pista es el objeto, the importance of…, que pide un verbo de énfasis, y el sujeto en tercera persona (the report), que exige la -s. Se aceptan las cinco formas porque todas significan destacar y van con complemento directo; emphasises y emphasizes son las grafías británica y americana, y underlines es otro sinónimo válido.",
+   "explicacion_breve": "«Stress / emphasise / highlight» = subrayar.",
+   "traduccion": "El informe subraya la importancia de la educación temprana.",
+   "errores_previstos": [
+    {
+     "respuesta": "stress",
+     "explicacion": "Falta la -s de tercera persona del singular: the report stresses."
+    },
+    {
+     "respuesta": "emphasises on",
+     "explicacion": "Emphasise es transitivo directo; no lleva on (el sustantivo sí: an emphasis on)."
+    },
+    {
+     "respuesta": "remarks",
+     "explicacion": "Remark significa comentar de pasada y va con that o con on; no expresa énfasis."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "stress / emphasise / highlight",
+     "significado": "subrayar, destacar"
+    },
+    {
+     "palabra": "early education",
+     "significado": "educación temprana, infantil"
+    }
+   ]
+  },
+  {
+   "id": "e14",
+   "tipo": "ordenar",
+   "enunciado": "Ordena las palabras.",
+   "palabras": [
+    "text",
+    "with",
+    "The",
+    "deals",
+    "migration",
+    "rural"
+   ],
+   "respuestas": [
+    "The text deals with rural migration"
+   ],
+   "explicacion": "La tabla recoge la fórmula The text deals with…, el texto trata de. Deal with lleva siempre la preposición with y va seguido del tema. El adjetivo rural se coloca delante del sustantivo migration, como es norma en inglés. Por tanto: sujeto (the text) + verbo con preposición (deals with) + adjetivo + sustantivo.",
+   "explicacion_breve": "«Deal with» = tratar de (un tema).",
+   "traduccion": "El texto trata de la migración rural.",
+   "errores_previstos": [
+    {
+     "respuesta": "The text deals with migration rural",
+     "explicacion": "Calco del orden español: el adjetivo va delante del sustantivo, rural migration."
+    },
+    {
+     "respuesta": "The text with deals rural migration",
+     "explicacion": "La preposición with va detrás del verbo: deals with."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "deal with",
+     "significado": "tratar de, abordar (un tema)"
+    },
+    {
+     "palabra": "rural migration",
+     "significado": "migración rural"
+    }
+   ]
+  },
+  {
+   "id": "e15",
+   "tipo": "transformar",
+   "enunciado": "Pasa la frase a pasiva impersonal.",
+   "frase": "People argue that the tax is unfair.",
+   "respuestas": [
+    "It is argued that the tax is unfair.",
+    "The tax is argued to be unfair."
+   ],
+   "explicacion": "Es una técnica de paráfrasis de Reglas y claves: cambiar activa por pasiva. Cuando el sujeto es general (people), el inglés formal prefiere la pasiva impersonal It is argued that…, equivalente a «se sostiene que»: el sujeto formal it ocupa el lugar de people, el verbo pasa a is argued y la oración con that se mantiene igual. También vale la otra estructura personal: The tax is argued to be unfair, con el sujeto de la subordinada delante y to + infinitivo.",
+   "explicacion_breve": "Pasiva impersonal: «It is argued that…» o «The tax is argued to be…».",
+   "traduccion": "Se dice que el impuesto es injusto.",
+   "errores_previstos": [
+    {
+     "respuesta": "It argues that the tax is unfair.",
+     "explicacion": "Es activa: significaría que «ello» sostiene algo. Hace falta la pasiva, is argued."
+    },
+    {
+     "respuesta": "Is argued that the tax is unfair.",
+     "explicacion": "Falta el sujeto formal it, obligatorio en inglés aunque en español no se exprese."
+    },
+    {
+     "respuesta": "It is argue that the tax is unfair.",
+     "explicacion": "La pasiva exige el participio: argued."
+    },
+    {
+     "respuesta": "It has been argued that the tax is unfair.",
+     "explicacion": "Es una frase correcta y frecuente, pero cambia el tiempo: argue está en presente, así que la pasiva es is argued, no has been argued."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "it is argued that",
+     "significado": "se sostiene que"
+    },
+    {
+     "palabra": "unfair",
+     "significado": "injusto"
+    }
+   ]
+  }
  ],
- "fuente": {"nombre": "propia"}
+ "fuente": {
+  "nombre": "propia"
+ },
+ "descripcion_larga_es": "Verbos introductores (argue, claim, acknowledge, warn…) y fórmulas para resumir y reformular un texto ajeno sin copiarlo. Son la herramienta central de la prueba de resumen y de la exposición oral de un artículo: el verbo elegido transmite si el autor afirma, admite, advierte o reclama algo. Cuestan al hispanohablante por falsos amigos (resume) y por construcciones como suggest + -ing.",
+ "contexto": {
+  "que_es": "Es el léxico para informar de lo que dice otro: verbos introductores con matices distintos (state, argue, claim, acknowledge, warn, dismiss), fórmulas de presentación (The text deals with…, According to the author…) y conectores de resumen (In short, In a nutshell). Incluye técnicas de paráfrasis como la nominalización, la sinonimia o el paso a pasiva.",
+  "por_que_importa": "Un buen resumen no consiste en repetir «the author says» una y otra vez: el verbo introductor indica si el autor demuestra, sugiere, admite o simplemente afirma sin pruebas. Elegir mal cambia el sentido (claim introduce distancia; acknowledge, una concesión) y puede tergiversar el texto. En una prueba de resumen o de exposición oral de nivel C1, este vocabulario y la capacidad de parafrasear son criterios de evaluación directos.",
+  "cuando_se_usa": "Al resumir artículos, informes o discursos, al presentar oralmente un texto y al citar fuentes en un ensayo. Las señales son la necesidad de atribuir una idea a otra persona y de valorar su grado de certeza. El hispanohablante tiende a usar resume por «resumir», suggest to + infinitivo y combinaciones redundantes como «according to the author's opinion»."
+ }
 }

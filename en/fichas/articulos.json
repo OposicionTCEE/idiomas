@@ -116,7 +116,19 @@
    "respuestas": [
     "an"
    ],
-   "explicacion": "Architect empieza por sonido vocálico."
+   "explicacion": "Se aplican dos reglas de la ficha. Primera: las profesiones llevan siempre a/an en singular, aunque el español diga «es arquitecta» sin artículo. Segunda: se elige an delante de sonido vocálico. La pista es la pronunciación de «architect», que empieza por el sonido /ɑː/, vocálico. Por eso «She's an architect».",
+   "explicacion_breve": "Architect empieza por sonido vocálico.",
+   "traduccion": "Es arquitecta.",
+   "errores_previstos": [
+    {
+     "respuesta": "a",
+     "explicacion": "«Architect» empieza por sonido vocálico, así que el artículo es «an», no «a»."
+    },
+    {
+     "respuesta": "the",
+     "explicacion": "Para decir la profesión de alguien se usa el indefinido a/an, no «the»."
+    }
+   ]
   },
   {
    "id": "e02",
@@ -126,7 +138,19 @@
    "respuestas": [
     "a"
    ],
-   "explicacion": "University empieza por sonido /j/, consonántico."
+   "explicacion": "Se aplica la regla de la ficha según la cual cuenta el sonido, no la letra. La pista es que «university» se escribe con u, pero se pronuncia /juː/, como «you», que es un sonido consonántico. Por eso se dice «a university», aunque la letra inicial sea vocal. Lo mismo pasa con «a European country» o «a one-way ticket».",
+   "explicacion_breve": "University empieza por sonido /j/, consonántico.",
+   "traduccion": "Estudia en una universidad de Madrid.",
+   "errores_previstos": [
+    {
+     "respuesta": "an",
+     "explicacion": "Aunque empiece por la letra u, «university» suena /juː/, que es consonántico: «a university»."
+    },
+    {
+     "respuesta": "the",
+     "explicacion": "Se habla de una universidad cualquiera de Madrid, mencionada por primera vez: se usa el indefinido."
+    }
+   ]
   },
   {
    "id": "e03",
@@ -136,7 +160,19 @@
    "respuestas": [
     "an"
    ],
-   "explicacion": "En hour la h no se pronuncia: sonido vocálico."
+   "explicacion": "Se aplica la regla del sonido: an delante de sonido vocálico. La pista es que en «hour» la h es muda, de modo que la palabra empieza por el sonido /aʊ/. Por eso «half an hour», que además es una expresión muy frecuente. Lo mismo ocurre con «an honest man» o «an heir».",
+   "explicacion_breve": "En hour la h no se pronuncia: sonido vocálico.",
+   "traduccion": "El tren sale dentro de media hora.",
+   "errores_previstos": [
+    {
+     "respuesta": "a",
+     "explicacion": "La h de «hour» no se pronuncia: la palabra empieza por sonido vocálico y lleva «an»."
+    },
+    {
+     "respuesta": "the",
+     "explicacion": "«Half the hour» no significa «media hora»; la expresión fija es «half an hour»."
+    }
+   ]
   },
   {
    "id": "e04",
@@ -146,7 +182,19 @@
    "respuestas": [
     "The"
    ],
-   "explicacion": "Segunda mención: the."
+   "explicacion": "Se aplica la regla de la tabla: a/an para la primera mención y the para algo ya mencionado o conocido. La pista es la frase anterior, «I saw a film», que introduce la película; ahora se vuelve a hablar de esa misma película, que ya es concreta para el oyente. Por eso «The film», con mayúscula porque abre la oración. Es el mismo mecanismo que el español «una película… la película».",
+   "explicacion_breve": "Segunda mención: the.",
+   "traduccion": "Anoche vi una película. La película trataba de un pianista.",
+   "errores_previstos": [
+    {
+     "respuesta": "A",
+     "explicacion": "«A film» presentaría otra película distinta; se habla de la ya mencionada, así que va «The»."
+    },
+    {
+     "respuesta": "This",
+     "explicacion": "«This» no es un artículo y el ejercicio pide a, an o the; para la segunda mención el artículo es «The»."
+    }
+   ]
   },
   {
    "id": "e05",
@@ -161,7 +209,14 @@
    "respuestas": [
     "The"
    ],
-   "explicacion": "Cosa única: the."
+   "explicacion": "Se aplica la regla de la tabla para cosas únicas: llevan the (the sun, the sea, the internet). La pista es «sun»: solo hay uno, así que no puede ser «un sol» cualquiera. Por eso «The sun rises in the east», donde «the east» también lleva artículo por ser un punto cardinal único. En este caso el español coincide.",
+   "explicacion_breve": "Cosa única: the.",
+   "traduccion": "El sol sale por el este.",
+   "por_opcion": {
+    "A": "Incorrecta: «a sun» sería un sol cualquiera de muchos; hablando del nuestro, que es único, se usa «the».",
+    "The": "Correcta: cosa única, conocida por todos.",
+    "An": "Incorrecta: además de no ser el artículo adecuado, «sun» empieza por sonido consonántico y nunca llevaría «an»."
+   }
   },
   {
    "id": "e06",
@@ -176,7 +231,14 @@
    "respuestas": [
     "–"
    ],
-   "explicacion": "Gusto general con incontable: sin artículo."
+   "explicacion": "Se aplica la regla de la tabla: sin artículo con plurales e incontables cuando se habla en general. La pista es el verbo «like», que expresa un gusto general, y «coffee», que es incontable. Por eso «I don't like coffee», sin nada. El español dice «el café», y ese «el» es lo que lleva a añadir «the» por error.",
+   "explicacion_breve": "Gusto general con incontable: sin artículo.",
+   "traduccion": "No me gusta el café.",
+   "por_opcion": {
+    "the": "Incorrecta aquí: «the coffee» se referiría a un café concreto (por ejemplo, el de esa cafetería); para el gusto general no hay artículo.",
+    "a": "Incorrecta: «coffee» como sustancia es incontable y no lleva «a». Solo en el habla se dice «a coffee» por «una taza de café», que no es el sentido aquí.",
+    "–": "Correcta: gusto general con un incontable, sin artículo."
+   }
   },
   {
    "id": "e07",
@@ -191,7 +253,14 @@
    "respuestas": [
     "–"
    ],
-   "explicacion": "Go to bed es una expresión fija sin artículo."
+   "explicacion": "Se aplica la lista de expresiones fijas sin artículo de la ficha: at home, at work, go to bed, go to school, by bus. La pista es «go to ___ bed», que significa acostarse y es una de esas expresiones. Por eso «We go to bed at eleven». Con artículo, «the bed» sería el mueble concreto, no el hecho de irse a dormir.",
+   "explicacion_breve": "Go to bed es una expresión fija sin artículo.",
+   "traduccion": "Nos acostamos a las once.",
+   "por_opcion": {
+    "the": "Incorrecta: «go to the bed» significaría acercarse al mueble, no irse a dormir.",
+    "a": "Incorrecta: «go to a bed» no tiene sentido como acostarse.",
+    "–": "Correcta: «go to bed» es una expresión fija sin artículo."
+   }
   },
   {
    "id": "e08",
@@ -206,7 +275,14 @@
    "respuestas": [
     "the"
    ],
-   "explicacion": "Una puerta concreta que ambos conocen: the."
+   "explicacion": "Se aplica la regla de la tabla: the para algo conocido por los dos hablantes. La pista es la situación: quien habla pide que se cierre una puerta concreta, la de la habitación en la que están, y ambos saben cuál es. Por eso «close the door». Con «a door» se pediría cerrar una puerta cualquiera, lo que no tiene sentido.",
+   "explicacion_breve": "Una puerta concreta que ambos conocen: the.",
+   "traduccion": "¿Puedes cerrar la puerta, por favor?",
+   "por_opcion": {
+    "a": "Incorrecta: «a door» sería una puerta cualquiera; se habla de una concreta que ambos tienen delante.",
+    "the": "Correcta: puerta concreta e identificable por el contexto.",
+    "an": "Incorrecta: «door» empieza por sonido consonántico y, además, aquí hace falta el artículo definido."
+   }
   },
   {
    "id": "e09",
@@ -216,7 +292,23 @@
    "respuestas": [
     "My sister is a teacher."
    ],
-   "explicacion": "La profesión lleva a."
+   "explicacion": "Se aplica la regla de la ficha que dice que las profesiones siempre llevan a/an en singular. La pista es «is teacher»: tras el verbo be se dice qué profesión tiene alguien, y en inglés eso exige artículo, aunque el español no lo ponga. Como «teacher» empieza por consonante, la frase correcta es «My sister is a teacher».",
+   "explicacion_breve": "La profesión lleva a.",
+   "traduccion": "Mi hermana es profesora.",
+   "errores_previstos": [
+    {
+     "respuesta": "My sister is teacher.",
+     "explicacion": "Es la frase sin corregir: es el calco del español «es profesora»; en inglés la profesión lleva «a»."
+    },
+    {
+     "respuesta": "My sister is the teacher.",
+     "explicacion": "«The teacher» significaría que es la profesora concreta de la que se habla, no su profesión."
+    },
+    {
+     "respuesta": "My sister is an teacher.",
+     "explicacion": "«Teacher» empieza por sonido consonántico: lleva «a», no «an»."
+    }
+   ]
   },
   {
    "id": "e10",
@@ -226,7 +318,19 @@
    "respuestas": [
     "I eat a banana every morning."
    ],
-   "explicacion": "Banana empieza por consonante: a."
+   "explicacion": "Se aplica la regla del sonido: a delante de sonido consonántico y an delante de sonido vocálico. La pista es «banana», que empieza por /b/, un sonido consonántico. Por eso «a banana». El error suele venir de generalizar «an» con cualquier fruta («an apple», «an orange»), que sí empiezan por vocal.",
+   "explicacion_breve": "Banana empieza por consonante: a.",
+   "traduccion": "Me como un plátano todas las mañanas.",
+   "errores_previstos": [
+    {
+     "respuesta": "I eat an banana every morning.",
+     "explicacion": "Es la frase sin corregir: «banana» empieza por consonante, así que el artículo es «a»."
+    },
+    {
+     "respuesta": "I eat the banana every morning.",
+     "explicacion": "«The banana» sería un plátano concreto ya conocido; aquí es uno cualquiera cada mañana."
+    }
+   ]
   },
   {
    "id": "e11",
@@ -236,7 +340,19 @@
    "respuestas": [
     "Cats are independent animals."
    ],
-   "explicacion": "Hablando de los gatos en general no se usa the."
+   "explicacion": "Se aplica la regla de la tabla: sin artículo con plurales cuando se habla en general. La pista es que la frase define a los gatos como especie, no a unos gatos concretos. Por eso «Cats are independent animals». El español dice «los gatos», pero en inglés «the cats» solo se refiere a unos gatos determinados (por ejemplo, los del vecino).",
+   "explicacion_breve": "Hablando de los gatos en general no se usa the.",
+   "traduccion": "Los gatos son animales independientes.",
+   "errores_previstos": [
+    {
+     "respuesta": "The cats are independent animals.",
+     "explicacion": "Es la frase sin corregir: «the cats» se refiere a unos gatos concretos, no a los gatos en general."
+    },
+    {
+     "respuesta": "Cats are the independent animals.",
+     "explicacion": "El artículo sobra también delante de «independent animals»: se describe a los gatos en general."
+    }
+   ]
   },
   {
    "id": "e12",
@@ -246,7 +362,19 @@
    "respuestas": [
     "I play tennis on Saturdays."
    ],
-   "explicacion": "Los deportes no llevan artículo."
+   "explicacion": "Se aplica la regla de la tabla: comidas, idiomas, deportes y días van sin artículo. La pista es el verbo «play» seguido del nombre del deporte, «tennis». Por eso «I play tennis on Saturdays». El español dice «al tenis», y ese «el» empuja a escribir «the». Distinto es tocar un instrumento, que sí lleva «the» (play the guitar).",
+   "explicacion_breve": "Los deportes no llevan artículo.",
+   "traduccion": "Juego al tenis los sábados.",
+   "errores_previstos": [
+    {
+     "respuesta": "I play the tennis on Saturdays.",
+     "explicacion": "Es la frase sin corregir: los deportes no llevan artículo."
+    },
+    {
+     "respuesta": "I play tennis on the Saturdays.",
+     "explicacion": "Además de quitar «the» del deporte, los días de la semana tampoco llevan artículo: «on Saturdays»."
+    }
+   ]
   },
   {
    "id": "e13",
@@ -263,7 +391,19 @@
     "This is an interesting book",
     "Is this an interesting book"
    ],
-   "explicacion": "Interesting empieza por vocal: an."
+   "explicacion": "Se aplica la regla del sonido: an delante de sonido vocálico. La pista es que el artículo va delante del adjetivo «interesting», no del sustantivo «book», y es la palabra que sigue al artículo la que decide. Como «interesting» empieza por vocal, se usa «an». El orden es sujeto «This» + «is» + artículo + adjetivo + sustantivo; también se acepta la pregunta «Is this an interesting book».",
+   "explicacion_breve": "Interesting empieza por vocal: an.",
+   "traduccion": "Este es un libro interesante.",
+   "errores_previstos": [
+    {
+     "respuesta": "This is an book interesting",
+     "explicacion": "El adjetivo va delante del sustantivo en inglés; además, delante de «book» el artículo sería «a»."
+    },
+    {
+     "respuesta": "This an interesting book is",
+     "explicacion": "El verbo «is» va detrás del sujeto «This», no al final."
+    }
+   ]
   },
   {
    "id": "e14",
@@ -280,10 +420,28 @@
     "My father is at home",
     "Is my father at home"
    ],
-   "explicacion": "At home se dice sin artículo."
+   "explicacion": "Se aplica la lista de expresiones fijas sin artículo: at home, at work, go to bed. La pista es «at home», que significa estar en casa (la propia) y nunca lleva «the». El orden es sujeto «My father» + «is» + «at home». También se acepta la pregunta «Is my father at home», con el verbo delante del sujeto.",
+   "explicacion_breve": "At home se dice sin artículo.",
+   "traduccion": "Mi padre está en casa.",
+   "errores_previstos": [
+    {
+     "respuesta": "My father is home at",
+     "explicacion": "La preposición «at» va delante de «home»: «at home»."
+    },
+    {
+     "respuesta": "At home my father is",
+     "explicacion": "El orden calca un énfasis del español; en inglés va sujeto + verbo + «at home»."
+    }
+   ]
   }
  ],
  "fuente": {
   "nombre": "propia"
+ },
+ "descripcion_larga_es": "Los artículos a/an (un, una) y the (el, la, los, las), y los casos en que el inglés no pone ninguno. Aparecen en casi todas las frases, por eso un error se repite sin parar. Cuestan al hispanohablante porque el español usa artículo para generalizar («me gusta el café») y lo omite con profesiones («es médico»), justo al revés que el inglés.",
+ "contexto": {
+  "que_es": "El inglés tiene un artículo indefinido, a/an (un, una), y uno definido, the (el, la, los, las), que no cambia con el género ni el número. Además hay muchos casos sin artículo, sobre todo al hablar de algo en general con plurales o incontables. La elección entre a y an depende del sonido de la palabra siguiente, no de la letra.",
+  "por_que_importa": "Están en casi todas las frases, así que un fallo sistemático se nota enseguida y se repite decenas de veces en un texto. Algunos errores cambian el sentido: «I love the chocolate» habla de un chocolate concreto, no del chocolate en general. Son además un clásico de los ejercicios de examen.",
+  "cuando_se_usa": "A/an aparece al mencionar algo por primera vez y con las profesiones; the, al volver a algo ya mencionado o con cosas únicas (the sun); sin artículo, para generalizar y en expresiones fijas (at home, go to bed, by bus). El hispanohablante tiende a poner «the» donde el español pone «el» al generalizar («the life is…») y a olvidar «a» con las profesiones («he is engineer»)."
  }
 }

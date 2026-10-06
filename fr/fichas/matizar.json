@@ -193,7 +193,29 @@
    "respuestas": [
     "arrivions"
    ],
-   "explicacion": "«Il se peut que» exige subjuntivo."
+   "explicacion": "Se aplica la fila de la tabla il se peut que + subjuntivo, que significa «puede que» y expresa una simple posibilidad. La pista es la expresión il se peut que y el sujeto nous. El subjuntivo presente de arriver con nous coincide con el imperfecto: que nous arrivions. Es una forma educada de avisar de un posible retraso.",
+   "explicacion_breve": "«Il se peut que» exige subjuntivo.",
+   "traduccion": "Puede que lleguemos tarde.",
+   "errores_previstos": [
+    {
+     "respuesta": "arrivons",
+     "explicacion": "Es el presente de indicativo; il se peut que exige subjuntivo: arrivions."
+    },
+    {
+     "respuesta": "arriverons",
+     "explicacion": "El futuro no se usa tras il se peut que, que pide subjuntivo."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "il se peut que",
+     "significado": "puede que, es posible que"
+    },
+    {
+     "palabra": "être en retard",
+     "significado": "llegar tarde, ir con retraso"
+    }
+   ]
   },
   {
    "id": "e02",
@@ -205,7 +227,29 @@
     "neige",
     "va neiger"
    ],
-   "explicacion": "«Il est probable que» va con indicativo."
+   "explicacion": "Se aplica la fila il est probable que + indicativo: a diferencia de il est possible que, la probabilidad alta se construye con indicativo, aunque el español use subjuntivo («es probable que nieve»). La pista es cette nuit, que sitúa el hecho en el futuro, por eso la forma más natural es el futuro neigera, aunque también se aceptan el presente neige y el futuro próximo va neiger, todos en indicativo.",
+   "explicacion_breve": "«Il est probable que» va con indicativo.",
+   "traduccion": "Es probable que nieve esta noche.",
+   "errores_previstos": [
+    {
+     "respuesta": "neigerait",
+     "explicacion": "El condicional no es la forma esperada tras il est probable que; para un hecho futuro se usa el indicativo (neigera)."
+    },
+    {
+     "respuesta": "neiger",
+     "explicacion": "Tras que con un sujeto (il) el verbo va conjugado, no en infinitivo."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "il est probable que",
+     "significado": "es probable que (con indicativo en francés)"
+    },
+    {
+     "palabra": "neiger",
+     "significado": "nevar"
+    }
+   ]
   },
   {
    "id": "e03",
@@ -215,7 +259,29 @@
    "respuestas": [
     "as"
    ],
-   "explicacion": "«Il me semble que» va con indicativo."
+   "explicacion": "Se aplica la distinción de la tabla entre il semble que (subjuntivo) e il me semble que (indicativo): con pronombre de persona, la expresión indica una opinión bastante segura del hablante y va en indicativo. La pista es me en il me semble. Avoir con tu en presente es as: tu as raison.",
+   "explicacion_breve": "«Il me semble que» va con indicativo.",
+   "traduccion": "Me parece que tienes razón.",
+   "errores_previstos": [
+    {
+     "respuesta": "aies",
+     "explicacion": "Es el subjuntivo, que corresponde a il semble que sin pronombre; il me semble que va con indicativo: tu as."
+    },
+    {
+     "respuesta": "a",
+     "explicacion": "Con tu el presente de avoir es as, con -s."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "il me semble que",
+     "significado": "me parece que (opinión del hablante, con indicativo)"
+    },
+    {
+     "palabra": "avoir raison",
+     "significado": "tener razón"
+    }
+   ]
   },
   {
    "id": "e04",
@@ -225,7 +291,33 @@
    "respuestas": [
     "aurait démissionné"
    ],
-   "explicacion": "Hecho pasado no confirmado: condicional compuesto."
+   "explicacion": "Se aplica la última fila de la segunda tabla: el condicional de rumor o información no confirmada. La pista es d'après nos informations, que indica que el periodista no se hace responsable del dato, y hier soir, que sitúa el hecho en el pasado. Por eso hace falta el condicional pasado: auxiliar avoir en condicional (aurait) + participio (démissionné). En español se traduce mejor con «al parecer» o «según parece».",
+   "explicacion_breve": "Hecho pasado no confirmado: condicional compuesto.",
+   "traduccion": "Según nuestras informaciones, el director habría dimitido ayer por la noche (al parecer, dimitió).",
+   "errores_previstos": [
+    {
+     "respuesta": "a démissionné",
+     "explicacion": "El passé composé presenta el hecho como seguro; para una información no confirmada se usa el condicional: aurait démissionné."
+    },
+    {
+     "respuesta": "démissionnerait",
+     "explicacion": "El condicional simple sitúa el rumor en el presente o futuro; para un hecho de ayer hace falta el condicional pasado: aurait démissionné."
+    },
+    {
+     "respuesta": "aurait démissioné",
+     "explicacion": "El participio de démissionner se escribe con dos n: démissionné."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "d'après nos informations",
+     "significado": "según nuestras informaciones"
+    },
+    {
+     "palabra": "démissionner",
+     "significado": "dimitir"
+    }
+   ]
   },
   {
    "id": "e05",
@@ -240,7 +332,24 @@
    "respuestas": [
     "sans aucun doute"
    ],
-   "explicacion": "Solo «sans aucun doute» expresa certeza absoluta."
+   "explicacion": "Se aplica la primera fila de la tabla: solo sans aucun doute expresa certeza total. El enunciado pide precisamente certeza, que es la pista. La ficha advierte que sans doute, pese a su forma, significa hoy «probablemente», y peut-être expresa solo posibilidad.",
+   "explicacion_breve": "Solo «sans aucun doute» expresa certeza absoluta.",
+   "traduccion": "Es sin ninguna duda la mejor solución.",
+   "por_opcion": {
+    "sans aucun doute": "Correcta: «sin ninguna duda», certeza absoluta.",
+    "sans doute": "Incorrecta: falso amigo; significa «probablemente», no «sin duda».",
+    "peut-être": "Incorrecta: significa «quizás», expresa solo posibilidad."
+   },
+   "glosario": [
+    {
+     "palabra": "sans aucun doute",
+     "significado": "sin ninguna duda, con toda seguridad"
+    },
+    {
+     "palabra": "sans doute",
+     "significado": "probablemente (falso amigo de «sin duda»)"
+    }
+   ]
   },
   {
    "id": "e06",
@@ -255,7 +364,24 @@
    "respuestas": [
     "baisse"
    ],
-   "explicacion": "«Il est peu probable que» exige subjuntivo."
+   "explicacion": "Se aplica la fila il est peu probable que + subjuntivo: aunque il est probable que va con indicativo, la forma negativa o con peu expresa duda y pide subjuntivo. La pista es peu delante de probable. Baisser en subjuntivo presente con le prix es baisse, que coincide con el indicativo pero aquí funciona como subjuntivo.",
+   "explicacion_breve": "«Il est peu probable que» exige subjuntivo.",
+   "traduccion": "Es poco probable que el precio baje.",
+   "por_opcion": {
+    "baisse": "Correcta: subjuntivo presente, exigido por la duda de il est peu probable que.",
+    "baissera": "Incorrecta según la norma: el futuro de indicativo corresponde a il est probable que; con peu probable se usa subjuntivo.",
+    "baissait": "Incorrecta: el imparfait no encaja ni por el modo ni por el tiempo."
+   },
+   "glosario": [
+    {
+     "palabra": "il est peu probable que",
+     "significado": "es poco probable que (con subjuntivo)"
+    },
+    {
+     "palabra": "baisser",
+     "significado": "bajar, disminuir"
+    }
+   ]
   },
   {
    "id": "e07",
@@ -270,22 +396,56 @@
    "respuestas": [
     "plutôt"
    ],
-   "explicacion": "«Plutôt» (más bien) atenúa el adjetivo; «plus tôt» significa «más temprano»."
+   "explicacion": "Se aplica la fila de plutôt, «más bien, bastante», que atenúa un adjetivo. La pista es la oposición n'est pas parfait, mais…, que pide una valoración moderada. Plutôt se escribe junto; plus tôt, separado, significa «más temprano», y se pronuncia igual, de ahí la confusión.",
+   "explicacion_breve": "«Plutôt» (más bien) atenúa el adjetivo; «plus tôt» significa «más temprano».",
+   "traduccion": "El balance no es perfecto, pero es más bien positivo.",
+   "por_opcion": {
+    "plutôt": "Correcta: «más bien», atenúa el adjetivo positif.",
+    "plus tôt": "Incorrecta: significa «más temprano» (partir plus tôt); se pronuncia igual pero es otra palabra.",
+    "tellement": "Incorrecta: significa «tan, tanto» e intensifica en vez de matizar; además no encaja con mais tras una crítica."
+   },
+   "glosario": [
+    {
+     "palabra": "plutôt",
+     "significado": "más bien, bastante"
+    },
+    {
+     "palabra": "le bilan",
+     "significado": "el balance, el resultado global"
+    }
+   ]
   },
   {
    "id": "e08",
    "tipo": "eleccion",
    "enunciado": "Elige la opción correcta.",
-   "frase": "Il semble que la situation ___ s'améliorer.",
+   "frase": "Il semble que la situation ___ mieux.",
    "opciones": [
-    "commence à",
-    "commencera à",
-    "commençait à"
+    "aille",
+    "va",
+    "ira"
    ],
    "respuestas": [
-    "commence à"
+    "aille"
    ],
-   "explicacion": "«Il semble que» va con subjuntivo; «commence» es la forma de subjuntivo presente."
+   "explicacion": "Se aplica la fila il semble que + subjuntivo: sin pronombre de persona, la expresión indica una apariencia y pide subjuntivo. La pista es il semble que sin me (con me, il me semble que, se usa indicativo). Aller tiene un subjuntivo irregular, distinto del indicativo: que la situation aille, frente a elle va. Aller mieux significa ir mejor o mejorar. En la práctica también se lee il semble que + indicativo cuando el hecho se considera seguro, pero la norma de la ficha es el subjuntivo.",
+   "explicacion_breve": "«Il semble que» va con subjuntivo: aille es el subjuntivo presente de aller.",
+   "traduccion": "Parece que la situación va mejor.",
+   "por_opcion": {
+    "aille": "Correcta: subjuntivo presente de aller, el modo que pide il semble que.",
+    "va": "Incorrecta según la norma de la ficha: es el presente de indicativo. Se usaría con il me semble que, que expresa una opinión del hablante.",
+    "ira": "Incorrecta: el futuro de indicativo no corresponde a il semble que, que pide subjuntivo."
+   },
+   "glosario": [
+    {
+     "palabra": "il semble que",
+     "significado": "parece que (con subjuntivo)"
+    },
+    {
+     "palabra": "aller mieux",
+     "significado": "ir mejor, mejorar"
+    }
+   ]
   },
   {
    "id": "e09",
@@ -295,7 +455,29 @@
    "respuestas": [
     "Il est possible qu'elle soit déjà partie."
    ],
-   "explicacion": "«Il est possible que» + subjuntivo."
+   "explicacion": "El error es el indicativo est. La tabla indica que il est possible que exige subjuntivo, así que el pasado compuesto pasa a subjuntivo pasado: auxiliar être en subjuntivo (soit) + participio (partie). Partir forma sus tiempos con être y el participio concuerda con elle: partie.",
+   "explicacion_breve": "«Il est possible que» + subjuntivo.",
+   "traduccion": "Es posible que ya se haya ido.",
+   "errores_previstos": [
+    {
+     "respuesta": "Il est possible qu'elle est déjà partie.",
+     "explicacion": "Es dejar la frase sin corregir: il est possible que exige subjuntivo."
+    },
+    {
+     "respuesta": "Il est possible qu'elle ait déjà partie.",
+     "explicacion": "Partir se conjuga con être, no con avoir: soit partie."
+    },
+    {
+     "respuesta": "Il est possible qu'elle soit déjà parti.",
+     "explicacion": "Con être el participio concuerda con el sujeto femenino: partie."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "il est possible que",
+     "significado": "es posible que (con subjuntivo)"
+    }
+   ]
   },
   {
    "id": "e10",
@@ -305,7 +487,25 @@
    "respuestas": [
     "Il me semble qu'il fait plus chaud qu'hier."
    ],
-   "explicacion": "«Il me semble que» + indicativo."
+   "explicacion": "El error es el subjuntivo fasse. Según la tabla y los errores típicos de la ficha, il me semble que, con pronombre de persona, va con indicativo, porque el hablante presenta su opinión como bastante segura. Por eso se corrige a il fait plus chaud qu'hier.",
+   "explicacion_breve": "«Il me semble que» + indicativo.",
+   "traduccion": "Me parece que hace más calor que ayer.",
+   "errores_previstos": [
+    {
+     "respuesta": "Il me semble qu'il fasse plus chaud qu'hier.",
+     "explicacion": "Es dejar la frase sin corregir: il me semble que va con indicativo."
+    },
+    {
+     "respuesta": "Il semble qu'il fait plus chaud qu'hier.",
+     "explicacion": "Se ha quitado me en lugar de cambiar el verbo; sin pronombre la norma pide subjuntivo, así que la frase sigue siendo incorrecta."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "il me semble que",
+     "significado": "me parece que (con indicativo)"
+    }
+   ]
   },
   {
    "id": "e11",
@@ -315,7 +515,29 @@
    "respuestas": [
     "Peut-être qu'il a oublié le rendez-vous."
    ],
-   "explicacion": "El adverbio se escribe con guion: «peut-être»."
+   "explicacion": "El error es ortográfico: el adverbio peut-être, «quizás», se escribe con guion. Sin guion, peut être son dos palabras con otro sentido: el verbo pouvoir más el infinitivo être («puede ser»), como en il peut être tard. La pista es que aquí funciona como adverbio seguido de que.",
+   "explicacion_breve": "El adverbio se escribe con guion: «peut-être».",
+   "traduccion": "Quizás haya olvidado la cita.",
+   "errores_previstos": [
+    {
+     "respuesta": "Peut être qu'il a oublié le rendez-vous.",
+     "explicacion": "Es dejar la frase sin corregir: el adverbio se escribe con guion, peut-être."
+    },
+    {
+     "respuesta": "Peut-etre qu'il a oublié le rendez-vous.",
+     "explicacion": "Falta el acento circunflejo de être: peut-être."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "peut-être",
+     "significado": "quizás, tal vez"
+    },
+    {
+     "palabra": "un rendez-vous",
+     "significado": "una cita"
+    }
+   ]
   },
   {
    "id": "e12",
@@ -325,7 +547,29 @@
    "respuestas": [
     "Il est possible qu'il vienne demain."
    ],
-   "explicacion": "Tras «il est possible que» se usa subjuntivo: «vienne»."
+   "explicacion": "Se aplica la fila il est possible que + subjuntivo. Peut-être que va con indicativo (il viendra), pero al cambiar a il est possible que el verbo pasa a subjuntivo presente. El subjuntivo de venir es irregular: qu'il vienne. El marcador demain no cambia el modo; el subjuntivo presente sirve también para el futuro.",
+   "explicacion_breve": "Tras «il est possible que» se usa subjuntivo: «vienne».",
+   "traduccion": "Es posible que venga mañana.",
+   "errores_previstos": [
+    {
+     "respuesta": "Il est possible qu'il viendra demain.",
+     "explicacion": "Se ha mantenido el futuro de indicativo; il est possible que exige subjuntivo: vienne."
+    },
+    {
+     "respuesta": "Il est possible qu'il vient demain.",
+     "explicacion": "Es el presente de indicativo, el error típico de la ficha; hace falta el subjuntivo vienne."
+    },
+    {
+     "respuesta": "Il est possible qu'il venne demain.",
+     "explicacion": "Forma inexistente: el subjuntivo de venir es vienne, con ie."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "il est possible que",
+     "significado": "es posible que (con subjuntivo)"
+    }
+   ]
   },
   {
    "id": "e13",
@@ -344,7 +588,29 @@
     "dans une certaine mesure il a raison",
     "il a raison dans une certaine mesure"
    ],
-   "explicacion": "«Dans une certaine mesure» = en cierta medida."
+   "explicacion": "La locución de la segunda tabla dans une certaine mesure, «en cierta medida», atenúa una afirmación concediendo solo parte de razón. Puede ir al principio, que es lo más habitual en una argumentación, o al final de la frase. El orden interno es fijo: dans + une + certaine + mesure, con el adjetivo certaine delante del nombre.",
+   "explicacion_breve": "«Dans une certaine mesure» = en cierta medida.",
+   "traduccion": "En cierta medida, tiene razón.",
+   "errores_previstos": [
+    {
+     "respuesta": "dans une mesure certaine il a raison",
+     "explicacion": "Con el adjetivo detrás, mesure certaine significaría «medida segura»; la locución es dans une certaine mesure."
+    },
+    {
+     "respuesta": "il a dans une certaine mesure raison",
+     "explicacion": "No se intercala la locución en la expresión avoir raison; va al principio o al final."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "dans une certaine mesure",
+     "significado": "en cierta medida"
+    },
+    {
+     "palabra": "avoir raison",
+     "significado": "tener razón"
+    }
+   ]
   },
   {
    "id": "e14",
@@ -354,10 +620,38 @@
    "respuestas": [
     "vue"
    ],
-   "explicacion": "A primera vista = «à première vue»."
+   "explicacion": "Se aplica la fila à première vue, «a primera vista», que matiza una valoración inicial que podría cambiar tras un examen más detenido. La palabra que falta es vue, el nombre femenino derivado de voir; por eso première está en femenino. Es un buen recurso para introducir una primera impresión antes de una objeción.",
+   "explicacion_breve": "A primera vista = «à première vue».",
+   "traduccion": "A primera vista, el contrato parece ventajoso.",
+   "errores_previstos": [
+    {
+     "respuesta": "vista",
+     "explicacion": "Es la palabra española; en francés es vue."
+    },
+    {
+     "respuesta": "vu",
+     "explicacion": "Vu es el participio de voir; el nombre femenino es vue, que concuerda con première."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "à première vue",
+     "significado": "a primera vista"
+    },
+    {
+     "palabra": "avantageux",
+     "significado": "ventajoso"
+    }
+   ]
   }
  ],
  "fuente": {
   "nombre": "propia"
+ },
+ "descripcion_larga_es": "Esta ficha reúne los recursos para no afirmar de forma tajante: expresar grados de certeza (sans aucun doute, probablement, il se peut que), suavizar una opinión (plutôt, dans une certaine mesure) y presentar datos no confirmados con el condicional (le directeur aurait démissionné). Es imprescindible en una exposición oral o un debate, y tiene trampas para el hispanohablante como sans doute, que significa «probablemente», y el modo que exige cada expresión.",
+ "contexto": {
+  "que_es": "Es el conjunto de adverbios, locuciones y verbos impersonales que permiten graduar la certeza de una afirmación, desde la seguridad total (sans aucun doute) hasta la simple posibilidad (il se peut que), y atenuar un juicio (plutôt, en partie, relativement). Incluye también el condicional de rumor o información no confirmada, típico del periodismo.",
+  "por_que_importa": "En una exposición oral, un debate o un comentario escrito, afirmar todo de forma categórica resulta poco riguroso y puede parecer arrogante; matizar es señal de nivel B2-C1 y de pensamiento crítico. Las expresiones tienen además exigencias de modo (subjuntivo tras il est possible que o il semble que, indicativo tras il est probable que o il me semble que) que se evalúan en los exámenes. Y una confusión como sans doute por «sin duda» cambia el grado de certeza de lo que se dice.",
+  "cuando_se_usa": "Al presentar previsiones económicas, interpretar datos, dar una opinión con prudencia o relatar noticias no confirmadas. Las pistas son el grado de seguridad que se quiere transmitir y la fuente de la información (d'après nos informations pide condicional). El hispanohablante debe vigilar los falsos amigos (sans doute) y no calcar el modo español: «es probable que llueva» lleva subjuntivo en español, pero il est probable qu'il pleuvra va en indicativo."
  }
 }

@@ -1,59 +1,545 @@
 {
-  "id": "fr.g.participio-adjetivo",
-  "titulo": "Participios como adjetivos",
-  "titulo_es": "Participios usados como adjetivos (fatigant / fatigué)",
-  "descripcion_es": "Adjetivos en -ant y en -é / -i / -u: concordancia, diferencia de sentido y cambios de ortografía.",
-  "nivel": "B1",
-  "resumen": "Los participios, tanto el presente (-ant) como el pasado (-é, -i, -u, -is, -t), funcionan a menudo como adjetivos y entonces concuerdan en género y número con el nombre. El de -ant indica lo que provoca algo (fatigant = cansado, que cansa) y el pasado, lo que lo sufre (fatigué = cansado, que tiene cansancio).",
-  "explicacion": [
-    {"tipo": "tabla", "cabecera": ["Verbo", "Adjetivo en -ant (provoca)", "Adjetivo en participio pasado (sufre)"], "filas": [
-      ["fatiguer", "un travail fatigant (cansado, agotador)", "je suis fatigué (cansado)"],
-      ["intéresser", "un livre intéressant (interesante)", "elle est intéressée (interesada)"],
-      ["amuser", "des histoires amusantes (divertidas)", "les enfants sont amusés (divertidos)"],
-      ["surprendre", "une nouvelle surprenante (sorprendente)", "nous sommes surpris (sorprendidos)"],
-      ["stresser", "les examens sont stressants (estresantes)", "Tammy est stressée (estresada)"],
-      ["épuiser", "une journée épuisante (agotadora)", "Corey est épuisé (agotado)"],
-      ["choquer", "un article choquant (escandaloso)", "les lecteurs sont choqués (escandalizados)"]
-    ]},
-    {"tipo": "texto", "texto": "Como adjetivos, concuerdan siempre como cualquier adjetivo: une porte fermée, des fenêtres ouvertes, une fille charmante, des créatures surprenantes. El participio pasado-adjetivo puede llevar un complemento agente con par o de: Bette est gâtée par ses admirateurs; une chatte entourée d'admirateurs."},
-    {"tipo": "lista", "items": [
-      "Ojo con el español «cansado», que vale para las dos cosas: un viaje cansado = un voyage fatigant; estoy cansado = je suis fatigué.",
-      "Algunos adjetivos en -ant cambian de ortografía respecto al participio presente: fatigant (adj.) / fatiguant (part.), convaincant / convainquant, provocant / provoquant, différent / différant, précédent / précédant, excellent / excellant, négligent / négligeant.",
-      "El participio presente verbal (con complemento) es invariable; el adjetivo concuerda: des arguments convaincants / des avocats convainquant le jury.",
-      "Algunos participios pasados de uso muy frecuente: cassé (roto), fermé (cerrado), ouvert (abierto), assis (sentado), perdu (perdido), connu (conocido), mort (muerto)."
-    ]},
-    {"tipo": "texto", "texto": "Truco de concordancia: si el participio va con être o sin verbo como adjetivo, mira el nombre del que se habla: La boîte est cassée. Les portes sont fermées. Les cours sont terminés."}
-  ],
-  "ejemplos": [
-    {"frase": "Tu as l'air fatigué.", "traduccion": "Pareces cansado."},
-    {"frase": "La porte était fermée.", "traduccion": "La puerta estaba cerrada."},
-    {"frase": "La douche est cassée.", "traduccion": "La ducha está rota."},
-    {"frase": "Ce film d'horreur est effrayant !", "traduccion": "¡Esta película de terror da miedo!"},
-    {"frase": "Pauvre Joe-Bob, il est perdu, comme d'habitude.", "traduccion": "Pobre Joe-Bob, está perdido, como siempre."},
-    {"frase": "Les arguments du ministre étaient convaincants.", "traduccion": "Los argumentos del ministro eran convincentes."}
-  ],
-  "errores_hispanohablantes": [
-    {"mal": "Ce voyage était très fatigué.", "bien": "Ce voyage était très fatigant.", "nota": "«Un viaje cansado» es el que cansa: adjetivo en -ant; fatigué es la persona que está cansada."},
-    {"mal": "La fenêtre est ouvert.", "bien": "La fenêtre est ouverte.", "nota": "El participio-adjetivo concuerda con el nombre femenino."},
-    {"mal": "Je suis très intéressant par ce projet.", "bien": "Je suis très intéressé par ce projet.", "nota": "La persona interesada es intéressée; intéressant es lo que despierta interés."}
-  ],
-  "ejercicios": [
-    {"id": "e01", "tipo": "hueco", "enunciado": "Completa con el adjetivo en -ant o en participio pasado del verbo entre paréntesis, con la concordancia correcta.", "frase": "J'ai trop travaillé, je suis ___ (épuiser).", "respuestas": ["épuisé", "épuisée"], "explicacion": "La persona que sufre el cansancio: participio pasado."},
-    {"id": "e02", "tipo": "hueco", "enunciado": "Completa con el adjetivo en -ant o en participio pasado del verbo entre paréntesis, con la concordancia correcta.", "frase": "Les examens, c'est ___ (stresser).", "respuestas": ["stressant"], "explicacion": "Lo que provoca estrés: -ant; tras c'est el adjetivo va en masculino singular."},
-    {"id": "e03", "tipo": "hueco", "enunciado": "Completa con el adjetivo en -ant o en participio pasado del verbo entre paréntesis, con la concordancia correcta.", "frase": "La boîte est ___ (casser).", "respuestas": ["cassée"], "explicacion": "Participio pasado como adjetivo, concuerda con la boîte (femenino).", "origen": "tatoeba:1335808"},
-    {"id": "e04", "tipo": "hueco", "enunciado": "Completa con el adjetivo en -ant o en participio pasado del verbo entre paréntesis, con la concordancia correcta.", "frase": "N'es-tu pas ___ (fatiguer), Marie ?", "respuestas": ["fatiguée"], "explicacion": "Estado de la persona: participio pasado; concuerda con Marie.", "origen": "tatoeba:486524"},
-    {"id": "e05", "tipo": "hueco", "enunciado": "Completa con el adjetivo en -ant o en participio pasado del verbo entre paréntesis, con la concordancia correcta.", "frase": "Tammy est une fille ___ (charmer).", "respuestas": ["charmante"], "explicacion": "Cualidad que produce un efecto: -ant, en femenino."},
-    {"id": "e06", "tipo": "hueco", "enunciado": "Completa con el adjetivo en -ant o en participio pasado del verbo entre paréntesis, con la concordancia correcta.", "frase": "Bette et Fiona sont des créatures ___ (surprendre).", "respuestas": ["surprenantes"], "explicacion": "Lo que sorprende: surprenant, en femenino plural."},
-    {"id": "e07", "tipo": "eleccion", "enunciado": "Elige la forma correcta.", "frase": "La porte reste ___.", "opciones": ["fermée", "fermé", "fermant", "fermées"], "respuestas": ["fermée"], "explicacion": "Concuerda con la porte (femenino singular).", "origen": "tatoeba:2350913"},
-    {"id": "e08", "tipo": "eleccion", "enunciado": "Elige la forma correcta.", "frase": "Mon couteau est ___.", "opciones": ["cassé", "cassée", "cassant"], "respuestas": ["cassé"], "explicacion": "Couteau es masculino: cassé.", "origen": "tatoeba:428789"},
-    {"id": "e09", "tipo": "eleccion", "enunciado": "Elige la forma correcta.", "frase": "Ce livre est vraiment ___.", "opciones": ["captivant", "captivé", "captivée"], "respuestas": ["captivant"], "explicacion": "El libro provoca el efecto: -ant."},
-    {"id": "e10", "tipo": "eleccion", "enunciado": "Elige la forma correcta.", "frase": "Ses arguments ne sont pas très ___.", "opciones": ["convaincants", "convainquants", "convaincus"], "respuestas": ["convaincants"], "explicacion": "El adjetivo verbal se escribe convaincant (con c), distinto del participio convainquant."},
-    {"id": "e11", "tipo": "corregir", "enunciado": "Corrige el error.", "frase": "Je suis très fatigant après ce voyage.", "respuestas": ["Je suis très fatigué après ce voyage."], "explicacion": "La persona está fatigué; fatigant es lo que cansa."},
-    {"id": "e12", "tipo": "corregir", "enunciado": "Corrige el error.", "frase": "Est-ce que la boutique est déjà ouvert ?", "respuestas": ["Est-ce que la boutique est déjà ouverte ?"], "explicacion": "Concordancia con boutique (femenino): ouverte.", "origen": "tatoeba:6134193"},
-    {"id": "e13", "tipo": "corregir", "enunciado": "Corrige el error.", "frase": "Le robinet est fermée.", "respuestas": ["Le robinet est fermé."], "explicacion": "Robinet es masculino: fermé.", "origen": "tatoeba:1578643"},
-    {"id": "e14", "tipo": "transformar", "enunciado": "Pon la frase en femenino.", "frase": "Il était très fatigué.", "respuestas": ["Elle était très fatiguée."], "explicacion": "El participio-adjetivo concuerda con el sujeto: fatiguée.", "origen": "tatoeba:119920"},
-    {"id": "e15", "tipo": "transformar", "enunciado": "Pon la frase en plural.", "frase": "La tasse est cassée.", "respuestas": ["Les tasses sont cassées."], "explicacion": "Plural del nombre, del verbo y del adjetivo: cassées."},
-    {"id": "e16", "tipo": "ordenar", "enunciado": "Ordena las palabras.", "palabras": ["fatigué", "est", "lire", "Il", "de"], "respuestas": ["Il est fatigué de lire"], "explicacion": "Participio-adjetivo + de + infinitivo: «está cansado de leer».", "origen": "tatoeba:802528"}
-  ],
-  "fuente": {"nombre": "Tex's French Grammar", "autores": "COERLL, Universidad de Texas en Austin", "licencia": "CC BY 3.0", "url": "https://laits.utexas.edu/tex/gr/adj9.html", "otras": ["Frases de Tatoeba (CC BY 2.0 FR)"]}
+ "id": "fr.g.participio-adjetivo",
+ "titulo": "Participios como adjetivos",
+ "titulo_es": "Participios usados como adjetivos (fatigant / fatigué)",
+ "descripcion_es": "Adjetivos en -ant y en -é / -i / -u: concordancia, diferencia de sentido y cambios de ortografía.",
+ "nivel": "B1",
+ "resumen": "Los participios, tanto el presente (-ant) como el pasado (-é, -i, -u, -is, -t), funcionan a menudo como adjetivos y entonces concuerdan en género y número con el nombre. El de -ant indica lo que provoca algo (fatigant = cansado, que cansa) y el pasado, lo que lo sufre (fatigué = cansado, que tiene cansancio).",
+ "explicacion": [
+  {
+   "tipo": "tabla",
+   "cabecera": [
+    "Verbo",
+    "Adjetivo en -ant (provoca)",
+    "Adjetivo en participio pasado (sufre)"
+   ],
+   "filas": [
+    [
+     "fatiguer",
+     "un travail fatigant (cansado, agotador)",
+     "je suis fatigué (cansado)"
+    ],
+    [
+     "intéresser",
+     "un livre intéressant (interesante)",
+     "elle est intéressée (interesada)"
+    ],
+    [
+     "amuser",
+     "des histoires amusantes (divertidas)",
+     "les enfants sont amusés (divertidos)"
+    ],
+    [
+     "surprendre",
+     "une nouvelle surprenante (sorprendente)",
+     "nous sommes surpris (sorprendidos)"
+    ],
+    [
+     "stresser",
+     "les examens sont stressants (estresantes)",
+     "Tammy est stressée (estresada)"
+    ],
+    [
+     "épuiser",
+     "une journée épuisante (agotadora)",
+     "Corey est épuisé (agotado)"
+    ],
+    [
+     "choquer",
+     "un article choquant (escandaloso)",
+     "les lecteurs sont choqués (escandalizados)"
+    ]
+   ]
+  },
+  {
+   "tipo": "texto",
+   "texto": "Como adjetivos, concuerdan siempre como cualquier adjetivo: une porte fermée, des fenêtres ouvertes, une fille charmante, des créatures surprenantes. El participio pasado-adjetivo puede llevar un complemento agente con par o de: Bette est gâtée par ses admirateurs; une chatte entourée d'admirateurs."
+  },
+  {
+   "tipo": "lista",
+   "items": [
+    "Ojo con el español «cansado», que vale para las dos cosas: un viaje cansado = un voyage fatigant; estoy cansado = je suis fatigué.",
+    "Algunos adjetivos en -ant cambian de ortografía respecto al participio presente: fatigant (adj.) / fatiguant (part.), convaincant / convainquant, provocant / provoquant, différent / différant, précédent / précédant, excellent / excellant, négligent / négligeant.",
+    "El participio presente verbal (con complemento) es invariable; el adjetivo concuerda: des arguments convaincants / des avocats convainquant le jury.",
+    "Algunos participios pasados de uso muy frecuente: cassé (roto), fermé (cerrado), ouvert (abierto), assis (sentado), perdu (perdido), connu (conocido), mort (muerto)."
+   ]
+  },
+  {
+   "tipo": "texto",
+   "texto": "Truco de concordancia: si el participio va con être o sin verbo como adjetivo, mira el nombre del que se habla: La boîte est cassée. Les portes sont fermées. Les cours sont terminés."
+  }
+ ],
+ "ejemplos": [
+  {
+   "frase": "Tu as l'air fatigué.",
+   "traduccion": "Pareces cansado."
+  },
+  {
+   "frase": "La porte était fermée.",
+   "traduccion": "La puerta estaba cerrada."
+  },
+  {
+   "frase": "La douche est cassée.",
+   "traduccion": "La ducha está rota."
+  },
+  {
+   "frase": "Ce film d'horreur est effrayant !",
+   "traduccion": "¡Esta película de terror da miedo!"
+  },
+  {
+   "frase": "Pauvre Joe-Bob, il est perdu, comme d'habitude.",
+   "traduccion": "Pobre Joe-Bob, está perdido, como siempre."
+  },
+  {
+   "frase": "Les arguments du ministre étaient convaincants.",
+   "traduccion": "Los argumentos del ministro eran convincentes."
+  }
+ ],
+ "errores_hispanohablantes": [
+  {
+   "mal": "Ce voyage était très fatigué.",
+   "bien": "Ce voyage était très fatigant.",
+   "nota": "«Un viaje cansado» es el que cansa: adjetivo en -ant; fatigué es la persona que está cansada."
+  },
+  {
+   "mal": "La fenêtre est ouvert.",
+   "bien": "La fenêtre est ouverte.",
+   "nota": "El participio-adjetivo concuerda con el nombre femenino."
+  },
+  {
+   "mal": "Je suis très intéressant par ce projet.",
+   "bien": "Je suis très intéressé par ce projet.",
+   "nota": "La persona interesada es intéressée; intéressant es lo que despierta interés."
+  }
+ ],
+ "ejercicios": [
+  {
+   "id": "e01",
+   "tipo": "hueco",
+   "enunciado": "Completa con el adjetivo en -ant o en participio pasado del verbo entre paréntesis, con la concordancia correcta.",
+   "frase": "J'ai trop travaillé, je suis ___ (épuiser).",
+   "respuestas": [
+    "épuisé",
+    "épuisée"
+   ],
+   "explicacion": "Se aplica la regla central de la ficha: el participio pasado expresa lo que sufre la persona y el adjetivo en -ant lo que provoca el efecto. Aquí la persona que habla está cansada por haber trabajado, así que se usa el participio pasado épuisé. Como el sujeto es je y no sabemos si es hombre o mujer, valen épuisé y épuisée: el participio-adjetivo concuerda con quien habla.",
+   "explicacion_breve": "La persona que sufre el cansancio: participio pasado.",
+   "traduccion": "He trabajado demasiado, estoy agotado (agotada).",
+   "errores_previstos": [
+    {
+     "respuesta": "épuisant",
+     "explicacion": "Épuisant significa «agotador», lo que agota; la persona que está agotada es épuisé(e)."
+    },
+    {
+     "respuesta": "épuiser",
+     "explicacion": "Es el infinitivo; tras je suis hace falta el participio-adjetivo épuisé."
+    },
+    {
+     "respuesta": "epuisé",
+     "explicacion": "Falta el acento agudo: é-puisé. En francés el acento forma parte de la palabra."
+    }
+   ]
+  },
+  {
+   "id": "e02",
+   "tipo": "hueco",
+   "enunciado": "Completa con el adjetivo en -ant o en participio pasado del verbo entre paréntesis, con la concordancia correcta.",
+   "frase": "Les examens, c'est ___ (stresser).",
+   "respuestas": [
+    "stressant"
+   ],
+   "explicacion": "Los exámenes provocan estrés, así que, según la regla de la tabla, se usa el adjetivo en -ant: stressant. La pista es que el sujeto (les examens) es la causa, no quien sufre el estrés. Además, en la estructura dislocada «Les examens, c'est…» el adjetivo concuerda con c', no con examens, y va en masculino singular, como explica la ficha.",
+   "explicacion_breve": "Lo que provoca estrés: -ant; tras c'est el adjetivo va en masculino singular.",
+   "traduccion": "Los exámenes son estresantes.",
+   "errores_previstos": [
+    {
+     "respuesta": "stressants",
+     "explicacion": "Tras c'est el adjetivo va en masculino singular aunque se hable de algo plural: c'est stressant."
+    },
+    {
+     "respuesta": "stressé",
+     "explicacion": "Stressé es quien sufre el estrés; los exámenes lo provocan: stressant."
+    },
+    {
+     "respuesta": "estresant",
+     "explicacion": "Calco del español «estresante»: en francés empieza por st-, stressant."
+    }
+   ]
+  },
+  {
+   "id": "e03",
+   "tipo": "hueco",
+   "enunciado": "Completa con el adjetivo en -ant o en participio pasado del verbo entre paréntesis, con la concordancia correcta.",
+   "frase": "La boîte est ___ (casser).",
+   "respuestas": [
+    "cassée"
+   ],
+   "explicacion": "La caja es el resultado de una acción (alguien la ha roto), así que se usa el participio pasado como adjetivo, cassé. Según el truco de concordancia de la ficha, con être se mira el nombre del que se habla: la boîte es femenino singular, por eso se añade -e, cassée. En la pronunciación no se nota la diferencia, pero en la escritura es obligatoria.",
+   "origen": "tatoeba:1335808",
+   "explicacion_breve": "Participio pasado como adjetivo, concuerda con la boîte (femenino).",
+   "traduccion": "La caja está rota.",
+   "errores_previstos": [
+    {
+     "respuesta": "cassé",
+     "explicacion": "Olvida la concordancia: boîte es femenino, así que es cassée."
+    },
+    {
+     "respuesta": "cassant",
+     "explicacion": "Cassant significa «quebradizo» o «cortante» (un tono cassant); el resultado de romper es cassée."
+    },
+    {
+     "respuesta": "casée",
+     "explicacion": "Falta una s: el verbo es casser, con dos s."
+    }
+   ]
+  },
+  {
+   "id": "e04",
+   "tipo": "hueco",
+   "enunciado": "Completa con el adjetivo en -ant o en participio pasado del verbo entre paréntesis, con la concordancia correcta.",
+   "frase": "N'es-tu pas ___ (fatiguer), Marie ?",
+   "respuestas": [
+    "fatiguée"
+   ],
+   "explicacion": "Se pregunta por el estado de la persona, así que se usa el participio pasado fatigué, no el adjetivo en -ant fatigant, que significaría «cansina, que cansa». La pista es el vocativo Marie: el sujeto tu es femenino, por lo que el participio concuerda y lleva -e: fatiguée. Fíjate en que fatigué conserva la u de fatiguer.",
+   "origen": "tatoeba:486524",
+   "explicacion_breve": "Estado de la persona: participio pasado; concuerda con Marie.",
+   "traduccion": "¿No estás cansada, Marie?",
+   "errores_previstos": [
+    {
+     "respuesta": "fatigué",
+     "explicacion": "Falta la concordancia: Marie es mujer, así que es fatiguée."
+    },
+    {
+     "respuesta": "fatigante",
+     "explicacion": "Fatigante significa «que cansa, cansina»; aquí se pregunta si Marie está cansada: fatiguée."
+    },
+    {
+     "respuesta": "fatigée",
+     "explicacion": "El participio conserva la u del verbo fatiguer: fatiguée."
+    }
+   ]
+  },
+  {
+   "id": "e05",
+   "tipo": "hueco",
+   "enunciado": "Completa con el adjetivo en -ant o en participio pasado del verbo entre paréntesis, con la concordancia correcta.",
+   "frase": "Tammy est une fille ___ (charmer).",
+   "respuestas": [
+    "charmante"
+   ],
+   "explicacion": "La cualidad describe el efecto que Tammy produce en los demás (encanta), así que se usa el adjetivo en -ant: charmant. Como cualquier adjetivo, concuerda con el nombre fille, femenino singular: charmante. La pista es que se describe una cualidad de la persona, no algo que le haya pasado; charmée sería «encantada», es decir, quien recibe el encanto.",
+   "explicacion_breve": "Cualidad que produce un efecto: -ant, en femenino.",
+   "traduccion": "Tammy es una chica encantadora.",
+   "errores_previstos": [
+    {
+     "respuesta": "charmant",
+     "explicacion": "Falta la concordancia con fille, femenino: charmante."
+    },
+    {
+     "respuesta": "charmée",
+     "explicacion": "Charmée significa «encantada, cautivada» (quien recibe el efecto); para describir a quien encanta se usa charmante."
+    },
+    {
+     "respuesta": "charmantes",
+     "explicacion": "Une fille es singular: charmante, sin -s."
+    }
+   ]
+  },
+  {
+   "id": "e06",
+   "tipo": "hueco",
+   "enunciado": "Completa con el adjetivo en -ant o en participio pasado del verbo entre paréntesis, con la concordancia correcta.",
+   "frase": "Bette et Fiona sont des créatures ___ (surprendre).",
+   "respuestas": [
+    "surprenantes"
+   ],
+   "explicacion": "Se trata de algo que provoca sorpresa, así que se usa el adjetivo en -ant, surprenant (de surprendre, nous surprenons). Concuerda con créatures, femenino plural, y por eso lleva -es: surprenantes. La pista es que las criaturas sorprenden a otros; surprises significaría que ellas están sorprendidas.",
+   "explicacion_breve": "Lo que sorprende: surprenant, en femenino plural.",
+   "traduccion": "Bette y Fiona son criaturas sorprendentes.",
+   "errores_previstos": [
+    {
+     "respuesta": "surprenants",
+     "explicacion": "Créature es femenino en francés: surprenantes."
+    },
+    {
+     "respuesta": "surprises",
+     "explicacion": "Surprises significa «sorprendidas»; las criaturas provocan sorpresa: surprenantes."
+    },
+    {
+     "respuesta": "surprendantes",
+     "explicacion": "El adjetivo se forma sobre nous surprenons, sin d: surprenant."
+    }
+   ]
+  },
+  {
+   "id": "e07",
+   "tipo": "eleccion",
+   "enunciado": "Elige la forma correcta.",
+   "frase": "La porte reste ___.",
+   "opciones": [
+    "fermée",
+    "fermé",
+    "fermant",
+    "fermées"
+   ],
+   "respuestas": [
+    "fermée"
+   ],
+   "explicacion": "La puerta está en un estado resultante (alguien la ha cerrado), por lo que se usa el participio pasado fermé como adjetivo. Con verbos como rester o être concuerda con el sujeto, como indica el truco de la ficha: la porte es femenino singular, así que es fermée. Es exactamente el ejemplo de la ficha une porte fermée.",
+   "origen": "tatoeba:2350913",
+   "explicacion_breve": "Concuerda con la porte (femenino singular).",
+   "traduccion": "La puerta permanece cerrada.",
+   "por_opcion": {
+    "fermée": "Correcta: participio-adjetivo en femenino singular, concordado con la porte.",
+    "fermé": "Incorrecta: es masculino; porte es femenino.",
+    "fermant": "Incorrecta: fermant es participio presente («que cierra»); la puerta no cierra nada, está cerrada.",
+    "fermées": "Incorrecta: es plural y solo hay una puerta."
+   }
+  },
+  {
+   "id": "e08",
+   "tipo": "eleccion",
+   "enunciado": "Elige la forma correcta.",
+   "frase": "Mon couteau est ___.",
+   "opciones": [
+    "cassé",
+    "cassée",
+    "cassant"
+   ],
+   "respuestas": [
+    "cassé"
+   ],
+   "explicacion": "Se describe el resultado de una acción (romper), así que se usa el participio pasado cassé como adjetivo. Concuerda con el sujeto: couteau es masculino singular, por lo que no lleva ninguna marca: cassé. La pista para el género es el posesivo mon. Cassant es otro adjetivo, que significa «quebradizo» o «cortante».",
+   "origen": "tatoeba:428789",
+   "explicacion_breve": "Couteau es masculino: cassé.",
+   "traduccion": "Mi cuchillo está roto.",
+   "por_opcion": {
+    "cassé": "Correcta: participio pasado en masculino singular, concordado con couteau.",
+    "cassée": "Incorrecta: es femenino y couteau es masculino.",
+    "cassant": "Incorrecta: cassant significa «quebradizo» (un material) o «cortante, seco» (un tono); no indica que algo esté roto."
+   }
+  },
+  {
+   "id": "e09",
+   "tipo": "eleccion",
+   "enunciado": "Elige la forma correcta.",
+   "frase": "Ce livre est vraiment ___.",
+   "opciones": [
+    "captivant",
+    "captivé",
+    "captivée"
+   ],
+   "respuestas": [
+    "captivant"
+   ],
+   "explicacion": "Se aplica la regla central: el libro provoca el efecto de cautivar al lector, así que se usa el adjetivo en -ant: captivant. Concuerda con livre, masculino singular, por lo que no lleva marca. Captivé o captivée describen a la persona cautivada, el lector, no al libro.",
+   "explicacion_breve": "El libro provoca el efecto: -ant.",
+   "traduccion": "Este libro es realmente cautivador.",
+   "por_opcion": {
+    "captivant": "Correcta: el libro produce el efecto; adjetivo en -ant en masculino singular.",
+    "captivé": "Incorrecta: captivé es «cautivado», el estado del lector, no la cualidad del libro.",
+    "captivée": "Incorrecta: además de expresar el estado del que recibe el efecto, está en femenino y livre es masculino."
+   }
+  },
+  {
+   "id": "e10",
+   "tipo": "eleccion",
+   "enunciado": "Elige la forma correcta.",
+   "frase": "Ses arguments ne sont pas très ___.",
+   "opciones": [
+    "convaincants",
+    "convainquants",
+    "convaincus"
+   ],
+   "respuestas": [
+    "convaincants"
+   ],
+   "explicacion": "Los argumentos provocan el efecto de convencer, así que se usa el adjetivo en -ant. La ficha advierte que algunos adjetivos verbales cambian de ortografía respecto del participio presente: el adjetivo es convaincant, con c, mientras que el participio verbal es convainquant, con qu. Concuerda con arguments, masculino plural: convaincants.",
+   "explicacion_breve": "El adjetivo verbal se escribe convaincant (con c), distinto del participio convainquant.",
+   "traduccion": "Sus argumentos no son muy convincentes.",
+   "por_opcion": {
+    "convaincants": "Correcta: adjetivo verbal con c, en masculino plural.",
+    "convainquants": "Incorrecta: convainquant es la grafía del participio presente verbal (con complemento), que además es invariable; como adjetivo se escribe convaincant.",
+    "convaincus": "Incorrecta: convaincu significa «convencido», el estado de quien ha sido convencido; los argumentos son los que convencen."
+   }
+  },
+  {
+   "id": "e11",
+   "tipo": "corregir",
+   "enunciado": "Corrige el error.",
+   "frase": "Je suis très fatigant après ce voyage.",
+   "respuestas": [
+    "Je suis très fatigué après ce voyage."
+   ],
+   "explicacion": "Es el error típico de la ficha con fatigant y fatigué. La persona que siente el cansancio está fatigué; fatigant es lo que cansa, por ejemplo el viaje. Je suis très fatigant significaría «soy muy cansino». Basta con cambiar fatigant por fatigué; si quien habla fuera mujer sería fatiguée, pero la respuesta prevista es la masculina.",
+   "explicacion_breve": "La persona está fatigué; fatigant es lo que cansa.",
+   "traduccion": "Estoy muy cansado después de este viaje.",
+   "errores_previstos": [
+    {
+     "respuesta": "Je suis très fatigant après ce voyage.",
+     "explicacion": "Es la frase sin corregir: la persona cansada está fatigué, no fatigant."
+    },
+    {
+     "respuesta": "Je suis très fatiguant après ce voyage.",
+     "explicacion": "Fatiguant es la grafía del participio presente; sigue siendo la forma en -ant, que no expresa el estado."
+    },
+    {
+     "respuesta": "Je suis très fatigé après ce voyage.",
+     "explicacion": "El participio conserva la u del verbo: fatigué."
+    }
+   ]
+  },
+  {
+   "id": "e12",
+   "tipo": "corregir",
+   "enunciado": "Corrige el error.",
+   "frase": "Est-ce que la boutique est déjà ouvert ?",
+   "respuestas": [
+    "Est-ce que la boutique est déjà ouverte ?"
+   ],
+   "explicacion": "Se aplica la concordancia del participio-adjetivo: con être, mira el nombre del que se habla. La boutique es femenino singular, así que ouvert necesita -e: ouverte. Aquí la diferencia sí se oye, porque la t final se pronuncia en femenino. Es el mismo caso que el error típico de la ficha La fenêtre est ouvert.",
+   "origen": "tatoeba:6134193",
+   "explicacion_breve": "Concordancia con boutique (femenino): ouverte.",
+   "traduccion": "¿Está ya abierta la tienda?",
+   "errores_previstos": [
+    {
+     "respuesta": "Est-ce que la boutique est déjà ouvert ?",
+     "explicacion": "Es la frase sin corregir: boutique es femenino, ouverte."
+    },
+    {
+     "respuesta": "Est-ce que la boutique est déjà ouvrée ?",
+     "explicacion": "El participio de ouvrir es irregular: ouvert, ouverte."
+    },
+    {
+     "respuesta": "Est-ce que la boutique est déjà ouvertes ?",
+     "explicacion": "Solo hay una tienda: singular, ouverte."
+    }
+   ]
+  },
+  {
+   "id": "e13",
+   "tipo": "corregir",
+   "enunciado": "Corrige el error.",
+   "frase": "Le robinet est fermée.",
+   "respuestas": [
+    "Le robinet est fermé."
+   ],
+   "explicacion": "Es un caso de concordancia del participio-adjetivo con el sujeto: robinet es masculino singular, así que fermé no lleva -e. El error de la frase es probablemente pensar en un sustantivo femenino o en el español «llave». La pista es el artículo le, que marca el masculino.",
+   "origen": "tatoeba:1578643",
+   "explicacion_breve": "Robinet es masculino: fermé.",
+   "traduccion": "El grifo está cerrado.",
+   "errores_previstos": [
+    {
+     "respuesta": "Le robinet est fermée.",
+     "explicacion": "Es la frase sin corregir: robinet es masculino, fermé."
+    },
+    {
+     "respuesta": "Le robinet est fermés.",
+     "explicacion": "Solo hay un grifo: singular, fermé."
+    },
+    {
+     "respuesta": "Le robinet est fermant.",
+     "explicacion": "Fermant es participio presente; para el estado se usa el participio pasado fermé."
+    }
+   ]
+  },
+  {
+   "id": "e14",
+   "tipo": "transformar",
+   "enunciado": "Pon la frase en femenino.",
+   "frase": "Il était très fatigué.",
+   "respuestas": [
+    "Elle était très fatiguée."
+   ],
+   "explicacion": "Al pasar la frase a femenino cambia el sujeto (il pasa a elle) y, según la regla de concordancia de la ficha, el participio-adjetivo concuerda con él: fatigué pasa a fatiguée. El verbo était y el adverbio très no cambian, porque no tienen género. La diferencia entre fatigué y fatiguée no se oye, pero se escribe.",
+   "origen": "tatoeba:119920",
+   "explicacion_breve": "El participio-adjetivo concuerda con el sujeto: fatiguée.",
+   "traduccion": "Ella estaba muy cansada.",
+   "errores_previstos": [
+    {
+     "respuesta": "Elle était très fatigué.",
+     "explicacion": "Cambia el sujeto pero olvida la concordancia del participio: fatiguée."
+    },
+    {
+     "respuesta": "Elle était très fatigante.",
+     "explicacion": "Fatigante significa «cansina, que cansa»; el estado es fatiguée."
+    },
+    {
+     "respuesta": "Elle étais très fatiguée.",
+     "explicacion": "Con elle el imperfecto es était, con -t."
+    }
+   ]
+  },
+  {
+   "id": "e15",
+   "tipo": "transformar",
+   "enunciado": "Pon la frase en plural.",
+   "frase": "La tasse est cassée.",
+   "respuestas": [
+    "Les tasses sont cassées."
+   ],
+   "explicacion": "Al pasar a plural cambian tres elementos, como indica la ficha: el nombre y su artículo (les tasses), el verbo (sont) y el participio-adjetivo, que concuerda en femenino plural (cassées). La regla es la misma de La boîte est cassée: con être, el participio concuerda con el sujeto.",
+   "explicacion_breve": "Plural del nombre, del verbo y del adjetivo: cassées.",
+   "traduccion": "Las tazas están rotas.",
+   "errores_previstos": [
+    {
+     "respuesta": "Les tasses sont cassés.",
+     "explicacion": "Tasse es femenino: el participio debe llevar -es, cassées."
+    },
+    {
+     "respuesta": "Les tasses sont cassée.",
+     "explicacion": "Falta la -s del plural en el participio: cassées."
+    },
+    {
+     "respuesta": "Les tasses est cassées.",
+     "explicacion": "El verbo también pasa a plural: sont."
+    }
+   ]
+  },
+  {
+   "id": "e16",
+   "tipo": "ordenar",
+   "enunciado": "Ordena las palabras.",
+   "palabras": [
+    "fatigué",
+    "est",
+    "lire",
+    "Il",
+    "de"
+   ],
+   "respuestas": [
+    "Il est fatigué de lire"
+   ],
+   "explicacion": "Es la estructura participio-adjetivo + de + infinitivo: être fatigué de faire quelque chose, «estar cansado de hacer algo». El orden es sujeto (il) + être (est) + participio-adjetivo (fatigué) + de + infinitivo (lire). La preposición de coincide con el español, de modo que el orden es el mismo en las dos lenguas.",
+   "origen": "tatoeba:802528",
+   "explicacion_breve": "Participio-adjetivo + de + infinitivo: «está cansado de leer».",
+   "traduccion": "Está cansado de leer.",
+   "errores_previstos": [
+    {
+     "respuesta": "Il est de lire fatigué",
+     "explicacion": "El complemento de + infinitivo va detrás del adjetivo, no delante."
+    },
+    {
+     "respuesta": "Il fatigué est de lire",
+     "explicacion": "El participio-adjetivo va detrás de être, como atributo."
+    }
+   ]
+  }
+ ],
+ "fuente": {
+  "nombre": "Tex's French Grammar",
+  "autores": "COERLL, Universidad de Texas en Austin",
+  "licencia": "CC BY 3.0",
+  "url": "https://laits.utexas.edu/tex/gr/adj9.html",
+  "otras": [
+   "Frases de Tatoeba (CC BY 2.0 FR)"
+  ]
+ },
+ "descripcion_larga_es": "Muchos adjetivos franceses son en realidad participios: los acabados en -ant describen lo que provoca un efecto (un travail fatigant, que cansa) y los participios pasados, a quien lo sufre (je suis fatigué). Como adjetivos concuerdan en género y número. Es una distinción que el español no siempre marca («cansado» vale para las dos cosas), por eso causa errores frecuentes como «un voyage fatigué».",
+ "contexto": {
+  "que_es": "Es el uso de los participios como adjetivos. El participio presente (-ant) da adjetivos que expresan la causa o el efecto que algo produce (intéressant, surprenant); el participio pasado (-é, -i, -u, -is, -t) da adjetivos que expresan el estado de quien recibe ese efecto o el resultado de una acción (intéressé, cassé, fermé). En ambos casos concuerdan con el nombre como cualquier adjetivo.",
+  "por_que_importa": "Son palabras muy frecuentes para describir personas, cosas y estados de ánimo. Confundir los dos tipos cambia el sentido: je suis intéressant significa «soy interesante», no «estoy interesado», y je suis ennuyeux, «soy aburrido (pesado)», frente a je m'ennuie. Además, la concordancia (la porte est fermée) es un punto que los correctores miran siempre en un examen escrito.",
+  "cuando_se_usa": "Cada vez que se describe una cualidad o un estado: con être, rester, sembler, avoir l'air o directamente junto al nombre. La pregunta clave es: ¿el sujeto provoca el efecto o lo sufre? El hispanohablante se confunde con palabras como «cansado» o «aburrido», que en español sirven para ambos sentidos, y olvida la concordancia en femenino o plural, que a menudo no se oye pero sí se escribe."
+ }
 }

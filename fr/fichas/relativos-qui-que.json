@@ -6,49 +6,484 @@
  "nivel": "A2",
  "resumen": "El español usa «que» para todo, pero el francés distingue: qui cuando el relativo es el sujeto del verbo que sigue (l'homme qui parle) y que cuando es el complemento directo (l'homme que je vois). La elección no depende de si se trata de personas o de cosas.",
  "explicacion": [
-  {"tipo": "tabla", "cabecera": ["Relativo", "Función", "Lo que suele seguir", "Ejemplo"], "filas": [
-   ["qui", "sujeto", "un verbo (a veces un pronombre complemento + verbo)", "J'ai un ami qui habite à Lyon."],
-   ["que / qu'", "complemento directo", "un sujeto + verbo", "Le livre que tu lis est passionnant."]
-  ]},
-  {"tipo": "texto", "texto": "Truco: mira lo que viene justo después del hueco. Si hay un sujeto (je, tu, Paul, mes parents…) → que. Si viene directamente el verbo, o un pronombre como me, le, l' seguido del verbo → qui. Por ejemplo: C'est moi qui l'ai sauvé (l' es complemento; el sujeto es qui)."},
-  {"tipo": "lista", "items": [
-   "Que se apostrofa ante vocal: le film qu'on a vu, la robe qu'elle porte. Qui nunca se apostrofa: l'ami qui arrive.",
-   "Qui y que sirven para personas y para cosas: la femme qui parle, la voiture qui passe.",
-   "En tiempos compuestos con avoir, el participio concuerda con el antecedente de que: la tarte que Tammy a faite, les héros que j'ai vus.",
-   "Con c'est… qui / c'est… que se destaca un elemento: C'est Paul qui a gagné. C'est ce livre que je veux.",
-   "Tras preposición no se usa que: la personne avec qui je parle (con quien hablo)."
-  ]}
+  {
+   "tipo": "tabla",
+   "cabecera": [
+    "Relativo",
+    "Función",
+    "Lo que suele seguir",
+    "Ejemplo"
+   ],
+   "filas": [
+    [
+     "qui",
+     "sujeto",
+     "un verbo (a veces un pronombre complemento + verbo)",
+     "J'ai un ami qui habite à Lyon."
+    ],
+    [
+     "que / qu'",
+     "complemento directo",
+     "un sujeto + verbo",
+     "Le livre que tu lis est passionnant."
+    ]
+   ]
+  },
+  {
+   "tipo": "texto",
+   "texto": "Truco: mira lo que viene justo después del hueco. Si hay un sujeto (je, tu, Paul, mes parents…) → que. Si viene directamente el verbo, o un pronombre como me, le, l' seguido del verbo → qui. Por ejemplo: C'est moi qui l'ai sauvé (l' es complemento; el sujeto es qui)."
+  },
+  {
+   "tipo": "lista",
+   "items": [
+    "Que se apostrofa ante vocal: le film qu'on a vu, la robe qu'elle porte. Qui nunca se apostrofa: l'ami qui arrive.",
+    "Qui y que sirven para personas y para cosas: la femme qui parle, la voiture qui passe.",
+    "En tiempos compuestos con avoir, el participio concuerda con el antecedente de que: la tarte que Tammy a faite, les héros que j'ai vus.",
+    "Con c'est… qui / c'est… que se destaca un elemento: C'est Paul qui a gagné. C'est ce livre que je veux.",
+    "Tras preposición no se usa que: la personne avec qui je parle (con quien hablo)."
+   ]
+  }
  ],
  "ejemplos": [
-  {"frase": "C'est l'homme que je veux.", "traduccion": "Es el hombre al que quiero."},
-  {"frase": "C'est moi qui l'ai sauvé.", "traduccion": "Fui yo quien lo salvó."},
-  {"frase": "Tex écrit un roman qui s'appelle Guerre et amour.", "traduccion": "Tex está escribiendo una novela que se titula Guerra y amor."},
-  {"frase": "La tarte que Tammy a faite est délicieuse.", "traduccion": "La tarta que ha hecho Tammy está deliciosa."},
-  {"frase": "J'ai une voisine qui parle cinq langues.", "traduccion": "Tengo una vecina que habla cinco idiomas."},
-  {"frase": "Le film qu'on a vu hier était très long.", "traduccion": "La película que vimos ayer era muy larga."}
+  {
+   "frase": "C'est l'homme que je veux.",
+   "traduccion": "Es el hombre al que quiero."
+  },
+  {
+   "frase": "C'est moi qui l'ai sauvé.",
+   "traduccion": "Fui yo quien lo salvó."
+  },
+  {
+   "frase": "Tex écrit un roman qui s'appelle Guerre et amour.",
+   "traduccion": "Tex está escribiendo una novela que se titula Guerra y amor."
+  },
+  {
+   "frase": "La tarte que Tammy a faite est délicieuse.",
+   "traduccion": "La tarta que ha hecho Tammy está deliciosa."
+  },
+  {
+   "frase": "J'ai une voisine qui parle cinq langues.",
+   "traduccion": "Tengo una vecina que habla cinco idiomas."
+  },
+  {
+   "frase": "Le film qu'on a vu hier était très long.",
+   "traduccion": "La película que vimos ayer era muy larga."
+  }
  ],
  "errores_hispanohablantes": [
-  {"mal": "La voiture que est devant la porte est à moi.", "bien": "La voiture qui est devant la porte est à moi.", "nota": "El relativo es sujeto de est: qui."},
-  {"mal": "Le pull qui j'ai acheté est trop petit.", "bien": "Le pull que j'ai acheté est trop petit.", "nota": "Detrás viene un sujeto (j'): el relativo es complemento directo, que."},
-  {"mal": "C'est le musée qu'est le plus visité.", "bien": "C'est le musée qui est le plus visité.", "nota": "Qui nunca se apostrofa; aquí es sujeto."}
+  {
+   "mal": "La voiture que est devant la porte est à moi.",
+   "bien": "La voiture qui est devant la porte est à moi.",
+   "nota": "El relativo es sujeto de est: qui."
+  },
+  {
+   "mal": "Le pull qui j'ai acheté est trop petit.",
+   "bien": "Le pull que j'ai acheté est trop petit.",
+   "nota": "Detrás viene un sujeto (j'): el relativo es complemento directo, que."
+  },
+  {
+   "mal": "C'est le musée qu'est le plus visité.",
+   "bien": "C'est le musée qui est le plus visité.",
+   "nota": "Qui nunca se apostrofa; aquí es sujeto."
+  }
  ],
  "ejercicios": [
-  {"id": "e01", "tipo": "hueco", "enunciado": "Completa con qui o que (qu').", "frase": "C'est l'homme ___ je veux.", "respuestas": ["que"], "explicacion": "Detrás hay un sujeto (je): que.", "origen": "tatoeba:7698408"},
-  {"id": "e02", "tipo": "hueco", "enunciado": "Completa con qui o que (qu').", "frase": "C'est moi ___ l'ai sauvé.", "respuestas": ["qui"], "explicacion": "El relativo es el sujeto de ai sauvé; l' es complemento: qui.", "origen": "tatoeba:7702269"},
-  {"id": "e03", "tipo": "hueco", "enunciado": "Completa con qui o que (qu').", "frase": "J'ai un ami ___ habite à Lyon.", "respuestas": ["qui"], "explicacion": "Detrás viene directamente el verbo: qui."},
-  {"id": "e04", "tipo": "hueco", "enunciado": "Completa con qui o que (qu').", "frase": "Le livre ___ tu lis est passionnant.", "respuestas": ["que"], "explicacion": "Detrás hay un sujeto (tu): que."},
-  {"id": "e05", "tipo": "hueco", "enunciado": "Completa con qui o que (qu').", "frase": "Voici la maison ___ mes parents ont achetée.", "respuestas": ["que"], "explicacion": "Sujeto mes parents detrás: que (y achetée concuerda con maison)."},
-  {"id": "e06", "tipo": "hueco", "enunciado": "Completa con qui o que (qu').", "frase": "Les étudiants ___ sont arrivés en retard n'ont pas pu entrer.", "respuestas": ["qui"], "explicacion": "El relativo es sujeto de sont arrivés: qui."},
-  {"id": "e07", "tipo": "eleccion", "enunciado": "Elige el relativo adecuado.", "frase": "La femme ___ parle avec Paul est ma sœur.", "opciones": ["qui", "que", "qu'"], "respuestas": ["qui"], "explicacion": "Detrás viene el verbo parle: qui."},
-  {"id": "e08", "tipo": "eleccion", "enunciado": "Elige el relativo adecuado.", "frase": "Le film ___ on a vu hier était nul.", "opciones": ["qu'", "qui", "que"], "respuestas": ["qu'"], "explicacion": "Detrás hay un sujeto (on) y empieza por vocal: qu'."},
-  {"id": "e09", "tipo": "eleccion", "enunciado": "Elige el relativo adecuado.", "frase": "Tammy aime les romans ___ parlent d'amour.", "opciones": ["qui", "que"], "respuestas": ["qui"], "explicacion": "Los romans son el sujeto de parlent: qui."},
-  {"id": "e10", "tipo": "eleccion", "enunciado": "Elige el relativo adecuado.", "frase": "Tex aime la tarte ___ Tammy a faite.", "opciones": ["que", "qui"], "respuestas": ["que"], "explicacion": "Sujeto Tammy detrás: que."},
-  {"id": "e11", "tipo": "corregir", "enunciado": "Corrige el error.", "frase": "La voiture que est devant la porte est à moi.", "respuestas": ["La voiture qui est devant la porte est à moi."], "explicacion": "Relativo sujeto: qui."},
-  {"id": "e12", "tipo": "corregir", "enunciado": "Corrige el error.", "frase": "Le pull qui j'ai acheté est trop petit.", "respuestas": ["Le pull que j'ai acheté est trop petit."], "explicacion": "Relativo complemento directo: que."},
-  {"id": "e13", "tipo": "corregir", "enunciado": "Corrige el error.", "frase": "C'est le musée qu'est le plus visité.", "respuestas": ["C'est le musée qui est le plus visité."], "explicacion": "Qui no se apostrofa nunca y aquí es sujeto."},
-  {"id": "e14", "tipo": "transformar", "enunciado": "Une las dos frases con qui.", "frase": "J'ai une voisine. Elle parle cinq langues.", "respuestas": ["J'ai une voisine qui parle cinq langues."], "explicacion": "Elle es sujeto: se sustituye por qui."},
-  {"id": "e15", "tipo": "transformar", "enunciado": "Une las dos frases con que.", "frase": "Tex écrit un roman. Tammy adore ce roman.", "respuestas": ["Tex écrit un roman que Tammy adore."], "explicacion": "Ce roman es complemento directo: se sustituye por que."},
-  {"id": "e16", "tipo": "ordenar", "enunciado": "Ordena las palabras (es el tren que llega de Lyon).", "palabras": ["qui", "arrive", "le", "C'est", "train", "Lyon", "de"], "respuestas": ["C'est le train qui arrive de Lyon"], "explicacion": "Qui + verbo: el tren es el sujeto de arrive."}
+  {
+   "id": "e01",
+   "tipo": "hueco",
+   "enunciado": "Completa con qui o que (qu').",
+   "frase": "C'est l'homme ___ je veux.",
+   "respuestas": [
+    "que"
+   ],
+   "explicacion": "Se aplica el truco de Reglas y claves: mirar lo que viene justo después del hueco. Aquí viene un sujeto, «je», seguido del verbo «veux», así que el relativo no es el sujeto, sino el complemento directo de «vouloir» (quiero a ese hombre). Por tanto la forma es que, sin elisión porque «je» empieza por consonante.",
+   "origen": "tatoeba:7698408",
+   "explicacion_breve": "Detrás hay un sujeto (je): que.",
+   "traduccion": "Es el hombre al que quiero.",
+   "errores_previstos": [
+    {
+     "respuesta": "qui",
+     "explicacion": "Qui es sujeto y va seguido del verbo; aquí el sujeto de «veux» es «je», así que el relativo es complemento directo: que."
+    },
+    {
+     "respuesta": "qu'",
+     "explicacion": "Que solo se apostrofa ante vocal; delante de «je» se escribe completo."
+    },
+    {
+     "respuesta": "à qui",
+     "explicacion": "Calco de «al que»: en francés «vouloir quelqu'un» no lleva preposición, así que basta con que."
+    }
+   ]
+  },
+  {
+   "id": "e02",
+   "tipo": "hueco",
+   "enunciado": "Completa con qui o que (qu').",
+   "frase": "C'est moi ___ l'ai sauvé.",
+   "respuestas": [
+    "qui"
+   ],
+   "explicacion": "Es el ejemplo de Reglas y claves que ilustra el caso engañoso: tras el hueco viene «l'», pero no es un sujeto, sino el pronombre complemento directo (lo), seguido del verbo «ai sauvé». El sujeto de «ai sauvé» es el propio relativo, que retoma a «moi»: por eso es qui. Observa además que el verbo concuerda con «moi»: c'est moi qui ai, no qui a.",
+   "origen": "tatoeba:7702269",
+   "explicacion_breve": "El relativo es el sujeto de ai sauvé; l' es complemento: qui.",
+   "traduccion": "Soy yo quien lo ha salvado.",
+   "errores_previstos": [
+    {
+     "respuesta": "que",
+     "explicacion": "«L'» no es sujeto sino complemento («lo»); el relativo es el sujeto de «ai sauvé», así que es qui."
+    },
+    {
+     "respuesta": "qu'",
+     "explicacion": "Qui nunca se apostrofa, y que no corresponde porque el relativo es sujeto."
+    }
+   ]
+  },
+  {
+   "id": "e03",
+   "tipo": "hueco",
+   "enunciado": "Completa con qui o que (qu').",
+   "frase": "J'ai un ami ___ habite à Lyon.",
+   "respuestas": [
+    "qui"
+   ],
+   "explicacion": "Tras el hueco viene directamente el verbo «habite», sin ningún sujeto entre medias. Según la tabla de Reglas y claves, el relativo es entonces el sujeto del verbo, y el relativo sujeto es qui. Es el ejemplo de la propia tabla. Aunque «habite» empiece por h muda, qui no se apostrofa nunca.",
+   "explicacion_breve": "Detrás viene directamente el verbo: qui.",
+   "traduccion": "Tengo un amigo que vive en Lyon.",
+   "errores_previstos": [
+    {
+     "respuesta": "que",
+     "explicacion": "Es el calco del español: el relativo es el sujeto de «habite» y el sujeto se expresa con qui."
+    },
+    {
+     "respuesta": "qu'",
+     "explicacion": "Ni la función es de complemento ni qui se apostrofa: la forma es qui habite."
+    }
+   ]
+  },
+  {
+   "id": "e04",
+   "tipo": "hueco",
+   "enunciado": "Completa con qui o que (qu').",
+   "frase": "Le livre ___ tu lis est passionnant.",
+   "respuestas": [
+    "que"
+   ],
+   "explicacion": "Tras el hueco hay un sujeto, «tu», y luego el verbo «lis». El relativo es lo que lees, es decir, el complemento directo de «lire», así que corresponde que. Es el ejemplo de la tabla de Reglas y claves. Observa que la relativa queda entre el sujeto «le livre» y su verbo «est».",
+   "explicacion_breve": "Detrás hay un sujeto (tu): que.",
+   "traduccion": "El libro que lees es apasionante.",
+   "errores_previstos": [
+    {
+     "respuesta": "qui",
+     "explicacion": "Qui sería sujeto de «lis», pero el sujeto es «tu». El libro es lo leído: complemento directo, que."
+    },
+    {
+     "respuesta": "qu'",
+     "explicacion": "Delante de «tu», que empieza por consonante, no hay elisión."
+    }
+   ]
+  },
+  {
+   "id": "e05",
+   "tipo": "hueco",
+   "enunciado": "Completa con qui o que (qu').",
+   "frase": "Voici la maison ___ mes parents ont achetée.",
+   "respuestas": [
+    "que"
+   ],
+   "explicacion": "Tras el hueco aparece el sujeto «mes parents» y el verbo «ont achetée»: la casa es lo comprado, complemento directo, así que se usa que. La lista de Reglas y claves añade un detalle que confirma la elección: en tiempos compuestos con avoir, el participio concuerda con el antecedente de que cuando este va delante. Por eso «achetée» lleva -e, por concordar con «la maison».",
+   "explicacion_breve": "Sujeto mes parents detrás: que (y achetée concuerda con maison).",
+   "traduccion": "Aquí está la casa que han comprado mis padres.",
+   "errores_previstos": [
+    {
+     "respuesta": "qui",
+     "explicacion": "El sujeto de «ont achetée» es «mes parents»; la casa es el complemento directo: que."
+    },
+    {
+     "respuesta": "qu'",
+     "explicacion": "Que solo se apostrofa ante vocal, y «mes» empieza por consonante."
+    }
+   ]
+  },
+  {
+   "id": "e06",
+   "tipo": "hueco",
+   "enunciado": "Completa con qui o que (qu').",
+   "frase": "Les étudiants ___ sont arrivés en retard n'ont pas pu entrer.",
+   "respuestas": [
+    "qui"
+   ],
+   "explicacion": "Tras el hueco viene directamente el verbo «sont arrivés»: el relativo es su sujeto, de modo que es qui. Que los estudiantes sean personas no tiene que ver con la elección: la ficha insiste en que qui y que sirven para personas y cosas, y lo que decide es la función. La concordancia de «arrivés» con «les étudiants» confirma que el relativo es sujeto.",
+   "explicacion_breve": "El relativo es sujeto de sont arrivés: qui.",
+   "traduccion": "Los estudiantes que llegaron tarde no pudieron entrar.",
+   "errores_previstos": [
+    {
+     "respuesta": "que",
+     "explicacion": "Calco del español «que llegaron»: el relativo es sujeto de «sont arrivés», así que es qui."
+    },
+    {
+     "respuesta": "qu'",
+     "explicacion": "Qui nunca se apostrofa y aquí la función es de sujeto."
+    }
+   ]
+  },
+  {
+   "id": "e07",
+   "tipo": "eleccion",
+   "enunciado": "Elige el relativo adecuado.",
+   "frase": "La femme ___ parle avec Paul est ma sœur.",
+   "opciones": [
+    "qui",
+    "que",
+    "qu'"
+   ],
+   "respuestas": [
+    "qui"
+   ],
+   "explicacion": "Detrás del hueco viene directamente el verbo «parle», sin sujeto: el relativo es el sujeto de «parle», así que es qui. Paul aparece después, pero como complemento de «avec», no como sujeto.",
+   "explicacion_breve": "Detrás viene el verbo parle: qui.",
+   "traduccion": "La mujer que habla con Paul es mi hermana.",
+   "por_opcion": {
+    "qui": "Correcta: el relativo es el sujeto de «parle».",
+    "que": "Incorrecta: que necesita un sujeto detrás, y aquí viene el verbo directamente.",
+    "qu'": "Incorrecta: es la forma apostrofada de que, y además «parle» no empieza por vocal."
+   }
+  },
+  {
+   "id": "e08",
+   "tipo": "eleccion",
+   "enunciado": "Elige el relativo adecuado.",
+   "frase": "Le film ___ on a vu hier était nul.",
+   "opciones": [
+    "qu'",
+    "qui",
+    "que"
+   ],
+   "respuestas": [
+    "qu'"
+   ],
+   "explicacion": "Tras el hueco hay un sujeto, «on», y el verbo «a vu»: la película es lo visto, complemento directo, así que es que. Como «on» empieza por vocal, que se apostrofa: qu'on. Reglas y claves pone justamente el ejemplo «le film qu'on a vu».",
+   "explicacion_breve": "Detrás hay un sujeto (on) y empieza por vocal: qu'.",
+   "traduccion": "La película que vimos ayer era malísima.",
+   "por_opcion": {
+    "qu'": "Correcta: complemento directo de «a vu» y apostrofado ante la vocal de «on».",
+    "qui": "Incorrecta: qui sería sujeto, pero el sujeto de «a vu» es «on».",
+    "que": "Incorrecta tal como está: la función es la buena, pero ante vocal la elisión es obligatoria (qu'on, no que on)."
+   },
+   "glosario": [
+    {
+     "palabra": "nul",
+     "significado": "malísimo, un desastre (coloquial)"
+    }
+   ]
+  },
+  {
+   "id": "e09",
+   "tipo": "eleccion",
+   "enunciado": "Elige el relativo adecuado.",
+   "frase": "Tammy aime les romans ___ parlent d'amour.",
+   "opciones": [
+    "qui",
+    "que"
+   ],
+   "respuestas": [
+    "qui"
+   ],
+   "explicacion": "Tras el hueco viene el verbo «parlent», en plural porque concuerda con «les romans»: las novelas son las que hablan, es decir, el sujeto. Por tanto el relativo es qui. La concordancia del verbo en plural con el antecedente es otra pista clara de que el relativo es sujeto.",
+   "explicacion_breve": "Los romans son el sujeto de parlent: qui.",
+   "traduccion": "A Tammy le gustan las novelas que hablan de amor.",
+   "por_opcion": {
+    "qui": "Correcta: las novelas son el sujeto de «parlent».",
+    "que": "Incorrecta: no hay ningún sujeto detrás del hueco; que exigiría uno (les romans que Tammy lit)."
+   }
+  },
+  {
+   "id": "e10",
+   "tipo": "eleccion",
+   "enunciado": "Elige el relativo adecuado.",
+   "frase": "Tex aime la tarte ___ Tammy a faite.",
+   "opciones": [
+    "que",
+    "qui"
+   ],
+   "respuestas": [
+    "que"
+   ],
+   "explicacion": "Tras el hueco aparece el sujeto «Tammy» y el verbo «a faite»: la tarta es lo hecho, complemento directo, así que es que. Como en el ejercicio 5, el participio «faite» concuerda con «la tarte» porque el complemento directo (que) va delante del verbo, lo que confirma la elección.",
+   "explicacion_breve": "Sujeto Tammy detrás: que.",
+   "traduccion": "A Tex le gusta la tarta que ha hecho Tammy.",
+   "por_opcion": {
+    "que": "Correcta: la tarta es el complemento directo de «a faite»; el sujeto es Tammy.",
+    "qui": "Incorrecta: diría que la tarta ha hecho a Tammy; el sujeto ya está expreso detrás del hueco."
+   }
+  },
+  {
+   "id": "e11",
+   "tipo": "corregir",
+   "enunciado": "Corrige el error.",
+   "frase": "La voiture que est devant la porte est à moi.",
+   "respuestas": [
+    "La voiture qui est devant la porte est à moi."
+   ],
+   "explicacion": "Es el primer error de la lista de errores de hispanohablantes. Tras el relativo viene el verbo «est», sin sujeto: el relativo es el sujeto, por lo que debe ser qui. En español decimos «el coche que está», y de ahí viene el calco «que est».",
+   "explicacion_breve": "Relativo sujeto: qui.",
+   "traduccion": "El coche que está delante de la puerta es mío.",
+   "errores_previstos": [
+    {
+     "respuesta": "La voiture que est devant la porte est à moi.",
+     "explicacion": "Es la frase sin corregir: el relativo es sujeto de «est», así que es qui."
+    },
+    {
+     "respuesta": "La voiture qu'est devant la porte est à moi.",
+     "explicacion": "Apostrofar no lo arregla: la función es de sujeto (qui) y qui no se apostrofa."
+    }
+   ]
+  },
+  {
+   "id": "e12",
+   "tipo": "corregir",
+   "enunciado": "Corrige el error.",
+   "frase": "Le pull qui j'ai acheté est trop petit.",
+   "respuestas": [
+    "Le pull que j'ai acheté est trop petit."
+   ],
+   "explicacion": "Tras el relativo hay un sujeto, «j'», y el verbo «ai acheté». El jersey es lo comprado, complemento directo, así que debe ser que. Delante de «j'» (consonante) que no se apostrofa.",
+   "explicacion_breve": "Relativo complemento directo: que.",
+   "traduccion": "El jersey que me compré es demasiado pequeño.",
+   "errores_previstos": [
+    {
+     "respuesta": "Le pull qui j'ai acheté est trop petit.",
+     "explicacion": "Es la frase sin corregir: con un sujeto detrás, el relativo es complemento directo, que."
+    },
+    {
+     "respuesta": "Le pull qu'j'ai acheté est trop petit.",
+     "explicacion": "Que solo se apostrofa ante vocal; ante «j'» se escribe completo."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "un pull",
+     "significado": "un jersey"
+    }
+   ]
+  },
+  {
+   "id": "e13",
+   "tipo": "corregir",
+   "enunciado": "Corrige el error.",
+   "frase": "C'est le musée qu'est le plus visité.",
+   "respuestas": [
+    "C'est le musée qui est le plus visité."
+   ],
+   "explicacion": "El relativo es el sujeto de «est le plus visité», por lo que tiene que ser qui. La frase incorrecta usa «qu'est», que mezcla dos errores: la función equivocada (que) y la idea de que qui se apostrofa. La lista de Reglas y claves es clara: qui nunca se apostrofa, de modo que la forma es «qui est».",
+   "explicacion_breve": "Qui no se apostrofa nunca y aquí es sujeto.",
+   "traduccion": "Es el museo más visitado.",
+   "errores_previstos": [
+    {
+     "respuesta": "C'est le musée qu'est le plus visité.",
+     "explicacion": "Es la frase sin corregir: qui no se apostrofa nunca y aquí es sujeto."
+    },
+    {
+     "respuesta": "C'est le musée que est le plus visité.",
+     "explicacion": "Se ha deshecho la elisión, pero la función sigue siendo de sujeto: qui."
+    },
+    {
+     "respuesta": "C'est le musée qu'il est le plus visité.",
+     "explicacion": "Añadir «il» crea un sujeto sobrante; el relativo ya es el sujeto: qui est."
+    }
+   ]
+  },
+  {
+   "id": "e14",
+   "tipo": "transformar",
+   "enunciado": "Une las dos frases con qui.",
+   "frase": "J'ai une voisine. Elle parle cinq langues.",
+   "respuestas": [
+    "J'ai une voisine qui parle cinq langues."
+   ],
+   "explicacion": "En la segunda frase, «elle» es el sujeto de «parle». Al unir las frases, ese sujeto se sustituye por el relativo sujeto qui, colocado justo detrás de su antecedente «une voisine». El pronombre «elle» desaparece, porque qui ya ocupa su lugar.",
+   "explicacion_breve": "Elle es sujeto: se sustituye por qui.",
+   "traduccion": "Tengo una vecina que habla cinco idiomas.",
+   "errores_previstos": [
+    {
+     "respuesta": "J'ai une voisine que parle cinq langues.",
+     "explicacion": "«Elle» era sujeto, así que se sustituye por qui, no por que."
+    },
+    {
+     "respuesta": "J'ai une voisine qui elle parle cinq langues.",
+     "explicacion": "Qui sustituye a «elle»: no hay que mantener el pronombre."
+    }
+   ]
+  },
+  {
+   "id": "e15",
+   "tipo": "transformar",
+   "enunciado": "Une las dos frases con que.",
+   "frase": "Tex écrit un roman. Tammy adore ce roman.",
+   "respuestas": [
+    "Tex écrit un roman que Tammy adore."
+   ],
+   "explicacion": "En la segunda frase, «ce roman» es el complemento directo de «adore» (Tammy adora esa novela). Al unir las frases, se sustituye por el relativo complemento directo que, colocado tras el antecedente «un roman», y detrás quedan el sujeto y el verbo: «que Tammy adore».",
+   "explicacion_breve": "Ce roman es complemento directo: se sustituye por que.",
+   "traduccion": "Tex escribe una novela que a Tammy le encanta.",
+   "errores_previstos": [
+    {
+     "respuesta": "Tex écrit un roman qui Tammy adore.",
+     "explicacion": "Tammy es el sujeto de «adore»; el relativo sustituye al complemento directo, así que es que."
+    },
+    {
+     "respuesta": "Tex écrit un roman que Tammy adore ce roman.",
+     "explicacion": "El relativo ya sustituye a «ce roman»: no hay que repetirlo."
+    },
+    {
+     "respuesta": "Tex écrit un roman que adore Tammy.",
+     "explicacion": "Además de alterar el orden normal, falta la elisión: si se invirtiera el sujeto habría que escribir «qu'adore Tammy». La forma esperada es «que Tammy adore»."
+    }
+   ]
+  },
+  {
+   "id": "e16",
+   "tipo": "ordenar",
+   "enunciado": "Ordena las palabras (es el tren que llega de Lyon).",
+   "palabras": [
+    "qui",
+    "arrive",
+    "le",
+    "C'est",
+    "train",
+    "Lyon",
+    "de"
+   ],
+   "respuestas": [
+    "C'est le train qui arrive de Lyon"
+   ],
+   "explicacion": "La frase sigue la estructura de realce «C'est… qui» de Reglas y claves: «C'est le train» presenta el elemento y la relativa lo describe. El tren es el que llega, es decir, el sujeto de «arrive», así que el relativo es qui, seguido directamente del verbo y del complemento de procedencia «de Lyon».",
+   "explicacion_breve": "Qui + verbo: el tren es el sujeto de arrive.",
+   "traduccion": "Es el tren que llega de Lyon.",
+   "errores_previstos": [
+    {
+     "respuesta": "Le train c'est qui arrive de Lyon",
+     "explicacion": "La estructura de realce empieza por «C'est» y luego el elemento destacado: C'est le train qui…"
+    },
+    {
+     "respuesta": "C'est le train qui de Lyon arrive",
+     "explicacion": "El complemento de procedencia va detrás del verbo: qui arrive de Lyon."
+    }
+   ]
+  }
  ],
- "fuente": {"nombre": "Tex's French Grammar", "autores": "COERLL, Universidad de Texas en Austin", "licencia": "CC BY 3.0", "url": "https://laits.utexas.edu/tex/gr/pror1.html", "otras": ["Frases de Tatoeba (CC BY 2.0 FR)"]}
+ "fuente": {
+  "nombre": "Tex's French Grammar",
+  "autores": "COERLL, Universidad de Texas en Austin",
+  "licencia": "CC BY 3.0",
+  "url": "https://laits.utexas.edu/tex/gr/pror1.html",
+  "otras": [
+   "Frases de Tatoeba (CC BY 2.0 FR)"
+  ]
+ },
+ "descripcion_larga_es": "El español usa «que» para todos los relativos, pero el francés distingue dos formas: qui cuando el relativo es el sujeto del verbo que sigue y que cuando es el complemento directo. La elección no depende de si se habla de personas o de cosas, sino de la función. Es una de las primeras dificultades del hispanohablante, que tiende a poner que en todos los casos.",
+ "contexto": {
+  "que_es": "Qui y que son los pronombres relativos básicos del francés. Qui sustituye al sujeto de la oración de relativo y suele ir seguido directamente del verbo; que sustituye al complemento directo y va seguido de un sujeto y un verbo. Ambos sirven para personas y para cosas.",
+  "por_que_importa": "Las relativas aparecen en casi cualquier frase algo elaborada, de modo que este error se repite muchas veces en un texto y salta a la vista. Confundir qui y que puede incluso cambiar el sentido: «l'homme qui aime Marie» no es lo mismo que «l'homme que Marie aime». En un examen escrito u oral es un error básico que transmite inseguridad.",
+  "cuando_se_usa": "Siempre que se quiera añadir información sobre un nombre con una oración (el amigo que vive en Lyon, el libro que lees) y en la construcción de realce «c'est… qui / c'est… que». La pista práctica es mirar lo que viene detrás: un verbo (o un pronombre complemento y un verbo) pide qui; un sujeto pide que. El hispanohablante, guiado por su único «que», tiende a usar que también cuando es sujeto."
+ }
 }

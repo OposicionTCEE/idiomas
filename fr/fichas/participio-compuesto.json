@@ -101,9 +101,9 @@
    "nota": "Los verbos que se conjugan con être usan étant, y el participio concuerda."
   },
   {
-   "mal": "Une fois signé le contrat, …",
-   "bien": "Une fois le contrat signé, …",
-   "nota": "En francés el sujeto va delante del participio, al revés que en el español «una vez firmado el contrato»."
+   "mal": "La décision pris, nous avons informé le personnel.",
+   "bien": "La décision prise, nous avons informé le personnel.",
+   "nota": "En la construcción absoluta el participio concuerda con su propio sujeto (la décision, femenino), como en español «tomada la decisión»."
   }
  ],
  "ejercicios": [
@@ -120,7 +120,14 @@
    "respuestas": [
     "Étant arrivés"
    ],
-   "explicacion": "Arriver se conjuga con être: étant + participio concordado."
+   "explicacion": "Se aplica la primera tabla de la ficha: el participio compuesto se forma con ayant para los verbos que llevan avoir y con étant para los que llevan être. Arriver se conjuga con être (nous sommes arrivés), así que va étant arrivés. Tras étant el participio concuerda con el sujeto de la principal, nous, aquí en masculino plural. La lista lo recuerda: ayant y étant son invariables, pero el participio tras étant concuerda.",
+   "explicacion_breve": "Arriver se conjuga con être: étant + participio concordado.",
+   "traduccion": "Como habíamos llegado con antelación, nos tomamos un café.",
+   "por_opcion": {
+    "Étant arrivés": "Correcta: arriver lleva être, y el participio concuerda con nous en plural.",
+    "Ayant arrivé": "Incorrecta: arriver no se conjuga con avoir; es el error típico que señala la ficha.",
+    "Ayant arrivés": "Incorrecta: mantiene el auxiliar equivocado ayant y además hace concordar el participio como si llevara être."
+   }
   },
   {
    "id": "e02",
@@ -135,7 +142,24 @@
    "respuestas": [
     "Ayant lu"
    ],
-   "explicacion": "Lire se conjuga con avoir; el CD va detrás: sin concordancia."
+   "explicacion": "Lire es transitivo y se conjuga con avoir, así que el participio compuesto es ayant lu. La lista de la ficha recuerda que con avoir el participio sigue la regla general: solo concuerda con un complemento directo colocado delante. Aquí el directo, le courriel, va detrás, así que lu no varía. El sujeto implícito de ayant lu es il, el mismo de la principal.",
+   "explicacion_breve": "Lire se conjuga con avoir; el CD va detrás: sin concordancia.",
+   "traduccion": "Tras leer el correo electrónico, respondió inmediatamente.",
+   "por_opcion": {
+    "Ayant lu": "Correcta: lire lleva avoir y el complemento directo va detrás, así que no hay concordancia.",
+    "Étant lu": "Incorrecta: étant lu tendría sentido pasivo («habiendo sido leído»), y no casa con le courriel como complemento.",
+    "Ayant lus": "Incorrecta: con avoir no hay concordancia con el sujeto, y el directo, le courriel, es singular y va detrás."
+   },
+   "glosario": [
+    {
+     "palabra": "courriel",
+     "significado": "correo electrónico (término usado en Quebec y en textos oficiales)"
+    },
+    {
+     "palabra": "aussitôt",
+     "significado": "inmediatamente, en el acto"
+    }
+   ]
   },
   {
    "id": "e03",
@@ -150,7 +174,24 @@
    "respuestas": [
     "votée"
    ],
-   "explicacion": "Construcción absoluta pasiva: el participio concuerda con la loi."
+   "explicacion": "Es la construcción con une fois de la tabla: une fois + participio, con valor pasivo y temporal («una vez que haya sido votada»). Aquí el sujeto del participio es la loi, que también es el sujeto de la principal, por lo que no se repite. El participio concuerda con la loi, femenino singular: votée. Ayant voté sería activo («habiendo votado») y la ley no vota.",
+   "explicacion_breve": "Construcción absoluta pasiva: el participio concuerda con la loi.",
+   "traduccion": "Una vez votada, la ley se publicará en el Boletín Oficial.",
+   "por_opcion": {
+    "votée": "Correcta: participio pasivo concordado con la loi, femenino singular.",
+    "voté": "Incorrecta: falta la concordancia con la loi, que es femenino.",
+    "ayant voté": "Incorrecta: tiene sentido activo, «habiendo votado»; la ley no vota, es votada. Además, une fois no se combina con ayant."
+   },
+   "glosario": [
+    {
+     "palabra": "voter une loi",
+     "significado": "aprobar (votar) una ley"
+    },
+    {
+     "palabra": "Journal officiel",
+     "significado": "Boletín Oficial (diario oficial del Estado francés)"
+    }
+   ]
   },
   {
    "id": "e04",
@@ -165,7 +206,20 @@
    "respuestas": [
     "Ayant fait mes valises, j'ai appelé un taxi."
    ],
-   "explicacion": "El sujeto implícito de ayant fait debe ser el de la principal (je)."
+   "explicacion": "Es la regla de oro de la ficha: el sujeto implícito del participio compuesto debe ser el mismo que el de la principal. Quien hizo las maletas es «yo», así que la principal debe tener je como sujeto. Solo la segunda frase lo cumple: ayant fait mes valises, j'ai appelé un taxi. En las otras, el participio se atribuiría al taxi o a un il impersonal, lo cual es absurdo o incorrecto.",
+   "explicacion_breve": "El sujeto implícito de ayant fait debe ser el de la principal (je).",
+   "traduccion": "Como ya había hecho las maletas, llamé a un taxi.",
+   "por_opcion": {
+    "Ayant fait mes valises, le taxi est arrivé.": "Incorrecta: el sujeto de la principal es le taxi, así que la frase diría que el taxi hizo mis maletas.",
+    "Ayant fait mes valises, j'ai appelé un taxi.": "Correcta: el sujeto implícito de ayant fait (yo) coincide con el de la principal, je.",
+    "Ayant fait mes valises, il était tard.": "Incorrecta: el sujeto de la principal es el il impersonal de il était tard, que no puede haber hecho las maletas."
+   },
+   "glosario": [
+    {
+     "palabra": "faire ses valises",
+     "significado": "hacer las maletas"
+    }
+   ]
   },
   {
    "id": "e05",
@@ -176,7 +230,33 @@
     "Ayant",
     "ayant"
    ],
-   "explicacion": "Perdre se conjuga con avoir."
+   "explicacion": "Según la tabla, ayant se usa con los verbos que forman el passé composé con avoir, y étant con los que lo forman con être. Perdre es transitivo y va con avoir (elle a perdu), así que es ayant perdu. La pista es el complemento directo son portefeuille. El participio no concuerda porque va con avoir y el directo está detrás.",
+   "explicacion_breve": "Perdre se conjuga con avoir.",
+   "traduccion": "Como había perdido la cartera, tuvo que volver a pie.",
+   "errores_previstos": [
+    {
+     "respuesta": "Étant",
+     "explicacion": "Perdre no se conjuga con être; étant perdu tendría sentido pasivo («estando perdido»)."
+    },
+    {
+     "respuesta": "Ayant été",
+     "explicacion": "Ayant été perdu sería pasivo; aquí ella perdió la cartera: ayant perdu."
+    },
+    {
+     "respuesta": "Avant",
+     "explicacion": "Avant significa «antes»; la forma de avoir es ayant, con y."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "portefeuille",
+     "significado": "cartera, billetero"
+    },
+    {
+     "palabra": "rentrer à pied",
+     "significado": "volver a pie"
+    }
+   ]
   },
   {
    "id": "e06",
@@ -187,7 +267,23 @@
     "Étant",
     "étant"
    ],
-   "explicacion": "Naître se conjuga con être."
+   "explicacion": "Naître es uno de los verbos que forman el passé composé con être (il est né), así que el participio compuesto se forma con étant: étant né. La pista es el propio verbo né, de naître. Tras étant el participio concuerda con el sujeto, aquí il, masculino singular, por lo que né no cambia.",
+   "explicacion_breve": "Naître se conjuga con être.",
+   "traduccion": "Como nació en Marsella, conoce bien la ciudad.",
+   "errores_previstos": [
+    {
+     "respuesta": "Ayant",
+     "explicacion": "Naître no se conjuga con avoir; ayant né es incorrecto."
+    },
+    {
+     "respuesta": "Etant né",
+     "explicacion": "Solo hay que escribir el auxiliar; né ya está en la frase."
+    },
+    {
+     "respuesta": "Été",
+     "explicacion": "Été es el participio de être; la forma en -ant es étant."
+    }
+   ]
   },
   {
    "id": "e07",
@@ -197,7 +293,33 @@
    "respuestas": [
     "terminés"
    ],
-   "explicacion": "Proposición absoluta: el participio concuerda con les travaux."
+   "explicacion": "Es una proposición participial absoluta: tiene su propio sujeto, les travaux, distinto del de la principal, les habitants. La ficha explica que en la absoluta el participio concuerda con su propio sujeto. Travaux es masculino plural, así que el participio es terminés. El orden francés es sujeto + participio, al revés que el español «terminadas las obras».",
+   "explicacion_breve": "Proposición absoluta: el participio concuerda con les travaux.",
+   "traduccion": "Terminadas las obras, los vecinos pudieron volver.",
+   "errores_previstos": [
+    {
+     "respuesta": "terminé",
+     "explicacion": "Falta la concordancia con les travaux, masculino plural: terminés."
+    },
+    {
+     "respuesta": "terminées",
+     "explicacion": "Travaux es masculino: terminés."
+    },
+    {
+     "respuesta": "ayant terminé",
+     "explicacion": "Ayant terminé sería activo y exigiría el mismo sujeto que la principal; aquí las obras tienen sujeto propio y se usa el participio solo."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "les travaux",
+     "significado": "las obras"
+    },
+    {
+     "palabra": "habitants",
+     "significado": "vecinos, habitantes"
+    }
+   ]
   },
   {
    "id": "e08",
@@ -207,7 +329,29 @@
    "respuestas": [
     "Ayant raté le train, il est arrivé en retard."
    ],
-   "explicacion": "Causa anterior con el mismo sujeto: ayant + participio."
+   "explicacion": "La ficha da la equivalencia: comme + pluscuamperfecto con el mismo sujeto puede sustituirse por ayant + participio. Il avait raté pasa a ayant raté, y desaparecen comme y el sujeto, que se sobrentiende porque coincide con el de la principal (il). La principal se mantiene igual. Rater lleva avoir, de ahí ayant.",
+   "explicacion_breve": "Causa anterior con el mismo sujeto: ayant + participio.",
+   "traduccion": "Como había perdido el tren, llegó tarde.",
+   "errores_previstos": [
+    {
+     "respuesta": "Ayant raté le train, est arrivé en retard.",
+     "explicacion": "La principal necesita su sujeto il; lo que se suprime es el sujeto de la subordinada."
+    },
+    {
+     "respuesta": "Étant raté le train, il est arrivé en retard.",
+     "explicacion": "Rater es transitivo y lleva avoir: ayant raté."
+    },
+    {
+     "respuesta": "Ayant il raté le train, il est arrivé en retard.",
+     "explicacion": "El participio compuesto no lleva sujeto propio: toma el de la principal."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "rater le train",
+     "significado": "perder el tren"
+    }
+   ]
   },
   {
    "id": "e09",
@@ -217,7 +361,33 @@
    "respuestas": [
     "Étant sortie sans parapluie, elle est rentrée trempée."
    ],
-   "explicacion": "Sortir va con être: étant sortie, concordado en femenino."
+   "explicacion": "Se aplica la equivalencia comme + pluscuamperfecto = participio compuesto. Sortir sin complemento directo se conjuga con être (elle était sortie), así que se usa étant. Según la lista, tras étant el participio concuerda con el sujeto de la principal, elle: sortie, en femenino. El sujeto se sobrentiende porque es el mismo en las dos partes.",
+   "explicacion_breve": "Sortir va con être: étant sortie, concordado en femenino.",
+   "traduccion": "Como había salido sin paraguas, volvió empapada.",
+   "errores_previstos": [
+    {
+     "respuesta": "Étant sorti sans parapluie, elle est rentrée trempée.",
+     "explicacion": "Falta la concordancia: tras étant el participio concuerda con elle, sortie."
+    },
+    {
+     "respuesta": "Ayant sortie sans parapluie, elle est rentrée trempée.",
+     "explicacion": "Sortir sin complemento directo lleva être: étant sortie."
+    },
+    {
+     "respuesta": "Ayant sorti sans parapluie, elle est rentrée trempée.",
+     "explicacion": "Ayant sorti solo sería posible con complemento directo (ayant sorti la poubelle); aquí va étant."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "parapluie",
+     "significado": "paraguas"
+    },
+    {
+     "palabra": "trempé(e)",
+     "significado": "empapado, calado"
+    }
+   ]
   },
   {
    "id": "e10",
@@ -227,7 +397,33 @@
    "respuestas": [
     "Une fois la décision prise, nous informerons le personnel."
    ],
-   "explicacion": "Une fois + sujeto + participio concordado."
+   "explicacion": "La tabla recoge la construcción une fois + sujeto + participio, equivalente a una subordinada temporal. La decisión tiene sujeto propio (la décision), distinto de nous, así que se usa la absoluta: une fois la décision prise. El participio de prendre, pris, concuerda con la décision, femenino: prise. Fíjate en el orden: sujeto delante del participio, al revés que en español.",
+   "explicacion_breve": "Une fois + sujeto + participio concordado.",
+   "traduccion": "Una vez tomada la decisión, informaremos al personal.",
+   "errores_previstos": [
+    {
+     "respuesta": "Une fois prise la décision, nous informerons le personnel.",
+     "explicacion": "Calco del orden español «una vez tomada la decisión»: en francés el sujeto va delante, la décision prise."
+    },
+    {
+     "respuesta": "Une fois la décision pris, nous informerons le personnel.",
+     "explicacion": "Falta la concordancia con décision, femenino: prise."
+    },
+    {
+     "respuesta": "Une fois la décision sera prise, nous informerons le personnel.",
+     "explicacion": "Une fois se construye aquí con el participio solo, sin verbo conjugado."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "prendre une décision",
+     "significado": "tomar una decisión"
+    },
+    {
+     "palabra": "personnel",
+     "significado": "personal, plantilla"
+    }
+   ]
   },
   {
    "id": "e11",
@@ -238,17 +434,59 @@
     "Ayant terminé leurs examens, les étudiants sont partis en vacances.",
     "Leurs examens terminés, les étudiants sont partis en vacances."
    ],
-   "explicacion": "Terminer es transitivo y va con avoir: ayant terminé."
+   "explicacion": "El error está en el auxiliar: terminer, con complemento directo (leurs examens), se conjuga con avoir, así que el participio compuesto es ayant terminé, sin concordancia porque el directo va detrás. La ficha acepta también la proposición absoluta Leurs examens terminés, que pone examens como sujeto del participio y lo hace concordar. Las dos opciones respetan la regla del mismo sujeto o del sujeto propio.",
+   "explicacion_breve": "Terminer es transitivo y va con avoir: ayant terminé.",
+   "traduccion": "Terminados sus exámenes, los estudiantes se fueron de vacaciones.",
+   "errores_previstos": [
+    {
+     "respuesta": "Étant terminé leurs examens, les étudiants sont partis en vacances.",
+     "explicacion": "Es la frase sin corregir: terminer con complemento directo va con avoir, ayant terminé."
+    },
+    {
+     "respuesta": "Ayant terminés leurs examens, les étudiants sont partis en vacances.",
+     "explicacion": "Con avoir y el directo detrás, el participio no concuerda: terminé."
+    },
+    {
+     "respuesta": "Étant terminés leurs examens, les étudiants sont partis en vacances.",
+     "explicacion": "Sigue usando étant con un verbo transitivo y pone el sujeto detrás del participio."
+    }
+   ]
   },
   {
    "id": "e12",
    "tipo": "corregir",
    "enunciado": "Corrige el error.",
-   "frase": "Une fois finie la réunion, chacun est rentré chez soi.",
+   "frase": "Les comptes vérifié, le directeur a signé le bilan.",
    "respuestas": [
-    "Une fois la réunion finie, chacun est rentré chez soi."
+    "Les comptes vérifiés, le directeur a signé le bilan."
    ],
-   "explicacion": "En francés el sujeto precede al participio en la construcción absoluta."
+   "explicacion": "Se aplica la proposición participial absoluta de la tabla: un sujeto propio (les comptes) seguido del participio, que equivale a una subordinada (une fois que les comptes ont été vérifiés). Como explica la ficha, en la absoluta el participio concuerda con su propio sujeto, igual que tras étant. Les comptes es masculino plural, así que el participio debe llevar -s: vérifiés. El español hace lo mismo («revisadas las cuentas»), pero en francés la -s no se pronuncia y por eso se olvida al escribir.",
+   "explicacion_breve": "En la construcción absoluta el participio concuerda con su propio sujeto: les comptes vérifiés.",
+   "traduccion": "Revisadas las cuentas, el director firmó el balance.",
+   "errores_previstos": [
+    {
+     "respuesta": "Les comptes vérifié, le directeur a signé le bilan.",
+     "explicacion": "Es la frase sin corregir: el participio de la absoluta concuerda con les comptes, masculino plural: vérifiés."
+    },
+    {
+     "respuesta": "Les comptes vérifiées, le directeur a signé le bilan.",
+     "explicacion": "Compte es masculino: vérifiés, sin -e."
+    },
+    {
+     "respuesta": "Les comptes ayant vérifié, le directeur a signé le bilan.",
+     "explicacion": "Ayant vérifié sería activo (las cuentas habrían revisado algo); aquí las cuentas son lo revisado: les comptes vérifiés."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "les comptes",
+     "significado": "las cuentas"
+    },
+    {
+     "palabra": "le bilan",
+     "significado": "el balance"
+    }
+   ]
   },
   {
    "id": "e13",
@@ -265,7 +503,25 @@
    "respuestas": [
     "Ayant tout compris il s'est tu"
    ],
-   "explicacion": "Ayant + participio al principio; el sujeto il es el mismo en ambas partes."
+   "explicacion": "El participio compuesto va al principio: ayant + tout + compris. Tout, complemento directo, se coloca entre el auxiliar y el participio, como los adverbios y pronombres cortos (j'ai tout compris). Después viene la principal, cuyo sujeto il es el mismo que el implícito de ayant compris, como exige la regla de oro de la ficha. S'est tu es el passé composé de se taire, «callarse».",
+   "explicacion_breve": "Ayant + participio al principio; el sujeto il es el mismo en ambas partes.",
+   "traduccion": "Habiéndolo entendido todo, se calló.",
+   "errores_previstos": [
+    {
+     "respuesta": "Ayant compris tout il s'est tu",
+     "explicacion": "Tout, como complemento directo, va entre el auxiliar y el participio: ayant tout compris."
+    },
+    {
+     "respuesta": "Tout ayant compris il s'est tu",
+     "explicacion": "El participio compuesto empieza por ayant; tout va entre el auxiliar y el participio: ayant tout compris."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "se taire (il s'est tu)",
+     "significado": "callarse (se calló)"
+    }
+   ]
   },
   {
    "id": "e14",
@@ -282,10 +538,34 @@
    "respuestas": [
     "Les courses faites nous sommes rentrés"
    ],
-   "explicacion": "Proposición absoluta (sujeto + participio) seguida de la principal."
+   "explicacion": "Es una proposición absoluta: les courses tiene su propio sujeto, distinto del de la principal (nous). El orden es sujeto + participio concordado, les courses faites, y después la principal, nous sommes rentrés. Faites concuerda con courses, femenino plural, según la regla de la absoluta que explica la ficha.",
+   "explicacion_breve": "Proposición absoluta (sujeto + participio) seguida de la principal.",
+   "traduccion": "Hecha la compra, volvimos a casa.",
+   "errores_previstos": [
+    {
+     "respuesta": "Faites les courses nous sommes rentrés",
+     "explicacion": "Calco del español «hecha la compra»: en francés el sujeto va antes del participio, les courses faites."
+    },
+    {
+     "respuesta": "Les courses faites sommes nous rentrés",
+     "explicacion": "Tras la absoluta, la principal mantiene el orden normal sujeto + verbo: nous sommes rentrés; no hay inversión."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "faire les courses",
+     "significado": "hacer la compra"
+    }
+   ]
   }
  ],
  "fuente": {
   "nombre": "propia"
+ },
+ "descripcion_larga_es": "El participio compuesto (ayant terminé, étant arrivé) y la proposición participial absoluta (le rapport rédigé, …) permiten condensar en pocas palabras una acción anterior a la principal, a menudo con matiz de causa. Son marcas del registro escrito cuidado: informes, prensa, textos administrativos. Al hispanohablante le cuesta elegir entre ayant y étant, respetar que el sujeto sea el mismo y colocar el sujeto delante del participio en la absoluta.",
+ "contexto": {
+  "que_es": "El participio compuesto se forma con ayant o étant + participio pasado y expresa una acción terminada antes de la principal, con el mismo sujeto que ella. La proposición participial absoluta tiene sujeto propio, colocado delante del participio (la décision prise, les travaux terminés), y equivale a una subordinada temporal o causal; puede introducirse con une fois.",
+  "por_que_importa": "Son construcciones muy útiles para escribir con concisión y elegancia en un registro formal, como el que se pide en una redacción o un resumen de examen. Mal usadas producen frases ambiguas o incorrectas: si el sujeto implícito del participio no coincide con el de la principal, la frase dice otra cosa (Ayant fini le travail, le patron m'a payé significa que terminó el patrón). También se evalúa la concordancia tras étant y en la absoluta.",
+  "cuando_se_usa": "Al encadenar dos hechos sucesivos en un texto escrito, sobre todo cuando el primero explica el segundo: Ayant raté le train, il est arrivé en retard. Las señales son subordinadas con comme, après que o quand + pluscuamperfecto que se quieren abreviar. El hispanohablante tiende a calcar «una vez firmado el contrato» con el participio delante; en francés el orden habitual es une fois le contrat signé (el participio antepuesto existe, pero es más literario), y el participio debe concordar con su sujeto."
  }
 }

@@ -6,64 +6,740 @@
  "nivel": "B2",
  "resumen": "Verbos, sustantivos y adverbios para describir gráficos y datos: subidas, caídas, estabilidad, máximos y mínimos, porcentajes y puntos porcentuales.",
  "explicacion": [
-  {"tipo": "texto", "texto": "Las preposiciones son clave: «rise BY 2%» indica la cantidad del cambio; «rise TO 5%» indica el nivel final; «FROM 3% TO 5%» da el punto de partida y el de llegada. Y no confundas «percent» (porcentaje) con «percentage point» (punto porcentual)."},
-  {"tipo": "tabla", "cabecera": ["Expresión", "Significado", "Ejemplo"], "filas": [
-   ["to rise / to increase / to go up", "subir, aumentar", "Sales rose by 10%."],
-   ["to soar / to surge / to rocket", "dispararse", "Energy prices soared last winter."],
-   ["to climb / to pick up", "subir poco a poco / repuntar", "Demand picked up in spring."],
-   ["to fall / to drop / to decline / to go down", "caer, bajar", "Unemployment fell to 11%."],
-   ["to plunge / to plummet / to slump", "desplomarse", "Shares plummeted after the news."],
-   ["to level off / to stabilise", "estabilizarse", "Prices levelled off in June."],
-   ["to remain stable / to hold steady", "mantenerse estable", "The rate held steady at 2%."],
-   ["to fluctuate", "fluctuar, oscilar", "Oil prices fluctuated wildly."],
-   ["to peak / to reach a peak", "alcanzar un máximo", "Inflation peaked at 10.8%."],
-   ["to hit a low / to bottom out", "tocar fondo", "The market bottomed out in March."],
-   ["to double / to triple / to halve", "duplicarse / triplicarse / reducirse a la mitad", "Profits have doubled since 2020."]
-  ]},
-  {"tipo": "tabla", "cabecera": ["Expresión", "Significado", "Ejemplo"], "filas": [
-   ["a sharp / steep rise", "una subida brusca", "There was a sharp rise in rents."],
-   ["a slight / modest fall", "una ligera caída", "A slight fall in exports."],
-   ["a steady / gradual increase", "un aumento constante / gradual", "A steady increase in tourism."],
-   ["dramatically / significantly", "drásticamente / considerablemente", "Costs rose dramatically."],
-   ["slightly / marginally", "ligeramente / mínimamente", "Output fell slightly."],
-   ["percentage point", "punto porcentual", "From 3% to 5% is a rise of two percentage points."],
-   ["year-on-year / month-on-month", "interanual / intermensual", "Prices rose 4% year-on-year."],
-   ["twice as high as / three times as many", "el doble de / el triple de", "Rents are twice as high as in 2015."],
-   ["roughly / approximately / just over / just under", "aproximadamente / algo más de / algo menos de", "Just under half voted yes."],
-   ["the figures / the data show", "las cifras / los datos muestran", "The latest figures show a recovery."]
-  ]},
-  {"tipo": "lista", "items": ["Verbo «rise» (rose, risen) es intransitivo; «raise» (raised) es transitivo: «The bank raised rates»; «Rates rose».", "Decimales con punto: «2.5%» se lee «two point five percent».", "Los millares llevan coma: «1,500» = mil quinientos."]}
+  {
+   "tipo": "texto",
+   "texto": "Las preposiciones son clave: «rise BY 2%» indica la cantidad del cambio; «rise TO 5%» indica el nivel final; «FROM 3% TO 5%» da el punto de partida y el de llegada. Y no confundas «percent» (porcentaje) con «percentage point» (punto porcentual)."
+  },
+  {
+   "tipo": "tabla",
+   "cabecera": [
+    "Expresión",
+    "Significado",
+    "Ejemplo"
+   ],
+   "filas": [
+    [
+     "to rise / to increase / to go up",
+     "subir, aumentar",
+     "Sales rose by 10%."
+    ],
+    [
+     "to soar / to surge / to rocket",
+     "dispararse",
+     "Energy prices soared last winter."
+    ],
+    [
+     "to climb / to pick up",
+     "subir poco a poco / repuntar",
+     "Demand picked up in spring."
+    ],
+    [
+     "to fall / to drop / to decline / to go down",
+     "caer, bajar",
+     "Unemployment fell to 11%."
+    ],
+    [
+     "to plunge / to plummet / to slump",
+     "desplomarse",
+     "Shares plummeted after the news."
+    ],
+    [
+     "to level off / to stabilise",
+     "estabilizarse",
+     "Prices levelled off in June."
+    ],
+    [
+     "to remain stable / to hold steady",
+     "mantenerse estable",
+     "The rate held steady at 2%."
+    ],
+    [
+     "to fluctuate",
+     "fluctuar, oscilar",
+     "Oil prices fluctuated wildly."
+    ],
+    [
+     "to peak / to reach a peak",
+     "alcanzar un máximo",
+     "Inflation peaked at 10.8%."
+    ],
+    [
+     "to hit a low / to bottom out",
+     "tocar fondo",
+     "The market bottomed out in March."
+    ],
+    [
+     "to double / to triple / to halve",
+     "duplicarse / triplicarse / reducirse a la mitad",
+     "Profits have doubled since 2020."
+    ]
+   ]
+  },
+  {
+   "tipo": "tabla",
+   "cabecera": [
+    "Expresión",
+    "Significado",
+    "Ejemplo"
+   ],
+   "filas": [
+    [
+     "a sharp / steep rise",
+     "una subida brusca",
+     "There was a sharp rise in rents."
+    ],
+    [
+     "a slight / modest fall",
+     "una ligera caída",
+     "A slight fall in exports."
+    ],
+    [
+     "a steady / gradual increase",
+     "un aumento constante / gradual",
+     "A steady increase in tourism."
+    ],
+    [
+     "dramatically / significantly",
+     "drásticamente / considerablemente",
+     "Costs rose dramatically."
+    ],
+    [
+     "slightly / marginally",
+     "ligeramente / mínimamente",
+     "Output fell slightly."
+    ],
+    [
+     "percentage point",
+     "punto porcentual",
+     "From 3% to 5% is a rise of two percentage points."
+    ],
+    [
+     "year-on-year / month-on-month",
+     "interanual / intermensual",
+     "Prices rose 4% year-on-year."
+    ],
+    [
+     "twice as high as / three times as many",
+     "el doble de / el triple de",
+     "Rents are twice as high as in 2015."
+    ],
+    [
+     "roughly / approximately / just over / just under",
+     "aproximadamente / algo más de / algo menos de",
+     "Just under half voted yes."
+    ],
+    [
+     "the figures / the data show",
+     "las cifras / los datos muestran",
+     "The latest figures show a recovery."
+    ]
+   ]
+  },
+  {
+   "tipo": "lista",
+   "items": [
+    "Verbo «rise» (rose, risen) es intransitivo; «raise» (raised) es transitivo: «The bank raised rates»; «Rates rose».",
+    "Decimales con punto: «2.5%» se lee «two point five percent».",
+    "Los millares llevan coma: «1,500» = mil quinientos."
+   ]
+  }
  ],
  "ejemplos": [
-  {"frase": "House prices rose by 8% last year, the sharpest rise in a decade.", "traduccion": "El precio de la vivienda subió un 8% el año pasado, la mayor subida en una década."},
-  {"frase": "Unemployment fell from 14% to 11% over three years.", "traduccion": "El paro bajó del 14% al 11% en tres años."},
-  {"frase": "Ticket sales plummeted during the lockdown.", "traduccion": "La venta de entradas se desplomó durante el confinamiento."},
-  {"frase": "After months of growth, visitor numbers have levelled off.", "traduccion": "Tras meses de crecimiento, el número de visitantes se ha estabilizado."},
-  {"frase": "The number of cyclists in the city has almost tripled.", "traduccion": "El número de ciclistas en la ciudad casi se ha triplicado."},
-  {"frase": "Just over a third of students live with their parents.", "traduccion": "Algo más de un tercio de los estudiantes vive con sus padres."}
+  {
+   "frase": "House prices rose by 8% last year, the sharpest rise in a decade.",
+   "traduccion": "El precio de la vivienda subió un 8% el año pasado, la mayor subida en una década."
+  },
+  {
+   "frase": "Unemployment fell from 14% to 11% over three years.",
+   "traduccion": "El paro bajó del 14% al 11% en tres años."
+  },
+  {
+   "frase": "Ticket sales plummeted during the lockdown.",
+   "traduccion": "La venta de entradas se desplomó durante el confinamiento."
+  },
+  {
+   "frase": "After months of growth, visitor numbers have levelled off.",
+   "traduccion": "Tras meses de crecimiento, el número de visitantes se ha estabilizado."
+  },
+  {
+   "frase": "The number of cyclists in the city has almost tripled.",
+   "traduccion": "El número de ciclistas en la ciudad casi se ha triplicado."
+  },
+  {
+   "frase": "Just over a third of students live with their parents.",
+   "traduccion": "Algo más de un tercio de los estudiantes vive con sus padres."
+  }
  ],
  "errores_hispanohablantes": [
-  {"mal": "Prices raised by 3%.", "bien": "Prices rose by 3%.", "nota": "«Rise» es intransitivo; «raise» necesita objeto."},
-  {"mal": "Inflation increased in 2% (from 3% to 5%).", "bien": "Inflation increased by two percentage points.", "nota": "La cantidad del cambio va con «by», y la diferencia entre porcentajes son puntos porcentuales."},
-  {"mal": "Unemployment went down until 10%.", "bien": "Unemployment went down to 10%.", "nota": "El nivel final se indica con «to»."},
-  {"mal": "Two comma five per cent.", "bien": "Two point five per cent.", "nota": "En inglés el decimal es un punto y se lee «point»."}
+  {
+   "mal": "Prices raised by 3%.",
+   "bien": "Prices rose by 3%.",
+   "nota": "«Rise» es intransitivo; «raise» necesita objeto."
+  },
+  {
+   "mal": "Inflation increased in 2% (from 3% to 5%).",
+   "bien": "Inflation increased by two percentage points.",
+   "nota": "La cantidad del cambio va con «by», y la diferencia entre porcentajes son puntos porcentuales."
+  },
+  {
+   "mal": "Unemployment went down until 10%.",
+   "bien": "Unemployment went down to 10%.",
+   "nota": "El nivel final se indica con «to»."
+  },
+  {
+   "mal": "Two comma five per cent.",
+   "bien": "Two point five per cent.",
+   "nota": "En inglés el decimal es un punto y se lee «point»."
+  }
  ],
  "ejercicios": [
-  {"id": "e01", "tipo": "eleccion", "enunciado": "Elige la opción correcta.", "frase": "Sales ___ by 15% in the first quarter.", "opciones": ["rose", "raised", "arose", "rised"], "respuestas": ["rose"], "explicacion": "«Rise» (intransitivo): rise, rose, risen."},
-  {"id": "e02", "tipo": "eleccion", "enunciado": "Elige la preposición correcta (nivel final).", "frase": "The unemployment rate fell ___ 9% in May.", "opciones": ["to", "by", "until", "in"], "respuestas": ["to"], "explicacion": "«To» indica el nivel al que se llega."},
-  {"id": "e03", "tipo": "eleccion", "enunciado": "Elige la preposición correcta (cantidad del cambio).", "frase": "Prices increased ___ 3% compared with last year.", "opciones": ["by", "in", "of", "to"], "respuestas": ["by"], "explicacion": "«By» indica cuánto ha cambiado."},
-  {"id": "e04", "tipo": "corregir", "enunciado": "Corrige el error.", "frase": "The central bank rose interest rates again.", "respuestas": ["The central bank raised interest rates again."], "explicacion": "Con objeto directo se usa «raise» (raised)."},
-  {"id": "e05", "tipo": "hueco", "enunciado": "Completa con una palabra (estabilizarse).", "frase": "After a sharp rise, prices levelled ___ in the summer.", "respuestas": ["off", "out"], "explicacion": "«Level off / level out» = estabilizarse."},
-  {"id": "e06", "tipo": "eleccion", "enunciado": "Elige la opción correcta.", "frase": "Interest rates went from 2% to 3%: a rise of one percentage ___.", "opciones": ["point", "percent", "per cent", "number"], "respuestas": ["point"], "explicacion": "La diferencia entre dos porcentajes se mide en puntos porcentuales."},
-  {"id": "e07", "tipo": "hueco", "enunciado": "Completa con un verbo (alcanzar un máximo), en pasado.", "frase": "Inflation ___ at 10% in October and then started to fall.", "respuestas": ["peaked"], "explicacion": "«Peak» = alcanzar un máximo."},
-  {"id": "e08", "tipo": "eleccion", "enunciado": "Elige la opción correcta.", "frase": "Shares ___ by 40% in a single day after the scandal.", "opciones": ["plummeted", "levelled off", "picked up", "doubled"], "respuestas": ["plummeted"], "explicacion": "Una caída fuerte tras un escándalo: «plummeted» (se desplomaron)."},
-  {"id": "e09", "tipo": "hueco", "enunciado": "Completa con un adjetivo (brusca).", "frase": "There has been a ___ rise in the price of olive oil.", "respuestas": ["sharp", "steep", "dramatic"], "explicacion": "Subida brusca: «sharp / steep rise»."},
-  {"id": "e10", "tipo": "transformar", "enunciado": "Reescribe usando el sustantivo: empieza por «There was a».", "frase": "Exports fell slightly in March.", "respuestas": ["There was a slight fall in exports in March.", "There was a slight drop in exports in March.", "There was a slight decline in exports in March.", "There was a slight decrease in exports in March."], "explicacion": "Verbo + adverbio se convierte en adjetivo + sustantivo + «in»."},
-  {"id": "e11", "tipo": "hueco", "enunciado": "Completa con un verbo (reducirse a la mitad), en participio.", "frase": "The number of smokers has ___ since 2000.", "respuestas": ["halved"], "explicacion": "«Halve» = reducirse a la mitad."},
-  {"id": "e12", "tipo": "eleccion", "enunciado": "Elige la opción correcta.", "frase": "Rents in Madrid are twice as ___ as in Zaragoza.", "opciones": ["high", "higher", "more high", "highest"], "respuestas": ["high"], "explicacion": "«Twice as + adjetivo base + as»."},
-  {"id": "e13", "tipo": "hueco", "enunciado": "Completa con una palabra (interanual).", "frase": "Retail sales grew 3% year-on-___.", "respuestas": ["year"], "explicacion": "«Year-on-year» = interanual."},
-  {"id": "e14", "tipo": "corregir", "enunciado": "Corrige el error.", "frase": "Exports grew in 5% last year.", "respuestas": ["Exports grew by 5% last year.", "Exports grew 5% last year."], "explicacion": "La cantidad del cambio se introduce con «by», no con «in»."},
-  {"id": "e15", "tipo": "ordenar", "enunciado": "Ordena las palabras.", "palabras": ["steady", "held", "rate", "The", "at", "two", "percent"], "respuestas": ["The rate held steady at two percent"], "explicacion": "«Hold steady at» = mantenerse estable en un nivel."}
+  {
+   "id": "e01",
+   "tipo": "eleccion",
+   "enunciado": "Elige la opción correcta.",
+   "frase": "Sales ___ by 15% in the first quarter.",
+   "opciones": [
+    "rose",
+    "raised",
+    "arose",
+    "rised"
+   ],
+   "respuestas": [
+    "rose"
+   ],
+   "explicacion": "Se aplica la nota de Reglas y claves: rise (rose, risen) es intransitivo, mientras que raise (raised) es transitivo y necesita objeto. La pista es que el sujeto, sales, sube por sí mismo y no hay complemento directo: by 15% indica solo la cantidad del cambio. Por eso el pasado correcto es rose.",
+   "explicacion_breve": "«Rise» (intransitivo): rise, rose, risen.",
+   "traduccion": "Las ventas subieron un 15 % en el primer trimestre.",
+   "por_opcion": {
+    "rose": "Correcta: pasado irregular de rise, intransitivo; las ventas suben solas.",
+    "raised": "Incorrecta: raise es transitivo (raise prices); sin objeto directo no funciona.",
+    "arose": "Incorrecta: arise significa surgir (a problem arose), no subir.",
+    "rised": "Incorrecta: no existe; rise es irregular y su pasado es rose."
+   },
+   "glosario": [
+    {
+     "palabra": "rise (rose, risen)",
+     "significado": "subir, aumentar"
+    },
+    {
+     "palabra": "quarter",
+     "significado": "trimestre"
+    }
+   ]
+  },
+  {
+   "id": "e02",
+   "tipo": "eleccion",
+   "enunciado": "Elige la preposición correcta (nivel final).",
+   "frase": "The unemployment rate fell ___ 9% in May.",
+   "opciones": [
+    "to",
+    "by",
+    "until",
+    "in"
+   ],
+   "respuestas": [
+    "to"
+   ],
+   "explicacion": "Se aplica la regla de preposiciones de la ficha: to indica el nivel final al que se llega, mientras que by indicaría la cantidad del cambio. La pista está en el enunciado (nivel final) y en el sentido: el paro quedó en el 9 %, no bajó nueve puntos. Fell to 9% equivale a «bajó hasta el 9 %» o «se situó en el 9 %».",
+   "explicacion_breve": "«To» indica el nivel al que se llega.",
+   "traduccion": "La tasa de paro bajó al 9 % en mayo.",
+   "por_opcion": {
+    "to": "Correcta: to marca el nivel final alcanzado.",
+    "by": "Incorrecta: by indicaría la cantidad de la bajada (bajó nueve puntos), no el nivel final que pide el enunciado.",
+    "until": "Incorrecta: until es temporal (hasta cuándo); es el calco de «hasta el 9 %».",
+    "in": "Incorrecta: in no indica ni cantidad ni nivel; en esta frase ya aparece in con el mes (in May)."
+   },
+   "glosario": [
+    {
+     "palabra": "fall to",
+     "significado": "bajar hasta, situarse en"
+    },
+    {
+     "palabra": "unemployment rate",
+     "significado": "tasa de paro"
+    }
+   ]
+  },
+  {
+   "id": "e03",
+   "tipo": "eleccion",
+   "enunciado": "Elige la preposición correcta (cantidad del cambio).",
+   "frase": "Prices increased ___ 3% compared with last year.",
+   "opciones": [
+    "by",
+    "in",
+    "of",
+    "to"
+   ],
+   "respuestas": [
+    "by"
+   ],
+   "explicacion": "Se aplica la regla de preposiciones de la ficha: by indica cuánto ha cambiado una magnitud. La pista es el enunciado (cantidad del cambio) y compared with last year, que muestra que se mide la variación. Increased by 3% es «aumentaron un 3 %». El hispanohablante tiende a escribir in, calcado de «en un 3 %».",
+   "explicacion_breve": "«By» indica cuánto ha cambiado.",
+   "traduccion": "Los precios subieron un 3 % respecto al año pasado.",
+   "por_opcion": {
+    "by": "Correcta: by expresa la magnitud del cambio.",
+    "in": "Incorrecta: calco de «en un 3 %»; en inglés la cantidad del cambio va con by.",
+    "of": "Incorrecta: of se usa con el sustantivo (an increase of 3%), no con el verbo.",
+    "to": "Incorrecta: to indicaría el nivel final (los precios pasaron a ser un 3 %), lo cual no tiene sentido aquí."
+   },
+   "glosario": [
+    {
+     "palabra": "increase by",
+     "significado": "aumentar en (una cantidad)"
+    },
+    {
+     "palabra": "compared with",
+     "significado": "en comparación con"
+    }
+   ]
+  },
+  {
+   "id": "e04",
+   "tipo": "corregir",
+   "enunciado": "Corrige el error.",
+   "frase": "The central bank rose interest rates again.",
+   "respuestas": [
+    "The central bank raised interest rates again."
+   ],
+   "explicacion": "Se aplica la nota sobre rise y raise: raise es transitivo y lleva objeto directo; rise no. La pista es interest rates, el objeto directo de la acción, y el sujeto, the central bank, que actúa sobre él. Por eso el verbo es raised. Con los tipos como sujeto se diría «interest rates rose».",
+   "explicacion_breve": "Con objeto directo se usa «raise» (raised).",
+   "traduccion": "El banco central volvió a subir los tipos de interés.",
+   "errores_previstos": [
+    {
+     "respuesta": "The central bank rose interest rates again.",
+     "explicacion": "Es la frase sin corregir: rose es intransitivo y no admite objeto directo."
+    },
+    {
+     "respuesta": "The central bank risen interest rates again.",
+     "explicacion": "Risen es participio de rise, intransitivo, y además falta el auxiliar; se dice raised."
+    },
+    {
+     "respuesta": "The central bank rised interest rates again.",
+     "explicacion": "Rised no existe; con objeto el verbo es raise, raised."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "raise",
+     "significado": "subir, elevar (algo)"
+    },
+    {
+     "palabra": "interest rates",
+     "significado": "tipos de interés"
+    }
+   ]
+  },
+  {
+   "id": "e05",
+   "tipo": "hueco",
+   "enunciado": "Completa con una palabra (estabilizarse).",
+   "frase": "After a sharp rise, prices levelled ___ in the summer.",
+   "respuestas": [
+    "off",
+    "out"
+   ],
+   "explicacion": "La tabla recoge level off / stabilise, estabilizarse tras una subida o bajada. Es un verbo frasal: level (nivelar) + off. La pista es el contraste con «a sharp rise»: tras el movimiento brusco, la curva se aplana. Se aceptan off y out porque level out es una variante con el mismo sentido.",
+   "explicacion_breve": "«Level off / level out» = estabilizarse.",
+   "traduccion": "Tras una fuerte subida, los precios se estabilizaron en verano.",
+   "errores_previstos": [
+    {
+     "respuesta": "up",
+     "explicacion": "Level up es subir de nivel (en juegos o habilidades); no significa estabilizarse."
+    },
+    {
+     "respuesta": "down",
+     "explicacion": "Level down significa igualar a la baja; no es estabilizarse."
+    },
+    {
+     "respuesta": "of",
+     "explicacion": "Confusión ortográfica entre of y off; la partícula es off."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "level off / level out",
+     "significado": "estabilizarse"
+    },
+    {
+     "palabra": "sharp rise",
+     "significado": "subida brusca"
+    }
+   ]
+  },
+  {
+   "id": "e06",
+   "tipo": "eleccion",
+   "enunciado": "Elige la opción correcta.",
+   "frase": "Interest rates went from 2% to 3%: a rise of one percentage ___.",
+   "opciones": [
+    "point",
+    "percent",
+    "per cent",
+    "number"
+   ],
+   "respuestas": [
+    "point"
+   ],
+   "explicacion": "Se aplica la advertencia de Reglas y claves: no hay que confundir percent (porcentaje) con percentage point (punto porcentual). La diferencia entre dos porcentajes se mide en puntos: del 2 % al 3 % hay un punto porcentual, mientras que en términos relativos la subida es del 50 %. La pista es percentage justo antes del hueco.",
+   "explicacion_breve": "La diferencia entre dos porcentajes se mide en puntos porcentuales.",
+   "traduccion": "Los tipos de interés pasaron del 2 % al 3 %: una subida de un punto porcentual.",
+   "por_opcion": {
+    "point": "Correcta: percentage point, la diferencia absoluta entre dos porcentajes.",
+    "percent": "Incorrecta: «one percentage percent» no existe; y decir que subió un 1 % sería falso, porque en términos relativos subió un 50 %.",
+    "per cent": "Incorrecta: es la grafía británica de percent y tiene el mismo problema.",
+    "number": "Incorrecta: percentage number no es una expresión inglesa."
+   },
+   "glosario": [
+    {
+     "palabra": "percentage point",
+     "significado": "punto porcentual"
+    },
+    {
+     "palabra": "interest rates",
+     "significado": "tipos de interés"
+    }
+   ]
+  },
+  {
+   "id": "e07",
+   "tipo": "hueco",
+   "enunciado": "Completa con un verbo (alcanzar un máximo), en pasado.",
+   "frase": "Inflation ___ at 10% in October and then started to fall.",
+   "respuestas": [
+    "peaked"
+   ],
+   "explicacion": "La tabla recoge peak / reach a peak, alcanzar un máximo, con el ejemplo «Inflation peaked at 10.8%». Peak funciona como verbo intransitivo y el nivel se introduce con at. La pista es la secuencia: llega al 10 % y después empieza a caer, es decir, ese fue el punto más alto. El enunciado pide pasado: peaked.",
+   "explicacion_breve": "«Peak» = alcanzar un máximo.",
+   "traduccion": "La inflación alcanzó un máximo del 10 % en octubre y luego empezó a bajar.",
+   "errores_previstos": [
+    {
+     "respuesta": "peak",
+     "explicacion": "El enunciado pide pasado y la frase narra octubre: peaked."
+    },
+    {
+     "respuesta": "picked",
+     "explicacion": "Pick up significa repuntar y además se escribe y se pronuncia distinto; alcanzar un máximo es peak."
+    },
+    {
+     "respuesta": "topped",
+     "explicacion": "Top existe en ese sentido, pero se construye sin at (topped 10%); con at y el sentido de máximo, peaked."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "peak at",
+     "significado": "alcanzar un máximo de"
+    },
+    {
+     "palabra": "inflation",
+     "significado": "inflación"
+    }
+   ]
+  },
+  {
+   "id": "e08",
+   "tipo": "eleccion",
+   "enunciado": "Elige la opción correcta.",
+   "frase": "Shares ___ by 40% in a single day after the scandal.",
+   "opciones": [
+    "plummeted",
+    "levelled off",
+    "picked up",
+    "doubled"
+   ],
+   "respuestas": [
+    "plummeted"
+   ],
+   "explicacion": "La tabla recoge plunge / plummet / slump, desplomarse. La pista es la magnitud y la causa: un 40 % en un solo día tras un escándalo es una caída drástica. Plummeted es el verbo más expresivo de la lista y, como es intransitivo, encaja con by 40%.",
+   "explicacion_breve": "Una caída fuerte tras un escándalo: «plummeted» (se desplomaron).",
+   "traduccion": "Las acciones se desplomaron un 40 % en un solo día tras el escándalo.",
+   "por_opcion": {
+    "plummeted": "Correcta: se desplomaron, caída brusca e intensa.",
+    "levelled off": "Incorrecta: significa estabilizarse; no encaja con un cambio del 40 % ni con un escándalo.",
+    "picked up": "Incorrecta: significa repuntar, subir; lo contrario de lo que provoca un escándalo.",
+    "doubled": "Incorrecta: doblarse es subir un 100 % y no se combina con by 40%."
+   },
+   "glosario": [
+    {
+     "palabra": "plummet",
+     "significado": "desplomarse"
+    },
+    {
+     "palabra": "shares",
+     "significado": "acciones"
+    },
+    {
+     "palabra": "scandal",
+     "significado": "escándalo"
+    }
+   ]
+  },
+  {
+   "id": "e09",
+   "tipo": "hueco",
+   "enunciado": "Completa con un adjetivo (brusca).",
+   "frase": "There has been a ___ rise in the price of olive oil.",
+   "respuestas": [
+    "sharp",
+    "steep",
+    "dramatic"
+   ],
+   "explicacion": "La tabla recoge a sharp / steep rise, una subida brusca. Los adjetivos de intensidad se colocan delante del sustantivo rise. La pista es la glosa del enunciado (brusca). Se aceptan sharp, steep y dramatic, porque los tres expresan un cambio grande y rápido; dramatic corresponde al adverbio dramatically de la tabla.",
+   "explicacion_breve": "Subida brusca: «sharp / steep rise».",
+   "traduccion": "Ha habido una subida brusca del precio del aceite de oliva.",
+   "errores_previstos": [
+    {
+     "respuesta": "brusque",
+     "explicacion": "Brusque existe, pero describe a una persona de trato seco; para una subida se usa sharp o steep."
+    },
+    {
+     "respuesta": "sharply",
+     "explicacion": "Sharply es adverbio y acompaña al verbo (rose sharply); delante del sustantivo rise va el adjetivo sharp."
+    },
+    {
+     "respuesta": "sharpen",
+     "explicacion": "Sharpen es un verbo (afilar, agudizar); delante del sustantivo rise hace falta el adjetivo sharp."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "sharp / steep rise",
+     "significado": "subida brusca"
+    },
+    {
+     "palabra": "olive oil",
+     "significado": "aceite de oliva"
+    }
+   ]
+  },
+  {
+   "id": "e10",
+   "tipo": "transformar",
+   "enunciado": "Reescribe usando el sustantivo: empieza por «There was a».",
+   "frase": "Exports fell slightly in March.",
+   "respuestas": [
+    "There was a slight fall in exports in March.",
+    "There was a slight drop in exports in March.",
+    "There was a slight decline in exports in March.",
+    "There was a slight decrease in exports in March."
+   ],
+   "explicacion": "Se aplica la correspondencia entre verbo + adverbio y adjetivo + sustantivo que muestra la tabla: fell slightly pasa a a slight fall. La magnitud que cambia se introduce con in (a fall in exports). Se aceptan fall, drop, decline y decrease porque los cuatro funcionan también como sustantivos con el mismo sentido.",
+   "explicacion_breve": "Verbo + adverbio se convierte en adjetivo + sustantivo + «in».",
+   "traduccion": "En marzo hubo una ligera caída de las exportaciones.",
+   "errores_previstos": [
+    {
+     "respuesta": "There was a slightly fall in exports in March.",
+     "explicacion": "Delante de un sustantivo va el adjetivo slight, no el adverbio slightly."
+    },
+    {
+     "respuesta": "There was a slight fall of exports in March.",
+     "explicacion": "La magnitud que cambia se introduce con in: a fall in exports."
+    },
+    {
+     "respuesta": "There was a slight fell in exports in March.",
+     "explicacion": "Fell es el pasado del verbo; el sustantivo es fall."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "a slight fall in",
+     "significado": "una ligera caída de"
+    },
+    {
+     "palabra": "exports",
+     "significado": "exportaciones"
+    }
+   ]
+  },
+  {
+   "id": "e11",
+   "tipo": "hueco",
+   "enunciado": "Completa con un verbo (reducirse a la mitad), en participio.",
+   "frase": "The number of smokers has ___ since 2000.",
+   "respuestas": [
+    "halved"
+   ],
+   "explicacion": "La tabla recoge to halve, reducirse a la mitad, junto a double y triple. La pista es has + participio (present perfect, con since 2000) y la glosa del enunciado. Halve es regular: halved. Fíjate en que el verbo es halve (con v), distinto del sustantivo half.",
+   "explicacion_breve": "«Halve» = reducirse a la mitad.",
+   "traduccion": "El número de fumadores se ha reducido a la mitad desde el año 2000.",
+   "errores_previstos": [
+    {
+     "respuesta": "halfed",
+     "explicacion": "El verbo es halve, con v: halved. Half es el sustantivo."
+    },
+    {
+     "respuesta": "halved down",
+     "explicacion": "Halve ya significa reducir a la mitad; no lleva partícula."
+    },
+    {
+     "respuesta": "reduced to half",
+     "explicacion": "Se entiende, pero hacen falta más palabras y la consigna pide un solo verbo: halved."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "halve",
+     "significado": "reducir(se) a la mitad"
+    },
+    {
+     "palabra": "smokers",
+     "significado": "fumadores"
+    }
+   ]
+  },
+  {
+   "id": "e12",
+   "tipo": "eleccion",
+   "enunciado": "Elige la opción correcta.",
+   "frase": "Rents in Madrid are twice as ___ as in Zaragoza.",
+   "opciones": [
+    "high",
+    "higher",
+    "more high",
+    "highest"
+   ],
+   "respuestas": [
+    "high"
+   ],
+   "explicacion": "La tabla recoge twice as high as, el doble de. La estructura de comparación multiplicativa es multiplicador + as + adjetivo en grado positivo + as. La pista es el primer as ya escrito: obliga a usar el adjetivo base, high, no el comparativo.",
+   "explicacion_breve": "«Twice as + adjetivo base + as».",
+   "traduccion": "Los alquileres en Madrid son el doble de altos que en Zaragoza.",
+   "por_opcion": {
+    "high": "Correcta: as + adjetivo base + as, precedido del multiplicador twice.",
+    "higher": "Incorrecta: el comparativo va con than (twice higher than se oye, pero se considera poco cuidado); con as… as se usa el adjetivo base.",
+    "more high": "Incorrecta: high forma el comparativo con -er; more high no existe y además aquí no hace falta comparativo.",
+    "highest": "Incorrecta: el superlativo no cabe en una comparación entre dos elementos."
+   },
+   "glosario": [
+    {
+     "palabra": "twice as high as",
+     "significado": "el doble de alto que"
+    },
+    {
+     "palabra": "rents",
+     "significado": "alquileres"
+    }
+   ]
+  },
+  {
+   "id": "e13",
+   "tipo": "hueco",
+   "enunciado": "Completa con una palabra (interanual).",
+   "frase": "Retail sales grew 3% year-on-___.",
+   "respuestas": [
+    "year"
+   ],
+   "explicacion": "La tabla recoge year-on-year, interanual, es decir, comparado con el mismo periodo del año anterior. Es una expresión fija con guiones: year-on-year. La pista es la estructura ya iniciada year-on-, que solo se completa repitiendo year. Su paralela es month-on-month.",
+   "explicacion_breve": "«Year-on-year» = interanual.",
+   "traduccion": "Las ventas minoristas crecieron un 3 % interanual.",
+   "errores_previstos": [
+    {
+     "respuesta": "years",
+     "explicacion": "La expresión fija va en singular: year-on-year."
+    },
+    {
+     "respuesta": "annual",
+     "explicacion": "Annual significa anual, pero no forma parte de esta expresión; se repite year."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "year-on-year",
+     "significado": "interanual"
+    },
+    {
+     "palabra": "retail sales",
+     "significado": "ventas minoristas"
+    }
+   ]
+  },
+  {
+   "id": "e14",
+   "tipo": "corregir",
+   "enunciado": "Corrige el error.",
+   "frase": "Exports grew in 5% last year.",
+   "respuestas": [
+    "Exports grew by 5% last year.",
+    "Exports grew 5% last year."
+   ],
+   "explicacion": "Se aplica la regla de preposiciones de la ficha y el error típico «increased in 2%»: la cantidad del cambio se introduce con by, no con in. Se aceptan también la versión sin preposición (grew 5%), muy frecuente en prensa. In es el calco de «crecieron en un 5 %».",
+   "explicacion_breve": "La cantidad del cambio se introduce con «by», no con «in».",
+   "traduccion": "Las exportaciones crecieron un 5 % el año pasado.",
+   "errores_previstos": [
+    {
+     "respuesta": "Exports grew in 5% last year.",
+     "explicacion": "Es la frase sin corregir: la cantidad del cambio va con by."
+    },
+    {
+     "respuesta": "Exports grew to 5% last year.",
+     "explicacion": "To indicaría el nivel final (pasaron a ser el 5 %), no el crecimiento, lo que cambia el sentido."
+    },
+    {
+     "respuesta": "Exports grew of 5% last year.",
+     "explicacion": "Of va con el sustantivo (growth of 5%), no con el verbo."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "grow by",
+     "significado": "crecer en (una cantidad)"
+    },
+    {
+     "palabra": "exports",
+     "significado": "exportaciones"
+    }
+   ]
+  },
+  {
+   "id": "e15",
+   "tipo": "ordenar",
+   "enunciado": "Ordena las palabras.",
+   "palabras": [
+    "steady",
+    "held",
+    "rate",
+    "The",
+    "at",
+    "two",
+    "percent"
+   ],
+   "respuestas": [
+    "The rate held steady at two percent"
+   ],
+   "explicacion": "La tabla recoge to remain stable / to hold steady, mantenerse estable, con el ejemplo «The rate held steady at 2%». El orden es sujeto (the rate) + verbo (held) + adjetivo (steady) + at + nivel. La preposición at introduce el nivel en el que se mantiene, igual que con peak at.",
+   "explicacion_breve": "«Hold steady at» = mantenerse estable en un nivel.",
+   "traduccion": "La tasa se mantuvo estable en el dos por ciento.",
+   "errores_previstos": [
+    {
+     "respuesta": "The rate held at two percent steady",
+     "explicacion": "Steady acompaña directamente al verbo held: held steady at."
+    },
+    {
+     "respuesta": "The rate steady held at two percent",
+     "explicacion": "El verbo held va antes del adjetivo steady."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "hold steady at",
+     "significado": "mantenerse estable en"
+    },
+    {
+     "palabra": "rate",
+     "significado": "tasa, tipo"
+    }
+   ]
+  }
  ],
- "fuente": {"nombre": "propia"}
+ "fuente": {
+  "nombre": "propia"
+ },
+ "descripcion_larga_es": "Verbos, sustantivos, adjetivos y adverbios para describir gráficos y datos: subidas, caídas, estabilidad, máximos, mínimos, porcentajes y puntos porcentuales. Es el léxico básico de cualquier informe económico y de la prensa financiera, imprescindible para un economista. Cuesta al hispanohablante por las preposiciones (by frente a to), la pareja rise/raise y la diferencia entre porcentaje y punto porcentual.",
+ "contexto": {
+  "que_es": "Es el vocabulario para describir la evolución de una magnitud: verbos de subida (rise, soar, pick up), de bajada (fall, plummet), de estabilidad (level off, hold steady), de máximos y mínimos (peak, bottom out), modificadores de intensidad (sharp, slight, dramatically) y expresiones de comparación y aproximación (twice as high as, just under).",
+  "por_que_importa": "Es el lenguaje diario de informes, notas de prensa, bancos centrales y organismos internacionales, y aparece en cualquier exposición sobre economía. Un error de preposición cambia el dato: «rose by 5%» y «rose to 5%» dicen cosas distintas. Confundir porcentaje y punto porcentual es un error conceptual grave para un economista, y la pareja rise/raise es un clásico de los exámenes.",
+  "cuando_se_usa": "Al comentar un gráfico, presentar estadísticas, resumir un informe de coyuntura o comparar datos entre periodos. Las señales son las cifras, las fechas y los verbos de movimiento. El hispanohablante tiende a usar in para la cantidad («increased in 2%»), until para el nivel final, raise sin objeto y la coma decimal."
+ }
 }

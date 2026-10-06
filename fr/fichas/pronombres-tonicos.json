@@ -6,61 +6,533 @@
  "nivel": "A2",
  "resumen": "Los pronombres tónicos (moi, toi, lui, elle, nous, vous, eux, elles) se usan cuando el pronombre va separado del verbo: detrás de preposición, en respuestas sin verbo, tras c'est y para insistir o contrastar. Equivalen a los españoles mí, ti, él, ella… y también a yo y tú cuando van solos.",
  "explicacion": [
-  {"tipo": "tabla", "cabecera": ["Sujeto", "Tónico", "Español"], "filas": [
-   ["je", "moi", "yo, mí"],
-   ["tu", "toi", "tú, ti"],
-   ["il", "lui", "él"],
-   ["elle", "elle", "ella"],
-   ["on", "soi", "uno mismo (sentido general)"],
-   ["nous", "nous", "nosotros, nosotras"],
-   ["vous", "vous", "vosotros, usted, ustedes"],
-   ["ils", "eux", "ellos"],
-   ["elles", "elles", "ellas"]
-  ]},
-  {"tipo": "lista", "items": [
-   "Tras preposición: avec moi (conmigo), sans lui (sin él), pour elle (para ella), chez nous (en nuestra casa).",
-   "En respuestas y exclamaciones sin verbo: — Qui veut du café ? — Moi ! (¡Yo!)",
-   "Con aussi, non plus y pas: Moi aussi (yo también), Moi non plus (yo tampoco), Pas moi (yo no).",
-   "Tras c'est / ce sont: C'est moi. C'est lui qui a gagné.",
-   "En sujetos dobles: Paul et moi, nous partons demain.",
-   "Para insistir o contrastar: Moi, je reste ; toi, tu pars.",
-   "En comparaciones y con ne… que: Il est plus grand que moi. Je n'aime que toi.",
-   "Con -même: moi-même (yo mismo), elle-même (ella misma)."
-  ]},
-  {"tipo": "texto", "texto": "Comparado con el español: el francés no tiene formas especiales como conmigo o contigo (avec moi, avec toi) y usa moi y toi donde el español usa yo y tú sin verbo (Moi aussi = Yo también). Nunca se dice «et je» ni «avec je»: cuando el pronombre va suelto, siempre es tónico."},
-  {"tipo": "texto", "texto": "Atención con penser à, faire attention à, s'intéresser à: con personas se usa à + tónico (Je pense à lui), no el pronombre átono lui. Être à + tónico expresa posesión: Ce livre est à moi (este libro es mío)."}
+  {
+   "tipo": "tabla",
+   "cabecera": [
+    "Sujeto",
+    "Tónico",
+    "Español"
+   ],
+   "filas": [
+    [
+     "je",
+     "moi",
+     "yo, mí"
+    ],
+    [
+     "tu",
+     "toi",
+     "tú, ti"
+    ],
+    [
+     "il",
+     "lui",
+     "él"
+    ],
+    [
+     "elle",
+     "elle",
+     "ella"
+    ],
+    [
+     "on",
+     "soi",
+     "uno mismo (sentido general)"
+    ],
+    [
+     "nous",
+     "nous",
+     "nosotros, nosotras"
+    ],
+    [
+     "vous",
+     "vous",
+     "vosotros, usted, ustedes"
+    ],
+    [
+     "ils",
+     "eux",
+     "ellos"
+    ],
+    [
+     "elles",
+     "elles",
+     "ellas"
+    ]
+   ]
+  },
+  {
+   "tipo": "lista",
+   "items": [
+    "Tras preposición: avec moi (conmigo), sans lui (sin él), pour elle (para ella), chez nous (en nuestra casa).",
+    "En respuestas y exclamaciones sin verbo: — Qui veut du café ? — Moi ! (¡Yo!)",
+    "Con aussi, non plus y pas: Moi aussi (yo también), Moi non plus (yo tampoco), Pas moi (yo no).",
+    "Tras c'est / ce sont: C'est moi. C'est lui qui a gagné.",
+    "En sujetos dobles: Paul et moi, nous partons demain.",
+    "Para insistir o contrastar: Moi, je reste ; toi, tu pars.",
+    "En comparaciones y con ne… que: Il est plus grand que moi. Je n'aime que toi.",
+    "Con -même: moi-même (yo mismo), elle-même (ella misma)."
+   ]
+  },
+  {
+   "tipo": "texto",
+   "texto": "Comparado con el español: el francés no tiene formas especiales como conmigo o contigo (avec moi, avec toi) y usa moi y toi donde el español usa yo y tú sin verbo (Moi aussi = Yo también). Nunca se dice «et je» ni «avec je»: cuando el pronombre va suelto, siempre es tónico."
+  },
+  {
+   "tipo": "texto",
+   "texto": "Atención con penser à, faire attention à, s'intéresser à: con personas se usa à + tónico (Je pense à lui), no el pronombre átono lui. Être à + tónico expresa posesión: Ce livre est à moi (este libro es mío)."
+  }
  ],
  "ejemplos": [
-  {"frase": "Je suis fier de toi.", "traduccion": "Estoy orgulloso de ti."},
-  {"frase": "Tu es sortie sans moi.", "traduccion": "Saliste sin mí."},
-  {"frase": "Le vélo est à moi.", "traduccion": "La bicicleta es mía."},
-  {"frase": "— Je n'aime pas le froid. — Moi non plus.", "traduccion": "— No me gusta el frío. — A mí tampoco."},
-  {"frase": "Eux, ils s'amusent, mais vous, vous ne sortez jamais.", "traduccion": "Ellos se divierten, pero vosotros no salís nunca."},
-  {"frase": "Je resterai chez moi ce week-end.", "traduccion": "Me quedaré en casa este fin de semana."}
+  {
+   "frase": "Je suis fier de toi.",
+   "traduccion": "Estoy orgulloso de ti."
+  },
+  {
+   "frase": "Tu es sortie sans moi.",
+   "traduccion": "Saliste sin mí."
+  },
+  {
+   "frase": "Le vélo est à moi.",
+   "traduccion": "La bicicleta es mía."
+  },
+  {
+   "frase": "— Je n'aime pas le froid. — Moi non plus.",
+   "traduccion": "— No me gusta el frío. — A mí tampoco."
+  },
+  {
+   "frase": "Eux, ils s'amusent, mais vous, vous ne sortez jamais.",
+   "traduccion": "Ellos se divierten, pero vosotros no salís nunca."
+  },
+  {
+   "frase": "Je resterai chez moi ce week-end.",
+   "traduccion": "Me quedaré en casa este fin de semana."
+  }
  ],
  "errores_hispanohablantes": [
-  {"mal": "Marie et je, nous allons au cinéma.", "bien": "Marie et moi, nous allons au cinéma.", "nota": "En un sujeto doble el pronombre va separado del verbo: se usa el tónico."},
-  {"mal": "Je lui pense souvent.", "bien": "Je pense souvent à lui.", "nota": "Penser à + persona exige à + pronombre tónico."},
-  {"mal": "— J'ai faim. — Je aussi !", "bien": "— J'ai faim. — Moi aussi !", "nota": "Sin verbo, «yo» se dice moi."},
-  {"mal": "Tu viens avec mi ?", "bien": "Tu viens avec moi ?", "nota": "No existen formas como mí o conmigo: avec moi."}
+  {
+   "mal": "Marie et je, nous allons au cinéma.",
+   "bien": "Marie et moi, nous allons au cinéma.",
+   "nota": "En un sujeto doble el pronombre va separado del verbo: se usa el tónico."
+  },
+  {
+   "mal": "Je lui pense souvent.",
+   "bien": "Je pense souvent à lui.",
+   "nota": "Penser à + persona exige à + pronombre tónico."
+  },
+  {
+   "mal": "— J'ai faim. — Je aussi !",
+   "bien": "— J'ai faim. — Moi aussi !",
+   "nota": "Sin verbo, «yo» se dice moi."
+  },
+  {
+   "mal": "Tu viens avec mi ?",
+   "bien": "Tu viens avec moi ?",
+   "nota": "No existen formas como mí o conmigo: avec moi."
+  }
  ],
  "ejercicios": [
-  {"id": "e01", "tipo": "hueco", "enunciado": "Completa con el pronombre tónico.", "frase": "Je suis avec ___ (él).", "respuestas": ["lui"], "explicacion": "Tras la preposición avec se usa el tónico: lui = él.", "origen": "tatoeba:7411499"},
-  {"id": "e02", "tipo": "hueco", "enunciado": "Completa con el pronombre tónico.", "frase": "Elle parle de ___ (tú).", "respuestas": ["toi"], "explicacion": "Tras de se usa toi (de ti).", "origen": "tatoeba:10574709"},
-  {"id": "e03", "tipo": "hueco", "enunciado": "Completa con el pronombre tónico.", "frase": "Mange avec ___ ! (nosotros)", "respuestas": ["nous"], "explicacion": "Nous es a la vez sujeto y tónico: avec nous = con nosotros.", "origen": "tatoeba:8124315"},
-  {"id": "e04", "tipo": "hueco", "enunciado": "Completa con el pronombre tónico.", "frase": "Je vais avec ___ (ella).", "respuestas": ["elle"], "explicacion": "Elle tiene la misma forma como sujeto y como tónico.", "origen": "tatoeba:6178244"},
-  {"id": "e05", "tipo": "hueco", "enunciado": "Completa con el pronombre tónico.", "frase": "Pierre et Marc ? Je dîne avec ___ ce soir.", "respuestas": ["eux"], "explicacion": "El tónico de ils es eux (con ellos)."},
-  {"id": "e06", "tipo": "eleccion", "enunciado": "Elige la opción correcta.", "frase": "Le vélo est à ___.", "opciones": ["moi", "me", "je"], "respuestas": ["moi"], "explicacion": "Être à + tónico expresa posesión: es mía.", "origen": "tatoeba:936019"},
-  {"id": "e07", "tipo": "eleccion", "enunciado": "Elige la opción correcta.", "frase": "Tu es sortie sans ___.", "opciones": ["moi", "me", "je"], "respuestas": ["moi"], "explicacion": "Tras la preposición sans va el tónico: sin mí.", "origen": "tatoeba:7021662"},
-  {"id": "e08", "tipo": "eleccion", "enunciado": "Elige la opción correcta.", "frase": "Les filles ? Je pense souvent à ___.", "opciones": ["elles", "leur", "les"], "respuestas": ["elles"], "explicacion": "Penser à + persona exige à + pronombre tónico, no leur."},
-  {"id": "e09", "tipo": "hueco", "enunciado": "Completa la respuesta (yo también).", "frase": "— J'adore le cinéma. — ___ aussi !", "respuestas": ["Moi", "moi"], "explicacion": "Sin verbo, yo se dice moi: Moi aussi."},
-  {"id": "e10", "tipo": "eleccion", "enunciado": "Elige la opción correcta (a mí tampoco).", "frase": "— Je n'aime pas le café. — Moi ___.", "opciones": ["non plus", "aussi", "pas"], "respuestas": ["non plus"], "explicacion": "Tras una frase negativa, el acuerdo se expresa con moi non plus."},
-  {"id": "e11", "tipo": "corregir", "enunciado": "Corrige el error.", "frase": "Paul et je, nous partons demain.", "respuestas": ["Paul et moi, nous partons demain.", "Paul et moi partons demain."], "explicacion": "En un sujeto doble se usa el tónico moi."},
-  {"id": "e12", "tipo": "corregir", "enunciado": "Corrige el error.", "frase": "C'est je qui ai appelé.", "respuestas": ["C'est moi qui ai appelé."], "explicacion": "Tras c'est va siempre el pronombre tónico."},
-  {"id": "e13", "tipo": "corregir", "enunciado": "Corrige el error.", "frase": "Il est plus grand que je.", "respuestas": ["Il est plus grand que moi."], "explicacion": "En las comparaciones, tras que se usa el tónico si no hay verbo."},
-  {"id": "e14", "tipo": "transformar", "enunciado": "Insiste en el sujeto añadiendo el pronombre tónico al principio.", "frase": "Il travaille beaucoup.", "respuestas": ["Lui, il travaille beaucoup."], "explicacion": "Para insistir se antepone el tónico separado por una coma: Lui, il…"},
-  {"id": "e15", "tipo": "ordenar", "enunciado": "Ordena las palabras (estoy orgulloso de ti).", "palabras": ["fier", "de", "Je", "toi", "suis"], "respuestas": ["Je suis fier de toi"], "explicacion": "Être fier de + tónico.", "origen": "tatoeba:7419"},
-  {"id": "e16", "tipo": "ordenar", "enunciado": "Ordena las palabras (me quedaré en casa).", "palabras": ["chez", "resterai", "moi", "Je"], "respuestas": ["Je resterai chez moi"], "explicacion": "Chez + tónico = en casa de: chez moi, en mi casa.", "origen": "tatoeba:1084230"}
+  {
+   "id": "e01",
+   "tipo": "hueco",
+   "enunciado": "Completa con el pronombre tónico.",
+   "frase": "Je suis avec ___ (él).",
+   "respuestas": [
+    "lui"
+   ],
+   "explicacion": "La lista de la ficha indica que tras preposición se usa el pronombre tónico. Avec es una preposición, así que «con él» se dice «avec lui». Según la tabla, el tónico de il es lui. La pista es la preposición avec y el «él» del enunciado.",
+   "origen": "tatoeba:7411499",
+   "explicacion_breve": "Tras la preposición avec se usa el tónico: lui = él.",
+   "traduccion": "Estoy con él.",
+   "errores_previstos": [
+    {
+     "respuesta": "il",
+     "explicacion": "Il es pronombre sujeto y solo va delante de un verbo; tras preposición se usa el tónico lui."
+    },
+    {
+     "respuesta": "le",
+     "explicacion": "Le es complemento directo átono y va delante del verbo; tras avec se usa lui."
+    }
+   ]
+  },
+  {
+   "id": "e02",
+   "tipo": "hueco",
+   "enunciado": "Completa con el pronombre tónico.",
+   "frase": "Elle parle de ___ (tú).",
+   "respuestas": [
+    "toi"
+   ],
+   "explicacion": "Tras la preposición de se usa el pronombre tónico, como recoge la lista de la ficha. El tónico de tu es toi, que equivale al español «ti». La pista es la preposición de y el «tú» del enunciado. En francés no hay forma distinta para «ti» y «tú suelto»: ambas son toi.",
+   "origen": "tatoeba:10574709",
+   "explicacion_breve": "Tras de se usa toi (de ti).",
+   "traduccion": "Habla de ti.",
+   "errores_previstos": [
+    {
+     "respuesta": "tu",
+     "explicacion": "Tu es el pronombre sujeto; tras preposición se usa toi: «de toi»."
+    },
+    {
+     "respuesta": "te",
+     "explicacion": "Te es un pronombre átono que va pegado delante del verbo; tras de se usa toi."
+    }
+   ]
+  },
+  {
+   "id": "e03",
+   "tipo": "hueco",
+   "enunciado": "Completa con el pronombre tónico.",
+   "frase": "Mange avec ___ ! (nosotros)",
+   "respuestas": [
+    "nous"
+   ],
+   "explicacion": "Tras la preposición avec va el tónico. Según la tabla, nous tiene la misma forma como sujeto y como tónico, así que «con nosotros» es «avec nous». La pista es la preposición. La frase es un imperativo dirigido a tu, por eso «Mange» no lleva sujeto.",
+   "origen": "tatoeba:8124315",
+   "explicacion_breve": "Nous es a la vez sujeto y tónico: avec nous = con nosotros.",
+   "traduccion": "¡Come con nosotros!",
+   "errores_previstos": [
+    {
+     "respuesta": "nosotros",
+     "explicacion": "Es la palabra española; en francés el tónico de nous es la misma forma: «avec nous»."
+    },
+    {
+     "respuesta": "nos",
+     "explicacion": "Nos es un posesivo plural (nos amis); el pronombre tónico es nous."
+    }
+   ]
+  },
+  {
+   "id": "e04",
+   "tipo": "hueco",
+   "enunciado": "Completa con el pronombre tónico.",
+   "frase": "Je vais avec ___ (ella).",
+   "respuestas": [
+    "elle"
+   ],
+   "explicacion": "Tras avec se usa el pronombre tónico. La tabla muestra que el tónico de elle es la misma forma, elle. Por eso «con ella» es «avec elle». La pista es la preposición y el «ella» del enunciado. No debe confundirse con lui, que es el tónico masculino.",
+   "origen": "tatoeba:6178244",
+   "explicacion_breve": "Elle tiene la misma forma como sujeto y como tónico.",
+   "traduccion": "Voy con ella.",
+   "errores_previstos": [
+    {
+     "respuesta": "lui",
+     "explicacion": "Lui es el tónico masculino (él); para «ella» la forma tónica es elle."
+    },
+    {
+     "respuesta": "la",
+     "explicacion": "La es complemento directo átono y va delante del verbo; tras preposición se usa elle."
+    }
+   ]
+  },
+  {
+   "id": "e05",
+   "tipo": "hueco",
+   "enunciado": "Completa con el pronombre tónico.",
+   "frase": "Pierre et Marc ? Je dîne avec ___ ce soir.",
+   "respuestas": [
+    "eux"
+   ],
+   "explicacion": "Pierre y Marc son dos hombres, que como sujeto serían ils. La tabla indica que el tónico de ils es eux, la única forma que cambia por completo. Tras la preposición avec, «con ellos» es «avec eux». La pista es la preposición y el grupo masculino.",
+   "explicacion_breve": "El tónico de ils es eux (con ellos).",
+   "traduccion": "¿Pierre y Marc? Ceno con ellos esta noche.",
+   "errores_previstos": [
+    {
+     "respuesta": "ils",
+     "explicacion": "Ils es el pronombre sujeto; tras preposición el tónico es eux."
+    },
+    {
+     "respuesta": "leur",
+     "explicacion": "Leur es complemento indirecto átono y va delante del verbo; tras avec se usa eux."
+    },
+    {
+     "respuesta": "elles",
+     "explicacion": "Elles es para un grupo enteramente femenino; Pierre y Marc son hombres: eux."
+    }
+   ]
+  },
+  {
+   "id": "e06",
+   "tipo": "eleccion",
+   "enunciado": "Elige la opción correcta.",
+   "frase": "Le vélo est à ___.",
+   "opciones": [
+    "moi",
+    "me",
+    "je"
+   ],
+   "respuestas": [
+    "moi"
+   ],
+   "explicacion": "La ficha explica que être à + pronombre tónico expresa posesión: «Ce livre est à moi» significa «este libro es mío». Tras la preposición à solo cabe el tónico, de modo que «le vélo est à moi». La pista es la estructura «est à» seguida del hueco.",
+   "origen": "tatoeba:936019",
+   "explicacion_breve": "Être à + tónico expresa posesión: es mía.",
+   "traduccion": "La bicicleta es mía.",
+   "por_opcion": {
+    "moi": "Correcta: tónico tras la preposición à, en la construcción de posesión être à + tónico.",
+    "me": "Incorrecta: me es un pronombre átono que va pegado delante del verbo (il me voit); no puede ir tras preposición.",
+    "je": "Incorrecta: je es el pronombre sujeto y solo va delante de un verbo conjugado."
+   },
+   "glosario": [
+    {
+     "palabra": "le vélo",
+     "significado": "la bicicleta"
+    }
+   ]
+  },
+  {
+   "id": "e07",
+   "tipo": "eleccion",
+   "enunciado": "Elige la opción correcta.",
+   "frase": "Tu es sortie sans ___.",
+   "opciones": [
+    "moi",
+    "me",
+    "je"
+   ],
+   "respuestas": [
+    "moi"
+   ],
+   "explicacion": "Sans es una preposición, y la lista de la ficha indica que tras preposición se usa el tónico: «sans moi», sin mí. La pista es la preposición sans. El participio «sortie» concuerda en femenino porque sortir se conjuga con être y el sujeto tu es aquí una mujer; eso no afecta al pronombre.",
+   "origen": "tatoeba:7021662",
+   "explicacion_breve": "Tras la preposición sans va el tónico: sin mí.",
+   "traduccion": "Saliste sin mí.",
+   "por_opcion": {
+    "moi": "Correcta: tras la preposición sans va el tónico moi.",
+    "me": "Incorrecta: me es átono y siempre va delante del verbo; no puede seguir a una preposición.",
+    "je": "Incorrecta: je es sujeto; «sans je» no existe en francés."
+   }
+  },
+  {
+   "id": "e08",
+   "tipo": "eleccion",
+   "enunciado": "Elige la opción correcta.",
+   "frase": "Les filles ? Je pense souvent à ___.",
+   "opciones": [
+    "elles",
+    "leur",
+    "les"
+   ],
+   "respuestas": [
+    "elles"
+   ],
+   "explicacion": "La ficha advierte que con penser à y personas se usa à + tónico, no el átono lui o leur. Las chicas son un grupo femenino, cuyo tónico es elles. Por eso «je pense souvent à elles». La pista es el verbo penser à y el antecedente «les filles».",
+   "explicacion_breve": "Penser à + persona exige à + pronombre tónico, no leur.",
+   "traduccion": "¿Las chicas? Pienso a menudo en ellas.",
+   "por_opcion": {
+    "elles": "Correcta: penser à + persona exige à + tónico; el grupo es femenino, así que elles.",
+    "leur": "Incorrecta: leur es el átono de complemento indirecto, pero penser à no lo admite con personas; además, leur iría delante del verbo, no tras à.",
+    "les": "Incorrecta: les es complemento directo átono y va delante del verbo; no puede seguir a una preposición."
+   }
+  },
+  {
+   "id": "e09",
+   "tipo": "hueco",
+   "enunciado": "Completa la respuesta (yo también).",
+   "frase": "— J'adore le cinéma. — ___ aussi !",
+   "respuestas": [
+    "Moi",
+    "moi"
+   ],
+   "explicacion": "La lista de la ficha indica que con aussi, en respuestas sin verbo, se usa el tónico: «Moi aussi», que equivale a «yo también» o «a mí también». La pista es la ausencia de verbo en la respuesta. El francés no distingue entre «yo» y «a mí» en este caso: siempre es moi.",
+   "explicacion_breve": "Sin verbo, yo se dice moi: Moi aussi.",
+   "traduccion": "—Me encanta el cine. —¡A mí también!",
+   "errores_previstos": [
+    {
+     "respuesta": "Je",
+     "explicacion": "Es el error típico de la ficha: sin verbo, je no puede ir solo; «yo también» es «Moi aussi»."
+    },
+    {
+     "respuesta": "Me",
+     "explicacion": "Me es átono y necesita un verbo detrás; en una respuesta corta se usa moi."
+    }
+   ]
+  },
+  {
+   "id": "e10",
+   "tipo": "eleccion",
+   "enunciado": "Elige la opción correcta (a mí tampoco).",
+   "frase": "— Je n'aime pas le café. — Moi ___.",
+   "opciones": [
+    "non plus",
+    "aussi",
+    "pas"
+   ],
+   "respuestas": [
+    "non plus"
+   ],
+   "explicacion": "La ficha recoge que, tras una frase negativa, el acuerdo se expresa con «moi non plus» (yo tampoco), mientras que «moi aussi» es para frases afirmativas. La pista es la negación «n'aime pas» de la primera frase. «Pas moi» expresaría desacuerdo, lo contrario de lo que se pide.",
+   "explicacion_breve": "Tras una frase negativa, el acuerdo se expresa con moi non plus.",
+   "traduccion": "—No me gusta el café. —A mí tampoco.",
+   "por_opcion": {
+    "non plus": "Correcta: «moi non plus» muestra acuerdo con una frase negativa, como «yo tampoco».",
+    "aussi": "Incorrecta: «moi aussi» se usa para estar de acuerdo con una frase afirmativa; tras una negativa sería un error frecuente.",
+    "pas": "Incorrecta: «moi pas» o «pas moi» expresa lo contrario, que a uno sí le gusta; el enunciado pide «a mí tampoco»."
+   }
+  },
+  {
+   "id": "e11",
+   "tipo": "corregir",
+   "enunciado": "Corrige el error.",
+   "frase": "Paul et je, nous partons demain.",
+   "respuestas": [
+    "Paul et moi, nous partons demain.",
+    "Paul et moi partons demain."
+   ],
+   "explicacion": "En un sujeto doble el pronombre no va pegado al verbo, así que la ficha exige el tónico: «Paul et moi». Lo habitual es retomar después el sujeto con nous («Paul et moi, nous partons»), aunque también es correcto omitirlo («Paul et moi partons»). Por eso se aceptan las dos versiones. Je nunca puede ir coordinado con et.",
+   "explicacion_breve": "En un sujeto doble se usa el tónico moi.",
+   "traduccion": "Paul y yo nos vamos mañana.",
+   "errores_previstos": [
+    {
+     "respuesta": "Paul et je, nous partons demain.",
+     "explicacion": "Es dejar la frase sin corregir: en un sujeto doble se usa el tónico moi."
+    },
+    {
+     "respuesta": "Paul et moi, ils partent demain.",
+     "explicacion": "El sujeto «Paul et moi» incluye al hablante, así que se retoma con nous, no con ils."
+    },
+    {
+     "respuesta": "Paul et moi partent demain.",
+     "explicacion": "Un sujeto que incluye moi equivale a nous, así que el verbo va en primera persona del plural: «Paul et moi partons»."
+    }
+   ]
+  },
+  {
+   "id": "e12",
+   "tipo": "corregir",
+   "enunciado": "Corrige el error.",
+   "frase": "C'est je qui ai appelé.",
+   "respuestas": [
+    "C'est moi qui ai appelé."
+   ],
+   "explicacion": "La ficha indica que tras c'est va siempre el pronombre tónico: «C'est moi». La relativa con qui concuerda después con la persona del tónico, por eso el verbo sigue en primera persona: «qui ai appelé». La pista es la estructura de realce c'est… qui.",
+   "explicacion_breve": "Tras c'est va siempre el pronombre tónico.",
+   "traduccion": "Soy yo quien ha llamado.",
+   "errores_previstos": [
+    {
+     "respuesta": "C'est je qui ai appelé.",
+     "explicacion": "Es dejar la frase sin corregir: tras c'est se usa moi."
+    },
+    {
+     "respuesta": "C'est moi qui a appelé.",
+     "explicacion": "Se ha corregido el pronombre, pero el verbo de la relativa concuerda con moi: «qui ai appelé»."
+    }
+   ]
+  },
+  {
+   "id": "e13",
+   "tipo": "corregir",
+   "enunciado": "Corrige el error.",
+   "frase": "Il est plus grand que je.",
+   "respuestas": [
+    "Il est plus grand que moi."
+   ],
+   "explicacion": "La lista de la ficha incluye las comparaciones: tras que, si no sigue un verbo, se usa el tónico. «Más alto que yo» es «plus grand que moi». La pista es la estructura comparativa plus… que. Solo se diría «que je» si siguiera un verbo, como en «plus grand que je ne pensais».",
+   "explicacion_breve": "En las comparaciones, tras que se usa el tónico si no hay verbo.",
+   "traduccion": "Es más alto que yo.",
+   "errores_previstos": [
+    {
+     "respuesta": "Il est plus grand que je.",
+     "explicacion": "Es dejar la frase sin corregir: sin verbo detrás, tras que se usa moi."
+    },
+    {
+     "respuesta": "Il est plus grand que me.",
+     "explicacion": "Me es átono y necesita un verbo; en la comparación va moi."
+    }
+   ]
+  },
+  {
+   "id": "e14",
+   "tipo": "transformar",
+   "enunciado": "Insiste en el sujeto añadiendo el pronombre tónico al principio.",
+   "frase": "Il travaille beaucoup.",
+   "respuestas": [
+    "Lui, il travaille beaucoup."
+   ],
+   "explicacion": "La ficha indica que el tónico sirve para insistir o contrastar: se coloca al principio, separado por una coma, y se mantiene el pronombre sujeto. El tónico de il es lui, así que la frase queda «Lui, il travaille beaucoup». En español este énfasis se hace con el sujeto explícito o con entonación; en francés el sujeto il no puede desaparecer.",
+   "explicacion_breve": "Para insistir se antepone el tónico separado por una coma: Lui, il…",
+   "traduccion": "Él sí que trabaja mucho. (Lo que es él, trabaja mucho.)",
+   "errores_previstos": [
+    {
+     "respuesta": "Lui travaille beaucoup.",
+     "explicacion": "Para insistir se añade el tónico pero se conserva el sujeto il: «Lui, il travaille beaucoup»."
+    },
+    {
+     "respuesta": "Il, il travaille beaucoup.",
+     "explicacion": "El pronombre de insistencia debe ser el tónico, lui, no repetir il."
+    }
+   ]
+  },
+  {
+   "id": "e15",
+   "tipo": "ordenar",
+   "enunciado": "Ordena las palabras (estoy orgulloso de ti).",
+   "palabras": [
+    "fier",
+    "de",
+    "Je",
+    "toi",
+    "suis"
+   ],
+   "respuestas": [
+    "Je suis fier de toi"
+   ],
+   "explicacion": "La construcción es être fier de + tónico: la preposición de obliga a usar toi. El orden es sujeto (Je), verbo (suis), adjetivo (fier) y complemento con preposición (de toi). La pista es la preposición de delante del pronombre.",
+   "origen": "tatoeba:7419",
+   "explicacion_breve": "Être fier de + tónico.",
+   "traduccion": "Estoy orgulloso de ti.",
+   "errores_previstos": [
+    {
+     "respuesta": "Je suis de toi fier",
+     "explicacion": "El complemento del adjetivo va detrás de él: «fier de toi»."
+    },
+    {
+     "respuesta": "Je toi suis fier de",
+     "explicacion": "Toi es tónico y va tras la preposición de, no delante del verbo."
+    }
+   ]
+  },
+  {
+   "id": "e16",
+   "tipo": "ordenar",
+   "enunciado": "Ordena las palabras (me quedaré en casa).",
+   "palabras": [
+    "chez",
+    "resterai",
+    "moi",
+    "Je"
+   ],
+   "respuestas": [
+    "Je resterai chez moi"
+   ],
+   "explicacion": "Chez es una preposición y, como indica la ficha, va seguida del tónico: «chez moi» significa «en mi casa». El orden es sujeto (Je), verbo en futuro (resterai) y complemento de lugar (chez moi). La pista es la preposición chez, que ya incluye la idea de casa.",
+   "origen": "tatoeba:1084230",
+   "explicacion_breve": "Chez + tónico = en casa de: chez moi, en mi casa.",
+   "traduccion": "Me quedaré en casa.",
+   "errores_previstos": [
+    {
+     "respuesta": "Je resterai moi chez",
+     "explicacion": "La preposición va delante del pronombre: «chez moi»."
+    },
+    {
+     "respuesta": "Je chez moi resterai",
+     "explicacion": "El verbo va inmediatamente después del sujeto; el complemento de lugar va detrás."
+    }
+   ]
+  }
  ],
- "fuente": {"nombre": "Tex's French Grammar", "autores": "COERLL, Universidad de Texas en Austin", "licencia": "CC BY 3.0", "url": "https://laits.utexas.edu/tex/gr/pro4.html", "otras": ["Frases de Tatoeba (CC BY 2.0 FR)"]}
+ "fuente": {
+  "nombre": "Tex's French Grammar",
+  "autores": "COERLL, Universidad de Texas en Austin",
+  "licencia": "CC BY 3.0",
+  "url": "https://laits.utexas.edu/tex/gr/pro4.html",
+  "otras": [
+   "Frases de Tatoeba (CC BY 2.0 FR)"
+  ]
+ },
+ "descripcion_larga_es": "Los pronombres tónicos (moi, toi, lui, elle, nous, vous, eux, elles) son las formas que se usan cuando el pronombre va separado del verbo: tras preposición, en respuestas sin verbo, tras c'est, en sujetos dobles, en comparaciones y para insistir. Equivalen a mí, ti, él… y también a yo y tú cuando van solos. El hispanohablante tiende a decir «et je» o «moi aussi» mal, por calco.",
+ "contexto": {
+  "que_es": "Son la serie de pronombres personales que funcionan de forma independiente del verbo: moi, toi, lui, elle, soi, nous, vous, eux, elles. Se oponen a los pronombres sujeto (je, tu, il) y a los complemento átonos (me, te, lui, leur), que siempre van pegados al verbo. Algunos coinciden en forma con el sujeto (elle, nous, vous, elles).",
+  "por_que_importa": "Aparecen constantemente en la conversación: «avec moi», «chez toi», «moi aussi», «c'est lui». Usar el pronombre sujeto en su lugar («avec je», «c'est je», «Paul et je») es un error muy visible que suena a principiante. Además, sirven para dar énfasis y contraste, algo que el español hace solo con el sujeto explícito y que en francés exige el tónico.",
+  "cuando_se_usa": "Tras cualquier preposición (avec, sans, pour, de, chez, à en penser à), en respuestas o exclamaciones sin verbo, con aussi, non plus y pas, tras c'est y ce sont, en sujetos coordinados, tras que en comparaciones y para insistir o contrastar. La señal es que el pronombre no está pegado a un verbo conjugado. El hispanohablante debe recordar que «yo también» es «moi aussi» y «conmigo», «avec moi»."
+ }
 }

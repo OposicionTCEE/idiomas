@@ -6,60 +6,592 @@
  "nivel": "B2",
  "resumen": "El conditionnel passé (condicional de avoir o être + participio) equivale a «habría hecho». Expresa lo que no llegó a ocurrir: arrepentimiento y reproche, consecuencias de una condición irreal del pasado y, en la prensa, hechos pasados no confirmados.",
  "explicacion": [
-  {"tipo": "texto", "texto": "Formación: condicional presente del auxiliar + participio. Con être (verbos de movimiento y pronominales) el participio concuerda con el sujeto, igual que en el passé composé."},
-  {"tipo": "tabla", "cabecera": ["Persona", "dire (con avoir)", "partir (con être)"], "filas": [
-   ["je", "j'aurais dit", "je serais parti(e)"],
-   ["tu", "tu aurais dit", "tu serais parti(e)"],
-   ["il / elle / on", "il aurait dit", "elle serait partie"],
-   ["nous", "nous aurions dit", "nous serions parti(e)s"],
-   ["vous", "vous auriez dit", "vous seriez parti(e)(s)"],
-   ["ils / elles", "ils auraient dit", "elles seraient parties"]
-  ]},
-  {"tipo": "tabla", "cabecera": ["Uso", "Ejemplo", "Traducción"], "filas": [
-   ["Arrepentimiento", "J'aurais aimé être artiste.", "Me habría gustado ser artista."],
-   ["Reproche (devoir)", "Tu n'aurais pas dû écouter Bette.", "No deberías haber escuchado a Bette."],
-   ["Posibilidad perdida (pouvoir)", "J'aurais pu être un chef célèbre !", "¡Podría haber sido un chef famoso!"],
-   ["Condición irreal del pasado", "Si j'avais su, je serais venu.", "Si lo hubiera sabido, habría venido."],
-   ["Información no confirmada", "La tornade aurait fait plusieurs victimes.", "El tornado habría causado varias víctimas."],
-   ["Estilo indirecto", "Il a dit qu'il serait rentré avant minuit.", "Dijo que habría vuelto antes de medianoche."]
-  ]},
-  {"tipo": "texto", "texto": "Con si irreal del pasado: si + plus-que-parfait en la condición y conditionnel passé en la consecuencia. Nunca condicional después de si. El español admite «hubiera» en las dos partes («si lo hubiera sabido, lo hubiera hecho»); el francés no: Si je l'avais su, je l'aurais fait."},
-  {"tipo": "texto", "texto": "El condicional de rumor o de información no verificada es normal y correcto en la prensa francesa: L'incendie aurait fait trois blessés = según las primeras informaciones, el incendio ha causado tres heridos."},
-  {"tipo": "lista", "items": [
-   "j'aurais dû + infinitivo = debería haber / debí (de) + infinitivo.",
-   "j'aurais pu + infinitivo = podría haber + infinitivo.",
-   "j'aurais voulu / j'aurais aimé = me habría gustado, ojalá hubiera."
-  ]}
+  {
+   "tipo": "texto",
+   "texto": "Formación: condicional presente del auxiliar + participio. Con être (verbos de movimiento y pronominales) el participio concuerda con el sujeto, igual que en el passé composé."
+  },
+  {
+   "tipo": "tabla",
+   "cabecera": [
+    "Persona",
+    "dire (con avoir)",
+    "partir (con être)"
+   ],
+   "filas": [
+    [
+     "je",
+     "j'aurais dit",
+     "je serais parti(e)"
+    ],
+    [
+     "tu",
+     "tu aurais dit",
+     "tu serais parti(e)"
+    ],
+    [
+     "il / elle / on",
+     "il aurait dit",
+     "elle serait partie"
+    ],
+    [
+     "nous",
+     "nous aurions dit",
+     "nous serions parti(e)s"
+    ],
+    [
+     "vous",
+     "vous auriez dit",
+     "vous seriez parti(e)(s)"
+    ],
+    [
+     "ils / elles",
+     "ils auraient dit",
+     "elles seraient parties"
+    ]
+   ]
+  },
+  {
+   "tipo": "tabla",
+   "cabecera": [
+    "Uso",
+    "Ejemplo",
+    "Traducción"
+   ],
+   "filas": [
+    [
+     "Arrepentimiento",
+     "J'aurais aimé être artiste.",
+     "Me habría gustado ser artista."
+    ],
+    [
+     "Reproche (devoir)",
+     "Tu n'aurais pas dû écouter Bette.",
+     "No deberías haber escuchado a Bette."
+    ],
+    [
+     "Posibilidad perdida (pouvoir)",
+     "J'aurais pu être un chef célèbre !",
+     "¡Podría haber sido un chef famoso!"
+    ],
+    [
+     "Condición irreal del pasado",
+     "Si j'avais su, je serais venu.",
+     "Si lo hubiera sabido, habría venido."
+    ],
+    [
+     "Información no confirmada",
+     "La tornade aurait fait plusieurs victimes.",
+     "El tornado habría causado varias víctimas."
+    ],
+    [
+     "Estilo indirecto",
+     "Il a dit qu'il serait rentré avant minuit.",
+     "Dijo que habría vuelto antes de medianoche."
+    ]
+   ]
+  },
+  {
+   "tipo": "texto",
+   "texto": "Con si irreal del pasado: si + plus-que-parfait en la condición y conditionnel passé en la consecuencia. Nunca condicional después de si. El español admite «hubiera» en las dos partes («si lo hubiera sabido, lo hubiera hecho»); el francés no: Si je l'avais su, je l'aurais fait."
+  },
+  {
+   "tipo": "texto",
+   "texto": "El condicional de rumor o de información no verificada es normal y correcto en la prensa francesa: L'incendie aurait fait trois blessés = según las primeras informaciones, el incendio ha causado tres heridos."
+  },
+  {
+   "tipo": "lista",
+   "items": [
+    "j'aurais dû + infinitivo = debería haber / debí (de) + infinitivo.",
+    "j'aurais pu + infinitivo = podría haber + infinitivo.",
+    "j'aurais voulu / j'aurais aimé = me habría gustado, ojalá hubiera."
+   ]
+  }
  ],
  "ejemplos": [
-  {"frase": "Tu aurais dû m'écouter.", "traduccion": "Deberías haberme escuchado."},
-  {"frase": "J'aurais voulu la voir.", "traduccion": "Me habría gustado verla."},
-  {"frase": "Un véritable ami m'aurait aidé.", "traduccion": "Un amigo de verdad me habría ayudado."},
-  {"frase": "Si tu étais resté en France, tu n'aurais pas connu le Texas.", "traduccion": "Si te hubieras quedado en Francia, no habrías conocido Texas."},
-  {"frase": "Selon la presse, deux personnes auraient été blessées.", "traduccion": "Según la prensa, dos personas habrían resultado heridas."}
+  {
+   "frase": "Tu aurais dû m'écouter.",
+   "traduccion": "Deberías haberme escuchado."
+  },
+  {
+   "frase": "J'aurais voulu la voir.",
+   "traduccion": "Me habría gustado verla."
+  },
+  {
+   "frase": "Un véritable ami m'aurait aidé.",
+   "traduccion": "Un amigo de verdad me habría ayudado."
+  },
+  {
+   "frase": "Si tu étais resté en France, tu n'aurais pas connu le Texas.",
+   "traduccion": "Si te hubieras quedado en Francia, no habrías conocido Texas."
+  },
+  {
+   "frase": "Selon la presse, deux personnes auraient été blessées.",
+   "traduccion": "Según la prensa, dos personas habrían resultado heridas."
+  }
  ],
  "errores_hispanohablantes": [
-  {"mal": "Si j'aurais su, je serais venu.", "bien": "Si j'avais su, je serais venu.", "nota": "Después de si nunca va condicional: plus-que-parfait."},
-  {"mal": "Je devrais l'avoir appelé hier.", "bien": "J'aurais dû l'appeler hier.", "nota": "«Debería haberlo llamado» se dice con devoir en condicional pasado + infinitivo simple."},
-  {"mal": "Nous aurions venus plus tôt.", "bien": "Nous serions venus plus tôt.", "nota": "venir lleva être también en condicional pasado."}
+  {
+   "mal": "Si j'aurais su, je serais venu.",
+   "bien": "Si j'avais su, je serais venu.",
+   "nota": "Después de si nunca va condicional: plus-que-parfait."
+  },
+  {
+   "mal": "Je devrais l'avoir appelé hier.",
+   "bien": "J'aurais dû l'appeler hier.",
+   "nota": "«Debería haberlo llamado» se dice con devoir en condicional pasado + infinitivo simple."
+  },
+  {
+   "mal": "Nous aurions venus plus tôt.",
+   "bien": "Nous serions venus plus tôt.",
+   "nota": "venir lleva être también en condicional pasado."
+  }
  ],
  "ejercicios": [
-  {"id": "e01", "tipo": "hueco", "enunciado": "Completa con el condicional pasado.", "frase": "Tu ___ (pouvoir) me le dire.", "respuestas": ["aurais pu"], "explicacion": "Reproche con pouvoir: tu aurais pu (podrías haber).", "origen": "tatoeba:1184690"},
-  {"id": "e02", "tipo": "hueco", "enunciado": "Completa con el condicional pasado.", "frase": "Nous ___ (devoir) venir.", "respuestas": ["aurions dû"], "explicacion": "Arrepentimiento con devoir: nous aurions dû (deberíamos haber).", "origen": "tatoeba:3557540"},
-  {"id": "e03", "tipo": "hueco", "enunciado": "Completa con el condicional pasado.", "frase": "Un véritable ami m'___ (aider).", "respuestas": ["aurait aidé"], "explicacion": "Hecho que no ocurrió: aurait aidé.", "origen": "tatoeba:128631"},
-  {"id": "e04", "tipo": "eleccion", "enunciado": "Elige la forma correcta.", "frase": "Tu ___ dû me dire la vérité.", "opciones": ["aurais", "auras", "avais"], "respuestas": ["aurais"], "explicacion": "Reproche: condicional del auxiliar (aurais) + dû.", "origen": "tatoeba:1892329"},
-  {"id": "e05", "tipo": "eleccion", "enunciado": "Elige la forma correcta.", "frase": "Si j'avais su, je ___ plus tôt.", "opciones": ["serais venu", "aurais venu", "serai venu", "viendrais"], "respuestas": ["serais venu"], "explicacion": "Consecuencia irreal del pasado: conditionnel passé con être."},
-  {"id": "e06", "tipo": "eleccion", "enunciado": "Elige la forma correcta.", "frase": "Si tu ___ le temps, tu aurais visité Kyoto.", "opciones": ["avais eu", "aurais eu", "as eu"], "respuestas": ["avais eu"], "explicacion": "Tras si: plus-que-parfait, nunca condicional."},
-  {"id": "e07", "tipo": "transformar", "enunciado": "Pasa al condicional pasado.", "frase": "Tu devrais téléphoner.", "respuestas": ["Tu aurais dû téléphoner."], "explicacion": "devrais → aurais dû; el infinitivo no cambia.", "origen": "tatoeba:3296086"},
-  {"id": "e08", "tipo": "transformar", "enunciado": "Pasa al condicional pasado.", "frase": "Il devrait devenir avocat.", "respuestas": ["Il aurait dû devenir avocat."], "explicacion": "devrait → aurait dû + infinitivo.", "origen": "tatoeba:968516"},
-  {"id": "e09", "tipo": "transformar", "enunciado": "Pasa al condicional pasado.", "frase": "Nous devrions nous marier.", "respuestas": ["Nous aurions dû nous marier."], "explicacion": "El auxiliar es el de devoir (avoir), aunque el infinitivo sea pronominal.", "origen": "tatoeba:1140657"},
-  {"id": "e10", "tipo": "corregir", "enunciado": "Corrige el error.", "frase": "Vous seriez dû vous présenter.", "respuestas": ["Vous auriez dû vous présenter."], "explicacion": "devoir se conjuga con avoir: auriez dû.", "origen": "tatoeba:2061699"},
-  {"id": "e11", "tipo": "corregir", "enunciado": "Corrige el error.", "frase": "Si tu m'aurais écouté, tu n'aurais pas perdu.", "respuestas": ["Si tu m'avais écouté, tu n'aurais pas perdu."], "explicacion": "Tras si va plus-que-parfait: si tu m'avais écouté."},
-  {"id": "e12", "tipo": "corregir", "enunciado": "Corrige el error.", "frase": "Elle aurait partie sans nous.", "respuestas": ["Elle serait partie sans nous."], "explicacion": "partir lleva être: elle serait partie."},
-  {"id": "e13", "tipo": "hueco", "enunciado": "Completa con el condicional pasado (información no confirmada).", "frase": "Selon la police, l'incendie ___ (faire) trois blessés.", "respuestas": ["aurait fait"], "explicacion": "Condicional periodístico: dato pasado aún no confirmado."},
-  {"id": "e14", "tipo": "hueco", "enunciado": "Completa con el condicional pasado.", "frase": "Elle ___ (devenir) infirmière si elle n'avait pas étudié le français.", "respuestas": ["serait devenue"], "explicacion": "devenir lleva être y concuerda con elle: serait devenue."},
-  {"id": "e15", "tipo": "ordenar", "enunciado": "Ordena las palabras.", "palabras": ["voir", "J'aurais", "le", "aimé", "film"], "respuestas": ["J'aurais aimé voir le film"], "explicacion": "Deseo no cumplido: j'aurais aimé + infinitivo.", "origen": "tatoeba:12077"},
-  {"id": "e16", "tipo": "ordenar", "enunciado": "Ordena las palabras.", "palabras": ["avant", "me", "Tu", "ça", "dû", "aurais", "dire"], "respuestas": ["Tu aurais dû me dire ça avant"], "explicacion": "Reproche: tu aurais dû + infinitivo, con el pronombre delante del infinitivo.", "origen": "tatoeba:1360541"}
+  {
+   "id": "e01",
+   "tipo": "hueco",
+   "enunciado": "Completa con el condicional pasado.",
+   "frase": "Tu ___ (pouvoir) me le dire.",
+   "respuestas": [
+    "aurais pu"
+   ],
+   "explicacion": "Se aplica el uso de pouvoir en conditionnel passé para expresar una posibilidad perdida o un reproche, como en la tabla de usos de la ficha («J'aurais pu être un chef célèbre»). La pista está en el tono de la frase: el hablante se queja de que el otro no se lo dijo cuando podía. Pouvoir se conjuga con avoir, así que se forma con el condicional de avoir para tu, aurais, más el participio pu: tu aurais pu. El infinitivo que sigue (me le dire) no cambia.",
+   "origen": "tatoeba:1184690",
+   "explicacion_breve": "Reproche con pouvoir: tu aurais pu (podrías haber).",
+   "traduccion": "Podrías habérmelo dicho.",
+   "errores_previstos": [
+    {
+     "respuesta": "pourrais",
+     "explicacion": "Es el condicional presente («podrías decírmelo»), que se refiere al presente o al futuro. Para un reproche sobre algo que ya no se hizo hace falta el tiempo compuesto: aurais pu."
+    },
+    {
+     "respuesta": "aurais pouvu",
+     "explicacion": "El participio de pouvoir es pu, no una forma regularizada. La forma correcta es aurais pu."
+    },
+    {
+     "respuesta": "aurait pu",
+     "explicacion": "Aurait corresponde a il o elle; con tu, el auxiliar termina en -s: tu aurais pu."
+    }
+   ]
+  },
+  {
+   "id": "e02",
+   "tipo": "hueco",
+   "enunciado": "Completa con el condicional pasado.",
+   "frase": "Nous ___ (devoir) venir.",
+   "respuestas": [
+    "aurions dû"
+   ],
+   "explicacion": "Es el uso de devoir en conditionnel passé para el arrepentimiento o el reproche, recogido en la lista de la ficha: j'aurais dû + infinitivo equivale a «debería haber». La pista es el sujeto nous y la idea de que la venida no se produjo. Devoir se conjuga siempre con avoir, aunque el infinitivo que le sigue (venir) sea un verbo de être: el auxiliar lo decide devoir, no venir. Por eso queda nous aurions dû, con el acento circunflejo del participio dû.",
+   "origen": "tatoeba:3557540",
+   "explicacion_breve": "Arrepentimiento con devoir: nous aurions dû (deberíamos haber).",
+   "traduccion": "Deberíamos haber venido.",
+   "errores_previstos": [
+    {
+     "respuesta": "serions dû",
+     "explicacion": "El auxiliar depende de devoir, que va con avoir; que venir use être no influye. Lo correcto es aurions dû."
+    },
+    {
+     "respuesta": "devrions",
+     "explicacion": "Es el condicional presente («deberíamos venir»), que mira al futuro. Para lamentar algo pasado se necesita aurions dû."
+    },
+    {
+     "respuesta": "aurions du",
+     "explicacion": "El participio de devoir lleva acento circunflejo en masculino singular: dû. Sin él, du es la contracción de + le."
+    }
+   ]
+  },
+  {
+   "id": "e03",
+   "tipo": "hueco",
+   "enunciado": "Completa con el condicional pasado.",
+   "frase": "Un véritable ami m'___ (aider).",
+   "respuestas": [
+    "aurait aidé",
+    "aurait aidée"
+   ],
+   "explicacion": "Se aplica el valor general del conditionnel passé que describe la ficha: expresar lo que no llegó a ocurrir. La pista es el sentido: el hablante insinúa que la persona no le ayudó y que, por tanto, no era un verdadero amigo; la condición está implícita en «véritable». Aider se conjuga con avoir, y con el sujeto un véritable ami (tercera persona) el auxiliar es aurait: m'aurait aidé. Ojo: con avoir el participio concuerda con el complemento directo antepuesto, así que si quien habla es una mujer la norma escribe m'aurait aidée; por eso se aceptan las dos formas.",
+   "origen": "tatoeba:128631",
+   "explicacion_breve": "Hecho que no ocurrió: aurait aidé (aidée si quien habla es mujer).",
+   "traduccion": "Un verdadero amigo me habría ayudado.",
+   "errores_previstos": [
+    {
+     "respuesta": "aiderait",
+     "explicacion": "Es el condicional presente («me ayudaría»), que habla de una hipótesis actual. Para el pasado irreal hace falta aurait aidé."
+    },
+    {
+     "respuesta": "serait aidé",
+     "explicacion": "Aider no es un verbo de movimiento ni pronominal: va con avoir. Además, serait aidé significaría «sería ayudado», una pasiva."
+    },
+    {
+     "respuesta": "aurais aidé",
+     "explicacion": "Aurais es la forma de je o tu; con un sujeto de tercera persona va aurait."
+    }
+   ]
+  },
+  {
+   "id": "e04",
+   "tipo": "eleccion",
+   "enunciado": "Elige la forma correcta.",
+   "frase": "Tu ___ dû me dire la vérité.",
+   "opciones": [
+    "aurais",
+    "auras",
+    "avais"
+   ],
+   "respuestas": [
+    "aurais"
+   ],
+   "explicacion": "Es el reproche con devoir en conditionnel passé, que la ficha formula como «tu aurais dû + infinitivo». La pista es el participio dû, que ya está en la frase: solo falta el auxiliar, y el sentido es de queja sobre algo que no se hizo. El condicional presente de avoir para tu es aurais, de modo que tu aurais dû me dire la vérité equivale a «deberías haberme dicho la verdad».",
+   "origen": "tatoeba:1892329",
+   "explicacion_breve": "Reproche: condicional del auxiliar (aurais) + dû.",
+   "traduccion": "Deberías haberme dicho la verdad.",
+   "por_opcion": {
+    "aurais": "Correcta: condicional presente de avoir para tu; con dû forma el conditionnel passé de reproche.",
+    "auras": "Es futuro de avoir: tu auras dû formaría un futuro anterior, que expresa suposición («habrás tenido que»), no reproche.",
+    "avais": "Es imperfecto: tu avais dû es plus-que-parfait («habías tenido que»), un hecho anterior real, no un reproche."
+   }
+  },
+  {
+   "id": "e05",
+   "tipo": "eleccion",
+   "enunciado": "Elige la forma correcta.",
+   "frase": "Si j'avais su, je ___ plus tôt.",
+   "opciones": [
+    "serais venu",
+    "aurais venu",
+    "serai venu",
+    "viendrais"
+   ],
+   "respuestas": [
+    "serais venu"
+   ],
+   "explicacion": "Se aplica la regla de la condición irreal del pasado: si + plus-que-parfait en la condición y conditionnel passé en la consecuencia. La pista es si j'avais su, que ya está en plus-que-parfait, así que el hueco es la consecuencia. Venir es un verbo de movimiento que se conjuga con être, por lo que la forma es je serais venu (venue si quien habla es mujer).",
+   "explicacion_breve": "Consecuencia irreal del pasado: conditionnel passé con être.",
+   "traduccion": "Si lo hubiera sabido, habría venido antes.",
+   "por_opcion": {
+    "serais venu": "Correcta: condicional de être + participio de venir, verbo que lleva être.",
+    "aurais venu": "Auxiliar equivocado: venir nunca se conjuga con avoir. Es un calco del español «habría venido».",
+    "serai venu": "Es futuro anterior («habré venido»), sin la -s del condicional; no expresa una consecuencia irreal.",
+    "viendrais": "Es condicional presente («vendría»): valdría para una condición irreal del presente (si je savais), no del pasado."
+   }
+  },
+  {
+   "id": "e06",
+   "tipo": "eleccion",
+   "enunciado": "Elige la forma correcta.",
+   "frase": "Si tu ___ le temps, tu aurais visité Kyoto.",
+   "opciones": [
+    "avais eu",
+    "aurais eu",
+    "as eu"
+   ],
+   "respuestas": [
+    "avais eu"
+   ],
+   "explicacion": "Es la regla central de la ficha: nunca condicional después de si. La pista es la conjunción si al comienzo y la consecuencia ya escrita en conditionnel passé (tu aurais visité). La condición irreal del pasado va en plus-que-parfait, imperfecto de avoir + participio: tu avais eu le temps. En español podemos decir «si hubieras tenido», pero la forma francesa equivalente no es el condicional.",
+   "explicacion_breve": "Tras si: plus-que-parfait, nunca condicional.",
+   "traduccion": "Si hubieras tenido tiempo, habrías visitado Kioto.",
+   "por_opcion": {
+    "avais eu": "Correcta: plus-que-parfait de avoir, el tiempo obligatorio tras si en la condición irreal del pasado.",
+    "aurais eu": "Condicional pasado: prohibido después de si en francés normativo; es el calco del español «hubieras».",
+    "as eu": "Passé composé: si tu as eu le temps describe una posibilidad real («si has tenido tiempo»), no casa con aurais visité."
+   }
+  },
+  {
+   "id": "e07",
+   "tipo": "transformar",
+   "enunciado": "Pasa al condicional pasado.",
+   "frase": "Tu devrais téléphoner.",
+   "respuestas": [
+    "Tu aurais dû téléphoner."
+   ],
+   "explicacion": "Se aplica la correspondencia de la ficha entre devoir en condicional presente (consejo) y en conditionnel passé (reproche): j'aurais dû + infinitivo. La pista es devrais, condicional presente de devoir; al pasarlo al pasado, se sustituye por el condicional de avoir más el participio dû. El infinitivo téléphoner se queda igual: tu aurais dû téléphoner. El consejo «deberías llamar» pasa a ser reproche «deberías haber llamado».",
+   "origen": "tatoeba:3296086",
+   "explicacion_breve": "devrais → aurais dû; el infinitivo no cambia.",
+   "traduccion": "Deberías haber llamado por teléfono.",
+   "errores_previstos": [
+    {
+     "respuesta": "Tu aurais dû téléphoné.",
+     "explicacion": "Solo cambia devoir; el verbo que le sigue sigue siendo infinitivo: téléphoner, no el participio téléphoné."
+    },
+    {
+     "respuesta": "Tu devrais avoir téléphoné.",
+     "explicacion": "Es gramatical pero no es el conditionnel passé que pide el ejercicio y suena a suposición; la forma de reproche es tu aurais dû téléphoner."
+    },
+    {
+     "respuesta": "Tu aurais du téléphoner.",
+     "explicacion": "Falta el acento circunflejo de dû, obligatorio en el masculino singular del participio de devoir."
+    }
+   ]
+  },
+  {
+   "id": "e08",
+   "tipo": "transformar",
+   "enunciado": "Pasa al condicional pasado.",
+   "frase": "Il devrait devenir avocat.",
+   "respuestas": [
+    "Il aurait dû devenir avocat."
+   ],
+   "explicacion": "Es la misma transformación de devoir que recoge la ficha: devrait (condicional presente) pasa a aurait dû (conditionnel passé) seguido del mismo infinitivo. La pista es el sujeto il, que pide aurait. Aunque devenir se conjugue con être, aquí devenir está en infinitivo y el que se conjuga es devoir, que lleva avoir: il aurait dû devenir avocat.",
+   "origen": "tatoeba:968516",
+   "explicacion_breve": "devrait → aurait dû + infinitivo.",
+   "traduccion": "Debería haberse hecho abogado.",
+   "errores_previstos": [
+    {
+     "respuesta": "Il serait dû devenir avocat.",
+     "explicacion": "Se ha tomado el auxiliar de devenir; pero el verbo conjugado es devoir, que va con avoir: aurait dû."
+    },
+    {
+     "respuesta": "Il aurait dû devenu avocat.",
+     "explicacion": "Tras dû el verbo sigue en infinitivo: devenir, no el participio devenu."
+    },
+    {
+     "respuesta": "Il aurait devenu avocat.",
+     "explicacion": "Se ha perdido devoir y además devenir no admite avoir; el sentido de reproche desaparece."
+    }
+   ]
+  },
+  {
+   "id": "e09",
+   "tipo": "transformar",
+   "enunciado": "Pasa al condicional pasado.",
+   "frase": "Nous devrions nous marier.",
+   "respuestas": [
+    "Nous aurions dû nous marier."
+   ],
+   "explicacion": "Se aplica la regla de la ficha según la cual el auxiliar lo decide el verbo conjugado: aquí devoir, que lleva avoir, aunque el infinitivo se marier sea pronominal. La pista es devrions, condicional de devoir con nous. La forma es nous aurions dû, y el pronombre nous del infinitivo pronominal se mantiene delante de marier: nous aurions dû nous marier.",
+   "origen": "tatoeba:1140657",
+   "explicacion_breve": "El auxiliar es el de devoir (avoir), aunque el infinitivo sea pronominal.",
+   "traduccion": "Deberíamos habernos casado.",
+   "errores_previstos": [
+    {
+     "respuesta": "Nous serions dû nous marier.",
+     "explicacion": "Los verbos pronominales usan être, pero aquí el que se conjuga es devoir, que va con avoir: aurions dû."
+    },
+    {
+     "respuesta": "Nous aurions dû marier.",
+     "explicacion": "Se ha perdido el pronombre reflexivo: se marier necesita nous delante del infinitivo; sin él significaría «casar a alguien»."
+    },
+    {
+     "respuesta": "Nous nous serions dû marier.",
+     "explicacion": "El pronombre no sube delante del auxiliar de devoir y el auxiliar no cambia a être; lo correcto es nous aurions dû nous marier."
+    }
+   ]
+  },
+  {
+   "id": "e10",
+   "tipo": "corregir",
+   "enunciado": "Corrige el error.",
+   "frase": "Vous seriez dû vous présenter.",
+   "respuestas": [
+    "Vous auriez dû vous présenter."
+   ],
+   "explicacion": "El error está en el auxiliar: devoir se conjuga con avoir, como dice la ficha en la lista de expresiones (j'aurais dû). La pista que confunde es vous présenter, un pronominal, pero ese verbo está en infinitivo y no decide el auxiliar. Con vous, el condicional de avoir es auriez, así que la frase correcta es vous auriez dû vous présenter.",
+   "origen": "tatoeba:2061699",
+   "explicacion_breve": "devoir se conjuga con avoir: auriez dû.",
+   "traduccion": "Debería haberse presentado (usted).",
+   "errores_previstos": [
+    {
+     "respuesta": "Vous seriez dû vous présenter.",
+     "explicacion": "Es la frase sin corregir: seriez dû es imposible porque devoir nunca lleva être."
+    },
+    {
+     "respuesta": "Vous auriez du vous présenter.",
+     "explicacion": "El auxiliar ya está bien, pero falta el acento de dû, que distingue el participio del artículo du."
+    },
+    {
+     "respuesta": "Vous auriez dû présenter.",
+     "explicacion": "Se ha suprimido el pronombre vous del infinitivo pronominal; se présenter necesita su pronombre."
+    }
+   ]
+  },
+  {
+   "id": "e11",
+   "tipo": "corregir",
+   "enunciado": "Corrige el error.",
+   "frase": "Si tu m'aurais écouté, tu n'aurais pas perdu.",
+   "respuestas": [
+    "Si tu m'avais écouté, tu n'aurais pas perdu."
+   ],
+   "explicacion": "Es la regla de la ficha «nunca condicional después de si». La pista es si al inicio: en la condición irreal del pasado va el plus-que-parfait (imperfecto de avoir + participio) y solo la consecuencia lleva conditionnel passé. Por eso tu m'aurais écouté se cambia por tu m'avais écouté, y tu n'aurais pas perdu se mantiene. El fallo es un calco del español «si me hubieras escuchado, no hubieras perdido».",
+   "explicacion_breve": "Tras si va plus-que-parfait: si tu m'avais écouté.",
+   "traduccion": "Si me hubieras escuchado, no habrías perdido.",
+   "errores_previstos": [
+    {
+     "respuesta": "Si tu m'aurais écouté, tu n'aurais pas perdu.",
+     "explicacion": "Es la frase sin corregir: tras si no puede ir condicional."
+    },
+    {
+     "respuesta": "Si tu m'avais écouté, tu n'avais pas perdu.",
+     "explicacion": "Se ha corregido la condición pero estropeado la consecuencia: esta debe ir en conditionnel passé, aurais perdu."
+    },
+    {
+     "respuesta": "Si tu m'as écouté, tu n'aurais pas perdu.",
+     "explicacion": "El passé composé presenta la condición como real; para la irreal del pasado hace falta el plus-que-parfait avais écouté."
+    }
+   ]
+  },
+  {
+   "id": "e12",
+   "tipo": "corregir",
+   "enunciado": "Corrige el error.",
+   "frase": "Elle aurait partie sans nous.",
+   "respuestas": [
+    "Elle serait partie sans nous."
+   ],
+   "explicacion": "Se aplica la regla de formación: los verbos de movimiento como partir forman el conditionnel passé con être, y el participio concuerda con el sujeto como en el passé composé. La pista es el verbo partir y el sujeto femenino elle. Por eso aurait partie se corrige en serait partie, con la -e de femenino. Con avoir, además, nunca habría concordancia con el sujeto, lo que delata el error.",
+   "explicacion_breve": "partir lleva être: elle serait partie.",
+   "traduccion": "Ella se habría ido sin nosotros.",
+   "errores_previstos": [
+    {
+     "respuesta": "Elle aurait partie sans nous.",
+     "explicacion": "Es la frase sin corregir: partir no se conjuga con avoir."
+    },
+    {
+     "respuesta": "Elle serait parti sans nous.",
+     "explicacion": "El auxiliar ya es correcto, pero con être el participio concuerda con elle: partie."
+    },
+    {
+     "respuesta": "Elle aurait parti sans nous.",
+     "explicacion": "Se ha quitado la concordancia pero se mantiene el auxiliar equivocado; partir exige être."
+    }
+   ]
+  },
+  {
+   "id": "e13",
+   "tipo": "hueco",
+   "enunciado": "Completa con el condicional pasado (información no confirmada).",
+   "frase": "Selon la police, l'incendie ___ (faire) trois blessés.",
+   "respuestas": [
+    "aurait fait"
+   ],
+   "explicacion": "Es el uso que la ficha llama información no confirmada o condicional periodístico. La pista es selon la police: el periodista atribuye el dato a otra fuente y no lo da por seguro. Faire se conjuga con avoir, y con el sujeto l'incendie el auxiliar es aurait: aurait fait. En español periodístico se usa igual, aunque los libros de estilo lo desaconsejan; en francés es plenamente normal.",
+   "explicacion_breve": "Condicional periodístico: dato pasado aún no confirmado.",
+   "traduccion": "Según la policía, el incendio habría causado tres heridos (ha causado, según las primeras informaciones).",
+   "errores_previstos": [
+    {
+     "respuesta": "a fait",
+     "explicacion": "El passé composé presenta el dato como seguro, y el ejercicio pide marcar que no está confirmado: aurait fait."
+    },
+    {
+     "respuesta": "ferait",
+     "explicacion": "El condicional presente se referiría al presente o al futuro; el incendio ya ha ocurrido, así que se necesita el compuesto aurait fait."
+    },
+    {
+     "respuesta": "serait fait",
+     "explicacion": "Faire va con avoir; serait fait sería una pasiva («sería hecho»)."
+    }
+   ]
+  },
+  {
+   "id": "e14",
+   "tipo": "hueco",
+   "enunciado": "Completa con el condicional pasado.",
+   "frase": "Elle ___ (devenir) infirmière si elle n'avait pas étudié le français.",
+   "respuestas": [
+    "serait devenue"
+   ],
+   "explicacion": "Se aplica la regla de la condición irreal del pasado: la condición (si elle n'avait pas étudié) está en plus-que-parfait y la consecuencia va en conditionnel passé. La pista adicional es el verbo devenir, que pertenece al grupo de être, y el sujeto femenino elle. Por eso la forma es serait devenue, con concordancia en femenino singular.",
+   "explicacion_breve": "devenir lleva être y concuerda con elle: serait devenue.",
+   "traduccion": "Se habría hecho enfermera si no hubiera estudiado francés.",
+   "errores_previstos": [
+    {
+     "respuesta": "aurait devenu",
+     "explicacion": "Devenir se conjuga con être, nunca con avoir; es el calco del español «habría llegado a ser»."
+    },
+    {
+     "respuesta": "serait devenu",
+     "explicacion": "Auxiliar correcto, pero falta la concordancia con elle: devenue."
+    },
+    {
+     "respuesta": "deviendrait",
+     "explicacion": "Es condicional presente; con una condición en plus-que-parfait la consecuencia pasada va en compuesto: serait devenue."
+    }
+   ]
+  },
+  {
+   "id": "e15",
+   "tipo": "ordenar",
+   "enunciado": "Ordena las palabras.",
+   "palabras": [
+    "voir",
+    "J'aurais",
+    "le",
+    "aimé",
+    "film"
+   ],
+   "respuestas": [
+    "J'aurais aimé voir le film"
+   ],
+   "explicacion": "Es el uso de arrepentimiento o deseo no cumplido de la ficha: j'aurais aimé + infinitivo, equivalente a «me habría gustado». La pista es J'aurais con mayúscula, que abre la frase, y el participio aimé que lo completa. Detrás va el infinitivo voir y su complemento le film, en el orden normal del francés: sujeto y auxiliar, participio, infinitivo y complemento.",
+   "origen": "tatoeba:12077",
+   "explicacion_breve": "Deseo no cumplido: j'aurais aimé + infinitivo.",
+   "traduccion": "Me habría gustado ver la película.",
+   "errores_previstos": [
+    {
+     "respuesta": "J'aurais aimé le voir film",
+     "explicacion": "Le es aquí artículo de film, no pronombre; debe ir delante del sustantivo: voir le film."
+    },
+    {
+     "respuesta": "J'aurais voir aimé le film",
+     "explicacion": "El participio aimé va pegado al auxiliar y el infinitivo detrás: j'aurais aimé voir."
+    },
+    {
+     "respuesta": "J'aurais aimé film voir le",
+     "explicacion": "El infinitivo precede a su complemento en francés: voir le film."
+    }
+   ]
+  },
+  {
+   "id": "e16",
+   "tipo": "ordenar",
+   "enunciado": "Ordena las palabras.",
+   "palabras": [
+    "avant",
+    "me",
+    "Tu",
+    "ça",
+    "dû",
+    "aurais",
+    "dire"
+   ],
+   "respuestas": [
+    "Tu aurais dû me dire ça avant"
+   ],
+   "explicacion": "Es el reproche con devoir de la ficha: tu aurais dû + infinitivo. La pista son Tu, aurais y dû, que forman el verbo conjugado, y el infinitivo dire. La regla de colocación es que los pronombres complemento van delante del infinitivo del que dependen, no delante del auxiliar: me dire ça. El adverbio avant cierra la frase. En español el pronombre puede ir pegado («habérmelo»), pero en francés va antes del infinitivo.",
+   "origen": "tatoeba:1360541",
+   "explicacion_breve": "Reproche: tu aurais dû + infinitivo, con el pronombre delante del infinitivo.",
+   "traduccion": "Deberías habérmelo dicho antes.",
+   "errores_previstos": [
+    {
+     "respuesta": "Tu m'aurais dû dire ça avant",
+     "explicacion": "El pronombre me depende de dire, no de devoir; en francés moderno va delante del infinitivo: tu aurais dû me dire ça."
+    },
+    {
+     "respuesta": "Tu aurais dû dire me ça avant",
+     "explicacion": "Calco del español «decirme»: en francés el pronombre se coloca delante del infinitivo, me dire."
+    },
+    {
+     "respuesta": "Tu aurais dû avant me dire ça",
+     "explicacion": "Avant como adverbio de tiempo va al final, detrás del complemento ça."
+    }
+   ]
+  }
  ],
- "fuente": {"nombre": "Tex's French Grammar", "autores": "COERLL, Universidad de Texas en Austin", "licencia": "CC BY 3.0", "url": "https://laits.utexas.edu/tex/gr/tac2.html", "otras": ["Frases de Tatoeba (CC BY 2.0 FR)"]}
+ "fuente": {
+  "nombre": "Tex's French Grammar",
+  "autores": "COERLL, Universidad de Texas en Austin",
+  "licencia": "CC BY 3.0",
+  "url": "https://laits.utexas.edu/tex/gr/tac2.html",
+  "otras": [
+   "Frases de Tatoeba (CC BY 2.0 FR)"
+  ]
+ },
+ "descripcion_larga_es": "El conditionnel passé (j'aurais fait, je serais parti) equivale a nuestro «habría hecho». Sirve para hablar de lo que no llegó a pasar: arrepentimientos, reproches, consecuencias de una condición irreal del pasado y noticias no confirmadas. Cuesta a un hispanohablante porque en español usamos «hubiera» en ambas partes de la condicional, y el francés lo prohíbe tras si, además de exigir elegir bien entre avoir y être.",
+ "contexto": {
+  "que_es": "Es un tiempo compuesto formado por el condicional presente del auxiliar (avoir o être) y el participio pasado: j'aurais dit, elle serait partie. Equivale al condicional compuesto español «habría dicho». Con être, el participio concuerda con el sujeto exactamente como en el passé composé.",
+  "por_que_importa": "Es la forma natural de expresar arrepentimiento (j'aurais aimé), reproche (tu aurais dû) y oportunidades perdidas (j'aurais pu), muy frecuentes en la conversación. También aparece a diario en la prensa para dar datos no verificados. En un examen, poner condicional después de si o equivocar el auxiliar son errores que el corrector detecta al instante y que restan mucha nota.",
+  "cuando_se_usa": "Cuando se habla de algo pasado que no ocurrió o que se presenta como hipótesis: tras una condición con si + plus-que-parfait, con devoir y pouvoir para reprochar, y con selon, d'après en las noticias. Un hispanohablante tiende a decir «si tu aurais su» calcando «si hubieras sabido… hubieras»; en francés la condición va siempre en plus-que-parfait y solo la consecuencia en conditionnel passé."
+ }
 }
