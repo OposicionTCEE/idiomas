@@ -11,3 +11,8 @@ tomado de Tatoeba, campo `origen`).
 | Resto de fichas, explicaciones y ejercicios | Elaboración propia para el Panel TCEE | CC BY-SA 4.0 | fichas con `fuente.nombre` = «propia» |
 
 Uso no comercial, para preparar la oposición.
+
+## Títulos en la lengua estudiada (`*/titulos.json`)
+
+Redacción propia (CC BY-SA 4.0). En inglés, el campo `oficial` cita el rótulo de la materia en el *Core Inventory for General English*
+(British Council–EAQUALS, 2010/2015) solo como referencia de índice; no se copia ningún otro texto de esa obra.
