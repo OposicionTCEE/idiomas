@@ -23,4 +23,4 @@ Redacción propia (CC BY-SA 4.0). En inglés, el campo `oficial` cita el rótulo
 Datos de **Wiktionary** (Wikcionario en español y Wiktionnaire en francés), extraídos con *wiktextract* y publicados por
 [kaikki.org](https://kaikki.org/) (Tatu Ylonen). Licencia: **CC BY-SA 4.0** y GFDL, autores de Wiktionary.
 Se generan con `main/scripts/idiomas/diccionario.py`; solo se conservan la palabra, su categoría, la pronunciación (AFI),
-las traducciones al español y hasta cinco definiciones en español.
+las traducciones al español y hasta cinco definiciones en español; en francés, para unas 2.900 palabras frecuentes (vocabulario de FLELex) sin traducción en Wiktionary, hasta tres definiciones en francés, marcadas «(fr)».
