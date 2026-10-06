@@ -1,0 +1,59 @@
+{
+ "id": "fr.g.passe-anterieur",
+ "titulo": "Passé antérieur (reconocer)",
+ "titulo_es": "Passé antérieur (pretérito anterior): reconocerlo",
+ "descripcion_es": "Anterioridad en la narración escrita: quand il eut fini, dès qu'elle fut partie.",
+ "nivel": "C1",
+ "resumen": "El passé antérieur (passé simple de avoir o être + participio) es el compañero literario del passé simple: expresa una acción terminada justo antes de otra narrada en passé simple. Equivale al pretérito anterior español («cuando hubo terminado»), igual de literario.",
+ "explicacion": [
+  {"tipo": "texto", "texto": "Formación: passé simple del auxiliar + participio. Los verbos que llevan être en passé composé (movimiento, pronominales) lo llevan también aquí, con concordancia del participio."},
+  {"tipo": "tabla", "cabecera": ["Persona", "parler", "aller", "se coucher"], "filas": [
+   ["je", "j'eus parlé", "je fus allé(e)", "je me fus couché(e)"],
+   ["tu", "tu eus parlé", "tu fus allé(e)", "tu te fus couché(e)"],
+   ["il / elle / on", "il eut parlé", "elle fut allée", "il se fut couché"],
+   ["nous", "nous eûmes parlé", "nous fûmes allé(e)s", "nous nous fûmes couché(e)s"],
+   ["vous", "vous eûtes parlé", "vous fûtes allé(e)(s)", "vous vous fûtes couché(e)(s)"],
+   ["ils / elles", "ils eurent parlé", "elles furent allées", "ils se furent couchés"]
+  ]},
+  {"tipo": "texto", "texto": "Uso: casi siempre en una subordinada introducida por quand, lorsque, après que, dès que, aussitôt que o à peine… que, con la principal en passé simple: Aussitôt qu'il fut né, Tex commença à parler. También aparece en la principal para subrayar la rapidez: En un instant, il eut compris."},
+  {"tipo": "tabla", "cabecera": ["Registro literario", "Registro oral", "Español"], "filas": [
+   ["Quand il eut fini, il partit.", "Quand il a eu fini, il est parti. / Après avoir fini, il est parti.", "Cuando terminó (hubo terminado), se fue."],
+   ["Dès qu'elle fut arrivée, le dîner commença.", "Dès qu'elle est arrivée, le dîner a commencé.", "En cuanto llegó, empezó la cena."]
+  ]},
+  {"tipo": "lista", "items": [
+   "No confundir il eut fini (passé antérieur) con il eût fini (pluscuamperfecto de subjuntivo, con circunflejo).",
+   "fut + participio puede ser también una pasiva en passé simple: Le roi fut exécuté (fue ejecutado) no es un passé antérieur.",
+   "Con quand y lorsque el orden de los hechos decide qué verbo va en passé antérieur."
+  ]}
+ ],
+ "ejemplos": [
+  {"frase": "Lorsqu'il eut fini de parler, le silence régna.", "traduccion": "Cuando hubo terminado de hablar, reinó el silencio."},
+  {"frase": "Aussitôt qu'il fut né, Tex commença à parler.", "traduccion": "Nada más nacer, Tex empezó a hablar."},
+  {"frase": "Après qu'il eut vécu quelques années à Paris, il retourna dans son pays.", "traduccion": "Después de haber vivido unos años en París, volvió a su país."},
+  {"frase": "Quand elle eut nettoyé les fenêtres, elle fit les lits.", "traduccion": "Cuando hubo limpiado las ventanas, hizo las camas."},
+  {"frase": "À peine fut-elle sortie qu'il se mit à pleuvoir.", "traduccion": "Apenas hubo salido, se puso a llover."}
+ ],
+ "errores_hispanohablantes": [
+  {"mal": "Quand il eut fini, il est parti.", "bien": "Quand il eut fini, il partit.", "nota": "El passé antérieur va con passé simple, no con passé composé."},
+  {"mal": "Dès qu'elle eut arrivée, le dîner commença.", "bien": "Dès qu'elle fut arrivée, le dîner commença.", "nota": "arriver lleva être también en passé antérieur."},
+  {"mal": "Après qu'il eût mangé, il sortit.", "bien": "Après qu'il eut mangé, il sortit.", "nota": "Con circunflejo sería subjuntivo; après que va con indicativo."}
+ ],
+ "ejercicios": [
+  {"id": "e01", "tipo": "hueco", "enunciado": "Completa con el passé antérieur del verbo.", "frase": "Lorsqu'il ___ (finir) de parler, le silence régna.", "respuestas": ["eut fini"], "explicacion": "Acción terminada justo antes de otra en passé simple: eut fini.", "origen": "tatoeba:1366985"},
+  {"id": "e02", "tipo": "hueco", "enunciado": "Completa con el passé antérieur del verbo.", "frase": "Dès qu'elle ___ (arriver), le dîner commença.", "respuestas": ["fut arrivée"], "explicacion": "arriver lleva être; concuerda con elle: fut arrivée."},
+  {"id": "e03", "tipo": "hueco", "enunciado": "Completa con el passé antérieur del verbo.", "frase": "Après qu'ils ___ (se coucher), la maison redevint silencieuse.", "respuestas": ["se furent couchés"], "explicacion": "Pronominal: auxiliar être en passé simple y concordancia en plural."},
+  {"id": "e04", "tipo": "eleccion", "enunciado": "Elige el auxiliar correcto.", "frase": "Quand il ___ publié son premier livre, il y eut un scandale.", "opciones": ["eut", "fut", "eût"], "respuestas": ["eut"], "explicacion": "publier lleva avoir; eût, con circunflejo, sería subjuntivo."},
+  {"id": "e05", "tipo": "eleccion", "enunciado": "¿Qué es «fut exécuté» en esta frase?", "frase": "Le roi fut exécuté.", "opciones": ["pasiva en passé simple", "passé antérieur activo", "futur antérieur"], "respuestas": ["pasiva en passé simple"], "explicacion": "exécuter lleva avoir: fut exécuté es être en passé simple + participio, es decir, una pasiva.", "origen": "tatoeba:888802"},
+  {"id": "e06", "tipo": "eleccion", "enunciado": "Elige el auxiliar correcto.", "frase": "Aussitôt qu'il ___ parti, elle se mit à pleurer.", "opciones": ["fut", "eut", "est"], "respuestas": ["fut"], "explicacion": "partir lleva être, en passé simple para combinar con se mit."},
+  {"id": "e07", "tipo": "eleccion", "enunciado": "¿Qué frase contiene un passé antérieur?", "frase": "Elige la frase.", "opciones": ["Le livre fut publié en 1689.", "Quand il eut publié le livre, il partit en voyage.", "Le livre était publié depuis un an."], "respuestas": ["Quand il eut publié le livre, il partit en voyage."], "explicacion": "eut publié es passé antérieur activo; fut publié es una pasiva.", "origen": "tatoeba:598003"},
+  {"id": "e08", "tipo": "transformar", "enunciado": "Pásala al registro oral con passé surcomposé y passé composé.", "frase": "Quand il eut fini, il partit.", "respuestas": ["Quand il a eu fini, il est parti."], "explicacion": "eut fini → a eu fini (surcomposé); partit → est parti."},
+  {"id": "e09", "tipo": "transformar", "enunciado": "Sustituye el plus-que-parfait por el passé antérieur.", "frase": "Après qu'elle avait rangé la maison, elle éclata en sanglots.", "respuestas": ["Après qu'elle eut rangé la maison, elle éclata en sanglots."], "explicacion": "Con la principal en passé simple, la anterioridad inmediata se expresa con passé antérieur."},
+  {"id": "e10", "tipo": "corregir", "enunciado": "Corrige el error de concordancia de tiempos.", "frase": "Lorsqu'il eut fini de parler, le silence a régné.", "respuestas": ["Lorsqu'il eut fini de parler, le silence régna."], "explicacion": "La principal debe ir en passé simple.", "origen": "tatoeba:1366985"},
+  {"id": "e11", "tipo": "corregir", "enunciado": "Corrige el error.", "frase": "Dès qu'elle eut sortie, il se mit à pleuvoir.", "respuestas": ["Dès qu'elle fut sortie, il se mit à pleuvoir."], "explicacion": "sortir (sin COD) lleva être: fut sortie."},
+  {"id": "e12", "tipo": "corregir", "enunciado": "Corrige el error.", "frase": "Après qu'il eût mangé, il sortit.", "respuestas": ["Après qu'il eut mangé, il sortit."], "explicacion": "Sin circunflejo: eut es indicativo (passé antérieur)."},
+  {"id": "e13", "tipo": "hueco", "enunciado": "Completa con el auxiliar en passé simple.", "frase": "Les invités ___ à peine partis que l'orage éclata.", "respuestas": ["furent"], "explicacion": "à peine… que + passé antérieur: furent partis."},
+  {"id": "e14", "tipo": "hueco", "enunciado": "Completa con el passé antérieur del verbo.", "frase": "En un instant, il ___ (comprendre) la situation.", "respuestas": ["eut compris"], "explicacion": "En la principal, el passé antérieur subraya la rapidez de la acción."},
+  {"id": "e15", "tipo": "ordenar", "enunciado": "Ordena las palabras.", "palabras": ["pleuvoir", "fut-il", "se", "À", "qu'il", "sorti", "mit", "peine", "à"], "respuestas": ["À peine fut-il sorti qu'il se mit à pleuvoir"], "explicacion": "À peine en cabeza provoca la inversión del sujeto: fut-il sorti."}
+ ],
+ "fuente": {"nombre": "Tex's French Grammar", "autores": "COERLL, Universidad de Texas en Austin", "licencia": "CC BY 3.0", "url": "https://laits.utexas.edu/tex/gr/tap11.html", "otras": ["Frases de Tatoeba (CC BY 2.0 FR)"]}
+}

@@ -1,0 +1,60 @@
+{
+ "id": "fr.g.pc-pronominales",
+ "titulo": "Passé composé de los pronominales",
+ "titulo_es": "Passé composé de los verbos pronominales (je me suis levé)",
+ "descripcion_es": "Los pronominales forman el passé composé con être; el participio concuerda casi siempre con el sujeto.",
+ "nivel": "B1",
+ "resumen": "Los verbos pronominales (se lever, s'amuser, se tromper…) forman siempre el passé composé con être, nunca con avoir. El participio concuerda normalmente con el sujeto, salvo cuando el pronombre se es complemento indirecto o cuando hay un complemento directo detrás del verbo.",
+ "explicacion": [
+  {"tipo": "texto", "texto": "Un verbo pronominal lleva un pronombre que remite al sujeto: se lever, se laver, se promener. En español decimos «me levanté», «me he levantado»; en francés el pasado compuesto se construye siempre con el auxiliar être: je me suis levé. El pronombre va delante del auxiliar."},
+  {"tipo": "tabla", "cabecera": ["Persona", "s'amuser (divertirse)"], "filas": [
+   ["je", "je me suis amusé(e)"],
+   ["tu", "tu t'es amusé(e)"],
+   ["il / elle / on", "il s'est amusé / elle s'est amusée"],
+   ["nous", "nous nous sommes amusé(e)s"],
+   ["vous", "vous vous êtes amusé(e)(s)"],
+   ["ils / elles", "ils se sont amusés / elles se sont amusées"]
+  ]},
+  {"tipo": "texto", "texto": "Concordancia: en la mayoría de los casos el participio concuerda en género y número con el sujeto (que es a la vez el pronombre complemento directo): Elle s'est réveillée tôt. Ils se sont assis."},
+  {"tipo": "lista", "items": [
+   "No hay concordancia si detrás del verbo hay un complemento directo, típicamente una parte del cuerpo: Elle s'est lavée, pero Elle s'est lavé les mains.",
+   "No hay concordancia si se es complemento indirecto (parler à, téléphoner à, écrire à, dire à, sourire à): Nous nous sommes parlé. Elles se sont téléphoné.",
+   "Si el complemento directo va delante, el participio concuerda con él: les mains qu'elle s'est lavées.",
+   "Algunos son invariables por costumbre: elle s'est rendu compte (se dio cuenta)."
+  ]},
+  {"tipo": "texto", "texto": "Negación: ne va delante del pronombre y pas detrás del auxiliar: je ne me suis pas amusé, tu ne t'es pas rasé. En la pregunta con inversión: T'es-tu levé tôt ? / S'est-elle excusée ?"}
+ ],
+ "ejemplos": [
+  {"frase": "Je me suis réveillée très tôt ce matin.", "traduccion": "Me he despertado muy temprano esta mañana."},
+  {"frase": "Le soleil s'est couché.", "traduccion": "Se ha puesto el sol."},
+  {"frase": "Elles se sont habillées en vitesse.", "traduccion": "Se vistieron a toda prisa."},
+  {"frase": "Je me suis cassé le bras.", "traduccion": "Me rompí el brazo."},
+  {"frase": "Puis, Bette et moi, nous nous sommes parlé.", "traduccion": "Luego Bette y yo hablamos (entre nosotras)."},
+  {"frase": "Tu ne t'es pas rasé ce matin ?", "traduccion": "¿No te has afeitado esta mañana?"}
+ ],
+ "errores_hispanohablantes": [
+  {"mal": "Je m'ai levé tôt.", "bien": "Je me suis levé tôt.", "nota": "En español usamos «haber» («me he levantado»), pero en francés los pronominales van siempre con être."},
+  {"mal": "Elle s'est lavée les mains.", "bien": "Elle s'est lavé les mains.", "nota": "Con complemento directo detrás (les mains) el participio no concuerda."},
+  {"mal": "Elles se sont téléphonées.", "bien": "Elles se sont téléphoné.", "nota": "Téléphoner à: se es complemento indirecto, así que no hay concordancia."},
+  {"mal": "Je me ne suis pas amusé.", "bien": "Je ne me suis pas amusé.", "nota": "Ne va delante del pronombre reflexivo, no entre el pronombre y el auxiliar."}
+ ],
+ "ejercicios": [
+  {"id": "e01", "tipo": "hueco", "enunciado": "Completa con el passé composé del verbo entre paréntesis.", "frase": "Il ___ en ville. (se perdre)", "respuestas": ["s'est perdu"], "explicacion": "Pronominal con être; sujeto masculino singular, participio perdu.", "origen": "tatoeba:132963"},
+  {"id": "e02", "tipo": "hueco", "enunciado": "Completa con el passé composé del verbo entre paréntesis.", "frase": "Elles ___. (se laver)", "respuestas": ["se sont lavées"], "explicacion": "Sin complemento directo detrás, el participio concuerda con el sujeto femenino plural.", "origen": "tatoeba:2923594"},
+  {"id": "e03", "tipo": "eleccion", "enunciado": "Elige la forma correcta del participio.", "frase": "Ils se sont tous ___.", "opciones": ["assis", "assise", "assises"], "respuestas": ["assis"], "explicacion": "Sujeto masculino plural: assis (el masculino plural es igual que el singular).", "origen": "tatoeba:6813781"},
+  {"id": "e04", "tipo": "eleccion", "enunciado": "Elige la forma correcta del participio.", "frase": "Hier, Julie s'est ___ le bras.", "opciones": ["cassé", "cassée", "cassés"], "respuestas": ["cassé"], "explicacion": "Le bras es complemento directo y va detrás del verbo: no hay concordancia.", "origen": "tatoeba:128023"},
+  {"id": "e05", "tipo": "corregir", "enunciado": "Corrige el error.", "frase": "La pluie s'est arrêté.", "respuestas": ["La pluie s'est arrêtée."], "explicacion": "La pluie es femenino: el participio concuerda, arrêtée.", "origen": "tatoeba:432591"},
+  {"id": "e06", "tipo": "corregir", "enunciado": "Corrige el error.", "frase": "Le soleil s'a couché.", "respuestas": ["Le soleil s'est couché."], "explicacion": "Los pronominales se conjugan con être: s'est couché.", "origen": "tatoeba:1316828"},
+  {"id": "e07", "tipo": "transformar", "enunciado": "Pon la frase en forma negativa (ne… pas).", "frase": "Il s'est excusé.", "respuestas": ["Il ne s'est pas excusé."], "explicacion": "Ne delante del pronombre, pas detrás del auxiliar.", "origen": "tatoeba:6785369"},
+  {"id": "e08", "tipo": "transformar", "enunciado": "Pon la frase en forma negativa (ne… pas).", "frase": "Je me suis levé tôt hier.", "respuestas": ["Je ne me suis pas levé tôt hier."], "explicacion": "La negación rodea el bloque pronombre + auxiliar: je ne me suis pas levé.", "origen": "tatoeba:938328"},
+  {"id": "e09", "tipo": "ordenar", "enunciado": "Ordena las palabras.", "palabras": ["d'elle", "approché", "Il", "s'est"], "respuestas": ["Il s'est approché d'elle"], "explicacion": "Sujeto + pronombre + auxiliar + participio + complemento.", "origen": "tatoeba:1977576"},
+  {"id": "e10", "tipo": "hueco", "enunciado": "Completa con el passé composé del verbo entre paréntesis.", "frase": "Paul et Léa ___ hier soir. (se parler)", "respuestas": ["se sont parlé"], "explicacion": "Parler à: se es complemento indirecto, el participio no concuerda."},
+  {"id": "e11", "tipo": "eleccion", "enunciado": "Elige la forma correcta del participio.", "frase": "Elles se sont ___ des lettres pendant des années.", "opciones": ["écrit", "écrites", "écrits"], "respuestas": ["écrit"], "explicacion": "Écrire à quelqu'un: se es indirecto y el directo (des lettres) va detrás; no hay concordancia."},
+  {"id": "e12", "tipo": "hueco", "enunciado": "Completa con el passé composé del verbo entre paréntesis.", "frase": "Tu ___ où ? (se cacher)", "respuestas": ["t'es caché", "t'es cachée"], "explicacion": "Con tu: t'es + participio, con -e si quien habla se dirige a una mujer.", "origen": "tatoeba:2491711"},
+  {"id": "e13", "tipo": "corregir", "enunciado": "Corrige el error.", "frase": "Nous nous avons promenés au bord de la rivière.", "respuestas": ["Nous nous sommes promenés au bord de la rivière."], "explicacion": "Se promener es pronominal: auxiliar être, nous nous sommes promenés."},
+  {"id": "e14", "tipo": "hueco", "enunciado": "Completa con el passé composé del verbo entre paréntesis.", "frase": "Vous vous ___. (se tromper)", "respuestas": ["êtes trompés", "êtes trompé", "êtes trompée", "êtes trompées"], "explicacion": "Vous + êtes; el participio concuerda con las personas a las que se habla.", "origen": "tatoeba:1081892"},
+  {"id": "e15", "tipo": "eleccion", "enunciado": "Elige la forma correcta del participio.", "frase": "Les enfants se sont ___ les mains avant de manger.", "opciones": ["lavé", "lavés", "lavées"], "respuestas": ["lavé"], "explicacion": "Les mains es complemento directo detrás del verbo: participio invariable."},
+  {"id": "e16", "tipo": "eleccion", "enunciado": "Elige la forma correcta del participio.", "frase": "Mon rêve s'est ___.", "opciones": ["réalisé", "réalisée", "réalisés"], "respuestas": ["réalisé"], "explicacion": "Rêve es masculino singular: réalisé.", "origen": "tatoeba:7602"}
+ ],
+ "fuente": {"nombre": "Tex's French Grammar", "autores": "COERLL, Universidad de Texas en Austin", "licencia": "CC BY 3.0", "url": "https://laits.utexas.edu/tex/gr/tap4.html", "otras": ["Frases de Tatoeba (CC BY 2.0 FR)"]}
+}

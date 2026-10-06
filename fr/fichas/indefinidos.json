@@ -1,0 +1,58 @@
+{
+ "id": "fr.g.indefinidos",
+ "titulo": "Indefinidos",
+ "titulo_es": "Indefinidos: quelqu'un, quelque chose, chaque, chacun, plusieurs, certains…",
+ "descripcion_es": "Determinantes y pronombres indefinidos para personas, cosas y cantidades imprecisas.",
+ "nivel": "B1",
+ "resumen": "Los indefinidos hablan de personas, cosas o cantidades sin precisar: alguien, algo, cada, cada uno, varios, algunos, ninguno. Algunos acompañan a un nombre (determinantes: chaque jour, plusieurs livres) y otros lo sustituyen (pronombres: chacun, quelqu'un).",
+ "explicacion": [
+  {"tipo": "tabla", "cabecera": ["Determinante (+ nombre)", "Pronombre (sin nombre)", "Significado"], "filas": [
+   ["chaque (chaque jour)", "chacun, chacune", "cada / cada uno"],
+   ["quelques (quelques livres)", "quelques-uns, quelques-unes", "unos cuantos, algunos"],
+   ["plusieurs", "plusieurs", "varios"],
+   ["certains, certaines", "certains, certaines", "algunos, ciertos"],
+   ["aucun, aucune (+ ne)", "aucun, aucune (+ ne)", "ningún / ninguno"],
+   ["un autre, d'autres", "un autre, les autres", "otro, otros"]
+  ]},
+  {"tipo": "texto", "texto": "Quelqu'un (alguien) y quelque chose (algo) son invariables. Si llevan adjetivo, se intercala de: quelqu'un de légendaire, quelque chose d'extraordinaire, rien d'autre. Sus negativos son personne y rien, con ne: Je n'ai vu personne. Il n'y a rien ici."},
+  {"tipo": "lista", "items": [
+   "Chaque va siempre con nombre y en singular; chacun lo sustituye: chaque étudiant / chacun a son livre.",
+   "Autre siempre lleva determinante: un autre café (otro café, nunca «autre café» solo), d'autres questions (otras preguntas).",
+   "N'importe qui (cualquiera), n'importe quoi (cualquier cosa, tonterías), n'importe où (en cualquier sitio).",
+   "Quiconque (quienquiera que), tel / telle (tal): Tel père, tel fils."
+  ]},
+  {"tipo": "texto", "texto": "Para el hispanohablante: «algunos» se dice quelques (pocos, unos cuantos) o certains (unos sí, otros no). «Varios» es plusieurs, invariable en género: plusieurs amis, plusieurs amies."}
+ ],
+ "ejemplos": [
+  {"frase": "Quelque chose d'extraordinaire est arrivé aujourd'hui.", "traduccion": "Hoy ha pasado algo extraordinario."},
+  {"frase": "Chaque jour, tu trouves une méchanceté à dire.", "traduccion": "Cada día encuentras alguna maldad que decir."},
+  {"frase": "Certains éditeurs pensent qu'il aura le prix Goncourt.", "traduccion": "Algunos editores creen que ganará el premio Goncourt."},
+  {"frase": "Ils ont chacun un vélo.", "traduccion": "Cada uno tiene una bicicleta."},
+  {"frase": "J'ai rencontré beaucoup de joueurs, mais aucun ne me plaît.", "traduccion": "He conocido a muchos jugadores, pero ninguno me gusta."},
+  {"frase": "Tu racontes n'importe quoi !", "traduccion": "¡Dices tonterías!"}
+ ],
+ "errores_hispanohablantes": [
+  {"mal": "J'ai vu quelque chose intéressant.", "bien": "J'ai vu quelque chose d'intéressant.", "nota": "Quelque chose / quelqu'un / rien + de + adjetivo."},
+  {"mal": "Chaque a son opinion.", "bien": "Chacun a son opinion.", "nota": "Chaque necesita un nombre; sin nombre se usa chacun."},
+  {"mal": "Tu veux autre café ?", "bien": "Tu veux un autre café ?", "nota": "Autre necesita determinante: «otro» es un autre."}
+ ],
+ "ejercicios": [
+  {"id": "e01", "tipo": "hueco", "enunciado": "Completa con el indefinido adecuado (algo).", "frase": "Dis ___ !", "respuestas": ["quelque chose"], "explicacion": "«Algo» se dice quelque chose.", "origen": "tatoeba:1658129"},
+  {"id": "e02", "tipo": "hueco", "enunciado": "Completa con el indefinido adecuado (cada uno).", "frase": "Ils ont ___ un vélo.", "respuestas": ["chacun"], "explicacion": "Pronombre sin nombre: chacun.", "origen": "tatoeba:133582"},
+  {"id": "e03", "tipo": "eleccion", "enunciado": "Elige la opción correcta.", "frase": "Je viens ici ___ jour.", "opciones": ["chaque", "chacun", "plusieurs"], "respuestas": ["chaque"], "explicacion": "Delante de un nombre singular: chaque (determinante).", "origen": "tatoeba:2069634"},
+  {"id": "e04", "tipo": "eleccion", "enunciado": "Elige la opción correcta.", "frase": "Je parle ___ langues.", "opciones": ["plusieurs", "chaque", "aucune"], "respuestas": ["plusieurs"], "explicacion": "Varios + plural: plusieurs.", "origen": "tatoeba:12316099"},
+  {"id": "e05", "tipo": "corregir", "enunciado": "Corrige el error.", "frase": "J'ai quelque chose urgent.", "respuestas": ["J'ai quelque chose d'urgent."], "explicacion": "Quelque chose + de + adjetivo: quelque chose d'urgent.", "origen": "tatoeba:395616"},
+  {"id": "e06", "tipo": "transformar", "enunciado": "Pon la frase en negativa (quelque chose → rien).", "frase": "Il y a quelque chose ici.", "respuestas": ["Il n'y a rien ici."], "explicacion": "El negativo de quelque chose es ne… rien.", "origen": "tatoeba:7695726"},
+  {"id": "e07", "tipo": "transformar", "enunciado": "Pon la frase en negativa (quelque chose → rien).", "frase": "Elle a dit quelque chose.", "respuestas": ["Elle n'a rien dit."], "explicacion": "Rien va entre el auxiliar y el participio.", "origen": "tatoeba:2927147"},
+  {"id": "e08", "tipo": "ordenar", "enunciado": "Ordena las palabras.", "palabras": ["dire", "quelque", "J'ai", "à", "chose"], "respuestas": ["J'ai quelque chose à dire"], "explicacion": "Quelque chose à + infinitivo: algo que hacer.", "origen": "tatoeba:7157498"},
+  {"id": "e09", "tipo": "hueco", "enunciado": "Completa con el indefinido adecuado (unas pocas).", "frase": "Elle a dormi ___ heures.", "respuestas": ["quelques"], "explicacion": "Determinante plural: quelques heures (unas horas).", "origen": "tatoeba:1530235"},
+  {"id": "e10", "tipo": "eleccion", "enunciado": "Elige la opción correcta.", "frase": "À ___ la sienne.", "opciones": ["chacun", "chaque", "quelqu'un"], "respuestas": ["chacun"], "explicacion": "Sin nombre detrás: pronombre chacun (a cada uno la suya).", "origen": "tatoeba:962229"},
+  {"id": "e11", "tipo": "eleccion", "enunciado": "Elige la opción correcta.", "frase": "J'ai rencontré beaucoup de joueurs, mais ___ ne me plaît.", "opciones": ["aucun", "chacun", "quelques-uns"], "respuestas": ["aucun"], "explicacion": "Ninguno (de ellos) + ne: aucun, en singular."},
+  {"id": "e12", "tipo": "eleccion", "enunciado": "Elige la opción correcta.", "frase": "Mes amies ? ___ adorent le jazz, d'autres préfèrent le rock.", "opciones": ["Certaines", "Chacune", "Aucune"], "respuestas": ["Certaines"], "explicacion": "Algunas (frente a otras): certaines, femenino plural."},
+  {"id": "e13", "tipo": "corregir", "enunciado": "Corrige el error.", "frase": "Chaque a son opinion.", "respuestas": ["Chacun a son opinion."], "explicacion": "Sin nombre, «cada uno» es chacun."},
+  {"id": "e14", "tipo": "hueco", "enunciado": "Completa la expresión.", "frase": "Tu racontes n'importe ___ !", "respuestas": ["quoi"], "explicacion": "N'importe quoi: cualquier cosa, tonterías."},
+  {"id": "e15", "tipo": "eleccion", "enunciado": "Elige la opción correcta.", "frase": "Tu veux un ___ café ?", "opciones": ["autre", "autres", "d'autre"], "respuestas": ["autre"], "explicacion": "Un autre + nombre singular: otro café."},
+  {"id": "e16", "tipo": "hueco", "enunciado": "Completa con el indefinido adecuado (alguien).", "frase": "Il y a ___ à la porte.", "respuestas": ["quelqu'un"], "explicacion": "«Alguien» se dice quelqu'un."}
+ ],
+ "fuente": {"nombre": "Tex's French Grammar", "autores": "COERLL, Universidad de Texas en Austin", "licencia": "CC BY 3.0", "url": "https://laits.utexas.edu/tex/gr/det10.html", "otras": ["Frases de Tatoeba (CC BY 2.0 FR)"]}
+}

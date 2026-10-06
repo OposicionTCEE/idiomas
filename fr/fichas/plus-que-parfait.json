@@ -1,0 +1,58 @@
+{
+ "id": "fr.g.plus-que-parfait",
+ "titulo": "Plus-que-parfait",
+ "titulo_es": "Plus-que-parfait (pretérito pluscuamperfecto)",
+ "descripcion_es": "Una acción anterior a otra acción o momento del pasado: j'avais mangé, elle était partie.",
+ "nivel": "B1",
+ "resumen": "El plus-que-parfait expresa una acción anterior a otro momento del pasado, como el pluscuamperfecto español («había comido»). Se forma con el auxiliar (avoir o être) en imparfait y el participio.",
+ "explicacion": [
+  {"tipo": "texto", "texto": "Formación: auxiliar en imparfait + participio. El auxiliar es el mismo que en el passé composé: avoir para la mayoría, être para los verbos de movimiento y cambio de estado (aller, venir, partir, naître, mourir…) y para todos los pronominales. Las reglas de concordancia son las mismas."},
+  {"tipo": "tabla", "cabecera": ["Persona", "manger", "aller"], "filas": [
+   ["je", "j'avais mangé", "j'étais allé(e)"],
+   ["tu", "tu avais mangé", "tu étais allé(e)"],
+   ["il / elle / on", "il avait mangé", "elle était allée"],
+   ["nous", "nous avions mangé", "nous étions allé(e)s"],
+   ["vous", "vous aviez mangé", "vous étiez allé(e)(s)"],
+   ["ils / elles", "ils avaient mangé", "elles étaient allées"]
+  ]},
+  {"tipo": "texto", "texto": "Uso: en un relato en pasado, sitúa una acción antes de otra. Suele ir con déjà (ya) o, en negativa, con pas encore (todavía no): Tex avait déjà commencé son poème quand son éditeur a téléphoné. La negación rodea el auxiliar: je n'avais pas mangé."},
+  {"tipo": "lista", "items": [
+   "Deseos o lamentos sobre el pasado: Si seulement tu avais fini ! (¡Si hubieras terminado!). Ojo: en español usamos el subjuntivo «hubieras», en francés el plus-que-parfait de indicativo.",
+   "Condicionales irreales del pasado: Si j'avais su, je serais venu (Si lo hubiera sabido, habría venido).",
+   "Estilo indirecto en pasado: Elle m'a dit qu'elle avait lu ce livre.",
+   "No todo «había + participio» se traduce así: con depuis se usa el imparfait (Il attendait depuis deux heures) y «acababa de» es venir de en imparfait (Il venait de commencer)."
+  ]}
+ ],
+ "ejemplos": [
+  {"frase": "J'avais déjà bu du café.", "traduccion": "Ya me había tomado un café."},
+  {"frase": "À l'âge de sept ans, Tex avait déjà écrit dix poèmes.", "traduccion": "A los siete años, Tex ya había escrito diez poemas."},
+  {"frase": "Elle a adoré les poèmes que Tex avait écrits pendant sa jeunesse.", "traduccion": "Le encantaron los poemas que Tex había escrito en su juventud."},
+  {"frase": "Tex n'avait pas encore fini son poème quand son éditeur a téléphoné.", "traduccion": "Tex todavía no había terminado su poema cuando llamó su editor."},
+  {"frase": "Si seulement il était venu !", "traduccion": "¡Ojalá hubiera venido!"},
+  {"frase": "J'ai oublié qui avait dit ça.", "traduccion": "He olvidado quién había dicho eso."}
+ ],
+ "errores_hispanohablantes": [
+  {"mal": "Si j'aurais su, je serais venu.", "bien": "Si j'avais su, je serais venu.", "nota": "Tras si nunca va condicional: el «hubiera sabido» español es plus-que-parfait en francés."},
+  {"mal": "Elle avait parti quand je suis arrivé.", "bien": "Elle était partie quand je suis arrivé.", "nota": "Partir lleva être, también en el plus-que-parfait, y el participio concuerda."},
+  {"mal": "Il avait attendu depuis deux heures quand le bus est arrivé.", "bien": "Il attendait depuis deux heures quand le bus est arrivé.", "nota": "Con depuis (acción que seguía en curso) se usa el imparfait, aunque en español digamos «llevaba» o «había estado esperando»."}
+ ],
+ "ejercicios": [
+  {"id": "e01", "tipo": "hueco", "enunciado": "Completa con el plus-que-parfait del verbo entre paréntesis.", "frase": "J'___ déjà du café. (boire)", "respuestas": ["avais bu"], "explicacion": "Boire va con avoir: j'avais bu.", "origen": "tatoeba:994693"},
+  {"id": "e02", "tipo": "hueco", "enunciado": "Completa con el plus-que-parfait del verbo entre paréntesis.", "frase": "Si seulement il ___ ! (venir)", "respuestas": ["était venu"], "explicacion": "Lamento sobre el pasado: si seulement + plus-que-parfait; venir lleva être.", "origen": "tatoeba:4450319"},
+  {"id": "e03", "tipo": "hueco", "enunciado": "Completa con el plus-que-parfait del verbo entre paréntesis.", "frase": "J'ai oublié qui ___ ça. (dire)", "respuestas": ["avait dit"], "explicacion": "Decirlo es anterior al olvido: avait dit.", "origen": "tatoeba:389778"},
+  {"id": "e04", "tipo": "hueco", "enunciado": "Completa con el plus-que-parfait del verbo entre paréntesis.", "frase": "Elle ___ son parapluie, alors je lui ai prêté le mien. (oublier)", "respuestas": ["avait oublié"], "explicacion": "El olvido ocurrió antes del préstamo: plus-que-parfait.", "origen": "tatoeba:489460"},
+  {"id": "e05", "tipo": "hueco", "enunciado": "Completa con el plus-que-parfait del verbo entre paréntesis.", "frase": "Même si Tom ___ de payer, c'est Marie qui a réglé l'addition. (promettre)", "respuestas": ["avait promis"], "explicacion": "La promesa es anterior al pago: avait promis.", "origen": "tatoeba:7699570"},
+  {"id": "e06", "tipo": "corregir", "enunciado": "Corrige el error.", "frase": "Je te l'avais dis !", "respuestas": ["Je te l'avais dit !"], "explicacion": "El participio de dire es dit, no dis.", "origen": "tatoeba:1461334"},
+  {"id": "e07", "tipo": "corregir", "enunciado": "Corrige el error.", "frase": "Comme cela avait été prédi, il a neigé.", "respuestas": ["Comme cela avait été prédit, il a neigé."], "explicacion": "Prédire hace el participio como dire: prédit.", "origen": "tatoeba:622839"},
+  {"id": "e08", "tipo": "corregir", "enunciado": "Corrige el error.", "frase": "Elle avait déjà parti quand je suis arrivé.", "respuestas": ["Elle était déjà partie quand je suis arrivé."], "explicacion": "Partir se conjuga con être: elle était partie (con concordancia)."},
+  {"id": "e09", "tipo": "transformar", "enunciado": "Pasa la frase al plus-que-parfait.", "frase": "Ils sont sortis.", "respuestas": ["Ils étaient sortis."], "explicacion": "Mismo auxiliar que en el passé composé, ahora en imparfait."},
+  {"id": "e10", "tipo": "transformar", "enunciado": "Pon la frase en forma negativa (ne… pas).", "frase": "J'avais fini mon travail.", "respuestas": ["Je n'avais pas fini mon travail."], "explicacion": "La negación rodea el auxiliar: je n'avais pas fini."},
+  {"id": "e11", "tipo": "eleccion", "enunciado": "Elige la opción correcta.", "frase": "Tex ___ de commencer un poème quand son éditeur a téléphoné.", "opciones": ["venait", "était venu", "avait venu"], "respuestas": ["venait"], "explicacion": "«Acababa de» se dice venir de en imparfait, no en plus-que-parfait."},
+  {"id": "e12", "tipo": "eleccion", "enunciado": "Elige la opción correcta.", "frase": "Si j'___, je serais venu.", "opciones": ["avais su", "aurais su", "ai su"], "respuestas": ["avais su"], "explicacion": "Condición irreal del pasado: si + plus-que-parfait, condicional pasado en la principal."},
+  {"id": "e13", "tipo": "eleccion", "enunciado": "Elige la opción correcta.", "frase": "Il ___ depuis deux heures quand le bus est enfin arrivé.", "opciones": ["attendait", "avait attendu", "a attendu"], "respuestas": ["attendait"], "explicacion": "Con depuis, una acción que seguía en curso va en imparfait."},
+  {"id": "e14", "tipo": "ordenar", "enunciado": "Ordena las palabras.", "palabras": ["arrivés", "avions", "quand", "Nous", "mangé", "sont", "déjà", "ils"], "respuestas": ["Nous avions déjà mangé quand ils sont arrivés", "Quand ils sont arrivés nous avions déjà mangé"], "explicacion": "Déjà va entre el auxiliar y el participio; la acción anterior en plus-que-parfait."},
+  {"id": "e15", "tipo": "hueco", "enunciado": "Completa con el plus-que-parfait del verbo entre paréntesis.", "frase": "Les enfants ___ quand leurs parents sont rentrés. (s'endormir)", "respuestas": ["s'étaient endormis"], "explicacion": "Pronominal: être en imparfait y concordancia con el sujeto masculino plural."},
+  {"id": "e16", "tipo": "hueco", "enunciado": "Completa con el plus-que-parfait del verbo entre paréntesis.", "frase": "Elle m'a dit qu'elle ___ ce livre deux fois. (lire)", "respuestas": ["avait lu"], "explicacion": "Estilo indirecto en pasado: lo que ya había hecho va en plus-que-parfait."}
+ ],
+ "fuente": {"nombre": "Tex's French Grammar", "autores": "COERLL, Universidad de Texas en Austin", "licencia": "CC BY 3.0", "url": "https://laits.utexas.edu/tex/gr/tap9.html", "otras": ["Frases de Tatoeba (CC BY 2.0 FR)"]}
+}

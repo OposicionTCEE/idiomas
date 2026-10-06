@@ -1,0 +1,61 @@
+{
+ "id": "en.g.comparativos",
+ "titulo": "Comparatives and superlatives",
+ "titulo_es": "Comparativos y superlativos",
+ "descripcion_es": "-er/-est, more/most, as… as y formas irregulares.",
+ "nivel": "A2",
+ "resumen": "El comparativo compara dos cosas (bigger than, more expensive than) y el superlativo destaca una dentro de un grupo (the biggest, the most expensive). La forma depende de la longitud del adjetivo.",
+ "explicacion": [
+  {"tipo": "tabla", "cabecera": ["Adjetivo", "Comparativo", "Superlativo"], "filas": [
+   ["Una sílaba: cheap", "cheaper than", "the cheapest"],
+   ["Acaba en -e: nice", "nicer than", "the nicest"],
+   ["Consonante-vocal-consonante: big", "bigger than", "the biggest"],
+   ["Dos sílabas en -y: easy", "easier than", "the easiest"],
+   ["Dos o más sílabas: modern, expensive", "more modern / more expensive than", "the most modern / the most expensive"]
+  ]},
+  {"tipo": "tabla", "cabecera": ["Irregular", "Comparativo", "Superlativo"], "filas": [
+   ["good", "better", "the best"],
+   ["bad", "worse", "the worst"],
+   ["far", "further / farther", "the furthest / the farthest"]
+  ]},
+  {"tipo": "lista", "items": [
+   "Igualdad: as + adjetivo + as. This room is as big as yours.",
+   "Desigualdad negativa: not as + adjetivo + as. The film wasn't as good as the book.",
+   "Inferioridad: less + adjetivo + than (más frecuente con adjetivos largos). It's less expensive than I thought.",
+   "Tras el superlativo se usa in con lugares o grupos (the tallest in the class) y of con periodos o cantidades (the best day of my life)."
+  ]},
+  {"tipo": "texto", "texto": "Than equivale a «que» en comparaciones; nunca se usa that. Tampoco se combinan more y -er: more cheaper es incorrecto."}
+ ],
+ "ejemplos": [
+  {"frase": "My new flat is bigger than the old one.", "traduccion": "Mi piso nuevo es más grande que el antiguo."},
+  {"frase": "This is the most interesting book I've read this year.", "traduccion": "Es el libro más interesante que he leído este año."},
+  {"frase": "Today is worse than yesterday.", "traduccion": "Hoy está peor que ayer."},
+  {"frase": "Valencia isn't as cold as Burgos.", "traduccion": "Valencia no es tan fría como Burgos."},
+  {"frase": "She's the best player in the team.", "traduccion": "Es la mejor jugadora del equipo."},
+  {"frase": "Trains are usually more comfortable than buses.", "traduccion": "Los trenes suelen ser más cómodos que los autobuses."}
+ ],
+ "errores_hispanohablantes": [
+  {"mal": "She is more tall than me.", "bien": "She is taller than me.", "nota": "Los adjetivos de una sílaba usan -er."},
+  {"mal": "It's more cheaper.", "bien": "It's cheaper.", "nota": "No se combinan more y -er."},
+  {"mal": "He is the oldest of the family.", "bien": "He is the oldest in the family.", "nota": "Con grupos o lugares se usa in, no of («de» en español)."},
+  {"mal": "My car is faster that yours.", "bien": "My car is faster than yours.", "nota": "«Que» en comparaciones es than."}
+ ],
+ "ejercicios": [
+  {"id": "e01", "tipo": "hueco", "enunciado": "Completa con el comparativo del adjetivo.", "frase": "A bicycle is ___ (cheap) than a motorbike.", "respuestas": ["cheaper"], "explicacion": "Una sílaba: cheap → cheaper."},
+  {"id": "e02", "tipo": "hueco", "enunciado": "Completa con el comparativo del adjetivo.", "frase": "This exercise is ___ (difficult) than the last one.", "respuestas": ["more difficult"], "explicacion": "Adjetivo largo: more + adjetivo."},
+  {"id": "e03", "tipo": "hueco", "enunciado": "Completa con el superlativo del adjetivo.", "frase": "August is the ___ (hot) month of the year in Seville.", "respuestas": ["hottest"], "explicacion": "Hot dobla la t: hottest."},
+  {"id": "e04", "tipo": "hueco", "enunciado": "Completa con el comparativo del adjetivo.", "frase": "My cold is ___ (bad) today than yesterday.", "respuestas": ["worse"], "explicacion": "Bad es irregular: worse."},
+  {"id": "e05", "tipo": "hueco", "enunciado": "Completa con el superlativo del adjetivo.", "frase": "That was the ___ (happy) day of my life.", "respuestas": ["happiest"], "explicacion": "Dos sílabas en -y: happy → happiest."},
+  {"id": "e06", "tipo": "eleccion", "enunciado": "Elige la opción correcta.", "frase": "Madrid is ___ than Toledo.", "opciones": ["more big", "bigger", "biggest"], "respuestas": ["bigger"], "explicacion": "Comparativo de big: bigger."},
+  {"id": "e07", "tipo": "eleccion", "enunciado": "Elige la opción correcta.", "frase": "It's the ___ restaurant in town.", "opciones": ["better", "goodest", "best"], "respuestas": ["best"], "explicacion": "Superlativo irregular de good: the best."},
+  {"id": "e08", "tipo": "eleccion", "enunciado": "Elige la opción correcta.", "frase": "Tom is as tall ___ his father.", "opciones": ["than", "as", "that"], "respuestas": ["as"], "explicacion": "Igualdad: as + adjetivo + as."},
+  {"id": "e09", "tipo": "eleccion", "enunciado": "Elige la opción correcta.", "frase": "She is the youngest ___ her class.", "opciones": ["of", "in", "than"], "respuestas": ["in"], "explicacion": "Superlativo con un grupo: in."},
+  {"id": "e10", "tipo": "transformar", "enunciado": "Reescribe la frase con not as ... as, sin cambiar el significado.", "frase": "My phone is older than yours.", "respuestas": ["My phone isn't as new as yours.", "My phone is not as new as yours.", "Your phone isn't as old as mine.", "Your phone is not as old as mine.", "Yours isn't as old as mine.", "Yours is not as old as mine."], "explicacion": "Not as ... as expresa que algo no llega al mismo grado."},
+  {"id": "e11", "tipo": "corregir", "enunciado": "Corrige el error.", "frase": "This sofa is more comfortabler than the other one.", "respuestas": ["This sofa is more comfortable than the other one."], "explicacion": "No se combinan more y -er."},
+  {"id": "e12", "tipo": "corregir", "enunciado": "Corrige el error.", "frase": "Her English is better that mine.", "respuestas": ["Her English is better than mine."], "explicacion": "En comparaciones «que» es than."},
+  {"id": "e13", "tipo": "corregir", "enunciado": "Corrige el error.", "frase": "It was the most bad film I've ever seen.", "respuestas": ["It was the worst film I've ever seen.", "It was the worst film I have ever seen."], "explicacion": "Superlativo irregular de bad: the worst."},
+  {"id": "e14", "tipo": "ordenar", "enunciado": "Ordena las palabras.", "palabras": ["is", "than", "London", "more", "Paris", "expensive"], "respuestas": ["London is more expensive than Paris", "Paris is more expensive than London"], "explicacion": "Sujeto + is + more + adjetivo + than + segundo término."},
+  {"id": "e15", "tipo": "ordenar", "enunciado": "Ordena las palabras.", "palabras": ["the", "Everest", "is", "highest", "mountain", "world", "the", "in"], "respuestas": ["Everest is the highest mountain in the world", "The highest mountain in the world is Everest"], "explicacion": "The + superlativo + sustantivo + in + lugar."}
+ ],
+ "fuente": {"nombre": "propia"}
+}

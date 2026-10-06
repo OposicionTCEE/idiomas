@@ -1,0 +1,314 @@
+{
+ "id": "fr.g.si-hipotesis",
+ "titulo": "Oraciones con si",
+ "titulo_es": "Oraciones condicionales con si (les phrases avec si)",
+ "descripcion_es": "Las tres combinaciones: si + presente, si + imperfecto, si + pluscuamperfecto.",
+ "nivel": "B1",
+ "resumen": "Las oraciones condicionales francesas siguen tres esquemas fijos según la condición sea posible, improbable o ya imposible. La regla de oro: detrás de si nunca va ni futuro ni condicional.",
+ "explicacion": [
+  {
+   "tipo": "tabla",
+   "cabecera": [
+    "Tipo",
+    "Condición (si…)",
+    "Consecuencia",
+    "Ejemplo"
+   ],
+   "filas": [
+    [
+     "Real o posible",
+     "presente",
+     "presente, futuro o imperativo",
+     "Si j'ai le temps, je le ferai."
+    ],
+    [
+     "Hipótesis sobre el presente o el futuro",
+     "imperfecto",
+     "condicional presente",
+     "Si j'étais riche, je voyagerais."
+    ],
+    [
+     "Hipótesis sobre el pasado (ya no se cumplió)",
+     "pluscuamperfecto",
+     "condicional pasado",
+     "Si j'avais su, je serais venu."
+    ]
+   ]
+  },
+  {
+   "tipo": "texto",
+   "texto": "Comparación con el español: el francés usa el imperfecto de indicativo donde nosotros usamos el imperfecto de subjuntivo (si tuviera → si j'avais) y el pluscuamperfecto de indicativo donde usamos el de subjuntivo (si hubiera sabido → si j'avais su). El subjuntivo nunca aparece detrás de si."
+  },
+  {
+   "tipo": "lista",
+   "items": [
+    "Si se apostrofa solo ante il e ils: s'il pleut, s'ils viennent; pero si elle, si on.",
+    "El orden de las dos partes es libre: Je voyagerais si j'étais riche.",
+    "Pueden mezclarse los tipos 2 y 3: Si j'avais pris le train, je serais déjà là (condición pasada, consecuencia presente).",
+    "Si seulement + imperfecto o pluscuamperfecto expresa un deseo: Si seulement j'étais riche ! (¡Ojalá fuera rico!)",
+    "Et si + imperfecto sirve para proponer algo: Et si on faisait une pause ? (¿Y si hacemos una pausa?)"
+   ]
+  },
+  {
+   "tipo": "texto",
+   "texto": "No confundas el si condicional con el si de la pregunta indirecta («si» = whether). En la pregunta indirecta sí puede ir futuro o condicional: Je ne sais pas s'il viendra (no sé si vendrá). Tex demande si Tammy est prête es una pregunta indirecta; Si tu es prête, on part es una condición."
+  }
+ ],
+ "ejemplos": [
+  {
+   "frase": "Si j'ai le temps, je le ferai.",
+   "traduccion": "Si tengo tiempo, lo haré."
+  },
+  {
+   "frase": "Si le vent faiblit, nous irons.",
+   "traduccion": "Si amaina el viento, iremos."
+  },
+  {
+   "frase": "Si je le savais, je le dirais.",
+   "traduccion": "Si lo supiera, lo diría."
+  },
+  {
+   "frase": "Si j'étais une voiture, je serais une 2CV.",
+   "traduccion": "Si fuera un coche, sería un 2CV."
+  },
+  {
+   "frase": "Si j'étais né à Séville, j'aurais appris à danser la sévillane.",
+   "traduccion": "Si hubiera nacido en Sevilla, habría aprendido a bailar sevillanas."
+  },
+  {
+   "frase": "Et si on faisait une pause ?",
+   "traduccion": "¿Y si hacemos una pausa?"
+  }
+ ],
+ "errores_hispanohablantes": [
+  {
+   "mal": "Si j'aurais de l'argent, j'achèterais une maison.",
+   "bien": "Si j'avais de l'argent, j'achèterais une maison.",
+   "nota": "Igual que en español correcto no se dice «si tendría», en francés tras si va imperfecto."
+  },
+  {
+   "mal": "S'il fasse beau demain, nous irons à la plage.",
+   "bien": "S'il fait beau demain, nous irons à la plage.",
+   "nota": "El español usa a veces subjuntivo en condiciones; el francés, nunca: si + indicativo."
+  },
+  {
+   "mal": "Si il vient, on mangera ensemble.",
+   "bien": "S'il vient, on mangera ensemble.",
+   "nota": "Si ante il o ils se apostrofa obligatoriamente."
+  },
+  {
+   "mal": "Si tu viendras, je serai content.",
+   "bien": "Si tu viens, je serai content.",
+   "nota": "Aunque la condición sea futura, detrás de si va presente."
+  }
+ ],
+ "ejercicios": [
+  {
+   "id": "e01",
+   "tipo": "hueco",
+   "enunciado": "Completa con el tiempo adecuado.",
+   "frase": "Si je le ___ (savoir), je le dirais.",
+   "respuestas": [
+    "savais"
+   ],
+   "explicacion": "Consecuencia en condicional → condición en imperfecto.",
+   "origen": "tatoeba:1701647"
+  },
+  {
+   "id": "e02",
+   "tipo": "hueco",
+   "enunciado": "Completa con el tiempo adecuado.",
+   "frase": "Si tu souris, je ___ (être) heureux demain.",
+   "respuestas": [
+    "serai"
+   ],
+   "explicacion": "Condición en presente + consecuencia futura: futuro simple.",
+   "origen": "tatoeba:393369"
+  },
+  {
+   "id": "e03",
+   "tipo": "hueco",
+   "enunciado": "Completa con el tiempo adecuado.",
+   "frase": "Que ferais-je si tu ___ (partir) ?",
+   "respuestas": [
+    "partais"
+   ],
+   "explicacion": "Consecuencia en condicional (ferais) → condición en imperfecto."
+  },
+  {
+   "id": "e04",
+   "tipo": "hueco",
+   "enunciado": "Completa con el tiempo adecuado.",
+   "frase": "Si seulement il ___ (venir) !",
+   "respuestas": [
+    "était venu"
+   ],
+   "explicacion": "Si seulement + pluscuamperfecto expresa un lamento sobre el pasado (ojalá hubiera venido).",
+   "origen": "tatoeba:4450319"
+  },
+  {
+   "id": "e05",
+   "tipo": "hueco",
+   "enunciado": "Completa con el tiempo adecuado.",
+   "frase": "Si Edouard était plus rapide, il ___ (gagner) plus de pourboires.",
+   "respuestas": [
+    "gagnerait"
+   ],
+   "explicacion": "Si + imperfecto → condicional presente."
+  },
+  {
+   "id": "e06",
+   "tipo": "hueco",
+   "enunciado": "Completa con el tiempo adecuado.",
+   "frase": "Si tu étais venu, tu ___ (voir) le spectacle.",
+   "respuestas": [
+    "aurais vu"
+   ],
+   "explicacion": "Si + pluscuamperfecto → condicional pasado (avoir en condicional + participio)."
+  },
+  {
+   "id": "e07",
+   "tipo": "hueco",
+   "enunciado": "Completa con el tiempo adecuado.",
+   "frase": "Je ne serais pas venu si je ___ (connaître) la vérité.",
+   "respuestas": [
+    "avais connu"
+   ],
+   "explicacion": "Consecuencia en condicional pasado → condición en pluscuamperfecto."
+  },
+  {
+   "id": "e08",
+   "tipo": "eleccion",
+   "enunciado": "Elige la forma correcta.",
+   "frase": "Si tu as le temps, ___-moi.",
+   "opciones": [
+    "appelle",
+    "appellerais",
+    "appelais"
+   ],
+   "respuestas": [
+    "appelle"
+   ],
+   "explicacion": "Con si + presente la consecuencia puede ir en imperativo.",
+   "origen": "tatoeba:13845860"
+  },
+  {
+   "id": "e09",
+   "tipo": "eleccion",
+   "enunciado": "Elige la forma correcta.",
+   "frase": "Si tu manges ça, tu ___ malade.",
+   "opciones": [
+    "seras",
+    "serais",
+    "sois",
+    "aurais été"
+   ],
+   "respuestas": [
+    "seras"
+   ],
+   "explicacion": "Condición posible en presente → futuro en la consecuencia."
+  },
+  {
+   "id": "e10",
+   "tipo": "eleccion",
+   "enunciado": "Elige la forma correcta.",
+   "frase": "Si seulement j'___ riche…",
+   "opciones": [
+    "étais",
+    "serais",
+    "sois",
+    "suis"
+   ],
+   "respuestas": [
+    "étais"
+   ],
+   "explicacion": "Si seulement + imperfecto expresa un deseo sobre el presente (ojalá fuera rico).",
+   "origen": "tatoeba:3754609"
+  },
+  {
+   "id": "e11",
+   "tipo": "eleccion",
+   "enunciado": "Elige la forma correcta.",
+   "frase": "Je ne sais pas s'il ___ demain.",
+   "opciones": [
+    "viendra",
+    "vienne",
+    "venait"
+   ],
+   "respuestas": [
+    "viendra"
+   ],
+   "explicacion": "Aquí si introduce una pregunta indirecta (no una condición), así que admite el futuro."
+  },
+  {
+   "id": "e12",
+   "tipo": "corregir",
+   "enunciado": "Corrige el error.",
+   "frase": "Si j'aurais le temps, je le ferais.",
+   "respuestas": [
+    "Si j'avais le temps, je le ferais."
+   ],
+   "explicacion": "Detrás de si condicional nunca va condicional: imperfecto."
+  },
+  {
+   "id": "e13",
+   "tipo": "corregir",
+   "enunciado": "Corrige el error.",
+   "frase": "Si il pleut, nous resterons à la maison.",
+   "respuestas": [
+    "S'il pleut, nous resterons à la maison."
+   ],
+   "explicacion": "Si + il se contrae obligatoriamente en s'il."
+  },
+  {
+   "id": "e14",
+   "tipo": "transformar",
+   "enunciado": "Convierte la condición posible en una hipótesis (si + imperfecto).",
+   "frase": "Si j'ai le temps, je le ferai.",
+   "respuestas": [
+    "Si j'avais le temps, je le ferais."
+   ],
+   "explicacion": "Tipo 2: imperfecto en la condición y condicional en la consecuencia.",
+   "origen": "tatoeba:7698133"
+  },
+  {
+   "id": "e15",
+   "tipo": "transformar",
+   "enunciado": "Pasa la hipótesis al pasado (si + pluscuamperfecto).",
+   "frase": "Si je le savais, je le dirais.",
+   "respuestas": [
+    "Si je l'avais su, je l'aurais dit."
+   ],
+   "explicacion": "Tipo 3: pluscuamperfecto + condicional pasado; le se apostrofa ante avais y aurais."
+  },
+  {
+   "id": "e16",
+   "tipo": "ordenar",
+   "enunciado": "Ordena las palabras.",
+   "palabras": [
+    "peux",
+    "tu",
+    "veux",
+    "rester",
+    "si",
+    "Tu",
+    "ici"
+   ],
+   "respuestas": [
+    "Tu peux rester ici si tu veux",
+    "Si tu veux tu peux rester ici"
+   ],
+   "explicacion": "Consecuencia en presente + si + presente: «puedes quedarte si quieres».",
+   "origen": "tatoeba:1359000"
+  }
+ ],
+ "fuente": {
+  "nombre": "Tex's French Grammar",
+  "autores": "COERLL, Universidad de Texas en Austin",
+  "licencia": "CC BY 3.0",
+  "url": "https://laits.utexas.edu/tex/gr/tac3.html",
+  "otras": [
+   "Frases de Tatoeba (CC BY 2.0 FR)"
+  ]
+ }
+}

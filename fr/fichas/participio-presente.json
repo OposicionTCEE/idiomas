@@ -1,0 +1,58 @@
+{
+  "id": "fr.g.participio-presente",
+  "titulo": "Participio presente y gerundio",
+  "titulo_es": "Participio presente y gerundio (participe présent et gérondif)",
+  "descripcion_es": "Formación en -ant; el gerundio en + -ant para simultaneidad, modo, medio o causa; tout en; diferencias con el gerundio español.",
+  "nivel": "B1",
+  "resumen": "La forma en -ant (parlant, finissant) sirve como participio presente, sobre todo en lengua escrita (= qui + verbo o puisque…), y precedida de en forma el gerundio (en parlant), que expresa una acción simultánea del mismo sujeto. Es invariable.",
+  "explicacion": [
+    {"tipo": "texto", "texto": "Formación: toma la forma nous del presente, quita -ons y añade -ant: nous parlons → parlant, nous finissons → finissant, nous faisons → faisant, nous prenons → prenant. Solo tres verbos son irregulares: être → étant, avoir → ayant, savoir → sachant."},
+    {"tipo": "tabla", "cabecera": ["Forma", "Uso", "Ejemplo"], "filas": [
+      ["Participio presente (sin en)", "Equivale a una relativa con qui (registro escrito)", "Les étudiants ayant une bourse ne paient pas (= qui ont une bourse)."],
+      ["Participio presente (sin en)", "Causa, como puisque / comme", "Tammy étant absente, je peux t'emmener (= puisque Tammy est absente)."],
+      ["Gerundio: en + -ant", "Simultaneidad (mientras, al)", "Il conduit en écoutant la radio."],
+      ["Gerundio: en + -ant", "Modo o medio (cómo)", "Il gagne sa vie en jouant du piano."],
+      ["Gerundio: en + -ant", "Condición o causa", "En partant maintenant, tu arriveras à l'heure."],
+      ["Gerundio: tout en + -ant", "Simultaneidad subrayada u oposición", "Il drague Bette tout en pensant à Tammy."]
+    ]},
+    {"tipo": "lista", "items": [
+      "El sujeto del gerundio debe ser el mismo que el del verbo principal: Je l'ai vu en sortant = yo salía.",
+      "El gerundio y el participio presente son invariables: Elles sont parties en courant.",
+      "La perífrasis española estar + gerundio no se traduce con -ant: estoy comiendo = je mange o je suis en train de manger.",
+      "Muchos gerundios españoles se traducen con infinitivo: seguir haciendo = continuer à faire; pasar el día leyendo = passer la journée à lire.",
+      "No confundir con el adjetivo verbal, que sí concuerda: des enfants obéissants (adjetivo) / des enfants obéissant à leurs parents (participio)."
+    ]}
+  ],
+  "ejemplos": [
+    {"frase": "Elle répondit en pleurant.", "traduccion": "Respondió llorando."},
+    {"frase": "Lucia apprend beaucoup en lisant.", "traduccion": "Lucía aprende mucho leyendo."},
+    {"frase": "J'ai rencontré Tom en allant à l'école.", "traduccion": "Me encontré con Tom yendo al colegio."},
+    {"frase": "Il sifflait tout en marchant.", "traduccion": "Silbaba mientras andaba."},
+    {"frase": "Ne sachant pas quoi dire, il s'est tu.", "traduccion": "Como no sabía qué decir, se calló."},
+    {"frase": "Je me suis cassé la jambe en skiant.", "traduccion": "Me rompí la pierna esquiando."}
+  ],
+  "errores_hispanohablantes": [
+    {"mal": "Je suis mangeant.", "bien": "Je suis en train de manger.", "nota": "La forma progresiva española (estoy comiendo) no existe con -ant: presente simple o être en train de + infinitivo."},
+    {"mal": "Il continue lisant.", "bien": "Il continue à lire.", "nota": "Seguir + gerundio se traduce con continuer à + infinitivo."},
+    {"mal": "En sortant du cinéma, la pluie a commencé.", "bien": "En sortant du cinéma, nous avons vu qu'il pleuvait.", "nota": "El gerundio debe tener el mismo sujeto que el verbo principal (la lluvia no sale del cine)."}
+  ],
+  "ejercicios": [
+    {"id": "e01", "tipo": "hueco", "enunciado": "Completa con el gerundio (en + -ant) del verbo entre paréntesis.", "frase": "Il parle ___ (dormir).", "respuestas": ["en dormant"], "explicacion": "Nous dormons → dorm- + -ant.", "origen": "tatoeba:1411417"},
+    {"id": "e02", "tipo": "hueco", "enunciado": "Completa con el gerundio (en + -ant) del verbo entre paréntesis.", "frase": "Tom dit bonjour ___ (sourire).", "respuestas": ["en souriant"], "explicacion": "Nous sourions → souri- + -ant; expresa el modo.", "origen": "tatoeba:7700576"},
+    {"id": "e03", "tipo": "hueco", "enunciado": "Completa con el gerundio (en + -ant) del verbo entre paréntesis.", "frase": "Elle rougit ___ (voir) cela.", "respuestas": ["en voyant"], "explicacion": "Nous voyons → voy- + -ant: «al ver eso».", "origen": "tatoeba:139237"},
+    {"id": "e04", "tipo": "hueco", "enunciado": "Completa con el gerundio (en + -ant) del verbo entre paréntesis.", "frase": "On ne lit pas ___ (manger).", "respuestas": ["en mangeant"], "explicacion": "Nous mangeons conserva la e: mangeant.", "origen": "tatoeba:7767"},
+    {"id": "e05", "tipo": "hueco", "enunciado": "Completa con el gerundio (en + -ant) del verbo entre paréntesis.", "frase": "Fiona écoute de la musique ___ (faire) ses devoirs.", "respuestas": ["en faisant"], "explicacion": "Nous faisons → fais- + -ant."},
+    {"id": "e06", "tipo": "hueco", "enunciado": "Completa con el gerundio (en + -ant) del verbo entre paréntesis.", "frase": "Le chien vint vers moi ___ (courir).", "respuestas": ["en courant"], "explicacion": "Nous courons → cour- + -ant: modo del movimiento.", "origen": "tatoeba:333958"},
+    {"id": "e07", "tipo": "hueco", "enunciado": "Completa con el participio presente (sin en).", "frase": "___ (être) malade, il n'est pas venu au bureau.", "respuestas": ["Étant", "étant", "Etant"], "explicacion": "Être tiene participio irregular: étant (causa: como estaba enfermo)."},
+    {"id": "e08", "tipo": "eleccion", "enunciado": "Elige la forma correcta.", "frase": "Il gagne sa vie ___ du piano.", "opciones": ["en jouant", "jouer", "à jouant", "en jouer"], "respuestas": ["en jouant"], "explicacion": "Medio por el que se consigue algo: en + gerundio.", "origen": "tatoeba:131317"},
+    {"id": "e09", "tipo": "eleccion", "enunciado": "Elige la forma correcta.", "frase": "Je me suis fait mal ___.", "opciones": ["en courant", "en courir", "courant", "à courir"], "respuestas": ["en courant"], "explicacion": "Simultaneidad/circunstancia: me hice daño corriendo.", "origen": "tatoeba:1091894"},
+    {"id": "e10", "tipo": "eleccion", "enunciado": "Elige la forma correcta.", "frase": "Les personnes ___ un billet peuvent entrer.", "opciones": ["ayant", "en ayant", "avant", "aient"], "respuestas": ["ayant"], "explicacion": "Participio presente con valor de relativa (= qui ont); avoir → ayant."},
+    {"id": "e11", "tipo": "eleccion", "enunciado": "Elige la forma correcta.", "frase": "Ne ___ pas la réponse, j'ai préféré me taire.", "opciones": ["sachant", "savant", "en sachant", "savoir"], "respuestas": ["sachant"], "explicacion": "Savoir tiene participio irregular sachant; aquí indica causa."},
+    {"id": "e12", "tipo": "corregir", "enunciado": "Corrige el error.", "frase": "Je suis lisant un roman policier.", "respuestas": ["Je suis en train de lire un roman policier.", "Je lis un roman policier."], "explicacion": "La forma progresiva española se traduce con presente o être en train de + infinitivo."},
+    {"id": "e13", "tipo": "corregir", "enunciado": "Corrige el error.", "frase": "Ne lis pas en marchent !", "respuestas": ["Ne lis pas en marchant !"], "explicacion": "El gerundio termina siempre en -ant.", "origen": "tatoeba:135020"},
+    {"id": "e14", "tipo": "transformar", "enunciado": "Une las dos frases con un gerundio.", "frase": "Elle lisait la lettre. Elle pleurait.", "respuestas": ["Elle pleurait en lisant la lettre.", "En lisant la lettre, elle pleurait."], "explicacion": "Dos acciones simultáneas del mismo sujeto: en + gerundio.", "origen": "tatoeba:494220"},
+    {"id": "e15", "tipo": "transformar", "enunciado": "Sustituye la relativa por un participio presente.", "frase": "Les touristes qui parlent français ont un guide gratuit.", "respuestas": ["Les touristes parlant français ont un guide gratuit."], "explicacion": "Qui + verbo puede sustituirse por el participio presente (registro escrito)."},
+    {"id": "e16", "tipo": "ordenar", "enunciado": "Ordena las palabras.", "palabras": ["traversé", "J'ai", "en", "parc", "le", "marchant"], "respuestas": ["J'ai traversé le parc en marchant"], "explicacion": "Verbo principal + complemento + gerundio de modo.", "origen": "tatoeba:8666"}
+  ],
+  "fuente": {"nombre": "Tex's French Grammar", "autores": "COERLL, Universidad de Texas en Austin", "licencia": "CC BY 3.0", "url": "https://laits.utexas.edu/tex/gr/vpp1.html", "otras": ["Frases de Tatoeba (CC BY 2.0 FR)"]}
+}

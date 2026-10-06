@@ -1,0 +1,60 @@
+{
+ "id": "en.g.past-simple",
+ "titulo": "Past simple",
+ "titulo_es": "Past simple (pasado simple)",
+ "descripcion_es": "Verbos regulares e irregulares; el auxiliar did en preguntas y negaciones.",
+ "nivel": "A2",
+ "resumen": "El past simple expresa acciones terminadas en un momento concreto del pasado (yesterday, last year, in 2010, ago). Equivale casi siempre al pretérito indefinido español.",
+ "explicacion": [
+  {"tipo": "texto", "texto": "En afirmativa, los verbos regulares añaden -ed (work → worked; si acaban en -e, solo -d: live → lived). Los irregulares tienen forma propia que hay que memorizar (go → went, see → saw, buy → bought). La forma es la misma para todas las personas."},
+  {"tipo": "tabla", "cabecera": ["Tipo de frase", "Estructura", "Ejemplo"], "filas": [
+   ["Afirmativa", "sujeto + verbo en pasado", "She visited Rome."],
+   ["Negativa", "sujeto + didn't + infinitivo", "She didn't visit Rome."],
+   ["Pregunta", "Did + sujeto + infinitivo?", "Did she visit Rome?"],
+   ["Respuesta corta", "Yes, sujeto + did / No, sujeto + didn't", "Yes, she did. / No, she didn't."]
+  ]},
+  {"tipo": "texto", "texto": "Con did / didn't el verbo principal vuelve al infinitivo: el pasado ya lo marca el auxiliar. Por eso es incorrecto «Did you went?» o «I didn't saw»."},
+  {"tipo": "lista", "items": [
+   "Ortografía: stop → stopped (consonante final doble tras vocal corta tónica), study → studied (consonante + y → -ied), play → played (vocal + y → -ed).",
+   "Pronunciación de -ed: /t/ tras sonidos sordos (worked), /d/ tras sonoros (played), /ɪd/ tras t o d (wanted, needed).",
+   "El verbo be no usa did: was / were, wasn't / weren't, Was he...?"
+  ]},
+  {"tipo": "tabla", "cabecera": ["Infinitivo", "Pasado", "Significado"], "filas": [
+   ["go", "went", "ir"], ["have", "had", "tener"], ["make", "made", "hacer"], ["take", "took", "tomar, coger"],
+   ["come", "came", "venir"], ["get", "got", "conseguir, llegar"], ["write", "wrote", "escribir"], ["leave", "left", "salir, dejar"]
+  ]},
+  {"tipo": "texto", "texto": "Marcadores típicos: yesterday, last night / week / year, two days ago, in 1998, when I was a child."}
+ ],
+ "ejemplos": [
+  {"frase": "We watched a film last night.", "traduccion": "Anoche vimos una película."},
+  {"frase": "I bought these shoes two weeks ago.", "traduccion": "Compré estos zapatos hace dos semanas."},
+  {"frase": "Did you call your mother yesterday?", "traduccion": "¿Llamaste a tu madre ayer?"},
+  {"frase": "He didn't come to the party.", "traduccion": "No vino a la fiesta."},
+  {"frase": "The train left at seven.", "traduccion": "El tren salió a las siete."},
+  {"frase": "Where were you on Saturday?", "traduccion": "¿Dónde estuviste el sábado?"}
+ ],
+ "errores_hispanohablantes": [
+  {"mal": "Did you saw the match?", "bien": "Did you see the match?", "nota": "Tras did, el verbo va en infinitivo."},
+  {"mal": "I didn't went to work.", "bien": "I didn't go to work.", "nota": "La negación con didn't también lleva infinitivo."},
+  {"mal": "I have seen him yesterday.", "bien": "I saw him yesterday.", "nota": "Con yesterday, ago o una fecha pasada se usa past simple, no present perfect."},
+  {"mal": "Did you were at home?", "bien": "Were you at home?", "nota": "El verbo be forma preguntas sin did."}
+ ],
+ "ejercicios": [
+  {"id": "e01", "tipo": "hueco", "enunciado": "Completa con el verbo en past simple.", "frase": "We ___ (travel) to Portugal last summer.", "respuestas": ["travelled", "traveled"], "explicacion": "Verbo regular: travel + -ed (travelled en británico, traveled en americano)."},
+  {"id": "e02", "tipo": "hueco", "enunciado": "Completa con el verbo en past simple.", "frase": "She ___ (write) a long letter to her grandmother.", "respuestas": ["wrote"], "explicacion": "Write es irregular: write → wrote."},
+  {"id": "e03", "tipo": "hueco", "enunciado": "Completa con el verbo en past simple.", "frase": "The children ___ (stop) playing when it started to rain.", "respuestas": ["stopped"], "explicacion": "Stop dobla la p antes de -ed: stopped."},
+  {"id": "e04", "tipo": "hueco", "enunciado": "Completa con la forma negativa del past simple.", "frase": "I ___ (not / sleep) well last night.", "respuestas": ["didn't sleep", "did not sleep"], "explicacion": "Negativa: didn't + infinitivo."},
+  {"id": "e05", "tipo": "hueco", "enunciado": "Completa con was o were.", "frase": "The shops ___ closed on Sunday.", "respuestas": ["were"], "explicacion": "Sujeto plural (the shops): were."},
+  {"id": "e06", "tipo": "eleccion", "enunciado": "Elige la opción correcta.", "frase": "___ you enjoy the concert?", "opciones": ["Did", "Were", "Do"], "respuestas": ["Did"], "explicacion": "Pregunta en pasado con un verbo distinto de be: Did + sujeto + infinitivo."},
+  {"id": "e07", "tipo": "eleccion", "enunciado": "Elige la opción correcta.", "frase": "My brother ___ his keys at the office yesterday.", "opciones": ["leaved", "left", "has left"], "respuestas": ["left"], "explicacion": "Leave es irregular (left) y yesterday exige past simple."},
+  {"id": "e08", "tipo": "eleccion", "enunciado": "Elige la opción correcta.", "frase": "They didn't ___ the answer.", "opciones": ["knew", "know", "knowed"], "respuestas": ["know"], "explicacion": "Después de didn't va el infinitivo."},
+  {"id": "e09", "tipo": "transformar", "enunciado": "Pasa la frase a negativa (usa la contracción).", "frase": "He bought a new car.", "respuestas": ["He didn't buy a new car."], "explicacion": "Negativa: didn't + infinitivo (buy)."},
+  {"id": "e10", "tipo": "transformar", "enunciado": "Convierte la frase en pregunta.", "frase": "They arrived late.", "respuestas": ["Did they arrive late?"], "explicacion": "Pregunta: Did + sujeto + infinitivo."},
+  {"id": "e11", "tipo": "corregir", "enunciado": "Corrige el error.", "frase": "Did you went to the cinema?", "respuestas": ["Did you go to the cinema?"], "explicacion": "Tras did, el verbo va en infinitivo: go."},
+  {"id": "e12", "tipo": "corregir", "enunciado": "Corrige el error.", "frase": "I have met her three years ago.", "respuestas": ["I met her three years ago."], "explicacion": "Con ago se usa past simple."},
+  {"id": "e13", "tipo": "corregir", "enunciado": "Corrige el error.", "frase": "She studyed medicine in Salamanca.", "respuestas": ["She studied medicine in Salamanca."], "explicacion": "Consonante + y → -ied: studied."},
+  {"id": "e14", "tipo": "ordenar", "enunciado": "Ordena las palabras para formar una pregunta.", "palabras": ["did", "where", "go", "you", "holiday", "on"], "respuestas": ["Where did you go on holiday"], "explicacion": "Partícula interrogativa + did + sujeto + infinitivo."},
+  {"id": "e15", "tipo": "ordenar", "enunciado": "Ordena las palabras.", "palabras": ["the", "we", "bus", "missed", "morning", "this"], "respuestas": ["We missed the bus this morning", "This morning we missed the bus"], "explicacion": "Sujeto + verbo en pasado + complemento + expresión temporal."}
+ ],
+ "fuente": {"nombre": "propia"}
+}

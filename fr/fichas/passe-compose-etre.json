@@ -1,0 +1,59 @@
+{
+ "id": "fr.g.passe-compose-etre",
+ "titulo": "Passé composé con être",
+ "titulo_es": "Passé composé con être (verbos de movimiento y pronominales)",
+ "descripcion_es": "Qué verbos forman el passé composé con être y cómo concuerda el participio con el sujeto.",
+ "nivel": "A2",
+ "resumen": "Un grupo de verbos intransitivos, casi todos de movimiento o cambio de estado (aller, venir, partir, naître, mourir…), y todos los pronominales forman el passé composé con être; entonces el participio concuerda con el sujeto.",
+ "explicacion": [
+  {"tipo": "texto", "texto": "En español todos los verbos usan «haber»; en francés unos veinte verbos muy frecuentes usan être. Son verbos intransitivos que indican un desplazamiento o un cambio de estado, como ir y venir, entrar y salir, nacer y morir."},
+  {"tipo": "tabla", "cabecera": ["Pareja", "Participios"], "filas": [
+   ["aller / venir (revenir, devenir)", "allé / venu (revenu, devenu)"],
+   ["arriver / partir", "arrivé / parti"],
+   ["entrer / sortir", "entré / sorti"],
+   ["monter / descendre", "monté / descendu"],
+   ["naître / mourir", "né / mort"],
+   ["rester / tomber", "resté / tombé"],
+   ["passer / retourner (rentrer)", "passé / retourné (rentré)"]
+  ]},
+  {"tipo": "texto", "texto": "Con être el participio concuerda con el sujeto como un adjetivo: + e en femenino, + s en plural, + es en femenino plural. Elle est allée. Ils sont partis. Tammy et Bette sont restées à San Antonio. Con vous o nous, depende de a quién se refiera: Vous êtes venue, Madame ? Nous sommes arrivés."},
+  {"tipo": "lista", "items": [
+   "Negación alrededor de être: Je ne suis pas allé. Elle n'est pas morte.",
+   "Monter, descendre, sortir, passer y retourner llevan avoir cuando tienen complemento directo: Tex est sorti (salió) / Tex a sorti la poubelle (sacó la basura).",
+   "Otros verbos de movimiento como marcher, courir o voyager usan avoir: J'ai beaucoup marché.",
+   "Todos los verbos pronominales usan être: Je me suis levé tôt."
+  ]}
+ ],
+ "ejemplos": [
+  {"frase": "Il est né à Osaka.", "traduccion": "Nació en Osaka."},
+  {"frase": "Je suis allée au zoo.", "traduccion": "Fui al zoo."},
+  {"frase": "Le train est parti.", "traduccion": "El tren se ha ido."},
+  {"frase": "Tammy est devenue toute pâle et elle est tombée dans la rivière !", "traduccion": "¡Tammy se puso muy pálida y se cayó al río!"},
+  {"frase": "Tex, Corey et toi, vous êtes rentrés de l'Alamo ?", "traduccion": "Tex, Corey y tú, ¿habéis vuelto del Álamo?"},
+  {"frase": "Tex n'a pas sorti la poubelle.", "traduccion": "Tex no ha sacado la basura."}
+ ],
+ "errores_hispanohablantes": [
+  {"mal": "J'ai allé à Paris.", "bien": "Je suis allé à Paris.", "nota": "Aller forma el passé composé con être, aunque en español se use «haber»."},
+  {"mal": "Elle est arrivé hier.", "bien": "Elle est arrivée hier.", "nota": "Con être el participio concuerda con el sujeto femenino."},
+  {"mal": "Il est monté les valises.", "bien": "Il a monté les valises.", "nota": "Si monter, descendre, sortir, passer o retourner llevan complemento directo, se conjugan con avoir."}
+ ],
+ "ejercicios": [
+  {"id": "e01", "tipo": "hueco", "enunciado": "Completa con el participio de naître.", "frase": "Il est ___ en 1960.", "respuestas": ["né"], "explicacion": "Participio irregular de naître: né.", "origen": "tatoeba:135787"},
+  {"id": "e02", "tipo": "hueco", "enunciado": "Completa con el participio de aller (habla una mujer).", "frase": "Je suis ___ au zoo.", "respuestas": ["allée"], "explicacion": "Con être el participio concuerda con el sujeto femenino.", "origen": "tatoeba:1799877"},
+  {"id": "e03", "tipo": "hueco", "enunciado": "Completa con el participio de partir.", "frase": "Le train est ___.", "respuestas": ["parti"], "explicacion": "Train es masculino singular: parti.", "origen": "tatoeba:1201729"},
+  {"id": "e04", "tipo": "hueco", "enunciado": "Completa con el participio de rester.", "frase": "Il est ___ avec moi.", "respuestas": ["resté"], "explicacion": "Rester se conjuga con être; sujeto masculino singular.", "origen": "tatoeba:7686661"},
+  {"id": "e05", "tipo": "corregir", "enunciado": "Corrige el error.", "frase": "Il a venu chez moi.", "respuestas": ["Il est venu chez moi."], "explicacion": "Venir forma el passé composé con être.", "origen": "tatoeba:132283"},
+  {"id": "e06", "tipo": "corregir", "enunciado": "Corrige el error.", "frase": "La nuit est tombé.", "respuestas": ["La nuit est tombée."], "explicacion": "Nuit es femenino: el participio concuerda.", "origen": "tatoeba:8690567"},
+  {"id": "e07", "tipo": "corregir", "enunciado": "Corrige el error.", "frase": "Ils sont allé pêcher.", "respuestas": ["Ils sont allés pêcher."], "explicacion": "Sujeto masculino plural: allés.", "origen": "tatoeba:1111766"},
+  {"id": "e08", "tipo": "transformar", "enunciado": "Pasa la frase al passé composé.", "frase": "Ken arrive à Kyoto.", "respuestas": ["Ken est arrivé à Kyoto."], "explicacion": "Arriver se conjuga con être.", "origen": "tatoeba:11113"},
+  {"id": "e09", "tipo": "transformar", "enunciado": "Pasa la frase al passé composé.", "frase": "Tu sors sans moi.", "respuestas": ["Tu es sorti sans moi.", "Tu es sortie sans moi."], "explicacion": "Sortir sin complemento directo va con être; el participio concuerda con tu.", "origen": "tatoeba:7021660"},
+  {"id": "e10", "tipo": "eleccion", "enunciado": "Elige la forma correcta.", "frase": "Marie et Julie ___ à Paris.", "opciones": ["sont restées", "ont restées", "sont resté", "sont restés"], "respuestas": ["sont restées"], "explicacion": "Rester va con être y el sujeto es femenino plural."},
+  {"id": "e11", "tipo": "eleccion", "enunciado": "Elige la forma correcta (sacó la basura).", "frase": "Tex ___ la poubelle ce matin.", "opciones": ["a sorti", "est sorti", "est sortie"], "respuestas": ["a sorti"], "explicacion": "Con complemento directo (la poubelle), sortir se conjuga con avoir."},
+  {"id": "e12", "tipo": "eleccion", "enunciado": "Elige el auxiliar correcto.", "frase": "Nous ___ beaucoup marché.", "opciones": ["avons", "sommes"], "respuestas": ["avons"], "explicacion": "Marcher, aunque sea de movimiento, se conjuga con avoir."},
+  {"id": "e13", "tipo": "ordenar", "enunciado": "Ordena las palabras (Nació en África).", "palabras": ["Afrique", "né", "Il", "en", "est"], "respuestas": ["Il est né en Afrique"], "explicacion": "Être + participio + complemento de lugar.", "origen": "tatoeba:130680"},
+  {"id": "e14", "tipo": "ordenar", "enunciado": "Ordena las palabras (No ha muerto).", "palabras": ["morte", "pas", "Elle", "n'est"], "respuestas": ["Elle n'est pas morte"], "explicacion": "Ne… pas rodea a être; mort concuerda en femenino."},
+  {"id": "e15", "tipo": "hueco", "enunciado": "Completa con el participio de venir.", "frase": "Vous êtes ___ en train, Madame ?", "respuestas": ["venue"], "explicacion": "Vous se refiere a una sola mujer: venue."},
+  {"id": "e16", "tipo": "hueco", "enunciado": "Completa con el participio de descendre.", "frase": "Mes parents sont ___ au rez-de-chaussée.", "respuestas": ["descendus"], "explicacion": "Sujeto masculino plural: descendus."}
+ ],
+ "fuente": {"nombre": "Tex's French Grammar", "autores": "COERLL, Universidad de Texas en Austin", "licencia": "CC BY 3.0", "url": "https://laits.utexas.edu/tex/gr/tap3.html", "otras": ["Frases de Tatoeba (CC BY 2.0 FR)"]}
+}

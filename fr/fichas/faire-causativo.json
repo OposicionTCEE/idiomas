@@ -1,0 +1,58 @@
+{
+ "id": "fr.g.faire-causativo",
+ "titulo": "Faire causativo",
+ "titulo_es": "Faire causativo (faire + infinitivo, se faire + infinitivo)",
+ "descripcion_es": "faire faire, se faire + infinitivo: mandar hacer, hacer que alguien haga.",
+ "nivel": "B2",
+ "resumen": "faire + infinitivo indica que el sujeto no hace la acción él mismo sino que la provoca o la encarga: Tex fait réparer sa voiture (lleva el coche a arreglar). Con se faire + infinitivo, la acción recae sobre el propio sujeto, buscada o sufrida.",
+ "explicacion": [
+  {"tipo": "texto", "texto": "Contraste: Tex répare sa voiture (la arregla él) / Tex fait réparer sa voiture (la manda arreglar al taller). faire puede ir en cualquier tiempo: Tex va faire réparer sa voiture; Tex a fait réparer sa voiture."},
+  {"tipo": "texto", "texto": "Complementos: con un solo complemento, es directo (Tex fait chanter Tammy). Si hay dos, lo que se hace es el COD y la persona que lo hace pasa a COI con à (o par): Tex fait chanter la Marseillaise à Tammy."},
+  {"tipo": "tabla", "cabecera": ["Frase", "Con pronombres", "Nota"], "filas": [
+   ["Tex fait réparer sa voiture.", "Tex la fait réparer.", "El pronombre va delante de faire, no del infinitivo."],
+   ["Tex fait chanter Tammy.", "Tex la fait chanter.", "Un complemento: directo."],
+   ["Tex fait chanter la Marseillaise à Tammy.", "Tex la lui fait chanter.", "Dos complementos: COD + COI."],
+   ["Fais chanter Tammy !", "Fais-la chanter !", "Imperativo afirmativo: pronombre detrás de faire."],
+   ["Ne fais pas chanter Tammy !", "Ne la fais pas chanter !", "Imperativo negativo: pronombre delante."]
+  ]},
+  {"tipo": "texto", "texto": "se faire + infinitivo: lo que alguien se hace hacer (Je me fais couper les cheveux = me corto el pelo en la peluquería; Rita s'est fait faire une robe) o lo que le ocurre sin quererlo (Il s'est fait voler son portefeuille = le robaron la cartera; se faire arrêter, se faire écraser)."},
+  {"tipo": "lista", "items": [
+   "El participio fait es invariable en esta construcción: Elle s'est fait couper les cheveux; Je les ai fait construire.",
+   "faire faire = mandar hacer: Je fais faire une robe.",
+   "Ojo con el español: «me corto el pelo» en la peluquería es Je me fais couper les cheveux; Je me coupe les cheveux significa que te lo cortas tú."
+  ]}
+ ],
+ "ejemplos": [
+  {"frase": "Je dois faire réparer mon vélo.", "traduccion": "Tengo que llevar la bici a arreglar."},
+  {"frase": "Je me fais couper les cheveux tous les mois.", "traduccion": "Me corto el pelo (en la peluquería) todos los meses."},
+  {"frase": "L'empereur Hadrien a fait construire le mur d'Hadrien.", "traduccion": "El emperador Adriano mandó construir el Muro de Adriano."},
+  {"frase": "Il nous a fait attendre longtemps.", "traduccion": "Nos hizo esperar mucho tiempo."},
+  {"frase": "Tex fait chanter la Marseillaise à Tammy.", "traduccion": "Tex hace cantar La Marsellesa a Tammy."},
+  {"frase": "Elle s'est fait voler son portefeuille dans le métro.", "traduccion": "Le robaron la cartera en el metro."}
+ ],
+ "errores_hispanohablantes": [
+  {"mal": "Il a fait sa voiture réparer.", "bien": "Il a fait réparer sa voiture.", "nota": "faire y el infinitivo van juntos; el complemento va detrás."},
+  {"mal": "Je fais la chanter.", "bien": "Je la fais chanter.", "nota": "El pronombre va delante de faire, no del infinitivo (en español, «la hago cantar»)."},
+  {"mal": "Elle s'est faite couper les cheveux.", "bien": "Elle s'est fait couper les cheveux.", "nota": "fait seguido de infinitivo no concuerda nunca."},
+  {"mal": "Je me coupe les cheveux chez le coiffeur.", "bien": "Je me fais couper les cheveux chez le coiffeur.", "nota": "Si lo hace otra persona, se faire + infinitivo."}
+ ],
+ "ejercicios": [
+  {"id": "e01", "tipo": "hueco", "enunciado": "Completa con el verbo que falta.", "frase": "Je dois ___ réparer mon vélo.", "respuestas": ["faire"], "explicacion": "No lo arreglo yo: faire + infinitivo.", "origen": "tatoeba:181652"},
+  {"id": "e02", "tipo": "hueco", "enunciado": "Completa con faire en passé composé.", "frase": "Il nous ___ attendre longtemps.", "respuestas": ["a fait"], "explicacion": "faire attendre quelqu'un = hacer esperar a alguien.", "origen": "tatoeba:181010"},
+  {"id": "e03", "tipo": "eleccion", "enunciado": "Elige la forma correcta.", "frase": "Je dois me faire ___ les cheveux.", "opciones": ["couper", "coupé", "coupés"], "respuestas": ["couper"], "explicacion": "Tras faire va siempre infinitivo.", "origen": "tatoeba:3258415"},
+  {"id": "e04", "tipo": "corregir", "enunciado": "Corrige el error.", "frase": "Elle m'a faite attendre une demi-heure.", "respuestas": ["Elle m'a fait attendre une demi-heure."], "explicacion": "fait seguido de infinitivo es invariable.", "origen": "tatoeba:134397"},
+  {"id": "e05", "tipo": "corregir", "enunciado": "Corrige el error.", "frase": "Je suis désolé de vous avoir faits attendre.", "respuestas": ["Je suis désolé de vous avoir fait attendre."], "explicacion": "fait + infinitivo no concuerda con el COD.", "origen": "tatoeba:10907"},
+  {"id": "e06", "tipo": "transformar", "enunciado": "Sustituye el complemento por un pronombre.", "frase": "Je dois faire réparer ma voiture.", "respuestas": ["Je dois la faire réparer."], "explicacion": "El pronombre va delante de faire (aquí, tras devoir)."},
+  {"id": "e07", "tipo": "transformar", "enunciado": "Sustituye Tammy por un pronombre.", "frase": "Tex fait chanter Tammy.", "respuestas": ["Tex la fait chanter."], "explicacion": "Un solo complemento: directo (la), delante de faire."},
+  {"id": "e08", "tipo": "transformar", "enunciado": "Sustituye los dos complementos por pronombres.", "frase": "Tex fait chanter la Marseillaise à Tammy.", "respuestas": ["Tex la lui fait chanter."], "explicacion": "COD (la) + COI (lui), ambos delante de faire."},
+  {"id": "e09", "tipo": "transformar", "enunciado": "Sustituye Tammy por un pronombre.", "frase": "Fais chanter Tammy !", "respuestas": ["Fais-la chanter !"], "explicacion": "En imperativo afirmativo el pronombre va detrás de faire, con guion."},
+  {"id": "e10", "tipo": "eleccion", "enunciado": "Elige la forma correcta.", "frase": "L'empereur Hadrien a fait ___ le mur d'Hadrien.", "opciones": ["construire", "construit", "construisant"], "respuestas": ["construire"], "explicacion": "faire + infinitivo: mandó construir.", "origen": "tatoeba:748485"},
+  {"id": "e11", "tipo": "eleccion", "enunciado": "Elige la forma correcta.", "frase": "Vous devriez ___ votre voiture.", "opciones": ["faire réparer", "réparer faire", "vous faire réparer"], "respuestas": ["faire réparer"], "explicacion": "Orden fijo: faire + infinitivo + complemento.", "origen": "tatoeba:713336"},
+  {"id": "e12", "tipo": "hueco", "enunciado": "Completa con faire venir en presente.", "frase": "Corey est très malade : il ___ le médecin.", "respuestas": ["fait venir"], "explicacion": "faire venir quelqu'un = llamar a alguien para que venga."},
+  {"id": "e13", "tipo": "hueco", "enunciado": "Completa con se faire arrêter en passé composé.", "frase": "Pauvre Tex, il ___ en France.", "respuestas": ["s'est fait arrêter"], "explicacion": "se faire + infinitivo para algo sufrido; fait invariable."},
+  {"id": "e14", "tipo": "hueco", "enunciado": "Completa con la preposición (con artículo si hace falta).", "frase": "Rita a fait ranger la chambre ___ enfants.", "respuestas": ["aux"], "explicacion": "Con dos complementos, quien hace la acción va con à: à + les = aux."},
+  {"id": "e15", "tipo": "ordenar", "enunciado": "Ordena las palabras.", "palabras": ["Marie", "attendre", "Tom", "longtemps", "fait", "a"], "respuestas": ["Tom a fait attendre Marie longtemps", "Tom a fait attendre longtemps Marie", "Tom a fait longtemps attendre Marie", "Tom a longtemps fait attendre Marie", "Marie a fait attendre Tom longtemps", "Marie a fait attendre longtemps Tom", "Marie a longtemps fait attendre Tom"], "explicacion": "faire + infinitivo seguidos; el complemento detrás.", "origen": "tatoeba:3655758"},
+  {"id": "e16", "tipo": "ordenar", "enunciado": "Ordena las palabras.", "palabras": ["les", "fais", "mois", "couper", "Je", "tous", "cheveux", "me", "les"], "respuestas": ["Je me fais couper les cheveux tous les mois", "Tous les mois je me fais couper les cheveux"], "explicacion": "se faire + infinitivo: me lo corta el peluquero.", "origen": "tatoeba:127929"}
+ ],
+ "fuente": {"nombre": "Tex's French Grammar", "autores": "COERLL, Universidad de Texas en Austin", "licencia": "CC BY 3.0", "url": "https://laits.utexas.edu/tex/gr/virr7.html", "otras": ["Frases de Tatoeba (CC BY 2.0 FR)"]}
+}

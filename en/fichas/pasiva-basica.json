@@ -1,0 +1,53 @@
+{
+ "id": "en.g.pasiva-basica",
+ "titulo": "Passive (present and past)",
+ "titulo_es": "Voz pasiva (presente y pasado)",
+ "descripcion_es": "be + participio en presente y pasado simple; cuándo y cómo mencionar al agente con by.",
+ "nivel": "B1",
+ "resumen": "La pasiva se forma con be en el tiempo correspondiente + participio. Se usa cuando importa más la acción o el objeto que quien la realiza, o cuando no se sabe quién la realiza.",
+ "explicacion": [
+  {"tipo": "tabla", "cabecera": ["Tiempo", "Activa", "Pasiva"], "filas": [
+   ["Presente simple", "They make cars here.", "Cars are made here."],
+   ["Pasado simple", "Someone stole my bike.", "My bike was stolen."],
+   ["Negativa", "They don't use this room.", "This room isn't used."],
+   ["Pregunta", "Did they invite you?", "Were you invited?"]
+  ]},
+  {"tipo": "lista", "items": [
+   "El objeto de la activa pasa a sujeto y be concuerda con él: The letters were sent (plural).",
+   "El agente se introduce con by solo si aporta información: The Mona Lisa was painted by Leonardo.",
+   "Se omite el agente si es obvio, desconocido o irrelevante: He was arrested (por la policía, es evidente).",
+   "Equivale a menudo a la pasiva refleja española con «se»: English is spoken here = Aquí se habla inglés."
+  ]},
+  {"tipo": "texto", "texto": "Los participios irregulares son la fuente principal de errores: built, written, sold, made, taken, given, found, held, paid, sent, known. Repásalos antes de hacer los ejercicios."}
+ ],
+ "ejemplos": [
+  {"frase": "Spanish is spoken in more than twenty countries.", "traduccion": "El español se habla en más de veinte países."},
+  {"frase": "The bridge was built in the nineteenth century.", "traduccion": "El puente se construyó en el siglo XIX."},
+  {"frase": "Breakfast is served from seven to ten.", "traduccion": "El desayuno se sirve de siete a diez."},
+  {"frase": "Were the tickets sold online?", "traduccion": "¿Se vendieron las entradas por internet?"},
+  {"frase": "The novel was written by a young Chilean author.", "traduccion": "La novela la escribió un joven autor chileno."},
+  {"frase": "Our flight wasn't cancelled, luckily.", "traduccion": "Por suerte, no cancelaron nuestro vuelo."}
+ ],
+ "errores_hispanohablantes": [
+  {"mal": "The house was build in 1950.", "bien": "The house was built in 1950.", "nota": "La pasiva necesita el participio, no el infinitivo."},
+  {"mal": "In this shop is sold fruit.", "bien": "Fruit is sold in this shop.", "nota": "La pasiva inglesa necesita sujeto delante del verbo; no se calca la pasiva refleja con «se»."},
+  {"mal": "The emails was sent yesterday.", "bien": "The emails were sent yesterday.", "nota": "Be concuerda con el nuevo sujeto: plural, were."}
+ ],
+ "ejercicios": [
+  {"id": "e01", "tipo": "hueco", "enunciado": "Completa con la pasiva en presente simple.", "frase": "Coffee ___ (grow) in Colombia and Brazil.", "respuestas": ["is grown"], "explicacion": "Presente: is + participio (grown)."},
+  {"id": "e02", "tipo": "hueco", "enunciado": "Completa con la pasiva en pasado simple.", "frase": "The film ___ (direct) by Pedro Almodóvar.", "respuestas": ["was directed"], "explicacion": "Pasado: was + participio."},
+  {"id": "e03", "tipo": "hueco", "enunciado": "Completa con la pasiva en pasado simple.", "frase": "Two people ___ (injure) in the accident.", "respuestas": ["were injured"], "explicacion": "Sujeto plural: were + participio."},
+  {"id": "e04", "tipo": "hueco", "enunciado": "Completa con la pasiva en presente simple.", "frase": "These products ___ (not sell) in supermarkets.", "respuestas": ["aren't sold", "are not sold"], "explicacion": "Negativa: aren't + participio."},
+  {"id": "e05", "tipo": "eleccion", "enunciado": "Elige la opción correcta.", "frase": "The thieves ___ last night.", "opciones": ["arrested", "were arrested", "was arrested"], "respuestas": ["were arrested"], "explicacion": "Los ladrones reciben la acción y es plural: were arrested."},
+  {"id": "e06", "tipo": "eleccion", "enunciado": "Elige la opción correcta.", "frase": "Hamlet was written ___ Shakespeare.", "opciones": ["by", "from", "of"], "respuestas": ["by"], "explicacion": "El agente de la pasiva se introduce con by."},
+  {"id": "e07", "tipo": "eleccion", "enunciado": "Elige la opción correcta.", "frase": "Where ___ these shoes made?", "opciones": ["did", "were", "are being"], "respuestas": ["were"], "explicacion": "Pregunta en pasiva pasada: were + sujeto + participio."},
+  {"id": "e08", "tipo": "corregir", "enunciado": "Corrige el error.", "frase": "The museum is visit by thousands of people every year.", "respuestas": ["The museum is visited by thousands of people every year."], "explicacion": "Hace falta el participio: visited."},
+  {"id": "e09", "tipo": "corregir", "enunciado": "Corrige el error.", "frase": "The windows was cleaned this morning.", "respuestas": ["The windows were cleaned this morning."], "explicacion": "Windows es plural: were."},
+  {"id": "e10", "tipo": "transformar", "enunciado": "Pasa la frase a pasiva sin mencionar el agente.", "frase": "Someone stole my wallet.", "respuestas": ["My wallet was stolen."], "explicacion": "El agente (someone) es desconocido: se omite."},
+  {"id": "e11", "tipo": "transformar", "enunciado": "Pasa la frase a pasiva.", "frase": "Picasso painted Guernica.", "respuestas": ["Guernica was painted by Picasso."], "explicacion": "El agente es relevante: by Picasso."},
+  {"id": "e12", "tipo": "transformar", "enunciado": "Pasa la frase a pasiva sin mencionar el agente.", "frase": "They clean the offices every evening.", "respuestas": ["The offices are cleaned every evening."], "explicacion": "Presente simple: are + participio; they no aporta información."},
+  {"id": "e13", "tipo": "ordenar", "enunciado": "Ordena las palabras.", "palabras": ["is", "here", "English", "spoken"], "respuestas": ["English is spoken here", "Is English spoken here"], "explicacion": "Sujeto + is + participio + lugar."},
+  {"id": "e14", "tipo": "ordenar", "enunciado": "Ordena las palabras.", "palabras": ["was", "in", "the", "built", "castle", "1200"], "respuestas": ["the castle was built in 1200", "in 1200 the castle was built"], "explicacion": "Sujeto + was + participio + complemento de tiempo."}
+ ],
+ "fuente": {"nombre": "propia"}
+}

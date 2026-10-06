@@ -1,0 +1,62 @@
+{
+  "id": "fr.g.estilo-indirecto-pasado",
+  "titulo": "Estilo indirecto en pasado",
+  "titulo_es": "Estilo indirecto en pasado y concordancia de tiempos (concordance des temps)",
+  "descripcion_es": "Il a dit qu'il viendrait: cambio de tiempos y de marcadores temporales cuando el verbo introductor está en pasado.",
+  "nivel": "B2",
+  "resumen": "Cuando el verbo introductor está en pasado (il a dit, elle a demandé, je pensais), los tiempos de lo que se cuenta retroceden: el presente pasa a imperfecto, el pretérito a pluscuamperfecto y el futuro a condicional. También cambian las referencias de tiempo y lugar.",
+  "explicacion": [
+    {"tipo": "tabla", "cabecera": ["Estilo directo", "Estilo indirecto (pasado)", "Ejemplo"], "filas": [
+      ["presente", "imperfecto", "« J'ai faim. » → Il a dit qu'il avait faim."],
+      ["passé composé", "pluscuamperfecto", "« J'ai acheté un CD. » → Elle a dit qu'elle avait acheté un CD."],
+      ["futuro simple", "condicional presente", "« Je t'appellerai. » → Il a dit qu'il m'appellerait."],
+      ["futur proche (aller + inf.)", "aller en imperfecto + inf.", "« Je vais partir. » → Il a dit qu'il allait partir."],
+      ["futur antérieur", "condicional pasado", "« J'aurai fini. » → Il a dit qu'il aurait fini."],
+      ["imperfecto, pluscuamperfecto, condicional, subjuntivo", "no cambian", "« Je voudrais partir. » → Il a dit qu'il voudrait partir."]
+    ]},
+    {"tipo": "tabla", "cabecera": ["Directo", "Indirecto en pasado"], "filas": [
+      ["aujourd'hui", "ce jour-là"],
+      ["hier", "la veille"],
+      ["demain", "le lendemain"],
+      ["la semaine prochaine", "la semaine suivante"],
+      ["la semaine dernière", "la semaine précédente"],
+      ["il y a deux jours", "deux jours avant / plus tôt"],
+      ["maintenant", "à ce moment-là"],
+      ["ici", "là"]
+    ]},
+    {"tipo": "texto", "texto": "Los nexos son los mismos que en presente: que para afirmaciones, si para preguntas de sí o no, el interrogativo (où, quand…), ce que / ce qui y de + infinitivo para las órdenes (Il m'a dit de ralentir). Si lo dicho sigue siendo verdad cuando se cuenta, se admite mantener el presente: L'oculiste m'a dit que je suis myope."},
+    {"tipo": "texto", "texto": "Comparación con el español: el mecanismo es casi idéntico (dijo que vendría, dijo que había comprado), pero el español usa el pretérito indefinido en muchos casos en que el francés exige el pluscuamperfecto: «dijo que compró un CD» → elle a dit qu'elle avait acheté un CD. En francés escrito cuidado, la regla se aplica siempre."}
+  ],
+  "ejemplos": [
+    {"frase": "Il a dit qu'il était occupé.", "traduccion": "Dijo que estaba ocupado."},
+    {"frase": "Il a dit qu'il t'appellerait plus tard.", "traduccion": "Dijo que te llamaría más tarde."},
+    {"frase": "Elle m'a dit qu'elle avait acheté un CD.", "traduccion": "Me dijo que había comprado un CD."},
+    {"frase": "Elle m'a demandé si j'allais bien.", "traduccion": "Me preguntó si estaba bien."},
+    {"frase": "Tom a dit qu'il ne savait pas quoi faire.", "traduccion": "Tom dijo que no sabía qué hacer."},
+    {"frase": "Je te demandais ce que tu allais faire ce soir.", "traduccion": "Te preguntaba qué ibas a hacer esta noche."}
+  ],
+  "errores_hispanohablantes": [
+    {"mal": "Il a dit qu'il viendra demain.", "bien": "Il a dit qu'il viendrait le lendemain.", "nota": "Con el introductor en pasado, el futuro pasa a condicional y demain a le lendemain (si se cuenta otro día)."},
+    {"mal": "Elle a dit qu'elle a vu le film.", "bien": "Elle a dit qu'elle avait vu le film.", "nota": "El passé composé del estilo directo pasa a pluscuamperfecto, aunque en español se diga a menudo «dijo que vio»."},
+    {"mal": "Il m'a demandé qu'est-ce que je voulais.", "bien": "Il m'a demandé ce que je voulais.", "nota": "Qu'est-ce que pasa a ce que en la pregunta indirecta."}
+  ],
+  "ejercicios": [
+    {"id": "e01", "tipo": "hueco", "enunciado": "Completa con el tiempo adecuado.", "frase": "« J'ai faim. » → Il a dit qu'il ___ (avoir) faim.", "respuestas": ["avait"], "explicacion": "Presente → imperfecto.", "origen": "tatoeba:332704"},
+    {"id": "e02", "tipo": "hueco", "enunciado": "Completa con el tiempo adecuado.", "frase": "« Je vous aiderai. » → Il a dit qu'il m'___ (aider).", "respuestas": ["aiderait"], "explicacion": "Futuro → condicional presente.", "origen": "tatoeba:1836376"},
+    {"id": "e03", "tipo": "hueco", "enunciado": "Completa con el tiempo adecuado.", "frase": "« Je vis à Osaka. » → Elle a dit qu'elle ___ (vivre) à Osaka.", "respuestas": ["vivait"], "explicacion": "Presente → imperfecto.", "origen": "tatoeba:1602178"},
+    {"id": "e04", "tipo": "hueco", "enunciado": "Completa con el tiempo adecuado.", "frase": "« Je n'y suis jamais allée. » → Elle a dit qu'elle n'y ___ jamais allée.", "respuestas": ["était"], "explicacion": "Passé composé → pluscuamperfecto: el auxiliar être pasa a imperfecto.", "origen": "tatoeba:709429"},
+    {"id": "e05", "tipo": "hueco", "enunciado": "Completa con el tiempo adecuado.", "frase": "« Je vais quitter ton frère. » → Elle a dit qu'elle ___ (aller) quitter mon frère.", "respuestas": ["allait"], "explicacion": "Futur proche → aller en imperfecto + infinitivo."},
+    {"id": "e06", "tipo": "hueco", "enunciado": "Completa con el marcador temporal adecuado.", "frase": "« Je partirai demain. » → Il a dit qu'il partirait ___.", "respuestas": ["le lendemain"], "explicacion": "Contado desde otro día, demain pasa a le lendemain."},
+    {"id": "e07", "tipo": "hueco", "enunciado": "Completa con el marcador temporal adecuado.", "frase": "« Je suis arrivé hier. » → Il a expliqué qu'il était arrivé ___.", "respuestas": ["la veille"], "explicacion": "Hier pasa a la veille."},
+    {"id": "e08", "tipo": "eleccion", "enunciado": "Elige la forma correcta.", "frase": "Il m'a demandé si j'___ heureux.", "opciones": ["étais", "suis", "serai", "sois"], "respuestas": ["étais"], "explicacion": "Pregunta « Tu es heureux ? » con introductor en pasado: presente → imperfecto.", "origen": "tatoeba:1817437"},
+    {"id": "e09", "tipo": "eleccion", "enunciado": "Elige la forma correcta.", "frase": "Trey m'a raconté qu'il ___ une bague pour Tammy.", "opciones": ["avait acheté", "a acheté", "achètera", "achetait"], "respuestas": ["avait acheté"], "explicacion": "Acción anterior al momento en que habla → pluscuamperfecto."},
+    {"id": "e10", "tipo": "eleccion", "enunciado": "Elige la forma correcta.", "frase": "Il m'a dit ___ ralentir.", "opciones": ["de", "que", "à", "qu'il faut"], "respuestas": ["de"], "explicacion": "Orden indirecta: dire de + infinitivo.", "origen": "tatoeba:7701766"},
+    {"id": "e11", "tipo": "transformar", "enunciado": "Pasa al estilo indirecto empezando por «Il a dit».", "frase": "« Je ne veux plus te voir. »", "respuestas": ["Il a dit qu'il ne voulait plus me voir."], "explicacion": "Presente → imperfecto; te pasa a me (la persona que lo cuenta).", "origen": "tatoeba:7699732"},
+    {"id": "e12", "tipo": "transformar", "enunciado": "Pasa al estilo indirecto empezando por «Elle m'a demandé».", "frase": "« Quand est-ce que tu vas partir ? »", "respuestas": ["Elle m'a demandé quand j'allais partir."], "explicacion": "Se mantiene quand, sin est-ce que; futur proche → aller en imperfecto."},
+    {"id": "e13", "tipo": "transformar", "enunciado": "Pasa al estilo indirecto empezando por «Il a dit».", "frase": "« Il n'y a personne ici. »", "respuestas": ["Il a dit qu'il n'y avait personne là.", "Il a dit qu'il n'y avait personne ici."], "explicacion": "Il y a → il y avait; ici puede pasar a là si se cuenta desde otro lugar.", "origen": "tatoeba:7695906"},
+    {"id": "e14", "tipo": "corregir", "enunciado": "Corrige el error.", "frase": "Elle a dit qu'elle veut me parler.", "respuestas": ["Elle a dit qu'elle voulait me parler."], "explicacion": "Introductor en pasado: el presente pasa a imperfecto.", "origen": "tatoeba:9051600"},
+    {"id": "e15", "tipo": "corregir", "enunciado": "Corrige el error.", "frase": "Il a promis qu'il viendra à la fête.", "respuestas": ["Il a promis qu'il viendrait à la fête."], "explicacion": "Futuro visto desde el pasado → condicional."},
+    {"id": "e16", "tipo": "ordenar", "enunciado": "Ordena las palabras.", "palabras": ["avait", "Mary", "que", "dit", "Tom", "a", "des", "ennuis"], "respuestas": ["Mary a dit que Tom avait des ennuis", "Tom a dit que Mary avait des ennuis"], "explicacion": "Introductor en passé composé + que + imperfecto.", "origen": "tatoeba:2053962"}
+  ],
+  "fuente": {"nombre": "Tex's French Grammar", "autores": "COERLL, Universidad de Texas en Austin", "licencia": "CC BY 3.0", "url": "https://laits.utexas.edu/tex/gr/tad2.html", "otras": ["Frases de Tatoeba (CC BY 2.0 FR)"]}
+}

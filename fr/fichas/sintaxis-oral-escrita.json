@@ -1,0 +1,288 @@
+{
+ "id": "fr.g.sintaxis-oral-escrita",
+ "titulo": "Sintaxis oral frente a escrita",
+ "titulo_es": "Sintaxis oral frente a escrita (français parlé et français écrit)",
+ "descripcion_es": "Omisión de ne, on por nous, dislocaciones, preguntas sin inversión, elipsis; cuándo usar cada registro.",
+ "nivel": "C2",
+ "resumen": "El francés hablado tiene una sintaxis propia que difiere bastante de la escrita: suprime el ne, usa on por nous, disloca los elementos y formula preguntas por entonación. Dominar ambas permite entender a hablantes nativos y, al mismo tiempo, no trasladar rasgos orales a un examen escrito o a una exposición formal.",
+ "explicacion": [
+  {
+   "tipo": "tabla",
+   "cabecera": [
+    "Rasgo",
+    "Oral espontáneo",
+    "Escrito o formal"
+   ],
+   "filas": [
+    [
+     "Negación",
+     "Je sais pas. J'ai rien vu.",
+     "Je ne sais pas. Je n'ai rien vu."
+    ],
+    [
+     "Primera persona del plural",
+     "On y va ? On est contents.",
+     "Nous y allons ? Nous sommes contents."
+    ],
+    [
+     "Pregunta total",
+     "Tu viens ?",
+     "Est-ce que tu viens ? / Viens-tu ?"
+    ],
+    [
+     "Pregunta parcial",
+     "Tu vas où ? C'est quoi, ça ?",
+     "Où vas-tu ? Qu'est-ce que c'est ?"
+    ],
+    [
+     "Dislocación",
+     "Mon frère, il habite à Nantes.",
+     "Mon frère habite à Nantes."
+    ],
+    [
+     "Presentativo",
+     "Il y a mon voisin qui chante.",
+     "Mon voisin chante."
+    ],
+    [
+     "Elipsis y reducciones",
+     "Pas de souci. Faut voir. T'as vu ?",
+     "Il n'y a pas de problème. Il faut voir. As-tu vu ?"
+    ],
+    [
+     "Relativas",
+     "Le truc que je t'ai parlé (incorrecto)",
+     "La chose dont je t'ai parlé."
+    ]
+   ]
+  },
+  {
+   "tipo": "texto",
+   "texto": "Para el opositor: en la prueba oral se espera un registro estándar cuidado (ne siempre presente, nous en las exposiciones, preguntas con est-ce que o inversión), aunque on es aceptable con valor general (on peut considérer que…). En la escritura, cualquier rasgo de la columna oral se considera un error de registro."
+  },
+  {
+   "tipo": "lista",
+   "items": [
+    "Il faut, il y a, il est: en el oral se pierde il (faut partir, y a du monde); en el escrito nunca.",
+    "Ça es oral; cela es escrito: Cela montre que… en un informe.",
+    "Las dislocaciones tienen un uso legítimo en el oral formal para anunciar el tema: La dette, j'y reviendrai dans un instant."
+   ]
+  }
+ ],
+ "ejemplos": [
+  {
+   "frase": "Oral: Je l'ai pas vu, ton frère. — Escrito: Je n'ai pas vu ton frère.",
+   "traduccion": "No he visto a tu hermano."
+  },
+  {
+   "frase": "Oral: On part quand ? — Escrito: Quand partons-nous ?",
+   "traduccion": "¿Cuándo nos vamos?"
+  },
+  {
+   "frase": "Oral: Y a plein de gens qui pensent ça. — Escrito: Beaucoup de gens le pensent.",
+   "traduccion": "Mucha gente lo piensa."
+  },
+  {
+   "frase": "Oral: Ça sert à rien. — Escrito: Cela ne sert à rien.",
+   "traduccion": "No sirve de nada."
+  },
+  {
+   "frase": "Oral: Faut que je file. — Escrito: Il faut que je parte.",
+   "traduccion": "Me tengo que ir."
+  },
+  {
+   "frase": "Oral formal: Le chômage des jeunes, c'est là le vrai défi.",
+   "traduccion": "El desempleo juvenil: ese es el verdadero reto."
+  }
+ ],
+ "errores_hispanohablantes": [
+  {
+   "mal": "Je sais pas si le rapport est prêt (en un correo profesional).",
+   "bien": "Je ne sais pas si le rapport est prêt.",
+   "nota": "La omisión de ne es normal hablando, pero en un escrito es una falta de registro."
+  },
+  {
+   "mal": "Tu es d'accord ? (en una carta formal)",
+   "bien": "Êtes-vous d'accord ?",
+   "nota": "En el escrito formal se usa la inversión (o est-ce que) y vous."
+  },
+  {
+   "mal": "C'est le livre que je t'ai parlé.",
+   "bien": "C'est le livre dont je t'ai parlé.",
+   "nota": "El que «comodín» del oral popular es incorrecto: parler de exige dont."
+  }
+ ],
+ "ejercicios": [
+  {
+   "id": "e01",
+   "tipo": "transformar",
+   "enunciado": "Pasa la frase al registro escrito.",
+   "frase": "J'ai pas compris.",
+   "respuestas": [
+    "Je n'ai pas compris."
+   ],
+   "explicacion": "El escrito exige ne… pas."
+  },
+  {
+   "id": "e02",
+   "tipo": "transformar",
+   "enunciado": "Pasa la frase al registro escrito con nous.",
+   "frase": "On est arrivés hier.",
+   "respuestas": [
+    "Nous sommes arrivés hier."
+   ],
+   "explicacion": "On = nous en el oral; el escrito formal usa nous."
+  },
+  {
+   "id": "e03",
+   "tipo": "transformar",
+   "enunciado": "Formula la pregunta con inversión.",
+   "frase": "Vous habitez où ?",
+   "respuestas": [
+    "Où habitez-vous ?",
+    "Où habitez-vous?"
+   ],
+   "explicacion": "Registro formal: interrogativo al principio e inversión."
+  },
+  {
+   "id": "e04",
+   "tipo": "transformar",
+   "enunciado": "Elimina la dislocación.",
+   "frase": "Ma voisine, elle travaille à la mairie.",
+   "respuestas": [
+    "Ma voisine travaille à la mairie."
+   ],
+   "explicacion": "En el escrito se suprime el pronombre de retoma."
+  },
+  {
+   "id": "e05",
+   "tipo": "transformar",
+   "enunciado": "Pasa la frase al registro escrito.",
+   "frase": "Faut pas exagérer.",
+   "respuestas": [
+    "Il ne faut pas exagérer."
+   ],
+   "explicacion": "Se restituyen il y ne."
+  },
+  {
+   "id": "e06",
+   "tipo": "eleccion",
+   "enunciado": "Elige la versión adecuada para un informe escrito.",
+   "frase": "___",
+   "opciones": [
+    "Ça montre que la politique est efficace.",
+    "Cela montre que la politique est efficace.",
+    "Ça, ça montre que la politique, elle est efficace."
+   ],
+   "respuestas": [
+    "Cela montre que la politique est efficace."
+   ],
+   "explicacion": "Cela y sin dislocaciones en el escrito."
+  },
+  {
+   "id": "e07",
+   "tipo": "eleccion",
+   "enunciado": "Elige la versión adecuada para una carta formal.",
+   "frase": "___",
+   "opciones": [
+    "Vous pouvez m'envoyer le document ?",
+    "Pourriez-vous m'envoyer le document ?",
+    "Tu peux m'envoyer le document ?"
+   ],
+   "respuestas": [
+    "Pourriez-vous m'envoyer le document ?"
+   ],
+   "explicacion": "Inversión, vous y condicional de cortesía."
+  },
+  {
+   "id": "e08",
+   "tipo": "eleccion",
+   "enunciado": "¿Qué rasgo oral contiene la frase?",
+   "frase": "Y a personne. Rasgo: ___",
+   "opciones": [
+    "omisión de il y de ne",
+    "inversión",
+    "dislocación"
+   ],
+   "respuestas": [
+    "omisión de il y de ne"
+   ],
+   "explicacion": "Escrito: Il n'y a personne."
+  },
+  {
+   "id": "e09",
+   "tipo": "hueco",
+   "enunciado": "Completa la versión escrita de «C'est quoi, le problème ?».",
+   "frase": "Quel ___ le problème ?",
+   "respuestas": [
+    "est"
+   ],
+   "explicacion": "Quel est le problème ? es la forma estándar."
+  },
+  {
+   "id": "e10",
+   "tipo": "hueco",
+   "enunciado": "Completa la versión escrita de «J'en ai pas besoin».",
+   "frase": "Je n'en ai ___ besoin.",
+   "respuestas": [
+    "pas"
+   ],
+   "explicacion": "Se restituye la negación completa ne… pas."
+  },
+  {
+   "id": "e11",
+   "tipo": "corregir",
+   "enunciado": "Corrige el error de registro (texto escrito).",
+   "frase": "Le rapport ne dit rien sur les causes, ça c'est dommage.",
+   "respuestas": [
+    "Le rapport ne dit rien sur les causes, c'est dommage.",
+    "Le rapport ne dit rien sur les causes, ce qui est dommage."
+   ],
+   "explicacion": "La dislocación ça c'est es propia del oral."
+  },
+  {
+   "id": "e12",
+   "tipo": "corregir",
+   "enunciado": "Corrige el error.",
+   "frase": "Voilà l'outil que j'ai besoin.",
+   "respuestas": [
+    "Voilà l'outil dont j'ai besoin."
+   ],
+   "explicacion": "Avoir besoin de exige dont; que es un uso oral incorrecto."
+  },
+  {
+   "id": "e13",
+   "tipo": "ordenar",
+   "enunciado": "Ordena las palabras para formar una pregunta formal.",
+   "palabras": [
+    "pour",
+    "partez-vous",
+    "Lyon",
+    "Quand"
+   ],
+   "respuestas": [
+    "Quand partez-vous pour Lyon"
+   ],
+   "explicacion": "Interrogativo + verbo + pronombre invertido."
+  },
+  {
+   "id": "e14",
+   "tipo": "ordenar",
+   "enunciado": "Ordena las palabras (registro escrito).",
+   "palabras": [
+    "ne",
+    "Nous",
+    "savons",
+    "pas",
+    "encore"
+   ],
+   "respuestas": [
+    "Nous ne savons pas encore"
+   ],
+   "explicacion": "Nous en lugar de on y negación completa."
+  }
+ ],
+ "fuente": {
+  "nombre": "propia"
+ }
+}

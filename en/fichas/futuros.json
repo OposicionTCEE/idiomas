@@ -1,0 +1,54 @@
+{
+ "id": "en.g.futuros",
+ "titulo": "Future forms compared",
+ "titulo_es": "Formas de futuro comparadas (will, going to, presente continuo y presente simple)",
+ "descripcion_es": "Cuándo usar will, be going to, el presente continuo y el presente simple para hablar del futuro.",
+ "nivel": "B1",
+ "resumen": "El inglés tiene varias formas de futuro y la elección depende de si se trata de una decisión espontánea, un plan, una cita fijada, una predicción o un horario.",
+ "explicacion": [
+  {"tipo": "tabla", "cabecera": ["Forma", "Uso", "Ejemplo"], "filas": [
+   ["will + infinitivo", "Decisión en el momento, ofrecimiento, promesa, predicción por opinión", "It's cold. I'll close the window."],
+   ["be going to + infinitivo", "Intención o plan ya decidido", "I'm going to study law next year."],
+   ["be going to + infinitivo", "Predicción basada en lo que se ve ahora", "Look at those clouds! It's going to rain."],
+   ["Presente continuo", "Cita o plan concertado (fecha, hora, con otras personas)", "I'm meeting Sara at six."],
+   ["Presente simple", "Horarios y programas fijos", "The train leaves at 8.15."]
+  ]},
+  {"tipo": "lista", "items": [
+   "Con think, probably, perhaps, I'm sure se suele usar will: I think Spain will win.",
+   "Tras when, as soon as, before, after, until, if se usa presente, no will: I'll call you when I arrive.",
+   "Shall I / Shall we? para ofrecer o sugerir: Shall I help you?",
+   "Won't = will not; también expresa negativa a hacer algo: The car won't start."
+  ]},
+  {"tipo": "texto", "texto": "Entre going to y presente continuo la diferencia es pequeña: el continuo implica que ya está organizado (billete, reserva, quedada). I'm going to see a doctor (lo he decidido); I'm seeing the doctor at 10 (tengo cita)."}
+ ],
+ "ejemplos": [
+  {"frase": "The phone is ringing. — I'll get it!", "traduccion": "Está sonando el teléfono. — ¡Ya lo cojo yo!"},
+  {"frase": "We're going to paint the kitchen this weekend.", "traduccion": "Vamos a pintar la cocina este fin de semana."},
+  {"frase": "She's flying to Mexico on Friday.", "traduccion": "Se va en avión a México el viernes."},
+  {"frase": "The museum opens at ten tomorrow.", "traduccion": "El museo abre mañana a las diez."},
+  {"frase": "Careful! You're going to drop those glasses.", "traduccion": "¡Cuidado! Se te van a caer esos vasos."},
+  {"frase": "I'll text you as soon as I get home.", "traduccion": "Te escribo en cuanto llegue a casa."}
+ ],
+ "errores_hispanohablantes": [
+  {"mal": "I will call you when I will arrive.", "bien": "I will call you when I arrive.", "nota": "Tras when, as soon as, before, until… se usa presente, igual que el subjuntivo español «cuando llegue»."},
+  {"mal": "I go to the dentist tomorrow at five.", "bien": "I'm going to the dentist tomorrow at five.", "nota": "Una cita personal fijada va en presente continuo, no en presente simple (que se reserva para horarios)."},
+  {"mal": "Do you want a coffee? — Yes, I'm going to have one.", "bien": "Do you want a coffee? — Yes, I'll have one.", "nota": "Una decisión tomada en el momento de hablar se expresa con will."}
+ ],
+ "ejercicios": [
+  {"id": "e01", "tipo": "eleccion", "enunciado": "Elige la opción más adecuada.", "frase": "This bag looks heavy. — Don't worry, I ___ carry it for you.", "opciones": ["will", "am going to", "am carrying"], "respuestas": ["will"], "explicacion": "Ofrecimiento espontáneo: will."},
+  {"id": "e02", "tipo": "eleccion", "enunciado": "Elige la opción más adecuada.", "frase": "We've bought the tickets. We ___ to Rome in May.", "opciones": ["will go", "are going", "go"], "respuestas": ["are going"], "explicacion": "Plan organizado (billetes comprados): presente continuo."},
+  {"id": "e03", "tipo": "eleccion", "enunciado": "Elige la opción más adecuada.", "frase": "The concert ___ at 9 p.m., according to the programme.", "opciones": ["starts", "is going to start", "will be starting"], "respuestas": ["starts"], "explicacion": "Horario fijo de un programa: presente simple."},
+  {"id": "e04", "tipo": "eleccion", "enunciado": "Elige la opción más adecuada.", "frase": "Look at that man on the ladder! He ___ fall.", "opciones": ["will", "is going to", "falls"], "respuestas": ["is going to"], "explicacion": "Predicción basada en lo que se ve: going to."},
+  {"id": "e05", "tipo": "eleccion", "enunciado": "Elige la opción más adecuada.", "frase": "I'll wait here until you ___ back.", "opciones": ["will come", "come", "are going to come"], "respuestas": ["come"], "explicacion": "Tras until se usa presente simple."},
+  {"id": "e06", "tipo": "hueco", "enunciado": "Completa con will o won't.", "frase": "I promise I ___ tell anyone your secret.", "respuestas": ["won't", "will not"], "explicacion": "Promesa negativa: won't."},
+  {"id": "e07", "tipo": "hueco", "enunciado": "Completa con la forma de going to del verbo.", "frase": "My sister ___ (start) a new job next month. She decided last week.", "respuestas": ["is going to start", "'s going to start"], "explicacion": "Intención ya decidida: be going to."},
+  {"id": "e08", "tipo": "hueco", "enunciado": "Completa con el verbo en presente simple o con will.", "frase": "As soon as the results ___ (be) ready, we'll publish them.", "respuestas": ["are"], "explicacion": "Tras as soon as se usa presente, no will."},
+  {"id": "e09", "tipo": "hueco", "enunciado": "Completa con Shall o Will.", "frase": "___ we take a taxi? It's getting late.", "respuestas": ["Shall"], "explicacion": "Sugerencia con primera persona: Shall we…?"},
+  {"id": "e10", "tipo": "corregir", "enunciado": "Corrige el error.", "frase": "If it will rain, we'll stay at home.", "respuestas": ["If it rains, we'll stay at home.", "If it rains, we will stay at home."], "explicacion": "En la oración con if se usa presente simple."},
+  {"id": "e11", "tipo": "corregir", "enunciado": "Corrige el error.", "frase": "I think Real Madrid wins the league next season.", "respuestas": ["I think Real Madrid will win the league next season.", "I think Real Madrid is going to win the league next season.", "I think Real Madrid are going to win the league next season."], "explicacion": "Predicción de opinión con I think: will."},
+  {"id": "e12", "tipo": "corregir", "enunciado": "Corrige el error.", "frase": "Shall you help me with this box?", "respuestas": ["Will you help me with this box?", "Can you help me with this box?", "Could you help me with this box?"], "explicacion": "Para pedir algo a otra persona se usa Will/Can/Could you, no Shall you."},
+  {"id": "e13", "tipo": "ordenar", "enunciado": "Ordena las palabras.", "palabras": ["meeting", "at", "I'm", "tonight", "eight", "Tom"], "respuestas": ["I'm meeting Tom at eight tonight", "I'm meeting Tom tonight at eight"], "explicacion": "Cita fijada: presente continuo."},
+  {"id": "e14", "tipo": "ordenar", "enunciado": "Ordena las palabras.", "palabras": ["going", "rain", "it's", "to"], "respuestas": ["it's going to rain"], "explicacion": "Predicción con evidencia: be going to + infinitivo."}
+ ],
+ "fuente": {"nombre": "propia"}
+}

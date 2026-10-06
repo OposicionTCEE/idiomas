@@ -1,0 +1,72 @@
+{
+ "id": "en.l.numeros-tiempo",
+ "titulo": "Números, fecha y hora",
+ "titulo_es": "Números, fecha y hora (numbers, dates and time)",
+ "descripcion_es": "Contar, decir precios, horas, días de la semana y meses.",
+ "nivel": "A1",
+ "resumen": "Vocabulario para contar, decir precios, preguntar y decir la hora y hablar de días, meses y fechas.",
+ "explicacion": [
+  {"tipo": "texto", "texto": "Ojo con las parejas que suenan parecido: thirteen (13) / thirty (30), fifteen (15) / fifty (50). En -teen el acento va al final; en -ty, al principio. En inglés británico se pone and antes de decenas y unidades: one hundred and twenty (120)."},
+  {"tipo": "tabla", "cabecera": ["Expresión", "Significado", "Ejemplo"], "filas": [
+   ["first, second, third", "primero, segundo, tercero", "My birthday is on the third of May."],
+   ["a hundred / a thousand", "cien / mil", "It costs a thousand euros."],
+   ["a million", "un millón", "Two million people live there."],
+   ["half / a quarter", "medio / un cuarto", "Half the class is absent."],
+   ["How much is it?", "¿Cuánto cuesta?", "How much is this T-shirt?"],
+   ["It's €9.99", "Cuesta 9,99 €", "nine ninety-nine / nine euros ninety-nine"],
+   ["What time is it?", "¿Qué hora es?", "It's half past six."],
+   ["o'clock", "en punto", "It's five o'clock."],
+   ["quarter past / quarter to", "y cuarto / menos cuarto", "It's quarter to ten (9:45)."],
+   ["half past", "y media", "The train leaves at half past two."],
+   ["at / on / in", "a (hora) / el (día) / en (mes, año)", "at 8, on Monday, in June, in 2025"],
+   ["a.m. / p.m.", "de la mañana / de la tarde-noche", "The shop opens at 9 a.m."]
+  ]},
+  {"tipo": "tabla", "cabecera": ["Expresión", "Significado", "Ejemplo"], "filas": [
+   ["Monday … Sunday", "lunes … domingo", "See you on Friday."],
+   ["January … December", "enero … diciembre", "We go on holiday in August."],
+   ["the weekend", "el fin de semana", "What do you do at the weekend?"],
+   ["today / tomorrow / yesterday", "hoy / mañana / ayer", "Tomorrow is Tuesday."],
+   ["the day after tomorrow", "pasado mañana", "The exam is the day after tomorrow."],
+   ["What's the date today?", "¿A qué fecha estamos?", "It's the twelfth of October."],
+   ["a fortnight", "quince días (británico)", "I'm away for a fortnight."]
+  ]},
+  {"tipo": "lista", "items": [
+   "Días y meses se escriben con mayúscula: Monday, April.",
+   "Las fechas se dicen con ordinal: the 4th of July / July the 4th.",
+   "Los decimales llevan punto: 3.5 = three point five.",
+   "Los años se leen de dos en dos: 1998 = nineteen ninety-eight; 2025 = twenty twenty-five."
+  ]}
+ ],
+ "ejemplos": [
+  {"frase": "The museum opens at ten o'clock on Sundays.", "traduccion": "El museo abre a las diez en punto los domingos."},
+  {"frase": "My daughter was born on the 21st of March.", "traduccion": "Mi hija nació el 21 de marzo."},
+  {"frase": "It's quarter past eight; we're late!", "traduccion": "Son las ocho y cuarto; ¡llegamos tarde!"},
+  {"frase": "Three coffees, please. – That's six fifty.", "traduccion": "Tres cafés, por favor. – Son seis cincuenta."},
+  {"frase": "There are thirty days in September.", "traduccion": "Septiembre tiene treinta días."},
+  {"frase": "I'll call you the day after tomorrow.", "traduccion": "Te llamaré pasado mañana."}
+ ],
+ "errores_hispanohablantes": [
+  {"mal": "See you in Monday.", "bien": "See you on Monday.", "nota": "Con días de la semana se usa on."},
+  {"mal": "It's monday, the five of may.", "bien": "It's Monday, the fifth of May.", "nota": "Días y meses con mayúscula y fechas con ordinal."},
+  {"mal": "Two millions people.", "bien": "Two million people.", "nota": "Hundred, thousand y million no llevan -s tras un número."},
+  {"mal": "It's ten and a quarter.", "bien": "It's quarter past ten.", "nota": "La hora se dice con past y to."}
+ ],
+ "ejercicios": [
+  {"id": "e01", "tipo": "hueco", "enunciado": "Completa con la preposición correcta.", "frase": "The meeting is ___ Thursday.", "respuestas": ["on"], "explicacion": "Con días de la semana se usa on."},
+  {"id": "e02", "tipo": "hueco", "enunciado": "Completa con la preposición correcta.", "frase": "My birthday is ___ November.", "respuestas": ["in"], "explicacion": "Con meses se usa in."},
+  {"id": "e03", "tipo": "hueco", "enunciado": "Completa con la preposición correcta.", "frase": "The film starts ___ 9:30.", "respuestas": ["at"], "explicacion": "Con horas se usa at."},
+  {"id": "e04", "tipo": "eleccion", "enunciado": "Elige la hora correcta para 7:45.", "frase": "It's ___.", "opciones": ["quarter to eight", "quarter past seven", "quarter to seven"], "respuestas": ["quarter to eight"], "explicacion": "7:45 son las ocho menos cuarto: quarter to eight."},
+  {"id": "e05", "tipo": "eleccion", "enunciado": "Elige la hora correcta para 4:30.", "frase": "It's ___.", "opciones": ["half past four", "half to four", "half past five"], "respuestas": ["half past four"], "explicacion": "Las cuatro y media es half past four."},
+  {"id": "e06", "tipo": "eleccion", "enunciado": "Elige la opción correcta.", "frase": "There are ___ people in the city.", "opciones": ["three million", "three millions", "three millions of"], "respuestas": ["three million"], "explicacion": "Million no lleva -s ni of tras un número."},
+  {"id": "e07", "tipo": "eleccion", "enunciado": "Elige el ordinal correcto.", "frase": "Today is the ___ of June (22).", "opciones": ["twenty-second", "twenty-two", "twentieth-two"], "respuestas": ["twenty-second"], "explicacion": "Las fechas se dicen con ordinal: twenty-second."},
+  {"id": "e08", "tipo": "hueco", "enunciado": "Escribe en letras el ordinal de 3.", "frase": "We live on the ___ floor (3).", "respuestas": ["third"], "explicacion": "El ordinal de three es third."},
+  {"id": "e09", "tipo": "hueco", "enunciado": "Completa la pregunta.", "frase": "How ___ is this bag? – It's thirty euros.", "respuestas": ["much"], "explicacion": "Para preguntar el precio: How much is…?"},
+  {"id": "e10", "tipo": "corregir", "enunciado": "Corrige el error.", "frase": "I start work in Monday.", "respuestas": ["I start work on Monday.", "I start work on Mondays."], "explicacion": "Con días de la semana se usa on."},
+  {"id": "e11", "tipo": "corregir", "enunciado": "Corrige el error.", "frase": "It's twenty and five past three.", "respuestas": ["It's twenty-five past three.", "It is twenty-five past three.", "It's twenty five past three."], "explicacion": "Los minutos se dicen como un solo número: twenty-five past."},
+  {"id": "e12", "tipo": "corregir", "enunciado": "Corrige el error.", "frase": "The course costs two hundreds euros.", "respuestas": ["The course costs two hundred euros."], "explicacion": "Hundred no lleva -s tras un número."},
+  {"id": "e13", "tipo": "ordenar", "enunciado": "Ordena las palabras.", "palabras": ["time", "is", "what", "it"], "respuestas": ["What time is it"], "explicacion": "La pregunta para la hora es What time is it?"},
+  {"id": "e14", "tipo": "hueco", "enunciado": "Completa: «pasado mañana».", "frase": "The exam is the day after ___.", "respuestas": ["tomorrow"], "explicacion": "Pasado mañana es the day after tomorrow."},
+  {"id": "e15", "tipo": "eleccion", "enunciado": "Elige la opción correcta.", "frase": "My grandmother was born ___ 1948.", "opciones": ["in", "on", "at"], "respuestas": ["in"], "explicacion": "Con años se usa in."}
+ ],
+ "fuente": {"nombre": "propia"}
+}

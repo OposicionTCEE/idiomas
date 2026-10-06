@@ -1,0 +1,57 @@
+{
+ "id": "fr.g.posesivos",
+ "titulo": "Determinantes posesivos",
+ "titulo_es": "Determinantes posesivos (mon, ma, mes…)",
+ "descripcion_es": "mon, ma, mes, notre, leur… y mon delante de vocal.",
+ "nivel": "A1",
+ "resumen": "Los posesivos franceses concuerdan en género y número con la cosa poseída, no con el poseedor. A diferencia del español, distinguen masculino y femenino en singular (mon / ma, son / sa) y usan mon, ton, son ante una palabra femenina que empieza por vocal.",
+ "explicacion": [
+  {"tipo": "tabla", "cabecera": ["Poseedor", "Masculino sing.", "Femenino sing.", "Plural", "Español"], "filas": [
+   ["je", "mon", "ma", "mes", "mi, mis"],
+   ["tu", "ton", "ta", "tes", "tu, tus"],
+   ["il, elle, on", "son", "sa", "ses", "su, sus (de él, de ella)"],
+   ["nous", "notre", "notre", "nos", "nuestro/a, nuestros/as"],
+   ["vous", "votre", "votre", "vos", "vuestro/a, su (de usted)"],
+   ["ils, elles", "leur", "leur", "leurs", "su, sus (de ellos)"]
+  ]},
+  {"tipo": "texto", "texto": "El género lo decide la cosa poseída: sa voiture puede ser «su coche» de él o de ella, porque voiture es femenino; son livre es «su libro» de él o de ella. El contexto aclara quién es el poseedor, igual que con el «su» español."},
+  {"tipo": "lista", "items": [
+   "Ante una palabra femenina que empieza por vocal o h muda se usa mon, ton, son para evitar el choque de vocales: mon amie, ton école, son histoire.",
+   "Con mes, tes, ses, nos, vos, leurs se hace liaison ante vocal: mes‿amis, nos‿enfants.",
+   "Leur (un objeto de varios poseedores) frente a leurs (varios objetos): leur maison, leurs enfants.",
+   "Votre y vos sirven también para el trato de usted: Où est votre passeport, Madame ?"
+  ]},
+  {"tipo": "texto", "texto": "Con las partes del cuerpo el francés prefiere el artículo definido cuando el poseedor está claro, como el español: Il a levé la main (no sa main en la mayoría de los casos)."}
+ ],
+ "ejemplos": [
+  {"frase": "Voici mon frère, Trey, et ma sœur, Rita, avec ses enfants et leur chien.", "traduccion": "Este es mi hermano, Trey, y mi hermana, Rita, con sus hijos y su perro."},
+  {"frase": "Notre famille est formidable !", "traduccion": "¡Nuestra familia es estupenda!"},
+  {"frase": "Voici Tammy, mon amie, et ses amies Bette et Fiona.", "traduccion": "Esta es Tammy, mi amiga, y sus amigas Bette y Fiona."},
+  {"frase": "Tex a oublié mon cadeau et notre anniversaire !", "traduccion": "¡Tex se ha olvidado de mi regalo y de nuestro aniversario!"},
+  {"frase": "Les voisins garent leur voiture devant leurs fenêtres.", "traduccion": "Los vecinos aparcan su coche delante de sus ventanas."}
+ ],
+ "errores_hispanohablantes": [
+  {"mal": "son voiture", "bien": "sa voiture", "nota": "El posesivo concuerda con voiture, que es femenino, aunque el poseedor sea un hombre."},
+  {"mal": "ma amie", "bien": "mon amie", "nota": "Ante femenino que empieza por vocal se usa mon, ton, son."},
+  {"mal": "leurs maison", "bien": "leur maison", "nota": "Leur va en singular si la cosa poseída es una sola."}
+ ],
+ "ejercicios": [
+  {"id": "e01", "tipo": "hueco", "enunciado": "Completa con el posesivo que corresponde al poseedor entre paréntesis.", "frase": "Donne-moi ___ adresse ! (tu)", "respuestas": ["ton"], "explicacion": "Adresse es femenino pero empieza por vocal: ton adresse.", "origen": "tatoeba:1846030"},
+  {"id": "e02", "tipo": "hueco", "enunciado": "Completa con el posesivo que corresponde al poseedor entre paréntesis.", "frase": "Il lave ___ voiture. (il)", "respuestas": ["sa"], "explicacion": "Voiture es femenino singular y empieza por consonante: sa.", "origen": "tatoeba:132429"},
+  {"id": "e03", "tipo": "hueco", "enunciado": "Completa con el posesivo que corresponde al poseedor entre paréntesis.", "frase": "Comment va ___ mère ? (tu)", "respuestas": ["ta"], "explicacion": "Mère es femenino singular: ta mère.", "origen": "tatoeba:10941"},
+  {"id": "e04", "tipo": "hueco", "enunciado": "Completa con el posesivo que corresponde al poseedor entre paréntesis.", "frase": "Ce sont ___ amis. (je)", "respuestas": ["mes"], "explicacion": "Amis es plural: mes amis, con liaison.", "origen": "tatoeba:181289"},
+  {"id": "e05", "tipo": "eleccion", "enunciado": "Elige el posesivo correcto (poseedor: vous).", "frase": "Où est ___ chapeau ?", "opciones": ["votre", "vos", "leur"], "respuestas": ["votre"], "explicacion": "Un solo objeto y poseedor vous: votre.", "origen": "tatoeba:5998801"},
+  {"id": "e06", "tipo": "eleccion", "enunciado": "Elige el posesivo correcto (poseedor: nous).", "frase": "Tom est ___ employé.", "opciones": ["notre", "nos", "nôtre"], "respuestas": ["notre"], "explicacion": "Un solo empleado y poseedor nous: notre, sin acento (nôtre es pronombre).", "origen": "tatoeba:13735182"},
+  {"id": "e07", "tipo": "ordenar", "enunciado": "Ordena las palabras.", "palabras": ["devoirs", "fais", "mes", "Je"], "respuestas": ["Je fais mes devoirs"], "explicacion": "Faire ses devoirs: hacer los deberes; con je, mes devoirs.", "origen": "tatoeba:1718796"},
+  {"id": "e08", "tipo": "hueco", "enunciado": "Completa con el posesivo que corresponde al poseedor entre paréntesis.", "frase": "J'ai perdu ___ clé. (je)", "respuestas": ["ma"], "explicacion": "Clé es femenino y empieza por consonante: ma clé.", "origen": "tatoeba:482244"},
+  {"id": "e09", "tipo": "transformar", "enunciado": "Dirígete a varias personas (vous) en lugar de a una (tu).", "frase": "Pense à ta famille !", "respuestas": ["Pensez à votre famille !"], "explicacion": "El imperativo pasa a pensez y ta pasa a votre.", "origen": "tatoeba:1932702"},
+  {"id": "e10", "tipo": "hueco", "enunciado": "Completa con el posesivo que corresponde al poseedor entre paréntesis.", "frase": "Tu es comme ___ père. (tu)", "respuestas": ["ton"], "explicacion": "Père es masculino singular: ton père.", "origen": "tatoeba:3698017"},
+  {"id": "e11", "tipo": "eleccion", "enunciado": "Elige el posesivo correcto.", "frase": "Pierre et Anne vendent ___ maison.", "opciones": ["leur", "leurs", "sa"], "respuestas": ["leur"], "explicacion": "Dos poseedores y una sola casa: leur."},
+  {"id": "e12", "tipo": "eleccion", "enunciado": "Elige el posesivo correcto.", "frase": "Les enfants rangent ___ jouets.", "opciones": ["leurs", "leur", "ses"], "respuestas": ["leurs"], "explicacion": "Varios poseedores y varios juguetes: leurs."},
+  {"id": "e13", "tipo": "hueco", "enunciado": "Completa con el posesivo que corresponde al poseedor entre paréntesis.", "frase": "Elle aime beaucoup ___ école. (elle)", "respuestas": ["son"], "explicacion": "École es femenino pero empieza por vocal: son école."},
+  {"id": "e14", "tipo": "corregir", "enunciado": "Corrige el error.", "frase": "Ma amie Sophie habite à Nice.", "respuestas": ["Mon amie Sophie habite à Nice."], "explicacion": "Ante vocal se usa mon aunque el nombre sea femenino."},
+  {"id": "e15", "tipo": "corregir", "enunciado": "Corrige el error.", "frase": "Julie cherche son clé.", "respuestas": ["Julie cherche sa clé."], "explicacion": "Clé es femenino y empieza por consonante: sa clé."},
+  {"id": "e16", "tipo": "corregir", "enunciado": "Corrige el error.", "frase": "Mes parents adorent leurs jardin.", "respuestas": ["Mes parents adorent leur jardin."], "explicacion": "Un solo jardín: leur, en singular."}
+ ],
+ "fuente": {"nombre": "Tex's French Grammar", "autores": "COERLL, Universidad de Texas en Austin", "licencia": "CC BY 3.0", "url": "https://laits.utexas.edu/tex/gr/det6.html", "otras": ["Frases de Tatoeba (CC BY 2.0 FR)"]}
+}

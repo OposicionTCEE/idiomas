@@ -1,0 +1,57 @@
+{
+ "id": "en.g.contables",
+ "titulo": "Countable and uncountable nouns",
+ "titulo_es": "Sustantivos contables e incontables (some, any, a lot of)",
+ "descripcion_es": "Distinguir contables e incontables y usar some, any y a lot of.",
+ "nivel": "A1",
+ "resumen": "Los sustantivos contables se pueden contar y tienen plural (an apple, two apples); los incontables no tienen plural ni llevan a/an (water, money, information). Some, any y a lot of sirven para ambos.",
+ "explicacion": [
+  {"tipo": "tabla", "cabecera": ["", "Contables", "Incontables"], "filas": [
+   ["Ejemplos", "book, egg, chair, person", "water, rice, bread, money, music, advice"],
+   ["Singular", "a book, an egg", "water (sin a/an)"],
+   ["Plural", "books, eggs", "no tienen plural"],
+   ["Verbo", "The eggs are fresh.", "The bread is fresh."]
+  ]},
+  {"tipo": "tabla", "cabecera": ["Palabra", "Uso", "Ejemplo"], "filas": [
+   ["some", "afirmativas (y ofrecimientos)", "I've got some friends in Rome. Would you like some tea?"],
+   ["any", "negativas y preguntas", "We haven't got any milk. Are there any questions?"],
+   ["a lot of", "gran cantidad, con ambos", "a lot of cars, a lot of traffic"]
+  ]},
+  {"tipo": "lista", "items": [
+   "Algunos incontables en inglés son contables en español: advice (consejos), information (información), news (noticias), furniture (muebles), homework (deberes).",
+   "Para contar incontables se usan unidades: a piece of advice, a glass of water, a loaf of bread, a bottle of wine.",
+   "News es incontable y va en singular: The news is good."
+  ]}
+ ],
+ "ejemplos": [
+  {"frase": "There's some cheese in the fridge.", "traduccion": "Hay queso en la nevera."},
+  {"frase": "Can you give me some advice?", "traduccion": "¿Me puedes dar algún consejo?"},
+  {"frase": "We haven't got any bread.", "traduccion": "No tenemos pan."},
+  {"frase": "She drinks a lot of water.", "traduccion": "Bebe mucha agua."},
+  {"frase": "I need some information about the course.", "traduccion": "Necesito información sobre el curso."}
+ ],
+ "errores_hispanohablantes": [
+  {"mal": "She gave me a good advice.", "bien": "She gave me some good advice.", "nota": "Advice es incontable (también: a good piece of advice)."},
+  {"mal": "I need some informations.", "bien": "I need some information.", "nota": "Information no tiene plural."},
+  {"mal": "We bought new furnitures.", "bien": "We bought new furniture.", "nota": "Furniture es incontable."},
+  {"mal": "The news are bad.", "bien": "The news is bad.", "nota": "News es incontable y va en singular."}
+ ],
+ "ejercicios": [
+  {"id": "e01", "tipo": "hueco", "enunciado": "Completa con some o any.", "frase": "Have you got ___ brothers or sisters?", "respuestas": ["any"], "explicacion": "En preguntas se usa any."},
+  {"id": "e02", "tipo": "hueco", "enunciado": "Completa con some o any.", "frase": "I'd like ___ water, please.", "respuestas": ["some"], "explicacion": "Afirmativa (petición): some."},
+  {"id": "e03", "tipo": "hueco", "enunciado": "Completa con some o any.", "frase": "There isn't ___ rice left.", "respuestas": ["any"], "explicacion": "Negativa: any."},
+  {"id": "e04", "tipo": "hueco", "enunciado": "Completa con a, an o some.", "frase": "I had ___ orange for breakfast.", "respuestas": ["an"], "explicacion": "Orange (la fruta) es contable y empieza por vocal."},
+  {"id": "e05", "tipo": "hueco", "enunciado": "Completa con a, an o some.", "frase": "Can I have ___ bread, please?", "respuestas": ["some"], "explicacion": "Bread es incontable: no admite a."},
+  {"id": "e06", "tipo": "hueco", "enunciado": "Completa con is o are.", "frase": "The furniture in this room ___ very old.", "respuestas": ["is"], "explicacion": "Furniture es incontable: verbo en singular."},
+  {"id": "e07", "tipo": "eleccion", "enunciado": "Elige la opción correcta.", "frase": "I don't have ___ money.", "opciones": ["some", "any", "a"], "respuestas": ["any"], "explicacion": "Negativa con incontable: any."},
+  {"id": "e08", "tipo": "eleccion", "enunciado": "Elige la opción correcta.", "frase": "There is a lot of ___ in the city centre.", "opciones": ["traffic", "traffics", "cars"], "respuestas": ["traffic"], "explicacion": "There is va con singular o incontable: traffic."},
+  {"id": "e09", "tipo": "eleccion", "enunciado": "Elige la opción correcta.", "frase": "Let me give you a piece of ___.", "opciones": ["advices", "advice", "advise"], "respuestas": ["advice"], "explicacion": "El sustantivo incontable es advice; advise es el verbo."},
+  {"id": "e10", "tipo": "eleccion", "enunciado": "Elige la opción correcta.", "frase": "The children have got a lot of ___ tonight.", "opciones": ["homeworks", "homework", "a homework"], "respuestas": ["homework"], "explicacion": "Homework es incontable."},
+  {"id": "e11", "tipo": "corregir", "enunciado": "Corrige el error.", "frase": "I need some informations about trains.", "respuestas": ["I need some information about trains."], "explicacion": "Information no tiene plural."},
+  {"id": "e12", "tipo": "corregir", "enunciado": "Corrige el error.", "frase": "Would you like a milk in your tea?", "respuestas": ["Would you like some milk in your tea?", "Would you like milk in your tea?"], "explicacion": "Milk es incontable: no lleva a."},
+  {"id": "e13", "tipo": "corregir", "enunciado": "Corrige el error.", "frase": "The news are on at nine.", "respuestas": ["The news is on at nine."], "explicacion": "News va con verbo en singular."},
+  {"id": "e14", "tipo": "ordenar", "enunciado": "Ordena las palabras.", "palabras": ["any", "we", "eggs", "got", "haven't"], "respuestas": ["We haven't got any eggs"], "explicacion": "Negativa con any."},
+  {"id": "e15", "tipo": "ordenar", "enunciado": "Ordena las palabras.", "palabras": ["of", "drinks", "lot", "he", "a", "coffee"], "respuestas": ["He drinks a lot of coffee"], "explicacion": "A lot of + incontable."}
+ ],
+ "fuente": {"nombre": "propia"}
+}

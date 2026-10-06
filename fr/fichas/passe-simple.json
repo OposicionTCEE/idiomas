@@ -1,0 +1,69 @@
+{
+ "id": "fr.g.passe-simple",
+ "titulo": "Passé simple (reconocer)",
+ "titulo_es": "Passé simple (pretérito indefinido literario): reconocerlo",
+ "descripcion_es": "Tiempo de la narración escrita: il parla, elle prit, ils furent.",
+ "nivel": "C1",
+ "resumen": "El passé simple es el pasado de la narración escrita (novela, historia, cuentos, crónica culta) y de discursos muy formales; en la lengua oral lo sustituye el passé composé. Equivale al indefinido español («habló») y, como él, narra hechos, mientras el imparfait sigue describiendo.",
+ "explicacion": [
+  {"tipo": "texto", "texto": "Es un tiempo de una sola palabra, sin auxiliar. Lo esencial es reconocerlo al leer (sobre todo en tercera persona) y saber a qué passé composé corresponde; producirlo solo hace falta en textos muy formales."},
+  {"tipo": "tabla", "cabecera": ["Persona", "-er: parler", "-ir / -re: finir, perdre", "en -u-: avoir"], "filas": [
+   ["je", "parlai", "finis, perdis", "eus"],
+   ["tu", "parlas", "finis, perdis", "eus"],
+   ["il / elle / on", "parla", "finit, perdit", "eut"],
+   ["nous", "parlâmes", "finîmes, perdîmes", "eûmes"],
+   ["vous", "parlâtes", "finîtes, perdîtes", "eûtes"],
+   ["ils / elles", "parlèrent", "finirent, perdirent", "eurent"]
+  ]},
+  {"tipo": "tabla", "cabecera": ["Infinitivo", "il / elle", "ils / elles"], "filas": [
+   ["être", "fut", "furent"],
+   ["faire", "fit", "firent"],
+   ["venir / tenir", "vint / tint", "vinrent / tinrent"],
+   ["prendre / mettre / dire", "prit / mit / dit", "prirent / mirent / dirent"],
+   ["voir", "vit", "virent"],
+   ["naître / mourir", "naquit / mourut", "naquirent / moururent"],
+   ["pouvoir / vouloir / savoir", "put / voulut / sut", "purent / voulurent / surent"],
+   ["vivre / écrire / boire", "vécut / écrivit / but", "vécurent / écrivirent / burent"]
+  ]},
+  {"tipo": "lista", "items": [
+   "Muchos irregulares toman la raíz del participio: bu → il but, lu → il lut, pris → il prit.",
+   "fut es pasado de être, no futuro (el futuro es sera).",
+   "Formas que coinciden con el presente: il finit, il dit, il rit; el contexto lo aclara.",
+   "il vit puede ser «vio» (voir, passé simple) o «vive» (vivre, presente).",
+   "nous y vous llevan acento circunflejo (-âmes, -îtes, -ûmes); ils de -er lleva grave: -èrent."
+  ]},
+  {"tipo": "texto", "texto": "Reparto de papeles en la narración: passé simple para los hechos que hacen avanzar la historia, imparfait para el decorado y las situaciones (Il pleuvait. Soudain, la porte s'ouvrit). Para el opositor importa al leer prensa culta, historia económica y citas literarias."}
+ ],
+ "ejemplos": [
+  {"frase": "Il regarda le ciel.", "traduccion": "Miró al cielo."},
+  {"frase": "Elle prit ma main.", "traduccion": "Me cogió la mano."},
+  {"frase": "Ils manquèrent le train.", "traduccion": "Perdieron el tren."},
+  {"frase": "Le peintre mourut jeune.", "traduccion": "El pintor murió joven."},
+  {"frase": "Personne ne vint m'aider.", "traduccion": "No vino nadie a ayudarme."},
+  {"frase": "Il fit rire les enfants.", "traduccion": "Hizo reír a los niños."}
+ ],
+ "errores_hispanohablantes": [
+  {"mal": "Hier, j'allai au cinéma avec des amis.", "bien": "Hier, je suis allé au cinéma avec des amis.", "nota": "En la conversación el indefinido español se traduce por passé composé; el passé simple sonaría libresco."},
+  {"mal": "Ils parlérent longtemps.", "bien": "Ils parlèrent longtemps.", "nota": "La terminación -èrent lleva acento grave."},
+  {"mal": "Il venit chez moi.", "bien": "Il vint chez moi.", "nota": "venir y tenir tienen un passé simple irregular: vint, tint."}
+ ],
+ "ejercicios": [
+  {"id": "e01", "tipo": "eleccion", "enunciado": "Elige la forma correcta del passé simple.", "frase": "Il ___ chez moi.", "opciones": ["vint", "venit", "venut"], "respuestas": ["vint"], "explicacion": "venir → il vint (raíz irregular vin-).", "origen": "tatoeba:1121472"},
+  {"id": "e02", "tipo": "transformar", "enunciado": "Pasa del passé composé al passé simple.", "frase": "Elle a pris ma main.", "respuestas": ["Elle prit ma main."], "explicacion": "prendre → elle prit (raíz del participio pris).", "origen": "tatoeba:1107368"},
+  {"id": "e03", "tipo": "transformar", "enunciado": "Pasa del passé composé al passé simple.", "frase": "Ils ont manqué le train.", "respuestas": ["Ils manquèrent le train."], "explicacion": "Verbo en -er: ils manquèrent.", "origen": "tatoeba:564915"},
+  {"id": "e04", "tipo": "transformar", "enunciado": "Pasa del passé composé al passé simple.", "frase": "Le peintre est mort jeune.", "respuestas": ["Le peintre mourut jeune."], "explicacion": "mourir → il mourut, sin auxiliar.", "origen": "tatoeba:614243"},
+  {"id": "e05", "tipo": "transformar", "enunciado": "Pasa la frase al registro oral (passé composé).", "frase": "Il fit rire les enfants.", "respuestas": ["Il a fait rire les enfants."], "explicacion": "fit es el passé simple de faire: il a fait.", "origen": "tatoeba:906588"},
+  {"id": "e06", "tipo": "transformar", "enunciado": "Pasa la frase al registro oral (passé composé).", "frase": "Ils se serrèrent la main.", "respuestas": ["Ils se sont serré la main."], "explicacion": "Pronominal con être; serré no concuerda porque el COD (la main) va detrás.", "origen": "tatoeba:1260994"},
+  {"id": "e07", "tipo": "hueco", "enunciado": "Completa con el passé simple del verbo.", "frase": "Personne ne ___ (venir) m'aider.", "respuestas": ["vint"], "explicacion": "venir → il vint.", "origen": "tatoeba:1502119"},
+  {"id": "e08", "tipo": "hueco", "enunciado": "Completa con el passé simple del verbo.", "frase": "Elle ___ (mourir) en 1960.", "respuestas": ["mourut"], "explicacion": "mourir tiene raíz irregular: elle mourut.", "origen": "tatoeba:451551"},
+  {"id": "e09", "tipo": "hueco", "enunciado": "Completa con el passé simple del verbo.", "frase": "Ils ___ (avoir) un bébé.", "respuestas": ["eurent"], "explicacion": "avoir → ils eurent.", "origen": "tatoeba:647193"},
+  {"id": "e10", "tipo": "corregir", "enunciado": "Corrige el error de ortografía.", "frase": "Nous mangeames des œufs.", "respuestas": ["Nous mangeâmes des œufs."], "explicacion": "La terminación de nous en -er es -âmes, con circunflejo.", "origen": "tatoeba:9558606"},
+  {"id": "e11", "tipo": "corregir", "enunciado": "Corrige el error.", "frase": "Il regardat le ciel.", "respuestas": ["Il regarda le ciel."], "explicacion": "La tercera persona de -er termina en -a, sin t.", "origen": "tatoeba:131893"},
+  {"id": "e12", "tipo": "eleccion", "enunciado": "¿De qué verbo es «naquit»?", "frase": "Il naquit à Lyon en 1900.", "opciones": ["naître", "nager", "nier"], "respuestas": ["naître"], "explicacion": "naître tiene un passé simple irregular: il naquit (nació)."},
+  {"id": "e13", "tipo": "eleccion", "enunciado": "¿Qué forma es «fut»?", "frase": "Ce fut un beau mariage.", "opciones": ["passé simple de être", "futur de être", "imparfait de être"], "respuestas": ["passé simple de être"], "explicacion": "fut = fue; el futuro sería sera.", "origen": "tatoeba:2491083"},
+  {"id": "e14", "tipo": "eleccion", "enunciado": "¿Qué passé composé corresponde a «prit»?", "frase": "Il me prit pour ma mère.", "opciones": ["a pris", "a prit", "prend"], "respuestas": ["a pris"], "explicacion": "prit es el passé simple de prendre; en el oral: il m'a pris pour ma mère.", "origen": "tatoeba:343290"},
+  {"id": "e15", "tipo": "eleccion", "enunciado": "Elige el tiempo adecuado.", "frase": "Il pleuvait depuis des heures. Soudain, la porte ___ .", "opciones": ["s'ouvrit", "s'ouvrait", "s'ouvrira"], "respuestas": ["s'ouvrit"], "explicacion": "Hecho puntual que hace avanzar el relato (soudain): passé simple; el decorado va en imparfait."},
+  {"id": "e16", "tipo": "ordenar", "enunciado": "Ordena las palabras.", "palabras": ["moi", "moquèrent", "Ils", "de", "se"], "respuestas": ["Ils se moquèrent de moi"], "explicacion": "Pronominal en passé simple: ils se moquèrent (se burlaron).", "origen": "tatoeba:1526079"}
+ ],
+ "fuente": {"nombre": "Tex's French Grammar", "autores": "COERLL, Universidad de Texas en Austin", "licencia": "CC BY 3.0", "url": "https://laits.utexas.edu/tex/gr/tap10.html", "otras": ["Frases de Tatoeba (CC BY 2.0 FR)"]}
+}

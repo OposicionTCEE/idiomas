@@ -1,0 +1,53 @@
+{
+ "id": "fr.g.quel",
+ "titulo": "Quel, quelle, quels, quelles",
+ "titulo_es": "Quel, quelle, quels, quelles (qué, cuál)",
+ "descripcion_es": "El adjetivo interrogativo y exclamativo quel y su concordancia.",
+ "nivel": "A1",
+ "resumen": "Quel equivale a «qué» o «cuál» delante de un nombre o del verbo être, y a «¡qué…!» en las exclamaciones; concuerda en género y número con el nombre.",
+ "explicacion": [
+  {"tipo": "tabla", "cabecera": ["", "Singular", "Plural"], "filas": [
+   ["Masculino", "quel", "quels"],
+   ["Femenino", "quelle", "quelles"]
+  ]},
+  {"tipo": "texto", "texto": "Las cuatro formas se pronuncian igual, salvo que quels y quelles hacen enlace ante vocal: quels animaux [kɛlzanimo]. Como es un adjetivo, hay que fijarse en el género del nombre francés, que no siempre coincide con el español: quelle heure (la hora), quel âge (la edad, en francés masculino)."},
+  {"tipo": "lista", "items": [
+   "Interrogativo con nombre: Quel âge as-tu ? Quelle heure est-il ? Quels sports aimes-tu ?",
+   "Interrogativo con être + nombre (aquí el español dice «cuál»): Quel est ton nom ? Quelles sont tes qualités ?",
+   "Con preposición delante: À quelle heure ? Dans quel quartier ?",
+   "Exclamativo, con nombre o con adjetivo + nombre: Quel temps horrible ! Quelle belle vue !"
+  ]},
+  {"tipo": "texto", "texto": "Para «¿cuál es…?» el español usa cuál, pero el francés nunca usa qu'est-ce que en ese caso: ¿Cuál es tu plan? → Quel est ton plan ? Y en las exclamaciones quel no lleva artículo: ¡Qué idea! → Quelle idée !"}
+ ],
+ "ejemplos": [
+  {"frase": "Quel âge a ta sœur ?", "traduccion": "¿Cuántos años tiene tu hermana?"},
+  {"frase": "Quelle est la cause ?", "traduccion": "¿Cuál es la causa?"},
+  {"frase": "Quels sont tes passe-temps préférés ?", "traduccion": "¿Cuáles son tus pasatiempos favoritos?"},
+  {"frase": "À quelle heure commence le cours ?", "traduccion": "¿A qué hora empieza la clase?"},
+  {"frase": "Quelle belle nuit !", "traduccion": "¡Qué noche tan bonita!"},
+  {"frase": "Quels animaux absurdes !", "traduccion": "¡Qué animales tan absurdos!"}
+ ],
+ "errores_hispanohablantes": [
+  {"mal": "Qu'est ton nom ?", "bien": "Quel est ton nom ?", "nota": "«¿Cuál es…?» se dice siempre con quel + être."},
+  {"mal": "Quel heure est-il ?", "bien": "Quelle heure est-il ?", "nota": "Heure es femenino: quelle."},
+  {"mal": "Quelle une belle vue !", "bien": "Quelle belle vue !", "nota": "En la exclamación quel va sin artículo, aunque el español diga «¡Qué vista tan bonita!»."}
+ ],
+ "ejercicios": [
+  {"id": "e01", "tipo": "hueco", "enunciado": "Completa con la forma de quel.", "frase": "___ âge as-tu ?", "respuestas": ["Quel"], "explicacion": "Âge es masculino singular: quel.", "origen": "tatoeba:3494"},
+  {"id": "e02", "tipo": "hueco", "enunciado": "Completa con la forma de quel.", "frase": "___ belle vue !", "respuestas": ["Quelle"], "explicacion": "Vue es femenino singular: quelle.", "origen": "tatoeba:3385384"},
+  {"id": "e03", "tipo": "eleccion", "enunciado": "Elige la forma correcta.", "frase": "À ___ heure ?", "opciones": ["quel", "quelle", "quels", "quelles"], "respuestas": ["quelle"], "explicacion": "Heure es femenino singular.", "origen": "tatoeba:2703133"},
+  {"id": "e04", "tipo": "hueco", "enunciado": "Completa con la forma de quel (¿Cuál es tu plan?).", "frase": "___ est ton plan ?", "respuestas": ["Quel"], "explicacion": "«¿Cuál es…?» = quel + être; plan es masculino.", "origen": "tatoeba:2009190"},
+  {"id": "e05", "tipo": "corregir", "enunciado": "Corrige el error.", "frase": "Quel belle femme !", "respuestas": ["Quelle belle femme !"], "explicacion": "Femme es femenino: quelle.", "origen": "tatoeba:679523"},
+  {"id": "e06", "tipo": "corregir", "enunciado": "Corrige el error.", "frase": "Quelle âge a ton père ?", "respuestas": ["Quel âge a ton père ?"], "explicacion": "Âge es masculino en francés: quel.", "origen": "tatoeba:662825"},
+  {"id": "e07", "tipo": "eleccion", "enunciado": "Elige la forma correcta.", "frase": "___ sont tes films préférés ?", "opciones": ["Quel", "Quelle", "Quels", "Quelles"], "respuestas": ["Quels"], "explicacion": "Concuerda con films, masculino plural."},
+  {"id": "e08", "tipo": "hueco", "enunciado": "Completa con la forma de quel.", "frase": "___ langues est-ce que vous parlez ?", "respuestas": ["Quelles"], "explicacion": "Langues es femenino plural."},
+  {"id": "e09", "tipo": "ordenar", "enunciado": "Ordena las palabras (¿Qué hora es?).", "palabras": ["est-il", "heure", "Quelle"], "respuestas": ["Quelle heure est-il"], "explicacion": "Quel + nombre al principio y después el verbo invertido.", "origen": "tatoeba:3474"},
+  {"id": "e10", "tipo": "ordenar", "enunciado": "Ordena las palabras (¡Qué tiempo tan horrible!).", "palabras": ["horrible", "temps", "Quel"], "respuestas": ["Quel temps horrible"], "explicacion": "Exclamación: quel + nombre + adjetivo, sin artículo.", "origen": "tatoeba:492284"},
+  {"id": "e11", "tipo": "eleccion", "enunciado": "Elige la forma correcta (¿Cuál es la causa?).", "frase": "___ est la cause ?", "opciones": ["Quel", "Quelle", "Qu'", "Quoi"], "respuestas": ["Quelle"], "explicacion": "Con être + nombre se usa quel concordado con cause (femenino).", "origen": "tatoeba:904199"},
+  {"id": "e12", "tipo": "transformar", "enunciado": "Reescribe la pregunta con inversión.", "frase": "Tu as quel âge ?", "respuestas": ["Quel âge as-tu ?"], "explicacion": "Quel + nombre pasa al principio y el verbo se invierte con el sujeto.", "origen": "tatoeba:688288"},
+  {"id": "e13", "tipo": "hueco", "enunciado": "Completa con la forma de quel.", "frase": "___ jolies affiches !", "respuestas": ["Quelles"], "explicacion": "Affiches es femenino plural."},
+  {"id": "e14", "tipo": "eleccion", "enunciado": "Elige la forma correcta.", "frase": "___ animaux préfères-tu ?", "opciones": ["Quel", "Quels", "Quelle", "Quelles"], "respuestas": ["Quels"], "explicacion": "Animaux es masculino plural; se hace el enlace: quels animaux."},
+  {"id": "e15", "tipo": "transformar", "enunciado": "Convierte en exclamación con quel (¡Qué día tan bonito!).", "frase": "C'est une belle journée.", "respuestas": ["Quelle belle journée !"], "explicacion": "Quel concuerda con journée (femenino) y no lleva artículo.", "origen": "tatoeba:1023530"}
+ ],
+ "fuente": {"nombre": "Tex's French Grammar", "autores": "COERLL, Universidad de Texas en Austin", "licencia": "CC BY 3.0", "url": "https://laits.utexas.edu/tex/gr/int4.html", "otras": ["Frases de Tatoeba (CC BY 2.0 FR)"]}
+}

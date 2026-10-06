@@ -1,0 +1,68 @@
+{
+ "id": "fr.g.genero-numero",
+ "titulo": "Género y número del sustantivo",
+ "titulo_es": "Género y número del sustantivo (masculino, femenino, plural)",
+ "descripcion_es": "Masculino y femenino, plural regular e irregular.",
+ "nivel": "A1",
+ "resumen": "Todo sustantivo francés es masculino o femenino y singular o plural; el determinante suele ser la única marca que se oye, porque la -s del plural no se pronuncia.",
+ "explicacion": [
+  {"tipo": "texto", "texto": "Como en español, el género del sustantivo es en buena parte arbitrario y hay que aprenderlo junto con la palabra (mejor con su artículo: le livre, la table). No existe el neutro. Ojo: muchas palabras cambian de género respecto al español."},
+  {"tipo": "tabla", "cabecera": ["Francés", "Español", "Género en francés"], "filas": [
+   ["le lait", "la leche", "masculino"],
+   ["le nez", "la nariz", "masculino"],
+   ["le sang", "la sangre", "masculino"],
+   ["la mer", "el mar", "femenino"],
+   ["la voiture", "el coche", "femenino"],
+   ["la dent", "el diente", "femenino"],
+   ["la couleur", "el color", "femenino"]
+  ]},
+  {"tipo": "lista", "items": [
+   "Suelen ser femeninas las terminaciones -tion, -sion, -té, -ure, -ence, -ance, -ette, -ie: la nation, la liberté, la voiture, la chance.",
+   "Suelen ser masculinas -ment, -age, -eau, -isme, -oir, -ier: le gouvernement, le voyage, le bateau, le tourisme, le miroir, le papier (excepciones: la page, la plage, l'image, l'eau, la peau).",
+   "Personas: se añade -e (un ami, une amie); -eur pasa a -euse (vendeur, vendeuse); -teur suele pasar a -trice (acteur, actrice); -ien a -ienne (musicien, musicienne); -er a -ère (boulanger, boulangère).",
+   "Algunos nombres sirven para los dos géneros y solo cambia el artículo: un élève, une élève; un journaliste, une journaliste."
+  ]},
+  {"tipo": "texto", "texto": "Plural regular: se añade -s, que no se pronuncia (un livre, des livres). Por eso en la lengua hablada el plural se nota sobre todo en el determinante (le / les, un / des)."},
+  {"tipo": "tabla", "cabecera": ["Singular en", "Plural", "Ejemplo"], "filas": [
+   ["-s, -x, -z", "no cambia", "un prix, des prix; un nez, des nez"],
+   ["-al (y algunos en -ail)", "-aux", "un animal, des animaux; un travail, des travaux"],
+   ["-eau, -eu, -au", "+ x", "un bateau, des bateaux; un jeu, des jeux"],
+   ["-ou", "-s (siete añaden -x)", "un trou, des trous; pero bijoux, cailloux, choux, genoux, hiboux, joujoux, poux"],
+   ["irregulares", "forma distinta", "un œil, des yeux; monsieur, messieurs; madame, mesdames"]
+  ]},
+  {"tipo": "texto", "texto": "Excepciones en -al con plural en -als: bal, carnaval, festival, récital (des festivals). En œuf, bœuf y os la consonante final se pronuncia en singular pero no en plural."}
+ ],
+ "ejemplos": [
+  {"frase": "Tex est un tatou. Tex et Tammy sont des tatous.", "traduccion": "Tex es un armadillo. Tex y Tammy son armadillos."},
+  {"frase": "Les écureuils adorent les noix.", "traduccion": "A las ardillas les encantan las nueces."},
+  {"frase": "Ce ne sont pas des animaux, ce sont des insectes.", "traduccion": "No son animales, son insectos."},
+  {"frase": "Elle a les cheveux longs et les yeux verts.", "traduccion": "Tiene el pelo largo y los ojos verdes."},
+  {"frase": "Le lait est sur la table.", "traduccion": "La leche está en la mesa."},
+  {"frase": "Mon cousin est boulanger et ma cousine est musicienne.", "traduccion": "Mi primo es panadero y mi prima es música."}
+ ],
+ "errores_hispanohablantes": [
+  {"mal": "la lait", "bien": "le lait", "nota": "Lait es masculino aunque en español leche sea femenino."},
+  {"mal": "le voiture", "bien": "la voiture", "nota": "Voiture es femenino (el coche en español); las palabras en -ure suelen ser femeninas."},
+  {"mal": "des animals", "bien": "des animaux", "nota": "Los nombres en -al hacen el plural en -aux."},
+  {"mal": "les cheveu", "bien": "les cheveux", "nota": "Los nombres en -eu añaden -x, no -s, y el plural sí se escribe aunque no se oiga."}
+ ],
+ "ejercicios": [
+  {"id": "e01", "tipo": "hueco", "enunciado": "Escribe el plural del nombre entre paréntesis.", "frase": "Tom aime les ___. (cheval)", "respuestas": ["chevaux"], "explicacion": "Los nombres en -al forman el plural en -aux.", "origen": "tatoeba:1608330"},
+  {"id": "e02", "tipo": "hueco", "enunciado": "Escribe el plural del nombre entre paréntesis.", "frase": "Elle a les ___ bleus. (œil)", "respuestas": ["yeux"], "explicacion": "Œil tiene un plural irregular: yeux.", "origen": "tatoeba:331215"},
+  {"id": "e03", "tipo": "hueco", "enunciado": "Escribe el plural del nombre entre paréntesis.", "frase": "Où sont les ___ ? (couteau)", "respuestas": ["couteaux"], "explicacion": "Los nombres en -eau añaden -x en plural.", "origen": "tatoeba:837325"},
+  {"id": "e04", "tipo": "hueco", "enunciado": "Escribe el plural del nombre entre paréntesis.", "frase": "Tom télécharge des ___. (jeu)", "respuestas": ["jeux"], "explicacion": "Los nombres en -eu añaden -x en plural.", "origen": "tatoeba:1675992"},
+  {"id": "e05", "tipo": "hueco", "enunciado": "Escribe el plural del nombre entre paréntesis.", "frase": "Il a les ___ courts. (cheveu)", "respuestas": ["cheveux"], "explicacion": "Cheveu termina en -eu, así que el plural lleva -x.", "origen": "tatoeba:1947395"},
+  {"id": "e06", "tipo": "transformar", "enunciado": "Pasa la frase al plural.", "frase": "C'est un animal.", "respuestas": ["Ce sont des animaux."], "explicacion": "C'est pasa a ce sont, un a des y animal a animaux.", "origen": "tatoeba:592646"},
+  {"id": "e07", "tipo": "transformar", "enunciado": "Pasa la frase al plural.", "frase": "C'est un oiseau.", "respuestas": ["Ce sont des oiseaux."], "explicacion": "Los nombres en -eau añaden -x: oiseaux.", "origen": "tatoeba:880004"},
+  {"id": "e08", "tipo": "transformar", "enunciado": "Pasa la frase al plural.", "frase": "C'est un cadeau.", "respuestas": ["Ce sont des cadeaux."], "explicacion": "Cadeau termina en -eau, plural cadeaux.", "origen": "tatoeba:1254060"},
+  {"id": "e09", "tipo": "ordenar", "enunciado": "Ordena las palabras.", "palabras": ["les", "voir", "chevaux", "Je", "veux"], "respuestas": ["Je veux voir les chevaux"], "explicacion": "Sujeto, verbo conjugado, infinitivo y complemento: les chevaux.", "origen": "tatoeba:5680608"},
+  {"id": "e10", "tipo": "eleccion", "enunciado": "Elige el artículo correcto.", "frase": "___ lait est froid.", "opciones": ["Le", "La", "L'"], "respuestas": ["Le"], "explicacion": "Lait es masculino en francés, aunque leche sea femenino en español."},
+  {"id": "e11", "tipo": "eleccion", "enunciado": "Elige el artículo correcto.", "frase": "Nous passons l'été au bord de ___ mer.", "opciones": ["la", "le", "l'"], "respuestas": ["la"], "explicacion": "Mer es femenino (la mer), al contrario que el mar."},
+  {"id": "e12", "tipo": "hueco", "enunciado": "Escribe el femenino de la palabra entre paréntesis.", "frase": "Mon frère est acteur et ma sœur est ___. (acteur)", "respuestas": ["actrice"], "explicacion": "Muchos nombres en -teur hacen el femenino en -trice."},
+  {"id": "e13", "tipo": "hueco", "enunciado": "Escribe el femenino de la palabra entre paréntesis.", "frase": "Paul est vendeur et Julie est ___ dans le même magasin. (vendeur)", "respuestas": ["vendeuse"], "explicacion": "Vendeur forma el femenino en -euse."},
+  {"id": "e14", "tipo": "corregir", "enunciado": "Corrige el error.", "frase": "J'achète deux journals le dimanche.", "respuestas": ["J'achète deux journaux le dimanche."], "explicacion": "Journal termina en -al, así que el plural es journaux."},
+  {"id": "e15", "tipo": "corregir", "enunciado": "Corrige el error.", "frase": "Mon pantalon a deux troux.", "respuestas": ["Mon pantalon a deux trous."], "explicacion": "Trou es de los nombres en -ou que hacen el plural con -s; solo siete llevan -x."},
+  {"id": "e16", "tipo": "corregir", "enunciado": "Corrige el error.", "frase": "Le voiture de Marie est rouge.", "respuestas": ["La voiture de Marie est rouge."], "explicacion": "Voiture es femenino en francés."}
+ ],
+ "fuente": {"nombre": "Tex's French Grammar", "autores": "COERLL, Universidad de Texas en Austin", "licencia": "CC BY 3.0", "url": "https://laits.utexas.edu/tex/gr/no2.html", "otras": ["Frases de Tatoeba (CC BY 2.0 FR)"]}
+}

@@ -1,0 +1,61 @@
+{
+ "id": "fr.g.futur-anterieur",
+ "titulo": "Futur antérieur",
+ "titulo_es": "Futur antérieur (futuro compuesto o perfecto)",
+ "descripcion_es": "Anterioridad en el futuro y suposición sobre el pasado: j'aurai fini, elle sera partie.",
+ "nivel": "B2",
+ "resumen": "El futur antérieur (futuro de avoir o être + participio) equivale al español «habré hecho». Expresa una acción futura ya terminada antes de otra acción o de un momento futuro, y también una suposición sobre algo pasado.",
+ "explicacion": [
+  {"tipo": "texto", "texto": "Formación: futuro simple del auxiliar + participio. La elección de avoir o être y la concordancia del participio siguen las mismas reglas que en el passé composé."},
+  {"tipo": "tabla", "cabecera": ["Persona", "finir (con avoir)", "partir (con être)"], "filas": [
+   ["je", "j'aurai fini", "je serai parti(e)"],
+   ["tu", "tu auras fini", "tu seras parti(e)"],
+   ["il / elle / on", "il aura fini", "elle sera partie"],
+   ["nous", "nous aurons fini", "nous serons parti(e)s"],
+   ["vous", "vous aurez fini", "vous serez parti(e)(s)"],
+   ["ils / elles", "ils auront fini", "elles seront parties"]
+  ]},
+  {"tipo": "lista", "items": [
+   "Acción terminada antes de un momento futuro: À midi, j'aurai terminé le rapport (a mediodía habré terminado el informe).",
+   "Acción anterior a otra futura, tras quand, lorsque, dès que, aussitôt que, une fois que, après que: Dès que j'aurai reçu ta lettre, je te répondrai.",
+   "Suposición sobre el pasado: Il n'est pas venu ? Il aura oublié (se habrá olvidado).",
+   "Balance anticipado: En dix ans, il aura tout essayé."
+  ]},
+  {"tipo": "texto", "texto": "La gran diferencia con el español: tras quand, lorsque, dès que… el español usa subjuntivo («cuando hayas terminado»), y el francés usa futuro: futur antérieur si la acción es anterior y futur simple si es simultánea («cuando llegues» → quand tu arriveras)."},
+  {"tipo": "tabla", "cabecera": ["Español", "Francés"], "filas": [
+   ["Cuando hayas terminado, llámame.", "Quand tu auras terminé, appelle-moi."],
+   ["En cuanto llegue, te escribo.", "Dès que je serai arrivé, je t'écrirai."],
+   ["Para cuando vuelvas, me habré ido.", "D'ici que tu reviennes, je serai parti."]
+  ]}
+ ],
+ "ejemplos": [
+  {"frase": "Demain à cette heure, nous serons déjà arrivés.", "traduccion": "Mañana a estas horas ya habremos llegado."},
+  {"frase": "Quand tu rentreras, j'aurai préparé le dîner.", "traduccion": "Cuando vuelvas, habré preparado la cena."},
+  {"frase": "Elle n'est pas là ? Elle aura raté son train.", "traduccion": "¿No está? Habrá perdido el tren."},
+  {"frase": "Dès que vous aurez signé le contrat, nous commencerons les travaux.", "traduccion": "En cuanto hayan firmado el contrato, empezaremos las obras."},
+  {"frase": "D'ici que tu reviennes, je serai parti.", "traduccion": "Para cuando vuelvas, me habré ido."}
+ ],
+ "errores_hispanohablantes": [
+  {"mal": "Quand tu as fini, appelle-moi.", "bien": "Quand tu auras fini, appelle-moi.", "nota": "Acción futura anterior a otra: futur antérieur, no passé composé (en español, «cuando hayas terminado»)."},
+  {"mal": "Je te téléphonerai quand je suis arrivé.", "bien": "Je te téléphonerai quand je serai arrivé.", "nota": "Tras quand con valor futuro, nunca presente ni passé composé."},
+  {"mal": "Elle aura parti avant midi.", "bien": "Elle sera partie avant midi.", "nota": "partir lleva être y el participio concuerda."}
+ ],
+ "ejercicios": [
+  {"id": "e01", "tipo": "hueco", "enunciado": "Completa con el auxiliar en futuro.", "frase": "Demain à cette heure, nous ___ déjà arrivés.", "respuestas": ["serons"], "explicacion": "arriver lleva être: nous serons arrivés (habremos llegado).", "origen": "tatoeba:3655831"},
+  {"id": "e02", "tipo": "hueco", "enunciado": "Completa con el futur antérieur del verbo.", "frase": "À midi, il ___ (travailler) cinq heures déjà.", "respuestas": ["aura travaillé"], "explicacion": "Acción terminada antes de un momento futuro (à midi).", "origen": "tatoeba:354416"},
+  {"id": "e03", "tipo": "eleccion", "enunciado": "Elige la forma correcta.", "frase": "Fais-le quand tu ___ du temps.", "opciones": ["aurais", "auras", "auras eu"], "respuestas": ["auras"], "explicacion": "Tener tiempo es simultáneo a hacerlo: futur simple, no futur antérieur.", "origen": "tatoeba:334375"},
+  {"id": "e04", "tipo": "eleccion", "enunciado": "Elige el auxiliar correcto.", "frase": "D'ici que tu reviennes, je ___ parti.", "opciones": ["serai", "aurai", "suis"], "respuestas": ["serai"], "explicacion": "partir lleva être: je serai parti (me habré ido).", "origen": "tatoeba:335454"},
+  {"id": "e05", "tipo": "hueco", "enunciado": "Completa con el futur antérieur del verbo.", "frase": "Dès que j'___ (recevoir) ta réponse, je t'appellerai.", "respuestas": ["aurai reçu"], "explicacion": "La recepción es anterior a la llamada: j'aurai reçu."},
+  {"id": "e06", "tipo": "hueco", "enunciado": "Completa con el futur antérieur del verbo.", "frase": "Quand les invités ___ (partir), nous rangerons la cuisine.", "respuestas": ["seront partis"], "explicacion": "partir lleva être; concordancia en plural: seront partis."},
+  {"id": "e07", "tipo": "hueco", "enunciado": "Expresa una suposición con el futur antérieur.", "frase": "Il n'est toujours pas là ; il ___ (manquer) son bus.", "respuestas": ["aura manqué"], "explicacion": "Futur antérieur de suposición: «habrá perdido el autobús»."},
+  {"id": "e08", "tipo": "eleccion", "enunciado": "Elige la forma correcta.", "frase": "Je te rendrai ton livre dès que je l'___ lu.", "opciones": ["aurai", "ai", "avais"], "respuestas": ["aurai"], "explicacion": "Acción futura anterior a otra futura: futur antérieur."},
+  {"id": "e09", "tipo": "eleccion", "enunciado": "Elige la forma correcta.", "frase": "Une fois que vous ___ vos valises, prévenez-moi.", "opciones": ["aurez fait", "avez fait", "faites"], "respuestas": ["aurez fait"], "explicacion": "une fois que + acción futura terminada: futur antérieur."},
+  {"id": "e10", "tipo": "corregir", "enunciado": "Corrige el error.", "frase": "Appelle-moi quand tu es arrivé à l'hôtel.", "respuestas": ["Appelle-moi quand tu seras arrivé à l'hôtel.", "Appelle-moi quand tu seras arrivée à l'hôtel."], "explicacion": "Tras quand con valor futuro: futur antérieur (cuando hayas llegado)."},
+  {"id": "e11", "tipo": "corregir", "enunciado": "Corrige el error.", "frase": "Elles auront parti avant notre arrivée.", "respuestas": ["Elles seront parties avant notre arrivée."], "explicacion": "partir lleva être y el participio concuerda: seront parties."},
+  {"id": "e12", "tipo": "transformar", "enunciado": "Pon el verbo de la subordinada en futur antérieur.", "frase": "Quand tu finiras tes devoirs, tu pourras sortir.", "respuestas": ["Quand tu auras fini tes devoirs, tu pourras sortir."], "explicacion": "Los deberes deben estar terminados antes de salir: auras fini."},
+  {"id": "e13", "tipo": "transformar", "enunciado": "Expresa la suposición con el futur antérieur, sin probablement.", "frase": "Il a probablement oublié notre rendez-vous.", "respuestas": ["Il aura oublié notre rendez-vous."], "explicacion": "El futur antérieur sustituye a probablement + passé composé."},
+  {"id": "e14", "tipo": "ordenar", "enunciado": "Ordena las palabras.", "palabras": ["ce", "terminé", "Nous", "avant", "aurons", "soir"], "respuestas": ["Nous aurons terminé avant ce soir", "Avant ce soir nous aurons terminé"], "explicacion": "Acción concluida antes de un momento futuro: aurons terminé."},
+  {"id": "e15", "tipo": "ordenar", "enunciado": "Ordena las palabras.", "palabras": ["minuit", "rentrée", "Elle", "avant", "sera"], "respuestas": ["Elle sera rentrée avant minuit", "Avant minuit elle sera rentrée"], "explicacion": "rentrer lleva être y concuerda con elle: sera rentrée."}
+ ],
+ "fuente": {"nombre": "Tex's French Grammar", "autores": "COERLL, Universidad de Texas en Austin", "licencia": "CC BY 3.0", "url": "https://laits.utexas.edu/tex/gr/taf5.html", "otras": ["Frases de Tatoeba (CC BY 2.0 FR)"]}
+}

@@ -1,0 +1,55 @@
+{
+ "id": "fr.g.pronombres-sujeto",
+ "titulo": "Pronombres sujeto",
+ "titulo_es": "Pronombres personales sujeto (je, tu, il, elle, on…)",
+ "descripcion_es": "je, tu, il/elle/on, nous, vous, ils/elles; tu frente a vous; on.",
+ "nivel": "A1",
+ "resumen": "En francés el pronombre sujeto es obligatorio: el verbo casi nunca basta para saber quién hace la acción, porque varias personas suenan igual. Además hay que elegir entre tu y vous y conocer el uso de on.",
+ "explicacion": [
+  {"tipo": "tabla", "cabecera": ["Persona", "Singular", "Plural"], "filas": [
+   ["1.ª", "je (j' ante vocal): yo", "nous: nosotros, nosotras"],
+   ["2.ª", "tu: tú", "vous: vosotros, vosotras; usted, ustedes"],
+   ["3.ª", "il: él; elle: ella; on: se, uno, nosotros", "ils: ellos; elles: ellas"]
+  ]},
+  {"tipo": "texto", "texto": "A diferencia del español, no se puede omitir el sujeto: «estoy cansado» es je suis fatigué, nunca suis fatigué. El pronombre va justo delante del verbo (solo pueden meterse en medio ne y los pronombres complemento). Je se apostrofa ante vocal o h muda (j'aime, j'habite) y no lleva mayúscula salvo al principio de frase."},
+  {"tipo": "lista", "items": [
+   "Tu es para una persona de confianza, de tu edad o de la familia. Vous es el plural y también el trato de cortesía a una sola persona (usted): Vous allez bien, Madame ? Tutear a quien no corresponde se considera una falta de respeto.",
+   "Il y elle sustituyen también a cosas según su género en francés: La musique ? Elle est bonne. Le juke-box ? Il est cassé.",
+   "Ils se usa para un grupo masculino o mixto (basta un hombre o una palabra masculina); elles solo para un grupo enteramente femenino.",
+   "On se conjuga en 3.ª persona del singular. Significa «se, uno, la gente» (En France, on mange tard) y en la lengua hablada sustituye muy a menudo a nous: On y va ? (¿Vamos?)."
+  ]}
+ ],
+ "ejemplos": [
+  {"frase": "Bonjour, Paw-Paw. Vous allez bien ?", "traduccion": "Buenos días, Paw-Paw. ¿Está usted bien?"},
+  {"frase": "Tex, Tammy, vous allez bien, mes enfants ?", "traduccion": "Tex, Tammy, ¿estáis bien, hijos?"},
+  {"frase": "Bette et Tex sont de bons amis. Normalement, ils s'entendent bien.", "traduccion": "Bette y Tex son buenos amigos. Normalmente se llevan bien."},
+  {"frase": "Elle est partie avec Tammy. Elles sont allées au Broken Spoke.", "traduccion": "Se ha ido con Tammy. Se han ido al Broken Spoke."},
+  {"frase": "On mange à quelle heure ce soir ?", "traduccion": "¿A qué hora cenamos esta noche?"},
+  {"frase": "J'habite à Madrid, mais je travaille souvent à Bruxelles.", "traduccion": "Vivo en Madrid, pero trabajo a menudo en Bruselas."}
+ ],
+ "errores_hispanohablantes": [
+  {"mal": "Suis très content.", "bien": "Je suis très content.", "nota": "El pronombre sujeto es obligatorio en francés."},
+  {"mal": "Je aime le café.", "bien": "J'aime le café.", "nota": "Je se apostrofa ante vocal o h muda."},
+  {"mal": "On allons au cinéma.", "bien": "On va au cinéma.", "nota": "On lleva el verbo en 3.ª persona del singular aunque signifique «nosotros»."},
+  {"mal": "La table ? Il est cassé.", "bien": "La table ? Elle est cassée.", "nota": "El pronombre sigue el género de la palabra francesa: table es femenino."}
+ ],
+ "ejercicios": [
+  {"id": "e01", "tipo": "hueco", "enunciado": "Completa con el pronombre sujeto (yo).", "frase": "___ suis très fatigué.", "respuestas": ["Je"], "explicacion": "Suis es la forma de je; el pronombre no se puede omitir.", "origen": "tatoeba:332410"},
+  {"id": "e02", "tipo": "hueco", "enunciado": "Completa con el pronombre sujeto (él).", "frase": "___ parle le russe.", "respuestas": ["Il"], "explicacion": "Tercera persona del singular masculina: il.", "origen": "tatoeba:806516"},
+  {"id": "e03", "tipo": "hueco", "enunciado": "Completa con el pronombre sujeto (tú).", "frase": "___ joues au tennis ?", "respuestas": ["Tu"], "explicacion": "La terminación -es corresponde a tu.", "origen": "tatoeba:431371"},
+  {"id": "e04", "tipo": "eleccion", "enunciado": "Elige el pronombre sujeto correcto.", "frase": "___ êtes en danger.", "opciones": ["Vous", "Nous", "Tu"], "respuestas": ["Vous"], "explicacion": "Êtes es la forma de vous del verbo être.", "origen": "tatoeba:1652453"},
+  {"id": "e05", "tipo": "eleccion", "enunciado": "Elige el pronombre sujeto correcto.", "frase": "___ es une bonne amie.", "opciones": ["Tu", "Elle", "Je"], "respuestas": ["Tu"], "explicacion": "Es es la forma de tu del verbo être (elle est, je suis).", "origen": "tatoeba:9501249"},
+  {"id": "e06", "tipo": "ordenar", "enunciado": "Ordena las palabras.", "palabras": ["l'été", "pas", "n'aime", "Je"], "respuestas": ["Je n'aime pas l'été"], "explicacion": "Pronombre sujeto delante del verbo, rodeado por ne… pas.", "origen": "tatoeba:7568"},
+  {"id": "e07", "tipo": "transformar", "enunciado": "Cambia el sujeto por nous.", "frase": "Je suis libre !", "respuestas": ["Nous sommes libres !"], "explicacion": "Nous lleva sommes y el adjetivo pasa a plural.", "origen": "tatoeba:1890042"},
+  {"id": "e08", "tipo": "transformar", "enunciado": "Pasa la pregunta al trato de usted (vous).", "frase": "Tu viens d'où ?", "respuestas": ["Vous venez d'où ?"], "explicacion": "El trato de cortesía usa vous con el verbo en 2.ª persona del plural: vous venez.", "origen": "tatoeba:3475"},
+  {"id": "e09", "tipo": "hueco", "enunciado": "Sustituye el nombre por un pronombre sujeto.", "frase": "La voiture ? ___ est en panne.", "respuestas": ["Elle"], "explicacion": "Voiture es femenino, así que se sustituye por elle."},
+  {"id": "e10", "tipo": "hueco", "enunciado": "Sustituye el nombre por un pronombre sujeto.", "frase": "Le musée ? ___ ferme à dix-huit heures.", "respuestas": ["Il"], "explicacion": "Musée es masculino: il."},
+  {"id": "e11", "tipo": "eleccion", "enunciado": "Elige el pronombre sujeto correcto.", "frase": "Marie et Paul ? ___ sont au cinéma.", "opciones": ["Ils", "Elles", "On"], "respuestas": ["Ils"], "explicacion": "En un grupo mixto se usa ils."},
+  {"id": "e12", "tipo": "eleccion", "enunciado": "Elige el pronombre sujeto correcto.", "frase": "Anne et Sophie ? ___ sont médecins.", "opciones": ["Elles", "Ils", "Elle"], "respuestas": ["Elles"], "explicacion": "Grupo solo de mujeres: elles."},
+  {"id": "e13", "tipo": "hueco", "enunciado": "Completa con el pronombre coloquial que equivale a «nosotros».", "frase": "Ce soir, ___ va au restaurant, toi et moi ?", "respuestas": ["on"], "explicacion": "On con el verbo en 3.ª persona del singular equivale a nous en la lengua hablada."},
+  {"id": "e14", "tipo": "corregir", "enunciado": "Corrige el error.", "frase": "Est malade aujourd'hui.", "respuestas": ["Il est malade aujourd'hui.", "Elle est malade aujourd'hui."], "explicacion": "El francés no admite el sujeto omitido."},
+  {"id": "e15", "tipo": "corregir", "enunciado": "Corrige el error.", "frase": "On allons au marché.", "respuestas": ["On va au marché.", "Nous allons au marché."], "explicacion": "On se conjuga en 3.ª persona del singular: on va."},
+  {"id": "e16", "tipo": "corregir", "enunciado": "Corrige el error.", "frase": "Je habite à Séville.", "respuestas": ["J'habite à Séville."], "explicacion": "Ante h muda je se apostrofa: j'habite."}
+ ],
+ "fuente": {"nombre": "Tex's French Grammar", "autores": "COERLL, Universidad de Texas en Austin", "licencia": "CC BY 3.0", "url": "https://laits.utexas.edu/tex/gr/pro2.html", "otras": ["Frases de Tatoeba (CC BY 2.0 FR)"]}
+}

@@ -1,0 +1,54 @@
+{
+ "id": "en.g.posesivos-pron",
+ "titulo": "Possessive pronouns",
+ "titulo_es": "Pronombres posesivos y whose",
+ "descripcion_es": "mine, yours, his, hers…; preguntar por el poseedor con whose.",
+ "nivel": "A2",
+ "resumen": "Los pronombres posesivos (mine, yours, hers...) sustituyen a «posesivo + sustantivo» y van solos, sin sustantivo detrás. Para preguntar de quién es algo se usa whose.",
+ "explicacion": [
+  {"tipo": "tabla", "cabecera": ["Pronombre sujeto", "Determinante (+ sustantivo)", "Pronombre posesivo (solo)"], "filas": [
+   ["I", "my book", "mine"], ["you", "your book", "yours"], ["he", "his book", "his"],
+   ["she", "her book", "hers"], ["we", "our book", "ours"], ["they", "their book", "theirs"]
+  ]},
+  {"tipo": "texto", "texto": "El determinante va delante de un sustantivo (This is my bag); el pronombre lo sustituye (This bag is mine). En español equivale a «mi» frente a «(el) mío». En inglés nunca se pone the delante: the mine es incorrecto."},
+  {"tipo": "lista", "items": [
+   "Los posesivos no cambian según el género o el número de lo poseído: my brother, my sisters; it's mine, they're mine.",
+   "Sí cambian según el poseedor: his (de él), hers (de ella), theirs (de ellos/ellas).",
+   "Hers, ours, yours y theirs no llevan apóstrofo.",
+   "Its existe como determinante (its tail) pero casi nunca se usa como pronombre."
+  ]},
+  {"tipo": "texto", "texto": "Whose = ¿de quién? Puede ir con sustantivo (Whose car is this?) o solo (Whose is this?). No confundir con who's (= who is)."},
+  {"tipo": "texto", "texto": "Expresión útil: a friend of mine = un amigo mío; a cousin of hers = un primo suyo (de ella)."}
+ ],
+ "ejemplos": [
+  {"frase": "Is this umbrella yours?", "traduccion": "¿Es tuyo este paraguas?"},
+  {"frase": "Their garden is bigger than ours.", "traduccion": "Su jardín es más grande que el nuestro."},
+  {"frase": "Whose keys are these?", "traduccion": "¿De quién son estas llaves?"},
+  {"frase": "That's not my phone. Mine is black.", "traduccion": "Ese no es mi móvil. El mío es negro."},
+  {"frase": "A friend of mine works in Brussels.", "traduccion": "Un amigo mío trabaja en Bruselas."}
+ ],
+ "errores_hispanohablantes": [
+  {"mal": "This coat is the mine.", "bien": "This coat is mine.", "nota": "Los pronombres posesivos no llevan the."},
+  {"mal": "Maria lost his passport.", "bien": "Maria lost her passport.", "nota": "El posesivo concuerda con el poseedor (Maria → her), no con lo poseído."},
+  {"mal": "Who's bag is this?", "bien": "Whose bag is this?", "nota": "Who's = who is; ¿de quién? es whose."},
+  {"mal": "These seats are your's.", "bien": "These seats are yours.", "nota": "Yours no lleva apóstrofo."}
+ ],
+ "ejercicios": [
+  {"id": "e01", "tipo": "hueco", "enunciado": "Completa con el pronombre posesivo.", "frase": "That bike belongs to Peter. It's ___.", "respuestas": ["his"], "explicacion": "Poseedor masculino singular: his."},
+  {"id": "e02", "tipo": "hueco", "enunciado": "Completa con el pronombre posesivo.", "frase": "This is our car, not ___ (they).", "respuestas": ["theirs"], "explicacion": "Pronombre posesivo de they: theirs."},
+  {"id": "e03", "tipo": "hueco", "enunciado": "Completa con el pronombre posesivo.", "frase": "Lucy, is this jacket ___?", "respuestas": ["yours"], "explicacion": "Se pregunta a Lucy (you): yours."},
+  {"id": "e04", "tipo": "hueco", "enunciado": "Completa con el pronombre posesivo.", "frase": "We can't use your printer because ___ is broken. (we)", "respuestas": ["ours"], "explicacion": "Pronombre posesivo de we: ours."},
+  {"id": "e05", "tipo": "hueco", "enunciado": "Completa con whose o who's.", "frase": "___ shoes are these?", "respuestas": ["Whose"], "explicacion": "¿De quién? = whose."},
+  {"id": "e06", "tipo": "eleccion", "enunciado": "Elige la opción correcta.", "frase": "Anna says the blue suitcase is ___.", "opciones": ["her", "hers", "her's"], "respuestas": ["hers"], "explicacion": "Va solo, sin sustantivo: hers."},
+  {"id": "e07", "tipo": "eleccion", "enunciado": "Elige la opción correcta.", "frase": "I forgot my pen. Can I borrow ___?", "opciones": ["your", "yours", "the yours"], "respuestas": ["yours"], "explicacion": "Sustituye a your pen: yours."},
+  {"id": "e08", "tipo": "eleccion", "enunciado": "Elige la opción correcta.", "frase": "Carlos is a colleague of ___.", "opciones": ["me", "my", "mine"], "respuestas": ["mine"], "explicacion": "Estructura a colleague of mine."},
+  {"id": "e09", "tipo": "eleccion", "enunciado": "Elige la opción correcta.", "frase": "The children are playing with ___ toys.", "opciones": ["theirs", "their", "they"], "respuestas": ["their"], "explicacion": "Va delante de un sustantivo: determinante their."},
+  {"id": "e10", "tipo": "transformar", "enunciado": "Reescribe la frase con un pronombre posesivo.", "frase": "This is my seat.", "respuestas": ["This seat is mine."], "explicacion": "My seat → mine, al final y sin sustantivo."},
+  {"id": "e11", "tipo": "transformar", "enunciado": "Haz la pregunta con whose para averiguar el dueño.", "frase": "This is somebody's phone.", "respuestas": ["Whose phone is this?", "Whose is this phone?", "Whose is this?"], "explicacion": "Whose (+ sustantivo) + is this?"},
+  {"id": "e12", "tipo": "corregir", "enunciado": "Corrige el error.", "frase": "Those books aren't the ours.", "respuestas": ["Those books aren't ours.", "Those books are not ours."], "explicacion": "Sin the delante del pronombre posesivo."},
+  {"id": "e13", "tipo": "corregir", "enunciado": "Corrige el error.", "frase": "My sister lives with his husband in Bilbao.", "respuestas": ["My sister lives with her husband in Bilbao."], "explicacion": "Poseedora femenina: her."},
+  {"id": "e14", "tipo": "ordenar", "enunciado": "Ordena las palabras para formar una pregunta.", "palabras": ["is", "this", "whose", "coat"], "respuestas": ["Whose coat is this", "Whose is this coat"], "explicacion": "Whose + sustantivo + is this."},
+  {"id": "e15", "tipo": "ordenar", "enunciado": "Ordena las palabras.", "palabras": ["the", "is", "mine", "one", "red"], "respuestas": ["The red one is mine", "Mine is the red one"], "explicacion": "El pronombre posesivo va sin sustantivo."}
+ ],
+ "fuente": {"nombre": "propia"}
+}

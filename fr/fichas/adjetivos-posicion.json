@@ -1,0 +1,62 @@
+{
+ "id": "fr.g.adjetivos-posicion",
+ "titulo": "Posición del adjetivo",
+ "titulo_es": "Posición del adjetivo (antes o después del nombre)",
+ "descripcion_es": "Adjetivos que van delante del nombre y adjetivos que cambian de sentido según su posición.",
+ "nivel": "A2",
+ "resumen": "La mayoría de los adjetivos franceses van detrás del nombre, pero un grupo pequeño y muy frecuente va delante, y algunos cambian de significado según el lugar, como en español «un gran hombre» / «un hombre grande».",
+ "explicacion": [
+  {"tipo": "texto", "texto": "Regla general: el adjetivo va detrás del nombre, sobre todo los de color, forma, nacionalidad o los largos: un béret rond, une voiture rouge, la langue française, des tatous intelligents."},
+  {"tipo": "texto", "texto": "Un grupo de adjetivos cortos y frecuentes va normalmente delante. En inglés se recuerdan con la sigla BANGS (Beauty, Age, Number, Goodness, Size): belleza, edad, número, bondad y tamaño."},
+  {"tipo": "tabla", "cabecera": ["Tipo", "Adjetivos", "Ejemplo"], "filas": [
+   ["Belleza", "beau, joli", "une jolie maison"],
+   ["Edad", "jeune, vieux, nouveau", "un jeune homme"],
+   ["Número y orden", "premier, deuxième, dernier, autre", "la première photo"],
+   ["Bondad", "bon, mauvais", "un mauvais signe"],
+   ["Tamaño", "grand, petit, gros", "un petit chien"]
+  ]},
+  {"tipo": "texto", "texto": "Beau, nouveau y vieux, al ir delante, tienen una forma especial para el masculino singular ante vocal o h muda: un bel arbre, un nouvel appartement, un vieil homme."},
+  {"tipo": "tabla", "cabecera": ["Adjetivo", "Delante (sentido figurado)", "Detrás (sentido literal)"], "filas": [
+   ["ancien", "mon ancienne copine (mi ex)", "des meubles anciens (antiguos)"],
+   ["cher", "chers amis (queridos)", "des parfums chers (caros)"],
+   ["dernier", "la dernière fois (la última de una serie)", "la semaine dernière (la pasada)"],
+   ["grand", "un grand philosophe (gran)", "un homme grand (alto)"],
+   ["pauvre", "le pauvre Tex (desgraciado)", "un tatou pauvre (sin dinero)"],
+   ["propre", "son propre restaurant (propio)", "un escargot propre (limpio)"],
+   ["seul", "le seul tatou (único)", "un homme seul (solo)"],
+   ["même", "le même tatou (mismo)", "l'hypocrisie même (en persona)"]
+  ]}
+ ],
+ "ejemplos": [
+  {"frase": "Tammy est une belle Américaine. C'est aussi une bonne amie.", "traduccion": "Tammy es una americana guapa. También es una buena amiga."},
+  {"frase": "Le vieil homme, c'est Paw-Paw Louis.", "traduccion": "El anciano es Paw-Paw Louis."},
+  {"frase": "C'est la première photo de toi.", "traduccion": "Es la primera foto tuya."},
+  {"frase": "Tex est un grand philosophe, mais les tatous ne sont pas grands.", "traduccion": "Tex es un gran filósofo, pero los armadillos no son altos."},
+  {"frase": "Edouard veut son propre restaurant.", "traduccion": "Edouard quiere su propio restaurante."},
+  {"frase": "J'ai acheté une voiture rouge.", "traduccion": "Me he comprado un coche rojo."}
+ ],
+ "errores_hispanohablantes": [
+  {"mal": "C'est un français vin.", "bien": "C'est un vin français.", "nota": "Los adjetivos de nacionalidad y de color van siempre detrás."},
+  {"mal": "C'est un vieux ami.", "bien": "C'est un vieil ami.", "nota": "Ante vocal, vieux pasa a vieil en masculino singular."},
+  {"mal": "Je l'ai vu la dernière semaine.", "bien": "Je l'ai vu la semaine dernière.", "nota": "«La semana pasada» lleva dernier detrás; delante significa «la última» de una serie."}
+ ],
+ "ejercicios": [
+  {"id": "e01", "tipo": "ordenar", "enunciado": "Ordena las palabras (Tengo un perro pequeño).", "palabras": ["chien", "petit", "J'ai", "un"], "respuestas": ["J'ai un petit chien"], "explicacion": "Petit es un adjetivo de tamaño y va delante del nombre.", "origen": "tatoeba:13961482"},
+  {"id": "e02", "tipo": "ordenar", "enunciado": "Ordena las palabras (Es un libro nuevo).", "palabras": ["livre", "C'est", "nouveau", "un"], "respuestas": ["C'est un nouveau livre"], "explicacion": "Nouveau suele ir delante del nombre.", "origen": "tatoeba:871148"},
+  {"id": "e03", "tipo": "ordenar", "enunciado": "Ordena las palabras (Es una habitación pequeña).", "palabras": ["pièce", "une", "petite", "C'est"], "respuestas": ["C'est une petite pièce"], "explicacion": "Petit va delante y concuerda con pièce: petite.", "origen": "tatoeba:8696747"},
+  {"id": "e04", "tipo": "ordenar", "enunciado": "Ordena las palabras (Tom es un buen amigo).", "palabras": ["ami", "est", "bon", "Tom", "un"], "respuestas": ["Tom est un bon ami"], "explicacion": "Bon va delante del nombre.", "origen": "tatoeba:2624085"},
+  {"id": "e05", "tipo": "corregir", "enunciado": "Corrige el error de posición.", "frase": "C'est un signe mauvais.", "respuestas": ["C'est un mauvais signe."], "explicacion": "Mauvais es un adjetivo de bondad y va delante del nombre.", "origen": "tatoeba:5913004"},
+  {"id": "e06", "tipo": "corregir", "enunciado": "Corrige el error de posición.", "frase": "J'ai un jardin grand.", "respuestas": ["J'ai un grand jardin."], "explicacion": "Grand, referido a tamaño de una cosa, va delante.", "origen": "tatoeba:6457918"},
+  {"id": "e07", "tipo": "eleccion", "enunciado": "Elige la forma correcta.", "frase": "C'est un ___ homme.", "opciones": ["vieux", "vieil", "vieille"], "respuestas": ["vieil"], "explicacion": "Ante h muda, en masculino singular, vieux pasa a vieil."},
+  {"id": "e08", "tipo": "hueco", "enunciado": "Completa con la forma correcta de nouveau.", "frase": "Elle a acheté un ___ appartement.", "respuestas": ["nouvel"], "explicacion": "Ante vocal, en masculino singular, nouveau pasa a nouvel."},
+  {"id": "e09", "tipo": "eleccion", "enunciado": "Elige la expresión que significa «su exnovia».", "frase": "Marianne est ___ de Tex.", "opciones": ["l'ancienne copine", "la copine ancienne"], "respuestas": ["l'ancienne copine"], "explicacion": "Ancien delante del nombre significa «antiguo, ex»."},
+  {"id": "e10", "tipo": "eleccion", "enunciado": "Elige la expresión que significa «los muebles antiguos».", "frase": "Paw-Paw adore ___.", "opciones": ["les anciens meubles", "les meubles anciens"], "respuestas": ["les meubles anciens"], "explicacion": "Ancien detrás del nombre tiene el sentido literal de «viejo, antiguo»."},
+  {"id": "e11", "tipo": "eleccion", "enunciado": "Elige la expresión que significa «su propio restaurante».", "frase": "Edouard veut ___.", "opciones": ["son propre restaurant", "son restaurant propre"], "respuestas": ["son propre restaurant"], "explicacion": "Propre delante significa «propio»; detrás, «limpio»."},
+  {"id": "e12", "tipo": "eleccion", "enunciado": "Elige la expresión que significa «la semana pasada».", "frase": "Je l'ai vu ___.", "opciones": ["la dernière semaine", "la semaine dernière"], "respuestas": ["la semaine dernière"], "explicacion": "Dernier detrás significa «pasado»; delante, «último de una serie»."},
+  {"id": "e13", "tipo": "eleccion", "enunciado": "Elige la expresión que significa «un gran filósofo».", "frase": "Tex est ___.", "opciones": ["un grand philosophe", "un philosophe grand"], "respuestas": ["un grand philosophe"], "explicacion": "Grand delante de una persona significa «gran, importante»; detrás, «alto»."},
+  {"id": "e14", "tipo": "hueco", "enunciado": "Completa con la forma correcta de beau.", "frase": "Ce fut un ___ mariage.", "respuestas": ["beau"], "explicacion": "Mariage empieza por consonante: se usa beau, no bel.", "origen": "tatoeba:2491083"},
+  {"id": "e15", "tipo": "eleccion", "enunciado": "Elige la forma correcta.", "frase": "Tu as un ___ sourire.", "opciones": ["beau", "bel", "belle"], "respuestas": ["beau"], "explicacion": "Sourire es masculino y empieza por consonante: beau.", "origen": "tatoeba:3574530"},
+  {"id": "e16", "tipo": "eleccion", "enunciado": "Elige la forma correcta.", "frase": "Il habite dans un ___ immeuble.", "opciones": ["beau", "bel", "belle"], "respuestas": ["bel"], "explicacion": "Immeuble es masculino y empieza por vocal: bel."}
+ ],
+ "fuente": {"nombre": "Tex's French Grammar", "autores": "COERLL, Universidad de Texas en Austin", "licencia": "CC BY 3.0", "url": "https://laits.utexas.edu/tex/gr/adj3.html", "otras": ["Frases de Tatoeba (CC BY 2.0 FR)"]}
+}

@@ -1,0 +1,57 @@
+{
+ "id": "fr.g.posesivos-pron",
+ "titulo": "Pronombres posesivos",
+ "titulo_es": "Pronombres posesivos: le mien, la tienne, les leurs…",
+ "descripcion_es": "El mío, la tuya, los suyos: forma según el poseedor y concordancia con lo poseído.",
+ "nivel": "B1",
+ "resumen": "Los pronombres posesivos (le mien, la tienne, les nôtres…) sustituyen a un nombre con posesivo para no repetirlo: C'est ton béret ? — Oui, c'est le mien. Siempre llevan artículo y concuerdan en género y número con la cosa poseída, no con el poseedor.",
+ "explicacion": [
+  {"tipo": "tabla", "cabecera": ["Poseedor", "Masc. sing.", "Fem. sing.", "Masc. pl.", "Fem. pl."], "filas": [
+   ["je", "le mien", "la mienne", "les miens", "les miennes"],
+   ["tu", "le tien", "la tienne", "les tiens", "les tiennes"],
+   ["il / elle", "le sien", "la sienne", "les siens", "les siennes"],
+   ["nous", "le nôtre", "la nôtre", "les nôtres", "les nôtres"],
+   ["vous", "le vôtre", "la vôtre", "les vôtres", "les vôtres"],
+   ["ils / elles", "le leur", "la leur", "les leurs", "les leurs"]
+  ]},
+  {"tipo": "texto", "texto": "El género lo decide lo poseído en francés: ma maison → la mienne, mon vélo → le mien, aunque en español sean «la bicicleta» y «la mía». Le sien sirve para «de él» y «de ella»; le leur, para «de ellos»."},
+  {"tipo": "lista", "items": [
+   "Nôtre y vôtre llevan acento circunflejo y o cerrada; los determinantes notre, votre no: notre maison / la nôtre.",
+   "El artículo se contrae con à y de: Je pense à mes neveux. — Moi, je pense rarement aux miens. Je parle du mien.",
+   "Otra forma de expresar posesión: être à + pronombre tónico: Cette photo est à moi (es mía). En la respuesta corta es lo más natural.",
+   "Expresiones: les miens (los míos, mi familia); être des nôtres (venir con nosotros); y mettre du sien (poner de su parte); faire des siennes (hacer de las suyas); À la tienne ! (¡a tu salud!)."
+  ]}
+ ],
+ "ejemplos": [
+  {"frase": "C'est ton béret ? — Oui, c'est le mien.", "traduccion": "¿Es tu boina? — Sí, es la mía."},
+  {"frase": "Mon frère est musicien. — Le mien est professeur.", "traduccion": "Mi hermano es músico. — El mío es profesor."},
+  {"frase": "Ma maison est la vôtre.", "traduccion": "Mi casa es la suya (de usted)."},
+  {"frase": "C'est ma faute, pas la tienne.", "traduccion": "Es culpa mía, no tuya."},
+  {"frase": "Tu es des nôtres ce soir ?", "traduccion": "¿Te vienes con nosotros esta noche?"},
+  {"frase": "J'espère que tu vas y mettre du tien.", "traduccion": "Espero que pongas de tu parte."}
+ ],
+ "errores_hispanohablantes": [
+  {"mal": "Ta voiture est plus grande que la mien.", "bien": "Ta voiture est plus grande que la mienne.", "nota": "Concuerda con lo poseído (la voiture, femenino): la mienne."},
+  {"mal": "C'est notre maison, pas la votre.", "bien": "C'est notre maison, pas la vôtre.", "nota": "El pronombre lleva acento: la vôtre."},
+  {"mal": "Ce livre est mien.", "bien": "Ce livre est à moi.", "nota": "Para decir «es mío» se usa être à moi o c'est le mien, no mien solo."}
+ ],
+ "ejercicios": [
+  {"id": "e01", "tipo": "hueco", "enunciado": "Completa con el pronombre posesivo (mío).", "frase": "Oui, c'est le ___.", "respuestas": ["mien"], "explicacion": "Masculino singular, poseedor je: le mien.", "origen": "tatoeba:5175018"},
+  {"id": "e02", "tipo": "eleccion", "enunciado": "Elige el pronombre correcto (ma valise).", "frase": "Ce n'est pas ___.", "opciones": ["la mienne", "le mien", "les miennes"], "respuestas": ["la mienne"], "explicacion": "Valise es femenino singular: la mienne.", "origen": "tatoeba:1895007"},
+  {"id": "e03", "tipo": "hueco", "enunciado": "Completa con el pronombre posesivo (de vous).", "frase": "Ma maison est la ___.", "respuestas": ["vôtre"], "explicacion": "Poseedor vous, lo poseído femenino: la vôtre, con acento.", "origen": "tatoeba:1015332"},
+  {"id": "e04", "tipo": "corregir", "enunciado": "Corrige el error.", "frase": "Cette maison est le sien.", "respuestas": ["Cette maison est la sienne."], "explicacion": "Maison es femenino: la sienne.", "origen": "tatoeba:557872"},
+  {"id": "e05", "tipo": "eleccion", "enunciado": "Elige el pronombre correcto.", "frase": "Ton vélo est meilleur que ___.", "opciones": ["le mien", "la mienne", "les miens"], "respuestas": ["le mien"], "explicacion": "Vélo es masculino en francés: le mien, aunque en español sea «la mía».", "origen": "tatoeba:481837"},
+  {"id": "e06", "tipo": "hueco", "enunciado": "Completa con el pronombre posesivo (tuya).", "frase": "C'est ma faute, pas la ___.", "respuestas": ["tienne"], "explicacion": "Faute es femenino, poseedor tu: la tienne.", "origen": "tatoeba:899286"},
+  {"id": "e07", "tipo": "corregir", "enunciado": "Corrige el error.", "frase": "C'est ton problème, pas la mienne.", "respuestas": ["C'est ton problème, pas le mien."], "explicacion": "Problème es masculino: le mien.", "origen": "tatoeba:1903121"},
+  {"id": "e08", "tipo": "transformar", "enunciado": "Evita repetir el nombre con un pronombre posesivo.", "frase": "Sa maison est en face de ma maison.", "respuestas": ["Sa maison est en face de la mienne."], "explicacion": "Ma maison → la mienne.", "origen": "tatoeba:524996"},
+  {"id": "e09", "tipo": "ordenar", "enunciado": "Ordena las palabras.", "palabras": ["le", "du", "est", "Celui", "mien", "milieu"], "respuestas": ["Celui du milieu est le mien", "Le mien est celui du milieu"], "explicacion": "Sujeto (celui du milieu) + est + posesivo.", "origen": "tatoeba:6287745"},
+  {"id": "e10", "tipo": "eleccion", "enunciado": "Elige la forma correcta (notre parasol).", "frase": "Pourquoi as-tu pris ___ ?", "opciones": ["le nôtre", "le notre", "la nôtre"], "respuestas": ["le nôtre"], "explicacion": "Parasol es masculino y el pronombre lleva acento: le nôtre.", "origen": "tatoeba:8836443"},
+  {"id": "e11", "tipo": "corregir", "enunciado": "Corrige el error.", "frase": "Notre maison est la votre.", "respuestas": ["Notre maison est la vôtre."], "explicacion": "El pronombre posesivo se escribe con acento: la vôtre.", "origen": "tatoeba:1283264"},
+  {"id": "e12", "tipo": "hueco", "enunciado": "Completa con la preposición y el artículo contraídos.", "frase": "Je pense souvent à mes neveux. — Moi, je pense rarement ___ miens.", "respuestas": ["aux"], "explicacion": "Penser à + les miens: à + les = aux."},
+  {"id": "e13", "tipo": "transformar", "enunciado": "Evita repetir el nombre con un pronombre posesivo.", "frase": "Tes parents sont américains ; mes parents sont français.", "respuestas": ["Tes parents sont américains ; les miens sont français."], "explicacion": "Mes parents → les miens."},
+  {"id": "e14", "tipo": "eleccion", "enunciado": "Elige el pronombre correcto (sus libros, de ellos).", "frase": "J'ai acheté mes livres. Joe et Ed ont-ils acheté ___ ?", "opciones": ["les leurs", "les siens", "leurs"], "respuestas": ["les leurs"], "explicacion": "Varios poseedores (ellos) y varios objetos: les leurs."},
+  {"id": "e15", "tipo": "hueco", "enunciado": "Completa el brindis.", "frase": "À ta santé ! — À la ___ !", "respuestas": ["tienne"], "explicacion": "La santé es femenino, y se responde al tú: à la tienne."},
+  {"id": "e16", "tipo": "eleccion", "enunciado": "Elige el pronombre correcto.", "frase": "Paul a perdu sa clé, et Marie a perdu ___.", "opciones": ["la sienne", "le sien", "la leur"], "respuestas": ["la sienne"], "explicacion": "Clé es femenino, poseedora una sola persona: la sienne."}
+ ],
+ "fuente": {"nombre": "Tex's French Grammar", "autores": "COERLL, Universidad de Texas en Austin", "licencia": "CC BY 3.0", "url": "https://laits.utexas.edu/tex/gr/pro12.html", "otras": ["Frases de Tatoeba (CC BY 2.0 FR)"]}
+}

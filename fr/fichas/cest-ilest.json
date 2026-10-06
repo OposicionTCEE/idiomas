@@ -1,0 +1,328 @@
+{
+ "id": "fr.g.cest-ilest",
+ "titulo": "C'est o il/elle est",
+ "titulo_es": "C'est o il/elle est (es / está)",
+ "descripcion_es": "Cuándo usar c'est / ce sont y cuándo il est / elle est / ils sont.",
+ "nivel": "A2",
+ "resumen": "Las dos fórmulas traducen «es», pero no son intercambiables: c'est va seguido de un determinante y un nombre (o de un nombre propio, un pronombre tónico, una fecha), mientras que il/elle est va seguido de un adjetivo o de una profesión o nacionalidad sin artículo.",
+ "explicacion": [
+  {
+   "tipo": "texto",
+   "texto": "Regla práctica: si después viene un artículo u otro determinante (un, le, mon, ce…) → c'est / ce sont. Si viene un adjetivo solo → il est / elle est / ils sont / elles sont."
+  },
+  {
+   "tipo": "tabla",
+   "cabecera": [
+    "C'est / ce sont +",
+    "Ejemplo"
+   ],
+   "filas": [
+    [
+     "determinante + nombre",
+     "C'est un bon médecin. Ce sont mes voisins."
+    ],
+    [
+     "nombre propio",
+     "C'est Julie."
+    ],
+    [
+     "pronombre tónico",
+     "Allô ? C'est moi."
+    ],
+    [
+     "fecha",
+     "C'est le 14 juillet."
+    ],
+    [
+     "adjetivo (idea general, «eso»)",
+     "C'est facile ! C'est dommage."
+    ]
+   ]
+  },
+  {
+   "tipo": "tabla",
+   "cabecera": [
+    "Il/elle est, ils/elles sont +",
+    "Ejemplo"
+   ],
+   "filas": [
+    [
+     "adjetivo referido a alguien o algo concreto",
+     "Ma sœur ? Elle est très occupée."
+    ],
+    [
+     "profesión, nacionalidad o religión sin artículo",
+     "Il est médecin. Elle est française."
+    ]
+   ]
+  },
+  {
+   "tipo": "texto",
+   "texto": "Il est stupide = él es tonto (una persona concreta). C'est stupide = eso es una tontería (una situación). Con profesiones hay dos opciones: Il est médecin, o bien C'est un médecin; pero nunca «Il est un médecin» ni «C'est médecin». Si el nombre lleva adjetivo, se usa c'est: C'est un excellent médecin."
+  },
+  {
+   "tipo": "lista",
+   "items": [
+    "Plural: ce sont + nombre plural (Ce sont des tatous). En la lengua hablada se oye c'est des…, pero en un examen escribe ce sont.",
+    "Negación: Ce n'est pas un chat. Ce ne sont pas des chats. Il n'est pas français.",
+    "Para preguntar: Qui est-ce ? (¿Quién es?) → C'est Paul. Qu'est-ce que c'est ? (¿Qué es?) → C'est un cadeau."
+   ]
+  }
+ ],
+ "ejemplos": [
+  {
+   "frase": "C'est un vieux piano.",
+   "traduccion": "Es un piano viejo."
+  },
+  {
+   "frase": "Il est très honnête.",
+   "traduccion": "Es muy honrado."
+  },
+  {
+   "frase": "Mon anniversaire ? C'est le 3 mai.",
+   "traduccion": "¿Mi cumpleaños? Es el 3 de mayo."
+  },
+  {
+   "frase": "Elle est avocate. C'est une avocate brillante.",
+   "traduccion": "Es abogada. Es una abogada brillante."
+  },
+  {
+   "frase": "Vivre, c'est apprendre.",
+   "traduccion": "Vivir es aprender."
+  },
+  {
+   "frase": "Ce sont des étudiants de Lyon. Ils sont très sympathiques.",
+   "traduccion": "Son estudiantes de Lyon. Son muy simpáticos."
+  }
+ ],
+ "errores_hispanohablantes": [
+  {
+   "mal": "Il est un bon médecin.",
+   "bien": "C'est un bon médecin.",
+   "nota": "Con artículo + nombre se usa c'est."
+  },
+  {
+   "mal": "C'est médecin.",
+   "bien": "Il est médecin. / C'est un médecin.",
+   "nota": "Profesión sin artículo → il est; con artículo → c'est."
+  },
+  {
+   "mal": "Elle est une Espagnole.",
+   "bien": "Elle est espagnole. / C'est une Espagnole.",
+   "nota": "El adjetivo de nacionalidad va en minúscula; el nombre, en mayúscula y con c'est."
+  }
+ ],
+ "ejercicios": [
+  {
+   "id": "e01",
+   "tipo": "eleccion",
+   "enunciado": "Elige la opción correcta.",
+   "frase": "___ un bon médecin.",
+   "opciones": [
+    "C'est",
+    "Il est"
+   ],
+   "respuestas": [
+    "C'est"
+   ],
+   "explicacion": "Determinante + nombre → c'est.",
+   "origen": "tatoeba:1072809"
+  },
+  {
+   "id": "e02",
+   "tipo": "eleccion",
+   "enunciado": "Elige la opción correcta (hablando de tu jefe).",
+   "frase": "___ très honnête.",
+   "opciones": [
+    "Il est",
+    "C'est"
+   ],
+   "respuestas": [
+    "Il est"
+   ],
+   "explicacion": "Adjetivo referido a una persona concreta → il est.",
+   "origen": "tatoeba:131260"
+  },
+  {
+   "id": "e03",
+   "tipo": "eleccion",
+   "enunciado": "Elige la opción correcta.",
+   "frase": "Faire une omelette ? ___ très facile !",
+   "opciones": [
+    "C'est",
+    "Il est",
+    "Elle est"
+   ],
+   "respuestas": [
+    "C'est"
+   ],
+   "explicacion": "El adjetivo se refiere a una acción (una idea general), no a una persona o cosa: c'est."
+  },
+  {
+   "id": "e04",
+   "tipo": "hueco",
+   "enunciado": "Completa con c'est, il est o elle est.",
+   "frase": "Ma sœur ? ___ très occupée cette semaine.",
+   "respuestas": [
+    "Elle est"
+   ],
+   "explicacion": "Adjetivo referido a una persona concreta y femenina → elle est.",
+   "origen": "tatoeba:134537"
+  },
+  {
+   "id": "e05",
+   "tipo": "hueco",
+   "enunciado": "Completa con c'est, il est o elle est.",
+   "frase": "Qui est à la porte ? ___ moi !",
+   "respuestas": [
+    "C'est"
+   ],
+   "explicacion": "Ante un pronombre tónico → c'est."
+  },
+  {
+   "id": "e06",
+   "tipo": "hueco",
+   "enunciado": "Completa con c'est, il est o elle est.",
+   "frase": "Mon anniversaire ? ___ le 14 juillet.",
+   "respuestas": [
+    "C'est"
+   ],
+   "explicacion": "Las fechas van con c'est."
+  },
+  {
+   "id": "e07",
+   "tipo": "eleccion",
+   "enunciado": "Elige la opción correcta.",
+   "frase": "Marie ? ___ avocate.",
+   "opciones": [
+    "Elle est",
+    "C'est"
+   ],
+   "respuestas": [
+    "Elle est"
+   ],
+   "explicacion": "Profesión sin artículo → il/elle est."
+  },
+  {
+   "id": "e08",
+   "tipo": "hueco",
+   "enunciado": "Completa con ce sont, ils sont o elles sont.",
+   "frase": "Les Martin ? ___ des voisins très sympathiques.",
+   "respuestas": [
+    "Ce sont"
+   ],
+   "explicacion": "Determinante + nombre plural → ce sont."
+  },
+  {
+   "id": "e09",
+   "tipo": "hueco",
+   "enunciado": "Completa con ce sont, ils sont o elles sont.",
+   "frase": "Paul et Luc ? ___ espagnols.",
+   "respuestas": [
+    "Ils sont"
+   ],
+   "explicacion": "Nacionalidad sin artículo (adjetivo) → ils sont."
+  },
+  {
+   "id": "e10",
+   "tipo": "eleccion",
+   "enunciado": "Elige la opción correcta.",
+   "frase": "Dépêche-toi, ___ le dernier train !",
+   "opciones": [
+    "c'est",
+    "il est"
+   ],
+   "respuestas": [
+    "c'est"
+   ],
+   "explicacion": "Artículo + nombre → c'est.",
+   "origen": "tatoeba:810254"
+  },
+  {
+   "id": "e11",
+   "tipo": "eleccion",
+   "enunciado": "Elige la opción correcta.",
+   "frase": "Tu ne peux pas venir ? Ah, ___ dommage !",
+   "opciones": [
+    "c'est",
+    "il est"
+   ],
+   "respuestas": [
+    "c'est"
+   ],
+   "explicacion": "Comentario sobre una situación: c'est dommage (es una pena)."
+  },
+  {
+   "id": "e12",
+   "tipo": "corregir",
+   "enunciado": "Corrige el error.",
+   "frase": "Il est un bon écrivain.",
+   "respuestas": [
+    "C'est un bon écrivain."
+   ],
+   "explicacion": "Artículo + adjetivo + nombre → c'est.",
+   "origen": "tatoeba:583150"
+  },
+  {
+   "id": "e13",
+   "tipo": "corregir",
+   "enunciado": "Corrige el error.",
+   "frase": "Mon frère ? C'est très content.",
+   "respuestas": [
+    "Mon frère ? Il est très content."
+   ],
+   "explicacion": "Adjetivo referido a una persona concreta → il est.",
+   "origen": "tatoeba:6813647"
+  },
+  {
+   "id": "e14",
+   "tipo": "transformar",
+   "enunciado": "Reescribe la frase usando «un bon médecin».",
+   "frase": "Il est médecin.",
+   "respuestas": [
+    "C'est un bon médecin."
+   ],
+   "explicacion": "Al aparecer artículo y adjetivo hay que pasar a c'est."
+  },
+  {
+   "id": "e15",
+   "tipo": "ordenar",
+   "enunciado": "Ordena las palabras (es un piano viejo).",
+   "palabras": [
+    "piano",
+    "un",
+    "C'est",
+    "vieux"
+   ],
+   "respuestas": [
+    "C'est un vieux piano"
+   ],
+   "explicacion": "C'est + un + vieux (adjetivo que va delante) + piano.",
+   "origen": "tatoeba:8713"
+  },
+  {
+   "id": "e16",
+   "tipo": "eleccion",
+   "enunciado": "Elige la opción correcta (hablando de tu primo).",
+   "frase": "___ très jeune.",
+   "opciones": [
+    "Il est",
+    "C'est"
+   ],
+   "respuestas": [
+    "Il est"
+   ],
+   "explicacion": "Adjetivo referido a una persona concreta: il est.",
+   "origen": "tatoeba:1451254"
+  }
+ ],
+ "fuente": {
+  "nombre": "Tex's French Grammar",
+  "autores": "COERLL, Universidad de Texas en Austin",
+  "licencia": "CC BY 3.0",
+  "url": "https://laits.utexas.edu/tex/gr/pro3.html",
+  "otras": [
+   "Frases de Tatoeba (CC BY 2.0 FR)"
+  ]
+ }
+}

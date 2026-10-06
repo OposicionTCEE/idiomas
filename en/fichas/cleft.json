@@ -1,0 +1,304 @@
+{
+ "id": "en.g.cleft",
+ "titulo": "Cleft sentences",
+ "titulo_es": "Oraciones escindidas (cleft sentences: It was… that…, What I need is…)",
+ "descripcion_es": "Destacar una parte de la frase con It is/was… that/who… y con What… is/was…",
+ "nivel": "C1",
+ "resumen": "Las cleft sentences dividen una frase en dos partes para poner el foco en un elemento concreto, como el español «fue Juan quien…» o «lo que necesito es…». El inglés no puede mover el acento tan libremente como el español, así que recurre mucho a ellas.",
+ "explicacion": [
+  {
+   "tipo": "texto",
+   "texto": "It-cleft: It + be + elemento destacado + that/who + resto. Sirve para destacar el sujeto, el objeto o un complemento, a menudo para contrastar: It was Maria who/that found the keys (no otra persona)."
+  },
+  {
+   "tipo": "texto",
+   "texto": "Wh-cleft (pseudo-cleft): What + sujeto + verbo + be + elemento destacado. Pone el foco al final: What I need is a holiday. Para destacar una acción se usa do: What she did was (to) call the police."
+  },
+  {
+   "tipo": "tabla",
+   "cabecera": [
+    "Frase neutra",
+    "Cleft",
+    "Foco"
+   ],
+   "filas": [
+    [
+     "Tom broke the window.",
+     "It was Tom who broke the window.",
+     "Quién"
+    ],
+    [
+     "I met her in Rome.",
+     "It was in Rome that I met her.",
+     "Dónde"
+    ],
+    [
+     "We only noticed it yesterday.",
+     "It was only yesterday that we noticed it.",
+     "Cuándo"
+    ],
+    [
+     "I want some peace.",
+     "What I want is some peace.",
+     "Qué"
+    ],
+    [
+     "He lost his job.",
+     "What happened was (that) he lost his job.",
+     "El suceso entero"
+    ],
+    [
+     "She resigned.",
+     "What she did was resign.",
+     "La acción"
+    ]
+   ]
+  },
+  {
+   "tipo": "lista",
+   "items": [
+    "Otras variantes: All I want is… (lo único que quiero es…), The thing that annoys me is…, The reason why… is that…, The place where… is…",
+    "En la it-cleft el verbo be concuerda con it (singular) aunque el foco sea plural: It is the students who complain.",
+    "En la parte con that/who, el verbo concuerda con el elemento destacado: It is I who am wrong (formal) / It's me who's wrong (coloquial).",
+    "Con un sujeto de persona se prefiere who; para lo demás, that."
+   ]
+  }
+ ],
+ "ejemplos": [
+  {
+   "frase": "It was my grandfather who taught me to fish.",
+   "traduccion": "Fue mi abuelo quien me enseñó a pescar."
+  },
+  {
+   "frase": "It's not the money that worries me, it's the time.",
+   "traduccion": "No es el dinero lo que me preocupa, es el tiempo."
+  },
+  {
+   "frase": "What surprised everyone was how calm she remained.",
+   "traduccion": "Lo que sorprendió a todos fue lo tranquila que se mantuvo."
+  },
+  {
+   "frase": "All we need is a bit of luck.",
+   "traduccion": "Lo único que necesitamos es un poco de suerte."
+  },
+  {
+   "frase": "What the committee did was postpone the decision.",
+   "traduccion": "Lo que hizo el comité fue aplazar la decisión."
+  },
+  {
+   "frase": "It was not until 1975 that the law was changed.",
+   "traduccion": "No fue hasta 1975 cuando se cambió la ley."
+  }
+ ],
+ "errores_hispanohablantes": [
+  {
+   "mal": "Was Peter who called you.",
+   "bien": "It was Peter who called you.",
+   "nota": "En inglés el sujeto it es obligatorio; no se puede omitir como en «Fue Peter quien…»."
+  },
+  {
+   "mal": "It was in 2010 when I moved to London.",
+   "bien": "It was in 2010 that I moved to London.",
+   "nota": "Tras un complemento de tiempo con preposición, la it-cleft usa that; when suena coloquial o incorrecto (el español sí dice «cuando»)."
+  },
+  {
+   "mal": "The thing what I hate is waiting.",
+   "bien": "What I hate is waiting.",
+   "nota": "What ya equivale a «lo que»; con the thing se usa that: The thing that I hate is waiting."
+  }
+ ],
+ "ejercicios": [
+  {
+   "id": "e01",
+   "tipo": "eleccion",
+   "enunciado": "Elige la opción correcta.",
+   "frase": "It was the manager ___ approved the budget.",
+   "opciones": [
+    "who",
+    "what",
+    "which he",
+    "whom"
+   ],
+   "respuestas": [
+    "who"
+   ],
+   "explicacion": "El elemento destacado es una persona sujeto: who (o that)."
+  },
+  {
+   "id": "e02",
+   "tipo": "eleccion",
+   "enunciado": "Elige la opción correcta.",
+   "frase": "___ I really need is a good night's sleep.",
+   "opciones": [
+    "That",
+    "Which",
+    "What",
+    "It"
+   ],
+   "respuestas": [
+    "What"
+   ],
+   "explicacion": "Wh-cleft: What + sujeto + verbo + is…"
+  },
+  {
+   "id": "e03",
+   "tipo": "eleccion",
+   "enunciado": "Elige la opción correcta.",
+   "frase": "What she did next ___ phone her lawyer.",
+   "opciones": [
+    "was",
+    "did",
+    "has",
+    "were"
+   ],
+   "respuestas": [
+    "was"
+   ],
+   "explicacion": "La wh-cleft enlaza las dos partes con be: What she did was…"
+  },
+  {
+   "id": "e04",
+   "tipo": "eleccion",
+   "enunciado": "Elige la opción correcta.",
+   "frase": "It was only after the meeting ___ I understood the problem.",
+   "opciones": [
+    "when",
+    "that",
+    "which",
+    "then"
+   ],
+   "respuestas": [
+    "that"
+   ],
+   "explicacion": "La it-cleft usa that tras un complemento circunstancial destacado."
+  },
+  {
+   "id": "e05",
+   "tipo": "hueco",
+   "enunciado": "Completa con una palabra.",
+   "frase": "___ was in Lisbon that they first met.",
+   "respuestas": [
+    "It"
+   ],
+   "explicacion": "La it-cleft necesita el sujeto it."
+  },
+  {
+   "id": "e06",
+   "tipo": "hueco",
+   "enunciado": "Completa con una palabra.",
+   "frase": "All ___ want is to be left in peace.",
+   "respuestas": [
+    "I",
+    "we",
+    "they",
+    "you"
+   ],
+   "explicacion": "All + sujeto + verbo + is: «lo único que quiero es…»."
+  },
+  {
+   "id": "e07",
+   "tipo": "hueco",
+   "enunciado": "Completa con una palabra.",
+   "frase": "The reason ___ I left was that I felt undervalued.",
+   "respuestas": [
+    "why",
+    "that"
+   ],
+   "explicacion": "The reason why/that… is/was that… destaca la causa."
+  },
+  {
+   "id": "e08",
+   "tipo": "transformar",
+   "enunciado": "Destaca la palabra «Anna» empezando por «It was».",
+   "frase": "Anna solved the puzzle.",
+   "respuestas": [
+    "It was Anna who solved the puzzle.",
+    "It was Anna that solved the puzzle."
+   ],
+   "explicacion": "It was + foco + who/that + resto de la frase."
+  },
+  {
+   "id": "e09",
+   "tipo": "transformar",
+   "enunciado": "Reescribe empezando por «What».",
+   "frase": "I don't understand his attitude.",
+   "respuestas": [
+    "What I don't understand is his attitude.",
+    "What I do not understand is his attitude."
+   ],
+   "explicacion": "What + sujeto + verbo + is + foco."
+  },
+  {
+   "id": "e10",
+   "tipo": "transformar",
+   "enunciado": "Reescribe empezando por «What he did».",
+   "frase": "He sold his car.",
+   "respuestas": [
+    "What he did was sell his car.",
+    "What he did was to sell his car."
+   ],
+   "explicacion": "Para destacar la acción: What + sujeto + did + was + infinitivo (con o sin to)."
+  },
+  {
+   "id": "e11",
+   "tipo": "corregir",
+   "enunciado": "Corrige el error.",
+   "frase": "Is the noise that bothers me, not the heat.",
+   "respuestas": [
+    "It is the noise that bothers me, not the heat.",
+    "It's the noise that bothers me, not the heat."
+   ],
+   "explicacion": "Falta el sujeto obligatorio it."
+  },
+  {
+   "id": "e12",
+   "tipo": "corregir",
+   "enunciado": "Corrige el error.",
+   "frase": "What I like most about her are her honesty.",
+   "respuestas": [
+    "What I like most about her is her honesty."
+   ],
+   "explicacion": "El foco es singular (her honesty), así que el verbo es is."
+  },
+  {
+   "id": "e13",
+   "tipo": "ordenar",
+   "enunciado": "Ordena las palabras.",
+   "palabras": [
+    "was",
+    "It",
+    "my",
+    "sister",
+    "who",
+    "told",
+    "me"
+   ],
+   "respuestas": [
+    "It was my sister who told me",
+    "Was it my sister who told me"
+   ],
+   "explicacion": "It was + foco + who + resto."
+  },
+  {
+   "id": "e14",
+   "tipo": "ordenar",
+   "enunciado": "Ordena las palabras.",
+   "palabras": [
+    "What",
+    "worries",
+    "me",
+    "is",
+    "the",
+    "cost"
+   ],
+   "respuestas": [
+    "What worries me is the cost",
+    "The cost is what worries me"
+   ],
+   "explicacion": "What + verbo + objeto + is + foco."
+  }
+ ],
+ "fuente": {
+  "nombre": "propia"
+ }
+}

@@ -1,0 +1,59 @@
+{
+ "id": "en.g.preguntas-wh",
+ "titulo": "Wh- questions",
+ "titulo_es": "Preguntas con partícula interrogativa (Wh- questions)",
+ "descripcion_es": "What, where, when, who, why, how (much, many, often…).",
+ "nivel": "A1",
+ "resumen": "Las preguntas abiertas empiezan con una partícula interrogativa seguida del auxiliar (do, does, is, can…) y del sujeto. El orden es fijo: partícula + auxiliar + sujeto + verbo.",
+ "explicacion": [
+  {"tipo": "tabla", "cabecera": ["Partícula", "Significado", "Ejemplo"], "filas": [
+   ["What", "qué, cuál", "What do you do?"],
+   ["Where", "dónde", "Where are you from?"],
+   ["When", "cuándo", "When is your birthday?"],
+   ["Who", "quién", "Who is that woman?"],
+   ["Why", "por qué", "Why are you sad?"],
+   ["Which", "cuál (entre opciones)", "Which bus goes to the airport?"],
+   ["How", "cómo", "How are you?"],
+   ["How much / How many", "cuánto (incontable / plural)", "How much is it? How many brothers have you got?"],
+   ["How often / How old / How long", "con qué frecuencia / qué edad / cuánto tiempo", "How often do you swim? How old is she?"]
+  ]},
+  {"tipo": "texto", "texto": "Estructura: partícula + auxiliar + sujeto + verbo. Con to be: Where is the station? Con otros verbos se necesita do/does: What time does the train leave? Con can: How can I help you?"},
+  {"tipo": "lista", "items": [
+   "Why se responde con because: Why are you tired? Because I didn't sleep.",
+   "Si who o what son el sujeto, no se usa do: Who lives here? What happened?",
+   "What + sustantivo es muy frecuente: What time…?, What colour…?, What kind of…?"
+  ]}
+ ],
+ "ejemplos": [
+  {"frase": "Where do your parents live?", "traduccion": "¿Dónde viven tus padres?"},
+  {"frase": "How much does this jacket cost?", "traduccion": "¿Cuánto cuesta esta chaqueta?"},
+  {"frase": "What time does the class start?", "traduccion": "¿A qué hora empieza la clase?"},
+  {"frase": "How often do you go to the cinema?", "traduccion": "¿Cada cuánto vas al cine?"},
+  {"frase": "Who wants more cake?", "traduccion": "¿Quién quiere más tarta?"},
+  {"frase": "Why is the shop closed?", "traduccion": "¿Por qué está cerrada la tienda?"}
+ ],
+ "errores_hispanohablantes": [
+  {"mal": "Where you work?", "bien": "Where do you work?", "nota": "Falta el auxiliar do."},
+  {"mal": "What means this word?", "bien": "What does this word mean?", "nota": "Con verbos normales hace falta do/does y el verbo va al final."},
+  {"mal": "How many money do you need?", "bien": "How much money do you need?", "nota": "Money es incontable: how much."},
+  {"mal": "How old have you?", "bien": "How old are you?", "nota": "La edad se pregunta con to be."}
+ ],
+ "ejercicios": [
+  {"id": "e01", "tipo": "hueco", "enunciado": "Completa con la partícula interrogativa adecuada.", "frase": "___ do you live? In Granada.", "respuestas": ["Where"], "explicacion": "Se pregunta por un lugar: where."},
+  {"id": "e02", "tipo": "hueco", "enunciado": "Completa con la partícula interrogativa adecuada.", "frase": "___ is your sister? She's 15.", "respuestas": ["How old"], "explicacion": "Se pregunta por la edad: how old."},
+  {"id": "e03", "tipo": "hueco", "enunciado": "Completa con la partícula interrogativa adecuada.", "frase": "___ are you crying? Because I'm sad.", "respuestas": ["Why"], "explicacion": "La respuesta con because indica why."},
+  {"id": "e04", "tipo": "hueco", "enunciado": "Completa con la partícula interrogativa adecuada.", "frase": "___ is your favourite actor? Tom Hanks.", "respuestas": ["Who"], "explicacion": "Se pregunta por una persona: who."},
+  {"id": "e05", "tipo": "hueco", "enunciado": "Completa con do, does o is.", "frase": "What ___ your father do?", "respuestas": ["does"], "explicacion": "Your father es tercera persona: does."},
+  {"id": "e06", "tipo": "eleccion", "enunciado": "Elige la opción correcta.", "frase": "How ___ people work in your company?", "opciones": ["much", "many", "often"], "respuestas": ["many"], "explicacion": "People es contable en plural: how many."},
+  {"id": "e07", "tipo": "eleccion", "enunciado": "Elige la opción correcta.", "frase": "How ___ is this bag?", "opciones": ["many", "much", "long"], "respuestas": ["much"], "explicacion": "Para preguntar el precio: how much."},
+  {"id": "e08", "tipo": "eleccion", "enunciado": "Elige la opción correcta.", "frase": "How ___ do you visit your grandparents? Once a month.", "opciones": ["often", "long", "many"], "respuestas": ["often"], "explicacion": "Se pregunta por la frecuencia: how often."},
+  {"id": "e09", "tipo": "eleccion", "enunciado": "Elige la opción correcta.", "frase": "When ___ the next train?", "opciones": ["does", "is", "do"], "respuestas": ["is"], "explicacion": "Con un sustantivo y sin otro verbo se usa to be."},
+  {"id": "e10", "tipo": "corregir", "enunciado": "Corrige el error.", "frase": "Where you are from?", "respuestas": ["Where are you from?"], "explicacion": "El verbo to be va antes del sujeto."},
+  {"id": "e11", "tipo": "corregir", "enunciado": "Corrige el error.", "frase": "What time the shop opens?", "respuestas": ["What time does the shop open?"], "explicacion": "Hace falta does y el verbo en forma base."},
+  {"id": "e12", "tipo": "corregir", "enunciado": "Corrige el error.", "frase": "How much brothers have you got?", "respuestas": ["How many brothers have you got?"], "explicacion": "Brothers es contable en plural: how many."},
+  {"id": "e13", "tipo": "ordenar", "enunciado": "Ordena las palabras para formar una pregunta.", "palabras": ["you", "what", "do", "weekend", "the", "do", "at"], "respuestas": ["What do you do at the weekend"], "explicacion": "Partícula + do + sujeto + verbo + complemento."},
+  {"id": "e14", "tipo": "ordenar", "enunciado": "Ordena las palabras para formar una pregunta.", "palabras": ["does", "when", "start", "film", "the"], "respuestas": ["When does the film start"], "explicacion": "Partícula + does + sujeto + verbo."},
+  {"id": "e15", "tipo": "ordenar", "enunciado": "Ordena las palabras para formar una pregunta.", "palabras": ["can", "how", "help", "I", "you"], "respuestas": ["How can I help you"], "explicacion": "Partícula + can + sujeto + verbo + objeto."}
+ ],
+ "fuente": {"nombre": "propia"}
+}

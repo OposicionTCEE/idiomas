@@ -1,0 +1,61 @@
+{
+ "id": "en.g.pasiva-completa",
+ "titulo": "Passive: all forms",
+ "titulo_es": "La voz pasiva en todos los tiempos",
+ "descripcion_es": "Pasiva en tiempos continuos y perfectos, con modales e infinitivos; la pasiva con get.",
+ "nivel": "B2",
+ "resumen": "La pasiva se forma con be en el tiempo que corresponda + participio. Cualquier tiempo y cualquier modal tiene su pasiva; get + participio es una alternativa informal para cambios o sucesos.",
+ "explicacion": [
+  {"tipo": "tabla", "cabecera": ["Tiempo", "Pasiva", "Ejemplo"], "filas": [
+   ["Present continuous", "am/is/are being + participio", "The road is being repaired."],
+   ["Past continuous", "was/were being + participio", "The suspect was being questioned."],
+   ["Present perfect", "has/have been + participio", "The results have been published."],
+   ["Past perfect", "had been + participio", "The tickets had been sold out."],
+   ["Future / will", "will be + participio", "The winners will be announced on Monday."],
+   ["Future perfect", "will have been + participio", "The bridge will have been finished by May."],
+   ["Modal", "modal + be + participio", "This form must be signed."],
+   ["Modal perfecto", "modal + have been + participio", "The letter should have been sent yesterday."]
+  ]},
+  {"tipo": "texto", "texto": "Truco: escribe primero la frase activa en su tiempo, cambia el verbo principal por be en ese mismo tiempo y añade el participio. Solo cambia la forma de be."},
+  {"tipo": "texto", "texto": "Infinitivo y gerundio también tienen pasiva: to be done (I want to be told) y being done (She hates being interrupted)."},
+  {"tipo": "texto", "texto": "Get + participio: más coloquial, para cambios, accidentes o algo que le sucede al sujeto: He got fired. Our car got stolen. They got married. No se usa con verbos de estado (no «The house got owned»)."},
+  {"tipo": "lista", "items": [
+   "By + agente solo si aporta información: The novel was written by a teenager.",
+   "Con dos objetos, se suele hacer sujeto a la persona: I was given a prize.",
+   "Los verbos intransitivos (happen, arrive, die) no tienen pasiva."
+  ]}
+ ],
+ "ejemplos": [
+  {"frase": "A new hospital is being built near the motorway.", "traduccion": "Se está construyendo un nuevo hospital cerca de la autopista."},
+  {"frase": "The paintings had been stolen before the alarm went off.", "traduccion": "Los cuadros habían sido robados antes de que sonara la alarma."},
+  {"frase": "Applications must be submitted before 30 June.", "traduccion": "Las solicitudes deben presentarse antes del 30 de junio."},
+  {"frase": "The mistake should have been noticed earlier.", "traduccion": "El error debería haberse detectado antes."},
+  {"frase": "My bike got stolen while I was in the library.", "traduccion": "Me robaron la bici mientras estaba en la biblioteca."},
+  {"frase": "Nobody likes being lied to.", "traduccion": "A nadie le gusta que le mientan."},
+  {"frase": "All the staff were given a bonus last year.", "traduccion": "A toda la plantilla se le dio una paga extra el año pasado."}
+ ],
+ "errores_hispanohablantes": [
+  {"mal": "The bridge is building now.", "bien": "The bridge is being built now.", "nota": "La pasiva continua necesita being + participio; la «pasiva refleja» española no se traduce con activa."},
+  {"mal": "It was happened last night.", "bien": "It happened last night.", "nota": "Happen es intransitivo: no tiene pasiva."},
+  {"mal": "The report must be finish today.", "bien": "The report must be finished today.", "nota": "Tras modal + be hace falta el participio, no el infinitivo."}
+ ],
+ "ejercicios": [
+  {"id": "e01", "tipo": "hueco", "enunciado": "Completa con la pasiva en el tiempo adecuado.", "frase": "Sorry, you can't use this room. It ___ (clean) at the moment.", "respuestas": ["is being cleaned", "'s being cleaned"], "explicacion": "Acción en curso ahora: pasiva de present continuous."},
+  {"id": "e02", "tipo": "hueco", "enunciado": "Completa con la pasiva en el tiempo adecuado.", "frase": "Three new species ___ (discover) in the area since 2020.", "respuestas": ["have been discovered"], "explicacion": "Since indica present perfect: have been + participio."},
+  {"id": "e03", "tipo": "hueco", "enunciado": "Completa con la pasiva en el tiempo adecuado.", "frase": "When we arrived, the food ___ (already / eat).", "respuestas": ["had already been eaten"], "explicacion": "Anterioridad respecto a un momento pasado: had been + participio."},
+  {"id": "e04", "tipo": "hueco", "enunciado": "Completa con la pasiva del modal.", "frase": "These medicines ___ (should / keep) away from children.", "respuestas": ["should be kept"], "explicacion": "Modal + be + participio."},
+  {"id": "e05", "tipo": "hueco", "enunciado": "Completa con la pasiva del modal perfecto.", "frase": "The patient ___ (could / save) if the ambulance had come sooner.", "respuestas": ["could have been saved"], "explicacion": "Posibilidad pasada no realizada en pasiva: could have been + participio."},
+  {"id": "e06", "tipo": "eleccion", "enunciado": "Elige la opción correcta.", "frase": "I hate ___ what to do.", "opciones": ["being told", "be told", "telling", "to tell"], "respuestas": ["being told"], "explicacion": "Hate admite -ing, y el sentido es pasivo: being told."},
+  {"id": "e07", "tipo": "eleccion", "enunciado": "Elige la opción correcta.", "frase": "By next spring, the new stadium ___.", "opciones": ["will have been completed", "will have completed", "will be completing"], "respuestas": ["will have been completed"], "explicacion": "Pasiva de future perfect: will have been + participio."},
+  {"id": "e08", "tipo": "eleccion", "enunciado": "Elige la opción más natural en registro informal.", "frase": "Be careful with that knife or you'll ___ hurt.", "opciones": ["get", "be being", "have"], "respuestas": ["get"], "explicacion": "Get + participio para accidentes o cambios en lenguaje coloquial."},
+  {"id": "e09", "tipo": "corregir", "enunciado": "Corrige el error.", "frase": "The new airport is building by a Chinese company.", "respuestas": ["The new airport is being built by a Chinese company."], "explicacion": "Pasiva continua: is being + participio."},
+  {"id": "e10", "tipo": "corregir", "enunciado": "Corrige el error.", "frase": "The accident was happened on the motorway.", "respuestas": ["The accident happened on the motorway."], "explicacion": "Happen es intransitivo y no admite pasiva."},
+  {"id": "e11", "tipo": "corregir", "enunciado": "Corrige el error.", "frase": "The contract will be sign tomorrow.", "respuestas": ["The contract will be signed tomorrow."], "explicacion": "Tras be siempre va el participio."},
+  {"id": "e12", "tipo": "transformar", "enunciado": "Pasa la frase a pasiva sin mencionar al agente.", "frase": "They were interviewing the candidates all morning.", "respuestas": ["The candidates were being interviewed all morning."], "explicacion": "Past continuous en pasiva: were being + participio."},
+  {"id": "e13", "tipo": "transformar", "enunciado": "Pasa la frase a pasiva sin mencionar al agente.", "frase": "Someone has stolen my wallet.", "respuestas": ["My wallet has been stolen."], "explicacion": "Present perfect en pasiva: has been + participio; someone no se menciona."},
+  {"id": "e14", "tipo": "transformar", "enunciado": "Pasa la frase a pasiva empezando por la persona.", "frase": "The company offered her a promotion.", "respuestas": ["She was offered a promotion.", "She was offered a promotion by the company."], "explicacion": "Con dos objetos se suele hacer sujeto a la persona."},
+  {"id": "e15", "tipo": "ordenar", "enunciado": "Ordena las palabras.", "palabras": ["been", "should", "the", "have", "invited", "mayor"], "respuestas": ["the mayor should have been invited", "should the mayor have been invited"], "explicacion": "Modal perfecto pasivo: should have been + participio."},
+  {"id": "e16", "tipo": "ordenar", "enunciado": "Ordena las palabras.", "palabras": ["being", "the", "is", "watched", "house"], "respuestas": ["the house is being watched", "is the house being watched"], "explicacion": "Present continuous pasivo: is being + participio."}
+ ],
+ "fuente": {"nombre": "propia"}
+}

@@ -1,0 +1,67 @@
+{
+ "id": "fr.g.futuro-simple",
+ "titulo": "Futuro simple",
+ "titulo_es": "Futuro simple (futur simple)",
+ "descripcion_es": "Formación regular e irregular del futuro; usos y diferencias con el español.",
+ "nivel": "A2",
+ "resumen": "El futur simple se forma con el infinitivo y las terminaciones -ai, -as, -a, -ons, -ez, -ont; todas las raíces acaban en r. Se usa para predicciones, promesas y planes, en un registro algo más formal que el futur proche (je vais partir), y, a diferencia del español, también detrás de quand cuando se habla del futuro.",
+ "explicacion": [
+  {"tipo": "tabla", "cabecera": ["Persona", "parler", "finir", "prendre (raíz prendr-)"], "filas": [
+   ["je", "parlerai", "finirai", "prendrai"],
+   ["tu", "parleras", "finiras", "prendras"],
+   ["il, elle, on", "parlera", "finira", "prendra"],
+   ["nous", "parlerons", "finirons", "prendrons"],
+   ["vous", "parlerez", "finirez", "prendrez"],
+   ["ils, elles", "parleront", "finiront", "prendront"]
+  ]},
+  {"tipo": "tabla", "cabecera": ["Infinitivo", "Raíz", "Ejemplo"], "filas": [
+   ["être / avoir", "ser- / aur-", "je serai, j'aurai"],
+   ["aller / faire", "ir- / fer-", "j'irai, je ferai"],
+   ["pouvoir / vouloir / devoir", "pourr- / voudr- / devr-", "je pourrai, je voudrai, je devrai"],
+   ["venir / tenir", "viendr- / tiendr-", "je viendrai, je tiendrai"],
+   ["voir / envoyer", "verr- / enverr-", "je verrai, j'enverrai"],
+   ["savoir / recevoir", "saur- / recevr-", "je saurai, je recevrai"],
+   ["courir / mourir", "courr- / mourr-", "je courrai, je mourrai"],
+   ["falloir / pleuvoir", "faudr- / pleuvr-", "il faudra, il pleuvra"]
+  ]},
+  {"tipo": "lista", "items": [
+   "Verbos en -re: se quita la e final (prendre → je prendrai, dire → je dirai, boire → je boirai).",
+   "Cambios ortográficos: acheter → j'achèterai, appeler → j'appellerai, payer → je paierai (o je payerai), employer → j'emploierai. En cambio préférer → je préférerai.",
+   "Ojo con la doble r de pourrai, verrai, enverrai, courrai y mourrai: escribir una sola r es un error frecuente."
+  ]},
+  {"tipo": "texto", "texto": "Diferencias con el español: tras quand, lorsque, dès que o aussitôt que referidos al futuro, el francés usa futuro, no subjuntivo: Quand je serai grand… (cuando sea mayor…). En cambio, tras si condicional nunca va futuro: S'il fait beau, nous irons à la plage (si hace bueno, iremos a la playa)."},
+  {"tipo": "texto", "texto": "Futur simple o futur proche: en el habla suelen alternar. El futur proche (il va tomber) presenta algo inminente o seguro; el futur simple, algo más lejano, general o formal: Qui vivra verra (el tiempo lo dirá)."}
+ ],
+ "ejemplos": [
+  {"frase": "Demain, il fera chaud.", "traduccion": "Mañana hará calor."},
+  {"frase": "J'irai la voir demain.", "traduccion": "Iré a verla mañana."},
+  {"frase": "Je ne t'oublierai pas.", "traduccion": "No te olvidaré."},
+  {"frase": "Ça ne sera pas facile.", "traduccion": "No será fácil."},
+  {"frase": "Quand j'aurai le temps, je t'écrirai.", "traduccion": "Cuando tenga tiempo, te escribiré."},
+  {"frase": "En l'an 3000, il ne pleuvra plus sur la Terre.", "traduccion": "En el año 3000 ya no lloverá en la Tierra."}
+ ],
+ "errores_hispanohablantes": [
+  {"mal": "Quand je sois grand, je serai médecin.", "bien": "Quand je serai grand, je serai médecin.", "nota": "Tras quand con valor futuro va futuro, no subjuntivo."},
+  {"mal": "Si tu viendras, je serai content.", "bien": "Si tu viens, je serai content.", "nota": "Tras si condicional, presente; el futuro va en la otra oración."},
+  {"mal": "Je pourai venir demain.", "bien": "Je pourrai venir demain.", "nota": "Pouvoir tiene raíz pourr-, con doble r."}
+ ],
+ "ejercicios": [
+  {"id": "e01", "tipo": "hueco", "enunciado": "Conjuga el verbo en futuro simple.", "frase": "Qui le ___ ? (faire)", "respuestas": ["fera"], "explicacion": "Faire tiene raíz fer-: il fera.", "origen": "tatoeba:995599"},
+  {"id": "e02", "tipo": "hueco", "enunciado": "Conjuga el verbo en futuro simple.", "frase": "Il ___ occupé demain. (être)", "respuestas": ["sera"], "explicacion": "Être tiene raíz ser-: il sera.", "origen": "tatoeba:133423"},
+  {"id": "e03", "tipo": "hueco", "enunciado": "Conjuga el verbo en futuro simple (je).", "frase": "___ à Tokyo demain. (aller)", "respuestas": ["J'irai", "j'irai"], "explicacion": "Aller tiene raíz ir-: j'irai.", "origen": "tatoeba:127960"},
+  {"id": "e04", "tipo": "hueco", "enunciado": "Conjuga el verbo en futuro simple.", "frase": "Tu le ___ ! (regretter)", "respuestas": ["regretteras"], "explicacion": "Verbo regular: infinitivo + -as.", "origen": "tatoeba:1085003"},
+  {"id": "e05", "tipo": "hueco", "enunciado": "Conjuga el verbo en futuro simple.", "frase": "Il ___ besoin d'argent. (avoir)", "respuestas": ["aura"], "explicacion": "Avoir tiene raíz aur-: il aura.", "origen": "tatoeba:2049428"},
+  {"id": "e06", "tipo": "hueco", "enunciado": "Conjuga el verbo en futuro simple.", "frase": "J'espère qu'il ___ ! (venir)", "respuestas": ["viendra"], "explicacion": "Venir tiene raíz viendr-: il viendra.", "origen": "tatoeba:4873809"},
+  {"id": "e07", "tipo": "hueco", "enunciado": "Conjuga el verbo en futuro simple.", "frase": "Je ___ par chèque. (payer)", "respuestas": ["paierai", "payerai"], "explicacion": "Payer admite las dos formas: je paierai o je payerai.", "origen": "tatoeba:4299"},
+  {"id": "e08", "tipo": "eleccion", "enunciado": "Elige la forma correcta.", "frase": "Ils ___ très heureux.", "opciones": ["seront", "serons", "sera"], "respuestas": ["seront"], "explicacion": "Être en futuro, 3.ª persona del plural: ils seront.", "origen": "tatoeba:456871"},
+  {"id": "e09", "tipo": "eleccion", "enunciado": "Elige la forma correcta.", "frase": "Nous ___ nos amis ce week-end.", "opciones": ["verrons", "voirons", "voyerons"], "respuestas": ["verrons"], "explicacion": "Voir tiene raíz verr-: nous verrons."},
+  {"id": "e10", "tipo": "eleccion", "enunciado": "Elige la forma correcta.", "frase": "S'il fait beau demain, nous ___ à la plage.", "opciones": ["irons", "irions", "allions"], "respuestas": ["irons"], "explicacion": "Si + presente → futuro en la principal: nous irons."},
+  {"id": "e11", "tipo": "corregir", "enunciado": "Corrige el error.", "frase": "Quand je sois grand, je serai médecin.", "respuestas": ["Quand je serai grand, je serai médecin."], "explicacion": "Tras quand con valor futuro se usa el futuro, no el subjuntivo."},
+  {"id": "e12", "tipo": "corregir", "enunciado": "Corrige el error.", "frase": "Si tu viendras, je serai content.", "respuestas": ["Si tu viens, je serai content."], "explicacion": "Tras si condicional va presente, no futuro."},
+  {"id": "e13", "tipo": "corregir", "enunciado": "Corrige el error ortográfico.", "frase": "Je pourai venir demain.", "respuestas": ["Je pourrai venir demain."], "explicacion": "Pouvoir: raíz pourr-, con doble r."},
+  {"id": "e14", "tipo": "transformar", "enunciado": "Pasa la frase al futuro simple.", "frase": "Je vais appeler la police.", "respuestas": ["J'appellerai la police."], "explicacion": "Appeler dobla la l en futuro: j'appellerai.", "origen": "tatoeba:1663894"},
+  {"id": "e15", "tipo": "transformar", "enunciado": "Pasa la frase al futuro simple.", "frase": "Elle va avoir vingt ans.", "respuestas": ["Elle aura vingt ans."], "explicacion": "Avoir: elle aura."},
+  {"id": "e16", "tipo": "ordenar", "enunciado": "Ordena las palabras (no te olvidaré).", "palabras": ["t'oublierai", "ne", "Je", "pas"], "respuestas": ["Je ne t'oublierai pas"], "explicacion": "Ne + pronombre + verbo + pas.", "origen": "tatoeba:3668247"}
+ ],
+ "fuente": {"nombre": "Tex's French Grammar", "autores": "COERLL, Universidad de Texas en Austin", "licencia": "CC BY 3.0", "url": "https://laits.utexas.edu/tex/gr/taf2.html", "otras": ["Frases de Tatoeba (CC BY 2.0 FR)"]}
+}

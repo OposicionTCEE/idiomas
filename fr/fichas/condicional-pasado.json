@@ -1,0 +1,65 @@
+{
+ "id": "fr.g.condicional-pasado",
+ "titulo": "Condicional pasado",
+ "titulo_es": "Condicional pasado (conditionnel passé)",
+ "descripcion_es": "Reproche, arrepentimiento, hipótesis irreal del pasado e información no confirmada: j'aurais dû, il serait parti.",
+ "nivel": "B2",
+ "resumen": "El conditionnel passé (condicional de avoir o être + participio) equivale a «habría hecho». Expresa lo que no llegó a ocurrir: arrepentimiento y reproche, consecuencias de una condición irreal del pasado y, en la prensa, hechos pasados no confirmados.",
+ "explicacion": [
+  {"tipo": "texto", "texto": "Formación: condicional presente del auxiliar + participio. Con être (verbos de movimiento y pronominales) el participio concuerda con el sujeto, igual que en el passé composé."},
+  {"tipo": "tabla", "cabecera": ["Persona", "dire (con avoir)", "partir (con être)"], "filas": [
+   ["je", "j'aurais dit", "je serais parti(e)"],
+   ["tu", "tu aurais dit", "tu serais parti(e)"],
+   ["il / elle / on", "il aurait dit", "elle serait partie"],
+   ["nous", "nous aurions dit", "nous serions parti(e)s"],
+   ["vous", "vous auriez dit", "vous seriez parti(e)(s)"],
+   ["ils / elles", "ils auraient dit", "elles seraient parties"]
+  ]},
+  {"tipo": "tabla", "cabecera": ["Uso", "Ejemplo", "Traducción"], "filas": [
+   ["Arrepentimiento", "J'aurais aimé être artiste.", "Me habría gustado ser artista."],
+   ["Reproche (devoir)", "Tu n'aurais pas dû écouter Bette.", "No deberías haber escuchado a Bette."],
+   ["Posibilidad perdida (pouvoir)", "J'aurais pu être un chef célèbre !", "¡Podría haber sido un chef famoso!"],
+   ["Condición irreal del pasado", "Si j'avais su, je serais venu.", "Si lo hubiera sabido, habría venido."],
+   ["Información no confirmada", "La tornade aurait fait plusieurs victimes.", "El tornado habría causado varias víctimas."],
+   ["Estilo indirecto", "Il a dit qu'il serait rentré avant minuit.", "Dijo que habría vuelto antes de medianoche."]
+  ]},
+  {"tipo": "texto", "texto": "Con si irreal del pasado: si + plus-que-parfait en la condición y conditionnel passé en la consecuencia. Nunca condicional después de si. El español admite «hubiera» en las dos partes («si lo hubiera sabido, lo hubiera hecho»); el francés no: Si je l'avais su, je l'aurais fait."},
+  {"tipo": "texto", "texto": "El condicional de rumor o de información no verificada es normal y correcto en la prensa francesa: L'incendie aurait fait trois blessés = según las primeras informaciones, el incendio ha causado tres heridos."},
+  {"tipo": "lista", "items": [
+   "j'aurais dû + infinitivo = debería haber / debí (de) + infinitivo.",
+   "j'aurais pu + infinitivo = podría haber + infinitivo.",
+   "j'aurais voulu / j'aurais aimé = me habría gustado, ojalá hubiera."
+  ]}
+ ],
+ "ejemplos": [
+  {"frase": "Tu aurais dû m'écouter.", "traduccion": "Deberías haberme escuchado."},
+  {"frase": "J'aurais voulu la voir.", "traduccion": "Me habría gustado verla."},
+  {"frase": "Un véritable ami m'aurait aidé.", "traduccion": "Un amigo de verdad me habría ayudado."},
+  {"frase": "Si tu étais resté en France, tu n'aurais pas connu le Texas.", "traduccion": "Si te hubieras quedado en Francia, no habrías conocido Texas."},
+  {"frase": "Selon la presse, deux personnes auraient été blessées.", "traduccion": "Según la prensa, dos personas habrían resultado heridas."}
+ ],
+ "errores_hispanohablantes": [
+  {"mal": "Si j'aurais su, je serais venu.", "bien": "Si j'avais su, je serais venu.", "nota": "Después de si nunca va condicional: plus-que-parfait."},
+  {"mal": "Je devrais l'avoir appelé hier.", "bien": "J'aurais dû l'appeler hier.", "nota": "«Debería haberlo llamado» se dice con devoir en condicional pasado + infinitivo simple."},
+  {"mal": "Nous aurions venus plus tôt.", "bien": "Nous serions venus plus tôt.", "nota": "venir lleva être también en condicional pasado."}
+ ],
+ "ejercicios": [
+  {"id": "e01", "tipo": "hueco", "enunciado": "Completa con el condicional pasado.", "frase": "Tu ___ (pouvoir) me le dire.", "respuestas": ["aurais pu"], "explicacion": "Reproche con pouvoir: tu aurais pu (podrías haber).", "origen": "tatoeba:1184690"},
+  {"id": "e02", "tipo": "hueco", "enunciado": "Completa con el condicional pasado.", "frase": "Nous ___ (devoir) venir.", "respuestas": ["aurions dû"], "explicacion": "Arrepentimiento con devoir: nous aurions dû (deberíamos haber).", "origen": "tatoeba:3557540"},
+  {"id": "e03", "tipo": "hueco", "enunciado": "Completa con el condicional pasado.", "frase": "Un véritable ami m'___ (aider).", "respuestas": ["aurait aidé"], "explicacion": "Hecho que no ocurrió: aurait aidé.", "origen": "tatoeba:128631"},
+  {"id": "e04", "tipo": "eleccion", "enunciado": "Elige la forma correcta.", "frase": "Tu ___ dû me dire la vérité.", "opciones": ["aurais", "auras", "avais"], "respuestas": ["aurais"], "explicacion": "Reproche: condicional del auxiliar (aurais) + dû.", "origen": "tatoeba:1892329"},
+  {"id": "e05", "tipo": "eleccion", "enunciado": "Elige la forma correcta.", "frase": "Si j'avais su, je ___ plus tôt.", "opciones": ["serais venu", "aurais venu", "serai venu", "viendrais"], "respuestas": ["serais venu"], "explicacion": "Consecuencia irreal del pasado: conditionnel passé con être."},
+  {"id": "e06", "tipo": "eleccion", "enunciado": "Elige la forma correcta.", "frase": "Si tu ___ le temps, tu aurais visité Kyoto.", "opciones": ["avais eu", "aurais eu", "as eu"], "respuestas": ["avais eu"], "explicacion": "Tras si: plus-que-parfait, nunca condicional."},
+  {"id": "e07", "tipo": "transformar", "enunciado": "Pasa al condicional pasado.", "frase": "Tu devrais téléphoner.", "respuestas": ["Tu aurais dû téléphoner."], "explicacion": "devrais → aurais dû; el infinitivo no cambia.", "origen": "tatoeba:3296086"},
+  {"id": "e08", "tipo": "transformar", "enunciado": "Pasa al condicional pasado.", "frase": "Il devrait devenir avocat.", "respuestas": ["Il aurait dû devenir avocat."], "explicacion": "devrait → aurait dû + infinitivo.", "origen": "tatoeba:968516"},
+  {"id": "e09", "tipo": "transformar", "enunciado": "Pasa al condicional pasado.", "frase": "Nous devrions nous marier.", "respuestas": ["Nous aurions dû nous marier."], "explicacion": "El auxiliar es el de devoir (avoir), aunque el infinitivo sea pronominal.", "origen": "tatoeba:1140657"},
+  {"id": "e10", "tipo": "corregir", "enunciado": "Corrige el error.", "frase": "Vous seriez dû vous présenter.", "respuestas": ["Vous auriez dû vous présenter."], "explicacion": "devoir se conjuga con avoir: auriez dû.", "origen": "tatoeba:2061699"},
+  {"id": "e11", "tipo": "corregir", "enunciado": "Corrige el error.", "frase": "Si tu m'aurais écouté, tu n'aurais pas perdu.", "respuestas": ["Si tu m'avais écouté, tu n'aurais pas perdu."], "explicacion": "Tras si va plus-que-parfait: si tu m'avais écouté."},
+  {"id": "e12", "tipo": "corregir", "enunciado": "Corrige el error.", "frase": "Elle aurait partie sans nous.", "respuestas": ["Elle serait partie sans nous."], "explicacion": "partir lleva être: elle serait partie."},
+  {"id": "e13", "tipo": "hueco", "enunciado": "Completa con el condicional pasado (información no confirmada).", "frase": "Selon la police, l'incendie ___ (faire) trois blessés.", "respuestas": ["aurait fait"], "explicacion": "Condicional periodístico: dato pasado aún no confirmado."},
+  {"id": "e14", "tipo": "hueco", "enunciado": "Completa con el condicional pasado.", "frase": "Elle ___ (devenir) infirmière si elle n'avait pas étudié le français.", "respuestas": ["serait devenue"], "explicacion": "devenir lleva être y concuerda con elle: serait devenue."},
+  {"id": "e15", "tipo": "ordenar", "enunciado": "Ordena las palabras.", "palabras": ["voir", "J'aurais", "le", "aimé", "film"], "respuestas": ["J'aurais aimé voir le film"], "explicacion": "Deseo no cumplido: j'aurais aimé + infinitivo.", "origen": "tatoeba:12077"},
+  {"id": "e16", "tipo": "ordenar", "enunciado": "Ordena las palabras.", "palabras": ["avant", "me", "Tu", "ça", "dû", "aurais", "dire"], "respuestas": ["Tu aurais dû me dire ça avant"], "explicacion": "Reproche: tu aurais dû + infinitivo, con el pronombre delante del infinitivo.", "origen": "tatoeba:1360541"}
+ ],
+ "fuente": {"nombre": "Tex's French Grammar", "autores": "COERLL, Universidad de Texas en Austin", "licencia": "CC BY 3.0", "url": "https://laits.utexas.edu/tex/gr/tac2.html", "otras": ["Frases de Tatoeba (CC BY 2.0 FR)"]}
+}

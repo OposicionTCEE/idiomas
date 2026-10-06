@@ -1,0 +1,63 @@
+{
+ "id": "fr.g.presente-er",
+ "titulo": "Presente: verbos en -er",
+ "titulo_es": "Presente de indicativo: verbos en -er (primer grupo)",
+ "descripcion_es": "Conjugación regular y verbos con cambio ortográfico (acheter, appeler, manger).",
+ "nivel": "A1",
+ "resumen": "Los verbos en -er son el grupo más numeroso y casi todos regulares: se quita -er y se añaden -e, -es, -e, -ons, -ez, -ent. Algunos cambian la ortografía de la raíz para conservar la pronunciación.",
+ "explicacion": [
+  {"tipo": "tabla", "cabecera": ["Persona", "parler (hablar)", "aimer (gustar, querer)"], "filas": [
+   ["je / j'", "je parle", "j'aime"],
+   ["tu", "tu parles", "tu aimes"],
+   ["il, elle, on", "il parle", "elle aime"],
+   ["nous", "nous parlons", "nous‿aimons"],
+   ["vous", "vous parlez", "vous‿aimez"],
+   ["ils, elles", "ils parlent", "elles‿aiment"]
+  ]},
+  {"tipo": "texto", "texto": "Las terminaciones -e, -es, -e y -ent no se pronuncian: je parle, tu parles, il parle e ils parlent suenan igual. Solo se oyen -ons y -ez. Por eso el pronombre sujeto es imprescindible. Ante vocal, je se apostrofa (j'habite) y la s de nous, vous, ils, elles se pronuncia /z/ (liaison)."},
+  {"tipo": "tabla", "cabecera": ["Tipo", "Cambio (todas las personas salvo nous y vous)", "Ejemplo"], "filas": [
+   ["appeler, jeter, rappeler", "dobla la consonante", "j'appelle, nous appelons; il jette"],
+   ["acheter, lever, mener, peser", "e → è", "j'achète, nous achetons"],
+   ["préférer, espérer, répéter", "é → è", "je préfère, vous préférez"],
+   ["payer, essayer, envoyer", "y → i (en -ayer es opcional)", "je paie o je paye; j'envoie"]
+  ]},
+  {"tipo": "lista", "items": [
+   "Verbos en -ger (manger, voyager, nager, partager): añaden e en nous para que g suene suave: nous mangeons.",
+   "Verbos en -cer (commencer, lancer, placer): c pasa a ç en nous: nous commençons.",
+   "El presente francés equivale a la vez a «hablo» y a «estoy hablando»: Je mange un beignet puede ser «me estoy comiendo un dónut». Para insistir en el progreso existe être en train de: Je suis en train de manger."
+  ]}
+ ],
+ "ejemplos": [
+  {"frase": "J'adore la musique et j'écoute souvent la radio.", "traduccion": "Me encanta la música y escucho a menudo la radio."},
+  {"frase": "Tex et Tammy habitent à Austin.", "traduccion": "Tex y Tammy viven en Austin."},
+  {"frase": "Nous nageons et nous mangeons de la glace.", "traduccion": "Nadamos y comemos helado."},
+  {"frase": "Moi, je préfère faire du shopping. J'achète beaucoup et papa paie tout.", "traduccion": "Yo prefiero ir de compras. Compro mucho y papá lo paga todo."},
+  {"frase": "Comment tu t'appelles ? Je m'appelle Lucía.", "traduccion": "¿Cómo te llamas? Me llamo Lucía."},
+  {"frase": "Vous travaillez le samedi ?", "traduccion": "¿Trabaja usted los sábados?"}
+ ],
+ "errores_hispanohablantes": [
+  {"mal": "Ils parlont français.", "bien": "Ils parlent français.", "nota": "La 3.ª persona del plural termina en -ent (que no se pronuncia), no en -ont."},
+  {"mal": "Nous mangons à midi.", "bien": "Nous mangeons à midi.", "nota": "Los verbos en -ger conservan la e delante de -ons."},
+  {"mal": "Je m'apelle Carlos.", "bien": "Je m'appelle Carlos.", "nota": "Appeler dobla la l en las formas acentuadas en la raíz: j'appelle."},
+  {"mal": "Je préfére le thé.", "bien": "Je préfère le thé.", "nota": "En je, tu, il, ils la é de la raíz pasa a è."}
+ ],
+ "ejercicios": [
+  {"id": "e01", "tipo": "hueco", "enunciado": "Conjuga el verbo en presente.", "frase": "Il ___ le calme. (préférer)", "respuestas": ["préfère"], "explicacion": "En il la é de la raíz pasa a è: il préfère.", "origen": "tatoeba:3470976"},
+  {"id": "e02", "tipo": "hueco", "enunciado": "Conjuga el verbo en presente.", "frase": "Tu ___ polonais ? (parler)", "respuestas": ["parles"], "explicacion": "Con tu la terminación es -es.", "origen": "tatoeba:7280445"},
+  {"id": "e03", "tipo": "hueco", "enunciado": "Conjuga el verbo en presente.", "frase": "Je ___ de nuit. (travailler)", "respuestas": ["travaille"], "explicacion": "Con je la terminación es -e.", "origen": "tatoeba:1341587"},
+  {"id": "e04", "tipo": "transformar", "enunciado": "Cambia el sujeto por nous.", "frase": "Je mange du riz.", "respuestas": ["Nous mangeons du riz."], "explicacion": "Manger conserva la e ante -ons: nous mangeons.", "origen": "tatoeba:334465"},
+  {"id": "e05", "tipo": "transformar", "enunciado": "Cambia el sujeto por ils.", "frase": "Je joue au tennis.", "respuestas": ["Ils jouent au tennis."], "explicacion": "Con ils la terminación es -ent.", "origen": "tatoeba:495412"},
+  {"id": "e06", "tipo": "transformar", "enunciado": "Cambia el sujeto por nous.", "frase": "Je reste avec toi.", "respuestas": ["Nous restons avec toi."], "explicacion": "Con nous la terminación es -ons.", "origen": "tatoeba:3419037"},
+  {"id": "e07", "tipo": "ordenar", "enunciado": "Ordena las palabras.", "palabras": ["maison", "répare", "la", "Je"], "respuestas": ["Je répare la maison"], "explicacion": "Sujeto, verbo en presente y complemento.", "origen": "tatoeba:497791"},
+  {"id": "e08", "tipo": "eleccion", "enunciado": "Elige la forma correcta.", "frase": "Tu ne m'___ pas !", "opciones": ["aimes", "aime", "aimez"], "respuestas": ["aimes"], "explicacion": "Con tu el verbo termina en -es, también en la negación.", "origen": "tatoeba:2194306"},
+  {"id": "e09", "tipo": "eleccion", "enunciado": "Elige la forma correcta.", "frase": "Nous ___ le cours à neuf heures. (commencer)", "opciones": ["commençons", "commencons", "commencez"], "respuestas": ["commençons"], "explicacion": "En los verbos en -cer, c pasa a ç ante -ons para conservar el sonido /s/."},
+  {"id": "e10", "tipo": "hueco", "enunciado": "Conjuga el verbo en presente.", "frase": "Elle ___ sa mère tous les dimanches. (appeler)", "respuestas": ["appelle"], "explicacion": "Appeler dobla la l en las personas del singular y en ils: elle appelle."},
+  {"id": "e11", "tipo": "hueco", "enunciado": "Conjuga el verbo en presente.", "frase": "Ils ___ beaucoup de livres. (acheter)", "respuestas": ["achètent"], "explicacion": "Acheter lleva è en las personas acentuadas en la raíz: ils achètent."},
+  {"id": "e12", "tipo": "hueco", "enunciado": "Conjuga el verbo en presente.", "frase": "Nous ___ en Italie cet été. (voyager)", "respuestas": ["voyageons"], "explicacion": "Los verbos en -ger mantienen la e ante -ons: nous voyageons."},
+  {"id": "e13", "tipo": "hueco", "enunciado": "Conjuga el verbo en presente.", "frase": "Tu ___ de comprendre ? (essayer)", "respuestas": ["essaies", "essayes"], "explicacion": "En los verbos en -ayer se admiten las dos grafías: tu essaies o tu essayes."},
+  {"id": "e14", "tipo": "corregir", "enunciado": "Corrige el error.", "frase": "Nous mangons au restaurant.", "respuestas": ["Nous mangeons au restaurant."], "explicacion": "Manger necesita la e ante -ons."},
+  {"id": "e15", "tipo": "corregir", "enunciado": "Corrige el error.", "frase": "Je préfére le thé.", "respuestas": ["Je préfère le thé."], "explicacion": "En je la é de la raíz pasa a è: je préfère."},
+  {"id": "e16", "tipo": "corregir", "enunciado": "Corrige el error.", "frase": "Ils parlez espagnol.", "respuestas": ["Ils parlent espagnol."], "explicacion": "Con ils la terminación es -ent; -ez corresponde a vous."}
+ ],
+ "fuente": {"nombre": "Tex's French Grammar", "autores": "COERLL, Universidad de Texas en Austin", "licencia": "CC BY 3.0", "url": "https://laits.utexas.edu/tex/gr/ver1.html", "otras": ["Frases de Tatoeba (CC BY 2.0 FR)"]}
+}

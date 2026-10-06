@@ -1,0 +1,277 @@
+{
+ "id": "fr.g.concordancia-tiempos",
+ "titulo": "Concordancia de tiempos",
+ "titulo_es": "Concordancia de tiempos (concordance des temps)",
+ "descripcion_es": "Qué tiempo lleva la subordinada según el tiempo del verbo principal, sobre todo en estilo indirecto.",
+ "nivel": "B2",
+ "resumen": "Cuando el verbo principal está en pasado, la subordinada en indicativo cambia de tiempo para expresar anterioridad, simultaneidad o posterioridad. Es esencial en el estilo indirecto (il a dit que…) y en los resúmenes de textos.",
+ "explicacion": [
+  {
+   "tipo": "texto",
+   "texto": "Si el verbo principal está en presente o futuro (il dit, il dira), la subordinada no cambia. Si está en pasado (il a dit, il disait, il avait dit), los tiempos se desplazan como en español, con una diferencia importante: el futuro pasa a condicional, nunca a imperfecto de subjuntivo."
+  },
+  {
+   "tipo": "tabla",
+   "cabecera": [
+    "Relación",
+    "Principal en presente",
+    "Principal en pasado"
+   ],
+   "filas": [
+    [
+     "Simultaneidad",
+     "Il dit qu'il est malade.",
+     "Il a dit qu'il était malade."
+    ],
+    [
+     "Anterioridad",
+     "Il dit qu'il a fini.",
+     "Il a dit qu'il avait fini."
+    ],
+    [
+     "Posterioridad",
+     "Il dit qu'il partira.",
+     "Il a dit qu'il partirait."
+    ],
+    [
+     "Futuro anterior",
+     "Il dit qu'il aura fini à midi.",
+     "Il a dit qu'il aurait fini à midi."
+    ],
+    [
+     "Futuro próximo",
+     "Il dit qu'il va pleuvoir.",
+     "Il a dit qu'il allait pleuvoir."
+    ]
+   ]
+  },
+  {
+   "tipo": "texto",
+   "texto": "Con subjuntivo, el francés actual usa casi solo presente y pasado: Je voulais qu'il vienne (no qu'il vînt, que es literario). Aquí el español usa imperfecto de subjuntivo (quería que viniera) y el francés no."
+  },
+  {
+   "tipo": "lista",
+   "items": [
+    "Las verdades generales pueden quedar en presente: Il a rappelé que la Terre tourne autour du Soleil.",
+    "Los marcadores temporales también cambian: aujourd'hui → ce jour-là, demain → le lendemain, hier → la veille, la semaine prochaine → la semaine suivante.",
+    "Una condición con si sigue su propia regla: Il a dit que s'il pouvait, il viendrait."
+   ]
+  }
+ ],
+ "ejemplos": [
+  {
+   "frase": "La ministre a annoncé que le budget serait présenté en octobre.",
+   "traduccion": "La ministra anunció que los presupuestos se presentarían en octubre."
+  },
+  {
+   "frase": "Je savais que tu avais déjà réservé l'hôtel.",
+   "traduccion": "Sabía que ya habías reservado el hotel."
+  },
+  {
+   "frase": "Elle m'a assuré qu'elle aurait terminé avant vendredi.",
+   "traduccion": "Me aseguró que habría terminado antes del viernes."
+  },
+  {
+   "frase": "On pensait que le train allait partir à l'heure.",
+   "traduccion": "Pensábamos que el tren iba a salir a su hora."
+  },
+  {
+   "frase": "Il a dit qu'il viendrait le lendemain.",
+   "traduccion": "Dijo que vendría al día siguiente."
+  },
+  {
+   "frase": "Le professeur voulait que nous lisions ce roman.",
+   "traduccion": "El profesor quería que leyéramos esta novela."
+  }
+ ],
+ "errores_hispanohablantes": [
+  {
+   "mal": "Il a dit qu'il viendra demain.",
+   "bien": "Il a dit qu'il viendrait le lendemain.",
+   "nota": "Tras un verbo en pasado, el futuro se convierte en condicional (y demain en le lendemain si el día ya pasó)."
+  },
+  {
+   "mal": "Je voulais qu'il venait.",
+   "bien": "Je voulais qu'il vienne.",
+   "nota": "Vouloir que exige subjuntivo; el francés corriente usa el presente de subjuntivo, no el imperfecto."
+  },
+  {
+   "mal": "Elle a expliqué qu'elle a perdu son passeport.",
+   "bien": "Elle a expliqué qu'elle avait perdu son passeport.",
+   "nota": "La anterioridad respecto a un pasado se expresa con pluscuamperfecto."
+  }
+ ],
+ "ejercicios": [
+  {
+   "id": "e01",
+   "tipo": "hueco",
+   "enunciado": "Completa con el verbo en el tiempo adecuado.",
+   "frase": "Le directeur a affirmé que l'entreprise ___ (embaucher) cinquante personnes l'année suivante.",
+   "respuestas": [
+    "embaucherait"
+   ],
+   "explicacion": "Posterioridad respecto a un pasado: condicional presente."
+  },
+  {
+   "id": "e02",
+   "tipo": "hueco",
+   "enunciado": "Completa con el verbo en el tiempo adecuado.",
+   "frase": "Je croyais que tu ___ (être) en Belgique cette semaine-là.",
+   "respuestas": [
+    "étais",
+    "serais"
+   ],
+   "explicacion": "Simultaneidad con un pasado: imperfecto."
+  },
+  {
+   "id": "e03",
+   "tipo": "hueco",
+   "enunciado": "Completa con el verbo en el tiempo adecuado.",
+   "frase": "Elle nous a dit qu'elle ___ (finir) sa thèse deux ans plus tôt.",
+   "respuestas": [
+    "avait fini"
+   ],
+   "explicacion": "Anterioridad respecto a un pasado: pluscuamperfecto."
+  },
+  {
+   "id": "e04",
+   "tipo": "hueco",
+   "enunciado": "Completa con el verbo en el tiempo adecuado.",
+   "frase": "Il m'a promis qu'il ___ (rendre) le rapport avant midi.",
+   "respuestas": [
+    "rendrait",
+    "aurait rendu"
+   ],
+   "explicacion": "Promesa futura vista desde un pasado: condicional presente."
+  },
+  {
+   "id": "e05",
+   "tipo": "eleccion",
+   "enunciado": "Elige la opción correcta.",
+   "frase": "On m'a expliqué que la réunion ___ annulée la veille.",
+   "opciones": [
+    "a été",
+    "avait été",
+    "sera"
+   ],
+   "respuestas": [
+    "avait été"
+   ],
+   "explicacion": "La anulación es anterior al momento pasado de la explicación."
+  },
+  {
+   "id": "e06",
+   "tipo": "eleccion",
+   "enunciado": "Elige la opción correcta.",
+   "frase": "Nous espérions que les prix ___ enfin.",
+   "opciones": [
+    "baisseront",
+    "baisseraient",
+    "baissent"
+   ],
+   "respuestas": [
+    "baisseraient"
+   ],
+   "explicacion": "Espérer en pasado más acción futura: condicional."
+  },
+  {
+   "id": "e07",
+   "tipo": "eleccion",
+   "enunciado": "Elige la opción correcta.",
+   "frase": "Il fallait que tu ___ ce formulaire.",
+   "opciones": [
+    "remplisses",
+    "remplissais",
+    "remplirais"
+   ],
+   "respuestas": [
+    "remplisses"
+   ],
+   "explicacion": "Il fallait que pide subjuntivo; en francés corriente, presente de subjuntivo."
+  },
+  {
+   "id": "e08",
+   "tipo": "eleccion",
+   "enunciado": "Elige la opción correcta.",
+   "frase": "Il a annoncé qu'il ___ démissionner.",
+   "opciones": [
+    "va",
+    "allait",
+    "irait"
+   ],
+   "respuestas": [
+    "allait"
+   ],
+   "explicacion": "El futuro próximo (aller + infinitivo) pasa a imperfecto de aller."
+  },
+  {
+   "id": "e09",
+   "tipo": "transformar",
+   "enunciado": "Pasa a estilo indirecto empezando por «Elle a dit que».",
+   "frase": "Elle a dit : « Je suis fatiguée. »",
+   "respuestas": [
+    "Elle a dit qu'elle était fatiguée."
+   ],
+   "explicacion": "Presente en estilo directo → imperfecto tras verbo en pasado."
+  },
+  {
+   "id": "e10",
+   "tipo": "transformar",
+   "enunciado": "Pasa a estilo indirecto empezando por «Il a dit que».",
+   "frase": "Il a dit : « J'ai raté le bus. »",
+   "respuestas": [
+    "Il a dit qu'il avait raté le bus."
+   ],
+   "explicacion": "Passé composé → pluscuamperfecto."
+  },
+  {
+   "id": "e11",
+   "tipo": "transformar",
+   "enunciado": "Pasa a estilo indirecto empezando por «Ils ont dit que».",
+   "frase": "Ils ont dit : « Nous déménagerons en juin. »",
+   "respuestas": [
+    "Ils ont dit qu'ils déménageraient en juin."
+   ],
+   "explicacion": "Futuro simple → condicional presente."
+  },
+  {
+   "id": "e12",
+   "tipo": "corregir",
+   "enunciado": "Corrige el error de concordancia de tiempos.",
+   "frase": "Le ministre a déclaré que la loi entrera en vigueur l'année suivante.",
+   "respuestas": [
+    "Le ministre a déclaré que la loi entrerait en vigueur l'année suivante."
+   ],
+   "explicacion": "Con l'année suivante la referencia es pasada: futuro → condicional."
+  },
+  {
+   "id": "e13",
+   "tipo": "corregir",
+   "enunciado": "Corrige el error.",
+   "frase": "Je voulais que vous veniez le lendemain, mais il a dit qu'il ne pourra pas vous recevoir.",
+   "respuestas": [
+    "Je voulais que vous veniez le lendemain, mais il a dit qu'il ne pourrait pas vous recevoir."
+   ],
+   "explicacion": "Tras il a dit, el futuro pasa a condicional."
+  },
+  {
+   "id": "e14",
+   "tipo": "ordenar",
+   "enunciado": "Ordena las palabras.",
+   "palabras": [
+    "qu'il",
+    "pleuvrait",
+    "avait",
+    "annoncé",
+    "On"
+   ],
+   "respuestas": [
+    "On avait annoncé qu'il pleuvrait"
+   ],
+   "explicacion": "Principal en pluscuamperfecto y posterioridad en condicional."
+  }
+ ],
+ "fuente": {
+  "nombre": "propia"
+ }
+}

@@ -1,0 +1,62 @@
+{
+ "id": "fr.g.preposiciones-lugar",
+ "titulo": "Preposiciones de lugar y con países",
+ "titulo_es": "Preposiciones de lugar y con ciudades y países (à, en, au, aux, chez…)",
+ "descripcion_es": "Dónde estás, adónde vas y de dónde vienes; chez, dans, sur y otras preposiciones de lugar.",
+ "nivel": "A1",
+ "resumen": "Donde el español dice siempre «en» o «a», el francés elige à, en, au o aux según el lugar sea una ciudad o un país femenino, masculino o plural; para «de» se usa de, du o des.",
+ "explicacion": [
+  {"tipo": "texto", "texto": "Para decir dónde estás o adónde vas se usa la misma preposición: J'habite à Paris (vivo en París) y Je vais à Paris (voy a París). Lo que cambia es el tipo de lugar."},
+  {"tipo": "tabla", "cabecera": ["Lugar", "en / a", "de (procedencia)"], "filas": [
+   ["Ciudades e islas pequeñas", "à Paris, à Cuba", "de Paris, d'Austin"],
+   ["Países femeninos (acaban casi siempre en -e)", "en France, en Italie", "de France, d'Italie"],
+   ["Países masculinos que empiezan por vocal", "en Iran, en Équateur", "d'Iran"],
+   ["Países masculinos", "au Japon, au Portugal, au Canada", "du Japon, du Canada"],
+   ["Países en plural", "aux États-Unis, aux Pays-Bas", "des États-Unis"],
+   ["Continentes", "en Europe, en Afrique", "d'Europe"]
+  ]},
+  {"tipo": "texto", "texto": "Recuerda las contracciones: à + le = au, à + les = aux, de + le = du, de + les = des. Ojo: le Mexique es masculino aunque acabe en -e (au Mexique)."},
+  {"tipo": "lista", "items": [
+   "chez + persona: «en casa de» o «a casa de»: Je vais chez Pierre. Je suis chez moi (estoy en casa).",
+   "dans: dentro de un espacio concreto: dans la boîte, dans le jardin, dans la voiture.",
+   "sur / sous: encima de / debajo de: sur la table, sous le lit.",
+   "devant / derrière: delante de / detrás de (sin de): devant la gare.",
+   "entre: entre dos cosas: entre la poste et la banque.",
+   "Con de: à côté de (al lado de), près de (cerca de), loin de (lejos de), en face de (enfrente de): près de la gare."
+  ]},
+  {"tipo": "texto", "texto": "Tex nació en Texas (au Texas), creció en Europa (en Europe), aterrizó en París (à Paris, en France) y vivió en Lyon con unas monjas (chez des nonnes). Un buen resumen de casi toda la regla."}
+ ],
+ "ejemplos": [
+  {"frase": "Rome est en Italie.", "traduccion": "Roma está en Italia."},
+  {"frase": "Bill a été au Japon.", "traduccion": "Bill ha estado en Japón."},
+  {"frase": "Il est né au Texas, mais il a grandi en Europe.", "traduccion": "Nació en Texas, pero creció en Europa."},
+  {"frase": "Les nonnes arrivaient des États-Unis.", "traduccion": "Las monjas llegaban de Estados Unidos."},
+  {"frase": "Faites comme chez vous !", "traduccion": "¡Siéntase como en casa!"},
+  {"frase": "Il vit près de chez moi.", "traduccion": "Vive cerca de mi casa."}
+ ],
+ "errores_hispanohablantes": [
+  {"mal": "J'habite en Madrid.", "bien": "J'habite à Madrid.", "nota": "Con ciudades se usa à, nunca en."},
+  {"mal": "Je vais à la maison de Pierre.", "bien": "Je vais chez Pierre.", "nota": "«A casa de» se dice chez."},
+  {"mal": "Il travaille au France.", "bien": "Il travaille en France.", "nota": "Los países femeninos llevan en; au solo con los masculinos."},
+  {"mal": "Il habite près la gare.", "bien": "Il habite près de la gare.", "nota": "Près, loin, à côté y en face van seguidos de de."}
+ ],
+ "ejercicios": [
+  {"id": "e01", "tipo": "hueco", "enunciado": "Completa con la preposición adecuada.", "frase": "Anne vit ___ France.", "respuestas": ["en"], "explicacion": "France es un país femenino: en.", "origen": "tatoeba:12011576"},
+  {"id": "e02", "tipo": "hueco", "enunciado": "Completa con la preposición adecuada.", "frase": "Bill a été ___ Japon.", "respuestas": ["au"], "explicacion": "Le Japon es masculino: à + le = au.", "origen": "tatoeba:373846"},
+  {"id": "e03", "tipo": "hueco", "enunciado": "Completa con la preposición adecuada.", "frase": "Je suis ___ Portugal.", "respuestas": ["au"], "explicacion": "Le Portugal es masculino: au.", "origen": "tatoeba:989770"},
+  {"id": "e04", "tipo": "eleccion", "enunciado": "Elige la preposición correcta.", "frase": "Rome est ___ Italie.", "opciones": ["à", "en", "au", "dans"], "respuestas": ["en"], "explicacion": "L'Italie es un país femenino: en.", "origen": "tatoeba:13803"},
+  {"id": "e05", "tipo": "hueco", "enunciado": "Completa con la preposición adecuada (Me voy a casa).", "frase": "Je vais ___ moi.", "respuestas": ["chez"], "explicacion": "«A casa de» o «a mi casa» se dice chez.", "origen": "tatoeba:1121511"},
+  {"id": "e06", "tipo": "corregir", "enunciado": "Corrige el error.", "frase": "Je veux aller à Italie.", "respuestas": ["Je veux aller en Italie."], "explicacion": "Con países femeninos se usa en, no à.", "origen": "tatoeba:391014"},
+  {"id": "e07", "tipo": "corregir", "enunciado": "Corrige el error.", "frase": "Je veux aller en Japon.", "respuestas": ["Je veux aller au Japon."], "explicacion": "Le Japon es masculino y empieza por consonante: au.", "origen": "tatoeba:961173"},
+  {"id": "e08", "tipo": "eleccion", "enunciado": "Elige la preposición correcta.", "frase": "Il habite ___ États-Unis.", "opciones": ["au", "aux", "en", "à"], "respuestas": ["aux"], "explicacion": "Les États-Unis es plural: à + les = aux."},
+  {"id": "e09", "tipo": "hueco", "enunciado": "Completa con la preposición adecuada.", "frase": "Mon oncle travaille ___ Madrid.", "respuestas": ["à"], "explicacion": "Con ciudades se usa à."},
+  {"id": "e10", "tipo": "eleccion", "enunciado": "Elige la preposición correcta.", "frase": "Les enfants jouent ___ le jardin.", "opciones": ["dans", "chez", "en", "au"], "respuestas": ["dans"], "explicacion": "Dentro de un espacio concreto con artículo se usa dans."},
+  {"id": "e11", "tipo": "corregir", "enunciado": "Corrige el error.", "frase": "Il habite près la gare.", "respuestas": ["Il habite près de la gare."], "explicacion": "Près va seguido de de: près de."},
+  {"id": "e12", "tipo": "ordenar", "enunciado": "Ordena las palabras (Me vuelvo a casa).", "palabras": ["moi", "reviens", "Je", "chez"], "respuestas": ["Je reviens chez moi"], "explicacion": "Chez + pronombre tónico: chez moi.", "origen": "tatoeba:1594980"},
+  {"id": "e13", "tipo": "ordenar", "enunciado": "Ordena las palabras (Vive en Inglaterra).", "palabras": ["Angleterre", "vit", "en", "Il"], "respuestas": ["Il vit en Angleterre"], "explicacion": "L'Angleterre es femenino: en.", "origen": "tatoeba:3225886"},
+  {"id": "e14", "tipo": "hueco", "enunciado": "Completa con la preposición de procedencia.", "frase": "Elle vient ___ Canada.", "respuestas": ["du"], "explicacion": "Le Canada es masculino: de + le = du."},
+  {"id": "e15", "tipo": "hueco", "enunciado": "Completa con la preposición de procedencia.", "frase": "Ces oranges viennent ___ Espagne.", "respuestas": ["d'"], "explicacion": "Con países femeninos la procedencia es de, que se apostrofa ante vocal: d'Espagne."},
+  {"id": "e16", "tipo": "eleccion", "enunciado": "Elige la preposición correcta.", "frase": "Ils passent leurs vacances ___ Cuba.", "opciones": ["à", "en", "au", "aux"], "respuestas": ["à"], "explicacion": "Cuba es una isla y se trata como una ciudad: à."}
+ ],
+ "fuente": {"nombre": "Tex's French Grammar", "autores": "COERLL, Universidad de Texas en Austin", "licencia": "CC BY 3.0", "url": "https://laits.utexas.edu/tex/gr/pre1.html", "otras": ["Frases de Tatoeba (CC BY 2.0 FR)"]}
+}

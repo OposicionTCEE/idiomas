@@ -1,0 +1,59 @@
+{
+ "id": "en.g.to-be",
+ "titulo": "Verb to be",
+ "titulo_es": "El verbo to be (ser y estar)",
+ "descripcion_es": "Presente y pasado del verbo to be: afirmativa, negativa y preguntas.",
+ "nivel": "A1",
+ "resumen": "To be equivale a la vez a «ser» y a «estar». Se usa para identidad, origen, profesión, edad, estado, lugar y tiempo atmosférico; en presente tiene tres formas (am, is, are) y en pasado dos (was, were).",
+ "explicacion": [
+  {"tipo": "texto", "texto": "En inglés no hay distinción entre ser y estar: I am a teacher (soy profesor) e I am tired (estoy cansado) usan el mismo verbo. Además, la edad, el hambre, el frío o la razón se expresan con to be, no con «tener»: I am 30, I am hungry."},
+  {"tipo": "tabla", "cabecera": ["Sujeto", "Presente", "Contracción", "Pasado"], "filas": [
+   ["I", "am", "I'm", "was"],
+   ["you / we / they", "are", "you're / we're / they're", "were"],
+   ["he / she / it", "is", "he's / she's / it's", "was"]
+  ]},
+  {"tipo": "tabla", "cabecera": ["Forma", "Presente", "Pasado"], "filas": [
+   ["Negativa", "I'm not / she isn't / they aren't", "he wasn't / we weren't"],
+   ["Pregunta", "Are you ready? Is it cold?", "Was she at home? Were they late?"],
+   ["Respuesta corta", "Yes, I am. / No, it isn't.", "Yes, she was. / No, they weren't."]
+  ]},
+  {"tipo": "lista", "items": [
+   "En preguntas se invierte el orden: verbo antes del sujeto (Is he Spanish?). No se usa do.",
+   "La negación se forma añadiendo not tras el verbo: She is not here.",
+   "Con I la contracción negativa es I'm not (no existe «I amn't»).",
+   "En las respuestas cortas afirmativas no se contrae: Yes, I am (no «Yes, I'm»)."
+  ]}
+ ],
+ "ejemplos": [
+  {"frase": "My name is Laura and I'm from Seville.", "traduccion": "Me llamo Laura y soy de Sevilla."},
+  {"frase": "We are very hungry.", "traduccion": "Tenemos mucha hambre."},
+  {"frase": "Is the museum open on Mondays?", "traduccion": "¿Está abierto el museo los lunes?"},
+  {"frase": "My brother is 25 years old.", "traduccion": "Mi hermano tiene 25 años."},
+  {"frase": "They weren't at the party last night.", "traduccion": "No estuvieron en la fiesta anoche."},
+  {"frase": "It was cold yesterday.", "traduccion": "Ayer hacía frío."}
+ ],
+ "errores_hispanohablantes": [
+  {"mal": "I have 30 years.", "bien": "I am 30 years old.", "nota": "La edad se expresa con to be, no con have."},
+  {"mal": "Is very cold today.", "bien": "It is very cold today.", "nota": "En inglés el sujeto es obligatorio; para el tiempo se usa it."},
+  {"mal": "Do you are a student?", "bien": "Are you a student?", "nota": "To be no usa do en preguntas ni negaciones."},
+  {"mal": "I have hungry.", "bien": "I am hungry.", "nota": "Hambre, sed, frío, calor y miedo van con to be."}
+ ],
+ "ejercicios": [
+  {"id": "e01", "tipo": "hueco", "enunciado": "Completa con am, is o are.", "frase": "My parents ___ teachers.", "respuestas": ["are"], "explicacion": "My parents equivale a they, que lleva are."},
+  {"id": "e02", "tipo": "hueco", "enunciado": "Completa con am, is o are.", "frase": "I ___ from Valencia.", "respuestas": ["am"], "explicacion": "Con I el presente de to be es am."},
+  {"id": "e03", "tipo": "hueco", "enunciado": "Completa con was o were.", "frase": "The film ___ very long.", "respuestas": ["was"], "explicacion": "The film es tercera persona del singular, que lleva was."},
+  {"id": "e04", "tipo": "hueco", "enunciado": "Completa con was o were.", "frase": "Where ___ you yesterday afternoon?", "respuestas": ["were"], "explicacion": "Con you el pasado de to be es were."},
+  {"id": "e05", "tipo": "hueco", "enunciado": "Completa con la forma negativa del presente (contraída).", "frase": "She ___ at work today. She's ill.", "respuestas": ["isn't", "is not"], "explicacion": "Con she la negativa es isn't (is not)."},
+  {"id": "e06", "tipo": "eleccion", "enunciado": "Elige la opción correcta.", "frase": "___ your sister a doctor?", "opciones": ["Is", "Are", "Does"], "respuestas": ["Is"], "explicacion": "Your sister equivale a she: la pregunta empieza por Is, sin do."},
+  {"id": "e07", "tipo": "eleccion", "enunciado": "Elige la opción correcta.", "frase": "I ___ 20 years old.", "opciones": ["have", "am", "is"], "respuestas": ["am"], "explicacion": "La edad se dice con to be."},
+  {"id": "e08", "tipo": "eleccion", "enunciado": "Elige la respuesta corta correcta.", "frase": "Are you tired? Yes, I ___.", "opciones": ["am", "'m", "are"], "respuestas": ["am"], "explicacion": "En respuestas cortas afirmativas no se contrae: Yes, I am."},
+  {"id": "e09", "tipo": "eleccion", "enunciado": "Elige la opción correcta.", "frase": "We ___ in London last summer.", "opciones": ["was", "were", "are"], "respuestas": ["were"], "explicacion": "Last summer indica pasado y con we se usa were."},
+  {"id": "e10", "tipo": "transformar", "enunciado": "Pasa la frase a pregunta.", "frase": "They are Italian.", "respuestas": ["Are they Italian?"], "explicacion": "En preguntas con to be se invierte el verbo y el sujeto."},
+  {"id": "e11", "tipo": "transformar", "enunciado": "Pasa la frase a negativa.", "frase": "He was happy.", "respuestas": ["He wasn't happy.", "He was not happy."], "explicacion": "La negación se forma con was not (wasn't)."},
+  {"id": "e12", "tipo": "corregir", "enunciado": "Corrige el error.", "frase": "Is very hot today.", "respuestas": ["It is very hot today.", "It's very hot today."], "explicacion": "Hace falta el sujeto it para hablar del tiempo."},
+  {"id": "e13", "tipo": "corregir", "enunciado": "Corrige el error.", "frase": "The children was in the garden.", "respuestas": ["The children were in the garden."], "explicacion": "Children es plural y lleva were."},
+  {"id": "e14", "tipo": "ordenar", "enunciado": "Ordena las palabras para formar una pregunta.", "palabras": ["your", "is", "where", "office"], "respuestas": ["Where is your office"], "explicacion": "Partícula interrogativa + verbo + sujeto."},
+  {"id": "e15", "tipo": "ordenar", "enunciado": "Ordena las palabras.", "palabras": ["not", "I", "cold", "am"], "respuestas": ["I am not cold"], "explicacion": "Sujeto + am + not + adjetivo."}
+ ],
+ "fuente": {"nombre": "propia"}
+}

@@ -1,0 +1,58 @@
+{
+ "id": "fr.g.pronominales",
+ "titulo": "Verbos pronominales",
+ "titulo_es": "Verbos pronominales (se lever, s'appeler…)",
+ "descripcion_es": "Conjugación con me, te, se, nous, vous; verbos reflexivos, idiomáticos y recíprocos.",
+ "nivel": "A2",
+ "resumen": "Los verbos pronominales se conjugan con un pronombre reflexivo (me, te, se, nous, vous, se), como «levantarse» en español; casi siempre coinciden con el español, pero no todos.",
+ "explicacion": [
+  {"tipo": "tabla", "cabecera": ["Persona", "se lever", "Traducción"], "filas": [
+   ["je", "me lève", "me levanto"],
+   ["tu", "te lèves", "te levantas"],
+   ["il / elle / on", "se lève", "se levanta"],
+   ["nous", "nous levons", "nos levantamos"],
+   ["vous", "vous levez", "os levantáis / se levanta usted"],
+   ["ils / elles", "se lèvent", "se levantan"]
+  ]},
+  {"tipo": "texto", "texto": "Me, te y se se apostrofan ante vocal o h muda: je m'appelle, tu t'habilles, il s'amuse. El pronombre siempre va pegado delante del verbo, también con un infinitivo: Je vais me coucher. Tu dois te dépêcher. Je déteste me raser."},
+  {"tipo": "lista", "items": [
+   "Reflexivos (la acción recae en el sujeto): se laver, se lever, se coucher, s'habiller, se réveiller, s'asseoir, se promener.",
+   "Idiomáticos (sin sentido reflexivo real): s'amuser (divertirse), s'ennuyer (aburrirse), se dépêcher (darse prisa), se tromper (equivocarse), se souvenir de (acordarse de), se taire (callarse), se sentir (sentirse).",
+   "Recíprocos (uno a otro): s'aimer, se parler, se téléphoner, se disputer, se retrouver (quedar, reencontrarse)."
+  ]},
+  {"tipo": "texto", "texto": "Negación: ne va delante del pronombre y pas detrás del verbo: Je ne me rase pas. Con partes del cuerpo se usa el artículo, igual que en español: Je me lave les mains (no «mes mains»). Imperativo afirmativo: Lève-toi ! Amusez-vous !"},
+  {"tipo": "texto", "texto": "Si la acción recae sobre otra persona, el verbo deja de ser pronominal: Tex rase Joe-Bob (Tex afeita a Joe-Bob) / Joe-Bob se rase (Joe-Bob se afeita)."}
+ ],
+ "ejemplos": [
+  {"frase": "Mon père se lève tôt.", "traduccion": "Mi padre se levanta temprano."},
+  {"frase": "Je me souviens de tout.", "traduccion": "Me acuerdo de todo."},
+  {"frase": "Nous nous entendons très bien, sauf quand il se fâche.", "traduccion": "Nos llevamos muy bien, salvo cuando se enfada."},
+  {"frase": "Tom se lave les dents.", "traduccion": "Tom se lava los dientes."},
+  {"frase": "Les escargots ne se rasent pas.", "traduccion": "Los caracoles no se afeitan."},
+  {"frase": "Nous allons nous marier un jour.", "traduccion": "Vamos a casarnos algún día."}
+ ],
+ "errores_hispanohablantes": [
+  {"mal": "Je me ne lève pas.", "bien": "Je ne me lève pas.", "nota": "Ne va delante del pronombre reflexivo."},
+  {"mal": "Nous devons se dépêcher.", "bien": "Nous devons nous dépêcher.", "nota": "El pronombre del infinitivo concuerda con el sujeto, como en «tenemos que darnos prisa»."},
+  {"mal": "Je me rappelle de cette histoire.", "bien": "Je me souviens de cette histoire.", "nota": "Se souvenir lleva de; se rappeler lleva complemento directo en la norma (je me rappelle cette histoire)."}
+ ],
+ "ejercicios": [
+  {"id": "e01", "tipo": "hueco", "enunciado": "Completa con el pronombre reflexivo.", "frase": "Je ___ lève tôt.", "respuestas": ["me"], "explicacion": "Je → me.", "origen": "tatoeba:2347563"},
+  {"id": "e02", "tipo": "hueco", "enunciado": "Completa con el verbo en presente.", "frase": "Mon père se ___ tôt (lever).", "respuestas": ["lève"], "explicacion": "Lever lleva acento grave en las formas con terminación muda: il se lève.", "origen": "tatoeba:1787505"},
+  {"id": "e03", "tipo": "hueco", "enunciado": "Completa con el pronombre reflexivo.", "frase": "Tu ___ souviens de Tom ?", "respuestas": ["te"], "explicacion": "Tu → te.", "origen": "tatoeba:6484287"},
+  {"id": "e04", "tipo": "corregir", "enunciado": "Corrige el error.", "frase": "Je me lave mes mains.", "respuestas": ["Je me lave les mains."], "explicacion": "Con partes del cuerpo y verbo pronominal se usa el artículo, no el posesivo.", "origen": "tatoeba:646261"},
+  {"id": "e05", "tipo": "corregir", "enunciado": "Corrige el error.", "frase": "Je me ne souviens pas.", "respuestas": ["Je ne me souviens pas."], "explicacion": "Ne va delante del pronombre reflexivo.", "origen": "tatoeba:1148140"},
+  {"id": "e06", "tipo": "corregir", "enunciado": "Corrige el error.", "frase": "Tu dois se dépêcher.", "respuestas": ["Tu dois te dépêcher."], "explicacion": "El pronombre del infinitivo concuerda con el sujeto tu.", "origen": "tatoeba:509486"},
+  {"id": "e07", "tipo": "eleccion", "enunciado": "Elige el pronombre correcto.", "frase": "Vous ___ appelez comment ?", "opciones": ["vous", "se", "nous"], "respuestas": ["vous"], "explicacion": "Sujeto vous → pronombre vous."},
+  {"id": "e08", "tipo": "eleccion", "enunciado": "Elige la forma correcta (El sol se pone).", "frase": "Le soleil ___.", "opciones": ["se couche", "couche", "se couchent"], "respuestas": ["se couche"], "explicacion": "Se coucher es pronominal y el sujeto es singular.", "origen": "tatoeba:7802824"},
+  {"id": "e09", "tipo": "transformar", "enunciado": "Pasa la frase a negativa.", "frase": "Il se lève tôt.", "respuestas": ["Il ne se lève pas tôt."], "explicacion": "Ne + pronombre + verbo + pas.", "origen": "tatoeba:1238043"},
+  {"id": "e10", "tipo": "ordenar", "enunciado": "Ordena las palabras (Me acuerdo de todo).", "palabras": ["tout", "souviens", "Je", "de", "me"], "respuestas": ["Je me souviens de tout"], "explicacion": "Se souvenir de + complemento.", "origen": "tatoeba:615157"},
+  {"id": "e11", "tipo": "ordenar", "enunciado": "Ordena las palabras (Me voy a acostar).", "palabras": ["coucher", "me", "vais", "Je"], "respuestas": ["Je vais me coucher"], "explicacion": "El pronombre va delante del infinitivo.", "origen": "tatoeba:139823"},
+  {"id": "e12", "tipo": "hueco", "enunciado": "Completa con el verbo en presente.", "frase": "Nous nous ___ beaucoup (s'amuser).", "respuestas": ["amusons"], "explicacion": "Nous → amusons."},
+  {"id": "e13", "tipo": "eleccion", "enunciado": "Elige la forma correcta (Tex afeita a Joe-Bob).", "frase": "Tex ___ Joe-Bob pour l'été.", "opciones": ["rase", "se rase"], "respuestas": ["rase"], "explicacion": "La acción recae sobre otra persona: el verbo no es pronominal."},
+  {"id": "e14", "tipo": "hueco", "enunciado": "Completa con el pronombre (se llaman por teléfono el uno al otro).", "frase": "Paul et Marie ___ téléphonent tous les jours.", "respuestas": ["se"], "explicacion": "Verbo recíproco en tercera persona del plural: se."},
+  {"id": "e15", "tipo": "hueco", "enunciado": "Completa con el verbo en presente.", "frase": "Elles ___ Anne et Sophie (s'appeler).", "respuestas": ["s'appellent"], "explicacion": "Appeler dobla la l ante terminación muda: elles s'appellent."},
+  {"id": "e16", "tipo": "transformar", "enunciado": "Convierte en una orden.", "frase": "Tu te tais.", "respuestas": ["Tais-toi !"], "explicacion": "Imperativo afirmativo: pronombre detrás y te pasa a toi."}
+ ],
+ "fuente": {"nombre": "Tex's French Grammar", "autores": "COERLL, Universidad de Texas en Austin", "licencia": "CC BY 3.0", "url": "https://laits.utexas.edu/tex/gr/vpr1.html", "otras": ["Frases de Tatoeba (CC BY 2.0 FR)"]}
+}

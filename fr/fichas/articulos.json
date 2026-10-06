@@ -1,0 +1,62 @@
+{
+ "id": "fr.g.articulos",
+ "titulo": "Artículos definidos e indefinidos",
+ "titulo_es": "Artículos definidos e indefinidos (le, la, les; un, une, des)",
+ "descripcion_es": "le, la, l', les; un, une, des; usos frente al español.",
+ "nivel": "A1",
+ "resumen": "En francés casi ningún sustantivo va sin determinante: el artículo marca el género y el número, que a menudo no se oyen en el nombre. Los usos se parecen a los del español, con diferencias en el plural indefinido (des), los días de la semana y los países.",
+ "explicacion": [
+  {"tipo": "tabla", "cabecera": ["", "Masculino", "Femenino", "Plural"], "filas": [
+   ["Definido", "le (l')", "la (l')", "les"],
+   ["Indefinido", "un", "une", "des"]
+  ]},
+  {"tipo": "texto", "texto": "Elisión: le y la se convierten en l' ante vocal o h muda (l'ami, l'école, l'hôtel). Les no se apostrofa, pero se pronuncia la s como /z/ ante vocal (les‿amis): es la liaison. Con la h aspirada no hay elisión ni liaison: le héros, les héros."},
+  {"tipo": "lista", "items": [
+   "El definido, como en español, sirve para algo concreto o ya conocido y para las verdades generales y los gustos: L'argent ne fait pas le bonheur. J'aime le café.",
+   "Des es el plural de un y no se omite nunca, aunque en español no digamos nada: J'ai des amis à Lyon (tengo amigos en Lyon).",
+   "Tras una negación, un, une, des pasan a de (d'): Je n'ai pas de voiture. Con être no cambian: Ce n'est pas un chat.",
+   "Delante de un adjetivo en plural que precede al nombre, des suele pasar a de: de bons amis, pero des amis fidèles.",
+   "Profesión, nacionalidad o religión tras être o devenir van sin artículo, como en español: Il est médecin. Pero con c'est sí: C'est un médecin."
+  ]},
+  {"tipo": "tabla", "cabecera": ["Caso", "Francés", "Español"], "filas": [
+   ["Costumbre (cada lunes)", "Le lundi, je fais du sport.", "Los lunes hago deporte."],
+   ["Un día concreto", "Lundi, j'ai un rendez-vous.", "El lunes tengo una cita."],
+   ["Países y regiones", "La France, l'Espagne, le Mexique", "Francia, España, México"],
+   ["Ciudades y meses", "Il habite à Paris. J'adore mars.", "Vive en París. Me encanta marzo."]
+  ]},
+  {"tipo": "texto", "texto": "En una enumeración el artículo se repite delante de cada nombre: Apporte les assiettes, les verres et le vin."}
+ ],
+ "ejemplos": [
+  {"frase": "Le matin, Tammy va en cours ; l'après-midi, elle va à la bibliothèque.", "traduccion": "Por la mañana Tammy va a clase; por la tarde va a la biblioteca."},
+  {"frase": "Joe-Bob et Corey ont une chambre dans une résidence universitaire.", "traduccion": "Joe-Bob y Corey tienen una habitación en una residencia universitaria."},
+  {"frase": "Tu as des frères ? Non, je n'ai pas de frères.", "traduccion": "¿Tienes hermanos? No, no tengo hermanos."},
+  {"frase": "L'amour et la santé sont plus importants que l'argent.", "traduccion": "El amor y la salud son más importantes que el dinero."},
+  {"frase": "Elle est avocate ; c'est une avocate brillante.", "traduccion": "Es abogada; es una abogada brillante."},
+  {"frase": "La France et l'Espagne sont des pays voisins.", "traduccion": "Francia y España son países vecinos."}
+ ],
+ "errores_hispanohablantes": [
+  {"mal": "J'ai amis à Lyon.", "bien": "J'ai des amis à Lyon.", "nota": "El plural indefinido des es obligatorio aunque en español no se diga nada."},
+  {"mal": "Le lundi prochain, je pars.", "bien": "Lundi prochain, je pars.", "nota": "Para un día concreto no se pone artículo; le lundi significa todos los lunes."},
+  {"mal": "J'habite en Espagne et je connais bien Mexique.", "bien": "J'habite en Espagne et je connais bien le Mexique.", "nota": "Los países llevan artículo en francés."},
+  {"mal": "le hôtel", "bien": "l'hôtel", "nota": "Ante vocal o h muda, le y la se apostrofan."}
+ ],
+ "ejercicios": [
+  {"id": "e01", "tipo": "hueco", "enunciado": "Completa con el artículo definido (le, la, l', les).", "frase": "___ livre est ici.", "respuestas": ["Le"], "explicacion": "Livre es masculino singular y empieza por consonante: le.", "origen": "tatoeba:11215"},
+  {"id": "e02", "tipo": "hueco", "enunciado": "Completa con el artículo definido (le, la, l', les).", "frase": "___ fleur est bleue.", "respuestas": ["La"], "explicacion": "Fleur es femenino (lo confirma el adjetivo bleue): la.", "origen": "tatoeba:5316869"},
+  {"id": "e03", "tipo": "hueco", "enunciado": "Completa con el artículo definido (le, la, l', les).", "frase": "La carte est sur ___ mur.", "respuestas": ["le"], "explicacion": "Mur es masculino singular: le mur.", "origen": "tatoeba:879584"},
+  {"id": "e04", "tipo": "hueco", "enunciado": "Completa con el artículo definido (le, la, l', les).", "frase": "___ thé coûte deux euros.", "respuestas": ["Le"], "explicacion": "Thé es masculino: le thé.", "origen": "tatoeba:698620"},
+  {"id": "e05", "tipo": "eleccion", "enunciado": "Elige el artículo correcto.", "frase": "___ lune brille la nuit.", "opciones": ["La", "Le", "L'"], "respuestas": ["La"], "explicacion": "Lune es femenino y empieza por consonante: la lune.", "origen": "tatoeba:431367"},
+  {"id": "e06", "tipo": "transformar", "enunciado": "Pasa la frase al plural.", "frase": "Le chien est mouillé.", "respuestas": ["Les chiens sont mouillés."], "explicacion": "Le pasa a les y el verbo y el adjetivo concuerdan en plural.", "origen": "tatoeba:474275"},
+  {"id": "e07", "tipo": "eleccion", "enunciado": "Elige el artículo correcto.", "frase": "___ citron est acide.", "opciones": ["Le", "La", "L'"], "respuestas": ["Le"], "explicacion": "Citron es masculino: le citron.", "origen": "tatoeba:4605285"},
+  {"id": "e08", "tipo": "ordenar", "enunciado": "Ordena las palabras.", "palabras": ["prêt", "café", "Le", "est"], "respuestas": ["Le café est prêt"], "explicacion": "Artículo y nombre, verbo y atributo.", "origen": "tatoeba:1521729"},
+  {"id": "e09", "tipo": "hueco", "enunciado": "Completa con el artículo adecuado.", "frase": "___ argent ne fait pas le bonheur.", "respuestas": ["L'"], "explicacion": "Verdad general con artículo definido; argent empieza por vocal, así que le se apostrofa."},
+  {"id": "e10", "tipo": "hueco", "enunciado": "Completa con el artículo adecuado.", "frase": "Nous dormons à ___ hôtel ce soir.", "respuestas": ["l'"], "explicacion": "Hôtel empieza por h muda: l'hôtel."},
+  {"id": "e11", "tipo": "eleccion", "enunciado": "Elige la opción correcta (significa «los lunes, cada lunes»).", "frase": "___ lundi, je vais à la piscine.", "opciones": ["Le", "Un", "Des"], "respuestas": ["Le"], "explicacion": "Le lundi expresa costumbre: todos los lunes."},
+  {"id": "e12", "tipo": "eleccion", "enunciado": "Elige la opción correcta.", "frase": "Ce sont ___ bons amis.", "opciones": ["de", "des", "les"], "respuestas": ["de"], "explicacion": "Ante un adjetivo plural antepuesto al nombre, des suele pasar a de en la lengua cuidada."},
+  {"id": "e13", "tipo": "hueco", "enunciado": "Completa con el artículo indefinido (un, une, des).", "frase": "Il y a ___ enfants dans le jardin.", "respuestas": ["des"], "explicacion": "Plural indefinido: des, aunque en español diríamos simplemente «hay niños»."},
+  {"id": "e14", "tipo": "corregir", "enunciado": "Corrige el error.", "frase": "Il est un professeur.", "respuestas": ["Il est professeur.", "C'est un professeur."], "explicacion": "Tras il est, la profesión va sin artículo; con c'est se usa un."},
+  {"id": "e15", "tipo": "corregir", "enunciado": "Corrige el error.", "frase": "Je n'ai pas une voiture.", "respuestas": ["Je n'ai pas de voiture."], "explicacion": "Tras una negación, un, une, des pasan a de."},
+  {"id": "e16", "tipo": "corregir", "enunciado": "Corrige el error.", "frase": "J'aime beaucoup Espagne.", "respuestas": ["J'aime beaucoup l'Espagne."], "explicacion": "Los países llevan artículo: l'Espagne."}
+ ],
+ "fuente": {"nombre": "Tex's French Grammar", "autores": "COERLL, Universidad de Texas en Austin", "licencia": "CC BY 3.0", "url": "https://laits.utexas.edu/tex/gr/det2.html", "otras": ["Frases de Tatoeba (CC BY 2.0 FR)"]}
+}

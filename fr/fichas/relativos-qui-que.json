@@ -1,0 +1,54 @@
+{
+ "id": "fr.g.relativos-qui-que",
+ "titulo": "Relativos qui y que",
+ "titulo_es": "Relativos qui y que (que, quien)",
+ "descripcion_es": "Qui es sujeto de la subordinada; que es complemento directo.",
+ "nivel": "A2",
+ "resumen": "El español usa «que» para todo, pero el francés distingue: qui cuando el relativo es el sujeto del verbo que sigue (l'homme qui parle) y que cuando es el complemento directo (l'homme que je vois). La elección no depende de si se trata de personas o de cosas.",
+ "explicacion": [
+  {"tipo": "tabla", "cabecera": ["Relativo", "Función", "Lo que suele seguir", "Ejemplo"], "filas": [
+   ["qui", "sujeto", "un verbo (a veces un pronombre complemento + verbo)", "J'ai un ami qui habite à Lyon."],
+   ["que / qu'", "complemento directo", "un sujeto + verbo", "Le livre que tu lis est passionnant."]
+  ]},
+  {"tipo": "texto", "texto": "Truco: mira lo que viene justo después del hueco. Si hay un sujeto (je, tu, Paul, mes parents…) → que. Si viene directamente el verbo, o un pronombre como me, le, l' seguido del verbo → qui. Por ejemplo: C'est moi qui l'ai sauvé (l' es complemento; el sujeto es qui)."},
+  {"tipo": "lista", "items": [
+   "Que se apostrofa ante vocal: le film qu'on a vu, la robe qu'elle porte. Qui nunca se apostrofa: l'ami qui arrive.",
+   "Qui y que sirven para personas y para cosas: la femme qui parle, la voiture qui passe.",
+   "En tiempos compuestos con avoir, el participio concuerda con el antecedente de que: la tarte que Tammy a faite, les héros que j'ai vus.",
+   "Con c'est… qui / c'est… que se destaca un elemento: C'est Paul qui a gagné. C'est ce livre que je veux.",
+   "Tras preposición no se usa que: la personne avec qui je parle (con quien hablo)."
+  ]}
+ ],
+ "ejemplos": [
+  {"frase": "C'est l'homme que je veux.", "traduccion": "Es el hombre al que quiero."},
+  {"frase": "C'est moi qui l'ai sauvé.", "traduccion": "Fui yo quien lo salvó."},
+  {"frase": "Tex écrit un roman qui s'appelle Guerre et amour.", "traduccion": "Tex está escribiendo una novela que se titula Guerra y amor."},
+  {"frase": "La tarte que Tammy a faite est délicieuse.", "traduccion": "La tarta que ha hecho Tammy está deliciosa."},
+  {"frase": "J'ai une voisine qui parle cinq langues.", "traduccion": "Tengo una vecina que habla cinco idiomas."},
+  {"frase": "Le film qu'on a vu hier était très long.", "traduccion": "La película que vimos ayer era muy larga."}
+ ],
+ "errores_hispanohablantes": [
+  {"mal": "La voiture que est devant la porte est à moi.", "bien": "La voiture qui est devant la porte est à moi.", "nota": "El relativo es sujeto de est: qui."},
+  {"mal": "Le pull qui j'ai acheté est trop petit.", "bien": "Le pull que j'ai acheté est trop petit.", "nota": "Detrás viene un sujeto (j'): el relativo es complemento directo, que."},
+  {"mal": "C'est le musée qu'est le plus visité.", "bien": "C'est le musée qui est le plus visité.", "nota": "Qui nunca se apostrofa; aquí es sujeto."}
+ ],
+ "ejercicios": [
+  {"id": "e01", "tipo": "hueco", "enunciado": "Completa con qui o que (qu').", "frase": "C'est l'homme ___ je veux.", "respuestas": ["que"], "explicacion": "Detrás hay un sujeto (je): que.", "origen": "tatoeba:7698408"},
+  {"id": "e02", "tipo": "hueco", "enunciado": "Completa con qui o que (qu').", "frase": "C'est moi ___ l'ai sauvé.", "respuestas": ["qui"], "explicacion": "El relativo es el sujeto de ai sauvé; l' es complemento: qui.", "origen": "tatoeba:7702269"},
+  {"id": "e03", "tipo": "hueco", "enunciado": "Completa con qui o que (qu').", "frase": "J'ai un ami ___ habite à Lyon.", "respuestas": ["qui"], "explicacion": "Detrás viene directamente el verbo: qui."},
+  {"id": "e04", "tipo": "hueco", "enunciado": "Completa con qui o que (qu').", "frase": "Le livre ___ tu lis est passionnant.", "respuestas": ["que"], "explicacion": "Detrás hay un sujeto (tu): que."},
+  {"id": "e05", "tipo": "hueco", "enunciado": "Completa con qui o que (qu').", "frase": "Voici la maison ___ mes parents ont achetée.", "respuestas": ["que"], "explicacion": "Sujeto mes parents detrás: que (y achetée concuerda con maison)."},
+  {"id": "e06", "tipo": "hueco", "enunciado": "Completa con qui o que (qu').", "frase": "Les étudiants ___ sont arrivés en retard n'ont pas pu entrer.", "respuestas": ["qui"], "explicacion": "El relativo es sujeto de sont arrivés: qui."},
+  {"id": "e07", "tipo": "eleccion", "enunciado": "Elige el relativo adecuado.", "frase": "La femme ___ parle avec Paul est ma sœur.", "opciones": ["qui", "que", "qu'"], "respuestas": ["qui"], "explicacion": "Detrás viene el verbo parle: qui."},
+  {"id": "e08", "tipo": "eleccion", "enunciado": "Elige el relativo adecuado.", "frase": "Le film ___ on a vu hier était nul.", "opciones": ["qu'", "qui", "que"], "respuestas": ["qu'"], "explicacion": "Detrás hay un sujeto (on) y empieza por vocal: qu'."},
+  {"id": "e09", "tipo": "eleccion", "enunciado": "Elige el relativo adecuado.", "frase": "Tammy aime les romans ___ parlent d'amour.", "opciones": ["qui", "que"], "respuestas": ["qui"], "explicacion": "Los romans son el sujeto de parlent: qui."},
+  {"id": "e10", "tipo": "eleccion", "enunciado": "Elige el relativo adecuado.", "frase": "Tex aime la tarte ___ Tammy a faite.", "opciones": ["que", "qui"], "respuestas": ["que"], "explicacion": "Sujeto Tammy detrás: que."},
+  {"id": "e11", "tipo": "corregir", "enunciado": "Corrige el error.", "frase": "La voiture que est devant la porte est à moi.", "respuestas": ["La voiture qui est devant la porte est à moi."], "explicacion": "Relativo sujeto: qui."},
+  {"id": "e12", "tipo": "corregir", "enunciado": "Corrige el error.", "frase": "Le pull qui j'ai acheté est trop petit.", "respuestas": ["Le pull que j'ai acheté est trop petit."], "explicacion": "Relativo complemento directo: que."},
+  {"id": "e13", "tipo": "corregir", "enunciado": "Corrige el error.", "frase": "C'est le musée qu'est le plus visité.", "respuestas": ["C'est le musée qui est le plus visité."], "explicacion": "Qui no se apostrofa nunca y aquí es sujeto."},
+  {"id": "e14", "tipo": "transformar", "enunciado": "Une las dos frases con qui.", "frase": "J'ai une voisine. Elle parle cinq langues.", "respuestas": ["J'ai une voisine qui parle cinq langues."], "explicacion": "Elle es sujeto: se sustituye por qui."},
+  {"id": "e15", "tipo": "transformar", "enunciado": "Une las dos frases con que.", "frase": "Tex écrit un roman. Tammy adore ce roman.", "respuestas": ["Tex écrit un roman que Tammy adore."], "explicacion": "Ce roman es complemento directo: se sustituye por que."},
+  {"id": "e16", "tipo": "ordenar", "enunciado": "Ordena las palabras (es el tren que llega de Lyon).", "palabras": ["qui", "arrive", "le", "C'est", "train", "Lyon", "de"], "respuestas": ["C'est le train qui arrive de Lyon"], "explicacion": "Qui + verbo: el tren es el sujeto de arrive."}
+ ],
+ "fuente": {"nombre": "Tex's French Grammar", "autores": "COERLL, Universidad de Texas en Austin", "licencia": "CC BY 3.0", "url": "https://laits.utexas.edu/tex/gr/pror1.html", "otras": ["Frases de Tatoeba (CC BY 2.0 FR)"]}
+}

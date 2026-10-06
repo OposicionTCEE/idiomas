@@ -1,0 +1,283 @@
+{
+ "id": "fr.g.concordancia-participio",
+ "titulo": "Concordancia del participio pasado",
+ "titulo_es": "Concordancia del participio pasado (accord du participe passé)",
+ "descripcion_es": "Cuándo concuerda el participio con être, con avoir y en los verbos pronominales.",
+ "nivel": "B2",
+ "resumen": "En francés el participio pasado puede variar en género y número (parti, partie, partis, parties). Concuerda con el sujeto cuando el auxiliar es être y con el complemento directo cuando el auxiliar es avoir y ese complemento va delante del verbo.",
+ "explicacion": [
+  {
+   "tipo": "texto",
+   "texto": "La variación suele ser solo escrita (fini / finie suenan igual), pero en participios acabados en consonante se oye: pris / prise, fait / faite, écrit / écrite, mis / mise. Por eso un error de concordancia se nota también en una exposición oral."
+  },
+  {
+   "tipo": "tabla",
+   "cabecera": [
+    "Caso",
+    "Regla",
+    "Ejemplo"
+   ],
+   "filas": [
+    [
+     "Auxiliar être (verbos de movimiento, pasiva)",
+     "Concuerda con el sujeto",
+     "Elles sont arrivées tard. La loi a été votée."
+    ],
+    [
+     "Auxiliar avoir, CD detrás del verbo",
+     "No concuerda",
+     "Nous avons signé les contrats."
+    ],
+    [
+     "Auxiliar avoir, CD delante (pronombre o relativo que)",
+     "Concuerda con ese CD",
+     "Les contrats ? Nous les avons signés. Les lettres que j'ai écrites."
+    ],
+    [
+     "Avoir sin CD o con CI delante",
+     "No concuerda",
+     "Elle leur a parlé. Ils ont dormi."
+    ],
+    [
+     "Pronominal con se = CD",
+     "Concuerda con el sujeto",
+     "Elle s'est levée. Ils se sont vus."
+    ],
+    [
+     "Pronominal con se = CI",
+     "No concuerda",
+     "Elle s'est lavé les mains. Ils se sont parlé."
+    ]
+   ]
+  },
+  {
+   "tipo": "texto",
+   "texto": "Truco para los pronominales: transforma con avoir y pregunta qué o a quién. «Elle s'est lavé les mains» = elle a lavé les mains à elle-même: el CD es les mains (detrás), se es CI, luego no hay concordancia. En cambio «Elle s'est lavée» = elle a lavé elle-même: se es CD, concuerda."
+  },
+  {
+   "tipo": "lista",
+   "items": [
+    "Con en como CD antepuesto no se concuerda: Des pommes, j'en ai mangé.",
+    "Verbos impersonales nunca concuerdan: Les chaleurs qu'il a fait.",
+    "Verbos con se siempre pronominales (s'évanouir, se souvenir) concuerdan con el sujeto: Elle s'est souvenue de tout.",
+    "Se parler, se plaire, se sourire, se succéder, se nuire llevan se como CI: invariables (Ils se sont succédé)."
+   ]
+  }
+ ],
+ "ejemplos": [
+  {
+   "frase": "La réforme que le gouvernement a présentée hier divise les syndicats.",
+   "traduccion": "La reforma que el Gobierno presentó ayer divide a los sindicatos."
+  },
+  {
+   "frase": "Mes clés ? Je les ai laissées sur la table.",
+   "traduccion": "¿Mis llaves? Las he dejado en la mesa."
+  },
+  {
+   "frase": "Nos amies sont venues dîner samedi.",
+   "traduccion": "Nuestras amigas vinieron a cenar el sábado."
+  },
+  {
+   "frase": "Elle s'est rendu compte de son erreur.",
+   "traduccion": "Se dio cuenta de su error."
+  },
+  {
+   "frase": "Les deux ministres se sont téléphoné avant la réunion.",
+   "traduccion": "Los dos ministros se llamaron por teléfono antes de la reunión."
+  },
+  {
+   "frase": "Quelles décisions avez-vous prises ?",
+   "traduccion": "¿Qué decisiones habéis tomado?"
+  }
+ ],
+ "errores_hispanohablantes": [
+  {
+   "mal": "Les mesures que nous avons pris sont efficaces.",
+   "bien": "Les mesures que nous avons prises sont efficaces.",
+   "nota": "En español el participio con haber nunca varía; en francés concuerda con el CD antepuesto (que = les mesures)."
+  },
+  {
+   "mal": "Elle est allé à Lyon.",
+   "bien": "Elle est allée à Lyon.",
+   "nota": "Con être el participio concuerda siempre con el sujeto."
+  },
+  {
+   "mal": "Elle s'est lavée les mains.",
+   "bien": "Elle s'est lavé les mains.",
+   "nota": "Si el CD (les mains) va detrás, se es complemento indirecto y no hay concordancia."
+  }
+ ],
+ "ejercicios": [
+  {
+   "id": "e01",
+   "tipo": "hueco",
+   "enunciado": "Completa con el participio de «partir» bien concordado.",
+   "frase": "Mes parents sont ___ en vacances hier.",
+   "respuestas": [
+    "partis"
+   ],
+   "explicacion": "Con être concuerda con el sujeto masculino plural."
+  },
+  {
+   "id": "e02",
+   "tipo": "hueco",
+   "enunciado": "Completa con el participio de «écrire» bien concordado.",
+   "frase": "La lettre que tu as ___ m'a beaucoup touché.",
+   "respuestas": [
+    "écrite"
+   ],
+   "explicacion": "El CD (que = la lettre) va delante: concordancia en femenino singular."
+  },
+  {
+   "id": "e03",
+   "tipo": "hueco",
+   "enunciado": "Completa con el participio de «voir» bien concordado.",
+   "frase": "Ces films, je les ai tous ___ au cinéma.",
+   "respuestas": [
+    "vus"
+   ],
+   "explicacion": "Les (= ces films) es CD antepuesto masculino plural."
+  },
+  {
+   "id": "e04",
+   "tipo": "hueco",
+   "enunciado": "Completa con el participio de «parler» bien concordado.",
+   "frase": "Après la dispute, elles ne se sont plus ___.",
+   "respuestas": [
+    "parlé"
+   ],
+   "explicacion": "Parler à quelqu'un: se es CI, el participio no varía."
+  },
+  {
+   "id": "e05",
+   "tipo": "eleccion",
+   "enunciado": "Elige la forma correcta.",
+   "frase": "Elle s'est ___ très tôt ce matin.",
+   "opciones": [
+    "réveillé",
+    "réveillée",
+    "réveillés"
+   ],
+   "respuestas": [
+    "réveillée"
+   ],
+   "explicacion": "Réveiller quelqu'un: se es CD y concuerda con el sujeto femenino."
+  },
+  {
+   "id": "e06",
+   "tipo": "eleccion",
+   "enunciado": "Elige la forma correcta.",
+   "frase": "Ils ont ___ toute la nuit.",
+   "opciones": [
+    "travaillé",
+    "travaillés",
+    "travaillées"
+   ],
+   "respuestas": [
+    "travaillé"
+   ],
+   "explicacion": "Avoir sin complemento directo: el participio no varía."
+  },
+  {
+   "id": "e07",
+   "tipo": "eleccion",
+   "enunciado": "Elige la forma correcta.",
+   "frase": "Des fraises ? J'en ai ___ un kilo au marché.",
+   "opciones": [
+    "acheté",
+    "achetées",
+    "achetés"
+   ],
+   "respuestas": [
+    "acheté"
+   ],
+   "explicacion": "Con en como CD antepuesto no se hace la concordancia."
+  },
+  {
+   "id": "e08",
+   "tipo": "eleccion",
+   "enunciado": "Elige la forma correcta.",
+   "frase": "Elle s'est ___ les cheveux avant de sortir.",
+   "opciones": [
+    "coupée",
+    "coupé",
+    "coupés"
+   ],
+   "respuestas": [
+    "coupé"
+   ],
+   "explicacion": "El CD les cheveux va detrás; se es CI: invariable."
+  },
+  {
+   "id": "e09",
+   "tipo": "corregir",
+   "enunciado": "Corrige el error de concordancia.",
+   "frase": "Les décisions que le conseil a pris ont surpris tout le monde.",
+   "respuestas": [
+    "Les décisions que le conseil a prises ont surpris tout le monde."
+   ],
+   "explicacion": "Que = les décisions, CD femenino plural antepuesto."
+  },
+  {
+   "id": "e10",
+   "tipo": "corregir",
+   "enunciado": "Corrige el error de concordancia.",
+   "frase": "Ma sœur est né à Séville.",
+   "respuestas": [
+    "Ma sœur est née à Séville."
+   ],
+   "explicacion": "Naître se conjuga con être: concuerda con el sujeto femenino."
+  },
+  {
+   "id": "e11",
+   "tipo": "corregir",
+   "enunciado": "Corrige el error de concordancia.",
+   "frase": "Les présidents se sont succédés à un rythme rapide.",
+   "respuestas": [
+    "Les présidents se sont succédé à un rythme rapide."
+   ],
+   "explicacion": "Succéder à quelqu'un: se es CI, el participio es invariable."
+  },
+  {
+   "id": "e12",
+   "tipo": "transformar",
+   "enunciado": "Sustituye el CD por un pronombre y haz la concordancia.",
+   "frase": "J'ai rangé les assiettes.",
+   "respuestas": [
+    "Je les ai rangées."
+   ],
+   "explicacion": "El pronombre les (= les assiettes, femenino plural) va delante del auxiliar."
+  },
+  {
+   "id": "e13",
+   "tipo": "transformar",
+   "enunciado": "Pasa la frase a femenino singular (sujeto: Elle).",
+   "frase": "Il s'est trompé de route.",
+   "respuestas": [
+    "Elle s'est trompée de route."
+   ],
+   "explicacion": "«Se tromper» (equivocarse) es un verbo pronominal sin CD real: el participio concuerda con el sujeto."
+  },
+  {
+   "id": "e14",
+   "tipo": "ordenar",
+   "enunciado": "Ordena las palabras.",
+   "palabras": [
+    "que",
+    "j'ai",
+    "reçues",
+    "Les",
+    "lettres",
+    "sont",
+    "anciennes"
+   ],
+   "respuestas": [
+    "Les lettres que j'ai reçues sont anciennes"
+   ],
+   "explicacion": "Que retoma les lettres y provoca la concordancia de reçues."
+  }
+ ],
+ "fuente": {
+  "nombre": "propia"
+ }
+}
