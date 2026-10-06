@@ -24,3 +24,11 @@ Datos de **Wiktionary** (Wikcionario en español y Wiktionnaire en francés), ex
 [kaikki.org](https://kaikki.org/) (Tatu Ylonen). Licencia: **CC BY-SA 4.0** y GFDL, autores de Wiktionary.
 Se generan con `main/scripts/idiomas/diccionario.py`; solo se conservan la palabra, su categoría, la pronunciación (AFI),
 las traducciones al español y hasta cinco definiciones en español; en francés, para unas 2.900 palabras frecuentes (vocabulario de FLELex) sin traducción en Wiktionary, hasta tres definiciones en francés, marcadas «(fr)».
+
+## Verbos franceses (`fr/verbos.json`) y fichas de conjugación (`fr/conjugacion/`)
+
+- `fr/verbos.json`: lista de 7.015 verbos y sus 149 modelos de conjugación de **Verbiste** (© 2003-2016 Pierre Sarrazin,
+  <http://sarrazip.com/dev/verbiste.html>), licencia **GNU GPL versión 2 o posterior**, tal como la distribuye mlconjug3.
+  Se ha cambiado el formato (JSON) y se ha corregido el participio de pouvoir («pu», invariable). La frecuencia de cada verbo se ha contado
+  en las frases francesas de Tatoeba (CC BY 2.0 FR). Generado con `main/scripts/idiomas/verbos.py`.
+- `fr/conjugacion/*.json`: fichas de consulta de redacción propia (CC BY-SA 4.0); sus tablas se generaron y comprobaron con Verbiste.
