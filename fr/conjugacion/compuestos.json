@@ -1,114 +1,142 @@
 {
  "id": "fr.v.compuestos",
- "formato": "conjugacion",
- "titulo": "Les temps composés et les périphrases verbales",
- "titulo_es": "Tiempos compuestos y perífrasis verbales",
- "nivel": "A2",
- "cabecera": [
-  "Auxiliar («avoir» o «être») en un tiempo simple + participio pasado: el tiempo del auxiliar decide el tiempo compuesto.",
-  "Casi todos los verbos usan «avoir», también «avoir» y «être» («j'ai eu», «j'ai été»).",
-  "Con «être»: unos veinte verbos de movimiento o cambio de estado y todos los pronominales («je me suis levé»).",
-  "Con «être», el participio concuerda con el sujeto («elle est partie»); con «avoir», solo con el complemento directo que va delante."
- ],
- "modelos": [
+ "formato": "particularidades",
+ "titulo": "Compuestos, doble auxiliar y perífrasis",
+ "titulo_es": "Particularidades",
+ "subpestanas": [
   {
-   "verbo": "parler",
-   "nota": "Con «avoir»: el participio no varía con el sujeto («elle a parlé»)."
-  },
-  {
-   "verbo": "partir",
-   "nota": "Con «être»: el participio concuerda con el sujeto («elle est partie», «ils sont partis»)."
-  }
- ],
- "notas": {
-  "pc": "Auxiliar en presente + participio. Traduce tanto «he hablado» como «hablé».",
-  "pqp": "Auxiliar en imparfait + participio: «j'avais parlé», «j'étais parti».",
-  "pant": "Auxiliar en passé simple + participio; solo literario: «il eut parlé».",
-  "fant": "Auxiliar en futur + participio. Tras «quand» o «dès que» va donde el español pone subjuntivo: «quand j'aurai fini».",
-  "condpasse": "Auxiliar en conditionnel + participio. También da noticias no confirmadas: «le ministre aurait démissionné».",
-  "subjpasse": "Auxiliar en subjonctif présent + participio: «que j'aie parlé», «que je sois parti».",
-  "impepasse": "Auxiliar en imperativo + participio («aie parlé», «sois parti»); poco frecuente.",
-  "fproche": "«aller» en presente + infinitivo, como «ir a»: «je vais partir»; en negación, «je ne vais pas partir»."
- },
- "notas_finales": [
-  "Adverbios cortos entre auxiliar y participio («j'ai bien dormi», «il est déjà parti»); pronombres complemento delante del auxiliar («je l'ai vu», «j'y suis allé»)."
- ],
- "extra": [
-  {
-   "titulo": "Verbos con être",
-   "tipo": "lista",
-   "items": [
-    "aller, venir, arriver, partir, entrer, sortir, monter, descendre, naître (né), mourir (mort), rester, tomber, retourner, rentrer, passer, décéder.",
-    "Sus compuestos: devenir, revenir, repartir, remonter, redescendre…",
-    "Todos los verbos pronominales."
+   "id": "compuestos",
+   "titulo": "Tiempos compuestos",
+   "bloques": [
+    {
+     "tipo": "texto",
+     "titulo": "Qué son",
+     "texto": "Un tiempo compuesto se forma con un auxiliar («avoir» o «être») conjugado en un tiempo simple + el participio pasado del verbo. El tiempo del auxiliar decide qué tiempo compuesto resulta: auxiliar en presente → passé composé; en imparfait → plus-que-parfait, etc. A diferencia del español, que usa siempre «haber», el francés elige entre dos auxiliares: casi todos los verbos van con «avoir» (también «avoir» y «être»: «j'ai eu», «j'ai été»), y unos pocos con «être»."
+    },
+    {
+     "tipo": "tabla",
+     "titulo": "Los ocho tiempos compuestos",
+     "cabecera": ["Tiempo compuesto", "Auxiliar en…", "Con avoir", "Con être", "En español"],
+     "filas": [
+      ["Passé composé", "Présent", "j'ai parlé", "je suis parti(e)", "he hablado / hablé; me he ido / me fui"],
+      ["Plus-que-parfait", "Imparfait", "j'avais parlé", "j'étais parti(e)", "había hablado; me había ido"],
+      ["Passé antérieur (literario)", "Passé simple", "il eut parlé", "il fut parti", "hubo hablado; se hubo ido"],
+      ["Futur antérieur", "Futur simple", "j'aurai parlé", "je serai parti(e)", "habré hablado; me habré ido"],
+      ["Conditionnel passé", "Conditionnel présent", "j'aurais parlé", "je serais parti(e)", "habría hablado; me habría ido"],
+      ["Subjonctif passé", "Subjonctif présent", "que j'aie parlé", "que je sois parti(e)", "que haya hablado; que me haya ido"],
+      ["Subjonctif plus-que-parfait (literario)", "Subjonctif imparfait", "qu'il eût parlé", "qu'il fût parti", "que hubiera hablado; que se hubiera ido"],
+      ["Impératif passé (raro)", "Impératif présent", "aie parlé", "sois parti(e)", "sin equivalente: «aie fini avant midi» = ten terminado antes de mediodía"]
+     ]
+    },
+    {
+     "tipo": "lista",
+     "titulo": "Matices de uso",
+     "items": [
+      "El passé composé traduce tanto el pretérito perfecto como el indefinido del español: «hier, j'ai parlé avec lui» = ayer hablé con él.",
+      "Futur antérieur tras «quand», «dès que», «lorsque», donde el español pone subjuntivo: «quand j'aurai fini» = cuando haya terminado.",
+      "Conditionnel passé también para noticias no confirmadas: «le ministre aurait démissionné» = el ministro habría dimitido.",
+      "Passé antérieur y subjonctif plus-que-parfait solo aparecen en textos literarios: basta con reconocerlos."
+     ]
+    },
+    {
+     "tipo": "lista",
+     "titulo": "Cuándo se usa être",
+     "items": [
+      "Unos veinte verbos intransitivos de movimiento o cambio de estado. Regla mnemotécnica «DR & MRS VANDERTRAMP»: Devenir, Revenir, Monter, Rester, Sortir, Venir, Aller, Naître, Descendre, Entrer, Rentrer, Tomber, Retourner, Arriver, Mourir, Partir.",
+      "Añade «passer» y «décéder», y los compuestos de los anteriores: «repartir», «remonter», «redescendre», «parvenir», «survenir»…",
+      "Participios irregulares de la lista: «né» (naître), «mort» (mourir), «venu» (venir).",
+      "Todos los verbos pronominales: «je me suis levé(e)», «ils se sont trompés».",
+      "Ojo: «disparaître» va con avoir («il a disparu»), aunque «apparaître» va con être («il est apparu»)."
+     ]
+    },
+    {
+     "tipo": "lista",
+     "titulo": "Concordancia del participio",
+     "items": [
+      "Con être, concuerda con el sujeto: «elle est partie», «ils sont venus», «elles sont nées en 2000».",
+      "Con avoir, nunca con el sujeto («elles ont parlé»), pero sí con el complemento directo si va delante: «la lettre que j'ai écrite», «je l'ai écrite», «quelles fleurs as-tu achetées ?».",
+      "Con avoir no concuerda con «en» («des pommes, j'en ai mangé») ni en los impersonales («la chaleur qu'il a fait»).",
+      "Pronominales: concuerdan si el pronombre es complemento directo («elle s'est lavée»), no si es indirecto («elle s'est lavé les mains», «ils se sont parlé»).",
+      "Los que solo existen como pronominales concuerdan siempre con el sujeto: «elle s'est souvenue de tout».",
+      "Orden: adverbios cortos entre auxiliar y participio («il est déjà parti»); pronombres y negación rodean al auxiliar («je ne l'ai pas vu»)."
+     ]
+    }
    ]
   },
   {
-   "titulo": "Verbos de doble auxiliar",
-   "tipo": "tabla",
-   "cabecera": [
-    "Verbo",
-    "Sin complemento directo: être",
-    "Con complemento directo: avoir"
-   ],
-   "filas": [
-    [
-     "monter",
-     "Elle est montée au premier étage.",
-     "Elle a monté les valises."
-    ],
-    [
-     "descendre",
-     "Nous sommes descendus du train.",
-     "Nous avons descendu l'escalier."
-    ],
-    [
-     "sortir",
-     "Il est sorti ce soir.",
-     "Il a sorti le chien."
-    ],
-    [
-     "rentrer",
-     "Je suis rentré tard.",
-     "J'ai rentré la voiture."
-    ],
-    [
-     "retourner",
-     "Elle est retournée à Paris.",
-     "Elle a retourné la crêpe."
-    ],
-    [
-     "passer",
-     "Ils sont passés par Lyon.",
-     "Ils ont passé un examen."
-    ]
+   "id": "doble",
+   "titulo": "Doble auxiliar",
+   "bloques": [
+    {
+     "tipo": "texto",
+     "titulo": "Qué significa",
+     "texto": "Seis verbos de la lista de être («monter», «descendre», «sortir», «rentrer», «passer», «retourner») pueden usarse también como transitivos. Sin complemento directo llevan «être» y tienen su sentido de movimiento (subir, bajar, salir…); con complemento directo llevan «avoir» y el sentido cambia (subir algo, sacar algo, pasar un tiempo…). La pregunta clave es: ¿hay complemento directo?"
+    },
+    {
+     "tipo": "tabla",
+     "titulo": "Los seis verbos",
+     "cabecera": ["Verbo", "Con être (sin CD)", "Con avoir (+ CD)"],
+     "filas": [
+      ["monter", "«Elle est montée au grenier.» Subió al desván.", "«Elle a monté les valises.» Subió las maletas."],
+      ["descendre", "«Nous sommes descendus du train.» Bajamos del tren.", "«Nous avons descendu l'escalier.» Bajamos la escalera."],
+      ["sortir", "«Il est sorti ce soir.» Ha salido esta noche.", "«Il a sorti le chien.» Ha sacado al perro."],
+      ["rentrer", "«Je suis rentré tard.» Volví tarde a casa.", "«J'ai rentré la voiture.» Metí el coche (en el garaje)."],
+      ["passer", "«Ils sont passés par Lyon.» Pasaron por Lyon.", "«Ils ont passé une semaine à Lyon.» Pasaron una semana en Lyon."],
+      ["retourner", "«Elle est retournée à Paris.» Volvió a París.", "«Elle a retourné la crêpe.» Le dio la vuelta a la crepe."]
+     ]
+    },
+    {
+     "tipo": "lista",
+     "titulo": "Concordancia en cada caso",
+     "items": [
+      "Con être, el participio concuerda con el sujeto: «elle est montée», «nous sommes descendus».",
+      "Con avoir, no concuerda con el sujeto («elle a monté les valises»), salvo que el complemento directo vaya delante: «les valises, elle les a montées»."
+     ]
+    },
+    {
+     "tipo": "lista",
+     "titulo": "Otros casos",
+     "items": [
+      "«demeurer»: con être = quedarse, permanecer («il est demeuré silencieux»); con avoir = residir («il a demeuré à Lyon»).",
+      "«passer» con être también significa pasar a ver a alguien: «je suis passé chez toi» = me pasé por tu casa."
+     ]
+    }
    ]
   },
   {
-   "titulo": "Concordancia del participio",
-   "tipo": "lista",
-   "items": [
-    "Con être, con el sujeto: «elle est partie», «nous sommes venues».",
-    "Con avoir, nunca con el sujeto; sí con el complemento directo antepuesto: «la lettre que j'ai écrite», «je l'ai écrite».",
-    "Sin concordancia con «en» («des pommes, j'en ai mangé»), en los impersonales y con «fait» + infinitivo («elle s'est fait couper les cheveux»)."
-   ]
-  },
-  {
-   "titulo": "Pronominales",
-   "tipo": "lista",
-   "items": [
-    "Siempre con être y con el pronombre delante del auxiliar: «je me suis levé», «je ne me suis pas levé».",
-    "Concuerdan con el sujeto si el reflexivo es complemento directo («elle s'est lavée»), no si es indirecto («elle s'est lavé les mains», «ils se sont parlé»).",
-    "Los que solo existen como pronominales concuerdan siempre: «elle s'est souvenue de tout»."
-   ]
-  },
-  {
-   "titulo": "Passé récent y otras perífrasis",
-   "tipo": "lista",
-   "items": [
-    "Passé récent: «venir de» + infinitivo = «acabar de»: «je viens de partir», «il vient d'arriver».",
-    "«être en train de» + infinitivo = «estar + gerundio»: «je suis en train de travailler».",
-    "«être sur le point de» + infinitivo = «estar a punto de»."
+   "id": "perifrasis",
+   "titulo": "Perífrasis verbales",
+   "bloques": [
+    {
+     "tipo": "texto",
+     "titulo": "Qué son",
+     "texto": "Una perífrasis es un verbo auxiliar conjugado + un infinitivo, que juntos expresan un matiz de tiempo (algo inminente o recién ocurrido) o de aspecto (algo en curso, que empieza o termina). No son tiempos verbales: solo se conjuga el primer verbo y el infinitivo no cambia."
+    },
+    {
+     "tipo": "tabla",
+     "cabecera": ["Perífrasis", "Forma", "Significado", "Ejemplo", "En español"],
+     "filas": [
+      ["Futur proche", "aller (présent) + inf.", "Futuro inmediato o intención", "«Je vais partir.»", "Voy a irme."],
+      ["Passé récent", "venir de (présent) + inf.", "Pasado inmediato", "«Il vient d'arriver.»", "Acaba de llegar."],
+      ["Futur proche en el pasado", "aller (imparfait) + inf.", "Algo que iba a pasar", "«J'allais sortir quand il a appelé.»", "Iba a salir cuando llamó."],
+      ["Passé récent en el pasado", "venir de (imparfait) + inf.", "Algo que acababa de pasar", "«Il venait de partir.»", "Acababa de irse."],
+      ["Acción en curso", "être en train de + inf.", "Acción que se está haciendo", "«Elle est en train de lire.»", "Está leyendo."],
+      ["Inminencia", "être sur le point de + inf.", "Acción a punto de ocurrir", "«Le train est sur le point de partir.»", "El tren está a punto de salir."],
+      ["Comienzo", "se mettre à + inf.", "Empezar algo, a menudo de repente", "«Il s'est mis à pleuvoir.»", "Se puso a llover."],
+      ["Comienzo y final", "commencer à / finir de + inf.", "Empezar / terminar algo", "«J'ai commencé à lire.» «J'ai fini de lire.»", "Empecé a leer. Terminé de leer."]
+     ]
+    },
+    {
+     "tipo": "lista",
+     "titulo": "Notas",
+     "items": [
+      "«de» se apostrofa ante vocal o h muda: «il vient d'arriver», «je suis en train d'écrire».",
+      "Los pronombres van delante del infinitivo, no del auxiliar: «je vais le faire», «il vient de me le dire».",
+      "La negación rodea al verbo conjugado: «je ne vais pas le faire».",
+      "No confundir «venir de» + inf. (acabar de) con «venir» + inf. (venir a): «il vient manger» = viene a comer.",
+      "Futur proche o futur simple: el futur proche presenta algo cercano, decidido o ya visible («attention, tu vas tomber»), y es lo habitual al hablar; el futur simple, algo más lejano, previsiones y promesas, y es más propio del registro escrito («un jour, je partirai»)."
+     ]
+    }
    ]
   }
  ]
