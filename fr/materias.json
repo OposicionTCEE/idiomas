@@ -281,7 +281,7 @@
   {
    "id": "fr.g.adjetivos-posicion",
    "bloque": "gramatica",
-   "nivel": "A2",
+   "nivel": "A1",
    "titulo": "Posición del adjetivo",
    "descripcion": "Antes o después del nombre; cambio de sentido (un grand homme / un homme grand).",
    "fuente": {
@@ -296,7 +296,7 @@
   {
    "id": "fr.g.passe-recent",
    "bloque": "gramatica",
-   "nivel": "A2",
+   "nivel": "A1",
    "titulo": "Pasado reciente",
    "descripcion": "venir de + infinitivo.",
    "fuente": {
@@ -310,7 +310,7 @@
   {
    "id": "fr.g.imperativo",
    "bloque": "gramatica",
-   "nivel": "A2",
+   "nivel": "A1",
    "titulo": "Imperativo",
    "descripcion": "Formas, irregulares y con pronombres.",
    "fuente": {
@@ -324,7 +324,7 @@
   {
    "id": "fr.g.pronominales",
    "bloque": "gramatica",
-   "nivel": "A2",
+   "nivel": "A1",
    "titulo": "Verbos pronominales",
    "descripcion": "se lever, s'appeler; reflexivos y recíprocos.",
    "fuente": {
@@ -338,7 +338,7 @@
   {
    "id": "fr.g.passe-compose-avoir",
    "bloque": "gramatica",
-   "nivel": "A2",
+   "nivel": "A1",
    "titulo": "Passé composé con avoir",
    "descripcion": "Formación y participios irregulares.",
    "fuente": {
@@ -352,13 +352,72 @@
   {
    "id": "fr.g.passe-compose-etre",
    "bloque": "gramatica",
-   "nivel": "A2",
+   "nivel": "A1",
    "titulo": "Passé composé con être",
    "descripcion": "Verbos de movimiento y concordancia básica.",
    "fuente": {
     "nombre": "Tex's French Grammar",
     "paginas": [
      "tap3"
+    ]
+   },
+   "fase": 1
+  },
+  {
+   "id": "fr.g.pronombres-tonicos",
+   "bloque": "gramatica",
+   "nivel": "A1",
+   "titulo": "Pronombres tónicos",
+   "descripcion": "moi, toi, lui, elle… después de preposición y para insistir.",
+   "fuente": {
+    "nombre": "Tex's French Grammar",
+    "paginas": [
+     "pro4"
+    ]
+   },
+   "fase": 1
+  },
+  {
+   "id": "fr.g.cantidad",
+   "bloque": "gramatica",
+   "nivel": "A1",
+   "titulo": "Expresiones de cantidad",
+   "descripcion": "beaucoup de, peu de, assez de, trop de…",
+   "fuente": {
+    "nombre": "Tex's French Grammar",
+    "paginas": [
+     "det8"
+    ]
+   },
+   "fase": 1
+  },
+  {
+   "id": "fr.g.modales",
+   "bloque": "gramatica",
+   "nivel": "A1",
+   "titulo": "Verbos modales",
+   "descripcion": "pouvoir, vouloir, devoir.",
+   "fuente": {
+    "nombre": "Tex's French Grammar",
+    "paginas": [
+     "vm1"
+    ]
+   },
+   "fase": 1
+  },
+  {
+   "id": "fr.g.depuis",
+   "bloque": "gramatica",
+   "nivel": "A1",
+   "titulo": "Depuis, il y a, pendant, pour",
+   "descripcion": "Expresar duración y momento.",
+   "fuente": {
+    "nombre": "Tex's French Grammar",
+    "paginas": [
+     "pred1",
+     "pred2",
+     "prep1",
+     "adv5"
     ]
    },
    "fase": 1
@@ -390,20 +449,6 @@
     "paginas": [
      "pro5",
      "pro8"
-    ]
-   },
-   "fase": 1
-  },
-  {
-   "id": "fr.g.pronombres-tonicos",
-   "bloque": "gramatica",
-   "nivel": "A2",
-   "titulo": "Pronombres tónicos",
-   "descripcion": "moi, toi, lui, elle… después de preposición y para insistir.",
-   "fuente": {
-    "nombre": "Tex's French Grammar",
-    "paginas": [
-     "pro4"
     ]
    },
    "fase": 1
@@ -470,34 +515,6 @@
    "fase": 1
   },
   {
-   "id": "fr.g.cantidad",
-   "bloque": "gramatica",
-   "nivel": "A2",
-   "titulo": "Expresiones de cantidad",
-   "descripcion": "beaucoup de, peu de, assez de, trop de…",
-   "fuente": {
-    "nombre": "Tex's French Grammar",
-    "paginas": [
-     "det8"
-    ]
-   },
-   "fase": 1
-  },
-  {
-   "id": "fr.g.modales",
-   "bloque": "gramatica",
-   "nivel": "A2",
-   "titulo": "Verbos modales",
-   "descripcion": "pouvoir, vouloir, devoir.",
-   "fuente": {
-    "nombre": "Tex's French Grammar",
-    "paginas": [
-     "vm1"
-    ]
-   },
-   "fase": 1
-  },
-  {
    "id": "fr.g.savoir-connaitre",
    "bloque": "gramatica",
    "nivel": "A2",
@@ -541,23 +558,6 @@
    "fase": 1
   },
   {
-   "id": "fr.g.depuis",
-   "bloque": "gramatica",
-   "nivel": "A2",
-   "titulo": "Depuis, il y a, pendant, pour",
-   "descripcion": "Expresar duración y momento.",
-   "fuente": {
-    "nombre": "Tex's French Grammar",
-    "paginas": [
-     "pred1",
-     "pred2",
-     "prep1",
-     "adv5"
-    ]
-   },
-   "fase": 1
-  },
-  {
    "id": "fr.g.relativos-qui-que",
    "bloque": "gramatica",
    "nivel": "A2",
@@ -588,23 +588,9 @@
    "fase": 1
   },
   {
-   "id": "fr.g.pc-pronominales",
-   "bloque": "gramatica",
-   "nivel": "B1",
-   "titulo": "Passé composé de los pronominales",
-   "descripcion": "Con être y concordancia.",
-   "fuente": {
-    "nombre": "Tex's French Grammar",
-    "paginas": [
-     "tap4"
-    ]
-   },
-   "fase": 1
-  },
-  {
    "id": "fr.g.pc-vs-imparfait",
    "bloque": "gramatica",
-   "nivel": "B1",
+   "nivel": "A2",
    "titulo": "Passé composé o imparfait",
    "descripcion": "Cómo contar en pasado.",
    "fuente": {
@@ -618,7 +604,7 @@
   {
    "id": "fr.g.y-en",
    "bloque": "gramatica",
-   "nivel": "B1",
+   "nivel": "A2",
    "titulo": "Pronombres y y en",
    "descripcion": "Sustituir lugares, cosas y cantidades.",
    "fuente": {
@@ -626,6 +612,62 @@
     "paginas": [
      "pro6",
      "pro7"
+    ]
+   },
+   "fase": 1
+  },
+  {
+   "id": "fr.g.tout",
+   "bloque": "gramatica",
+   "nivel": "A2",
+   "titulo": "Tout, toute, tous, toutes",
+   "descripcion": "Determinante, pronombre y adverbio.",
+   "fuente": {
+    "nombre": "Tex's French Grammar",
+    "paginas": [
+     "det9"
+    ]
+   },
+   "fase": 1
+  },
+  {
+   "id": "fr.g.demostrativos-pron",
+   "bloque": "gramatica",
+   "nivel": "A2",
+   "titulo": "Pronombres demostrativos",
+   "descripcion": "celui, celle, ceux, celles (-ci, -là, de, qui).",
+   "fuente": {
+    "nombre": "Tex's French Grammar",
+    "paginas": [
+     "pro11"
+    ]
+   },
+   "fase": 1
+  },
+  {
+   "id": "fr.g.posesivos-pron",
+   "bloque": "gramatica",
+   "nivel": "A2",
+   "titulo": "Pronombres posesivos",
+   "descripcion": "le mien, la tienne, les leurs…",
+   "fuente": {
+    "nombre": "Tex's French Grammar",
+    "paginas": [
+     "pro12"
+    ]
+   },
+   "fase": 1
+  },
+  {
+   "id": "fr.g.pc-pronominales",
+   "bloque": "gramatica",
+   "nivel": "B1",
+   "titulo": "Passé composé de los pronominales",
+   "descripcion": "Con être y concordancia.",
+   "fuente": {
+    "nombre": "Tex's French Grammar",
+    "paginas": [
+     "tap4"
     ]
    },
    "fase": 1
@@ -656,20 +698,6 @@
      "neg3",
      "neg4",
      "neg5"
-    ]
-   },
-   "fase": 1
-  },
-  {
-   "id": "fr.g.tout",
-   "bloque": "gramatica",
-   "nivel": "B1",
-   "titulo": "Tout, toute, tous, toutes",
-   "descripcion": "Determinante, pronombre y adverbio.",
-   "fuente": {
-    "nombre": "Tex's French Grammar",
-    "paginas": [
-     "det9"
     ]
    },
    "fase": 1
@@ -713,34 +741,6 @@
     "nombre": "Tex's French Grammar",
     "paginas": [
      "pror3"
-    ]
-   },
-   "fase": 1
-  },
-  {
-   "id": "fr.g.demostrativos-pron",
-   "bloque": "gramatica",
-   "nivel": "B1",
-   "titulo": "Pronombres demostrativos",
-   "descripcion": "celui, celle, ceux, celles (-ci, -là, de, qui).",
-   "fuente": {
-    "nombre": "Tex's French Grammar",
-    "paginas": [
-     "pro11"
-    ]
-   },
-   "fase": 1
-  },
-  {
-   "id": "fr.g.posesivos-pron",
-   "bloque": "gramatica",
-   "nivel": "B1",
-   "titulo": "Pronombres posesivos",
-   "descripcion": "le mien, la tienne, les leurs…",
-   "fuente": {
-    "nombre": "Tex's French Grammar",
-    "paginas": [
-     "pro12"
     ]
    },
    "fase": 1
@@ -936,6 +936,53 @@
    "fase": 1
   },
   {
+   "id": "fr.g.pasiva",
+   "bloque": "gramatica",
+   "nivel": "B1",
+   "titulo": "Voz pasiva y sus alternativas",
+   "descripcion": "être + participio; on; se faire; verbos pronominales con sentido pasivo.",
+   "fuente": {
+    "nombre": "Tex's French Grammar",
+    "paginas": [
+     "tav1"
+    ]
+   },
+   "fase": 1
+  },
+  {
+   "id": "fr.g.mise-en-relief",
+   "bloque": "gramatica",
+   "nivel": "B1",
+   "titulo": "Puesta de relieve",
+   "descripcion": "c'est… qui/que, ce qui… c'est, dislocación.",
+   "fuente": {
+    "nombre": "propia"
+   },
+   "fase": 1
+  },
+  {
+   "id": "fr.g.nominalizacion",
+   "bloque": "gramatica",
+   "nivel": "B1",
+   "titulo": "Nominalización",
+   "descripcion": "De verbo a nombre: la hausse, la mise en place… (registro escrito y de prensa).",
+   "fuente": {
+    "nombre": "propia"
+   },
+   "fase": 1
+  },
+  {
+   "id": "fr.g.concesion",
+   "bloque": "gramatica",
+   "nivel": "B1",
+   "titulo": "Concesión y oposición",
+   "descripcion": "quoique, si… que, avoir beau, tout… que, quand bien même.",
+   "fuente": {
+    "nombre": "propia"
+   },
+   "fase": 1
+  },
+  {
    "id": "fr.g.estilo-indirecto-pasado",
    "bloque": "gramatica",
    "nivel": "B2",
@@ -1020,20 +1067,6 @@
    "fase": 1
   },
   {
-   "id": "fr.g.pasiva",
-   "bloque": "gramatica",
-   "nivel": "B2",
-   "titulo": "Voz pasiva y sus alternativas",
-   "descripcion": "être + participio; on; se faire; verbos pronominales con sentido pasivo.",
-   "fuente": {
-    "nombre": "Tex's French Grammar",
-    "paginas": [
-     "tav1"
-    ]
-   },
-   "fase": 1
-  },
-  {
    "id": "fr.g.faire-causativo",
    "bloque": "gramatica",
    "nivel": "B2",
@@ -1070,22 +1103,22 @@
    "fase": 1
   },
   {
-   "id": "fr.g.mise-en-relief",
+   "id": "fr.g.hipotesis-avanzada",
    "bloque": "gramatica",
    "nivel": "B2",
-   "titulo": "Puesta de relieve",
-   "descripcion": "c'est… qui/que, ce qui… c'est, dislocación.",
+   "titulo": "Hipótesis sin si",
+   "descripcion": "au cas où, pour peu que, à supposer que, à condition que.",
    "fuente": {
     "nombre": "propia"
    },
    "fase": 1
   },
   {
-   "id": "fr.g.nominalizacion",
+   "id": "fr.g.ne-expletivo",
    "bloque": "gramatica",
    "nivel": "B2",
-   "titulo": "Nominalización",
-   "descripcion": "De verbo a nombre: la hausse, la mise en place… (registro escrito y de prensa).",
+   "titulo": "Ne expletivo",
+   "descripcion": "avant qu'il ne parte, de peur qu'il ne…",
    "fuente": {
     "nombre": "propia"
    },
@@ -1131,28 +1164,6 @@
    "fase": 1
   },
   {
-   "id": "fr.g.concesion",
-   "bloque": "gramatica",
-   "nivel": "C1",
-   "titulo": "Concesión y oposición",
-   "descripcion": "quoique, si… que, avoir beau, tout… que, quand bien même.",
-   "fuente": {
-    "nombre": "propia"
-   },
-   "fase": 1
-  },
-  {
-   "id": "fr.g.hipotesis-avanzada",
-   "bloque": "gramatica",
-   "nivel": "C1",
-   "titulo": "Hipótesis sin si",
-   "descripcion": "au cas où, pour peu que, à supposer que, à condition que.",
-   "fuente": {
-    "nombre": "propia"
-   },
-   "fase": 1
-  },
-  {
    "id": "fr.g.modalizacion",
    "bloque": "gramatica",
    "nivel": "C1",
@@ -1169,17 +1180,6 @@
    "nivel": "C1",
    "titulo": "Inversión del sujeto en registro culto",
    "descripcion": "À peine…, Sans doute…, Peut-être…, Ainsi…",
-   "fuente": {
-    "nombre": "propia"
-   },
-   "fase": 1
-  },
-  {
-   "id": "fr.g.ne-expletivo",
-   "bloque": "gramatica",
-   "nivel": "C1",
-   "titulo": "Ne expletivo",
-   "descripcion": "avant qu'il ne parte, de peur qu'il ne…",
    "fuente": {
     "nombre": "propia"
    },
@@ -1287,7 +1287,7 @@
   {
    "id": "fr.l.trabajo-estudios",
    "bloque": "lexico",
-   "nivel": "A2",
+   "nivel": "A1",
    "titulo": "Trabajo y estudios",
    "descripcion": "Profesiones, tareas, formación.",
    "fuente": {
@@ -1298,9 +1298,31 @@
   {
    "id": "fr.l.viajes",
    "bloque": "lexico",
-   "nivel": "A2",
+   "nivel": "A1",
    "titulo": "Viajes y alojamiento",
    "descripcion": "Reservas, aeropuerto, hotel, incidencias.",
+   "fuente": {
+    "nombre": "propia"
+   },
+   "fase": 1
+  },
+  {
+   "id": "fr.l.clima",
+   "bloque": "lexico",
+   "nivel": "A1",
+   "titulo": "Tiempo y clima",
+   "descripcion": "El tiempo que hace y las estaciones.",
+   "fuente": {
+    "nombre": "propia"
+   },
+   "fase": 1
+  },
+  {
+   "id": "fr.l.gustos",
+   "bloque": "lexico",
+   "nivel": "A1",
+   "titulo": "Gustos y opiniones sencillas",
+   "descripcion": "Me gusta, prefiero, pienso que…",
    "fuente": {
     "nombre": "propia"
    },
@@ -1329,22 +1351,22 @@
    "fase": 1
   },
   {
-   "id": "fr.l.clima",
+   "id": "fr.l.opinar",
    "bloque": "lexico",
    "nivel": "A2",
-   "titulo": "Tiempo y clima",
-   "descripcion": "El tiempo que hace y las estaciones.",
+   "titulo": "Opinar, acordar y discrepar",
+   "descripcion": "Fórmulas para dar y rebatir opiniones.",
    "fuente": {
     "nombre": "propia"
    },
    "fase": 1
   },
   {
-   "id": "fr.l.gustos",
+   "id": "fr.l.narrar",
    "bloque": "lexico",
    "nivel": "A2",
-   "titulo": "Gustos y opiniones sencillas",
-   "descripcion": "Me gusta, prefiero, pienso que…",
+   "titulo": "Contar experiencias",
+   "descripcion": "Marcadores temporales y de secuencia.",
    "fuente": {
     "nombre": "propia"
    },
@@ -1362,17 +1384,6 @@
    "fase": 1
   },
   {
-   "id": "fr.l.medio-ambiente",
-   "bloque": "lexico",
-   "nivel": "B1",
-   "titulo": "Medio ambiente",
-   "descripcion": "Contaminación, energía, cambio climático.",
-   "fuente": {
-    "nombre": "propia"
-   },
-   "fase": 1
-  },
-  {
    "id": "fr.l.conectores-1",
    "bloque": "lexico",
    "nivel": "B1",
@@ -1384,33 +1395,33 @@
    "fase": 1
   },
   {
-   "id": "fr.l.opinar",
-   "bloque": "lexico",
-   "nivel": "B1",
-   "titulo": "Opinar, acordar y discrepar",
-   "descripcion": "Fórmulas para dar y rebatir opiniones.",
-   "fuente": {
-    "nombre": "propia"
-   },
-   "fase": 1
-  },
-  {
-   "id": "fr.l.narrar",
-   "bloque": "lexico",
-   "nivel": "B1",
-   "titulo": "Contar experiencias",
-   "descripcion": "Marcadores temporales y de secuencia.",
-   "fuente": {
-    "nombre": "propia"
-   },
-   "fase": 1
-  },
-  {
    "id": "fr.l.sociedad",
    "bloque": "lexico",
    "nivel": "B1",
    "titulo": "Sociedad y convivencia",
    "descripcion": "Igualdad, migración, educación, vivienda.",
+   "fuente": {
+    "nombre": "propia"
+   },
+   "fase": 1
+  },
+  {
+   "id": "fr.l.cultura",
+   "bloque": "lexico",
+   "nivel": "B1",
+   "titulo": "Cultura y artes",
+   "descripcion": "Literatura, cine, patrimonio.",
+   "fuente": {
+    "nombre": "propia"
+   },
+   "fase": 1
+  },
+  {
+   "id": "fr.l.medio-ambiente",
+   "bloque": "lexico",
+   "nivel": "B2",
+   "titulo": "Medio ambiente",
+   "descripcion": "Contaminación, energía, cambio climático.",
    "fuente": {
     "nombre": "propia"
    },
@@ -1527,6 +1538,17 @@
    "fase": 1
   },
   {
+   "id": "fr.l.debate",
+   "bloque": "lexico",
+   "nivel": "B2",
+   "titulo": "Debatir y responder preguntas",
+   "descripcion": "Pedir aclaraciones, matizar, concluir.",
+   "fuente": {
+    "nombre": "propia"
+   },
+   "fase": 1
+  },
+  {
    "id": "fr.l.prensa-idiomatica",
    "bloque": "lexico",
    "nivel": "C1",
@@ -1571,33 +1593,11 @@
    "fase": 1
   },
   {
-   "id": "fr.l.debate",
-   "bloque": "lexico",
-   "nivel": "C1",
-   "titulo": "Debatir y responder preguntas",
-   "descripcion": "Pedir aclaraciones, matizar, concluir.",
-   "fuente": {
-    "nombre": "propia"
-   },
-   "fase": 1
-  },
-  {
    "id": "fr.l.derecho-justicia",
    "bloque": "lexico",
    "nivel": "C1",
    "titulo": "Derecho y justicia",
    "descripcion": "Leyes, tribunales, derechos.",
-   "fuente": {
-    "nombre": "propia"
-   },
-   "fase": 1
-  },
-  {
-   "id": "fr.l.cultura",
-   "bloque": "lexico",
-   "nivel": "C1",
-   "titulo": "Cultura y artes",
-   "descripcion": "Literatura, cine, patrimonio.",
    "fuente": {
     "nombre": "propia"
    },
