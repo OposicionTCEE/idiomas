@@ -17,3 +17,10 @@ Uso no comercial, para preparar la oposición.
 Redacción propia (CC BY-SA 4.0). En inglés, el campo `oficial` cita el rótulo de la materia en el *Core Inventory for General English*
 (British Council–EAQUALS, 2010/2015) y, en francés, el del *Inventaire linguistique des contenus clés des niveaux du CECRL*
 (Eaquals–CIEP, 2015), solo como referencia de índice; no se copia ningún otro texto de esas obras.
+
+## Diccionarios bilingües (`fr/diccionario.json`, `en/diccionario.json`)
+
+Datos de **Wiktionary** (Wikcionario en español y Wiktionnaire en francés), extraídos con *wiktextract* y publicados por
+[kaikki.org](https://kaikki.org/) (Tatu Ylonen). Licencia: **CC BY-SA 4.0** y GFDL, autores de Wiktionary.
+Se generan con `main/scripts/idiomas/diccionario.py`; solo se conservan la palabra, su categoría, la pronunciación (AFI),
+las traducciones al español y hasta cinco definiciones en español.
