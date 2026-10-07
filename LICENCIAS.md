@@ -32,3 +32,21 @@ las traducciones al español y hasta cinco definiciones en español; en francés
   Se ha cambiado el formato (JSON) y se ha corregido el participio de pouvoir («pu», invariable). La frecuencia de cada verbo se ha contado
   en las frases francesas de Tatoeba (CC BY 2.0 FR). Generado con `main/scripts/idiomas/verbos.py`.
 - `fr/conjugacion/*.json`: fichas de consulta de redacción propia (CC BY-SA 4.0); sus tablas se generaron y comprobaron con Verbiste.
+
+## Biblioteca de textos (`*/textos/`, `*/textos.json`)
+
+Cada texto lleva su fuente, URL, autoría y licencia en el campo `fuente`. Los textos se han recortado por párrafos sin cambiar las frases.
+
+| Fuente | Licencia |
+|---|---|
+| Wikipedia (inglés y francés), Simple English Wikipedia — colaboradores de cada artículo (ver `fuente.url`, historial del artículo) | CC BY-SA 4.0 |
+| Vikidia — colaboradores de Vikidia | CC BY-SA 3.0 |
+| Wikinews (inglés y francés) — colaboradores de Wikinews | CC BY 2.5 |
+| VOA Learning English (Voice of America, gobierno de EE. UU.); el audio se enlaza, no se copia | Dominio público |
+| Artículos `prensa-*`: escritos para el panel por Claude (Anthropic); datos aproximados, no citables | CC0 |
+
+El material de cada texto (ideas clave, resumen modelo, preguntas, preguntas de tribunal y glosario) es de elaboración propia (CC BY-SA 4.0).
+
+## Escritura, tribunal y expresiones (`*/escritura.json`, `*/tribunal.json`, `*/expresiones.json`)
+
+Elaboración propia para el Panel TCEE (CC BY-SA 4.0).

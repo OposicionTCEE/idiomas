@@ -11,3 +11,9 @@ Diseño, formato y reglas: `main/IDIOMAS.md`. Programas que fabrican este paquet
 ```
 
 Atribuciones y licencias: `LICENCIAS.md`.
+
+## Fases 2–3 (7/10/2026)
+
+- `<l>/textos.json` y `<l>/textos/`: biblioteca para leer y resumir, escuchar y resumir, preguntas, dictado, exposición y tribunal
+  (generada con `main/scripts/idiomas/textos.py`; reglas en `main/IDIOMAS.md`, «Fases 2–3»).
+- `<l>/escritura.json`: tareas de expresión escrita. `<l>/tribunal.json`: preguntas generales del tribunal. `<l>/expresiones.json`: banco de expresiones por función.
