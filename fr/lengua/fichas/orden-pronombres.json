@@ -1,0 +1,537 @@
+{
+ "id": "fr.g.orden-pronombres",
+ "titulo": "La double pronominalisation (place des COD et COI)",
+ "titulo_es": "Ordre des pronoms compléments (je le lui donne)",
+ "descripcion_es": "Deux pronoms ensemble : me le, le lui, lui en ; et l'ordre à l'impératif (donne-le-moi).",
+ "nivel": "B1",
+ "resumen": "Quand il y a deux pronoms compléments, le français suit un ordre fixe : me/te/se/nous/vous, puis le/la/les, puis lui/leur, puis y, puis en. À l'impératif affirmatif, ils se placent après le verbe : d'abord le direct, puis l'indirect.",
+ "explicacion": [
+  {
+   "tipo": "tabla",
+   "cabecera": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "5"
+   ],
+   "filas": [
+    [
+     "me, te, se, nous, vous",
+     "le, la, les",
+     "lui, leur",
+     "y",
+     "en"
+    ]
+   ]
+  },
+  {
+   "tipo": "texto",
+   "texto": "Devant le verbe, on prend un pronom par colonne, toujours de gauche à droite : Fiona me le donne, Fiona le lui donne, Je leur en offre, Il y en a. Attention à la troisième personne : le direct vient en premier (le lui, la leur), exactement à l'inverse de l'espagnol, où de plus « le » devient « se » : Je le lui donne = « Se lo doy »."
+  },
+  {
+   "tipo": "lista",
+   "items": [
+    "Avec un infinitif, les pronoms se placent devant l'infinitif : Je dois le lui donner. Tu peux me le dire ?",
+    "Aux temps composés, devant l'auxiliaire : Je le lui ai acheté.",
+    "À la forme négative, entre ne et le verbe (ou l'auxiliaire) : Je ne te le dirai pas. Pourquoi est-ce qu'elle ne nous en a pas donné ?",
+    "À l'impératif négatif, on garde l'ordre normal : Ne me le donne pas ! Ne le lui dis pas !"
+   ]
+  },
+  {
+   "tipo": "tabla",
+   "cabecera": [
+    "Impératif affirmatif",
+    "Ordre",
+    "Exemple"
+   ],
+   "filas": [
+    [
+     "verbe + direct + indirect",
+     "le/la/les avant moi, toi, lui, nous, vous, leur",
+     "Donne-le-moi ! Montre-la-leur !"
+    ],
+    [
+     "y et en toujours à la fin",
+     "moi et toi deviennent m', t' devant en",
+     "Donne-m'en ! Donnez-nous-en !"
+    ]
+   ]
+  }
+ ],
+ "ejemplos": [
+  {
+   "frase": "Je le lui donne.",
+   "traduccion": "Se lo doy."
+  },
+  {
+   "frase": "Tu peux me le donner ?",
+   "traduccion": "¿Me lo puedes dar?"
+  },
+  {
+   "frase": "Je ne te le dirai pas.",
+   "traduccion": "No te lo diré."
+  },
+  {
+   "frase": "Je le lui ai acheté.",
+   "traduccion": "Se lo compré."
+  },
+  {
+   "frase": "Ton parfum ? Donne-le-moi !",
+   "traduccion": "¿Tu perfume? ¡Dámelo!"
+  },
+  {
+   "frase": "Il ne m'en reste qu'un.",
+   "traduccion": "Solo me queda uno."
+  }
+ ],
+ "errores_hispanohablantes": [
+  {
+   "mal": "Je lui le donne.",
+   "bien": "Je le lui donne.",
+   "nota": "À la troisième personne, le direct se place avant l'indirect (à l'inverse de l'espagnol « se lo »)."
+  },
+  {
+   "mal": "Donne-moi-le !",
+   "bien": "Donne-le-moi !",
+   "nota": "À l'impératif affirmatif, le direct vient en premier : donne-le-moi."
+  },
+  {
+   "mal": "Je vais le te donner.",
+   "bien": "Je vais te le donner.",
+   "nota": "Me, te, nous, vous se placent toujours avant le, la, les."
+  }
+ ],
+ "ejercicios": [
+  {
+   "id": "e01",
+   "tipo": "hueco",
+   "enunciado": "Complétez avec les deux pronoms (le livre, à Paul).",
+   "frase": "Je ___ donne.",
+   "respuestas": [
+    "le lui"
+   ],
+   "explicacion": "On applique le tableau des colonnes de la fiche : le (colonne 2, direct) se place avant lui (colonne 3, indirect de troisième personne). L'énoncé indique ce que remplace chacun : le livre est masculin et direct, le ; à Paul est indirect, lui. Remarquez que le français ne transforme pas lui en « se » comme l'espagnol : Je le lui donne équivaut à « se lo doy ». Les deux pronoms se placent ensemble devant le verbe conjugué.",
+   "origen": "tatoeba:6173138",
+   "explicacion_breve": "Direct (le) avant l'indirect de troisième personne (lui).",
+   "traduccion": "Se lo doy (el libro, a Paul).",
+   "errores_previstos": [
+    {
+     "respuesta": "lui le",
+     "explicacion": "Calque de l'ordre espagnol « se lo » (indirect + direct) : à la troisième personne, le français met d'abord le direct, le lui."
+    },
+    {
+     "respuesta": "se le",
+     "explicacion": "Calque de « se lo » : cette transformation n'existe pas en français ; l'indirect reste lui."
+    },
+    {
+     "respuesta": "le leur",
+     "explicacion": "Leur est un pluriel (« a ellos ») ; pour une seule personne, Paul, c'est lui."
+    }
+   ]
+  },
+  {
+   "id": "e02",
+   "tipo": "eleccion",
+   "enunciado": "Choisissez le bon ordre (le stylo, à moi).",
+   "frase": "Tu peux ___ donner ?",
+   "opciones": [
+    "me le",
+    "le me",
+    "moi le"
+   ],
+   "respuestas": [
+    "me le"
+   ],
+   "explicacion": "D'après le tableau des colonnes, me (colonne 1) se place toujours avant le (colonne 2). De plus, la liste indique qu'avec un infinitif les pronoms se placent devant l'infinitif dont ils dépendent : tu peux me le donner, comme « puedes dármelo » ou « me lo puedes dar ». L'indice est la structure pouvoir + infinitif : les pronoms s'attachent à donner, pas à peux.",
+   "origen": "tatoeba:7553589",
+   "explicacion_breve": "Me se place avant le, et les deux devant l'infinitif.",
+   "traduccion": "¿Me lo puedes dar? (el bolígrafo, a mí)",
+   "por_opcion": {
+    "me le": "Correct : me (colonne 1) avant le (colonne 2), devant l'infinitif donner.",
+    "le me": "Incorrect : l'ordre est inversé ; me, te, nous, vous précèdent toujours le, la, les.",
+    "moi le": "Incorrect : moi est un pronom tonique et ne se place après le verbe qu'à l'impératif affirmatif (donne-le-moi) ; devant le verbe, on utilise me."
+   }
+  },
+  {
+   "id": "e03",
+   "tipo": "transformar",
+   "enunciado": "Mettez l'ordre à la forme affirmative.",
+   "frase": "Ne le lui donne pas !",
+   "respuestas": [
+    "Donne-le-lui !",
+    "Donne-le-lui!"
+   ],
+   "explicacion": "On applique le tableau de l'impératif affirmatif : les pronoms passent après le verbe, reliés par des traits d'union, dans l'ordre verbe + direct + indirect. En supprimant ne… pas, ne le lui donne pas devient donne-le-lui. Ici, l'ordre des pronoms coïncide avec celui de la phrase négative (le avant lui), mais ils se placent maintenant après le verbe, avec des traits d'union.",
+   "origen": "tatoeba:844335",
+   "explicacion_breve": "Impératif affirmatif : verbe + direct + indirect, avec des traits d'union.",
+   "traduccion": "¡Dáselo!",
+   "errores_previstos": [
+    {
+     "respuesta": "Donne-lui-le !",
+     "explicacion": "Calque de l'espagnol « dáselo » (indirect + direct) : à l'impératif affirmatif français, le direct vient en premier, donne-le-lui."
+    },
+    {
+     "respuesta": "Le lui donne !",
+     "explicacion": "À l'impératif affirmatif, les pronoms se placent après le verbe, pas devant."
+    },
+    {
+     "respuesta": "Donne le lui !",
+     "explicacion": "Il manque les traits d'union qui relient le verbe et les pronoms à l'impératif."
+    }
+   ]
+  },
+  {
+   "id": "e04",
+   "tipo": "transformar",
+   "enunciado": "Mettez l'ordre à la forme affirmative.",
+   "frase": "Ne me le donne pas !",
+   "respuestas": [
+    "Donne-le-moi !",
+    "Donne-le-moi!"
+   ],
+   "explicacion": "C'est le cas particulier du tableau de l'impératif affirmatif : les pronoms se placent après le verbe, le direct d'abord (le), puis l'indirect, et me prend la forme tonique moi. Ainsi, ne me le donne pas devient donne-le-moi. C'est exactement l'inverse de la forme négative (me le), et aussi l'inverse de l'espagnol « dámelo ».",
+   "origen": "tatoeba:4582440",
+   "explicacion_breve": "À l'affirmatif, me devient moi et se place après le.",
+   "traduccion": "¡Dámelo!",
+   "errores_previstos": [
+    {
+     "respuesta": "Donne-moi-le !",
+     "explicacion": "C'est l'erreur typique de la fiche : à l'impératif affirmatif, le direct se place avant l'indirect, donne-le-moi."
+    },
+    {
+     "respuesta": "Donne-le-me !",
+     "explicacion": "Après le verbe, me devient moi (sauf devant en)."
+    },
+    {
+     "respuesta": "Me le donne !",
+     "explicacion": "À l'impératif affirmatif, les pronoms ne se placent pas devant le verbe."
+    }
+   ]
+  },
+  {
+   "id": "e05",
+   "tipo": "corregir",
+   "enunciado": "Corrigez l'erreur.",
+   "frase": "Je lui l'ai acheté.",
+   "respuestas": [
+    "Je le lui ai acheté."
+   ],
+   "explicacion": "On applique le tableau des colonnes : le (direct, colonne 2) se place avant lui (indirect, colonne 3), et la liste indique qu'aux temps composés les deux pronoms se placent devant l'auxiliaire. La phrase erronée met lui devant, en calquant « se lo ». En plaçant le devant lui, il n'y a plus de voyelle après le qui provoque l'élision : Je le lui ai acheté.",
+   "origen": "tatoeba:7695181",
+   "explicacion_breve": "Le se place avant lui.",
+   "traduccion": "Se lo compré.",
+   "errores_previstos": [
+    {
+     "respuesta": "Je lui l'ai acheté.",
+     "explicacion": "C'est la phrase non corrigée : l'indirect lui ne peut pas se placer devant le direct le."
+    },
+    {
+     "respuesta": "Je l'ai lui acheté.",
+     "explicacion": "Les deux pronoms se placent ensemble devant l'auxiliaire ; lui ne peut pas se placer entre ai et le participe."
+    },
+    {
+     "respuesta": "Je le lui ai achetée.",
+     "explicacion": "Le participe s'accorde avec le COD placé avant, le, qui est masculin : acheté, sans -e."
+    }
+   ]
+  },
+  {
+   "id": "e06",
+   "tipo": "corregir",
+   "enunciado": "Corrigez l'erreur.",
+   "frase": "Je te ne le dirai pas.",
+   "respuestas": [
+    "Je ne te le dirai pas."
+   ],
+   "explicacion": "La liste de la fiche indique qu'à la forme négative les pronoms se placent entre ne et le verbe : ne + pronoms + verbe + pas. La phrase erronée met te avant ne. Une fois corrigée, on a ne te le dirai pas, avec l'ordre habituel te (colonne 1) + le (colonne 2). Ne se place toujours devant tout le bloc des pronoms.",
+   "origen": "tatoeba:1608332",
+   "explicacion_breve": "Ne se place devant tous les pronoms compléments.",
+   "traduccion": "No te lo diré.",
+   "errores_previstos": [
+    {
+     "respuesta": "Je te ne le dirai pas.",
+     "explicacion": "C'est la phrase non corrigée : ne se place devant tous les pronoms compléments."
+    },
+    {
+     "respuesta": "Je ne le te dirai pas.",
+     "explicacion": "Te se place avant le (colonne 1 avant colonne 2)."
+    },
+    {
+     "respuesta": "Je ne te le dirai.",
+     "explicacion": "Il manque pas : la négation française a besoin des deux éléments."
+    }
+   ]
+  },
+  {
+   "id": "e07",
+   "tipo": "ordenar",
+   "enunciado": "Remettez les mots dans l'ordre.",
+   "palabras": [
+    "le",
+    "Peux-tu",
+    "montrer",
+    "me"
+   ],
+   "respuestas": [
+    "Peux-tu me le montrer"
+   ],
+   "explicacion": "On applique la règle des infinitifs de la liste : les pronoms se placent devant l'infinitif dont ils dépendent (montrer), et entre eux me précède le. La question se fait par inversion, peux-tu, en tête de phrase. L'ordre final est Peux-tu + me le + montrer, qui équivaut à « ¿puedes enseñármelo? ».",
+   "origen": "tatoeba:1986604",
+   "explicacion_breve": "Me le devant l'infinitif.",
+   "traduccion": "¿Me lo puedes enseñar?",
+   "errores_previstos": [
+    {
+     "respuesta": "Peux-tu le me montrer",
+     "explicacion": "Mauvais ordre des pronoms : me se place avant le."
+    },
+    {
+     "respuesta": "Me le peux-tu montrer",
+     "explicacion": "Calque de « ¿me lo puedes enseñar? » : en français moderne, les pronoms se placent devant l'infinitif, pas devant pouvoir."
+    }
+   ]
+  },
+  {
+   "id": "e08",
+   "tipo": "hueco",
+   "enunciado": "Complétez avec le pronom qui manque.",
+   "frase": "Il ne m'___ reste qu'un.",
+   "respuestas": [
+    "en"
+   ],
+   "explicacion": "On applique le tableau des colonnes : en occupe la dernière colonne et se place toujours après les autres pronoms, ici après me (qui s'élide en m'). En remplace une quantité de quelque chose déjà mentionné et il est obligatoire quand un nombre apparaît sans nom (un). L'indice est qu'un, « solo uno » : il faut en pour reprendre « de cela ». L'espagnol ne dit rien d'équivalent.",
+   "origen": "tatoeba:139017",
+   "explicacion_breve": "Quantité (un) : en, toujours après me.",
+   "traduccion": "Solo me queda uno.",
+   "errores_previstos": [
+    {
+     "respuesta": "y",
+     "explicacion": "Y remplace un lieu ou à + chose ; avec une quantité (un), le pronom est en."
+    },
+    {
+     "respuesta": "le",
+     "explicacion": "Le remplace quelque chose de déterminé ; avec une quantité comme un, on utilise en."
+    },
+    {
+     "respuesta": "lui",
+     "explicacion": "Lui est un complément indirect de personne ; ici, il manque le pronom de quantité en."
+    }
+   ]
+  },
+  {
+   "id": "e09",
+   "tipo": "hueco",
+   "enunciado": "Complétez avec le pronom qui manque (à Marie).",
+   "frase": "Tu vas ___ en parler ?",
+   "respuestas": [
+    "lui"
+   ],
+   "explicacion": "Parler à quelqu'un se construit avec un complément indirect : à Marie, c'est donc lui ; et parler de quelque chose se remplace par en. D'après le tableau des colonnes, lui (colonne 3) se place avant en (colonne 5). Comme ils dépendent de l'infinitif parler, les deux se placent devant lui : tu vas lui en parler. L'indice est le en qui figure déjà dans la phrase.",
+   "origen": "tatoeba:2471795",
+   "explicacion_breve": "Parler à Marie : lui ; lui se place avant en.",
+   "traduccion": "¿Vas a hablarle de ello? (a Marie)",
+   "errores_previstos": [
+    {
+     "respuesta": "la",
+     "explicacion": "Marie est un complément indirect (parler à Marie), pas direct : lui, et non la."
+    },
+    {
+     "respuesta": "leur",
+     "explicacion": "Leur est un pluriel ; pour une seule personne, c'est lui."
+    },
+    {
+     "respuesta": "le",
+     "explicacion": "Le est un direct masculin ; parler à quelqu'un demande l'indirect lui."
+    }
+   ]
+  },
+  {
+   "id": "e10",
+   "tipo": "eleccion",
+   "enunciado": "Choisissez le bon ordre.",
+   "frase": "Tu aurais dû ___ dire.",
+   "opciones": [
+    "me le",
+    "le me",
+    "me lui"
+   ],
+   "respuestas": [
+    "me le"
+   ],
+   "explicacion": "On applique le tableau des colonnes : me se place avant le. Et, comme dans la règle des infinitifs, les pronoms se placent devant l'infinitif dont ils dépendent (dire), pas devant aurais dû. L'indice est la structure devoir + infinitif : « deberías habérmelo dicho » se dit en français tu aurais dû me le dire.",
+   "origen": "tatoeba:11781612",
+   "explicacion_breve": "Me avant le, devant l'infinitif dire.",
+   "traduccion": "Deberías habérmelo dicho.",
+   "por_opcion": {
+    "me le": "Correct : me (colonne 1) devant le (colonne 2), les deux devant l'infinitif dire.",
+    "le me": "Incorrect : l'ordre est inversé ; me se place toujours avant le.",
+    "me lui": "Incorrect : me et lui sont tous les deux indirects (colonnes 1 et 3) et ne peuvent pas se combiner ; de plus, il manque le direct qui remplace ce qui a été dit."
+   }
+  },
+  {
+   "id": "e11",
+   "tipo": "transformar",
+   "enunciado": "Remplacez les deux compléments par des pronoms.",
+   "frase": "Je montre mes photos à mes neveux.",
+   "respuestas": [
+    "Je les leur montre."
+   ],
+   "explicacion": "Il faut remplacer deux compléments : mes photos est un direct pluriel, les ; à mes neveux est un indirect pluriel, leur. D'après le tableau des colonnes, les (colonne 2) se place avant leur (colonne 3), et les deux devant le verbe. Le résultat, Je les leur montre, équivaut à l'espagnol « se las enseño », où « les » devient « se », ce que le français ne fait pas.",
+   "explicacion_breve": "Mes photos = les ; à mes neveux = leur ; direct avant indirect.",
+   "traduccion": "Se las enseño.",
+   "errores_previstos": [
+    {
+     "respuesta": "Je leur les montre.",
+     "explicacion": "Calque de l'ordre espagnol « se las » : en français, le direct les se place avant l'indirect leur."
+    },
+    {
+     "respuesta": "Je les leurs montre.",
+     "explicacion": "Le pronom leur est invariable ; leurs avec -s est le possessif."
+    },
+    {
+     "respuesta": "Je les lui montre.",
+     "explicacion": "Lui est singulier ; à mes neveux est pluriel, donc c'est leur."
+    }
+   ]
+  },
+  {
+   "id": "e12",
+   "tipo": "transformar",
+   "enunciado": "Remplacez les deux compléments par des pronoms.",
+   "frase": "J'offre du vin à mes amis.",
+   "respuestas": [
+    "Je leur en offre."
+   ],
+   "explicacion": "Du vin est un partitif, une quantité indéterminée, qui se remplace par en ; à mes amis est un indirect pluriel, leur. Le tableau des colonnes place leur (colonne 3) avant en (colonne 5), qui vient toujours en dernier. On obtient ainsi Je leur en offre, « les ofrezco (de eso) ». En espagnol, on n'exprime généralement pas en, mais en français il est obligatoire.",
+   "explicacion_breve": "À mes amis = leur ; du vin = en ; en toujours à la fin.",
+   "traduccion": "Les ofrezco (vino).",
+   "errores_previstos": [
+    {
+     "respuesta": "Je en leur offre.",
+     "explicacion": "En se place toujours à la fin du groupe ; de plus, je s'éliderait. L'ordre est leur en."
+    },
+    {
+     "respuesta": "Je le leur offre.",
+     "explicacion": "Le remplace quelque chose de déterminé (le vin) ; du vin, partitif, se remplace par en."
+    },
+    {
+     "respuesta": "Je leur offre.",
+     "explicacion": "Il manque en : le français exige de reprendre la quantité de vin avec en."
+    }
+   ]
+  },
+  {
+   "id": "e13",
+   "tipo": "eleccion",
+   "enunciado": "Choisissez la bonne forme.",
+   "frase": "Du parfum ? Allez, donne-___ !",
+   "opciones": [
+    "nous-en",
+    "en-nous",
+    "nous-y"
+   ],
+   "respuestas": [
+    "nous-en"
+   ],
+   "explicacion": "On applique le tableau de l'impératif affirmatif : les pronoms se placent après le verbe et en (comme y) vient toujours en dernier. Du parfum est un partitif : il se remplace donc par en ; l'indirect nous se place devant : donne-nous-en. Avec moi ou toi, on utiliserait la forme élidée m'en, t'en.",
+   "explicacion_breve": "À l'impératif, en vient toujours en dernier : donne-nous-en.",
+   "traduccion": "¿Perfume? ¡Venga, danos un poco!",
+   "por_opcion": {
+    "nous-en": "Correct : indirect nous + en à la fin, reliés par des traits d'union.",
+    "en-nous": "Incorrect : en ne peut pas se placer devant un autre pronom ; il occupe toujours la dernière place.",
+    "nous-y": "Incorrect : y remplace un lieu ou à + chose ; pour une quantité de parfum, il faut en."
+   }
+  },
+  {
+   "id": "e14",
+   "tipo": "hueco",
+   "enunciado": "Complétez avec les deux pronoms (le médicament, à elle).",
+   "frase": "Le médecin ___ a donné.",
+   "respuestas": [
+    "le lui"
+   ],
+   "explicacion": "On applique le tableau des colonnes et la règle des temps composés : le direct le (le médicament, masculin) se place avant l'indirect lui (à elle), et les deux se placent devant l'auxiliaire a. Lui sert aussi bien pour « él » que pour « ella ». Comme le COD placé avant est masculin singulier, le participe donné ne change pas.",
+   "origen": "tatoeba:1337287",
+   "explicacion_breve": "Direct avant indirect, devant l'auxiliaire.",
+   "traduccion": "El médico se lo ha dado (el medicamento, a ella).",
+   "errores_previstos": [
+    {
+     "respuesta": "lui le",
+     "explicacion": "Calque de l'ordre espagnol : à la troisième personne, le direct vient en premier, le lui."
+    },
+    {
+     "respuesta": "le la",
+     "explicacion": "La est un direct féminin ; « à elle » est un indirect, qui en français est lui, même au féminin."
+    },
+    {
+     "respuesta": "la lui",
+     "explicacion": "Le médicament est masculin : le direct est le."
+    }
+   ]
+  },
+  {
+   "id": "e15",
+   "tipo": "corregir",
+   "enunciado": "Corrigez l'erreur.",
+   "frase": "Donne-moi-le !",
+   "respuestas": [
+    "Donne-le-moi !",
+    "Donne-le-moi!"
+   ],
+   "explicacion": "C'est l'erreur typique que signale la fiche : à l'impératif affirmatif, le direct se place avant l'indirect ; ce n'est donc pas donne-moi-le mais donne-le-moi. L'hispanophone a tendance à calquer « dámelo », avec l'indirect en premier. Moi apparaît sous sa forme tonique parce qu'il se place après le verbe ; les traits d'union relient tout le groupe.",
+   "explicacion_breve": "Impératif affirmatif : le avant moi.",
+   "traduccion": "¡Dámelo!",
+   "errores_previstos": [
+    {
+     "respuesta": "Donne-moi-le !",
+     "explicacion": "C'est la phrase non corrigée : le direct le doit se placer avant moi."
+    },
+    {
+     "respuesta": "Donne-le-me !",
+     "explicacion": "Après le verbe, me devient moi."
+    },
+    {
+     "respuesta": "Me le donne !",
+     "explicacion": "À l'impératif affirmatif, les pronoms se placent après le verbe."
+    }
+   ]
+  },
+  {
+   "id": "e16",
+   "tipo": "eleccion",
+   "enunciado": "Choisissez la bonne forme.",
+   "frase": "Il y a du pain ? — Oui, il ___ a.",
+   "opciones": [
+    "y en",
+    "en y",
+    "l'y"
+   ],
+   "respuestas": [
+    "y en"
+   ],
+   "explicacion": "On applique le tableau des colonnes : y (colonne 4) se place avant en (colonne 5). L'expression il y a contient déjà y ; en remplaçant du pain, quantité indéterminée, par en, on obtient la formule figée il y en a, « hay (de eso) ». En espagnol, « sí, hay » suffit, mais en français en est obligatoire.",
+   "explicacion_breve": "Y toujours avant en : il y en a.",
+   "traduccion": "¿Hay pan? — Sí, hay.",
+   "por_opcion": {
+    "y en": "Correct : y avant en, la formule figée il y en a.",
+    "en y": "Incorrect : l'ordre est inversé ; en est toujours le dernier pronom.",
+    "l'y": "Incorrect : l' serait un direct déterminé (le pain) ; pour une quantité indéterminée, du pain, il faut en."
+   }
+  }
+ ],
+ "fuente": {
+  "nombre": "Tex's French Grammar",
+  "autores": "COERLL, Université du Texas à Austin",
+  "licencia": "CC BY 3.0",
+  "url": "https://laits.utexas.edu/tex/gr/pro9.html",
+  "otras": [
+   "Phrases de Tatoeba (CC BY 2.0 FR)"
+  ]
+ },
+ "descripcion_larga_es": "Quand une phrase contient deux pronoms compléments (« se lo », « me lo », « le doy de eso »), le français les place dans un ordre fixe qui ne coïncide pas tout à fait avec celui de l'espagnol. Le maîtriser est essentiel pour parler avec naturel et éviter de répéter les noms. L'hispanophone a surtout du mal avec la troisième personne, où le français dit le lui (« lo le ») au lieu de « se lo », et avec l'impératif affirmatif, avec donne-le-moi.",
+ "contexto": {
+  "que_es": "C'est l'ordre dans lequel se placent deux pronoms compléments ensemble devant le verbe : d'abord me, te, se, nous, vous ; puis le, la, les ; puis lui, leur ; puis y ; enfin en. On prend au maximum un pronom par colonne, toujours de gauche à droite. À l'impératif affirmatif, les pronoms se placent après le verbe, reliés par des traits d'union : le direct d'abord, puis l'indirect.",
+  "por_que_importa": "Les doubles pronoms sont constants dans la conversation (« ¿me lo dejas? », « se lo he dicho », « hay más ») et permettent de ne pas répéter les noms. Un ordre erroné comme « je lui le donne » se comprend, mais sonne clairement étranger et est pénalisé à un examen. De plus, l'impératif avec pronoms (donne-le-moi, donnez-m'en) est très fréquent dans les consignes et les demandes.",
+  "cuando_se_usa": "Chaque fois qu'on remplace en même temps un complément direct et un complément indirect, ou qu'on combine y et en (il y en a). Les signaux sont des verbes comme donner, dire, montrer, offrir, prêter, envoyer avec une chose et une personne. L'hispanophone calque « se lo » et met l'indirect en premier (lui le) ; en français, à la troisième personne, le direct se place devant : le lui, la leur, les lui."
+ }
+}

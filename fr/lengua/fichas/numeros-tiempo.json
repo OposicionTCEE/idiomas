@@ -1,0 +1,772 @@
+{
+ "id": "fr.l.numeros-tiempo",
+ "titulo": "Les nombres, la date et l'heure",
+ "titulo_es": "Les nombres, la date, l'heure",
+ "descripcion_es": "Compter, dire les prix, l'heure, les jours de la semaine et les mois.",
+ "nivel": "A1",
+ "resumen": "Les nombres français ont des formes irrégulières entre 70 et 99 (soixante-dix, quatre-vingts…). Cette fiche montre aussi comment dire la date, l'heure et les prix.",
+ "explicacion": [
+  {
+   "tipo": "texto",
+   "texto": "De 0 à 69, les nombres sont réguliers : vingt, trente, quarante, cinquante, soixante, avec et un pour 21, 31, 41, 51, 61 (vingt et un). À partir de 70, on compte en base vingt : 70 = soixante-dix (60 + 10), 80 = quatre-vingts (4 × 20), 90 = quatre-vingt-dix. En Belgique et en Suisse, on dit septante et nonante (et en Suisse, parfois huitante)."
+  },
+  {
+   "tipo": "tabla",
+   "cabecera": [
+    "Nombre",
+    "Français",
+    "Remarque"
+   ],
+   "filas": [
+    [
+     "21",
+     "vingt et un",
+     "avec et, sans trait d'union"
+    ],
+    [
+     "22",
+     "vingt-deux",
+     "avec trait d'union"
+    ],
+    [
+     "70",
+     "soixante-dix",
+     "60 + 10"
+    ],
+    [
+     "71",
+     "soixante et onze",
+     "60 + 11, avec et"
+    ],
+    [
+     "77",
+     "soixante-dix-sept",
+     "60 + 17"
+    ],
+    [
+     "80",
+     "quatre-vingts",
+     "prend un -s"
+    ],
+    [
+     "81",
+     "quatre-vingt-un",
+     "sans -s et sans et"
+    ],
+    [
+     "90",
+     "quatre-vingt-dix",
+     "80 + 10"
+    ],
+    [
+     "99",
+     "quatre-vingt-dix-neuf",
+     "80 + 19"
+    ],
+    [
+     "100 / 200",
+     "cent / deux cents",
+     "cents prend un -s seulement s'il est un multiple exact"
+    ],
+    [
+     "1000 / 2000",
+     "mille / deux mille",
+     "mille est invariable"
+    ],
+    [
+     "1 000 000",
+     "un million",
+     "un million d'euros"
+    ]
+   ]
+  },
+  {
+   "tipo": "tabla",
+   "cabecera": [
+    "Expression",
+    "Sens",
+    "Exemple"
+   ],
+   "filas": [
+    [
+     "lundi, mardi, mercredi, jeudi, vendredi, samedi, dimanche",
+     "jours de la semaine (minuscule)",
+     "Le musée est fermé le lundi."
+    ],
+    [
+     "janvier, février, mars, avril, mai, juin, juillet, août, septembre, octobre, novembre, décembre",
+     "mois (minuscule)",
+     "Mon anniversaire est en mai."
+    ],
+    [
+     "Quelle heure est-il ?",
+     "question pour connaître l'heure (es : ¿Qué hora es?)",
+     "Il est trois heures."
+    ],
+    [
+     "et quart / et demie / moins le quart",
+     "+ 15 minutes / + 30 minutes / − 15 minutes (es : y cuarto / y media / menos cuarto)",
+     "Il est midi et demi."
+    ],
+    [
+     "midi / minuit",
+     "12 heures le jour / 12 heures la nuit (es : las doce del mediodía / medianoche)",
+     "On mange à midi."
+    ],
+    [
+     "le premier mai",
+     "le 1er jour du mois de mai (es : el uno de mayo)",
+     "Le 1er mai est férié."
+    ],
+    [
+     "Nous sommes le…",
+     "formule pour dire la date du jour (es : Estamos a…)",
+     "Nous sommes le 3 octobre."
+    ],
+    [
+     "Ça coûte combien ? / C'est combien ?",
+     "question pour connaître le prix (es : ¿Cuánto cuesta?)",
+     "Ce pull, c'est combien ?"
+    ],
+    [
+     "trois euros cinquante",
+     "3,50 €",
+     "Le café coûte deux euros vingt."
+    ],
+    [
+     "en 2025 / au mois de juin",
+     "pendant l'année 2025 / pendant le mois de juin (es : en 2025 / en junio)",
+     "Je suis né en 1995."
+    ]
+   ]
+  },
+  {
+   "tipo": "lista",
+   "items": [
+    "Dates : l'article le + nombre cardinal (le 14 juillet), sauf pour le 1er : le premier.",
+    "Avec les jours de la semaine : lundi = un lundi précis (es : el lunes) ; le lundi = tous les lundis, habitude (es : los lunes).",
+    "Pour l'heure officielle, on utilise le format 24 heures : Le train part à dix-sept heures quinze."
+   ]
+  }
+ ],
+ "ejemplos": [
+  {
+   "frase": "Il est huit heures et quart.",
+   "traduccion": "Son las ocho y cuarto."
+  },
+  {
+   "frase": "Le cours commence à neuf heures moins le quart.",
+   "traduccion": "La clase empieza a las nueve menos cuarto."
+  },
+  {
+   "frase": "Aujourd'hui, nous sommes le vingt et un mars.",
+   "traduccion": "Hoy estamos a veintiuno de marzo."
+  },
+  {
+   "frase": "Le billet coûte quatre-vingt-quinze euros.",
+   "traduccion": "El billete cuesta noventa y cinco euros."
+  },
+  {
+   "frase": "Le samedi, je fais du sport.",
+   "traduccion": "Los sábados hago deporte."
+  },
+  {
+   "frase": "Ma grand-mère a soixante-dix-huit ans.",
+   "traduccion": "Mi abuela tiene setenta y ocho años."
+  }
+ ],
+ "errores_hispanohablantes": [
+  {
+   "mal": "Il est le trois heures.",
+   "bien": "Il est trois heures.",
+   "nota": "L'heure ne prend pas d'article : il est + nombre + heures."
+  },
+  {
+   "mal": "le un mai",
+   "bien": "le premier mai",
+   "nota": "Le 1er du mois se dit avec l'ordinal premier."
+  },
+  {
+   "mal": "Il est trois heures et demi.",
+   "bien": "Il est trois heures et demie.",
+   "nota": "Après heures (féminin), on écrit demie ; après midi ou minuit, demi."
+  },
+  {
+   "mal": "septante (en Francia)",
+   "bien": "soixante-dix",
+   "nota": "Septante est compris, mais en France on dit soixante-dix."
+  }
+ ],
+ "ejercicios": [
+  {
+   "id": "e01",
+   "tipo": "hueco",
+   "enunciado": "Écrivez le nombre en lettres.",
+   "frase": "Il y a ___ (70) étudiants dans l'amphi.",
+   "respuestas": [
+    "soixante-dix"
+   ],
+   "explicacion": "On applique la règle des nombres de 70 à 99 que vous voyez au début de la fiche : en français de France, il n'existe pas de mot propre pour 70 ; on additionne 60 + 10. C'est pourquoi 70 se dit soixante-dix, avec un trait d'union entre les deux parties. La parenthèse (70) est le seul indice : il faut l'écrire en lettres. La forme septante existe, mais elle est propre à la Belgique et à la Suisse.",
+   "explicacion_breve": "70 = soixante-dix (60 + 10).",
+   "traduccion": "Hay setenta estudiantes en el aula magna.",
+   "errores_previstos": [
+    {
+     "respuesta": "septante",
+     "explicacion": "Septante s'emploie en Belgique et en Suisse, mais dans le français de France travaillé dans la fiche, 70 se dit soixante-dix."
+    },
+    {
+     "respuesta": "soixante dix",
+     "explicacion": "Il manque le trait d'union : les nombres composés inférieurs à 100 qui ne prennent pas et s'écrivent avec un trait d'union (soixante-dix)."
+    },
+    {
+     "respuesta": "soixante-et-dix",
+     "explicacion": "Seul 71 prend et (soixante et onze) ; 70 est simplement soixante-dix."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "soixante-dix",
+     "significado": "setenta",
+     "definicion_l": "Soixante-neuf plus un, soit sept fois dix, adjectif numéral cardinal correspondant au nombre 70. · Soixante-dixième."
+    },
+    {
+     "palabra": "l'amphi (amphithéâtre)",
+     "significado": "el aula magna, el anfiteatro de la universidad"
+    },
+    {
+     "palabra": "il y a",
+     "significado": "hay",
+     "definicion_l": "Indique un moment antérieur au moment de l’énonciation."
+    }
+   ]
+  },
+  {
+   "id": "e02",
+   "tipo": "hueco",
+   "enunciado": "Écrivez le nombre en lettres.",
+   "frase": "J'ai ___ (80) euros.",
+   "respuestas": [
+    "quatre-vingts"
+   ],
+   "explicacion": "C'est la règle de 80 du tableau : quatre-vingts, c'est-à-dire « quatre fois vingt ». Le -s final de vingts apparaît parce que vingt est multiplié (4 × 20) et qu'aucun autre nombre ne le suit. Dès qu'on ajoute quelque chose derrière, le -s disparaît : quatre-vingt-un, quatre-vingt-dix. Ici, la phrase se termine par euros, qui n'est pas un nombre, donc le -s reste.",
+   "explicacion_breve": "80 = quatre-vingts, avec -s car aucun autre nombre ne suit.",
+   "traduccion": "Tengo ochenta euros.",
+   "errores_previstos": [
+    {
+     "respuesta": "quatre-vingt",
+     "explicacion": "Sans -s, c'est incorrect quand 80 est seul : la règle exige quatre-vingts si aucun autre nombre ne suit."
+    },
+    {
+     "respuesta": "huitante",
+     "explicacion": "Huitante s'entend dans certaines régions de Suisse, mais pas en France ; la fiche demande quatre-vingts."
+    },
+    {
+     "respuesta": "quatre vingts",
+     "explicacion": "Il manque le trait d'union entre quatre et vingts."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "quatre-vingts",
+     "significado": "ochenta",
+     "definicion_l": "Soixante-dix-neuf plus un, soit huit fois dix, adjectif numéral cardinal correspondant au nombre 80. · Nombre 80, entier naturel après soixante-dix-neuf."
+    },
+    {
+     "palabra": "euro",
+     "significado": "euro",
+     "definicion_l": "Monnaie scripturale depuis 1999 et fiduciaire à partir de 2002, ayant cours dans l’Eurozone, aussi adoptée par d’autres États de l’Europe, mais non membres… · Pièce de cette monnaie."
+    }
+   ]
+  },
+  {
+   "id": "e03",
+   "tipo": "hueco",
+   "enunciado": "Écrivez le nombre en lettres.",
+   "frase": "Mon grand-père a ___ (91) ans.",
+   "respuestas": [
+    "quatre-vingt-onze"
+   ],
+   "explicacion": "On applique la règle des nombres de 80 à 99 du tableau : 91, c'est 80 + 11, soit quatre-vingt-onze. Comme vingt est suivi d'un autre nombre, il perd le -s de quatre-vingts. De plus, contrairement à 21, 31… 71, on ne met pas et ici : après 80, tous les composés s'écrivent seulement avec des traits d'union. Remarquez aussi qu'en français l'âge se dit avec avoir : il a quatre-vingt-onze ans.",
+   "explicacion_breve": "91 = 80 + 11 : quatre-vingt-onze, sans -s.",
+   "traduccion": "Mi abuelo tiene noventa y un años.",
+   "errores_previstos": [
+    {
+     "respuesta": "quatre-vingts-onze",
+     "explicacion": "Vingts perd le -s quand un autre nombre le suit : quatre-vingt-onze."
+    },
+    {
+     "respuesta": "quatre-vingt-et-onze",
+     "explicacion": "Par analogie avec soixante et onze, on met et, mais à partir de 80 les composés n'en prennent pas."
+    },
+    {
+     "respuesta": "nonante et un",
+     "explicacion": "Nonante est belge ou suisse ; en France, 91 se dit quatre-vingt-onze."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "quatre-vingt-onze",
+     "significado": "noventa y uno",
+     "definicion_l": "Quatre-vingt-dix plus un, adjectif numéral cardinal correspondant au nombre 91. · Quatre-vingt-onzième, 91ᵉ."
+    },
+    {
+     "palabra": "grand-père",
+     "significado": "abuelo",
+     "definicion_l": "Père du père (grand-père paternel) ou de la mère (grand-père maternel) d’une personne ; ascendant de seconde génération. · Homme considéré comme âgé."
+    },
+    {
+     "palabra": "avoir … ans",
+     "significado": "tener … años"
+    }
+   ]
+  },
+  {
+   "id": "e04",
+   "tipo": "hueco",
+   "enunciado": "Écrivez le nombre en lettres.",
+   "frase": "Il y a ___ (21) jours de cours.",
+   "respuestas": [
+    "vingt et un",
+    "vingt-et-un"
+   ],
+   "explicacion": "C'est la règle de et un, qui figure au début de la fiche : 21, 31, 41, 51, 61 (et 71) se forment avec et et sans trait d'union : vingt et un. Les autres composés prennent un trait d'union (vingt-deux). On accepte aussi vingt-et-un, car la réforme de l'orthographe de 1990 permet de relier par des traits d'union tous les numéraux composés ; la forme traditionnelle reste vingt et un.",
+   "explicacion_breve": "21, 31, 41, 51, 61 et 71 prennent et.",
+   "traduccion": "Hay veintiún días de clase.",
+   "errores_previstos": [
+    {
+     "respuesta": "vingt-un",
+     "explicacion": "Calque du modèle vingt-deux : 21 prend et (vingt et un), pas un simple trait d'union."
+    },
+    {
+     "respuesta": "vingt et une",
+     "explicacion": "Un devient une seulement devant un nom féminin ; jours est masculin, donc c'est vingt et un."
+    },
+    {
+     "respuesta": "vingtun",
+     "explicacion": "Les deux mots ne se soudent pas : on écrit vingt et un."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "vingt et un",
+     "significado": "veintiuno",
+     "definicion_l": "Le nombre 21. · Une chose numérotée 21."
+    },
+    {
+     "palabra": "jour de cours",
+     "significado": "día de clase"
+    }
+   ]
+  },
+  {
+   "id": "e05",
+   "tipo": "eleccion",
+   "enunciado": "Choisissez la forme correcte pour le 1er janvier.",
+   "frase": "Le ___ janvier est un jour férié.",
+   "opciones": [
+    "premier",
+    "un",
+    "première"
+   ],
+   "respuestas": [
+    "premier"
+   ],
+   "explicacion": "On applique la règle des dates de la liste : la date se dit avec le + nombre cardinal (le deux janvier), sauf le 1er, qui utilise l'ordinal premier. Les indices sont l'article le et le mois janvier. Premier est au masculin parce qu'il s'accorde avec jour, sous-entendu, et avec l'article le ; on ne dit pas « le un janvier », calque de l'espagnol « el uno de enero ».",
+   "explicacion_breve": "Le 1er du mois se dit avec l'ordinal masculin premier.",
+   "traduccion": "El uno de enero es día festivo.",
+   "por_opcion": {
+    "premier": "Correct : le premier jour du mois se dit toujours avec l'ordinal masculin premier (le premier janvier, écrit aussi le 1er janvier).",
+    "un": "Incorrect : c'est le calque de l'espagnol « el uno de enero ». En français, le cardinal ne s'emploie qu'à partir du 2.",
+    "première": "Incorrect : c'est le féminin de premier. Avec les dates, on emploie le masculin, car il va avec le (le jour) ; première irait avec un nom féminin, comme la première fois."
+   },
+   "glosario": [
+    {
+     "palabra": "le premier janvier",
+     "significado": "el uno de enero"
+    },
+    {
+     "palabra": "jour férié",
+     "significado": "día festivo",
+     "definicion_l": "Jour de fête civile ou religieuse, ou commémorant un événement, qui n’est pas obligatoirement chômé."
+    }
+   ]
+  },
+  {
+   "id": "e06",
+   "tipo": "eleccion",
+   "enunciado": "Choisissez l'heure correcte pour 12 h 30 (le midi).",
+   "frase": "Il est ___.",
+   "opciones": [
+    "midi et demi",
+    "minuit et demi",
+    "douze et demie"
+   ],
+   "respuestas": [
+    "midi et demi"
+   ],
+   "explicacion": "C'est le tableau de l'heure : 12 heures le jour, c'est midi, et 12 heures la nuit, c'est minuit ; aucun des deux ne se dit douze heures dans la langue courante. La demi-heure se dit et demi ou et demie : après midi et minuit, qui sont masculins, on écrit demi ; après heures, féminin, demie. L'énoncé précise qu'il s'agit du midi, la réponse est donc midi et demi.",
+   "explicacion_breve": "12 heures le jour, c'est midi ; minuit, c'est 12 heures la nuit.",
+   "traduccion": "Son las doce y media (del mediodía).",
+   "por_opcion": {
+    "midi et demi": "Correct : midi, c'est 12 heures le jour et, comme midi est masculin, demi s'écrit sans -e.",
+    "minuit et demi": "Incorrect dans cette phrase : minuit, c'est 12 heures la nuit ; il serait donc 0 h 30, et non 12 h 30 le jour.",
+    "douze et demie": "Incorrect : il manque le mot heures et, de toute façon, à 12 heures le jour on dit midi. Douze heures trente ne s'entend que dans les horaires officiels."
+   },
+   "glosario": [
+    {
+     "palabra": "midi",
+     "significado": "las doce del mediodía",
+     "definicion_l": "Moment où le Soleil est le plus haut dans le ciel, qui partage également la durée du jour entre le soleil levant et le soleil couchant. · La douzième heure depuis minuit."
+    },
+    {
+     "palabra": "minuit",
+     "significado": "medianoche",
+     "definicion_l": "Heure située au milieu de la nuit, à la limite de deux jours."
+    },
+    {
+     "palabra": "et demi / et demie",
+     "significado": "y media"
+    }
+   ]
+  },
+  {
+   "id": "e07",
+   "tipo": "eleccion",
+   "enunciado": "Choisissez l'option qui signifie « tous les dimanches » (es : los domingos).",
+   "frase": "___, je déjeune chez mes parents.",
+   "opciones": [
+    "Le dimanche",
+    "Dimanche",
+    "En dimanche"
+   ],
+   "respuestas": [
+    "Le dimanche"
+   ],
+   "explicacion": "On applique la règle des jours de la semaine de la liste : avec l'article (le dimanche), le jour exprime une habitude, « tous les dimanches » ; sans article (dimanche), il désigne un dimanche précis. L'énoncé demande « tous les dimanches » et le présent déjeune décrit une habitude : c'est donc le dimanche. Attention : l'espagnol emploie l'article justement dans le cas contraire (« el domingo » pour un dimanche précis).",
+   "explicacion_breve": "Le + jour exprime une habitude ; sans article, c'est un jour précis.",
+   "traduccion": "Los domingos como en casa de mis padres.",
+   "por_opcion": {
+    "Le dimanche": "Correct : le + jour exprime la répétition, « tous les dimanches », « chaque dimanche ».",
+    "Dimanche": "Incorrect ici : sans article, il s'agit d'un dimanche précis (le prochain ou le dernier), pas d'une habitude.",
+    "En dimanche": "Incorrect : les jours de la semaine ne prennent pas la préposition en ; en s'emploie avec les mois et les années (en mai, en 2025)."
+   },
+   "glosario": [
+    {
+     "palabra": "le dimanche",
+     "significado": "los domingos"
+    },
+    {
+     "palabra": "déjeuner",
+     "significado": "comer, almorzar (la comida del mediodía)",
+     "definicion_l": "Repas de midi. Repas du matin. · Repas du matin."
+    },
+    {
+     "palabra": "chez mes parents",
+     "significado": "en casa de mis padres"
+    }
+   ]
+  },
+  {
+   "id": "e08",
+   "tipo": "eleccion",
+   "enunciado": "Choisissez la préposition.",
+   "frase": "Je suis né ___ 1998.",
+   "opciones": [
+    "en",
+    "à",
+    "le"
+   ],
+   "respuestas": [
+    "en"
+   ],
+   "explicacion": "Le tableau des expressions indique qu'avec les années on emploie en : en 2025, je suis né en 1995. L'indice est le nombre 1998, qui est une année. Avec les mois, en convient aussi (en mai), ou au mois de (au mois de juin). À est réservé à l'heure (à dix heures) et le aux dates avec le jour (le 3 octobre).",
+   "explicacion_breve": "Avec les années, on emploie en.",
+   "traduccion": "Nací en 1998.",
+   "por_opcion": {
+    "en": "Correct : les années sont introduites par en, comme les mois.",
+    "à": "Incorrect : à sert pour l'heure (à midi) et pour les villes, pas pour les années.",
+    "le": "Incorrect : le accompagne une date avec le jour (le 14 juillet 1998), pas une année seule."
+   },
+   "glosario": [
+    {
+     "palabra": "je suis né(e)",
+     "significado": "nací"
+    },
+    {
+     "palabra": "en + año",
+     "significado": "en + año"
+    }
+   ]
+  },
+  {
+   "id": "e09",
+   "tipo": "hueco",
+   "enunciado": "Complétez la question.",
+   "frase": "Quelle ___ est-il ?",
+   "respuestas": [
+    "heure"
+   ],
+   "explicacion": "C'est la formule figée du tableau des expressions : Quelle heure est-il ? L'indice est quelle, qui s'accorde au féminin singulier avec heure. On utilise le sujet impersonnel il, le même que dans la réponse (Il est trois heures), et l'inversion est-il, car c'est une question de registre standard. On ne dit pas « quel temps » (qui porte sur la météo).",
+   "explicacion_breve": "Quelle heure est-il ? est la question standard.",
+   "traduccion": "¿Qué hora es?",
+   "errores_previstos": [
+    {
+     "respuesta": "heures",
+     "explicacion": "La question est au singulier, comme l'espagnol « ¿qué hora es? » : quelle heure."
+    },
+    {
+     "respuesta": "temps",
+     "explicacion": "Quel temps fait-il ? porte sur la météo ; en outre, quelle est au féminin et temps est masculin."
+    },
+    {
+     "respuesta": "hora",
+     "explicacion": "C'est le mot espagnol ; en français, c'est heure, avec un h muet."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "heure",
+     "significado": "hora",
+     "definicion_l": "Unité de mesure du temps, compatible avec le Système international, dérivée de la seconde, dont le symbole est h. 1 heure = 60 minutes = 3600 secondes. · Durée mesurée par cette unité."
+    },
+    {
+     "palabra": "Quelle heure est-il ?",
+     "significado": "¿Qué hora es?"
+    }
+   ]
+  },
+  {
+   "id": "e10",
+   "tipo": "hueco",
+   "enunciado": "Écrivez le nombre en lettres.",
+   "frase": "La chambre coûte ___ (200) euros.",
+   "respuestas": [
+    "deux cents",
+    "deux-cents"
+   ],
+   "explicacion": "C'est la règle de cent du tableau : cent prend un -s quand il est multiplié (deux cents, trois cents) et qu'aucun autre nombre ne le suit. Dans deux cents euros, les deux conditions sont remplies : il prend donc un -s. Pour 201, on dirait deux cent un, sans -s. On accepte aussi deux-cents, car la réforme de l'orthographe de 1990 permet de relier tous les numéraux par un trait d'union.",
+   "explicacion_breve": "Cent prend un -s quand il est multiplié et qu'aucun autre nombre ne le suit.",
+   "traduccion": "La habitación cuesta doscientos euros.",
+   "errores_previstos": [
+    {
+     "respuesta": "deux cent",
+     "explicacion": "Il manque le -s : cent multiplié et sans autre nombre derrière s'écrit cents."
+    },
+    {
+     "respuesta": "deux centaines",
+     "explicacion": "Une centaine signifie « environ cent », une quantité approximative ; le prix exact est deux cents."
+    },
+    {
+     "respuesta": "doscents",
+     "explicacion": "Mélange de l'espagnol « doscientos » et du français ; on écrit en deux mots : deux cents."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "deux cents",
+     "significado": "doscientos",
+     "definicion_l": "Le nombre 200. · Objet numéroté 200."
+    },
+    {
+     "palabra": "chambre",
+     "significado": "habitación (de hotel o de casa)",
+     "definicion_l": "Toute pièce habitable d’une maison et principalement une chambre à coucher. · Logement dans une auberge, un hôtel, un hospice, etc."
+    },
+    {
+     "palabra": "coûter",
+     "significado": "costar",
+     "definicion_l": "Valoir tel ou tel prix d’achat. · Demander un paiement, un effort. Occasionner une dépense."
+    }
+   ]
+  },
+  {
+   "id": "e11",
+   "tipo": "corregir",
+   "enunciado": "Corrigez l'erreur.",
+   "frase": "Il est les cinq heures.",
+   "respuestas": [
+    "Il est cinq heures."
+   ],
+   "explicacion": "L'erreur est le calque de l'espagnol « son las cinco ». D'après la fiche (erreurs typiques et tableau de l'heure), en français l'heure se dit avec il est + nombre + heures, sans article : Il est cinq heures. Le verbe est au singulier (il est) même s'il s'agit de plusieurs heures, car il est un sujet impersonnel. Il suffit de supprimer les.",
+   "explicacion_breve": "L'heure ne prend pas d'article.",
+   "traduccion": "Son las cinco.",
+   "errores_previstos": [
+    {
+     "respuesta": "Il est les cinq heures.",
+     "explicacion": "C'est la phrase non corrigée : l'heure ne prend pas d'article en français."
+    },
+    {
+     "respuesta": "Ils sont cinq heures.",
+     "explicacion": "Calque de l'espagnol « son las cinco » : le sujet est le il impersonnel et le verbe est au singulier."
+    },
+    {
+     "respuesta": "Il est les cinq.",
+     "explicacion": "L'article est conservé et, en plus, heures est supprimé, ce qui est impossible en français."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "il est cinq heures",
+     "significado": "son las cinco"
+    }
+   ]
+  },
+  {
+   "id": "e12",
+   "tipo": "corregir",
+   "enunciado": "Corrigez l'erreur.",
+   "frase": "Nous sommes le un juin.",
+   "respuestas": [
+    "Nous sommes le premier juin.",
+    "Nous sommes le 1er juin."
+   ],
+   "explicacion": "On applique la règle des dates : le 1er se dit avec l'ordinal premier, et non avec le cardinal un. La formule Nous sommes le… sert à dire la date du jour (es : « estamos a… »). La correction est donc Nous sommes le premier juin, qui s'écrit en chiffres le 1er juin ; les deux formes sont acceptées. À partir du 2, on emploie bien le cardinal : le deux juin.",
+   "explicacion_breve": "Le 1er du mois se dit premier.",
+   "traduccion": "Estamos a uno de junio.",
+   "errores_previstos": [
+    {
+     "respuesta": "Nous sommes le un juin.",
+     "explicacion": "C'est la phrase non corrigée : le 1er ne se dit pas un mais premier."
+    },
+    {
+     "respuesta": "Nous sommes le première juin.",
+     "explicacion": "Première est féminin ; avec les dates, on emploie le masculin premier."
+    },
+    {
+     "respuesta": "Nous sommes premier juin.",
+     "explicacion": "Il manque l'article le, obligatoire dans la date : le premier juin."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "Nous sommes le…",
+     "significado": "Estamos a… (para decir la fecha)"
+    },
+    {
+     "palabra": "juin",
+     "significado": "junio",
+     "definicion_l": "Sixième mois de l’année du calendrier grégorien, qui compte 30 jours. · Allusion aux journées révolutionnaires de juin 1848 à Paris."
+    }
+   ]
+  },
+  {
+   "id": "e13",
+   "tipo": "ordenar",
+   "enunciado": "Remettez les mots dans l'ordre.",
+   "palabras": [
+    "à",
+    "Le",
+    "part",
+    "train",
+    "heures",
+    "dix"
+   ],
+   "respuestas": [
+    "Le train part à dix heures"
+   ],
+   "explicacion": "C'est l'ordre de la phrase française : sujet (le train) + verbe (part) + à + heure (dix heures). Le tableau des expressions et les exemples montrent que l'heure à laquelle quelque chose se passe est introduite par à, comme l'espagnol « a las diez », mais sans article. Le nombre se place devant heures, comme toujours pour l'heure.",
+   "explicacion_breve": "Sujet + verbe + à + heure.",
+   "traduccion": "El tren sale a las diez.",
+   "errores_previstos": [
+    {
+     "respuesta": "Le train part dix à heures",
+     "explicacion": "La préposition à se place devant l'ensemble de l'heure : à dix heures."
+    },
+    {
+     "respuesta": "Part le train à dix heures",
+     "explicacion": "Calque de l'espagnol « sale el tren a las diez » : dans une phrase affirmative française, le sujet se place devant le verbe."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "partir",
+     "significado": "salir, marcharse",
+     "definicion_l": "Tirer son origine, avoir son commencement, avoir pour point de départ. · Émaner."
+    },
+    {
+     "palabra": "à dix heures",
+     "significado": "a las diez"
+    }
+   ]
+  },
+  {
+   "id": "e14",
+   "tipo": "ordenar",
+   "enunciado": "Remettez les mots dans l'ordre.",
+   "palabras": [
+    "combien",
+    "coûte",
+    "Ça"
+   ],
+   "respuestas": [
+    "Ça coûte combien",
+    "Combien ça coûte"
+   ],
+   "explicacion": "Le tableau des expressions donne Ça coûte combien ? et C'est combien ? pour demander le prix. À l'oral, l'interrogatif combien peut rester à la fin, à la place du complément, avec l'intonation montante qui marque la question : Ça coûte combien ? On peut aussi le placer au début, Combien ça coûte ?, tout aussi fréquent dans la conversation ; c'est pourquoi les deux ordres sont acceptés. La version plus soutenue, avec inversion, serait Combien cela coûte-t-il ?",
+   "explicacion_breve": "À l'oral, combien peut se placer à la fin.",
+   "traduccion": "¿Cuánto cuesta?",
+   "errores_previstos": [
+    {
+     "respuesta": "Ça combien coûte",
+     "explicacion": "Combien ne peut pas se placer entre le sujet et le verbe : il va soit au début (Combien ça coûte ?), soit, à l'oral, à la fin (Ça coûte combien ?)."
+    },
+    {
+     "respuesta": "Coûte combien ça",
+     "explicacion": "Calque de l'espagnol « ¿cuesta cuánto eso? » : le sujet ça se place devant le verbe."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "Ça coûte combien ?",
+     "significado": "¿Cuánto cuesta?"
+    },
+    {
+     "palabra": "ça",
+     "significado": "eso, esto (pronombre coloquial)",
+     "definicion_l": "Cette chose, cette situation. · Démonstratif au sens indéterminé."
+    }
+   ]
+  },
+  {
+   "id": "e15",
+   "tipo": "eleccion",
+   "enunciado": "Choisissez l'heure correcte pour 6 h 45.",
+   "frase": "Il est ___.",
+   "opciones": [
+    "sept heures moins le quart",
+    "six heures moins le quart",
+    "six heures et quart"
+   ],
+   "respuestas": [
+    "sept heures moins le quart"
+   ],
+   "explicacion": "On applique le tableau de l'heure : en français, comme en espagnol, à partir de la demie on compte vers l'heure suivante avec moins. 6 h 45, c'est « sept heures moins le quart » ; remarquez qu'avec moins on dit le quart, avec l'article, et qu'avec et on dit et quart. Six heures quarante-cinq serait aussi correct, surtout dans les horaires.",
+   "explicacion_breve": "6 h 45 = sept heures moins le quart (aussi six heures quarante-cinq).",
+   "traduccion": "Son las siete menos cuarto.",
+   "por_opcion": {
+    "sept heures moins le quart": "Correct : 7 h − 15 min = 6 h 45, comme l'espagnol « las siete menos cuarto ».",
+    "six heures moins le quart": "Incorrect : il serait 5 h 45, six heures moins le quart.",
+    "six heures et quart": "Incorrect : il est 6 h 15, six heures et quart."
+   },
+   "glosario": [
+    {
+     "palabra": "moins le quart",
+     "significado": "menos cuarto"
+    },
+    {
+     "palabra": "et quart",
+     "significado": "y cuarto"
+    }
+   ]
+  }
+ ],
+ "fuente": {
+  "nombre": "propia"
+ },
+ "descripcion_larga_es": "Cette fiche réunit les nombres, les jours, les mois, la date, l'heure et les prix en français. Ce sont des mots qu'on utilise tous les jours dans n'importe quelle conversation, dans un magasin ou pour fixer un rendez-vous. Pour un hispanophone, la difficulté se trouve dans les nombres de 70 à 99, qui se construisent par addition ou multiplication (soixante-dix, quatre-vingts), et dans des détails comme « le premier mai » ou l'heure sans article.",
+ "contexto": {
+  "que_es": "C'est le vocabulaire de base pour compter et se situer dans le temps : les nombres cardinaux, les jours de la semaine, les mois, la formule de la date (le + nombre + mois), celle de l'heure (il est + nombre + heures) et la façon de dire les prix. En français de France, les nombres de 70 à 99 se forment en base vingt : 70, c'est 60 + 10 et 80, c'est 4 × 20.",
+  "por_que_importa": "Les nombres, les dates et les heures apparaissent dans presque tous les échanges pratiques : une réservation, un horaire de train, un prix ou une année. Une erreur ici n'est pas seulement de forme : confondre soixante-dix et soixante-douze, ou « midi » et « minuit », change l'information et provoque de vrais malentendus. À l'oral d'un examen, on remarque vite qu'un candidat hésite en disant une année ou un chiffre.",
+  "cuando_se_usa": "Chaque fois qu'il faut donner une quantité, un âge, un prix, une date ou une heure. Les signaux sont des questions comme Quelle heure est-il ?, Ça coûte combien ? ou Nous sommes le combien ? L'hispanophone a tendance à calquer l'espagnol : mettre un article devant l'heure (« il est les trois heures »), dire « le un mai » ou employer « à » avec les années ; en français, on dit il est trois heures, le premier mai et en 1998."
+ }
+}

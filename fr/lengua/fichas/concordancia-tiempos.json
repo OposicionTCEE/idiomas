@@ -1,0 +1,509 @@
+{
+ "id": "fr.g.concordancia-tiempos",
+ "titulo": "La concordance des temps",
+ "titulo_es": "Concordance des temps",
+ "descripcion_es": "Le temps de la subordonnée selon le temps du verbe principal, surtout au discours indirect.",
+ "nivel": "B2",
+ "resumen": "Quand le verbe principal est au passé, la subordonnée à l'indicatif change de temps pour exprimer l'antériorité, la simultanéité ou la postériorité. C'est essentiel au discours indirect (il a dit que…) et dans les résumés de textes.",
+ "explicacion": [
+  {
+   "tipo": "texto",
+   "texto": "Si le verbe principal est au présent ou au futur (il dit, il dira), la subordonnée ne change pas. S'il est au passé (il a dit, il disait, il avait dit), les temps se déplacent comme en espagnol, avec une différence importante : le futur devient conditionnel, jamais subjonctif imparfait."
+  },
+  {
+   "tipo": "tabla",
+   "cabecera": [
+    "Relation",
+    "Principale au présent",
+    "Principale au passé"
+   ],
+   "filas": [
+    [
+     "Simultanéité",
+     "Il dit qu'il est malade.",
+     "Il a dit qu'il était malade."
+    ],
+    [
+     "Antériorité",
+     "Il dit qu'il a fini.",
+     "Il a dit qu'il avait fini."
+    ],
+    [
+     "Postériorité",
+     "Il dit qu'il partira.",
+     "Il a dit qu'il partirait."
+    ],
+    [
+     "Futur antérieur",
+     "Il dit qu'il aura fini à midi.",
+     "Il a dit qu'il aurait fini à midi."
+    ],
+    [
+     "Futur proche",
+     "Il dit qu'il va pleuvoir.",
+     "Il a dit qu'il allait pleuvoir."
+    ]
+   ]
+  },
+  {
+   "tipo": "texto",
+   "texto": "Au subjonctif, le français actuel n'emploie presque que le présent et le passé : Je voulais qu'il vienne (et non qu'il vînt, qui est littéraire). Ici, l'espagnol emploie le subjonctif imparfait (quería que viniera), mais pas le français."
+  },
+  {
+   "tipo": "lista",
+   "items": [
+    "Les vérités générales peuvent rester au présent : Il a rappelé que la Terre tourne autour du Soleil.",
+    "Les marqueurs temporels changent aussi : aujourd'hui → ce jour-là, demain → le lendemain, hier → la veille, la semaine prochaine → la semaine suivante.",
+    "Une condition avec si suit sa propre règle : Il a dit que s'il pouvait, il viendrait."
+   ]
+  }
+ ],
+ "ejemplos": [
+  {
+   "frase": "La ministre a annoncé que le budget serait présenté en octobre.",
+   "traduccion": "La ministra anunció que los presupuestos se presentarían en octubre."
+  },
+  {
+   "frase": "Je savais que tu avais déjà réservé l'hôtel.",
+   "traduccion": "Sabía que ya habías reservado el hotel."
+  },
+  {
+   "frase": "Elle m'a assuré qu'elle aurait terminé avant vendredi.",
+   "traduccion": "Me aseguró que habría terminado antes del viernes."
+  },
+  {
+   "frase": "On pensait que le train allait partir à l'heure.",
+   "traduccion": "Pensábamos que el tren iba a salir a su hora."
+  },
+  {
+   "frase": "Il a dit qu'il viendrait le lendemain.",
+   "traduccion": "Dijo que vendría al día siguiente."
+  },
+  {
+   "frase": "Le professeur voulait que nous lisions ce roman.",
+   "traduccion": "El profesor quería que leyéramos esta novela."
+  }
+ ],
+ "errores_hispanohablantes": [
+  {
+   "mal": "Il a dit qu'il viendra demain.",
+   "bien": "Il a dit qu'il viendrait le lendemain.",
+   "nota": "Après un verbe au passé, le futur devient conditionnel (et demain devient le lendemain si le jour est déjà passé)."
+  },
+  {
+   "mal": "Je voulais qu'il venait.",
+   "bien": "Je voulais qu'il vienne.",
+   "nota": "Vouloir que exige le subjonctif ; le français courant emploie le subjonctif présent, pas l'imparfait."
+  },
+  {
+   "mal": "Elle a expliqué qu'elle a perdu son passeport.",
+   "bien": "Elle a expliqué qu'elle avait perdu son passeport.",
+   "nota": "L'antériorité par rapport à un passé s'exprime avec le plus-que-parfait."
+  }
+ ],
+ "ejercicios": [
+  {
+   "id": "e01",
+   "tipo": "hueco",
+   "enunciado": "Complétez avec le verbe au temps qui convient.",
+   "frase": "Le directeur a affirmé que l'entreprise ___ (embaucher) cinquante personnes l'année suivante.",
+   "respuestas": [
+    "embaucherait"
+   ],
+   "explicacion": "On applique la ligne de la postériorité du tableau : si le verbe principal est au passé (a affirmé) et que l'action subordonnée est postérieure à ce moment, on emploie le conditionnel présent. L'indice est l'année suivante, un marqueur de futur vu depuis le passé. Le conditionnel de embaucher avec il est embaucherait : infinitif + -ait.",
+   "explicacion_breve": "Postériorité par rapport à un passé : conditionnel présent.",
+   "traduccion": "El director afirmó que la empresa contrataría a cincuenta personas al año siguiente.",
+   "errores_previstos": [
+    {
+     "respuesta": "embauchera",
+     "explicacion": "C'est le futur simple, qui ne convient que si le verbe principal est au présent (il affirme). Après a affirmé, le futur devient conditionnel."
+    },
+    {
+     "respuesta": "embauchait",
+     "explicacion": "L'imparfait exprimerait la simultanéité avec le passé, pas une action postérieure. Pour le futur dans le passé, on emploie le conditionnel."
+    },
+    {
+     "respuesta": "embaucherais",
+     "explicacion": "La terminaison -ais est celle de je ou tu ; avec l'entreprise (il, elle), c'est -ait."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "embaucher",
+     "significado": "contratar",
+     "definicion_l": "Engager un salarié, passer avec lui un contrat de travail. · Entraîner quelqu’un avec soi dans une occupation quelconque."
+    }
+   ]
+  },
+  {
+   "id": "e02",
+   "tipo": "hueco",
+   "enunciado": "Complétez avec le verbe au temps qui convient.",
+   "frase": "Je croyais que tu ___ (être) en Belgique cette semaine-là.",
+   "respuestas": [
+    "étais",
+    "serais"
+   ],
+   "explicacion": "La ligne de la simultanéité du tableau indique que, avec la principale au passé (je croyais), ce qui se passe en même temps est à l'imparfait : tu étais. On accepte aussi serais : si cette semaine était future par rapport au moment où l'on croyait, il s'agit de postériorité et le conditionnel convient. L'indice est cette semaine-là, marqueur typique du discours indirect au passé.",
+   "explicacion_breve": "Simultanéité avec un passé : imparfait.",
+   "traduccion": "Creía que estabas (o que estarías) en Bélgica esa semana.",
+   "errores_previstos": [
+    {
+     "respuesta": "es",
+     "explicacion": "Le présent ne s'accorde pas avec le passé je croyais ; pour la simultanéité, on emploie l'imparfait étais."
+    },
+    {
+     "respuesta": "seras",
+     "explicacion": "Le futur ne peut pas dépendre d'un verbe au passé ; il devient conditionnel (serais)."
+    },
+    {
+     "respuesta": "sois",
+     "explicacion": "Croire à la forme affirmative se construit avec l'indicatif, pas avec le subjonctif."
+    }
+   ]
+  },
+  {
+   "id": "e03",
+   "tipo": "hueco",
+   "enunciado": "Complétez avec le verbe au temps qui convient.",
+   "frase": "Elle nous a dit qu'elle ___ (finir) sa thèse deux ans plus tôt.",
+   "respuestas": [
+    "avait fini"
+   ],
+   "explicacion": "C'est la ligne de l'antériorité : si l'action subordonnée est antérieure à un verbe principal au passé (a dit), on emploie le plus-que-parfait. L'indice est deux ans plus tôt, qui situe la thèse avant le moment où elle parle. Il se forme avec avoir à l'imparfait + participe : elle avait fini.",
+   "explicacion_breve": "Antériorité par rapport à un passé : plus-que-parfait.",
+   "traduccion": "Nos dijo que había terminado su tesis dos años antes.",
+   "errores_previstos": [
+    {
+     "respuesta": "a fini",
+     "explicacion": "C'est le passé composé ; c'est l'erreur typique de la fiche (elle a expliqué qu'elle a perdu). L'antériorité par rapport à un passé se marque avec le plus-que-parfait."
+    },
+    {
+     "respuesta": "finissait",
+     "explicacion": "L'imparfait indiquerait qu'elle était en train de la finir à ce moment-là, et non qu'elle l'avait déjà finie."
+    },
+    {
+     "respuesta": "était fini",
+     "explicacion": "Finir se conjugue avec avoir à la voix active ; était fini serait passif (la thèse était finie)."
+    }
+   ]
+  },
+  {
+   "id": "e04",
+   "tipo": "hueco",
+   "enunciado": "Complétez avec le verbe au temps qui convient.",
+   "frase": "Il m'a promis qu'il ___ (rendre) le rapport avant midi.",
+   "respuestas": [
+    "rendrait",
+    "aurait rendu"
+   ],
+   "explicacion": "Une promesse porte sur le futur ; vu depuis le passé (a promis), le futur devient conditionnel présent : il rendrait. On accepte aussi aurait rendu, le conditionnel passé, qui correspond à la ligne du futur antérieur : avec avant midi, on peut présenter la remise comme terminée avant cette échéance (il aura rendu devient il aurait rendu).",
+   "explicacion_breve": "Promesse future vue depuis un passé : conditionnel présent.",
+   "traduccion": "Me prometió que entregaría el informe antes de mediodía.",
+   "errores_previstos": [
+    {
+     "respuesta": "rendra",
+     "explicacion": "C'est le futur, possible seulement avec la principale au présent. Après il m'a promis, on emploie le conditionnel : rendrait."
+    },
+    {
+     "respuesta": "rendait",
+     "explicacion": "L'imparfait n'exprime pas la postériorité ; une promesse pour le futur, vue depuis le passé, se met au conditionnel."
+    },
+    {
+     "respuesta": "rendrais",
+     "explicacion": "La terminaison -ais correspond à je ou tu ; avec il, c'est rendrait."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "rendre un rapport",
+     "significado": "entregar un informe"
+    }
+   ]
+  },
+  {
+   "id": "e05",
+   "tipo": "eleccion",
+   "enunciado": "Choisissez la bonne réponse.",
+   "frase": "On m'a expliqué que la réunion ___ annulée la veille.",
+   "opciones": [
+    "a été",
+    "avait été",
+    "sera"
+   ],
+   "respuestas": [
+    "avait été"
+   ],
+   "explicacion": "L'annulation est antérieure à l'explication, qui est déjà au passé (on m'a expliqué) : il faut donc le plus-que-parfait, comme dans la ligne de l'antériorité. L'indice décisif est la veille, le marqueur qui remplace hier au discours indirect. Au passif, le plus-que-parfait de être annulée est avait été annulée.",
+   "explicacion_breve": "L'annulation est antérieure au moment passé de l'explication.",
+   "traduccion": "Me explicaron que la reunión se había anulado la víspera.",
+   "por_opcion": {
+    "a été": "Incorrect selon la norme de la concordance : le passé composé ne marque pas l'antériorité par rapport à un autre passé. On l'entend parfois à l'oral, mais avec la veille, la forme correcte est avait été.",
+    "avait été": "Correct : plus-que-parfait, action antérieure à un moment passé.",
+    "sera": "Incorrect : le futur ne peut pas dépendre d'un verbe au passé et, de plus, il contredit la veille."
+   }
+  },
+  {
+   "id": "e06",
+   "tipo": "eleccion",
+   "enunciado": "Choisissez la bonne réponse.",
+   "frase": "Nous espérions que les prix ___ enfin.",
+   "opciones": [
+    "baisseront",
+    "baisseraient",
+    "baissent"
+   ],
+   "respuestas": [
+    "baisseraient"
+   ],
+   "explicacion": "Espérer à la forme affirmative se construit avec l'indicatif, pas avec le subjonctif, à la différence de l'espagnol « esperar que ». Depuis un passé (nous espérions), la baisse des prix est vue comme future : le futur devient donc conditionnel, baisseraient. La terminaison -aient correspond à la troisième personne du pluriel, les prix.",
+   "explicacion_breve": "Espérer au passé + action future : conditionnel.",
+   "traduccion": "Esperábamos que los precios bajaran por fin.",
+   "por_opcion": {
+    "baisseront": "Incorrect : le futur convient avec la principale au présent (nous espérons que les prix baisseront). Avec espérions, on passe au conditionnel.",
+    "baisseraient": "Correct : conditionnel, futur vu depuis le passé.",
+    "baissent": "Incorrect : le présent ne s'accorde pas avec une principale au passé ; de plus, espérer se construit avec l'indicatif et un sens de subjonctif n'a pas lieu d'être ici."
+   }
+  },
+  {
+   "id": "e07",
+   "tipo": "eleccion",
+   "enunciado": "Choisissez la bonne réponse.",
+   "frase": "Il fallait que tu ___ ce formulaire.",
+   "opciones": [
+    "remplisses",
+    "remplissais",
+    "remplirais"
+   ],
+   "respuestas": [
+    "remplisses"
+   ],
+   "explicacion": "Il fallait que exige le subjonctif, et le texte de la fiche explique que le français actuel n'emploie que le présent (ou le passé) du subjonctif, même si le verbe principal est au passé. Là où l'espagnol dit « que rellenaras », au subjonctif imparfait, le français dit que tu remplisses. Le subjonctif de remplir se forme sur le radical de ils remplissent.",
+   "explicacion_breve": "Il fallait que demande le subjonctif ; en français courant, le subjonctif présent.",
+   "traduccion": "Hacía falta que rellenaras este formulario.",
+   "por_opcion": {
+    "remplisses": "Correct : subjonctif présent, la forme normale après il fallait que en français actuel.",
+    "remplissais": "Incorrect : c'est l'imparfait de l'indicatif, calque de l'espagnol « rellenaras ». Il fallait que exige le subjonctif.",
+    "remplirais": "Incorrect : le conditionnel ne peut pas suivre il fallait que."
+   },
+   "glosario": [
+    {
+     "palabra": "remplir un formulaire",
+     "significado": "rellenar un formulario"
+    }
+   ]
+  },
+  {
+   "id": "e08",
+   "tipo": "eleccion",
+   "enunciado": "Choisissez la bonne réponse.",
+   "frase": "Il a annoncé qu'il ___ démissionner.",
+   "opciones": [
+    "va",
+    "allait",
+    "irait"
+   ],
+   "respuestas": [
+    "allait"
+   ],
+   "explicacion": "La dernière ligne du tableau traite le futur proche : aller + infinitif, au discours indirect au passé, devient aller à l'imparfait + infinitif (il allait démissionner), comme l'espagnol « iba a ». L'indice est la principale au passé composé, il a annoncé, suivie d'un infinitif.",
+   "explicacion_breve": "Le futur proche (aller + infinitif) passe à l'imparfait de aller.",
+   "traduccion": "Anunció que iba a dimitir.",
+   "por_opcion": {
+    "va": "Incorrect : le présent de aller ne convient que si la principale est au présent (il annonce qu'il va démissionner).",
+    "allait": "Correct : après une principale au passé, le futur proche passe à l'imparfait de aller.",
+    "irait": "Ce n'est pas la réponse attendue : il irait démissionner signifierait qu'il se déplacerait pour démissionner, avec aller comme verbe de mouvement ; la transposition du futur proche est allait."
+   },
+   "glosario": [
+    {
+     "palabra": "démissionner",
+     "significado": "dimitir",
+     "definicion_l": "Donner sa démission. · Faire démissionner, démettre."
+    }
+   ]
+  },
+  {
+   "id": "e09",
+   "tipo": "transformar",
+   "enunciado": "Mettez au discours indirect en commençant par « Elle a dit que ».",
+   "frase": "Elle a dit : « Je suis fatiguée. »",
+   "respuestas": [
+    "Elle a dit qu'elle était fatiguée."
+   ],
+   "explicacion": "C'est la ligne de la simultanéité : le présent du discours direct (je suis) devient imparfait après un verbe au passé. En outre, le pronom change de personne : je devient elle, et l'adjectif fatiguée garde son accord au féminin. Les guillemets et les deux-points disparaissent et on introduit que, élidé devant elle.",
+   "explicacion_breve": "Présent au discours direct → imparfait après un verbe au passé.",
+   "traduccion": "Dijo que estaba cansada.",
+   "errores_previstos": [
+    {
+     "respuesta": "Elle a dit qu'elle est fatiguée.",
+     "explicacion": "Le présent est conservé ; après a dit, la simultanéité s'exprime avec l'imparfait : était."
+    },
+    {
+     "respuesta": "Elle a dit que je suis fatiguée.",
+     "explicacion": "Il faut changer la personne : au discours indirect, je devient elle, et le temps passe à l'imparfait."
+    },
+    {
+     "respuesta": "Elle a dit qu'elle était fatigué.",
+     "explicacion": "L'accord de l'adjectif avec elle a disparu : fatiguée."
+    }
+   ]
+  },
+  {
+   "id": "e10",
+   "tipo": "transformar",
+   "enunciado": "Mettez au discours indirect en commençant par « Il a dit que ».",
+   "frase": "Il a dit : « J'ai raté le bus. »",
+   "respuestas": [
+    "Il a dit qu'il avait raté le bus."
+   ],
+   "explicacion": "C'est la ligne de l'antériorité : le passé composé du discours direct (j'ai raté) devient plus-que-parfait (il avait raté) après un verbe au passé. Le pronom je devient il et que s'élide devant il. Rater le bus signifie ne pas avoir pu prendre le bus parce qu'on est arrivé trop tard.",
+   "explicacion_breve": "Passé composé → plus-que-parfait.",
+   "traduccion": "Dijo que había perdido el autobús.",
+   "errores_previstos": [
+    {
+     "respuesta": "Il a dit qu'il a raté le bus.",
+     "explicacion": "Le passé composé est conservé ; l'antériorité par rapport à il a dit exige le plus-que-parfait."
+    },
+    {
+     "respuesta": "Il a dit qu'il ratait le bus.",
+     "explicacion": "L'imparfait exprime la simultanéité, pas une action déjà terminée avant le moment où l'on parle."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "rater le bus",
+     "significado": "perder el autobús"
+    }
+   ]
+  },
+  {
+   "id": "e11",
+   "tipo": "transformar",
+   "enunciado": "Mettez au discours indirect en commençant par « Ils ont dit que ».",
+   "frase": "Ils ont dit : « Nous déménagerons en juin. »",
+   "respuestas": [
+    "Ils ont dit qu'ils déménageraient en juin."
+   ],
+   "explicacion": "C'est la ligne de la postériorité : le futur simple du discours direct (nous déménagerons) devient conditionnel présent après un verbe au passé. Le sujet nous devient ils, la terminaison est donc -aient : ils déménageraient. N'oubliez pas le e après le g, qui garde le son doux.",
+   "explicacion_breve": "Futur simple → conditionnel présent.",
+   "traduccion": "Dijeron que se mudarían en junio.",
+   "errores_previstos": [
+    {
+     "respuesta": "Ils ont dit qu'ils déménageront en juin.",
+     "explicacion": "Le futur est conservé ; c'est l'erreur typique de la fiche. Après ont dit, le futur devient conditionnel."
+    },
+    {
+     "respuesta": "Ils ont dit qu'ils déménageaient en juin.",
+     "explicacion": "L'imparfait ne marque pas la postériorité ; il faut le conditionnel déménageraient."
+    },
+    {
+     "respuesta": "Ils ont dit que nous déménagerions en juin.",
+     "explicacion": "Il manque le changement de personne : nous devient ils au discours indirect."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "déménager",
+     "significado": "mudarse (de casa)",
+     "definicion_l": "Ôter d’une maison, d’un logement ou d'un entrepôt ce qui le garnit pour le transporter ailleurs. · Quitter l’endroit où l’on demeure."
+    }
+   ]
+  },
+  {
+   "id": "e12",
+   "tipo": "corregir",
+   "enunciado": "Corrigez l'erreur de concordance des temps.",
+   "frase": "Le ministre a déclaré que la loi entrera en vigueur l'année suivante.",
+   "respuestas": [
+    "Le ministre a déclaré que la loi entrerait en vigueur l'année suivante."
+   ],
+   "explicacion": "Après un verbe principal au passé (a déclaré), l'action postérieure se met au conditionnel, pas au futur. L'indice est l'année suivante, qui situe le point de référence dans le passé ; si l'on disait l'année prochaine, le locuteur pourrait garder le futur, car ce serait encore le futur aujourd'hui. C'est pourquoi entrera devient entrerait.",
+   "explicacion_breve": "Avec l'année suivante, la référence est passée : futur → conditionnel.",
+   "traduccion": "El ministro declaró que la ley entraría en vigor al año siguiente.",
+   "errores_previstos": [
+    {
+     "respuesta": "Le ministre a déclaré que la loi entrera en vigueur l'année suivante.",
+     "explicacion": "C'est la phrase non corrigée : le futur ne va ni avec a déclaré ni avec l'année suivante."
+    },
+    {
+     "respuesta": "Le ministre a déclaré que la loi entrait en vigueur l'année suivante.",
+     "explicacion": "L'imparfait n'exprime pas la postériorité ; il faut le conditionnel entrerait."
+    },
+    {
+     "respuesta": "Le ministre a déclaré que la loi entrerait en vigueur l'année prochaine.",
+     "explicacion": "Le verbe a été corrigé, mais le marqueur a été changé ; la correction demandée ne porte que sur le temps verbal."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "entrer en vigueur",
+     "significado": "entrar en vigor",
+     "definicion_l": "Commencer ; devenir valable."
+    }
+   ]
+  },
+  {
+   "id": "e13",
+   "tipo": "corregir",
+   "enunciado": "Corrigez l'erreur.",
+   "frase": "Je voulais que vous veniez le lendemain, mais il a dit qu'il ne pourra pas vous recevoir.",
+   "respuestas": [
+    "Je voulais que vous veniez le lendemain, mais il a dit qu'il ne pourrait pas vous recevoir."
+   ],
+   "explicacion": "La première partie est déjà correcte : je voulais que vous veniez emploie le subjonctif présent, comme le recommande la fiche. L'erreur est dans la seconde : après il a dit, le futur pourra doit devenir conditionnel, pourrait. L'indice est le lendemain, qui confirme que toute la perspective est passée.",
+   "explicacion_breve": "Après il a dit, le futur devient conditionnel.",
+   "traduccion": "Quería que vinieran al día siguiente, pero él dijo que no podría recibirlos.",
+   "errores_previstos": [
+    {
+     "respuesta": "Je voulais que vous veniez le lendemain, mais il a dit qu'il ne pourra pas vous recevoir.",
+     "explicacion": "C'est la phrase non corrigée : pourra doit devenir conditionnel après il a dit."
+    },
+    {
+     "respuesta": "Je voulais que vous veniez le lendemain, mais il a dit qu'il ne pouvait pas vous recevoir.",
+     "explicacion": "L'imparfait exprime la simultanéité ; ici, la réception est postérieure (le lendemain) : elle se met donc au conditionnel."
+    },
+    {
+     "respuesta": "Je voulais que vous veniez le lendemain, mais il a dit qu'il ne pourrais pas vous recevoir.",
+     "explicacion": "La terminaison -ais est celle de je ou tu ; avec il, c'est pourrait."
+    }
+   ]
+  },
+  {
+   "id": "e14",
+   "tipo": "ordenar",
+   "enunciado": "Remettez les mots dans l'ordre.",
+   "palabras": [
+    "qu'il",
+    "pleuvrait",
+    "avait",
+    "annoncé",
+    "On"
+   ],
+   "respuestas": [
+    "On avait annoncé qu'il pleuvrait"
+   ],
+   "explicacion": "La principale est au plus-que-parfait (on avait annoncé) et la pluie est postérieure à l'annonce : la subordonnée se met donc au conditionnel, qu'il pleuvrait. L'ordre est sujet + verbe principal + que + subordonnée. On est ici un sujet indéterminé, comme le « se » espagnol ou la troisième personne du pluriel.",
+   "explicacion_breve": "Principale au plus-que-parfait et postériorité au conditionnel.",
+   "traduccion": "Habían anunciado que llovería.",
+   "errores_previstos": [
+    {
+     "respuesta": "On annoncé avait qu'il pleuvrait",
+     "explicacion": "L'auxiliaire avait se place devant le participe annoncé."
+    },
+    {
+     "respuesta": "Qu'il pleuvrait on avait annoncé",
+     "explicacion": "La complétive introduite par que se place après le verbe principal, pas devant."
+    }
+   ]
+  }
+ ],
+ "fuente": {
+  "nombre": "propia"
+ },
+ "descripcion_larga_es": "La concordance des temps détermine le temps de la subordonnée quand le verbe principal est au passé : il a dit qu'il était malade, qu'il avait fini, qu'il partirait. Elle est essentielle au discours indirect et dans les résumés. Elle fonctionne presque comme en espagnol, mais l'hispanophone se trompe en gardant le futur (il a dit qu'il viendra) et en employant le subjonctif imparfait là où le français actuel emploie le présent.",
+ "contexto": {
+  "que_es": "C'est la règle qui ajuste le temps du verbe subordonné à celui du verbe principal. Si la principale est au présent ou au futur, la subordonnée ne change pas ; si elle est au passé, le présent devient imparfait, le passé composé devient plus-que-parfait, le futur devient conditionnel et le futur antérieur devient conditionnel passé. Les marqueurs temporels changent aussi (demain devient le lendemain).",
+  "por_que_importa": "Elle est indispensable pour rapporter ce que quelqu'un a dit, pensé ou annoncé, ce qui est constant dans la conversation, dans la presse et dans les exercices de résumé et de synthèse d'un examen B2. Garder un futur après il a dit, ou un passé composé là où il faut un plus-que-parfait, brouille la chronologie et paraît négligé dans un texte formel.",
+  "cuando_se_usa": "Elle s'applique après des verbes de parole, de pensée ou de perception au passé (dire, annoncer, expliquer, croire, savoir, espérer) suivis de que. Le signal est le verbe principal au passé composé, à l'imparfait ou au plus-que-parfait. L'hispanophone réussit en général l'imparfait et le plus-que-parfait, mais il garde le futur ou calque le subjonctif imparfait (« quería que viniera »)."
+ }
+}

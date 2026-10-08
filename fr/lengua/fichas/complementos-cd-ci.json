@@ -1,0 +1,539 @@
+{
+ "id": "fr.g.complementos-cd-ci",
+ "titulo": "Les pronoms compléments (COD et COI)",
+ "titulo_es": "Pronoms compléments d'objet direct et indirect (le, la, les ; lui, leur)",
+ "descripcion_es": "Formes des pronoms compléments d'objet direct et indirect et leur place dans la phrase.",
+ "nivel": "A2",
+ "resumen": "Le, la, les remplacent le complément d'objet direct (es : lo, la, los, las) et lui, leur le complément indirect avec à + personne (es : le, les) ; ils se placent devant le verbe conjugué, l'auxiliaire ou l'infinitif dont ils dépendent.",
+ "explicacion": [
+  {
+   "tipo": "tabla",
+   "cabecera": [
+    "Personne",
+    "Direct",
+    "Indirect"
+   ],
+   "filas": [
+    [
+     "1re sing.",
+     "me (m')",
+     "me (m')"
+    ],
+    [
+     "2e sing.",
+     "te (t')",
+     "te (t')"
+    ],
+    [
+     "3e sing.",
+     "le, la (l')",
+     "lui"
+    ],
+    [
+     "1re plur.",
+     "nous",
+     "nous"
+    ],
+    [
+     "2e plur.",
+     "vous",
+     "vous"
+    ],
+    [
+     "3e plur.",
+     "les",
+     "leur"
+    ]
+   ]
+  },
+  {
+   "tipo": "texto",
+   "texto": "Direct : il répond à la question « quoi ? » ou « qui ? » sans préposition : Tex cherche le numéro → il le cherche. Indirect : il remplace à + personne : Tex offre des fleurs à Tammy → Tex lui offre des fleurs. Lui vaut pour « à lui » et « à elle » ; leur (sans -s) pour « à eux, à elles ». Attention : beaucoup de verbes qui, en espagnol, prennent le « a » de personne sont directs en français (aimer, voir, appeler, attendre), et certains verbes directs en espagnol sont indirects en français (téléphoner à, répondre à, demander à)."
+  },
+  {
+   "tipo": "lista",
+   "items": [
+    "Devant le verbe conjugué : Je la vois. Je ne la vois pas.",
+    "Aux temps composés, devant l'auxiliaire : Je l'ai rencontré. Je ne lui ai pas parlé.",
+    "Avec verbe + infinitif, devant l'infinitif : Je vais l'appeler. Tu peux leur écrire.",
+    "À l'impératif affirmatif, après le verbe avec un trait d'union (me et te deviennent moi et toi) : Explique-moi ! Regarde-les ! À l'impératif négatif, ils reviennent devant : Ne lui parle pas !",
+    "Le, la, me, te s'élident devant une voyelle ou un h muet : Je t'aime. Il l'attend."
+   ]
+  },
+  {
+   "tipo": "texto",
+   "texto": "Aux temps composés, le participe s'accorde avec un complément d'objet direct placé avant : Tu as vu Marie ? — Oui, je l'ai vue. Avec le complément indirect, il n'y a pas d'accord : Je leur ai parlé."
+  }
+ ],
+ "ejemplos": [
+  {
+   "frase": "Enfin il trouve le numéro et il l'appelle.",
+   "traduccion": "Por fin encuentra el número y la llama."
+  },
+  {
+   "frase": "Tex ne veut pas t'épouser.",
+   "traduccion": "Tex no quiere casarse contigo."
+  },
+  {
+   "frase": "Tu leur as offert des fleurs, à toutes les deux !",
+   "traduccion": "¡Les has regalado flores a las dos!"
+  },
+  {
+   "frase": "Je vais aller lui parler.",
+   "traduccion": "Voy a ir a hablar con ella."
+  },
+  {
+   "frase": "Ne lui parle pas !",
+   "traduccion": "¡No le hables!"
+  },
+  {
+   "frase": "Je ne l'ai pas embrassée.",
+   "traduccion": "No la he besado."
+  }
+ ],
+ "errores_hispanohablantes": [
+  {
+   "mal": "Je lui aime.",
+   "bien": "Je l'aime.",
+   "nota": "Aimer se construit avec un complément direct ; l'espagnol « le quiero » ne se traduit pas avec lui."
+  },
+  {
+   "mal": "Je la téléphone ce soir.",
+   "bien": "Je lui téléphone ce soir.",
+   "nota": "Téléphoner à se construit avec un complément indirect : lui."
+  },
+  {
+   "mal": "Je leurs écris.",
+   "bien": "Je leur écris.",
+   "nota": "Le pronom leur ne prend jamais de -s."
+  },
+  {
+   "mal": "Je la vais appeler.",
+   "bien": "Je vais l'appeler.",
+   "nota": "Le pronom se place devant l'infinitif dont il dépend."
+  }
+ ],
+ "ejercicios": [
+  {
+   "id": "e01",
+   "tipo": "hueco",
+   "enunciado": "Remplacez « la clé » par un pronom.",
+   "frase": "Peux-tu ___ trouver ?",
+   "respuestas": [
+    "la"
+   ],
+   "explicacion": "La clé est un complément d'objet direct (trouver quelque chose, sans préposition) féminin singulier : on le remplace donc par la. Selon la liste de la fiche, avec verbe + infinitif, le pronom se place devant l'infinitif dont il dépend : peux-tu la trouver. L'indice est que la clé n'a pas de préposition et qu'il est féminin.",
+   "origen": "tatoeba:482320",
+   "explicacion_breve": "COD féminin singulier : la, devant l'infinitif.",
+   "traduccion": "¿Puedes encontrarla?",
+   "errores_previstos": [
+    {
+     "respuesta": "le",
+     "explicacion": "Le est masculin ; clé est féminin, le pronom est donc la."
+    },
+    {
+     "respuesta": "lui",
+     "explicacion": "Lui remplace à + personne. Dans trouver la clé, le complément est direct, sans préposition : la."
+    }
+   ]
+  },
+  {
+   "id": "e02",
+   "tipo": "hueco",
+   "enunciado": "Remplacez « tes livres » par un pronom.",
+   "frase": "Veux-tu ___ vendre ?",
+   "respuestas": [
+    "les"
+   ],
+   "explicacion": "Tes livres est le COD pluriel de vendre (vendre quelque chose) : on le remplace donc par les, valable au masculin et au féminin pluriel. Il se place devant l'infinitif vendre, dont il dépend, et non devant veux. L'indice est le pluriel livres sans préposition.",
+   "origen": "tatoeba:8666757",
+   "explicacion_breve": "COD pluriel : les.",
+   "traduccion": "¿Quieres venderlos?",
+   "errores_previstos": [
+    {
+     "respuesta": "leur",
+     "explicacion": "Leur est indirect et remplace à + personnes. Les livres sont un complément direct : les."
+    },
+    {
+     "respuesta": "le",
+     "explicacion": "Le est singulier ; tes livres est pluriel : les."
+    }
+   ]
+  },
+  {
+   "id": "e03",
+   "tipo": "hueco",
+   "enunciado": "Remplacez « à Marc » par un pronom.",
+   "frase": "Vas-tu ___ parler ?",
+   "respuestas": [
+    "lui"
+   ],
+   "explicacion": "Parler se construit avec à + personne (parler à Marc), c'est-à-dire avec un complément indirect, qui à la troisième personne du singulier est lui. Il se place devant l'infinitif parler, qui est le verbe dont il dépend. Remarquez que l'espagnol dit « hablar con él », mais que le français emploie à, et donc lui.",
+   "origen": "tatoeba:6555424",
+   "explicacion_breve": "Parler à + personne : COI lui.",
+   "traduccion": "¿Vas a hablar con él?",
+   "errores_previstos": [
+    {
+     "respuesta": "le",
+     "explicacion": "Le remplacerait un complément direct. Parler se construit avec à + personne ; le pronom est donc indirect : lui."
+    },
+    {
+     "respuesta": "avec lui",
+     "explicacion": "Parler avec lui existe, mais il se placerait alors après le verbe (parler avec lui). Le trou est devant l'infinitif et demande le pronom atone lui."
+    }
+   ]
+  },
+  {
+   "id": "e04",
+   "tipo": "eleccion",
+   "enunciado": "Choisissez le pronom qui remplace « à ma mère ».",
+   "frase": "Devrais-je ___ dire ?",
+   "opciones": [
+    "la",
+    "lui",
+    "leur"
+   ],
+   "respuestas": [
+    "lui"
+   ],
+   "explicacion": "Dire se construit avec à + personne (dire quelque chose à quelqu'un) ; à ma mère est donc un complément indirect singulier : lui, valable pour il et pour elle. Il se place devant l'infinitif dire. L'indice est la préposition à devant la personne.",
+   "origen": "tatoeba:12042",
+   "explicacion_breve": "Dire à quelqu'un : indirect singulier lui.",
+   "traduccion": "¿Debería decírselo (a mi madre)?",
+   "por_opcion": {
+    "la": "Incorrect : la remplace un complément direct féminin. Ma mère est introduit par à : il est donc indirect.",
+    "lui": "Correct : lui remplace à + une personne, homme ou femme.",
+    "leur": "Incorrect : leur est l'indirect pluriel (à mes parents) ; ici, il s'agit d'une seule personne."
+   }
+  },
+  {
+   "id": "e05",
+   "tipo": "eleccion",
+   "enunciado": "Choisissez le pronom qui remplace « Julie ».",
+   "frase": "Aimerais-tu ___ voir ?",
+   "opciones": [
+    "la",
+    "lui",
+    "le"
+   ],
+   "respuestas": [
+    "la"
+   ],
+   "explicacion": "Voir se construit sans préposition (voir quelqu'un) ; Julie est donc un COD féminin singulier : la. Le texte de la fiche avertit que beaucoup de verbes qui, en espagnol, prennent le « a » de personne sont directs en français, et voir en fait partie. Le pronom se place devant l'infinitif voir.",
+   "origen": "tatoeba:1921995",
+   "explicacion_breve": "Voir quelqu'un : COD féminin la.",
+   "traduccion": "¿Te gustaría verla?",
+   "por_opcion": {
+    "la": "Correct : COD féminin singulier, devant l'infinitif voir.",
+    "lui": "Incorrect : c'est l'erreur de l'hispanophone qui pense à « ver a Julie ». Voir ne prend pas à en français : on n'emploie donc pas l'indirect.",
+    "le": "Incorrect : le est masculin, et Julie est féminin."
+   }
+  },
+  {
+   "id": "e06",
+   "tipo": "transformar",
+   "enunciado": "Remplacez « à Tammy » par un pronom.",
+   "frase": "Tex offre des fleurs à Tammy.",
+   "respuestas": [
+    "Tex lui offre des fleurs."
+   ],
+   "explicacion": "C'est l'exemple de la fiche : offrir quelque chose à quelqu'un. À Tammy est un complément indirect singulier, remplacé par lui. Le pronom se place devant le verbe conjugué offre, et le COD des fleurs reste à sa place.",
+   "explicacion_breve": "À + personne au singulier → lui, devant le verbe.",
+   "traduccion": "Tex le regala flores (a Tammy).",
+   "errores_previstos": [
+    {
+     "respuesta": "Tex la offre des fleurs.",
+     "explicacion": "La est un complément direct ; Tammy est introduit par à : c'est donc un indirect, lui. De plus, la devrait s'élider devant une voyelle."
+    },
+    {
+     "respuesta": "Tex offre lui des fleurs.",
+     "explicacion": "Le pronom atone se place devant le verbe conjugué, pas après : Tex lui offre."
+    },
+    {
+     "respuesta": "Tex offre des fleurs à lui.",
+     "explicacion": "La personne a été changée et le pronom atone n'a pas été employé ; de plus, Tammy est une femme, même si le pronom atone lui vaut pour les deux genres."
+    }
+   ]
+  },
+  {
+   "id": "e07",
+   "tipo": "transformar",
+   "enunciado": "Remplacez « à mes parents » par un pronom.",
+   "frase": "Je téléphone à mes parents.",
+   "respuestas": [
+    "Je leur téléphone."
+   ],
+   "explicacion": "La fiche cite téléphoner à parmi les verbes qui, en français, se construisent avec un complément indirect. À mes parents est au pluriel : on le remplace donc par leur, sans -s, devant le verbe. En espagnol, on dit « los llamo », avec un complément direct, d'où l'erreur typique je les téléphone.",
+   "explicacion_breve": "Téléphoner à + personnes au pluriel → leur.",
+   "traduccion": "Los llamo por teléfono.",
+   "errores_previstos": [
+    {
+     "respuesta": "Je les téléphone.",
+     "explicacion": "Calque de l'espagnol « los llamo ». Téléphoner se construit avec à ; le pronom est donc indirect : leur."
+    },
+    {
+     "respuesta": "Je leurs téléphone.",
+     "explicacion": "Le pronom leur ne prend jamais de -s ; leurs avec -s est le possessif (leurs parents)."
+    },
+    {
+     "respuesta": "Je lui téléphone.",
+     "explicacion": "Lui est singulier ; mes parents sont plusieurs : leur."
+    }
+   ]
+  },
+  {
+   "id": "e08",
+   "tipo": "transformar",
+   "enunciado": "Remplacez « le bus » par un pronom.",
+   "frase": "J'attends le bus.",
+   "respuestas": [
+    "Je l'attends."
+   ],
+   "explicacion": "Attendre fait partie des verbes que la fiche signale comme directs en français : attendre quelqu'un ou quelque chose, sans préposition. Le bus est remplacé par le, qui s'élide devant la voyelle de attends : je l'attends. L'indice est la voyelle initiale du verbe.",
+   "explicacion_breve": "Attendre se construit avec un COD ; le s'élide devant une voyelle.",
+   "traduccion": "Lo espero.",
+   "errores_previstos": [
+    {
+     "respuesta": "Je le attends.",
+     "explicacion": "Le s'élide obligatoirement devant une voyelle : je l'attends."
+    },
+    {
+     "respuesta": "Je lui attends.",
+     "explicacion": "Attendre ne prend pas à ; le complément est direct, d'où le (l')."
+    },
+    {
+     "respuesta": "J'attends le.",
+     "explicacion": "Le pronom atone se place devant le verbe conjugué, pas après."
+    }
+   ]
+  },
+  {
+   "id": "e09",
+   "tipo": "transformar",
+   "enunciado": "Remplacez « ce travail » par un pronom.",
+   "frase": "Peux-tu faire ce travail ?",
+   "respuestas": [
+    "Peux-tu le faire ?"
+   ],
+   "explicacion": "Ce travail est le COD masculin singulier de faire : on le remplace donc par le. Avec verbe + infinitif, le pronom se place devant l'infinitif dont il dépend (faire), et non devant peux : peux-tu le faire ?",
+   "origen": "tatoeba:2353266",
+   "explicacion_breve": "Le pronom se place devant l'infinitif dont il dépend.",
+   "traduccion": "¿Puedes hacerlo?",
+   "errores_previstos": [
+    {
+     "respuesta": "Le peux-tu faire ?",
+     "explicacion": "Calque de la place du pronom dans l'espagnol « ¿lo puedes hacer? ». En français moderne, le pronom se place devant l'infinitif : peux-tu le faire."
+    },
+    {
+     "respuesta": "Peux-tu faire le ?",
+     "explicacion": "Le pronom atone ne se place pas après l'infinitif, mais devant : le faire."
+    },
+    {
+     "respuesta": "Peux-tu lui faire ?",
+     "explicacion": "Lui remplace à + personne ; ce travail est un complément direct : le."
+    }
+   ]
+  },
+  {
+   "id": "e10",
+   "tipo": "corregir",
+   "enunciado": "Corrigez l'erreur.",
+   "frase": "Je lui aime.",
+   "respuestas": [
+    "Je l'aime."
+   ],
+   "explicacion": "C'est la première erreur typique de la fiche : aimer se construit avec un complément direct ; le pronom est donc le ou la, et il s'élide devant une voyelle : je l'aime. L'espagnol « le quiero », avec leísmo, pousse à employer lui, mais en français lui remplace seulement à + personne.",
+   "explicacion_breve": "Aimer se construit avec un COD : l'.",
+   "traduccion": "Lo quiero (la quiero).",
+   "errores_previstos": [
+    {
+     "respuesta": "Je lui aime.",
+     "explicacion": "C'est la phrase non corrigée : aimer ne prend pas à, on n'emploie donc pas l'indirect lui."
+    },
+    {
+     "respuesta": "Je le aime.",
+     "explicacion": "Le pronom est correct, mais le s'élide devant une voyelle : je l'aime."
+    },
+    {
+     "respuesta": "J'aime lui.",
+     "explicacion": "Le pronom atone se place devant le verbe et doit être direct : je l'aime."
+    }
+   ]
+  },
+  {
+   "id": "e11",
+   "tipo": "corregir",
+   "enunciado": "Corrigez l'erreur.",
+   "frase": "Je ne le ai pas vu.",
+   "respuestas": [
+    "Je ne l'ai pas vu."
+   ],
+   "explicacion": "La liste de la fiche rappelle que le, la, me et te s'élident devant une voyelle ou un h muet. Ici, le se trouve devant l'auxiliaire ai, qui commence par une voyelle : il devient donc l'. La négation encadre le bloc pronom + auxiliaire : je ne l'ai pas vu.",
+   "explicacion_breve": "Le s'élide devant une voyelle : l'ai.",
+   "traduccion": "No lo he visto.",
+   "errores_previstos": [
+    {
+     "respuesta": "Je ne le ai pas vu.",
+     "explicacion": "C'est la phrase non corrigée : le doit s'élider devant ai."
+    },
+    {
+     "respuesta": "Je ne l'ai vu pas.",
+     "explicacion": "Aux temps composés, pas se place entre l'auxiliaire et le participe : je ne l'ai pas vu."
+    },
+    {
+     "respuesta": "Je l'ai ne pas vu.",
+     "explicacion": "Ne se place devant le pronom et l'auxiliaire, et le mot pas se place après l'auxiliaire."
+    }
+   ]
+  },
+  {
+   "id": "e12",
+   "tipo": "corregir",
+   "enunciado": "Corrigez l'erreur.",
+   "frase": "Je la vais appeler.",
+   "respuestas": [
+    "Je vais l'appeler."
+   ],
+   "explicacion": "La fiche la présente comme une erreur typique : avec verbe + infinitif, le pronom se place devant l'infinitif dont il dépend, et non devant aller. On appelle la personne (appeler), on ne « va » pas la personne ; la se place donc devant appeler et s'élide devant la voyelle : je vais l'appeler.",
+   "explicacion_breve": "Le pronom se place devant l'infinitif, pas devant aller.",
+   "traduccion": "Voy a llamarla (la voy a llamar).",
+   "errores_previstos": [
+    {
+     "respuesta": "Je la vais appeler.",
+     "explicacion": "C'est la phrase non corrigée : c'est la place du pronom dans l'espagnol « la voy a llamar », qui ne s'emploie pas en français actuel."
+    },
+    {
+     "respuesta": "Je vais la appeler.",
+     "explicacion": "La place est correcte, mais la s'élide devant la voyelle de appeler : l'appeler."
+    },
+    {
+     "respuesta": "Je vais lui appeler.",
+     "explicacion": "Appeler est direct en français (appeler quelqu'un) : on emploie donc la, pas lui."
+    }
+   ]
+  },
+  {
+   "id": "e13",
+   "tipo": "ordenar",
+   "enunciado": "Remettez les mots dans l'ordre (es : Danos paz).",
+   "palabras": [
+    "paix",
+    "Donne-nous",
+    "la"
+   ],
+   "respuestas": [
+    "Donne-nous la paix"
+   ],
+   "explicacion": "La fiche explique qu'à l'impératif affirmatif le pronom se place après le verbe, relié par un trait d'union : donne-nous. Vient ensuite le COD la paix. Ici, le bloc Donne-nous est déjà formé ; il suffit de placer la paix après.",
+   "origen": "tatoeba:1119821",
+   "explicacion_breve": "À l'impératif affirmatif, le pronom se place après le verbe avec un trait d'union.",
+   "traduccion": "Danos la paz.",
+   "errores_previstos": [
+    {
+     "respuesta": "La paix donne-nous",
+     "explicacion": "Dans un ordre, le COD la paix se place après le verbe, pas devant."
+    },
+    {
+     "respuesta": "Donne-nous paix la",
+     "explicacion": "L'article la doit se placer devant le nom paix."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "la paix",
+     "significado": "la paz"
+    }
+   ]
+  },
+  {
+   "id": "e14",
+   "tipo": "ordenar",
+   "enunciado": "Remettez les mots dans l'ordre (es : ¿Puedo hablar con ella?).",
+   "palabras": [
+    "parler",
+    "lui",
+    "Puis-je"
+   ],
+   "respuestas": [
+    "Puis-je lui parler"
+   ],
+   "explicacion": "Parler se construit avec à + personne ; le pronom est donc indirect : lui. Avec verbe + infinitif, il se place devant l'infinitif parler, et non devant puis. Puis-je est la forme interrogative soutenue de pouvoir avec inversion, très employée dans les demandes polies.",
+   "origen": "tatoeba:1977614",
+   "explicacion_breve": "Lui se place devant l'infinitif parler.",
+   "traduccion": "¿Puedo hablar con él / con ella?",
+   "errores_previstos": [
+    {
+     "respuesta": "Puis-je parler lui",
+     "explicacion": "Le pronom atone ne se place pas après l'infinitif, mais devant : lui parler."
+    },
+    {
+     "respuesta": "Lui puis-je parler",
+     "explicacion": "Calque de l'espagnol « ¿le puedo hablar? ». Le pronom se place devant l'infinitif dont il dépend : puis-je lui parler."
+    }
+   ]
+  },
+  {
+   "id": "e15",
+   "tipo": "hueco",
+   "enunciado": "Complétez avec le participe de voir.",
+   "frase": "Tu as vu Marie ? — Oui, je l'ai ___ hier.",
+   "respuestas": [
+    "vue"
+   ],
+   "explicacion": "On applique la règle du dernier texte de la fiche : aux temps composés avec avoir, le participe s'accorde avec le COD s'il est placé avant. Ici, l' remplace Marie, féminin singulier, et se trouve devant l'auxiliaire : vu prend donc un -e : vue. L'accord ne se voit qu'à l'écrit.",
+   "explicacion_breve": "Le COD l' (Marie) est placé avant : le participe s'accorde au féminin.",
+   "traduccion": "¿Has visto a Marie? Sí, la vi ayer.",
+   "errores_previstos": [
+    {
+     "respuesta": "vu",
+     "explicacion": "Il manque l'accord : le COD l' (Marie) est placé devant l'auxiliaire et il est féminin, donc vue."
+    },
+    {
+     "respuesta": "vues",
+     "explicacion": "Marie est une seule personne : féminin singulier, vue."
+    },
+    {
+     "respuesta": "voir",
+     "explicacion": "Après l'auxiliaire ai, il faut le participe, pas l'infinitif."
+    }
+   ]
+  },
+  {
+   "id": "e16",
+   "tipo": "eleccion",
+   "enunciado": "Choisissez le bon pronom (j'écris à mes amis).",
+   "frase": "Mes amis ? Je ___ écris souvent.",
+   "opciones": [
+    "les",
+    "leur",
+    "leurs"
+   ],
+   "respuestas": [
+    "leur"
+   ],
+   "explicacion": "Écrire se construit avec à + personne (écrire à ses amis) ; le complément est donc indirect. Au pluriel, c'est leur, qui, comme pronom, ne prend jamais de -s, comme le souligne la fiche. Il se place devant le verbe écris et ne s'élide pas devant une voyelle.",
+   "explicacion_breve": "Écrire à + personnes au pluriel : leur, sans -s.",
+   "traduccion": "¿Mis amigos? Les escribo a menudo.",
+   "por_opcion": {
+    "les": "Incorrect : les remplace un complément direct ; écrire se construit avec à + personne : le complément est donc indirect.",
+    "leur": "Correct : indirect pluriel, pour à mes amis.",
+    "leurs": "Incorrect : leurs avec -s est le déterminant possessif (leurs amis) ; le pronom leur est invariable."
+   }
+  }
+ ],
+ "fuente": {
+  "nombre": "Tex's French Grammar",
+  "autores": "COERLL, Université du Texas à Austin",
+  "licencia": "CC BY 3.0",
+  "url": "https://laits.utexas.edu/tex/gr/pro5.html",
+  "otras": [
+   "Phrases de Tatoeba (CC BY 2.0 FR)"
+  ]
+ },
+ "descripcion_larga_es": "Les pronoms compléments d'objet direct (le, la, les) et indirect (lui, leur) remplacent un complément déjà mentionné et évitent de le répéter. Ils sont indispensables pour parler avec aisance. Ils posent deux difficultés à l'hispanophone : leur place (devant le verbe, l'auxiliaire ou l'infinitif) et le fait que beaucoup de verbes ne se construisent pas comme en espagnol : aimer ou appeler sont directs, et téléphoner à ou répondre à, indirects.",
+ "contexto": {
+  "que_es": "Ce sont les pronoms atones qui remplacent le complément d'objet direct (le, la, les, l', plus me, te, nous, vous) ou le complément indirect introduit par à + personne (lui, leur, et aussi me, te, nous, vous). Ils se placent devant le verbe dont ils dépendent, sauf à l'impératif affirmatif, où ils se placent après, avec un trait d'union.",
+  "por_que_importa": "Sans pronoms, le discours devient répétitif et artificiel ; mal choisis, ils produisent des erreurs très visibles comme je lui aime ou je la téléphone. Ils sont un contenu central du niveau A2 et apparaissent dans presque toutes les réponses orales. De plus, ils déterminent l'accord du participe aux temps composés (je l'ai vue).",
+  "cuando_se_usa": "On les emploie quand le complément a déjà été mentionné ou qu'il est évident d'après le contexte. Pour choisir, il faut regarder la construction du verbe français, pas celle de l'espagnol : s'il se construit avec à + personne (parler à, dire à, téléphoner à), on emploie lui ou leur ; s'il n'a pas de préposition (voir, aimer, attendre, appeler), le, la ou les. L'hispanophone place souvent le pronom devant aller ou pouvoir, comme dans l'espagnol « lo voy a llamar », mais en français il se place devant l'infinitif."
+ }
+}

@@ -1,0 +1,579 @@
+{
+ "id": "fr.g.demostrativos-pron",
+ "titulo": "Les pronoms démonstratifs",
+ "titulo_es": "Les pronoms démonstratifs : celui, celle, ceux, celles ; ceci, cela, ça",
+ "descripcion_es": "Celui, celle, ceux, celles avec -ci/-là, de, qui, que, dont ; et les neutres ceci, cela, ça.",
+ "nivel": "A2",
+ "resumen": "Celui, celle, ceux et celles remplacent un nom déjà mentionné pour ne pas le répéter, comme « el de », « la que », « este », « ese » en espagnol. Ils ne s'emploient jamais seuls : ils sont toujours suivis de -ci / -là, de de + nom ou d'un relatif (qui, que, dont). Ceci, cela et ça sont neutres et désignent des idées ou des choses qu'on ne nomme pas.",
+ "explicacion": [
+  {
+   "tipo": "tabla",
+   "cabecera": [
+    "",
+    "Masculin",
+    "Féminin"
+   ],
+   "filas": [
+    [
+     "Singulier",
+     "celui",
+     "celle"
+    ],
+    [
+     "Pluriel",
+     "ceux",
+     "celles"
+    ]
+   ]
+  },
+  {
+   "tipo": "tabla",
+   "cabecera": [
+    "Construction",
+    "Équivalent espagnol",
+    "Exemple"
+   ],
+   "filas": [
+    [
+     "celui-ci / celui-là",
+     "« este » / « ese, aquel »",
+     "Tu préfères celle-ci ou celle-là ?"
+    ],
+    [
+     "celui de + nombre",
+     "« el de »",
+     "Je préfère l'accent de Tex. → Je préfère celui de Tex."
+    ],
+    [
+     "celui qui",
+     "« el que » (sujet)",
+     "J'aime les tatous, surtout ceux qui portent le béret."
+    ],
+    [
+     "celui que",
+     "« el que » (complément d'objet direct)",
+     "Celui que j'aime ne m'aime pas !"
+    ],
+    [
+     "celui dont",
+     "« aquel del que », « aquel cuyo »",
+     "Tu ne connais pas celui dont je parle."
+    ]
+   ]
+  },
+  {
+   "tipo": "texto",
+   "texto": "Ils s'accordent en genre et en nombre avec le nom qu'ils remplacent, et ce nom peut avoir en français un autre genre qu'en espagnol : le lait → celui (es : la leche), la dent → celle (es : el diente), les cheveux → ceux (es : el pelo). Regardez toujours le genre français."
+  },
+  {
+   "tipo": "texto",
+   "texto": "Ceci (es : esto) et cela (es : eso) sont invariables et désignent des idées, des phrases ou des choses sans nom précis : Cela me semble évident. Ça est la forme courante de cela à l'oral : Ça me fait de la peine. On ne les emploie pas pour remplacer un nom précis : pour « cette voiture », on dit celle-ci, pas ceci."
+  }
+ ],
+ "ejemplos": [
+  {
+   "frase": "C'est celui de mon frère.",
+   "traduccion": "Es el de mi hermano."
+  },
+  {
+   "frase": "Mes cheveux sont plus longs que ceux de Jane.",
+   "traduccion": "Mi pelo es más largo que el de Jane."
+  },
+  {
+   "frase": "Choisis celui que tu veux.",
+   "traduccion": "Elige el que quieras."
+  },
+  {
+   "frase": "Celui-ci ressemble à celui-là.",
+   "traduccion": "Este se parece a aquel."
+  },
+  {
+   "frase": "Aide tous ceux qui en ont besoin.",
+   "traduccion": "Ayuda a todos los que lo necesiten."
+  },
+  {
+   "frase": "Tu es amoureuse de Tex, cela me semble évident !",
+   "traduccion": "Estás enamorada de Tex, ¡me parece evidente!"
+  }
+ ],
+ "errores_hispanohablantes": [
+  {
+   "mal": "Ce livre est plus cher que celui.",
+   "bien": "Ce livre est plus cher que celui-là.",
+   "nota": "Celui ne s'emploie jamais seul : il lui faut -ci / -là, de ou un relatif."
+  },
+  {
+   "mal": "Ma voiture est plus rapide que ce de Paul.",
+   "bien": "Ma voiture est plus rapide que celle de Paul.",
+   "nota": "« La de » se dit celle de ; ce de n'existe pas."
+  },
+  {
+   "mal": "Mes cheveux sont plus longs que celui de Jane.",
+   "bien": "Mes cheveux sont plus longs que ceux de Jane.",
+   "nota": "En français, les cheveux est au pluriel : ceux, même si l'espagnol dit « el pelo »."
+  }
+ ],
+ "ejercicios": [
+  {
+   "id": "e01",
+   "tipo": "eleccion",
+   "enunciado": "Choisissez le pronom correct (le vélo).",
+   "frase": "C'est ___ de mon frère.",
+   "opciones": [
+    "celui",
+    "celle",
+    "ceux"
+   ],
+   "respuestas": [
+    "celui"
+   ],
+   "explicacion": "On applique la règle de la fiche selon laquelle le pronom s'accorde en genre et en nombre avec le nom qu'il remplace, et la construction celui de + nom (es : « el de »). L'indice est la mention le vélo : masculin singulier en français, même si en espagnol « la bicicleta » est féminin. Le pronom est donc celui de mon frère.",
+   "origen": "tatoeba:136334",
+   "explicacion_breve": "Vélo est masculin singulier : celui de.",
+   "traduccion": "Es la de mi hermano (la bicicleta).",
+   "por_opcion": {
+    "celui": "Correct : masculin singulier, comme le vélo.",
+    "celle": "Féminin singulier : ce serait le calque de « la de » pour « la bicicleta », mais vélo est masculin.",
+    "ceux": "Masculin pluriel : le verbe c'est et le nom le vélo indiquent le singulier."
+   }
+  },
+  {
+   "id": "e02",
+   "tipo": "hueco",
+   "enunciado": "Complétez avec celui, celle, ceux ou celles (un gâteau).",
+   "frase": "Choisis ___ que tu veux.",
+   "respuestas": [
+    "celui"
+   ],
+   "explicacion": "On applique la construction de la fiche celui que (es : « el que »), avec que comme complément d'objet direct du verbe de la relative (tu veux). L'indice est la mention un gâteau, masculin singulier, et le relatif que après le blanc. Regardez aussi le mode : l'espagnol dit « el que quieras » au subjonctif, mais en français l'indicatif suffit, tu veux.",
+   "origen": "tatoeba:359094",
+   "explicacion_breve": "Un gâteau est masculin singulier : celui que.",
+   "traduccion": "Elige el que quieras (el pastel).",
+   "errores_previstos": [
+    {
+     "respuesta": "celle",
+     "explicacion": "Celle est féminin ; gâteau est masculin, donc celui."
+    },
+    {
+     "respuesta": "ce",
+     "explicacion": "Ce que signifie « lo que », neutre ; pour « el que » à propos d'un gâteau, on emploie celui que."
+    },
+    {
+     "respuesta": "celui-ci",
+     "explicacion": "Quand un relatif suit, on n'ajoute pas -ci : c'est celui que."
+    }
+   ]
+  },
+  {
+   "id": "e03",
+   "tipo": "hueco",
+   "enunciado": "Complétez avec celui, celle, ceux ou celles.",
+   "frase": "Mes cheveux sont plus longs que ___ de Jane.",
+   "respuestas": [
+    "ceux"
+   ],
+   "explicacion": "On applique la mise en garde de la fiche sur le genre et le nombre en français : les cheveux est masculin pluriel, même si en espagnol « el pelo » est au singulier. L'indice est mes cheveux sont, avec le verbe au pluriel, et la construction de comparaison que + pronom + de. Le pronom est donc ceux de Jane.",
+   "origen": "tatoeba:14890",
+   "explicacion_breve": "Les cheveux est masculin pluriel : ceux de.",
+   "traduccion": "Mi pelo es más largo que el de Jane.",
+   "errores_previstos": [
+    {
+     "respuesta": "celui",
+     "explicacion": "Calque de l'espagnol « el de Jane » : cheveux est au pluriel en français, ceux."
+    },
+    {
+     "respuesta": "celles",
+     "explicacion": "Celles est féminin ; cheveux est masculin."
+    },
+    {
+     "respuesta": "ces",
+     "explicacion": "Ces est un déterminant et doit être suivi d'un nom ; le pronom est ceux."
+    }
+   ]
+  },
+  {
+   "id": "e04",
+   "tipo": "hueco",
+   "enunciado": "Complétez avec celui, celle, ceux ou celles.",
+   "frase": "Compare ta réponse avec ___ de Tom.",
+   "respuestas": [
+    "celle"
+   ],
+   "explicacion": "On applique la construction de la fiche celui de + nom, ici au féminin singulier. L'indice est ta réponse, féminin singulier, le nom remplacé pour ne pas répéter « la réponse de Tom ». C'est donc celle de Tom, équivalent exact de « la de Tom ».",
+   "origen": "tatoeba:9000",
+   "explicacion_breve": "Réponse est féminin singulier : celle de.",
+   "traduccion": "Compara tu respuesta con la de Tom.",
+   "errores_previstos": [
+    {
+     "respuesta": "celui",
+     "explicacion": "Celui est masculin ; réponse est féminin."
+    },
+    {
+     "respuesta": "cette",
+     "explicacion": "Cette est un déterminant et doit être suivi d'un nom ; comme pronom, on emploie celle."
+    },
+    {
+     "respuesta": "celle-là",
+     "explicacion": "Quand de + nom suit, on n'ajoute pas -là : celle de Tom."
+    }
+   ]
+  },
+  {
+   "id": "e05",
+   "tipo": "eleccion",
+   "enunciado": "Choisissez le pronom correct.",
+   "frase": "Ses yeux me font penser à ___ d'un chat.",
+   "opciones": [
+    "ceux",
+    "celles",
+    "celui"
+   ],
+   "respuestas": [
+    "ceux"
+   ],
+   "explicacion": "On applique la règle d'accord de la fiche : le pronom prend le genre et le nombre du nom remplacé. L'indice est ses yeux, masculin pluriel (un œil, des yeux). C'est donc ceux d'un chat. L'expression faire penser à signifie « recordar a », et à + ceux ne se contracte pas, car ceux n'est pas un article.",
+   "origen": "tatoeba:133848",
+   "explicacion_breve": "Les yeux est masculin pluriel : ceux.",
+   "traduccion": "Sus ojos me recuerdan a los de un gato.",
+   "por_opcion": {
+    "ceux": "Correct : masculin pluriel, comme les yeux.",
+    "celles": "Féminin pluriel ; yeux est masculin.",
+    "celui": "Masculin singulier ; yeux est au pluriel."
+   },
+   "glosario": [
+    {
+     "palabra": "faire penser à",
+     "significado": "recordar a, hacer pensar en",
+     "definicion_l": "Rappeler, évoquer."
+    }
+   ]
+  },
+  {
+   "id": "e06",
+   "tipo": "corregir",
+   "enunciado": "Corrigez l'erreur.",
+   "frase": "Cette maison au toit rouge est celui de Tom.",
+   "respuestas": [
+    "Cette maison au toit rouge est celle de Tom."
+   ],
+   "explicacion": "On applique la règle d'accord de la fiche : le pronom s'accorde avec le nom qu'il remplace. L'indice est cette maison, féminin singulier ; l'erreur vient de ce que le nom le plus proche, toit, est masculin. Mais le pronom remplace maison, pas toit : la correction est donc celle de Tom.",
+   "origen": "tatoeba:454264",
+   "explicacion_breve": "Maison est féminin : celle de.",
+   "traduccion": "Esta casa del tejado rojo es la de Tom.",
+   "errores_previstos": [
+    {
+     "respuesta": "Cette maison au toit rouge est celui de Tom.",
+     "explicacion": "C'est la phrase non corrigée : celui ne s'accorde pas avec maison."
+    },
+    {
+     "respuesta": "Cette maison au toit rouge est cette de Tom.",
+     "explicacion": "Cette est un déterminant ; le pronom féminin est celle."
+    },
+    {
+     "respuesta": "Cette maison au toit rouge est celles de Tom.",
+     "explicacion": "Celles est au pluriel ; maison est au singulier."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "le toit",
+     "significado": "el tejado"
+    }
+   ]
+  },
+  {
+   "id": "e07",
+   "tipo": "corregir",
+   "enunciado": "Corrigez l'erreur.",
+   "frase": "Cette boîte-là est plus grande que cette-ci.",
+   "respuestas": [
+    "Cette boîte-là est plus grande que celle-ci."
+   ],
+   "explicacion": "On applique la règle de la fiche : le pronom avec -ci ou -là est celui, celle, ceux, celles, tandis que ce, cet, cette, ces sont des déterminants et doivent être suivis d'un nom. L'indice est cette-ci sans nom, qui devrait être un pronom. Comme boîte est féminin singulier, la forme est celle-ci.",
+   "origen": "tatoeba:10531",
+   "explicacion_breve": "Le pronom est celle-ci ; cette est un déterminant et doit être suivi d'un nom.",
+   "traduccion": "Aquella caja es más grande que esta.",
+   "errores_previstos": [
+    {
+     "respuesta": "Cette boîte-là est plus grande que cette-ci.",
+     "explicacion": "C'est la phrase non corrigée : cette ne peut pas fonctionner comme pronom."
+    },
+    {
+     "respuesta": "Cette boîte-là est plus grande que celui-ci.",
+     "explicacion": "Celui est masculin ; boîte est féminin, celle-ci."
+    },
+    {
+     "respuesta": "Cette boîte-là est plus grande que celle.",
+     "explicacion": "Celle ne s'emploie jamais seule : il lui faut -ci, -là, de ou un relatif."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "une boîte",
+     "significado": "una caja"
+    }
+   ]
+  },
+  {
+   "id": "e08",
+   "tipo": "hueco",
+   "enunciado": "Complétez avec celui, celle, ceux ou celles.",
+   "frase": "Aide tous ___ qui en ont besoin.",
+   "respuestas": [
+    "ceux"
+   ],
+   "explicacion": "On applique la construction de la fiche celui qui (es : « el que »), avec qui comme sujet de la relative. L'indice est tous, masculin pluriel, et qui en ont besoin : on parle des gens en général, ce qui s'exprime en français au masculin pluriel. C'est donc tous ceux qui. Remarquez que l'espagnol dit « lo necesitan » et le français en ont besoin, avec en.",
+   "origen": "tatoeba:891580",
+   "explicacion_breve": "Les gens en général (masculin pluriel) : ceux qui.",
+   "traduccion": "Ayuda a todos los que lo necesitan.",
+   "errores_previstos": [
+    {
+     "respuesta": "ces",
+     "explicacion": "Ces est un déterminant et doit être suivi d'un nom ; devant qui, on emploie le pronom ceux."
+    },
+    {
+     "respuesta": "celles",
+     "explicacion": "Pour les gens en général, on emploie le masculin pluriel, ceux ; celles seulement s'il s'agissait uniquement de femmes."
+    },
+    {
+     "respuesta": "ce",
+     "explicacion": "Ce qui signifie « lo que », neutre ; tous ceux qui signifie « todos los que »."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "avoir besoin de",
+     "significado": "necesitar",
+     "definicion_l": "Être dans le besoin de quelque chose ; être dans un lien de nécessité, de dépendance."
+    }
+   ]
+  },
+  {
+   "id": "e09",
+   "tipo": "eleccion",
+   "enunciado": "Choisissez le pronom correct.",
+   "frase": "J'en veux une, mais pas ___.",
+   "opciones": [
+    "celle-ci",
+    "celui-ci",
+    "ceux-ci"
+   ],
+   "respuestas": [
+    "celle-ci"
+   ],
+   "explicacion": "On applique la règle d'accord et l'emploi de -ci pour désigner ce qui est proche. L'indice est une, féminin singulier, qui renvoie à un objet féminin déjà mentionné. Le pronom est donc celle-ci (es : « esta »). Il n'y a pas ici d'opposition explicite avec -là, mais -ci désigne l'objet qu'on a devant soi.",
+   "origen": "tatoeba:7771112",
+   "explicacion_breve": "Une indique le féminin singulier : celle-ci.",
+   "traduccion": "Quiero una, pero no esta.",
+   "por_opcion": {
+    "celle-ci": "Correct : féminin singulier, s'accorde avec une.",
+    "celui-ci": "Masculin singulier ; une indique que l'objet est féminin.",
+    "ceux-ci": "Masculin pluriel ; on parle d'un seul objet féminin."
+   }
+  },
+  {
+   "id": "e10",
+   "tipo": "ordenar",
+   "enunciado": "Remettez les mots dans l'ordre.",
+   "palabras": [
+    "prendre",
+    "celui-là",
+    "Je",
+    "vais"
+   ],
+   "respuestas": [
+    "Je vais prendre celui-là"
+   ],
+   "explicacion": "On applique l'emploi de la fiche de celui-là comme pronom au sens de « ese, aquel ». L'indice est le futur proche je vais prendre, dont l'ordre est sujet, aller conjugué et infinitif, et celui-là, qui fonctionne comme complément d'objet direct de l'infinitif et se place après lui, comme n'importe quel nom. Comme ce n'est pas un pronom atone, il ne se place pas devant le verbe.",
+   "origen": "tatoeba:8126621",
+   "explicacion_breve": "Celui-là est le complément d'objet direct de prendre.",
+   "traduccion": "Me voy a llevar ese.",
+   "errores_previstos": [
+    {
+     "respuesta": "Je vais celui-là prendre",
+     "explicacion": "Celui-là n'est pas un pronom atone comme le ; il se place après l'infinitif, comme un nom."
+    },
+    {
+     "respuesta": "Je celui-là vais prendre",
+     "explicacion": "Le pronom démonstratif ne se place pas devant le verbe : je vais prendre celui-là."
+    },
+    {
+     "respuesta": "Celui-là je vais prendre",
+     "explicacion": "Sans un pronom qui le reprenne (celui-là, je vais le prendre), cet ordre n'est pas naturel ; l'ordre neutre est je vais prendre celui-là."
+    }
+   ]
+  },
+  {
+   "id": "e11",
+   "tipo": "hueco",
+   "enunciado": "Complétez avec celui, celle, ceux ou celles.",
+   "frase": "Betty a été ___ qui est arrivée en dernier.",
+   "respuestas": [
+    "celle"
+   ],
+   "explicacion": "On applique la construction de la fiche celui qui (es : « el que »), au féminin. L'indice est Betty, une femme, et l'accord du participe arrivée, qui confirme le féminin singulier. Qui est le sujet de est arrivée. C'est donc celle qui (es : « la que »).",
+   "origen": "tatoeba:452780",
+   "explicacion_breve": "Il s'agit d'une femme : celle qui (es : la que).",
+   "traduccion": "Betty fue la que llegó la última.",
+   "errores_previstos": [
+    {
+     "respuesta": "celui",
+     "explicacion": "Celui est masculin ; il s'agit de Betty, une femme : celle."
+    },
+    {
+     "respuesta": "cette",
+     "explicacion": "Cette est un déterminant et doit être suivi d'un nom ; devant qui, on emploie le pronom celle."
+    },
+    {
+     "respuesta": "celle-là",
+     "explicacion": "Quand un relatif suit, on n'ajoute pas -là : celle qui."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "en dernier",
+     "significado": "el último, en último lugar"
+    }
+   ]
+  },
+  {
+   "id": "e12",
+   "tipo": "transformar",
+   "enunciado": "Évitez de répéter le nom grâce à un pronom démonstratif.",
+   "frase": "J'aime l'accent d'Édouard, mais je préfère l'accent de Tex.",
+   "respuestas": [
+    "J'aime l'accent d'Édouard, mais je préfère celui de Tex."
+   ],
+   "explicacion": "On applique la construction de la fiche celui de + nom pour éviter de répéter le nom, comme dans l'exemple du tableau (je préfère celui de Tex). L'indice est la répétition de l'accent, masculin singulier. On remplace seulement le second l'accent par celui : je préfère celui de Tex (es : « prefiero el de Tex »).",
+   "explicacion_breve": "L'accent est masculin singulier : celui de Tex.",
+   "traduccion": "Me gusta el acento de Édouard, pero prefiero el de Tex.",
+   "errores_previstos": [
+    {
+     "respuesta": "J'aime l'accent d'Édouard, mais je préfère le de Tex.",
+     "explicacion": "Calque de l'espagnol « el de Tex » : en français, l'article ne peut pas fonctionner comme pronom ; on emploie celui."
+    },
+    {
+     "respuesta": "J'aime l'accent d'Édouard, mais je préfère celle de Tex.",
+     "explicacion": "Accent est masculin : celui."
+    },
+    {
+     "respuesta": "J'aime l'accent d'Édouard, mais je préfère celui-là de Tex.",
+     "explicacion": "Avec de + nom, on n'ajoute pas -là : celui de Tex."
+    }
+   ]
+  },
+  {
+   "id": "e13",
+   "tipo": "eleccion",
+   "enunciado": "Choisissez le pronom correct.",
+   "frase": "___ me semble évident !",
+   "opciones": [
+    "Cela",
+    "Celui",
+    "Celle"
+   ],
+   "respuestas": [
+    "Cela"
+   ],
+   "explicacion": "On applique la règle de la fiche sur les pronoms neutres : ceci, cela et ça désignent des idées ou des choses sans nom précis. L'indice est qu'il n'y a aucun nom auquel renvoyer ; on parle d'une idée exprimée avant. Cela (es : « eso ») est la forme soignée ; à l'oral, on dirait ça me semble évident.",
+   "explicacion_breve": "Il renvoie à une idée, pas à un nom : cela (neutre).",
+   "traduccion": "¡Eso me parece evidente!",
+   "por_opcion": {
+    "Cela": "Correct : pronom neutre qui renvoie à une idée (es : « eso »).",
+    "Celui": "Il remplace un nom masculin précis et ne s'emploie jamais seul ; ici, il n'y a pas de nom.",
+    "Celle": "Il remplace un nom féminin précis et ne s'emploie jamais seul ; il ne convient pas non plus."
+   }
+  },
+  {
+   "id": "e14",
+   "tipo": "hueco",
+   "enunciado": "Complétez avec celui, celle, ceux ou celles (un garçon).",
+   "frase": "Tu ne connais pas ___ dont je parle.",
+   "respuestas": [
+    "celui"
+   ],
+   "explicacion": "On applique la construction de la fiche celui dont (es : « aquel del que »). L'indice est la mention un garçon, masculin singulier, et le relatif dont, employé parce que le verbe parler se construit avec de (parler de quelqu'un). C'est donc celui dont je parle. L'espagnol dit « del que » et le français condense la préposition dans dont.",
+   "explicacion_breve": "Masculin singulier + parler de : celui dont.",
+   "traduccion": "No conoces al chico del que hablo.",
+   "errores_previstos": [
+    {
+     "respuesta": "celle",
+     "explicacion": "Celle est féminin ; il s'agit d'un garçon, celui."
+    },
+    {
+     "respuesta": "ce",
+     "explicacion": "Ce dont signifie « aquello de lo que », neutre ; pour une personne, on emploie celui dont."
+    },
+    {
+     "respuesta": "celui de",
+     "explicacion": "Dont contient déjà la préposition de ; on ne la répète pas."
+    }
+   ]
+  },
+  {
+   "id": "e15",
+   "tipo": "corregir",
+   "enunciado": "Corrigez l'erreur.",
+   "frase": "Ce livre est plus cher que celle-là.",
+   "respuestas": [
+    "Ce livre est plus cher que celui-là."
+   ],
+   "explicacion": "On applique la règle d'accord de la fiche : le pronom s'accorde avec le nom qu'il remplace. L'indice est ce livre, masculin singulier, comparé à un autre livre. Celle-là est féminin : il faut donc le corriger en celui-là (es : « aquel »).",
+   "origen": "tatoeba:5235245",
+   "explicacion_breve": "Livre est masculin : celui-là.",
+   "traduccion": "Este libro es más caro que aquel.",
+   "errores_previstos": [
+    {
+     "respuesta": "Ce livre est plus cher que celle-là.",
+     "explicacion": "C'est la phrase non corrigée : livre est masculin."
+    },
+    {
+     "respuesta": "Ce livre est plus cher que ce-là.",
+     "explicacion": "Ce est un déterminant ; le pronom est celui-là."
+    },
+    {
+     "respuesta": "Ce livre est plus cher que ceux-là.",
+     "explicacion": "Ceux est au pluriel ; on compare avec un seul livre."
+    }
+   ]
+  },
+  {
+   "id": "e16",
+   "tipo": "eleccion",
+   "enunciado": "Choisissez le pronom correct.",
+   "frase": "Tu préfères lequel ? ___ ou celui-là ?",
+   "opciones": [
+    "Celui-ci",
+    "Celle-ci",
+    "Ceux-ci"
+   ],
+   "respuestas": [
+    "Celui-ci"
+   ],
+   "explicacion": "On applique l'opposition de la fiche entre -ci (proche) et -là (éloigné), avec le pronom accordé. L'indice est lequel et celui-là, tous deux masculins singuliers, qui obligent la première option à l'être aussi. C'est donc celui-ci ou celui-là (es : « este o aquel »).",
+   "origen": "tatoeba:400200",
+   "explicacion_breve": "Lequel et celui-là indiquent le masculin singulier : celui-ci.",
+   "traduccion": "¿Cuál prefieres? ¿Este o aquel?",
+   "por_opcion": {
+    "Celui-ci": "Correct : masculin singulier, comme lequel et celui-là.",
+    "Celle-ci": "Féminin singulier ; ne s'accorde ni avec lequel ni avec celui-là.",
+    "Ceux-ci": "Masculin pluriel ; lequel indique un seul objet."
+   }
+  }
+ ],
+ "fuente": {
+  "nombre": "Tex's French Grammar",
+  "autores": "COERLL, Université du Texas à Austin",
+  "licencia": "CC BY 3.0",
+  "url": "https://laits.utexas.edu/tex/gr/pro11.html",
+  "otras": [
+   "Phrases de Tatoeba (CC BY 2.0 FR)"
+  ]
+ },
+ "descripcion_larga_es": "Les pronoms démonstratifs celui, celle, ceux et celles remplacent un nom déjà mentionné pour ne pas le répéter (es : « el de », « la que », « este », « aquel »), et ceci, cela et ça désignent des idées ou des choses qu'on ne nomme pas. Ils sont essentiels pour comparer sans répéter. Ils sont difficiles pour l'hispanophone parce qu'ils ne s'emploient jamais seuls (toujours avec -ci, -là, de ou un relatif) et parce qu'ils s'accordent avec le genre français du nom, pas avec le genre espagnol.",
+ "contexto": {
+  "que_es": "Ce sont des pronoms qui prennent la place d'un nom mentionné avant. Celui (masculin singulier), celle (féminin singulier), ceux (masculin pluriel) et celles (féminin pluriel) s'accordent avec ce nom et sont toujours complétés par -ci/-là, de + nom ou un relatif. Ceci, cela et ça sont neutres et invariables et désignent des idées ou des situations.",
+  "por_que_importa": "Ils permettent de comparer (mes cheveux sont plus longs que ceux de Jane), de choisir (celui-ci ou celui-là) et de définir (ceux qui travaillent) sans répéter les mots, ce qui est très apprécié à l'oral comme à l'écrit. Une erreur de genre ou l'emploi de cette-ci au lieu de celle-ci est perçu comme une faute de base. Confondre cela et celui rend la phrase incompréhensible.",
+  "cuando_se_usa": "Pour comparer deux choses, choisir entre des objets, exprimer « el de », « la que », « los que » et renvoyer à une idée entière (cela me semble évident). Les signes sont le nom auquel renvoie le pronom, avec son genre français, et ce qui le suit. L'hispanophone a tendance à employer le déterminant (cette-ci) au lieu du pronom et à accorder avec le genre espagnol (le lait, es : « la leche », donne celui, pas celle)."
+ }
+}

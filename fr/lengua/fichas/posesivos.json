@@ -1,0 +1,570 @@
+{
+ "id": "fr.g.posesivos",
+ "titulo": "Les déterminants possessifs",
+ "titulo_es": "Déterminants possessifs (mon, ma, mes…)",
+ "descripcion_es": "mon, ma, mes, notre, leur… et mon devant une voyelle.",
+ "nivel": "A1",
+ "resumen": "Les possessifs français s'accordent en genre et en nombre avec la chose possédée, et non avec le possesseur. Contrairement à l'espagnol, ils distinguent le masculin et le féminin au singulier (mon / ma, son / sa) et on emploie mon, ton, son devant un mot féminin qui commence par une voyelle.",
+ "explicacion": [
+  {
+   "tipo": "tabla",
+   "cabecera": [
+    "Possesseur",
+    "Masculin sing.",
+    "Féminin sing.",
+    "Pluriel",
+    "Équivalent espagnol"
+   ],
+   "filas": [
+    [
+     "je",
+     "mon",
+     "ma",
+     "mes",
+     "« mi, mis »"
+    ],
+    [
+     "tu",
+     "ton",
+     "ta",
+     "tes",
+     "« tu, tus »"
+    ],
+    [
+     "il, elle, on",
+     "son",
+     "sa",
+     "ses",
+     "« su, sus » (à lui, à elle)"
+    ],
+    [
+     "nous",
+     "notre",
+     "notre",
+     "nos",
+     "« nuestro/a, nuestros/as »"
+    ],
+    [
+     "vous",
+     "votre",
+     "votre",
+     "vos",
+     "« vuestro/a », « su » (vouvoiement)"
+    ],
+    [
+     "ils, elles",
+     "leur",
+     "leur",
+     "leurs",
+     "« su, sus » (à eux)"
+    ]
+   ]
+  },
+  {
+   "tipo": "texto",
+   "texto": "C'est la chose possédée qui décide du genre : sa voiture peut être la voiture de lui ou d'elle, parce que voiture est féminin ; son livre est le livre de lui ou d'elle. Le contexte précise qui est le possesseur, comme avec le « su » espagnol."
+  },
+  {
+   "tipo": "lista",
+   "items": [
+    "Devant un mot féminin qui commence par une voyelle ou un h muet, on emploie mon, ton, son pour éviter la rencontre de deux voyelles : mon amie, ton école, son histoire.",
+    "Avec mes, tes, ses, nos, vos, leurs, on fait la liaison devant une voyelle : mes‿amis, nos‿enfants.",
+    "Leur (un objet à plusieurs possesseurs) face à leurs (plusieurs objets) : leur maison, leurs enfants.",
+    "Votre et vos servent aussi pour le vouvoiement : Où est votre passeport, Madame ?"
+   ]
+  },
+  {
+   "tipo": "texto",
+   "texto": "Avec les parties du corps, le français préfère l'article défini quand le possesseur est clair, comme l'espagnol : Il a levé la main (et non sa main dans la plupart des cas)."
+  }
+ ],
+ "ejemplos": [
+  {
+   "frase": "Voici mon frère, Trey, et ma sœur, Rita, avec ses enfants et leur chien.",
+   "traduccion": "Este es mi hermano, Trey, y mi hermana, Rita, con sus hijos y su perro."
+  },
+  {
+   "frase": "Notre famille est formidable !",
+   "traduccion": "¡Nuestra familia es estupenda!"
+  },
+  {
+   "frase": "Voici Tammy, mon amie, et ses amies Bette et Fiona.",
+   "traduccion": "Esta es Tammy, mi amiga, y sus amigas Bette y Fiona."
+  },
+  {
+   "frase": "Tex a oublié mon cadeau et notre anniversaire !",
+   "traduccion": "¡Tex se ha olvidado de mi regalo y de nuestro aniversario!"
+  },
+  {
+   "frase": "Les voisins garent leur voiture devant leurs fenêtres.",
+   "traduccion": "Los vecinos aparcan su coche delante de sus ventanas."
+  }
+ ],
+ "errores_hispanohablantes": [
+  {
+   "mal": "son voiture",
+   "bien": "sa voiture",
+   "nota": "Le possessif s'accorde avec voiture, qui est féminin, même si le possesseur est un homme."
+  },
+  {
+   "mal": "ma amie",
+   "bien": "mon amie",
+   "nota": "Devant un féminin qui commence par une voyelle, on emploie mon, ton, son."
+  },
+  {
+   "mal": "leurs maison",
+   "bien": "leur maison",
+   "nota": "Leur reste au singulier si la chose possédée est unique."
+  }
+ ],
+ "ejercicios": [
+  {
+   "id": "e01",
+   "tipo": "hueco",
+   "enunciado": "Complétez avec le possessif qui correspond au possesseur entre parenthèses.",
+   "frase": "Donne-moi ___ adresse ! (tu)",
+   "respuestas": [
+    "ton"
+   ],
+   "explicacion": "Le possesseur est tu, donc la forme vient de la ligne ton, ta, tes. Adresse est féminin singulier, ce qui demanderait en principe ta, mais la fiche explique que devant un mot féminin qui commence par une voyelle ou un h muet on emploie ton pour éviter la rencontre de deux voyelles : ton adresse. On le prononce avec liaison : « to-nadresse ».",
+   "origen": "tatoeba:1846030",
+   "explicacion_breve": "Adresse est féminin mais commence par une voyelle : ton adresse.",
+   "traduccion": "¡Dame tu dirección!",
+   "errores_previstos": [
+    {
+     "respuesta": "ta",
+     "explicacion": "Adresse est féminin mais commence par une voyelle : on emploie ton, jamais ta devant une voyelle."
+    },
+    {
+     "respuesta": "t'",
+     "explicacion": "Les possessifs ne s'élident pas : au lieu d'élider, le français passe à la forme ton."
+    },
+    {
+     "respuesta": "tes",
+     "explicacion": "Tes est pluriel ; ici, il y a une seule adresse : ton adresse."
+    }
+   ]
+  },
+  {
+   "id": "e02",
+   "tipo": "hueco",
+   "enunciado": "Complétez avec le possessif qui correspond au possesseur entre parenthèses.",
+   "frase": "Il lave ___ voiture. (il)",
+   "respuestas": [
+    "sa"
+   ],
+   "explicacion": "La règle centrale de la fiche est que le possessif s'accorde avec la chose possédée, et non avec le possesseur. Même si le possesseur est il, voiture est féminin singulier et commence par une consonne, donc la forme est sa : il lave sa voiture. C'est l'erreur typique signalée par la fiche : son voiture.",
+   "origen": "tatoeba:132429",
+   "explicacion_breve": "Voiture est féminin singulier et commence par une consonne : sa.",
+   "traduccion": "Lava su coche.",
+   "errores_previstos": [
+    {
+     "respuesta": "son",
+     "explicacion": "Accord avec le possesseur masculin, mais le possessif s'accorde avec voiture, qui est féminin : sa."
+    },
+    {
+     "respuesta": "ses",
+     "explicacion": "Ses est pluriel ; ici, il y a une seule voiture : sa voiture."
+    },
+    {
+     "respuesta": "leur",
+     "explicacion": "Leur s'emploie pour plusieurs possesseurs ; il n'en désigne qu'un : sa."
+    }
+   ]
+  },
+  {
+   "id": "e03",
+   "tipo": "hueco",
+   "enunciado": "Complétez avec le possessif qui correspond au possesseur entre parenthèses.",
+   "frase": "Comment va ___ mère ? (tu)",
+   "respuestas": [
+    "ta"
+   ],
+   "explicacion": "Avec le possesseur tu, on emploie la ligne ton, ta, tes, et c'est le nom possédé qui décide de la forme. Mère est féminin singulier et commence par une consonne, donc pas besoin de passer à ton : ta mère. La question comment va… ? est la formule habituelle pour prendre des nouvelles de quelqu'un.",
+   "origen": "tatoeba:10941",
+   "explicacion_breve": "Mère est féminin singulier : ta mère.",
+   "traduccion": "¿Cómo está tu madre?",
+   "errores_previstos": [
+    {
+     "respuesta": "ton",
+     "explicacion": "Ton ne s'emploie avec un féminin que s'il commence par une voyelle. Mère commence par une consonne : ta mère."
+    },
+    {
+     "respuesta": "tu",
+     "explicacion": "Tu est le pronom sujet ; le possessif est ta."
+    },
+    {
+     "respuesta": "sa",
+     "explicacion": "Sa correspond au possesseur il ou elle ; le possesseur indiqué est tu : ta."
+    }
+   ]
+  },
+  {
+   "id": "e04",
+   "tipo": "hueco",
+   "enunciado": "Complétez avec le possessif qui correspond au possesseur entre parenthèses.",
+   "frase": "Ce sont ___ amis. (je)",
+   "respuestas": [
+    "mes"
+   ],
+   "explicacion": "Le possesseur est je et le nom possédé, amis, est au pluriel ; d'après le tableau de la fiche, la forme du pluriel est mes, la même au masculin et au féminin. Comme amis commence par une voyelle, on fait la liaison : « mé-zami ». Ce sont est la forme plurielle de c'est.",
+   "origen": "tatoeba:181289",
+   "explicacion_breve": "Amis est pluriel : mes amis, avec liaison.",
+   "traduccion": "Son mis amigos.",
+   "errores_previstos": [
+    {
+     "respuesta": "mon",
+     "explicacion": "Mon est singulier ; amis est pluriel : mes amis."
+    },
+    {
+     "respuesta": "mis",
+     "explicacion": "C'est le mot espagnol. En français, c'est mes."
+    },
+    {
+     "respuesta": "ses",
+     "explicacion": "Ses correspond au possesseur il ou elle ; avec je, c'est mes."
+    }
+   ]
+  },
+  {
+   "id": "e05",
+   "tipo": "eleccion",
+   "enunciado": "Choisissez le bon possessif (possesseur : vous).",
+   "frase": "Où est ___ chapeau ?",
+   "opciones": [
+    "votre",
+    "vos",
+    "leur"
+   ],
+   "respuestas": [
+    "votre"
+   ],
+   "explicacion": "Avec le possesseur vous, le tableau donne votre pour un objet et vos pour plusieurs. Chapeau est un seul objet, donc votre. La fiche rappelle que votre et vos servent aussi pour le vouvoiement : la phrase peut donc s'adresser à une ou à plusieurs personnes.",
+   "origen": "tatoeba:5998801",
+   "explicacion_breve": "Un seul objet et possesseur vous : votre.",
+   "traduccion": "¿Dónde está su sombrero (de usted)? / ¿Dónde está vuestro sombrero?",
+   "por_opcion": {
+    "votre": "Correct : possesseur vous et un seul objet (chapeau).",
+    "vos": "Incorrect : vos s'emploie pour plusieurs objets (vos chapeaux).",
+    "leur": "Incorrect : leur correspond à ils ou elles, pas à vous."
+   },
+   "glosario": [
+    {
+     "palabra": "le chapeau",
+     "significado": "el sombrero"
+    }
+   ]
+  },
+  {
+   "id": "e06",
+   "tipo": "eleccion",
+   "enunciado": "Choisissez le bon possessif (possesseur : nous).",
+   "frase": "Tom est ___ employé.",
+   "opciones": [
+    "notre",
+    "nos",
+    "nôtre"
+   ],
+   "respuestas": [
+    "notre"
+   ],
+   "explicacion": "Avec le possesseur nous, le tableau donne notre pour un objet et nos pour plusieurs. Il y a un seul employé, donc notre. La fiche signale l'accent : le déterminant notre n'en a pas ; nôtre, avec un accent circonflexe, est le pronom possessif (le nôtre), qui s'emploie toujours avec un article et sans nom après.",
+   "origen": "tatoeba:13735182",
+   "explicacion_breve": "Un seul employé et possesseur nous : notre, sans accent (nôtre est un pronom).",
+   "traduccion": "Tom es nuestro empleado.",
+   "por_opcion": {
+    "notre": "Correct : déterminant possessif de nous pour un seul objet, sans accent.",
+    "nos": "Incorrect : nos est pluriel (nos employés), et ici il y a un seul employé.",
+    "nôtre": "Incorrect : avec l'accent, c'est le pronom (le nôtre), qui ne se place pas devant un nom."
+   }
+  },
+  {
+   "id": "e07",
+   "tipo": "ordenar",
+   "enunciado": "Remettez les mots dans l'ordre.",
+   "palabras": [
+    "devoirs",
+    "fais",
+    "mes",
+    "Je"
+   ],
+   "respuestas": [
+    "Je fais mes devoirs"
+   ],
+   "explicacion": "La fiche rappelle que faire ses devoirs signifie faire le travail scolaire à la maison (es : « hacer los deberes »), et le possessif change selon le sujet : je fais mes devoirs. L'ordre est l'ordre normal : sujet + verbe + possessif + nom. Devoirs est au pluriel, c'est pourquoi on dit mes.",
+   "origen": "tatoeba:1718796",
+   "explicacion_breve": "Faire ses devoirs ; avec je, mes devoirs.",
+   "traduccion": "Hago mis deberes.",
+   "errores_previstos": [
+    {
+     "respuesta": "Je mes devoirs fais",
+     "explicacion": "Le complément se place après le verbe : je fais mes devoirs."
+    },
+    {
+     "respuesta": "Mes devoirs je fais",
+     "explicacion": "En français, l'ordre neutre est sujet + verbe + complément : je fais mes devoirs."
+    },
+    {
+     "respuesta": "Je fais devoirs mes",
+     "explicacion": "Le possessif se place devant le nom : mes devoirs."
+    }
+   ]
+  },
+  {
+   "id": "e08",
+   "tipo": "hueco",
+   "enunciado": "Complétez avec le possessif qui correspond au possesseur entre parenthèses.",
+   "frase": "J'ai perdu ___ clé. (je)",
+   "respuestas": [
+    "ma"
+   ],
+   "explicacion": "Possesseur je, nom possédé clé, féminin singulier qui commence par une consonne : d'après le tableau, ma. Il n'y a pas de rencontre de voyelles, donc la règle de mon devant une voyelle ne s'applique pas : ma clé. Clé s'écrit aussi clef, avec la même prononciation.",
+   "origen": "tatoeba:482244",
+   "explicacion_breve": "Clé est féminin et commence par une consonne : ma clé.",
+   "traduccion": "He perdido mi llave.",
+   "errores_previstos": [
+    {
+     "respuesta": "mon",
+     "explicacion": "Clé est féminin et commence par une consonne : ma clé."
+    },
+    {
+     "respuesta": "mes",
+     "explicacion": "Mes est pluriel ; ici, il y a une seule clé."
+    },
+    {
+     "respuesta": "m'",
+     "explicacion": "Les possessifs ne s'élident pas ; en plus, clé commence par une consonne : ma."
+    }
+   ]
+  },
+  {
+   "id": "e09",
+   "tipo": "transformar",
+   "enunciado": "Adressez-vous à plusieurs personnes (vous) au lieu d'une seule (tu).",
+   "frase": "Pense à ta famille !",
+   "respuestas": [
+    "Pensez à votre famille !"
+   ],
+   "explicacion": "En passant de tu à vous, deux choses changent. L'impératif de penser avec vous est pensez. Le possessif ta (de tu) devient votre, qui, d'après le tableau, sert au masculin et au féminin singulier avec le possesseur vous. Famille est un seul objet, donc votre, et non vos.",
+   "origen": "tatoeba:1932702",
+   "explicacion_breve": "L'impératif devient pensez et ta devient votre.",
+   "traduccion": "¡Pensad en vuestra familia! / ¡Piense en su familia!",
+   "errores_previstos": [
+    {
+     "respuesta": "Pensez à vos famille !",
+     "explicacion": "Vos est pluriel ; il y a une seule famille : votre famille."
+    },
+    {
+     "respuesta": "Pensez à ta famille !",
+     "explicacion": "Le verbe est déjà à la forme de vous, mais le possessif doit changer aussi : votre."
+    },
+    {
+     "respuesta": "Pense à votre famille !",
+     "explicacion": "L'impératif de vous est pensez, avec -ez."
+    }
+   ]
+  },
+  {
+   "id": "e10",
+   "tipo": "hueco",
+   "enunciado": "Complétez avec le possessif qui correspond au possesseur entre parenthèses.",
+   "frase": "Tu es comme ___ père. (tu)",
+   "respuestas": [
+    "ton"
+   ],
+   "explicacion": "Avec le possesseur tu, la forme dépend de père, qui est masculin singulier : ton père. Il n'y a aucune exception ici ; c'est le cas de base du tableau. Être comme quelqu'un signifie lui ressembler.",
+   "origen": "tatoeba:3698017",
+   "explicacion_breve": "Père est masculin singulier : ton père.",
+   "traduccion": "Eres como tu padre.",
+   "errores_previstos": [
+    {
+     "respuesta": "ta",
+     "explicacion": "Ta est féminin ; père est masculin : ton père."
+    },
+    {
+     "respuesta": "tes",
+     "explicacion": "Tes est pluriel ; il y a un seul père."
+    },
+    {
+     "respuesta": "son",
+     "explicacion": "Son correspond à il ou elle ; le possesseur est tu : ton."
+    }
+   ]
+  },
+  {
+   "id": "e11",
+   "tipo": "eleccion",
+   "enunciado": "Choisissez le bon possessif.",
+   "frase": "Pierre et Anne vendent ___ maison.",
+   "opciones": [
+    "leur",
+    "leurs",
+    "sa"
+   ],
+   "respuestas": [
+    "leur"
+   ],
+   "explicacion": "Il y a deux possesseurs (Pierre et Anne, ils), donc on emploie la ligne leur, leurs. La fiche explique que leur reste au singulier si la chose possédée est unique, et leurs s'il y en a plusieurs. Ici, il y a une seule maison : leur maison. Leur ne distingue pas le genre.",
+   "explicacion_breve": "Deux possesseurs et une seule maison : leur.",
+   "traduccion": "Pierre y Anne venden su casa.",
+   "por_opcion": {
+    "leur": "Correct : plusieurs possesseurs et un seul objet, maison.",
+    "leurs": "Incorrect : leurs s'emploie pour plusieurs objets (leurs maisons). C'est l'erreur signalée par la fiche.",
+    "sa": "Incorrect : sa s'emploie pour un seul possesseur (il ou elle) ; ici, ils sont deux."
+   }
+  },
+  {
+   "id": "e12",
+   "tipo": "eleccion",
+   "enunciado": "Choisissez le bon possessif.",
+   "frase": "Les enfants rangent ___ jouets.",
+   "opciones": [
+    "leurs",
+    "leur",
+    "ses"
+   ],
+   "respuestas": [
+    "leurs"
+   ],
+   "explicacion": "Plusieurs possesseurs (les enfants) et plusieurs objets (jouets, au pluriel) : d'après la fiche, leurs, avec un s. C'est le cas inverse de leur maison. On ne fait pas la liaison ici, car jouets commence par une consonne. Ranger signifie mettre en ordre.",
+   "explicacion_breve": "Plusieurs possesseurs et plusieurs jouets : leurs.",
+   "traduccion": "Los niños recogen sus juguetes.",
+   "por_opcion": {
+    "leurs": "Correct : plusieurs possesseurs et plusieurs objets.",
+    "leur": "Incorrect : leur s'emploie pour un seul objet possédé ; les jouets sont plusieurs.",
+    "ses": "Incorrect : ses s'emploie pour un seul possesseur ; les enfants sont plusieurs."
+   },
+   "glosario": [
+    {
+     "palabra": "ranger",
+     "significado": "ordenar, recoger",
+     "definicion_l": "Soldat d’un corps d’élite dans l’armée de terre américaine et dans d’autres pays anglo-saxons. · Garde d’une réserve animalière en Afrique."
+    },
+    {
+     "palabra": "un jouet",
+     "significado": "un juguete"
+    }
+   ]
+  },
+  {
+   "id": "e13",
+   "tipo": "hueco",
+   "enunciado": "Complétez avec le possessif qui correspond au possesseur entre parenthèses.",
+   "frase": "Elle aime beaucoup ___ école. (elle)",
+   "respuestas": [
+    "son"
+   ],
+   "explicacion": "Le possesseur est elle, donc la ligne est son, sa, ses. École est féminin, mais commence par une voyelle, et la fiche indique qu'on emploie alors son pour éviter la rencontre de deux voyelles : son école. Ici, son n'indique donc pas que le possesseur est un homme.",
+   "explicacion_breve": "École est féminin mais commence par une voyelle : son école.",
+   "traduccion": "A ella le gusta mucho su colegio.",
+   "errores_previstos": [
+    {
+     "respuesta": "sa",
+     "explicacion": "Devant un féminin qui commence par une voyelle, on n'emploie pas sa, mais son : son école."
+    },
+    {
+     "respuesta": "s'",
+     "explicacion": "Les possessifs ne s'élident pas ; la forme devant une voyelle est son."
+    },
+    {
+     "respuesta": "leur",
+     "explicacion": "Leur s'emploie pour plusieurs possesseurs ; elle est une seule personne."
+    }
+   ]
+  },
+  {
+   "id": "e14",
+   "tipo": "corregir",
+   "enunciado": "Corrigez l'erreur.",
+   "frase": "Ma amie Sophie habite à Nice.",
+   "respuestas": [
+    "Mon amie Sophie habite à Nice."
+   ],
+   "explicacion": "C'est l'erreur typique de la fiche : ma amie. Amie est féminin, mais commence par une voyelle, et dans ce cas on emploie mon pour éviter la rencontre de deux voyelles : mon amie. À l'oral, on fait la liaison, « mo-nami », et cela se prononce comme mon ami ; le genre ne se voit qu'à l'écrit.",
+   "explicacion_breve": "Devant une voyelle, on emploie mon même si le nom est féminin.",
+   "traduccion": "Mi amiga Sophie vive en Niza.",
+   "errores_previstos": [
+    {
+     "respuesta": "Ma amie Sophie habite à Nice.",
+     "explicacion": "C'est la phrase non corrigée : devant une voyelle, on emploie mon même si le nom est féminin."
+    },
+    {
+     "respuesta": "M'amie Sophie habite à Nice.",
+     "explicacion": "Cette forme est archaïque ; aujourd'hui, les possessifs ne s'élident pas : mon amie."
+    },
+    {
+     "respuesta": "Mon ami Sophie habite à Nice.",
+     "explicacion": "Le possessif est correct, mais Sophie est une femme : le nom doit être amie."
+    }
+   ]
+  },
+  {
+   "id": "e15",
+   "tipo": "corregir",
+   "enunciado": "Corrigez l'erreur.",
+   "frase": "Julie cherche son clé.",
+   "respuestas": [
+    "Julie cherche sa clé.",
+    "Julie cherche sa clef."
+   ],
+   "explicacion": "Le possessif s'accorde avec la chose possédée : clé est féminin singulier et commence par une consonne, donc sa clé. Ici, la propriétaire est aussi une femme, mais cela n'a pas d'importance : avec un homme, ce serait aussi sa clé. Son ne s'emploie devant un féminin que si le nom commence par une voyelle. On accepte aussi l'ancienne graphie clef, qui se prononce de la même façon.",
+   "explicacion_breve": "Clé (ou clef) est féminin et commence par une consonne : sa clé.",
+   "traduccion": "Julie busca su llave.",
+   "errores_previstos": [
+    {
+     "respuesta": "Julie cherche son clé.",
+     "explicacion": "C'est la phrase non corrigée : clé est féminin et commence par une consonne, sa clé."
+    },
+    {
+     "respuesta": "Julie cherche ses clé.",
+     "explicacion": "Ses est pluriel ; avec une seule clé, sa clé."
+    },
+    {
+     "respuesta": "Julie cherche ma clé.",
+     "explicacion": "Ma correspond au possesseur je ; la propriétaire est Julie (elle), donc sa clé."
+    }
+   ]
+  },
+  {
+   "id": "e16",
+   "tipo": "corregir",
+   "enunciado": "Corrigez l'erreur.",
+   "frase": "Mes parents adorent leurs jardin.",
+   "respuestas": [
+    "Mes parents adorent leur jardin."
+   ],
+   "explicacion": "La fiche distingue leur (plusieurs possesseurs, un objet) de leurs (plusieurs objets). Mes parents sont plusieurs possesseurs, mais le jardin est unique, donc leur jardin, sans s. C'est l'erreur signalée dans la fiche : leurs maison.",
+   "explicacion_breve": "Un seul jardin : leur, au singulier.",
+   "traduccion": "A mis padres les encanta su jardín.",
+   "errores_previstos": [
+    {
+     "respuesta": "Mes parents adorent leurs jardin.",
+     "explicacion": "C'est la phrase non corrigée : avec un seul jardin, leur reste au singulier."
+    },
+    {
+     "respuesta": "Mes parents adorent son jardin.",
+     "explicacion": "Son s'emploie pour un seul possesseur ; mes parents sont plusieurs : leur."
+    },
+    {
+     "respuesta": "Mes parents adorent leurs jardins.",
+     "explicacion": "Cela change le sens : il y aurait plusieurs jardins. Il faut corriger seulement le possessif : leur jardin."
+    }
+   ]
+  }
+ ],
+ "fuente": {
+  "nombre": "Tex's French Grammar",
+  "autores": "COERLL, Université du Texas à Austin",
+  "licencia": "CC BY 3.0",
+  "url": "https://laits.utexas.edu/tex/gr/det6.html",
+  "otras": [
+   "Phrases de Tatoeba (CC BY 2.0 FR)"
+  ]
+ },
+ "descripcion_larga_es": "Cette fiche présente les déterminants possessifs français (mon, ma, mes, ton, son, notre, leur…). Ils sont indispensables dès le premier jour pour parler de la famille, des objets ou du travail. Ils sont difficiles pour l'hispanophone parce qu'ils s'accordent avec la chose possédée et distinguent le masculin et le féminin au singulier (son livre, sa voiture), parce que devant une voyelle on emploie mon même si le nom est féminin (mon amie), et à cause de la différence entre leur et leurs.",
+ "contexto": {
+  "que_es": "Ce sont les mots qui se placent devant un nom pour indiquer à qui il appartient : mon, ma, mes (es : « mi, mis »), ton, ta, tes (es : « tu, tus »), son, sa, ses (es : « su, sus », à lui ou à elle), notre, nos, votre, vos, leur, leurs. Ils s'accordent en genre et en nombre avec l'objet possédé, et non avec le possesseur.",
+  "por_que_importa": "Ils apparaissent dans presque toutes les phrases sur la vie personnelle : la famille, la maison, le travail. Une erreur de genre (son voiture, ma amie) se remarque tout de suite, car en plus elle s'entend. Confondre leur et leurs ou votre et vos change le nombre d'objets, et votre / vos sert aussi pour le vouvoiement, essentiel dans les registres formels.",
+  "cuando_se_usa": "Chaque fois que vous indiquez la possession devant un nom. Pour choisir la forme, regardez d'abord le possesseur (je, tu, il…), puis le nom possédé : son genre, son nombre et s'il commence par une voyelle ou un h muet. L'hispanophone a tendance à employer un seul « su » et à choisir le genre selon le possesseur ; en français, c'est le nom qui décide : sa voiture, même si elle appartient à un homme."
+ }
+}

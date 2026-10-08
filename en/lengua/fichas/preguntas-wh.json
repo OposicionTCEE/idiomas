@@ -1,0 +1,530 @@
+{
+ "id": "en.g.preguntas-wh",
+ "titulo": "Wh- questions",
+ "titulo_es": "Wh- questions (questions with a question word)",
+ "descripcion_es": "What, where, when, who, why, how (much, many, often…).",
+ "nivel": "A1",
+ "resumen": "Open questions start with a question word followed by the auxiliary (do, does, is, can…) and the subject. The order is fixed: question word + auxiliary + subject + verb.",
+ "explicacion": [
+  {
+   "tipo": "tabla",
+   "cabecera": [
+    "Question word",
+    "Meaning",
+    "Example"
+   ],
+   "filas": [
+    [
+     "What",
+     "asks about a thing (es: qué, cuál)",
+     "What do you do?"
+    ],
+    [
+     "Where",
+     "asks about a place (es: dónde)",
+     "Where are you from?"
+    ],
+    [
+     "When",
+     "asks about a time (es: cuándo)",
+     "When is your birthday?"
+    ],
+    [
+     "Who",
+     "asks about a person (es: quién)",
+     "Who is that woman?"
+    ],
+    [
+     "Why",
+     "asks about a reason (es: por qué)",
+     "Why are you sad?"
+    ],
+    [
+     "Which",
+     "asks you to choose between options (es: cuál)",
+     "Which bus goes to the airport?"
+    ],
+    [
+     "How",
+     "asks about the way or the state (es: cómo)",
+     "How are you?"
+    ],
+    [
+     "How much / How many",
+     "asks about quantity: uncountable / plural (es: cuánto)",
+     "How much is it? How many brothers have you got?"
+    ],
+    [
+     "How often / How old / How long",
+     "asks about frequency / age / duration (es: con qué frecuencia / qué edad / cuánto tiempo)",
+     "How often do you swim? How old is she?"
+    ]
+   ]
+  },
+  {
+   "tipo": "texto",
+   "texto": "Structure: question word + auxiliary + subject + verb. With to be: Where is the station? With other verbs you need do/does: What time does the train leave? With can: How can I help you?"
+  },
+  {
+   "tipo": "lista",
+   "items": [
+    "You answer why with because: Why are you tired? Because I didn't sleep.",
+    "If who or what is the subject, do is not used: Who lives here? What happened?",
+    "What + noun is very common: What time…?, What colour…?, What kind of…?"
+   ]
+  }
+ ],
+ "ejemplos": [
+  {
+   "frase": "Where do your parents live?",
+   "traduccion": "¿Dónde viven tus padres?"
+  },
+  {
+   "frase": "How much does this jacket cost?",
+   "traduccion": "¿Cuánto cuesta esta chaqueta?"
+  },
+  {
+   "frase": "What time does the class start?",
+   "traduccion": "¿A qué hora empieza la clase?"
+  },
+  {
+   "frase": "How often do you go to the cinema?",
+   "traduccion": "¿Cada cuánto vas al cine?"
+  },
+  {
+   "frase": "Who wants more cake?",
+   "traduccion": "¿Quién quiere más tarta?"
+  },
+  {
+   "frase": "Why is the shop closed?",
+   "traduccion": "¿Por qué está cerrada la tienda?"
+  }
+ ],
+ "errores_hispanohablantes": [
+  {
+   "mal": "Where you work?",
+   "bien": "Where do you work?",
+   "nota": "The auxiliary do is missing."
+  },
+  {
+   "mal": "What means this word?",
+   "bien": "What does this word mean?",
+   "nota": "With ordinary verbs you need do/does and the verb goes at the end."
+  },
+  {
+   "mal": "How many money do you need?",
+   "bien": "How much money do you need?",
+   "nota": "Money is uncountable: how much."
+  },
+  {
+   "mal": "How old have you?",
+   "bien": "How old are you?",
+   "nota": "You ask about age with to be."
+  }
+ ],
+ "ejercicios": [
+  {
+   "id": "e01",
+   "tipo": "hueco",
+   "enunciado": "Complete with the right question word.",
+   "frase": "___ do you live? In Granada.",
+   "respuestas": [
+    "Where"
+   ],
+   "explicacion": "This applies the table of question words: where asks about a place. The clue is the answer, In Granada, which is a place. After the question word, the question follows the order on the card: auxiliary do + subject you + verb live. It has a capital letter because it starts the sentence.",
+   "explicacion_breve": "It asks about a place: where.",
+   "traduccion": "¿Dónde vives? En Granada.",
+   "errores_previstos": [
+    {
+     "respuesta": "When",
+     "explicacion": "When asks about a time; the answer, In Granada, is a place: where."
+    },
+    {
+     "respuesta": "What",
+     "explicacion": "What asks about a thing; for a place you use where."
+    },
+    {
+     "respuesta": "Were",
+     "explicacion": "Were is the past of be; the question word for place is spelt where, with an h."
+    }
+   ]
+  },
+  {
+   "id": "e02",
+   "tipo": "hueco",
+   "enunciado": "Complete with the right question word.",
+   "frase": "___ is your sister? She's 15.",
+   "respuestas": [
+    "How old"
+   ],
+   "explicacion": "This applies the last row of the table: how old asks about age. The clue is the answer, She's 15, an age. In English age is expressed with the verb be (She is 15), not with have, so the question is How old is your sister? and it does not take do.",
+   "explicacion_breve": "It asks about age: how old.",
+   "traduccion": "¿Cuántos años tiene tu hermana? Tiene 15.",
+   "errores_previstos": [
+    {
+     "respuesta": "How many years",
+     "explicacion": "Calque of Spanish “¿cuántos años tiene?”: in English you ask about age with how old + be."
+    },
+    {
+     "respuesta": "How much",
+     "explicacion": "How much asks about quantity or price, not age."
+    },
+    {
+     "respuesta": "How years",
+     "explicacion": "You do not ask about age by counting years, but with the adjective old: How old is your sister?"
+    }
+   ]
+  },
+  {
+   "id": "e03",
+   "tipo": "hueco",
+   "enunciado": "Complete with the right question word.",
+   "frase": "___ are you crying? Because I'm sad.",
+   "respuestas": [
+    "Why"
+   ],
+   "explicacion": "This applies the note on the card that you answer why with because. The clue is the answer, Because I'm sad, which gives a reason. Why is used in the question and because in the answer: in English they are two different words, unlike Spanish (“por qué” / “porque”). After why comes the auxiliary are, because the question is in the present continuous.",
+   "explicacion_breve": "An answer with because means why.",
+   "traduccion": "¿Por qué lloras? Porque estoy triste.",
+   "errores_previstos": [
+    {
+     "respuesta": "Because",
+     "explicacion": "Calque of Spanish “por qué” / “porque”: because is only used in the answer; the question takes why."
+    },
+    {
+     "respuesta": "What",
+     "explicacion": "What asks about a thing; an answer with because calls for why."
+    },
+    {
+     "respuesta": "How",
+     "explicacion": "How asks about the way; for the reason you use why."
+    }
+   ]
+  },
+  {
+   "id": "e04",
+   "tipo": "hueco",
+   "enunciado": "Complete with the right question word.",
+   "frase": "___ is your favourite actor? Tom Hanks.",
+   "respuestas": [
+    "Who"
+   ],
+   "explicacion": "This applies the table of question words: who asks about a person. The clue is the answer, Tom Hanks, a person's name. With the verb to be you do not need do: Who is your favourite actor? Note the British spelling favourite, with a u.",
+   "explicacion_breve": "It asks about a person: who.",
+   "traduccion": "¿Quién es tu actor favorito? Tom Hanks.",
+   "errores_previstos": [
+    {
+     "respuesta": "What",
+     "explicacion": "What is used for things; to ask about a person you use who."
+    },
+    {
+     "respuesta": "Which",
+     "explicacion": "Which is used when choosing between specific options; to ask openly about a person, who."
+    },
+    {
+     "respuesta": "How",
+     "explicacion": "How asks about the way or the state, not about a person's identity."
+    }
+   ]
+  },
+  {
+   "id": "e05",
+   "tipo": "hueco",
+   "enunciado": "Complete with do, does or is.",
+   "frase": "What ___ your father do?",
+   "respuestas": [
+    "does"
+   ],
+   "explicacion": "This applies the structure on the card: with verbs other than be you need do/does. The clue is the subject, your father, third person singular, and the main verb do at the end, in the base form. That is why the auxiliary is does: What does your father do? It is the typical question to ask about someone's job. It may seem strange that do appears twice in What do you do?, but the first is the auxiliary and the second is the main verb “do”.",
+   "explicacion_breve": "Your father is third person: does.",
+   "traduccion": "¿A qué se dedica tu padre?",
+   "errores_previstos": [
+    {
+     "respuesta": "do",
+     "explicacion": "Your father is third person singular: does."
+    },
+    {
+     "respuesta": "is",
+     "explicacion": "Is does not combine with the base form do; with a verb other than be the auxiliary is does."
+    },
+    {
+     "respuesta": "does does",
+     "explicacion": "The gap only needs the auxiliary; the verb do already appears at the end of the sentence."
+    }
+   ]
+  },
+  {
+   "id": "e06",
+   "tipo": "eleccion",
+   "enunciado": "Choose the correct option.",
+   "frase": "How ___ people work in your company?",
+   "opciones": [
+    "much",
+    "many",
+    "often"
+   ],
+   "respuestas": [
+    "many"
+   ],
+   "explicacion": "This applies the “How much / How many” row of the table: how many goes with plural countable nouns and how much with uncountable nouns. The clue is people, which is plural (the card on plurals reminds you: people are). That is why it is How many people…? Also, in this question people is the subject, so it does not take do: How many people work…?",
+   "explicacion_breve": "People is countable and plural: how many.",
+   "traduccion": "¿Cuántas personas trabajan en tu empresa?",
+   "por_opcion": {
+    "much": "Incorrect: how much goes with uncountable nouns (how much money); people is countable and plural.",
+    "many": "Correct: how many with a plural countable noun such as people.",
+    "often": "Incorrect: how often asks about frequency and cannot be followed by a noun like this."
+   }
+  },
+  {
+   "id": "e07",
+   "tipo": "eleccion",
+   "enunciado": "Choose the correct option.",
+   "frase": "How ___ is this bag? — It's 25 euros.",
+   "opciones": [
+    "many",
+    "much",
+    "long"
+   ],
+   "respuestas": [
+    "much"
+   ],
+   "explicacion": "This applies the table of question words, which gives How much is it? as the way to ask the price. The answer (It's 25 euros) shows that the question is about the price of the bag, and with money, which is uncountable, you use how much. That is why it is How much is this bag? How long is this bag? would also be grammatical, but it would ask how long it is.",
+   "explicacion_breve": "To ask the price: how much.",
+   "traduccion": "¿Cuánto cuesta este bolso? — Cuesta 25 euros.",
+   "por_opcion": {
+    "many": "Incorrect: how many goes with plural countable nouns, and here the question is about the price.",
+    "much": "Correct: how much is…? is the usual question about price.",
+    "long": "Incorrect here: How long is this bag? would ask about its length, and the answer (25 euros) is a price."
+   }
+  },
+  {
+   "id": "e08",
+   "tipo": "eleccion",
+   "enunciado": "Choose the correct option.",
+   "frase": "How ___ do you visit your grandparents? Once a month.",
+   "opciones": [
+    "often",
+    "long",
+    "many"
+   ],
+   "respuestas": [
+    "often"
+   ],
+   "explicacion": "This applies the last row of the table: how often asks about frequency. The clue is the answer, Once a month, which expresses frequency. That is why it is How often do you visit…? Remember that you answer about frequency with expressions such as once a week, twice a year or every day.",
+   "explicacion_breve": "It asks about frequency: how often.",
+   "traduccion": "¿Cada cuánto visitas a tus abuelos? Una vez al mes.",
+   "por_opcion": {
+    "often": "Correct: how often asks about frequency, and the answer is once a month.",
+    "long": "Incorrect: how long asks about duration; the answer would be for two hours, not once a month.",
+    "many": "Incorrect: how many needs a plural noun after it (how many times)."
+   }
+  },
+  {
+   "id": "e09",
+   "tipo": "eleccion",
+   "enunciado": "Choose the correct option.",
+   "frase": "When ___ the next train?",
+   "opciones": [
+    "does",
+    "is",
+    "do"
+   ],
+   "respuestas": [
+    "is"
+   ],
+   "explicacion": "This applies the structure on the card: with to be, the verb be goes after the question word and before the subject (Where is the station?). The clue is that the sentence has no other verb: only the noun the next train. With no main verb, the only possible verb is be, in the third person: When is the next train? With does you would need a verb, as in When does the next train leave?",
+   "explicacion_breve": "With a noun and no other verb you use to be.",
+   "traduccion": "¿Cuándo es el próximo tren?",
+   "por_opcion": {
+    "does": "Incorrect: does needs a main verb after it (When does the next train leave?), and there is none here.",
+    "is": "Correct: with no other verb, the sentence is built with be: When is the next train?",
+    "do": "Incorrect: do is an auxiliary and needs a main verb; besides, the subject is singular."
+   }
+  },
+  {
+   "id": "e10",
+   "tipo": "corregir",
+   "enunciado": "Correct the mistake.",
+   "frase": "Where you are from?",
+   "respuestas": [
+    "Where are you from?"
+   ],
+   "explicacion": "This applies the structure on the card for to be: question word + be + subject. The clue is that the verb in the sentence is are, a form of be, which goes before the subject in questions. So Where you are from? becomes Where are you from? The preposition from stays at the end, as is normal in English: you do not say “From where are you?”.",
+   "explicacion_breve": "The verb to be goes before the subject.",
+   "traduccion": "¿De dónde eres?",
+   "errores_previstos": [
+    {
+     "respuesta": "Where you are from?",
+     "explicacion": "This is the uncorrected sentence: in the question be goes before the subject."
+    },
+    {
+     "respuesta": "From where are you?",
+     "explicacion": "Calque of Spanish “¿de dónde eres?”: the preposition from goes at the end of the question."
+    },
+    {
+     "respuesta": "Where do you are from?",
+     "explicacion": "With be you do not use do; just invert: Where are you from?"
+    }
+   ]
+  },
+  {
+   "id": "e11",
+   "tipo": "corregir",
+   "enunciado": "Correct the mistake.",
+   "frase": "What time the shop opens?",
+   "respuestas": [
+    "What time does the shop open?"
+   ],
+   "explicacion": "This applies the structure on the card for verbs other than be: question word + does + subject + verb. The clue is the verb open, which is not be, and the subject the shop, third person. Two changes are needed: add does and remove the -s from the verb, because the third-person marker moves to the auxiliary: What time does the shop open?",
+   "explicacion_breve": "You need does and the verb in the base form.",
+   "traduccion": "¿A qué hora abre la tienda?",
+   "errores_previstos": [
+    {
+     "respuesta": "What time the shop opens?",
+     "explicacion": "This is the uncorrected sentence: the auxiliary does is missing."
+    },
+    {
+     "respuesta": "What time does the shop opens?",
+     "explicacion": "After does the verb is in the base form: open, without -s."
+    },
+    {
+     "respuesta": "What time do the shop open?",
+     "explicacion": "The shop is third person singular: does."
+    }
+   ]
+  },
+  {
+   "id": "e12",
+   "tipo": "corregir",
+   "enunciado": "Correct the mistake.",
+   "frase": "How much brothers have you got?",
+   "respuestas": [
+    "How many brothers have you got?"
+   ],
+   "explicacion": "This applies the “How much / How many” row of the table: how many with plural countable nouns. The clue is brothers, which is countable and plural (you can count them: one brother, two brothers). So how much becomes how many. Have you got is the British form of “do you have”; you could also say How many brothers do you have?",
+   "explicacion_breve": "Brothers is countable and plural: how many.",
+   "traduccion": "¿Cuántos hermanos tienes?",
+   "errores_previstos": [
+    {
+     "respuesta": "How much brothers have you got?",
+     "explicacion": "This is the uncorrected sentence: brothers is countable and plural, so it takes how many."
+    },
+    {
+     "respuesta": "How many brother have you got?",
+     "explicacion": "After how many the noun is plural: brothers."
+    },
+    {
+     "respuesta": "How many brothers you have got?",
+     "explicacion": "In the question have goes before the subject: have you got."
+    }
+   ]
+  },
+  {
+   "id": "e13",
+   "tipo": "ordenar",
+   "enunciado": "Put the words in order to make a question.",
+   "palabras": [
+    "you",
+    "what",
+    "do",
+    "weekend",
+    "the",
+    "do",
+    "at"
+   ],
+   "respuestas": [
+    "What do you do at the weekend"
+   ],
+   "explicacion": "This applies the structure on the card: question word + do + subject + verb + complement. The clue is that there are two do: the first, after what, is the auxiliary of the question, and the second, after you, is the main verb “do”. At the end comes the time expression, at the weekend, which is the British form (in American English you say on the weekend).",
+   "explicacion_breve": "Question word + do + subject + verb + complement.",
+   "traduccion": "¿Qué haces el fin de semana?",
+   "errores_previstos": [
+    {
+     "respuesta": "What you do do at the weekend",
+     "explicacion": "The auxiliary do goes before the subject: What do you do."
+    },
+    {
+     "respuesta": "What do you at the weekend do",
+     "explicacion": "The verb do goes right after the subject, before the time expression."
+    },
+    {
+     "respuesta": "At the weekend what do you do",
+     "explicacion": "Calque of an order with the complement first: in the question the question word goes at the beginning."
+    }
+   ]
+  },
+  {
+   "id": "e14",
+   "tipo": "ordenar",
+   "enunciado": "Put the words in order to make a question.",
+   "palabras": [
+    "does",
+    "when",
+    "start",
+    "film",
+    "the"
+   ],
+   "respuestas": [
+    "When does the film start"
+   ],
+   "explicacion": "This applies the structure on the card: question word + does + subject + verb. The clue is the auxiliary does, which shows the present with a third-person subject (the film), and the verb start in the base form. The order is When + does + the film + start. In English the subject cannot go at the end as in Spanish (“¿cuándo empieza la película?”).",
+   "explicacion_breve": "Question word + does + subject + verb.",
+   "traduccion": "¿Cuándo empieza la película?",
+   "errores_previstos": [
+    {
+     "respuesta": "When does start the film",
+     "explicacion": "Calque of the Spanish order (“cuándo empieza la película”): the subject goes between does and the verb."
+    },
+    {
+     "respuesta": "When the film does start",
+     "explicacion": "In the question the auxiliary does goes before the subject."
+    },
+    {
+     "respuesta": "Does the film start when",
+     "explicacion": "The question word when goes at the beginning."
+    }
+   ]
+  },
+  {
+   "id": "e15",
+   "tipo": "ordenar",
+   "enunciado": "Put the words in order to make a question.",
+   "palabras": [
+    "can",
+    "how",
+    "help",
+    "I",
+    "you"
+   ],
+   "respuestas": [
+    "How can I help you"
+   ],
+   "explicacion": "This applies the structure on the card with can: question word + can + subject + verb + object (How can I help you?, the card's own example). The clue is that can works as an auxiliary, so you do not need do and you just put it before the subject I. It is the fixed phrase used when serving the public.",
+   "explicacion_breve": "Question word + can + subject + verb + object.",
+   "traduccion": "¿En qué puedo ayudarle?",
+   "errores_previstos": [
+    {
+     "respuesta": "How I can help you",
+     "explicacion": "In the question can goes before the subject: How can I."
+    },
+    {
+     "respuesta": "How can help I you",
+     "explicacion": "The subject I goes between can and the verb: can I help."
+    },
+    {
+     "respuesta": "Can I help you how",
+     "explicacion": "The question word how goes at the beginning of the question."
+    }
+   ]
+  }
+ ],
+ "fuente": {
+  "nombre": "propia"
+ },
+ "descripcion_larga_es": "Open questions in English start with a question word (what, where, when, who, why, which, how) followed by the auxiliary and the subject: Where do you live? They are essential for any conversation. They are difficult for Spanish speakers because in Spanish intonation is enough and the order is free (“¿Dónde tú vives?”), whereas in English the auxiliary before the subject is compulsory.",
+ "contexto": {
+  "que_es": "These are questions that ask for information, not for a yes or a no. They follow a fixed order: question word + auxiliary + subject + verb (What do you do?). With to be or with a modal, that verb acts as the auxiliary (Where is the station? How can I help you?). How combines with other words to ask about quantity, age, frequency or duration.",
+  "por_que_importa": "Without them you cannot hold a basic conversation: asking someone's name, where they are from, their job, the price or the time. Forgetting the auxiliary (“Where you live?”) or not inverting the subject (“Where you are from?”) are very common mistakes that people notice immediately. Choosing wrongly between how much and how many also changes the meaning or sounds wrong.",
+  "cuando_se_usa": "Whenever you ask for specific information: place (where), time (when), person (who), reason (why), choice between options (which), way (how), price or quantity (how much, how many), age (how old) or frequency (how often). The signal is the answer you expect. Spanish speakers tend to copy the Spanish order and leave out do/does."
+ }
+}

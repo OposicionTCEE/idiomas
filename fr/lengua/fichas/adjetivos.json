@@ -1,0 +1,558 @@
+{
+ "id": "fr.g.adjetivos",
+ "titulo": "L'accord des adjectifs",
+ "titulo_es": "Les adjectifs : l'accord en genre et en nombre",
+ "descripcion_es": "Comment se forment le féminin et le pluriel des adjectifs, réguliers et irréguliers.",
+ "nivel": "A1",
+ "resumen": "Comme en espagnol, l'adjectif français s'accorde en genre et en nombre avec le nom ; la règle générale consiste à ajouter -e pour le féminin et -s pour le pluriel, mais beaucoup de terminaisons changent.",
+ "explicacion": [
+  {
+   "tipo": "tabla",
+   "cabecera": [
+    "",
+    "Singulier",
+    "Pluriel"
+   ],
+   "filas": [
+    [
+     "Masculin",
+     "petit",
+     "petits"
+    ],
+    [
+     "Féminin",
+     "petite",
+     "petites"
+    ]
+   ]
+  },
+  {
+   "tipo": "texto",
+   "texto": "Le -s du pluriel ne se prononce pas : petit et petits se prononcent donc de la même façon ; en revanche, le -e du féminin fait entendre la consonne finale : petit [pəti] / petite [pətit]. Si l'adjectif se termine déjà par -e, il ne change pas au féminin : un homme calme, une femme calme. Si l'adjectif se rapporte à des noms des deux genres, il se met au masculin pluriel : Tammy et Tex sont petits."
+  },
+  {
+   "tipo": "tabla",
+   "cabecera": [
+    "Terminaison",
+    "Féminin",
+    "Exemple"
+   ],
+   "filas": [
+    [
+     "-el, -eil, -il",
+     "-elle, -eille, -ille",
+     "cruel / cruelle; pareil / pareille; gentil / gentille"
+    ],
+    [
+     "-en, -on",
+     "-enne, -onne",
+     "ancien / ancienne; bon / bonne"
+    ],
+    [
+     "-s",
+     "-sse",
+     "gros / grosse"
+    ],
+    [
+     "-er, -et",
+     "-ère, -ète",
+     "cher / chère; secret / secrète"
+    ],
+    [
+     "-eux, -eur",
+     "-euse",
+     "heureux / heureuse; travailleur / travailleuse"
+    ],
+    [
+     "-teur",
+     "-trice",
+     "créateur / créatrice"
+    ],
+    [
+     "-f",
+     "-ve",
+     "actif / active; sportif / sportive"
+    ],
+    [
+     "-c",
+     "-che ou -que",
+     "blanc / blanche; franc / franche; public / publique"
+    ],
+    [
+     "Autres irréguliers",
+     "",
+     "doux / douce; faux / fausse; frais / fraîche; long / longue; fou / folle; favori / favorite"
+    ]
+   ]
+  },
+  {
+   "tipo": "lista",
+   "items": [
+    "Pluriel : si le masculin se termine déjà par -s ou -x, il ne change pas : un homme heureux, des hommes heureux.",
+    "-eau fait -eaux : beau / beaux, nouveau / nouveaux.",
+    "-al fait généralement -aux : national / nationaux, social / sociaux (mais le féminin est régulier : nationales).",
+    "Beau, nouveau et vieux ont une forme spéciale devant une voyelle au masculin singulier : un bel hôtel, un nouvel ami, un vieil homme ; au féminin, belle, nouvelle, vieille."
+   ]
+  }
+ ],
+ "ejemplos": [
+  {
+   "frase": "La neige est blanche.",
+   "traduccion": "La nieve es blanca."
+  },
+  {
+   "frase": "Fiona est travailleuse, mais Joe-Bob n'est pas travailleur.",
+   "traduccion": "Fiona es trabajadora, pero Joe-Bob no es trabajador."
+  },
+  {
+   "frase": "C'est une bonne idée.",
+   "traduccion": "Es una buena idea."
+  },
+  {
+   "frase": "Tex et Tammy sont imaginaires.",
+   "traduccion": "Tex y Tammy son imaginarios."
+  },
+  {
+   "frase": "Les rues de la ville sont longues et étroites.",
+   "traduccion": "Las calles de la ciudad son largas y estrechas."
+  },
+  {
+   "frase": "Ce sont des problèmes sociaux.",
+   "traduccion": "Son problemas sociales."
+  }
+ ],
+ "errores_hispanohablantes": [
+  {
+   "mal": "Elle est très actif.",
+   "bien": "Elle est très active.",
+   "nota": "-f devient -ve au féminin."
+  },
+  {
+   "mal": "Une bone idée.",
+   "bien": "Une bonne idée.",
+   "nota": "Bon double le n au féminin : bonne."
+  },
+  {
+   "mal": "Des problèmes socials.",
+   "bien": "Des problèmes sociaux.",
+   "nota": "La plupart des adjectifs en -al font leur pluriel masculin en -aux."
+  },
+  {
+   "mal": "Un beau hôtel.",
+   "bien": "Un bel hôtel.",
+   "nota": "Devant une voyelle ou un h muet, beau devient bel."
+  }
+ ],
+ "ejercicios": [
+  {
+   "id": "e01",
+   "tipo": "hueco",
+   "enunciado": "Complétez avec l'adjectif accordé.",
+   "frase": "La neige est ___ (blanc).",
+   "respuestas": [
+    "blanche"
+   ],
+   "explicacion": "On applique le tableau des féminins irréguliers : les adjectifs en -c font leur féminin en -che ou -que, et « blanc » donne « blanche ». L'indice est le sujet « la neige », féminin singulier. Il ne suffit donc pas d'ajouter -e (« blance » n'existe pas) : il faut écrire « blanche », de même que « franc » donne « franche ».",
+   "origen": "tatoeba:4470957",
+   "explicacion_breve": "Blanc fait son féminin en -che.",
+   "traduccion": "La nieve es blanca.",
+   "errores_previstos": [
+    {
+     "respuesta": "blanc",
+     "explicacion": "L'accord a été oublié : « neige » est féminin et l'adjectif doit être au féminin."
+    },
+    {
+     "respuesta": "blance",
+     "explicacion": "On a appliqué la règle générale (ajouter -e), mais « blanc » est irrégulier : son féminin est « blanche »."
+    }
+   ]
+  },
+  {
+   "id": "e02",
+   "tipo": "hueco",
+   "enunciado": "Complétez avec l'adjectif accordé (c'est une femme qui parle).",
+   "frase": "Je suis si ___ (heureux).",
+   "respuestas": [
+    "heureuse"
+   ],
+   "explicacion": "On applique la règle du tableau selon laquelle les adjectifs en -eux font leur féminin en -euse. L'indice est dans la consigne : c'est une femme qui parle, donc « je » est féminin, même si le pronom ne le montre pas. « Heureux » devient donc « heureuse », le x se transformant en s, avec le -e final.",
+   "origen": "tatoeba:623855",
+   "explicacion_breve": "-eux fait son féminin en -euse.",
+   "traduccion": "¡Estoy tan feliz!",
+   "errores_previstos": [
+    {
+     "respuesta": "heureux",
+     "explicacion": "C'est la forme masculine ; comme c'est une femme qui parle, l'adjectif doit être au féminin : « heureuse »."
+    },
+    {
+     "respuesta": "heureuxe",
+     "explicacion": "On n'ajoute pas -e après le x : la terminaison -eux se transforme entièrement en -euse."
+    }
+   ]
+  },
+  {
+   "id": "e03",
+   "tipo": "hueco",
+   "enunciado": "Complétez avec l'adjectif accordé.",
+   "frase": "Tu es une ___ amie (bon).",
+   "respuestas": [
+    "bonne"
+   ],
+   "explicacion": "On applique la règle du tableau pour les adjectifs en -on, qui doublent le n au féminin : « bon » donne « bonne ». L'indice est « une amie », féminin singulier (l'article « une » et le -e de « amie » l'indiquent). Même si « amie » commence par une voyelle, l'adjectif féminin est toujours « bonne » ; il n'existe pas de forme spéciale comme pour « bel ».",
+   "origen": "tatoeba:9501249",
+   "explicacion_breve": "Bon double le n au féminin.",
+   "traduccion": "Eres una buena amiga.",
+   "errores_previstos": [
+    {
+     "respuesta": "bon",
+     "explicacion": "C'est la forme masculine ; « amie » est féminin et exige « bonne »."
+    },
+    {
+     "respuesta": "bone",
+     "explicacion": "Il faut doubler le n : les adjectifs en -on font leur féminin en -onne."
+    }
+   ]
+  },
+  {
+   "id": "e04",
+   "tipo": "hueco",
+   "enunciado": "Complétez avec l'adjectif accordé.",
+   "frase": "Il a une ___ voix (beau).",
+   "respuestas": [
+    "belle"
+   ],
+   "explicacion": "On applique la règle des adjectifs à forme spéciale : le féminin de « beau » est « belle ». L'indice est « une voix » : même s'il se termine par -x, « voix » est un nom féminin, comme l'indique l'article « une ». L'adjectif, placé devant le nom, doit donc être « belle ».",
+   "origen": "tatoeba:1281369",
+   "explicacion_breve": "Voix est féminin ; le féminin de beau est belle.",
+   "traduccion": "Tiene una voz bonita.",
+   "errores_previstos": [
+    {
+     "respuesta": "beau",
+     "explicacion": "C'est la forme masculine ; « voix » est féminin (« une voix »), donc on dit « belle »."
+    },
+    {
+     "respuesta": "bel",
+     "explicacion": "« Bel » ne s'emploie qu'au masculin singulier devant une voyelle ou un h muet ; ici, le nom est féminin et commence par une consonne."
+    },
+    {
+     "respuesta": "beaue",
+     "explicacion": "« Beau » ne forme pas son féminin avec -e : son féminin est « belle »."
+    }
+   ]
+  },
+  {
+   "id": "e05",
+   "tipo": "corregir",
+   "enunciado": "Corrigez l'erreur.",
+   "frase": "Cette soupe est bon.",
+   "respuestas": [
+    "Cette soupe est bonne."
+   ],
+   "explicacion": "On applique l'accord en genre avec la règle des adjectifs en -on, qui doublent le n : « bon » donne « bonne ». L'indice est le sujet « cette soupe », féminin singulier, comme l'indique le démonstratif « cette ». L'adjectif attribut, relié au sujet par « est », s'accorde de la même façon que s'il était placé devant le nom.",
+   "origen": "tatoeba:901872",
+   "explicacion_breve": "Soupe est féminin : bonne.",
+   "traduccion": "Esta sopa está buena.",
+   "errores_previstos": [
+    {
+     "respuesta": "Cette soupe est bon.",
+     "explicacion": "C'est la phrase non corrigée : « soupe » est féminin et l'adjectif doit être « bonne »."
+    },
+    {
+     "respuesta": "Cette soupe est bone.",
+     "explicacion": "Le féminin est marqué, mais il faut doubler le n : « bonne »."
+    }
+   ]
+  },
+  {
+   "id": "e06",
+   "tipo": "corregir",
+   "enunciado": "Corrigez l'erreur.",
+   "frase": "C'est une bon idée.",
+   "respuestas": [
+    "C'est une bonne idée."
+   ],
+   "explicacion": "On applique la règle des adjectifs en -on : le féminin de « bon » est « bonne ». L'indice est « une idée » : « idée » est féminin, comme en espagnol, et l'article « une » le confirme. « Bon » se place devant le nom et doit s'accorder avec lui.",
+   "origen": "tatoeba:12407",
+   "explicacion_breve": "Idée est féminin : bonne.",
+   "traduccion": "Es una buena idea.",
+   "errores_previstos": [
+    {
+     "respuesta": "C'est une bon idée.",
+     "explicacion": "C'est la phrase non corrigée : l'adjectif doit s'accorder avec « idée », féminin."
+    },
+    {
+     "respuesta": "C'est une bone idée.",
+     "explicacion": "Il faut doubler le n : « bonne »."
+    },
+    {
+     "respuesta": "C'est un bon idée.",
+     "explicacion": "On a changé l'article au lieu de l'adjectif ; « idée » est féminin et exige « une bonne »."
+    }
+   ]
+  },
+  {
+   "id": "e07",
+   "tipo": "eleccion",
+   "enunciado": "Choisissez la forme correcte.",
+   "frase": "Emi semble ___.",
+   "opciones": [
+    "heureux",
+    "heureuse",
+    "heureuses"
+   ],
+   "respuestas": [
+    "heureuse"
+   ],
+   "explicacion": "On applique l'accord de l'adjectif attribut avec le sujet, avec la règle -eux / -euse. L'indice est le sujet « Emi », prénom féminin au singulier, et le verbe « semble », qui fonctionne comme « être ». L'adjectif se met donc au féminin singulier : « heureuse ».",
+   "origen": "tatoeba:411257",
+   "explicacion_breve": "Emi est une femme : féminin singulier.",
+   "traduccion": "Emi parece feliz.",
+   "por_opcion": {
+    "heureux": "Incorrect : c'est la forme masculine (singulier ou pluriel) ; elle ne s'accorde pas avec un sujet féminin.",
+    "heureuse": "Correct : féminin singulier, comme le sujet « Emi ».",
+    "heureuses": "Incorrect : c'est le féminin pluriel ; le sujet est une seule personne."
+   }
+  },
+  {
+   "id": "e08",
+   "tipo": "eleccion",
+   "enunciado": "Choisissez la forme correcte.",
+   "frase": "Tammy et Tex sont ___.",
+   "opciones": [
+    "petits",
+    "petites",
+    "petit"
+   ],
+   "respuestas": [
+    "petits"
+   ],
+   "explicacion": "On applique la règle de la fiche selon laquelle, si l'adjectif se rapporte à des noms des deux genres, il se met au masculin pluriel. L'indice est le double sujet « Tammy et Tex » : Tammy est féminin et Tex masculin. On écrit donc « petits », avec le -s du pluriel et sans le -e du féminin, comme en espagnol « son pequeños ».",
+   "explicacion_breve": "Avec des noms des deux genres, l'adjectif se met au masculin pluriel.",
+   "traduccion": "Tammy y Tex son pequeños.",
+   "por_opcion": {
+    "petits": "Correct : masculin pluriel, la forme qu'on emploie quand les deux genres sont mélangés.",
+    "petites": "Incorrect : féminin pluriel ; il ne conviendrait que si les deux sujets étaient féminins.",
+    "petit": "Incorrect : c'est un singulier, et le sujet désigne deux personnes."
+   }
+  },
+  {
+   "id": "e09",
+   "tipo": "hueco",
+   "enunciado": "Complétez avec l'adjectif accordé.",
+   "frase": "Les rues sont ___ (long).",
+   "respuestas": [
+    "longues"
+   ],
+   "explicacion": "On applique le tableau des féminins irréguliers : « long » fait au féminin « longue », avec un u qui conserve le son du g. L'indice est « les rues », féminin pluriel. On ajoute donc d'abord la terminaison du féminin, puis le -s du pluriel : « longues ».",
+   "explicacion_breve": "Long fait longue au féminin et longues au féminin pluriel.",
+   "traduccion": "Las calles son largas.",
+   "errores_previstos": [
+    {
+     "respuesta": "longs",
+     "explicacion": "C'est le masculin pluriel ; « rues » est féminin et exige « longues »."
+    },
+    {
+     "respuesta": "longes",
+     "explicacion": "Il manque le u : le féminin de « long » est « longue », pour que le g garde un son dur."
+    },
+    {
+     "respuesta": "longue",
+     "explicacion": "C'est bien au féminin, mais il manque le -s du pluriel : « les rues » est au pluriel."
+    }
+   ]
+  },
+  {
+   "id": "e10",
+   "tipo": "transformar",
+   "enunciado": "Mettez la phrase au féminin en commençant par Ma sœur.",
+   "frase": "Mon frère est sportif et gentil.",
+   "respuestas": [
+    "Ma sœur est sportive et gentille."
+   ],
+   "explicacion": "On applique deux règles du tableau : les adjectifs en -f font leur féminin en -ve, et les adjectifs en -il doublent le l et ajoutent -e. L'indice est le nouveau sujet « ma sœur », féminin singulier. Ainsi, « sportif » devient « sportive » et « gentil » devient « gentille » ; les deux adjectifs s'accordent avec le même sujet.",
+   "explicacion_breve": "-f devient -ve et -il devient -ille.",
+   "traduccion": "Mi hermana es deportista y amable.",
+   "errores_previstos": [
+    {
+     "respuesta": "Ma sœur est sportife et gentile.",
+     "explicacion": "On a appliqué la règle générale (ajouter -e), mais -f devient -ve et -il double le l : « sportive » et « gentille »."
+    },
+    {
+     "respuesta": "Ma sœur est sportive et gentil.",
+     "explicacion": "Le second adjectif doit aussi s'accorder : « gentille »."
+    },
+    {
+     "respuesta": "Ma sœur est sportif et gentil.",
+     "explicacion": "Seul le sujet a été changé ; les adjectifs doivent passer au féminin."
+    }
+   ]
+  },
+  {
+   "id": "e11",
+   "tipo": "transformar",
+   "enunciado": "Mettez la phrase au pluriel en commençant par Ce sont.",
+   "frase": "C'est un journal national.",
+   "respuestas": [
+    "Ce sont des journaux nationaux."
+   ],
+   "explicacion": "On applique la règle de la liste selon laquelle les masculins en -al font généralement leur pluriel en -aux. L'indice est que le sujet passe au pluriel avec « Ce sont des », et que le nom « journal » comme l'adjectif « national » se terminent par -al. On écrit donc « des journaux nationaux » : les deux changent de la même façon.",
+   "explicacion_breve": "Le nom comme l'adjectif en -al font leur pluriel en -aux.",
+   "traduccion": "Son periódicos nacionales.",
+   "errores_previstos": [
+    {
+     "respuesta": "Ce sont des journals nationals.",
+     "explicacion": "Application de la règle générale : les mots en -al font leur pluriel en -aux, pas en -als."
+    },
+    {
+     "respuesta": "Ce sont des journaux nationals.",
+     "explicacion": "L'adjectif se termine aussi par -al et doit faire son pluriel en -aux : « nationaux »."
+    },
+    {
+     "respuesta": "Ce sont des journaux nationales.",
+     "explicacion": "« Nationales » est le féminin pluriel ; « journal » est masculin et exige « nationaux »."
+    }
+   ]
+  },
+  {
+   "id": "e12",
+   "tipo": "eleccion",
+   "enunciado": "Choisissez la forme correcte.",
+   "frase": "C'est un ___ hôtel.",
+   "opciones": [
+    "beau",
+    "bel",
+    "belle"
+   ],
+   "respuestas": [
+    "bel"
+   ],
+   "explicacion": "On applique la règle des formes spéciales : « beau », « nouveau » et « vieux » deviennent « bel », « nouvel » et « vieil » au masculin singulier devant une voyelle ou un h muet. L'indice est « hôtel » : il est masculin et commence par un h muet, il se prononce donc comme s'il commençait par une voyelle. On dit donc « un bel hôtel », ce qui permet en outre de lier les sons.",
+   "explicacion_breve": "Devant un h muet, au masculin singulier, beau devient bel.",
+   "traduccion": "Es un hotel bonito.",
+   "por_opcion": {
+    "beau": "Incorrect : « beau » s'emploie devant une consonne ; devant un h muet au masculin singulier, il devient « bel ».",
+    "bel": "Correct : forme spéciale du masculin singulier devant une voyelle ou un h muet.",
+    "belle": "Incorrect : c'est la forme féminine et « hôtel » est masculin, même si elle se prononce comme « bel »."
+   }
+  },
+  {
+   "id": "e13",
+   "tipo": "ordenar",
+   "enunciado": "Remettez les mots dans l'ordre (es : Tienes buena memoria).",
+   "palabras": [
+    "mémoire",
+    "as",
+    "bonne",
+    "Tu",
+    "une"
+   ],
+   "respuestas": [
+    "Tu as une bonne mémoire"
+   ],
+   "explicacion": "Deux règles s'appliquent : « bon » est l'un des adjectifs courts qui se placent devant le nom, et il s'accorde avec « mémoire », qui est féminin en français. L'ordre est donc sujet « Tu », verbe « as », article « une », adjectif « bonne » et nom « mémoire ». Remarquez aussi que le français met un article (« une bonne mémoire ») là où l'espagnol l'omet.",
+   "origen": "tatoeba:339692",
+   "explicacion_breve": "Bon se place devant le nom et s'accorde avec mémoire (féminin).",
+   "traduccion": "Tienes buena memoria.",
+   "errores_previstos": [
+    {
+     "respuesta": "Tu as une mémoire bonne",
+     "explicacion": "« Bon » est un adjectif d'appréciation qui se place devant le nom : « une bonne mémoire »."
+    },
+    {
+     "respuesta": "Tu as bonne une mémoire",
+     "explicacion": "L'article se place avant l'adjectif : « une bonne mémoire »."
+    }
+   ]
+  },
+  {
+   "id": "e14",
+   "tipo": "hueco",
+   "enunciado": "Complétez avec l'adjectif accordé.",
+   "frase": "J'étais de ___ humeur (bon).",
+   "respuestas": [
+    "bonne"
+   ],
+   "explicacion": "On applique la règle des adjectifs en -on (« bon » donne « bonne ») avec une mise en garde sur le genre : « humeur » est féminin en français, même si « humor » est masculin en espagnol. C'est le piège de la phrase. On dit donc « de bonne humeur », expression figée très fréquente, comme « de mauvaise humeur ».",
+   "origen": "tatoeba:1640488",
+   "explicacion_breve": "Humeur est féminin en français.",
+   "traduccion": "Estaba de buen humor.",
+   "errores_previstos": [
+    {
+     "respuesta": "bon",
+     "explicacion": "Calque de l'espagnol « buen humor » : « humeur » est féminin et exige « bonne »."
+    },
+    {
+     "respuesta": "bone",
+     "explicacion": "Il faut doubler le n : « bonne »."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "l'humeur (f.)",
+     "significado": "el humor, el estado de ánimo"
+    }
+   ]
+  },
+  {
+   "id": "e15",
+   "tipo": "eleccion",
+   "enunciado": "Choisissez la forme correcte.",
+   "frase": "Ces chemises sont trop ___.",
+   "opciones": [
+    "cher",
+    "chère",
+    "chers",
+    "chères"
+   ],
+   "respuestas": [
+    "chères"
+   ],
+   "explicacion": "On applique la règle du tableau pour les adjectifs en -er, qui font leur féminin en -ère avec un accent grave, puis on ajoute le -s du pluriel. L'indice est « ces chemises », féminin pluriel. La forme est donc « chères » : accent, -e du féminin et -s du pluriel.",
+   "explicacion_breve": "Chemises est féminin pluriel : -er devient -ère et on ajoute -s.",
+   "traduccion": "Estas camisas son demasiado caras.",
+   "por_opcion": {
+    "cher": "Incorrect : masculin singulier ; ne s'accorde pas avec « chemises », féminin pluriel.",
+    "chère": "Incorrect : féminin singulier ; il manque le -s du pluriel.",
+    "chers": "Incorrect : masculin pluriel ; « chemise » est féminin.",
+    "chères": "Correct : féminin pluriel, comme « ces chemises »."
+   }
+  },
+  {
+   "id": "e16",
+   "tipo": "hueco",
+   "enunciado": "Complétez avec l'adjectif accordé.",
+   "frase": "Ma grand-mère est très ___ (actif).",
+   "respuestas": [
+    "active"
+   ],
+   "explicacion": "On applique la règle du tableau selon laquelle les adjectifs en -f font leur féminin en -ve. L'indice est le sujet « ma grand-mère », féminin singulier. « Actif » devient donc « active », comme « sportif » devient « sportive » ; l'adverbe « très » ne change rien.",
+   "explicacion_breve": "-f fait son féminin en -ve.",
+   "traduccion": "Mi abuela es muy activa.",
+   "errores_previstos": [
+    {
+     "respuesta": "actif",
+     "explicacion": "C'est la forme masculine ; le sujet « ma grand-mère » est féminin."
+    },
+    {
+     "respuesta": "actife",
+     "explicacion": "Il ne suffit pas d'ajouter -e : le f devient v, « active »."
+    }
+   ]
+  }
+ ],
+ "fuente": {
+  "nombre": "Tex's French Grammar",
+  "autores": "COERLL, Université du Texas à Austin",
+  "licencia": "CC BY 3.0",
+  "url": "https://laits.utexas.edu/tex/gr/adj1.html",
+  "otras": [
+   "Phrases de Tatoeba (CC BY 2.0 FR)"
+  ]
+ },
+ "descripcion_larga_es": "Cette fiche explique comment l'adjectif français s'accorde en genre et en nombre avec le nom : la règle générale (-e pour le féminin, -s pour le pluriel) et les terminaisons qui changent, comme -eux/-euse, -f/-ve, -on/-onne ou -al/-aux. C'est important parce que l'accord s'entend au féminin et se voit toujours à l'écrit, et parce que le genre de beaucoup de noms ne coïncide pas avec l'espagnol.",
+ "contexto": {
+  "que_es": "C'est le mécanisme par lequel l'adjectif prend le genre (masculin ou féminin) et le nombre (singulier ou pluriel) du nom auquel il se rapporte. La règle de base ajoute -e et -s, mais beaucoup de terminaisons ont un féminin particulier (-euse, -ve, -che, -onne, -ère) et certains pluriels sont irréguliers (-aux, -eaux). Quand l'adjectif se rapporte à des noms des deux genres, il se met au masculin pluriel.",
+  "por_que_importa": "C'est l'une des premières choses qu'on corrige dans un texte écrit : un adjectif non accordé saute aux yeux. À l'oral, le féminin s'entend souvent (petit/petite, bon/bonne) : l'erreur se remarque donc aussi quand on parle. De plus, des noms comme « voix », « humeur » ou « mémoire » sont féminins en français alors que leur équivalent espagnol ne l'est pas, ce qui provoque des fautes.",
+  "cuando_se_usa": "Chaque fois qu'un adjectif accompagne un nom ou s'y rattache par un verbe comme « être », « sembler » ou « devenir ». L'indice est le nom ou le pronom sujet : c'est son genre et son nombre qui commandent. L'hispanophone maîtrise généralement la règle générale, mais oublie les féminins irréguliers ou se guide sur le genre du nom en espagnol."
+ }
+}

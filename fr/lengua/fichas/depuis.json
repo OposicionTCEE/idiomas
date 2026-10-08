@@ -1,0 +1,500 @@
+{
+ "id": "fr.g.depuis",
+ "titulo": "Depuis, il y a, pendant, pour",
+ "titulo_es": "Depuis, il y a, pendant, pour",
+ "descripcion_es": "Exprimer combien de temps dure quelque chose et quand cela s'est produit.",
+ "nivel": "A1",
+ "resumen": "Depuis exprime une action qui a commencé dans le passé et continue maintenant (es : desde, desde hace) et s'emploie avec le présent ; il y a situe un fait terminé dans le passé (es : hace) et s'emploie avec le passé composé ; pendant mesure la durée (es : durante) et pour la durée prévue avec des verbes comme partir ou aller.",
+ "explicacion": [
+  {
+   "tipo": "tabla",
+   "cabecera": [
+    "Expression",
+    "Sens",
+    "Temps verbal",
+    "Exemple"
+   ],
+   "filas": [
+    [
+     "depuis + durée",
+     "durée écoulée jusqu'à maintenant (es : desde hace)",
+     "présent (action qui continue)",
+     "J'habite ici depuis trois ans."
+    ],
+    [
+     "depuis + date ou moment",
+     "point de départ d'une situation qui continue (es : desde)",
+     "présent",
+     "Il pleut depuis lundi."
+    ],
+    [
+     "il y a + durée",
+     "temps écoulé depuis un fait terminé (es : hace)",
+     "passé composé (fait ponctuel)",
+     "Je suis arrivé il y a trois ans."
+    ],
+    [
+     "pendant + durée",
+     "durée d'une action (es : durante)",
+     "n'importe quel temps ; action avec un début et une fin",
+     "J'ai attendu pendant une heure."
+    ],
+    [
+     "pour + durée",
+     "durée prévue (es : para, por)",
+     "avec partir, aller, venir",
+     "Je pars à Rome pour une semaine."
+    ]
+   ]
+  },
+  {
+   "tipo": "texto",
+   "texto": "Erreur typique : l'espagnol « llevo tres años aquí » ou « vivo aquí desde hace tres años » se traduit par le présent + depuis (J'habite ici depuis trois ans), jamais par le passé composé (j'ai habité ici depuis…). Et « hace tres años » avec un fait terminé se dit il y a : Je suis arrivé il y a trois ans."
+  },
+  {
+   "tipo": "lista",
+   "items": [
+    "Questions : Depuis quand… ? (es : « ¿desde cuándo? ») et Depuis combien de temps… ? (es : « ¿cuánto tiempo hace que…? ») : Depuis combien de temps apprends-tu le français ?",
+    "Il y a… que, ça fait… que et voilà… que + présent équivalent à depuis : Ça fait deux heures que j'attends = J'attends depuis deux heures.",
+    "À la forme négative, depuis peut s'employer avec le passé composé : Je n'ai pas mangé depuis hier (es : « no he comido desde ayer »).",
+    "Au passé, depuis s'emploie avec l'imparfait : Il pleuvait depuis des jours (es : « llovía desde hacía días »).",
+    "Depuis employé seul, en début de phrase et suivi d'une virgule, signifie « depuis ce moment-là »."
+   ]
+  }
+ ],
+ "ejemplos": [
+  {
+   "frase": "Je le connais depuis un an.",
+   "traduccion": "Lo conozco desde hace un año."
+  },
+  {
+   "frase": "Nous vivons ici depuis janvier.",
+   "traduccion": "Vivimos aquí desde enero."
+  },
+  {
+   "frase": "Je me suis marié il y a huit ans.",
+   "traduccion": "Me casé hace ocho años."
+  },
+  {
+   "frase": "Il a parlé pendant une heure.",
+   "traduccion": "Habló durante una hora."
+  },
+  {
+   "frase": "Je n'ai pas mangé depuis hier.",
+   "traduccion": "No he comido desde ayer."
+  },
+  {
+   "frase": "À Noël, nous allons chez mes parents pour deux semaines.",
+   "traduccion": "En Navidad vamos a casa de mis padres dos semanas."
+  }
+ ],
+ "errores_hispanohablantes": [
+  {
+   "mal": "J'habite à Madrid il y a trois ans.",
+   "bien": "J'habite à Madrid depuis trois ans.",
+   "nota": "Pour une situation qui continue, l'espagnol « desde hace » se dit depuis, pas il y a."
+  },
+  {
+   "mal": "J'ai travaillé ici depuis deux ans.",
+   "bien": "Je travaille ici depuis deux ans.",
+   "nota": "Avec depuis et une action qui continue, le verbe est au présent."
+  },
+  {
+   "mal": "J'ai attendu le bus depuis une heure.",
+   "bien": "J'ai attendu le bus pendant une heure.",
+   "nota": "Si l'action est terminée, sa durée s'exprime avec pendant."
+  }
+ ],
+ "ejercicios": [
+  {
+   "id": "e01",
+   "tipo": "hueco",
+   "enunciado": "Complétez avec depuis, il y a, pendant ou pour.",
+   "frase": "Je suis ici ___ samedi.",
+   "respuestas": [
+    "depuis"
+   ],
+   "explicacion": "On applique la règle du tableau « depuis + date ou moment » : avec le présent, depuis indique à partir de quel moment dure une situation qui continue encore. L'indice se trouve dans deux éléments de la phrase : le verbe est au présent (je suis) et le complément est un moment précis (samedi), pas une quantité de temps. La personne est arrivée samedi et elle est toujours là maintenant ; « je suis ici depuis samedi » correspond donc exactement à l'espagnol « estoy aquí desde el sábado ».",
+   "origen": "tatoeba:865792",
+   "explicacion_breve": "Situation qui continue depuis un moment : depuis + présent.",
+   "traduccion": "Estoy aquí desde el sábado.",
+   "errores_previstos": [
+    {
+     "respuesta": "il y a",
+     "explicacion": "Il y a correspond à l'espagnol « hace » et s'emploie avec une quantité de temps et un fait terminé ; « il y a samedi » n'a pas de sens en français et, de plus, le fait d'être ici continue."
+    },
+    {
+     "respuesta": "pendant",
+     "explicacion": "Pendant mesure une durée (pendant deux jours), il n'indique pas un point de départ ; devant un jour de la semaine, il signifierait « au cours du samedi », ce qui contredit le présent."
+    }
+   ]
+  },
+  {
+   "id": "e02",
+   "tipo": "hueco",
+   "enunciado": "Complétez avec depuis, il y a, pendant ou pour.",
+   "frase": "Je suis né ___ 20 ans.",
+   "respuestas": [
+    "il y a"
+   ],
+   "explicacion": "C'est la règle « il y a + durée » (es : hace), avec le passé composé pour un fait ponctuel du passé. Naître est un événement qui n'arrive qu'une fois et qui se termine ; le verbe est au passé composé (je suis né) et le complément est une quantité de temps (20 ans). Il y a compte à rebours depuis maintenant jusqu'au moment de la naissance, comme l'espagnol « hace ».",
+   "origen": "tatoeba:772455",
+   "explicacion_breve": "Fait ponctuel du passé : il y a (es : hace).",
+   "traduccion": "Nací hace 20 años.",
+   "errores_previstos": [
+    {
+     "respuesta": "depuis",
+     "explicacion": "Depuis s'emploie pour quelque chose qui continue ; naître ne se prolonge pas dans le temps, donc « je suis né depuis 20 ans » est incorrect. Pour dire son âge, on dirait j'ai 20 ans."
+    },
+    {
+     "respuesta": "pendant",
+     "explicacion": "Pendant mesurerait combien de temps a duré la naissance, ce qui n'a pas de sens ici ; on demande quand elle a eu lieu."
+    }
+   ]
+  },
+  {
+   "id": "e03",
+   "tipo": "hueco",
+   "enunciado": "Complétez avec depuis, il y a, pendant ou pour.",
+   "frase": "Il a plu sans arrêt ___ une semaine.",
+   "respuestas": [
+    "pendant"
+   ],
+   "explicacion": "On applique la règle « pendant + durée » (es : durante) : il mesure une action avec un début et une fin. L'indice est le passé composé affirmatif (il a plu) avec sans arrêt : on raconte un épisode de pluie déjà terminé qui a duré une semaine. Pendant une semaine dit combien de temps a duré cet épisode, comme l'espagnol « durante una semana ».",
+   "origen": "tatoeba:3655597",
+   "explicacion_breve": "Durée d'une action terminée : pendant.",
+   "traduccion": "Llovió sin parar durante una semana.",
+   "errores_previstos": [
+    {
+     "respuesta": "depuis",
+     "explicacion": "Avec depuis, la pluie continuerait de tomber maintenant et le verbe devrait être au présent (il pleut sans arrêt depuis une semaine) ; avec le passé composé affirmatif, la combinaison est un calque de l'espagnol « ha llovido desde hace una semana »."
+    },
+    {
+     "respuesta": "il y a",
+     "explicacion": "« Il a plu il y a une semaine » est correct, mais signifie qu'il a plu à un moment donné, il y a une semaine, pas combien de temps cela a duré ; avec sans arrêt, ce qu'on exprime est la durée."
+    }
+   ]
+  },
+  {
+   "id": "e04",
+   "tipo": "hueco",
+   "enunciado": "Complétez avec depuis, il y a, pendant ou pour.",
+   "frase": "Je le connais ___ un an.",
+   "respuestas": [
+    "depuis"
+   ],
+   "explicacion": "C'est la règle « depuis + durée » (es : desde hace), avec le verbe au présent parce que la situation continue. L'indice est le présent je le connais : la connaissance a commencé il y a un an et continue maintenant. L'espagnol dit « desde hace un año » ou « hace un año que lo conozco », et le français l'exprime avec présent + depuis + durée.",
+   "origen": "tatoeba:1082280",
+   "explicacion_breve": "Je le connais et je le connais toujours : depuis + présent.",
+   "traduccion": "Lo conozco desde hace un año.",
+   "errores_previstos": [
+    {
+     "respuesta": "il y a",
+     "explicacion": "Il y a ne sert que pour un fait terminé ; « je le connais il y a un an » est un calque de l'espagnol « lo conozco hace un año ». On pourrait dire « je l'ai rencontré il y a un an », avec un autre verbe et un autre temps."
+    },
+    {
+     "respuesta": "pendant",
+     "explicacion": "Pendant avec le présent indiquerait une durée fermée ou habituelle, ce qui ne va pas avec une connaissance toujours actuelle."
+    }
+   ]
+  },
+  {
+   "id": "e05",
+   "tipo": "hueco",
+   "enunciado": "Complétez avec depuis, il y a, pendant ou pour.",
+   "frase": "Il est parti ___ 10 minutes.",
+   "respuestas": [
+    "il y a",
+    "depuis"
+   ],
+   "explicacion": "Ici, deux réponses sont possibles parce que la phrase admet deux lectures. Avec il y a, on applique la règle « il y a + durée » (es : hace) : le passé composé il est parti situe le moment du départ dix minutes en arrière. Avec depuis, on pense à l'état qui en résulte et qui continue (il est absent depuis dix minutes) ; c'est l'exception que la fiche prévoit pour les verbes dont le passé composé décrit un état actuel. Les deux sont naturelles en français.",
+   "origen": "tatoeba:130582",
+   "explicacion_breve": "Il y a situe le moment du départ (il y a dix minutes) ; depuis est aussi correct si l'on pense à l'état qui en résulte (il est absent depuis dix minutes).",
+   "traduccion": "Se fue hace 10 minutos (o: lleva 10 minutos fuera).",
+   "errores_previstos": [
+    {
+     "respuesta": "pendant",
+     "explicacion": "Pendant mesurerait combien de temps a duré l'action de partir, ce qui n'a pas de sens : partir est instantané."
+    },
+    {
+     "respuesta": "pour",
+     "explicacion": "« Il est parti pour 10 minutes » signifierait qu'il est parti avec l'intention de s'absenter dix minutes (durée prévue), pas quand il est parti ; ce n'est pas ce qu'exprime la phrase."
+    }
+   ]
+  },
+  {
+   "id": "e06",
+   "tipo": "eleccion",
+   "enunciado": "Choisissez la bonne réponse.",
+   "frase": "Taro est mort ___ deux ans.",
+   "opciones": [
+    "il y a",
+    "pour",
+    "pendant"
+   ],
+   "respuestas": [
+    "il y a"
+   ],
+   "explicacion": "On applique la règle « il y a + durée » (es : hace) avec un fait ponctuel au passé composé. Mourir est un événement qui se produit en un instant ; est mort est au passé composé et deux ans est une quantité de temps comptée en arrière à partir d'aujourd'hui. C'est pourquoi la seule option possible est il y a.",
+   "origen": "tatoeba:129126",
+   "explicacion_breve": "Fait ponctuel au passé composé : il y a.",
+   "traduccion": "Taro murió hace dos años.",
+   "por_opcion": {
+    "il y a": "Correct : il situe le moment de la mort deux ans avant maintenant, comme l'espagnol « hace ».",
+    "pour": "Incorrect : pour indique une durée prévue (partir pour deux ans) ; mourir n'a pas de durée prévue.",
+    "pendant": "Incorrect : pendant mesurerait combien de temps a duré la mort, qui n'est pas une action qui dure."
+   }
+  },
+  {
+   "id": "e07",
+   "tipo": "eleccion",
+   "enunciado": "Choisissez la bonne réponse.",
+   "frase": "Hier soir, j'ai étudié ___ une heure, puis je suis sorti.",
+   "opciones": [
+    "pendant",
+    "depuis",
+    "pour"
+   ],
+   "respuestas": [
+    "pendant"
+   ],
+   "explicacion": "C'est la règle « pendant + durée » : il mesure une action déjà terminée. Les indices sont hier soir, le passé composé j'ai étudié et puis je suis sorti, qui montrent clairement que l'étude s'est terminée avant de sortir. Pendant une heure indique combien de temps a duré cette étude, comme l'espagnol « durante una hora ».",
+   "explicacion_breve": "Durée d'une action déjà terminée : pendant.",
+   "traduccion": "Anoche estudié durante una hora y luego salí.",
+   "por_opcion": {
+    "pendant": "Correct : il exprime la durée complète d'une action terminée du passé.",
+    "depuis": "Incorrect : depuis exige que l'action continue, et ici elle est terminée ; de plus, avec le passé composé affirmatif, ce serait un calque de l'espagnol.",
+    "pour": "Incorrect : pour indique une durée prévue avec des verbes comme partir ; « étudier pour une heure » est un calque de l'anglais for an hour."
+   }
+  },
+  {
+   "id": "e08",
+   "tipo": "eleccion",
+   "enunciado": "Choisissez la bonne réponse.",
+   "frase": "Je pars en Italie ___ deux semaines.",
+   "opciones": [
+    "pour",
+    "depuis",
+    "il y a"
+   ],
+   "respuestas": [
+    "pour"
+   ],
+   "explicacion": "On applique la règle « pour + durée » avec des verbes comme partir, aller ou venir : il indique combien de temps on pense rester à destination. L'indice est le verbe je pars, qui annonce un voyage futur ; les deux semaines sont une prévision, pas une durée déjà vécue. L'espagnol dit souvent simplement « dos semanas » ou « por dos semanas ».",
+   "explicacion_breve": "Durée prévue avec partir : pour.",
+   "traduccion": "Me voy a Italia dos semanas.",
+   "por_opcion": {
+    "pour": "Correct : avec partir, pour exprime la durée prévue du séjour.",
+    "depuis": "Incorrect : « je pars depuis deux semaines » dirait que le départ dure depuis deux semaines, ce qui n'a pas de sens.",
+    "il y a": "Incorrect : il y a situe un fait passé (il y a deux semaines) et ne va pas avec un voyage qu'on annonce."
+   }
+  },
+  {
+   "id": "e09",
+   "tipo": "eleccion",
+   "enunciado": "Choisissez la bonne réponse.",
+   "frase": "___ combien de temps apprends-tu le français ?",
+   "opciones": [
+    "Depuis",
+    "Il y a",
+    "Pour"
+   ],
+   "respuestas": [
+    "Depuis"
+   ],
+   "explicacion": "C'est la question figée « Depuis combien de temps… ? » que la fiche donne dans la liste de règles, toujours avec le présent. L'indice est le verbe apprends-tu au présent : on pose une question sur une activité qui a commencé dans le passé et qui continue. Depuis combien de temps équivaut à l'espagnol « ¿cuánto tiempo hace que…? » ou « ¿desde hace cuánto…? ».",
+   "explicacion_breve": "Durée de quelque chose qui continue, avec le présent : depuis combien de temps.",
+   "traduccion": "¿Cuánto tiempo hace que aprendes francés? (¿Desde hace cuánto aprendes francés?)",
+   "por_opcion": {
+    "Depuis": "Correct : il forme la question sur la durée de quelque chose qui continue, avec le présent.",
+    "Il y a": "Incorrect : « Il y a combien de temps » s'emploie avec un fait terminé au passé composé (Il y a combien de temps que tu es arrivé ? ou Tu es arrivé il y a combien de temps ?), pas avec un présent qui continue dans cette construction.",
+    "Pour": "Incorrect : « Pour combien de temps » porte sur une durée prévue (pour combien de temps pars-tu ?), pas sur le point de départ."
+   }
+  },
+  {
+   "id": "e10",
+   "tipo": "hueco",
+   "enunciado": "Complétez avec depuis, il y a, pendant ou pour.",
+   "frase": "Je n'ai pas mangé ___ hier.",
+   "respuestas": [
+    "depuis"
+   ],
+   "explicacion": "On applique la règle de la liste : à la forme négative, depuis peut s'employer avec le passé composé. L'indice est la négation ne… pas : ce qui continue jusqu'à maintenant n'est pas l'action de manger mais son absence, qui a commencé hier. C'est pourquoi la phrase emploie depuis bien que le verbe soit au passé composé, comme l'espagnol « no he comido desde ayer ».",
+   "origen": "tatoeba:12918784",
+   "explicacion_breve": "À la forme négative, depuis peut s'employer avec le passé composé : depuis hier.",
+   "traduccion": "No he comido desde ayer.",
+   "errores_previstos": [
+    {
+     "respuesta": "il y a",
+     "explicacion": "« Je n'ai pas mangé il y a hier » n'est pas du français : il y a demande une quantité de temps, pas un moment comme hier."
+    },
+    {
+     "respuesta": "pendant",
+     "explicacion": "Pendant demande une durée (pendant deux jours) ; devant hier, il n'indique pas le point de départ."
+    }
+   ]
+  },
+  {
+   "id": "e11",
+   "tipo": "corregir",
+   "enunciado": "Corrigez l'erreur.",
+   "frase": "J'habite à Madrid il y a trois ans.",
+   "respuestas": [
+    "J'habite à Madrid depuis trois ans."
+   ],
+   "explicacion": "C'est l'erreur typique que signale la fiche : pour une situation qui continue, l'espagnol « desde hace » se dit depuis, pas il y a. L'indice est le présent j'habite : la personne habite toujours à Madrid. Avec il y a, la phrase mélange un présent et un marqueur de fait terminé ; la correction est J'habite à Madrid depuis trois ans.",
+   "explicacion_breve": "Situation qui continue : depuis.",
+   "traduccion": "Vivo en Madrid desde hace tres años.",
+   "errores_previstos": [
+    {
+     "respuesta": "J'habite à Madrid il y a trois ans.",
+     "explicacion": "C'est la phrase non corrigée : il y a ne peut pas accompagner un présent toujours actuel."
+    },
+    {
+     "respuesta": "J'ai habité à Madrid depuis trois ans.",
+     "explicacion": "On a changé le temps au lieu du marqueur : avec depuis et une situation qui continue, le verbe est au présent."
+    },
+    {
+     "respuesta": "J'habite à Madrid pendant trois ans.",
+     "explicacion": "Pendant avec le présent n'exprime pas que la situation a commencé il y a trois ans et continue ; c'est un calque de l'espagnol « durante »."
+    }
+   ]
+  },
+  {
+   "id": "e12",
+   "tipo": "corregir",
+   "enunciado": "Corrigez l'erreur.",
+   "frase": "J'ai attendu le bus depuis une heure.",
+   "respuestas": [
+    "J'ai attendu le bus pendant une heure."
+   ],
+   "explicacion": "La fiche le classe parmi les erreurs typiques : si l'action est terminée, sa durée s'exprime avec pendant. L'indice est le passé composé affirmatif j'ai attendu, qui présente l'attente comme terminée. Depuis exigerait que l'attente continue et que le verbe soit au présent (j'attends le bus depuis une heure) ; comme l'attente est finie, la forme correcte est pendant une heure.",
+   "explicacion_breve": "Action terminée au passé composé : pendant.",
+   "traduccion": "Esperé el autobús durante una hora.",
+   "errores_previstos": [
+    {
+     "respuesta": "J'ai attendu le bus depuis une heure.",
+     "explicacion": "C'est la phrase non corrigée : depuis avec un passé composé affirmatif est un calque de l'espagnol « he esperado desde hace una hora »."
+    },
+    {
+     "respuesta": "J'ai attendu le bus il y a une heure.",
+     "explicacion": "C'est grammatical, mais le sens change : la phrase dirait quand j'ai attendu (il y a une heure), pas combien de temps a duré l'attente."
+    }
+   ]
+  },
+  {
+   "id": "e13",
+   "tipo": "corregir",
+   "enunciado": "Corrigez l'erreur.",
+   "frase": "Nous vivons ici pendant janvier.",
+   "respuestas": [
+    "Nous vivons ici depuis janvier."
+   ],
+   "explicacion": "On applique la règle « depuis + date ou moment », avec le présent. L'indice est janvier, un point de départ et non une durée, avec le présent nous vivons, qui indique que la situation continue. Pendant janvier signifierait « au cours du mois de janvier » et n'irait pas avec le présent ; la forme correcte est depuis janvier.",
+   "origen": "tatoeba:4684940",
+   "explicacion_breve": "À partir d'un moment, et la situation continue : depuis.",
+   "traduccion": "Vivimos aquí desde enero.",
+   "errores_previstos": [
+    {
+     "respuesta": "Nous vivons ici pendant janvier.",
+     "explicacion": "C'est la phrase non corrigée : pendant ne marque pas un point de départ."
+    },
+    {
+     "respuesta": "Nous vivons ici il y a janvier.",
+     "explicacion": "Il y a demande une quantité de temps et un fait terminé ; devant un mois, cela n'a pas de sens."
+    },
+    {
+     "respuesta": "Nous avons vécu ici depuis janvier.",
+     "explicacion": "Avec depuis et une situation qui continue, le verbe doit rester au présent."
+    }
+   ]
+  },
+  {
+   "id": "e14",
+   "tipo": "transformar",
+   "enunciado": "Reformulez la phrase avec depuis.",
+   "frase": "Ça fait deux heures que j'attends.",
+   "respuestas": [
+    "J'attends depuis deux heures."
+   ],
+   "explicacion": "La fiche explique que ça fait… que + présent équivaut à présent + depuis. L'indice est la structure de départ : ça fait deux heures que j'attends est déjà au présent et parle d'une attente qui continue. En reformulant, on garde le présent (j'attends) et la durée se place après depuis : J'attends depuis deux heures.",
+   "explicacion_breve": "Ça fait… que + présent = présent + depuis.",
+   "traduccion": "Llevo dos horas esperando.",
+   "errores_previstos": [
+    {
+     "respuesta": "J'ai attendu depuis deux heures.",
+     "explicacion": "En passant au passé composé, on enfreint la règle : avec depuis et une action qui continue, présent."
+    },
+    {
+     "respuesta": "Depuis deux heures que j'attends.",
+     "explicacion": "Cela mélange les deux constructions : avec depuis, il ne faut pas de que ; de plus, on demandait la forme simple présent + depuis."
+    },
+    {
+     "respuesta": "J'attends il y a deux heures.",
+     "explicacion": "Il y a ne remplace depuis que dans la construction il y a… que ; employé seul, il correspond à l'espagnol « hace » et exige un fait terminé."
+    }
+   ]
+  },
+  {
+   "id": "e15",
+   "tipo": "transformar",
+   "enunciado": "Reformulez la phrase avec il y a… que.",
+   "frase": "J'étudie le français depuis cinq ans.",
+   "respuestas": [
+    "Il y a cinq ans que j'étudie le français."
+   ],
+   "explicacion": "On applique l'équivalence de la liste de règles : il y a + durée + que + présent équivaut à présent + depuis. L'indice est que l'étude continue (j'étudie au présent). En transformant, la durée se place devant avec il y a… que et le verbe reste au présent : Il y a cinq ans que j'étudie le français, comme l'espagnol « hace cinco años que estudio ».",
+   "explicacion_breve": "Il y a + durée + que + présent équivaut à depuis.",
+   "traduccion": "Hace cinco años que estudio francés.",
+   "errores_previstos": [
+    {
+     "respuesta": "Il y a cinq ans que j'ai étudié le français.",
+     "explicacion": "Avec il y a… que et une action qui continue, le verbe est au présent ; le passé composé changerait le sens ou sonnerait bizarre."
+    },
+    {
+     "respuesta": "J'étudie le français il y a cinq ans.",
+     "explicacion": "Il y a employé seul, sans que, correspond à l'espagnol « hace » avec un fait terminé et ne peut pas aller avec un présent qui continue."
+    }
+   ]
+  },
+  {
+   "id": "e16",
+   "tipo": "ordenar",
+   "enunciado": "Remettez les mots dans l'ordre (es : « llevo horas esperando »).",
+   "palabras": [
+    "depuis",
+    "heures",
+    "J'attends",
+    "des"
+   ],
+   "respuestas": [
+    "J'attends depuis des heures"
+   ],
+   "explicacion": "C'est la règle « présent + depuis + durée » pour une action qui continue. L'indice est la traduction donnée dans l'énoncé (es : « llevo horas esperando ») : l'attente continue, donc le verbe est au présent (j'attends) et la durée, des heures, se place après depuis. L'ordre français est sujet et verbe, puis depuis et la durée.",
+   "origen": "tatoeba:4169",
+   "explicacion_breve": "Présent + depuis pour une action qui continue.",
+   "traduccion": "Llevo horas esperando.",
+   "errores_previstos": [
+    {
+     "respuesta": "J'attends des heures depuis",
+     "explicacion": "Depuis est une préposition et doit se placer devant la durée, pas après."
+    }
+   ]
+  }
+ ],
+ "fuente": {
+  "nombre": "Tex's French Grammar",
+  "autores": "COERLL, Université du Texas à Austin",
+  "licencia": "CC BY 3.0",
+  "url": "https://laits.utexas.edu/tex/gr/pred1.html",
+  "otras": [
+   "Phrases de Tatoeba (CC BY 2.0 FR)"
+  ]
+ },
+ "descripcion_larga_es": "Cette fiche apprend à situer une action dans le temps avec quatre outils : depuis (es : desde, desde hace), il y a (es : hace), pendant (es : durante) et pour (pour une durée prévue). Ce sont des mots d'usage quotidien, et l'hispanophone les confond parce que « hace » et « desde hace » se ressemblent beaucoup en espagnol, et parce qu'en français chacun exige un temps verbal différent : présent avec depuis, passé composé avec il y a.",
+ "contexto": {
+  "que_es": "Ce sont quatre expressions de temps qui répondent à des questions différentes. Depuis indique depuis quand dure quelque chose qui continue encore ; il y a dit il y a combien de temps s'est produit un fait déjà terminé ; pendant mesure combien de temps a duré ou dure une action avec un début et une fin ; pour exprime la durée prévue à l'avance.",
+  "por_que_importa": "Parler de soi (où l'on habite, depuis quand on travaille, quand on est arrivé) oblige à les employer dès le premier jour. Si on les confond, le message change : « j'habite ici il y a trois ans » ne veut rien dire de clair, et « j'ai travaillé ici depuis deux ans » sonne comme une erreur de débutant. À l'examen oral, c'est l'une des premières choses qui trahissent le niveau.",
+  "cuando_se_usa": "Employez depuis là où l'espagnol dirait « llevo… », « desde hace… » ou « desde… » et que la situation continue ; employez il y a là où il dirait « hace… » avec un fait ponctuel (je suis né, je suis arrivé, il est mort). Pendant apparaît quand on raconte une action terminée (j'ai étudié pendant une heure) et pour avec les verbes de déplacement quand on annonce combien de temps on sera absent. L'hispanophone a tendance à traduire « hace » par il y a dans tous les cas et à employer le passé composé avec depuis."
+ }
+}

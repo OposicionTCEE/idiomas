@@ -1,0 +1,502 @@
+{
+ "id": "en.g.plurales",
+ "titulo": "Plural nouns",
+ "titulo_es": "Plural nouns",
+ "descripcion_es": "Regular and irregular plurals.",
+ "nivel": "A1",
+ "resumen": "Most nouns form the plural by adding -s, but there are spelling rules (-es, -ies, -ves) and a group of very common irregular plurals that you should memorise.",
+ "explicacion": [
+  {
+   "tipo": "tabla",
+   "cabecera": [
+    "Rule",
+    "Singular",
+    "Plural"
+   ],
+   "filas": [
+    [
+     "General: + s",
+     "car, book",
+     "cars, books"
+    ],
+    [
+     "Ending in -s, -ss, -sh, -ch, -x: + es",
+     "bus, glass, dish, watch, box",
+     "buses, glasses, dishes, watches, boxes"
+    ],
+    [
+     "Consonant + y: -ies",
+     "city, baby",
+     "cities, babies"
+    ],
+    [
+     "Vowel + y: + s",
+     "day, boy",
+     "days, boys"
+    ],
+    [
+     "Some ending in -f/-fe: -ves",
+     "knife, wife, leaf, half",
+     "knives, wives, leaves, halves"
+    ],
+    [
+     "Some ending in -o: + es",
+     "potato, tomato",
+     "potatoes, tomatoes"
+    ]
+   ]
+  },
+  {
+   "tipo": "tabla",
+   "cabecera": [
+    "Singular",
+    "Plural irregular"
+   ],
+   "filas": [
+    [
+     "man / woman",
+     "men / women"
+    ],
+    [
+     "child",
+     "children"
+    ],
+    [
+     "person",
+     "people"
+    ],
+    [
+     "foot / tooth",
+     "feet / teeth"
+    ],
+    [
+     "mouse",
+     "mice"
+    ],
+    [
+     "sheep / fish",
+     "sheep / fish (no change)"
+    ]
+   ]
+  },
+  {
+   "tipo": "lista",
+   "items": [
+    "Adjectives have no plural: two big houses (not “bigs houses”).",
+    "Some words only exist in the plural: trousers, jeans, glasses (spectacles), scissors.",
+    "People is plural: People are friendly here.",
+    "Many words ending in -o just add -s: photos, pianos, radios."
+   ]
+  }
+ ],
+ "ejemplos": [
+  {
+   "frase": "There are three children in the garden.",
+   "traduccion": "Hay tres niños en el jardín."
+  },
+  {
+   "frase": "Can you wash the dishes, please?",
+   "traduccion": "¿Puedes fregar los platos, por favor?"
+  },
+  {
+   "frase": "I brush my teeth twice a day.",
+   "traduccion": "Me lavo los dientes dos veces al día."
+  },
+  {
+   "frase": "These trousers are too long.",
+   "traduccion": "Estos pantalones son demasiado largos."
+  },
+  {
+   "frase": "Many people live in big cities.",
+   "traduccion": "Mucha gente vive en ciudades grandes."
+  }
+ ],
+ "errores_hispanohablantes": [
+  {
+   "mal": "The peoples are very nice.",
+   "bien": "The people are very nice.",
+   "nota": "People is already plural."
+  },
+  {
+   "mal": "They are reds cars.",
+   "bien": "They are red cars.",
+   "nota": "Adjectives don't take -s."
+  },
+  {
+   "mal": "I need a new trouser.",
+   "bien": "I need some new trousers.",
+   "nota": "Trousers is only used in the plural (also: a new pair of trousers)."
+  }
+ ],
+ "ejercicios": [
+  {
+   "id": "e01",
+   "tipo": "hueco",
+   "enunciado": "Write the plural of the word in brackets.",
+   "frase": "I have two ___ (box) in my car.",
+   "respuestas": [
+    "boxes"
+   ],
+   "explicacion": "The spelling rule in the table of plurals applies: words ending in -s, -ss, -sh, -ch or -x add -es. The clue is the ending of box, which ends in -x, and the number two, which requires the plural. So box becomes boxes: if you only added -s, the word would be unpronounceable, and the -e- in the middle lets you pronounce one more syllable, /ˈbɒksɪz/.",
+   "explicacion_breve": "After -x, add -es.",
+   "traduccion": "Tengo dos cajas en el coche.",
+   "errores_previstos": [
+    {
+     "respuesta": "boxs",
+     "explicacion": "After -x it isn't enough to add -s: you have to add -es so that the new syllable can be pronounced. The correct form is boxes."
+    },
+    {
+     "respuesta": "box",
+     "explicacion": "After two the noun must be plural; the singular box does not agree with the number."
+    },
+    {
+     "respuesta": "boxies",
+     "explicacion": "The ending -ies is only used with words ending in consonant + y, like city; box ends in -x and needs -es."
+    }
+   ]
+  },
+  {
+   "id": "e02",
+   "tipo": "hueco",
+   "enunciado": "Write the plural of the word in brackets.",
+   "frase": "Madrid and Barcelona are big ___ (city).",
+   "respuestas": [
+    "cities"
+   ],
+   "explicacion": "The rule in the table “consonant + y: -ies” applies. City ends in -y after a consonant (the t), so the y changes to i and -es is added: cities. The clue in the sentence is that the subject is two cities (Madrid and Barcelona) and the verb is are, so the noun has to be plural. Notice that the adjective big doesn't change, because adjectives have no plural in English.",
+   "explicacion_breve": "Consonant + y: -ies.",
+   "traduccion": "Madrid y Barcelona son ciudades grandes.",
+   "errores_previstos": [
+    {
+     "respuesta": "citys",
+     "explicacion": "The vowel + y rule (+ s) doesn't apply here: the y in city comes after a consonant, so it becomes -ies."
+    },
+    {
+     "respuesta": "cityes",
+     "explicacion": "You have to change the y to i before adding -es: cities, not “cityes”."
+    },
+    {
+     "respuesta": "city",
+     "explicacion": "The subject is double and the verb is are: the noun has to be plural."
+    }
+   ]
+  },
+  {
+   "id": "e03",
+   "tipo": "hueco",
+   "enunciado": "Write the plural of the word in brackets.",
+   "frase": "We need more ___ (knife) for the table.",
+   "respuestas": [
+    "knives"
+   ],
+   "explicacion": "The rule in the table applies: some nouns ending in -f or -fe form the plural in -ves. Knife is one of them: -fe changes to -ves, giving knives, which is pronounced /naɪvz/ (the k is silent). The clue in the sentence is more, which with countable nouns is always followed by a plural. Not all words ending in -f follow this rule (roof, roofs), so you have to memorise the most common ones: knife, wife, leaf, half, life, shelf.",
+   "explicacion_breve": "Knife forms its plural in -ves.",
+   "traduccion": "Necesitamos más cuchillos para la mesa.",
+   "errores_previstos": [
+    {
+     "respuesta": "knifes",
+     "explicacion": "Knife belongs to the group of words ending in -fe that form the plural in -ves: knives."
+    },
+    {
+     "respuesta": "knifs",
+     "explicacion": "The e has been removed and -s added, but the plural of knife changes the f to v: knives."
+    },
+    {
+     "respuesta": "knife",
+     "explicacion": "After more with a countable noun you need the plural."
+    }
+   ]
+  },
+  {
+   "id": "e04",
+   "tipo": "hueco",
+   "enunciado": "Write the plural of the word in brackets.",
+   "frase": "My ___ (foot) are cold.",
+   "respuestas": [
+    "feet"
+   ],
+   "explicacion": "The table of irregular plurals applies: foot becomes feet, changing the inner vowel instead of adding -s, just like tooth and teeth. The clue in this sentence is the verb are, which requires a plural subject, and the meaning: we normally talk about both feet. Remember too that in English parts of the body take a possessive (my feet), where Spanish uses the article (“los pies”).",
+   "explicacion_breve": "Irregular plural: foot, feet.",
+   "traduccion": "Tengo los pies fríos.",
+   "errores_previstos": [
+    {
+     "respuesta": "foots",
+     "explicacion": "Foot is irregular: it doesn't add -s, it changes the vowel: feet."
+    },
+    {
+     "respuesta": "feets",
+     "explicacion": "Feet is already plural; adding -s doubles the plural marker."
+    },
+    {
+     "respuesta": "foot",
+     "explicacion": "With the verb are the subject has to be plural: my feet are."
+    }
+   ]
+  },
+  {
+   "id": "e05",
+   "tipo": "hueco",
+   "enunciado": "Write the plural of the word in brackets.",
+   "frase": "There are four ___ (woman) in the office.",
+   "respuestas": [
+    "women"
+   ],
+   "explicacion": "The table of irregular plurals applies: woman becomes women, just as man becomes men. The clues are the number four and the structure there are, which always go with a plural. Be careful with the pronunciation, which is the trickiest part: woman is said /ˈwʊmən/, but women is said /ˈwɪmɪn/; in writing only the a changes to e, but in speech the first syllable changes.",
+   "explicacion_breve": "Irregular plural: woman, women.",
+   "traduccion": "Hay cuatro mujeres en la oficina.",
+   "errores_previstos": [
+    {
+     "respuesta": "womans",
+     "explicacion": "Woman is irregular and doesn't add -s: the plural is women."
+    },
+    {
+     "respuesta": "womens",
+     "explicacion": "Women is already plural; you don't add -s to it."
+    },
+    {
+     "respuesta": "woman",
+     "explicacion": "After four and there are the noun is plural."
+    }
+   ]
+  },
+  {
+   "id": "e06",
+   "tipo": "hueco",
+   "enunciado": "Write the plural of the word in brackets.",
+   "frase": "The ___ (boy) are playing football.",
+   "respuestas": [
+    "boys"
+   ],
+   "explicacion": "The rule in the table “vowel + y: + s” applies. In boy the y comes after a vowel (the o), so it doesn't change to i: you simply add -s, boys. The clue in the sentence is the verb are, which shows that the subject is plural. It is the opposite rule to city: what decides is the letter just before the y.",
+   "explicacion_breve": "Vowel + y: just add -s.",
+   "traduccion": "Los chicos están jugando al fútbol.",
+   "errores_previstos": [
+    {
+     "respuesta": "boies",
+     "explicacion": "The change to -ies only happens after a consonant; after a vowel, as in boy, you add -s: boys."
+    },
+    {
+     "respuesta": "boyes",
+     "explicacion": "Boy doesn't end in -s, -sh, -ch or -x, so it doesn't take -es: -s is enough."
+    },
+    {
+     "respuesta": "boy",
+     "explicacion": "The verb are needs a plural subject: the boys are."
+    }
+   ]
+  },
+  {
+   "id": "e07",
+   "tipo": "eleccion",
+   "enunciado": "Choose the correct plural.",
+   "frase": "I bought some ___ for the salad.",
+   "opciones": [
+    "tomatos",
+    "tomatoes",
+    "tomatoe"
+   ],
+   "respuestas": [
+    "tomatoes"
+   ],
+   "explicacion": "The rule in the table applies: some words ending in -o form the plural with -es, like potato and tomato. The clue is some, which with countable nouns is followed by a plural, and the meaning of the sentence (several tomatoes for a salad). So the form is tomatoes. You have to memorise this small group, because many words ending in -o just add -s (photos, pianos, radios).",
+   "explicacion_breve": "Tomato adds -es.",
+   "traduccion": "He comprado unos tomates para la ensalada.",
+   "por_opcion": {
+    "tomatos": "Incorrect: it is the most common mistake, even among native speakers, but tomato belongs to the group of words ending in -o that take -es.",
+    "tomatoes": "Correct: tomato + -es, following the rule for some words ending in -o, like potato.",
+    "tomatoe": "Incorrect: this form doesn't exist; the singular is tomato, without e, and after some you need the plural."
+   }
+  },
+  {
+   "id": "e08",
+   "tipo": "eleccion",
+   "enunciado": "Choose the correct plural.",
+   "frase": "There are three ___ in the field.",
+   "opciones": [
+    "sheeps",
+    "sheep",
+    "sheepes"
+   ],
+   "respuestas": [
+    "sheep"
+   ],
+   "explicacion": "The last row of the table of irregulars applies: sheep and fish don't change in the plural. The clue is three, which requires the plural, and the structure there are; but in the case of sheep the plural is identical to the singular. So you say three sheep, with no ending at all. The same happens with deer and with some names of fish.",
+   "explicacion_breve": "Sheep doesn't change in the plural.",
+   "traduccion": "Hay tres ovejas en el campo.",
+   "por_opcion": {
+    "sheeps": "Incorrect: sheep is invariable and doesn't take -s, although the general rule makes it seem logical.",
+    "sheep": "Correct: sheep has the same form in the singular and the plural; the plural is shown by three and are.",
+    "sheepes": "Incorrect: it doesn't exist; besides, the ending -es is only used after -s, -sh, -ch or -x."
+   }
+  },
+  {
+   "id": "e09",
+   "tipo": "eleccion",
+   "enunciado": "Choose the correct plural.",
+   "frase": "The cat is chasing two ___.",
+   "opciones": [
+    "mouses",
+    "mice",
+    "mices"
+   ],
+   "respuestas": [
+    "mice"
+   ],
+   "explicacion": "The table of irregular plurals applies: mouse becomes mice. The clue is the number two, which requires the plural. As with foot and feet, the plural is not formed with an ending, but by changing the word, and mice is already plural in itself. In the computing sense (a computer mouse) you sometimes hear mouses, but the normal form is still mice.",
+   "explicacion_breve": "Irregular plural: mouse, mice.",
+   "traduccion": "El gato está persiguiendo a dos ratones.",
+   "por_opcion": {
+    "mouses": "Incorrect in this sentence: mouse is irregular. It is only heard sometimes for a computer mouse, and even then the standard prefers mice.",
+    "mice": "Correct: it is the irregular plural of mouse.",
+    "mices": "Incorrect: mice is already plural; adding -s doubles the marker."
+   }
+  },
+  {
+   "id": "e10",
+   "tipo": "transformar",
+   "enunciado": "Put the sentence into the plural.",
+   "frase": "The child is happy.",
+   "respuestas": [
+    "The children are happy."
+   ],
+   "explicacion": "Two points from the sheet apply: the irregular plural of child, which is children, and verb agreement, which changes is to are. The clue is the instruction itself to put the whole sentence into the plural: it isn't enough to change the noun, you also have to change the verb. The article the and the adjective happy don't change, because in English neither articles nor adjectives have a plural.",
+   "explicacion_breve": "Child becomes children and the verb becomes are.",
+   "traduccion": "Los niños están contentos.",
+   "errores_previstos": [
+    {
+     "respuesta": "The childs are happy.",
+     "explicacion": "Child is irregular: its plural is children, not childs."
+    },
+    {
+     "respuesta": "The children is happy.",
+     "explicacion": "The noun has been changed, but not the verb: a plural subject takes are."
+    },
+    {
+     "respuesta": "The childrens are happy.",
+     "explicacion": "Children is already plural; you don't add -s to it."
+    }
+   ]
+  },
+  {
+   "id": "e11",
+   "tipo": "transformar",
+   "enunciado": "Put the sentence into the plural.",
+   "frase": "This is an old photo.",
+   "respuestas": [
+    "These are old photos."
+   ],
+   "explicacion": "When you change to the plural, four things change: this becomes these, is becomes are, the article an disappears (a/an only go with singular nouns) and photo just adds -s, because it is one of the words ending in -o in the list that don't take -es. The adjective old doesn't change, since adjectives have no plural. The clue is that every element must agree in number with the noun.",
+   "explicacion_breve": "This becomes these, an is dropped and photo adds -s.",
+   "traduccion": "Estas son fotos antiguas.",
+   "errores_previstos": [
+    {
+     "respuesta": "These are an old photos.",
+     "explicacion": "The article a/an is only used with singular nouns; in the plural it disappears."
+    },
+    {
+     "respuesta": "These are old photoes.",
+     "explicacion": "Photo belongs to the group of words ending in -o that just add -s: photos."
+    },
+    {
+     "respuesta": "This are old photos.",
+     "explicacion": "The demonstrative also has a plural: this becomes these."
+    }
+   ]
+  },
+  {
+   "id": "e12",
+   "tipo": "corregir",
+   "enunciado": "Correct the mistake.",
+   "frase": "She has two babys.",
+   "respuestas": [
+    "She has two babies."
+   ],
+   "explicacion": "The rule in the table “consonant + y: -ies” applies. Baby ends in -y after a consonant (the b), so the y changes to i and -es is added: babies. The mistake in the sentence is applying the vowel + y rule, which only works for words like day or boy. The clue is the letter before the y.",
+   "explicacion_breve": "Consonant + y: babies.",
+   "traduccion": "Ella tiene dos bebés.",
+   "errores_previstos": [
+    {
+     "respuesta": "She has two babys.",
+     "explicacion": "This is the uncorrected sentence: babys wrongly applies the vowel + y rule; after a consonant you write -ies."
+    },
+    {
+     "respuesta": "She has two babyes.",
+     "explicacion": "Before adding -es the y changes to i: babies."
+    },
+    {
+     "respuesta": "She have two babies.",
+     "explicacion": "The plural is right, but the verb has been spoilt: with she you use has."
+    }
+   ]
+  },
+  {
+   "id": "e13",
+   "tipo": "corregir",
+   "enunciado": "Correct the mistake.",
+   "frase": "They live in bigs houses.",
+   "respuestas": [
+    "They live in big houses."
+   ],
+   "explicacion": "The first note in the list applies: adjectives have no plural in English. The mistake comes from Spanish, where we say “casas grandes” with the adjective in the plural. In English only the noun shows number (houses) and the adjective big stays the same, whether it goes with a singular or a plural noun. The clue is recognising that big is an adjective that goes with the noun.",
+   "explicacion_breve": "Adjectives have no plural.",
+   "traduccion": "Viven en casas grandes.",
+   "errores_previstos": [
+    {
+     "respuesta": "They live in bigs houses.",
+     "explicacion": "This is the uncorrected sentence: the adjective cannot take -s."
+    },
+    {
+     "respuesta": "They live in bigs house.",
+     "explicacion": "The plural has been put on the adjective instead of the noun: the correct form is big houses."
+    },
+    {
+     "respuesta": "They live in big house.",
+     "explicacion": "The -s has been removed from the adjective, but also from the noun, which must be plural (or take a: a big house)."
+    }
+   ]
+  },
+  {
+   "id": "e14",
+   "tipo": "ordenar",
+   "enunciado": "Put the words in order.",
+   "palabras": [
+    "are",
+    "the",
+    "here",
+    "people",
+    "friendly"
+   ],
+   "respuestas": [
+    "The people here are friendly",
+    "The people are friendly here",
+    "Are the people here friendly"
+   ],
+   "explicacion": "The note in the sheet applies: people is plural and takes are. So the verb available is are, not is, although in Spanish “la gente” is singular. The normal order is subject (The people here) + verb (are) + complement (friendly); here can go after people or at the end of the sentence, and with the verb first you get the question, which is also accepted.",
+   "explicacion_breve": "People is plural and takes are.",
+   "traduccion": "La gente de aquí es simpática.",
+   "errores_previstos": [
+    {
+     "respuesta": "The people are here friendly",
+     "explicacion": "The adverb here cannot go between the verb and the adjective; it goes after people or at the end of the sentence."
+    },
+    {
+     "respuesta": "Friendly are the people here",
+     "explicacion": "It copies an emphatic word order that is not natural in English: the subject goes before the verb."
+    },
+    {
+     "respuesta": "The here people are friendly",
+     "explicacion": "Here doesn't work as an adjective before the noun (a back-to-front literal translation of Spanish “la gente de aquí”): it goes after, the people here."
+    }
+   ]
+  }
+ ],
+ "fuente": {
+  "nombre": "propia"
+ },
+ "descripcion_larga_es": "The plural of English nouns is almost always formed by adding -s, but there are spelling rules (-es, -ies, -ves) and a handful of very common irregular plurals (men, children, feet, people). It is one of the first things you learn and it appears in almost every sentence. Spanish speakers find it hard to remember that adjectives have no plural and that words like people are already plural.",
+ "contexto": {
+  "que_es": "It is the form a noun takes when it refers to more than one thing. The general rule is to add -s, with spelling adjustments depending on the ending (-es after -s, -sh, -ch, -x; -ies after consonant + y; -ves in some words ending in -f/-fe), plus a short list of irregular plurals that follow no rule.",
+  "por_que_importa": "Plurals appear in almost every sentence, so a mistake is repeated many times and gives the impression of a low level. In addition, the plural affects the agreement of the verb and of demonstratives (this/these, is/are): if the noun is wrong, the whole sentence is wrong. In a written exam, “childs” or “womans” are penalised as basic mistakes.",
+  "cuando_se_usa": "Whenever we talk about more than one item, especially after numbers (two, three), quantifiers (many, some, a lot of) and with these/those. Spanish speakers tend to make the adjective plural too (“bigs houses”), as in Spanish, and to treat people as singular (“people is”); in English the adjective is invariable and people takes a plural verb."
+ }
+}

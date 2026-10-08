@@ -1,0 +1,519 @@
+{
+ "id": "fr.g.negacion-basica",
+ "titulo": "La négation simple",
+ "titulo_es": "Négation de base (ne… pas, ne… plus, ne… jamais)",
+ "descripcion_es": "ne… pas ; ne… plus, ne… jamais ; pas de.",
+ "nivel": "A1",
+ "resumen": "L'espagnol nie avec un seul mot (« no ») placé devant le verbe ; le français en emploie deux, ne et pas, qui encadrent le verbe conjugué. Sur le même modèle, on forme ne… plus (es : « ya no ») et ne… jamais (es : « nunca »).",
+ "explicacion": [
+  {
+   "tipo": "texto",
+   "texto": "Ne se place devant le verbe conjugué et pas après : Je parle anglais → Je ne parle pas anglais. Ne s'élide devant une voyelle ou un h muet : Je n'aime pas, il n'habite pas ici. S'il y a des pronoms compléments, ils restent à l'intérieur : Je ne le connais pas."
+  },
+  {
+   "tipo": "tabla",
+   "cabecera": [
+    "Négation",
+    "Équivalent espagnol",
+    "Exemple"
+   ],
+   "filas": [
+    [
+     "ne… pas",
+     "« no »",
+     "Il ne travaille pas le lundi."
+    ],
+    [
+     "ne… plus",
+     "« ya no »",
+     "Il ne fume plus."
+    ],
+    [
+     "ne… jamais",
+     "« nunca »",
+     "Tex n'écoute jamais de musique country."
+    ]
+   ]
+  },
+  {
+   "tipo": "lista",
+   "items": [
+    "Aux temps composés et dans les périphrases, la négation encadre le verbe conjugué : Tex n'a pas été gentil ; Tammy ne va pas venir.",
+    "Après la négation, un, une, des et les partitifs du, de la, de l' deviennent de : J'ai une voiture → Je n'ai pas de voiture ; Il y a du pain → Il n'y a plus de pain.",
+    "Les articles définis ne changent pas : J'aime le café → Je n'aime pas le café. Avec être, l'indéfini ne change pas non plus : Ce n'est pas un problème.",
+    "Avec un infinitif, ne pas se placent ensemble devant : Je préfère ne pas sortir."
+   ]
+  },
+  {
+   "tipo": "texto",
+   "texto": "À l'oral, on omet souvent ne (Je sais pas, C'est pas grave), mais à l'écrit et à l'examen il faut toujours le mettre. Pour répondre affirmativement à une question négative, on dit si, et non oui : Tu ne viens pas ? Si, je viens."
+  }
+ ],
+ "ejemplos": [
+  {
+   "frase": "Edouard, l'escargot, ne court pas vite.",
+   "traduccion": "Edouard, el caracol, no corre deprisa."
+  },
+  {
+   "frase": "Je ne vais pas bien. Je ne peux pas manger et j'ai mal à la tête.",
+   "traduccion": "No me encuentro bien. No puedo comer y me duele la cabeza."
+  },
+  {
+   "frase": "Tu n'as pas de chance !",
+   "traduccion": "¡Qué mala suerte tienes!"
+  },
+  {
+   "frase": "Tammy ne va pas passer la soirée chez Edouard.",
+   "traduccion": "Tammy no va a pasar la noche en casa de Edouard."
+  },
+  {
+   "frase": "Mon grand-père ne conduit plus.",
+   "traduccion": "Mi abuelo ya no conduce."
+  },
+  {
+   "frase": "Nous ne prenons jamais l'avion pour aller à Lyon.",
+   "traduccion": "Nunca cogemos el avión para ir a Lyon."
+  }
+ ],
+ "errores_hispanohablantes": [
+  {
+   "mal": "Je pas comprends.",
+   "bien": "Je ne comprends pas.",
+   "nota": "Pas se place après le verbe conjugué, et à l'écrit il faut ne."
+  },
+  {
+   "mal": "Je ne mange pas du fromage.",
+   "bien": "Je ne mange pas de fromage.",
+   "nota": "Après la négation, le partitif devient de."
+  },
+  {
+   "mal": "Je ne ai pas faim.",
+   "bien": "Je n'ai pas faim.",
+   "nota": "Ne s'élide devant une voyelle."
+  },
+  {
+   "mal": "Je ne jamais mange de viande.",
+   "bien": "Je ne mange jamais de viande.",
+   "nota": "Jamais prend la place de pas, après le verbe conjugué."
+  }
+ ],
+ "ejercicios": [
+  {
+   "id": "e01",
+   "tipo": "transformar",
+   "enunciado": "Mettez la phrase à la forme négative avec ne… pas.",
+   "frase": "Je travaille ici.",
+   "respuestas": [
+    "Je ne travaille pas ici."
+   ],
+   "explicacion": "On applique la règle de base de la fiche : ne se place devant le verbe conjugué et pas après, de façon à l'encadrer. Le verbe conjugué est travaille, qui commence par une consonne : ne ne s'élide donc pas. L'adverbe ici reste après pas. L'espagnol n'a besoin que de « no », mais le français écrit exige les deux éléments.",
+   "origen": "tatoeba:2020723",
+   "explicacion_breve": "Ne… pas encadre le verbe conjugué.",
+   "traduccion": "No trabajo aquí.",
+   "errores_previstos": [
+    {
+     "respuesta": "Je ne travaille ici.",
+     "explicacion": "Il manque pas : à l'écrit, la négation a deux éléments, ne… pas."
+    },
+    {
+     "respuesta": "Je travaille pas ici.",
+     "explicacion": "C'est la forme orale ; à l'écrit, il faut mettre ne devant le verbe."
+    },
+    {
+     "respuesta": "Je ne pas travaille ici.",
+     "explicacion": "Pas se place après le verbe conjugué, pas avant."
+    }
+   ]
+  },
+  {
+   "id": "e02",
+   "tipo": "transformar",
+   "enunciado": "Mettez la phrase à la forme négative avec ne… pas.",
+   "frase": "J'aime les œufs.",
+   "respuestas": [
+    "Je n'aime pas les œufs."
+   ],
+   "explicacion": "La fiche indique que ne s'élide devant une voyelle ou un h muet : aime commence par une voyelle, donc je ne aime devient je n'aime. De plus, l'article défini les ne change pas à la forme négative, car seuls les indéfinis et les partitifs deviennent de. On dit donc je n'aime pas les œufs. Avec les verbes de goût comme aimer, l'article défini est la règle.",
+   "origen": "tatoeba:451868",
+   "explicacion_breve": "Ne s'élide devant aime ; l'article défini les ne change pas.",
+   "traduccion": "No me gustan los huevos.",
+   "errores_previstos": [
+    {
+     "respuesta": "Je ne aime pas les œufs.",
+     "explicacion": "Ne doit s'élider devant une voyelle : n'aime."
+    },
+    {
+     "respuesta": "Je n'aime pas des œufs.",
+     "explicacion": "L'article défini les ne change pas à la forme négative ; de plus, des ne serait pas correct non plus après la négation."
+    },
+    {
+     "respuesta": "Je n'aime pas de œufs.",
+     "explicacion": "Seuls les indéfinis et les partitifs deviennent de ; le défini les reste."
+    }
+   ]
+  },
+  {
+   "id": "e03",
+   "tipo": "transformar",
+   "enunciado": "Mettez la phrase à la forme négative avec ne… pas.",
+   "frase": "Tom a des frères.",
+   "respuestas": [
+    "Tom n'a pas de frères."
+   ],
+   "explicacion": "La fiche explique qu'après la négation, un, une, des et les partitifs deviennent de. L'indice est l'article indéfini pluriel des dans la phrase affirmative. De plus, a commence par une voyelle, donc ne s'élide : n'a pas. Le résultat est Tom n'a pas de frères, avec le nom au pluriel.",
+   "origen": "tatoeba:1180536",
+   "explicacion_breve": "Après la négation, des devient de.",
+   "traduccion": "Tom no tiene hermanos.",
+   "errores_previstos": [
+    {
+     "respuesta": "Tom n'a pas des frères.",
+     "explicacion": "Après la négation, des devient de : pas de frères."
+    },
+    {
+     "respuesta": "Tom ne a pas de frères.",
+     "explicacion": "Ne s'élide devant une voyelle : n'a."
+    },
+    {
+     "respuesta": "Tom n'a pas frères.",
+     "explicacion": "On ne peut pas supprimer l'article : il faut de devant le nom."
+    }
+   ]
+  },
+  {
+   "id": "e04",
+   "tipo": "transformar",
+   "enunciado": "Mettez la phrase à la forme négative avec ne… pas.",
+   "frase": "J'ai de la fièvre.",
+   "respuestas": [
+    "Je n'ai pas de fièvre."
+   ],
+   "explicacion": "On applique la règle du changement d'article après la négation : le partitif de la devient de. L'indice est de la devant fièvre, qui indique une quantité indéterminée. Ne s'élide devant ai : je n'ai pas. Le résultat est je n'ai pas de fièvre.",
+   "origen": "tatoeba:965792",
+   "explicacion_breve": "Le partitif de la devient de à la forme négative.",
+   "traduccion": "No tengo fiebre.",
+   "errores_previstos": [
+    {
+     "respuesta": "Je n'ai pas de la fièvre.",
+     "explicacion": "Après la négation, le partitif de la se réduit à de."
+    },
+    {
+     "respuesta": "Je n'ai pas fièvre.",
+     "explicacion": "Calque de l'espagnol « no tengo fiebre » : en français, il faut de devant le nom."
+    },
+    {
+     "respuesta": "Je ne ai pas de fièvre.",
+     "explicacion": "Ne s'élide devant une voyelle : n'ai."
+    }
+   ]
+  },
+  {
+   "id": "e05",
+   "tipo": "ordenar",
+   "enunciado": "Remettez les mots dans l'ordre.",
+   "palabras": [
+    "nager",
+    "pas",
+    "sais",
+    "ne",
+    "Je"
+   ],
+   "respuestas": [
+    "Je ne sais pas nager"
+   ],
+   "explicacion": "La fiche indique que ne… pas encadre le verbe conjugué, ici sais, et que l'infinitif reste après. L'indice est que nager est à l'infinitif et n'est pas conjugué. L'ordre est donc je ne sais pas nager. Si l'on voulait nier l'infinitif, ne pas se placerait ensemble devant lui, mais le sens changerait.",
+   "origen": "tatoeba:1140341",
+   "explicacion_breve": "Ne… pas encadre le verbe conjugué (sais) ; l'infinitif vient après.",
+   "traduccion": "No sé nadar.",
+   "errores_previstos": [
+    {
+     "respuesta": "Je ne sais nager pas",
+     "explicacion": "Pas se place juste après le verbe conjugué sais, avant l'infinitif."
+    },
+    {
+     "respuesta": "Je sais ne pas nager",
+     "explicacion": "Ainsi, on nie l'infinitif et le sens change (es : « sé no nadar ») ; la négation doit encadrer sais."
+    }
+   ]
+  },
+  {
+   "id": "e06",
+   "tipo": "hueco",
+   "enunciado": "Complétez avec ne et le verbe être.",
+   "frase": "Ce pont ___ pas long.",
+   "respuestas": [
+    "n'est"
+   ],
+   "explicacion": "On applique la règle de l'élision : ne s'élide devant une voyelle, et est commence par une voyelle. Le trou demande ne et le verbe être ensemble ; la réponse est donc n'est. Pas figure déjà après le trou. Avec un sujet à la troisième personne, être donne est.",
+   "origen": "tatoeba:575485",
+   "explicacion_breve": "Ne s'élide devant est : n'est pas.",
+   "traduccion": "Este puente no es largo.",
+   "errores_previstos": [
+    {
+     "respuesta": "ne est",
+     "explicacion": "Ne s'élide devant une voyelle : n'est."
+    },
+    {
+     "respuesta": "est",
+     "explicacion": "Il manque ne ; à l'écrit, la négation a ses deux éléments."
+    },
+    {
+     "respuesta": "n'es",
+     "explicacion": "Es est la forme de tu ; avec ce pont, troisième personne, c'est est."
+    }
+   ]
+  },
+  {
+   "id": "e07",
+   "tipo": "eleccion",
+   "enunciado": "Choisissez la bonne réponse.",
+   "frase": "L'argent ___ pas tout.",
+   "opciones": [
+    "n'est",
+    "ne est",
+    "n'a"
+   ],
+   "respuestas": [
+    "n'est"
+   ],
+   "explicacion": "La fiche indique que ne s'élide devant une voyelle : ne + est donne n'est. L'indice est l'expression figée l'argent n'est pas tout, avec le verbe être. Ne est sans apostrophe est incorrect. N'a emploierait avoir, ce qui n'a pas de sens ici.",
+   "origen": "tatoeba:9151",
+   "explicacion_breve": "Ne s'élide devant une voyelle : n'est.",
+   "traduccion": "El dinero no lo es todo.",
+   "por_opcion": {
+    "n'est": "Correct : ne élidé devant est, le verbe être que demande la phrase.",
+    "ne est": "Incorrect : ne s'élide toujours devant une voyelle.",
+    "n'a": "Incorrect : c'est le verbe avoir ; « l'argent n'a pas tout » n'est pas ce que dit la phrase."
+   }
+  },
+  {
+   "id": "e08",
+   "tipo": "eleccion",
+   "enunciado": "Choisissez la bonne réponse.",
+   "frase": "Je n'aime pas ___ froid.",
+   "opciones": [
+    "le",
+    "de",
+    "du"
+   ],
+   "respuestas": [
+    "le"
+   ],
+   "explicacion": "La fiche précise que les articles définis ne changent pas à la forme négative. Avec aimer, on parle de quelque chose en général, le froid ; on emploie donc l'article défini le, aussi bien dans la phrase affirmative que dans la phrase négative. Seuls les indéfinis et les partitifs deviennent de. D'où je n'aime pas le froid.",
+   "origen": "tatoeba:6686",
+   "explicacion_breve": "L'article défini ne change pas à la forme négative : je n'aime pas le froid.",
+   "traduccion": "No me gusta el frío.",
+   "por_opcion": {
+    "le": "Correct : article défini, qui ne change pas après la négation et que demande aimer.",
+    "de": "Incorrect : de remplace les indéfinis et les partitifs, et avec aimer on emploie le défini.",
+    "du": "Incorrect : c'est un partitif et, de plus, les partitifs deviennent de après la négation."
+   }
+  },
+  {
+   "id": "e09",
+   "tipo": "hueco",
+   "enunciado": "Complétez la négation qui signifie « ya no » en espagnol.",
+   "frase": "Il ne fume ___ : il a arrêté l'année dernière.",
+   "respuestas": [
+    "plus"
+   ],
+   "explicacion": "Le tableau de la fiche donne ne… plus pour « ya no » : quelque chose qui a cessé. L'indice est « il a arrêté l'année dernière », qui montre qu'avant il fumait. Plus prend la place de pas, après le verbe conjugué. Dans cette construction, le s de plus ne se prononce pas.",
+   "explicacion_breve": "Ne… plus exprime que quelque chose a cessé.",
+   "traduccion": "Ya no fuma: lo dejó el año pasado.",
+   "errores_previstos": [
+    {
+     "respuesta": "pas",
+     "explicacion": "Ne… pas ne fait que nier ; pour exprimer que quelque chose a cessé, il faut ne… plus."
+    },
+    {
+     "respuesta": "déjà",
+     "explicacion": "Calque de « ya no » : déjà correspond au « ya » affirmatif ; « ya no » se dit ne… plus."
+    },
+    {
+     "respuesta": "pas plus",
+     "explicacion": "Plus remplace pas ; on ne cumule pas les deux éléments."
+    }
+   ]
+  },
+  {
+   "id": "e10",
+   "tipo": "hueco",
+   "enunciado": "Complétez la négation qui signifie « nunca » en espagnol.",
+   "frase": "Elle ne prend ___ le métro.",
+   "respuestas": [
+    "jamais"
+   ],
+   "explicacion": "La fiche donne ne… jamais pour « nunca », avec la même place que ne… pas : jamais après le verbe conjugué. Les indices sont la consigne et ne devant prend. L'espagnol peut dire « nunca coge » ou « no coge nunca », mais en français jamais se place toujours après le verbe. On n'ajoute pas pas.",
+   "explicacion_breve": "Ne… jamais signifie « nunca » et se place comme ne… pas.",
+   "traduccion": "Ella nunca coge el metro.",
+   "errores_previstos": [
+    {
+     "respuesta": "pas jamais",
+     "explicacion": "Jamais remplace pas ; on ne les cumule pas comme dans l'espagnol « no… nunca »."
+    },
+    {
+     "respuesta": "nunca",
+     "explicacion": "C'est le mot espagnol ; en français, on dit jamais."
+    }
+   ]
+  },
+  {
+   "id": "e11",
+   "tipo": "transformar",
+   "enunciado": "Dites qu'il n'en reste plus : employez ne… plus.",
+   "frase": "Nous avons encore du pain.",
+   "respuestas": [
+    "Nous n'avons plus de pain."
+   ],
+   "explicacion": "La fiche indique que ne… plus est le contraire de encore (es : « todavía ») et qu'après la négation le partitif du devient de. C'est pourquoi nous avons encore du pain devient nous n'avons plus de pain. Ne s'élide devant avons. Encore disparaît, car plus exprime déjà le changement.",
+   "explicacion_breve": "Ne… plus remplace encore et le partitif devient de.",
+   "traduccion": "Ya no nos queda pan.",
+   "errores_previstos": [
+    {
+     "respuesta": "Nous n'avons plus du pain.",
+     "explicacion": "Après la négation, le partitif du devient de."
+    },
+    {
+     "respuesta": "Nous n'avons encore plus de pain.",
+     "explicacion": "Encore est en trop : ne… plus signifie déjà « ya no »."
+    },
+    {
+     "respuesta": "Nous ne avons plus de pain.",
+     "explicacion": "Ne s'élide devant une voyelle : n'avons."
+    }
+   ]
+  },
+  {
+   "id": "e12",
+   "tipo": "transformar",
+   "enunciado": "Mettez la phrase à la forme négative avec ne… jamais.",
+   "frase": "Elle va souvent au théâtre.",
+   "respuestas": [
+    "Elle ne va jamais au théâtre."
+   ],
+   "explicacion": "La fiche explique que jamais prend la place de pas, après le verbe conjugué. Souvent disparaît, car jamais est son contraire. Va commence par une consonne : ne ne s'élide donc pas. Au théâtre ne change pas : au n'est pas un partitif mais à + le ; il ne devient donc pas de.",
+   "explicacion_breve": "Jamais prend la place de pas et remplace souvent.",
+   "traduccion": "Ella nunca va al teatro.",
+   "errores_previstos": [
+    {
+     "respuesta": "Elle ne jamais va au théâtre.",
+     "explicacion": "Jamais se place après le verbe conjugué, pas avant."
+    },
+    {
+     "respuesta": "Elle ne va jamais souvent au théâtre.",
+     "explicacion": "Souvent doit disparaître : c'est le contraire de jamais."
+    },
+    {
+     "respuesta": "Elle ne va pas jamais au théâtre.",
+     "explicacion": "Jamais remplace pas ; on ne les cumule pas."
+    }
+   ]
+  },
+  {
+   "id": "e13",
+   "tipo": "eleccion",
+   "enunciado": "Choisissez la bonne réponse.",
+   "frase": "Je n'ai pas ___ voiture.",
+   "opciones": [
+    "de",
+    "une",
+    "la"
+   ],
+   "respuestas": [
+    "de"
+   ],
+   "explicacion": "On applique la règle du changement d'article : après la négation, l'indéfini une devient de. L'indice est la négation n'ai pas devant le trou et le sens de « n'avoir aucune voiture ». La seule exception de la fiche est être : ce n'est pas une voiture. Avec avoir, toujours de.",
+   "explicacion_breve": "Après la négation, l'indéfini une devient de.",
+   "traduccion": "No tengo coche.",
+   "por_opcion": {
+    "de": "Correct : après la négation, un et une deviennent de.",
+    "une": "Incorrect : l'indéfini devient de après la négation (il ne se maintient qu'avec être ou dans des oppositions comme pas une voiture, mais deux).",
+    "la": "Incorrect dans ce sens : je n'ai pas la voiture signifierait en espagnol « no tengo el coche » (une voiture précise), et non « no tengo coche »."
+   }
+  },
+  {
+   "id": "e14",
+   "tipo": "corregir",
+   "enunciado": "Corrigez l'erreur.",
+   "frase": "Je pas comprends la question.",
+   "respuestas": [
+    "Je ne comprends pas la question."
+   ],
+   "explicacion": "C'est l'erreur typique signalée dans la fiche : pas ne se place pas devant le verbe et, à l'écrit, il faut ne. La règle : ne devant le verbe conjugué et pas après : je ne comprends pas. Le complément la question reste après pas. Comprends commence par une consonne : ne ne s'élide donc pas.",
+   "explicacion_breve": "Ne se place devant le verbe et pas après.",
+   "traduccion": "No entiendo la pregunta.",
+   "errores_previstos": [
+    {
+     "respuesta": "Je pas comprends la question.",
+     "explicacion": "C'est la phrase non corrigée : pas se place après le verbe et il manque ne."
+    },
+    {
+     "respuesta": "Je comprends pas la question.",
+     "explicacion": "C'est la forme orale ; à l'écrit, il faut mettre ne."
+    },
+    {
+     "respuesta": "Je ne pas comprends la question.",
+     "explicacion": "Pas se place après le verbe conjugué."
+    }
+   ]
+  },
+  {
+   "id": "e15",
+   "tipo": "corregir",
+   "enunciado": "Corrigez l'erreur.",
+   "frase": "Il ne a pas faim.",
+   "respuestas": [
+    "Il n'a pas faim."
+   ],
+   "explicacion": "La fiche indique que ne s'élide devant une voyelle ou un h muet. A commence par une voyelle, donc ne a devient n'a. Le reste de la phrase est correct : avoir faim (es : « tener hambre »), sans article. Il suffit de relier ne et a par l'apostrophe.",
+   "explicacion_breve": "Ne s'élide devant une voyelle : n'a.",
+   "traduccion": "No tiene hambre.",
+   "errores_previstos": [
+    {
+     "respuesta": "Il ne a pas faim.",
+     "explicacion": "C'est la phrase non corrigée : ne s'élide devant une voyelle."
+    },
+    {
+     "respuesta": "Il n'a pas de faim.",
+     "explicacion": "Avoir faim est une locution sans article ; on n'ajoute pas de."
+    }
+   ]
+  },
+  {
+   "id": "e16",
+   "tipo": "corregir",
+   "enunciado": "Corrigez l'erreur.",
+   "frase": "Je ne mange pas du fromage.",
+   "respuestas": [
+    "Je ne mange pas de fromage."
+   ],
+   "explicacion": "La fiche explique qu'après la négation, le partitif du devient de. L'indice est du fromage, une quantité indéterminée de fromage. D'où je ne mange pas de fromage. Je ne mange pas le fromage existe aussi, mais signifierait « je ne mange pas ce fromage-là », un fromage précis.",
+   "explicacion_breve": "Après la négation, du devient de.",
+   "traduccion": "No como queso.",
+   "errores_previstos": [
+    {
+     "respuesta": "Je ne mange pas du fromage.",
+     "explicacion": "C'est la phrase non corrigée : après la négation, du devient de."
+    },
+    {
+     "respuesta": "Je ne mange pas fromage.",
+     "explicacion": "Il manque de : le nom ne peut pas rester sans déterminant."
+    }
+   ]
+  }
+ ],
+ "fuente": {
+  "nombre": "Tex's French Grammar",
+  "autores": "COERLL, Université du Texas à Austin",
+  "licencia": "CC BY 3.0",
+  "url": "https://laits.utexas.edu/tex/gr/neg1.html",
+  "otras": [
+   "Phrases de Tatoeba (CC BY 2.0 FR)"
+  ]
+ },
+ "descripcion_larga_es": "La négation de base en français emploie deux éléments, ne et pas, qui encadrent le verbe conjugué ; sur le même modèle, on forme ne… plus (es : « ya no ») et ne… jamais (es : « nunca »). C'est l'une des premières structures à maîtriser. Elle est difficile pour un hispanophone, car en espagnol « no » devant le verbe suffit ; de plus, après la négation, les articles un, une, des et les partitifs deviennent de.",
+ "contexto": {
+  "que_es": "C'est la façon de nier une phrase en français : ne se place devant le verbe conjugué et pas après, de sorte qu'ils l'encadrent avec les pronoms compléments. Ne s'élide devant une voyelle ou un h muet. Les variantes ne… plus (es : « ya no ») et ne… jamais (es : « nunca ») suivent le même schéma.",
+  "por_que_importa": "Savoir nier est indispensable dès le premier jour, et les erreurs de place (je pas comprends) ou d'article (je ne mange pas du fromage) sont parmi les plus visibles. À l'oral, les Français omettent souvent ne, mais à l'écrit et à l'examen il faut toujours le mettre. Maîtriser le passage à de après la négation évite une erreur très fréquente, même à un niveau avancé.",
+  "cuando_se_usa": "Chaque fois qu'on nie un verbe conjugué, à n'importe quel temps : aux temps composés et dans les périphrases, la négation encadre l'auxiliaire ou le verbe conjugué (je n'ai pas vu, je ne vais pas venir). Les signaux sont l'idée de « no », « ya no » ou « nunca » en espagnol. L'hispanophone doit se rappeler le deuxième élément (pas, plus, jamais), l'apostrophe et le passage de un, des ou du à de."
+ }
+}
