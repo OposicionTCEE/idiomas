@@ -1,0 +1,530 @@
+{
+ "id": "fr.g.futur-anterieur",
+ "titulo": "Futur antérieur",
+ "titulo_es": "Futur antérieur (futur composé)",
+ "descripcion_es": "Antériorité dans le futur et supposition sur le passé : j'aurai fini, elle sera partie.",
+ "nivel": "B2",
+ "resumen": "Le futur antérieur (futur de avoir ou être + participe) correspond à l'espagnol « habré hecho ». Il exprime une action future déjà terminée avant une autre action ou avant un moment futur, et aussi une supposition sur quelque chose de passé.",
+ "explicacion": [
+  {
+   "tipo": "texto",
+   "texto": "Formation : futur simple de l'auxiliaire + participe. Le choix entre avoir et être et l'accord du participe suivent les mêmes règles qu'au passé composé."
+  },
+  {
+   "tipo": "tabla",
+   "cabecera": [
+    "Personne",
+    "finir (avec avoir)",
+    "partir (avec être)"
+   ],
+   "filas": [
+    [
+     "je",
+     "j'aurai fini",
+     "je serai parti(e)"
+    ],
+    [
+     "tu",
+     "tu auras fini",
+     "tu seras parti(e)"
+    ],
+    [
+     "il / elle / on",
+     "il aura fini",
+     "elle sera partie"
+    ],
+    [
+     "nous",
+     "nous aurons fini",
+     "nous serons parti(e)s"
+    ],
+    [
+     "vous",
+     "vous aurez fini",
+     "vous serez parti(e)(s)"
+    ],
+    [
+     "ils / elles",
+     "ils auront fini",
+     "elles seront parties"
+    ]
+   ]
+  },
+  {
+   "tipo": "lista",
+   "items": [
+    "Action terminée avant un moment futur : À midi, j'aurai terminé le rapport (es : a mediodía habré terminado el informe).",
+    "Action antérieure à une autre action future, après quand, lorsque, dès que, aussitôt que, une fois que, après que : Dès que j'aurai reçu ta lettre, je te répondrai.",
+    "Supposition sur le passé : Il n'est pas venu ? Il aura oublié (es : se habrá olvidado).",
+    "Balance anticipado: En dix ans, il aura tout essayé."
+   ]
+  },
+  {
+   "tipo": "texto",
+   "texto": "La grande différence avec l'espagnol : après quand, lorsque, dès que…, l'espagnol emploie le subjonctif (« cuando hayas terminado ») et le français emploie le futur : futur antérieur si l'action est antérieure et futur simple si elle est simultanée (« cuando llegues » → quand tu arriveras)."
+  },
+  {
+   "tipo": "tabla",
+   "cabecera": [
+    "Espagnol",
+    "Français"
+   ],
+   "filas": [
+    [
+     "« Cuando hayas terminado, llámame. »",
+     "Quand tu auras terminé, appelle-moi."
+    ],
+    [
+     "« En cuanto llegue, te escribo. »",
+     "Dès que je serai arrivé, je t'écrirai."
+    ],
+    [
+     "« Para cuando vuelvas, me habré ido. »",
+     "D'ici que tu reviennes, je serai parti."
+    ]
+   ]
+  }
+ ],
+ "ejemplos": [
+  {
+   "frase": "Demain à cette heure, nous serons déjà arrivés.",
+   "traduccion": "Mañana a estas horas ya habremos llegado."
+  },
+  {
+   "frase": "Quand tu rentreras, j'aurai préparé le dîner.",
+   "traduccion": "Cuando vuelvas, habré preparado la cena."
+  },
+  {
+   "frase": "Elle n'est pas là ? Elle aura raté son train.",
+   "traduccion": "¿No está? Habrá perdido el tren."
+  },
+  {
+   "frase": "Dès que vous aurez signé le contrat, nous commencerons les travaux.",
+   "traduccion": "En cuanto hayan firmado el contrato, empezaremos las obras."
+  },
+  {
+   "frase": "D'ici que tu reviennes, je serai parti.",
+   "traduccion": "Para cuando vuelvas, me habré ido."
+  }
+ ],
+ "errores_hispanohablantes": [
+  {
+   "mal": "Quand tu as fini, appelle-moi.",
+   "bien": "Quand tu auras fini, appelle-moi.",
+   "nota": "Action future antérieure à une autre : futur antérieur, et non passé composé (en espagnol, « cuando hayas terminado »)."
+  },
+  {
+   "mal": "Je te téléphonerai quand je suis arrivé.",
+   "bien": "Je te téléphonerai quand je serai arrivé.",
+   "nota": "Après quand à valeur de futur, jamais de présent ni de passé composé."
+  },
+  {
+   "mal": "Elle aura parti avant midi.",
+   "bien": "Elle sera partie avant midi.",
+   "nota": "partir se conjugue avec être et le participe s'accorde."
+  }
+ ],
+ "ejercicios": [
+  {
+   "id": "e01",
+   "tipo": "hueco",
+   "enunciado": "Complétez avec l'auxiliaire au futur.",
+   "frase": "Demain à cette heure, nous ___ déjà arrivés.",
+   "respuestas": [
+    "serons"
+   ],
+   "explicacion": "On applique la formation du futur antérieur du tableau : futur de l'auxiliaire + participe, avec le même auxiliaire qu'au passé composé. L'indice est « arrivés » : « arriver » est un verbe de mouvement qui se conjugue avec « être », et le participe est déjà au pluriel, en accord avec « nous ». Le repère temporel « demain à cette heure » indique une action terminée avant un moment futur. D'où « nous serons ».",
+   "origen": "tatoeba:3655831",
+   "explicacion_breve": "arriver se conjugue avec être : nous serons arrivés (es : habremos llegado).",
+   "traduccion": "Mañana a esta hora ya habremos llegado.",
+   "errores_previstos": [
+    {
+     "respuesta": "aurons",
+     "explicacion": "« Arriver » se conjugue avec « être », et non avec « avoir » : « nous serons arrivés »."
+    },
+    {
+     "respuesta": "sommes",
+     "explicacion": "C'est le présent (passé composé : « nous sommes arrivés ») ; pour un moment futur, il faut le futur de l'auxiliaire : « serons »."
+    },
+    {
+     "respuesta": "serions",
+     "explicacion": "C'est le conditionnel ; la phrase affirme ce qui se sera passé demain, elle est donc au futur : « serons »."
+    }
+   ]
+  },
+  {
+   "id": "e02",
+   "tipo": "hueco",
+   "enunciado": "Complétez avec le verbe au futur antérieur.",
+   "frase": "À midi, il ___ (travailler) cinq heures déjà.",
+   "respuestas": [
+    "aura travaillé"
+   ],
+   "explicacion": "C'est le premier emploi de la liste : action terminée avant un moment futur. L'indice est « à midi », qui fixe ce moment, et « déjà ». « Travailler » se conjugue avec « avoir » : le futur antérieur est donc « il aura travaillé ». Le participe ne s'accorde pas, car il n'y a pas de complément d'objet direct placé avant.",
+   "origen": "tatoeba:354416",
+   "explicacion_breve": "Action terminée avant un moment futur (à midi).",
+   "traduccion": "A mediodía ya habrá trabajado cinco horas.",
+   "errores_previstos": [
+    {
+     "respuesta": "travaillera",
+     "explicacion": "C'est le futur simple : il indiquerait qu'il travaillera à midi, et non qu'il aura accumulé cinq heures de travail."
+    },
+    {
+     "respuesta": "sera travaillé",
+     "explicacion": "« Travailler » se conjugue avec « avoir » : « aura travaillé »."
+    },
+    {
+     "respuesta": "a travaillé",
+     "explicacion": "C'est le passé composé ; avec « à midi » rapporté au futur, il faut « aura travaillé »."
+    }
+   ]
+  },
+  {
+   "id": "e03",
+   "tipo": "eleccion",
+   "enunciado": "Choisissez la forme correcte.",
+   "frase": "Fais-le quand tu ___ du temps.",
+   "opciones": [
+    "aurais",
+    "auras",
+    "auras eu"
+   ],
+   "respuestas": [
+    "auras"
+   ],
+   "explicacion": "La fiche fait la distinction : après « quand » à valeur de futur, le français emploie le futur, futur antérieur si l'action est antérieure et futur simple si elle est simultanée. L'indice est le sens : avoir le temps et le faire se produisent en même temps, pas l'un avant l'autre. D'où le futur simple « auras ». L'espagnol emploie le subjonctif (« cuando tengas »), mais pas le français.",
+   "origen": "tatoeba:334375",
+   "explicacion_breve": "Avoir le temps est simultané au fait d'agir : futur simple, et non futur antérieur.",
+   "traduccion": "Hazlo cuando tengas tiempo.",
+   "por_opcion": {
+    "aurais": "Incorrect : c'est le conditionnel ; après « quand » à valeur de futur, on emploie le futur de l'indicatif.",
+    "auras": "Correct : futur simple, parce qu'avoir le temps est simultané au fait d'agir.",
+    "auras eu": "Incorrect dans ce contexte : le futur antérieur indiquerait que tu auras d'abord eu le temps et que tu feras ensuite la tâche, alors que les deux coïncident."
+   }
+  },
+  {
+   "id": "e04",
+   "tipo": "eleccion",
+   "enunciado": "Choisissez l'auxiliaire correct.",
+   "frase": "D'ici que tu reviennes, je ___ parti.",
+   "opciones": [
+    "serai",
+    "aurai",
+    "suis"
+   ],
+   "respuestas": [
+    "serai"
+   ],
+   "explicacion": "On applique la règle de formation avec le bon auxiliaire : « partir » est un verbe de mouvement qui se conjugue avec « être ». L'indice est le participe « parti » et l'expression « d'ici que tu reviennes » (es : para cuando vuelvas), qui marque un moment futur avant lequel le départ sera accompli. D'où « je serai parti ».",
+   "origen": "tatoeba:335454",
+   "explicacion_breve": "partir se conjugue avec être : je serai parti (es : me habré ido).",
+   "traduccion": "Para cuando vuelvas, me habré ido.",
+   "por_opcion": {
+    "serai": "Correct : futur de « être » + « parti » (es : me habré ido).",
+    "aurai": "Incorrect : « partir » ne se conjugue pas avec « avoir » ; « j'aurai parti » est une erreur typique signalée dans la fiche.",
+    "suis": "Incorrect : « je suis parti » est un passé composé (es : me fui, me he ido) ; la phrase se projette dans le futur."
+   }
+  },
+  {
+   "id": "e05",
+   "tipo": "hueco",
+   "enunciado": "Complétez avec le verbe au futur antérieur.",
+   "frase": "Dès que j'___ (recevoir) ta réponse, je t'appellerai.",
+   "respuestas": [
+    "aurai reçu"
+   ],
+   "explicacion": "C'est le deuxième emploi de la liste : action antérieure à une autre action future, après « dès que ». L'indice est « je t'appellerai » (futur) dans la principale, et la logique : d'abord je reçois, ensuite j'appelle. « Recevoir » se conjugue avec « avoir » et son participe est « reçu », avec une cédille. D'où « j'aurai reçu » ; l'apostrophe est déjà écrite dans la phrase.",
+   "explicacion_breve": "La réception est antérieure à l'appel : j'aurai reçu.",
+   "traduccion": "En cuanto haya recibido tu respuesta, te llamaré.",
+   "errores_previstos": [
+    {
+     "respuesta": "ai reçu",
+     "explicacion": "C'est le passé composé, calqué sur l'espagnol « en cuanto he recibido » ; au futur, il faut « aurai reçu »."
+    },
+    {
+     "respuesta": "aurai recu",
+     "explicacion": "Il manque la cédille : le participe de « recevoir » est « reçu »."
+    },
+    {
+     "respuesta": "aie reçu",
+     "explicacion": "C'est le subjonctif, calque de « en cuanto haya recibido » ; après « dès que », le français emploie le futur de l'indicatif : « aurai reçu »."
+    }
+   ]
+  },
+  {
+   "id": "e06",
+   "tipo": "hueco",
+   "enunciado": "Complétez avec le verbe au futur antérieur.",
+   "frase": "Quand les invités ___ (partir), nous rangerons la cuisine.",
+   "respuestas": [
+    "seront partis"
+   ],
+   "explicacion": "C'est une action antérieure à une autre action future après « quand » : d'abord les invités partent, ensuite on range. « Partir » se conjugue avec « être » et le participe s'accorde avec le sujet, « les invités », masculin pluriel : « seront partis ». L'espagnol emploie le subjonctif (« se hayan ido ») ; le français, le futur antérieur.",
+   "explicacion_breve": "partir se conjugue avec être ; accord au pluriel : seront partis.",
+   "traduccion": "Cuando los invitados se hayan ido, recogeremos la cocina.",
+   "errores_previstos": [
+    {
+     "respuesta": "seront parti",
+     "explicacion": "Avec « être », le participe s'accorde avec le sujet pluriel : « partis »."
+    },
+    {
+     "respuesta": "auront parti",
+     "explicacion": "« Partir » se conjugue avec « être », et non avec « avoir »."
+    },
+    {
+     "respuesta": "soient partis",
+     "explicacion": "C'est le subjonctif espagnol calqué ; après « quand » à valeur de futur, on emploie le futur antérieur : « seront partis »."
+    }
+   ]
+  },
+  {
+   "id": "e07",
+   "tipo": "hueco",
+   "enunciado": "Exprimez une supposition avec le futur antérieur.",
+   "frase": "Il n'est toujours pas là ; il ___ (manquer) son bus.",
+   "respuestas": [
+    "aura manqué"
+   ],
+   "explicacion": "C'est l'emploi de la liste pour une supposition sur le passé : le futur antérieur exprime une hypothèse sur quelque chose qui s'est déjà produit, comme l'espagnol « habrá perdido ». L'indice est « il n'est toujours pas là », qui pose une situation à laquelle on cherche une explication. « Manquer » (rater un transport) se conjugue avec « avoir » : « il aura manqué ».",
+   "explicacion_breve": "Futur antérieur de supposition : « il aura manqué son bus » (es : habrá perdido el autobús).",
+   "traduccion": "Todavía no ha llegado; habrá perdido el autobús.",
+   "errores_previstos": [
+    {
+     "respuesta": "a manqué",
+     "explicacion": "Le passé composé présente le fait comme certain ; pour une supposition, on emploie le futur antérieur : « aura manqué »."
+    },
+    {
+     "respuesta": "manquera",
+     "explicacion": "Le futur simple parle de quelque chose qui ne s'est pas encore produit ; ici, on fait une supposition sur le passé."
+    },
+    {
+     "respuesta": "sera manqué",
+     "explicacion": "« Manquer » se conjugue avec « avoir »."
+    }
+   ]
+  },
+  {
+   "id": "e08",
+   "tipo": "eleccion",
+   "enunciado": "Choisissez la forme correcte.",
+   "frase": "Je te rendrai ton livre dès que je l'___ lu.",
+   "opciones": [
+    "aurai",
+    "ai",
+    "avais"
+   ],
+   "respuestas": [
+    "aurai"
+   ],
+   "explicacion": "On applique le deuxième emploi de la liste : après « dès que », une action future antérieure à une autre action future se met au futur antérieur. L'indice est « je te rendrai » (futur) et la logique : d'abord je lis, ensuite je rends. L'auxiliaire de « lire » est « avoir », au futur « aurai », et le participe « lu » ne s'accorde pas même si « l' » est placé avant, parce que « livre » est masculin.",
+   "explicacion_breve": "Action future antérieure à une autre action future : futur antérieur.",
+   "traduccion": "Te devolveré el libro en cuanto lo haya leído.",
+   "por_opcion": {
+    "aurai": "Correct : futur de « avoir » + « lu » (es : en cuanto lo haya leído).",
+    "ai": "Incorrect : « dès que je l'ai lu » serait un passé composé, propre aux actions passées ou habituelles ; avec « je te rendrai », il faut le futur.",
+    "avais": "Incorrect : le plus-que-parfait situe la lecture dans le passé ; ici, tout se passe dans le futur."
+   }
+  },
+  {
+   "id": "e09",
+   "tipo": "eleccion",
+   "enunciado": "Choisissez la forme correcte.",
+   "frase": "Une fois que vous ___ vos valises, prévenez-moi.",
+   "opciones": [
+    "aurez fait",
+    "avez fait",
+    "faites"
+   ],
+   "respuestas": [
+    "aurez fait"
+   ],
+   "explicacion": "Après « une fois que », quand l'action est future et antérieure à la principale, le français emploie le futur antérieur. L'indice est l'impératif « prévenez-moi », qui renvoie au futur, et la conjonction, qui souligne que l'action doit être terminée. « Faire » se conjugue avec « avoir » : « vous aurez fait ».",
+   "explicacion_breve": "une fois que + action future terminée : futur antérieur.",
+   "traduccion": "Una vez que hayan hecho las maletas, avísenme.",
+   "por_opcion": {
+    "aurez fait": "Correct : futur antérieur, action terminée avant de prévenir.",
+    "avez fait": "Incorrect : c'est le passé composé, qui renvoie au passé ; or l'action ne s'est pas encore produite.",
+    "faites": "Incorrect : le présent ne marque ni que l'action est terminée ni sa valeur de futur."
+   }
+  },
+  {
+   "id": "e10",
+   "tipo": "corregir",
+   "enunciado": "Corrigez l'erreur.",
+   "frase": "Appelle-moi quand tu es arrivé à l'hôtel.",
+   "respuestas": [
+    "Appelle-moi quand tu seras arrivé à l'hôtel.",
+    "Appelle-moi quand tu seras arrivée à l'hôtel."
+   ],
+   "explicacion": "C'est la grande différence avec l'espagnol que souligne la fiche : après « quand » à valeur de futur, on ne peut pas employer le passé composé. L'indice est l'impératif « appelle-moi », qui projette l'action dans le futur, et le fait que l'arrivée est antérieure à l'appel. « Arriver » se conjugue avec « être » : « tu seras arrivé », ou « arrivée » si la personne est une femme ; c'est pourquoi les deux sont acceptés.",
+   "explicacion_breve": "Après quand à valeur de futur : futur antérieur (es : cuando hayas llegado).",
+   "traduccion": "Llámame cuando hayas llegado al hotel.",
+   "errores_previstos": [
+    {
+     "respuesta": "Appelle-moi quand tu es arrivé à l'hôtel.",
+     "explicacion": "Cette réponse laisse la phrase sans correction : après « quand » à valeur de futur, il faut le futur."
+    },
+    {
+     "respuesta": "Appelle-moi quand tu auras arrivé à l'hôtel.",
+     "explicacion": "Le temps est correct mais l'auxiliaire ne l'est pas : « arriver » se conjugue avec « être »."
+    },
+    {
+     "respuesta": "Appelle-moi quand tu sois arrivé à l'hôtel.",
+     "explicacion": "C'est le calque du subjonctif espagnol (« cuando hayas llegado ») ; en français, « quand tu seras arrivé »."
+    }
+   ]
+  },
+  {
+   "id": "e11",
+   "tipo": "corregir",
+   "enunciado": "Corrigez l'erreur.",
+   "frase": "Elles auront parti avant notre arrivée.",
+   "respuestas": [
+    "Elles seront parties avant notre arrivée."
+   ],
+   "explicacion": "C'est l'erreur d'auxiliaire typique signalée dans la fiche : « partir » se conjugue avec « être », et avec « être » le participe s'accorde avec le sujet. L'indice est le pronom « Elles », féminin pluriel : « seront parties ». Le temps, le futur antérieur, était déjà correct.",
+   "explicacion_breve": "partir se conjugue avec être et le participe s'accorde : seront parties.",
+   "traduccion": "Se habrán ido antes de que lleguemos.",
+   "errores_previstos": [
+    {
+     "respuesta": "Elles auront parti avant notre arrivée.",
+     "explicacion": "Cette réponse laisse la phrase sans correction : « partir » se conjugue avec « être »."
+    },
+    {
+     "respuesta": "Elles seront parti avant notre arrivée.",
+     "explicacion": "Avec « être », le participe s'accorde : féminin pluriel, « parties »."
+    },
+    {
+     "respuesta": "Elles seront partis avant notre arrivée.",
+     "explicacion": "Le sujet est féminin : « parties », et non « partis »."
+    }
+   ]
+  },
+  {
+   "id": "e12",
+   "tipo": "transformar",
+   "enunciado": "Mettez le verbe de la subordonnée au futur antérieur.",
+   "frase": "Quand tu finiras tes devoirs, tu pourras sortir.",
+   "respuestas": [
+    "Quand tu auras fini tes devoirs, tu pourras sortir."
+   ],
+   "explicacion": "La règle : l'action antérieure à une autre action future se met au futur antérieur. L'indice est le sens : il faut finir les devoirs avant de sortir. « Quand tu finiras » présenterait les deux actions comme simultanées ; on passe donc à « quand tu auras fini ». « Finir » se conjugue avec « avoir » et son participe est « fini ».",
+   "explicacion_breve": "Les devoirs doivent être finis avant de sortir : auras fini.",
+   "traduccion": "Cuando hayas terminado los deberes, podrás salir.",
+   "errores_previstos": [
+    {
+     "respuesta": "Quand tu as fini tes devoirs, tu pourras sortir.",
+     "explicacion": "C'est le passé composé ; après « quand » à valeur de futur, le français exige le futur antérieur."
+    },
+    {
+     "respuesta": "Quand tu auras finis tes devoirs, tu pourras sortir.",
+     "explicacion": "Le participe ne s'accorde pas avec un complément d'objet direct placé après : « fini »."
+    },
+    {
+     "respuesta": "Quand tu seras fini tes devoirs, tu pourras sortir.",
+     "explicacion": "« Finir » se conjugue avec « avoir » : « auras fini »."
+    }
+   ]
+  },
+  {
+   "id": "e13",
+   "tipo": "transformar",
+   "enunciado": "Exprimez la supposition avec le futur antérieur, sans probablement.",
+   "frase": "Il a probablement oublié notre rendez-vous.",
+   "respuestas": [
+    "Il aura oublié notre rendez-vous."
+   ],
+   "explicacion": "C'est l'emploi de supposition sur le passé : le futur antérieur remplace « probablement » + passé composé, comme l'espagnol « se habrá olvidado » équivaut à « probablemente se ha olvidado ». On supprime donc « probablement » et « a oublié » devient « aura oublié ». « Oublier » se conjugue avec « avoir ».",
+   "explicacion_breve": "Le futur antérieur remplace probablement + passé composé.",
+   "traduccion": "Se habrá olvidado de nuestra cita.",
+   "errores_previstos": [
+    {
+     "respuesta": "Il oubliera notre rendez-vous.",
+     "explicacion": "Le futur simple annonce qu'il oubliera quelque chose dans le futur ; la supposition sur le passé demande le futur antérieur."
+    },
+    {
+     "respuesta": "Il aura oublier notre rendez-vous.",
+     "explicacion": "Après l'auxiliaire vient le participe « oublié », et non l'infinitif « oublier » ; ils se prononcent de la même façon, mais s'écrivent différemment."
+    },
+    {
+     "respuesta": "Il sera oublié notre rendez-vous.",
+     "explicacion": "« Oublier » se conjugue avec « avoir » : « il aura oublié »."
+    }
+   ]
+  },
+  {
+   "id": "e14",
+   "tipo": "ordenar",
+   "enunciado": "Remettez les mots dans l'ordre.",
+   "palabras": [
+    "ce",
+    "terminé",
+    "Nous",
+    "avant",
+    "aurons",
+    "soir"
+   ],
+   "respuestas": [
+    "Nous aurons terminé avant ce soir",
+    "Avant ce soir nous aurons terminé"
+   ],
+   "explicacion": "C'est le premier emploi de la liste : action terminée avant un moment futur, « avant ce soir ». L'ordre est : sujet « Nous », futur antérieur « aurons terminé » (auxiliaire et participe ensemble) et complément de temps, qui peut se placer à la fin ou au début de la phrase.",
+   "explicacion_breve": "Action terminée avant un moment futur : aurons terminé.",
+   "traduccion": "Habremos terminado antes de esta noche.",
+   "errores_previstos": [
+    {
+     "respuesta": "Nous terminé aurons avant ce soir",
+     "explicacion": "L'auxiliaire se place avant le participe : « aurons terminé »."
+    },
+    {
+     "respuesta": "Nous aurons avant ce soir terminé",
+     "explicacion": "Un complément de temps comme « avant ce soir » ne se place pas entre l'auxiliaire et le participe."
+    }
+   ]
+  },
+  {
+   "id": "e15",
+   "tipo": "ordenar",
+   "enunciado": "Remettez les mots dans l'ordre.",
+   "palabras": [
+    "minuit",
+    "rentrée",
+    "Elle",
+    "avant",
+    "sera"
+   ],
+   "respuestas": [
+    "Elle sera rentrée avant minuit",
+    "Avant minuit elle sera rentrée"
+   ],
+   "explicacion": "« Rentrer » (revenir chez soi) est un verbe de mouvement qui se conjugue avec « être », et le participe s'accorde avec le sujet féminin « Elle » : « sera rentrée ». L'indice est « avant minuit », un moment futur avant lequel l'action sera terminée. Le complément de temps peut se placer à la fin ou au début.",
+   "explicacion_breve": "rentrer se conjugue avec être et s'accorde avec elle : sera rentrée.",
+   "traduccion": "Habrá vuelto antes de medianoche.",
+   "errores_previstos": [
+    {
+     "respuesta": "Elle rentrée sera avant minuit",
+     "explicacion": "L'auxiliaire se place avant le participe : « sera rentrée »."
+    },
+    {
+     "respuesta": "Elle sera avant minuit rentrée",
+     "explicacion": "Le complément de temps ne s'intercale pas entre l'auxiliaire et le participe."
+    }
+   ]
+  }
+ ],
+ "fuente": {
+  "nombre": "Tex's French Grammar",
+  "autores": "COERLL, Universidad de Texas en Austin",
+  "licencia": "CC BY 3.0",
+  "url": "https://laits.utexas.edu/tex/gr/taf5.html",
+  "otras": [
+   "Phrases de Tatoeba (CC BY 2.0 FR)"
+  ]
+ },
+ "descripcion_larga_es": "Le futur antérieur se forme avec le futur de « avoir » ou « être » et le participe, et correspond à l'espagnol « habré hecho ». Il exprime une action future déjà terminée avant une autre ou avant un moment futur, et aussi une supposition sur le passé. Il est difficile pour l'hispanophone parce qu'après « quand », « dès que » ou « une fois que », l'espagnol emploie le subjonctif (« cuando hayas terminado ») et le français exige ce futur.",
+ "contexto": {
+  "que_es": "C'est le temps composé du futur : futur simple de l'auxiliaire (« aurai », « serai »…) suivi du participe passé. Il indique qu'une action sera terminée à un moment du futur. Le choix entre « avoir » et « être » et l'accord du participe sont les mêmes qu'au passé composé.",
+  "por_que_importa": "Il est indispensable pour enchaîner des actions futures avec précision (« dès que j'aurai reçu ta réponse, je t'appellerai ») et pour formuler des hypothèses sur ce qui s'est passé (« il aura manqué son bus »). Employer à sa place le présent ou le passé composé après « quand » est une faute très voyante en français, et dans un examen de niveau B2 c'est un point évalué explicitement.",
+  "cuando_se_usa": "On le trouve après des conjonctions de temps à valeur de futur (quand, lorsque, dès que, aussitôt que, une fois que, après que) quand l'action de la subordonnée est antérieure à celle de la principale ; avec des repères d'échéance future (« à midi », « d'ici ce soir », « avant minuit ») ; et pour des suppositions sur le passé. Là où l'espagnol dit « cuando hayas… » ou « se habrá… », le français emploie le futur antérieur."
+ }
+}

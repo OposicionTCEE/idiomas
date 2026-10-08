@@ -1,0 +1,595 @@
+{
+ "id": "fr.g.genero-numero",
+ "titulo": "Género y número del sustantivo",
+ "titulo_es": "Genre et nombre du nom (masculin, féminin, pluriel)",
+ "descripcion_es": "Masculin et féminin, pluriel régulier et irrégulier.",
+ "nivel": "A1",
+ "resumen": "Tout nom français est masculin ou féminin, et singulier ou pluriel ; le déterminant est souvent la seule marque qu'on entend, car le -s du pluriel ne se prononce pas.",
+ "explicacion": [
+  {
+   "tipo": "texto",
+   "texto": "Comme en espagnol, le genre du nom est en grande partie arbitraire et il faut l'apprendre avec le mot (de préférence avec son article : le livre, la table). Le neutre n'existe pas. Attention : beaucoup de mots changent de genre par rapport à l'espagnol."
+  },
+  {
+   "tipo": "tabla",
+   "cabecera": [
+    "Français",
+    "Espagnol",
+    "Genre en français"
+   ],
+   "filas": [
+    [
+     "le lait",
+     "la leche",
+     "masculin"
+    ],
+    [
+     "le nez",
+     "la nariz",
+     "masculin"
+    ],
+    [
+     "le sang",
+     "la sangre",
+     "masculin"
+    ],
+    [
+     "la mer",
+     "el mar",
+     "féminin"
+    ],
+    [
+     "la voiture",
+     "el coche",
+     "féminin"
+    ],
+    [
+     "la dent",
+     "el diente",
+     "féminin"
+    ],
+    [
+     "la couleur",
+     "el color",
+     "féminin"
+    ]
+   ]
+  },
+  {
+   "tipo": "lista",
+   "items": [
+    "Les terminaisons -tion, -sion, -té, -ure, -ence, -ance, -ette, -ie sont généralement féminines : la nation, la liberté, la voiture, la chance.",
+    "Les terminaisons -ment, -age, -eau, -isme, -oir, -ier sont généralement masculines : le gouvernement, le voyage, le bateau, le tourisme, le miroir, le papier (exceptions : la page, la plage, l'image, l'eau, la peau).",
+    "Personnes : on ajoute -e (un ami, une amie) ; -eur devient -euse (vendeur, vendeuse) ; -teur devient souvent -trice (acteur, actrice) ; -ien devient -ienne (musicien, musicienne) ; -er devient -ère (boulanger, boulangère).",
+    "Certains noms servent pour les deux genres et seul l'article change : un élève, une élève ; un journaliste, une journaliste."
+   ]
+  },
+  {
+   "tipo": "texto",
+   "texto": "Pluriel régulier : on ajoute un -s, qui ne se prononce pas (un livre, des livres). C'est pourquoi, à l'oral, le pluriel se remarque surtout dans le déterminant (le / les, un / des)."
+  },
+  {
+   "tipo": "tabla",
+   "cabecera": [
+    "Singulier en",
+    "Pluriel",
+    "Exemple"
+   ],
+   "filas": [
+    [
+     "-s, -x, -z",
+     "invariable",
+     "un prix, des prix; un nez, des nez"
+    ],
+    [
+     "-al (et certains en -ail)",
+     "-aux",
+     "un animal, des animaux; un travail, des travaux"
+    ],
+    [
+     "-eau, -eu, -au",
+     "+ x",
+     "un bateau, des bateaux; un jeu, des jeux"
+    ],
+    [
+     "-ou",
+     "-s (sept prennent -x)",
+     "un trou, des trous ; mais bijoux, cailloux, choux, genoux, hiboux, joujoux, poux"
+    ],
+    [
+     "irréguliers",
+     "forme différente",
+     "un œil, des yeux; monsieur, messieurs; madame, mesdames"
+    ]
+   ]
+  },
+  {
+   "tipo": "texto",
+   "texto": "Exceptions en -al avec un pluriel en -als : bal, carnaval, festival, récital (des festivals). Dans œuf, bœuf et os, la consonne finale se prononce au singulier mais pas au pluriel."
+  }
+ ],
+ "ejemplos": [
+  {
+   "frase": "Tex est un tatou. Tex et Tammy sont des tatous.",
+   "traduccion": "Tex es un armadillo. Tex y Tammy son armadillos."
+  },
+  {
+   "frase": "Les écureuils adorent les noix.",
+   "traduccion": "A las ardillas les encantan las nueces."
+  },
+  {
+   "frase": "Ce ne sont pas des animaux, ce sont des insectes.",
+   "traduccion": "No son animales, son insectos."
+  },
+  {
+   "frase": "Elle a les cheveux longs et les yeux verts.",
+   "traduccion": "Tiene el pelo largo y los ojos verdes."
+  },
+  {
+   "frase": "Le lait est sur la table.",
+   "traduccion": "La leche está en la mesa."
+  },
+  {
+   "frase": "Mon cousin est boulanger et ma cousine est musicienne.",
+   "traduccion": "Mi primo es panadero y mi prima es música."
+  }
+ ],
+ "errores_hispanohablantes": [
+  {
+   "mal": "la lait",
+   "bien": "le lait",
+   "nota": "Lait est masculin, même si l'espagnol « leche » est féminin."
+  },
+  {
+   "mal": "le voiture",
+   "bien": "la voiture",
+   "nota": "Voiture est féminin (es : « el coche », masculin) ; les mots en -ure sont généralement féminins."
+  },
+  {
+   "mal": "des animals",
+   "bien": "des animaux",
+   "nota": "Les noms en -al font leur pluriel en -aux."
+  },
+  {
+   "mal": "les cheveu",
+   "bien": "les cheveux",
+   "nota": "Les noms en -eu prennent un -x, pas un -s, et le pluriel s'écrit même s'il ne s'entend pas."
+  }
+ ],
+ "ejercicios": [
+  {
+   "id": "e01",
+   "tipo": "hueco",
+   "enunciado": "Écrivez le pluriel du nom entre parenthèses.",
+   "frase": "Tom aime les ___. (cheval)",
+   "respuestas": [
+    "chevaux"
+   ],
+   "explicacion": "On applique le tableau des pluriels : les noms terminés en -al forment leur pluriel en -aux. L'indice est l'article pluriel « les » devant le blanc. C'est pourquoi « cheval » devient « chevaux ». La fiche rappelle quelques exceptions en -als (bal, festival, carnaval, récital), parmi lesquelles ne figure pas « cheval ».",
+   "origen": "tatoeba:1608330",
+   "explicacion_breve": "Les noms en -al forment leur pluriel en -aux.",
+   "traduccion": "A Tom le gustan los caballos.",
+   "errores_previstos": [
+    {
+     "respuesta": "chevals",
+     "explicacion": "Les noms en -al font leur pluriel en -aux : « chevaux »."
+    },
+    {
+     "respuesta": "chevaus",
+     "explicacion": "La terminaison du pluriel est -aux, avec un x, pas avec un s."
+    },
+    {
+     "respuesta": "cheval",
+     "explicacion": "Il manque le pluriel : après « les », le nom est au pluriel, « chevaux »."
+    }
+   ]
+  },
+  {
+   "id": "e02",
+   "tipo": "hueco",
+   "enunciado": "Écrivez le pluriel du nom entre parenthèses.",
+   "frase": "Elle a les ___ bleus. (œil)",
+   "respuestas": [
+    "yeux"
+   ],
+   "explicacion": "C'est l'un des pluriels irréguliers du tableau : « un œil », « des yeux ». L'indice est l'article pluriel « les » et l'adjectif « bleus », lui aussi au pluriel. Les deux formes ne se ressemblent pas : il faut donc les apprendre ensemble.",
+   "origen": "tatoeba:331215",
+   "explicacion_breve": "Œil a un pluriel irrégulier : yeux.",
+   "traduccion": "Tiene los ojos azules.",
+   "errores_previstos": [
+    {
+     "respuesta": "œils",
+     "explicacion": "« Œil » a un pluriel complètement irrégulier : « yeux »."
+    },
+    {
+     "respuesta": "oeils",
+     "explicacion": "Le pluriel de « œil » ne se forme pas avec -s ; c'est « yeux »."
+    },
+    {
+     "respuesta": "yeuxs",
+     "explicacion": "« Yeux » est déjà au pluriel et se termine par -x ; il ne prend pas de -s."
+    }
+   ]
+  },
+  {
+   "id": "e03",
+   "tipo": "hueco",
+   "enunciado": "Écrivez le pluriel du nom entre parenthèses.",
+   "frase": "Où sont les ___ ? (couteau)",
+   "respuestas": [
+    "couteaux"
+   ],
+   "explicacion": "Le tableau indique que les noms en -eau prennent un -x au pluriel. L'indice est « les » et le verbe au pluriel « sont ». « Couteau » devient « couteaux ». Le -x ne se prononce pas, comme le -s.",
+   "origen": "tatoeba:837325",
+   "explicacion_breve": "Les noms en -eau prennent un -x au pluriel.",
+   "traduccion": "¿Dónde están los cuchillos?",
+   "errores_previstos": [
+    {
+     "respuesta": "couteaus",
+     "explicacion": "Les noms en -eau prennent un -x, pas un -s : « couteaux »."
+    },
+    {
+     "respuesta": "couteau",
+     "explicacion": "Il manque la marque du pluriel : même si elle ne s'entend pas, on écrit « couteaux »."
+    },
+    {
+     "respuesta": "couteals",
+     "explicacion": "« Couteau » ne se termine pas en -al ; il prend seulement un -x : « couteaux »."
+    }
+   ]
+  },
+  {
+   "id": "e04",
+   "tipo": "hueco",
+   "enunciado": "Écrivez le pluriel du nom entre parenthèses.",
+   "frase": "Tom télécharge des ___. (jeu)",
+   "respuestas": [
+    "jeux"
+   ],
+   "explicacion": "D'après le tableau, les noms en -eu prennent un -x au pluriel. L'indice est l'article pluriel « des ». « Jeu » devient « jeux ». (Il existe de rares exceptions en -s, comme « pneus », mais « jeu » suit la règle.)",
+   "origen": "tatoeba:1675992",
+   "explicacion_breve": "Les noms en -eu prennent un -x au pluriel.",
+   "traduccion": "Tom se descarga juegos.",
+   "errores_previstos": [
+    {
+     "respuesta": "jeus",
+     "explicacion": "Les noms en -eu prennent un -x : « jeux »."
+    },
+    {
+     "respuesta": "jeu",
+     "explicacion": "Après « des », il faut le pluriel, même s'il se prononce pareil : « jeux »."
+    },
+    {
+     "respuesta": "jeuxs",
+     "explicacion": "On ajoute seulement un -x, sans -s après."
+    }
+   ]
+  },
+  {
+   "id": "e05",
+   "tipo": "hueco",
+   "enunciado": "Écrivez le pluriel du nom entre parenthèses.",
+   "frase": "Il a les ___ courts. (cheveu)",
+   "respuestas": [
+    "cheveux"
+   ],
+   "explicacion": "« Cheveu » se termine en -eu et, d'après le tableau, prend un -x au pluriel : « cheveux ». L'indice est l'article « les » et l'adjectif « courts » au pluriel. En français, on parle des cheveux au pluriel (« les cheveux »), alors que l'espagnol emploie le singulier.",
+   "origen": "tatoeba:1947395",
+   "explicacion_breve": "Cheveu se termine en -eu : le pluriel prend donc un -x.",
+   "traduccion": "Tiene el pelo corto.",
+   "errores_previstos": [
+    {
+     "respuesta": "cheveus",
+     "explicacion": "Les noms en -eu prennent un -x : « cheveux »."
+    },
+    {
+     "respuesta": "cheveu",
+     "explicacion": "C'est l'erreur que signale la fiche : le pluriel s'écrit même s'il ne s'entend pas, « cheveux »."
+    },
+    {
+     "respuesta": "chevaux",
+     "explicacion": "« Chevaux » est le pluriel de « cheval » ; celui de « cheveu » est « cheveux »."
+    }
+   ]
+  },
+  {
+   "id": "e06",
+   "tipo": "transformar",
+   "enunciado": "Mettez la phrase au pluriel.",
+   "frase": "C'est un animal.",
+   "respuestas": [
+    "Ce sont des animaux."
+   ],
+   "explicacion": "Quand on passe au pluriel, trois éléments changent : « c'est » devient « ce sont », l'article « un » devient « des » et le nom en -al passe en -aux, d'après le tableau. D'où « Ce sont des animaux ». La fiche classe « des animals » parmi les erreurs typiques.",
+   "origen": "tatoeba:592646",
+   "explicacion_breve": "C'est devient ce sont, un devient des et animal devient animaux.",
+   "traduccion": "Son animales.",
+   "errores_previstos": [
+    {
+     "respuesta": "Ce sont des animals.",
+     "explicacion": "Les noms en -al font leur pluriel en -aux : « animaux »."
+    },
+    {
+     "respuesta": "C'est des animaux.",
+     "explicacion": "À l'oral, on entend « c'est des… », mais la norme écrite demande « ce sont » avec un pluriel."
+    },
+    {
+     "respuesta": "Ce sont les animaux.",
+     "explicacion": "Le pluriel de « un » est « des », pas « les » ; « les animaux » désignerait des animaux précis."
+    }
+   ]
+  },
+  {
+   "id": "e07",
+   "tipo": "transformar",
+   "enunciado": "Mettez la phrase au pluriel.",
+   "frase": "C'est un oiseau.",
+   "respuestas": [
+    "Ce sont des oiseaux."
+   ],
+   "explicacion": "Les noms en -eau prennent un -x au pluriel, comme l'indique le tableau : « oiseau » → « oiseaux ». De plus, « c'est » devient « ce sont » et « un » devient « des ». L'indice est la terminaison -eau du nom.",
+   "origen": "tatoeba:880004",
+   "explicacion_breve": "Les noms en -eau prennent un -x : oiseaux.",
+   "traduccion": "Son pájaros.",
+   "errores_previstos": [
+    {
+     "respuesta": "Ce sont des oiseaus.",
+     "explicacion": "Les noms en -eau prennent un -x : « oiseaux »."
+    },
+    {
+     "respuesta": "Ce sont des oiseau.",
+     "explicacion": "Il manque la marque du pluriel sur le nom."
+    },
+    {
+     "respuesta": "Ce sont un oiseaux.",
+     "explicacion": "L'article passe lui aussi au pluriel : « des »."
+    }
+   ]
+  },
+  {
+   "id": "e08",
+   "tipo": "transformar",
+   "enunciado": "Mettez la phrase au pluriel.",
+   "frase": "C'est un cadeau.",
+   "respuestas": [
+    "Ce sont des cadeaux."
+   ],
+   "explicacion": "C'est la même règle du tableau pour les noms en -eau : ils prennent un -x au pluriel ; « cadeau » devient donc « cadeaux ». On transforme aussi « c'est » en « ce sont » et l'article « un » en « des ». L'indice est la terminaison -eau du nom ; le -x final ne se prononce pas.",
+   "origen": "tatoeba:1254060",
+   "explicacion_breve": "Cadeau se termine en -eau : pluriel cadeaux.",
+   "traduccion": "Son regalos.",
+   "errores_previstos": [
+    {
+     "respuesta": "Ce sont des cadeaus.",
+     "explicacion": "Les noms en -eau prennent un -x, pas un -s."
+    },
+    {
+     "respuesta": "C'est des cadeaux.",
+     "explicacion": "Dans la norme écrite, avec un pluriel, on emploie « ce sont »."
+    },
+    {
+     "respuesta": "Ce sont des cadeau.",
+     "explicacion": "Il manque le -x du pluriel sur le nom."
+    }
+   ]
+  },
+  {
+   "id": "e09",
+   "tipo": "ordenar",
+   "enunciado": "Remettez les mots dans l'ordre.",
+   "palabras": [
+    "les",
+    "voir",
+    "chevaux",
+    "Je",
+    "veux"
+   ],
+   "respuestas": [
+    "Je veux voir les chevaux"
+   ],
+   "explicacion": "L'ordre est : sujet « Je », verbe conjugué « veux », infinitif « voir » et complément « les chevaux », avec le pluriel en -aux des noms en -al. L'indice est « veux », le seul verbe conjugué, qui se place immédiatement après le sujet.",
+   "origen": "tatoeba:5680608",
+   "explicacion_breve": "Sujet, verbe conjugué, infinitif et complément : les chevaux.",
+   "traduccion": "Quiero ver los caballos.",
+   "errores_previstos": [
+    {
+     "respuesta": "Je veux les chevaux voir",
+     "explicacion": "Le complément se place après l'infinitif : « voir les chevaux »."
+    },
+    {
+     "respuesta": "Je les chevaux veux voir",
+     "explicacion": "Un nom complément ne se place jamais devant le verbe comme s'il était un pronom."
+    }
+   ]
+  },
+  {
+   "id": "e10",
+   "tipo": "eleccion",
+   "enunciado": "Choisissez le bon article.",
+   "frase": "___ lait est froid.",
+   "opciones": [
+    "Le",
+    "La",
+    "L'"
+   ],
+   "respuestas": [
+    "Le"
+   ],
+   "explicacion": "C'est l'un des mots du tableau dont le genre est inversé : « le lait » est masculin, même si l'espagnol « la leche » est féminin. L'indice est le mot « lait », qui commence par une consonne : il n'y a donc pas d'élision. L'adjectif « froid », au masculin, le confirme.",
+   "explicacion_breve": "Lait est masculin en français, même si « leche » est féminin en espagnol.",
+   "traduccion": "La leche está fría.",
+   "por_opcion": {
+    "Le": "Correct : « lait » est masculin.",
+    "La": "Incorrect : c'est le calque de l'espagnol « la leche » ; la fiche le classe parmi les erreurs typiques.",
+    "L'": "Incorrect : l'article élidé ne s'emploie que devant une voyelle ou un h muet, et « lait » commence par un l."
+   }
+  },
+  {
+   "id": "e11",
+   "tipo": "eleccion",
+   "enunciado": "Choisissez le bon article.",
+   "frase": "Nous passons l'été au bord de ___ mer.",
+   "opciones": [
+    "la",
+    "le",
+    "l'"
+   ],
+   "respuestas": [
+    "la"
+   ],
+   "explicacion": "Un autre mot du tableau dont le genre est inversé : « la mer » est féminin, contrairement à l'espagnol « el mar ». L'indice est le nom lui-même, « mer », qui commence par une consonne et n'admet donc pas « l' ». D'où « au bord de la mer ».",
+   "explicacion_breve": "Mer est féminin (la mer), contrairement à l'espagnol « el mar ».",
+   "traduccion": "Pasamos el verano a la orilla del mar.",
+   "por_opcion": {
+    "la": "Correct : « mer » est féminin en français.",
+    "le": "Incorrect : c'est le calque de l'espagnol « el mar ».",
+    "l'": "Incorrect : on ne l'emploie que devant une voyelle ou un h muet ; « mer » commence par une consonne."
+   }
+  },
+  {
+   "id": "e12",
+   "tipo": "hueco",
+   "enunciado": "Écrivez le féminin du mot entre parenthèses.",
+   "frase": "Mon frère est acteur et ma sœur est ___. (acteur)",
+   "respuestas": [
+    "actrice"
+   ],
+   "explicacion": "On applique la règle des noms de personne de la fiche : beaucoup de noms en -teur font leur féminin en -trice. L'indice est « ma sœur », qui exige le féminin. C'est pourquoi « acteur » devient « actrice », comme en espagnol « actor » → « actriz ».",
+   "explicacion_breve": "Beaucoup de noms en -teur font leur féminin en -trice.",
+   "traduccion": "Mi hermano es actor y mi hermana es actriz.",
+   "errores_previstos": [
+    {
+     "respuesta": "acteuse",
+     "explicacion": "La terminaison -euse correspond à -eur (vendeur → vendeuse) ; les noms en -teur donnent généralement -trice : « actrice »."
+    },
+    {
+     "respuesta": "actrise",
+     "explicacion": "Le mot s'écrit avec un c : « actrice »."
+    },
+    {
+     "respuesta": "acteure",
+     "explicacion": "Ajouter un -e ne suffit pas ici ; le féminin de « acteur » est « actrice »."
+    }
+   ]
+  },
+  {
+   "id": "e13",
+   "tipo": "hueco",
+   "enunciado": "Écrivez le féminin du mot entre parenthèses.",
+   "frase": "Paul est vendeur et Julie est ___ dans le même magasin. (vendeur)",
+   "respuestas": [
+    "vendeuse"
+   ],
+   "explicacion": "La fiche indique que les noms en -eur dérivés d'un verbe passent en -euse au féminin : « vendeur » (de « vendre ») → « vendeuse ». L'indice est le sujet féminin « Julie ». Contrairement à « acteur », on n'emploie pas ici -trice.",
+   "explicacion_breve": "Vendeur forme son féminin en -euse.",
+   "traduccion": "Paul es dependiente y Julie es dependienta en la misma tienda.",
+   "errores_previstos": [
+    {
+     "respuesta": "vendatrice",
+     "explicacion": "La terminaison -trice est réservée aux noms en -teur comme « acteur » ; « vendeur » donne « vendeuse »."
+    },
+    {
+     "respuesta": "vendeure",
+     "explicacion": "Ajouter un -e ne forme pas le féminin de « vendeur » ; c'est « vendeuse »."
+    },
+    {
+     "respuesta": "vendeur",
+     "explicacion": "Il manque le féminin : Julie est une femme, « vendeuse »."
+    }
+   ]
+  },
+  {
+   "id": "e14",
+   "tipo": "corregir",
+   "enunciado": "Corrigez l'erreur.",
+   "frase": "J'achète deux journals le dimanche.",
+   "respuestas": [
+    "J'achète deux journaux le dimanche."
+   ],
+   "explicacion": "« Journal » se termine en -al et forme son pluriel en -aux, d'après le tableau : « journaux ». L'indice est le numéral « deux », qui exige le pluriel. « Journal » ne fait pas partie des exceptions en -als (bal, carnaval, festival, récital).",
+   "explicacion_breve": "Journal se termine en -al : le pluriel est donc journaux.",
+   "traduccion": "Compro dos periódicos los domingos.",
+   "errores_previstos": [
+    {
+     "respuesta": "J'achète deux journals le dimanche.",
+     "explicacion": "C'est laisser la phrase sans la corriger : les noms en -al font leur pluriel en -aux."
+    },
+    {
+     "respuesta": "J'achète deux journeaux le dimanche.",
+     "explicacion": "Le pluriel est « journaux », sans e : on remplace seulement -al par -aux."
+    },
+    {
+     "respuesta": "J'achète deux journal le dimanche.",
+     "explicacion": "Après « deux », il faut le pluriel : « journaux »."
+    }
+   ]
+  },
+  {
+   "id": "e15",
+   "tipo": "corregir",
+   "enunciado": "Corrigez l'erreur.",
+   "frase": "Mon pantalon a deux troux.",
+   "respuestas": [
+    "Mon pantalon a deux trous."
+   ],
+   "explicacion": "Le tableau explique que les noms en -ou font leur pluriel avec un -s, sauf sept qui prennent un -x (bijoux, cailloux, choux, genoux, hiboux, joujoux, poux). « Trou » ne fait pas partie de cette liste : son pluriel est donc « trous ». L'indice est le mot « trou » et le numéral « deux ».",
+   "explicacion_breve": "Trou fait partie des noms en -ou qui forment leur pluriel avec -s ; seuls sept prennent un -x.",
+   "traduccion": "Mi pantalón tiene dos agujeros.",
+   "errores_previstos": [
+    {
+     "respuesta": "Mon pantalon a deux troux.",
+     "explicacion": "C'est laisser la phrase sans la corriger : « trou » ne fait pas partie des sept noms en -ou qui prennent un -x."
+    },
+    {
+     "respuesta": "Mon pantalon a deux trou.",
+     "explicacion": "Il manque le pluriel après « deux » : « trous »."
+    },
+    {
+     "respuesta": "Mon pantalon a deux troues.",
+     "explicacion": "Le pluriel de « trou » ajoute seulement un -s ; il n'y a aucun -e : « trous »."
+    }
+   ]
+  },
+  {
+   "id": "e16",
+   "tipo": "corregir",
+   "enunciado": "Corrigez l'erreur.",
+   "frase": "Le voiture de Marie est rouge.",
+   "respuestas": [
+    "La voiture de Marie est rouge."
+   ],
+   "explicacion": "« Voiture » est féminin en français, même si l'espagnol « el coche » est masculin ; de plus, comme le rappelle la fiche, les mots en -ure sont généralement féminins. Il faut donc remplacer « Le » par « La ». L'adjectif « rouge » ne change pas, car il se termine déjà par -e.",
+   "explicacion_breve": "Voiture est féminin en français.",
+   "traduccion": "El coche de Marie es rojo.",
+   "errores_previstos": [
+    {
+     "respuesta": "Le voiture de Marie est rouge.",
+     "explicacion": "C'est laisser la phrase sans la corriger : « voiture » est féminin."
+    },
+    {
+     "respuesta": "L'voiture de Marie est rouge.",
+     "explicacion": "L'élision ne se fait que devant une voyelle ou un h muet ; « voiture » commence par un v : « la voiture »."
+    },
+    {
+     "respuesta": "La voiture de Marie est rougee.",
+     "explicacion": "« Rouge » se termine déjà par -e et n'en prend pas un autre au féminin."
+    }
+   ]
+  }
+ ],
+ "fuente": {
+  "nombre": "Tex's French Grammar",
+  "autores": "COERLL, Universidad de Texas en Austin",
+  "licencia": "CC BY 3.0",
+  "url": "https://laits.utexas.edu/tex/gr/no2.html",
+  "otras": [
+   "Phrases de Tatoeba (CC BY 2.0 FR)"
+  ]
+ },
+ "descripcion_larga_es": "Tout nom français est masculin ou féminin, et singulier ou pluriel. Il faut apprendre le genre avec l'article, car beaucoup de mots en changent par rapport à l'espagnol (le lait, la mer), même si certaines terminaisons aident. Le pluriel se forme presque toujours avec un -s qui ne se prononce pas, avec des familles particulières (-al → -aux, -eau → -eaux). L'hispanophone a du mal avec les genres inversés et avec l'écriture d'un pluriel qui ne s'entend pas.",
+ "contexto": {
+  "que_es": "C'est le système qui classe les noms en masculins et féminins et qui marque leur nombre. Le français n'a pas de neutre. Le genre est en grande partie arbitraire, même si certaines terminaisons donnent une indication, et le pluriel a une règle générale (ajouter -s) et plusieurs groupes avec -x ou des formes particulières.",
+  "por_que_importa": "Le genre et le nombre déterminent la forme des articles, des adjectifs, des pronoms et des participes : une erreur sur le nom se répercute donc dans toute la phrase. Comme le -s du pluriel ne s'entend pas, à l'oral le déterminant est la seule marque, et à l'écrit oublier le pluriel irrégulier (animals, journals) est une faute très visible dans n'importe quel examen.",
+  "cuando_se_usa": "Cela concerne chaque nom qu'on emploie. Il faut être attentif aux mots dont le genre est inversé par rapport à l'espagnol (le lait, le nez, le sang, la mer, la dent, la couleur), aux professions qui changent de terminaison au féminin (acteur → actrice) et aux pluriels en -al, -eau, -eu et -ou. L'hispanophone a tendance à reprendre le genre espagnol et à tout mettre au pluriel avec -s."
+ }
+}

@@ -1,0 +1,624 @@
+{
+ "id": "en.t.en-artificial-intelligence",
+ "lengua": "en",
+ "titulo": "Artificial intelligence",
+ "tipo": "enciclopedia",
+ "fuente": {
+  "nombre": "Wikipedia (inglés)",
+  "url": "https://en.wikipedia.org/wiki/Artificial_intelligence",
+  "licencia": "CC BY-SA 4.0",
+  "autor": "Colaboradores de Wikipedia (inglés)",
+  "fecha": "",
+  "revision": 1378534951,
+  "nota": "Text shortened by removing paragraphs; the sentences are unchanged."
+ },
+ "audio": null,
+ "palabras": 1698,
+ "nivel_lexico": {
+  "nivel": "C1",
+  "cobertura": {
+   "A1": 0.373,
+   "A2": 0.567,
+   "B1": 0.719,
+   "B2": 0.827,
+   "C1": 0.87,
+   "C2": 1.0
+  },
+  "frase_media": 21.5
+ },
+ "parrafos": [
+  "Artificial intelligence (AI) is the capability of computational systems to perform tasks typically associated with human intelligence, such as learning, reasoning, problem-solving, perception, and decision-making. It is a field of research in engineering, mathematics, and computer science that develops and studies methods and software that enable machines to perceive their environment and use learning and intelligence to take actions that maximise their chances of achieving defined goals.",
+  "High-profile applications of AI include advanced web search engines, chatbots, virtual assistants, autonomous vehicles, play and analysis in strategy games (e.g., chess and Go), and content generation (e.g., text, images, audio, and videos).",
+  "The traditional goals of AI research include learning, reasoning, knowledge representation, planning, natural language processing, and perception, as well as support for robotics. To reach these goals, AI researchers use techniques including state space search and mathematical optimisation, formal logic, artificial neural networks, and methods based on statistics, operations research, and economics. AI also draws upon psychology, linguistics, philosophy, neuroscience, and other fields. Some companies, such as OpenAI, Google DeepMind, and Meta, aim to create artificial general intelligence (AGI)—AI that can complete nearly any cognitive task at least as well as a human.",
+  "Artificial intelligence was founded as an academic discipline in 1956. The field went through multiple cycles of optimism throughout its history, followed by periods of disappointment and loss of funding, known as AI winters. Funding and interest increased substantially after 2012, when graphics processing units (GPUs) started being used to accelerate neural networks, and deep learning outperformed previous AI techniques. This growth accelerated further after 2017 with the transformer architecture. In the 2020s, an AI boom coincided with advances in generative AI, which became widespread and allowed for the creation and modification of media. In addition to AI safety and unintended consequences and harms from the use of AI, ethical concerns, AI's long-term effects, environmental effects, and potential existential risks have prompted discussions of AI regulation.",
+  "The general problem of simulating (or creating) intelligence has been broken down into subproblems. These consist of specific traits or capabilities that researchers expect an intelligent system to display. The traits described below have received the most attention and cover the scope of AI research.",
+  "Early researchers developed algorithms that imitated step-by-step reasoning that humans use when solving puzzles or making logical deductions. By the late 1980s and 1990s, methods were developed for dealing with uncertain or incomplete information, employing concepts from probability and economics.",
+  "Many of these algorithms were insufficient for solving large reasoning problems because they experienced a \"combinatorial explosion\", meaning they become exponentially slower as the problems grow. Even humans rarely use the step-by-step deduction that early AI research could model. Humans solve most of their problems using fast, intuitive judgments.",
+  "Reasoning models, a type of large language model (LLM) trained to generate intermediate chains of thought, emerged in 2024 and allowed improved performance on complex problems in mathematics and coding. These models can produce incorrect outputs or \"hallucinations,\" unlike symbolic reasoning systems.",
+  "Formal knowledge representation and knowledge engineering use symbols to represent words, concepts and things in the world. A knowledge base is a body of knowledge represented in a form that can be used by a program. An ontology is the set of objects, relations, concepts, and properties used by a particular domain of knowledge. Formal knowledge has been studied extensively since the 1970s and researchers have developed formalisms for a wide variety of difficult domains.",
+  "The symbolic approach has difficulty with several problems: the breadth of commonsense knowledge (the set of atomic facts the average person knows is enormous), the sub-symbolic form of most commonsense knowledge (much of what people know is not represented as \"facts\" or \"statements\" they can express verbally), and knowledge acquisition (the problem of obtaining knowledge for AI applications).",
+  "Large language models (and some other AI programs developed since 2012) do not require explicit, symbolic knowledge. They acquire knowledge by being trained on the combined text of millions of books and billions of websites. Modern AI can also learn about a domain by running experiments (as when AlphaZero learns game strategy by playing against itself). Machine learning solves the problems of general knowledge, commonsense knowledge and knowledge acquisition, however, this approach has struggled with accurate recall and valid reasoning.",
+  "An \"agent\" is any entity (artificial or not) that perceives and takes actions in the world. A rational agent has goals or preferences and takes actions to make them happen. In automated planning, the agent has a specific goal. In automated decision-making, the agent has preferences—there are some situations it would prefer to be in, and some situations it is trying to avoid. The decision-making agent assigns a number to each situation (called its \"utility\") that measures how much the agent prefers it. For each possible action, it can calculate the \"expected utility\": the utility of all possible outcomes of the action, weighted by the probability that the outcome will occur. It can then choose the action with the maximum expected utility.",
+  "In classical planning, the agent knows exactly what the effect of any action will be. In most real-world problems, however, the agent may not understand its current situation with certainty (it is \"unknown\" or \"unobservable\") and it may not know for certain what will happen after each possible action (it is not \"deterministic\"). It must choose an action by making a probabilistic guess and then reassess the situation to see if the action had the desired effect.",
+  "Alongside thorough testing and improvement based on previous decisions, having an explanation for why the agent took certain decisions is a way to build trust, especially when the decisions have to be relied upon.",
+  "In some problems, the agent's preferences may be uncertain, especially if there are other agents or humans involved. These preferences may be learned (e.g., with inverse reinforcement learning), or the agent can seek information to improve them. Information value theory can be used to weigh the value of exploratory or experimental actions. The space of possible future actions and situations is typically intractably large, so the agents must take actions and evaluate situations while being uncertain of the outcome.",
+  "A Markov decision process has a transition model that describes the probability that a particular action will change the state in a particular way and a reward function that supplies the utility of each state and the cost of each action. A policy associates a decision with each possible state. The policy could be calculated (e.g., by policy iteration), determined by a heuristic, or learned.",
+  "Machine learning is the study of programs that can improve their performance on a given task automatically. It has been a part of AI from the beginning.",
+  "Supervised learning requires labelling the training data with the expected answers, and comes in two main varieties: classification (where the program must learn to predict what category the input belongs in) and regression (where the program must deduce a numeric function based on numeric input).",
+  "Reinforcement learning is when the agent is rewarded for good responses and punished for bad ones. The agent learns to choose responses that are classified as \"good\".",
+  "Natural language processing (NLP) allows programs to read, write, and communicate in human languages. Specific problems include speech recognition, speech synthesis, machine translation, information extraction, information retrieval, and question answering.",
+  "Early work, based on Noam Chomsky's generative grammar and semantic networks, had difficulty with word-sense disambiguation unless restricted to small domains called \"micro-worlds\" (due to the common sense knowledge problem). British linguist and philosopher Margaret Masterman believed it was meaning and not grammar that was the key to understanding languages, and that dictionaries and especially thesauri should be the basis of computational language structure.",
+  "Modern deep learning techniques for NLP include word embedding (representing words, typically as vectors encoding their meaning), transformers (a deep learning architecture using an attention mechanism), and others. In 2019, generative pre-trained transformer (or \"GPT\") language models began to generate coherent text. By 2023, these models were able to get human-level scores on the bar exam, SAT (Scholastic Assessment Test), GRE (Graduate Record Examination), and many other real-world applications.",
+  "Machine perception is the ability to use input from sensors (such as cameras, microphones, wireless signals, active lidar, sonar, radar, and tactile sensors) to deduce aspects of the world. Computer vision is the ability to analyse visual input.",
+  "Affective computing is a field that comprises systems that recognise, interpret, process, or simulate human affect (feeling, emotion, and mood). For example, some virtual assistants are programmed to speak conversationally or even banter humorously; it makes them appear more sensitive to the emotional dynamics of human interaction, or to otherwise facilitate human–computer interaction.",
+  "However, this tends to give naïve users an unrealistic conception of the intelligence of existing computer agents. Moderate successes related to affective computing include textual sentiment analysis and, more recently, multimodal sentiment analysis, wherein AI classifies the effects displayed by a videotaped subject.",
+  "A machine with artificial general intelligence (AGI) would be able to solve a wide variety of problems with breadth and versatility similar to human intelligence.",
+  "State space search searches through a tree of possible states to try to find a goal state. For example, planning algorithms search through trees of goals and subgoals, attempting to find a path to a target goal, a process called means-ends analysis.",
+  "Simple exhaustive searches are rarely sufficient for most real-world problems: the search space (the number of places to search) quickly grows to astronomical numbers. The result is a search that is too slow or never completes. \"Heuristics\" or \"rules of thumb\" can help prioritise choices that are more likely to reach a goal.",
+  "Adversarial search is used for game-playing programs, such as chess or Go. It searches through a tree of possible moves and countermoves, looking for a winning position.",
+  "Gradient descent is a type of local search that optimises a set of numerical parameters by incrementally adjusting them to minimise a loss function. Variants of gradient descent are commonly used to train neural networks, through the backpropagation algorithm.",
+  "Another type of local search is evolutionary computation, which aims to iteratively improve a set of candidate solutions by \"mutating\" and \"recombining\" them, selecting only the fittest to survive each generation."
+ ],
+ "secciones": [
+  "",
+  "",
+  "",
+  "",
+  "Goals",
+  "Reasoning and problem-solving",
+  "Reasoning and problem-solving",
+  "Reasoning and problem-solving",
+  "Knowledge representation",
+  "Knowledge representation",
+  "Knowledge representation",
+  "Planning and decision-making",
+  "Planning and decision-making",
+  "Planning and decision-making",
+  "Planning and decision-making",
+  "Planning and decision-making",
+  "Learning",
+  "Learning",
+  "Learning",
+  "Natural language processing",
+  "Natural language processing",
+  "Natural language processing",
+  "Perception",
+  "Social intelligence",
+  "Social intelligence",
+  "General intelligence",
+  "State space search",
+  "State space search",
+  "State space search",
+  "Local search",
+  "Local search"
+ ],
+ "titulo_es": "Artificial intelligence",
+ "resumen_es": "Presents what artificial intelligence is, its historical development and its main lines of research: reasoning, knowledge representation, agents and planning, machine learning, natural language, perception and search algorithms.",
+ "campo": "science and technology",
+ "palabras_clave": [
+  "artificial intelligence",
+  "machine learning",
+  "large language models",
+  "deep learning",
+  "reasoning",
+  "natural language processing",
+  "artificial general intelligence",
+  "search algorithms"
+ ],
+ "nivel": "C1",
+ "nivel_motivo": "",
+ "ideas_clave": [
+  {
+   "parrafos": [
+    0,
+    1
+   ],
+   "idea": "AI refers to the ability of computer systems to carry out tasks associated with human intelligence, and it already powers search engines, chatbots, self-driving cars and content generation.",
+   "principal": true
+  },
+  {
+   "parrafos": [
+    2
+   ],
+   "idea": "The discipline pursues goals such as reasoning, planning and language processing using techniques borrowed from many fields, and several firms openly seek to build general intelligence."
+  },
+  {
+   "parrafos": [
+    3
+   ],
+   "idea": "Since its foundation in 1956 the field has alternated between enthusiasm and funding droughts, until GPUs, deep learning, transformers and generative AI triggered a boom that has also prompted debates on regulation and risks.",
+   "principal": true
+  },
+  {
+   "parrafos": [
+    4,
+    5,
+    6
+   ],
+   "idea": "Research is divided into sub-problems; early reasoning programs mimicked human logical deduction but became unmanageably slow on large problems, whereas people mostly rely on quick intuition.",
+   "principal": true
+  },
+  {
+   "parrafos": [
+    7
+   ],
+   "idea": "Recent reasoning models generate intermediate steps and perform better in mathematics and coding, yet, unlike symbolic systems, they can produce false outputs."
+  },
+  {
+   "parrafos": [
+    8,
+    9
+   ],
+   "idea": "Symbolic knowledge representation organises concepts and relations for programs, but it struggles with the vastness and largely unspoken nature of common sense and with acquiring knowledge."
+  },
+  {
+   "parrafos": [
+    10
+   ],
+   "idea": "Large language models avoid explicit knowledge by learning from enormous amounts of text or from self-play, which solves the acquisition problem but leaves weaknesses in accurate recall and sound reasoning.",
+   "principal": true
+  },
+  {
+   "parrafos": [
+    11,
+    12
+   ],
+   "idea": "Rational agents act to achieve goals or preferences, typically by maximising expected utility, and in real settings they must decide under uncertainty and reassess the results of their actions.",
+   "principal": true
+  },
+  {
+   "parrafos": [
+    13,
+    14,
+    15
+   ],
+   "idea": "Explaining decisions fosters trust, preferences may themselves be uncertain and learned, and formal tools such as Markov decision processes link states, actions and rewards through policies."
+  },
+  {
+   "parrafos": [
+    16,
+    17,
+    18
+   ],
+   "idea": "Machine learning lets programs improve automatically, either from labelled examples in supervised learning or through rewards and penalties in reinforcement learning.",
+   "principal": true
+  },
+  {
+   "parrafos": [
+    19,
+    20,
+    21
+   ],
+   "idea": "Natural language processing moved from grammar-based approaches limited to small domains to deep learning and transformers, with GPT models reaching human-level exam scores by 2023.",
+   "principal": true
+  },
+  {
+   "parrafos": [
+    22,
+    23,
+    24
+   ],
+   "idea": "Machines also perceive the world through sensors and may simulate emotions, although emotional behaviour can mislead users about how intelligent systems really are."
+  },
+  {
+   "parrafos": [
+    25
+   ],
+   "idea": "General AI would match the breadth and versatility of human problem-solving."
+  },
+  {
+   "parrafos": [
+    26,
+    27,
+    28
+   ],
+   "idea": "Search methods explore trees of possible states or moves, but exhaustive searches explode in size, so heuristics are used to prioritise promising options, including in games."
+  },
+  {
+   "parrafos": [
+    29,
+    30
+   ],
+   "idea": "Local search techniques such as gradient descent, used to train neural networks, and evolutionary computation improve solutions step by step."
+  }
+ ],
+ "resumen_modelo": "The text provides an overview of artificial intelligence, defined as the capacity of computer systems to perform tasks usually linked to human intelligence, such as learning, reasoning or decision-making. Its applications already range from search engines and chatbots to autonomous vehicles and content generation, and some companies even aspire to develop general intelligence equal to that of humans. Historically, the field, founded in 1956, alternated between optimism and periods of disappointment until the adoption of graphics processors, deep learning and, later, transformers led to the current boom in generative AI, which has in turn sparked concerns about safety, ethics and regulation. The main research areas are then reviewed. Early reasoning programs imitated logical deduction but proved too slow for complex problems, while today's reasoning models perform better yet may produce errors. Similarly, symbolic knowledge representation has difficulty capturing common sense, a problem that large language models circumvent by learning from vast amounts of text, albeit with flaws in recall and reasoning. Furthermore, intelligent agents are described as choosing actions that maximise expected utility under uncertainty, which makes explaining their decisions essential to build trust. Machine learning, whether supervised or based on rewards, enables programs to improve automatically, and natural language processing has advanced from grammar-based methods to transformers capable of human-level exam results. Finally, attention is paid to machine perception, affective computing, which may give users an exaggerated impression of machine intelligence, and search and optimisation techniques, from heuristics to gradient descent and evolutionary algorithms.",
+ "preguntas": [
+  {
+   "id": "p01",
+   "tipo": "eleccion",
+   "parrafo": 2,
+   "enunciado": "Choose the correct answer.",
+   "pregunta": "Which companies are mentioned as aiming to create artificial general intelligence?",
+   "opciones": [
+    "OpenAI, Google DeepMind and Meta",
+    "OpenAI, Microsoft and Apple",
+    "Google DeepMind, Amazon and IBM",
+    "Meta, Nvidia and Microsoft"
+   ],
+   "respuestas": [
+    "OpenAI, Google DeepMind and Meta"
+   ],
+   "cita": "Some companies, such as OpenAI, Google DeepMind, and Meta, aim to create artificial general intelligence",
+   "explicacion": "The text names exactly OpenAI, Google DeepMind and Meta. Microsoft, Apple, Amazon, IBM and Nvidia do not appear in the text."
+  },
+  {
+   "id": "p02",
+   "tipo": "vf",
+   "parrafo": 3,
+   "enunciado": "Say whether the statement is true, false or not stated in the text.",
+   "pregunta": "Funding and interest in AI grew considerably after 2012, partly because GPUs began to be used to speed up neural networks.",
+   "respuestas": [
+    "V"
+   ],
+   "cita": "Funding and interest increased substantially after 2012, when graphics processing units (GPUs) started being used to accelerate neural networks",
+   "explicacion": "The text links the rise in funding and interest from 2012 onwards to the use of GPUs to speed up neural networks. It is true."
+  },
+  {
+   "id": "p03",
+   "tipo": "vocabulario",
+   "parrafo": 3,
+   "enunciado": "Find an expression in paragraph 3 that refers to “the periods of disappointment and lack of funding for AI”.",
+   "pregunta": "Find the expression used for periods of disappointment and loss of funding in AI.",
+   "respuestas": [
+    "AI winters"
+   ],
+   "cita": "followed by periods of disappointment and loss of funding, known as AI winters",
+   "explicacion": "“AI winters” is the name given to the periods of disillusionment and funding cuts."
+  },
+  {
+   "id": "p04",
+   "tipo": "eleccion",
+   "parrafo": 6,
+   "enunciado": "Choose the correct answer.",
+   "pregunta": "What does the term 'combinatorial explosion' refer to in the text?",
+   "opciones": [
+    "Algorithms becoming exponentially slower as problems grow",
+    "Data volumes growing faster than storage capacity",
+    "Hardware failing because of excessive computation",
+    "The rapid spread of AI applications after 2012"
+   ],
+   "respuestas": [
+    "Algorithms becoming exponentially slower as problems grow"
+   ],
+   "cita": "meaning they become exponentially slower as the problems grow",
+   "explicacion": "The text defines combinatorial explosion as the exponential slowdown of algorithms as problems grow larger. The other options do not appear in the text with that meaning."
+  },
+  {
+   "id": "p05",
+   "tipo": "vf",
+   "parrafo": 7,
+   "enunciado": "Say whether the statement is true, false or not stated in the text.",
+   "pregunta": "Reasoning models, which generate intermediate chains of thought, first appeared in 2022.",
+   "respuestas": [
+    "F"
+   ],
+   "cita": "trained to generate intermediate chains of thought, emerged in 2024",
+   "explicacion": "According to the text, reasoning models emerged in 2024, not in 2022. The statement is false."
+  },
+  {
+   "id": "p06",
+   "tipo": "vocabulario",
+   "parrafo": 9,
+   "enunciado": "Find an expression in paragraph 9 that means “the everyday knowledge that any ordinary person has”.",
+   "pregunta": "Find an expression meaning 'everyday knowledge that the average person has'.",
+   "respuestas": [
+    "commonsense knowledge"
+   ],
+   "cita": "the breadth of commonsense knowledge (the set of atomic facts the average person knows is enormous)",
+   "explicacion": "“Commonsense knowledge” is the set of facts that any ordinary person knows."
+  },
+  {
+   "id": "p07",
+   "tipo": "abierta",
+   "parrafo": 10,
+   "enunciado": "Answer in your own words (1–3 sentences).",
+   "pregunta": "How do large language models acquire knowledge, and what are the limitations of this approach?",
+   "respuestas": [
+    "They do not need explicit, symbolic knowledge: they learn from the text of millions of books and billions of websites. This solves the problem of acquiring general and commonsense knowledge, but these models still struggle with accurate recall and valid reasoning."
+   ],
+   "cita": "this approach has struggled with accurate recall and valid reasoning",
+   "explicacion": "The answer should explain that they learn from huge amounts of text without explicit symbolic knowledge, and point out their two weaknesses: accuracy of recall and validity of reasoning."
+  },
+  {
+   "id": "p08",
+   "tipo": "eleccion",
+   "parrafo": 11,
+   "enunciado": "Choose the correct answer.",
+   "pregunta": "How does a decision-making agent choose its action, according to the text?",
+   "opciones": [
+    "It chooses the action with the maximum expected utility.",
+    "It chooses the action with the lowest cost, regardless of probabilities.",
+    "It chooses the action most recently rewarded.",
+    "It chooses an action at random and then reassesses."
+   ],
+   "respuestas": [
+    "It chooses the action with the maximum expected utility."
+   ],
+   "cita": "It can then choose the action with the maximum expected utility.",
+   "explicacion": "The agent weights the utility of each outcome by its probability and chooses the action with the highest expected utility. The text does not talk about minimising costs without probabilities or choosing at random; reward is dealt with in another section."
+  },
+  {
+   "id": "p09",
+   "tipo": "vf",
+   "parrafo": 14,
+   "enunciado": "Say whether the statement is true, false or not stated in the text.",
+   "pregunta": "An agent's preferences can sometimes be learned, for instance through inverse reinforcement learning.",
+   "respuestas": [
+    "V"
+   ],
+   "cita": "These preferences may be learned (e.g., with inverse reinforcement learning)",
+   "explicacion": "The text says that uncertain preferences can be learned, for example through inverse reinforcement learning. It is true."
+  },
+  {
+   "id": "p10",
+   "tipo": "eleccion",
+   "parrafo": 17,
+   "enunciado": "Choose the correct answer.",
+   "pregunta": "What are the two main varieties of supervised learning?",
+   "opciones": [
+    "Classification and regression",
+    "Reinforcement and evolution",
+    "Search and planning",
+    "Perception and recognition"
+   ],
+   "respuestas": [
+    "Classification and regression"
+   ],
+   "cita": "comes in two main varieties: classification",
+   "explicacion": "Supervised learning is divided into classification (predicting the category) and regression (deducing a numerical function). The other pairs mix up other techniques or areas described in the text."
+  },
+  {
+   "id": "p11",
+   "tipo": "vocabulario",
+   "parrafo": 20,
+   "enunciado": "Find a word in paragraph 20 that means “dictionaries of synonyms” (plural).",
+   "pregunta": "Find a word meaning 'dictionaries of synonyms'.",
+   "respuestas": [
+    "thesauri"
+   ],
+   "cita": "dictionaries and especially thesauri should be the basis of computational language structure",
+   "explicacion": "“Thesauri” is the Latin plural of “thesaurus”, a dictionary of synonyms and related terms."
+  },
+  {
+   "id": "p12",
+   "tipo": "vf",
+   "parrafo": 21,
+   "enunciado": "Say whether the statement is true, false or not stated in the text.",
+   "pregunta": "GPT language models were already obtaining human-level scores on the bar exam in 2019.",
+   "respuestas": [
+    "F"
+   ],
+   "cita": "By 2023, these models were able to get human-level scores on the bar exam",
+   "explicacion": "In 2019 GPT models began to generate coherent text; human-level scores in exams such as the bar exam came in 2023. The statement is false."
+  },
+  {
+   "id": "p13",
+   "tipo": "abierta",
+   "parrafo": 24,
+   "enunciado": "Answer in your own words (1–3 sentences).",
+   "pregunta": "Why might affective computing be problematic for some users?",
+   "respuestas": [
+    "Because when virtual assistants talk conversationally or joke, they seem sensitive to emotions, which can give naive users an unrealistic idea of how intelligent these systems actually are."
+   ],
+   "cita": "this tends to give naïve users an unrealistic conception of the intelligence of existing computer agents",
+   "explicacion": "You need to link the simulation of emotions (conversation, humour) with the false impression of intelligence it can create in non-expert users."
+  },
+  {
+   "id": "p14",
+   "tipo": "vf",
+   "parrafo": 25,
+   "enunciado": "Say whether the statement is true, false or not stated in the text.",
+   "pregunta": "The text predicts that artificial general intelligence will be achieved within the next ten years.",
+   "respuestas": [
+    "ND"
+   ],
+   "cita": "",
+   "explicacion": "The text only defines artificial general intelligence and mentions that some companies aim to create it, but it gives no timeframe."
+  },
+  {
+   "id": "p15",
+   "tipo": "eleccion",
+   "parrafo": 27,
+   "enunciado": "Choose the correct answer.",
+   "pregunta": "What is the role of heuristics in search problems?",
+   "opciones": [
+    "They help prioritise choices that are more likely to reach a goal.",
+    "They guarantee that exhaustive searches always finish.",
+    "They replace neural networks during training.",
+    "They increase the number of places to search."
+   ],
+   "respuestas": [
+    "They help prioritise choices that are more likely to reach a goal."
+   ],
+   "cita": "can help prioritise choices that are more likely to reach a goal",
+   "explicacion": "Heuristics, or rules of thumb, steer the search towards the most promising options. They do not guarantee that the search ends, they do not replace neural networks, and their purpose is to reduce the search space, not to enlarge it."
+  },
+  {
+   "id": "p16",
+   "tipo": "abierta",
+   "parrafo": 29,
+   "enunciado": "Answer in your own words (1–3 sentences).",
+   "pregunta": "What do gradient descent and evolutionary computation have in common, and how do they differ?",
+   "respuestas": [
+    "Both are types of local search that improve solutions gradually. Gradient descent adjusts numerical parameters step by step to minimise a loss function and is used to train neural networks, whereas evolutionary computation mutates and recombines a set of candidate solutions, keeping only the fittest in each generation."
+   ],
+   "cita": "Another type of local search is evolutionary computation",
+   "explicacion": "You should point out that both are local searches based on step-by-step improvement and explain the difference: adjusting parameters to minimise a loss function versus mutating and recombining candidates and selecting the best ones."
+  }
+ ],
+ "tribunal": [
+  {
+   "pregunta": "How does the text define artificial intelligence?",
+   "pista_es": "Give the definition and some examples of applications.",
+   "ideas": [
+    "systems performing tasks associated with human intelligence",
+    "learning, reasoning, perception and decision-making",
+    "applications such as search engines, chatbots and autonomous vehicles"
+   ]
+  },
+  {
+   "pregunta": "Why has the development of AI accelerated so much since 2012?",
+   "pista_es": "Explain the technical factors behind the recent boom.",
+   "ideas": [
+    "use of GPUs to accelerate neural networks",
+    "deep learning outperforming earlier techniques",
+    "transformer architecture after 2017",
+    "generative AI in the 2020s"
+   ]
+  },
+  {
+   "pregunta": "What are the main differences between symbolic approaches and machine learning?",
+   "pista_es": "Contrast explicit knowledge with learning from data, and the limits of each.",
+   "ideas": [
+    "symbolic systems represent knowledge explicitly",
+    "difficulty with common sense and knowledge acquisition",
+    "machine learning learns from vast data",
+    "weaknesses in recall, reasoning and hallucinations"
+   ]
+  },
+  {
+   "pregunta": "Why is explainability important when AI systems take decisions?",
+   "pista_es": "Link the explanation of decisions with trust and accountability.",
+   "ideas": [
+    "building trust in decisions that people rely on",
+    "accountability in sensitive areas such as credit or health",
+    "detecting errors and biases"
+   ]
+  },
+  {
+   "pregunta": "What impact do you think AI will have on productivity and employment?",
+   "pista_es": "Use economic reasoning to argue about the effects on productivity, employment and distribution.",
+   "ideas": [
+    "productivity gains and new products",
+    "automation of routine and cognitive tasks",
+    "reallocation of jobs and need for reskilling",
+    "risk of greater inequality"
+   ]
+  },
+  {
+   "pregunta": "How is the European Union approaching AI regulation, and do you think it strikes the right balance?",
+   "pista_es": "Refer to the EU AI Act and assess how it balances innovation and protection.",
+   "ideas": [
+    "the AI Act and its risk-based approach",
+    "protection of fundamental rights",
+    "concerns about competitiveness compared with the US and China",
+    "regulatory sandboxes and support for innovation"
+   ]
+  },
+  {
+   "pregunta": "What should Spain do to benefit from artificial intelligence?",
+   "pista_es": "Propose economic and trade policy measures suited to Spain.",
+   "ideas": [
+    "investment in digital skills and research",
+    "adoption by SMEs",
+    "use of EU recovery funds",
+    "attracting data centres and talent"
+   ]
+  }
+ ],
+ "glosario": [
+  {
+   "palabra": "high-profile",
+   "parrafo": 1,
+   "significado": "destacado, muy conocido",
+   "nota": ""
+  },
+  {
+   "palabra": "draws upon",
+   "parrafo": 2,
+   "significado": "se basa en, se nutre de",
+   "nota": "Collocation: “draw (up)on sources/fields”."
+  },
+  {
+   "palabra": "outperformed",
+   "parrafo": 3,
+   "significado": "superó en rendimiento",
+   "nota": ""
+  },
+  {
+   "palabra": "existential risks",
+   "parrafo": 3,
+   "significado": "riesgos para la supervivencia de la humanidad",
+   "nota": ""
+  },
+  {
+   "palabra": "combinatorial explosion",
+   "parrafo": 6,
+   "significado": "explosión combinatoria (crecimiento exponencial de las posibilidades)",
+   "nota": ""
+  },
+  {
+   "palabra": "hallucinations",
+   "parrafo": 7,
+   "significado": "alucinaciones: respuestas falsas presentadas como ciertas",
+   "nota": "Technical term in generative AI."
+  },
+  {
+   "palabra": "knowledge base",
+   "parrafo": 8,
+   "significado": "base de conocimiento",
+   "nota": ""
+  },
+  {
+   "palabra": "recall",
+   "parrafo": 10,
+   "significado": "recuperación exacta de información, memoria",
+   "nota": "In other contexts it means “the withdrawal of a product from the market”."
+  },
+  {
+   "palabra": "expected utility",
+   "parrafo": 11,
+   "significado": "utilidad esperada",
+   "nota": "Concept from decision theory, also common in economics."
+  },
+  {
+   "palabra": "reassess",
+   "parrafo": 12,
+   "significado": "reevaluar",
+   "nota": ""
+  },
+  {
+   "palabra": "intractably",
+   "parrafo": 14,
+   "significado": "de forma inabordable (imposible de calcular en la práctica)",
+   "nota": ""
+  },
+  {
+   "palabra": "labelling",
+   "parrafo": 17,
+   "significado": "etiquetado (de los datos)",
+   "nota": "British spelling; in the US, “labeling”."
+  },
+  {
+   "palabra": "word-sense disambiguation",
+   "parrafo": 20,
+   "significado": "desambiguación del sentido de las palabras",
+   "nota": ""
+  },
+  {
+   "palabra": "banter",
+   "parrafo": 23,
+   "significado": "bromear, intercambiar comentarios ingeniosos",
+   "nota": ""
+  },
+  {
+   "palabra": "rules of thumb",
+   "parrafo": 27,
+   "significado": "reglas prácticas, reglas empíricas",
+   "nota": ""
+  },
+  {
+   "palabra": "loss function",
+   "parrafo": 29,
+   "significado": "función de pérdida",
+   "nota": ""
+  },
+  {
+   "palabra": "the fittest",
+   "parrafo": 30,
+   "significado": "los más aptos",
+   "nota": "Echoes the Darwinian expression “survival of the fittest”."
+  }
+ ]
+}

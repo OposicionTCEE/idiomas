@@ -1,0 +1,491 @@
+{
+ "id": "fr.g.concordancia-participio",
+ "titulo": "Concordancia del participio pasado",
+ "titulo_es": "Accord du participe passé",
+ "descripcion_es": "Quand le participe s'accorde avec être, avec avoir et dans les verbes pronominaux.",
+ "nivel": "B2",
+ "resumen": "En français, le participe passé peut varier en genre et en nombre (parti, partie, partis, parties). Il s'accorde avec le sujet quand l'auxiliaire est être, et avec le complément d'objet direct quand l'auxiliaire est avoir et que ce complément est placé avant le verbe.",
+ "explicacion": [
+  {
+   "tipo": "texto",
+   "texto": "La variation est souvent purement écrite (fini / finie se prononcent de la même façon), mais dans les participes terminés par une consonne, elle s'entend : pris / prise, fait / faite, écrit / écrite, mis / mise. C'est pourquoi une erreur d'accord se remarque aussi dans un exposé oral."
+  },
+  {
+   "tipo": "tabla",
+   "cabecera": [
+    "Cas",
+    "Règle",
+    "Exemple"
+   ],
+   "filas": [
+    [
+     "Auxiliaire être (verbes de mouvement, passif)",
+     "Accord avec le sujet",
+     "Elles sont arrivées tard. La loi a été votée."
+    ],
+    [
+     "Auxiliaire avoir, COD après le verbe",
+     "Pas d'accord",
+     "Nous avons signé les contrats."
+    ],
+    [
+     "Auxiliaire avoir, COD avant (pronom ou relatif que)",
+     "Accord avec ce COD",
+     "Les contrats ? Nous les avons signés. Les lettres que j'ai écrites."
+    ],
+    [
+     "Avoir sans COD ou avec un COI avant",
+     "Pas d'accord",
+     "Elle leur a parlé. Ils ont dormi."
+    ],
+    [
+     "Pronominal avec se = COD",
+     "Accord avec le sujet",
+     "Elle s'est levée. Ils se sont vus."
+    ],
+    [
+     "Pronominal avec se = COI",
+     "Pas d'accord",
+     "Elle s'est lavé les mains. Ils se sont parlé."
+    ]
+   ]
+  },
+  {
+   "tipo": "texto",
+   "texto": "Astuce pour les pronominaux : transformez avec avoir et demandez quoi ou à qui. « Elle s'est lavé les mains » = elle a lavé les mains à elle-même : le COD est les mains (placé après), se est COI, donc pas d'accord. En revanche, « Elle s'est lavée » = elle a lavé elle-même : se est COD, il y a accord."
+  },
+  {
+   "tipo": "lista",
+   "items": [
+    "Avec en comme COD placé avant, pas d'accord : Des pommes, j'en ai mangé.",
+    "Les verbes impersonnels ne s'accordent jamais : Les chaleurs qu'il a fait.",
+    "Les verbes toujours pronominaux (s'évanouir, se souvenir) s'accordent avec le sujet : Elle s'est souvenue de tout.",
+    "Se parler, se plaire, se sourire, se succéder, se nuire ont un se COI : participe invariable (Ils se sont succédé)."
+   ]
+  }
+ ],
+ "ejemplos": [
+  {
+   "frase": "La réforme que le gouvernement a présentée hier divise les syndicats.",
+   "traduccion": "La reforma que el Gobierno presentó ayer divide a los sindicatos."
+  },
+  {
+   "frase": "Mes clés ? Je les ai laissées sur la table.",
+   "traduccion": "¿Mis llaves? Las he dejado en la mesa."
+  },
+  {
+   "frase": "Nos amies sont venues dîner samedi.",
+   "traduccion": "Nuestras amigas vinieron a cenar el sábado."
+  },
+  {
+   "frase": "Elle s'est rendu compte de son erreur.",
+   "traduccion": "Se dio cuenta de su error."
+  },
+  {
+   "frase": "Les deux ministres se sont téléphoné avant la réunion.",
+   "traduccion": "Los dos ministros se llamaron por teléfono antes de la reunión."
+  },
+  {
+   "frase": "Quelles décisions avez-vous prises ?",
+   "traduccion": "¿Qué decisiones habéis tomado?"
+  }
+ ],
+ "errores_hispanohablantes": [
+  {
+   "mal": "Les mesures que nous avons pris sont efficaces.",
+   "bien": "Les mesures que nous avons prises sont efficaces.",
+   "nota": "En espagnol, le participe avec « haber » ne varie jamais ; en français, il s'accorde avec le COD placé avant (que = les mesures)."
+  },
+  {
+   "mal": "Elle est allé à Lyon.",
+   "bien": "Elle est allée à Lyon.",
+   "nota": "Avec être, le participe s'accorde toujours avec le sujet."
+  },
+  {
+   "mal": "Elle s'est lavée les mains.",
+   "bien": "Elle s'est lavé les mains.",
+   "nota": "Si le COD (les mains) est placé après, se est complément d'objet indirect et il n'y a pas d'accord."
+  }
+ ],
+ "ejercicios": [
+  {
+   "id": "e01",
+   "tipo": "hueco",
+   "enunciado": "Complétez avec le participe de « partir » correctement accordé.",
+   "frase": "Mes parents sont ___ en vacances hier.",
+   "respuestas": [
+    "partis"
+   ],
+   "explicacion": "Partir est un verbe de mouvement qui se conjugue avec être et, d'après la première ligne du tableau, le participe s'accorde alors avec le sujet. Mes parents est masculin pluriel : parti prend donc un -s, partis. L'indice est l'auxiliaire sont.",
+   "explicacion_breve": "Avec être, accord avec le sujet masculin pluriel.",
+   "traduccion": "Mis padres se fueron de vacaciones ayer.",
+   "errores_previstos": [
+    {
+     "respuesta": "parti",
+     "explicacion": "Il manque l'accord avec le sujet pluriel mes parents. Avec être, le participe s'accorde toujours : partis."
+    },
+    {
+     "respuesta": "parties",
+     "explicacion": "C'est la forme du féminin pluriel ; parents est masculin (ou mixte, ce qui se met aussi au masculin) : partis."
+    }
+   ]
+  },
+  {
+   "id": "e02",
+   "tipo": "hueco",
+   "enunciado": "Complétez avec le participe de « écrire » correctement accordé.",
+   "frase": "La lettre que tu as ___ m'a beaucoup touché.",
+   "respuestas": [
+    "écrite"
+   ],
+   "explicacion": "On applique la règle du complément d'objet direct placé avant avec avoir. Le relatif que remplace la lettre, féminin singulier, et se trouve avant as écrit ; le participe s'accorde donc : écrite. Ici, l'accord s'entend, car on prononce le t final de écrite.",
+   "explicacion_breve": "Le COD (que = la lettre) est placé avant : accord au féminin singulier.",
+   "traduccion": "La carta que me escribiste me emocionó mucho.",
+   "errores_previstos": [
+    {
+     "respuesta": "écrit",
+     "explicacion": "C'est le calque de l'espagnol, où le participe avec « haber » ne varie pas. En français, il s'accorde avec le COD placé avant, que (= la lettre) : écrite."
+    },
+    {
+     "respuesta": "écrites",
+     "explicacion": "Il n'y a qu'une lettre : féminin singulier, écrite."
+    },
+    {
+     "respuesta": "écrite m'a",
+     "explicacion": "Le blanc ne demande que le participe ; le reste de la phrase est déjà écrit."
+    }
+   ]
+  },
+  {
+   "id": "e03",
+   "tipo": "hueco",
+   "enunciado": "Complétez avec le participe de « voir » correctement accordé.",
+   "frase": "Ces films, je les ai tous ___ au cinéma.",
+   "respuestas": [
+    "vus"
+   ],
+   "explicacion": "Le pronom les remplace ces films et se trouve avant l'auxiliaire avoir : le participe s'accorde donc avec lui, comme l'indique la troisième ligne du tableau. Films est masculin pluriel : vus. L'indéfini tous ne change pas la règle ; il renforce seulement le pluriel.",
+   "explicacion_breve": "Les (= ces films) est un COD placé avant, masculin pluriel.",
+   "traduccion": "Esas películas las he visto todas en el cine.",
+   "errores_previstos": [
+    {
+     "respuesta": "vu",
+     "explicacion": "Il manque l'accord avec le COD placé avant, les (= ces films), masculin pluriel : vus."
+    },
+    {
+     "respuesta": "vues",
+     "explicacion": "Film est masculin en français : vus."
+    }
+   ]
+  },
+  {
+   "id": "e04",
+   "tipo": "hueco",
+   "enunciado": "Complétez avec le participe de « parler » correctement accordé.",
+   "frase": "Après la dispute, elles ne se sont plus ___.",
+   "respuestas": [
+    "parlé"
+   ],
+   "explicacion": "La dernière ligne du tableau et la liste de la fiche indiquent que dans se parler, le pronom se est complément d'objet indirect, car on parle à quelqu'un. Si se est indirect, le participe ne s'accorde pas, même si l'auxiliaire est être. C'est pourquoi, bien que le sujet elles soit féminin pluriel, le participe reste parlé.",
+   "explicacion_breve": "Parler à quelqu'un : se est COI, le participe ne varie pas.",
+   "traduccion": "Después de la discusión, dejaron de hablarse.",
+   "errores_previstos": [
+    {
+     "respuesta": "parlées",
+     "explicacion": "C'est l'erreur qui consiste à accorder avec le sujet. Dans se parler, se est indirect (parler à l'autre) : le participe reste donc invariable."
+    },
+    {
+     "respuesta": "parlés",
+     "explicacion": "Parler à quelqu'un fait de se un complément d'objet indirect : pas d'accord."
+    },
+    {
+     "respuesta": "parler",
+     "explicacion": "Après l'auxiliaire, il faut le participe, pas l'infinitif."
+    }
+   ]
+  },
+  {
+   "id": "e05",
+   "tipo": "eleccion",
+   "enunciado": "Choisissez la bonne forme.",
+   "frase": "Elle s'est ___ très tôt ce matin.",
+   "opciones": [
+    "réveillé",
+    "réveillée",
+    "réveillés"
+   ],
+   "respuestas": [
+    "réveillée"
+   ],
+   "explicacion": "C'est un verbe pronominal dans lequel se est complément d'objet direct : réveiller quelqu'un, elle se réveille elle-même. D'après le tableau, dans ce cas le participe s'accorde avec le sujet, ici elle, féminin singulier : réveillée. L'astuce de la fiche fonctionne : elle a réveillé qui ? elle-même.",
+   "explicacion_breve": "Réveiller quelqu'un : se est COD et le participe s'accorde avec le sujet féminin.",
+   "traduccion": "Se despertó muy temprano esta mañana.",
+   "por_opcion": {
+    "réveillé": "Incorrect : pas d'accord. Se est complément d'objet direct : le participe s'accorde donc avec elle.",
+    "réveillée": "Correct : accord au féminin singulier avec le sujet elle, parce que se est complément d'objet direct.",
+    "réveillés": "Incorrect : c'est le masculin pluriel, et le sujet est une seule femme."
+   }
+  },
+  {
+   "id": "e06",
+   "tipo": "eleccion",
+   "enunciado": "Choisissez la bonne forme.",
+   "frase": "Ils ont ___ toute la nuit.",
+   "opciones": [
+    "travaillé",
+    "travaillés",
+    "travaillées"
+   ],
+   "respuestas": [
+    "travaillé"
+   ],
+   "explicacion": "D'après la quatrième ligne du tableau, avec avoir et sans complément d'objet direct, le participe ne s'accorde pas. Travailler n'a pas ici de complément d'objet direct : toute la nuit est un complément de temps. Le participe reste donc travaillé, même si le sujet ils est pluriel. Avec avoir, on n'accorde jamais avec le sujet.",
+   "explicacion_breve": "Avoir sans complément d'objet direct : le participe ne varie pas.",
+   "traduccion": "Trabajaron toda la noche.",
+   "por_opcion": {
+    "travaillé": "Correct : avec avoir et sans complément d'objet direct, le participe est invariable.",
+    "travaillés": "Incorrect : accord avec le sujet, ce qui ne se produit qu'avec être.",
+    "travaillées": "Incorrect : féminin pluriel sans aucun complément d'objet direct placé avant qui le justifie."
+   },
+   "glosario": [
+    {
+     "palabra": "toute la nuit",
+     "significado": "toda la noche"
+    }
+   ]
+  },
+  {
+   "id": "e07",
+   "tipo": "eleccion",
+   "enunciado": "Choisissez la bonne forme.",
+   "frase": "Des fraises ? J'en ai ___ un kilo au marché.",
+   "opciones": [
+    "acheté",
+    "achetées",
+    "achetés"
+   ],
+   "respuestas": [
+    "acheté"
+   ],
+   "explicacion": "La liste de la fiche signale cette exception : quand le complément d'objet direct placé avant est le pronom en, on ne fait pas l'accord. En remplace des fraises, mais comme il exprime une quantité indéterminée, le participe reste acheté. L'indice est j'en ai.",
+   "explicacion_breve": "Avec en comme COD placé avant, on ne fait pas l'accord.",
+   "traduccion": "¿Fresas? He comprado un kilo en el mercado.",
+   "por_opcion": {
+    "acheté": "Correct : avec en comme complément placé avant, le participe est invariable.",
+    "achetées": "Incorrect : accord avec fraises, mais selon la norme en ne provoque pas d'accord.",
+    "achetés": "Incorrect : masculin pluriel sans justification ; fraises est féminin et, de plus, en n'entraîne pas d'accord."
+   },
+   "glosario": [
+    {
+     "palabra": "une fraise",
+     "significado": "una fresa"
+    }
+   ]
+  },
+  {
+   "id": "e08",
+   "tipo": "eleccion",
+   "enunciado": "Choisissez la bonne forme.",
+   "frase": "Elle s'est ___ les cheveux avant de sortir.",
+   "opciones": [
+    "coupée",
+    "coupé",
+    "coupés"
+   ],
+   "respuestas": [
+    "coupé"
+   ],
+   "explicacion": "C'est le cas de l'erreur typique elle s'est lavée les mains. Le complément d'objet direct est les cheveux, placé après le verbe ; se signifie « à elle-même » et il est indirect. Si le COD est placé après, il n'y a pas d'accord : coupé. L'astuce de la fiche : elle a coupé quoi ? les cheveux, à qui ? à elle.",
+   "explicacion_breve": "Le COD les cheveux est placé après ; se est COI : invariable.",
+   "traduccion": "Se cortó el pelo antes de salir.",
+   "por_opcion": {
+    "coupée": "Incorrect : il y aurait accord si se était COD (elle s'est coupée, « se hizo un corte »), mais ici le COD est les cheveux et il est placé après.",
+    "coupé": "Correct : se est indirect et le COD les cheveux est placé après : le participe ne varie donc pas.",
+    "coupés": "Incorrect : accord avec les cheveux, mais ce COD est placé après le verbe et n'entraîne pas d'accord."
+   }
+  },
+  {
+   "id": "e09",
+   "tipo": "corregir",
+   "enunciado": "Corrigez l'erreur d'accord.",
+   "frase": "Les décisions que le conseil a pris ont surpris tout le monde.",
+   "respuestas": [
+    "Les décisions que le conseil a prises ont surpris tout le monde."
+   ],
+   "explicacion": "Le relatif que remplace les décisions, féminin pluriel, et se trouve avant a pris : c'est un complément d'objet direct placé avant avec avoir, et le participe s'accorde donc : prises. C'est exactement la première erreur typique de la fiche, et avec ce verbe l'accord s'entend, car on prononce le s de prises.",
+   "explicacion_breve": "Que = les décisions, COD féminin pluriel placé avant.",
+   "traduccion": "Las decisiones que tomó el consejo sorprendieron a todo el mundo.",
+   "errores_previstos": [
+    {
+     "respuesta": "Les décisions que le conseil a pris ont surpris tout le monde.",
+     "explicacion": "C'est la phrase non corrigée : il manque l'accord avec le COD placé avant, que (= les décisions)."
+    },
+    {
+     "respuesta": "Les décisions que le conseil a prise ont surpris tout le monde.",
+     "explicacion": "Le féminin est marqué, mais il manque le pluriel : il y a plusieurs décisions, prises."
+    },
+    {
+     "respuesta": "Les décisions que le conseil a prises ont surprises tout le monde.",
+     "explicacion": "Le second participe ne doit pas s'accorder : le COD de ont surpris est tout le monde, placé après."
+    }
+   ]
+  },
+  {
+   "id": "e10",
+   "tipo": "corregir",
+   "enunciado": "Corrigez l'erreur d'accord.",
+   "frase": "Ma sœur est né à Séville.",
+   "respuestas": [
+    "Ma sœur est née à Séville."
+   ],
+   "explicacion": "Naître se conjugue avec être : le participe s'accorde donc avec le sujet, comme l'indique la première ligne du tableau. Ma sœur est féminin singulier : né devient donc née. C'est le même cas que l'erreur typique elle est allé.",
+   "explicacion_breve": "Naître se conjugue avec être : accord avec le sujet féminin.",
+   "traduccion": "Mi hermana nació en Sevilla.",
+   "errores_previstos": [
+    {
+     "respuesta": "Ma sœur est né à Séville.",
+     "explicacion": "C'est la phrase non corrigée : avec être, le participe s'accorde avec le sujet féminin."
+    },
+    {
+     "respuesta": "Ma sœur a née à Séville.",
+     "explicacion": "Naître ne se conjugue pas avec avoir mais avec être."
+    },
+    {
+     "respuesta": "Ma sœur est nés à Séville.",
+     "explicacion": "Le sujet est féminin singulier : née."
+    }
+   ]
+  },
+  {
+   "id": "e11",
+   "tipo": "corregir",
+   "enunciado": "Corrigez l'erreur d'accord.",
+   "frase": "Les présidents se sont succédés à un rythme rapide.",
+   "respuestas": [
+    "Les présidents se sont succédé à un rythme rapide."
+   ],
+   "explicacion": "La liste de la fiche range se succéder parmi les verbes dont le se est complément d'objet indirect (succéder à quelqu'un). Le participe est donc invariable, même si l'auxiliaire est être et le sujet pluriel : ils se sont succédé. C'est une erreur très fréquente, même chez les francophones natifs.",
+   "explicacion_breve": "Succéder à quelqu'un : se est COI, le participe est invariable.",
+   "traduccion": "Los presidentes se sucedieron a un ritmo rápido.",
+   "errores_previstos": [
+    {
+     "respuesta": "Les présidents se sont succédés à un rythme rapide.",
+     "explicacion": "C'est la phrase non corrigée : succéder se construit avec à, donc se est indirect et il n'y a pas d'accord."
+    },
+    {
+     "respuesta": "Les présidents ont succédé à un rythme rapide.",
+     "explicacion": "En supprimant se, on perd le sens réciproque ; le verbe est pronominal et se conjugue avec être."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "se succéder",
+     "significado": "sucederse"
+    }
+   ]
+  },
+  {
+   "id": "e12",
+   "tipo": "transformar",
+   "enunciado": "Remplacez le COD par un pronom et faites l'accord.",
+   "frase": "J'ai rangé les assiettes.",
+   "respuestas": [
+    "Je les ai rangées."
+   ],
+   "explicacion": "Les assiettes est un complément d'objet direct féminin pluriel ; quand on le remplace par les, le pronom se place avant l'auxiliaire et entraîne l'accord, comme l'indique la troisième ligne du tableau. Rangé devient rangées. Dans la phrase de départ, il n'y avait pas d'accord parce que le COD était placé après.",
+   "explicacion_breve": "Le pronom les (= les assiettes, féminin pluriel) se place avant l'auxiliaire.",
+   "traduccion": "Las he guardado.",
+   "errores_previstos": [
+    {
+     "respuesta": "Je les ai rangé.",
+     "explicacion": "Il manque l'accord : le COD les est placé avant l'auxiliaire et il est féminin pluriel."
+    },
+    {
+     "respuesta": "Je les ai rangés.",
+     "explicacion": "Assiettes est féminin : rangées."
+    },
+    {
+     "respuesta": "Je leur ai rangées.",
+     "explicacion": "Leur est complément d'objet indirect ; ranger les assiettes se construit avec un direct : les."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "ranger",
+     "significado": "ordenar, guardar en su sitio"
+    },
+    {
+     "palabra": "une assiette",
+     "significado": "un plato"
+    }
+   ]
+  },
+  {
+   "id": "e13",
+   "tipo": "transformar",
+   "enunciado": "Mettez la phrase au féminin singulier (sujet : Elle).",
+   "frase": "Il s'est trompé de route.",
+   "respuestas": [
+    "Elle s'est trompée de route."
+   ],
+   "explicacion": "Se tromper est un verbe pronominal qui se conjugue avec être, et ici le participe s'accorde avec le sujet, comme pour les verbes toujours pronominaux de la liste de la fiche. En passant de il à elle, trompé devient trompée. De route est un complément prépositionnel, pas un complément d'objet direct : il ne change donc pas la règle.",
+   "explicacion_breve": "« Se tromper » (« equivocarse ») est un verbe pronominal sans véritable COD : le participe s'accorde avec le sujet.",
+   "traduccion": "Se equivocó de camino.",
+   "errores_previstos": [
+    {
+     "respuesta": "Elle s'est trompé de route.",
+     "explicacion": "Le sujet a changé, mais pas l'accord : avec elle, trompée."
+    },
+    {
+     "respuesta": "Elle a trompée de route.",
+     "explicacion": "Se tromper est pronominal et se conjugue avec être ; il manque s'est."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "se tromper de",
+     "significado": "equivocarse de"
+    }
+   ]
+  },
+  {
+   "id": "e14",
+   "tipo": "ordenar",
+   "enunciado": "Remettez les mots dans l'ordre.",
+   "palabras": [
+    "que",
+    "j'ai",
+    "reçues",
+    "Les",
+    "lettres",
+    "sont",
+    "anciennes"
+   ],
+   "respuestas": [
+    "Les lettres que j'ai reçues sont anciennes"
+   ],
+   "explicacion": "La phrase contient une relative : les lettres que j'ai reçues. Que reprend les lettres, féminin pluriel, et se trouve avant ai reçu : c'est pourquoi le participe est reçues, comme l'indiquent déjà les mots donnés. La relative se place juste après le nom auquel elle se rapporte, puis vient le verbe principal sont anciennes.",
+   "explicacion_breve": "Que reprend les lettres et entraîne l'accord de reçues.",
+   "traduccion": "Las cartas que he recibido son antiguas.",
+   "errores_previstos": [
+    {
+     "respuesta": "Les lettres sont anciennes que j'ai reçues",
+     "explicacion": "La relative doit être collée à son antécédent les lettres, et non placée en fin de phrase."
+    },
+    {
+     "respuesta": "Que j'ai reçues les lettres sont anciennes",
+     "explicacion": "La relative ne peut pas précéder son antécédent ; l'ordre est antécédent + que + verbe."
+    }
+   ]
+  }
+ ],
+ "fuente": {
+  "nombre": "propia"
+ },
+ "descripcion_larga_es": "En français, le participe passé peut varier en genre et en nombre : parti, partie, partis, parties. Il s'accorde avec le sujet si l'auxiliaire est être, et avec le complément d'objet direct si l'auxiliaire est avoir et que ce complément est placé avant. C'est une règle que l'espagnol ne connaît pas, puisqu'avec « haber » le participe ne varie jamais : c'est pourquoi c'est une erreur constante et très pénalisée à l'écrit.",
+ "contexto": {
+  "que_es": "C'est l'ensemble des règles qui déterminent si le participe passé d'un temps composé prend les marques du féminin (-e) et du pluriel (-s). Avec être, il s'accorde avec le sujet ; avec avoir, avec le complément d'objet direct placé avant (pronom ou relatif que) ; dans les pronominaux, cela dépend de si se est complément d'objet direct ou indirect.",
+  "por_que_importa": "C'est l'un des points de l'orthographe grammaticale française les plus évalués à un examen écrit de niveau B2, et dans les participes terminés par une consonne (prise, faite, écrite, mise), l'absence d'accord s'entend aussi. Une erreur d'accord n'empêche pas de comprendre, mais donne une image de maîtrise insuffisante dans les textes formels.",
+  "cuando_se_usa": "Elle s'applique à chaque temps composé (passé composé, plus-que-parfait, futur antérieur, passif). Les signaux sont l'auxiliaire être, un pronom le, la, les ou un relatif que avant avoir, et les verbes avec se. L'hispanophone a tendance à laisser le participe toujours invariable, comme avec « haber » en espagnol, ou à accorder avec avoir même si le complément est placé après."
+ }
+}

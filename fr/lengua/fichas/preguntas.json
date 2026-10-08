@@ -1,0 +1,588 @@
+{
+ "id": "fr.g.preguntas",
+ "titulo": "Hacer preguntas",
+ "titulo_es": "Poser des questions (intonation, est-ce que, inversion)",
+ "descripcion_es": "Trois façons de poser une question en français et les mots interrogatifs de base.",
+ "nivel": "A1",
+ "resumen": "En français, on peut poser une question avec l'intonation, avec est-ce que ou en inversant le sujet et le verbe ; les trois ont le même sens, seul le registre change.",
+ "explicacion": [
+  {
+   "tipo": "texto",
+   "texto": "Il y a des questions fermées, auxquelles on répond par oui ou non (es : ¿Hablas francés?), et des questions ouvertes, qui portent sur une information et contiennent un mot interrogatif (es : ¿dónde?, ¿cuándo?, ¿cómo?). En espagnol, l'intonation suffit ; en français, c'est possible aussi dans la conversation, mais il existe deux autres formules plus soignées."
+  },
+  {
+   "tipo": "tabla",
+   "cabecera": [
+    "Formule",
+    "Exemple",
+    "Registre"
+   ],
+   "filas": [
+    [
+     "Intonation montante (ordre normal)",
+     "Vous parlez français ?",
+     "Oral, familier"
+    ],
+    [
+     "Est-ce que (qu' devant voyelle) + phrase",
+     "Est-ce que vous parlez français ?",
+     "Neutre, toujours valable"
+    ],
+    [
+     "Inversion verbe-sujet avec trait d'union",
+     "Parlez-vous français ?",
+     "Écrit, soutenu"
+    ],
+    [
+     "Phrase + n'est-ce pas ?",
+     "Vous parlez français, n'est-ce pas ?",
+     "On attend un « oui » (es : ¿verdad?)"
+    ]
+   ]
+  },
+  {
+   "tipo": "lista",
+   "items": [
+    "Inversion : le pronom sujet se place après le verbe, relié par un trait d'union : As-tu faim ? Connaissez-vous Paris ?",
+    "Si le verbe se termine par une voyelle devant il, elle, on, on intercale -t- : Aime-t-il le sport ? Va-t-elle venir ? A-t-on le temps ?",
+    "Avec un nom sujet, on garde le nom et on ajoute le pronom : Tom aime-t-il le café ? Ce cours est-il difficile ?",
+    "Aux temps composés, on inverse l'auxiliaire : As-tu fini ? Où est-il né ?",
+    "À la forme négative, ne se place devant le verbe et pas après le pronom : Pourquoi n'as-tu pas réussi ?",
+    "C'est et il y a s'inversent ainsi : Est-ce possible ? Y a-t-il un problème ?"
+   ]
+  },
+  {
+   "tipo": "tabla",
+   "cabecera": [
+    "Mot",
+    "Sens",
+    "Exemple"
+   ],
+   "filas": [
+    [
+     "où",
+     "le lieu (es : dónde)",
+     "Où habites-tu ?"
+    ],
+    [
+     "quand",
+     "le moment (es : cuándo)",
+     "Quand est-ce que le film commence ?"
+    ],
+    [
+     "comment",
+     "la manière (es : cómo)",
+     "Comment allez-vous ?"
+    ],
+    [
+     "pourquoi",
+     "la cause (es : por qué)",
+     "Pourquoi est-ce que tu pleures ?"
+    ],
+    [
+     "combien / combien de",
+     "la quantité (es : cuánto / cuántos)",
+     "Combien de frères as-tu ?"
+    ],
+    [
+     "qui",
+     "la personne (es : quién)",
+     "Qui est là ?"
+    ]
+   ]
+  },
+  {
+   "tipo": "texto",
+   "texto": "Le mot interrogatif se place devant est-ce que (Où est-ce que tu vas ?) ou devant le verbe inversé (Où vas-tu ?). Pour répondre « oui » à une question négative, on dit si, et non oui : Tu ne viens pas ? — Si, je viens !"
+  }
+ ],
+ "ejemplos": [
+  {
+   "frase": "Est-ce que tu aimes les films ?",
+   "traduccion": "¿Te gustan las películas?"
+  },
+  {
+   "frase": "Connaissez-vous de bons cours ?",
+   "traduccion": "¿Conocéis algún curso bueno?"
+  },
+  {
+   "frase": "Joe-Bob aime-t-il les maths ?",
+   "traduccion": "¿A Joe-Bob le gustan las matemáticas?"
+  },
+  {
+   "frase": "Quand a-t-il rencontré Tammy ?",
+   "traduccion": "¿Cuándo conoció a Tammy?"
+  },
+  {
+   "frase": "Tu connais Sartre, n'est-ce pas ?",
+   "traduccion": "Conoces a Sartre, ¿verdad?"
+  },
+  {
+   "frase": "Pourquoi porte-t-il toujours un béret ?",
+   "traduccion": "¿Por qué lleva siempre boina?"
+  }
+ ],
+ "errores_hispanohablantes": [
+  {
+   "mal": "Que tu veux ?",
+   "bien": "Qu'est-ce que tu veux ?",
+   "nota": "En espagnol, « ¿Qué quieres? » suffit, mais en français que demande est-ce que ou l'inversion (Que veux-tu ?)."
+  },
+  {
+   "mal": "Parle il français ?",
+   "bien": "Parle-t-il français ?",
+   "nota": "Dans l'inversion, il y a un trait d'union, et entre deux voyelles on ajoute -t-."
+  },
+  {
+   "mal": "— Tu n'as pas faim ? — Oui, j'ai faim.",
+   "bien": "— Tu n'as pas faim ? — Si, j'ai faim.",
+   "nota": "Pour contredire une question négative, on répond si."
+  },
+  {
+   "mal": "Combien des livres as-tu ?",
+   "bien": "Combien de livres as-tu ?",
+   "nota": "Combien de s'emploie sans article, comme « cuántos libros »."
+  }
+ ],
+ "ejercicios": [
+  {
+   "id": "e01",
+   "tipo": "eleccion",
+   "enunciado": "Choisissez le mot interrogatif (es : ¿Quién inventó eso?).",
+   "frase": "___ a inventé ça ?",
+   "opciones": [
+    "Qui",
+    "Que",
+    "Où"
+   ],
+   "respuestas": [
+    "Qui"
+   ],
+   "explicacion": "On demande quelle personne fait l'action, c'est-à-dire le sujet du verbe inventer. Le tableau des mots interrogatifs de la fiche donne qui pour la personne (es : quién). Comme qui est sujet, le verbe le suit directement, sans inversion ni est-ce que : qui a inventé ça ?",
+   "origen": "tatoeba:2354742",
+   "explicacion_breve": "Pour poser une question sur une personne sujet, on emploie qui.",
+   "traduccion": "¿Quién ha inventado eso?",
+   "por_opcion": {
+    "Qui": "Correct : qui pose une question sur une personne, ici le sujet de a inventé.",
+    "Que": "Incorrect : que pose une question sur une chose et ne peut pas être sujet ainsi ; de plus, il exige l'inversion ou est-ce que.",
+    "Où": "Incorrect : où pose une question sur un lieu (es : dónde), pas sur une personne."
+   }
+  },
+  {
+   "id": "e02",
+   "tipo": "hueco",
+   "enunciado": "Complétez la question (es : ¿Quién está ahí?).",
+   "frase": "___ est là ?",
+   "respuestas": [
+    "Qui",
+    "Qui est-ce qui"
+   ],
+   "explicacion": "On pose une question sur une personne sujet du verbe être, donc, d'après le tableau, qui : qui est là ? La forme renforcée qui est-ce qui est aussi acceptée : elle porte également sur une personne sujet et elle est plus propre au registre oral. Là signifie « ahí » ou « allí ».",
+   "origen": "tatoeba:1158571",
+   "explicacion_breve": "Qui pose une question sur des personnes (es : ¿quién?).",
+   "traduccion": "¿Quién está ahí?",
+   "errores_previstos": [
+    {
+     "respuesta": "Que",
+     "explicacion": "Que pose une question sur des choses, pas sur des personnes : qui."
+    },
+    {
+     "respuesta": "Qui est-ce que",
+     "explicacion": "Qui est-ce que porte sur une personne complément ; pour le sujet, on emploie qui est-ce qui."
+    },
+    {
+     "respuesta": "Quoi",
+     "explicacion": "Quoi pose une question sur des choses (es : « qué »). Pour une personne, on emploie qui."
+    }
+   ]
+  },
+  {
+   "id": "e03",
+   "tipo": "transformar",
+   "enunciado": "Réécrivez la question avec est-ce que.",
+   "frase": "Où as-tu appris ça ?",
+   "respuestas": [
+    "Où est-ce que tu as appris ça ?"
+   ],
+   "explicacion": "La fiche explique que le mot interrogatif se place devant est-ce que et qu'ensuite on retrouve l'ordre normal sujet + verbe. En supprimant l'inversion as-tu, le pronom tu revient devant l'auxiliaire : où est-ce que tu as appris ça ? Le trait d'union disparaît, car il n'y a plus d'inversion.",
+   "origen": "tatoeba:1724295",
+   "explicacion_breve": "Le mot interrogatif se place devant est-ce que, puis vient l'ordre normal sujet + verbe.",
+   "traduccion": "¿Dónde has aprendido eso?",
+   "errores_previstos": [
+    {
+     "respuesta": "Où est-ce que as-tu appris ça ?",
+     "explicacion": "Est-ce que ne se combine pas avec l'inversion : après est-ce que, on a l'ordre normal, tu as appris."
+    },
+    {
+     "respuesta": "Est-ce que où tu as appris ça ?",
+     "explicacion": "Le mot interrogatif se place devant est-ce que : où est-ce que."
+    },
+    {
+     "respuesta": "Où est-ce qu'tu as appris ça ?",
+     "explicacion": "Que ne s'élide que devant une voyelle ; devant tu, il s'écrit en entier : est-ce que tu."
+    }
+   ]
+  },
+  {
+   "id": "e04",
+   "tipo": "transformar",
+   "enunciado": "Réécrivez la question avec est-ce que.",
+   "frase": "Où êtes-vous nées ?",
+   "respuestas": [
+    "Où est-ce que vous êtes nées ?"
+   ],
+   "explicacion": "Avec est-ce que, on défait l'inversion : où est-ce que + sujet + verbe. Le pronom vous revient devant l'auxiliaire : vous êtes nées. Le participe garde l'accord au féminin pluriel de la phrase d'origine, car naître se conjugue avec être.",
+   "origen": "tatoeba:1619332",
+   "explicacion_breve": "Avec est-ce que, on défait l'inversion : vous êtes nées.",
+   "traduccion": "¿Dónde nacisteis (vosotras)? / ¿Dónde nacieron ustedes?",
+   "errores_previstos": [
+    {
+     "respuesta": "Où est-ce que êtes-vous nées ?",
+     "explicacion": "Après est-ce que, on ne garde pas l'inversion : vous êtes nées."
+    },
+    {
+     "respuesta": "Où est-ce que vous êtes né ?",
+     "explicacion": "L'accord de la phrase d'origine a été perdu : nées, féminin pluriel."
+    },
+    {
+     "respuesta": "Où est-ce que vous avez nées ?",
+     "explicacion": "Naître se conjugue avec être : vous êtes nées."
+    }
+   ]
+  },
+  {
+   "id": "e05",
+   "tipo": "corregir",
+   "enunciado": "Corrigez l'erreur.",
+   "frase": "Où est-ce que il est né ?",
+   "respuestas": [
+    "Où est-ce qu'il est né ?"
+   ],
+   "explicacion": "Le tableau des formules de la fiche indique que est-ce que devient est-ce qu' devant une voyelle. Il commence par une voyelle, il faut donc élider : où est-ce qu'il est né ? C'est la même élision que je → j' ou que → qu' dans n'importe quelle autre position.",
+   "origen": "tatoeba:399879",
+   "explicacion_breve": "Que s'élide devant une voyelle : est-ce qu'il.",
+   "traduccion": "¿Dónde nació?",
+   "errores_previstos": [
+    {
+     "respuesta": "Où est-ce que il est né ?",
+     "explicacion": "C'est la phrase non corrigée : devant la voyelle de il, que s'élide : qu'il."
+    },
+    {
+     "respuesta": "Où est-ce qu'il est-il né ?",
+     "explicacion": "Est-ce que ne se combine pas avec l'inversion : où est-ce qu'il est né."
+    },
+    {
+     "respuesta": "Où est-ce qu il est né ?",
+     "explicacion": "Il manque l'apostrophe : qu'il."
+    }
+   ]
+  },
+  {
+   "id": "e06",
+   "tipo": "corregir",
+   "enunciado": "Corrigez l'erreur.",
+   "frase": "Parle-il français ?",
+   "respuestas": [
+    "Parle-t-il français ?"
+   ],
+   "explicacion": "La fiche indique que, dans l'inversion, si le verbe se termine par une voyelle devant il, elle ou on, on intercale -t- pour éviter la rencontre de deux voyelles : parle-t-il. Le t se place entre deux traits d'union. C'est un t purement phonétique, sans sens, qu'on retrouve aussi dans a-t-il ou va-t-elle.",
+   "explicacion_breve": "Si le verbe se termine par une voyelle devant il ou elle, on intercale -t-.",
+   "traduccion": "¿Habla (él) francés?",
+   "errores_previstos": [
+    {
+     "respuesta": "Parle-il français ?",
+     "explicacion": "C'est la phrase non corrigée : entre la voyelle finale de parle et il, on intercale -t-."
+    },
+    {
+     "respuesta": "Parle-t'il français ?",
+     "explicacion": "Le t n'est pas une élision : il se place entre deux traits d'union, -t-, pas avec une apostrophe."
+    },
+    {
+     "respuesta": "Parle il français ?",
+     "explicacion": "Dans l'inversion, le verbe et le pronom sont reliés par un trait d'union, et il faut en plus ici -t-."
+    }
+   ]
+  },
+  {
+   "id": "e07",
+   "tipo": "ordenar",
+   "enunciado": "Remettez les mots dans l'ordre pour demander où habite John.",
+   "palabras": [
+    "John",
+    "habite",
+    "Où"
+   ],
+   "respuestas": [
+    "Où habite John",
+    "John habite où"
+   ],
+   "explicacion": "Avec où et un nom sujet court, le français admet de placer le nom après le verbe sans ajouter de pronom : où habite John ? La question par intonation avec l'interrogatif à la fin, John habite où ?, très courante à l'oral, est aussi acceptée. Ce qui n'est pas nécessaire ici, c'est le pronom il de l'inversion complexe.",
+   "origen": "tatoeba:399226",
+   "explicacion_breve": "Après où, un nom sujet peut se placer après le verbe sans pronom ajouté.",
+   "traduccion": "¿Dónde vive John?",
+   "errores_previstos": [
+    {
+     "respuesta": "Où John habite",
+     "explicacion": "Ainsi, sans est-ce que ni inversion, c'est un calque de l'ordre espagnol. La forme correcte est où habite John ou John habite où."
+    },
+    {
+     "respuesta": "Habite où John",
+     "explicacion": "Le mot interrogatif se place au début (ou à la fin à l'oral), pas entre le verbe et le sujet."
+    },
+    {
+     "respuesta": "John où habite",
+     "explicacion": "Où ne peut pas se placer entre le sujet et le verbe : où habite John ou John habite où."
+    }
+   ]
+  },
+  {
+   "id": "e08",
+   "tipo": "ordenar",
+   "enunciado": "Remettez les mots dans l'ordre (es : ¿Dónde la viste?).",
+   "palabras": [
+    "vue",
+    "l'as-tu",
+    "Où"
+   ],
+   "respuestas": [
+    "Où l'as-tu vue"
+   ],
+   "explicacion": "Dans l'inversion avec un temps composé, la fiche explique qu'on inverse l'auxiliaire : as-tu. Le pronom complément l' (la) se place devant l'auxiliaire, et le participe après : l'as-tu vue. Le mot interrogatif où ouvre la question. Vue s'accorde avec l', féminin, car le complément d'objet direct est placé avant.",
+   "origen": "tatoeba:119962",
+   "explicacion_breve": "Dans l'inversion, le pronom complément se place devant l'auxiliaire et le sujet après : l'as-tu.",
+   "traduccion": "¿Dónde la viste?",
+   "errores_previstos": [
+    {
+     "respuesta": "Où vue l'as-tu",
+     "explicacion": "Le participe se place après l'auxiliaire inversé : où l'as-tu vue."
+    },
+    {
+     "respuesta": "L'as-tu où vue",
+     "explicacion": "Le mot interrogatif se place au début : où l'as-tu vue."
+    },
+    {
+     "respuesta": "Où l'as-tu vue l'",
+     "explicacion": "Le pronom n'apparaît qu'une fois, devant l'auxiliaire."
+    }
+   ]
+  },
+  {
+   "id": "e09",
+   "tipo": "eleccion",
+   "enunciado": "Choisissez la réponse qui convient.",
+   "frase": "— Tu ne viens pas ? — ___, je viens !",
+   "opciones": [
+    "Oui",
+    "Si",
+    "Non"
+   ],
+   "respuestas": [
+    "Si"
+   ],
+   "explicacion": "La fiche explique que, pour répondre « oui » à une question négative en la contredisant, on emploie si et non oui. La question tu ne viens pas ? est négative, et la réponse je viens est affirmative, donc si. Oui ne répond qu'aux questions affirmatives.",
+   "explicacion_breve": "Pour répondre affirmativement à une question négative, on emploie si.",
+   "traduccion": "¿No vienes? —¡Sí, sí que voy!",
+   "por_opcion": {
+    "Oui": "Incorrect : oui répond aux questions affirmatives ; face à une question négative, pour dire oui, on emploie si.",
+    "Si": "Correct : si contredit une question négative et affirme (es : sí que vengo).",
+    "Non": "Incorrect : non confirmerait qu'il ne vient pas, ce qui contredit je viens."
+   }
+  },
+  {
+   "id": "e10",
+   "tipo": "hueco",
+   "enunciado": "Complétez avec est-ce que sous la forme qui convient.",
+   "frase": "___ elle travaille aujourd'hui ?",
+   "respuestas": [
+    "Est-ce qu'"
+   ],
+   "explicacion": "Le tableau des formules indique que est-ce que devient est-ce qu' devant une voyelle. Elle commence par une voyelle, le blanc est donc est-ce qu', avec apostrophe et la majuscule du début de phrase. Ensuite, on garde l'ordre normal : elle travaille.",
+   "explicacion_breve": "Devant une voyelle (elle), que s'élide : est-ce qu'elle.",
+   "traduccion": "¿Trabaja (ella) hoy?",
+   "errores_previstos": [
+    {
+     "respuesta": "Est-ce que",
+     "explicacion": "Devant la voyelle de elle, que s'élide : est-ce qu'elle."
+    },
+    {
+     "respuesta": "Est-ce",
+     "explicacion": "Il manque que : la formule complète est est-ce que, ici est-ce qu'."
+    },
+    {
+     "respuesta": "Es-ce qu'",
+     "explicacion": "La forme est est-ce, avec un t : est-ce qu'."
+    }
+   ]
+  },
+  {
+   "id": "e11",
+   "tipo": "transformar",
+   "enunciado": "Réécrivez la question avec l'inversion.",
+   "frase": "Comment tu fais ça ?",
+   "respuestas": [
+    "Comment fais-tu ça ?"
+   ],
+   "explicacion": "Pour l'inversion, la fiche indique que le pronom sujet passe après le verbe, relié par un trait d'union : fais-tu. Le mot interrogatif comment reste au début : comment fais-tu ça ? Fais se termine par une consonne écrite, il n'y a donc pas besoin de -t-.",
+   "origen": "tatoeba:7701624",
+   "explicacion_breve": "Dans l'inversion, le pronom sujet passe après le verbe avec un trait d'union.",
+   "traduccion": "¿Cómo haces eso?",
+   "errores_previstos": [
+    {
+     "respuesta": "Comment fais tu ça ?",
+     "explicacion": "Il manque le trait d'union obligatoire de l'inversion : fais-tu."
+    },
+    {
+     "respuesta": "Comment fais-t-tu ça ?",
+     "explicacion": "Le -t- ne s'intercale que devant il, elle, on quand le verbe se termine par une voyelle ; jamais avec tu."
+    },
+    {
+     "respuesta": "Comment tu-fais ça ?",
+     "explicacion": "Dans l'inversion, le verbe vient en premier et le pronom après : fais-tu."
+    }
+   ]
+  },
+  {
+   "id": "e12",
+   "tipo": "transformar",
+   "enunciado": "Réécrivez la question avec est-ce que.",
+   "frase": "Où peut-on signer ?",
+   "respuestas": [
+    "Où est-ce qu'on peut signer ?",
+    "Où est-ce que l'on peut signer ?"
+   ],
+   "explicacion": "En passant à est-ce que, on défait l'inversion peut-on et on retrouve l'ordre sujet + verbe : on peut. Comme on commence par une voyelle, que s'élide : où est-ce qu'on peut signer ? Est-ce que l'on est aussi accepté, avec le l' euphonique propre au registre soigné, qui évite l'élision.",
+   "origen": "tatoeba:1868994",
+   "explicacion_breve": "Est-ce que + on s'élide (est-ce qu'on) et on retrouve l'ordre sujet + verbe.",
+   "traduccion": "¿Dónde se puede firmar?",
+   "errores_previstos": [
+    {
+     "respuesta": "Où est-ce que on peut signer ?",
+     "explicacion": "Devant la voyelle de on, que s'élide : qu'on (ou bien on emploie l'on)."
+    },
+    {
+     "respuesta": "Où est-ce qu'on peut-on signer ?",
+     "explicacion": "Est-ce que ne se combine pas avec l'inversion : qu'on peut signer."
+    },
+    {
+     "respuesta": "Où est-ce qu'on peux signer ?",
+     "explicacion": "Avec on, le verbe est à la troisième personne : peut."
+    }
+   ]
+  },
+  {
+   "id": "e13",
+   "tipo": "hueco",
+   "enunciado": "Complétez avec le mot interrogatif (la réponse est « À neuf heures »).",
+   "frase": "___ est-ce que le film commence ? — À neuf heures.",
+   "respuestas": [
+    "Quand"
+   ],
+   "explicacion": "La réponse indique un moment (à neuf heures), on pose donc la question avec quand (es : cuándo), du tableau des mots interrogatifs. Comme l'indique la fiche, le mot interrogatif se place devant est-ce que : quand est-ce que le film commence ?",
+   "explicacion_breve": "On pose une question sur le moment : quand.",
+   "traduccion": "¿Cuándo empieza la película? —A las nueve.",
+   "errores_previstos": [
+    {
+     "respuesta": "Comment",
+     "explicacion": "Comment porte sur la manière (es : cómo) ; pour l'heure, on emploie quand."
+    },
+    {
+     "respuesta": "Quant",
+     "explicacion": "Quant (dans quant à, es : en cuanto a) est un autre mot. L'interrogatif de temps est quand, avec un d."
+    },
+    {
+     "respuesta": "Où",
+     "explicacion": "Où porte sur le lieu ; la réponse est une heure : quand."
+    }
+   ]
+  },
+  {
+   "id": "e14",
+   "tipo": "eleccion",
+   "enunciado": "Choisissez le mot interrogatif (la réponse est « Quinze euros »).",
+   "frase": "___ coûte ce livre ? — Quinze euros.",
+   "opciones": [
+    "Combien",
+    "Comment",
+    "Quand"
+   ],
+   "respuestas": [
+    "Combien"
+   ],
+   "explicacion": "La réponse est un prix, une quantité, et le tableau de la fiche donne combien pour la quantité (es : cuánto). Suivi d'un nom, ce serait combien de (combien de livres), mais ici combien accompagne directement le verbe coûter. Combien coûte… ? est la formule standard pour demander un prix.",
+   "explicacion_breve": "Pour demander un prix ou une quantité, on emploie combien.",
+   "traduccion": "¿Cuánto cuesta este libro? —Quince euros.",
+   "por_opcion": {
+    "Combien": "Correct : combien porte sur une quantité, ici un prix.",
+    "Comment": "Incorrect : comment porte sur la manière (es : cómo) ; il ressemble à combien, mais ne demande pas une quantité.",
+    "Quand": "Incorrect : quand porte sur le moment (es : cuándo), pas sur le prix."
+   }
+  },
+  {
+   "id": "e15",
+   "tipo": "hueco",
+   "enunciado": "Ajoutez la formule finale qui demande une confirmation (es : ¿verdad?).",
+   "frase": "Tu es d'accord, ___ ?",
+   "respuestas": [
+    "n'est-ce pas"
+   ],
+   "explicacion": "Le tableau des formules comprend phrase + n'est-ce pas, qui équivaut à « ¿verdad? » ou « ¿no? » et attend une confirmation. Elle s'écrit avec n' élidé, est-ce avec un trait d'union et pas séparé : n'est-ce pas. Elle est invariable, quels que soient le sujet ou le temps de la phrase.",
+   "explicacion_breve": "N'est-ce pas à la fin équivaut à « ¿verdad? » et attend un oui.",
+   "traduccion": "Estás de acuerdo, ¿verdad?",
+   "errores_previstos": [
+    {
+     "respuesta": "n'est ce pas",
+     "explicacion": "Il manque le trait d'union entre est et ce : n'est-ce pas."
+    },
+    {
+     "respuesta": "ne est-ce pas",
+     "explicacion": "Ne s'élide devant la voyelle de est : n'est-ce pas."
+    },
+    {
+     "respuesta": "est-ce que",
+     "explicacion": "Est-ce que se place au début pour formuler la question ; la formule finale est n'est-ce pas."
+    }
+   ]
+  },
+  {
+   "id": "e16",
+   "tipo": "transformar",
+   "enunciado": "Réécrivez la question avec l'inversion.",
+   "frase": "Tom aime le café ?",
+   "respuestas": [
+    "Tom aime-t-il le café ?"
+   ],
+   "explicacion": "La fiche explique qu'avec un nom sujet, on n'inverse pas le nom : on le garde devant et on ajoute le pronom correspondant après le verbe. Tom → il, donc Tom aime-il… et, comme aime se termine par une voyelle, on intercale -t- : Tom aime-t-il le café ?",
+   "explicacion_breve": "Avec un nom sujet, on garde le nom et on ajoute le pronom inversé ; entre deux voyelles, -t-.",
+   "traduccion": "¿A Tom le gusta el café?",
+   "errores_previstos": [
+    {
+     "respuesta": "Aime-t-il Tom le café ?",
+     "explicacion": "Le nom sujet reste devant le verbe : Tom aime-t-il."
+    },
+    {
+     "respuesta": "Aime Tom le café ?",
+     "explicacion": "Dans une question fermée (oui ou non), le nom ne s'inverse pas ; on ajoute le pronom : Tom aime-t-il."
+    },
+    {
+     "respuesta": "Tom aime-il le café ?",
+     "explicacion": "Entre la voyelle finale de aime et il, on intercale -t- : aime-t-il."
+    }
+   ]
+  }
+ ],
+ "fuente": {
+  "nombre": "Tex's French Grammar",
+  "autores": "COERLL, Universidad de Texas en Austin",
+  "licencia": "CC BY 3.0",
+  "url": "https://laits.utexas.edu/tex/gr/int1.html",
+  "otras": [
+   "Phrases de Tatoeba (CC BY 2.0 FR)"
+  ]
+ },
+ "descripcion_larga_es": "Cette fiche présente les trois façons de poser une question en français : avec l'intonation (Tu viens ?), avec est-ce que (Est-ce que tu viens ?) et avec l'inversion (Viens-tu ?), ainsi que les mots interrogatifs de base. Les trois ont le même sens ; c'est le registre qui change. C'est difficile pour l'hispanophone, car en espagnol l'intonation suffit, et l'inversion a ses propres détails : trait d'union, -t- entre deux voyelles et pronom ajouté après un nom.",
+ "contexto": {
+  "que_es": "Ce sont les structures qui servent à formuler des questions totales (réponse oui ou non) et partielles (avec un mot interrogatif comme où, quand, comment). Le français dispose de trois formules de même sens : l'intonation montante avec l'ordre normal, la locution est-ce que devant la phrase et l'inversion du verbe et du pronom sujet reliés par un trait d'union.",
+  "por_que_importa": "Poser des questions est essentiel dans toute conversation, et à un examen oral il faut savoir le faire dans le registre qui convient : l'inversion donne un ton soigné, alors que l'intonation seule peut paraître trop familière devant un jury. Les erreurs de forme (parle-il, est-ce que il, que tu veux) trahissent un niveau faible. Il importe aussi de bien répondre à une question négative avec si.",
+  "cuando_se_usa": "L'intonation, dans la conversation de tous les jours ; est-ce que, dans n'importe quelle situation, car il est neutre ; l'inversion, à l'écrit et dans les registres soutenus (entretiens, lettres, examen). Le mot interrogatif se place devant est-ce que ou devant le verbe inversé. L'hispanophone a tendance à calquer l'espagnol (« Que tu veux ? ») ou à oublier le trait d'union et le -t- ; mieux vaut choisir une formule et la construire jusqu'au bout."
+ }
+}

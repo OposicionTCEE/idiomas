@@ -1,0 +1,582 @@
+{
+ "id": "fr.t.fr-intelligence-artificielle",
+ "lengua": "fr",
+ "titulo": "Intelligence artificielle",
+ "tipo": "enciclopedia",
+ "fuente": {
+  "nombre": "Wikipédia (francés)",
+  "url": "https://fr.wikipedia.org/wiki/Intelligence_artificielle",
+  "licencia": "CC BY-SA 4.0",
+  "autor": "Colaboradores de Wikipédia (francés)",
+  "fecha": "",
+  "revision": 239652603,
+  "nota": "Texte découpé par paragraphes ; aucune modification dans les phrases."
+ },
+ "audio": null,
+ "palabras": 1694,
+ "nivel_lexico": {
+  "nivel": "C1",
+  "cobertura": {
+   "A1": 0.58,
+   "A2": 0.745,
+   "B1": 0.844,
+   "B2": 0.878,
+   "C1": 0.899,
+   "C2": 1.0
+  },
+  "frase_media": 23.9
+ },
+ "parrafos": [
+  "L'intelligence artificielle (IA) est l'ensemble des systèmes informatiques capables d'effectuer des tâches typiquement associées à l'intelligence, telles que l'apprentissage, le raisonnement, la résolution de problèmes, la perception ou la prise de décision. L'intelligence artificielle est également le champ de recherche visant à développer de tels systèmes.",
+  "L'IA est un domaine de l'informatique qui s'appuie sur des fondements mathématiques (statistiques, algèbre linéaire, probabilités) et des concepts issus des sciences cognitives. Elle vise à résoudre des problèmes à forte complexité logique ou algorithmique. Par extension, dans le langage courant, l'IA inclut les dispositifs imitant, simulant ou remplaçant l'homme dans certaines mises en œuvre de ses fonctions cognitives.",
+  "Les applications de l'IA couvrent de nombreux domaines, notamment les moteurs de recherche, les systèmes de recommandation, l'aide au diagnostic médical, la compréhension du langage naturel, les voitures autonomes, les chatbots, les outils de génération d'images, les outils de prise de décision automatisée, les programmes compétitifs dans des jeux de stratégie et certains personnages non-joueurs de jeu vidéo.",
+  "Le champ de recherche, établi en 1956, a connu des périodes d'optimisme et de déception au cours du XXe siècle. Dès 2012, l'utilisation de processeurs graphiques a permis de largement accélérer les réseaux de neurones artificiels, favorisant l'adoption de l'apprentissage automatique au détriment d’approches reposant sur des règles explicitement programmées. Cette tendance s'est renforcée en 2017 avec l'apparition de l'architecture transformeur et des grands modèles de langage, qui sont entraînés sur de grandes quantités de texte issu d'internet. En 2022, l'IA générative a été largement popularisée avec la sortie de ChatGPT. Des modèles de génération de musique, d'images ou de vidéos ont également vu le jour.",
+  "L'IA suscite des inquiétudes concernant l'emploi, la désinformation, son impact environnemental et la protection des données personnelles. Certains estiment que les progrès en intelligence artificielle pourraient représenter un risque existentiel.",
+  "L’expression « intelligence artificielle », souvent abrégée par le sigle « IA » (ou « AI » en anglais, pour artificial intelligence) a été introduite en 1956 par John McCarthy, qui l’a définie en 2004 comme « la science et l'ingénierie de la fabrication de machines intelligentes, en particulier de programmes informatiques intelligents. Elle est liée à la tâche similaire qui consiste à utiliser des ordinateurs pour comprendre l'intelligence humaine, mais l'IA ne doit pas se limiter aux méthodes qui sont biologiquement observables ».",
+  "Pour Marvin Lee Minsky, l'un de ses créateurs, l'IA est « la construction de programmes informatiques qui s'adonnent à des tâches qui sont, pour l'instant, accomplies de façon plus satisfaisante par des êtres humains car elles demandent des processus mentaux de haut niveau tels que : l'apprentissage perceptuel, l'organisation de la mémoire et le raisonnement critique ». Cette définition combine l'aspect « artificiel » des ordinateurs et des processus informatiques, aux aspects « intelligents » d'imitation de comportements humains, notamment de raisonnement et d'apprentissage. Celui-ci est à l'œuvre dans les jeux, dans la pratique des mathématiques, dans la compréhension du langage naturel, dans la perception visuelle (interprétation des images et des scènes), auditive (compréhension du langage parlé) ou par d'autres capteurs, dans la commande d'un robot dans un milieu inconnu ou hostile.",
+  "les définitions qui insistent sur le fait que l'IA a pour but d'avoir toutes les apparences de l'intelligence (humaine ou rationnelle), et celles qui insistent sur le fait que le fonctionnement interne du système d'IA doit ressembler également à celui de l'être humain et être au moins aussi rationnel.",
+  "Le grand public confond souvent l'intelligence artificielle avec l'apprentissage automatique (machine learning) et l'apprentissage profond (deep learning). Ces trois notions diffèrent et sont en réalité imbriquées : l'intelligence artificielle englobe l'apprentissage automatique, qui lui-même englobe l'apprentissage profond.",
+  "Le groupe AI Watch note que les IA peuvent aussi être classées en fonction des familles d’algorithmes et/ou des modèles théoriques qui les sous-tendent, des capacités cognitives reproduites par l’IA, des fonctions exécutées par l’IA. Les applications de l’IA peuvent, elles, être classées en fonction du secteur socioéconomique et/ou des fonctions qu'elles y remplissent.",
+  "La compréhension du langage : l'IA analyse et génère du langage à travers le NLP, utilisé dans des applications comme les assistants vocaux et les chatbots pour améliorer l'interaction utilisateur.",
+  "Un jeu de données annoté est utilisé pour entraîner l'algorithme. Il contient des données d'entrée fournies au modèle et les réponses correspondantes attendues, que le modèle est entraîné à produire. Il est parfois difficile de se procurer suffisamment de données annotées avec les réponses attendues.",
+  "Un jeu de données est fourni au modèle, mais n'est pas annoté avec les réponses attendues. Le but peut par exemple être de regrouper les données similaires entre elles (clustering).",
+  "Un problème d'apprentissage supervisé est automatiquement généré à partir d'un jeu de données non annoté. Cela fonctionne souvent en cachant une partie des informations (des mots d'un texte, des morceaux d'images…) afin d'entraîner le modèle à les prédire.",
+  "L'agent est plongé dans un environnement où ce qu'il fait est évalué. Par exemple, un agent peut apprendre à jouer aux échecs en jouant contre lui-même, et le résultat (victoire ou défaite) permet à chaque itération d'évaluer s'il a bien joué. Il n'y a dans ce cas pas besoin de jeu de données.",
+  "Les réseaux de neurones artificiels sont inspirés du fonctionnement du cerveau humain : les neurones sont en général connectés à d'autres neurones en entrée et en sortie. Les neurones d'entrée, lorsqu'ils sont activés, agissent comme s'ils participaient à un vote pondéré pour déterminer si un neurone intermédiaire doit être activé et ainsi transmettre un signal vers les neurones de sortie. En pratique, pour l'équivalent artificiel, les « neurones d'entrée » ne sont que des nombres et les poids de ce « vote pondéré » sont des paramètres ajustés lors de l'apprentissage.",
+  "Hormis la fonction d'activation, les réseaux de neurones artificiels n'effectuent en pratique que des additions et des multiplications matricielles, ce qui fait qu'ils peuvent être accélérés par l'utilisation de processeurs graphiques. En théorie, un réseau de neurones peut approximer n'importe quelle fonction.",
+  "Pour de simples réseaux de neurones à propagation avant (feedforward en anglais), le signal ne passe que dans une direction. Avec les réseaux de neurones récurrents, le signal de sortie de chaque neurone est réinjecté en entrée de ce neurone, permettant d’implémenter un mécanisme de mémoire à court terme. Les réseaux neuronaux convolutifs, qui sont particulièrement utilisés en traitement d'images, introduisent une notion de localité. Leurs premières couches identifient des motifs relativement basiques et locaux comme des contours, là où les dernières couches traitent de motifs plus complexes et globaux.",
+  "L'apprentissage profond (deep learning en anglais) utilise de multiples couches de neurones entre les entrées et les sorties, d'où le terme « profond ». L'utilisation de processeurs graphiques pour accélérer les calculs et l'augmentation des données disponibles a contribué à la montée en popularité de l'apprentissage profond. Il est utilisé notamment en vision par ordinateur, en reconnaissance automatique de la parole et en traitement automatique des langues (ce qui inclut les grands modèles de langage).",
+  "Les transformeurs génératifs préentraînés (Generative Pretrained Transformers ou GPT en anglais) sont un type particulièrement populaire de grand modèle de langage. Leur « pré-entraînement » consiste à prédire, étant donnée une partie d'un texte, le token suivant (un token étant une séquence de caractères, typiquement un mot, une partie d'un mot, ou de la ponctuation). Cet entraînement à prédire ce qui va suivre, répété pour un grand nombre de textes, permet à ces modèles d'accumuler des connaissances sur le monde. Ils peuvent ensuite générer du texte semblable à celui ayant servi au pré-entraînement, en prédisant un à un les tokens suivants. En général, une autre phase d'entraînement est ensuite effectuée pour rendre le modèle plus véridique, utile et inoffensif. Cette phase d'entraînement (utilisant souvent une technique appelée RLHF) permet notamment de réduire un phénomène appelé « hallucination », où le modèle génère des informations d'apparence plausible mais fausses.",
+  "Avant d'être fourni au modèle, le texte est découpé en tokens. Ceux-ci sont convertis en vecteurs qui en encodent le sens ainsi que la position dans le texte. À l'intérieur de ces modèles se trouve une alternance de réseaux de neurones et de couches d'attention. Les couches d'attention combinent les concepts entre eux, permettant de tenir compte du contexte et de saisir des relations complexes.",
+  "Ces modèles sont souvent intégrés dans des agents conversationnels, aussi appelés chatbots, où le texte généré est formaté pour répondre à l'utilisateur. Par exemple, l'agent conversationnel ChatGPT exploite les modèles GPT-3.5 et GPT-4. En 2023 apparaissent des modèles grand public pouvant traiter simultanément différents types de données comme le texte, le son, les images et les vidéos, tel Google Gemini.",
+  "La recherche locale, ou recherche par optimisation, repose sur l'optimisation mathématique pour trouver une solution numérique à un problème, en améliorant progressivement la solution choisie.",
+  "En particulier, en apprentissage automatique, la descente de gradient permet de trouver une solution localement optimale, étant donné une fonction de coût à minimiser en faisant varier les paramètres du modèle. Elle consiste, à chaque étape, à modifier les paramètres à optimiser dans la direction qui permet de réduire le mieux la fonction de coût. La solution obtenue est localement optimale, mais il se peut qu'il y ait globalement de meilleures solutions, qui auraient pu être obtenues avec différentes valeurs initiales de paramètres. Les modèles d'IA modernes peuvent avoir des milliards de paramètres à optimiser, et utilisent souvent des variantes plus complexes et efficaces de la descente de gradient.",
+  "Les algorithmes évolutionnistes, inspirés de la théorie de l'évolution, utilisent une forme de recherche par optimisation. À chaque étape, des opérations telles que la « mutation » ou le « croisement » sont effectuées de manière aléatoire pour obtenir différentes variantes, et les variantes les mieux adaptées sont sélectionnées pour l'étape suivante.",
+  "La recherche dans l'espace des états vise à trouver un état accomplissant l'objectif à travers un arbre des états possibles. Par exemple, la recherche antagoniste est utilisée pour des programmes jouant à des jeux tels que les échecs ou le go. Elle consiste à parcourir l'arbre des coups possibles par le joueur et son adversaire, à la recherche d'un coup gagnant. La simple recherche exhaustive est rarement suffisante en pratique vu le nombre d'états possibles. Des heuristiques sont utilisées pour prioriser les chemins les plus prometteurs."
+ ],
+ "secciones": [
+  "",
+  "",
+  "",
+  "",
+  "",
+  "Définition",
+  "Définition",
+  "Définition",
+  "Définition",
+  "Définition",
+  "Définition",
+  "Apprentissage automatique",
+  "Apprentissage automatique",
+  "Apprentissage automatique",
+  "Apprentissage automatique",
+  "Réseaux de neurones",
+  "Réseaux de neurones",
+  "Réseaux de neurones",
+  "Apprentissage profond",
+  "Grands modèles de langages",
+  "Grands modèles de langages",
+  "Grands modèles de langages",
+  "Recherche locale",
+  "Recherche locale",
+  "Recherche locale",
+  "Recherche dans l'espace des états"
+ ],
+ "titulo_es": "Intelligence artificielle",
+ "resumen_es": "Présentation encyclopédique de l'intelligence artificielle : définition, histoire depuis 1956, risques qu'elle pose et principales techniques (apprentissage automatique, réseaux de neurones, grands modèles de langage et méthodes de recherche).",
+ "campo": "sciences et technologies",
+ "palabras_clave": [
+  "intelligence artificielle",
+  "apprentissage automatique",
+  "apprentissage profond",
+  "réseaux de neurones",
+  "grands modèles de langage",
+  "IA générative",
+  "descente de gradient"
+ ],
+ "nivel": "C1",
+ "nivel_motivo": "",
+ "ideas_clave": [
+  {
+   "parrafos": [
+    0,
+    1
+   ],
+   "idea": "L'IA désigne à la fois des systèmes informatiques capables d'accomplir des tâches cognitives (apprendre, raisonner, décider) et la discipline qui les conçoit en s'appuyant sur les mathématiques et les sciences cognitives.",
+   "principal": true
+  },
+  {
+   "parrafos": [
+    2
+   ],
+   "idea": "Ses usages sont très variés : moteurs de recherche, recommandation, aide au diagnostic, véhicules autonomes, agents conversationnels ou jeux."
+  },
+  {
+   "parrafos": [
+    3
+   ],
+   "idea": "Née en 1956, la discipline a alterné espoirs et déceptions, puis les processeurs graphiques (2012), les transformeurs (2017) et ChatGPT (2022) ont imposé l'apprentissage automatique et l'IA générative.",
+   "principal": true
+  },
+  {
+   "parrafos": [
+    4
+   ],
+   "idea": "Son développement inquiète en matière d'emploi, de désinformation, d'environnement et de vie privée, certains y voyant même un danger pour l'humanité.",
+   "principal": true
+  },
+  {
+   "parrafos": [
+    5,
+    6,
+    7
+   ],
+   "idea": "Les définitions fondatrices de McCarthy et de Minsky en font la conception de programmes reproduisant des processus mentaux complexes, et l'on distingue les approches centrées sur l'apparence d'intelligence de celles centrées sur le fonctionnement interne."
+  },
+  {
+   "parrafos": [
+    8,
+    9,
+    10
+   ],
+   "idea": "IA, apprentissage automatique et apprentissage profond sont des notions emboîtées, et les systèmes peuvent être classés selon leurs algorithmes, leurs capacités cognitives ou leurs fonctions, comme le traitement du langage.",
+   "principal": true
+  },
+  {
+   "parrafos": [
+    11,
+    12,
+    13,
+    14
+   ],
+   "idea": "L'apprentissage automatique peut être supervisé (données annotées), non supervisé, auto-supervisé ou fondé sur le renforcement, l'agent apprenant alors de l'évaluation de ses actions.",
+   "principal": true
+  },
+  {
+   "parrafos": [
+    15,
+    16,
+    17
+   ],
+   "idea": "Inspirés du cerveau, les réseaux de neurones reposent sur des poids ajustés pendant l'entraînement et sur des calculs matriciels accélérables par processeurs graphiques, et se déclinent en plusieurs architectures."
+  },
+  {
+   "parrafos": [
+    18
+   ],
+   "idea": "L'apprentissage profond empile de nombreuses couches de neurones et s'est répandu grâce à la puissance de calcul et à l'abondance des données."
+  },
+  {
+   "parrafos": [
+    19,
+    20,
+    21
+   ],
+   "idea": "Les modèles de type GPT apprennent à prédire la suite d'un texte, sont ensuite affinés pour limiter les erreurs plausibles, combinent les concepts grâce à l'attention et alimentent des agents conversationnels désormais multimodaux.",
+   "principal": true
+  },
+  {
+   "parrafos": [
+    22,
+    23,
+    24
+   ],
+   "idea": "La recherche par optimisation améliore pas à pas une solution, par exemple par descente de gradient ou au moyen d'algorithmes évolutionnistes."
+  },
+  {
+   "parrafos": [
+    25
+   ],
+   "idea": "La recherche dans l'espace des états parcourt un arbre de possibilités, notamment dans les jeux, en s'aidant d'heuristiques pour limiter l'exploration."
+  }
+ ],
+ "resumen_modelo": "Le texte présente l'intelligence artificielle (IA), entendue à la fois comme l'ensemble des systèmes informatiques capables d'accomplir des tâches cognitives — apprendre, raisonner, décider — et comme la discipline qui les conçoit en mobilisant les mathématiques et les sciences cognitives. Ses applications sont désormais omniprésentes, des moteurs de recherche au diagnostic médical en passant par les véhicules autonomes et les agents conversationnels. Apparue en 1956, la discipline a traversé des cycles d'enthousiasme et de désillusion avant de connaître un essor décisif : à partir de 2012, les processeurs graphiques ont permis d'entraîner rapidement les réseaux de neurones, puis l'architecture transformeur a ouvert la voie, en 2017, aux grands modèles de langage, popularisés en 2022 par ChatGPT. Ces progrès suscitent toutefois des inquiétudes quant à l'emploi, à la désinformation, à l'environnement et à la vie privée, certains évoquant même un risque existentiel. Les pionniers McCarthy et Minsky la définissaient comme la conception de programmes reproduisant des processus mentaux complexes. Il convient par ailleurs de distinguer trois notions emboîtées : l'IA englobe l'apprentissage automatique, qui inclut lui-même l'apprentissage profond. Le premier peut être supervisé, non supervisé, auto-supervisé ou fondé sur le renforcement ; il repose largement sur des réseaux de neurones inspirés du cerveau, dont les paramètres sont ajustés au cours de l'entraînement et qui, empilés en de multiples couches, forment l'apprentissage profond. Quant aux modèles de type GPT, entraînés à prédire la suite d'un texte puis affinés pour limiter les « hallucinations », ils alimentent aujourd'hui les agents conversationnels. Enfin, l'IA recourt à des méthodes de recherche : l'optimisation progressive d'une solution, comme la descente de gradient ou les algorithmes évolutionnistes, et l'exploration d'arbres d'états guidée par des heuristiques, notamment dans des jeux comme les échecs.",
+ "preguntas": [
+  {
+   "id": "p01",
+   "tipo": "vf",
+   "parrafo": 0,
+   "enunciado": "Indiquez si l'affirmation est vraie, fausse ou non mentionnée dans le texte.",
+   "pregunta": "Selon le texte, l'expression « intelligence artificielle » désigne uniquement des systèmes informatiques.",
+   "respuestas": [
+    "F"
+   ],
+   "cita": "L'intelligence artificielle est également le champ de recherche visant à développer de tels systèmes.",
+   "explicacion": "C'est faux : le texte dit que l'IA est aussi le domaine de recherche qui développe ces systèmes. Elle a donc un double sens."
+  },
+  {
+   "id": "p02",
+   "tipo": "eleccion",
+   "parrafo": 3,
+   "enunciado": "Choisissez la bonne réponse.",
+   "pregunta": "Qu'est-ce qui a permis, à partir de 2012, d'accélérer fortement les réseaux de neurones artificiels ?",
+   "opciones": [
+    "L'architecture transformeur",
+    "L'utilisation de processeurs graphiques",
+    "La sortie de ChatGPT",
+    "Le recours à des règles explicitement programmées"
+   ],
+   "respuestas": [
+    "L'utilisation de processeurs graphiques"
+   ],
+   "cita": "Dès 2012, l'utilisation de processeurs graphiques a permis de largement accélérer les réseaux de neurones artificiels",
+   "explicacion": "Le texte attribue l'accélération de 2012 aux processeurs graphiques. Les transformeurs arrivent en 2017 et ChatGPT en 2022 ; les règles programmées sont justement l'approche qui perd du terrain."
+  },
+  {
+   "id": "p03",
+   "tipo": "eleccion",
+   "parrafo": 5,
+   "enunciado": "Choisissez la bonne réponse.",
+   "pregunta": "Qui a introduit l'expression « intelligence artificielle » ?",
+   "opciones": [
+    "Marvin Lee Minsky",
+    "Le groupe AI Watch",
+    "John McCarthy",
+    "Alan Turing"
+   ],
+   "respuestas": [
+    "John McCarthy"
+   ],
+   "cita": "a été introduite en 1956 par John McCarthy",
+   "explicacion": "Le paragraphe 5 attribue l'expression à John McCarthy en 1956. Minsky apparaît comme l'un des fondateurs, avec une autre définition, AI Watch propose une classification et Turing n'est pas mentionné."
+  },
+  {
+   "id": "p04",
+   "tipo": "vocabulario",
+   "parrafo": 8,
+   "enunciado": "Trouvez dans le paragraphe 8 un mot qui signifie « emboîtées les unes dans les autres » (es : encajadas unas dentro de otras).",
+   "pregunta": "Trouvez dans le paragraphe le mot qui signifie « emboîtées les unes dans les autres ».",
+   "respuestas": [
+    "imbriquées"
+   ],
+   "cita": "Ces trois notions diffèrent et sont en réalité imbriquées",
+   "explicacion": "« Imbriquées » décrit des notions incluses les unes dans les autres, comme l'explique ensuite la phrase sur l'IA, l'apprentissage automatique et l'apprentissage profond."
+  },
+  {
+   "id": "p05",
+   "tipo": "vf",
+   "parrafo": 8,
+   "enunciado": "Indiquez si l'affirmation est vraie, fausse ou non mentionnée dans le texte.",
+   "pregunta": "D'après le texte, l'apprentissage profond englobe l'apprentissage automatique.",
+   "respuestas": [
+    "F"
+   ],
+   "cita": "l'intelligence artificielle englobe l'apprentissage automatique, qui lui-même englobe l'apprentissage profond",
+   "explicacion": "C'est l'inverse : l'apprentissage automatique englobe l'apprentissage profond. L'affirmation inverse la relation d'inclusion."
+  },
+  {
+   "id": "p06",
+   "tipo": "vf",
+   "parrafo": 11,
+   "enunciado": "Indiquez si l'affirmation est vraie, fausse ou non mentionnée dans le texte.",
+   "pregunta": "Il n'est pas toujours facile d'obtenir assez de données annotées.",
+   "respuestas": [
+    "V"
+   ],
+   "cita": "Il est parfois difficile de se procurer suffisamment de données annotées avec les réponses attendues.",
+   "explicacion": "C'est vrai : le texte reconnaît qu'il est parfois difficile d'obtenir suffisamment de données annotées avec les réponses attendues."
+  },
+  {
+   "id": "p07",
+   "tipo": "eleccion",
+   "parrafo": 14,
+   "enunciado": "Choisissez la bonne réponse.",
+   "pregunta": "Dans l'exemple du texte, comment un agent peut-il apprendre à jouer aux échecs ?",
+   "opciones": [
+    "En étudiant un jeu de données de parties annotées",
+    "En jouant contre lui-même",
+    "En regroupant des parties similaires",
+    "En devinant des coups volontairement cachés"
+   ],
+   "respuestas": [
+    "En jouant contre lui-même"
+   ],
+   "cita": "un agent peut apprendre à jouer aux échecs en jouant contre lui-même",
+   "explicacion": "C'est l'exemple de l'apprentissage par renforcement : l'agent joue contre lui-même et le résultat évalue sa performance. Les autres options correspondent aux apprentissages supervisé, non supervisé et auto-supervisé."
+  },
+  {
+   "id": "p08",
+   "tipo": "vocabulario",
+   "parrafo": 16,
+   "enunciado": "Trouvez dans le paragraphe 16 un mot qui signifie « à part, à l'exception de » (es : aparte de, salvo).",
+   "pregunta": "Trouvez dans le paragraphe le mot qui signifie « à part, excepté ».",
+   "respuestas": [
+    "Hormis"
+   ],
+   "cita": "Hormis la fonction d'activation",
+   "explicacion": "« Hormis » est une préposition soutenue équivalant à « sauf » ou « excepté » : hormis la fonction d'activation, les réseaux ne font que des additions et des multiplications."
+  },
+  {
+   "id": "p09",
+   "tipo": "eleccion",
+   "parrafo": 17,
+   "enunciado": "Choisissez la bonne réponse.",
+   "pregunta": "Quel type de réseau est particulièrement utilisé en traitement d'images ?",
+   "opciones": [
+    "Les réseaux de neurones récurrents",
+    "Les réseaux à propagation avant",
+    "Les réseaux neuronaux convolutifs",
+    "Les transformeurs génératifs préentraînés"
+   ],
+   "respuestas": [
+    "Les réseaux neuronaux convolutifs"
+   ],
+   "cita": "Les réseaux neuronaux convolutifs, qui sont particulièrement utilisés en traitement d'images, introduisent une notion de localité.",
+   "explicacion": "Le texte associe expressément les réseaux convolutifs au traitement d'images. Les réseaux récurrents apportent une mémoire à court terme, les réseaux à propagation avant sont les plus simples et les GPT sont présentés comme des modèles de langage."
+  },
+  {
+   "id": "p10",
+   "tipo": "vf",
+   "parrafo": 19,
+   "enunciado": "Indiquez si l'affirmation est vraie, fausse ou non mentionnée dans le texte.",
+   "pregunta": "Le pré-entraînement des modèles GPT consiste à prédire le token précédent d'un texte.",
+   "respuestas": [
+    "F"
+   ],
+   "cita": "Leur « pré-entraînement » consiste à prédire, étant donnée une partie d'un texte, le token suivant",
+   "explicacion": "C'est faux : le modèle apprend à prédire le token suivant, non le précédent. Le détail modifié est le sens de la prédiction."
+  },
+  {
+   "id": "p11",
+   "tipo": "vf",
+   "parrafo": 21,
+   "enunciado": "Indiquez si l'affirmation est vraie, fausse ou non mentionnée dans le texte.",
+   "pregunta": "Le texte indique combien de personnes utilisent ChatGPT chaque jour.",
+   "respuestas": [
+    "ND"
+   ],
+   "cita": "",
+   "explicacion": "Le texte mentionne ChatGPT et les modèles qu'il utilise (GPT-3.5 et GPT-4), mais ne donne aucun chiffre d'utilisateurs."
+  },
+  {
+   "id": "p12",
+   "tipo": "abierta",
+   "parrafo": 23,
+   "enunciado": "Répondez en français en 1–3 phrases.",
+   "pregunta": "Quelle limite de la descente de gradient le texte souligne-t-il ?",
+   "respuestas": [
+    "Elle ne garantit qu'une solution localement optimale : avec d'autres valeurs initiales des paramètres, on aurait pu obtenir de meilleures solutions au niveau global."
+   ],
+   "cita": "La solution obtenue est localement optimale, mais il se peut qu'il y ait globalement de meilleures solutions",
+   "explicacion": "Le texte distingue optimum local et optimum global : la méthode s'améliore pas à pas, mais elle peut s'arrêter sur une solution qui n'est pas la meilleure possible."
+  },
+  {
+   "id": "p13",
+   "tipo": "vocabulario",
+   "parrafo": 25,
+   "enunciado": "Trouvez dans le paragraphe 25 un mot qui désigne des règles pratiques orientant une recherche vers les options les plus prometteuses.",
+   "pregunta": "Trouvez dans le paragraphe le mot qui désigne des règles pratiques permettant de guider une recherche.",
+   "respuestas": [
+    "heuristiques",
+    "heuristique"
+   ],
+   "cita": "Des heuristiques sont utilisées pour prioriser les chemins les plus prometteurs.",
+   "explicacion": "Les « heuristiques » sont des raccourcis ou des règles approximatives qui permettent de hiérarchiser des pistes sans toutes les explorer."
+  },
+  {
+   "id": "p14",
+   "tipo": "abierta",
+   "parrafo": 3,
+   "enunciado": "Répondez en français en 1–3 phrases (question de compréhension globale).",
+   "pregunta": "Pourquoi l'apprentissage automatique a-t-il pris le pas sur les approches fondées sur des règles ?",
+   "respuestas": [
+    "Parce que les processeurs graphiques, à partir de 2012, puis l'architecture transformeur en 2017 ont permis d'entraîner efficacement des réseaux de neurones sur d'immenses quantités de données, ce qui les a rendus plus performants que les systèmes dont les règles étaient programmées à la main."
+   ],
+   "cita": "favorisant l'adoption de l'apprentissage automatique au détriment d’approches reposant sur des règles explicitement programmées",
+   "explicacion": "La réponse combine deux dates du paragraphe 3 : l'accélération due aux processeurs graphiques et l'apparition des transformeurs, qui renforcent la tendance face à la programmation explicite de règles."
+  }
+ ],
+ "tribunal": [
+  {
+   "pregunta": "Quelles sont les grandes étapes de l'histoire de l'intelligence artificielle évoquées dans le texte ?",
+   "pista_es": "Reprendre dans l'ordre les dates et les avancées clés du texte.",
+   "ideas": [
+    "naissance de la discipline en 1956 et alternance d'optimisme et de déceptions",
+    "2012 : les processeurs graphiques accélèrent les réseaux de neurones",
+    "2017 : architecture transformeur et grands modèles de langage",
+    "2022 : popularisation de l'IA générative avec ChatGPT"
+   ]
+  },
+  {
+   "pregunta": "Pouvez-vous expliquer simplement la différence entre intelligence artificielle, apprentissage automatique et apprentissage profond ?",
+   "pista_es": "Expliquer la relation d'inclusion entre les trois notions avec un exemple.",
+   "ideas": [
+    "l'IA est le domaine le plus large",
+    "l'apprentissage automatique apprend à partir de données au lieu de suivre des règles écrites",
+    "l'apprentissage profond utilise des réseaux à nombreuses couches"
+   ]
+  },
+  {
+   "pregunta": "Qu'est-ce qu'une « hallucination » d'un modèle de langage et pourquoi est-ce un problème ?",
+   "pista_es": "Définir le phénomène d'après le texte et évaluer ses conséquences pratiques.",
+   "ideas": [
+    "information plausible mais fausse",
+    "risque pour la fiabilité dans le droit, la santé ou l'administration",
+    "phase d'entraînement complémentaire pour rendre le modèle plus véridique",
+    "nécessité d'une vérification humaine"
+   ]
+  },
+  {
+   "pregunta": "Selon vous, l'intelligence artificielle va-t-elle détruire ou créer des emplois ?",
+   "pista_es": "Donner une opinion nuancée avec des arguments économiques.",
+   "ideas": [
+    "automatisation de certaines tâches plutôt que de métiers entiers",
+    "gains de productivité et nouveaux métiers",
+    "risque de polarisation du marché du travail",
+    "importance de la formation continue"
+   ]
+  },
+  {
+   "pregunta": "Comment l'Union européenne encadre-t-elle l'intelligence artificielle et que pensez-vous de cette approche ?",
+   "pista_es": "Évoquer le cadre réglementaire européen et évaluer l'équilibre entre protection et innovation.",
+   "ideas": [
+    "règlement européen sur l'IA fondé sur une approche par les risques",
+    "protection des données personnelles",
+    "risque de freiner l'innovation face aux États-Unis et à la Chine",
+    "la régulation comme source de confiance et de normes internationales"
+   ]
+  },
+  {
+   "pregunta": "Quelle place l'Espagne peut-elle occuper dans le développement de l'intelligence artificielle ?",
+   "pista_es": "Faire le lien avec l'Espagne : forces, faiblesses et politiques publiques.",
+   "ideas": [
+    "stratégie nationale et agence de supervision de l'IA",
+    "utilisation des fonds européens de relance",
+    "manque d'entreprises technologiques de grande taille",
+    "adoption de l'IA par les PME et l'administration"
+   ]
+  },
+  {
+   "pregunta": "L'intelligence artificielle peut-elle transformer le commerce international et la politique commerciale ?",
+   "pista_es": "Analyser l'impact sur le commerce et sur les instruments de politique commerciale.",
+   "ideas": [
+    "contrôles à l'exportation sur les semi-conducteurs avancés",
+    "essor du commerce de services numériques",
+    "règles sur les flux de données transfrontaliers",
+    "concentration du marché et dépendance technologique"
+   ]
+  }
+ ],
+ "glosario": [
+  {
+   "palabra": "prise de décision",
+   "parrafo": 0,
+   "significado": "toma de decisiones",
+   "nota": ""
+  },
+  {
+   "palabra": "s'appuie sur",
+   "parrafo": 1,
+   "significado": "se basa en, se apoya en",
+   "nota": "Collocation très fréquente en registre formel."
+  },
+  {
+   "palabra": "au détriment",
+   "parrafo": 3,
+   "significado": "en detrimento (de), a costa de",
+   "nota": "Se construit avec « de » : au détriment de qqch."
+  },
+  {
+   "palabra": "suscite",
+   "parrafo": 4,
+   "significado": "provoca, despierta (inquietudes, interés)",
+   "nota": "susciter des inquiétudes / un débat : collocation typique."
+  },
+  {
+   "palabra": "désinformation",
+   "parrafo": 4,
+   "significado": "desinformación, difusión deliberada de información falsa",
+   "nota": ""
+  },
+  {
+   "palabra": "s'adonnent à",
+   "parrafo": 6,
+   "significado": "se dedican a",
+   "nota": "Registre soutenu."
+  },
+  {
+   "palabra": "capteurs",
+   "parrafo": 6,
+   "significado": "sensores",
+   "nota": "Ne pas confondre avec l'espagnol « captores » au sens de ravisseurs."
+  },
+  {
+   "palabra": "imbriquées",
+   "parrafo": 8,
+   "significado": "encajadas, entrelazadas unas en otras",
+   "nota": ""
+  },
+  {
+   "palabra": "englobe",
+   "parrafo": 8,
+   "significado": "engloba, abarca",
+   "nota": ""
+  },
+  {
+   "palabra": "sous-tendent",
+   "parrafo": 9,
+   "significado": "subyacen a, sirven de base a",
+   "nota": "Verbe sous-tendre, registre formel."
+  },
+  {
+   "palabra": "jeu de données",
+   "parrafo": 11,
+   "significado": "conjunto de datos (dataset)",
+   "nota": "« Jeu » ne signifie pas ici jeu, mais ensemble."
+  },
+  {
+   "palabra": "se procurer",
+   "parrafo": 11,
+   "significado": "conseguir, obtener",
+   "nota": ""
+  },
+  {
+   "palabra": "vote pondéré",
+   "parrafo": 15,
+   "significado": "voto ponderado",
+   "nota": ""
+  },
+  {
+   "palabra": "Hormis",
+   "parrafo": 16,
+   "significado": "salvo, excepto",
+   "nota": "Registre écrit ; équivaut à « sauf »."
+  },
+  {
+   "palabra": "couches",
+   "parrafo": 17,
+   "significado": "capas (de una red neuronal)",
+   "nota": ""
+  },
+  {
+   "palabra": "véridique",
+   "parrafo": 19,
+   "significado": "veraz, que dice la verdad",
+   "nota": ""
+  },
+  {
+   "palabra": "inoffensif",
+   "parrafo": 19,
+   "significado": "inofensivo, que no causa daño",
+   "nota": ""
+  },
+  {
+   "palabra": "descente de gradient",
+   "parrafo": 23,
+   "significado": "descenso de gradiente (método de optimización)",
+   "nota": "Terme technique."
+  },
+  {
+   "palabra": "fonction de coût",
+   "parrafo": 23,
+   "significado": "función de coste o de pérdida",
+   "nota": "Terme technique."
+  },
+  {
+   "palabra": "recherche antagoniste",
+   "parrafo": 25,
+   "significado": "búsqueda adversarial (en juegos de dos jugadores)",
+   "nota": "Terme technique."
+  }
+ ]
+}

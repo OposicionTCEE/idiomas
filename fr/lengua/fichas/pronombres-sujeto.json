@@ -1,0 +1,511 @@
+{
+ "id": "fr.g.pronombres-sujeto",
+ "titulo": "Pronombres sujeto",
+ "titulo_es": "Pronoms personnels sujets (je, tu, il, elle, on…)",
+ "descripcion_es": "je, tu, il/elle/on, nous, vous, ils/elles ; tu ou vous ; on.",
+ "nivel": "A1",
+ "resumen": "En français, le pronom sujet est obligatoire : le verbe ne suffit presque jamais à savoir qui fait l'action, car plusieurs personnes se prononcent de la même façon. Il faut aussi choisir entre tu et vous et connaître l'emploi de on.",
+ "explicacion": [
+  {
+   "tipo": "tabla",
+   "cabecera": [
+    "Personne",
+    "Singulier",
+    "Pluriel"
+   ],
+   "filas": [
+    [
+     "1re",
+     "je (j' devant une voyelle) : « yo »",
+     "nous : « nosotros, nosotras »"
+    ],
+    [
+     "2e",
+     "tu : « tú »",
+     "vous : « vosotros, vosotras » ; « usted, ustedes »"
+    ],
+    [
+     "3e",
+     "il : « él » ; elle : « ella » ; on : « se, uno, nosotros »",
+     "ils : « ellos » ; elles : « ellas »"
+    ]
+   ]
+  },
+  {
+   "tipo": "texto",
+   "texto": "Contrairement à l'espagnol, on ne peut pas omettre le sujet : « estoy cansado » se dit je suis fatigué, jamais suis fatigué. Le pronom se place juste devant le verbe (seuls ne et les pronoms compléments peuvent s'intercaler). Je s'élide devant une voyelle ou un h muet (j'aime, j'habite) et ne prend pas de majuscule, sauf en début de phrase."
+  },
+  {
+   "tipo": "lista",
+   "items": [
+    "Tu s'emploie avec une personne proche, de votre âge ou de la famille. Vous est le pluriel et aussi la forme de politesse pour une seule personne (es : usted) : Vous allez bien, Madame ? Tutoyer quelqu'un qu'il faudrait vouvoyer est considéré comme un manque de respect.",
+    "Il et elle remplacent aussi des choses, selon leur genre en français : La musique ? Elle est bonne. Le juke-box ? Il est cassé.",
+    "Ils s'emploie pour un groupe masculin ou mixte (un seul homme ou un seul mot masculin suffit) ; elles seulement pour un groupe entièrement féminin.",
+    "On se conjugue à la 3e personne du singulier. Il signifie « les gens, n'importe qui » (es : se, uno, la gente) (En France, on mange tard) et, à l'oral, il remplace très souvent nous : On y va ? (es : ¿Vamos?)."
+   ]
+  }
+ ],
+ "ejemplos": [
+  {
+   "frase": "Bonjour, Paw-Paw. Vous allez bien ?",
+   "traduccion": "Buenos días, Paw-Paw. ¿Está usted bien?"
+  },
+  {
+   "frase": "Tex, Tammy, vous allez bien, mes enfants ?",
+   "traduccion": "Tex, Tammy, ¿estáis bien, hijos?"
+  },
+  {
+   "frase": "Bette et Tex sont de bons amis. Normalement, ils s'entendent bien.",
+   "traduccion": "Bette y Tex son buenos amigos. Normalmente se llevan bien."
+  },
+  {
+   "frase": "Elle est partie avec Tammy. Elles sont allées au Broken Spoke.",
+   "traduccion": "Se ha ido con Tammy. Se han ido al Broken Spoke."
+  },
+  {
+   "frase": "On mange à quelle heure ce soir ?",
+   "traduccion": "¿A qué hora cenamos esta noche?"
+  },
+  {
+   "frase": "J'habite à Madrid, mais je travaille souvent à Bruxelles.",
+   "traduccion": "Vivo en Madrid, pero trabajo a menudo en Bruselas."
+  }
+ ],
+ "errores_hispanohablantes": [
+  {
+   "mal": "Suis très content.",
+   "bien": "Je suis très content.",
+   "nota": "Le pronom sujet est obligatoire en français."
+  },
+  {
+   "mal": "Je aime le café.",
+   "bien": "J'aime le café.",
+   "nota": "Je s'élide devant une voyelle ou un h muet."
+  },
+  {
+   "mal": "On allons au cinéma.",
+   "bien": "On va au cinéma.",
+   "nota": "On prend le verbe à la 3e personne du singulier, même quand il signifie « nous »."
+  },
+  {
+   "mal": "La table ? Il est cassé.",
+   "bien": "La table ? Elle est cassée.",
+   "nota": "Le pronom suit le genre du mot français : table est féminin."
+  }
+ ],
+ "ejercicios": [
+  {
+   "id": "e01",
+   "tipo": "hueco",
+   "enunciado": "Complétez avec le pronom sujet (1re personne du singulier ; es : yo).",
+   "frase": "___ suis très fatigué.",
+   "respuestas": [
+    "Je"
+   ],
+   "explicacion": "La fiche explique qu'en français on ne peut pas omettre le sujet : « estoy cansado » se dit « je suis fatigué », jamais « suis fatigué ». L'indice est la forme verbale suis, qui correspond à je pour le verbe être. Comme suis commence par une consonne, je ne s'élide pas et, en début de phrase, il prend une majuscule.",
+   "origen": "tatoeba:332410",
+   "explicacion_breve": "Suis est la forme de je ; on ne peut pas omettre le pronom.",
+   "traduccion": "Estoy muy cansado.",
+   "errores_previstos": [
+    {
+     "respuesta": "J'",
+     "explicacion": "Je ne s'élide que devant une voyelle ou un h muet ; suis commence par une consonne : « Je suis »."
+    },
+    {
+     "respuesta": "Il",
+     "explicacion": "Il va avec « est » (il est) ; suis est la forme propre à je."
+    }
+   ]
+  },
+  {
+   "id": "e02",
+   "tipo": "hueco",
+   "enunciado": "Complétez avec le pronom sujet (3e personne du singulier, masculin ; es : él).",
+   "frase": "___ parle le russe.",
+   "respuestas": [
+    "Il"
+   ],
+   "explicacion": "D'après le tableau de la fiche, la troisième personne du singulier au masculin est il. L'indice est la forme parle, qui pourrait être celle de je ou de il ; la consigne précise qu'il s'agit du masculin de la 3e personne. Remarquez que, dans cette phrase, le français met un article devant la langue après parler (« le russe »), même si « parler russe » est aussi fréquent.",
+   "origen": "tatoeba:806516",
+   "explicacion_breve": "Troisième personne du singulier, masculin : il.",
+   "traduccion": "Habla ruso.",
+   "errores_previstos": [
+    {
+     "respuesta": "Lui",
+     "explicacion": "Lui est le pronom tonique ; comme sujet placé directement devant le verbe, on emploie il. « Lui parle » n'apparaît que dans des phrases de contraste très marqué."
+    },
+    {
+     "respuesta": "Elle",
+     "explicacion": "Elle est le féminin ; la consigne demande le masculin : il."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "le russe",
+     "significado": "el ruso (idioma)"
+    }
+   ]
+  },
+  {
+   "id": "e03",
+   "tipo": "hueco",
+   "enunciado": "Complétez avec le pronom sujet (2e personne du singulier, familier ; es : tú).",
+   "frase": "___ joues au tennis ?",
+   "respuestas": [
+    "Tu"
+   ],
+   "explicacion": "Le tableau de la fiche donne tu (es : « tú »), la deuxième personne du singulier familière. L'indice est la terminaison -es de joues, qui, pour les verbes en -er, correspond uniquement à tu. La question est formée ici seulement par l'intonation, ce qui est très courant à l'oral.",
+   "origen": "tatoeba:431371",
+   "explicacion_breve": "La terminaison -es correspond à tu.",
+   "traduccion": "¿Juegas al tenis?",
+   "errores_previstos": [
+    {
+     "respuesta": "Toi",
+     "explicacion": "Toi est le pronom tonique ; devant le verbe, comme sujet, on emploie tu."
+    },
+    {
+     "respuesta": "Vous",
+     "explicacion": "Vous va avec la terminaison -ez (vous jouez) ; joues est la forme de tu."
+    }
+   ]
+  },
+  {
+   "id": "e04",
+   "tipo": "eleccion",
+   "enunciado": "Choisissez le bon pronom sujet.",
+   "frase": "___ êtes en danger.",
+   "opciones": [
+    "Vous",
+    "Nous",
+    "Tu"
+   ],
+   "respuestas": [
+    "Vous"
+   ],
+   "explicacion": "L'indice est la forme verbale êtes, qui, pour le verbe être, correspond exclusivement à vous. D'après le tableau, vous peut correspondre à « vosotros », « usted » ou « ustedes » : la phrase admet donc les trois traductions selon le contexte. Le pronom, lui, ne peut être que vous.",
+   "origen": "tatoeba:1652453",
+   "explicacion_breve": "Êtes est la forme de vous du verbe être.",
+   "traduccion": "Están ustedes en peligro. (o: Estáis en peligro.)",
+   "por_opcion": {
+    "Vous": "Correct : êtes est la forme de vous du verbe être.",
+    "Nous": "Incorrect : nous va avec sommes (« nous sommes en danger »).",
+    "Tu": "Incorrect : tu va avec es (« tu es en danger »)."
+   }
+  },
+  {
+   "id": "e05",
+   "tipo": "eleccion",
+   "enunciado": "Choisissez le bon pronom sujet.",
+   "frase": "___ es une bonne amie.",
+   "opciones": [
+    "Tu",
+    "Elle",
+    "Je"
+   ],
+   "respuestas": [
+    "Tu"
+   ],
+   "explicacion": "L'indice est la forme es du verbe être, qui correspond seulement à tu (je suis, tu es, elle est). Même si « une bonne amie » est féminin et peut faire penser à elle, c'est la forme verbale qui décide du pronom, pas l'attribut. La réponse est donc « Tu es une bonne amie ».",
+   "origen": "tatoeba:9501249",
+   "explicacion_breve": "Es est la forme de tu du verbe être (elle est, je suis).",
+   "traduccion": "Eres una buena amiga.",
+   "por_opcion": {
+    "Tu": "Correct : es est la forme de tu du verbe être.",
+    "Elle": "Incorrect : elle va avec est (« elle est une bonne amie »). Le féminin de l'attribut ne suffit pas pour choisir le pronom.",
+    "Je": "Incorrect : je va avec suis (« je suis une bonne amie »)."
+   }
+  },
+  {
+   "id": "e06",
+   "tipo": "ordenar",
+   "enunciado": "Remettez les mots dans l'ordre.",
+   "palabras": [
+    "l'été",
+    "pas",
+    "n'aime",
+    "Je"
+   ],
+   "respuestas": [
+    "Je n'aime pas l'été"
+   ],
+   "explicacion": "La fiche indique que le pronom sujet se place juste devant le verbe et que seuls ne et les pronoms compléments peuvent s'intercaler. À la forme négative, ne (élidé devant une voyelle : n'aime) se place entre le sujet et le verbe, et pas après le verbe. L'ordre est donc « Je n'aime pas l'été ». Comme ne s'intercale, je ne s'élide pas.",
+   "origen": "tatoeba:7568",
+   "explicacion_breve": "Pronom sujet devant le verbe, encadré par ne… pas.",
+   "traduccion": "No me gusta el verano.",
+   "errores_previstos": [
+    {
+     "respuesta": "Je n'aime l'été pas",
+     "explicacion": "Pas se place immédiatement après le verbe conjugué, pas à la fin de la phrase."
+    },
+    {
+     "respuesta": "N'aime je pas l'été",
+     "explicacion": "Dans une phrase déclarative, le sujet se place devant : « Je n'aime pas »."
+    }
+   ]
+  },
+  {
+   "id": "e07",
+   "tipo": "transformar",
+   "enunciado": "Remplacez le sujet par nous.",
+   "frase": "Je suis libre !",
+   "respuestas": [
+    "Nous sommes libres !"
+   ],
+   "explicacion": "Quand le sujet devient nous, le verbe être passe de suis à sommes, et l'adjectif attribut s'accorde au pluriel : libre devient libres. Ce sont deux changements obligatoires. L'indice est le nouveau sujet nous, qui demande la forme irrégulière sommes.",
+   "origen": "tatoeba:1890042",
+   "explicacion_breve": "Nous prend sommes et l'adjectif passe au pluriel.",
+   "traduccion": "¡Somos libres!",
+   "errores_previstos": [
+    {
+     "respuesta": "Nous sommes libre !",
+     "explicacion": "Il manque l'accord : avec nous, l'adjectif se met au pluriel, « libres »."
+    },
+    {
+     "respuesta": "Nous sommons libres !",
+     "explicacion": "Être est irrégulier : avec nous, c'est « sommes », il ne se forme pas avec -ons."
+    },
+    {
+     "respuesta": "Nous suis libres !",
+     "explicacion": "Il faut conjuguer le verbe avec le nouveau sujet : « nous sommes »."
+    }
+   ]
+  },
+  {
+   "id": "e08",
+   "tipo": "transformar",
+   "enunciado": "Mettez la question au vouvoiement (vous).",
+   "frase": "Tu viens d'où ?",
+   "respuestas": [
+    "Vous venez d'où ?"
+   ],
+   "explicacion": "La fiche explique que vous est aussi la forme de politesse pour une seule personne. Quand on passe de tu à vous, le verbe passe à la deuxième personne du pluriel : venir donne « vous venez ». Le reste de la question, « d'où », ne change pas. C'est la forme qui convient pour s'adresser à un inconnu ou à un jury.",
+   "origen": "tatoeba:3475",
+   "explicacion_breve": "La forme de politesse emploie vous avec le verbe à la 2e personne du pluriel : vous venez.",
+   "traduccion": "¿De dónde es usted?",
+   "errores_previstos": [
+    {
+     "respuesta": "Vous viens d'où ?",
+     "explicacion": "Il faut conjuguer le verbe avec vous : « vous venez »."
+    },
+    {
+     "respuesta": "Vous venis d'où ?",
+     "explicacion": "Venir est irrégulier : avec vous, c'est « venez »."
+    },
+    {
+     "respuesta": "Usted vient d'où ?",
+     "explicacion": "En français, il n'existe pas de pronom de troisième personne pour la politesse : on emploie vous avec le verbe à la deuxième personne du pluriel."
+    }
+   ]
+  },
+  {
+   "id": "e09",
+   "tipo": "hueco",
+   "enunciado": "Remplacez le nom par un pronom sujet.",
+   "frase": "La voiture ? ___ est en panne.",
+   "respuestas": [
+    "Elle"
+   ],
+   "explicacion": "La fiche signale que il et elle remplacent aussi des choses, selon leur genre en français. « La voiture » est féminin, comme l'indique l'article la : on la remplace donc par elle. L'indice est justement cet article. Il n'y a pas de pronom neutre pour les choses comme l'espagnol « ello ».",
+   "explicacion_breve": "Voiture est féminin : on le remplace par elle.",
+   "traduccion": "¿El coche? Está averiado.",
+   "errores_previstos": [
+    {
+     "respuesta": "Il",
+     "explicacion": "Il remplace les noms masculins ; voiture est féminin : elle."
+    },
+    {
+     "respuesta": "Ça",
+     "explicacion": "Ça est un démonstratif neutre et ne sert pas à reprendre un nom concret déjà mentionné ; pour « la voiture », le pronom est elle."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "être en panne",
+     "significado": "estar averiado"
+    }
+   ]
+  },
+  {
+   "id": "e10",
+   "tipo": "hueco",
+   "enunciado": "Remplacez le nom par un pronom sujet.",
+   "frase": "Le musée ? ___ ferme à dix-huit heures.",
+   "respuestas": [
+    "Il"
+   ],
+   "explicacion": "Comme l'explique la fiche, il et elle remplacent des choses selon leur genre en français. « Le musée » est masculin (article le) : on le remplace donc par il, même s'il se termine par -e. L'indice est l'article le. Remarquez que « dix-huit heures » est la façon habituelle, en France, de donner l'heure au format 24 heures.",
+   "explicacion_breve": "Musée est masculin : il.",
+   "traduccion": "¿El museo? Cierra a las seis de la tarde.",
+   "errores_previstos": [
+    {
+     "respuesta": "Elle",
+     "explicacion": "Musée se termine par -e, mais il est masculin : le musée, il."
+    },
+    {
+     "respuesta": "On",
+     "explicacion": "On renvoie à des personnes indéterminées ; pour reprendre « le musée », on emploie il."
+    }
+   ]
+  },
+  {
+   "id": "e11",
+   "tipo": "eleccion",
+   "enunciado": "Choisissez le bon pronom sujet.",
+   "frase": "Marie et Paul ? ___ sont au cinéma.",
+   "opciones": [
+    "Ils",
+    "Elles",
+    "On"
+   ],
+   "respuestas": [
+    "Ils"
+   ],
+   "explicacion": "La fiche indique que ils s'emploie pour un groupe masculin ou mixte : un seul homme suffit pour que le groupe soit ils. Marie et Paul forment un groupe mixte : le pronom est donc ils. L'indice est la présence de Paul. La forme sont confirme que le sujet est à la troisième personne du pluriel.",
+   "explicacion_breve": "Pour un groupe mixte, on emploie ils.",
+   "traduccion": "¿Marie y Paul? Están en el cine.",
+   "por_opcion": {
+    "Ils": "Correct : un groupe mixte, avec au moins un homme, se remplace par ils.",
+    "Elles": "Incorrect : elles ne s'emploie que pour un groupe entièrement féminin.",
+    "On": "Incorrect : on prend le verbe à la troisième personne du singulier (on est), pas sont, et il ne remplace pas des personnes déjà nommées."
+   }
+  },
+  {
+   "id": "e12",
+   "tipo": "eleccion",
+   "enunciado": "Choisissez le bon pronom sujet.",
+   "frase": "Anne et Sophie ? ___ sont médecins.",
+   "opciones": [
+    "Elles",
+    "Ils",
+    "Elle"
+   ],
+   "respuestas": [
+    "Elles"
+   ],
+   "explicacion": "D'après la fiche, elles ne s'emploie que pour un groupe entièrement féminin. Anne et Sophie sont deux femmes : le pronom est donc elles. L'indice est le verbe au pluriel sont, qui écarte elle, et la composition du groupe, qui écarte ils. Rappelez-vous aussi que la profession après être s'emploie sans article : « médecins ».",
+   "explicacion_breve": "Groupe uniquement féminin : elles.",
+   "traduccion": "¿Anne y Sophie? Son médicas.",
+   "por_opcion": {
+    "Elles": "Correct : groupe exclusivement féminin et verbe au pluriel.",
+    "Ils": "Incorrect : ils s'emploie pour les groupes masculins ou mixtes ; ici, il n'y a que des femmes.",
+    "Elle": "Incorrect : c'est un singulier, qui ne s'accorde pas avec sont (elle est)."
+   }
+  },
+  {
+   "id": "e13",
+   "tipo": "hueco",
+   "enunciado": "Complétez avec le pronom familier qui équivaut à « nous ».",
+   "frase": "Ce soir, ___ va au restaurant, toi et moi ?",
+   "respuestas": [
+    "on"
+   ],
+   "explicacion": "La fiche explique que on se conjugue à la troisième personne du singulier et que, à l'oral, il remplace très souvent nous. L'indice est la forme va, de troisième personne du singulier, avec « toi et moi », qui indique qu'il s'agit de « nous ». Avec nous, le verbe serait allons.",
+   "explicacion_breve": "On, avec le verbe à la 3e personne du singulier, équivaut à nous à l'oral.",
+   "traduccion": "Esta noche vamos al restaurante, ¿tú y yo?",
+   "errores_previstos": [
+    {
+     "respuesta": "nous",
+     "explicacion": "Nous a le même sens, mais exige « allons » ; avec va, le seul sujet possible qui équivaut à « nous » est on."
+    },
+    {
+     "respuesta": "il",
+     "explicacion": "Il va avec va, mais il désigne une autre personne, pas « nous » ; la consigne demande l'équivalent familier de nous."
+    }
+   ]
+  },
+  {
+   "id": "e14",
+   "tipo": "corregir",
+   "enunciado": "Corrigez l'erreur.",
+   "frase": "Est malade aujourd'hui.",
+   "respuestas": [
+    "Il est malade aujourd'hui.",
+    "Elle est malade aujourd'hui.",
+    "On est malade aujourd'hui."
+   ],
+   "explicacion": "La phrase omet le sujet, comme le ferait l'espagnol, mais la fiche insiste : en français, on ne peut pas l'omettre. Il faut ajouter un pronom sujet qui va avec est, la forme de troisième personne du singulier : il ou elle. Comme « malade » est identique au masculin et au féminin, les deux corrections sont valables. On accepte aussi on, qui prend le verbe à la troisième personne du singulier et équivaut à nous à l'oral (es : « hoy estamos enfermos »).",
+   "explicacion_breve": "Le français n'admet pas l'omission du sujet : il, elle ou on.",
+   "traduccion": "Está enfermo hoy. (o: Está enferma hoy. / Estamos enfermos hoy.)",
+   "errores_previstos": [
+    {
+     "respuesta": "Est malade aujourd'hui.",
+     "explicacion": "C'est laisser la phrase sans la corriger : le sujet est obligatoire en français."
+    },
+    {
+     "respuesta": "Ils est malade aujourd'hui.",
+     "explicacion": "Ils est pluriel et ne s'accorde pas avec est ; il faudrait « ils sont malades »."
+    },
+    {
+     "respuesta": "Lui est malade aujourd'hui.",
+     "explicacion": "Lui est un pronom tonique ; comme sujet normal devant le verbe, on emploie il."
+    }
+   ]
+  },
+  {
+   "id": "e15",
+   "tipo": "corregir",
+   "enunciado": "Corrigez l'erreur.",
+   "frase": "On allons au marché.",
+   "respuestas": [
+    "On va au marché.",
+    "Nous allons au marché."
+   ],
+   "explicacion": "La fiche signale que on prend le verbe à la troisième personne du singulier, même quand il signifie « nous ». « On allons » mélange le pronom on et la forme de nous. Il y a deux façons de corriger : garder on et conjuguer « on va », plus familier, ou garder allons et remplacer le sujet par nous, « nous allons », plus soutenu. Les deux sont valables.",
+   "explicacion_breve": "On se conjugue à la 3e personne du singulier : on va.",
+   "traduccion": "Vamos al mercado.",
+   "errores_previstos": [
+    {
+     "respuesta": "On allons au marché.",
+     "explicacion": "C'est laisser la phrase sans la corriger : on ne se conjugue pas avec la forme de nous."
+    },
+    {
+     "respuesta": "On vont au marché.",
+     "explicacion": "On se conjugue au singulier, pas au pluriel : « on va »."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "le marché",
+     "significado": "el mercado"
+    }
+   ]
+  },
+  {
+   "id": "e16",
+   "tipo": "corregir",
+   "enunciado": "Corrigez l'erreur.",
+   "frase": "Je habite à Séville.",
+   "respuestas": [
+    "J'habite à Séville."
+   ],
+   "explicacion": "La fiche indique que je s'élide devant une voyelle ou un h muet. Habiter commence par un h muet : « je habite » devient donc obligatoirement « j'habite ». L'élision n'est ni facultative ni familière : « je habite » est incorrect à l'écrit comme à l'oral.",
+   "explicacion_breve": "Devant un h muet, je s'élide : j'habite.",
+   "traduccion": "Vivo en Sevilla.",
+   "errores_previstos": [
+    {
+     "respuesta": "Je habite à Séville.",
+     "explicacion": "C'est laisser la phrase sans la corriger : devant un h muet, je s'élide."
+    },
+    {
+     "respuesta": "J'habite en Séville.",
+     "explicacion": "L'apostrophe a été corrigée, mais une autre erreur est apparue : avec les villes, on emploie à, pas en."
+    }
+   ]
+  }
+ ],
+ "fuente": {
+  "nombre": "Tex's French Grammar",
+  "autores": "COERLL, Universidad de Texas en Austin",
+  "licencia": "CC BY 3.0",
+  "url": "https://laits.utexas.edu/tex/gr/pro2.html",
+  "otras": [
+   "Phrases de Tatoeba (CC BY 2.0 FR)"
+  ]
+ },
+ "descripcion_larga_es": "Les pronoms personnels sujets (je, tu, il, elle, on, nous, vous, ils, elles). En français, ils sont obligatoires, car plusieurs formes verbales se prononcent de la même façon et, sans eux, on ne sait pas qui agit. Il faut aussi choisir entre tu et vous, employer il ou elle selon le genre du mot français et maîtriser on, omniprésent à l'oral. Pour un hispanophone, habitué à omettre le sujet, c'est une habitude nouvelle.",
+ "contexto": {
+  "que_es": "Ce sont les mots qui indiquent qui fait l'action du verbe : je (es : yo), tu (es : tú), il et elle (es : él, ella), on (es : se, uno, nosotros), nous (es : nosotros), vous (es : vosotros, usted, ustedes), ils et elles (es : ellos, ellas). Ils se placent juste devant le verbe et ne peuvent en être séparés que par ne ou par des pronoms compléments. Je s'élide devant une voyelle ou un h muet.",
+  "por_que_importa": "Sans pronom, la phrase française est agrammaticale : « suis fatigué » ne se comprend pas comme une phrase complète, car je parle, tu parles, il parle et ils parlent se prononcent de la même façon. Mal choisir entre tu et vous peut paraître impoli, et employer il pour un mot féminin comme « la table » déconcerte l'interlocuteur. Dans la conversation, on apparaît autant que nous, voire plus.",
+  "cuando_se_usa": "Dans toute phrase avec un verbe conjugué, sauf à l'impératif. Pour choisir, il faut regarder la terminaison du verbe (suis, es, êtes, sommes), le genre grammatical en français du nom que reprend le pronom et la relation avec l'interlocuteur. L'hispanophone a tendance à omettre le sujet, à ne pas élider je, à conjuguer on au pluriel et à calquer le genre espagnol des choses."
+ }
+}

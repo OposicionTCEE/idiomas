@@ -1,0 +1,551 @@
+{
+ "id": "fr.g.si-hipotesis",
+ "titulo": "Oraciones con si",
+ "titulo_es": "Les phrases conditionnelles avec si",
+ "descripcion_es": "Les trois combinaisons : si + présent, si + imparfait, si + plus-que-parfait.",
+ "nivel": "B1",
+ "resumen": "Les phrases conditionnelles françaises suivent trois schémas fixes selon que la condition est possible, improbable ou déjà impossible. La règle d'or : après si, jamais de futur ni de conditionnel.",
+ "explicacion": [
+  {
+   "tipo": "tabla",
+   "cabecera": [
+    "Type",
+    "Condition (si…)",
+    "Conséquence",
+    "Exemple"
+   ],
+   "filas": [
+    [
+     "Réelle ou possible",
+     "présent",
+     "présent, futur ou impératif",
+     "Si j'ai le temps, je le ferai."
+    ],
+    [
+     "Hypothèse sur le présent ou le futur",
+     "imparfait",
+     "conditionnel présent",
+     "Si j'étais riche, je voyagerais."
+    ],
+    [
+     "Hypothèse sur le passé (elle ne s'est pas réalisée)",
+     "plus-que-parfait",
+     "conditionnel passé",
+     "Si j'avais su, je serais venu."
+    ]
+   ]
+  },
+  {
+   "tipo": "texto",
+   "texto": "Comparaison avec l'espagnol : le français emploie l'imparfait de l'indicatif là où l'espagnol emploie l'imparfait du subjonctif (es : « si tuviera » → si j'avais) et le plus-que-parfait de l'indicatif là où l'espagnol emploie celui du subjonctif (es : « si hubiera sabido » → si j'avais su). Le subjonctif n'apparaît jamais après si."
+  },
+  {
+   "tipo": "lista",
+   "items": [
+    "Si s'élide seulement devant il et ils : s'il pleut, s'ils viennent ; mais si elle, si on.",
+    "L'ordre des deux parties est libre : Je voyagerais si j'étais riche.",
+    "On peut mélanger les types 2 et 3 : Si j'avais pris le train, je serais déjà là (condition passée, conséquence présente).",
+    "Si seulement + imparfait ou plus-que-parfait exprime un souhait : Si seulement j'étais riche ! (es : « ¡Ojalá fuera rico! »)",
+    "Et si + imparfait sert à proposer quelque chose : Et si on faisait une pause ? (es : « ¿Y si hacemos una pausa? »)"
+   ]
+  },
+  {
+   "tipo": "texto",
+   "texto": "Ne confondez pas le si conditionnel avec le si de l'interrogation indirecte (« si » = whether). Dans l'interrogation indirecte, le futur ou le conditionnel sont possibles : Je ne sais pas s'il viendra (es : « no sé si vendrá »). Tex demande si Tammy est prête est une interrogation indirecte ; Si tu es prête, on part est une condition."
+  }
+ ],
+ "ejemplos": [
+  {
+   "frase": "Si j'ai le temps, je le ferai.",
+   "traduccion": "Si tengo tiempo, lo haré."
+  },
+  {
+   "frase": "Si le vent faiblit, nous irons.",
+   "traduccion": "Si amaina el viento, iremos."
+  },
+  {
+   "frase": "Si je le savais, je le dirais.",
+   "traduccion": "Si lo supiera, lo diría."
+  },
+  {
+   "frase": "Si j'étais une voiture, je serais une 2CV.",
+   "traduccion": "Si fuera un coche, sería un 2CV."
+  },
+  {
+   "frase": "Si j'étais né à Séville, j'aurais appris à danser la sévillane.",
+   "traduccion": "Si hubiera nacido en Sevilla, habría aprendido a bailar sevillanas."
+  },
+  {
+   "frase": "Et si on faisait une pause ?",
+   "traduccion": "¿Y si hacemos una pausa?"
+  }
+ ],
+ "errores_hispanohablantes": [
+  {
+   "mal": "Si j'aurais de l'argent, j'achèterais une maison.",
+   "bien": "Si j'avais de l'argent, j'achèterais une maison.",
+   "nota": "De même qu'en espagnol correct on ne dit pas « si tendría », en français on met l'imparfait après si."
+  },
+  {
+   "mal": "S'il fasse beau demain, nous irons à la plage.",
+   "bien": "S'il fait beau demain, nous irons à la plage.",
+   "nota": "L'espagnol emploie parfois le subjonctif dans les conditions ; le français, jamais : si + indicatif."
+  },
+  {
+   "mal": "Si il vient, on mangera ensemble.",
+   "bien": "S'il vient, on mangera ensemble.",
+   "nota": "Devant il ou ils, si s'élide obligatoirement."
+  },
+  {
+   "mal": "Si tu viendras, je serai content.",
+   "bien": "Si tu viens, je serai content.",
+   "nota": "Même si la condition est future, on met le présent après si."
+  }
+ ],
+ "ejercicios": [
+  {
+   "id": "e01",
+   "tipo": "hueco",
+   "enunciado": "Complétez avec le temps qui convient.",
+   "frase": "Si je le ___ (savoir), je le dirais.",
+   "respuestas": [
+    "savais"
+   ],
+   "explicacion": "La conséquence, « je le dirais », est au conditionnel présent. D'après le tableau de Règles et points clés, ce conditionnel correspond à une hypothèse sur le présent, dont la condition est à l'imparfait. Donc « savoir » à l'imparfait avec « je » : « savais ». Là où l'espagnol dit « si lo supiera » (subjonctif), le français emploie l'imparfait de l'indicatif.",
+   "origen": "tatoeba:1701647",
+   "explicacion_breve": "Conséquence au conditionnel → condition à l'imparfait.",
+   "traduccion": "Si lo supiera, lo diría.",
+   "errores_previstos": [
+    {
+     "respuesta": "saurais",
+     "explicacion": "C'est le conditionnel ; après le si conditionnel, jamais de conditionnel : c'est la règle d'or de la fiche."
+    },
+    {
+     "respuesta": "sache",
+     "explicacion": "C'est le subjonctif, calque de l'espagnol « supiera » ; le français n'emploie pas le subjonctif après si."
+    },
+    {
+     "respuesta": "sais",
+     "explicacion": "Le présent correspondrait à une condition possible avec un futur ou un présent dans la conséquence ; avec « dirais », il faut l'imparfait."
+    }
+   ]
+  },
+  {
+   "id": "e02",
+   "tipo": "hueco",
+   "enunciado": "Complétez avec le temps qui convient.",
+   "frase": "Si tu souris, je ___ (être) heureux demain.",
+   "respuestas": [
+    "serai"
+   ],
+   "explicacion": "La condition, « si tu souris », est au présent : c'est une condition réelle ou possible. Le tableau de Règles et points clés indique qu'alors la conséquence peut être au présent, au futur ou à l'impératif. L'indice est « demain », qui situe la conséquence dans le futur ; « être » se met donc au futur simple : « je serai ».",
+   "origen": "tatoeba:393369",
+   "explicacion_breve": "Condition au présent + conséquence future : futur simple.",
+   "traduccion": "Si sonríes, estaré contento mañana.",
+   "errores_previstos": [
+    {
+     "respuesta": "serais",
+     "explicacion": "Le conditionnel correspond à une condition à l'imparfait (si tu souriais) ; avec si + présent, on emploie le futur."
+    },
+    {
+     "respuesta": "suis",
+     "explicacion": "Le présent est possible dans d'autres contextes, mais « demain » demande le futur."
+    },
+    {
+     "respuesta": "sera",
+     "explicacion": "C'est la troisième personne ; avec « je », la forme est « serai »."
+    }
+   ]
+  },
+  {
+   "id": "e03",
+   "tipo": "hueco",
+   "enunciado": "Complétez avec le temps qui convient.",
+   "frase": "Que ferais-je si tu ___ (partir) ?",
+   "respuestas": [
+    "partais"
+   ],
+   "explicacion": "La conséquence, « que ferais-je », est au conditionnel présent (avec l'inversion du sujet propre à la question). D'après le tableau de Règles et points clés, le conditionnel présent va avec une condition à l'imparfait. « Partir » à l'imparfait avec « tu » donne « partais ». L'espagnol emploie le subjonctif « si te fueras », mais le français emploie l'imparfait de l'indicatif.",
+   "explicacion_breve": "Conséquence au conditionnel (ferais) → condition à l'imparfait.",
+   "traduccion": "¿Qué haría yo si te fueras?",
+   "errores_previstos": [
+    {
+     "respuesta": "partirais",
+     "explicacion": "C'est un conditionnel ; après le si conditionnel, jamais de conditionnel."
+    },
+    {
+     "respuesta": "pars",
+     "explicacion": "Le présent correspondrait à une condition possible avec un futur dans la conséquence ; avec « ferais », il faut l'imparfait « partais »."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "partir",
+     "significado": "irse, marcharse"
+    }
+   ]
+  },
+  {
+   "id": "e04",
+   "tipo": "hueco",
+   "enunciado": "Complétez avec le temps qui convient (regret sur le passé, es : « ¡ojalá hubiera venido! »).",
+   "frase": "Si seulement il ___ (venir) !",
+   "respuestas": [
+    "était venu"
+   ],
+   "explicacion": "La liste de Règles et points clés explique que « si seulement » + imparfait ou plus-que-parfait exprime un souhait, comme l'espagnol « ojalá ». Avec le plus-que-parfait, le souhait porte sur le passé et prend un ton de regret (es : « ¡ojalá hubiera venido! »). Le plus-que-parfait de « venir » se forme avec « être » à l'imparfait + participe : « il était venu ». L'énoncé précise qu'il s'agit d'un regret sur le passé ; « si seulement il venait » serait aussi grammatical, mais exprimerait un autre sens, un souhait sur le présent (es : « ojalá viniera »).",
+   "origen": "tatoeba:4450319",
+   "explicacion_breve": "Si seulement + plus-que-parfait exprime un regret sur le passé (es : « ojalá hubiera venido »).",
+   "traduccion": "¡Ojalá hubiera venido!",
+   "errores_previstos": [
+    {
+     "respuesta": "avait venu",
+     "explicacion": "« Venir » forme ses temps composés avec être, pas avec avoir : il était venu."
+    },
+    {
+     "respuesta": "soit venu",
+     "explicacion": "C'est le subjonctif, calque de l'espagnol « hubiera venido » ; après si, jamais de subjonctif."
+    },
+    {
+     "respuesta": "serait venu",
+     "explicacion": "C'est le conditionnel passé ; après si, on n'emploie pas le conditionnel."
+    },
+    {
+     "respuesta": "venait",
+     "explicacion": "Si seulement il venait est correct, mais exprime un souhait sur le présent (es : « ojalá viniera ») ; l'énoncé demande le regret sur le passé : était venu."
+    }
+   ]
+  },
+  {
+   "id": "e05",
+   "tipo": "hueco",
+   "enunciado": "Complétez avec le temps qui convient.",
+   "frase": "Si Edouard était plus rapide, il ___ (gagner) plus de pourboires.",
+   "respuestas": [
+    "gagnerait"
+   ],
+   "explicacion": "La condition, « si Edouard était plus rapide », est à l'imparfait : c'est une hypothèse sur le présent. Le tableau de Règles et points clés indique que la conséquence est alors au conditionnel présent. « Gagner » au conditionnel avec un sujet à la troisième personne du singulier : « gagnerait », c'est-à-dire l'infinitif + la terminaison de l'imparfait « -ait ».",
+   "explicacion_breve": "Si + imparfait → conditionnel présent.",
+   "traduccion": "Si Edouard fuera más rápido, ganaría más propinas.",
+   "errores_previstos": [
+    {
+     "respuesta": "gagnera",
+     "explicacion": "Le futur va avec une condition au présent ; avec si + imparfait, la conséquence est au conditionnel."
+    },
+    {
+     "respuesta": "gagnait",
+     "explicacion": "C'est l'imparfait ; la conséquence demande le conditionnel, qui garde le -r- de l'infinitif : gagnerait."
+    },
+    {
+     "respuesta": "gagnerais",
+     "explicacion": "C'est la forme de je ou tu ; avec « il », la terminaison est -ait."
+    }
+   ],
+   "glosario": [
+    {
+     "palabra": "un pourboire",
+     "significado": "una propina"
+    }
+   ]
+  },
+  {
+   "id": "e06",
+   "tipo": "hueco",
+   "enunciado": "Complétez avec le temps qui convient.",
+   "frase": "Si tu étais venu, tu ___ (voir) le spectacle.",
+   "respuestas": [
+    "aurais vu"
+   ],
+   "explicacion": "La condition, « si tu étais venu », est au plus-que-parfait : c'est une hypothèse sur le passé qui ne s'est pas réalisée. Le tableau de Règles et points clés indique que la conséquence est au conditionnel passé, qui se forme avec l'auxiliaire au conditionnel + participe. « Voir » se conjugue avec avoir : « tu aurais vu ».",
+   "explicacion_breve": "Si + plus-que-parfait → conditionnel passé (avoir au conditionnel + participe).",
+   "traduccion": "Si hubieras venido, habrías visto el espectáculo.",
+   "errores_previstos": [
+    {
+     "respuesta": "verrais",
+     "explicacion": "Le conditionnel présent correspondrait à une condition à l'imparfait ; avec le plus-que-parfait, il faut le conditionnel passé."
+    },
+    {
+     "respuesta": "avais vu",
+     "explicacion": "C'est le plus-que-parfait, le temps de la condition ; la conséquence est au conditionnel passé : aurais vu."
+    },
+    {
+     "respuesta": "serais vu",
+     "explicacion": "« Voir » forme ses temps composés avec avoir : aurais vu."
+    }
+   ]
+  },
+  {
+   "id": "e07",
+   "tipo": "hueco",
+   "enunciado": "Complétez avec le temps qui convient.",
+   "frase": "Je ne serais pas venu si je ___ (connaître) la vérité.",
+   "respuestas": [
+    "avais connu"
+   ],
+   "explicacion": "Ici, la conséquence vient en premier : « je ne serais pas venu », au conditionnel passé. La liste de Règles et points clés rappelle que l'ordre des deux parties est libre. D'après le tableau, au conditionnel passé correspond une condition au plus-que-parfait : « connaître » avec avoir à l'imparfait + participe, « avais connu ».",
+   "explicacion_breve": "Conséquence au conditionnel passé → condition au plus-que-parfait.",
+   "traduccion": "No habría venido si hubiera sabido la verdad.",
+   "errores_previstos": [
+    {
+     "respuesta": "aurais connu",
+     "explicacion": "C'est le conditionnel passé ; après si, jamais de conditionnel."
+    },
+    {
+     "respuesta": "connaissais",
+     "explicacion": "L'imparfait irait avec un conditionnel présent ; avec « serais venu », il faut le plus-que-parfait."
+    },
+    {
+     "respuesta": "eusse connu",
+     "explicacion": "C'est le plus-que-parfait du subjonctif, calque de l'espagnol « hubiera conocido » ; en français, après si, on met celui de l'indicatif."
+    }
+   ]
+  },
+  {
+   "id": "e08",
+   "tipo": "eleccion",
+   "enunciado": "Choisissez la forme correcte.",
+   "frase": "Si tu as le temps, ___-moi.",
+   "opciones": [
+    "appelle",
+    "appellerais",
+    "appelais"
+   ],
+   "respuestas": [
+    "appelle"
+   ],
+   "explicacion": "La condition, « si tu as le temps », est au présent : condition possible. Le tableau de Règles et points clés indique que la conséquence peut être au présent, au futur ou à l'impératif. Ici, le trait d'union et le « -moi » après le blanc indiquent un impératif : « appelle-moi ». À la deuxième personne du singulier des verbes en -er, l'impératif ne prend pas de -s, et « appeler » double le l.",
+   "origen": "tatoeba:13845860",
+   "explicacion_breve": "Avec si + présent, la conséquence peut être à l'impératif.",
+   "traduccion": "Si tienes tiempo, llámame.",
+   "por_opcion": {
+    "appelle": "Correct : impératif de « appeler » avec tu, possible après si + présent.",
+    "appellerais": "Incorrect : le conditionnel correspond à si + imparfait ; de plus, le conditionnel ne peut pas être suivi du pronom « -moi ».",
+    "appelais": "Incorrect : c'est l'imparfait, qui ne convient pas à la conséquence et n'admet pas « -moi » après lui."
+   }
+  },
+  {
+   "id": "e09",
+   "tipo": "eleccion",
+   "enunciado": "Choisissez la forme correcte.",
+   "frase": "Si tu manges ça, tu ___ malade.",
+   "opciones": [
+    "seras",
+    "serais",
+    "sois",
+    "aurais été"
+   ],
+   "respuestas": [
+    "seras"
+   ],
+   "explicacion": "La condition, « si tu manges ça », est au présent : c'est une condition réelle, un avertissement. D'après le tableau de Règles et points clés, la conséquence est au présent, au futur ou à l'impératif. Le futur de « être » avec tu est « seras ».",
+   "explicacion_breve": "Condition possible au présent → futur dans la conséquence.",
+   "traduccion": "Si te comes eso, te pondrás enfermo.",
+   "por_opcion": {
+    "seras": "Correct : si + présent → futur dans la conséquence.",
+    "serais": "Incorrect : le conditionnel demanderait si + imparfait (si tu mangeais ça, tu serais malade).",
+    "sois": "Incorrect : c'est le subjonctif ; il n'a sa place dans aucune partie de la phrase conditionnelle.",
+    "aurais été": "Incorrect : le conditionnel passé correspond à si + plus-que-parfait (si tu avais mangé ça)."
+   }
+  },
+  {
+   "id": "e10",
+   "tipo": "eleccion",
+   "enunciado": "Choisissez la forme correcte.",
+   "frase": "Si seulement j'___ riche…",
+   "opciones": [
+    "étais",
+    "serais",
+    "sois",
+    "suis"
+   ],
+   "respuestas": [
+    "étais"
+   ],
+   "explicacion": "La liste de Règles et points clés explique que « si seulement » + imparfait exprime un souhait sur le présent, comme l'espagnol « ojalá fuera ». C'est pourquoi « être » est à l'imparfait : « j'étais ». L'espagnol emploie le subjonctif (« fuera »), mais le français garde l'indicatif, comme après tout si conditionnel.",
+   "origen": "tatoeba:3754609",
+   "explicacion_breve": "Si seulement + imparfait exprime un souhait sur le présent (es : « ojalá fuera rico »).",
+   "traduccion": "Ojalá fuera rico…",
+   "por_opcion": {
+    "étais": "Correct : si seulement + imparfait, souhait sur le présent.",
+    "serais": "Incorrect : c'est un conditionnel, interdit après si.",
+    "sois": "Incorrect : c'est le subjonctif, calque de l'espagnol « fuera » ; le français ne l'emploie pas après si.",
+    "suis": "Incorrect : le présent n'exprime pas un souhait irréel ; « si seulement je suis riche » n'a pas de sens."
+   }
+  },
+  {
+   "id": "e11",
+   "tipo": "eleccion",
+   "enunciado": "Choisissez la forme correcte.",
+   "frase": "Je ne sais pas s'il ___ demain.",
+   "opciones": [
+    "viendra",
+    "vienne",
+    "venait"
+   ],
+   "respuestas": [
+    "viendra"
+   ],
+   "explicacion": "La dernière explication de Règles et points clés avertit qu'il ne faut pas confondre le si conditionnel avec le si de l'interrogation indirecte (l'équivalent de « si » dans l'espagnol « no sé si »). Ici, « Je ne sais pas s'il… » est une interrogation indirecte, pas une condition : c'est pourquoi elle admet le futur : « viendra ». L'indice est le verbe « savoir » à la forme négative, qui introduit un doute, et « demain ».",
+   "explicacion_breve": "Ici, si introduit une interrogation indirecte (pas une condition) : le futur est donc possible.",
+   "traduccion": "No sé si vendrá mañana.",
+   "por_opcion": {
+    "viendra": "Correct : futur dans une interrogation indirecte, permis parce que ce n'est pas un si conditionnel.",
+    "vienne": "Incorrect : c'est un subjonctif ; après « je ne sais pas si », on emploie l'indicatif.",
+    "venait": "Incorrect : l'imparfait ne va pas avec « demain » ; il ne serait possible qu'au discours indirect au passé (je ne savais pas s'il venait)."
+   }
+  },
+  {
+   "id": "e12",
+   "tipo": "corregir",
+   "enunciado": "Corrigez l'erreur.",
+   "frase": "Si j'aurais le temps, je le ferais.",
+   "respuestas": [
+    "Si j'avais le temps, je le ferais."
+   ],
+   "explicacion": "C'est l'erreur la plus typique, la première de la liste de la fiche. La conséquence, « je le ferais », est au conditionnel ; la condition doit donc être à l'imparfait : « si j'avais ». La règle d'or de Règles et points clés est qu'après le si conditionnel, jamais de conditionnel, de même qu'en espagnol correct on ne dit pas « si tendría ».",
+   "explicacion_breve": "Après le si conditionnel, jamais de conditionnel : imparfait.",
+   "traduccion": "Si tuviera tiempo, lo haría.",
+   "errores_previstos": [
+    {
+     "respuesta": "Si j'aurais le temps, je le ferais.",
+     "explicacion": "C'est la phrase non corrigée : après si, jamais de conditionnel."
+    },
+    {
+     "respuesta": "Si j'avais le temps, je le ferai.",
+     "explicacion": "La condition a été corrigée, mais la conséquence reste au futur ; avec si + imparfait, il faut le conditionnel « ferais »."
+    },
+    {
+     "respuesta": "Si j'aie le temps, je le ferais.",
+     "explicacion": "« Aie » est un subjonctif ; après si, on emploie l'imparfait de l'indicatif."
+    }
+   ]
+  },
+  {
+   "id": "e13",
+   "tipo": "corregir",
+   "enunciado": "Corrigez l'erreur.",
+   "frase": "Si il pleut, nous resterons à la maison.",
+   "respuestas": [
+    "S'il pleut, nous resterons à la maison."
+   ],
+   "explicacion": "Les temps sont corrects (si + présent, futur dans la conséquence), mais pas l'orthographe. La liste de Règles et points clés indique que si s'élide obligatoirement devant il et ils : « s'il pleut ». Devant les autres voyelles (si elle, si on), il n'y a pas d'élision.",
+   "explicacion_breve": "Si + il se contracte obligatoirement en s'il.",
+   "traduccion": "Si llueve, nos quedaremos en casa.",
+   "errores_previstos": [
+    {
+     "respuesta": "Si il pleut, nous resterons à la maison.",
+     "explicacion": "C'est la phrase non corrigée : devant « il », si s'élide obligatoirement."
+    },
+    {
+     "respuesta": "S'il pleuvra, nous resterons à la maison.",
+     "explicacion": "L'élision a été corrigée, mais on a introduit un futur après si, ce que la règle interdit."
+    },
+    {
+     "respuesta": "Si'l pleut, nous resterons à la maison.",
+     "explicacion": "L'élision supprime le i de si, pas celui de il : s'il."
+    }
+   ]
+  },
+  {
+   "id": "e14",
+   "tipo": "transformar",
+   "enunciado": "Transformez la condition possible en hypothèse (si + imparfait).",
+   "frase": "Si j'ai le temps, je le ferai.",
+   "respuestas": [
+    "Si j'avais le temps, je le ferais."
+   ],
+   "explicacion": "Il faut passer du type 1 (condition possible) au type 2 du tableau de Règles et points clés (hypothèse sur le présent ou le futur). Pour cela, la condition passe du présent à l'imparfait (j'ai → j'avais) et la conséquence du futur au conditionnel présent (ferai → ferais). Remarquez que « ferai » et « ferais » ne se distinguent que par le -s final.",
+   "origen": "tatoeba:7698133",
+   "explicacion_breve": "Type 2 : imparfait dans la condition et conditionnel dans la conséquence.",
+   "traduccion": "Si tuviera tiempo, lo haría.",
+   "errores_previstos": [
+    {
+     "respuesta": "Si j'avais le temps, je le ferai.",
+     "explicacion": "La conséquence doit passer au conditionnel : ferais, avec un -s."
+    },
+    {
+     "respuesta": "Si j'aurais le temps, je le ferais.",
+     "explicacion": "La condition n'admet pas le conditionnel : elle est à l'imparfait, j'avais."
+    },
+    {
+     "respuesta": "Si j'ai le temps, je le ferais.",
+     "explicacion": "Seule la conséquence a été changée ; la condition doit aussi passer à l'imparfait."
+    }
+   ]
+  },
+  {
+   "id": "e15",
+   "tipo": "transformar",
+   "enunciado": "Mettez l'hypothèse au passé (si + plus-que-parfait).",
+   "frase": "Si je le savais, je le dirais.",
+   "respuestas": [
+    "Si je l'avais su, je l'aurais dit."
+   ],
+   "explicacion": "On passe du type 2 au type 3 du tableau de Règles et points clés (hypothèse sur le passé). La condition passe de l'imparfait au plus-que-parfait (savais → avais su) et la conséquence du conditionnel présent au conditionnel passé (dirais → aurais dit). Comme le verbe qui suit « le » commence maintenant par une voyelle, le pronom s'élide : « je l'avais su », « je l'aurais dit ».",
+   "explicacion_breve": "Type 3 : plus-que-parfait + conditionnel passé ; le s'élide devant avais et aurais.",
+   "traduccion": "Si lo hubiera sabido, lo habría dicho.",
+   "errores_previstos": [
+    {
+     "respuesta": "Si je le avais su, je le aurais dit.",
+     "explicacion": "Le pronom « le » s'élide devant une voyelle : l'avais, l'aurais."
+    },
+    {
+     "respuesta": "Si je l'aurais su, je l'aurais dit.",
+     "explicacion": "La condition n'admet pas le conditionnel : le plus-que-parfait est « avais su »."
+    },
+    {
+     "respuesta": "Si je l'avais su, je l'avais dit.",
+     "explicacion": "La conséquence doit être au conditionnel passé : aurais dit, pas avais dit."
+    }
+   ]
+  },
+  {
+   "id": "e16",
+   "tipo": "ordenar",
+   "enunciado": "Remettez les mots dans l'ordre.",
+   "palabras": [
+    "peux",
+    "tu",
+    "veux",
+    "rester",
+    "si",
+    "Tu",
+    "ici"
+   ],
+   "respuestas": [
+    "Tu peux rester ici si tu veux",
+    "Si tu veux tu peux rester ici",
+    "Si tu veux rester ici tu peux"
+   ],
+   "explicacion": "C'est une condition possible (si + présent) avec la conséquence au présent, comme le permet le tableau de Règles et points clés. La liste rappelle que l'ordre des deux parties est libre ; on accepte donc « Tu peux rester ici si tu veux » et « Si tu veux tu peux rester ici ». On accepte aussi « Si tu veux rester ici tu peux » (es : « si quieres quedarte aquí, puedes »), où l'infinitif dépend de veux et où peux reste seul à la fin. L'adverbe « ici » se place toujours après « rester ».",
+   "origen": "tatoeba:1359000",
+   "explicacion_breve": "Conséquence au présent + si + présent : « tu peux rester si tu veux ».",
+   "traduccion": "Puedes quedarte aquí si quieres.",
+   "errores_previstos": [
+    {
+     "respuesta": "Tu peux ici rester si tu veux",
+     "explicacion": "L'adverbe de lieu se place après l'infinitif : rester ici."
+    },
+    {
+     "respuesta": "Tu veux si tu peux rester ici",
+     "explicacion": "Cela change le sens (tu veux, si tu peux rester) et sépare si de son verbe ; la condition est « si tu veux »."
+    }
+   ]
+  }
+ ],
+ "fuente": {
+  "nombre": "Tex's French Grammar",
+  "autores": "COERLL, Universidad de Texas en Austin",
+  "licencia": "CC BY 3.0",
+  "url": "https://laits.utexas.edu/tex/gr/tac3.html",
+  "otras": [
+   "Phrases de Tatoeba (CC BY 2.0 FR)"
+  ]
+ },
+ "descripcion_larga_es": "En français, les phrases conditionnelles avec si suivent trois schémas fixes : condition possible (présent), hypothèse sur le présent ou le futur (imparfait + conditionnel) et hypothèse sur le passé (plus-que-parfait + conditionnel passé). La règle d'or est qu'après le si conditionnel, jamais de futur, de conditionnel ni de subjonctif. C'est difficile pour un hispanophone, car l'espagnol emploie là le subjonctif (es : « si tuviera », « si hubiera sabido »).",
+ "contexto": {
+  "que_es": "Ce sont les phrases qui expriment une condition et sa conséquence. Le temps de la condition (présent, imparfait ou plus-que-parfait de l'indicatif) détermine celui de la conséquence (présent, futur ou impératif ; conditionnel présent ; conditionnel passé). Le français n'emploie pas le subjonctif dans ces phrases.",
+  "por_que_importa": "Les hypothèses sont indispensables pour argumenter, proposer des solutions de rechange et évaluer des décisions, ce qu'on fait constamment dans un examen oral ou un essai (« si l'État réduisait les impôts, la consommation augmenterait »). L'erreur « si j'aurais » est l'une des plus stigmatisées en français, comme « si tendría » en espagnol, et elle est durement sanctionnée à l'examen.",
+  "cuando_se_usa": "Chaque fois qu'on pose une condition : projets qui dépendent de quelque chose, conseils, souhaits (« si seulement… »), propositions (« et si on… ») ou regrets sur le passé. Le signal est la conjonction si à valeur conditionnelle ; il faut la distinguer du si de l'interrogation indirecte (« je ne sais pas s'il viendra »), qui admet le futur. L'hispanophone a tendance à mettre un subjonctif ou un conditionnel après si."
+ }
+}
